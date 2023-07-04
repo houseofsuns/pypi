@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="The MIT License MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/f6/5cac345361cb35ff013a2e5a34cc0f62a21faedb16e0173b1043865ef3e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

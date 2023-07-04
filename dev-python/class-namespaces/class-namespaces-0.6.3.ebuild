@@ -15,7 +15,7 @@ DESCRIPTION="Class Namespaces"
 
 HOMEPAGE="https://github.com/mwchase/class-namespaces"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/8b/548d57ae90cf93290d0e331c3bb252cd7365c071bfb436549b85ba699cb2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

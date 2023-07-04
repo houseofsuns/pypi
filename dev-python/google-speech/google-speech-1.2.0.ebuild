@@ -15,7 +15,7 @@ DESCRIPTION="Read text using Google Translate TTS API"
 
 HOMEPAGE="https://github.com/desbma/GoogleSpeech"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/b1/559e13507296318d50d8b3ca96d041d531df084a74ee89b72f88c8489157/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

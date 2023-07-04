@@ -15,7 +15,7 @@ DESCRIPTION="A tool for parsing and dynamically querying nmap scan data"
 
 HOMEPAGE="https://github.com/unheardof/NmapQueryTool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/52/90/829919047ba072cf70c6011dfea661c7b6d7f3cc11257ff9b164a1127953/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

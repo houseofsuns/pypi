@@ -15,7 +15,7 @@ DESCRIPTION="任秋锴的超导工具箱"
 
 HOMEPAGE="http://git.renqiukai.com:1983/renqiukai/cjdg_api.git"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/ce/32/544d2956ea9dc8aa515a6031234eae2f703c09c86ea3ba6d3b4ee2613a2c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

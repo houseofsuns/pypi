@@ -15,7 +15,7 @@ DESCRIPTION="Snips Natural Language Understanding library"
 
 HOMEPAGE="https://github.com/snipsco/snips-nlu"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0e/f8/17a7a22b8e44350845020789fd86869eab28dfb8abcd93e05353c651ca37/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

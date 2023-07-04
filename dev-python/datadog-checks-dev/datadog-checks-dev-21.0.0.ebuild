@@ -15,7 +15,7 @@ DESCRIPTION="The Datadog Checks Developer Tool"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/9e/362c1dd71e9489139582ab6f16a7443834ec8761449088d40e3bbb183fbb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

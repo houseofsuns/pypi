@@ -15,7 +15,7 @@ DESCRIPTION="Utility library for the Trio async/await framework"
 
 HOMEPAGE="https://github.com/groove-x/trio-util"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a2/9f/acc5ca737cf522ebaf54f7cfa7b42a69f24619b487ff28a0d7aedb4e8b9a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

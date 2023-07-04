@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Tinkoff/invest-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e1/1a/6e20cd3792cc652ddcc18de2f6a2580ebc972aca5c108ac817b0e2212f87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

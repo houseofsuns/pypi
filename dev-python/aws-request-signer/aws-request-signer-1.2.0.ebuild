@@ -15,7 +15,7 @@ DESCRIPTION="A python library to sign AWS requests using AWS Signature V4."
 
 HOMEPAGE="https://www.github.com/iksteen/aws-request-signer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/ab/2ca5870971f1e3601e27d22c0290a75dd90bcce066a67884d9034b7cf765/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

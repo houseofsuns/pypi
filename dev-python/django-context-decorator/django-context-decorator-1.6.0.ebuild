@@ -15,7 +15,7 @@ DESCRIPTION="A context decorator for Django views"
 
 HOMEPAGE="https://github.com/rixx/django-context-decorator"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e9/b6/438d311b3b53e92ecc8083b890758157120dad763567bbb3e42b439a3947/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

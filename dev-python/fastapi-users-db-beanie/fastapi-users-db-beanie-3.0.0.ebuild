@@ -15,7 +15,7 @@ DESCRIPTION="FastAPI Users database adapter for Beanie"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/61/fbc8d354ccc4fcbee4860a0d86f687f55d369e1d34fe604236771c13fcff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Robocorp Asset Storage library"
 
 HOMEPAGE="https://github.com/robocorp/robo/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/db/d0/4f4b72b131f099d397ec2f455bf450e9e00589ab846a242ce397f4810bee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

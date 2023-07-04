@@ -15,7 +15,7 @@ DESCRIPTION="Functionality for processing EDGES field data"
 
 HOMEPAGE="https://github.com/edges-collab/edges-analysis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/f8/cd5b3d891acb687a8a5dd4449ca61b4c3ec3390928c943e8651b35550eec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

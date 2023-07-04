@@ -15,7 +15,7 @@ DESCRIPTION="DataLad extension package for deprecated functionality that was pha
 
 HOMEPAGE="https://github.com/datalad/datalad-deprecated"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/1e/0ff2bcb96ea7388e2b7c18a058c23fc5486a777a48351b26bbe7d96da074/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

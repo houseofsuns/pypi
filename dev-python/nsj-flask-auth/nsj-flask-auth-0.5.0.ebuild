@@ -15,7 +15,7 @@ DESCRIPTION="Modulo básico para autenticação de aplicações Flask no context
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f6/02/4ffbc860b251a752e0b77d0510568a696ccced6fade4bff72b3a6c079621/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

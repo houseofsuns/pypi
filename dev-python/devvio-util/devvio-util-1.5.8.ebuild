@@ -15,7 +15,7 @@ DESCRIPTION="Utility to be used inside Devvio projects"
 
 HOMEPAGE=""
 LICENSE="Devvio"
-SRC_URI="https://files.pythonhosted.org/packages/7b/11/677d39e53dd7f04b46029100420340a446767432a05d703cb667075f1c20/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

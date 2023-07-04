@@ -15,7 +15,7 @@ DESCRIPTION="A Streamlit component to display chat messages"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/ec/9b56a67527b2c8e614f91d8d0c32a3dbc22bdb33b553ba3e15ca7085a01e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

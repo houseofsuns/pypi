@@ -15,7 +15,7 @@ DESCRIPTION="XCPCIO Board Spider"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/d9/bc387b36a123b2d1e57f0bec7016b8b2bcd5f03ccc842e18b94b206e26b7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

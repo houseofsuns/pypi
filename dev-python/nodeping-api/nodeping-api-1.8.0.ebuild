@@ -15,7 +15,7 @@ DESCRIPTION="Python package for querying the NodePing API"
 
 HOMEPAGE="https://github.com/NodePing/python-nodeping-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/98/1b/1e3f0d6c172e1583ad125379c25c05cf9e3f60c0087a9f85326393e13718/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

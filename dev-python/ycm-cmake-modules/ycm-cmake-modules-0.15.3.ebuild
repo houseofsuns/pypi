@@ -15,7 +15,7 @@ DESCRIPTION="Extra CMake Modules for YARP and friends."
 
 HOMEPAGE="http://robotology.github.io/ycm"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/99/90/c6297f4f41ed618a14e7be012fa3a3cd3624b7a1ebf25da42232f035c019/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

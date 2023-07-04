@@ -15,7 +15,7 @@ DESCRIPTION="Validador colab é uma ferramenta para validar os dados diarios inc
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/92/1115cd722d7755472a59b19748f337ccfc07ae10baecd74ce60e19abb91c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

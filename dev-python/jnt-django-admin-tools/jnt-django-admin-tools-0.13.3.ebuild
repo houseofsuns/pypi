@@ -15,7 +15,7 @@ DESCRIPTION="Improved django admin interface"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/85/d5/c9b51497d18d6d1d965dbdc1f221b93d233cc52b9b73395a2a6687aa70a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

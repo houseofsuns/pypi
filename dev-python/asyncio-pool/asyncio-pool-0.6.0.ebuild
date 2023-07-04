@@ -15,7 +15,7 @@ DESCRIPTION="Pool of asyncio coroutines with familiar interface"
 
 HOMEPAGE="https://github.com/gistart/asyncio-pool"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/99/11/65f0a225cb01ddd3782dcc0581085f10c9b3215bb911e6f66ff23053bc80/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

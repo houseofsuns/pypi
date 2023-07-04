@@ -15,7 +15,7 @@ DESCRIPTION="Generate all possible forms of an English word."
 
 HOMEPAGE="https://github.com/gutfeeling/word_forms"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/31/39/e0f24b7c3f228561b346ae8c046817ff3d3929d77b0c3ca14a12e4d106b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Sentry integration for structlog"
 
 HOMEPAGE="https://github.com/kiwicom/structlog-sentry"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f5/ff/df94733624472affdedf8e42457d05bc7836347ffde2dc74680d8d0fb51a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

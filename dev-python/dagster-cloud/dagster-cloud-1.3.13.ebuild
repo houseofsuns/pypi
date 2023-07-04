@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://dagster.io/cloud"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7b/7b/2391b4d382a9d9d268c692d83183d54a1685f0be85bf9e5b76a43b870849/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="The TRex Open Traffic Generator Python Package"
 
 HOMEPAGE="https://github.com/open-traffic-generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/30/db/1b2d0210c19f2df3977eacb5b6119244edd0fc746b6edd315c6f791f3578/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Among the simplest imaginable ways to serialize: concatenate and sp
 
 HOMEPAGE="https://github.com/nucypher/bytestringSplitter"
 LICENSE="Apache Software License v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ff/c0/0d9dfadac3ac7ecbaa80dd9d2225709b41df00a276c776f7e5d11ee7166f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

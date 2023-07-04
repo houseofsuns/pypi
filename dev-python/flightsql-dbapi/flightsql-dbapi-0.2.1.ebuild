@@ -15,7 +15,7 @@ DESCRIPTION="DB API 2 and SQLAlchemy adapter for Flight SQL"
 
 HOMEPAGE="https://github.com/influxdata/flightsql-dbapi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/59/75/1b8ab5430223a72fca1ea1329b1182de8bc122a2e20e354e629ebd200523/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

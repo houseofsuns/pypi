@@ -15,7 +15,7 @@ DESCRIPTION="Project to scan and gather connectivity information on small networ
 
 HOMEPAGE="https://github.com/kbriankulig/network-scanner"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/25/c8863e76edc8cc924899c7b668ca894778a95daf635e6156bd7b880ff126/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Live forecast for the OCF nowcasting project"
 
 HOMEPAGE="https://github.com/openclimatefix/nowcasting_forecast"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/47/1bd00928d5db9182e33c56626469294006fbe3f50c49fd9bcf8fa42b98cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

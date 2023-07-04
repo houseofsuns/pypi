@@ -15,7 +15,7 @@ DESCRIPTION="FastAPI like dependency injection implementation"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/60/07/99693b536320a4bdb673403f35feb02b9dc6530603127e27d689ff1bb11b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

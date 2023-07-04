@@ -15,7 +15,7 @@ DESCRIPTION="A cli manga downloader"
 
 HOMEPAGE="https://github.com/olofvndrhr/manga-dlp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/60/cd/58ce9f467bfea1b9bfe1c91601f738f3859626691d5f13a61d2fe5a0b4f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

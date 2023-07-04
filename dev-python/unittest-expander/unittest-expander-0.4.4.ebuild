@@ -15,7 +15,7 @@ DESCRIPTION="Easy and flexible unit test parametrization"
 
 HOMEPAGE="https://github.com/zuo/unittest_expander"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b5/08/bbc507df0b6d84c410d5fe809b5b8288987302542448addc55aced5ce14c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

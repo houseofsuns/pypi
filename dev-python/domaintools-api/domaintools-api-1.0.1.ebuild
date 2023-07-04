@@ -15,7 +15,7 @@ DESCRIPTION="DomainTools Official Python API"
 
 HOMEPAGE="https://github.com/domaintools/python_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/d4/7ac6e7c885d2433112bf14c8e8112f7804227bd59ff8f98d407229c46e35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

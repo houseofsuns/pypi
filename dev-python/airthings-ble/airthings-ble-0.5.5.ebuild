@@ -15,7 +15,7 @@ DESCRIPTION="Manage Airthings BLE devices"
 
 HOMEPAGE="https://github.com/vincegio/airthings-ble"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/64/76/bfcae412647f3076bd7f2223f66a1b00fc3e0b4a4132414649ba6ed97c87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

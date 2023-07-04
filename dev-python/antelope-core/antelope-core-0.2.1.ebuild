@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/AntelopeLCA/core"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/79/dc/f6e8010e03523f19b8c9d996af0ac64c437baf63f9cc2f21ddb48521f121/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

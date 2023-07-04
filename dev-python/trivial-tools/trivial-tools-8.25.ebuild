@@ -15,7 +15,7 @@ DESCRIPTION="Trivial tools for various scripts"
 
 HOMEPAGE="https://github.com/IgorZyktin/trivial_tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f0/b5/fc9215383b6140280c864a1657b6cc8e77fab59fcd57e9f91dbe8dd82137/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

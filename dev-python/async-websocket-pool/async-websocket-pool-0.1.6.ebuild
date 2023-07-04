@@ -15,7 +15,7 @@ DESCRIPTION="async-websocket-pool is a Python library that enables efficient cre
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/55/45/9a1f3e3ab1c60f0c46e6ff2d249ffc64174abfbbf06ab5ea5cdae3086fa5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

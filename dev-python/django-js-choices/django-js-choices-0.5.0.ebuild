@@ -15,7 +15,7 @@ DESCRIPTION="Javascript model field choices handling for Django."
 
 HOMEPAGE="https://github.com/lorinkoz/django-js-choices"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/88/a2/feab63971cd9caff68c500ac5b34ba817ccafe07065c551f0f68617e244f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

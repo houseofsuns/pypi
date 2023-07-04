@@ -15,7 +15,7 @@ DESCRIPTION="A Python client for scraping stats and data from Basketball Referen
 
 HOMEPAGE="https://github.com/vishaalagartha/basketball_reference_scraper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/d9/d305b624569f7fdda759a20bd3387a7f837f3fc7eb6b381db33fb412529b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

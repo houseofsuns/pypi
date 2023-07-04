@@ -15,7 +15,7 @@ DESCRIPTION="Commonly needed Python modules, used by Python software developed a
 
 HOMEPAGE="http://osrf-pycommon.readthedocs.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e1/5f/372510c5311800ff0587b3adf490e81d1d6ff064e2682dae50871e2ff1ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

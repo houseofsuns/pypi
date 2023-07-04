@@ -15,7 +15,7 @@ DESCRIPTION="an asyncio-based client for send metric to StatsD, Graphite.carbon,
 
 HOMEPAGE="https://github.com/so1n/aiostatsd"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/e9/fb13d898632b3199b8d9d5668019200633d4f2afa1c3e08dca60455f8af3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

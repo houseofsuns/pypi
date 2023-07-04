@@ -15,7 +15,7 @@ DESCRIPTION="Suite of utilities for to implementation of bmcs_utils for brittle-
 
 HOMEPAGE="https://github.com/bmcs-group/bmcs_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/32/96746b0ff5def0a8ae2f82c3b4845118282b3956f0abf157153ef47f3d39/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

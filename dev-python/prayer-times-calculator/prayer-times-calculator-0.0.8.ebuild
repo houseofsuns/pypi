@@ -15,7 +15,7 @@ DESCRIPTION="Prayer Times Calculator"
 
 HOMEPAGE="https://github.com/uchagani/prayer-times-calculator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/ef/d8f6869eb4fe16db8be38cc3a425360bcde506cea44e49af3540b82ca6f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

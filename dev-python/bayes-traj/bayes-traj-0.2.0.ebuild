@@ -15,7 +15,7 @@ DESCRIPTION="bayes_traj"
 
 HOMEPAGE="https://github.com/acil-bwh/bayes_traj"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ec/92/a9344b9a95a65f61ea997b7c65842d304496b7d318469e5d292d21d93e84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

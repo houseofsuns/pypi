@@ -15,7 +15,7 @@ DESCRIPTION="A library containing multiple helper and utility functionalities fo
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/46/37aab38d99b81d41b8ee1e81abac07d05e6195c9b36b88439062822a905f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Dash Mobile Dropdown Component"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/6e/9d3a5327467ed8461df4a86378caeee8edd93103ac2fef0896b60981b259/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

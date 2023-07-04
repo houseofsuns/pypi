@@ -15,7 +15,7 @@ DESCRIPTION="Dominance Analysis"
 
 HOMEPAGE="https://github.com/bhagatsajan0073/dominance_analysis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/40/bf/94ca6ae156b7a127de518dd524ff2478c35562d5e3dea57129deacc86364/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

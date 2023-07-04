@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for Netsuite API with Flask Integration"
 
 HOMEPAGE="https://bitbucket.org/theapiguys/netsuite_python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/39/18/b4ff19537f4c7150b7d0278debf5d3f89e2e437e595b9e3019db52f90f10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

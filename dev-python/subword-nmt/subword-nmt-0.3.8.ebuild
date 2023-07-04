@@ -15,7 +15,7 @@ DESCRIPTION="Unsupervised Word Segmentation for Neural Machine Translation and T
 
 HOMEPAGE="https://github.com/rsennrich/subword-nmt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c7/1a/bc10ed2b43788716c9b25ff066c92d6838444a7883f462abbc2e25b34c03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

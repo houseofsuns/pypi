@@ -15,7 +15,7 @@ DESCRIPTION="iduoliao machine learning"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/35/0f/5cdec0ae65f0b8b780c541fa448c202a84c6885f44f6d940f8d125fe05cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

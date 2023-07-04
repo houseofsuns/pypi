@@ -15,7 +15,7 @@ DESCRIPTION="Generate PDF and Excel reports from visually designed templates"
 
 HOMEPAGE="https://www.reportbro.com"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d3/66/7020ee651a2addf91a36bf5a4b0c6178ef1b2485aa388ddbe17afe9702d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

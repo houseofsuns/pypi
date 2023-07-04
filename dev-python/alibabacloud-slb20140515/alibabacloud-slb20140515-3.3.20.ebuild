@@ -15,7 +15,7 @@ DESCRIPTION="Alibaba Cloud Server Load Balancer (20140515) SDK Library for Pytho
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a6/88/1c2cd51828e442dcc761f23c7609d53cdad57e4f4bffbce9452d90789849/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

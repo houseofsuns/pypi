@@ -15,7 +15,7 @@ DESCRIPTION="Modern, pure python, memcache client with support for new meta comm
 
 HOMEPAGE="https://github.com/RevenueCat/meta-memcache-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/98/61aa9a21b1de7efab861880be3bbaefbedb5a167480632fcf5e44a7ad7c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

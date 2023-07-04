@@ -15,7 +15,7 @@ DESCRIPTION="AWS Sagemaker Controller notebook/client API for Pelion Edge Gatewa
 
 HOMEPAGE="https://github.com/DougAnsonAtARM/pelion-sagemaker-controller"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/37/b7/e7f554f6e282b0eb7327244c743cbd5c4a5583ced17bf4b89ae4b366d913/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

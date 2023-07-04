@@ -15,7 +15,7 @@ DESCRIPTION="A package for generating random filters"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/92/8d/22366fa449e4f2c75f1ed45fcc00dd2fff84837eba888c1e49d087d646c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

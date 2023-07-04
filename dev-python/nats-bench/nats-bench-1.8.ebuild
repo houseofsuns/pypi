@@ -15,7 +15,7 @@ DESCRIPTION="API for NATS-Bench (a dataset/benchmark for neural architecture top
 
 HOMEPAGE="https://github.com/D-X-Y/NATS-Bench"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/50/d7/31e2994605397e9baf21af04c3ccca960ab4520aff52e2f2fc1032744caf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

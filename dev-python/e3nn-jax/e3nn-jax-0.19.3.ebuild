@@ -15,7 +15,7 @@ DESCRIPTION="Equivariant convolutional neural networks for the group E(3) of 3 d
 
 HOMEPAGE="https://e3nn.org"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/01/d9/4711d035d1e990cfefb299114eecf4b4fc5347f8b1c1f31155f8b6a1bc4f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

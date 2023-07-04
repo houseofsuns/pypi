@@ -15,7 +15,7 @@ DESCRIPTION="DEPRECATED"
 
 HOMEPAGE="https://github.com/OSMChina/Keqing"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/8c/e6c9b898e5ce65899a3efb343a4be2e8d5a2b469226e510458291c4ef0f8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

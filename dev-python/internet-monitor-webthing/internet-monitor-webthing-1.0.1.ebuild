@@ -15,7 +15,7 @@ DESCRIPTION="A web connected local internet speed and connectivity monitor"
 
 HOMEPAGE="https://github.com/grro/internet_monitor_webthing"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2e/e4/6ac9154f73a729117d75b636ed3080e4e4748cfae0f868ba5c8ff4eb5cbb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

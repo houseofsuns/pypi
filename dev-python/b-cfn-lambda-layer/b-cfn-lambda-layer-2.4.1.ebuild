@@ -15,7 +15,7 @@ DESCRIPTION="AWS CDK based lambda layer including useful utilities."
 
 HOMEPAGE="https://github.com/biomapas/B.CfnLambdaLayer.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b3/12/41dd8f528d0d5abd711ba03e25557fd288a72501017a4bc1bf80cb85e4b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

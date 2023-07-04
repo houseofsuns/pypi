@@ -15,7 +15,7 @@ DESCRIPTION="An open-source CAE and Machine Learning library."
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2c/9d/c01e00b746492752724897d514a86b2c177abd7266d24ce57d4882e4b2c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

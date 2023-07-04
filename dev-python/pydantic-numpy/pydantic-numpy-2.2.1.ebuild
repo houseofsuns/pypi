@@ -15,7 +15,7 @@ DESCRIPTION="Seamlessly integrate numpy arrays into pydantic models"
 
 HOMEPAGE="https://github.com/caniko/pydantic-numpy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/89/52fb7209a031f9f253fabedaecee7df1d9f2029ff1f830dfa4ab1d1d7ee8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A simple python module for keeping repls awake"
 
 HOMEPAGE="https://github.com/IamEinstein/keep_alive"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/5c/d30242e48379bd9f17a54e1a522f46217ef020e36def5c0384f06ea18a58/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

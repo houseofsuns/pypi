@@ -15,7 +15,7 @@ DESCRIPTION="Quantum computer algorithms for chemistry"
 
 HOMEPAGE="https://github.com/QunaSys/quri-parts"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c2/db/a5ffcd27ba8bb833d2aa2f29076a1f1053d9ec74d441c7cde0aa9b1f3837/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

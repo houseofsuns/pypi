@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing equinix-metal cloud reso
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1d/25/f604757bdfc6bec14cf746edfcd1b2ff425d3a6a40ab7f79991c237e669a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="BTCTurk Rest API Python Implementation"
 
 HOMEPAGE="https://github.com/outlier-1/btcturkapi-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/69/2afc918dcadfe1cb194509210d76d07a6329c3f8c9d9b25db8f1dbc7592c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

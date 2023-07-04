@@ -15,7 +15,7 @@ DESCRIPTION="Create maps with OpenStreetMap layers in a minute and embed them in
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e0/cf/04034f542daa4318e6fdfe70ab0006b1c475cf6712544a83d87375d2108e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

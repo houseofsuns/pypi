@@ -15,7 +15,7 @@ DESCRIPTION="A Python3, async interface to the Hilo API"
 
 HOMEPAGE="https://github.com/dvd-dev/python-hilo"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/15/ad/1cbf05eb95c6e818d17cf6d566fb51917e0539db4165c5892d5c9fa6b8cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="flake8 plugin which forbids boolean positional arguments"
 
 HOMEPAGE="https://pwoolvett.github.io/flake8_boolean_trap"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/64/cc/30d36f22ff5a3a81086c37dbbccb2757ae41422f39f1111089d44633020a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

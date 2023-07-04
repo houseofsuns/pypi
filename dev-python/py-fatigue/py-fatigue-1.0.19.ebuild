@@ -15,7 +15,7 @@ DESCRIPTION="py-fatigue bundles the main functionality for performing cyclic str
 
 HOMEPAGE="https://github.com/owi-lab/py_fatigue"
 LICENSE="GNU General Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/1b/a2/5fd2f7e4023836cde9af4317f5cdc8196dabe59fefd0ede3f4f73242e804/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

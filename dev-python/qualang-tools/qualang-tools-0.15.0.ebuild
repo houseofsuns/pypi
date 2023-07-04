@@ -15,7 +15,7 @@ DESCRIPTION="The qualang_tools package includes various tools related to QUA pro
 
 HOMEPAGE="https://github.com/qua-platform/py-qua-tools"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/fb/23/ff370f18338b8ade2357931e127c771ab347d70d7ca30b42147ee1a3d7c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

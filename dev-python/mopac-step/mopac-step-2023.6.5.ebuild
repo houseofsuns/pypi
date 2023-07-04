@@ -15,7 +15,7 @@ DESCRIPTION="A SEAMM plug-in to setup, run and analyze semiempirical calculation
 
 HOMEPAGE="https://github.com/molssi-seam/mopac_step"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/12/75/157d36af12713a9cd9db7fa231071522d57d3252eba9d661526ea2d6c70c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ChaCha20Poly1305 that is reuseable for asyncio"
 
 HOMEPAGE="https://github.com/bdraco/chacha20poly1305-reuseable"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/15/89/07c6c304a38c4cf91473444fd31052ece5fade765aed1278a519684e1032/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

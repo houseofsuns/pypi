@@ -15,7 +15,7 @@ DESCRIPTION="Bitprim Platform"
 
 HOMEPAGE="https://github.com/bitprim/bitprim-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/1d/ff38813224769a9a033bc731b63d8850c5d72cd88e3825e72f5193e058e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for the Windows Java Access Bridge"
 
 HOMEPAGE="https://github.com/robocorp/java-access-bridge-wrapper.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c5/d8/ef958309b153f4ebc1996d4777d128c9fd346bfd532262955c7add5d08ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

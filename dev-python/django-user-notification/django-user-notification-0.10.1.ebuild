@@ -15,7 +15,7 @@ DESCRIPTION="Django message notification package"
 
 HOMEPAGE="https://github.com/aiden520/django-user-notification"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a0/7a/0d0ee39c0456df5fdb43cc28776dcd243971132763f56b8afbc847f8d53c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A config loader for Python projects"
 
 HOMEPAGE="https://github.com/Adaendra/python-config-loader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/56/d6/5a10b66625f6ae9ef242e5f8ca32be1bc3806a8ed0eec1d90e430305b5b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

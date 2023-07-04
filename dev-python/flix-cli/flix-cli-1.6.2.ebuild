@@ -15,7 +15,7 @@ DESCRIPTION="A high efficient, powerful and fast movie scraper."
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e6/e2/14d707b7e6fb612723b86aa29040f4851fa69ed36779b2b9c92b1f0e19e7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

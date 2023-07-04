@@ -15,7 +15,7 @@ DESCRIPTION="An interactive pip requirements upgrader. It also updates the versi
 
 HOMEPAGE="https://github.com/simion/pip-upgrader"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3c/54/d3d6fdc8f5379bb2c0cd2da286796a2bd77e0fdea20b43e37ef1e46f1c46/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

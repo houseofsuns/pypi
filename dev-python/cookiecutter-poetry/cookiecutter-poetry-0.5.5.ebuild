@@ -15,7 +15,7 @@ DESCRIPTION="A python cookiecutter application to create a new python project th
 
 HOMEPAGE="https://github.com/fpgmaas/cookiecutter-poetry"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/96/b668974411f7e1767b2ae1b37bdd52bf83704e6ca24e0f443f49dba620d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

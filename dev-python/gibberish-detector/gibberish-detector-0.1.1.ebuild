@@ -15,7 +15,7 @@ DESCRIPTION="Detects gibberish strings."
 
 HOMEPAGE="https://github.com/domanchi/gibberish-detector"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/24/a5c518032bdb704128ee96f26ac20d9bc60ac32bb71bf3af0424ab287ac1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

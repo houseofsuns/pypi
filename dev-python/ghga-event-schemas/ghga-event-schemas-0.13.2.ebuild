@@ -15,7 +15,7 @@ DESCRIPTION="GHGA Event Schemas: A package that collects schemas used for events
 
 HOMEPAGE="https://github.com/ghga-de/ghga-event-schemas"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2b/3f/8dc292a1ceba9ff191157699e67552740d258526b0b9d6fc7d2bf4c2eb4e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

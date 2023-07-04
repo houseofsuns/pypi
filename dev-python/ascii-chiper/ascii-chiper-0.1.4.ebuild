@@ -15,7 +15,7 @@ DESCRIPTION="A versatile Python module for encrypting and decrypting strings, in
 
 HOMEPAGE="https://github.com/glizzykingdreko/ascii_chiper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fb/a4/121a5c4610aa2fd6f63580c5559445678a5682f8611b0efa31f1a1d5664e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

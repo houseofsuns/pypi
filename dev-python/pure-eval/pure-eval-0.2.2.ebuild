@@ -15,7 +15,7 @@ DESCRIPTION="Safely evaluate AST nodes without side effects"
 
 HOMEPAGE="http://github.com/alexmojaki/pure_eval"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/97/5a/0bc937c25d3ce4e0a74335222aee05455d6afa2888032185f8ab50cdf6fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Python module which repeats ICalendar events by RRULE, RDATE and 
 
 HOMEPAGE="https://github.com/niccokunzmann/python-recurring-ical-events"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/ec/97/7a54ae3154fb40ef8d7fae9e2e7c7c562e391b7e65574c73940c7c17a4f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

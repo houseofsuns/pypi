@@ -15,7 +15,7 @@ DESCRIPTION="Easy access to the meteoblue dataset API"
 
 HOMEPAGE="https://github.com/meteoblue/python-dataset-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/53/02c9194483512d1dc92d229dd71ed52c565e41e15614bc331b0fda0fcb42/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

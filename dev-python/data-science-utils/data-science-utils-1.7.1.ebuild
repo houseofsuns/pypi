@@ -15,7 +15,7 @@ DESCRIPTION="This project is an ensemble of methods which are frequently used in
 
 HOMEPAGE="https://datascienceutils.readthedocs.io/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/2a/89618aca30b7cd779d38a5ee0b6a2371fbbf74401f571db79fed252f0f6e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

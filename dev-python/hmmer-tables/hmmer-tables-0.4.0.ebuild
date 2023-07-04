@@ -15,7 +15,7 @@ DESCRIPTION="Read tables produced by HMMER software."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/8e/014990f237a600fbbfb6725e3487aa7625dbb0a3847f0a2a91e7db6a3ee8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

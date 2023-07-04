@@ -15,7 +15,7 @@ DESCRIPTION="Awesome invoker_terminal created by m00dy"
 
 HOMEPAGE="https://github.com/m00dy/invoker-terminal/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/bb/cfba0b66a3549d8733c41c68ec8579fe84a5eceeb65b5ffab042e9b4e05b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/cytomining/cytominer-database"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/69/d3/aa2c0f8a4a270093c527b87ef39b268eb27a496c40362db297a7debe9e4e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

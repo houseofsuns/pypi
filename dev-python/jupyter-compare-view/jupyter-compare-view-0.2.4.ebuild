@@ -15,7 +15,7 @@ DESCRIPTION="Blend Between Multiple Images in JupyterLab."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/4b/382b3882faa4de741bf4a923d7681d597d5e3694ae2076047d45f619dcce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

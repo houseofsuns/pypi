@@ -15,7 +15,7 @@ DESCRIPTION="An indico install platform"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/31/bd/13fc20a97039f9049e5c1339f57f2fb7d6ecb3147c9e3f226dcada1e6da7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

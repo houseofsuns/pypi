@@ -15,7 +15,7 @@ DESCRIPTION="JSON-RPC server based on fastapi"
 
 HOMEPAGE="https://github.com/smagafurov/fastapi-jsonrpc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ab/ce/b06adeec157559731d37cb0d299060696290cd02749a0b22b345041739ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

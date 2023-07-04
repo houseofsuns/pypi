@@ -15,7 +15,7 @@ DESCRIPTION="A JWT Generator for Python. Creates JWTs for use with Vonage APIs."
 
 HOMEPAGE="https://github.com/Vonage/vonage-python-jwt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f2/b2/9064f3f27ccae3f8fec41813f5dab53acb6c988966b9be0a1ff7282f1860/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

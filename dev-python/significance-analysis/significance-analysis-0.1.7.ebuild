@@ -15,7 +15,7 @@ DESCRIPTION="Significance Analysis for HPO-algorithms performing on multiple ben
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7f/85/88a6e1e6c61bb430f564f8b2a13de3ab0214dcc77d515a13b0a4b06d9be6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

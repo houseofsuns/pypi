@@ -15,7 +15,7 @@ DESCRIPTION="djangoldp package for project data models"
 
 HOMEPAGE="http://git.happy-dev.fr/startinblox/djangoldp_project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/96/4d3f1828903b81df9d81f69e3050959bb94cfcfea8a660c5e9a3bab4fab8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

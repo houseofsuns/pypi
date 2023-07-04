@@ -15,7 +15,7 @@ DESCRIPTION="Python/numba implementation of Wigner D Matrices, spin-weighted sph
 
 HOMEPAGE="https://github.com/moble/spherical_functions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ff/4b/224361292f39e3c6dcba40a26f9bdae30486a77b17d54faa215d73a49838/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Django-pony-forms helps you to write better html for your Django fo
 
 HOMEPAGE="https://github.com/mbraak/django_pony_forms"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9d/f0/1f3214e4522e7d7896bbc9caaac398692c957402fa8ab0ff5499093e3db0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

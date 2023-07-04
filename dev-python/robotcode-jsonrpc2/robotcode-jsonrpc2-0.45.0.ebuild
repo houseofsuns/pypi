@@ -15,7 +15,7 @@ DESCRIPTION="JSONRPC Server for RobotCode"
 
 HOMEPAGE="https://robotcode.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/b2/c20bb2cfd59760b81cd80417afd04862d4a96ba22cf2c60e38d80e40e849/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

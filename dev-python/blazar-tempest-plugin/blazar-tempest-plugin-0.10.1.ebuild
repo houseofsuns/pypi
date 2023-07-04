@@ -15,7 +15,7 @@ DESCRIPTION="Tempest plugin for Blazar Project"
 
 HOMEPAGE="https://docs.openstack.org/blazar/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/d0/d45424808bed0219f507038d5e84f8c232b41dcffd09835ec25edd9760d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

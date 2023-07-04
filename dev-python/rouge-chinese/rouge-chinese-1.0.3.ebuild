@@ -15,7 +15,7 @@ DESCRIPTION="Python ROUGE Score Implementation for Chinese Language Task (offici
 
 HOMEPAGE="https://github.com/Isaac-JL-Chen/rouge_chinese.git"
 LICENSE="LICENCE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/07/a6/3e418f8106d3c1b84e2859aa2093c83cb082e4698b02450940cebbe39eac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

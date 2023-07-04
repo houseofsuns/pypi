@@ -15,7 +15,7 @@ DESCRIPTION="Python precise number type."
 
 HOMEPAGE=""
 LICENSE="Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License  https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode"
-SRC_URI="https://files.pythonhosted.org/packages/dc/67/671c9146a733de62afc8a70ab10fca14d95d2499f595f696683a171f7e3e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tool to generate Python types based on TypedDict from a JSON Schema
 
 HOMEPAGE="https://github.com/camptocamp/jsonschema-gentypes"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/e3/21/4fc0a8fa9b673da03daf7d1ee74f3e0a08b50ea278721f1bbf6912dd09ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

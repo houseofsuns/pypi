@@ -15,7 +15,7 @@ DESCRIPTION="Data Product Definition Tooling"
 
 HOMEPAGE="https://github.com/ioxio-dataspace/data-product-definition-tooling"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/14/45/64b0169ac21d6147733a41271da194764a65f661611338f65c79e494e957/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

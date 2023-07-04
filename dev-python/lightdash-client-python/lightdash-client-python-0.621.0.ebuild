@@ -15,7 +15,7 @@ DESCRIPTION="A client library for accessing Lightdash API "
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/fd/ae61d03eeaefd03ebcb2a57b757fb1d4deace43b83c3c5be78d92e141c6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

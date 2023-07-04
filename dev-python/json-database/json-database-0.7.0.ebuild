@@ -15,7 +15,7 @@ DESCRIPTION="searchable json database with persistence"
 
 HOMEPAGE="https://github.com/OpenJarbas/json_database"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/dc/6d6a6e4d4ab02dcd08a83344818c943799eb68b79619ff862e54c64a2c56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

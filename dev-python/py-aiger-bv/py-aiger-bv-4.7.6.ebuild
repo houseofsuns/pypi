@@ -15,7 +15,7 @@ DESCRIPTION="A python library for manipulating sequential and-inverter gates."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c7/3c/3aa329f97ad2e8b2e020eeefca22189931e8d1fba4f59387b9b1aff389db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

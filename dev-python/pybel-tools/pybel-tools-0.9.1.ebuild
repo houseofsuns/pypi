@@ -15,7 +15,7 @@ DESCRIPTION="A cool pool of tools for BEL"
 
 HOMEPAGE="https://github.com/pybel/pybel-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/d9/1062ca5cb501fb756d458f844692ca6fd466166145e7d343045a088247dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

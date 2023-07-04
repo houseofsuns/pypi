@@ -15,7 +15,7 @@ DESCRIPTION="Python client for standard-daq"
 
 HOMEPAGE="https://github.com/paulscherrerinstitute/std_daq_service"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/9d/fda95b06b8cec2061bad4136f77b7104090b6750a7de6500e54a5fa769a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

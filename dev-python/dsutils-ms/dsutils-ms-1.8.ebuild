@@ -15,7 +15,7 @@ DESCRIPTION="My Data Science Utils"
 
 HOMEPAGE="https://www.linkedin.com/in/matheusserpa/"
 LICENSE="GNU General Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/5e/c4/6ee1c386fd603fa3436db4e95b85aa7e2fe2e1af2ce3248e8067b32f030d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Validate that servicebus messages are in the correct format"
 
 HOMEPAGE="https://github.com/TCARE1/tcare_sbvalidator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/b4/17dc4ff191e0b94ee17b0a473a9e646da6ddf750468c6689ac63fa4a6533/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An Open Source version of ChatGPT Code Interpreter"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c5/1f/5f77f74f8a35a43d5f688b3015476a84c145640c25962211eafdfc67e83a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

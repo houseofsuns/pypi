@@ -15,7 +15,7 @@ DESCRIPTION="Helpers I use for Data Science projects"
 
 HOMEPAGE="https://github.com/leugh/helpers_data_science"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a5/03/d1cce7f1588d8d6d5409e0ded1edb98a5e5c481aa52f494637f48a70ed23/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

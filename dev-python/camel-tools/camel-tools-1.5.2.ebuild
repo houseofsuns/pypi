@@ -15,7 +15,7 @@ DESCRIPTION="A suite of Arabic natural language processing tools developed by th
 
 HOMEPAGE="https://github.com/CAMeL-Lab/CAMeL_Tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/68/f72e7c2d511aacc355dd0f96a4912ee03f49fbc09a559b593b4010e3997a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

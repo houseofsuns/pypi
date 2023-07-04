@@ -15,7 +15,7 @@ DESCRIPTION="django_slots = inclusion tag + blocks"
 
 HOMEPAGE="https://github.com/nwjlyons/django_slots"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3f/28/5779a20f7882d5c3d2310764f7adca794c09a0c7ad52522c92750ceeb0a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

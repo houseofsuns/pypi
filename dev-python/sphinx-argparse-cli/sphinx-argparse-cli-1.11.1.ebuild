@@ -15,7 +15,7 @@ DESCRIPTION="render CLI arguments (sub-commands friendly) defined by argparse mo
 
 HOMEPAGE="https://github.com/tox-dev/sphinx-argparse-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/cb/826783dd464c38a1b9616ff1133d5099f3caed6302875e0bba4b8a139b2e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

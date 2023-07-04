@@ -15,7 +15,7 @@ DESCRIPTION="Generate CRIDs for RaBe"
 
 HOMEPAGE="https://github.com/radiorabe/python-rabe-cridlib"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d0/d0/d47ac2575d7832c187f2cf91e43f80f7bf6418d60353a7361441b6a6b6bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

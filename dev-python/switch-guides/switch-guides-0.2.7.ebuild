@@ -15,7 +15,7 @@ DESCRIPTION="A package for building Platform Guides in Switch Automation Platfor
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/37/b0/cd33d7830b541d5e34b0ca294f049df052d6baa916ba13d5810b65a101f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

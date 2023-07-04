@@ -15,7 +15,7 @@ DESCRIPTION="Python library for interfacing with Sony's Songpal devices"
 
 HOMEPAGE="https://github.com/rytilahti/python-songpal"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/81/90/acae14bf96a045edc671df5a86801c521b1c7db58e1de702230044a6ddda/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

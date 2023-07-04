@@ -15,7 +15,7 @@ DESCRIPTION="Get item prices and volumes from the Steam Community Market using P
 
 HOMEPAGE="https://github.com/offish/steam_community_market"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/e5/0ea01e876a03aa273eeef13808ad5b1c82d51b90b7255e1825cb1ec42a65/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

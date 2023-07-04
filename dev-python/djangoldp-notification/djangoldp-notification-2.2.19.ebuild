@@ -15,7 +15,7 @@ DESCRIPTION="djangoldp package for notifications data models"
 
 HOMEPAGE="https://git.happy-dev.fr/startinblox/djangoldp-packages/djangoldp-notifications"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/d2/c957c49f42813c342b619c4f2e45bdf4e1abaab4c99ed87bb339696866b1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

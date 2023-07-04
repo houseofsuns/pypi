@@ -15,7 +15,7 @@ DESCRIPTION="Convert .heic images to .jpg"
 
 HOMEPAGE="https://github.com/creimers/heic-to-jpg"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/c5/b2b306f922ceeb2cec6d0992dcf1664c994b64ca1f7570197ac5aa5a8c36/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

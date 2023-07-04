@@ -15,7 +15,7 @@ DESCRIPTION="基于已收集的网络设备信息进行的结构化数据分析�
 
 HOMEPAGE="https://github.com/Elinpf/net_inspect"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/24/f7/86f34420e5cc579131f8c31e003f987607172527e5c48165818c865647ce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

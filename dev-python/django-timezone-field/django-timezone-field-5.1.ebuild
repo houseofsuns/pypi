@@ -15,7 +15,7 @@ DESCRIPTION="A Django app providing DB, form, and REST framework fields for zone
 
 HOMEPAGE="https://github.com/mfogel/django-timezone-field/"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/d5/77/26eed0dae663f46032b4dcb86a22498cc02e2357e62fff4abaaef4945c1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

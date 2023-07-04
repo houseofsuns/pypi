@@ -15,7 +15,7 @@ DESCRIPTION="ADI study watch python SDK"
 
 HOMEPAGE="https://github.com/analogdevicesinc/study-watch-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e3/94/ae404d0c75d12c915f09b810681f516828210699b566ebc24d1efec85497/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A tool to manage all of your openHASP device configs in a centraliz
 
 HOMEPAGE="https://github.com/markusressel/openhasp-config-manager"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/f0/59/336135821414c38ede4e0904c8dd3fffd07af203914b5498cd2a585ec6fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

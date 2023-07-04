@@ -15,7 +15,7 @@ DESCRIPTION="Module to automaticly generate fastapi routes for using react admin
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/35/e9/f0e4e3e51f0c5a1c4f482dc0a7de8668659b964d9ea9d7f42ac06f2b1bc9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="根据模型自动生成 API 接口和文档"
 
 HOMEPAGE="https://github.com/olivetree123/flask_autoapi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/92/392c390b15ec18afcc43d1ecfdc9b3e6fc733cfe89f5f58a0854b972a1a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

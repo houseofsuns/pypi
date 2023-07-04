@@ -15,7 +15,7 @@ DESCRIPTION="My Collection of Tools"
 
 HOMEPAGE="https://github.com/hpduongducnhan/ndd_tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/1e/e822ff25aa893da68f896176062d854eda3fb48c37dabe7a177b2793dece/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

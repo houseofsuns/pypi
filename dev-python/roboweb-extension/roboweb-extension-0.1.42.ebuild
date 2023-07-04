@@ -15,7 +15,7 @@ DESCRIPTION="Roboweb JupyterLab extension"
 
 HOMEPAGE="https://roboweb.app/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/5f/98d3daa93accf1cad69f7e7129fdddff585094c0c8825eb5494add3a0898/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

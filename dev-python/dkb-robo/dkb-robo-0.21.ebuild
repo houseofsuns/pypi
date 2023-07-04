@@ -15,7 +15,7 @@ DESCRIPTION="library to access the internet banking area of \"Deutsche Kreditban
 
 HOMEPAGE="https://github.com/grindsa/dkb-robo"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/41/5a/6a8c0e72f5cace8afbe7149c6458e58236b84dc38ff70e80be9ae3eadd19/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

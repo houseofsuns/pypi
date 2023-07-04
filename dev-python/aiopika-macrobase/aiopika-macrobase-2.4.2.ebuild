@@ -15,7 +15,7 @@ DESCRIPTION="Aio-pika driver for macrobase framework"
 
 HOMEPAGE="https://github.com/mbcores/aiopika-macrobase"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/4e/e7f7c665de39026dcc2aa832cfd1f337ced8f08f6f237889a89542cc5193/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

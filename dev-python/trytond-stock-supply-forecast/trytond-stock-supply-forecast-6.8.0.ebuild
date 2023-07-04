@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module to add forecast to supply computation"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/da/57/2d1745cb8039ebaf9eb3ecb00eb198d5f7f105c0c45799799d5b4a5179d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

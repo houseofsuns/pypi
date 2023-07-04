@@ -15,7 +15,7 @@ DESCRIPTION="OCR-D framework - wrappers to create ocrd_model instances"
 
 HOMEPAGE="https://github.com/OCR-D/core"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0a/69/17c5ef7a222f8d914fdd8939ca4cf87bb8a0f48ac7be76f8b119b281306b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

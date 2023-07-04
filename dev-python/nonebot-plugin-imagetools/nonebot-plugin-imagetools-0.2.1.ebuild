@@ -15,7 +15,7 @@ DESCRIPTION="Nonebot2 简单图片操作插件"
 
 HOMEPAGE="https://github.com/noneplugin/nonebot-plugin-imagetools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7d/dd/db3ffc82594f9ac0bb2d2beb6bab10f2caa43197f0297c02a0954df5691c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

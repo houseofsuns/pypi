@@ -15,7 +15,7 @@ DESCRIPTION="pytest plugin for collecting polarion test cases data"
 
 HOMEPAGE="https://gitlab.com/mkourim/pytest-polarion-collect"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/24/ef/c15e2e77b606b118291316d9c7e00e362856502652892be07894b20dec86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

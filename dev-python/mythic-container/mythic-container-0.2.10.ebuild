@@ -15,7 +15,7 @@ DESCRIPTION="Functionality for Mythic Services"
 
 HOMEPAGE="https://docs.mythic-c2.net/customizing/payload-type-development"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3d/47/58d054342633af9913da2bc69c74f56305f9710ab767ddc04e259b8e933b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

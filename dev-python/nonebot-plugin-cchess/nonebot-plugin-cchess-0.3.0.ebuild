@@ -15,7 +15,7 @@ DESCRIPTION="Nonebot2 象棋插件"
 
 HOMEPAGE="https://github.com/noneplugin/nonebot-plugin-cchess"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/40/a8/df65d9c8e0cbd98be9c57f0802a288238d22d2644f62ac03361ebcc015e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

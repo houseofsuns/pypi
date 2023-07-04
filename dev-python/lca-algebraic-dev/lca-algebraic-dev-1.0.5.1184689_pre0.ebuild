@@ -15,7 +15,7 @@ DESCRIPTION="This library provides a layer above brightway2 for defining paramet
 
 HOMEPAGE="https://github.com/oie-mines-paristech/lca_algebraic/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e8/c5/6152a4907c43c5171360cd4f56d17ec94ff2a5fe21708d4a754721078cc6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

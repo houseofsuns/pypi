@@ -15,7 +15,7 @@ DESCRIPTION="A Component Library for Dash aimed at facilitating network visualiz
 
 HOMEPAGE="https://dash.plotly.com/cytoscape"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/45/dd3752058d5a7f853c17d7b292db1311be884e32e4d90bbbebf3b4944e05/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

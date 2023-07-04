@@ -15,7 +15,7 @@ DESCRIPTION="Various BM25 algorithms for document ranking"
 
 HOMEPAGE="https://github.com/dorianbrown/rank_bm25"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fc/0a/f9579384aa017d8b4c15613f86954b92a95a93d641cc849182467cf0bb3b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

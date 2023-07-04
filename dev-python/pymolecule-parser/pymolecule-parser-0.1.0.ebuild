@@ -15,7 +15,7 @@ DESCRIPTION="A parser for molecule formula. Nested brackets are supported."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9b/3f/9e40adbe4dc8ac9b4c58b7829495dd40e925d22545f43772a25d9c45c4d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

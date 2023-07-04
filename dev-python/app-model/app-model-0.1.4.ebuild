@@ -15,7 +15,7 @@ DESCRIPTION="Generic application schema implemented in python"
 
 HOMEPAGE="https://github.com/pyapp-kit/app-model"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/c1/12/e507b9cfb129bc8f403381eaa3d83a6fd87ef6ee751f82a75253e764984f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

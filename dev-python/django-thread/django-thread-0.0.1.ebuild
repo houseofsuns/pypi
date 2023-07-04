@@ -15,7 +15,7 @@ DESCRIPTION="## Helpers for using Django from threads"
 
 HOMEPAGE="https://github.com/ross/django-thread"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/04/ee873a76f166f39fdae65d29e638ef222ad07c19205740bc97f7cff23c25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

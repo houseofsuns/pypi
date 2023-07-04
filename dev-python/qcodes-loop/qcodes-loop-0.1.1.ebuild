@@ -15,7 +15,7 @@ DESCRIPTION="Features previously in QCoDeS"
 
 HOMEPAGE="https://github.com/QCoDeS/Qcodes_loop"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/bc/e8a6fcf994d48de137b87182d5d146357d431507ac15263d557d3814ca05/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

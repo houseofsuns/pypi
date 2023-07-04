@@ -15,7 +15,7 @@ DESCRIPTION="API wrapper for Get Response written in Python"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/d3/6a56da0f60f9689fd3f494ecfe7142dd9ef66ee94bfcac08e4619d8b3069/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

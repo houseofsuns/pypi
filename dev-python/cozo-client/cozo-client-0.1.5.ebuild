@@ -15,7 +15,7 @@ DESCRIPTION="Another Python client for CozoDB, battery included"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/17/e14cd7db9118e88039bc291b2ef2de9722ee889acf4246c6df2c98690c46/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

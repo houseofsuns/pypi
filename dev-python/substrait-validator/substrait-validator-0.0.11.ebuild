@@ -15,7 +15,7 @@ DESCRIPTION="Validator for Substrait query plans"
 
 HOMEPAGE="https://substrait.io/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/61/9f/6254f1bbdd4d015fb48a0578a8fdc4f386961cc41c52531ff0fa9af4dfc1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Utilities for refactoring imports in python-like syntax."
 
 HOMEPAGE="https://github.com/asottile/classify-imports"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/b6/6cdc486fced92110a8166aa190b7d60435165119990fc2e187a56d15144b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

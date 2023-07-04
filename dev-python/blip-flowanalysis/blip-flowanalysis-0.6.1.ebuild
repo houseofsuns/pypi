@@ -15,7 +15,7 @@ DESCRIPTION="A solution for chatbot constructors to identify problems in flow st
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/d6/d510043aca5d40a68969f4f17d7b5b80353d17bb9a75b8188bf8c0d9d49e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

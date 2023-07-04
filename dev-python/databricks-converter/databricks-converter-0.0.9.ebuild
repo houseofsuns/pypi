@@ -15,7 +15,7 @@ DESCRIPTION="It should convert a python module to databricks and viceversa."
 
 HOMEPAGE="https://github.com/aless10/convert-py-2-databricks"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/28/1f/f8fc193ef1410feb47c1ed6b09f16b47aa1fb48bd32167dba941629e39d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

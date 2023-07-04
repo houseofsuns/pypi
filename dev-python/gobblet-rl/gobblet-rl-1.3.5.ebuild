@@ -15,7 +15,7 @@ DESCRIPTION="Interactive Multi-Agent Reinforcement Learning Environment for the 
 
 HOMEPAGE="https://github.com/elliottower/gobblet-rl/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/d4/5f39334856abf21643eb99611cf58414fe25cf7f384e2b90037d5f03b16f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

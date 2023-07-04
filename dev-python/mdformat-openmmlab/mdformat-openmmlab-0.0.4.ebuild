@@ -15,7 +15,7 @@ DESCRIPTION="An mdformat plugin for..."
 
 HOMEPAGE="https://github.com/open-mmlab/mdformat-openmmlab"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/90/2a/13145d1eb68c9d7d568303bd73a6bc67a872e5292f4c01193d40f2071664/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

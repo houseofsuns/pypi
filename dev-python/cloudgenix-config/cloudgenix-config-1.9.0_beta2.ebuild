@@ -15,7 +15,7 @@ DESCRIPTION="Configuration exporting and Continuous Integration (CI) capable con
 
 HOMEPAGE="https://github.com/CloudGenix/cloudgenix_config"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d8/56/03e73a874e61169451bf04f3eac1ecd37b7c393abe8ff9a6b9132fecacd0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

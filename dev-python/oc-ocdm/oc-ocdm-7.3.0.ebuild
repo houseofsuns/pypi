@@ -15,7 +15,7 @@ DESCRIPTION="Object mapping library for manipulating RDF graphs that are complia
 
 HOMEPAGE="https://opencitations.net"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/94/9c/dd895908890061bcadefa6b6cb07266d8f916c120cd7fb66ebf728ae1075/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

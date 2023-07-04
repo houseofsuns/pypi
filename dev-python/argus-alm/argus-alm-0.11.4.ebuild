@@ -15,7 +15,7 @@ DESCRIPTION="Argus"
 
 HOMEPAGE="https://github.com/scylladb/argus"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/94/93/331d33faf4607221faa70187cd9e17b8803dca6e77f1977bce9452b5b7de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="project descriptions here"
 
 HOMEPAGE="https://github.com/FlyTOmeLight"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/84/0665b4ada0178d9ea27c81eacd35d279f3a63d2c73285b8abb7d40908a92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Connector utils and configs for implementing with NIFI"
 
 HOMEPAGE="https://github.com/kingpowerclick/kpc-nifi-utils"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f7/a9/969654518a1d865cfa8d0b266e2938d1d8f3740bd9242b51b83dc0604850/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

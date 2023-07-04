@@ -15,7 +15,7 @@ DESCRIPTION="Simple django cart manager for your django projects."
 
 HOMEPAGE="https://tobi-de.github.io/dj-shop-cart/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/0a/efc10cc3b69bd9d010fc039dd3791f13e8a8b3bc1c35907933842a45f1c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

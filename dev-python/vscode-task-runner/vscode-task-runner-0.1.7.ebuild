@@ -15,7 +15,7 @@ DESCRIPTION="Task runner for VS Code tasks.json"
 
 HOMEPAGE="https://github.com/NathanVaughn/vscode-task-runner"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/a7/aa074fb3bfe14951bce87525c84dc12f4cd7d2eb505883f7347c5744ebc1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

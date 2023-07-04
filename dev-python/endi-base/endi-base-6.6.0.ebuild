@@ -15,7 +15,7 @@ DESCRIPTION="endi_base"
 
 HOMEPAGE="https://framagit.org/endi/endi_base"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/78/dc/b19f9108f6aceb5e074c7f3b0f8f732abd4f6009c292dad4e1a1a98f3df7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

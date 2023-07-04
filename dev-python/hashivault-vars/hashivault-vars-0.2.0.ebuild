@@ -15,7 +15,7 @@ DESCRIPTION="Ansible Vars Plugin for Hashicorp Vault"
 
 HOMEPAGE="https://github.com/goethite/hashivault_vars"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/b2/2aa2e1c8aa973f0f76634d34455dc745517983fce76c3f76f70016105556/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

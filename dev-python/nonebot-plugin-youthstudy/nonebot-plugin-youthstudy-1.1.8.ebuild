@@ -15,7 +15,7 @@ DESCRIPTION="基于nonebot2的青年大学习插件"
 
 HOMEPAGE="https://github.com/ayanamiblhx/nonebot_plugin_youthstudy"
 LICENSE="GNU General Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/c9/c9/95c0a763656e6247e7ee9900f375aef2665e409d68e028a12ad35833027c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

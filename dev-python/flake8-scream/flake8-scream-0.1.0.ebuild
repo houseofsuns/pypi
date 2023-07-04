@@ -15,7 +15,7 @@ DESCRIPTION="flake8 plugin which checks for code that can be simplified"
 
 HOMEPAGE="https://github.com/MartinThoma/flake8-scream"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/69/ab63c7822c36ab69f852bd2bdd820723b0a739c2a1b89bbb09c71922114e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

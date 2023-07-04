@@ -15,7 +15,7 @@ DESCRIPTION="Requests Automation Framework"
 
 HOMEPAGE="https://github.com/Intergration-Automation-Testing/APITestka"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/fd/7c7d6fbb46fb5f6d9a3a717598d6a2b9f4343a49389a892fa766f209c139/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

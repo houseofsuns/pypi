@@ -15,7 +15,7 @@ DESCRIPTION="CTA strategy application for VeighNa quant trading framework."
 
 HOMEPAGE="https://www.vnpy.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/24/f5/65ab0b72ff02404bceeba57b720b430c28f25b5228a6fb5fedb308e210a4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

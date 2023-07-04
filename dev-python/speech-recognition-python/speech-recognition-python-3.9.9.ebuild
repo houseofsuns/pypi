@@ -15,7 +15,7 @@ DESCRIPTION="speechrecognition using pretrained model"
 
 HOMEPAGE="https://github.com/user/amanindia9"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f5/be/f8ee54696b4896e6fab2c066d0d57e710d5641be5437b8d58813deaac29b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

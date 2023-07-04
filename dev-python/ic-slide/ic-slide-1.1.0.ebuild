@@ -15,7 +15,7 @@ DESCRIPTION="api of coriander slides, communicate with private cloud slides."
 
 HOMEPAGE="https://www.intemedic.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/83/5ee79f0016b159790f65dce236f12ea0bd93cc3dffe408f46613bdc770ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

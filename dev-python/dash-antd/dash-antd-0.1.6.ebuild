@@ -15,7 +15,7 @@ DESCRIPTION="Ant Design components for Plotly Dash"
 
 HOMEPAGE="https://github.com/roeap/dash-ant-design-components"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/05/00cce35a8d175b1df91131972bca159b18ace0b33b1dbc3869bc48558dad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

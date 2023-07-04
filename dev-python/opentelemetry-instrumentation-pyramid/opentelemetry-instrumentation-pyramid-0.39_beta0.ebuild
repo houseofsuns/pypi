@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry Pyramid instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-pyramid"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/af/8b5da2648cdc4913aa97f3c84428b479b711efe1721e16cbf59928ede061/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

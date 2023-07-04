@@ -15,7 +15,7 @@ DESCRIPTION="Knowledge graph transformation"
 
 HOMEPAGE="https://cognite-neat.readthedocs-hosted.com/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/82/9b/4f7174c1070b5b94bcb23f738e3964dce89ef50d21f0420a0fbb46fd0d81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

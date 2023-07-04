@@ -15,7 +15,7 @@ DESCRIPTION="A tool that allows to quickly get your basic project structure read
 
 HOMEPAGE="https://github.com/application-creators/create_app"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/c3/a6288b9e247b0bb84b3ad313932794648998198e81f1a0f85e9f7addcbde/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

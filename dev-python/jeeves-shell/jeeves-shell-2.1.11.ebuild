@@ -15,7 +15,7 @@ DESCRIPTION="Pythonic replacement for GNU Make"
 
 HOMEPAGE="https://github.com/jeeves-sh/jeeves-shell"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/f0/e5d3c51a1a2024b5b6748c5cf98172d7942050962d819d0d093d9de88094/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

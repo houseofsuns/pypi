@@ -15,7 +15,7 @@ DESCRIPTION="Extends Django password validation options to include minimum upper
 
 HOMEPAGE="https://github.com/ezrajrice/django-advanced_password_validation.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/41/94640d3663c0666c96be9f344ade2e44a7e303263414fcdcd9ff296e8b85/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

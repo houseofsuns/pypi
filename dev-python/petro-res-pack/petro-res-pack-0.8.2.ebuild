@@ -15,7 +15,7 @@ DESCRIPTION="Package with gym-like env for petroleum reservoir simulation"
 
 HOMEPAGE="https://github.com/lemikhovalex/ReservoirModel"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/95/93/e48507dbdac7692e4c1ca349396b10844d9a4d89dddfdc3f73f90e415f21/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="我的第二个测试包"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/ab/ae9e8cadae9f0442f81626faa9f7465b4fe64bddcbd2614f7513e2938283/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

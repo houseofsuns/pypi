@@ -15,7 +15,7 @@ DESCRIPTION="Networking Device show output|Config capture and parsing utility"
 
 HOMEPAGE="https://github.com/aliasgar1978/capture_it"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/ec/93dfe125580a77347813c5c37df20323b0fff47dad08f9e4e540212f96f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

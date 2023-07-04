@@ -15,7 +15,7 @@ DESCRIPTION="This is the official SDK for Hyperledger Indy (https://www.hyperled
 
 HOMEPAGE="https://github.com/hyperledger/indy-sdk"
 LICENSE="MIT Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fb/30/88f3348a8c63d1d0fc5ad36892e44a87a1185fdabc3ee09889a5e9bd6a7b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

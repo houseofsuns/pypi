@@ -15,7 +15,7 @@ DESCRIPTION="Threading_sched implements a Thread-safe version of Python sched"
 
 HOMEPAGE="https://github.com/pjkundert/threading_sched"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/9f/7f/0a18e6b51dd0fecc69552c48fd3fd3c7cb484cd5d17a764e4e2d649f7dc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

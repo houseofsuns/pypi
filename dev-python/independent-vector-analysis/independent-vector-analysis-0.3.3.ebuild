@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of IVA-G and IVA-L-SOS"
 
 HOMEPAGE="https://github.com/SSTGroup/independent_vector_analysis"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/5b/8e/ac184e12f845e2c61391a20ca4757ec4f0c417bbdd9f98d545dcb67dfcdd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

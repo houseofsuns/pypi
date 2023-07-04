@@ -15,7 +15,7 @@ DESCRIPTION="A package to get random user agents based filters provided by user"
 
 HOMEPAGE="https://github.com/Luqman-Ud-Din/random_user_agent"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ab/29/7bfe8fec7002a62ebf3317af6c52251f229516d7ff405ea9b168f8417404/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

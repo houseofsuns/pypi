@@ -15,7 +15,7 @@ DESCRIPTION="A package containing a bus wizard"
 
 HOMEPAGE="https://github.com/phanlehoang/bus_wizard"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/81/5b/a2958fa7664cd52727c826d2ea656269884bda85f5211e4fcc430302b912/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

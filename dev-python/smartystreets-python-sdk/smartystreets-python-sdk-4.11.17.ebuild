@@ -15,7 +15,7 @@ DESCRIPTION="An official library to help Python developers easily access the Sma
 
 HOMEPAGE="https://github.com/smartystreets/smartystreets-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d8/cf/4b239886bde38788d06afde7802da1bf73a8ea359ecf8be8f73b4a86ebf7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

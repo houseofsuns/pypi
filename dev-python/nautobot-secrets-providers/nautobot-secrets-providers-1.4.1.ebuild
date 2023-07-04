@@ -15,7 +15,7 @@ DESCRIPTION="Nautobot Secrets Providers Plugin."
 
 HOMEPAGE="https://github.com/nautobot/nautobot-plugin-secrets-providers"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/91/eb/bc30d1cec4ef9f710a9a7017ebb95860fbffb545093eafb4f45345b1c78b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

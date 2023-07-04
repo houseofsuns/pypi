@@ -15,7 +15,7 @@ DESCRIPTION="Redash API client and tools to manage your instance."
 
 HOMEPAGE="https://github.com/getredash/redash-toolbelt"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/0f/8f/8625efe6a13defa2094b874b97222d28f0e267937b68c2774024c6e49458/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK to interact with docker registries"
 
 HOMEPAGE="https://github.com/CiscoAandI/cx_releaser/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/70/54584b13a3f610bc454fba4371d6ec5fb475156fa20fa00a56244b7af068/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

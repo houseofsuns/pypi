@@ -15,7 +15,7 @@ DESCRIPTION="Utility functions to manipulate data matrices"
 
 HOMEPAGE="https://github.com/Advestis/adlinear"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/4f/ed155201d380d10cc02452d858a8d82c5a7b2a13a2f7a7a6e5b17b3dfccd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

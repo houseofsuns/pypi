@@ -15,7 +15,7 @@ DESCRIPTION="Create a Streamlit Pandas App"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/dc/afe3ab497d13d77316d87f0f2b893ec26b085d05ebadee31ddbe647c3592/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

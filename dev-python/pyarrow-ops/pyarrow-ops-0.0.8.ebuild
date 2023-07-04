@@ -15,7 +15,7 @@ DESCRIPTION="Useful data crunching tools for pyarrow"
 
 HOMEPAGE="https://github.com/TomScheffers/pyarrow_ops"
 LICENSE="APACHE"
-SRC_URI="https://files.pythonhosted.org/packages/6c/46/2b02e9e9c45dc2bebe4151587c30ec5235dbddf877a03afdf2b949be9289/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

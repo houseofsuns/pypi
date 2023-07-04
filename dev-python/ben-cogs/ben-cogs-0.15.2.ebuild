@@ -15,7 +15,7 @@ DESCRIPTION="Shared cogs for use in Discord bots"
 
 HOMEPAGE="https://github.com/bmintz/cogs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/31/2f5d18e27479a44a51a657b21a079226d69a11dbb24a5fb6a7cf1d80c8b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

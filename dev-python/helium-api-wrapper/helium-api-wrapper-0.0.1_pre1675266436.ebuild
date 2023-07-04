@@ -15,7 +15,7 @@ DESCRIPTION="Helium Api Wrapper"
 
 HOMEPAGE="https://github.com/emergotechnologies/helium-api-wrapper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/22/dc9610304b64316803c71b1aafaa7c605e6621fca3fb66325b0b9d2d0b42/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

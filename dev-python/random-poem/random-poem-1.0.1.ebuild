@@ -15,7 +15,7 @@ DESCRIPTION="Returns a random poem from poetry foundation"
 
 HOMEPAGE="https://github.com/kartikye/random_poem/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/53/11/e45fcc7e241bcd7f2cba799c2f42db109f28fa4598bd3e8ed623a7e676b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

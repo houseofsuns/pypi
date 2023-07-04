@@ -15,7 +15,7 @@ DESCRIPTION="Python utilities for handling ESS streamed data"
 
 HOMEPAGE="https://github.com/ess-dmsc/python-streaming-data-types"
 LICENSE="BSD 2-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/fd/cf/264e07762facf9a1632220565e095b9e501f7167599ccc376c88485f7ebf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

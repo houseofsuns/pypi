@@ -15,7 +15,7 @@ DESCRIPTION="Solve exact cover problems"
 
 HOMEPAGE="https://github.com/jwg4/exact_cover"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/04/16/8903cae89e33895b9a052c685d16eff514d0a4b9eaf4ff54b7e20749ef8b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

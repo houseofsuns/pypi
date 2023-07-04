@@ -15,7 +15,7 @@ DESCRIPTION="ChRIS plugin helper"
 
 HOMEPAGE="https://github.com/FNNDSC/chris_plugin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/0e/6850a0e5f9b648454d28ec1777df6d68c00ad61652513d77e4a700e6f610/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

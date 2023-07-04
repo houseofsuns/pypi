@@ -15,7 +15,7 @@ DESCRIPTION="Molecule Multipass"
 
 HOMEPAGE="https://github.com/andreygubarev/molecule-multipass/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/15/953d51e5d4015487211304ac572188211453ae901cb080b2e30fff6b083b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

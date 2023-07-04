@@ -15,7 +15,7 @@ DESCRIPTION="Tempest plugin for CloudKitty"
 
 HOMEPAGE="https://opendev.org/openstack/cloudkitty-tempest-plugin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ec/c0/51f25a20c86334eaacbbce46a9aaacbf2d1ffa0c1dc50fba7e2e73182699/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing CloudAMQP resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1e/44/e1f000d5158dc430b24b9acd95526668f6f6faf43714e65c74a2155bdad5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

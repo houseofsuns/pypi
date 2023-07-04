@@ -15,7 +15,7 @@ DESCRIPTION="Q-CTRL Commons"
 
 HOMEPAGE="https://q-ctrl.com"
 LICENSE="https://q-ctrl.com/terms"
-SRC_URI="https://files.pythonhosted.org/packages/e9/0b/3dcc109f1b8a585e5f425b2ae226e3967a040eefae155dad75f41e7c7cb1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

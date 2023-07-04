@@ -15,7 +15,7 @@ DESCRIPTION="Create Django FSM transitions as a endpoint with Django REST Framew
 
 HOMEPAGE="https://github.com/sainipray/drf-fsm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/6e/51f27ff68e8c51979e469fb9a9af81b0a2115c0f62115342696006cc2919/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

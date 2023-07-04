@@ -15,7 +15,7 @@ DESCRIPTION="GraphQL integration for AllianceAuth"
 
 HOMEPAGE="https://github.com/Maestro-Zacht/allianceauth-graphql"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/73/02/e51e16b4576792befab7ed7545e53a006a7ea5f114389065da8c58fc274c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

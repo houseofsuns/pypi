@@ -15,7 +15,7 @@ DESCRIPTION="An automatic TikTok video uploader w/ CLI. Uploads videos automatic
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ef/58/2784f483bcd3aeed3071ebd9192b5fda9d71d7c5cec3eaf98977b19e1820/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

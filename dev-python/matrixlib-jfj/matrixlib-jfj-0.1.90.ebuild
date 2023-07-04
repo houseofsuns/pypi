@@ -15,7 +15,7 @@ DESCRIPTION="A library that deals with matrix and vector operations."
 
 HOMEPAGE="https://github.com/JemmaFromJupiter/Matrixlib"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/f6/db/9a43c4f90fc7dbd882a53d72ba61cbbeddc3897ea9b64e1032ee1910b8e7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

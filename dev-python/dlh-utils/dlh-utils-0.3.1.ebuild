@@ -15,7 +15,7 @@ DESCRIPTION="A PySpark package used to expedite and standardise the data linkage
 
 HOMEPAGE="https://github.com/Data-Linkage/dlh_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/62/e3650f1070fe9e2d6d9bdfebb87a29da06b091e0ae799d67e8688526b4ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/cybertronai/pytorch-lamb"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/d5/0627bb028802787f0cc501b0c3d71bd6ab1fa3e8d08d42ff111745d4dd75/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

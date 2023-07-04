@@ -15,7 +15,7 @@ DESCRIPTION="Test suite execution client for ETOS."
 
 HOMEPAGE="https://github.com/eiffel-community/etos-suite-starter"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/df/0e/5f1ae72962c8bdf6454cea746ce106d181e77820224985be61e81dcafb4c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

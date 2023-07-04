@@ -15,7 +15,7 @@ DESCRIPTION="Split a json or jsonl file into equal chunks."
 
 HOMEPAGE="https://github.com/fsai-dev/fsai-cli-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/bd/4b867c7a9be7bab5ab5f9dfd31f506c51d38f7b9ea899427f61b2dbce23b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

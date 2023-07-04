@@ -15,7 +15,7 @@ DESCRIPTION="Schema for multi-dimensional microscopy experiments"
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/6b/4f/56cc5eca1fb2c883624eb676db2b358c960d7a4ca21f3551711b2dcaa145/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

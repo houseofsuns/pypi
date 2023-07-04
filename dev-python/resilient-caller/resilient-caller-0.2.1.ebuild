@@ -15,7 +15,7 @@ DESCRIPTION="A Python package to retry function calls with custom logic and hand
 
 HOMEPAGE="https://github.com/glizzykingdreko/resilient_caller"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/a3/2c7dba5075dc706b84f6bc4636cf84f9b3a61471600c5863947598a9593f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

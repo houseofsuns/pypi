@@ -15,7 +15,7 @@ DESCRIPTION="MicroPython stubs"
 
 HOMEPAGE="https://github.com/josverl/micropython-stubs#micropython-stubs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/76/dcb4e12c4c281baf4f8d73a4c41afd378f628f105646b2f978e1b3ff536e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

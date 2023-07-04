@@ -15,7 +15,7 @@ DESCRIPTION="Create and share a Message Secretly."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/37/ce/acf4f7e74b34dd48cad979af8d98f47d07904ab1e23f1c9db22b4a2c4822/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="s.m.r.t"
 
 HOMEPAGE="https://github.com/csirtgadgets/csirtg-smrt-py"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/dd/45/ec3ae9455d073f02278c0978bf595bf20f5f0c5e6bb37571fa0489c0c44a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

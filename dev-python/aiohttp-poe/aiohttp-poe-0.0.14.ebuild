@@ -15,7 +15,7 @@ DESCRIPTION="A demonstration of the Poe protocol using aiohttp"
 
 HOMEPAGE="https://github.com/quora/poe-protocol"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e7/0d/4e5b6d33d9a877767bd57818066733cdf38720e54cf4e0cb39cfcdcd907e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

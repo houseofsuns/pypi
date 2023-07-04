@@ -15,7 +15,7 @@ DESCRIPTION="ospd based scanner for openvas"
 
 HOMEPAGE="https://github.com/greenbone/ospd-openvas"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/fe/eb/bb0dc343fd3e4efcddd292d34c1934943e8884005c666232415eb6103b24/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ae namespace package portion kivy_sideloading: kivy mixin and widge
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_kivy_sideloading"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/44/5a/ed77d5f8025e71a37ec44e6bcf1a63a6784b9ea7d8b2b60a4d8d66d3103d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

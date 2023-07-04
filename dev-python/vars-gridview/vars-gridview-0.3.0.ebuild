@@ -15,7 +15,7 @@ DESCRIPTION="VARS GridView is a tool for reviewing and correcting VARS localizat
 
 HOMEPAGE="https://github.com/mbari-org/vars-gridview"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/d2/02a5d21ee96c8bb008212f40848e76bee123c7b2e59cd4a64ebc9ef27850/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

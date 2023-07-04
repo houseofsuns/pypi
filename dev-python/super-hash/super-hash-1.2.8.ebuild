@@ -15,7 +15,7 @@ DESCRIPTION="hash the unhashable, hash everything"
 
 HOMEPAGE="https://github.com/jeff-hykin/super_hash.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/26/eab280605822a9b7d1de7d7c27c80f5c6432ff157101742950c66b9c287f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

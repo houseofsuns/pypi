@@ -15,7 +15,7 @@ DESCRIPTION="An async GeoJSON client library for planes using information from a
 
 HOMEPAGE="https://github.com/kuchel77/python-aio-geojson-flightairmap"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/0e/c6597ef2fac10b8a1056a5654cff6683027b0f8c7e11d50d3a58b0d7dcec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

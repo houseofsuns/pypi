@@ -15,7 +15,7 @@ DESCRIPTION="Foodx DevOps pipeline utilities."
 
 HOMEPAGE="https://github.com/Food-X-Technologies/foodx_devops_tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a1/7f/dcbd996cce4f5e3aeb597e0ac7236d5aa2822c9973dde4e2e524d06f47af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

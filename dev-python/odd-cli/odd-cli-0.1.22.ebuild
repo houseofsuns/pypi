@@ -15,7 +15,7 @@ DESCRIPTION="Command line tool for working with OpenDataDiscovery. "
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3e/7a/110b1a9235c5f22b16fa17a10770987309137a23d857d67e32ab913e5248/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

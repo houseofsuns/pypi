@@ -15,7 +15,7 @@ DESCRIPTION="Utilities to make AWS SSO easier"
 
 HOMEPAGE="https://github.com/benkehoe/aws-sso-util"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7d/59/d7717183d187a700298e65f7b416b693af56ca9e70229529c648601bc303/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

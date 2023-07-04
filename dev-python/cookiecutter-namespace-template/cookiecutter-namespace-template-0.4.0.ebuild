@@ -15,7 +15,7 @@ DESCRIPTION="Cookiecutter template for a Python namespace package"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a5/42/16450f910571dded226cb7aa42eff5aa9fcc406c41f676a82a7fc80a4706/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

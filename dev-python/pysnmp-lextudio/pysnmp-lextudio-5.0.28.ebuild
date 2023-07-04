@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/lextudio/pysnmp"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/d5/b8/6c2d808b653bd38451eba7794299fd8482e3a90355568c02800e99fb4b98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

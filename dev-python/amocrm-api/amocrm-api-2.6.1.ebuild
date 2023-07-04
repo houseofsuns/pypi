@@ -15,7 +15,7 @@ DESCRIPTION="Python API for Amocrm"
 
 HOMEPAGE="https://github.com/Krukov/amocrm_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/f0/e90b3828628ee47399b41bb967850f372c6f1071ccfb22cc551c9224b6dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

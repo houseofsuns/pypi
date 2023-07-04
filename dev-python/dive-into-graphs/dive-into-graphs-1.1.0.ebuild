@@ -15,7 +15,7 @@ DESCRIPTION="DIG: Dive into Graphs is a turnkey library for graph deep learning 
 
 HOMEPAGE="https://github.com/divelab/DIG"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f7/27/ffa6c58d56d589b38fec25ad3b9b2f030e4003d0d0ad61d0383b07a95eb7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

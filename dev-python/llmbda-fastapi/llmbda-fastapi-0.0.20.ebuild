@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://relevanceai.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b6/cd/16e2914ccf1dd4a049d9bde3902d3f9600ee30cb3c6f986dab36cc971c70/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

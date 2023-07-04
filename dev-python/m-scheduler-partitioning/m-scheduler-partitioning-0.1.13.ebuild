@@ -15,7 +15,7 @@ DESCRIPTION="Mobio scheduler partitioning libs"
 
 HOMEPAGE="https://github.com/mobiovn"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/fa/0a8a410b59ead0fa5df5a1306ad013c29b3c73b1cf6fab1a20e35cc9b225/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

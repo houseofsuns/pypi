@@ -15,7 +15,7 @@ DESCRIPTION="Python port of Social Finance's children's social care demand model
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/31/0e/85ee8a498e49d29f4f35d5c0808d1240a8916b089280c1f0a80c59ae86c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

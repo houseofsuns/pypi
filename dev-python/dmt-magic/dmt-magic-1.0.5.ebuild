@@ -15,7 +15,7 @@ DESCRIPTION="Jupyter Magic zur Integration des E-Assessment-Systems Data Managem
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/49/44/5da7b4c29f04d2f1743878ede8aaaf7e9b8e3a881e4c17b9a9b006a065e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

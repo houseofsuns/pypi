@@ -15,7 +15,7 @@ DESCRIPTION="User friendly implementation of Enum in Python"
 
 HOMEPAGE="https://github.com/molejar/pyEnum"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a6/ee/5a432f5c91037ba0a289d4e79751c7c88d23a315aa1017656d15364865ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

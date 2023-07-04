@@ -15,7 +15,7 @@ DESCRIPTION="Adapting protein language models and contrastive learning for DTI p
 
 HOMEPAGE="https://github.com/samsledje/ConPLex"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/ce/d9e52fcdbdc3123d58f869bc0892ea5911e717eedf06f227988246039c0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

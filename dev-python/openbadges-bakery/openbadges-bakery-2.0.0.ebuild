@@ -15,7 +15,7 @@ DESCRIPTION="A python utility for baking and extracting Open Badges metadata fro
 
 HOMEPAGE="https://badgr.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/20/51/70b0023b8bc0e145ac7d29b8c5fa6e67b71bf865e82bb3fe455fad5f7847/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

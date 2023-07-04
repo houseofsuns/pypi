@@ -15,7 +15,7 @@ DESCRIPTION="pandora_client is a commandline client for pan.do/ra. You can use i
 
 HOMEPAGE="https://code.0x2620.org/0x2620/pandora_client/wiki"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/94/b8/14353e41c1e97fdf83ee92b9b2132ad1e76bbd9296b0bdfb804ec81dae31/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

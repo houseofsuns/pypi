@@ -15,7 +15,7 @@ DESCRIPTION="The missing Python utility to read and write large compressed JSONs
 
 HOMEPAGE="https://github.com/LucaCappelletti94/compress_json"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f7/60/83343ff7a3e82d78cdb4f09ed0f3652a11fe814180f984620f1ecb2e4c49/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="NSSurge Utilities"
 
 HOMEPAGE="https://github.com/tddschn/nssurge-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d7/41/66f968b41661465ff18cb09713105738f24bc409626707e53328da895808/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

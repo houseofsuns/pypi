@@ -15,7 +15,7 @@ DESCRIPTION="Python package for manipulating gpx files and easily convert gpx to
 
 HOMEPAGE="https://github.com/nidhaloff/gpx_converter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/aa/0a/8a919957b0359738a9b40b335deaf84340764f01d1973174d6ab66f97fe1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python script to calculate LPC firmware checksums"
 
 HOMEPAGE="https://github.com/basilfx/lpc_checksum"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/e7/51b444c547f68b15cf3f865405c7dfadd5d7eb663150328c1904c8945779/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

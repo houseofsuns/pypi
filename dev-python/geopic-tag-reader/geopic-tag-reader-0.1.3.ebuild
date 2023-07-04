@@ -15,7 +15,7 @@ DESCRIPTION="GeoPicTagReader"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/97/3c/9d12decea5ee3bf854eb0acd2e753b9e9a0c6967508ff1336551c3810c69/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

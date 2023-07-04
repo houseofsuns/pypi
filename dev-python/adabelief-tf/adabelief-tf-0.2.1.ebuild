@@ -15,7 +15,7 @@ DESCRIPTION="Tensorflow implementation of AdaBelief Optimizer"
 
 HOMEPAGE="https://juntang-zhuang.github.io/adabelief/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/c7/2e555d850534d0c46d4a5b79260da94627b661abe521c7875c55ae552ba9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

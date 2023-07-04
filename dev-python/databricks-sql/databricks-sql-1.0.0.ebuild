@@ -15,7 +15,7 @@ DESCRIPTION="Databricks SQL framework, easy to learn, fast to code, ready for pr
 
 HOMEPAGE="https://github.com/bernardocouto/databricks-sql"
 LICENSE="Apache 2-0"
-SRC_URI="https://files.pythonhosted.org/packages/85/a0/b89bf51cadbf67913a33a0258b1362b7ca6cf526adfb465641916e62a0ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

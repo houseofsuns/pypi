@@ -15,7 +15,7 @@ DESCRIPTION="A Python Package to deploy tasks on Automation Anywhere 360"
 
 HOMEPAGE="https://github.com/minterciso/pyAutomationAnywhere"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/71/f10395392d28b56419b22cb2b2c32dad52fe9ff536743dc42876b69086cc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

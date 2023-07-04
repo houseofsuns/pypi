@@ -15,7 +15,7 @@ DESCRIPTION="Provides 1D bin packing logic."
 
 HOMEPAGE="https://github.com/ibigpapa/bin_packing_problem"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/49/70/95416979ca263d51a2bf39573b4256b51658cc751eb06f8b3a40afa43030/${REALNAME//-/_}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.zip"
 SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Compressed Rich Text Format (RTF) compression and decompression pac
 
 HOMEPAGE="https://github.com/delimitry/compressed_rtf"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/ac/abb196bb0b42a239d605fe97c314c3312374749013a07da4e6e0408f223c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

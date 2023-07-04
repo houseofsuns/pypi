@@ -15,7 +15,7 @@ DESCRIPTION="ChEMBL Structure Pipeline"
 
 HOMEPAGE="https://www.ebi.ac.uk/chembl/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/16/15e308f46f3b1991ec672b53f3dff85d6ff47e4c8bcd4bc61dce7ab0b189/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

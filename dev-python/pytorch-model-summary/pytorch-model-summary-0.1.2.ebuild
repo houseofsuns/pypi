@@ -15,7 +15,7 @@ DESCRIPTION="It is a Keras style model.summary() implementation for PyTorch"
 
 HOMEPAGE="https://github.com/amarczew/pytorch_model_summary"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/27/9d203b258a2a0cde53eabecadfd865e0d64de370bb87b4d013c4dcf091dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

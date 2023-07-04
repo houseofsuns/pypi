@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for, a ratelimiting library written in Rust."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/0c/e21231e7e97e7b823cad2be95243d6f3c1964a402109423dfa81bb665a53/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

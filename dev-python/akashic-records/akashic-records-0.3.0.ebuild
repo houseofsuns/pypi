@@ -15,7 +15,7 @@ DESCRIPTION="Generate and execute python code via OpenAI code completion"
 
 HOMEPAGE="https://github.com/buckley-w-david/akashic_records"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/49/1a/129abcff45ea91244b616f0517e4ddea76a010bae9f97be1920e0205e87a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

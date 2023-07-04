@@ -15,7 +15,7 @@ DESCRIPTION="Secure wallet and development enviroment"
 
 HOMEPAGE="https://github.com/darkerego/secure_web3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/aa/97/6064dd472aa070b93a9e84298ad000ba6e525f9b763f8dd4f1221c47c8ce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

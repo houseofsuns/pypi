@@ -15,7 +15,7 @@ DESCRIPTION="A fast and correct Python string validator library"
 
 HOMEPAGE="https://github.com/tropicbliss/stringvalidator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c1/c3/c8b6aea1a4564d2911d2feffffac8f7e5486c3f5e73877b80a92a9a1ef73/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

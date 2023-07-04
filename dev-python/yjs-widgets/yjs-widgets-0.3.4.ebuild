@@ -15,7 +15,7 @@ DESCRIPTION="A JupyterLab extension for widgets based on Yjs."
 
 HOMEPAGE="https://github.com/QuantStack/yjs-widgets"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/e1/84/7a85be44a333add40b0d0e5693eb565c6eb1faf6887da92f8629cab7f9ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

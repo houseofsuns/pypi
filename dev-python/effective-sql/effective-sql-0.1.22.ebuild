@@ -15,7 +15,7 @@ DESCRIPTION="A effective style to operate sql"
 
 HOMEPAGE="https://github.com/GitHuHao/effective_sql.git"
 LICENSE="GPL Licence"
-SRC_URI="https://files.pythonhosted.org/packages/d5/fa/4aca0ac989fe27fbf3661d1c8c2f15ceb21ba9b28863cf2dead9b4410a34/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

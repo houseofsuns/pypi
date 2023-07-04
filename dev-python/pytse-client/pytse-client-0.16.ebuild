@@ -15,7 +15,7 @@ DESCRIPTION="tehran stock exchange(TSE) client in python"
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/44/d2/063eb5fd80e014decf46ad2ab52874da4c09221a163808fc7c99d5f9f741/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Bot to send new comments to channel in Slack"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/3b/242fc9806b79a103bf1749d63ad0e4836fcb483533785d1a086f877028e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

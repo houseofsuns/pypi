@@ -15,7 +15,7 @@ DESCRIPTION="Test case fails,take a screenshot,save it,attach it to the allure"
 
 HOMEPAGE="https://github.com/fungaegis/pytest-failed-screenshot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/15/8f52ddfc7d58989f2ef0e1b36992146733f97373b90e00be4fc692a50f82/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

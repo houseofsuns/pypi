@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper of \`wp.py\`. Easy to premake, build, and deploy wwise plug
 
 HOMEPAGE="https://github.com/tgalpha/wp-enhanced"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/e1/49834e72fc6ef6a76787af2b9ed7ae75fc623909af2a45fce35e2ae5d77f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

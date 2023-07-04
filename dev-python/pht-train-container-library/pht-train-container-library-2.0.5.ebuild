@@ -15,7 +15,7 @@ DESCRIPTION="Python library for handling containerized PHT trains"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/01/0b2b51a9d785aeb99ed39bab72a647f9e0509e56c6e5269612a3c218ffa4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

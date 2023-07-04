@@ -15,7 +15,7 @@ DESCRIPTION="nameko wrapper"
 
 HOMEPAGE="https://github.com/li1234yun/nameko-wrapper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/e0/5fda0df4b0546cb6fe57931c08c1a8955e07331d53a43eb515e2d052eaa3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

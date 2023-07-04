@@ -15,7 +15,7 @@ DESCRIPTION="EZs Modern Treasury Client Library"
 
 HOMEPAGE="https://github.com/equityzen/ez-modern-treasury"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/95/7c/f1e72e9e4f6462b38595d0850526a09e07d46dec4aee73ce6d6d7b544535/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

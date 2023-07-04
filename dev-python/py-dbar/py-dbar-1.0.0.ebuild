@@ -15,7 +15,7 @@ DESCRIPTION="Dbar Algorithm for EIT"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/a5/fb387ed1f52e65b117c7ba1e0d92ce2fd9328e33071ff89ae7d4f31d7908/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

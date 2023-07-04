@@ -15,7 +15,7 @@ DESCRIPTION="Salesforce API tools"
 
 HOMEPAGE="https://github.com/dacmanj/salesforce-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/d6/7f5b21eaa27847384224125212e4b28c1d7ea91ffbd7140fd1e6706733b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

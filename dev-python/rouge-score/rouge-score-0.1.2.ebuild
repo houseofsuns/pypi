@@ -15,7 +15,7 @@ DESCRIPTION="Pure python implementation of ROUGE-1.5.5."
 
 HOMEPAGE="https://github.com/google-research/google-research/tree/master/rouge"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e2/c5/9136736c37022a6ad27fea38f3111eb8f02fe75d067f9a985cc358653102/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

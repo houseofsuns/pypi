@@ -15,7 +15,7 @@ DESCRIPTION="使用Kyomotoi / AnimeThesaurus的nonebot2的回复（文i）插件
 
 HOMEPAGE="https://github.com/KarisAya/nonebot_plugin_kawaii_robot"
 LICENSE="AGPLv3 License"
-SRC_URI="https://files.pythonhosted.org/packages/93/f7/4ade3bedb5851c9513d3e95af7fd5d081fd9cb0667d52a2eb0d6ead3107f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

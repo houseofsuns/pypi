@@ -15,7 +15,7 @@ DESCRIPTION="Simple Server-side Datatable processing view for Django"
 
 HOMEPAGE="https://github.com/umesh-krishna/django_serverside_datatable"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/53/b29faa8352b6135a499ef5a87db80893a4cc55f9e01abaf4e2eb24cac7b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

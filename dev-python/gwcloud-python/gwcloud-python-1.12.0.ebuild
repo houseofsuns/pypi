@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper of GWDC API, used for interacting with the GWCloud endpoint
 
 HOMEPAGE="https://github.com/gravitationalwavedc/gwcloud_python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ce/3e/2b08336debcd15b25163b9634f2df3fd79216beb5900c51fe7d5ee0a8922/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

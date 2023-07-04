@@ -15,7 +15,7 @@ DESCRIPTION="Settings for Github, Cloudflare Images API"
 
 HOMEPAGE="https://mv3.dev"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/45/f36ddf72c4e6cea910767b2286a2cb99f4852b0634a1ca4279cb998de39d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="CLI tool for the Shopcloud SecretHub"
 
 HOMEPAGE="https://github.com/Talk-Point/shopcloud-secrethub-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/68/c16039a74d6282dfd2a624ccccd4fd8cd073280aa296b75536c30755f10c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

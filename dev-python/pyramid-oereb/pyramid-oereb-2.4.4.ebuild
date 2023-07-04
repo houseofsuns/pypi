@@ -15,7 +15,7 @@ DESCRIPTION="pyramid_oereb, extension for pyramid web frame work to provide a ba
 
 HOMEPAGE="https://github.com/openoereb/pyramid_oereb"
 LICENSE="BSD 2"
-SRC_URI="https://files.pythonhosted.org/packages/a3/03/8c32d62268e99b0ad084539a668697ea7f5d9128e4e19a7bb118bf0cbbfc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/jaskirat1208/backtest-platform"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7d/dd/fc9aa430458c0dc666aa2c067a82026d4e6cdb1292bef766be5f1071dde2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

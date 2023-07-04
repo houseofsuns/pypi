@@ -15,7 +15,7 @@ DESCRIPTION="Easy use Google Spreadsheet in Python."
 
 HOMEPAGE="https://github.com/da-huin/easy_spreadsheet"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/eb/f0c94c4e655c70af9ad04cd8ac10f6892c864aa2600731248e39172d30a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

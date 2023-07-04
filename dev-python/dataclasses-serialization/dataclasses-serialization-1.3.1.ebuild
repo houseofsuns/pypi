@@ -15,7 +15,7 @@ DESCRIPTION="Serialize/deserialize Python dataclasses to various other data form
 
 HOMEPAGE="https://github.com/madman-bob/python-dataclasses-serialization"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/df/bda785530cf0fffb7f3531523895e1410ec22b5fe02c54f1e5de93d47b74/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

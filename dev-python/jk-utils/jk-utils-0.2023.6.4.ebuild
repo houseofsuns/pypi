@@ -15,7 +15,7 @@ DESCRIPTION="This python module provides various utility functions and classes."
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5c/e6/2e5731804dbb6f83e780ee3250f3ed969f83f2a7cb0d38117f908368ed03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

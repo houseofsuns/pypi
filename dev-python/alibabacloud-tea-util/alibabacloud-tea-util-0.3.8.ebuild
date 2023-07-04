@@ -15,7 +15,7 @@ DESCRIPTION="The tea-util module of alibabaCloud Python SDK."
 
 HOMEPAGE="https://github.com/aliyun/tea-util/tree/master/python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e6/9b/d711a92ad72e5a260a8b911e0475c4afab063cfcc76e12e15d597d683f38/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

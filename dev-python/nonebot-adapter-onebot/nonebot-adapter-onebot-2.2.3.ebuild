@@ -15,7 +15,7 @@ DESCRIPTION="OneBot(CQHTTP) adapter for nonebot2"
 
 HOMEPAGE="https://adapter-onebot.netlify.app/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/12/253510c7c117cad35d3c5edc50b6e85898ee7dbf7b25850f9787229e59c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

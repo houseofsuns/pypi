@@ -15,7 +15,7 @@ DESCRIPTION="Extract your metadata assets."
 
 HOMEPAGE="https://www.castordoc.com/"
 LICENSE="EULA"
-SRC_URI="https://files.pythonhosted.org/packages/7a/e4/5108fdb40c7658cce3d84ca25961f597914ead8bde14f889b954beef6877/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

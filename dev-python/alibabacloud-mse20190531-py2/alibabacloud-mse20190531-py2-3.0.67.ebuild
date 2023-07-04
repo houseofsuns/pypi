@@ -15,7 +15,7 @@ DESCRIPTION="Alibaba Cloud Microservice Engine (20190531) SDK Library for Python
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python2-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a6/b5/e8a999746bcec57cb90ca1104314e8cc608758590c916b1c662b96d553d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

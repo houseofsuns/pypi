@@ -15,7 +15,7 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2a/a2/e6c47bfa4dcb4ccaf6692dcb3c1fdfb2ceff317a23a13de9d6e4b1c4e924/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

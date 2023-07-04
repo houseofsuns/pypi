@@ -15,7 +15,7 @@ DESCRIPTION="A pytest plugin that allows multiple failures per test."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/34/55/3764728ae8e29447a3a897621af32a8bcf1545fb83722e3be6196eefe03a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

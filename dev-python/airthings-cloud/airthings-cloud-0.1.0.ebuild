@@ -15,7 +15,7 @@ DESCRIPTION="A python3 library to communicate with Airthings devices"
 
 HOMEPAGE="https://github.com/Danielhiversen/pyAirthings"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/7b/07811ea04e5767ac5a3a47c1230c286d62f581319e4c7f7b1284b1c51c3d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

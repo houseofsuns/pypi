@@ -15,7 +15,7 @@ DESCRIPTION="API client for the Insight app for Jira"
 
 HOMEPAGE="https://github.com/dstengele/python-insight"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/71/09/b5d081c907acbd3f7d02df2157f71ae5eddc5885435339224888cdd964d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

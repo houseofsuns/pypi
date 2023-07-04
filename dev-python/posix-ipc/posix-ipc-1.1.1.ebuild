@@ -15,7 +15,7 @@ DESCRIPTION="POSIX IPC primitives (semaphores, shared memory and message queues)
 
 HOMEPAGE="https://github.com/osvenskan/posix_ipc"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/07/7f/b954f224a226960a4aa98b6c5fa3d4f3fafb20bb8461446e41b563aee863/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

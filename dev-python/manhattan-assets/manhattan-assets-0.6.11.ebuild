@@ -15,7 +15,7 @@ DESCRIPTION="Core asset management for manhattan applications."
 
 HOMEPAGE="https://git.getme.co.uk/manhattan/manhattan_assets"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/91/88a4168f8ff2e011683480d4d21174faeb7bbee027f7f97d2a8056e0e28f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

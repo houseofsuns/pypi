@@ -15,7 +15,7 @@ DESCRIPTION="Common Streamlit framework used by Exploration Toolkit"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/37/cfe030d9f32f1414e625d138cf18343b40d943dbcf5369bff1460776b271/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

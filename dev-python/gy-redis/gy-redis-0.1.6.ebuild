@@ -15,7 +15,7 @@ DESCRIPTION="GuanYu for test"
 
 HOMEPAGE="https://github.com/guanyuhoujeff/gy-redis"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/50/cf60a4b23683149206c0b4c90b2ac9630bb1d64ba16f7f4e201ca4155bb4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

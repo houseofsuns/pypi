@@ -15,7 +15,7 @@ DESCRIPTION="Dynafed Storage Stats Module"
 
 HOMEPAGE="https://github.com/hep-gc/dynafed_storagestats"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/18/e1/de85b37e4e1abed90dde4640b7acca3b7b6b397afc34fa20b8de12ca29a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="The usaddress library made easy with Pandas."
 
 HOMEPAGE="https://github.com/Lyonk71/pandas-usaddress"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/16/63e09bc175aee1a03dc6ba455e1f21902b3854d199b530a4cac8cf1ea9f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

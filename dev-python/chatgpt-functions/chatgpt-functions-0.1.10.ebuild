@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper over the gpt3.5 model, capable of calling functions"
 
 HOMEPAGE="https://github.com/Wellmare/chatgpt-functions"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b8/30/eccadfac91cbcb7876c34054d16276770c6790cb9add37c75d52f2e7e66e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

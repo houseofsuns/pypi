@@ -15,7 +15,7 @@ DESCRIPTION="A collection of Python utility functions for ingesting data into SQ
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3e/f5/f6419d55a4e67dff45521f1c188acf8a716ae60e60fe0dad710bc78062ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

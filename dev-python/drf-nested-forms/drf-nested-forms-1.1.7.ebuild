@@ -15,7 +15,7 @@ DESCRIPTION="A library that parses nested json or form data to python object"
 
 HOMEPAGE="http://github.com/emperorDuke/nested_formdata"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/55/94/8b4b5830ce5855be624a94a4fbe6f4e4d779b8721f3f0c7a433c26e74072/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

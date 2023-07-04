@@ -15,7 +15,7 @@ DESCRIPTION="Brainways UI"
 
 HOMEPAGE="https://github.com/bkntr/napari-brainways"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ff/bb/afbac5b96e13c9192c47fc1820ca527c9fb6c7ab42ca9e7569c0365ea5c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

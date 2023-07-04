@@ -15,7 +15,7 @@ DESCRIPTION="Coralogix Python SDK"
 
 HOMEPAGE="http://www.coralogix.com/"
 LICENSE="Apache Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e9/41/0269f75291e811268e211206863149d713e545ae0bbed720459d269ecddd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

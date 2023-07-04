@@ -15,7 +15,7 @@ DESCRIPTION="A docutils-compatibility bridge to markdown, enabling you to write 
 
 HOMEPAGE="https://github.com/codejamninja/sphinx-markdown-parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bb/fa/83b286f823513a9ca3cfea4e04c8709083a308734bf1f7535a94a7f96df8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

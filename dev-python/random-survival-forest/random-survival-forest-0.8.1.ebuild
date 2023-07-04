@@ -15,7 +15,7 @@ DESCRIPTION="A Random Survival Forest implementation inspired by Ishwaran et al.
 
 HOMEPAGE="https://github.com/julianspaeth/random-survival-forest"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a3/e3/f1a1f494317d16d54b36dfcb086988b1c2ce3bd8dbff51e0821d6ae69f0c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

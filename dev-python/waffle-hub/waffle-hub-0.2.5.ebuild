@@ -15,7 +15,7 @@ DESCRIPTION="Waffle hub"
 
 HOMEPAGE="https://github.com/snuailab/waffle_hub"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/21/79/070147625df9b34dfca03963e83d8624076ae0e4bd68f0d536c339eebace/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

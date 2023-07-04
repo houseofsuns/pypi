@@ -15,7 +15,7 @@ DESCRIPTION="HAML like syntax for Django templates"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8f/c3/117776c4c7c67c342889f73fb17a87d713e43ec3635cc2664c99d74d3f68/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

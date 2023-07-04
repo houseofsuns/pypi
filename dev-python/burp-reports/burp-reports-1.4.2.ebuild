@@ -15,7 +15,7 @@ DESCRIPTION="Burp reports package"
 
 HOMEPAGE="https://github.com/pablodav/burp_server_reports"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e1/1e/a17589872f3fe7fe8260d4bba34f2f253afc4009531990cfcb32de7faac2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

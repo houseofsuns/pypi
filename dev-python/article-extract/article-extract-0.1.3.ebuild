@@ -15,7 +15,7 @@ DESCRIPTION="Article extractor can extract title, time, author, article content,
 
 HOMEPAGE="https://github.com/cuiyonghua6/article_eatract"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/3d/822d76e3699197006761a36bad25c7770732dbbcc65271982350fb93ce73/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Simple class to log to csv using the logging rotating handler, outp
 
 HOMEPAGE="https://github.com/Morrious/csv-logger"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/46/19/9de6a669ca2a7bda4521a0636d69fb73f92fa6cbf2c8d728d0880db37832/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

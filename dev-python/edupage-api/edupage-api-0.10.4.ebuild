@@ -15,7 +15,7 @@ DESCRIPTION="A python library for accessing your Edupage account"
 
 HOMEPAGE="https://github.com/ivanhrabcak/edupage-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/ed/162409b6b1bdd323e9cd06c0aefe20e73460584c3380f881596852df3ca8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

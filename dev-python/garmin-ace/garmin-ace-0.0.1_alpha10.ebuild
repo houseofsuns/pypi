@@ -15,7 +15,7 @@ DESCRIPTION="Garmin Aviation Checklist Editor (ACE) - Parse and write ACE files 
 
 HOMEPAGE="https://gitlab.com/antoviaque/garmin-ace"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/ee/6b427225f9624d7a0af2d0aae801ca4b9e2c8ff9eeed905152184ced95c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

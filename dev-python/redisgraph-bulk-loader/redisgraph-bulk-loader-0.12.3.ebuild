@@ -15,7 +15,7 @@ DESCRIPTION="RedisGraph Bulk Import Tool"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/26/2b/45aefcd0c284b5a738960e9537d4b0f12e0ce4660f6611fe5441d119f70c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

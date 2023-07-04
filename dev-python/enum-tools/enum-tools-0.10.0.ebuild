@@ -15,7 +15,7 @@ DESCRIPTION="Tools to expand Python's enum module."
 
 HOMEPAGE="https://github.com/domdfcoding/enum_tools"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/6f/4c/b4c2979373761641c9a6490de8f820a61124589d3dd311763b6866e87073/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

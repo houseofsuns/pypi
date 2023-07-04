@@ -15,7 +15,7 @@ DESCRIPTION="CLI helper to install Github releases on your system."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/88/580e555daf55b828779c6cf982fc2e2d30d38388f341f8d8079cf21799b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

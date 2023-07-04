@@ -15,7 +15,7 @@ DESCRIPTION="A python library for controlling chemical space"
 
 HOMEPAGE="https://github.com/DarkMatterAI/chem_templates"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/87/68/116397e506bcc83bbaf0dc0f61228d475ba80d0e2ddc4d1c5f4837831fa4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

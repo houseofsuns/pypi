@@ -15,7 +15,7 @@ DESCRIPTION="stock analyser and database processing programs"
 
 HOMEPAGE="https://pypi.org/project/analyser_hj3415/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/52/7a/dbb4878a4e1ce135cbdf3e77c4289610a1a7ab4ede0bb552a6a1791015bb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A wonderful, simple, yet powerful and extendable Slack bot framewor
 
 HOMEPAGE="https://github.com/DonDebonair/slack-machine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/bd/afff66132b20241fa419a4197cc1915bb991ae64381a8289bc5a0d4b8317/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

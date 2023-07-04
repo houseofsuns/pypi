@@ -15,7 +15,7 @@ DESCRIPTION="Erlang External Term Format for Python"
 
 HOMEPAGE="https://github.com/okeuday/erlang_py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/09/709161fdfe47bc1c3b950f962fac8d457d1790fc5ddd0a28c8068573e392/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

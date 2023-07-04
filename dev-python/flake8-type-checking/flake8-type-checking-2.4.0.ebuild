@@ -15,7 +15,7 @@ DESCRIPTION="A flake8 plugin for managing type-checking imports & forward refere
 
 HOMEPAGE="https://github.com/snok"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d2/94/f31522b4cb53bf3c18d4b23d311e2f467f1b3c8fe42f17d357d75e91698e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

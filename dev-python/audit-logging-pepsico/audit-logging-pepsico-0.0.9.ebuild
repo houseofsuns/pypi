@@ -15,7 +15,7 @@ DESCRIPTION="A logging package which allows users to log in pepsico format. Spec
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2b/89/f4c06032b9ca26163a59d3ab9980ddff6113365c5e8c378ac7dd05bc522b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

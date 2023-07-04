@@ -15,7 +15,7 @@ DESCRIPTION="use the shopware 6 api"
 
 HOMEPAGE="https://github.com/bitranox/lib_shopware6_api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/17/23c742cb57b5d000d77b9cdee42bf9a331d66d7c1aaf76a7d4eb5e470a20/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

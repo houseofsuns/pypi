@@ -15,7 +15,7 @@ DESCRIPTION="Python client for the Ontology Lookup Service"
 
 HOMEPAGE="https://ahida-development.github.io/ols-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/90/cd75990a75cfd0c3f8f7e09b664c0e40509eb7002b66cde115214ac30b22/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

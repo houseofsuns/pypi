@@ -15,7 +15,7 @@ DESCRIPTION="Used to drive ArcMap"
 
 HOMEPAGE="http://github.com/mapaction/mapactionpy_arcmap"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/62/1f/046afd12bf73140e0716d2a1b6454e9072347334ce93245b4896a111ff6c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

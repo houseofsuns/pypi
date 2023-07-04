@@ -15,7 +15,7 @@ DESCRIPTION="Galaxy utilities for manipulating sequences Galaxy project."
 
 HOMEPAGE="https://github.com/galaxyproject/sequence_utils"
 LICENSE="AFL"
-SRC_URI="https://files.pythonhosted.org/packages/f9/f2/39a48c3cc1635e4086a743c80f782bb216f069316437028d909448c2356a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

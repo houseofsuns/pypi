@@ -15,7 +15,7 @@ DESCRIPTION="Library to communicate with remote servers over GMP or OSP"
 
 HOMEPAGE="https://github.com/greenbone/python-gvm/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/23/5c/1d579900a9363d1362f5d170df4f9b736069530df32083b069f44b887af3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

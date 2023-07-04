@@ -15,7 +15,7 @@ DESCRIPTION="Projeto O Mundo do Wumpus - Anbiente para estudo da disciplina de I
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/62/e8529b56a80bbfbf86f55b1a814f4bd8ec436b151f52d738faa6fc96e14c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

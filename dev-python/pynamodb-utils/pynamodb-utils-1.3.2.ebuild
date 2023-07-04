@@ -15,7 +15,7 @@ DESCRIPTION="Utilities package for pynamodb."
 
 HOMEPAGE="https://github.com/micmurawski/pynamodb-utils/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/28/2a188a77535a29efdd97a18955ad592a910d302079213978cab528d27ba6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

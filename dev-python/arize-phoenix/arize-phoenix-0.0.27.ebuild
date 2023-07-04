@@ -15,7 +15,7 @@ DESCRIPTION="ML Observability in your notebook"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8e/22/18fb8b861e9100ad23aab459b7bd66f10f722d39defc0edb9c74d6ee28de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

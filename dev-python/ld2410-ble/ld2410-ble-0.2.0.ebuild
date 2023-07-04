@@ -15,7 +15,7 @@ DESCRIPTION="Interface with LD2410B modules from HiLink"
 
 HOMEPAGE="https://github.com/930913/ld2410-ble"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/aa/47/ce685f194d329a839e255dda8c19455e47f50b8296b72d29e0eb85c366a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="PyTorch Extension Library of Optimized Autograd Sparse Matrix Opera
 
 HOMEPAGE="https://github.com/rusty1s/pytorch_sparse"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cb/ff/21d4674bdf232cd7a2bdbbbb04c35ba1cbdf444d4f3331f5d7eb6c5d4a8f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

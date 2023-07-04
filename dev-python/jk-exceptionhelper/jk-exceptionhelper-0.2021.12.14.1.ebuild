@@ -15,7 +15,7 @@ DESCRIPTION="As the python exception API is quite a bit obscure this python modu
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/27/f0/1076576e5c4ed05bac810484c0f50cbf682a804d1d89db50784f0281a7e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

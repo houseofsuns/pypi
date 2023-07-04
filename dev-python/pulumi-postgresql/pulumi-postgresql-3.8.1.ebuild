@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing postgresql cloud resourc
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b0/5c/157a738b5121fc892674ab8912047d641e608ad77ac80ca4ac1c685bb982/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

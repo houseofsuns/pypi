@@ -15,7 +15,7 @@ DESCRIPTION="A dict() like interface to your database."
 
 HOMEPAGE="https://github.com/GrantGMiller/flask_dictabase"
 LICENSE="PSF-2.4"
-SRC_URI="https://files.pythonhosted.org/packages/72/73/8d5ef6b62f48f227cd26882bf34672960aaa4e621e58d6486e8ec34a85cc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

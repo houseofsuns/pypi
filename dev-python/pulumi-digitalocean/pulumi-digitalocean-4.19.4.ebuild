@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing DigitalOcean cloud resou
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fa/88/732790f7b717ebc5a182b0963e2ef265cfbf7383de3bacd54f0481f8daa3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

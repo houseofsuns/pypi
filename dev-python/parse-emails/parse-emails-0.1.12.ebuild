@@ -15,7 +15,7 @@ DESCRIPTION="Parses an email message file and extracts the data from it."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d7/36/566e8aef8e4a90e6c4ae7e6a2ecd0ed0271e46151a171c50d79de706ffad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

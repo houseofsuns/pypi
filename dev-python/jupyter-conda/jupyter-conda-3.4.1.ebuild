@@ -15,7 +15,7 @@ DESCRIPTION="Manage your conda environments from the Jupyter Notebook and Jupyte
 
 HOMEPAGE="https://github.com/fcollonval/jupyter_conda"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/a5/fe999619bfdc858734c4c9274e21bf07f3292ef2c80420d59cc89e168ecf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

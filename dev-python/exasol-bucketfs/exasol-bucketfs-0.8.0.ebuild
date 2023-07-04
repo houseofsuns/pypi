@@ -15,7 +15,7 @@ DESCRIPTION="BucketFS utilities for the Python programming language"
 
 HOMEPAGE="https://github.com/exasol/bucketfs-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/18/5b/06f3422231eb21dd7a2488369c3cd444f940f9534f453eaf857f8f1d442f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

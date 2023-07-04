@@ -15,7 +15,7 @@ DESCRIPTION="Bindings for the sen2like processor exposed at EODC"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/a1/7216f6458e25b44950732fa23226fa2269d16a42fa7c3d6e7b5b71d6382d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

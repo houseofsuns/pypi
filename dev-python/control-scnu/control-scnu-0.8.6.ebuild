@@ -15,7 +15,7 @@ DESCRIPTION="The code package for HuaGuang AI Education"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/2e/332cdac2c8242f5ec48c00f478f896cdf10fbbf250dd6a67dfdec069bc10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

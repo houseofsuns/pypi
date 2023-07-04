@@ -15,7 +15,7 @@ DESCRIPTION="Construct PostgreSQL SQL"
 
 HOMEPAGE="https://github.com/rivethealth/pgsql"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/b5/d9b5bb2cb9526bf93670fcb50329705c66dad0d0219d419e31ce3d93d579/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

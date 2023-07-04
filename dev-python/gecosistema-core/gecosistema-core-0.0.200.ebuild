@@ -15,7 +15,7 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/valluzzi/gecosistema_core.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c0/bc/8d2b0cc86779656107ab0e2ea714c7356603554fca796978164e87b988fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

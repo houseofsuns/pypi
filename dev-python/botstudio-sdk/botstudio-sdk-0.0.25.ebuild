@@ -15,7 +15,7 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/botstudiotech/pip_package"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c3/d7/b95727a8344d6301da91fea0d457df4d5acb8ed02d84d8a79ef814766229/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

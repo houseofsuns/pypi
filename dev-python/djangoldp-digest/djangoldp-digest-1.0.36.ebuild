@@ -15,7 +15,7 @@ DESCRIPTION="djangoldp package for digest generation"
 
 HOMEPAGE="https://git.startinblox.com/djangoldp-packages/djangoldp-digest"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/b9/51d9bcbc145160571f97aefbda1d830f5a4f608c93fe5a32ff63b7fb0b74/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

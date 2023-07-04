@@ -15,7 +15,7 @@ DESCRIPTION="A Quart extension to provide schema validation"
 
 HOMEPAGE="https://gitlab.com/pgjones/quart-schema/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/6d/dcd4a00434f114cbf5e04923f87be3f23bc5f9ba2a93633a967a7652056c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

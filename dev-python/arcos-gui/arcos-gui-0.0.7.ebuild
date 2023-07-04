@@ -15,7 +15,7 @@ DESCRIPTION="A napari plugin to detect and visualize collective signaling events
 
 HOMEPAGE="https://github.com/bgraedel/arcos-gui"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f8/3a/af3aa281fa4bc2f1050cf886f88012a201a302400ef234a348b169140933/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

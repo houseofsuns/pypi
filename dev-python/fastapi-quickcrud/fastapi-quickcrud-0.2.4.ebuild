@@ -15,7 +15,7 @@ DESCRIPTION="A comprehensive FastaAPI's CRUD router generator for SQLALchemy."
 
 HOMEPAGE="https://github.com/LuisLuii/FastAPIQuickCRUD"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/49/85/d601044ddcf00b7110a4245a7a2ba2c22000545f3b52b6bcafb42e1253a6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

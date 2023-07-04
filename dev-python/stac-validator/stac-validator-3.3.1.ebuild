@@ -15,7 +15,7 @@ DESCRIPTION="A package to validate STAC files"
 
 HOMEPAGE="https://github.com/stac-utils/stac-validator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6d/5d/2f0656e6b05f3ba0a7d0759c3b5676184a80c47ea1bd7ec2e96d94e37d29/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

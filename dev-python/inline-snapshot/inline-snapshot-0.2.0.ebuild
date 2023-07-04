@@ -15,7 +15,7 @@ DESCRIPTION="golden master/snapshot/approval testing library which puts the valu
 
 HOMEPAGE="https://github.com/15r10nk/inline-snapshots"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/39/e7e9b6529a00ac69824eb9c297650c211d456cab65df4033d30461885e53/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A simple plugin for segmentation"
 
 HOMEPAGE="https://github.com/rezaakb/napari-seedseg"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b9/f9/efab295eda69098359831b57cdf03ebedb2cb1b0acbd00b6957d41ce81ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

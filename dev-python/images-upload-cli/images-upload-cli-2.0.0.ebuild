@@ -15,7 +15,7 @@ DESCRIPTION="Upload images via APIs"
 
 HOMEPAGE="https://github.com/DeadNews/images-upload-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/87/9e7d0156bcb6d77ab1f7d74e654b062730e915a0f8cd479fc699cc7860ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

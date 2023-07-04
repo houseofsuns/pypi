@@ -15,7 +15,7 @@ DESCRIPTION="Utility scripts for ManySecured-D3 claims"
 
 HOMEPAGE="https://github.com/TechWorksHub/ManySecured-D3DB"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/26/04/a8ab968e4e34a58a9a166f627f0d02b8c4a09301114dbfa7d434a3b5a833/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

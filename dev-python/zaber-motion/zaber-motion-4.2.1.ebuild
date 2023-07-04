@@ -15,7 +15,7 @@ DESCRIPTION="A library for communicating with Zaber devices"
 
 HOMEPAGE="https://gitlab.com/ZaberTech/zaber-motion-lib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/6d/a8f42aa4e2985b39ba8433fb00dd929f7be6150f543084cfe1df2c3ee850/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

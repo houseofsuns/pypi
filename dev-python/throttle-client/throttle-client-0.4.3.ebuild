@@ -15,7 +15,7 @@ DESCRIPTION="Client for Throttle. Throttle is an http semaphore service, providi
 
 HOMEPAGE="https://github.com/pacman82/throttle.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/25/b2/5404a3b26bbd186549b87c073d47e3727051d8dc24ea7adccea564261ac1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

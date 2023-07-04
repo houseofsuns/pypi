@@ -15,7 +15,7 @@ DESCRIPTION="Credit Scoring - IESEG School of Management"
 
 HOMEPAGE="https://github.com/pnborchert"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/4e/13ffd0ed72c6d27017263e04169695c4dc0c8622f6b146f16c4785a8138d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

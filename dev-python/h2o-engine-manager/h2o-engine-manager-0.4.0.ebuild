@@ -15,7 +15,7 @@ DESCRIPTION="H2O Engine Manager python client"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/90/55/998dc30e171bdfca49c02cbd2a201a5bf24b9486eff8d73cf30260c8c6ad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

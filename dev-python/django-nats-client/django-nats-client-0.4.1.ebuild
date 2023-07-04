@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/C0D1UM/django-nats-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/96/911cdf685a52ac863fdeb8bf6c4e6bdf278fc8a4b876898dbff3bc4a4147/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

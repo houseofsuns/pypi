@@ -15,7 +15,7 @@ DESCRIPTION="Client library for ActivityWatch"
 
 HOMEPAGE="https://activitywatch.net/"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1d/ac/0c80c62b0417d23f7550224acb8909fee750e83db1d0ab2778b808779e9e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

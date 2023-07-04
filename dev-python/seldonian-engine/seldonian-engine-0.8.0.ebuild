@@ -15,7 +15,7 @@ DESCRIPTION="Core library for Seldonian algorithms"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3c/c3/be6e6af6a4a57df479fb908d8a91b1c34166275fc00149120f089bf6ea86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

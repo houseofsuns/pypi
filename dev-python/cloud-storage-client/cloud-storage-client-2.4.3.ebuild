@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://pypi.org/project/cloud-storage-client/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/82/71e397a83de4dc4e65d53015edc9635a38e245e0f85f2263bcb7967d9db2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

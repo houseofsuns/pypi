@@ -15,7 +15,7 @@ DESCRIPTION="Version schemes for nipreps tools"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/f8/4b04b47c7b19e1693e056f2c599a26ddda6d0989f517e5ef303918f31bad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

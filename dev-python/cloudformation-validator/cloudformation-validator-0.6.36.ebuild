@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight, extensible schema and data validation tool for Cloudfo
 
 HOMEPAGE="https://github.com/rubelw/cloudformation-validator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0f/77/9d54325fdeace2b4b8958e77f745bb73b963a7bc4aa5dfdb9b1639ad43f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

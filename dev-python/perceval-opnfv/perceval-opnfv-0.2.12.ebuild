@@ -15,7 +15,7 @@ DESCRIPTION="Bundle of Perceval backends for OPNFV ecosystem."
 
 HOMEPAGE="https://chaoss.github.io/grimoirelab/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/c1/be/5027c4b5e57e1a735f1cc0399f0efa98d141d94426f9d972658a22d8c013/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

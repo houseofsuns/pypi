@@ -15,7 +15,7 @@ DESCRIPTION="CLI tool for generating a Software Bill of Materials from container
 
 HOMEPAGE="https://github.com/anchore/syft"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/57/4e/b8da34dd81b216188ebe4e8cd5b2780b15e266e657a4b4f8d14f294a7ad8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

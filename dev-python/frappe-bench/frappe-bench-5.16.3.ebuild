@@ -15,7 +15,7 @@ DESCRIPTION="CLI to manage Multi-tenant deployments for Frappe apps"
 
 HOMEPAGE="https://frappe.io/bench"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/f7/66e08993a6a3be410f28a94d6fb8366037cfca78f07c8e4f60cff7e4524a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

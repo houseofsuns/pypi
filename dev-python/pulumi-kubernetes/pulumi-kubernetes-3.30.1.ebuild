@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing Kubernetes resources."
 
 HOMEPAGE="https://pulumi.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b3/c4/71ce4ca9493f69ecd682af739047eeafcda40f3d1b07efa4412e19971974/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

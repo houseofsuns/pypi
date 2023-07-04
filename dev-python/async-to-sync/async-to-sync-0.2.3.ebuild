@@ -15,7 +15,7 @@ DESCRIPTION="Convert async coroutines to normal python functions"
 
 HOMEPAGE="https://github.com/xloem/async_to_sync"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a0/09/58fe9aab77d1eb62c7a1e8ee33d855588e9a073c1c14026d921cf5fc4e4d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

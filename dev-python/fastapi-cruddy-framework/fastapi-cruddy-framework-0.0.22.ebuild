@@ -15,7 +15,7 @@ DESCRIPTION="A holistic CRUD/MVC framework for FastAPI, with endpoint policies a
 
 HOMEPAGE="https://github.com/mdconaway/fastapi-cruddy-framework"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/22/62/91fa188ae5ea8005479fac1efa1c21845f4b95ebd15f64746bea7224dd0f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Dash Components using IBM's Carbon Design System https://github.com
 
 HOMEPAGE=""
 LICENSE="Apache License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/11/78/e4fa6f9443ffefa48ba7480edc69c19736e91a9df4aae47bad3427e06817/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

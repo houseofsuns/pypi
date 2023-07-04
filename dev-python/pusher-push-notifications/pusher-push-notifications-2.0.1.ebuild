@@ -15,7 +15,7 @@ DESCRIPTION="Pusher Push Notifications Python server SDK"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/29/ebe4434ac6512000fc58a7d03641717e6d1f8a8289e31da24d9661c27b27/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Django app that tracks your queries to help optimize them."
 
 HOMEPAGE="https://github.com/tijani-dia/dj-tracker/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ac/54/05365996d8fbe20f61667ad5758dffc5a4712f47ba65713e31f9cbfb320d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Punch Python and PySpark Public API"
 
 HOMEPAGE="https://punchplatform.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/21/0779394520c0432efd6d3f09e928e90d9209833b9c35798799519e420c42/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

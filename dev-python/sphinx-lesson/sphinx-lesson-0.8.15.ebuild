@@ -15,7 +15,7 @@ DESCRIPTION="Sphinx extension for CodeRefinery lessons"
 
 HOMEPAGE="https://github.com/coderefinery/sphinx-lesson"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/d7/a93419c9185faffa6fcfcf0426c4cb972d3c66b6466900de39c4192679f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

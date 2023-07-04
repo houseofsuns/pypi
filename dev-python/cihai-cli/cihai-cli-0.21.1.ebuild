@@ -15,7 +15,7 @@ DESCRIPTION="Command line frontend for the cihai CJK language library"
 
 HOMEPAGE="https://cihai-cli.git-pull.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/fc/d89931ce9592dfb320d741de17ef5986d5340c0cc6c151a214b68e4c96ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

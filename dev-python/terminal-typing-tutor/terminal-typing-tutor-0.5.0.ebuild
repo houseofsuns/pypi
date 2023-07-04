@@ -15,7 +15,7 @@ DESCRIPTION="Improve your touch-typing skills in the terminal, based on the GNU 
 
 HOMEPAGE="https://github.com/justinsgithub/terminal-typing-tutor"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e5/0b/f73e0ad8a8c0ef75fcb5e8dac8b985f5da2f3e7a25fa5e62ef5b385063af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

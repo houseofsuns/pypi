@@ -15,7 +15,7 @@ DESCRIPTION="A spec-compliant gitignore parser for Python 3.5+"
 
 HOMEPAGE="https://github.com/mherrmann/gitignore_parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/52/1d3cc19345b6379efe17e118bf4041b8c9e4901ca74aa335e54ed61fa008/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

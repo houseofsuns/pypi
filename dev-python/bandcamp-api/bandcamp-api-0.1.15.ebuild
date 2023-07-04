@@ -15,7 +15,7 @@ DESCRIPTION="Obtains information from bandcamp.com"
 
 HOMEPAGE="https://github.com/RustyRin/bandcamp-api/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/be/ceda5d9434473dbc21e3a1e942b82f426ad01309b0209979e20080e1a184/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

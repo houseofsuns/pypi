@@ -15,7 +15,7 @@ DESCRIPTION="Make HTTP requests with scraped proxies"
 
 HOMEPAGE="https://github.com/rootVIII/proxy_requests"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bd/e9/aa76c6139a8f1c90382a3667b427991846279b95bf71804e8cfdbf99ed6c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

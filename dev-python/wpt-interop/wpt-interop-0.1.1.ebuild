@@ -15,7 +15,7 @@ DESCRIPTION="web-platform-tests Interop Project helpers"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/88/bd/9777ee1b052b1f511b22af30fdf8c8e76a65fd4be81e136b5ecb3c37e166/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

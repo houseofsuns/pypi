@@ -15,7 +15,7 @@ DESCRIPTION="novadata utils"
 
 HOMEPAGE="https://github.com/TimeNovaData/novadata_utils/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/58/072df4c80f90e2c80569e80419b05fc8f5295c87401e9b71597f731fb9e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Counterfactual explanations for GNNs based on the visual graph data
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/28/2a/a6b05e4091ff7be6c21a2a9c6b7850ba0972e03d58ca93f7d70f6970b1a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

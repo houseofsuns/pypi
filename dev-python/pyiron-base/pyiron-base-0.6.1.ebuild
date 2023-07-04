@@ -15,7 +15,7 @@ DESCRIPTION="pyiron_base - an integrated development environment (IDE) for compu
 
 HOMEPAGE="https://github.com/pyiron/pyiron_base"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/52/f9/354b319121d938a5d1d2d88d70ed3d854c4e39da32e8f521e71ceb9c11b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

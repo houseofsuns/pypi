@@ -15,7 +15,7 @@ DESCRIPTION="Decanter AI is a powerful AutoML tool which enables everyone to bui
 
 HOMEPAGE="https://github.com/MoBagel/decanter-ai-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3c/de/acbe462e7e7c0dcd0d941290181f1924d37b4505add096be68e067e5906b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

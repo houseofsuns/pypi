@@ -15,7 +15,7 @@ DESCRIPTION="Blacklist in NoneBot2"
 
 HOMEPAGE="https://github.com/tkgs0/nonebot-plugin-blacklist"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/8c/dab71e62077f76c6a4c7b794690eeec7ab4b06512e4cc1ded813edf51185/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

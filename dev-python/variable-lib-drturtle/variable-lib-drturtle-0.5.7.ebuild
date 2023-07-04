@@ -15,7 +15,7 @@ DESCRIPTION="Simple library designed to help with variables and graphing."
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/92/3e/fd98c72103a9a9450a81c4b46c3fec501cc3378b716fffc1f9cd88ad7e6f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Build farm used to build the ROS ecosystem's packages."
 
 HOMEPAGE="https://github.com/ros-infrastructure/ros_buildfarm"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d2/a8/7c7895e3730dd3ba2aa2480f8f6d7bb6ef7fb982c562de9e3ef7aa1b70dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

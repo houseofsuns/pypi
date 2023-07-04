@@ -15,7 +15,7 @@ DESCRIPTION="Shared modules for voip project"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/8b/5e81a6f4dcbd561e858f80bc5d5978a11f89ef9a01cddcb2de54783cc0e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

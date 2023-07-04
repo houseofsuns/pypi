@@ -15,7 +15,7 @@ DESCRIPTION="Python module for use within Jupyterlab notebooks, specifically aim
 
 HOMEPAGE="https://github.com/statisticsnorway/dapla-toolbelt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f5/9b/c5ba82db2fd4566ba09c4736ef311347f975a2bacf07bcad3e0cfb773ca4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

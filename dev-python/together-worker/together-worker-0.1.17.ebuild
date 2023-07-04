@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/together-computer/together-worker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/88/9ea038fefaabd77b96a8b895c3e9770bbd81c44f8caa1647fc894d792424/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

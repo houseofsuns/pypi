@@ -15,7 +15,7 @@ DESCRIPTION="Parser for INKBIRD BLE devices"
 
 HOMEPAGE="https://github.com/bluetooth-devices/inkbird-ble"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/09/b7/5d10c64f57db6864cded6756dd343693d7e629a4e25ebfbc7fd63c296e3a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

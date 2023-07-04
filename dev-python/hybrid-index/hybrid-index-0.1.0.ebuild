@@ -15,7 +15,7 @@ DESCRIPTION="Easy to use hybrid index for semantic + keyword search"
 
 HOMEPAGE="https://github.com/gigagiova/hybrid-index"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/72/27f917c47516601b7770b41e08749d9c51b819b4da652c9134f126a8f41a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Frame Semantic Parser based on T5 and FrameNet"
 
 HOMEPAGE="https://github.com/chanind/frame-semantic-transformer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/bc/50cf5828a6bd7b18196ecb2c675b5635e5283738840ad1b35bc48b1338df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

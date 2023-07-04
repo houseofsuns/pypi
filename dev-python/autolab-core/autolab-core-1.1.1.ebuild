@@ -15,7 +15,7 @@ DESCRIPTION="Core utilities for the Berkeley AutoLab"
 
 HOMEPAGE="https://github.com/BerkeleyAutomation/autolab_core"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c1/7f/0ae0200dc09b4e479613b6ad4b43323ae49f97eecb71ebf18392ea39dd61/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

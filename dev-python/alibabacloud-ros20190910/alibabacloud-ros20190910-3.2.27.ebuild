@@ -15,7 +15,7 @@ DESCRIPTION="Alibaba Cloud Resource Orchestration Service (20190910) SDK Library
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/95/35/28af3f93b553a47839acd550e11c6b0f15d03a8caafa0f9e8fbeef5d8082/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

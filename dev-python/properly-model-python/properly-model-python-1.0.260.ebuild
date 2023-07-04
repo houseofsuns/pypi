@@ -15,7 +15,7 @@ DESCRIPTION="Models for common Properly operations in python."
 
 HOMEPAGE="https://github.com/GoProperly/properly-model-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/80/5f76a09034a58b41afa3d056ead75416f99139c5036426ee12340590ee14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

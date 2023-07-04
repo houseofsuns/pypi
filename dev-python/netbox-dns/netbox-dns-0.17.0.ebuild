@@ -15,7 +15,7 @@ DESCRIPTION="Netbox Dns is a netbox plugin for managing zone, nameserver and rec
 
 HOMEPAGE="https://github.com/auroraresearchlab/netbox-dns"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bc/78/444f1e7d265eb9c5c5bc1a2bdd927d4af29a76057fd4116552909c0bcb6c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

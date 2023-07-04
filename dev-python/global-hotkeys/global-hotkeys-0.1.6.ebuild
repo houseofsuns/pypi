@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/btsdev"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/af/ee9a51508cb74e37d08478f5639fa187d1cf614b6422435eb01683cf3e80/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

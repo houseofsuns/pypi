@@ -15,7 +15,7 @@ DESCRIPTION="Conduktor Proxy API Client"
 
 HOMEPAGE=""
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/79/e2/9c2f220ef50773723917914c6d4b89acbabbc3b5f9b2d30e4ae21a1ae322/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

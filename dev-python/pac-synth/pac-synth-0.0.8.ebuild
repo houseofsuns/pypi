@@ -15,7 +15,7 @@ DESCRIPTION="Private Accurate Combination (PAC) Synthesizers"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/2a/0774b1efc51d2a612d63d9a390f5e5179c820caebcc49e17aae06af43e80/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Library for discord bots."
 
 HOMEPAGE="https://github.com/nxSlayer/user-discord"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/fe/a2ed42f38d84b3a1b0e532f6f09a0b16de3c8eb757cde2e611e7e7e5a38e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

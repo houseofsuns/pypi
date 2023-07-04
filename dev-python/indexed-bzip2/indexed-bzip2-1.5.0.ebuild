@@ -15,7 +15,7 @@ DESCRIPTION="Fast random access to bzip2 files"
 
 HOMEPAGE="https://github.com/mxmlnkn/indexed_bzip2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/79/bd6fddc7a5bb0076d89e5ee2e783952a25e5fbb668521c874ecc5be38dce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

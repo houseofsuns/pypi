@@ -15,7 +15,7 @@ DESCRIPTION="Training of CLIP in JAX"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a1/8a/731661e91fb71f81e1bff7e94465a58579be49ac0f3e04d3f056949b8b53/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

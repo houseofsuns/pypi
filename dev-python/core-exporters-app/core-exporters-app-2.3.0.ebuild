@@ -15,7 +15,7 @@ DESCRIPTION="Exporters for the curator core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_exporters_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0e/65/36a3f31822b65374c39f741131857647bf6232c99e7af3a4ca7745ba92d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

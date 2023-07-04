@@ -15,7 +15,7 @@ DESCRIPTION="Seamless integration of tox into GitHub Actions."
 
 HOMEPAGE="https://github.com/tox-dev/tox-gh"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/63/ae7ab14d7aafdb1953296d8fd1fca3c1d8eff4a37983e167e75c2894dc8a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

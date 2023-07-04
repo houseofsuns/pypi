@@ -15,7 +15,7 @@ DESCRIPTION="RabbitMQ broker for taskiq"
 
 HOMEPAGE="https://github.com/taskiq-python/taskiq-aio-pika"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/e6/345ed478da3579f62aa45e45d2965609cd2bd9c808d828c8636f18f90c0f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

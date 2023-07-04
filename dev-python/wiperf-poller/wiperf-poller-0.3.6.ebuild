@@ -15,7 +15,7 @@ DESCRIPTION="Poller for the wiperf utlity"
 
 HOMEPAGE="https://github.com/wifinigel/wiperf_poller"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/90/b4/3cd0143b794d875b30a85da6504fd18f5fc65342fecedbca5d2c1b1b5e9b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

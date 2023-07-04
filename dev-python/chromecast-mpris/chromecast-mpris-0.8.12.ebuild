@@ -15,7 +15,7 @@ DESCRIPTION="📺 Control Chromecasts from Linux and D-Bus"
 
 HOMEPAGE="https://github.com/alexdelorenzo/chromecast_mpris"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/42/b2/506c08e20227b3c768f98721d95a03ccf2e29318f456bc144736d7962571/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

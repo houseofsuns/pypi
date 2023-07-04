@@ -15,7 +15,7 @@ DESCRIPTION="Ant Chain BAASPLUS SDK Library for Python"
 
 HOMEPAGE="https://github.com/alipay/antchain-openapi-prod-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/05/41/9362639afd289626f63a50b2011cf6f57009a936e30d873d44518a1a16c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

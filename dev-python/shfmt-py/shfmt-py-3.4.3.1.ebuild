@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper around invoking shfmt (https://github.com/mvdan/sh)"
 
 HOMEPAGE="https://github.com/maxwinterstein/shfmt-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/e3/d7b5d33b8b099b57683bda2e6aebbd3b16b9a24a73bbdbd13f2823d09b56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

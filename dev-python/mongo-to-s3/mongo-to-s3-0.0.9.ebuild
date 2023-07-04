@@ -15,7 +15,7 @@ DESCRIPTION="Automated script generator to backup MongoDB databases to Amazon S3
 
 HOMEPAGE="https://github.com/IamLizu/mongo-to-s3"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/61/59/9e4ecdbdf998894100a9dc4476bf728f9a6f84dbdd4dd14284ca59808194/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="endi_celery"
 
 HOMEPAGE="https://framagit.org/endi/endi_celery"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a5/d5/d026a7b5ade56ec26bd977ce49ca07fd37a48a4563e8f2003de2a47349d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

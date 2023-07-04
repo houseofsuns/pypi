@@ -15,7 +15,7 @@ DESCRIPTION="This is a library for dealing with quaternions in Python in a unifi
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f0/1d/a572988073dca95da86503a4d3f93d2a8d4214c890e5ab5cd7906fb8af92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

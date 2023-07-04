@@ -15,7 +15,7 @@ DESCRIPTION="Alibaba Cloud SSL Certificates Service (20200630) SDK Library for P
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ba/55/5ca1d33621330d264094d50ddf1111d139cd09737548b4eb58807cce240f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

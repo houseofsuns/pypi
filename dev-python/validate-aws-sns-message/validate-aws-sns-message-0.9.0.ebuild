@@ -15,7 +15,7 @@ DESCRIPTION="Validate integrity of Amazon SNS messages (Refined)"
 
 HOMEPAGE="https://github.com/kenichi-ogawa-1988/validate_aws_sns_message"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/06/12cdd3d0d573941a21dc1eccd621ce372eb377246720d78fc428f29d70d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="eth_abi: Python utilities for working with Ethereum ABI definitions
 
 HOMEPAGE="https://github.com/ethereum/eth-abi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/1c/b7074d196438bbe667453f73f1a45cb51ee2236a99b333a16b1aa16927b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

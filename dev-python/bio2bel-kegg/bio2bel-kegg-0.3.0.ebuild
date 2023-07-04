@@ -15,7 +15,7 @@ DESCRIPTION="A package for converting KEGG gene sets into BEL"
 
 HOMEPAGE="https://github.com/bio2bel/kegg"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/36/7915e90c2c4331010f46aa246026b08aeb8a2e34ff00e0b7c2c26ce275a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

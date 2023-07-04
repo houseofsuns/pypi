@@ -15,7 +15,7 @@ DESCRIPTION="Drop-in theme for django admin, that utilises AdminLTE 3 & Bootstra
 
 HOMEPAGE="https://github.com/farridav/django-jazzmin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/02/a03f0e711ba28e3ad5584e7e9bfe5295123bcb3bfceeefddeda39860bfa1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

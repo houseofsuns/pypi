@@ -15,7 +15,7 @@ DESCRIPTION="JSON schema for messages sent by Bodhi"
 
 HOMEPAGE="https://bodhi.fedoraproject.org"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/66/02/034fed86470fb49a08d2c2e8ace217505f9a998d736efb3f2ffcab6ceae8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

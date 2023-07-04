@@ -15,7 +15,7 @@ DESCRIPTION="Returns the sum of a sequence of Fibonacci"
 
 HOMEPAGE="https://github.com/MartinsMessias/fibonacci_sum"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/14/9fab6f06da41d4a78ea70e72a0a52f774a1216a1f9ff7169ae6814943466/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

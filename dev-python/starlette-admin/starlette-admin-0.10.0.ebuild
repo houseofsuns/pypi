@@ -15,7 +15,7 @@ DESCRIPTION="Fast, beautiful and extensible administrative interface framework f
 
 HOMEPAGE="https://github.com/jowilf/starlette-admin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/49/bb8783a91b57f967ebe2b91674cbc623211669755118374915e709c5d11f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

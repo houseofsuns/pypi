@@ -15,7 +15,7 @@ DESCRIPTION="Adds a generic list of plugins for use within projects"
 
 HOMEPAGE="https://github.com/giantmade/giant-plugins"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/45/09c0b0e1cadce8676ba292c61fd81d87efe74b694595a7b496990ecc577a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

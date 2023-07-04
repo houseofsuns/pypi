@@ -15,7 +15,7 @@ DESCRIPTION="A flake8 extension that checks for type annotations coverage"
 
 HOMEPAGE="https://github.com/best-doctor/flake8-annotations-coverage"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/c4/b886d34b99909a65eb2d2be6aca8359a2826b436f4635ed58807a31f7524/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

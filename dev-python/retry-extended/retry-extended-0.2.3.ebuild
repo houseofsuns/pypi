@@ -15,7 +15,7 @@ DESCRIPTION="Retry API compatible extended library"
 
 HOMEPAGE="https://github.com/strollby/retry-extended"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3a/72/dcb8d7d8d8c172e2461fd096f71c69bfa3c2c8cc3cc40e801d038fdebc4f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

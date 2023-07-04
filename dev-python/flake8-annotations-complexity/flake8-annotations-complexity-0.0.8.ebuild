@@ -15,7 +15,7 @@ DESCRIPTION="A flake8 extension that checks for type annotations complexity"
 
 HOMEPAGE="https://github.com/best-doctor/flake8-annotations-complexity"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/22/95d82ddf351f3b0fe84fad532798d36797be0fb29d593b403740fe30dacc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

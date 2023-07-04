@@ -15,7 +15,7 @@ DESCRIPTION="Python 3 library to mock a http server using Flask"
 
 HOMEPAGE="https://github.com/ezequielramos/http-server-mock"
 LICENSE="GNU General Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/a0/f3/0b7d7d8643f52a1b38a11906636ad7e6162954b71fb200ecaac430fffc8e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

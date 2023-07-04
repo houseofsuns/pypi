@@ -15,7 +15,7 @@ DESCRIPTION="Powertools for AWS Lambda (Python) is a developer toolkit to implem
 
 HOMEPAGE="https://github.com/aws-powertools/powertools-lambda-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/27/8299159f80bd5ce30860d57db23d4f32d690890e44666e42bdd78c953b71/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

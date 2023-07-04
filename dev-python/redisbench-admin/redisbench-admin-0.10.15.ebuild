@@ -15,7 +15,7 @@ DESCRIPTION="Redis benchmark run helper. A wrapper around Redis and Redis Module
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/79/ed725ca3bf7cfadea43855fc385aad4bbcd8182f07c4e2863973f370927d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Iconify for Plotly Dash"
 
 HOMEPAGE="https://github.com/snehilvj/dash-iconify"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/49/d2/03483ed3278cd476c34064bec43675fb6da84a6908e995a699eed76ab32d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

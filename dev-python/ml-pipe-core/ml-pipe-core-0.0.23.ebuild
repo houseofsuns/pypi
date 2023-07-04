@@ -15,7 +15,7 @@ DESCRIPTION="Machine learning pipeline for accelerators"
 
 HOMEPAGE="https://github.com/desy-ml/ml-pipeline"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/84/39/21f8dc141cab2c248d822779584d30d04a7fc58e00c5dd93cb89b0875f46/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

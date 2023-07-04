@@ -15,7 +15,7 @@ DESCRIPTION="Democritus functions for working with math."
 
 HOMEPAGE="https://github.com/democritus-project/d8s-math"
 LICENSE="GNU Lesser General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/3c/ba/1d675b372f82665f2c04c79b4a7cb668603c84bf531e82f7305187eca80e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

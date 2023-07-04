@@ -15,7 +15,7 @@ DESCRIPTION="A Python wrapper around the Substack API."
 
 HOMEPAGE="https://github.com/ma2za/python-substack"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/5c/e46f5d57cb0146a9318e2cbbce75dc958ebd9be8d12a3b5166a73dcfee1d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

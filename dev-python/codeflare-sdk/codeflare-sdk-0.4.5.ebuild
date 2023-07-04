@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for codeflare client"
 
 HOMEPAGE="https://github.com/project-codeflare/codeflare-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ba/cd/b25d3644392124af7550540e19d212fa185c77ca8c54e5619eb25e7393d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

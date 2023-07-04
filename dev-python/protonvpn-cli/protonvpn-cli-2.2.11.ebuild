@@ -15,7 +15,7 @@ DESCRIPTION="Linux command-line client for ProtonVPN"
 
 HOMEPAGE="https://github.com/protonvpn/linux-cli-community"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7d/f7/55844a152a8a08ff6acb62e6eb38c5df29eb8843927d1bdda0b752acbdf4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

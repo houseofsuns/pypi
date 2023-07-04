@@ -15,7 +15,7 @@ DESCRIPTION="A client library for accessing Infima"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/1a/87f97b30fdc9614cbe11aa05b3efb050bc637cae3e8478717f1a23e7da6e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

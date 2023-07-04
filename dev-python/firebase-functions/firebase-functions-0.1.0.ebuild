@@ -15,7 +15,7 @@ DESCRIPTION="Firebase Functions Python SDK"
 
 HOMEPAGE="https://github.com/firebase/firebase-functions-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ee/5b/3253ae8c5a6d1f213dbb5135e75abdc2972cdecc2118e6688bc4be219ec1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

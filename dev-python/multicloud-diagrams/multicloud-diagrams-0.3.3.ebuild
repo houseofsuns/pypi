@@ -15,7 +15,7 @@ DESCRIPTION="Library to generate DRAW.IO compatible diagrams to represent Cloud 
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/30/06780293f7bdd42d4592888df59b94e3b83ffed9daa37b97bfc06a46e5f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

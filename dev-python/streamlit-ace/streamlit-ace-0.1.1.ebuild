@@ -15,7 +15,7 @@ DESCRIPTION="Ace editor component for Streamlit."
 
 HOMEPAGE="https://share.streamlit.io/okld/streamlit-gallery/main?p=ace-editor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2e/34/a508123af170e41852d247b17d38d9cddc2b4be3884f2f29a84aeb322992/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

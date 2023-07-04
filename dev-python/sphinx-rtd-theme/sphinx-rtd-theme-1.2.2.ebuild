@@ -15,7 +15,7 @@ DESCRIPTION="Read the Docs theme for Sphinx"
 
 HOMEPAGE="https://github.com/readthedocs/sphinx_rtd_theme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/86/7b2c3d15f44cb3ea2e1c54481494121d755081aa57a8076de3fa2be4d587/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

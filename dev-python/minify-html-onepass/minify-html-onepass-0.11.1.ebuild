@@ -15,7 +15,7 @@ DESCRIPTION="Even faster version of minify-html"
 
 HOMEPAGE="https://github.com/wilsonzlin/minify-html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/90/8c7a86b176ec26bb8a0b31b51cec109b7a7d74d47fd1cb479dd765f283fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

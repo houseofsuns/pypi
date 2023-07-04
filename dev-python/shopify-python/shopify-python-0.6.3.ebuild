@@ -15,7 +15,7 @@ DESCRIPTION="Python Standards Library for Shopify"
 
 HOMEPAGE="http://github.com/shopify/shopify_python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/9a/2a3792769a7be9206e174be7ba570d617433b3eef1bfef85dc2f6b4ccae1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for the Currencycloud API."
 
 HOMEPAGE="https://github.com/CurrencyCloud/currencycloud-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b5/e2/a7cb99fac4e68b8f7c22b0e9e0a818d5714187189b21874683c55711ae96/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

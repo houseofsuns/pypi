@@ -15,7 +15,7 @@ DESCRIPTION="Jupyterlab extension for using the grader service."
 
 HOMEPAGE="https://github.com/TU-Wien-dataLAB/Grader-Service"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/0a/48/b96ef331a90adcf7ab69993513233f718fd3eb2a4fcac02d3c6cba27b46c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

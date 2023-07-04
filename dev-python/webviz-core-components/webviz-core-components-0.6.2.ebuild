@@ -15,7 +15,7 @@ DESCRIPTION="Core components for webviz-config"
 
 HOMEPAGE="https://github.com/equinor/webviz-core-components"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e7/18/09bd4245c56e10e92273162dc16c73927a040bd5a688338044c7e25d0867/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

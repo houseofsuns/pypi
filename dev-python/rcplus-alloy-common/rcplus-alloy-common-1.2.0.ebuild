@@ -15,7 +15,7 @@ DESCRIPTION="RC+/Alloy helpers functions for Python"
 
 HOMEPAGE="https://github.com/ringier-data/rcplus-alloy-lib-py-common"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/40/70/d325198f9559ce1c91c99470ee91491a8a13760eb1a78da0949dee09febd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

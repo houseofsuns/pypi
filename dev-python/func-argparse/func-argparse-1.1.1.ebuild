@@ -15,7 +15,7 @@ DESCRIPTION="Generate CLI ArgumentParser from a function signature."
 
 HOMEPAGE="https://github.com/gwenzek/func_argparse"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/98/a4/79adbdacbfbaea11efb7dc2cf91e5db2e3fb56b17e5eb27bb0c82a9f0111/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

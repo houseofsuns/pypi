@@ -15,7 +15,7 @@ DESCRIPTION="automated function and api fuzzer for easy testing of production co
 
 HOMEPAGE="https://github.com/CodyKochmann/battle_tested"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/19/38/450d4e73f83d30ea2cc88629ef1d14de85b96b3ea14731fda3bea71fa9de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Custom template tags for common html idioms in Django."
 
 HOMEPAGE="https://mv3.dev"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6f/89/861feaa4dcfa0fe0cd61a984fd946eb56e8c2e21fd632c9b01d7207b1062/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

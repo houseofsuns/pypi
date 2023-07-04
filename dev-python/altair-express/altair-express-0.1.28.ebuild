@@ -15,7 +15,7 @@ DESCRIPTION="Create interactive data visualizations in one line of code."
 
 HOMEPAGE="https://github.com/dwootton/altair_express"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/62/7870b0fcac93cab4bf63f1c648f1cb23ce8c3e08e5df16285ee3ab1b2b8d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

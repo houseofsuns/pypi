@@ -15,7 +15,7 @@ DESCRIPTION="A modern skeleton for Sphinx themes."
 
 HOMEPAGE="https://github.com/pradyunsg/sphinx-basic-ng"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/80/77/df8674b4c0eb26d5a3817858ec83f103389c7c1ce31f7d31b13394a6ff0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

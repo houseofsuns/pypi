@@ -15,7 +15,7 @@ DESCRIPTION="a simple package for handling tensorflow tensor"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/21/c823e3f80a2770d7e08bd3a151ad0dda21b4ca896b7a05fdc4bdca1ca605/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

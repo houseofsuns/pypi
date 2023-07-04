@@ -15,7 +15,7 @@ DESCRIPTION="\`\`hypothesis\`\` strategies for \`\`SQLAlchemy\`\` objects and da
 
 HOMEPAGE="https://github.com/lycantropos/hypothesis_sqlalchemy/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/6b/c5a5a0034fc28b05f0a39af09623bb799564e872394db4179825c1bd3a43/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

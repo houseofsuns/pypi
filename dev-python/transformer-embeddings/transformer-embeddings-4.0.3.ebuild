@@ -15,7 +15,7 @@ DESCRIPTION="Transformer Embeddings"
 
 HOMEPAGE="https://github.com/ginger-io/transformer-embeddings"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/02/a8/d33d3a1a042388dedb129ee244db098941fb69eb1c42891c975423121e3f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

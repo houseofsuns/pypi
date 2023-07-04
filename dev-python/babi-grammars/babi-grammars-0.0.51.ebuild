@@ -15,7 +15,7 @@ DESCRIPTION="grammars for babi"
 
 HOMEPAGE="https://github.com/asottile/babi-grammars"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/16/8bd721e322a6553eb6cb64083b7e49d4d4a4fbf2b604f2125418623c33b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

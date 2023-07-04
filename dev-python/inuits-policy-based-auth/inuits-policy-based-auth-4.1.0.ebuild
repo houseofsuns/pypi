@@ -15,7 +15,7 @@ DESCRIPTION="Module for securing API endpoints based on policies."
 
 HOMEPAGE=""
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/04/d9/0ee4f45fa901c0389f46e6d51778a37a767561006aff051692364e49befa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

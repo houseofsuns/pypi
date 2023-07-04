@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module to plan, coordinate and manage marketing campaigns"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/fa/21/dcb51ad215da3e1a2f75bfb45ab146c42b90aae5977de31ed9c0cbb7778f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

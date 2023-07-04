@@ -15,7 +15,7 @@ DESCRIPTION="Pytorch layers for economic applications."
 
 HOMEPAGE="https://github.com/HighDimensionalEconLab/econ_layers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/37/4c/1e7f063c8cfecec8974402186db184845bbd34d22888beca628cc41cdbec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

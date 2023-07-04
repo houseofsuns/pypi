@@ -15,7 +15,7 @@ DESCRIPTION="Elasticsearch Django app."
 
 HOMEPAGE="https://github.com/yunojuno/elasticsearch-django"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/fb/4338e9f6bed7fe9b4d86747fe6291aed0704791c8ac0eea4bca6e68eceec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

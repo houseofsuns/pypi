@@ -15,7 +15,7 @@ DESCRIPTION="Thin wrapper around mysqlclient. Provides Python iterator for queri
 
 HOMEPAGE="https://github.com/paepcke/pymysql_utils"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a7/04/72be54147bc6a78969950b5028f1ef5fd052a5fe708e7acb1a221a7760ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Segmentation from the Poliduckie team."
 
 HOMEPAGE="https://github.com/poliduckie/poliduckie_segmentation"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ff/8e/7c56153c6fe817e74fca6acd0f893c0fea55b161572e85a84b1346ce7414/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

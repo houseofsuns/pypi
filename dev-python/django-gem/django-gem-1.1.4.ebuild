@@ -15,7 +15,7 @@ DESCRIPTION="Distrubited calculations for Django models"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/c8/854f9f2372b9d4fc9600877b14b0a7008c6cf8ef7a420d8e9541d077c363/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

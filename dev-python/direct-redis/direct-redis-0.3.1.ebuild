@@ -15,7 +15,7 @@ DESCRIPTION="Serialize any python datatypes and does redis actions using redis-p
 
 HOMEPAGE="https://github.com/yonghee12/direct-redis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/44/1c2952b7c84714d617ffbf9eb2b94a3403388012691133692a4502e5aa7b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

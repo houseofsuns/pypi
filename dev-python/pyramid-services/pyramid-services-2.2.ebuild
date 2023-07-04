@@ -15,7 +15,7 @@ DESCRIPTION="A service layer abstraction for the Pyramid Web Framework."
 
 HOMEPAGE="https://github.com/mmerickel/pyramid_services"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/69/2564c19c3377eef855caa94ce7e31dbf8962532788c6b7de6b7a11640aa9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

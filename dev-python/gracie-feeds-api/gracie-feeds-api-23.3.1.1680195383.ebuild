@@ -15,7 +15,7 @@ DESCRIPTION="Gracie Feeds API python wrapper"
 
 HOMEPAGE="https://gracie-feeds-api-documentation.readthedocs.io"
 LICENSE="commercial"
-SRC_URI="https://files.pythonhosted.org/packages/48/d9/215f10eea182dd14dbae78b866432f5f132cab9b873ae56d58e6526ff329/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

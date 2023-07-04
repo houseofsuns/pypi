@@ -15,7 +15,7 @@ DESCRIPTION="A python client for the HUVRdata API."
 
 HOMEPAGE="https://github.com/huvrdata/huvr-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/b7/c7683a9783a274e7113e6881241ad73e90cb50389a3fe1f9106b483934c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

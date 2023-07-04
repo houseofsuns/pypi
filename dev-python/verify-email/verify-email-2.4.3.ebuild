@@ -15,7 +15,7 @@ DESCRIPTION="A small package for email verification"
 
 HOMEPAGE="https://github.com/kakshay21/verify_email"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/a8/b62d8c747ace8ba1b52b199f031c616c34eda907f530e3504038246d60ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

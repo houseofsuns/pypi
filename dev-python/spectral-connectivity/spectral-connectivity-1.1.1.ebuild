@@ -15,7 +15,7 @@ DESCRIPTION="Frequency domain functional and directedconnectivity analysis tools
 
 HOMEPAGE="https://github.com/Eden-Kramer-Lab/spectral_connectivity"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/01/3d/31cde27da813faa77adaa0bd0add2aa75a805e3a0651e707f8a5cda40967/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

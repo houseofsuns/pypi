@@ -15,7 +15,7 @@ DESCRIPTION="A simple console menu system using curses"
 
 HOMEPAGE="http://github.com/pmbarrett314/curses-menu"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/a8/b9f5d662623d845dd4b850134a39b4e360044e3b7d8ed16f4c8817fb634d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

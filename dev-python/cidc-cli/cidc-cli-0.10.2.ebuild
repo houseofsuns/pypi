@@ -15,7 +15,7 @@ DESCRIPTION="A command-line interface for interacting with the CIDC."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d9/71/45c867c49a81380a18c250700c2ce11a0f38fd165f10b61805c89faf066b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

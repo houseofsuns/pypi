@@ -15,7 +15,7 @@ DESCRIPTION="Intel MKL wrapper for sparse matrix multiplication"
 
 HOMEPAGE="https://github.com/flatironinstitute/sparse_dot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/14/5bd6586a680b3b534e6b213d308800e79a27edb072cdf97917192d54922a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

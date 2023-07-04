@@ -15,7 +15,7 @@ DESCRIPTION="Always know what to expect from your data."
 
 HOMEPAGE="https://github.com/great-expectations/great_expectations"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2b/57/9d803a2b4f7bf13227f25c6abce07a840ce1d5ea6991e18ff06195ab31ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

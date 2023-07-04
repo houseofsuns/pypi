@@ -15,7 +15,7 @@ DESCRIPTION="Ant Chain Ak_5bb1b66c4aab4cc998c05a36078e45c1 SDK Library for Pytho
 
 HOMEPAGE="https://github.com/alipay/antchain-openapi-prod-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2c/a5/c515c2154e4738931cb54348f60fae93c076c3d75740e81b993e6726423e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

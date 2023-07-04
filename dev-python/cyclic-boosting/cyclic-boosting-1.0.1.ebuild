@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of Cyclic Boosting machine learning algorithms"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ec/b5/7caf0a263c1557a950f2b67c0f5e6b3e1af86e84af2b66e5b8db1f089fe3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Parsing bank feed data files"
 
 HOMEPAGE="https://www.fylehq.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0b/c2/ad6b7d8e2bdd66d79e27d93401395bd7384d02d8caea5e705fccf671ccd4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

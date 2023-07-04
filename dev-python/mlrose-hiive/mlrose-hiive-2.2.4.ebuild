@@ -15,7 +15,7 @@ DESCRIPTION="MLROSe: Machine Learning, Randomized Optimization and Search (hiive
 
 HOMEPAGE="https://github.com/hiive/mlrose"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d3/58/3444853cdc3fb0b2b004f3e90b93f18f665216c0ad5bba554b15bef11a25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

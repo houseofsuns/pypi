@@ -15,7 +15,7 @@ DESCRIPTION="Library for extracting rechtspraak data"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/f8/5ab1ce7b15a7702c503e9d28054091802aafd914fefa37dfb94e7723f944/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Prepare data for LexImpact"
 
 HOMEPAGE="https://leximpact.an.fr/"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/82/84/98a832bf64ef3a45a949db48bb5fd63f5f182eb72eaae0326a305e3e65f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

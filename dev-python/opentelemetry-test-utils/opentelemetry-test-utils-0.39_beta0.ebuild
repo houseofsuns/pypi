@@ -15,7 +15,7 @@ DESCRIPTION="Test utilities for OpenTelemetry unit tests"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tests/opentelemetry-test-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/47/5c4d62513d8c52c6d3819b6c88b49e136e13a1e511a04aed20dff0132c98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

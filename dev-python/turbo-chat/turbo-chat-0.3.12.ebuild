@@ -15,7 +15,7 @@ DESCRIPTION="Idiomatic way to build chatgpt apps using async generators in pytho
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/30/077a791e01eeb60d196cd7f263e962c00b610350b2c763413cb7e6670915/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

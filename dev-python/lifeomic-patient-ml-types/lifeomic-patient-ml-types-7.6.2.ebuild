@@ -15,7 +15,7 @@ DESCRIPTION="Shared types for the patient-ml-service repos."
 
 HOMEPAGE=""
 LICENSE="UNLICENSED"
-SRC_URI="https://files.pythonhosted.org/packages/fe/b3/0d36dd35fc5748d7c708efa0b1b0ef6658c4334806be4c6a580774a9a68f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

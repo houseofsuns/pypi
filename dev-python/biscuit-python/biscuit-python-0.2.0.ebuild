@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for the biscuit auth platform"
 
 HOMEPAGE="https://biscuitsec.org/usage/python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/08/9c/97f81015af8455f648a161aa87989fee4b24eef625a37f7237a146245aeb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

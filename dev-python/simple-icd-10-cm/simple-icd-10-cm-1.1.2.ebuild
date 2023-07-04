@@ -15,7 +15,7 @@ DESCRIPTION="A simple python library for ICD-10-CM codes"
 
 HOMEPAGE="https://github.com/StefanoTrv/simple_icd_10_CM"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/95/86/0b7317b188906976cae03664839f21f3a2e9310b56af5c2b220913f5a4e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

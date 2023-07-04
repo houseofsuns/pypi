@@ -15,7 +15,7 @@ DESCRIPTION="Store function results across executions using cache files"
 
 HOMEPAGE="https://github.com/lordjabez/file-memoizer"
 LICENSE="MIT-0"
-SRC_URI="https://files.pythonhosted.org/packages/30/ef/92a4d50e6c7eb78171fba75c524c2b079406925a8966d8dfbfa1774e6a25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

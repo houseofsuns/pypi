@@ -15,7 +15,7 @@ DESCRIPTION="A fast version of fnv1a"
 
 HOMEPAGE="https://github.com/bdraco/fnv-hash-fast"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/7d/8f3bfee867a1207ef4875571c462c3040f15a8c90b90d995428294b945cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

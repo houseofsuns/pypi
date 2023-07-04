@@ -15,7 +15,7 @@ DESCRIPTION="Celery bulk tasks"
 
 HOMEPAGE="https://github.com/buserbrasil/bulk-task"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/10/9593990d6a7432b6d3f7d93cc9f04a3b37559c2b8b093c67671ef7eae1af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

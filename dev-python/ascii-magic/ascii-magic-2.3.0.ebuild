@@ -15,7 +15,7 @@ DESCRIPTION="Converts pictures into ASCII art"
 
 HOMEPAGE="https://github.com/LeandroBarone/python-ascii_magic"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/85/11/f578208d58bc70308df3468cedacd1e965ce23f3cec9e591f2e864ab77bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

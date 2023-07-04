@@ -15,7 +15,7 @@ DESCRIPTION="RingCentral Chatbot Framework for Python"
 
 HOMEPAGE="https://github.com/ringcentral/ringcentral-chatbot-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/7a/f76c82f2077863e35f042171276b611501850fac0e253553d3c878259171/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

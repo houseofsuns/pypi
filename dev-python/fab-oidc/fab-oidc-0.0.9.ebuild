@@ -15,7 +15,7 @@ DESCRIPTION="Flask-AppBuilder SecurityManager for OpenIDConnect"
 
 HOMEPAGE="https://github.com/ministryofjustice/fab-oidc/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a4/19/0ff0bb46a69fcc0773be2d370dee459bf5c880929236e2c6eb23e6dc1966/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Bundle of Perceval backends for Puppet, Inc. ecosystem."
 
 HOMEPAGE="https://chaoss.github.io/grimoirelab/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/02/07/2794130019724f9a5acfa4625e5a56c03b62d5ded963f082506ac3a5ca5d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

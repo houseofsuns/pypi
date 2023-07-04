@@ -15,7 +15,7 @@ DESCRIPTION="chemistryandrobots contains dataclasses and sparql queries for conc
 
 HOMEPAGE="https://github.com/cambridge-cares/TheWorldAvatar/tree/main/Agents/utils/chemistry_and_robots"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/4e/6280f8db8d8b1fbfe99d2000d61175f72865d88af46debf451f924301ec8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

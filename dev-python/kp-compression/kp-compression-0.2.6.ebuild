@@ -15,7 +15,7 @@ DESCRIPTION="Library to compress LSTM layers"
 
 HOMEPAGE=""
 LICENSE="IITD"
-SRC_URI="https://files.pythonhosted.org/packages/53/91/2579be3323bff2a03ef5f194b1e2d975448830637c31f5bdfbf13279b2c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

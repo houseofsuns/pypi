@@ -15,7 +15,7 @@ DESCRIPTION="Simple to {install, use, configure, mantain} learning management sy
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3c/ec/d06f2f385c0ca4b63c2c763c1d755d08da09290f3f1c3396c5c850d3dbc7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A python wrapper for Ansys Mechanical"
 
 HOMEPAGE="https://github.com/ansys/pymechanical"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/df/236441e465830bf984679496306ba088bb23be5379041d596083f126a040/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

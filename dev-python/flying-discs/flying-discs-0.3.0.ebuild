@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of physical models for flying sport discs."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/79/00/7b650487aeaeabe7b5295eadb86e216be70d63fb3d4d6442dcb0acbd2537/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

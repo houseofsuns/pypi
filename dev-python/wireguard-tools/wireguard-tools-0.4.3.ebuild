@@ -15,7 +15,7 @@ DESCRIPTION="Pure python reimplementation of wireguard-tools"
 
 HOMEPAGE="https://github.com/cmusatyalab/wireguard-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/af/eaab6e32fa0656f96a486d82a3d04c17490c629aead90c231b64798ff258/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

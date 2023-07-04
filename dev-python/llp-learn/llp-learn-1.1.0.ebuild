@@ -15,7 +15,7 @@ DESCRIPTION="Learning from Label Proportions (LLP) methods in Python"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c4/87/8ab545e432b6c5fe30d704adfb1ef60b45f2725901d8cd04ec7d5624777b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

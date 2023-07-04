@@ -15,7 +15,7 @@ DESCRIPTION="Python package for splitting arrays into sub-arrays (i.e. rectangul
 
 HOMEPAGE="http://github.com/array-split/array_split"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/93/4d386a2f0d3a024d8876e8728a7112610255299a819ddf411e0691de1186/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

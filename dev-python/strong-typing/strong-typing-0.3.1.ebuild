@@ -15,7 +15,7 @@ DESCRIPTION="Classes to create strongly typed structures in Python"
 
 HOMEPAGE="https://github.com/aldebaran/strong_typing.git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/29/62/69c1911679e18c47bcb45eb36b09b718aa53749057998b06c2352211f4bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

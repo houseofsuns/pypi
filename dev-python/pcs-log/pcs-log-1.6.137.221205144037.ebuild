@@ -15,7 +15,7 @@ DESCRIPTION="Generic logger"
 
 HOMEPAGE="https://pcs-log.readthedocs.io/en/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0b/65/136bee9c6354e20fa0220629e3e471978e96390a8575412e020977bdafd1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

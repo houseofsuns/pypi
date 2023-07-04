@@ -15,7 +15,7 @@ DESCRIPTION="SSH asset and key management tools"
 
 HOMEPAGE="https://github.com/hile/ssh-assets"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/44/06/e090c2a3b817849e9840a6d35ab96c962a6304e65ef36fa233ce2d651e3d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

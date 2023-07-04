@@ -15,7 +15,7 @@ DESCRIPTION="A pandoc filter for adding LaTeX environement on specific div"
 
 HOMEPAGE="https://github.com/chdemko/pandoc-latex-environment"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2d/34/4d177739eaa495ce6c0d66a4fa7f549840d8a2006ca14729e85203d2334d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

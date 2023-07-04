@@ -15,7 +15,7 @@ DESCRIPTION="migrates multibeam metadata from mb schema to cruise schema"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1b/1e/f548fecbffe6f60b3ea1b2fb597d6a06de64283ec7736a993b598b5f8d1a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ML profiling tool for OptScale"
 
 HOMEPAGE="https://my.optscale.com/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c3/c4/2268334fdf754eb6349e228a837664569c03c9a7fd8693ab9d9e07a9ee98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Improve Thinc's performance on Apple devices with native libraries"
 
 HOMEPAGE="https://github.com/explosion/thinc-apple-ops"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d9/c2/86228718efde9717378b1f9b3c49b0a9af3f3bbd9918cf5e3a1bd9f7c033/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Download and load spaCy models on-the-fly."
 
 HOMEPAGE="https://github.com/BramVanroy/spacy_download"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/64/3f/86e45af63cbde24ff05bb08d39e787da49a21828cb2518605b661a4d8ca6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

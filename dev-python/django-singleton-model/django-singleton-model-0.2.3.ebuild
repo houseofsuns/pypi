@@ -15,7 +15,7 @@ DESCRIPTION="Simple package for impleting models using singleton design pattern"
 
 HOMEPAGE="https://github.com/icaropires/django-singleton-model"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/2f/b0a880d369e8c2dd1b7012518c5ff51168dc94e58d7ed9ca503dbe9dd64d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

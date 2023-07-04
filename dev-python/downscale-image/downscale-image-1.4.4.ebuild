@@ -15,7 +15,7 @@ DESCRIPTION="downscale image to desired file size"
 
 HOMEPAGE="https://github.com/mshafer1/downscale_image"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/85/9b/5218b3decba82f30b0af24d01c443490f80a0189c8b09b52d7ca551e764d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

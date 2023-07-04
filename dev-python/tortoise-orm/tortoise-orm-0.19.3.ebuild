@@ -15,7 +15,7 @@ DESCRIPTION="Easy async ORM for python, built with relations in mind"
 
 HOMEPAGE="https://github.com/tortoise/tortoise-orm"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8a/47/4369c766243067776b4899b1041281d0fc2452b67a0d5a4b7ac72f3e962f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

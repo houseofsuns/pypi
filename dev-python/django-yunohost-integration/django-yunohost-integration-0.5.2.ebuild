@@ -15,7 +15,7 @@ DESCRIPTION="Glue code to package django projects as yunohost apps."
 
 HOMEPAGE="https://github.com/YunoHost-Apps/django_yunohost_integration"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/58/ca/440df2d40cb2e76854c834ddeb655d8efc30b4c1fcea47fd194f24d0d8da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

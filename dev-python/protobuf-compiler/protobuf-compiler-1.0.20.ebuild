@@ -15,7 +15,7 @@ DESCRIPTION="compile all protobuf files and create a single package distribution
 
 HOMEPAGE="https://github.com/netsaj/python-protobuf-compiler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/51/a3bc5e68c9a25f63ae934d635df59841cf66e76f47b350ea2fe212a9caaa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="MLflow Google Cloud Vertex AI integration package"
 
 HOMEPAGE="https://github.com/Ark-kun/google_cloud_mlflow"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9a/b8/2b5f7b3bd94db0b5430685c431cef3976c98943f41d61e9f546123aa8c2b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

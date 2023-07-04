@@ -15,7 +15,7 @@ DESCRIPTION="some libs"
 
 HOMEPAGE="https://github.com/Qingluan/.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/18/62/98759d2516b48580acc24325ff35f11f5b7cd8c3f2ef1da123c10facbfd2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

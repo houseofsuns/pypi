@@ -15,7 +15,7 @@ DESCRIPTION="Engine for creating and running validation suites for general purpo
 
 HOMEPAGE="https://github.com/quintoandar/validations-engine"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/28/b4/8f76c1aa94d33ff6a64c8cd6679da82eb5be6a9c3375078974f892e56c0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

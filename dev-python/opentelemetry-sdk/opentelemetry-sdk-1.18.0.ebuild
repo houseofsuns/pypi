@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry Python SDK"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/opentelemetry-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/bf/743abab7c48fdad8df69094a944b1dc63c668e0f5cfef1221391bc4de8af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

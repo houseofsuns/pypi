@@ -15,7 +15,7 @@ DESCRIPTION="Python Client for Google Cloud Pub/Sub"
 
 HOMEPAGE="https://github.com/talkiq/gcloud-aio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/75/c5/b0e6d1bdbf9ded91960eefc1ad859c53dbb23a3cc187a6eb5fe373d19286/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

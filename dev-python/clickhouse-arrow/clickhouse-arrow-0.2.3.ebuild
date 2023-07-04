@@ -15,7 +15,7 @@ DESCRIPTION="A minimal client that uses the ClickHouse HTTP API and Apache Arrow
 
 HOMEPAGE="https://github.com/galpin/clickhouse-arrow"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/79/3370789653ed9a3c12ef70b3446e90b38b43534c8185293b35b88ba2a969/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

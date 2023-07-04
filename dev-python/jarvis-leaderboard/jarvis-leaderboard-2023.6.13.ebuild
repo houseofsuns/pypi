@@ -15,7 +15,7 @@ DESCRIPTION="jarvis_leaderboard"
 
 HOMEPAGE="https://github.com/knc6/jarvis_leaderboard"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/e2/9d388864e2b06b114f34e50db2bc3af521872beea902418908460a6eeb5b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

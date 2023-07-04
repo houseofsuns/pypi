@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for Rust crate md-ulb-pwrap."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/53/e5/d5f85051123308b7019de12ebcfdf83da59852c5c69f13b673f206b2b5b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

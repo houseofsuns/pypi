@@ -15,7 +15,7 @@ DESCRIPTION="A Slack extension for Celery."
 
 HOMEPAGE="https://github.com/crflynn/celery-slack"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b9/fc/4a07f01c8eeed87e5fe52b7de3c5e50623e80a39e3f0e31ee7db6d5afa7d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

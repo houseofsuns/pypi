@@ -15,7 +15,7 @@ DESCRIPTION="ae namespace module portion kivy_relief_canvas: inner/outer ellipti
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_kivy_relief_canvas"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/74/5f/712e84b67a775ed8e03f38da75b584b6b1215f0f69e6d8cfb235c296dd32/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

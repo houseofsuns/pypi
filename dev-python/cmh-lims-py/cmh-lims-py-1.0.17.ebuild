@@ -15,7 +15,7 @@ DESCRIPTION="Python module for basic querying of LIMS samples, analyses, and ana
 
 HOMEPAGE="https://dev.azure.com/CMHResearchIS/GMC/_git/cmhlims_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/56/5cfc3fc6c09b78e10ffd2bf4a1d94347157d96bea7b780fc8293e54f2c77/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

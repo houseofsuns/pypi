@@ -15,7 +15,7 @@ DESCRIPTION="TextFSM Templates for Network Devices, and Python wrapper for TextF
 
 HOMEPAGE="https://ntc-templates.readthedocs.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b3/a1/a36bf3d7557210ac799b51ebe231335d1926584788fd870ac5fb07efa81a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

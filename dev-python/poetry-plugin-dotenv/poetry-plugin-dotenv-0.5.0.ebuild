@@ -15,7 +15,7 @@ DESCRIPTION="poetry-plugin-dotenv - is the plugin that automatically loads envir
 
 HOMEPAGE="https://github.com/volopivoshenko/poetry-plugin-dotenv"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/83/3160e46caaf766eaf3072d9f3b5821872801a21b9fff6bd1428b4d565aea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

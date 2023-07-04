@@ -15,7 +15,7 @@ DESCRIPTION="Python library supporting Project Mu components (EDKII, TPM, Capsul
 
 HOMEPAGE="https://github.com/microsoft/mu_pip_python_library"
 LICENSE="BSD2"
-SRC_URI="https://files.pythonhosted.org/packages/26/f5/764f5484accce6a424d3705390319006890e699d633cda1168aa6879f7c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

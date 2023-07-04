@@ -15,7 +15,7 @@ DESCRIPTION="A command-line tool (and pre-commit hook) to remove print statement
 
 HOMEPAGE="https://github.com/dhruvmanila/remove-print-statements"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/12/3910d960b598cf623033c0a0a569fe43764dba7c66a26b957ed64088797b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://codeberg.org/bovine/bovine"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/60/3fb3c0b2130ffc27c21b29f5f235bcd560b220fce04b7b4a354a4dfdb5e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="OpenAPI Schema using pydantic. Forked for Starlite-API from 'openap
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/a6/a1bec785065f3ddabb161dd490a2fe681a56020111d4d315eeffa58a41f8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

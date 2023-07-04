@@ -15,7 +15,7 @@ DESCRIPTION="An expiremental auditboard api client"
 
 HOMEPAGE="https://github.com/soxhub/control_rod"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/59/fe60b7f2df8ceaca9524cd12820577ddc62a9abd0843724cc60efced963d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

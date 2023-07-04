@@ -15,7 +15,7 @@ DESCRIPTION="Wraps starlark-rust into Python"
 
 HOMEPAGE="https://github.com/inducer/starlark-pyo3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/90/0fd14cf271a7e3cf22b888c33fa37176e7dccf57ddbc067c58fcf2ef65bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A tool to extract metadata from AWS"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/f5/b8bf21510e6d8b009125d8e1ed2b299daf26cc1c3bdbbbb68acb732d70b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Lims code for Clinical Genomics"
 
 HOMEPAGE="https://github.com/Clinical-Genomics/cg_lims"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/28/14/18cc87aedd4bafcf95dbbc85e6afe8b9737e8baec753fbc267e562b91cf9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Async Tasks with HTTP endpoints"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4b/73/85582bbc506599b27d2aafd580b961f6a03e77ec224feca5eb2cb77e97fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

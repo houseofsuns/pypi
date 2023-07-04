@@ -15,7 +15,7 @@ DESCRIPTION="灰色系统包，目前只有一个功能，未来会有很多！"
 
 HOMEPAGE="http://math.halashuo.cn/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0d/c8/f640bd3910c922f935e004e80d19108c4290e1e6dd56b08f1e7fd6d3e732/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="FuriosaAI tools"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/14/db/9dd3d57910dc20d2b81cdd0101eedd36f59c65adbd8e468f8f9c63f32de4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

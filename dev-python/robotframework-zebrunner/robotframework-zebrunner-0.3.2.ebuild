@@ -15,7 +15,7 @@ DESCRIPTION="Robotframework connector for Zebrunner reporting"
 
 HOMEPAGE="https://zebrunner.com/documentation/agents/robot"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fe/99/a00409dad97bfc971cb9b3f9af5662107f92e6d63b17592be0254735850a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

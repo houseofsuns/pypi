@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/evil-mad/ink_extensions"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a9/d6/361d7f18b913cd18ecae68511e2e067d0522695896bc4781fc33e434b8fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

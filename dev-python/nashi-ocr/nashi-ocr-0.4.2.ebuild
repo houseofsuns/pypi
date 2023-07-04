@@ -15,7 +15,7 @@ DESCRIPTION="An OCR client complementing webapp for the transcription of scanned
 
 HOMEPAGE="https://github.com/andbue/nashi"
 LICENSE="GPL_v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/57/64/0e26eefab8a8d74ff894bc9a9401643e4b0553a27652c18158806cc7c091/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

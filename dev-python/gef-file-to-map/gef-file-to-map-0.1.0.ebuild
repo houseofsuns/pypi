@@ -15,7 +15,7 @@ DESCRIPTION="Utility library for parsing .gef files"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2b/90/11fae870fdf5cfd7475f6b6cfd1262a8ed774b9ed7e39a744a1814198d99/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

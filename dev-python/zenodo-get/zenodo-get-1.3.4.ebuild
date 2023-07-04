@@ -15,7 +15,7 @@ DESCRIPTION="Zenodo_get - a downloader for Zenodo records"
 
 HOMEPAGE="https://gitlab.com/dvolgyes/zenodo_get"
 LICENSE="AGPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/f0/2b/25b807d6831f8718540b763bb53a493ad38476c97f74547ccd16fe5a5e5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Various utilies to aid in program development"
 
 HOMEPAGE="https://github.com/DavidePonzini/dav-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9b/2d/bd15254940b7d487483e50e9aa1720a242cb97840845ee631169965fd6d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

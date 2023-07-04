@@ -15,7 +15,7 @@ DESCRIPTION="Home Assistant Bluetooth Models and Helpers"
 
 HOMEPAGE="https://github.com/home-assistant-libs/home-assistant-bluetooth"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3f/de/ffb45322a6996b205c5dda84d2f92fd38e8bd576f97fdb08f24bcbbc969b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

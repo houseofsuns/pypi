@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for Austin, the CPython frame stack sampler."
 
 HOMEPAGE="https://github.com/P403n1x87/austin-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/31/83/8f5db5298f766ae645c7e54bba2825e8beab4fd4a31409e1e5080197e8fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

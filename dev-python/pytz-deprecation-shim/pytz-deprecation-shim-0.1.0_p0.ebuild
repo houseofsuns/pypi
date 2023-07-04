@@ -15,7 +15,7 @@ DESCRIPTION="Shims to make deprecation of pytz easier"
 
 HOMEPAGE="https://github.com/pganssle/pytz-deprecation-shim"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/94/f0/909f94fea74759654390a3e1a9e4e185b6cd9aa810e533e3586f39da3097/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

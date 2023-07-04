@@ -15,7 +15,7 @@ DESCRIPTION="Segment anything with a few lines of code"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/41/695834cc9c82c04bdb51cf5ac14103bc3fd3d5d4aff1315a422f7a165fac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Matrix Synapse module which implements MSC3886"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2f/23/288b0e1ef16d72dd6758a2b6952a55f0c858a66f4c693f2240ae81227c8f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

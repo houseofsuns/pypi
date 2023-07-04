@@ -15,7 +15,7 @@ DESCRIPTION="Python library for developing LLM bots"
 
 HOMEPAGE="https://github.com/prefeitura-rio/chatbot-lab"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/1a/6a/9cd3a4a2d6041de9dd0e1fc6cc97bdfeb46cc544eef8d84c52530cebaf71/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

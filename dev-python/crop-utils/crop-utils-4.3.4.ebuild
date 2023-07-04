@@ -15,7 +15,7 @@ DESCRIPTION="鞋类ai识别"
 
 HOMEPAGE="http://git.chaomy.com/libo/ecpro-utils.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/68/29/f4b353b6cdf99709e5a3d41c217350a3c38e7f3c53f119584e1c70271ecd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

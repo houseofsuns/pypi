@@ -15,7 +15,7 @@ DESCRIPTION="Encryption and hashing functions for Office VBA files."
 
 HOMEPAGE="https://github.com/Beakerboy/MS-OVBA-Crypto"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/2f/db8ef9311f8fa7a8b410f7e3e46792851bbc389e02447d508ca3cc80a2b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

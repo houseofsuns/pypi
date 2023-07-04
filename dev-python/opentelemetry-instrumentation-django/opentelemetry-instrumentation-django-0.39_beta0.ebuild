@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry Instrumentation for Django"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-django"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8f/f5/68c258748bc5a7d4f80e4ed42b028ad4d2a3d7bbf8a82ca8734b031f5b05/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Telegram album sender."
 
 HOMEPAGE="https://github.com/gaoyunzhi/telegram_album_sender"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/3c/ccb63c3674d476f1be203aead3c997fa3757356b13fec62b77effa4abea9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

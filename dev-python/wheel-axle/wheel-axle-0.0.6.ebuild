@@ -15,7 +15,7 @@ DESCRIPTION="Axle is Python wheel enhancement library"
 
 HOMEPAGE="https://github.com/karellen/wheel-axle"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/55/14/abd4e2099260cff1baffd76f46d66603fee830177a952e89f1b6513ac904/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

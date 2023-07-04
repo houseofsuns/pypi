@@ -15,7 +15,7 @@ DESCRIPTION="Helper Library to use Singular Reporting API"
 
 HOMEPAGE="https://github.com/singular-labs/singular_api_client/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b3/bc/3e51cf893217554573ae343bf4ce5f39357a985bcc273bb9c081569c0fb7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

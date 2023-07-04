@@ -15,7 +15,7 @@ DESCRIPTION="A public and reproducible collection of reference implementations a
 
 HOMEPAGE="https://github.com/mlbench/mlbench_core"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c2/a2/1d07aa39c109f46e6ce66bb83c5c8d214945876a9c6ef5d65001160557b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

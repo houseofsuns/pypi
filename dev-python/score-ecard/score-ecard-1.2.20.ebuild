@@ -15,7 +15,7 @@ DESCRIPTION="random forest + lr card"
 
 HOMEPAGE="https://github.com/wqwangchn/score_ecard"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c5/3d/447365db0af79767c8896b798d651ce4b94b4d294befed5dc9e625b8af37/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

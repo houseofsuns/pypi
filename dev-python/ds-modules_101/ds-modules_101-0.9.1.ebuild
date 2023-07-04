@@ -15,7 +15,7 @@ DESCRIPTION="A small package to help with some routine Data Science activities"
 
 HOMEPAGE="https://github.com/TanselArif-21/ds_modules_101"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/08/83d5d026398667ae56c7383b09f0835ebcf23922459827a9f8fd398e0b1d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

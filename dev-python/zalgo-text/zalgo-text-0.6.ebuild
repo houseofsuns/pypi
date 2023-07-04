@@ -15,7 +15,7 @@ DESCRIPTION="̖̘A ̩̼͜͡ś̛̺̦̃m̡̥̫a̛̳̹l̵̷͐ͪl ̶̫l̞̆̇i͈̫b
 
 HOMEPAGE="https://github.com/gregoryneal/zalgo"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/96/11/a540bf6cdb622469ed32dbbc81a76fd4e97185fa33a519d291ff1fb43b5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

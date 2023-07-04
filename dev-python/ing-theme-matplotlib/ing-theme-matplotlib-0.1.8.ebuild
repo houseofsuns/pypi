@@ -15,7 +15,7 @@ DESCRIPTION="ING styles for common plotting libraries"
 
 HOMEPAGE="https://gitlab.com/ing_rpaa/ing_theme_matplotlib"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9a/c1/ff21d921d585e0be199f1b8dfb4e75a82fb612b079320422fe8359390f49/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

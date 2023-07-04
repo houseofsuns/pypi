@@ -15,7 +15,7 @@ DESCRIPTION="Use for the multiple delete, update or insert and select!"
 
 HOMEPAGE="https://github.com/RDJohns/rdjohns_pg"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/c0/b5efe234d58a4f42a03cd91e22790d7d51bcc6360b9ae4200f86cf6e338a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

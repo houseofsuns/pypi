@@ -15,7 +15,7 @@ DESCRIPTION="Base classes for developing eccenca Coporate Memory plugins."
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7f/d3/60aff7f76a405f2e9b8c770e5cacf66652d18226616ec65ce2686d36effd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

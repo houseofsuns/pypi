@@ -15,7 +15,7 @@ DESCRIPTION="FastAPI integration for taskiq"
 
 HOMEPAGE=""
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/5d/9a/557703f8117abfe0cdcb442465b0d2ed48450f294d7b32b7c56a9b862bff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

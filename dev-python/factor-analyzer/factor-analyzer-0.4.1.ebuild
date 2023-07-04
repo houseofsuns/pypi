@@ -15,7 +15,7 @@ DESCRIPTION="A Factor Analysis tool written in Python"
 
 HOMEPAGE="https://github.com/EducationalTestingService/factor_analyzer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5b/23/2df9aa2257dd1940a01b873851e5531727452f328cab6a4a465b0d21ffda/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

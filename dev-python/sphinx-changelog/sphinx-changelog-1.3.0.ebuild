@@ -15,7 +15,7 @@ DESCRIPTION="A changelog renderer for sphinx."
 
 HOMEPAGE="https://openastronomy.org"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/8c/e0/7b98a5936c76d6d8f95b64907df0b56a8d5eeabf65034ea4befb01aa2248/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

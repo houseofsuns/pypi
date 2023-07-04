@@ -15,7 +15,7 @@ DESCRIPTION="Autogenerate mappings between dataclasses"
 
 HOMEPAGE="https://dataclass-mapper.readthedocs.io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/90/551ff761c801f6ded7b851b5c4f77ee9da11ce099b4c257bbf3d56977558/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Simple configuration management with python."
 
 HOMEPAGE="https://github.com/pwwang/simpleconf"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e3/ef/52466817a11ab2313e759e464c9c23207dda08170e9edf2285dff4b13546/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

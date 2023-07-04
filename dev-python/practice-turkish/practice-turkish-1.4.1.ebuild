@@ -15,7 +15,7 @@ DESCRIPTION="A set of tools to practice your Turkish"
 
 HOMEPAGE="https://github.com/FadeevEgor/PracticeTurkish"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a3/58/0399ca8457d7c66eade8ecd07fd5e7e4c3797ac73bccdf17f8c2a651fdc7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

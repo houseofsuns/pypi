@@ -15,7 +15,7 @@ DESCRIPTION="ae namespace module portion kivy_auto_width: automatic width mix-in
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_kivy_auto_width"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/1d/9e/0eef8ffe09911df04e9693f753bc6f3450eab3cbd2d88123ca9a2ee37e85/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

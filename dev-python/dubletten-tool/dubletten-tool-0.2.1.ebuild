@@ -15,7 +15,7 @@ DESCRIPTION="APIS module for the VieCPro instance to perform manual deduplicatio
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f1/83/7f75e88447dc6a902d41790ca8f8753ca2ce521c35a010ef54a7660e1bfb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

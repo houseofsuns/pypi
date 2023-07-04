@@ -15,7 +15,7 @@ DESCRIPTION="PII Detection, Categorization, and Severity Assessment"
 
 HOMEPAGE="https://github.com/EdyVision/pii-codex"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/e2/0c/fc8f1be1e9b5f6c24b31805097ab227f7f58689f318f0162e328a78d98e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

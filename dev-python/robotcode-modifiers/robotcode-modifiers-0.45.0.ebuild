@@ -15,7 +15,7 @@ DESCRIPTION="Some Robot Framework Modifiers for RobotCode"
 
 HOMEPAGE="https://robotcode.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0c/e5/69b1aca12c5aefb7d6b99844281f54f47fde64771f5a46ce2aee152971ce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

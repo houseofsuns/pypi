@@ -15,7 +15,7 @@ DESCRIPTION="Feature engineering package with Scikit-learn's fit transform funct
 
 HOMEPAGE="http://github.com/feature-engine/feature_engine"
 LICENSE="BSD 3 clause"
-SRC_URI="https://files.pythonhosted.org/packages/08/a3/047832cd6bfa979707343b642b48e3888085298b9068a7f866617a7f2826/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

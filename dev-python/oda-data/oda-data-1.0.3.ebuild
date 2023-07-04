@@ -15,7 +15,7 @@ DESCRIPTION="A python package to work with Official Development Assistance data 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/4b/8dbcfabe697bc0a136e34bd19cd2f50efe96504ef3c7ac0e9865a7d1c5f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

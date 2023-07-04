@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing GitLab resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d3/da/97c8c5b4b53997f83f1a6c54c4bd9978038959030bd0f5d80d77aac05042/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

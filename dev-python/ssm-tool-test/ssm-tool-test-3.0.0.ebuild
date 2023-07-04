@@ -15,7 +15,7 @@ DESCRIPTION="A small example package to get ssm parameters from aws"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/13/29/e329d58fe1561efa2f65af2e373c2d39ac781dfdb22ae2d82d7ccbfa750c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

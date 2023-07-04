@@ -15,7 +15,7 @@ DESCRIPTION="A Django-Ninja backend to specify FormKit schemas"
 
 HOMEPAGE="https://github.com/catalpainternational/formkit-ninja"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/62/14/992d81491cf8cc1affbe34718596b3b58ee3241382f556810ba3f18f24bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

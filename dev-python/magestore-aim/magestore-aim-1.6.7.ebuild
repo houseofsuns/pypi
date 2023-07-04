@@ -15,7 +15,7 @@ DESCRIPTION="New magento version : 2.2.9 & 2.3.2"
 
 HOMEPAGE="https://magestore.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/08/b6/0b96a07c98b368786d9a66cd5b72f42d490dfd6988f2a6b0d5475cfbfaed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

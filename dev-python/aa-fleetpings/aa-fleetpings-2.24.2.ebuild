@@ -15,7 +15,7 @@ DESCRIPTION="Fleet Ping Tool for Alliance Auth supporting pings via webhooks to 
 
 HOMEPAGE="https://github.com/ppfeufer/aa-fleetpings"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/90/e6/9766b947205d17379df36071f677543acba32880293fd7f427a19c674724/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

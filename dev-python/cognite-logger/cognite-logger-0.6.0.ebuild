@@ -15,7 +15,7 @@ DESCRIPTION="Library for configuring logger"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/c9/933687f2c2b2c6ee0b57a428d49f8e7dfcd521ff1e184e9131f40c966487/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

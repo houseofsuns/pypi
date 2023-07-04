@@ -15,7 +15,7 @@ DESCRIPTION="UDI Python Interface for Polyglot version 3"
 
 HOMEPAGE="https://github.com/UniversalDevicesInc/udi_python_interface"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/ba/4b8ff4ac787bfe30289a00a2dcd0052790536217ba8814f6eaa65f40bacb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

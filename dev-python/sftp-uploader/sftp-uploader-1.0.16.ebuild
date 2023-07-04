@@ -15,7 +15,7 @@ DESCRIPTION="Package for upload data in before commit uncommited files to sftp s
 
 HOMEPAGE="https://github.com/moonvent/sftp_uploader/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/9a/8abeb7bfa14a2fe695bc0cb4e452cd8c4a06bda965065bc9a81a1668f2c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

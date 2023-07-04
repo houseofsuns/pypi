@@ -15,7 +15,7 @@ DESCRIPTION="Convert existing Flake8 configuration to Ruff."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/22/18/861a7b92f6141e8476c6fc7aa4aa21d1c09b1eff0cfd8fd843cb721e3b2e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

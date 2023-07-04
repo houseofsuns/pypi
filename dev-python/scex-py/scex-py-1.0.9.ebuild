@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Lenders-Cooperative/scex_py"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/20/b1/dc9626dcacdff027497f52feb9a13334d6171b45be13389a9ce14ba6125a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A package for performing stochastic gradient descent (arXiv:1710.04
 
 HOMEPAGE="https://www.github.com/jxz12/s_gd2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/47/fb/d85945c9eceaba37552b369c819945d9e9413240643ef49ef3395c357243/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

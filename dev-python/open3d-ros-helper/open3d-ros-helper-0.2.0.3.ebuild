@@ -15,7 +15,7 @@ DESCRIPTION="A helper tool for jointly using open3d and ROS"
 
 HOMEPAGE="https://github.com/SeungBack/open3d-ros-helper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d0/43/e8ba381e3c52768470b317450b8243b00fe3f061da7e4c8e5f156414737f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

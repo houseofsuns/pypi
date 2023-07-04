@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper package to manage specific cross-platform management requ
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/ab/feb60dc3db7a86c212d4ae9b6f1740e93fc8113bc890c17edc583ce30cc6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

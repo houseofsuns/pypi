@@ -15,7 +15,7 @@ DESCRIPTION="A tool for exporting all project data from a BitBucket mercurial re
 
 HOMEPAGE="https://github.com/philipstarkey/bitbucket-hg-exporter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bf/a8/a444d1bc00b2c3faa4d58d8714dc7be0d108a9912fb9ed19f437c39ce976/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

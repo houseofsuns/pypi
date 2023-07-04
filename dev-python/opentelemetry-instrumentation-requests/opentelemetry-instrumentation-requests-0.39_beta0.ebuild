@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry requests instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-requests"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/29/2c5746cb99faa517f305a9009ecf8542d1c29dee0dee616447e8b0878ad1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

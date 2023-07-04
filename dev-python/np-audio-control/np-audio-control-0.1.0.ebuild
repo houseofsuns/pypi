@@ -15,7 +15,7 @@ DESCRIPTION="Tools for remote control of Windows system audio on Mindscope Neuro
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7d/c9/6f64dab943d71c799467dedaf9a965c423e114c2adfc325993f57166df5e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

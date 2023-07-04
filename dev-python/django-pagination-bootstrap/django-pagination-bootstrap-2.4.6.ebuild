@@ -15,7 +15,7 @@ DESCRIPTION="Easy add pagination in Django, using Bootstrap's layout."
 
 HOMEPAGE="https://github.com/staticdev/django-pagination-bootstrap"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/d8/1bebb3e8a06d075dba6ce2ecfd20b6607be2e98b216feb314f2998ad80d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

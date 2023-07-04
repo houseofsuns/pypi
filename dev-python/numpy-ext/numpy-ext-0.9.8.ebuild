@@ -15,7 +15,7 @@ DESCRIPTION="numpy extension"
 
 HOMEPAGE="https://github.com/3jane/numpy_ext"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/8c/7fee8ed19be051a37a4646e8dac78eecf07da0118ddf610eb890b99d0744/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

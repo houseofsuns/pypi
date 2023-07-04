@@ -15,7 +15,7 @@ DESCRIPTION="Explore the structure of a bunch of jsons"
 
 HOMEPAGE="https://github.com/stringertheory/json-explorer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/bf/6e334cce7e2f11175d0bd65b135fec58d46330d864a656d206e3de5ff18c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

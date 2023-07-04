@@ -15,7 +15,7 @@ DESCRIPTION="A parser based on lib2to3 producing docspec data from Python source
 
 HOMEPAGE="https://github.com/NiklasRosenstein/docspec/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/88/99c5e27a894f01290364563c84838cf68f1a8629474b5bbfc3bf35a8d923/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

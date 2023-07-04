@@ -15,7 +15,7 @@ DESCRIPTION="Differential Evolution Algorithm with OpenMDAO Driver"
 
 HOMEPAGE="https://github.com/daniel-de-vries/differential-evolution"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/35/e5/10540577276b2cd3b9292adf01b3a5df4ea797f21731355f61c60852c6c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

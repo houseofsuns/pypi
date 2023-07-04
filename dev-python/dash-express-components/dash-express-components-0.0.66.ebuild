@@ -15,7 +15,7 @@ DESCRIPTION="Simple widgets to add plotly express style plotting to dash"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c4/93/34238496dcd620bd41fd8bb9688fd7d584e6bb1ab0ec2b37f7a425ef46ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

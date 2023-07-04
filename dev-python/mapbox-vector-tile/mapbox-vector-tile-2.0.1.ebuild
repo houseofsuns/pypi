@@ -15,7 +15,7 @@ DESCRIPTION="Mapbox Vector Tile encoding and decoding."
 
 HOMEPAGE="https://github.com/tilezen/mapbox-vector-tile"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/ec/5dffa07771444d5ea52585276be1f157a19fcf639d5b06aeb08f31ed6551/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

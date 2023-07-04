@@ -15,7 +15,7 @@ DESCRIPTION="EWAH Bool Array utils for yt"
 
 HOMEPAGE="https://github.com/yt-project/ewah_bool_utils"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d4/a9/603886e1ae9c025d03290cf3151c1be2c6f0c2beefde8f440bf6e17cb996/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

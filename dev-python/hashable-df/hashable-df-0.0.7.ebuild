@@ -15,7 +15,7 @@ DESCRIPTION="Makes unhashable values in a pandas DataFrame hashable"
 
 HOMEPAGE="https://github.com/bra-fsn/hashable_df"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/86/a7/99042dcc8a1938966cf7e737b7d544add5f69158a9c2aed17930a22f67f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="\`tap-instagram\` is a Singer tap for Instagram, built with the Mel
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/91/0d/6b753907c950b0c578072e95aacb8900c6c2f2a0152cc3a5ca52c313aad2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

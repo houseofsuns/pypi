@@ -15,7 +15,7 @@ DESCRIPTION="This package contains the problem classes for desdeo framework."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/ae/803ed8e6d151b92e0430406f36dedc287bbef8ebd28044719efcede0e020/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

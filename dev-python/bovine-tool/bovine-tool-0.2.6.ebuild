@@ -15,7 +15,7 @@ DESCRIPTION="Basic tools to administrate a bovine herd"
 
 HOMEPAGE="https://codeberg.org/bovine/bovine"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/be/86b3315a804c9ff43c50299707bde4ffdf682541216e78aa0b007e590865/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Base classes and helpers to make QA autotests for CLI"
 
 HOMEPAGE="https://github.com/ArtyomKomarenko/gajou-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/c0/892a52d3786a6ba6fceaa084806a1283cc9011fb598cffaadc01083a6c57/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

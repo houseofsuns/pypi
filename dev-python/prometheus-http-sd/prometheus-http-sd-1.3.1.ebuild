@@ -15,7 +15,7 @@ DESCRIPTION="Prometheus HTTP SD framework."
 
 HOMEPAGE="https://python-poetry.org://github.com/laixintao/prometheus-http-sd"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2d/51/4111765f06ee0f186438a9abc939a364d3414f0aa82a91db4427c4e3567b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

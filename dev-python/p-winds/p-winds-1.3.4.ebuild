@@ -15,7 +15,7 @@ DESCRIPTION="Parker wind models for planetary atmospheres"
 
 HOMEPAGE="https://github.com/ladsantos/p-winds"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/f7/75b4d817c6fbc414e3844ab3d51e1129678b444d1e48959e446760d8c6ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

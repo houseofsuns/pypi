@@ -15,7 +15,7 @@ DESCRIPTION="A new protocol for SDSS actors."
 
 HOMEPAGE="https://github.com/sdss/clu"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/09/77/6d5c3962212fd78a2768cc409ebe8e495b841057c6023ac059e0f093ad88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

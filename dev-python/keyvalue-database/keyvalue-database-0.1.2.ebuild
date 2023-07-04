@@ -15,7 +15,7 @@ DESCRIPTION="Key Value DataBase"
 
 HOMEPAGE="https://github.com/AhmadZ1/Key-Value-DataBase"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/24/76003436a5e19562379ee70130fbecafe0798e892d586061481d1d48a616/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

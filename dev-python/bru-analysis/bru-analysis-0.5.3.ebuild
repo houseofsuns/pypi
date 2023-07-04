@@ -15,7 +15,7 @@ DESCRIPTION="This library - Bru-analytics W&J. Private library"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/13/4e76fed6a354faab88b50ba816e89c8d0b03d64aef2367005e33cee92afd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

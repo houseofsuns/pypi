@@ -15,7 +15,7 @@ DESCRIPTION="REST Proxy for ARCOR2 Execution service."
 
 HOMEPAGE=""
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/0a/32/c4998db6f6312d0b6163679444ecfbcf358abd5ca46002372488d6ed45a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

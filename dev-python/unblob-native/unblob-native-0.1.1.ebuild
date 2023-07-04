@@ -15,7 +15,7 @@ DESCRIPTION="Performance-critical functionality for Unblob"
 
 HOMEPAGE="https://unblob.org"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a2/db/37ea007be2c129b8c4ceea573d9d73f5026a1e4ac459bcdca208dfa52e12/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

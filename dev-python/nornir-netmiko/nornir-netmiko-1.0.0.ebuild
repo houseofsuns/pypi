@@ -15,7 +15,7 @@ DESCRIPTION="Netmiko's plugins for Nornir"
 
 HOMEPAGE="https://github.com/ktbyers/nornir_netmiko"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6b/0d/5d0b2ae6dafe6a388c7155a7861cf77b836c7d5f07821001f08c62448de0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

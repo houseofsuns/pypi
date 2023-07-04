@@ -15,7 +15,7 @@ DESCRIPTION="Easy to use BiLSTM+CRF sequence tagging for text."
 
 HOMEPAGE="https://github.com/bedapudi6788/seqtag-keras"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/74/3d33bbe04671a5adc8b4d29bd3b81c624903f2d77cb03c13381d2f0e171c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

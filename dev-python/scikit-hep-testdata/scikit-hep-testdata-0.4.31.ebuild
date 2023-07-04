@@ -15,7 +15,7 @@ DESCRIPTION="Example HEP files for testing and demonstrating"
 
 HOMEPAGE="https://github.com/scikit-hep/scikit-hep-testdata"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/38/bf/635e06b9579df8b94ac79ac45fd6f9e7fecfedcd385605ea7e5915090d1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

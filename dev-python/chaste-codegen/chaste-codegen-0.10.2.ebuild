@@ -15,7 +15,7 @@ DESCRIPTION="Code generation for cardiac Chaste"
 
 HOMEPAGE="https://github.com/ModellingWebLab/chaste-codegen"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/fe/f6ac59c67f3aec52b23692c199880c561c5093caa2fcfb062ca82f28aefa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

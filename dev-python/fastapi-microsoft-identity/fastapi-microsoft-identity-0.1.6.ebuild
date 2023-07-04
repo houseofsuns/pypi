@@ -15,7 +15,7 @@ DESCRIPTION="Azure AD authentication for Fast API"
 
 HOMEPAGE="https://github.com/425Show/fastapi_microsoft_identity"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d3/1d/d35291ca22a2812f12a55b711a1865b827eddfc1f59ea10bc0902aadce3a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

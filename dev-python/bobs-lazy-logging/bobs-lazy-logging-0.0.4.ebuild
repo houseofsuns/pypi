@@ -15,7 +15,7 @@ DESCRIPTION="Debug logging for lazy people"
 
 HOMEPAGE="https://github.com/BobTheBuidler/lazy_logging"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/47/4f74404b600200e5e02189c17b12b908719302cd53c507da7350ed9922e7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

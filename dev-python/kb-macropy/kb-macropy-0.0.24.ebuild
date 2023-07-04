@@ -15,7 +15,7 @@ DESCRIPTION="Keyboard listener and automation script."
 
 HOMEPAGE="https://github.com/Ryen-042/macropy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/5b/8cf6ee480afbfdb4cb2c848c472545bc27fd4b08ef75907757e28a1e2cfd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

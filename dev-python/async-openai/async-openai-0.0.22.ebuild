@@ -15,7 +15,7 @@ DESCRIPTION="Unofficial Async Python client library for the OpenAI API"
 
 HOMEPAGE="https://github.com/GrowthEngineAI/async-openai"
 LICENSE="MIT Style"
-SRC_URI="https://files.pythonhosted.org/packages/2a/a3/64f0c4cad592fe383b236da545851a3a0075cae9642b56ee76274d5c0697/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

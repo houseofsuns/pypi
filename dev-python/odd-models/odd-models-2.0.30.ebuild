@@ -15,7 +15,7 @@ DESCRIPTION="Open Data Discovery Models"
 
 HOMEPAGE="https://github.com/opendatadiscovery/odd-models-package"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e6/7c/0ec3b964db7e99ea585503b101b58e13986c3b133d56ef18841d39d7d6eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

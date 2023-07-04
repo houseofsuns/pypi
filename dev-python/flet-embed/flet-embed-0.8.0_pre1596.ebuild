@@ -15,7 +15,7 @@ DESCRIPTION="Flet Embed - embed Python into Flutter apps"
 
 HOMEPAGE="https://flet.dev"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/76/ea/b527b50d4f927f7df69c93acc1aeb374fc31b379e9dc278c4f573b656535/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

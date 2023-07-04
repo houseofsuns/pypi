@@ -15,7 +15,7 @@ DESCRIPTION="Academic Hub Library"
 
 HOMEPAGE="https://github.com/cfoisy-osisoft/academic-hub"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/f5/7b815b036b8e78206e818b922be82786a6859064734028b1b39f8ba389df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

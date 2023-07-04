@@ -15,7 +15,7 @@ DESCRIPTION="BlackFox Extras"
 
 HOMEPAGE="https://github.com/vodena/BlackFoxPythonExtras"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/97/3c/c244fe90bc4f57ffd480ccd60390deced8dc5339bf4c32a926692bab76d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

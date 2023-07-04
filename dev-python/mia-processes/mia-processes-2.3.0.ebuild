@@ -15,7 +15,7 @@ DESCRIPTION="mia_processes"
 
 HOMEPAGE="http://populse.github.io/mia_processes"
 LICENSE="CeCILL"
-SRC_URI="https://files.pythonhosted.org/packages/13/64/accb119144b17a1650ece272697a81ca8391a37c4f6e8294e02b9d7c439c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

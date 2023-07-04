@@ -15,7 +15,7 @@ DESCRIPTION="A Library with shared utilities for PyLav-Cogs"
 
 HOMEPAGE="https://github.com/Drapersniper/PyLavCog-Shared"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e7/83/689bc35b2196028d90e0e9319fa1fec8f85eeeee0c74c356aa3d0d53a858/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Utility functions for working with AWS resources"
 
 HOMEPAGE="https://github.com/amplify-education/amplify_aws_utils/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/7c/e01d585b52acf79ccca3cab6f80b4b50c8a4656089af1e37ffe7fa203a1c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

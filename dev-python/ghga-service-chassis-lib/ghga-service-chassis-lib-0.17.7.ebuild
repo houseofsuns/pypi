@@ -15,7 +15,7 @@ DESCRIPTION="A library that contains the basic chassis functionality used in ser
 
 HOMEPAGE="https://github.com/ghga-de/ghga-service-chassis-lib"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/90/3b/918542e7551a38557c95d78967ad29484a70bb6a79fb13e0ed23f8a3b9ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

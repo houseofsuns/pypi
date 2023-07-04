@@ -15,7 +15,7 @@ DESCRIPTION="In-place file processing"
 
 HOMEPAGE="https://github.com/jwodder/inplace"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/5c/5ee0c7e62954618bea2518c45d20dc98f6c4cb76d9f7d14e773f47678c5b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

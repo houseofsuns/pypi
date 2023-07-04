@@ -15,7 +15,7 @@ DESCRIPTION="Django extensions by Zostera"
 
 HOMEPAGE="https://github.com/zostera/django-marina"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/19/310f5ffddee98b389d10e5c79f098b334afab4bc28fdd320593e31af58fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="JupyterLab 2/3 Solarized Dark extension."
 
 HOMEPAGE="https://github.com/AllanChain/jupyterlab-theme-solarized-dark"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f9/16/06fa1f34bb7bc3c29677e069a7b4d6c7a186a60d8bc91b48fa5f28381cc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

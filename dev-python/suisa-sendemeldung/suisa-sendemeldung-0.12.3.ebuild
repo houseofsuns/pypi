@@ -15,7 +15,7 @@ DESCRIPTION="ACRCloud client for SUISA reporting"
 
 HOMEPAGE="http://github.com/radiorabe/suisa_reporting"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bc/6a/87f9ebb3e007436ec27e8dd52f52d6aa11bc66e36f251d0738d0a281299f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

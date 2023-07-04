@@ -15,7 +15,7 @@ DESCRIPTION="Write safe shell scripts in Python."
 
 HOMEPAGE="https://github.com/adamhl8/python-shellrunner"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/69/5c3201b2c8a61ff295b83be1dc9797bc19565af3c841f55abc8661811ada/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="process data as stream."
 
 HOMEPAGE="https://github.com/nutalk/file_stream"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/54/57/51a6ee27f14db59e25d51090508dd92bea2af3db483097ec45155343bf55/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

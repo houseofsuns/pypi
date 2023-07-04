@@ -15,7 +15,7 @@ DESCRIPTION="Nautobot plugin to model firewall objects."
 
 HOMEPAGE="https://github.com/nautobot/nautobot-plugin-firewall-models"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d0/e5/2e1ac7f9cb4cc5e8bef4fedafac1be218fd96c10d36da0f106e786e20681/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

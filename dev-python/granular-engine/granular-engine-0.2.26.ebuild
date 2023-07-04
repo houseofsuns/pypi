@@ -15,7 +15,7 @@ DESCRIPTION="Experiment tracking for GeoSpatial Machine Learning on GeoEngine"
 
 HOMEPAGE="https://github.com/granularai/engine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/f6/6094a9fe8b6d6d8702bcc0b4df4b016a6f2e63931bbd8d2ee34cba873b0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

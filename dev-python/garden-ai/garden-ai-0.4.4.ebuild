@@ -15,7 +15,7 @@ DESCRIPTION="Garden: tools to simplify access to scientific AI advances."
 
 HOMEPAGE="https://thegardens.ai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/aa/41/f67dab7b334b9b3cb059fc2535fdfa5cd8a1cfd4717385af3074667e83b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

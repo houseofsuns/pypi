@@ -15,7 +15,7 @@ DESCRIPTION="Conductor python client workers"
 
 HOMEPAGE="https://github.com/FRINXio/fm-base-workers"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a1/0b/e042be0fc9592683566b77bc1134981f2b4eaa50dafc32261f7b4873581c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

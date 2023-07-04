@@ -15,7 +15,7 @@ DESCRIPTION="TIM Python Client"
 
 HOMEPAGE="https://tangent.works"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/bb/cc6c014f2be672ff445b08ddc19ba5f96486709bed895e50a3f2a6d9b087/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

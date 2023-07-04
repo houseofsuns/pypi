@@ -15,7 +15,7 @@ DESCRIPTION="Python interface to the RNNoise VAD(Voice Activity Detection) compo
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f4/9b/59e49469b33eb59cc80c2ce7dfe4656ce55d9839cb2f7125d0805edc0131/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

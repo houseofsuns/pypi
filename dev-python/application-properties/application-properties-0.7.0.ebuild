@@ -15,7 +15,7 @@ DESCRIPTION="A simple, easy to use, unified manner of accessing program properti
 
 HOMEPAGE="https://github.com/jackdewinter/application_properties"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/97/53/cdff1152a8d0ee4bcd3e5e17cc612b30920d65881cfe6fd883b2ad873420/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="DataVillage Python utils for interaction with the middleware and bu
 
 HOMEPAGE="https://github.com/datavillage-me/dv-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6b/78/9aab158dcb8a4529ef04785ed9f807b4addbb2b35c3eed485c124285c3de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

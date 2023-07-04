@@ -15,7 +15,7 @@ DESCRIPTION="Amazon SageMaker PySpark Bindings"
 
 HOMEPAGE="https://github.com/aws/sagemaker-spark"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/df/37/88e683fd29270ca890b1b889466325be5461abb93d5ea055bc3a505d40a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

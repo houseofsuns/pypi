@@ -15,7 +15,7 @@ DESCRIPTION="5 Card Draw Video Poker application"
 
 HOMEPAGE="https://github.com/ralbee1/5_card_draw"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/e6/ea/9925aba7b0049793182b1b6bd6fbea81b2208f3d0f17d50f40e20b88a8f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

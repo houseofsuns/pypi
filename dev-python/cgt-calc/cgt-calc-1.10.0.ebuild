@@ -15,7 +15,7 @@ DESCRIPTION="UK capital gains tax calculator for Charles Schwab and Trading 212 
 
 HOMEPAGE="https://github.com/KapJI/capital-gains-calculator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/8a/a0d630f08c81c436a21d6faad8580b8574867c0ba907450ecc06b369e95d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

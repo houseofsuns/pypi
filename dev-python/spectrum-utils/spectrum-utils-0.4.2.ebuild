@@ -15,7 +15,7 @@ DESCRIPTION="Mass spectrometry utility functions"
 
 HOMEPAGE="https://github.com/bittremieux/spectrum_utils"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f2/57/faf4e0484f32e970a534bd18b35a968a98a8712371a057791253c1e9a21d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

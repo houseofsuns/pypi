@@ -15,7 +15,7 @@ DESCRIPTION="RTI Connector for Python"
 
 HOMEPAGE="https://github.com/rticommunity/rticonnextdds-connector-py"
 LICENSE="RTI"
-SRC_URI="https://files.pythonhosted.org/packages/a5/82/c99708e29673e9ced0b61848b0be133a479dc8688e6987306b254d44af9d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A DRY multi-database normalizer."
 
 HOMEPAGE="https://github.com/syngenta-digital/package-python-dta.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3e/11/d3022aa4cb5d167340240ae6818926603e1bf4cf328e27b10c23c1d64e08/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

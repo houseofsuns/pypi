@@ -15,7 +15,7 @@ DESCRIPTION="This makes it easy to manage multiple views with dynamic routing."
 
 HOMEPAGE="https://github.com/saurabhwadekar/flet_route"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/5f/e5065c3284cdbe390005efb41206e7e6c12735c88175e78dadf1fb7b59f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Connect to your tabular model and perform operations programmatical
 
 HOMEPAGE="https://github.com/Curts0/PyTabular"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/fd/28fa7eac63a99d5cf5671ba51fcd724ab46d3ba2c4706b143064a76f7a36/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

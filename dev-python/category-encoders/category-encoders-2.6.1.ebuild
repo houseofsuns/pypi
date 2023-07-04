@@ -15,7 +15,7 @@ DESCRIPTION="A collection of sklearn transformers to encode categorical variable
 
 HOMEPAGE="https://github.com/scikit-learn-contrib/category_encoders"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/13/c7/a59dafc1d59fdcc9620691f94ea028f9127ffa7fe998029c74060a6e8c82/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

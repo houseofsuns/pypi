@@ -15,7 +15,7 @@ DESCRIPTION="Framework for Creating Logstash events from Jenkins Jobs"
 
 HOMEPAGE="https://github.com/CiscoDevNet/es-logger"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cd/79/60020bb6aa265c394a7bf19ab4547beb525e6393cd4c87b144b3683210da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="find python module imports"
 
 HOMEPAGE="https://github.com/schettino72/import-deps"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/61/b3/67ecaed610e6f333a318482def6c5f0f1bd502e2a136a03bf3ebb58c6aa4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

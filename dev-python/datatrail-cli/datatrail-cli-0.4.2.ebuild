@@ -15,7 +15,7 @@ DESCRIPTION="CHIME/FRB Datatrail CLI"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/e8/f23a50c9d58d59a37b752ac10b7c78fc757ba786172b4cfcd9d635d1bc01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

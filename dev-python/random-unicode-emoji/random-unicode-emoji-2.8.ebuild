@@ -15,7 +15,7 @@ DESCRIPTION="A simple Python package that returns random Unicode emojis."
 
 HOMEPAGE="https://github.com/NicPWNs/random-unicode-emoji-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/0f/5cb72fe185023f2af92fe922eb3fa260d37284cb8c65fb39e590851cf5b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

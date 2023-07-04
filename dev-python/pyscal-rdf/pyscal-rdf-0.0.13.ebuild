@@ -15,7 +15,7 @@ DESCRIPTION="Ontology based structural manipulation and quering"
 
 HOMEPAGE="https://pyscal.org"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/70/36/a130ab2c8f99a9e13e9ce15a0986667be1256a047dc0f7a138af4264a1ce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Timeweb Cloud API wrapper"
 
 HOMEPAGE="https://github.com/LulzLoL231/timeweb-cloud"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d9/7c/641a12b55db1cef454aa3bc6eabf75351b37ae148676dfeb5487b0c5756a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

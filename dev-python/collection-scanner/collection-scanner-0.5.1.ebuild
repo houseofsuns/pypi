@@ -15,7 +15,7 @@ DESCRIPTION="Scrapinghub Hubstorage Collection scanner."
 
 HOMEPAGE="https://github.com/scrapinghub/collection-scanner"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/af/20/2025555ef26690c2e22d179d166895e0f9982c74a4b680993b954f67d9ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="clearskies handlers for hosting Akeyless custom producer endpoints"
 
 HOMEPAGE="https://github.com/cmancone/clearskies-akeyless-custom-producer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9b/58/64f6a4b45385edded1d53f13dc9c42c66b7c92cc1cb25b53f9997e40aefa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Jaeger Thrift Exporter for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/exporter/opentelemetry-exporter-jaeger-thrift"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3c/29/a6f7930174f25f367088d992e2c858891c1dafdd8b1217db0d4ffff6f026/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

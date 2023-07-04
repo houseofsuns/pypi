@@ -15,7 +15,7 @@ DESCRIPTION="DEEP Python Protobuf"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/a8/5ea2d35f62e557d8505c44ac7f386eb7cd89e86dc2d9d993ff0d98e6a5f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

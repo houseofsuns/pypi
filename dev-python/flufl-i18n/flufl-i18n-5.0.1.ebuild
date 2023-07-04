@@ -15,7 +15,7 @@ DESCRIPTION="A high level API for internationalizing Python libraries and applic
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/45/b0/edeae6e808feed72106b032a45108efbc2dc1844a9be5581be38561710e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

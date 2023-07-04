@@ -15,7 +15,7 @@ DESCRIPTION="The only tool to record Twitter spaces (yet)"
 
 HOMEPAGE=""
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/77/42/943b3474b9e70940be1f7ac9a5a390a50fbd692c9b1d5346a14064ed2a14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Simple encryption functions. Do not simply trust this code! Pay att
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/eb/d8e340df4d866c3eacdc0c22dab52d2653ecefb010399dd0528aaef989e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

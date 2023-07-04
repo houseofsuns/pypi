@@ -15,7 +15,7 @@ DESCRIPTION="lesscode_tag是标签处理工具包"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/5f/0fc0477bdaa75b72f51278f5fcac7be3dc4023762d2452c60c5455cad996/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="JSON to excel convertor"
 
 HOMEPAGE="https://github.com/oarepo/json-excel-converter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/45/8a/c7e58568e16130648e26a7490ed13ecbb746ff04ebcbcbdf1be6b9d3fe42/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

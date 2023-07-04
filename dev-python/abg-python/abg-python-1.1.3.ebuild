@@ -15,7 +15,7 @@ DESCRIPTION="shared python utilities for http://github.com/agurvich 's packages.
 
 HOMEPAGE="https://github.com/agurvich/abg_python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/b6/5af4898a5b35cd2da7529b01c841c3fcb3ae872dec745fdf59d19853d9f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

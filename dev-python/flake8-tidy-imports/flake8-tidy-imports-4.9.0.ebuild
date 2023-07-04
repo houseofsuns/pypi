@@ -15,7 +15,7 @@ DESCRIPTION="A flake8 plugin that helps you write tidier imports."
 
 HOMEPAGE="https://github.com/adamchainz/flake8-tidy-imports"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/b7/85c3500f2b2a7324603ef73d342c1dd62e264ad9cba4c28c72d99d2161da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

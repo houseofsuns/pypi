@@ -15,7 +15,7 @@ DESCRIPTION="Reusable utilities for FastAPI"
 
 HOMEPAGE="https://fastapi-utils.davidmontague.xyz"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7f/51/80487501a1760d32d5303f88f21254044d2df9e2311e4f7042774cc0bd36/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

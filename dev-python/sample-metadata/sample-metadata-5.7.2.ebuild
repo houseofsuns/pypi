@@ -15,7 +15,7 @@ DESCRIPTION="Python API for interacting with the Sample API system"
 
 HOMEPAGE="https://github.com/populationgenomics/sample-metadata"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/96/b5e3958cb482168307dfbbc6cdd2d992147daad9caf6ffb4d75e83fea651/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

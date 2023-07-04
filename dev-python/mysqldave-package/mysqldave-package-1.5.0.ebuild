@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper for simplified Postgres usage using mysql.connector."
 
 HOMEPAGE="https://github.com/daveskura/mysqldave"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fb/fe/ad97d7c624c41132ae659f6d67e0fb0fa9b6d01901cb2a8a8082fa78959e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

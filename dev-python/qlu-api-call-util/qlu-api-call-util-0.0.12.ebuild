@@ -15,7 +15,7 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/aasharib/qlu_api_call_util.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0f/0f/d85bd5d90e777f737558e9fdaf60123d731ba0938eff2fb14ed24534e84a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

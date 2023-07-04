@@ -15,7 +15,7 @@ DESCRIPTION="A simple pip for designing & designing termux banner."
 
 HOMEPAGE="https://pypi.org/project/cracker-saying"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/bf/e2e9bc8c99e50a8ea1cf365dbc4097b9d3ee21252f53f13aebe2952901bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

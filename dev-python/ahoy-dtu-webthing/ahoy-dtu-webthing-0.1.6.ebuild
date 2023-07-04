@@ -15,7 +15,7 @@ DESCRIPTION="Ahoy DTU webthing"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4d/d4/577d102e5ae2ca76e007902a104d5fb67589a482f2817e98ca7bf668b6ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

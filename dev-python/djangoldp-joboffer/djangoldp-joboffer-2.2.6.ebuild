@@ -15,7 +15,7 @@ DESCRIPTION="djangoldp package for job offer data models"
 
 HOMEPAGE="https://git.startinblox.com/djangoldp-packages/djangoldp-joboffer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9b/31/1dba4a91c471e9577bb940cab3e8409d17bd89b1e79f80714f03d0a73610/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

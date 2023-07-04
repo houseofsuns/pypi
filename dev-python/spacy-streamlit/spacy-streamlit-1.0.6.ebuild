@@ -15,7 +15,7 @@ DESCRIPTION="Visualize spaCy with streamlit"
 
 HOMEPAGE="https://github.com/explosion/spacy-streamlit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/91/72a4817b31db40b5346d3246464743b6e7bbe2ea75f4693a6affd3c11166/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

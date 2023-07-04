@@ -15,7 +15,7 @@ DESCRIPTION="Auto-generate library for use with GRPC API."
 
 HOMEPAGE="https://github.com/fsai-dev/fsai-cli-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/4b/ca762d9f8437ce53277ca4e87dd6e7765ab702cd9c5b4f29c76f7f059570/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python Development CLI"
 
 HOMEPAGE="https://github.com/niall-byrne/pib_cli"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/52/33/e092db0d9862baba9aabb6681fde3916c28c7802bdb9c62d08aa388e1451/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

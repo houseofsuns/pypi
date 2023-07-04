@@ -15,7 +15,7 @@ DESCRIPTION="Backend component for dotmesh"
 
 HOMEPAGE="https://github.com/dotmesh-io/jupyterlab-plugin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/e0/0c8bf01dc3f055ac9c30b9820e5b312f1f46bbb3150c9226ba47ae744b2d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

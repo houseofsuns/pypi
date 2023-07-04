@@ -15,7 +15,7 @@ DESCRIPTION="The goal of the Indic NLP Library is to build Python based librarie
 
 HOMEPAGE="https://github.com/anoopkunchukuttan/indic_nlp_library"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/f6/bcd6b5c49351d5261ee3873f78d66fd7aa11d410f5c12e4cc1a4ee85c8f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

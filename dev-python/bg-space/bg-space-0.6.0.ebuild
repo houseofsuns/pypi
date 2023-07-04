@@ -15,7 +15,7 @@ DESCRIPTION="Anatomical space conventions made easy"
 
 HOMEPAGE="https://github.com/brainglobe/bg-space"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8e/1e/490210c3f4872d5328721046aa7868f0745f81e84c1fa97d831ad3b704ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

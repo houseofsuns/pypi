@@ -15,7 +15,7 @@ DESCRIPTION="Python for using in-memory storage with ORM"
 
 HOMEPAGE="https://github.com/CyberPhysics-Platform/aiostorage-orm"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/df/6a/d10a68ffe372592963edd3f7a4352cda79bc70fbd4420ab1ac25e16fcbf3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

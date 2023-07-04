@@ -15,7 +15,7 @@ DESCRIPTION="Text Models"
 
 HOMEPAGE="https://github.com/ingeotec/text_models"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/5e/9e5ac47fa08dc35c89cdec05474a33c3b9cffd1b825814c4ef7d070603a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

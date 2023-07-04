@@ -15,7 +15,7 @@ DESCRIPTION="Export UNIHAN data of Chinese, Japanese, Korean to CSV, JSON or YAM
 
 HOMEPAGE="https://unihan-etl.git-pull.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/35/0935b5b2f50c59b4b7ede3c726574d29e6a0783f436ee2b05f2c4a0a1267/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

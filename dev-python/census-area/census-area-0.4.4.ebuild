@@ -15,7 +15,7 @@ DESCRIPTION="Census data for arbitrary geographies"
 
 HOMEPAGE="https://github.com/datamade/census_area"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/41/94/93dfe980693f4272ebc702a4c8d7945cb9727eaa76b15d46a616f3fbd0e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

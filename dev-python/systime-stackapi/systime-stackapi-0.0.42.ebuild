@@ -15,7 +15,7 @@ DESCRIPTION="A python API for accessing Systimes infrastructure services."
 
 HOMEPAGE="https://bitbucket.org/systime/systime-stack-python-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6b/4f/03d13ca1933207e6351f6558c8d1cab00138c26e1e55d3f3788f2a7750b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

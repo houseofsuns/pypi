@@ -15,7 +15,7 @@ DESCRIPTION="Remote Blob Host module for the parser core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_module_remote_blob_host_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/2b/8271285593334f05be6f665011cdd57fc1ecbf8b6f834d34cb5d6e30998b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

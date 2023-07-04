@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/matthiask/django-sitemaps/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cb/96/77d3ded9c3158fa37324450a13a48fd5d37d89f5234eb89e6f9945d34d39/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

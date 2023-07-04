@@ -15,7 +15,7 @@ DESCRIPTION="a casper7 plugin that reacts to wordle results"
 
 HOMEPAGE="https://github.com/backwardspy/casper7-plugin-wordle-reactions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/c3/3cf05a82dad958d5260971dc56f7a5d0f3e2e0eea78de7a33d31d261ed70/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

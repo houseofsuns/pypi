@@ -15,7 +15,7 @@ DESCRIPTION="A package containing data transformation functions used by the ViEW
 
 HOMEPAGE="https://www.github.com/prio-data/views_transformation_library"
 LICENSE="CC-BY-NC"
-SRC_URI="https://files.pythonhosted.org/packages/a2/84/c33fb06acaceb9aad46edd21eee8a8cda0cefceff9e4bb10a61f0d1b87df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="abstraction of AWS Dynamo DB"
 
 HOMEPAGE="https://github.com/janluak/dynamo_db_resource"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/60/f2cd9940f6169720545b22d09eb6a3eb7b39d8ff53fc6419f9c09ff6eb95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

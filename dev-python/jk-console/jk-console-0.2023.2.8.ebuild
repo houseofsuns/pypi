@@ -15,7 +15,7 @@ DESCRIPTION="This python module provides a variety of essential functions for im
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/86/c2/a26d65f9368df52afc82919c1631e39e3f54fe1061fd82c421f9cbc060c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

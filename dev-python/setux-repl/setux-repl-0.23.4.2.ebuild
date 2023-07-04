@@ -15,7 +15,7 @@ DESCRIPTION="System deployment"
 
 HOMEPAGE="https://framagit.org/louis-riviere-xyz/setux_repl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bb/97/ddc4426e8ee5f7a7947d85793716f124a439aa82cf7577de8261bf377d07/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ISIS Autoreduction Runs REST API"
 
 HOMEPAGE=""
 LICENSE="GNU General Public License"
-SRC_URI="https://files.pythonhosted.org/packages/81/19/355ccb81f9564fec11a863714f78dbe63dfeab9bb1cd04a1a6982322de25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

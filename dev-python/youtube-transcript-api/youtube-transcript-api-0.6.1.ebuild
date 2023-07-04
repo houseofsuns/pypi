@@ -15,7 +15,7 @@ DESCRIPTION="This is an python API which allows you to get the transcripts/subti
 
 HOMEPAGE="https://github.com/jdepoix/youtube-transcript-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/ae/f4d0bf7751685b6adb30eb6e78fa33a29883e8bf44adc155a0ecdad2f683/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

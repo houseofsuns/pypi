@@ -15,7 +15,7 @@ DESCRIPTION="Python library that provides access to the API of BigBlueButton"
 
 HOMEPAGE="https://github.com/yunkaiwang/bigbluebutton-api-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/26/cc/086a2884b68dbb33a8d6c03492af2ec9c7813cf6b825bc27bba359e8c0f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

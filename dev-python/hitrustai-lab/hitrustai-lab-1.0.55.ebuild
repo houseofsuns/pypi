@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://gitlab.hitrustai.com/bruce60108010204/hitrustai-lab"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/8b/dc4c06b3d6fdb2a774fdb1896733861bb550edcb12c6b5b18a0e5b6fb04a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

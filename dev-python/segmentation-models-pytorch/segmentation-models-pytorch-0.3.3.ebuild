@@ -15,7 +15,7 @@ DESCRIPTION="Image segmentation models with pre-trained backbones. PyTorch."
 
 HOMEPAGE="https://github.com/qubvel/segmentation_models.pytorch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/c1/99939498a3dc2a25c9b6a6d8659a343b795a9cd914fcec4190320804506f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

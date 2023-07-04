@@ -15,7 +15,7 @@ DESCRIPTION="Transliteration of the old Kazakh alphabet into a new one"
 
 HOMEPAGE="https://github.com/altynbek07/python-qazaq-transliterator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/47/cc/96f0ca1e2a4a55bb0eab353fb3127274ffac243b0a1ff350643a1932415e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

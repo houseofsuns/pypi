@@ -15,7 +15,7 @@ DESCRIPTION="DRF ViewSet for getting aggregations"
 
 HOMEPAGE="https://github.com/kit-oz/drf-aggregation"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/b4/27cc9624a96853c2b909aaef0ef06ce724d7f0bfbd015806332ef7c3264d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

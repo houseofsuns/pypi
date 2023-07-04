@@ -15,7 +15,7 @@ DESCRIPTION="legos light ui and syntax theme for jupyterlab"
 
 HOMEPAGE="https://github.com/dunovank/jupyterlab_legos_ui"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d8/df/061e8ffc2cc37210120285daf858f0abfef9931ae571d7caa1a6cb8902cc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Django and Tailwind integration based on the prebuilt Tailwind CSS 
 
 HOMEPAGE="https://oliverandrich.github.io/django-tailwind-cli/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/83/eb/0ad6b57e120c076436464c2c783b42a494f284d1c06632b5fb4e4daedf1a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

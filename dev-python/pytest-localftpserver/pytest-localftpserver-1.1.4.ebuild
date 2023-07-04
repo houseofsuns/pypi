@@ -15,7 +15,7 @@ DESCRIPTION="A PyTest plugin which provides an FTP fixture for your tests"
 
 HOMEPAGE="https://github.com/oz123/pytest-localftpserver"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/d8/539d76168965857147ec5c6382a56139f76545bdcd14c85166a8bebbbe23/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

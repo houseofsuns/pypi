@@ -15,7 +15,7 @@ DESCRIPTION="Monitor, debug and profile the jobs running on Cloud TPU."
 
 HOMEPAGE="https://github.com/google/cloud-tpu-monitoring-debugging"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/e5/200886bc23b4424f71a940d729f30bea037a907c7c846367e8854383334d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

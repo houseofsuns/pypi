@@ -15,7 +15,7 @@ DESCRIPTION="Read metadata from Python packages"
 
 HOMEPAGE="https://github.com/python/importlib_metadata"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/82/f6e29c8d5c098b6be61460371c2c5591f4a335923639edec43b3830650a4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

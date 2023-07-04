@@ -15,7 +15,7 @@ DESCRIPTION="WuXi Nextcode commandline utilities"
 
 HOMEPAGE="https://www.wuxinextcode.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/99/30/d854937a25e7473b51276e35724d5065837a46092010c7b32714170811b1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

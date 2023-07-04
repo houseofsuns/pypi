@@ -15,7 +15,7 @@ DESCRIPTION="AIMMS theme for Sphinx"
 
 HOMEPAGE="https://github.com/aimms/sphinx-aimms-theme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0a/d5/6f0e8a5e36b161013bf92658d1afd713382862d07d04709be2f88098b545/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

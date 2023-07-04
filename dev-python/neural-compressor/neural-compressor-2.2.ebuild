@@ -15,7 +15,7 @@ DESCRIPTION="Repository of Intel® Neural Compressor"
 
 HOMEPAGE="https://github.com/intel/neural-compressor"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bf/b8/cab3c2cd9b528d0ba79f95cf668e8dd3338ffcb4580ffba89e595beb9516/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Pytest plugin for measuring function coverage"
 
 HOMEPAGE="https://github.com/radug0314/pytest_func_cov"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/ca/34becca16cfa83be6b7aa8c80319c569225a1758f929048ca1c93ffcd859/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for decancer."
 
 HOMEPAGE="https://github.com/Jonxslays/decancer_py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/e8/efd59a18a8af2d1eb6d755f9d6858036168e0d968728792d61aa226c2561/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

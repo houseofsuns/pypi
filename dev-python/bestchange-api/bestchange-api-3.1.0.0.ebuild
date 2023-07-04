@@ -15,7 +15,7 @@ DESCRIPTION="Библиотека для работы с \"api\" сервиса 
 
 HOMEPAGE="https://maksam07.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/af/84/d54a5257c23e6d953d84df62cce55530f1ff0d76e0c2f4f5ce7d1ddbf849/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="米游社原神cos图获取"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bb/a8/9df3e98119fc5cd895e6c8257ea76c417af0e89186bcc5329c5b7e168f5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

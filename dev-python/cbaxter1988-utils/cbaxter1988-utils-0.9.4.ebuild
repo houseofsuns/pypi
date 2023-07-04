@@ -15,7 +15,7 @@ DESCRIPTION="A Package containing my utils"
 
 HOMEPAGE="https://github.com/cbaxter1988/utils.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5b/49/2a3623f04520eace5ea0e16d308c9c4f9843da225cf0ddd5039b06597f5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

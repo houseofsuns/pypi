@@ -15,7 +15,7 @@ DESCRIPTION="Benchmark Python Scripts"
 
 HOMEPAGE="https://github.com/sarcoma/python-script-benchmark-tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/9c/4864ca5008c45565850fc71df02ce66c381875cf7e5f45029d9363c6cf81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

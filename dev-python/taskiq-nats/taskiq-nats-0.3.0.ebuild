@@ -15,7 +15,7 @@ DESCRIPTION="NATS integration for taskiq"
 
 HOMEPAGE="https://github.com/taskiq-python/taskiq-nats"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b1/57/84a6154158b96d012d1fe2fbd188061ecd6f3c4274cc199aae29ce282d23/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

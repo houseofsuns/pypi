@@ -15,7 +15,7 @@ DESCRIPTION="Weni apps for Rapidpro Platform"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8f/43/4fef39f9a96cff4413537e4215f0f1bd51a6766c761d4059be7bb0f68524/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

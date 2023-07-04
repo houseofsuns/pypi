@@ -15,7 +15,7 @@ DESCRIPTION="Python package making it easier to handle mixed 3d and 2d subplots.
 
 HOMEPAGE="https://github.com/LucaCappelletti94/ddd_subplots"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/19/f01a288e8bd78369e92c7904494c5b05b5ebe6b139e7161f2cd8e2336442/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

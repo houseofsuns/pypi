@@ -15,7 +15,7 @@ DESCRIPTION="Plug-in for Hoppr to bundle artifacts into a Nexus Repository"
 
 HOMEPAGE="https://hoppr.dev/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8f/91/6de4fac240df46c25bf137d2a050fd0867bcdd6da66fae3ef93a9b350990/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Django Management Command to rename existing Django Applications.
 
 HOMEPAGE="https://github.com/odwyersoftware/django-rename-app"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e4/7b/f0686b58e87d73f94f9512b61c6e3f4b170e326f27dabe8450ba56c64cf2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

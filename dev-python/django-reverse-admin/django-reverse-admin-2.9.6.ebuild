@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/49/bb/93f756f4d7d4cef3fbc4741272e8a5522565c91ff69f5d820abd6318aca9/${REALNAME//-/_}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.zip"
 SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 

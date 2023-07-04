@@ -15,7 +15,7 @@ DESCRIPTION="chromedriver的自动更新"
 
 HOMEPAGE="https://github.com/roiding/chromedriver-autoupdate"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3a/6c/fb7b534a1d55947e1dd2d2c365cf17b61798bb95611224673839b8ec036d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

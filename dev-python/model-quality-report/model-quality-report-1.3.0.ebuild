@@ -15,7 +15,7 @@ DESCRIPTION="This packages enables a quick creation of a report comparing qualit
 
 HOMEPAGE="https://gitlab.com/francesco-calcavecchia/model_quality_report"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/42/c4cf6f4c7d6bc3bc8c99540f192eccddd9cc815617c54f32577065104e67/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

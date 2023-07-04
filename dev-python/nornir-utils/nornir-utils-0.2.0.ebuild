@@ -15,7 +15,7 @@ DESCRIPTION="Collection of plugins and functions for nornir that don't require e
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/46/fa/4e96cf440083973ea32bd95779fbed33e7d84015f898e4aef22f6a3bcb1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A simple FastAPI server to host Silero TTS"
 
 HOMEPAGE="https://github.com/ouoertheo/silero-api-server"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/69/fa8c30e7995ccf5fe18ebe05a99f9902a802b3b8952052197c07ca443a1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

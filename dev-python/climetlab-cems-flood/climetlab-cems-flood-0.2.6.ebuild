@@ -15,7 +15,7 @@ DESCRIPTION="Download GloFAS Copernicus Emergency Management System dataset"
 
 HOMEPAGE="https://github.com/iacopoff/climetlab-cems-flood"
 LICENSE="Apache License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8f/27/e605368117fc8e3752373bd6f9b68101d5a10489a69540e117bf59d473f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

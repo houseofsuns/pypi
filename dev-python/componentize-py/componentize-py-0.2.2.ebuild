@@ -15,7 +15,7 @@ DESCRIPTION="Tool to package Python applications as WebAssembly components"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/30/48/09d42da847d800ec26a98f3806656a6db1be0895e72f0a6565afcbe34c40/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

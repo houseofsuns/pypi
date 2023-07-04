@@ -15,7 +15,7 @@ DESCRIPTION="A small and simple HTML table parser not requiring any external dep
 
 HOMEPAGE="https://github.com/schmijos/html-table-parser-python3"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/85/94/a6760c2f347bf8b19acf330d37fce9ba00572948d672edc74ecc388244a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

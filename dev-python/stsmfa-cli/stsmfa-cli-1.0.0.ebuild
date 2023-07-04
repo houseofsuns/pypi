@@ -15,7 +15,7 @@ DESCRIPTION="A small CLI to help with creating AWS profile for MFA protected ses
 
 HOMEPAGE="https://github.com/browniebroke/stsmfa-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/5b/993f4191b7d7db5522e909b70bb02ac590da72819cabd9ee234469c02352/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

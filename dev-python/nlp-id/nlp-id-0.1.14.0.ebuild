@@ -15,7 +15,7 @@ DESCRIPTION="Kumparan's NLP Services"
 
 HOMEPAGE="https://github.com/kumparan/nlp-id"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/c3/6ffd9cbf478a24abb3e67d655d46862cc42ff7fc7eb6a9c3fd050df9ff26/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

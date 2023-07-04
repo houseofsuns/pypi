@@ -15,7 +15,7 @@ DESCRIPTION="Async support for Peewee ORM"
 
 HOMEPAGE="https://github.com/klen/peewee-aio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/1e/aa90707b444a25cb77f5102a7d064960fa79f5eee1a3f1afc5520e376cc5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

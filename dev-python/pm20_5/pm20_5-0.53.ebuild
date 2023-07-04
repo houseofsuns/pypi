@@ -15,7 +15,7 @@ DESCRIPTION="For cheating"
 
 HOMEPAGE="https://github.com/user/reponame"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/72/af6ee779dd630253335c52a818d4f5254fad528ddb024fe2350dc193cb4f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

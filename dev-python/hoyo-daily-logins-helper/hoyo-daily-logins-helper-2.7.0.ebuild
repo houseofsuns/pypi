@@ -15,7 +15,7 @@ DESCRIPTION="Get hoyo daily login rewards automatically!"
 
 HOMEPAGE="https://github.com/atomicptr/hoyo-daily-logins-helper"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/46/c9/c30d39d663f4f30f15d0188d7a5f08139d0e46a34ff8aba7b53292b1c681/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

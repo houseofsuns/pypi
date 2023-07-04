@@ -15,7 +15,7 @@ DESCRIPTION="Data Model for the OCF nowcasting project"
 
 HOMEPAGE="https://github.com/openclimatefix/nowcasting_datamodel"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/54/88/f05a4b9ec0d6199779a67651f044b38cbfca8f5dd46185ffff5321580aa2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

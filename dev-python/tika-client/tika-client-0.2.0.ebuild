@@ -15,7 +15,7 @@ DESCRIPTION="A modern REST client for Apache Tika server"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/22/80/6e7827885f5dca789c1e742e5226da588e77b7dfe66aa65e653cb2ee9a42/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A slim library which leverages Pydantic to reliably collect type en
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5a/9a/582069b66a4f8dece95a600bd7bbbc1befb45213def7c5d89a56f1432cc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

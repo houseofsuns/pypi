@@ -15,7 +15,7 @@ DESCRIPTION="Reversible Data Transforms"
 
 HOMEPAGE="https://github.com/sdv-dev/RDT"
 LICENSE="BSL-1.1"
-SRC_URI="https://files.pythonhosted.org/packages/20/db/60bbde9d7382fa2006250cd01813548a94136786a747b8f6a1f84f71fcca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

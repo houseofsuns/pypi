@@ -15,7 +15,7 @@ DESCRIPTION="A collection of utility functions for V6E projects"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/01/defc4e9e70c543ec67acab5d7285c60143b447158486fa3b3190d4ec1e75/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

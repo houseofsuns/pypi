@@ -15,7 +15,7 @@ DESCRIPTION="Python logging handler for elastic search."
 
 HOMEPAGE="https://github.com/washim/python-elastic-logstash"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/b0/ea5677b0a624290ad35400e260466c3aa99f685e6fd83e585075ae82456b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

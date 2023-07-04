@@ -15,7 +15,7 @@ DESCRIPTION="A type-hinted Entity Component System based on Python dictionaries 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/e9/51db6e7edbb01f3ec073a6f32a8ea8489241bb24947bdd142d666ed895b7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

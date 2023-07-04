@@ -15,7 +15,7 @@ DESCRIPTION="rEproducible sofTware peRformance analysIs in perfeCt Simplicity"
 
 HOMEPAGE="https://github.com/crillab/metrics"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/40/ea/354373b0f54f157123f225525323ec6b5692ee8730a807ef20b3a5475ad2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

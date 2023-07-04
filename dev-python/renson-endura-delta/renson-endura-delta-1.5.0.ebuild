@@ -15,7 +15,7 @@ DESCRIPTION="Unofficial Renson endura delta Python library"
 
 HOMEPAGE="https://github.com/jimmyd-be/Renson-endura-delta-library"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/b2/e7b7a657ce87892fde7999d043aa7a53524b76d7a700cf331b086a6e7d97/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

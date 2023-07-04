@@ -15,7 +15,7 @@ DESCRIPTION="Test code from RST documents with pytest"
 
 HOMEPAGE="https://github.com/mosquito/pytest-rst"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/b4/a1be7aa4c64c62113e844799bff5cde400b3a60fed9a3d07f16d5bf4914c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

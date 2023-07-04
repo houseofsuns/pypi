@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry Protobuf encoding"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/exporter/opentelemetry-exporter-otlp-proto-common"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/c7/0b15c04612f01c73212f0d76881ba2cb9ca6af395094a0166ff0366278e7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

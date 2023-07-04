@@ -15,7 +15,7 @@ DESCRIPTION="sanae connecter"
 
 HOMEPAGE="https://github.com/Hoshinonyaruko/nonebot-plugin-sanae"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/1f/e4e74930a33123f27229956f9d7a638e9d828841b015fef9e65ec863431a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

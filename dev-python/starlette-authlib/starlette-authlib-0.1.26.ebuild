@@ -15,7 +15,7 @@ DESCRIPTION="A drop-in replacement for Starlette session middleware, using authl
 
 HOMEPAGE="https://github.com/aogier/starlette-authlib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/b3/df7d7e3611343798e87bd1628300f3824a2c6dfa633df4597c73c0c010ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

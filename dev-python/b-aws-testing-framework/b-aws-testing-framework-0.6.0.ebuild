@@ -15,7 +15,7 @@ DESCRIPTION="AWS infrastructure testing framework that supports multiple IAC too
 
 HOMEPAGE="https://github.com/biomapas/B.AwsTestingFramework.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/35/a2/abd2495c9aa48b5b69869325d4077b45516b87ecf5e0eea926ea7d5502dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

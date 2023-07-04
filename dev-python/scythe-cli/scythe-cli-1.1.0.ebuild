@@ -15,7 +15,7 @@ DESCRIPTION="A Harvest is always better with a good tool"
 
 HOMEPAGE="https://github.com/seanrcollings/scythe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/81/ae/635e27ff495936e65445f2cc03c4d53a45535e305d9345ee6b755a7ebc3f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

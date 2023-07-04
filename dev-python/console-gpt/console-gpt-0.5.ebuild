@@ -15,7 +15,7 @@ DESCRIPTION="A package to interact with ChatbotGPT"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dc/0e/7ff5d01b533dbba85d1a434df2a8e435830fbf29e69dbb6789cc9b32f8c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

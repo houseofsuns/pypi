@@ -15,7 +15,7 @@ DESCRIPTION="Base package to handle health checks with FastAPI."
 
 HOMEPAGE="https://github.com/jtom38/fastapi_healthcheck"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/68/813711571a35216034ca0e1efd66fc06a16bc17e7c258476519f7224dbb7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Seeq System Identification Addon"
 
 HOMEPAGE="https://github.com/BYU-PRISM/Seeq"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/35/76/bbb3c360ca02783dd32c7aa3fa5ef28ee73b8845e4873e70638bfddbfc43/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

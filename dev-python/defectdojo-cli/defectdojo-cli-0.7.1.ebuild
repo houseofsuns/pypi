@@ -15,7 +15,7 @@ DESCRIPTION="CLI Wrapper for DefectDojo using APIv2"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3d/1d/f8825f84984982683e0280695343dca7e4100b85bd26a4d84c4e21c63b5f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

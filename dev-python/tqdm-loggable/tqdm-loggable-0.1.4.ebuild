@@ -15,7 +15,7 @@ DESCRIPTION="TQDM progress bar friendliness for non-interactive terminals and lo
 
 HOMEPAGE="https://tradingstrategy.ai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/7e/41a5d9333e914fcb56d714fd27e82006857ec8fc328984de6c16a87e9487/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

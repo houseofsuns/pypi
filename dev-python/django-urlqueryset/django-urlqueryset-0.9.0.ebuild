@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/MaurizioPilia/django-urlqueryset"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/99/4dcb25d78297e76cc1edb619834add1b236547526c307220754f0cc560dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

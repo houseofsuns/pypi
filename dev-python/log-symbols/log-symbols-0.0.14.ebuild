@@ -15,7 +15,7 @@ DESCRIPTION="Colored symbols for various log levels for Python"
 
 HOMEPAGE="https://github.com/manrajgrover/py-log-symbols"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/87/e86645d758a4401c8c81914b6a88470634d1785c9ad09823fa4a1bd89250/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

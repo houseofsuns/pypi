@@ -15,7 +15,7 @@ DESCRIPTION="Test version for gisting"
 
 HOMEPAGE="https://github.com/jayelm/gisting"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ab/05/87ed54250e2e6d3a3d7b214da27a97a0e1db9ab2e11431e4cf4ec3423cbb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

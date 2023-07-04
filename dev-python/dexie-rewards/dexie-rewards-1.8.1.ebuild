@@ -15,7 +15,7 @@ DESCRIPTION="dexie-rewards is a Python CLI helper tool designed automatically to
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/24/fc/c83bc7e1800a18deaf5884251f1d4d99c8a1da8479e8cd1322cdfee70e41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

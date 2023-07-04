@@ -15,7 +15,7 @@ DESCRIPTION="Nearly Human Cortex CLI for interacting with model functions."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/24/7ac260fb2fcd6fb44443711fffa5285cff5e8b2504dc70ec70fc7914e51f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

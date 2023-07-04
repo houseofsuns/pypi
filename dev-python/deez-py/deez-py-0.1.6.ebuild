@@ -15,7 +15,7 @@ DESCRIPTION="A Python implementation of a lexical analyzer that provides compreh
 
 HOMEPAGE="https://github.com/ThePrimeagen/ts-rust-zig-deez"
 LICENSE="GNU General Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/27/55/55c7ca211a88ad6b89dcf345d8bb36ec30255e4cb63cf0aa447b7979d54f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

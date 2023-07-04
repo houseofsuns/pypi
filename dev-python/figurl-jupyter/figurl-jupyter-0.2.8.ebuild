@@ -15,7 +15,7 @@ DESCRIPTION="View figurl figures in jupyterlab"
 
 HOMEPAGE="https://github.com/scratchrealm/figurl-jupyter"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e7/74/b94ba34234379801766c29a78c8b213b5da76615eeec80b934bd19771958/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

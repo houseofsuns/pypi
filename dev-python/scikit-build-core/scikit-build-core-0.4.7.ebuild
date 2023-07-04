@@ -15,7 +15,7 @@ DESCRIPTION="Build backend for CMake based projects"
 
 HOMEPAGE="https://github.com/scikit-build/scikit-build-core"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7a/53/cfaef4a4a698e7919c22a5d0805c137eb1d07f257bf0dbd16529aab20b19/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

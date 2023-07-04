@@ -15,7 +15,7 @@ DESCRIPTION="djangoldp component management package"
 
 HOMEPAGE="https://git.startinblox.com/applications/ontochain/component-registry"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/9c/64782f84203524b297ecf97ac76503e7bc7aaa1d25b8b8893de1f4eefc12/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

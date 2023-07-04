@@ -15,7 +15,7 @@ DESCRIPTION="project for easily deploying code to Python Package Index"
 
 HOMEPAGE="https://pypi.org/project/kabbes-pypi-builder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/d8/fe2dcc110e74c94f8916bae99023855438cab8e14f323b797ea23a7164b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

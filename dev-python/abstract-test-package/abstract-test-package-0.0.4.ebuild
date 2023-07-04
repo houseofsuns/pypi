@@ -15,7 +15,7 @@ DESCRIPTION="abstract_test_package is a Python package that facilitates testing 
 
 HOMEPAGE="https://github.com/AbstractEndeavors/abstract_test_package"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2a/00/d8377e4f0faac385ccf9a4b2533a7f60cd89a5d02af5a5a9655cde84bb04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

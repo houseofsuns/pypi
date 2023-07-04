@@ -15,7 +15,7 @@ DESCRIPTION="SQL editor support for formatting, syntax highlighting and code com
 
 HOMEPAGE="https://github.com/CybercentreCanada/jupyterlab-sql-editor"
 LICENSE="MIT License MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2e/8c/9eb1ab8ea89c48d35429ae96b276799fdc9d3b8326917dacc30b56be7f10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

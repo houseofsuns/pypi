@@ -15,7 +15,7 @@ DESCRIPTION="A collection of tools for openFPGA projects"
 
 HOMEPAGE="https://didier.malenfant.net/ProjectFreedom/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/14/4fdca362ce3b755ce7aad711d47ed2831653e73376a2cca44a799153b7d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

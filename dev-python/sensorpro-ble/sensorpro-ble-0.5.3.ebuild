@@ -15,7 +15,7 @@ DESCRIPTION="SensorPro BLE Devices"
 
 HOMEPAGE="https://github.com/bluetooth-devices/sensorpro-ble"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/fa/5423349663136c9ed2398eb91849786a7981d40afccae40fea4b5a80d3bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

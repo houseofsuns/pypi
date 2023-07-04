@@ -15,7 +15,7 @@ DESCRIPTION="Birth Annotator for Budding Yeast"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0b/10/5882cc4fcb89d4b7a5ab0c6adffd1921ba563ff487360e9350b6622ae51a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

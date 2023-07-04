@@ -15,7 +15,7 @@ DESCRIPTION="Common code between Levo CLI and test plans."
 
 HOMEPAGE="https://github.com/levoai/levo-commons"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/56/43/656136ea82b917638688d7ca5d86d6d69ca7ebeece15d899adafcbebe703/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

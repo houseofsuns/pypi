@@ -15,7 +15,7 @@ DESCRIPTION="web3_wrapped_contract"
 
 HOMEPAGE="https://github.com/kkristof200/py_web3_wrapped_contract"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3e/8b/0eaac3735c74af56a624292ceb6da8ce6c1449e04c101d59672bf5d29be4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

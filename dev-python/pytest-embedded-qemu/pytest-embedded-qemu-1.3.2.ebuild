@@ -15,7 +15,7 @@ DESCRIPTION="Make pytest-embedded plugin work with QEMU."
 
 HOMEPAGE="https://github.com/espressif/pytest-embedded"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5e/e6/96cc6b4af39123f0820decb17b208052689586f2f3f55e0f87e9e51685f8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

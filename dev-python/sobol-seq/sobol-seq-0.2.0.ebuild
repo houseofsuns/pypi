@@ -15,7 +15,7 @@ DESCRIPTION="Sobol sequence generator"
 
 HOMEPAGE="https://github.com/naught101/sobol_seq"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/64/b300cc06797ed0a9c23b723348aa2c8275d70233cdf8e8838573df83099b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A simple and lightweight package for state of the art face detectio
 
 HOMEPAGE="https://github.com/hukkelas/DSFD-Pytorch-Inference"
 LICENSE="apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2f/dd/abf4ac463b376596b1e3e35d04c58f86a9b45c3c433448b4b5e0b3d5f467/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

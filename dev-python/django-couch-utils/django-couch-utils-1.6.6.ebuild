@@ -15,7 +15,7 @@ DESCRIPTION="Handy tools and helpers for django projects, powered by CouchDB"
 
 HOMEPAGE="https://bitbucket.org/angry_elf/django-couch-utils/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/81/6fd2a04cf73474e07d601c9248428c688d05075dc7d6e5b9613913cfc9b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Top-level package for statsmodels copula wrapper."
 
 HOMEPAGE="https://github.com/tadamcz/copula-wrapper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c2/3c/42c0cda4feb184b2ea630c4e9fa437c97899db4105542ae4d8fc79ab0dd3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Python library for analyzing Google Calendar data."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/99/a1c58d95c7103146ff5169c6efd662f3ec006bafb3ff29fc2db698228b08/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Library based on DreamAI for parsing PDFs"
 
 HOMEPAGE="https://github.com/HamzaFarhan/dreamai_pdf"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fe/c4/39b9fa5d26353fd0cdf097df42b24257f72b0612306747bf319b52b27ad9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

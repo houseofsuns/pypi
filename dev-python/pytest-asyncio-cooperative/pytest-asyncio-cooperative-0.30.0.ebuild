@@ -15,7 +15,7 @@ DESCRIPTION="Run all your asynchronous tests cooperatively."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/13/49861d39456585e14db375a6a484d9b5418ad7c5a7b215516fbc82e4eb97/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

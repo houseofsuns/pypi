@@ -15,7 +15,7 @@ DESCRIPTION="Gridworks Atn Spaceheat"
 
 HOMEPAGE="https://github.com/thegridelectric/gridworks-atn"
 LICENSE="None"
-SRC_URI="https://files.pythonhosted.org/packages/14/40/757d939efe18d7fa3646e0a718a65cd157f59372207a576658b00030f959/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

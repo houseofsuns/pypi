@@ -15,7 +15,7 @@ DESCRIPTION="A signer pdf with image"
 
 HOMEPAGE="https://gitlab.com/Hjklvfr/signer_pdf"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/04/a0/08bb7152e2549d47c1ad59c84e85a64224808ecc851c0e22f48551e836f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

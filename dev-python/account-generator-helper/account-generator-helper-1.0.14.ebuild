@@ -15,7 +15,7 @@ DESCRIPTION="This library is helpful when creating accounts, it has everything y
 
 HOMEPAGE="https://github.com/DioniS1902/AccountGeneratorHelper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c4/98/058bb7f0bd6cb17d726c367c3a297f5031275244ac49666317c1926c7e64/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

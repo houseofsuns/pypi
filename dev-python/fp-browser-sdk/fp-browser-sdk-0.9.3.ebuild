@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/tyua07/FP-Browser-SDK"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/c4/4082144d33dd0382b5556afb3a1c51fea25bea171a448f1624f45354741a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

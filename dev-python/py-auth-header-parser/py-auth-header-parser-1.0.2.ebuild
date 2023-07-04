@@ -15,7 +15,7 @@ DESCRIPTION="Small and simple Python library to parse JWT tokens embedded in htt
 
 HOMEPAGE="https://github.com/cgons/py-auth-header-parser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/5b/ed38f40138993260e127c2464cf58e4899c901bded7614aece94f6b7fe32/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

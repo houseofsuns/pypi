@@ -15,7 +15,7 @@ DESCRIPTION="A Simple python package to generate customizable keys."
 
 HOMEPAGE="https://github.com/Sahith02/key-generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/89/76/a82213f901d4a1088fec91b8c34bce615482ade805101dfcea87e251cd77/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

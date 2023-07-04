@@ -15,7 +15,7 @@ DESCRIPTION="UnionFind in C++, with python binding"
 
 HOMEPAGE="https://pybind11-union-find.readthedocs.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/34/66/1b56b7465cbdd4d7d98e67bb026292c861c5890621d3f14bea7166dfb761/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

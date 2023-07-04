@@ -15,7 +15,7 @@ DESCRIPTION="Python utilities used by Deep Procedural Intelligence"
 
 HOMEPAGE="https://github.com/microsoft/dpu-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/6b/0507dd6dbf64d015e67d27b6191cd1239c89639efeca8165099ac39d4450/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

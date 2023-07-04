@@ -15,7 +15,7 @@ DESCRIPTION="Transfer logs acquired by logging module to discord with webhook!"
 
 HOMEPAGE="https://github.com/grarich123/discord_logging"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/56/1015ee73d55002d4bff2b49e5adcd90e10e43d44b54f75c3b70d0627effe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

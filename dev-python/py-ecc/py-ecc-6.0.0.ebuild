@@ -15,7 +15,7 @@ DESCRIPTION="Elliptic curve crypto in python including secp256k1 and alt_bn128"
 
 HOMEPAGE="https://github.com/ethereum/py_ecc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/e3/12234aef5f578457f10e1cdd28737445b5918c1cf4049da5d34587647fa1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

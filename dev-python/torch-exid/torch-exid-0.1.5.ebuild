@@ -15,7 +15,7 @@ DESCRIPTION="An extension of PyTorch IterableDataset, this package introduces fu
 
 HOMEPAGE="https://github.com/arlegotin/torch_exid"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9c/a4/a48bd65de63b506857b5b310ed5ab7dd792ec5c1511191e8c515ae9639b7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

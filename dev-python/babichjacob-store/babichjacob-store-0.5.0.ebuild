@@ -15,7 +15,7 @@ DESCRIPTION="A Python implementation of svelte/store"
 
 HOMEPAGE="https://github.com/babichjacob/python-store"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/6e/8079b9415a731b457a219beaea79ea88dc1a5eaa8dd01856456159b363aa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

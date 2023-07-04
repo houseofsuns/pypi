@@ -15,7 +15,7 @@ DESCRIPTION="An interative animation framework for matplotlib"
 
 HOMEPAGE="https://sunpy.org"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/49/0b/ad5621c2de836c1295e529affca03a98f490a8f9671508b1d9d8467a30a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

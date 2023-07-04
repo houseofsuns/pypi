@@ -15,7 +15,7 @@ DESCRIPTION="Data assets for matplotlib basemap"
 
 HOMEPAGE="https://matplotlib.org/basemap"
 LICENSE="GNU Lesser General Public License v3 or later LGPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/45/f6/efc358bb1ed930cb06a45934ac128c6869cdcb9c1c57679d1d9ac9f99241/${REALNAME//-/_}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.zip"
 SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 

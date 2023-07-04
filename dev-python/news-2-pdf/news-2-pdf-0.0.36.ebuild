@@ -15,7 +15,7 @@ DESCRIPTION="Generate international news in pdf."
 
 HOMEPAGE="https://github.com/gaoyunzhi/news_2_pdf"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/22/40e1f364057502a909bfed0eb62c3a2ff870f021762bc70395a1dada323f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

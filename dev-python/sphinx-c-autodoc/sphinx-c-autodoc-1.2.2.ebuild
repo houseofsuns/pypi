@@ -15,7 +15,7 @@ DESCRIPTION="A sphinx autodoc extension for c modules"
 
 HOMEPAGE="https://github.com/speedyleion/sphinx-c-autodoc"
 LICENSE="MIT License, The Unlicense Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/cb/04/fdc922d6d924340345ffb93cc666000a250306849224824f498c8590854f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

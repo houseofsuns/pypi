@@ -15,7 +15,7 @@ DESCRIPTION="Builder for boto3-stubs and types-aiobotocore"
 
 HOMEPAGE="https://youtype.github.io/mypy_boto3_builder/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/75/c242bac4694b55d58964cf721baa3e863ebb28866650a7ca1a76ad8dce45/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

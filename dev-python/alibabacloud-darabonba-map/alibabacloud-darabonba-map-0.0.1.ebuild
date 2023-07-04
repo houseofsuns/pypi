@@ -15,7 +15,7 @@ DESCRIPTION="Alibaba Cloud Darabonba Map SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/darabonba-map"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d5/bc/f11d56adffffade9a0d33ccca155ce82ca950b97cdce27a75228715c4639/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

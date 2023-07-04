@@ -15,7 +15,7 @@ DESCRIPTION="Extensions for omigo_core package"
 
 HOMEPAGE="https://github.com/CrowdStrike/omigo-data-analytics"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/de/89939baf3019c417d10a91083fd7c988d3804ada249d10228f48517a56e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

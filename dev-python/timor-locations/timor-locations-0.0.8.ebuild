@@ -15,7 +15,7 @@ DESCRIPTION="Timor-Leste geographic datasets"
 
 HOMEPAGE="https://github.com/catalpainternational/timor_locations"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e8/6a/0c9b64e86eb1b516e8a7c953c02d4127906e5d95c973c2f07536cd172db4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

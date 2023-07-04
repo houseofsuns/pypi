@@ -15,7 +15,7 @@ DESCRIPTION="Parallel processing with progress bars"
 
 HOMEPAGE="https://github.com/swansonk14/p_tqdm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/90/77/c4ac58f96154d1760a06f7e569c79b923d0da452011e25bbf03d1cb7658f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

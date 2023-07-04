@@ -15,7 +15,7 @@ DESCRIPTION="A package for obtaining quotation data from various sources and sav
 
 HOMEPAGE="https://github.com/hal9000cc/live_trading_indicators"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ff/1a/954008a0dd18fbca60cafccda8bc961aab513c8722caf2892be1d033d473/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="AIND exaSPIM pipeline utilities."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/c9/afea9a9bd5c6c069cdbda7a94fef89d5dfaa239e097b53040b04456ef70b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

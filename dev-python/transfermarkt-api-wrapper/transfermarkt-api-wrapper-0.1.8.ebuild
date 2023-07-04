@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight wrapper for Transfermarkt API"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6f/6d/d19f13513203ba35939adeba274f674ad9b4f91c152f1bb885e925a85c4f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

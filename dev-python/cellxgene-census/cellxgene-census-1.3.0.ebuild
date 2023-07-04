@@ -15,7 +15,7 @@ DESCRIPTION="API to facilitate the use of the CZ CELLxGENE Discover Census. For 
 
 HOMEPAGE="https://github.com/chanzuckerberg/cellxgene-census"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f8/40/ea3483860a5bf206893e7688ae1cd55daefaa428fb1ff4e9dd62f90144ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

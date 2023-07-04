@@ -15,7 +15,7 @@ DESCRIPTION="A command line tool to automatically fix Django deprecations."
 
 HOMEPAGE="https://github.com/browniebroke/django-codemod"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/99/8bb4723d52d0d5e7d0b8adc135c5b2785db531fb8604e3114a43562db355/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

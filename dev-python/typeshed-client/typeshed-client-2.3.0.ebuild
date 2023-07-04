@@ -15,7 +15,7 @@ DESCRIPTION="A library for accessing stubs in typeshed."
 
 HOMEPAGE="https://github.com/JelleZijlstra/typeshed_client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/10/d2e496b716dc4e565f6fb4c4882f409f7cab1733e543a87192722aa75810/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

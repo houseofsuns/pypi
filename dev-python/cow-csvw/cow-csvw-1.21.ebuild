@@ -15,7 +15,7 @@ DESCRIPTION="Integrated CSV to RDF converter, using CSVW and nanopublications"
 
 HOMEPAGE="https://github.com/CLARIAH/COW"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/c4/96a4c09c6fef23cf46ea16f38ce46ef72831685140950207e4006e43828b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

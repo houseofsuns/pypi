@@ -15,7 +15,7 @@ DESCRIPTION="CLI for maintaining DCOR installations"
 
 HOMEPAGE="https://github.com/DCOR-dev/dcor_control/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/2e/a0/4f79eb3d59ee396ef8ec10afb0c6e8e1dc6de0ab3df18accdea3d2e80c09/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

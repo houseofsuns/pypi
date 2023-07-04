@@ -15,7 +15,7 @@ DESCRIPTION="Unit testing and mocking for Databricks"
 
 HOMEPAGE="https://github.com/microsoft/DataOps"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bf/18/590f8c5d0160d6afed83ec7e59b352b694228e9ecfbddf2fddc021df7fbe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

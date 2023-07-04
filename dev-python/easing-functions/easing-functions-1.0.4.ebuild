@@ -15,7 +15,7 @@ DESCRIPTION="A collection of the basic easing functions for python"
 
 HOMEPAGE="https://github.com/semitable/easing-functions"
 LICENSE="GPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/5c/ab/84e42f16746e70dae34d5c03eaae44ebf8fef8f84ab31ea484295779e32c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

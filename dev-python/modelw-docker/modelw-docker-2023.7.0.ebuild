@@ -15,7 +15,7 @@ DESCRIPTION="Utility to simplify Dockerfiles"
 
 HOMEPAGE="https://github.com/ModelW/docker/"
 LICENSE="WTFPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/ea/7c/d9b4e9ec25601a5bb03baf47d67bdf2b750a2da468beeafbe177850e5477/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

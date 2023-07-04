@@ -15,7 +15,7 @@ DESCRIPTION="A Python WebSocket server that allows any WebSocket compliant appli
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4f/e3/f339ae9633a324820e3aa76b2933f56e2810290a3fe659e6087e7583d2d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

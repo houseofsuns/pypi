@@ -15,7 +15,7 @@ DESCRIPTION="The twc_square package contains configuration entries for SQuARE, t
 
 HOMEPAGE="http://packages.python.org/twc_square"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/03/38/43f6e436aeb5a4486795ca5d35e174187789b5048874b740266a856030b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

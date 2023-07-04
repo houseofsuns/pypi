@@ -15,7 +15,7 @@ DESCRIPTION="Manipulate DNS records on various DNS providers in a standardized/a
 
 HOMEPAGE="https://github.com/AnalogJ/lexicon"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/64/2b492a6170ee1d90b3998d3de0f9fbd7eddb914a87ae0e0d511469b5e277/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

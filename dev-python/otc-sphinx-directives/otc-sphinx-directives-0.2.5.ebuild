@@ -15,7 +15,7 @@ DESCRIPTION="Open Telekom Cloud Sphinx Directives"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/14/2f/6b268a3e34892340618de1cbbf3dfedcd8312372703daed5f11e30b87365/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

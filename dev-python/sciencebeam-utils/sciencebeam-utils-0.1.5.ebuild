@@ -15,7 +15,7 @@ DESCRIPTION="ScienceBeam Utils"
 
 HOMEPAGE="https://github.com/elifesciences/sciencebeam-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7d/6b/0d029631654ce68315d92250bf763e9910cd8167e25bba9a55c593d53795/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

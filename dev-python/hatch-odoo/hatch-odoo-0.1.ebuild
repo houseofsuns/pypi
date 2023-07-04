@@ -15,7 +15,7 @@ DESCRIPTION="A Hatch plugin for Odoo projects."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/52/24/f1aa0ab28da53bbece35793f8cc67aa22cb7e812a16ff07c00c7db3e4dcc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

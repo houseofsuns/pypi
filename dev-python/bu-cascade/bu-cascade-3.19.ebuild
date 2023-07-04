@@ -15,7 +15,7 @@ DESCRIPTION="Cascade Server web services integration"
 
 HOMEPAGE="https://github.com/betheluniversity/cascade/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/da/b3/157c99f824b4797a03d65af554d7d95e64c37c8980cc9967f919bcbc9546/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

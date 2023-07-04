@@ -15,7 +15,7 @@ DESCRIPTION="A tool to build Alnoda workspaces"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/39/39/4619760ff62e8b190a321d24e3fa43849c5a2395341436aa3d8b2dd952d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

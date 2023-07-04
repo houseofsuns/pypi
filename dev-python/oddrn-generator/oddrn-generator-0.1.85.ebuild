@@ -15,7 +15,7 @@ DESCRIPTION="Open Data Discovery Resource Name Generator"
 
 HOMEPAGE="https://github.com/opendatadiscovery/oddrn-generator"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0d/8e/d0ed7f873e64818e92432b759abb793e1641f2b74cee82d640548e38c757/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

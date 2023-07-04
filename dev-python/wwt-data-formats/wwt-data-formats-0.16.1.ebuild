@@ -15,7 +15,7 @@ DESCRIPTION="Low-level interface to AAS WorldWide Telescope data formats"
 
 HOMEPAGE="https://wwt-data-formats.readthedocs.io/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/67/fb80cfe798f542c53e65aac02f4c0c540d2a35519058bf0b3a49ada6f29c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

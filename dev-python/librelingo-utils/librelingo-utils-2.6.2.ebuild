@@ -15,7 +15,7 @@ DESCRIPTION="Utilities to be used in LibreLingo-related-packages"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/96/51/08f062003ad4a6975371f78d44b9df42e2be47dee2bbb5d676624a28d9df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A selectel api package"
 
 HOMEPAGE="https://gitlab.com/temskiy/selectel_api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/43/fbfbcc7d32a61a832a22c074976a72ed5024d2e4a43bb2df1e42aea17a9a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

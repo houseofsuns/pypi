@@ -15,7 +15,7 @@ DESCRIPTION="A user interface and functions to work with magnetic relaxation"
 
 HOMEPAGE="http://www.eklahn.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/62/e9/c6165a5fe905269c499a3d8f9fd2df3f26b6b2cab26f2e767293d19e89f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

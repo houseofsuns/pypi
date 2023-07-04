@@ -15,7 +15,7 @@ DESCRIPTION="A package which logs to a Python logger when an exception is raised
 
 HOMEPAGE="https://github.com/Pylons/pyramid_exclog"
 LICENSE="BSD-derived Repoze"
-SRC_URI="https://files.pythonhosted.org/packages/aa/70/0883c70820752aa751eef4ec2e275d2271a7027499cc718c7ca99c1c4838/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

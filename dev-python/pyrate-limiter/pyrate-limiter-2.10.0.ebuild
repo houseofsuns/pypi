@@ -15,7 +15,7 @@ DESCRIPTION="Python Rate-Limiter using Leaky-Bucket Algorithm"
 
 HOMEPAGE="https://github.com/vutran1710/PyrateLimiter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/a2/bb73c385e6d68cbe0ebe6ff16c22c96a79194c1298b2942005fcaf3eda9d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

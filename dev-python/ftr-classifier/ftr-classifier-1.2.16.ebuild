@@ -15,7 +15,7 @@ DESCRIPTION="Classifies English, Dutch and German sentences in terms of how they
 
 HOMEPAGE="https://github.com/cbjrobertson/ftr_classifier.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/bd/49ad3599ad497498fb369e81094279848891c50b420f9f10ad29e8227f08/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

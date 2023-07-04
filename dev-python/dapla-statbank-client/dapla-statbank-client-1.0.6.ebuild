@@ -15,7 +15,7 @@ DESCRIPTION="Handles data transfer Statbank <-> Dapla for Statistics Norway"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b5/92/f99a7518d9b6afda539b679648e10f80871f56f6e41c8d01d7e421c7e02e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

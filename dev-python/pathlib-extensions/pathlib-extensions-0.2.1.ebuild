@@ -15,7 +15,7 @@ DESCRIPTION="Backported and Experimental Filesystem Path Features for Python 3.6
 
 HOMEPAGE="https://github.com/ThScheeve/pathlib_extensions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/05/509640495aede13204922738e05dbf7f8d389ba9f9aa96e2790d82f3655b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

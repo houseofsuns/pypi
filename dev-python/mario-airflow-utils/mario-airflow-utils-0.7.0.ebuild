@@ -15,7 +15,7 @@ DESCRIPTION="apache airflow utils"
 
 HOMEPAGE="https://dMario24.github.io/mario_airflow_utils"
 LICENSE="GNU General Public License GPL"
-SRC_URI="https://files.pythonhosted.org/packages/fe/2b/6cddf471c07e8b1c58dabaf5ff7ec1d46da9884410e8a56ea90b19124612/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

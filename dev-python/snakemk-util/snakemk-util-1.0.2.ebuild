@@ -15,7 +15,7 @@ DESCRIPTION="utility functions for snakemake"
 
 HOMEPAGE="https://github.com/Hoeze/snakemk_util"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d1/ef/004ccb42eb3c1bb75ca6026fbf42616e898af50e2e0de169c48a2a60bf1d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

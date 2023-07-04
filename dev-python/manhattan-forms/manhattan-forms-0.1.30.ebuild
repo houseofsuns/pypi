@@ -15,7 +15,7 @@ DESCRIPTION="A set of classes, functions and utilties that extend WTForms for us
 
 HOMEPAGE="https://git.getme.co.uk/manhattan/manhattan_forms"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/90/43/87dcd519681a6fe88b8f6a4e07c5dfa95aa88e294c6902fc6c75b0d8565d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Enable sending markdown in messges"
 
 HOMEPAGE="https://github.com/Paul-weqe/python_webex_bot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/7a/118a48968cb77a4669aaa23f77ad78ce215daeaa93e99b9025c7dc73293d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

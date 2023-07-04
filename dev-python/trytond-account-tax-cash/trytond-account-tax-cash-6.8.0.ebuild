@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module to support tax report on cash basis"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a2/c6/72b8c762f93fe358c2eeb91ab22c838afc2668c62523d9925be55ae4c7b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="abstract_utilities_test is a Python package."
 
 HOMEPAGE="https://github.com/AbstractEndeavors/abstract_package_test/abstract_utilities_test"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/11/82/019a6eacfb232bd6e90be2244286dce834461a24c8e342336e8ee2242d20/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

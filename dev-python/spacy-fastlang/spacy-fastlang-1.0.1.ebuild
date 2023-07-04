@@ -15,7 +15,7 @@ DESCRIPTION="Language detection using FastText and Spacy"
 
 HOMEPAGE="https://github.com/thomasthiebaud/spacy-fastlang"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/49/2c/4a2b2cbb268808d735c5a158e3f00204a5c6ce5c55c9fd750724a7766b69/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

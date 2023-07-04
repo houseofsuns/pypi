@@ -15,7 +15,7 @@ DESCRIPTION="Python utility for validating IDS"
 
 HOMEPAGE="https://developers.tetrascience.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ba/8a/28993bc1d9255cf10995a71f94c60ff88ed7504de923132b35825263db93/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

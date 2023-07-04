@@ -15,7 +15,7 @@ DESCRIPTION="Generating and applying intent-based Network configuration from Hed
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/28/4e/94637746e511ee30cb975516901871c6408d7f9d6bd26c3a48a234ffb019/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

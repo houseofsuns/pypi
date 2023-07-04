@@ -15,7 +15,7 @@ DESCRIPTION="DB2 support for Django framework."
 
 HOMEPAGE="http://pypi.python.org/pypi/ibm_db_django/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/aa/3f/98bb12923e404006c054f2825c4e72e37381fd5ad7f0a4111fb63d473bdd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

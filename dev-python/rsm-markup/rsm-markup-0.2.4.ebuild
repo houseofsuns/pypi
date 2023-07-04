@@ -15,7 +15,7 @@ DESCRIPTION="ReStructured Manuscript (RSM) markup language"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/23/782e0d9dce8ce53458d74e605bdeae022db9a16627e874e7b24865af0f78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

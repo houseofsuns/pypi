@@ -15,7 +15,7 @@ DESCRIPTION="InfluxDB 2.0 Python client library"
 
 HOMEPAGE="https://github.com/influxdata/influxdb-client-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/c5/2a8c6be01233a523b0b585b343b00acc79e637f641e360c05aaaaa4a5c02/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

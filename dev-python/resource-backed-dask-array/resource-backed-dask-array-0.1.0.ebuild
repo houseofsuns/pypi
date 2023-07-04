@@ -15,7 +15,7 @@ DESCRIPTION="experimental Dask array that opens/closes a resource when computing
 
 HOMEPAGE="https://github.com/tlambert03/resource-backed-dask-array"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/62/80/b8952048ae1772d33b95dbf7d7107cf364c037cc229a2690fc8fa9ee8e48/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

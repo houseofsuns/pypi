@@ -15,7 +15,7 @@ DESCRIPTION="Anastasia Logging Standarization"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/bd/1da3a26938e02ee4a7ce84f7f61cf6cc888f287cba47ab8a4c270dced28d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

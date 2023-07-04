@@ -15,7 +15,7 @@ DESCRIPTION="Package to download files to the Robin Radar API"
 
 HOMEPAGE="https://bitbucket.org/robin-radar-systems/sd-api-download-pip-package.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/97/b7/a1da268e7641e35cb66dfc3d79e99b19830b6ff94673c9795fc2e2d2c3bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

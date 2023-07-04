@@ -15,7 +15,7 @@ DESCRIPTION="Package for plotting multidirectional graphs"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4d/d4/13ea6cea3d12b1e3231f27d0f548071ceead105dc5e74847b9ecd36f1cd5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

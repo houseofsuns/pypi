@@ -15,7 +15,7 @@ DESCRIPTION="A dashboard for Dramatiq (Redis-only!)."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3e/23/6735768b891416cfc1ccacb800f445640755819d68fad0f5a3b89403b187/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="reddit edge request context baggage"
 
 HOMEPAGE="https://github.com/reddit/edgecontext"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/70/1b/8db0840910a39955e5169f3731bc7fc2d37effad1cff9cb59dca455aa19d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

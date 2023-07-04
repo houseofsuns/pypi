@@ -15,7 +15,7 @@ DESCRIPTION="Simple API wrapper for Odoo's External API"
 
 HOMEPAGE="https://github.com/LNTW/odoo-python-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/b8/3b336b8b8657bf8e1cdf9457df874e5d21a1bdcd8979139f78386b0fa68b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

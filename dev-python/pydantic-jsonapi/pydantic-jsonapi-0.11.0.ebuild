@@ -15,7 +15,7 @@ DESCRIPTION="an implementation of JSON:api using pydantic"
 
 HOMEPAGE="https://github.com/DeanWay/pydantic-jsonapi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0c/08/688ff0a722796c7671576cc6c1936f64302f5d20356631947dcd7b88b141/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

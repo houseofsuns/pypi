@@ -15,7 +15,7 @@ DESCRIPTION="Serialized Data Interface for Juju Operators"
 
 HOMEPAGE="https://github.com/canonical/serialized-data-interface/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/71/8e/8395022c357d343c72ee28406ab97a35bd881b2fda1769f0e8eee7b50624/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Library to integrate cashfree APIs"
 
 HOMEPAGE="https://github.com/cashfree/cashfree-sdk-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/13/1d965fc8586dc1b9e6be4bd7611239dc03744c0de0a1779b53d3f3c3f7fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

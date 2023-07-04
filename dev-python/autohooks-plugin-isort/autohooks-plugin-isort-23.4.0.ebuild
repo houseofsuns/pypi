@@ -15,7 +15,7 @@ DESCRIPTION="An autohooks plugin for python code formatting via isort"
 
 HOMEPAGE="https://github.com/greenbone/autohooks-plugin-isort"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/da/f6/00103875d43218c405f29954cf9894f2e7fbbd20a4295ebb3ea674566b5b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

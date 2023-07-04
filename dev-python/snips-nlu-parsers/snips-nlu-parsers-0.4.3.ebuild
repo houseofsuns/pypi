@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper of the snips-nlu-parsers Rust crate"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cf/55/0c6e184e997c160c424e8da2f232673da2551fcb09628eb0f94e4f2d150c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

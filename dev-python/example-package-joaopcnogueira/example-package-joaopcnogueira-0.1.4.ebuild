@@ -15,7 +15,7 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/joaopcnogueira/packaging_tutorial"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/31/a8/29e8b73de13305e4ce45ef2affd619548441a4632cc19a8303bd15fb0291/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

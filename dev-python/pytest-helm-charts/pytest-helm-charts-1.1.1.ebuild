@@ -15,7 +15,7 @@ DESCRIPTION="A plugin to provide different types and configs of Kubernetes clust
 
 HOMEPAGE="https://github.com/giantswarm/pytest-helm-charts"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ca/52/8cf0019ccf42574e9fef8925002d06f1f7de9e41d2fe20a1ba7af1cd14b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

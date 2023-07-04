@@ -15,7 +15,7 @@ DESCRIPTION="Parametrize test functions with values read from config files."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/23/7f4d9d3233136ea18074cf72d6262025127a6fe7e685e553b8390ac20de1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

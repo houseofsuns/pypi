@@ -15,7 +15,7 @@ DESCRIPTION="Resolve file suffix"
 
 HOMEPAGE="https://github.com/YSH0313/FileStream_y"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/49/2803b4f347d9fd060fee6b69e39f2ecca6a196815a2252d195f3e453a672/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

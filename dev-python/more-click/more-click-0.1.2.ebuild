@@ -15,7 +15,7 @@ DESCRIPTION="More click."
 
 HOMEPAGE="https://github.com/cthoyt/more_click"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/c7/da345a948fb09129c524e81209c32c07c56f5e30786b973116247c4eba61/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

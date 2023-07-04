@@ -15,7 +15,7 @@ DESCRIPTION="坏词撤回"
 
 HOMEPAGE="https://github.com/bridgeL/nonebot-plugin-ayaka-prevent-bad-words"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/a8/fc90df793b278d3454dacb265e0dd40059ecb313f54c75ab98ecbb01521d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

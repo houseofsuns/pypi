@@ -15,7 +15,7 @@ DESCRIPTION="The main objective of this package is to centralize logic used to i
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/44/4b/9363451b5b2b5f25f2204f5f7280c9381d664a97156a9d79208eee9f6c4d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

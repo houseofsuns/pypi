@@ -15,7 +15,7 @@ DESCRIPTION="Efficient template macro sets for Django"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/7b/d2fa1c463c0dda96349892340b2f32b70c397c7dbca6b3cabb45ad9fae7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

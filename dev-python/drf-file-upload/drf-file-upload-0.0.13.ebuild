@@ -15,7 +15,7 @@ DESCRIPTION="A DRF app upload files easily"
 
 HOMEPAGE="https://github.com/mari8i/drf-file-upload"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/bc/71/0d4324d64ad0437703a3afc8a7641854f46549e478028701520b6a731c65/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

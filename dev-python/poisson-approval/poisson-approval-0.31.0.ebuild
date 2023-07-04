@@ -15,7 +15,7 @@ DESCRIPTION="Poisson Approval studies the Poisson Game of Approval Voting."
 
 HOMEPAGE="https://github.com/francois-durand/poisson_approval"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/e6/ae/d6c9175644b40e7418db2b41386c00e8f478844e44c0c5ad65f648b871f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

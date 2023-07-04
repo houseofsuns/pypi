@@ -15,7 +15,7 @@ DESCRIPTION="Timeweb Cloud Command Line Interface."
 
 HOMEPAGE="https://github.com/timeweb-cloud/twc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/c5/1fdbb558e531ccd23731c2bf4ed51e34e807e982d8c02f4d6e038124d28d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

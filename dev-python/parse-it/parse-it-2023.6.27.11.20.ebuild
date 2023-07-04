@@ -15,7 +15,7 @@ DESCRIPTION="A python library for parsing multiple types of config files, envvar
 
 HOMEPAGE="https://github.com/naorlivne/parse_it"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/de/f1/aa53150546ca5c0b3a86230f333ea36342e0c5cdf7b41899ce9547232510/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

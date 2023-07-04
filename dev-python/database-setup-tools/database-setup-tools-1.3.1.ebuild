@@ -15,7 +15,7 @@ DESCRIPTION="Tools to easily setup databases opinionated towards FastAPI and SQL
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/2a/b636cd37e2fd77df83d38f8b6624a8a6a2ffa69f338da49cd90e3e304bdb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

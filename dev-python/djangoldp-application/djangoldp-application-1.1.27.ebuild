@@ -15,7 +15,7 @@ DESCRIPTION="djangoldp application management package"
 
 HOMEPAGE="https://git.startinblox.com/applications/ontochain/application-registry"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/90/f6312da2a1a4fb39a0c9980e15658ae75b7608f9512016ac8c94c699d542/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

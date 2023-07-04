@@ -15,7 +15,7 @@ DESCRIPTION="Alibaba Cloud OSS SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-gateway"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b6/1e/c0106d0854577b1b43bb9394159afc00565cc8b8e77f590d597cc1c19361/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

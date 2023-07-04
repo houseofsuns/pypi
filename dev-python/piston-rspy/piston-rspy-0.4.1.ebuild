@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for piston_rs."
 
 HOMEPAGE="https://github.com/Jonxslays/piston_rspy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/39/814a9ecb7b62bd6b6cfb59d84eb927c1ffd5e6c53aa450ca0a4d6c3ff367/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

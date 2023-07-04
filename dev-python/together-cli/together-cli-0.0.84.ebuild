@@ -15,7 +15,7 @@ DESCRIPTION="Together cli is a tool to help you join together computer"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fe/d8/f3610899117e5433e2fefc22f617bcd3b45e10238e77f5012c30f5c26b5b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

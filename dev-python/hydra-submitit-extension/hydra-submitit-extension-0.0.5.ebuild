@@ -15,7 +15,7 @@ DESCRIPTION="A more flexible hydra submitit launcher"
 
 HOMEPAGE="https://github.com/caplett/hydra_submitit_extension"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f7/c4/1127ec6add9718e8af01299f2e3127c0603d80546e164dbd8f44bba56f5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

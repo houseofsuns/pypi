@@ -15,7 +15,7 @@ DESCRIPTION="A python package to clone yourself with the help of GPT"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cf/5a/2923e7f7b7f6bdee01e7cfb0caebba053e5aa35e63d932f5cc6752aed699/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

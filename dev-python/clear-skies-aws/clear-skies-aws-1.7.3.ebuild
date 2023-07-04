@@ -15,7 +15,7 @@ DESCRIPTION="clearskies bindings for working in AWS"
 
 HOMEPAGE="https://github.com/cmancone/clearskies-aws"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/e4/1d224df5b47f82de6801a8c523b9fe3becabb2cb2cc998790d07ad09cdc7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

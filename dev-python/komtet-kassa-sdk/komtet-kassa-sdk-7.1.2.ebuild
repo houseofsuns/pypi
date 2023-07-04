@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for KOMTET Kassa"
 
 HOMEPAGE="https://github.com/Komtet/komtet-kassa-python-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ed/52/5e9a50a873d02ab55480240d0ed39fb413b6dc18e7c6ab8ffcc8d3cdc00e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

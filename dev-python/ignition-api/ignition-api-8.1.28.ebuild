@@ -15,7 +15,7 @@ DESCRIPTION="Ignition Scripting API"
 
 HOMEPAGE="https://ignition-api.github.io/8.1"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/60/8a557884f7479dc042775b23c45bab32d20d08a5826698c0325c580102d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Mirror an upstream conda channel to a local directory"
 
 HOMEPAGE="https://github.com/regro/conda-mirror"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/6b/f3/40e9b7a16a625f8a8ee9a6ba9196777f4f65e869b5a04a3e373a9e209a37/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

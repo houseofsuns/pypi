@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for MetaApi risk management API. Can execute trading ris
 
 HOMEPAGE="https://github.com/agiliumtrade-ai/metaapi-risk-management-python-sdk"
 LICENSE="SEE LICENSE IN LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/04/c7/3af2ba7070b700716cc27c830f04d0ce3359e8ab77402eb1180cbe3c50d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

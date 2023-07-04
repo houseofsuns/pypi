@@ -15,7 +15,7 @@ DESCRIPTION="Apply Pull Requests from GitHub"
 
 HOMEPAGE="https://github.com/gisce/apply_pr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/34/904d7a73c99f60bbd38122cf422ca73396ea339229eba3ce32943ed26e41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

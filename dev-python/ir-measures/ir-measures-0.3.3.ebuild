@@ -15,7 +15,7 @@ DESCRIPTION="provides a common interface to many IR measure tools"
 
 HOMEPAGE="https://github.com/terrierteam/ir_measures"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/49/13/701e9792ee1accc02f3729870cea26c4b434e46bba234656361bc93b5085/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

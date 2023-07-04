@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry FastAPI Instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-fastapi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/44/4c/9b6ff382b90d583cc7165cf9746793f76f2bd1bc0eff4b901abfd0d80a89/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

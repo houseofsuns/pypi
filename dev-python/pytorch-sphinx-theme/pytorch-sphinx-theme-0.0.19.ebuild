@@ -15,7 +15,7 @@ DESCRIPTION="PyTorch Sphinx Theme"
 
 HOMEPAGE="https://github.com/shiftlab/pytorch_sphinx_theme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/34/91a927ef8e7d56ee1f760df39b279bbf47e4782141c64d161a73cb57e92d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

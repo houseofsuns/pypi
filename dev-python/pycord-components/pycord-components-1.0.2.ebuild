@@ -15,7 +15,7 @@ DESCRIPTION="An unofficial library for pycord components."
 
 HOMEPAGE="https://github.com/Leek5/pycord-components"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/6a/8fa964d81cd4899f77f838823792cf7adf5e07713005b3daa32bcc3178d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

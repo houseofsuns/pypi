@@ -15,7 +15,7 @@ DESCRIPTION="机器学习作业用的股票数据环境"
 
 HOMEPAGE="http://ursule.plus/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/e1/209084c2a464d857824eea7225bccdd610e5ebdf609b0ad02191045d6cee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Interface GitHub Actions and ReadTheDocs"
 
 HOMEPAGE="https://github.com/dfm/rtds-action"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/f2/d6b99748e97ba132f856f1caa891d577da63bacb44a08eb4944e6511c986/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

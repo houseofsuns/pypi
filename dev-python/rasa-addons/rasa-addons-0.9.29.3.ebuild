@@ -15,7 +15,7 @@ DESCRIPTION="Rasa Addons - Components for Rasa and Botfront"
 
 HOMEPAGE="https://botfront.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e4/a4/fef89049bb7e9af0363ac6a1837148d377b951f606c9971d900e978920e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

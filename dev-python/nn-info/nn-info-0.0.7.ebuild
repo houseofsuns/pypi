@@ -15,7 +15,7 @@ DESCRIPTION="nearest neighbor based estimators for measures of information theor
 
 HOMEPAGE="https://github.com/zuiop11/nn_info"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b4/49/2fa03495fa3b0d7b67b1de66840a9434cefa775e08388cb384b0acb29da3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

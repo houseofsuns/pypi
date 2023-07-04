@@ -15,7 +15,7 @@ DESCRIPTION="Extends Hypothesis to add fully automatic testing of type annotated
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/9d/a491aaf55e61b4fee99508d8d2ede409c760ced3e0156d78bcbd34a8e4df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

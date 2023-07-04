@@ -15,7 +15,7 @@ DESCRIPTION="A Tedee Lock Client package"
 
 HOMEPAGE="https://github.com/zweckj/pytedee_async"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d4/14/a0813e281c833f48c54167de3b42bb6a5a8b3a4df82e81d0399a54cb3d95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Redis Adapter for PyCasbin"
 
 HOMEPAGE="https://github.com/pycasbin/redis-adapter"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/38/41/f27317a8e69d121843aa95c4a6a584fcfb91d3d820eaf993e22665af5b1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A collection of JSON schemas used by Weblate"
 
 HOMEPAGE="https://weblate.org/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/29/daba7e52e64b5f1ed7962bf0ff9a4d3e9c22fab383f5bf7ebe71d8bb93c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

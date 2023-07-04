@@ -15,7 +15,7 @@ DESCRIPTION="🚀 OpenAI API Reverse Proxy · ChatGPT API Proxy"
 
 HOMEPAGE="https://github.com/beidongjiedeguang/openai-forward"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ab/7a/44c807de08a01c16a14ef1b726842e0da70dcaeac62f45fdee048a2af7fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

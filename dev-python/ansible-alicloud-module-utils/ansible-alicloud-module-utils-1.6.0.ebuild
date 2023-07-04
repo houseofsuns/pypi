@@ -15,7 +15,7 @@ DESCRIPTION="The dependence of Ansible Provider Alicloud modules."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e7/88/ebe21b467da780deb134eebb2e7dc9d9f55624a227d0df957ccd63a587cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

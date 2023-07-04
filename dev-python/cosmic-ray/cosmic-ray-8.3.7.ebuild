@@ -15,7 +15,7 @@ DESCRIPTION="Mutation testing"
 
 HOMEPAGE="http://github.com/sixty-north/cosmic-ray"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/19/abe044f74902b2625e86659282615d3da28f19ded7a7941a39b71c4feb2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

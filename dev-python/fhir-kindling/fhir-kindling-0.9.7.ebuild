@@ -15,7 +15,7 @@ DESCRIPTION="CRUD Operations against FHIR servers, resource validation and synth
 
 HOMEPAGE="https://github.com/migraf/fhir-kindling"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/84/9ac924a8bed1b00d410a1b1c634723f425dc1dcf0d36eb0993101ab91cc1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

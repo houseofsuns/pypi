@@ -15,7 +15,7 @@ DESCRIPTION="yapf 💌 isort"
 
 HOMEPAGE="https://github.com/domdfcoding/yapf-isort"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/50/f8/82ea15c726c29f36b073bdcce531b8c255ba1bf7362855edee1eab89b14d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

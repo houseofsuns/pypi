@@ -15,7 +15,7 @@ DESCRIPTION="A simple tool to get time series from spreadsheets"
 
 HOMEPAGE="https://github.com/breno-jesus-fernandes/cronus-eater"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/6d/c9bf0776352e1d93bdba4c5ed156b385e1b82d2e9aaa43a41511f6c573ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

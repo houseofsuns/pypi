@@ -15,7 +15,7 @@ DESCRIPTION="View NoneBot2 Docs Locally"
 
 HOMEPAGE="https://github.com/nonebot/nonebot2/blob/master/packages/nonebot-plugin-docs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/b6/577a24302cf242d252eda45b84248c8291f336fa220162c39436ddd007ad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

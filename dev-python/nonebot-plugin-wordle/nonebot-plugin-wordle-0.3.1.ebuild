@@ -15,7 +15,7 @@ DESCRIPTION="Nonebot2 wordle猜单词插件"
 
 HOMEPAGE="https://github.com/noneplugin/nonebot-plugin-wordle"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/39/39506f628bdd73d577311982bd87fcca6aae7cd33cd5a2e2266ed7e371a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

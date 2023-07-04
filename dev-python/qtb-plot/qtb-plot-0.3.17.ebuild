@@ -15,7 +15,7 @@ DESCRIPTION="Standard plotting styles of our institute"
 
 HOMEPAGE="https://gitlab.com/marvin.vanaalst/qtb-plot"
 LICENSE="GPL-4"
-SRC_URI="https://files.pythonhosted.org/packages/8e/7a/ec8c3e663a558abdf537421aaf8786941996e40d5a19a56a1fa760441524/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

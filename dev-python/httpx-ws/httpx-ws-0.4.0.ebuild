@@ -15,7 +15,7 @@ DESCRIPTION="WebSockets support for HTTPX"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9c/10/20c0e0f6cff049f1b86190ecf43d6d8c807322d04cc5fc7ea82c2a3e0472/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

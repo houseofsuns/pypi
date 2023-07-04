@@ -15,7 +15,7 @@ DESCRIPTION="To fetch the thesaurus of an input word"
 
 HOMEPAGE="https://bitbucket.org/redpills01/py_thesaurus.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/11/82/56dab6aa24852367b43913e91990c562db49d9b05fc373531fe268fe3525/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

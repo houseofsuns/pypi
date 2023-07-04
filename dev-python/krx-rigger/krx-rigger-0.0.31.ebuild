@@ -15,7 +15,7 @@ DESCRIPTION="krx web crawler wrapper"
 
 HOMEPAGE="https://github.com/cheddars/krx_rigger"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/55/11/a565f795334f149ed0f163646fc7937e5908e53faadc6314210557daaf50/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

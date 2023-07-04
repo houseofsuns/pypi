@@ -15,7 +15,7 @@ DESCRIPTION="implementations of models and metrics for semantic text similarity.
 
 HOMEPAGE="https://github.com/AndriyMulyar/semantic-text-similarity"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a4/77/a7c1f4cc37431dd4f5d6796e11a2fed55373743650babacaf480c62c1c31/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

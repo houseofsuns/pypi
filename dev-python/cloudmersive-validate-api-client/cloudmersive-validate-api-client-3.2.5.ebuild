@@ -15,7 +15,7 @@ DESCRIPTION="validateapi"
 
 HOMEPAGE="https://www.cloudmersive.com/validate-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1d/78/720aa2b8e9363a069baa5b996627a77da42b674fcf8a530de80630b98dc1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

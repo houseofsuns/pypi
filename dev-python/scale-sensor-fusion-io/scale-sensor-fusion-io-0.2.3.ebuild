@@ -15,7 +15,7 @@ DESCRIPTION="Library for working with timestamp-based sensor fusion scenes"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/72/79/d618d38e343b8343f5da40d7129dff85eecb4deac75d5733d77fb1a06b1c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

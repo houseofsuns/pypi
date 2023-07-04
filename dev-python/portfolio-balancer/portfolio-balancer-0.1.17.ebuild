@@ -15,7 +15,7 @@ DESCRIPTION="A Python script to balance your cryptocurrency portfolio between tw
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/3e/bdcc70acc000b195cf7b7b5392774cbcffe479c0c72f4728526993e99e21/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

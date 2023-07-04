@@ -15,7 +15,7 @@ DESCRIPTION="OCR-D framework - shared code, helpers, constants"
 
 HOMEPAGE="https://github.com/OCR-D/core"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/22/f3/59a82e6181b6c1a8d39fbb3040ede4c7c92c425f0a14b45c295434c25049/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

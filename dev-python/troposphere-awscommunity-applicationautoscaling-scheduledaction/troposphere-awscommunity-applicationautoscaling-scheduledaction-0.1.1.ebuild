@@ -15,7 +15,7 @@ DESCRIPTION="Troposphere resource for AwsCommunity::ApplicationAutoscaling::Sche
 
 HOMEPAGE=""
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/d4/56/8bbbfbfa835d91f26ace6d8381790b30bb249da32b6cf2e232d3a514e2d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

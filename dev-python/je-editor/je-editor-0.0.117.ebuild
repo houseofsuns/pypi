@@ -15,7 +15,7 @@ DESCRIPTION="JEditor is basic but powerful editor include GPT"
 
 HOMEPAGE="https://github.com/JE-Chen/je_editor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/9e/b451d481e14f7697faffcf9febee21a5ff1f656f16e45726f34027d0edf1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

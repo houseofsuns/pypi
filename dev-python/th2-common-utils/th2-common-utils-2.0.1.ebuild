@@ -15,7 +15,7 @@ DESCRIPTION="Python library with useful functions for developers and QA needs"
 
 HOMEPAGE="https://github.com/th2-net/th2-common-utils-py"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5a/d2/9ef50be6753e598457abc63b37aea0d1307baea43dc44cc6261e549cf708/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

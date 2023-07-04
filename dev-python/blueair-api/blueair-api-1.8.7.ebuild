@@ -15,7 +15,7 @@ DESCRIPTION="Blueair Api Wrapper"
 
 HOMEPAGE="https://github.com/dahlb/blueair_api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/3f/d654981f8804883a90a82274acc2c377c76427c966b9ac127f412153b60a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

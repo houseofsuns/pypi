@@ -15,7 +15,7 @@ DESCRIPTION="Easy to use vocal separation on CLI or as a python package, using t
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/57/7a515293d5992cf8fcc053e1d57e4b7c6723e250bb36e8e8bb5c6196f43a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

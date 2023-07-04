@@ -15,7 +15,7 @@ DESCRIPTION="Python evaluator for jQuery-QueryBuilder rules"
 
 HOMEPAGE="https://github.com/shunyeka/jQuery-QueryBuilder-Python-Evaluator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/41/64/09a942f8e967cb470073defb8acde7972e7dbbb0b8437b291d65aabd40f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

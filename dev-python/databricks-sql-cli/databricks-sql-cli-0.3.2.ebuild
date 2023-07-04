@@ -15,7 +15,7 @@ DESCRIPTION="A DBCLI client for Databricks SQL"
 
 HOMEPAGE=""
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/75/43/7a1554057ad0831afda830e959d1d2e3c9ee5d7e35ae093577aaff1ad4d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

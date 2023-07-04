@@ -15,7 +15,7 @@ DESCRIPTION="A class for timing code (start/stop, context manager, decorator)."
 
 HOMEPAGE="https://github.com/etijskens/et-stopwatch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/c5/ed488f649469e03e4b0b0be40b0054963d2d12498be5bf73a29861dad60c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

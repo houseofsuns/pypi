@@ -15,7 +15,7 @@ DESCRIPTION="Set of tweaks for Django Rest Framework"
 
 HOMEPAGE="https://github.com/HealthByRo/drf_tweaks"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/5d/1c6a488180d21cc0cc3b64b2ead96e6d7e739ec81934f822fb9eeabd6b88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

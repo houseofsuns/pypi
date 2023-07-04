@@ -15,7 +15,7 @@ DESCRIPTION="Package defining the classes and methods required for using the ABB
 
 HOMEPAGE="https://codebits.abb.com/assetvista/avtypes"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/26/1b/73133de172730876bb39567b45facdc6df9d9f7b4604b5ea3534244527c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

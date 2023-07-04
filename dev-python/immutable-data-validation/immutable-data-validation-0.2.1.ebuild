@@ -15,7 +15,7 @@ DESCRIPTION="Validating basic Python data types."
 
 HOMEPAGE="https://github.com/CuriBio/immutable-data-validation"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/4b/6c03d80ed6f2df45dfeee744033ddd14fcadd26f18de6a32b3901de22776/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

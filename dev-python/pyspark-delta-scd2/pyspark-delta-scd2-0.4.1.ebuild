@@ -15,7 +15,7 @@ DESCRIPTION="This project utilizes faker-pyspark to generate random schema and d
 
 HOMEPAGE="https://github.com/spsoni/pyspark-delta-scd2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c8/1f/df9589bbf6823c1e9d3e6a990f0958efe85e290a6fe96c4bf4d75a6b018b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

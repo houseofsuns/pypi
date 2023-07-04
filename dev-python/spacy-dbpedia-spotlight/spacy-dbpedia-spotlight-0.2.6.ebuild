@@ -15,7 +15,7 @@ DESCRIPTION="SpaCy DBpedia Spotlight wrapper"
 
 HOMEPAGE="https://github.com/MartinoMensio/spacy-dbpedia-spotlight"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/04/ed/7bd3e22827ccd8af9f5b5a606697fb37b25ecced30699bfdb56937fe2ee9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

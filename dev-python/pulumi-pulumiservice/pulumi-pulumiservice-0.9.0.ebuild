@@ -15,7 +15,7 @@ DESCRIPTION="A native Pulumi package for creating and managing Pulumi Cloud cons
 
 HOMEPAGE="https://pulumi.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7f/2a/9f172c6f432bb1aedfdc2e6f674950d4011b0a5dfb418490d7becd77c215/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

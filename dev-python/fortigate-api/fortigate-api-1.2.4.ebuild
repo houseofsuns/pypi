@@ -15,7 +15,7 @@ DESCRIPTION="Python package to configure Fortigate (Fortios) devices using REST 
 
 HOMEPAGE="https://github.com/vladimirs-git/fortigate-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/7c/8a5874b4c33c5d79dde57561a31d17572258dd0555c1aac7e278b6c46c68/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

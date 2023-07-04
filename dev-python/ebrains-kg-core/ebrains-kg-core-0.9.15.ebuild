@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/HumanBrainProject/kg-core-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0a/fd/1a102dc828c90bb5e960692ddc73abc29fb7f3d5f9a56e6b41b3f8f20271/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

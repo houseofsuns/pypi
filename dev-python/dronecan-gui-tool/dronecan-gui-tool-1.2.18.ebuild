@@ -15,7 +15,7 @@ DESCRIPTION="DroneCAN Bus Management and Diagnostics App"
 
 HOMEPAGE="http://dronecan.org"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/37/f6/00fec042b1a14f145da2dbfd6d2f92cad75e30449c2cc75fb4d29e2652ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

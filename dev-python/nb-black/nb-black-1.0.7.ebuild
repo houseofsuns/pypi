@@ -15,7 +15,7 @@ DESCRIPTION="A simple extension for Jupyter Notebook and Jupyter Lab to beautify
 
 HOMEPAGE="https://github.com/dnanhkhoa/nb_black"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/86/195e7b1bcafe86c2f5deb3efcbdc6ab35f7269fc4b0095b94321de2215a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

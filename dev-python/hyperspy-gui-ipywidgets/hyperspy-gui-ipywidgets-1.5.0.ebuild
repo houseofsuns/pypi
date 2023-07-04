@@ -15,7 +15,7 @@ DESCRIPTION="ipywidgets GUI elements for HyperSpy."
 
 HOMEPAGE="https://github.com/hyperspy/hyperspy_gui_ipywidgets"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/dd/03/6109382f1d0f08e88261915c856edf4363281c63c74c7922c3a489070676/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

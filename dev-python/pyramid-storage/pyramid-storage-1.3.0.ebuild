@@ -15,7 +15,7 @@ DESCRIPTION="File storage package for Pyramid"
 
 HOMEPAGE="https://github.com/danjac/pyramid_storage/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/36/1d/9e2dfc876e0ce1e90ac9ab289eba8a73bc8a31b60890b47b7aea879b5aaf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

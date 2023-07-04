@@ -15,7 +15,7 @@ DESCRIPTION="Python DBI driver for DB2 (LUW, zOS, i5) and IDS"
 
 HOMEPAGE="http://pypi.python.org/pypi/ibm_db/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a5/fa/0a8e250b54b6479304f6af2784b94fecafe6954fd3d3daedc0a3c2c1b262/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A collection of I/O scripts for computer vision formats."
 
 HOMEPAGE="https://github.com/saeid-h/Computer-Vision-IO.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/0b/589921d6b458b9af2b5133cff4a52beb5c52ad0037bd5c7d7c81e47480c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

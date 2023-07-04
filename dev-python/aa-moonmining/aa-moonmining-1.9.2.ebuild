@@ -15,7 +15,7 @@ DESCRIPTION="Alliance Auth app for tracking moon extractions and scouting new mo
 
 HOMEPAGE="https://gitlab.com/ErikKalkoken/aa-moonmining"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/37/41/6fda97cb2b5d561456b76725ba475f27078e35577649e8aefcb7247fd9e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

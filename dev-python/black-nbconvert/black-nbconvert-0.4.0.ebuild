@@ -15,7 +15,7 @@ DESCRIPTION="Apply black to ipynb files"
 
 HOMEPAGE="https://github.com/dfm/black_nbconvert"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/ee/d9ffe39274a8dbd6b2397a29458d88d9d0417696186ac78da46d0aa07668/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

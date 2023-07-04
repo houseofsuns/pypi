@@ -15,7 +15,7 @@ DESCRIPTION="Clients for FATE, including flow_client and pipeline"
 
 HOMEPAGE="https://fate.fedai.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/da/c6/f93daa25937b90c431e2a486e1fe877355a9c5f16596df7b3fc36d529f82/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

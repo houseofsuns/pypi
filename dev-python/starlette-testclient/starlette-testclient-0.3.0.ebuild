@@ -15,7 +15,7 @@ DESCRIPTION="A backport of Starlette TestClient using requests! ⏪️"
 
 HOMEPAGE="https://github.com/Kludex/starlette-testclient"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6b/13/407b505994e1d40f1b903b1a6019b47b9cccb5456a8c10d7acb08f70c23d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ジョブショップスケジューリング問題のベンチマ�
 
 HOMEPAGE="https://github.com/tkp0331/jsp-benckmarks"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/74/59f6b76d43caa9d8b29eee822d3a6a96b9b6a4ddaf57155057519a71db7d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

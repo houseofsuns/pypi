@@ -15,7 +15,7 @@ DESCRIPTION="A Python package for rapid-prototyping and scripting of simulations
 
 HOMEPAGE="https://github.com/boschresearch/pcg_gazebo"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2c/4d/54f64c004da3282e443765c702b08f1a4926301eb6686c9754ae274b2871/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

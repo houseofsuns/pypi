@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of the Markov clustering (MCL) algorithm in python."
 
 HOMEPAGE="https://github.com/guyallard/markov_clustering.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/29/2838193a9c288e9525267d65ab4ff010156c54fc64e362acdbf39bd94c34/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

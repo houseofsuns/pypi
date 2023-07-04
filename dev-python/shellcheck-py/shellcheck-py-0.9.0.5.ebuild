@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper around invoking shellcheck (https://www.shellcheck.n
 
 HOMEPAGE="https://github.com/ryanrhee/shellcheck-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b6/f9/dbd9ac4a0c2f68a9b503faa47bf8842cbb946f494a6dbfe8262c4a450dbf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

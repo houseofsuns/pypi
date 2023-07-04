@@ -15,7 +15,7 @@ DESCRIPTION="Certego SaaS"
 
 HOMEPAGE="https://github.com/certego/certego-saas"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/78/ec1e5d52b42d053b13e1ae6c43f5d1271f2db416b69d32d56d1d3424d7d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ODD Collector"
 
 HOMEPAGE="https://github.com/opendatadiscovery/odd-collector-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d6/c2/6b82de04cfd08d4dba9321d8bb3e4dd1812e83a5b0eaccdc9ae3d8529a22/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

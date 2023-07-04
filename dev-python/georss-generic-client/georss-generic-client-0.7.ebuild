@@ -15,7 +15,7 @@ DESCRIPTION="A GeoRSS generic client library."
 
 HOMEPAGE="https://github.com/exxamalte/python-georss-generic-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/00/ad/3c7fe11e7c962b1bcdaa54633f8c154b37e81f5af30ae22279c987ffaa85/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

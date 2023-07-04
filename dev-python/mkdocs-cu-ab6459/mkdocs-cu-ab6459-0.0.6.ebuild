@@ -15,7 +15,7 @@ DESCRIPTION="Improved and extended version of the Windmill theme"
 
 HOMEPAGE="https://github.coventry.ac.uk/ab6459/mkdocs_cu_ab6459"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3b/36/51adf73ad667a8820c9f10ee2869f67da9c4815c318d2e49c92d3aee5769/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

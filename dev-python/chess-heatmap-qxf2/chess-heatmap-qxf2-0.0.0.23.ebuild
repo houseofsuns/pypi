@@ -15,7 +15,7 @@ DESCRIPTION="Package to generate chess heatmaps from pgn files"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6d/c0/ab664a99d629a63123a96c0560795a63bed9a91856a802bd0bad7e29ff7b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

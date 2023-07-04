@@ -15,7 +15,7 @@ DESCRIPTION="AP-Perf: Incorporating Generic Performance Metrics in Differentiabl
 
 HOMEPAGE="http://github.com/rizalzaf/ap_perf"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/f6/21f083a9386afa4f4748bbf27b5bb5db036b84f0307f2a7d9b487e0f0aa9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

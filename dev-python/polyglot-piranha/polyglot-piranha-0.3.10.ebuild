@@ -15,7 +15,7 @@ DESCRIPTION="Polyglot Piranha is a library for performing structural find and re
 
 HOMEPAGE="https://github.com/uber/piranha"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3e/7a/dbb720afba29dadcd336396c4748377d7bfcd30eedbf74274a224000e7ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

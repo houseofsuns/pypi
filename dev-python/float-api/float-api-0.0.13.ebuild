@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper for the API at float.com"
 
 HOMEPAGE="https://github.com/tobiasbp/float_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8f/f3/f3343fa8008b0394841c01515dd8044977c1301185736551d2a9f8f5173b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

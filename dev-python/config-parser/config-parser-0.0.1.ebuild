@@ -15,7 +15,7 @@ DESCRIPTION="Configuration library wrappers"
 
 HOMEPAGE="https://github.com/mattpaletta/configs"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/d0/df/68502838a08df85d02b8996277cc5b8b67fe2aa7c112aa4dd67ff471b55e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

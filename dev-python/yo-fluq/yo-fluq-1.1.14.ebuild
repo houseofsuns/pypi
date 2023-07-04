@@ -15,7 +15,7 @@ DESCRIPTION="Fluent interface for data processing, basic toolkit"
 
 HOMEPAGE="http://github.com/okulovsky/yo_ds"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/01/46b6ccfafbb52a36caad330be2f28b177df7d9e6f138b30ba0ab1b0d76f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

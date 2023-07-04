@@ -15,7 +15,7 @@ DESCRIPTION="Rivian API Client (Unofficial)"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/b7/7c2f7288f882dc063824b4673cd6fba5b021232bd988c9a09e252f2b0ab0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

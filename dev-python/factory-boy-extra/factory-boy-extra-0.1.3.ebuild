@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/s3rius/factory_boy_extra"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/b0/3b7a168333534800e74bfea98e57665073f4c91c4841569fe1169063d029/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

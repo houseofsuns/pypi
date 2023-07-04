@@ -15,7 +15,7 @@ DESCRIPTION="A library for rendering gerber files as SVGs and PDFs"
 
 HOMEPAGE="https://github.com/Pitwuk/gerber_renderer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/ce/51d52b4e249975fde43f36d525db4d4950d6269e0332a36fb23f50a7aaba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

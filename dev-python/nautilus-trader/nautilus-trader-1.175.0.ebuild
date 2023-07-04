@@ -15,7 +15,7 @@ DESCRIPTION="A high-performance algorithmic trading platform and event-driven ba
 
 HOMEPAGE="https://nautilustrader.io"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/03/85/cd32fe32b9a3460a4b54a46577b52807f00157571cec23a3268ffa2bc735/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

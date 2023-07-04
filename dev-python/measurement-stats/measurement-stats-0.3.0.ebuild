@@ -15,7 +15,7 @@ DESCRIPTION="Measurement statistics with uncertainties and error propagation"
 
 HOMEPAGE="https://github.com/sernst/Measurement_Statistics"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/c4/7885dc811a126d95360270990571d538a1fa847f12283c85033e8fb693ad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

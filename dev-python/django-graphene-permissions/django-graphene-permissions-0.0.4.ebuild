@@ -15,7 +15,7 @@ DESCRIPTION="DRF like permission system for django graphene"
 
 HOMEPAGE="https://github.com/taoufik07/django-graphene-permissions"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/74/81/42f847d9b767155ba0dad3acbb007d38657a128b1f700dbc01de2e70df43/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

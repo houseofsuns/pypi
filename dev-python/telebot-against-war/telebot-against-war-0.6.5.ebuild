@@ -15,7 +15,7 @@ DESCRIPTION="Async-first fork of pyTelegramBotApi"
 
 HOMEPAGE="https://github.com/bots-against-war/telebot"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/51/ef/6e0a842d8f956f123ca987bb9d842fcea5f8a9d1ca2651b6c44183fbcc73/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

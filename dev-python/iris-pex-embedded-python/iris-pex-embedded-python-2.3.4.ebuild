@@ -15,7 +15,7 @@ DESCRIPTION="iris_pex_embedded_python"
 
 HOMEPAGE="https://github.com/grongierisc/interoperability-embedded-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6d/d2/45c6ca3c48849eca92c43071f74b2451623ea2c8eb3c02f8b119d331fea0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

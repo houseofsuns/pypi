@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module for anglo-saxon real-time stock valuation"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/28/d7/94cf0280a5ec5233fa16733739ebbb355bf708a34c827fa1ff286e860a71/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

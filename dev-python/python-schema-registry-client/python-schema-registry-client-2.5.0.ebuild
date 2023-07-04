@@ -15,7 +15,7 @@ DESCRIPTION="Python Rest Client to interact against Schema Registry confluent se
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/dd/d4adab4eb4399b063f6778d04a27d40dda8c04f778044f15ae2b7a0cf4f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

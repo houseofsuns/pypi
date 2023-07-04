@@ -15,7 +15,7 @@ DESCRIPTION="An integration of Qdrant ANN vector database backend with Haystack"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/80/c8/8a97ce3ed7dee9ae4e813d99f1cad0ab15db944d449c2bab150d765837c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

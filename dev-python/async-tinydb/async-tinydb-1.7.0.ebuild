@@ -15,7 +15,7 @@ DESCRIPTION="Yet Another Async TinyDB"
 
 HOMEPAGE="https://github.com/VermiIIi0n/async-tinydb"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/fc/4fcbf15a6c938c19d8ce454b3b6f9a445c263a3f4c18090e803a01de2d1a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

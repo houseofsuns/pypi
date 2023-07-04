@@ -15,7 +15,7 @@ DESCRIPTION="Python package to talk to Brother QL label printers"
 
 HOMEPAGE="https://github.com/pklaus/brother_ql"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ea/e0/a5b4bade77838706b3ddfb31b037e99f6dc42feeadb62a4cd32120600903/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

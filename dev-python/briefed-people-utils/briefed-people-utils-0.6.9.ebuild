@@ -15,7 +15,7 @@ DESCRIPTION="Tools to support collect and send publically available data to Brie
 
 HOMEPAGE="https://Briefed.eu"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/7f/06034c6557469f2d508020414c088ae8ad3169535f77989fbe6006160202/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

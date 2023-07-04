@@ -15,7 +15,7 @@ DESCRIPTION="A pluggable notification system written for the Django framework."
 
 HOMEPAGE="https://github.com/django-wiki/django-nyt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/98/d7/3950497b13d93d5298b65be16bf9e5940025c333c53623137d35da700c25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A package for managing singer.io taps and targets"
 
 HOMEPAGE="https://github.com/z3z1ma/alto"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/c9/0564c42161265804cfe55ee722d51ec386dd24d6078dce290af08d257fb2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

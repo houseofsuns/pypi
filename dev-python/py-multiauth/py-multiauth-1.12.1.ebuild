@@ -15,7 +15,7 @@ DESCRIPTION="Python package to interact with multiple authentication services"
 
 HOMEPAGE="https://escape.tech/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/dd/9bf631995a3273421a2307929d0b037d3ff7ce6678311b368f503b1974ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="re:doubt Bot Python SDK"
 
 HOMEPAGE="https://www.redoubt.online/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/af/bd/177308e1b5e3179441b84ddf3f4372cba7ff04bfc3669f7ae39f858e0aa2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

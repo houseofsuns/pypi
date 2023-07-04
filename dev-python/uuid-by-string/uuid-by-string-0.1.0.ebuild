@@ -15,7 +15,7 @@ DESCRIPTION="Generate the RFC-4122 Name-Based UUID."
 
 HOMEPAGE="https://github.com/hscspring/uuid-by-string"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0a/6b/6f79cb766c5bcb854cfe7ca4b9e4b472c18d11d9e39268c18c2d0b8063d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

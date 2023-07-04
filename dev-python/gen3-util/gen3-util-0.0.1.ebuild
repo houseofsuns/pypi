@@ -15,7 +15,7 @@ DESCRIPTION="Commons utilities"
 
 HOMEPAGE="https://github.com/ACED-IDP/gen3_util"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/8d/9770df89ba1c979ea020d502e7fc7f6c10aef2eace5723f9acdba0e3307f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Resources based CDK."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/20/81/e4891c0af4c0ccd4f191f2a5821a61fcdcd7a7fdb61fd147c86b2ab5c394/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

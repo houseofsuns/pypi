@@ -15,7 +15,7 @@ DESCRIPTION="ChatGPT plugin for Jupyter Server"
 
 HOMEPAGE="https://github.com/jlewi/roboweb"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f5/1d/e7fbacf9b11c7937891418ff88a665b9995f6deb7a193e680346d09382ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

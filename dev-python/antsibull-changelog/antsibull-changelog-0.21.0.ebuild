@@ -15,7 +15,7 @@ DESCRIPTION="Changelog tool for Ansible-base and Ansible collections"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/45/9f50c0eed29c5b03184e14f3403e8cc44836efb83b7b2e2c76fcedad22c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

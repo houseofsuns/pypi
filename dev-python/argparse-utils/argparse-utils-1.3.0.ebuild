@@ -15,7 +15,7 @@ DESCRIPTION="A collection of utilities for the Python standard-library argparse 
 
 HOMEPAGE="https://github.com/madman-bob/python-argparse-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/1b/43805331672ef4c382d0706cdda33c03ce28e93e7f1c3d1a828176fa2312/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tools for the Griptape framework."
 
 HOMEPAGE="https://github.com/griptape-ai/griptape-tools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2b/68/316516d001a4dbad78bef00488885994e1f435258d18c3863e31b0ce9f2b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

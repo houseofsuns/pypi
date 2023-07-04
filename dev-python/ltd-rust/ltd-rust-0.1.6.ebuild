@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/prokie/ltd-rust"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/8d/843c06475b7195bd3ecf365f137a1cc7538a406926a939e29d1b513e7d47/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

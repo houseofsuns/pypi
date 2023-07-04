@@ -15,7 +15,7 @@ DESCRIPTION="Data pipelines from re-usable components"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1e/79/bf7a5f5557897e5f6ac159b59601ebf6084214e3df5df8c9f1297f5a9d6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

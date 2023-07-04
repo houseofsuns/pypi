@@ -15,7 +15,7 @@ DESCRIPTION="FastAPI-Amis-Admin-Cli is an extended library for quickly building 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7d/4d/35396fc698ae8bc874823cbd0ed7d8d45317eeb354e96a6afed505ce84ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

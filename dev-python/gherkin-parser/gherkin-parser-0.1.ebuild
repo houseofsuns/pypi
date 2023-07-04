@@ -15,7 +15,7 @@ DESCRIPTION="Gherkin BDD feature file parser. Compatible with Cucumber."
 
 HOMEPAGE="https://github.com/nathforge/gherkin-parser"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/0a/1b/db30aee7838aba2687da36178d9b5d8aff064732ebc8ff4aeedfbff6bed2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

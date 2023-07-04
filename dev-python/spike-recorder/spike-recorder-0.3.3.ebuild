@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for the Backyard Brains Spike Recorder software."
 
 HOMEPAGE="https://github.com/davidt0x/py-spike-recorder"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/b5/9b/a913c4ca0a72fbb4db57ef01c2e0a90ac155091b0996649a4f4a33c3a4c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

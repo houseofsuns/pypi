@@ -15,7 +15,7 @@ DESCRIPTION="Client for splitit-web-api-v3"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/8e/e2ef964f96021a4a4a690f99625a5fbb6c75e5da6ac6f8ffc913595e4db2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

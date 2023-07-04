@@ -15,7 +15,7 @@ DESCRIPTION="Typing stubs for factory-boy"
 
 HOMEPAGE="https://github.com/youtux/types-factory-boy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/27/5247f2ccdf0f5764ad33fe695499e387e812c009501acbd0a0fa4871a042/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

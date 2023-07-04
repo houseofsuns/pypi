@@ -15,7 +15,7 @@ DESCRIPTION="Small proof-of-concept client to connect to Electrolux and AEG clea
 
 HOMEPAGE="https://github.com/Phype/purei9_unofficial"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9d/1e/3dd9b4d006f7e398d1e7b171fd39f8121bef420dd4cc1f42ebec2cf776be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Template Text Parser Templates collections"
 
 HOMEPAGE="https://github.com/dmulyalin/ttp_templates"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/55/18/d3613520b462e82b06201cd08d7eec6f0084bea7b414ab7a03111d3a3c6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

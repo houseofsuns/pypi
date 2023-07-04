@@ -15,7 +15,7 @@ DESCRIPTION="A library for automatically creating DynamoDB tables from CSV files
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/cd/442b08a66db3d21b23c5f4426020942ce2c49a31dc8e17f0c9cdc0030fa1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Extends the Pywikibot library"
 
 HOMEPAGE="https://github.com/JJMC89/pywikibot-extensions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/c1/310e6581570ff49cb6a25ef88204b579c84432fd372395c21c5691715ffd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

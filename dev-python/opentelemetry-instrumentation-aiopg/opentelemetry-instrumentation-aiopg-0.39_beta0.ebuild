@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry aiopg instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-aiopg"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c3/d4/ce610ec52840767f291e411abf48759becfec0f4008979f9b60bb2e63ec0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

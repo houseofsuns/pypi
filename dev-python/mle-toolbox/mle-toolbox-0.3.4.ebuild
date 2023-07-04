@@ -15,7 +15,7 @@ DESCRIPTION="Machine Learning Experiment Toolbox"
 
 HOMEPAGE="https://github.com/mle-infrastructure/mle-toolbox"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/80/9f8590afc5a75871c278e59c60ac6b1cd9e2259739633d60cdaec5a64ce0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

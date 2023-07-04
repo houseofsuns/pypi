@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper for Eloqua's HTTP REST API"
 
 HOMEPAGE="https://gitlab.corp.redhat.com/mkt-ops-de/python-eloqua-wrapper.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/c0/e3b30a8b8068847d04dfb35bc6b74626276ef0d047a09dc7b21a4c3d5141/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

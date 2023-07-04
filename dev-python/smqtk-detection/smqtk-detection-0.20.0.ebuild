@@ -15,7 +15,7 @@ DESCRIPTION="Algorithms, data structures and utilities around performing detecti
 
 HOMEPAGE="https://github.com/Kitware/SMQTK-Detection"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ca/41/e0ff1d0209914c43c86fd78fa6d11f3515fc3ade7d29a528f4428b5265ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

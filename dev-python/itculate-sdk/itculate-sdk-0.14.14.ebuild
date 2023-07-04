@@ -15,7 +15,7 @@ DESCRIPTION="ITculate SDK"
 
 HOMEPAGE="https://bitbucket.org/itculate/itculate-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/fd/7f559c2bc5276526c801e7e8649f2624c9064741665f61de3c09f7b68ab3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

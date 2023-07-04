@@ -15,7 +15,7 @@ DESCRIPTION="DEPRECATED: Python server implementation of Phovea"
 
 HOMEPAGE="https://phovea.caleydo.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c9/af/72279991902392c100f800319812e681430a3718a0357016ad2d5a68a402/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

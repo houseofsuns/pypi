@@ -15,7 +15,7 @@ DESCRIPTION="Command-line fake data generator"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ef/f9/ac3f94f822f4333e137d7a3165b803c5df175ca5955edd476c5f4bd2a7e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

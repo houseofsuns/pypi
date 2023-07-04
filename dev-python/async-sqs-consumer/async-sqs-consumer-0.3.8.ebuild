@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/drestrepom/async_sqs_consumer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/15/c9825ec20f363c1520e2d8de8ccbaf5b80a055220f19b49bd9992039d608/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

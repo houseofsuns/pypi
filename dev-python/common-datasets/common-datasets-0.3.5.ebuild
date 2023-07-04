@@ -15,7 +15,7 @@ DESCRIPTION="common_datasets"
 
 HOMEPAGE="http://github.com/gykovacs/common_datasets"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f0/40/7f3f422064402a4990aa437ce444f7da907add13642b2872f041d89f2ed7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

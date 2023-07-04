@@ -15,7 +15,7 @@ DESCRIPTION="Python metadata editing classes for ArcGIS feature classes."
 
 HOMEPAGE="https://github.com/ucd-cws/arcpy_metadata"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/0b/0538d61e7379be0b296916ede1106e29bb7f8fbc51c53170be5dd6aaaf8f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

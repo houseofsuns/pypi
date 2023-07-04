@@ -15,7 +15,7 @@ DESCRIPTION="Manim plugin for all things voiceover"
 
 HOMEPAGE="https://voiceover.manim.community"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/f8/8841fbee4bac9efb6aa8769bfb81d9ab902644279fad30150b53a9729c75/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

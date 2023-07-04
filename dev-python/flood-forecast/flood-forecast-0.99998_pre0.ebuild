@@ -15,7 +15,7 @@ DESCRIPTION="An open source framework for deep time series forecasting and class
 
 HOMEPAGE=""
 LICENSE="GPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/b1/f7/69628925b1ab1858294a48e82f3ed6aae2f1dca1a43485d74f4a3cd1bf90/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

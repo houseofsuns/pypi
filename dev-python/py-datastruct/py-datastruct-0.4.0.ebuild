@@ -15,7 +15,7 @@ DESCRIPTION="Combination of struct and dataclasses for easy parsing of binary fo
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0a/6d/6f527a8428d2bbc22d9f5490307eed257769674a61a85bb98ab8af8fcb01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

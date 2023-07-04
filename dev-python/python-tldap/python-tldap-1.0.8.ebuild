@@ -15,7 +15,7 @@ DESCRIPTION="High level python LDAP Library"
 
 HOMEPAGE="https://github.com/Karaage-Cluster/python-tldap/"
 LICENSE="GPL3+"
-SRC_URI="https://files.pythonhosted.org/packages/0e/f4/7f890baffbc5c8419b70be1b7a5419bdd45ce6e2a72b30ab48f66def2e4e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="tox is a generic virtualenv management and test command line tool"
 
 HOMEPAGE="https://github.com/tox-dev/tox-ini-fmt/blob/main/README.md#tox-ini-fmt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/d0/11acf1bda45c0c37ca81750cac6adfaf01c53dacce617834477a657de650/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

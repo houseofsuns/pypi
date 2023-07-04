@@ -15,7 +15,7 @@ DESCRIPTION="A Robot Framework library to facilitate library development for Ope
 
 HOMEPAGE="https://github.com/MarketSquare/robotframework-openapi-libcore"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fd/3a/94299acc5fc583ede493df982e5413135e38d3e43ebb682a8c68f438f3e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

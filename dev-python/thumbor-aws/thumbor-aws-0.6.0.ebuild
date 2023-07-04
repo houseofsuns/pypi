@@ -15,7 +15,7 @@ DESCRIPTION="thumbor_aws provides extensions for thumbor using AWS"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0b/c0/2143828bd0a8caa15b5a24351b7e08bfdadd645816928467a3de672b04d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

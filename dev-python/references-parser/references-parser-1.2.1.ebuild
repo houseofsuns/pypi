@@ -15,7 +15,7 @@ DESCRIPTION="Tool for parsing bibtex in ssau's format"
 
 HOMEPAGE="https://github.com/Banayaki/ReferencesParser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/80/f3/66908807dcf13cac9b382b77ded7b79f7572c213c4d2ddd8e758b3c8655f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A bpmn framework focused on serverless infrastructure"
 
 HOMEPAGE="https://github.com/vasudevan-palani/pybpmn"
 LICENSE="TBD"
-SRC_URI="https://files.pythonhosted.org/packages/32/3b/bd01861d7dae2d99296d093344b75d6f435ab5114e844e654bfecbda8794/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

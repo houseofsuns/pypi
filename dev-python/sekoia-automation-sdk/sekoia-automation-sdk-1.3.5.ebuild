@@ -15,7 +15,7 @@ DESCRIPTION="SDK to create SEKOIA.IO playbook modules"
 
 HOMEPAGE="https://sekoia.io/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/b9/f270bbf51656bc7396561402904f11dccd2af465d516b53dca376ee7f2e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

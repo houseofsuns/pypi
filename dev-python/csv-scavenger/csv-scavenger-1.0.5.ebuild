@@ -15,7 +15,7 @@ DESCRIPTION="CSV reader and parser with automatic detection of delimiter and sta
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/b4/4664a9ccbddca5ac6f333429a169186755b1f03e01603f65ef54f852b143/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

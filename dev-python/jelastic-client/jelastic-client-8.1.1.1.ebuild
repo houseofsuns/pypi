@@ -15,7 +15,7 @@ DESCRIPTION="A client library for Jelastic"
 
 HOMEPAGE="https://github.com/softozor/jelastic-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/bf/ed662c80c718ade0a3f6e8ff525da1424e3f9882431802512de62457f1c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Bluetooth Low Energy abstraction library package."
 
 HOMEPAGE="https://github.com/STMicroelectronics/BlueSTSDK_Python"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/da/4a/16dbe04c258e1c230020a4f7340160602b909ddfac290f8b75f1b139b1e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="The Pulumi Command Provider enables you to execute commands and scr
 
 HOMEPAGE="https://pulumi.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8c/12/3cffc63083ef0ff494424bb385b7cb240b5a665b35c7d0135508332a3a8b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

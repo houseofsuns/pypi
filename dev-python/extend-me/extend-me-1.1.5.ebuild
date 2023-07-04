@@ -15,7 +15,7 @@ DESCRIPTION="Class based extension/plugin library"
 
 HOMEPAGE="https://github.com/katyukha/extend-me"
 LICENSE="MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/57/f3/347662fa19ddce1a861b03eb16d605fb99a3196b72acbfe180da7165cd6f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Internal utilities for projects following git-pull python package s
 
 HOMEPAGE="https://gp-libs.git-pull.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ab/6b/8adf30068b4da87b6d67f0d12f4f12f4303f410030f9ffdc56d053b50c77/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

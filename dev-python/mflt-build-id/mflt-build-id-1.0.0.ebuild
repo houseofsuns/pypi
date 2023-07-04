@@ -15,7 +15,7 @@ DESCRIPTION="Memfault Build Id injector"
 
 HOMEPAGE="https://github.com/memfault/memfault-firmware-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/0e/301c590ea55c26eb72884ecac431cc9bf81a8cb1eb93ba29cc824800af3b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

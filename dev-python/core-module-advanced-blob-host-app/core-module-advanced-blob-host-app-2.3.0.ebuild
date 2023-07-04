@@ -15,7 +15,7 @@ DESCRIPTION="Advanced Blob Host module for the parser core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_module_advanced_blob_host_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/fe/81d2c28c178c1791637448f3663c4dfc67e05ae7f009933d5bf918234d23/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

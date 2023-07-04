@@ -15,7 +15,7 @@ DESCRIPTION="Django functionality to help when building a GOV.UK website."
 
 HOMEPAGE="https://uktrade.github.io/govuk-frontend-django/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fe/e0/f1074311da6e7c320b45647d9529b8efc93c549bd6f4729006115d219a0f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

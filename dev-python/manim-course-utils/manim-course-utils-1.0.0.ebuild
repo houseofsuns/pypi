@@ -15,7 +15,7 @@ DESCRIPTION="Para el curso de ManimCE de MathLike"
 
 HOMEPAGE="https://github.com/MathLike/manim-course-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c2/9e/dcad5df4a328de58eff22af32bdab6badc476215600d2580aad592733e56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

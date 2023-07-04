@@ -15,7 +15,7 @@ DESCRIPTION="Extension for FastAPI to make HTMX easier to use."
 
 HOMEPAGE="https://github.com/maces/fastapi-htmx"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/cb/19/632d66b6f7fa28b6b1c45966c5e7353401f90bc231524cf04bc08a6578a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

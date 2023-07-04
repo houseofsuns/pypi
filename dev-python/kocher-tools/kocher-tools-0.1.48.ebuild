@@ -15,7 +15,7 @@ DESCRIPTION="Bioinformatic Tools for the Kocher Lab"
 
 HOMEPAGE="https://kocher-guides.readthedocs.io/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/92/271cf6bb8c7a477b4abfdd7b234ad9dac319e66d887eb17bb6d109d86cd3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

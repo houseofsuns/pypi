@@ -15,7 +15,7 @@ DESCRIPTION="Read, write and update large scale pandas DataFrame with ElasticSea
 
 HOMEPAGE="https://github.com/fuyb1992/es_pandas"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8d/fb/d0323116dd231002763468a3f7fb03482a47a8d1f8dd359225b0c9e3b02a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

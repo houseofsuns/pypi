@@ -15,7 +15,7 @@ DESCRIPTION="Twitter API Client by Typed Python."
 
 HOMEPAGE="https://github.com/yassun4dev/twitter-api-py"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3a/a8/9f48fa961dfe3ead6ce3776969f35b5722b6bb808a37eb154f60f0b57186/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="The home of the NMDC submission schema. *Not* the home of sheets_an
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bc/c8/29b2a07ed29754340c324f783a8dc15334b98479e37821d452e9a680042c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="de_core portion of python development environment namespace package
 
 HOMEPAGE="https://gitlab.com/degroup/de_core"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/58/80/720d1e72142d98b0b16fe0f3ede0cd065cdb20f11706dc2943eddda174ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

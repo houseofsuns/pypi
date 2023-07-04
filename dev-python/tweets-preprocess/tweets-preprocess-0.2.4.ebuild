@@ -15,7 +15,7 @@ DESCRIPTION="Library for tweets preprocessing"
 
 HOMEPAGE="https://tweets_preprocess.readthedocs.io/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/6b/b3f4891f79765cda54ff283ea2ab12dea819bc080df2e0aa009909c5ef1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

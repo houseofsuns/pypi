@@ -15,7 +15,7 @@ DESCRIPTION="Alibaba Cloud Alibaba Cloud Service Mesh (20200111) SDK Library for
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6a/ad/623fdc8fd8baa6062b630ef08cca18a015bd16779dcf9ae3b7425ffcc17b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

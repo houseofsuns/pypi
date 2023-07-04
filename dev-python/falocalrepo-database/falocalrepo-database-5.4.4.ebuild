@@ -15,7 +15,7 @@ DESCRIPTION="Database functionality for falocalrepo."
 
 HOMEPAGE="https://github.com/FurryCoders/falocalrepo-database"
 LICENSE="EUPL-1.2"
-SRC_URI="https://files.pythonhosted.org/packages/08/6b/d11f509878dd32843c37a8c20498cbd8728df18d64d42fd68826fbc5bde5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

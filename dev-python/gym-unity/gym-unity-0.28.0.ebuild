@@ -15,7 +15,7 @@ DESCRIPTION="Unity Machine Learning Agents Gym Interface"
 
 HOMEPAGE="https://github.com/Unity-Technologies/ml-agents"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/94/2c/eaac840b466b6e9bd094276b91b7e093e98b513f0ec7387d216508a29909/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

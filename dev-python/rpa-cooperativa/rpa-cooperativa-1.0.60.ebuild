@@ -15,7 +15,7 @@ DESCRIPTION="Classes referente automação com python para... api fluid, api wha
 
 HOMEPAGE="https://github.com/edenilsonsantos/rpa_cooperativa"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/c4/58009ac7cf6baee079769e715275fafb4ef822fff7c6f56e503a09a5aa97/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

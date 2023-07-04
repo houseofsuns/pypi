@@ -15,7 +15,7 @@ DESCRIPTION="Annotation meets Large Language Models."
 
 HOMEPAGE="https://github.com/doccano/doccano-mini"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/37/d2/6a41f8761b5a961b269cd8aeffb43705f51a11e46cdd28ddcfdcfab8276a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

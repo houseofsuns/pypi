@@ -15,7 +15,7 @@ DESCRIPTION="Tools to limit database access in parts of your Django codebase "
 
 HOMEPAGE="https://github.com/meshy/django-sans-db"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/50/0d/565b09458d08128c852f815db3361fbb101437d5381eb7f0e87d536386f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

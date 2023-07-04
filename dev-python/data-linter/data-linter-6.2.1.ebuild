@@ -15,7 +15,7 @@ DESCRIPTION="data linter"
 
 HOMEPAGE="https://github.com/moj-analytical-services/data_linter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6d/aa/01987e65f2df0d18fe6b4ad46a422e7ca64562fe51e49309ec3e0781c473/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

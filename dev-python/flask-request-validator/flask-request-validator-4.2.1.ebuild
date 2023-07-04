@@ -15,7 +15,7 @@ DESCRIPTION="Flask request data validation"
 
 HOMEPAGE="https://github.com/d-ganchar/flask_request_validator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/36/19d40c7b065d8ab8f1316765f78ea1a712f9df02b8d1fba4c20965a829bb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

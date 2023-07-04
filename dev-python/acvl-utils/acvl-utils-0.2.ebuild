@@ -15,7 +15,7 @@ DESCRIPTION="Super cool utilities that we just love to use"
 
 HOMEPAGE=""
 LICENSE="Apache License Version 2.0, January 2004"
-SRC_URI="https://files.pythonhosted.org/packages/56/27/e64997dbcf2671639286a2d46a76fa6ef8f2c1d6f766c0dbe2a5f0b396aa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

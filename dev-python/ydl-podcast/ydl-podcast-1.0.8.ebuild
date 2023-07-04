@@ -15,7 +15,7 @@ DESCRIPTION="A simple tool to generate Podcast-like RSS feeds from youtube (or o
 
 HOMEPAGE="https://github.com/nbr23/ydl-podcast"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/a4/44407f8279a7b2acc024d7cdc2addccd0d68dae7b1cca44429a979c3fb65/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

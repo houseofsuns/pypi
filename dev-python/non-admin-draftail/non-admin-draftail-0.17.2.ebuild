@@ -15,7 +15,7 @@ DESCRIPTION="You can now use Wagtail Draftail editor on non-admin pages"
 
 HOMEPAGE="https://timonweb.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/ff/88ef3fd48adbd4d6ead8d0610f89c1acaf594bed8cbffbe44f6ae46d2443/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

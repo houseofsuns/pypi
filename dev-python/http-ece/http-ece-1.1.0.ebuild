@@ -15,7 +15,7 @@ DESCRIPTION="Encrypted Content Encoding for HTTP"
 
 HOMEPAGE="https://github.com/martinthomson/encrypted-content-encoding"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/1a/60ccc29fccd4789b7cada188b114185e8a5d63aba0d93262adbbe776cfe5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

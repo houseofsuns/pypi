@@ -15,7 +15,7 @@ DESCRIPTION="bank codes and branch codes for Japanese."
 
 HOMEPAGE="https://github.com/zengin-code/zengin-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/0e/c6f13a07f6c5f9eee557cf1277b25508b8c98ca7258d7f93a98e05f223c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

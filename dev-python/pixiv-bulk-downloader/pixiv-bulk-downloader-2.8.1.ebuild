@@ -15,7 +15,7 @@ DESCRIPTION="Pixiv Bulk Downloader for bookmarks and works of followed authors"
 
 HOMEPAGE="https://github.com/eggplants/pixiv-bulk-downloader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/a2/3f490686e0a2295c9f097d66b2315f20456d8ab20ad3ea2efcaededffb14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

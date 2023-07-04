@@ -15,7 +15,7 @@ DESCRIPTION="Adds language-server support to OpenSesame and Rapunzel"
 
 HOMEPAGE="https://rapunzel.cogsci.nl/manual/language-server/"
 LICENSE="COPYING"
-SRC_URI="https://files.pythonhosted.org/packages/d6/4f/c3931525cc289d881837977bffcb10fa32c73cadf8a22a7a95675d69b7ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

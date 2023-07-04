@@ -15,7 +15,7 @@ DESCRIPTION="Huntflow webhooks requests data models"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a0/21/d88afd53b0700c86fd2e4d967c17209f9b17b0d3e8b187048938f9dd3953/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

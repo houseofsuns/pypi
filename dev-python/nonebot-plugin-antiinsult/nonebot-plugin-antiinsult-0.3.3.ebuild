@@ -15,7 +15,7 @@ DESCRIPTION="Anti-insult in NoneBot2"
 
 HOMEPAGE="https://github.com/tkgs0/nonebot-plugin-antiinsult"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/48/dab787be0cbaa54b8fd6c3d3a8bee93f29d3f3ff335bba28708f89015b20/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A simple printer of nested lists"
 
 HOMEPAGE="https://github.com/arielden/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/03/d7e25093620780a17daf232d99138a1b77aaccc4c8d37be57ef81d3e174e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

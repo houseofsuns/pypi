@@ -15,7 +15,7 @@ DESCRIPTION="A Django app for sending bulk email"
 
 HOMEPAGE="https://github.com/jonathanrickard/django-simple-bulk-emailer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c7/65/6a5072b04ef21102b8867bb11bb758817c7e39dd440eb177336616996919/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

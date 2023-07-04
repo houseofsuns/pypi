@@ -15,7 +15,7 @@ DESCRIPTION="Making it easier to deploy ServiceCatalog products"
 
 HOMEPAGE="https://service-catalog-tools-workshop.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/30/70/b0d184d298ed658d317908aa3a0e7e615be52a8908e15e57e6c4b86defc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

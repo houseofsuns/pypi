@@ -15,7 +15,7 @@ DESCRIPTION="A collection of ready-made statistical graphics for vega"
 
 HOMEPAGE="https://github.com/piccolbo/altair_recipes"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/88/6e/f458bd6d72e78a5d06d0dbf8e8810a83315d027a8b7f091bf9049b562928/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

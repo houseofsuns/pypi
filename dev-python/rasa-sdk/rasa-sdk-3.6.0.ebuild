@@ -15,7 +15,7 @@ DESCRIPTION="Open source machine learning framework to automate text- and voice-
 
 HOMEPAGE="https://rasa.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/88/01/5f39e214243e04c93ce1971ce1a327b6b756c4623c4cc9aa5ee404c1eaca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

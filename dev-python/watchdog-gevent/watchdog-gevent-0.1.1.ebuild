@@ -15,7 +15,7 @@ DESCRIPTION="A gevent-based observer for watchdog."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b4/88/687ffc7eb981a3b1f0b0903902463a94e54747d7a27bf40d5cfdd31ec780/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

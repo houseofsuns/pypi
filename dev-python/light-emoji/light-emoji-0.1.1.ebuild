@@ -15,7 +15,7 @@ DESCRIPTION="Light emoji enumeration."
 
 HOMEPAGE="https://github.com/MacHu-GWU/light_emoji-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/a6/97695fa429a1a3547ead0a45ac087dd5656d99e5c578505b103e39a3d57e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

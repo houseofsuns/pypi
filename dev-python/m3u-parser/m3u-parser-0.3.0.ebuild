@@ -15,7 +15,7 @@ DESCRIPTION="A useful package for parsing m3u files or links"
 
 HOMEPAGE="https://github.com/pawanpaudel93/m3u_parser"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/c3/14/a5ab15d302d19fe16cc31f2b56fba5556db56edb9fab33c579a0eefec78f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

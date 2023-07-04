@@ -15,7 +15,7 @@ DESCRIPTION="Python client for interacting with Compal CH7465LG devices."
 
 HOMEPAGE="https://github.com/home-assistant-ecosystem/python-connect-box"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d3/1a/b80a81fd9a9cb3ccc76c5304926d478156d733cba494e6d01e53437544dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

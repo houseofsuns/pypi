@@ -15,7 +15,7 @@ DESCRIPTION="Truedata's Official Python Package"
 
 HOMEPAGE="https://github.com/kapilmar/truedata-ws"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/a9/99ed80cd59b4c07ce7da053f4b7adf5053b22bc5a6784ac6da9452e48ed8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

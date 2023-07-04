@@ -15,7 +15,7 @@ DESCRIPTION="VPP Configuration Utility"
 
 HOMEPAGE="https://wiki.fd.io/view/VPP"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d4/cb/dd2c51c127ed6c1657d9d8ccc00e3ee7c731b0ce548c667a4773832edac3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

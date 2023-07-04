@@ -15,7 +15,7 @@ DESCRIPTION="Resource management via a dashboard for the curator core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_dashboard_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/05/67fcfb47adc66c7a4897dc260dffc9378c8a0601070d4fb0bcf0a8c9f678/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

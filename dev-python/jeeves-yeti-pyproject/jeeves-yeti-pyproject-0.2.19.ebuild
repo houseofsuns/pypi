@@ -15,7 +15,7 @@ DESCRIPTION="Opinionated Jeeves plugin for Python projects."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c6/6d/0da4269030822584856e38ad450b68f562f397ef058cc9ac70f0f0d72526/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

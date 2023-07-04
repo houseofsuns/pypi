@@ -15,7 +15,7 @@ DESCRIPTION="Python index-calculator is an xclim wrapperto calculate climate ind
 
 HOMEPAGE="https://github.com/ludwiglierhammer/index_calculator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/78/7885fea4f227aa1f7eb6a53f1ec1ba91e778a3b1a731c14dccec16b39c87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

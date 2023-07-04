@@ -15,7 +15,7 @@ DESCRIPTION="Minimal, modern embedded V8 for Python."
 
 HOMEPAGE="https://github.com/sqreen/PyMiniRacer"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/50/97/a578b918b2e5923dd754cb60bb8b8aeffc85255ffb92566e3c65b148ff72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

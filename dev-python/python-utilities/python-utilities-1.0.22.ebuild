@@ -15,7 +15,7 @@ DESCRIPTION="A set of simple utility APIs for higher-level python functions."
 
 HOMEPAGE="https://github.com/TheKewlStore/PythonUtilities"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/5a/44643f2b7b6870a812f0628d28b238ba64eb3d53e7bc2b4b83f39df8f886/${REALNAME//-/_}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.zip"
 SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 

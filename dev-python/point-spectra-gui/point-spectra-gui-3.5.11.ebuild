@@ -15,7 +15,7 @@ DESCRIPTION="A PDART-funded effort to design a spectral analysis tool for LIBS (
 
 HOMEPAGE="https://github.com/USGS-Astrogeology/PySAT"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/b9/54/245c27f46a1d550b4c70b6312adcde0663ee937d3d617a12aee43e3bd5b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

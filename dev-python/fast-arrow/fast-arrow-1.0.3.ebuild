@@ -15,7 +15,7 @@ DESCRIPTION="A simple yet robust API client for Robinhood"
 
 HOMEPAGE="https://github.com/westonplatter/fast_arrow/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/94/c903e7248593efe137ff7b1b83a166404d9e8567eebcfaa9bfa46f9bf270/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

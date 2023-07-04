@@ -15,7 +15,7 @@ DESCRIPTION="Compact Python library for interacting with Ankr's Advanced APIs."
 
 HOMEPAGE="https://ankr.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4c/ee/6b2cc5f23411dfeee6956f7e982fc133482be2b9934916258b7a233c9c93/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

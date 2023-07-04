@@ -15,7 +15,7 @@ DESCRIPTION="Dataset librarian is a tool to download and apply the preprocessing
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/07/d8/c28f348077ddf39d8e1a47bb537db89ab91148c0482a6e6ddfac524d414e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

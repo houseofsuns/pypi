@@ -15,7 +15,7 @@ DESCRIPTION="GPU-accelerated image processing in napari using OpenCL"
 
 HOMEPAGE="https://github.com/clesperanto/napari_pyclesperanto_assistant"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d2/f4/7cb910f032746576a32a4c601575dede769af02eebbb25f67f4cf2d5d7ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="HTML Parsing for Humans"
 
 HOMEPAGE="https://github.com/AloneFire/requests_html2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c7/a9/aa6efe549eaec2f35842f3e779bc9641c85577ba86202711a35a1929bff6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

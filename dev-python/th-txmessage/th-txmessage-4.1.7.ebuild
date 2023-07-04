@@ -15,7 +15,7 @@ DESCRIPTION="听海内部爬虫核心类库"
 
 HOMEPAGE=""
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/29/5c/6c34af234543cc02b600696cfd5f3e3dda67f43b3a92b1864e892efde31f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="\"A minimal example of nbdev using code from Allen Downey's Think P
 
 HOMEPAGE="https://github.com/yelloooowww/curl_navi/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3c/f7/151bf685ae19123c78bc3d45f8235b63e2e5f849c95f4492dc5043ddde03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

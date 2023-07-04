@@ -15,7 +15,7 @@ DESCRIPTION="A library that contains common functionality used in services of GH
 
 HOMEPAGE="https://github.com/ghga-de/ghga-service-commons"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5f/a6/08266f6eaed7414966ed2c72485dee7ea3c8c18436c6863b74095ff7b244/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

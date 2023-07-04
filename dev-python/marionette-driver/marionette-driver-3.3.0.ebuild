@@ -15,7 +15,7 @@ DESCRIPTION="Marionette Driver"
 
 HOMEPAGE="https://wiki.mozilla.org/Auto-tools/Projects/Marionette"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e1/07/62f588e34f5fd59e941b80f14933c4c8ea75656e453487c8c1caf4f45473/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

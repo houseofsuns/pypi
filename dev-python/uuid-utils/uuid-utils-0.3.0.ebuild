@@ -15,7 +15,7 @@ DESCRIPTION="Drop-in replacement for Python UUID in Rust"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/11/8d/aac70d846c24ac3466a27ac287982e9765696b02894295cdf6756e76948d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

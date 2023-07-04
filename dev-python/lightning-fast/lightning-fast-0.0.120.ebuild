@@ -15,7 +15,7 @@ DESCRIPTION="Fast Tools"
 
 HOMEPAGE="https://github.com/xuqiushi/lightning_fast"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/44/53/1e4cc136999cad88ffd0442fc3966bd8032d4101b576c785fc3c91aec53d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

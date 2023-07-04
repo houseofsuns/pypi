@@ -15,7 +15,7 @@ DESCRIPTION="Pre-commit hook to convert Poetry dependancies to pip requirements.
 
 HOMEPAGE="https://github.com/christopherpickering/pre-commit-hooks.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/99/14/3fb0151be5dd1935a517deafd3ea610f782ed35d26c305c4824cda5660cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

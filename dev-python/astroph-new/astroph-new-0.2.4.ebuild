@@ -15,7 +15,7 @@ DESCRIPTION="python module to make summary of astro-ph based on user interests"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/66/47590b40315ba1e6ffb4450e2ac5e37099e69dc3c55e631b873c82825f74/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

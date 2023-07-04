@@ -15,7 +15,7 @@ DESCRIPTION="Python library for the HyperLogLog algorithm"
 
 HOMEPAGE="https://github.com/AdRoll/python-hll"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/87/74/7d40391579a7eac01ec7b51035fd4bcf38169c176dfd1a371b85b547814e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

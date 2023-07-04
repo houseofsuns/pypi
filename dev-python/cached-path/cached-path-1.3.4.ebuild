@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/allenai/cached_path"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2f/fa/d068e59abde0bb132dc96521953f483b7d63323f2adab86e8021b996e4e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

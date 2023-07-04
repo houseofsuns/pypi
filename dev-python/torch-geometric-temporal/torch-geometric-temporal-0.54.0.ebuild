@@ -15,7 +15,7 @@ DESCRIPTION="A Temporal Extension Library for PyTorch Geometric."
 
 HOMEPAGE="https://github.com/benedekrozemberczki/pytorch_geometric_temporal"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/64/d5d90af22414940f6210d89a196a24e48555fdb1ad6d15da07d3be7851ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

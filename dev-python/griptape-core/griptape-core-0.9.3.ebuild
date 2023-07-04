@@ -15,7 +15,7 @@ DESCRIPTION="Python framework for LLM middleware tools. Build once, run anywhere
 
 HOMEPAGE="https://github.com/griptape-ai/griptape-core"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bf/9b/ea7e2de02fbca80513ff1c09b7a9083a7a28bf07585ffd47bf83b656d059/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

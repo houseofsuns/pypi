@@ -15,7 +15,7 @@ DESCRIPTION="\"Hypernode API Client for Python\""
 
 HOMEPAGE="https://github.com/ByteInternet/hypernode_api_python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1b/c9/28ad4edd3da4f59e633c24173b3802ef7f15158607251bc7e9849bc163b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

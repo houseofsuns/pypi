@@ -15,7 +15,7 @@ DESCRIPTION="Machine learning with dirty categories."
 
 HOMEPAGE="https://dirty-cat.github.io/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b7/43/7efedef79e812aedfbef0ca2d646575a97f473734ebed3718d653c9225d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

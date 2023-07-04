@@ -15,7 +15,7 @@ DESCRIPTION="An opinionated queue processor for Amazon SQS"
 
 HOMEPAGE="https://github.com/Doist/sqs-workers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bb/f3/ed8b77d8a4e8ddc088fc07b2e9715d4fa71f5fe89a4c771b95aefcd271c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

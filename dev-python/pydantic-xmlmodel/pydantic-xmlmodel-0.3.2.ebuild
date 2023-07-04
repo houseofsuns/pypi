@@ -15,7 +15,7 @@ DESCRIPTION="PydanticXML is a Python library that provides a way to convert Pyda
 
 HOMEPAGE="https://github.com/cofob/pydanticxml"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/36/78/d20c5fd6fe6cd88f8ffee3b194de426f01d08c662bb8b0f7842f95d71402/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

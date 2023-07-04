@@ -15,7 +15,7 @@ DESCRIPTION="xiuxian模拟器"
 
 HOMEPAGE="https://github.com/s52047qwas/nonebot_plugin_xiuxian"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/40/ef/cbb7e787e412025d5bf8cc3327cbc6a80e42a8ea5bac68f479cb2009379d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

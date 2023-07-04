@@ -15,7 +15,7 @@ DESCRIPTION="Actor model for aws lambda"
 
 HOMEPAGE="https://www.rescala.jp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/6b/5b9fe96d5d320901bc304a1b15c92a4d142d853572f4de9cab5b2bf04699/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

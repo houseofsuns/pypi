@@ -15,7 +15,7 @@ DESCRIPTION="API client used to access Pngme's financial data APIs."
 
 HOMEPAGE="https://developers.api.pngme.com/reference/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/48/9d/2af0c400783c3d7fec6a93a59ef3126b727e996c9d97078b8648268bc139/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

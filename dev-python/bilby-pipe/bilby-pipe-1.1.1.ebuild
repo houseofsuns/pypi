@@ -15,7 +15,7 @@ DESCRIPTION="Automating the running of bilby for gravitational wave signals"
 
 HOMEPAGE="https://git.ligo.org/lscsoft/bilby_pipe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/5e/2623ab14ef63d46128aa25b6af14e134dc443990ac126ea9525f74e7ed92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

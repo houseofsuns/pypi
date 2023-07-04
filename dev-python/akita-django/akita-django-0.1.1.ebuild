@@ -15,7 +15,7 @@ DESCRIPTION="Utilities for connecting Akita to Django"
 
 HOMEPAGE="https://github.com/akitasoftware/akita-django"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/51/f5b75e27606d45e763e0efc4711ec4567102cc645fa45d5747dfe10d54f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

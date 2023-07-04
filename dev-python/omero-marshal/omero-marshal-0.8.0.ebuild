@@ -15,7 +15,7 @@ DESCRIPTION="OMERO Marshal"
 
 HOMEPAGE="https://github.com/ome/omero-marshal"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/62/41/2801c9c33714c366d896cf9ede100723e92e48270963a927db5b3a728ea6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

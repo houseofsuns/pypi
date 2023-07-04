@@ -15,7 +15,7 @@ DESCRIPTION="Treelite runtime"
 
 HOMEPAGE="https://github.com/dmlc/treelite"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/23/69/803cb0955c8abf539bfd87e09b16d664221594ef0340383f8b6bc2b12460/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

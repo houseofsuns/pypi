@@ -15,7 +15,7 @@ DESCRIPTION="A Python 3.8+ library to build GTFS feeds from basic route informat
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/37/0f270ac247bdc150d23756d561cd835b2676b70fd90599611645f5693d59/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="PyTorch implementation of TabNet"
 
 HOMEPAGE="https://github.com/dreamquark-ai/tabnet"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/c7/d56c6891b0665911814a4cb01e8eb0bce1c9e49c086a9e4b4d0b395fd449/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

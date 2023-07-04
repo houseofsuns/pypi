@@ -15,7 +15,7 @@ DESCRIPTION="FHIR-PYrate is a package that provides a high-level API to query FH
 
 HOMEPAGE="https://github.com/UMEssen/FHIR-PYrate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/fe/c579e9fd675c7718a19d382ed62de92db8e667cd91e5dd9f0528fd21afd7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

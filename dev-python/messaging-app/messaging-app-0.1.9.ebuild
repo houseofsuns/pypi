@@ -15,7 +15,7 @@ DESCRIPTION="Messaging App"
 
 HOMEPAGE="https://github.com/Naruno/Messaging-App"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/e2/db6f55f6b32c0a314c54f5979695ce6403e70a15454111f62673220f7265/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

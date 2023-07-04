@@ -15,7 +15,7 @@ DESCRIPTION="Python Boilerplate contains all the boilerplate you need to create 
 
 HOMEPAGE="https://github.com/fuatakgun/hyundai_kia_connect_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/95/7b2d25410d42e8d3ab22532df02ba3b0357d0dd936243183683ed864b97b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

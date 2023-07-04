@@ -15,7 +15,7 @@ DESCRIPTION="Common NWB use cases and simplified interface for common usage"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/7a/81577f0b89a99c1c2da81b9b09ff28f76539269c97a620507d00b60a18c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A package with utilities for managing and running machine learning 
 
 HOMEPAGE="https://github.com/JFernando4/Research_Project_Manager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/13/d5/30270fb27dc97389efc3234d028b35d3c7d86ab42716b2eab0bb9e6abcb6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

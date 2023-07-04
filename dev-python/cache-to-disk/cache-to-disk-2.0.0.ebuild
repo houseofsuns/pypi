@@ -15,7 +15,7 @@ DESCRIPTION="Local disk caching decorator for python function."
 
 HOMEPAGE="https://github.com/sarenehan/cache_to_disk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/22/df/9712d98cadf4dfab259b09ea2972f5585f4a6909d19fe60be2b7adb8823d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

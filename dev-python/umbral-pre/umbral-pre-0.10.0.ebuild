@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of Umbral proxy reencryption algorithm"
 
 HOMEPAGE="https://github.com/nucypher/rust-umbral/tree/master/umbral-pre-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/bf/4acabb9f5a2f85ffee2e24a9e72fb47d7fc0b8ff2a6636d844ba0d1703ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

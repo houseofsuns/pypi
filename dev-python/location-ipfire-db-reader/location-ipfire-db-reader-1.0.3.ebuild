@@ -15,7 +15,7 @@ DESCRIPTION="Easily get the country code from an ip address."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/d5/1baeb961377663aaa85d483bc6b9c780da5d5a943aa89eef71e4317d00c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

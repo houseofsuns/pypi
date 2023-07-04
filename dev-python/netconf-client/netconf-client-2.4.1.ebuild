@@ -15,7 +15,7 @@ DESCRIPTION="A Python NETCONF client"
 
 HOMEPAGE="https://github.com/ADTRAN/netconf_client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6c/4c/6a645e22179c440828460394795957d24d019dda87a275b6007ce53ee5bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A tool help you build your vocabulary book using AI."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2b/92/e1f27f209ea8e2a41c80aa56f4c8761ca6ba637729a24345b5df1a8f8607/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

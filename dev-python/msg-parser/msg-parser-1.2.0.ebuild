@@ -15,7 +15,7 @@ DESCRIPTION="This module enables reading, parsing and converting Microsoft Outlo
 
 HOMEPAGE="https://github.com/vikramarsid/msg_parser"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/41/29/07909e648a72a6cd054a1ad5acf55caac0e9d4c9c3a06498af18f30a1602/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

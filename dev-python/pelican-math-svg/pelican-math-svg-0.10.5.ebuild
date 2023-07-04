@@ -15,7 +15,7 @@ DESCRIPTION="Render math expressions to svg and embed them."
 
 HOMEPAGE="https://github.com/f-koehler/pelican-math-svg"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8b/26/03b1603e9799bc8540dac33293c764dcfaa2c085f35fc24c5bf2ee9c94fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

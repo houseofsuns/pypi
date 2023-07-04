@@ -15,7 +15,7 @@ DESCRIPTION="Alibaba Cloud Resource Access Management (20150501) SDK Library for
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d1/c7/fb5c54d313eb0cc66246c0d63f06609b3b096affb5054df29ea2c492d219/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Database manager for nfs"
 
 HOMEPAGE="https://pypi.org/project/db-hj3415/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/c2/ecf5b4bc573ae19e67304982d0f7dc325a536863fc17e961ad6a825c3474/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

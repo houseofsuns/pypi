@@ -15,7 +15,7 @@ DESCRIPTION="Enhanced Strawberry GraphQL integration with Django"
 
 HOMEPAGE="https://github.com/blb-ventures/strawberry-django-plus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/ed/f7fb4047c6b8c428bfcfc34dfdb2708efdaec2c6c1791d9ded4d2e30a1df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

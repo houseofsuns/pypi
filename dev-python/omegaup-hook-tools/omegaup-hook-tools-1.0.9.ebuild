@@ -15,7 +15,7 @@ DESCRIPTION="Utilities for writing git hooks"
 
 HOMEPAGE="https://github.com/omegaup/libomegaup"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b4/3c/c64176fa37d106d43573f55162ce17cf49e8d2597b0497dfdbc9bfb4d482/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

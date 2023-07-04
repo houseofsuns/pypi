@@ -15,7 +15,7 @@ DESCRIPTION="Plugin for proper resolve intersphinx references for Qt elements"
 
 HOMEPAGE="https://github.com/Czaki/sphinx-qt-documentation"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/05/67/88898f06d82fdb0553382566011fc2efac4f44c78f69e8388e70475d3ab7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

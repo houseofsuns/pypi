@@ -15,7 +15,7 @@ DESCRIPTION="Prisma Client Python is an auto-generated and fully type-safe datab
 
 HOMEPAGE="https://github.com/RobertCraigie/prisma-client-py"
 LICENSE="APACHE"
-SRC_URI="https://files.pythonhosted.org/packages/41/50/47aac4a4f1689e5b94e352b22925a4ab1f3aed03d66791dcd781e0ae1baf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

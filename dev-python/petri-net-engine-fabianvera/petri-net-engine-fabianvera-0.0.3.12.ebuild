@@ -15,7 +15,7 @@ DESCRIPTION="A small petri net engine"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/d3/c0665589f04b8d42ac4fbcc5ef7f4d6cf8a43a35abfb1a1b18a6cac03c01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

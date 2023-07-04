@@ -15,7 +15,7 @@ DESCRIPTION="Python API client for metal-api"
 
 HOMEPAGE="https://github.com/metal-stack/metal-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e7/2d/b7417370180a178749c500a7956bbdfb6d3c7a619425f4a399f43ea94ac7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Amsterdam Datapunt code and style for Django REST Framework."
 
 HOMEPAGE=""
 LICENSE="Mozilla Public License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/87/0d/056288b47c554a40105f35dea03516335cd1a4bccb298dd990454aa2d35f/${REALNAME//-/_}-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.linux-x86_64.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 

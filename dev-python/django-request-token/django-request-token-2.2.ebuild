@@ -15,7 +15,7 @@ DESCRIPTION="JWT-backed Django app for managing querystring tokens."
 
 HOMEPAGE="https://github.com/yunojuno/django-request-token"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/84/2c6cc3ebc6e91e910c436e41f2b4bb6575da9bbc586131c7e0c831cb60d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

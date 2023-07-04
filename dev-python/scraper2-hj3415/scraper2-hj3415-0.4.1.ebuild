@@ -15,7 +15,7 @@ DESCRIPTION="Gathering the stock data"
 
 HOMEPAGE="https://pypi.org/project/scraper2_hj3415/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/1d/ce5c5427e90a32b597f487d1998be02181fcf643a9f4fb3389dadbfbc528/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

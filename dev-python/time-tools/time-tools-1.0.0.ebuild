@@ -15,7 +15,7 @@ DESCRIPTION="Time tools for python"
 
 HOMEPAGE="https://github.com/danybeam/time_tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/07/90c55c4d649f144d347b563f3be70abd21bcd147f1e7b12c44c3ae46c52b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

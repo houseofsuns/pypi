@@ -15,7 +15,7 @@ DESCRIPTION="FUSE for AliyunDrive"
 
 HOMEPAGE="https://github.com/messense/aliyundrive-fuse"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/11/df733fe97eacb3207b9a8b764d69b4307563673812c27bfaeed4c14f5db4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

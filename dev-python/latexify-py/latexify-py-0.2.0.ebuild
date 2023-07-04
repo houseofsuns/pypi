@@ -15,7 +15,7 @@ DESCRIPTION="Generates LaTeX math description from Python functions."
 
 HOMEPAGE="https://github.com/google/latexify_py"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/50/1c/44104c308113f5b2fd0488c73496b2081fad7c49d902610bf2fcb9573222/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

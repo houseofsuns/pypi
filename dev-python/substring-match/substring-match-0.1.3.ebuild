@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Carbon225/substring-match-rs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/35/16bc880cdc498ad5c6e78d804de351843fff0b8dd1117c7ec8e74ea9b2a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

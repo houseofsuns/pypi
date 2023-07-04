@@ -15,7 +15,7 @@ DESCRIPTION="Link recognition for Python Markdown"
 
 HOMEPAGE="https://github.com/daGrevis/mdx_linkify"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/9a/d07599b2e3487d4fa6dca76ecf80ae3d51d135c107d7ead09509a88ecc1d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

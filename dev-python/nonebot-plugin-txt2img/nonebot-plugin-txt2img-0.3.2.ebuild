@@ -15,7 +15,7 @@ DESCRIPTION="轻量文字转图片插件"
 
 HOMEPAGE="https://github.com/mobyw/nonebot-plugin-txt2img"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/57/5a/36a9355d496b4b5ad1a770bf4e8c0b4346282268b4ca76804f300e075544/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

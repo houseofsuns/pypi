@@ -15,7 +15,7 @@ DESCRIPTION="EfficientNet implemented in PyTorch."
 
 HOMEPAGE="https://github.com/lukemelas/EfficientNet-PyTorch"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2e/a0/dd40b50aebf0028054b6b35062948da01123d7be38d08b6b1e5435df6363/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

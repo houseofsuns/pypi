@@ -15,7 +15,7 @@ DESCRIPTION="Implements local and remote backups to CD/DVD and Amazon S3"
 
 HOMEPAGE="https://pypi.org/project/cedar-backup3/"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/05/e3/4bd69009830e7e189894f26e5719da3537c68b333c7042f47854b6a27ec6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

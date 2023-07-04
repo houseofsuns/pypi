@@ -15,7 +15,7 @@ DESCRIPTION="Ultimate Sitemap Parser"
 
 HOMEPAGE="https://github.com/berkmancenter/mediacloud-ultimate_sitemap_parser"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/21/44/04eada3b1b1f825eb18b93e385ff652778c96902788b87a9b1e0a141ccff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

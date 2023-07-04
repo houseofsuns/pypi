@@ -15,7 +15,7 @@ DESCRIPTION="Qingping BLE support"
 
 HOMEPAGE="https://github.com/bluetooth-devices/qingping-ble"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/79/0281998cae5d648df4877e39629bd2833d3ddf167085d7301d476451ebe9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

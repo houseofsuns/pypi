@@ -15,7 +15,7 @@ DESCRIPTION="Apache Drill for SQLAlchemy"
 
 HOMEPAGE="https://github.com/JohnOmernik/sqlalchemy-drill"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/0c/8236efc6db99bd8ef238cac53be8f99bf5f93442668fdd349fc43c68a8dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

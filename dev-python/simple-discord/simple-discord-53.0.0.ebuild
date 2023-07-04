@@ -15,7 +15,7 @@ DESCRIPTION="Make Discord bots extremely easily"
 
 HOMEPAGE="https://github.com/TricolorHen061/simple-discord"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/14/804f0ac44bfcd954c064e2d2035f327c658e45223ce84ecee7583c1e41c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

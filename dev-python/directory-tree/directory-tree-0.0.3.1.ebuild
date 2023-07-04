@@ -15,7 +15,7 @@ DESCRIPTION="Utility Package that Displays out the Tree Structure of a Particula
 
 HOMEPAGE="https://github.com/rahulbordoloi/Directory-Tree/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/49/1d/7d000d73fa05c5875e19ed1c3b40da4d8fc8820efaaa8b5479a97465e85a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="is a Python library, which fetches the Commitments of Trader report
 
 HOMEPAGE="https://github.com/NDelventhal/cot_grades"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/25/d8ac02860867f638d82a57ca127f9cd4b0e67547892c463e09d5f811e73f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

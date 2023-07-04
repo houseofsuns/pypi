@@ -15,7 +15,7 @@ DESCRIPTION="Simple telegram bot for logging ML statistics."
 
 HOMEPAGE="https://github.com/DmitryAsdre/telegram-ml-bot-stats.git"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7b/9e/13de592e0b3fc6aba7a56925b15ecefef652c22a0916fb303b184745952e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

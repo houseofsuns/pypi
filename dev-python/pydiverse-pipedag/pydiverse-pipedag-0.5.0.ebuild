@@ -15,7 +15,7 @@ DESCRIPTION="A pipeline orchestration library executing tasks within one python 
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ce/f7/9fc5282e3631d5ac1b3c6e9b11f6d751d7d2040f10ab1b015b6edee82131/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

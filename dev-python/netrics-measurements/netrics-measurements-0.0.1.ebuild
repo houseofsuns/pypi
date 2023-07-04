@@ -15,7 +15,7 @@ DESCRIPTION="The extensible network measurements framework"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/6d/7f2d896aa9b6a0b25e612c7da0929a0ea9ec85cf770b3663e39cac7cdf6e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

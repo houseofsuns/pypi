@@ -15,7 +15,7 @@ DESCRIPTION="LP модуль позволяет работать приемни�
 
 HOMEPAGE="https://idmduty.ru"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/9e/808d15f82687e28f985d844756a58b2127048fdaa5dcbe4604cb231e87f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

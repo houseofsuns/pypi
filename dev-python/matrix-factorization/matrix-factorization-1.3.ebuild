@@ -15,7 +15,7 @@ DESCRIPTION="Library for matrix factorization for recommender systems using coll
 
 HOMEPAGE="https://github.com/Quang-Vinh/matrix-factorization"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/89/12/57f3ef3485604d12353d1bb921387d2d9063f78f9d96d9abe06312c58f98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

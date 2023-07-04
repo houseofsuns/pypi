@@ -15,7 +15,7 @@ DESCRIPTION="An agenda scraper framework for municipalities"
 
 HOMEPAGE="https://github.com/hackla-engage/engage-scraper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/4a/6d526190b1bfe54f7194a3a56609c0ddbfe67f2ae5bffb25467415fea214/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Quickly set up workflows for retrieving hard-to-find contact inform
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/f3/10ebe3ac013eabae9c731d1a3df088400ac0649475dfe6b92eb21fdc0fa4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

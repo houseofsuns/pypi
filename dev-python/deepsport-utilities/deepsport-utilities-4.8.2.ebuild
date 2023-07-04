@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://gitlab.com/deepsport/deepsport_utilities"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/28/50/8257d650a018abfd3aaff9452a49ae6513784afe84ec742c4e43f154f53e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

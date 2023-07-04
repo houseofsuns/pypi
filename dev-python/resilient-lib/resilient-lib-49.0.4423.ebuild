@@ -15,7 +15,7 @@ DESCRIPTION="Python module with library calls which facilitate the development o
 
 HOMEPAGE="https://github.com/ibmresilient/resilient-python-api/tree/main/resilient-lib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/19/0955b73019ab2f1fe66c342c5eed2fb6057848b3b4f8726d65ab80d67930/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

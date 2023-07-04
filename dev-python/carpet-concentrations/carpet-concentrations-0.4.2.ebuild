@@ -15,7 +15,7 @@ DESCRIPTION="Core tools for the development of greenhouse gas concentration inpu
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ab/78/34e426bfabe5c24fad98865be275b2ec96ceb4e79c82907eba85ce97f4bb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

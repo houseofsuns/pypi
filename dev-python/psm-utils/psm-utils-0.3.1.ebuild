@@ -15,7 +15,7 @@ DESCRIPTION="Common utilities for parsing and handling peptide-spectrum matches 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/a7/9cc6bcf548cf64a788a83e95779265f99039cf32ca45f7662a203fc5dbee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

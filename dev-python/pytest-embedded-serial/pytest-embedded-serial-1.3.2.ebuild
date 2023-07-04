@@ -15,7 +15,7 @@ DESCRIPTION="Make pytest-embedded plugin work with Serial."
 
 HOMEPAGE="https://github.com/espressif/pytest-embedded"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e7/b0/875d0cb79a4ad79224eb4f8897634d516db0db5c22202385d910321ca074/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

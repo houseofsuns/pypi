@@ -15,7 +15,7 @@ DESCRIPTION="Includes functions for performing econometrics tasks"
 
 HOMEPAGE="https://github.com/G-Geofrey/package_dev/tree/master/ml"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ff/78/88f46bc61189fad7b780628d24612dc0ba2f87fc3c286791194093fce8b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tools to handle GPS Time"
 
 HOMEPAGE="https://github.com/the-aerospace-corporation/gps_time/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6f/e3/39d7837a0a3f48fb5860c7fbc6fede9b26f959afc771883141d5db0475f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

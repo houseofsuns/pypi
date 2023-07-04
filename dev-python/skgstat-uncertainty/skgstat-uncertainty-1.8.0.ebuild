@@ -15,7 +15,7 @@ DESCRIPTION="Uncertainty analysis tool for SciKit-GStat"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/a8/dd006abec96938ea184f86ee806a3cf048c106a07506fea8c40c29deda06/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="This tool shows the current workingdirectory"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/0e/ec94da8442c422b28980af7a4e7706f01acb1aea854d9189633e0ec08e0b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

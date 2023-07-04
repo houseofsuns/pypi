@@ -15,7 +15,7 @@ DESCRIPTION="Gracie Dictionary API python wrapper"
 
 HOMEPAGE="https://gracie-dictionary-api-documentation.readthedocs.io"
 LICENSE="commercial"
-SRC_URI="https://files.pythonhosted.org/packages/be/cf/0c5d6d376ccb1d4462b8ce805efd7509fe2b75a91369d3e1e682ded066a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

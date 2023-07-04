@@ -15,7 +15,7 @@ DESCRIPTION="An OpenAI LLM based CLI coding assistant."
 
 HOMEPAGE="https://github.com/radoshi/llm-code"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/25/3fe629434783afff6bc0e7be2b5f2690d78318c547346ac6d1a6f66d1aa9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

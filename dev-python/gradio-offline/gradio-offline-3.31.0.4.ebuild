@@ -15,7 +15,7 @@ DESCRIPTION="Python library for easily interacting with trained machine learning
 
 HOMEPAGE="https://github.com/junchen1992/gradio-offline"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/9a/b621352d236ccd8e831aab815b9a12c7997ca1d3d856139582e80cfa967e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Use Gradio Apps as tools for LLM Agents"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/6d/368bf137bbfed5b2bca089324e50a247a87d6081a82ba03fdddad8b2857b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

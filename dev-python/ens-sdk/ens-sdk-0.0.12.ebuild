@@ -15,7 +15,7 @@ DESCRIPTION="An SDK to simplify connectivity to ENS Services"
 
 HOMEPAGE="https://github.com/enciphertz/encipher-notificaition-service-python-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bf/ff/b1caa2506f55baa102709e0b44c141e61f69ef88b4c9953ac84eba23f55c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Unofficial python bindings for llm-rs. 🐍❤️🦀"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1d/e0/42699ada73418e612a94d203841732b2a912d96c9448e363aa616599ba2f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

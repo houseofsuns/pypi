@@ -15,7 +15,7 @@ DESCRIPTION="Bioformats for napari, using pims"
 
 HOMEPAGE="https://github.com/tlambert03/napari-bioformats"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f6/a6/cf7c0d6fbd356fdf6c8e7fc991c9cc221043a3f0e76d5c000f74a39048ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="SDK for Lyft dataset."
 
 HOMEPAGE="https://github.com/lyft/nuscenes-devkit"
 LICENSE="Attribution-NonCommercial-ShareAlike 4.0 International CC BY-NC-SA 4.0"
-SRC_URI="https://files.pythonhosted.org/packages/ae/89/4713e7e8dbdf91ddf25276ccd3781b7558f06cfdc1c6b0e6ec7a614083de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

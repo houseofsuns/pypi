@@ -15,7 +15,7 @@ DESCRIPTION="Create Democracy Club Election Identifiers"
 
 HOMEPAGE="https://github.com/DemocracyClub/uk-election-ids/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/26/439d1bb83e69f21d7dcfe9e1a313d522775055eee0d4423dac341010f316/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

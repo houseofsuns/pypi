@@ -15,7 +15,7 @@ DESCRIPTION="IFrame widgets for JupyterLab"
 
 HOMEPAGE="https://github.com/timkpaine/jupyterlab_iframe"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/05/be/b3ae8d55062b56de680acbcfdb18b78c935a28066c453934dab1ad449c35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

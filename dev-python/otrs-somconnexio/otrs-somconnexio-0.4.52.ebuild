@@ -15,7 +15,7 @@ DESCRIPTION="Python package for Somconnexio data syncing in OTRS"
 
 HOMEPAGE="https://gitlab.com/coopdevs/otrs_somconnexio"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/22/92/952c14c1c4621c06c9d4c443231718cfe0210de8c28ecc52202fdb23bdd9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

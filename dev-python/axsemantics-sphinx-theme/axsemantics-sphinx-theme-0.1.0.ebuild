@@ -15,7 +15,7 @@ DESCRIPTION="Sphinx theme used on AX Semantics internal documentation"
 
 HOMEPAGE="https://github.com/axsemantics/sphinx_theme/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ee/d7/7d6b7bf1db5605c7800acb2ce77754095942e1ae96d1d748e360516eb1f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

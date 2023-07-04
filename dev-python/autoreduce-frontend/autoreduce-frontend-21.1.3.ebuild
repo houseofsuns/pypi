@@ -15,7 +15,7 @@ DESCRIPTION="The frontend of the ISIS Autoreduction service"
 
 HOMEPAGE="https://github.com/ISISScientificComputing/autoreduce-frontend/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/ae/40c52c246adb51527aa8acd7e40231c9fffc86a6bb0e05d0fb9e5d010328/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

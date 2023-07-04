@@ -15,7 +15,7 @@ DESCRIPTION="a decentralized social web platform"
 
 HOMEPAGE="https://ragt.ag/code/projects/canopy"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/78/40/3011f0aed15e5f50d4fc4b34f4d46369561858d9087a38e831e9c4a44769/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

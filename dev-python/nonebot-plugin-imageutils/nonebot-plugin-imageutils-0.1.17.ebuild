@@ -15,7 +15,7 @@ DESCRIPTION="Nonebot2 PIL工具插件"
 
 HOMEPAGE="https://github.com/noneplugin/nonebot-plugin-imageutils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c1/46/fb955085c829e1fccb73d6f43d8a4fe94a81c65742cc4c6c3eeb824d2bc5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

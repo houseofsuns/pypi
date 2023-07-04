@@ -15,7 +15,7 @@ DESCRIPTION="Helpful celery extensions."
 
 HOMEPAGE="https://github.com/tktech/celery-heimdall"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/0e/ce7901cc6f4dce4ade9d6b163ec46e4e44db7a2ffdf1a4c685e8af5e70b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

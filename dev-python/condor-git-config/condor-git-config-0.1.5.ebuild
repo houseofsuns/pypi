@@ -15,7 +15,7 @@ DESCRIPTION="dynamically configure an HTCondor node from a git repository"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4b/9b/022603f7afbd23149eca86072531b9b0f4bf0dbcf23d44e920ec2bd675f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

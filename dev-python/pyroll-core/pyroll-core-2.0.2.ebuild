@@ -15,7 +15,7 @@ DESCRIPTION="PyRoll rolling simulation framework - core library."
 
 HOMEPAGE="https://pyroll-project.github.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/90/ea/e46b4c2904f2527a5409395b2bd931448673864865e068f037c8c3f95124/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

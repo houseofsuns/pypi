@@ -15,7 +15,7 @@ DESCRIPTION="Parse and compare entitlements according to the AARC-G002 recommend
 
 HOMEPAGE="https://github.com/kit-scc/aarc-g002-entitlement"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/d7/4c3ef672e269795ee2dda44d209d918441a917ca6e5ca010eb95c0fc63b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

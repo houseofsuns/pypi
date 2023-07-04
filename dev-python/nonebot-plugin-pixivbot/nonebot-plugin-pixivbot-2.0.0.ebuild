@@ -15,7 +15,7 @@ DESCRIPTION="Nonebot Plugin PixivBot"
 
 HOMEPAGE="https://github.com/ssttkkl/nonebot-plugin-pixivbot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/09/6f1cf6dfb20249b22811d549b10ec7ae87af179cb0f8b994572a83e9112c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

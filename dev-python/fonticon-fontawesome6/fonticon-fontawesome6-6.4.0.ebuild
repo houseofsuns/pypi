@@ -15,7 +15,7 @@ DESCRIPTION="FontAwesome 6 extension for superqt font icons"
 
 HOMEPAGE="https://github.com/pyapp-kit/fonticon-fontawesome6"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/50/a6/6662a96f5d2a117c5f698ba216799b4aa8dec0baa13c218792fa8ffab786/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

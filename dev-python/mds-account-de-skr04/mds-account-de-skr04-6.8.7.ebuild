@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module with German chart of accounts SKR04"
 
 HOMEPAGE="https://www.m-ds.de/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/9d/b5/3f1e6887d96f5cb9aa8406ed80a647c41f7cb2e8d8128885a41fb14fddcf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

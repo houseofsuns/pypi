@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing pagerduty cloud resource
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/08/9d/f5198a51309d943b4991a4956a2fd40572218113c5811a86621a46562b03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

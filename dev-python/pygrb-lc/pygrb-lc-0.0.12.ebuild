@@ -15,7 +15,7 @@ DESCRIPTION="Python package for GRB analysis"
 
 HOMEPAGE="https://github.com/Jorezzz/pygrb_lc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/b6/8d761154cc0f4def57d4a204508909854713e3300c8f5d1ac2bf43f9eea2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

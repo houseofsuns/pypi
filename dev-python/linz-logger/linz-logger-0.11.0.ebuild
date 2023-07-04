@@ -15,7 +15,7 @@ DESCRIPTION="LINZ standard Logging format"
 
 HOMEPAGE="https://github.com/linz/python-linz-logger"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/71/29/de1a703fae473d8014d1770e86e7f6b46b9b02dbe84ea6c2dc4bf1476902/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

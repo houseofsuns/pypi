@@ -15,7 +15,7 @@ DESCRIPTION="Very fast implementation of the token bucket algorithm."
 
 HOMEPAGE="https://github.com/falconry/token-bucket"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b7/6d/386ed0cfb7f3c2e0311a96b3884a2ba98a7b958344f51c7cce0b1c7bbb0f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

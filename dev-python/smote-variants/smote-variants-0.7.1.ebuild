@@ -15,7 +15,7 @@ DESCRIPTION="Variants of the synthetic minority oversampling technique (SMOTE) f
 
 HOMEPAGE="https://github.com/analyticalmindsltd/smote_variants"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/69/3749d3384d4064dcac90caac825e074f8e91acb31c475d49dd41630271a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

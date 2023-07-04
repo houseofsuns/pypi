@@ -15,7 +15,7 @@ DESCRIPTION="Command line tools for working with catkin."
 
 HOMEPAGE="https://catkin-tools.readthedocs.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/47/b1/4946aeec3ffab7c116800351290f660ccd3a8712263b6731b7ebdbcc7428/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

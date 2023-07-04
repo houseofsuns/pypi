@@ -15,7 +15,7 @@ DESCRIPTION="A scatter plot extension for Jupyter Notebook and Lab"
 
 HOMEPAGE="https://github.com/flekschas/jscatter"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ad/42/5709916fa2c13cfc2cdd9cb9164eb0702e12882db7c929ee14bb5e605896/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

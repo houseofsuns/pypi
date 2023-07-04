@@ -15,7 +15,7 @@ DESCRIPTION="Package for tracking existing Terraform versions"
 
 HOMEPAGE="https://github.com/joshwycuff/python-terraform-utils/packages/terraform_version"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0b/81/24136fd9083890873c5edea6a63b97a1426abb0ca174e5bf521da615543b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

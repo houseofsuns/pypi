@@ -15,7 +15,7 @@ DESCRIPTION="Django module to proxy requests to Plausible Analytics."
 
 HOMEPAGE="https://github.com/imankulov/django-plausible-proxy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/82/3fa85192bbf05c6ac189a465def97edffb44c7a0561e5c434211575e4007/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

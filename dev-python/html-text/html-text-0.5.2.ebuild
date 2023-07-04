@@ -15,7 +15,7 @@ DESCRIPTION="Extract text from HTML"
 
 HOMEPAGE="https://github.com/TeamHG-Memex/html-text"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/f0/d18ac3ea1eeee089bb99b7abf64b8de774ebb31f73977a1fc3f6bfad8566/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

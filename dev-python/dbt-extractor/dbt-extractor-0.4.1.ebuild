@@ -15,7 +15,7 @@ DESCRIPTION="A tool to analyze and extract information from Jinja used in dbt pr
 
 HOMEPAGE="https://github.com/dbt-labs/dbt-parser-generator/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/af/2e/a110b40212480fd02bff567ff84effea8b9937ccd6ebfad0f10a382183d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

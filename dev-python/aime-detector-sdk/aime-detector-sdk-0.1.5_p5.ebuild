@@ -15,7 +15,7 @@ DESCRIPTION="Base module for human detection"
 
 HOMEPAGE="https://github.com/jarklee/aime_detector_sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/42/113a31d58b9e8b3f27e3f8b2a7868d91e72ee69b940991f7b94e715e7873/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

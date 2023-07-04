@@ -15,7 +15,7 @@ DESCRIPTION="Library for BYROBOT Drones."
 
 HOMEPAGE="http://www.byrobot.co.kr"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/87/3a/1bced55fc581bc8d3b7b7459218d81b37cd1855c6e862e04796a0c511be6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

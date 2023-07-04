@@ -15,7 +15,7 @@ DESCRIPTION="a tool to read stock factor data for quants"
 
 HOMEPAGE="https://github.com/chen-001/factor_reader"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0f/b7/d677e5228fcefacf2e87161347c48cb45d879519bbe0f2e134392e41533d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

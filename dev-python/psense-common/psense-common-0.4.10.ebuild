@@ -15,7 +15,7 @@ DESCRIPTION="PercuSense Common Modules"
 
 HOMEPAGE="https://bitbucket.org/psense/psense-common"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2f/4b/3e70c08fadf3771ebf98805e09515efbd8fd414f32b9e4a801ba56d95683/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Reader for AWS VPC Flow Logs"
 
 HOMEPAGE="https://github.com/obsrvbl-oss/flowlogs-reader"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/47/78/29d3622b71d2df7d02e6045b32d19163175b2325e11e43fdab1539a71958/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

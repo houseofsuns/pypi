@@ -15,7 +15,7 @@ DESCRIPTION="Delfino core plugin"
 
 HOMEPAGE="https://github.com/radeklat/delfino-core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/ac/139ca6897b6f81301b3ae59458122a026d77e4da1e86f3761473d1a187b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ISCC - Core Algorithms"
 
 HOMEPAGE="https://iscc.codes"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9a/c8/45d4acca4bee455c9325a6a2241a55857ebe956017ed05ab3c7f0ea54719/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

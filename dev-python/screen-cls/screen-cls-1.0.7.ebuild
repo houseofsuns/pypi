@@ -15,7 +15,7 @@ DESCRIPTION="Python script for clearing screen for any OS's: Windows, MAC, Linux
 
 HOMEPAGE="https://github.com/IgorMan2005/screen_cls"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/17/e37da3f9adada1b1c533e59e8b84396e6e8e58f9cce46f91f75cf6daf29a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

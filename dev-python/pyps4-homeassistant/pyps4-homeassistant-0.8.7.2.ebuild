@@ -15,7 +15,7 @@ DESCRIPTION="PS4 2nd Screen Python Library"
 
 HOMEPAGE="https://github.com/ktnrg45/pyps4-homeassistant"
 LICENSE="LGPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/c1/09/bcce4e0d1c48737c510f3654c508f5d25d1d54d41890493faccc010aa93f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

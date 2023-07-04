@@ -15,7 +15,7 @@ DESCRIPTION="Tailwind CSS Framework for Django projects"
 
 HOMEPAGE="https://github.com/timonweb/django-tailwind"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/dd/eee46a2c09187901e24c64e7fe42730b0f43bdac8e855443f13d66ee95d3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="IDF theme for Sphinx, based on Read The Docs theme"
 
 HOMEPAGE="https://github.com/espressif/sphinx_idf_theme/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/0b/92fc74fbc2f462068e671f25d7a126c74754c63219acd4465577bd58f939/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

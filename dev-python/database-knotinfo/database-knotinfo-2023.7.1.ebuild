@@ -15,7 +15,7 @@ DESCRIPTION="The KnotInfo and LinkInfo databases as lists of dictionaries"
 
 HOMEPAGE="https://github.com/soehms/database_knotinfo"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/77/0f/21ed8a5d617da39b31a2086304029f18b870ef5f6b22eaf81d382e57e99f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

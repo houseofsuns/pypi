@@ -15,7 +15,7 @@ DESCRIPTION="Filesystem, language and OS related tools."
 
 HOMEPAGE="https://github.com/coveooss/coveo-python-oss/tree/main/coveo-systools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/03/75/65a6369ca34938385b364fd516023f90fdbcc035ad665e539af6366fc161/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

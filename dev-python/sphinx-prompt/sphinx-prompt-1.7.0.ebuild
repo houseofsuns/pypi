@@ -15,7 +15,7 @@ DESCRIPTION="Sphinx directive to add unselectable prompt"
 
 HOMEPAGE="https://hub.docker.com/r/sbrunner/sphinx-prompt/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/40/00/c601097bfa180c0622bef4b3a8cbb91c10281b4fec2fa1cac835fa74001c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

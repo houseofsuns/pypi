@@ -15,7 +15,7 @@ DESCRIPTION="# AutoFaiss"
 
 HOMEPAGE="https://github.com/criteo/autofaiss"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/21/8f2f4a282f32943a6fdef88fea6a9365e787e9eb9780e81d4e36741599ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

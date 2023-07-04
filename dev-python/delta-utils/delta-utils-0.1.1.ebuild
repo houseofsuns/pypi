@@ -15,7 +15,7 @@ DESCRIPTION="Utility tools for Delta Academy tournaments"
 
 HOMEPAGE="https://github.com/Delta-Academy/delta-utils/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/bc/2519db362c72484cdd9e6cd0d9e88a6267123bb46b129dcd6ac0db959d77/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

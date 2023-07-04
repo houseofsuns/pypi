@@ -15,7 +15,7 @@ DESCRIPTION="AlekSIS (School Information System) — App for CSV import"
 
 HOMEPAGE="https://aleksis.org/"
 LICENSE="EUPL-1.2"
-SRC_URI="https://files.pythonhosted.org/packages/03/d8/abe407de35a6b992f3a982423d306c750ebb69b9bf08c345423b0907fea2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

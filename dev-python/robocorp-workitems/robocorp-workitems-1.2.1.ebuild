@@ -15,7 +15,7 @@ DESCRIPTION="Robocorp Work Items library"
 
 HOMEPAGE="https://github.com/robocorp/robo/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/59/6e/06de1cbe44140f404eb4c570c1fd0436d43a9e273b20bc74dfe36ba5851c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

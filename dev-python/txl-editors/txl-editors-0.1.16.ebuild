@@ -15,7 +15,7 @@ DESCRIPTION="TXL plugin for editors"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/71/8d/d185ec7adb9ae14f5f2cea4ee125be9068986e1d4bf2cd8a6d6f6efc987a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

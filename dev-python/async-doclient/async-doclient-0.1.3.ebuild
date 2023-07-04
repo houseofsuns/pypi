@@ -15,7 +15,7 @@ DESCRIPTION="Digitalocean client for python"
 
 HOMEPAGE="https://github.com/Turall/doclient"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/73/f1ecc275ce61e8584951bf2aaa404acf42005da47e671eafc82d9368f8e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

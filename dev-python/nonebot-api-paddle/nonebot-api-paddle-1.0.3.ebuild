@@ -15,7 +15,7 @@ DESCRIPTION="nonbot_api_paddle"
 
 HOMEPAGE="https://github.com/canxin121/nonebot_api_paddle"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/90/08f305348e66f25145c31d99f4db3703b860801405115f2e9a6bdefe1607/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Graphics Library for Python"
 
 HOMEPAGE="https://github.com/FarukHammoud/processing_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/49/15/c94f61b313fdf228537161d65f894ea749a1921b3429ff44bd81d8943a3a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

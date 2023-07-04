@@ -15,7 +15,7 @@ DESCRIPTION="A mixed-integer program optimization solver for finding optimal nut
 
 HOMEPAGE="https://minimod-nutrition.github.io/minimod-opt/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/08/55/459e23540ed31b884efdb3e9cd9a66ddc6be5a4d39a2607ad10f1b4925bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

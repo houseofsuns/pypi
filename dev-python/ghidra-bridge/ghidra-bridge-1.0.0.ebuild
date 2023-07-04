@@ -15,7 +15,7 @@ DESCRIPTION="RPC bridge from Python to Ghidra Jython"
 
 HOMEPAGE="https://github.com/justfoxing/ghidra_bridge"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a4/b4/adc97c3222fd4d48903b8155e17f9c6fadc94b5d18daca69d9c98fa6ac21/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

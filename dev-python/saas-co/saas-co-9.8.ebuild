@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/gmyrianthous/example-publish-pypi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8f/42/e439545193846297364e141bf235dbc58aabd095fd64c63818d01ee4b362/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

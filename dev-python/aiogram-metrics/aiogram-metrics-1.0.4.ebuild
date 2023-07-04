@@ -15,7 +15,7 @@ DESCRIPTION="Message metrics exporter for aiogram framework"
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b1/52/13194a5a1f934251f33bed129832d65cc60dc0ca074efcd41d9c3369ad4a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

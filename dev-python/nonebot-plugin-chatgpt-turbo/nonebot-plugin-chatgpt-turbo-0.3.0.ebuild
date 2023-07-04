@@ -15,7 +15,7 @@ DESCRIPTION="A nonebot plugin for openai gpt3.5-turbo"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/3d/844484209853658b3f031528c4977aee12c6510bbf9fedd45b97d971e8ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

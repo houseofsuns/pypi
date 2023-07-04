@@ -15,7 +15,7 @@ DESCRIPTION="HTML to label png converter"
 
 HOMEPAGE="https://github.com/finnishnetsolutions/label-converter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/80/fd/e7e8fda52eb7be6ccf028b77f168a9ac8a6206a5157b38ed790dd62aa5e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

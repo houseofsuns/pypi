@@ -15,7 +15,7 @@ DESCRIPTION="A command line interface for the MythX smart contract security anal
 
 HOMEPAGE="https://github.com/dmuhs/mythx-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/15/e4508c92151ad997e50bf8d91391bdace007f10c5454812935c6351ea1c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

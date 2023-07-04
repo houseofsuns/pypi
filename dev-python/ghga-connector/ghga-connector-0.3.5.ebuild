@@ -15,7 +15,7 @@ DESCRIPTION="GHGA Connector - A CLI client application for interacting with the 
 
 HOMEPAGE="https://github.com/ghga-de/ghga-connector"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/08/66/3b737d3075944dea665ede7e57c5f72744e27f7eb0e29be65ef3b5116722/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

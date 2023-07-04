@@ -15,7 +15,7 @@ DESCRIPTION="A package used in DNN trainning in ATLAS analysis"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bc/a0/9cd5883f14f949a0a8d2103d8ae811af0b41de3e54501de22f7c720cf32b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

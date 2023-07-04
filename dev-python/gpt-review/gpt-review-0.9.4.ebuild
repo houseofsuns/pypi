@@ -15,7 +15,7 @@ DESCRIPTION="Python Project for reviewing GitHub PRs with Open AI and Chat-GPT."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0f/66/ef2b5ccfaa54ef935eddd89dfc53cc075d5c69e607998b1e07206086a39f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

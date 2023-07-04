@@ -15,7 +15,7 @@ DESCRIPTION="The operating system-level command scheduler and manager."
 
 HOMEPAGE="https://github.com/chicago-cdac/fate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/75/cb/0babcacb595a720386c2a831700e896211add22da738bbfd588539b5a5f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

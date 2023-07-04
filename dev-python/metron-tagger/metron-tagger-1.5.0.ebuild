@@ -15,7 +15,7 @@ DESCRIPTION="A program to write metadata from metron.cloud to a comic archive"
 
 HOMEPAGE="https://github.com/Metron-Project/metron-tagger"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/37/52/e25e6ac73c424065429e4e9b56722f6906a23c673dc36c1b4d889dadae03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

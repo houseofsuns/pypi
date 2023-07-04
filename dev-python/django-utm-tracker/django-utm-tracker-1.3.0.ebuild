@@ -15,7 +15,7 @@ DESCRIPTION="Django app for extracting and storing UTM tracking values."
 
 HOMEPAGE="https://github.com/yunojuno/django-utm-tracker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/31/98fd6d06a7a25f34673bf5497d2436f28c35fc841cf62f51e935cb3857b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

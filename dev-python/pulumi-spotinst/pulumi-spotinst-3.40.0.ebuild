@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing spotinst cloud resources
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/65/c4/bfa41e365936bceaa4e42f2de4280a0685d2aad42a3051ff9fad50316301/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

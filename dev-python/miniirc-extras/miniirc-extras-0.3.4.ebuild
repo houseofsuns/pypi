@@ -15,7 +15,7 @@ DESCRIPTION="WIP extensions for miniirc."
 
 HOMEPAGE="https://github.com/luk3yx/miniirc_extras"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/33/c4b2c4b68e85889614104b6aed042c7b56efeb55e24f630a3383d1d8d5f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A django app with all the tools required to make a Shopify app"
 
 HOMEPAGE="http://pypi.python.org/pypi/django_shopify_app/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/87/a4/5d30cb190bcabfb0709f2a3e86bb2f7cd8aaa89d68feacf621086034bcde/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

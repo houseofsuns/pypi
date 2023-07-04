@@ -15,7 +15,7 @@ DESCRIPTION="Multi-Launguage RoBERTa trained by RIKEN-AIP LIAT."
 
 HOMEPAGE="https://github.com/k141303/liat_ml_roberta"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/28/1b/b8ce61b7251cc1f25b556fff0f82f6e8c255706b113f7a1c0a1f38a9badb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

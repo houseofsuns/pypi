@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings to access the Yahoo! Fantasy APIs"
 
 HOMEPAGE="http://github.com/spilchen/yahoo_fantasy_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d4/c5/8b09a5ad4d4bdff54ef4060ca96ff4d1828dca64970fe4ca39df5c096f95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="djangoldp package for skill data models"
 
 HOMEPAGE="http://git.happy-dev.fr/startinblox/djangoldp_skill"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/f5/1e2f66a31bfc94aa8fdb3120b459a133a15739baacb3d66ba464f15f3465/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

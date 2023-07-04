@@ -15,7 +15,7 @@ DESCRIPTION="A core functions package"
 
 HOMEPAGE="https://github.com/valluzzi/gecosistema_gdal.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/84/0a/506174f423a348900eae3bb215ec1760ff77edf885fe92566b2ca1a874d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

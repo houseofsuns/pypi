@@ -15,7 +15,7 @@ DESCRIPTION="PyPose Sphinx Theme"
 
 HOMEPAGE="https://github.com/pypose/pypose_sphinx_theme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/17/fdd058137a3f194b6a2c5ff53eb31c961d9d35a60e47157ab92ec2b09178/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

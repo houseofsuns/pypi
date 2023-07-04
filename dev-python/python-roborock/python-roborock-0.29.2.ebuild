@@ -15,7 +15,7 @@ DESCRIPTION="A package to control Roborock vacuums."
 
 HOMEPAGE="https://github.com/humbertogontijo/python-roborock"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/9f/d2/146cb71a7b9dd2108897f872a24146f26a459ee94f9d4628091b241a7f3b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

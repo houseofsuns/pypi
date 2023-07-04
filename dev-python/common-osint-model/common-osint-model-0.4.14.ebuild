@@ -15,7 +15,7 @@ DESCRIPTION="Converting data from services like BinaryEdge, Censys and Shodan to
 
 HOMEPAGE="https://github.com/3c7/common-osint-model"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/43/a66b8e753cbff11f8b1b73220daa146f5caf1a5ebb9cb026c15a2622b911/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Library for building graph networks in Tensorflow and Sonnet."
 
 HOMEPAGE="https://github.com/deepmind/graph-nets"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/47/7a/a4a686426b1eae92887280d008c92bac2a0d1ed7dfa083a277d64f47555f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

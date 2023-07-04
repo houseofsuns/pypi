@@ -15,7 +15,7 @@ DESCRIPTION="Typed pythonic RSS parser"
 
 HOMEPAGE="https://dhvcc.github.io/rss-parser"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d1/bf/662e818701a03cc46c4557576c72ac46c9681bb4e4e04c8874b583f92e86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

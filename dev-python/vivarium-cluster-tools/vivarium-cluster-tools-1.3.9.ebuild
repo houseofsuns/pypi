@@ -15,7 +15,7 @@ DESCRIPTION="A set of tools for running simulation using vivarium on cluster."
 
 HOMEPAGE="https://github.com/ihmeuw/vivarium_cluster_tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/67/ac/f7552c5ba5fbda7c1c7149f633bbe24c4ec33f4af05b76716a0fb6a8cd5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

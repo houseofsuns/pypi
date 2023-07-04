@@ -15,7 +15,7 @@ DESCRIPTION="streamlit-faker is a library to very easily fake Streamlit commands
 
 HOMEPAGE="https://github.com/arnaudmiribel/streamlit-faker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/cd/d3ba869c6c0ac93c43599b398581efe22dd88d9461e6d6e87d2c715c2427/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

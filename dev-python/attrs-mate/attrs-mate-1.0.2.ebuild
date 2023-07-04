@@ -15,7 +15,7 @@ DESCRIPTION="A plugin extends power of attrs library."
 
 HOMEPAGE="https://github.com/MacHu-GWU/attrs_mate-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/bf/af8bc1baa2144c78c942684fb02870bebca9f72468be3ddda00cbc576ba9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

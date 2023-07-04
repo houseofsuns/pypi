@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/JE-Chen/Integration-testing-environment"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/2c/5dfad73def8619449d94d0499a665a7c5ecb096615a0ef6e2f1e5fc3a78b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

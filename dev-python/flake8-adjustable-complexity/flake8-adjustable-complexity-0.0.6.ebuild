@@ -15,7 +15,7 @@ DESCRIPTION="A flake8 extension that checks cyclomatic complexity and calculates
 
 HOMEPAGE="https://github.com/best-doctor/flake8-adjustable-complexity"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6f/92/f1083e663117a47acb88034f9cbbb955398c5edebd9c8500c87e96cd06b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/webinterpret-ds/data-snack"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/81/a1a2e06b70dc5b56b3ddd1fc24cca5013586b1dfbe2951be4ddabb97126b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

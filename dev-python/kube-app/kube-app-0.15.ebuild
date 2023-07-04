@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://pypi.org/project/kube-app/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/30/33/f361353d9acd2c76e28ee1066c6a6cbd357203a1d7a3ebee69b5ec8c27ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="NCM Song Searcher"
 
 HOMEPAGE="https://github.com/lgc-NB2Dev/nonebot-plugin-multincm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/a1/2844963f86e6dfc8b09826081566adcfbd1bfdb912b5468ee0369a453575/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

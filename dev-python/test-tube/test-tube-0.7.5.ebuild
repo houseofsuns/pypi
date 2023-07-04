@@ -15,7 +15,7 @@ DESCRIPTION="Experiment logger and visualizer"
 
 HOMEPAGE="https://github.com/williamFalcon/test_tube"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/f0/5c32f2fbd824f32354f7f4632c957163071597bb2c6a4105f507bc9af7c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

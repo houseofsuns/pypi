@@ -15,7 +15,7 @@ DESCRIPTION="A framework to define and secure the integrity of software supply c
 
 HOMEPAGE="https://in-toto.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/63/840a18f0acf009f065dd4d59ece66654ce205d015794fb546dcf15f628c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

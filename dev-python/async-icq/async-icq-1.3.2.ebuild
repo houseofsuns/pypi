@@ -15,7 +15,7 @@ DESCRIPTION="ICQ/VK Teams Bot API interface"
 
 HOMEPAGE="https://github.com/dasshit/async-icq"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/c3/375cd65799fdcdb22806aa721da16a58c5f112d1081ed7212cf972d1ca91/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

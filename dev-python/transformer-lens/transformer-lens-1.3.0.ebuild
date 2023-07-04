@@ -15,7 +15,7 @@ DESCRIPTION="An implementation of transformers tailored for mechanistic interpre
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/a2/95baa54586fefa7f28ec22abf02846cbe048a81239f1427ecc0cfc5994fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

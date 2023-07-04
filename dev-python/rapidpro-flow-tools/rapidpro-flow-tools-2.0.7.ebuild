@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/IDEMSInternational/rapidpro-flow-toolkit"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/4e/d0/f44d9d4b9de8d12f12b5f08b591040795b69a8e4902c9eb36cd8aec239c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

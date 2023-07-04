@@ -15,7 +15,7 @@ DESCRIPTION="Pydra tasks for FSL"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/39/d88a0bc7c47886b7e6b7c0dbcc6dd172cd160621dea054a86cd554dfaeb6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Check if certificate is revoked using the x509 CRL extension"
 
 HOMEPAGE="https://github.com/fulder/crl-checker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/2d/c6d42be80019cf80daf7aa6221287fea2834792fe4ce77e14ead950f2b57/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

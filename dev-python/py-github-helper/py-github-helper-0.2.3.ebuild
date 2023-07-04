@@ -15,7 +15,7 @@ DESCRIPTION="Python Script for interacting with Github API"
 
 HOMEPAGE="https://github.com/org-not-included/py-github-helper/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/e7/a76719286f144029f6136d52ad4f42287ceac35bd11c8dfea2805f3110f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

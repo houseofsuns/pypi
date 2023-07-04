@@ -15,7 +15,7 @@ DESCRIPTION="Pruning BERT models + magnitude pruning + onnx export"
 
 HOMEPAGE="https://github.com/xihajun/bert_pruners"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/92/5e1fe1d5b0cfa3f9bf92a7224f392e776926e54c6387f9c4ca1f5bb7841b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

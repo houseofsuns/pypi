@@ -15,7 +15,7 @@ DESCRIPTION="This is an IPv4 and IPv6 calculator. It can validate IP address, co
 
 HOMEPAGE="https://brunobotelhobr.github.io/My-IP-Calculator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/8a/6de426efff46042fc641f6ef2871159cf21086f966d7d47ac97422162c2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

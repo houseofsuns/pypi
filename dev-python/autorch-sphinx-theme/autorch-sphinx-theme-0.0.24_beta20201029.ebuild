@@ -15,7 +15,7 @@ DESCRIPTION="PyTorch Sphinx Theme"
 
 HOMEPAGE="https://github.com/StacyYang/autorch_sphinx_theme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/be/b0736c932e92459abd355f5d4e9fe923ea15bc89b51971d1422f4560a7ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

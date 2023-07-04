@@ -15,7 +15,7 @@ DESCRIPTION="Translate Django PO files and resolve fuzziness with ease."
 
 HOMEPAGE="https://github.com/waseem-hamoolaila/django-po-translator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5b/87/9b7210aae947a125a4fe6c388dde9b7db7c88a702643f44067b30ee25b40/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

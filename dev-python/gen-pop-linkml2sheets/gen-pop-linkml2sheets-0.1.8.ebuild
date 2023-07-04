@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/turbomam/gen-pop-linkml2sheets"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/72/6396aceedb5001c2dc8d041cb324630c0643915d0409ef2297b93021e916/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

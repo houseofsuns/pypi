@@ -15,7 +15,7 @@ DESCRIPTION="Springlabs Projects Django Standard"
 
 HOMEPAGE="https://springlabs.ai/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/84/777aa4d29a19cce80f5c0d727b27beb4b1a5640c8403a3a3643210103a89/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

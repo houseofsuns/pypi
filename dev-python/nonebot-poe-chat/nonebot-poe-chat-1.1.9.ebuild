@@ -15,7 +15,7 @@ DESCRIPTION="nonebot_poe_chat"
 
 HOMEPAGE="https://github.com/canxin121/nonebot_poe_chat"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/af/0f/56e5e65e8894c5fe243c22faf6e92fc4d45edc04599064bdfd621cf0f04e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

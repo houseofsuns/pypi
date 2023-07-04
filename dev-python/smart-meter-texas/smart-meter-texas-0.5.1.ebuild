@@ -15,7 +15,7 @@ DESCRIPTION="Package to connect to and retrieve data from the unofficial Smart M
 
 HOMEPAGE="https://github.com/grahamwetzler/smart-meter-texas"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/e7/ab208eca835e91cf758a186852bfa234f6a2ca20835a4abb9aa2c630c936/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Shared functions for BPM data pipelines."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/da/a5/b7a3ce22cdd8ad4283404988dcbc672fa28d5f909b8c6ae8bb230e10a27c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

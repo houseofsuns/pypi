@@ -15,7 +15,7 @@ DESCRIPTION="RiotKit Tools - ARMUtils"
 
 HOMEPAGE="https://riotkit.org"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a9/6c/6fec13a5392d4c177220bec8f8fda2eb2ba67800af8f114c76422658d6cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

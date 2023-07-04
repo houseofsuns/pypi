@@ -15,7 +15,7 @@ DESCRIPTION="readme_renderer is a library for rendering \"readme\" descriptions 
 
 HOMEPAGE="https://github.com/pypa/readme_renderer"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/22/ec/12a48255bb1f15e2bd16a75e9f537ea498c8884069de4655afe47d5ffe34/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

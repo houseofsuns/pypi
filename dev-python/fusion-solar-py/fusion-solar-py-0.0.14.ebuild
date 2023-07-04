@@ -15,7 +15,7 @@ DESCRIPTION="A simply API to the Huawei Fusion Solar web interface."
 
 HOMEPAGE="https://github.com/jgriss/fusion_solar_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/1c/31fda991ddf8eadfb746b9341c31345d44e89544887d861d03da78d3a8ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

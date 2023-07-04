@@ -15,7 +15,7 @@ DESCRIPTION="Finance::Quote implementation in Python"
 
 HOMEPAGE="https://gitlab.com/alensiljak/finance-quote-python"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/74/12/7d40853e41310adc2a2ad921d01d53a0f811a14263c0fbfdc001558ecd02/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

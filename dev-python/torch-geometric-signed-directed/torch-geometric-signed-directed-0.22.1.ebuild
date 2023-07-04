@@ -15,7 +15,7 @@ DESCRIPTION="An Extension Library for PyTorch Geometric on signed and directed n
 
 HOMEPAGE="https://github.com/SherylHYX/pytorch_geometric_signed_directed"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c7/06/8602bba142c6596a84a641d16c2b1f61c3a0fe77fe3819cdee53f2ffdba2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

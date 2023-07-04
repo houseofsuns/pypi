@@ -15,7 +15,7 @@ DESCRIPTION="SQLAlchemy models for UNIHAN CJK database"
 
 HOMEPAGE="https://unihan-db.git-pull.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/b3/6cc1688fa0ab29c07124bab0fb35dc8e6c3db503eb5834769d3a5d419695/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Test copier templates"
 
 HOMEPAGE="https://github.com/kyleking/copier-template-tester"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/61/17434d4106f0118facc4a98534b249531071d479197318810db9c9321973/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

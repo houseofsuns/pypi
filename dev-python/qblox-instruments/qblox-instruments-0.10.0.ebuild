@@ -15,7 +15,7 @@ DESCRIPTION="Instrument drivers for Qblox devices."
 
 HOMEPAGE="https://gitlab.com/qblox/packages/software/qblox_instruments"
 LICENSE="BSD 4-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/c0/d2/83c26d3fb9bf7a11960aa06400a1d5d13d17ff11a44632ad0d01742d4a2e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

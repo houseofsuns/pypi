@@ -15,7 +15,7 @@ DESCRIPTION="Python API for TP-Link Kasa Smarthome devices"
 
 HOMEPAGE="https://github.com/python-kasa/python-kasa"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/00/f6/c67b14c5fbdf75dac5a889895632857e0f417a6e99a4624101b99887ec4c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

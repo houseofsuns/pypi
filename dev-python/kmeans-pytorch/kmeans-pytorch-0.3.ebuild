@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/subhadarship/kmeans_pytorch"
 LICENSE="License :: OSI Approved :: MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/40/3d/7686c2c8e907299ad3696273b9d8137f828593f81276625a20eda7dc3947/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

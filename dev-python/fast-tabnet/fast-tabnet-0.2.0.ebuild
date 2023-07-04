@@ -15,7 +15,7 @@ DESCRIPTION="TabNet for fastai"
 
 HOMEPAGE="https://github.com/mgrankin/fast_tabnet/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/85/9e/7533e5b88885e7a8323996b4cc6b48eb3b7b9bf0213ef63be45ce9223b4e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

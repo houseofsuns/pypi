@@ -15,7 +15,7 @@ DESCRIPTION="ÖREB Client"
 
 HOMEPAGE="https://gitlab.com/gf-bl/oereb_client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/26/3620585dbd5e50638fae656800eeb90a9b105c4ef1417c2516cef65f1637/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

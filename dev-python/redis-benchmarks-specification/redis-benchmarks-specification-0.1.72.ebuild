@@ -15,7 +15,7 @@ DESCRIPTION="The Redis benchmarks specification describes the cross-language/too
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/86/09/34fe3cd15cb149c008c4319a5542281e35f1d50d65c02fa6383280f83100/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

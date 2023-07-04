@@ -15,7 +15,7 @@ DESCRIPTION="FOSSLight Source Scanner"
 
 HOMEPAGE="https://github.com/fosslight/fosslight_source_scanner"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/27/ff/3108dd6e81bb9a442572c66e33637b3fd1da5dd0c7d54c61c393fea4939b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Dash component for building draggable and resizable grid layouts.
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/24/8b/b1639469a8b0cdd6f4d6625874f97984c3860897f856fbcb19fc71538f99/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A middleware and a set of handlers to handle Code Grant authenticat
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/93/8f0bdf1b4e2d260833e35e8cdf19c710261435158325e7aec4eae70c81aa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

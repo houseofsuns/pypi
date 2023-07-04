@@ -15,7 +15,7 @@ DESCRIPTION="Nautobot BGP Models Plugin"
 
 HOMEPAGE="https://github.com/nautobot/nautobot-plugin-bgp-models"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6e/32/33351a92bf89c1d57cc7ac28acd4d75a0f56230eeef3940736f5be803cbe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

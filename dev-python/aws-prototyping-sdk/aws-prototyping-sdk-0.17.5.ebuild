@@ -15,7 +15,7 @@ DESCRIPTION="aws-prototyping-sdk"
 
 HOMEPAGE="https://github.com/aws/aws-prototyping-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1a/0a/a1ce37bfbe8aa35c0e467c6b099d28e0e4fb5560a16cf4d8e53b61f4fb02/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

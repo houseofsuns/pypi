@@ -15,7 +15,7 @@ DESCRIPTION="A pipen cli plugin to check requirements for processes of a pipelin
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/ac/0d23f55edc48a92058a108790fa271c06ccd3a95ba2205dd40651dc53b9c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

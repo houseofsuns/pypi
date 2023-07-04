@@ -15,7 +15,7 @@ DESCRIPTION="Strawberry Django PubSub "
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/d7/72908e35f7224b547a240be35ce539177f534d65ba7bcf0c1cb58ee4ce63/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

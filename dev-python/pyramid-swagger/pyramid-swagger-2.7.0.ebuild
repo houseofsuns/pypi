@@ -15,7 +15,7 @@ DESCRIPTION="Swagger tools for use in pyramid webapps"
 
 HOMEPAGE="https://github.com/striglia/pyramid_swagger"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/33/78/5dbd7b2f8d185e4bb6d5e11a5260831378a744a9d8a0dc601926cc9083fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

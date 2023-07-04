@@ -15,7 +15,7 @@ DESCRIPTION="Python package to provide utilities for NHS Numbers, including vali
 
 HOMEPAGE="https://nhs-number.uk-fci.tech/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/8b/8b7a583eb223b5749faa832fc586ace9621f487daca894a9efda06cb273c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

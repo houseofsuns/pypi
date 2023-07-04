@@ -15,7 +15,7 @@ DESCRIPTION="Pupil Labs 2D Pupil Detector"
 
 HOMEPAGE="https://github.com/pupil-labs/pupil-detectors"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/28/f6f27580cf7fea0f37b590c41c55090358f175299ba700cccf51d75e2477/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

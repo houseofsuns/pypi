@@ -15,7 +15,7 @@ DESCRIPTION="A simple module which finds files with different secrets keys prese
 
 HOMEPAGE="https://github.com/valayDave/tell-me-your-secrets"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/ea/c25f4822b860924d5ef81b306ac7b58aad691b54b7c804721671f7fecb57/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

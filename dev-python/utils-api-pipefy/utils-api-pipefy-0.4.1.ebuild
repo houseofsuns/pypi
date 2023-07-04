@@ -15,7 +15,7 @@ DESCRIPTION="Ferramentas para otimizar o consumo paralelizado de api do pipefy, 
 
 HOMEPAGE="https://github.com/YuriMotoshima/utils-api-pipefy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/bd/5f65978c9d9036ea4cd91f6b45dca2b6bed23d55c3db3537263f04a30caa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

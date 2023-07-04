@@ -15,7 +15,7 @@ DESCRIPTION="Feature-rich robust FastAPI template"
 
 HOMEPAGE="https://github.com/s3rius/FastAPI-template"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/a1/51a56e59eb25638e5aec824b748dfa95d46d8acc1b0e86f545aa16659d8f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry Confluent Kafka instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-confluent-kafka"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/fd/a50129a0408b357f34111411e170fb78da04c1f99e6c530f96e4227d42f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

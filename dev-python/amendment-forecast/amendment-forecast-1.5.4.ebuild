@@ -15,7 +15,7 @@ DESCRIPTION="A forecaster for sales data"
 
 HOMEPAGE="https://github.com/amendmentai/forecast_models"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/70/fe9fe94338d3e5de5eb47c52a237ca7b71e207acfcd8c9cedfb86ca7b616/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

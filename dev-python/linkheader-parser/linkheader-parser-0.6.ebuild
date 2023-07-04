@@ -15,7 +15,7 @@ DESCRIPTION="Python parser for LinkHeader"
 
 HOMEPAGE="https://github.com/FlorianLouvetRN/linkheader_parser"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/85/da/6e5dce77b7459f5ae8af240978e1a1f0231d570ec2ee5df6aa0cb663e6b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

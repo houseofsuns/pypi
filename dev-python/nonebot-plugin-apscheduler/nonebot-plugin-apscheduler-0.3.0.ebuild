@@ -15,7 +15,7 @@ DESCRIPTION="APScheduler Support for NoneBot2"
 
 HOMEPAGE="https://github.com/nonebot/plugin-apscheduler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e6/d8/5194c1642c9f13f52e012c5e2d55263760532040e685ef22743e8cf53523/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

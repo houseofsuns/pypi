@@ -15,7 +15,7 @@ DESCRIPTION="CoopStarter Application"
 
 HOMEPAGE="http://git.happy-dev.fr/startinblox/applications/coopstarter/coopstarter-data"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/2c/cd8e92797cb17a4e050b7574f2763b236d18d1ddde0af5304ac76cd7feb4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

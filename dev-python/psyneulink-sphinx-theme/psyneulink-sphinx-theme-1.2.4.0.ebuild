@@ -15,7 +15,7 @@ DESCRIPTION="PsyNeuLink Sphinx Theme"
 
 HOMEPAGE="https://github.com/kmantel/psyneulink-sphinx-theme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/c2/ff771557b14168a04b4345e7f4595e90b27dfb600f3c9f335db0f005ed67/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

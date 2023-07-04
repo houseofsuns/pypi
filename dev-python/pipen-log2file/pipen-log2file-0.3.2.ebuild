@@ -15,7 +15,7 @@ DESCRIPTION="Add verbosal information in logs for pipen."
 
 HOMEPAGE="https://github.com/pwwang/pipen-log2file"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/9c/4ef6cd128fe02caecaaefbacc560c38546e64562f92c94a0d7362c865c41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

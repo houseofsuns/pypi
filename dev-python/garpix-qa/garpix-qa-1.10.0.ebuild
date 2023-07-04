@@ -15,7 +15,7 @@ DESCRIPTION="Checking the Django project for quality"
 
 HOMEPAGE="https://github.com/garpixcms/garpix_qa"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/89/f3/e621039002292d562bb15ba08143e3cef4743af7e0e7023ba773c911b796/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

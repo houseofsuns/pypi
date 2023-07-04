@@ -15,7 +15,7 @@ DESCRIPTION="Quickly annotate data in Jupyter notebooks."
 
 HOMEPAGE="https://github.com/dennisbakhuis/pigeonXT"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4b/6c/a212b35ec09e98d10c71a419a9b39bf7bd37d5265cee71259384fffc449a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

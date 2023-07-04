@@ -15,7 +15,7 @@ DESCRIPTION="A set of tools for nb handling"
 
 HOMEPAGE="https://github.com/wandb/nb_helpers/tree/main/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3e/a0/22b53253444c052a8b17ca750d4f1e370d98b9ffe13bae4ce4d75fcedaf9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

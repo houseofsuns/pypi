@@ -15,7 +15,7 @@ DESCRIPTION="Grading for WQET"
 
 HOMEPAGE="https://github.com/dominiek/wqet-grader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e5/17/86f339b9272212b5bc63e93322818e897b207a28ac1b6bb1984c4fbc3d39/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

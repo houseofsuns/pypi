@@ -15,7 +15,7 @@ DESCRIPTION="An easy to use and powerful python-based data exploration and analy
 
 HOMEPAGE="https://github.com/cmmorrow/sci-analysis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ec/4b/011af4741840b4c338d0278bbd0a436d18aa0467e2382160847226ac2366/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

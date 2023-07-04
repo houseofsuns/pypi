@@ -15,7 +15,7 @@ DESCRIPTION="A Firebolt provider for Apache Airflow"
 
 HOMEPAGE="https://github.com/firebolt-db/airflow-provider-firebolt"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/99/ae/e855f1d82d29646f751151c24558bc8cc1ba7c2fe993ce24ca33eb1c58b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

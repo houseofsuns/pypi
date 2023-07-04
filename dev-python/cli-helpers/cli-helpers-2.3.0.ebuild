@@ -15,7 +15,7 @@ DESCRIPTION="Helpers for building command-line apps"
 
 HOMEPAGE="https://github.com/dbcli/cli_helpers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/01/6aaa4fc415274ac77372b4d259c234b9f5bfc8d78144c3fda1f3019d4690/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

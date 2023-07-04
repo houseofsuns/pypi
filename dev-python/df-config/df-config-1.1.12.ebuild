@@ -15,7 +15,7 @@ DESCRIPTION="Smart default settings for Django websites"
 
 HOMEPAGE="https://github.com/d9pouces/df_config"
 LICENSE="CeCILL-B"
-SRC_URI="https://files.pythonhosted.org/packages/72/16/544f525d55023e9cb4ad1321007c9cfe7a737632596581826ecae127cc98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

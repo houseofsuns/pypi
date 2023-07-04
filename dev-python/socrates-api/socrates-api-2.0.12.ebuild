@@ -15,7 +15,7 @@ DESCRIPTION="Source of Truth for hardware, virtual machines, and networks"
 
 HOMEPAGE="https://github.com/dhozac/socrates_api"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d6/85/6a37769e9942dcbb4ece24da335390c98b681ae01deba19a8c9d2b4dba7f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

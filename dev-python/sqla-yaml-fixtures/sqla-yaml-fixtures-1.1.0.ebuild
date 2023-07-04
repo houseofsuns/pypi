@@ -15,7 +15,7 @@ DESCRIPTION="Load YAML data fixtures for SQLAlchemy"
 
 HOMEPAGE="https://github.com/schettino72/sqla_yaml_fixtures"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/2f/bc2a7ecef447cffecb34b4122cdb63f218406da514a2b5de12271d033070/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

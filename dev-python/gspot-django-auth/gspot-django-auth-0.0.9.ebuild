@@ -15,7 +15,7 @@ DESCRIPTION="A Django app for auth."
 
 HOMEPAGE="https://github.com/DJWOMS/GSpot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/ea/91c2a38e18147795bef20101500490b8324878e96a0808af6bac177422f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

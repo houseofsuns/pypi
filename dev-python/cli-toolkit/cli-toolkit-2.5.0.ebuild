@@ -15,7 +15,7 @@ DESCRIPTION="Classes to implement CLI commands in python"
 
 HOMEPAGE="https://github.com/hile/cli-toolkit"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/75/a3/178397dd44c90ab588cd97b937f1164708a683d2894b8a5499bf92f19d4c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

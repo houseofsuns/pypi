@@ -15,7 +15,7 @@ DESCRIPTION="Provides an API to the Lutron Smartbridge"
 
 HOMEPAGE="https://github.com/gurumitts/pylutron-caseta"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a0/37/6caca9d22a4beb3ecae97c453929b9947eb5a6c3dd0afc84ee3e15c9956d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

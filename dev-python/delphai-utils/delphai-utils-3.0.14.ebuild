@@ -15,7 +15,7 @@ DESCRIPTION="delphai backend utilities"
 
 HOMEPAGE="https://github.com/delphai/delphai-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/38/a128c94f458ce90a461a870fcfdb82e8765cab14f886f876be5cab0599a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

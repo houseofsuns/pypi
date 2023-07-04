@@ -15,7 +15,7 @@ DESCRIPTION="EDN format reader and writer in Python"
 
 HOMEPAGE="https://github.com/swaroopch/edn_format"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f7/7e/f83b0a61d33b3bcb7c586cc721a6bc2b2ece7cd2aad014df6708d10e0c9f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Middleware to allow authorization using Keycloak and Django"
 
 HOMEPAGE="https://github.com/urbanplatform/django-keycloak-auth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/18/eb/a7695293a4b92fa61f8d390910048e9addb1ef10d92d328edb77027977bb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

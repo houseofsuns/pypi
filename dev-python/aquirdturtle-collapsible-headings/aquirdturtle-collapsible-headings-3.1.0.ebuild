@@ -15,7 +15,7 @@ DESCRIPTION="Make headings collapsible like the old Jupyter notebook extension a
 
 HOMEPAGE="https://github.com/aquirdTurtle/Collapsible_Headings.git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2e/c4/2621ee80d0602b23d7001adf528558f91605e4dbc257125dc6d4cfd201c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

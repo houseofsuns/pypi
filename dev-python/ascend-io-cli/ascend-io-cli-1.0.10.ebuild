@@ -15,7 +15,7 @@ DESCRIPTION="The Ascend CLI"
 
 HOMEPAGE="https://www.ascend.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a5/a6/00c4883472d47651dfb295b645be3aecf59592911a9bcb62713830ecdb1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

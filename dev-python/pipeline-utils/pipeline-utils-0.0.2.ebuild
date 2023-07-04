@@ -15,7 +15,7 @@ DESCRIPTION="Utility functions for Coral Atlas Pipelines"
 
 HOMEPAGE="https://github.com/CoralMapping/proc_pipeline_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/ed/66a6e32e185edc477f2c1be759e283e538936af7d1b7d487ee5b3a31f4c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

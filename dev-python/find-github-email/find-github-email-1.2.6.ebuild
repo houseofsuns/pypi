@@ -15,7 +15,7 @@ DESCRIPTION="Find any GitHub user’s email address"
 
 HOMEPAGE="https://github.com/UdhavPawar/find_github_email"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/ff/51043b6f56d8ed229912bc040228e349fc7f2d65bc44042c595ebf75aa6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

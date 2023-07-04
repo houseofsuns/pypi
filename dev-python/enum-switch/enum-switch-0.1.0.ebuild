@@ -15,7 +15,7 @@ DESCRIPTION="An Enum-based implementation of switch for Python."
 
 HOMEPAGE="https://github.com/ralsina/enum_switch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/d3/81f9da74d8ae4f1406bf0d3cb9451d543bffb037463badf71d2a3f1bd7b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

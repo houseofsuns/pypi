@@ -15,7 +15,7 @@ DESCRIPTION="带带弟弟小工具"
 
 HOMEPAGE="https://gitee.com/duquan1995/dq-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/13/036b2487322e440420ed58b620fabaa05f38d685d3351e91a666eb36d12e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

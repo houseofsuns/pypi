@@ -15,7 +15,7 @@ DESCRIPTION="encapsulate logger"
 
 HOMEPAGE="https://github.com/Special-Week/nonebot_plugin_impact"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/ba/d05fdd3a46bee83367ff4a90df8cf70879e9edd7ebe002a497adbeabdf78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

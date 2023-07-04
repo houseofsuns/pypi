@@ -15,7 +15,7 @@ DESCRIPTION="Python API for Photoshop."
 
 HOMEPAGE="https://github.com/loonghao/photoshop-python-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/78/f6f025c0601df00089a586b3d86111845e06e7080f7518400d6bdeb9d3e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

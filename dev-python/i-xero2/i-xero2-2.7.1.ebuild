@@ -15,7 +15,7 @@ DESCRIPTION="Custom connector to Xero"
 
 HOMEPAGE="https://github.com/aracnid/i-xero2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/ac/d6c2b4bb30a030c3d4d1664fcdca563d2dd9d8d73e17c89156dbeebb9902/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

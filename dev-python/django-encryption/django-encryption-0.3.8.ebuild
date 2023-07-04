@@ -15,7 +15,7 @@ DESCRIPTION="A set of fields that wrap standard Django fields with encryption pr
 
 HOMEPAGE="https://github.com/piiano/vault-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0a/42/6d2637ff91b53729dbe07fd5875ab4b7cd70785b41649c6fe49c305b7d86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

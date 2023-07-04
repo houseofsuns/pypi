@@ -15,7 +15,7 @@ DESCRIPTION="Analysis for the UK Department for Transport's major projects portf
 
 HOMEPAGE="https://github.com/banillie/analysis_engine"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f2/cf/2ad8d3aa4dd6fcc35e8f4ecbf9dde95d9f663f8dc8881e7999f1a5ef9d6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

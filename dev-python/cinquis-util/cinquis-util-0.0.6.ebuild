@@ -15,7 +15,7 @@ DESCRIPTION="Code Inquisitor Utilities"
 
 HOMEPAGE="https://github.com/Moore-Technologies-LLC/cinquis-util"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/1b/f05816217c6f20da9a307827d03ad00a32f31fa3aa28fd9a41fcbe11d92c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

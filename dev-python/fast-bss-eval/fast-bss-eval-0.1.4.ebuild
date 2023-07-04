@@ -15,7 +15,7 @@ DESCRIPTION="Package for fast computation of BSS Eval metrics for source separat
 
 HOMEPAGE="https://github.com/fakufaku/fast_bss_eval"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/df/9095cedbb89aa308c34b692f65fb9f4405c7fea735feeea8ce3148a66f43/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

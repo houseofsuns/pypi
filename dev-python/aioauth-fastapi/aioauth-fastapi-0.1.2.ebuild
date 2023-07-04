@@ -15,7 +15,7 @@ DESCRIPTION="aioauth integration for FastAPI."
 
 HOMEPAGE="https://github.com/aliev/aioauth-fastapi"
 LICENSE="The MIT License MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a5/c0/a4f63ef688908b76bc558e72b9bb53ead47040c224d7d2bbe5f7f99a3f6f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

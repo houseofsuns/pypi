@@ -15,7 +15,7 @@ DESCRIPTION="Review repos for compliance to the Scientific-Python development gu
 
 HOMEPAGE="https://scientific-python.github.io/cookie"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2b/6e/bad7ba9d82d7b18e2b02bce86538e07ca6495ad40939272ea40ec7a0763d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

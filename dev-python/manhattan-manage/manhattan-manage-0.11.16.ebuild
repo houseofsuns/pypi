@@ -15,7 +15,7 @@ DESCRIPTION="Classes and views for managing documents in a manhattan project."
 
 HOMEPAGE="https://git.getme.co.uk/manhattan/manhattan_manage"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/38/6ed397483fb45c150218dabcc60491885321382f3095dada598c0c96df0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

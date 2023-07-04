@@ -15,7 +15,7 @@ DESCRIPTION="Python Pachyderm Client"
 
 HOMEPAGE="https://github.com/pachyderm/python-pachyderm"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5c/c4/38d23a77fc33da7d18fd5fdf0e3f1700107cb6d1aefb55d0586b6299c964/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

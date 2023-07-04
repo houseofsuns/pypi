@@ -15,7 +15,7 @@ DESCRIPTION="Seamless operability between C++11 and Python"
 
 HOMEPAGE="https://github.com/pybind/pybind11"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b7/31/351aa24d2203d99094ddf81b533cd103b29568344464d9f1e3d84f958f5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

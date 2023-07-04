@@ -15,7 +15,7 @@ DESCRIPTION="API wrapper for Jira CRM Graph written in Python"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e6/b6/4d1671b37ef9745353c7954ce9f3e9caaba0b25a9208eb9b57ab12f173db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="You can use \`TaskTimer\` to automatically calculate and execute wh
 
 HOMEPAGE="https://github.com/birdhouses/TaskTimer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/ce/0c6736e19a98f90278f4b7ad643257cbcb5a42c001336960c958c5d736aa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

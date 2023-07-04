@@ -15,7 +15,7 @@ DESCRIPTION="Python client for Prefab Feature Flags, Dynamic log levels, and Con
 
 HOMEPAGE="https://www.prefab.cloud"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/38/24686ca69abd11b9512a1eb92c6a6df7512cff2184b06efcbbebffb0f11b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Show how to structure a Python project."
 
 HOMEPAGE="https://github.com/SoundOn/podcast-app-user-agents.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/b9/8085d544dace609af93381d0bd0baf6bb93cb9fa6719cbfb2dd58dc6117e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

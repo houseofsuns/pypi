@@ -15,7 +15,7 @@ DESCRIPTION="JSON Schema Specifications for ECS Compose-X"
 
 HOMEPAGE=""
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5f/e5/24ab2d0485c2da8e80a6cb2f4f1f9d92ee1866d62fab597ab79531e91938/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

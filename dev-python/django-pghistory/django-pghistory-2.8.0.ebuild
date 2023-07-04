@@ -15,7 +15,7 @@ DESCRIPTION="History tracking for Django and Postgres"
 
 HOMEPAGE="https://github.com/Opus10/django-pghistory"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b0/43/71b6864d7f18d3a19b0e2764cb4f17edb1e02fe5564362741b94d0de931e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

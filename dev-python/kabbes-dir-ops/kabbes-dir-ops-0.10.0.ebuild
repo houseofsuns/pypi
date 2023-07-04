@@ -15,7 +15,7 @@ DESCRIPTION="Handy directory operations"
 
 HOMEPAGE="https://pypi.org/project/kabbes-dir-ops/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/c5/e409aa2fe341d64bd97fef7f9ad5f63229b75997f2c9f679255a0e2d8719/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

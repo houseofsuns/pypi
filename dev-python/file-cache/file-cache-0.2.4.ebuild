@@ -15,7 +15,7 @@ DESCRIPTION="Cache dataframe with local hd5 file, and reduce the memory by conve
 
 HOMEPAGE="https://github.com/Flyfoxs/file_cache"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/8d/7c710c3a05487efd28bc009035d8f30d11a4aa0e38abb652bb21c7195b12/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

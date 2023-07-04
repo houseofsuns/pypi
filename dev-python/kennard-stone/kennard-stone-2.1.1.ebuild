@@ -15,7 +15,7 @@ DESCRIPTION="A method for selecting samples by spreading the training data evenl
 
 HOMEPAGE="https://github.com/yu9824/kennard_stone"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/97/1bc1d24bcc6d3cbd41eabda6dde572c0966c12adcf19026b3cd835a5a7a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

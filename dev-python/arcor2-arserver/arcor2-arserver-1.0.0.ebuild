@@ -15,7 +15,7 @@ DESCRIPTION="ARCOR2 ARServer"
 
 HOMEPAGE=""
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/fc/1c/2eaa46ed068b995d15972848ef1d1b9bbf64c1f879537ccb4255bbbe5b88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

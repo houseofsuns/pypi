@@ -15,7 +15,7 @@ DESCRIPTION="Launch a Dask cluster from a virtual environment"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/df/d44b1344d94176ec193bf0c758ad621e0f6521070b402a6d0e236dd85c37/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

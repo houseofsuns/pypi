@@ -15,7 +15,7 @@ DESCRIPTION="null"
 
 HOMEPAGE="http://www.example.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/38/de/68101153f6cf9832a2b7875a90ee5b841435bd8bf69e44262e37e09e35af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

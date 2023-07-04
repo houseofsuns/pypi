@@ -15,7 +15,7 @@ DESCRIPTION="A simple dataframe implementation using numpy as its basic element"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/a8/a8beb29366e66fd74302761ec82b4806800fdc380e0d48008caecf5c54e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

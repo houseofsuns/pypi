@@ -15,7 +15,7 @@ DESCRIPTION="Integration of IWNLP-py as spaCy extension"
 
 HOMEPAGE="https://github.com/Liebeck/spacy-iwnlp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/22/f9/e16ce6804637d90c3ecb09606b4e0e75c3471b48784f8d97dff8965afda1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

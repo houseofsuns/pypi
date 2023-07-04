@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper over tqdm for automatically handle switch between jupyter a
 
 HOMEPAGE="https://github.com/LucaCappelletti94/auto_tqdm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/12/cfd386c6df70923fc99342e46667a10750d7db54c11dafcb0d6feedb457b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

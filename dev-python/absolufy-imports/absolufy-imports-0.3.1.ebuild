@@ -15,7 +15,7 @@ DESCRIPTION="A tool to automatically replace relative imports with absolute ones
 
 HOMEPAGE="https://github.com/MarcoGorelli/absolufy-imports"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/0f/9da9dc9a12ebf4622ec96d9338d221e0172699e7574929f65ec8fdb30f9c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

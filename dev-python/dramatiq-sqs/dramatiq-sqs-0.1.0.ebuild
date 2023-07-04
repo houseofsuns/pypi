@@ -15,7 +15,7 @@ DESCRIPTION="An Amazon SQS broker for Dramatiq."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d5/14/d9c43810af230a7d5c2653d6bcb10cc1dd755c9febd254889a6d0b3c3ce2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

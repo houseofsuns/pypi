@@ -15,7 +15,7 @@ DESCRIPTION="Python library to deliver sensor specific support to ESDN infrastru
 
 HOMEPAGE="https://github.com/ECU-Sensing/esdn_sensing"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1b/0b/36e28fb10bbc4e7193d026cd45efbf0a350b76ca49b42bb6bed45ec18aca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

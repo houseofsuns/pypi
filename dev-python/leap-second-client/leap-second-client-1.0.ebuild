@@ -15,7 +15,7 @@ DESCRIPTION="Find the next leap second using IERS-OP web service."
 
 HOMEPAGE="https://github.com/zed/leap-second-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/17/e595e29de7936da4a4fdbc14b8b55689702badd76d14ead00772a6fe3237/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

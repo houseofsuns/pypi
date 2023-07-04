@@ -15,7 +15,7 @@ DESCRIPTION="A collection of tools to build function based Django APIs"
 
 HOMEPAGE="https://github.com/kolonialno/django-api-decorator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8f/ec/bd3f3ac04c97f36e7addf8b02a087204882c75c75e1b9a970e8d01a6c883/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python base package for IBM SOAR apps App Config Plugins"
 
 HOMEPAGE="https://github.com/ibmresilient/resilient-python-api/tree/main/resilient-app-config-plugins"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/09/50/1fa3a8cb8cef38d642c87aa17e7e3b15abea012d6b911703fea00dcb07e7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

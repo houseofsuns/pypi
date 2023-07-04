@@ -15,7 +15,7 @@ DESCRIPTION="Databricks API client auto-generated from the official databricks-c
 
 HOMEPAGE="https://github.com/crflynn/databricks-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/6b/8e16b793108f0dc8d5d23516d26b377ef2eccea4e19a5b6a11893459ddd0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

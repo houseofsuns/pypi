@@ -15,7 +15,7 @@ DESCRIPTION="The Abstract Open Traffic Generator Python Package"
 
 HOMEPAGE="https://github.com/open-traffic-generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/88/62/d7f8964ed6ddb6c261cc34a1721ad392470d265ade3ed1dc4127a9cb763a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

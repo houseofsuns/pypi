@@ -15,7 +15,7 @@ DESCRIPTION="Pytest plugin for testing function idempotence."
 
 HOMEPAGE="https://github.com/tyleryep/pytest-idempotent"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4d/e2/01f4aed845fb34a0ff49922d8b0cc5bd8ead835922887a03e31da823706d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

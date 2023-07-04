@@ -15,7 +15,7 @@ DESCRIPTION="An extender for aiogram to make it more OOP"
 
 HOMEPAGE="https://github.com/drforse/aiogram_oop_framework"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/19/ff/3fe898c957578df2c26ce179d0bbb54d26950db65d95829aae5f824bcd3d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

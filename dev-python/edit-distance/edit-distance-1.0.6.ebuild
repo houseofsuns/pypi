@@ -15,7 +15,7 @@ DESCRIPTION="Computing edit distance on arbitrary Python sequences."
 
 HOMEPAGE="https://github.com/belambert/editdistance"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/16/b2/27b30ff8c251012789f0976de74a5b497a03ab259c7ae2b08502b81618bb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

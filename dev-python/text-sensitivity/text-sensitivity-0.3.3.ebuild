@@ -15,7 +15,7 @@ DESCRIPTION="Extension of text_explainability for sensitivity testing (robustnes
 
 HOMEPAGE="https://git.science.uu.nl/m.j.robeer/text_sensitivity"
 LICENSE="GNU LGPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/3a/e4/ab3bae1ad306176c73838f59b68a809f1158a4ce4ed4bf97d820d694ce3a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

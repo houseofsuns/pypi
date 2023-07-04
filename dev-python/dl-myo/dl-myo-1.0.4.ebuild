@@ -15,7 +15,7 @@ DESCRIPTION="Yet another MyoConnect alternative without dongles"
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/70/60/bfe59ed884f4afacbda8a0506ba029ba343e8c1f379f7d15f4c0a5c1ab4f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Label lines in matplotlib."
 
 HOMEPAGE="https://github.com/cphyc/matplotlib-label-lines"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/46/99b6d2f3477e58fc028a29178866d8d301edd2cea20b56023083a0bd621e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

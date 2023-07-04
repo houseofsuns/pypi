@@ -15,7 +15,7 @@ DESCRIPTION="Command line utilities for Data Station application management"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f1/b5/037f4ec79c14b149fbbcc826341219346d3c074b6f766a7492d07ecf973c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

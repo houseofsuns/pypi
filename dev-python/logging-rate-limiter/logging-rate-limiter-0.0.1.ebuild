@@ -15,7 +15,7 @@ DESCRIPTION="rate limiting filter for python logging module."
 
 HOMEPAGE="https://github.com/jha-hitesh/logging-rate-limiter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/38/b9/905da7c1fc339a23d211369004167efdc9374aac29383521cfe48528ba45/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

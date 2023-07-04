@@ -15,7 +15,7 @@ DESCRIPTION="An unofficial Dynalite DyNET interface creating devices."
 
 HOMEPAGE="https://github.com/ziv1234/python-dynalite-devices"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ca/70/7e2734d59feaff9734aaaddd7c46d323f3755d64eb7d1e6dae25256d40a4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

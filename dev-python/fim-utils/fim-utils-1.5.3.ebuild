@@ -15,7 +15,7 @@ DESCRIPTION="This is a package of Information Model utilitied for FABRIC"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/db/311ad1829088133589e6e0a4e46fcc09f2855e0452ef573861e5757d03c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

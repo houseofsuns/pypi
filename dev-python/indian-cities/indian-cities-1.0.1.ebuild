@@ -15,7 +15,7 @@ DESCRIPTION="Django Indian Cities"
 
 HOMEPAGE="https://github.com/chayandatta/django_indian_cities"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/73/74fefcccfbddd601b4adc16c5c57e3b2352caa219beae8a2e1f75467f68f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Netbox Plugin - Integrate Proxmox and Netbox"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b1/80/d653d81ef44eed6cc88ad6af83d725e7489e10576a77c75e2de7f5a605be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

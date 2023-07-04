@@ -15,7 +15,7 @@ DESCRIPTION="Authentication utils for Django"
 
 HOMEPAGE="http://github.com/matthiask/django-authlib/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/49/c8/eb262afa7c1a10a697f619adf5963d20dea603a62f3068bb6e370395d55b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

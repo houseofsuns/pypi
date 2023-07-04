@@ -15,7 +15,7 @@ DESCRIPTION="Parser for Wikipedia.org"
 
 HOMEPAGE="https://github.com/d3z-the-dev/wiki-fetch"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/34/1e/3fd6a17d5121f9c2bb7bf5ef6f87529477d15e97242804333c407d3b07f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

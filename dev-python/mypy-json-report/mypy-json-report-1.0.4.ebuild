@@ -15,7 +15,7 @@ DESCRIPTION="Generate a JSON report from your mypy output"
 
 HOMEPAGE="https://github.com/memrise/mypy-json-report"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7b/51/db80fa6a54eac5757fb0ed6356fd58c628efb9a6378a09179a57a4334a3e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

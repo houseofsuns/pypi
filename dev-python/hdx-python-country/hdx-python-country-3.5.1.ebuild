@@ -15,7 +15,7 @@ DESCRIPTION="HDX Python country code and exchange rate (fx) utilities"
 
 HOMEPAGE="https://github.com/OCHA-DAP/hdx-python-country"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a3/54/f66e6096a1796c587544ed9e15a8e495d3f87cb125d175b4b74c160ff969/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

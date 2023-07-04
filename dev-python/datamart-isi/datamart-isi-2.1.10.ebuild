@@ -15,7 +15,7 @@ DESCRIPTION="USC ISI implementation of D3M Datamart API"
 
 HOMEPAGE="https://github.com/usc-isi-i2/datamart-userend/tree/d3m"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/44/48b2fd7c8702566f7030a2948d2fe2c430f0706c153313914aaa4941b61f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

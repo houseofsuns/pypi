@@ -15,7 +15,7 @@ DESCRIPTION="API for creating GitHub bots and webhooks in Python."
 
 HOMEPAGE="https://github.com/NiklasRosenstein/python-github-bot-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/86/fbc374526481898e57d8f55f830ce893a91cc02373a65ff4bccef9be1eae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

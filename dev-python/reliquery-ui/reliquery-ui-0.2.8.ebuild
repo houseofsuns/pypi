@@ -15,7 +15,7 @@ DESCRIPTION="Science's Artifact Antiformat"
 
 HOMEPAGE="https://github.com/The-Dev-Effect/reliquery-ui"
 LICENSE="MIT OR Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/26/5d/bf515d8f77007fd6f1404f6dacface786f23564750ad508748f1cd963919/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

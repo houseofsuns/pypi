@@ -15,7 +15,7 @@ DESCRIPTION="Dash wrapper for Plotly's react-chart-editor"
 
 HOMEPAGE="https://github.com/BSd3v/dash-chart-editor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/b2/aca0092e4008335a21d255e19944939a4b3a134338f7c30143e669c849f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

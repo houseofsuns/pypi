@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/boxueliu/airflow_util"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/02/7c/f06088bee3b2d3a66c7bd0992b976846280c62a7bb3ffe5262cc693716a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

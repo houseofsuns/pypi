@@ -15,7 +15,7 @@ DESCRIPTION="High-end Gantt Chart Visualization for the Python Ecosystem"
 
 HOMEPAGE="https://www.highchartspython.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/36/57/73d59892796c1a36b413b9ec97c849c57abda79e569a6f642acb91bac023/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

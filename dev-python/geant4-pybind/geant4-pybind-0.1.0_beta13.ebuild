@@ -15,7 +15,7 @@ DESCRIPTION="Alternative python bindings for Geant4 via pybind11"
 
 HOMEPAGE="https://github.com/HaarigerHarald/geant4_pybind"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/7e/e7/c30bc846e8bd362e002c6372d5317befdfe1932e2d392a6a9f8f3155c294/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

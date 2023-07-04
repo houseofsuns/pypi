@@ -15,7 +15,7 @@ DESCRIPTION="Open source document management system for digital archives"
 
 HOMEPAGE="https://www.papermerge.com/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b9/7a/8b1109a78059243b86b7fb983de249222e26cc6a684543e479b060bfc5c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

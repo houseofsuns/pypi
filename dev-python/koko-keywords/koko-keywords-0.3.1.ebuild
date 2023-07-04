@@ -15,7 +15,7 @@ DESCRIPTION="A python client  for the Koko Keywords API. The client handles cach
 
 HOMEPAGE="https://github.com/kokocares/keywords-client/python/client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/d0/bcbdc0e437ac1f3c2dd9b7bf1b2bf9d5d8f713d791a82bfb8947bfc7369d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

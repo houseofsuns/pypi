@@ -15,7 +15,7 @@ DESCRIPTION="Inter-Service communication framework, support for microservice arc
 
 HOMEPAGE="https://github.com/minhtuan221/Microservices-connector"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ca/89/b059c991627de4a614fd001b34e7f8a25ba23fb87d8eaeeaf5b548f3928c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

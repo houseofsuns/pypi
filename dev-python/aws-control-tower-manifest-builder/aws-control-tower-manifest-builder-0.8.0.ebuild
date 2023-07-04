@@ -15,7 +15,7 @@ DESCRIPTION="Python package to automatically build the AWS Control Tower Manifes
 
 HOMEPAGE="https://github.com/gabrielbac/aws_control_tower_manifest_builder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/8a/19755d6cd1b9059becfd77990d6eb8ae8cbf4ec877dd216c7a095b8951be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

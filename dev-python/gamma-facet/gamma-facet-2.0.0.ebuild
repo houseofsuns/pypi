@@ -15,7 +15,7 @@ DESCRIPTION="Human-explainable AI."
 
 HOMEPAGE="https://github.com/BCG-Gamma/facet"
 LICENSE="Apache Software License v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/53/00/863e48a293b20d8ee16bcba03ba99de56a50e1f8c28191c98e4c2aea09cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

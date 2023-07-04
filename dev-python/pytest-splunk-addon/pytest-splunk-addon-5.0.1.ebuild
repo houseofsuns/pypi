@@ -15,7 +15,7 @@ DESCRIPTION="A Dynamic test tool for Splunk Apps and Add-ons"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a4/9d/752e2cc0e6b85556bf34c2137009199e8098229825ec082bba098f7c3154/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

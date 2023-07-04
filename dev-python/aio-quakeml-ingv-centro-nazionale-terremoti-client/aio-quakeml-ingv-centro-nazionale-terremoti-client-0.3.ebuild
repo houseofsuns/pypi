@@ -15,7 +15,7 @@ DESCRIPTION="An async INGV Centro Nazionale Terremoti (Earthquakes) QuakeML clie
 
 HOMEPAGE="https://github.com/exxamalte/python-aio-quakeml-ingv-centro-nazionale-terremoti-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4c/18/fcc6d8f1d27d9a2cd3e3714326174811f909a7257f889d6f9f580e2704f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

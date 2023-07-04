@@ -15,7 +15,7 @@ DESCRIPTION="OCR-D wrapper for detectron2 based segmentation models"
 
 HOMEPAGE="https://github.com/bertsky/ocrd_detectron2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/2c/43edc4c8b772685e855ab8d19cff22a77e8ff6246bad38b5fe3c9e650a2f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

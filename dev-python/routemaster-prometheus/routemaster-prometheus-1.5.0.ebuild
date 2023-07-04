@@ -15,7 +15,7 @@ DESCRIPTION="Prometheus metrics reporting for Routemaster."
 
 HOMEPAGE="https://github.com/thread/routemaster"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2f/aa/2a486aeeeeeddf747dfe6d7ce20e36f8301afc9900b097c75349e9e2f3f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

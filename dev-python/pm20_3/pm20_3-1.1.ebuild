@@ -15,7 +15,7 @@ DESCRIPTION="For cheating again.."
 
 HOMEPAGE="http://www.fa.ru/Pages/Home.aspx"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/be/6d63bd659f21f4f20139b2749fa39a08a4fc12394e5fa944071a8448725a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

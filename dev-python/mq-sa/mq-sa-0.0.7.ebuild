@@ -15,7 +15,7 @@ DESCRIPTION="Message queue for Interprocess communication"
 
 HOMEPAGE="https://github.com/SmashingAlpha/message-queue"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/f4/d66c9bce9d7bb8609395d8498fbe8b4ba9d55f1835f24aab51ed0b4266ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

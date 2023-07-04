@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://ofrak.com/"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/9e/50/8f1e5ec5276b76ffe544a8845786076959932d89eb815d55acdbf4c82591/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

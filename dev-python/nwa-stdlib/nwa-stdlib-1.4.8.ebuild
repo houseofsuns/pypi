@@ -15,7 +15,7 @@ DESCRIPTION="The NWA-stdlib module."
 
 HOMEPAGE="https://github.com/workfloworchestrator/nwa-stdlib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/28/58/f89d52a95263a47f0a7f9f978f5ae24888f77a7255f01f580036e322d465/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

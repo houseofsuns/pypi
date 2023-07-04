@@ -15,7 +15,7 @@ DESCRIPTION="Edit posts on your website"
 
 HOMEPAGE=""
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/6c/c5/3cf59cb7d51a63f2949c2767d6d00db3997a50261622012dbda69e82c80b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

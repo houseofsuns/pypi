@@ -15,7 +15,7 @@ DESCRIPTION="Smart object creation facility for Django."
 
 HOMEPAGE="https://github.com/model-bakers/model_bakery"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1b/9f/4f9cd35c9b493a2a23f92aad741dcc956824f36fa17a152bb24f1b1c5076/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

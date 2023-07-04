@@ -15,7 +15,7 @@ DESCRIPTION="API package for Server Monitoring Discord Bot"
 
 HOMEPAGE="https://github.com/NightKey/Server-monitoring-discord-bot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/a7/9cfbfee3528e0f75171d349bc6286bc0b6dfb5852c2dfe55836cc3c97a47/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

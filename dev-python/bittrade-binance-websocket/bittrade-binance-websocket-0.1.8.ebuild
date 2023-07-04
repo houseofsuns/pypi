@@ -15,7 +15,7 @@ DESCRIPTION="Reactive Websocket for Binance"
 
 HOMEPAGE="https://github.com/TechSpaceAsia/bittrade-binance-websocket"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4d/7b/a4d06972f877a052f4e09088e62bc9d1c95316753146ba3d44b4f6692eef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

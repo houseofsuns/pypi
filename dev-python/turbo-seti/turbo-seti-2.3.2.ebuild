@@ -15,7 +15,7 @@ DESCRIPTION="Analysis tool for the search of narrow band drifting signals in fil
 
 HOMEPAGE="https://github.com/UCBerkeleySETI/turbo_seti"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/ae/d16f70d81ccc38f0dd346be128b9f1698b8890d1e3bda87fe88e1d8c04c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Kubernetes library for Kraken"
 
 HOMEPAGE="https://github.com/redhat-chaos/krkn"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8e/04/5ed0203885569681e0e8de38ce9ea7e4b3101b03d5eb0366a38b1be94f67/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

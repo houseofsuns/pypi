@@ -15,7 +15,7 @@ DESCRIPTION="The Outspoken Market is training the next quantitative generation. 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/d2/f9d9303f5b5dcea0be49a83713564fb7b5666039998a06dc5ef0f4ff8ed7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

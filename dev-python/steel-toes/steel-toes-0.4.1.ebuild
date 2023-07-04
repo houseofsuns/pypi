@@ -15,7 +15,7 @@ DESCRIPTION="protection against stepping on teammates toes in a kedro project"
 
 HOMEPAGE="https://github.com/WaylonWalker/steel-toes"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/9b/f9b362f212743a149b52e2ba720ed8fc96473f7530b105acbefb62c92ac0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

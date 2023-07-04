@@ -15,7 +15,7 @@ DESCRIPTION="Selenium webdriver extension for Aloe"
 
 HOMEPAGE="https://github.com/aloetesting/aloe_webdriver/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/30/9cfe29e598b95ed3aa892b5dbf191e1b2c4e4ac692169fe29624f5fed448/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

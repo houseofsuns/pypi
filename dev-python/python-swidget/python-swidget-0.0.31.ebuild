@@ -15,7 +15,7 @@ DESCRIPTION="Python API for Swidget smart devices"
 
 HOMEPAGE="https://github.com/swidget/python-swidget"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/c1/39/282568d8d1323ea6a30b2b202ca0c7f8d6dcd751b6342d733967bfed4a09/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="MM is a package for running the greedy cover algorithm to perform m
 
 HOMEPAGE="https://github.com/euxhenh/multiset_multicover"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ec/05/bbf0285c3d5fb1934f9eb723ab296320a57f0cde90fbf9ccf185b0b817fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

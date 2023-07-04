@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/NiklasRosenstein/python-equilibrium"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/f5/a066e40bd8dd031ffd9b2931c4336ab5f6e434e8bcc378855694b3479a0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A snappi extension for measuring network convergence"
 
 HOMEPAGE="https://github.com/open-traffic-generator/snappi-convergence"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/ba/94edb356bc55b9b43add363d2881ecd8248bffea76bcf22f25ad7579c69c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

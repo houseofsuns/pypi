@@ -15,7 +15,7 @@ DESCRIPTION="Automatically distill large foundational models into smaller, in-do
 
 HOMEPAGE="https://github.com/autodistill/autodistill"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/0e/2a5108855bce454dda04be94cf96c9254a04b850de2f4cf6015f31b2b3bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

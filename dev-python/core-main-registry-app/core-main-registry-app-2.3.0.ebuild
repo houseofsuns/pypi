@@ -15,7 +15,7 @@ DESCRIPTION="Main functionalities for the registry project"
 
 HOMEPAGE="https://github.com/usnistgov/core_main_registry_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4d/a7/fd98e0e36b236eb88df69caf06993a4fc986ef93392b545040847afb221c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

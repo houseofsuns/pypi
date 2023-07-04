@@ -15,7 +15,7 @@ DESCRIPTION="The Banana CLI helps you build Potassium apps"
 
 HOMEPAGE="https://www.banana.dev"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/00/91/2dd5ca8a9aef439b633efb6170fcc79f447bea0bb57f7c8016393e3b5f2e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

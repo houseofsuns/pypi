@@ -15,7 +15,7 @@ DESCRIPTION="Converts a python class into a CLI program"
 
 HOMEPAGE="https://github.com/yoavhayun/CLI"
 LICENSE="GNU General Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/2e/d4/dd7ffebebb2e064789dac4d4ff80dfcace6f1fc605b7028568637c3eaf25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

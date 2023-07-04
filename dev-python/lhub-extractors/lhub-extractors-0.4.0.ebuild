@@ -15,7 +15,7 @@ DESCRIPTION="LogicHub Feature Extractors"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e0/87/83eb97b279ca218ed375e9e4d5ca281e5e30f6061b8942e3e55e3c2f78be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

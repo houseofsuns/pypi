@@ -15,7 +15,7 @@ DESCRIPTION="Python Mathematical Expression Evaluator"
 
 HOMEPAGE="https://github.com/AxiaCore/py-expression-eval/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/a0/3b006218f45931f02becaec93d18be203c62f4a30dd7b3c2e019539661b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

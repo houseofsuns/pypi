@@ -15,7 +15,7 @@ DESCRIPTION="Model summary in PyTorch, based off of the original torchsummary."
 
 HOMEPAGE="https://github.com/tyleryep/torchinfo"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ff/2f/57cb3b23bccae7fc639ab7ff8bb78c80f03e8c0a144bbc69bfd26b0757f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

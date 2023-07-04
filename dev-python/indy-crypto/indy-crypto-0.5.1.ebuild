@@ -15,7 +15,7 @@ DESCRIPTION="This is the official wrapper for Hyperledger Indy Crypto library (h
 
 HOMEPAGE="https://github.com/hyperledger/indy-crypto"
 LICENSE="MIT Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/21/a5/4f316cf4161e222ca81c9ed01b3fa7c4dd71499bc73c4112ab30d7bba76d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

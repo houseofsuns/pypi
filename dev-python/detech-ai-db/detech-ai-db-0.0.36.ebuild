@@ -15,7 +15,7 @@ DESCRIPTION="detech.ai Database programmatic functions & utils"
 
 HOMEPAGE="https://github.com/detech-ai/Data_Pipelines"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/1a/e01fa0bc4f97c1a687c8efa2ca5a432c40dce83d56aed0d742f3b7d6c186/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Best implementation of Antd components in Plotly Dash."
 
 HOMEPAGE="https://github.com/CNFeffery/feffery-antd-components"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/81/17fc6b7cca34abb81e767c58edbacfc6dbc509dc49bf7acfbfdcda1007ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Duer OS SmartHome APIs"
 
 HOMEPAGE="https://github.com/zsy056/dueros-smarthome"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/92/4f8f3f888c027438760eb80a7c9987e41dfa452c9e67faa498f069e40755/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

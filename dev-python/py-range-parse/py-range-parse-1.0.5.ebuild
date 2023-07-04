@@ -15,7 +15,7 @@ DESCRIPTION="Parses commonly used range notations to python objects"
 
 HOMEPAGE="https://github.com/markusressel/py-range-parse"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/28/60/f3ac14cf6c011b2fb331fd80163a6de900844737fb0a37876952a9635867/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

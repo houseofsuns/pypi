@@ -15,7 +15,7 @@ DESCRIPTION="Robocorp browser automation library"
 
 HOMEPAGE="https://github.com/robocorp/robo/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7b/af/c19da33de05f084e1516b6c646a123e2bf870b14ee44595cf142e416cf6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

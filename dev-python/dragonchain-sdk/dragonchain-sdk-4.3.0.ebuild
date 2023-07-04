@@ -15,7 +15,7 @@ DESCRIPTION="Dragonchain SDK for Python"
 
 HOMEPAGE="https://dragonchain.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/16/c7/c1ba29621b6cfa465abe0400475499ae6ade15c47a4cd853d32e0b84f69d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

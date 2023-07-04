@@ -15,7 +15,7 @@ DESCRIPTION="A classification plugin for the ROIs of a segmentation mask."
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ec/45/ac22b44458f0a861c03c5e048a95bf51ae4d5401ca0400ea666e903bba88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

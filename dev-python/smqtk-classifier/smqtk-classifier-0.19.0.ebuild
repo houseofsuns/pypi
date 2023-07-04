@@ -15,7 +15,7 @@ DESCRIPTION="Algorithms, data structures and utilities around performing classif
 
 HOMEPAGE="https://github.com/Kitware/SMQTK-Classifier"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/35/71/0ada98396c3cee8718eeb406038ef554f5aadb1503cf52ebc5bc1f2561ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

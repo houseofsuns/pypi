@@ -15,7 +15,7 @@ DESCRIPTION="made for opendatalab dsdl-sdk dev-cli branch(ignore other branches)
 
 HOMEPAGE="https://github.com/opendatalab/dsdl-sdk/tree/dev-cli"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/55/99/3a87e3c5a0d605f3e2294daafa3925a695b989c65a60a2bc4052915cf610/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

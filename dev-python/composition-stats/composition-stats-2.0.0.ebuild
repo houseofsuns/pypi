@@ -15,7 +15,7 @@ DESCRIPTION="compositional data analysis"
 
 HOMEPAGE="https://github.com/ntessore/composition_stats"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/56/dd/78da286398eec749c3c561cf98ef5a11483a0605659dec4d9bda5e2556f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

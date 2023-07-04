@@ -15,7 +15,7 @@ DESCRIPTION="An async python wrapper for the asuna api"
 
 HOMEPAGE="https://github.com/Senarc-Studios/asuna_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/3e/4ae9b73ba6043895e5edd7dd391b36e98544110dbcda7e1ac1acd5161869/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

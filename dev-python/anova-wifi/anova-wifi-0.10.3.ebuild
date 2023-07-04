@@ -15,7 +15,7 @@ DESCRIPTION="A package to get read only data from Anova precision cookers with w
 
 HOMEPAGE="https://github.com/conway220/anova-wifi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/40/64/9d5cd7e6d3d59f74362c2a98174bb4d4efeb2ae80aabcf230d898cdf5959/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

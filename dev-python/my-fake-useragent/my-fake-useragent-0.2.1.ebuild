@@ -15,7 +15,7 @@ DESCRIPTION="create a fake useragent"
 
 HOMEPAGE="https://github.com/a358003542/my-fake-useragent"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/12/64/358def34ed2ba6b775d1f7891cf67ca65653ef2435f84f56c5e4cabb8b39/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

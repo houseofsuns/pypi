@@ -15,7 +15,7 @@ DESCRIPTION="API Client to facilitate the use of the CryoET Portal. For more inf
 
 HOMEPAGE="https://github.com/chanzuckerberg/cryoet-data-portal"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/41/df37a5ac728e078923b441003e5b2e3561920f572217d4811bd51a6e3493/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

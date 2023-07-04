@@ -15,7 +15,7 @@ DESCRIPTION="A simple and effective way to gather machine statistics (RAM, Stora
 
 HOMEPAGE="https://github.com/tidalmigrations/machine_stats"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/15/2b/cbfa3497fbc1c8e1ad719bcd20b5eca0588d8b23a0f640e056e49c28dc27/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Get HTMl code from the Safari browser"
 
 HOMEPAGE="https://github.com/sdondley/get_html_from_safari"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cc/aa/32a6dc3bf32f6177e357324103e59a09fe41fb7fd71eac1b8f7880d1f0b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

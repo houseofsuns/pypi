@@ -15,7 +15,7 @@ DESCRIPTION="A performant and user-friendly reimplementation of UniRep in JAX."
 
 HOMEPAGE="https://github.com/ElArkk/jax-unirep"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f9/7c/953065dad12600a361f847a0e8d0180e6a95e28aa35b2cbcbc639a0921c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

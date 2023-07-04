@@ -15,7 +15,7 @@ DESCRIPTION="EVE Client API Library from Exodus Intelligence LLC."
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/35/a9/93b533b165f7b87df774337cfc4df624183ad86ef8e240bffb1f3e242fcd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

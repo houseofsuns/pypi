@@ -15,7 +15,7 @@ DESCRIPTION="th2_grpc_crawler_data_processor"
 
 HOMEPAGE="https://github.com/th2-net/th2-grpc-crawler-data-processor"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d8/17/be3e8da90476794ca8b5ee82272e2f30acaa543176d5e9b9e03ba54d867b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="CLI tools used in Codemagic builds"
 
 HOMEPAGE="https://github.com/codemagic-ci-cd/cli-tools"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/92/11/a04a78c6b003fa65807b214d7f4eda4bd8bdd65b52fa9987dd3f20a531d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

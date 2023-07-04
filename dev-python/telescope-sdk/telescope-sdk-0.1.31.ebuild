@@ -15,7 +15,7 @@ DESCRIPTION="Telescope Python SDK"
 
 HOMEPAGE="https://github.com/telescope-eng/telescope-python-sdk"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/9a/61/37b78e10f902c05bd58410bf6178ef643eb5b74dc8d177199b6025bc0135/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

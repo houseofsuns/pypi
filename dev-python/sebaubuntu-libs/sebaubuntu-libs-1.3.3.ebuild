@@ -15,7 +15,7 @@ DESCRIPTION="SebaUbuntu's shared libs"
 
 HOMEPAGE="https://github.com/sebaubuntu-python/sebaubuntu_libs"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e8/cb/c6bb853d57448f8ea57c1cedd2c22ef0dd5d08d832a0048ab277a733edc5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

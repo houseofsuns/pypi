@@ -15,7 +15,7 @@ DESCRIPTION="A Framework for Reinforcement Learning in Games"
 
 HOMEPAGE="https://github.com/deepmind/open_spiel"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ab/68/b408ada0202d52238d07e0de52de1098ac65c1ff25ddbf5c0da02318d3b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Powerful security network package"
 
 HOMEPAGE="https://github.com/abdal-security-group/abdal-net-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0a/a7/a7650d1abe36668f02096ec55d458ff9ee1c7828fbea0fcb79f813e0e753/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

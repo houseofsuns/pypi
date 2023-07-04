@@ -15,7 +15,7 @@ DESCRIPTION="OAuth support for Asyncio/Trio libraries"
 
 HOMEPAGE="https://github.com/klen/aioauth-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/91/94faf3ce9269861a8b3d009dc65755b8011f4822d2ef790499223619e24c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

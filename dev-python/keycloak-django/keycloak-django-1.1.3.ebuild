@@ -15,7 +15,7 @@ DESCRIPTION="keycloak-django is Python package providing access to custom apps"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/15/c32675bd3de4fad055eb0e1ef655fb9ea0af7cd67da83aba8eb87dc8bb00/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

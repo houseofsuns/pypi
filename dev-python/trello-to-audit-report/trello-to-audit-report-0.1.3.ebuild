@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/chainaccelorg/trello_to_audit_report"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/6a/3df82918931ac3ade45e1fd738d6f47e36d3ac902dd244e2fdd197975a54/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

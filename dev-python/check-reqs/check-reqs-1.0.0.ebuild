@@ -15,7 +15,7 @@ DESCRIPTION="Checks if all requirements from a file are installed in the current
 
 HOMEPAGE="https://github.com/renefritze/check_reqs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/48/83/e8f64695e90a0cebdaa94f3033f0ffaf66b61f7fa87a3fa1aa20a6434011/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A library to discover, try, install and share Streamlit extras"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e7/7f/1ae724448f02bc7b3e54052bfe5b2702073ec9e91feab38de4a491e61d8b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

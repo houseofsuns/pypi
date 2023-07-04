@@ -15,7 +15,7 @@ DESCRIPTION="Vault implementation in python software (Hashicorp)"
 
 HOMEPAGE="https://github.com/cisolutions-nl/py-sec-vault"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/4a/110b1de5cf99b90fca18084e04d9747cfec87a52980ba34b392b39477286/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python Package For Login Verification"
 
 HOMEPAGE="https://github.com/PythonProgramme/Python-Code"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/eb/0787b2a76463665bd7100517ec6ec176b31c4a1eed09553f9df8987c3c5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

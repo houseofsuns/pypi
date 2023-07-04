@@ -15,7 +15,7 @@ DESCRIPTION="Tools for building the Ansible Distribution"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/e4/89b69567e6e8e9fd1b2c54efec6ef6bd3287981c6cf12bdf8bf20f02a58b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Components for building distributions. Compatible for use with \`\`
 
 HOMEPAGE="https://github.com/ihmeuw/risk_distributions"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/0d/ae/faee534a499d333c6d563c9f73f6dc90e46192e9ebf4ce6b754495c2dbd6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

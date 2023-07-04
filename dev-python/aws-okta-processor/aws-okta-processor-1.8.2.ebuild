@@ -15,7 +15,7 @@ DESCRIPTION="Resource for fetching AWS Role credentials from Okta"
 
 HOMEPAGE="https://github.com/godaddy/aws-okta-processor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/bf/bc94113f7f44911f6455acdf1a2336187ea041b3b9a0e0998280b2511849/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

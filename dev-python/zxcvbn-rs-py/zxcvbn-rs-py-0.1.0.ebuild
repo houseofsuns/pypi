@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for zxcvbn-rs, the Rust implementation of zxcvbn"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/97/87/3af5dbc129696ca2de8e49fbbefe826c1fcd76a33727ac73bc6ba717c4ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

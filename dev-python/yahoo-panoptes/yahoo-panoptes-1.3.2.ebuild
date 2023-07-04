@@ -15,7 +15,7 @@ DESCRIPTION="Network Telemetry And Monitoring"
 
 HOMEPAGE="https://getpanoptes.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c1/6f/e9a4dcdf5f080fa2e13c4eb392630fa60ee7488be6e6e7f57800bed39128/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

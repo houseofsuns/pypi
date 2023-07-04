@@ -15,7 +15,7 @@ DESCRIPTION="Tortoise migrations for data, not structure"
 
 HOMEPAGE="https://github.com/Ekumen-OS/tortoise-data-migration"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c6/de/04be584865a98adceacba795da008f14f6519850885722485ea82bead3cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

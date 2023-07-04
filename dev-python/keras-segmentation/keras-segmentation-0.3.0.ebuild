@@ -15,7 +15,7 @@ DESCRIPTION="Image Segmentation toolkit for keras"
 
 HOMEPAGE="https://github.com/divamgupta/image-segmentation-keras"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/43/f0/b8def71a219c6a21f5201727082e846c560817712b3484e8f0c834c9c0e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

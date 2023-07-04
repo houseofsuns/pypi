@@ -15,7 +15,7 @@ DESCRIPTION="Scrollable textbox for Streamlit."
 
 HOMEPAGE="https://github.com/RobertoFN/streamlit-scrollable-textbox"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cd/c4/8dcbcbbd6109420333a06c124f771287d75ae6b328b7e3fb8d0216b32c07/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

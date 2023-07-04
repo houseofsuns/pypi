@@ -15,7 +15,7 @@ DESCRIPTION="This package is the Python SDK for Panoptes, the platform behind th
 
 HOMEPAGE="https://github.com/zooniverse/panoptes-python-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/88/3a/651b032d3c5c83b51586aa3ce1a0be5e2f84e93474d540d8ab19132972a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

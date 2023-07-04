@@ -15,7 +15,7 @@ DESCRIPTION="A type enforcer for python type annotations"
 
 HOMEPAGE="https://github.com/connor-makowski/type_enforced"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/3f/e09876b84f5fe5cbce4af49f2433cb68c4e30baa0270ce717160232cf1fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

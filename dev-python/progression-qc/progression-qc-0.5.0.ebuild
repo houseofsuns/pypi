@@ -15,7 +15,7 @@ DESCRIPTION="progression_qc est un compilateur/validateur pour la production de 
 
 HOMEPAGE="https://git.dti.crosemont.quebec/progression/validateur"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/d2/07/e418cbf7ff03977c2bada4054e6c118f15c68dcfe591ba221da96ed263a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

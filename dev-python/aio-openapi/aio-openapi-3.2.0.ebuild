@@ -15,7 +15,7 @@ DESCRIPTION="Minimal OpenAPI asynchronous server application"
 
 HOMEPAGE="https://github.com/quantmind/aio-openapi"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/22/40/de096e55dae4d70d854bf9424bd9f5efd8ed73a7ee90bc5d10e9a8c5f08b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

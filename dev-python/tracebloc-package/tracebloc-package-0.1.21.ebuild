@@ -15,7 +15,7 @@ DESCRIPTION="Package required to run Tracebloc jupyter notebook to create experi
 
 HOMEPAGE="https://gitlab.com/tracebloc/tracebloc-py-package"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/a9/e8afbd056e85a43b57ff0e5a934742d128ccc960ea845ad4685d26f967f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

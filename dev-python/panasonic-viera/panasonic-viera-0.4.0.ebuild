@@ -15,7 +15,7 @@ DESCRIPTION="Library to control Panasonic Viera TVs"
 
 HOMEPAGE="https://github.com/florianholzapfel/panasonic-viera"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/5e/56368d657f5d7f1b40e91de5437cb35863ea9ff0767e5c49e1c3b366e9fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

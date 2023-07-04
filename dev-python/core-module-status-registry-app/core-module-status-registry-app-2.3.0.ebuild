@@ -15,7 +15,7 @@ DESCRIPTION="Status registry module"
 
 HOMEPAGE="https://github.com/usnistgov/core_module_status_registry_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/ee/8934a7a615b0b28b12ab24f3fa5805a808412e5fea2ab46e7534c5f585e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

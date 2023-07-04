@@ -15,7 +15,7 @@ DESCRIPTION="An async Python wrapper for the Mining Pool Hub REST API"
 
 HOMEPAGE="https://github.com/CoryKrol/miningpoolhub_py"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/71/30/09ec13ee02768432f20b4b3e9bf656a2d81a12f0b0e813891b9dfef80ca3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

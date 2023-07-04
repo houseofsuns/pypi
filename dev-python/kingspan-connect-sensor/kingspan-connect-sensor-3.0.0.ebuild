@@ -15,7 +15,7 @@ DESCRIPTION="API to get oil tank from Kingspan SENSiT sensors"
 
 HOMEPAGE="https://github.com/masaccio/kingspan-connect-sensor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/96/ce62ae5b1fda4ce06c3425040d3e74a3d1c0cc5e1952fba083894e166cbd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Django RestFramework JSON Renderer Backed by orjson"
 
 HOMEPAGE="https://github.com/brianjbuck/drf_orjson_renderer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/c2/20717ad18ad22a2538dc7376743a1e9add5a90b49a153696a35468effba7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="aiolifx light effects"
 
 HOMEPAGE="https://github.com/amelchio/aiolifx_effects"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e7/66/036dc2c09899731185a58faf7537e6ac9bf51af120240eac8e2bc78d262c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

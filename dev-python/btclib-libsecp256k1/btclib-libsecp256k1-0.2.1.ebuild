@@ -15,7 +15,7 @@ DESCRIPTION="Simple python bindings to libsecp256k1"
 
 HOMEPAGE="https://btclib.org"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/e7/19b90385d5afacb9e2dcaf35c0a276a087a21b2cab159fae2a39a739d83c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

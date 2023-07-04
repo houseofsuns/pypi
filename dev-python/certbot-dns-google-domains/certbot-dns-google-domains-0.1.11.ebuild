@@ -15,7 +15,7 @@ DESCRIPTION="Certbot DNS authenticator for Google Domains"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2d/f7/639b9c8d197ebef21e65eaff29fdf965fbaf78a05d40d69fe45cb6573744/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

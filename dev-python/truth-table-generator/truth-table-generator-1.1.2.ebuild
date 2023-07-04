@@ -15,7 +15,7 @@ DESCRIPTION="Python API that auto generates truth tables"
 
 HOMEPAGE="https://github.com/chicolucio/truth-table-generator"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1b/f4/3680fa87771d5b48542578a36219a862ec16c82c0d3ef46bbcb020d23be9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

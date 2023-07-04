@@ -15,7 +15,7 @@ DESCRIPTION="A package of utilities for NSF Earthcube Geocodes Project"
 
 HOMEPAGE="https://www.earthcube.org/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f7/bd/d764dd4ab6a245850fba1d3d1fc835d4b8bba8126e100c637cd7cdfaefbd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Build keras generator for genomic application"
 
 HOMEPAGE="https://github.com/etirouthier/keras_dna"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e6/3f/d7547f57b696ad18f0b4aed35aed0492cc83d5fbd9cc9eaed96f534bacec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

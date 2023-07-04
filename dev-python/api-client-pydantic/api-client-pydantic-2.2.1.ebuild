@@ -15,7 +15,7 @@ DESCRIPTION="API Client extension for validate and transform requests / response
 
 HOMEPAGE="https://github.com/mom1/api-client-pydantic"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/d0/69967ca4bd5a243f6dfbb9d46db54671e170f97f624905ff925d3d4bc959/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

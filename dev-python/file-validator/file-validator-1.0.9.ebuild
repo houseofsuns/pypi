@@ -15,7 +15,7 @@ DESCRIPTION="Python validation library to validate files using type, mime, exten
 
 HOMEPAGE="https://github.com/file-validator/file-validator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/f0/2e6e840794d807c64f634e524fe637b2bb0aa6bb057565ad618d490e9c21/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

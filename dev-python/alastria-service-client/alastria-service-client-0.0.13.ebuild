@@ -15,7 +15,7 @@ DESCRIPTION="A small client for alastria service"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/88/00/630ce7bc8b33ca1a5daadd6b2a1b2cbead2cb916206dd5e583bd0ebc40a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

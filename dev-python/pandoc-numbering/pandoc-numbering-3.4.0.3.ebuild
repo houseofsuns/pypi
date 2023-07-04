@@ -15,7 +15,7 @@ DESCRIPTION="A pandoc filter for automatic numbering"
 
 HOMEPAGE="https://github.com/chdemko/pandoc-numbering"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/6e/ad/96c843fcc4ceed2f36d55ad0c1dd2bd21fedb0a92be4416b180420513d7c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

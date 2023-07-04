@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper package for using the moco api interface"
 
 HOMEPAGE="https://github.com/sommalia/moco-wrapper"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/e8/8e/d8394669cab3de66dc7372c75528bb3594725824bac8c5dede8ea552b8c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

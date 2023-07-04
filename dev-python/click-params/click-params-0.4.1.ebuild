@@ -15,7 +15,7 @@ DESCRIPTION="A bunch of useful click parameter types"
 
 HOMEPAGE="https://click-params.readthedocs.io/en/stable"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ba/e5/07f2619c406d5bf3051fd0977c4f3fdf8851f5be2b35df87c013fa8e1699/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

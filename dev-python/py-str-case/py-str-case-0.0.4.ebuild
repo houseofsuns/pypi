@@ -15,7 +15,7 @@ DESCRIPTION="String case converter"
 
 HOMEPAGE="https://github.com/ShivaShankerReddy/py_string_case"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/4d/1fbfbb950223706e1e6cb578d1c064c5ecf69217b08dad8d161b360df09a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

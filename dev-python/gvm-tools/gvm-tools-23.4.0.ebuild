@@ -15,7 +15,7 @@ DESCRIPTION="Tools to control a GSM/GVM over GMP or OSP"
 
 HOMEPAGE="https://github.com/greenbone/gvm-tools/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/ad/be/c94477dbe66be01d0f06b365392430f159a28574663bf4d1037a76d6e410/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Python tool to control monitor brightness on Windows and Linux"
 
 HOMEPAGE="https://github.com/Crozzers/screen_brightness_control"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d8/29/731fd9cf5a0cfe6a443e3ff003330ceefb4ec54d9398ad5b49c09849f685/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

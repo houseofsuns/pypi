@@ -15,7 +15,7 @@ DESCRIPTION="Sphinx extension for documenting SQLAlchemy ORMs"
 
 HOMEPAGE="http://github.com/chrisjsewell/sphinx-sqlalchemy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/50/50/c174d5bfc3544f50a512cd41ab724226fba6fa9276e2da0a2accfe8a6e76/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

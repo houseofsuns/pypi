@@ -15,7 +15,7 @@ DESCRIPTION="Azerothcore WOW server metadata for Fleet management."
 
 HOMEPAGE="https://github.com/MacHu-GWU/acore_server_metadata-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/da/5c2853a5d90282a47df227084b640a2dfebacbb7c5d9f2b41c74c6f72a6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

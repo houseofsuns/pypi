@@ -15,7 +15,7 @@ DESCRIPTION="A parser and modifier of the configuration in Milliman-CHESS"
 
 HOMEPAGE="https://dev.azure.com/millimanparis/CHESS-Sensitivity-Manager"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ec/21/b4b3ed6a60b6a3943fc8d4d720caf9b8be560aa308d8b387c68e39ea1544/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

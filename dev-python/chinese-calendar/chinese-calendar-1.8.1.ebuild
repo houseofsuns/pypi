@@ -15,7 +15,7 @@ DESCRIPTION="check if some day is holiday in China"
 
 HOMEPAGE="https://github.com/LKI/chinese-calendar"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/03/493c40e5e21f5318940f22c270152956afc3e9451b651682e4305041be96/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

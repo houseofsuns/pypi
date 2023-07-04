@@ -15,7 +15,7 @@ DESCRIPTION="Apache Druid querying client library"
 
 HOMEPAGE="https://github.com/scimas/druid_query"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/84/de/221f038a76f1b9415520bd1c0e62163ad28e9fd033f3aa16fd8ae13f366a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Weblate Fedora Messaging integration"
 
 HOMEPAGE="https://weblate.org/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/fb/54/b0d0d31407897ec75e93e2e5e1c1142a030cce333ef1984ffc0ce2614270/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

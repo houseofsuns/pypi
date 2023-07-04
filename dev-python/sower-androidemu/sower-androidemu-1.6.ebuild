@@ -15,7 +15,7 @@ DESCRIPTION="sower"
 
 HOMEPAGE="https://github.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/c2/4d4e78bfac2b1a268923421901fa604f85adc32f6d8058a0b398310bdc98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

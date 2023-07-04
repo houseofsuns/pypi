@@ -15,7 +15,7 @@ DESCRIPTION="基于Nonebot的bilibili通知插件，可将up主，主播以及�
 
 HOMEPAGE="https://github.com/TDK1969/nonebot_plugin_bilibilibot"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/49/39/a75e6aabca868b11000e14494952fa437bbe200038a93c06410efbeb9122/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

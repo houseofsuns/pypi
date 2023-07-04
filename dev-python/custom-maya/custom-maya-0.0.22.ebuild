@@ -15,7 +15,7 @@ DESCRIPTION="Maya的便利工具"
 
 HOMEPAGE="https://github.com/narutozb/custom_maya"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6f/9f/461a473b87591ebb68b3a059e1d334c7d65ef635cb3d4f8b3b34d7007172/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

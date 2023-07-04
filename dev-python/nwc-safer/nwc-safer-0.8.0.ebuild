@@ -15,7 +15,7 @@ DESCRIPTION="NWC-SAFer CLI tool simplifying NetCDF data extraction and conversio
 
 HOMEPAGE="https://github.com/fotioudim/NWC-SAFer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/a2/7aa359f584888d90bfaa768fc6f3a0a3e82641c1f96eb060d7390403d9af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

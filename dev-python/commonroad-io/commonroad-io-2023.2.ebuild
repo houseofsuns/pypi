@@ -15,7 +15,7 @@ DESCRIPTION="Python tool to read, write, and visualize CommonRoad scenarios and 
 
 HOMEPAGE="https://commonroad.in.tum.de"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/63/9a/084c50ba26b1f372275a5c924a0094e86566af5e6c5dec3da651a3f3ee88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

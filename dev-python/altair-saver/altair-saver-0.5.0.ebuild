@@ -15,7 +15,7 @@ DESCRIPTION="Altair extension for saving charts to various formats."
 
 HOMEPAGE="http://github.com/altair-viz/altair_saver/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/80/21a2928d4f857bf3d7c0dae46b1fe0b5b0b70057f844ee0d5d090effb5fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

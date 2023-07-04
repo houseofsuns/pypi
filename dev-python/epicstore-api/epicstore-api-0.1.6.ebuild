@@ -15,7 +15,7 @@ DESCRIPTION="An API wrapper for Epic Games Store written in Python"
 
 HOMEPAGE="https://github.com/SD4RK/epicstore_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4c/36/07733007a8da0e51db73ff08ca262a4cc562c6caccc1600df124358e06cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

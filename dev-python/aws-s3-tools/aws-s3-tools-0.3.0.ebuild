@@ -15,7 +15,7 @@ DESCRIPTION="AWS S3 tools package"
 
 HOMEPAGE="https://github.com/dlite-tools/aws-s3-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/65/2cd30bf9141721af0458ac7e61ce36a14627f80b9378f00d5f377bd3c338/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Condensed module for Aircraft Design"
 
 HOMEPAGE="https://pypi.org/project/aircraft-design/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/72/6438e92e784853ed822ecf77cb5a9dcffec5daa28daf2abe5029b254d9c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

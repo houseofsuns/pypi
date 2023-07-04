@@ -15,7 +15,7 @@ DESCRIPTION="Entity-Attribute-Value storage for Django"
 
 HOMEPAGE="https://github.com/jazzband/django-eav2"
 LICENSE="GNU Lesser General Public License LGPL, Version 3"
-SRC_URI="https://files.pythonhosted.org/packages/34/a1/23c25fd5ce1c4bb04c54804c0716231cc25917ca002bb314a464f3fc0191/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

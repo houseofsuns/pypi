@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/NiklasRosenstein/python-adjudicator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/99/74aa473cfd1c980625b47cae83763bad0edfb5d396b391ad486bd49ab967/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Prefect_Streamline is an opinionated extension that provides helper
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/5d/dcda833606d039eeb7ea4d2aa6d0ba29a74d0c27414852d3512e278cfa88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

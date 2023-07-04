@@ -15,7 +15,7 @@ DESCRIPTION="A generic object store interface for uniformly interacting with AWS
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0d/bb/b372b4b36926487b3b2ca6efb12261d0eaf0828ba1db0bba49f1e66b9862/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

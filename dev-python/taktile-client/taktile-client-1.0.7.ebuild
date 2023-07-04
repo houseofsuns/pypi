@@ -15,7 +15,7 @@ DESCRIPTION="A lightweight client to call models deployed on Taktile."
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5d/76/a0989d8b6aea3f16ed392d71788b5e3a8c7bf46f3e0c3c53eef11995330f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

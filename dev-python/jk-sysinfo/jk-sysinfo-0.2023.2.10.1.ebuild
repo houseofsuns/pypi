@@ -15,7 +15,7 @@ DESCRIPTION="This python module provides ways to retrieve and parse technical sy
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c2/50/736986ef6a0fb68729655ab6fe1903f17d76201730030b6353c1295e4038/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

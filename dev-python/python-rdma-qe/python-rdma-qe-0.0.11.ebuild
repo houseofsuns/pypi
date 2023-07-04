@@ -15,7 +15,7 @@ DESCRIPTION="Redhat Kernel RDMA QE Python libs and tests"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e0/47/058916d03269fd5f2b067a4e48a9f182f6ab145cadf1aeb4fed1982b458d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

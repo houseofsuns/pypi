@@ -15,7 +15,7 @@ DESCRIPTION="Display lyrics on your touchbar with BTT"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f1/6c/30da971753ebe970cb8b9c77392cc7275e96b602c2e9cda1df1c90274a0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

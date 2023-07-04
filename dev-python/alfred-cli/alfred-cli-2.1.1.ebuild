@@ -15,7 +15,7 @@ DESCRIPTION="alfred is an extensible building tool that can replace a Makefile o
 
 HOMEPAGE="https://github.com/FabienArcellier/alfred-cli#alfred"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/4e/5173a691a98b8e0933c3147930a3d18b4a016adfb8ff600b3063d6fd21b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

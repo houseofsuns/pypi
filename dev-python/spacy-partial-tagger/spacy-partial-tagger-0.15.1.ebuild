@@ -15,7 +15,7 @@ DESCRIPTION="Sequence Tagger for Partially Annotated Dataset in spaCy"
 
 HOMEPAGE="https://github.com/tech-sketch/spacy-partial-tagger"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/54/41be759fd1bc9cad38c66b9b18706bfc1c561abdeeb526f1e25601532a87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

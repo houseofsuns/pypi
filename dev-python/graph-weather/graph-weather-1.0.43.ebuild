@@ -15,7 +15,7 @@ DESCRIPTION="Weather Forecasting with Graph Neural Networks"
 
 HOMEPAGE="https://github.com/openclimatefix/graph_weather"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/b0/d78c1d87f9a8c9b4c12fccdc2b7ddb49a438515d926f70c137f0451c07fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

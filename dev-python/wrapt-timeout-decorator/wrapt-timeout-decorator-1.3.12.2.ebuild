@@ -15,7 +15,7 @@ DESCRIPTION="The better timout decorator"
 
 HOMEPAGE="https://github.com/bitranox/wrapt_timeout_decorator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/b7/a17ec87bff2974c0c0a52104f6f217dad986d73efacc96e46e39954a07af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

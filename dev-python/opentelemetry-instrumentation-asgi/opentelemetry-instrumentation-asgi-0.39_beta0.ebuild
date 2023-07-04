@@ -15,7 +15,7 @@ DESCRIPTION="ASGI instrumentation for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-asgi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c5/6b/307f85cc82b16c80463f712c18de2502d63de0523cc5217b5cb172266881/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Type hinting package for django"
 
 HOMEPAGE="https://github.com/Vieolo/django-hint"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f6/23/76b70cc8daafcd24efb8f84a7c7153c327ad76089a038d9c496e4657b630/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

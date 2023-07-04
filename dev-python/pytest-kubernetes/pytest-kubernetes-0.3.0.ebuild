@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Blueshoe/pytest-kubernetes"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/8d/b913152b209b2301372ae1c07997124bde0ea7674ba6bbafb07c3e23ba72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

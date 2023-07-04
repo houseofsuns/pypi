@@ -15,7 +15,7 @@ DESCRIPTION="grep command for New Relic"
 
 HOMEPAGE="https://github.com/hirachan/newrelic-grep"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7d/52/1c1fa3b45f261353b6cbee7c20315436080ca85419136f0a6f824d1c65c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

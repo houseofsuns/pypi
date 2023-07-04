@@ -15,7 +15,7 @@ DESCRIPTION="Dynamically return subset of Django REST Framework serializer field
 
 HOMEPAGE="https://github.com/dbrgn/drf-dynamic-fields"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/7f/1c17e0791b8d028b47908be78ac8041c544bd07a59afd8556304a0f0d355/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

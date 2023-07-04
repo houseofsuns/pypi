@@ -15,7 +15,7 @@ DESCRIPTION="Interact with the Deep Search platform for new knowledge exploratio
 
 HOMEPAGE="https://ds4sd.github.io/deepsearch-toolkit/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/3e/2ed265b22aa35ab295bbbdd38ebb2ed94b292081d92ef78ad6e760c08b64/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python ROS message and service generators."
 
 HOMEPAGE="https://github.com/ros/genpy"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b8/bb/1df7fcb63cf40fcaba411f7cf77e047a57c250c842e7bb0621e48826fdfa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

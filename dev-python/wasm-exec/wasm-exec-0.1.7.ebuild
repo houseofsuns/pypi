@@ -15,7 +15,7 @@ DESCRIPTION="WASM-powered, sandboxed version of \`exec()\` for running dynamic c
 
 HOMEPAGE="https://www.github.com/jflick58/wasm_exec"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/1c/ee61f8cd94878e24619333f3d7fd1bc6b63b07097fa150d3c2df78a0ed9a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Simple video transcoding application for Django framework"
 
 HOMEPAGE="https://github.com/just-work/django-video-transcoding"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/fc/bbcd28611989a648184d1cd4cc330f0a727aa2156d40a54e0b14ce8b3c90/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

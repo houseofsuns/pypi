@@ -15,7 +15,7 @@ DESCRIPTION="A custom loader for Dynaconf that uses AWS Systems Manager Paramete
 
 HOMEPAGE="https://github.com/fictivekin/dynaconf-aws-loader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/3f/4c309449230a40b851db368241c21f8602c2773ec6414e06211d6be196a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

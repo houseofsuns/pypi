@@ -15,7 +15,7 @@ DESCRIPTION="BDD for pytest"
 
 HOMEPAGE="https://pytest-bdd.readthedocs.io/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/ff/cd04b4811729de6baa985dfbece13876f54b4e2cc23cc23bdea840ad2c10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

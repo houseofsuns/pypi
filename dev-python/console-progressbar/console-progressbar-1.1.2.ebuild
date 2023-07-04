@@ -15,7 +15,7 @@ DESCRIPTION="A simple progress bar for console"
 
 HOMEPAGE="https://github.com/bozoh/console_progressbar"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/8d/810e5c5dbdefc92cc1819d0b6ffac2c9c149acece9b3e55e4d9d05d0bb2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

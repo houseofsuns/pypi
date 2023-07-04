@@ -15,7 +15,7 @@ DESCRIPTION="Aliyun Tea OSS SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-oss-sdk/tree/master/python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d8/e7/13d266ae5bf5636b9881477c60eded1b8688ec56f00048aa85b36b78a971/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

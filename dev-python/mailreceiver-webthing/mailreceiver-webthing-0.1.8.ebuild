@@ -15,7 +15,7 @@ DESCRIPTION="A web connected mail receiver"
 
 HOMEPAGE="https://github.com/grro/mailreceiver_webthing"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/99/5cf755612de624a177549a236ded8dadb0ee2c46676e05f97cbd2d9752c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

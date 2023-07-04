@@ -15,7 +15,7 @@ DESCRIPTION="Tutorials on how to use EAGERx."
 
 HOMEPAGE="https://github.com/eager-dev/eagerx_tutorials"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f1/93/8abea3e5bd04a0f8f34d45bb29c2287e76f024416a7d1e3c6e7490f60750/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

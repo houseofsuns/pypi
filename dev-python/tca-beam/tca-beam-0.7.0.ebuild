@@ -15,7 +15,7 @@ DESCRIPTION="Feature stub generation for The Composable Architecture"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c5/b4/2606b637a5db38086ba79c0941c2ab8dc1dbff16b6115a296e66b98590a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

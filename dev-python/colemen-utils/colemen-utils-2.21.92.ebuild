@@ -15,7 +15,7 @@ DESCRIPTION="Colemen Utils"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5d/91/b04714c2b738f4e250c8d6638df0fbe0fde8e6acd1fdf2f99529d7f4d824/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A simple package to print in color to the terminal"
 
 HOMEPAGE="https://github.com/xy3/print-color"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/eb/32/601fd9002509b32d1f9d3ec1e8cc5af9af619def83327adbb1ea18e1502a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

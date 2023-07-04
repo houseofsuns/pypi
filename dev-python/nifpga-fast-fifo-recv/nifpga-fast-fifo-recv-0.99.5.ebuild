@@ -15,7 +15,7 @@ DESCRIPTION="A Python module for fast reading of data from NI FPGA FIFOs with a 
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/83/b6/95237de8cd0dc2d4c5d88c56118a2f4c2b2d103b129e6558cc63b9cd0828/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

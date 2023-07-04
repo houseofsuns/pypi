@@ -15,7 +15,7 @@ DESCRIPTION="A Netbox plugin tracking failures and other state changes in device
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/a6/23011cd0b2cb9099cfb406fe2be79c2fab7bfee3a2251a21a1f4b6e9a640/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="The Noteable API interface"
 
 HOMEPAGE="https://github.com/noteable-io/origami"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/8e/82/d6e58672daaa2ac25691eb8eeedec1f9e4c9cc8815e1a41df9de02654cd6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

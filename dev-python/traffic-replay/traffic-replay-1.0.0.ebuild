@@ -15,7 +15,7 @@ DESCRIPTION="Traffic Replay"
 
 HOMEPAGE="https://bitbucket.org/autestsuite/trafficreplay"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/50/b3/e3968cf11a5c3358546dbc598869e9b83e5e15bbe04752e80369c61278a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

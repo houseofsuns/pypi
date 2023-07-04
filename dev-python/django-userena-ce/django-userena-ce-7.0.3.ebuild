@@ -15,7 +15,7 @@ DESCRIPTION="Complete user management application for Django"
 
 HOMEPAGE="https://github.com/django-userena-ce/django-userena-ce"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2e/a4/75d324ff04d876c48c72ad3aaba2d64ac2f6b356b656fe23f2ffae456dd5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

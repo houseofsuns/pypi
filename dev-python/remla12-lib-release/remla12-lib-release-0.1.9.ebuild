@@ -15,7 +15,7 @@ DESCRIPTION="A version-aware library for REMLA12 project"
 
 HOMEPAGE="https://github.com/remla23-team12/lib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e7/01/0cfc68d034d31929e306640970db9f3089088b981b787ba4982e5ddc7b88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

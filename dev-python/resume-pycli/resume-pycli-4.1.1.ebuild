@@ -15,7 +15,7 @@ DESCRIPTION="CLI tool to easily setup a new resume"
 
 HOMEPAGE="https://github.com/nikaro/resume-pycli"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/35/66/16542a50e76e09ac737a653cdad410e4175ede881b21b83234a81076bc8a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

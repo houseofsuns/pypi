@@ -15,7 +15,7 @@ DESCRIPTION="Flask_JWT_OIDC"
 
 HOMEPAGE="https://github.com/thorwolpert/flask-jwt-oidc"
 LICENSE="Copyright 2018 Thor Wolpert"
-SRC_URI="https://files.pythonhosted.org/packages/74/9d/73b0203f55f7b8b8f6d128e0357b0c33941174ce1f91b3b3181fddd0fb90/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

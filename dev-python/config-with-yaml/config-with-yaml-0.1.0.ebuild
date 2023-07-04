@@ -15,7 +15,7 @@ DESCRIPTION="Loads configurations from yaml files"
 
 HOMEPAGE="https://github.com/aitormf/config_with_yaml"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/93/40/7229e9ef6431d54dd5d9f70c5a59bd1ddcfa052192f757a37833b246ae1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

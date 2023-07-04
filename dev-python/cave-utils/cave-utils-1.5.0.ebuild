@@ -15,7 +15,7 @@ DESCRIPTION="Cave utilities for the CAVE App at the MIT"
 
 HOMEPAGE="https://github.com/mit-cave/cave_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/4b/6c33ccab72a052acde23d2f6bf79da7874019c75734a81ebc0e1a631d2bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

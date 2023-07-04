@@ -15,7 +15,7 @@ DESCRIPTION="动漫资源获取插件"
 
 HOMEPAGE=""
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/95/de/5cc116ce398bfb6b1fd9dded1fd8ba1e4cb3e11cf90dbb00cda8114a6950/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

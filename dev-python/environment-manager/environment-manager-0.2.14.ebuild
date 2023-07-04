@@ -15,7 +15,7 @@ DESCRIPTION="A Client library for Environment Manager"
 
 HOMEPAGE="https://github.com/trainline/python-environment_manager"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3f/05/8a841d3aa8b538f7c81f536302c4ba9ed9840f3bdaa998d09567399dd53b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

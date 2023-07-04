@@ -15,7 +15,7 @@ DESCRIPTION="A spreadsheet widget for napari"
 
 HOMEPAGE="https://github.com/hanjinliu/napari-spreadsheet"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2d/88/b7acd788b99355c5286b1875ffa4e6343b60e99a431d0ee57257cc7560f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

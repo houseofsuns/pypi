@@ -15,7 +15,7 @@ DESCRIPTION="Plugin providing support for 1d plotting in napari."
 
 HOMEPAGE="https://github.com/lukasz-migas/napari-1d"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3d/8b/dcf8f1e93b69c587df014c01512639410483fcbc921264e7b6b03a82d342/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

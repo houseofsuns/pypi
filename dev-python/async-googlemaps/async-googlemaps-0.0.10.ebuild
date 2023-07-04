@@ -15,7 +15,7 @@ DESCRIPTION="Asynchronous Python client library for Google Maps Platform"
 
 HOMEPAGE="https://github.com/shane806/async_googlemaps"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ea/5d/549cad8935c76500200a839222c99fa22068025c55f5073b1f0128e6538e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

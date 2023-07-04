@@ -15,7 +15,7 @@ DESCRIPTION="Store context information inside the asyncio.Task object"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6e/4c/cf12c7589a3a391aa9e0f7df9bdc2755abb176d837758b44b0613e26c90e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

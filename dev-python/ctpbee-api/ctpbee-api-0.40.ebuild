@@ -15,7 +15,7 @@ DESCRIPTION="single CTP API support"
 
 HOMEPAGE="https://github.com/ctpbee/ctpbee_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/c4/1d7de0c92dbe7f6bc4aa087625aa16b4b875ef25b95ca43e95bf89044032/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

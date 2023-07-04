@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module for time tracking of a employee"
 
 HOMEPAGE="https://www.m-ds.de/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/29/e2/6a002dba0506fd585ac5c281bb53b34b115c2f53a86fb4f28f4cc8ff5b39/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

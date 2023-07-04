@@ -15,7 +15,7 @@ DESCRIPTION="Client for Kolena's machine learning (ML) testing and debugging pla
 
 HOMEPAGE="https://kolena.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2a/95/5d14e536c9ff9af1e22e8ef82027144cff9a25c31e95aa9e3f309e927329/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

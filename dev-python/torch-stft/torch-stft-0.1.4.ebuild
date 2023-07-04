@@ -15,7 +15,7 @@ DESCRIPTION="An STFT/iSTFT for PyTorch"
 
 HOMEPAGE="https://github.com/pseeth/torch-stft"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c3/bd/ea6bc20ccaf1008c62c3b235eeb76649190e155ad43c0a06ed6bda2afd5f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

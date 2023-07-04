@@ -15,7 +15,7 @@ DESCRIPTION="Framework that can run checks on repos"
 
 HOMEPAGE="https://repo-review.readthedocs.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6a/55/cf84a2a2e333e71251f1da92893627ae5c62e8f831e2fc4e7232fd102b32/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

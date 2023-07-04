@@ -15,7 +15,7 @@ DESCRIPTION="web3_erc20"
 
 HOMEPAGE="https://github.com/kkristof200/py_web3_erc20"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/a9/6eef9055df87346069313c27ac6d55c7bf585f4d38b794a71c1b04dc0234/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

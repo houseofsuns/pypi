@@ -15,7 +15,7 @@ DESCRIPTION="Simple pytorch implementation of focal loss"
 
 HOMEPAGE="https://github.com/mathiaszinnen/focal_loss_torch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/2a/41a5b59ba1040f43f2d50c1f1e79bafa4efaf9ca58327aa56d5dc3b22760/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

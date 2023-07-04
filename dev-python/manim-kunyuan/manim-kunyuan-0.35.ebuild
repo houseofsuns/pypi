@@ -15,7 +15,7 @@ DESCRIPTION="Math Animation Tool(Fork from 3b1b manim)"
 
 HOMEPAGE="https://github.com/beidongjiedeguang/manim"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/e2/4e41125afaf5b809d5c232e1fd13ebe44107c4bd7aaf5dd45fac4cd37ff7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

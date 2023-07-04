@@ -15,7 +15,7 @@ DESCRIPTION="Python 3 timestamp decode/encode tool"
 
 HOMEPAGE="https://github.com/digitalsleuth/time_decode"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/3e/7600dcae4661eb0c660e6938cfd1256ae08ae79dae9f950707da4b766b42/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

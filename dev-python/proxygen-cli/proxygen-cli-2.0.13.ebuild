@@ -15,7 +15,7 @@ DESCRIPTION="CLI for interacting with NHSD APIM's proxygen service"
 
 HOMEPAGE="https://github.com/NHSDigital/proxygen-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/40/1c/1dcf8e67e2e13605ed3e5e7a9fca74486f1a42a847b0008d56dee5937377/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

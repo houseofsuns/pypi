@@ -15,7 +15,7 @@ DESCRIPTION="Lvm Tan Clu Wrapper"
 
 HOMEPAGE="https://github.com/sdss/lvmtan"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/51/4e/5d97c1c13ab6ef8f646402e86bc6b5f8d995b66f6a49f6f450343ff88b59/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

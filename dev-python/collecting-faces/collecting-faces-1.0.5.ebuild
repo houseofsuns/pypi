@@ -15,7 +15,7 @@ DESCRIPTION="Collecting square faces from images for training stylegan2-ada"
 
 HOMEPAGE="https://github.com/Seokhee-Jin/collecting_faces"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/67/b5/a180f559109681d8a2bf56bf51032ece2b6a703e502d41797b850f9bfb7c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

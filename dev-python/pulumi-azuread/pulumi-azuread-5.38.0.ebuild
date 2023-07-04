@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing Azure Active Directory (
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fe/f4/d3abcaaff2b4a5b20410125f50a018619f4cca8751cc5172553c80d92387/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

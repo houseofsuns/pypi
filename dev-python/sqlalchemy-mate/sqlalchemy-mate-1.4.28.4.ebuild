@@ -15,7 +15,7 @@ DESCRIPTION="A library extend sqlalchemy module, makes CRUD easier."
 
 HOMEPAGE="https://github.com/MacHu-GWU/sqlalchemy_mate-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/58/77/8b260cc7620fbfd9b295d1a5a99c8f3cd0a62a9edbdb0773dcc45fe0d4dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

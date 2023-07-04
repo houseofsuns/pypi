@@ -15,7 +15,7 @@ DESCRIPTION="This package provides AWS V4 request signing using the requests lib
 
 HOMEPAGE="https://github.com/jmenga/requests-aws-sign"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/e8/14/27d8eed7ef7870525ed9888eaa273d6c564562367a1678a85496d6b4ccf2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

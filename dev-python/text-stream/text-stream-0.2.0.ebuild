@@ -15,7 +15,7 @@ DESCRIPTION="A package for streaming text data model"
 
 HOMEPAGE="https://github.com/singularitti/text_stream"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/dc/bc63d6bec3915d1f69a7f81fa167ceca24dc988cc5bed9af5c10c81229f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

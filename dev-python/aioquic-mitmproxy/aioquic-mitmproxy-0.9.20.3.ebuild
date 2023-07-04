@@ -15,7 +15,7 @@ DESCRIPTION="Fork of aioquic (https://github.com/aiortc/aioquic) with adjustment
 
 HOMEPAGE="https://github.com/meitinger/aioquic_mitmproxy"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/8f/cd/48c08c74f16d90f6a85ce74f4700cc7dea807e6e880f97b2d460dc9470b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

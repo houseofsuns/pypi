@@ -15,7 +15,7 @@ DESCRIPTION="Python+Rust implementation of the Probabilistic Principal Component
 
 HOMEPAGE="https://github.com/FindHotel/ppca_rs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e7/71/27710bc6a8ac2915b650adb599859f3a11e5639b8c99ce0f16236153b71d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

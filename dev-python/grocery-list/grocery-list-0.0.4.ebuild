@@ -15,7 +15,7 @@ DESCRIPTION="grocery_list"
 
 HOMEPAGE="https://github.com/mdmould/grocery_list"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/53/261c52643ba0cea51bf18f309ad26f389651a6f2a88b0543e8301f8caae3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

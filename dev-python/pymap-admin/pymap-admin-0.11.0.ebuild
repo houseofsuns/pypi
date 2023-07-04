@@ -15,7 +15,7 @@ DESCRIPTION="Tool for administering running pymap instances."
 
 HOMEPAGE="https://github.com/icgood/pymap-admin/"
 LICENSE="## The MIT License MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/2d/8e7b474a02b0aae07860c2b139b26beb0c89b5f4fc5ae9a25fbf0023b83b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

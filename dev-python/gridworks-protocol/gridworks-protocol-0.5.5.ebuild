@@ -15,7 +15,7 @@ DESCRIPTION="Gridworks Protocol"
 
 HOMEPAGE="https://github.com/thegridelectric/gridworks-protocol"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b5/db/be7e817c27857fddb861f22a9f98205d840f994c1060def420e84bcd2c9e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

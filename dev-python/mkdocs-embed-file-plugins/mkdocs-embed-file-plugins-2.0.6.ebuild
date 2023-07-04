@@ -15,7 +15,7 @@ DESCRIPTION="A plugin to quote file from docs"
 
 HOMEPAGE="https://github.com/Mara-Li/mkdocs_embed_file_plugins"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/1d/37/e74bb6f81e823026af88d63d4be1babb2ebd2cc4ffa8504b9550c40c9271/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

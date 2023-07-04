@@ -15,7 +15,7 @@ DESCRIPTION="PyO3 wrapper for TTTR-Toolbox"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/91/b84ae7ce4252c1ada456f45f560a2324193d4d9fda98bf52f2c46cdb2ec4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

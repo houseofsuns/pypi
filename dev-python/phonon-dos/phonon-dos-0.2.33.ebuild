@@ -15,7 +15,7 @@ DESCRIPTION="Phonon DOS"
 
 HOMEPAGE="https://gitlab.com/Coiana/phonon_dos"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/32/4a8e50ce58f7e984c44c81ccb2ee87527e1bd3134292b99a13bf7aa98028/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

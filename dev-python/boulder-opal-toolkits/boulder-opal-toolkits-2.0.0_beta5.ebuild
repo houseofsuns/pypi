@@ -15,7 +15,7 @@ DESCRIPTION="Q-CTRL Boulder Opal Toolkits"
 
 HOMEPAGE="https://q-ctrl.com"
 LICENSE="https://q-ctrl.com/terms"
-SRC_URI="https://files.pythonhosted.org/packages/13/54/60ffae28ec0efe35247cd804ca36799b46c97b8af5d481ea833536963808/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

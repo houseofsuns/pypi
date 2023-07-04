@@ -15,7 +15,7 @@ DESCRIPTION="Run pyupgrade on all files in a directory, and optionally recursive
 
 HOMEPAGE="https://github.com/domdfcoding/pyupgrade-directories"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/dc/b938f34bb94318bb613c5f1e3e5fea9ada8b0b8b46fcd1f82c58c57169ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Asymmetric key based authentication for HTTP APIs"
 
 HOMEPAGE="https://github.com/crgwbr/asymmetric-jwt-auth"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/d0/35/25642868e5406097efb1d462eb4745b605c1b04ee4f2dc9ba53e484aa884/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

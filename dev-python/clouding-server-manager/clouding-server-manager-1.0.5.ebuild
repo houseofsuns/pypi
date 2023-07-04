@@ -15,7 +15,7 @@ DESCRIPTION="A Python project to easily manage Clouding servers from the command
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/a6/87dbc611d1324e1b8fce984bca99b20944f32d55d2b648ce5d8d908d0c53/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

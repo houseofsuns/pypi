@@ -15,7 +15,7 @@ DESCRIPTION="LogicHub CLI"
 
 HOMEPAGE="https://github.com/deathbywedgie/lhub_cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cd/64/ee457a5d4f8c901fff5409688af7ac8bb5f71b965868412dc6d11a25c029/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

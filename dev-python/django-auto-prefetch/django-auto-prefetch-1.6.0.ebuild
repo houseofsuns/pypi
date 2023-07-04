@@ -15,7 +15,7 @@ DESCRIPTION="Automatically prefetch foreign key values as needed."
 
 HOMEPAGE="https://github.com/tolomea/django-auto-prefetch"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2d/1f/d9f2140cb360f4fe742c66714b9677ab83b6f23386bf31698db50a70cafa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

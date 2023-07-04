@@ -15,7 +15,7 @@ DESCRIPTION="generate OpenAPI document and validate request & response with Pyth
 
 HOMEPAGE="https://github.com/turner-townsend/flask-pydantic-spec"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a4/4e/19ff3f7d075741d99a3765e5f7ae3f24d3174a43419fe8f8e5a03cf476a4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="RabbitMQ-based ASGI channel layer implementation"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/04/7c/bb2d1f131a92f258a80ff4f5fb413a053cb14ddb815d0b8b8b2096aa29c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

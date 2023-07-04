@@ -15,7 +15,7 @@ DESCRIPTION="A library that supports username-password and PKI authentication me
 
 HOMEPAGE="https://github.com/Zoominfo/api-auth-python-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/89/67/1916e952d58cca4a957ecb2e2929689bde2db7267f5ab6cdfa7ef72624c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

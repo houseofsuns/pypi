@@ -15,7 +15,7 @@ DESCRIPTION="A collection of utilities for Detection and Classification of Acous
 
 HOMEPAGE="https://github.com/DCASE-REPO/dcase_util"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/a0/c8277b774a01df12179337f70ee004ddf0d4661e9c1e866628b3b3d1c4e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A set of schemas for sgqlc package"
 
 HOMEPAGE="https://github.com/Mogost/sgqlc-schemas"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/32/9b/8f01382a9b213955d34f2f1a2d5ad16fe7a045f25a8672717c564c1aa36e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

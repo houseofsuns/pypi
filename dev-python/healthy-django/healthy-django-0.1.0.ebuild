@@ -15,7 +15,7 @@ DESCRIPTION="Simple Re Usable tool for Django Healthchecks"
 
 HOMEPAGE="https://github.com/vigneshhari/healthy_django"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/96/c8/89a43c41c09f9f1d1b123c5d6d95e43f3a3090c87793604a07afa4258d84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

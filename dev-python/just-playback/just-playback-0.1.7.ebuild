@@ -15,7 +15,7 @@ DESCRIPTION="A small package for playing audio in python                     wit
 
 HOMEPAGE="https://github.com/cheofusi/just_playback"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/46/65315876056313e6b696b072671e8cdf2a1f84bb90342765304a55beae5f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

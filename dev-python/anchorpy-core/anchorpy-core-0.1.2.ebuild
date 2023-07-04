@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for Anchor Rust code"
 
 HOMEPAGE="https://github.com/kevinheavey/anchorpy-core"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d8/4a/ab58492a5b4f7aecccd3b4592980413eac0887e776a09554b9c80be287a4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

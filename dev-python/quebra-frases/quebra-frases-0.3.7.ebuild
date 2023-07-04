@@ -15,7 +15,7 @@ DESCRIPTION="quebra_frases chunks strings into byte sized pieces"
 
 HOMEPAGE="https://github.com/OpenJarbas/quebra_frases"
 LICENSE="apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/04/8f/dcc0beeb6e164f44e03d1501b70733a1d7f069c9d59354911537d84b71e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

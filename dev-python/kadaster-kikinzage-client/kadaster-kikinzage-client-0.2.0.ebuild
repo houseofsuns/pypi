@@ -15,7 +15,7 @@ DESCRIPTION="Kadaster - KIK Inzage API Python client"
 
 HOMEPAGE="https://github.com/foarsitter/kadaster-kik-inzage-api-python-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b3/3b/08c4566cf977a331dc404d717cb05da8edf276f54f06b009028bf7d7644e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Command-line tool to upload files to https://file.io"
 
 HOMEPAGE="https://github.com/tddschn/file.io-cli-tddschn"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/da/6ca436dbb04fb07a94208c29b5de68f71bf65c05ebc4bd2459283990637c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

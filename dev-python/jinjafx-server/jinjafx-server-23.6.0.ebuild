@@ -15,7 +15,7 @@ DESCRIPTION="JinjaFx Server - Jinja2 Templating Tool"
 
 HOMEPAGE="https://github.com/cmason3/jinjafx_server"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/2b/c1e7b80b742ffe8c74bc493dd3d5d36ada52ee7bc2a85d8940919be30841/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

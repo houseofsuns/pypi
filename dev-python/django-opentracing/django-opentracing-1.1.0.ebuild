@@ -15,7 +15,7 @@ DESCRIPTION="OpenTracing support for Django applications"
 
 HOMEPAGE="https://github.com/opentracing-contrib/python-django/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1d/cf/fdf089df0636604190501b585ba800beb0b3c355f0bc1ea4286210e7d447/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

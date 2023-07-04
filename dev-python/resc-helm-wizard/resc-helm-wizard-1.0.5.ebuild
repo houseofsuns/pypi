@@ -15,7 +15,7 @@ DESCRIPTION="Repository Scanner - Helm Wizard"
 
 HOMEPAGE="https://github.com/ABNAMRO/repository-scanner"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/81/00/8b9348656d6dbd80a61b81c373038e751302973b6126e903ce32728ebd0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

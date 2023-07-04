@@ -15,7 +15,7 @@ DESCRIPTION="Flamegraphs for Flask Debug Toolbar"
 
 HOMEPAGE="https://github.com/quantus/flask-debugtoolbar-flamegraph"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f0/91/e052955b6331455596fa4a9d7f2036508f73e311cf33ed7accd64c252dda/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

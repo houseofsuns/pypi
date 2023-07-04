@@ -15,7 +15,7 @@ DESCRIPTION="A framework for elegantly configuring complex applications"
 
 HOMEPAGE="https://catalyst-team.github.io/hydra-slayer/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/67/27/c7872780d6d589a62aa83688a7485d813d19475f31ab376d0a03a6f9bc8a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

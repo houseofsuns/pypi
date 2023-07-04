@@ -15,7 +15,7 @@ DESCRIPTION="Synchronization interface for the SCRC FAIR Data Pipeline registry"
 
 HOMEPAGE="https://www.fairdatapipeline.org/"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/eb/c3/db6c2e80fdd1c95335aea14452e9a5e8f6d67b82903cf8cf8fd2b57dfa7b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

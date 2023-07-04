@@ -15,7 +15,7 @@ DESCRIPTION="A utility that can be used to sign and verify docker images."
 
 HOMEPAGE="https://github.com/crashvb/docker-sign-verify"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/76/eb/c1b6f29c7d382fcd7a40dfd9692bc4a1b1cb0f69df116fede52d971e5ef2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

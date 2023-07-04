@@ -15,7 +15,7 @@ DESCRIPTION="TkinterHelper布局助手官方拓展和工具库"
 
 HOMEPAGE="https://www.pytk.net"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/44/82cbc938352615c506d3def719474243f9132b9b63e935193ef2ab7c6883/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

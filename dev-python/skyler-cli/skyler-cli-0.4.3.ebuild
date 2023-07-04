@@ -15,7 +15,7 @@ DESCRIPTION="Skyler's toolbox of handy CLI utils"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/c3/f9a7167dc3a8c67999bb3e20fb59ae6da77a41a528bf2c66fe077c96472c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

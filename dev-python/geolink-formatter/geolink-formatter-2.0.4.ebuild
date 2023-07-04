@@ -15,7 +15,7 @@ DESCRIPTION="OEREBlex geoLink Formatter"
 
 HOMEPAGE="https://gitlab.com/gf-bl/python-geolink-formatter"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/23/de/a8039290c13756fd0a6b241581c3abd0bb44453e505f3a2b58c6b347664b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

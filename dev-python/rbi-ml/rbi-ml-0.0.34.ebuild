@@ -15,7 +15,7 @@ DESCRIPTION="rbi ml packages"
 
 HOMEPAGE="https://gitlab.com/rbibigdata/mldp/rbi-ml/-/tree/rbi_ml_package"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f9/63/a274c48c8ff4ae8e355715e976fa74ac4ff765c362f44460bbb7bb7df8e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

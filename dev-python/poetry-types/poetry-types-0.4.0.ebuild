@@ -15,7 +15,7 @@ DESCRIPTION="A poetry plugin that adds/removes type stubs as dependencies like t
 
 HOMEPAGE="https://github.com/jvllmr/poetry-types"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/db/7bd04b5a82cde6f1160885dfab6af7768c2e2b7504778eed88d5b16f1219/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

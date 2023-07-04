@@ -15,7 +15,7 @@ DESCRIPTION="Intercept requests using Selenium with Chrome"
 
 HOMEPAGE="https://github.com/kaliiiiiiiiii/selenium_interceptor"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f2/4a/ec8229dfd7b06363afa49a2dffb3809b080c8f9ebe710e6ae592d5f20f42/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

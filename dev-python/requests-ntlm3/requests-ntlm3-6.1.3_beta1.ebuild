@@ -15,7 +15,7 @@ DESCRIPTION="The HTTP NTLM proxy and/or server authentication library."
 
 HOMEPAGE="https://github.com/mchampanis/requests-ntlm3"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/16/bb/133b383e78081ecadce935ea9c3438e4819dd285b499f6daabc2573a1326/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

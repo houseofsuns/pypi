@@ -15,7 +15,7 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/EricLee2021-72324/handpose_x"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/40/ad/036fcc376f6a23981eb9c9115a238cc047cacdb5f16c94eebe9058e41b1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

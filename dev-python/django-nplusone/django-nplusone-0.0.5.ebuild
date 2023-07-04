@@ -15,7 +15,7 @@ DESCRIPTION="Discover possible N+1 queries in your code base during development"
 
 HOMEPAGE="https://github.com/shaffooo/django_nplusone"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/8a/9c57192bc5028bc345fab209dd5957431bb4ad3c6b2698382ce659abc699/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

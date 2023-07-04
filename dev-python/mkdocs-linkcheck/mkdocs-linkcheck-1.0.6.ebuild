@@ -15,7 +15,7 @@ DESCRIPTION="Check links for Mkdocs-based sites, as well as any markdown-based w
 
 HOMEPAGE="https://github.com/byrnereese/mkdocs-linkchecker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/f7/1a3e4add133371662484b7f1b6470c658a16fbef19ffb013d96236d7f053/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Cleaning, setting Justices"
 
 HOMEPAGE="https://mv3.dev"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/24/94/82bf6db3b7b4649da0e46ff543ca08cf9e6cb48ba570f43443b3a866795c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

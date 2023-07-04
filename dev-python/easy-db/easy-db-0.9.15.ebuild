@@ -15,7 +15,7 @@ DESCRIPTION="Easy Python database interaction"
 
 HOMEPAGE="https://github.com/zachbateman/easy_db.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/18/07347d2af51e0a28ac0275d48cd4281cd58af529367c60dcb348a9260fab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

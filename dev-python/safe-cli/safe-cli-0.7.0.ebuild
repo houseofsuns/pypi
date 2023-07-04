@@ -15,7 +15,7 @@ DESCRIPTION="Command Line Interface for Safe"
 
 HOMEPAGE="https://github.com/gnosis/safe-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/66/c4b9e521bb7777067f13da6d80385147d3ababe938e946567497069a499b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

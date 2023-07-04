@@ -15,7 +15,7 @@ DESCRIPTION="Quicker FastApi developing tools"
 
 HOMEPAGE="https://fastapi-restful.netlify.app"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/bb/5e40fbcf8253236db2c7102d39c4e05544cb5c709fe24fcca17b0e6cfb6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

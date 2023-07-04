@@ -15,7 +15,7 @@ DESCRIPTION="utils for nlp"
 
 HOMEPAGE="https://github.com/hgliyuhao"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/27/b0/018c9d6cf5f7a2c4c9d2f921c5a6517f63a595fc136d3f18028ff4e94d78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

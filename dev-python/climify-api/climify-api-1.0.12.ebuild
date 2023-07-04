@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper library for the Climify REST API"
 
 HOMEPAGE="https://gitlab.climify.com/climify/python-api-lib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b7/0b/2e0da655c58205bee2dedb9d93c8a5cab9f28426494c10c01a9393cbe3ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

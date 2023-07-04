@@ -15,7 +15,7 @@ DESCRIPTION="selenium_chrome"
 
 HOMEPAGE="https://github.com/kkristof200/selenium_chrome"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/2c/d2ba3d620e45f7fb9209e512e172fb44cac9d02d4e7564c5525b817f5095/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

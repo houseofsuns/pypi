@@ -15,7 +15,7 @@ DESCRIPTION="Basic components for the development of loducode s.a.s."
 
 HOMEPAGE="https://github.com/UnTalDulcey/loducode_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/49/6f0019d230833afc2f4a7855f3f9dfb695ede3410ef12aa25e2c59aab861/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

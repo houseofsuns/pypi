@@ -15,7 +15,7 @@ DESCRIPTION="RwLock: Reader-Writer lock"
 
 HOMEPAGE="https://github.com/cy-arduino/cy_rwlock"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/0a/61/a50a55f570da11945c8af6adcb6cabeab2bd097bbf5adee71ec7c6b9ab63/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

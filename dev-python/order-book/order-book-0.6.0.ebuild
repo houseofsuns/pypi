@@ -15,7 +15,7 @@ DESCRIPTION="A fast orderbook implementation, in C, for Python"
 
 HOMEPAGE="https://github.com/bmoscon/orderbook"
 LICENSE="License :: OSI Approved :: GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/f1/0b/d1ce5322709595241d37756645b9e921b8b4e232d054ee6fafa879da58a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

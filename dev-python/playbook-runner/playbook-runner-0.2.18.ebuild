@@ -15,7 +15,7 @@ DESCRIPTION="A module that is capable of running ansible playbooks"
 
 HOMEPAGE="https://github.com/final-israel/playbook_runner"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/93/81/389737fd097bcd9b6f8cf66e5e432824f9003920f12f5e4e8a92fcf344cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

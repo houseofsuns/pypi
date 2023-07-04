@@ -15,7 +15,7 @@ DESCRIPTION="A small Django DRF extension for managing background task with cele
 
 HOMEPAGE="https://github.com/abhishm20/django-task"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/eb/50e538842283075e9d490e4b73729fcb68fc02e99f62a67c478ceff8fef4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

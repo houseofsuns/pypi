@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry aiohttp client instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-aiohttp-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/c4/40af694a41bf13477a83e214b0942a45edf5c87fc0dec329a3f215c6b4ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

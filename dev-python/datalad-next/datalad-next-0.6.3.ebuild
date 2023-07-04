@@ -15,7 +15,7 @@ DESCRIPTION="What is next in DataLad"
 
 HOMEPAGE="https://github.com/datalad/datalad-next"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/36/cb809c52f694a052ecc21814e974a327f7e6dad651fe26e3ef63bc4dbd29/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

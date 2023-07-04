@@ -15,7 +15,7 @@ DESCRIPTION="th2_data_services_utils"
 
 HOMEPAGE="https://github.com/th2-net/th2-data-services-utils"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/56/8c/ae1469b0bb1e5090712b9a4c149efbfebb1db4e57bcbed01decde1e2397c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

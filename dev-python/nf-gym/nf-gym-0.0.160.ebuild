@@ -15,7 +15,7 @@ DESCRIPTION="A OpenAI Gym Env for nfbot"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5c/3c/2ff8069a3bf7d5dad8ee9c60b4b77c2dd95c907bd899167791deef5e3d08/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

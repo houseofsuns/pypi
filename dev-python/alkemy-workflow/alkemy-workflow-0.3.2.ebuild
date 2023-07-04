@@ -15,7 +15,7 @@ DESCRIPTION="Alkemy Git Worflow"
 
 HOMEPAGE="https://github.com/DLBD-Department/alkemy-worflow"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/55/e7/3754f851867a0269ab3d06396967479a0dc08a06492d108d9ffd55c1e8c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

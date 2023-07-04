@@ -15,7 +15,7 @@ DESCRIPTION="Fractal is a scaffolding toolkit for building SOLID logic for your 
 
 HOMEPAGE="https://github.com/douwevandermeij/fractal"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/ca/4c5ac45393c26a38d734eac9571c004b6799fcf00525d17f7d1d5b8090eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

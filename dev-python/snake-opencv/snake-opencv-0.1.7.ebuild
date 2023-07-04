@@ -15,7 +15,7 @@ DESCRIPTION="Snake case opencv with type annotations"
 
 HOMEPAGE="https://github.com/cospectrum/snake-opencv"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/51/fb/8d50c16a35dec5bbaf6b7b43faca3709347866294f1d46ab9e5ff44adba0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

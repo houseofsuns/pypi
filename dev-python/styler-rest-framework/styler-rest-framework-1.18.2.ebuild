@@ -15,7 +15,7 @@ DESCRIPTION="Standards used in REST services"
 
 HOMEPAGE="https://github.com/STYLER-Inc/styler-rest-framework"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/32/636c6683ac6989da3ef51a4cb4e6960ef237abdd33b6149b9cf7de3d904a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

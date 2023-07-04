@@ -15,7 +15,7 @@ DESCRIPTION="A flake8 extension that checks expressions complexity"
 
 HOMEPAGE="https://github.com/best-doctor/flake8-expression-complexity"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/71/5bfb69acbfd319add958c70b60e68aee8914d4a5e243b87f4fcda249cf7b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

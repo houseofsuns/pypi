@@ -15,7 +15,7 @@ DESCRIPTION="Upload configuration file and asset file, download result file."
 
 HOMEPAGE="https://github.com/renderbus/rayvision_sync"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/ce/adc947844cc822a5d6df51c2e1f68368c2f3b112f52150800c9446cca6ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Common utils for Django-based projects."
 
 HOMEPAGE="https://github.com/thorgate/tg-utils"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/7a/ed/2ae04d2a34826885330e2c96b8dae89ac426d281c1087470fb8b1dc9b7ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

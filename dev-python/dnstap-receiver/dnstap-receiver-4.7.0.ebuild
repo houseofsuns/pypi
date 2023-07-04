@@ -15,7 +15,7 @@ DESCRIPTION="Python Dnstap receiver"
 
 HOMEPAGE="https://github.com/dmachard/dnstap_receiver"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/0b/702cc1f1a223a1269a7e901f0ee6a917cbe44d84dd2875079192a658ceea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

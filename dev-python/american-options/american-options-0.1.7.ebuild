@@ -15,7 +15,7 @@ DESCRIPTION="Updated plots"
 
 HOMEPAGE="https://american_options.readthedocs.io/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/fc/4bdae56541e9069932ed69736d8049cf6d89e92d670591fdadf6572279ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

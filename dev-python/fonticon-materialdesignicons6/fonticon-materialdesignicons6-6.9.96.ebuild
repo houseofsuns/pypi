@@ -15,7 +15,7 @@ DESCRIPTION="Material Design Icons extension for superqt font icons"
 
 HOMEPAGE="https://github.com/pyapp-kit/fonticon-materialdesignicons6"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/17/5ccdaaf03de6527b9cb086b63fc12f0befb0e1ed41caa7f042394b8bba0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

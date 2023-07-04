@@ -15,7 +15,7 @@ DESCRIPTION="This tool allows bulk conversion of videos using ffmpeg"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/ff/faecafb222ed4f99c3b6be7b0b0538f41dbdd1e2760b6d650a6cd34fbb10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

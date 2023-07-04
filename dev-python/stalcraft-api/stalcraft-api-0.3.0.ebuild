@@ -15,7 +15,7 @@ DESCRIPTION="stalcraft api unofficial python library"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/87/5c79bbac45236fc59d9b44ca400acb5a1c8c08cdc9ab194ea5a1538c598f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

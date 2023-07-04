@@ -15,7 +15,7 @@ DESCRIPTION="Google Cloud Logger Formatter"
 
 HOMEPAGE="http://github.com/rai200890/python_google_cloud_logger"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/8a/7596ffed2de144c6d08b30d698a24db4f7c4378e0871b8c6805f9d1bea0c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

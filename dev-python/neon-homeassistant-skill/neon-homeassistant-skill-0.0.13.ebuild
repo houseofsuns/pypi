@@ -15,7 +15,7 @@ DESCRIPTION="A Neon AI Skill for Home Assistant, which integrates with ovos-PHAL
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/17/1a/18fc93b57ee38def9e12e91355dfe4966118499733747e9396648016c363/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

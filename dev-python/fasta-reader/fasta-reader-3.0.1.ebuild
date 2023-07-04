@@ -15,7 +15,7 @@ DESCRIPTION="FASTA file reader/writer."
 
 HOMEPAGE="https://github.com/EBI-Metagenomics/fasta-reader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/64/353731042762ff3d32aae0119189449cab5f61f8e663fd955fd2aad09a1d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

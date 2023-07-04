@@ -15,7 +15,7 @@ DESCRIPTION="Schul-Cloud Content API"
 
 HOMEPAGE="https://github.com/schul-cloud/resources-api-v1"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5c/50/1e13576662e5e1993f5497d67835b86b36f1b5b645af010bb53f16925e9a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

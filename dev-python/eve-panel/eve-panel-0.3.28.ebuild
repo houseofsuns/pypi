@@ -15,7 +15,7 @@ DESCRIPTION="Top-level package for Eve-Panel."
 
 HOMEPAGE="https://jmosbacher.github.io/eve-panel"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/58/c1d8ffcc2ef66b11a2bb906339969cb0266432baca8540b2abeee994e18d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

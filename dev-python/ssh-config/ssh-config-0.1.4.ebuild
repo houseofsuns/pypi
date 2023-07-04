@@ -15,7 +15,7 @@ DESCRIPTION="ssh client config manager"
 
 HOMEPAGE="https://github.com/haginara/ssh_config"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e6/a2/b014388969d7ddd9cc8905a1c48816e66a10b27d81a12b700fbe0489dadd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

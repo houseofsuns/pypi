@@ -15,7 +15,7 @@ DESCRIPTION="Automatically generate two versions of your pydantic models: one wi
 
 HOMEPAGE="https://github.com/Ovsyanka83/pydantic-duality"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/aa/9f/205b65ca36ae6983c62e32d46143db72e3d7eddc979636eb36b2aa08a326/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

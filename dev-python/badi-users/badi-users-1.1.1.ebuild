@@ -15,7 +15,7 @@ DESCRIPTION="Python Django Users"
 
 HOMEPAGE="https://github.com/BadiDesign/badi_utils"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/ac/41/da412e8769a7dd6189bce6eb2c92ad82efd50c623fbab6e36d97b0b063cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

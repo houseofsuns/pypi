@@ -15,7 +15,7 @@ DESCRIPTION="Datagen Validation Protocol"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f1/5b/74b2ebbc8d3c71277ec8b009a4e1c001387cebbcf609cc119b9b0fd90cbe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

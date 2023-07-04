@@ -15,7 +15,7 @@ DESCRIPTION="crawler commons"
 
 HOMEPAGE="https://github.com/cheddars/crawler_commons"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/fc/c6679b17aba6bfe8a81598551a7910a9d8abd345f84104311a51aa13fcff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

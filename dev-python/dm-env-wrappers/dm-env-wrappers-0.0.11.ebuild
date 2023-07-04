@@ -15,7 +15,7 @@ DESCRIPTION="A collection of wrappers for dm_env environments"
 
 HOMEPAGE="https://github.com/kevinzakka/dm_env_wrappers"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9f/81/bac1c13991e1ccd4242f6f28e802e6fda0de6279b630b411a6749dd92989/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

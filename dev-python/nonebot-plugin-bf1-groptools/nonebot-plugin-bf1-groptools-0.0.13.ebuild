@@ -15,7 +15,7 @@ DESCRIPTION="Nonebot plugin that verifies BF1 accounts and automatically approve
 
 HOMEPAGE=""
 LICENSE="apache 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/5c/8f/e0b91c0bad02600ec1f21fa92169a7fde8119499f5c44fd24bf13d586cd3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="command line app for running configurable shell commands"
 
 HOMEPAGE="https://github.com/m3brown/plz"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/d7/220fd32d2a42392e9602b90e53a8e386e6429d51fb68aaa75a84c71450f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

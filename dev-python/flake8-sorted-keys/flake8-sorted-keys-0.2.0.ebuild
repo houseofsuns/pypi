@@ -15,7 +15,7 @@ DESCRIPTION="check keys are sorted in dict literals"
 
 HOMEPAGE="https://gitlab.com/yevhen-m/flake8-sorted-keys"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/54/a3/f1c5b92be4c41be1d2edd445b47e8ed94c4619cf20519fdff7b8b76618d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

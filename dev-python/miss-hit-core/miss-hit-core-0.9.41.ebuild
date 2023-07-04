@@ -15,7 +15,7 @@ DESCRIPTION="Code formatting and code metrics for programs written in the MATLAB
 
 HOMEPAGE="https://misshit.org"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/28/1d/08d3569c07a14d98b7115c2da86fc95a9eaf729f8f6372f8331756c0c26e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

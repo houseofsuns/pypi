@@ -15,7 +15,7 @@ DESCRIPTION="String treatment package"
 
 HOMEPAGE="https://github.com/guilhermehuther/string_treatment"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7a/d1/0f3c63007181e9d0871ccab6d9ee4e29be039732da361d54eed8a9015244/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

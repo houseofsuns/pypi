@@ -15,7 +15,7 @@ DESCRIPTION="Acapela pwned but in Python."
 
 HOMEPAGE="https://memerdev.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/98/c68bb5b98d93341eb1858fd56bd2da5b8fe11828ae836ec448425e6b9373/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

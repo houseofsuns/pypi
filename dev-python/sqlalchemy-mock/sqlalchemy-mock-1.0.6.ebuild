@@ -15,7 +15,7 @@ DESCRIPTION="The package for working with SQLAlchemy in unit tests"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e2/26/0fdb81af3fdcd440df89cc3e91c8f2fc7bc1c89e698f81f99e968c3c8d15/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

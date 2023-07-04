@@ -15,7 +15,7 @@ DESCRIPTION="Abstraction layer for interacting with Microsoft Dataverse in Pytho
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6d/36/8fa8ca8797e5a167d0265302bb55cfdb6474828e1d2b7fce7806987d4daf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

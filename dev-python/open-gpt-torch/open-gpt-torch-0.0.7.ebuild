@@ -15,7 +15,7 @@ DESCRIPTION="An open-source cloud-native of large multi-modal models (LMMs) serv
 
 HOMEPAGE="https://github.com/jina-ai/opengpt"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/38/25/a3be1e1a94c5401690a55cda975f9f5803f29d2a71ab0f605310672ede87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

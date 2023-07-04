@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing F5 BigIP resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2c/e0/c311e561fba426baa253f6b9c470e230de1bfc45ae6ec3d584054bdf24a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Augment tox with different installation methods via progressive enh
 
 HOMEPAGE="https://github.com/tox-dev/tox-pip-extensions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/fa/6e440d50c2414f8d11ae2505f9461b8ece81d4bf8b4deacf4e6f8011841c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

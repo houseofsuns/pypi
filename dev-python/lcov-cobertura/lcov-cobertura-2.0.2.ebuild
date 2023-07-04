@@ -15,7 +15,7 @@ DESCRIPTION="LCOV to Cobertura XML converter"
 
 HOMEPAGE="https://eriwen.github.io/lcov-to-cobertura-xml/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/56/51/c6aef321778fbdf3d11653dd2cce3af6cba6ba6037295634425f502aafca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

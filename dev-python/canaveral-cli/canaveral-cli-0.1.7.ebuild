@@ -15,7 +15,7 @@ DESCRIPTION="Helper CLI to interact with Devscope's internal platform codename C
 
 HOMEPAGE="https://github.com/DevScope/canaveral-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/95/a3/dd8be896580937452206d446b0e961a3328c1c4fc88ad36a41000448f820/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

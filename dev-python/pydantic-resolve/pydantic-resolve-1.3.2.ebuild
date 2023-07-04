@@ -15,7 +15,7 @@ DESCRIPTION="Make pydantic have a GraphQL-like assembly experience."
 
 HOMEPAGE="https://github.com/allmonday/pydantic_resolve"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/62/0b/7d899f089aa4b40dd1d7192caaf4c9880e2e48dc6bfedbea306a72deee64/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

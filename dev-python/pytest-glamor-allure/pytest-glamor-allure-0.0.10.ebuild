@@ -15,7 +15,7 @@ DESCRIPTION="Extends allure-pytest functionality"
 
 HOMEPAGE="https://github.com/Denis-Alexeev/pytest-glamor-allure"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/c3/7dd105cd86fd9f6636a98dc40c9da9cb9e664e11b82836ce3f4778ba7684/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

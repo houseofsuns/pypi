@@ -15,7 +15,7 @@ DESCRIPTION="A REST API for running Large Language Models"
 
 HOMEPAGE="https://github.com/mdbecker/gull_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ce/80/2460f474eb0f1573a592ad3bb2e74db592dad97c0b0ecd16710084301b5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

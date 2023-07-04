@@ -15,7 +15,7 @@ DESCRIPTION="NSSurge HTTP API for Python"
 
 HOMEPAGE="https://github.com/tddschn/nssurge-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/49/e67df2df5fe47d4a9afd5a586a621cf3f1a6f6a3630047daedf00f55acf9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

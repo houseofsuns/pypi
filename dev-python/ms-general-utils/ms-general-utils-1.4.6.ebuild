@@ -15,7 +15,7 @@ DESCRIPTION="General functions for the implementation of microservices."
 
 HOMEPAGE="https://github.com/rgramos/ms-utils.git"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/25/c8/12e0b9db0ac276c1fe2c89af0ccf52f85372c21e4040397b5848ef43e612/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

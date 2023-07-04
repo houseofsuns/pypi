@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/garpixcms/garpix_profitbase"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/2f/b4c7de253374faf9b9fe2801203edeae610bda70b083c7504a9b56bded35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

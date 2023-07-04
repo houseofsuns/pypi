@@ -15,7 +15,7 @@ DESCRIPTION="Oppfolging python package for DWH ETL"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/ff/bca8ea5a55197ead16f05ecd40507a3374639bd0f83a32d73320ed1b0660/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

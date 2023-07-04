@@ -15,7 +15,7 @@ DESCRIPTION="tme_api"
 
 HOMEPAGE="https://github.com/ldsxp/tme_api"
 LICENSE="GNU GPL 3"
-SRC_URI="https://files.pythonhosted.org/packages/f7/0c/e59ac1aa9d1ca245bc6c1854f75953199621bdc831114b40ff53a0579889/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

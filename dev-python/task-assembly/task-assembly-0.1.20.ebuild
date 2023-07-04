@@ -15,7 +15,7 @@ DESCRIPTION="SDK and CLI for using the Task Assembly crowdwork service"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7d/2b/276893669c5e83846f693c8eec74e8b45228621974f68a0a4d63d32dc158/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

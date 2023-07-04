@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing artifactory cloud resour
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/72/1a/f791701ae59ddcb55e3dd7c48795bbef6c5092a39ae59f397f461f0aefd0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

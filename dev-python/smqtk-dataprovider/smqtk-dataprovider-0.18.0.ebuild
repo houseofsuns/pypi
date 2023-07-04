@@ -15,7 +15,7 @@ DESCRIPTION="SMQTK Data provision abstractions and implementations"
 
 HOMEPAGE="https://github.com/Kitware/SMQTK-Dataprovider"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/88/5a/7a3cae600b27421ba3c1a8254d29029e5315ecf517e4f158db0abe8e4cc4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tool for automating submitting assessments to the University of Yor
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/06/a0953dc20926531e874d011b050a4958b53cc03276070342db3daf9c554b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Functions and classes for development of Eyeflow Applications"
 
 HOMEPAGE="https://github.com/siliconlife-ai/eyeflow_sdk-pkg"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/56/c7/02c43315be0d633e1263e54aa4713630693bc9beadb102160f1034db9a66/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

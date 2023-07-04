@@ -15,7 +15,7 @@ DESCRIPTION="Linear Attention Transformer"
 
 HOMEPAGE="https://github.com/lucidrains/linear-attention-transformer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/f4/e7aedb94bc94583983d2371eb987943e000c82907a32a4353ba64881ebb0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

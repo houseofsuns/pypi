@@ -15,7 +15,7 @@ DESCRIPTION="z3-tap-mongodb is a Singer tap for MongoDB, built with the Meltano 
 
 HOMEPAGE="https://github.com/z3z1ma/tap-mongodb"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f2/d2/55e6d27d718e7db24ba940433b286fb26e70951420b6496645e3f74b4065/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

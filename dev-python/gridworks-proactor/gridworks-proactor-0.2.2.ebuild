@@ -15,7 +15,7 @@ DESCRIPTION="Gridworks Proactor"
 
 HOMEPAGE="https://github.com/thegridelectric/gridworks-proactor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/7c/aa164effaad27a83383c0162d00b7f51045f4e228a752d287a73016146a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

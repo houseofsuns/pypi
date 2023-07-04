@@ -15,7 +15,7 @@ DESCRIPTION="A simple Python parser and writer of SDP."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/fe/ec9fb42ff9d32e4116badd9e602b829174d03b52cb2ffb8a0790b1889902/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

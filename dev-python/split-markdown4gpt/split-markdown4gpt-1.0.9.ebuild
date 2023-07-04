@@ -15,7 +15,7 @@ DESCRIPTION="A Python tool for splitting large Markdown files into smaller secti
 
 HOMEPAGE="https://github.com/twardoch/split-markdown4gpt"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/33/12/ce086a0ffd78b4a8cb688458bcbf6b38ce16055db2ee892cc31d961fead2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

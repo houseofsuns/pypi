@@ -15,7 +15,7 @@ DESCRIPTION="Python PCAP file parser for FC drivers"
 
 HOMEPAGE="https://github.com/andrke/driver_pcap_parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6f/1c/03b5b2c8548cf9e26c7c55ce741eb4c4db6fc49f832bf0d50d97e4eb2373/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

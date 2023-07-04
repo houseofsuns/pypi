@@ -15,7 +15,7 @@ DESCRIPTION="A flake8 extension that checks test extra style"
 
 HOMEPAGE="https://github.com/best-doctor/flake8-fine-pytest"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/21/d5856863bd9e6f7b518f0f9e69934daee54acfd4455a417350ae2ee118bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

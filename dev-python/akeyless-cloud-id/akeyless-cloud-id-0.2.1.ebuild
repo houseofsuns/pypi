@@ -15,7 +15,7 @@ DESCRIPTION="AKEYLESS Cloud ID Retriever"
 
 HOMEPAGE="https://www.akeyless.io/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/93/1b/8216c670999bc4819dc831910500fbc707d94eceaaba5b2db1d0a01b73b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

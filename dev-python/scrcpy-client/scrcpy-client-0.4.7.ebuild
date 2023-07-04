@@ -15,7 +15,7 @@ DESCRIPTION="A client of scrcpy"
 
 HOMEPAGE="https://github.com/leng-yue/py-scrcpy-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/8e/f461dc085af3a996ecde15bee450b50b3f6fe2e4ebee332b28397dac6744/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python async interface to Loadstar Sensors USB devices."
 
 HOMEPAGE="https://github.com/janelia-pypi/loadstar_sensors_interface_python"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/52/d8/9b2d3f07d2ab7e476cb6d8ec5a24f3e9cf69b025a439ceb2a54042c4b53c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

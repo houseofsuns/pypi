@@ -15,7 +15,7 @@ DESCRIPTION="Simple Redis ORM (Sync and Async)."
 
 HOMEPAGE="https://github.com/jockerz/redis_simple_orm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/fd/b7a5ac35ee03e40127156cf4b42b9d70941fefb298d956c1b84986b7c50a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

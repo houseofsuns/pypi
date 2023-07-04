@@ -15,7 +15,7 @@ DESCRIPTION="Unified LLM data management"
 
 HOMEPAGE="https://github.com/log10-io/log10"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/d2/6a25a9be882ed59f0177e82f538cc8d931938831a8eee8dd8cc5c009f5e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

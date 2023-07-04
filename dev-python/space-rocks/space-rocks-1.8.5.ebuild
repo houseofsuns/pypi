@@ -15,7 +15,7 @@ DESCRIPTION="Python client for SsODNet data access."
 
 HOMEPAGE="https://rocks.readthedocs.io/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/e4/7679874349923e29609ca5881988b0e66e6c5addd02b3ef7bf24f844eeac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

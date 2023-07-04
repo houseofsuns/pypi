@@ -15,7 +15,7 @@ DESCRIPTION="Vortex APIs to place orders in AsthaTrade Flow application"
 
 HOMEPAGE="https://vortex.asthatrade.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/b7/ed4e005b463f3495d5996b54b3a25228e3e7d142c2a42bf642e14eb6a672/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

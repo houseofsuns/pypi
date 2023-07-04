@@ -15,7 +15,7 @@ DESCRIPTION="vtt to srt subtitles converter package"
 
 HOMEPAGE="https://github.com/jsonzilla/vtt_to_srt3"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/fa/b533da7256783a14fb7d42d7093500abcbf494acf2a2e2537245dcc951b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Multi-agent environment for reinforcement learning"
 
 HOMEPAGE="https://github.com/ECE324-MI-Gang/Multi-agent-Env"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/40/db/95298bb6ca7cd57eea1bb6900efe8492b5ac6cadc7e28931ec9ebc5327aa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

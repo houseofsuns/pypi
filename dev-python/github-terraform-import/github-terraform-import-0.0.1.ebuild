@@ -15,7 +15,7 @@ DESCRIPTION="Import or sync existing Github infrastructure into terraform"
 
 HOMEPAGE="https://github.com/BraeWebb/github-terraform-import"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/e3/8a94403201cd18b248dc33a06eacaa2af4844ce0f1cb13c475e8f3b484e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Data structure for multi-dimensional enums"
 
 HOMEPAGE="https://github.com/klaviyo/matrix_enum"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0a/ec/c7cbd266d78415c103f428649909e4b00e730b3217a62fdc0c6b47d3257a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

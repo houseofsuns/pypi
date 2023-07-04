@@ -15,7 +15,7 @@ DESCRIPTION="A command line investment assistant to organize your portfolio and 
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c0/50/05a81d811339d8c8c548d13c1aa6e761ce0104c5a205304e97555dcb7990/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

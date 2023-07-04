@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for text with CM."
 
 HOMEPAGE="https://github.com/cmdotcom/text-sdk-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/4e/9aab5b460e57a7ddf4113781ddc66a671b0fcc0d9dae1e28be3321b22d84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

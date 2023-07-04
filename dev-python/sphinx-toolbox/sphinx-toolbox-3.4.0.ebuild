@@ -15,7 +15,7 @@ DESCRIPTION="Box of handy tools for Sphinx 🧰 📔"
 
 HOMEPAGE="https://github.com/sphinx-toolbox/sphinx-toolbox"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f1/9c/bbf8bf24ea33e805f62362d4021e109ec86fb2e23fb4baed958a61262422/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

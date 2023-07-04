@@ -15,7 +15,7 @@ DESCRIPTION="Python library to collect data about jira imputed hours and employe
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/67/52/d0a858e545dbc27bfebcceb58b06b5fe2d22c3a03cdeea5978592a665845/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

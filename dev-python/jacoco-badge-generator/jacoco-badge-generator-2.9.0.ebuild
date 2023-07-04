@@ -15,7 +15,7 @@ DESCRIPTION="JaCoCo coverage badges (SVG format), and coverage checks (e.g., dec
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/cd/36a877bb4245581ae09c87a8cf4889b83fa458d7ace3476a106c2e0a28b7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

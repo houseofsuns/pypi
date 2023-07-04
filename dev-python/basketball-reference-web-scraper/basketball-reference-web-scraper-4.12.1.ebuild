@@ -15,7 +15,7 @@ DESCRIPTION="A Basketball Reference client that generates data by scraping the w
 
 HOMEPAGE="https://jaebradley.github.io/basketball_reference_web_scraper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/05/85/4553dbec12525282690f05e4f1f96977f691a43fbae69136e7efc3b8d604/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

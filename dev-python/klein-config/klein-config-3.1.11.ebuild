@@ -15,7 +15,7 @@ DESCRIPTION="Read and manage config from environment variables and files"
 
 HOMEPAGE="https://github.com/mdcatapult/py-config"
 LICENSE="Apache V2"
-SRC_URI="https://files.pythonhosted.org/packages/4e/aa/e310f7329601ffa97f50090acf25eb1458b745a8493a204f2ba54781cb09/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

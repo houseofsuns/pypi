@@ -15,7 +15,7 @@ DESCRIPTION="Image classification models. Keras."
 
 HOMEPAGE="https://github.com/qubvel/classification_models"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/83/89/cf76a884d63477fc0e964d3494e65095272af60c48ee72b2c74b96da92c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

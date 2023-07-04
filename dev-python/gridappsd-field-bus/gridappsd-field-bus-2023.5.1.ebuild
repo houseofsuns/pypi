@@ -15,7 +15,7 @@ DESCRIPTION="GridAPPS-D Field Bus Implementation"
 
 HOMEPAGE="https://gridappsd.readthedocs.io"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/20/42/c4a38e869bb526d29fd210ae1076c458e14587d8ac2e3231d69198c7c81b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

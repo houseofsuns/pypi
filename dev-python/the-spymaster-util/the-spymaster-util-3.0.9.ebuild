@@ -15,7 +15,7 @@ DESCRIPTION="Common utilities and infra for The Spymaster game."
 
 HOMEPAGE="https://github.com/asaf-kali/the-spymaster-util"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/83/bfcb5f1c73f6dfe9d94b1cc91c905035b2d7033909fc190ff7cd8a039796/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

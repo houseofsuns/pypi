@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry Kafka-Python instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-kafka-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e5/34/b16d185d3ae553365702fe3e17c1360ee42077a638d7e56a2719856316ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

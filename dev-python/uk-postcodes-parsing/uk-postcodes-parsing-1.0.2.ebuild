@@ -15,7 +15,7 @@ DESCRIPTION="A Python package to parse UK postcodes from text. Useful in applica
 
 HOMEPAGE="https://github.com/anirudhgangwal/ukpostcodes"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/30/56/2a0af22a195f93a4c01662bf0b0a1131da8d347268a555f9133a2063a2da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

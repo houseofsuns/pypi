@@ -15,7 +15,7 @@ DESCRIPTION="pre-commit hooks for CMake based projects"
 
 HOMEPAGE="https://github.com/Takishima/cmake-pre-commit-hooks"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/af/97/fca8c51e61208f059f3cfffca9f11502ce4e1789c89b5c0241717bcc57f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

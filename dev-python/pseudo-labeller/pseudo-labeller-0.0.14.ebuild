@@ -15,7 +15,7 @@ DESCRIPTION="Psuedo PV/Irradience Labeller"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/09/9b/c43d8995776cfbd1b88196f75dc8f5a20a75f73f91ad826cbd703b2028d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

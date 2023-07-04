@@ -15,7 +15,7 @@ DESCRIPTION="A combined process and thread lock"
 
 HOMEPAGE="https://github.com/forslund/combo-lock"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/47/79/83e327fc03dd89c7b954eb290d89e9dc639ea3f4d1939139d1cccc452b22/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

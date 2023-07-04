@@ -15,7 +15,7 @@ DESCRIPTION="Blazing fast implementation of Fluent localization language."
 
 HOMEPAGE="https://github.com/django-ftl/fluent-compiler"
 LICENSE="APL 2"
-SRC_URI="https://files.pythonhosted.org/packages/aa/6d/aef020a37eb0113fda4605b95c91e6756ded47910174a292d08bdd654804/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

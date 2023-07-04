@@ -15,7 +15,7 @@ DESCRIPTION="Simple python package to shut up Tensorflow warnings and logs."
 
 HOMEPAGE="https://github.com/LucaCappelletti94/silence_tensorflow"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2e/1c/5c4aef549a6963b2c0eb90261a58d79af8fd1c893b613818a3ea6becfc2f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

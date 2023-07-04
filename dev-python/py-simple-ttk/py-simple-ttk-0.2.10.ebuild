@@ -15,7 +15,7 @@ DESCRIPTION="Tkinter themes don't have to be hard."
 
 HOMEPAGE="https://GitHub.com/AndrewSpangler/py_simple_ttk/"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/32/23/f2fc78a8021f41343a9a178b3d6720527c953069fe0dca19e49e7c10d001/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

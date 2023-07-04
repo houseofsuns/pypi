@@ -15,7 +15,7 @@ DESCRIPTION="NFT market is in your hands."
 
 HOMEPAGE="https://github.com/ukaznil/nft-market"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/df/638cfdb7c98a78ec2e0c0f4e4d465c6005c71763653111a4733e56496f6e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

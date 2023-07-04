@@ -15,7 +15,7 @@ DESCRIPTION="Command line interface (CLI) and Python 3 client library for intera
 
 HOMEPAGE="https://www.cosmosid.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/d6/2163f3b3c0654a2d1041ea0bab7e11523edff6093bc3986da7ec965a0ccc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

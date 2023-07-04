@@ -15,7 +15,7 @@ DESCRIPTION="Valohai.yaml validation and parsing"
 
 HOMEPAGE="https://github.com/valohai/valohai-yaml"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/8b/5c0a22d749c4d4fa42074bf774db0042be05c97a02934fe75815ccb3e519/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

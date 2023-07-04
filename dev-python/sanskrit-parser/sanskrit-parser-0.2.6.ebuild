@@ -15,7 +15,7 @@ DESCRIPTION="Tools for lexical and morphological analysis of Sanskrit"
 
 HOMEPAGE="https://github.com/kmadathil/sanskrit_parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/b3/36b5c80860db1b47a59cd7a8f61a276ef5b7ed0dde52edb7ed35a3212924/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Pydantic validation for GeoJson"
 
 HOMEPAGE="https://github.com/gb-libs/pydantic-geojson"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/f8/5489a69e54f8e427cd002a8521655b02802cc14d47903a8228fd5b3e83d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

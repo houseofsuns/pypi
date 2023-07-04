@@ -15,7 +15,7 @@ DESCRIPTION="A helper library to jumpstart your machine learning project based o
 
 HOMEPAGE="https://github.com/psmathur/tabular_ml_toolkit/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/92/e2/e2453bd62dec2dd4248d1dacfbc24850e71a79737fe3b08468c07e81f2c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

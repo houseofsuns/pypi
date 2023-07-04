@@ -15,7 +15,7 @@ DESCRIPTION="Cloud file storages for django."
 
 HOMEPAGE="https://pypi.org/project/django-cloud-storages"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/9b/1789639d5a620733753b76b4edabc216dc0e31a4b225f8654c675a0c54c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

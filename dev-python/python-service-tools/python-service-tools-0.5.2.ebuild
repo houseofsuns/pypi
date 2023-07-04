@@ -15,7 +15,7 @@ DESCRIPTION="Utilities for working with python services."
 
 HOMEPAGE="https://github.com/mongodb-labs/python-service-tools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4c/6e/98016152eec326825fe00abd0ae5114220674f5cb919feaf1fe85c7ecea3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

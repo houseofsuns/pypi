@@ -15,7 +15,7 @@ DESCRIPTION="Efficient repeated evaluation of splines at fixed points."
 
 HOMEPAGE="https://github.com/ColmTalbot/cached_interpolation"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a0/28/655cd72e6decb46dadbb442427d67521d5ded0b84b1dd0445425a62bdb5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

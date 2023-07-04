@@ -15,7 +15,7 @@ DESCRIPTION="A tool to scrape data about fires from Twitter."
 
 HOMEPAGE="https://github.com/twitter-fire-scraper-analytics/twitter-fire-scraper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/71/fcf0b753124b0567ad9c44af1af2e4885abfd6835e1f7e8c6eed97a5c9a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

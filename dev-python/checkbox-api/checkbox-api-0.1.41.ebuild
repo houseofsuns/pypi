@@ -15,7 +15,7 @@ DESCRIPTION="checkbox.in.ua Transactional Processing API Client"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/ff/81cac9487b324576a8867f29c195347e1e33a06866f46c06e028ff89f041/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

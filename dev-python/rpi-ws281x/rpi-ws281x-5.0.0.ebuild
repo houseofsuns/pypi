@@ -15,7 +15,7 @@ DESCRIPTION="Userspace Raspberry Pi PWM/PCM/SPI library for SK6812 and WS281X LE
 
 HOMEPAGE="https://github.com/rpi-ws281x/rpi-ws281x-python/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/1e/642208a685c5e96d38323f42c75d9b24f95e2d1b8390dd104e04a712f29e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An API for bit.ly forked for Python 3 support"
 
 HOMEPAGE="https://github.com/develtech/bitly-api-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/05/7a/1ee28ed8e95e3cf78df8be8bc4da7c825663d9859586dcc4715e64fb242c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

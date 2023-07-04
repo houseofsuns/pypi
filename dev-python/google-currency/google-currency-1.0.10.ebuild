@@ -15,7 +15,7 @@ DESCRIPTION="A simple library to convert the currency of one country to other, i
 
 HOMEPAGE="https://github.com/om06/google-currency"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d0/0b/49ebba0bd4f798d99680fda4180cb1d9ec92c26e5b5cc7f4f1c27e5e9efc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

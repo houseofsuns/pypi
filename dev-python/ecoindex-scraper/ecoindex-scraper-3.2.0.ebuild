@@ -15,7 +15,7 @@ DESCRIPTION="Ecoindex_scraper module provides a way to scrape data from given we
 
 HOMEPAGE="http://www.ecoindex.fr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/63/392d3cc4bea2cee8f8b14d54595d07017d312dce9c8cae336774abf7f0b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

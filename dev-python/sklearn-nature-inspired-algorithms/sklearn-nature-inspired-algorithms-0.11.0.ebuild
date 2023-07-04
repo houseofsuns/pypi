@@ -15,7 +15,7 @@ DESCRIPTION="Search using nature inspired algorithms over specified parameter va
 
 HOMEPAGE="https://github.com/timzatko/Sklearn-Nature-Inspired-Algorithms"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/a5/2f6b9c53291274b4247226728d230b482db2e31caee0ed201d32d7e9c20f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

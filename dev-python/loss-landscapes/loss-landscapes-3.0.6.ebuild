@@ -15,7 +15,7 @@ DESCRIPTION="A library for approximating loss landscapes in low-dimensional para
 
 HOMEPAGE="https://github.com/marcellodebernardi/loss-landscapes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/d0/549d0011eb045d57f2ff0f5cca3eb8ee9b7c0943f0e687a648acbb5a9a91/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

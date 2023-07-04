@@ -15,7 +15,7 @@ DESCRIPTION="bootstrap simple projects on kubernetes with kind and k3s"
 
 HOMEPAGE="https://jessebot.github.io/smol-k8s-lab"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/0e/1f/98dc311cc3639cb4f607a06dddb559e410bded16681933c5e0fda1c1fb9d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

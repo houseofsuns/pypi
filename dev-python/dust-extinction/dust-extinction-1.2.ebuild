@@ -15,7 +15,7 @@ DESCRIPTION="Interstellar Dust Extinction Models"
 
 HOMEPAGE="http://dust-extinction.readthedocs.io/"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/75/9f/7a923cb51365e8bccbfc688ab4f141a536ada1a52b60bd4f3a0e690ca180/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

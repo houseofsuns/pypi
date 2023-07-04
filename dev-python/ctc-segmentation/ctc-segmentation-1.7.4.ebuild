@@ -15,7 +15,7 @@ DESCRIPTION="CTC segmentation to align utterances within large audio files."
 
 HOMEPAGE="https://github.com/lumaku/ctc-segmentation"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f4/ed/78dd82e0b022ed4cb047188c0b8cead62fa0c27700737fd34e3263d83882/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

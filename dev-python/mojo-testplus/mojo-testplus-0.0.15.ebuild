@@ -15,7 +15,7 @@ DESCRIPTION="Automation Mojo TestPlus Test Framework"
 
 HOMEPAGE="http://automationmojo.com"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/d5/bf/d29a54994fb1715a62f257a53ed7e108abfed3135c8fe8e619de7757d56f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

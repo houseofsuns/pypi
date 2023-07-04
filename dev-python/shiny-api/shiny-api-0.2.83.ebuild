@@ -15,7 +15,7 @@ DESCRIPTION="Interface with LS and Camera Scanner"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/13/0e7db75c09041d05c6a0f32c0aac4413375f8cc7f5572714170b2ea1a66a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

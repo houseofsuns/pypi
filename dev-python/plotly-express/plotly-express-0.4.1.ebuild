@@ -15,7 +15,7 @@ DESCRIPTION="Plotly Express - a high level wrapper for Plotly.py"
 
 HOMEPAGE="https://plotly.express/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/e8/e6e0518d9e2fc78915b3e13cb89011bbffbf4a895d9d98257d06cd5229a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

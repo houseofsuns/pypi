@@ -15,7 +15,7 @@ DESCRIPTION="A package of RL algorithms"
 
 HOMEPAGE="https://github.com/leoxiang66/machine-learning/tree/MLO"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/d3/ac6acf69c0818136800389444805a131270e6a782d0a54b04e2d336a2c2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

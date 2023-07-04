@@ -15,7 +15,7 @@ DESCRIPTION="Read and write the PLINK BED format, simply and efficiently."
 
 HOMEPAGE="https://fastlmm.github.io/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/97/66/c76ba2fc3ee097474fa67ccc39578a6b4ca41282726322dca1f33861f8fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

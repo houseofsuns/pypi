@@ -15,7 +15,7 @@ DESCRIPTION="Email reply parser"
 
 HOMEPAGE="https://github.com/zapier/email-reply-parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ed/f9/3fbd22530467a831a0506267477c5005d24661d07abf776678ab42d51b35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

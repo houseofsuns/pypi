@@ -15,7 +15,7 @@ DESCRIPTION="Span table cols and rows in MkDocs"
 
 HOMEPAGE="https://gitlab.com/mschleeweiss/mdx_spanner"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/f5/ceb980fb6744708e683663d4ed202e2becacf71e5d5910f9e3771ade9854/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

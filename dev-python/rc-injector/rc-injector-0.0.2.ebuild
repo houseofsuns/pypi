@@ -15,7 +15,7 @@ DESCRIPTION="Python dependency injector"
 
 HOMEPAGE="https://github.com/RevenueCat/rc-injector"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/5b/5650b31ee39316979b70becbf477d6927494372588884975ef6bb3b76085/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

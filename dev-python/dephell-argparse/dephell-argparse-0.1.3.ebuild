@@ -15,7 +15,7 @@ DESCRIPTION="Argparse on steroids: groups, commands, colors."
 
 HOMEPAGE="https://github.com/dephell/dephell_argparse"
 LICENSE="None"
-SRC_URI="https://files.pythonhosted.org/packages/ea/28/7048531b7e51390336b83053992590cb23db7339bb117a0cdd9b9a058139/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

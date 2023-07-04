@@ -15,7 +15,7 @@ DESCRIPTION="DeepSeaAI is a Python package to simplify processing deep sea video
 
 HOMEPAGE="https://github.com/mbari-org/deepsea-ai"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/49/36/ec75afcc664130356de581c4ac4c51146c130bc021b9dd061a24f02f33e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Library to help the drawing process with OpenCV. Thought to add lab
 
 HOMEPAGE="https://github.com/fernaper/opencv-draw-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/50/63a2af8b9ed93d811cbfa884191a38597deb0472b3b60f476dc1cc55f2bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

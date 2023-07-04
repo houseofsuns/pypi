@@ -15,7 +15,7 @@ DESCRIPTION="GBD Benchmark Database Tools: Maintenance of Benchmark Instances an
 
 HOMEPAGE="https://github.com/Udopia/gbd"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7c/9b/62826207cb470b2ca59f2a4f3d40758382e957960be73496c157e28cc789/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

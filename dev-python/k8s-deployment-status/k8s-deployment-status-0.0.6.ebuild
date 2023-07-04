@@ -15,7 +15,7 @@ DESCRIPTION="Provides deployment status details for any Kubernetes pod"
 
 HOMEPAGE="https://github.com/saltgen/k8s_deployment_status"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/cd/5f6b168bf20787b6a22d3e008d56991646dcbc43927b2e71da95be9a13d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

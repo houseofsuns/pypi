@@ -15,7 +15,7 @@ DESCRIPTION="A neural network that detects water drops on the surface from an im
 
 HOMEPAGE="https://github.com/HerrPhoton/Water_drop_detection"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/49/e0/9e26e5c34f5505fbfb5a7c70046ef473e8555853ef14a4f02a2735ffddcb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

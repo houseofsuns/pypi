@@ -15,7 +15,7 @@ DESCRIPTION="DeepL Translator CLI without API Key"
 
 HOMEPAGE="https://github.com/eggplants/deepl-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/89/56/44efc5317013d1c59e349a20f63c456c94dd4640697d6a10a7c9d75f0308/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

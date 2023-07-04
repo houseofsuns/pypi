@@ -15,7 +15,7 @@ DESCRIPTION="Library to convert rich text from Draft.js raw ContentState to HTML
 
 HOMEPAGE="https://github.com/springload/draftjs_exporter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/5b/7729b1a95d48d2f51b03feacda1d5b17058e1caec524592e59d0df801a8c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

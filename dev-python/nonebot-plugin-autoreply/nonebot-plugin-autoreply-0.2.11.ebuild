@@ -15,7 +15,7 @@ DESCRIPTION="A powerful auto reply plugin for NoneBot2"
 
 HOMEPAGE="https://github.com/lgc-NB2Dev/nonebot-plugin-autoreply"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/ad/3dcc0a0dc94a53d34de4ae4b9e26648cfe4279a2e42d68c779ddf7f63a0f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

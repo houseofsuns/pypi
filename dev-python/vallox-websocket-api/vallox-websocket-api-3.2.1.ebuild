@@ -15,7 +15,7 @@ DESCRIPTION="Vallox WebSocket API"
 
 HOMEPAGE="https://github.com/yozik04/vallox_websocket_api"
 LICENSE="LGPL 3"
-SRC_URI="https://files.pythonhosted.org/packages/7b/e4/2ad8c44af6fd669c5c42a94519d4b9a1d9e9f9fc699b71c2ea20e7df0d8b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

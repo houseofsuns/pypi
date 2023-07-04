@@ -15,7 +15,7 @@ DESCRIPTION="Communication library and basic testing tool for Satel Integra alar
 
 HOMEPAGE="https://github.com/c-soft/satel_integra"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/83/92/990186661fc9c8273e58ca07e41ae44810c66ad4ec9a18401100e0bcf115/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

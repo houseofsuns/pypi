@@ -15,7 +15,7 @@ DESCRIPTION="a big lib with many usefull tools and it are not only os and sys to
 
 HOMEPAGE="https://github.com/Matthijs990/os-sys-github/"
 LICENSE="GNU General Public License"
-SRC_URI="https://files.pythonhosted.org/packages/e7/1b/1b2e022722ef04cd9c831182fa5af0648e5d5cbe4aa911b74de85b984460/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

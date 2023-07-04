@@ -15,7 +15,7 @@ DESCRIPTION="A robot base of AlvaIM"
 
 HOMEPAGE="https://alvaim.com"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/9c/f6/dc1e8ad7586b526151965d0976faa0d7ea06e0c4a688227ff52f44b246e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

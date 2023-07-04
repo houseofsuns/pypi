@@ -15,7 +15,7 @@ DESCRIPTION="Universal YAML: replace repetitive code with your own Domain-Specif
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/25/26/82942f2d5bb728173b22527954ed0f4d115480fb2ca039ce02d77c9c2b6a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

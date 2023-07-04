@@ -15,7 +15,7 @@ DESCRIPTION="A python3 library to communicate with Mill heaters using local Gen 
 
 HOMEPAGE="https://github.com/Danielhiversen/pyMillLocal"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/9f/24d91716412db2c6350afbbdf9a5d066de66d505f26a2e0c4ba5035f9fd8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A web scraper based on the BeautifulSoup4 library and translators p
 
 HOMEPAGE="https://github.com/ti-oluwa/bs4_web_scraper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/32/05e38222b8cf7e076f19d5742f691f74ba23cd758d79ae1fee8c3fef5d61/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

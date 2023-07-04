@@ -15,7 +15,7 @@ DESCRIPTION="A Poetry plugin that makes it possible to use relative package incl
 
 HOMEPAGE="https://github.com/davidvujic/poetry-multiproject-plugin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1d/b6/cd62fab6853e168a3b126df3004849ed9c4209a9611349fa46ab3ca4de26/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

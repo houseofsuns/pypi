@@ -15,7 +15,7 @@ DESCRIPTION="Downloads raw page from google images and searches for images that 
 
 HOMEPAGE="https://github.com/RiddlerQ/simple_image_download"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/74/e0a4aaefb0692ceb3eaf370bcd609f21f0b71ed43ba48604a385409136bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python Client for the Tamr API"
 
 HOMEPAGE="https://tamr-client.readthedocs.io/en/stable/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f0/2d/4e92645f3b82d7081780a7e796c9e84a6a7d377298afa6fd81f48a6ab13a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

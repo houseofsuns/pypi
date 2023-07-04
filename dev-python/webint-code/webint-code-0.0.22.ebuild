@@ -15,7 +15,7 @@ DESCRIPTION="manage code on your website"
 
 HOMEPAGE="https://ragt.ag/code/projects/webint-code"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/bd/b4/f64534ddcba3fdc8cead1dade0fc35d52fd117e7571488ef8d744e0a8a59/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

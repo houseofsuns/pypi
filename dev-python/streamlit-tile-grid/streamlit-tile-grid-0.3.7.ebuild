@@ -15,7 +15,7 @@ DESCRIPTION="A custom Streamlit component for rendering tiles"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/87/a263600fe7a3d75be966fc07cf8c19446202fd3c9b57358d806188022550/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

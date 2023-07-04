@@ -15,7 +15,7 @@ DESCRIPTION="Generates a human readable ID using a format of: Adjective Noun ID"
 
 HOMEPAGE="https://github.com/JonnyFb421/human-readable-ids"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2b/7e/0592f2c9402b6e7680fb703d97a503a655593f59c2c0a848a8069e7950c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

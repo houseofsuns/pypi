@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module that manages discount on sale"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b7/77/d8a8fdb7d8680cd14838ab36b0bf57b7ccb9e27d56e1b2e6bc617e9776ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

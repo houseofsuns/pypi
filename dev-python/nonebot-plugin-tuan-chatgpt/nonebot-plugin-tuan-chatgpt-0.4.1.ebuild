@@ -15,7 +15,7 @@ DESCRIPTION="\"Chat with tuanzi ~\""
 
 HOMEPAGE="https://github.com/TheLZY/nonebot_plugin_tuan_chatgpt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/11/6e/068f81556f82ce80465f141605245e94361f6e5119756a17408f2ec58d6e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

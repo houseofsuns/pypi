@@ -15,7 +15,7 @@ DESCRIPTION="Python module for interfacing QIR with the Quantinuum pytket librar
 
 HOMEPAGE="https://github.com/CQCL/pytket-qir"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/90/66/10f84563c7d5cf2095400ec2871d433ac6451af1febf9d75b58bc999490c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

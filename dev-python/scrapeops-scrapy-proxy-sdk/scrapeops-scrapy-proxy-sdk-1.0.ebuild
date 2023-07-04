@@ -15,7 +15,7 @@ DESCRIPTION="Scrapeops Scrapy Proxy SDK, simple integration to use the Scrapeops
 
 HOMEPAGE="https://github.com/ScrapeOps/scrapeops-scrapy-proxy-sdk"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/62/ee/5ed406290d3f3d94bb1216b2ae84801652d1924b7e7685258af7fced3bdb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

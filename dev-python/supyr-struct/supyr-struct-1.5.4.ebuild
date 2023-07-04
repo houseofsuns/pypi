@@ -15,7 +15,7 @@ DESCRIPTION="A versatile and extensible binary data parsing/serializing library 
 
 HOMEPAGE="https://github.com/Sigmmma/supyr_struct"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/f7/01ea8e64dbd90b7f433b112929d7295442c5843f6213fb1abfc1e386cf75/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

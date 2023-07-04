@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/mzaglia/flask-redoc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c7/a2/fa89ca1a15dcdc7c132e66269f591995d4a847be271f67c4439774053fdb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

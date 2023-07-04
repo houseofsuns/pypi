@@ -15,7 +15,7 @@ DESCRIPTION="pcl_pangu"
 
 HOMEPAGE="https://openi.pcl.ac.cn/PCL-Platform.Intelligence/pcl_pangu"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/af/138166f53f476e42e15b693229d2660ef938168628a11cea5a639eba67b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

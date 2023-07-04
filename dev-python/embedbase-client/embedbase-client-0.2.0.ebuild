@@ -15,7 +15,7 @@ DESCRIPTION="Python client for Embedbase"
 
 HOMEPAGE="https://github.com/different-ai/embedbase/tree/main/sdk/embedbase-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bb/af/7e212a0bc33b3148c99b936996451d27a6112be1b1aebf20286bdf049144/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

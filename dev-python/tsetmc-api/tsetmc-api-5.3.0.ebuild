@@ -15,7 +15,7 @@ DESCRIPTION="simple package to communicate and crawl data from tsetmc.com (Tehra
 
 HOMEPAGE="https://github.com/mahs4d/tsetmc-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/61/0e473c706f21a33632954fd9cc8fe239abae725357066e93f271c4f231d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

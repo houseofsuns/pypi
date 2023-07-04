@@ -15,7 +15,7 @@ DESCRIPTION="Auth Library PPDBV2"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/48/18/a5c06c3b12d4b8caf32db9a3909e22f61820430ee6f0526fe400e0bcadbc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Media library for Django"
 
 HOMEPAGE="http://github.com/matthiask/django-cabinet/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e6/3a/094709378279188e14222d8e8f086a3d23ab944afd9febb7546872c3cce3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tools for django admin"
 
 HOMEPAGE="https://github.com/SpikeeLabs/django-admin-action-tools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8e/ec/e1b384ec78ff1e0ff2dc1fcf4bcd3a1018f34d8433604252e90fb3273e8b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

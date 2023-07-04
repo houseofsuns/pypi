@@ -15,7 +15,7 @@ DESCRIPTION="NeMo text processing for ASR and TTS"
 
 HOMEPAGE="https://github.com/nvidia/nemo-text-processing"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4d/b6/068414fd36412cc542f864ae8f206b65f2abe48ffe1a082a03bc99499afc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

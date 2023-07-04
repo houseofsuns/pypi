@@ -15,7 +15,7 @@ DESCRIPTION="Battle.net REST API Connections"
 
 HOMEPAGE=""
 LICENSE="GPL v3+"
-SRC_URI="https://files.pythonhosted.org/packages/e9/8a/0a8bca797425588521051e951f3e729817d35dd7bdc89e18144e578a4dc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

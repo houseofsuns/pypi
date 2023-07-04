@@ -15,7 +15,7 @@ DESCRIPTION="Collection of tasks for analyzing cell shapes."
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a0/8a/ffb51c440aaab03ce6aabba8a89942839bc07f572523f5b02ece9dbdaa8e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

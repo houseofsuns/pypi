@@ -15,7 +15,7 @@ DESCRIPTION="SDK for developing OaaS function in Python"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/77/ff/bf484f775a2539ccd49347bda196945c819c6ebbe95527ae7772c437ec4e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

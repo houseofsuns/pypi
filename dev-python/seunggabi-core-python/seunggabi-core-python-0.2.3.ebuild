@@ -15,7 +15,7 @@ DESCRIPTION="A collection of core Python modules"
 
 HOMEPAGE="https://github.com/seunggabi/core_python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/7c/6a89bd88a95506a409a7942a549d5eb0e742ba42a1ddb2e915fe038fdc30/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Azuer L plugin for NoneBot2"
 
 HOMEPAGE="https://github.com/Agnes4m/nonebot_plugin_AL"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/83/f6/2fbd320c40beff0f28632beac434c275748b88360e44bc24361f6374d459/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

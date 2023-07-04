@@ -15,7 +15,7 @@ DESCRIPTION="seamm_ff_util"
 
 HOMEPAGE="https://github.com/molssi-seam/seamm_ff_util"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7a/b8/20b0b3188db49c303b460d9a44bc45bf0262b487fefbb11b2aed510ebe69/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

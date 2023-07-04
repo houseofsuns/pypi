@@ -15,7 +15,7 @@ DESCRIPTION="Run functional tests on cloudformation stacks."
 
 HOMEPAGE="https://github.com/DontShaveTheYak/cloud-radar"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/59/c9/dfc4be7d82ada9b6cb85c53adfcb7acff3c6ccccff8fd6844276cf63f019/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

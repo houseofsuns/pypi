@@ -15,7 +15,7 @@ DESCRIPTION="CSRF protection for aiohttp-server"
 
 HOMEPAGE="https://github.com/TensorTom/aiohttp-csrf"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/64/1b/86dc0a7668b8d64b51913590fe26e6dd9d94986fcfe34bdac63846358fff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

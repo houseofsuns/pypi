@@ -15,7 +15,7 @@ DESCRIPTION="This package extends PyMongo to provide built-in smart authenticati
 
 HOMEPAGE="https://github.com/PLPeeters/PyMongo-Smart-Auth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4c/9c/a56ed9b98cbab26bb27663ee228eb01b5ec2a7901e54341027669b6f16dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

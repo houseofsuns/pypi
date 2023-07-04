@@ -15,7 +15,7 @@ DESCRIPTION="Python package which provides a base application class for an app w
 
 HOMEPAGE="https://github.com/rmetcalf9/baseapp_for_restapi_backend_with_swagger"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/0e/102c083affbbf4c3e649b5d97aa1d78ae47b311e6e029040191192876754/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

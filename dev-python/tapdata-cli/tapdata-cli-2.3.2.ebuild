@@ -15,7 +15,7 @@ DESCRIPTION="Tapdata Python Sdk"
 
 HOMEPAGE="https://github.com/tapdata/tapdata/tree/master/tapshell"
 LICENSE="Apache V2"
-SRC_URI="https://files.pythonhosted.org/packages/77/6e/6aa54a4f281ee988a0eaf2af63120e16799bb7d5f9df1a80435ee6d84759/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

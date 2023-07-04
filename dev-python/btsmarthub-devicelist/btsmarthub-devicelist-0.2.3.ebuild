@@ -15,7 +15,7 @@ DESCRIPTION="Retrieve a list of devices from a bt smarthub or bt smarthub 2 on a
 
 HOMEPAGE="https://github.com/jxwolstenholme/btsmarthub_devicelist"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c6/a1/c50aefdc873aa34734aa66baabacd52f6a00bbf75bd688d706ef5daa5e1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

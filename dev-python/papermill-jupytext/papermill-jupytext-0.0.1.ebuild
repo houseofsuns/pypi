@@ -15,7 +15,7 @@ DESCRIPTION="Parametrize and run scripts as notebooks with jupytext and papermil
 
 HOMEPAGE="https://github.com/mwouts/papermill_jupytext"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/a6/11a5c9193f66644724b8ad22f40230d2fff5097dc5bdf98516fd122a1ac0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

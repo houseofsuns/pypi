@@ -15,7 +15,7 @@ DESCRIPTION="Manage cybos program."
 
 HOMEPAGE="https://pypi.org/project/cybos-hj3415/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5f/ae/387d931b7046ae1b145ea5ba4576ad32f958636b13d481573319c3b5dedf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

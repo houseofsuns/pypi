@@ -15,7 +15,7 @@ DESCRIPTION="Tool to scan and process documents to paperless"
 
 HOMEPAGE="https://hub.docker.com/r/sbrunner/scan-to-paperless/"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/06/a5/601a8f88321f629255957db1b45e818a295cd37be5234fc17171844bf1db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

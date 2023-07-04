@@ -15,7 +15,7 @@ DESCRIPTION="Nagios/NRPE compatible plugins for checking Docker based services"
 
 HOMEPAGE="https://github.com/timdaman/check_docker"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/6e/eb/298a8df4fd2c6d77c41e312ca36c94e96e90c5d40fae10b2a576d0572905/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

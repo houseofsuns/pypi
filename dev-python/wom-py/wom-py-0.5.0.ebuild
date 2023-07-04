@@ -15,7 +15,7 @@ DESCRIPTION="An asynchronous wrapper for the Wise Old Man API."
 
 HOMEPAGE="https://github.com/Jonxslays/wom.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/c5/bb5fba15bbc06dc40ff314e60dbdb38367011151a04bea9bf4d57e37683d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

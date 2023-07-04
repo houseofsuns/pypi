@@ -15,7 +15,7 @@ DESCRIPTION="Parser for the RAPT Pill hydrometer BLE packets."
 
 HOMEPAGE="https://github.com/sairon/rapt-ble"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/5f/f6002d3bef357b27d86e3a20fb5cf7a7436cecc5412871ef213bb2ec3a9c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

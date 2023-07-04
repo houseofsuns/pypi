@@ -15,7 +15,7 @@ DESCRIPTION="Python 3 check local import for flake8"
 
 HOMEPAGE="https://github.com/meanmail-dev/flake8-local-import"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/7b/ead94444b7ca2dcea394e2cd4573f660ef29147c225b795d21661fe94f7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

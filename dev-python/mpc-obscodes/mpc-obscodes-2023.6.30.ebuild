@@ -15,7 +15,7 @@ DESCRIPTION="Minor Planet Center Observatory Codes"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e4/a1/eaa5ee9c592a23cbd0d0ed58b932fa9bb233e90fed5ecedb9b6d501a71b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

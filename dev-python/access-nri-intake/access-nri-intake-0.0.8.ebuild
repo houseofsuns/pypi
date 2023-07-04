@@ -15,7 +15,7 @@ DESCRIPTION="Intake catalog managed by ACCESS-NRI and associated tools"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/af/b8/e9ebb0e339d33d95aab91a96daf54edeebfbed0503a404b277c2cf0d3b37/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

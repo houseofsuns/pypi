@@ -15,7 +15,7 @@ DESCRIPTION="An API controller for the e-puck2 from GCtronic for Webots and Pyth
 
 HOMEPAGE="https://github.com/davidfrisch/UNIFR_API_EPUCK"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/56/c4df141cd206aafb7bb3fcbeeb0c83ffebeb733b28e320888e52d38cffc2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

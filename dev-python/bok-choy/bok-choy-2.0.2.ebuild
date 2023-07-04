@@ -15,7 +15,7 @@ DESCRIPTION="Deprecated UI-level acceptance test framework"
 
 HOMEPAGE="http://github.com/openedx/bok-choy"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1b/22/c36d654c1862cfdbc9f00b08cc3dbc80327501c4826559b30bd152f53337/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

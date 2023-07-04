@@ -15,7 +15,7 @@ DESCRIPTION="A command line tool to collect, organize, report code metrics."
 
 HOMEPAGE="https://kracekumar.github.io/code_census/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/d9/74b32f169aa2e46e62161bde1915a88bf85629162ecceb5d24425aa4175e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

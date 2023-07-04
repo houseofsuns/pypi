@@ -15,7 +15,7 @@ DESCRIPTION="Hubble's Shuttle"
 
 HOMEPAGE="https://github.com/HubbleHQ/shuttle"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6d/19/f12f1cc150077ef09a370185da9459270ac4b1d63c9ea0bce8c099eb1547/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

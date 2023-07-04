@@ -15,7 +15,7 @@ DESCRIPTION="Functionality for Mythic Payload Type Containers"
 
 HOMEPAGE="https://docs.mythic-c2.net/customizing/payload-type-development"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/02/4f/351398ab53d240c3d3d0f996742ab1762a2be1a0f03325b4eecfdbb73bc2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Bitcoin p2p communication tools in python"
 
 HOMEPAGE="https://github.com/andreasgriffin/bitcoin-p2p"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/47/f9127bf0a0c71eb0484a54eaa1b0d8bdfd3874c9cf4ab263c8b1dbf10f29/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

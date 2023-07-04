@@ -15,7 +15,7 @@ DESCRIPTION="A plugin for Hatch for writing build scripts"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6b/c2/87097d54f22105b79c5166c7f279324da7b279cb1679366d5f5c9976a814/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

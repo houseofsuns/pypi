@@ -15,7 +15,7 @@ DESCRIPTION="A view for pyramid that functions as an OpenID consumer."
 
 HOMEPAGE="http://github.com/lmacken/pyramid_fas_openid"
 LICENSE="BSD-derived http://www.repoze.org/LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/64/ae/295c923ca8863949ad657d6a9f06a2e583e89c2df5c145f1b71364880724/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

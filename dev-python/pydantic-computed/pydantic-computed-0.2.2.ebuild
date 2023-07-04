@@ -15,7 +15,7 @@ DESCRIPTION="A new decorator for pydantic allowing you to define dynamic fields 
 
 HOMEPAGE="https://github.com/Maydmor/pydantic-computed"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/00/6d7028511c59864b869b0f31e75f261317b48b51a3db0c8e3316cc6495c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

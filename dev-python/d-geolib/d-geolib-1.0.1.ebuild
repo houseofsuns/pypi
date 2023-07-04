@@ -15,7 +15,7 @@ DESCRIPTION="Python wrappers around the input and output files of the Deltares D
 
 HOMEPAGE="https://deltares.github.io/GEOLib/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/af/14aed345dc32cc66feb35b5482596fe5e9e8c95d3b90b4617cf0bf7e5a55/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

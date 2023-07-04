@@ -15,7 +15,7 @@ DESCRIPTION="an open django framework for widget customization and management"
 
 HOMEPAGE="https://github.com/mitodl/open-widget-framework"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/f2/bd307c6a2bce54acc3ec9fb90ff857ff79678f74d99ef97217aa6b8b4415/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

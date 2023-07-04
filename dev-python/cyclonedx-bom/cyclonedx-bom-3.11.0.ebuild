@@ -15,7 +15,7 @@ DESCRIPTION="CycloneDX Software Bill of Materials (SBOM) generation utility"
 
 HOMEPAGE="https://github.com/CycloneDX/cyclonedx-python/#readme"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bf/1d/89e76b963e79890f5027d8f314b9810fda19731f6529fc41dda44291909f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

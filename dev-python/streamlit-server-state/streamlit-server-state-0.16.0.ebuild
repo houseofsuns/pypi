@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/whitphx/streamlit-server-state"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e6/11/388daaf351ced5d666df5720a97808bb35e32f1a10001985b2bd444abb5d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

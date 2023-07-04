@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight Metadata Support"
 
 HOMEPAGE="https://github.com/jvanasco/metadata_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/51/73b644abad168625d02e66f13e0a02f1aa77ffb4054e2681a25fbba113b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

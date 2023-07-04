@@ -15,7 +15,7 @@ DESCRIPTION="Download SFTP files using a glob to get all files & also keep a log
 
 HOMEPAGE="https://github.com/chrisebell24/walk_sftp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7c/38/1cee92d2762d0392c39df2b66aa18e68d545704d71f366b2af8a002e9216/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Fondat module for PostgreSQL."
 
 HOMEPAGE="https://github.com/fondat/fondat-postgresql/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/4e/d0115d3f6b9b571f17a088b09e3d9fd3affb13b0ec756d157cfb10a7e43f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

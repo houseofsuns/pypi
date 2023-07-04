@@ -15,7 +15,7 @@ DESCRIPTION="A python package that implements an easy-to-use interface for rando
 
 HOMEPAGE="https://vaibhavkarve.github.io/distribution-algebra/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/72/ad/d655c1b601e889f2674635c126596c3c08c081bc56a9943032bf4251633f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

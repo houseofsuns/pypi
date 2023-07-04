@@ -15,7 +15,7 @@ DESCRIPTION="Esse3 command line utility, to save my future time!"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/66/b069242eea24d29440a8971fc59fa40b22bdd07f1852fc14fccdf9161902/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

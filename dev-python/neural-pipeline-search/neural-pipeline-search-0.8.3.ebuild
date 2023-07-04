@@ -15,7 +15,7 @@ DESCRIPTION="Neural Pipeline Search helps deep learning experts find the best ne
 
 HOMEPAGE="https://github.com/automl/neps"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/30/93/81dcdb0aee68f4bb4613fb2d6f0356e8f40d4851cac3827b70022c5b7e90/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

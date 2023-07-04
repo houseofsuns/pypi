@@ -15,7 +15,7 @@ DESCRIPTION="Utilities for working with HTTP Archive (HAR) files"
 
 HOMEPAGE="https://github.com/akitasoftware/akita-python-har"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/c3/6e6dfa2b32b646e5766b70dee5977b64e75a5286f58139d7384b5ee32e32/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

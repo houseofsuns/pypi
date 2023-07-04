@@ -15,7 +15,7 @@ DESCRIPTION="A Jupyter kernel for Scilab."
 
 HOMEPAGE="http://github.com/calsto/scilab_kernel"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/90/66/34309301266dc484b529ce89548a94e6698d348314d3d36c6eaa2d325fc7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

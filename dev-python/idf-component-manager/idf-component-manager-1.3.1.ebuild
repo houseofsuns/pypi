@@ -15,7 +15,7 @@ DESCRIPTION="The component manager for ESP-IDF"
 
 HOMEPAGE="https://github.com/espressif/idf-component-manager"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/60/f8/351ad942950022cf4ffa51bdb4f9bf406f2a99982993e7460127070cf6f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

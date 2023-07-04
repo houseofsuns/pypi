@@ -15,7 +15,7 @@ DESCRIPTION="Manager for test data: downloads, artifact caching, and a tmpdir co
 
 HOMEPAGE="https://github.com/joelb123/pytest-datadir-mgr"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/71/ae/ee16254bc40c38b2d15f833f1f337d3bb0222a64c37743caa4b6a4843d52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Conversion between CBOR and CBOR Diagnostic Notation"
 
 HOMEPAGE=""
 LICENSE="MIT OR Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/94/87/29ce613f876cd0ceb99ed1db71f7e3d90460c1babd2133ce30f18d5f540d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

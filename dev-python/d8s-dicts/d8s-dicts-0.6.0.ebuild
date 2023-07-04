@@ -15,7 +15,7 @@ DESCRIPTION="Democritus functions for working with Python dictionaries."
 
 HOMEPAGE="https://github.com/democritus-project/d8s-dicts"
 LICENSE="GNU Lesser General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/94/ab/0ca7a968f18fc3ef3aef7ff6d09367470483c185599e9b31b1fbf5ffde1a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

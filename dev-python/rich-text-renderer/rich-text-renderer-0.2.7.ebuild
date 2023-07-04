@@ -15,7 +15,7 @@ DESCRIPTION="Contentful Rich Text Renderer"
 
 HOMEPAGE="https://github.com/contentful/rich-text-renderer.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/ec/91a1997669fb1bfe4656f0dd2112ddadd17a5f3963871147e0d28f3c8455/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

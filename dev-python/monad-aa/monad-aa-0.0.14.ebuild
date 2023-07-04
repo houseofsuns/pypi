@@ -15,7 +15,7 @@ DESCRIPTION="monad for concept aa"
 
 HOMEPAGE="https://github.com/dmkamath/quick_bytes"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/f3/15049efd3799dfbc87f4c3dfcb7deb23575cb519930e71f956cbd6839a5f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

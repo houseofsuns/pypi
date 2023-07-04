@@ -15,7 +15,7 @@ DESCRIPTION="The top-like text-based user interface for Austin"
 
 HOMEPAGE="https://github.com/P403n1x87/austin-tui"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f4/5a/5bb954f9c412ff145010429c89fbf5da3f517d2112cb675be16fa93d7cb2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

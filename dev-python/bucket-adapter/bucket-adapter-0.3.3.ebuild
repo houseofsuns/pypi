@@ -15,7 +15,7 @@ DESCRIPTION="A generic adapter for gcp/aws services to upload/downlaod files on 
 
 HOMEPAGE="https://github.com/shopistan/buckets_adapter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3c/5c/b541a31b868ad9aabd08a41c360514238c98dedb8fd07c7d43bd71a7c808/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

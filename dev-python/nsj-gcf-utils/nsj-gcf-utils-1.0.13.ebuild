@@ -15,7 +15,7 @@ DESCRIPTION="Utilitários para construção de Google Cloud Functions."
 
 HOMEPAGE="https://github.com/Nasajon/nsj_gcf_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d9/b0/190b8ac81b8d60e293fc2531d5e036c758414d7b674b00279d542c2802a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

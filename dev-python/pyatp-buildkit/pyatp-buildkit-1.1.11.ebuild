@@ -15,7 +15,7 @@ DESCRIPTION="a iflytek ailab library ..."
 
 HOMEPAGE=""
 LICENSE="Apache License 2"
-SRC_URI="https://files.pythonhosted.org/packages/c2/0b/07a0bb68f9ba4bdb006d5146617356f2be69a4353a15fc1f9fc5444a2580/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

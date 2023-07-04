@@ -15,7 +15,7 @@ DESCRIPTION="Library to write your scrapers hassle free."
 
 HOMEPAGE="https://github.com/Homestr/roulette_russe"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/53/54/bcd138fc3ff87209f642c2efbb4a541cca541b33d4fb1d7facead4560a77/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

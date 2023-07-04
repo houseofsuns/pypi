@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper for SauceNAO JSON API"
 
 HOMEPAGE="https://github.com/nomnoms12/saucenao_api/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cf/4c/3967f981ea2595734e03ca29f4beb3beaf155d53cffd4799cc053dd8e3dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

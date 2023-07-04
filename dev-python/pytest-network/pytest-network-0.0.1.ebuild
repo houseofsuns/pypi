@@ -15,7 +15,7 @@ DESCRIPTION="A simple plugin to disable network on socket level."
 
 HOMEPAGE="https://github.com/best-doctor/pytest_network"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/f2/2b381c56e0dbc7404fb104277bc731865786db7c005351441561ec1a9e25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

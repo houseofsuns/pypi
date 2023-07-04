@@ -15,7 +15,7 @@ DESCRIPTION="a nonebot based csgo case simulator"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/e0/830d613b76e8565df1f1ac27ddb4f66fbca23e50cd605b9dd69c815870e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

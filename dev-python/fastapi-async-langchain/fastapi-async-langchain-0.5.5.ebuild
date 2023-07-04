@@ -15,7 +15,7 @@ DESCRIPTION="Ship production-ready LangChain projects with FastAPI"
 
 HOMEPAGE="https://github.com/ajndkr/fastapi-async-langchain"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/de/9aff1d6b39954ffbbd41e2717d9d563fadba4e3e7bf178adcb0bac63b600/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

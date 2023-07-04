@@ -15,7 +15,7 @@ DESCRIPTION="Wrappers for some common data engineering apis"
 
 HOMEPAGE="https://github.com/terakeet/pypi-tk-de-common"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/83/4588a603566a8ec15a533fbd033a98c906b6200a8a390b6d2f6740872c84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

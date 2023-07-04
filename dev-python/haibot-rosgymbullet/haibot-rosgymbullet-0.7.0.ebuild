@@ -15,7 +15,7 @@ DESCRIPTION="DiffBot Ros-Gym-Bullet Environment ( For PYTHON 2.7 )"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cc/bf/6622cf57f633dcde9c637019650c610b076d4711ad975192b81ba31bc811/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Monarch Initiative data access library"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/e6/e41817b4ef9d021889e7073a47401fa1bc30d2f92329568cc6b90bf17e72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

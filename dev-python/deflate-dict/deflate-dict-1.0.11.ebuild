@@ -15,7 +15,7 @@ DESCRIPTION="Python package to deflate and re-inflate dictionaries."
 
 HOMEPAGE="https://github.com/LucaCappelletti94/deflate_dict"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/f3/7881eac4369e9db0ddfb8260c1200c09e5280e648935ad6e5d5f4a3737b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

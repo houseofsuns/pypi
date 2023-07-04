@@ -15,7 +15,7 @@ DESCRIPTION="A plugin to use Matplotlib with napari"
 
 HOMEPAGE="https://github.com/matplotlib/napari-matplotlib"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/51/00/2a440016f9fb151a909f6309593df3e64b73b40502ffb9e9624394cdebf3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

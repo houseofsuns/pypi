@@ -15,7 +15,7 @@ DESCRIPTION="Simple functions shared across fsai apps."
 
 HOMEPAGE="https://github.com/fsai-dev/fsai-cli-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3e/ef/62468a4b3ae673303c989dc7a0b2341ba285501889749f1dc57c9d474e13/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

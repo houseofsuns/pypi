@@ -15,7 +15,7 @@ DESCRIPTION="MetadataGuardian is used to protect data by searching the source me
 
 HOMEPAGE="https://fvaleye.github.io/metadata-guardian/python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6f/b1/187d6e48cae6901e1d8ba5735ff72e9c57fb5f2ec28eb35892d702b61064/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Method for extracting GCaMP signal from volumetric imaging recordin
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/07/b1/e3eae866dc9548b662ce7a10318ee25949e469229edbf08b294a52988c47/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="System deployment"
 
 HOMEPAGE="https://gitlab.com/dugres/setux_modules"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/ea/2723483dc2502fdef6364adaf5832d6190cd49c2d6b6589cb33057955b55/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

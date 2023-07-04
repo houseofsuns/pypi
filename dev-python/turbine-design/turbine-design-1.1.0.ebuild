@@ -15,7 +15,7 @@ DESCRIPTION="A data driven tool for turbine aerodynamic design"
 
 HOMEPAGE="https://github.com/tom-tyler/turbine_design"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/c7/107db534f6de7c34202e12ca87cc804d10d7e63257cbfc47a8e39bc4f52a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

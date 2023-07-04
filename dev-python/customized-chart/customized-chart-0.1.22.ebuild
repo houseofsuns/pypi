@@ -15,7 +15,7 @@ DESCRIPTION="Simplifies creation of matplotlib charts"
 
 HOMEPAGE="https://github.com/jhagelback/customized_chart"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9b/7d/7d36025211849c2c6efd53c044a2b43e72f7df40629f3925c728a5416d7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

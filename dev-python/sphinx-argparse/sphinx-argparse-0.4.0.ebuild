@@ -15,7 +15,7 @@ DESCRIPTION="A sphinx extension that automatically documents argparse commands a
 
 HOMEPAGE="https://github.com/ashb/sphinx-argparse"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/0b/d98f799d4283e8b6c403fd8102acf2b552ad78e947b6899a1344521e9d86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

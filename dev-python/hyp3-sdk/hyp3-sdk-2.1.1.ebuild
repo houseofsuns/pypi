@@ -15,7 +15,7 @@ DESCRIPTION="A python wrapper around the HyP3 API"
 
 HOMEPAGE="https://github.com/ASFHyP3/hyp3-sdk"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5f/3d/2f7058baa0b00313785f7906e42ff653b773549107e2ec782201f9ddb243/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

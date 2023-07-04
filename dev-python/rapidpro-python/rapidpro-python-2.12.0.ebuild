@@ -15,7 +15,7 @@ DESCRIPTION="Python client library for the RapidPro API"
 
 HOMEPAGE=""
 LICENSE="BSD-4"
-SRC_URI="https://files.pythonhosted.org/packages/ad/0d/182e17656a95059062cc0d81b5ecb8191a5541d70242faf3ac1c142c016d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

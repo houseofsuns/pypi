@@ -15,7 +15,7 @@ DESCRIPTION="Missing NumPy functionalities"
 
 HOMEPAGE="https://github.com/limix/numpy-sugar"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/44/f01c638533dea32c6c7feb284798d7787396c40b20bc83dcef71dc6db181/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

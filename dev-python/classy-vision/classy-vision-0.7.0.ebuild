@@ -15,7 +15,7 @@ DESCRIPTION="An end-to-end PyTorch framework for image and video classification.
 
 HOMEPAGE="https://classyvision.ai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/32/70/b4c0a6404e0def2c10fb81ff338d98c6c3fdbe35419238418807605f3ea2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

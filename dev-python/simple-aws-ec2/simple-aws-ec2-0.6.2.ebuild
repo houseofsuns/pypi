@@ -15,7 +15,7 @@ DESCRIPTION="Simple AWS EC2 devtool."
 
 HOMEPAGE="https://github.com/MacHu-GWU/simple_aws_ec2-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/ea/53f43d8d96e5c5903b4fea0733dd1826e5b4b077dca69289544d40333408/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

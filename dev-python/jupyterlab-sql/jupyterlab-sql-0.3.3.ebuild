@@ -15,7 +15,7 @@ DESCRIPTION="JupyterLab plugin for visualizing SQL databases"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9b/0c/c15f794536b42fe633fc1117293edba4e70658be6e2c11719f3631b51c86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

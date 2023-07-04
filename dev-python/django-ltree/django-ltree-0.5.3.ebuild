@@ -15,7 +15,7 @@ DESCRIPTION="Django app to support ltree postgres extension"
 
 HOMEPAGE="https://github.com/mariocesar/django-ltree"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/5d/e7caa4b71165c7a024246352472d708970a3f9dd2a349bed3e6821fbe143/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

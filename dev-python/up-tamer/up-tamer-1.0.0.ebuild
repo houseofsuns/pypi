@@ -15,7 +15,7 @@ DESCRIPTION="up_tamer"
 
 HOMEPAGE="https://tamer.fbk.eu"
 LICENSE="APACHE"
-SRC_URI="https://files.pythonhosted.org/packages/db/9c/b8f35660a037a0bf75ab08554f4bbd95fe1be3991e4a1e46792df3bfd264/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

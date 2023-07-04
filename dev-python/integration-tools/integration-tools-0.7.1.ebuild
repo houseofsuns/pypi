@@ -15,7 +15,7 @@ DESCRIPTION="A package in development stages which allows to integrate few data-
 
 HOMEPAGE="https://github.com/sharon200102/integration_tools/tree/update_to_pytorch_lightning"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/bb/acb899668c8622b168566589b19315e9a8dd01bdc0e8448781995ee58c6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Alibaba Cloud ApsaraVideo for VOD (20170321) SDK Library for Python
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/70/c7/5e4f1c986bcd122d400e366136cb9f07bf6a12e083c40f26589ca1d4aa01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

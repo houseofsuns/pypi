@@ -15,7 +15,7 @@ DESCRIPTION="Django app for managing external side effects."
 
 HOMEPAGE="https://github.com/yunojuno/django-side-effects"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/2d/c230210bbf831e248bc53026e45eb30395f7d970d761c58eeeb8d362f3aa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

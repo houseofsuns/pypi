@@ -15,7 +15,7 @@ DESCRIPTION="django-friendship provides an easy extensible interface for followi
 
 HOMEPAGE="https://github.com/revsys/django-friendship/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2d/af/2b58320c47e1cc99d45b73915c818206cb669e55a8bc4de3d1ff73a74a3d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

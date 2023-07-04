@@ -15,7 +15,7 @@ DESCRIPTION="Clustered Learning of Approximate Manifolds"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c4/d5/97cdf0f9cd8b99f0eb1242264a34b5d62bc3f5e49e1500e0b333def5b5d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Parses XML files exported from Prelude EDC into formats usable by P
 
 HOMEPAGE="https://github.com/pbs-data-solutions/prelude-parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/02/0f1b184b26da6006aceba260a0269fd3b2d2c64b5211df21f9fca66c6881/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

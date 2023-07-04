@@ -15,7 +15,7 @@ DESCRIPTION="Repository pattern for SQLAlchemy models"
 
 HOMEPAGE="https://github.com/Gasper3/sa-repository"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/64/2dd56db6afbcd98edb84d4ceb7b2b33043f5ffb6defd64307b5ab5e320c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

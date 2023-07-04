@@ -15,7 +15,7 @@ DESCRIPTION="Experimental MIME Types Features for Python 3.6+"
 
 HOMEPAGE="https://github.com/ThScheeve/mimetypes_extensions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/19/ffe73547c90d816897049e3b79969b02a7b5d777b686f624280b5939d8b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

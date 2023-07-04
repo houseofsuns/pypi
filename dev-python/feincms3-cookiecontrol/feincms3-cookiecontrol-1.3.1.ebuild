@@ -15,7 +15,7 @@ DESCRIPTION="Cookie Control Panel for GDPR compliant feincms3 websites"
 
 HOMEPAGE="https://github.com/feinheit/feincms3-cookiecontrol/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0f/f6/223cafb427ee597952de0f35a040ed87223a5d92fca9143e84b8f3bfcf12/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

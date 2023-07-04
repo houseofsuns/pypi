@@ -15,7 +15,7 @@ DESCRIPTION="Django + Stripe made easy"
 
 HOMEPAGE="https://dj-stripe.dev"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ff/aa/25769078c496c990d9a26a0ec1deb69e0adc38549c2596480d9baf190b17/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python 3 package for downloading nsfw images."
 
 HOMEPAGE="https://github.com/IzunaDevs/nsfw_dl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/31/9f094d4b09b004fd41b457fdbdccee7488534d8484febdcbbb4c3aec2fe2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

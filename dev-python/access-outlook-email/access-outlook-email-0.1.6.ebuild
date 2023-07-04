@@ -15,7 +15,7 @@ DESCRIPTION="Send/Save Emails & Attachments via Outlook"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/b2/3f224a0e40a3cd2cd08fd882fe1030eb4b6681d9891bcaffcd7cb8b6b68b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

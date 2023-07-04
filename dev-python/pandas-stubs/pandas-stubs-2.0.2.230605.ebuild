@@ -15,7 +15,7 @@ DESCRIPTION="Type annotations for pandas"
 
 HOMEPAGE="https://pandas.pydata.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/46/55/223223da2938e60e0bf3f1fde843e0e0680471992d27dd9d8d0f11fed72e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

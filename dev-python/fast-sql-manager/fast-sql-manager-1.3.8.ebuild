@@ -15,7 +15,7 @@ DESCRIPTION="Um pacote simples para realizar operações no banco"
 
 HOMEPAGE="https://github.com/OscarSilvaOfficial/fast_sql_manager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/4e/6152a7525f5c399092d50b08a45589e4748d59fabf267fd9145f150613e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

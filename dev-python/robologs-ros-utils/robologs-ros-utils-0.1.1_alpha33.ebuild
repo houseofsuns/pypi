@@ -15,7 +15,7 @@ DESCRIPTION="robologs-ros-utils is an open source library of containerized data 
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/34/62/359985240a7026ec6c305f1c31b48b70421cf6fa47702f83f7e1cde2d801/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="RedisTimeseriesManager is a redis timeseries management system that
 
 HOMEPAGE="https://github.com/ahmadazizi/redis_timeseries_manager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1b/b3/27716297820b7f9328872fd9e32ff621f839b4b4c25cae6bafc499a2e800/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

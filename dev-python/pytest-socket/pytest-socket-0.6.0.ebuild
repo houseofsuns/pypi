@@ -15,7 +15,7 @@ DESCRIPTION="Pytest Plugin to disable socket calls during tests"
 
 HOMEPAGE="https://pypi.org/project/pytest-socket/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/be/908339cd5734b4fc2e12c8f2c30b1d0d2e032db8e85807028cea4ec15229/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

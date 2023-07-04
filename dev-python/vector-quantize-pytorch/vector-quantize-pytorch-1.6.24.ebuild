@@ -15,7 +15,7 @@ DESCRIPTION="Vector Quantization - Pytorch"
 
 HOMEPAGE="https://github.com/lucidrains/vector-quantizer-pytorch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/90/260aac801dca474616de6b758a911c3fd977ef0a1b332e18447a01013f6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

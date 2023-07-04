@@ -15,7 +15,7 @@ DESCRIPTION="Phrase recognizer component for spacy pipeline"
 
 HOMEPAGE="https://github.com/qishe-nlp/phrase-detective"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/0c/ad2d459f197d8d04be53d52c9d8985316b951d8ab1cd8dbd229b67d0b8af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

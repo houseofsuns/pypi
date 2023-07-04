@@ -15,7 +15,7 @@ DESCRIPTION="Qt/PyQt5 interface plugin for xappt."
 
 HOMEPAGE="https://github.com/cmontesano/xappt_qt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/91/aa7b02ad6df3130447ea7db3f07a07230ae55c3f5bfcaa39b8a6842f9e41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

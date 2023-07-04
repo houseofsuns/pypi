@@ -15,7 +15,7 @@ DESCRIPTION="ℒazy-ℒoad - A minimalistic interface that allows the lazy evalu
 
 HOMEPAGE="https://github.com/kutoga/lazy-load"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/0c/36859ba71fb3e47505afeb61b21fef848c5afb54e119537a685b4e1adc0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

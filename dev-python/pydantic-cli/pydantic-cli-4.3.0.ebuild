@@ -15,7 +15,7 @@ DESCRIPTION="Turn Pydantic defined Data Models into CLI Tools"
 
 HOMEPAGE="http://github.com/mpkocher/pydantic-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/7b/ac4e5be4afdd582948c0c58cd3b1e04bb61bb27ffe79cafe3dec597ed542/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

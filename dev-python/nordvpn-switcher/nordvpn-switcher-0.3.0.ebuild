@@ -15,7 +15,7 @@ DESCRIPTION="Rotate between different NordVPN servers with ease. Works both on L
 
 HOMEPAGE="https://github.com/kboghe/NordVPN-switcher"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ab/02/cb84adf4ff550bec473e4e629d62e8d618481c0726fdfb396d9793919cc7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

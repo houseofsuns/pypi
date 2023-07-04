@@ -15,7 +15,7 @@ DESCRIPTION="Python library of Solvespace."
 
 HOMEPAGE="https://github.com/KmolYuan/solvespace"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/70/d9/edb532941527cfdbd22861ce574a57859952d21132f791a8706fafee9876/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

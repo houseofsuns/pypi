@@ -15,7 +15,7 @@ DESCRIPTION="Dynamic-Mobile-Security"
 
 HOMEPAGE="https://github.com/Dynamic-Mobile-Security/mdast-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/bf/d69f46ce05a400483dc9ee8ead4160f0c57e7c6d2273b9339ba768957ae3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

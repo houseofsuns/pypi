@@ -15,7 +15,7 @@ DESCRIPTION="基于Nonebot2的今天吃什么（离线版）"
 
 HOMEPAGE="https://github.com/Cvandia/nonebot-plugin-whateat-pic"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/18/b640f6635eeda5c2f06b2fb28099d74a01be6efd44634eee8e3248ddb4d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

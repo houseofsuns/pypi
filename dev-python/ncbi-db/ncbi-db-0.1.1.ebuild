@@ -15,7 +15,7 @@ DESCRIPTION="Collection of scripts that wrap the Entrez Bio python module, to qu
 
 HOMEPAGE="https://github.com/pypa/ncbi_db"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b1/2c/41caf46c4e0dba623d8ec1057de0c98e5fd8b38dd3192edaf5c214944f0b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

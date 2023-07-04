@@ -15,7 +15,7 @@ DESCRIPTION="Do causal inference more casually"
 
 HOMEPAGE="https://github.com/shyaginuma"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/01/fdb541b5dcba2b79d4c11694f9f9af0cecaa1a4d4a1d6a719e1d65407556/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

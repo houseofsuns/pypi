@@ -15,7 +15,7 @@ DESCRIPTION="Helium Python Helper"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/59/9a/cf17e6366e7f25f4f52d0b0cfb365ede04af0d30e2e94f3978dc8eb8f842/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

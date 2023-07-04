@@ -15,7 +15,7 @@ DESCRIPTION="Client for the cloudlab academic cloud environment."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/95/f8/75c0948403e28347d13d4e0dc2b9abbbe0a2a88e513bdd6f93577b006b86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

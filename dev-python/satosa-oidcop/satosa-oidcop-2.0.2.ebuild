@@ -15,7 +15,7 @@ DESCRIPTION="SATOSA Frontend based on idetity python oidcop"
 
 HOMEPAGE="https://github.com/UniversitaDellaCalabria/satosa-oidcop"
 LICENSE="License :: OSI Approved :: GNU Affero General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/c9/a8/a8a7b1b8d8bb0f13f5790f33128664959a005e52bd2a2f0bc869cee29f87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

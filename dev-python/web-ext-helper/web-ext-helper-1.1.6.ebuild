@@ -15,7 +15,7 @@ DESCRIPTION="A simple cli tool that helps you building your web extensions."
 
 HOMEPAGE=""
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/38/27/2b2ec80b2752db7e415d576c17071eeab8863790958cf1c79fbdb24530df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Manager and interface to list, install or remove PyMoDAQ's plugins"
 
 HOMEPAGE=""
 LICENSE="CECILL B"
-SRC_URI="https://files.pythonhosted.org/packages/87/42/8101724671e7b01f416f0ca3225f69c86632430a94552e44a62bf1294c7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

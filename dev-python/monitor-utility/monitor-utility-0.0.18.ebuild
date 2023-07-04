@@ -15,7 +15,7 @@ DESCRIPTION="simple tool"
 
 HOMEPAGE="https://github.com/Nevquit/monitor_utility"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/eb/d41e10da1f22193269854a788fd6221de8bb103733508180b5ab986c51be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

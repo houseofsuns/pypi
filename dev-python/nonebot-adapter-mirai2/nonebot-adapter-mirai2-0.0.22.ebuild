@@ -15,7 +15,7 @@ DESCRIPTION="兼容 MiraiApiHttp2.x 的 nonebot2_adapter"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/77/81/705b0a8f005bfccba47216759f2b2362ef2ebbd5f3d4ad86a74f32d8e365/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

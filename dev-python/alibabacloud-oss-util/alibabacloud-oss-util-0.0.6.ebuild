@@ -15,7 +15,7 @@ DESCRIPTION="The oss util module of alibabaCloud Python SDK."
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-oss-sdk/tree/master/util/python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/02/7c/d7e812b9968247a302573daebcfef95d0f9a718f7b4bfcca8d3d83e266be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

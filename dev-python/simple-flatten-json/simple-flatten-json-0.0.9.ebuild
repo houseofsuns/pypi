@@ -15,7 +15,7 @@ DESCRIPTION="For flattening complex JSONs"
 
 HOMEPAGE="https://github.com/at-75/simple_json_flatten_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/d3/be2f6043efff97bd25fa68fec7cbb7d8969f3cc5c897a609bce7bbee537a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

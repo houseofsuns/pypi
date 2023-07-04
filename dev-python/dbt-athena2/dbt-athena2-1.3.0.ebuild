@@ -15,7 +15,7 @@ DESCRIPTION="Athena adapter for dbt platform"
 
 HOMEPAGE="https://github.com/vdn-tools/dbt-athena2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/68/327f2dce80ab748a1c6d140e14c2770bad39c5a6c8d662e42c7cb7dcbdb9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="CardDefs.xml and Strings for Hearthstone"
 
 HOMEPAGE="https://github.com/HearthSim/python-hearthstone-data/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/9d/f141c7d3055d997f9af2477a49231dc8ec73ba26197a2023a3318de36f2c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

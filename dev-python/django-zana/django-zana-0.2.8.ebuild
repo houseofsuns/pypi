@@ -15,7 +15,7 @@ DESCRIPTION="A \`django\` extension for \`zana\`."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fe/46/ba60d86935c93c3bd87a30b4f90b65376e90587fa3b1829d83d284f4e4a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

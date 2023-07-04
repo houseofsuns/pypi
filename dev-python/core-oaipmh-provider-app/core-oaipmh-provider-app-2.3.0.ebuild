@@ -15,7 +15,7 @@ DESCRIPTION="OAI-PMH provider capabilities for the curator core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_oaipmh_provider_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5e/69/95827d90f75e05f0e1ad2faea4ac6f4f1d3934be0cacde7fa5c4aa39208c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

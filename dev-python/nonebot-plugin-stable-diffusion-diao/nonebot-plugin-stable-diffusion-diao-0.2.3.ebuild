@@ -15,7 +15,7 @@ DESCRIPTION="主要面对stable-diffusion-webui-api的nonebot2插件"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/28/6e/6cb8bc0765c25169809b55f52932d5ca35264562d349b5efbac60d186f44/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

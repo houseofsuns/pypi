@@ -15,7 +15,7 @@ DESCRIPTION="OCP CAD Viewer for VSCode"
 
 HOMEPAGE="https://github.com/bernhard-42/vscode-ocp-cad-viewer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/7e/e038fde044b786b9a24b35bd8bec00b5a4a626028a725eed792d8394371c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

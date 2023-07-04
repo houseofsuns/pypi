@@ -15,7 +15,7 @@ DESCRIPTION="A list of Python Standard Libraries (2.7 through 3.9)."
 
 HOMEPAGE="https://pypi.org/project/stdlib-list/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/bb/47f17e319e28e13f7cacf50d397965e2429e5ba7e68424c605c74928d659/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

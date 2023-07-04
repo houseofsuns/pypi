@@ -15,7 +15,7 @@ DESCRIPTION="Proxy scraper for further use"
 
 HOMEPAGE="https://github.com/jundymek/free-proxy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/63/05b949de3d23334208f01ca8bbe31b0a283871ffd9be95282c6ea7e2a638/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

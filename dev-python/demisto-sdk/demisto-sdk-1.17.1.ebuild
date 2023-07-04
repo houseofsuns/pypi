@@ -15,7 +15,7 @@ DESCRIPTION="\"A Python library for the Demisto SDK\""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/57/d9/3db79195d9ac90874d35bbfff461e702dda5d88e184273ce1683d961b88b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

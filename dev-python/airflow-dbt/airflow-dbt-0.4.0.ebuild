@@ -15,7 +15,7 @@ DESCRIPTION="Apache Airflow integration for dbt"
 
 HOMEPAGE="https://github.com/gocardless/airflow-dbt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/c3/2519922ca9550170975299ff0c918421dcf382ae60181750b96226a1f098/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry Instrumentation for Tortoise ORM"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-tortoiseorm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/71/89263b4bc307fdd5c79f22c199b0be63c7ff71beb0abb70db7835a75c376/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

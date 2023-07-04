@@ -15,7 +15,7 @@ DESCRIPTION="Free unlimited file hosting using the Discord server"
 
 HOMEPAGE="https://discord-storage.animemoe.us/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2e/b5/459f1cae7f389c632481e2c998e41ec3c5675f9773ff3e68620cc077907c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

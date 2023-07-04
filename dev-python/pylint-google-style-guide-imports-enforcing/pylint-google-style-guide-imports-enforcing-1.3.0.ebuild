@@ -15,7 +15,7 @@ DESCRIPTION="Plugin for PyLint that checks if we import only modules or packages
 
 HOMEPAGE="https://github.com/Enforcer/pylint_google_style_guide_imports_enforcing"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/af/4e09b75abf7516c5155c717133b2436418582d0e215398ad785c6b356ba7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

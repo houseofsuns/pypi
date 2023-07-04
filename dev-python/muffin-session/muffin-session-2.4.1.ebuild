@@ -15,7 +15,7 @@ DESCRIPTION="Signed Cookie-Based HTTP sessions for the Muffin framework"
 
 HOMEPAGE="https://github.com/klen/muffin-session"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ab/6b/4d6b350d77be94737fc55f1f5c5dda93c5acfa5dfa7ac77b07fc853ba330/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

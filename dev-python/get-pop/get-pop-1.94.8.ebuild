@@ -15,7 +15,7 @@ DESCRIPTION="A python command line utility that generates CSVs of county-level p
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/28/c6/63ebeab338fb77d77d3cefaeced91ddfac4d70ffa27ab1daca141a7d4c74/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

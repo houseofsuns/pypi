@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="http://github.com/espnet/espnet_tts_frontend"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/a1/02798e8cc2062adf0e40c6dda4bb9424eb18da38f919448fdc038d912cb4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

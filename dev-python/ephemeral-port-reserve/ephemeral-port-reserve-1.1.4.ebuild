@@ -15,7 +15,7 @@ DESCRIPTION="Bind to an ephemeral port, force it into the TIME_WAIT state, and u
 
 HOMEPAGE="https://github.com/Yelp/ephemeral-port-reserve/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/93/3f0b75f75f94227f67ccfe86f989415e40ac054dd67b55dfac7abdc0a2d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

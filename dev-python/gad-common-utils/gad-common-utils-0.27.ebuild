@@ -15,7 +15,7 @@ DESCRIPTION="gad utility"
 
 HOMEPAGE="http://gad-co.ml"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/78/0e8e3e4fdfa22269d945b8a49a59cdd87cf5615681493f322cf19b3dcd03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

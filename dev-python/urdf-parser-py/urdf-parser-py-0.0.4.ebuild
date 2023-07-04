@@ -15,7 +15,7 @@ DESCRIPTION="This package contains a python parser for the Unified Robot Descrip
 
 HOMEPAGE="https://github.com/ros/urdf_parser_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/8b/9dd44781a4e87746a426c56c3368c3da64fd90a130f582340cbf74397f8e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

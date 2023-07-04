@@ -15,7 +15,7 @@ DESCRIPTION="A practical snapshot testing plugin for pytest"
 
 HOMEPAGE="https://github.com/vberlier/pytest-insta"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/18/aa9f0162fc1cb46e527d964c03988106397a1401f153659537408c11d1ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

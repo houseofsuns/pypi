@@ -15,7 +15,7 @@ DESCRIPTION="Parse Python docstrings in reST, Google and Numpydoc format"
 
 HOMEPAGE="https://github.com/rr-/docstring_parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/2d/ea1dfc15b909cc660f657a3a9d698a2916b7f3b05535a2d72e8d7ea3ad5b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

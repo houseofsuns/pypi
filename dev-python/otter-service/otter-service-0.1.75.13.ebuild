@@ -15,7 +15,7 @@ DESCRIPTION="Grading Service for Edx 8x courses"
 
 HOMEPAGE="https://github.com/data-8/otter-service"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2a/1c/5e237281cc9cdf7df051e570241d472bc6d5184cf151380391cea501b1aa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

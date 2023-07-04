@@ -15,7 +15,7 @@ DESCRIPTION="JupyterLab extension for running LaTeX"
 
 HOMEPAGE="https://github.com/jupyterlab/jupyterlab-latex"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cd/70/4fbb559553ab2f62631cd98179b4b3a506deec1263eace96196f1a3278e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

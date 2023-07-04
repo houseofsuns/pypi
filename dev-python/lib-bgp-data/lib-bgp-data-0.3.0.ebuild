@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/jfuruness/lib_bgp_data.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9c/04/9b4bca8c05db2eb7c6af571194e217b15b315fbe58b2887edb172fa645d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

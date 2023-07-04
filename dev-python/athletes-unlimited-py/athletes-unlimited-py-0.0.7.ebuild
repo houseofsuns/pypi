@@ -15,7 +15,7 @@ DESCRIPTION="Python package for the Athletes Unlimited sports organization, and 
 
 HOMEPAGE="https://github.com/armstjc/athletes-unlimited-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/d7/74de5f98fad40a6f8f44c4b1eb07fa0e72eb2fbee0f3ed5391dc7f68bd89/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

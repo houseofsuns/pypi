@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/tsweeney-dust/requests-oidc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/c5/5513f65d7b51ad824fcb19f04e4f3acc72b126c19d95115a27a32eb38db7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

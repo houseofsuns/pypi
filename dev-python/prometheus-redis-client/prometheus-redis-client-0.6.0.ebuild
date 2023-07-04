@@ -15,7 +15,7 @@ DESCRIPTION="Python prometheus multiprocessing client which used redis as metric
 
 HOMEPAGE="https://github.com/belousovalex/prometheus_redis_client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b1/cc/6de30130723ae266487a7ab35293806059c03e9029b48789322222cd8294/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

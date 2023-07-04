@@ -15,7 +15,7 @@ DESCRIPTION="Compress images in PPTX files"
 
 HOMEPAGE="https://github.com/slhck/compress-pptx"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/b1/9d050e0347e1dc421d44e5a882dc3b8dd6add996ea7d62c4f8bce2e139b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

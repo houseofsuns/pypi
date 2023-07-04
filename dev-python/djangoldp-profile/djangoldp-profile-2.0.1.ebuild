@@ -15,7 +15,7 @@ DESCRIPTION="djangoldp package for profile data models"
 
 HOMEPAGE="http://git.happy-dev.fr/startinblox/djangoldp_profile"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/69/18/38f69b5628ac4e6c505ac86d32ee500e65704dcdbbcc28c20080e81ab8c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

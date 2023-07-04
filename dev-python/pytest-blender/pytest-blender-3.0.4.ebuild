@@ -15,7 +15,7 @@ DESCRIPTION="Blender Pytest plugin."
 
 HOMEPAGE="https://github.com/mondeja/pytest-blender"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/10/0e/87e9643398330f86382104139721a134d72f637b2fcf6303a0975ed9a41f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

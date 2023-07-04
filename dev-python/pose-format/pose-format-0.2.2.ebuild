@@ -15,7 +15,7 @@ DESCRIPTION="Library for viewing, augmenting, and handling .pose files"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/01/3c/f47eebf8c0535fd02a6680a50065fe539b2d46509961648ebd1536030d9e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

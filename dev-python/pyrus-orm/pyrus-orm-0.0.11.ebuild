@@ -15,7 +15,7 @@ DESCRIPTION="Radically simple ORM for Pyrus's tasks"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/d6/1a4052a8583b3a2e0093053953d319196aee03a245f9daedd1fb62bc7b79/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

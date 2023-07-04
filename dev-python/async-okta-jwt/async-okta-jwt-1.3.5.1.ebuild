@@ -15,7 +15,7 @@ DESCRIPTION="Okta JWT Access Token verifier"
 
 HOMEPAGE="https://github.com/ypukhta/okta_jwt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/98/2a2cef82ce23e73ce451648847b309f07b6b3c1633c0ea39a078dfaf8969/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

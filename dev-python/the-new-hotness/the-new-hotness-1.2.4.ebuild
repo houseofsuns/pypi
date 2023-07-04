@@ -15,7 +15,7 @@ DESCRIPTION="A fedora messaging consumer that files bugzilla bugs for upstream r
 
 HOMEPAGE="https://github.com/fedora-infra/the-new-hotness"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/6e/5e/efacb164246f12900bf9e38a0b5ffd7c3797dd9214a502854e059e9b3165/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

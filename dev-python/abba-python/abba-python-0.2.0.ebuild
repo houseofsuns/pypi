@@ -15,7 +15,7 @@ DESCRIPTION="Aligning Big Brains and Atlases, controlled from Python."
 
 HOMEPAGE="https://github.com/nicoKiaru/abba_python"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/a5/bc/dd16d928b4f38fb71b6a49d2f76c68e6cd12c098c1d2e3e8edba9ab3cc21/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

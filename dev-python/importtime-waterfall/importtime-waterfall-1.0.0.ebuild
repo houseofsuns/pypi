@@ -15,7 +15,7 @@ DESCRIPTION="Generate waterfalls from \`-Ximporttime\` tracing."
 
 HOMEPAGE="https://github.com/asottile/importtime-waterfall"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/f8/0d33c4d69344cb55116a656ef103b499f69a5f33f748ac0cd32c297cc955/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

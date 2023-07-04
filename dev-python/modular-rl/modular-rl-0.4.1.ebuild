@@ -15,7 +15,7 @@ DESCRIPTION="ModularRL package"
 
 HOMEPAGE="https://github.com/horrible-gh/ModularRL"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c1/c2/b1727a9f0dd0045e91a259c8a573c7b4cb79d1224fffaf5ce82e6bd875b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

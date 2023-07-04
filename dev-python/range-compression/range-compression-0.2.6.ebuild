@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/myuanz/matrix-range-compression"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/60/64/07c3dbcef117f2c3cd084c7276dbf22b1a8728c27587ceae0fb7194b115c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

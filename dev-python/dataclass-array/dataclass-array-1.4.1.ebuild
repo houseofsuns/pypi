@@ -15,7 +15,7 @@ DESCRIPTION="Dataclasses that behave like numpy arrays (with indexing, slicing, 
 
 HOMEPAGE="https://github.com/google-research/dataclass_array"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/dd/8e03c721b8edac6df26d627298e16b894349d401b33d73dddbdaa05b5d25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

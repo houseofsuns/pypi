@@ -15,7 +15,7 @@ DESCRIPTION="Syntax sugar for controlling RPi.GPIO with reactive design."
 
 HOMEPAGE="https://pypi.org/project/rpi-reactive-gpio/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/69/da6687e90c4fbdd99af4e30abac2d71d95e18d526d00009302c81ec75e48/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

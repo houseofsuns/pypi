@@ -15,7 +15,7 @@ DESCRIPTION="Support for plover in Spanish (Melany system)"
 
 HOMEPAGE="https://github.com/nvdaes/plover_spanish_mqd"
 LICENSE="GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/d8/e5/6176584330e64aabba659f96c91143daf45a6ee08a40d4d4c9832cbb1a30/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

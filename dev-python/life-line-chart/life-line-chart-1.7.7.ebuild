@@ -15,7 +15,7 @@ DESCRIPTION="Generate ancestor (genealogy) chart"
 
 HOMEPAGE="https://github.com/CWSchulze/life_line_chart"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f1/e7/369c611b5bdbac00631a88af97f1e02078e8c3364fdd78fdb8e48b26fb96/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

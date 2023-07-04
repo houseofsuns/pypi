@@ -15,7 +15,7 @@ DESCRIPTION="Derk OpenAI Gym Environment"
 
 HOMEPAGE="https://gym.derkgame.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/f2/8544be8cd8487b2aaa5d56e078f273d9a56af03fb077bd1d91eeb53bf168/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

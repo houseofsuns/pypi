@@ -15,7 +15,7 @@ DESCRIPTION="Maximize memory utilization with PyTorch."
 
 HOMEPAGE="https://github.com/mberr/torch-max-mem"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/df/bd85bbfc19d45062ce1d9733c59a916ae267eab76d682470315149ea1465/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

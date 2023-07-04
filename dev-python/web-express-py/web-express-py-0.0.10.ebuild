@@ -15,7 +15,7 @@ DESCRIPTION="Webserver written as express.js"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/49/c9/8da9e59f0afe3161c4ff34a39059f0f935b5c00bd32179a2943e67d9cfac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

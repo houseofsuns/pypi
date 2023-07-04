@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/deusfinance/notifier-client.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/59/15/ae8669ae5ae8152969759559f5309d1280b36b8103bd1f6f1d41d8145d86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

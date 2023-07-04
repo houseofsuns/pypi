@@ -15,7 +15,7 @@ DESCRIPTION="Helper functions to generate OpenAI GPT function calling requests."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/32/9973c18d352d80c792233dc3bc07d3f135300115ce28be3da9efdc0a0c02/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Certbot plugin to authenticate using dns TXT records via Transip AP
 
 HOMEPAGE="https://github.com/hsmade/certbot_dns_transip"
 LICENSE="Apache license 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e2/20/7368241cd8d79a4a798bf6114f3b3bc3333634dd7c305046811a4b8c2581/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

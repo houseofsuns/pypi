@@ -15,7 +15,7 @@ DESCRIPTION="A Python engine for the Liquid template language."
 
 HOMEPAGE="https://jg-rp.github.io/liquid/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/47/e1/f65431b9533a62d87451b099c14a83d00a50c4ceb95ef86d7352bed1306d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

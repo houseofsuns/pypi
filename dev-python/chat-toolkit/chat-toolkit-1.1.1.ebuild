@@ -15,7 +15,7 @@ DESCRIPTION="Extensible package for creating machine learning powered chatbots."
 
 HOMEPAGE="https://github.com/danb27/chat-toolkit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/71/7155ca14be1e11e9533fbdf1fc4f244c271f4e21b39ef176afbb3ea46a46/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Machine Learning Wrappers SDK for Python"
 
 HOMEPAGE="https://github.com/microsoft/ml-wrappers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ee/ca/0b4b150927d3b739243c2582fdff926451c297ebc5bc2be4a8dec58a147f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

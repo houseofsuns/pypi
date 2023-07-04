@@ -15,7 +15,7 @@ DESCRIPTION="\"Activity monitoring app for Alliance Auth."
 
 HOMEPAGE="https://gitlab.com/eclipse-expeditions/aa-inactivity"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/41/8a4b0d51b9fe640403c470971c7982df13374cbaea371b2a8f6ae6605957/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

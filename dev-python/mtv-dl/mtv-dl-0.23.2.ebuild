@@ -15,7 +15,7 @@ DESCRIPTION="MediathekView Downloader"
 
 HOMEPAGE="https://github.com/fnep/mtv_dl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/c8/a6285b9d0cdbffd6b98677af080e3e6dad999ac3ba4ad519ea132e7375eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

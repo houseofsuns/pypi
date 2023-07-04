@@ -15,7 +15,7 @@ DESCRIPTION="Dot files automation"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/c1/3d8246f8f74ec2346e79524c20ea5f4ea5b6a0bca771d2835d6a9dde2d6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

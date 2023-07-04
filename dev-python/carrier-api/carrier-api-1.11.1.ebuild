@@ -15,7 +15,7 @@ DESCRIPTION="Carrier Api Wrapper"
 
 HOMEPAGE="https://github.com/dahlb/carrier_api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/25/62/63ca7efe4ac6c5e8d24582205a51fcbfa027c6702bc1930a2bda62685652/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

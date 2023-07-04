@@ -15,7 +15,7 @@ DESCRIPTION="python dependency vulnerability scanner"
 
 HOMEPAGE="https://github.com/aswinnnn/pyscan"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b9/51/df4d6b8e29755306d898595df3876171ca0fc0cb63dd0e54bba55ef91c10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

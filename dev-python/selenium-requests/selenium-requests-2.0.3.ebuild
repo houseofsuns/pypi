@@ -15,7 +15,7 @@ DESCRIPTION="Extends Selenium WebDriver classes to include the request function 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/87/0e/901db04284fa7b1421266f4dd7c64f8d220b7a23f2bfac4250a616b3fe6e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Export \"Saved Stories\" from Apple News to SQLite"
 
 HOMEPAGE="https://github.com/RhetTbull/apple-news-to-sqlite"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/57/330539f7c8632d7f06e3b3f660780c755b1a5138f9821fdfd00b0d54ecff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

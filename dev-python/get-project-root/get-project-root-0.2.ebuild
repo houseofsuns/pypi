@@ -15,7 +15,7 @@ DESCRIPTION="a simple package for resolving project root in most situations"
 
 HOMEPAGE="https://github.com/bigbizze/py_get_project_root"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/98/82ab0538719fb56cd35da03a7f9ae692ee0fd49f6b4a4ae7c84c4fc4790f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

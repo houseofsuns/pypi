@@ -15,7 +15,7 @@ DESCRIPTION="nacos-sdk-rust binding for Python."
 
 HOMEPAGE="https://github.com/opc-source/nacos-sdk-rust-binding-py.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/17/0a/d32a25e7c2b499de95312deb1525138806340ff643acf6c065c7e79ca242/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

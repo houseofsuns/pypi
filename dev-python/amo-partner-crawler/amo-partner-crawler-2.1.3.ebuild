@@ -15,7 +15,7 @@ DESCRIPTION="SELENIUM CRAWLER FOR SCRAPING BILLING DATA FROM AMOCRM PARTNER CABI
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/6b/0e2e27aebb194ab855d60d2ac98e4605bcffb6e264ecbf325adb92a2f0a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

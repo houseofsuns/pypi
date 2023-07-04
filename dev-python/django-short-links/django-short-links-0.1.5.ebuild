@@ -15,7 +15,7 @@ DESCRIPTION="URL shortener Django app"
 
 HOMEPAGE="https://github.com/youzarsiph/django-short-links/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/99/18/853b2e033c0ece4092805ec608c2fcabf4732d5c3f0f65119ae9de47a03d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

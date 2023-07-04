@@ -15,7 +15,7 @@ DESCRIPTION="Plugin SDK for Python for the Arcaflow workflow engine"
 
 HOMEPAGE="https://github.com/arcalot/arcaflow-plugin-sdk-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/93/38/1cd70c6b4b73d0d65e88826c016ee31ff7f640f70e26eeaa5e5c3b53b368/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

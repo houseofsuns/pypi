@@ -15,7 +15,7 @@ DESCRIPTION="New Relic SDK to interact with Nerdgraph API."
 
 HOMEPAGE="https://gitlab.com/softbutterfly/open-source/newrelic-sb-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/cd/c72407b5727de7afdd17f417044fa4a8027b5160909e478245e78801b4b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

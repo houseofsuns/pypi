@@ -15,7 +15,7 @@ DESCRIPTION="This library wraps gNMI functionality to ease usage with Cisco impl
 
 HOMEPAGE="https://github.com/cisco-ie/cisco-gnmi-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a5/c0/e5db8b209a15dc35ae71b427e32c54417dd4500d74bc27c52ac13abfa97e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

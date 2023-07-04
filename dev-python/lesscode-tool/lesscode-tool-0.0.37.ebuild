@@ -15,7 +15,7 @@ DESCRIPTION="低代码生成工具"
 
 HOMEPAGE="https://gitee.com/navysummer/lesscodeTool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/3d/27decd607ca653711b87a5010ecaf41ed7f39e786fcbb27a328f46cdb4f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

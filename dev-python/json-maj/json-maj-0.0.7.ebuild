@@ -15,7 +15,7 @@ DESCRIPTION="Updates Jsons w/ json, key pair, or entire dictionary as arguments"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/31/e2c39f19446f04dfbebfb85ad881f360b6b1bde8052671deb8585e8d4d84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

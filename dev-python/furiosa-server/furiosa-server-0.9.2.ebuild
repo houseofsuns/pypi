@@ -15,7 +15,7 @@ DESCRIPTION="FuriosaAI model server interacting Furiosa NPU."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/4a/60ed691b7fdc997e5a945e08ceafba3673624cd6c28c3c135df1464320c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

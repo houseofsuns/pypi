@@ -15,7 +15,7 @@ DESCRIPTION="GLPI theme for Sphinx"
 
 HOMEPAGE="https://github.com/glpi-project/sphinx_glpi_theme/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/38/c859154a77556de789bc1066012f722185a362c3507c4fc4554262021296/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

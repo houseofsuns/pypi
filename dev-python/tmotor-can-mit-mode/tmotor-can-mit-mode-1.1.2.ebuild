@@ -15,7 +15,7 @@ DESCRIPTION="Package to control tmotor motors using CAN protocol"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f6/88/165ed15ee4afd6c2c8836e717c6b23542ac65f11ee61bf75c2c50643d891/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

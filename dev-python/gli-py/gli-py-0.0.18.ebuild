@@ -15,7 +15,7 @@ DESCRIPTION="A python 3 API wrapper for GL-inet routers for consumption by Home 
 
 HOMEPAGE=""
 LICENSE="GNU GENERAL PUBLIC LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/45/f7/7f0a1c87e3b86483b9a7c4e677ed7e298aa962d96f46fbf7c51e407e789e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

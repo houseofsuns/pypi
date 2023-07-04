@@ -15,7 +15,7 @@ DESCRIPTION="A name generator in Portuguese, with support to gender classificati
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/33/cdd32302227356a8c674c251447b1b3631bd435f12dd6c48a8a282855ea3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

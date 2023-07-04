@@ -15,7 +15,7 @@ DESCRIPTION="Runs python script in argument combinations and produces dataset of
 
 HOMEPAGE="https://github.com/schnellerhase/args_to_db"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f3/25/cbfdbe7e1c5b597e5b9bfe2f139b3352d8ed0b9b0c0c715fdf3bd50a4ac1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

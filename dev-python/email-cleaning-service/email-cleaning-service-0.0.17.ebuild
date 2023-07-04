@@ -15,7 +15,7 @@ DESCRIPTION="Awesome email_cleaning_service created by paul_lestrat"
 
 HOMEPAGE="https://github.com/JacksonKnew/email_cleaning_service"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/8e/2fb1f503022bfccc9700cda5b4af3d3919b6db62bbf69403ff56a0be1499/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

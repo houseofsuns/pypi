@@ -15,7 +15,7 @@ DESCRIPTION="Talk to a socketio server"
 
 HOMEPAGE="https://github.com/lebalz/smartphone-connector"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/98/d6/96115de4911fc7c10caf0d969779562a80b85f78417f4437927a03d98dcf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Azure Eventhubs client that simply works"
 
 HOMEPAGE="https://github.com/KnockriInc/azure_eventhubs_client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b6/22/117b8609d1f5c352ab0297d9da0ddaeb842459a7eb622187a5ca0e2e6662/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

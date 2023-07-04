@@ -15,7 +15,7 @@ DESCRIPTION="Python library for Strangeworks products to interact with the Stran
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1d/5d/4db6ec51b372fd393918e460eace078a4f7adf821477587bfb17420737d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

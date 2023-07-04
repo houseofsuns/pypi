@@ -15,7 +15,7 @@ DESCRIPTION="Offline addon for django.contrib.messages"
 
 HOMEPAGE="https://github.com/matthiask/django-user-messages/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/5c/41d418bbbaa41b0353f913a2c2c5145e7737eac09bedd1a723d74759ea88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

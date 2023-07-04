@@ -15,7 +15,7 @@ DESCRIPTION="Posts log events to Slack via API"
 
 HOMEPAGE="https://github.com/mathiasose/slacker_log_handler"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c4/85/ff8160039d217d5fe173be86f2a0168026895382f9ff68959618b5d8d7c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

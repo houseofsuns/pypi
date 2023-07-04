@@ -15,7 +15,7 @@ DESCRIPTION="FX's personal common lib"
 
 HOMEPAGE="https://github.com/frankyxhl/py_fx_lib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/f3/4b27aff5ec8719fac351c8cbfa2989b86559071f61fe21473d63d9e24e00/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

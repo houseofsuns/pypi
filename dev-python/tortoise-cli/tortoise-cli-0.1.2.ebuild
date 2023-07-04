@@ -15,7 +15,7 @@ DESCRIPTION="A cli tool for tortoise-orm, build on top of click and ptpython."
 
 HOMEPAGE="https://github.com/tortoise/tortoise-cli"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e1/9c/9d2d75215762b111d26bed356ce202d8df1406d86beba242844e6396057e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="John Snow Labs NLU provides state of the art algorithms for NLP&NLU
 
 HOMEPAGE="http://nlu.johnsnowlabs.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/13/8bb41fb8a88cffa08a8b86e613a0b90a312476c894bf7d2a1d10644c8f99/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

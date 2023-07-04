@@ -15,7 +15,7 @@ DESCRIPTION="Jalali (Shamsi) calendar in your terminal, with holidays"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/36/ea/ad0d35cdd6bd800af33efa806b568907f1448de8ca7662d35a8b7552bc79/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

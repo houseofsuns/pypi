@@ -15,7 +15,7 @@ DESCRIPTION="Delayed/soft assertions for python"
 
 HOMEPAGE="https://github.com/pr4bh4sh/python-delayed-assert"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1b/d7/70b520f924b5fea6f27343044bb607afd1473af7157199ef0d23d313eb33/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

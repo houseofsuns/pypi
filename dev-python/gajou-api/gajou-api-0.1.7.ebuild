@@ -15,7 +15,7 @@ DESCRIPTION="Base classes and helpers to make QA autotests for API"
 
 HOMEPAGE="https://github.com/ArtyomKomarenko/gajou-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7f/15/fc4b7af4551132552df5027f2382bad1cabeb645ee6397e81aff7ffa9a25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

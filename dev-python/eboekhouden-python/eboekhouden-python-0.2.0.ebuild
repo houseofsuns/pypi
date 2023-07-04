@@ -15,7 +15,7 @@ DESCRIPTION="This is a simple API client for the E-boekhouden.nl API. It is writ
 
 HOMEPAGE="https://github.com/dennisbakhuis/eboekhouden-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/71/fe/97be5abeb0fd5103ce14aad6851072564e13dd6257d0acfc93a5827fcb76/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

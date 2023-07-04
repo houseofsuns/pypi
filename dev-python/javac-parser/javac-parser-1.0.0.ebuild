@@ -15,7 +15,7 @@ DESCRIPTION="Exposes the OpenJDK Java parser and scanner to Python"
 
 HOMEPAGE="https://github.com/naturalness/javac-parser"
 LICENSE="AGPL3+"
-SRC_URI="https://files.pythonhosted.org/packages/79/b1/a9dad136b86d91fc0b9d4c55a8f5c1cc6c95cf974a111acbc325a83d20fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A pytest plugin for easily instantiating reproducible mock resource
 
 HOMEPAGE="https://github.com/schireson/pytest-mock-resources"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3d/37/8c80a4a4c651b69975776bf4e5a604154c275b1007c7dcf191aa75312a93/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python for using in-memory storage with ORM"
 
 HOMEPAGE="https://github.com/CyberPhysics-Platform/storage-orm"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e2/cc/5c0f61f14097f4d5d9c2f185e4bdfd5d2f5a7419b905dbbe8c06b4ed4bd6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Bandit formatter for the Static Analysis Results Interchange Form
 
 HOMEPAGE="https://github.com/microsoft/bandit-sarif-formatter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/2d/fa7f7769e487ec03a28a62b780f1c0a2e788359ef1a18b8a62744d42ee43/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

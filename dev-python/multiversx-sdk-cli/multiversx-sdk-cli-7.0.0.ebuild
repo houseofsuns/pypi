@@ -15,7 +15,7 @@ DESCRIPTION="MultiversX Smart Contracts Tools"
 
 HOMEPAGE="https://github.com/multiversx/mx-sdk-py-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/56/c61c9f69a5a8beb33f034468d3bccb362101096dc2c24dbc7b392852fd52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

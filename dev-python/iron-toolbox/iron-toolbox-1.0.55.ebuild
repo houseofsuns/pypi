@@ -15,7 +15,7 @@ DESCRIPTION="Functions to be used by Iron Data Analytics Team"
 
 HOMEPAGE="https://github.com/IronTrainers/iron_data_toolbox"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/3b/6a58c52f012a455910b9ec5b8e277d8c8d98d9cea3f94187c4a21933763a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

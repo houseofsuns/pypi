@@ -15,7 +15,7 @@ DESCRIPTION="A sample Python project"
 
 HOMEPAGE="https://github.com/fgnt/ci_sdr"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/c0/1f9a358e31f8d329b1fe32dc05d9b1761472443e4f759771c21f60285198/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

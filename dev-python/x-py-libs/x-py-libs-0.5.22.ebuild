@@ -15,7 +15,7 @@ DESCRIPTION="self python libs"
 
 HOMEPAGE="https://github.com/xiaxiazhu119"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/bd/4f/4cc6440caed780a294e6cfcc37144aeca34b70f3b5d6ed8d81d34b67ebe9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

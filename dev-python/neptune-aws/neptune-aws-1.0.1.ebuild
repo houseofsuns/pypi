@@ -15,7 +15,7 @@ DESCRIPTION="Neptune.ai Tools for using Neptune client on AWS integration librar
 
 HOMEPAGE="https://neptune.ai/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f8/6f/b945310cdb92d89d51552b1f78816975629d0a0439821a7479606ee98e7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A library for programmatically working with Tableau files and Table
 
 HOMEPAGE="https://github.com/bryanthowell-tableau/tableau_tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/ea/4a2d4febcfcfbc37ebbec96579bc4fccd0bc25a9894f7e2127d72a3a0494/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

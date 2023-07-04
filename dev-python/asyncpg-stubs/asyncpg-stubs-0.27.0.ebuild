@@ -15,7 +15,7 @@ DESCRIPTION="asyncpg stubs"
 
 HOMEPAGE="https://github.com/bryanforbes/asyncpg-stubs"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/db/40/a820485a2473c36c1440991db42934d667051c279f915c9d7e0217ca0d36/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

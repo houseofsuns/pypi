@@ -15,7 +15,7 @@ DESCRIPTION="A Django app that implements IP-based blocklisting."
 
 HOMEPAGE="https://gitlab.com/paul_bissex/django-blocklist"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/48/5c/3b7c05a3599aec7d440cdc5840e2f471ebaf2c3229f06a52a121279e5356/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

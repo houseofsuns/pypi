@@ -15,7 +15,7 @@ DESCRIPTION="Helpful tooltips for napari."
 
 HOMEPAGE="https://github.com/brisvag/napari-help"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f7/44/b15599b97ab955949d642bfb5fb795d205eeced008e49306806ee8bc452a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

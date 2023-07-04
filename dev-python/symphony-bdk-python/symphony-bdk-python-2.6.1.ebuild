@@ -15,7 +15,7 @@ DESCRIPTION="Symphony Bot Development Kit for Python"
 
 HOMEPAGE="https://github.com/finos/symphony-bdk-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/97/1e/b96f632c5188eb9c1a5e822f8cd9b5ef3d3afd83d6103bdccc820d3f82b7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

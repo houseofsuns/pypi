@@ -15,7 +15,7 @@ DESCRIPTION="A python3 library to communicate with Open Garage"
 
 HOMEPAGE="https://github.com/Danielhiversen/pyOpenGarage"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/b8/3c6bafc6b4353e17fd660c437d7ff8cc7691b777f0cb0848a1b31299d676/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

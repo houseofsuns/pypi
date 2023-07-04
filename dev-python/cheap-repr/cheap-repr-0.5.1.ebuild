@@ -15,7 +15,7 @@ DESCRIPTION="Better version of repr/reprlib for short, cheap string representati
 
 HOMEPAGE="https://github.com/alexmojaki/cheap_repr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a2/5e/db3a56b40a396fc666d6a6a5dff8edfe067b6789c3745189654547d8c9da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

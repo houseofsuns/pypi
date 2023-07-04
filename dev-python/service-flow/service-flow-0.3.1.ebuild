@@ -15,7 +15,7 @@ DESCRIPTION="service object flow orchestrator"
 
 HOMEPAGE="https://github.com/jackxxu/service_flow"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/50/a993ce8017e0560fa3a63d45b161c78352e92c484a7d350822318e994637/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

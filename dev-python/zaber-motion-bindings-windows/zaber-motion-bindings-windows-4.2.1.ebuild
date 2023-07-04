@@ -15,7 +15,7 @@ DESCRIPTION="Windows bindings for Zaber Motion Library"
 
 HOMEPAGE="https://gitlab.com/ZaberTech/zaber-motion-lib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/eb/ee/35a0b4c53a5cc23e0c8cb51db1101e5fcec3c011e94959bc35ac7d6c4e44/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A parser for fuzzy dates"
 
 HOMEPAGE="https://github.com/crgz/fuzzy_dates"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/53/2b6d1ef8752fc5a958fcf3fbbb4895488a5230cb0d8e11a85b465a596870/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

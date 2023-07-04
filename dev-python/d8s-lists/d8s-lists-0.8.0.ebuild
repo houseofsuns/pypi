@@ -15,7 +15,7 @@ DESCRIPTION="Democritus functions for working with lists."
 
 HOMEPAGE="https://github.com/democritus-project/d8s-lists"
 LICENSE="GNU Lesser General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/8d/1e/5303df0a4b55f3db49805e9a34c20eecb67ea7855ac348d17ee80d7816a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

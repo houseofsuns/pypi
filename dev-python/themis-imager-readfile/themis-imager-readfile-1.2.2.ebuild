@@ -15,7 +15,7 @@ DESCRIPTION="Read functions for THEMIS ASI PGM raw files"
 
 HOMEPAGE="https://github.com/ucalgary-aurora/themis-imager-readfile"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/5d/96ada2f21535a998784be6ba76ebe5d2aa6f164a2b9002b388821d6b6dbd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

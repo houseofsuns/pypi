@@ -15,7 +15,7 @@ DESCRIPTION="A multithreaded python wrapper for rust bindings of minimap2."
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/ae/fc/0d1777cb4572ad9f1356c647007151aa1a7a6761d5fd1ed9a1841333134c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

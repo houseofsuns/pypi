@@ -15,7 +15,7 @@ DESCRIPTION="faker-pyspark is a PySpark DataFrame and Schema provider for the Fa
 
 HOMEPAGE="https://github.com/spsoni/faker-pyspark"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/f6/0e9bc3b39117a6df5db077a97535ea0a1114090a2d6b2cc4b77f809eb70b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

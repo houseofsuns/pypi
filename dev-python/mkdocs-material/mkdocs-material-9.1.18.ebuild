@@ -15,7 +15,7 @@ DESCRIPTION="Documentation that simply works"
 
 HOMEPAGE="https://squidfunk.github.io/mkdocs-material/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/64/d2b6cfc3cb7584f4e2270fbe90be6448d1e410075a9b7d1b79c166a6eaee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

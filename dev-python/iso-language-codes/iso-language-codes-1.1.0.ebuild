@@ -15,7 +15,7 @@ DESCRIPTION="Get ISO code for a given language"
 
 HOMEPAGE="https://github.com/kirinokirino/iso_language_codes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/c0/bc25d5fac42e6632f5cff514d156728bc8f29a68cb8025722f869b7533a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

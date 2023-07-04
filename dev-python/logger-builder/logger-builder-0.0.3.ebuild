@@ -15,7 +15,7 @@ DESCRIPTION="Logger builder to simplify creation of the loggers"
 
 HOMEPAGE="https://github.com/LudwikBielczynski/logger_builder.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e2/a4/09eb16cf37917134a9f4ea4e685873003b7a6af2e2ee226e058f13c1042b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A collection of useful tools for developing web pages in python/fla
 
 HOMEPAGE="https://github.com/GrantGMiller/gm_flask_tools"
 LICENSE="PSF-2.4"
-SRC_URI="https://files.pythonhosted.org/packages/92/6e/ea0df184690e6f1925f52504445d474e8333e2d4b176d10802675863f265/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

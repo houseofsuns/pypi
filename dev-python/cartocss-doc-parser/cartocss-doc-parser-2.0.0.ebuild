@@ -15,7 +15,7 @@ DESCRIPTION="CartoCSS documentation parser."
 
 HOMEPAGE="https://github.com/mondeja/cartocss-doc-parser"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f7/f6/9b0cd30391191947cd38c381c6ee489aed56299b993c0a1249356abd2ed3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

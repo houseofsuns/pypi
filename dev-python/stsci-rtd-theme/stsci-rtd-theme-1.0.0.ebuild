@@ -15,7 +15,7 @@ DESCRIPTION="STScI Branded Sphinx theme"
 
 HOMEPAGE="https://github.com/spacetelescope/stsci_rtd_theme/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/19/c3/cea6def25f9861a351bc986ec3fe0b8bc8c8b1347e3a9695d2b5cb368377/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

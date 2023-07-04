@@ -15,7 +15,7 @@ DESCRIPTION="Extract samples from tracker modules. Supports IT, XM, S3M, MOD, UM
 
 HOMEPAGE=""
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c4/d4/f9150668a191ac0a3dca02e171e60bcfbefcc06c883b445befcf983ac9c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

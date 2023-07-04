@@ -15,7 +15,7 @@ DESCRIPTION="A simple curseforge api wrapper"
 
 HOMEPAGE="https://github.com/Stinky-c/curse-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b5/28/b3977019b204f6923c2000be377cc864a1e99bc81306d94b306f019f056b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Jobbergate CLI Client"
 
 HOMEPAGE="https://github.com/omnivector-solutions/jobbergate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/11/b671a4b44b5fc44e1c9d63fbec745e5a3cf9fe0a192df9ead688b1781820/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

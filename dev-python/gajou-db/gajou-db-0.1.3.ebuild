@@ -15,7 +15,7 @@ DESCRIPTION="Base classes and helpers to make QA autotests with DB interaction"
 
 HOMEPAGE="https://github.com/ArtyomKomarenko/gajou-db"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fe/23/0bbfb315002dec14410f514172ce906a72ac1a59d2506adc66c7bb402c28/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

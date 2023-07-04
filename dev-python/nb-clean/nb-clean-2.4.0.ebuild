@@ -15,7 +15,7 @@ DESCRIPTION="Clean Jupyter notebooks for versioning"
 
 HOMEPAGE="https://github.com/srstevenson/nb-clean"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/af/82/d3ab2085ef8babf6cfcad3024aa71db214617dc6a3905b971f881896a89b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

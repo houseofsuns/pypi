@@ -15,7 +15,7 @@ DESCRIPTION="A Python package for translation"
 
 HOMEPAGE="https://github.com/SForces/pypi_python_translator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3c/d6/052021352d61cbfeca6c19ddc9463f200951c85024ba8a7797429e8f16de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Read and write turn-by-turn measurement files from different partic
 
 HOMEPAGE="https://github.com/pylhc/turn_by_turn"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/40/97/9482aeb15989b9852d9b75417de9d76fa6a88bbac419994d3176a26a0e37/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

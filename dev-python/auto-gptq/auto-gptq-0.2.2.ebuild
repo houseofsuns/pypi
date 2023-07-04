@@ -15,7 +15,7 @@ DESCRIPTION="An easy-to-use LLMs quantization package with user-friendly apis, b
 
 HOMEPAGE="https://github.com/PanQiWei/AutoGPTQ"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/07/3f3f6905a9bd334c6ee8025df42e4789379612703b935be328caaaa41c23/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Package to handle Xmipp Metadata and image binary data"
 
 HOMEPAGE="https://github.com/DavidHerreros/xmipp_metadata"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/07/c4d52e4f1448fe09633f22a21ff36eca30891eb44717168051f5115961ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

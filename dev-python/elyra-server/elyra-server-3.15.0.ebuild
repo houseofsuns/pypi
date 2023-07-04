@@ -15,7 +15,7 @@ DESCRIPTION="The elyra-server package provides common core libraries and functio
 
 HOMEPAGE="https://github.com/elyra-ai/elyra"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/3d/e496de4f7a654b1e9060864074ab3dcac333a12ebf9f865b1612e4587d0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

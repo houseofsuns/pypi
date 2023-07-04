@@ -15,7 +15,7 @@ DESCRIPTION="Crawl your personal favorite images, photo albums, comics from webs
 
 HOMEPAGE="https://github.com/RyouMon/FavoritesCrawler"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0e/e7/6f4f5c3f633219af76337f6c0099d38f6aead2fcd2e37ec6c1ce94216fea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

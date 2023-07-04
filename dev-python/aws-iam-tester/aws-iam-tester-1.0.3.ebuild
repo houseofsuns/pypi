@@ -15,7 +15,7 @@ DESCRIPTION="AWS IAM tester - simple command-line tool to check permissions hand
 
 HOMEPAGE="https://github.com/gercograndia/aws-iam-tester"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/85/3bcd231a278a6ac396d930443ad8324eb0841f8237b28f32dfecda2d47c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A toolkit for semantic segmentation of volumetric data using pyTorc
 
 HOMEPAGE="https://github.com/DiamondLightSource/volume-segmantics"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/37/6d/71815a4a3d0dedfe754cf18ab66032459706ff737793741681b38da35f5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

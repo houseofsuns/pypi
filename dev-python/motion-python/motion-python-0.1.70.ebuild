@@ -15,7 +15,7 @@ DESCRIPTION="A trigger-based framework for creating and executing ML pipelines."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f2/d8/35faeb1b9adf924bb4b77aec15e84f2b8091864ef44f006a06b34cdefb8c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

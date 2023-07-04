@@ -15,7 +15,7 @@ DESCRIPTION="Google Drive driver for wcpan.drive"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/85/fb/04aed5d0d7d1c28851addb987c4583662eb89074fd0988bc9eda45fe3c94/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

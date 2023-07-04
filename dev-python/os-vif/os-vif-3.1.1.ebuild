@@ -15,7 +15,7 @@ DESCRIPTION="A library for plugging and unplugging virtual interfaces in OpenSta
 
 HOMEPAGE="https://docs.openstack.org/os-vif/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/b7/2c67a47324025eafb49bde193841e81a3a787e479c3e1478ee64a426a6f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Type annotations and code completion for awscrt"
 
 HOMEPAGE="https://youtype.github.io/mypy_boto3_builder/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/3b/bf7fde37c15b13e90f6b549ed6bdaa3564bcb3e06a3e10ddbe499e5d4c2d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

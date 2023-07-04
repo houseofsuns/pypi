@@ -15,7 +15,7 @@ DESCRIPTION="A package for translating csv files across multiple languages"
 
 HOMEPAGE="https://github.com/ML-Dev-Hub/universal-translator-for-csv-files"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/08/a853a6021d7a1e75179b6678e8463418a59a8f16aa129a615602ac56a915/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

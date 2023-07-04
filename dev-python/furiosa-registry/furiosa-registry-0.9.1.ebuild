@@ -15,7 +15,7 @@ DESCRIPTION="FuriosaAI model registry"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4b/a6/dde3b4dd3502383eeb52c9c7ce4c0c7ef79ae5f1ad74aa328b789e53bd02/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

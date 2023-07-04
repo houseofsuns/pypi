@@ -15,7 +15,7 @@ DESCRIPTION="Asynchronous Python client for BSBLAN"
 
 HOMEPAGE="https://github.com/liudger/python-bsblan"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5c/71/792da2fe404677a403c8ec5a13a0427df0cf17dc0fdc006e920a81f6cfa4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

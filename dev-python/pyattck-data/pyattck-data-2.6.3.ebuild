@@ -15,7 +15,7 @@ DESCRIPTION="Pyattck Data"
 
 HOMEPAGE="https://github.com/swimlane/pyattck-data"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a0/52/de5a296f61de2fe390352ed7593690a4eb09cd0823adfe8b1f740d41d7dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

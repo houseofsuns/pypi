@@ -15,7 +15,7 @@ DESCRIPTION="Create 🔥 videos with Stable Diffusion by exploring the latent sp
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/65/f3/adf3d1e7a71a7ff05f5338c89fb3b9c44e1159e7837e5db9a44feb489b32/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

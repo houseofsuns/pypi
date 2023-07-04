@@ -15,7 +15,7 @@ DESCRIPTION="Evolutionary programming tools"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/5e/b1bbeccd7fcf17d79aef3d1eb0c66c71eb3bdd6dc603b652ec5a2c808429/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

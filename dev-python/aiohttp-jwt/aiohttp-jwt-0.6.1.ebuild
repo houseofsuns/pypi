@@ -15,7 +15,7 @@ DESCRIPTION="aiohttp middleware for working with JWT"
 
 HOMEPAGE="https://github.com/hzlmn/aiohttp-jwt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e7/2f/1f17fb96577b6ff038034949df7ddcaf740c0780f1e699a157f0e387534e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

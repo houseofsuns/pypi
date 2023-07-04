@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/K0lb3/fpng_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/82/8b9f91a46315acdcf19c4c60aacb37104944ff17e0f11454290fafebebc8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

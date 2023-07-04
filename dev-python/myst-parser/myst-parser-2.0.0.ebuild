@@ -15,7 +15,7 @@ DESCRIPTION="An extended [CommonMark](https://spec.commonmark.org/) compliant pa
 
 HOMEPAGE="https://github.com/executablebooks/MyST-Parser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/c1/48ea47b78ade0bb0281f34c9e343e3ea0c681fbc81464dbfd134e983954f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

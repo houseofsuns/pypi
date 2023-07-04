@@ -15,7 +15,7 @@ DESCRIPTION="Small utilities to aid working with the SOF dataset"
 
 HOMEPAGE="https://github.com/ithron/SOF-Utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/e9/3bd83fe43e5240f9d71ecad768dd29f2f77014c6bbe8541b8ca68c9e8eb2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Use Open AI models in xonsh shell."
 
 HOMEPAGE="https://github.com/anki-code/xontrib-openai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/bd/56413c4ce62b6a6f211201a60ad1d190ce842037dafa192eaab5c8ab3fef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

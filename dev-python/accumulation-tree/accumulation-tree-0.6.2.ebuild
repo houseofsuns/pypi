@@ -15,7 +15,7 @@ DESCRIPTION="Red/black tree with support for fast accumulation of values in a ke
 
 HOMEPAGE="https://github.com/tkluck/accumulation_tree"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/82/6ca16f165b23f24d17303c6f7068be9519cdbe6cba5ad634160c5eeb53e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

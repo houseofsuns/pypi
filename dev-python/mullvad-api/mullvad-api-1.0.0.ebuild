@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper around mullvad api"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/9f/1fa499bd5bb72aa82bcc4681c37ce60d1ebc9b039393a1612d18af00e8f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

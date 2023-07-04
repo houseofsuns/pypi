@@ -15,7 +15,7 @@ DESCRIPTION="Django REST_framework APIView"
 
 HOMEPAGE="https://github.com/007gzs/django_restframework_apiview"
 LICENSE="LGPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/c4/06/2003b70f1c435e7484c84740bfd22fd84faf022311cc525472ac76144865/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

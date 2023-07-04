@@ -15,7 +15,7 @@ DESCRIPTION="http context compliant automatic raven integration for pyramid"
 
 HOMEPAGE="https://github.com/npilon/pyramid_crow"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cc/91/81a4b1618a48fc1cf539f3733eb7ba7e27bc118dcd4203e2a6fccd108821/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

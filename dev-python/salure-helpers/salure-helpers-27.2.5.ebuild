@@ -15,7 +15,7 @@ DESCRIPTION="Files with helpful code, developed by Salure"
 
 HOMEPAGE="https://bitbucket.org/salurebi/salure_helpers/"
 LICENSE="Salure License"
-SRC_URI="https://files.pythonhosted.org/packages/01/83/70c849af2fa68bc3a0ef4259e0aad52141d75d0248b75f41e7abee95357b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

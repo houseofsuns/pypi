@@ -15,7 +15,7 @@ DESCRIPTION="Neptune.ai tensorflow-keras integration library"
 
 HOMEPAGE="https://neptune.ai/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/77/03/eef0f99d51843695e6821d588ea12fcfa0597ab7e0a10f583bcc93523c6f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

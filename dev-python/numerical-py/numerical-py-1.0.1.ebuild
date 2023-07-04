@@ -15,7 +15,7 @@ DESCRIPTION="Library for Numerical Methods Exam"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/ca/368b64799b865b6e8fa4303f5c97d6ca7d4c1e7bcefa9153e1ba5ccf2198/${REALNAME//-/_}-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.linux-x86_64.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 

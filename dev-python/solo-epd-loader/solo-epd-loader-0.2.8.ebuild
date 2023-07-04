@@ -15,7 +15,7 @@ DESCRIPTION="Data loader for Solar Orbiter/EPD energetic charged particle sensor
 
 HOMEPAGE="https://github.com/jgieseler/solo-epd-loader"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/5f/15/ced5e7922a2c088975c2e56c257b79b67174bc6aa5df930f5f9f81119b2e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

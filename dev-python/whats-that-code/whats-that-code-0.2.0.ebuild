@@ -15,7 +15,7 @@ DESCRIPTION="Guess programming language from a string or file."
 
 HOMEPAGE="https://github.com/matthewdeanmartin/whats_that_code"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/43/76d1f51a889e321114f85830cc7b9f4a7e60f8bb35d535da07040ba67c16/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

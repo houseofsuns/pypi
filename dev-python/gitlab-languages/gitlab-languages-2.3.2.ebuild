@@ -15,7 +15,7 @@ DESCRIPTION="Utility to generate a Prometheus data source from programming langu
 
 HOMEPAGE="https://github.com/max-wittig/gitlab-languages"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/67/0c6d3bddbcf9ece8bf2fa613395c930a547a6d3cf57150844b6bbce9efef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

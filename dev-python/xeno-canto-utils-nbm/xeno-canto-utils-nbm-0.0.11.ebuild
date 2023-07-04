@@ -15,7 +15,7 @@ DESCRIPTION="Utility functions to interact with the Xeno Canto API with python"
 
 HOMEPAGE="https://github.com/LouisBearing/BirdSoundClassif"
 LICENSE="GNU General Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/93/d4/b6426fbb656e5b4372aec550d331693cc637f46112285353582b6f5a8809/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

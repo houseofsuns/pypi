@@ -15,7 +15,7 @@ DESCRIPTION="A Time Series Cross-Validation library that lets you build, deploy 
 
 HOMEPAGE=""
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/12/65/47271874b88d497118ba5ba7499653971fe462157f8d6120ca94a8619d01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

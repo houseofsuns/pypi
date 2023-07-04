@@ -15,7 +15,7 @@ DESCRIPTION="A bot, send telegram update to rum group as trx, and get new trx fr
 
 HOMEPAGE="https://github.com/liujuanjuan1984/rum_with_telegram"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/fe/d18fa0994a394ccd12ee56faba085e39a54d97cabedc451f4b569857e89b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

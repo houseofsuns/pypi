@@ -15,7 +15,7 @@ DESCRIPTION="Python API client for zammad"
 
 HOMEPAGE="https://github.com/joeirimpan/zammad_py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/11/531d67b8da82d028b9cd4e7587de0736856b4c8282fae45367363e9c4205/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

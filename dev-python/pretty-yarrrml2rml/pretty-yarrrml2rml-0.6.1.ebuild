@@ -15,7 +15,7 @@ DESCRIPTION="The tool translates mapping rules in RML from YARRRML serialization
 
 HOMEPAGE="https://github.com/oeg-upm/pretty-yarrrml2rml"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/16/62/fea2b8cf91eabc2d38cdb20ef56a3047285c37dbec8232628ae8732bd777/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

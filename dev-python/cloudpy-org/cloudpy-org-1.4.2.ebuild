@@ -15,7 +15,7 @@ DESCRIPTION="Cloud data pipeline organization and automation library. Includes A
 
 HOMEPAGE="https://www.cloudpy.org/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a2/ab/186b3a326ba52b91f6dd5d4866537079e65d35ba4ec1c21073619d0e38f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

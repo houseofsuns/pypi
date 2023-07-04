@@ -15,7 +15,7 @@ DESCRIPTION="Create, parse and compare entitlements as specified by the AARC rec
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/57/f6/a44c4845da0c9b6145124020b35f2422669fd51f7ac0b509cbf5f6ee556a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

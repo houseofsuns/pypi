@@ -15,7 +15,7 @@ DESCRIPTION="Advanced filters for Graphene"
 
 HOMEPAGE="https://github.com/devind-team/graphene-django-filter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/44/4d9a9bdf2ad428f61a7a79ec9438eaad01915284b01afabf1b26fb6a9667/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

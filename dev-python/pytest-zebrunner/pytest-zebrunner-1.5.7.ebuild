@@ -15,7 +15,7 @@ DESCRIPTION="Pytest connector for Zebrunner reporting"
 
 HOMEPAGE="https://zebrunner.com/documentation/agents/pytest"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/78/08/4fd3d07913024e9c0f5d61851cff523433f563ac40fd3db8932c40494f2f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

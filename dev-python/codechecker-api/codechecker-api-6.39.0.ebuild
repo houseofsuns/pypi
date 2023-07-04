@@ -15,7 +15,7 @@ DESCRIPTION="Generated Python compatible API stubs for CodeChecker."
 
 HOMEPAGE="https://github.com/Ericsson/codechecker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/98/43fca89706308902f95924c3859a799f8372bc3e5a2be4b5ea819b6ec65e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

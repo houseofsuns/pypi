@@ -15,7 +15,7 @@ DESCRIPTION="\`tap-aftership\` is a Singer tap for AfterShip, built with the Mel
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0d/ec/4b4723f8e671972e3150e053764ff1dc7f4600520e986d985d40d53defc4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

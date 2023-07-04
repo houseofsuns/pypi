@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module to add supply weekdays"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ce/52/b46223ba8d5ff2ec31bcd4f816d77b0ed4c9b4537d5afa4ec2c9dbc6abf9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

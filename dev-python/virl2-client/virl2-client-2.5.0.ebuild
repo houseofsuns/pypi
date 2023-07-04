@@ -15,7 +15,7 @@ DESCRIPTION="VIRL2 Client Library"
 
 HOMEPAGE="https://github.com/ciscodevnet/virl2-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b1/27/67c075f67d092eb0c4374a63bf23da330ef095154b2af50c2fef6e35221b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

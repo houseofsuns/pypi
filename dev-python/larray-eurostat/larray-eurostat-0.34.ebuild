@@ -15,7 +15,7 @@ DESCRIPTION="Additional package to import Eurostat files using LArray"
 
 HOMEPAGE="https://github.com/larray-project/larray_eurostat"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/3a/81/1417cd64d6a60ad9ebfb6bb7fff46c3a2187d7a0eae36b5edb309748356a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

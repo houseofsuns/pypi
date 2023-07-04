@@ -15,7 +15,7 @@ DESCRIPTION="Jinja2 plugins for nornir"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/55/ad/4424e634e0c44b7d5ce3d3f383327cd571b936e7ec1f81631f99cf2db5d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

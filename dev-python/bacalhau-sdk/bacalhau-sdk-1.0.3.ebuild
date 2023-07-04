@@ -15,7 +15,7 @@ DESCRIPTION="Compute over Data framework for public, transparent, and optionally
 
 HOMEPAGE="https://github.com/bacalhau-project/bacalhau/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a6/71/5c35efb963e958ad59b5e3eec699f49b2edfd5f8d165059c4c1627c95413/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

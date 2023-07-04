@@ -15,7 +15,7 @@ DESCRIPTION="A quick and easy way to download datasets from the DARE lab."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/39/bd/0adedf4392afaf20c9bdec8118d06da4052195382eefd550fc5dce14cfcc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

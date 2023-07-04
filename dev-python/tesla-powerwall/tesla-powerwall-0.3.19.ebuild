@@ -15,7 +15,7 @@ DESCRIPTION="API for Tesla Powerwall"
 
 HOMEPAGE="https://github.com/jrester/tesla_powerwall"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/58/27b4cf60a4255a47781297bfc7899f181b8bd2ae03d77486f59bcdec4702/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

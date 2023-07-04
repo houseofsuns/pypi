@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># &lt;img src=&quot;https://raw.githubusercontent.com/reactive-python/reactpy/main/branding/svg/reactpy-logo-square.svg&quot; align=&quot;left&quot; height=&quot;45&quot;/&gt; ReactPy&lt;p&gt;    &lt;a href=&quot;https://github.com/reactive-python/reactpy/actions&quot;&gt;        &lt;img src=&quot;https://github.com/reactive-python/reactpy/workflows/test/badge.svg?event=push&quot;&gt;    &lt;/a&gt;    &lt;a href=&quot;https://pypi.org/project/reactpy/&quot;&gt;        &lt;img src=&quot;https://img.shields.io/pypi/v/reactpy.svg?label=PyPI&quot;&gt;    &lt;/a&gt;    &lt;a href=&quot;https://github.com/reactive-python/reactpy/blob/main/LICENSE&quot;&gt;        &lt;img src=&quot;https://img.shields.io/badge/License-MIT-purple.svg&quot;&gt;    &lt;/a&gt;    &lt;a href=&quot;https://reactpy.dev/&quot;&gt;        &lt;img src=&quot;https://img.shields.io/website?down_message=offline&amp;label=Docs&amp;logo=read-the-docs&amp;logoColor=white&amp;up_message=online&amp;url=https%3A%2F%2Freactpy.dev%2Fdocs%2Findex.html&quot;&gt;    &lt;/a&gt;    &lt;a href=&quot;https://discord.gg/uNb5P4hA9X&quot;&gt;        &lt;img src=&quot;https://img.shields.io/discord/1111078259854168116?label=Discord&amp;logo=discord&quot;&gt;    &lt;/a&gt;&lt;/p&gt;---[ReactPy](https://reactpy.dev/) is a library for building user interfaces in Python without Javascript. ReactPy interfaces are made from components that look and behave similar to those found in [ReactJS](https://reactjs.org/). Designed with simplicity in mind, ReactPy can be used by those without web development experience while also being powerful enough to grow with your ambitions.</longdescription>
+</pkgmetadata>

@@ -15,7 +15,7 @@ DESCRIPTION="For building ZPL2 strings for printing barcodes with Zebra or compa
 
 HOMEPAGE="https://github.com/sacherjj/simple_zpl2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/12/c6400c4a3c1203e80d98ad8ae8dda99b8a0983f67f5cba154f53e00471b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

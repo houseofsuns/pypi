@@ -15,7 +15,7 @@ DESCRIPTION="Agora Token Builder. RTC & RTM"
 
 HOMEPAGE="https://github.com/AgoraIO-Community/python-token-builder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/55/6741101e6169f7c44388f1184b845db956ccfaac23356f49077418042885/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

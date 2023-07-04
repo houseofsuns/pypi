@@ -15,7 +15,7 @@ DESCRIPTION="A ninja Python package behind rgee, rgeeExtra and eemont."
 
 HOMEPAGE="https://github.com/r-earthengine/ee_extra"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6b/dd/4be95b8ced2fc9cc48ce73c93d6dcd1a1dfe55b509fa9c459b23355e8d9f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

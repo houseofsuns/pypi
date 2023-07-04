@@ -15,7 +15,7 @@ DESCRIPTION="Build forms from wagtail blocks"
 
 HOMEPAGE="https://github.com/mwesterhof/wagtail_formation"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/70/5d4c4984fc81a42c9568f2eaad230fe0069080c68c3e318772ffcbf71275/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

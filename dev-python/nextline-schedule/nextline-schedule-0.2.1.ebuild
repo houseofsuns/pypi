@@ -15,7 +15,7 @@ DESCRIPTION="A plugin of nextline-graphql. An interface to the SO scheduler."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/19/6e/97bb9e42ce47789da8342459300d335621c0957cdaae4dbd0058fb6bba6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

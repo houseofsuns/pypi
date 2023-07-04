@@ -15,7 +15,7 @@ DESCRIPTION="Opt-in automated bug/error reporting for napari"
 
 HOMEPAGE="https://github.com/tlambert03/napari-error-reporter"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/fd/92/0b4e925a98691932c7e4a9785ac9eeec69fdc7482fc527f33285de9f7486/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

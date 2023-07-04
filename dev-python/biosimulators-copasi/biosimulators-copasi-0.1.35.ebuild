@@ -15,7 +15,7 @@ DESCRIPTION="BioSimulators-compliant command-line interface to the COPASI simula
 
 HOMEPAGE="https://github.com/biosimulators/biosimulators_copasi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/0e/dbd010910309ccdba56945cc7b04c6876787f6f056f6a7fef7a94a626233/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

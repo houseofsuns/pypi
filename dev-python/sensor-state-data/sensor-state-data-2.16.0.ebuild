@@ -15,7 +15,7 @@ DESCRIPTION="Models for storing and converting Sensor Data state"
 
 HOMEPAGE="https://github.com/bluetooth-devices/sensor-state-data"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2f/06/56d2ac7e0eb09bf2c91c84ab89b5972dc411d831594a58d23cf707533fbc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

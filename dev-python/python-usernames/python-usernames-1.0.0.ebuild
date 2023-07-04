@@ -15,7 +15,7 @@ DESCRIPTION="Python library to validate usernames suitable for use in public fac
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e4/0d/aad0e8609ad208f3972d9032266f452e04ef9919f8db7f9dab06f49782c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Library for calibrating flavour tagging algorithms at LHCb"
 
 HOMEPAGE="https://gitlab.cern.ch/lhcb-ft/lhcb_ftcalib"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/bf/2e/59f06bfd92b2e1fcf66bd95802be056125d43330ba6143b75417545c3d36/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

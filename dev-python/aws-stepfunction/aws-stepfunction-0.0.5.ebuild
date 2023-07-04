@@ -15,7 +15,7 @@ DESCRIPTION="Yet the most developer friendly orchestration tool on AWS."
 
 HOMEPAGE="https://github.com/MacHu-GWU/aws_stepfunction-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/10/a958b4ddf893271a21711ffdf8a71ff99e85973ce912d38adc17136780a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

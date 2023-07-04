@@ -15,7 +15,7 @@ DESCRIPTION="BatchX Python developer tools"
 
 HOMEPAGE="https://github.com/batchx/python-toolbox"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/55/20/dadb51f652152e565214c767c25cab32e6bc2d68cc5494a9367e554ff4a6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

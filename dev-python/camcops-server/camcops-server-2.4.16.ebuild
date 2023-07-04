@@ -15,7 +15,7 @@ DESCRIPTION="CamCOPS server"
 
 HOMEPAGE="https://camcops.readthedocs.org/"
 LICENSE="GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/40/06/09e891ec4c5f5b8d5198bba69ed7febb117263c84cd9cc1e1a8b5c6e76be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="AiiDA plugin for running VASP calculations and workflows."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/64/d38816885e7d2b0d46c3e806873ac13f6587aef64ba4f50ed75e485877b7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

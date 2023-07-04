@@ -15,7 +15,7 @@ DESCRIPTION="NewsML converter (AFP news)"
 
 HOMEPAGE="https://github.com/oterrier/pyconverters_newsml/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/00/d5/899e9528258092d4406a072f7635b3f64d24519cf97c8e1d4aff62785357/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

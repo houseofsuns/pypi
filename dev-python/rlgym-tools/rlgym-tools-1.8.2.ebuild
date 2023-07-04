@@ -15,7 +15,7 @@ DESCRIPTION="Extra tools for RLGym, like SB3 compatibility"
 
 HOMEPAGE="https://rlgym.github.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8e/44/597b5cdaea12c144559ef9b83ba37aeafebd00c279a66c97c07532937e7d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

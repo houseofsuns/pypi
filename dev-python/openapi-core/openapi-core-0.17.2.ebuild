@@ -15,7 +15,7 @@ DESCRIPTION="client-side and server-side support for the OpenAPI Specification v
 
 HOMEPAGE="https://github.com/python-openapi/openapi-core"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5a/0f/8372752a0dabee920cb8d02766e8b74819a625829249d1e797cdd89f0bb4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

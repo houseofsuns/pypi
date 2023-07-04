@@ -15,7 +15,7 @@ DESCRIPTION="Alvin lineage python library for integrations"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/f3/ae23af2e2fab1eacdf96593e5fe48f880c981ab1c2a4b69a613208bd5e10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

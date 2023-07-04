@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/milesgranger/pyrus-cramjam"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/e8/871c1ce6eae300dec97587aa528aa34286f1a778e4ae13e5b671ca53dee2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

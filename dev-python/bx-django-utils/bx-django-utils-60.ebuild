@@ -15,7 +15,7 @@ DESCRIPTION="Various Django utility functions"
 
 HOMEPAGE="https://github.com/boxine/bx_django_utils/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/a8/594a488d667b46618a6fc32d2bbc1c87de45137ce53fbdcf284fdb2da3e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ae namespace module portion kivy_file_chooser: extended kivy file c
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_kivy_file_chooser"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/2c/20/c8c0d710a85e13522e7b1e623f26e72564f79b02c566df780a80c0b943e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

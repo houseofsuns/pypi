@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of CSSFinder backend using NumPy library."
 
 HOMEPAGE="https://github.com/argmaster/cssfinder_backend_numpy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/5b/877875dfd8643618b6d7e8ee7d4998b3cee439f3c0e046aefb4d01e8869e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

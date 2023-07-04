@@ -15,7 +15,7 @@ DESCRIPTION="An RPC client library for the Transmission BitTorrent client"
 
 HOMEPAGE="https://github.com/mhadam/clutch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/d9/10fe17a0d29ed250b78e41c372befd3c5e336b77b05cc6939700ff9d9ff4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

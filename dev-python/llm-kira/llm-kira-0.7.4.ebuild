@@ -15,7 +15,7 @@ DESCRIPTION="chatbot client for llm"
 
 HOMEPAGE="https://github.com/sudoskys/llm_kira"
 LICENSE="LGPL-2.1+"
-SRC_URI="https://files.pythonhosted.org/packages/00/96/7f3ac3b29b478ae47f3d040cdd6b2a4522020b3c118e1239cb15b58d23e7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

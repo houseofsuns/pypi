@@ -15,7 +15,7 @@ DESCRIPTION="Set of helpers to help you build Bizzflow components easily"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4d/3b/fa9ae653b3e6876e4f3eec1ae0e97d5dc04822e338d9b0c589aa04a71d56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

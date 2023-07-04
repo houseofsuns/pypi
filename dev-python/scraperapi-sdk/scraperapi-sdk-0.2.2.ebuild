@@ -15,7 +15,7 @@ DESCRIPTION="Scraper API SDK"
 
 HOMEPAGE="https://scraperapi.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e5/ca/d5a9b4a453e80669797e0bfd0df8c753da96c39a6fe0a088aab18a8de916/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Data, Analytics and Visualization Templates (DAVT) - Python Service
 
 HOMEPAGE="https://test.pypi.org/project/davt-services-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/94/e2/a5b976d408ebf0bc8c1eba8d89047c3ab05da7b057a5a62b3c7c291c475d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/fergusfettes/command-line-loom"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/d0/8bd05f2592a6a2b10a375d477cd31c35a48d71d96b746ccc17a9e1dfcd28/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

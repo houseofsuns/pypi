@@ -15,7 +15,7 @@ DESCRIPTION="Mice lungs and metastases segmentation tool."
 
 HOMEPAGE="https://github.com/EdgarLefevre/napari-deepmeta"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/89/e0/0630a2d3df29c39760fd32eed6802909adfabfd8fcb62c1229535ff62d6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

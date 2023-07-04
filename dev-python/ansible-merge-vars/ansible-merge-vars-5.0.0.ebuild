@@ -15,7 +15,7 @@ DESCRIPTION="An Ansible action plugin to explicitly merge inventory variables"
 
 HOMEPAGE="https://github.com/leapfrogonline/ansible-merge-vars"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/80/be7f510a6bdf653948b7cc044850386852eaee736d3423c54dc71771891e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

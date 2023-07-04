@@ -15,7 +15,7 @@ DESCRIPTION="Multivalued dictionary package in python."
 
 HOMEPAGE="https://github.com/fsssosei/MultivaluedDict"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/89/04/26e0dfec68bb550b3c7a72539878ee6bbcf94a9c839bbee407f2cd0202c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

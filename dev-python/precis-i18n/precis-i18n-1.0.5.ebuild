@@ -15,7 +15,7 @@ DESCRIPTION="PRECIS-i18n: Internationalized Usernames and Passwords"
 
 HOMEPAGE="https://github.com/byllyfish/precis_i18n"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/f8/cee056e175b6975cc14affc3d492aa7d3464d154e0011d627e27ec5df0bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

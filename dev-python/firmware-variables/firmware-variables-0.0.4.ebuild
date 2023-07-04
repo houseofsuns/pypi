@@ -15,7 +15,7 @@ DESCRIPTION="Windows library for controlling UEFI firmware variables"
 
 HOMEPAGE="https://github.com/netaneld122/firmware-variables"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/67/3a78483bc452045ec496cb90a3227a976fa78037fa2805218e18805ad1ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

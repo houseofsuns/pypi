@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module to manage marketing mailing lists"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/18/92/dc26118421feb95deb14f05b77b942f7326cb3bd36fb9dcdd32cfb60f410/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

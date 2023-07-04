@@ -15,7 +15,7 @@ DESCRIPTION="A library to check for existing obligations to KAT Bulgaria"
 
 HOMEPAGE="https://github.com/Nedevski/py_kat_bulgaria"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/f4/a8195b0d24d3755ae3d099bed7cfe390ce05dc85b80f626232d1329a53e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

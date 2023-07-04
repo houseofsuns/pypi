@@ -15,7 +15,7 @@ DESCRIPTION="Nice APIs for common optimization tasks"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/aa/2d4eae6fc973860b8e54a07444f8d2f857cb4c276d994b1881fe31c42ee8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

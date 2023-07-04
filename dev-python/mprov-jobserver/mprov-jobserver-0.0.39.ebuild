@@ -15,7 +15,7 @@ DESCRIPTION="The job server component of mProv"
 
 HOMEPAGE="https://github.com/mprov-ng/mprov_jobserver"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/21/4f736a2beb78a8856c0f5ed7c4f4742edbd2258ee609c6b946ea90720cb4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

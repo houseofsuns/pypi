@@ -15,7 +15,7 @@ DESCRIPTION="A python API client for using Alchemite Analytics"
 
 HOMEPAGE="https://intellegens.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/93/e1/87129d3607e0f52104072532476c3c91a02afbffa23dced2036a4bf0f963/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

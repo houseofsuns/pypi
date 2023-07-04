@@ -15,7 +15,7 @@ DESCRIPTION="\"Python validator for himarc JSON Schema\""
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/bc/1f32c815063d0342b5126041838b3dab62797ede856cd8665f3592a1bffe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

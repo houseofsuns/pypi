@@ -15,7 +15,7 @@ DESCRIPTION="An utils package for fastapi"
 
 HOMEPAGE="https://github.com/finalsa/fastapi-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/12/12efde4f94bc728b6232cba446c2fafbe5dc9e98ceb2f335e5b0f17d0129/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

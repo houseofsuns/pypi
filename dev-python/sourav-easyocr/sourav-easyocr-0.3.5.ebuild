@@ -15,7 +15,7 @@ DESCRIPTION="Input Adaptor to verify file extension"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5c/b8/be72e471aa89fdfd5e9b4e6a9aa2b8cd242c934f9763bb09bd88b1149ea9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

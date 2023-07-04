@@ -15,7 +15,7 @@ DESCRIPTION="A CUDA() and cuDNN() extension of NNabla"
 
 HOMEPAGE="https://github.com/sony/nnabla-ext-cuda"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/86/00/e24a2150b9deccf3f4539a94ec64b894794cbb9541e0d2379e334b6b07ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

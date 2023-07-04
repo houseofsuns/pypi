@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing Fivetran resources."
 
 HOMEPAGE="https://github.com/benesch/pulumi-fivetran"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/55/53/fc7d452189f4bd4332be954ce36a2ff7fa7ac3e51621e7664a10da2beabe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

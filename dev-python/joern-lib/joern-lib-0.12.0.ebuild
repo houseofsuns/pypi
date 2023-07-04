@@ -15,7 +15,7 @@ DESCRIPTION="Python library for code analysis with CPG and Joern"
 
 HOMEPAGE="https://github.com/AppThreat/joern-lib"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a1/3f/fc8a7b88565a728979be24bca961932caaab38460f745cc802188ca6cb6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

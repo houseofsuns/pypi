@@ -15,7 +15,7 @@ DESCRIPTION="Automatic Changelog generator using Jinja2 templates."
 
 HOMEPAGE="https://pawamoy.github.io/git-changelog"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/12/7c/89da32be15e273f3c04ba3567158b26f918c584e2dcb25642f23d5771f0b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module to add a secondary unit on purchase line"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/15/83/2368c98544fe21f1e6a5430a91a389fa32ffe180527fe2c67997cbfd5dc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A minimalistic tool to automate source code cloning and building"
 
 HOMEPAGE="https://none"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/96/3b/16027e7a917260b5846938e61a0e0cf4dd0edff9531d71444f13440f4215/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

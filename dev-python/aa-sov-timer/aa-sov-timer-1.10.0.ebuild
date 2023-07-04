@@ -15,7 +15,7 @@ DESCRIPTION="Sov Campaign Timer for Alliance Auth"
 
 HOMEPAGE="https://github.com/ppfeufer/aa-sov-timer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/2a/4c81b06b451f00b6fd365c84be9e9a0313b0ae7f7458dd27b8479fd36f11/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

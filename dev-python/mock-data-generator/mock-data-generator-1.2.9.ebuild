@@ -15,7 +15,7 @@ DESCRIPTION="Generate mock data using json schema supplied. "
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3b/49/5d00d2dfd86023b6552171086fbea207d789a6c4be5eca51e414a3fdc24c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

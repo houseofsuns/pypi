@@ -15,7 +15,7 @@ DESCRIPTION="Coronavirus (COVID-19) Daily Data from Worldometers with Python"
 
 HOMEPAGE="https://www.github.com/alvarobartt/covid-daily"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/66/308c469076dff77912731319b99171529fa20003db2d4013bb91da3211cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

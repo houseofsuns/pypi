@@ -15,7 +15,7 @@ DESCRIPTION="Add a short description here!"
 
 HOMEPAGE="https://github.com/HalbornAcademy/halborn_ctf"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ee/b9/0307a89b2dfda47ce57ae152f41a706d51385aa501b567de62815450269e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="traktor_nowplaying uses Traktor's broadcast functionality to extrac
 
 HOMEPAGE="https://github.com/radusuciu/traktor_nowplaying"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/68/8ec3063a7c5b4fb994098ca944aaa37475416dd1ec63050d6d1cb295c47b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

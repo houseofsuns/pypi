@@ -15,7 +15,7 @@ DESCRIPTION="An interactive graphviz viewer for Dash"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/57/f960449e985f7e0360d8b5c15e2fa7c80d0c0e5a6c4a5d3eac7ae747bac9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

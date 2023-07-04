@@ -15,7 +15,7 @@ DESCRIPTION="An API for getting fun responses"
 
 HOMEPAGE="https://void206551.dev/projects/fun-responses"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7d/bc/6966b9c672344954503e30e5a426de5245fd44068704b4368516c59afb20/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

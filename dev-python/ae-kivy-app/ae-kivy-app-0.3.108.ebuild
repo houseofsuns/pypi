@@ -15,7 +15,7 @@ DESCRIPTION="ae namespace package portion kivy_app: main application classes and
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_kivy_app"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/d9/b7/54c8dfd5d5275ad3f8f1ad3e1d2955eba63f085f9c0e4d6aa45f2ffe38ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Library to emulate a roku server to serve as a proxyfor remotes suc
 
 HOMEPAGE="https://gitlab.com/mindig.marton/emulated_roku"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/60/714ab39b3891604257259915bd2ae558477f6acb43b63bf6700037e2402e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Timeseries API built on top of Redis"
 
 HOMEPAGE="https://github.com/ryananguiano/python-redis-timeseries"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/d5/d5a6e034f441ff22ecbdb3198078a736c3b7824d43eb96267eebc369a2c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

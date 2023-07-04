@@ -15,7 +15,7 @@ DESCRIPTION="Microsoft Interpret Extensions SDK for Python"
 
 HOMEPAGE="https://github.com/interpretml/interpret-community"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/c6/080734fd96bb9ea46f32e19ae24156c42342bd1d42055f9dda4e9d18877e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

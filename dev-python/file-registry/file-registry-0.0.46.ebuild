@@ -15,7 +15,7 @@ DESCRIPTION="File management scripts"
 
 HOMEPAGE="https://github.com/obozkanucla/file_registry"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/de/d6/bfb06d2a9d7641155ec6755e651d4903523165ac9ab6d95ae3efede01b2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

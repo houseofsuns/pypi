@@ -15,7 +15,7 @@ DESCRIPTION="FROC analysis for COCO detections for Detectron(2) and OpenMMLab"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/95/92/b953f3de0dfdda2f836a6761c50975c5b6dfe138b563deecc2abbb002d11/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

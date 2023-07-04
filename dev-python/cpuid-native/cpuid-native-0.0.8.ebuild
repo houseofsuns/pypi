@@ -15,7 +15,7 @@ DESCRIPTION="x86 cpuid native API"
 
 HOMEPAGE="https://github.com/fpelliccioni/cpuid-py-native"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/22/96/09115221188ee0702a27c887f69129610ebaf0dc46903327a17f9d2fd925/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Small wrapper around faker, to make values optional!"
 
 HOMEPAGE="https://github.com/PerchunPak/optional-faker"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b3/24/b0e30b2d3e5f7a7ad053b3c1d31fbb4f5b7bcf2c1dc06785a2d007cddb1a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

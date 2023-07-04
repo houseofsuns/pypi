@@ -15,7 +15,7 @@ DESCRIPTION="sqlalchemy dialect adaptor for gevent to work in non-blocking mode"
 
 HOMEPAGE="https://github.com/hkwi/sqlalchemy_gevent"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/1c/8b/2ab59509eeec57aae4d8c3750221dc41f540479f25df9dda8ca82bd24793/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Rich Console Exporter for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/exporter/opentelemetry-exporter-richconsole"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/14/af9d92fef45b86061b87aef8d2fd22b5f16d893cfa6ff5c8335a3df94019/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

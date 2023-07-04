@@ -15,7 +15,7 @@ DESCRIPTION="Falcon Core Inspired by Django for Falcon API Framework."
 
 HOMEPAGE="https://github.com/Maksych/falcon_core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/40/c0/e256de1e14e93d620d5c6debd1dda186fb478d21a8c85bf4274bd229958e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

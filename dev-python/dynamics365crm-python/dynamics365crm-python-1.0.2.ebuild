@@ -15,7 +15,7 @@ DESCRIPTION="API wrapper for Dynamics365CRM written in Python"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/dc/73a4442a7c4c4eb4a9dc4fe7c394db618443d876765c968d1590ebb41de1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

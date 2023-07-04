@@ -15,7 +15,7 @@ DESCRIPTION="A toolkit for NGS analysis with Python."
 
 HOMEPAGE="https://github.com/afrendeiro/toolkit"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/19/8e/a1654dd2f501446d3e73335d878d973c47ada242dfdc5b48448f4a49b59c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

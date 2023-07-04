@@ -15,7 +15,7 @@ DESCRIPTION="This package allows you to load in a data dictionary and map cuis t
 
 HOMEPAGE="https://github.com/kevon217/data-dictionary-cui-mapping"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/f0/676fb8c7d91ffd616c4362925f5127ae970ea23de792d57378f514627b68/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

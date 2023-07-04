@@ -15,7 +15,7 @@ DESCRIPTION="A simple set of utilities for interacting with Azure"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/fa/7c3c5e3d599a9831dc6e70554be3f581b38d923115a452eb5a4569bc2311/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

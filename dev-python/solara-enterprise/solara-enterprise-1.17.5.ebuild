@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="Not open source, contact contact@solara.dev for licencing."
-SRC_URI="https://files.pythonhosted.org/packages/69/e7/d87c4563b9d6d8eb30b401618d4f7627a8c4ad9b6e23cd6cb82ebb12727c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

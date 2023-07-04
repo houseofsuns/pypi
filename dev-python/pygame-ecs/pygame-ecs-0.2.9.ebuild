@@ -15,7 +15,7 @@ DESCRIPTION="Pure Python, simple to use Entity Component System(ECS) for pygame"
 
 HOMEPAGE="https://github.com/Notenlish/pygame_ecs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/3a/e77e4ae610bf24e61f8cbbb6f826ff489ce44a971541019a167383231ea2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Python Package for Galaxy Cold Molecular Gas and Star Formation E
 
 HOMEPAGE="https://sites.google.com/view/a3cosmos"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/82/b2/fdc2abac6d63eda39806e5b41dcb8cfd59b5cf99189f89dd0d287065c1f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

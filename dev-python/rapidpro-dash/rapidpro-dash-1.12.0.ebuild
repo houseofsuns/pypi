@@ -15,7 +15,7 @@ DESCRIPTION="Support library for RapidPro dashboards"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a6/6a/6d2bd87753452d0d195e3c6372a85a5a9283a1633de3186adbc54b04baea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

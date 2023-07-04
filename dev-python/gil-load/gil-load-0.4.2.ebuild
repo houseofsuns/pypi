@@ -15,7 +15,7 @@ DESCRIPTION="Utility for measuring the fraction of time the GIL is held in a pro
 
 HOMEPAGE="https://github.com/chrisjbillington/gil_load"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/11/9d/58a69b507184a94037f57cd532558561e75d550435cb884eff3f80172ea1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

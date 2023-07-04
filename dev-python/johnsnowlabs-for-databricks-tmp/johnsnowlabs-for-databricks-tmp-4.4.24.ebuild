@@ -15,7 +15,7 @@ DESCRIPTION="The John Snow Labs Library gives you access to all of John Snow Lab
 
 HOMEPAGE="https://www.johnsnowlabs.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/8c/b25699af46856124e463199b9262891440fdbde514bbf50db3d51c0882cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

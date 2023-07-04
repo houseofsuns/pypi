@@ -15,7 +15,7 @@ DESCRIPTION="Template and type composer for the curator core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_composer_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5c/7b/a095c59a72ced2f3b78c3a26830a651a93488c438515d74a626e9d3eeb16/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

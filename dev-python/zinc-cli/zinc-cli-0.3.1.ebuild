@@ -15,7 +15,7 @@ DESCRIPTION="Package Description."
 
 HOMEPAGE="https://github.com/krinj"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/9c/327fc3477b1ae06b88b52bb4a354c5a5db207d165cfa7f82a5c98cf55add/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

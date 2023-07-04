@@ -15,7 +15,7 @@ DESCRIPTION="An autohooks plugin for python code formatting via black"
 
 HOMEPAGE="https://github.com/greenbone/autohooks-plugin-black"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/43/b2/e023aa54f6d6f64c8bf1e3ed616fbd153eb87a44a40a8dfeb2901163c4c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

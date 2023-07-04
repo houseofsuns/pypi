@@ -15,7 +15,7 @@ DESCRIPTION="Add a set of useful filters for pipen templates"
 
 HOMEPAGE="https://github.com/pwwang/pipen-filters"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ec/39/7271ae6fc229844a6a7312317d5090557a339a2793e211f144168021e7a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

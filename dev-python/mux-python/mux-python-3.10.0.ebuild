@@ -15,7 +15,7 @@ DESCRIPTION="Mux API"
 
 HOMEPAGE="https://github.com/muxinc/mux-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/87/39/edc40ab4820ec323f5d2c47b765d384a1c3c4dc9eea94a31046e8b38ea20/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

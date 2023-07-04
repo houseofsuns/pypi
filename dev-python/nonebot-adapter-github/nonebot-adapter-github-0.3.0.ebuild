@@ -15,7 +15,7 @@ DESCRIPTION="GitHub adapter for nonebot2"
 
 HOMEPAGE="https://github.com/nonebot/adapter-github"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/b1/219b05f25d20a329690b766617122daeb975da30703d723baa3a0adc813c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

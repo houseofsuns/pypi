@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper for mwclient with improvements for 3rd party wikis"
 
 HOMEPAGE="https://wiki.bitplan.com/index.php/Py-3rdparty-mediawiki"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/33/cb9f8f94b74be2657970eb02e4428f8d636ffa6e6af81884e602c72507f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="pyobs module for SBIG cameras"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/09/a34e5b1823b030d84186d086c894b8937d2251a861cce1ef2eb5edaf83b1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="This converter library is able to transform the ACCORDION applicati
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/35/29/e19025ff3e41a3973331f0f52a6e2afd2151ab2150b026547d08001f6180/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

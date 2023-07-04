@@ -15,7 +15,7 @@ DESCRIPTION="Add a short description here!"
 
 HOMEPAGE="https://github.com/pyscaffold/pyscaffold/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/1c/9b4f230530b1af1117071ae65a83346510e243438d9fd6d7ca358d853e5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

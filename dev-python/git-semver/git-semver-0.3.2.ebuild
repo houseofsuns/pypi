@@ -15,7 +15,7 @@ DESCRIPTION="Semantic versions management integrated to git."
 
 HOMEPAGE="https://github.com/hartym/git-semver"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c4/5c/6780f390192f7a8c695b478710d39bc3f2478c947949f332167f76bb41bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

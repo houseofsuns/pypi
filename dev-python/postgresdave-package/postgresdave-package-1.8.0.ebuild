@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper for simplified Postgres usage using psycopg2."
 
 HOMEPAGE="https://github.com/daveskura/postgresdave"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/20/f7/6e419356b830313cf8e2f4db350f05bb920a59619d116e5eda577e29efd6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

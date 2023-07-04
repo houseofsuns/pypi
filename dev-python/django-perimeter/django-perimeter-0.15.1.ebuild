@@ -15,7 +15,7 @@ DESCRIPTION="Site-wide perimeter access control for Django projects."
 
 HOMEPAGE="https://github.com/yunojuno/django-perimeter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/d7/c1043c2a79c3c9ada0cadec1b87c838e1a2dacb561605844422f17dee617/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

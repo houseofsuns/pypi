@@ -15,7 +15,7 @@ DESCRIPTION="A nonebot2 plugin for Blue Archive."
 
 HOMEPAGE="https://github.com/lgc2333/nonebot-plugin-bawiki/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/05/5f6b89e7c070b65dc2962af1e4c4a5bc03a0ba4852b208b55252bc09faec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

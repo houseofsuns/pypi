@@ -15,7 +15,7 @@ DESCRIPTION="The modern frontend web framework for Python"
 
 HOMEPAGE="https://bit.ly/beepy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/76/9c/e0d867769ff6dbfcb6c8ec18ea68a59d20e24c20d9610c7c46d3133adfdf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An easier way to display data"
 
 HOMEPAGE="https://github.com/jeff-hykin/silver_spectacle.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/7c/59821affb83ca03e63b9bc17662ab1c7b48b1b934c1e30de87946a471158/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="CLI and Backends to work with MosaicJSON."
 
 HOMEPAGE="https://github.com/developmentseed/cogeo-mosaic"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d0/cd/9af373bc8bf1205edd47ef959fc0a44f8c0c0151f4f33a07c25eee3b8ff4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

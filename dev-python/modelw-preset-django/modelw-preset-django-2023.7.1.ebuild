@@ -15,7 +15,7 @@ DESCRIPTION="Model W preset for Django"
 
 HOMEPAGE="https://github.com/ModelW/preset-django"
 LICENSE="WTFPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/c2/67/f8d87d85e162d46fcee0e28ba036bbab79113206d6e77cd94999ff474c5b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Library that makes functional testing with Selenium WebDriver fast 
 
 HOMEPAGE="https://github.com/ivpel/vigilant"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/28/56/c92c35c6e7f34b8cba4ee5bbf95f5985104c359a8ede974ff7ec343448c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

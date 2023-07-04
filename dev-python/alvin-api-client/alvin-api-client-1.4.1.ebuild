@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK implementing a Client of the Alvin API"
 
 HOMEPAGE="https://github.com/alvindotai/alvin/tree/master/alvin_api_client"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/5a/6c/6612c8f86a58a67470442db5a720d6ae5780b0751537e0afac5c3c60c414/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

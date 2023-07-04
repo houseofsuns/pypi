@@ -15,7 +15,7 @@ DESCRIPTION="Improved interaction with DRF relations."
 
 HOMEPAGE="https://github.com/bubaley/air-drf-relation"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/53/41/d4bf2f718f9e953c097bb1558cddf0248f0c2727229ece0064e0ad882a10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

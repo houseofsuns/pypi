@@ -15,7 +15,7 @@ DESCRIPTION="A Sphinx theme for Qiskit that is based on the Pytorch Sphinx theme
 
 HOMEPAGE="https://github.com/Qiskit/qiskit_sphinx_theme"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ed/a0/df9e6867fe0769f1c2fbab143988a6a8fe77e72a3e9439ff7829645b0c90/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

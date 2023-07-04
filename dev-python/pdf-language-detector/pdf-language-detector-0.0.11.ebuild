@@ -15,7 +15,7 @@ DESCRIPTION="A python script to iterate over a list of PDF in a directory and tr
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/38/9b1cf4d9ae963d4a5bec0957da7b626be1de6fc8cb4dd7bc1aa9894681ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

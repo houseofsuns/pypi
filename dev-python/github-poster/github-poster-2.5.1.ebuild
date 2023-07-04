@@ -15,7 +15,7 @@ DESCRIPTION="Make everything a GitHub svg poster and Skyline!"
 
 HOMEPAGE="https://github.com/yihong0618/GitHubPoster"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/67/0afdf24d055058f0b62816a95764899c9d30e7758094e5c032d2c78100e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

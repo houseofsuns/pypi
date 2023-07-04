@@ -15,7 +15,7 @@ DESCRIPTION="A linear operator implementation, primarily designed for finite-dim
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d3/22/13bdf14d612774bd308729fc7be49e9099022bd12c9b26a58c4e1b8c8ff7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

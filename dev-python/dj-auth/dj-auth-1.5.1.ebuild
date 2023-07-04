@@ -15,7 +15,7 @@ DESCRIPTION="The goal of dj_auth is to limit data access for certain user over y
 
 HOMEPAGE="https://gitlab.com/systent/dj_auth"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ca/aa/0558ae1e68f2b0560e58b2ae8d224d872f8491485ad3e1c35502d70856ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

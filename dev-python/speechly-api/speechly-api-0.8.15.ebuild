@@ -15,7 +15,7 @@ DESCRIPTION="Speechly Public Protobuf Stubs"
 
 HOMEPAGE="https://github.com/speechly/api/tree/master/python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/d6/7280db776d4e9266c66990123443ca095f2558e0efd7569cb078f0a0ae23/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

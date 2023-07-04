@@ -15,7 +15,7 @@ DESCRIPTION="Peewee-AIO integration for Muffin framework"
 
 HOMEPAGE="https://github.com/klen/muffin-peewee"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/e5/f31bbf809a8c827b3cd1102c250314627e2493da87280efbc172bf4a332a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

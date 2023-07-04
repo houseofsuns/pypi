@@ -15,7 +15,7 @@ DESCRIPTION="A package to control JVC projectors over IP"
 
 HOMEPAGE="https://github.com/bezmi/jvc_projector"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/86/e762550ef829066df0c6554b1889f22008b32a421bdf3797fbc2c9c11409/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

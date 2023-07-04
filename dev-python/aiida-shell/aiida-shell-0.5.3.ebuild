@@ -15,7 +15,7 @@ DESCRIPTION="AiiDA plugin that makes running shell commands easy."
 
 HOMEPAGE="https://github.com/sphuber/aiida-shell"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/02/ed/7471b545d4cc00663c251081acf97cf261280e29cb073956ff2b526126f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

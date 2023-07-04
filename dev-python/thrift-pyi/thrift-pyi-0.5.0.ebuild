@@ -15,7 +15,7 @@ DESCRIPTION="This is simple \`.pyi\` stubs generator from thrift interfaces"
 
 HOMEPAGE="https://github.com/unmade/thrift-pyi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/15/ac/d5360d45a1e294f012321d91d29cdc4449d1661f1b1627a338daed9af85e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

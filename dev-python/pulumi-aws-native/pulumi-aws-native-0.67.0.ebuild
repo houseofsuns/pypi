@@ -15,7 +15,7 @@ DESCRIPTION="A native Pulumi package for creating and managing Amazon Web Servic
 
 HOMEPAGE="https://pulumi.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/50/50/16de8455ec9c08b7c5f4b34b9ecd4e3b2a845b2f3b58fb5048e57245d190/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

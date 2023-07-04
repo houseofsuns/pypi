@@ -15,7 +15,7 @@ DESCRIPTION="nacos python client tool."
 
 HOMEPAGE="https://gitee.com/hubert22/nacos_client_python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/a1/2e53a24ce57ad383184b40fe9469be9354358c02a098ddfc4d9a907ba4f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

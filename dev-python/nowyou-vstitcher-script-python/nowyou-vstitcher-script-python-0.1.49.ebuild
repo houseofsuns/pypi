@@ -15,7 +15,7 @@ DESCRIPTION="Nowyou VStitcher script python"
 
 HOMEPAGE="https://bitbucket.org/inventilabs/nowyou-vstitcher-script-python/"
 LICENSE="proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/4c/c3/80bbcb8eb7f18ad4bc82e6a1624a0ff9935d888756ddc7c53948dc683720/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An extension for json_include to support file inclusion"
 
 HOMEPAGE="https://github.com/Exabyte-io/json_include"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/31/1ac7a7512f1e3cc3725b74e785796f084d235cbca94b3de7a8bc132bd3ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

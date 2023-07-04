@@ -15,7 +15,7 @@ DESCRIPTION="A well-tested implementation of a fair asynchronous RLock for concu
 
 HOMEPAGE="https://github.com/Joshuaalbert/FairAsyncRLock"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/12/567b4976a9e0e636074734ebc18aca064fffb366b9b88a676d2753e6ba72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

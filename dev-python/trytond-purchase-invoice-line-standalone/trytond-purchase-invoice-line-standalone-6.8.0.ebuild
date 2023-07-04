@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module for standalone invoice line from purchase"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/4d/9b/51069a21c3703d0ad1b032cb49a0e55ab87160cf9f0bbfc924cbce6a7439/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

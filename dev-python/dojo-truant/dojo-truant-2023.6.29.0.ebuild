@@ -15,7 +15,7 @@ DESCRIPTION="A minimal client for deject dojo to be used by me in my projects. M
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f4/b1/cfcc518914aa1430771b7002fa85d007f00a6eec2eebe7b4aeb3db667782/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

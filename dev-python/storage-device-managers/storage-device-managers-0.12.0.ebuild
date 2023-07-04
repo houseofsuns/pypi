@@ -15,7 +15,7 @@ DESCRIPTION="Helpful context managers for managing decryption and mounts of stor
 
 HOMEPAGE=""
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/b5/c5/621c315ffedb3045dd73cb2c889edbe590eafabeefcaaeb9e04afa65ab4d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

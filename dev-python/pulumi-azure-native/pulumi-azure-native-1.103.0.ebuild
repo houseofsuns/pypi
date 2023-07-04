@@ -15,7 +15,7 @@ DESCRIPTION="A native Pulumi package for creating and managing Azure resources."
 
 HOMEPAGE="https://pulumi.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/89/7a/18c8b8e8c4d7ee690f6cd570c8dd11274bfa9a496b7888acd470cb3ef46f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

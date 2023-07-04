@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of react-pivottable in Dash (Python)"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/42/d8eb764136d4da63742e4f1195becabecdbb7affa5805c037aabf74fb9ce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

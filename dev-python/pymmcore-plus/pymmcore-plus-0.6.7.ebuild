@@ -15,7 +15,7 @@ DESCRIPTION="pymmcore superset providing improved APIs, event connection, and a 
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/f6/80/59c57b90ce21c6ddcb3a10191de88587d30576d6415ce690428c3420672a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

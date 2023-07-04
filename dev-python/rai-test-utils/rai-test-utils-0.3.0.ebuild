@@ -15,7 +15,7 @@ DESCRIPTION="Common basic test utilities used across various RAI tools"
 
 HOMEPAGE="https://github.com/microsoft/responsible-ai-toolbox"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/57/b8/279c08e8bbfb571f10be2be64a25611189e5e230f4554fc4fd221dd79d4d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

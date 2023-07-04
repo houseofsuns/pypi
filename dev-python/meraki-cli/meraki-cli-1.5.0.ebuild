@@ -15,7 +15,7 @@ DESCRIPTION="A Simple CLI tool to automate and control your Meraki Dashboard"
 
 HOMEPAGE="https://github.com/PackeTsar/meraki-cli"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/87/bf/9bf159f6e21f4f43caf75a0527c2495e20d6d362ce3510237528ccadbae6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

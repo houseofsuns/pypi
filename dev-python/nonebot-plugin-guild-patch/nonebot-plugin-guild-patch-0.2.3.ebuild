@@ -15,7 +15,7 @@ DESCRIPTION="Patch plugin for NoneBot2 QQ guild (go-cqhttp) support."
 
 HOMEPAGE="https://github.com/mnixry/nonebot-plugin-guild-patch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/59/47d4e7d35008a660808922ecfd2886e9409cee907806fdd390b2e5d645fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

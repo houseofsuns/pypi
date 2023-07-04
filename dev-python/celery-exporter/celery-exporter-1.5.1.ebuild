@@ -15,7 +15,7 @@ DESCRIPTION="Prometheus metrics exporter for Celery"
 
 HOMEPAGE="https://github.com/OvalMoney/celery-exporter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/09/abb3dd2443c7d6b6883280d4d871a72c9ef5c6f86de9dc02a7ea5f8f5da8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

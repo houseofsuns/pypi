@@ -15,7 +15,7 @@ DESCRIPTION="Get ios data and operate ios devices"
 
 HOMEPAGE="https://github.com/YueChen-C/py-ios-device"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9a/92/1fa5fa19dde3e0ff35b7202cf4bf5740fad5791d94bbb7fd11bcadec8180/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

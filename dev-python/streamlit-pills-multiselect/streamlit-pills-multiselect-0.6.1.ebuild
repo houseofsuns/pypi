@@ -15,7 +15,7 @@ DESCRIPTION="💊 A Streamlit component to show clickable pills/badges"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/85/5f/23b2635429d3f7e687f5ecae45c73afeb8c3b6bf21450ce78089c12e78ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="KuFlow utilities to use Temporal.io"
 
 HOMEPAGE="https://kuflow.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7d/51/43da29e394c56e30a7ceab7b1029a475f29547856e88a236045748d3c9a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

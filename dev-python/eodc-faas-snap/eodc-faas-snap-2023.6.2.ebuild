@@ -15,7 +15,7 @@ DESCRIPTION="Bindings for the snap processor exposed at EODC"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2b/01/1556217723ab5b3269b1f03f6ac8bb8d6dadd3a2d15433e39b4d34d920df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

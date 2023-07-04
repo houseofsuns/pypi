@@ -15,7 +15,7 @@ DESCRIPTION="pyramid_multiauth"
 
 HOMEPAGE="https://github.com/mozilla-services/pyramid_multiauth"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a5/79/83c05ec107584862f67552826ba37617c74b2a81bcf87f7b54bb036f2b1e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

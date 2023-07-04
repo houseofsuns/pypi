@@ -15,7 +15,7 @@ DESCRIPTION="Django Ninja - Fast Django REST framework"
 
 HOMEPAGE="https://django-ninja.rest-framework.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/81/04/6c4213ad7de43806522ffc69760f4e23ec4a170d01a761c7863f6fbb7233/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

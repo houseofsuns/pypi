@@ -15,7 +15,7 @@ DESCRIPTION="A fully open-source, cross-platform TLS implementation in Python, l
 
 HOMEPAGE="https://github.com/glizzykingdreko/glizzy_tls"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/eb/73/f34fa89790b8984d123652f243d90e104ba4c080bff4c5fcce6be5821ef9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

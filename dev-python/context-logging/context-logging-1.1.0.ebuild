@@ -15,7 +15,7 @@ DESCRIPTION="Tool for easy logging with current context information"
 
 HOMEPAGE="https://pypi.org/project/context_logging"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/4a/248c36ce50a0ea471479f81c2244d46e8abdcaca49ee001301d6d0842e87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

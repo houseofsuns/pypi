@@ -15,7 +15,7 @@ DESCRIPTION="GrimoireELK processes and stores software development data to Elast
 
 HOMEPAGE="https://github.com/chaoss/grimoirelab-elk"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/56/f7/31e7e1c4a3ba2cc1fa526dfb969c35be35ebe22fd9be7710b021342a679f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

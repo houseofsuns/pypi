@@ -15,7 +15,7 @@ DESCRIPTION="A collection of reusable pyinvoke tasks"
 
 HOMEPAGE="https://github.com/compas-dev/compas_invocations"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fe/45/e9e688814f39fcdb7b4ecd5eaca2b96e63ec1ec747112c38f7f6fa4d8818/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

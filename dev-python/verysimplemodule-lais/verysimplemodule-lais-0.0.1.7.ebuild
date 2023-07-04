@@ -15,7 +15,7 @@ DESCRIPTION="Pacote para baixar arquivo"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/02/56/4e7867bcb67746d8d3867e9440cdff9be274c01f4926e0eb3219dd9e476b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

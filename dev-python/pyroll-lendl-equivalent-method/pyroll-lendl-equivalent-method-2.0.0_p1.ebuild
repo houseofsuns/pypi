@@ -15,7 +15,7 @@ DESCRIPTION="Plugin for PyRolL providing the equivalent rectangle method by Lend
 
 HOMEPAGE="https://pyroll.readthedocs.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/09/e3573007bb69ae1c7ca91a93d97c95911d88599c49cef390f3549cc3bdcd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

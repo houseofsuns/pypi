@@ -15,7 +15,7 @@ DESCRIPTION="flake8 plugin that checks for code in \`__init__.py\` modules"
 
 HOMEPAGE="https://github.com/samueljsb/flake8-empty-init-modules"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/d2/ab6dd8b4b51f910b17e3b1f1bdd5af2e63e62939415ad3f41c670290812a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

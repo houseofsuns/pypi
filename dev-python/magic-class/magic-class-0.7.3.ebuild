@@ -15,7 +15,7 @@ DESCRIPTION="Generate multifunctional GUIs from classes"
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/1d/f1/89a8dd1eccc3609385074850f3eab8393095e9997cc2d21c50dc42905852/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

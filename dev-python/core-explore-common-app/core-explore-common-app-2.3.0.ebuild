@@ -15,7 +15,7 @@ DESCRIPTION="Base exploration function for the curator core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_explore_common_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/26/a6/256dc9b59d6d60388b68a50ae20c74581a5028508452f5abf35b2f419495/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

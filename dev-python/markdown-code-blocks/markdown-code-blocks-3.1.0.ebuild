@@ -15,7 +15,7 @@ DESCRIPTION="Generate html from markdown with code-block highlighting"
 
 HOMEPAGE="https://github.com/asottile/markdown-code-blocks"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/4d/66a081cfb1fdedf62410287a95bef2b2aaa91c066aeed0cf5441ea274d7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

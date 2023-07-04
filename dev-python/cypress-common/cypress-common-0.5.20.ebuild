@@ -15,7 +15,7 @@ DESCRIPTION="Istuary DeepVision Cypress Common Library"
 
 HOMEPAGE="https://www.istuary.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/49/45/0312bd7d8bae9582757b1790435fd6bdfc17a22118e39b9a74ec06f536f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Merge by name, all pdfs in the current folder, or specific list of 
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/27/f8e0f9ab665ab7b80709037ce216bdab1ad1a956e945b0e937edc1155775/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

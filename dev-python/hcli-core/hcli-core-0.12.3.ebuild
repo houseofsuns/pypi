@@ -15,7 +15,7 @@ DESCRIPTION="An HCLI connector that can be used to expose any CLI expressed thro
 
 HOMEPAGE="https://github.com/cometaj2/hcli_core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/66/140970ccf8077701d56d1af8b8b14ccea39b8f040aba84fa8c8e7cefb8d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

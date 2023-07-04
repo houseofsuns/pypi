@@ -15,7 +15,7 @@ DESCRIPTION="AWS CLI authenticator via ADFS - small command-line tool to authent
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/7b/e446067116dbf3a9b5f1e7c3cea779d21f06394ae45b9498db961a6685b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

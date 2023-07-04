@@ -15,7 +15,7 @@ DESCRIPTION="A Swarm Simulation Package"
 
 HOMEPAGE="https://github.com/Connor-Mattson/RobotSwarmSimulator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/cf/fb00a12f4b651acdced480c127ca9d791b06a74844443237937542713cdf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

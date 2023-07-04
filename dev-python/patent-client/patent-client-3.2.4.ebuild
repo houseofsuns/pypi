@@ -15,7 +15,7 @@ DESCRIPTION="A set of ORM-style clients for publicly available intellectual prop
 
 HOMEPAGE="https://github.com/parkerhancock/patent_client"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5d/c4/20c2f0b3baf47ee60fcc51b92a18ce61b90373c94f220f49139056d745e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

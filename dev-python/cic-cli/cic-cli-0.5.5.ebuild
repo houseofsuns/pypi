@@ -15,7 +15,7 @@ DESCRIPTION="Generic cli tooling for the CIC token network"
 
 HOMEPAGE="https://git.grassecon.net/cicnet/cic-cli"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/6c/a4/630d5b5734721f72749ac4c2e623852287ddb7c85b45b2502cde1f2d4da9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

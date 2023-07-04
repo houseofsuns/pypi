@@ -15,7 +15,7 @@ DESCRIPTION="A pandoc filter for including file in block code"
 
 HOMEPAGE="https://github.com/chdemko/pandoc-codeblock-include"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/56/3c/d7406b18f1881b52e857b1b5ff3ff816a393f8648dede5acebd3d3ddaaa8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

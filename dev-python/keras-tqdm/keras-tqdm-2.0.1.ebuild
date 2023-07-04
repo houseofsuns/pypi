@@ -15,7 +15,7 @@ DESCRIPTION="Keras models with TQDM progress bars in Jupyter notebooks"
 
 HOMEPAGE="https://github.com/bstriner/keras-tqdm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ce/02/bf464481236468315d4b2ccc1e3abd95602fba98508c68e38259d7483853/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

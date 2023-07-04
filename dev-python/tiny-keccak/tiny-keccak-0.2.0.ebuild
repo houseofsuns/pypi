@@ -15,7 +15,7 @@ DESCRIPTION="The Keccak-256 hash function defined in Keccak SHA3 submission"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/d0/fe732c659dc00fb9ab99368c72287e31528baaad2481350e2fc3c8005c90/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

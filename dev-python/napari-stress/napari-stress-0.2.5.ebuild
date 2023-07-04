@@ -15,7 +15,7 @@ DESCRIPTION="Interactive surface analysis in napari for measuring mechanical str
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5b/be/d78c5cdcf0bee5603c3a57126cdd8b688c916401b0f6c71c7f7013d1850a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

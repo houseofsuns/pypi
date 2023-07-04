@@ -15,7 +15,7 @@ DESCRIPTION="gyw toolkits"
 
 HOMEPAGE="https://github.com/612twilight/deep_copilot/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9d/6d/679baca6742f55bc8f36fef8eb91bdc851b9948686390c15a14e440a8723/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://www.do-mpc.com"
 LICENSE="GNU Lesser General Public License version 3"
-SRC_URI="https://files.pythonhosted.org/packages/fe/2f/031e03849149aa72d51df399cd98b63477f34317fb10e1e6915cdedbbbec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

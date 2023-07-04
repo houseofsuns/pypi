@@ -15,7 +15,7 @@ DESCRIPTION="A Flask extension to work with HTMX."
 
 HOMEPAGE="https://github.com/edmondchuc/flask-htmx"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/b3/b3a733e4bc3fe8cbf6287744a5eff63a5a492cec55a187f665e9f12e9bc9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Command line tool for controlling the Ikea Idasen (Linak) standing 
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/e9/5c15acdd4fa5343b76efbd0c23b363119cb19c86d184fb6ef4223f26458e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Django Extension library"
 
 HOMEPAGE="https://github.com/ChanTsune/Django-Boost"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/9d/2798a8c3a3d900fb7e26dd62c662c7b8ce76f500797712b847984d8704f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

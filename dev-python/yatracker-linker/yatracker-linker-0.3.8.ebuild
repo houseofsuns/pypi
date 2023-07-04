@@ -15,7 +15,7 @@ DESCRIPTION="Yandex Tracker issues integration"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/5e/2eefcd9852587c2a29ca3e7aed3034acc984d8d13933c0ef6c5eaa2aa0e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

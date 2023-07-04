@@ -15,7 +15,7 @@ DESCRIPTION="Library to locate Ansys products in a local machine."
 
 HOMEPAGE="https://github.com/ansys/ansys-tools-path"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b2/e2/f3e4a292de96c5d553596a679f593322284952df77f9e49420fdbccff4f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

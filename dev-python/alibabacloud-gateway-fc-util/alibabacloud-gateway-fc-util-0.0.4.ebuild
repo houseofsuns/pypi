@@ -15,7 +15,7 @@ DESCRIPTION="Alibaba Cloud FC Util Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-gateway"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a2/a0/b4d0bbb2ffd3fbcf2a5644d21cd5152d058f83e11489dd1c4b4e680230f8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

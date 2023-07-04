@@ -15,7 +15,7 @@ DESCRIPTION="This python module provides an annotation that caches results of fu
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d6/0d/f993887d7ca462d9e06cfd6c0a0768ad8eccb5f5110ad9827111de107bdd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

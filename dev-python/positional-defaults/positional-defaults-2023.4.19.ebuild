@@ -15,7 +15,7 @@ DESCRIPTION="Set defaults for any positional-only parameter"
 
 HOMEPAGE="https://github.com/ntessore/positional_defaults"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/30/2c/143fc46800aa4e1f82d3db844009b6728c44245cc6e9017854a7c979959c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

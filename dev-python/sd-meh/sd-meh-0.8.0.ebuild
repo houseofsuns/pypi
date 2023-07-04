@@ -15,7 +15,7 @@ DESCRIPTION="stable diffusion merging execution helper"
 
 HOMEPAGE="https://github.com/s1dlx/meh"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/24/bc/81ab5f3a088c6ae225fdee363d049c2a5da3f553983eb7628efa0f0c7ff8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

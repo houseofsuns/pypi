@@ -15,7 +15,7 @@ DESCRIPTION="A modern Sphinx theme."
 
 HOMEPAGE="https://github.com/piccolo-orm/piccolo_theme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/d9/0cac53026e35935d03ff875f3e22dc75dd0b7cc577b13700089d31b4e3ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

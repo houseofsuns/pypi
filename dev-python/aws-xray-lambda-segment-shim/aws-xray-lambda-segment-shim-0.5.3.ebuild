@@ -15,7 +15,7 @@ DESCRIPTION="A shim which faciliates the AWS X-Ray tracing of Lambda Functions i
 
 HOMEPAGE="https://github.com/sam-martin/aws-xray-lambda-segment-shim"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/e6/a41aaca5f94faff0691056a1bfce4c5f266cdc7030ab5b88fdf0ff567acc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

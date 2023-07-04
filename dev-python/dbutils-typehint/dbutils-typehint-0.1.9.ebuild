@@ -15,7 +15,7 @@ DESCRIPTION="Provides type hints for dbutils in Data Bricks: https://docs.databr
 
 HOMEPAGE="https://github.com/cdeler/dbutils_typehint"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c8/db/46c4e30cf6c7bdb6dd1d91e5b25a5f7308707a22ea31b9c8573c37eea865/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

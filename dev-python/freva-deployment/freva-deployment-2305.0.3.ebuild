@@ -15,7 +15,7 @@ DESCRIPTION="Deploy freva and its services on different machines."
 
 HOMEPAGE="https://github.com/FREVA-CLINT/freva.git"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7f/cc/6d082256292473db340f9bbd517506de8e690498920cead62cde0b5cfd0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

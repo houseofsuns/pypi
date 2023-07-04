@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/rlhjansen/nbprototyping"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/01/f1000d2d6c2684272640d4d6e557ddc7f20eb8174a3d1a4b57cd95bbb284/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Improved SRP Module for Alliance Auth"
 
 HOMEPAGE="https://github.com/ppfeufer/aa-srp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/f4/a8d33ad9250a0851530454512cb890837700fcaaf30d3c239657646aca52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

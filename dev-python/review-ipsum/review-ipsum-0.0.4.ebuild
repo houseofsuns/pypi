@@ -15,7 +15,7 @@ DESCRIPTION="Review Themed Lorem Ipsum"
 
 HOMEPAGE="https://github.com/JakeBar/review-ipsum"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/40/b8/b7919c3d789489cfff4bf3abf14e53723a36e499bc9b1aa2df17ec793481/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

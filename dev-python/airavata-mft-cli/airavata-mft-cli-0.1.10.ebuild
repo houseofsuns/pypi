@@ -15,7 +15,7 @@ DESCRIPTION="Command Line Client for Apache Airavata MFT data transfer software"
 
 HOMEPAGE="https://github.com/apache/airavata-mft"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cd/25/48d689bad85cf287dc1f02473c379ec832970dd32628abb279fe80419b50/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

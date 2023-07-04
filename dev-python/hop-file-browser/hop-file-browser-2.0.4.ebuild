@@ -15,7 +15,7 @@ DESCRIPTION="An intuitive and fast terminal file browser"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/77/dd/07a1ccf57ccf1d54845b342c2b008bd31c9c6c5378fc29ec0e0f60560844/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

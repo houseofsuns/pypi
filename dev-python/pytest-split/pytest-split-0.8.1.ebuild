@@ -15,7 +15,7 @@ DESCRIPTION="Pytest plugin which splits the test suite to equally sized sub suit
 
 HOMEPAGE="https://jerry-git.github.io/pytest-split"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/7f/6e24e7e1e36d6d6ce059f7f388eee518646a3bb25329011ba465f9f73c75/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A BitVector class for Python"
 
 HOMEPAGE="https://github.com/leonardt/bit_vector"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/da/64/6169121c554d99b683d5ae236197d22d776fcde15b998d9175960487b75b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

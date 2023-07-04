@@ -15,7 +15,7 @@ DESCRIPTION="Poetry plugin for development versions"
 
 HOMEPAGE="https://github.com/alfred82santa/poetry-dev-version"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/af/89/7bcfc931e72f533c94a036d7ab643fd4e279fb25575f6a3c840c174710b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

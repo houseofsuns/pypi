@@ -15,7 +15,7 @@ DESCRIPTION="A plugin for flake8 to enable linting .pyi stub files."
 
 HOMEPAGE="https://github.com/PyCQA/flake8-pyi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/94/fdf4ee251bc29ca31c1d336f1d6cb8cdfb71a876ffa7711502c306034019/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Un package pour interagir avec l'API Google Ads"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/ab/98a6dc1143f391637c42b371a9ee689e621228a3ef2f25772d3d4dd147c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

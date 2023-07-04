@@ -15,7 +15,7 @@ DESCRIPTION="Dependency injection for AioHTTP"
 
 HOMEPAGE="https://github.com/taskiq-python/aiohttp-deps"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/2a/9d/6372e70c00e37fbf6efe31f451fffdd48dee83ed89bb6cc602ea17962f4b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

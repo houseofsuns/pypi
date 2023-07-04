@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/beidongjiedeguang/sparrow"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/be/70804c15b91df1f5753af363ca0e03774d2df2b121222526361cf6534daa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

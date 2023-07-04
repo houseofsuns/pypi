@@ -15,7 +15,7 @@ DESCRIPTION="API wrapper for slippi.gg"
 
 HOMEPAGE="https://github.com/ConstObject/slippy-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/9b/344eeb94e38f47a65c5a034f214974bc02309066f0198a2d816757366907/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

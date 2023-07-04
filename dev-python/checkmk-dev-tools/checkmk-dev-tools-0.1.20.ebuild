@@ -15,7 +15,7 @@ DESCRIPTION="Checkmk DevOps tools"
 
 HOMEPAGE="https://github.com/Checkmk/checkmk-dev-tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/e5/2f824c681733ea46ac7497b2e04e56da10e16c432da073167d8265cb4a85/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

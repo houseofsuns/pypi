@@ -15,7 +15,7 @@ DESCRIPTION="A library to take the fiddly parts out of multicast networking!"
 
 HOMEPAGE="https://github.com/multiplemonomials/multicast_expert"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/e2/dc3eb87b64c38376497596afbba6f64f640199c0df5cb2a8dee89a8464f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

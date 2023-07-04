@@ -15,7 +15,7 @@ DESCRIPTION="Read metainfo from setup.py"
 
 HOMEPAGE="https://github.com/dephell/dephell_setuptools"
 LICENSE="None"
-SRC_URI="https://files.pythonhosted.org/packages/0a/ba/a2527db1853985b7f0bb90bd78f4ec87e51b5e542c318589ee5322680d45/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

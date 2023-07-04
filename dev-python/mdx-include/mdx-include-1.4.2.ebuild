@@ -15,7 +15,7 @@ DESCRIPTION="Python Markdown extension to include local or remote files"
 
 HOMEPAGE="https://github.com/neurobin/mdx_include"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/bf/f0/f395a9cf164471d3c7bbe58cbd64d74289575a8b85a962b49a804ab7ed34/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

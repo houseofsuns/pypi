@@ -15,7 +15,7 @@ DESCRIPTION="A language server for nginx.conf"
 
 HOMEPAGE="https://github.com/pappasam/nginx-language-server"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ae/2f/3707beee0d3e9ccb372b6326f63d7dcf565d5bfd52b93eeb28cc1f853622/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

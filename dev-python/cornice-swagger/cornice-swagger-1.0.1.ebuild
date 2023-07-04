@@ -15,7 +15,7 @@ DESCRIPTION="Generate swagger from a Cornice application"
 
 HOMEPAGE="https://github.com/Cornices/cornice.ext.swagger"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6f/07/e55351195b4f7700c5c5eb22491c15a4c05b21cc3cd40ea7683a18ef3a9c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

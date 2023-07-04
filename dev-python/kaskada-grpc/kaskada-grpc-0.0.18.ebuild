@@ -15,7 +15,7 @@ DESCRIPTION="Kaskada's gRPC client"
 
 HOMEPAGE="https://kaskada.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/0b/570e5c974e10eba9b91f37e569b2864a979b779e672701875546f74d7bbd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

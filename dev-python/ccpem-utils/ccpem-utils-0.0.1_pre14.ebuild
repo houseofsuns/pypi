@@ -15,7 +15,7 @@ DESCRIPTION="\"Python utils for EM data processing (dev version)\""
 
 HOMEPAGE="https://gitlab.com/ccpem/ccpem-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b1/71/b438442722e3a11f960ea37eb8474e1ca63180a8335b05dbee335d86b9c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

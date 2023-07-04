@@ -15,7 +15,7 @@ DESCRIPTION="Library for creating Stream Deck plugins in Python."
 
 HOMEPAGE="https://github.com/gri-gus/streamdeck-python-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/47/13/8c261735a69795fd66e594d61e08e01480956cff414fda559fd8687e5e3e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

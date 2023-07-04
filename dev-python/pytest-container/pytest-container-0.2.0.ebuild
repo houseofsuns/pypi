@@ -15,7 +15,7 @@ DESCRIPTION="Pytest fixtures for writing container based tests"
 
 HOMEPAGE="https://dcermak.github.io/pytest_container/"
 LICENSE="LGPL-2.1+"
-SRC_URI="https://files.pythonhosted.org/packages/b1/b0/2e665171520c607759e9f3054db7b19a14742f034f5e35c29ac428d91fdf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

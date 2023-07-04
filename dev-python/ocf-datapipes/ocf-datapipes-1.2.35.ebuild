@@ -15,7 +15,7 @@ DESCRIPTION="Pytorch Datapipes built for use in Open Climate Fix's forecasting w
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6f/8b/3e6c8b22a58732888e222bca2402e5be8f0012b97256b17e493b64647e2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

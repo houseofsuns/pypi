@@ -15,7 +15,7 @@ DESCRIPTION="Django Plotly Dash component suite"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/c4/1cc6b54e862fee31a52cb58a671553bf605f5dfbb16cfab155fe6b5d5bbf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Efficient function output caching based on input files and other pa
 
 HOMEPAGE="https://github.com/arunsundaram50/good-cache.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/60/1c/fa1c3636c880be24c8140687e97a4d6eec63aa444759afd99c1e91152c2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

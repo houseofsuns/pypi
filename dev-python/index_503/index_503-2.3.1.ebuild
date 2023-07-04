@@ -15,7 +15,7 @@ DESCRIPTION="PEP 503 index builder"
 
 HOMEPAGE="https://github.com/bdraco/index-503"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/49/7d276b70d5dbda20238168e3f46a159b106aad1648e5e683a7d3e9a7125f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

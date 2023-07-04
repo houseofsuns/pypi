@@ -15,7 +15,7 @@ DESCRIPTION="A 3rd party library to use discord's VC Party Games feature with di
 
 HOMEPAGE="https://github.com/awesomehet2124/disnake_together"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/08/511fdd8cb83dd0c663724647167f84e449da846f2e6333efe93efb580527/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

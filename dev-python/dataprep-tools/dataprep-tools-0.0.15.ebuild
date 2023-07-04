@@ -15,7 +15,7 @@ DESCRIPTION="Utils to prepare data for filecoin deals"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/03/9e723d6b6fbff7342d8e8bf874b267e9f25ea8d874faff78bc112f2868fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

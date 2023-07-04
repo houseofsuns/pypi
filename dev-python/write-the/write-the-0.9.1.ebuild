@@ -15,7 +15,7 @@ DESCRIPTION="AI-powered Code Generation and Refactoring Tool"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/11/c7/767c39d6f76b858de0728c096719334b809269d52c06b0779931f6e2ded2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A tool for cropping regions out of volumetric data"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e5/b6/d11a49b7d254e53a41a3a2d83c1e80e3e0061b336281d6f39b3c2e65969c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

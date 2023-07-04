@@ -15,7 +15,7 @@ DESCRIPTION="Simple audit logging for Django requests"
 
 HOMEPAGE="https://github.com/uktrade/django-audit-log-middleware"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/99/59ceb5f1fcf0a98f6752c85eeca71a1c0d9d2e095ded08aaf71377ceedc9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

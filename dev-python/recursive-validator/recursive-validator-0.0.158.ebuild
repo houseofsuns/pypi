@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/fsai-dev/fsai-cli-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c3/17/458d655dc4bb32e8636b39f942eee1c801e355a1cc17ca99324f089fe160/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python Autoload Module"
 
 HOMEPAGE="https://github.com/hiroki0525/autoload_module"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/c7/e23a010c86b0072ee801d093fc7d72a87dac1be6f36834c0412f8bbb7009/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

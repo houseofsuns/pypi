@@ -15,7 +15,7 @@ DESCRIPTION="A collection of tools for Project Freedom projects"
 
 HOMEPAGE="https://didier.malenfant.net/ProjectFreedom/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/68/81/f17f7cdca4d899ba3d48c93605c6744946ac5c6df955f8b99383f902a7eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

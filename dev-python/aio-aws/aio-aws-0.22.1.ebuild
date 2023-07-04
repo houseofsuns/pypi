@@ -15,7 +15,7 @@ DESCRIPTION="aio-aws"
 
 HOMEPAGE="https://github.com/dazza-codes/aio-aws"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cb/12/0ac8e07d902091de1b6f05f31ca541c0248c61baa4d8cbd3498027143f62/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

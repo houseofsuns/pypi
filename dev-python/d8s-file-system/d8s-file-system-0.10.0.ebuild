@@ -15,7 +15,7 @@ DESCRIPTION="Democritus functions for working with files and directories."
 
 HOMEPAGE="https://github.com/democritus-project/d8s-file-system"
 LICENSE="GNU Lesser General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/a3/b7/81d4b13c0e3d5ce7e97eabd4f7bf324c6b2b716a027be09292f04289655a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

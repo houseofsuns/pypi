@@ -15,7 +15,7 @@ DESCRIPTION="python library for bias_correction"
 
 HOMEPAGE="https://github.com/pankajkarman/bias_correction"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/35/64d8b4e85859918593fe71cada241d34c4954cf082f936871bcfb83b1b70/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

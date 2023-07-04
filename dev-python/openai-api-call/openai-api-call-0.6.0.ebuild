@@ -15,7 +15,7 @@ DESCRIPTION="A short wrapper of the OpenAI api call."
 
 HOMEPAGE="https://github.com/cubenlp/openai_api_call"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/f8/f961b6a662a1d9ea5afec48a71a20b6c515d55c718acb740193a16e97d74/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

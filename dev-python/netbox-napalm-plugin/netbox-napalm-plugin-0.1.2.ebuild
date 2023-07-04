@@ -15,7 +15,7 @@ DESCRIPTION="NetBox plugin for Napalm."
 
 HOMEPAGE="https://github.com/netbox-community/netbox-napalm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a1/e1/41930c46e3969a4d972485b503a297281a00c7bc686d0c21273b2710cc06/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

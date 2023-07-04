@@ -15,7 +15,7 @@ DESCRIPTION="A Python library for Korean romanization"
 
 HOMEPAGE="https://github.com/osori/korean-romanizer"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/30/f1/338969ccff6ba5965bd5e37cc2e877cbaa90da4463b252adcce6025675e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

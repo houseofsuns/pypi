@@ -15,7 +15,7 @@ DESCRIPTION="DEXOM implementation in python using cobrapy"
 
 HOMEPAGE="https://forgemia.inra.fr/metexplore/cbm/dexom-python"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/63/51/c30cb3ec55e3ceba9d9ca7438ed8417e175e2f10c2d7f112190291f522c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

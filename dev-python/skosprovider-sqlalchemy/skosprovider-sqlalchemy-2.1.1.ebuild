@@ -15,7 +15,7 @@ DESCRIPTION="A sqlAlchemy implementation of skosprovider."
 
 HOMEPAGE="https://github.com/OnroerendErfgoed/skosprovider_sqlalchemy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1b/ad/396b7b21f8a7722fed63d815fe464ecfa721cbd52159949e5aef3c15836d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

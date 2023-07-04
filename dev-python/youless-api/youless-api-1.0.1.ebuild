@@ -15,7 +15,7 @@ DESCRIPTION="A bridge for python to the YouLess sensor"
 
 HOMEPAGE="https://bitbucket.org/jongsoftdev/youless-python-bridge/src/master/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/69/55/ecae308b0a237eaece0fd90cc3fcb21c8aa56072e6e7c1d23dbc7b519405/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

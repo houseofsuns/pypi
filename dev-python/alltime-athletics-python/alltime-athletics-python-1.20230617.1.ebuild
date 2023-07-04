@@ -15,7 +15,7 @@ DESCRIPTION="Scrapes and post-processes data from Alltime Athletics (website by 
 
 HOMEPAGE="https://github.com/thomascamminady/alltime_athletics_python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/87/12/39f04effebab013f5cbd4eb67fa7442762e19382ae4417d690feab4e1ad8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

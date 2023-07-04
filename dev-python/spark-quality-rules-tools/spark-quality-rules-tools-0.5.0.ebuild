@@ -15,7 +15,7 @@ DESCRIPTION="spark_quality_rules_tools"
 
 HOMEPAGE="https://github.com/jonaqp/spark_quality_rules_tools/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/1e/f50cc89974e146fc8d3859b71d23f762d02cf32f5b0a87e3a641e0f9cfa9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

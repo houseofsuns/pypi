@@ -15,7 +15,7 @@ DESCRIPTION="Creates S3 bucket, tags, policy and lifecycle policy via boto3."
 
 HOMEPAGE="https://github.com/rubelw/aws_bucket_creator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bd/ca/daef479665bb9e30f44865e1c4a5d0e965ef56e397fff5602a62392e7324/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

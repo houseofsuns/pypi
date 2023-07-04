@@ -15,7 +15,7 @@ DESCRIPTION="a simple decorator to cache the results of computationally heavy fu
 
 HOMEPAGE="https://github.com/zommiommy/cache_decorator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/97/a3dd4feacebc2206c8cb37c800d908ab6d801d215fa7639b4ed782bbeebe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

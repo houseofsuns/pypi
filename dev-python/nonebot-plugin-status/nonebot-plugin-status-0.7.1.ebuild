@@ -15,7 +15,7 @@ DESCRIPTION="Check your server status (CPU, Memory, Disk Usage) via nonebot"
 
 HOMEPAGE="https://github.com/cscs181/QQ-GitHub-Bot/tree/master/src/plugins/nonebot_plugin_status"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/4e/f5c02d2132902d85bd040a983a3d7a3e8b5afa1d0d297f294a70b2f4f6f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

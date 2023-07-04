@@ -15,7 +15,7 @@ DESCRIPTION="Service factory for DVGroup"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/53/c1/fdbd610daa40325fd3b3f1078179f25a80cb9a590c37bb3f20c049cb3f50/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A custom Django field able to use subclasses of Python's internal \
 
 HOMEPAGE="https://github.com/HackSoftware/django-enum-choices"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/2c/c1d3fd4469cdc81775f4d466147df6f4e99bc3fa9be24abec1fe1f156b5e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

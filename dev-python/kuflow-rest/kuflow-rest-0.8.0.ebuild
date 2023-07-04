@@ -15,7 +15,7 @@ DESCRIPTION="Client for KuFlow Rest Api"
 
 HOMEPAGE="https://kuflow.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/6c/712e48e1c989841fce119327c78b8e6f5f4b0ad68320b2f8de583cce2788/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

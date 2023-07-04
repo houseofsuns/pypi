@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of the smoothed Weiszfeld algorithm to compute the g
 
 HOMEPAGE="https://github.com/krishnap25/geom_median"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0e/b9/13101da828812b56df9e8fa12a62f24408dcb416edcd6b3b091c973306b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

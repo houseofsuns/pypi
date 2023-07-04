@@ -15,7 +15,7 @@ DESCRIPTION="Business logic domain models for labware definitions and barcoded l
 
 HOMEPAGE="https://github.com/CuriBio/labware-domain-models"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/ad/b3001159e1ed3f9a55f9dfeacb1f93e55d5b21774a4dca0069787bc2cc7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

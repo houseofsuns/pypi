@@ -15,7 +15,7 @@ DESCRIPTION="Constrained linear regression in scikit-learn style"
 
 HOMEPAGE="https://github.com/avidale/constrained-linear-regression"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/02/3a74ec1afcbcede0cf3d4dc89b47c554a54ea6719024c9b90660f9ac028d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

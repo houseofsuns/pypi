@@ -15,7 +15,7 @@ DESCRIPTION="A Python wrapper around the Robinhood API"
 
 HOMEPAGE="https://github.com/jmfernandes/robin_stocks"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/54/a8593ca8ddc7fd530a8665f00afdd1f7e25dbb2131ab7d4d7f572e451f31/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

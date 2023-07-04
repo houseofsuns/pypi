@@ -15,7 +15,7 @@ DESCRIPTION="TXL plugin for a file browser"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/95/62/2d341913dcf708cc7adc4d7d90afffd15af01a36cb4b4da131bfd5a36d40/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

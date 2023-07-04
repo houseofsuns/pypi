@@ -15,7 +15,7 @@ DESCRIPTION="Extension to integrate your project with Notify.Events service."
 
 HOMEPAGE="https://github.com/notify-events/python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bf/ca/ba034556407d00ff628312b296a1f9fa05d8c10e26a26922e1e8f4049b72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

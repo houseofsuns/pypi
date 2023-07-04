@@ -15,7 +15,7 @@ DESCRIPTION="Read and write Apple Numbers spreadsheets"
 
 HOMEPAGE="https://github.com/masaccio/numbers-parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/1e/8f7336d308a632a39a4e576deafb41d75f8e897518121f87e7031a21de5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

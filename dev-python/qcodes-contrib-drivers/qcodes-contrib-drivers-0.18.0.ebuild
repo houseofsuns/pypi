@@ -15,7 +15,7 @@ DESCRIPTION="User contributed drivers for QCoDeS"
 
 HOMEPAGE="https://github.com/QCoDeS/Qcodes_contrib_drivers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/cb/c20a034c55631a6deb298a72975b92f57ed32b21335f6779c7783c1c7bb4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

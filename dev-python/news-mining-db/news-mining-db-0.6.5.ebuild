@@ -15,7 +15,7 @@ DESCRIPTION="Sheared db models for news-mining project"
 
 HOMEPAGE="https://github.com/Myroslav341/news-mining-db"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/5f/70886a3be92b36306c0b739101b9c913e653909b069c47b4f0efeaf53c76/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

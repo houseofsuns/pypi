@@ -15,7 +15,7 @@ DESCRIPTION="Store/search CIDR prefixes in a trie structure."
 
 HOMEPAGE="https://github.com/Figglewatts/cidr-trie"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0a/b7/33eb7d9288708b0ad941cb5eff0fc86338dc54171c1151e3ceb528b5f85c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

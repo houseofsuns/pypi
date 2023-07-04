@@ -15,7 +15,7 @@ DESCRIPTION="Shared Utility Functions for Indicators"
 
 HOMEPAGE="https://github.com/cmu-delphi/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f6/96/13756498e56b0119500eb825a442820922562d060b0d01494b8b9b2af05c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

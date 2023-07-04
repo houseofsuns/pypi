@@ -15,7 +15,7 @@ DESCRIPTION="A SEAMM plug-in for creating structures from a SMILES string."
 
 HOMEPAGE="https://github.com/molssi-seamm/from_smiles_step"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3e/c0/d281c9ae571a7ab80d4422f8f6ee02b4d717b5909854491e9de2bc5431e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

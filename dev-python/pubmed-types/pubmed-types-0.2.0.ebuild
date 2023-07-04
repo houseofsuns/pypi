@@ -15,7 +15,7 @@ DESCRIPTION="Pubmed XML parsing and typehints."
 
 HOMEPAGE="https://github.com/nicholas-schaub/pubmed-types"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/58/49/412119a8d07431b75c961a4630a48252b03d798cc4b783374ab883783959/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

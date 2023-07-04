@@ -15,7 +15,7 @@ DESCRIPTION="python library to parse the output of dmidecode"
 
 HOMEPAGE="https://github.com/zaibon/py-dmidecode"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/f2/26d3b983b8dedf54c82723bb180ed83df470f5ab9f14e44069ee235b4a33/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

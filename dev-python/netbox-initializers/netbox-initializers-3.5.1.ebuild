@@ -15,7 +15,7 @@ DESCRIPTION="Load initial data into Netbox"
 
 HOMEPAGE="https://github.com/tobiasge/netbox-initializers"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e0/a3/e3eefaa5df3550bf7978a9268225109a6f05cc095655c69cb3876f32d273/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

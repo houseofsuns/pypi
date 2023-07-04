@@ -15,7 +15,7 @@ DESCRIPTION="E-kyc for Industries application"
 
 HOMEPAGE="https://github.com/aihackervn"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/d8/3fa5f9f7be56a5c2b9cf98977cde99cdc3f5bfd7d841c616d3f2864b98d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

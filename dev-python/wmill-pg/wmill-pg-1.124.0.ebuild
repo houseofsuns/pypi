@@ -15,7 +15,7 @@ DESCRIPTION="An extension client for the wmill client library focused on pg"
 
 HOMEPAGE="https://windmill.dev"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b4/79/b884de8fae3b50528fea477971e705e433d2466b505215f16d31e68ecf6c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

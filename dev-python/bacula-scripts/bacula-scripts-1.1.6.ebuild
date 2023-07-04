@@ -15,7 +15,7 @@ DESCRIPTION="Bunch of bacula scripts. Includes also scripts to realize offsite b
 
 HOMEPAGE="https://github.com/eayin2/bacula_scripts"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b6/2e/b46eeaaa854ff987826ed0dc21423d2decc21a761ea6035b0321ccb58890/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

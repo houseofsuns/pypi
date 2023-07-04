@@ -15,7 +15,7 @@ DESCRIPTION="Cloud Optimized GeoTIFF (COGEO) creation plugin for rasterio"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/13/e0/c050dfeb342248d1f137a856eca12955bffe0cd3536133cfd5b78b1a3735/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Contains a set of abstractions to type annotate and validate datafr
 
 HOMEPAGE="https://github.com/getyourguide/TypedPyspark"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/be/aca62ab1834ef96d81261ff868036d1b8d224fc7abd43365235ec5d17d8a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper for KinMSpy that automates most common galaxy fitting tasks
 
 HOMEPAGE="https://github.com/TimothyADavis/KinMS_fitter"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/77/80/2a6d73c7650a72b2e4e2d7c7445e5528aa6b0bc0e8c841bbb8630179f5ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A simple Discord chat exporter for Python Discord bots."
 
 HOMEPAGE="https://github.com/mahtoid/DiscordChatExporterPy"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ce/9a/ff8ea3f139a1bafae6e980a798d370b95fe45fe60f85dd34b12a0cc6de80/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

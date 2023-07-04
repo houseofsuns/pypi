@@ -15,7 +15,7 @@ DESCRIPTION="Dev Env"
 
 HOMEPAGE="https://github.com/simonsdave/dev-env"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/66/dfbf9ab52f361180c53a63d9267df528983288018f9bdf6940bc93724628/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

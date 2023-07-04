@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/lionben89/BGU_cell_imaging_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/c6/b1316fca66be7a8f7fd511d693763818df1a595db8346ace14fc3e558bde/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

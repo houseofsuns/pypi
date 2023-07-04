@@ -15,7 +15,7 @@ DESCRIPTION="Python port of Scala ZIO for pure functional programming"
 
 HOMEPAGE="https://github.com/miiohio/ziopy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a0/6b/ae8a49d046367b29b6374d3db2be4da2971d591a9339276ac40446ae0c06/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

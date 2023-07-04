@@ -15,7 +15,7 @@ DESCRIPTION="Launch Jupyter kernels installed in environments"
 
 HOMEPAGE="https://github.com/Cadair/jupyter_environment_kernels/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/00/7b/1c11452569d4590c178992da05fd4d98fd78e72f35de1c89cd07e406a4d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

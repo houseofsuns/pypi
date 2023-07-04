@@ -15,7 +15,7 @@ DESCRIPTION="A Lakehouse LLM Explorer. Wrapper for spark, databricks and langcha
 
 HOMEPAGE="https://github.com/Occlusion-Solutions/llm_explorer.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/b2/9d29d3a88b6a89b1b75ab0f538ced10c6ea8ae714020929e7501753d7eeb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

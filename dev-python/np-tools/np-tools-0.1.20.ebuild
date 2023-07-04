@@ -15,7 +15,7 @@ DESCRIPTION="General-purpose tools for common tasks encountered in Mindscope Neu
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/82/3ec5a5e2b0779faa64f117efa8c440ba3d6441402d77134503ef685e8b05/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

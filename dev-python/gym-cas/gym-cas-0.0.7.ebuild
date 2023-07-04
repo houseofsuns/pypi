@@ -15,7 +15,7 @@ DESCRIPTION="Tools to aid the use of Python as CAS in danish high schools."
 
 HOMEPAGE="https://jacs-mat.bitbucket.io/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/36/be38a9de8710c0608b7f4c614d43e7504191e24ff3ff5f8bac9acfb2bb82/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

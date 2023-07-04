@@ -15,7 +15,7 @@ DESCRIPTION="Protobuf messages and GRPC API for Hydrosphere Serving platform"
 
 HOMEPAGE="https://github.com/Hydrospheredata/hydro-serving-protos"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f4/3b/b0315c48f586664216cdc4954ef9fecf50e93a64541227e8fa2d45fbe1b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

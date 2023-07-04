@@ -15,7 +15,7 @@ DESCRIPTION="\`target-snowflake\` is a Singer target for Snowflake, built with t
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/21/fa/af9195603eb92b70d6064df38557950dd08a679983b3393eddefe6cc2273/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

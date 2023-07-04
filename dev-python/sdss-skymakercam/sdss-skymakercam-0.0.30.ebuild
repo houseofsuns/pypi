@@ -15,7 +15,7 @@ DESCRIPTION="Skymaker camera with sdss-basecam"
 
 HOMEPAGE="https://github.com/sdss/skymakercam"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2e/5c/d70703ab64a7366c611016aaab9a184b575eb06bdf9aabb7862fc55a8320/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

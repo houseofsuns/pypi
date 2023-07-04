@@ -15,7 +15,7 @@ DESCRIPTION="Download videos and retrieve metadata from Vimeo."
 
 HOMEPAGE="https://github.com/yashrathi-git/vimeo_downloader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2e/56/1b8dcf4120b4af3ac005ceafd073514426a2639bb9ecc20dff6d9c0c87a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Create a complete self contained virtualenv bootstrap file"
 
 HOMEPAGE="https://github.com/jedie/bootstrap_env"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/87/3d/1a52acb46f323bf0be80d5438a2e11190201177ef39fb860e81b93f6e5af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

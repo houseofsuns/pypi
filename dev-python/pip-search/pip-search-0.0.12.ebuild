@@ -15,7 +15,7 @@ DESCRIPTION="A package to search like pip used to, via PyPi"
 
 HOMEPAGE="https://github.com/victorgarric/pip_search"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/85/c153c48647a7a286be694484bd4bab6124cf15267f12b91080e279cd1227/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

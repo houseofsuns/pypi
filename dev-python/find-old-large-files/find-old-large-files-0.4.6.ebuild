@@ -15,7 +15,7 @@ DESCRIPTION="A utility to find and remove large, old files."
 
 HOMEPAGE="http://github.com/PrinceDisant/find_old_large_files"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/41/dc/e372b5a5ae79baa7dce3d36625174638e2970310c42b1ae94c169285fcba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A tutorial package for creating APIs"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/57/79e6c21fe257b8e4eb0bc3aab3ed06ecfb3da95579e6e273d66fa40f4f07/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

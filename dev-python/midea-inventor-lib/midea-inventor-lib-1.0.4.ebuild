@@ -15,7 +15,7 @@ DESCRIPTION="Client-side Python library for EVA II PRO WiFi Smart Dehumidifier a
 
 HOMEPAGE="https://github.com/barban-dev/midea_inventor_dehumidifier"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/aa/ce419514c4e768fb96e63f45ae773b99f7fa4f631649f1d76be300e45ca3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

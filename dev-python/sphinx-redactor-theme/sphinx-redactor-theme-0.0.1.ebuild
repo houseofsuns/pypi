@@ -15,7 +15,7 @@ DESCRIPTION="Sphinx theme for redactor docs."
 
 HOMEPAGE="https://github.com/testthedocs/sphinx_redactor_theme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/fb/4d2a0b74a7c5bcdc561d6d8577f63d3f4531ad23bf0bb058b5eef3b1175d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

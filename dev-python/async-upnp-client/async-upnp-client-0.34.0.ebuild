@@ -15,7 +15,7 @@ DESCRIPTION="Async UPnP Client"
 
 HOMEPAGE="https://github.com/StevenLooman/async_upnp_client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b0/da/75c30479c7ca83f381a335d1e79a03abb046ebd1938ad28f6f2e229a246c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

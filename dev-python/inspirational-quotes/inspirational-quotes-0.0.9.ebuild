@@ -15,7 +15,7 @@ DESCRIPTION="inspirational quotes package"
 
 HOMEPAGE="https://github.com/saip007/inspirational_quotes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c4/c9/337f5eebe481cc95fd284696857ea97596fa0bf6c0116433d2cad2e10f7b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

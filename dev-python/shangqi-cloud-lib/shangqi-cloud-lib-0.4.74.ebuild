@@ -15,7 +15,7 @@ DESCRIPTION="基于tornado封装简易开发框架，可自动化生成API文档
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/fc/2decd17fd31ffc198f0f4f449992b8d6765bd90791f6bccd241349268449/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

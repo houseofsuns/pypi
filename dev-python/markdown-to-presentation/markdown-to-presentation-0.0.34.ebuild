@@ -15,7 +15,7 @@ DESCRIPTION="Takes markdown and turns it into an html slideshow."
 
 HOMEPAGE="https://github.com/anthonywritescode/markdown-to-presentation"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/12/b1/01e47c0370b4bfb02cd52b3251eef449ea80efc98a53d2296f00b5a23f6c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

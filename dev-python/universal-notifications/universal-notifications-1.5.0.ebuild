@@ -15,7 +15,7 @@ DESCRIPTION="High-level framework for notifications"
 
 HOMEPAGE="https://github.com/HealthByRo/universal_notifications"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/4c/34435484a100bc19c7562f8020b4bc89e1ab1b76b4f19661cd0827d2ad8f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

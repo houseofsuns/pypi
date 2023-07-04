@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/textileio/powergate"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5f/6c/2d0948a5a97d8d1915cb66b6932354e451482b4251736cfb5c68c3dd4709/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Python API for accessing and managing an electrical CLAGE continu
 
 HOMEPAGE="https://github.com/klacol/clage_homeserver"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/ec/25ea6f95972af404c8dab9473d4f22a5a1aacf7ae951dca9cd9ce2ab84fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

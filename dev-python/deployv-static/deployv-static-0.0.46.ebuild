@@ -15,7 +15,7 @@ DESCRIPTION="DeployV static files: Dockerfiles, json, configs, templates"
 
 HOMEPAGE="https://github.com/Vauxoo/deployv-static"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/80/6e/c5d83bcd7782f386948d0a57b90e9a9be9494343f1cd57ece7e4986d65e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

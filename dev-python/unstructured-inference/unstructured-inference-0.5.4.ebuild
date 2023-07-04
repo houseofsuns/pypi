@@ -15,7 +15,7 @@ DESCRIPTION="A library for performing inference using trained models."
 
 HOMEPAGE="https://github.com/Unstructured-IO/unstructured-inference"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5f/23/2631fdb5b341793d474ce6e24232523fe73342a81a4b204cc82e1abfb981/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

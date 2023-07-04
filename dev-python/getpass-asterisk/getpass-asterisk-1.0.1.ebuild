@@ -15,7 +15,7 @@ DESCRIPTION="An alternative implementation for getpass that echoes masked passwo
 
 HOMEPAGE="https://github.com/secursive/getpass_asterisk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/bd/e7881421894068b030e91c649a731ed0461d1d0517fd3abd283cf0a4b832/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

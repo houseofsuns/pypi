@@ -15,7 +15,7 @@ DESCRIPTION="Pinecone Datasets lets you easily load datasets into your Pinecone 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c5/96/5a210e3866507f731c910fd9def695a1760a776a9bc2b31d6cacf3036104/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

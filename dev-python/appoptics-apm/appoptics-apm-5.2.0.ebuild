@@ -15,7 +15,7 @@ DESCRIPTION="AppOptics APM libraries, instrumentation, and web middleware compon
 
 HOMEPAGE="https://www.appoptics.com/monitor/python-performance"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/b9/2a/f4aa6aaba4aac4811d63466c99fce4caf0a676393058eb78716070c939da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ARCOR2 FIT Demo"
 
 HOMEPAGE=""
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f4/d3/1245ad320326b139a5ab6f142532b62b8a437f136aac0b836e4e3c6a84e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Open/Close any application by it's name."
 
 HOMEPAGE="https://github.com/athrvvvv/AppOpener/tree/module"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/74/f8df6aca7be72ab6cb57572c6ee0c4762c0732a9978149240a58cd79bdec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

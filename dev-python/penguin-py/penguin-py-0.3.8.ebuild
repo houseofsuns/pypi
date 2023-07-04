@@ -15,7 +15,7 @@ DESCRIPTION="Penguin: a customizable stopwatch decorator"
 
 HOMEPAGE="https://github.com/espitiaandres/penguin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/37/dc/0c4bbd0d13cfb437851bc849478180d330a17f3b6d850068d4b437b99b45/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Common functionality for interacting with dynamodb easier. Most of 
 
 HOMEPAGE="https://github.com/biomapas/B.DynamoDbCommon.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ed/19/099b8d43a9230d4d4d8c980f2ef522c6bd9bc9ac7eb9f691c466601784cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A tool to simplify remote execution"
 
 HOMEPAGE="https://www.run-rx.com"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/f8/6e/280d8497d7a16aabd7afc698244a778c9037525ccec700b368cc80c9e43d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Dependency-free, lightweight docstring parser"
 
 HOMEPAGE="https://github.com/mariownyou/thoth-doc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/32/8708b3c9d1e05f9804a26cb29d1b34e709952279ec77631814e86f25205c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

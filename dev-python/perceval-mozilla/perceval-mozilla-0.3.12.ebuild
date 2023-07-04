@@ -15,7 +15,7 @@ DESCRIPTION="Bundle of Perceval backends for Mozilla ecosystem."
 
 HOMEPAGE="https://chaoss.github.io/grimoirelab/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/b3/77/f93bc063aad14e0ced66b5cdedda39b7e111cbdc07c21964bc0a292ee304/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

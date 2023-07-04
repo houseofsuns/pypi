@@ -15,7 +15,7 @@ DESCRIPTION="aiohttp plugin for buvar"
 
 HOMEPAGE="https://gitlab.com/diefans/buvar"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/a0/8bc2f27a539d13e66ad74e6ef3a6fa7f04d0a52a986055ead14344356d07/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Some Good Function In Django"
 
 HOMEPAGE="https://github.com/rezazeiny/django-autoutils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0a/8e/59e532613e4717c99fadaa183b1e9ea4eebd6f3b55e45304e6866a77173a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

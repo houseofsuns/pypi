@@ -15,7 +15,7 @@ DESCRIPTION="Common Python tools and utilities for Hipages ML work"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/1f/5fca92c331633e4de479852e9f75ac5b05088d7cd3f8d2c13f5077fe7620/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

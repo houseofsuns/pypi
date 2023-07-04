@@ -15,7 +15,7 @@ DESCRIPTION="Python maillib wrapper"
 
 HOMEPAGE="https://github.com/Intergration-Automation-Testing/MailThunder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/b4/cadd1c2635cdecdcde1812672398d7ae0031ba38e5834098500e730d4d3c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A tool to place lines on an image and get back the coordinates for 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/8c/1807c08c8cbbcbff2e4a992d885d5dcb137a60454d0f5310fc9bf02c0e0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

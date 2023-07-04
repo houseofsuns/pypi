@@ -15,7 +15,7 @@ DESCRIPTION="Tryton Account Batch Module"
 
 HOMEPAGE="http://www.m9s.biz/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/dc/23/ddd1fb7a52b65b183fba13b84080c20625b6f268b4ede97b19d6b800ae25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

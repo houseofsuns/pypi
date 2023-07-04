@@ -15,7 +15,7 @@ DESCRIPTION="The collection of utility functions for hj3415"
 
 HOMEPAGE="https://pypi.org/project/util_hj3415/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/05/e06d9bce74455b3d8ffacd03c2fa7862a3903dc438866524d4dd88145071/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

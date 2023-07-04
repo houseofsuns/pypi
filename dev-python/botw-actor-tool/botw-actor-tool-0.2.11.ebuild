@@ -15,7 +15,7 @@ DESCRIPTION="Utility for editing actors in LoZ:BotW"
 
 HOMEPAGE="https://github.com/GingerAvalanche/botw_actor_tool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/67/0a/75a3ad97773901d0bc1b8245d9183c0beaf93a02a4d5f333e0458ff975e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

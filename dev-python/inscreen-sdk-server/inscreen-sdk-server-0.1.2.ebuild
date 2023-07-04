@@ -15,7 +15,7 @@ DESCRIPTION="\"inScreen's Python SDK\""
 
 HOMEPAGE="https://github.com/inscreen/sdk-server/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/91/4a870b54f548ba8bc8dbfa64eb03a201126870dfd0b7ad1213c9592cdac0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

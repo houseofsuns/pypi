@@ -15,7 +15,7 @@ DESCRIPTION="A migration squasher that doesn't care how Humpty Dumpty was put to
 
 HOMEPAGE="https://github.com/kingbuzzman/django-squash"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c6/14/1680a8e8c2bf9326b8fee8820a0a5d004fc6fe72304f447b901dce84689c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

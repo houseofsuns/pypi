@@ -15,7 +15,7 @@ DESCRIPTION="Online watching HTTP server of ROOT on port 9009"
 
 HOMEPAGE=""
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/d6/97/835a781ab8710fb6afa0c1c90e0871cecf7fac734c9ddf66a9bc82a73101/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

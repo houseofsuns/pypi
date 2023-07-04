@@ -15,7 +15,7 @@ DESCRIPTION="Random Math Package"
 
 HOMEPAGE="https://github.com/rmaiaaaa/random-math"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/96/88/796d7d5d15b5c1f22c5951317042c29181d1e6dd7a8bda44426c039b03ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

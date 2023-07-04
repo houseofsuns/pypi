@@ -15,7 +15,7 @@ DESCRIPTION="Tool to provision ACI for ACI Containers Controller  Build info: Gi
 
 HOMEPAGE="http://github.com/noironetworks/acc-provision/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/76/2d/24ae89b90f3f3ded91a7404887ba5e1692281c4dfd5b09eb7630add2070a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

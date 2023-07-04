@@ -15,7 +15,7 @@ DESCRIPTION="Common code for JiTC*DE"
 
 HOMEPAGE="http://github.com/neurophysik/jitcxde_common"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/df/c4e1a1393e7605792dd00bc56ec939cb624bbb7ca41116e02ef9ff611790/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Jaeger Exporters for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/exporter/opentelemetry-exporter-jaeger"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/9a/6295b3ceaf50ff69e47c5e194d2b4559e618f4bea88b4af51621a22bd968/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

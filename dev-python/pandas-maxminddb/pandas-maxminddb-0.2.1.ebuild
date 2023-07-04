@@ -15,7 +15,7 @@ DESCRIPTION="Fast geolocation library for Pandas Dataframes, built on Numpy C-FF
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9b/e4/e5aa5ba45b85509389037ff8f1d65d8006ade29d8e97af647589122c4ff9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

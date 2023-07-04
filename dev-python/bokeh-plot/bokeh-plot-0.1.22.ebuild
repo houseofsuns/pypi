@@ -15,7 +15,7 @@ DESCRIPTION="Matlab-inspired call syntax for bokeh plots"
 
 HOMEPAGE="https://github.com/axil/bokeh-plot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0b/cf/e18a85bca4229430e718eb5783f1ab51e15c41c6cc2af085f38f28d091fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A UW-specific adapter to the python3-saml package."
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d4/87/1970693a679c8e46788926b10c3e0de7357d1469155f2d2e2df3ecac0116/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

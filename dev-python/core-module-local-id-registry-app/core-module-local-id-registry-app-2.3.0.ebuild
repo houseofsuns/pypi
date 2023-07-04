@@ -15,7 +15,7 @@ DESCRIPTION="Local id registry module"
 
 HOMEPAGE="https://github.com/usnistgov/core_module_local_id_registry_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/30/f5/7bf22b5ad4b4a48e8002dd8bacd527dd8a0f774b07a84105ce3202d880a4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

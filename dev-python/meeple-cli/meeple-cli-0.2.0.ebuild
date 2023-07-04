@@ -15,7 +15,7 @@ DESCRIPTION="Local board game collection manager. Powered by BoardGameGeek."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/46/85/1616c39df7ff8a14f8aeb78af4a44527d628677ae48f23f71d0567772230/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

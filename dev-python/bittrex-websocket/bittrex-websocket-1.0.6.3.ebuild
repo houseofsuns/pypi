@@ -15,7 +15,7 @@ DESCRIPTION="The unofficial Python websocket client for the Bittrex Cryptocurren
 
 HOMEPAGE="https://github.com/slazarov/python-bittrex-websocket"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/95/2ba91f61da67a8aff4ed15ef62e4fc5eb816dee71eecdef8487c4c50268c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

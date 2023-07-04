@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for NEAR Rust primitives."
 
 HOMEPAGE="https://github.com/pvolnov/near-primitives"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/7b/b5943f6120fa704177fb33225a0270e1636906f1dbe4eda07861ce90aa75/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

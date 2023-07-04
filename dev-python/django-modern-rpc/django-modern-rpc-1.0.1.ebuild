@@ -15,7 +15,7 @@ DESCRIPTION="Simple and powerful RPC server for your Django project"
 
 HOMEPAGE="https://github.com/alorence/django-modern-rpc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a2/ef/e844c8e08fee825a32e1f5104282220f4ca92552e39403518741ca79c94d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

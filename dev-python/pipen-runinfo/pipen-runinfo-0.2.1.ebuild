@@ -15,7 +15,7 @@ DESCRIPTION="Generate running information for jobs in pipen pipelines"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/da/e17881253bef7b68906152a01bef6a59f98296d34c38a7a4890f305ede07/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

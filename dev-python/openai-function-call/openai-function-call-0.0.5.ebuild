@@ -15,7 +15,7 @@ DESCRIPTION="Helper functions that allow us to improve openai's function_call er
 
 HOMEPAGE="https://github.com/jxnl/openai_function_call"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/3d/a2b5bed1f348110511b35b5732ef5692451fcd37899db6d2b6a32380f0a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

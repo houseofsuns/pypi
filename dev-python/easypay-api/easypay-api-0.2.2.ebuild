@@ -15,7 +15,7 @@ DESCRIPTION="Easypay API Client"
 
 HOMEPAGE="http://easypay-api.hive.pt"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bf/08/a41a93f328b50e3cef6584c679768e4ff5bf36dadee5635f7e005094cd7c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

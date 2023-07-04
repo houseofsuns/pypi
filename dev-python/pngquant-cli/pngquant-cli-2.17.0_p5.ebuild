@@ -15,7 +15,7 @@ DESCRIPTION="Precompiled binaries for pngquant, the lossy PNG compressor based o
 
 HOMEPAGE="https://pngquant.org"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/82/ab/6c8586e6d6117a193f610df943db7db2c60e3f38f3e25b2bee357e064c35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

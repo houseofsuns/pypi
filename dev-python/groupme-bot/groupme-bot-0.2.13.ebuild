@@ -15,7 +15,7 @@ DESCRIPTION="A simple bot builder for GroupMe"
 
 HOMEPAGE="https://github.com/brandenc40/groupme-bot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/52/95ef576906259a9d28cb9d7e1dfd520ffd5a89078d701f3bab8d37fd41d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

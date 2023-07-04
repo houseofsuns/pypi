@@ -15,7 +15,7 @@ DESCRIPTION="The Bridge from Thoughts to Well-Crafted Jupyter Notebook"
 
 HOMEPAGE="https://github.com/talperetz/notebook_copilot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/89/8efcd02cd00a578a7e76094d007eb729b16419d6bd2a8c97f8feb47c87e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

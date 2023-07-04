@@ -15,7 +15,7 @@ DESCRIPTION="EXIF tagger for CameraHub"
 
 HOMEPAGE="https://camerahub.info/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/90/ae/5dd943edea2f3bd80f0099ca1a6b3c36a524a9836230f5c567a41a6ba35d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

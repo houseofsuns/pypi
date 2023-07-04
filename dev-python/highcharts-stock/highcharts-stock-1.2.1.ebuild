@@ -15,7 +15,7 @@ DESCRIPTION="High-end Time Series Data Visualization for the Python Ecosystem"
 
 HOMEPAGE="https://www.highchartspython.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/49/ca/fef53dbf3b1360b7eb5377e8ae6f85ab72aeb50b0dd8c5a306927001a134/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

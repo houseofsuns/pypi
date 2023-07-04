@@ -15,7 +15,7 @@ DESCRIPTION="Creates a customizable toggle"
 
 HOMEPAGE="https://github.com/sqlinsights/streamlit-toggle-switch"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/96/526949206f5d00feb1cba0566f22b703aab00fa08d5a2f6d15f6a71e013a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

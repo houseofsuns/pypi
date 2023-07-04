@@ -15,7 +15,7 @@ DESCRIPTION="Upload large files using resumable.js"
 
 HOMEPAGE="https://github.com/np-8/dash-uploader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/5a/5d047e4970738660df625138e956fbde284bb39037c96e1c88159424fa43/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

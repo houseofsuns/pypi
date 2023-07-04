@@ -15,7 +15,7 @@ DESCRIPTION="Additional solvers and drivers for OpenMDAO framework"
 
 HOMEPAGE="https://github.com/OneraHub/openmdao_extensions"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4e/78/def69ce7c106d4f0d8b44778e1e3aa252a92dfd7924756c4ff4d537de165/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

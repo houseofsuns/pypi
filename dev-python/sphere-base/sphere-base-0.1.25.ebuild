@@ -15,7 +15,7 @@ DESCRIPTION="Library for applications were information should be displayed on th
 
 HOMEPAGE="https://github.com/rboltze/spherebase"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/ef/e8b9a99c18c0ed827ecf632f1191ac372553e9977e001a5f388bd4837d3a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

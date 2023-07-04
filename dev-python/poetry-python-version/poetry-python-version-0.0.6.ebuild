@@ -15,7 +15,7 @@ DESCRIPTION="Poetry plugin to read Python version from .python-version file"
 
 HOMEPAGE="https://github.com/jirikuncar/poetry-python-version"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/38/c6931885405ceeb9e0428b80a9e57903f09b9775cc1ad1a5f59b6fdfd773/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

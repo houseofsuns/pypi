@@ -15,7 +15,7 @@ DESCRIPTION="learningOrchestra python client"
 
 HOMEPAGE="https://github.com/learningOrchestra/pythonClient"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/c2/1dc6dfb8eee5c085c6da3437aede9fb9b6f91fcf48a0356442cf09ace0fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

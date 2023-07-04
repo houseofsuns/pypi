@@ -15,7 +15,7 @@ DESCRIPTION="MModule description"
 
 HOMEPAGE="https://github.com/JoanPAAL/extend_orfs/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/8e/5f9f2c81e568796373f6aafc6f0527fef77b26aef7a722a839f11a71fbb8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

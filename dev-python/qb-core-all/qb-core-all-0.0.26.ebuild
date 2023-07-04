@@ -15,7 +15,7 @@ DESCRIPTION="Basic app to demonstrate simple architectural concepts"
 
 HOMEPAGE="https://github.com/dmkamath/quick_bytes"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/b0/d50227d0a8f35273a56348a2ded67c72c31f583883a54424f27e52d68c41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

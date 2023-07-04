@@ -15,7 +15,7 @@ DESCRIPTION="morph_impl is a python package to help implement MorpheusData platf
 
 HOMEPAGE="https://gitlab.com/jaredlutgen/morpheus-implementation.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c7/34/4a5681df9c355d9f1ceb761dc7f513ecb13498eb5d0d65588eb66363d0a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

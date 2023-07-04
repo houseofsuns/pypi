@@ -15,7 +15,7 @@ DESCRIPTION="The official python SDK for LendSmart API v1"
 
 HOMEPAGE="https://bitbucket.org/lendsmartlabs/lendsmart_py/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/fb/877418ac4fc3654b959c736cc78c25941c4fa5f2d1189f3d6c5d356ea6e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

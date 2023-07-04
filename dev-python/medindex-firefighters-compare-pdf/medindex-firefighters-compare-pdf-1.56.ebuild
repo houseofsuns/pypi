@@ -15,7 +15,7 @@ DESCRIPTION="A package for internal usage in The Medindex ru for pdf image compa
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/ce/f6e90cef5bb46232ae46b07806c538e25ec5c77a22d456102c5553cf53b1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

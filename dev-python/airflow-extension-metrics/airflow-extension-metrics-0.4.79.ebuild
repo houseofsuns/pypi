@@ -15,7 +15,7 @@ DESCRIPTION="Package to expand Airflow for custom metrics."
 
 HOMEPAGE="https://github.com/nytm/airflow_extensions/custom_metrics"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bc/1e/2391f0d88894893ba34f91fc6fd9a1d7f75b7763b22ac257bcbd06d7d2be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

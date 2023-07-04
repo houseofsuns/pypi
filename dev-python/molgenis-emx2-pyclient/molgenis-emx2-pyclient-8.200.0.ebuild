@@ -15,7 +15,7 @@ DESCRIPTION="Python client for the Molgenis EMX2 API"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/c4/f365e85cedcc63f80ea463cbfb8e064d0a5a8263105706891a01f38f7155/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

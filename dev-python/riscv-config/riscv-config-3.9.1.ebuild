@@ -15,7 +15,7 @@ DESCRIPTION="RISC-V Configuration Validator"
 
 HOMEPAGE="https://github.com/riscv/riscv-config"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e1/6c/39d5d244e2bd72c43c490f9dcd8ea7b85babfb92d79c8769e49cd24e11a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

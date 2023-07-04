@@ -15,7 +15,7 @@ DESCRIPTION="Create waterfall charts."
 
 HOMEPAGE="https://github.com/microsoft/waterfall_ax"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/cf/a45c1e3c5a27683c3af8a98cf5c0cf978b0c0887e216e1f34f01638e5862/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

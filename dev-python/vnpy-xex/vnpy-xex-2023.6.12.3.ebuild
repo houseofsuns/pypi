@@ -15,7 +15,7 @@ DESCRIPTION="gateway of xex exchange for vnpy"
 
 HOMEPAGE="https://github.com/monk-after-90s/vnpy_xex"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/a2/2288297ba3e4d5b05f33531477ccdd6453fbb496fe06f4addcc7fd283d43/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

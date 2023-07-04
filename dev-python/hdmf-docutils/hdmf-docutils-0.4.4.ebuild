@@ -15,7 +15,7 @@ DESCRIPTION="Collection of CLIs, scripts and modules useful to generate the NWB 
 
 HOMEPAGE="https://github.com/hdmf-dev/hdmf-docutils"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/87/32/fce67e00b2cef89e63ad7aaa43da18d96dcffc74f53f204f15a466c0d4b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

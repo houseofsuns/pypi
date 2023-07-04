@@ -15,7 +15,7 @@ DESCRIPTION="Python client for interacting with weather data on IPFS."
 
 HOMEPAGE="https://github.com/Arbol-Project/dWeather-Python-Client.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/93/a082a35f1fe4b5dd5039b997aa0cc80dbeddda8e3fc203c4a4d96da3e557/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

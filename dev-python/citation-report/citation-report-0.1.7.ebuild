@@ -15,7 +15,7 @@ DESCRIPTION="Regex formula of Philippine Supreme Court citations in report forma
 
 HOMEPAGE="https://lawsql.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/49/4a/7cd3df3e6132cca3111767fc8e28591aaba99a7c6331048164593f90ad5d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

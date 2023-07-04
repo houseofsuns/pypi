@@ -15,7 +15,7 @@ DESCRIPTION="Run coverage and linting reports on diffs"
 
 HOMEPAGE="https://github.com/Bachmann1234/diff-cover"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ea/89/e15c4662d5815e7b36c84f9c53927e87ef771c17230bdc9c01b3add492d3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

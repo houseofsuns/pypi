@@ -15,7 +15,7 @@ DESCRIPTION="Asynchronous extensions."
 
 HOMEPAGE="https://github.com/nekitdev/async-extensions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/40/a4/295be11bcdaf69ede5c6e5b9e282c14875b9bd9f020fef318da017b9d658/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

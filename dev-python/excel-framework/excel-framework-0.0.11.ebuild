@@ -15,7 +15,7 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/TheUltimateOptimist/excel_framework"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/8c/0a357b8cd711d2e3ae190ef37d115eb8cac33f21d4ed715efd3eca324831/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

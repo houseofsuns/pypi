@@ -15,7 +15,7 @@ DESCRIPTION="To explode the nested json in key value pair to read the dynamodb c
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/3e/68df9c1349d89c17e563f2cbf0724a099f1c539dd47c5e288ae469c3e5d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

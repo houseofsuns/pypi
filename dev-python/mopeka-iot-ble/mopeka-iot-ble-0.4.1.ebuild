@@ -15,7 +15,7 @@ DESCRIPTION="Mopeka IOT BLE Parser"
 
 HOMEPAGE="https://github.com/bluetooth-devices/mopeka-iot-ble"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/e0/2692d075e3c3e277ea801d5d0833bce87b3c760e4c733d3b419559dc4224/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

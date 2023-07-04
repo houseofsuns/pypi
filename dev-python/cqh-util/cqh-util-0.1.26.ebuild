@@ -15,7 +15,7 @@ DESCRIPTION="cqh utils function"
 
 HOMEPAGE="https://github.com/chen19901225/cqh_util"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/55/54d279c1779154671cdd9d13d333f9020f842cf9d01f4bdba11d1883de98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

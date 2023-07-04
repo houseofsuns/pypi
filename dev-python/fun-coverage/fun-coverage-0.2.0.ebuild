@@ -15,7 +15,7 @@ DESCRIPTION="Report function-level code coverage from the statement-level covera
 
 HOMEPAGE="https://gitlab.com/redballoonsecurity/fun-coverage"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/7b/ac57f35158c1060a808b5c120238936508b17d8aec9e2706dc92e997191c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

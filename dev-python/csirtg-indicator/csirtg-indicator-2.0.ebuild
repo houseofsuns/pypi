@@ -15,7 +15,7 @@ DESCRIPTION="CSIRTG Indicator Framework"
 
 HOMEPAGE="https://github.com/csirtgadgets/silver-meme"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c9/a3/8aaa08a8977007cae99af21b17938b4735538ec8ce0891673a055a67bca1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

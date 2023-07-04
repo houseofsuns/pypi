@@ -15,7 +15,7 @@ DESCRIPTION="English SDK for Apache Spark"
 
 HOMEPAGE="https://github.com/databrickslabs/pyspark-ai"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/17/42/6e215367cefeefbe3c17e28dd69e221f12cb80078ca155a53ea6bb7b5ab2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

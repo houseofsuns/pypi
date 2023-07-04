@@ -15,7 +15,7 @@ DESCRIPTION="Sphinx support for execution of python code from code blocks or fil
 
 HOMEPAGE="https://github.com/GrandMoff100/sphinx-execute-code"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/8e/845b3838ab2a1f79a4a0cf10a8de7a031b26aecc0aa7e030daf50fd6acfb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

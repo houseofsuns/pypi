@@ -15,7 +15,7 @@ DESCRIPTION="A flask/quart extension to provide schema validation with pydantic.
 
 HOMEPAGE="https://github.com/huangxiaohen2738/schema-validator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/57/ab/fdaca277af898bb228e9e228a639bc8df2649814b67a0bdff9f223bd1bf0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

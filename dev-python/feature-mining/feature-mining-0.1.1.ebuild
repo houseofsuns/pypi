@@ -15,7 +15,7 @@ DESCRIPTION="Mine implicit features using a generative feature language model."
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/d3/5e36a8c49cf5890f8ad20deb036aef0c7edd669ebd0e0feda7db4ac967a6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

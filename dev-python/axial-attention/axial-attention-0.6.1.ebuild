@@ -15,7 +15,7 @@ DESCRIPTION="Axial Attention"
 
 HOMEPAGE="https://github.com/lucidrains/axial-attention"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/e2/1c0a70efd768606d76735c20660c6e8b790767d7fc87f904223997ad49bb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

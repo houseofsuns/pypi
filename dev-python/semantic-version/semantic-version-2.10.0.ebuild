@@ -15,7 +15,7 @@ DESCRIPTION="A library implementing the 'SemVer' scheme."
 
 HOMEPAGE="https://github.com/rbarrois/python-semanticversion"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7d/31/f2289ce78b9b473d582568c234e104d2a342fd658cc288a7553d83bb8595/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

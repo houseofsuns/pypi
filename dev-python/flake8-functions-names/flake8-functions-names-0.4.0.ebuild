@@ -15,7 +15,7 @@ DESCRIPTION="An extension for flake8 that validates functions names, decompositi
 
 HOMEPAGE="https://github.com/Melevir/flake8-functions-names"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/c1/e5f0e511f1426cd26959813e94254314e5163b6eff78c47b5c09f66641d2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

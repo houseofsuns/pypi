@@ -15,7 +15,7 @@ DESCRIPTION="OFRAK angr Components"
 
 HOMEPAGE="https://ofrak.com/"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/42/32/d308a77a4c2ba2409ec80032e5f67ded8e20598e2f3245e11fae4b09edc5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Draw NetworkX graphs with Altair"
 
 HOMEPAGE="https://github.com/Zsailer/nx_altair"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/6e/3a0777c9135d895d8f23223344b6218e7f291c01ff741461ace94ff25f0f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

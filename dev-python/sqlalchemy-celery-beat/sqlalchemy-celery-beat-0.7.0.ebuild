@@ -15,7 +15,7 @@ DESCRIPTION="A Scheduler Based SQLalchemy For Celery"
 
 HOMEPAGE="https://github.com/farahats9/sqlalchemy-celery-beat"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/d8/064fe87149719f46db980dad39c9d6bc89f0b15d3ae33a53156d4a213724/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

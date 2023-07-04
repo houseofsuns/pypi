@@ -15,7 +15,7 @@ DESCRIPTION="Distributed rate limiters"
 
 HOMEPAGE="https://github.com/otovo/redis-rate-limiters"
 LICENSE="BSD-4"
-SRC_URI="https://files.pythonhosted.org/packages/d0/04/bd561c815600d3c3c46d5baac3db7e7a9765c9f07008300a447bbe861e09/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

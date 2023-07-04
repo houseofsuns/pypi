@@ -15,7 +15,7 @@ DESCRIPTION="NFS-safe file locking with timeouts for POSIX and Windows"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/89/a5/b22002ee8f5bbe787f0fd0e895aa37281d64ff4a48ba2624743a3dc80083/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

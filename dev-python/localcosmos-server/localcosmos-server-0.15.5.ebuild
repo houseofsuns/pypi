@@ -15,7 +15,7 @@ DESCRIPTION="LocalCosmos Private Server. Run your own server for localcosmos.org
 
 HOMEPAGE="https://github.com/SiSol-Systems/localcosmos-server"
 LICENSE="The MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/2c/85/3ba602ea6c9280592c12eff7bc1bb9526b7388a456a27ffdc02e0a923012/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

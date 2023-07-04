@@ -15,7 +15,7 @@ DESCRIPTION="Contains reusable logic to check Oomnitza begin criteria for object
 
 HOMEPAGE="https://bitbucket.org/oomnitza/oomnitza-rule-checker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/cc/e0c8e007ec95956edba16a61185bd10e31969239a3860a67bac12a480701/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="App for managing Eve Online structures with Alliance Auth."
 
 HOMEPAGE="https://gitlab.com/ErikKalkoken/aa-structures"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/39/79/3584e5cf48e404dbfd6190d38801701d7aa471c6790099b68bc797e42c56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="YARP - Yet Another Robot Platform."
 
 HOMEPAGE="https://www.yarp.it/latest/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1d/3d/b5a491c21b122d9cdd65826a1cd5d7ba51580f9f84a6ebfc315beb048d30/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Environment application configuration"
 
 HOMEPAGE="https://github.com/EdgyEdgemond/app-confetti/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/28/4b/a012e4b985fafca4b43fdaea07eb50c31c8761c91daf2b31f5fd7084ac44/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

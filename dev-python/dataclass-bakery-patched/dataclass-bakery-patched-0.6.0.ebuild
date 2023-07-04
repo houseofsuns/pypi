@@ -15,7 +15,7 @@ DESCRIPTION="A fork from dataclass-bakery, with a tweak to consider inherited at
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/93/701da3321b881b71b78cbea37034dff5728e17ed3c70cefb98b1471bab9e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

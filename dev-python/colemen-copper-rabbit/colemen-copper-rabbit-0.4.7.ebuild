@@ -15,7 +15,7 @@ DESCRIPTION="copper_rabbit"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0d/f8/fedc6f8f8111e952e8f3e4be65515c6b35c2efdfcfdfb4d09e5192b8dde9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

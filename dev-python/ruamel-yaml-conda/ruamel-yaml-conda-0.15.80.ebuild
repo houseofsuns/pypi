@@ -15,7 +15,7 @@ DESCRIPTION="ruamel_yaml is a YAML parser/emitter that supports roundtrip preser
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/ef/31bfa8456e01ff13d8d98bdbc80ab2e592c830e52ccaff62c35d5f890357/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

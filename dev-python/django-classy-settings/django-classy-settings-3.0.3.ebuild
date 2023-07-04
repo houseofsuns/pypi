@@ -15,7 +15,7 @@ DESCRIPTION="Simple class-based settings for Django"
 
 HOMEPAGE="https://django-classy-settings.readthedocs.io/en/latest/"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/b4/20/88cdd3cfd5a91c55f4513f8cad45ac57b42ae3ed02bc7fdab8e7434e364c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

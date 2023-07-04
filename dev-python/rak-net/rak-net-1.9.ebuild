@@ -15,7 +15,7 @@ DESCRIPTION="Podrum's RakNet library."
 
 HOMEPAGE="https://github.com/Podrum/rak_net"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ce/0b/f7ad2936902003bb35a2ba0649c4b86a87a25248e3ef70e545ae6235d5e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

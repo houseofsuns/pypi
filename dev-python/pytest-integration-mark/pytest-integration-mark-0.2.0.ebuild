@@ -15,7 +15,7 @@ DESCRIPTION="Automatic integration test marking and excluding plugin for pytest"
 
 HOMEPAGE="https://github.com/Barbora-Data-Science/pytest-integration-mark"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/43/1d/e091051123391bc3b7706c2e2d91f35e448b359fd697967ca93cc2fa99e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

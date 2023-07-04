@@ -15,7 +15,7 @@ DESCRIPTION="Datagen SDK"
 
 HOMEPAGE="https://gitlab.com/datagen1/core/sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/eb/a6338b682e6ef0d3fb6c650e6cb73651735cc2aefd53da5bac9e217c759b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

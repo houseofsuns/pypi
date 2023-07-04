@@ -15,7 +15,7 @@ DESCRIPTION="Set of tools to help transfer applications/services from GOV.UK Paa
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/2f/da6bb55f0e762cb359019abfa9157823731e1f6e92d10e1407ea5e0ae273/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Sketching pad for dash based on react-sketch"
 
 HOMEPAGE="https://github.com/plotly/dash-canvas"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/a8/dec9b3f6f9543b1a6a1352a74c33708b4f5cc58e70fb31f8d2d1a10de774/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

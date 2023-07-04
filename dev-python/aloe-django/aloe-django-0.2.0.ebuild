@@ -15,7 +15,7 @@ DESCRIPTION="Package for testing Django applications with Aloe"
 
 HOMEPAGE="https://github.com/aloetesting/aloe_django"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/d5/e28852bfb63e12478a488e165750cc33fb526dea6b14f8cd1a12f1577078/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

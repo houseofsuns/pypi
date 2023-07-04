@@ -15,7 +15,7 @@ DESCRIPTION="An generic async GeoJSON client library."
 
 HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-generic-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/37/94/7841b8b06d5e042dc93d618afb1f6d850999fd9d419b7fdce110b35cefec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

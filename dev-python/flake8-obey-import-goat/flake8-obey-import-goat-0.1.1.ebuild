@@ -15,7 +15,7 @@ DESCRIPTION="An extension for flake8 that forbids some imports statements in som
 
 HOMEPAGE="https://github.com/Melevir/flake8-obey-import-goat"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/6e/314f890189d95826e62be32120012e1d0fe5709334efe133d0df2461cb38/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

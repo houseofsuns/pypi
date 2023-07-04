@@ -15,7 +15,7 @@ DESCRIPTION="A Slack Library for Paket Mutfak"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/c1/e6a1ac7d5017b66769a3b4e118971506526c7eb6cf77f5361b94650893d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

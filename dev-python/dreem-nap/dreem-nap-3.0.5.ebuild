@@ -15,7 +15,7 @@ DESCRIPTION="New Analysis Pipeline (NAP). Visualize DREEM output."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/d0/626f1891bfefb48a120e82760cdd8e8ca023a064fb695d86a1cffe1f3279/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

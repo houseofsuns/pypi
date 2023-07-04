@@ -15,7 +15,7 @@ DESCRIPTION="Stripe integration for Django-based projects"
 
 HOMEPAGE="https://github.com/HealthByRo/aa-stripe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/24/08/523913faa366fe076790eaeb72fd2cfc202ea2ef8ee91b7524e268ced5b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

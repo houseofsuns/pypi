@@ -15,7 +15,7 @@ DESCRIPTION="An extensible python library to create web crawlers which alert use
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/24/96a5959c3fc1872f635f66fe73da1fc5f04535dfdfc186bbde8e45b29d7c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A client to BioPortal and other OntoPortal instances."
 
 HOMEPAGE="https://github.com/cthoyt/ontoportal-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/62/75d09f625e9a2c595a8bc102c030b1fe1f7b0289d66ffd1a0e3c71300b7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

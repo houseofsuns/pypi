@@ -15,7 +15,7 @@ DESCRIPTION="thrivveCore package"
 
 HOMEPAGE="https://www.wedeliverapp.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/e2/ede0a6f15738e89d34f4ff8e691635d0e07003a1022b6df45b41ecd7fb6c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

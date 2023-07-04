@@ -15,7 +15,7 @@ DESCRIPTION="Get entire corp data from https://kind.krx.co.kr"
 
 HOMEPAGE="https://pypi.org/project/krx-hj3415/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/8b/e597299155be8cb3a729465890b1a380c44b7af110b2cbc408002c9c137a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

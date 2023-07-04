@@ -15,7 +15,7 @@ DESCRIPTION="Simple wrapper of GitHub REST APIs."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/1c/550b8c8538407a799adee9c66efcbcfe496a150fbb8dae681be129fc1a3e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Librería que nos permite acceder a un fichero OWL tanto local como
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/c1/1c5772f9feedef866d8f8a37d136670de32ad095481fd8a78624bc08dda9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

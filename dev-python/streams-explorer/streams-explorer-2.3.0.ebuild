@@ -15,7 +15,7 @@ DESCRIPTION="Explore Data Pipelines in Apache Kafka."
 
 HOMEPAGE="https://github.com/bakdata/streams-explorer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/d9/e1caf8690f9fe25a720eeaca2d0e8af4aebdb0ddd77d23d80f4a7fc383ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

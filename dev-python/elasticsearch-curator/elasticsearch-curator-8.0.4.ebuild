@@ -15,7 +15,7 @@ DESCRIPTION="Tending your Elasticsearch indices and snapshots"
 
 HOMEPAGE="https://github.com/elastic/curator"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1d/df/de0302154e01424df0d2380338bea43ea055bb387bcc63bda4906c65c46a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

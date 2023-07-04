@@ -15,7 +15,7 @@ DESCRIPTION="Diablo 4 Helltide Event Tracker work with nonebot2"
 
 HOMEPAGE="https://github.com/QBkira/nonebot-plugin-helltide"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9b/43/3a3c86a10876be5f32a4fbdd65cbc6c33a1743f8d221bcd3f2dae06f05f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

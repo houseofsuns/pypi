@@ -15,7 +15,7 @@ DESCRIPTION="wrap Tesseract preprocessing, segmentation and recognition"
 
 HOMEPAGE="https://github.com/OCR-D/ocrd_tesserocr"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/74/6c/1a0b8dca1d02b457bf3c92d30d9b4246282493039995c04a689409c21d2c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

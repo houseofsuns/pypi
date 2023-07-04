@@ -15,7 +15,7 @@ DESCRIPTION="Mapping a variable-length sentence to a fixed-length vector using B
 
 HOMEPAGE="https://github.com/hanxiao/bert-as-service"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/59/f17919da592d0be6ec722897bc77e73efa9016500554a12b60aca68bf5f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

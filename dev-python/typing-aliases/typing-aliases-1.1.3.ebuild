@@ -15,7 +15,7 @@ DESCRIPTION="Various type aliases."
 
 HOMEPAGE="https://github.com/nekitdev/typing-aliases"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c6/e5/260675dc4c62a2dd21922b6237f90d6b5d0057513f24a88a2e55296ca995/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

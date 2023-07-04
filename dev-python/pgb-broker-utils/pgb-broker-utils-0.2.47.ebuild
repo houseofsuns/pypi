@@ -15,7 +15,7 @@ DESCRIPTION="Tools used by the Pitt-Google astronomical alert broker."
 
 HOMEPAGE="https://github.com/mwvgroup/Pitt-Google-Broker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/54/0d3f0841453f670f712edeba7806d6d527965f6ef5135ab4dd6957e71190/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Extracting Design Knowledge from Patent Text"
 
 HOMEPAGE=""
 LICENSE="2023 Data-Driven Innovation Lab, Singapore University of Technology and Design"
-SRC_URI="https://files.pythonhosted.org/packages/7c/03/25d2e607af7fa61614daa6ed08359f7862971e018fd4dd87a5ec9fbb6131/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

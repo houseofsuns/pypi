@@ -15,7 +15,7 @@ DESCRIPTION="A Web3.py compatible wrapper library for Eulith clients"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/da/be/9759026ca692d09d999e7596081dab74253b3fd3f536d158472800e45a07/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

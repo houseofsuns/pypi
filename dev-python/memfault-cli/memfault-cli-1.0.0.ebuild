@@ -15,7 +15,7 @@ DESCRIPTION="Memfault CLI tool"
 
 HOMEPAGE="https://docs.memfault.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/94/580f65d18e3086f2c434e3f62cdcffc65b0f9de14015777e5a4857d076cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

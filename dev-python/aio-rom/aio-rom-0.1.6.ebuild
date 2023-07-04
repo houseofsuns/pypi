@@ -15,7 +15,7 @@ DESCRIPTION="asyncio based Redis object mapper"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d2/3e/c8e89d9aa0691e5dc3cb5d7f3f16e0cbf52202a9e05eb6ac096fcfa67b7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

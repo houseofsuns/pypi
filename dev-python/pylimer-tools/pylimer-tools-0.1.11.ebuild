@@ -15,7 +15,7 @@ DESCRIPTION="A collection of utility python functions for handling LAMMPS output
 
 HOMEPAGE="https://github.com/GenieTim/pylimer-tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7b/7c/0c399af0f4c7a1fb6520abaa7e53f2bc9e074276b34d4b28abaff0d31e0c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

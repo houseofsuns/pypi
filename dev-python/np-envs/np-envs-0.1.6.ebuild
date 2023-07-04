@@ -15,7 +15,7 @@ DESCRIPTION="Config and scripts for managing virtual envs for Mindscope Neuropix
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bc/da/3d46cc3538dfc03fb7b61b1f14914d4ca23ed51e081e74ef8ad253d189c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Django middleware for idempotency key support in view and viewset f
 
 HOMEPAGE="https://github.com/yoyowallet/django-idempotency-key"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/fc/01a80a636af6d4adf69e4bb83afeaeb61d3a437e11529a6f254421a56619/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="seven cloudapp frame"
 
 HOMEPAGE="http://gitlab.tdtech.gao7.com/TaoBaoCloud/seven_cloudapp_frame.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c6/3f/7c2cd89fb03346a52ef7af6283e2d83b56ee2f63a164c8ecd1a0be381901/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

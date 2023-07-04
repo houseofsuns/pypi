@@ -15,7 +15,7 @@ DESCRIPTION="Client for several IKEA's APIs"
 
 HOMEPAGE="https://github.com/vrslev/ikea-api-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/b8/4723a7cea364b506ba147e1ed5d53bb60292ce50aa3b17cd4788c36dabf8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

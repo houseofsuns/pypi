@@ -15,7 +15,7 @@ DESCRIPTION="A Python client for the Department for Transport Bus Open Data Serv
 
 HOMEPAGE="https://github.com/ciaranmccormick/python-bods-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a4/30/df33e81ba08e4416c1f98cdae8b53f9381749c3014cdc34561b1c90f1217/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

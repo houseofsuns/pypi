@@ -15,7 +15,7 @@ DESCRIPTION="EKS Token package, an alternate to \"aws eks get-token ...\" CLI"
 
 HOMEPAGE="https://github.com/peak-ai/eks-token"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/c9/f3af685a50acb6084293ca3d52b1ae3e530dcba621c43b79e06b660db3d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python module which allows you to specify timeouts when calling any
 
 HOMEPAGE="https://github.com/kata198/func_timeout"
 LICENSE="LGPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/b3/0d/bf0567477f7281d9a3926c582bfef21bff7498fc0ffd3e9de21811896a0b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

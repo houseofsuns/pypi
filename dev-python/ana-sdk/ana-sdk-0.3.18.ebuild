@@ -15,7 +15,7 @@ DESCRIPTION="SDK que visa fornecer uma interface para interagir com os serviços
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/1a/7ac509457909f6b826125514c9a73433e915f4cefe2fbf1f1dcc6cce75e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

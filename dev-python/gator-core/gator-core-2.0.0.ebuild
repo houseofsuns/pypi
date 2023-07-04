@@ -15,7 +15,7 @@ DESCRIPTION="A dataset aggregation framework for Sqrl Planner."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/fd/0a4ac46254132af1e91290e8e4a942fa7a801421573db095592b6d69bed4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

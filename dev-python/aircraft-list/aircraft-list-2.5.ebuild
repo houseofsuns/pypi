@@ -15,7 +15,7 @@ DESCRIPTION="This package contains a list of the Aircraft models and manufacture
 
 HOMEPAGE="https://github.com/George88000/aircraft_models"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/52/5c/21df40116e90d3b48fc88e037c30941919e2a00725916efee8a72d41cf5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

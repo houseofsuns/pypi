@@ -15,7 +15,7 @@ DESCRIPTION="Create partial models from your pydantic models. Partial models may
 
 HOMEPAGE="https://github.com/team23/pydantic-partial"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/7a/e1e84740afb402244c11cfa730e8f64bb303ccd693d177847aeffed5d405/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

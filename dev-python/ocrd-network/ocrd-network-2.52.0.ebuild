@@ -15,7 +15,7 @@ DESCRIPTION="OCR-D framework - network"
 
 HOMEPAGE="https://github.com/OCR-D/core"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ba/19/86a322292ebde088ccdf5dfbd4669caef8e4ae3047f21dd4161c7f21408b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

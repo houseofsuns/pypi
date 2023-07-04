@@ -15,7 +15,7 @@ DESCRIPTION="A lightweight Python client for hassle-free tinkering with Saxo Ope
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/ac/3e9ed64c28ea5105dde3d67d34f8600987761683cc631faf5ee633b272a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

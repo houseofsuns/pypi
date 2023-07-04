@@ -15,7 +15,7 @@ DESCRIPTION="a python analyse tool for LM Data Recorder data"
 
 HOMEPAGE="https://github.com/zx950618/lm_datahandler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/b2/2af3da689af4ab8627f8ea2a579fd44dfd51c8bd61d773db877b8e98cf0f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

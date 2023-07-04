@@ -15,7 +15,7 @@ DESCRIPTION="Graph Kmer Index"
 
 HOMEPAGE="http://github.com/ivargr/graph_kmer_index"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/bf/93f9d83a92d6735e48dc0d2f5dcf7f4d272280ad3105ed436d97ae155f29/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

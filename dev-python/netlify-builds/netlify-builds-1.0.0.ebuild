@@ -15,7 +15,7 @@ DESCRIPTION="A command line utility to check build usage across multiple Netlify
 
 HOMEPAGE="https://github.com/browniebroke/netlify-builds"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7f/47/205bc826e246625132eaf7d7b213a0af1c03d50c257c01d833b62fa0c9c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

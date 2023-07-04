@@ -15,7 +15,7 @@ DESCRIPTION="Interact with OIP ecosystem."
 
 HOMEPAGE="https://github.com/OpenInnovationProgram/rcd-dev-kit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0b/9f/7f7044e86a3801bfae6adc3e9a01183e316f3381a1955508003a2fce1ddf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

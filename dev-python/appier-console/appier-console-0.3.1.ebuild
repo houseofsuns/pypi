@@ -15,7 +15,7 @@ DESCRIPTION="Appier Console"
 
 HOMEPAGE="http://appier_console.hive.pt"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/24/82/023b26e1babf5ed243a1899e40f623bae775b0c7c1be3529690931738389/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

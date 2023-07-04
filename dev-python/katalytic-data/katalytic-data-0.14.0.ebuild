@@ -15,7 +15,7 @@ DESCRIPTION="This plugin adds utilities for working with data to the katalytic n
 
 HOMEPAGE="https://gitlab.com/katalytic/katalytic-data.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/50/f2aa08dbfff2b2140a6072442c0d1ca608182308abc9eca890ff3d80bee6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

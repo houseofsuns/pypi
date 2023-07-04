@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight framework for dataloading with PyTorch and channeling t
 
 HOMEPAGE="https://github.com/wearepal/conduit"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c5/d7/5f7bf8eaf5f960233377ad82a8b73fc2f0eae5ae7316b6350327d2211302/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

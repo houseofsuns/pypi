@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="License :: OSI Approved :: MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/1d/bd/5d4482702d510f77ed7377b882ba0ed2daa1524ca549bb62490a66286e34/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

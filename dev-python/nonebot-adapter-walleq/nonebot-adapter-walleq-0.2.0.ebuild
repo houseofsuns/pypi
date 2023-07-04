@@ -15,7 +15,7 @@ DESCRIPTION="Just run walle-q in nonebot2"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ff/c6/8312c4e187916879a6625bd23fb319e10d2b91fcf6500c95dbbcee165093/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

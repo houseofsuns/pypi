@@ -15,7 +15,7 @@ DESCRIPTION="Photobooth app written in Python supporting DSLR, picamera2, webcam
 
 HOMEPAGE="https://github.com/mgrl/photobooth-app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/04/6e3b00a056198089a31fc12c08486801c0e1dd621e3f851e7a2da92f4419/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

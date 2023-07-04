@@ -15,7 +15,7 @@ DESCRIPTION="A simple way to get different DEXs abis for block chains."
 
 HOMEPAGE="https://github.com/ackness/many_abis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/b2/71e916c875470ec9125127ed95510f8f0770085d5be1cc2f62925e0d6a45/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

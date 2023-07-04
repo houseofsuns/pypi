@@ -15,7 +15,7 @@ DESCRIPTION="Object mappings, and more, for Redis."
 
 HOMEPAGE="https://github.com/redis/redis-om-python"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d8/ac/51b504acb91f66997b1d8c0a3f37f8a4a7c3e33ed93bd4cba59bab2ff660/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

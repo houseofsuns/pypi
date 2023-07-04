@@ -15,7 +15,7 @@ DESCRIPTION="SNMP Simulator is a tool that acts as multitude of SNMP Agents buil
 
 HOMEPAGE="https://github.com/lextudio/snmpsim"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/ea/eb/65ecdbf1679e66fc994051986f2a70dc94c7da03daa8296d448cc8a09720/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

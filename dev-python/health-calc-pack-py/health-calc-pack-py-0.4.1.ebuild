@@ -15,7 +15,7 @@ DESCRIPTION="Uma API para calcular IMC e macronutrientes"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/44/fb/40bb10ee6e600a348d5550053fb18f29e12bc917395c2e8beb500e298aa3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

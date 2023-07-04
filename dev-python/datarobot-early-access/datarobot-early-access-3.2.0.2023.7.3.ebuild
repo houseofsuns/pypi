@@ -15,7 +15,7 @@ DESCRIPTION="This client library is designed to support the DataRobot API."
 
 HOMEPAGE="https://datarobot.com"
 LICENSE="DataRobot Tool and Utility Agreement"
-SRC_URI="https://files.pythonhosted.org/packages/d6/05/f1e09647c3f2589ad2342e43b19739facb6ec85d606369d6a290dd408da4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

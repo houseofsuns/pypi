@@ -15,7 +15,7 @@ DESCRIPTION="package solves expressions"
 
 HOMEPAGE="https://github.com/lev4ek0/safe_eval"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/9d/b8a27faf8a75f6fa9fbd692749790e89f734774861cf23e5476477f2b506/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

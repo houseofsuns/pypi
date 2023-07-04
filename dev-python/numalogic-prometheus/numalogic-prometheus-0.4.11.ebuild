@@ -15,7 +15,7 @@ DESCRIPTION="ML inference on numaflow using numalogic on Prometheus metrics"
 
 HOMEPAGE="https://github.com/numaproj/numalogic-prometheus"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0a/b9/8f3afaa80ecea41666094de2ea6fe30c2d9fa1bb2b3c603f58a46e73152c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

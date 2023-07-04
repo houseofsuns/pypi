@@ -15,7 +15,7 @@ DESCRIPTION="A utility repo for vision dataset access and management."
 
 HOMEPAGE="https://github.com/microsoft/vision-datasets"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/b0/eeccbe1bae52d4f0a9fbb7c4e27bd9fed195446775fb8efeb976bf2a7388/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

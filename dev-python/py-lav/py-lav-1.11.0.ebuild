@@ -15,7 +15,7 @@ DESCRIPTION=" A Lavalink WebSocket & API wrapper for discord.py"
 
 HOMEPAGE="https://github.com/PyLav/PyLav"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/21/d2/8c5ca4ebdbd8e5962e390637c3f9b99b2682c5641e2ac4381a076247f6ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

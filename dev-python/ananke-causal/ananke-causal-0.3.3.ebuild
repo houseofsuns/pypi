@@ -15,7 +15,7 @@ DESCRIPTION="Ananke, named for the Greek primordial goddess of necessity and cau
 
 HOMEPAGE="https://gitlab.com/causal/ananke"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f3/d0/5eb32ed6eebd312b4f817d7bb6361359ca8066690ebdfc05d998e34888de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

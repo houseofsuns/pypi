@@ -15,7 +15,7 @@ DESCRIPTION="A faster reporter for the python \`jaeger-client\` that reports spa
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b4/fb/fc79b83698308121797745e5bef4233537299d6747c4546c5734bc27c2ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

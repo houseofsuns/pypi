@@ -15,7 +15,7 @@ DESCRIPTION="Takes a folder path and outputs a text outline of the code, support
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/69/6e6c25a121c9e39efe3b4af40df1b5439632c3d66b2f89e68df4bd0e3bfb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Lazy slicing and transpose operations for h5py and zarr"
 
 HOMEPAGE="https://github.com/ben-dichter-consulting/lazy_ops"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/55/13/6458abd9d85aaa5324bae4568daed6d60f6e301008480b0ad911e7859704/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Mix natural language into your Python code"
 
 HOMEPAGE="https://github.com/bsilverthorn/maccarone"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/b5/2a75ce95017f47da9de4a7dbdcb1a9503690ece37437d03b79419a11b6c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

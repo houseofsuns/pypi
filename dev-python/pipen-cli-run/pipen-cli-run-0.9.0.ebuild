@@ -15,7 +15,7 @@ DESCRIPTION="A pipen cli plugin to run a process or a pipeline"
 
 HOMEPAGE="https://github.com/pwwang/pipen-cli-run"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/d3/1e7be3d829bca2bb8a625c3c0af3d9ec3a6f695d7d7c5157629af9d225a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

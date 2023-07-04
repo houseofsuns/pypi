@@ -15,7 +15,7 @@ DESCRIPTION="Easy optical flow visualisation in Python."
 
 HOMEPAGE="https://github.com/tomrunia/OpticalFlow_Visualization"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9d/c3/44970ad85cc217966d43588977a4854d182b51a9bd3cec2f593512f04441/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

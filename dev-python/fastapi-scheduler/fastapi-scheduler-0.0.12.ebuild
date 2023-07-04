@@ -15,7 +15,7 @@ DESCRIPTION="FastAPI-Scheduler is a simple scheduled task management FastAPI ext
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/da/ca3ee65ea25254e6d6308bdbcd34b045046cce551596f8867c7f012cc221/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

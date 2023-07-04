@@ -15,7 +15,7 @@ DESCRIPTION="An extension for GINO to integrate with Starlette"
 
 HOMEPAGE="https://github.com/python-gino/gino-starlette"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/8e/fb/e60d828ec11c1ccd859708d1a32f1cfc1deef0f1a169a3ad3eb9c53b4937/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

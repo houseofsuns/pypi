@@ -15,7 +15,7 @@ DESCRIPTION="Panels and visualizations for GrimoireLab dashboards"
 
 HOMEPAGE="https://chaoss.github.io/grimoirelab/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/43/0d/258c567ff613da5a391e5071e29e4dc2ee7b83489ea802716ebe4ee84886/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

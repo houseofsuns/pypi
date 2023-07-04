@@ -15,7 +15,7 @@ DESCRIPTION="DNN.Cool: Multi-task learning for Deep Neural Networks (DNN)."
 
 HOMEPAGE="https://github.com/hristo-vrigazov/dnn.cool"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b6/d7/7897f57c34e468a48f01fc91fa16ffb786802192b606ce37a03855621e95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Convert CSV files into a SQLite database"
 
 HOMEPAGE="https://github.com/simonw/csvs-to-sqlite"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c1/48/5ddd047d3e76fbee30b2aaece88568e4fa42bef0e6011f61f0b364eeb1b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

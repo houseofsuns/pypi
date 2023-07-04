@@ -15,7 +15,7 @@ DESCRIPTION="JupyterLab client for Tabnine"
 
 HOMEPAGE="https://github.com/codota/tabnine-jupyterlab"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/07/37/34e025190be9e06a390725b9172e231f2eb7c06c11edb402d14840c6b20a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

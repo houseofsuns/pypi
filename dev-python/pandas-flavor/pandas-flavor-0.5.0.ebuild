@@ -15,7 +15,7 @@ DESCRIPTION="The easy way to write your own Pandas flavor."
 
 HOMEPAGE="https://github.com/Zsailer/pandas_flavor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/bc/f746bb85e00a6cfdaae3b03efb18bc33035639e8c8732806d042c345d4ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

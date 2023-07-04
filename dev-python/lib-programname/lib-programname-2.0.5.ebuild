@@ -15,7 +15,7 @@ DESCRIPTION="get reliably the name of the executed script"
 
 HOMEPAGE="https://github.com/bitranox/lib_programname"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/49/c6/5332b5c2cd1f2648e6a0c3ebef3290b630846da2fd2cadfdbd06a6b72d4e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

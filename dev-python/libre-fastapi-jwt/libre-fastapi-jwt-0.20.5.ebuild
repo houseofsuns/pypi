@@ -15,7 +15,7 @@ DESCRIPTION="Yet another fork of fast-jwt-auth"
 
 HOMEPAGE="https://github.com/LibreNZ/libre-fastapi-jwt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ee/2f/2de9947c2adfd3715a1683b19dd908e0b139b91c221e2535a8bcf0eb1944/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating vsphere resources"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/df/43/84b8f1a460e06b4789cb10d0f1c5c92249b57a409fc22a2337a09b69693e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

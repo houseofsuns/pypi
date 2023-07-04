@@ -15,7 +15,7 @@ DESCRIPTION="Simple yet effective 3D LiDAR-Odometry registration pipeline"
 
 HOMEPAGE="https://github.com/PRBonn/kiss-icp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/10/ed0d1cb82c873c13fa57658a25d5444c06588db93abbb96a615f5d1fb158/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

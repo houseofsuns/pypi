@@ -15,7 +15,7 @@ DESCRIPTION="OpenDataDiscovery Action for dbt"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fa/51/abb493a056e35e68f28690e1e793664e5fb032efb8a5f3a698df87f8741f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

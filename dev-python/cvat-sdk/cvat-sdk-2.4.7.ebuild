@@ -15,7 +15,7 @@ DESCRIPTION="CVAT REST API"
 
 HOMEPAGE="https://github.com/cvat-ai/cvat"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/45/9f679cb7205c73060ca77b090f17fb05f01b2a1d91aafb97bdeb3fdb8f04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

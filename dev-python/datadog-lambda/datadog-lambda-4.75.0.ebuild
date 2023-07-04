@@ -15,7 +15,7 @@ DESCRIPTION="The Datadog AWS Lambda Library"
 
 HOMEPAGE="https://github.com/DataDog/datadog-lambda-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ff/c7/21fdf3d66144c8bbc1410896b9d22584949cc610041e6187758c738d377a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

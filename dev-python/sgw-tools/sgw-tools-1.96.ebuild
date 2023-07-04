@@ -15,7 +15,7 @@ DESCRIPTION="Spectral graph wavelet tools"
 
 HOMEPAGE="https://github.com/pulquero/sgw"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/8b/a51a69ad72ff80a0b2f5b6158698f1d2e8579b6dd620da27469cbc9af223/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

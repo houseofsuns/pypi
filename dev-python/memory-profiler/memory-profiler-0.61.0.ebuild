@@ -15,7 +15,7 @@ DESCRIPTION="A module for monitoring memory usage of a python program"
 
 HOMEPAGE="https://github.com/pythonprofilers/memory_profiler"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b2/88/e1907e1ca3488f2d9507ca8b0ae1add7b1cd5d3ca2bc8e5b329382ea2c7b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

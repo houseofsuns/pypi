@@ -15,7 +15,7 @@ DESCRIPTION="Trustero Receptor API Python Proto File Bindings"
 
 HOMEPAGE="https://pypi.org/project/python/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/dd/18/2edb7e6f816d3274af757156cc0bbf097ca7e6ae4af4fc4df2a5b8e54b87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

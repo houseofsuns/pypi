@@ -15,7 +15,7 @@ DESCRIPTION="Handler to mask data and optimized the log volume"
 
 HOMEPAGE="https://github.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/00/38134c32144f0c9282c3e79a41d981e94d502bf0db4c3cfc11aec04f0e14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

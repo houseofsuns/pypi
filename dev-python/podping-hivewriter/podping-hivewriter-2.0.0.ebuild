@@ -15,7 +15,7 @@ DESCRIPTION="This is a tool used to submit RFC 3987-compliant International Reso
 
 HOMEPAGE="http://podping.org/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/28/15/fb2a425e513ba053b8b9546898b5eddb81c46698409ef00d1dc3d6a6436f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

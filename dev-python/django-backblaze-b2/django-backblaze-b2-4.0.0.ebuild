@@ -15,7 +15,7 @@ DESCRIPTION="A Django app to use backblaze b2 as storage."
 
 HOMEPAGE="https://github.com/ehossack/django-backblaze-b2/"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/b4/19/4e45e16b5b1218d82d96f64cff050f1804de54690f1ac957039563ceeee8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

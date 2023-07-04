@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for getting air quality data from Nettigo Air Monito
 
 HOMEPAGE="https://github.com/bieniu/nettigo-air-monitor"
 LICENSE="Apache-2.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/07/71/10d11736380fbe4a3191bd4ba718bb8745e09a6f3baa29196607ac5bdc9a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

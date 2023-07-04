@@ -15,7 +15,7 @@ DESCRIPTION="Python wrappers around D-HYDRO Suite."
 
 HOMEPAGE="https://deltares.github.io/HYDROLIB-core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a5/15/ccfefeb1af11aa6f4b304797e38a2fca91d6af54037788386270b1fecf04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

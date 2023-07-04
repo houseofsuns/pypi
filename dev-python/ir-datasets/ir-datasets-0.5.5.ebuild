@@ -15,7 +15,7 @@ DESCRIPTION="provides a common interface to many IR ad-hoc ranking benchmarks, t
 
 HOMEPAGE="https://github.com/allenai/ir_datasets"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/fa/645c9fcc2f1f6ecae0005e8e8f1808762b559b2a4888185ebc216438a7b1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

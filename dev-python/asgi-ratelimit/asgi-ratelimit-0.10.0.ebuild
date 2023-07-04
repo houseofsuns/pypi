@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/abersheeran/asgi-ratelimit"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cd/cb/95c484467e758ba97120dccbcd039adbd30fd78d55d5bc1a0af2a62dfab3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

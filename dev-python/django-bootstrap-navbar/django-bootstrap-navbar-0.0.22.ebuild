@@ -15,7 +15,7 @@ DESCRIPTION="Django navbar package"
 
 HOMEPAGE="https://gitlab.com/BradleyKirton/django-bootstrap-navbar/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/6c/1c36bc9e60201db1e04f51fa5dcf7563590ed5f59758f012f4363bcb042a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Base library for enochecker libs"
 
 HOMEPAGE="https://github.com/enowars/enochecker_core"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f4/2d/737e5955c50ca73e7082141e4ac199a1fbb207ec0c6e138d5cb34b8f3263/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

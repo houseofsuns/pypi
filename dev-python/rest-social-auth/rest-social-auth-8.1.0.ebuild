@@ -15,7 +15,7 @@ DESCRIPTION="Django rest framework resources for social auth"
 
 HOMEPAGE="https://github.com/st4lk/django-rest-social-auth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d1/f3/f916adf100fcc656183ca44adad518731d406cbe2731fc8546eaafc51045/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

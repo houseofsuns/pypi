@@ -15,7 +15,7 @@ DESCRIPTION="Airflow AWS Shared Secrets Manager"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/07/2ca18f46ff71e3ddf49e1cd03faee25cc2be8c9b8666d4a4e9c299bdb23b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

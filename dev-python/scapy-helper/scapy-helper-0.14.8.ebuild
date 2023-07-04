@@ -15,7 +15,7 @@ DESCRIPTION="Several features that should help you use Scapy"
 
 HOMEPAGE="https://github.com/NexSabre/scapy_helper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/43/95d8348394fea7cffeacae9f221bbf56f71bd8d1df7789fda2114422a591/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Dead easy interface for executing many HTTP requests asynchronously
 
 HOMEPAGE="https://github.com/joshlk/many_requests"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/63/6e65967a4afd327f2b1f7898b52fb3fa985561ceca6b36a15b66c180ba5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

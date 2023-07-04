@@ -15,7 +15,7 @@ DESCRIPTION="Database of snappy manifolds"
 
 HOMEPAGE="https://github.com/3-manifolds/snappy_manifolds"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/ff/c5/028519b6aca67a9f266766ccc517dfc0abb9da3add8c0a2b7cc3782110f5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

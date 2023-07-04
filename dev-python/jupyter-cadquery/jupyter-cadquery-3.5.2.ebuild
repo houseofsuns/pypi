@@ -15,7 +15,7 @@ DESCRIPTION="An extension to render cadquery objects in JupyterLab via pythreejs
 
 HOMEPAGE="https://github.com/bernhard-42/jupyter-cadquery"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/44/adaa5bcf17a968b3bf7f020c16814936f8c9578d2fc8f90e594bea5e6550/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

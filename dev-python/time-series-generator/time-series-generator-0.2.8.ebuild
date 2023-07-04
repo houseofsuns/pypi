@@ -15,7 +15,7 @@ DESCRIPTION="Time Series Generator"
 
 HOMEPAGE="https://time-series-generator.readthedocs.io/en/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/16/3b566b254a0716d78dae06211f7fb61d76d466dbcbc13574e592d1a866ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

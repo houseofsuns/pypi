@@ -15,7 +15,7 @@ DESCRIPTION="A fast minimum-weight perfect matching solver for quantum error cor
 
 HOMEPAGE="https://fusionblossom.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/ee/e7ec31caad6d66563a936d0da85fd0e0b153871425931ecb6f6e02f2b8b1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

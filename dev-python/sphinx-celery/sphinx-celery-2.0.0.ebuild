@@ -15,7 +15,7 @@ DESCRIPTION="Sphinx Celery Theme."
 
 HOMEPAGE="http://github.com/celery/sphinx_celery"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a2/f6/15bb6acb034e1ce113cff31745f6d6d15e55d1512990ac201321b606cb79/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

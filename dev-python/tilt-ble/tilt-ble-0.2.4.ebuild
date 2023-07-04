@@ -15,7 +15,7 @@ DESCRIPTION="Parser for Tilt BLE devices"
 
 HOMEPAGE="https://github.com/Bluetooth-Devices/tilt-ble"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/c1/405347857205c9a9cae5875ebf12ddf380bb3a8a5837ba811ae61546e054/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Renault API"
 
 HOMEPAGE="https://github.com/hacf-fr/renault-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/9e/e8c7f884da2fcbdc263b9c3875c997a29d1f8557637259f62186f2774a9d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

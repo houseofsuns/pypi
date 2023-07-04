@@ -15,7 +15,7 @@ DESCRIPTION="A package representing an API implementation of the vAIP ontology"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/84/c7/2a494fd41d1fb357537b69678130f4e3e080b2c782888673154c94dbbe46/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

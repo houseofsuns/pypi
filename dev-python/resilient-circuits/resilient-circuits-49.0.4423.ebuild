@@ -15,7 +15,7 @@ DESCRIPTION="Framework used to run IBM SOAR Apps and Integrations"
 
 HOMEPAGE="https://github.com/ibmresilient/resilient-python-api/tree/main/resilient-circuits"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3b/0a/114d0e94a83be49ae2ae6eb2e4b40d3ed109e246200782fd822b166b37e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

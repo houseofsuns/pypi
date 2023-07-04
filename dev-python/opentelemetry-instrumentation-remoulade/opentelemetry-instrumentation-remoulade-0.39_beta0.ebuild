@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry Remoulade instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-remoulade"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7d/4e/fd6f74581760a9f6b762056738ed0315fac3b4588cf5e52c3e76e4b9f8c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

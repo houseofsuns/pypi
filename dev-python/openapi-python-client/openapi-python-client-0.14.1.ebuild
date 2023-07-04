@@ -15,7 +15,7 @@ DESCRIPTION="Generate modern Python clients from OpenAPI"
 
 HOMEPAGE="https://github.com/triaxtec/openapi-python-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/67/82b6bc532921e3ba5872277eeeb00d0a0084ae3a079775e09ba38a678c84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

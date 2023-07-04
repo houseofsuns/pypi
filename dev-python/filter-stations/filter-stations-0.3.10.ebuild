@@ -15,7 +15,7 @@ DESCRIPTION="Making it easier to navigate and clean station data"
 
 HOMEPAGE="https://github.com/kaburia/Packaging/tree/main/filter_stations"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9b/86/a1dd8a389bc5a9afd091ac1be9cac057df06cece604a0b1cb1373f81a65d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

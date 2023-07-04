@@ -15,7 +15,7 @@ DESCRIPTION="An enhanced version of dir, which gives more details"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/63/72e0ba5710d6441325e6d082cf93ab67eac9709f846655bcfca74a29405f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

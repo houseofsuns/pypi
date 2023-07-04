@@ -15,7 +15,7 @@ DESCRIPTION="Library of code for working with shapes"
 
 HOMEPAGE="https://github.com/python-poetry/poetry"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/a0/47b200044c41efdafebb4a8cea6193268b3bb84e60a033b001b11259324b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

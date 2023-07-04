@@ -15,7 +15,7 @@ DESCRIPTION="Using this packages we can access dictionary values using dot opera
 
 HOMEPAGE="https://github.com/ismaan1998/access_dict_by_dot/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/b5/7308c57d597cca4b2763a131f116aadb5199311575d4fc2968233d006b34/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

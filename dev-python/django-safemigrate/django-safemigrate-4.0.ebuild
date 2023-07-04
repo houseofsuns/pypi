@@ -15,7 +15,7 @@ DESCRIPTION="Safely run migrations before deployment"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/bd/7dd68ab3700768d4b67cabbb1a1d95f402754bec6ac7db761bb41c63098d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

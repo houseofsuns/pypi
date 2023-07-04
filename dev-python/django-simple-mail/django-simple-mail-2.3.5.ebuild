@@ -15,7 +15,7 @@ DESCRIPTION="A simple and customizable email template built for Django"
 
 HOMEPAGE="https://github.com/charlesthk/django-simple-mail"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/3d/72beccb027692ac912059848661d955aca6b045b9a44a916f62692d58e5e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Use docker-compose (V2) from within Python"
 
 HOMEPAGE="https://github.com/schollm/docker-composer"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2b/76/1724b962aaa39aef82cce5f8803b1a442decf57349328cac70affd029900/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

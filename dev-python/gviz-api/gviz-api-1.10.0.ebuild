@@ -15,7 +15,7 @@ DESCRIPTION="Python API for Google Visualization"
 
 HOMEPAGE="https://github.com/google/google-visualization-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/19/9f/04af080c6cb83b934ec9ce65d047e43ae6fddfed847cac0093fe97296a98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

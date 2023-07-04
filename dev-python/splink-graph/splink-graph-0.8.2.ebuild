@@ -15,7 +15,7 @@ DESCRIPTION="a small set of graph functions to be used from pySpark on top of ne
 
 HOMEPAGE="https://github.com/moj-analytical-services/splink_graph"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2f/5a/487f8d9df419202033dfe576e4815e583a472cd1c1bb38de9c0f609f7061/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

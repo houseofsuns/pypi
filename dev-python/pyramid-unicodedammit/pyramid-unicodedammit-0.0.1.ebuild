@@ -15,7 +15,7 @@ DESCRIPTION="Make a best effort to deal with bizarre query strings"
 
 HOMEPAGE="https://github.com/npilon/pyramid_unicodedammit"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/70/b1/8a7393e8c452271282cb663667b7e564a3966134171bfc1fa82fae1315de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

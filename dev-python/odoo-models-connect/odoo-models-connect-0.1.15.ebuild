@@ -15,7 +15,7 @@ DESCRIPTION="Library to improve interaction and communication with odoo for inte
 
 HOMEPAGE="https://github.com/DeijoseDevelop/odoo_models_connect"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/8e/baf2566669a17ea33ecc00cb7b590bfbef427daede1d367051279cba3160/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

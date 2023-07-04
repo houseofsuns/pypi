@@ -15,7 +15,7 @@ DESCRIPTION="Check if the email address is from a disposable email service      
 
 HOMEPAGE="https://github.com/akhilharihar/is_disposable_email"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/11/5a90ff5f7b9719cf9f3869373c447bbf14236aeb2799323c057d8c6688eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

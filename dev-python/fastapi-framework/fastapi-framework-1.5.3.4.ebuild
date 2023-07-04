@@ -15,7 +15,7 @@ DESCRIPTION="A FastAPI Framework for things like Database, Redis, Logging, JWT A
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/eb/ee40b2f2881e0f676a2a7c30ed36d065db43e608e1cf8614704c4a79bc57/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

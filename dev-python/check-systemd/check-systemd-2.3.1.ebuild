@@ -15,7 +15,7 @@ DESCRIPTION="Nagios / Icinga monitoring plugin to check systemd for failed units
 
 HOMEPAGE="https://github.com/Josef-Friedrich/check_systemd"
 LICENSE="GNU LGPL v2"
-SRC_URI="https://files.pythonhosted.org/packages/3a/3c/05333fa17ab7eeeb169e111d5bf2747e67d2ac429284b30c1b59506d4f56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

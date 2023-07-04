@@ -15,7 +15,7 @@ DESCRIPTION="Python client for Coin Metrics API v4."
 
 HOMEPAGE="https://coinmetrics.github.io/api-client-python/site/index.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/6c/f718593bc4daeae13a53cff1805877f9ff83d8585d00248d3e0ec3418560/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

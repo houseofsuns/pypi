@@ -15,7 +15,7 @@ DESCRIPTION="A python framework for creating a server which handles websockets f
 
 HOMEPAGE="https://github.com/CodeYellowBV/high-templar"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/b0/163d0756ae10a8a672acbb2b122c45a5161ffded99650c9fcb0edbc9f655/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

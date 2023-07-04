@@ -15,7 +15,7 @@ DESCRIPTION="A Python package for interacting with cTrader Open API"
 
 HOMEPAGE="https://github.com/spotware/openApiPy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/54/da/92d7b55d3a8ee1abd012c377acf727075d2af5036129ccf15f28d6b90f22/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

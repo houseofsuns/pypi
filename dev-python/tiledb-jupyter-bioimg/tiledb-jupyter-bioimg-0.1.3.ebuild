@@ -15,7 +15,7 @@ DESCRIPTION="A jupyterlab extension to visualize bioimages in TileDB format"
 
 HOMEPAGE="https://github.com/TileDB-Inc/TileDB-Jupyter-BioImage-Viewer"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c2/f3/db2c95c1118eb7c26185ab5eb8975044628a5fad7ee9df13564806c6cdaa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

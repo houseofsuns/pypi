@@ -15,7 +15,7 @@ DESCRIPTION="Orbit Component to track product versions"
 
 HOMEPAGE="https://gitlab.com/madpenguin/orbit-component-vcheck"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/11/bf/53ff4d368ff247d438f1b48a713b0225158fd3014125bcadd73a01f81026/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

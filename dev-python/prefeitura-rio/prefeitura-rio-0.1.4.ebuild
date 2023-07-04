@@ -15,7 +15,7 @@ DESCRIPTION="Pacote Python que implementa utilidades para nossos projetos!"
 
 HOMEPAGE="https://github.com/prefeitura-rio/prefeitura-rio"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/07/24/78be64911d787bb07eed1f0ba064e5a5e2193a1a5ad88d3972f346f2dae3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

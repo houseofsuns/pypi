@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper to run and monitor absl app."
 
 HOMEPAGE="https://github.com/aaarrti/absl_extra"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/86/27b4418eba79d1afab26f4121ec84ad381940c6b19966afdddeef977a061/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

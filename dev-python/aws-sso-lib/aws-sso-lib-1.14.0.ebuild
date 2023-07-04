@@ -15,7 +15,7 @@ DESCRIPTION="Library to make AWS SSO easier"
 
 HOMEPAGE="https://github.com/benkehoe/aws-sso-util/blob/master/lib/README.md"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3d/df/302bafc5e7182212eec091269c4731bb4469041a1db5e6c3643d089d135d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

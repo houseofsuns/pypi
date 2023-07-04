@@ -15,7 +15,7 @@ DESCRIPTION="Fundamentals public repo"
 
 HOMEPAGE="https://github.com/wilhelm-lab/spectrum_fundamentals"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/7a/5df6c5e50946294935759a65d31d0e2bdfff61e605f43a251db189b23b56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Displaying objects at the maps in the Django views and administrati
 
 HOMEPAGE="https://github.com/vb64/django.admin.geomap"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/87/7f/5752a875d694121497e0b77c08b8ef9d59e502ed2440d845702c9ccf023b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

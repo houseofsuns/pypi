@@ -15,7 +15,7 @@ DESCRIPTION="KuFlow SDK :: Temporal.io activities to interact with KuFlow"
 
 HOMEPAGE="https://kuflow.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/54/1f/ef549820a11178d03f65d7db74e2156125a31fb8a207f987281fec7acbfe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

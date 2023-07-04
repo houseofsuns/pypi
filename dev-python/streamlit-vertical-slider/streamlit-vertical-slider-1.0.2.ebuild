@@ -15,7 +15,7 @@ DESCRIPTION="Creates a customizable vertical slider"
 
 HOMEPAGE="https://github.com/sqlinsights/streamlit-vertical-slider"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/53/90/eabf662f0ae3886a23c3750e5ad8d14abd52a236581ed09921d95394e5c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

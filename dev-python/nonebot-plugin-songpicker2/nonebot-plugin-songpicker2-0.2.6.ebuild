@@ -15,7 +15,7 @@ DESCRIPTION="点播歌曲，支持候选菜单、热评显示，数据源为网�
 
 HOMEPAGE="https://github.com/maxesisn/nonebot_plugin_songpicker2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/77/9c/dacf52fa8e864350cb25e2aee739c907454e1375ffa15f357603ac43a296/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

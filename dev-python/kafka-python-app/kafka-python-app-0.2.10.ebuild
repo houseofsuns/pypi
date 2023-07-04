@@ -15,7 +15,7 @@ DESCRIPTION="kafka application endpoint"
 
 HOMEPAGE="https://github.com/doctor3030/kafka-python-app.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/d6/597b96cf222ad6c14147775da1cf19ebfc3cc5f859af6c6d9b4649fae5a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

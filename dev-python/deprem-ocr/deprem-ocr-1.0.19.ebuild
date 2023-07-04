@@ -15,7 +15,7 @@ DESCRIPTION="Extract texts from images and screenshots"
 
 HOMEPAGE="https://github.com/Goodsea/deprem-ocr"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/47/63/25ab197c63ed113e47da5590e5a00ad2e3879433322b71f8026db03850de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

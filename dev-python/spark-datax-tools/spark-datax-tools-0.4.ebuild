@@ -15,7 +15,7 @@ DESCRIPTION="spark_datax_tools"
 
 HOMEPAGE="https://github.com/jonaqp/spark_datax_tools/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/5c/b963e578c9e2ad071c280fcfcc77e873fe9ffccd487f77ee843621a4fe21/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

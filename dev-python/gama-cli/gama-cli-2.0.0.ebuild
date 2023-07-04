@@ -15,7 +15,7 @@ DESCRIPTION="A CLI for interacting with the GAMA platform"
 
 HOMEPAGE="https://github.com/Greenroom-Robotics/gama"
 LICENSE="Copyright C 2023, Greenroom Robotics"
-SRC_URI="https://files.pythonhosted.org/packages/fb/f9/46587089ba8e5bd18d82b4c097c7fc692eaf775a7f24d1210c3c09d7f241/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

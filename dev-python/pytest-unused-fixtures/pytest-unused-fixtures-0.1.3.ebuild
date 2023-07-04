@@ -15,7 +15,7 @@ DESCRIPTION="A pytest plugin to list unused fixtures after a test run."
 
 HOMEPAGE="https://github.com/mikicz/pytest-unused-fixtures"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/6b/a1403e2e1ede4ffe8fb20cf3be47a42cd97e5c30b092a30873dc9562cdbd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Recommender System Utilities"
 
 HOMEPAGE="https://github.com/microsoft/recommenders"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/a6/19e49672cf9fbfade0021286a87c4daeecf3f4e6051cb4f2ea4b4b3dc8e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

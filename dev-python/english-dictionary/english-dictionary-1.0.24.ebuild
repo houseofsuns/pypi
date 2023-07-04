@@ -15,7 +15,7 @@ DESCRIPTION="In-memory dictionary of 100 thousand English words"
 
 HOMEPAGE="https://github.com/DanDelluomo/dictionary"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/97/46/bea9c3f9cc6e19870eae8cc2836d86b60bb795ee6c6d99d868a950c3fbec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

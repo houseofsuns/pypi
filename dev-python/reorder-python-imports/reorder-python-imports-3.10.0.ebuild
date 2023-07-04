@@ -15,7 +15,7 @@ DESCRIPTION="Tool for reordering python imports"
 
 HOMEPAGE="https://github.com/asottile/reorder-python-imports"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/74/f70eb17c5e8e9bee19879df5069cd749b646a29cdfe374b5b0dafd39151c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

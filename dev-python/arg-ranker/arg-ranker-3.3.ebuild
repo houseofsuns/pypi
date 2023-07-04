@@ -15,7 +15,7 @@ DESCRIPTION="Ranking the risk of antibiotic resistance for genomes/metagenomes"
 
 HOMEPAGE="https://github.com/caozhichongchong/ARG_Ranker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/7d/cc0ec417cd56279c677763dd177b7dbb158014239048dcdb68f78177fb07/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

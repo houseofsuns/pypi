@@ -15,7 +15,7 @@ DESCRIPTION="download music from Deezer with a nice front end"
 
 HOMEPAGE="https://github.com/kmille/deezer-downloader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/31/17/ea960b0e0c04cfadc894a36ab4a787fc6fecabacc22dc473da9e09b80e04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

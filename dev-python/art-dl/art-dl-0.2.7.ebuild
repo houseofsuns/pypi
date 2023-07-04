@@ -15,7 +15,7 @@ DESCRIPTION="Artworks downloader"
 
 HOMEPAGE="https://github.com/istudyatuni/artworks-downloader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/81/91b2efd89d679d6cd0553e461bc2d291b9fd82a77abd577df985277d38c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

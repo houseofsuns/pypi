@@ -15,7 +15,7 @@ DESCRIPTION="Small tool to sync package from different machines"
 
 HOMEPAGE="https://github.com/alex-ber/PythonPackageSyncTool"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/98/5b/58599a53fbef223f9464e6c67416998131290232c9904f3d8eb5e79eb090/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A seedwork for DinoHub service"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/2a/cb6be4518a1391f1d71f514314b58ffe9cd107112c1c3f3171a59c8fb982/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

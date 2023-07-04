@@ -15,7 +15,7 @@ DESCRIPTION="基于nonebot2和vits的本地化角色语音合成插件"
 
 HOMEPAGE="https://github.com/dpm12345/nonebot_plugin_tts_gal"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/50/81/b1785ceef85af4c49e2c3ee265f432828585f38c2395fb3644983f0aa455/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

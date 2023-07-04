@@ -15,7 +15,7 @@ DESCRIPTION="talk-codebase is a powerful tool for querying and analyzing codebas
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ef/20/2b86e7a5790b1ad38ea2a0509c3f2ad8cb545a1c54290595cea7d4124d4c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

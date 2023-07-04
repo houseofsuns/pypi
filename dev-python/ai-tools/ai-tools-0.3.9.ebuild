@@ -15,7 +15,7 @@ DESCRIPTION="basic tools for ai"
 
 HOMEPAGE="http://www.zhaomingming.cn"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/a3/206c2f5003eb09ea3b7311aa60b2215544aefb519b6956ef576ed9ba619a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

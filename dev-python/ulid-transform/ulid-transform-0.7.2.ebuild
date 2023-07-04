@@ -15,7 +15,7 @@ DESCRIPTION="Create and transform ULIDs"
 
 HOMEPAGE="https://github.com/bdraco/ulid-transform"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/44/ea5c2608ba7e56a0a3b142b019e9cb27852b2bf87ac02653b3961627aebf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

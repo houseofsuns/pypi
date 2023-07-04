@@ -15,7 +15,7 @@ DESCRIPTION="DeepPipe efficiently optimizes Machine Learning Pipelines using met
 
 HOMEPAGE="https://github.com/releaunifreiburg/DeepPipe"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6a/20/f6321fc1e811f95ef46573cad1e65659fc89194c4365fca88442f2374457/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

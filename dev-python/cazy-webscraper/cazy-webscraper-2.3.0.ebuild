@@ -15,7 +15,7 @@ DESCRIPTION="A tool to automate retrieving data from CAZy, build a local CAZyme 
 
 HOMEPAGE="https://github.com/HobnobMancer/cazy_webscraper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/07/4fa7ee7cac2dc4e9eee6ad41a3387ccb0b92d263e5fb56b63bbbbc0da690/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

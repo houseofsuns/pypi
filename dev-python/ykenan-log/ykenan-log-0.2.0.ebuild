@@ -15,7 +15,7 @@ DESCRIPTION="Log information: Print the log, export the log file."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/7c/e75aae939099260116c99b4374fdf2a0c4528ffcf6f52ab8ea0c6440916b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

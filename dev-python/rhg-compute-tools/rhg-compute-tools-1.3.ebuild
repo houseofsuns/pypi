@@ -15,7 +15,7 @@ DESCRIPTION="Tools for using compute.rhg.com and compute.impactlab.org"
 
 HOMEPAGE="https://github.com/RhodiumGroup/rhg_compute_tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/12/25/02a5690e062616bded2c7bbfe492c1eeaaf7bb21e6bbf2cb18bc06e021e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tetris (NES) for OpenAI Gym"
 
 HOMEPAGE="https://github.com/Kautenja/gym-tetris"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/3b/54/dcd9f9b64349dbedd43a464b718c819f281d230e0229279e09ee87a41ac3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Dados Espaciais do Brasil"
 
 HOMEPAGE="https://github.com/open-geodata/open-geodata"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/9e/78cd7e49c376a1dfb57bd75b4e2ffccb65f40f433d151ddb6fd5eaf31e61/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

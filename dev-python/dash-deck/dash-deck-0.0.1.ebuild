@@ -15,7 +15,7 @@ DESCRIPTION="A Dash Component wrapping deck.gl"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/e8/1ad72f207c694b72a8f03e6508207c3fcf1a6883bee83f7121cfbd4a08f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

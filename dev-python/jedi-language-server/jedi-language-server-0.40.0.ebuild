@@ -15,7 +15,7 @@ DESCRIPTION="A language server for Jedi!"
 
 HOMEPAGE="https://github.com/pappasam/jedi-language-server"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/8e/837dcde35d5f516677417c0e744fd1c345a1bd66c2a0acb5d51086a61d65/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

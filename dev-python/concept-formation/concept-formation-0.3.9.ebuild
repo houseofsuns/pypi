@@ -15,7 +15,7 @@ DESCRIPTION="A library for doing incremental concept formation using algorithms 
 
 HOMEPAGE="https://pypi.python.org/pypi/concept_formation"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/7c/640329633d00dd0c2c47d5decc66f1b216110d0d8f5a0bef0a906e6a71db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="The official Smile Identity package exposes four classes namely; th
 
 HOMEPAGE="https://github.com/smileidentity/smile-identity-core-python-3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/18/4bc3a8725594f4bd3e9bbf44335737d85e26112860dd67e8fd5a5b7792dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Top-level package for Flycs SDK."
 
 HOMEPAGE="https://github.com/Fourcast/flycs_sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b1/95/7d01b78c110976a9e1205352a06c028e52646eb39d507f0ac70ba8f38888/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

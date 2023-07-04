@@ -15,7 +15,7 @@ DESCRIPTION="Logging Formatter for colorizing logs per thread, process, logger n
 
 HOMEPAGE="https://github.com/alikins/color_bucket_logger"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/03/cec53f0b2ce1a360fc0fd4fd5c8373db46c64bb72bea75f8db249c8bb8da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

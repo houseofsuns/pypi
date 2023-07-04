@@ -15,7 +15,7 @@ DESCRIPTION="Python investment and risk management software maintained by Fortit
 
 HOMEPAGE="https://fortitudo.tech"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/d7/4c/f9c95c084515530529690138a900625034ad6d27028fd9a5ad70a88ac593/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Async support for various databases"
 
 HOMEPAGE="https://github.com/klen/aio-databases"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/8e/2ec7856e2ed504c240fa25b4d2076cad3edbedde40a4ca7bae2414269f8d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

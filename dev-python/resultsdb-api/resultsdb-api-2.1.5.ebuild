@@ -15,7 +15,7 @@ DESCRIPTION="Library for simplifying the communication with ResultsDB"
 
 HOMEPAGE="https://pagure.io/taskotron/resultsdb_api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a8/52/384f482ddc435599fa08a0ac03e5631adbaa41425af05d7311fcb6a543f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

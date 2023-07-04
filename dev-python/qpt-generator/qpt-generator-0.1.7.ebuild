@@ -15,7 +15,7 @@ DESCRIPTION="Question Paper Template Generator"
 
 HOMEPAGE="https://github.com/Niraj-Kamdar/qpt_generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/38/1fbb5213305467fdb47108d9401120feb81c0cec6108eaf945e51d8d3a88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

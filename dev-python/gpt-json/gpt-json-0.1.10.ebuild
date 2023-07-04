@@ -15,7 +15,7 @@ DESCRIPTION="Structured and typehinted GPT responses in Python."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f7/1a/6a7ab1cb1e46499715391f00b7668bcaa734ac76d2d42c37e373cc743f6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

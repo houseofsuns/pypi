@@ -15,7 +15,7 @@ DESCRIPTION="Contrib package of Stable Baselines3, experimental code."
 
 HOMEPAGE="https://github.com/Stable-Baselines-Team/stable-baselines3-contrib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/55/6995b8372b4451b5a67e95996d141edb30b14ee514e951926ee03ceb047f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

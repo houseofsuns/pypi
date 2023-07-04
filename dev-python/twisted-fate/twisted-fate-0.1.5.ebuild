@@ -15,7 +15,7 @@ DESCRIPTION="An api wrapper around the Legends of Runeterra Client API with deck
 
 HOMEPAGE="https://github.com/Snowcola/twisted_fate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/87/bc/261abcb6efffc7c872d54c2c95b2a85614fe7de0498e759028d253418fd8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

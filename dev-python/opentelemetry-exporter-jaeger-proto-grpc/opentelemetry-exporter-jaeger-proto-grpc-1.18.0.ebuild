@@ -15,7 +15,7 @@ DESCRIPTION="Jaeger Protobuf Exporter for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/exporter/opentelemetry-exporter-jaeger-proto-grpc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/a4/89b34eb4122d0a7b05131025baa0c6c02f5678cb4e9e89ff58247438a674/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

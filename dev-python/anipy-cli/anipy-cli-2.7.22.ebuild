@@ -15,7 +15,7 @@ DESCRIPTION="Little tool in python to watch anime from the terminal (the better 
 
 HOMEPAGE="https://github.com/sdaqo/anipy-cli"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/15/61/4869fd58005901e3459e8b7b08ef22572f7addc8ae038aea4d1282245236/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

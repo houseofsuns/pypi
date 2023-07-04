@@ -15,7 +15,7 @@ DESCRIPTION="Finds equal or similar images in a directory containing (many) imag
 
 HOMEPAGE="https://github.com/lene/DuplicateImages"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/40/06/82874c8bd2e2cddc09fb9437f55e0de7db27b855071199a37aa5354f8a50/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

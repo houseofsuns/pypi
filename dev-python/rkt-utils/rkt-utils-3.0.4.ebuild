@@ -15,7 +15,7 @@ DESCRIPTION="RiotKit Tools - Generic utils package"
 
 HOMEPAGE="https://riotkit.org"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/72/a4/641893971e72d72ad01b7493aebf903d109a0058729dafd8dd3338f28181/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

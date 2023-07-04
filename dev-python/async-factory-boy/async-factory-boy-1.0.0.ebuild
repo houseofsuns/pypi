@@ -15,7 +15,7 @@ DESCRIPTION="factory_boy extension with asynchronous ORM support"
 
 HOMEPAGE="https://github.com/kuzxnia/async_factory_boy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f8/7b/45b18e47de6df3b809082b1d62644a31a667c6a635c931eef99bffbb8634/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

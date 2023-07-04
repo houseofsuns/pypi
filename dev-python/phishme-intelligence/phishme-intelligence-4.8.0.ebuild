@@ -15,7 +15,7 @@ DESCRIPTION="PhishMe Intelligence Integration Library"
 
 HOMEPAGE="https://www.threathq.com/documentation/display/MAD"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/ac/98/dc7952c7a0f994e6b54e71fb6468b3045f6fe3c5bdc2006d73d6094fb10b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

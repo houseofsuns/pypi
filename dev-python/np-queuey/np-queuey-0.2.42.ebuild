@@ -15,7 +15,7 @@ DESCRIPTION="Tools for submitting and processing jobs through a message queue fo
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/cf/b1c4aef574a994267e360741e64d3644dffbb6a98fddfbcc03da9d808f30/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Responsible AI Core Flask Wrapper"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ca/57/47ea8cd3bab950ddb1b7b8649595ef7ad65366d8af517f9001121a2baaac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="djangoldp package for working with Stripe payments"
 
 HOMEPAGE="https://git.startinblox.com/djangoldp-packages/djangoldp-stripe"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/90/a7d9132ef74c126348f829279127acfe8c62825ca90441cc9e5a76e08523/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

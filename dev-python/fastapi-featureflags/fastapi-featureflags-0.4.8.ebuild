@@ -15,7 +15,7 @@ DESCRIPTION="Feature Flags for FastAPI"
 
 HOMEPAGE="https://github.com/Pytlicek/ fastapi-featureflags"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/e1/3c214b58c200f7dd1d2e7e495fe5b0579b5cd46416164ae989cee10b9283/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

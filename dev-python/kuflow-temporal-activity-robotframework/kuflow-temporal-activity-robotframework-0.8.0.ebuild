@@ -15,7 +15,7 @@ DESCRIPTION="KuFlow SDK :: Temporal.io activities to execute Robot Frameworks ta
 
 HOMEPAGE="https://kuflow.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/62/8d055de5228b9a90140a8e5aca53547fa27b621cea7733feebbec25859e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

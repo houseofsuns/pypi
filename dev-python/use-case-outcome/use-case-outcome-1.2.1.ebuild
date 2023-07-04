@@ -15,7 +15,7 @@ DESCRIPTION="Package for collecting information about the execution of a use cas
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/ae/a1a98757f70e94e8c7cf083320fe7e7c147d6c3262b61fc412ab13a18872/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

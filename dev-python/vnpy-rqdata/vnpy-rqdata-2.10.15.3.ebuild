@@ -15,7 +15,7 @@ DESCRIPTION="RQData datafeed for VeighNa quant trading framework."
 
 HOMEPAGE="https://www.vnpy.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/95/df84e88833ac91a6221f5ce4fddb8f9d0ded5b791bb7825b902881260463/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

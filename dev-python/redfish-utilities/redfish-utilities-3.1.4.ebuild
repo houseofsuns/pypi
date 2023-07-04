@@ -15,7 +15,7 @@ DESCRIPTION="Redfish Utilities"
 
 HOMEPAGE="https://github.com/DMTF/Redfish-Tacklebox"
 LICENSE="BSD 3-clause New or Revised License"
-SRC_URI="https://files.pythonhosted.org/packages/b1/d5/a05ad96f06a3bbed34eaa5483b71f9e4737c9c795cd83fed68d789ceaa53/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

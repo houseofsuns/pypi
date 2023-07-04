@@ -15,7 +15,7 @@ DESCRIPTION="AutomationEditor for multi automation"
 
 HOMEPAGE="https://github.com/Intergration-Automation-Testing/AutomationEditor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/69/48/ed07bde16d7e13f095de47cceb2b3262404b06ea323ce091c0bf72bafc92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

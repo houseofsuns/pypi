@@ -15,7 +15,7 @@ DESCRIPTION="Deadlocks? Detect where your threads hang in Python with one import
 
 HOMEPAGE="https://github.com/niccokunzmann/hanging_threads"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8f/7b/b4d4c2e759800806e514e7a43b4a59c8fd5416676a88af4ad1daf1c5fda8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

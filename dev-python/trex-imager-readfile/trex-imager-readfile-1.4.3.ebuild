@@ -15,7 +15,7 @@ DESCRIPTION="Read functions for TREx ASI raw image files"
 
 HOMEPAGE="https://github.com/ucalgary-aurora/trex-imager-readfile"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/e4/96c2961798992f82c8d283a2cdc2dc019d951569947fd20d0cc8a23c8c90/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

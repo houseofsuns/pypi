@@ -15,7 +15,7 @@ DESCRIPTION="GUI to visualise graphs in EAGERx."
 
 HOMEPAGE="https://github.com/eager-dev/eagerx_gui"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7f/cf/eecf1076f6d4bd3eb072a9c65f5e2c66aec08757c52177d7130dab1776d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

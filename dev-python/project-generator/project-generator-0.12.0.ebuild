@@ -15,7 +15,7 @@ DESCRIPTION="Project generators for various embedded tools (IDE). IAR, uVision, 
 
 HOMEPAGE="https://github.com/project-generator/project_generator"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f4/47/fd0cac2fff5d6a13952c6d88bb34d41572395841477f48e15db28e33b470/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

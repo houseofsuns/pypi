@@ -15,7 +15,7 @@ DESCRIPTION="A voice assistant prototype"
 
 HOMEPAGE="https://pypi.org/project/mac-voice-assistant/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cd/24/3060f6f35ee178bc2b563d5a07f2cfc9cf4051a81046967f61d619ac31f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

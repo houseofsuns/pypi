@@ -15,7 +15,7 @@ DESCRIPTION="Replicate iterable data in databricks"
 
 HOMEPAGE="https://github.com/neofinancial/iterable_etl"
 LICENSE="UNLICENSED"
-SRC_URI="https://files.pythonhosted.org/packages/53/ec/76b0af68875e3541a24d7ce733b3a64ac85f6caeae20726714fd41733d5b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

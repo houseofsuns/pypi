@@ -15,7 +15,7 @@ DESCRIPTION="\"Automated software testing for switches using pytest\""
 
 HOMEPAGE="https://github.com/aristanetworks/pytest-netdut"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/06/c4/9dccd74c3a0f7a7bc3bc23642a2fb5fa5403cb1ae2a1da475d214781f86f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

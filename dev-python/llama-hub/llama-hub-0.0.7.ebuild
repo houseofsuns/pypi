@@ -15,7 +15,7 @@ DESCRIPTION="A library of community-driven data loaders for LLMs. Use with Llama
 
 HOMEPAGE="https://llamahub.ai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/09/af/a8fe2f3f07e7512ef75598aacfcae1eb8168b0fc0b7abce91ae89eafa7ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

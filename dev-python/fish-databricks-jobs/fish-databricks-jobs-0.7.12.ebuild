@@ -15,7 +15,7 @@ DESCRIPTION="cli and sdk to manage Jobs in Databricks"
 
 HOMEPAGE="https://github.com/firstim/fish-databricks-jobs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/96/fe831f56e36626e2c840150ed03f56e9c63ad060036d2f7034b630662dfc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

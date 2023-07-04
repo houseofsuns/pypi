@@ -15,7 +15,7 @@ DESCRIPTION="Solidity grammar for the Tree-sitter parsing library"
 
 HOMEPAGE="https://github.com/Ackee-Blockchain/tree-sitter-solidity"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/30/9b/e1f72280c74b334cd61da4f45d940b679f4269b46cea4ce9f376b81ea6b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

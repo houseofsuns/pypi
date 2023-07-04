@@ -15,7 +15,7 @@ DESCRIPTION="Provides UI to build custom data validation rules for data in Nauto
 
 HOMEPAGE="https://github.com/nautobot/nautobot-plugin-data-validation-engine"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bc/7f/12c6b462536604687fcb0a881930d454dae31cea15046d822d92afd6dff2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

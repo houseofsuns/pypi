@@ -15,7 +15,7 @@ DESCRIPTION="Python CLI tool that automates working on AWS enviorment without le
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/10/de621362e4eefd8e9c00e58d45fbf939f6b801719852aa7fbed186d80d93/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

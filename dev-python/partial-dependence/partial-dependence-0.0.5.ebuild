@@ -15,7 +15,7 @@ DESCRIPTION="PartialDependence is a library for visualizing input-output relatio
 
 HOMEPAGE="https://github.com/nyuvis/partial_dependence"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/bd/4446c4ffd96814985a58e7c0c420a8b70db64599bf372641a1f9614b1676/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

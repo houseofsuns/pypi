@@ -15,7 +15,7 @@ DESCRIPTION="A CLI tool for automated DTO generation using OpenAPI schema"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0a/cc/36d77bfdc58bcf2c600151fd83adcccd14a764dfd3547618ffd95cc0c683/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

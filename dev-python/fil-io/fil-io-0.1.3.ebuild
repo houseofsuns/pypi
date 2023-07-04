@@ -15,7 +15,7 @@ DESCRIPTION="basic tools for taking care for making the intro to handling handli
 
 HOMEPAGE="https://github.com/janluak/fil_io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/21/76/c83ba4fce90ed6b3b147f668b38dd9b02dd1274317c2b99d0405fc025398/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

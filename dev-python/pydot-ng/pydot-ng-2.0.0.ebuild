@@ -15,7 +15,7 @@ DESCRIPTION="Python interface to Graphviz's Dot"
 
 HOMEPAGE="https://github.com/pydot/pydot-ng"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/7a/d4022ba8b47d8f5e4c58b285e66eb233745f46f07bd7e6569a695fc91e7f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

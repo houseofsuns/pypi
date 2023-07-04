@@ -15,7 +15,7 @@ DESCRIPTION="Checks if an election feed follows best practices"
 
 HOMEPAGE="https://github.com/google/civics_cdf_validator"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/db/6d/869ceed61678dbe3300cbfab5f5fa6a9a43dfd67806f89f0392683486841/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

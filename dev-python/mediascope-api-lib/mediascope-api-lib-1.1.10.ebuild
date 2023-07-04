@@ -15,7 +15,7 @@ DESCRIPTION="Library for work with the Mediascope-Delivery-API"
 
 HOMEPAGE="https://github.com/MEDIASCOPE-JSC/mediascope-api-lib"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5f/08/1ccf7e4253f0f79a1226c9feb54803940b784d3afe03ebc81c28a671aef9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

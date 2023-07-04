@@ -15,7 +15,7 @@ DESCRIPTION="Czech Workdays, Holidays and Shopping Days"
 
 HOMEPAGE="https://github.com/david-gamba/Czech-Working-Days"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/a9/8feff4d0830d435388dad44a3e7e5f0af542ad0339a3eb497c9288227630/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

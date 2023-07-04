@@ -15,7 +15,7 @@ DESCRIPTION="Generate a random MongoDB ObjectId."
 
 HOMEPAGE="https://github.com/mxr/random-object-id"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/0a/a82b6822abd80e0bef2972cf81077993e311af238f1ad3cf144316eb9a4b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

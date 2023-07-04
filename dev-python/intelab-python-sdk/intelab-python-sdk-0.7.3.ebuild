@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/zwwangoo/intelab-python-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ab/f8/69f34e70450bc7085326ccf535e360151735ebf640b2aebad01c0d7e029a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="nbgrader exchange to use with ngshare"
 
 HOMEPAGE="https://github.com/LibreTexts/ngshare_exchange"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/f7/8a86ec0841831bda6d858d183e96b1f9096a0b1af80e264941add3d8b875/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

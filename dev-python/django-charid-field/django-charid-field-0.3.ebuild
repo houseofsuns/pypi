@@ -15,7 +15,7 @@ DESCRIPTION="Provides a char-based, prefixable ID field for your Django models. 
 
 HOMEPAGE="https://github.com/yunojuno/django-charid-field"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/0d/73c0a79ae3ed07059a169041f881473bcc81f0349798727e78e70bb453d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

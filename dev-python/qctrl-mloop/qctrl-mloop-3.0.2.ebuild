@@ -15,7 +15,7 @@ DESCRIPTION="Q-CTRL M-LOOP Adapter"
 
 HOMEPAGE=""
 LICENSE="https://q-ctrl.com/terms"
-SRC_URI="https://files.pythonhosted.org/packages/3f/b8/2ecb4860ecd18b156a275a97d8db352d10f1fe63144e817e837b925b7587/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

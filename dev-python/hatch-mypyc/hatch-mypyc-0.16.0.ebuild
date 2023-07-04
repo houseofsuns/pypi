@@ -15,7 +15,7 @@ DESCRIPTION="Hatch build hook plugin for Mypyc"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/68/ba/a49750d3f38dbb61d42c5ac8aa322112bc28e38bf149704172d13ad86c52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

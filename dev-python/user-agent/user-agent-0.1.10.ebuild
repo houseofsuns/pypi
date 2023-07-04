@@ -15,7 +15,7 @@ DESCRIPTION="User-Agent generator"
 
 HOMEPAGE="https://github.com/lorien/user_agent"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b5/db/559a95b7cc146b269a0cc4cb7a53471ddd270ce9b29f23a5ed5e118acd4e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

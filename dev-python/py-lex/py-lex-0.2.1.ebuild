@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/dropofwill/py-lex"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0f/bf/2bf00e9ed459c384ead67bc55ad0144df9e135fdefc2b6e2db2c22ccc244/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

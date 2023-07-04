@@ -15,7 +15,7 @@ DESCRIPTION="A JupyterLab extension."
 
 HOMEPAGE="https://github.com/MAAP-Project/jupyter-server-extension"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d5/84/b1a5ce6cbd94fb75fb800e4609050a4d874e1ecc620269893dda5ba6f06b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

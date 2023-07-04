@@ -15,7 +15,7 @@ DESCRIPTION="Python implementations of many OpenEO processes, dask-friendly by d
 
 HOMEPAGE="https://github.com/Open-EO/openeo-processes-dask"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6d/42/409084405f840f0e41ba17f301af38fd93d82ca5344f2bb77a4a7aa00909/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

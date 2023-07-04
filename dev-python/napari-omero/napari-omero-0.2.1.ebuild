@@ -15,7 +15,7 @@ DESCRIPTION="napari/OMERO interoperability"
 
 HOMEPAGE="https://github.com/tlambert03/napari-omero"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/3f/f7/3130e76316193a0191ccc3b07be4224d637a9673be02f8938fe6e3e7568f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python package for generating GitHub-flavored markdown"
 
 HOMEPAGE="https://github.com/cmccandless/markdown-generator"
 LICENSE="Copyright c 2017, Corey McCandless"
-SRC_URI="https://files.pythonhosted.org/packages/2a/75/5c69aa9a674f619f3484f553f71ee6801a1f598e9e730b1958d36c47142c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

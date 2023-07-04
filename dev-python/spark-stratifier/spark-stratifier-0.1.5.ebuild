@@ -15,7 +15,7 @@ DESCRIPTION="Stratified Cross Validator for Spark"
 
 HOMEPAGE="https://github.com/interviewstreet/spark-stratifier"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/ea/bfd4d747c0bb6006e807a7c0b72a2547d6d4129d1f016fdc6d8b0c882c9e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="extract data from api and transform it into dataframe"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/de/95/11f852d859e1887bcd9e1dc1034abed3cd2d137ee95dbd6552d8bc4d9241/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

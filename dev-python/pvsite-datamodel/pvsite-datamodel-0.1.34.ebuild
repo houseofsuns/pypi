@@ -15,7 +15,7 @@ DESCRIPTION="SDK for interacting with the PVSite database"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cf/41/7ceac499cb7e7f5fb6caedf11f48999689ee8ffc146664c120fa4b6a6db5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

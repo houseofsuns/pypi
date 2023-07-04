@@ -15,7 +15,7 @@ DESCRIPTION="Internal package. Use this at your own risk, support not guaranteed
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c5/70/f13480aa9287204692f57a2cb557d90a542a2dd4ddcdc1d75e02a3dbea45/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

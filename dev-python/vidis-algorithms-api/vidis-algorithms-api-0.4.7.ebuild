@@ -15,7 +15,7 @@ DESCRIPTION="![Image size](https://badgen.net/badge/docker/size/banayaki/vidis-a
 
 HOMEPAGE="https://github.com/Banayaki"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/32/05/9aabdf0ce9c29de14102a935816fa25ec77f462698a53eec20ee148804ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python binding for libcgroup"
 
 HOMEPAGE="https://github.com/isac322/python-libcgroup_bind"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/18/f3/2dba4f4e3da019d8e9829f08ad825c7bc5edc738684e687c00436e2c9f18/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

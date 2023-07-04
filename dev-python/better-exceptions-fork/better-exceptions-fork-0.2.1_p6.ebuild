@@ -15,7 +15,7 @@ DESCRIPTION="Pretty and helpful exceptions, automatically"
 
 HOMEPAGE="https://github.com/delgan/better-exceptions"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/55/7b/eaa2e2876ea80169adfb7304339b4d735c1d445efc5402da39cd918a6d45/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ultra simple command line tool for docker-scaling batch processing"
 
 HOMEPAGE="https://github.com/jermwatt/quick_batch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c1/50/07b96a46278dea5d7c014e44325091525e90ba6916a76b62d3fbf61e2ba9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

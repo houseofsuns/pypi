@@ -15,7 +15,7 @@ DESCRIPTION="A library that implements optionally monotonic lattice based models
 
 HOMEPAGE="https://github.com/tensorflow/lattice"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/06/e3/0a2bc45a31fb8ecff1de4a1db8b5e1805d9c597a255ec2c03553a29a2e18/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

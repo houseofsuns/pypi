@@ -15,7 +15,7 @@ DESCRIPTION="A collection of various pandas & scikit-learn compatible transforme
 
 HOMEPAGE="https://chrislemke.github.io/sk-transformers/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/77/b1ed90d427998b85b610370c1b787fdafb82cf7f91adf0d954928fb73043/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

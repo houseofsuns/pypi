@@ -15,7 +15,7 @@ DESCRIPTION="Base for pygismeteo and aiopygismeteo"
 
 HOMEPAGE="https://github.com/monosans/pygismeteo-base"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/d8/d3df7b11b012de2ea5a2f3e8bd716cc91db68b3aa3876b72d2f9c5b13882/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

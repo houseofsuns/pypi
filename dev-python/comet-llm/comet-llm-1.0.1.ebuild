@@ -15,7 +15,7 @@ DESCRIPTION="Comet logger for LLM"
 
 HOMEPAGE="https://www.comet.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/09/e7/3d67f31de03d87e06f8296a9b892a3721f9fa2d8cefc1863f235f0ef2ee0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

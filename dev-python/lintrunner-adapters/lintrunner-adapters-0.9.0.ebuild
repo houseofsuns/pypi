@@ -15,7 +15,7 @@ DESCRIPTION="Adapters and tools for lintrunner"
 
 HOMEPAGE="https://github.com/justinchuby/lintrunner-adapters"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bc/f5/581c1eacc284f89c233cabb5f1e8e0a8bffa6cde6ba3bb7461523f2e57af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

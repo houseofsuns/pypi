@@ -15,7 +15,7 @@ DESCRIPTION="List of pre-commit hooks meant to format your source code."
 
 HOMEPAGE="https://github.com/macisamuele/language-formatters-pre-commit-hooks"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/24/48/726065ad5c22e0e884411d223131a9a76faacf3d8b2311a1a732dc88aab3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

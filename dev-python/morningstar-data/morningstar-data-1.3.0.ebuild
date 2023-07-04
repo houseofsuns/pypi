@@ -15,7 +15,7 @@ DESCRIPTION="Morningstar Data"
 
 HOMEPAGE="https://www.morningstar.com/products/md-python-package"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cd/dd/b90be5d468e9808a69cdea7fee16cd99a5da5eb1e29f5479954b0de93754/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

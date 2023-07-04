@@ -15,7 +15,7 @@ DESCRIPTION="A package for working with Gaussian input and output files"
 
 HOMEPAGE="https://gitlab.com/chilton-group/gaussian_suite"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8f/90/adfcfed25d4e3476c5bbc51479eb967a67fc7ccef440587400a5e2a56902/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

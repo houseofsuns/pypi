@@ -15,7 +15,7 @@ DESCRIPTION="DataLad extension package for working with containerized environmen
 
 HOMEPAGE="https://github.com/datalad/datalad-container"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/2a/2100036576154281057fb6e68f925a09b169456b030f4b6d963a94e3fbc4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

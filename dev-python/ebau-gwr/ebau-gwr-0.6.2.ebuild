@@ -15,7 +15,7 @@ DESCRIPTION="GWR synchronisation for ebau projects"
 
 HOMEPAGE="https://github.com/inosca/ebau-gwr"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/fc/e4/549fce911afdd8a3d27c5ca816fc0a836f76f5f343e5f947ff69c67857eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

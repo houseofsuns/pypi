@@ -15,7 +15,7 @@ DESCRIPTION="A framework for multi-agent modeling using large language models"
 
 HOMEPAGE="https://github.com/DanielBalsam/surv_ai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/f1/a0ab7c7feb5de5c880dabd439c53a1665360c333aa62ae923fc4c6bd62dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

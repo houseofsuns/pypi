@@ -15,7 +15,7 @@ DESCRIPTION="Detect backward incompatible migrations for your django project"
 
 HOMEPAGE="https://github.com/cedar-team/lint_django_migrations"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/55/04/bc6b1426a28239eb4ea4dc0330f00ada46a9fb0f5af15f509dbcc9227900/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

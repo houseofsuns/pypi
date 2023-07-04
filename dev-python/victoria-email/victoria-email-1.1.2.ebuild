@@ -15,7 +15,7 @@ DESCRIPTION="Victoria plugin for Glasswall Rebuild for Email"
 
 HOMEPAGE="https://github.com/glasswall-sre/victoria_email"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/b4/befdf4e6b0060fee1fd1e88f4ab31dc897623d0668cc1dacbf94e536ffcf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

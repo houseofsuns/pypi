@@ -15,7 +15,7 @@ DESCRIPTION="Datasources for mindsdb"
 
 HOMEPAGE="https://github.com/mindsdb/datasources"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/36/9a/c44f8943b9a8b3e553cecdff76abd79fc6ddcece840f27a40043f16e26b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

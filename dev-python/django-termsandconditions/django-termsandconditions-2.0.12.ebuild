@@ -15,7 +15,7 @@ DESCRIPTION="Django app that enables users to accept terms and conditions of a s
 
 HOMEPAGE="https://github.com/cyface/django-termsandconditions"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/94/86/0c5cbef989fdb44c169ee681685f350dce102575ae35ab4c1215c29f5bca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

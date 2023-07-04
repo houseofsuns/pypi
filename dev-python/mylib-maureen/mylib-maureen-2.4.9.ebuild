@@ -15,7 +15,7 @@ DESCRIPTION="my utils for cross-project use"
 
 HOMEPAGE="https://github.com/mohsu/mylib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/6e/7da9911b58afd0d47a7108d09baeab1afbef378e3d4c3ec675c17709a1ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

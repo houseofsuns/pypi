@@ -15,7 +15,7 @@ DESCRIPTION="An airflow job operator that executes a task as a Kubernetes job on
 
 HOMEPAGE="https://github.com/LamaAni/KubernetesJobOperator"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/5f/46/facf71dea1bcbd4b4c0b20d707cd7d4cb944621027c746220714788fb3e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

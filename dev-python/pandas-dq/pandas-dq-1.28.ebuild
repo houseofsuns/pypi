@@ -15,7 +15,7 @@ DESCRIPTION="Clean your data using a scikit-learn transformer in a single line o
 
 HOMEPAGE="https://github.com/AutoViML/pandas_dq"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/82/4a/0a0f55629612affe25e600d6c05ef007fc0570c0c8f1914a3845c63dead4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

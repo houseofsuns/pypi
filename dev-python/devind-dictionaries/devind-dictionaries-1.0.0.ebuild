@@ -15,7 +15,7 @@ DESCRIPTION="Common dictionaries for devind applications"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/35/6f3867fc3a5f6ee991d5ea0ae1f42edfecdfaa3fb533ea09de2e071439dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

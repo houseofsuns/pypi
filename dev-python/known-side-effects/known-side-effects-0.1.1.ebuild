@@ -15,7 +15,7 @@ DESCRIPTION="A test utility library to help write explict side effects for mocke
 
 HOMEPAGE="https://github.com/P4rk/known_side_effects"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/8e/c48be94c414062bbaa350533104544c4ea109becaa9d2d8da44727ca63e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

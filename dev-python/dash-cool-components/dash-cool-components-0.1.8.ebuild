@@ -15,7 +15,7 @@ DESCRIPTION="Cool React components, wrapped for Plotly Dash"
 
 HOMEPAGE="https://github.com/Tauffer-Consulting/dash-cool-components"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/40/d8a8bccd5abeb325142d7ebf1f40d04a2601f6deb3ddd0df4d852cb8fdf8/${REALNAME//-/_}-${REALVERSION}-1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-1.tar.gz"
 SOURCEFILE="_}-${REALVERSION}-1.tar.gz"
 RESTRICT="test"
 

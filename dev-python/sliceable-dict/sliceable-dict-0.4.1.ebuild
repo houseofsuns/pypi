@@ -15,7 +15,7 @@ DESCRIPTION="Dictionary that support slicing and multiple key selection"
 
 HOMEPAGE="https://github.com/palmb/slice-dict"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/e7/79d3fedda50d9dc94f46d08d9f8b03d3d5f50f493e61c4aa85be4039f572/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

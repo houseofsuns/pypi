@@ -15,7 +15,7 @@ DESCRIPTION="Wraps the eBay REST APIs."
 
 HOMEPAGE="https://github.com/matecsaj/ebay_rest"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/77/ad862909dc4c617d3588096d9f17e397b5fe57784c4bed9bfff645e81f44/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

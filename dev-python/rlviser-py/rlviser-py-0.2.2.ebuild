@@ -15,7 +15,7 @@ DESCRIPTION="Python implementation that manages a UDP connection to RLViser"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f0/55/9e153076d74ca037ad77db4ad47606bc32699b347be55eea6490e0692359/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

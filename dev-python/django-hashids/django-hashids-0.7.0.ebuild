@@ -15,7 +15,7 @@ DESCRIPTION="Non-intrusive hashids library for Django"
 
 HOMEPAGE="https://github.com/ericls/django-hashids"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/90/f6/9e77ca7feab48bb5eafab8684ba7905b8f11a3217f033b23b4c8c2bdec46/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Megatron Core - a library for efficient and scalable training of tr
 
 HOMEPAGE="https://github.com/NVIDIA/Megatron-LM/megatron/core"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/6f/c3/af37d046eedb9b626fc5d1eb555ad56568f4d43362284a733da082da32c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

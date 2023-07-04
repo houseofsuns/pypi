@@ -15,7 +15,7 @@ DESCRIPTION="Contxt SDK from ndustrial"
 
 HOMEPAGE="https://github.com/ndustrialio/contxt-sdk-python"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/c7/ca/df096a39a1895a201c67b84f4ce3dcb49672c9ea5ed0badcb8c5915c914a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

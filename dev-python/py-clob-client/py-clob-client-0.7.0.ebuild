@@ -15,7 +15,7 @@ DESCRIPTION="Python client for the Polymarket CLOB"
 
 HOMEPAGE="https://github.com/Polymarket/py-clob-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fe/44/ddfd515ab9a2f4174a6200f1e815b136501aa91f295ba35a2b7d8b8a64d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

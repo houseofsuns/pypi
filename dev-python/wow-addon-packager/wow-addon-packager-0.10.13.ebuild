@@ -15,7 +15,7 @@ DESCRIPTION="A developer-friendly World of Warcraft addon packager"
 
 HOMEPAGE="https://github.com/t-mart/wap"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/f7/c1a81d057f50fab858c6de566fefd652207cb868857d301ca6b4d1a2ab84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

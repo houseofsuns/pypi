@@ -15,7 +15,7 @@ DESCRIPTION="some platform related functions, which also work correctly on wine"
 
 HOMEPAGE="https://github.com/bitranox/lib_platform"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/cd/0e436bd9c4100a654267e4538a4416390b6129811cc7f86aad642ba4db82/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

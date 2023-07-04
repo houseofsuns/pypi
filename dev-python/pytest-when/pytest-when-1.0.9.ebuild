@@ -15,7 +15,7 @@ DESCRIPTION="Utility which makes mocking more readable and controllable"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6a/12/9c78e1deaf5d512707946744da5dd14e6a2b75e75bccef28d03a9eb83ee9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

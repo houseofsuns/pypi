@@ -15,7 +15,7 @@ DESCRIPTION="A OpenAI Gym Env for continuous actions"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/f9/4e01859a5d158f2bd94de2dcedecf801aa7095d8af2494179fca39fc5ee1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

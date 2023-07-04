@@ -15,7 +15,7 @@ DESCRIPTION="Truncate datetime objects to a set level of precision"
 
 HOMEPAGE="https://github.com/mediapop/datetime_truncate"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5a/72/e35570ed6670394c37df67626bfd185c2a9a74253a5bba6b336255b2e6e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

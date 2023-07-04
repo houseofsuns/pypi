@@ -15,7 +15,7 @@ DESCRIPTION="A client wrapper for blue"
 
 HOMEPAGE="https://gitlab.ecmind.ch/open/ecmind_blue_client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0c/0c/439b752729fe9bc9ac5c55251879633add667470b98b8fced4585faf513b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

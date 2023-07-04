@@ -15,7 +15,7 @@ DESCRIPTION="Token throttler is an extendable rate-limiting library somewhat bas
 
 HOMEPAGE="https://gitlab.com/vojko.pribudic/token-throttler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/64/2e/14ba25cfe3a4836114b3a01a8ea3c3a0bbd39a04b66364ef620eca6e061b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

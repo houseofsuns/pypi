@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for DPMMSubClusters julia package"
 
 HOMEPAGE="https://github.com/dinarior/dpmmpython_trax"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/95/55/34b8dd6097c6c466d6b71f07a556bcbe997bb49a74b5e38424b211c4ba3d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

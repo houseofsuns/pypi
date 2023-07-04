@@ -15,7 +15,7 @@ DESCRIPTION="Transformer-based models implemented in tensorflow 2.x(Keras)"
 
 HOMEPAGE="https://github.com/luozhouyang/transformers-keras"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0a/67/272ae2a1a97ef08b8a20b341a6d12ea81892208fc80665da59e3d177bcc6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

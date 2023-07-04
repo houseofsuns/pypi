@@ -15,7 +15,7 @@ DESCRIPTION="A fork of Red-Lavalink for useless_bot"
 
 HOMEPAGE="https://github.com/jotonedev/useless_lavalink"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/78/54/41f4431f98fbb31802716136d1a5d3663f107ba811b29c358edb335e1e03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

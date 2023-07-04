@@ -15,7 +15,7 @@ DESCRIPTION="Library for working with video files and interacting with the wildf
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/62/e1/9e6a3f3b7cbf13c328142dbc185591d915f255f8a7f2e0876304ab103e23/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

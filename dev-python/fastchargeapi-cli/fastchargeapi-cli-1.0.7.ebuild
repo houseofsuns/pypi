@@ -15,7 +15,7 @@ DESCRIPTION="Official CLI for managing apps and account on FastchargeAPI.com"
 
 HOMEPAGE="https://fastchargeapi.com"
 LICENSE="GNU v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/44/8d/f00c357d1fd9e544518fe5d020b188ab4d470d83fdf2504db9735b8370a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

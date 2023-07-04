@@ -15,7 +15,7 @@ DESCRIPTION="OpenAPI schema validation for Python"
 
 HOMEPAGE="https://github.com/python-openapi/openapi-schema-validator"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d6/d5/9b7899c0c6032f84f3b32c01de02bc30665af31f84606434826e0949d27c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

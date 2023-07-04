@@ -15,7 +15,7 @@ DESCRIPTION="package defining yaq traits"
 
 HOMEPAGE="https://traits.yaq.fyi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/91/1326111a1f28bdc0dc2bef73e59c5c77e9286d334237be60b18c40d0c7ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

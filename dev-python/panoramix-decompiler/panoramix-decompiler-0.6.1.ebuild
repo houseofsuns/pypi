@@ -15,7 +15,7 @@ DESCRIPTION="A python decompiler for the EVM."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/4a/f28a0078b1ad3d144d8347b21b661e1fd705bf1e0f1a38a900c43dd62b66/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Postges wrapper for latch python backend services"
 
 HOMEPAGE=""
 LICENSE="CC0 1.0"
-SRC_URI="https://files.pythonhosted.org/packages/cf/26/6fe0500277e183e9752459e1fa070f26006bfe59c0f84a145082b36159b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

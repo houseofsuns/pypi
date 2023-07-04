@@ -15,7 +15,7 @@ DESCRIPTION="Machine Learning Animations in python using Manim."
 
 HOMEPAGE="https://github.com/helblazer811/ManimMachineLearning"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/87/b1/3bb365002f3b2db5413353286991d6a59e65e9aeb4be78a8b25c6311d865/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry Database API instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-dbapi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/ca/6edd4b31078ffb008dcb77431a926e0cd8eb544f7ef11f398771fc0da7ce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

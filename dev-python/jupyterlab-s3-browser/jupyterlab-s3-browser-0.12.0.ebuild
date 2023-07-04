@@ -15,7 +15,7 @@ DESCRIPTION="JupyterLab extension for browsing S3-compatible object storage"
 
 HOMEPAGE="https://github.com/IBM/jupyterlab_s3_browser"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/90/f3/b6fcb787bd0044c8aef445f2d68aff4596be780343437115e6c388f4c106/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

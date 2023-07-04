@@ -15,7 +15,7 @@ DESCRIPTION="manage the system"
 
 HOMEPAGE="https://ragt.ag/code/projects/webint-system"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/2f/27/4e73aca497cd16ff0aa3974f2f584351d6c57b5f909861f3285535ff33b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

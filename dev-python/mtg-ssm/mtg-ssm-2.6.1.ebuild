@@ -15,7 +15,7 @@ DESCRIPTION="A tool to manage Magic: the Gathering collection spreadsheets"
 
 HOMEPAGE="https://github.com/gwax/mtg_ssm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a5/63/9682c37c4a03a50fb9b2fd718a776692f8aa86db349a897100aff9586471/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

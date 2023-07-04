@@ -15,7 +15,7 @@ DESCRIPTION="Python toolchain for SS13"
 
 HOMEPAGE="https://github.com/RigglePrime/SS13-tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/89/6612cc271ae23955411fec59b8a0a3ee5fad37a1698045db1a582ccf1df1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

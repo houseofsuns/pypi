@@ -15,7 +15,7 @@ DESCRIPTION="Package that allows, with regular expressions, to extract from text
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/69/c0daaf5908d47472f9057d8d2d90655863b6fc0f3aaa279451227a028a64/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

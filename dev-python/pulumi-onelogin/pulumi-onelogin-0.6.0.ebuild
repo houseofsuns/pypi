@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing OneLogin cloud resources
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5b/3b/43fc5d50174189c1eb04be51f4570427837ab15d62f36ba5f3d6fb288b14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

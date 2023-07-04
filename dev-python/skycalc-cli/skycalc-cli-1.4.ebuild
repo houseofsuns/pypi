@@ -15,7 +15,7 @@ DESCRIPTION="ESO SkyCalc Command Line Interface"
 
 HOMEPAGE="http://www.eso.org/observing/etc/bin/gen/form?INS.MODE=swspectr+INS.NAME=SKYCALC"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/a0/1ff85e141fc5af5a58eca89504a348b6e215cacbedcc25313726c5e00a94/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

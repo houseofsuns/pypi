@@ -15,7 +15,7 @@ DESCRIPTION="th2_grpc_hand"
 
 HOMEPAGE="https://github.com/th2-net/th2-grpc-hand"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/29/11/13cc37fa0bd9d61f186e0b4540ef0db0d40b9b6ea81c3037555a5ba75814/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

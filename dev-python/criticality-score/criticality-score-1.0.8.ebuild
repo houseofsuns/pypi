@@ -15,7 +15,7 @@ DESCRIPTION="Gives criticality score for an open source project - DEPRECATED"
 
 HOMEPAGE="https://github.com/ossf/criticality-score"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/1c/d9267db0cf4d8d3b7761b7ebf605046e61a407a8c645de20803f52c7b312/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

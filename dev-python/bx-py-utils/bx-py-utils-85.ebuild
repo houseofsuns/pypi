@@ -15,7 +15,7 @@ DESCRIPTION="Various Python utility functions"
 
 HOMEPAGE="https://github.com/boxine/bx_py_utils/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/a2/5bdf4c92b4211ced7ea08caddec7faed0223bca763d52d3582e6b2aa76c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

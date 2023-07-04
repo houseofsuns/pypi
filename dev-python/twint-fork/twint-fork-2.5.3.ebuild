@@ -15,7 +15,7 @@ DESCRIPTION="An advanced Twitter scraping & OSINT tool."
 
 HOMEPAGE="https://github.com/yihong0618/twint"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/a8/c89bfde71b6a99481822cf310d964fd3cfd8614806c27916d9417e78c285/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

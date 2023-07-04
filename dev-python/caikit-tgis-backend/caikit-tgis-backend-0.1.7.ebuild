@@ -15,7 +15,7 @@ DESCRIPTION="Caikit module backend for models run in TGIS"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/d9/f435720f2fad04a3fe9df5b1efa63cd32b485d3dafe43594bfcb20dc8fdb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

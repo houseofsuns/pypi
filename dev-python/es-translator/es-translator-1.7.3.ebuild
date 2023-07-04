@@ -15,7 +15,7 @@ DESCRIPTION="A lazy yet bulletproof machine translation tool for Elastichsearch.
 
 HOMEPAGE=""
 LICENSE="GNU AFFERO GENERAL PUBLIC LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/b9/84/f44ec4ced9c42d2109d2993d1a00cdcc40f626329bc42aec52c8a9254eb8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Utilities for the im package library; used by most of them"
 
 HOMEPAGE="https://github.com/emlynoregan/im_util"
 LICENSE="../LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/ef/cf/be9f396c7a097eab7e0a521735c600322fa3ffe81abb8600fce625927339/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

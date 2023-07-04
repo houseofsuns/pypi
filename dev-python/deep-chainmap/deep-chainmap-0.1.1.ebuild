@@ -15,7 +15,7 @@ DESCRIPTION="A recursive subclass of ChainMap"
 
 HOMEPAGE="https://github.com/neutrinoceros/deep_chainmap"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/18/75/71d603422a83e2d501703395127f4f0d1c0d10cb7d22557b01804518ed0c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

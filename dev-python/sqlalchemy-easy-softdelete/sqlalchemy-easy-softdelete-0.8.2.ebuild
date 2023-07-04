@@ -15,7 +15,7 @@ DESCRIPTION="Easily add soft-deletion to your SQLAlchemy Models."
 
 HOMEPAGE="https://github.com/flipbit03/sqlalchemy-easy-softdelete"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/dc/e9/b03df6fffb595b96f8a39ad90a076365ab92620f8c15282afa6d266d9e5d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Implementations of window operations such as rolling and expanding.
 
 HOMEPAGE="https://github.com/jmoralez/window_ops/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/41/9f/7a223bc743bd25d59f7865104ccc0c75073afe0c6d3ab8c20d1f37e9c1c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Event-driven acquisition"
 
 HOMEPAGE="https://github.com/wl-stepp/eda_plugin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/0a/e49dad764c684c0367d400cc6cd669f829f838222b29145169369f68d917/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

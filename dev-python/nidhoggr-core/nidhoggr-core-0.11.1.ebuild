@@ -15,7 +15,7 @@ DESCRIPTION="Domain model for nidhoggr"
 
 HOMEPAGE="https://git.mc4ep.org/mc4ep/nidhoggr-core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/65/a70e69fffe2e60f4c46bb10b6eba433eb8eed04a11e2a6b13739a2ce2362/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

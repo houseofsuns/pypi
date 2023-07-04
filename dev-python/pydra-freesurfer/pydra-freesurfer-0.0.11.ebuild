@@ -15,7 +15,7 @@ DESCRIPTION="Pydra tasks for FreeSurfer"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/d0/82e0bc031fb11f68f1cbba1dcdf680ec00dc9ecbfd12528aef0012f2f6c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

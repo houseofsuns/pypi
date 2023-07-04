@@ -15,7 +15,7 @@ DESCRIPTION="Bridge between Vault and your app"
 
 HOMEPAGE="https://github.com/tzing/secrets.env"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b5/91/f1926ba806e0c58b4b22b9797f553a3c3648c08a74c554787c38149c82ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

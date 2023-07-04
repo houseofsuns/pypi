@@ -15,7 +15,7 @@ DESCRIPTION="Save and load notebooks to local-storage"
 
 HOMEPAGE="https://github.com/manics/jupyter-offlinenotebook"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/67/85/2960c0a1383a020283b2eec89dd2ce86a3acbaa13a70e8a796a481561547/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

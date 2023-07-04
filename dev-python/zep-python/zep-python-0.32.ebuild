@@ -15,7 +15,7 @@ DESCRIPTION="Zep stores, manages, enriches, indexes, and searches long-term memo
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/b3/17064e4d02daba7cb66ade9b5aed646a1e34657b93e9631c6e88e646fb93/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

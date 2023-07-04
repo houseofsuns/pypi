@@ -15,7 +15,7 @@ DESCRIPTION="USC/ISI monopoly simulator"
 
 HOMEPAGE="https://github.com/mayankkejriwal/GNOME-p3/tree/phase3_simulator_v1"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/d0/140dd25da6bffc4788ee2a36ad78642168726b007029b1e78b55c3d36f21/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

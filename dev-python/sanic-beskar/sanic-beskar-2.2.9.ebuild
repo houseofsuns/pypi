@@ -15,7 +15,7 @@ DESCRIPTION="Strong, Simple, (now async!) and Precise security for Sanic APIs"
 
 HOMEPAGE="https://sanic-beskar.readthedocs.io/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/65/ebab60f312ea8d6a5b48c055c9a0b10625520fc5e8068f0e156f11bb6c83/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

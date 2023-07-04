@@ -15,7 +15,7 @@ DESCRIPTION="Pytest plugin for Test Case Parametrization with CSV files"
 
 HOMEPAGE="https://git.codebau.dev/pytest-plugins/pytest-csv-params"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/6f/320d535fd9de04c783b77e2274b97bf28252636384f819f82693b7ef67b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

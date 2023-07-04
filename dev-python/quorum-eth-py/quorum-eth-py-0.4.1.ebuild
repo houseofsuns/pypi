@@ -15,7 +15,7 @@ DESCRIPTION="A python sdk for quorum-eth chain"
 
 HOMEPAGE="https://github.com/liujuanjuan1984/quorum_eth_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/fb/e68704a290409821ff276ffacb9b70ca0fbcb34f8efafc9fcdc75bf8c64c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

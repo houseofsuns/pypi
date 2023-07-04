@@ -15,7 +15,7 @@ DESCRIPTION="A Quart Redis thing to handle pubsub tasks in particular the event 
 
 HOMEPAGE="https://codeberg.org/bovine/bovine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/0d/87c63280daa143a82b9d77930d4dbdecc9d606c0054b28b6704bc6338de4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Cribbage scoring tool"
 
 HOMEPAGE="https://github.com/phoughton/cribbage_scorer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/63/b6b6a1f70f17b95fd60a6c17c57313366f21bd171c68fefcbeb0a5674ceb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

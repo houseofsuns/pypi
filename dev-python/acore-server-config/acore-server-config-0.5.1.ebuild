@@ -15,7 +15,7 @@ DESCRIPTION="Azerothcore World of Warcraft fleet of Servers configuration manage
 
 HOMEPAGE="https://github.com/MacHu-GWU/acore_server_config-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/35/b5/22b716fc718fa22d119497d93b70487c49abfe41e996fa59723b45965c4c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

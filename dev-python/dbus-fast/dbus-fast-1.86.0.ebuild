@@ -15,7 +15,7 @@ DESCRIPTION="A faster version of dbus-next"
 
 HOMEPAGE="https://github.com/bluetooth-devices/dbus-fast"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/9d/ad27f451198724d6e5b4f0435a13f2b2f839716bbcdede2ccf6d99743ec5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

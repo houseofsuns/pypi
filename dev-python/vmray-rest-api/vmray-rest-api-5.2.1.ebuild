@@ -15,7 +15,7 @@ DESCRIPTION="VMRay REST API Client and Integration Kit"
 
 HOMEPAGE="https://www.vmray.com"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/5a/a9/f8f61e550befc47e7d3d6584b0d3d050a8bfb0a209e02c6f3025542d9ade/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Complete GraphQL query string generation for python."
 
 HOMEPAGE="https://github.com/denisart/graphql-query"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/66/88869c650317a0c9e8494c242a9eb7c1c2e6e205bc5862ea35e7c2eb8482/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing okta resources."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/53/cb/b9be2b17d3bc44ca9d7a9718d2c8f056194f5886f8622ab795f416b6f407/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

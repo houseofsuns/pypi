@@ -15,7 +15,7 @@ DESCRIPTION="flake8 plugin that integrates pydocstyle"
 
 HOMEPAGE="https://github.com/KRunchPL/flake8-pydocstyle"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/13/6f/53aac89b6c80b810b792bd9fff9337c8e20b77c75e7736a9998f6a5f9e29/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

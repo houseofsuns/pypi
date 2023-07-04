@@ -15,7 +15,7 @@ DESCRIPTION="Sublime notebook cell binding for JupyterLab"
 
 HOMEPAGE="https://github.com/ryantam626/jupyterlab_sublime.git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/40/56/7c9a1a2bf4189e625bc36168e87cc49f02fae44acce8acae20d08a0f03a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Testing framework to ease Connect EaaS Processors development."
 
 HOMEPAGE="https://github.com/cloudblue/connect-devops-testing-library"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f2/d9/9e4a8e7efb503564d063f18187b36594d8430aa9e60f897bf4296483b553/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

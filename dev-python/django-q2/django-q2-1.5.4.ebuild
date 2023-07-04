@@ -15,7 +15,7 @@ DESCRIPTION="A multiprocessing distributed task queue for Django"
 
 HOMEPAGE="https://django-q2.readthedocs.org"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/09/16/92ff856eb7438dc0fcac24e6a941b690cf579d5ff42120580c130a5cb78c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Communication with the iMath data platform REST API"
 
 HOMEPAGE="https://github.com/i3drobotics/imath_requests"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b2/53/ca2b1b80c90fcbc951c51b5d38876191cda464b6dcc283f85d222296caf5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

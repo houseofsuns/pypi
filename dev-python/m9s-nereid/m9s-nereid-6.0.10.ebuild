@@ -15,7 +15,7 @@ DESCRIPTION="Tryton Nereid Module"
 
 HOMEPAGE="http://www.m9s.biz/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/6d/75/87ad650df8692127f715bdd30c458db7dd7eb85689bf80605c005e4669ad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

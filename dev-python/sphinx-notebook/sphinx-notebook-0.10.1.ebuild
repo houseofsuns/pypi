@@ -15,7 +15,7 @@ DESCRIPTION="Top-level package for Sphinx Notebook."
 
 HOMEPAGE="https://github.com/midwatch/sphinx_notebook"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7d/ef/2f439cb9a2ac4b37fd41e1c3e58368258ec5552c566ac4895811bb0bd297/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

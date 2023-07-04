@@ -15,7 +15,7 @@ DESCRIPTION="A collection of Jupyter nbextensions."
 
 HOMEPAGE="https://github.com/ipython-contrib/jupyter_contrib_nbextensions.git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/50/91/78cc4362611dbde2b0cd068204aaf1b8899d0459c50d8ff9daca8c069791/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

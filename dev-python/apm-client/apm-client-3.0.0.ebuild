@@ -15,7 +15,7 @@ DESCRIPTION="Application Performance Monitoring Agent"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/08/7a/62dc83ecad231caddded08485f26490b67fc47e89c65d6b10a2a9e9fbfe3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Magstim-EGI EEG amplifier NetStation API"
 
 HOMEPAGE="https://egi-pynetstation.readthedocs.io/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/44/8a5fd75976571847803d3dea7e085bc0dc539e2ec2e684bcbd8683a7b035/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

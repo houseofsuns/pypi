@@ -15,7 +15,7 @@ DESCRIPTION="songbook and songsheet management for songsheets in ukedown format"
 
 HOMEPAGE="https://github.com/lanky/udn-songbook"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/45/0c/b12e58874545e75729d99528fbba0bf669cb7f172db74aa48fdb45dbd321/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

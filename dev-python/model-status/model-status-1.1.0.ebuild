@@ -15,7 +15,7 @@ DESCRIPTION="Django package provides easy way to add status management to models
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/bc/8fc2ab400de53963f90c7b7dbe497db125c99ca47943ca4a53be58151c04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

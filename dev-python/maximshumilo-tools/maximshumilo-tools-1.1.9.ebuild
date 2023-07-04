@@ -15,7 +15,7 @@ DESCRIPTION="My tools for developing"
 
 HOMEPAGE="https://github.com/maximshumilo/tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cc/92/ecbb865e13d0750452d6494915eb3d156612422da089240cf355855245c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

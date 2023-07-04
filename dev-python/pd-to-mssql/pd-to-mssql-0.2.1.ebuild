@@ -15,7 +15,7 @@ DESCRIPTION="Quick upload of pandas dataframes to Microsoft SQL Server"
 
 HOMEPAGE="https://github.com/veyron8800/pd_to_mssql"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/4a/d067944e43810a9bd4aa07b07703d318fdc2788cab15f0aaf445f32d722d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

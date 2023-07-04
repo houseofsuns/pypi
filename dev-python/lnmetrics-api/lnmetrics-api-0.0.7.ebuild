@@ -15,7 +15,7 @@ DESCRIPTION="Python implementation of the lnmetrics API to query the lnmetrics s
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/5c/2c3a85e9fe373e92df26440e051983eff38c7a62a76bca2a53f1edf9f96a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

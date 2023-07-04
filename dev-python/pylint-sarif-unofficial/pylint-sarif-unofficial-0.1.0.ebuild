@@ -15,7 +15,7 @@ DESCRIPTION="Pylint output as SARIF"
 
 HOMEPAGE="https://github.com/EliahKagan/pylint-sarif"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/39/a846cc8b4574c4e44274c9ccbe4a7bdd9160e4b3706e83e63191f24f263e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Patch for fix pyinstrument root_frame exception"
 
 HOMEPAGE="https://github.com/PhuongTMR/pyinstrument_patch.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/de/61e7258a3698c8dccbd403a0e06cee1b818bd8566c15c2e42a96cc733f3b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

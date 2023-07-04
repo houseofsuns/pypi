@@ -15,7 +15,7 @@ DESCRIPTION="spatial-image"
 
 HOMEPAGE="https://github.com/spatial-image/spatial-image"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/da/8f/5c2ec66315953461dc5b8a17bdd44bdc8066abd32b446cee5554d502d4b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

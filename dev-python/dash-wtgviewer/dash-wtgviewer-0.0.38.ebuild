@@ -15,7 +15,7 @@ DESCRIPTION="Viewer for wind turbine simulation results built using threejs for 
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/82/f4/76823d14105d8146edda1140468792a478771cfcca1be3c9711fffad889d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

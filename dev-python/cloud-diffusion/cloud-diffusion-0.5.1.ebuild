@@ -15,7 +15,7 @@ DESCRIPTION="Diffusion on the Clouds: Short-term solar energy forecasting with D
 
 HOMEPAGE="https://github.com/tcapelle/cloud_diffusion"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/d4/feeb4703c8dc0d94e8818b47257345fa64bf3a04ce5886ef6de4bca4942c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

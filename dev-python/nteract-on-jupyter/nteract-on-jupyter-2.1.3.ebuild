@@ -15,7 +15,7 @@ DESCRIPTION="Extension for the jupyter notebook server and nteract"
 
 HOMEPAGE="https://github.com/nteract/nteract"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cd/08/639e96e60ae612ad5a6f5303ab76657b4577bc84d0fae25efb3a043287ad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Auto-differentiable and hardware-accelerated force density method"
 
 HOMEPAGE="https://github.com/arpastrana/jax_fdm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/e7/8822334da01f9d7f6ee3984ed4eeff8900ce6504a946c50ee42b0ee786db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

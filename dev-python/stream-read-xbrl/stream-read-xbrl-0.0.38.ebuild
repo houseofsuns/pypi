@@ -15,7 +15,7 @@ DESCRIPTION="Python package to parse Companies House accounts data in a streamin
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9c/fe/cd929a80ab94e08dd8fbb0621523e8ff5ae0462e5bac0422a3fb83fa5acf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

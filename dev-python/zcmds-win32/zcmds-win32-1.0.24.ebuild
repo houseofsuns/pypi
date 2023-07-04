@@ -15,7 +15,7 @@ DESCRIPTION="Cross platform(ish) productivity commands written in python."
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/98/06/715e615123056a6d712c45e105122dbe346d0cf5c4e24fc3723ea7305d88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

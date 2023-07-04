@@ -15,7 +15,7 @@ DESCRIPTION="A partial implementation of the SCIM 2.0 provider specification for
 
 HOMEPAGE="https://pypi.org/project/django-scim2/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/59/da3061607de7be41d7e5bf484acb13510d631f8fcfcecd9f5e02dc5bf4f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

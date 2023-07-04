@@ -15,7 +15,7 @@ DESCRIPTION="Backends for plotting with SymPy"
 
 HOMEPAGE="https://github.com/Davide-sd/sympy-plot-backends"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7c/69/c956b90f407ec68d6f88d6e128d8288ed422059a894f62d231dc83391bb5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

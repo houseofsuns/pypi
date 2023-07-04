@@ -15,7 +15,7 @@ DESCRIPTION="A django model & fixture containing common languages and culture co
 
 HOMEPAGE="https://github.com/cordery/django-languages-plus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/4a/3eaa70206b1b7a925ffca650cc6ac21ef098b6c785869fe57430210ba99b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

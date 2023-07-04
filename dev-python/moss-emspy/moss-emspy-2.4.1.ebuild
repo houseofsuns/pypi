@@ -15,7 +15,7 @@ DESCRIPTION="Package to interact with MOSS WEGA-EMS"
 
 HOMEPAGE="https://www.moss.de/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f7/27/64bbad85f01ace8aad6dd5ce9d1071aff1a1a7a59167c3fd9dd8a9a0b00a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

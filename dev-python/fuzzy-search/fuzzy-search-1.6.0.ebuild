@@ -15,7 +15,7 @@ DESCRIPTION="Tool for fuzzy searching in texts with historical language use and 
 
 HOMEPAGE="https://github.com/marijnkoolen/fuzzy-search"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c6/e5/58b98ae002bc5561bc7dff5cc8fb813cb2030193744f52601136f6c8104b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

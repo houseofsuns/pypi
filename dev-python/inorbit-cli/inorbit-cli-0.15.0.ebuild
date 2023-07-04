@@ -15,7 +15,7 @@ DESCRIPTION="CLI tool to interact with InOrbit Cloud Platform"
 
 HOMEPAGE=""
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/e0/30/146b39ce634f6c3625a3f54156f022880369d13ba345a937f3acb389207e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="This package contains abstract classes for interfaces and GUIs whic
 
 HOMEPAGE="https://github.com/MicheleCotrufo/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/a3/4a5ed83c6748d7d6a46f0ec3be80fdb04ae810958b3239f98337c0eca3ad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

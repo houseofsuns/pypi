@@ -15,7 +15,7 @@ DESCRIPTION="Orbax Checkpoint"
 
 HOMEPAGE="http://github.com/google/orbax"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/27/b298330f736a8e0d03d7fd6056c7981bfef9ea743ebad2cc4a8b5f0811de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

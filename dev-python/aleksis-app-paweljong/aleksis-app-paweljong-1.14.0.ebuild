@@ -15,7 +15,7 @@ DESCRIPTION="AlekSIS (School Information System) — App Paweljong (Camp/Eve
 
 HOMEPAGE="https://hacknfun.camp"
 LICENSE="EUPL-1.2-or-later"
-SRC_URI="https://files.pythonhosted.org/packages/b9/c4/11bdd60a33acd9627992f4e0dafc98c8dad21e9384906a0a5a54337cf2ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

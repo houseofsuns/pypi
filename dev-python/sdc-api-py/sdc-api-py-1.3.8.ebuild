@@ -15,7 +15,7 @@ DESCRIPTION="An async wrapper for Server-Discord.Com API"
 
 HOMEPAGE="https://github.com/TheKing-OfTime/sdc-api.py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/1f/2c32422bc505e27e1b2d95e61240de9aadc725a6361b12242669d2839958/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

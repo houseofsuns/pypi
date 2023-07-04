@@ -15,7 +15,7 @@ DESCRIPTION="ae namespace module portion paths: generic file path helpers"
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_paths"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/6e/5b/107d42637ae1ae907b53ff13d604b1cf12c44e8d3be29f2af7eb9781ef50/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

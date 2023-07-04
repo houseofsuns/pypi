@@ -15,7 +15,7 @@ DESCRIPTION="Python ETL Framework"
 
 HOMEPAGE="https://github.com/arcann/bi_etl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0b/57/7882d93ed7e85eb792c6f889879d12b0414fa7f9a8686ce6c3ade4344a49/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

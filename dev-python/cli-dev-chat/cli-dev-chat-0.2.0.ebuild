@@ -15,7 +15,7 @@ DESCRIPTION="A command-line interface for interacting with OpenAI chat language 
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/05/2a/fc7e1b826715e2e380a81f37a7301ea6f5ebc9b8797e5525f485bda2a90d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

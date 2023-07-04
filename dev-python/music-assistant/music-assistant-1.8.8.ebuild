@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/music-assistant/music-assistant"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/98/d036e417cac71c4d84718a16b437c309eac74231c8d5016280a98ca66fb5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

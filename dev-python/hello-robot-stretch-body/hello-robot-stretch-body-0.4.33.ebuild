@@ -15,7 +15,7 @@ DESCRIPTION="Stretch Body low level Python API"
 
 HOMEPAGE="https://github.com/hello-robot/stretch_body"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/af/16/ba80eb85ad488d4fcf50c5b2dbffd30d5e3cb8d6b787287a4e391f2a5454/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

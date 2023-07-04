@@ -15,7 +15,7 @@ DESCRIPTION="paramiko convenience wrapper"
 
 HOMEPAGE="https://github.com/marian-code/ssh-utilities"
 LICENSE="LGPL-2.1"
-SRC_URI="https://files.pythonhosted.org/packages/de/6a/073edca8b73fd98b8ad8f72549fa06731412d61f10f749fa981fe2599091/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

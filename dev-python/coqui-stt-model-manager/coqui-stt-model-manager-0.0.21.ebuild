@@ -15,7 +15,7 @@ DESCRIPTION="Model management and testing tool for Coqui STT models"
 
 HOMEPAGE="https://github.com/coqui-ai/stt-model-manager"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/77/83/242816fd9f8a22302f3bed3a766084dd5891c72ec5e6aacc3a8484a3709e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

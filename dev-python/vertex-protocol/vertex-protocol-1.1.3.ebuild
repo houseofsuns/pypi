@@ -15,7 +15,7 @@ DESCRIPTION="Vertex Protocol SDK"
 
 HOMEPAGE="https://vertexprotocol.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5b/c7/00ef33810592002805a801472dfbb55d4a71c13069ed09b721f0dcc183f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

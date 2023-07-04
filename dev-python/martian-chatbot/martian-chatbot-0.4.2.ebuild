@@ -15,7 +15,7 @@ DESCRIPTION="Chatbot creation module"
 
 HOMEPAGE="https://jzitkovic@gitlab.martianandmachine.com/service/martian-chatbot.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/87/6b/ac96af0c505080f47b088c3e5fedd0fb53fb570e16c16c338ddd1ad91a7d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

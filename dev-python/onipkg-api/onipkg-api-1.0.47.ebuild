@@ -15,7 +15,7 @@ DESCRIPTION="Helper para consumo de APIs"
 
 HOMEPAGE="https://github.com/LucasHeilbuth"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/49/53/032d383301aeb96e21bbfdcf10e61925a08dfd09af6d91c2af816afda845/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

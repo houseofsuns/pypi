@@ -15,7 +15,7 @@ DESCRIPTION="An asynchronous modem implementation designed for Home Assistant fo
 
 HOMEPAGE="https://github.com/tkdrob/phone_modem"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6d/b5/9c8e1b7bfaef93de22725a6f43bd341d79b09e9773cd82b9189c8cf3da0c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

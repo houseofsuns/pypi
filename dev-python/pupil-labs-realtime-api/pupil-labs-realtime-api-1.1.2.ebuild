@@ -15,7 +15,7 @@ DESCRIPTION="Python client for the Pupil Labs Realtime API"
 
 HOMEPAGE="https://github.com/pupil-labs/realtime-python-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/5d/4ecdeda0850271069f5c4ba36f7276a0818bd2d12ae75af0067f8eef5ce2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

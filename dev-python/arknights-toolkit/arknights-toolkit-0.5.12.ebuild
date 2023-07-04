@@ -15,7 +15,7 @@ DESCRIPTION="Arknights-related Toolkit"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/dd/70/ab3153898d50c58ee5f646b61af56fdb059dd956b5e48613c1e9ad4b0d94/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

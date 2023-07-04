@@ -15,7 +15,7 @@ DESCRIPTION="The CIDC NGS Pipeline output APIs"
 
 HOMEPAGE="https://github.com/CIMAC-CIDC/cidc-ngs-pipeline-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/6d/0daf41ca23eaf3cbe13a444dc7fb8aba5c860469d739ca4bcf67afcdc870/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

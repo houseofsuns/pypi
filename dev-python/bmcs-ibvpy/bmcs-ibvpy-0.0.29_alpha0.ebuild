@@ -15,7 +15,7 @@ DESCRIPTION="Initial boundary value problem solver."
 
 HOMEPAGE="https://github.com/bmcs-group/bmcs_ibvpy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/91/84d703469f739d275f089847458ba2cae13cd12b0f042fd05adebde9943f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

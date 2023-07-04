@@ -15,7 +15,7 @@ DESCRIPTION="Bound propagation in Pytorch"
 
 HOMEPAGE="https://github.com/zinoex/bound_propagation"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/13/ae/7c935eca9eaaf522cf0b00625220f397f2e4e6bd651460cb05b412dcad6b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

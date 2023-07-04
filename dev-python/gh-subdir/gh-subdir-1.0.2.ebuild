@@ -15,7 +15,7 @@ DESCRIPTION="A Python module for installing GitHub subdirectories."
 
 HOMEPAGE="https://github.com/reecevela/gh-subdir-py"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/0b/b7/c897a57f871b9697dfa9c1c4a59f4debc70a846bcb817f8ece44b25a6327/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

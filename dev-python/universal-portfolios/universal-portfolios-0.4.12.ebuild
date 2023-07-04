@@ -15,7 +15,7 @@ DESCRIPTION="Collection of algorithms for online portfolio selection"
 
 HOMEPAGE="https://github.com/Marigold/universal-portfolios"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/67/40/610076c9dba47d119daddadda8be3da5e85cea75e06771021e055d3e6145/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

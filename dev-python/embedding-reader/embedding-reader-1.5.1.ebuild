@@ -15,7 +15,7 @@ DESCRIPTION="A python template"
 
 HOMEPAGE="https://github.com/rom1504/embedding_reader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/24/dc/456c8459d039bef32ca8644ccb5c3cfbf8f6debc8261a2ba0a9449569c77/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

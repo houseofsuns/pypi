@@ -15,7 +15,7 @@ DESCRIPTION="Unofficial Library to interact with TryLeap REST API"
 
 HOMEPAGE="https://github.com/IperGiove/py_leap_api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/0d/7dfaa93e621019b806e2771f018d83d627f5b4daddc94eb7a7b83349027c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

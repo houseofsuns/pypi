@@ -15,7 +15,7 @@ DESCRIPTION="Douyin/TikTok async data scraper."
 
 HOMEPAGE="https://github.com/Evil0ctal/Douyin_TikTok_Download_API"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/25/c997bd6ec217bfb12d5e5661f354d35154315b225cdf54ded602d60e7d88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

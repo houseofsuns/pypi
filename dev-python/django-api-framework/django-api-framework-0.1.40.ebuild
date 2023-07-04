@@ -15,7 +15,7 @@ DESCRIPTION="Django Easy API - Easy and Fast Django REST framework based on Djan
 
 HOMEPAGE="https://github.com/freemindcore/django-api-framework"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/ae/642127b314944682f7ffdaa24bb3d9a40fd055dca27ff484f1aa3cd6bba3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Fast kasa crypt"
 
 HOMEPAGE="https://github.com/bdraco/kasa-crypt"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/01/ab/46f794f45a322c22b3639647b17dc9ca771f14a7ca9c21a04d725cd517da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

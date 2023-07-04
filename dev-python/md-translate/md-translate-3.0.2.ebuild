@@ -15,7 +15,7 @@ DESCRIPTION="CLI tool to translate markdown files"
 
 HOMEPAGE="https://github.com/ilyachch/md_docs-trans-app"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/7b/a8d2783b5ac2499dcc2920f60e3639816a0a0d1c845074bde58afe0fbbbd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

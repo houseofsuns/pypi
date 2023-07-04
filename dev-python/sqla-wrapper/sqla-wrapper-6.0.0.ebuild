@@ -15,7 +15,7 @@ DESCRIPTION="A framework-independent modern wrapper for SQLAlchemy & Alembic"
 
 HOMEPAGE="https://sqla-wrapper.scaletti.dev/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/30/51/11f64faa47de983e75b03c1d8f7cc9e7b2e8254e6406e667eae4a2963384/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

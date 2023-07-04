@@ -15,7 +15,7 @@ DESCRIPTION="Package that enables deployment of AWS CDK stacks in parallel."
 
 HOMEPAGE="https://github.com/biomapas/B.CfnCustomUserPoolAuthorizer.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/03/af/5da10459c5ecfe49ad7ff3cb20c7e54ac150f903323327ff5ebc53d0ee17/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

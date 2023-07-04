@@ -15,7 +15,7 @@ DESCRIPTION="Apply values to optional params"
 
 HOMEPAGE="https://github.com/bcb/apply_defaults"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/31/7daf0d1111b29405d25b7677c8c681f6de7aff19d44b54f57ce5c789af24/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

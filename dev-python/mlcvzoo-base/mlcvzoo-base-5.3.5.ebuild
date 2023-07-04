@@ -15,7 +15,7 @@ DESCRIPTION="MLCVZoo Base Package"
 
 HOMEPAGE="https://git.openlogisticsfoundation.org/silicon-economy/base/ml-toolbox/mlcvzoo-base"
 LICENSE="Open Logistics Foundation License v1.3"
-SRC_URI="https://files.pythonhosted.org/packages/59/dd/89f04be8cb2bd4e6910a7f38d0e74f060b69c37e3f29542299a14ef106a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

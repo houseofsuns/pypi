@@ -15,7 +15,7 @@ DESCRIPTION="Disable Django database writes."
 
 HOMEPAGE="https://github.com/adamchainz/django-read-only"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/a9/df0149079821231a5380dbfa0505afb55ececedfd8a80d3cb6aa14a29d60/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

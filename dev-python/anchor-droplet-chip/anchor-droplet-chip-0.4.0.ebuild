@@ -15,7 +15,7 @@ DESCRIPTION="Segment organoids and measure intensities"
 
 HOMEPAGE="https://github.com/BaroudLab/anchor-driplet-chip"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a3/47/26c3dd986ec452c1ef776ffb1c75a351cb6b260b0b61c350a2235e3af3c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

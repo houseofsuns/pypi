@@ -15,7 +15,7 @@ DESCRIPTION="OpenAPI 2.0 (aka Swagger) and OpenAPI 3 spec validator"
 
 HOMEPAGE="https://github.com/python-openapi/openapi-spec-validator"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/27/e5/9fe67dfd403777d500abb5cd650c16ef9d4918a6c12e87731c3a4feeb4ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

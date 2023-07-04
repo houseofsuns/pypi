@@ -15,7 +15,7 @@ DESCRIPTION="Asynchronous message dispatcher for concurrent tasks processing"
 
 HOMEPAGE="https://github.com/olist/olist-loafer/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/18/c3/9a9fb92db06ae66479b0c71392f26d5d8d76488275d95adf19057214c67b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

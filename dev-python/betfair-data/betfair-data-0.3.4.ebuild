@@ -15,7 +15,7 @@ DESCRIPTION="Fast Python Betfair historic data file parser"
 
 HOMEPAGE="https://github.com/tarb/betfair_data"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/a9/7bb6178b095fce628ab29075825ad16e3e1fa315357d5149931748fb742a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

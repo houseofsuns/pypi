@@ -15,7 +15,7 @@ DESCRIPTION="Awesome \`data_manifestor\` is a Python cli/package created with ht
 
 HOMEPAGE="https://github.com/data_manifestor/data_manifestor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/30/e72a92db897aa72456ee3982283c802c96669fe8aa332aa7f95bdb867094/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

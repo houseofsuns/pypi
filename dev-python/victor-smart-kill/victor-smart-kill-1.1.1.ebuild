@@ -15,7 +15,7 @@ DESCRIPTION="A simple unofficial async Python wrapper for Victor Smart-Kill API.
 
 HOMEPAGE="https://github.com/toreamun/victor-smart-kill"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/81/e9cde11906308288f06a2e4026748fe6061245c43a25d3404b84db4f7fac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

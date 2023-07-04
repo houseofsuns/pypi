@@ -15,7 +15,7 @@ DESCRIPTION="Asynchronous Test Framework #HighPerformance #EasyToLearn #FastToCo
 
 HOMEPAGE="https://github.com/troymjose/test_rest_api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ef/f4/05a2a68ebe4a57c51c51c972bb9f9439011c00875a62e28863c20e3ec59b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Baixa infos diversas de ativos financeiros."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/61/71/8342a4639d7e1af0d89730c4571f94268df350854e98b69d9416644e911e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

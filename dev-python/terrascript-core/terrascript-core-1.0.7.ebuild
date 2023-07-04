@@ -15,7 +15,7 @@ DESCRIPTION="Terrasript core Python SDK"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/8a/28e8c41987d89291b5a32d72437a0adbcefbb3fb6d01f34f5e7d1dcbd665/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An unofficial library for discord components. Mirror only."
 
 HOMEPAGE="https://github.com/kiki7000/discord.py-components"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b6/2e/6ed4e4d42e973a7ff434fa5fc9af2958975827272ac1b74455a63ac7b29b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

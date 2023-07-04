@@ -15,7 +15,7 @@ DESCRIPTION="guillotina gcloud storage support"
 
 HOMEPAGE="https://pypi.python.org/pypi/guillotina_gcloudstorage"
 LICENSE="GPL version 3"
-SRC_URI="https://files.pythonhosted.org/packages/74/c3/fe17950e7546c983b236114ad18c8320ee21eaf77e532a572b8b7ad0d420/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

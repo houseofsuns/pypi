@@ -15,7 +15,7 @@ DESCRIPTION="Document description language that allows embedded Python to descri
 
 HOMEPAGE=""
 LICENSE="MIT OR Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e9/ee/6278af3a7664d39a0115d04a71e522b244ec70d1ef081a30375190a439cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

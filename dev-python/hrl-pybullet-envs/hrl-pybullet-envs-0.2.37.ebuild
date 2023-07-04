@@ -15,7 +15,7 @@ DESCRIPTION="Locomotion HRL envs in pybullet"
 
 HOMEPAGE="https://github.com/sash-a/hrl_pybullet_envs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4d/f3/626d039f4e3e48f37e8215fb17976364a103b9a27ad0c3c1b1c841364d85/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

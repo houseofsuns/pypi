@@ -15,7 +15,7 @@ DESCRIPTION="wsgi_intercept installs a WSGI application in place of a real URI f
 
 HOMEPAGE="http://pypi.python.org/pypi/wsgi_intercept"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/a5/09f7e5477cb66b619608dc86902ef24d335fc8d48666b99caa2a0543222d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

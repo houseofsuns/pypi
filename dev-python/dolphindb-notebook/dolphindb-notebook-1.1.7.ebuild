@@ -15,7 +15,7 @@ DESCRIPTION="A Jupyter Notebook Extension for DolphinDB."
 
 HOMEPAGE="https://www.dolphindb.com"
 LICENSE="DolphinDB"
-SRC_URI="https://files.pythonhosted.org/packages/dd/22/6bec40624ae45dba0e9b5c1c358e8ffdf1fd0b3a9dc4f1fe8856029fe589/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

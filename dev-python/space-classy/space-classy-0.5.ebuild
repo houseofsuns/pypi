@@ -15,7 +15,7 @@ DESCRIPTION="classification tool for minor bodies using reflectance spectra and 
 
 HOMEPAGE="https://github.com/maxmahlke/classy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/2f/e9211933e0d4590bde2556d460ec935dded22c93ac69900eace002092daf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

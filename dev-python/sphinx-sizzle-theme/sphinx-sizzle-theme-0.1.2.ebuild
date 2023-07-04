@@ -15,7 +15,7 @@ DESCRIPTION="The Sizzle theme for Sphinx."
 
 HOMEPAGE="https://docs.red-dove.com/sphinx_sizzle_theme/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ff/e7/33cdf0f4bbc152a0aa5a7b0fc04eb977c3ca5eef0a07625cb29ecb832336/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

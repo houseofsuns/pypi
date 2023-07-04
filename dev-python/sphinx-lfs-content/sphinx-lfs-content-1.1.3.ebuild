@@ -15,7 +15,7 @@ DESCRIPTION="Ensure existence of LFS content in your LFS builds"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/fc/9b9319c83852a46193601e744dc43d31482b3c0297e25ca4aca509a62cd7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

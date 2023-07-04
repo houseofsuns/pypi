@@ -15,7 +15,7 @@ DESCRIPTION="A Flask extension that supports protecting routes with AWS Cognito 
 
 HOMEPAGE="https://github.com/mblackgeo/flask-cognito-lib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/15/7867d5ed2656c9bb5925f3c5c60eab09f0bf97a9bb2adae5b8f2fa4e44a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

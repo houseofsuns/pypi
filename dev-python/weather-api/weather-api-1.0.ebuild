@@ -15,7 +15,7 @@ DESCRIPTION="This is the new API for weather forecasting."
 
 HOMEPAGE="https://apimatic.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/a0/303aa794143fe0445f53884d3d9db08d7833319183ed482fe96b56bd2d2f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

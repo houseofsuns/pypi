@@ -15,7 +15,7 @@ DESCRIPTION="Generate/parse Mac OS Alias records from Python"
 
 HOMEPAGE="http://alastairs-place.net/projects/mac_alias"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/a3/83b50f620d318a98363dc7e701fb94856eaaecc472e23a89ac625697b3ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

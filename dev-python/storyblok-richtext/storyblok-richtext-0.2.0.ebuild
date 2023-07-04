@@ -15,7 +15,7 @@ DESCRIPTION="Storyblok Python library for Richtext component"
 
 HOMEPAGE="https://github.com/storyblok/storyblok-python-richtext-renderer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/31/f0ba56c421fbb12c0a5d69c0e1b40aae70c6b26fcb3bbd3e8b17473714c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

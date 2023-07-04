@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://www.github.com/Sulstice/global-chem"
 LICENSE="MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/03/55/8e26ff59975115003baef480341fa3ee0d0221d7f7211108cd7ce3dfc97a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Triangle Check: scan iTunes backups for traces of compromise by Ope
 
 HOMEPAGE="https://github.com/KasperskyLab/triangle_check"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/9c/ad5acd76a9041210cb848c17242424c4198286175f0efe973f8747fd8904/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Return photo list and caption (markdown format) from twitter."
 
 HOMEPAGE="https://github.com/gaoyunzhi/twitter_2_album"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c0/1f/a16f0f7d910dd518b5beb8cb004ed334e3c060c7aeb37d2446daba72c594/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

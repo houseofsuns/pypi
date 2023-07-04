@@ -15,7 +15,7 @@ DESCRIPTION="AllianceAuth Market Management Tool"
 
 HOMEPAGE="https://gitlab.com/tactical-supremacy/aa-market-manager"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c3/72/eebb36c2b3438ee54b20c9bc7932fa4aab0c973b0ed873d6053f7c6cf7de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

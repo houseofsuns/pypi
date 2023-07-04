@@ -15,7 +15,7 @@ DESCRIPTION="Bamboo Flexibility API"
 
 HOMEPAGE="https://github.com/bambooenergy/mvp-api-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/90/12956c8af4a438001b6c9d2329d5ecf9373ecc77b8717b4722c9a0d6a614/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

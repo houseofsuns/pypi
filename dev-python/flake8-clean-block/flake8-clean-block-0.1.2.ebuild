@@ -15,7 +15,7 @@ DESCRIPTION="A flake8 plugin that enforces a blank line after if/for/while/with/
 
 HOMEPAGE="https://github.com/cyyc1/flake8-clean-block"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/98/5a64a773cff79046fdad28eb25de18322d7d2e26e3895cd7c1abed8134fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

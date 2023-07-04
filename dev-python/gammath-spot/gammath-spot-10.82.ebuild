@@ -15,7 +15,7 @@ DESCRIPTION="Stock Price-Opining Tools"
 
 HOMEPAGE="https://github.com/salylgw/gammath_spot.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/00/2ea413401bf5ba0ec60901c0a47d6d0b9b4d837d264b25cf38508beb362e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

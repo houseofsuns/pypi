@@ -15,7 +15,7 @@ DESCRIPTION="Cross platform wrapper for opening a file/URL with system default a
 
 HOMEPAGE="https://github.com/panda2134/open-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/9a/71ff36908c3939b3433874ff0e36742360e361d3b35e87ebd3971f635a8c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

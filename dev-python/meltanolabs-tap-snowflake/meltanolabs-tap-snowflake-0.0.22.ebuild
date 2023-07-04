@@ -15,7 +15,7 @@ DESCRIPTION="\`tap-snowflake\` is a Singer tap for Snowflake, built with the Mel
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/93/b8/eb02d90f19e17d1a19a1ff6d46e1b060e6fd855b168d7dfc2cdc7e7a984b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

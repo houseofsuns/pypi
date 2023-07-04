@@ -15,7 +15,7 @@ DESCRIPTION="Generate, Validate and Format brazilian CPF"
 
 HOMEPAGE="https://github.com/matalmeida/cpf-generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/33/40159dbd7383d273c2df34b765d65defb14ee0c213dcec8b557a563d714a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

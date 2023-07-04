@@ -15,7 +15,7 @@ DESCRIPTION="This package is a fork of cosmospy and is a light framework for the
 
 HOMEPAGE="https://github.com/ctrl-Felix/mospy/"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/c9/36/32ac8a42f1fdc5f8bdb617bf52386d4de1c5042d261021774c3de53cb63d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

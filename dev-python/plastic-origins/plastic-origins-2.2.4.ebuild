@@ -15,7 +15,7 @@ DESCRIPTION="A package containing methods commonly used to make inferences"
 
 HOMEPAGE="https://www.plasticorigins.eu/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/38/70675967ccce919a7c41db24f4938ecedb4d688b2a633d4fe2f82577126d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

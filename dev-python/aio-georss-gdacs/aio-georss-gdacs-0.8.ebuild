@@ -15,7 +15,7 @@ DESCRIPTION="An async GeoRSS client library for GDACS feeds."
 
 HOMEPAGE="https://github.com/exxamalte/python-aio-georss-gdacs"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/31/c1/86594e87f86f978e0d750407c233a924a611865af6a23ff05aa4f62088a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

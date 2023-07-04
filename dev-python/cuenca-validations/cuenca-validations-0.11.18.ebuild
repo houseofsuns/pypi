@@ -15,7 +15,7 @@ DESCRIPTION="Cuenca common validations"
 
 HOMEPAGE="https://github.com/cuenca-mx/cuenca-validations"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e5/99/adbd49bac4091865b9b37c0e31cdf294b78206769521953ec9b4b65f1b9e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

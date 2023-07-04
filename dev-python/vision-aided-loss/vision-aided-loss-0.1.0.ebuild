@@ -15,7 +15,7 @@ DESCRIPTION="Vision-aided GAN training"
 
 HOMEPAGE="https://github.com/nupurkmr9/vision_aided_loss"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3e/27/93048d3fd4e58d64dcf79f4328ef9906e264d9810b82cab40bebfdebc547/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

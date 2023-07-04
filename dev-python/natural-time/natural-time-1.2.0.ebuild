@@ -15,7 +15,7 @@ DESCRIPTION="Tool for understanding dates and times"
 
 HOMEPAGE="https://github.com/DavidAmison/natural_time"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/56/35395c44e0354aa62500fa41cbd7d497dde1a79a8acd65710277bccbf808/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

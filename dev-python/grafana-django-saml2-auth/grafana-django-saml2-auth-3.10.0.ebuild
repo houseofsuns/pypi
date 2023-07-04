@@ -15,7 +15,7 @@ DESCRIPTION="Django SAML2 Authentication Made Easy."
 
 HOMEPAGE="https://github.com/grafana/django-saml2-auth"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1d/b2/922413501c080cc7c0832aab97f47ee7d756b605cdd9f7450be5da526aa9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

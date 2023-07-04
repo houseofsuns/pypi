@@ -15,7 +15,7 @@ DESCRIPTION="二维火 flutter 脚手架工具"
 
 HOMEPAGE="https://git.2dfire.net/app/flutter/tools/package_tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/ee/e1cf460466a907771da2ff149fb20d55886ba20eaa2145b12852f89e43e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

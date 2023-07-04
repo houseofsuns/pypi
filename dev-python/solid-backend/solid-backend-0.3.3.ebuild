@@ -15,7 +15,7 @@ DESCRIPTION="Clean Django app for e-learning application with..."
 
 HOMEPAGE="https://github.com/zentrumnawi/solid-backend"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/88/db1b72c9b35e17cb0776af574c24a62a64799da8a77b270bef12d4ec70d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

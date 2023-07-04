@@ -15,7 +15,7 @@ DESCRIPTION="Expose GPIO modules (Raspberry Pi, Beaglebone, PCF8754, PiFace2 etc
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/38/1c0e829221526bc41463495fec4ae6233159b2152d10e5ccf00549103980/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

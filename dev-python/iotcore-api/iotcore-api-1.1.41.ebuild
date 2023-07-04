@@ -15,7 +15,7 @@ DESCRIPTION="IoT core connection methods and utilities"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/e8/b2572a99ae65e972218fd6bf8200b4c95d5538f5dfcf2fd0461dd1898cd2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

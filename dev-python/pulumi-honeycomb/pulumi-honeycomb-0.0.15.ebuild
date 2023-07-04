@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing honeycomb.io resources."
 
 HOMEPAGE="https://github.com/honeycombio/terraform-provider-honeycombio"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/37/b4/5aa266582604edee74b887d3e5478e4645dcd3da24a5932ccacaa4cc5736/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

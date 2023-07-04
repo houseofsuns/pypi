@@ -15,7 +15,7 @@ DESCRIPTION="Python package, scraping recipes from all over the internet"
 
 HOMEPAGE="https://github.com/hhursev/recipe-scrapers/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/56/8c4746bfb799ce1157577f1997b8017e71302731c435cb3ca672542379c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

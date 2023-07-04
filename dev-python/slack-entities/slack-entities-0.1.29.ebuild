@@ -15,7 +15,7 @@ DESCRIPTION="Package for more convenient work with Slack API"
 
 HOMEPAGE="https://github.com/chimplie/slack_entities"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d2/26/2cb3b61d900f78859a0d7a96befe6630941de471734e59098aa7ca2c6f08/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

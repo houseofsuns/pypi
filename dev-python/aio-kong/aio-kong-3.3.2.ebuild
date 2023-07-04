@@ -15,7 +15,7 @@ DESCRIPTION="Asynchronous Kong Client"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e7/82/3d1333a60bd9dbbb53782ead513b710491f4154bf1b25b96fdcdd8cfaf1e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

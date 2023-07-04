@@ -15,7 +15,7 @@ DESCRIPTION="Singer tap for dbt, built with the Singer SDK."
 
 HOMEPAGE="https://github.com/edgarrmondragon/tap-dbt"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d2/bc/371608dd70c947b222a128b34e7cb760a857a2744bdc6ca64fcdd37d93e7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

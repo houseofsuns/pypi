@@ -15,7 +15,7 @@ DESCRIPTION="Access database (*.mdb, *.accdb) parser"
 
 HOMEPAGE="https://github.com/ClarotyICS/access_parser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c2/31/0caf076793dbd7f71014a81305bd77fa50591fa5ff7272186c2c5614dd4d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

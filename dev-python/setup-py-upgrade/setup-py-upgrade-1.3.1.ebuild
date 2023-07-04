@@ -15,7 +15,7 @@ DESCRIPTION="upgrade a setup.py to declarative metadata"
 
 HOMEPAGE="https://github.com/asottile/setup-py-upgrade"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/14/664b725777ab561f831f11ebd52bb79dda1dcaacffef8bdd11d1ac540923/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

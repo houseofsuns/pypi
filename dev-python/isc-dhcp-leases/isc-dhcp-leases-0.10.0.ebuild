@@ -15,7 +15,7 @@ DESCRIPTION="Small python module for reading /var/lib/dhcp/dhcpd.leases from isc
 
 HOMEPAGE="https://github.com/MartijnBraam/python-isc-dhcp-leases"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/b6/fb63e044a6ac1cfb038eb1abc546c792d3974dc0756fa0e1a8ba2a147637/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

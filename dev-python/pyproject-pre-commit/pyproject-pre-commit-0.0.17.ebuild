@@ -15,7 +15,7 @@ DESCRIPTION="pre-commit hooks for python projects using pyproject.toml."
 
 HOMEPAGE="https://github.com/rcmdnk/pyproject-pre-commit"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a5/f4/0616e8b52206c370d65426129a2203146f34866be5a3507977f57637c8d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

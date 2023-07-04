@@ -15,7 +15,7 @@ DESCRIPTION="Localization support for the Muffin Framework"
 
 HOMEPAGE="https://github.com/klen/muffin-babel"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/da/54383580b52e2b84029439fdad9722fed37647f129a49e6da54eeb5a9108/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

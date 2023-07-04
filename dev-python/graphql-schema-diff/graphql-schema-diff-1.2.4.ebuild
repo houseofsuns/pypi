@@ -15,7 +15,7 @@ DESCRIPTION="Compare GraphQL Schemas"
 
 HOMEPAGE="https://github.com/Ambro17/graphql-schema-diff"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/93/a7e2160e61dde26498f34615cafd8feff77d4c99813fa9b7c2377e8e0bf7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="UPS connector for the Tryton application platform"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d3/95/767bfc4adcde18e8196c2f1b16633a28ad36fb7a8a55f2e6aabe57221cd3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

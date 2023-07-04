@@ -15,7 +15,7 @@ DESCRIPTION="Common function when working with excel."
 
 HOMEPAGE="https://github.com/NorakGithub/django-excel-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/57/5ca9c629ab6ed7ab07aed7c82309ec58c611a599f1739e527b6e1363a39c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

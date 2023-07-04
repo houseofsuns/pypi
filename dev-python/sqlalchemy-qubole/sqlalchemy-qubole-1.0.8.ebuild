@@ -15,7 +15,7 @@ DESCRIPTION="Qubole Presto/Hive for SQLAlchemy"
 
 HOMEPAGE="https://docs.qubole.com/en/latest/connectivity-options/partner-integration/sqlalchemy/sqlalchemy-index.html"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6e/a2/feda32ddedb4da6bb18abb2f2a8cbc99d9d4d9c0f7fa65785151b0d18518/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

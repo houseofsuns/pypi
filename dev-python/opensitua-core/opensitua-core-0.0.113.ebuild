@@ -15,7 +15,7 @@ DESCRIPTION="A core functions package"
 
 HOMEPAGE="https://github.com/valluzzi/opensitua_core.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/31/63d337862ac9c17e36bdc6bd41623c19e980545240aa99b726c67d8224d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

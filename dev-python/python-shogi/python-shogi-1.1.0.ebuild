@@ -15,7 +15,7 @@ DESCRIPTION="A pure Python shogi library with move generation and validation and
 
 HOMEPAGE="https://github.com/gunyarakun/python-shogi"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/bd/0e/984b1fc2daf6fbca71003b23f701462c806f5bd6f185398b9f288386d395/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

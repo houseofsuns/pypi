@@ -15,7 +15,7 @@ DESCRIPTION="Automated entry of job application data into Connecticut's DOL ReEm
 
 HOMEPAGE="https://github.com/ariffjeff/ReEmployCT-Data-Entry"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f9/8f/7353611be0a216c164f806098b0f248ab621194c12dce9d7409be5a8c6d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Veeroute.Merchandiser"
 
 HOMEPAGE="https://docs.veeroute.com/#/lss/merchandiser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/69/ac238ae6ada4f0087249515acd0e4fdf4ab79441afa24b63c4777fe37add/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION=" FANTASY - Fully Automated pythoN tool for AGN Spectra analYsis, a 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6f/cd/0a0091d3ba300affad9a5709a9675ee5120a1858a1f0079448d8ac26273b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Automated GUI testing for Set-Top Boxes"
 
 HOMEPAGE="https://stb-tester.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/be/4c205b2d21b7b46a5b6fa3a505787138d16e923a6559eae01050e85c7b4b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

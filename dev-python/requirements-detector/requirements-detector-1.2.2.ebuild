@@ -15,7 +15,7 @@ DESCRIPTION="Python tool to find and list requirements of a Python project"
 
 HOMEPAGE="https://github.com/landscapeio/requirements-detector"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6d/07/caf219327b6ddf29a71c6b248da1406bf084fe6ff0e2f81033f5cb5ff312/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

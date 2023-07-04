@@ -15,7 +15,7 @@ DESCRIPTION="Sym's CLI shared library"
 
 HOMEPAGE="https://symops.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/08/c0/d33c02cdeb80ac088e20eca2df56fe5aa34c77b7251b01ad95bda44d4c83/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

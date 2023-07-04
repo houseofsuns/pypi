@@ -15,7 +15,7 @@ DESCRIPTION="Transaction service quality checker"
 
 HOMEPAGE="https://github.com/keyperlabs/transaction-indexer-quality-checker.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/84/108e9a3c37817146bdebd15585d1a92b92c0afc4b74629c82290c6db2373/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

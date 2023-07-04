@@ -15,7 +15,7 @@ DESCRIPTION="Functional Analysis Description Language Base Package"
 
 HOMEPAGE="https://github.com/iris-hep/func_adl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/93/7940ea1c7281f79b7369f0709f1decdb9661f44d5dabeb73c5c35ac07429/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

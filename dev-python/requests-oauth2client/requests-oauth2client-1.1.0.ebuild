@@ -15,7 +15,7 @@ DESCRIPTION="An OAuth2.x Client based on requests."
 
 HOMEPAGE="https://github.com/guillp/requests_oauth2client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/17/e8/e769626b2627c5a6da2b0392137e3e3af47040f90638564dbef5ab21fa4d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

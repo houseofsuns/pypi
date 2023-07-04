@@ -15,7 +15,7 @@ DESCRIPTION="Retrieve info from NHL API"
 
 HOMEPAGE="http://github.com/jalgraves/jockbot_nhl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/71/c4d9d0d22fc1529785488ffe725c17512a03475ce8e02047f37057bba734/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

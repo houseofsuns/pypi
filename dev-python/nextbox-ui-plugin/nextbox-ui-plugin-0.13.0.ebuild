@@ -15,7 +15,7 @@ DESCRIPTION="A topology visualization plugin for Netbox powered by NextUI Toolki
 
 HOMEPAGE="https://github.com/iDebugAll/nextbox-ui-plugin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5c/40/ef96046e66884bde712d7de4c04ff3734af1ef3ce4316e674eab84fa5c2d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

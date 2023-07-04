@@ -15,7 +15,7 @@ DESCRIPTION="Provides an alternative, or maybe a more user friendly way to use t
 
 HOMEPAGE="https://github.com/aws-samples/boto_session_manager-project"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b2/7d/d114e2bb630577c7674b41a3473af556282b12d1b7ee747e46ed63777b8f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

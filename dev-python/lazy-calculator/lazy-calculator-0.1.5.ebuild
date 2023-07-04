@@ -15,7 +15,7 @@ DESCRIPTION="A Powerful Python Library for Effortless Calculations"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/74/58/abaeef167ba76b45322a71fa4525d5746ebff260b154afa2a5239e2c9e03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

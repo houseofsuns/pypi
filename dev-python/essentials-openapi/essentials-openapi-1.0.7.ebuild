@@ -15,7 +15,7 @@ DESCRIPTION="Classes to generate OpenAPI Documentation v3 and v2, in JSON and YA
 
 HOMEPAGE="https://github.com/Neoteroi/essentials-openapi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/85/b1c4d8fa997efaa344b23a595883a4a54055451533807ab5904b93b0c226/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

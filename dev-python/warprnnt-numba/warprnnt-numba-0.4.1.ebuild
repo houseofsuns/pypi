@@ -15,7 +15,7 @@ DESCRIPTION="Warp RNNT loss ported to Numba for faster experimentation"
 
 HOMEPAGE="https://github.com/titu1994/warprnnt_numba"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/7d/60d81de96f7a7a61af4ed6e7d0cc7bdff35971158b24ff63501ae09f9dde/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

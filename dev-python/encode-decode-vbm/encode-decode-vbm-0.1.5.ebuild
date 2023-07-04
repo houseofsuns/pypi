@@ -15,7 +15,7 @@ DESCRIPTION="encoding and decoding library for python"
 
 HOMEPAGE="https://github.com/mate12392/encode_decode_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d6/7a/55f2a92f6f87d30a1d963fac854ae7150bceb1ea23453c69ca209e5b8789/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

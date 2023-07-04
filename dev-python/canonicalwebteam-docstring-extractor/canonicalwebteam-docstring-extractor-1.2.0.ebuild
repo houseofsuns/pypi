@@ -15,7 +15,7 @@ DESCRIPTION="Get Python docstrings from files"
 
 HOMEPAGE="https://github.com/canonical-web-and-design/canonicalwebteam.docstring-extractor"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/c4/4f/803975a0a24cf8d29daf9651de78630e4e61df6b425122e103e7e7284e74/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

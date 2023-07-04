@@ -15,7 +15,7 @@ DESCRIPTION="Functions to help build machine learning tools"
 
 HOMEPAGE="https://github.com/cdevine49/ml_helpers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e4/8a/ededef43ce93ebe211e91bce718f7b1fd10a12b6a8eaa371e9c079ed5dac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

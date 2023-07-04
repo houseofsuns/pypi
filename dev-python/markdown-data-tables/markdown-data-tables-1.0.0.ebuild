@@ -15,7 +15,7 @@ DESCRIPTION="Embed data files such as YAML as tables in a Markdown document"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/6d/21fbce1ecf807e976ff716700224f320abdac4f6c3d40967eafba636b569/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

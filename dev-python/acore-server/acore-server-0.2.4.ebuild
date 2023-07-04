@@ -15,7 +15,7 @@ DESCRIPTION="AzerothCore World of Warcraft Logic Server Data Model."
 
 HOMEPAGE="https://github.com/MacHu-GWU/acore_server-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/02/2935ed041c3cdbb73678a61478111f7bc032e7f7e21cf22137c6dd302082/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

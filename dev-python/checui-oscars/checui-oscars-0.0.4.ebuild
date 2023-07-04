@@ -15,7 +15,7 @@ DESCRIPTION="My customized ORM on Oscars"
 
 HOMEPAGE="https://github.com/Checui/IBD_oscars"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/7f/4ee25fed2e9cf3080d0324ddeda284bac94a059255e7e3a6339294662907/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

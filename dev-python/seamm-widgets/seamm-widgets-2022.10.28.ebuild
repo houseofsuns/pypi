@@ -15,7 +15,7 @@ DESCRIPTION="seamm_widgets"
 
 HOMEPAGE="https://github.com/molssi-seam/seamm_widgets"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/48/74/3a6cf33c86ed64897e92d8feab214f3e5e5bde374be21b0384d5501bd1c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

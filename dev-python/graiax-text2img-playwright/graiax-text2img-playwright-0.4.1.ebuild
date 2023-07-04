@@ -15,7 +15,7 @@ DESCRIPTION="基于 Playwright 的适用于 Graia 的文转图工具"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fe/c3/418d5c93b76239c045221757f566f1ea0f212efb5eb5650be7ac30aa3d33/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

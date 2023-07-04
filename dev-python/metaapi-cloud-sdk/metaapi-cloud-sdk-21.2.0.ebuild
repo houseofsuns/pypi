@@ -15,7 +15,7 @@ DESCRIPTION="SDK for MetaApi, a professional cloud forex API which includes Meta
 
 HOMEPAGE="https://github.com/agiliumtrade-ai/metaapi-python-sdk"
 LICENSE="SEE LICENSE IN LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/e0/6d/9db6bf9bb274c481e4655915e149c73dc844b05b5458099f191312f1ce28/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ae namespace module portion sideloading_server: sideloading server"
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_sideloading_server"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/b9/73/3848c7ae1bb1dd70deb191a24bed9917441df1380117c5ddc976dcd0c0c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

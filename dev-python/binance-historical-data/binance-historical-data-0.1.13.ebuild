@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/stas-prokopiev/binance_historical_data"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/53/50/e04a576bf30fe95ee3b59bcef05d1a3cc825103730cdfe9a51764e76da9e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="DEPP: Deep Learning Enables Extending Species Trees using Single Ge
 
 HOMEPAGE="https://github.com/yueyujiang/DEPP"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/a8/8440f53ec8adc92a570167ab5d67b4990e6dfc0e43ca3f0dc37c7370c844/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

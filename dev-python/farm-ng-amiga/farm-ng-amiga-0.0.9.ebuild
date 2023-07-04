@@ -15,7 +15,7 @@ DESCRIPTION="Amiga development kit for third party hardware or software extensio
 
 HOMEPAGE="https://github.com/farm-ng/farm-ng-amiga"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/68/e8/1c4885b7d168de19905a79a4184e0b30c699bf42e520c187cd05faeccff6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

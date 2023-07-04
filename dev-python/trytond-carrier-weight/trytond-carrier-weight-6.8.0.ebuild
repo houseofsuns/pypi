@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module to add cost method \"on weight\" on carrier"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/12/0f/1615ebf5bd7021e0c941851d589342dfb7b7767bf30852ec7e7f4ea4916a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

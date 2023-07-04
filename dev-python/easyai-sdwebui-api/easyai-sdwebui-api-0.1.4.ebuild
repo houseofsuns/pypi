@@ -15,7 +15,7 @@ DESCRIPTION="Easy SDWebUI API - Easy API for SDWebUI, forked from mix1009/sdwebu
 
 HOMEPAGE="https://github.com/freemindcore/sdwebuiapi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/8a/fc303019b257a8b9e571592843b392c09db5ea75958054878a970cf4beb2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

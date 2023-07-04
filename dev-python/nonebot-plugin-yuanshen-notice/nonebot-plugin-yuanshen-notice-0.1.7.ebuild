@@ -15,7 +15,7 @@ DESCRIPTION="一个基于nonebot实现原神公告实时展示的插件"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c3/0f/d7cac40d57d83efc39fe2ff34dbd8d8b148bfa8478c86815baea321f9d9b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

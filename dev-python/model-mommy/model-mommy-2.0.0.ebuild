@@ -15,7 +15,7 @@ DESCRIPTION="Smart object creation facility for Django."
 
 HOMEPAGE="http://github.com/vandersonmota/model_mommy"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0b/71/ae2850e1a466020e10f218ef5a917bed1812b50f9f0fd794330cb0475e70/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

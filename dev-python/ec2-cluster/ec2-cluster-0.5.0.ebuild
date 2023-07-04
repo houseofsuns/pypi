@@ -15,7 +15,7 @@ DESCRIPTION="A tool for launching and running commands on multiple EC2 instances
 
 HOMEPAGE="https://github.com/armandmcqueen/ec2-cluster"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/20/32/4033d4793d1fc5dcbf52c279ad8361d06eeec8b4b4e22d8a6d73a65fcb91/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

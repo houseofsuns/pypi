@@ -15,7 +15,7 @@ DESCRIPTION="Biobb_disgenet is a complete code wrapper to interrogate the DisGeN
 
 HOMEPAGE="https://github.com/mapoferri/Biobb_disgenet"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2d/69/aefaac127ca8562a14e85c24c904dcba41b572510c2c18b40b82dcf5e459/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

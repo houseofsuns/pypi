@@ -15,7 +15,7 @@ DESCRIPTION="CSP tracking and violation report endpoint."
 
 HOMEPAGE="https://github.com/yunojuno/django-csp-plus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/64/b2/c8dc37bf3c96199c56e01e6d3332ac184f5e8b1a0f0364d2d57d75622c65/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

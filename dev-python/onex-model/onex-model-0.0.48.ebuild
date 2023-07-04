@@ -15,7 +15,7 @@ DESCRIPTION="The Open Network Experiments (ONEx) Python Package"
 
 HOMEPAGE="https://github.com/open-network-experiments/models"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/8b/de26b1b028a165808c2186df4f57a02871d7b84df845c00dfb48d07c605d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

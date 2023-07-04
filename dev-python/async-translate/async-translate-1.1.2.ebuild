@@ -15,7 +15,7 @@ DESCRIPTION="Multi-provider async translate API"
 
 HOMEPAGE="https://github.com/Memotic/async-translate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/be/ab9900a992f06783d27a467a5b139e128544d1f7568451d7c02c4e2c35bb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="empower AWS CodeBuild."
 
 HOMEPAGE="https://github.com/MacHu-GWU/aws_codebuild-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5b/0a/01e4669e1a39ae2af22ea9c4c81e3e3315544720ef0ce6e1bf42d91448c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

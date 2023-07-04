@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for interacting with the QDX Tengu API and modules"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/a5/4743b1fdc059c6c70bdd1545fdf8dc971101d5a6a452e0490bc08fd9198f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

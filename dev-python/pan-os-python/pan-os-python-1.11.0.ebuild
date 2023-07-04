@@ -15,7 +15,7 @@ DESCRIPTION="Framework for interacting with Palo Alto Networks devices via API"
 
 HOMEPAGE="https://github.com/PaloAltoNetworks/pan-os-python"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/07/ed/b324ea05c94140de961fa3816550bb7bd3d24f9d31af634b59e020ddaf6c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

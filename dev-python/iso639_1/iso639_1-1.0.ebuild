@@ -15,7 +15,7 @@ DESCRIPTION="Enum for ISO 639-1 (languages)"
 
 HOMEPAGE="https://github.com/jonathan-shemer/iso639-1"
 LICENSE="GNUv3"
-SRC_URI="https://files.pythonhosted.org/packages/55/16/f8f6889e2d0882dd2b1f8b2d311097079dd8a5c27c0b2f828216715abb35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

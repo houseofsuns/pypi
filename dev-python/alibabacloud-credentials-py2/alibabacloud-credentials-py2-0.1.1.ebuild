@@ -15,7 +15,7 @@ DESCRIPTION="The alibabacloud credentials module of alibabaCloud Python2 SDK."
 
 HOMEPAGE="https://github.com/aliyun/credentials-python2"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/78/a4/b3711c70d7177c2e2d5a49f7609d09c2ecb702d94bc50b90e4cfbbb6daa8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

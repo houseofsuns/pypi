@@ -15,7 +15,7 @@ DESCRIPTION="Thoughtful Automation Core"
 
 HOMEPAGE="https://www.thoughtfulautomation.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/20/20/8cab2f6b7954726cb8984c4f280e7f1b7ea8946e87ae0fbc2a0a95458c27/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

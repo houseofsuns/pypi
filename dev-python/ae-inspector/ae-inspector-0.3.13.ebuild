@@ -15,7 +15,7 @@ DESCRIPTION="ae namespace module portion inspector: inspection and debugging hel
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_inspector"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/6a/03/e3b3b9d770e85144a8dbf70b462c6754a0e35f986acca9331dc0cd831135/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

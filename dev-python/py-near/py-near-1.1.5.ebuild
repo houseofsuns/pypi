@@ -15,7 +15,7 @@ DESCRIPTION="Pretty simple and fully asynchronous framework for working with NEA
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0a/ae/9eaba3305a97ef0a51a6242886141a6ba4a8bbfac604f82224e404f278ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

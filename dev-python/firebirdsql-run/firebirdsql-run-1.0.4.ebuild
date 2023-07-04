@@ -15,7 +15,7 @@ DESCRIPTION="Firebirdsql wrapper inspired by subprocess.run"
 
 HOMEPAGE="https://github.com/DeadNews/firebirdsql-run"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/12/62/de16ed7df2ae9d29d14461f7ccb3b851ad8adfc080a1fcca7b496340f8fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

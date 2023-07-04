@@ -15,7 +15,7 @@ DESCRIPTION="A python package to simplify calling NeqSimAPI for end-users."
 
 HOMEPAGE="https://github.com/equinor/NeqSimAPI-connector"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/f5/7bd14085d3f569e8f741c8dc405c3d8464a6992b488297cfac445cba8e50/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

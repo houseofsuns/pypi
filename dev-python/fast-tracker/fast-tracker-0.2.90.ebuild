@@ -15,7 +15,7 @@ DESCRIPTION="FAST Python Agent"
 
 HOMEPAGE="http://doc.mypaas.com.cn/fast/03_%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%8E%A2%E9%92%88%E9%9B%86%E6%88%90/%E7%AE%80%E4%BB%8B.html"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/91/1c/ea1134efbc9a1c3625807beced4a6f2c2e1cfd7dc465dc58309c4d8720bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

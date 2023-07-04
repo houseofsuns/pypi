@@ -15,7 +15,7 @@ DESCRIPTION="IGWN extensions to sphinx-immaterial"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/8a/733898e3de3ccf6072030505918ea851f0c9ca04bfb2e4db6091a8bfd81c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

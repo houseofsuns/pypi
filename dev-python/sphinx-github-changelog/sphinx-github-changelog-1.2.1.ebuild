@@ -15,7 +15,7 @@ DESCRIPTION="Build a sphinx changelog from GitHub Releases"
 
 HOMEPAGE="https://sphinx-github-changelog.readthedocs.io/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/a6/d5a172e733b82202010410f4b3777c2b5fa036bad46f53a7cbe18749b8e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

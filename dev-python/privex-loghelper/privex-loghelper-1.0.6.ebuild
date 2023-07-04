@@ -15,7 +15,7 @@ DESCRIPTION="Small dependency-free class to make logging easier"
 
 HOMEPAGE="https://github.com/Privex/python-loghelper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/0a/01acffad0d39165b54e48fdb37ae24187862cac7a357d0e695743c02bbe6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

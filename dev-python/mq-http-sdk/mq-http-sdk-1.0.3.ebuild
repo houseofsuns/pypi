@@ -15,7 +15,7 @@ DESCRIPTION="Aliyun Message Queue(MQ) Http Python SDK"
 
 HOMEPAGE="https://github.com/aliyunmq/mq-http-python-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/7a/c94bd77520f107de1ecba3f5d266b86b0472f06ed93f9e41239a10ee5f65/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

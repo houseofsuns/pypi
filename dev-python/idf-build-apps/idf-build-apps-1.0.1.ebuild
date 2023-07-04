@@ -15,7 +15,7 @@ DESCRIPTION="Tools for building ESP-IDF related apps."
 
 HOMEPAGE="https://github.com/espressif/idf-build-apps"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/15/2e/5e0395eb41311ad8fa81184eb33fc4403e572500c9334c9e06c4acdd0be7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

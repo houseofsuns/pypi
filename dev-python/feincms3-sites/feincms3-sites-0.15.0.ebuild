@@ -15,7 +15,7 @@ DESCRIPTION="Multisite support for feincms3"
 
 HOMEPAGE="https://github.com/matthiask/feincms3-sites/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e2/56/63cbdef3711aaaddf2800e9d269885fa041dae4a3f4ad78f5cf1832da1d3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

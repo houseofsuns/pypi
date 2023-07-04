@@ -15,7 +15,7 @@ DESCRIPTION="A companion library for Arcade providing accelerated Rust functions
 
 HOMEPAGE="https://github.com/pythonarcade/arcade-accelerate"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/bb/e5029194c6f68aabe4824a22f15a7930e3a0b4bb8276172a5c8d74e43786/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A parseable command-line package to search like pip used to, via Py
 
 HOMEPAGE="https://github.com/marticliment/parseable_pip_search"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/03/12282bbf42eb8ed357b96139f2b8c3eb71702613450149a4519d16b72b52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

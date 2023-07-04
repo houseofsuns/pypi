@@ -15,7 +15,7 @@ DESCRIPTION="dashboard & text alerts for disputable values reported to Tellor or
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/0c/f607ec977d78b9ac0227aca359cc116ecdcee9ac6a079f226fbad16c6c24/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

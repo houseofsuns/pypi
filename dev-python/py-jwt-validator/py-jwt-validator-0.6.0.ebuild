@@ -15,7 +15,7 @@ DESCRIPTION="Python JWT Signature Validator - Asymetric Keys - From exponent and
 
 HOMEPAGE="https://github.com/adrianlzr/py-jwt-validator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/9e/6a90d4a5ee07ebe8ad4cd23203408fe5c0805890992905c4bf404e745fe8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

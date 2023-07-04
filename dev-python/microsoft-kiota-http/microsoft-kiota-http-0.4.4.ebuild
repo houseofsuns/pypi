@@ -15,7 +15,7 @@ DESCRIPTION="Kiota http request adapter implementation for httpx library"
 
 HOMEPAGE="https://github.com/microsoft/kiota#readme"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/22/e3/9b362005b4249fd3203f8affacc2cb8cceb187cc8327a76e2005e5671e8f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

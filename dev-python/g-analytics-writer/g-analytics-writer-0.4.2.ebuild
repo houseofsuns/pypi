@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight Google Analytics support"
 
 HOMEPAGE="https://github.com/jvanasco/g_analytics_writer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/48/eb/e2223cf8c127b38ff3f4514c48d6461dc033e84b1479726072856c28e05c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

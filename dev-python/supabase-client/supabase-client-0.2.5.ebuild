@@ -15,7 +15,7 @@ DESCRIPTION="A supabase client for Python"
 
 HOMEPAGE="https://github.com/keosariel/supabase-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/c2/ce13467812a0524a89ea305711f7ad463376d2e4c09bf07e2ed445ff99f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

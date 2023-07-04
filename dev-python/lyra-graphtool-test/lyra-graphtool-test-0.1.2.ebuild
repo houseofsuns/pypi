@@ -15,7 +15,7 @@ DESCRIPTION="Lyra Graphtool"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ec/6d/2f5412f9e4d5cca2d58d7d45f694b024c0c9a59b4a615cedc909a1a78877/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

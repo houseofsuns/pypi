@@ -15,7 +15,7 @@ DESCRIPTION="A client for http://appeau.api.vignevin-epicure.com API"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c0/d7/9a37ec2b246409c5a137de78aea24cd12cbf17a5f606b329129e450ddaf8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="The tea-fileform module of alibabaCloud Python SDK."
 
 HOMEPAGE="https://github.com/aliyun/tea-fileform/tree/master/python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/22/8a/ef8ddf5ee0350984cad2749414b420369fe943e15e6d96b79be45367630e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

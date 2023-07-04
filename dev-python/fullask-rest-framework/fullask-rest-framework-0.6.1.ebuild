@@ -15,7 +15,7 @@ DESCRIPTION="A fully-supported flask extension to build REST API."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b2/f0/43078df0ba2e8d6a3a264f35f3295392f516f3bad8e4cdce36ddc371b9f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python HTTP requests on steroids"
 
 HOMEPAGE="https://github.com/kiwicom/request-session"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/00/0c/e6bed5f7dd5ec4d501dd8a5a1a8ff600a36a26b0d6743f5e1ebf3b6973bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

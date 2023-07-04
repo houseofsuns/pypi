@@ -15,7 +15,7 @@ DESCRIPTION="Conversions between kornia and other computer vision libraries form
 
 HOMEPAGE="https://github.com/ducha-aiki/kornia_moons/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c2/d6/cc507e5578448a6ec575d14a60b991570e86fd3cbdd4959a22c341008b0b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

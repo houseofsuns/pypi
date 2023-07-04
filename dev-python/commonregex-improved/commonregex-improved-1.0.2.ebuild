@@ -15,7 +15,7 @@ DESCRIPTION="An improved version of original commonregex. Find all dates, times,
 
 HOMEPAGE="https://github.com/brootware/commonregex-improved"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/79/b601923abef5bdd6fd11c9d0135f8a605610968583c5926d4406bc0855a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

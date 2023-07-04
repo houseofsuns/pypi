@@ -15,7 +15,7 @@ DESCRIPTION="Automatically rerun your tests on file modifications"
 
 HOMEPAGE="https://github.com/olzhasar/pytest-watcher"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/4d/344146674973fd35e75f1e48160df6ec47e1f98b922fcfdc101b39ff1757/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

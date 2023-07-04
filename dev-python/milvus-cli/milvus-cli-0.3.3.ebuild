@@ -15,7 +15,7 @@ DESCRIPTION="CLI for Milvus"
 
 HOMEPAGE="https://github.com/zilliztech/milvus_cli"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0a/aa/0b0f8a83e79b9a33cce3196b71f1078e23e06d330476433ac1d64391e365/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

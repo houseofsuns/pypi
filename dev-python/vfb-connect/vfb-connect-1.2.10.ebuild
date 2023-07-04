@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper for querying VirtualFlyBrain servers."
 
 HOMEPAGE="https://github.com/VirtualFlyBrain/VFB_connect"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d5/1d/860e191040954bc19b6ddfb222252d922ec2df1500c18da58bd4b4c19440/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

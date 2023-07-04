@@ -15,7 +15,7 @@ DESCRIPTION="A client library for accessing Oblivious APIs"
 
 HOMEPAGE="https://github.com/ObliviousAI/oblv-ctl/tree/master/README.md"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d1/cc/11d0258b9fbf7709c5afe5e7a915234d2de29861ce32b4771894350f6ae9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

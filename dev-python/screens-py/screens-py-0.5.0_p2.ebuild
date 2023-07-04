@@ -15,7 +15,7 @@ DESCRIPTION="A light-weight library for easy interaction between Python and GNU 
 
 HOMEPAGE=""
 LICENSE="GNU GENERAL PUBLIC"
-SRC_URI="https://files.pythonhosted.org/packages/3f/f1/9c60e64a31e7f28d7b37b5114b6b7225b1dd7129781ff2c5b6062a4f00c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

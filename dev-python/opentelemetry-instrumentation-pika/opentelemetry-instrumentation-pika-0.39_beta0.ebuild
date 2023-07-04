@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry pika instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-pika"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/6d/de7a064da0908ff985e7c95a054230d792a8005a95eec59247b47d6b083f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

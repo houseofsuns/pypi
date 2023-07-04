@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper for the built-in Argparse, allowing missing command-line ar
 
 HOMEPAGE="https://github.com/MelbourneGenomics/ArgparsePrompt"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e3/3f/20f0a59513a65a280c533de318c6432f26d13d6e87f33a530d4acce3aa85/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

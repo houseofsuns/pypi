@@ -15,7 +15,7 @@ DESCRIPTION="whois client for parsing domain creation date and registrar"
 
 HOMEPAGE="https://github.com/ElliotVilhelm/python-domain-validation"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7b/88/ef2ea3785c76a9b504a8d0294707442f1cc52b09041ec345686d7a4877f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="API wrapper for programmatic management of PythonAnywhere services.
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/80/c77217e713a669b77fb77e2d7850e647bab8efdf7465a29efe7a2446b46e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Cashfree LRS"
 
 HOMEPAGE="https://github.com/GIT_USER_ID/GIT_REPO_ID"
 LICENSE="NoLicense"
-SRC_URI="https://files.pythonhosted.org/packages/f3/f8/0a01f0cf4dcf3fb712edc7aa15d10e290ead5c0e48170f6b1a3cacf8debc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

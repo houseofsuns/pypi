@@ -15,7 +15,7 @@ DESCRIPTION="A commandline tool that wraps the Archerysec REST API for controlli
 
 HOMEPAGE="https://github.com/archerysec/archerysec-cli.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/10/5fe7fc4e058b076285f8aae43e76bd145d314c022996b030eec52fefb7a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

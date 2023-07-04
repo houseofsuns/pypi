@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry pymemcache instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-pymemcache"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/60/f7/4ef7be05927d14ca1be7978b0e54630ca2c8703589d9f4faf6c18450c077/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

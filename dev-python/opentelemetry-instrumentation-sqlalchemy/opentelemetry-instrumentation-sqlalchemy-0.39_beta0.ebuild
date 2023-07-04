@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry SQLAlchemy instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-sqlalchemy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bd/7c/c4718a825eae2213f63b69dfda594887022a34b5954e4cb5529f34f17aec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

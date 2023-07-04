@@ -15,7 +15,7 @@ DESCRIPTION="Middleware for Starlette that allows you to store and access the co
 
 HOMEPAGE="https://github.com/tomwojcik/starlette-context"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/21/aa5d3848fcb77f0e7c9f1844271826ff74d83fad9920ca7f8105e0dc02ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="common libraries for kheina.com"
 
 HOMEPAGE="https://github.com/kheina-com/kh-common"
 LICENSE="Mozilla Public License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bb/cb/517ac5d6d9de28ecd32e0d22bc8ce9d7222118948b87e8fc7810b172bbba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python packaging for Athena's reporting framework"
 
 HOMEPAGE="https://github.com/mehulnagpurkar/vulcan_athena"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/f4/e656f4c3d4de6787cacde58697eda6ed1a8574eacc492fcece44342455c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

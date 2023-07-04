@@ -15,7 +15,7 @@ DESCRIPTION="Package for wrapping the OneDep deposition API services"
 
 HOMEPAGE=""
 LICENSE="apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/81/0a/bc8f12b1f58d0223acfe7ffadcdc1bd1c43e9502adc76c0e48b1ee4414be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

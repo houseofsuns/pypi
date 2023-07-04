@@ -15,7 +15,7 @@ DESCRIPTION="a pytest plugin to tag tests"
 
 HOMEPAGE="https://github.com/scastlara/pytest-tagging"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/52/10aedd98bc0be589a8077a33253f025eefed8e650acb0c87b6e4e491033a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

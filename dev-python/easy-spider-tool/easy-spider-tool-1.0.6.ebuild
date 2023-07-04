@@ -15,7 +15,7 @@ DESCRIPTION="简易、好用的爬虫工具,减少重复代码与文件冗余"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/ce/fd82aaf42b8a6692c8a3ef8dc1b4427682fc1ad9a2bf39129e31de469836/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

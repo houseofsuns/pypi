@@ -15,7 +15,7 @@ DESCRIPTION="Google colab SSH connector"
 
 HOMEPAGE="https://github.com/WassimBenzarti/colab-ssh-connector.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/4c/032806749be8c7cb1beb0615051e96280df9ff5dc7d1ba87ed29cea3b492/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

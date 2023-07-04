@@ -15,7 +15,7 @@ DESCRIPTION="IBM Z HMC Prometheus Exporter"
 
 HOMEPAGE="https://github.com/zhmcclient/zhmc-prometheus-exporter"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b9/cf/c16ab6db08cb4c636f5c7f3c0368fbcce17be6a65a24e6a9091b611af792/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

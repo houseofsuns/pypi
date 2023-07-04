@@ -15,7 +15,7 @@ DESCRIPTION="Move some of your Sphinx configuration into pyproject.toml"
 
 HOMEPAGE="https://github.com/sphinx-toolbox/sphinx-pyproject"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/b6/a3f8d4b48d0e65fb2882c368635a25cbeebb1d7952779c549160dc2d436d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

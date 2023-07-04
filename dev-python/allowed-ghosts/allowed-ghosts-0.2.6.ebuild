@@ -15,7 +15,7 @@ DESCRIPTION="Daily inspiration for \`ALLOWED_HOSTS\` values."
 
 HOMEPAGE="https://github.com/JV-conseil/allowed-ghosts"
 LICENSE="EUPL-1.2"
-SRC_URI="https://files.pythonhosted.org/packages/f0/ac/af138ebb3c4156c51ea26050a4bf68179e87f0400ef8c9fdec4e48847242/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

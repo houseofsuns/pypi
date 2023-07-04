@@ -15,7 +15,7 @@ DESCRIPTION="A drop-in replacement for Torchvision Transforms using OpenCV"
 
 HOMEPAGE="https://github.com/jbohnslav/opencv_transforms"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/a9/1526cf7e8365ce3bf3bb3a3adbfe2054570d4e177ae052f1ab1c2a2e81dd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

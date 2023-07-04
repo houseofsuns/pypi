@@ -15,7 +15,7 @@ DESCRIPTION="Test of PyPI security"
 
 HOMEPAGE="https://github.com/ArthurLeFloch/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1d/a3/62ab48b1edbe387ac22ae728bbec3f992b1eaa16f0cc5c6ccc3ce5d826ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Get AWS credentials from a profile to inject into other programs"
 
 HOMEPAGE="https://github.com/benkehoe/aws-export-credentials"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0b/16/cc2e3ee2bafc9a9676e3ec0f8174ad3931984c8cf8e341358ee77fffb10f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Python logging handler that sends your logs to Splunk"
 
 HOMEPAGE="https://github.com/zach-taylor/splunk_handler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/32/fc/23accd936e52a6d2eb75db17bf0002177f01df9e460fed3f77116fe1a844/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

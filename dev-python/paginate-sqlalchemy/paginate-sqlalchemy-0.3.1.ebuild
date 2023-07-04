@@ -15,7 +15,7 @@ DESCRIPTION="Extension to paginate.Page that supports SQLAlchemy queries"
 
 HOMEPAGE="https://github.com/Pylons/paginate_sqlalchemy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/59/2ee2fd72e15306ccecc74fc6d0eec64a12bf6a9eb3ca3dfc7edaad7d7330/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

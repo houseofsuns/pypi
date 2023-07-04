@@ -15,7 +15,7 @@ DESCRIPTION="Block comment checker"
 
 HOMEPAGE="https://github.com/ikemo3/flake8-block-comment"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/62/952e5f2ae277ae915a819d50ce5c0e0bf1093593906fcea99e99bb0fabf3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

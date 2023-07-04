@@ -15,7 +15,7 @@ DESCRIPTION="CLI tool for dbt users adopting analytics engineering best practice
 
 HOMEPAGE="https://datacoves.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6b/9c/156e51b94961980aa5459ce074ca1894569a3099e5f8059da04e842e63c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

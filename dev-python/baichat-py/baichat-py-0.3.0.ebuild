@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://codeberg.org/Bavarder/baichat-py"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/c8/01/1d4e827b5a3555d9c9a5c035d00a9d0bb84d121b6625772abbc09e35574a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

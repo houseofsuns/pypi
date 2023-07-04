@@ -15,7 +15,7 @@ DESCRIPTION="Foodpanda Thailand Data & Insight team utility functions"
 
 HOMEPAGE=""
 LICENSE="Delivery Hero Thailand Co., Ltd."
-SRC_URI="https://files.pythonhosted.org/packages/41/54/5b7f067${REALVERSION}bed807${REALVERSION}15aaeda03aa${REALVERSION}7c1cd08397fe41${REALVERSION}5ec41e9acfeb44${REALVERSION}980/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

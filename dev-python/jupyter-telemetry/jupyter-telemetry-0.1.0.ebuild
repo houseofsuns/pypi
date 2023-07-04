@@ -15,7 +15,7 @@ DESCRIPTION="Jupyter telemetry library"
 
 HOMEPAGE="http://jupyter.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c4/59/edd04590235d9afe2b2b49ec449c6146dc71b717110f4a1034d52eb54303/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

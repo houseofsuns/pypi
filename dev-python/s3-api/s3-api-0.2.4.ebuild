@@ -15,7 +15,7 @@ DESCRIPTION="Alibaba Cloud API Client"
 
 HOMEPAGE="http://s3-api.hive.pt"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/97/6d/ab3991a2e8d26428e06b1854218fe999817fca15b885e3b69423b84c069a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

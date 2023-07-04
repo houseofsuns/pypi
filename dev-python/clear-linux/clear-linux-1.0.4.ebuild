@@ -15,7 +15,7 @@ DESCRIPTION="Runs the linux clear command from python in one function"
 
 HOMEPAGE="https://airplaneboy14mc.github.io/pypi-clear/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c1/ae/5d5c8622fbaa885e71da00b13d44b1e3d46e2b82e765b8efdb55739e223f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

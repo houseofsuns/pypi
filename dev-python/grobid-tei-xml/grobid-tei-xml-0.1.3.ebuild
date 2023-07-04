@@ -15,7 +15,7 @@ DESCRIPTION="parser and transforms for GROBID-flavor TEI-XML"
 
 HOMEPAGE="https://gitlab.com/internetarchive/grobid_tei_xml"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/ee/8eb2cd1253154de2b0dbbe5ed3a5b0963589b74bbe5f8a55b1137093d816/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Find and fix Django mishaps."
 
 HOMEPAGE="https://django.doctor"
 LICENSE="Proprietary. Please purchase a license for commercial use."
-SRC_URI="https://files.pythonhosted.org/packages/fb/65/40996cea4efbfc870c34c07fca53e16a8e2be92c8ac4079389294ebaf109/${REALNAME//-/_}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.zip"
 SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 

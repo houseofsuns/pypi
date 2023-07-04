@@ -15,7 +15,7 @@ DESCRIPTION="Create new pop projects"
 
 HOMEPAGE="https://vmware.gitlab.io/pop/pop-create/en/latest/index.html"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1e/d4/47a6ee88e4eb276cdc23842b9655dbf3a693b0930622aa65f9611ecec089/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

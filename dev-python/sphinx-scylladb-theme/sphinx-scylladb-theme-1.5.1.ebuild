@@ -15,7 +15,7 @@ DESCRIPTION="A Sphinx Theme for ScyllaDB documentation projects"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/cb/6b74dff9a4db5f1325a4956a3d4283a77b59e438fb2521f1c777fdd1cdd7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

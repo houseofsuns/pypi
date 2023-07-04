@@ -15,7 +15,7 @@ DESCRIPTION="Python API for controlling Leviton Decora Smart WiFi switches"
 
 HOMEPAGE="http://github.com/tlyakhov/python-decora_wifi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/31/0a/74af34ea5212fe18ab74558205f845b1738a12e36e7c8fb395f875b8e0ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

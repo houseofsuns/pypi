@@ -15,7 +15,7 @@ DESCRIPTION="A flake8 plugin to help you write better list/set/dict comprehensio
 
 HOMEPAGE="https://github.com/adamchainz/flake8-comprehensions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/cc/a5ce88a747365682908aa76d14991839d0dec6ac301899fbb8c18cd4cbbf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

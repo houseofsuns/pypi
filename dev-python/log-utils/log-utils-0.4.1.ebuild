@@ -15,7 +15,7 @@ DESCRIPTION="Utils for generic python logging package"
 
 HOMEPAGE="https://github.com/wolf1986/log_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/10/73a2993a3c2ec309b56d92902278a6e78613e6374fca0a5c8c466c9e05a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

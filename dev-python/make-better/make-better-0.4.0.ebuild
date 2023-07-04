@@ -15,7 +15,7 @@ DESCRIPTION="Easy lint and format you code"
 
 HOMEPAGE="https://github.com/Roktober/make_better"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/85/f6/e8050280108e637574a388e65305c586bc9cb5361f345a364b9cabddc1ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

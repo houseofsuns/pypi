@@ -15,7 +15,7 @@ DESCRIPTION="Provide Pydantic types from FGO API"
 
 HOMEPAGE="https://api.atlasacademy.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f4/af/6413edb5e1060b0fc9752cea5dbd5bde763eebf6925d0ac38bc2ec0a4d84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

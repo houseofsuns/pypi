@@ -15,7 +15,7 @@ DESCRIPTION="failures-analysis package provides fast and reliable way to find an
 
 HOMEPAGE="https://github.com/F-Secure/failures-analysis"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4d/a7/ed7929ffbdf0a9a220f469cbd282d8479203ca0ad6d848ac31c454f7869b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

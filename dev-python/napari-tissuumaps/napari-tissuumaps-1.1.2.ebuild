@@ -15,7 +15,7 @@ DESCRIPTION="A plugin to export Napari projects to TissUUmaps."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/68/edf1949b832e314d9d28206a931a186398dc1d7962dbc9910f0a5645034f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

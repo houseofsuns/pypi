@@ -15,7 +15,7 @@ DESCRIPTION="Python Tools"
 
 HOMEPAGE="https://github.com/forbes-group/mmf-setup"
 LICENSE="GNU GPLv2 or any later version"
-SRC_URI="https://files.pythonhosted.org/packages/41/02/23f08d15ee70e761c63ad45855bae4c1e8413b64c68b3ca28eb77b169f8a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

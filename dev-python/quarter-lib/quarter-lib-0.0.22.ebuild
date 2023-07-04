@@ -15,7 +15,7 @@ DESCRIPTION="TBD"
 
 HOMEPAGE="https://github.com/viertel97/quarter-lib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9b/e9/5242cd5579965655859b36a266e24f4283511b199e7c747891bd490fbc3c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

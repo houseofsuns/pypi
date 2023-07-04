@@ -15,7 +15,7 @@ DESCRIPTION="A compact Python package for handling ArUCo markers."
 
 HOMEPAGE="https://github.com/cmower/aruco_markers"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3f/58/d1558dbac418ebfd6150804fd378425c3c194a869a151037de6eaa4cbb49/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="This is a cli tool that interacts with the Let's Debug API"
 
 HOMEPAGE=""
 LICENSE="License :: OSI Approved :: MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/df/f2/3e5391deb26d82d0828c083467e3948b396a6d5fd3afb01338b6e7e78628/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

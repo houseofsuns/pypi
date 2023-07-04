@@ -15,7 +15,7 @@ DESCRIPTION="A Python module implemented in Rust for efficient calculations"
 
 HOMEPAGE="https://github.com/NeuroPyPy/rs-distances"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f7/38/143cadbaaa5492424a57327bd4af09ffc166cceb679d209c46992c18ca62/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

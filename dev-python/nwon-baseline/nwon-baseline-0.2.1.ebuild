@@ -15,7 +15,7 @@ DESCRIPTION="Python Code that is used in several projects"
 
 HOMEPAGE="https://nwon.de"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/35/2bd87bf0b5a389789720ad7cdab85ccc7b26503810dedb5276a2a3a31624/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

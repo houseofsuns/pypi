@@ -15,7 +15,7 @@ DESCRIPTION="A Django app for adding object tools for models in the admin"
 
 HOMEPAGE="https://github.com/crccheck/django-object-actions"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6a/19/4cbee97d8322492c3cb470ea6fb870986ae475f2b0354820f274ff9c92e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

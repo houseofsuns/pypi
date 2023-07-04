@@ -15,7 +15,7 @@ DESCRIPTION="ae namespace module portion lisz_app_data: lisz demo app data handl
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_lisz_app_data"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/46/86/0df4ee6e2bb689d43f207fc577a5fd8f3b55a79447f1f83c2076e301aaf0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

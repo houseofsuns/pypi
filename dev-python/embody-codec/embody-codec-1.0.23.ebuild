@@ -15,7 +15,7 @@ DESCRIPTION="Embody Codec"
 
 HOMEPAGE="https://github.com/aidee-health/embody-codec"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a3/c2/3753992ef9f9bb792a242f759b3e8aec6bdbb767b410ecb3200cbb46655f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

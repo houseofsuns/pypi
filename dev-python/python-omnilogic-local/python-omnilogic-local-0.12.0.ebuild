@@ -15,7 +15,7 @@ DESCRIPTION="A library for local control of Hayward OmniHub/OmniLogic pool contr
 
 HOMEPAGE="https://github.com/cryptk/python-omnilogic-local"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b9/f2/f6f0f75c159e8a08aac801a0f2111d01a2655c8def77877e6f72d54f94ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

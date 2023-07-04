@@ -15,7 +15,7 @@ DESCRIPTION="Pluggable message queueing for Python"
 
 HOMEPAGE="https://github.com/shipt/py-volley"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/5a/1602e3188879a0f687daf2a4a27b82d90e25d3c0dd2919e388a7f124206b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

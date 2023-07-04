@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry Logging instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-logging"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0c/58/7bfe678d68e13655f3669f215d9576803ae7d47009d2c9d7880873a97c21/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

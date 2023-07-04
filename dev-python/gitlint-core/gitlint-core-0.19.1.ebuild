@@ -15,7 +15,7 @@ DESCRIPTION="Git commit message linter written in python, checks your commit mes
 
 HOMEPAGE="https://jorisroovers.github.io/gitlint"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/51/b59270264aabcab5b933f3eb9bfb022464ca9205b04feef1bdc1635fd9b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

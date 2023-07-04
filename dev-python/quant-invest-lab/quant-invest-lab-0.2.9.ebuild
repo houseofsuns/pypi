@@ -15,7 +15,7 @@ DESCRIPTION="Quant Invest Lab is a python package to help you to do some quantit
 
 HOMEPAGE="https://github.com/BaptisteZloch/Quant-Invest-Lab"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/85/49/43b3276503fa9cf26c18a6c92fb318b5d340764c4a1fd927cabdb4889af5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

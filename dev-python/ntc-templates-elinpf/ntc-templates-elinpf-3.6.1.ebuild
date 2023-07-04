@@ -15,7 +15,7 @@ DESCRIPTION="网络设备TextFSM模板，在原有的基础上增加中国主流
 
 HOMEPAGE="https://github.com/Elinpf/ntc-templates"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/09/59/4987572fe965768952bdade781ed694d8b0cb6fae2a98d47f68836db7342/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

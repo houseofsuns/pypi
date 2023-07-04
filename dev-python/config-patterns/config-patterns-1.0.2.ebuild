@@ -15,7 +15,7 @@ DESCRIPTION="Brings config management best practices for production-ready applic
 
 HOMEPAGE="https://github.com/MacHu-GWU/config_patterns-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/2f/312fb36ea880b39117b83297572e786dc7f37d8951fe3f78a84a8f6aff29/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

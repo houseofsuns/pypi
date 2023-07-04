@@ -15,7 +15,7 @@ DESCRIPTION="S3 packager for Sceptre 2"
 
 HOMEPAGE="https://github.com/henrist/sceptre-s3-packager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2b/09/283db3fc1735a779322e97005ebceb6df0f4648f3927cd368868c5277b68/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

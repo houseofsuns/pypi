@@ -15,7 +15,7 @@ DESCRIPTION="Flask support for dependency injection with autoinject"
 
 HOMEPAGE="https://github.com/turnbullerin/flask_autoinject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/b9/2c5d03cebb200f721b93bb0c5e31ed647782669f4b0f29a3b3bbcca82b48/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

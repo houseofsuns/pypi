@@ -15,7 +15,7 @@ DESCRIPTION="Self-supervised contrastive learning made simple"
 
 HOMEPAGE="https://github.com/lucidrains/contrastive-learner"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/6a/d56f6b958ca6d91e0d439d1959d135f4919b6116ad1b5b5ad270676126e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

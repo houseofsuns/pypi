@@ -15,7 +15,7 @@ DESCRIPTION="JupyterLab viewer for GitHub repositories"
 
 HOMEPAGE="https://github.com/jupyterlab/jupyterlab-github"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/0b/ab/6629a0a0f30d386bcaee12043059709182c59273b90c2346f34f0c476e3e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

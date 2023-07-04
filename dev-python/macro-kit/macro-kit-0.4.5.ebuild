@@ -15,7 +15,7 @@ DESCRIPTION="Macro recording and metaprogramming in Python"
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/bb/7f/497e44f4092aee2e631cebbcd9ee0e3efb80fa45ddbc7c137e828dbbead8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

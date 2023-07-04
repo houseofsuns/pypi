@@ -15,7 +15,7 @@ DESCRIPTION="Django Audit is a simple Django app that tracks and logs requests t
 
 HOMEPAGE="https://github.com/Emmarex/django-audit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9b/48/096bc0fdf7d78506b258efeb90cf94074018631cdc3bcd293f8c2f4dcec0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

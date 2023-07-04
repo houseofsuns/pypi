@@ -15,7 +15,7 @@ DESCRIPTION="Django Rest Framework UJSON Renderer"
 
 HOMEPAGE="https://github.com/Amertz08/drf_ujson2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/51/c43ec446549342b98e446b4d4c1ff37a43a89bf9a59cee42a2ac0f6dec19/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

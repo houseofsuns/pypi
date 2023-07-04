@@ -15,7 +15,7 @@ DESCRIPTION="Converts between Python dictionaries and JSON to rospy messages."
 
 HOMEPAGE="http://ros.org/wiki/rospy_message_converter"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/42/63/b1b7cfffe1141eecad2154af0c9d1e293d9625b1455c1fd68469037eedc2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

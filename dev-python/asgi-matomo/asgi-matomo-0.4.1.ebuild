@@ -15,7 +15,7 @@ DESCRIPTION="Middleware for tracking ASGI reqeusts with Matomo"
 
 HOMEPAGE="https://spraakbanken.gu.se"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f1/38/b8638fef97b4a16abf6a613bad2f0da242ccfd520f29980dfa8a2987f927/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

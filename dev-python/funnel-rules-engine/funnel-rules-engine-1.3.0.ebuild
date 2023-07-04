@@ -15,7 +15,7 @@ DESCRIPTION="A simple, generic rules engine."
 
 HOMEPAGE="https://github.com/funnel-io/funnel-rules-engine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/16/5a728d72c667d0736734c1ebe3cc7e6f4b86aac3880a903569829488cf37/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

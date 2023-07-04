@@ -15,7 +15,7 @@ DESCRIPTION="Tools for automatically prefetching related objects in Django and D
 
 HOMEPAGE="https://github.com/GeeWee/django-auto-prefetching"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/0d/56491db8df963fab7929a067e576353d7f6d118613ae4e1117b0154db092/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

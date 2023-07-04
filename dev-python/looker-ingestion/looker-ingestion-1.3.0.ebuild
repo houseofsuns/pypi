@@ -15,7 +15,7 @@ DESCRIPTION="Extracts adhoc queries from the Looker API to S3"
 
 HOMEPAGE="https://github.com/open-toast/extract-looker-metadata"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8e/16/2e05e02de1a8d850c9815d1b47303a372e025f48ae7e353979cf3179e4e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for https://alpha-trader.com"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/21/bbb15b0cf685beb9a01a6cb457c763b9d52154c41e7ebbca81c0d16d8956/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

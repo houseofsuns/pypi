@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/olirice/cachetools_ext"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2d/8d/1e115d8cdb521140698b27de6ea0c3197a557257c27d77af5d83f614209c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

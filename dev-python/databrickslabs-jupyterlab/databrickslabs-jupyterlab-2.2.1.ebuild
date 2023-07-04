@@ -15,7 +15,7 @@ DESCRIPTION="Remote JupyterLab kernel for Databricks"
 
 HOMEPAGE="https://github.com/databrickslabs/Jupyterlab-Integration"
 LICENSE="Databricks License"
-SRC_URI="https://files.pythonhosted.org/packages/fe/21/5762dc1ee326c31d68b970fc08bedf3c93fa162709d49d95fd4e3072cd60/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

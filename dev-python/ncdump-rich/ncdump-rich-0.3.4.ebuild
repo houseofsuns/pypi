@@ -15,7 +15,7 @@ DESCRIPTION="Rich NcDump"
 
 HOMEPAGE="https://github.com/engeir/ncdump-rich"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/48/26/bb07a22f18cfc530ab6ae32e8e3e93bd8029c6bbf9dfa172658c22aefe1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

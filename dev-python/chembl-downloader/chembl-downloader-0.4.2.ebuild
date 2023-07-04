@@ -15,7 +15,7 @@ DESCRIPTION="Reproducibly download, open, parse, and query ChEMBL"
 
 HOMEPAGE="https://github.com/cthoyt/chembl_downloader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c6/70/5f1b39298e2a1ee4f64f362967d125e254ff7b283a97a0352168c42cca54/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

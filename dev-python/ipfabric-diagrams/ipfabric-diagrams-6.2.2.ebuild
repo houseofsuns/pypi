@@ -15,7 +15,7 @@ DESCRIPTION="Python package for interacting with IP Fabric Diagrams"
 
 HOMEPAGE="https://gitlab.com/ip-fabric/integrations/python-ipfabric-diagrams"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2f/3c/606dae69bb2057f51ad7ef5d90e35c7230ec65230de1095b5b13dae1334b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

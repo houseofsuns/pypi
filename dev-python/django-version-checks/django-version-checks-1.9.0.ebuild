@@ -15,7 +15,7 @@ DESCRIPTION="System checks for your project's environment."
 
 HOMEPAGE="https://github.com/adamchainz/django-version-checks"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0b/46/5b03bd3fed3e79043c942067e6f2179bb1b609e459d47a0f6e59b45139ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

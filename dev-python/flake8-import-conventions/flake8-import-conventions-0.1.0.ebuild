@@ -15,7 +15,7 @@ DESCRIPTION="An opinionated plugin for Flake8 on how certain packages should be 
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/2a/94072dab358027f3ce2a9eee278624124da50be7d252d44b418f7aea2b27/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

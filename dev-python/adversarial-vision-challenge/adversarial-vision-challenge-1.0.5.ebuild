@@ -15,7 +15,7 @@ DESCRIPTION="Tools for the NIPS Adversarial Vision Challenge. Includes an HTTP s
 
 HOMEPAGE="https://github.com/bethgelab/adversarial-vision-challenge"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/36/0f/01f8c24d1bae354879f6ed17cc1575ebb52921165794b9404f929489d772/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A JupyterLab extension."
 
 HOMEPAGE="https://github.com/pachyderm/jupyterlab-pachyderm"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c6/7c/3edc646dfcde7cc3e23372863826ae86f5da4414edcb86a6bd22fcf56983/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

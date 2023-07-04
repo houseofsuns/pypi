@@ -15,7 +15,7 @@ DESCRIPTION="Extract transactions from the Trongrid API."
 
 HOMEPAGE="https://chainargos.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/88/f9/bc6aac01b62f17119b89052274bdf7a0391816c3a9984d69d9a710c8d027/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

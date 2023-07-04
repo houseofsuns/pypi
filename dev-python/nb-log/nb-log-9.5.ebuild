@@ -15,7 +15,7 @@ DESCRIPTION="very sharp color display,monkey patch bulitin print  and high-perfo
 
 HOMEPAGE="https://github.com/ydf0509/nb_log"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cb/45/2fc33a5714a7c96e166fd5228365e69e64b05da5e017b7087452a6409494/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

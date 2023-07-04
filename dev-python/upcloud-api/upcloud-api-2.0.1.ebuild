@@ -15,7 +15,7 @@ DESCRIPTION="UpCloud API Client"
 
 HOMEPAGE="https://github.com/UpCloudLtd/upcloud-python-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/ab/702fe7adc4ed63f7c042b40759dd9ccd0450c67e6ed94bba86fafc20ffe6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

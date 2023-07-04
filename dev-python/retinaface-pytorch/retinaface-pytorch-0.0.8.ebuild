@@ -15,7 +15,7 @@ DESCRIPTION="Retinaface implementation in Pytorch."
 
 HOMEPAGE="https://github.com/ternaus/retinaface"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/91/01fc6e8c5bc5df5635fcec28c49efdbe7272965b2f0c76d459e4569fdcd1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="YouTube video downloader"
 
 HOMEPAGE="https://github.com/ytdl-org/youtube-dl"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/b8/58/8fe4fff82e8e1c88b0c374005e6421d0feb36ce6c7e699e4329eaf963772/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

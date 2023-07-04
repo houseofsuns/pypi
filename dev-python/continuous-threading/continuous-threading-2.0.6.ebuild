@@ -15,7 +15,7 @@ DESCRIPTION="Library to help manage threads that run continuously for a long tim
 
 HOMEPAGE="https://github.com/justengel/continuous_threading"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d1/78/e758fd277559deade7a5c7215b5b63f512fb1212fcb4f300f9f829953d9f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

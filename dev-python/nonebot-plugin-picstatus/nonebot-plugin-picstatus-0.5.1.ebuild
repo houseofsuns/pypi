@@ -15,7 +15,7 @@ DESCRIPTION="A NoneBot2 plugin generates a picture which shows the status of cur
 
 HOMEPAGE="https://github.com/lgc-NB2Dev/nonebot-plugin-picstatus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/e3/96d6e331ccad6ce5c195ad01cd2232adde399fc0adf80ea9999902637aa1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

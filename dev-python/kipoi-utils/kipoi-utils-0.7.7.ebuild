@@ -15,7 +15,7 @@ DESCRIPTION="kipoi-utils: utils used in various packages related to kipoi"
 
 HOMEPAGE="https://github.com/kipoi/kipoi-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d9/e7/5c11e221026ec3240c35027c021323ddc478dec37e0e54b355226ef15fa7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

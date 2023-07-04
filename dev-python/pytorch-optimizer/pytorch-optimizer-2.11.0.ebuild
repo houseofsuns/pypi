@@ -15,7 +15,7 @@ DESCRIPTION="optimizer & lr scheduler & objective function collections in PyTorc
 
 HOMEPAGE="https://github.com/kozistr/pytorch_optimizer"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ca/eb/339cb64e6cff9285b7c420797bcfaefda0c87081319091c4d7e35c0b0770/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

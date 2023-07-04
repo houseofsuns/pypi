@@ -15,7 +15,7 @@ DESCRIPTION="Spatial objects and computations based on NumPy arrays."
 
 HOMEPAGE="https://github.com/ajhynes7/scikit-spatial"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/09/dd/e7c7866a4f3f321980e289ccc24f6b516a3d644c547cf7f82b37f3ac914d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A simpler way to handle timeouts in Python"
 
 HOMEPAGE="https://github.com/mssalvatore/egg-timer"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e1/09/5e46bc4d312b1acf94fff5f9c77d3e907e730766de1b5706e8c069d62951/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

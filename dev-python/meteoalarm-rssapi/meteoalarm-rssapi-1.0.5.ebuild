@@ -15,7 +15,7 @@ DESCRIPTION="An \"API\" for meteoalarm.eu using the rss feeds."
 
 HOMEPAGE="https://github.com/xlcnd/meteoalarm-rssapi"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/41/4a/a0640bf6bd0a3526deb7517df97a7a4c95c694e0f339fe90f0038f9b706c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Discord voice library using Python Songbird bindings."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/d9/7ff3fada06c4f73e32ceb1aa6d7cb7b890691fb495316a7449b6bdf8e21b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Mirai adapter for AliceBot."
 
 HOMEPAGE="https://docs.alicebot.dev/"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/7a/50/d8cef6753dd4cf28ff6223125ac87ac1b3d50e6523df35c1cad155f8ed05/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

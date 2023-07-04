@@ -15,7 +15,7 @@ DESCRIPTION="The automation framework for Python"
 
 HOMEPAGE="https://github.com/robocorp/robo/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/04/28/0619f07344d64150aa36d26984f226fc73637242da189e482ffe1d397af4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/liaoyuzh/chrono-chatgpt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/8a/07736fd1894cca05b53b7fb06000e042e13072db9b5a778446f06adbc7ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

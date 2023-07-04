@@ -15,7 +15,7 @@ DESCRIPTION="Axial Positional Embedding"
 
 HOMEPAGE="https://github.com/lucidrains/axial-positional-embedding"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/27/ad886f872b15153905d957a70670efe7521a07c70d324ff224f998e52492/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

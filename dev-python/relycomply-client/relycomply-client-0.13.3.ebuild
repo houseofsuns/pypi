@@ -15,7 +15,7 @@ DESCRIPTION="A python client for the RelyComply platform"
 
 HOMEPAGE="https://www.relycomply.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/35/f8/e2381b5ed47e8980938cc47b633ef19d9986bef1dae8a5858bbfd9d0ef51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

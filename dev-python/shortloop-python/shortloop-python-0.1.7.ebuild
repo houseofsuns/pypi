@@ -15,7 +15,7 @@ DESCRIPTION="Official Shortloop SDK for Python"
 
 HOMEPAGE="https://shortloop.dev"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/c2/3126a4cdf480d5bcf653fc6dbdb223cbf9268a6b7e386902e41a01f8efab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

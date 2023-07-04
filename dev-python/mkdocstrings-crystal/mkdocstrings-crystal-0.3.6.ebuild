@@ -15,7 +15,7 @@ DESCRIPTION="Crystal language doc generator for mkdocstrings"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/53/40fcf72d9a8cfe6496b62a284c49900b57e365f238a9058c6f709d38fc03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

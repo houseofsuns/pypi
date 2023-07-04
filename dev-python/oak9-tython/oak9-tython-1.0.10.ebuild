@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/oak9io/tython"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5d/93/3846c4e9cf115d5eb02fab669f9250c1debff513b741bc36555888ce099e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Run pylint recursively on all py files in current and sub-directori
 
 HOMEPAGE="http://github.com/MasterOdin/pylint_runner"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/09/2a9b977233ce57c8d8eeb80cfde03c666f41f3904b1916837aad12a8928d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

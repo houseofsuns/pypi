@@ -15,7 +15,7 @@ DESCRIPTION="Rust bindings for the entity-gym library"
 
 HOMEPAGE=""
 LICENSE="MIT OR Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f0/fe/6cf356a563a4f58eac180e92d2e43a0795d552f84c0170951e9670ace78a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

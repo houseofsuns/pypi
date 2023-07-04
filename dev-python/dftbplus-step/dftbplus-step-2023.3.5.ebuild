@@ -15,7 +15,7 @@ DESCRIPTION="A SEAMM plug-in for DFTB+, a fast quantum mechanical simulation cod
 
 HOMEPAGE="https://github.com/molssi-seamm/dftbplus_step"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/94/72/2b77d39d3ce81246ec139b2f42218e0723569e1fd49da357a41745f1b8f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

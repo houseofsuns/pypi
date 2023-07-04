@@ -15,7 +15,7 @@ DESCRIPTION="Eastron SDM Modbus parser library"
 
 HOMEPAGE="https://github.com/nmakel/sdm_modbus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/46/6bdd21ee45b34e15cb3b87c904722ee7efef359b715df87aeee4e5b717e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

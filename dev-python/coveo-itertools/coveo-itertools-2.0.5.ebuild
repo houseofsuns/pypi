@@ -15,7 +15,7 @@ DESCRIPTION="Collection-related helpers."
 
 HOMEPAGE="https://github.com/coveooss/coveo-python-oss/tree/main/coveo-itertools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/dc/85/cf18ca76aa8d54028fa9a996d5e7214a5ef3d8ba5ec818bbde5a7da526c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

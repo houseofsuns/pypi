@@ -15,7 +15,7 @@ DESCRIPTION="Rhubarb is a library that simplifies realtime streaming for a numbe
 
 HOMEPAGE="https://github.com/mopeyjellyfish/rhubarb"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/24/97/1d76bc0b2fd86190e02fd466a5de44f4e55571e8cf7a16cbf59acd5e3baf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

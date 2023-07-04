@@ -15,7 +15,7 @@ DESCRIPTION="Make Django wait until database is ready. Probes for Docker and Kub
 
 HOMEPAGE="https://github.com/painless-software/django-probes"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/10/0d633eb9949ea3d6d87ee3056af6e4be48a9cdf1303ea3d66b5afa69c85b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

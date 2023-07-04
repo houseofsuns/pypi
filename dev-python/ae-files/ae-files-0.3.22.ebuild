@@ -15,7 +15,7 @@ DESCRIPTION="ae namespace module portion files: generic file object helpers"
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_files"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/3c/cc/e9b041a69d3ba7e0575f5b4aeaf5ee34879b8e1b80dcf03def272f6a32a4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

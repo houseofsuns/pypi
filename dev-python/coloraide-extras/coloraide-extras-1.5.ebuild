@@ -15,7 +15,7 @@ DESCRIPTION="A color library for Python."
 
 HOMEPAGE="https://github.com/facelessuser/coloraide-extras"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7c/04/9410f16cb416cb98a741401e985802dd518d6df3c141742ea983c775fcd2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

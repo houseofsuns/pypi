@@ -15,7 +15,7 @@ DESCRIPTION="Pytest plugin for Click"
 
 HOMEPAGE="https://github.com/Stranger6667/pytest-click"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ec/ec/bca3cd29ba2b025ae41666b851f6ff05fb77cb4c13719baaeda6a757772a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

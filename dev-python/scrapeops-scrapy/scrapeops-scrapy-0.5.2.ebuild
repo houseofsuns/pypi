@@ -15,7 +15,7 @@ DESCRIPTION="Scrapeops Scrapy SDK, is a monitoring tool for your Scrapy spiders.
 
 HOMEPAGE="https://github.com/ScrapeOps/scrapeops-scrapy-sdk"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/90/b6/abdc3a7edd91fbfb29151eed0ce96101838ac49864e93d5236619626c6db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

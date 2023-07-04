@@ -15,7 +15,7 @@ DESCRIPTION="Zwicky Transient Facility support for the Ampel system"
 
 HOMEPAGE="https://ampelproject.github.io"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7a/61/3ef95337f4996d8918d61035f11c37eaca24960c92bd5aa5e82aa4821568/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

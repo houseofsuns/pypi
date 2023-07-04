@@ -15,7 +15,7 @@ DESCRIPTION="Tools developed by ASF for working with SAR data"
 
 HOMEPAGE="https://github.com/ASFHyP3/asf-tools"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ea/e1/cc744758e6dfd28ba40881d83ea50e533d2d13cf4e3e6ab29a18aa532fba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

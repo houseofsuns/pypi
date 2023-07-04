@@ -15,7 +15,7 @@ DESCRIPTION="Package to perform enrichment analysis in python using EnrichR and 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/32/93c6c5ef45cf8741594ebf68e024b536a52353c885910c7a3d1b159a55d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Custom Diffusion: Creating Video from Frame Using Multiple Diffusio
 
 HOMEPAGE="https://github.com/kadirnar/Custom-Diffusion"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2f/c1/946d80681467d18d824d0ae27b43c0ecbeecbf36a3ee4ce45de54fa2d4cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

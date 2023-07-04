@@ -15,7 +15,7 @@ DESCRIPTION="mmap.ninja: Memory mapped data structures"
 
 HOMEPAGE="https://github.com/hristo-vrigazov/mmap.ninja"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/22/91/d9d4bcc35bb4de56667b7143c4af9ebf7e9cbf58ba9e6c0ca275875ff5b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ae namespace module portion db_core: database connection and data m
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_db_core"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/07/34/3abd74872de2be7c49c624603bd1473a2fa66f8d3017985f04dc16fe2951/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="\"An Alliance Auth app that provides full access to Eve characters"
 
 HOMEPAGE="https://gitlab.com/ErikKalkoken/aa-memberaudit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/31/d1/94de5b35eefed4685ee72586858cf5f740a7ac4257e89c7a76c850fd2ea6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

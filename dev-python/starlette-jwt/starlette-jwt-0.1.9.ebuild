@@ -15,7 +15,7 @@ DESCRIPTION="A JSON Web Token Middleware for Starlette"
 
 HOMEPAGE="https://github.com/amitripshtos/starlette-jwt"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/77/f3/7811f1373d7d7aaf54f08bd06229ed61aaa802eba58931b6f2e9b4a619b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

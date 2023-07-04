@@ -15,7 +15,7 @@ DESCRIPTION="A shim for the typeshed changes in mypy 0.900"
 
 HOMEPAGE="https://github.com/asottile/types-all"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/8f/3f61eaf9312308b3bb9f2a66c08f0efe4a634f34914ead30bf8cb28a0080/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

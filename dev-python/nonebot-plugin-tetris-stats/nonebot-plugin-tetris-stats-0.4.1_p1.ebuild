@@ -15,7 +15,7 @@ DESCRIPTION="一个基于nonebot2的用于查询TETRIS相关游戏玩家数据�
 
 HOMEPAGE="https://github.com/shoucandanghehe/nonebot-plugin-tetris-stats"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/81/99/9cbd52d1f538e60f3e829775132ada9775e2dcb6c129d94bd2924dd709a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

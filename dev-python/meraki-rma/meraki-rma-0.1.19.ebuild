@@ -15,7 +15,7 @@ DESCRIPTION="Library to make Meraki RMAs easy and programmatic."
 
 HOMEPAGE="https://github.com/thomaschristory/meraki_rma"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/1f/0d2cc3bc7b5817993f51d7bbc0bbca0f153d5c57562538f17934945d9073/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

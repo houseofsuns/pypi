@@ -15,7 +15,7 @@ DESCRIPTION="Random Field Generation"
 
 HOMEPAGE="https://github.com/Zncl2222/Stochastic_UC_SGSIM"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/0f/b72e0d5907f54335e49f91f7b2be4a9196164b88600646adebfc857ead87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

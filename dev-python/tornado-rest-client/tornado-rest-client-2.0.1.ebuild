@@ -15,7 +15,7 @@ DESCRIPTION="Tornado REST client"
 
 HOMEPAGE="https://github.com/Nextdoor/tornado_rest_client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f1/7f/36f8ca635906a7dfbc51a2341d3b7614adf85f77d85551952aa629374929/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

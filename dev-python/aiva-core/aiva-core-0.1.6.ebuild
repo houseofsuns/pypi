@@ -15,7 +15,7 @@ DESCRIPTION="A repository for AIVA, the AI Virtual Assistant written in Python."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/50/71088c598ad29e4ff7f5dd29a9177505572a3412800acc2b2e3d9a018246/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

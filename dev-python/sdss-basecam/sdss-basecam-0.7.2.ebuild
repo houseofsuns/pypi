@@ -15,7 +15,7 @@ DESCRIPTION="A base library for camera wrapping and actor."
 
 HOMEPAGE="https://github.com/sdss/basecam"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/c3/d6/1689461e51a544fbdc9e3360ebcffe14f313e78b433ea633187de4310fd1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

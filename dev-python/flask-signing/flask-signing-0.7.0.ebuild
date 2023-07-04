@@ -15,7 +15,7 @@ DESCRIPTION="a signing key extension for flask"
 
 HOMEPAGE="https://github.com/signebedi/Flask-Signing"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/06/f640de20fe5588d5d0b2ace21980124306e93bf9e2942367a8b9e59206bb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

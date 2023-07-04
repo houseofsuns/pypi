@@ -15,7 +15,7 @@ DESCRIPTION="Anonymization of data in pg_dump"
 
 HOMEPAGE="https://github.com/froOzzy/pg_stage"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b4/20/f5f25e9ef1d1dc6e0bfd7e1f4b09477aa37e345b28d5ec6a9997ae0453db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

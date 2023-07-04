@@ -15,7 +15,7 @@ DESCRIPTION="A command line tool and module for Google API web and image search.
 
 HOMEPAGE="https://github.com/rrwen/search_google"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/2d/479a767d29e1007b81c8007c2effc92f08548971797ffaf944a72e78f32b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

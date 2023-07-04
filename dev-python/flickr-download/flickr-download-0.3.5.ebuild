@@ -15,7 +15,7 @@ DESCRIPTION="Download photos from Flickr"
 
 HOMEPAGE="https://github.com/beaufour/flickr-download"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c1/26/02599f1c2698098b6013bc218924f0dd83b3401b5904b0cc06100d4d60c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

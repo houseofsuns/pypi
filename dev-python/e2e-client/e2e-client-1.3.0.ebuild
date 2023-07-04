@@ -15,7 +15,7 @@ DESCRIPTION="This a E2E Client tool for Certbot Plugin"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/57/1e/4a0867b9bfdf26727170f9598fd00f65a88891a7d8c89d7f31710f756b91/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

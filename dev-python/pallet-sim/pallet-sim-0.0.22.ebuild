@@ -15,7 +15,7 @@ DESCRIPTION="Pallet simulation library developed at THWS"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/02/dcaeb2ab17cae0260a44cfedfe472603fe412fdfa3da742a90965279a664/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

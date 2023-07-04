@@ -15,7 +15,7 @@ DESCRIPTION="A search engine for Pybites content"
 
 HOMEPAGE="https://github.com/pybites/search"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/79/1985c516f49495e06cd2acfbba52757b128dd0dc465ded1634a0dfb2baa1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

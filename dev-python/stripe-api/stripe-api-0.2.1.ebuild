@@ -15,7 +15,7 @@ DESCRIPTION="Stripe API Client"
 
 HOMEPAGE="http://stripe-api.hive.pt"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0f/a7/7ce9edcd790e441722061bdde4a6d8a874f5ba2a8d67fcf6e2c0e23d3715/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

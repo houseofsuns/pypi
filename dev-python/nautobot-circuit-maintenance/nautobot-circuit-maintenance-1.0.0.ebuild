@@ -15,7 +15,7 @@ DESCRIPTION="Nautobot plugin to automatically handle Circuit Maintenances Notifi
 
 HOMEPAGE="https://github.com/nautobot/nautobot-plugin-circuit-maintenance"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c5/34/fb72ee068958b797faea87e3e47e523a925f35be230128842f98a04feb8d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

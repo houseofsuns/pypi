@@ -15,7 +15,7 @@ DESCRIPTION="Productivity-centric Python Big Data Framework"
 
 HOMEPAGE="https://ibis-project.org"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/13/bc/9ce9c1497a23707b56fdbf7b3d0bc20b72efd64b1825cfa6b3f5e4ee83ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

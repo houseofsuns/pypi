@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for the Flickr API"
 
 HOMEPAGE="https://github.com/alexis-mignon/python-flickr-api"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/05/86/480012a74912ea57f61527d5621a37e70e2ae4dc2b27ccd9c521ae851235/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

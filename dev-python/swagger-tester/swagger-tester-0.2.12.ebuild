@@ -15,7 +15,7 @@ DESCRIPTION="Automatically test your swagger API"
 
 HOMEPAGE="https://github.com/Trax-air/swagger-tester"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/af/1d4df1984f255140b77e713e41260c414a030401f9babb7b6f96a5363a6f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

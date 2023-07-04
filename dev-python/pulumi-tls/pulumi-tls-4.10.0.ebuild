@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package to create TLS resources in Pulumi programs."
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/82/b1/6a2e05b770725fc09ea93a7327c7eed3aa29673a6c90b72e7e02cce38ab8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

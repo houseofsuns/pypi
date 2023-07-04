@@ -15,7 +15,7 @@ DESCRIPTION="Enables access to high-quality signals about a borrower's income, a
 
 HOMEPAGE="https://github.com/00labs/huma-signals/"
 LICENSE="AGPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/6c/b3/6ce50e422864d7060f630c486eaa248940a2f51ce73dad57f9d03c3e11e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

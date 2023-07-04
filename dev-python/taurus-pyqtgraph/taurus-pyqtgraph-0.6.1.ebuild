@@ -15,7 +15,7 @@ DESCRIPTION="Taurus extension providing pyqtgraph-based widgets"
 
 HOMEPAGE="https://gitlab.com/taurus-org/taurus_pyqtgraph"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/cc/a3/9428cad95a784268005bf5054209196b459d8515b404dd298e83aa7396e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

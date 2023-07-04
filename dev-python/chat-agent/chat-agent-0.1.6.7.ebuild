@@ -15,7 +15,7 @@ DESCRIPTION="A Simple Chat Agent, For OpenAI ChatGPT"
 
 HOMEPAGE="https://github.com/whalezarathustra/chat-agent"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/c8/e6266aa57b480353df97c7630fd4b16ccef52ac06bb861a86e2aa9cb3676/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

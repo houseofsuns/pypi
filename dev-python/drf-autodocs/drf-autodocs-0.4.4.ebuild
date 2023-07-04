@@ -15,7 +15,7 @@ DESCRIPTION="Extensible auto django rest framework api generator"
 
 HOMEPAGE="https://github.com/iMakedonsky/drf-autodocs"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d3/68/b6af8ba0313fa7f434056d69e8f967eacba1b923d289be0434a3407570ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

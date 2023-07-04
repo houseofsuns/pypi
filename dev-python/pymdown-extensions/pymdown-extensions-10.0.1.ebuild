@@ -15,7 +15,7 @@ DESCRIPTION="Extension pack for Python Markdown."
 
 HOMEPAGE="https://github.com/facelessuser/pymdown-extensions"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cb/06/5779fe8fa684080bcb0eeabcbcb9bfe2cf14dcf776b687001e7820fba660/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

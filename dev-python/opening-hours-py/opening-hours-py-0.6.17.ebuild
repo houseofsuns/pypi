@@ -15,7 +15,7 @@ DESCRIPTION="A parser and toolkit for the opening_hours in OpenStreetMap written
 
 HOMEPAGE="https://github.com/remi-dupre/opening-hours-rs/tree/master/python"
 LICENSE="MIT OR Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/95/5f/63d66542b01b866e13ee83e36edc40b4c330855dbd5bf95e9efaee4b01d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

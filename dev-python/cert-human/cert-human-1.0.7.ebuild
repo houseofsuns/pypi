@@ -15,7 +15,7 @@ DESCRIPTION="SSL Certificates for Humans."
 
 HOMEPAGE="https://github.com/lifehackjim/cert_human"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a0/bb/0b98515d61be00217971095f54572e84564b085dfe03a94b440cd1d9bed2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

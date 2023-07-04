@@ -15,7 +15,7 @@ DESCRIPTION="Open source, self hosted solution for visual testing and managing r
 
 HOMEPAGE="https://github.com/Visual-Regression-Tracker/Visual-Regression-Tracker"
 LICENSE="APACHE"
-SRC_URI="https://files.pythonhosted.org/packages/b4/3a/e073f8b335b7c17a5f006fc0b84c20d35f1f4a1304f3edb41e766aaa446c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

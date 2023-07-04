@@ -15,7 +15,7 @@ DESCRIPTION="Parser tools for Mozilla's Glean telemetry"
 
 HOMEPAGE="https://github.com/mozilla/glean_parser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/12/61a91a583fd28ce7f1c3d462a9ee78ffee7b0d30f0c08605199e3e780d06/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

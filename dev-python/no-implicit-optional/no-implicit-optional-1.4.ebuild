@@ -15,7 +15,7 @@ DESCRIPTION="A codemod to make your implicit optional type hints PEP 484 complia
 
 HOMEPAGE="https://github.com/hauntsaninja/no_implicit_optional"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/a2/4f801596575d59bfe745eb8c22ddf8a4bfcdc725db42a4ab160e4f7606a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

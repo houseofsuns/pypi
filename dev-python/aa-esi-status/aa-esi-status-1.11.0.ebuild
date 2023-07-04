@@ -15,7 +15,7 @@ DESCRIPTION="A simple status monitor for ESI"
 
 HOMEPAGE="https://github.com/ppfeufer/aa-esi-status"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/da/036d24cb2c6b6fbde603ad96c23ba3d72c6514a31806e1e144da5b49209d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

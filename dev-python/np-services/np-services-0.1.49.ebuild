@@ -15,7 +15,7 @@ DESCRIPTION="Tools for interfacing with devices and services used in Mindscope N
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/8c/7e4ae6908b374a42ae5f4dbcb47792243f6cbb15eee3979dd2392c55ad32/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

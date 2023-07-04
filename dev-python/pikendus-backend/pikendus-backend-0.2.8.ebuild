@@ -15,7 +15,7 @@ DESCRIPTION="A PEP517 compliant build backend, able to compile C and fortran sou
 
 HOMEPAGE="https://gitlab.com/ydethe/pikendus-backend"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/92/cd902b3fe1ba80ac34a1312a8a74e9eafd0ca4a1084ec74c2f2f4a722adb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Django custom model field for partial dates with the form YYYY, YYY
 
 HOMEPAGE="https://github.com/ktowen/django_partial_date"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/63/0d6198422a5b4a32f600bc595130817f9c8074d02c3b8d81202e1f3fdc35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

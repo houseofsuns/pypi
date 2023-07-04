@@ -15,7 +15,7 @@ DESCRIPTION="Mako template bindings for the Pyramid web framework"
 
 HOMEPAGE="https://github.com/Pylons/pyramid_mako"
 LICENSE="BSD-derived http://www.repoze.org/LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/63/7b/5e2af68f675071a6bad148c1c393928f0ef5fcd94e95cbf53b89d6471a83/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

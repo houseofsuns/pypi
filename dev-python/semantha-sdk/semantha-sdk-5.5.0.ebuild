@@ -15,7 +15,7 @@ DESCRIPTION="This is a python client sdk for accessing semantha (the semantic pl
 
 HOMEPAGE="https://semantha.de"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/61/6a/96afa4ee191440ff18ef06ebef1dae36f38ceec19941230b6ac7bbb19385/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

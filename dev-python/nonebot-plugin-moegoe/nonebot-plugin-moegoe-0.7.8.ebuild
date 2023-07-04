@@ -15,7 +15,7 @@ DESCRIPTION="日韩中 VITS 模型拟声"
 
 HOMEPAGE="https://github.com/yiyuiii/nonebot-plugin-moegoe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b3/6d/89d339b9636260c3657da166a9cba63b1a48852f1ee5462901bad5970f5b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

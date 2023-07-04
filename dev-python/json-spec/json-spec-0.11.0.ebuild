@@ -15,7 +15,7 @@ DESCRIPTION="Implements JSON Schema, JSON Pointer and JSON Reference."
 
 HOMEPAGE="https://json-spec.readthedocs.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/34/24/e5a3dc99528f1984fac691fd229ab18eba15af475221fc495a5d20766d2b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

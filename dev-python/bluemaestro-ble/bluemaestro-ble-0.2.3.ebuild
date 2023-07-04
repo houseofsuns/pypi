@@ -15,7 +15,7 @@ DESCRIPTION="bluemaestro BLE devices"
 
 HOMEPAGE="https://github.com/bluetooth-devices/bluemaestro-ble"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/28/35/ff7abf52bffeb2ec4b221c5e9579ae0b5bbd73f92af014742bafd26f6f1d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

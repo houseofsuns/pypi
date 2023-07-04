@@ -15,7 +15,7 @@ DESCRIPTION="Asyncio API wrapper for the Travitia Cleverbot API. (https://public
 
 HOMEPAGE="https://github.com/crrapi/async-cleverbot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/a8/50f3b61c3a2d86cc50f000930071f783de5d28cabf244d27c9b3083fc01c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

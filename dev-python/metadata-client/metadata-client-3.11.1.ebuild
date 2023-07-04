@@ -15,7 +15,7 @@ DESCRIPTION="Python Client for European XFEL Metadata Catalogue Web App availabl
 
 HOMEPAGE="https://git.xfel.eu/ITDM/metadata_client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/7d/06782892ef4b4b8aaa400dbd2507421a43998f6fe1c21cc9e8e7e80120f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

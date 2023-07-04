@@ -15,7 +15,7 @@ DESCRIPTION="Middleware that enables single request-response cycle tracing by in
 
 HOMEPAGE="https://github.com/snok/django-guid"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/96/db2112b707e6faa6858357f241d9ac5907889b7761b8ccf9c5b20080580e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Pure Python implementation of rpmvercmp"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/03/85/322c80222742fd2ff810775e353265eb6b84cbc6ffa64c9ae5429853ed5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

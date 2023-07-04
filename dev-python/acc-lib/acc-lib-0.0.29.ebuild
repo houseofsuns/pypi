@@ -15,7 +15,7 @@ DESCRIPTION="Personal collection of methods useful for accelerator physics"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/60/5c/96f25a5389b3c693cb05860bd4fb0e9b4e132dd9b8d1e562ec80bb34b5b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Python package supercharging Momba with computing capabilities."
 
 HOMEPAGE=""
 LICENSE="MIT OR Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/08/89/c79bd8bce1b3f445e071b2ce7f75635946e5d32d55a203723ab3e2beeaa2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

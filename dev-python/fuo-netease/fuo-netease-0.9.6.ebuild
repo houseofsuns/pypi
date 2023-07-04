@@ -15,7 +15,7 @@ DESCRIPTION="feeluown netease plugin"
 
 HOMEPAGE="https://github.com/feeluown/feeluown-netease"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/9c/6156eb1ea510bfeb97b4c113c6762ed4dd48d904bd8aa341cc5da81e6e98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

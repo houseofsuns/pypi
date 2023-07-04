@@ -15,7 +15,7 @@ DESCRIPTION="Asynchronous Python Wrapper For A.R.Q API."
 
 HOMEPAGE="https://github.com/thehamkercat/Python_ARQ"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/25/74ec1e3977556f2e7b76661309439fded01b7a3ae683ddffb6c50658479f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

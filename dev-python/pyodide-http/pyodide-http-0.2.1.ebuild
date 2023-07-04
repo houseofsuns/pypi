@@ -15,7 +15,7 @@ DESCRIPTION="Patch requests, urllib and urllib3 to make them work in Pyodide"
 
 HOMEPAGE="https://github.com/koenvo/pyodide-http"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/ac/9c2134bdc4e2a4176f77a32f15afa4a064e8ea9d9b6ce88c16477e2c64cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

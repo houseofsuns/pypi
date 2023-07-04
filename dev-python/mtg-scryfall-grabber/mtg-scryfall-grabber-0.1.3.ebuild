@@ -15,7 +15,7 @@ DESCRIPTION="MTG_Scryfall_Grabber (MSG) is a Python library/repository for scrap
 
 HOMEPAGE="https://github.com/Contrastellar/mtg_scryfall_grabber"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5f/9a/7a0e7d8d31e558eaa1abf4e74c0bfe2c09acdd764018230fa5c31b510c5f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

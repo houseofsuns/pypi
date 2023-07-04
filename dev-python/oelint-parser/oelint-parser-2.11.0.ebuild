@@ -15,7 +15,7 @@ DESCRIPTION="Alternative parser for bitbake recipes"
 
 HOMEPAGE="https://github.com/priv-kweihmann/oelint-parser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/47/26e816b9402e17059c2ffb958347a1ca67c596d4bdf11627bf08be7fc73d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

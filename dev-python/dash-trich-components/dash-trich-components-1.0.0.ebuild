@@ -15,7 +15,7 @@ DESCRIPTION="Trich.ai components library for Dash Plotly"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/89/963798568c0e2dc7b3d3cde2004c619e2c3f6ecdfaa5ea38fe7e5d434376/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Export Prometheus metrics from DMARC reports."
 
 HOMEPAGE="https://github.com/jgosmann/dmarc-metrics-exporter/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f0/eb/3f70bff6227695f671e45fb1a4df44e538c702d27077ba15ae07101bad86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Django Flutter Framework."
 
 HOMEPAGE="https://marysia.app"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f7/25/ea8d00d4509b0c954c9f3901f7cb060b704878109f1647657d872bd74894/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="OpenStep plist reader into python objects"
 
 HOMEPAGE="http://github.com/kronenthaler/openstep-parser"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7e/16/6a78eba4600e51e917c17545eb32bf12982925c512d22038d58bc77fed94/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

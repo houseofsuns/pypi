@@ -15,7 +15,7 @@ DESCRIPTION="Facilitates the usage of HTMX with Django"
 
 HOMEPAGE="https://github.com/yaakovLowenstein/hx-requests"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/83/7e/d1199ba533e796a57e22c62c0f21363d893b37e74b7dcb0fb78089b65972/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

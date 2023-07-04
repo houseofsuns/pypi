@@ -15,7 +15,7 @@ DESCRIPTION="A plugin to show lint errors for IW"
 
 HOMEPAGE="http://github.com/Instawork/flake8-iw"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/44/4b2e400b97ad40aa04a416e0f84cb0bffbaea109794100a537a035e7b1c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

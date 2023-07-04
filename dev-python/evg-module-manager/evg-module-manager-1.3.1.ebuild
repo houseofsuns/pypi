@@ -15,7 +15,7 @@ DESCRIPTION="Manage Evergreen modules locally."
 
 HOMEPAGE="https://github.com/evergreen-ci/evg-module-manager"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/01/71/d233859c2c80a57e5e7c2f0c1fcc9b6759138d93e2eab1aa96aaceba3cb1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

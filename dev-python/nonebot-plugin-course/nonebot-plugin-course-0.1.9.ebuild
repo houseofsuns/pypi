@@ -15,7 +15,7 @@ DESCRIPTION="A plugin for nonebot to show course information"
 
 HOMEPAGE="https://github.com/InariInDream/nonebot_plugin_course"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/a0/b78730e0c21b5d7e0818bce09ad65010bb6e93a01a1befe821acd6f5fca5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A library of RLBot compatibility objects for RLGym Agents"
 
 HOMEPAGE="https://rlgym.github.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ac/a2/439c516e2b31d0eea255df02598eb3d38be22b9bf297cde35cbd348a3ef1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

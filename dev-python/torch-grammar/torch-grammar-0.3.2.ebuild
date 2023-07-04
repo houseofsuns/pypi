@@ -15,7 +15,7 @@ DESCRIPTION="Restrict LLM generations to a context-free grammar"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a4/2c/241abed8b348962311d018b3f605f307d9c9d4c327f524c58b2c4f400ccc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

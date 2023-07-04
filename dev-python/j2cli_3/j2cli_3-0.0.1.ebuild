@@ -15,7 +15,7 @@ DESCRIPTION="Command-line interface to Jinja2 for templating in shell scripts."
 
 HOMEPAGE="https://github.com/leumas95/j2cli_3"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/34/43/48e3517472891ef0f1bfbb443ddef844516e9da74f877332a80b06c1c61b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

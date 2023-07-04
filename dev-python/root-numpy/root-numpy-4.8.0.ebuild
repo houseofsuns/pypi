@@ -15,7 +15,7 @@ DESCRIPTION="The interface between ROOT and NumPy"
 
 HOMEPAGE="http://scikit-hep.org/root_numpy"
 LICENSE="new BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d5/5f/82f5111c22599676eb8b5f9b1bf85c38dcc7995d52cd6b4a8f5f5caa4659/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

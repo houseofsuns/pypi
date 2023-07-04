@@ -15,7 +15,7 @@ DESCRIPTION="Thank you for your interest in contributing to the AutoRoute projec
 
 HOMEPAGE="https://github.com/Bucanero06/auto_route"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/4b/5b5d81be4e2bab97451d11e9e64ba0cf8ccdcfd4842284650a19e18fa97a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

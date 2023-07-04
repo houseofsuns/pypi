@@ -15,7 +15,7 @@ DESCRIPTION="Multi-algorithm, multi-level, multi-signature format for expressing
 
 HOMEPAGE="https://github.com/planetmint/cryptoconditions/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/22/32/a4b30c08efcfebf7a45005bdcc1dc32c14e0e22a8a790dea43faa4a2e312/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

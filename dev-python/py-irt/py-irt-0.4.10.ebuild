@@ -15,7 +15,7 @@ DESCRIPTION="Bayesian IRT models in Python"
 
 HOMEPAGE="https://github.com/nd-ball/py-irt/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c3/e5/e69ec1d34b458c0fde5902ef71d94c21851882b1970057d35eeab646a626/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

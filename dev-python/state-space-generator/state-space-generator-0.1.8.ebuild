@@ -15,7 +15,7 @@ DESCRIPTION="A tool for state space exploration of PDDL files"
 
 HOMEPAGE="https://github.com/drexlerd/state-space-generator"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/0e/a6/9849cec0bd4a51da69022c20c4d4f9f761da69168907db089ea52751d24a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Collection of scripts to maintains aks cluster."
 
 HOMEPAGE="https://aksterraformstate.z6.web.core.windows.net/az_k8s_operations/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b6/12/92481d4c8c233e99c53c68b36ccf1852f3f0b98900d758015f323781be03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

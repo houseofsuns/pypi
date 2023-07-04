@@ -15,7 +15,7 @@ DESCRIPTION="A setuptools extension for building cpython extensions written in g
 
 HOMEPAGE="https://github.com/asottile/setuptools-golang"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/06/9b33e9e1138b4a3bcea2b64ddf218a40ddc72dc3c1df69d04e9e69bccf84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

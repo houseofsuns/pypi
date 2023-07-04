@@ -15,7 +15,7 @@ DESCRIPTION="th2_grpc_common"
 
 HOMEPAGE="https://github.com/th2-net/th2-grpc-common"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/05/5b/7dfba2f998a5bb675eb6aa0f826d15791143e58f1a0f222e0a431c48a2d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

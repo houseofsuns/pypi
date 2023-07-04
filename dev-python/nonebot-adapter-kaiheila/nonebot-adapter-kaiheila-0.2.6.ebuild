@@ -15,7 +15,7 @@ DESCRIPTION="kaiheila adapter for nonebot2"
 
 HOMEPAGE="https://github.com/Tian-que/nonebot-adapter-kaiheila"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4c/c2/c2f6b81ad3df1238b91caf05156945be0f9d3e54b856918c4203c3eac6f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

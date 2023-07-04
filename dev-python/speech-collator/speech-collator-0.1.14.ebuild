@@ -15,7 +15,7 @@ DESCRIPTION="A collator for speech datasets with different batching strategies a
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/c3/5cc2ca8bc6d8f15c19d43300401708ef029b5852f13287c1c05ef0878418/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

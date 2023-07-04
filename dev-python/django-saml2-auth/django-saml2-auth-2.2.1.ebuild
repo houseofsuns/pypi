@@ -15,7 +15,7 @@ DESCRIPTION="Django SAML2 Authentication Made Easy. Easily integrate with SAML2 
 
 HOMEPAGE="https://github.com/fangli/django-saml2-auth"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/03/5e/4fda29b8be8e268cbd3aced6ca70987a9efb0a75f42b061461bd63df4d04/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

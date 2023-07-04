@@ -15,7 +15,7 @@ DESCRIPTION="\`target-s3-delta\` is a Singer target for s3-delta, built with the
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6e/50/6609962e0ce887f6c841f96a73f490fe61ec69bc79eed9c6942d332cbd98/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

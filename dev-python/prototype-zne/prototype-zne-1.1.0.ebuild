@@ -15,7 +15,7 @@ DESCRIPTION="Zero Noise Extrapolation (ZNE) prototype for error mitigation on"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/af/70a62311b5af724b430fda010ad2a1b9743fa9cac8adcce55df962f36f19/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

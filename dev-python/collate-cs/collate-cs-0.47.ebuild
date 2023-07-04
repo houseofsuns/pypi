@@ -15,7 +15,7 @@ DESCRIPTION="thin -> cs"
 
 HOMEPAGE="https://bitbucket.org/Cogbot/collate_cs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/42/82c3f7409728950440e225522e635823b4bb50c4f7dec82a6d97b7c1c639/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Queue service built on top of mongo."
 
 HOMEPAGE="https://github.com/shunyeka/mongo_queue/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5e/ab/c3d2862e7134038f1f4e3518e953285afb18d95cfc8355b134af9440efc5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

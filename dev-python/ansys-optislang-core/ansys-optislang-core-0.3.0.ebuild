@@ -15,7 +15,7 @@ DESCRIPTION="A Python wrapper for Ansys optiSLang application."
 
 HOMEPAGE="https://optislang.docs.pyansys.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0c/71/2ab3b1d48dfd56e7fd322e275432fecc1a77590dd258809eebe5162dd6e1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

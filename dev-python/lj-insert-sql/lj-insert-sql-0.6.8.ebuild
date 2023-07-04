@@ -15,7 +15,7 @@ DESCRIPTION="lj add sql！"
 
 HOMEPAGE="http://songbaobao.com"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/82/93/9d0ae9f03dab73c62fe582a301de187abe7d30e25d0fda6351a5e7401f52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

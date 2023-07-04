@@ -15,7 +15,7 @@ DESCRIPTION="Fyers Token Manager"
 
 HOMEPAGE="https://github.com/krunaldodiya/fyers_token_manager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/4b/40506353566e4084f41d38dc0dfe955847eff010dcb3df3e89eac432d1bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

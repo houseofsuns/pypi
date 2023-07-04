@@ -15,7 +15,7 @@ DESCRIPTION="Cross-platform desktop notification library for Python"
 
 HOMEPAGE="https://github.com/ms7m/notify-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/d8/846ca34515305454d7d86c98ed0058eb8ef02175179e7a433b29d791066d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

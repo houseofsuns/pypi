@@ -15,7 +15,7 @@ DESCRIPTION="Arista EOS API asyncio client"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6a/b3/a3a0ea3d9105f0e8590ecc8c9421477b1777bf07d3eba1c830a5c0100803/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

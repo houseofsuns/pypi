@@ -15,7 +15,7 @@ DESCRIPTION="Ada is a fast spec-compliant url parser"
 
 HOMEPAGE="https://github.com/tktech/can-ada"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/fd/65e2fa3e5831651c2c932997c4c82385f03639e4714aeee6f49cd65dc1e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

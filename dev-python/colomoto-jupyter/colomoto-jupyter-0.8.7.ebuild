@@ -15,7 +15,7 @@ DESCRIPTION="CoLoMoTo helper functions for Juypter integration"
 
 HOMEPAGE="https://github.com/colomoto/colomoto-jupyter"
 LICENSE="LGPL v3+/CeCILL-C"
-SRC_URI="https://files.pythonhosted.org/packages/84/52/9a1465827dd70bd4719457e6fd77c22c9e870f373fd8d918e459726f727b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

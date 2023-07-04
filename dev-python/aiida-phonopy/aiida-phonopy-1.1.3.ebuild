@@ -15,7 +15,7 @@ DESCRIPTION="The official AiiDA plugin for Phonopy"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/11/b5/62c51c69a2acc4efdbaa8a68d960d697ec953661aaa9d76472fc98fdc2c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

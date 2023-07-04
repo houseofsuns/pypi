@@ -15,7 +15,7 @@ DESCRIPTION="A tool for recursively describing all files in a directory."
 
 HOMEPAGE="https://github.com/neural-loop/inspect_dense"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b4/17/1a5d1605157f463dd0f28313756966245648495ca11fb2fbca150761c20a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Type stubs for google-api-python-client"
 
 HOMEPAGE="https://github.com/henribru/google-api-python-client-stubs"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/50/4c/59cccc8d418bc90d7bfd677edfda725989080be4b73f852cafae65f37731/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

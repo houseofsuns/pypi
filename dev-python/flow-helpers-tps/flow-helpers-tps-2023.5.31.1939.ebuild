@@ -15,7 +15,7 @@ DESCRIPTION="Handy helpers for ETL and API interfacing."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/01/bd3648164c14c8f9c499291cdf450d6b676beee2cbea5b41d42016d5a8cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

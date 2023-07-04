@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Jaseci-Labs/jaseci"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/7d/6f6bf60014152ddc7c2ca7a20e9b647c259754961b5a575c8a1eec6c9a49/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

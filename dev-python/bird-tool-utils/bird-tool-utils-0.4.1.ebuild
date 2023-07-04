@@ -15,7 +15,7 @@ DESCRIPTION="Python utilities used as part of the bird suite of bioinformatic to
 
 HOMEPAGE="https://github.com/wwood/bird_tool_utils-python/"
 LICENSE="GPL3+"
-SRC_URI="https://files.pythonhosted.org/packages/d9/9c/fb299728e1018f4e26771869827b1f01dd6da92c6cd16a4ec8eea970ca15/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

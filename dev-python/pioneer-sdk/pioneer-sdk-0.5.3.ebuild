@@ -15,7 +15,7 @@ DESCRIPTION="Programming tools for programming geoscan pioneer drone"
 
 HOMEPAGE="https://github.com/geoscan/pioneer_sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/ee/c929555f1dcf2c503b7bef9759c31d1ea5a80845f3ce29233427cc63101d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Python library built on top of PIL to easily edit/modify images"
 
 HOMEPAGE="https://github.com/shahriyardx/easy-pil"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/4f/fb3686430ea098f0919dcd4329b94009ad19fa6b6ed3d49f06b3e3a9b19e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

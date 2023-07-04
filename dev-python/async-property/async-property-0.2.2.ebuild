@@ -15,7 +15,7 @@ DESCRIPTION="Python decorator for async properties."
 
 HOMEPAGE="https://github.com/ryananguiano/async_property"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/12/900eb34b3af75c11b69d6b78b74ec0fd1ba489376eceb3785f787d1a0a1d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

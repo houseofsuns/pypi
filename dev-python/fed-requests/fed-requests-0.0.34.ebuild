@@ -15,7 +15,7 @@ DESCRIPTION="A python package for managing requests to the FEDBIONET API"
 
 HOMEPAGE="https://gitlab.inria.fr/fedbionet/fed-requests"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a0/8c/58e38da22105779dcb938d24acafbd58db64abd548e7517f5ee8da350cf1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

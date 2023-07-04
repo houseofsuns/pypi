@@ -15,7 +15,7 @@ DESCRIPTION="Access to the Unicode Character Database (UCD)"
 
 HOMEPAGE="https://github.com/dylan-profiler/tangled-up-in-unicode"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/15/59/f6ae6399c25b61719ebcca245d9be0805ce0767fd12879b75f6d0b04331e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="VMWare VCenter Exporter for Prometheus"
 
 HOMEPAGE="https://github.com/pryorda/vmware_exporter"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/47/3b/ac1eb9436166c0bb5cbf98f55512cf3ddb95886a718a42ab7066672c8c6a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

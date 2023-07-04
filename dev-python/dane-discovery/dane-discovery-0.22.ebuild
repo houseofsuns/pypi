@@ -15,7 +15,7 @@ DESCRIPTION="A library for using DANE for public key discovery."
 
 HOMEPAGE="https://github.com/valimail/dane_discovery"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/bd/35/57ff7d68644188c3a11c43306b43aa7552fe8e4496f5f2b8667561d462cc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Forming fragments files through three files (barcodes.txt.gz, .mtx.
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/df/f4c693fa9d1d40613988520ea4056d5c00db228a07ae932c79993de71854/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Biblioteca de Apoio ao desenvolvimento no EDAT"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/bc/fb04ef402ff0fc0b45d8d1dc2083408fcd989e2ebbdb1d4dfd7ccedffa9a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

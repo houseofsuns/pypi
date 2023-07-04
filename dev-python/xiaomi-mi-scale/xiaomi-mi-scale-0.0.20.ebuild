@@ -15,7 +15,7 @@ DESCRIPTION="Libraries to read weight measurements from Mi Body Composition Scal
 
 HOMEPAGE="https://github.com/lolouk44/xiaomi_mi_scale"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/79/b167aca89203c8c1761974e30c259090171573c75a19ce35ccca38d8712d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

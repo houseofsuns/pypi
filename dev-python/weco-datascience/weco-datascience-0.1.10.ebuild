@@ -15,7 +15,7 @@ DESCRIPTION="Common functionality for data science applications at Wellcome Coll
 
 HOMEPAGE="https://github.com/wellcomecollection/data-science"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/97/e7/ada28bbe5ed259db62d89a5b0bf0e81ba30153336148bdb86f5e16aa2c95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

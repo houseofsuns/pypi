@@ -15,7 +15,7 @@ DESCRIPTION="ONT Research .fast5 read/write API."
 
 HOMEPAGE="https://github.com/nanoporetech/fast5_research"
 LICENSE="Mozilla Public License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1d/9a/456dbc972a8510bb2ac805873aa5cdf239bcaf80bdaf8bec57bfe213afb7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

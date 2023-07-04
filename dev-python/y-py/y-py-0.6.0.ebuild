@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for the Y-CRDT built from yrs (Rust)"
 
 HOMEPAGE="https://github.com/y-crdt/ypy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/76/af/589ff550212e832e6079553069ef3d7bd3e69ec0cf65993f4a16a2bb1ab9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

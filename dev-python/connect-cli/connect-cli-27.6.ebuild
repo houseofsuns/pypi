@@ -15,7 +15,7 @@ DESCRIPTION="CloudBlue Connect Command Line Interface"
 
 HOMEPAGE="https://connect.cloudblue.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ac/1f/31b38d01640afedfd2743744d95b656fbdfa74ef6b2ba78d5d948d00fd69/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

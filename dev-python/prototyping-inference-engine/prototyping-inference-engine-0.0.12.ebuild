@@ -15,7 +15,7 @@ DESCRIPTION="A library to protorype inference engines"
 
 HOMEPAGE="https://bitbucket.org/guillaume-perution-kihli/pie/src/master/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/80/15ac236c25e6509455692daefd135701e411490ebb7ca6fe4867e56a78c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

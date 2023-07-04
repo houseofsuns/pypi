@@ -15,7 +15,7 @@ DESCRIPTION="plugin for cell segmentation"
 
 HOMEPAGE="https://github.com/AdaptiveMotorControlLab/CellSeg3d"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/98/2484712583687a2928e49fb3aaa517fc1e2144b5dd8d9d2dc0310a09c80f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

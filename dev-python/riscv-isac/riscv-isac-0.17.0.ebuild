@@ -15,7 +15,7 @@ DESCRIPTION="RISC-V ISAC"
 
 HOMEPAGE="https://github.com/riscv/riscv-isac"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/0e/69/b78b692c9f15fbf112160389368341c3c8bc06a1f6daae7be89b566725b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

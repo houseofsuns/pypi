@@ -15,7 +15,7 @@ DESCRIPTION="Image processing pipeline for localization and identification of el
 
 HOMEPAGE="https://github.com/ChangLabUcsf/img_pipe"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d0/f1/e2028d9267758db34cf818494c87cb9c9106aae8a6319b400377d37f8b95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

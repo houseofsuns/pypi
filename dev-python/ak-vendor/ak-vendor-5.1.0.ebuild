@@ -15,7 +15,7 @@ DESCRIPTION="Some vendor scripts that we use here at Appknox"
 
 HOMEPAGE="https://github.com/appknox/vendor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/90/d1/6793b80b24c8a60f5e5737bc9c7d7e05039ac4a81b51ab0024cb6b954ab0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

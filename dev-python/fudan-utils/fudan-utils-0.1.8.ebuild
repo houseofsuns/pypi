@@ -15,7 +15,7 @@ DESCRIPTION="Fudan UIS Login Utilities and More"
 
 HOMEPAGE="https://github.com/tddschn/fudan-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a3/8f/71086ad971fd62621524feec0838a87dbe5cc17058dd0cc944cfa1ffa0b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

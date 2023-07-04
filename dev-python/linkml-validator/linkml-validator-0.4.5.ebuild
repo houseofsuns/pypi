@@ -15,7 +15,7 @@ DESCRIPTION="LinkML Validator"
 
 HOMEPAGE="https://github.com/linkml/linkml-validator"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d6/d7/2b67879fdd0b77e2451e073ac62d1284b6e88c85ceb919dbad2bf487d6b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

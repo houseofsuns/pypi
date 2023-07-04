@@ -15,7 +15,7 @@ DESCRIPTION="Find changelog for github repository, local dir, parse changelog"
 
 HOMEPAGE="https://github.com/dephell/dephell_changelogs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a4/a4/59ff0d90293366ce1dedacbab57a5b130812e25a2193e9c8e5d2afef7e9b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

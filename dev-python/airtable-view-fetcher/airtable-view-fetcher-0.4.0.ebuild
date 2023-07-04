@@ -15,7 +15,7 @@ DESCRIPTION="Tool to scrape data from an Airtable shared view"
 
 HOMEPAGE="https://github.com/vartur/airtable_view_fetcher"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/a3/e4fcc5c8e3620ea56188de9d2d47379c7570acf1b4dafd8f80b6dd3ed52d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

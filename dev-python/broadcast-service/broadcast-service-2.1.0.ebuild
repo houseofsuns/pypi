@@ -15,7 +15,7 @@ DESCRIPTION="A lightweight third-party broadcast/pubsub library"
 
 HOMEPAGE="https://github.com/Undertone0809/broadcast-service"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/16/17/c267994135cfd26dd460c93105ffe37592f59c33c872787d4acf1bc1760c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="FileDrop widget for Textual, easily drag and drop files into your t
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9b/16/73864d6c1f182c96b3186e5d9328d2251fcdb4241d1e5d57d3027e8957f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

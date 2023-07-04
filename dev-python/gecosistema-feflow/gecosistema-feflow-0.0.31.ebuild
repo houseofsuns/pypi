@@ -15,7 +15,7 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/valluzzi/gecosistema_feflow.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/fa/69dbc197aff5cd252870de73ebf58996e61e43569a4ef70280c41200e48d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Find out which symbols are causing auditwheel too-recent versioned 
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4d/1d/99cb5c9550a6b6f8d2a67cfc3461482b44207eab9f945dcf8acdde7c285f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

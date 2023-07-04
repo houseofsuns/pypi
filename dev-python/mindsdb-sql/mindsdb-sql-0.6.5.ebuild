@@ -15,7 +15,7 @@ DESCRIPTION="Pure python SQL parser"
 
 HOMEPAGE="https://github.com/mindsdb/mindsdb_sql"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/bd/40/8e01c20eee6a0103808e707bf0cbd447fad718572edd48f020f5f0f7378b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

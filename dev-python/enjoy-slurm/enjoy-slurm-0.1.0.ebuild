@@ -15,7 +15,7 @@ DESCRIPTION="naive python slurm control"
 
 HOMEPAGE="https://github.com/larsbuntemeyer/enjoy-slurm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/b5/570ceafe9c8b00ed3e1995882bda95cf8d5067a66e79f44fbbac32216426/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

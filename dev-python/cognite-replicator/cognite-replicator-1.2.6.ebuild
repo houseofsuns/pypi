@@ -15,7 +15,7 @@ DESCRIPTION="Python package for replicating data across CDF projects. Copyright 
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/29/fc/4e7951fd4b0c1b0c39fbb3ca126f02bb959e66be1585701e9207c4f34d86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

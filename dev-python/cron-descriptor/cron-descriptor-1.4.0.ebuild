@@ -15,7 +15,7 @@ DESCRIPTION="A Python library that converts cron expressions into human readable
 
 HOMEPAGE="https://github.com/Salamek/cron-descriptor"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/24/a0/455f5a0181cf9a0d2e84d3a66c88de019dce5644ad9680825d1c8a403335/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

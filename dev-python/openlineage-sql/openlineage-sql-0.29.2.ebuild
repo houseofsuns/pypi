@@ -15,7 +15,7 @@ DESCRIPTION="Python interface for the Rust OpenLineage lineage extraction librar
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/90/7f/9844f42a32d3afd2e611430e977502805f46f2586eb6068428f47e19afa0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

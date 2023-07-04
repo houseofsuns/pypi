@@ -15,7 +15,7 @@ DESCRIPTION="capmonster.cloud library for Python"
 
 HOMEPAGE="https://github.com/alperensert/capmonster_python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/aa/86/7d610843f28e6640c5dd33dd4ce8a993217bef04af8a28e25a1615ba5015/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

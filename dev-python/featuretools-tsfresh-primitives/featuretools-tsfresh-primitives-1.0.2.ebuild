@@ -15,7 +15,7 @@ DESCRIPTION="TSFresh primitives for featuretools"
 
 HOMEPAGE="https://github.com/alteryx/featuretools-tsfresh-primitives/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/54/9489bcfb8390a99e89c83fc8663966ae28a5d934d9e25868cb2fccdd9c35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tiny AI Helper for PyTorch"
 
 HOMEPAGE="https://github.com/bayrell/ai_helper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/71/28748ceb3694fb44da1c494725969513cfff3806f5a169436c6e0a8e29f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

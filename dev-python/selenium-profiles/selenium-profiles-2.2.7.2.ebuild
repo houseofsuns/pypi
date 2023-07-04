@@ -15,7 +15,7 @@ DESCRIPTION="Emulate and Automate Chrome using Profiles and Selenium"
 
 HOMEPAGE="https://github.com/kaliiiiiiiiii/Selenium_Profiles"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fe/9f/dd44ace84ab091dc2dc14d277f036bef82a452f36612ef90027a59e948b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

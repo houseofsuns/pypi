@@ -15,7 +15,7 @@ DESCRIPTION="A Sphinx-doc theme based on Vuepress"
 
 HOMEPAGE="https://schettino72.github.io/sphinx_press_site/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/12/4b/73b14b65ba498e13c2c8eafac4d8ed9b750a916309116dae0a472dd23443/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

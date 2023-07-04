@@ -15,7 +15,7 @@ DESCRIPTION="Tensorflow Object Detection Library Packaged"
 
 HOMEPAGE="https://github.com/balazstothofficial/models"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/11/7f6d3c5c4b603cc40b2813059779afb641bd5eb68045c62ca520bfce0359/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

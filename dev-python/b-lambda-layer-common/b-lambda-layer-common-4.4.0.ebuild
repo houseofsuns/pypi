@@ -15,7 +15,7 @@ DESCRIPTION="Common opinionated utilities for every day development."
 
 HOMEPAGE="https://github.com/biomapas/B.LambdaLayerCommon.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/77/8b/9810a4cf739be0171bdf5e2a45b90c7d9afd7366120bf81c34e3d888c035/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

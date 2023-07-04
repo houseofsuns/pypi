@@ -15,7 +15,7 @@ DESCRIPTION="A Python Library to read in a google sheet and turn it into states 
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8f/cd/cf156b2ebeef721826cf7725dce2f08af1a747a565fcad0eec681d22c9cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

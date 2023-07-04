@@ -15,7 +15,7 @@ DESCRIPTION="AWB ELB log analyzer"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/4d/1fa3057770bf064f2d5739ee7f8f1347cec0bfbc1474281ff67c3e6163ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

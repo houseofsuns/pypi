@@ -15,7 +15,7 @@ DESCRIPTION="Parses a superset of Python allowing for inline module import expre
 
 HOMEPAGE="https://github.com/iomintz/import-expression-parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/b7/aca3c80b4efd272597754b37cf894521ac7dd82c2c2ebe58eaef494e627f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

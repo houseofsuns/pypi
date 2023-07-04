@@ -15,7 +15,7 @@ DESCRIPTION="Accessory for Emborg used to report and track the size of your Borg
 
 HOMEPAGE="https://github.com/kenkundert/borg-space"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9c/df/ca04e75ae4591c098dd2e54e01f1ef5d83106281e40b47eed9f09c3c4182/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

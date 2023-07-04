@@ -15,7 +15,7 @@ DESCRIPTION="Biobb_common is the base package required to use the biobb packages
 
 HOMEPAGE="https://github.com/bioexcel/biobb_common"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a0/46/fe5485e1348a76d87964bd91638d001e2d2f05b316fe715fef503a8649a6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

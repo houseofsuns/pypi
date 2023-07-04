@@ -15,7 +15,7 @@ DESCRIPTION="Unofficial client for the Porkbun API"
 
 HOMEPAGE="https://github.com/infinityofspace/pkb_client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/c6/f89d6baede920262c468c2350a0a12066e3c6805ea82e3c19e1b37e473f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

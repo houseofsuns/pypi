@@ -15,7 +15,7 @@ DESCRIPTION="Orbit-DB Shell"
 
 HOMEPAGE="https://gitlab.com/madpenguin/orbit-database-shell"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/76/45/5ab6c9df3822efddeba922876ce2ec3e7c12d7bada0edbc6665bf7db06e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

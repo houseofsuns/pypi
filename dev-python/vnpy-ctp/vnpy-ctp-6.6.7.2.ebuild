@@ -15,7 +15,7 @@ DESCRIPTION="CTP gateway for vn.py quant trading framework."
 
 HOMEPAGE="https://www.vnpy.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/bf/4ad355e1c0dad86e9c03fcf066ac3dab957d10a899c071b775abde95ca41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

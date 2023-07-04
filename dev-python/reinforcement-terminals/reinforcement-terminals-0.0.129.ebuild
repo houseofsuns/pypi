@@ -15,7 +15,7 @@ DESCRIPTION="Age and Gender Detection added to module"
 
 HOMEPAGE="https://github.com/SamipThulung/reinforcement_terminals"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/02/94/c3c926768000ce00610459782dd195d4aeb82345feb4d6decbb744a9502e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

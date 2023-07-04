@@ -15,7 +15,7 @@ DESCRIPTION="HanLP: Han Language Processing"
 
 HOMEPAGE="https://github.com/hankcs/HanLP"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/03/7a/134f5fbbb449023508508b35c9d2ab5f1ddd15c213d839892bf1141d1ad1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

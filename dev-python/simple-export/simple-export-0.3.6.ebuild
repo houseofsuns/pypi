@@ -15,7 +15,7 @@ DESCRIPTION="简单的模板导出工具"
 
 HOMEPAGE="https://github.com/mtl940610/simple_export"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1b/00/0bf1fa3cf9a2afe54baa32ad155c21d2177b9d7772ecfbda7cc87650aca8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

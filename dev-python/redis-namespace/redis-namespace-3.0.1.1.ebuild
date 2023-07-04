@@ -15,7 +15,7 @@ DESCRIPTION="namespaced subset of your redis keyspace"
 
 HOMEPAGE="https://github.com/guokr/redis-namespace"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/9e/1bc0601f7bbc071cfae549adf0317add63944c2f6dbddcc8773ce5d672a8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

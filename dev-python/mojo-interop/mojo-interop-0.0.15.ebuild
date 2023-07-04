@@ -15,7 +15,7 @@ DESCRIPTION="Automation Mojo Interop Extensions"
 
 HOMEPAGE="http://automationmojo.com"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/26/5e/fc56e831895898c05836ed9632df85883fe50fb343446e3b720984562d07/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

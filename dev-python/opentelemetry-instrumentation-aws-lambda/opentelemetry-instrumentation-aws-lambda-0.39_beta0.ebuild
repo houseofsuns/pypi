@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry AWS Lambda instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-aws-lambda"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/03/d2/0470dbf03464fe7b84036086f0b19cdf35643bbbc1e6f08f29f64f2c34c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

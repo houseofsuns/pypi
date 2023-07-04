@@ -15,7 +15,7 @@ DESCRIPTION="Processing of Side Effects of ActivityPub Activities for an Activit
 
 HOMEPAGE="https://codeberg.org/bovine/bovine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/5d/33e8f7f69e1d032e9bbf20d257c0ffe1aa6f8f2ff2d7eb3a943a6d28350a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

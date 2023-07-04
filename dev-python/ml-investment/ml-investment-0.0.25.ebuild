@@ -15,7 +15,7 @@ DESCRIPTION="Machine learning tools for investment"
 
 HOMEPAGE="https://github.com/fartuk/ml_investment"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/48/f549a20edbcdff8dcf1e4f80a8fde5b7a6ca6806bf72ce20ebda7af4c0a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

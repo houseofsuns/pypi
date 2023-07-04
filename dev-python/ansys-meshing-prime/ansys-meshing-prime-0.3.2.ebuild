@@ -15,7 +15,7 @@ DESCRIPTION="PyPrimeMesh provides a python client to Ansys Prime Server. Ansys P
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/dc/32f21747f26dbab79d2a1784f91a50b17ad63e75551ff961df3f3c25b186/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

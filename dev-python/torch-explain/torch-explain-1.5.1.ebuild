@@ -15,7 +15,7 @@ DESCRIPTION="PyTorch Explain: Explainable Deep Learning in Python."
 
 HOMEPAGE="https://github.com/pietrobarbiero/pytorch_explain"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8d/3b/ca396ca117cdabd69a18849cc725ff7c9f90b4e81e0fb7e0ff7f79b77720/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

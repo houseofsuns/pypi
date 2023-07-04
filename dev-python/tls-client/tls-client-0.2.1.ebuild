@@ -15,7 +15,7 @@ DESCRIPTION="Advanced Python HTTP Client."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/00/73c6aa49f67c94e4a63e87194748f5c505b870bc3d8a32422ba8eb792803/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

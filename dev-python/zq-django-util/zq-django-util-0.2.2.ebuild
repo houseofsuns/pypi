@@ -15,7 +15,7 @@ DESCRIPTION="自强Studio Django 工具"
 
 HOMEPAGE="https://github.com/Nagico/zq-django-util"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bf/50/372d89815aa4375e30cd86f29414d47e2028ecaf843bd5dabfe2bda456b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

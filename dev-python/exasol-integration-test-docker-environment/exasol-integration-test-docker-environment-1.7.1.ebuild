@@ -15,7 +15,7 @@ DESCRIPTION="Integration Test Docker Environment for Exasol"
 
 HOMEPAGE="https://github.com/exasol/integration-test-docker-environment"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/19/2125639083008e63875da08f847e02c0ed747489c43e7adfca6500a99fb4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

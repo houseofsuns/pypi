@@ -15,7 +15,7 @@ DESCRIPTION="An extensive music downloader crawling the internet. It gets its me
 
 HOMEPAGE="https://github.com/HeIIow2/music-downloader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/a0/71167ff09dc1d86f6507db58e99d869f678de7b96bb7fe87de359e791737/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

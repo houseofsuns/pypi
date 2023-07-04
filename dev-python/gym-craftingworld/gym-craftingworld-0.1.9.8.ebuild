@@ -15,7 +15,7 @@ DESCRIPTION="A gym package for the 2d crafting multitask world"
 
 HOMEPAGE="https://github.com/lauradarcy/gym-craftingworld"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/37/19/253d2805355632783cdc984cae1258991a96332229403a26a1e49d2bc9b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Short description of package."
 
 HOMEPAGE="https://github.com/fmatter/clld-morphology-plugin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/3f/c11abce8e29f5a6aa7e7118f45d7e62d92e14d37ee717cffc89dfad6018c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

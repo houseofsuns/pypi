@@ -15,7 +15,7 @@ DESCRIPTION="Python modules to extend the logging mechanism in Python."
 
 HOMEPAGE="https://github.com/fbrehm/fb-logging"
 LICENSE="LGPL3+"
-SRC_URI="https://files.pythonhosted.org/packages/2b/27/77ec32d2667b3867d4418050f83cd54f7b3bd1a5c272c40d3d193a5cf2bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

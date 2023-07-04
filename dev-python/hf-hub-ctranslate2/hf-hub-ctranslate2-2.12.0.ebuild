@@ -15,7 +15,7 @@ DESCRIPTION="Connecting Transfromers on HuggingfaceHub with Ctranslate2"
 
 HOMEPAGE="https://github.com/michaelfeil/hf-hub-ctranslate2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c1/9f/b133bf0502d4bd88c872d3a2e32ffbd257e6ca5da80103ce9f477aa56907/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

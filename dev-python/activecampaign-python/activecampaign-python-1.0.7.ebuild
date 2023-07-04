@@ -15,7 +15,7 @@ DESCRIPTION="API wrapper for ActiveCampaign written in Python"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/36/e1/310f9a000a2f5bc327528d09577d893106c5a4cad5ff903451ff2ea7fa03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

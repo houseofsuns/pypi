@@ -15,7 +15,7 @@ DESCRIPTION="Packs for Redis modules into a distributable format"
 
 HOMEPAGE=""
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/e8/09/35feddb1ca691fc5249f31a33a6154ac90e0cca1a00b2a2c9d761c677c7f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

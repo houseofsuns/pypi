@@ -15,7 +15,7 @@ DESCRIPTION="A chat client"
 
 HOMEPAGE="https://github.com/sudoskys/openai-kira"
 LICENSE="LGPL-2.1+"
-SRC_URI="https://files.pythonhosted.org/packages/0e/6a/0c4fd1b07476540ff43fa85cecce312447aefe55f2952621bdf497989ad5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

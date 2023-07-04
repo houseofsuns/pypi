@@ -15,7 +15,7 @@ DESCRIPTION="simplify functions from other libraries functions in 1-2 lines"
 
 HOMEPAGE="https://github.com/chanon-kr/Shared_Function"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/3d/f734feb8fd0812b382767d7d52f4a6839b635e735f75ba7b070d0d0a1422/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

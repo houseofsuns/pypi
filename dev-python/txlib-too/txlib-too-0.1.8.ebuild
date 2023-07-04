@@ -15,7 +15,7 @@ DESCRIPTION="A python library for Transifex"
 
 HOMEPAGE="https://github.com/transifex/transifex-python-library"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/40/1e/9c9893554a4d2a1412d589d0c1fc4fef3ac2c35b2d0287f5f5d3687879d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

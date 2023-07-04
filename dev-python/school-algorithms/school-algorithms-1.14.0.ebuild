@@ -15,7 +15,7 @@ DESCRIPTION="School algorithm module for Python"
 
 HOMEPAGE="https://github.com/Sammygarch/school_algorithms.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ab/7c/19ff24943857ce7870a0834422f2ac6b30bfd82d768d46206bc76353d698/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

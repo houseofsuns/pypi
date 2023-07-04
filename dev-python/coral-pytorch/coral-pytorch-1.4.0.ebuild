@@ -15,7 +15,7 @@ DESCRIPTION="CORAL ordinal regression for PyTorch"
 
 HOMEPAGE="https://github.com/raschka-research-group/coral_pytorch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/8a/a361d6338f845441b97d59df37510d19ce2125dffebe2f6fe59738ed2588/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

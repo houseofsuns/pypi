@@ -15,7 +15,7 @@ DESCRIPTION="A simple framework for interacting with Dune Analytics official API
 
 HOMEPAGE="https://github.com/cowprotocol/dune-client"
 LICENSE="Apache License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/db/7e/9ba1fd099560bb788c8a32acb341fe05e4b45752f237a63bb309657dc515/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

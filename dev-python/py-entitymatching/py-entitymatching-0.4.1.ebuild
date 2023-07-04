@@ -15,7 +15,7 @@ DESCRIPTION="Python library for end to end Entity Matching."
 
 HOMEPAGE="https://sites.google.com/site/anhaidgroup/projects/magellan/py_entitymatching"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d3/97/b380d18b1117f09b2ae1cf96b1a81b5eddd106d43a4003ecb11ac7118352/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

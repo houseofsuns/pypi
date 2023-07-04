@@ -15,7 +15,7 @@ DESCRIPTION="Python library used to extract data from Salesforce API and migrate
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/58/d0a224cd7119d0dc4afcc7fe660cfbf1056e9b07926fc03cca4b85123f33/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

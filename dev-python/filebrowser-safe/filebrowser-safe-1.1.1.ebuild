@@ -15,7 +15,7 @@ DESCRIPTION="A snapshot of the filebrowser_3 branch of django-filebrowser, packa
 
 HOMEPAGE="http://github.com/stephenmcd/filebrowser-safe"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/b4/cdd390147b64e9e3ee97e72faaf24218863e067036db51f392f560800ff8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

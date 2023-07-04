@@ -15,7 +15,7 @@ DESCRIPTION="Read and Write Dataframes and Data to a chipmunkdb"
 
 HOMEPAGE="https://gitlab.com/coindeck/chipmunkdb-python-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9d/a6/fa512c30f06847a4557a6e851c9635abb762c4e80cb914311eb4dcca0892/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

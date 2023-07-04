@@ -15,7 +15,7 @@ DESCRIPTION="kast python api unified processing engine"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/0c/de972b8ede0c39f3944e43a41a5253a99c14f5bb5e6f1a7ff5c17a1a1457/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

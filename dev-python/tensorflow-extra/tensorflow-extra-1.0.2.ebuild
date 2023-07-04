@@ -15,7 +15,7 @@ DESCRIPTION="Tensorflow Extra Utilities. https://github.com/awsaf49/tensorflow_e
 
 HOMEPAGE="https://github.com/awsaf49/tensorflow_extra"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/81/646420078d882c9bb1f69f028e6db6747cec5c372d2423b99400e1776839/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

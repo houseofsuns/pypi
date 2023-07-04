@@ -15,7 +15,7 @@ DESCRIPTION="Returns a score of 2 companies to be the same"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/b6/ba7efac6544340cbda72ddf76c75fa500aa2a3d47ab12351bdb9bbd62bf3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python Password Vault"
 
 HOMEPAGE="https://github.com/svavelsyra/PyVault"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/05/8d3d36604764d7ced7f4e002734a20f76ca5a248ddc60dd64fee24ed1aa8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

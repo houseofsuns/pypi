@@ -15,7 +15,7 @@ DESCRIPTION="A Python script for bulk migrating repos from one org to other org 
 
 HOMEPAGE="https://github.nike.com/mp-commerce-fulfillment/githubmigration"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/d8/54cdf0d018a505091cff2564a7526768070fe447f493b3e976ca29f70220/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

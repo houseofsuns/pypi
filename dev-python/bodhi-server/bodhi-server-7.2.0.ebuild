@@ -15,7 +15,7 @@ DESCRIPTION="Bodhi server"
 
 HOMEPAGE="https://bodhi.fedoraproject.rog"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/27/6c/d4e0b8e0e5e16ac0f5454ef8737e3169e1a78e1d27a4f032ba63dfbfe9b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

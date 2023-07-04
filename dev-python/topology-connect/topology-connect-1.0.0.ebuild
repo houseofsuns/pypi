@@ -15,7 +15,7 @@ DESCRIPTION="SSH/Telnet/etc connection Platform Engine plugin for the Network To
 
 HOMEPAGE="http://topology-connect.rtfd.org/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/bf/6c6f02be03b0fd721e9e67692a2f46483f4da64c1741201d4c5796b6f598/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

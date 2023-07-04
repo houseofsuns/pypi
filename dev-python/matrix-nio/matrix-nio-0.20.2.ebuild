@@ -15,7 +15,7 @@ DESCRIPTION="A Python Matrix client library, designed according to sans I/O prin
 
 HOMEPAGE="https://github.com/poljar/matrix-nio"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/da/36/37470ee6e97d9776f1462de1176c4e88e7d1c12a0635d80ef848c62358d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

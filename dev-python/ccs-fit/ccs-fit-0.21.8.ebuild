@@ -15,7 +15,7 @@ DESCRIPTION="Fitting tools for repulsive two body interactions using curvature c
 
 HOMEPAGE="https://github.com/Teoroo-CMC/CCS"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/3e/18/c336c5028ec1a9f2aabf6d3a5fae5eba0c122f77bdd4a95c9652d7abc10f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

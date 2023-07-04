@@ -15,7 +15,7 @@ DESCRIPTION="An ontology describing Magic: The Gathering."
 
 HOMEPAGE=""
 LICENSE="GNU GPL v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/ba/52/b7f1033a4809a4e188751bd740e427114cc5165ec95cadac2cc469f890eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="pref_voting is a Python packaging that contains tools to reason abo
 
 HOMEPAGE="https://github.com/voting-tools/pref_voting"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6f/77/2db45d437a26052e32b04a35c8471feff793eced9e60a63012a88299b5ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="OS2mo DAR Client is a client for DAWA / DAR"
 
 HOMEPAGE="https://magenta.dk/"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7c/d2/608d2068b133aea8778dfd425ba756ecf1c1da633e1d73348b1074d55a9b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

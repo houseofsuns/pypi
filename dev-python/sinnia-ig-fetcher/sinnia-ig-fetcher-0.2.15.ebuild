@@ -15,7 +15,7 @@ DESCRIPTION="Sinnia IG Fetching Tools"
 
 HOMEPAGE="https://github.com/sinnia/scripts/tree/develop/instagram"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/81/de/b8ee676bf8b897561e34b651d577ee47a5e9ed66af39d75d7efb91487989/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

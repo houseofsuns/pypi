@@ -15,7 +15,7 @@ DESCRIPTION="Jamf Pro Server API Python wrapper"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/92/693f53537b2cf89306f830544e8d2bf9a1bd31941de0e72e99a6756d3f6f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Philippine statutory law pattern matching and unit retrieval."
 
 HOMEPAGE="https://lawsql.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/95/f4/7613cf02f1ba021ec86350153cd02c7f1b5f350cf902adfefd5bbc34e436/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A package for converting HGNC to BEL"
 
 HOMEPAGE="https://github.com/bio2bel/hgnc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/ed/722d0b0c0755924a56e975a2b7ea52412a7bb1e8b8522b164ca2af82e142/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

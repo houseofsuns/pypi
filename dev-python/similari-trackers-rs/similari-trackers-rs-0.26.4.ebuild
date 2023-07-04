@@ -15,7 +15,7 @@ DESCRIPTION="Machine learning framework for building object trackers and similar
 
 HOMEPAGE="https://github.com/insight-platform/Similari"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c6/3d/f0cb4dc4ff1c403e5df388f01d9c79f3883c413dd8a457a1915c39712d68/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

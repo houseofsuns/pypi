@@ -15,7 +15,7 @@ DESCRIPTION="Control laser attachment on OpenTrons robot"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/26/88e9b3c2e79bc7c2694a22ec88249050ea3844163f338915124e93de3906/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

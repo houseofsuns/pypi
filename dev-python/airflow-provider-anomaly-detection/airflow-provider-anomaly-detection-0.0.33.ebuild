@@ -15,7 +15,7 @@ DESCRIPTION="An airflow provider for anomaly detection."
 
 HOMEPAGE="https://github.com/andrewm4894/airflow-provider-anomaly-detection"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/3f/fa38d0b1a7655d4245400c2e9f865b2626fb112805442fe9860bb9ca2241/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

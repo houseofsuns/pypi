@@ -15,7 +15,7 @@ DESCRIPTION="Library for creating evergreen configurations"
 
 HOMEPAGE="https://github.com/evergreen-ci/shrub.py"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f5/37/5739f5ad3f2e015c7be91e720c9ebc991f711ab89b4e46c71da7dd468b7e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

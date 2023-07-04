@@ -15,7 +15,7 @@ DESCRIPTION="An extension to the Autosubmit package that serves its information 
 
 HOMEPAGE="https://earth.bsc.es/gitlab/wuruchi/autosubmit_api"
 LICENSE="GNU GPL"
-SRC_URI="https://files.pythonhosted.org/packages/26/dd/9288b037ec280ce0a225f30c8583adaa55cef7e969c7b2fff5d8da39a644/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

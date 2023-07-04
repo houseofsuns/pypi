@@ -15,7 +15,7 @@ DESCRIPTION="Automatically Build Multiple Time Series models fast - now with Fac
 
 HOMEPAGE="https://github.com/AutoViML/Auto_TS"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a5/79/e4d10cf0975625961f72504de012c0b0eefd20856cd0cddd93a88f2c93a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

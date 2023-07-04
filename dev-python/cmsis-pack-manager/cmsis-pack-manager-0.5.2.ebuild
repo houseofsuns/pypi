@@ -15,7 +15,7 @@ DESCRIPTION="Python manager for CMSIS-Pack index and cache with fast Rust backen
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/08/9f/dd005073d8d14cc1582115e477b0ecb6959b03cb2febc141f26a93d6a8e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

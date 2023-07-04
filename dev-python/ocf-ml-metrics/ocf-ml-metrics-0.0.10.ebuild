@@ -15,7 +15,7 @@ DESCRIPTION="Common metrics and baselines for OCF's energy forecasting work"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/15/9a40e45b2955e7084a1fa223e348ca89626960b266c05abdd4b77073fc63/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

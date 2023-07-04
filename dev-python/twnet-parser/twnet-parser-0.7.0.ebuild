@@ -15,7 +15,7 @@ DESCRIPTION="A teeworlds network protocol library, designed according to sans I/
 
 HOMEPAGE="https://gitlab.com/teeworlds-network/twnet_parser"
 LICENSE="BSD-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8c/f7/8e78101dd8d791cae0263fac9f7787c9710da7243d97361e4d037b9c90fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

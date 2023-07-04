@@ -15,7 +15,7 @@ DESCRIPTION="BioSimulators-compliant command-line interface to the COBRApy simul
 
 HOMEPAGE="https://github.com/biosimulators/biosimulators_cobrapy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7f/a5/fdec20abe990b77f7b37f86065315edbdb01902bf3e234f63e99e43e1965/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

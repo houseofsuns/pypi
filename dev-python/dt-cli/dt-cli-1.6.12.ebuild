@@ -15,7 +15,7 @@ DESCRIPTION="Dynatrace CLI"
 
 HOMEPAGE="https://github.com/dynatrace-oss/dt-cli"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8b/f7/95b3d7d70f2a46f60f1214e173afc9ed034ce0f7a53fae1c1ca46ca83276/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

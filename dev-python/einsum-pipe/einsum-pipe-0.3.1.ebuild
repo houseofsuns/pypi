@@ -15,7 +15,7 @@ DESCRIPTION="A Python package to compile multiple Numpy einsum operations into o
 
 HOMEPAGE="https://github.com/davystrong/Einsum-Pipe"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/33/552a7b94751205d8c15384384fc9bd83adf42ea53981e200a97f1dcf1721/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python package for reading and writing files"
 
 HOMEPAGE="https://github.com/MonolithAILtd/monolith-filemanager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/27/5b4e87326ea3284b3966cbf8f18819d72661dd2ac981af81796db8d04322/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

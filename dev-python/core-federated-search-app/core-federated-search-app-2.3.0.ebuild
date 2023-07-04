@@ -15,7 +15,7 @@ DESCRIPTION="Federated search backend for the curator core project"
 
 HOMEPAGE="https://github.com/usnistgov/core_federated_search_app"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/95/0fded0105a06530ee84ae8e9e25cd30704f2713f50275558bea316c75207/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

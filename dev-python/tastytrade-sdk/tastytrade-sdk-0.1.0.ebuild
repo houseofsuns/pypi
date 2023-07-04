@@ -15,7 +15,7 @@ DESCRIPTION="A python wrapper around the tastytrade open API"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/40/799fae94274277667fa52ff6cadc9a4d849e2b799b5d4c1ece997cf25de6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

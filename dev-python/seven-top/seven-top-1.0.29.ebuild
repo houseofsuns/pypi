@@ -15,7 +15,7 @@ DESCRIPTION="seven top"
 
 HOMEPAGE="http://gitlab.tdtech.gao7.com/TaoBaoCloud/seven_top.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/80/1b27a14952293c4aba182361e752111f3123af98ec298233e260c32bed86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Redfish Service Validator"
 
 HOMEPAGE="https://github.com/DMTF/Redfish-Protocol-Validator"
 LICENSE="BSD 3-clause New or Revised License"
-SRC_URI="https://files.pythonhosted.org/packages/2d/4b/ae1ceed5f181874fef1039e0b879c064133b22ac56b33f68cfa311205633/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

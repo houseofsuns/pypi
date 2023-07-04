@@ -15,7 +15,7 @@ DESCRIPTION="Split images into tiles. Join the tiles back together."
 
 HOMEPAGE="https://github.com/samdobson/image_slicer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/72/e1afeef7cf8bf441c1471abbc2565314fca1144fa819b1b04fdd85f2953a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

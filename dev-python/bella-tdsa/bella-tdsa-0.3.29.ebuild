@@ -15,7 +15,7 @@ DESCRIPTION="Target Dependent Sentiment Analysis (TDSA) framework."
 
 HOMEPAGE="https://github.com/apmoore1/Bella"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/02/1155dee99a9ee83c8764f7b129f7d02df88abd59fde56462ceea4c7e0c3f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Python interface for markdown-it.rs, using Rust for blazingly fas
 
 HOMEPAGE="https://github.com/chrisjsewell/markdown-it-pyrs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/93/9e/8cf0dc6626cae8c50196fab277db6e1797f4dbb8e1e450cd3ba33456b5fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

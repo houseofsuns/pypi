@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://tryrelevance.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/91/fe5e1cf5ce7e566b015f2a771043f8b5a0f058201ac813eb123dbfdf85a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

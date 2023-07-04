@@ -15,7 +15,7 @@ DESCRIPTION="VMA-NLU is a library to implement NLU component in virtual medical 
 
 HOMEPAGE="https://github.com/demdecuong/NER_Extractor/tree/main"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/07/d6/c3d3fcc2f6b1b7923efc6c3648a9cfedca536592b6c3e52ac0601e77fd4e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

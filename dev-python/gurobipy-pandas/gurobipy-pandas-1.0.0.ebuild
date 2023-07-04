@@ -15,7 +15,7 @@ DESCRIPTION="Pandas accessors for gurobipy interaction"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/da/1b/0520751e07306e4b6d7c6ede17325814dba011ea1f1fa3ff761f2715aa93/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

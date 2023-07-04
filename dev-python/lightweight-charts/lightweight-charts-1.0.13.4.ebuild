@@ -15,7 +15,7 @@ DESCRIPTION="Python framework for TradingView's Lightweight Charts JavaScript li
 
 HOMEPAGE="https://github.com/louisnw01/lightweight-charts-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/59/05a96b3163ac240166b758cf0e932fa886bcc20188707dae3fd264efd395/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Package for AI6127 Project"
 
 HOMEPAGE="https://github.com/AiRiFiEd/project_6127"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/20/478d2fa289013611a8ae07a3e0676d30abc05059ca52b80c644953cf0f92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Sphinx readthedocs theme with support for documentation versions fr
 
 HOMEPAGE="https://github.com/dls-controls/sphinx_rtd_theme_github_versions"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/eb/62/f0f67582bbcac7d271e2fc77d16f4bf99ae75f6859fd03d7aa96a69063e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

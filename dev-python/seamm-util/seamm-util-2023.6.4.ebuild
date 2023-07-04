@@ -15,7 +15,7 @@ DESCRIPTION="seamm_util"
 
 HOMEPAGE="https://github.com/molssi-seamm/seamm_util"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/60/35/ba09fe108578c72d2563b3a86b60c986972f1555d3d779daf51a5e4f65da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Publish a Jupyter Notebook as a Medium blogpost"
 
 HOMEPAGE="https://github.com/dexplo/jupyter_to_medium"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/3e/b25aab2d09bb2fa808b3c62f0413cc05a1c0ec7648403f988d218da555e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

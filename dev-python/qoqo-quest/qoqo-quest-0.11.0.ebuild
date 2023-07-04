@@ -15,7 +15,7 @@ DESCRIPTION="QuEST simulator backend for qoqo quantum computing toolkit"
 
 HOMEPAGE="https://github.com/HQSquantumsimulations/qoqo_quest"
 LICENSE="Apache-2.0 AND Apache-2.0 with LLVM-exception AND MIT AND Unicode-DFS-2016 AND BSD-2-Clause AND BSD-3-CLause"
-SRC_URI="https://files.pythonhosted.org/packages/b9/19/a58c3d0a4fff172ccf2f6422c0d1ecdc3d58b73c08a6ca1b84dec421bed4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

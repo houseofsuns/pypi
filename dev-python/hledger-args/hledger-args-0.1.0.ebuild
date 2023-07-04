@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/edkedk99/hledger-args"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/c1/8676e7c736fdb604e510e11f9e7ca3cc8e090c7b11689f2f85e6e3a72a69/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

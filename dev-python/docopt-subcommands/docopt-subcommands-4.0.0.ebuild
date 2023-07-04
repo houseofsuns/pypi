@@ -15,7 +15,7 @@ DESCRIPTION="create subcommand-based CLI programs with docopt"
 
 HOMEPAGE="https://github.com/abingham/docopt-subcommands"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/9f/90aa411d8d599b7e5c5d68742a03922242d576b770837a7517309fde14c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

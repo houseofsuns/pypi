@@ -15,7 +15,7 @@ DESCRIPTION="三叉戟，二次开发项目同步升级工具，Secondary develo
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/1a/7c813b1d20bed21ce2209244793d408ecef09eb5ec2c417276026b4b7acc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

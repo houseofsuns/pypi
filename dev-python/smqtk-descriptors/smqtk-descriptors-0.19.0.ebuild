@@ -15,7 +15,7 @@ DESCRIPTION="Algorithms, data structures and utilities around computingdescripto
 
 HOMEPAGE="https://github.com/Kitware/SMQTK-Descriptors"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e8/08/f67e8148ab1b84d658a854b8df82fe10cede57d575855922007e8eb710b4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

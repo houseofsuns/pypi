@@ -15,7 +15,7 @@ DESCRIPTION="Client code for python Mona instrumentation"
 
 HOMEPAGE="https://gitlab.com/mona-labs/mona-python-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/f3/fa4befd71097f0cbf01183f2de3acaa6ff16a66779b09190662f1e95e334/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

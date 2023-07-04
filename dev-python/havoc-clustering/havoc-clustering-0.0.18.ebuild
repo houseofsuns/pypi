@@ -15,7 +15,7 @@ DESCRIPTION="Histomic Atlases of Variation Of Cancers (HAVOC) is a versatile too
 
 HOMEPAGE="https://bitbucket.org/diamandislabii/havoc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/67/43/8fdec20b13780681f43966568e46723288a096dafa08ff4866d418a7d27f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

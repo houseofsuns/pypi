@@ -15,7 +15,7 @@ DESCRIPTION="Data Cache"
 
 HOMEPAGE="https://github.com/statnett/data_cache"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/10/af/8d2d7b2f8142f848fe310022c77c999a093b327369b408e855975e19d2ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

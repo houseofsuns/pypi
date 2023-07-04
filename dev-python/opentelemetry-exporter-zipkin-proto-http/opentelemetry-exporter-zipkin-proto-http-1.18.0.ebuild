@@ -15,7 +15,7 @@ DESCRIPTION="Zipkin Span Protobuf Exporter for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/exporter/opentelemetry-exporter-zipkin-proto-http"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/07/d4/f2cba7190fac9588b99bf7e69d645d49c9a38d7277c55b0d32e8828e9feb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

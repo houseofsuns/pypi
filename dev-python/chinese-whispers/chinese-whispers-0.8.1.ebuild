@@ -15,7 +15,7 @@ DESCRIPTION="An implementation of the Chinese Whispers clustering algorithm."
 
 HOMEPAGE="https://github.com/nlpub/chinese-whispers-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1b/1d/816d337e9dd30f0948c86266b00d47fb2a4cc15c0bcdcb450575f3f7dfaa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A typlog Sphinx theme"
 
 HOMEPAGE="https://github.com/typlog/sphinx-typlog-theme"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cd/db/b0552602f20a375094bcb3d4cb9d11167f931ed08f0af782af13b9007216/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A simple Kubernetes Python API"
 
 HOMEPAGE="https://github.com/labdave/kube_api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/93/4f/fe580a6ca3d472fdaed622a2d859a2e592f5559386b79702dce513804258/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

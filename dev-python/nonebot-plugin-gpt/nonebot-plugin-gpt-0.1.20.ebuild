@@ -15,7 +15,7 @@ DESCRIPTION="Chatbot plugin based on ChatGPT for Nonebot."
 
 HOMEPAGE="https://github.com/kifuan/nonebot-plugin-gpt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/67/99e92f4cae267580cce2cb84719732886dd39389138de80ef14ada804907/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

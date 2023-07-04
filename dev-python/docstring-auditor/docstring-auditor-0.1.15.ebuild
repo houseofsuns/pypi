@@ -15,7 +15,7 @@ DESCRIPTION="A tool to analyze Python functions' docstrings and provide critique
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/26/11/a688720871da70701a21da413439dce33702e0d8d3aaedd4e90a96c7f592/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="selenium_browser"
 
 HOMEPAGE="https://github.com/kkristof200/selenium_browser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/53/d1/872c36600a351b994a538657f1f2457ace8c5c16f14ae167445b440a26a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Hatch Rest mini Api Wrapper"
 
 HOMEPAGE="https://github.com/dahlb/hatch_rest_api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/73/d5893faf47fffb947144e490ad7c33369deb88bf4d3c8c65caeeada77e5f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

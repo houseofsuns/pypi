@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/_/scrapy_warc"
 LICENSE="MIT Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/04/6e/364486a20616f668519781367e4713000f4d3154cddb6c7b8be1dc6a138c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

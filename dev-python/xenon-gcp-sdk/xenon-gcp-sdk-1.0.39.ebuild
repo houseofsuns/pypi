@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/xenon-work/xenon"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/1b/e16b24abe95a87bce01aaaf1c4c33c5897c37c2e8dacb45947c2599719df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

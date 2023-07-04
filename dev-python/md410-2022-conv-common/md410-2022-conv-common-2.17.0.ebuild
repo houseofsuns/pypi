@@ -15,7 +15,7 @@ DESCRIPTION="Common libraries for applications related to the 2022 Lions MD410 C
 
 HOMEPAGE="https://gitlab.com/md410_2022_conv/md410_2022_conv_common"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/02/93/63815c9e7356e35298a068aecf7732af57757de6c8f5bf431782f5d2a7b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

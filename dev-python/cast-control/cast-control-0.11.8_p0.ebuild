@@ -15,7 +15,7 @@ DESCRIPTION="📺 Control Chromecasts from Linux and D-Bus"
 
 HOMEPAGE="https://github.com/alexdelorenzo/cast_control"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a5/bd/3ed67b435fe1216d8428f0a54c478efccadc8e7db5424b9fa87c465faed9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

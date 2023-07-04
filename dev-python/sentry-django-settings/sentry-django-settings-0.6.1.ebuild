@@ -15,7 +15,7 @@ DESCRIPTION="Easy Django-Sentry integration via Django settings."
 
 HOMEPAGE="https://github.com/enervee/sentry-django-settings"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/43/8a/cf1e189228cd9d6ab6c5c2ad3cef70fabda42e9435dad0055a18768630ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Make batch updates to Obsidian metadata"
 
 HOMEPAGE="https://github.com/natelandau/obsidian-metadata"
 LICENSE="GNU AFFERO"
-SRC_URI="https://files.pythonhosted.org/packages/63/8b/d585ce139f5cf6336ace47125f66b03a6fc6a262a925f59e0c163e8fe983/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

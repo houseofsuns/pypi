@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry openai instrumentation"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b1/ad/6e8d45500f99c28e896c0fd08a4965cdf153df4a65f342b7014ac5b22331/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

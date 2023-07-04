@@ -15,7 +15,7 @@ DESCRIPTION="Jupyter Notebook extension GUI node editor"
 
 HOMEPAGE="https://github.com/fathoms-io/ailab-lite"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b6/4d/f0f3a39f71aa6731c8930d2cfefb257f544fbf4d393c57409b1c5966d475/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

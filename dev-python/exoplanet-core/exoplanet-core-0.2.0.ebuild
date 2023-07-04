@@ -15,7 +15,7 @@ DESCRIPTION="The compiled backend for exoplanet"
 
 HOMEPAGE="https://docs.exoplanet.codes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/4a/2a38cd1a6310ff1d4bbd2a9dbf53ed11b85fda26a68770308de1dd5f307f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

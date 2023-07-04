@@ -15,7 +15,7 @@ DESCRIPTION="Alibaba Cloud AnalyticDB for PostgreSQL (20160503) SDK Library for 
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python2-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ce/c7/ae41197b629478eaa6fe3f1a9548f21bee2e793d3cc352ce4cd7e0198fb4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

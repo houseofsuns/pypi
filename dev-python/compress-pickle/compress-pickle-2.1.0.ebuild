@@ -15,7 +15,7 @@ DESCRIPTION="Standard pickle, wrapped with standard compression libraries"
 
 HOMEPAGE="https://github.com/lucianopaz/compress_pickle"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/23/a448abd4e98b64ad5b99537a2b4df3f6a829e6fac749afbaf921f89c0941/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A bunch of fake interfaces for development when not using the RPi o
 
 HOMEPAGE="https://pypi.org/project/fake_rpi/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/a0/4613cce35cc9683f3366c226b3525f8352f977e34afb13505ec85e704cfe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

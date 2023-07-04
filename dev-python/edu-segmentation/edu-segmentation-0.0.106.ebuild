@@ -15,7 +15,7 @@ DESCRIPTION="To improve EDU segmentation performance using Segbot. As Segbot has
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/50/57821f609d3dac1dfd8561053e0414e632317d1534679538aaf7f4c82f86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

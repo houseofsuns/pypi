@@ -15,7 +15,7 @@ DESCRIPTION="pytest plugin providing a function to check if pytest is running."
 
 HOMEPAGE="https://github.com/adamchainz/pytest-is-running"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/81/b74e20e14f9f8949a287fb8c23e3c249c8e37e2ee1fe2deacf6ffbb7a524/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

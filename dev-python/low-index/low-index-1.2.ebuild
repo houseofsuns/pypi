@@ -15,7 +15,7 @@ DESCRIPTION="Enumerates low index subgroups of a finitely presented group"
 
 HOMEPAGE="https://github.com/3-manifolds/low_index"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/7a/72/589bc00aad6be3c162e1aff2d47ba0f3eb3a13b8a88a86d1a5798d41063e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

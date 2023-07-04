@@ -15,7 +15,7 @@ DESCRIPTION="ae namespace package portion gui_help: main app base class with con
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_gui_help"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/df/f1/42a8cb1cc967e50352aac00e49193a6d5044d862130835cdf6519c07102c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

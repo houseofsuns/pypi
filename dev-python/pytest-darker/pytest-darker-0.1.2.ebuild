@@ -15,7 +15,7 @@ DESCRIPTION="A pytest plugin for checking of modified code using Darker"
 
 HOMEPAGE="https://github.com/akaihola/pytest_darker"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/15/d8/49e6643ce5ada9a70a7d158d4013f23b954775b53c9c893da8139359429c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

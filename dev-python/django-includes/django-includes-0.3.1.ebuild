@@ -15,7 +15,7 @@ DESCRIPTION="Include django views as a subparts of other django views, using eit
 
 HOMEPAGE="https://github.com/hartym/django-includes"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a3/20/c96bdcfc00832e6e2a2faf7bba70ab8d2b39f2c3f427bc974fa346fcfb14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Added show_default=True for every options."
 
 HOMEPAGE="https://github.com/vaibhavblayer/init-mail"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0f/55/1b84aae6a4e307728c2787c3926e9b6c554c4bdf10359650609c055ebed5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

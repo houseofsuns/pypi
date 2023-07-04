@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/tapis-project/tapis-workflows"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9d/a2/0c3ce18c609e2e6379facd0eb6ad01c8ec2df0a5ba51f1268dcd0b1433c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

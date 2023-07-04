@@ -15,7 +15,7 @@ DESCRIPTION="FastDepends - extracted and cleared from HTTP domain logic FastAPI 
 
 HOMEPAGE="https://lancetnik.github.io/FastDepends/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/1e/0c3cb4ce68f42a145d329f86d0bdc041cca4db8efe1c1298ef6d388766eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

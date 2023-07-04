@@ -15,7 +15,7 @@ DESCRIPTION="Python libraries for Datavore. Auth, Exec, Publish, gRPC, ...."
 
 HOMEPAGE="https://github.com/datavore-labs/dv-pyclient"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/d3/93c238f2302496d4088989f7be171068f2333633ace968141dbb58067c45/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

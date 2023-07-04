@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/project-generator/project_generator_definitions"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5e/f2/6cb5624685f60403afd0dbf2eeebd1d2bfb9848f35f63762942bf8fec4b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

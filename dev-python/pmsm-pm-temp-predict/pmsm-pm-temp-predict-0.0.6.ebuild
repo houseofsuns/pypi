@@ -15,7 +15,7 @@ DESCRIPTION="Permanent magnet temperature prediction"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/4f/393f64d65c8feb5fd124f988b37a413d7eb929d2213e1a6f0a6d73a7d33e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

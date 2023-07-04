@@ -15,7 +15,7 @@ DESCRIPTION="Einsum optimization using opt_einsum and PyTorch FX"
 
 HOMEPAGE="https://github.com/Linux-cpp-lisp/opt_einsum_fx"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/de/856dab99be0360c7275fee075eb0450a2ec82a54c4c33689606f62e9615b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

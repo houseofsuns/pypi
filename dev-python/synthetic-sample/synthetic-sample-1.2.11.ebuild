@@ -15,7 +15,7 @@ DESCRIPTION="A generator for synthetic sales data"
 
 HOMEPAGE="https://github.com/amendmentai/synthetic_sample"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8f/3c/b6fd813abe85d763682eb2e9e77b013a39ed75c1b18b60a7cb6998f458a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

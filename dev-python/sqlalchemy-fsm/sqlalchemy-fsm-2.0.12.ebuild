@@ -15,7 +15,7 @@ DESCRIPTION="Finite state machine field for sqlalchemy"
 
 HOMEPAGE="https://github.com/VRGhost/sqlalchemy-fsm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/05/9e/61dd441f76304525765ac30fe5ed6b192e94afd8cb28983c3842790be7ce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

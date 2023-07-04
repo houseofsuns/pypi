@@ -15,7 +15,7 @@ DESCRIPTION="Haystack node to convert text entities (documents, answers, etc...)
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/03/c7f29d82b745376d29713527f06ef9e0d0e5ecfa74e3a20c323785bfe27c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

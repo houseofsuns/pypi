@@ -15,7 +15,7 @@ DESCRIPTION="ICICI Direct Breeze"
 
 HOMEPAGE="https://github.com/Idirect-Tech/Breeze-Python-SDK/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4b/62/4a8befcbe6308d2ef06ce1b3ae08f432d03f2770c60133ee2e2802c4defb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

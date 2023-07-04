@@ -15,7 +15,7 @@ DESCRIPTION="Pacote de ETL"
 
 HOMEPAGE="https://gitdev.clarobrasil.mobi/vendas-claro/csm/etl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/fd/e308f0e8eab498338c81f117a52961a4bc0264b3763229612a59d4ba0dd8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

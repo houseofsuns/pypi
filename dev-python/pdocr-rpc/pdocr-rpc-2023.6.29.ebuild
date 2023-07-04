@@ -15,7 +15,7 @@ DESCRIPTION="PaddleOCR-RPC"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f6/6a/f7ebd6c2dcb6ca65ab8061cae3795d24bbb0e9446a49246563558e6b08f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

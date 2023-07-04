@@ -15,7 +15,7 @@ DESCRIPTION="Expands a regular expression to its possible matches"
 
 HOMEPAGE="https://github.com/google/sre_yield"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f2/a6/4588fe0f6c6e3b03ddbfc2bd97227adfcf5ad0f49f79828529ab4d580eeb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

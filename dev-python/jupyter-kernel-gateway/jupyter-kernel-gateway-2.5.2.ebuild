@@ -15,7 +15,7 @@ DESCRIPTION="A web server for spawning and communicating with Jupyter kernels"
 
 HOMEPAGE="http://github.com/jupyter-incubator/kernel_gateway"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c9/bb/33d9ccf03b7305ad0c0aaeb8564f05f2f33c1ecd40971ddeb80ea3a3a3d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

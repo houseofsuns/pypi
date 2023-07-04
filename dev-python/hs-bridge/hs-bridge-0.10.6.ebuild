@@ -15,7 +15,7 @@ DESCRIPTION="Software for interacting with the CRI neuromorphic hardware"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/de/1c/3eed350ca113d4f2a7f2e3e627bad548569047e13708a97300655880ca65/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

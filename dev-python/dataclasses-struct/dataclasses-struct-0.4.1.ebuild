@@ -15,7 +15,7 @@ DESCRIPTION="Converting dataclasses to and from fixed-length binary data using s
 
 HOMEPAGE="https://github.com/harrymander/dataclasses-struct"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ff/54/aeb5868cf7dcc8f5df924f84ea9cd420be5b567abaf14abd4d2ac32744ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

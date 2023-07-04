@@ -15,7 +15,7 @@ DESCRIPTION="This is the base liveramp_automation_framework"
 
 HOMEPAGE="https://github.com/LiveRamp/qe_api_framework"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/55/fe/9047e0eeec2cfe3410d264fe878b6a68c608eb285659c05c7ba7a0847267/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

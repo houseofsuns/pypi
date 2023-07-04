@@ -15,7 +15,7 @@ DESCRIPTION="Create animated bar chart races using matplotlib"
 
 HOMEPAGE="https://github.com/dexplo/bar_chart_race"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/95/de/a7143a557e82e28310f4ca6eb7d42f6bfd76dcf7bb731ae58a41afb8b330/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

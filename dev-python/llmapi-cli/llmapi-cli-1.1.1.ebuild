@@ -15,7 +15,7 @@ DESCRIPTION="Do you want to talk directly to the LLMs? Try llmapi."
 
 HOMEPAGE="https://llmapi.io/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/bc/2f14eb55e45099491e371eeac53eb948d2e7efc958a1b6c3d8e1bfa8854b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

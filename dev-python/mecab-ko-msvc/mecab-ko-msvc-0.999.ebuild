@@ -15,7 +15,7 @@ DESCRIPTION="Mecab-ko-msvc build"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/b5/ab12174240e7e774e63ccdcb49c2c58aa573770d73c6726a77634b230ee1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

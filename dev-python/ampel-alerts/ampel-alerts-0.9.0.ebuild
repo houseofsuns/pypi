@@ -15,7 +15,7 @@ DESCRIPTION="Alert support for the Ampel system"
 
 HOMEPAGE="https://ampelproject.github.io"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/32/1a/8ff5a3e997ccc1f92084d9b7fb4f2a831873a5d569cdaa3d28cc42c73160/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Livekit Server SDK for Python"
 
 HOMEPAGE="https://github.com/tradablebits/livekit-server-sdk-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/85/3f/7bbb1cd13a9f782acbab85cc567044c43ff05affdc5c1d8f2e725f190ed2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

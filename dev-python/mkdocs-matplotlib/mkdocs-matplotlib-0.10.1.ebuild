@@ -15,7 +15,7 @@ DESCRIPTION="Live rendering of python code using matplotlib"
 
 HOMEPAGE="https://mkdocs-matplotlib.readthedocs.io/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a5/14/6246fc058f3c12e9d2077a9f046e90d3c944ce1b97823b2b4e2f14616365/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

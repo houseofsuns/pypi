@@ -15,7 +15,7 @@ DESCRIPTION="Django Case Insensitive Field is used to make Django Model Field ca
 
 HOMEPAGE="https://github.com/iamoracle/django_case_insensitive_field"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/18/d77815f85a2ac0f0188a0a80da344e0e2d4eca4eadc73afface0f9320f1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

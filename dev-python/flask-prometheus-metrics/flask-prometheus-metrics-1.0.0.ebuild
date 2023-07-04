@@ -15,7 +15,7 @@ DESCRIPTION="Prometheus Metrics for Flask Web App"
 
 HOMEPAGE="https://github.com/pilosus/flask_prometheus_metrics/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/a2/83a59fb33c2024dff49d6a493cced94c34d57fbfe6ee1fa5e90faf86df90/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

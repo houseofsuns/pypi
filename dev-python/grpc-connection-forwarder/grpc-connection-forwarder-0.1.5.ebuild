@@ -15,7 +15,7 @@ DESCRIPTION="A small package for counting gRPC connections"
 
 HOMEPAGE="https://github.com/flagman/grpc-connection-forwarder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/7a/83b3df3d0f0b8aac28e210e57ae001be7d192c1c3a3d2f7009d964ccf091/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

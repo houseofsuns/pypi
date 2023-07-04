@@ -15,7 +15,7 @@ DESCRIPTION="Parametrize tests within unittest TestCases."
 
 HOMEPAGE="https://github.com/adamchainz/unittest-parametrize"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/cf/252cea0348e0e614242e747c04ace6a50e38d9efe2a9b59e767567df04d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

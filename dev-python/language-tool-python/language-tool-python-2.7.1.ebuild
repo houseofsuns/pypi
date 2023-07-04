@@ -15,7 +15,7 @@ DESCRIPTION="Checks grammar using LanguageTool."
 
 HOMEPAGE="https://github.com/jxmorris12/language_tool_python"
 LICENSE="GNU GPL"
-SRC_URI="https://files.pythonhosted.org/packages/33/69/aaea2a65b647f6e9811f32b39bfafb9b264f736bece1f8d2b02a94edc699/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An mdformat plugin for parsing / ignoring frontmatter."
 
 HOMEPAGE="https://github.com/butler54/mdformat-frontmatter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/47/5d/7d28c6f3f789ee7719f48f625886cba4ef00eb1e105e36b554465898b81e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A mock utility for testing serial devices"
 
 HOMEPAGE="https://github.com/benthorner/mock_serial"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c6/d9/b9ec64510ffb4bccd7491c4583b8f24732ed4af6311c621822c3a9e47b46/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

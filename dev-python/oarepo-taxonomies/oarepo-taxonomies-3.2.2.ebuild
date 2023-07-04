@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper that connect flask-taxonomies with Invenio"
 
 HOMEPAGE="https://github.com/oarepo/oarepo-taxonomies"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b3/db/cbc1fd2d896584867cae5806aabddda10d47bae5a9230d6887ba320b5f7d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

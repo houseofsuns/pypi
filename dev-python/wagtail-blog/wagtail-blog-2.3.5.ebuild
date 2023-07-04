@@ -15,7 +15,7 @@ DESCRIPTION="A wordpress like blog app implemented in wagtail"
 
 HOMEPAGE="https://gitlab.com/thelabnyc/wagtail_blog"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a1/d8/09efa288963fb80591c3fdb08d724aadbd514cee519d533981db5244e3dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

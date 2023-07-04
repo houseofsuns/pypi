@@ -15,7 +15,7 @@ DESCRIPTION="A simple plagiarism detection tool for python code"
 
 HOMEPAGE="https://github.com/fyrestone/pycode_similar"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/aa/406aedb4e1f9deadeee077585a5e17d3d33b4371b35832f08c31d2e6ae2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

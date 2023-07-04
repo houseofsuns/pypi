@@ -15,7 +15,7 @@ DESCRIPTION="Django HMAC authentication using shared secret"
 
 HOMEPAGE="https://github.com/harisankar-krishna-swamy/django_hmac_authentication"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0b/11/e36f5d9fb97e9afdd7d59602dda25d3829c2e9236ac77a2a56938eb4faa2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

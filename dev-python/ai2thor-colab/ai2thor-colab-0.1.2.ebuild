@@ -15,7 +15,7 @@ DESCRIPTION="Utility functions for using AI2-THOR with Google Colab."
 
 HOMEPAGE="https://github.com/allenai/ai2thor-colab"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f9/6c/60da4dfb2ee22380a3cae50cd0e07f63f54c6cd857e020fae8a8a14014d8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Commands for loading and dumping fixtures based on app names."
 
 HOMEPAGE="https://github.com/andruten/django_loader_dumper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/e5/70fb981356e734269f2ff74d872f5ffb7dc462d5ab98c63d69bea77bf704/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

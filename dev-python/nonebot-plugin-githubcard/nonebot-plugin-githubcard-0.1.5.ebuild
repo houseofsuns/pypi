@@ -15,7 +15,7 @@ DESCRIPTION="检测GitHub仓库链接并自动发送卡片信息（适用于Oneb
 
 HOMEPAGE="https://github.com/ElainaFanBoy/nonebot_plugin_githubcard"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/80/d6af4ab420a968c71f0825744eb0c5c9c894fd41a5024e83213014372278/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

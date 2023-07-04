@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/gt-banks-parser/banks-parser-base"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/fc/b97285def6c3bbfd6d518df66824bfae846858a5b3c2ebb7d606bcf75e51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

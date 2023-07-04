@@ -15,7 +15,7 @@ DESCRIPTION="Factory boy classes for wagtail"
 
 HOMEPAGE="https://github.com/wagtail/wagtail-factories/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/b3/0635fd66623ed5c0d943d8911a0ea5adff63df2c7ab1cfb1802003ba362c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

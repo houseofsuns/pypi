@@ -15,7 +15,7 @@ DESCRIPTION="The hlpy business rule engine."
 
 HOMEPAGE="https://github.com/hlpy-co/business-rule-engine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/4a/4c6a0097b12cdb6a7bb837b1fc30ebe89fd92af946ce3fb9849e4f970e6a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

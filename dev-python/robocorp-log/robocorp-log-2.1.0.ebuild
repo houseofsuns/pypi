@@ -15,7 +15,7 @@ DESCRIPTION="Automatic trace logging for Python"
 
 HOMEPAGE="https://github.com/robocorp/robo/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6a/10/543686616fbf6ce937ae27a8f6a1c51d5560c82d7139a633790a01101ef3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

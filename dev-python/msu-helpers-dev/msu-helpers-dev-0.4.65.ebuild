@@ -15,7 +15,7 @@ DESCRIPTION="Package created for the university project to store common applicat
 
 HOMEPAGE="https://github.com/Ujinjinjin/msu_helpers/tree/dev"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/34/b0d083c22bc7809b5d5e7d416615d1ee2eb7465929d214384a0e2419286e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

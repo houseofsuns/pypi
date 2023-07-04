@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/malifpy/malifpy_ffnn"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/ab/df8f892c0f4184d541a99e9b5930837b8cb662fa2fe4e10c17fe969e452e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

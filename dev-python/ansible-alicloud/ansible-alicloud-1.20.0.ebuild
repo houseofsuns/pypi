@@ -15,7 +15,7 @@ DESCRIPTION="Ansible provider for Alicloud."
 
 HOMEPAGE="https://github.com/alibaba/ansible-provider/tree/master/lib/ansible"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/99/7418a2c68ce6d720c3ca8294f0b0b531ace17750e648f91a03bf8a23a00d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

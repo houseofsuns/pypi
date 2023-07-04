@@ -15,7 +15,7 @@ DESCRIPTION="Tool for annotating time series data from sources such as IMUs, MoC
 
 HOMEPAGE="https://github.com/TUD-Patrec/annotation-tool"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/93/a92246bcb6c7680b11865e964000c368491bea8a49de2e05f99528b34401/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

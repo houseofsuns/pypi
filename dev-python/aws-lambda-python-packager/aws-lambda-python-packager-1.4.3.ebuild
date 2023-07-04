@@ -15,7 +15,7 @@ DESCRIPTION="Description"
 
 HOMEPAGE="https://github.com/mumblepins/aws-lambda-python-packager/"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/07/22/39216c234ebd0d150c5e23f75bbad1763388d15788d48deba47a83e1a243/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

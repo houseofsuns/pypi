@@ -15,7 +15,7 @@ DESCRIPTION="Python Library to handle Input / Output conversion in Dicom <=> Con
 
 HOMEPAGE="https://github.com/wendyrvllr/Dicom-To-CNN"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/20/88/5548582f489643776074209422674affe82535b55f38ca142016acfa7e63/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

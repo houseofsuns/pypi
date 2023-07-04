@@ -15,7 +15,7 @@ DESCRIPTION="A text area (multi-line input) with syntax highlighting for Textual
 
 HOMEPAGE="https://github.com/tconbeer/textual-textarea"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/f1/ad4cc891dc16671234ff74d13f0c00781eb0aa43dee9880d882661ac55e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

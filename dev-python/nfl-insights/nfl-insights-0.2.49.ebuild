@@ -15,7 +15,7 @@ DESCRIPTION="Contendo.ai nfl insights package"
 
 HOMEPAGE="https://github.com/sportsight-pro/sportsight-core/tree/master/nfl_insights"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bf/90/5577f4e478c7f5e8c468811ccf223dd3427226419b773876acbf9a96f37d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

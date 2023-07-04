@@ -15,7 +15,7 @@ DESCRIPTION="A Jupyter extension for rendering Bokeh content."
 
 HOMEPAGE="https://github.com/bokeh/jupyter_bokeh"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d8/bc/78cb5a91f5d88668cea999aa2d794f67930ca15f921e5c4adc59e90910c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

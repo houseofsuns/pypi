@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper library for openai to send events to the Imaginary Programm
 
 HOMEPAGE="https://github.com/alecf/im_openai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/54/4e/08194a0cae8e8da4cab84e2c9359ba51c272f206387ddb73c4c9f6ff5c52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

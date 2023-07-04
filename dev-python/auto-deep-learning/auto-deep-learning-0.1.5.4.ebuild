@@ -15,7 +15,7 @@ DESCRIPTION="Automation of the creation of the architecture of the neural networ
 
 HOMEPAGE="https://github.com/Nil-Andreu/auto-deep-learning"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0a/15/8f08d084f1b7d0daaa14a0ddb9ee8611eba06e260e0a73af47c8c680e242/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

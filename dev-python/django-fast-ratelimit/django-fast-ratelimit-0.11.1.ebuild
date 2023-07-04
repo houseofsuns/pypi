@@ -15,7 +15,7 @@ DESCRIPTION="Fast ratelimit implementation with django caches"
 
 HOMEPAGE="https://github.com/devkral/django-fast-ratelimit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/95/63911d0faa61632fccc412bcf24f9dff7dbb1c58f7fe9d95427288de521a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

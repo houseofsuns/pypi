@@ -15,7 +15,7 @@ DESCRIPTION="PyTest plugin for the OAR testing framework"
 
 HOMEPAGE="https://github.com/ryandem1/oar"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/96/03/b5a6c79df6f0e18098d4182a43d847694e47772aac3cb2c075d5af801723/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

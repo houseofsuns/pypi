@@ -15,7 +15,7 @@ DESCRIPTION="Shared API stub types package for the CodeChecker API."
 
 HOMEPAGE="https://github.com/Ericsson/codechecker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/03/2c/7558eb03ddfc5a28df7f513b0e2da2d033c9c05cf2e46c672ee5fc9c2272/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

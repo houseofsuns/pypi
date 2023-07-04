@@ -15,7 +15,7 @@ DESCRIPTION="GUI Automation Framework"
 
 HOMEPAGE="https://github.com/Intergration-Automation-Testing/AutoControl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d8/b1/5c18ba68604ec879a27bd2ce9a6dda7ae76007dcb63b85001b288dd9a275/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

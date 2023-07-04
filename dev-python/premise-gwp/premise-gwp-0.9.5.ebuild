@@ -15,7 +15,7 @@ DESCRIPTION="Import IPCC's GWP100a method, with biogenic CO2 CFs, into Brightway
 
 HOMEPAGE="https://github.com/romainsacchi/premise_gwp"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/60/f0/3b8de4799bded4686b246211261914de6fde65baf7a45221c588334c8a47/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

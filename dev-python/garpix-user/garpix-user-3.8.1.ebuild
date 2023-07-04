@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/garpixcms/garpix_user"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c1/68/38f82e6b5fbe8713c9ccb12b548877b09ed420571e8a5386bf73595c3525/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

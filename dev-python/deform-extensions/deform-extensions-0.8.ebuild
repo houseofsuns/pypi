@@ -15,7 +15,7 @@ DESCRIPTION="Usefull tools for making grid/accordion layouted forms"
 
 HOMEPAGE="https://github.com/majerteam/deform_extensions"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/cf/b5/9d9ca1ce9e077e8cfd5cc991b443363f0f8e1db47c420b4d051b114cfc67/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

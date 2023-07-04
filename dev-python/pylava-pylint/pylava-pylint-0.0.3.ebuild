@@ -15,7 +15,7 @@ DESCRIPTION="Pylint integration to pylava library."
 
 HOMEPAGE="http://github.com/pylava/pylava_pylint"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/2b/1472a89f9a925846486c639b2c05822db0a710d179cfba6ac0020e051e4d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

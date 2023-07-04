@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for managing Slack workspaces."
 
 HOMEPAGE="https://www.pulumi.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/32/65/645e036d5b6832752dbea2e2a956f224d776dc9dc5eee0b0d895cf948bfe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

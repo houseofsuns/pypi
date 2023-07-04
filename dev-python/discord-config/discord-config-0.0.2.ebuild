@@ -15,7 +15,7 @@ DESCRIPTION="Easy config module for Discord bots"
 
 HOMEPAGE="https://github.com/nowakcasimir/discord-config"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/f0/7b65473076b840e1ea4fae9d2ba48541d84c8a68ea159274a110ba40790d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

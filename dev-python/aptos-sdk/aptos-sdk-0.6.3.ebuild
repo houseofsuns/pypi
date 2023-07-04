@@ -15,7 +15,7 @@ DESCRIPTION="Aptos SDK"
 
 HOMEPAGE="https://github.com/aptos-labs/aptos-core/tree/main/ecosystem/python/sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a2/ad/036ffcf4120f657c19f150d65099ceffd57ce9fb70daaf112305c7f4a215/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

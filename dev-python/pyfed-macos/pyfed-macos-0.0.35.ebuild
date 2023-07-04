@@ -15,7 +15,7 @@ DESCRIPTION="PyFed is an open-source framework for federated learning algorithms
 
 HOMEPAGE="https://github.com/amirrezasokhankhosh/PyFed"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1b/77/9c4bf11701d8d08ee22bb55881288927db8ac583b1446004f50b59ca85f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

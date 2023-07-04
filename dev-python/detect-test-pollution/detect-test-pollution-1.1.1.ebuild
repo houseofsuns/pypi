@@ -15,7 +15,7 @@ DESCRIPTION="a tool to detect test pollution"
 
 HOMEPAGE="https://github.com/asottile/detect-test-pollution"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bf/e6/8259f26e088aea9ee1ac333ecbfd2ea6cfc1e762ab50df1b05bfabbf592a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

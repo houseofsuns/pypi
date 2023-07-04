@@ -15,7 +15,7 @@ DESCRIPTION="Web util for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/util/opentelemetry-util-http"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/82/4dd263042dee642d383f02c5df7a3493378eb0b502c4b97f9d2eddaa51d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

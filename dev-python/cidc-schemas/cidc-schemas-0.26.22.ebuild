@@ -15,7 +15,7 @@ DESCRIPTION="The CIDC data model and tools for working with it."
 
 HOMEPAGE="https://github.com/CIMAC-CIDC/schemas"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/10/c79616e56ad8fc25228ac480d7f91e22efe281469e3b6dc96b8b4f41c407/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A SQLAlchemy like ORM implementation for arangodb"
 
 HOMEPAGE="https://arango-orm.readthedocs.io/en/latest/"
 LICENSE="GNU General Public License v2 GPLv2"
-SRC_URI="https://files.pythonhosted.org/packages/9f/5e/3761b23bec83c3aa80fad64869dfdd97bffed859b5aca533a17f69e279de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

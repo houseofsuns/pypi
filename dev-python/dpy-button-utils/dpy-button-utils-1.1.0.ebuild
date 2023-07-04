@@ -15,7 +15,7 @@ DESCRIPTION="An extension for discord.py that allows your bot to use buttons"
 
 HOMEPAGE="https://github.com/crazygmr101/button-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/45/c0/32149e0ce3d14efa8641c512af37f172bcab5e22990c1d85ce632c234826/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

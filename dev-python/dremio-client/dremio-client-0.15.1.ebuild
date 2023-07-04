@@ -15,7 +15,7 @@ DESCRIPTION="Python client for Dremio. See https://dremio.com"
 
 HOMEPAGE="https://github.com/rymurr/dremio_client"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cc/12/a61355287f6a5af10bc6d72b35c3f8dbf74c7acb0b4b1f112167de7f75e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

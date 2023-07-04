@@ -15,7 +15,7 @@ DESCRIPTION="Some command line utilities for Ibutsu"
 
 HOMEPAGE="https://ibutsu-project.org/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9d/c5/7ef1ce5d888d68340653e66880685515d3f1e6a30d2f86bc7ba85f83e4b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="JWT authentication from email login codes."
 
 HOMEPAGE="https://github.com/MrThearMan/jwt-email-auth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/90/15ebbff39f28433eecb10eb4888f959ede23ea8b1dee8626adc5f1599e46/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="AiiDA plugin that simplifies working with pseudo potentials."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7b/55/ee33155db3d2e229a7ce01a7d1d4993799b204f12ff736e27c2348603e15/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An auth policy for the Pyramid Web Framework with sane defaults."
 
 HOMEPAGE="https://github.com/usingnamespace/pyramid_authsanity"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7b/3e/702bef65ee6ae0eba4438d1a7064beb5e27a3ed2ffbf3d13c721d170959f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A package for converting Wikipathways to BEL"
 
 HOMEPAGE="https://github.com/bio2bel/wikipathways"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/48/497da9cb2547a7cec72e5ee24d6034c0b55f25fe0c3cfbdc5db8db029530/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

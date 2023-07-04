@@ -15,7 +15,7 @@ DESCRIPTION="Gather data from Hoymiles microinverters."
 
 HOMEPAGE="https://github.com/wasilukm/hoymiles_modbus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/14/2e4c7152d48586873756126e8c8a9b5d0548c8313e22c1b1aa01e070a080/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

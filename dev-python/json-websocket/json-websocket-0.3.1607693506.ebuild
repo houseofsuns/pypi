@@ -15,7 +15,7 @@ DESCRIPTION="json-websocket"
 
 HOMEPAGE="https://github.com/JulianKimmig/json_websocket"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4f/e8/c6a208f48e8a165a7715ae48ab62f8f06b919b700834154be6a885987558/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

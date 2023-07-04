@@ -15,7 +15,7 @@ DESCRIPTION="A message queue written around PostgreSQL."
 
 HOMEPAGE="https://github.com/mmerickel/psycopg2_mq"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cc/2e/daacc6b2f583ef121d74d9085841af8ff64426f8c5cd1040a9935654cc03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

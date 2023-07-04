@@ -15,7 +15,7 @@ DESCRIPTION="AIS service discovery package for python3"
 
 HOMEPAGE="https://github.com/peak-ai/ais-service-discovery-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/ed/c9b503a85187fa1f6e1b3b45b93d23ab3a401befbc519263870cc4be95b7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

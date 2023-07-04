@@ -15,7 +15,7 @@ DESCRIPTION="Python Finite State Machines made easy."
 
 HOMEPAGE="https://github.com/fgmacedo/python-statemachine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/52/2aa0af94f579873c8d517b8bb38ff357c9acf4d0cd6dfd2bd54c323b7a06/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

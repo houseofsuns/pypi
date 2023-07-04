@@ -15,7 +15,7 @@ DESCRIPTION="Dash Authorization Package."
 
 HOMEPAGE="https://plotly.com/dash"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/e0/f7292812055912aca870358a220b3bffddda91ed570bb16bf519e86e064f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

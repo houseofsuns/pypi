@@ -15,7 +15,7 @@ DESCRIPTION="Structural Search and Rewrite code at large scale using precise AST
 
 HOMEPAGE="https://ast-grep.github.io/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/f1/7bdf09b972e359ee1c9e4bca5e55bf87a0931216ae6faeec04cd1bbac676/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Validates password according to flexible and intuitive specificatio
 
 HOMEPAGE="https://github.com/tarunbatra/password-validator-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/60/3529640092041a8d46e9c88cdcd6d00f212b3e38e398d4c167eec549fc46/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

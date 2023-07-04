@@ -15,7 +15,7 @@ DESCRIPTION="Facilita a criação de jogos com Python"
 
 HOMEPAGE="https://jogos-python.readthedocs.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/8b/dcefcbee8fef71be7683f0e8cf700c5ebd3896993b8ac95137df0902fe01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

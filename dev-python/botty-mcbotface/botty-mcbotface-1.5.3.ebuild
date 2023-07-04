@@ -15,7 +15,7 @@ DESCRIPTION="General purpose Slack-bot with personality"
 
 HOMEPAGE="https://github.com/ColumbiaSC-Tech/botty_mcbotface"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/d7/7f47a5325919948c55eaa6fbda26696df5edacb462f0796bb0e4dcc1f976/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

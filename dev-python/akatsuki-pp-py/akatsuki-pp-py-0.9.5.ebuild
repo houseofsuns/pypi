@@ -15,7 +15,7 @@ DESCRIPTION="osu! difficulty and pp calculation for all modes"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/0e/872d7b4d23b0945d3ff91235e3d86440bbb7a5899f04d3a296b3b3bed23d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper for simplified sqlite usage using sqlite3."
 
 HOMEPAGE="https://github.com/daveskura/sqlitedave"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/f0/5f31316b6e73d526b02292e08fbb9e354fbc407bce0fe8bd8bda810decbc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A django application to make it easier to use the transactional out
 
 HOMEPAGE="https://github.com/juntossomosmais/django-outbox-pattern"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0b/10/74d2d22a9a071fe10c5a2851807600c919329d680eb34c8ad9e28afd4b0c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

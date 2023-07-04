@@ -15,7 +15,7 @@ DESCRIPTION="Lookup tables loading, manipulation and generation for Pillow libra
 
 HOMEPAGE="https://github.com/homm/pillow-lut-tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a4/54/5a56b20899945302ead2955d8c5d6f6a3563d63b47b653053ede2748d0de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

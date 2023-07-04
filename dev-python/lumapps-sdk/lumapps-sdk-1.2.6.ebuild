@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/lumapps/lumapps-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/69/9d/f496b54d03ab4baac71a05c79e71f99c1d7ed888a089d82a000341f83718/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

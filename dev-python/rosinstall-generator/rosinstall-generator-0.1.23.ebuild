@@ -15,7 +15,7 @@ DESCRIPTION="A tool for generating rosinstall files"
 
 HOMEPAGE="http://wiki.ros.org/rosinstall_generator"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2b/0c/420995830978871093d191b43b9ddbf2ea9552e261a4c833d7291b96556d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

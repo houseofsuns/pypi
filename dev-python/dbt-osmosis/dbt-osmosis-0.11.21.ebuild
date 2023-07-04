@@ -15,7 +15,7 @@ DESCRIPTION="A dbt server and suite of optional developer tools to make developi
 
 HOMEPAGE="https://github.com/z3z1ma/dbt-osmosis"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/42/04/e87f7372b5369c3e42f4fa3cfe1cb99721543a891b8345eb556ba1ac540e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

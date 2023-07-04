@@ -15,7 +15,7 @@ DESCRIPTION="NetworkX Query Tool"
 
 HOMEPAGE="https://pypi.org/project/networkx_query"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/85/e88a264ab2d2d9cf34d471b2e16552e79f73953c496a672414497ee9d6a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

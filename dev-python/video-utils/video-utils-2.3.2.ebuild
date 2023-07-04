@@ -15,7 +15,7 @@ DESCRIPTION="This library is used for lots of shared functionality around parsin
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/28/f56e31132f1a6c092590f7805b5e909573c669bda88135b1b8998297e288/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

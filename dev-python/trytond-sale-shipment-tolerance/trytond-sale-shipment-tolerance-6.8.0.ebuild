@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module to define tolerance for sale shipment"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c8/2e/9ee40ebe10d5a36699f92f2fc4d1b5d6aee657737b71588b3cd164610e5e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

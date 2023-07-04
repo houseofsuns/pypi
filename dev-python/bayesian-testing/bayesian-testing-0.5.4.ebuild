@@ -15,7 +15,7 @@ DESCRIPTION="Bayesian A/B testing with simple probabilities."
 
 HOMEPAGE="https://github.com/Matt52/bayesian-testing"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c1/98/e1202e95cfb7df6b5f6893b4982350daf326a1f9baf2c075219405a624e2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

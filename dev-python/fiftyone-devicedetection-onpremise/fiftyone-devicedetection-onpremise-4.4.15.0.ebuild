@@ -15,7 +15,7 @@ DESCRIPTION="This project contains 51Degrees Device Detection OnPremise engine t
 
 HOMEPAGE=""
 LICENSE="EUPL-1.2"
-SRC_URI="https://files.pythonhosted.org/packages/1b/14/b1e33f131a762f517956959f9380bd0e9015b294a64a1f515cd724664cf1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

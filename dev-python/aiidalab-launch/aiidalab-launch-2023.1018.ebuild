@@ -15,7 +15,7 @@ DESCRIPTION="Tool to launch AiiDAlab on a local workstation."
 
 HOMEPAGE="https://github.com/aiidalab/aiidalab-launch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/4d/7ea8ccd42d341dc012b46c65c2b3efe1d002242d4f41a4efec71ad063865/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Common Python tools and utilities for data engineering."
 
 HOMEPAGE=""
 LICENSE="OSL"
-SRC_URI="https://files.pythonhosted.org/packages/85/5e/55975ab92d2b5b1f90537237e798db805e83fb6551a5ce1f3b8b8a78d7db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

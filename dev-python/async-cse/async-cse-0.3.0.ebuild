@@ -15,7 +15,7 @@ DESCRIPTION="API wrapper for the Google Custom Search JSON API. https://develope
 
 HOMEPAGE="https://github.com/crrapi/async-cse"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bc/d1/c9a6827d0ec7108853ce9e902d3c047495c7f5d358e5ebfe148dc381a4eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Helper classes that encode/decode pynamodb models to/from JSON seri
 
 HOMEPAGE="https://github.com/lyang/pynamodb-encoder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/24/86bf19b12cc5d5ed804d424c664e734faef1be11177a5fc17eb74bb6859a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

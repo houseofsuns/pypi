@@ -15,7 +15,7 @@ DESCRIPTION="Alignak - Web User Interface"
 
 HOMEPAGE="https://github.com/Alignak-monitoring-contrib/alignak-webui"
 LICENSE="GNU Affero General Public License, version 3"
-SRC_URI="https://files.pythonhosted.org/packages/ba/45/29f56f313f14f6e5745c10def475214d4da18e4ad32d5efb71b0c971d265/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="MCH Py-ART: Python ARM Radar Toolkit - MeteoSwiss version"
 
 HOMEPAGE="https://github.com/MeteoSwiss/pyart"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/85/45/de52c0ea25e8eefa532ff21b23e5ec4f2d6dcf48aa8dab2347ec06999274/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

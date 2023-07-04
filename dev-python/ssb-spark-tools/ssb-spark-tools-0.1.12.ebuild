@@ -15,7 +15,7 @@ DESCRIPTION="A collection of data processing Spark functions for the use in Stat
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/4e/5d6a519692ed2afc9e87cebd1632a03e3841089f9b33cfade3842390d829/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

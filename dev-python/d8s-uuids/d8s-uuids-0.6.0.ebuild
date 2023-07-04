@@ -15,7 +15,7 @@ DESCRIPTION="Democritus functions for working with uuids."
 
 HOMEPAGE="https://github.com/democritus-project/d8s-uuids"
 LICENSE="GNU Lesser General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/c4/da/b10b5ce30cf9da9db1bbef89f3f320a4b94ad0ca4fa8aac81cc9cc84afa4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

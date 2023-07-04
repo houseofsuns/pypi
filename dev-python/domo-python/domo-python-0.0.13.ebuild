@@ -15,7 +15,7 @@ DESCRIPTION="Domo API functions to import and export data into usable Pandas dat
 
 HOMEPAGE="https://github.com/brockcooper/domo_python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/58/f59a3c66dea4a32fdfa998059eb1edc60c21606abe9085230be96f172e18/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

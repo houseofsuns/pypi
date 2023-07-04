@@ -15,7 +15,7 @@ DESCRIPTION="NLP Feature Extractors"
 
 HOMEPAGE="https://github.com/microsoft/responsible-ai-widgets"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/b4/bf6f6dea330cb5e7301d3b58bcfff8a631f3bcfbd5a56769691aad1729a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

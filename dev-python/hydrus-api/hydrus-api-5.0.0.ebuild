@@ -15,7 +15,7 @@ DESCRIPTION="Python module implementing the Hydrus API"
 
 HOMEPAGE="https://gitlab.com/cryzed/hydrus-api"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/70/73/660fc87faf324fac13b6d0d9ace8cc43c05116a727357d1251557848b848/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Poetry plugin for checking security vulnerabilities in dependencies
 
 HOMEPAGE="https://github.com/opeco17/poetry-audit-plugin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ff/2f/70854613e9406944a7000b338859e934e2a12eb164c9e73b5cc094daa851/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

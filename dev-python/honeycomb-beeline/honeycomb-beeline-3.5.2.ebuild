@@ -15,7 +15,7 @@ DESCRIPTION="Honeycomb library for easy instrumentation"
 
 HOMEPAGE="https://github.com/honeycombio/beeline-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2b/2f/55d87e709ddeac90bf651635bfe26626932c84b0d4a4d71f61e4e1de7c70/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

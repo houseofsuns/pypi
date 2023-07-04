@@ -15,7 +15,7 @@ DESCRIPTION="Django myslq backend that fixes issue with long living connection"
 
 HOMEPAGE="https://github.com/akoidan/MySQL-server-has-gone-away"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/cb/b9bdefe42ac53dec8626ab816fd42e578121aef791b5268f5d98d22481c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

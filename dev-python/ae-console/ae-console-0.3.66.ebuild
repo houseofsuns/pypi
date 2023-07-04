@@ -15,7 +15,7 @@ DESCRIPTION="ae namespace module portion console: console application environmen
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_console"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/d5/83/fa4c192bf66f37f688af579495471d76263c78af6616ba45f770a000428c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

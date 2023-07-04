@@ -15,7 +15,7 @@ DESCRIPTION="DynamoDB utils"
 
 HOMEPAGE="https://github.com/detech-ai/Data_Pipelines"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9c/79/10f9850fd3f38b887adb73077ef5837135ae21a747605366f064c694d87f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

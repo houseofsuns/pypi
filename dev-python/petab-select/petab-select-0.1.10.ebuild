@@ -15,7 +15,7 @@ DESCRIPTION="PEtab Select: an extension to PEtab for model selection."
 
 HOMEPAGE="https://github.com/PEtab-dev/petab_select"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a4/f3/8409a47223803d10116740830a6852b4c167633b69fec0f214b5e3ac7cb7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

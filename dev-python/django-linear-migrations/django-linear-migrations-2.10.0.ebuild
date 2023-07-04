@@ -15,7 +15,7 @@ DESCRIPTION="Ensure your migrations are linear."
 
 HOMEPAGE="https://github.com/adamchainz/django-linear-migrations"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/f6/c64ce6602ee752907e7eb8897e4c8dc9309b9fbbbea5bf21b22cbe457725/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

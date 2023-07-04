@@ -15,7 +15,7 @@ DESCRIPTION="Tools for computing networks of coordinated behaviour on social med
 
 HOMEPAGE="https://github.com/QUT-Digital-Observatory/coordination-network-toolkit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/36/a5/0650528d5bb79641c00782ff8641d6863593eacfb63c612ed2d338c53c88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

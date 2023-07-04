@@ -15,7 +15,7 @@ DESCRIPTION="Profile Tensorboard Plugin"
 
 HOMEPAGE="https://github.com/tensorflow/profiler"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c0/75/1d0b91be0e27f49e61afbf8d3fcced3c48e1c0da0a71a404663ce5b9f22f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

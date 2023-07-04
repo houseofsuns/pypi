@@ -15,7 +15,7 @@ DESCRIPTION="Anvil API"
 
 HOMEPAGE="https://www.useanvil.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/62/36d7b06ccd71ccb5a61fad0053807a2a0475b09815058f16bafb0ae96b12/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

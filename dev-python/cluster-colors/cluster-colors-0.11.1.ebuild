@@ -15,7 +15,7 @@ DESCRIPTION="Cluster color vectors with kmedians"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/7e/a1161404d66147e2ea9670437059e5f004bbe1d6de2d498c9d8b9bb68e66/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

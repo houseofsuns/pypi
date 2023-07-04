@@ -15,7 +15,7 @@ DESCRIPTION="Minimalistic gridworld reinforcement learning environments"
 
 HOMEPAGE="https://github.com/Farama-Foundation/gym-minigrid"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/68/23/501d0433991f580c8bf66fb15fb6ad57d87a152d1e8e0ebec8c383c0db38/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

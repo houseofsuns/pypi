@@ -15,7 +15,7 @@ DESCRIPTION="Administration Scripts"
 
 HOMEPAGE="http://admin-scripts.hive.pt"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/95/fc/bff181ce3b795702f91151996adbba16dc4bddbcbf640d9681977abe950d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

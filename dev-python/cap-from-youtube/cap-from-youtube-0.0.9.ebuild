@@ -15,7 +15,7 @@ DESCRIPTION="Get an OpenCV video capture from an YouTube video URL"
 
 HOMEPAGE="https://github.com/ibaiGorordo/cap_from_youtube"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/a8/09d860a0d2517df14a09a76df576011bc6f971ad727365347b73384be2fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

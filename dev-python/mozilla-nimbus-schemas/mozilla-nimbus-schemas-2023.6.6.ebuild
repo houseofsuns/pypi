@@ -15,7 +15,7 @@ DESCRIPTION="Schemas used by Mozilla Nimbus and related projects."
 
 HOMEPAGE=""
 LICENSE="MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/26/d9/e8ed1577e6f9732f680f3fce621a801c4d3b13a1bb9465f060f592329932/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

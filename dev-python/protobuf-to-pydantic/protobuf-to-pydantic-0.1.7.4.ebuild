@@ -15,7 +15,7 @@ DESCRIPTION="Convert Protobuf-generated Python objects to Pydantic.BaseModel obj
 
 HOMEPAGE="https://github.com/so1n/protobuf_to_pydantic"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/af/be/0b88add455490a9c8c0a146e93d91e93d5824bfc9aeed5337a8ae745e4fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

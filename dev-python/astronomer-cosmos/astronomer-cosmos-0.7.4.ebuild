@@ -15,7 +15,7 @@ DESCRIPTION="Render 3rd party workflows in Airflow"
 
 HOMEPAGE="https://github.com/astronomer/astronomer-cosmos"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/41/ac/366f16bc675de36a09298ca771d3757261dc3ca23899c68f15a581b53780/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

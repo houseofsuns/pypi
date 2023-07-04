@@ -15,7 +15,7 @@ DESCRIPTION="Process Improvement Explorer Framework contains process discovery a
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fb/e0/3cd3355a2d248459a0a301379fabbaa0a3e9ecb40e9bb34f4f527bad2860/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

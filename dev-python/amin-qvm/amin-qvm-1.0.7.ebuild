@@ -15,7 +15,7 @@ DESCRIPTION="Amin-QVM: Quantum Computing Library"
 
 HOMEPAGE="https://github.com/amin1029384756/QVM"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4d/10/f3675f0ca9280cdd871c996b44a8118b28eb74838888148b04e9b50eb429/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

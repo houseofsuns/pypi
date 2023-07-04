@@ -15,7 +15,7 @@ DESCRIPTION="Jupyter support for HTTP-over-ws"
 
 HOMEPAGE="https://github.com/googlecolab/jupyter_http_over_ws"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d2/22/b339aa8949c7256f334c3a4ff930d83b6bd0edb7ca42ccc4ac701d0f39a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

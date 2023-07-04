@@ -15,7 +15,7 @@ DESCRIPTION="distributed increment/decrement counter leveraging dynamodb"
 
 HOMEPAGE="https://github.com/wontonst/distributed-counter-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/70/f7/bdf2d62e068abd3da01e63825fc58deb2a37fc0c5e00350c8095ae9fe5f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

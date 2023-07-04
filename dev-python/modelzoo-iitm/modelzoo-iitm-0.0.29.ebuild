@@ -15,7 +15,7 @@ DESCRIPTION="Model Zoo by IIT Madras"
 
 HOMEPAGE="https://github.com/Vinayak-VG/ModelZoo_PyPi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/ca/1224f882aa20da9b480659e5be4aca48df70610b30d90aafe6c4c8f575dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

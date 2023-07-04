@@ -15,7 +15,7 @@ DESCRIPTION="Official Python SDK for the Todoist REST API."
 
 HOMEPAGE="https://github.com/Doist/todoist-api-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a2/4d/0cdf4dd1c7b9735233c9ccf85803199eb6e939776f5bbb212bd26a2c508b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

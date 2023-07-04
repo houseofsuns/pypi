@@ -15,7 +15,7 @@ DESCRIPTION="JupyterLab extension with backend and frontend parts for carpo stud
 
 HOMEPAGE="https://github.com/github_username/carpo-student"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c2/ff/cd07450a2277906a31397938ac5d361a7dc80f89e8168c70742cbb835979/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

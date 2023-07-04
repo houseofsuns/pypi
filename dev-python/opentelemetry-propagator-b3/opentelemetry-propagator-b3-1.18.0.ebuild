@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry B3 Propagator"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/propagator/opentelemetry-propagator-b3"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/cc/7ec1145d3085260319e198e0313427a13ed01067628d7226396e549b54d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

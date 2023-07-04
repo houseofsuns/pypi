@@ -15,7 +15,7 @@ DESCRIPTION="a small library used for testing aiohttp projects"
 
 HOMEPAGE="https://github.com/5j9/aiohttp_test_utils"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/6d/b3/458f056ca457f73540bd591751dc47935d89b0de0838ce12bc34bd78dce4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

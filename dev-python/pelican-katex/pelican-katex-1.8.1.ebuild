@@ -15,7 +15,7 @@ DESCRIPTION="LaTeX pre-rendering for pelican with katex.js"
 
 HOMEPAGE="https://github.com/martenlienen/pelican-katex"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f0/0b/0bd3b0d7c002ce1b9dad6fbb17d211c207efa178b861daadb60b10195851/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

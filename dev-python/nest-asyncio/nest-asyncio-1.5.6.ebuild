@@ -15,7 +15,7 @@ DESCRIPTION="Patch asyncio to allow nested event loops"
 
 HOMEPAGE="https://github.com/erdewit/nest_asyncio"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/35/76/64c51c1cbe704ad79ef6ec82f232d1893b9365f2ff194111787dc91b004f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

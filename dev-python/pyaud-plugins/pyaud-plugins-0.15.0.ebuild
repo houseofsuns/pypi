@@ -15,7 +15,7 @@ DESCRIPTION="Plugin package for Pyaud"
 
 HOMEPAGE="https://pypi.org/project/pyaud-plugins/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/80/f681f8ee8c057c72bcb5240cf512637af49a4fa1e816c6771a96ea627c29/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

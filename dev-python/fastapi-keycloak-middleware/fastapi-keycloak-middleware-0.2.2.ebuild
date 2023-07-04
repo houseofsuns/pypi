@@ -15,7 +15,7 @@ DESCRIPTION="Middleware for FastAPI to authenticate a user against keycloak"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5d/15/0e1aaee21f5f2b0c37df9656fc08016586170807bc8a7649f1687724140d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

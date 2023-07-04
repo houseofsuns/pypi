@@ -15,7 +15,7 @@ DESCRIPTION="Akida Models"
 
 HOMEPAGE="https://doc.brainchipinc.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/86/bb/dbeda09f9015778e084769fd6f85b9a99abf6a7fd3060904314556b291be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

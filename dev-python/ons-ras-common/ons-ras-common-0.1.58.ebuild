@@ -15,7 +15,7 @@ DESCRIPTION="The Common library for ONS RAS Micro-Services"
 
 HOMEPAGE="https://github.com/ONSdigital/ras-common"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/ce/7ebf5ef4f31841b199a07414d7854d5dc09e3f648319833947a13f7972f2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

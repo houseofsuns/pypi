@@ -15,7 +15,7 @@ DESCRIPTION="CLIP-like models benchmarks on various datasets"
 
 HOMEPAGE="https://github.com/mehdidc/clip_benchmark"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/24/27/790bffe2e7178e6a5cb9d26281a7e420d2cefe7a35f52b10798bef7295f8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="DynamoDB adopter for casbin"
 
 HOMEPAGE="https://github.com/abqadeer/python-dynacasbin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6f/f3/0d6e927c0f88932bb97080c0d094a04595cfbc8734983d1cf92824e1c08b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

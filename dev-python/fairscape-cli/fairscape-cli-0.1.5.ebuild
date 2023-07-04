@@ -15,7 +15,7 @@ DESCRIPTION="A cli for validating metadata, packaging ROCrates, and interacting 
 
 HOMEPAGE=""
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/eb/48/803434db87c45c681c66f6b5d1dd572c134e0f6848f7a6395749104c0f41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

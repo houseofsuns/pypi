@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for apriltags v3"
 
 HOMEPAGE="https://github.com/pupil-labs/apriltags"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/31/38868751e5837b27089e07a20a1e9fce3038f7baf2d29df949b5d4dc3c51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper for the Zenodo API."
 
 HOMEPAGE="https://github.com/cthoyt/zenodo-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/b4/11b2ce34a84d8fca21a42c7961a4d4f17ca25a5d4d943bd183f4a4f4a844/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

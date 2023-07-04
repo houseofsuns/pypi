@@ -15,7 +15,7 @@ DESCRIPTION="Mustache is a Hi-C analysis tool"
 
 HOMEPAGE="http://github.com/ay-lab/mustache/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/05/0b5bf07c4f4349487bffac8482b9b2badb0c2dcc58dce7190e95a4299784/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

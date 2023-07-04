@@ -15,7 +15,7 @@ DESCRIPTION="DRY approach to working with AWS Lambdas"
 
 HOMEPAGE="https://github.com/syngenta-digital/alc-python.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/98/27/eba7953e6b39fcad05fd3f543e760a0112eea1e1b749e2fe3598bc29e030/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

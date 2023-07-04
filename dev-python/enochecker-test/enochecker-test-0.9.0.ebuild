@@ -15,7 +15,7 @@ DESCRIPTION="Library to help testing checker scripts based on enochecker"
 
 HOMEPAGE="https://github.com/enowars/enochecker_test"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/9f/ae6e25023d3a007a4caabbec1924670291901056e8a3d5679098617fd63a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

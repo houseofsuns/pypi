@@ -15,7 +15,7 @@ DESCRIPTION="Generate Avro Schemas from Python classes. Serialize/Deserialize py
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/70/be2a4c1122bd4ed764fd195e82ccd0a226ed08e0bd7fed64eb40eee95573/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

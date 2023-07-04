@@ -15,7 +15,7 @@ DESCRIPTION="A meta-validator for the JSON Schema specification."
 
 HOMEPAGE="https://github.com/bowtie-json-schema/bowtie"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/e0/398ae577eba36a925994eb37379fd3b8b218860aa4e32e3af239022e259e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

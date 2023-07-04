@@ -15,7 +15,7 @@ DESCRIPTION="A database driver for Django to connect to an Informix db via ODBC"
 
 HOMEPAGE="https://github.com/reecetech/django_informixdb"
 LICENSE="APLv2"
-SRC_URI="https://files.pythonhosted.org/packages/0f/22/ee1ddf9083224f771dbc338c8692aae717049dd3196fbdd1366086eb6755/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

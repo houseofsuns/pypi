@@ -15,7 +15,7 @@ DESCRIPTION="Common functionality of the Cyber Security Learning Environment (CS
 
 HOMEPAGE=""
 LICENSE="Creative Commons Attribution-ShareAlike 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/97/64/b4c61e0bfbaf0c425982e6151da4f4d4607b1ad12342105e00f2d25ca0bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Additional argparse types and actions."
 
 HOMEPAGE="https://github.com/eerimoq/argparse_addons"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/35/33ecca1cdbebc5397a77f66edbc20ab76265176f7e3511b7696008ad9038/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

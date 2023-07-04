@@ -15,7 +15,7 @@ DESCRIPTION="Open National Instruments TDM/TDX files as NumPy structured arrays.
 
 HOMEPAGE="https://github.com/domna/tdm_loader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/99/13225c1bf7270d81260879629f69f554277c415d41cc885871de2d0946e9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

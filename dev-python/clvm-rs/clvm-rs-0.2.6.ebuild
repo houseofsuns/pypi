@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of \`clvm\` for Chia Network's cryptocurrency"
 
 HOMEPAGE="https://github.com/Chia-Network/clvm_rs/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1b/50/85626ddbbca5add8b67859c3a7d3d0972b722681e78f0e44c954477516cf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

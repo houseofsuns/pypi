@@ -15,7 +15,7 @@ DESCRIPTION="Democritus functions to interact with Hypothesis."
 
 HOMEPAGE="https://github.com/democritus-project/d8s-hypothesis"
 LICENSE="GNU Lesser General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/10/42/c09a779ccd2b8cc299287aff1e2060faed4376bb991cbb6e3ad86ff94cad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

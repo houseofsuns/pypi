@@ -15,7 +15,7 @@ DESCRIPTION="BS DB Migration"
 
 HOMEPAGE="https://github.com/vincent841/ms2postgres.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/e2/b840d5d8b01fd9bd47f1487bb936cb236440c02ec2b1285da2885b4388f8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

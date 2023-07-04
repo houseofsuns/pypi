@@ -15,7 +15,7 @@ DESCRIPTION="A tool and library to save large files by creating multiple connect
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b4/4d/fef63be131c99e7f42f866175cc47be834ae0b5afe6f3e38a5b3d090fc2b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

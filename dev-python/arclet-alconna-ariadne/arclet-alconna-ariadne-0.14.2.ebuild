@@ -15,7 +15,7 @@ DESCRIPTION="Support Alconna to GraiaProject/Ariadne"
 
 HOMEPAGE="https://github.com/ArcletProject/Alconna-Graia"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/db/f1/9e95c09c6093a2252aab3ae0ef0eb2eed7a3d2dd50d534c6584fd9db5cbf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

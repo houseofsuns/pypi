@@ -15,7 +15,7 @@ DESCRIPTION="Tool to work with annotation formats"
 
 HOMEPAGE="https://github.com/Alek-dr/PascalVOC"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/41/7edfef0e81f328bba29837f241a1c736ee4b0ab2b35941f2c7cac46d5414/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

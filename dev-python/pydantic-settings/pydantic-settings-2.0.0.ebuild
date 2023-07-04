@@ -15,7 +15,7 @@ DESCRIPTION="Settings management using Pydantic"
 
 HOMEPAGE="https://github.com/pydantic/pydantic-settings"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/11/4f6c105e990f4fd89d70265a5dd8c3e8fd4806812cb9cf44fc3f51437431/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

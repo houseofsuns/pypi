@@ -15,7 +15,7 @@ DESCRIPTION="Public API for TraderNet"
 
 HOMEPAGE="https://tradernet.ru/tradernet-api/python-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/50/0b4eb4fe8160624687bd867dc5c3da59dc7f0c4359faf3ad2bd22526827b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

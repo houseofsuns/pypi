@@ -15,7 +15,7 @@ DESCRIPTION="Generic function tooling helpers"
 
 HOMEPAGE="https://github.com/coveooss/coveo-python-oss/tree/main/coveo-functools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/87/5d/a6b7468b06945981d41dea0a6acdff993dcd471d0fcef5e0ad95fca6a743/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

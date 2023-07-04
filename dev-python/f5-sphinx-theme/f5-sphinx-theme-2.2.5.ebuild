@@ -15,7 +15,7 @@ DESCRIPTION="Sphinx theme for F5 Networks"
 
 HOMEPAGE="https://github.com/F5DevCentral/f5-sphinx-theme"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/be/89/b1404cba13f8fb3c9deec7f4d19f85dfcd7294b0e2420a074d3e3ec56130/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

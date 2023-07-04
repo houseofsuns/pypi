@@ -15,7 +15,7 @@ DESCRIPTION="HTML sanitizer"
 
 HOMEPAGE="https://github.com/matthiask/html-sanitizer/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b8/ca/7e3d426dce533a392b88da844424f241387222e0dca8026265289a8c69e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

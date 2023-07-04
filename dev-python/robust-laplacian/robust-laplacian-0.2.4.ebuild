@@ -15,7 +15,7 @@ DESCRIPTION="Robust Laplace matrices for meshes and point clouds"
 
 HOMEPAGE="https://github.com/nmwsharp/robust-laplacians-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/de/fef7e899fb9416bdcba13af58ab8dd139e84abda02e0b037e3633bce1627/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

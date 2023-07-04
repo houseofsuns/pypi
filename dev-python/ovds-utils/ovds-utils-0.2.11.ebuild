@@ -15,7 +15,7 @@ DESCRIPTION="Utilities package for Open VDS."
 
 HOMEPAGE="https://github.com/micmurawski/ovds-utils/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/43/4641d01ae138f361988073e6359c3e0590471921e2a71f04173c8f090b9f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

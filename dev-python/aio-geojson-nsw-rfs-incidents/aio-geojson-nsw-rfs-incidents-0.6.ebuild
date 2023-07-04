@@ -15,7 +15,7 @@ DESCRIPTION="An async GeoJSON client library for NSW Rural Fire Service Incident
 
 HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-nsw-rfs-incidents"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/af/01/e9189daf8cdaea046ebd6cbfa2852bcb1ccc3041f5f3f8a72d516d00af06/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

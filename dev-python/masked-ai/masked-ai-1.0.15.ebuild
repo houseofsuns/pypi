@@ -15,7 +15,7 @@ DESCRIPTION="Masked AI"
 
 HOMEPAGE="https://github.com/cado-security/masked-ai"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/a3/df69128e571c66047edcc4d09d015f8c675d045cc6ed0fa61485545710cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

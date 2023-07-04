@@ -15,7 +15,7 @@ DESCRIPTION="Sphinx theme for http://docs.shishimao.com/"
 
 HOMEPAGE="https://github.com/RTCat/rtcat_sphinx_theme.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/36/dae60b9fb626ccd561238756b44a155b6f99f3fe73bc8d6689087a1682ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

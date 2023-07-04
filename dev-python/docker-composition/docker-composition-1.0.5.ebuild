@@ -15,7 +15,7 @@ DESCRIPTION="Docker-compose package manager"
 
 HOMEPAGE="https://github.com/sam-technesci/composer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5a/8f/28beb699b1b3a4ee42685e6f99cc1f991f1aeb7144fce4bf7e633837eb54/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

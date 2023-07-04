@@ -15,7 +15,7 @@ DESCRIPTION="A tool for searching and managing plug-and-play devices"
 
 HOMEPAGE="https://github.com/zea2/DeviceManager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/72/12/bc32e3e939541acbb0e9917183e088950b96a0c007e1e6fc54f00bc07c00/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

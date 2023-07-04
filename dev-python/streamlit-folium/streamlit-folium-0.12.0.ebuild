@@ -15,7 +15,7 @@ DESCRIPTION="Render Folium objects in Streamlit"
 
 HOMEPAGE="https://github.com/randyzwitch/streamlit-folium"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/3f/ce8f060f9c98befe1832124b548f8f59a23f49cfaaef3aa340769ac44beb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

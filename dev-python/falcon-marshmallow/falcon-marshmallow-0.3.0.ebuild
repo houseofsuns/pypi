@@ -15,7 +15,7 @@ DESCRIPTION="Automatic Marshmallow (De)serialization in Falcon"
 
 HOMEPAGE="https://www.github.com/mplanchard/falcon-marshmallow"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/41/4d/77213c7effb090dad582cb97583a994159fb7e43dcfd68196c8296f8ceed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

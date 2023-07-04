@@ -15,7 +15,7 @@ DESCRIPTION="Async proxy for Source Engine Query Protocol"
 
 HOMEPAGE="https://github.com/sqproxy/sqproxy"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/26/a6/7104fe2d0edb98a6df58d41d2f3193fe387c69a4cbfb3a7f6f64e9703eaa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

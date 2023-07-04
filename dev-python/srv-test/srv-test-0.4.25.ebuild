@@ -15,7 +15,7 @@ DESCRIPTION="SRV TEST"
 
 HOMEPAGE="http://github/bartoszkaron/srv_test/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/fc/b74fd08ae243a661b2ddb120828a6c25af0bba7f7e745d84bd242e3880c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

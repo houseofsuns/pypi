@@ -15,7 +15,7 @@ DESCRIPTION="CLI tool for managing ML projects on Vertex AI"
 
 HOMEPAGE="https://avast.github.io/wanna-ml"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/18/759d5239ae2046d5936979ecdae58b25021a34528e6dc50a1db82202f6de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

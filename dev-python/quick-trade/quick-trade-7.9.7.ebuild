@@ -15,7 +15,7 @@ DESCRIPTION="Library for easy management and customization of algorithmic tradin
 
 HOMEPAGE=""
 LICENSE="cc-by-sa-4.0"
-SRC_URI="https://files.pythonhosted.org/packages/c0/52/2240b521deb479ba461fd91f552bfb3793d56e0ef7a589ba58b2afdad956/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

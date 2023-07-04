@@ -15,7 +15,7 @@ DESCRIPTION="Alibaba Cloud Elastic Compute Service (20140526) SDK Library for Py
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python2-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/87/27/34dcec76d58b97b2e1aff89bf978061267df0fbfa1972dacc532cdf6054c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

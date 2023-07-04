@@ -15,7 +15,7 @@ DESCRIPTION="Recommended git config and git scripts for Statistics Norway."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a4/c6/f256f51bd312cec85e4cc714797062c42cd9e745e054b08b71da2348cee5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

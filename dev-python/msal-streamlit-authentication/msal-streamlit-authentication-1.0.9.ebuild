@@ -15,7 +15,7 @@ DESCRIPTION="Streamlit Authentication library based on MSAL.JS"
 
 HOMEPAGE="https://github.com/mstaal/msal_streamlit_authentication"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/3d/1a1dee9e187233c00a4a77afb3b490fd1f730a5c2bd6f80135c0e067274e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

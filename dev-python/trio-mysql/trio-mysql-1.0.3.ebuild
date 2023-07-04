@@ -15,7 +15,7 @@ DESCRIPTION="Pure Python MySQL Driver"
 
 HOMEPAGE="https://github.com/python-trio/trio-mysql/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/eb/eb/3f5a8db4b9475c7f8b3ae0925689ec556065443374b6ac4c6e2c9ad71395/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Additional lookup tables and data resources for spaCy"
 
 HOMEPAGE="https://spacy.io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/cc/0fc40728ca86612c60de09c450eb4c91973677ab22ef4a5f93f96ef3050e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

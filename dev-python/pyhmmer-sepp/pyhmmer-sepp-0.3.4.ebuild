@@ -15,7 +15,7 @@ DESCRIPTION="Personal use fork of pyhmmer (Cython bindings and Python interface 
 
 HOMEPAGE="https://github.com/RuneBlaze/pyhmmer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ce/ab/79db0040a47155b9b0e534acfe98c557bd1ec7582645cfbb3b4d7d2d5a9e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

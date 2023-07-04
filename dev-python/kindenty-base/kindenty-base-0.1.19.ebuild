@@ -15,7 +15,7 @@ DESCRIPTION="测试"
 
 HOMEPAGE="https://gitee.com/kindenty-yueyu/cats-strategy-core"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e2/44/23966fdf2062d9739a05da8ba41eec791be0be3e910071c982914d5e87fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

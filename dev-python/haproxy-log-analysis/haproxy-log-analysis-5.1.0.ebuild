@@ -15,7 +15,7 @@ DESCRIPTION="Haproxy log analyzer that tries to gives an insight of what's going
 
 HOMEPAGE="https://github.com/gforcada/haproxy_log_analysis"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/30/e4/a60383d4b86e462e74c18bbc5a5ae4a6470a1f67dc3814ac10a901fa241f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

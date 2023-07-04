@@ -15,7 +15,7 @@ DESCRIPTION="CSIP - Calibration Optimization Sensitivity and Uncertainty (COSU) 
 
 HOMEPAGE="http://alm.engr.colostate.edu/cb/project/csip"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6d/2f/93481f9cd0a1b43e6cf0258d2745ecae1335d9e0ba22851bbcb8c7e80512/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

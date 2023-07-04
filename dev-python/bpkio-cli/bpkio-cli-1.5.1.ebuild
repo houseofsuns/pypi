@@ -15,7 +15,7 @@ DESCRIPTION="A command line interface to the broadpeak.io APIs, with additional 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1b/59/e16e00617d2ca292bcb51d5cdc1ff34e14e23f1b7b793507d151fd7e849d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

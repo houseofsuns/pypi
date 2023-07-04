@@ -15,7 +15,7 @@ DESCRIPTION="IP inspector is an IPv4 and IPv6 address metadata enricher and trac
 
 HOMEPAGE="https://github.com/seanmcfeely/ip-inspector"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cc/c5/dd4851ec236128715602260b84f938950e680f935b6e4c218e3fd8762944/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

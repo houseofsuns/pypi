@@ -15,7 +15,7 @@ DESCRIPTION="Components for interactive experiments in the alfred3 framework."
 
 HOMEPAGE="https://github.com/jobrachem/alfred3-interact"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/11/c5/df170636dcb6176e6f31ab7bc8f6405c3ca1c9b7d24972e70704209d84f3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

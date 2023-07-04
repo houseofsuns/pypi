@@ -15,7 +15,7 @@ DESCRIPTION="Simple lightweight mail library for FastApi"
 
 HOMEPAGE="https://github.com/sabuhish/fastapi-mail"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/a3/e8a5769f5bc257bd12d233bbfecebd682bc10722121fe9cb71ca5cd29d87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

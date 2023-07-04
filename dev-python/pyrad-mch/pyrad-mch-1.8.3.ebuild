@@ -15,7 +15,7 @@ DESCRIPTION="Python Radar Toolkit"
 
 HOMEPAGE="https://github.com/MeteoSwiss/pyrad.git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f0/84/75433244c016f113adf52c68072e4ba2ae6d12ff92e7402ac049a9e3f249/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

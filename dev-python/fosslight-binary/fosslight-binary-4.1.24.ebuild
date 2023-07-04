@@ -15,7 +15,7 @@ DESCRIPTION="FOSSLight Binary Scanner"
 
 HOMEPAGE="https://github.com/fosslight/fosslight_binary_scanner"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c4/e7/9ce52082713201ba768d03c17ce50e97c7d7107cbd57838af23a7cb129e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

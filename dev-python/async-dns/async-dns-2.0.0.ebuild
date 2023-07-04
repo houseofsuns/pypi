@@ -15,7 +15,7 @@ DESCRIPTION="Asynchronous DNS client and server"
 
 HOMEPAGE="https://github.com/gera2ld/async_dns"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/4b/e37f42f7633b3287421545c9dae85cface08d664a638e444953f2b334f6c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

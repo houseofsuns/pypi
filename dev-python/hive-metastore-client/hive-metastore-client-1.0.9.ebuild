@@ -15,7 +15,7 @@ DESCRIPTION="A client for connecting and running DDLs on Hive Metastore with Thr
 
 HOMEPAGE="https://github.com/quintoandar/hive-metastore-client"
 LICENSE="Copyright"
-SRC_URI="https://files.pythonhosted.org/packages/07/ed/f15d3f3e4f3676368993beedde77f499456a64debc7fd244e9278f5b9631/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

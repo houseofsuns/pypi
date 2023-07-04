@@ -15,7 +15,7 @@ DESCRIPTION="YouTube bot to make a YouTube videos list (including all video titl
 
 HOMEPAGE="https://github.com/slow-but-steady/yt-videos-list/tree/main/python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/49/03/946699187a5b77a06d37663236a4917fdc8a94c9b170d381e9fb2484a0a4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

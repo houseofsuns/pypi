@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/davedittrich/python_secrets"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d5/3a/d8be657e6d048b054e960738fa8bf68f4ef240514c84b219a03390e7bde3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

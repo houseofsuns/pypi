@@ -15,7 +15,7 @@ DESCRIPTION="python wrapper of GmSSL"
 
 HOMEPAGE="https://github.com/yetsing/gmssl_pyx"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/51/e8/40c7e759ac9b3af1302d9dd7f34d253c6f4b5d88f94db7af2565ab3d8907/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Nautobot tools project by Data Ductus"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/06/2a07644b3732f48af29b0a95fc0f28897e7166d879346b11d14443e53ebe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

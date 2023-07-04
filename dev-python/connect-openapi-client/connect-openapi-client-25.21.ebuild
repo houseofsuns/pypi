@@ -15,7 +15,7 @@ DESCRIPTION="Connect Python OpenAPI Client"
 
 HOMEPAGE="https://connect.cloudblue.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c9/bd/7efb6f8b4c1c2e2b105709f4b0ba191a2e99c1eb9290fba277ca669cc21b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

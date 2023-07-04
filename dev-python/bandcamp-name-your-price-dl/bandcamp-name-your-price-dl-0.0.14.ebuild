@@ -15,7 +15,7 @@ DESCRIPTION="Automate process of downloading name your price albums from bandcam
 
 HOMEPAGE="https://github.com/Layerex/bandcamp_name_your_price_dl"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/25/c650b78a4e421c30defb9286af9cb7ac5fac0ef3fc602d913ca142529feb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

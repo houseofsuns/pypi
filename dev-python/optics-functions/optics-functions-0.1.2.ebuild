@@ -15,7 +15,7 @@ DESCRIPTION="Calculate optics parameters from TWISS outputs."
 
 HOMEPAGE="https://github.com/pylhc/optics_functions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c8/7d/86030b0272b6997f5599767f9463a166de1a7ac2dc853992af193649bb59/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

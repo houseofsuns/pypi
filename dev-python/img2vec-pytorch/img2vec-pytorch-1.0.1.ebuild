@@ -15,7 +15,7 @@ DESCRIPTION="Use pre-trained models in PyTorch to extract vector embeddings for 
 
 HOMEPAGE="https://github.com/christiansafka/img2vec"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0b/3f/68566abae6d5f49ec3180e7402d65be94678561fd3a1f406826178cbe808/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

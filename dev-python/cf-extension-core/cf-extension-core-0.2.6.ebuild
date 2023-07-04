@@ -15,7 +15,7 @@ DESCRIPTION="Provides common functionality for Custom resources in CloudFormatio
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/3c/a7ab521d37fb697adbc520b1fa6957ceeba71b6a7f3fd05763c71eb2c04f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

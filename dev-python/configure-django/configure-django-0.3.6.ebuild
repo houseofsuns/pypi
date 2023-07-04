@@ -15,7 +15,7 @@ DESCRIPTION="A package for configuring Django in non-traditional environments."
 
 HOMEPAGE="https://github.com/pydanny/configure_django"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8d/aa/417f385e7abf84847d73c27818181694db774fdef02ba3874063ea167684/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

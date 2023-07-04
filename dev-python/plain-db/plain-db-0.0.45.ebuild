@@ -15,7 +15,7 @@ DESCRIPTION="Plain txt DB"
 
 HOMEPAGE="https://github.com/gaoyunzhi/plain_db"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/47/bc/d5d929d0ab9585a635b8918fa9cb2ca5aead11c5363b7da7e8549c980ada/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

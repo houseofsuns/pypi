@@ -15,7 +15,7 @@ DESCRIPTION="A package for Deci's common data types, connections and interfaces"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e1/2d/dc0dd079f6d98f6e8c5036965faa8a18a888ada544ee56897ea4cc7c79f7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

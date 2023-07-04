@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for Konan's API"
 
 HOMEPAGE="https://github.com/SynapseAnalytics/konan-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/48/861329edbaee7ea2fbbc2eab0b0267ae08f84439049dee3b50abd47831dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="另一个色图插件"
 
 HOMEPAGE="https://github.com/kexue-z/nonebot-plugin-setu-now"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a3/82/2965892c5c30b62926ef31bb3e1ad426ef53c5d2cf5c8e37d8379593aa76/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

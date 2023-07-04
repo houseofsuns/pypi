@@ -15,7 +15,7 @@ DESCRIPTION="Set of base PyMoDAQ plugins including Mock ones for development"
 
 HOMEPAGE="https://github.com/PyMoDAQ/pymodaq_plugins"
 LICENSE="CECILL B"
-SRC_URI="https://files.pythonhosted.org/packages/77/4e/b125d0744437c0a52f936e2b3991cbdecc138ab31d8229405c472ed5f4bd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

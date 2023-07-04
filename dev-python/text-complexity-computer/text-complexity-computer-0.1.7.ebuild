@@ -15,7 +15,7 @@ DESCRIPTION="A library for evaluate text difficulty."
 
 HOMEPAGE=""
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/aa/f8/4b07b881d5c53a58793a8ec15e172ad8112d9e4acd165c99dae79d82b85a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

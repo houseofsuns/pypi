@@ -15,7 +15,7 @@ DESCRIPTION="OT Trace Propagator for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/propagator/opentelemetry-propagator-ot-trace"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/f9/2f296e23e33b33c8539921575a948d420af0a08f93a41905ea7666034999/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

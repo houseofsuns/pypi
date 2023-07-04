@@ -15,7 +15,7 @@ DESCRIPTION="Bibsonomy/Zotero plugin for managing refernces in APIS framework"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/d9/807fd0866b93d3bd603c13f09864e5c3634a499d6e29abb557a0d327b83e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

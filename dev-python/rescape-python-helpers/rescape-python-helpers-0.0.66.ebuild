@@ -15,7 +15,7 @@ DESCRIPTION="Functional and geospatial helpers for Rescape projects. Pyramda lib
 
 HOMEPAGE="https://github.com/calocan/rescape-python-helpers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/d2/fca5d4dd82a8968d121574c8e30f3caea83447607cd2a5e1dd0c679ab5f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

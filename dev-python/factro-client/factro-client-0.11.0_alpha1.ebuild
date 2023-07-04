@@ -15,7 +15,7 @@ DESCRIPTION="A core api client for project management tool 'factro'."
 
 HOMEPAGE="https://github.com/5minds/factro_client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/de/5999b05130331b3da8d20bd8c48438d1ecdd4c6bbabc06816bee01cbddda/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

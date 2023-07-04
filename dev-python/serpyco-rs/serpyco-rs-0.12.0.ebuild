@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/ermakov-oleg/serpyco-rs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5d/81/4632a0df1e9468e6d8989ac7897715af19419912979982677dfa5fcd3f09/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

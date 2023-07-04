@@ -15,7 +15,7 @@ DESCRIPTION="A package for synchronizing Django models with Shopify resources."
 
 HOMEPAGE="https://gitlab.com/thelabnyc/django-shopify-sync"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/65/e6661703ff7547399e5eacf8a7b9dd099435634df5cdbc73369650998b6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

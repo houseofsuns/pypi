@@ -15,7 +15,7 @@ DESCRIPTION="DataLad extension package for neuro/medical imaging"
 
 HOMEPAGE="https://github.com/datalad/datalad-neuroimaging"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/a1/a477bbd8222a7b2e312a3a05d82c4747045cfd3524b6477944147db69663/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

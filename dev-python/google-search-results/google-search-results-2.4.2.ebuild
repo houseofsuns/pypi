@@ -15,7 +15,7 @@ DESCRIPTION="Scrape and search localized results from Google, Bing, Baidu, Yahoo
 
 HOMEPAGE="https://github.com/serpapi/google-search-results-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/30/b3a6f6a2e00f8153549c2fa345c58ae1ce8e5f3153c2fe0484d444c3abcb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

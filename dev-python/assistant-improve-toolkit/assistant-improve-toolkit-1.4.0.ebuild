@@ -15,7 +15,7 @@ DESCRIPTION="Assistant Improve Toolkit"
 
 HOMEPAGE="https://github.com/watson-developer-cloud/assistant-improve-recommendations-notebook"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7c/30/5f2a4b3934ebd29d624bbd40fccb613b97a8875e142abd08cc2a1fa76d51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

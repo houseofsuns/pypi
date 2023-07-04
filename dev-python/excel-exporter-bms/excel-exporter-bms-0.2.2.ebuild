@@ -15,7 +15,7 @@ DESCRIPTION="An excel exporter based on YAML configuration files"
 
 HOMEPAGE="https://github.com/brunomsantiago/excel_exporter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/6b/8327d8972324b83a13d91539f62b2527396b9d2537fb57b250121136d666/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

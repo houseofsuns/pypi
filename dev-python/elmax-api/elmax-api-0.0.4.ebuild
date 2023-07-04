@@ -15,7 +15,7 @@ DESCRIPTION="Asynchronous API Library to work with Elmax devices"
 
 HOMEPAGE="https://github.com/albertogeniola/elmax-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2e/b0/4550814e87f6140fa56b39e7da94226e488db433726c3db8655cb2bd662e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

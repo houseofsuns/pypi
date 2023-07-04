@@ -15,7 +15,7 @@ DESCRIPTION="A parser for arguments and config-files that also allows direct pyt
 
 HOMEPAGE="https://github.com/pylhc/generic_parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/08/56ca64678aaa2d3ece1abda3147dcbb7a685aebf57cc3f9ca08182cb88ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

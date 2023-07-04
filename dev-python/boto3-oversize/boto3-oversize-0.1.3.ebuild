@@ -15,7 +15,7 @@ DESCRIPTION="Transparently stores oversize SNS messages in S3 and retrieves them
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/0d/92b701892d40eee78b9a9b474059264cd9648a0ae48905a8e9db39c84938/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

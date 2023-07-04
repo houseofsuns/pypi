@@ -15,7 +15,7 @@ DESCRIPTION="Yet another string similarity library (implemented in Rust)"
 
 HOMEPAGE="https://github.com/binh-vu/strsim"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dc/90/50bbdcda68f45710279cd809c33f1039bd4b5487081d63b040931b929d3e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

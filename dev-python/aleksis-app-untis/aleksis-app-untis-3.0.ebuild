@@ -15,7 +15,7 @@ DESCRIPTION="AlekSIS (School Information System) — App for Untis import"
 
 HOMEPAGE="https://aleksis.org/"
 LICENSE="EUPL-1.2-or-later"
-SRC_URI="https://files.pythonhosted.org/packages/88/27/4de701dde86c25efe0728d819503b59da24731ffbfc77c537eaeb141f27c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

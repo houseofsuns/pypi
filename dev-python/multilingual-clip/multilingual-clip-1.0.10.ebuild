@@ -15,7 +15,7 @@ DESCRIPTION="OpenAI CLIP text encoders for multiple languages!"
 
 HOMEPAGE="https://github.com/FreddeFrallan/Multilingual-CLIP"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/18/a9aecb457c904696e9800d2ac538f364b23a3c7b8815326a45d9f3741a24/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

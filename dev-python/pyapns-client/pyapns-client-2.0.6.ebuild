@@ -15,7 +15,7 @@ DESCRIPTION="Simple, flexible and fast Apple Push Notifications on iOS, OSX and 
 
 HOMEPAGE="https://github.com/kukosk/pyapns_client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f0/37/e827158524c6b70115a93c1846186643daceafcc1a0a9ae4d4b87071fb09/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

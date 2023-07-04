@@ -15,7 +15,7 @@ DESCRIPTION="An (opinionated) Python SDK for the broadpeak.io REST APIs"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0c/37/44b6a3f47258c55bfa080a7ce37b047504040254a522c25ed198c39604ea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

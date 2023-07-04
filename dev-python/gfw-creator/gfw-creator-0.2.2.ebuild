@@ -15,7 +15,7 @@ DESCRIPTION="GFW Creator allows you to generate files for the gfw_atmo switch in
 
 HOMEPAGE="https://github.com/pgierz/gfw_creator"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/77/8c/1a443f81728086de7142bb7048de2392fed69b275d076f89474eac4ba9f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

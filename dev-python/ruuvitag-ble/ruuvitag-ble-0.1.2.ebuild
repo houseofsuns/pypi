@@ -15,7 +15,7 @@ DESCRIPTION="Manage Ruuvitag BLE devices"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f0/fd/724d7ed9681657c457a6f73ea38f43b1b89996baf235125423483b2ba10e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="data processing & modeling function"
 
 HOMEPAGE="https://github.com/ZhangLe59151/data_model_processing_tool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/ce/b14e0a62cadba3639257d73b55becc17729824750dd374c426f80d51394d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

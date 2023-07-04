@@ -15,7 +15,7 @@ DESCRIPTION="Async OAuth client using HTTPX"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/a8/98a366a993b8e394f9582ba30d0477d8c9fc9c834ad704fa1588c1cb11c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tryton with Spanish chart of accounts"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/4d/dc/0b613a1c25486fd22fd23abd76c81cbc7c5f1f27b66fc2ad1fb162173026/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

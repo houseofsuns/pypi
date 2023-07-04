@@ -15,7 +15,7 @@ DESCRIPTION="Python client library for compute.rhino3d web service"
 
 HOMEPAGE="https://github.com/mcneel/compute.rhino3d"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/00/df/82db5c1385d46c0e066f299364462b4ef6195e225e5f9aec54487e454392/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

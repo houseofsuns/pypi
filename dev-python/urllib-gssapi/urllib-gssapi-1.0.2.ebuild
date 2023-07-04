@@ -15,7 +15,7 @@ DESCRIPTION="GSSAPI over HTTP Negotiate/SPNEGO support for urllib/urllib2"
 
 HOMEPAGE="http://github.com/pythongssapi/urllib-gssapi/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ee/8f/b575131c3a59d85dbead910f503361302f550d9394c5315933d5fe6691d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

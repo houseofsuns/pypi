@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/aclowkey"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6d/ff/4eaaf82c3e4b75e4fc18e1ab13ff8552ace4f9ecaea7c956278ff2297431/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Openshift cluster login on command line"
 
 HOMEPAGE="http://github.com/chassing/ocl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ee/e7/2410350e11f0f87be507b2d2d1fa4857d2f9b31a9538c27458e70493b32a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

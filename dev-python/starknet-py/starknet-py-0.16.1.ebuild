@@ -15,7 +15,7 @@ DESCRIPTION="A python SDK for Starknet"
 
 HOMEPAGE="https://github.com/software-mansion/starknet.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/54/07/eb673510088db291f5e33cf7da3af7446026340d2676a128f0867fa6ab36/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

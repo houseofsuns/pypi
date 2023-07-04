@@ -15,7 +15,7 @@ DESCRIPTION="Allow to find Odoo addons from Environment Variables"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/24/30/c9f63110b1b96065b98d6a68a0eecf4ba1b4a22061b48f6bb1b815481c8d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

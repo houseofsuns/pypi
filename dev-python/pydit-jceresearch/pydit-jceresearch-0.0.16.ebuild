@@ -15,7 +15,7 @@ DESCRIPTION="Data cleansing tools for Internal Auditors"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/90/51/0bf02e2bc589d9ad385555ef4fb54ed5b92c0cd8ee59c6b430d6b3bf604a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="MasterCard API Python Core SDK"
 
 HOMEPAGE="https://www.developer.mastercard.com"
 LICENSE="BSD2"
-SRC_URI="https://files.pythonhosted.org/packages/0d/af/429ae31b1c9730da03a1075ba49581579f7bc5bc4ae7f70ae7e6fb744f33/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

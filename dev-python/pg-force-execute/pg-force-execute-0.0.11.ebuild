@@ -15,7 +15,7 @@ DESCRIPTION="Context manager to run PostgreSQL queries with SQLAlchemy, terminat
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/dc/6669e519f5146a0751f0089f035f4f47790132daa0851e8c0c7d00fdb857/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

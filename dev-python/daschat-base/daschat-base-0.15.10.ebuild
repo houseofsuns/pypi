@@ -15,7 +15,7 @@ DESCRIPTION="Base package for Daschat modules."
 
 HOMEPAGE="https://github.com/daschat-io/daschat_base"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/a2/5dac288e35938816395affb2f8be5943757378441617e9f4a9f90f959a7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

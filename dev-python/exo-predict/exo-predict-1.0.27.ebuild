@@ -15,7 +15,7 @@ DESCRIPTION="exo_predict will help you determine how likely you are to find an e
 
 HOMEPAGE="https://github.com/Rob685/codeastro_ml_planets"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/39/54/5f9c22b23c6130d8f8a90229113e39c45c687b374e691339cb8ccc3acd61/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

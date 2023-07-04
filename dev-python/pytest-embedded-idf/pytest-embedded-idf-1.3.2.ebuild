@@ -15,7 +15,7 @@ DESCRIPTION="Make pytest-embedded plugin work with ESP-IDF."
 
 HOMEPAGE="https://github.com/espressif/pytest-embedded"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/de/4182e1da57da87efae4b49da9add130f2a2d82b33cdc17c640086e95ccd8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

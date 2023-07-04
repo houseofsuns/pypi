@@ -15,7 +15,7 @@ DESCRIPTION="Python library for easily interacting with trained machine learning
 
 HOMEPAGE="https://github.com/gradio-app/gradio"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8f/db/1d6e1dcf09ea3d020ca9d238292cd1876a9a32be944458201ec38e1bd0c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

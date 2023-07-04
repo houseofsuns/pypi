@@ -15,7 +15,7 @@ DESCRIPTION="A command line tool to manage data and projects in the SciLifeLab D
 
 HOMEPAGE="https://github.com/ScilifelabDataCentre/dds_cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/50/d2/6afdf3df47c5e75ad2b88c94bbbef27b1602be4fc929323038c1a56b5979/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Controls the workflow of map and infographic production"
 
 HOMEPAGE="http://github.com/mapaction/mapactionpy_controller"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/57/c5/b0bc16023b16cc2598df184d0487b313eafae96bd4d749a663ff9ce59729/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

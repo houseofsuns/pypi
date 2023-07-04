@@ -15,7 +15,7 @@ DESCRIPTION="Fréchet ChemNet Distance on PyTorch"
 
 HOMEPAGE="https://github.com/insilicomedicine/FCD_torch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/f3/7dbae532d827a62d95ecfd025774f6c29f917c676034731844c70e1f2b9b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

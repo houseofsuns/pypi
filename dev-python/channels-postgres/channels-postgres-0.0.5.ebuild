@@ -15,7 +15,7 @@ DESCRIPTION="PostgreSQL-backed ASGI channel layer implementation"
 
 HOMEPAGE="http://github.com/danidee10/channels_postgres/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1f/05/bac017a6941bbc0aa508e6d3cf6c67669e62176436985b076ff586ee5add/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

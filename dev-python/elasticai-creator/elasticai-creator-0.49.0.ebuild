@@ -15,7 +15,7 @@ DESCRIPTION="Design, train and compile neural networks optimized specifically fo
 
 HOMEPAGE="https://github.com/es-ude/elastic-ai.creator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/44/386b30c6a677bbd09cb3872d8fcac1fc421a3a32951caf11e22330cd6efe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

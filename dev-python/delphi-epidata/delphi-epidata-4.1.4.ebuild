@@ -15,7 +15,7 @@ DESCRIPTION="A programmatic interface to Delphi's Epidata API."
 
 HOMEPAGE="https://github.com/cmu-delphi/delphi-epidata"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7d/e1/902cbb6e537f637e43b99fc02e478073a98c49bce9b0428104d49347c392/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

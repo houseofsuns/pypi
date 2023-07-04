@@ -15,7 +15,7 @@ DESCRIPTION="Utilities for OS2mo/LoRa"
 
 HOMEPAGE="https://magenta.dk/"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6d/0f/380aa03ce2c18540a15765cb8eeb89c2ebfe943e17be3d76becb529eaa7e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An extension for flake8 that forbids some functions in some modules
 
 HOMEPAGE="https://github.com/tripcher/flake8-forbidden-func"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/a4/f1d79aa5a6c6f37b3af030b48ff882cfa839902416d4a6b5b917c70cf576/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

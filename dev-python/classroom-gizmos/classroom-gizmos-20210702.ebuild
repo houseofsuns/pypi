@@ -15,7 +15,7 @@ DESCRIPTION="Several small functions for classroom instruction."
 
 HOMEPAGE="https://github.com/Danseur1/Classroom_gizmos"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/41/0c1a65e979caa9522cecba301bf1b0579bc6ec0de54137e3642a55494ea4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

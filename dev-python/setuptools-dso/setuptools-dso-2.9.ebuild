@@ -15,7 +15,7 @@ DESCRIPTION="setuptools extension to build non-python shared libraries"
 
 HOMEPAGE="https://github.com/mdavidsaver/setuptools_dso"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/42/ff/f65a39cd577831caf60a00788fe044dd7ba74122100c0309970c73520499/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

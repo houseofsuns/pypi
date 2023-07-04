@@ -15,7 +15,7 @@ DESCRIPTION="BioSimulators-compliant command-line interface to the PySCeS simula
 
 HOMEPAGE="https://github.com/biosimulators/Biosimulators_PySCeS>"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/9e/16a04e02d63b424baf32669724ec9c795dd3af129f8a8f3b54788dee2b23/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

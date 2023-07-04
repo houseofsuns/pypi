@@ -15,7 +15,7 @@ DESCRIPTION="Splunk Add-on SDK formerly UCC is a build and code generation frame
 
 HOMEPAGE="https://github.com/splunk/addonfactory-ucc-generator"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7a/dc/e87a63db371287663ba12b59a5d774e607e77c4df600e3afda5a02dd99da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

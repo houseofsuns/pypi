@@ -15,7 +15,7 @@ DESCRIPTION="A library containing various utility functions for playing with PyS
 
 HOMEPAGE="https://github.com/FurcyPin/spark-frame"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0c/36/dd0d2a1c1823715a55cf04e63b0a27c03e491ec0ab3777e93ec2eef95844/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

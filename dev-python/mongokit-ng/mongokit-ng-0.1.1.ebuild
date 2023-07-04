@@ -15,7 +15,7 @@ DESCRIPTION="mongokit with python3 and pymongo3+"
 
 HOMEPAGE="https://github.com/Windfarer/mongokit-ng"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/de/7c5ce6d3244e963d4608f5db4c58ce70c502b79f717fbbe9d91c9b100310/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

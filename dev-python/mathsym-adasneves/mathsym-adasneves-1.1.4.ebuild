@@ -15,7 +15,7 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/adasneves127/Symmath"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0b/11/63c24ae49b4b4682ae60afd24bf9b1adccdc22a923e6c2fdb91fbf1ca57b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

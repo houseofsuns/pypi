@@ -15,7 +15,7 @@ DESCRIPTION="DB schema and sqlalchemy db models for fibrenest"
 
 HOMEPAGE="https://gitlab.com/horsebridge/fibrenest_db_models.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/c3/0024a68f906c24d1946b276522d59d9086a37ac642623377e75c15d8c68f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

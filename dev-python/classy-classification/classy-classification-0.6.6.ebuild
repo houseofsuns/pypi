@@ -15,7 +15,7 @@ DESCRIPTION="Have you every struggled with needing a Spacy TextCategorizer but d
 
 HOMEPAGE="https://github.com/davidberenstein1957/classy-classification"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/8c/ec99f032064ec6a3eb639b1fca687375ab5e0f190cf2dae7086c3d5082ad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

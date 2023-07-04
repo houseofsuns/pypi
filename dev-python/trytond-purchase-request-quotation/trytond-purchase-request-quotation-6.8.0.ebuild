@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module for purchase request quotation"
 
 HOMEPAGE="http://www.tryton.org"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/38/ee/7ad8140e30c90bd6e5e5f02a894cfab8e3ac04290ecacc14737dd70ab7ed/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

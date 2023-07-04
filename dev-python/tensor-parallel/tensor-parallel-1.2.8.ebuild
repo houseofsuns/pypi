@@ -15,7 +15,7 @@ DESCRIPTION="Automatically shard your large model between multiple GPUs, works w
 
 HOMEPAGE="https://github.com/BlackSamorez/tensor_parallel"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/35/360335991a72d146047bea9f7b1e06a63f942fb88079357a054b290976a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

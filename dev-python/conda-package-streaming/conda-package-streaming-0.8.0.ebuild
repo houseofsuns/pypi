@@ -15,7 +15,7 @@ DESCRIPTION="An efficient library to read from new and old format .conda and .ta
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1b/88/5386a7f8dc3e8eb1bb10a6f5f107c8da92df8efc0c4bfd6e22cee22a6d4c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

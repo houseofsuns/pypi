@@ -15,7 +15,7 @@ DESCRIPTION="A Python client for SMA sunny portal"
 
 HOMEPAGE="https://github.com/EnergieID/sunnyportal-py"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/df/1a/5e9a624ee3b5aa30819631fd96bab41d989d9c0c5dcdc09d2027ca8dec4c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

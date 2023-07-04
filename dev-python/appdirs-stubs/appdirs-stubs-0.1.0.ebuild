@@ -15,7 +15,7 @@ DESCRIPTION="Type stubs for appdirs"
 
 HOMEPAGE="https://github.com/repo-helper/appdirs-stubs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/1f/09a160274b6224333daf4aeb4968105e4f3c6c63d76947d3a64ee2271abc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

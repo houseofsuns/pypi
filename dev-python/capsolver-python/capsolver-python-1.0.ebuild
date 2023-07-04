@@ -15,7 +15,7 @@ DESCRIPTION="CapSolver.com library for Python"
 
 HOMEPAGE="https://github.com/alperensert/capsolver_python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/80/2962d38766ec0f63ba9a670b5088c28730576fc1e6cc0341f8c727b317e0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

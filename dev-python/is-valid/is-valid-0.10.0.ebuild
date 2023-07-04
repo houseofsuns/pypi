@@ -15,7 +15,7 @@ DESCRIPTION="A small validation library."
 
 HOMEPAGE="https://github.com/daanvdk/is_valid"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/81/7d/9db33cbb50add86ec676fa6fcca118f89e8ec23954a76abdbeed288ee7a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

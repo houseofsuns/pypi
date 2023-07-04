@@ -15,7 +15,7 @@ DESCRIPTION="AzerothCore World of Warcraft server project constants variables."
 
 HOMEPAGE="https://github.com/MacHu-GWU/acore_constants-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a3/8e/ec4f33f6fcdf51eef5d50097c243fcec250f07f733137e9ded3a1a02dd36/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

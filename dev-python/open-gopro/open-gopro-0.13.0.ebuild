@@ -15,7 +15,7 @@ DESCRIPTION="Open GoPro API and Examples"
 
 HOMEPAGE="https://github.com/gopro/OpenGoPro/tree/main/demos/python/sdk_wireless_camera_control"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/b7/c71a1f5b309066abf7b346554d85e4f3aa8a717f09c86819e2bf552101e4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

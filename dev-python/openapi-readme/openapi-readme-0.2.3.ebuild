@@ -15,7 +15,7 @@ DESCRIPTION="Generate Markdown from an openapi JSON file."
 
 HOMEPAGE="https://github.com/seapagan/openapi-readme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/2d/810381d72b1e12258acca3b70b8d6cc8e392741f881f28284a7f6f92af0f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

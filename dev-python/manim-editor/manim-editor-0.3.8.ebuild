@@ -15,7 +15,7 @@ DESCRIPTION="Editor and Presenter for Manim Generated Content."
 
 HOMEPAGE="https://github.com/ManimCommunity/manim_editor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/97/8fd4229a450bf6ce5285f28469e9ec8b36747d506f2b9a17c41368ed4381/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

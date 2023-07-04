@@ -15,7 +15,7 @@ DESCRIPTION="Modulo Commons del ecosistema Kloop. Contiene los modulos de uso co
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1d/9c/abad41351d55647951e62e7d23147b3076dfadbcd1c834664947add45508/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

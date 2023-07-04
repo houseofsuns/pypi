@@ -15,7 +15,7 @@ DESCRIPTION="Модуль интеграции с Интеллект"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/96/eb/88a2ef840a54e167c2b2b4147817dfd7859f59d1785d9bff84bad68f2860/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

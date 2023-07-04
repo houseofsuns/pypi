@@ -15,7 +15,7 @@ DESCRIPTION="Recognize faces from Python or from the command line"
 
 HOMEPAGE="https://github.com/ageitgey/face_recognition"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/49/75dda409b94841f01cbbc34114c9b67ec618265084e4d12d37ab838f4fd3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

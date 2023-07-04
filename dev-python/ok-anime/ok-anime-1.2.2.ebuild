@@ -15,7 +15,7 @@ DESCRIPTION="python wrapper for OKanime"
 
 HOMEPAGE="https://github.com/Etherll/OKanime"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d7/93/676f75879874e96721f31c01f415515d6918bac149ff3251f4d75b3ae146/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

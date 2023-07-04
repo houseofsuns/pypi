@@ -15,7 +15,7 @@ DESCRIPTION="Inference and prediction on hidden Markov model with missing observ
 
 HOMEPAGE="https://github.com/lidongrong/miss_hmm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/0e/34d498c13d5828867e35227a07222742000f7b50146b5d60e71a5792e307/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

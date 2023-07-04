@@ -15,7 +15,7 @@ DESCRIPTION="Generates an html report summarizing the results of pylint."
 
 HOMEPAGE="https://github.com/drdv/pylint-report"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d2/77/d7cb6b091b54e2ebc98e8b140756ccf2fe2c942befc2bca2fee17620ecfe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

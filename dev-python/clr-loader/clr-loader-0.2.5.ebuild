@@ -15,7 +15,7 @@ DESCRIPTION="Generic pure Python loader for .NET runtimes"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/e1/f4cc4f8df500c94efd9ea4b1f24435150951ef7a861a1015897eb583e36b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

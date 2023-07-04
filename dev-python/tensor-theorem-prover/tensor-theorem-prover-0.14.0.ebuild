@@ -15,7 +15,7 @@ DESCRIPTION="Customizable first-order logic theorem prover supporting approximat
 
 HOMEPAGE="https://github.com/chanind/tensor-theorem-prover"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ce/c0/16f418092bf56bf0fcbe1cdc4b30e7fca6dea77c2dc7f487da320941b3d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

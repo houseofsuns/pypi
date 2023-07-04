@@ -15,7 +15,7 @@ DESCRIPTION="Tool to support lazy imports"
 
 HOMEPAGE="https://github.com/telekom/lazy-imports"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/70/74/f9c3c59876a7423d0a152f6f8e95ef27e24d3802deec81ab293c93f9edc3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

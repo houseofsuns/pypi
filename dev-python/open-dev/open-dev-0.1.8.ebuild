@@ -15,7 +15,7 @@ DESCRIPTION="A collection of tooling to enable open source development.."
 
 HOMEPAGE="https://github.com/8ball030/open_dev"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ef/ab/9f9c170528cf9c82b9e29298c5b0dd7d9dc4fadb2d825a23454f8f96ed87/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Openapi Python Generator"
 
 HOMEPAGE="https://github.com/MarcoMuellner/openapi-python-generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/53/d1/5630b38f4d490b50e7f7f58a0470a0cfca9eddd2ecfe32a1f2c183b52f86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

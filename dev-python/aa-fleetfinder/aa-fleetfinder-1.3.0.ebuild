@@ -15,7 +15,7 @@ DESCRIPTION="Fleet finder plugin for Alliance Auth"
 
 HOMEPAGE="https://github.com/ppfeufer/aa-fleetfinder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/38/e1/ba156e07082a319feb6e515917a80bf0f87891456ec6c48b395f566a0cf6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

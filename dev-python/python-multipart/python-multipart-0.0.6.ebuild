@@ -15,7 +15,7 @@ DESCRIPTION="A streaming multipart parser for Python"
 
 HOMEPAGE="https://github.com/andrew-d/python-multipart"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2d/23/abcfad10c3348cb6358400f8adbc21b523bbc6c954494fd0974428068672/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Turing college de2_1 sprint submission. FINAl working version"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/28/c7/77456b34c40fbedff68c1a6384957987bfb43954fc20338dc6fce83f121c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

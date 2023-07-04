@@ -15,7 +15,7 @@ DESCRIPTION="An unofficial Mawaqit wrapper for python. It scrapes the mawaqit we
 
 HOMEPAGE="https://github.com/RiadZX/py-mawaqit/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/40/890fde0f880340dd8d5ae13b89acd189b39916c6b5c81faadf75f6bc17c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

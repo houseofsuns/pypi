@@ -15,7 +15,7 @@ DESCRIPTION="CASA Next Generation Infrastructure Prototype"
 
 HOMEPAGE="https://github.com/casangi/cngi_prototype"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8f/6f/f36bbf6d8c2193841b186280daefa7e6b4d176be30cddb76150d3f4dbab7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Builds a CVAT manifest file from a directory of images."
 
 HOMEPAGE="https://github.com/fsai-dev/fsai-cli-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5c/50/970439cb17b3cf5ec8a48a2bf28123719f9cc9d0853b4f23f0ef39cbb706/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

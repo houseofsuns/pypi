@@ -15,7 +15,7 @@ DESCRIPTION="Metaclass Singleton Pattern (supports Multi-thread)."
 
 HOMEPAGE="https://github.com/MarcinMysliwiec/pattern_singleton"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5c/52/1531bd435ddba56d996a5c706184ef93eecfc6318ef0a069a9ecf5ef1b73/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

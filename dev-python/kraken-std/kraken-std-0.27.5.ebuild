@@ -15,7 +15,7 @@ DESCRIPTION="The Kraken standard library."
 
 HOMEPAGE="https://kraken-build.github.io/kraken-build/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/42/8f2e250af5c463364f038ac60263c104c884079e20a7d1d4d32b2fa22eb5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

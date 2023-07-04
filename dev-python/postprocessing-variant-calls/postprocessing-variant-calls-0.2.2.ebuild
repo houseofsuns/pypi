@@ -15,7 +15,7 @@ DESCRIPTION="This hosts multiple scripts necessary for filtering and processing 
 
 HOMEPAGE="https://cmo-ci.gitbook.io/postprocessing_variant_calls/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0e/cf/305dd74e7618af2fff66fd7cff8e30b98210e54964932fdf7f0553ab0710/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

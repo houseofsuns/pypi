@@ -15,7 +15,7 @@ DESCRIPTION="Python Wrapper for Google Android UiAutomator2 test tool"
 
 HOMEPAGE="https://github.com/cc12703/uiautomator2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/65/73543f8ba31d9a7d37fb9a3d755626c6987470982f0d250e166ebc366b49/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

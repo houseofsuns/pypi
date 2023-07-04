@@ -15,7 +15,7 @@ DESCRIPTION="NSSurge CLI"
 
 HOMEPAGE="https://github.com/tddschn/nssurge-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/3b/2f492a807c4ceeef2a027b26d962acd3c1e8e215577f5ce80071cf61ef39/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

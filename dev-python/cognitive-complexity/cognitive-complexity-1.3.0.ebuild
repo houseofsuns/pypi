@@ -15,7 +15,7 @@ DESCRIPTION="Library to calculate Python functions cognitive complexity via code
 
 HOMEPAGE="https://github.com/Melevir/cognitive_complexity"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/ff/3cd46792fcbf742458083527407bc336efe382b168595583a06c70bf8e54/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

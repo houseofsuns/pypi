@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/kontinuum-investments/Aorta-Sirius"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9c/c7/6c10f1b313bde942cd260b49e44ac11d7bf0ad041f3d5c6ee6208d5159a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

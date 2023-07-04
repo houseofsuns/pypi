@@ -15,7 +15,7 @@ DESCRIPTION="Utils for MicroService Encryption Python CLIs"
 
 HOMEPAGE="https://cosmian.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c7/53/6e0502a5386060252dd4b3b804df20cbffd1a7978b7dab59f3eba12257bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

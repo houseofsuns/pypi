@@ -15,7 +15,7 @@ DESCRIPTION="Watchtower in-browser tracking testing library, based on Playwright
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/62/35/fadf8549c8f3abf1f5102828f11abae00a3b53671d7dd099b32e31914b8a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

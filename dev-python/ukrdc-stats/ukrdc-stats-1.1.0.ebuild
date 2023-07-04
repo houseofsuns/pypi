@@ -15,7 +15,7 @@ DESCRIPTION="A package to produce stats from the ukrdc database to be displayed 
 
 HOMEPAGE="https://github.com/renalreg/dashboard-stats"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/64/73c58249d869b050752339095195749083d4a56ca4827330944cbca60544/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

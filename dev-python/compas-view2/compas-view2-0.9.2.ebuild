@@ -15,7 +15,7 @@ DESCRIPTION="Second generation viewers for the COMPAS framework"
 
 HOMEPAGE="https://github.com/compas-dev/compas_view2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/a4/68fc5c7ae37491148abdbc6aac907e677f59b4259711d81d0b948553bc4c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An Earley-Algorithm Context-free grammar Parser Toolkit"
 
 HOMEPAGE="https://github.com/rocky/python-spark/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d4/ec/eb81227524ce6991cb2ea0e5570804b569c118e6ceb58d205059b6777fda/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="mockserver_client"
 
 HOMEPAGE="https://github.com/icanbwell/mockserver_client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/b8/ed1b8b25ae2a1c1d734441c4a0556aac09272a293acc74816dceb49baa61/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

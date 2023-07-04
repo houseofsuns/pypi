@@ -15,7 +15,7 @@ DESCRIPTION="A Python Wrapper for VnCoreNLP"
 
 HOMEPAGE="https://github.com/thelinhbkhn2014/VnCoreNLP_Wrapper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/bb/6aee7ee062eb4613560e23a6f8488c0b92d72d971d2f298b48caf63cf5fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

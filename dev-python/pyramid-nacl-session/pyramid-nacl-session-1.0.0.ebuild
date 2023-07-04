@@ -15,7 +15,7 @@ DESCRIPTION="Encrypted session cookie serializer for Pyramid"
 
 HOMEPAGE="https://github.com/Pylons/pyramid_nacl_session"
 LICENSE="BSD-derived http://www.repoze.org/LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/70/af/ce82123c841144f476f89857840a0ba590df289484b531b4cbf997487efb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

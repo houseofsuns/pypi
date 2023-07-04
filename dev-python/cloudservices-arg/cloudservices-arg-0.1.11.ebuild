@@ -15,7 +15,7 @@ DESCRIPTION="A sample Python project for rach pack"
 
 HOMEPAGE="https://github.com/r-mhjn/QuizCreator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/19/89/06dcee0cfe997e382723e634d2404981f1c85efa90d59106fbaf16e08001/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

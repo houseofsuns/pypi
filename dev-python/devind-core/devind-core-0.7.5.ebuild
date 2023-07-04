@@ -15,7 +15,7 @@ DESCRIPTION="Devind core."
 
 HOMEPAGE="https://github.com/devind-team/devind-django-helpers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/22/e0bdbaa3b455ceb91979fb6760dcab16e6293670d1a13384814d2ba7d3d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Dungeon RPG with Python Arcade and Rust"
 
 HOMEPAGE="https://github.com/kfields/deeper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/3c/30bb8db6a5d1b74e256abf82cb6eb40f58e43a5623c2aef0c336e8a35246/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

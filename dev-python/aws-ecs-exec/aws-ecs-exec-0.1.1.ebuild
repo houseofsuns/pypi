@@ -15,7 +15,7 @@ DESCRIPTION="A cli tool to conveniently execute commands in AWS ECS Tasks"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/49/13d73efe2c5ba62410f7ac0e721c8e07b80ae07d4fdfb3e172a61ac3cde3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

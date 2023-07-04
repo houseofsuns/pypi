@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/christopher-hacker/enforce-notebook-run-order"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/a9/d696e5b224f19f186c4c83950e238f5436f5559f8d23581742ecc37eaff3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

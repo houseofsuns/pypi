@@ -15,7 +15,7 @@ DESCRIPTION="Flask Admin with a few more features and improvements"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/60/f5/c558cbb6e1805a62f1c75867759627e5a0652f5d5fdbeb652cc0cdf360de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

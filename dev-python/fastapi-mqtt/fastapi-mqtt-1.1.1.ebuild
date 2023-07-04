@@ -15,7 +15,7 @@ DESCRIPTION="fastapi-mqtt is extension for MQTT protocol"
 
 HOMEPAGE="https://github.com/sabuhish/fastapi-mqtt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/37/34a0185ad43b4b2d294c86f968eb6f9d1fc07a0a3db44f2107b398867e27/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

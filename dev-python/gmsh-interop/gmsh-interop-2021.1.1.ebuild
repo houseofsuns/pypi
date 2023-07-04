@@ -15,7 +15,7 @@ DESCRIPTION="A parser for GMSH's .msh format"
 
 HOMEPAGE="http://github.com/inducer/gmsh_interop"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/b0/79829dd4fd5745b859d3314f5b1854e609929107655d2da6cc4b317e3375/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

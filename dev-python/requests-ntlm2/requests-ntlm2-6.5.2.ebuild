@@ -15,7 +15,7 @@ DESCRIPTION="The HTTP NTLM proxy and/or server authentication library."
 
 HOMEPAGE="https://github.com/dopstar/requests-ntlm2"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/e3/07/2c323a4ae556966c94440413125718ac188d287cfb15d9d46c1ca7ad78fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

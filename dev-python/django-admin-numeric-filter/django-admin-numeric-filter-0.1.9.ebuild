@@ -15,7 +15,7 @@ DESCRIPTION="Numeric filters for Django admin"
 
 HOMEPAGE="https://github.com/lukasvinclav/django-admin-numeric-filter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/a2/5df496e41037ae557034c991e2555293fd8505783291fffbe7f1a2cf858f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

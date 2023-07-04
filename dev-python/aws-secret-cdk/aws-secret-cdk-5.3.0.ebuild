@@ -15,7 +15,7 @@ DESCRIPTION="Package to create a SecretsManager's secret with auto rotation."
 
 HOMEPAGE="https://github.com/idenfy/AwsSecretCdk"
 LICENSE="GNU GENERAL PUBLIC LICENSE Version 3"
-SRC_URI="https://files.pythonhosted.org/packages/82/50/b63efb38b8d9f3450ae6aaed7431c1cc50efc7cb717e251fc82ad2568842/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

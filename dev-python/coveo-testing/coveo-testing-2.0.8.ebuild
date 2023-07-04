@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight testing helpers"
 
 HOMEPAGE="https://github.com/coveooss/coveo-python-oss/tree/main/coveo-testing"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/73/d7/3f2b33b0ee701923fa00f14d570b99f572796162e8d4c20d12bfafde119a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

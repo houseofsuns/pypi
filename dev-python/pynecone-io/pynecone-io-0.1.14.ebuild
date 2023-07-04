@@ -15,7 +15,7 @@ DESCRIPTION="Web apps in pure Python."
 
 HOMEPAGE="https://pynecone.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c2/f3/a046273516303fc26857c08d8ec00c7b8a6214404459509e9b71f23bbe00/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

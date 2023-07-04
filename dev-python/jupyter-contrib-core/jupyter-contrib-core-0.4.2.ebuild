@@ -15,7 +15,7 @@ DESCRIPTION="Common utilities for jupyter-contrib projects."
 
 HOMEPAGE="https://github.com/jupyter-contrib/jupyter_contrib_core"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/50/94/0d37e5b49ea1c8bf204c46f9b0257c1f3319a4ab88acbd401da2cab25e55/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A powerful and modern admin interface / CMS, powered by Piccolo and
 
 HOMEPAGE="https://github.com/piccolo-orm/piccolo_admin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/e8/9c7fab36372f29b997880c3a8d466aabce866037a9e829348dcbc6f881aa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

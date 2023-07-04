@@ -15,7 +15,7 @@ DESCRIPTION="Django REST Framework plugin that simplifies the management of thir
 
 HOMEPAGE="https://github.com/yoyowallet/drf-integrations-framework"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/21/7b8e038a3dad4a2952e13545122a3171574880906fcd3057468600766aa6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

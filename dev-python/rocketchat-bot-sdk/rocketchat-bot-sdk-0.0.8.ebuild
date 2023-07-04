@@ -15,7 +15,7 @@ DESCRIPTION="SDK for creating chat bots with the Rocketchat API"
 
 HOMEPAGE="https://github.com/HappyTetrahedron/rocketchat-bot-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e2/13/f9ac2e5eb3dd61bb17162e8757a5320c47f11bfbdc00f753cd1a0d86e521/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

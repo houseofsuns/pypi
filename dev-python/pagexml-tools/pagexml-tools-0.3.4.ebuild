@@ -15,7 +15,7 @@ DESCRIPTION="Utility functions for reading PageXML files"
 
 HOMEPAGE="https://github.com/knaw-huc/pagexml"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/87/c6/6542c92cc3a4e9d8a5778119adae404732a3db381e8cb34f9f113205aea0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

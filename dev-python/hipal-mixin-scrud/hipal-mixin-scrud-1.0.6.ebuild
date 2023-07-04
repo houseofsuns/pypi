@@ -15,7 +15,7 @@ DESCRIPTION="Libreria para crud basica."
 
 HOMEPAGE="http://git.hipal.com.co/libraries/ms-mixins/-/tree/feature/mixins"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/86/a20ef2d596fa4cb1819ec0e222a6ae8a26d9a77bd711374e7eab87603347/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Simple CancellationToken"
 
 HOMEPAGE="https://github.com/Novakov/py-cancel-token"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bd/10/ea94ef5422aa36500698f9d76a7f749d77cba7c721f9fc59ef0122fc377e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

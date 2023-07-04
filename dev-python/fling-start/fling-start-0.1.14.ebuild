@@ -15,7 +15,7 @@ DESCRIPTION="Side Project Management from the command line"
 
 HOMEPAGE="https://fling.wtf"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/20/f4/7bda545206a712e5bf70d3f3d4b7bb061fcc4453b0faa979b39d31fddf03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

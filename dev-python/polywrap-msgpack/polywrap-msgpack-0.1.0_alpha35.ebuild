@@ -15,7 +15,7 @@ DESCRIPTION="WRAP msgpack encoding"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/df/eb9db5a5f4c8741fa53886013213bb5dd2ddb8012a1315f1c609b9251ef1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

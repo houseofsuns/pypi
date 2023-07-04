@@ -15,7 +15,7 @@ DESCRIPTION="Rapid Innovation package"
 
 HOMEPAGE="https://github.com/Rapid-Python/python-package-rapid"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/17/11bea0f76ddfe2c31107d278b88dc09ae9eb4ce5df6fadbc68c24198bee6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

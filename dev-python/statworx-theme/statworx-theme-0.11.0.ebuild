@@ -15,7 +15,7 @@ DESCRIPTION="A color theme for matplotlib using the offical statworx design"
 
 HOMEPAGE="https://statworx-theme.readthedocs.io/en/latest"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/bb/3ad829139202eb5e31458e9d85e1ec3deca79561049f85dd1ad0671b80c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

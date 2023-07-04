@@ -15,7 +15,7 @@ DESCRIPTION="Reference PyTorch implementation of Transformers for Apple Neural E
 
 HOMEPAGE="https://github.com/apple/ml-ane-transformers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/98/346d58df4f7e7b8286a060e2ac09b8fee6e859803674c8a9fdcda376259c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

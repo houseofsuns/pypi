@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight wrapper for Sportradar API"
 
 HOMEPAGE="https://felipeall.github.io/sportradar-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/48/1a97a5c39c1ceded3ec7fb66b9b200e324a5c9d48d839bf25b3de7f922cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="NeMo - a toolkit for Conversational AI"
 
 HOMEPAGE="https://github.com/nvidia/nemo"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ae/8b/653858704530dee43dbb245cfe020099ecd9c1afa51569c4f65fc0c6ca4d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

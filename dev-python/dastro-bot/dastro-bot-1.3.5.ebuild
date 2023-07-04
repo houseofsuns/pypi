@@ -15,7 +15,7 @@ DESCRIPTION="Discord bot for Star Citizen players"
 
 HOMEPAGE="https://github.com/Mirdalan/discord_astro_bot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/87/f4760bc13025e856f0829eb1c2d2929dff4f464843338866a90f29d33a4e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Clinical study SQL generation for data derived from bulk FHIR"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/93/4c/27f60dac0668b12c37fa4da7117129e02a45ea920a1a9f64aac65dd8bf13/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

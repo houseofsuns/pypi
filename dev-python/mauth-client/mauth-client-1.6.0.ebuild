@@ -15,7 +15,7 @@ DESCRIPTION="MAuth Client for Python"
 
 HOMEPAGE="https://github.com/mdsol/mauth-client-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9d/39/6a162dd7a1822f76225d3369b4ee124a4f091adf9fe5ba903615a155fa41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

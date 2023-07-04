@@ -15,7 +15,7 @@ DESCRIPTION="Dependencies for the fstd2nc package."
 
 HOMEPAGE=""
 LICENSE="LGPL-2.1"
-SRC_URI="https://files.pythonhosted.org/packages/a0/5b/41194364f37e5d635b1f398da349e89c04e0ebd055ea73da8e83fc90b9b7/${REALNAME//-/_}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.zip"
 SOURCEFILE="_}-${REALVERSION}.zip"
 RESTRICT="test"
 

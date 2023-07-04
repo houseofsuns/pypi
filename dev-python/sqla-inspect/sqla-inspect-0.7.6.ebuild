@@ -15,7 +15,7 @@ DESCRIPTION="Usefull tools for setting/getting datas from SQLAlchemy models"
 
 HOMEPAGE="https://github.com/majerteam/sqla_inspect"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/fe/cd/47340088294c441842cbfd7ad7f56337392c3173c5304e93ee4c11d993f1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

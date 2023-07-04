@@ -15,7 +15,7 @@ DESCRIPTION="A Rest Framework for DJANGO"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/ae/420103630a3547e999a771e2f0cc48ea6cbe6df37da1d6f2e09fd6ffb54f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

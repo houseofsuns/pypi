@@ -15,7 +15,7 @@ DESCRIPTION="Pyxel detector simulation framework."
 
 HOMEPAGE="https://esa.gitlab.io/pyxel/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/cb/2bce01a2abeffa622977d7983e9db4ca6696ba09353b27adbdbe1976d8b3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

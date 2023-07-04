@@ -15,7 +15,7 @@ DESCRIPTION="Dagster integration library for Polars"
 
 HOMEPAGE="https://github.com/danielgafni/dagster-polars"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/77/b9/cb8944a8f63bd5e4247a1bd0a909425d2d9a812aa69ad8999466e7d7982a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Common utilities used in YugaByte Database's build infrastructure b
 
 HOMEPAGE="https://github.com/yugabyte/yugabyte_pycommon"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/95/d5/55f0969b11af341cec24a19aa75692099ba2ecc4ae759ff9e4cf926e7ec3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

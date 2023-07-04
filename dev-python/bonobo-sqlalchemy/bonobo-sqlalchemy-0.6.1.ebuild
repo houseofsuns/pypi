@@ -15,7 +15,7 @@ DESCRIPTION="Bonobo SQLAlchemy Extension"
 
 HOMEPAGE="https://www.bonobo-project.org/with/sqlalchemy"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/05/67/12b0398e204dc1646a7a663ccdf6933d134821cf0971fcfb68e953723d8e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

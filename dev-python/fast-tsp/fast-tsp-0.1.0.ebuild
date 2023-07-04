@@ -15,7 +15,7 @@ DESCRIPTION="A fast TSP solver with Python bindings"
 
 HOMEPAGE="http://github.com/shmulvad/fast-tsp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/52/d0c6202ddf892037a39134d3e4baab8f3e338e5583bd4acea130014891d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

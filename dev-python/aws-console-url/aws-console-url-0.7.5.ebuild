@@ -15,7 +15,7 @@ DESCRIPTION="Build AWS Console Url for debugging."
 
 HOMEPAGE="https://github.com/MacHu-GWU/aws_console_url-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/05/e5e1e4614b6227b4247877f0374e1a0c0e32a57ecc40a96899ff73292472/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

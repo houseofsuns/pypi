@@ -15,7 +15,7 @@ DESCRIPTION="The internal SDK for lendsmart autotest"
 
 HOMEPAGE="https://bitbucket.org/lendsmartlabs/lendsmart_py/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/f8/946f1fc9936b4eafca7649440578e5b8d922b98a115d1f5dd15b20067ff2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Animal AI training library"
 
 HOMEPAGE="https://github.com/beyretb/AnimalAI-Olympics"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6e/4d/599f3ff5af5c0605fd40289e93d29498047eb26f1fd90bdc1e94fe0dda6a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

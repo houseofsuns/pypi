@@ -15,7 +15,7 @@ DESCRIPTION="Display polyominos and polyomino tilings in various pretty formats.
 
 HOMEPAGE="https://github.com/jwg4/pretty_poly"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/47/24a6d1364a1dad0a6359150f49922cc5b2c45882108cb296a1d4ffc8f33f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A tool for exporting in JSON the historical data of a symbol from B
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/5c/7bd52093da7f2e0daabd20e34022f936190115a641745a49c75ffb4a091f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

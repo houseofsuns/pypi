@@ -15,7 +15,7 @@ DESCRIPTION="Simple AWS RDS dev tools."
 
 HOMEPAGE="https://github.com/MacHu-GWU/simple_aws_rds-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/28/3c/9b26d1b6c4e11691e2708abf5666930d9a73754f5f65c9749c016af25087/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Adds object permissions to Django."
 
 HOMEPAGE="https://django-object-safety-docs.readthedocs.io/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/5a/19cab52a63226a5ec8bb86bab7845ff4e5d35138289aabf51d8919814f74/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

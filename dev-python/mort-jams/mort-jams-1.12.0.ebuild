@@ -15,7 +15,7 @@ DESCRIPTION="cats and stuff"
 
 HOMEPAGE="https://github.com/justindujardin/mort_jams"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/e0/0d2af381e092431b9e59c545ee13f022b592b3dfa02955d19076a9aaa919/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

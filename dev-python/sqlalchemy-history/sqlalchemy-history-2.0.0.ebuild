@@ -15,7 +15,7 @@ DESCRIPTION="History tracking extension for SQLAlchemy."
 
 HOMEPAGE="https://github.com/corridor/sqlalchemy-history"
 LICENSE="Apache-2.0, BSD-3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/0c/dd/eea5da728e282f458fd0da7381da0a9846141f2bbdd529089e56f1f27019/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

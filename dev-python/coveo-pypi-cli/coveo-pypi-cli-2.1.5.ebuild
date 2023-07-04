@@ -15,7 +15,7 @@ DESCRIPTION="Query and compute pypi versions from command line."
 
 HOMEPAGE="https://github.com/coveooss/coveo-python-oss/tree/main/coveo-pypi-cli"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4c/6b/cc1a32464ead91b7eacadbac56fbfb12b47e523ec70b4b6770b792146e55/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

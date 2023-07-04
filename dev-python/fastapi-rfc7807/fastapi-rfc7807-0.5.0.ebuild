@@ -15,7 +15,7 @@ DESCRIPTION="FastAPI middleware for RFC-7807 compliant error responses"
 
 HOMEPAGE="https://github.com/vapor-ware/fastapi-rfc7807"
 LICENSE="GNU General Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/59/fe/32f5420a370bb8e6f09cf89e20d0153ddd7bbdb831c6257c3cd61d985f7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

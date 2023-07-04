@@ -15,7 +15,7 @@ DESCRIPTION="Tools for tokenizer develope and evaluation"
 
 HOMEPAGE="https://github.com/howlandersonn/tokenizer_tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/ec/56971a0b4adb6286713ab6dc85792d87dafd544e58367e678f6baaf49f2f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

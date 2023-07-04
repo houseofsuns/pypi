@@ -15,7 +15,7 @@ DESCRIPTION="Tools for processing FIBSEM datasets"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/e0/f1e6f889fb1ae7ce272354a32f38424e5280f5f60824f839f9e5666d9cde/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

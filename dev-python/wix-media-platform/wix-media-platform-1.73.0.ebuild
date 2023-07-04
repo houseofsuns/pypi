@@ -15,7 +15,7 @@ DESCRIPTION="Wix Media Platform python SDK"
 
 HOMEPAGE="https://github.com/wix/media-platform-python-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/ab/61f92f5bc7a8ad77b5c54e114365f362a4960b65a2b53080f932f3cde0f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

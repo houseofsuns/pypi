@@ -15,7 +15,7 @@ DESCRIPTION="Pydantic to fastapi model converter."
 
 HOMEPAGE="https://github.com/dotX12/pyfa-converter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/65/3f9bdbde45386aa8c56845f6c4820c3db67d4be50c0eafaee7870cf5b0cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

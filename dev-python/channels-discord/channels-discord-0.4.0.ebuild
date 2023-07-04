@@ -15,7 +15,7 @@ DESCRIPTION="Interface server connecting Django's channels and Discord"
 
 HOMEPAGE="https://github.com/AdvocatesInc/django-channels-discord"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/7f/cdd425332afa9f85628f22d62f9ccde97700f8aca0f9b34c727615cd68af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

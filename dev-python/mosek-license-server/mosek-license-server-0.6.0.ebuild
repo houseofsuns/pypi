@@ -15,7 +15,7 @@ DESCRIPTION="Expose a mosek license via a nginx server"
 
 HOMEPAGE="https://github.com/tschm/mosek-license-server"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ec/54/aee7158b30ed878cb2b9c2e853853e287ada950a9f3428ca31ff781a1131/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

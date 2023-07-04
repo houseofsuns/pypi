@@ -15,7 +15,7 @@ DESCRIPTION="Sphinx documentation audEERING theme"
 
 HOMEPAGE="https://github.com/audeering/sphinx-audeering-theme/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/72/6743ce0ffe8dafc477b77bf7361718d89ec2f0a55c2a6238896c699c0cce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

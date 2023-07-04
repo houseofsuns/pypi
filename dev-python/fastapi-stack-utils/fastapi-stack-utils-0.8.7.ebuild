@@ -15,7 +15,7 @@ DESCRIPTION="Utils to extend the FastAPI with logging and exception handlers"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/ac/cc9cc1cab18eb9c5bf979a71f3ff18a2ca252d8dfb088acc69cb73c26164/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

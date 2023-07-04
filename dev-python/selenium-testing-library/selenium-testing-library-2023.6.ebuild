@@ -15,7 +15,7 @@ DESCRIPTION="A Python Selenium library inspired by the Testing Library"
 
 HOMEPAGE="https://github.com/anze3db/selenium-testing-library"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/f7/12b8f47c24ecaa098cdcb6bccee166f1cfa9133eb2d08226a25068b78630/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

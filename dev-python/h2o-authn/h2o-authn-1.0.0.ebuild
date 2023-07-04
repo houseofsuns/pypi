@@ -15,7 +15,7 @@ DESCRIPTION="H2O Python Clients Authentication Helpers"
 
 HOMEPAGE="https://github.com/h2oai/authn-py"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/de/1e/9fc7671a2081d10092cc8bfb16f123e90eb4f6bbb8477a1df34cd79aaf11/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

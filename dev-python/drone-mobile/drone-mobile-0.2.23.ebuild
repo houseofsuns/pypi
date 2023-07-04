@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for the DroneMobile API for Firstech/Compustar remot
 
 HOMEPAGE="https://github.com/bjhiltbrand/drone_mobile_python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/82/2a91961519f50bef284094eb45c744c839dbb0f87a0dafcc182c7fcbff72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

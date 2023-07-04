@@ -15,7 +15,7 @@ DESCRIPTION="Utilities for dealing with byte strings, invented and maintained by
 
 HOMEPAGE="https://github.com/Yelp/yelp_bytes"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c6/cf/60496e026e9413df5aa24093903c755a628fa7737b0f585cc6153698f4e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

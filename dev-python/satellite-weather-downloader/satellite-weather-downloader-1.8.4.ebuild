@@ -15,7 +15,7 @@ DESCRIPTION="The modules available in this package are designed to capture and p
 
 HOMEPAGE="https://github.com/osl-incubator/satellite-weather-downloader"
 LICENSE="GNU GPL v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/4c/8c/2b0bd48fc0996f22989f9a51a8d8a24013a3bad492c088905e58a10c2c0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

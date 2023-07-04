@@ -15,7 +15,7 @@ DESCRIPTION="Parser for SensorPush BLE devices"
 
 HOMEPAGE="https://github.com/bluetooth-devices/sensorpush-ble"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ed/5e/972bc3f2bb1c651af763c57936bf248c274595ef2ae4b09c7aa6da6500eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

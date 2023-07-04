@@ -15,7 +15,7 @@ DESCRIPTION="half_orm packager."
 
 HOMEPAGE="https://github.com/collorg/halfORM_packager"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/db/62/8a6144a6d0f56c26ffec9b69c4a9770b19190ba39f7d25a391f834ffa9bb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

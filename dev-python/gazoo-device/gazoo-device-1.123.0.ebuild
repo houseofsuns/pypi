@@ -15,7 +15,7 @@ DESCRIPTION="Gazoo Device Manager"
 
 HOMEPAGE="https://github.com/google/gazoo-device"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/be/0c/7e3afb7eccd2455e017b7e9523374ddbf750cfbb404742385e2f435a586b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Django tool for instrumenting"
 
 HOMEPAGE="https://github.com/Talk-Point/shopcloud-django-authenticator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/2c/2f04a65d6abb13ca081e6b6f37247ad96a58b41fab46bac2ceedc6614507/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Cache for FastAPI"
 
 HOMEPAGE="https://github.com/long2ice/fastapi-cache"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/98/a3/009315aa93cff6e45b01b435d67c354396ce48b936a3ca19d53ab517d73c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Mixin inlines and fieldsets in Django admin."
 
 HOMEPAGE="https://github.com/robertkovac/django-fieldsets-with-inlines"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1c/71/d4c5e0ac11afd144e4842598c706901dc5d66a62ab37f8a9c87b6b410c40/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

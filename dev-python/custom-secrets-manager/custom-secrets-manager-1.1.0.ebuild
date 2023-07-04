@@ -15,7 +15,7 @@ DESCRIPTION="A utility for managing secrets and API keys"
 
 HOMEPAGE="https://github.com/vvid643/custom_secrets_manager"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d8/6a/6962992a9ac5ed2267efa541a341c9103a8a7c05de73b4534486554bc690/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

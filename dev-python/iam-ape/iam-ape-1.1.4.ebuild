@@ -15,7 +15,7 @@ DESCRIPTION="IAM AWS Permissions Evaluator"
 
 HOMEPAGE="https://github.com/orcasecurity/orca-toolbox/raw/main/iam-ape/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/95/05/62868569c300b9a9effb7e34ef4db6d3026062dc7e3b94655b75d5168afb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

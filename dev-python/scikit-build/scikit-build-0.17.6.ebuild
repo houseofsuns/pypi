@@ -15,7 +15,7 @@ DESCRIPTION="Improved build system generator for Python C/C++/Fortran/Cython ext
 
 HOMEPAGE="https://github.com/scikit-build/scikit-build"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/85/05/dc8f28b19f3f06b8a157a47f01f395444f0bae234c4d44674453fa7eeae3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

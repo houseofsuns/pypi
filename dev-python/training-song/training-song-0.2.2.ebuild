@@ -15,7 +15,7 @@ DESCRIPTION="Audio Motivation for Data Scientists and ML Engineers"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/2a/970d81b55512a6d1611bcc759b7821b48d50f59eb47bd51f9c04e06ff7ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

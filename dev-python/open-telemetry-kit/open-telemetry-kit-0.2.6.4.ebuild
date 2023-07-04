@@ -15,7 +15,7 @@ DESCRIPTION="Open source package for extracting and parsing telemetry associated
 
 HOMEPAGE="https://github.com/Hivemapper/open-telemetry-kit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/09/d6d904a117bce649fd709bec4688cb81046b4db3438331d22ac8271f8dac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Teach Python lists with a BlinkStick LED strip."
 
 HOMEPAGE="https://github.com/connorff/led-list"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d6/d2/913545d058e078e1c45b3db11152ba0a3081e3a9854c9a417091b2be0732/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

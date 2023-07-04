@@ -15,7 +15,7 @@ DESCRIPTION="Custom distro for OpenTelemetry to connect to SolarWinds"
 
 HOMEPAGE="https://www.appoptics.com/monitor/python-performance"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/12/758e5a583d7edc8bce7039339b92d44562760900b9417c52234bd3268472/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

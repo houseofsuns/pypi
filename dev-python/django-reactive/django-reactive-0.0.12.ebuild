@@ -15,7 +15,7 @@ DESCRIPTION="Django JSON form field on steroids"
 
 HOMEPAGE="https://github.com/tyomo4ka/django-reactive"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/71/9bd9cedef01cf2d179f1da78f873a0572b260f46bd7a7ee504eaf77cb4be/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

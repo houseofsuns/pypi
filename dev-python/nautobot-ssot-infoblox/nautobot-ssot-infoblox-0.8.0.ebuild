@@ -15,7 +15,7 @@ DESCRIPTION="Nautobot SSoT Infoblox"
 
 HOMEPAGE="https://github.com/networktocode-llc/nautobot-plugin-ssot-infoblox"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bb/6a/644852851d7c325576f66bed5a99ae8e4cb4ba4304f69b31ab486cd1f656/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

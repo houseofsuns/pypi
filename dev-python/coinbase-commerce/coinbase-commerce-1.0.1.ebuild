@@ -15,7 +15,7 @@ DESCRIPTION="Coinbase Commerce API client library"
 
 HOMEPAGE="https://github.com/coinbase/coinbase-commerce-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ac/52/c99505a81df698a8c7dd992038198af75f726c81f2f9a09f4cc141099039/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

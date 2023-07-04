@@ -15,7 +15,7 @@ DESCRIPTION="Pygments theme using JupyterLab CSS variables"
 
 HOMEPAGE="https://github.com/jupyterlab/jupyterlab_pygments"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/69/8e/8ae01f052013ee578b297499d16fcfafb892927d8e41c1a0054d2f99a569/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

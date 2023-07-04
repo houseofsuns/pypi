@@ -15,7 +15,7 @@ DESCRIPTION="pytest plugin for providing variables to tests/fixtures"
 
 HOMEPAGE="https://github.com/pytest-dev/pytest-variables"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/85/ed733ee0ee9ff879512d44a54b2966eae94862c1f5ce1bc2535f74910ef3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

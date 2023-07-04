@@ -15,7 +15,7 @@ DESCRIPTION="WSGI Middleware for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-wsgi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/9d/dba2f2f05ac042e03836c2a404d8685d66798eec0b707d4e29bad0ceb796/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

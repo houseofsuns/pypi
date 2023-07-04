@@ -15,7 +15,7 @@ DESCRIPTION="SQLAlchemy driver for duckdb"
 
 HOMEPAGE="https://github.com/Mause/duckdb_engine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/1b/fe0ee27fc21f21ecccfabcecc40778527d5d0abb95d705facd78a9bead27/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

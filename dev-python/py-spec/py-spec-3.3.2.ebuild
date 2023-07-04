@@ -15,7 +15,7 @@ DESCRIPTION="SPEC(Stepped-Pressure Equilibrium Code) python utilities"
 
 HOMEPAGE="https://princetonuniversity.github.io/SPEC/"
 LICENSE="GNU 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/06/ef/ed591570b15f0453610c48915b8515704eb24041e511a1d3ca6bec79ec65/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

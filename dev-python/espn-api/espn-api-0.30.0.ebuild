@@ -15,7 +15,7 @@ DESCRIPTION="ESPN API"
 
 HOMEPAGE="https://github.com/cwendt94/espn-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/aa/3546d3cada2ea418ba939309cba9d1a8f08127f223e01ad229665b1e1a5f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

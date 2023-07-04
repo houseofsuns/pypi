@@ -15,7 +15,7 @@ DESCRIPTION="Records/Replays GUI actions"
 
 HOMEPAGE="https://github.com/beuaaa/pywinauto_recorder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/59/c231bbeb1ff3a3b7664bb48ea6dc6df0c962e71557cd5a9f636947ca4b12/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

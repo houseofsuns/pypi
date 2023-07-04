@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://kraken-build.github.io/kraken-build/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/05/62c2715e65b7925f6d964ef499038633e9dd915df173cbdd72ff2cd62936/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

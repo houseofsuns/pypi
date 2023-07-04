@@ -15,7 +15,7 @@ DESCRIPTION="PandaUtils includes multiple tools for basic Panda3D automation"
 
 HOMEPAGE="https://github.com/toontown-event-horizon/panda-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/04/47/99d7a013b39165ae9b4842a62c14eecf3f190862b2a0130d32d1421de81d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

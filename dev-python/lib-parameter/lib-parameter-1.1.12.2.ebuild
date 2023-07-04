@@ -15,7 +15,7 @@ DESCRIPTION="small gist,to return a default value if the parameter is None"
 
 HOMEPAGE="https://github.com/bitranox/lib_parameter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/96/1b03e916004cfdcbe85f8b94bcad072cf0b11b697decfd013d0f91fa7dac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

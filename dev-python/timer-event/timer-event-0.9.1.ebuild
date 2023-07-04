@@ -15,7 +15,7 @@ DESCRIPTION="The package offers thread-safe classes for event-driven programming
 
 HOMEPAGE="https://github.com/erolyesin/timer_event"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/36/16/c4746ab83746952f6fc2233c8a44fd016f0aab9877c4e2ee6e61dd766f2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

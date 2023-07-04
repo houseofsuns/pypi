@@ -15,7 +15,7 @@ DESCRIPTION="This is an open source decentralized application network. In this n
 
 HOMEPAGE="https://github.com/Decentra-Network/Decentra-Network"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/13/06/60d9584003091637fcdf3c4d8d8951363be558d1287db111e1e908466204/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

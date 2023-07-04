@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing grafana."
 
 HOMEPAGE="https://www.pulumi.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e2/5f/8edb4c529decaf0c43fae17eaa1269301a3d542ebe64e890b79508cf3c30/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

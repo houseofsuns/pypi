@@ -15,7 +15,7 @@ DESCRIPTION="修仙"
 
 HOMEPAGE="https://github.com/luoyefufeng/nonebot_plugin_simulator_xiuxian"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/26/bb022e72f1ee61318b11c9649ce17e7ab5dece75ded0ae42518d4740fd51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

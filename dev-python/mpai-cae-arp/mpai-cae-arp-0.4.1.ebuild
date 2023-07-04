@@ -15,7 +15,7 @@ DESCRIPTION="The MPAI CAE-ARP software API"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/4d/258139e7aae017b61a7dffcc6d18e4d51ca5450d63cd4966a1710a2cfe79/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

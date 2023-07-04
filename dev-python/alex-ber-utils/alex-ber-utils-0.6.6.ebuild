@@ -15,7 +15,7 @@ DESCRIPTION="AlexBerUtils is collection of the small utilities"
 
 HOMEPAGE="https://github.com/alex-ber/AlexBerUtils"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1e/7f/0ad16bd3d077a14b0288d8aeb7e653bd3401fc4d45cfe364ec600fc6aed4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

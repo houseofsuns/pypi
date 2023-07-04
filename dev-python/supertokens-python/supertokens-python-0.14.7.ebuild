@@ -15,7 +15,7 @@ DESCRIPTION="SuperTokens SDK for Python"
 
 HOMEPAGE="https://github.com/supertokens/supertokens-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ee/0f/7ecfdce870505bd1097a662c4c0716d79731eb280124bc005dffdb666007/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

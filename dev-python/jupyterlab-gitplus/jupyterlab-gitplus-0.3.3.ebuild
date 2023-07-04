@@ -15,7 +15,7 @@ DESCRIPTION="JupyterLab extension to create GitHub pull requests"
 
 HOMEPAGE="https://github.com/ReviewNB/jupyterlab-gitplus"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/85/eca1316195d04215948e50a7522f6c1d00ac087fd2d3cc6a8b82e8208a50/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

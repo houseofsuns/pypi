@@ -15,7 +15,7 @@ DESCRIPTION="The Boost::Histogram Python wrapper."
 
 HOMEPAGE="https://github.com/scikit-hep/boost-histogram"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/de/1a/e55f7c104168e2c28ce52a3a68b06d8e26c7d3ae66cab87d6b559034e124/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

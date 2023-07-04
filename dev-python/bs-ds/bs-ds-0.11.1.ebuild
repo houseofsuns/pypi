@@ -15,7 +15,7 @@ DESCRIPTION="A collection of tools from bootcamp."
 
 HOMEPAGE="https://github.com/jirvingphd/bs_ds"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/b2/9c/fb3748c45865a39d073e512722799d583feb3c241e25797a4e2b7d3ac357/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

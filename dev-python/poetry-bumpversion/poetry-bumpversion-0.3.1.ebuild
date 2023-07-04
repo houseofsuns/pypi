@@ -15,7 +15,7 @@ DESCRIPTION="Poetry plugin to update __version__ in __init__ file and other file
 
 HOMEPAGE="https://github.com/monim67/poetry-bumpversion"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/9a/6cf5ee2d7d6deb7d7828bcc9369b9ae174f71a4ed9bc49b7a31b3297a4a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

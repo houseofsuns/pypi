@@ -15,7 +15,7 @@ DESCRIPTION="The official colors of FAU as matplotlib/seaborn colormaps"
 
 HOMEPAGE="https://github.com/mad-lab-fau/fau_colors"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/33/17e1f3d0d2ad096b9d3b1724670f1653e60f76b33280518fe0c3b38ec1c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

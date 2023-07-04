@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper interfaces to interact with Backend to/from Gateway API."
 
 HOMEPAGE="https://github.com/wirepas/backend-apis/tree/master/gateway_to_backend"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/31/be/f398e72808a0f78247677d7b922f44df6452142accb9ae9b0faa266f9d24/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

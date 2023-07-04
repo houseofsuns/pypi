@@ -15,7 +15,7 @@ DESCRIPTION="Upload Python package to PyPI (demo)"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/55/a8cc6739404fb90a937734b8db8fdbfc2ddba4d3fb745ad5150a5a7d96b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

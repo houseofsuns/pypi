@@ -15,7 +15,7 @@ DESCRIPTION="single docking and multiple docking using a python code"
 
 HOMEPAGE="https://github.com/TharinduLab/Multiple_Docking.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/20/7f7be2248a71a3bd8c37e566b0cfd84c7842a1a8cb47c24385cc495745d6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

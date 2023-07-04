@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper around pyjwt"
 
 HOMEPAGE="https://github.com/bad-microservices/py_auth_micro"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/d0/97c63415584c5046497a309c23827f35ed35f28b6ef911db536c5482e507/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

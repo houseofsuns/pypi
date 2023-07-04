@@ -15,7 +15,7 @@ DESCRIPTION="Parser for Mopeka bluetooth tank sensors"
 
 HOMEPAGE="https://github.com/lekobob/mopeka-ble"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/da/932cb054d25392354200a7c2b923f31b548863407b5231b09b0ea420f4b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

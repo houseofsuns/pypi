@@ -15,7 +15,7 @@ DESCRIPTION="BioSimulators-compliant command-line interface to the BioNetGen sim
 
 HOMEPAGE="https://github.com/biosimulators/Biosimulators_BioNetGen"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/99/2a0be8f4dd25cfb6c070b21dea224fd1e0b6923fe179b121b7133fbf4ef6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

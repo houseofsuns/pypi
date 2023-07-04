@@ -15,7 +15,7 @@ DESCRIPTION="Prometheus metrics collector and exporter for RLM (Reprise License 
 
 HOMEPAGE="https://pypi.org/project/rlm-prometheus/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/84/24/7073ca4cd7cdac0051a7cb8c34bf49316bf22d63485f9f8d2e595a35d4e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

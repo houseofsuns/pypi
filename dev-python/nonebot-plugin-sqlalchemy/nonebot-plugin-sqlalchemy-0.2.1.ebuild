@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/ssttkkl/nonebot-plugin-sqlalchemy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/32/31/3da0094c661f82025bdd6a3b9b8c2a0a33f70ec25ea0ccfc1678bea7f160/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

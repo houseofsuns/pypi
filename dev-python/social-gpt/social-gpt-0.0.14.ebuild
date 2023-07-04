@@ -15,7 +15,7 @@ DESCRIPTION="Social gpt"
 
 HOMEPAGE="https://github.com/topmate-io/social_gpt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3e/d3/04bc7dd122150c38c9302a9116d876003b4a1037c45743023ae60b2b9ec9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

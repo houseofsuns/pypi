@@ -15,7 +15,7 @@ DESCRIPTION="A Django authentication backend for Microsoft ADFS and AzureAD"
 
 HOMEPAGE="https://github.com/snok/django-auth-adfs"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/32/20/4b127cc754da40fb48b61cfc265414fa6d0db3e0a6fded875fe826c559c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

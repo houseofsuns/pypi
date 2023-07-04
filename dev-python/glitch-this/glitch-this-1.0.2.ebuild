@@ -15,7 +15,7 @@ DESCRIPTION="A package to glitch images and GIFs, with highly customizable optio
 
 HOMEPAGE="https://github.com/TotallyNotChase/Glitch-and-Gif"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/51/e89f51f01420ea612f2a460aa4b9cd8d3b8316aacaeb811010c9e5de7f60/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

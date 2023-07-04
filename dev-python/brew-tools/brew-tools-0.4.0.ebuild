@@ -15,7 +15,7 @@ DESCRIPTION="Commandline tools for the homebrewer"
 
 HOMEPAGE="https://github.com/Svenito/brew-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/0a/57327e714b1422654a6e6ea3f20dac983bed317f6dbcf16b6385034221b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

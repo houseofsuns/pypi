@@ -15,7 +15,7 @@ DESCRIPTION="AiiDA is a workflow manager for computational science with a strong
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/af/dc/e4d86cb606a12acc10e5afb1c93a0b288def3ff5d60f3e7d12a7989a3d62/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

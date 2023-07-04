@@ -15,7 +15,7 @@ DESCRIPTION="A NLP package for Portuguese Lemmatization."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cb/07/26a7569d9e5d97f22fb551567d10daa97545a15538945c9892433ba3ab84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

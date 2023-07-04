@@ -15,7 +15,7 @@ DESCRIPTION="Utilities built upon the langchain library"
 
 HOMEPAGE="https://github.com/tddschn/langchain-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a4/49/57b10c5749178d35aecd993812f01cfcd60e9f69017333f63403f89ddaa1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

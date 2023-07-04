@@ -15,7 +15,7 @@ DESCRIPTION="OpenStack Image Service Store Library"
 
 HOMEPAGE="https://docs.openstack.org/glance_store/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fe/bb/e184f2dc646845fa574532587c57a30defd0cb3d7fa02be3f8850532301a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

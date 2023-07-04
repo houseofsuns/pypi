@@ -15,7 +15,7 @@ DESCRIPTION="Package for recieving messages from Kafka in Robot Framework."
 
 HOMEPAGE=""
 LICENSE="2.3.2"
-SRC_URI="https://files.pythonhosted.org/packages/35/53/8235ef60d30e2205895992db6ee45873a78562e1d5c339909032fb5b4e43/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

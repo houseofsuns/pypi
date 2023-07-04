@@ -15,7 +15,7 @@ DESCRIPTION="JSON API tools for Flask"
 
 HOMEPAGE="https://github.com/kolypto/py-flask-jsontools"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/49/ab/e02ef879438d6cd57828f7c9c720455580567973b80a76ef70cf3a1bd0da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

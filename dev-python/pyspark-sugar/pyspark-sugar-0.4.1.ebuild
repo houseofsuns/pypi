@@ -15,7 +15,7 @@ DESCRIPTION="SparkUI enchancements with pyspark"
 
 HOMEPAGE="https://github.com/sashgorokhov/pyspark-sugar"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/07/e120c8b32926f958b5d36e67a97e83580a30cfc2cc68c0dadb9528604e18/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

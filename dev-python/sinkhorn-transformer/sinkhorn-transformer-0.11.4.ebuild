@@ -15,7 +15,7 @@ DESCRIPTION="Sinkhorn Transformer - Sparse Sinkhorn Attention"
 
 HOMEPAGE="https://github.com/lucidrains/sinkhorn-transformer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/7c/55333b4a92d6276cb2a2056f070771fb60885a10b7e29169c0fba2e4434d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

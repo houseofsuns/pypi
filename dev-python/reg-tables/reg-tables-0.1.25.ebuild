@@ -15,7 +15,7 @@ DESCRIPTION="A simple linearmodels extension to run panel regressions with diffe
 
 HOMEPAGE="https://www.abarbon.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/75/c8/6ca68c27f2e05bd0d5efa4c74972d7d51b6854ce7852144eaa5102aa290f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Arrow -> JSON encoder"
 
 HOMEPAGE="https://github.com/adriangb/pgpq"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1b/9d/06ae3d611f1685fe0262058f9337c0df0ea9152407319a53d3949886b087/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An abstract singleton class."
 
 HOMEPAGE="https://github.com/BillSchumacher/Abstract-Singleton"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/8e/b15f21da973bd2d81731a8a12f0b112d1514801efdc40a0db2999d6e9cf7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

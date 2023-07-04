@@ -15,7 +15,7 @@ DESCRIPTION="Clone of simstring designed to work with QuickUMLS. Original versio
 
 HOMEPAGE="https://github.com/Georgetown-IR-Lab/simstring"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0f/1b/3ff664369b713936a0f9282cbbd8ce7289f0b14d34971250a504485684a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tools to run asyncio tasks concurrently."
 
 HOMEPAGE="https://github.com/gpajot/asyncio-concurrent-tasks"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9b/0c/41506b36f35ae74d3e671ac9f19419ce185bb70f7e0f8e6ca411541f1542/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="OpenAPI-generated Python client"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7c/ff/635f0e0cfe061b6969ef5811120ff6cd2715e3e299798a9a4ac78c509f14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

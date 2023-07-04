@@ -15,7 +15,7 @@ DESCRIPTION="A python package to execute security tests on remote and local host
 
 HOMEPAGE="https://atomic-operator.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/7b/34ae3644063c97ccddb5c22aec7fca821408f611af5bef0bda156ee0f490/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

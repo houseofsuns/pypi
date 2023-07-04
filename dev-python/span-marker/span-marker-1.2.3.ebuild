@@ -15,7 +15,7 @@ DESCRIPTION="Named Entity Recognition using Span Markers"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/cd/ddff860eae4ee8be8069f20ff8bc4f6df7b8db516b485155ead4d5d338f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

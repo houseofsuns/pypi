@@ -15,7 +15,7 @@ DESCRIPTION="Python package to estimate the enabled time, enabling activity, and
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/e4/6d3e2dcc51d7517c7c1839e61dc47d6c39e74b9518d4ee7773ef2eda1d4f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

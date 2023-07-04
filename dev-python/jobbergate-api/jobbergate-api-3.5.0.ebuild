@@ -15,7 +15,7 @@ DESCRIPTION="Jobbergate API"
 
 HOMEPAGE="https://github.com/omnivector-solutions/jobbergate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/68/5ff9e8036c1c6fcdc20de39d6fd11450c05972ed05ad80f92b0b244fc610/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

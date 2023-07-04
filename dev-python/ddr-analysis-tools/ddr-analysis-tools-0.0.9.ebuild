@@ -15,7 +15,7 @@ DESCRIPTION="Package for data analysis tools"
 
 HOMEPAGE="https://github.com/ddrathod121294/ddr_analysis_tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/ab/4ec7a53d2b0f217e850e03094f5e6a1d26d3be703297c0eff05a522fc32e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

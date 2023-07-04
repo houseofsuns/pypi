@@ -15,7 +15,7 @@ DESCRIPTION="Connect Sphinx-Needs to EMF models."
 
 HOMEPAGE="http://github.com/useblocks/sphinx-emf"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/15/5b88d76a6beb0ec29dea75e8bd2c9f41ad509f6b9e9e7f17f45fd0a85edd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

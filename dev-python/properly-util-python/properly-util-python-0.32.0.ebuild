@@ -15,7 +15,7 @@ DESCRIPTION="Utility and helper functions for common Properly operations in pyth
 
 HOMEPAGE="https://github.com/GoProperly/properly-util-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/38/c7/e55a2487816454319e956f6c62455e91fbdd5967a95b97c58d142cb407e7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

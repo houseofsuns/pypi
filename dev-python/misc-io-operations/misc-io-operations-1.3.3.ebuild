@@ -15,7 +15,7 @@ DESCRIPTION="Simplification of daily input/output operations"
 
 HOMEPAGE="https://github.com/GamerXZEN/misc_io_operations"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/14/75f84ac00906a699fc3d18fe493c594d2da806a646f09c49f0735830a68b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

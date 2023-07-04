@@ -15,7 +15,7 @@ DESCRIPTION="Ranger - a synergistic optimizer using RAdam (Rectified Adam) and L
 
 HOMEPAGE="https://github.com/mpariente/Ranger-Deep-Learning-Optimizer"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bb/32/9269ee5981995e760c3bf51d6cf7f84a2ce051eca2315753910585bce50d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

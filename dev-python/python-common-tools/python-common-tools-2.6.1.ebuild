@@ -15,7 +15,7 @@ DESCRIPTION="python common tools"
 
 HOMEPAGE="https://github.com/CheungChan/python_common_tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/1e/06fc70ae4f68fe020b8ab311ec70e0a410fb688b14681977d3a44ed977ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

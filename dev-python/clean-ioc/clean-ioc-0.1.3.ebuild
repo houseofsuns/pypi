@@ -15,7 +15,7 @@ DESCRIPTION="An IOC Container for Python 3.10+"
 
 HOMEPAGE="https://github.com/peter-daly/clean_ioc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/10/ae9fb05376b52e5bf8d870dd0e6e895cf47ff6034b0a21a45717dfdb18c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A python client for Syncurity IR-Flow"
 
 HOMEPAGE="https://syncurity.net"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ce/8d/655b7788d6106e14c69cdd126d0776180c041a4e04261a07bef2e4d156ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

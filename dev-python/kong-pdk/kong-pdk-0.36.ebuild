@@ -15,7 +15,7 @@ DESCRIPTION="Kong PDK for Python and Plugin Server"
 
 HOMEPAGE="https://github.com/Kong/kong-python-pdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/03/3f/4deb10b341bf5551422493fce3c646c2cb8d58e4d218f2974d32f1343266/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

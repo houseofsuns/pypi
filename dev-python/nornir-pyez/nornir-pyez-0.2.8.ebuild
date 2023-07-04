@@ -15,7 +15,7 @@ DESCRIPTION="PyEZ Plugin for Nornir"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5d/79/41e2c41eb14201fc55918f4b1f8e89ba286f37eadc8de1dcccbbcfac374d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

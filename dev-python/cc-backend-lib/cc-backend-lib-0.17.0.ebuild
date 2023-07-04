@@ -15,7 +15,7 @@ DESCRIPTION="A library with classes and types used througout the backend for Con
 
 HOMEPAGE="https://www.github.com/prio-data/cc_backend_lib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/aa/7e/7dc74dd6786e90e41a35915fb512a763d9e1fde5fda68fbbb682708833c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A tool for controlling USB HID relays"
 
 HOMEPAGE="https://github.com/JPEWdev/pyhid-usb-relay"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/61/69d25a7d9d90a18e4a4de5fdb7fe42c864a7b5204ddf0c3ddfbc57cf6d2d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

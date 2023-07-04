@@ -15,7 +15,7 @@ DESCRIPTION="FastAPI without reliance on CDNs for docs"
 
 HOMEPAGE="https://github.com/turettn/fastapi_offline"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/83/2f/ca78208f99e06918b707333e0625c7485bea8be52ea1d057a08b0094b7d6/${REALNAME//-/_}-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.linux-x86_64.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 

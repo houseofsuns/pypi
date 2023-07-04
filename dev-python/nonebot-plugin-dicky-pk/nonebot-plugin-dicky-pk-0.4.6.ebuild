@@ -15,7 +15,7 @@ DESCRIPTION="Dicky-PK in NoneBot2"
 
 HOMEPAGE="https://github.com/tkgs0/nonebot-plugin-dicky-pk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/68/018b83a3da260b24e079b32af1e190388e1ae05c7f7fa4838cff42fa788a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

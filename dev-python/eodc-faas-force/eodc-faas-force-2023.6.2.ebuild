@@ -15,7 +15,7 @@ DESCRIPTION="Bindings for the FORCE processor exposed at EODC"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/40/0c5cdb23d0dad8662029978775949871c0ac0ff4bad0f7e1fa2a7158cba1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Huntflow API Client for Python"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/18/b1/410d015cb580e5c88abd81f2ff6e1eca3f1f20c518d8e236c2f5070c4599/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

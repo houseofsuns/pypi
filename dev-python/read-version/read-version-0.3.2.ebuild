@@ -15,7 +15,7 @@ DESCRIPTION="Extract your project's __version__ variable"
 
 HOMEPAGE="https://github.com/jwodder/read_version"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/2f/e6ed7dd2e34706b7b04f08204f425ea16deb949f4374e5e445fd20a7702f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

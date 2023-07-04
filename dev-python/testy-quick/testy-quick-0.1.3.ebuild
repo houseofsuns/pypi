@@ -15,7 +15,7 @@ DESCRIPTION="For quickly setting up unit tests"
 
 HOMEPAGE=""
 LICENSE="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/19/78/624f068ebda38533952b073a1aca1eeba45d281202b8fcdd107a0f8fcba2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

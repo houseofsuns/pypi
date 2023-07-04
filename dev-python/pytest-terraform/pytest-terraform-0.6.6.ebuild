@@ -15,7 +15,7 @@ DESCRIPTION="A pytest plugin for using terraform fixtures"
 
 HOMEPAGE="https://github.com/cloud-custodian/pytest-terraform"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/34/ca/8d2b3cef31cb35dc2f1a71f0630a1aa761b5c9324001ee508d9f1939c7df/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

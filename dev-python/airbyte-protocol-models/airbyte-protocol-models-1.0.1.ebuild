@@ -15,7 +15,7 @@ DESCRIPTION="Declares the Airbyte Protocol."
 
 HOMEPAGE="https://github.com/airbytehq/airbyte-protocol"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/76/d8cc8b0a6f4cba45b2bce02f280c5c3607faca5481c684879768e119b415/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

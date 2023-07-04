@@ -15,7 +15,7 @@ DESCRIPTION="Bluetooth library for Oral B devices"
 
 HOMEPAGE="https://github.com/Bluetooth-Devices/oralb-ble"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/6c/6f8e2af42b98d989f0eaa53fbee85aef66191584de6c34d63492f6ba22eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

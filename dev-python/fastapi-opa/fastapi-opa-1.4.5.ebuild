@@ -15,7 +15,7 @@ DESCRIPTION="Fastapi OPA middleware incl. auth flow."
 
 HOMEPAGE="https://github.com/busykoala/fastapi-opa"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/49/5a/461bc54dec8c70d43863e2950f8e85f56e087e1ce143d3b4da073115165d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

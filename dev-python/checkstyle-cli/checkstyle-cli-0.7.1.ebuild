@@ -15,7 +15,7 @@ DESCRIPTION="A command-line tool for checkstyle."
 
 HOMEPAGE="https://github.com/junghoon-vans/checkstyle-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f8/2e/0a5bd166571dba3cb1cc43b891182d10b544506a8dfb0451ce9ed8b3cb5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

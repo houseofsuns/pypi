@@ -15,7 +15,7 @@ DESCRIPTION="Poetry PEP 517 Build Backend"
 
 HOMEPAGE="https://github.com/python-poetry/poetry-core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/e8/e0a80cc355bc207fb1760160344e978f39d683c35e1230f71b8916bf3a50/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

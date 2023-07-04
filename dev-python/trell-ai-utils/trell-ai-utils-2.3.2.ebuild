@@ -15,7 +15,7 @@ DESCRIPTION="Trell Database connectors, slack alerter and loggers"
 
 HOMEPAGE="https://gitlab.com/trell/trell-ai-util"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/aa/56e9de9348521dcd8c82629feb502235cc4511b750c3bcca83869804725d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

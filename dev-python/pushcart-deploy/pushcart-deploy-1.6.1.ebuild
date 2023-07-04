@@ -15,7 +15,7 @@ DESCRIPTION="Deployment helper for pipeline configurations using Pushcart"
 
 HOMEPAGE=""
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/1b/66/3d6b687b0ec4a93ca0428088043111d74fa22a908b55868a73a9488eb4b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

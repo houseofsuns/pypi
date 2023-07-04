@@ -15,7 +15,7 @@ DESCRIPTION="Applovin Report APIs wrapper."
 
 HOMEPAGE="https://github.com/ikamedawn/applovin_report"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/37/67a7e226229f3ec19ea49cf56c038b38692830265cced99f567013697cc5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A collection of tools for commmon package scripts"
 
 HOMEPAGE="https://jolly-good-toolbelt.github.io/jgt_tools/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bf/c0/1ac75781879bb9adc446af871d31e07dded99d09784ddd706b1d1c6d9be9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

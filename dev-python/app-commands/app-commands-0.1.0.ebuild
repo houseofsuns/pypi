@@ -15,7 +15,7 @@ DESCRIPTION="CLI commands utility with ASGI lifespan and healthcheck support."
 
 HOMEPAGE="https://github.com/ryananguiano/app-commands"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/d4/5c7f03ba85c235fab64752637dc0623c08c87727cf57ed6b556263c11e21/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

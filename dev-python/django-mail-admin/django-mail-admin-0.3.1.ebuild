@@ -15,7 +15,7 @@ DESCRIPTION="The one and only django app to receive & send mail with templates a
 
 HOMEPAGE="https://github.com/delneg/django_mail_admin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/da/e43b6f42ca0965c473be3ebd1a9d07e7fd568025b8da9562224ff4ec9896/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

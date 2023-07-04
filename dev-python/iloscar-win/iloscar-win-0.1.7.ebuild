@@ -15,7 +15,7 @@ DESCRIPTION="iLOSCAR_win"
 
 HOMEPAGE="https://github.com/Shihan150/iloscar"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/e1/d9bc64c2b525f68742d41c2fbda2624f792dbc6e235380cbe9aed9121a16/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

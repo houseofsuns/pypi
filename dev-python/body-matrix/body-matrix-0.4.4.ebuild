@@ -15,7 +15,7 @@ DESCRIPTION="Package to Calculate Human Body Measurements"
 
 HOMEPAGE="https://github.com/akando42/body_matrix"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0c/5b/bffc41614532e7db70a7e4d23ad8308c9b6f22ad43414ebc8aa525cbd919/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

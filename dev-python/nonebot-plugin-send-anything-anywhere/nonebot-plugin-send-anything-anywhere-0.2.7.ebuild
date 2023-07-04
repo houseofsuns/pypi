@@ -15,7 +15,7 @@ DESCRIPTION="An adaptor for nonebot2 adaptors"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/c3/379de672b734a26f7f9cc28886c2b49a760e6dab848918b4ef307158ca52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

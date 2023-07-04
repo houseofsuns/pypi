@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry urllib instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-urllib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/18/f28fa0f0327e403b53c7a56f8081748be1ba2912e3b1bdce9714d6128a07/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

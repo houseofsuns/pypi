@@ -15,7 +15,7 @@ DESCRIPTION="A complete package for data ingestion into the Switch Automation Pl
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/92/2e92b738306bf6317822aa462d5751fc8d1fe7d470cb917c5fc9725a4bdf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

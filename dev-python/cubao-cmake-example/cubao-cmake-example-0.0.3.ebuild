@@ -15,7 +15,7 @@ DESCRIPTION="A test project using pybind11 and CMake"
 
 HOMEPAGE="https://cmake-example.readthedocs.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7d/55/d82899595aa79b41b645fb178202337ee5c38ce8fc688956770421eb8e5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Grab recent issue/PR activity from a GitHub repository and render i
 
 HOMEPAGE="https://jupyter.org/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4b/3b/82ccbc27ce0d697f957146f67ead9b7fd916d7784f37b70f7602e88385d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

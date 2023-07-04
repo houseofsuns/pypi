@@ -15,7 +15,7 @@ DESCRIPTION="Python package to consume SPEC SA and third-party apps"
 
 HOMEPAGE="https://gitlab.com/spec-sa-ar/spec-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/60/3113bbee0cf495427f8d3115a4363f42f23cc6aa54d35d863c66be40254d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

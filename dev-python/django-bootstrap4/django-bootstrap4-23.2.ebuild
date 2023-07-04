@@ -15,7 +15,7 @@ DESCRIPTION="Bootstrap 4 for Django"
 
 HOMEPAGE="https://github.com/zostera/django-bootstrap4"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/0b/e321c8fd8dd21bb91fde5e24d0c81aede8fcc3097f8930bcf2dfbc3a7343/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

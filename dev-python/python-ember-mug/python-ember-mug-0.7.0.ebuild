@@ -15,7 +15,7 @@ DESCRIPTION="Python Library for Ember Mugs."
 
 HOMEPAGE="https://github.com/sopelj/python-ember-mug"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/1c/68ca4fdfe5460ee81ee807e5376aba51bc28d404437181c70a0bf51ca3f4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

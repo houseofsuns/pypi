@@ -15,7 +15,7 @@ DESCRIPTION="An open-source NLP research library, built on PyTorch."
 
 HOMEPAGE="https://github.com/allenai/allennlp"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/13/7e/9c323ca0333aef7af94087cac9ea61255691341109dd28ba99053ce3cd46/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

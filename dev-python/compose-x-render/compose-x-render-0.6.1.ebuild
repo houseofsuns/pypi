@@ -15,7 +15,7 @@ DESCRIPTION="Library & Tool to compile/merge compose files with top level extens
 
 HOMEPAGE=""
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7d/db/270dc0130b88fc3bbdb1d7537c052e636750e4dfbd62dff18209e8405f82/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python CTP futures api"
 
 HOMEPAGE="https://github.com/haifengat/pyctp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/20/0a1d96959fe41c2fcb34f22bf07ac0b49e96b446cb002f01021703f907f8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

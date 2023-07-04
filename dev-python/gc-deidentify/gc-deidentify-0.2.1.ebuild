@@ -15,7 +15,7 @@ DESCRIPTION="Deidentification helpers for python and SQL"
 
 HOMEPAGE="https://github.com/genesiscare/python-packages"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7b/3a/61784b8fe6c05be5eceb06c62d15237a498a05e73c809f84623b1a8d077d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

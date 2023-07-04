@@ -15,7 +15,7 @@ DESCRIPTION="th2_data_services_lwdp"
 
 HOMEPAGE="https://github.com/th2-net/th2-ds-source-lwdp"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/49/80/e132a41ddf9cd44bf80262b63f60fbe4da7cc39f5e06d87294c7d2f92e01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

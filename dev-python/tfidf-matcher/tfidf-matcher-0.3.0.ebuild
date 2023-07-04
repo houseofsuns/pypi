@@ -15,7 +15,7 @@ DESCRIPTION="A small package that enables super-fast TF-IDF based string matchin
 
 HOMEPAGE="https://github.com/louistsiattalou/tfidf_matcher"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cc/cd/af378c05b1f199879f2deed7c31abc4175dad73052f08832a4b4752cdbf6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

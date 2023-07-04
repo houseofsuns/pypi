@@ -15,7 +15,7 @@ DESCRIPTION="New Shape Matching Technology"
 
 HOMEPAGE="https://boriskravtsov.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/76/ca2947d160162dbc4f34aef4d82cee26a9d257a9fd0e719430e85956453d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

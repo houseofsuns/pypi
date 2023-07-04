@@ -15,7 +15,7 @@ DESCRIPTION="Whist rules implementation"
 
 HOMEPAGE="https://github.com/Whist-Team/Whist-Core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/16/49f3715dc02ab1ddf4e842349642724e1c435ecdf4374c8a0a575fa822fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Setup tools for Lyncs and CMake support"
 
 HOMEPAGE="https://github.com/Lyncs-API/lyncs.setuptools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dc/27/6862bd4756bd1f5ab0af01a1e028cad654fccfdae794a25d9be7ab27f23e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

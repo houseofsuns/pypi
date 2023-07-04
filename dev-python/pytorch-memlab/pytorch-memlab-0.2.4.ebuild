@@ -15,7 +15,7 @@ DESCRIPTION="A lab to do simple and accurate memory experiments on pytorch"
 
 HOMEPAGE="https://github.com/Stonesjtu/pytorch_memlab"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/a9/0554fae8883b2a646720e0e1d84d1bdef57e90ee3c244686f589052c3e0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

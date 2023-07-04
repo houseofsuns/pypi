@@ -15,7 +15,7 @@ DESCRIPTION="execute with timeout"
 
 HOMEPAGE="https://github.com/phi-friday/timeout-executor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ec/5d/93531470db295d21bd142b7f6c33dbafecbf84af08c03f727c55ef4c318e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

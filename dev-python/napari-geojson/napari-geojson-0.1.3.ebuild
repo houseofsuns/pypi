@@ -15,7 +15,7 @@ DESCRIPTION="Read and write geojson files in napari"
 
 HOMEPAGE="https://github.com/tdmorello/napari-geojson"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/79/61/9c73b35ca5b8013962c5c0e37e9d8721c6787ce54c36a7d37b2335889479/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

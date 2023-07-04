@@ -15,7 +15,7 @@ DESCRIPTION="allow custom class json behavior on builtin json object"
 
 HOMEPAGE="https://github.com/jeff-hykin/json_fix.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/e4/b7a7ded06c49a885701e64c19fa026e90a4d710137226854cbaa1b780f92/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

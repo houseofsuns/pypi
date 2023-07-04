@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://hyko.ai"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e4/84/bc37f77f8974e8ead0959a573ddb177ba79da5cdb8a07b370d02324eb516/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

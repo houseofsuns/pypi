@@ -15,7 +15,7 @@ DESCRIPTION="A python library for interacting with a gogs server"
 
 HOMEPAGE="https://github.com/unfoldingWord-dev/python-gogs-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/cf/0f975c21094538da5128394a7cf8db18a18c4dc6b97104fbddf9f2b0d438/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

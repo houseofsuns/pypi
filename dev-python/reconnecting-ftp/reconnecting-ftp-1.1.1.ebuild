@@ -15,7 +15,7 @@ DESCRIPTION="Reconnecting FTP client"
 
 HOMEPAGE="https://github.com/Parquery/reconnecting-ftp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/39/a500fa13235419b06ccf9d562bb51da8f4fb2aee61f6cbfc1fd1cbfc68fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

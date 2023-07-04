@@ -15,7 +15,7 @@ DESCRIPTION="Pydatic webargs"
 
 HOMEPAGE="https://nf1s.github.io/pydantic-webargs/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/fe/4a7607a2fe487304ada95523aee040cc40bb39d624192f08e6375f5fd88b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

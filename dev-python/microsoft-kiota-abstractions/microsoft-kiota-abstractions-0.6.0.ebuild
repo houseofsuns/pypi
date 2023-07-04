@@ -15,7 +15,7 @@ DESCRIPTION="Core abstractions for kiota generated libraries in Python"
 
 HOMEPAGE="https://github.com/microsoft/kiota#readme"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/02/82/e7a0d60c3bd0ca015caa4d8142febf57b1d3f5a2d984b1907a556a6c0b0a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

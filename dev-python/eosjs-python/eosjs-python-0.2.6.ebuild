@@ -15,7 +15,7 @@ DESCRIPTION="Python library to communicate with eosjs in order to sign blockchai
 
 HOMEPAGE="https://github.com/EvaCoop/eosjs_python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3e/56/1899ea9caf74e413b7ff5563f5c3efb9460ae53d669abdc5053f9569d8ad/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

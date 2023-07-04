@@ -15,7 +15,7 @@ DESCRIPTION="Glitter Protocol is a blockchain based database and index engine fo
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/56/d9/10d0b2cb02798dd13c5257898bca0cf25ddf9009d5e5273f177cb55d94a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

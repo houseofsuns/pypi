@@ -15,7 +15,7 @@ DESCRIPTION="Store for ActivityPub activities, actors and objects"
 
 HOMEPAGE="https://codeberg.org/bovine/bovine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b3/e3/8085ff29ccd29237eda6dbb6b37477cf850fe8001ba2093005d9ac0c7be3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

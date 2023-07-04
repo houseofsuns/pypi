@@ -15,7 +15,7 @@ DESCRIPTION="BSD-licensed HEALPix for Astropy"
 
 HOMEPAGE="https://github.com/astropy/astropy-healpix"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/f2/a7/e657b8029efe8b1fe0c1050c8888d6734645f23e2ce0e071ea66ecace90f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

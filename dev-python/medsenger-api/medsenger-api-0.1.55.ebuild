@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for Medsenger.AI"
 
 HOMEPAGE="https://github.com/roctbb/medsenger_api"
 LICENSE="BSD 2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/28/c2/e16c6dd7ee7373bead6f4de9fed616de388a26d2e978678c4a6a2829b4eb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

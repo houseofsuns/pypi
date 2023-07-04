@@ -15,7 +15,7 @@ DESCRIPTION="The Highrise Bot SDK, for running Highrise bots written in Python."
 
 HOMEPAGE=""
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/14/4b/aca654f9bb1caf5af75104089d7ce83e1e3d258d92899d11a650656a6c99/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A task executor"
 
 HOMEPAGE="https://github.com/srand/jolt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/14/7f/477bdc701649376cc51789dcb772b2807d42646c51252363f9e733d9e23f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

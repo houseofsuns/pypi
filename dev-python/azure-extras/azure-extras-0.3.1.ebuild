@@ -15,7 +15,7 @@ DESCRIPTION="The stuff Microsoft left out.."
 
 HOMEPAGE="https://gitlab.com/tslight/azure_extras"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/46/9a24f002a4e57c0fa8fb103321276bdbf8587265c3c15fe2a5433fdb6808/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

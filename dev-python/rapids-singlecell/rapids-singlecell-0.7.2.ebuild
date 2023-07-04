@@ -15,7 +15,7 @@ DESCRIPTION="running single cell analysis on Nvidia GPUs"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a9/4e/984b5faf193c0496c3201d94660b787610d0bffd5a6b3b9aa71dd9f9f2fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

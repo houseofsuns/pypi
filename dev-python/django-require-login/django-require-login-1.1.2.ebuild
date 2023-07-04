@@ -15,7 +15,7 @@ DESCRIPTION="Middleware to require login for all Django URLs"
 
 HOMEPAGE="https://github.com/laactech/django-require-login"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/83/8e/ce0e0b125705d81fb92cff6d6331e572308014d951b6f54036849a7522b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

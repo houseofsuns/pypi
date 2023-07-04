@@ -15,7 +15,7 @@ DESCRIPTION="Flet Runtime - a base package for Flet desktop and Flet mobile."
 
 HOMEPAGE="https://flet.dev"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7b/6b/6290d6a7f25961599721e4a8a8f86f41a75fce396501822d3b61d8184486/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

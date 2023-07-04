@@ -15,7 +15,7 @@ DESCRIPTION="Enhance a LinkML model with imported and optionally modified slots"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/f8/d710c4111b2a170b13bc9d57cb5a4d4a3ba8ca081031df4e5526e4330ca0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

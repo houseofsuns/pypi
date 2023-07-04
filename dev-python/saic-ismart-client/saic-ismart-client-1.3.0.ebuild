@@ -15,7 +15,7 @@ DESCRIPTION="SAIC client library (MG iSMART)"
 
 HOMEPAGE="https://github.com/SAIC-iSmart-API/saic-python-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/f7/a0c4b93e6b7729afcf30319905cad1f6973f4975592d711be14a1a18fae6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

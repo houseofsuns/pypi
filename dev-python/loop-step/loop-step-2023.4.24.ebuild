@@ -15,7 +15,7 @@ DESCRIPTION="A SEAMM plug-in which provides loops in flowcharts."
 
 HOMEPAGE="https://github.com/molssi-seamm/loop_step"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/6e/59/b4f0af74bf5c9c98513c1a5e7f336c368dbfad0d20aa49596ff47c323912/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

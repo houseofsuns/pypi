@@ -15,7 +15,7 @@ DESCRIPTION="Fast key search in python"
 
 HOMEPAGE="https://github.com/sarvensis/dict-picker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/d5/e47099287bfc3e19da2dcd5d6482852b1c3c24bd49d45972ad9e8120cb0d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

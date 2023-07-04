@@ -15,7 +15,7 @@ DESCRIPTION="Programming- and CLI-Interface for the h5-dataformat of the Shepher
 
 HOMEPAGE="https://pypi.org/project/shepherd-core/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/16/571a6496d339631d92e6ad976c68ebfef26cc7b95422880de996fcae2539/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

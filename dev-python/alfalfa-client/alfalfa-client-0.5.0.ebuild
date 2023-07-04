@@ -15,7 +15,7 @@ DESCRIPTION="A standalone client for the NREL Alfalfa application"
 
 HOMEPAGE=""
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/ae/05/42ecaefe667374fe7f7765eecd3919dd817deaa952145fc7c84677ec9658/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

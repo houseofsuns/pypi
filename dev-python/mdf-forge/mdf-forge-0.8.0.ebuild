@@ -15,7 +15,7 @@ DESCRIPTION="Materials Data Facility python package"
 
 HOMEPAGE="https://github.com/materials-data-facility/forge"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2e/72/4f3e37c3f8dad7114936f3bea796754e6c8c368b04ab7d2939b8852837a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Experimental project to test \`etils-actions/pypi-auto-publish@v1\`
 
 HOMEPAGE="https://github.com/marketplace/actions/pypi-github-auto-release"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c1/06/516f39121dce24a7c6552f1ccd190beadf9bdab8ed854d05e336cbc1bd0f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

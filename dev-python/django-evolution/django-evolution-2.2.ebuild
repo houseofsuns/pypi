@@ -15,7 +15,7 @@ DESCRIPTION="A database schema evolution tool for the Django web framework."
 
 HOMEPAGE="https://github.com/beanbaginc/django-evolution"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/9d/68/6ef1659f36af9642a967bcbbb6602342a68894a2c57591e902ae85f4d27f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

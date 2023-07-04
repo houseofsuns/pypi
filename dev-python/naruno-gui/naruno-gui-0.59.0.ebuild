@@ -15,7 +15,7 @@ DESCRIPTION="This is GUI mode installer for Naruno"
 
 HOMEPAGE="https://docs.naruno.org/"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9b/5a/83486bcd0d5d4732f1f266ee85a72b245f7fa03fe23cb1d55f1d5a3726e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

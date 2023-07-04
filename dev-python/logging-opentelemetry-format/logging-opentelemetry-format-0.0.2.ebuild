@@ -15,7 +15,7 @@ DESCRIPTION="opentelemetry formatter for python logging module."
 
 HOMEPAGE="https://github.com/jha-hitesh/logging-opentelemetry-format"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/d9/768cfbd005cf092413d5a5345d3ea15814a75c2a1b44a95e490da077af7d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

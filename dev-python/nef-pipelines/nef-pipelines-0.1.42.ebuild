@@ -15,7 +15,7 @@ DESCRIPTION="Tools for Manipulating NEF [NMR Exchange Format] Files and Foreign 
 
 HOMEPAGE="https://github.com/varioustoxins/NEF-Pipelines"
 LICENSE="LGPL-2.1"
-SRC_URI="https://files.pythonhosted.org/packages/e7/0e/08d291d6a67af4e56c75feaeea965d812d593937b9d68a66b3c3cb3fb002/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

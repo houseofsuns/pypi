@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings to Rust's persistent data structures (rpds)"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/cd/a2da9d5bbeca03abd6c451354825f7ad4f837efc2650fe585f6bc71c9699/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

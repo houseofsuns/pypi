@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://www.certic.unicaen.fr"
 LICENSE="CECILL-B"
-SRC_URI="https://files.pythonhosted.org/packages/55/ed/7d7a4caed660cf15d3b0fcd2f9df58d35229415bc374c9b8858871c7d8c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="discord-py-interactions slash command help"
 
 HOMEPAGE="https://github.com/Toricane/slash-help"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/b1/61/c852712de0d957931987b1463665f889d0d6acfca5febf2b7e2e25242244/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

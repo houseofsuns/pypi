@@ -15,7 +15,7 @@ DESCRIPTION="Metric tracking in Django using caching and CloudWatch"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/69/d9/7641b70210f549cba00393d5661d9b98abd1c806d5569271966b31decdaa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

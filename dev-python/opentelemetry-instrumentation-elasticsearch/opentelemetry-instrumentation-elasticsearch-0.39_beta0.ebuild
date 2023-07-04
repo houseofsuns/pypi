@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry elasticsearch instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-elasticsearch"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/20/b1/76f454e6a97496c7942989ef0418f272a6ee9b73abbfd9f5e8c732fab729/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

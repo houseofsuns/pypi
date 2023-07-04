@@ -15,7 +15,7 @@ DESCRIPTION="Python Interface for Cloud Foundry APIs"
 
 HOMEPAGE="https://github.com/hsdp/python-cf-api"
 LICENSE="Apache License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7c/87/65eafd115e44fa71b4c03d7b5e24a879458427493cb9dad0a8efa93f3c1c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

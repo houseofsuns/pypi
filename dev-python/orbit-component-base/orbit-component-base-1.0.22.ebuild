@@ -15,7 +15,7 @@ DESCRIPTION="Orbit Framework - base component"
 
 HOMEPAGE="https://gitlab.com/madpenguin/orbit-component-base"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/ee/ab49eebb844fc5c77580a40986c01ee7093339ac9ec58180ce9520fe98cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tool/Framework for testing structured data against schema definitio
 
 HOMEPAGE="https://github.com/networktocode/schema-enforcer"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b7/76/701dfb50264c92bbd991a937c34d1155dcb19f2a827661e0613786d1cf6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

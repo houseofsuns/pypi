@@ -15,7 +15,7 @@ DESCRIPTION="Django NATS Nkey is a Django app to synchronize Django superusers, 
 
 HOMEPAGE="http://github.com/bitsy-ai/django-nats-nkey"
 LICENSE="GNU AGPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/19/27/c21e25564020fdfc1efd69b02c372d2fbabdb5de589e465fca3dde075a0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

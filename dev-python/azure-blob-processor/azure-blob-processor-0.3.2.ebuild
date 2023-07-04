@@ -15,7 +15,7 @@ DESCRIPTION="Library to process file in Azure blob storage"
 
 HOMEPAGE="https://github.com/zhenbzha/azure-blob-processor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/22/9193b7d09f911d2e3143cc1e756f5bd86bc1f6f3bcf9a88ee8c0bb4c427d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

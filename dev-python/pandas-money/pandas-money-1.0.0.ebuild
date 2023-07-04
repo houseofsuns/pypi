@@ -15,7 +15,7 @@ DESCRIPTION="A Pandas ArrayExtension for handling currency with int64 performanc
 
 HOMEPAGE="https://github.com/rmorison/pandas-money"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/39/b72c680386b9eb6deb0c9bcf78cddd94b035a8e26390c39ac27652bbac16/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

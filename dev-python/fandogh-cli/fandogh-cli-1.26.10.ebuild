@@ -15,7 +15,7 @@ DESCRIPTION="Official CLI for Fandogh PaaS"
 
 HOMEPAGE="https://github.com/fandoghpaas/fandogh-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/cf/71bf04f19eaf3d877198510daac09f2e6bc0bf9bc7f07fdbc02992ed301e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Crunchyroll Guest Pass Publisher for Reddit"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c3/6e/7282889b74afffb2242f1996ec0e41dd3e421c8d8453552e64257351cd5b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

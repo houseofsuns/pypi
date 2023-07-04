@@ -15,7 +15,7 @@ DESCRIPTION="A Python library to interact with the public VirusTotal v3 and v2 A
 
 HOMEPAGE="https://github.com/dbrennand/virustotal-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/d8/461ae6f5b27af520cb63f4ea538495c247d80f10ec1e3e2c72bd6e0892a6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

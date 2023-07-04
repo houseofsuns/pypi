@@ -15,7 +15,7 @@ DESCRIPTION="Online video downloader"
 
 HOMEPAGE="https://git.sakamoto.pl/laudom/haruhi-dl"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/24/f2/a2d22274cfa8f09c849495e8a5106cf72365091b58d55a45c2c91d9f79b9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

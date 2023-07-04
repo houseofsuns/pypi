@@ -15,7 +15,7 @@ DESCRIPTION="Robotic fabrication package for the COMPAS Framework"
 
 HOMEPAGE="https://github.com/compas-dev/compas_fab"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/32/20/cc5e13f9c492a48a2702bc20b9e5bcda4f8e4cf744f586013b4bc74b68ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

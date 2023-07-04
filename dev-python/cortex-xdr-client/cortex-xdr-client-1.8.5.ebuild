@@ -15,7 +15,7 @@ DESCRIPTION="API client for Cortex XDR Prevent"
 
 HOMEPAGE="https://github.com/ebarti/cortex-xdr-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/18/436b782ef1b811a5292b073172c182c8137a29716307d84730a7db94daff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

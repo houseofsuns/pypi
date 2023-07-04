@@ -15,7 +15,7 @@ DESCRIPTION="Generate list of domain name using Domain name permutation engine t
 
 HOMEPAGE="https://github.com/typosquatter/ail-typo-squatting"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/c8/e7/7545a0542fe6b33707aaddcf47ca2ba986bc1aa01c980b06e833da00032e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="phonemes from text"
 
 HOMEPAGE="https://github.com/OpenJarbas/phoneme_guesser"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bc/a8/1a341ca70837374a954d46a616eed073465938728f96b325c87d73ce54fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

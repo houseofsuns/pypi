@@ -15,7 +15,7 @@ DESCRIPTION="Automatically converts mods to the latest version of the Cortex Com
 
 HOMEPAGE="https://github.com/MyNameIsTrez/Cortex-Command-Mod-Converter-Engine"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/c7/182f350ee80e847a6ea5f4ea8d93a4b042ad85f4f115667814bd60907722/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

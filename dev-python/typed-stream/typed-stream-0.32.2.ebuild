@@ -15,7 +15,7 @@ DESCRIPTION="Java-like typed Stream class for easier handling of generators."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/c9/37375bf6ed81fceac4af4a43804f6a72b6ead50285d1ef1063213744d02f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

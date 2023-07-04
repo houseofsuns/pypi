@@ -15,7 +15,7 @@ DESCRIPTION="A python API to the AIPHA webservices"
 
 HOMEPAGE="https://github.com/AIPHA-Geo-Solutions/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9d/bb/cb31116f7225373a9fcc31268dbdc9fc1608d38442abad1c19b615a3b60a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

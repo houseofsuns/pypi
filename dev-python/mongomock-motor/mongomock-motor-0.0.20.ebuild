@@ -15,7 +15,7 @@ DESCRIPTION="Library for mocking AsyncIOMotorClient built on top of mongomock."
 
 HOMEPAGE="https://github.com/michaelkryukov/mongomock_motor"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/f7/4487346431874d07b14a05e2945dea09ce9e4f294d9cbe103f64907fbc03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

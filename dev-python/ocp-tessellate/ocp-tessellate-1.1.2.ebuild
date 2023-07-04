@@ -15,7 +15,7 @@ DESCRIPTION="Tessellate OCP objects"
 
 HOMEPAGE="https://github.com/bernhard-42/ocp-tessellate"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/26/6b7f3686d8be893da268825cd55b696c51e8989313290a0cbf3482c2a089/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

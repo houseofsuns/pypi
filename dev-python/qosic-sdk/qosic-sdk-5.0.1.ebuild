@@ -15,7 +15,7 @@ DESCRIPTION="An unofficial python sdk for the QosIc platform."
 
 HOMEPAGE="https://github.com/Tobi-De/qosic-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/01/2c1eac7915cde3e7cfb9f55f09c7abc8653cbc97ece60511b72af792612b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

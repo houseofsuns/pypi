@@ -15,7 +15,7 @@ DESCRIPTION="A curated set of dependencies for quality software development"
 
 HOMEPAGE="https://github.com/abilian/abilian-devtools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/4e/ef24cb914b9890be48c1a5128222106cc2c5c664efbda77860d2218b1d66/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

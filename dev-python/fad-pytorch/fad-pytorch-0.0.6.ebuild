@@ -15,7 +15,7 @@ DESCRIPTION="Frechet Audio Distance evaluation in PyTorch"
 
 HOMEPAGE="https://github.com/drscotthawley/fad_pytorch"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b4/63/8ef510a2a01274516f120472f443245d81776ea56d6a8c65766fd7bce19d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

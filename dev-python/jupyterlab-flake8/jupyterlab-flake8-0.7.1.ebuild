@@ -15,7 +15,7 @@ DESCRIPTION="jupyterlab extension to lint python code in the notebook and text e
 
 HOMEPAGE="https://github.com/mlshapiro/jupyterlab-flake8"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/61/0e/4653d7b37c83e24dad535cb8c5a43d218d0c58b3aca94601001baecb2058/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

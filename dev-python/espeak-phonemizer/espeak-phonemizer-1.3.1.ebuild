@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight International Phonetic Alphabet (IPA) phonemizer that u
 
 HOMEPAGE="https://github.com/rhasspy/espeak-phonemizer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ff/73/2d4ac4076c3a9773528d7e16129367ef9885e9dc36dcf64b516ea013a2f0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

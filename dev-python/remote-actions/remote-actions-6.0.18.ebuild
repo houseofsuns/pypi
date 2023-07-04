@@ -15,7 +15,7 @@ DESCRIPTION="Remote Action for Orchid Extender"
 
 HOMEPAGE="https://poplars.dev"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2a/77/c1cb9b99b5f4a8701ae6e2e718e2ad5fb9619d94de22d74ef26db7f98696/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

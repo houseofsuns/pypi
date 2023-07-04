@@ -15,7 +15,7 @@ DESCRIPTION="MLflow: A Platform for ML Development and Productionization"
 
 HOMEPAGE="https://mlflow.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3e/12/46bfd9ec8d650343c69fbd23c366d4ee16d822a98d37c6e63526d738df64/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

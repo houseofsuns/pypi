@@ -15,7 +15,7 @@ DESCRIPTION="Async Firebase Client - a Python asyncio client to interact with Fi
 
 HOMEPAGE="https://github.com/healthjoy/async-firebase"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/d3/891060038efdb482716afab0dda1d1d8af483e99ea18f2661181ea654d80/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

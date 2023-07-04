@@ -15,7 +15,7 @@ DESCRIPTION="Common EUREC4A sounding standard"
 
 HOMEPAGE="https://github.com/observingClouds/eurec4a_snd"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fe/45/96a801478a9aa9d99bd43621bd033e5ba1e9bc5a344317a50ced18643b25/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

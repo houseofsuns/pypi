@@ -15,7 +15,7 @@ DESCRIPTION="Extract image data into a 3D numpy array from a set of DICOM files.
 
 HOMEPAGE="https://github.com/innolitics/dicom-numpy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/b1/aa6785b1f947696ff07bc535942f37a69222590e8db5fb8051b878417bfe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

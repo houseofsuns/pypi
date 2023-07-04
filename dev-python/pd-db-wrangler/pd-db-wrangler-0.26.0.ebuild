@@ -15,7 +15,7 @@ DESCRIPTION="Pandas database helper library"
 
 HOMEPAGE="https://github.com/kellerjustin/pd_db_wrangler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/ad/5910bdaf7e989040791f95984d965aa9fda911000836ef785b5df2f49dd1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

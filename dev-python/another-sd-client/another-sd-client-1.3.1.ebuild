@@ -15,7 +15,7 @@ DESCRIPTION="Client for communicating with SD Løn"
 
 HOMEPAGE="https://magenta.dk/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/ea/0c614ccd33e3b453ff2c410a7e491687323e4ab801bfd4e413e93923c34a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

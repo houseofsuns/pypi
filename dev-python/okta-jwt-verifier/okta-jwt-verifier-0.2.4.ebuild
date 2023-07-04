@@ -15,7 +15,7 @@ DESCRIPTION="Okta JWT Verifier"
 
 HOMEPAGE="https://github.com/okta/okta-jwt-verifier-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/84/cf/4aabfa45db426622008a24f5081dbf1ce2394dbcb5a79240435942e6b123/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

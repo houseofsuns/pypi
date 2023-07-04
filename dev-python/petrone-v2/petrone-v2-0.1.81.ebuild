@@ -15,7 +15,7 @@ DESCRIPTION="Library for BYROBOT PETRONE V2"
 
 HOMEPAGE="http://www.byrobot.co.kr"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/7d/c4bf53be05036fe4edd952601292beb9652531beb96a1f0596dbe01a1e0e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A waiting based utility with decorator and logger support"
 
 HOMEPAGE="https://github.com/RedHatQE/wait_for"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/59/c9/d3421164561ecb2a30c63586530fe228a86ca19bd5523a5026571e7e29f9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

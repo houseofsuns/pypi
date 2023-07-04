@@ -15,7 +15,7 @@ DESCRIPTION="Visual style for Urban Grammar AI research project"
 
 HOMEPAGE="https://github.com/urbangrammarai/graphics"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f1/ae/b7134f8514edcbd4d07f8861cb68fab44122f727ed2b02e44b2c24852a3a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

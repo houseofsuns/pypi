@@ -15,7 +15,7 @@ DESCRIPTION="A client library for accessing nista.io"
 
 HOMEPAGE="https://nista.io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/c5/7f9a5fc058996cc716d2d78dd2f110525544156a3ec904ad299ba8851236/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

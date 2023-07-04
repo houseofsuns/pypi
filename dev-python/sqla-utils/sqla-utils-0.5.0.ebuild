@@ -15,7 +15,7 @@ DESCRIPTION="Opinionated utilities for working with SQLAlchemy"
 
 HOMEPAGE="https://github.com/srittau/sqla-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/8f/938443b89b323a484114cf98d957962e26af3ff0fc4e5ed19ae70993f429/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

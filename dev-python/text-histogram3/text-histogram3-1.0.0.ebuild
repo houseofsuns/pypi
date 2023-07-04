@@ -15,7 +15,7 @@ DESCRIPTION="A dependency-free library to quickly make ascii histograms from dat
 
 HOMEPAGE="https://github.com/basnijholt/text_histogram3"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7e/fd/ccc61e562c27e032639eb313697b861b4ee62539c6fa2620f8bbbada61b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

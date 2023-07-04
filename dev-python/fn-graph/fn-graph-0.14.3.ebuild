@@ -15,7 +15,7 @@ DESCRIPTION="Manage, maintain and reuse complex function graphs without the hass
 
 HOMEPAGE="https://github.com/BusinessOptics/fn_graph"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/34/2c9cae7a005b0a900e415a46351fa10fc716defe4890cfc70baf0a14af85/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

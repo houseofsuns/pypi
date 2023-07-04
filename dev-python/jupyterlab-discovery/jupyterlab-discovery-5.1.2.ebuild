@@ -15,7 +15,7 @@ DESCRIPTION="A JupyterLab extension to facilitate the discovery and installation
 
 HOMEPAGE="http://github.com/vidartf/jupyterlab_discovery"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/dd/1c/5375e5ea8273c6653073757f9c422873957e60dbb4b0672c4ecc31c938f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

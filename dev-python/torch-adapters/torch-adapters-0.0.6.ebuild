@@ -15,7 +15,7 @@ DESCRIPTION="Small Library of Torch Adaptation modules"
 
 HOMEPAGE="https://github.com/ma2za/torch-adapters"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/12/9aefae90f817d3d9decd71e1dca6860a5c037016352f822fa95ab91a47ff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Open source library for creating containers to run on Amazon SageMa
 
 HOMEPAGE="https://github.com/aws/sagemaker-training-toolkit/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/72/1c/4511e25fbf4ea0db88fd822360a5f697490dc2239ad932cbe6efa6f2a7af/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="This package can parse and compare semantic versioning."
 
 HOMEPAGE="https://github.com/eieste/VersionParser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/18/61a661be6225176a05ce1cad4f1bcfc9cba57744a9faacf550c5a9e68070/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

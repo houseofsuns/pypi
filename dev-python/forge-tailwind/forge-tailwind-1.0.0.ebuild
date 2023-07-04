@@ -15,7 +15,7 @@ DESCRIPTION="Work library for Forge"
 
 HOMEPAGE="https://www.forgepackages.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/33/c195c7171d0daec713d2be9aae952bf1353d7e122e6060eefc16b7f8fdd1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

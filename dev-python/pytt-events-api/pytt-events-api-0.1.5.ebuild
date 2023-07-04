@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for the TikTok Events API"
 
 HOMEPAGE=""
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/b7/e5/b9891b56d34056e13ba12e06925061807949cd83929560a3d8986f46e609/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

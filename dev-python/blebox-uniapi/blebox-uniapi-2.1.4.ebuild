@@ -15,7 +15,7 @@ DESCRIPTION="Python API for accessing BleBox smart home devices"
 
 HOMEPAGE="https://github.com/blebox/blebox_uniapi"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3d/e8/62e274693080fc7235e58fc549b19ec7eaeccda1a9779df1ded97cbcd5bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

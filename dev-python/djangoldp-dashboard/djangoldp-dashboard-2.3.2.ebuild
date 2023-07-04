@@ -15,7 +15,7 @@ DESCRIPTION="djangoldp dashboard package"
 
 HOMEPAGE="http://git.startinblox.com/djangoldp_dashboard"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/70/431cc67ac6ca56121c6fe4393431389564008bb461bf4fdef68072e19986/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

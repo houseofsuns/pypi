@@ -15,7 +15,7 @@ DESCRIPTION="Pure python avro schema validator"
 
 HOMEPAGE="https://github.com/leocalm/avro_validator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/11/96eef6a6d3f8949d9fd21918cb0b023699b0408215c37734334bf83e1d56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

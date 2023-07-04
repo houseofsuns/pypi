@@ -15,7 +15,7 @@ DESCRIPTION="Artificial Intelligence for Imaging Atmospheric Cherenkov Telescope
 
 HOMEPAGE="https://github.com/fact-project/aict-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/ba/18aa3d8d3073b79a6f17904ea6b8848a6770b16725fd5ea69a6f7619b9a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Utilities to identify which environments is your python script runn
 
 HOMEPAGE="https://github.com/LucaCappelletti94/environments_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/28/f1/da7b404571b417b250fd6132853d509148c282469fa2eb52470bd6bd2911/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

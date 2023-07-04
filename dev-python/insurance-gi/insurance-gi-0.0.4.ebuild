@@ -15,7 +15,7 @@ DESCRIPTION="GI projection tools"
 
 HOMEPAGE="https://github.com/pdavidsonFIA/insurance_gi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7b/98/b9857ed13da8a1ce9d337dad3907b66e0675b0244d7779feee211c27f7ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

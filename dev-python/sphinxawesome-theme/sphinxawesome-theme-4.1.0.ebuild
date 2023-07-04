@@ -15,7 +15,7 @@ DESCRIPTION="An awesome theme for the Sphinx documentation generator"
 
 HOMEPAGE="https://sphinxawesome.xyz"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/ec/fb1eff65b17f19b2fd5b593f01a81556267b2c977a8271ebdb1b8c293e1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

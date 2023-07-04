@@ -15,7 +15,7 @@ DESCRIPTION="A core database functions package"
 
 HOMEPAGE="https://github.com/valluzzi/opensitua_database.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/be/24de78de3cb484c4d6c2ee22ce851caa08c072df30668dafa4301330050f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

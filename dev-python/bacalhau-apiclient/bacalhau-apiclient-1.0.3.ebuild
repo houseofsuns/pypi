@@ -15,7 +15,7 @@ DESCRIPTION="A Python client for the Bacalhau public API - https://github.com/ba
 
 HOMEPAGE="https://github.com/bacalhau-project/bacalhau/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/27/d4c0f106c170b98002fe719324a05a8cca006dda5d4a9a3bd7064e2a2154/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

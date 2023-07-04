@@ -15,7 +15,7 @@ DESCRIPTION="Extensions for using Django with htmx."
 
 HOMEPAGE="https://github.com/adamchainz/django-htmx"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/87/3795e61eb07ea0136f3f598d85031dd5c87e236ec71174cc917ec778cda4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

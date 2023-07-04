@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight version of django-simple-captcha for work with django-r
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/16/66b2220909647f4d95a4b41888aca63d2a1644296cbea8e7976d2f373ecf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

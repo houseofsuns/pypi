@@ -15,7 +15,7 @@ DESCRIPTION="Core library for Forge"
 
 HOMEPAGE="https://www.forgepackages.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/49/11/d9bdb90ce7d76306e2df94f0a228c3e4eb0d1cab52e8b011c9b5e00dfa8c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Python Module to Access Tehran Stock Exchange Historical and Real
 
 HOMEPAGE=""
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/1f/32/ddf93c0ee95dfa091612ffe29280655c80bb96eb88b1f32d1e815053ad34/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

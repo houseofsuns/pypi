@@ -15,7 +15,7 @@ DESCRIPTION="A napari plugin for spline manipulation"
 
 HOMEPAGE="https://github.com/uhlmanngroup/napari-splineit"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/bd/6d/e82df0df8871dd188209bfb1e2f6c156afe966f5687f1f9f45f18b0c0eff/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Colour Science for Python"
 
 HOMEPAGE="https://www.colour-science.org/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/04/1e/d552c9a2b93228c292b014ccef9f24eb445ca70109ef8db5f5466ab6791a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

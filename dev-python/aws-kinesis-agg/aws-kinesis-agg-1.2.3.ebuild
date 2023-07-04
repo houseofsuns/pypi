@@ -15,7 +15,7 @@ DESCRIPTION="Python module to assist in taking advantage of the Kinesis message 
 
 HOMEPAGE="http://github.com/awslabs/kinesis-aggregation"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5d/6c/e4402effc9583f4d991f20e9d1992375ecaa3921d86d4688ec37c399186e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

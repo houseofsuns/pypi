@@ -15,7 +15,7 @@ DESCRIPTION="An abstract interface for RabbitMQ communication"
 
 HOMEPAGE="https://github.com/nidhaloff/b_rabbit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/ba/39057e5e6b3de80dfd4edd492ab367d1929ca967e7bde98571b0e57967a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

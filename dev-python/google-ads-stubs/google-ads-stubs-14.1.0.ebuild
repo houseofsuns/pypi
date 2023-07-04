@@ -15,7 +15,7 @@ DESCRIPTION="Type stubs for google-ads"
 
 HOMEPAGE="https://github.com/henribru/google-ads-stubs"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/10/e0/5e405ad7b543182be7b5c5c2c22e18dff2a14e55ad5e869472ea0228e25c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

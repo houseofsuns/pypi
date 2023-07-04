@@ -15,7 +15,7 @@ DESCRIPTION="A client library for accessing Baserow OpenAPI"
 
 HOMEPAGE="https://baserow.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/20/25/61d881eb21835da0280269eaf93aebd26b6f379d045f16abd3ec8cb68254/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

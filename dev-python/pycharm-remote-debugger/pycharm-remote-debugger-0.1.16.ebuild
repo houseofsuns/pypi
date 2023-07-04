@@ -15,7 +15,7 @@ DESCRIPTION="Easily debug your remote project"
 
 HOMEPAGE="https://github.com/eliorerz/pycharm-remote-debugger"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/35/e8/1580ab4f2150abdd765129ff4cf4b1a3bf4d8bfd71109180f28965b85714/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

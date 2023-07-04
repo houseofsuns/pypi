@@ -15,7 +15,7 @@ DESCRIPTION="pytest helpers"
 
 HOMEPAGE="https://github.com/const-shi/pytest_helpers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b1/ac/6a6b229401e6d39b2b3937e42e487e3b6f4c5833c2f38165dd153d403dfc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

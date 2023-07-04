@@ -15,7 +15,7 @@ DESCRIPTION="Python tools for interacting with UMnet's network tools"
 
 HOMEPAGE="https://gitlab.umich.edu/its-inf-net/umnet-scripts"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a1/44/0c0a41b6541d7e9a430cc8758d09c2d02ad0183518c066f638652fa4d107/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

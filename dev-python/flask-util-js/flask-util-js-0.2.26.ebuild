@@ -15,7 +15,7 @@ DESCRIPTION="flask's util in javascript. such as url_for etc."
 
 HOMEPAGE="https://github.com/dantezhu/flask_util_js"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c5/60/23428567f3520a131cbba0f8678257835b0dfd47f508f740c3b6c047aaaf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

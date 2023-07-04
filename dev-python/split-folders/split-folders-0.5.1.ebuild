@@ -15,7 +15,7 @@ DESCRIPTION="Split folders with files (e.g. images) into training, validation an
 
 HOMEPAGE="https://github.com/jfilter/split-folders"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/4c/32d2d49b82ea5baf0ff1a55de88c7fb8a0bf2aab02763c8501b2a51bf55f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

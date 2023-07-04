@@ -15,7 +15,7 @@ DESCRIPTION="Password strength and validation"
 
 HOMEPAGE="https://github.com/kolypto/py-password-strength"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/db/f1/6165ebcca27fca3f1d63f8c3a45805c2ed8568be4d09219a2aa45e792c14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="library for my messenger"
 
 HOMEPAGE="https://github.com/VPG1/lib_for_messanger"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/da/0f/e78e77ace38e408687ae8cd041b4b29223dc82c9f573ff8cc8a619b4bb7e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

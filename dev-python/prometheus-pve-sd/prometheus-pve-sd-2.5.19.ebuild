@@ -15,7 +15,7 @@ DESCRIPTION="Prometheus Service Discovery for Proxmox VE."
 
 HOMEPAGE="https://github.com/thegeeklab/prometheus-pve-sd/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3e/47/db0550e142b2a2e58bbba628c695c355d6ab46216a70662f08fb780641fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="This plugin adds utilities for working with images and videos to th
 
 HOMEPAGE="https://gitlab.com/katalytic/katalytic-images.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e5/8f/1b82550a5a537567aeb0bf854fbbf8100427d195d5d5a2000d5b10502bb1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

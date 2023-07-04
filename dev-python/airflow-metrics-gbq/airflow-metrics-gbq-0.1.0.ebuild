@@ -15,7 +15,7 @@ DESCRIPTION="Airflow metrics to Google BigQuery"
 
 HOMEPAGE="https://github.com/abyssnlp/airflow-metrics-gbq"
 LICENSE="BSD2"
-SRC_URI="https://files.pythonhosted.org/packages/84/87/f54eb4a13169963eb49c829c4a65e5fc0b875ef84f471c2c9df620b2f9a5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="cubao/polyline-ruler is more than mapbox/cheap-ruler"
 
 HOMEPAGE="https://polyline-ruler.readthedocs.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8d/d1/897d8a0452292d2253086fe05a2621c20d827804bde61b091ae5bb84c173/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

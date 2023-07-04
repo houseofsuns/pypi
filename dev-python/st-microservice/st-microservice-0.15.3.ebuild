@@ -15,7 +15,7 @@ DESCRIPTION="Tools to build Microservice Backends"
 
 HOMEPAGE="https://github.com/rouppart/ST-Microservice-Backend"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/15/580755a517bad77714e839c141084ed45ff33fa1d759df3641ff4b671649/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

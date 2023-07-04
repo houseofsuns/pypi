@@ -15,7 +15,7 @@ DESCRIPTION="Wraps sklearn linear_model regression functions to allow Drop1, Add
 
 HOMEPAGE="https://github.com/chrisebell24/sklearn_linear_model_modification"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6e/11/72735175183daf5eaf4817b61ba2f2b28163117f9f329159865b0677822b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

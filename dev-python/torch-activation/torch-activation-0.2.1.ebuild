@@ -15,7 +15,7 @@ DESCRIPTION="A library of new activation function implement in PyTorch to save t
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/b2/1b10d04597eb80c0a09c1d007741ba23508ced0368bc1de9a5eff90465cc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

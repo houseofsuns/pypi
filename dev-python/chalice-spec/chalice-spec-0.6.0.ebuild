@@ -15,7 +15,7 @@ DESCRIPTION="Chalice x APISpec x Pydantic plug-ins"
 
 HOMEPAGE="https://github.com/TestBoxLab/chalice-spec"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/aa/f372841b694bcf82310145a845537dbd31e73c85caf61b0ed5da9f95b8b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

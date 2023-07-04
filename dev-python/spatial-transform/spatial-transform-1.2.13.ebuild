@@ -15,7 +15,7 @@ DESCRIPTION="Transform hierarchies in 3D space."
 
 HOMEPAGE="https://github.com/Wasserwecken/spatial-transform"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a0/1a/0fc0c387e94e3d32d0d78c32ff707b772d36b9dbc1ff8313dc4a84474394/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

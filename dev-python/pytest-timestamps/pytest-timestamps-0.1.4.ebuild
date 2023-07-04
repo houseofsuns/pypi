@@ -15,7 +15,7 @@ DESCRIPTION="A simple plugin to view timestamps for each test"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/24/96/d5f62eaf1b02a94e511a39a10d106256ac5ae10203ed2fcbc167615ed911/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

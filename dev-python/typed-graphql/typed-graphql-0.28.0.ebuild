@@ -15,7 +15,7 @@ DESCRIPTION="Use types to have a simpler graphql implementation"
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/53/a3/76e4a25b64933c0161a8c9be2c4acb281f0cf704412b3aa5eea957599c06/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

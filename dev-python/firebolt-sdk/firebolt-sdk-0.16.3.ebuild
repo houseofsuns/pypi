@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for Firebolt"
 
 HOMEPAGE="https://github.com/firebolt-db/firebolt-sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6c/80/779a97edaef34ab4686495fbc96e6c18dc184213015aaa80d8724907c06f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="djangoldp package for account and chat data models"
 
 HOMEPAGE="http://git.happy-dev.fr/startinblox/djangoldp_account"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/18/27289c2806472b4232bd5200be6b47a7d74139a2259ca9aadc154e9b1951/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

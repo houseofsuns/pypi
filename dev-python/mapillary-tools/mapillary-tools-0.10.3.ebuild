@@ -15,7 +15,7 @@ DESCRIPTION="Mapillary Image/Video Import Pipeline"
 
 HOMEPAGE="https://github.com/mapillary/mapillary_tools"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d7/ec/fe033c27c84a813f043e0bcc4ca58358a4ccb8952760e8d71510dbbd132a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tools with which to work with Scratch JSON files."
 
 HOMEPAGE="https://github.com/GSE-CCL/scratch-tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/47/9a33dd8d38bc58bb40be0d92c504d5cbc38df5f6a27a7c4939b2efc5f293/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

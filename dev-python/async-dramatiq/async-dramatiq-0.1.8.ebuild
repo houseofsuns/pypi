@@ -15,7 +15,7 @@ DESCRIPTION="Dramatiq with Asyncio support and some other goodies"
 
 HOMEPAGE="https://github.com/motherofcoconuts/async-dramatiq"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c3/c3/99860188e308663b20da2ebf4e69f9dadc7c6d5710bce054d870458dce8c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

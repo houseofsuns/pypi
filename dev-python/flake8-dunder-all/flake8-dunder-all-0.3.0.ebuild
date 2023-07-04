@@ -15,7 +15,7 @@ DESCRIPTION="A Flake8 plugin and pre-commit hook which checks to ensure modules 
 
 HOMEPAGE="https://github.com/python-formate/flake8-dunder-all"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/ba/7bf00420cb336d39d700578f001a2c6786b6f527c4f1cd1a05b4bd3737c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

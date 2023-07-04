@@ -15,7 +15,7 @@ DESCRIPTION="A mongo mocking library with an ephemeral MongoDB running in memory
 
 HOMEPAGE="https://github.com/kaizendorks/pymongo_inmemory"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/1a/2a12c9e8a2b0176ca197d421361cf8e8e5f4a7cfd8487576085d5c6f835d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

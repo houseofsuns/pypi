@@ -15,7 +15,7 @@ DESCRIPTION="Azerothcore World of Warcraft Soap Remote Access Python Library."
 
 HOMEPAGE="https://github.com/MacHu-GWU/acore_soap_app-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/a0/be63eed9f4da79da0185f9d47173a21d3f95b5acae850afa8503568b6aa7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

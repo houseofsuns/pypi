@@ -15,7 +15,7 @@ DESCRIPTION="Pure Python Bloom Filter module"
 
 HOMEPAGE="https://github.com/hiway/python-bloom-filter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/42/43d11c75b769cb4e7ca1fd756c4ac98db5144ce2e00711a25dcbe1412648/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Profit wrapper from Salure"
 
 HOMEPAGE=""
 LICENSE="Salure License"
-SRC_URI="https://files.pythonhosted.org/packages/44/8c/879a90fb3f6a021ef6e99ca998a94afa7a38b40979c736e8bf9cf7c4d204/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

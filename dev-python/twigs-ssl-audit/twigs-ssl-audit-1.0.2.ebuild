@@ -15,7 +15,7 @@ DESCRIPTION="TWIGS SSL Audit"
 
 HOMEPAGE="https://github.com/threatwatch/twigs_ssl_audit"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/d6/21/3626095b541e928ed3749f00e0f1c3e3e19fcbcf0f974e8ae2293b2b2a01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

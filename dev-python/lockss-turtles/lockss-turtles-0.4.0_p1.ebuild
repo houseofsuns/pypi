@@ -15,7 +15,7 @@ DESCRIPTION="Tool to manage LOCKSS plugin sets and LOCKSS plugin registries"
 
 HOMEPAGE="https://www.lockss.org/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5d/48/d9d5c2c123c0ca3609ea4e00df2c096be075282e1496aa7e2b7c8863b27f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

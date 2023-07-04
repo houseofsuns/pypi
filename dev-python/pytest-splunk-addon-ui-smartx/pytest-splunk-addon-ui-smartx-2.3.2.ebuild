@@ -15,7 +15,7 @@ DESCRIPTION="Library to support testing Splunk Add-on UX"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f4/de/35e3cc0320ee75b00b4dbbe8e5ea71721b9610ad72727a878eeebd1bcaa8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="CLI for creating a Python Package Repository in a GCS bucket"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/61/9b928c5c67cfb720da6532da67f4b9c761e7ff6692c9d7fca0ef6ef5f42e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

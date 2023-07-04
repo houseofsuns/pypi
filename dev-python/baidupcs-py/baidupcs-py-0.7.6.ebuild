@@ -15,7 +15,7 @@ DESCRIPTION="Baidu Pcs Api and App"
 
 HOMEPAGE="https://github.com/PeterDing/BaiduPCS-Py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e3/34/91264f3b29f5ab25dfd61f09350fea7ef86a8099c71ef38349381f4bb8da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

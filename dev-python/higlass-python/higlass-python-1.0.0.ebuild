@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for HiGlass"
 
 HOMEPAGE="https://github.com/higlass/higlass-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/f8/552ab5d92d6d06dbd15b98effb258f3bb536f2966d35f099431c1b08831a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

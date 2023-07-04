@@ -15,7 +15,7 @@ DESCRIPTION="Camunda External Task Client for Python 3"
 
 HOMEPAGE="https://github.com/yogeshrnaik/camunda-external-task-client-python3"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9e/36/15da9f2d606c83bc148d9ceeab91fba2448be33d57e90eee27261ab5843a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

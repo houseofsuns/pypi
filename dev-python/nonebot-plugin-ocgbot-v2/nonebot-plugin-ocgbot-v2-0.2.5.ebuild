@@ -15,7 +15,7 @@ DESCRIPTION="nonebot-plugin-ocgbot-v2"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d3/aa/7402f3a63d6f19eb9ccaf1782a46e7f9f2bc132692aa5fa01a6241ff0878/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

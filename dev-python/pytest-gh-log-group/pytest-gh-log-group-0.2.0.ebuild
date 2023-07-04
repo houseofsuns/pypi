@@ -15,7 +15,7 @@ DESCRIPTION="pytest plugin for gh actions"
 
 HOMEPAGE="https://github.com/embedded-community/pytest_gh_log_group"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/20/38/adf00e9251ffb6433f5d65603bff50e27f9c373c304531a373891e2be14e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

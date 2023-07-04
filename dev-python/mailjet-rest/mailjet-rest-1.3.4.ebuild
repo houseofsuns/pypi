@@ -15,7 +15,7 @@ DESCRIPTION="Mailjet V3 API wrapper"
 
 HOMEPAGE="https://github.com/mailjet/mailjet-apiv3-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/68/e72ee94650da7cfd902bfdde3f019a5ae9b86dc31ba58c806055fa12e537/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

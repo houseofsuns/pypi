@@ -15,7 +15,7 @@ DESCRIPTION="Python RQL Filtering"
 
 HOMEPAGE="https://connect.cloudblue.com/community/api/rql/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e1/04/d42cd16ace7f0d53f51c8e8b904cf27457dac6d42c5631d4ce1459e2d474/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

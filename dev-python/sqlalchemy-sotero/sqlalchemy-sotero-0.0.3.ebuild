@@ -15,7 +15,7 @@ DESCRIPTION="Python SQLAlchemy Dialect for Sotero JDBC driver."
 
 HOMEPAGE="https://soterosoft.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/f3/b133010b6e5c395083083c68f94ed405711ad5028cf4e60cbbf53c363b83/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

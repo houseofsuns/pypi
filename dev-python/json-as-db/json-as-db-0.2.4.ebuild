@@ -15,7 +15,7 @@ DESCRIPTION="Using JSON as very lightweight database"
 
 HOMEPAGE="https://www.joonas.io/json-as-db"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/c1/d01caa5f116dc489bbadd1d5ec1aafa879f455b1b50e382a6574370bc596/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Process Mining scripting environment"
 
 HOMEPAGE="https://github.com/pmlab/pmlab-lite"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c4/22/e1f17b45fccfe0e7352b31338e0e5b8a9e5ddd1796bedd47eacc90f29b95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

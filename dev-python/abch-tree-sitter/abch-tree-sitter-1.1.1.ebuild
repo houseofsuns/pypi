@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings to the Tree-sitter parsing library"
 
 HOMEPAGE="https://github.com/Ackee-Blockchain/py-tree-sitter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/5f/88413cd3aa68e791328a522abfd9dccb3d211457abd3b4a579ff015587ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

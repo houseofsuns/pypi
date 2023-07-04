@@ -15,7 +15,7 @@ DESCRIPTION="Execute the first function that matches the given arguments."
 
 HOMEPAGE="https://github.com/kalekundert/signature_dispatch"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/98/17b9d428b002deadbe44993ddad60aecce6fc7527ddd9c0215ef3705d97f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

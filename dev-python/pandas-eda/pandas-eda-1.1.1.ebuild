@@ -15,7 +15,7 @@ DESCRIPTION="Exploratory Data Analysis app to display table and frequent values 
 
 HOMEPAGE="https://github.com/lisrael1/pandas_eda"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bf/bb/dd90a815ec69935b368356126f90315e677884edfa8fdd941e5c1b13a6c7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

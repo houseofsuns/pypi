@@ -15,7 +15,7 @@ DESCRIPTION="SDK for using LLM"
 
 HOMEPAGE="https://github.com/uripeled2/llm-client-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/72/c2/44dc4340cc3a3fdc879aedcaa318fa1b4a3028931507deba17d35d6a7ee9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

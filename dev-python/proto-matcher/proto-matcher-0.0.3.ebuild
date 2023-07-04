@@ -15,7 +15,7 @@ DESCRIPTION="Test matcher for protobuffer"
 
 HOMEPAGE="https://github.com/dayfine/proto-matcher"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/cf/13febd4ec52bf3275715f4b83770b889ea489e86593db5e6cbe5f9400d76/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

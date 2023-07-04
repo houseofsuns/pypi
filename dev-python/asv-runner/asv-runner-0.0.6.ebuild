@@ -15,7 +15,7 @@ DESCRIPTION="Core Python benchmark code for ASV"
 
 HOMEPAGE="https://haozeke.github.io/asv_runner/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/4a/d68bb49d874ca2681c32c459e6553ae282965a8d374547e26f6acbd5adcd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

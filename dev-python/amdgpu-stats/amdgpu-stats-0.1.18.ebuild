@@ -15,7 +15,7 @@ DESCRIPTION="A module/TUI for AMD GPU statistics"
 
 HOMEPAGE="https://github.com/joshlay/amdgpu_stats"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/a5/723749794a0abfb2b5520bface067416703efd48f18da6ffb38204e437d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

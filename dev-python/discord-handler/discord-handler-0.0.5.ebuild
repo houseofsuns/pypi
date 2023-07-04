@@ -15,7 +15,7 @@ DESCRIPTION="A small discord handler for the logging module using webtokens"
 
 HOMEPAGE="https://github.com/traysercassa/DiscordHandler"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/76/48edb67b9e10a917fa48e13ee6889bbad8572fd76601aee2412e04967fcb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

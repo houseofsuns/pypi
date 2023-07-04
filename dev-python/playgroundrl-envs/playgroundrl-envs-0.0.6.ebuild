@@ -15,7 +15,7 @@ DESCRIPTION="The environments hosted on Playground RL"
 
 HOMEPAGE="http://pypi.python.org/pypi/playgroundrl_envs/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6e/85/23ce97fa41e4b21e2b05c93c4817690b828a9bfc35d6c38f4dc06f996748/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

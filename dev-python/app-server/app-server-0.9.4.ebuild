@@ -15,7 +15,7 @@ DESCRIPTION="a lightweight web application launcher for gunicorn and static file
 
 HOMEPAGE="https://github.com/XeoN-GHMB/app_server"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/88/206d29edb495c88ab56a6334f796773930947b47652007792708d361bd51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

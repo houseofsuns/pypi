@@ -15,7 +15,7 @@ DESCRIPTION="The Onshape Xblock used to grade Onshape elements according to a nu
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/be/cb/374fe767f22e0c1ae6ab14098b25e8b9bfada9bf9fa957fb95dd836ad49a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

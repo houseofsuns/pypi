@@ -15,7 +15,7 @@ DESCRIPTION="A GeoJSON client library."
 
 HOMEPAGE="https://github.com/exxamalte/python-geojson-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f9/8a/0120d424116693cae6c6a37aee225feea92307792ffadce65e9d2f9294c2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

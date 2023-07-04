@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing Twingate cloud resources
 
 HOMEPAGE="https://www.twingate.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/40/0e/8acbc3c3a8fc3f07f35bfae3117c51371ecefb12cdf349ba3d3bf7671bdc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

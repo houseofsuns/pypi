@@ -15,7 +15,7 @@ DESCRIPTION="A Python logging handler that sends zuul conponent logs to Splunk"
 
 HOMEPAGE="https://github.com/lidall/splunk_handler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/af/f7c009d26d5935d1f963a4d7c3ca38d4bd97912a223a88896f7bdbf5b8d0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

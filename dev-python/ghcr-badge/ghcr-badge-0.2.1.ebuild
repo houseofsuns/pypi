@@ -15,7 +15,7 @@ DESCRIPTION="Generate ghcr.io container's status badge"
 
 HOMEPAGE="https://github.com/eggplants/ghcr-badge"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/22/0d1449915407816a287c22b2be1c11156dd2e727d51cbbfdfeeaa184df29/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

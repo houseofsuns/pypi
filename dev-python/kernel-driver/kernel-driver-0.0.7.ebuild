@@ -15,7 +15,7 @@ DESCRIPTION="A Jupyter kernel driver"
 
 HOMEPAGE="https://github.com/davidbrochart/kernel_driver"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3e/3c/b4e99eb9063eed5fa78486d41fe3459ddc06e0fc7e7c00b8fb09f06d2664/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

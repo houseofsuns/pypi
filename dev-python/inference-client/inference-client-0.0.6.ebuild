@@ -15,7 +15,7 @@ DESCRIPTION="Python Client for Jina Inference API"
 
 HOMEPAGE="https://inference-api.jina.ai"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b6/e2/07c8f968a6cc3d329133eb7f3c3e2df72078408152a4c32e0633ba8bb69c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

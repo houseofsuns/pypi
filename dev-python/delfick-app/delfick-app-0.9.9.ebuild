@@ -15,7 +15,7 @@ DESCRIPTION="Customized App mainline helper"
 
 HOMEPAGE="http://github.com/delfick/delfick_app"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/85/ef/2bb69fbb3a2fcd5541801b193c707e79d2f01a1112a9c29efafc56d8a71f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

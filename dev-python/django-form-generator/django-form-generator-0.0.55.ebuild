@@ -15,7 +15,7 @@ DESCRIPTION="An app to create any form in django admin panel."
 
 HOMEPAGE="https://github.com/m3h-D/Form-Generator/tree/main"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/5e/fd5e72fd0817f48169bb973c1678fb347899b98f4831aaa68e238638d09f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

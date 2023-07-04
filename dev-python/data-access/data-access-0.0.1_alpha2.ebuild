@@ -15,7 +15,7 @@ DESCRIPTION="A library for easy multi-source data access"
 
 HOMEPAGE="https://github.com/LearningAnalyticsITMO/data-access"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9c/86/35907c5196a68589d5cbe997d4f21386eb227406d34a5670592fd5408d95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Sym's Python SDK"
 
 HOMEPAGE="https://sdk.docs.symops.com/"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/6c/e4/6bb239f7e35ce2835ea63fafff12533263fe7addd1784d35d29c90e8c6ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

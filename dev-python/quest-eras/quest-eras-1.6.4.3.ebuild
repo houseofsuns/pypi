@@ -15,7 +15,7 @@ DESCRIPTION="Sandia National Laboratories application suite for energy storage a
 
 HOMEPAGE="https://www.github.com/snl-quest/snl-quest"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/40/fa/c14910ad844a0e816fefb087b3aa4692222d79db0ea0a41fa895965b9d5a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

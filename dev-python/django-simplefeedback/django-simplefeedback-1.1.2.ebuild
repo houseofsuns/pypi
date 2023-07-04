@@ -15,7 +15,7 @@ DESCRIPTION="A simple Django app to handle user tickets."
 
 HOMEPAGE="https://github.com/pulilab/django-simple-feedback"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/b5/03df4e21c8fafb8dc208793b10eadc3f74278c0fbed542d2808b2e35cb41/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Allows to execute subprocess commands and get their output in real-
 
 HOMEPAGE="https://github.com/biomapas/B.ContinuousSubprocess.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f5/33/b894396b0445c22ab4dfe9486b9bdf6bc5012c9202bd9b40ac48870d060c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

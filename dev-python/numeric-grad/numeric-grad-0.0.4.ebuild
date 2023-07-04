@@ -15,7 +15,7 @@ DESCRIPTION="Small library for computing gradients of functions that are commonl
 
 HOMEPAGE="https://github.com/anil-gurbuz/Numeric-grad"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/6b/6dc5d8015ba8a30e74b5196a647e77be695c05e83389f8918aac2b49660b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

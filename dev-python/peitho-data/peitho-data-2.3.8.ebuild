@@ -15,7 +15,7 @@ DESCRIPTION="An opinionated Python package on Big Data Analytics"
 
 HOMEPAGE="https://github.com/QubitPi/peitho-data"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5d/98/16a113f6e96729c49330d6bee3332006b2d33941e97fb24a02f17bc2c7c8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

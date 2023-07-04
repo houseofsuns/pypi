@@ -15,7 +15,7 @@ DESCRIPTION="Whatsapp API - Envio de Mensagem Automática - PT-BR."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/44/f18d0d1a6fbefff30feab72ad7a2c8acc669fb71c60d5cc50c9cefe7c937/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

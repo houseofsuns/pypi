@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/ssttkkl/nonebot-plugin-access-control"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/95/a77c533002b72b45fac182a639ae21b91ffc5fb536d4904406f89b74cc01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

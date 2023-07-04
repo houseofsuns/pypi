@@ -15,7 +15,7 @@ DESCRIPTION="Pytest plugin, meant to facilitate unit tests writing for tools con
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/b4/c1f1c0245af88c5b2e9cdb5243d3eec0a9957bb4fc9ca83bfc9bed9cd7db/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

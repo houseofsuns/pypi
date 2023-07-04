@@ -15,7 +15,7 @@ DESCRIPTION="Base bot class for Star Citizen players"
 
 HOMEPAGE="https://github.com/Mirdalan/base_astro_bot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/70/ea89c2607e1f802ec422e118643f531de1d9b780567a399997bf85457812/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

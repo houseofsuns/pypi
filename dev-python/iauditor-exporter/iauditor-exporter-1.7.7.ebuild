@@ -15,7 +15,7 @@ DESCRIPTION="DO NOT USE. This package is deprecated, please see https://github.c
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e5/1d/502ad5dd579703c7c835d2f1ee5809325d003a56f20c29f2af91808c5c22/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

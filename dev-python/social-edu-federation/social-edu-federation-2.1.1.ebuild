@@ -15,7 +15,7 @@ DESCRIPTION="An SAML backend for python-social-auth dedicated to education feder
 
 HOMEPAGE="https://github.com/openfun/social-edu-federation"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b6/6e/9d31ae096578d90550b091d29e53adebe6925cc6e43b3a4d159999325927/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

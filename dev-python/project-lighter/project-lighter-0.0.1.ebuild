@@ -15,7 +15,7 @@ DESCRIPTION="YAML-based automated rapid prototyping framework for deep learning 
 
 HOMEPAGE="https://github.com/lighter/lighter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/2e/476a9e65c2707692a91c0c20c4715e39daa32116cd3a7badbca0cdc186a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

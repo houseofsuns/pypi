@@ -15,7 +15,7 @@ DESCRIPTION="This python module allows to extract data from the RAW-file-format 
 
 HOMEPAGE="https://github.com/ethz-institute-of-microbiology/fisher_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/98/70/170493b32bf5fa7bc4453ba9d9101685ade1eabd1426020007071bbf3af9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

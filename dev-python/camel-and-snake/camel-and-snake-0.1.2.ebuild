@@ -15,7 +15,7 @@ DESCRIPTION="camelCase to snake_case or snake_case to camelCase for Python dict 
 
 HOMEPAGE="https://github.com/Cphayim/camel-and-snake"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/09/38/87f4607357902e9e591830ec1036b696654941acea33af0ba1a2cc826fba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

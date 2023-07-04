@@ -15,7 +15,7 @@ DESCRIPTION="A library for uploading data to and downloading reports from NEMO c
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/8b/377d10d231e88ee1926c2ecb53c5e77df16acfb2a34bf4c4963d3844dff8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

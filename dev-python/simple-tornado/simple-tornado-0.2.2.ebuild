@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/codeskyblue/simple_tornado"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/e3/7cd98d685cd2bc875c77297ff49b238238aa99d020b50681ce2cd2ddaffa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

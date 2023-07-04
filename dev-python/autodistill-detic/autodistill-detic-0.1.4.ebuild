@@ -15,7 +15,7 @@ DESCRIPTION="DETIC module for use with Autodistill"
 
 HOMEPAGE="https://github.com/autodistill/autodistill-detic"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c6/44/a702c95eaac0bf6782143657f5a62398bb906f4843cfa10169036c85c994/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

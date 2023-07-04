@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper for the American Community Survey Data"
 
 HOMEPAGE="https://github.com/diegompin/american-community-survey"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/95/18/c75b5e5dd4dd325551e319bf66ebb92f6c9146b1e67111a5e124ba1711c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

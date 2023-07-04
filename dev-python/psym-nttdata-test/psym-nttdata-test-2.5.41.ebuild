@@ -15,7 +15,7 @@ DESCRIPTION="Tool for accessing and modifying Symphony database"
 
 HOMEPAGE="https://github.com/facebookincubator/symphony"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ac/c7/8383445250cc6a1b8880c7efca2d236001b85fb18804545d849de0aea8a3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

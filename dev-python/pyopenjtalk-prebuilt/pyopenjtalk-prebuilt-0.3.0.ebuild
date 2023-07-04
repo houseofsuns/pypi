@@ -15,7 +15,7 @@ DESCRIPTION="A python wrapper for OpenJTalk"
 
 HOMEPAGE="https://github.com/r9y9/pyopenjtalk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/8a/054037f3c9517b0ed318b1817a6fa650fb88c4f6972afcb3452df9ee33d9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

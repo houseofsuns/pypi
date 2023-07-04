@@ -15,7 +15,7 @@ DESCRIPTION="Shim for rdflib 5 and 6 incompatibilities"
 
 HOMEPAGE="http://hsolbrig.github.io/rdflib-shim"
 LICENSE="CC0 1.0 Universal"
-SRC_URI="https://files.pythonhosted.org/packages/1b/c8/1014ec6b5f4428c630deffba1f9851043ae378eb1d6ef52a03bd492cea99/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="This plugin adds utilities for working with files to the katalytic 
 
 HOMEPAGE="https://gitlab.com/katalytic/katalytic-files.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/01/0d/11a61e831c10ef8e22463dcb811593d269b4d406196c8c6337a0182df496/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Send responses to httpx."
 
 HOMEPAGE="https://colin-b.github.io/pytest_httpx/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d1/eb/34228b57475c0f86829c8268e02a8fabd6ce9cf89bfaace7625949c80ee8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

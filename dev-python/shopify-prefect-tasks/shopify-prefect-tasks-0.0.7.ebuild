@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/aporacloudmobile/shopify_prefect_tasks"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/d8/1501177e35a4276a90a63bdd738773243f4c05441b9271b0a72528c87d72/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

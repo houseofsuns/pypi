@@ -15,7 +15,7 @@ DESCRIPTION="Extension of a Covmatic Station class that can control a RobotManag
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/0c/3edb741b65a64198477e45073ed4f2d09019a3bd7553998f9b86a57f2bd2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

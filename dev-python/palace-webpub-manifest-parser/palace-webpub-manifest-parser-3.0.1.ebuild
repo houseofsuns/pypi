@@ -15,7 +15,7 @@ DESCRIPTION="A parser for the Readium Web Publication Manifest, OPDS 2.0 and ODL
 
 HOMEPAGE="https://github.com/ThePalaceProject/webpub-manifest-parser"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/80/ce/27e0510d5969edf4c8ef81bd7b9d0874e4995f2fcb3af429f36dec5eda94/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

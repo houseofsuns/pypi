@@ -15,7 +15,7 @@ DESCRIPTION="Super classes for blueprint development"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/84/98/e9bd492f861935af2a0507042eadc1f3ce5e163c4994d2f8ac9b0a6e0237/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

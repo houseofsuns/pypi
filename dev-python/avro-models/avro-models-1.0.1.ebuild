@@ -15,7 +15,7 @@ DESCRIPTION="Object-relational mapping for AVRO schema"
 
 HOMEPAGE="https://github.com/kun-fang/avro-data-model"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/43/ab/b2306b5f83f274e0a270e4e7054979b45284215e5c7b74b4afeb9dfaca52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

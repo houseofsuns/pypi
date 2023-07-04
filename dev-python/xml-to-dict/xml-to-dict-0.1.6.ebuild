@@ -15,7 +15,7 @@ DESCRIPTION="A simple Python XML to Dictionary parser"
 
 HOMEPAGE="https://github.com/xthehatterx/xml_to_dict"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/d1/b492e9eaf2c552dba27247f92e972620fd57d47a7f79b6dc4d8c40fec1ce/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

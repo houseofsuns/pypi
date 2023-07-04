@@ -15,7 +15,7 @@ DESCRIPTION="Bond Price with YTM/zero-curve & NPV, IRR, annuities"
 
 HOMEPAGE="https://github.com/jrvarma/bond_pricing"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/d3/d292afb30686364f719624cf6883f1726aece43c99179b58bde3dbf05514/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

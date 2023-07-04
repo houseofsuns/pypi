@@ -15,7 +15,7 @@ DESCRIPTION="An efficient package to read fortran-record files in Python."
 
 HOMEPAGE="https://github.com/cphyc/cython_fortran_file"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/87/b8300f8c3b75e923aa4e1742aabe23eaded96d2e7e761754e31c6ea10a66/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

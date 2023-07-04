@@ -15,7 +15,7 @@ DESCRIPTION="Replicate humanity data in databricks"
 
 HOMEPAGE="https://github.com/neofinancial/humanity_etl"
 LICENSE="UNLICENSED"
-SRC_URI="https://files.pythonhosted.org/packages/3f/0b/884b9d8d80cfb22aa67e34bb41d7538673e538c577d01ed99ba3fc638dd9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Client for Calcbench data."
 
 HOMEPAGE="https://github.com/calcbench/python_api_client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f1/e1/89c49d306d923be2549c0071651188aa7c7f0e2ebdbbeaf3e050288d8371/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

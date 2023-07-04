@@ -15,7 +15,7 @@ DESCRIPTION="Word-level alignments for Bibles, including both automatic alignmen
 
 HOMEPAGE="https://github.com/Clear-Bible/Alignments"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a3/c6/a617c2cbb4e534976528f18655dfb114f4b8a3eeba1b6e9636af79708bbd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

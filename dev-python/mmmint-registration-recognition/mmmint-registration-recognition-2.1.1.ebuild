@@ -15,7 +15,7 @@ DESCRIPTION="An interface to execute Fahrzeugschein API commands using Python"
 
 HOMEPAGE="https://api.mmmint.ai/fahrzeugschein/v1/docs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3e/f2/c8342e7050379369e610933ccbf3f48f9e98eaed3c1c9c7c2ff4b38cce78/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

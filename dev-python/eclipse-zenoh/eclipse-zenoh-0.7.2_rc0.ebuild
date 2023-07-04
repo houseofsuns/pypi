@@ -15,7 +15,7 @@ DESCRIPTION="The python API for Eclipse zenoh"
 
 HOMEPAGE=""
 LICENSE="EPL-2.0 OR Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2e/3e/6f22ea2d0b5a75fb73922c9a409a21633c22b4094bdaf740aed443e1e3fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

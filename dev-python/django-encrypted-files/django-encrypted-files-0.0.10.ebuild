@@ -15,7 +15,7 @@ DESCRIPTION="Encrypt files uploaded to a Django application."
 
 HOMEPAGE="https://github.com/eblocha/django-encrypted-files"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/d1/8a0b4336a8a9014291f52853277c2f6614f462c4bab074ef48310fb29c28/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

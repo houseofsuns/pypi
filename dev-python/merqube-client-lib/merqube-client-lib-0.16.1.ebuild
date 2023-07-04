@@ -15,7 +15,7 @@ DESCRIPTION="MerQube IndexAPI + SecAPI client library"
 
 HOMEPAGE="https://github.com/merqube/merqube-client-lib"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/79/ef/aee3b9648c62a6750939459a51cbbd7039f21229afc1371a319361626176/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

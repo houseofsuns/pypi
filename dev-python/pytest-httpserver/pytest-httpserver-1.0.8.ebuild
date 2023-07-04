@@ -15,7 +15,7 @@ DESCRIPTION="pytest-httpserver is a httpserver for pytest"
 
 HOMEPAGE="https://github.com/csernazs/pytest-httpserver"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/7c/4faed1c0633136fa5ce2242812910e31cbd501d1b3613d2f0213bc6cb238/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings to the docker-api-rs crate"
 
 HOMEPAGE="https://github.com/dylanbstorey/docker-pyo3"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b8/13/f59259f58b990c052d9ec3f454ba2102c6ec595f415e0a32d9c6bde2a8c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

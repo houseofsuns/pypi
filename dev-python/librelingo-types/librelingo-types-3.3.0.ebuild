@@ -15,7 +15,7 @@ DESCRIPTION="Data types to be used in Python packages for LibreLingo"
 
 HOMEPAGE=""
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c6/71/b325dd3524f926e182acc8ad0c578dbb522685a62efc3a2af1606c0189cb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

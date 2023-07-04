@@ -15,7 +15,7 @@ DESCRIPTION="AWS DataOps Development Kit - CLI"
 
 HOMEPAGE="https://github.com/awslabs/aws-ddk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/91/78/48e817d78498420eb20faf637c82fcbca213b3a197b0e292772d39804aa1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

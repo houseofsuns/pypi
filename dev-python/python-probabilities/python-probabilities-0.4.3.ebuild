@@ -15,7 +15,7 @@ DESCRIPTION="Library for accurate statistical calculations using Python."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ef/8d/5ae2c1dcb4f36346cfbf4ca75ada0ac22d44dd5f52b418279bf9508ba8b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

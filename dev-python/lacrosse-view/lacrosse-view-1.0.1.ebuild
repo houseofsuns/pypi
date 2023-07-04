@@ -15,7 +15,7 @@ DESCRIPTION="Client for retrieving data from the La Crosse View cloud"
 
 HOMEPAGE="https://github.com/IceBotYT/lacrosse_view"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a9/8b/f2ce28eca11407bfb15f2c1e08ab6e0449bc4e45184bcdafed6b967b2430/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

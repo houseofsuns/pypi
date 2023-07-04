@@ -15,7 +15,7 @@ DESCRIPTION="AlekSIS (School Information System) — Core"
 
 HOMEPAGE="https://aleksis.org/"
 LICENSE="EUPL-1.2-or-later"
-SRC_URI="https://files.pythonhosted.org/packages/54/8a/47d26deb05e4b1ec7be46931d6dfae5090b207fbdb64b23b39274476a154/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

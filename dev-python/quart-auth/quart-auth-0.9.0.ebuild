@@ -15,7 +15,7 @@ DESCRIPTION="A Quart extension to provide secure cookie authentication"
 
 HOMEPAGE="https://github.com/pgjones/quart-auth/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/b7/e961ec1281e1e14cc5ec9805c0ea9fa56d11ded94ed994f0a466dc5e1f91/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

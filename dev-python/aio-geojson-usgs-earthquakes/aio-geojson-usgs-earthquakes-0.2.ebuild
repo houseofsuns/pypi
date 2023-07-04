@@ -15,7 +15,7 @@ DESCRIPTION="An async GeoJSON client library for the U.S. Geological Survey Eart
 
 HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-usgs-earthquakes"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/4d/03f5faec8196ae8c7c7d08b1e02ed27dd5d019ddd7b03bedbe2fedebae1f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="CSF: Ground Filtering based on Cloth Simulation"
 
 HOMEPAGE="http://ramm.bnu.edu.cn/projects/CSF/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0f/bb/7f3c0bced45ab76b1765ad76bd416cd898fe0d5e97624cef4f1446e5e80e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

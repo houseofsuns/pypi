@@ -15,7 +15,7 @@ DESCRIPTION="Google Cloud Platform Friendly Pilot"
 
 HOMEPAGE="https://github.com/flamingo-run/gcp-pilot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/28/fffe4c92a263c021a38728a704fdf9a1e40b102ed977417a26b02e8d1bb3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

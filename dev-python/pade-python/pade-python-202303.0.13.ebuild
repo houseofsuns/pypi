@@ -15,7 +15,7 @@ DESCRIPTION="Program Agnostic Data Ecosystem (PADE) - Python Services"
 
 HOMEPAGE="https://test.pypi.org/project/pade-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/26/fd/6ae87b6511e9b3806bb6e091c300363af717be40526537bbde5c82575a63/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

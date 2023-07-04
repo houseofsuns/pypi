@@ -15,7 +15,7 @@ DESCRIPTION="Management of resources on System Center Virtual Machine Manager (S
 
 HOMEPAGE="https://github.com/MP-ES/vmm_manager"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/d9/81946a49603bdb0ed81f88a650fab09052c53add533b0678185d89dab2de/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

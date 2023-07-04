@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://pypi.org/project/kabbes_smart_documentation"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/e8/af8e942d882bf6b4f9da8c55d21e45f3318b83a77edd37b65a3a266065c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

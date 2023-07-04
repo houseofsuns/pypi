@@ -15,7 +15,7 @@ DESCRIPTION="A set of tools to help building or using Sequana pipelines"
 
 HOMEPAGE="https://github.com/sequana/sequana_pipetools"
 LICENSE="new BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ea/07/ea9aa3e08249828c1c2f9f8c6a66b20b5a0165a0867aa7875e9c40b6e5d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

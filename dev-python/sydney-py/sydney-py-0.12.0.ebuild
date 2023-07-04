@@ -15,7 +15,7 @@ DESCRIPTION="Python Client for Bing Chat, also known as Sydney."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/52/93b2bab55cc6353081a65458d7d6b0daece90eea36a5ee76283dc9ddf911/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

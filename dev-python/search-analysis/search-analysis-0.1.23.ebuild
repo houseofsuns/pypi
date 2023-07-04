@@ -15,7 +15,7 @@ DESCRIPTION="The search analysis library contains multiple tools to help you ana
 
 HOMEPAGE="https://github.com/pragmalingu/search-analysis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/33/6596d9be437977de487eb758dda2fd957514dba45d673bf9fd99b9fde430/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

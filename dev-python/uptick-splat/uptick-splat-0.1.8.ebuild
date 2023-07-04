@@ -15,7 +15,7 @@ DESCRIPTION="Django library for invoking splat"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f6/8d/da870c950da2935b4aaf799d36901ec9b0cfa4c8f0f2dc39f131b8d44e23/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Basic GeoTIFF Processing"
 
 HOMEPAGE="https://github.com/albinwwells/Raster-Basics"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ab/63/568937d89acc4fc159d8795df87d0166ab88cf5d279b65378497cd8e61a9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

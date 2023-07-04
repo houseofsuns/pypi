@@ -15,7 +15,7 @@ DESCRIPTION="Bilibili activity monitor plugin for nonebot"
 
 HOMEPAGE="https://github.com/7sDream/nonebot-plugin-bam"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/ce/1389424f97de6144316ff47060cc453f3f7fd2530d7054ad8f58c39dde1d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

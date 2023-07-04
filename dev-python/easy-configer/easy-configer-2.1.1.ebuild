@@ -15,7 +15,7 @@ DESCRIPTION="An easy way for configurating python program by the given config fi
 
 HOMEPAGE="https://github.com/HuangChiEn/easy_config"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/1a/c8fb6ff9c8926941d43b63c97ba34083579dcfcce9f639c1837386811919/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

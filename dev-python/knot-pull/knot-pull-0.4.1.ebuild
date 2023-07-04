@@ -15,7 +15,7 @@ DESCRIPTION="Simplifier of 3D structures of molecules"
 
 HOMEPAGE="https://github.com/dzarmola/knot_pull"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/30/85/5496b87894b5ecbe7850658ccaa30b9e78d36fcaa430c284428b1e730d86/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

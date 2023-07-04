@@ -15,7 +15,7 @@ DESCRIPTION="CPVB Kuglebane Controller - forår 2023"
 
 HOMEPAGE="https://github.com/Coding-Pirates-Viborg/kuglebane-controller"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7b/00/9e29570cd56465a0ba3846be0e4d880005e313d4cb6256dc373e389dbb39/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

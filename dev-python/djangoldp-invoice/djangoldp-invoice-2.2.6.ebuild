@@ -15,7 +15,7 @@ DESCRIPTION="djangoldp package for invoicing data models"
 
 HOMEPAGE="https://git.startinblox.com/djangoldp-packages/djangoldp-invoices"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/85/da9a83391635f3fffbb3942c8393a68d60507d4a246da3f79f2fda479306/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

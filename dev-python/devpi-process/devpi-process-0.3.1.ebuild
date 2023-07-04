@@ -15,7 +15,7 @@ DESCRIPTION="devpi process provides a programmatic API to create and use a devpi
 
 HOMEPAGE="https://github.com/tox-dev/devpi-process#readme"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/b1/ebbc0111dbb666ab967f05e2d73d0f7b13c7607628ba1f40917b31100faf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

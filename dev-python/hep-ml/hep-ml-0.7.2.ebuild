@@ -15,7 +15,7 @@ DESCRIPTION="Machine Learning for High Energy Physics"
 
 HOMEPAGE="https://github.com/arogozhnikov/hep_ml"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b2/c6/e3158c5b4177122e81c147a64f21920cc9aa509a787d099fcf7840aa0d8d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

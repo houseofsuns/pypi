@@ -15,7 +15,7 @@ DESCRIPTION="Helpers for react based applications running on django."
 
 HOMEPAGE="https://github.com/thorgate/tg-react"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/75/fd/0dc9fb06ad201ae26327334553fd393ff44c1bbfe2167b20efad71c8b318/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

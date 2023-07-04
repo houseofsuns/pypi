@@ -15,7 +15,7 @@ DESCRIPTION="Re-create gravitational wave pipeline events by time-shifting exist
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9f/7c/b53132a5a0f6e8b044e867ab91d8bf324225256de10108c95ddeb7f44fe3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

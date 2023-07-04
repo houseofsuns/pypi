@@ -15,7 +15,7 @@ DESCRIPTION="A framework for building backends in the cloud"
 
 HOMEPAGE="https://github.com/cmancone/clearskies"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/28/c0fc7d187bb8b6e5a41b74d4dc88dc4d540bf937b9acf3b27da0b7c7fd4c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="REST extension for Emmett framework"
 
 HOMEPAGE="https://github.com/emmett-framework/rest"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/bc/e7/47ecc6e9a9428e710ace8851b9433451468a8e0ca2c019594ddb497c77f6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

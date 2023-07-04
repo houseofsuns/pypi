@@ -15,7 +15,7 @@ DESCRIPTION="E-mail cloaking plugin for Pelican"
 
 HOMEPAGE="https://github.com/deme3/pelican-email-cloak"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/6e/93a242bbd27f3157c14ebdca4989141fc2d1e75116d08d2a5294af5115c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

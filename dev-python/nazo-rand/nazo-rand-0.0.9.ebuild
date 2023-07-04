@@ -15,7 +15,7 @@ DESCRIPTION="A fast random number generator for python"
 
 HOMEPAGE=""
 LICENSE="Free for non-commercial use"
-SRC_URI="https://files.pythonhosted.org/packages/4a/47/8dff15494a820ce1f3270d359647c0be50bec283b0521bc20ca8a11c88a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

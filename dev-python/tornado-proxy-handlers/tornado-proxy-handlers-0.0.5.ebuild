@@ -15,7 +15,7 @@ DESCRIPTION="Tornado proxy handlers"
 
 HOMEPAGE="https://github.com/timkpaine/tornado-proxy-handlers"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/17/9a/9b9f04eaf1614a68c4562785f402c50d8c9c8898c74ef636a64d3bc849d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

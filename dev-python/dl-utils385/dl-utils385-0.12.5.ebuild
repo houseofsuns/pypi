@@ -15,7 +15,7 @@ DESCRIPTION="Useful code for deep learning projects"
 
 HOMEPAGE="https://github.com/Lou1sM/dl_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/8e/a2bd689f1598ff90be76b25cd51bc609a8ee098ff57b77c702056d61cfb4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

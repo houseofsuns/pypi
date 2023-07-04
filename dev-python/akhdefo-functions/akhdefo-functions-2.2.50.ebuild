@@ -15,7 +15,7 @@ DESCRIPTION="Land Deformation Monitoring Using Optical Satellite Imagery"
 
 HOMEPAGE="https://github.com/mahmudsfu/AkhDefo"
 LICENSE="Academic Free License AFL"
-SRC_URI="https://files.pythonhosted.org/packages/8c/68/838775594128dbf64ddf6fb294dab7a23ca49e69c5b816ee94bcb9d37fc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

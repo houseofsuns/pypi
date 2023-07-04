@@ -15,7 +15,7 @@ DESCRIPTION="A powerful filter driver for Git which can automatically apply loca
 
 HOMEPAGE="https://ktpanda.org/software/git_smudge"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/75/3387b6cc2f47398c418f7d6935757671d3b0c70336e878d955dee2785705/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

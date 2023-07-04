@@ -15,7 +15,7 @@ DESCRIPTION="The NASA Prognostics Algorithm Package is a framework for model-bas
 
 HOMEPAGE="https://nasa.github.io/progpy/prog_algs_guide.html"
 LICENSE="NOSA"
-SRC_URI="https://files.pythonhosted.org/packages/81/8b/47c794a1cb35046c9c3332ad51d138f2987f94f817bbccd91c5c21928f7e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

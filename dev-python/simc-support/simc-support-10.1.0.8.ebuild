@@ -15,7 +15,7 @@ DESCRIPTION="Data to support simulations for World of Warcraft with SimulationCr
 
 HOMEPAGE="https://github.com/Bloodmallet/simc_support"
 LICENSE="GNU GENERAL PUBLIC LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/ca/85/8030a8ad7a1a74ca6ca064d56a6ab4e045e7241d5993eb3d2b014f2c5e97/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

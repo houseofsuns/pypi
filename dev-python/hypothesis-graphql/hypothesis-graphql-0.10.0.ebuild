@@ -15,7 +15,7 @@ DESCRIPTION="Hypothesis strategies for GraphQL queries"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/18/e9c6375162bf2863feb6e073d649eff7e2f12eb9f6f028e05a72fbd69fee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

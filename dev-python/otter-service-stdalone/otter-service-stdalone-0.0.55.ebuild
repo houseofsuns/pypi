@@ -15,7 +15,7 @@ DESCRIPTION="Grading Service for Instructors using Otter Grader"
 
 HOMEPAGE="https://github.com/sean-morris/otter-service-stdalone"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7b/79/8bda1bd26ca3250708180e797e755caadabc214584cbfc913aec984072a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

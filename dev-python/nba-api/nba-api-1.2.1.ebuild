@@ -15,7 +15,7 @@ DESCRIPTION="An API Client package to access the APIs for NBA.com"
 
 HOMEPAGE="https://github.com/swar/nba_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/ed/c9cf72f4f38b45647c23a2de83cda00912248306c90baf3642b7d51b2e9c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

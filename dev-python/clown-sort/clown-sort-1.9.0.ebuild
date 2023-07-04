@@ -15,7 +15,7 @@ DESCRIPTION="Sort screenshots based on rules or through individual review."
 
 HOMEPAGE="https://github.com/michelcrypt4d4mus/clown_sort"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/54/8b73bcfe8c3b9a016d151b28fe3f1775569a65c8a12efd0a36e9785a8c9a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

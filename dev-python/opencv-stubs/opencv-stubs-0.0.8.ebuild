@@ -15,7 +15,7 @@ DESCRIPTION="Unofficial stubs for the opencv-python package."
 
 HOMEPAGE="https://github.com/hoel-bagard/opencv-stubs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/39/069390e31eed2f92b61a5dcaf4d4febe29ce870ccd9df362354f0e2a77ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

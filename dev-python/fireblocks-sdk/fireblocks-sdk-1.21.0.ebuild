@@ -15,7 +15,7 @@ DESCRIPTION="Fireblocks python SDK"
 
 HOMEPAGE="https://github.com/fireblocks/fireblocks-sdk-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/30/d45558aa32559764a4be15c9345d64c462e6f21a9d936abe06c377ecc8a1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

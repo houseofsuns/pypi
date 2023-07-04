@@ -15,7 +15,7 @@ DESCRIPTION="MinKNOW RPC API bindings"
 
 HOMEPAGE="https://github.com/nanoporetech/minknow_api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/f6/783c95f73cbc82647a094e25ca671909193f0aed1075b367fab067c0af7a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

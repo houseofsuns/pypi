@@ -15,7 +15,7 @@ DESCRIPTION="Metadata producer tooling used in nOps.io"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/2c/d6fbcac978f45d53f10db94de59a367ff7890840829cbfb2589011481810/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

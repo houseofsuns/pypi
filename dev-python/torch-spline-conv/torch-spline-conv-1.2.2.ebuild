@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of the Spline-Based Convolution Operator of SplineCN
 
 HOMEPAGE="https://github.com/rusty1s/pytorch_spline_conv"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a0/50/5f80c47bf09b561ded0981b088ab0064424843696aa35b3b83afde421e56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

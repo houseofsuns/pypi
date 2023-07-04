@@ -15,7 +15,7 @@ DESCRIPTION="Collection of tools for working with Open Source licenses"
 
 HOMEPAGE="https://github.com/stefan6419846/license_tools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0d/e6/c67c4192a84e775b4ae0299aedd30359ba2e3fc0aad8eaf946aaf179e1fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

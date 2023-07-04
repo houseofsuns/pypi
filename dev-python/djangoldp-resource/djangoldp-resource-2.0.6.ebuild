@@ -15,7 +15,7 @@ DESCRIPTION="djangoldp resource package"
 
 HOMEPAGE="http://git.startinblox.fr/djangoldp-packages/djangoldp-resource"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d3/14/51f12625ce63981e15e4ca0411b7699972d6c4d12048a3d7e2928983a74a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

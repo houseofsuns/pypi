@@ -15,7 +15,7 @@ DESCRIPTION="Simple Python wrapper for Uptime Kuma"
 
 HOMEPAGE="https://github.com/jayakornk/pyuptimekuma"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/dc/51e9653d80032ccda5ee3dd820cf105cd4fe4bfde8007facac63733ea607/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="AlpacaEval : An Automatic Evaluator of Instruction-following Models
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a9/93/aa283517163b81448844b2707e7a25f15ea80c2d1bb57f6cff97cc758791/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

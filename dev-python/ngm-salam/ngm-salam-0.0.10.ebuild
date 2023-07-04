@@ -15,7 +15,7 @@ DESCRIPTION="Just a demo project"
 
 HOMEPAGE="https://github.com/ngmaibulat/training-python-packaging"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cb/31/587ed35180ad373b530b667c9dce408243cf4b4297661877a8dcc225ab4e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="amdgpu fan controller"
 
 HOMEPAGE="https://github.com/chestm007/amdgpu-fan"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/72/62/e3be99eb952566b39401d1f0996a03af795633053ac4cfd6e7e590c1439c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

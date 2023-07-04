@@ -15,7 +15,7 @@ DESCRIPTION="TD Autosegmentation"
 
 HOMEPAGE="https://github.com/treasure-data-ps/ml_autosegmentation"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/39/f4/1555e580180bc6a9556520b67ace2768f99bcec054c3535704a569cb2741/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

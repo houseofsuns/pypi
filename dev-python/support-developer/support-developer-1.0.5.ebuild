@@ -15,7 +15,7 @@ DESCRIPTION="Package designed to centralize messages to support developers devel
 
 HOMEPAGE="https://github.com/LucaCappelletti94/support_developer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3b/95/9c9ed5ec247f4deead00a7c3cd743bfb72cc1d4266b7dabadcda6821815d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

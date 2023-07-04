@@ -15,7 +15,7 @@ DESCRIPTION="Pattern matching Philippine Supreme Court citations."
 
 HOMEPAGE="https://lawsql.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/8a/b9a82ff880eb7d5f5fdce917559e3f80939c2797a7cf2c389fb4e8bacd1a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

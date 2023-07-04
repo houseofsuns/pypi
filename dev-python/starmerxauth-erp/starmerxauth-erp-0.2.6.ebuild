@@ -15,7 +15,7 @@ DESCRIPTION="starmerx verify jwt in erp"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/76/79/38b62d7c10bb5c574f0ebd4aa22611a209c028030898da29ed2a0030c9e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

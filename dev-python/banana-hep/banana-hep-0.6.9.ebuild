@@ -15,7 +15,7 @@ DESCRIPTION="Benchmark QCD physics"
 
 HOMEPAGE="https://github.com/N3PDF/banana"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/8a/a460a2a53a2660fc88e8ac29dd614b8515326384af046a39b879143a51e7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

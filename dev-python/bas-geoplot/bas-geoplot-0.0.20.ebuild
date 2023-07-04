@@ -15,7 +15,7 @@ DESCRIPTION="GeoPlot: BAS AI Lab plotting scripts built on Folium"
 
 HOMEPAGE="https://github.com/antarctica/GeoPlot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d9/b0/9e5ee13758264c745c19bb340b3481c16bdce811a108c2067a213f21b0d7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

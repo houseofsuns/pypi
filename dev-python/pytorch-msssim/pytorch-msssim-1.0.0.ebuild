@@ -15,7 +15,7 @@ DESCRIPTION="Fast and differentiable MS-SSIM and SSIM for pytorch."
 
 HOMEPAGE="https://github.com/VainF/pytorch-msssim"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/43/fd181aef46e96ed025f5056efa1c45e63c93d377fbe7ea784a21ce058d03/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

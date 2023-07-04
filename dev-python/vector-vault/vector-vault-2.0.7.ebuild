@@ -15,7 +15,7 @@ DESCRIPTION="VectorVault: Simplified vector database management in the cloud for
 
 HOMEPAGE="https://github.com/John-Rood/VectorVault"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/3d/ff3d34f6de093fd7023093c9348d7827643dea3aa3743663a6e5172c98dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

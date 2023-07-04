@@ -15,7 +15,7 @@ DESCRIPTION="Fleet SDK for building and managing chatGPT plugins"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/b7/ff1fc44da574875088d9233d0d45e99a5f6fc6752354de73023b39ed1231/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

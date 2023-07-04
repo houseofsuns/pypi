@@ -15,7 +15,7 @@ DESCRIPTION="djangoldp package for TZCLD"
 
 HOMEPAGE="https://git.startinblox.com/djangoldp-packages/djangoldp-tzcld"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/3e/251562b05e3a823c7f397b32dfa0677266a9199cdd06c3dc61c396d92236/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

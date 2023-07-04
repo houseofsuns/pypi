@@ -15,7 +15,7 @@ DESCRIPTION="The shared semantic layer definitions that dbt-core and MetricFlow 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/71/68cefc99838385547cf376fd77abba12ed66ed13f3ee206aaeb66a96150f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Generates API documentation from an OpenAPI specification file"
 
 HOMEPAGE="https://github.com/vrerv/openapi-markdown"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/b1/ae1b5fde9bcd14ca48ce83dda1bf5b5ba6fbb8cd30e5c0e821ebf962fabd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

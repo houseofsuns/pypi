@@ -15,7 +15,7 @@ DESCRIPTION="A package manager for KiCad projects"
 
 HOMEPAGE="https://github.com/danroblewis/kicad-package-manager"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/98/06fe865f6c3b5246eacdcdc12a78b70748ae295efebb43249dda3d720628/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="PyPI JSON API client library"
 
 HOMEPAGE="https://github.com/repo-helper/pypi-json"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e6/5e/66086b2572bd1379af1113cc6c8bd8e690d036272703ecee19e69182ec7b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

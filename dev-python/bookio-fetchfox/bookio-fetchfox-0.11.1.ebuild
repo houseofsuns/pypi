@@ -15,7 +15,7 @@ DESCRIPTION="Collection of API services to fetch information from several blockc
 
 HOMEPAGE="https://github.com/book-io/fetchfox"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/93/bd32a927d5c39a6a0083b2e9f54ea54afe9605bc5728ef3e0a67aa34f6bc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

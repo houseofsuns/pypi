@@ -15,7 +15,7 @@ DESCRIPTION="Python package - input_num is like input but it only accepts number
 
 HOMEPAGE="https://github.com/HexagonCore/input_num"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f5/1c/1011d796e966898052795f7de52d664398fda6a0b8a732ce520f5164508a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

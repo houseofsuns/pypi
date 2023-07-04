@@ -15,7 +15,7 @@ DESCRIPTION="Protect your AWS credentials in unit tests"
 
 HOMEPAGE="https://github.com/MartinAltmayer/pytest_aws_config"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/e7/97a40ae7306ca9437a3ab599b647ad9d38ecf19640e9a8f49422987cd01e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

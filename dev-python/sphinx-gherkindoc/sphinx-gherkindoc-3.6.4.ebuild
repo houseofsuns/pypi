@@ -15,7 +15,7 @@ DESCRIPTION="A tool to convert Gherkin into Sphinx documentation"
 
 HOMEPAGE="https://jolly-good-toolbelt.github.io/sphinx_gherkindoc/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/8f/db0d925750e05c3f5678e7b8486f7071674a66f6dc3a75d6dc946386b058/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

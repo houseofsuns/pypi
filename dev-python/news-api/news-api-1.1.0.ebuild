@@ -15,7 +15,7 @@ DESCRIPTION="API of news in China."
 
 HOMEPAGE="https://github.com/shinalone/news_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/4d/d8a656d2d003f38484bdd580a78369aadab5d386255d8a86e9ee7bcd51b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

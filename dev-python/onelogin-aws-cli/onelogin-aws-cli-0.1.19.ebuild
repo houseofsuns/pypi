@@ -15,7 +15,7 @@ DESCRIPTION="Onelogin assume AWS role through CLI"
 
 HOMEPAGE="https://github.com/physera/onelogin-aws-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/67/d6a330544a922736dff05aa699f003a606cabe9f7c1225fafd616464f26b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

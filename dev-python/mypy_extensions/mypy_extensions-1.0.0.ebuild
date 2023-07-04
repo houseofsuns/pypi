@@ -15,7 +15,7 @@ DESCRIPTION="Type system extensions for programs checked with the mypy type chec
 
 HOMEPAGE="https://github.com/python/mypy_extensions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/a4/1ab47638b92648243faf97a5aeb6ea83059cc3624972ab6b8d2316078d3f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

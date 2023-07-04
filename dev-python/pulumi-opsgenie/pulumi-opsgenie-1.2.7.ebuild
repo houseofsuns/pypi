@@ -15,7 +15,7 @@ DESCRIPTION="A Pulumi package for creating and managing opsgenie cloud resources
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7f/51/38aa443f3c6e0a8920299be9ada20e3ee4824772b602f55adaf5996b6716/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

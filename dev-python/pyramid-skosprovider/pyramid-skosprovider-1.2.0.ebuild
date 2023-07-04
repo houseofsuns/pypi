@@ -15,7 +15,7 @@ DESCRIPTION="Integration of skosprovider in pyramid"
 
 HOMEPAGE="https://github.com/OnroerendErfgoed/pyramid_skosprovider"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/89/e2/22c05ae381ffb03462a4e8e2edad994ff9368d14beb20043d1144b018495/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

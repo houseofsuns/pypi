@@ -15,7 +15,7 @@ DESCRIPTION="Some classes for RobotCode plugin management"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9d/e3/8bbb4f015247b5a5a128610b8f678926c66dd36ab048d0f0eccef3dba995/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

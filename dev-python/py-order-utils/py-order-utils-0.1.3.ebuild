@@ -15,7 +15,7 @@ DESCRIPTION="Python utilities used to generate and sign orders from Polymarket's
 
 HOMEPAGE="https://github.com/polymarket/python-order-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c0/ac/53afd67c4ebc6148424fee700782c2214d88403ea8d9476e4959e71056e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

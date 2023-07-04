@@ -15,7 +15,7 @@ DESCRIPTION="Commodore provides opinionated tenant-aware management of Kapitan i
 
 HOMEPAGE="https://github.com/projectsyn/commodore"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/fb/a7/32980204b5845ddab97c62a4f9ee0cd019300dcf7bde50ddf7fc43325a52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

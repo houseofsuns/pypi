@@ -15,7 +15,7 @@ DESCRIPTION="TA Sites"
 
 HOMEPAGE="https://www.thoughtfulautomation.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/8f/afcbe021a74bb72c099aa02091c71cbd53f87608cfb53dc760f50aa3b190/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

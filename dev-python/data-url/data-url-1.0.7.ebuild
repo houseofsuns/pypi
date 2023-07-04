@@ -15,7 +15,7 @@ DESCRIPTION="Easy Data URL management for python"
 
 HOMEPAGE="https://github.com/telday/data_url"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/86/f0/07763ce6424c9348ae206328f8a5c6c8f91440be44feed2d0520e07dd3ab/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

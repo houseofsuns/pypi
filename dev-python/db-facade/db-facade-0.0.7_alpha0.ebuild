@@ -15,7 +15,7 @@ DESCRIPTION="A simple library that provides an easy to use interface for databas
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/53/33/846f2cdd04da0c61d9bd509929df5b7c6ee6477d5703a097d3e098decabc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

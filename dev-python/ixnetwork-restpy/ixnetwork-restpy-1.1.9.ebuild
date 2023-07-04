@@ -15,7 +15,7 @@ DESCRIPTION="The IxNetwork Python Client"
 
 HOMEPAGE="https://github.com/OpenIxia/ixnetwork_restpy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/80/2c71d12b69fe74c1ceeb1ea1913d7afdaf5d82ec06f86338f86266b91b69/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

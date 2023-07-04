@@ -15,7 +15,7 @@ DESCRIPTION="Analysis of different batting orders given a lineup"
 
 HOMEPAGE="https://github.com/drewscottt/batting_order_analysis"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/ee/aafbc30687877e1ed7a04401ff1731543d0ee4fa797a15b327164db4bce7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

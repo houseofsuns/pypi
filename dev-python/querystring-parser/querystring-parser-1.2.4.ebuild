@@ -15,7 +15,7 @@ DESCRIPTION="QueryString parser for Python/Django that correctly handles nested 
 
 HOMEPAGE="https://github.com/bernii/querystring-parser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/fa/f54f5662e0eababf0c49e92fd94bf178888562c0e7b677c8941bbbcd1bd6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

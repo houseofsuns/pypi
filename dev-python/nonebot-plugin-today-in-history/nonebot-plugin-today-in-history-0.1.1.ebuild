@@ -15,7 +15,7 @@ DESCRIPTION="Send Today In History to friends or group chat"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/54/df/3c567f035888434a9dfa073e1ed6299b22b6ee88ea8d23705c5bfdb56e05/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

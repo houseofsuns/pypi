@@ -15,7 +15,7 @@ DESCRIPTION="A package for manipulating phonetic transcriptions"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/24/799463a0221dbf63f51a3f4194348a1fc7f312d2cb1d4874aef431cbbac4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

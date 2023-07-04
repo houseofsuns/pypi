@@ -15,7 +15,7 @@ DESCRIPTION="auto schema for a db"
 
 HOMEPAGE="https://github.com/lolopinto/ent/tree/master/python/auto_schema"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/6d/030e1c071632615fde2aa7d835c02761ff473a463d933bb6abf96074091a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

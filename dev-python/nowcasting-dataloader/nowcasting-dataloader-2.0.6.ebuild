@@ -15,7 +15,7 @@ DESCRIPTION="Nowcasting Dataloader"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/85/bf64f9a662ffba913b48bc4d8d8fdbdaaab4a9bc28def449513acce06dc3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

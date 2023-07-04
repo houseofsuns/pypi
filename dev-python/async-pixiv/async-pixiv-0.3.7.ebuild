@@ -15,7 +15,7 @@ DESCRIPTION="Async Pixiv API"
 
 HOMEPAGE="https://github.com/ArkoClub/async-pixiv"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/10/ee/6a0b373f66e711f665cbb744fb93ddf586ac34bdf58710c09bc266b4ea31/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

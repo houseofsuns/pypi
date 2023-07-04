@@ -15,7 +15,7 @@ DESCRIPTION="json提取器"
 
 HOMEPAGE="https://github.com/TIM952597205/json_tool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/97/f1/083e53002ffa6851d969e5338359079cb8be73a7b991231188c3b0a3b78c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

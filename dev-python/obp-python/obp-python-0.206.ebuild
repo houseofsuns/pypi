@@ -15,7 +15,7 @@ DESCRIPTION="Beta Open Bank Project Python Utilities"
 
 HOMEPAGE="https://github.com/chrisjsimpson/open-bank-project-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/8f/014f11647796c5a00c0d18e73625a481a957c34f09a93188cdc3249e004f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A class to represent a Bayes Network. And apply all the different s
 
 HOMEPAGE="https://github.com/srajan-kiyotaka/bayesNetSample"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ec/d2/4d51cf103e6d222b601154eaf925a3180b4b9290cb58b4263a7e7cc71296/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

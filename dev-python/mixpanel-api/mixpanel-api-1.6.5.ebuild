@@ -15,7 +15,7 @@ DESCRIPTION="Utilities-only module for exporting and importing data into Mixpane
 
 HOMEPAGE="http://www.mixpanel.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8f/9a/0e2a8dc05c92bbd39939a4021d89504fc2619f77ae3cd1f25f4989681075/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

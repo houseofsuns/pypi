@@ -15,7 +15,7 @@ DESCRIPTION="A nonebot plugin for facebook's audiocraft"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/38/dcba9732534dcc7aae5d2d3ffcbefc01cba16aaa9f3b9dbb83891d2d58c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

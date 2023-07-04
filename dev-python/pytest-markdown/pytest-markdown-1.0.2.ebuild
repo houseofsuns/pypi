@@ -15,7 +15,7 @@ DESCRIPTION="Test your markdown docs with pytest"
 
 HOMEPAGE="https://github.com/Jc2k/pytest-markdown"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fd/86/af9557d61facc5a1da065bacfae04cb5dd4ccce38a503b88fe4389b38c39/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

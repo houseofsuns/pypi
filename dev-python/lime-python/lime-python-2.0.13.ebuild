@@ -15,7 +15,7 @@ DESCRIPTION="This module implements the LIME protocol"
 
 HOMEPAGE="https://github.com/chr0m1ng/lime-python"
 LICENSE="apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/80/89/663723f809a4ed5dafb3ff453063633185ca874f54485926477f6775d7a4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

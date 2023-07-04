@@ -15,7 +15,7 @@ DESCRIPTION="Official repo for Foundation Models for Quantitative Biomarker Disc
 
 HOMEPAGE="https://aim.hms.harvard.edu/foundation-cancer-image-biomarker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/26/8db0522c0082ac46b2cf79a4a77a76379ba36ce5784002e0b2be7dc30a1c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

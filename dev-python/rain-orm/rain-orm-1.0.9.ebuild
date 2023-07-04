@@ -15,7 +15,7 @@ DESCRIPTION="a tiny orm frame"
 
 HOMEPAGE="https://github.com/cgynb/rain-orm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/fc/c59a9827390a3f03a26515716898d6064f2bd6b27267e2b1c1b7181be421/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

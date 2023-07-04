@@ -15,7 +15,7 @@ DESCRIPTION="Python implementation of several methods for ensembling boxes from 
 
 HOMEPAGE="https://github.com/ZFTurbo/Weighted-Boxes-Fusion"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/d4/d313c9de69f1d628fe66e73b44c876ce5db250c7ac41fb7c1ed14644198a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

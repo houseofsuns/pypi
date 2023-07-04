@@ -15,7 +15,7 @@ DESCRIPTION="Library to convert Google BigQuery Table Schema into Json Schema"
 
 HOMEPAGE="https://github.com/kislerdm/gbqschema_converter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/bf/ff87d048d082ede86c3ba7d554d9fa7510dda7a00c552b2f083a75f975ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

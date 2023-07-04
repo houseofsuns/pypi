@@ -15,7 +15,7 @@ DESCRIPTION="A Dash component for playing a variety of URLs."
 
 HOMEPAGE="https://github.com/plotly/dash-player"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ec/6d/2b07f88c559cb54c9ccc4ee167d250dee0782e7bf649d0aa7198fc9cd269/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

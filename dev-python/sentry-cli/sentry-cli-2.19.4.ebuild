@@ -15,7 +15,7 @@ DESCRIPTION="A command line utility to work with Sentry."
 
 HOMEPAGE="https://github.com/getsentry/sentry-cli"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/fb/9d/82e9313e211ba5ae41451996fef80719b9fcb1b92a915d4652b45b15e1ef/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

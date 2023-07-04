@@ -15,7 +15,7 @@ DESCRIPTION="PromptEngine is a Python library for conducting interview sessions 
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c3/80/fb3b49f67e2aa587ebaec90adb0d9f4462cca2f1c115adc650c629d78e88/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

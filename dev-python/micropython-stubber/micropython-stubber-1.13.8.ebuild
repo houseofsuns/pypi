@@ -15,7 +15,7 @@ DESCRIPTION="Tooling to create and maintain stubs for MicroPython"
 
 HOMEPAGE="https://github.com/Josverl/micropython-stubber#readme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/59/56a38925fac48975661f765c2c775bbc5d8a9a50a2ed367904abb3326b10/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

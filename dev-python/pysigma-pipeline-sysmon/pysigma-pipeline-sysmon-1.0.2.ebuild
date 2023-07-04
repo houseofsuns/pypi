@@ -15,7 +15,7 @@ DESCRIPTION="pySigma Sysmon processing pipelines"
 
 HOMEPAGE="https://github.com/SigmaHQ/pySigma-pipeline-sysmon/"
 LICENSE="LGPL-2.1"
-SRC_URI="https://files.pythonhosted.org/packages/1b/f3/ebf54f39769dbed08cd5ce22680aef327457517bf6746f6ee6432d8eba0c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

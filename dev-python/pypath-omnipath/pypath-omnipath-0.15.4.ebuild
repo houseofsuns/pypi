@@ -15,7 +15,7 @@ DESCRIPTION="Molecular signaling prior knowledge processing"
 
 HOMEPAGE="https://omnipathdb.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/51/48/6b33c4f47b773036a7ebdfa4cc75387ae5ab3929a18801aad5422d888946/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

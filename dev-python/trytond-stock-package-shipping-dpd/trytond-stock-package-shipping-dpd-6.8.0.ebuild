@@ -15,7 +15,7 @@ DESCRIPTION="DPD connector for the Tryton application platform"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/78/b2/8ab0ea27d9dcd504c4969b926d9af14fc7701171a9066cd3c31ccab5b418/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

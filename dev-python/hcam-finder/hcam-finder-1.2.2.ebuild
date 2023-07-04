@@ -15,7 +15,7 @@ DESCRIPTION="Observation planning and finding charts for HiPerCAM"
 
 HOMEPAGE="https://github.com/HiPERCAM/hcam_finder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/f0/4132924b7c59673fdbc29b7b7c501e293c04649cd1a774fe24cb784e537e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

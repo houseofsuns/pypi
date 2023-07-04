@@ -15,7 +15,7 @@ DESCRIPTION="Type stubs for googleapis-common-protos"
 
 HOMEPAGE="https://github.com/henribru/googleapis-common-protos-stubs"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/92/27/9cd2a88975cbb20f19bca9d28d694d4df52d14b6bd1479505ea7264bf7e6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

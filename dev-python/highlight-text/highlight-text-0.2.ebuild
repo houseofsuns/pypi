@@ -15,7 +15,7 @@ DESCRIPTION="matplotlib functions to plot text with color highlighted substrings
 
 HOMEPAGE="https://github.com/znstrider/highlight_text"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9a/67/819151e5e9a4580b26620f86d95f0f11f46bdd792feffa16d3819a2cb4d4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

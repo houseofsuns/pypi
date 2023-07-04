@@ -15,7 +15,7 @@ DESCRIPTION="Range of tools to support operations on Duplex Sequencing read pair
 
 HOMEPAGE="https://github.com/nanoporetech/duplex-tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/0c/c6aeb54530c8b84a86fa89000f27f582990ce61b3bd3c9ced6447efa83ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

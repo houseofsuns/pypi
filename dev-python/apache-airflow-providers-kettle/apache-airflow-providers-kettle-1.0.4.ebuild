@@ -15,7 +15,7 @@ DESCRIPTION="A simple Apache Airflow Kettle Operator that can invoke jobs and tr
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/33/9f/24e34fc2e741683471d5daf969958d05b222938a4631806891c71814349d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

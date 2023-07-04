@@ -15,7 +15,7 @@ DESCRIPTION="Annotates a Python AST with the scope of symbols."
 
 HOMEPAGE="https://github.com/kavigupta/ast_scope"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0c/3f/8f15806797abe0eb70508d1d794c2eb1c1dcbc74b56c7bd0dad7d047b82c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

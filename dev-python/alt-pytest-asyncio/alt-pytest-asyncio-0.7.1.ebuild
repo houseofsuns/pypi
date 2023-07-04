@@ -15,7 +15,7 @@ DESCRIPTION="Alternative pytest plugin to pytest-asyncio"
 
 HOMEPAGE="https://github.com/delfick/alt-pytest-asyncio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/61/1609d0107ae49fce6156a8c145fdae1f547dcd92a872e0ef70534c274e7e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

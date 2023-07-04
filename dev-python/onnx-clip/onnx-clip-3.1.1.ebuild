@@ -15,7 +15,7 @@ DESCRIPTION="CLIP with ONNX Runtime and without PyTorch dependencies."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/ce/e44c3c9936ce2267d728cf0202bd5ddda721d47f4384d2e7ea29f66d7ed8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

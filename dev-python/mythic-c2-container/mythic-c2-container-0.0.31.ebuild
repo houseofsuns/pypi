@@ -15,7 +15,7 @@ DESCRIPTION="Functionality for Mythic C2 Containers"
 
 HOMEPAGE="https://docs.mythic-c2.net/customizing/c2-related-development"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/55/46/f8f47289e1d8fee26994a4211fead2845be193abf47972f4eb62fccb99b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

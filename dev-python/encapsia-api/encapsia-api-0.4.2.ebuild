@@ -15,7 +15,7 @@ DESCRIPTION="Client API for talking to an Encapsia system."
 
 HOMEPAGE="https://github.com/Encapsia/encapsia-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/85/bc0ca1f4ca2a7f773849b0d0b8cf2306ba2d599aac0cae3dadcb9effbfd9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

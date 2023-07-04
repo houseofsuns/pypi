@@ -15,7 +15,7 @@ DESCRIPTION="This code defines a collection of functions for formatting and modi
 
 HOMEPAGE="https://github.com/Ilija-nik1/text_mods"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7c/05/d6f10dc9cd88e6585f829d265b06dc7d3efa1aaafb5ce0c31af91f255838/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

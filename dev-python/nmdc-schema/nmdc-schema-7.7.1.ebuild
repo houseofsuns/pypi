@@ -15,7 +15,7 @@ DESCRIPTION="Schema resources for the National Microbiome Data Collaborative (NM
 
 HOMEPAGE="https://microbiomedata.github.io/nmdc-schema/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/7d/268bb7847e44d517b967de54031ccd8467fe91eaad160f1c7e23fc63e620/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

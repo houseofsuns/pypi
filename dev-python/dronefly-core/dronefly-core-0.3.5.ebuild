@@ -15,7 +15,7 @@ DESCRIPTION="Core dronefly components"
 
 HOMEPAGE=""
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/0f/63/d9636988f1c5b9b62929251f0bdc357fadbeda8196900f6e96a1a18d04ba/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

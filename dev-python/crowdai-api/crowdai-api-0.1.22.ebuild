@@ -15,7 +15,7 @@ DESCRIPTION="python api for interacting with crowdAI grading infrastructure"
 
 HOMEPAGE="https://github.com/crowdai/crowdai_api"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/0c/ee/55912b05af8994a190280e3281a18720f8d69da02dcb7ff44e1b96974345/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

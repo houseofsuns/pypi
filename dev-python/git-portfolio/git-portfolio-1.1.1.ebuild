@@ -15,7 +15,7 @@ DESCRIPTION="Git Portfolio"
 
 HOMEPAGE="https://github.com/staticdev/git-portfolio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/4f/474c69116e17ad8eda2e96764d2ebb90b2a759614395168c8c7315e0a9a7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Asynchronous Python client for Opensky API."
 
 HOMEPAGE="https://github.com/joostlek/python-opensky"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/31/9838b2d96af7d310a60bbbbaa009899af95a4cfa708f52a1b3531a9197c0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

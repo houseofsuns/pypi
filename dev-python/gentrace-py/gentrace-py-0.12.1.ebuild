@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for the Gentrace API"
 
 HOMEPAGE="https://github.com/gentrace/gentrace-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f1/43/c86e607931c029dbda1ed38c3b1e8513b84b837385555963f5b5e85a5cd7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

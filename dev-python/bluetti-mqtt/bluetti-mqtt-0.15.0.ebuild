@@ -15,7 +15,7 @@ DESCRIPTION="MQTT interface to Bluetti power stations"
 
 HOMEPAGE="http://github.com/warhammerkid/bluetti_mqtt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/78/ab0f25ef9e197d85b271b6511608878ac4d91811cfb2e4dfc349e632f323/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

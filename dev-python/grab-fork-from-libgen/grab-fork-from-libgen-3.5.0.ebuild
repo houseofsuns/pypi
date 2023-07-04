@@ -15,7 +15,7 @@ DESCRIPTION="A fork of grab-convert-from-libgen"
 
 HOMEPAGE="https://github.com/Lamarcke/grab-fork-from-libgen"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/b1/598195fb96b0b9a112fada9775fa9b5f2a12683f53b7e229ef67308701c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

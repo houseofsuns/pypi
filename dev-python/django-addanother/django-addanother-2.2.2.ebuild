@@ -15,7 +15,7 @@ DESCRIPTION="\"Add another\" buttons outside the Django admin"
 
 HOMEPAGE="https://github.com/jonashaag/django-addanother"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/d0/7e185b7150eeb85498f985aefc182ebc0705a1858d2c513abaa1a6933c32/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

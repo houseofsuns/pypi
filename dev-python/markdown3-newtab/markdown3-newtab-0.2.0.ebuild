@@ -15,7 +15,7 @@ DESCRIPTION="Markdown Extension to add target=\"_blank\" to all links."
 
 HOMEPAGE="https://github.com/pehala/markdown-newtab"
 LICENSE="CC0-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/9e/75/cb121b7b01973e59233e5ae183b5f20f69f77e1076b8b0e99b83af1d4f20/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

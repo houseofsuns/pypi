@@ -15,7 +15,7 @@ DESCRIPTION="synology drive api python wrapper"
 
 HOMEPAGE="https://github.com/zbjdonald/synology-drive-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/79/932312b32f892b0604de63e61b5f6b3581bb030a7a09d82bfe3358610712/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

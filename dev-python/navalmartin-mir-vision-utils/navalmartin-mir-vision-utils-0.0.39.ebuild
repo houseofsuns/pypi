@@ -15,7 +15,7 @@ DESCRIPTION="Various utilities for working with images in Python 3. for the mir 
 
 HOMEPAGE="https://github.com/Navalmartin/navalmartin_mir_vision_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/bb/2abeeb17b8cc2cbbc9a3c886c55697658672461231972781e5cf0f1ead45/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

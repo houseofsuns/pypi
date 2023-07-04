@@ -15,7 +15,7 @@ DESCRIPTION="Python interface and utilities for DLHub"
 
 HOMEPAGE="https://github.com/DLHub-Argonne/dlhub_sdk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cb/c7/382dbf077f09726022c44ee44a7b2d9dafe34ae9eb4add0b2f447259084f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

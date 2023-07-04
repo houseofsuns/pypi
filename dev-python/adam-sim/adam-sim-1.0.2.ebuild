@@ -15,7 +15,7 @@ DESCRIPTION="A simulator of ADAM (Autonomous Domestic Ambidextrous Manipulator),
 
 HOMEPAGE="https://github.com/vistormu/adam_simulator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/c0/9c7d4a4908af0401f7fd9df3d24652266f5b4f09cd21549ea0d54b2ba842/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

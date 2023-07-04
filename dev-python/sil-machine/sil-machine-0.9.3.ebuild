@@ -15,7 +15,7 @@ DESCRIPTION="A natural language processing library that is focused on providing 
 
 HOMEPAGE="https://github.com/sillsdev/machine.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/c8/6b1556b3d6f88b6e6cfb6eb2351462c46f225f1099feb8c9c3fd94067e80/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

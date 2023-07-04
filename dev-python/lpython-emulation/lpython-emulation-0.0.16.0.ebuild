@@ -15,7 +15,7 @@ DESCRIPTION="Package for adding type information to python"
 
 HOMEPAGE="https://github.com/Shaikh-Ubaid/lpython_packages"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/a4/9f0bdc16eaf7633d303c8f0f9bdf69b3a2020404b760996e2a9fdb99afac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Rebotics SDK for communicating with Rebotic Services, API CLI clien
 
 HOMEPAGE="http://retechlabs.com/rebotics/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/97/6da42fca745402c49316feae44421f53f1278cabbd10b4107245ebd441c6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

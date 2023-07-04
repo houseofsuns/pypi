@@ -15,7 +15,7 @@ DESCRIPTION="connects knpay into your project"
 
 HOMEPAGE="https://bitbucket.org/KuwaitNET/knpay_plugin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4d/28/d5396d1232ee9d0148d911490414b6745140727266b6d8ca3720241f8cc9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

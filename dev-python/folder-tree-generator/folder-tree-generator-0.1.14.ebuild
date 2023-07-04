@@ -15,7 +15,7 @@ DESCRIPTION="Takes a folder path and outputs a text representation of the folder
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/71/75/8dce6dc573a74ac0d78add99c6043a285f90c0413047d18594d34cb0d275/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

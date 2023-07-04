@@ -15,7 +15,7 @@ DESCRIPTION="A toolkit for tracking energy, carbon, and compute metrics for mach
 
 HOMEPAGE="https://github.com/Breakend/experiment-impact-tracker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/bd/3cdfd65156a3549589880ea69d15a2097c991a3adf372904a980c22ef718/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="General python and google-cloud related utilities"
 
 HOMEPAGE="https://github.com/Yahalis/contendo_core1/tree/master/contendo_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/e2/6ce5a308285587646960463a1e3b0fa4a04719409be09da3ee33e24c771c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

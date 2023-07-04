@@ -15,7 +15,7 @@ DESCRIPTION="Time Series Predictor"
 
 HOMEPAGE="https://time-series-predictor.readthedocs.io/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/6d/7bf5f7d11781317625e08825f85233bb3572e65b8f9d69beb91d9b9f4bb0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

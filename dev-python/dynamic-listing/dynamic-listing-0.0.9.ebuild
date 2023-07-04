@@ -15,7 +15,7 @@ DESCRIPTION="Django package provides easy way to create listing, filters, and ch
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/a9/9a0e51c2e2119793749260acf70d9f9c7b99354e26aab46693a058554382/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

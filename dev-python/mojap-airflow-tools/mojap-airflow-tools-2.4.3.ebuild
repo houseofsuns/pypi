@@ -15,7 +15,7 @@ DESCRIPTION="A few wrappers and tools to use Airflow on the Analytical Platform"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/a1/8599fcf4e9f095ace5e1b43c90e19de1bbee9f64f6548d96a057a8773c9e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

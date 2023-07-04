@@ -15,7 +15,7 @@ DESCRIPTION="A package for agricultural sensing in India"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/1a/84ced0ae697e9e69b09b39744869b7725b1e02dd4685a6251e22f1d22a62/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

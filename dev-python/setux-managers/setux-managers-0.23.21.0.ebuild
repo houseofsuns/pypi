@@ -15,7 +15,7 @@ DESCRIPTION="System deployment"
 
 HOMEPAGE="https://bitbucket.org/dugres/setux_managers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/f4/9f99e55c549cdef8df0c3b7204ac0207e4580c78984e1c303734dddb7563/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

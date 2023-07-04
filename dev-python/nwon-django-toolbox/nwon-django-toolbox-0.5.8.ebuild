@@ -15,7 +15,7 @@ DESCRIPTION="Some Django Wizardry"
 
 HOMEPAGE="https://nwon.de"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/a5/5f03b0c0ab24a2724115c394fd8bde5031d21c2b46bb8dbb9fe059fd25fb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Модуль интеграции с API Бастоин ИКС"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/e8/69270b1af2eb007b73d66d0014644ebe17fb4565e7f0613f3c0cc45653a0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

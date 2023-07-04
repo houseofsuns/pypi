@@ -15,7 +15,7 @@ DESCRIPTION="A blog for FeinCMS"
 
 HOMEPAGE="https://github.com/feincms/feincms-elephantblog/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/8d/52/3b8febace6522986125f936cedad27662d0f0277625ad3dc9ee994659e60/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

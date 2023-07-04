@@ -15,7 +15,7 @@ DESCRIPTION="Tools for interacting with Tellor Protocol smart contracts."
 
 HOMEPAGE="https://github.com/tellor-io/telliot-feeds"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/a6/af46eb6498faf6c9380db3069f1e75336adc4489fdef9685021e002723e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

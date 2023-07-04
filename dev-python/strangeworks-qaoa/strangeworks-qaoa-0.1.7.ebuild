@@ -15,7 +15,7 @@ DESCRIPTION="Extension to strangeworks sdk to allow user to run qaoa service"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c3/27/c3eff5285026d5b888d78effdff0fb187066880b359d47880122c2ccefd7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

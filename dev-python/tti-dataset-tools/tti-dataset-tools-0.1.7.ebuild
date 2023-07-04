@@ -15,7 +15,7 @@ DESCRIPTION="A set of tools for trajectory dataset transformation, clean-up, and
 
 HOMEPAGE="https://github.com/adhocmaster/TTI-dataset-tools"
 LICENSE="Mozilla Public License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1b/bd/1090708ede21e03e60c0c3cdfefc3957fbc6c004c68ae4f32f4697b15336/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

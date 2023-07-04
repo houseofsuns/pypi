@@ -15,7 +15,7 @@ DESCRIPTION="An open-source framework for training large multimodal models"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/28/91/d43c7e5b88b0484db72037bc408e2822e3e9dc14dd8a07cd9f9712d3a726/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

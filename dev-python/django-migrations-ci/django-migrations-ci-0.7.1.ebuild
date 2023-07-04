@@ -15,7 +15,7 @@ DESCRIPTION="Django migrations CI optimization"
 
 HOMEPAGE="https://github.com/iurisilvio/django-migrations-ci"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/fa/ce2cbd0fdb9e5707cc3af657cea8a942d4c0c396400e84015df81c73c08e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

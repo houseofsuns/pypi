@@ -15,7 +15,7 @@ DESCRIPTION="Python resource manager to work with the standard library for regul
 
 HOMEPAGE="https://github.com/justengel/resource_man"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/ee/8e4c4ae1742c2bf479657dfefb6a481fca23de4ec0b801b291f70317255b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

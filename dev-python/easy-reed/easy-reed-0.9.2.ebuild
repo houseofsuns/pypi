@@ -15,7 +15,7 @@ DESCRIPTION="Config Library for cross module configuration"
 
 HOMEPAGE="https://github.com/rns350/easy-reed"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/29/ea0bffc034ec21bbcd05d4b4ec8c6fa7c3957b3a8e1c20636599ced56327/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

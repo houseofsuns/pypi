@@ -15,7 +15,7 @@ DESCRIPTION="Melon-translate is a micro service for easing localisation and tran
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ca/67/a8607c952af3c6cf1b568f1ea7869ae90c1cda156e5c983c9df8837d306c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

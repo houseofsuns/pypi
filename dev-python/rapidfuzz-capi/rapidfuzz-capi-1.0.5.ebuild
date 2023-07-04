@@ -15,7 +15,7 @@ DESCRIPTION="C-API of RapidFuzz, which can be used to extend RapidFuzz from sepa
 
 HOMEPAGE="https://github.com/maxbachmann/rapidfuzz_capi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/ff/1c286397969c5926e4a8b0dbe7fcc138f0d731aac935ee68a3cb4e4293d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

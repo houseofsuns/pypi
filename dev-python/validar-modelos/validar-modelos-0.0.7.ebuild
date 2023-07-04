@@ -15,7 +15,7 @@ DESCRIPTION="Ferramentas e Instruções para Validação de Modelos Clássicos"
 
 HOMEPAGE="http://github.com/Alexandre-Papandrea/validar_modelos"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dc/cf/2d7c44d449ec97684bbd57d9861866f824786d54bd6bc71d4fa124d06508/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

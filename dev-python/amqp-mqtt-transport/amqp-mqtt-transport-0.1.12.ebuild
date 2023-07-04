@@ -15,7 +15,7 @@ DESCRIPTION="Small wrapper for pykka-amqp and paho-mqtt packages. Makes it easie
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/b0/288ca8b7d97a5f2c121561c839c16ec5df83f518264d2b1a98f1f5e8cefd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

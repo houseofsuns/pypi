@@ -15,7 +15,7 @@ DESCRIPTION="QuickUMLS is a tool for fast, unsupervised biomedical concept extra
 
 HOMEPAGE="https://github.com/Georgetown-IR-Lab/QuickUMLS"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/6c/0c6b1658c1532a53c91b0d5743b0653491cc8308ecbeb4c637c49e2ff293/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

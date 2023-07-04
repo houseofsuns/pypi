@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper around reth db. Written in Rust."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/e5/ebcb3931c318c5ed420defeb333f1983f843cfc58b38a65d48a2291ded09/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

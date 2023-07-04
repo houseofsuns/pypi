@@ -15,7 +15,7 @@ DESCRIPTION="Typing stubs for wxPython"
 
 HOMEPAGE="https://github.com/AlexionSoftware/types-wxpython"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/09/38cdbd87092ea93c7bc2cba56905f45a084c9993fb3b8815e3b6fe0bb9ca/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

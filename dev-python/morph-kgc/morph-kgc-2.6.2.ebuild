@@ -15,7 +15,7 @@ DESCRIPTION="Powerful [R2]RML engine to create RDF knowledge graphs from heterog
 
 HOMEPAGE="https://morph-kgc.readthedocs.io/en/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/af/53/336dc55b4c2fe2cf845cfa870cf37fe88798462120b4a93291246b0b4bea/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of the Lightning-rod, the Stack4Things board-side pr
 
 HOMEPAGE="http://stack4things.unime.it/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/5e/444ae63c874987e44e3e4fc8aafa35d7e42d3d7b9bc62138a1907beb9eb5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

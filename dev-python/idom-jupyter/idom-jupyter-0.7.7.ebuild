@@ -15,7 +15,7 @@ DESCRIPTION="A client for IDOM implemented using Jupyter widgets"
 
 HOMEPAGE="https://github.com/idom-team/idom-jupyter"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/65/3e/f2c32f0ac8372b3be41582503bac2c8f739a4d860e63e299c587ca266afc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module to add SIRET/SIREN on parties"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ee/c8/0a2ee6900365e2d903579deeb2e9ae9329b4f29fd30c88345b1e44791608/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

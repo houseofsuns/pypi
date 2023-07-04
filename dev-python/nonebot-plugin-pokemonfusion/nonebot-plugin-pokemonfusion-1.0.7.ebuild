@@ -15,7 +15,7 @@ DESCRIPTION="Nonebot2的Pokemon Infinite Fusion中文版融合计算器插件"
 
 HOMEPAGE="https://github.com/IllusiveBull/nonebot_plugin_pokemonfusion"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/d7/ed94556319432d0f93ffcbc6aeb4ced5b19f4365bc3b85226988799f6b0d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

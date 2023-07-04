@@ -15,7 +15,7 @@ DESCRIPTION="Module for Giosg Apps development"
 
 HOMEPAGE="https://github.com/giosg/giosgapps_bindings"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/a0/5fe5684e66b808959051a79c90f9530332f70a706fa584eaf8cf033eb779/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Manipulate data on Amazon S3 using Apache Hadoop filesystem compabi
 
 HOMEPAGE="https://github.com/yuca-live/yuca-datalake-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0f/c1/609da310f6fc0fff7954e0b08b0caaf864542cec3446fa2b0f115fea3829/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A tool to convert MCNP geometries into the TRIPOLI-4 format"
 
 HOMEPAGE="https://www.cea.fr/energies/tripoli-4/tripoli-4/pre_post_tools/t4_geom_convert/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/bf/77/011630ce467435cc37ff481105345fa51fcbd3498198994f36447218510c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

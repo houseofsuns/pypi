@@ -15,7 +15,7 @@ DESCRIPTION="A command-line interface for packaging, deploying, and running your
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/89/fb/7abbcc2bc96f71a7b7002a689c76196fa2c3ee78e22ad5767bfd624f7b39/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

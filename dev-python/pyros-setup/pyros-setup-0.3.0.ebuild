@@ -15,7 +15,7 @@ DESCRIPTION="Toolsuite for running ROS environments directly from python code, w
 
 HOMEPAGE="http://github.com/asmodehn/pyros-setup"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/33/08/966e78fac1b7a2906c24ad0f1ac835e82fc3da2cbccd81e9bfa1d8d5efc3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

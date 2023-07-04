@@ -15,7 +15,7 @@ DESCRIPTION="Auto-generate mocks from your Connexion API using OpenAPI"
 
 HOMEPAGE="https://github.com/buserbrasil/connexion-faker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fe/a7/322c4abf41754292ee1693078f9c1c73966752efe8fa4c1132eb2381614d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

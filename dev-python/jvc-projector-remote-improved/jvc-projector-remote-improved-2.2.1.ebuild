@@ -15,7 +15,7 @@ DESCRIPTION="A package to control JVC projectors over IP"
 
 HOMEPAGE="https://github.com/iloveicedgreentea/jvc_projector_improved"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/1d/8d5bfa729890eb59b05412b99ab0b0146c66399fa48bb21482a1ee1c61b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

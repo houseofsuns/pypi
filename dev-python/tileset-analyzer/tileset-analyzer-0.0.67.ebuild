@@ -15,7 +15,7 @@ DESCRIPTION="Analyze vector Tileset"
 
 HOMEPAGE="https://github.com/geoyogesh/tileset_analyzer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/cb/acb0b771fca61cbc68de080ba6c20ce0467b694a7f69e0a7b0582cdca6d5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

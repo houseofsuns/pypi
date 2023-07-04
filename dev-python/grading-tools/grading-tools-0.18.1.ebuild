@@ -15,7 +15,7 @@ DESCRIPTION="Tools for evaluating student submissions."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/54/a0c5ef2369674418be131b3e4e9b3ebf0bdbfb666c021b00b2677d821aa0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Datera Fabric Python SDK"
 
 HOMEPAGE="https://github.com/Datera/python-sdk/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7a/79/064994d0685c320d110b59d8898881981caf6d4aa43884289bb94c0e6867/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

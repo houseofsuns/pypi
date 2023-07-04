@@ -15,7 +15,7 @@ DESCRIPTION="A client package for running Dagger pipelines in Python."
 
 HOMEPAGE="https://dagger.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/16/8d/1579825bb884e6fe8823f3f7c426e25778ca042599bde0781fb621fa6cc6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

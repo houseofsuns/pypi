@@ -15,7 +15,7 @@ DESCRIPTION="Library to consume project Open Source Insights Project from Google
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/70/8d791907f72bc75dadeb2078c74b34a40c2081eabbe88b9ab8ba22b6032a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="package for creating networkx adapters for arangodb"
 
 HOMEPAGE="https://github.com/arangoml/arangopipe"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c5/a4/79c88c1e0f75ff863e258becc2e8844bc99dc6c941e510de49ccfd96b854/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

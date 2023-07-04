@@ -15,7 +15,7 @@ DESCRIPTION="up_pyperplan"
 
 HOMEPAGE="https://www.aiplan4eu-project.eu"
 LICENSE="APACHE"
-SRC_URI="https://files.pythonhosted.org/packages/f6/a4/fb227867e52cdf61a5e6411a254759fc52eced3d38aa8e0187c12061b54f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A plugin to test aioworkers project with pytest"
 
 HOMEPAGE="https://github.com/aioworkers/pytest-aioworkers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/86/06429c8754a91f33764bcc4123131f7076309913f150f6fa8aa838a05a08/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

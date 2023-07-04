@@ -15,7 +15,7 @@ DESCRIPTION="Lib to post user events on transactional topics"
 
 HOMEPAGE="https://juntossomosmais.com.br"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/36/96/9933af4f964db9ecfe0c45d38a53d06a7b49bbc51393c0b3f101b85b31b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

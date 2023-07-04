@@ -15,7 +15,7 @@ DESCRIPTION="ZeusCloud fork of IAMSpy"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/d6/053bec194d5f46f44135ae5c15f12072467c09dda65ea7cc58ad25169792/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

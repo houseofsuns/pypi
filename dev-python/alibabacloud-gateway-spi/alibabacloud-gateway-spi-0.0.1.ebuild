@@ -15,7 +15,7 @@ DESCRIPTION="Alibaba Cloud Gateway SPI SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-gateway"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/07/b1/78faf1eed0fdcdcf08703e0615b48ab8c10eca9f51fd603f6763f254eba7/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

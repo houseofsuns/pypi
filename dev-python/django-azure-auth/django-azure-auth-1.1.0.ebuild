@@ -15,7 +15,7 @@ DESCRIPTION="A simple Django app for user authentication with Azure Active Direc
 
 HOMEPAGE="https://github.com/AgileTek/django-azure-auth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/51/3548c66dd1f8c732cc6aa95e2c8f40017c72bcecf069f4e0c5e192a85a42/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

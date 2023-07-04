@@ -15,7 +15,7 @@ DESCRIPTION="Plugin to catch bad style specific to Django Projects."
 
 HOMEPAGE="https://github.com/rocioar/flake8-django"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/04/7a/8ed46ae0095a3b0e5f3628a95a969ace7c34e30a15c2120be435e0dfbf2a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="This package provides support for buffering time-series with uncert
 
 HOMEPAGE="https://github.com/PTB-PSt1/time-series-buffer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/05/e86433a38be201263ac9c7ea3898c1d26106e73f471744edd8884371b3a2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

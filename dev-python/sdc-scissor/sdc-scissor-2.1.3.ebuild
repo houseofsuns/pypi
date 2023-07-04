@@ -15,7 +15,7 @@ DESCRIPTION="A cost-effective test selection for self-driving cars in virtual en
 
 HOMEPAGE="https://github.com/ChristianBirchler/sdc-scissor"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/8e/e7/3432b3d34734920a72fef5cbae889527a587a71ea3355b2bf4a009467f52/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

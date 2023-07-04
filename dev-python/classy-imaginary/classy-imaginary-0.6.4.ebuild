@@ -15,7 +15,7 @@ DESCRIPTION="This is not a useful package. It is a wrapper around imaginary to p
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/6f/f0d197f132c6e6c5e9162a670489ffc13a369b6c44a087f483dced484c7f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A context manager/decorator which extends Django's atomic function 
 
 HOMEPAGE="https://github.com/Opus10/django-pgtransaction"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/26/15/3c3241ca44b511948762ba27c99a8d408c7cfb967d1edb83e35040d1ac74/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

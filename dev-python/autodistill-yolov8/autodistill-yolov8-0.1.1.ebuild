@@ -15,7 +15,7 @@ DESCRIPTION="Automatically distill large foundational models into smaller, in-do
 
 HOMEPAGE="https://github.com/autodistill/autodistill-yolov8"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/84/68/809a41256a8bedf49081b37a0e6081217e105c95fea4b84a35b5527b3882/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

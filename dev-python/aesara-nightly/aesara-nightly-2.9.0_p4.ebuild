@@ -15,7 +15,7 @@ DESCRIPTION="A library for defining, optimizing, and efficiently evaluating math
 
 HOMEPAGE="https://github.com/aesara-devs/aesara"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2e/77/7c2b99560a4ee6538ab5f7cee7dedca3198795636ff1c8511da58b344b40/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

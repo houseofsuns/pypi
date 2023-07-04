@@ -15,7 +15,7 @@ DESCRIPTION="A subpackage of modelbase that enables investigation of PDE models"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/ad/796b0a36e94ba79d3e4c6d2001e354ed52e5aed32fbe5d318e60e6f92b71/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

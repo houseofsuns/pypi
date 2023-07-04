@@ -15,7 +15,7 @@ DESCRIPTION="An extension to flask_restplus that can convert back-end objects in
 
 HOMEPAGE="https://github.com/Faraadid/swagger_ui"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d8/fa/ece30b0734de14615f5218b12ae7cfb12dffb9efe20ea3e3a24126085af2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

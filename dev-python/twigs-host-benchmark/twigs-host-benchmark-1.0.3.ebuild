@@ -15,7 +15,7 @@ DESCRIPTION="TWIGS Host Benchmark"
 
 HOMEPAGE="https://github.com/threawatch/twigs_host_benchmark"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/9e/79/e2feac738f58663ba70ad61e21484a3442a0c1e61cc9e3857af242881820/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

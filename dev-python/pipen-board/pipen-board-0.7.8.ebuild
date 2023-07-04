@@ -15,7 +15,7 @@ DESCRIPTION="Visualization configuration and running of pipen pipelines on the w
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/76/c53725c659aa03a767b8ff713b95cf255ccea55ebd15f66de0aa7866224c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

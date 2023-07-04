@@ -15,7 +15,7 @@ DESCRIPTION="Management project which can run locally and on AWS Lambda function
 
 HOMEPAGE="https://github.com/laimonassutkus/AwsDbMigration"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/aa/2f8b8461719722ffffb66bd9ac8bd6411fa55fb17ed21e5abd2c71112925/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

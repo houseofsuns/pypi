@@ -15,7 +15,7 @@ DESCRIPTION="Panther command line interface for writing, testing, and packaging 
 
 HOMEPAGE="https://github.com/panther-labs/panther_analysis_tool"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b5/b6/31253283280db8f103731943efb5318222da08a6ee39b2c8e1214e1f5b8e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Boilerplate-free configuration with env variables."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/1f/aff64afe6692596238c564dada1631cf472124cdeb57654f5f95f32cbefb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

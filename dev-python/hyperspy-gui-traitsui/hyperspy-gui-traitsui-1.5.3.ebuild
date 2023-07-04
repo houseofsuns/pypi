@@ -15,7 +15,7 @@ DESCRIPTION="traitsui GUI elements for HyperSpy."
 
 HOMEPAGE="https://github.com/hyperspy/hyperspy_gui_traitsui"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/39/ca/bc5fe35fd9a1a4cb92d57907a8ba36a099007902939b35164679fe283107/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

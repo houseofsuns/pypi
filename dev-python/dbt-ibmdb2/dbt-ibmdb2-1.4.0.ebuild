@@ -15,7 +15,7 @@ DESCRIPTION="The db2 adapter plugin for dbt (data build tool)"
 
 HOMEPAGE="https://github.com/aurany/dbt-ibmdb2"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ac/f0/666f50f8d1821d1a7ded38aabfafbd07bdd944c3b8ffeb2c37eb3a884ee9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

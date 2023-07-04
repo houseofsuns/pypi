@@ -15,7 +15,7 @@ DESCRIPTION="Installer for Apache/mod_wsgi."
 
 HOMEPAGE="https://www.modwsgi.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fe/12/b3756f3b72ae3410a83a9b98862925aea64e854c93ef16c1e46b11e32d59/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

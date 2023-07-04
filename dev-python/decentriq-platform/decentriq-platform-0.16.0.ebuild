@@ -15,7 +15,7 @@ DESCRIPTION="Python client library for the Decentriq platform"
 
 HOMEPAGE="https://github.com/decentriq/decentriq-platform"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9a/92/6276f9282b10b5a94b00dbd66d84ee943d27c663ae3cf271ae342f86e360/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

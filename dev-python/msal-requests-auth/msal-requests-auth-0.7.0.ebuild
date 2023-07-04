@@ -15,7 +15,7 @@ DESCRIPTION="Authentication using python requests and MSAL"
 
 HOMEPAGE="https://github.com/corteva/msal-requests-auth"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ef/92/16c29d95eb451e28e7f4f07092ea0f9aebd4f4e09b461c50f3f6be668999/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

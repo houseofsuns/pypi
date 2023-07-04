@@ -15,7 +15,7 @@ DESCRIPTION="This is a simple package to help musicians to general functions."
 
 HOMEPAGE="https://github.com/charlesneimog/OM_py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cc/d1/4dad5af557315eefaf47ebb7d291392b0034d677f69bba47c2bc6d080f76/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

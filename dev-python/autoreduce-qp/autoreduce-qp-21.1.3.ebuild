@@ -15,7 +15,7 @@ DESCRIPTION="ISIS Autoreduction queue processor"
 
 HOMEPAGE="https://github.com/ISISScientificComputing/autoreduce/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/87/72/cb89470cc8b9d4716568c6c46d6260ba682011cf1b71cc03bd5ee7e87244/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

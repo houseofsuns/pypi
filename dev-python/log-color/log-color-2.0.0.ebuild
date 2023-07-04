@@ -15,7 +15,7 @@ DESCRIPTION="Simple log formatters for colored output"
 
 HOMEPAGE="https://github.com/induane/logcolor"
 LICENSE="DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE Version 2, December 2004 Copyright  2016 Brant Watson <oldspiceap@gmail.com> This work is free. You can redistribute it and/or modify it under the terms of the Do What The Fuck You Want To Public License, Version 2, as published by Sam Hocevar. See http://www.wtfpl.net/ for more details.  DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 0. You just DO WHAT THE FUCK YOU WANT TO. "
-SRC_URI="https://files.pythonhosted.org/packages/f8/22/0f5343585ae3beb7142dc39db03dae61ca50628886396ff1122c752d69ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

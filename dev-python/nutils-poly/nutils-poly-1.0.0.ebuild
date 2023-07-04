@@ -15,7 +15,7 @@ DESCRIPTION="Low-level functions for evaluating and manipulating polynomials (Py
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/39/d6/76fa54bf1f104899875cb20642898c7a098a83b1fd09d972740e2bbb6377/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

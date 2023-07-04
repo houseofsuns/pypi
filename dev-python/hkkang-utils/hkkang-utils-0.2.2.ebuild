@@ -15,7 +15,7 @@ DESCRIPTION="A collection of useful util functions"
 
 HOMEPAGE="https://github.com/hyukkyukang/python_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/cc/45bc925e643da5b57ff0c08b119fec98f673df3dff811e0531bdca2f5c28/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

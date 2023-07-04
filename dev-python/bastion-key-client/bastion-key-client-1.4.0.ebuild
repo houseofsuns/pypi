@@ -15,7 +15,7 @@ DESCRIPTION="FABRIC Bastion host key rotation utility"
 
 HOMEPAGE="https://github.com/fabric-testbed/BastionKeyClient"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a5/8e/6c997cfd6422d32e1cbcd7f5ffaadb339e3758317acc74d8422ce6c86f60/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

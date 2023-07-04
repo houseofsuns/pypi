@@ -15,7 +15,7 @@ DESCRIPTION="An Airflow plugin to launch and monitor Spark applications on the D
 
 HOMEPAGE="https://github.com/datamechanics/datamechanics_airflow_plugin"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e2/76/ef56f66e13521d7099eaf825031eb5f4d71f6a0bdbcede1cfeb744ad368d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Context manager for blocking cell execution within a Jupyter notebo
 
 HOMEPAGE="https://github.com/kafonek/ipython_blocking"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7c/b3/f984f76d0361bce8a8439c1d4835b034768398b41fc1b564d0fe3d651282/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

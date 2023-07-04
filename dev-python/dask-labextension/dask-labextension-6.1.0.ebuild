@@ -15,7 +15,7 @@ DESCRIPTION="A JupyterLab extension for Dask."
 
 HOMEPAGE="https://github.com/dask/dask-labextension"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2c/a6/f707660c2bebb2394dd0f879b193bb235c039f722ab793dd885e97e2d09d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

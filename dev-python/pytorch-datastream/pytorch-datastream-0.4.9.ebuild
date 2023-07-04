@@ -15,7 +15,7 @@ DESCRIPTION="Simple dataset to dataloader library for pytorch"
 
 HOMEPAGE="https://github.com/nextml-code/pytorch-datastream"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/84/75/bee62515346259a4dc70d0265abe2cc1838d3905e45b519ce3593e0bfc81/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

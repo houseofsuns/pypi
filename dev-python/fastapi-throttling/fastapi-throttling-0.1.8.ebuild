@@ -15,7 +15,7 @@ DESCRIPTION="Limit amount of requests to your FastAPI."
 
 HOMEPAGE=""
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/54/f7/8b82335991ab1d03514c227b55b4377a95f9dcd469549b4903b7b55f7fe5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

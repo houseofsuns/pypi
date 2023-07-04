@@ -15,7 +15,7 @@ DESCRIPTION="string encodings invented and maintained by yelp"
 
 HOMEPAGE="https://github.com/Yelp/yelp_encodings"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/49/50/8baf1f8079cbdbada2ab1828c9bc4854955046d52f8259fcb432ae6f35b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A libary to create (valid) Robot descriptions"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/3c/9d7c90176bf47b1eb74021d150193301a984667d4cd2a3a335a433590934/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

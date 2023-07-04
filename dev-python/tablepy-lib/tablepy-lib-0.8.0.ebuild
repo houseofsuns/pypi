@@ -15,7 +15,7 @@ DESCRIPTION="This is a versatile and user-friendly Python table library that can
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/2b/d5ad72a520ae4756b5e08b1e22a607c2dbd3c3ca73824a6814871d82027b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

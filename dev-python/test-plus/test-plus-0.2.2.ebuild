@@ -15,7 +15,7 @@ DESCRIPTION="Test analysis tool for Django"
 
 HOMEPAGE="https://github.com/tolgahanuzun/test_plus"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/da/46/efb0e3f9c8ac2f73bd985fa5d5054988ec7a6ec7360d2848a7f9b619cbc3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

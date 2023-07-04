@@ -15,7 +15,7 @@ DESCRIPTION="Rattail Software Interfaces for CORE POS"
 
 HOMEPAGE="https://rattailproject.org/"
 LICENSE="GNU GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/77/e7/9655f46ab95d7bdba5c37ee422b27e22e9aed3359884c013e8e13e932f5d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

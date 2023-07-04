@@ -15,7 +15,7 @@ DESCRIPTION="Daybreak Games Census API client for Planetside 2 (UNOFFICIAL)"
 
 HOMEPAGE="https://github.com/spascou/ps2-census"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/e8/b33537869ada10b907a4b575cd5dd7d745ae6d05481f2a3801b019bfcc68/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

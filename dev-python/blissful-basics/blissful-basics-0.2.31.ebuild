@@ -15,7 +15,7 @@ DESCRIPTION="Tools I need in every python project"
 
 HOMEPAGE="https://github.com/jeff-hykin/blissful_basics.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/05/33/496bb9edb26ccd177b24f7d61033af4ab1b3bc1db18b0304ce06806c7b32/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

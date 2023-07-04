@@ -15,7 +15,7 @@ DESCRIPTION="project settings the UNIX way"
 
 HOMEPAGE="https://github.com/spapanik/dj_settings"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/9f/42/05bf12ced4914200ee96918eb45868d45aa4852cf0e5d054477e47424ce4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

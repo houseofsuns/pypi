@@ -15,7 +15,7 @@ DESCRIPTION="Django integration for jsform"
 
 HOMEPAGE="https://github.com/quadrant-newmedia/django_jsform"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/52/68eb9d42f66473cf60062bae3cefb206c4ab56002c424e61240545197a19/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

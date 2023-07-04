@@ -15,7 +15,7 @@ DESCRIPTION="High-end Data Visualization for the Python Ecosystem"
 
 HOMEPAGE="https://highchartspython.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/1a/18216afdeb5429d7c798a2dd42689cdd774733f265298e6aecaf50d49459/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A client library for accessing Sherpa API (Llama release)"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b7/43/4d39c7d6ce33755941d6e83c5148cbafdf468d0b84398e87980277ada6b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

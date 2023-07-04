@@ -15,7 +15,7 @@ DESCRIPTION="MultiDagRunPlugin for airflow"
 
 HOMEPAGE="https://github.com/mastak/airflow_multi_dagrun"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/9f/7373f28d46f67e692db88562d315b00718ed8688a19d428943a3f95eae3d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

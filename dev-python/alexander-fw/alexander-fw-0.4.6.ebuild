@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/the01/python-alexander"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2f/92/9b9ed8186f61baaebb79b649df89936e19cbec712982bb06ef1ac7fd58da/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

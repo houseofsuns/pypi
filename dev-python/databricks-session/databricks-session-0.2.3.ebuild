@@ -15,7 +15,7 @@ DESCRIPTION="A simple util to get a spark and mlflow session objects from an .en
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e3/34/d2bc5440ae4c7293023465cc2cd801cca256d109c19742af0a9bda69afc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

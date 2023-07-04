@@ -15,7 +15,7 @@ DESCRIPTION="Editing structured content"
 
 HOMEPAGE="https://github.com/matthiask/django-content-editor/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4e/6d/99caffba03d72f29441bc0457e62e7636c01738508dd480c8ff4cecb029e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

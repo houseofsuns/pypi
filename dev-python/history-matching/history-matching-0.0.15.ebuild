@@ -15,7 +15,7 @@ DESCRIPTION="Package contains helper modules for using history matching for para
 
 HOMEPAGE="https://github.com/OneOneFour/History-Matching-Core"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/75/b21693d97b1e1d99e66eb630fa70ba27ca502c3a0a1a685e3dd4a09728fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

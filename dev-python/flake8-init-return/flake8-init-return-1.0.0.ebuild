@@ -15,7 +15,7 @@ DESCRIPTION="flake8 plugin which makes sure that __init__ functions have a retur
 
 HOMEPAGE="https://github.com/keller00/flake8-init-return"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/39/273153632e1d3e978665d6be874ec447bb982e13bdadc3da04a778f9c313/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

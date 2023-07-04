@@ -15,7 +15,7 @@ DESCRIPTION="Tryton module to add a primanota-view."
 
 HOMEPAGE="https://www.m-ds.de/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ab/db/5e66ad8e952f59d7c2308fe8ddf43492d77af78b4020c4d8eecdf9d96add/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

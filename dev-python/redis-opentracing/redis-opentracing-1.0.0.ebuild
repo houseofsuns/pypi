@@ -15,7 +15,7 @@ DESCRIPTION="OpenTracing support for Elasticsearch"
 
 HOMEPAGE="https://github.com/opentracing-contrib/python-redis/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f6/43/9920395dc261fee65ea22133b093fb0af28e9880a3198e77aca93e61294a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

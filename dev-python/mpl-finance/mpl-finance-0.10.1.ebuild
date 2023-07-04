@@ -15,7 +15,7 @@ DESCRIPTION="Finance plots using matplotlib"
 
 HOMEPAGE="http://github.com/matplotlib/mpl-finance"
 LICENSE="BSD-style"
-SRC_URI="https://files.pythonhosted.org/packages/1f/55/c3bb02b714f7a28ab49edc23aabdb45a13f1b12f3ff541341df8fc22cb51/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

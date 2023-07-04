@@ -15,7 +15,7 @@ DESCRIPTION="Python server framework for quickly building RESTful APIs with mini
 
 HOMEPAGE="https://github.com/majormode/perseus-restful-api-server-framework"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/8f/3b/4d960876cf501f606707daae47a41cc8a895361955769a204344432860ae/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="BioSimulators-compliant command-line interface to the BoolNet simul
 
 HOMEPAGE="https://github.com/biosimulators/Biosimulators_BoolNet"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/a9/be33ec753b99d7b0a71837535ff632459e3b8876c9f06d29712126fb58b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

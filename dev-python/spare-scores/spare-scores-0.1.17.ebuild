@@ -15,7 +15,7 @@ DESCRIPTION="Compute characteristic brain signatures of your case population."
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/4f/4a1b87f593f96f7b14e3edbd924f8ec7a3d6880aabadbd61217cdae302cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

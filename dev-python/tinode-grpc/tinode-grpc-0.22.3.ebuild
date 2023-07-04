@@ -15,7 +15,7 @@ DESCRIPTION="Tinode gRPC bindings."
 
 HOMEPAGE="https://github.com/tinode/chat"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d0/2a/fd89a97e368dc7443a7a3643d401e37cf9bf5acedbdd738ea84f6f0b8c00/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

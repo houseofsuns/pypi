@@ -15,7 +15,7 @@ DESCRIPTION="Adds Rabbitmq support to your Flask application."
 
 HOMEPAGE="https://github.com/flask-rabmq/flask-rabmq"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/f6/49bccb14508e618bce3623aa7e674ca0883fe39ca9c3a7721c3d307ac2c9/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

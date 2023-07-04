@@ -15,7 +15,7 @@ DESCRIPTION="This is (for now) a test."
 
 HOMEPAGE="https://github.com/Point-Topic/expert_intelligence_toolbox"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/c1/c17094c2f4ecb6d1499b1b18c16755c7fcf152af9c3b62d4712720648c5c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

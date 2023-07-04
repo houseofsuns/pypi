@@ -15,7 +15,7 @@ DESCRIPTION="Chinese keyword extraction using transformer-based language models"
 
 HOMEPAGE="https://github.com/JacksonCakes/chinese_keybert"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/99/db56f3aef86c2d7fa7cf9d670ba1448b90ee5a4194da9dd7cd11ab5cc68f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A way to create simple reusable template components in Django."
 
 HOMEPAGE="https://github.com/EmilStenstrom/django-components/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/87/8905ca036543921bbbff6e6a24f6ebab88e4ca87e9b3b3e28d84f2faf7e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

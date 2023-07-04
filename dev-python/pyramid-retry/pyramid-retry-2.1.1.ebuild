@@ -15,7 +15,7 @@ DESCRIPTION="An execution policy for Pyramid that supports retrying requests aft
 
 HOMEPAGE="https://github.com/Pylons/pyramid_retry"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bf/02/2a084e7bc8ca3c50b67c6a6d58598c5771d93399e9ff2aadf6aa29c1adcc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

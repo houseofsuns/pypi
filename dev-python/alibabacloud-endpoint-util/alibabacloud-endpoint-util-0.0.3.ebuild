@@ -15,7 +15,7 @@ DESCRIPTION="The endpoint-util module of alibabaCloud Python SDK."
 
 HOMEPAGE="https://github.com/aliyun/endpoint-util/tree/master/python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/24/54/56736a0f224b3f2b65bb9c9ff9e20fa390351a7587c99f19ca1f8d596ae1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

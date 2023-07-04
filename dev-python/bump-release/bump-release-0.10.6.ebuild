@@ -15,7 +15,7 @@ DESCRIPTION="Updates various version numbers for python projects"
 
 HOMEPAGE="https://github.com/frague59/bump-release"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/f8/9ada3b865dfc082e1fd9ae6698a357d58d71f56493abc553821c3592f312/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

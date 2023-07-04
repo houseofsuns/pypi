@@ -15,7 +15,7 @@ DESCRIPTION="A tool to plot pretty bounding boxes around objects."
 
 HOMEPAGE="https://github.com/nalepae/bounding_box"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/0b/4c/a717694bd1abe5052eb3918d104fe5060ccc90c2fdb01eadbccb3d35100c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

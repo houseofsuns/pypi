@@ -15,7 +15,7 @@ DESCRIPTION="Creates vector tiles on the fly from local geopackage files"
 
 HOMEPAGE="https://github.com/geoyogesh/ogr_tiller"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/2c/32/2c9ac4271bf87a556fafa184cd03c187718ccdb21dc3fc400ed903f231c1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Asynchronous Python wrapper library over Bond Local API"
 
 HOMEPAGE="https://github.com/bondhome/bond-async"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f1/0a/23aac9961b67ee602c2b52049b794da4f9028cf5fda80758f3b7cc2aa4b0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

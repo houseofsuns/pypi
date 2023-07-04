@@ -15,7 +15,7 @@ DESCRIPTION="A snapshot of the grappelli_2 branch of django-grappelli, packaged 
 
 HOMEPAGE="http://github.com/stephenmcd/grappelli-safe"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8f/1d/cde5f83966ce98ab8588c9ce9da8aef844ae7bbef42071d2ae60aecc4564/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

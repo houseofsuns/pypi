@@ -15,7 +15,7 @@ DESCRIPTION="AWS CloudFormation Resources to manage Kafka"
 
 HOMEPAGE=""
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f9/54/1b1eb221328b2e93181c2625d6c23368df26a5dfaae055d95e565f2db6cd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

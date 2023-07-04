@@ -15,7 +15,7 @@ DESCRIPTION="A Generalized Suffix Tree for any iterable, with Lowest Common Ance
 
 HOMEPAGE="https://github.com/cceh/suffix-tree"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/96/57/6f69dfd13ca1d321499d50d1f7eab938efb22f01bbca2d55ae4760e2a821/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

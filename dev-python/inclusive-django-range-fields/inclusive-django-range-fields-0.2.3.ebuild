@@ -15,7 +15,7 @@ DESCRIPTION="Inclusive Django Range Fields which uses default bounds as '[]'"
 
 HOMEPAGE="https://github.com/hipo/inclusive-django-range-fields"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/25/d1/45e6df7fc1aa453e193cbc050e0bad4eb1881edd2182527dfa6d604d659c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

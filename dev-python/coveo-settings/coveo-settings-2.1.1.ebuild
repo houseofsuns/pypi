@@ -15,7 +15,7 @@ DESCRIPTION="Settings driven by environment variables."
 
 HOMEPAGE="https://github.com/coveooss/coveo-python-oss/tree/main/coveo-settings"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3c/3f/8b484f15584ca17e9453dddb6eafacb7e084ac2b564f392197e870f2a67f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

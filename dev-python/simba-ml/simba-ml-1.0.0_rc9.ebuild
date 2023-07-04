@@ -15,7 +15,7 @@ DESCRIPTION="Simulation-Based Machine Learning"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/04/863cc9488ec0a9ca9a3c6dc315738c5ea2cb5c86bbaeddd886ce2a2e9d85/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

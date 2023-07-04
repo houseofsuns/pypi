@@ -15,7 +15,7 @@ DESCRIPTION="Event driven automation for Ansible"
 
 HOMEPAGE="https://github.com/ansible/ansible-rulebook"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e3/2c/21f33461f89619e663afea6ecda81e7318e93b6498a3c18af3508928e279/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

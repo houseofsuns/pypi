@@ -15,7 +15,7 @@ DESCRIPTION="Modulo que permite o uso de múltiplos bancos de dados na mesma apl
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/34/71/f431185ed3e44fb13d6889de5e3d6fe839699a4415da9b9a03db8fc1baa3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

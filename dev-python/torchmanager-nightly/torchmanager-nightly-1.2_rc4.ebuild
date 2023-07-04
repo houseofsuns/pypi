@@ -15,7 +15,7 @@ DESCRIPTION="PyTorch Training Manager v1.2 (Release Candidate 4)"
 
 HOMEPAGE="https://github.com/kisonho/torchmanager.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/15/a7/ecb13100d50d74d56fdb1415fabd862fb5cd6523962d313d3a1a242348e3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

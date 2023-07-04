@@ -15,7 +15,7 @@ DESCRIPTION="Python utilities for the Enphase Envoy"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/57/7c/341318b9c87eb55c2e3de149873a8cd0cfe1b9e659d15bce3624f05429fc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

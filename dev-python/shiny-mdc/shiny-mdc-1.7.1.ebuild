@@ -15,7 +15,7 @@ DESCRIPTION="Tool to compile markdown files to tex/pdf using pandoc, latexmk"
 
 HOMEPAGE="https://github.com/jayanthkoushik/shinymdc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/d4/538b67554aeb93085cfe2ca10c00d5fc08a22d50187ceb282c4d617cf5b5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

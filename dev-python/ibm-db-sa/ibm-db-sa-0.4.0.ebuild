@@ -15,7 +15,7 @@ DESCRIPTION="SQLAlchemy support for IBM Data Servers"
 
 HOMEPAGE="http://pypi.python.org/pypi/ibm_db_sa/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9b/27/93659519d3ada28c6c512668feeef754fd4230d88a19820380f718214ab5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

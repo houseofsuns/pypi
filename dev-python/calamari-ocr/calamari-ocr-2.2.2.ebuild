@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Calamari-OCR/calamari"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/29/96/71b03c7c955b0fd718154303c8c6f4b8cba5f4413e3fa3efddedbf765898/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

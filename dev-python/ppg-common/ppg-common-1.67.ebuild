@@ -15,7 +15,7 @@ DESCRIPTION="Clients"
 
 HOMEPAGE="https://bitbucket.org/sbg-interns/ppg_common"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/32/472a64359ec19f898db5cf68338cfa2288e0709842c25dd6c0a1124a1d1b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

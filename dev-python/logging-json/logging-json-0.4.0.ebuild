@@ -15,7 +15,7 @@ DESCRIPTION="JSON formatter for python logging"
 
 HOMEPAGE="https://colin-b.github.io/logging_json/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/6d/42d547fd5c5e38a079d8d174da88864b1cfb8a0400c4464ee1af1d0451ac/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

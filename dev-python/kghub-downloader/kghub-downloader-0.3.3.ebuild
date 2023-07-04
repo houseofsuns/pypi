@@ -15,7 +15,7 @@ DESCRIPTION="Downloads and caches files for knowledge graph ETL"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e0/1b/0ff38eb02b23aa3c21ef6106fd31b9fc504ee957f57d7db819fbe8d62c6d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Extensible markdown rendering support in markdown"
 
 HOMEPAGE="https://github.com/agoose77/jupyterlab-markup.git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3a/92/2b06d513104d997fff1354e524f615ba7cc2315569c2bb46bce3c8c076e5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

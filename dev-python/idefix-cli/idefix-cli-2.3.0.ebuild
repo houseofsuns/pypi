@@ -15,7 +15,7 @@ DESCRIPTION="A CLI to automate mundane tasks with Idefix"
 
 HOMEPAGE="https://github.com/neutrinoceros/idefix_cli"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/02/02/a542dc8e38dcdd502c78b86a141290522749d4ceef5d265ecafa502fc519/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

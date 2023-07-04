@@ -15,7 +15,7 @@ DESCRIPTION="Tumult's differential privacy analytics API"
 
 HOMEPAGE="https://www.tmlt.dev/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6b/26/8ea634e02f23d96836d46cc31383db1f7355dfab8c0240f42ecb34b8013f/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

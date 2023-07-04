@@ -15,7 +15,7 @@ DESCRIPTION="abstract_ai is a Python module that provides a wide range of functi
 
 HOMEPAGE="https://github.com/AbstractEndeavors/abstract_essentials/tree/main/abstract_ai"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/4f/6caad334bd7825bb6700f6264017b7258035ef7fba8edba703b9ef3f795b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

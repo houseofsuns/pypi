@@ -15,7 +15,7 @@ DESCRIPTION="Super Mario Bros. for OpenAI Gym"
 
 HOMEPAGE="https://github.com/Kautenja/gym-super-mario-bros"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/0d/d0/af1263150596ff8cce3709c9883c1492de67b87b45322875cd6b03b8c967/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An advanced yet easy-to-use clustering tool for Hikari."
 
 HOMEPAGE="https://github.com/TrigonDev/hikari-clusters"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/4e/931a4814ef649740a108f5e3daf6e8f1dd53aa733ebe86d302129743e497/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

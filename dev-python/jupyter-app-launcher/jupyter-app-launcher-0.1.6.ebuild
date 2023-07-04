@@ -15,7 +15,7 @@ DESCRIPTION="A JupyterLab extension to create custom launcher entries."
 
 HOMEPAGE="https://github.com/trungleduc/jupyter_app_launcher"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/be/25/f13ad095e6848aa70fcb771fdf01f7616f8586435db0ce304a656ce5d6c4/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

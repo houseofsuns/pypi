@@ -15,7 +15,7 @@ DESCRIPTION="xpath_utils"
 
 HOMEPAGE="https://github.com/kkristof200/py_xpath_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/14/9c02112d778c1459de9833aa55c1a82f59bbe94c1216b8b3a1a2293b096d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

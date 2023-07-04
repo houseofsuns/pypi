@@ -15,7 +15,7 @@ DESCRIPTION="XiaoMi Cloud Service fork from https://github.com/Yonsm/MiService"
 
 HOMEPAGE="https://github.com/yihong0618/MiService"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0a/fa/ec57459e6f034771b24cb23f3346a83f8d74fabef4622c86df72b69e3f9e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

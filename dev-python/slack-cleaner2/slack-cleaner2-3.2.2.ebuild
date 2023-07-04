@@ -15,7 +15,7 @@ DESCRIPTION="Slack Cleaner2 is an improved slack cleaner version using a python 
 
 HOMEPAGE="https://github.com/sgratzl/slack_cleaner2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/26/e58becbfcccd0f17384c99cd7aa9b362930ef3ea55bce7b805df05bed2c3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

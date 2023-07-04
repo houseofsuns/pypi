@@ -15,7 +15,7 @@ DESCRIPTION="Wirepas gateway transport service that connects the local dbus to a
 
 HOMEPAGE="https://github.com/wirepas/gateway"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bf/1f/32991f3dddf2f238d6bb337dd49d17ce7ee43cb03fd30790a98186036878/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

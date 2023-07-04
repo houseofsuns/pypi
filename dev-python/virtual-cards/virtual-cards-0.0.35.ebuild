@@ -15,7 +15,7 @@ DESCRIPTION="A small example package Virtual Card"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/79/01a9aa51ef4e8935f7fbe0926f3e8c5d63ca3b4314e7bc5bb437103ee42b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

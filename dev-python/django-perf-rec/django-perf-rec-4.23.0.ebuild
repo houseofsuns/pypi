@@ -15,7 +15,7 @@ DESCRIPTION="Keep detailed records of the performance of your Django code."
 
 HOMEPAGE="https://github.com/adamchainz/django-perf-rec"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/36/93/36c2a6ff7291e34c042021e982fae1bf2c200e003daefe438bd95d91e839/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

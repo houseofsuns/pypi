@@ -15,7 +15,7 @@ DESCRIPTION="A client to create experiments in ChaosMesh"
 
 HOMEPAGE="https://github.com/vishrantgupta/chaos-mesh"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/45/d7/ebbd54aaa9d14e7f9a57c6edb22796df9ce44fec68188869a9799f7f3809/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

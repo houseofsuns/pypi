@@ -15,7 +15,7 @@ DESCRIPTION="AMQP infrastructure for the Minty system"
 
 HOMEPAGE="https://gitlab.com/minty-python/minty-infra-amqp"
 LICENSE="EUPL license"
-SRC_URI="https://files.pythonhosted.org/packages/0f/28/b08295b98b6760f101b054e4ac26475e631fa67a94b160600211b6fc66dc/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

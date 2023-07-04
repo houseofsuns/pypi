@@ -15,7 +15,7 @@ DESCRIPTION="Boto3 service type check"
 
 HOMEPAGE="https://github.com/j4c0bs/boto3-type"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/db/44/ef51ac944df0e52ee95ef927cc2d2248966b32dd94a92f34e664ec131345/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Find project modules and data files (packages and package_data for 
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/4c/8a4bcccd4b11d3a84825eccb44122b83137b0acc1a317c2ce3b324deb1b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

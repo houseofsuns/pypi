@@ -15,7 +15,7 @@ DESCRIPTION="A collection manager."
 
 HOMEPAGE="https://git.easter-eggs.org/bioneland/hector"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/fc/3d/70a12508cf53a22c45f26d4c863265a43964f3d8c37f51ab039ea0034bcb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

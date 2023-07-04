@@ -15,7 +15,7 @@ DESCRIPTION="API wrapper for Microsoft Graph written in Python"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/37/69/6ed91cdf7f69b130fb410b95abf8248fd33090c33ade6a1e9a952708cdc3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

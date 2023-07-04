@@ -15,7 +15,7 @@ DESCRIPTION="Intel SGX Remote Attestation verification library"
 
 HOMEPAGE="https://cosmian.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/dc/77112dbd300d3c7facd4a72a61683cf5595df68878ff0cc8a1d6cfb79fb8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

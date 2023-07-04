@@ -15,7 +15,7 @@ DESCRIPTION="The template plugin for Auto-GPT."
 
 HOMEPAGE="https://github.com/Significant-Gravitas/Auto-GPT"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/da/e1/ee1b2f972ad0b353a7b4c319d312b415ba46fc1b31a1c43432307b62ce13/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

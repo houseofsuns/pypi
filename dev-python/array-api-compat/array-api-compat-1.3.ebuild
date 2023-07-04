@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper around NumPy and other array libraries to make them compa
 
 HOMEPAGE="https://data-apis.org/array-api-compat/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/1c/ab5384facd07b84e3e664a07cb902cfe0af7022a6cc29069214acd3792bf/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

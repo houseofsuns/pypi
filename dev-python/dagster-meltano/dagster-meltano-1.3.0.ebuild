@@ -15,7 +15,7 @@ DESCRIPTION="A dagster plugin that allows you to run your Meltano project inside
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/20/2c/e89936ae5aa07e80281fc4a62a14be31cd2cad2e5b7ea06b89664a8de976/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

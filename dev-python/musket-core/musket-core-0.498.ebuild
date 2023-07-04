@@ -15,7 +15,7 @@ DESCRIPTION="The core of Musket ML"
 
 HOMEPAGE="https://github.com/musket-ml/musket_core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ab/03/a67517a7aa0861c632bdaf1a470582556f42e0c62fe11de5ed1f23caab35/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

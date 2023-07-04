@@ -15,7 +15,7 @@ DESCRIPTION="PostgREST client for Python. This library provides an ORM interface
 
 HOMEPAGE="https://github.com/supabase-community/postgrest-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/55/dbed1b827241e1ab87811568d9c8099f7b421743b828297945c2cfc2ca91/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

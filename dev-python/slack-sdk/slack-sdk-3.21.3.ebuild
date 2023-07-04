@@ -15,7 +15,7 @@ DESCRIPTION="The Slack API Platform SDK for Python"
 
 HOMEPAGE="https://github.com/slackapi/python-slack-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/db/a684491e6d791aa4052ccc49d11dc492d37cb2c9261e53fa87871553960a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

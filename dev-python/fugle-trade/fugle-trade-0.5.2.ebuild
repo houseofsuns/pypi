@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/fugle-dev/fugle-trade-python#readme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/89/0a/b218aa7e6e2c6a789e8cae04b56fd630fb2eb8b7d230271a7a420c746bc6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

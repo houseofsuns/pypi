@@ -15,7 +15,7 @@ DESCRIPTION="Modify configuration files of various formats with the same simple 
 
 HOMEPAGE="https://github.com/eugenetriguba/config_file"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f1/4e/c9c5a6f471d58e1adddeb0bf7c9a34fc5be2ac76fe96d70e5a60a153507d/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

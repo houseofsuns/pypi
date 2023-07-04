@@ -15,7 +15,7 @@ DESCRIPTION="A Python wrapper for PyAnsys Math libraries."
 
 HOMEPAGE="https://github.com/ansys/ansys-math/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/85/3c/6697d5e4d39b2c0fb7b9808bef37fb38701425a46d1193b4250ac1c57be2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

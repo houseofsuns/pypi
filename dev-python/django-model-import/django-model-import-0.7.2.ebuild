@@ -15,7 +15,7 @@ DESCRIPTION="A Django library for importing CSVs and other structured data quick
 
 HOMEPAGE="https://github.com/uptick/django-model-import"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/4f/8edd7b54a7ceb539e65d72dfeab1d0f9acd0b457231ee9f0c350ef0e0622/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

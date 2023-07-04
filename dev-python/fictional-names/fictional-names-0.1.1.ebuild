@@ -15,7 +15,7 @@ DESCRIPTION="A package for generating fictional names."
 
 HOMEPAGE="https://github.com/a-tsagkalidis/fictional_names_package"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/41/1e/708eb4f7ddb51b2b3075f77f33a3e2acfa681722b9d2b0f143ea882c2e28/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

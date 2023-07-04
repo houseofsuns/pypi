@@ -15,7 +15,7 @@ DESCRIPTION="A Python based License Classification and Copyright         Stateme
 
 HOMEPAGE="https://github.com/AvishrantsSh/LicensePackage"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0d/c0/d427d2a59462ec837bdf6c4ad3a7606f066c34eda9b5a334e58fa2dfdf44/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

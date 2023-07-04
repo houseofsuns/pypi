@@ -15,7 +15,7 @@ DESCRIPTION="This allows you to grab Spotify lyrics from their API. You can inpu
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/6a/0dce7155059204195b469fc6171158b6677d28121d6225b01a78cad08b95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

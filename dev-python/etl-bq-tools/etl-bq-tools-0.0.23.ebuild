@@ -15,7 +15,7 @@ DESCRIPTION="etl_bq_tools"
 
 HOMEPAGE="https://github.com/jonaqp/etl_bigquery_tools/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/f5/5c65da3c2ca7ec49c6ea1ea23c6f8dc98f4b907d51598a334586047fb0c5/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

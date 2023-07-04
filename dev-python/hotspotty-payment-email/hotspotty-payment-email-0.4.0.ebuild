@@ -15,7 +15,7 @@ DESCRIPTION="A command line tool that takes as input a list of commission report
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/11/56fd287ddb25630a07f877e27a856ec3570a1b8846d8daf48ef3520bf72e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

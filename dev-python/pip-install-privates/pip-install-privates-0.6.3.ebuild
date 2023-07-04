@@ -15,7 +15,7 @@ DESCRIPTION="Install pip packages from private repositories without an ssh agent
 
 HOMEPAGE="https://github.com/ByteInternet/pip-install-privates"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c1/d9/a74bebe405e9db732dd440b575366a08ea6b58dd6cbb20e036d5ef6c10fe/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

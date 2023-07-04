@@ -15,7 +15,7 @@ DESCRIPTION="Pipeline inline inspection data as CSV file."
 
 HOMEPAGE="https://github.com/vb64/pipeline.csv"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6d/5c/51a25335d7f532842b7ca352f2771f13948d00e07d940884e1e883fe7d01/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

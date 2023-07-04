@@ -15,7 +15,7 @@ DESCRIPTION="Cfn Lsp Extra"
 
 HOMEPAGE="https://github.com/laurencewarne/cfn-lsp-extra"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/9b/9c521c8223812725716f9b731aa599b999d1cd69762c1d3950379e720625/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

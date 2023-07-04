@@ -15,7 +15,7 @@ DESCRIPTION="Python package for taking an image and doing a thing"
 
 HOMEPAGE="https://github.com/kellerjustin/img_processor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/56/e31e573c812bcaac2c29d4601d4fe0c68b5e99f7746a296bda353737f8ec/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

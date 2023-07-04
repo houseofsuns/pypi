@@ -15,7 +15,7 @@ DESCRIPTION="A class that ensures correct sorting and parsing of the ManageIQ/CF
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/46/55/884256a78501e7e009151502bd12995d817825b21bcdda29c225bcdee036/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

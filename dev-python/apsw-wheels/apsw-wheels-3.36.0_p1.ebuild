@@ -15,7 +15,7 @@ DESCRIPTION="Another Python SQLite Wrapper"
 
 HOMEPAGE="https://github.com/rogerbinns/apsw/"
 LICENSE="OSI Approved ::"
-SRC_URI="https://files.pythonhosted.org/packages/74/ad/db15c54df12f41786f8b056f7618ad0727bef4502c9c7d321f97817fdc31/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

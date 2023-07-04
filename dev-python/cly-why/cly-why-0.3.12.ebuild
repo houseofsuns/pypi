@@ -15,7 +15,7 @@ DESCRIPTION="A super simple functional cli helper lib"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/50/0861fe6d645bbb5a0471b99b9af2f14322f39fa6e4c406c1cdb3d8752eeb/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

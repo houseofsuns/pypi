@@ -15,7 +15,7 @@ DESCRIPTION="An asynchronous wrapper around Stripe's official python library."
 
 HOMEPAGE="https://github.com/bhch/async-stripe"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/de/89/ac289d31df45787c4b022d16a6e9493d9b700df9a0b8ab2b7bae704d2274/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Kaisa Global Quantitative Trading API"
 
 HOMEPAGE="https://www.kaisaglobal.com/open-api"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7b/25/9b4b327a0f991d4848a78ecc41ab310b04e3b238d9d9ad816f4c8caf3c55/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Patches Jinja2 v3 to restore compatibility with earlier Sphinx vers
 
 HOMEPAGE="https://github.com/sphinx-toolbox/sphinx-jinja2-compat"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/e0/fee82de165e29d9f501a5f4a40bf21257290d5d0f269f326fe7e1c98ad2b/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Split text into semantic chunks, up to a desired chunk size. Suppor
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/5a/6eeb0369f2488d69b0bbb1dcfca116a405f6dccb89b2dea98e1947c1ef83/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

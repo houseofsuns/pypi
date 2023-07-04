@@ -15,7 +15,7 @@ DESCRIPTION="Packaging tools for Conan C/C++ package manager"
 
 HOMEPAGE="https://github.com/conan-io/conan-package-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/fa/4bdc2d85cf378297a520834879f0ee7960d2f1b4c2c4098e4150cb859fc0/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

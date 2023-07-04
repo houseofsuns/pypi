@@ -15,7 +15,7 @@ DESCRIPTION="A runtime library for OctoAI."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/39/d1/2fd0387e56f271e2b1855c2e6f948b84d59f4451d65c2b97082f965ebe77/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

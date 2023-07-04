@@ -15,7 +15,7 @@ DESCRIPTION="Tool for making consistent indentation"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/5f/077dd7b1df7a4c67293f8e5a262e31e090d5b7db785ef4b61f364df03817/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

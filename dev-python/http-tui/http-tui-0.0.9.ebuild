@@ -15,7 +15,7 @@ DESCRIPTION="Perform HTTP requests in a somewhat friendly TUI"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/33/810427ef55674d9cee3a30dbf79443865722823822e99431a81d2b623c63/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Render Graphviz graphs in Mkdocs, as inline SVGs and PNGs, natively
 
 HOMEPAGE="https://gitlab.com/rod2ik/mkdocs-graphviz.git"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/26/93/ddfa0703229416de9cbc8a51eeddf9312dd1d64b6b376e63b1cecd241f69/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

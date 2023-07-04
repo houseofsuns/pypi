@@ -15,7 +15,7 @@ DESCRIPTION="ae namespace package portion kivy_user_prefs: user preferences widg
 
 HOMEPAGE="https://gitlab.com/ae-group/ae_kivy_user_prefs"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/81/af/8af07c7e606e9450ba221e0c23d5d9e1bc770837af9965517dc472d26241/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

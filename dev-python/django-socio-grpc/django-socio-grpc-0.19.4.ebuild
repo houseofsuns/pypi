@@ -15,7 +15,7 @@ DESCRIPTION="Fork of django-grpc-framework with more feature maintained by the s
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bc/13/35749b12824f4a28068ff6366083b624d3c0c23417c66e69cbc66ba6f27e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

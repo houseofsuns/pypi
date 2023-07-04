@@ -15,7 +15,7 @@ DESCRIPTION="ASTC decoder for PIL (just faster)"
 
 HOMEPAGE="https://github.com/bconstanzo/astc_decomp_faster"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/00/8712beaf778b9499944ff2a609c54c3a5e74b53e9dae887edeccf816ea14/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

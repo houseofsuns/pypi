@@ -15,7 +15,7 @@ DESCRIPTION="overlay arrows and more"
 
 HOMEPAGE="https://github.com/beuaaa/overlay_arrows_and_more"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9d/78/bc18b3a78c1145458219cd0123be863be1b3e859036ca745417cb3123c95/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

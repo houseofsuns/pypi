@@ -15,7 +15,7 @@ DESCRIPTION="Submit Functional Queries to a ServiceX endpoint."
 
 HOMEPAGE="https://github.com/iris-hep/func_adl_servicex"
 LICENSE="TBD"
-SRC_URI="https://files.pythonhosted.org/packages/2b/77/d0bee3c061b2c733eb57e3aa8efe04f607cd319b98d999000d99ee8838f8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

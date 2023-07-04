@@ -15,7 +15,7 @@ DESCRIPTION="functions to exit an cli application properly"
 
 HOMEPAGE="https://github.com/bitranox/cli_exit_tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5d/4d/27fcad9f189a53f85e4c23f16444890b3df483469c96c258acd7dcc1e079/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

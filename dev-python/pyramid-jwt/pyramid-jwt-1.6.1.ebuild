@@ -15,7 +15,7 @@ DESCRIPTION="JWT authentication policy for Pyramid"
 
 HOMEPAGE="https://github.com/wichert/pyramid_jwt"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/44/25/ed2fea7add4aa146ffbe45f485c22c5f581c823518d25c78a17e578574e8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

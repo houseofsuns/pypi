@@ -15,7 +15,7 @@ DESCRIPTION="Estimating the Circulation and Climate of the Ocean (ECCO) Version 
 
 HOMEPAGE="https://github.com/ECCO-GROUP/ECCOv4-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/88/7f/b0a1d7353b4cc8ca4a941611bff1b3033c531fd9d8c996022ef83a531f55/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

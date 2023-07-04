@@ -15,7 +15,7 @@ DESCRIPTION="Pydantic data models for the GeoJSON spec."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9c/86/3e1f4441cda46f70501436cd5112a48c82d6d539abdb8fb9fbca86bed83c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

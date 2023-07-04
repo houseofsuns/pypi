@@ -15,7 +15,7 @@ DESCRIPTION="Community Discovery algorithm"
 
 HOMEPAGE="https://github.com/GiulioRossetti/ANGEL"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/63/71/f09c98a662a385cd0e7c490f7c25962c95c8ca49dd6716dff94c5b517c84/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

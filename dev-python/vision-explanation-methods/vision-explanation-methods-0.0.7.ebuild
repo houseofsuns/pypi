@@ -15,7 +15,7 @@ DESCRIPTION="Microsoft Vision Explanation Methods SDK for Python"
 
 HOMEPAGE="https://github.com/microsoft/vision-explanation-methods"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/c4/ef3647ac90bf6c32bf3a2a6285b8eb4688d69aedcbc6efd269446ee5099a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

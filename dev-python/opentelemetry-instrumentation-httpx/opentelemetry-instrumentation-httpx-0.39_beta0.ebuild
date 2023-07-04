@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry HTTPX Instrumentation"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-httpx"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/59/30/b85618d9323b05bb939d16e5cb08e37282f8f4ca5551c853cafcbf809802/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

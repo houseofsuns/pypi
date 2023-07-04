@@ -15,7 +15,7 @@ DESCRIPTION="This a package for creatring a list of iam user from an environmet"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e4/27/94d942a0bfb6b27abbce1c8d257a42f5c90788844521a69747c60c535d6e/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python utilities to manage cloud services, such as AWS."
 
 HOMEPAGE="https://github.com/RedHatQE/cloud-tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/ba/b006d094180ea2c9d36260eb23821d2bdf0bc3e11192b77282a510ac39ee/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

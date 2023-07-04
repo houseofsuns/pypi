@@ -15,7 +15,7 @@ DESCRIPTION="Extract Links from news source, ranked by importance."
 
 HOMEPAGE="https://github.com/gaoyunzhi/link_extractor"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/50/e9791686799ecbaba9a8cc0dd3f7b9bd501f7ce39a4b8b1716546986730a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

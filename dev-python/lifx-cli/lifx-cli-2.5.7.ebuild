@@ -15,7 +15,7 @@ DESCRIPTION="The Unofficial LIFX CLI"
 
 HOMEPAGE="https://github.com/necrux/lifx-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/52/6bce5578a8b1011b25ff350b3e6ffab43989407cff395262cc2580a2df56/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

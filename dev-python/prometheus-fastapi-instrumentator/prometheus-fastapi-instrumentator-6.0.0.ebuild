@@ -15,7 +15,7 @@ DESCRIPTION="Instrument your FastAPI with Prometheus metrics."
 
 HOMEPAGE="https://github.com/trallnag/prometheus-fastapi-instrumentator"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/28/26/2cf61a59fd24ee2c0ac964fae54b08d40de8083c316745a924aaad1576fd/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

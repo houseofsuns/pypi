@@ -15,7 +15,7 @@ DESCRIPTION="PyTorch extensions for fast R&D prototyping and Kaggle farming"
 
 HOMEPAGE="https://github.com/BloodAxe/pytorch-toolbelt"
 LICENSE="License :: OSI Approved :: MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/3c/ac/4855d346767245802e533550a72ee9944542c298afe75aacbea3ce504ca3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Obtain certificates using a DNS TXT record for DuckDNS domains"
 
 HOMEPAGE="https://github.com/infinityofspace/certbot_dns_duckdns"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/6c/4e7ad4b5e27590d790bae49a43cf17ed74168abe2d9925a440821993af0c/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

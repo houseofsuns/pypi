@@ -15,7 +15,7 @@ DESCRIPTION="OpenTelemetry Python Distro"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/opentelemetry-distro"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e4/7b/3a8a45dff21d95bb18d681f76954d642d22213c8a7b748a6818d2fa38ad6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

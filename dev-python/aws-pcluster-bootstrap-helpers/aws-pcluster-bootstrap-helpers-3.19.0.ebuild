@@ -15,7 +15,7 @@ DESCRIPTION="Helpers to bootstrap a AWS PCluster + SLURM + Custom AMIs"
 
 HOMEPAGE="https://github.com/dabble-of-devops-bioanalyze/aws_pcluster_bootstrap_helpers"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7a/9c/01b0f716d08184216293e1ad1ca1b2f3fb4433e3fae095924f607869c3fa/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

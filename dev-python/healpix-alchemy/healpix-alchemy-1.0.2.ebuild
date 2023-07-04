@@ -15,7 +15,7 @@ DESCRIPTION="SQLAlchemy extensions for HEALPix spatially indexed astronomy data"
 
 HOMEPAGE="https://github.com/skyportal/healpix-alchemy"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f6/cb/28b3af44a879225c310c81ba38c0ea3693f2cfe34dbca0af379c9050f3b2/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

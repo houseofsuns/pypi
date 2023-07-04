@@ -15,7 +15,7 @@ DESCRIPTION="Plugin for Arknights gacha, support multi platform"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/20/07b788a2625e45a3d97cec9bddb31dbb4a46a18280ff4b8d3b5849e65be3/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

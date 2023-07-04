@@ -15,7 +15,7 @@ DESCRIPTION="A GridAPPS-D Python Adapter"
 
 HOMEPAGE="https://gridappsd.readthedocs.io"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/48/d7/f269844053ce8fee07322b3963da59fbe11b74b1b9cdc3417d4685a3b247/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

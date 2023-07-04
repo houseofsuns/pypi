@@ -15,7 +15,7 @@ DESCRIPTION="A web connected DHT sensor reading temperature and humidity values 
 
 HOMEPAGE="https://github.com/grro/pi_dht_webthing"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b9/f9/dda775dc92ae46004d6283b436ff77b7c67758a9e91bb27289cfefa533b8/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

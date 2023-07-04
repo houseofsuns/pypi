@@ -15,7 +15,7 @@ DESCRIPTION="Python client for Météo-France API."
 
 HOMEPAGE="https://github.com/hacf-fr/meteofrance-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/e3/c9559bdde9982c63f0349427b46fe52c69ce1f1f8e9c007ce0d9b31a77d1/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

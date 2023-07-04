@@ -15,7 +15,7 @@ DESCRIPTION="Logging Formatter to format log messages in logfmt format"
 
 HOMEPAGE="https://github.com/JulianSobott/python-logfmt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/3a/1400df78e06da0e7f9fa41eeaade096c82725676bfcbf693f3d6cb77a3b6/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

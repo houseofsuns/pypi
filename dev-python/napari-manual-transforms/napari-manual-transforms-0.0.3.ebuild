@@ -16,7 +16,7 @@ DESCRIPTION="Interface to manually edit layer affine transforms"
 HOMEPAGE="https://github.com/tlambert03/napari-manual-transforms"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

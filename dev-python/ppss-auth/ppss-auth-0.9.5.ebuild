@@ -16,7 +16,7 @@ DESCRIPTION="simple auth scheme for pyramid, based on Mako template and sqlalche
 HOMEPAGE="https://bitbucket.org/pingpongstars/ppss_auth/src/master/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Python version of glmnet, originally from Stanford University, modi
 HOMEPAGE="https://github.com/hanfang/glmnet_py"
 LICENSE="GPL-2"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Python package to scrap facebook's pages front end with no limitati
 HOMEPAGE="https://github.com/shaikhsajid1111/facebook_page_scraper"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

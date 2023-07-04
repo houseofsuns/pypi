@@ -16,7 +16,7 @@ DESCRIPTION="BNLP is a natural language processing toolkit for Bengali Language"
 HOMEPAGE="https://github.com/sagorbrur/bnlp"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Python module to run command line programs in a convenient way and 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

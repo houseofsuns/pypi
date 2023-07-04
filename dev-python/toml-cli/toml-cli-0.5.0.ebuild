@@ -16,7 +16,7 @@ DESCRIPTION="Command line interface to read and write keys/values to/from toml f
 HOMEPAGE="https://github.com/mrijken/toml-cli"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

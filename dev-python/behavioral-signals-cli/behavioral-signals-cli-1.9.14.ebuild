@@ -16,7 +16,7 @@ DESCRIPTION="Command Line Interface for Behavioral Signals Emotion and Behavior 
 HOMEPAGE="https://bitbucket.org/behavioralsignals/api-cli/src"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

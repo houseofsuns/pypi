@@ -16,7 +16,7 @@ DESCRIPTION="The package provides enhanced support for writing REST APIs with Mu
 HOMEPAGE="https://github.com/klen/muffin-rest"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

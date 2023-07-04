@@ -16,7 +16,7 @@ DESCRIPTION="Tool for live presentations using manim"
 HOMEPAGE="https://github.com/jeertmans/manim-slides"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

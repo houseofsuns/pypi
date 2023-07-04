@@ -16,7 +16,7 @@ DESCRIPTION="Python Wrapper for Hadoop Java API"
 HOMEPAGE="https://github.com/SneaksAndData/hadoop-fs-wrapper"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

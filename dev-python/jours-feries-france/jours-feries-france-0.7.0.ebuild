@@ -16,7 +16,7 @@ DESCRIPTION="Jours fériés en France, en métropole et en outre-mer."
 HOMEPAGE="https://github.com/etalab/jours-feries-france"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

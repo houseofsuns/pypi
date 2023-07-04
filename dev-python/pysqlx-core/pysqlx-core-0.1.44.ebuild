@@ -16,7 +16,7 @@ DESCRIPTION="A fast and async SQL database wrapper for Python, with support for 
 HOMEPAGE="https://github.com/carlos-rian/pysqlx-core"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

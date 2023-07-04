@@ -16,7 +16,7 @@ DESCRIPTION="Simple utilitiy convert name of japanese prefectures"
 HOMEPAGE="https://github.com/iisaka51/jp_prefecture"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

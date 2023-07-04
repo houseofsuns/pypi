@@ -16,7 +16,7 @@ DESCRIPTION="Nonebot2 喵喵点歌，可听歌可下载"
 HOMEPAGE="https://github.com/nikissXI/nonebot_plugins/tree/main/nonebot_plugin_nya_music"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

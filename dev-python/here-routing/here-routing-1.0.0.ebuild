@@ -16,7 +16,7 @@ DESCRIPTION="Asynchronous Python client for the HERE Routing V8 API"
 HOMEPAGE="http://github.com/eifinger/here_routing"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

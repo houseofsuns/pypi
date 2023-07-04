@@ -16,7 +16,7 @@ DESCRIPTION="The CLI Emoji Keyboard"
 HOMEPAGE="https://github.com/hugovk/em-keyboard"
 LICENSE="ISC"
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

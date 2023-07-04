@@ -16,7 +16,7 @@ DESCRIPTION="Nonebot2 HikariBot,支持战舰世界水表查询"
 HOMEPAGE="https://github.com/benx1n/HikariBot"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

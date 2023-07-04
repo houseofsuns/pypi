@@ -16,7 +16,7 @@ DESCRIPTION="Sphinx documentation theme based on readthedocs.org"
 HOMEPAGE="https://github.com/LinxiFan/Sphinx-theme/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

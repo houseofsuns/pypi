@@ -16,7 +16,7 @@ DESCRIPTION="Open source library for using TensorFlow to train models on on Amaz
 HOMEPAGE="https://github.com/aws/sagemaker-tensorflow-training-toolkit"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

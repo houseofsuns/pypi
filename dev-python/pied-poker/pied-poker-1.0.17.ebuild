@@ -16,7 +16,7 @@ DESCRIPTION="A Python package to run flexible and fast poker simulations using a
 HOMEPAGE="https://github.com/elleklinton/PiedPoker"
 LICENSE="GNU LGPLv3"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

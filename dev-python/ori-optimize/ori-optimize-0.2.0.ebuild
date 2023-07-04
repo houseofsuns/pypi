@@ -16,7 +16,7 @@ DESCRIPTION="a environment that controls STL model rotate to reach the maximal 3
 HOMEPAGE=""
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

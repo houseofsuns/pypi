@@ -16,7 +16,7 @@ DESCRIPTION="A jinja2 markdown tag powered with PyMdown Extensions."
 HOMEPAGE="https://github.com/jpsca/jinja-markdown"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

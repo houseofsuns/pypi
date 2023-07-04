@@ -16,7 +16,7 @@ DESCRIPTION="Library for export webpage to Telegraph."
 HOMEPAGE="https://github.com/gaoyunzhi/export_to_telegraph"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A python library for asyncio caches (like functools cache and lru_c
 HOMEPAGE="https://github.com/matan1008/asyncio-cache"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

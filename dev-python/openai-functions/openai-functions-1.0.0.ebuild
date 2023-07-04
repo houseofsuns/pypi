@@ -16,7 +16,7 @@ DESCRIPTION="Simplifies the usage of OpenAI ChatGPT's function calling by genera
 HOMEPAGE="https://github.com/rizerphe/openai-functions"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

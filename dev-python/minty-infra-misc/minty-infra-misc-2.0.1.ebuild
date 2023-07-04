@@ -16,7 +16,7 @@ DESCRIPTION="Collection of infrastructure wrapper classes for Minty"
 HOMEPAGE="https://gitlab.com/minty-python/minty-infra-misc"
 LICENSE="EUPL license"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

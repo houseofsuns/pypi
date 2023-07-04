@@ -16,7 +16,7 @@ DESCRIPTION="Backport of multiprocessing.shared_memory in Python 3.8"
 HOMEPAGE="https://github.com/mars-project/shared_memory38"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

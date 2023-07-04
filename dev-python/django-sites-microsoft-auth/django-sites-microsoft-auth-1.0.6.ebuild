@@ -16,7 +16,7 @@ DESCRIPTION="Simple app to enable Microsoft Account, Office 365 Enterprise, Azur
 HOMEPAGE="https://github.com/gskudder/django_sites_microsoft_auth"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

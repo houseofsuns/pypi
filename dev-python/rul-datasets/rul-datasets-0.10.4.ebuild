@@ -16,7 +16,7 @@ DESCRIPTION="A collection of datasets for RUL estimation as Lightning Data Modul
 HOMEPAGE="https://krokotsch.eu/rul-datasets"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

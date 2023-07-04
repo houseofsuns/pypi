@@ -16,7 +16,7 @@ DESCRIPTION="Beancount Importer for DKB CSV exports"
 HOMEPAGE="https://github.com/siddhantgoel/beancount-dkb"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A library for users to write (experiment in research) configuration
 HOMEPAGE="https://github.com/NaiboWang/CommandlineConfig"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

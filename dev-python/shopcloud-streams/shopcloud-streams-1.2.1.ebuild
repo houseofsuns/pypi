@@ -16,7 +16,7 @@ DESCRIPTION="CLI Tool for Shopcloud Streams"
 HOMEPAGE="https://github.com/Talk-Point/shopcloud-streams-cli"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Python library for integrating with Microsoft Active Directory"
 HOMEPAGE="https://github.com/zorn96/ms_active_directory/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

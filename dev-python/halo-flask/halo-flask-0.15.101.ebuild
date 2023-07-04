@@ -16,7 +16,7 @@ DESCRIPTION="this is the Halo framework library for Flask"
 HOMEPAGE="https://github.com/yoramk2/halo_flask"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

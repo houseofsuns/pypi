@@ -16,7 +16,7 @@ DESCRIPTION="Read the data of an ODBC data source as sequence of Apache Arrow re
 HOMEPAGE=""
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

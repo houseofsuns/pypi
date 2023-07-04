@@ -16,7 +16,7 @@ DESCRIPTION="Recursive diff for nested structures"
 HOMEPAGE="https://github.com/mr-mixas/Nested-Diff.py"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

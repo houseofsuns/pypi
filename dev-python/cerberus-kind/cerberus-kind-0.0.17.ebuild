@@ -16,7 +16,7 @@ DESCRIPTION="Help to select a schema by \"kind\" key on cerberus."
 HOMEPAGE="https://github.com/onetop21/cerberus-kind.git"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

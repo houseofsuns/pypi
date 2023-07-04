@@ -16,7 +16,7 @@ DESCRIPTION="Libreria para localizacion Argentina"
 HOMEPAGE="https://github.com/odoo-arg/l10n_ar_api"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

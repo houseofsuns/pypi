@@ -16,7 +16,7 @@ DESCRIPTION="Package to create dummy datasets for analysis tasks"
 HOMEPAGE="https://github.com/mckoh/blob_creator"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

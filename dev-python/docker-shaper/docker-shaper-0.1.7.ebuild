@@ -16,7 +16,7 @@ DESCRIPTION="Keeps Docker resources in shape based on rules and usage"
 HOMEPAGE="https://github.com/Checkmk/checkmk-dev-tools"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

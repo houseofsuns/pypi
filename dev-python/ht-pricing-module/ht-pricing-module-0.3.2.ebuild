@@ -16,7 +16,7 @@ DESCRIPTION="huatai option pricing module"
 HOMEPAGE="http://10.17.75.129:9002/wangjun/ht_pricing_server/-/tree/main/ht_pricing_module"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

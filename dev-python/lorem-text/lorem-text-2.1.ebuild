@@ -16,7 +16,7 @@ DESCRIPTION="Dummy lorem ipsum text generator"
 HOMEPAGE="https://github.com/TheAbhijeet/lorem_text"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A highly configurable toolkit for commanding robots in mixed modali
 HOMEPAGE="https://wisc-hci.github.io/lively/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

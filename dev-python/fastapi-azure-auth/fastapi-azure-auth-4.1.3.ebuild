@@ -16,7 +16,7 @@ DESCRIPTION="Easy and secure implementation of Azure AD for your FastAPI APIs"
 HOMEPAGE="https://github.com/intility/fastapi-azure-auth"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

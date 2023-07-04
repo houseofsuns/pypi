@@ -16,7 +16,7 @@ DESCRIPTION="A Python logging handler to sends logs to Splunk using HTTP event c
 HOMEPAGE="https://github.com/vavarachen/splunk_hec_handler"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

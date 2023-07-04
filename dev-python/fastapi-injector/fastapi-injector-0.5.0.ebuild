@@ -16,7 +16,7 @@ DESCRIPTION="python-injector integration for FastAPI"
 HOMEPAGE="https://github.com/matyasrichter/fastapi-injector"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

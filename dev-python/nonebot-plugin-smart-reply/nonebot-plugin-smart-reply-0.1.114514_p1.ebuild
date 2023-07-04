@@ -16,7 +16,7 @@ DESCRIPTION="encapsulate logger"
 HOMEPAGE="https://github.com/Special-Week/nonebot_plugin_smart_reply"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/09/49/ed0a101da5f43d31b66b00b956d1d65348aa2e5b56a3a4055bf8187e6c4c/${REALNAME//-/_}-0.01.114514-1.tar.gz"
-SOURCEFILE="_}-0.01.114514-1.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-0.01.114514-1.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

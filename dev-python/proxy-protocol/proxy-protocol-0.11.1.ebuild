@@ -16,7 +16,7 @@ DESCRIPTION="PROXY protocol library with asyncio server implementation"
 HOMEPAGE="https://github.com/icgood/proxy-protocol/"
 LICENSE="## The MIT License MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

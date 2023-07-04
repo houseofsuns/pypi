@@ -16,7 +16,7 @@ DESCRIPTION="A web based explorer for fn_graph function composers"
 HOMEPAGE="https://github.com/BusinessOptics/fn_graph_studio"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

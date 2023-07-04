@@ -16,7 +16,7 @@ DESCRIPTION="Package for circular buffer numpy array"
 HOMEPAGE="https://github.com/vstadnytskyi/circular_buffer_numpy"
 LICENSE="BSD 3-clause"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

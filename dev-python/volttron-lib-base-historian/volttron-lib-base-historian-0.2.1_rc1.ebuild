@@ -16,7 +16,7 @@ DESCRIPTION="A base library with extension points for using with the VOLTTRON pl
 HOMEPAGE="https://github.com/eclipse-volttron/volttron-lib-base-historian"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

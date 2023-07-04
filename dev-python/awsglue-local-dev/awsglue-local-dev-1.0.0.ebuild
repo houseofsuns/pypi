@@ -16,7 +16,7 @@ DESCRIPTION="Build Python interfaces to the AWS Glue ETL library for use as a lo
 HOMEPAGE="https://github.com/dataseedug/aws-glue-libs/tree/glue-4.0"
 LICENSE="Amazon Software License 1.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

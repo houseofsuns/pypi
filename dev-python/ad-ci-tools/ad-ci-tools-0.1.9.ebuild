@@ -16,7 +16,7 @@ DESCRIPTION="Ci library with miscellaneous utils"
 HOMEPAGE="https://github.com/arenadata/ci_tools"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

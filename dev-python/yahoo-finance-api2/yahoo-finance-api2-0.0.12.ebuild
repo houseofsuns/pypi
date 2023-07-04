@@ -16,7 +16,7 @@ DESCRIPTION="Yahooo Finance API package"
 HOMEPAGE="https://github.com/pkout/yahoo_finance_api2"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

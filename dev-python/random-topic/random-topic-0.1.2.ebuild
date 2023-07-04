@@ -16,7 +16,7 @@ DESCRIPTION="module to fetch random topics for conversation"
 HOMEPAGE="https://github.com/johan-naizu/random_topic"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

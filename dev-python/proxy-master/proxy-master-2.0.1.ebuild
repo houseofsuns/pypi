@@ -16,7 +16,7 @@ DESCRIPTION="My first package to scrap free proxies from open resources"
 HOMEPAGE="https://github.com/555Russich/proxy_master"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

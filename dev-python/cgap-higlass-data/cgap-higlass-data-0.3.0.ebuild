@@ -16,7 +16,7 @@ DESCRIPTION="Data file generation for CGAP's Higlass browsers"
 HOMEPAGE="https://github.com/dbmi-bgm/higlass-data"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A Python implementation of Rust's Option and Result"
 HOMEPAGE="https://github.com/babichjacob/python-option-and-result"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

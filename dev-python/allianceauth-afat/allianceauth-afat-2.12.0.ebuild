@@ -16,7 +16,7 @@ DESCRIPTION="Another Fleet Activity Tracking tool for Alliance Auth"
 HOMEPAGE="https://github.com/ppfeufer/allianceauth-afat"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

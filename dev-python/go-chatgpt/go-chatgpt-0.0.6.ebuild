@@ -16,7 +16,7 @@ DESCRIPTION="Quick call to openai chatgpt api web page"
 HOMEPAGE="https://github.com/RedHeartSecretMan/go_chatgpt"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

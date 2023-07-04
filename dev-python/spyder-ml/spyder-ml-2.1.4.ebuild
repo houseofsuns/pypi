@@ -16,7 +16,7 @@ DESCRIPTION="A tool made to facilitate the analysis of html code."
 HOMEPAGE="https://github.com/accessmaker/Spyder-ml"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

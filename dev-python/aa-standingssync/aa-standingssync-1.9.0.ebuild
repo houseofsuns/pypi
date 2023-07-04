@@ -16,7 +16,7 @@ DESCRIPTION="Alliance Auth app for cloning alliance standings and war targets to
 HOMEPAGE="https://gitlab.com/ErikKalkoken/aa-standingssync"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="QQ机器人 RSS订阅 插件，订阅源建议选择 RSSHub"
 HOMEPAGE="https://github.com/Quan666/ELF_RSS"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

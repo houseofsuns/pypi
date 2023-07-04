@@ -16,7 +16,7 @@ DESCRIPTION="The noteable API interface"
 HOMEPAGE="https://github.com/noteable-io/papermill-origami"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

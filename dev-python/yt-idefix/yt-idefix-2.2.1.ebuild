@@ -16,7 +16,7 @@ DESCRIPTION="An extension module for yt, adding a frontend for Idefix and Pluto"
 HOMEPAGE="https://yt-project.org/"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

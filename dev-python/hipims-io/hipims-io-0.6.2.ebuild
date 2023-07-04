@@ -16,7 +16,7 @@ DESCRIPTION="To process input and output files of the HiPIMS model"
 HOMEPAGE="https://github.com/mingxiaodong/hipims_io_python"
 LICENSE="LICENSE.txt"
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Pure python logging handler for writing logs to the journald using 
 HOMEPAGE="https://github.com/mosquito/logging-journald"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

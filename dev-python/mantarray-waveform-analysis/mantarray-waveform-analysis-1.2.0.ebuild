@@ -16,7 +16,7 @@ DESCRIPTION="Tools for analyzing waveforms produced by a Mantarray Instrument"
 HOMEPAGE="https://github.com/CuriBio/mantarray-waveform-analysis"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

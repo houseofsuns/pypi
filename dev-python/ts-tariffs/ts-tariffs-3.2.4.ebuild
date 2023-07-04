@@ -16,7 +16,7 @@ DESCRIPTION="Calculate bills from timeseries consumption data and different tari
 HOMEPAGE="https://github.com/uts/tariff-module"
 LICENSE="GNU Lesser General Public License v2.1"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

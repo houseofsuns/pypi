@@ -16,7 +16,7 @@ DESCRIPTION="A Python package for offline access to Vega datasets"
 HOMEPAGE="http://github.com/altair-viz/vega_datasets"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

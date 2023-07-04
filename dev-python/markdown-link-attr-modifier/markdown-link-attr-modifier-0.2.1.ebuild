@@ -16,7 +16,7 @@ DESCRIPTION="A Python-Markdown extension to modify attributes of <a> tag links"
 HOMEPAGE="https://github.com/Phuker/markdown_link_attr_modifier"
 LICENSE="GNU General Public License v3.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

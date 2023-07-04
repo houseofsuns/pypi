@@ -16,7 +16,7 @@ DESCRIPTION="Are your data meeting all your expecations"
 HOMEPAGE="https://github.com/joocer/data_expectations"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

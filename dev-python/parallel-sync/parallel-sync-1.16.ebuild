@@ -16,7 +16,7 @@ DESCRIPTION="A Parallelized file/url syncing package"
 HOMEPAGE="https://github.com/kouroshparsa/parallel_sync"
 LICENSE="GNU"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

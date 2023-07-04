@@ -16,7 +16,7 @@ DESCRIPTION="A package to query and format the data in the integrated Datanator 
 HOMEPAGE="https://github.com/KarrLab/datanator_query_python"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

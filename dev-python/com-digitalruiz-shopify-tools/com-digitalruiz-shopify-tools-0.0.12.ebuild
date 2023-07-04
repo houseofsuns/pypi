@@ -16,7 +16,7 @@ DESCRIPTION="Collections of custom shopify functions"
 HOMEPAGE="https://github.com/reyesruiz/shopify_tools"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

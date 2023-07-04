@@ -16,7 +16,7 @@ DESCRIPTION="pydantic based configuration wrangler. Handles reading multiple ini
 HOMEPAGE="https://github.com/arcann/config_wrangler"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

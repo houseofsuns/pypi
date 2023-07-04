@@ -16,7 +16,7 @@ DESCRIPTION="Python library for transformation of geographic coordinates between
 HOMEPAGE="https://github.com/TomasJohansson/sweden_crs_transformations_4python"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

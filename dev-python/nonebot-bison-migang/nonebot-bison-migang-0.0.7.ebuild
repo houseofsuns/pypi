@@ -16,7 +16,7 @@ DESCRIPTION="Subscribe message from social medias"
 HOMEPAGE="https://github.com/LambdaYH/nonebot-bison-migang"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

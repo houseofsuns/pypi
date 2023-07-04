@@ -16,7 +16,7 @@ DESCRIPTION="A simple library to deal with Meross devices. At the moment MSS110,
 HOMEPAGE="https://github.com/albertogeniola/MerossIot"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

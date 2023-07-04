@@ -16,7 +16,7 @@ DESCRIPTION="Nanolib to enhance logging in aws lambda"
 HOMEPAGE="https://gitlab.com/hadrien/aws_lambda_logging"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

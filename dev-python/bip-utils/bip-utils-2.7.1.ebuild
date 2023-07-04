@@ -16,7 +16,7 @@ DESCRIPTION="Generation of mnemonics, seeds, private/public keys and addresses f
 HOMEPAGE="https://github.com/ebellocchia/bip_utils"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

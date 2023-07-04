@@ -16,7 +16,7 @@ DESCRIPTION="Easily create encrypted pickle files"
 HOMEPAGE="https://github.com/spapanik/pickle-secure"
 LICENSE="LGPL-3+"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

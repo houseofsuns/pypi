@@ -16,7 +16,7 @@ DESCRIPTION="nnU-Net. Framework for out-of-the box biomedical image segmentation
 HOMEPAGE="https://github.com/wasserth/nnUNet_cust"
 LICENSE="Apache License Version 2.0, January 2004"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

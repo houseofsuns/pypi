@@ -16,7 +16,7 @@ DESCRIPTION="LPIPS Similarity metric for Jax"
 HOMEPAGE="https://github.com/wilson1yan/lpips-jax"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

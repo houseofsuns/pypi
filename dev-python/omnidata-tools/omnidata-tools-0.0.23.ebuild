@@ -16,7 +16,7 @@ DESCRIPTION="Tooling for Omnidata: A Scalable Pipeline for Making Multi-Task Mid
 HOMEPAGE="https://github.com/alexsax/omnidata_tools/tree/main/"
 LICENSE="omnidata # Add licenses and see current list in setup.py"
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

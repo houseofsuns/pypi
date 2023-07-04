@@ -16,7 +16,7 @@ DESCRIPTION="Attempt at predicting common types in CSVs about Italian people and
 HOMEPAGE="https://github.com/LucaCappelletti94/italian_csv_type_prediction"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

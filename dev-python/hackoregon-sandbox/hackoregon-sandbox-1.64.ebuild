@@ -16,7 +16,7 @@ DESCRIPTION="2019 Sandbox backend API"
 HOMEPAGE="https://github.com/hackoregon/2019-sandbox-backend"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

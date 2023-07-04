@@ -16,7 +16,7 @@ DESCRIPTION="Very fast Python library for .eml files parsing."
 HOMEPAGE="https://github.com/namecheap/fast_mail_parser"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

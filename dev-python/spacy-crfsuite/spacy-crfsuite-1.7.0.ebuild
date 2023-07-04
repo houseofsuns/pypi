@@ -16,7 +16,7 @@ DESCRIPTION="spaCy pipeline component for CRF entity extraction"
 HOMEPAGE="https://github.com/talmago/spacy_crfsuite"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Bigeye Airflow Library supports Airflow 2.4.3 and offers custom ope
 HOMEPAGE="https://docs.bigeye.com/docs"
 LICENSE="Proprietary"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A napari plugin for loading data from yt"
 HOMEPAGE="https://github.com/data-exp-lab/yt-napari"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

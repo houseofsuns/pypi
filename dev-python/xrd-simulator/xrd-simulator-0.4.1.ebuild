@@ -16,7 +16,7 @@ DESCRIPTION="Tools for diffraction simulation of s3dxrd type experiments."
 HOMEPAGE="https://github.com/AxelHenningsson/xrd_simulator"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

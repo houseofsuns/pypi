@@ -16,7 +16,7 @@ DESCRIPTION="A simple way to implement request_id in Django"
 HOMEPAGE="https://github.com/juntossomosmais/request-id-django-log"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

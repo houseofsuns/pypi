@@ -16,7 +16,7 @@ DESCRIPTION="A build system to make building and testing Blender addons 10 times
 HOMEPAGE="https://github.com/StandingPadAnimations/bpy-build"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

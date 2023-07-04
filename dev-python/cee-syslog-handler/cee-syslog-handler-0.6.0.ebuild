@@ -16,7 +16,7 @@ DESCRIPTION="Python Syslog Logging Handler with CEE Support"
 HOMEPAGE="https://github.com/blue-yonder/cee_syslog_handler"
 LICENSE="new BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

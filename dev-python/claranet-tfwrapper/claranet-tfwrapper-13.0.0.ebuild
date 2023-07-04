@@ -16,7 +16,7 @@ DESCRIPTION="Claranet's \`tfwrapper\` is a wrapper for [Terraform](https://www.t
 HOMEPAGE="https://github.com/claranet/terraform-wrapper"
 LICENSE="Mozilla Public License Version 2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Python client for https://archfx.io"
 HOMEPAGE="https://github.com/iotile/python_archfx_cloud"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

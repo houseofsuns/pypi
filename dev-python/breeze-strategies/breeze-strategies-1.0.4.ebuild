@@ -16,7 +16,7 @@ DESCRIPTION="ICICIDIRECT's breezeconnect strategies in python"
 HOMEPAGE="https://github.com/Idirect-Tech/python_strategies/tree/master"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

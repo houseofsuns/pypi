@@ -16,7 +16,7 @@ DESCRIPTION="O projeto objetiva disponibilizar os parâmetros de qualidade em fo
 HOMEPAGE="https://github.com/gaemapiracicaba/norma_dec_8468-76"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

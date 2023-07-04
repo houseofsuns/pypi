@@ -16,7 +16,7 @@ DESCRIPTION="Manage properties outside a class"
 HOMEPAGE="https://github.com/yoelcortes/free_properties"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

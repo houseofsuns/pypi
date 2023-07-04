@@ -16,7 +16,7 @@ DESCRIPTION="Export your data as an xlsx stream"
 HOMEPAGE="https://github.com/Polyconseil/xlsx_streaming/"
 LICENSE="GNU GPLv3"
 SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

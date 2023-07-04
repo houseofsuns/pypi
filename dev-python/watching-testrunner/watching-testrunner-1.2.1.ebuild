@@ -16,7 +16,7 @@ DESCRIPTION="Automatic test execution on file changes"
 HOMEPAGE="https://github.com/tony/watching-testrunner"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

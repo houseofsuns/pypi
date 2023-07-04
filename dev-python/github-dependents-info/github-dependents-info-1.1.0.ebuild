@@ -16,7 +16,7 @@ DESCRIPTION="Collect information about dependencies between a github repo and ot
 HOMEPAGE="https://github.com/nvuillam/github-dependents-info"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

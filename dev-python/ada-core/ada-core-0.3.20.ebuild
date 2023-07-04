@@ -16,7 +16,7 @@ DESCRIPTION="ada_core is an anomaly detection library for timeseries data"
 HOMEPAGE="https://github.paypal.com/ROM/ada_core"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

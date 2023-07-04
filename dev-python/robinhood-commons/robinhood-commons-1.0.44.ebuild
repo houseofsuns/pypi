@@ -16,7 +16,7 @@ DESCRIPTION="Robinhood DayTrader Commons"
 HOMEPAGE="https://github.com/mhowell234/robinhood_commons"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

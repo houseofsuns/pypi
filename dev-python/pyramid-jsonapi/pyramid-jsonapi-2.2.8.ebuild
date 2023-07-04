@@ -16,7 +16,7 @@ DESCRIPTION="Auto-build JSON API from sqlalchemy models using the pyramid framew
 HOMEPAGE="https://github.com/colinhiggs/pyramid-jsonapi"
 LICENSE="GNU Affero General Public License v3 or later AGPLv3+"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

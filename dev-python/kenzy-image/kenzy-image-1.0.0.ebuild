@@ -16,7 +16,7 @@ DESCRIPTION="Computer Vision module for Python 3.x+ to perform face/object/motio
 HOMEPAGE="https://kenzy.ai"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

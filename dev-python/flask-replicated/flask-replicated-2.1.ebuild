@@ -16,7 +16,7 @@ DESCRIPTION="Flask SqlAlchemy router for stateful master-slave replication"
 HOMEPAGE="https://github.com/peterdemin/python-flask-replicated"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

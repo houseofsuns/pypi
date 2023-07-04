@@ -16,7 +16,7 @@ DESCRIPTION="Mkdocs plugin for translations using PO files."
 HOMEPAGE="https://github.com/mondeja/mkdocs-mdpo-plugin"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.linux-x86_64.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.linux-x86_64.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

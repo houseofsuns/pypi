@@ -16,7 +16,7 @@ DESCRIPTION="Script that updates Confluence articles from files written locally"
 HOMEPAGE="https://github.com/VTimofeenko/confluence_poster"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

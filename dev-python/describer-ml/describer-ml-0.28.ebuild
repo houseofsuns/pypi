@@ -16,7 +16,7 @@ DESCRIPTION="A set of descriptive statistics and hypothesis tests"
 HOMEPAGE="https://github.com/EricSchles/describer_ml"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A simple module to use for buttons in discord.py"
 HOMEPAGE="https://github.com/SilentJungle399/discord_buttons_plugin"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

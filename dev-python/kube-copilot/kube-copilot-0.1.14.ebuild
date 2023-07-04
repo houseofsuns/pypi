@@ -16,7 +16,7 @@ DESCRIPTION="Kubernetes Copilot"
 HOMEPAGE="https://github.com/feiskyer/kube-copilot"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

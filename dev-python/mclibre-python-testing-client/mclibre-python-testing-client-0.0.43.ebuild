@@ -16,7 +16,7 @@ DESCRIPTION="Testing tool for some of the exercises in mclibre.org's Python cour
 HOMEPAGE="https://github.com/BartolomeSintes/mclibre-python-testing/"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

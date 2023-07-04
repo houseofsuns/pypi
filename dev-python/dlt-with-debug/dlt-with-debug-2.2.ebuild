@@ -16,7 +16,7 @@ DESCRIPTION="Utility for running workflows leveraging delta live tables from int
 HOMEPAGE="https://github.com/souvik-databricks/dlt-with-debug"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

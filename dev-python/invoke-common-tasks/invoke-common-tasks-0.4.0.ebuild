@@ -16,7 +16,7 @@ DESCRIPTION="Some common tasks for PyInvoke to bootstrap your code quality and t
 HOMEPAGE="https://github.com/neozenith/invoke-common-tasks"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

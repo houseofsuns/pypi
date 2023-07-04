@@ -16,7 +16,7 @@ DESCRIPTION="Commandline Interface for Bambleweeny"
 HOMEPAGE="https://github.com/u1i/b9y-cli"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

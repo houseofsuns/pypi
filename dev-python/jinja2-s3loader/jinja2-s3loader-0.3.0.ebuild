@@ -16,7 +16,7 @@ DESCRIPTION="A Jinja2 template loader for AWS S3."
 HOMEPAGE="https://github.com/veselosky/jinja2_s3loader"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Zoho Analytics connector"
 HOMEPAGE="https://github.com/timrichardson/zoho_analytics_connector"
 LICENSE="MPL-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

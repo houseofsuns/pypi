@@ -16,7 +16,7 @@ DESCRIPTION="VGGFace implementation with Keras framework"
 HOMEPAGE="https://github.com/rcmalli/keras-vggface"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

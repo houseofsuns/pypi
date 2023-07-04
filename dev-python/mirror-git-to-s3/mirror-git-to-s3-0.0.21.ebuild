@@ -16,7 +16,7 @@ DESCRIPTION="Python functions and CLI to mirror git repositories available on HT
 HOMEPAGE="https://github.com/uktrade/mirror-git-to-s3"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

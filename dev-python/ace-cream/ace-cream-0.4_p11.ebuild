@@ -16,7 +16,7 @@ DESCRIPTION="Alternating Conditional Expectation Algorithm"
 HOMEPAGE="https://github.com/zhaofeng-shu33/ace_cream"
 LICENSE="Apache License Version 2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

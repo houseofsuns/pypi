@@ -16,7 +16,7 @@ DESCRIPTION="Parameter Estimation Tools for Generating EnergyPlus Inputs from Ra
 HOMEPAGE="https://github.com/Myoldmopar/EnergyPlusPet"
 LICENSE="ModifiedBSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

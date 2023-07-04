@@ -16,7 +16,7 @@ DESCRIPTION="A simple way to backup and restore Neo4j databases without using du
 HOMEPAGE="https://github.com/andreshyer/neo4j-backup"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

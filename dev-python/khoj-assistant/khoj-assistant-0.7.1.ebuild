@@ -16,7 +16,7 @@ DESCRIPTION="An AI personal assistant for your Digital Brain"
 HOMEPAGE="https://github.com/khoj-ai/khoj#readme"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

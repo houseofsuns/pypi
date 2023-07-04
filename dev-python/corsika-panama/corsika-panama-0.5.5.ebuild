@@ -16,7 +16,7 @@ DESCRIPTION="PANdas And Multicore utils for corsikA7"
 HOMEPAGE="https://github.com/The-Ludwig/PANAMA"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

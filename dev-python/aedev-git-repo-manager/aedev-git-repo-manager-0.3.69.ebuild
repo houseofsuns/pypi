@@ -16,7 +16,7 @@ DESCRIPTION="aedev namespace package portion git_repo_manager: create and mainta
 HOMEPAGE="https://gitlab.com/aedev-group/aedev_git_repo_manager"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

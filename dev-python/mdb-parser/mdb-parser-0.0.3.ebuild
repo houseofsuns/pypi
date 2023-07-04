@@ -16,7 +16,7 @@ DESCRIPTION="Microsoft Access (.mdb, .accdb) database file parser"
 HOMEPAGE="https://github.com/fedestella263/mdb_parser"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

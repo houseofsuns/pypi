@@ -16,7 +16,7 @@ DESCRIPTION="Query a Quantum Gateway"
 HOMEPAGE="https://github.com/cisasteelersfan/quantum_gateway"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Herramientas basicas de dibujo de estructuras de datos"
 HOMEPAGE="https://github.com/ivansipiran/aed_utilities"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

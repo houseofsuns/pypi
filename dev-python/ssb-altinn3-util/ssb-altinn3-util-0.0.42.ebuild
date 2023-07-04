@@ -16,7 +16,7 @@ DESCRIPTION="A small library package containing various tools and utilities"
 HOMEPAGE="https://github.com/statisticsnorway/ssb-altinn3-util"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

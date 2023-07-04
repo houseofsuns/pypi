@@ -16,7 +16,7 @@ DESCRIPTION="Python clients for ESD services"
 HOMEPAGE="https://github.com/SneaksAndData/esd-services-api-client"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

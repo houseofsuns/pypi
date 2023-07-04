@@ -16,7 +16,7 @@ DESCRIPTION="A python package for script (and command) virtualisation with less 
 HOMEPAGE="https://github.com/neongraal/script_venv"
 LICENSE="BSD license"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

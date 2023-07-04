@@ -16,7 +16,7 @@ DESCRIPTION="A CLI utility to create graphs from CSV files."
 HOMEPAGE="https://github.com/mcastorina/graph-cli"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

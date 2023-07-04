@@ -16,7 +16,7 @@ DESCRIPTION="Tool to Edit PowerLevel10k p10k.zsh Config File (work-in-progress)"
 HOMEPAGE=""
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

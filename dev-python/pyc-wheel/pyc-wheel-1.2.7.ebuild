@@ -16,7 +16,7 @@ DESCRIPTION="Compile all py files in a wheel to pyc files."
 HOMEPAGE="https://pypi.org/project/pyc_wheel/"
 LICENSE="MIT License ; https://opensource.org/licenses/MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.zip"
-SOURCEFILE="_}-${REALVERSION}.zip"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

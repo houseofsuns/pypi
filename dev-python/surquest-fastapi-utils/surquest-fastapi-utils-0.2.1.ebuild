@@ -16,7 +16,7 @@ DESCRIPTION="This project provides collection of utilities for FastAPI framework
 HOMEPAGE="https://github.com/surquest/python-fastapi-utils"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

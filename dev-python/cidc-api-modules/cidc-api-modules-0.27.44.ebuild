@@ -16,7 +16,7 @@ DESCRIPTION="SQLAlchemy data models and configuration tools used in the CIDC API
 HOMEPAGE="https://github.com/CIMAC-CIDC/cidc_api-gae"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

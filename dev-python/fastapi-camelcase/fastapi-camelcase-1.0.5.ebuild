@@ -16,7 +16,7 @@ DESCRIPTION="Package provides an easy way to have camelcase request/response bod
 HOMEPAGE="https://nf1s.github.io/fastapi-camelcase/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

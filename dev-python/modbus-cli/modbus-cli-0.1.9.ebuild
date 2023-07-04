@@ -16,7 +16,7 @@ DESCRIPTION="Command line tool to access Modbus devices"
 HOMEPAGE="http://github.com/favalex/modbus-cli"
 LICENSE="MPL 2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

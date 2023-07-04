@@ -16,7 +16,7 @@ DESCRIPTION="Goldman Sachs Quant"
 HOMEPAGE="https://marquee.gs.com"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

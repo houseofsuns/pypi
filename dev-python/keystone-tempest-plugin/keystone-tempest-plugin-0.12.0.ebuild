@@ -16,7 +16,7 @@ DESCRIPTION="Tempest plugin keystone_tempest_plugin"
 HOMEPAGE="https://docs.openstack.org/keystone/latest/"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

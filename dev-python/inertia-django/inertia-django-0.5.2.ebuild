@@ -16,7 +16,7 @@ DESCRIPTION="Django adapter for the InertiaJS framework"
 HOMEPAGE="https://github.com/inertiajs/inertia-django"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

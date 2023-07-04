@@ -16,7 +16,7 @@ DESCRIPTION="Functions to work with Optimacros API"
 HOMEPAGE="https://github.com/pahMelnik/om_api"
 LICENSE="MIT see LICESE file"
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

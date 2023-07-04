@@ -16,7 +16,7 @@ DESCRIPTION="OAI-PMH exploration functions for curator core project"
 HOMEPAGE="https://github.com/usnistgov/core_explore_oaipmh_app"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

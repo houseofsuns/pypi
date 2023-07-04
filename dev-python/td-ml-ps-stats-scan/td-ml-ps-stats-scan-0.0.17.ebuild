@@ -16,7 +16,7 @@ DESCRIPTION="Extract Parent Segment Stats"
 HOMEPAGE="https://github.com/treasure-data-ps/td_ml_ps_stats_scan"
 LICENSE="Copyright  2022 Treasure Data, Inc. or its affiliates. All rights reserved"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

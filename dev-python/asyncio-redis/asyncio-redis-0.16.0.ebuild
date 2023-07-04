@@ -16,7 +16,7 @@ DESCRIPTION="PEP 3156 implementation of the redis protocol."
 HOMEPAGE="https://github.com/jonathanslenders/asyncio-redis"
 LICENSE="LICENSE.txt"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

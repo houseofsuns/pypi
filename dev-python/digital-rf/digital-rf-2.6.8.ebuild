@@ -16,7 +16,7 @@ DESCRIPTION="Python tools to read/write Digital RF data in HDF5 format"
 HOMEPAGE="https://github.com/MITHaystack/digital_rf"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

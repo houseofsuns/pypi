@@ -16,7 +16,7 @@ DESCRIPTION="An Alliance Auth app for monitoring celery tasks."
 HOMEPAGE="https://gitlab.com/ErikKalkoken/aa-taskmonitor"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

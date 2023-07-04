@@ -16,7 +16,7 @@ DESCRIPTION="A collection of utilities to simplify a data workflow using pandas,
 HOMEPAGE="https://github.com/JediHero/jedi_toolz"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

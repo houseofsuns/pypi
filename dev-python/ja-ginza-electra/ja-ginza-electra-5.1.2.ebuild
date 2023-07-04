@@ -16,7 +16,7 @@ DESCRIPTION="Japanese multi-task CNN trained on UD-Japanese BCCWJ r2.8 + GSK2014
 HOMEPAGE="https://github.com/megagonlabs/ginza"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Implementation of key-value pair based configuration for Python app
 HOMEPAGE="https://github.com/Neoteroi/essentials-configuration"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

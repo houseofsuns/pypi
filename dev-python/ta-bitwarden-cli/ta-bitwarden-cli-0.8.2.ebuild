@@ -16,7 +16,7 @@ DESCRIPTION="Thoughtful BitWarden CLI Package"
 HOMEPAGE="https://www.thoughtful.ai/"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

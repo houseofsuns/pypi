@@ -16,7 +16,7 @@ DESCRIPTION="A danmaku plugin for Nonebot2"
 HOMEPAGE="https://github.com/zangxx66/nonebot_plugin_blive_danmaku"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

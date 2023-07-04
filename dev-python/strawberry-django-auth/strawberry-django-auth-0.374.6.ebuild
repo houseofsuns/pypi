@@ -16,7 +16,7 @@ DESCRIPTION="Graphql authentication system with Strawberry for Django."
 HOMEPAGE="https://github.com/nrbnlulu/strawberry-django-auth"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

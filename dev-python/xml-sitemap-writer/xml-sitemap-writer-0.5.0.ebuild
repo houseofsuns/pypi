@@ -16,7 +16,7 @@ DESCRIPTION="Python3 package for writing large XML sitemaps with no external dep
 HOMEPAGE="https://github.com/pigs-will-fly/py-xml-sitemap-writer"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

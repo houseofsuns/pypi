@@ -16,7 +16,7 @@ DESCRIPTION="Google-Play-Scraper provides APIs to easily crawl the Google Play S
 HOMEPAGE="https://github.com/JoMingyu/google-play-scraper"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A Python interface for controlling and receiving data from a UR rob
 HOMEPAGE="https://gitlab.com/sdurobotics/ur_rtde"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

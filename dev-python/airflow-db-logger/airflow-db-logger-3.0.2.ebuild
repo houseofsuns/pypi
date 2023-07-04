@@ -16,7 +16,7 @@ DESCRIPTION="An airflow logger that stores its results in a database given an SQ
 HOMEPAGE="https://github.com/LamaAni/AirflowDBLogger"
 LICENSE="docs/LICENSE"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

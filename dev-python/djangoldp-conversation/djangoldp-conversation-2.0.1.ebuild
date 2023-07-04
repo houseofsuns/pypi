@@ -16,7 +16,7 @@ DESCRIPTION="djangoldp package for conversation data models"
 HOMEPAGE="https://git.happy-dev.fr/startinblox/djangoldp-packages/djangoldp-conversations"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="OpenVAS Manager for OpenVAS 6 to 8 and XML report parser"
 HOMEPAGE="http://www.golismero.com/"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

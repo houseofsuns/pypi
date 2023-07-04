@@ -16,7 +16,7 @@ DESCRIPTION="Utilities for whole-cell modeling"
 HOMEPAGE="https://github.com/KarrLab/wc_utils"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

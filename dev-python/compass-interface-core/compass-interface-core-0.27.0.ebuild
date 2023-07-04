@@ -16,7 +16,7 @@ DESCRIPTION="The unofficial API to the Scouts' national membership system, Compa
 HOMEPAGE="https://github.com/the-scouts/compass-interface"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

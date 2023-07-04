@@ -16,7 +16,7 @@ DESCRIPTION="A C++ implementation of Conservative Q-Improvement"
 HOMEPAGE="https://github.com/AMR-/Conservative-Q-Improvement"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

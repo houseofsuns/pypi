@@ -16,7 +16,7 @@ DESCRIPTION="Utility package for common features at CBMI"
 HOMEPAGE="https://git.tools.f4.htw-berlin.de/baumapa/cbmi_utils"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

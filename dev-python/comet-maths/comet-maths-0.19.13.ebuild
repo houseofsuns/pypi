@@ -16,7 +16,7 @@ DESCRIPTION="Mathematical algorithms and tools to use within CoMet toolkit."
 HOMEPAGE="https://github.com/comet-toolkit/comet_maths"
 LICENSE="LGPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

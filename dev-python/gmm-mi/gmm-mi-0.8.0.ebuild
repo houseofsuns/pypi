@@ -16,7 +16,7 @@ DESCRIPTION="Estimate mutual information distribution with Gaussian mixture mode
 HOMEPAGE="https://github.com/dpiras/GMM-MI"
 LICENSE="GNU General Public License v3.0 GPLv3"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

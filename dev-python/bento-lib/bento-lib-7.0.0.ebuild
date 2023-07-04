@@ -16,7 +16,7 @@ DESCRIPTION="A set of common utilities and helpers for Bento platform services."
 HOMEPAGE="https://github.com/bento-platform/bento_lib"
 LICENSE="LGPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

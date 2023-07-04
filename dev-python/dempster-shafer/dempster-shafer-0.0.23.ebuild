@@ -16,7 +16,7 @@ DESCRIPTION="Tools for Dempster-Shafer theory of evidence computation"
 HOMEPAGE="https://github.com/noeliarico/dempster_shafer"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

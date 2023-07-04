@@ -16,7 +16,7 @@ DESCRIPTION="A utility to report core memory usage per program"
 HOMEPAGE="http://github.com/pixelb/ps_mem"
 LICENSE="LGPL-2"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

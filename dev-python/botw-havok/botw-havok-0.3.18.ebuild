@@ -16,7 +16,7 @@ DESCRIPTION="A library for manipulating Breath of the Wild Havok packfiles"
 HOMEPAGE="https://github.com/krenyy/botw_havok"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

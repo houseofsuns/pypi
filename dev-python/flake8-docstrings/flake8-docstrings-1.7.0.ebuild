@@ -16,7 +16,7 @@ DESCRIPTION="Extension for flake8 which uses pydocstyle to check docstrings"
 HOMEPAGE="https://github.com/pycqa/flake8-docstrings"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

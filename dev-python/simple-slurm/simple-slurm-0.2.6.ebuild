@@ -16,7 +16,7 @@ DESCRIPTION="A simple Python wrapper for Slurm with flexibility in mind."
 HOMEPAGE="https://github.com/amq92/simple_slurm"
 LICENSE="AGPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Client for ZenDesk Sell Firehose API"
 HOMEPAGE="https://github.com/StrongMind/zendesk_sell_firehose_client"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

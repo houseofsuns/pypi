@@ -16,7 +16,7 @@ DESCRIPTION="Expose feature flags and settings from django waffle and django con
 HOMEPAGE="https://github.com/loadsmart/django-frontend-settings"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

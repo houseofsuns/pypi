@@ -16,7 +16,7 @@ DESCRIPTION="A toolbox for analyzing the receptive field expansion in neural net
 HOMEPAGE="https://github.com/MLRichter/receptive_field_analysis_toolbox"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="SDK for power markets operations on Cognite Data Fusion"
 HOMEPAGE="https://cognite-power-ops-sdk.readthedocs-hosted.com/en/latest/"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

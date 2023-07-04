@@ -16,7 +16,7 @@ DESCRIPTION="A collectd output plugin to send Carbon 2.0-formatted metrics to Su
 HOMEPAGE="https://github.com/SumoLogic/sumologic-collectd-plugin"
 LICENSE="Apache Software License, Version 2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

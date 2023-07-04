@@ -16,7 +16,7 @@ DESCRIPTION="SAP CP Security Client Library for JWT offline validation"
 HOMEPAGE="https://github.com/SAP-samples/cloud-sapjwt"
 LICENSE="SAP Developer"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

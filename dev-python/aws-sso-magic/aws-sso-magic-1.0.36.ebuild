@@ -16,7 +16,7 @@ DESCRIPTION="Magic credentials on the AWS CLI home using AWS SSO login"
 HOMEPAGE="https://github.com/javiortizmol/aws-sso-magic"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

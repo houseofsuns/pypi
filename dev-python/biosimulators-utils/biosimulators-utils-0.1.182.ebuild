@@ -16,7 +16,7 @@ DESCRIPTION="Command-line program and library for reading, writing, validating a
 HOMEPAGE="https://github.com/biosimulators/Biosimulators_utils"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Generate X509 certificates according to Avviso SPID 29 v3"
 HOMEPAGE="https://github.com/italia/spid-compliant-certificates-python"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

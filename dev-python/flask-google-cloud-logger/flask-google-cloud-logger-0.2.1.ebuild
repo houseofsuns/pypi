@@ -16,7 +16,7 @@ DESCRIPTION="Google Cloud Log Formatter for Flask"
 HOMEPAGE="http://github.com/rai200890/flask_google_cloud_logger"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

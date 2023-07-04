@@ -16,7 +16,7 @@ DESCRIPTION="Appier Framework Extra Elements"
 HOMEPAGE="http://appier_extras.hive.pt"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

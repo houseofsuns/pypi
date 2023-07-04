@@ -16,7 +16,7 @@ DESCRIPTION="Solar Filaments data augmentation demo package"
 HOMEPAGE="https://bitbucket.org/gsudmlab/augmentation_engine/src/master/"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

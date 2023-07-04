@@ -16,7 +16,7 @@ DESCRIPTION="Python Boilerplate contains all the boilerplate you need to create 
 HOMEPAGE="https://github.com/fastdevops/hello_demo"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Simple library to manage tor proxy and IP changes"
 HOMEPAGE="https://github.com/markowanga/tor-python-easy"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

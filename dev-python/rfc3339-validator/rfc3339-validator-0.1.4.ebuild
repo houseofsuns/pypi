@@ -16,7 +16,7 @@ DESCRIPTION="A pure python RFC3339 validator"
 HOMEPAGE="https://github.com/naimetti/rfc3339-validator"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Django plugin to add and configure the Cookie Control by Civic UK"
 HOMEPAGE="https://github.com/mcldev/django-cookie-control"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

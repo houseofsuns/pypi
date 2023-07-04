@@ -16,7 +16,7 @@ DESCRIPTION="A cli tool to bootstrap your django projects and enhance your devel
 HOMEPAGE="https://tobi-de.github.io/fuzzy-couscous/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

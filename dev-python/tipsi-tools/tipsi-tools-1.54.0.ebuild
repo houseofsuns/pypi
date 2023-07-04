@@ -16,7 +16,7 @@ DESCRIPTION="Various python stuff: testing, aio helpers, etc"
 HOMEPAGE="http://github.com/tipsi/tipsi_tools"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

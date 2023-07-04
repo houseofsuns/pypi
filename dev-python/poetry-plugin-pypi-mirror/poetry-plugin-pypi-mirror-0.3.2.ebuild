@@ -16,7 +16,7 @@ DESCRIPTION="Poetry plugin that adds support for pypi.org mirrors and pull-throu
 HOMEPAGE="https://github.com/arcesium/poetry-plugin-pypi-mirror"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Exact Critical Coulomb Wedge - Graphical User Interface: tools to c
 HOMEPAGE="https://github.com/bclmary/eccw_gui"
 LICENSE="GPL-3+"
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

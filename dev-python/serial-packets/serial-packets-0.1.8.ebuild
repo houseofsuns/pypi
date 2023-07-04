@@ -16,7 +16,7 @@ DESCRIPTION="A Python impelementation of the Serial Packets protocol"
 HOMEPAGE="https://github.com/zapta/serial_packets_py"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

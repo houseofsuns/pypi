@@ -16,7 +16,7 @@ DESCRIPTION="Dictionary wrapper for quick access to deeply nested keys."
 HOMEPAGE="https://github.com/pawelzny/dotty_dict"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

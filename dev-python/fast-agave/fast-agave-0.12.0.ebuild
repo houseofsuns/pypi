@@ -16,7 +16,7 @@ DESCRIPTION="Rest api blueprints for fast-api"
 HOMEPAGE="https://github.com/cuenca-mx/fast-agave"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Python typings of payloads that Discord sends"
 HOMEPAGE="https://github.com/Bluenix2/discord-typings/"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

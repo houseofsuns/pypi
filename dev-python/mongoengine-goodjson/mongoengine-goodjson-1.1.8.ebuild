@@ -16,7 +16,7 @@ DESCRIPTION="More human readable JSON serializer/de-serializer for MongoEngine"
 HOMEPAGE="https://github.com/hiroaki-yamamoto/mongoengine-goodjson"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

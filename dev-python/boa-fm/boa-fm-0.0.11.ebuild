@@ -16,7 +16,7 @@ DESCRIPTION="framework for making monads. this provides the brains for the appli
 HOMEPAGE="https://github.com/dmkamath/quick_bytes"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

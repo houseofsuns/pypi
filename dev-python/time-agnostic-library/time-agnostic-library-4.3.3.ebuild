@@ -16,7 +16,7 @@ DESCRIPTION="time-agnostic-library is a Python ≥3.7 library that allows perfor
 HOMEPAGE="https://github.com/opencitations/time-agnostic-library"
 LICENSE="ISC"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

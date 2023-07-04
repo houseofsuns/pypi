@@ -16,7 +16,7 @@ DESCRIPTION="Fake selinux module that always says SELinux is off"
 HOMEPAGE="https://github.com/goneri/selinux_please_lie_to_me"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

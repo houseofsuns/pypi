@@ -16,7 +16,7 @@ DESCRIPTION="A simple extension to Pydantic BaseSettings that can retrieve secre
 HOMEPAGE="https://github.com/nymous/pydantic-vault"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Patch os.environ with dynamic values when the interpreter starts"
 HOMEPAGE="https://github.com/caricalabs/patch-env"
 LICENSE="APL 2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

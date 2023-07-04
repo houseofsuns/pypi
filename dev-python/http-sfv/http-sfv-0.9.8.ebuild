@@ -16,7 +16,7 @@ DESCRIPTION="Parse and serialise HTTP Structured Field Values"
 HOMEPAGE="https://github.com/mnot/http_sfv"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

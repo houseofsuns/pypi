@@ -16,7 +16,7 @@ DESCRIPTION="An example construct for deploying to npm, PyPi, Maven, and Nuget w
 HOMEPAGE="https://github.com/HsiehShuJeng/projen-simple.git"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

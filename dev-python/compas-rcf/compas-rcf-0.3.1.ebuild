@@ -16,7 +16,7 @@ DESCRIPTION="python module for MAS DFAB project Rapid Clay Formations"
 HOMEPAGE="https://github.com/tetov/compas_rcf"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

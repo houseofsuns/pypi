@@ -16,7 +16,7 @@ DESCRIPTION="Get your Daily Dev bookmarks from CLI"
 HOMEPAGE="https://github.com/Mr-Destructive/bookmarks-cli"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

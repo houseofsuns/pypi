@@ -16,7 +16,7 @@ DESCRIPTION="Django autocomplete light filters for django admin"
 HOMEPAGE="https://github.com/shamanu4/dal_admin_filters"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

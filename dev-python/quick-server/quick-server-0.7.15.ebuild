@@ -16,7 +16,7 @@ DESCRIPTION="QuickServer is a quick to use and easy to set up server implementat
 HOMEPAGE="https://github.com/JosuaKrause/quick_server"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

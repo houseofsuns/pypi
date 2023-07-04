@@ -16,7 +16,7 @@ DESCRIPTION="A module parses common forms of australian addresses."
 HOMEPAGE="https://github.com/ethanzhao6/au-addr-parser"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.macosx-10.9-x86_64.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.macosx-10.9-x86_64.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.macosx-10.9-x86_64.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

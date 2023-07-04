@@ -16,7 +16,7 @@ DESCRIPTION="Display a warning at the top of module documentation that it has ad
 HOMEPAGE="https://github.com/sphinx-toolbox/extras_require"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

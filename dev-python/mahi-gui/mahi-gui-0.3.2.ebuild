@@ -16,7 +16,7 @@ DESCRIPTION="Python bindings for mahi-gui imgui and implot."
 HOMEPAGE="https://github.com/JoelLinn/py-mahi-gui"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

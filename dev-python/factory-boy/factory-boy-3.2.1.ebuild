@@ -16,7 +16,7 @@ DESCRIPTION="A versatile test fixtures replacement based on thoughtbot's factory
 HOMEPAGE="https://github.com/FactoryBoy/factory_boy"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

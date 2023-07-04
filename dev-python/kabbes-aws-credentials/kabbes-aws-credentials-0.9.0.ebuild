@@ -16,7 +16,7 @@ DESCRIPTION="system for quickly updating AWS credentials and importing them into
 HOMEPAGE="https://pypi.org/project/kabbes-aws-credentials/"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

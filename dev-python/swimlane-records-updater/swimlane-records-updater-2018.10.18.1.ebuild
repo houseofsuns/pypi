@@ -16,7 +16,7 @@ DESCRIPTION="Common Record Updater for Swimlane apps"
 HOMEPAGE="https://github.com/jeremymcrews/swimlane_record_updater"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

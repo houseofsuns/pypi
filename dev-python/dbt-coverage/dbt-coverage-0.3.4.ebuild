@@ -16,7 +16,7 @@ DESCRIPTION="One-stop-shop for docs and test coverage of dbt projects"
 HOMEPAGE="https://github.com/slidoapp/dbt-coverage"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

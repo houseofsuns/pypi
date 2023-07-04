@@ -16,7 +16,7 @@ DESCRIPTION="NCBI E-utilities wrapper for assembly downloads"
 HOMEPAGE="https://github.com/davised/get_assemblies"
 LICENSE="Custom"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

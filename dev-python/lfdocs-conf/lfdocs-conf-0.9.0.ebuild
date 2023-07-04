@@ -16,7 +16,7 @@ DESCRIPTION="Linux Foundation DocsConf"
 HOMEPAGE="https://docs.releng.linuxfoundation.org/projects/lfdocs-conf"
 LICENSE="EPL-1.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

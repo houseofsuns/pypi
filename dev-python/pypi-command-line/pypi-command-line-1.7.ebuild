@@ -16,7 +16,7 @@ DESCRIPTION="A beautiful command line interface for the Python Package Index"
 HOMEPAGE="https://wasi-master.github.io/pypi-command-line/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

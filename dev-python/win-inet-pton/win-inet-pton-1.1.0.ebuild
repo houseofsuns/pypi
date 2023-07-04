@@ -16,7 +16,7 @@ DESCRIPTION="Native inet_pton and inet_ntop implementation for Python on Windows
 HOMEPAGE="https://github.com/hickeroar/win_inet_pton"
 LICENSE="This software released into the public domain. Anyone is free to copy,"
 SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

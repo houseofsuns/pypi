@@ -16,7 +16,7 @@ DESCRIPTION="Models of brittle-concrete composite cross sections."
 HOMEPAGE="https://github.com/bmcs-group/bmcs_cross_section"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

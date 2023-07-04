@@ -16,7 +16,7 @@ DESCRIPTION="Utilities to work on 2D and 3D structured grids"
 HOMEPAGE="https://gitlab.com/cerfacs/ms_thermo"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

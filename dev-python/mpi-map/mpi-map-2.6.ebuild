@@ -16,7 +16,7 @@ DESCRIPTION="Tools running parallel processes"
 HOMEPAGE="http://www2.compute.dtu.dk/~dabi/"
 LICENSE="COPYING.LESSER"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A python package for sentiment analysis and emotion recognition in 
 HOMEPAGE="https://github.com/MilaNLProc/feel-it"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

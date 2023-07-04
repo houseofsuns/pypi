@@ -16,7 +16,7 @@ DESCRIPTION="Images in the terminal."
 HOMEPAGE="https://github.com/eerimoq/terminal_graphics"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A Jupyter kernel for Stata. Works with Windows, macOS, and Linux. P
 HOMEPAGE="https://github.com/kylebarron/stata_kernel"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Open-Source background removal framework"
 HOMEPAGE="https://github.com/OPHoperHPO/image-background-remove-tool"
 LICENSE="Apache License v2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

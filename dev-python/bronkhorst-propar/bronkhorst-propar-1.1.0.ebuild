@@ -16,7 +16,7 @@ DESCRIPTION="Communicate to Bronkhorst Instruments using the propar protocol ove
 HOMEPAGE="https://github.com/bronkhorst-developer/bronkhorst-propar"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

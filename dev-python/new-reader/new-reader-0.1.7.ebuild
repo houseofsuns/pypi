@@ -16,7 +16,7 @@ DESCRIPTION="Read http(s), multicast, and udp streams like files"
 HOMEPAGE="https://github.com/futzu/new_reader"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

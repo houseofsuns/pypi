@@ -16,7 +16,7 @@ DESCRIPTION="Get dart data from https://opendart.fss.or.kr"
 HOMEPAGE="https://pypi.org/project/dart-hj3415/"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

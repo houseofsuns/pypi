@@ -16,7 +16,7 @@ DESCRIPTION="Condense SPF records to network blocks to avoid DNS Lookup Limits"
 HOMEPAGE="https://github.com/cetanu/sender_policy_flattener"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

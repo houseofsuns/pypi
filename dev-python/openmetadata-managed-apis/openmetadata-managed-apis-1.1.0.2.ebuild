@@ -16,7 +16,7 @@ DESCRIPTION="Airflow REST APIs to create and manage DAGS"
 HOMEPAGE="https://open-metadata.org/"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Async single threaded connector to Splunk HEC using an asyncio sess
 HOMEPAGE="https://github.com/Bre77/hass_splunk"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

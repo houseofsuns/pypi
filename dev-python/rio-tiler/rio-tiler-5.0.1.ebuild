@@ -16,7 +16,7 @@ DESCRIPTION="User friendly Rasterio plugin to read raster datasets."
 HOMEPAGE="https://cogeotiff.github.io/rio-tiler/"
 LICENSE="BSD 3-Clause License"
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

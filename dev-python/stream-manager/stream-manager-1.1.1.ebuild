@@ -16,7 +16,7 @@ DESCRIPTION="The AWS IoT Greengrass Stream Manager SDK for Python"
 HOMEPAGE=""
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

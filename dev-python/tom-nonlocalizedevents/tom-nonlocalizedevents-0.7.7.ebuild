@@ -16,7 +16,7 @@ DESCRIPTION="Reusable TOMToolkit app to support gravitational wave superevent an
 HOMEPAGE="https://github.com/TOMToolkit/tom_nonlocalizedevents"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

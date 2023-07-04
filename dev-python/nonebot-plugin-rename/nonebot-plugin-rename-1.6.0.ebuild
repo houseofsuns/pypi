@@ -16,7 +16,7 @@ DESCRIPTION="更改qq机器人的群名片，内置多种有趣名片"
 HOMEPAGE=""
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

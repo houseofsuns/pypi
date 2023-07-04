@@ -16,7 +16,7 @@ DESCRIPTION="RESTful Flask framework with builtin MongoDB, Redis, Celery, Sentry
 HOMEPAGE="https://github.com/Topazoo/dead_simple_framework"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

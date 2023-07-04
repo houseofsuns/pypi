@@ -16,7 +16,7 @@ DESCRIPTION="A cache system for aiohttp server"
 HOMEPAGE="https://github.com/cr0hn/aiohttp-cache"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="platform for interacting with omnicloud"
 HOMEPAGE="https://omnicloud.world/airport"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

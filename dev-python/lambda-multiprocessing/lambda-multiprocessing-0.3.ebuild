@@ -16,7 +16,7 @@ DESCRIPTION="drop-in replacement for multiprocessing.Pool in AWS Lambda function
 HOMEPAGE="https://github.com/mdavis-xyz/lambda_multiprocessing"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

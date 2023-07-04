@@ -16,7 +16,7 @@ DESCRIPTION="A CLI designed to make it easier to work in a python mono repo"
 HOMEPAGE="https://peterhoburg.github.io/py_mono_tools/"
 LICENSE="GPL-3+"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="This plugin is used to load yaml output to your test using pytest f
 HOMEPAGE="https://github.com/Benabra/pytest_yaml"
 LICENSE="Mozilla Public License 2.0 MPL 2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

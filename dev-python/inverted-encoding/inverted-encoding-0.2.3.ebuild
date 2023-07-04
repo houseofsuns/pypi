@@ -16,7 +16,7 @@ DESCRIPTION="Implementation of inverted encoding model as described in Scotti, C
 HOMEPAGE="https://github.com/paulscotti/inverted_encoding"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

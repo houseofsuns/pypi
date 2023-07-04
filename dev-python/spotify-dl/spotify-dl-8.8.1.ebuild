@@ -16,7 +16,7 @@ DESCRIPTION="Downloads songs from a Spotify Playlist/Track/Album that you provid
 HOMEPAGE="https://github.com/SathyaBhat/spotify-dl/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

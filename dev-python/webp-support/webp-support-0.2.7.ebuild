@@ -16,7 +16,7 @@ DESCRIPTION="A Quickly determine whether Webp is supported from UserAgent."
 HOMEPAGE="https://github.com/bymoye/webp_support"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A package for simply windows service creation"
 HOMEPAGE="https://github.com/valluzzi/gecosistema_win_service.git"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

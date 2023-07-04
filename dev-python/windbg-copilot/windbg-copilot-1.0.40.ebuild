@@ -16,7 +16,7 @@ DESCRIPTION="\"Windbg Copilot is a ChatGPT powered AI assistant integrated with 
 HOMEPAGE="https://github.com/suannai231/Windbg_Copilot"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

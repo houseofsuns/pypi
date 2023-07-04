@@ -16,7 +16,7 @@ DESCRIPTION="A python parser for Pubmed Open-Access Subset and MEDLINE XML repos
 HOMEPAGE="https://github.com/titipata/pubmed_parser"
 LICENSE="MIT c 2015 - 2019 Titipat Achakulvisut, Daniel E. Acuna"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

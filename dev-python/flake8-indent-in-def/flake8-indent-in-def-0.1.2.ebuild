@@ -16,7 +16,7 @@ DESCRIPTION="A flake8 plugin that enforces 8-space indentation in function/class
 HOMEPAGE="https://github.com/cyyc1/flake8-indent-in-def"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

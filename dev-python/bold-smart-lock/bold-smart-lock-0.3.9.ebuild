@@ -16,7 +16,7 @@ DESCRIPTION="Python library to communicate with Bold Smart Lock (https://boldsma
 HOMEPAGE="https://github.com/westenberg/bold_smart_lock"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

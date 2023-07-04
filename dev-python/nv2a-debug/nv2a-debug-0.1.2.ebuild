@@ -16,7 +16,7 @@ DESCRIPTION="Simulator/debugger for the Xbox nv2a vertex shader"
 HOMEPAGE="https://github.com/abaire/nv2a_vsh_debug"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

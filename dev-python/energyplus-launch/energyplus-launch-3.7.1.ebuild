@@ -16,7 +16,7 @@ DESCRIPTION="Graphical Interface and Workflow Manager for EnergyPlus"
 HOMEPAGE="https://github.com/NREL/EP-Launch"
 LICENSE="ModifiedBSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

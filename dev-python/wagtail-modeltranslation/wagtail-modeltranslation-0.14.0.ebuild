@@ -16,7 +16,7 @@ DESCRIPTION="Translates Wagtail CMS models using a registration approach."
 HOMEPAGE="https://github.com/infoportugal/wagtail-modeltranslation"
 LICENSE="New BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

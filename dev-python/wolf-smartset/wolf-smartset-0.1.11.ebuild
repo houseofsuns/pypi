@@ -16,7 +16,7 @@ DESCRIPTION="A package to communicate with Wolf Smart Set Cloud"
 HOMEPAGE="https://github.com/adamkrol93/wolf-smartset"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

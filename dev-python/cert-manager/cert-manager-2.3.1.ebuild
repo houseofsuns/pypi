@@ -16,7 +16,7 @@ DESCRIPTION="Python interface to the Sectigo Certificate Manager REST API"
 HOMEPAGE="https://github.com/broadinstitute/python-cert_manager.git"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Package to compute features of traces from action potential models"
 HOMEPAGE="https://computationalphysiology.github.io/ap_features"
 LICENSE="LGPL-2.1"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

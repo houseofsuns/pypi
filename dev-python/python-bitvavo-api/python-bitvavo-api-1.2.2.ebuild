@@ -16,7 +16,7 @@ DESCRIPTION="This is the python wrapper for the Bitvavo API"
 HOMEPAGE="https://github.com/bitvavo/python-bitvavo-api"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

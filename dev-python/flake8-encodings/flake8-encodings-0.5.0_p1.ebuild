@@ -16,7 +16,7 @@ DESCRIPTION="A Flake8 plugin to identify incorrect use of encodings."
 HOMEPAGE="https://github.com/python-formate/flake8-encodings"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

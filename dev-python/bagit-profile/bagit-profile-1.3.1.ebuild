@@ -16,7 +16,7 @@ DESCRIPTION=" This module can be used to validate BagitProfiles."
 HOMEPAGE="https://github.com/bagit-profiles/bagit-profiles-validator"
 LICENSE="CC0-1.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A JupyterLab extension."
 HOMEPAGE="https://github.com/educational-technology-collective/etc_jupyterlab_telemetry_coursera.git"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

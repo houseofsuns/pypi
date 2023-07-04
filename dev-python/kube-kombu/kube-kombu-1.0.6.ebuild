@@ -16,7 +16,7 @@ DESCRIPTION="Running kombu consumers with support of liveness probe for kubernet
 HOMEPAGE="https://github.com/Anmol-Porwal18/kube_kombu"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

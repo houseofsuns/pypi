@@ -16,7 +16,7 @@ DESCRIPTION="Estimate the optimal number of components in PCA-based dimension re
 HOMEPAGE="https://tegladwin.com"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

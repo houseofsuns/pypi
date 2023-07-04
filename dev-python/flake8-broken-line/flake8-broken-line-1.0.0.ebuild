@@ -16,7 +16,7 @@ DESCRIPTION="Flake8 plugin to forbid backslashes for line breaks"
 HOMEPAGE="https://github.com/wemake-services/flake8-broken-line"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

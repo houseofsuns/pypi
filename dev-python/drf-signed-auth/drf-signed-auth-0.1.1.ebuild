@@ -16,7 +16,7 @@ DESCRIPTION="Sign and authenticate signed URLs for one-time use"
 HOMEPAGE="https://github.com/marcgibbons/drf_signed_auth"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Reorder tests depending on their paths and names."
 HOMEPAGE="https://github.com/not-raspberry/pytest_reorder"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

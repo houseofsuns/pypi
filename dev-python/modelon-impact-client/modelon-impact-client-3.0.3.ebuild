@@ -16,7 +16,7 @@ DESCRIPTION="Client library for easy scripting against Modelon Impact"
 HOMEPAGE="https://www.modelon.com/modelon-impact"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

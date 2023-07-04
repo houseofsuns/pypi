@@ -16,7 +16,7 @@ DESCRIPTION="Bincrafters script to apply Conan conventions and update CI jobs"
 HOMEPAGE="https://github.com/bincrafters/bincrafters-conventions"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

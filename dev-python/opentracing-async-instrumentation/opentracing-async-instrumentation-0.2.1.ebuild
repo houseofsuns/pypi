@@ -16,7 +16,7 @@ DESCRIPTION="Async Tracing Instrumentation using OpenTracing API (http://opentra
 HOMEPAGE="https://gitlab.com/midigator/python_opentracing_async_instrumentation/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

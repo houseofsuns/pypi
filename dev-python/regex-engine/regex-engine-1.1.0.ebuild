@@ -16,7 +16,7 @@ DESCRIPTION="Generate regex using python that can fit your needs"
 HOMEPAGE="https://github.com/raj-kiran-p/regex_engine"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

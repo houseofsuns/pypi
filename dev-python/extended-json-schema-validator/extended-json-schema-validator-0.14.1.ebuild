@@ -16,7 +16,7 @@ DESCRIPTION="Extended JSON Schema Validator"
 HOMEPAGE="https://github.com/inab/python-extended-json-schema-validator"
 LICENSE="LGPL-2"
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

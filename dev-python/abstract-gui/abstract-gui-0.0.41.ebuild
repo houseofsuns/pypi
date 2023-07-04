@@ -16,7 +16,7 @@ DESCRIPTION="abstract_gui is a python module for creating abstract GUI windows a
 HOMEPAGE="https://github.com/abstract_endeavors/abstract_essentials/abstract_gui"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

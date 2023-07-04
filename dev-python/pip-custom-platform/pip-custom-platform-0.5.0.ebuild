@@ -16,7 +16,7 @@ DESCRIPTION="pip + wheel wrapper which allows you to choose a custom platform na
 HOMEPAGE="https://github.com/asottile/pip-custom-platform"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="swagger_ui_bundle - swagger-ui files in a pip package"
 HOMEPAGE="https://github.com/dtkav/swagger_ui_bundle"
 LICENSE="Apache License Version 2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A library for manipulating modded cell machine level codes."
 HOMEPAGE="https://github.com/BlockOG/cell_machine_levels"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="INIDUN research project text analysis tools and utilities"
 HOMEPAGE="https://inidun.github.io"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

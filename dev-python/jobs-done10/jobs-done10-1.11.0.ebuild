@@ -16,7 +16,7 @@ DESCRIPTION="Job's Done uses a .jobs_done.yaml file in your repository to create
 HOMEPAGE="https://github.com/ESSS/jobs_done10"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

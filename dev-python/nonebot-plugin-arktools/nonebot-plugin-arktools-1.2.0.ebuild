@@ -16,7 +16,7 @@ DESCRIPTION="基于 OneBot 适配器的 NoneBot2 明日方舟小工具箱插件"
 HOMEPAGE="https://github.com/NumberSir/nonebot_plugin_arktools"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

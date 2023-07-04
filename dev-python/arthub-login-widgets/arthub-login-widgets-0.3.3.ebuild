@@ -16,7 +16,7 @@ DESCRIPTION="A Qt Widget for login ArtHub."
 HOMEPAGE="https://git.woa.com/lightbox/internal/arthub_login_widgets"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Bigeye SDK offers developer tools and clients to interact with Bige
 HOMEPAGE="https://docs.bigeye.com/docs"
 LICENSE="Proprietary"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

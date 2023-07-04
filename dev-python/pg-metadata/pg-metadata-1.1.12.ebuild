@@ -16,7 +16,7 @@ DESCRIPTION="PostgreSQL metadata grabber and comparer"
 HOMEPAGE="https://github.com/ish1mura/pg_metadata"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

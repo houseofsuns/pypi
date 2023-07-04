@@ -16,7 +16,7 @@ DESCRIPTION="A simple interface to use CKEditor5 with Flask"
 HOMEPAGE="https://github.com/SebaSalinass/flask-ckeditor"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

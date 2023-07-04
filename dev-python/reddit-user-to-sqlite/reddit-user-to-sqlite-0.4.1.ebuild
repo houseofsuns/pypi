@@ -16,7 +16,7 @@ DESCRIPTION="Create a SQLite database containing data pulled from Reddit about a
 HOMEPAGE="https://github.com/xavdid/reddit-user-to-sqlite"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

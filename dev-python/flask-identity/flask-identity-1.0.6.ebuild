@@ -16,7 +16,7 @@ DESCRIPTION="A lightweight extension & library to security Flask applications qu
 HOMEPAGE="https://github.com/SolardiaX/flask-identity"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

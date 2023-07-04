@@ -16,7 +16,7 @@ DESCRIPTION="SDK for the COVID-19 API (Coronavirus Dashboard in the UK)"
 HOMEPAGE="https://coronavirus.data.gov.uk/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

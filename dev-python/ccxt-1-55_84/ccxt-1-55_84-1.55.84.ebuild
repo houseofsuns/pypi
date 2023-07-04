@@ -16,7 +16,7 @@ DESCRIPTION="A copy of project https://pypi.org/project/ccxt/1.55.84/"
 HOMEPAGE="https://github.com/ccxt/ccxt"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

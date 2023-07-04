@@ -16,7 +16,7 @@ DESCRIPTION="a download tool for online crossword puzzles"
 HOMEPAGE="https://github.com/thisisparker/xword-dl"
 LICENSE="License :: OSI Approved :: MIT License"
 SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

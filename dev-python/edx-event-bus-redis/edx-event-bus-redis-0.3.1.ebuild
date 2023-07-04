@@ -16,7 +16,7 @@ DESCRIPTION="Redis Streams implementation for the Open edX event bus."
 HOMEPAGE="https://github.com/openedx/event-bus-redis"
 LICENSE="AGPL 3.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

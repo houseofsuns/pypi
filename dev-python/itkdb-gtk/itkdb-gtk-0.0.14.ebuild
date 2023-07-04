@@ -16,7 +16,7 @@ DESCRIPTION="A collection of Gtk based GUI to access ITkDB."
 HOMEPAGE="https://gitlab.cern.ch/atlas-itk/sw/db/itk-pdb-gtk-gui-utils"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

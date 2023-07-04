@@ -16,7 +16,7 @@ DESCRIPTION="This package can help you using sqlite3 library much easier and fas
 HOMEPAGE="https://github.com/Svinokur/simple_sqlite"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

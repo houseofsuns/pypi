@@ -16,7 +16,7 @@ DESCRIPTION="This project is about use Random Forest approach using a dynamic tr
 HOMEPAGE="https://github.com/ysraell/random-forest-mc"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

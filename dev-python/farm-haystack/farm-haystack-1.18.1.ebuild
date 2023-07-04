@@ -16,7 +16,7 @@ DESCRIPTION="Neural Question Answering & Semantic Search at Scale. Use modern tr
 HOMEPAGE="https://github.com/deepset-ai/haystack"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

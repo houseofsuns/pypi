@@ -16,7 +16,7 @@ DESCRIPTION="KuFlow library for Robot Framework"
 HOMEPAGE="https://kuflow.com/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

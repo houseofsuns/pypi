@@ -16,7 +16,7 @@ DESCRIPTION="Reusable Django app to facilitate gov.uk Staff Single Sign On"
 HOMEPAGE="https://github.com/uktrade/django-staff-sso-client/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

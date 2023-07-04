@@ -16,7 +16,7 @@ DESCRIPTION="A Dash Graph component modified to support use of figure.data-struc
 HOMEPAGE="https://github.com/bcliang/dash-extendable-graph"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

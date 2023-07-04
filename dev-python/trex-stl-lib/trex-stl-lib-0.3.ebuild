@@ -16,7 +16,7 @@ DESCRIPTION="Trex Stateless library"
 HOMEPAGE="https://github.com/dedie/trex_stl_lib"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

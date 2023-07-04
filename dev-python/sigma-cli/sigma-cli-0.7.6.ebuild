@@ -16,7 +16,7 @@ DESCRIPTION="Sigma Command Line Interface (conversion, check etc.) based on pySi
 HOMEPAGE="https://github.com/SigmaHQ/sigma-cli"
 LICENSE="LGPL-2.1+"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

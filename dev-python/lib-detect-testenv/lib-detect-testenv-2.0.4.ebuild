@@ -16,7 +16,7 @@ DESCRIPTION="detects if pytest or doctest or pyrunner on pycharm is running"
 HOMEPAGE="https://github.com/bitranox/lib_detect_testenv"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

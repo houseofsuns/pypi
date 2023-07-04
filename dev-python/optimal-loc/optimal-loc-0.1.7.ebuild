@@ -16,7 +16,7 @@ DESCRIPTION="A python project which finds the optimal N locations in a given are
 HOMEPAGE="https://github.com/sinan-demirhan/optimal-loc"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

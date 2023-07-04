@@ -16,7 +16,7 @@ DESCRIPTION="Toolbox for manipulating the JSON-Format used by Synth Riders Beatm
 HOMEPAGE="https://github.com/adosikas/synth_mapping_helper"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Functions to be used with the CRYSTAL code."
 HOMEPAGE="https://github.com/crystal-code-tools/crystal_functions"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

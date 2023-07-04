@@ -16,7 +16,7 @@ DESCRIPTION="Create android and ios app packages for Local Cosmos apps."
 HOMEPAGE="https://github.com/SiSol-Systems/localcosmos-cordova-builder"
 LICENSE="The MIT License"
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

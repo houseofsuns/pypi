@@ -16,7 +16,7 @@ DESCRIPTION="Encoder/Decoder and tokens counter for GPT3"
 HOMEPAGE="https://github.com/alisonjf/gpt3-tokenizer"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

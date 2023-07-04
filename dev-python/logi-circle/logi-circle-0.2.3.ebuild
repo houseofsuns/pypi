@@ -16,7 +16,7 @@ DESCRIPTION="A Python library to communicate with Logi Circle cameras"
 HOMEPAGE="https://github.com/evanjd/python-logi-circle"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="结巴分词预处理目录下的文档"
 HOMEPAGE="https://www.terrychan.org/p/977"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

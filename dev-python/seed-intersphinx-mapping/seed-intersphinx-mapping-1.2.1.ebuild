@@ -16,7 +16,7 @@ DESCRIPTION="Populate the Sphinx 'intersphinx_mapping' dictionary from the proje
 HOMEPAGE="https://github.com/sphinx-toolbox/seed_intersphinx_mapping"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

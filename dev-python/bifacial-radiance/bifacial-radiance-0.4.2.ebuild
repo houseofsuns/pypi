@@ -16,7 +16,7 @@ DESCRIPTION="Tools to interface with Radiance for the PV researcher"
 HOMEPAGE="https://github.com/NREL/bifacial_radiance"
 LICENSE="BSD License 3 clause"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

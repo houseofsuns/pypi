@@ -16,7 +16,7 @@ DESCRIPTION="urllib3 extension to support HTTP/1.1, HTTP/2 and HTTP/3 independen
 HOMEPAGE=""
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

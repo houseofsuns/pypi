@@ -16,7 +16,7 @@ DESCRIPTION="fh-fablib"
 HOMEPAGE="https://github.com/feinheit/fh-fablib/"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

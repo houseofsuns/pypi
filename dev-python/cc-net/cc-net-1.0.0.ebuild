@@ -16,7 +16,7 @@ DESCRIPTION="Tools to download and clean Common Crawl"
 HOMEPAGE="https://github.com/facebookresearch/cc_net"
 LICENSE="CC-BY-NC-4.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

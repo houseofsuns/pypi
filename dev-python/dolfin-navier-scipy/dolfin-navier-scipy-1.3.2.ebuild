@@ -16,7 +16,7 @@ DESCRIPTION="A Scipy-Fenics interface for incompressible Navier-Stokes"
 HOMEPAGE="https://github.com/highlando/dolfin_navier_scipy"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

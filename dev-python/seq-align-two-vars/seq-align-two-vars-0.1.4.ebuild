@@ -16,7 +16,7 @@ DESCRIPTION="seq_align_two_vars"
 HOMEPAGE="https://gitlab.bucknell.edu/jc092/doc_networks"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

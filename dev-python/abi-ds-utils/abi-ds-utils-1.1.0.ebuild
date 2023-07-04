@@ -16,7 +16,7 @@ DESCRIPTION="Utility modules for working with spark, containers, aws and more."
 HOMEPAGE=""
 LICENSE="Private"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Various utilities for working with AWS in Python 3. for the mir pro
 HOMEPAGE="https://github.com/Navalmartin/navalmartin_mir_aws_utils"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

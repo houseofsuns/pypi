@@ -16,7 +16,7 @@ DESCRIPTION="Concurrent request HTTP execution library"
 HOMEPAGE="https://github.com/edjones84/hyper-requests"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

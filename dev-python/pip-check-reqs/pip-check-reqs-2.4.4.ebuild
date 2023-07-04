@@ -16,7 +16,7 @@ DESCRIPTION="Find packages that should or should not be in requirements for a pr
 HOMEPAGE="https://github.com/r1chardj0n3s/pip-check-reqs"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Library for Advent of Code -- Hugues Hoppe."
 HOMEPAGE="https://github.com/hhoppe/advent-of-code-hhoppe"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

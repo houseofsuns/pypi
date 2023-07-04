@@ -16,7 +16,7 @@ DESCRIPTION="Convert LaBSE model from TensorFlow to PyTorch."
 HOMEPAGE="https://github.com/setu4993/convert-labse-tf-pt"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

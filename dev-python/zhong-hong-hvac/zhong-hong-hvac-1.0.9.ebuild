@@ -16,7 +16,7 @@ DESCRIPTION="Python library for interfacing with ZhongHong HVAC controller"
 HOMEPAGE="https://github.com/crhan/ZhongHongHVAC"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

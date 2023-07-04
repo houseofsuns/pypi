@@ -16,7 +16,7 @@ DESCRIPTION="Convert Vega-Lite chart specifications to SVG, PNG, or Vega"
 HOMEPAGE="https://github.com/jonmmease/vl-convert"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

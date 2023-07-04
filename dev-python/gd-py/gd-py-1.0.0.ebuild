@@ -16,7 +16,7 @@ DESCRIPTION="An API wrapper for Geometry Dash written in Python."
 HOMEPAGE="https://github.com/nekitdev/gd.py"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

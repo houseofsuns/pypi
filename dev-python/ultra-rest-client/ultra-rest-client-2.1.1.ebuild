@@ -16,7 +16,7 @@ DESCRIPTION="A sample Python client for communicating with the UltraDNS REST API
 HOMEPAGE="https://github.com/ultradns/python_rest_api_client"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

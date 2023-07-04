@@ -16,7 +16,7 @@ DESCRIPTION="JSON schema definitions for messages published by Anitya"
 HOMEPAGE="https://github.com/fedora-infra/anitya-messages"
 LICENSE="GPL-2+"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

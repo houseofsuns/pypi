@@ -16,7 +16,7 @@ DESCRIPTION="Image scraper for DuckDuckGo for creating deep learning datasets"
 HOMEPAGE="https://github.com/joedockrill/jmd_imagescraper/tree/master/"
 LICENSE="Apache Software License 2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

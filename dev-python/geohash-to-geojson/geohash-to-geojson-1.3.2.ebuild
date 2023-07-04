@@ -16,7 +16,7 @@ DESCRIPTION="convert set of geohashes into a geojson boundaries files of the cor
 HOMEPAGE="https://github.com/brings123/geohash-to-geojson"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

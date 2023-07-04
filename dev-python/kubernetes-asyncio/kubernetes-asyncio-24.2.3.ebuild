@@ -16,7 +16,7 @@ DESCRIPTION="Kubernetes asynchronous python client"
 HOMEPAGE="https://github.com/tomplus/kubernetes_asyncio"
 LICENSE="Apache License Version 2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

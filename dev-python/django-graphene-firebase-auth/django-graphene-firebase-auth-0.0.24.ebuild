@@ -16,7 +16,7 @@ DESCRIPTION="Authentication provider for graphene-django and Google Firebase's A
 HOMEPAGE="https://github.com/eba-alemayehu/graphene-django-firebase-auth"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="2D Side-Scroller Game for UF CEN4930 Performant Programming (in Jap
 HOMEPAGE="https://github.com/guptat07/Robot-Rumble"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

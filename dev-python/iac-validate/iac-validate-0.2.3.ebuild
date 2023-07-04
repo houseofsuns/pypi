@@ -16,7 +16,7 @@ DESCRIPTION="A CLI tool to perform syntactic and semantic validation of YAML fil
 HOMEPAGE="https://github.com/netascode/iac-validate"
 LICENSE="LICENSE"
 SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

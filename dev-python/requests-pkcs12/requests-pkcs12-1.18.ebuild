@@ -16,7 +16,7 @@ DESCRIPTION="Add PKCS#12 support to the requests library in a clean way, without
 HOMEPAGE="https://github.com/m-click/requests_pkcs12"
 LICENSE="ISC"
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

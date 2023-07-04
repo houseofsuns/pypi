@@ -16,7 +16,7 @@ DESCRIPTION="Django Channels auth token middlewares"
 HOMEPAGE="https://github.com/YegorDB/django-channels-auth-token-middlewares"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

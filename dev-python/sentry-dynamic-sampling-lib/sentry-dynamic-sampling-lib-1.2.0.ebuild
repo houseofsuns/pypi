@@ -16,7 +16,7 @@ DESCRIPTION="This project aims to provide dynamic sampling without relying on Se
 HOMEPAGE="https://github.com/SpikeeLabs/django-admin-action-tools"
 LICENSE="BSD-2"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

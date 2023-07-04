@@ -16,7 +16,7 @@ DESCRIPTION="An extension adding Launcher shortcuts to JupyterLab for EMBL Tools
 HOMEPAGE="https://github.com/nandor-poka/ebml-tools-jl"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

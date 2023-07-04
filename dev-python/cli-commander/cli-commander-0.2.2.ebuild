@@ -16,7 +16,7 @@ DESCRIPTION="Runs CLI (Command-Line Interface) commands. Run BASH commands, Linu
 HOMEPAGE="https://github.com/Minetezter/cli_commander"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

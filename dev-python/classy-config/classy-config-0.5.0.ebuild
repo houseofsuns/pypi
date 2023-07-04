@@ -16,7 +16,7 @@ DESCRIPTION="ClassyConfig is a Python3 package aiming to remove the need for a c
 HOMEPAGE="https://github.com/GDWR/classy-config"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

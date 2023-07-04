@@ -16,7 +16,7 @@ DESCRIPTION="Simple and expressive REST clients without the fuss"
 HOMEPAGE="https://github.com/james-allan-lloyd/slink"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

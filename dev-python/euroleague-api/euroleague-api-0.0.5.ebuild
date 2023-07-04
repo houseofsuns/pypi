@@ -16,7 +16,7 @@ DESCRIPTION="A Python wrapper of the Euroleague API"
 HOMEPAGE="https://github.com/giasemidis/euroleague_api"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

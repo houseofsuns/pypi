@@ -16,7 +16,7 @@ DESCRIPTION="A collection of Python tools by Daniel Scheffler."
 HOMEPAGE="https://git.gfz-potsdam.de/danschef/py_tools_ds"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

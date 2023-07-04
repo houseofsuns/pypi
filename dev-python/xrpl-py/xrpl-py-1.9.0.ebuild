@@ -16,7 +16,7 @@ DESCRIPTION="A complete Python library for interacting with the XRP ledger"
 HOMEPAGE="https://github.com/XRPLF/xrpl-py"
 LICENSE="ISC"
 SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

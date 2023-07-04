@@ -16,7 +16,7 @@ DESCRIPTION="Aliyun Tea OpenApi Library for Python2"
 HOMEPAGE="https://github.com/aliyun/darabonba-openapi-util"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

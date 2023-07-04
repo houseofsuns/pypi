@@ -16,7 +16,7 @@ DESCRIPTION="aedev namespace module portion setup_project: project setup helper 
 HOMEPAGE="https://gitlab.com/aedev-group/aedev_setup_project"
 LICENSE="OSI Approved :: GNU General Public License v3 or later GPLv3+"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

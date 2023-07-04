@@ -16,7 +16,7 @@ DESCRIPTION="PS4 2nd Screen Python Library"
 HOMEPAGE="https://github.com/ktnrg45/pyps4-2ndscreen"
 LICENSE="LGPL-2+"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

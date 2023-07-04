@@ -16,7 +16,7 @@ DESCRIPTION="Python wrapper for TP-Link Omada SDN Controller API (OC200/OC300/So
 HOMEPAGE="https://github.com/MarkGodwin/tplink-omada-api"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

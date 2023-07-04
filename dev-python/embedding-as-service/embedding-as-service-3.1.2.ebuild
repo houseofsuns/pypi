@@ -16,7 +16,7 @@ DESCRIPTION="embedding-as-service: one-stop solution to encode sentence to vecto
 HOMEPAGE="https://github.com/amansrivastava17/embedding-as-service"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

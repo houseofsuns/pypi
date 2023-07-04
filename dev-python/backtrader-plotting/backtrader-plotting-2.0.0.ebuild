@@ -16,7 +16,7 @@ DESCRIPTION="Plotting package for Backtrader (Bokeh)"
 HOMEPAGE="https://github.com/verybadsoldier/backtrader_plotting"
 LICENSE="GPL-3+"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

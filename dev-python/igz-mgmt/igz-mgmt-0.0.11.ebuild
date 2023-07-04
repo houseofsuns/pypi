@@ -16,7 +16,7 @@ DESCRIPTION="Python SDK For Iguazio Management API"
 HOMEPAGE="https://github.com/iguazio/igz-mgmt-sdk"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

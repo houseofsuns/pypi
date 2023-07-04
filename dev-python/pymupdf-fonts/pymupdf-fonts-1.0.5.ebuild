@@ -16,7 +16,7 @@ DESCRIPTION="Collection of font binaries for use in PyMuPDF"
 HOMEPAGE="https://github.com/pymupdf/pymupdf-fonts"
 LICENSE="SIL OFL V1.1"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

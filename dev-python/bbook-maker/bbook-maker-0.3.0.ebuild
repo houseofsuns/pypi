@@ -16,7 +16,7 @@ DESCRIPTION="The bilingual_book_maker is an AI translation tool that uses ChatGP
 HOMEPAGE="https://github.com/yihong0618/bilingual_book_maker"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Automatic coupon clipper for Safeway's online \"Safeway for U\" cou
 HOMEPAGE="https://github.com/smkent/safeway-coupons"
 LICENSE="GPL-3+"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

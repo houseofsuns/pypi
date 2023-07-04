@@ -16,7 +16,7 @@ DESCRIPTION="Finds the libpython associated with your environment, wherever it m
 HOMEPAGE="https://github.com/ktbarrett/find_libpython"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

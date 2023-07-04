@@ -16,7 +16,7 @@ DESCRIPTION="Widgets for the Barnard Speech Perception Laboratory"
 HOMEPAGE="https://github.com/clntsf/spl_widgets"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

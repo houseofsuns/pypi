@@ -16,7 +16,7 @@ DESCRIPTION="A small package that wraps MySQLdb for easy usage and encryption"
 HOMEPAGE="https://github.com/SpartanPlume/MysqldbPythonWrapper"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

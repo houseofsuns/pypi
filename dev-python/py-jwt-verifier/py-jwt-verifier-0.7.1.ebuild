@@ -16,7 +16,7 @@ DESCRIPTION="Python JWT Verfier - Verifies the signature of a digitally signed J
 HOMEPAGE="https://github.com/adrianlzr/py-jwt-verifier"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A SAMP query/RCON client for Python using trio."
 HOMEPAGE="https://github.com/Cheaterman/samp-query"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

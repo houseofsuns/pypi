@@ -16,7 +16,7 @@ DESCRIPTION="Transform Jupyter prototypes into production quality Python with AI
 HOMEPAGE="https://github.com/mutableai/jupyter_extension"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

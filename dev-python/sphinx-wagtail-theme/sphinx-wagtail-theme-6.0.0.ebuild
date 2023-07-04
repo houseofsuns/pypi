@@ -16,7 +16,7 @@ DESCRIPTION="Sphinx Wagtail theme"
 HOMEPAGE="https://github.com/wagtail/sphinx_wagtail_theme"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A library that returns naughty strings     from an offline database
 HOMEPAGE="https://github.com/shashikumarraja/naughty_string_validator_python"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

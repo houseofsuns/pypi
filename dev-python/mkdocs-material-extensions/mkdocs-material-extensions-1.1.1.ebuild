@@ -16,7 +16,7 @@ DESCRIPTION="Extension pack for Python Markdown and MkDocs Material."
 HOMEPAGE="https://github.com/facelessuser/mkdocs-material-extensions"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

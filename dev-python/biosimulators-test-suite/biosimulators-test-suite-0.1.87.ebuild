@@ -16,7 +16,7 @@ DESCRIPTION="Tools for validating that biosimulation tools are consistent with t
 HOMEPAGE="https://github.com/biosimulators/Biosimulators_test_suite"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

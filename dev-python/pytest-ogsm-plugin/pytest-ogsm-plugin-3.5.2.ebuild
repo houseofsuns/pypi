@@ -16,7 +16,7 @@ DESCRIPTION="针对特定项目定制化插件，优化了pytest报告展示方�
 HOMEPAGE="https://github.com/cw010/pytest_ogsm_plugin"
 LICENSE="proprietary"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

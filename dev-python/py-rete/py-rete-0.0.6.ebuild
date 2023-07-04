@@ -16,7 +16,7 @@ DESCRIPTION="A basic Python implementation of the RETE algorithm."
 HOMEPAGE="https://pypi.python.org/pypi/py_rete/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

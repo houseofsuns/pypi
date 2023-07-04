@@ -16,7 +16,7 @@ DESCRIPTION="A web connected terrace awning controller on Raspberry Pi"
 HOMEPAGE="https://github.com/grro/pi_awning_webthing"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

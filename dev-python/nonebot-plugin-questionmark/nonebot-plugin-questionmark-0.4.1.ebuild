@@ -16,7 +16,7 @@ DESCRIPTION="NoneBot2 行为艺术插件, 有群友或私聊发送全是问号/�
 HOMEPAGE="https://github.com/NumberSir/nonebot_plugin_questionmark"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

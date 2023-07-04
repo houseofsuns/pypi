@@ -16,7 +16,7 @@ DESCRIPTION="Lib for adding file upload functionality to GraphQL mutations in Gr
 HOMEPAGE="https://github.com/lmcgartland/graphene-file-upload"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

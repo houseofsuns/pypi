@@ -16,7 +16,7 @@ DESCRIPTION="Common Python libraries used by parts of Bell AVR"
 HOMEPAGE="https://github.com/bellflight/AVR-Python-Libraries"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

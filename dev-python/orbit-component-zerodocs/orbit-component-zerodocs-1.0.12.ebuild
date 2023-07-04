@@ -16,7 +16,7 @@ DESCRIPTION="Orbit Component for inline documentation"
 HOMEPAGE="https://gitlab.com/madpenguin/orbit-component-zerodocs"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

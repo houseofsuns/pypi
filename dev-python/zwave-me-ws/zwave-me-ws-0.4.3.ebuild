@@ -16,7 +16,7 @@ DESCRIPTION="Library, implementing websocket connection to ZWave-Me"
 HOMEPAGE="https://github.com/Z-Wave-Me/zwave-me-ws"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

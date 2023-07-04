@@ -16,7 +16,7 @@ DESCRIPTION="Get Lyrics for any songs by just passing in the song name (spelled 
 HOMEPAGE="https://github.com/Techcatchers/PyLyrics-Extractor"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

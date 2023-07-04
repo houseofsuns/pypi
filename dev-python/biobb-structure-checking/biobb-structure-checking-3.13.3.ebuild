@@ -16,7 +16,7 @@ DESCRIPTION="BioBB_structure_checking performs MDWeb structure checking tool set
 HOMEPAGE="https://github.com/bioexcel/biobb_structure_checking"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

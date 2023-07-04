@@ -16,7 +16,7 @@ DESCRIPTION="Authenticate with any OpenId Connect/Oauth2 provider through author
 HOMEPAGE="https://github.com/jrd/django-oauth2-authcodeflow"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

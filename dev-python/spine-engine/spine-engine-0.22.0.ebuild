@@ -16,7 +16,7 @@ DESCRIPTION="A package to run Spine workflows."
 HOMEPAGE="https://github.com/spine-tools/spine-engine"
 LICENSE="LGPL-3+"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

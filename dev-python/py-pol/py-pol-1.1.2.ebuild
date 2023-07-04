@@ -16,7 +16,7 @@ DESCRIPTION="Jones and Mueller polarization - Optics"
 HOMEPAGE="https://bitbucket.org/optbrea/py_pol/src/master/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

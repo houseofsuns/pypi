@@ -16,7 +16,7 @@ DESCRIPTION="A library for Sequential Sample Ratio Mismatch (SRM) test."
 HOMEPAGE="https://github.com/optimizely/ssrm"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="ariadne_django is a python library for integrating django with aria
 HOMEPAGE="https://github.com/reset-button/ariadne_django"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

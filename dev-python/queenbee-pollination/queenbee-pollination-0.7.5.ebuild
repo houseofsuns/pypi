@@ -16,7 +16,7 @@ DESCRIPTION="queenbee-pollination extends queenbee to interact with the Pollinat
 HOMEPAGE="https://github.com/pollination/queenbee-pollination"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

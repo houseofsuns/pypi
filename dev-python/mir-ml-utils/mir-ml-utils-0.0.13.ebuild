@@ -16,7 +16,7 @@ DESCRIPTION="Various utilities for machine learning training in Python 3. for th
 HOMEPAGE="https://github.com/Navalmartin/mir_ml_utils"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

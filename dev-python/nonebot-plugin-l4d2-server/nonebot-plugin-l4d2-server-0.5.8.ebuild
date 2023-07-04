@@ -16,7 +16,7 @@ DESCRIPTION="L4D2 server related operations plugin for NoneBot2"
 HOMEPAGE="https://github.com/Agnes4m/nonebot_plugin_l4d2_server"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

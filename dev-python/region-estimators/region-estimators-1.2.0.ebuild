@@ -16,7 +16,7 @@ DESCRIPTION="Make estimations for geographic regions, based on actual data (e.g.
 HOMEPAGE="https://github.com/UoMResearchIT/region-estimators"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

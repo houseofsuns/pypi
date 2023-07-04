@@ -16,7 +16,7 @@ DESCRIPTION="Registry class for Use Case implementation. They are basically mean
 HOMEPAGE="https://github.com/Tomperez98/use-case-registry"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

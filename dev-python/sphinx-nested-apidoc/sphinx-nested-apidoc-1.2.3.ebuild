@@ -16,7 +16,7 @@ DESCRIPTION="sphinx-nested-apidoc: When flattened is not enough"
 HOMEPAGE="https://github.com/arunanshub/sphinx-nested-apidoc"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

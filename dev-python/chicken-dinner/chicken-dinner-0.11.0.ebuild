@@ -16,7 +16,7 @@ DESCRIPTION="PUBG JSON API Wrapper and Game Telemetry Visualizer"
 HOMEPAGE="https://github.com/crflynn/chicken-dinner"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

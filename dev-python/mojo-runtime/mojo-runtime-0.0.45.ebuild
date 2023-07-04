@@ -16,7 +16,7 @@ DESCRIPTION="Automation Mojo Runtime Module (mojo-runtime)"
 HOMEPAGE="http://automationmojo.com"
 LICENSE="LICENSE.txt"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

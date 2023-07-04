@@ -16,7 +16,7 @@ DESCRIPTION="gpt-code-search enables you to search your codebase with natural la
 HOMEPAGE="https://wolfia.com"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

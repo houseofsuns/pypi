@@ -16,7 +16,7 @@ DESCRIPTION="Hugging-Py-Face, the Python client for the Hugging Face Inference A
 HOMEPAGE="https://github.com/MinuraPunchihewa/hugging_py_face"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

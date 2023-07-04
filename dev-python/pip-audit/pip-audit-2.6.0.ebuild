@@ -16,7 +16,7 @@ DESCRIPTION="A tool for scanning Python environments for known vulnerabilities"
 HOMEPAGE="https://pypi.org/project/pip-audit/"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

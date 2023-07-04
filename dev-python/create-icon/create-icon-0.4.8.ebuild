@@ -16,7 +16,7 @@ DESCRIPTION="A Simple icon to replace the tkinter feather for your programs"
 HOMEPAGE="https://github.com/Caveman-Software/create_icon"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Tiny jinja2 extension to add b64encode and b64decode filters."
 HOMEPAGE="https://github.com/lumapps/jinja2_base64_filters"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

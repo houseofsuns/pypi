@@ -16,7 +16,7 @@ DESCRIPTION="Collection of 'nice looking' functions with rich for nornir"
 HOMEPAGE="https://github.com/InfrastructureAsCode-ch/nornir_rich"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

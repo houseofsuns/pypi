@@ -16,7 +16,7 @@ DESCRIPTION="A programmatically accessible mapping of gbd entities."
 HOMEPAGE="https://github.com/ihmeuw/gbd_mapping"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Turn all the markdown files in your repos into one big, divio struc
 HOMEPAGE="https://github.com/Denperidge-Redpencil/divio-docs-gen"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="List of all countries with names and ISO 3166-1 codes in all langua
 HOMEPAGE="https://github.com/bulv1ne/country_list"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

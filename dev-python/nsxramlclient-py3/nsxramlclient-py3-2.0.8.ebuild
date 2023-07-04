@@ -16,7 +16,7 @@ DESCRIPTION="A \"pseudo dynamic\" client for the VMware NSX for vSphere API that
 HOMEPAGE="http://github.com/vmware/nsxramlclient"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

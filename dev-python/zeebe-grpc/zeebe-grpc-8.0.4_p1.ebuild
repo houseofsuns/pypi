@@ -16,7 +16,7 @@ DESCRIPTION="zeebe Python gRPC Gateway"
 HOMEPAGE="https://gitlab.com/stephane.ludwig/zeebe_python_grpc"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A Prototype U.S. CMS analysis facility"
 HOMEPAGE="http://github.com/CoffeaTeam/coffea-casa.git"
 LICENSE="BSD-3-Clause License"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

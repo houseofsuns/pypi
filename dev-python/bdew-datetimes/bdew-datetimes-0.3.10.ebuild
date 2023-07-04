@@ -16,7 +16,7 @@ DESCRIPTION="Generate and work with holidays of the BDEW-Calendar for power and 
 HOMEPAGE="https://github.com/mj0nez/bdew-datetimes/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

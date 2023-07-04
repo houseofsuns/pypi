@@ -16,7 +16,7 @@ DESCRIPTION="Oracle Accelerated Data Science SDK"
 HOMEPAGE="https://docs.oracle.com/en-us/iaas/tools/ads-sdk/latest/index.html"
 LICENSE="Universal Permissive License 1.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

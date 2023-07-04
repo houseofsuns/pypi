@@ -16,7 +16,7 @@ DESCRIPTION="A Simple & Lightweight Asynchronous Python Wrapper for Kitsu's Mang
 HOMEPAGE="https://github.com/MrArkon/kitsu.py/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

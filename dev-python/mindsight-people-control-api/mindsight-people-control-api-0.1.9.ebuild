@@ -16,7 +16,7 @@ DESCRIPTION="Mindsight People Control API to create, update and delete records"
 HOMEPAGE="https://github.com/people-analytics-tech/mindsight-people-control-api"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

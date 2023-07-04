@@ -16,7 +16,7 @@ DESCRIPTION="Python support for the Transactive Energy Simulation Platform"
 HOMEPAGE="https://github.com/pnnl/tesp"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="python3 base API client for shopware6"
 HOMEPAGE="https://github.com/bitranox/lib_shopware6_api_base"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

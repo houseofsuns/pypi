@@ -16,7 +16,7 @@ DESCRIPTION="LibreOffice Developer Search Engine"
 HOMEPAGE="https://github.com/Amourspirit/python_lo_dev_search"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

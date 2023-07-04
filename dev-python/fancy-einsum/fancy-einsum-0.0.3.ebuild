@@ -16,7 +16,7 @@ DESCRIPTION="Drop-in replacement for torch/numpy einsum, with descriptive variab
 HOMEPAGE="https://github.com/Kiv/fancy_einsum"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

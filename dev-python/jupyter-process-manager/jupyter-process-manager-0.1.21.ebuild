@@ -16,7 +16,7 @@ DESCRIPTION="Python package with widget to simplify work with many processes in 
 HOMEPAGE="https://github.com/stas-prokopiev/jupyter_process_manager"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

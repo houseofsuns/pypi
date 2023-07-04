@@ -16,7 +16,7 @@ DESCRIPTION="NSFW Image Detection with Deep Learning"
 HOMEPAGE="https://github.com/GantMan/nsfw_model"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

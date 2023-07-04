@@ -16,7 +16,7 @@ DESCRIPTION="This library add some extra funcionalities to graphene-django to fa
 HOMEPAGE="https://github.com/eamigo86/graphene-django-extras"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

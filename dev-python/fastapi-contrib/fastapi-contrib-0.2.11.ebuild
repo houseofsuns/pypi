@@ -16,7 +16,7 @@ DESCRIPTION="Opinionated set of utilities on top of FastAPI"
 HOMEPAGE="https://github.com/identixone/fastapi_contrib"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

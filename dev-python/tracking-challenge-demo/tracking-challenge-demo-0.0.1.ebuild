@@ -16,7 +16,7 @@ DESCRIPTION="A demo plugin to load, segment and save tracking challenge data."
 HOMEPAGE="https://github.com/DragaDoncila/tracking-challenge-demo"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

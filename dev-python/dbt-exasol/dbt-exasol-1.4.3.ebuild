@@ -16,7 +16,7 @@ DESCRIPTION="Adapter to dbt-core for warehouse Exasol"
 HOMEPAGE="https://alligatorcompany.gitlab.io/dbt-exasol"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

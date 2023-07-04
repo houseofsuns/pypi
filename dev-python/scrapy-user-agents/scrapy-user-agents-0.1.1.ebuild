@@ -16,7 +16,7 @@ DESCRIPTION="Automatically pick an User-Agent for every request"
 HOMEPAGE="https://github.com/hyan15/crawler-demo/tree/master/crawling-basic/scrapy_user_agents"
 LICENSE="New BSD License"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.win-amd64.zip"
-SOURCEFILE="_}-${REALVERSION}.win-amd64.zip"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.win-amd64.zip"
 RESTRICT="test"
 
 SLOT="0"

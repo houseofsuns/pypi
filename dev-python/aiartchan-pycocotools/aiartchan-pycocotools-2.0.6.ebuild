@@ -16,7 +16,7 @@ DESCRIPTION="Official APIs for the MS-COCO dataset"
 HOMEPAGE="https://github.com/ppwwyyxx/cocoapi"
 LICENSE="FreeBSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

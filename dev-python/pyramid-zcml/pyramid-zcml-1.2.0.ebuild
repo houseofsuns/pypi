@@ -16,7 +16,7 @@ DESCRIPTION="Zope Config Markup Language support for Pyramid"
 HOMEPAGE="http://docs.pylonsproject.org/projects/pyramid_zcml/en/latest/"
 LICENSE="BSD-derived http://www.repoze.org/LICENSE.txt"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

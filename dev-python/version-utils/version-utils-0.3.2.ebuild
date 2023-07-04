@@ -16,7 +16,7 @@ DESCRIPTION="Library for parsing system package strings and comparing package ve
 HOMEPAGE="http://www.github.com/ihiji/version_utils"
 LICENSE="License :: OSI Approved :: GNU General Public License v3 GPLv3"
 SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

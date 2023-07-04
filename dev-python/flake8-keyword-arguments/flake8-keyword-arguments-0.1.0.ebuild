@@ -16,7 +16,7 @@ DESCRIPTION="A flake8 extension that is looking for function calls and forces to
 HOMEPAGE="https://github.com/vchaptsev/flake8-keyword-arguments"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

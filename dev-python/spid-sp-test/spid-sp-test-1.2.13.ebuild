@@ -16,7 +16,7 @@ DESCRIPTION="SAML2 SPID/CIE Service Provider validation tool that can be run fro
 HOMEPAGE="https://github.com/italia/spid-sp-test"
 LICENSE="License :: OSI Approved :: European Union Public Licence 1.2 EUPL 1.2"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

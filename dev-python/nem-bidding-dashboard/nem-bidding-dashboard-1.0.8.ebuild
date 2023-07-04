@@ -16,7 +16,7 @@ DESCRIPTION="A dashboard for visualising bidding data from the Australian Nation
 HOMEPAGE=""
 LICENSE="BSD 3-clause"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="CycloneDX Pydantic models for easy use in your Python project."
 HOMEPAGE="https://gitlab.com/hoppr/hoppr-cyclonedx-models"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

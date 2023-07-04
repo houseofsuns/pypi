@@ -16,7 +16,7 @@ DESCRIPTION="Additional checkers for pylint that are used by the FS-CFEL-1 team"
 HOMEPAGE="https://gitlab.desy.de/cfel-sc-public/cfel-pylint-checkers"
 LICENSE="GPL-3+"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

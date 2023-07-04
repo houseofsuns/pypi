@@ -16,7 +16,7 @@ DESCRIPTION="Relatively efficient distance and closest point from a set of point
 HOMEPAGE="https://github.com/yig/edge_distance_aabb"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="High-resolution data assets for matplotlib basemap"
 HOMEPAGE="https://matplotlib.org/basemap"
 LICENSE="GNU Lesser General Public License v3 or later LGPLv3+"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.zip"
-SOURCEFILE="_}-${REALVERSION}.zip"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

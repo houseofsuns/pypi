@@ -16,7 +16,7 @@ DESCRIPTION="\`tap-exact\` is a Singer tap for Exact Online, built with the Melt
 HOMEPAGE=""
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

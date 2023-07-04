@@ -16,7 +16,7 @@ DESCRIPTION="pyramid_georest, extension for pyramid web frame work to provide re
 HOMEPAGE="https://github.com/vvmruder/pyramid_georest"
 LICENSE="GNU General Public License"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

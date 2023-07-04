@@ -16,7 +16,7 @@ DESCRIPTION="Checksum support for zarrs stored in various backends"
 HOMEPAGE="https://github.com/dandi/zarr_checksum"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

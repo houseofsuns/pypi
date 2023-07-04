@@ -16,7 +16,7 @@ DESCRIPTION="Package to update the end-users copy of your file to the latest ver
 HOMEPAGE="https://github.com/TabulateJarl8/update_check"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

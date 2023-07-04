@@ -16,7 +16,7 @@ DESCRIPTION="Adds i18n/l10n support for Flask applications."
 HOMEPAGE="https://github.com/python-babel/flask-babel"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

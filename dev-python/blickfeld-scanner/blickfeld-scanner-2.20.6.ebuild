@@ -16,7 +16,7 @@ DESCRIPTION="Python package to communicate with LiDAR devices of the Blickfeld G
 HOMEPAGE="https://github.com/Blickfeld/blickfeld-scanner-lib"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

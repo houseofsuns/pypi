@@ -16,7 +16,7 @@ DESCRIPTION="A plug-and-play GraphQL subscription implementation for Graphene + 
 HOMEPAGE="https://github.com/jaydenwindle/graphene-subscriptions"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

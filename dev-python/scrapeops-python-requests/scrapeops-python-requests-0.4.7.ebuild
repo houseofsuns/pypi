@@ -16,7 +16,7 @@ DESCRIPTION="Scrapeops Python Requests SDK, is a monitoring tool for your Python
 HOMEPAGE="https://github.com/ScrapeOps/scrapeops-python-requests-sdk"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

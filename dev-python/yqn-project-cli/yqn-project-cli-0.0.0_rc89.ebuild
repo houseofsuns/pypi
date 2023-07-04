@@ -16,7 +16,7 @@ DESCRIPTION="For more faster to create semi-project based on flask"
 HOMEPAGE="https://blog.zoukaihua.com"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

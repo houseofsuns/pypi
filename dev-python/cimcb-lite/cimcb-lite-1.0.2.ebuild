@@ -16,7 +16,7 @@ DESCRIPTION="A lite version of the cimcb package containing the necessary tools 
 HOMEPAGE="https://github.com/cimcb/cimcb_lite"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

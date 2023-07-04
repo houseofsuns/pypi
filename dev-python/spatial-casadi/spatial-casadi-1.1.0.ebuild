@@ -16,7 +16,7 @@ DESCRIPTION="Spatial transformation library for CasADi Python."
 HOMEPAGE="https://github.com/cmower/spatial-casadi"
 LICENSE="LGPL-3.0 license"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

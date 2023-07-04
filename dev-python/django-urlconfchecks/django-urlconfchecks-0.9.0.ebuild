@@ -16,7 +16,7 @@ DESCRIPTION="a python package for type checking the urls and associated views."
 HOMEPAGE="https://github.com/AliSayyah/django-urlconfchecks"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

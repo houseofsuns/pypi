@@ -16,7 +16,7 @@ DESCRIPTION="Generate professional pseudo-random number package in python."
 HOMEPAGE="https://github.com/fsssosei/Pure_PRNG"
 LICENSE="AGPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

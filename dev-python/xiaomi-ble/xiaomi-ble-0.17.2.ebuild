@@ -16,7 +16,7 @@ DESCRIPTION="Manage Xiaomi BLE devices"
 HOMEPAGE="https://github.com/bluetooth-devices/xiaomi-ble"
 LICENSE="Apache Software License 2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

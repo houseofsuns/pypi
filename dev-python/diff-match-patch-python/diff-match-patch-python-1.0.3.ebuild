@@ -16,7 +16,7 @@ DESCRIPTION="A Python extension module that wraps Google's diff_match_patch C++ 
 HOMEPAGE="https://github.com/JoshData/diff_match_patch-python"
 LICENSE="CC0 copyright waived"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

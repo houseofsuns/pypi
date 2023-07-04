@@ -16,7 +16,7 @@ DESCRIPTION="Panther core library"
 HOMEPAGE="https://github.com/panther-labs/panther_core"
 LICENSE="AGPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

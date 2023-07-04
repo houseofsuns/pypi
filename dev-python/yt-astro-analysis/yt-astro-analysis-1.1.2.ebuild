@@ -16,7 +16,7 @@ DESCRIPTION="yt astrophysical analysis modules extension"
 HOMEPAGE="https://github.com/yt-project/yt_astro_analysis"
 LICENSE="BSD 3-Clause"
 SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

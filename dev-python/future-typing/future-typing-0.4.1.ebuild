@@ -16,7 +16,7 @@ DESCRIPTION="Use generic type hints and new union syntax \`|\` with python 3.6+"
 HOMEPAGE="https://github.com/PrettyWood/future-typing"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

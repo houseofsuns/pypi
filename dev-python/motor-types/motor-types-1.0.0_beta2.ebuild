@@ -16,7 +16,7 @@ DESCRIPTION="Python stubs for Motor, a Non-Blocking MongoDB driver for Python's 
 HOMEPAGE="https://github.com/L0RD-ZER0/Motor-Types"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

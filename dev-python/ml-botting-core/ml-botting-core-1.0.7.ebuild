@@ -16,7 +16,7 @@ DESCRIPTION="Making ML more accessible to botting apps. Solving Complex UI Chall
 HOMEPAGE="https://github.com/darkmatter2222/ml_botting_core"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="This library enables developers to call any method seen in Tableau 
 HOMEPAGE="https://github.com/divinorum-webb/tableau-api-lib"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

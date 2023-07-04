@@ -16,7 +16,7 @@ DESCRIPTION="Unnamed repository; edit this file 'description' to name the reposi
 HOMEPAGE="https://pypi.org/project/kabbes-client"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

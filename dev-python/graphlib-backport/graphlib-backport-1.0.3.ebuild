@@ -16,7 +16,7 @@ DESCRIPTION="Backport of the Python 3.9 graphlib module for Python 3.6+"
 HOMEPAGE=""
 LICENSE="PSF-2.4"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

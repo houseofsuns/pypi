@@ -16,7 +16,7 @@ DESCRIPTION="JSON-NTV a semantic format for interoperability"
 HOMEPAGE="https://github.com/loco-philippe/NTV/blob/main/README.md"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Model translation for Django without magic-inflicted pain"
 HOMEPAGE="https://github.com/matthiask/django-translated-fields/"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

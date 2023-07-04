@@ -16,7 +16,7 @@ DESCRIPTION="Middleware to validate incoming requests with openapi spec."
 HOMEPAGE="https://github.com/kodemore/chocs-openapi"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

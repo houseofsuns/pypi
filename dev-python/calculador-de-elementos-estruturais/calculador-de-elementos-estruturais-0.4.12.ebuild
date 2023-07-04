@@ -16,7 +16,7 @@ DESCRIPTION="Calculador de Elementos Estruturais"
 HOMEPAGE="https://github.com/DoglasRocha/calculador_de_elementos_estruturais"
 LICENSE="Boost Software License"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Optimised tools for group-indexing operations: aggregated sum and m
 HOMEPAGE="https://github.com/ml31415/numpy-groupies"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

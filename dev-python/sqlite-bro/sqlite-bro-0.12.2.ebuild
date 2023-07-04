@@ -16,7 +16,7 @@ DESCRIPTION="a graphic SQLite Client in 1 Python file"
 HOMEPAGE="https://github.com/stonebig/sqlite_bro"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

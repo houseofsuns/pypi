@@ -16,7 +16,7 @@ DESCRIPTION="Tool for managing CWL file repositories."
 HOMEPAGE="https://github.com/xDBio-Inc/xd-cwl-utils"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

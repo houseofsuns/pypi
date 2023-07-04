@@ -16,7 +16,7 @@ DESCRIPTION="COMPAS package for cloud computing"
 HOMEPAGE="https://github.com/BlockResearchGroup/compas_cloud"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

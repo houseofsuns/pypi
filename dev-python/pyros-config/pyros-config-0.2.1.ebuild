@@ -16,7 +16,7 @@ DESCRIPTION="Classes to manage a server configuration. Heavily inspired by flask
 HOMEPAGE="http://github.com/asmodehn/pyros-config"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.linux-x86_64.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.linux-x86_64.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

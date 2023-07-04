@@ -16,7 +16,7 @@ DESCRIPTION="plugin to perform whole slide image registration with wsireg"
 HOMEPAGE="https://github.com/nhpatterson/napari-wsireg"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

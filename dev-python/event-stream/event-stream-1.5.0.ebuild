@@ -16,7 +16,7 @@ DESCRIPTION="Read and write Event Stream (.es) files"
 HOMEPAGE="https://github.com/neuromorphicsystems/event_stream"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

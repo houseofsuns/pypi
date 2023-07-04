@@ -16,7 +16,7 @@ DESCRIPTION="cli tool to identify networks of individuals who share IBD segments
 HOMEPAGE="https://belowlab.github.io/drive/"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

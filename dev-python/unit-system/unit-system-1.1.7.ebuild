@@ -16,7 +16,7 @@ DESCRIPTION="SI unit system implementation enabling physical quantity math"
 HOMEPAGE="https://github.com/l-johnston/unit_system"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

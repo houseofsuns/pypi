@@ -16,7 +16,7 @@ DESCRIPTION="Automatically add trailing commas to calls and literals"
 HOMEPAGE="https://github.com/asottile/add-trailing-comma"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

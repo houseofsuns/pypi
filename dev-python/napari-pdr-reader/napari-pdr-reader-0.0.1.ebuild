@@ -16,7 +16,7 @@ DESCRIPTION="A reader plugin for Napari for PDS data powered by the PDR library"
 HOMEPAGE="https://github.com/AndrewAnnex/napari-pdr-reader"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

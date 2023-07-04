@@ -16,7 +16,7 @@ DESCRIPTION="script tag with additional attributes for django.forms.Media"
 HOMEPAGE="https://github.com/matthiask/django-js-asset/"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

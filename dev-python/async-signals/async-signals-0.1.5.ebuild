@@ -16,7 +16,7 @@ DESCRIPTION="Async version of the Django signals class - for usage in for exampl
 HOMEPAGE="https://github.com/team23/async-signals"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

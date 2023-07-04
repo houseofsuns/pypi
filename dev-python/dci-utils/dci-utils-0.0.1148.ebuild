@@ -16,7 +16,7 @@ DESCRIPTION="A set of utilities for DCI jobs"
 HOMEPAGE="https://ewegithub.sb.karmalab.net/EWE/dci-data-dci-utils"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Extract data from python stack frames and tracebacks for informativ
 HOMEPAGE="http://github.com/alexmojaki/stack_data"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

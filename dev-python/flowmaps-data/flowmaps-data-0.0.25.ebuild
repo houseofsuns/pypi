@@ -16,7 +16,7 @@ DESCRIPTION="A tool for downloading Spanish COVID-19 and mobility data"
 HOMEPAGE="https://flowmaps.life.bsc.es/flowboard/data"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

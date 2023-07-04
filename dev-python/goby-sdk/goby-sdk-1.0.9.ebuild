@@ -16,7 +16,7 @@ DESCRIPTION="A Python SDK for Goby, Visit for details: https://www.exp-9.com/cat
 HOMEPAGE="https://github.com/siberiah0h/goby_sdk_for_python"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

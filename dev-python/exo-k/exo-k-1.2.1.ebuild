@@ -16,7 +16,7 @@ DESCRIPTION="Library to handle radiative opacities from various sources for atmo
 HOMEPAGE="https://forge.oasu.u-bordeaux.fr/jleconte/exo_k-public"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

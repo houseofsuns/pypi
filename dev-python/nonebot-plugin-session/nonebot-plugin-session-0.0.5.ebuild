@@ -16,7 +16,7 @@ DESCRIPTION="Nonebot2 会话信息提取与会话id定义"
 HOMEPAGE="https://github.com/noneplugin/nonebot-plugin-session"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Web3 Data Made Simple. Powerful APIs for accessing human-readable b
 HOMEPAGE="https://github.com/TransposeData/transpose-python-sdk"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

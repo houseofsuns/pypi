@@ -16,7 +16,7 @@ DESCRIPTION="package for  the backend of modeling controls block diagrams in pyt
 HOMEPAGE="https://github.com/ryanGT/py_block_diagram"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.zip"
-SOURCEFILE="_}-${REALVERSION}.zip"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

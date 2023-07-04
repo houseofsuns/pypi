@@ -16,7 +16,7 @@ DESCRIPTION="SQLAlchemy dialect for the SingleStore database"
 HOMEPAGE="https://github.com/singlestore-labs/sqlalchemy-singlestoredb"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

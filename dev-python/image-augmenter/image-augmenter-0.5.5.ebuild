@@ -16,7 +16,7 @@ DESCRIPTION="A tiny python library to augment the images dataset aimed for a ML 
 HOMEPAGE="https://github.com/costajob/image_augmenter"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

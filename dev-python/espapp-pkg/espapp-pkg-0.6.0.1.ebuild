@@ -16,7 +16,7 @@ DESCRIPTION="ESP applicaion"
 HOMEPAGE="https://github.com/emb-karan/espapp-pkg"
 LICENSE="Virim"
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

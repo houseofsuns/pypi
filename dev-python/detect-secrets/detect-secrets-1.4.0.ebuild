@@ -16,7 +16,7 @@ DESCRIPTION="Tool for detecting secrets in the codebase"
 HOMEPAGE="https://github.com/Yelp/detect-secrets"
 LICENSE="Copyright Yelp, Inc. 2020"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

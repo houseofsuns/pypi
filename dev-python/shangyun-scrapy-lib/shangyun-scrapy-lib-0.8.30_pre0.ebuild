@@ -16,7 +16,7 @@ DESCRIPTION="This is a service of redis subscripe"
 HOMEPAGE="https://ssl.xxx.org/redmine/projects/RedisRun"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="pySigma Elasticsearch backend"
 HOMEPAGE="https://github.com/SigmaHQ/pySigma-backend-elasticsearch"
 LICENSE="LGPL-3.0-only"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

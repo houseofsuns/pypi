@@ -16,7 +16,7 @@ DESCRIPTION="Repository for user-generated plugins to the pyiron IDE."
 HOMEPAGE="https://github.com/pyiron/pyiron_contrib"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

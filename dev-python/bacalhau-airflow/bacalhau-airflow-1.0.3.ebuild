@@ -16,7 +16,7 @@ DESCRIPTION="An Apache Airflow provider for Bacalhau."
 HOMEPAGE="https://github.com/filecoin-project/bacalhau/tree/main/integration/airflow"
 LICENSE="Apache Software License 2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

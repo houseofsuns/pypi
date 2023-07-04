@@ -16,7 +16,7 @@ DESCRIPTION="Simple library for getting address or coordinates via Yandex geocod
 HOMEPAGE="https://github.com/sivakov512/yandex-geocoder"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

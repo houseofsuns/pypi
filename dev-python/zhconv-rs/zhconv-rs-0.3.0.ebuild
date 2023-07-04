@@ -16,7 +16,7 @@ DESCRIPTION="zhconv as in MediaWiki with extra rulesets from OpenCC, oxidized wi
 HOMEPAGE=""
 LICENSE="GPL-2+"
 SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

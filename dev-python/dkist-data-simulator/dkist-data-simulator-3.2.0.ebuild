@@ -16,7 +16,7 @@ DESCRIPTION="A header generator and FITS file creator for DKIST data."
 HOMEPAGE=""
 LICENSE="BSD 3-Clause"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A python package for the libsemigroups C++ library"
 HOMEPAGE="https://github.com/libsemigroups/libsemigroups_pybind11"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

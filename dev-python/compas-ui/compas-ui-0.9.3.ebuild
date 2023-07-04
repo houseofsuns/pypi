@@ -16,7 +16,7 @@ DESCRIPTION="COMPAS UI provides basic functionality to build a user interface fo
 HOMEPAGE="https://github.com/blockresearchgroup/compas_ui"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

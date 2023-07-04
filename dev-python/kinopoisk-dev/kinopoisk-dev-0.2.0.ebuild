@@ -16,7 +16,7 @@ DESCRIPTION="Реализация Api для сервиса kinopoisk.dev"
 HOMEPAGE="https://github.com/odi1n/kinopoisk_dev"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

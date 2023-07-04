@@ -16,7 +16,7 @@ DESCRIPTION="A Python - Kazoo based - shell for ZooKeeper"
 HOMEPAGE="https://github.com/rgs1/zk_shell"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

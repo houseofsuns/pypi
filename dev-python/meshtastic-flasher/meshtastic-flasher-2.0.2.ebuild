@@ -16,7 +16,7 @@ DESCRIPTION="Graphical user interface to flash Meshtastic firmware to devices"
 HOMEPAGE="https://github.com/meshtastic/Meshtastic-gui-installer"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

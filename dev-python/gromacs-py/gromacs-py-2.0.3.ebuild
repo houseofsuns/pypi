@@ -16,7 +16,7 @@ DESCRIPTION="Gromacs_py is a python library allowing a simplified use of the gro
 HOMEPAGE="https://github.com/samuelmurail/gromacs_py"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

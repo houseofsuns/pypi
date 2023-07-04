@@ -16,7 +16,7 @@ DESCRIPTION="This library manages the communication between python programs and 
 HOMEPAGE="https://gitlab.atosresearch.eu/ari/ioe-ai/data-elasticsearch_python"
 LICENSE="ATOS"
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

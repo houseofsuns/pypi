@@ -16,7 +16,7 @@ DESCRIPTION="A textbox edit widget for urwid that supports readline shortcuts"
 HOMEPAGE="https://github.com/rr-/urwid_readline"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

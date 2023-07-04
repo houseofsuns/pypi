@@ -16,7 +16,7 @@ DESCRIPTION="Stroke and rule analyzer for stenography"
 HOMEPAGE="https://github.com/fourshade/spectra_lexer"
 LICENSE="GNU General Public License v2 or later GPLv2+"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

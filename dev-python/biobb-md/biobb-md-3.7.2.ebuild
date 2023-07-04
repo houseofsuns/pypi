@@ -16,7 +16,7 @@ DESCRIPTION="Deprecated Package: biobb_md is no longer maintained and has been s
 HOMEPAGE="https://github.com/bioexcel/biobb_md"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

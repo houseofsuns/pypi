@@ -16,7 +16,7 @@ DESCRIPTION="python library for interacting with NFL data sourced from nflfastR"
 HOMEPAGE="https://github.com/cooperdff/nfl_data_py"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

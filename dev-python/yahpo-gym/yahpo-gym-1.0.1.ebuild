@@ -16,7 +16,7 @@ DESCRIPTION="Inference module for the yahpo gym"
 HOMEPAGE="https://github.com/slds-lmu/yahpo_gym"
 LICENSE="LGPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

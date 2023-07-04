@@ -16,7 +16,7 @@ DESCRIPTION="A highly-configurable plugin for MkDocs that exports your pages to 
 HOMEPAGE="https://github.com/adrienbrignon/mkdocs-exporter"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

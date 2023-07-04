@@ -16,7 +16,7 @@ DESCRIPTION="A Deep Learning Framework for ECG Processing Tasks Based on PyTorch
 HOMEPAGE="https://github.com/DeepPSP/torch_ecg"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

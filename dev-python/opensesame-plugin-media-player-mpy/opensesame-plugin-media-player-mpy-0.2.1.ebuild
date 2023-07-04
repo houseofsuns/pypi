@@ -16,7 +16,7 @@ DESCRIPTION="A video playback plugin for OpenSesame, based on MoviePy"
 HOMEPAGE="https://osdoc.cogsci.nl"
 LICENSE="COPYING"
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Lick the dog diary! Lick the dog and lick to the last nothing."
 HOMEPAGE="https://github.com/Reversedeer/nonebot_plugin_dog"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

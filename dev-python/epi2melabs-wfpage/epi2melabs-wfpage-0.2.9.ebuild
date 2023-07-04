@@ -16,7 +16,7 @@ DESCRIPTION="A jupyterlab launcher for Nextflow workflows"
 HOMEPAGE="https://github.com/epi2me-labs/epi2melabs-wfpage"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

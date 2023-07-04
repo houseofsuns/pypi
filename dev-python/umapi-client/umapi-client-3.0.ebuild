@@ -16,7 +16,7 @@ DESCRIPTION="Client for the User Management API (UMAPI) from Adobe - see https:/
 HOMEPAGE="https://github.com/adobe-apiplatform/umapi-client.py/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

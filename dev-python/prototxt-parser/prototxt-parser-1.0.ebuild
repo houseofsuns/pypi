@@ -16,7 +16,7 @@ DESCRIPTION="prototxt-parser allows to parse *.prototxt files to python dict obj
 HOMEPAGE="https://github.com/yogin16/prototxt_parser"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Jupyter Extensions for the RSP"
 HOMEPAGE="https://github.com/lsst-sqre/rsp-jupyter-extensions"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

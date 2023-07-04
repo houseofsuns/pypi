@@ -16,7 +16,7 @@ DESCRIPTION="NDU Gate Camera Service"
 HOMEPAGE="https://github.com/netcadlabs/ndu-gate"
 LICENSE="Apache Software License Apache Software License 2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Memory efficient way of reading files line-by-line from the end of 
 HOMEPAGE="https://github.com/RobinNil/file_read_backwards"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

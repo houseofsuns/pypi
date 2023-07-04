@@ -16,7 +16,7 @@ DESCRIPTION="Telliot is a Python framework for interacting with the decentralize
 HOMEPAGE="https://github.com/tellor-io/telliot-core"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

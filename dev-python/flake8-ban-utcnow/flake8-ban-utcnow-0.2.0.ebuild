@@ -16,7 +16,7 @@ DESCRIPTION="flake8 plugin which bans the usage of datetime.datetime.utcnow and 
 HOMEPAGE="https://github.com/jkittner/flake8-ban-utcnow"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

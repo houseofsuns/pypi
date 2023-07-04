@@ -16,7 +16,7 @@ DESCRIPTION="The future of SMB3"
 HOMEPAGE="https://github.com/TheJoeSmo/Foundry"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

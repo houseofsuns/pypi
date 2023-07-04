@@ -16,7 +16,7 @@ DESCRIPTION="Infers date format from examples, by using a series of pattern matc
 HOMEPAGE="https://github.com/jeffreystarr/dateinfer"
 LICENSE="Apache Software License 2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

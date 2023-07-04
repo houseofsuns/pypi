@@ -16,7 +16,7 @@ DESCRIPTION="AlekSIS (School Information System) — App Resint (Public post
 HOMEPAGE="https://aleksis.org/"
 LICENSE="EUPL-1.2-or-later"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

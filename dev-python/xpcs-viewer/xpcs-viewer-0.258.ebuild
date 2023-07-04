@@ -16,7 +16,7 @@ DESCRIPTION="A python-based interactive visualization tool to view XPCS dataset"
 HOMEPAGE="https://github.com/AdvancedPhotonSource/pyXpcsViewer"
 LICENSE="Argonne National Laboratory License"
 SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

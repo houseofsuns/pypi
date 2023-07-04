@@ -16,7 +16,7 @@ DESCRIPTION="Python package for finding and parsing indicators of compromise fro
 HOMEPAGE="https://github.com/fhightower/ioc-finder"
 LICENSE="GNU Lesser General Public License v3"
 SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

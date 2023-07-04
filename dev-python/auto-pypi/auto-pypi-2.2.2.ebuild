@@ -16,7 +16,7 @@ DESCRIPTION="A Python command line tool to automatically setup and upload your p
 HOMEPAGE="https://github.com/Listen180/auto_pypi"
 LICENSE="BSD 3-clause"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

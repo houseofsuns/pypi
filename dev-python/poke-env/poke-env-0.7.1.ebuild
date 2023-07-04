@@ -16,7 +16,7 @@ DESCRIPTION="A python interface for training Reinforcement Learning bots to batt
 HOMEPAGE="https://github.com/hsahovic/poke-env"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

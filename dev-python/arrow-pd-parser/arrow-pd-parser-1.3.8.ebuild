@@ -16,7 +16,7 @@ DESCRIPTION="MoJ arrow-pd-parser"
 HOMEPAGE="https://github.com/moj-analytical-services/mojap-arrow-pd-parser"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

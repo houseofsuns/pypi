@@ -16,7 +16,7 @@ DESCRIPTION="An autohooks plugin for python code linting via pylint"
 HOMEPAGE="https://github.com/greenbone/autohooks-plugin-pylint"
 LICENSE="GPL-3+"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

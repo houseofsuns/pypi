@@ -16,7 +16,7 @@ DESCRIPTION="Retrieve all variables defined by make command"
 HOMEPAGE="http://github.com/karnigen/make_var"
 LICENSE="LICENSE.txt"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

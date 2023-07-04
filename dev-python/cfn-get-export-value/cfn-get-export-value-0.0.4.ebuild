@@ -16,7 +16,7 @@ DESCRIPTION="Get an exported value in AWS CloudFormation"
 HOMEPAGE="https://github.com/PokaInc/cfn-get-export-value"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Logger used by Server Monitoring Discord Bot and all extentions mad
 HOMEPAGE="https://github.com/NightKey/Server-monitoring-discord-bot"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

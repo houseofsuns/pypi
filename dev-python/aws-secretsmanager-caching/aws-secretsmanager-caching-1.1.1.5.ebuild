@@ -16,7 +16,7 @@ DESCRIPTION="Client-side AWS Secrets Manager caching library"
 HOMEPAGE="https://github.com/aws/aws-secretsmanager-caching-python"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

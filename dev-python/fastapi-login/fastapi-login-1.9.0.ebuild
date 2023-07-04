@@ -16,7 +16,7 @@ DESCRIPTION="Flask-Login like package for FastAPI"
 HOMEPAGE="https://github.com/MushroomMaula/fastapi_login"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

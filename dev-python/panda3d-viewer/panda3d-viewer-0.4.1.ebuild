@@ -16,7 +16,7 @@ DESCRIPTION="Easy-to-use python 3D graphics viewer"
 HOMEPAGE="https://github.com/ikalevatykh/panda3d_viewer"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

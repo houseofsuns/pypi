@@ -16,7 +16,7 @@ DESCRIPTION="A package to increase your data for your machine learning project"
 HOMEPAGE="https://github.com/hakanaktas1/aug-tool"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

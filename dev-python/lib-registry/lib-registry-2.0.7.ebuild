@@ -16,7 +16,7 @@ DESCRIPTION="a more pythonic way to access the windows registry as winreg"
 HOMEPAGE="https://github.com/bitranox/lib_registry"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Generic explainability architecture for text machine learning model
 HOMEPAGE="https://text-explainability.readthedocs.io/"
 LICENSE="GNU LGPL v3"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

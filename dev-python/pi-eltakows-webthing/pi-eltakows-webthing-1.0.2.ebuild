@@ -16,7 +16,7 @@ DESCRIPTION="A web connected Eltako windsensor measuring wind speed on Raspberry
 HOMEPAGE="https://github.com/grro/pi_eltakows_webthing"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

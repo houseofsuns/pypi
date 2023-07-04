@@ -16,7 +16,7 @@ DESCRIPTION="A client for the TSD REST API"
 HOMEPAGE="https://github.com/unioslo/tsd-api-client"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

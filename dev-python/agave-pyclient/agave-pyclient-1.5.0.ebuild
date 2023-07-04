@@ -16,7 +16,7 @@ DESCRIPTION="A Python client for the Agave 3d volume renderer"
 HOMEPAGE="https://github.com/allen-cell-animated/agave"
 LICENSE="Allen Institute Software License"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

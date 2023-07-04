@@ -16,7 +16,7 @@ DESCRIPTION="Пакет для автоматизации взаимодейст
 HOMEPAGE="https://github.com/AlexanderNiMo/designer_cmd"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

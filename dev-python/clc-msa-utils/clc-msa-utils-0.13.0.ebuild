@@ -16,7 +16,7 @@ DESCRIPTION="CenturyLink Managed Services Anywhere Python Utilities"
 HOMEPAGE="https://github.com/CenturyLinkCloud/mos-pyutils"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

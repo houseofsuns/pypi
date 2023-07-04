@@ -16,7 +16,7 @@ DESCRIPTION="A lightweight IR for dense linear algebra"
 HOMEPAGE="https://github.com/facebookresearch/loop_tool"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

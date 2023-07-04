@@ -16,7 +16,7 @@ DESCRIPTION="Fast, correct Python JSON library supporting dataclasses, datetimes
 HOMEPAGE="https://github.com/aviramha/orjson-pydantic"
 LICENSE="Apache-2.0 OR MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="OpenTracing Shim for OpenTelemetry"
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/shim/opentelemetry-opentracing-shim"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

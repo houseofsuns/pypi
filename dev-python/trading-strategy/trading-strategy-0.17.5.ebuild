@@ -16,7 +16,7 @@ DESCRIPTION="Algorithmic trading, token and cryptocurrency DEX trading data, for
 HOMEPAGE="https://tradingstrategy.ai"
 LICENSE="AGPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

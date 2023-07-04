@@ -16,7 +16,7 @@ DESCRIPTION="Check and extract electronic invoices received from the Sistema di 
 HOMEPAGE="https://blog.franco.net.eu.org/software/#fattura-elettronica-reader"
 LICENSE="GPLv3+,"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

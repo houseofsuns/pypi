@@ -16,7 +16,7 @@ DESCRIPTION="Tools to easily create permissioned CRUD endpoints in graphene."
 HOMEPAGE="https://github.com/0soft/graphene-django-plus"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

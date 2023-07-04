@@ -16,7 +16,7 @@ DESCRIPTION="Utilities for your production code that work well with approvaltest
 HOMEPAGE="https://github.com/approvals/ApprovalTests.Python"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

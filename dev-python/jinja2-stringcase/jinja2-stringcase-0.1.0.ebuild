@@ -16,7 +16,7 @@ DESCRIPTION="Jinja2 extension contains filters to convert case"
 HOMEPAGE="https://github.com/ufranske/jinja2_stringcase"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

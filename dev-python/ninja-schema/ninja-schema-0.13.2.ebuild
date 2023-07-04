@@ -16,7 +16,7 @@ DESCRIPTION="Django Schema - Builds Pydantic Schemas from Django Models with def
 HOMEPAGE="https://github.com/eadwinCode/ninja-schema"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Python Logger plugin to send logs to Rapid7 Insight"
 HOMEPAGE="http://pypi.python.org/pypi/R7Insight/"
 LICENSE="LICENSE.txt"
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

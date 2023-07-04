@@ -16,7 +16,7 @@ DESCRIPTION="Locally download a datamining dataset from the Eulerian Technologie
 HOMEPAGE="https://github.com/EulerianTechnologies/eanalytics-api-py"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

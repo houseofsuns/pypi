@@ -16,7 +16,7 @@ DESCRIPTION="Unit definitions for integrated-assessment research"
 HOMEPAGE="https://github.com/IAMconsortium/units"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="This project is a Python version of the language-tags Javascript pr
 HOMEPAGE="https://github.com/OnroerendErfgoed/language-tags"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

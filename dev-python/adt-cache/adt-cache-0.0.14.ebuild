@@ -16,7 +16,7 @@ DESCRIPTION="abstract cache with in memory cache or redis (sentinel)"
 HOMEPAGE="https://github.com/cheddars/pypi_adt_cache"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

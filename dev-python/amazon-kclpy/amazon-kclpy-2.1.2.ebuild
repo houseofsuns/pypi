@@ -16,7 +16,7 @@ DESCRIPTION="A python interface for the Amazon Kinesis Client Library MultiLangD
 HOMEPAGE="https://github.com/awslabs/amazon-kinesis-client-python"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

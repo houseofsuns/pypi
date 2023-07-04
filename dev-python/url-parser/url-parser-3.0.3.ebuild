@@ -16,7 +16,7 @@ DESCRIPTION="Parse url and get all the different parts out of it"
 HOMEPAGE="https://github.com/AdaptedAS/url_parser"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

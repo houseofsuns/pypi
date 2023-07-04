@@ -16,7 +16,7 @@ DESCRIPTION="An API Logger for your Django Rest Framework project."
 HOMEPAGE="https://github.com/vishalanandl177/DRF-API-Logger"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

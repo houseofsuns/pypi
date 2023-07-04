@@ -16,7 +16,7 @@ DESCRIPTION="Role-based permissions for Django REST Framework and vanilla Django
 HOMEPAGE="https://pypi.org/project/rest-framework-roles/"
 LICENSE="LICENSE"
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A utility to read AUG shotfiles"
 HOMEPAGE="https://gitlab.mpcdf.mpg.de/git/aug_sfutils"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

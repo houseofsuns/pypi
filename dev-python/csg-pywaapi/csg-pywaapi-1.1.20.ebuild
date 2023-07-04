@@ -16,7 +16,7 @@ DESCRIPTION="Helper package for interfacing with Wwise using waapi. csg_pywaapi 
 HOMEPAGE="https://github.com/simongumbleton/csg_pywaapi"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

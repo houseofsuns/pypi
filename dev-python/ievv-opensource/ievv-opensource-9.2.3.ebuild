@@ -16,7 +16,7 @@ DESCRIPTION="The opensource modules from the commercial IEVV Django framework."
 HOMEPAGE=""
 LICENSE="Copyright c 2015, Appresso AS"
 SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

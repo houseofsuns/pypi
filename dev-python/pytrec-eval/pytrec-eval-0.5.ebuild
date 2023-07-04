@@ -16,7 +16,7 @@ DESCRIPTION="Provides Python bindings for popular Information Retrieval measures
 HOMEPAGE="https://github.com/cvangysel/pytrec_eval"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

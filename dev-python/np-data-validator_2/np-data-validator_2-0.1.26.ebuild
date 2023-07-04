@@ -16,7 +16,7 @@ DESCRIPTION="Awesome \`np_data_validator_2\` is a Python cli/package created wit
 HOMEPAGE="https://github.com/np_data_validator_2/np_data_validator_2"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

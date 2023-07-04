@@ -16,7 +16,7 @@ DESCRIPTION="The semi-automatic segmentation and quantification of patchy areas 
 HOMEPAGE="https://gitlab.com/digiratory/biomedimaging/bcanalyzer"
 LICENSE="GPL-3+"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Support for migrating PostgreSQL enums with Alembic"
 HOMEPAGE="https://github.com/imankulov/alembic-enums"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

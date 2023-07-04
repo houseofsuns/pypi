@@ -16,7 +16,7 @@ DESCRIPTION="Featuretools Transformer for Scikit-Learn Pipeline use."
 HOMEPAGE="http://www.featurelabs.com/"
 LICENSE="BSD 3-clause"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

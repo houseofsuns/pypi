@@ -16,7 +16,7 @@ DESCRIPTION="A pure-Python implementation of SNMP/SMI MIB parsing and conversion
 HOMEPAGE="https://github.com/lextudio/pysmi"
 LICENSE="BSD-2"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Network Automation and Programmability Abstraction Layer driver for
 HOMEPAGE="https://github.com/davama/napalm-nokia_olt"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="kipoi-conda: conda/pip related functionality used by Kipoi"
 HOMEPAGE="https://github.com/kipoi/kipoi-conda"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

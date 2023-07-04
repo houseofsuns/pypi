@@ -16,7 +16,7 @@ DESCRIPTION="Prometheus Exporter for Airflow Metrics"
 HOMEPAGE="https://github.com/robinhood/airflow_prometheus_exporter"
 LICENSE="BSD 3-Clause"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Midtrans Python REST SDK"
 HOMEPAGE="https://github.com/livingmine/midtrans_python_rest_sdk"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

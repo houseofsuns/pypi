@@ -16,7 +16,7 @@ DESCRIPTION="Celery worker pool with support for asyncio coroutines as tasks"
 HOMEPAGE="https://github.com/the-wondersmith/celery-aio-pool"
 LICENSE="AGPL-3+"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="a simple tool to compute arbitrary generator in a background thread
 HOMEPAGE="https://github.com/justheuristic/prefetch_generator"
 LICENSE="The Unlicense"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

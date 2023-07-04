@@ -16,7 +16,7 @@ DESCRIPTION="The project help you to quickly build layouts in terminal (命令�
 HOMEPAGE="https://github.com/gojuukaze/terminal_layout"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

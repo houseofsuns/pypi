@@ -16,7 +16,7 @@ DESCRIPTION="NoneBot2米游社大别野Bot适配器。MiHoYo Villa Bot adapter f
 HOMEPAGE="https://github.com/CMHopeSunshine/nonebot-adapter-villa"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

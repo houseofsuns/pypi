@@ -16,7 +16,7 @@ DESCRIPTION="Turns DLHub metadata into functional Python objects"
 HOMEPAGE="https://github.com/dlhub-argonne/home_run"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

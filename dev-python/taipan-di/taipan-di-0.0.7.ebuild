@@ -16,7 +16,7 @@ DESCRIPTION="Truly Amazing Inversion of control Python library Analogous to .Net
 HOMEPAGE="https://github.com/Billuc/Taipan-DI"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

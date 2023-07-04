@@ -16,7 +16,7 @@ DESCRIPTION="Geohash tools for performing geohash related tasks."
 HOMEPAGE="https://github.com/Jakub-Markowiak/geohash-tools"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

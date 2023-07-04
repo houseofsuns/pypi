@@ -16,7 +16,7 @@ DESCRIPTION="Structured tables for MkDocs"
 HOMEPAGE="https://github.com/iolanta-tech/mkdocs-iolanta-tables"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

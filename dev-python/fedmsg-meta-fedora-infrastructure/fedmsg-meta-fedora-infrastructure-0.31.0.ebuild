@@ -16,7 +16,7 @@ DESCRIPTION="fedmsg metadata providers for Fedora Infrastructure's deployment"
 HOMEPAGE="https://github.com/fedora-infra/fedmsg_meta_fedora_infrastructure/"
 LICENSE="LGPL-2+"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

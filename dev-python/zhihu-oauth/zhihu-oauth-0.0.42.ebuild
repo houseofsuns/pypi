@@ -16,7 +16,7 @@ DESCRIPTION="尝试解析出知乎官方未开放的 OAuth2 接口，并提供�
 HOMEPAGE="https://git.7sdre.am/7sDream/zhihu-oauth"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

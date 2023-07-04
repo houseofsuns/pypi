@@ -16,7 +16,7 @@ DESCRIPTION="A preview of an OCS (OSIsoft Cloud Services) client library. Note: 
 HOMEPAGE="https://github.com/osisoft/sample-ocs-sample_libraries-python"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

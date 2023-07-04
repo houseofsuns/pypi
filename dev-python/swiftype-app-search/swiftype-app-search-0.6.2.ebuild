@@ -16,7 +16,7 @@ DESCRIPTION="A Deprecated API client for Swiftype App Search - Use new elastic-a
 HOMEPAGE="https://github.com/swiftype/swiftype-app-search-python"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

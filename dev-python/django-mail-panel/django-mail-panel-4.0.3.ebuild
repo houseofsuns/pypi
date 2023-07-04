@@ -16,7 +16,7 @@ DESCRIPTION="A panel for django-debug-toolbar that allows for viewing of recentl
 HOMEPAGE="https://github.com/scuml/django-mail-panel"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

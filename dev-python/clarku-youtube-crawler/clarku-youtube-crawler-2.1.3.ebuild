@@ -16,7 +16,7 @@ DESCRIPTION="Clark University, Package for YouTube crawler and cleaning data"
 HOMEPAGE="https://github.com/ClarkUniversity-NiuLab/clarku-youtube-crawler"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

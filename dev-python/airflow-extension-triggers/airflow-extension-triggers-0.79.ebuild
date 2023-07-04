@@ -16,7 +16,7 @@ DESCRIPTION="Package to expand Airflow for triggering events."
 HOMEPAGE="https://github.com/nytm/airflow_extensions/event_triggering"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

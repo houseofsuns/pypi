@@ -16,7 +16,7 @@ DESCRIPTION="Software tools for the NIfTI-MRS data format"
 HOMEPAGE="https://github.com/wtclarke/nifti_mrs_tools"
 LICENSE="BSD 3-Clause License"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

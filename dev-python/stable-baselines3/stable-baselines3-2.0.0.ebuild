@@ -16,7 +16,7 @@ DESCRIPTION="Pytorch version of Stable Baselines, implementations of reinforceme
 HOMEPAGE="https://github.com/DLR-RM/stable-baselines3"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Parse an arn in multiple components."
 HOMEPAGE="https://github.com/coveooss/coveo-python-oss/tree/main/coveo-arnparse"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

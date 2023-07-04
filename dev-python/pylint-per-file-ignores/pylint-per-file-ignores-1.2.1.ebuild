@@ -16,7 +16,7 @@ DESCRIPTION="A pylint plugin to ignore error codes per file."
 HOMEPAGE="https://github.com/christopherpickering/pylint-per-file-ignores.git"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="utilities that help write tornado apps quickly and easily"
 HOMEPAGE="https://github.com/jianingy/tornado_battery"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

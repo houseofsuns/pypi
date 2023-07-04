@@ -16,7 +16,7 @@ DESCRIPTION="Download or update your Selenium driver binaries and their browsers
 HOMEPAGE="https://github.com/Svinokur/selenium_driver_updater"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

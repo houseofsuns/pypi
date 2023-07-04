@@ -16,7 +16,7 @@ DESCRIPTION="HX711 class to sample 24-bit ADCs with Python 3 on a Raspberry Pi R
 HOMEPAGE="https://github.com/Morrious/hx711-multi"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

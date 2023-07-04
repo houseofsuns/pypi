@@ -16,7 +16,7 @@ DESCRIPTION="Bulma-based theme for Kaybee"
 HOMEPAGE="https://github.com/pauleveritt/kaybee_bulma"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

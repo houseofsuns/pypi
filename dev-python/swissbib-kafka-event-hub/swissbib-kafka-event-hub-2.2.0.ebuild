@@ -16,7 +16,7 @@ DESCRIPTION="Swissbib Kafka Event Hub"
 HOMEPAGE="https://github.com/swissbib/kafka_event_hub"
 LICENSE="LICENSE"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

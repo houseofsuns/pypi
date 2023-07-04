@@ -16,7 +16,7 @@ DESCRIPTION="Simple tool to generate nice, formatted changelogs from vcs"
 HOMEPAGE="https://github.com/Michael-F-Bryan/auto-changelog"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Duo Web SDK for two-factor authentication"
 HOMEPAGE="https://github.com/duosecurity/duo_universal_python"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

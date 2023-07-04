@@ -16,7 +16,7 @@ DESCRIPTION="A headless version of pdfkit which makes use of xvfb-run"
 HOMEPAGE="http://github.com/mrshu/headless_pdfkit"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

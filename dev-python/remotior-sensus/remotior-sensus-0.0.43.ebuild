@@ -16,7 +16,7 @@ DESCRIPTION="Remotior Sensus is software to process remote sensing and GIS data"
 HOMEPAGE="https://github.com/semiautomaticgit/remotior_sensus"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

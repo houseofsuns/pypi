@@ -16,7 +16,7 @@ DESCRIPTION="HDX Python Utilities for streaming tabular data, date and time hand
 HOMEPAGE="https://github.com/OCHA-DAP/hdx-python-utilities"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

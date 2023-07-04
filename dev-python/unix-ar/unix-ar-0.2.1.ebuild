@@ -16,7 +16,7 @@ DESCRIPTION="AR file handling"
 HOMEPAGE="https://github.com/getninjas/unix_ar"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

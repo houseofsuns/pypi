@@ -16,7 +16,7 @@ DESCRIPTION="Some Bayesian changepoint detection algorithms"
 HOMEPAGE="http://github.com/hildensia/bayesian_changepoint_detection"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

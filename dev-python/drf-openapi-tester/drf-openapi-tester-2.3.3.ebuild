@@ -16,7 +16,7 @@ DESCRIPTION="Test utility for validating OpenAPI response documentation"
 HOMEPAGE="https://github.com/snok/drf-openapi-tester"
 LICENSE="BSD-4"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

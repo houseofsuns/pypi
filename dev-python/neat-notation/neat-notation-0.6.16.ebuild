@@ -16,7 +16,7 @@ DESCRIPTION="A smart, modular and readable configuration file format for complex
 HOMEPAGE="https://github.com/FrewtyPebbles/Neat-Object-Notation/tree/neat-python"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

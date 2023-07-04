@@ -16,7 +16,7 @@ DESCRIPTION="Canonical Correlation Analysis Zoo: A collection of Regularized, De
 HOMEPAGE="https://github.com/jameschapman19/cca_zoo"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

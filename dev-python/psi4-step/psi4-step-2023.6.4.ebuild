@@ -16,7 +16,7 @@ DESCRIPTION="A SEAMM plug-in to setup, run and analyze quantum chemistry calcula
 HOMEPAGE="https://github.com/molssi-seamm/psi4_step"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="a parsing library for OpenCourseWare json exports"
 HOMEPAGE="https://github.com/zagaran/ocw-data-parser"
 LICENSE="To be determined"
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

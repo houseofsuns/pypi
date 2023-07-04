@@ -16,7 +16,7 @@ DESCRIPTION="Declarative CLIs with argparse and dataclasses"
 HOMEPAGE="https://github.com/mivade/argparse_dataclass"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

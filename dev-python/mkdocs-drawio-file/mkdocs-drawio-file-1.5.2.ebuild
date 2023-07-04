@@ -16,7 +16,7 @@ DESCRIPTION="Mkdocs plugin that renders .drawio files"
 HOMEPAGE="https://github.com/onixpro/mkdocs-drawio-file/"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

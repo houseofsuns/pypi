@@ -16,7 +16,7 @@ DESCRIPTION="Cache assertion data to simplify regression testing of complex seri
 HOMEPAGE="https://github.com/kyleking/pytest_cache_assert"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

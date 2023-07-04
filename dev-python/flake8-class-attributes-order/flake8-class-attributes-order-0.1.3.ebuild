@@ -16,7 +16,7 @@ DESCRIPTION="A flake8 extension that checks classes attributes order"
 HOMEPAGE="https://github.com/best-doctor/flake8-class-attributes-order"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

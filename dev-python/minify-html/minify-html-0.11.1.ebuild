@@ -16,7 +16,7 @@ DESCRIPTION="Extremely fast and smart HTML + JS + CSS minifier"
 HOMEPAGE="https://github.com/wilsonzlin/minify-html"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

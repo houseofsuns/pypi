@@ -16,7 +16,7 @@ DESCRIPTION="This package provides fundamental operation on reshaping dataframes
 HOMEPAGE="https://github.com/ysong126/lstm_reshaper"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

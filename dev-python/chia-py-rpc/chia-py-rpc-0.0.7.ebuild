@@ -16,7 +16,7 @@ DESCRIPTION="Chia-Py-RPC is a Python library that provides a convenient way to i
 HOMEPAGE="https://github.com/L4bb3rs/Chia-Py-RPC"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

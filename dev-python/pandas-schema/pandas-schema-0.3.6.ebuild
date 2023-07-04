@@ -16,7 +16,7 @@ DESCRIPTION="A validation library for Pandas data frames using user-friendly sch
 HOMEPAGE="https://github.com/TMiguelT/PandasSchema"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="And nicer looking interactive help menu for discord.py"
 HOMEPAGE="https://github.com/casuallycalm/discord-pretty-help"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

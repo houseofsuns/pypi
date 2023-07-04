@@ -16,7 +16,7 @@ DESCRIPTION="Collection of parsers for (nearly) all commercial adsorption instru
 HOMEPAGE="https://github.com/AIF-development-team/adsorption-file-parser"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

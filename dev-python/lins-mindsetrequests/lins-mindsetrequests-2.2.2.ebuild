@@ -16,7 +16,7 @@ DESCRIPTION="Lib para consumo da api mindset do Grupo Lins Ferrão."
 HOMEPAGE="https://bitbucket.org/grupolinsferrao/pypck-lins-mindset-requests"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

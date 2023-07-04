@@ -16,7 +16,7 @@ DESCRIPTION="ayaka小游戏合集"
 HOMEPAGE="https://github.com/bridgeL/nonebot-plugin-ayaka-games"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

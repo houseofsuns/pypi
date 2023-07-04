@@ -16,7 +16,7 @@ DESCRIPTION="Create FastAPI routes from OpenAPI spec"
 HOMEPAGE="https://github.com/ioxiocom/openapi-to-fastapi"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

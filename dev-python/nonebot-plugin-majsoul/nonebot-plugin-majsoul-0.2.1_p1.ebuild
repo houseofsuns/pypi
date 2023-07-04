@@ -16,7 +16,7 @@ DESCRIPTION="NoneBot2 雀魂信息查询插件"
 HOMEPAGE=""
 LICENSE="AGPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

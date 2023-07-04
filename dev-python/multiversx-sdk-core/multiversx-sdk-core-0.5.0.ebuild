@@ -16,7 +16,7 @@ DESCRIPTION="Core components of the MultiversX Python SDK."
 HOMEPAGE="https://github.com/multiversx/mx-sdk-py-core"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

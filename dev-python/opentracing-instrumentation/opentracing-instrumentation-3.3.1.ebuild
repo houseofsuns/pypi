@@ -16,7 +16,7 @@ DESCRIPTION="Tracing Instrumentation using OpenTracing API (http://opentracing.i
 HOMEPAGE="https://github.com/uber-common/opentracing-python-instrumentation"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

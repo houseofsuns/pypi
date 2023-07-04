@@ -16,7 +16,7 @@ DESCRIPTION="InOrbit Python Edge SDK"
 HOMEPAGE="https://github.com/inorbit-ai/edge-sdk-python"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

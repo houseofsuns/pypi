@@ -16,7 +16,7 @@ DESCRIPTION="SynapsePay Rest Native Python Library"
 HOMEPAGE="https://github.com/synapsepay/SynapsePayRest-Python"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Colored, normalizes and joins logs between Uvicorn and Gunicorn."
 HOMEPAGE="https://github.com/carlos-rian/guvicorn_logger"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

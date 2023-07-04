@@ -16,7 +16,7 @@ DESCRIPTION="Module and function definitions and documentation for the FL Studio
 HOMEPAGE="https://github.com/MiguelGuthridge/FL-Studio-Api-Stubs"
 LICENSE="LGPL-3.0-only"
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Accelerating gravitational wave template generation with machine le
 HOMEPAGE="https://github.com/jacopok/mlgw_bns"
 LICENSE="GNU GPL3"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

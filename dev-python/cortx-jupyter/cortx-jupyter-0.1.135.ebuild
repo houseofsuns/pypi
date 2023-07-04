@@ -16,7 +16,7 @@ DESCRIPTION="Jupyter Notebook Manager for Cortx"
 HOMEPAGE="https://github.com/sumanthreddym/cortx_jupyter"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

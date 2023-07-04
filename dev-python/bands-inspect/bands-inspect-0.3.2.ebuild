@@ -16,7 +16,7 @@ DESCRIPTION="Utilities for creating, comparing and plotting bandstructures of ma
 HOMEPAGE="https://github.com/Z2PackDev/bands_inspect"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

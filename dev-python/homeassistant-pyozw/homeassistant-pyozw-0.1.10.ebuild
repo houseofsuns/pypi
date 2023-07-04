@@ -16,7 +16,7 @@ DESCRIPTION="python_openzwave is a python wrapper for the openzwave c++ library.
 HOMEPAGE="https://home-assistant.io/"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.zip"
-SOURCEFILE="_}-${REALVERSION}.zip"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

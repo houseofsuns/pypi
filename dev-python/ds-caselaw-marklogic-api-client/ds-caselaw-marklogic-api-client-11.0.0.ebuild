@@ -16,7 +16,7 @@ DESCRIPTION="An API client for interacting with the underlying data in Find Case
 HOMEPAGE="https://github.com/nationalarchives/ds-caselaw-custom-api-client"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

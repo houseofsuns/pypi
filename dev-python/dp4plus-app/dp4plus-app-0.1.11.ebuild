@@ -16,7 +16,7 @@ DESCRIPTION="A tool to simplify your DP4+ calculations"
 HOMEPAGE="https://github.com/RosarioCCLab/DP4plus-App"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Mean Average Precision evaluator for object detection."
 HOMEPAGE="https://github.com/bes-dev/mean_average_precision"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

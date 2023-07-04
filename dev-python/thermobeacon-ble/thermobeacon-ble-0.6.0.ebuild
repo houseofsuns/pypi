@@ -16,7 +16,7 @@ DESCRIPTION="Parser for Thermobeacon devices"
 HOMEPAGE="https://github.com/bluetooth-devices/thermobeacon-ble"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

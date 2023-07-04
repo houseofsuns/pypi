@@ -16,7 +16,7 @@ DESCRIPTION="Splunk .conf files parser"
 HOMEPAGE="https://github.com/splunk/addonfactory-splunk-conf-parser-lib"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

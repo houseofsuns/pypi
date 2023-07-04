@@ -16,7 +16,7 @@ DESCRIPTION="Graphene Pydantic integration"
 HOMEPAGE="https://github.com/graphql-python/graphene-pydantic"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

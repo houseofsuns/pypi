@@ -16,7 +16,7 @@ DESCRIPTION="Graphical user interfce of Harvester"
 HOMEPAGE="https://github.com/genicam/harvesters_gui"
 LICENSE="Apache Software License V2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

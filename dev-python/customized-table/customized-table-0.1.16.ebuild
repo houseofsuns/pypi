@@ -16,7 +16,7 @@ DESCRIPTION="Creates flexible tables in Jupyter Notebooks with lots of formattin
 HOMEPAGE="https://github.com/jhagelback/customized_table"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

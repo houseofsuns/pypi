@@ -16,7 +16,7 @@ DESCRIPTION="Nowyou Grafis script python"
 HOMEPAGE="https://bitbucket.org/inventilabs/nowyou-grafis-script-python/"
 LICENSE="proprietary"
 SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

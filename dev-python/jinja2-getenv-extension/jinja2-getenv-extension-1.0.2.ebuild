@@ -16,7 +16,7 @@ DESCRIPTION="a jinja2 extension to access to system environment variables"
 HOMEPAGE="https://github.com/metwork-framework/jinja2_getenv_extension"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

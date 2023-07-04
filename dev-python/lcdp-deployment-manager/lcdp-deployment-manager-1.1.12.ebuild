@@ -16,7 +16,7 @@ DESCRIPTION="High level utilities to get/set AWS infrastructure items on prod"
 HOMEPAGE="https://github.com/LeComptoirDesPharmacies/lcdp-deployment-manager"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

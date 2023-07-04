@@ -16,7 +16,7 @@ DESCRIPTION="A tool to manage configuration files, build scripts etc. across mul
 HOMEPAGE="https://github.com/repo-helper/repo_helper"
 LICENSE="LGPL-3+"
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

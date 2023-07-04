@@ -16,7 +16,7 @@ DESCRIPTION="Package to upload files to the Robin Radar API"
 HOMEPAGE="https://bitbucket.org/robin-radar-systems/sd-api-upload-pip-package.git"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

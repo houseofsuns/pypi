@@ -16,7 +16,7 @@ DESCRIPTION="A Python package and command line utility for scanning emails with 
 HOMEPAGE="https://github.com/seanthegeek/yaramail"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

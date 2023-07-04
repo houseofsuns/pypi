@@ -16,7 +16,7 @@ DESCRIPTION="Parser for Lanelet2"
 HOMEPAGE="https://github.com/tier4/lanelet2-parser"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

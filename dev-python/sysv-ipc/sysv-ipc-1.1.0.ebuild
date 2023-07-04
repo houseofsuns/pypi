@@ -16,7 +16,7 @@ DESCRIPTION="System V IPC primitives (semaphores, shared memory and message queu
 HOMEPAGE="http://semanchuk.com/philip/sysv_ipc/"
 LICENSE="BSD"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

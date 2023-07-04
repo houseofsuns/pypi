@@ -16,7 +16,7 @@ DESCRIPTION="Rust Extension For Language Technology Platform(Python)."
 HOMEPAGE="https://github.com/HIT-SCIR/ltp"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

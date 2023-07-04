@@ -16,7 +16,7 @@ DESCRIPTION="Provides the missing pieces for gRPC Gateway."
 HOMEPAGE="https://github.com/prosehair/grpc_protoc_annotations"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

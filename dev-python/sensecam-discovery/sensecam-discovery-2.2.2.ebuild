@@ -16,7 +16,7 @@ DESCRIPTION="A package to discover all onvif cameras on your network"
 HOMEPAGE="https://github.com/smartsenselab/sensecam-discovery"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

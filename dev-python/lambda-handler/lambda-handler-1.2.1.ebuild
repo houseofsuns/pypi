@@ -16,7 +16,7 @@ DESCRIPTION="A Python package for routing and validating AWS events inside a Lam
 HOMEPAGE="https://github.com/branchenergy/lambda-handler"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="Sphinx autodoc extension for documenting YAML files from comments"
 HOMEPAGE="https://github.com/Jakski/sphinxcontrib-autoyaml"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

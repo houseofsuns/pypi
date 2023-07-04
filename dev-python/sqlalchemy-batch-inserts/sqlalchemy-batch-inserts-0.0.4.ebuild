@@ -16,7 +16,7 @@ DESCRIPTION="Batch inserts for SQLAlchemy on PostgreSQL with psycopg2"
 HOMEPAGE="https://github.com/benchling/sqlalchemy_batch_inserts"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

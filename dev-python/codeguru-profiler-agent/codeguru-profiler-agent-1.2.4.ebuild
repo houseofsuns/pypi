@@ -16,7 +16,7 @@ DESCRIPTION="The Python agent to be used for Amazon CodeGuru Profiler"
 HOMEPAGE="https://github.com/aws/amazon-codeguru-profiler-python-agent"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A MkDocs plugin include all file in dir to navigation"
 HOMEPAGE="https://github.com/mysiki/mkdocs_include_dir_to_nav"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

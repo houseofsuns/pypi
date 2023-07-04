@@ -16,7 +16,7 @@ DESCRIPTION="A package for performing spin-phonon coupling calculations with ope
 HOMEPAGE="https://gitlab.com/chilton-group/spin_phonon_suite"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

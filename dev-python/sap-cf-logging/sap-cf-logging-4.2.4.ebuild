@@ -16,7 +16,7 @@ DESCRIPTION="Python logging library to emit JSON logs in a SAP CloudFoundry envi
 HOMEPAGE="https://github.com/SAP/cf-python-logging-support"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -16,7 +16,7 @@ DESCRIPTION="A kedro-plugin to use mlflow in your kedro projects"
 HOMEPAGE="https://github.com/Galileo-Galilei/kedro-mlflow"
 LICENSE="Apache Software License Apache 2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

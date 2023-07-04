@@ -16,7 +16,7 @@ DESCRIPTION="App for managing character standing requests, made for Alliance Aut
 HOMEPAGE="https://gitlab.com/ErikKalkoken/aa-standingsrequests"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

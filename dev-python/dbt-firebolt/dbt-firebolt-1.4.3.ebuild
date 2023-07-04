@@ -16,7 +16,7 @@ DESCRIPTION="The Firebolt adapter plugin for dbt (data build tool)"
 HOMEPAGE="https://github.com/firebolt-db/dbt-firebolt"
 LICENSE="Apache-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

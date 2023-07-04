@@ -16,7 +16,7 @@ DESCRIPTION="Python utilities by the Professorship of Environmental Sensing and 
 HOMEPAGE="https://github.com/tum-esm/utils"
 LICENSE="AGPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

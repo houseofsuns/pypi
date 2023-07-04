@@ -16,7 +16,7 @@ DESCRIPTION="A python library to communicate with the KEBA charging stations via
 HOMEPAGE="https://github.com/dannerph/keba-kecontact"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

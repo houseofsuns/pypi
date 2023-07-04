@@ -16,7 +16,7 @@ DESCRIPTION="Decision Optimization utilities for IBM Watson Studio projects"
 HOMEPAGE="https://github.com/IBM/dse-decision-optimization-utilities"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

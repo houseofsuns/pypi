@@ -16,7 +16,7 @@ DESCRIPTION="A small helper for formatting ArcSight Common Event Format (CEF) co
 HOMEPAGE="https://github.com/Osirium/format_cef"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

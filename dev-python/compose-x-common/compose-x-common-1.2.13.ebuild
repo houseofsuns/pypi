@@ -16,7 +16,7 @@ DESCRIPTION="Common Library for Compose-X Projects"
 HOMEPAGE="https://github.com/compose-x/compose-x-common-libs/"
 LICENSE="MPL-2.0"
 SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

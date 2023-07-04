@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># fal-serverlessLibrary to run, serve or schedule your Python functions in the cloud with any machine type you may need.Check out to the [docs](https://docs.fal.ai/fal-serverless/quickstart) for more details.</longdescription>
+	<longdescription># fal-serverlessLibrary to run, serve or schedule your Python functions in the cloud with any machine type you may need.Check out to the [docs](https://docs.fal.ai/fal-serverless/quickstart) for more details.## Generate OpenAPI client for the REST APIThe recommended way is to use bop. First set the `FAL_REST` variable to the right value and then run:```shbop openapi```Initial client was generated using```shcd projects/fal_serverless# Notice that you can point to any environmentopenapi-python-client generate --url https://rest.shark.fal.ai/openapi.json --meta none --config openapi_rest.config.yaml```And can be manually updated with```shcd projects/fal_serverless# Notice that you can point to any environmentopenapi-python-client update --url https://rest.shark.fal.ai/openapi.json --meta none --config openapi_rest.config.yaml```</longdescription>
 </pkgmetadata>

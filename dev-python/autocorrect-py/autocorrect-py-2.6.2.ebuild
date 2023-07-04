@@ -16,7 +16,7 @@ DESCRIPTION="A linter and formatter for help you improve copywriting, to correct
 HOMEPAGE="https://github.com/huacnlee/autocorrect"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

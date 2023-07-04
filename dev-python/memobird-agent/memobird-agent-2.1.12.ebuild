@@ -16,7 +16,7 @@ DESCRIPTION="Print document on memobird from python using official API"
 HOMEPAGE="http://github.com/tcai793/memobird_agent"
 LICENSE="GPL-3"
 SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

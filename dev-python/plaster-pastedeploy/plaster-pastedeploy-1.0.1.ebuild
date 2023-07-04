@@ -16,7 +16,7 @@ DESCRIPTION="A loader implementing the PasteDeploy syntax to be used by plaster.
 HOMEPAGE="https://github.com/Pylons/plaster_pastedeploy"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

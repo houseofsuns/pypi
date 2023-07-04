@@ -16,7 +16,7 @@ DESCRIPTION="Python wrapper for Neogrid Technologies' REST API"
 HOMEPAGE="https://gitlab.com/neogrid-technologies-public/preheat-open-python"
 LICENSE=""
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

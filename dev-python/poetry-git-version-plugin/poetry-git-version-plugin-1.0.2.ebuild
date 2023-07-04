@@ -16,7 +16,7 @@ DESCRIPTION="Poetry plugin to get package version from git"
 HOMEPAGE="https://gitlab.com/rocshers/python/poetry-git-version-plugin"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

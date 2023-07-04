@@ -16,7 +16,7 @@ DESCRIPTION="General Purpose Robotics Package featuring forward and inverse kine
 HOMEPAGE="https://github.com/64-B1T/basic_robotics"
 LICENSE="MIT"
 SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -15,7 +15,7 @@ DESCRIPTION="Spatial mapping from remote sensing data"
 
 HOMEPAGE="https://gitlab.com/alanxuliang/a1610_learn2map"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

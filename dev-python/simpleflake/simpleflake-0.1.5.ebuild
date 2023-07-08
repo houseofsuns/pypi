@@ -15,7 +15,7 @@ DESCRIPTION="Twitter snowflake compatible super-simple distributed ID generator.
 
 HOMEPAGE="https://github.com/SawdustSoftware/simpleflake"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

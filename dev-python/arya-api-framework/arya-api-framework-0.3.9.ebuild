@@ -15,7 +15,7 @@ DESCRIPTION="A simple API framework used in many other API clients I create."
 
 HOMEPAGE="https://github.com/Aryathel/ApiFramework"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Separate test code from test cases in pytest."
 
 HOMEPAGE="https://github.com/smarie/python-pytest-cases"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

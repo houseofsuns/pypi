@@ -15,7 +15,7 @@ DESCRIPTION="RIDE :: Robot Framework Test Data Editor"
 
 HOMEPAGE="https://github.com/robotframework/RIDE/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

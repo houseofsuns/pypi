@@ -15,7 +15,7 @@ DESCRIPTION="文字/漢語發音/注音互轉。相似發聲字/單詞。"
 
 HOMEPAGE="https://github.com/p208p2002/py-chinese-pronounce"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

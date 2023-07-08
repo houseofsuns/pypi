@@ -15,7 +15,7 @@ DESCRIPTION="Python Wrapper for interacting with the Volkszahler API."
 
 HOMEPAGE="https://github.com/home-assistant-ecosystem/python-volkszaehler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

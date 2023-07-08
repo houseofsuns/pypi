@@ -15,7 +15,7 @@ DESCRIPTION="A Python logger to send information to Webhooks"
 
 HOMEPAGE="https://github.com/founders4schools/python-webhook-logger"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

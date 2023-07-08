@@ -15,7 +15,7 @@ DESCRIPTION="Python package to generate an httpx-based client off an OpenAPI spe
 
 HOMEPAGE="https://github.com/sennder/python-client-generator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

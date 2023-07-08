@@ -15,7 +15,7 @@ DESCRIPTION="an elegant bert4keras"
 
 HOMEPAGE="https://github.com/bojone/bert4keras"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

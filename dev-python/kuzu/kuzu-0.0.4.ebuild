@@ -15,7 +15,7 @@ DESCRIPTION="An in-process property graph database management system built for q
 
 HOMEPAGE="https://github.com/kuzudb/kuzu"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}-sdist.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-sdist.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}-sdist.zip"
 RESTRICT="test"
 

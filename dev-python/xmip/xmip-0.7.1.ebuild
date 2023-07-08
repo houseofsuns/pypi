@@ -15,7 +15,7 @@ DESCRIPTION="Analysis ready CMIP6 data the easy way"
 
 HOMEPAGE="https://github.com/jbusecke/xmip"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

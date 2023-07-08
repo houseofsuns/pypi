@@ -15,7 +15,7 @@ DESCRIPTION="A simpler tool for creating venvs in a central location"
 
 HOMEPAGE="https://github.com/Julian/venvs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

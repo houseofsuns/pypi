@@ -15,7 +15,7 @@ DESCRIPTION="Portable Local Settings Storage"
 
 HOMEPAGE="https://github.com/glvnst/usersettings"
 LICENSE="https://raw.githubusercontent.com/glvnst/usersettings/main/LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

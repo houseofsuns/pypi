@@ -15,7 +15,7 @@ DESCRIPTION="eCalc™ is a software tool for calculation of energy demand and gr
 
 HOMEPAGE="https://github.com/equinor/ecalc"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

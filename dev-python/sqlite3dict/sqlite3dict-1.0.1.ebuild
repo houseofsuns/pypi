@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper around sqlite3 to work with dictionaries"
 
 HOMEPAGE="https://github.com/aformusatii/sqlite3dict"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

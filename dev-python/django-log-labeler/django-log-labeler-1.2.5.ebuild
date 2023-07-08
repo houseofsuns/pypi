@@ -15,7 +15,7 @@ DESCRIPTION="Django middleware and log filter to attach a unique ID to every log
 
 HOMEPAGE="https://psbl102zatcrh.vodacom.corp/nimble-backend/Vodacom-Django-Log-Labeler/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

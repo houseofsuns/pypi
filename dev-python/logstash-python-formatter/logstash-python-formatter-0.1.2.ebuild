@@ -15,7 +15,7 @@ DESCRIPTION="Python formatter for working with Logstash json filters."
 
 HOMEPAGE="https://github.com/mbarrientos/logstash-python-formatter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

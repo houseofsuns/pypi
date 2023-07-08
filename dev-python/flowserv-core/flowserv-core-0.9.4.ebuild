@@ -15,7 +15,7 @@ DESCRIPTION="Reproducible and Reusable Data Analysis Workflow Server (Core Infra
 
 HOMEPAGE="https://github.com/scailfin/flowserv-core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

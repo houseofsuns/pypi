@@ -15,7 +15,7 @@ DESCRIPTION="O(1) region count queries using sparse prefix sums"
 
 HOMEPAGE="https://github.com/Siegel-Lab/libSps"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

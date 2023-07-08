@@ -15,7 +15,7 @@ DESCRIPTION="Analysis of Interactive Brokers reports for tax reporting in Russia
 
 HOMEPAGE="https://github.com/cdump/investments"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

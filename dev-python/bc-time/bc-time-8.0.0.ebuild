@@ -15,7 +15,7 @@ DESCRIPTION="SDK that helps with integration via the Binary City Time API."
 
 HOMEPAGE="https://bitbucket.org/dburger/bc_time_api_sdk/src/master/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

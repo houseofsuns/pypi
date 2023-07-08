@@ -15,7 +15,7 @@ DESCRIPTION="基于nonebot2异步框架的青年大学自动提交插件基于no
 
 HOMEPAGE="https://github.com/ZM25XC/TeenStudy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

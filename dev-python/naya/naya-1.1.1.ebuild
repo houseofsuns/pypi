@@ -15,7 +15,7 @@ DESCRIPTION="A fast streaming JSON parser written in pure python"
 
 HOMEPAGE="https://github.com/danielyule/naya"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

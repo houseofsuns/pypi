@@ -15,7 +15,7 @@ DESCRIPTION="A clean interface to Windows speech recognition and text-to-speech 
 
 HOMEPAGE="http://code.google.com/p/pyspeech/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

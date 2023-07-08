@@ -15,7 +15,7 @@ DESCRIPTION="An AI enabled program to detect car speed"
 
 HOMEPAGE="https://github.com/Programming-Hero-1313/Sheriff"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

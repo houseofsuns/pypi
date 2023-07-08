@@ -15,7 +15,7 @@ DESCRIPTION="Apache-like combined logging for WSGI Web Applications"
 
 HOMEPAGE="https://github.com/pklaus/wsgi-request-logger"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

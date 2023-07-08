@@ -15,7 +15,7 @@ DESCRIPTION="Some spark ml utilities, for easy checking/modifying spark pipeline
 
 HOMEPAGE="https://github.com/xinyongtian/py_spark_ml_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

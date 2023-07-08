@@ -15,7 +15,7 @@ DESCRIPTION="HCube is a simple ORM for working with hyper-cube OLAP data stored 
 
 HOMEPAGE=""
 LICENSE="WTFPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

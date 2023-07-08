@@ -15,7 +15,7 @@ DESCRIPTION="Python implementation of monte carlo tree search for 2 players zero
 
 HOMEPAGE="https://github.com/int8/monte-carlo-tree-search"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

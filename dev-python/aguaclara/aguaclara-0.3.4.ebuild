@@ -15,7 +15,7 @@ DESCRIPTION="An open-source Python package for designing and performing research
 
 HOMEPAGE="https://github.com/AguaClara/aguaclara"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

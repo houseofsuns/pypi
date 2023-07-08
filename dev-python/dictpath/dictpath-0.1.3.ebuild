@@ -15,7 +15,7 @@ DESCRIPTION="Object-oriented dictionary paths"
 
 HOMEPAGE="https://github.com/p1c2u/dictpath"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

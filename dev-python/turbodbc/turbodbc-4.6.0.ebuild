@@ -15,7 +15,7 @@ DESCRIPTION="turbodbc is a Python DB API 2.0 compatible ODBC driver"
 
 HOMEPAGE="https://github.com/blue-yonder/turbodbc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

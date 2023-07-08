@@ -15,7 +15,7 @@ DESCRIPTION="Parse and convert numbers written in French, Spanish, English, Port
 
 HOMEPAGE="https://github.com/allo-media/text2num"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

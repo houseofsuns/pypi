@@ -15,7 +15,7 @@ DESCRIPTION="Backport of zipfile Python 3.9 to Python 2.7 with some enhancements
 
 HOMEPAGE="https://github.com/cielavenir/zipfile39"
 LICENSE="PSF-2.4"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

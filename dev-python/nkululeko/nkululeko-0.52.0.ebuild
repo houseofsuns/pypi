@@ -15,7 +15,7 @@ DESCRIPTION="Machine learning audio prediction experiments based on templates"
 
 HOMEPAGE="https://github.com/felixbur/nkululeko"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

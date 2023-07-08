@@ -15,7 +15,7 @@ DESCRIPTION="Obsolete. Please migrate to absl-py instead."
 
 HOMEPAGE="http://code.google.com/p/google-apputils-python"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

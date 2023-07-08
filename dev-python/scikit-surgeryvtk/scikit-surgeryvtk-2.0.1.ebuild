@@ -15,7 +15,7 @@ DESCRIPTION="scikit-surgeryvtk implements VTK for Image Guided Surgery applicati
 
 HOMEPAGE="https://github.com/SciKit-Surgery/scikit-surgeryvtk"
 LICENSE="BSD-3 license"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

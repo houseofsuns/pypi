@@ -15,7 +15,7 @@ DESCRIPTION="A python based plugable and extensible manifest processing system"
 
 HOMEPAGE="https://github.com/nicc777/py-animus"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

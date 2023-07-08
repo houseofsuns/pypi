@@ -15,7 +15,7 @@ DESCRIPTION="This open-source package is a tool to convert utdf file to GMNS for
 
 HOMEPAGE="https://github.com/asu-trans-ai-lab/utdf2gmns"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

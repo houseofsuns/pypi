@@ -15,7 +15,7 @@ DESCRIPTION="This Django app adds a new field type, ConstrainedFileField, that h
 
 HOMEPAGE="https://github.com/mbourqui/django-constrainedfilefield/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

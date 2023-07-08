@@ -15,7 +15,7 @@ DESCRIPTION="Detect import cycles in Python projects"
 
 HOMEPAGE="https://github.com/si-23/py-import-cycles"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

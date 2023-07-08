@@ -15,7 +15,7 @@ DESCRIPTION="Dump testcases results to xunit file; submit files to Polarion Impo
 
 HOMEPAGE="https://github.com/mkoura/dump2polarion"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

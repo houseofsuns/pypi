@@ -15,7 +15,7 @@ DESCRIPTION="A Python-based renderer for OpenType COLRv1 fonts, with multiple ba
 
 HOMEPAGE="https://github.com/BlackFoundryCom/black-renderer"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

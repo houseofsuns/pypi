@@ -15,7 +15,7 @@ DESCRIPTION="Simple BytesIO based image manipulation library. No hard work and n
 
 HOMEPAGE="https://github.com/blisspy/bliss-ops"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

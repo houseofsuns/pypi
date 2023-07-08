@@ -15,7 +15,7 @@ DESCRIPTION="RIOT Ctrl - A RIOT node python abstraction"
 
 HOMEPAGE="https://github.com/RIOT-OS/riotctrl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

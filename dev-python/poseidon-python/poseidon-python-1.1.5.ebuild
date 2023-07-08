@@ -15,7 +15,7 @@ DESCRIPTION="海神波塞冬工具对常用的链上交互操作进行了封装�
 
 HOMEPAGE="https://github.com/B1ue1nWh1te/Poseidon"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

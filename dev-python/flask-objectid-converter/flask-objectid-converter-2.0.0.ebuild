@@ -15,7 +15,7 @@ DESCRIPTION="Provides url converters for flask to support pymonogs ObjectIDs"
 
 HOMEPAGE="https://github.com/Fischerfredl/flask-objectid-converter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

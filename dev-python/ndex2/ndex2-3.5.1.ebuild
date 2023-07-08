@@ -15,7 +15,7 @@ DESCRIPTION="Nice CX Python includes a client and a data model."
 
 HOMEPAGE="https://github.com/ndexbio/ndex2-client"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

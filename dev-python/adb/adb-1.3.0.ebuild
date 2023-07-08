@@ -15,7 +15,7 @@ DESCRIPTION="A pure python implementation of the Android ADB and Fastboot protoc
 
 HOMEPAGE="https://github.com/google/python-adb"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

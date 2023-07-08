@@ -15,7 +15,7 @@ DESCRIPTION="基础工具集，统一文件读写，规范流行线过程"
 
 HOMEPAGE="https://gitee.com/zhys513/pipetool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

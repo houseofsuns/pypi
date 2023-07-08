@@ -15,7 +15,7 @@ DESCRIPTION="FIDO2/WebAuthn library for implementing clients and servers."
 
 HOMEPAGE="https://github.com/Yubico/python-fido2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

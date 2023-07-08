@@ -15,7 +15,7 @@ DESCRIPTION="Check Python files for repeat use of strings"
 
 HOMEPAGE="https://pypi.org/project/constcheck/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

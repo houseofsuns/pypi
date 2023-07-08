@@ -15,7 +15,7 @@ DESCRIPTION="A toolkit for inferencing trips and trip metadata from Itinerum GPS
 
 HOMEPAGE="https://github.com/TRIP-Lab/itinerum-tripkit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

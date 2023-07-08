@@ -15,7 +15,7 @@ DESCRIPTION="A handy CLI interface for ChatGPT"
 
 HOMEPAGE="http://www.example.com/~cschultz/bvote/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

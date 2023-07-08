@@ -15,7 +15,7 @@ DESCRIPTION="Pytest plugin for uploading test results to your QA Touch Testrun."
 
 HOMEPAGE="https://github.com/MohamedRaslan/pytest-qatouch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A package for sleep stage classification using ECG data"
 
 HOMEPAGE="https://github.com/cbrnr/sleepecg"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

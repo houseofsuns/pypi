@@ -15,7 +15,7 @@ DESCRIPTION="Track analysis using TrackMate xml and csv generated tracks using N
 
 HOMEPAGE="https://github.com/Kapoorlabs-CAPED/vollseg-napari-trackmate"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

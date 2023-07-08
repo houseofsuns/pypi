@@ -15,7 +15,7 @@ DESCRIPTION="Handy trading utils for PiAsset"
 
 HOMEPAGE="https://code.piasset.net/saaltfiish/pitrading"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

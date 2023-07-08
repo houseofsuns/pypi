@@ -15,7 +15,7 @@ DESCRIPTION="Analyses C/C++ build output for code size, static variables, and st
 
 HOMEPAGE="https://github.com/hbehrens/puncover"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

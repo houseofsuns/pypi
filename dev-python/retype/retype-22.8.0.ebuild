@@ -15,7 +15,7 @@ DESCRIPTION="re-apply types from .pyi stub files to your codebase"
 
 HOMEPAGE="https://github.com/ambv/retype"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

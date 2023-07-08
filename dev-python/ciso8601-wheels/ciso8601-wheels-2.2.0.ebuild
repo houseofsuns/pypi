@@ -15,7 +15,7 @@ DESCRIPTION="Fast ISO8601 date time parser for Python written in C"
 
 HOMEPAGE="https://github.com/noahp/ciso8601"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

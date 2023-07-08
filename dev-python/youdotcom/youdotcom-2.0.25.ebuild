@@ -15,7 +15,7 @@ DESCRIPTION="official api wrapper for you.com and all of its apps"
 
 HOMEPAGE="https://github.com/You-OpenSource/You-Python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

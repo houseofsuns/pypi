@@ -15,7 +15,7 @@ DESCRIPTION="Repo2docker: Turn code repositories into Jupyter enabled Docker Ima
 
 HOMEPAGE="https://repo2docker.readthedocs.io/en/latest/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

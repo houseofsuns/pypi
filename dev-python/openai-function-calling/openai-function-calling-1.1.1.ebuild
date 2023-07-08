@@ -15,7 +15,7 @@ DESCRIPTION="Helper functions to generate OpenAI GPT function calling requests."
 
 HOMEPAGE="https://github.com/jakecyr/openai-function-calling"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

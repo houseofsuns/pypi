@@ -15,7 +15,7 @@ DESCRIPTION="AntiNex Utilities for Keras and Tensorflow"
 
 HOMEPAGE="https://github.com/jay-johnson/antinex-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

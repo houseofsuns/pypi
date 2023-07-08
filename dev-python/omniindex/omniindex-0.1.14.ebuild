@@ -15,7 +15,7 @@ DESCRIPTION="A Python package for interacting with the OmniIndex Homomorphic Enc
 
 HOMEPAGE="https://github.com/OmniIndex/python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="This is the unikube.io command line interface"
 
 HOMEPAGE="https://github.com/unikubehq/cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

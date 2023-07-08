@@ -15,7 +15,7 @@ DESCRIPTION="The Django Dance School project: a modular, reusable set of designe
 
 HOMEPAGE="https://github.com/django-danceschool/django-danceschool"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

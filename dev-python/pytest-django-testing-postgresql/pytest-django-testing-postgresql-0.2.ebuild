@@ -15,7 +15,7 @@ DESCRIPTION="Use a temporary PostgreSQL database with pytest-django"
 
 HOMEPAGE="https://edugit.org/AlekSIS/libs/pytest-django-testing-postgresql"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

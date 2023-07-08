@@ -15,7 +15,7 @@ DESCRIPTION="A python library to build Model Trees with Linear Models at the lea
 
 HOMEPAGE="https://github.com/cerlymarco/linear-tree"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

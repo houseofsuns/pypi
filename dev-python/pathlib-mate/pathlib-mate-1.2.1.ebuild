@@ -15,7 +15,7 @@ DESCRIPTION="An extended and more powerful pathlib."
 
 HOMEPAGE="https://github.com/MacHu-GWU/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

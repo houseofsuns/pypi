@@ -15,7 +15,7 @@ DESCRIPTION="Easily include your Google Tag Manager tag in your django site"
 
 HOMEPAGE="https://github.com/Lacrymology/django-google-tag-manager"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

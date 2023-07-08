@@ -15,7 +15,7 @@ DESCRIPTION="Python library and command-line utility for Vulners (https://vulner
 
 HOMEPAGE="https://github.com/vulnersCom/api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

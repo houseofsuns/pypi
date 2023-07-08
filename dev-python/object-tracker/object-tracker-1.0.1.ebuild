@@ -15,7 +15,7 @@ DESCRIPTION="A pure python object change and history tracker. Monitor all change
 
 HOMEPAGE="https://github.com/saurabh0719/object-tracker"
 LICENSE="three-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

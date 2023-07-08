@@ -15,7 +15,7 @@ DESCRIPTION="Numpy extension module for efficient search of first array index th
 
 HOMEPAGE="http://github.com/roebel/py_find_1st"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

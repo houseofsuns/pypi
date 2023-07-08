@@ -15,7 +15,7 @@ DESCRIPTION="Web app for browsing, reading and downloading eBooks stored in a Ca
 
 HOMEPAGE="https://github.com/janeczku/calibre-web"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

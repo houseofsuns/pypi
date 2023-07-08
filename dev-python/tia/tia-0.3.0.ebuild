@@ -15,7 +15,7 @@ DESCRIPTION="Toolkit for integration and analysis"
 
 HOMEPAGE="https://github.com/bpsmith/tia"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

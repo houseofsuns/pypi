@@ -15,7 +15,7 @@ DESCRIPTION="A module containing helpers and shared code related to identity sys
 
 HOMEPAGE="https://gitlab.developers.cam.ac.uk/uis/devops/iam/identity-lib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

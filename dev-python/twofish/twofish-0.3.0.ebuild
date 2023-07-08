@@ -15,7 +15,7 @@ DESCRIPTION="Bindings for the Twofish implementation by Niels Ferguson"
 
 HOMEPAGE="http://github.com/keybase/python-twofish"
 LICENSE="3-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

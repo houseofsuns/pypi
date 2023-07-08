@@ -15,7 +15,7 @@ DESCRIPTION="Core types for peaqev car charging"
 
 HOMEPAGE="https://github.com/elden1337/peaqev-core"
 LICENSE="CC-NC-ND"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Asyncio plugins, components, dependency injection and configs"
 
 HOMEPAGE="https://gitlab.com/diefans/buvar"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

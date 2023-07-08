@@ -15,7 +15,7 @@ DESCRIPTION="A script to find and react to ALIVE commands in comments"
 
 HOMEPAGE="https://github.com/flaxz/alivebot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

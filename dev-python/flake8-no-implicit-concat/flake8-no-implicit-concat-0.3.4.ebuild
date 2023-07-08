@@ -15,7 +15,7 @@ DESCRIPTION="Flake8 plugin that forbids implicit str/bytes literal concatenation
 
 HOMEPAGE="https://github.com/10sr/flake8-no-implicit-concat"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

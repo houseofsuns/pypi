@@ -15,7 +15,7 @@ DESCRIPTION="FlagAI aims to help researchers and developers to freely train and 
 
 HOMEPAGE="https://github.com/FlagAI-Open/FlagAI"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

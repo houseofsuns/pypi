@@ -15,7 +15,7 @@ DESCRIPTION="Easy forms and surveys for discord.py."
 
 HOMEPAGE="https://github.com/terabyte3/discord-ext-forms"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

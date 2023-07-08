@@ -15,7 +15,7 @@ DESCRIPTION="Tool for creating optimal lineups for daily fantasy sports"
 
 HOMEPAGE="https://github.com/DimaKudosh/pydfs-lineup-optimizer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

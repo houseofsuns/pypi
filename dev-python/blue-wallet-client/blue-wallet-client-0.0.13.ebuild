@@ -15,7 +15,7 @@ DESCRIPTION="Bitcoin lightning wallet for python. A Python client for the API of
 
 HOMEPAGE="https://github.com/snow884/blue_wallet_client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

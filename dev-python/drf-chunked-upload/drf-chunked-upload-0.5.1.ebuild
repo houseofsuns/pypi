@@ -15,7 +15,7 @@ DESCRIPTION="Upload large files to Django REST Framework in multiple chunks, wit
 
 HOMEPAGE="https://github.com/jkeifer/drf-chunked-upload"
 LICENSE="MIT-Zero"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

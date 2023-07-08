@@ -15,7 +15,7 @@ DESCRIPTION="A Python Package to enable dot-notation on dictionaries"
 
 HOMEPAGE="https://github.com/zincware/dot4dict"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

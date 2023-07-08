@@ -15,7 +15,7 @@ DESCRIPTION="Software managing certificate, dkim and domain updates automagicall
 
 HOMEPAGE="https://www.entroserv.de/offene-software/cryptdomainmgr"
 LICENSE="https://www.fsf.org/licensing/licenses/agpl-3.0.html"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

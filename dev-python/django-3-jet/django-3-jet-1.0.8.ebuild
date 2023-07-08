@@ -15,7 +15,7 @@ DESCRIPTION="Modern template for Django admin interface with improved functional
 
 HOMEPAGE="https://github.com/Barukimang/django-jet/archive/1.0.8-django3.tar.gz"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

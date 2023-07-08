@@ -15,7 +15,7 @@ DESCRIPTION="Write type-safe and elegant CLIs with a clear separation of concern
 
 HOMEPAGE="https://typed-argparse.github.io/typed-argparse/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

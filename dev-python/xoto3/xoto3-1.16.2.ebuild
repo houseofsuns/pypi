@@ -15,7 +15,7 @@ DESCRIPTION="High level utilities for a subset of boto3 operations common for AW
 
 HOMEPAGE="https://github.com/xoeye/xoto3"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

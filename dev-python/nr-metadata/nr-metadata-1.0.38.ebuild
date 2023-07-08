@@ -15,7 +15,7 @@ DESCRIPTION="\"Generated metadata files for the Czech National Repository\""
 
 HOMEPAGE="https://github.com/Narodni-repozitar/ne-metadata"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

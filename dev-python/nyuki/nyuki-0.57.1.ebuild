@@ -15,7 +15,7 @@ DESCRIPTION="Base library to create microservices with MQTT and HTTP REST API."
 
 HOMEPAGE="http://www.enovacom.fr"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

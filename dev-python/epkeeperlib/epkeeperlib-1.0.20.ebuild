@@ -15,7 +15,7 @@ DESCRIPTION="EPKEEPER common utility package"
 
 HOMEPAGE="https://gitee.com/tonychengchen/epkeeper_lib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

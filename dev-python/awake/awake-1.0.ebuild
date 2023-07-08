@@ -15,7 +15,7 @@ DESCRIPTION="Command and library to wake on lan a remote host."
 
 HOMEPAGE="http://github.com/cyraxjoe/awake"
 LICENSE="Copyright C 2012  Joel Juvenal Rivera Rivera rivera@joel.mx"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

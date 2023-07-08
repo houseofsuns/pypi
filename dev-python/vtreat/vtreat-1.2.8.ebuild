@@ -15,7 +15,7 @@ DESCRIPTION="vtreat is a pandas.DataFrame processor/conditioner that prepares re
 
 HOMEPAGE="https://github.com/WinVector/pyvtreat"
 LICENSE="License :: OSI Approved :: BSD 3-clause License"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

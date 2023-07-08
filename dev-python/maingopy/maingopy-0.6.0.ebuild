@@ -15,7 +15,7 @@ DESCRIPTION="A Python package for using MAiNGO - McCormick-based Algorithm for m
 
 HOMEPAGE="http://permalink.avt.rwth-aachen.de/?id=729717"
 LICENSE="EPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Code to express the universal set and set complements in a pythonic
 
 HOMEPAGE="http://gitlab.com/alexjbinnie/infinite-sets"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

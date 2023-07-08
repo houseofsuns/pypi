@@ -15,7 +15,7 @@ DESCRIPTION="Python module for interacting with the GovDelivery API"
 
 HOMEPAGE="https://github.com/cfpb/govdelivery"
 LICENSE="CC0-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

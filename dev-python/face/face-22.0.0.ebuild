@@ -15,7 +15,7 @@ DESCRIPTION="A command-line application framework (and CLI parser). Friendly for
 
 HOMEPAGE="https://github.com/mahmoud/face"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

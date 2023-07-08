@@ -15,7 +15,7 @@ DESCRIPTION="Singer.io tap for extracting CSV files from S3 - PipelineWise compa
 
 HOMEPAGE="https://github.com/transferwise/pipelinewise-tap-s3-csv"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

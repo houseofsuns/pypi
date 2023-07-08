@@ -15,7 +15,7 @@ DESCRIPTION="NHS Digital Spine Core common AWS code"
 
 HOMEPAGE="https://github.com/NHSDigital/spine-core-aws-common"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A library to restore capitalization for text"
 
 HOMEPAGE="https://github.com/daltonfury42/truecase"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

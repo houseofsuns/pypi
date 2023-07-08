@@ -15,7 +15,7 @@ DESCRIPTION="Lazily loading mixed sequences using Keras Sequence, focused on mul
 
 HOMEPAGE="https://github.com/LucaCappelletti94/keras_mixed_sequence"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

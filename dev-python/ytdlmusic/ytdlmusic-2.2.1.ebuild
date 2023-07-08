@@ -15,7 +15,7 @@ DESCRIPTION="ytdlmusic is a command-line program to search and download music fi
 
 HOMEPAGE="https://github.com/thib1984/ytdlmusic"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

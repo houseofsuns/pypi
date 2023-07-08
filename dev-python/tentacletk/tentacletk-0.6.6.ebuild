@@ -15,7 +15,7 @@ DESCRIPTION="Tentacle is a marking menu style UI and toolkit derived from a QSta
 
 HOMEPAGE="https://github.com/m3trik/tentacle"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

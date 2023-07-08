@@ -15,7 +15,7 @@ DESCRIPTION="A simple blog based on org-mode"
 
 HOMEPAGE="https://github.com/LeslieZhu/OrgNote"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.14-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.14-x86_64.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.macosx-10.14-x86_64.tar.gz"
 RESTRICT="test"
 

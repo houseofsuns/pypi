@@ -15,7 +15,7 @@ DESCRIPTION="Automatically remove torrents according to your strategies."
 
 HOMEPAGE="https://github.com/jerrymakesjelly/autoremove-torrents"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

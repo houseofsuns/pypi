@@ -15,7 +15,7 @@ DESCRIPTION="Collection of routines for creation and manipulation of Kirchhoff c
 
 HOMEPAGE="https://github.com/felixk1990/kirchhoff-circuit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

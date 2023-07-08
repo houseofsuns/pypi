@@ -15,7 +15,7 @@ DESCRIPTION="Converts a Python dictionary or other native data type into a valid
 
 HOMEPAGE="https://github.com/Ousret/dicttoxml"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

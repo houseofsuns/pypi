@@ -15,7 +15,7 @@ DESCRIPTION="Python Based Delta-Sigma modulator design tools"
 
 HOMEPAGE="https://github.com/sergiocallegari/PyDSM"
 LICENSE="GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

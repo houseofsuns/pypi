@@ -15,7 +15,7 @@ DESCRIPTION="A client for Devo's ML model manager"
 
 HOMEPAGE="https://github.com/DevoInc/python-mlmodelmanager-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

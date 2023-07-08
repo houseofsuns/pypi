@@ -15,7 +15,7 @@ DESCRIPTION="Python module to interface with ethtool"
 
 HOMEPAGE="https://github.com/fedora-python/python-ethtool"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

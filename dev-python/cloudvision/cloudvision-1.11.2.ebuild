@@ -15,7 +15,7 @@ DESCRIPTION="A Python library for Arista's CloudVision APIs."
 
 HOMEPAGE="https://github.com/aristanetworks/cloudvision-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A module for getting the CPU utilization on any OS with Python 2 & 
 
 HOMEPAGE="https://github.com/workhorsy/py-cpuutilization"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

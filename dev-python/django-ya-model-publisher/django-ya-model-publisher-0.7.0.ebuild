@@ -15,7 +15,7 @@ DESCRIPTION="Publisher workflow for django models and Django CMS pages."
 
 HOMEPAGE="https://github.com/wearehoods/django-ya-model-publisher"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

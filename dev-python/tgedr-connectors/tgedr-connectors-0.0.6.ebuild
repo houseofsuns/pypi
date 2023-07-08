@@ -15,7 +15,7 @@ DESCRIPTION="This package provides a set of wrappers to specific connectors, be 
 
 HOMEPAGE="https://github.com/tgedr/connectors"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

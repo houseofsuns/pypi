@@ -15,7 +15,7 @@ DESCRIPTION="A simple python package for controlling an aries agent through the 
 
 HOMEPAGE="https://github.com/didx-xyz/aries-cloudcontroller-python/tree/main/aries_cloudcontroller"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

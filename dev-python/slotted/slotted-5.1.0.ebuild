@@ -15,7 +15,7 @@ DESCRIPTION="Enforces usage of '__slots__' for python classes."
 
 HOMEPAGE="https://github.com/brunonicko/slotted"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

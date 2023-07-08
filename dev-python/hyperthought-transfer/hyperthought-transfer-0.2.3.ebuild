@@ -15,7 +15,7 @@ DESCRIPTION="Package used to upload files to and download files from the HyperTh
 
 HOMEPAGE="https://github.com/pyscaffold/pyscaffold/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

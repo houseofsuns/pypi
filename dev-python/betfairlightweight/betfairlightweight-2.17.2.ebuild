@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight python wrapper for Betfair API-NG"
 
 HOMEPAGE="https://github.com/betcode-org/betfair"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Opinionated Python bindings for the libyang library"
 
 HOMEPAGE="https://github.com/Telecominfraproject/oopt-gnpy-libyang"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

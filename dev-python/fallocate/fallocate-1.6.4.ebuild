@@ -15,7 +15,7 @@ DESCRIPTION="Module to expose posix_fallocate(3), posix_fadvise(3) and fallocate
 
 HOMEPAGE="https://github.com/trbs/fallocate"
 LICENSE="PYTHON"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

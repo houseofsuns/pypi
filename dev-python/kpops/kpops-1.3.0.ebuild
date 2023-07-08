@@ -15,7 +15,7 @@ DESCRIPTION="KPOps is a tool to deploy Kafka pipelines to Kubernetes"
 
 HOMEPAGE="https://github.com/bakdata/kpops"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

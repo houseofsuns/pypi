@@ -15,7 +15,7 @@ DESCRIPTION="Hotwired/Turbo response helpers for Django"
 
 HOMEPAGE="https://github.com/hotwire-django/django-turbo-response"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Quantum's version of the 2048 game, with multi-instance support,res
 
 HOMEPAGE="https://github.com/quantum5/2048"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/2/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

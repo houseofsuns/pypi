@@ -15,7 +15,7 @@ DESCRIPTION="Makes specified django settings visible in template rendering conte
 
 HOMEPAGE="http://github.com/carbonXT/django-settings-context-processor"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

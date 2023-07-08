@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for LZ👌, a LZO compression/decompression algorit
 
 HOMEPAGE="https://github.com/henriquegemignani/py-lzokay"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

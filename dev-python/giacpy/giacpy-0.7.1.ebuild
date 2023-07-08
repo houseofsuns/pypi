@@ -15,7 +15,7 @@ DESCRIPTION="A Cython frontend to the c++ library giac. (Computer Algebra System
 
 HOMEPAGE="http://www.imj-prg.fr/~frederic.han/xcas/giacpy/"
 LICENSE="GPLv2 or above"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

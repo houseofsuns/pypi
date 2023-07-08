@@ -15,7 +15,7 @@ DESCRIPTION="An API for Results Produced by SkyDriver & the Skymap Scanner"
 
 HOMEPAGE="https://github.com/icecube/skyreader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

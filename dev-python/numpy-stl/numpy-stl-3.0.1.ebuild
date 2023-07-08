@@ -15,7 +15,7 @@ DESCRIPTION="Library to make reading, writing and modifying both binary and asci
 
 HOMEPAGE="https://github.com/WoLpH/numpy-stl/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

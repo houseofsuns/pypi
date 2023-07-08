@@ -15,7 +15,7 @@ DESCRIPTION="psycopg2 - Python-PostgreSQL Database Adapter"
 
 HOMEPAGE="https://psycopg.org/"
 LICENSE="LGPL with exceptions"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

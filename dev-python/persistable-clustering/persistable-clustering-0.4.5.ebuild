@@ -15,7 +15,7 @@ DESCRIPTION="Density-based clustering for exploratory data analysis based on mul
 
 HOMEPAGE="https://github.com/LuisScoccola/persistable"
 LICENSE="3-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

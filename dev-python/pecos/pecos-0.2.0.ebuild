@@ -15,7 +15,7 @@ DESCRIPTION="Python package for performance monitoring of time series data."
 
 HOMEPAGE="https://github.com/sandialabs/pecos"
 LICENSE="Revised BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

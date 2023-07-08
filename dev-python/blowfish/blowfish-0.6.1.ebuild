@@ -15,7 +15,7 @@ DESCRIPTION="Fast, efficient Blowfish cipher implementation in pure Python (3.4+
 
 HOMEPAGE="https://github.com/jashandeep-sohi/python-blowfish"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 

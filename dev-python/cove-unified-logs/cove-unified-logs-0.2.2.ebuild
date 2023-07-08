@@ -15,7 +15,7 @@ DESCRIPTION="A Python logging library for unified logging across AWS Lambda, Dja
 
 HOMEPAGE="https://github.com/Cove-Identity/cove-unified-logs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

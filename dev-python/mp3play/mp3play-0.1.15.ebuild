@@ -15,7 +15,7 @@ DESCRIPTION="A simple interface for playing music from an MP3 file."
 
 HOMEPAGE="http://code.google.com/p/mp3play/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

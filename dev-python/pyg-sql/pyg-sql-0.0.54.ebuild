@@ -15,7 +15,7 @@ DESCRIPTION="pyg-sql implements a fully-featured no-sql document-store within sq
 
 HOMEPAGE="https://github.com/gityoav/pyg-sql"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

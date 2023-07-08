@@ -15,7 +15,7 @@ DESCRIPTION="Simple object-oriented config library, where your settings are obje
 
 HOMEPAGE="https://github.com/SamuLumio/object-settings"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

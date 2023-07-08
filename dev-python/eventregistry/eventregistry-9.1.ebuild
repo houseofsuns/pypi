@@ -15,7 +15,7 @@ DESCRIPTION="A package that can be used to query information in Event Registry (
 
 HOMEPAGE="https://github.com/EventRegistry/event-registry-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

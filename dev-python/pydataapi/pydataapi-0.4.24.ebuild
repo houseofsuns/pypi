@@ -15,7 +15,7 @@ DESCRIPTION="py-data-api is a user-friendly client for AWS Aurora Serverless's D
 
 HOMEPAGE="https://github.com/koxudaxi/py-data-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A python library for interacting with the Apple Push Notification S
 
 HOMEPAGE="http://29.io/"
 LICENSE="unlicense.org"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

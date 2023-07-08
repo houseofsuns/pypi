@@ -15,7 +15,7 @@ DESCRIPTION="A Python library to create DXF R12 drawings."
 
 HOMEPAGE="https://github.com/mozman/dxfwrite.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Base classes for quick-and-easy template tag development"
 
 HOMEPAGE="https://github.com/dldevinc/jinja2-simple-tags"
 LICENSE="BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

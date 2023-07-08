@@ -15,7 +15,7 @@ DESCRIPTION="Client library for interfacing with the BUS Methodology data API"
 
 HOMEPAGE="https://bitbucket.org/busmethodology/python-buslib/overview"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

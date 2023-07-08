@@ -15,7 +15,7 @@ DESCRIPTION="Up-to-date simple useragent faker with real world database"
 
 HOMEPAGE="https://github.com/fake-useragent/fake-useragent"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

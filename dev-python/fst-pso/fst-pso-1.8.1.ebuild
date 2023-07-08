@@ -15,7 +15,7 @@ DESCRIPTION="Fuzzy Self-Tuning PSO global optimization library"
 
 HOMEPAGE="https://github.com/aresio/fst-pso"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

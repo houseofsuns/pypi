@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper for subprocess which provides command pipeline functional
 
 HOMEPAGE="https://docs.red-dove.com/sarge/"
 LICENSE="Copyright C 2008-2021 by Vinay Sajip. All Rights Reserved. See LICENSE for license."
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

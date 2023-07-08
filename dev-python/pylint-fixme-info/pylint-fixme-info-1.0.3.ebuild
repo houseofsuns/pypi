@@ -15,7 +15,7 @@ DESCRIPTION="A pylint checker for reporting fixmes with Info level"
 
 HOMEPAGE="https://github.com/mxmeinhold/pylint-fixme-info"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

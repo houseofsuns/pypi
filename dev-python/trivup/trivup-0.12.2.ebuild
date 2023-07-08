@@ -15,7 +15,7 @@ DESCRIPTION="Trivially Up a cluster of programs, such as a Kafka cluster"
 
 HOMEPAGE="https://github.com/edenhill/trivup"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Django widget for the Tempus Dominus Bootstrap 4 DateTime picker.
 
 HOMEPAGE="https://github.com/FlipperPA/django-tempus-dominus"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

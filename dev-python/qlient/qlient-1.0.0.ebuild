@@ -15,7 +15,7 @@ DESCRIPTION="A fast and modern graphql client designed with simplicity in mind."
 
 HOMEPAGE="https://qlient-org.github.io/python-qlient/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Conjunto de herramientas para crear, entrenar y evaluar modelos."
 
 HOMEPAGE="https://github.com/mbsantiago/axon-conabio"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.13-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.13-x86_64.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.macosx-10.13-x86_64.tar.gz"
 RESTRICT="test"
 

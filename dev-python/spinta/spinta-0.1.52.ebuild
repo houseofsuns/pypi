@@ -15,7 +15,7 @@ DESCRIPTION="A platform for describing, extracting, transforming, loading and se
 
 HOMEPAGE="https://gitlab.com/atviriduomenys/spinta"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

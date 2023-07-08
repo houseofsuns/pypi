@@ -15,7 +15,7 @@ DESCRIPTION="Un petit module pour créer des graphes (non orienté, orienté ou 
 
 HOMEPAGE="https://gitlab.com/sebhoa/pygraph"
 LICENSE="CC BY-NC-SA 4.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

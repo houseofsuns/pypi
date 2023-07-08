@@ -15,7 +15,7 @@ DESCRIPTION="A tool to create flask boilerplate code"
 
 HOMEPAGE="https://github.com/kimbugp/flask_app"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

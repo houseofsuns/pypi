@@ -15,7 +15,7 @@ DESCRIPTION="Command-line interface to interact with Didimo API"
 
 HOMEPAGE="https://github.com/didimoinc/cli"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

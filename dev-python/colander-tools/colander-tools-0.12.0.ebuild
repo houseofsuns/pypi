@@ -15,7 +15,7 @@ DESCRIPTION="Extensions to \`colander\`, particularly useful as part of REST API
 
 HOMEPAGE="https://github.com/platformsh/colander-tools"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

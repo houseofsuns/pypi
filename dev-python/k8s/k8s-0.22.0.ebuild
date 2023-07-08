@@ -15,7 +15,7 @@ DESCRIPTION="Python client library for the Kubernetes API"
 
 HOMEPAGE="https://github.com/fiaas/k8s"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

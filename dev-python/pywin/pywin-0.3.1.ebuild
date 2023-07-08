@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight python 2.5-3.3 launcher and switcher for Windows comman
 
 HOMEPAGE="https://github.com/davidmarble/pywin/"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

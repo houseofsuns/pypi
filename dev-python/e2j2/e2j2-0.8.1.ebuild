@@ -15,7 +15,7 @@ DESCRIPTION="e2j2 is a commandline utility to render text/configuration files fr
 
 HOMEPAGE="https://gitlab.com/solvinity/e2j2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

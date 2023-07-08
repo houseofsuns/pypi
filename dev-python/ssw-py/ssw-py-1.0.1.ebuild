@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for Complete-Striped-Smith-Waterman-Library (SSW) p
 
 HOMEPAGE="https://github.com/libnano/ssw-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="个人工具综合平台，包含常用工具，网络爬虫，知�
 
 HOMEPAGE="https://gitee.com/yangke02/lib4python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

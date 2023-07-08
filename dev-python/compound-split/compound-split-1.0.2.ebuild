@@ -15,7 +15,7 @@ DESCRIPTION="Splits a compound into its body and head. So far German and Dutch a
 
 HOMEPAGE="https://github.com/JoelNiklaus/CompoundSplit"
 LICENSE="GPL-3.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

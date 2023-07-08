@@ -15,7 +15,7 @@ DESCRIPTION="A log handler for the Python logging module, emitting all logs to s
 
 HOMEPAGE="https://gitlab.adimian.com/open-source/redis-log-handler"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Cuppa, an extension package to simplify and extend Scons"
 
 HOMEPAGE="https://github.com/ja11sop/cuppa"
 LICENSE="Boost Software License 1.0 - http://www.boost.org/LICENSE_1_0.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

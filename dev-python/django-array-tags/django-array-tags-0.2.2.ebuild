@@ -15,7 +15,7 @@ DESCRIPTION="Simple Tagging for Django using PG ArrayField"
 
 HOMEPAGE="http://github.com/funkybob/django-array-tags"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Verify JWT issued by Azure Active Directory B2C in Python."
 
 HOMEPAGE="https://github.com/odwyersoftware/azure-ad-verify-token"
 LICENSE="Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

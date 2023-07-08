@@ -15,7 +15,7 @@ DESCRIPTION="Standard conformant utilities for resource paths of file systems an
 
 HOMEPAGE="https://sourceforge.net/projects/pyfilesysobjects/"
 LICENSE="Artistic-License-2.0 + Forced-Fairplay-Constraints"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

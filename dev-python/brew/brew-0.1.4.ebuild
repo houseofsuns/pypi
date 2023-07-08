@@ -15,7 +15,7 @@ DESCRIPTION="BREW: Python Multiple Classifier System API"
 
 HOMEPAGE="https://github.com/viisar/brew"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

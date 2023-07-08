@@ -15,7 +15,7 @@ DESCRIPTION="A tool to extract QQ chat history."
 
 HOMEPAGE="https://github.com/kifuan/qq-chat-history"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

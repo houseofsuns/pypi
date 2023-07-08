@@ -15,7 +15,7 @@ DESCRIPTION="A simple-to-use and -install issue-tracking system with command-lin
 
 HOMEPAGE="https://www.roundup-tracker.org"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

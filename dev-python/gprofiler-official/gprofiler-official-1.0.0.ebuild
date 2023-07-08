@@ -15,7 +15,7 @@ DESCRIPTION="Functional enrichment analysis and more via the g:Profiler toolkit"
 
 HOMEPAGE="https://biit.cs.ut.ee/gprofiler/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

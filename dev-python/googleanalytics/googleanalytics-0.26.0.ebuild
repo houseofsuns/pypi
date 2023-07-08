@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper for the Google Analytics API."
 
 HOMEPAGE="https://github.com/debrouwere/google-analytics/"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

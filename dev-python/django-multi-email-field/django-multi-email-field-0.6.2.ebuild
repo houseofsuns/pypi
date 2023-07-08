@@ -15,7 +15,7 @@ DESCRIPTION="Provides a model field and a form field to manage list of e-mails"
 
 HOMEPAGE="https://github.com/fle/django-multi-email-field"
 LICENSE="LGPL, see LICENSE file."
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

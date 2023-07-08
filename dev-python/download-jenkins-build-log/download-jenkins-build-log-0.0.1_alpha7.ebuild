@@ -15,7 +15,7 @@ DESCRIPTION="Command-line utility for downloading Jenkins job console logs"
 
 HOMEPAGE="https://github.com/bertold/download-jenkins-build-log"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

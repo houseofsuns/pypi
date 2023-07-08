@@ -15,7 +15,7 @@ DESCRIPTION="A simple to use command handler for Hikari"
 
 HOMEPAGE="https://github.com/tandemdude/hikari-lightbulb"
 LICENSE="LGPL-3.0-ONLY"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

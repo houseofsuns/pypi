@@ -15,7 +15,7 @@ DESCRIPTION="Implementation JSON-RPC 2.0 server and client using aiohttp on top 
 
 HOMEPAGE="https://github.com/pengutronix/aiohttp-json-rpc/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

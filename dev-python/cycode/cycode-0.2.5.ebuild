@@ -15,7 +15,7 @@ DESCRIPTION="Perform secrets/iac scans for your sources using Cycode's engine"
 
 HOMEPAGE="https://github.com/cycodehq-public/cycode-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

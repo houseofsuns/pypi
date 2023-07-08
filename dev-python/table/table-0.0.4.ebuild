@@ -15,7 +15,7 @@ DESCRIPTION="Two-dimensional tables backed by Numpy with named rows and columns.
 
 HOMEPAGE="http://github.com/eseraygun/python-table"
 LICENSE="BSD 2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

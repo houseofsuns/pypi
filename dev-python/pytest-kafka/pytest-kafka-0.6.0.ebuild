@@ -15,7 +15,7 @@ DESCRIPTION="Zookeeper, Kafka server, and Kafka consumer fixtures for Pytest"
 
 HOMEPAGE="https://gitlab.com/karolinepauls/pytest-kafka"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

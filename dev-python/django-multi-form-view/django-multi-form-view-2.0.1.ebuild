@@ -15,7 +15,7 @@ DESCRIPTION="Class based views for handling more than one form in a single view"
 
 HOMEPAGE="https://github.com/TimBest/django-multi-form-view"
 LICENSE="GNU licence, see LICENCE"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

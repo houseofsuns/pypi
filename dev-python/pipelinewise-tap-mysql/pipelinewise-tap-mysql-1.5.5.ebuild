@@ -15,7 +15,7 @@ DESCRIPTION="Singer.io tap for extracting data from MySQL & MariaDB - PipelineWi
 
 HOMEPAGE="https://github.com/transferwise/pipelinewise-tap-mysql"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

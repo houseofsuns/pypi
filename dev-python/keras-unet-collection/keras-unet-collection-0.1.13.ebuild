@@ -15,7 +15,7 @@ DESCRIPTION="The Tensorflow, Keras implementation of U-net, V-net, U-net++, UNET
 
 HOMEPAGE="https://github.com/yingkaisha/keras-unet-collection"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

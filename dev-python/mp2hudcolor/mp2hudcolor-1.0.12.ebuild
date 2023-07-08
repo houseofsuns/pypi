@@ -15,7 +15,7 @@ DESCRIPTION="Modifies an existing NTWK file for Metroid Prime 2: Echoes and chan
 
 HOMEPAGE="https://github.com/toasterparty/mp2hudcolor"
 LICENSE="License :: OSI Approved :: MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

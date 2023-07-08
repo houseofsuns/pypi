@@ -15,7 +15,7 @@ DESCRIPTION="This package provides cross-platform cross-python shutil.which func
 
 HOMEPAGE="https://github.com/pydanny/whichcraft"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

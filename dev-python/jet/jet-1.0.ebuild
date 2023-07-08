@@ -15,7 +15,7 @@ DESCRIPTION="A simple to use, yet powerful version control system"
 
 HOMEPAGE="https://github.com/entangly/jet/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

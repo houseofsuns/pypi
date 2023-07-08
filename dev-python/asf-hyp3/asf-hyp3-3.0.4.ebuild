@@ -15,7 +15,7 @@ DESCRIPTION="Api for ASF's hyp3 system"
 
 HOMEPAGE="https://github.com/asfadmin/hyp3-api"
 LICENSE="License :: OSI Approved :: GNU General Public License v2 or later GPLv2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

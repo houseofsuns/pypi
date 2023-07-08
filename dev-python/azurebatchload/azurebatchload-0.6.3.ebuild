@@ -15,7 +15,7 @@ DESCRIPTION="Download and upload files in batches from Azure Blob Storage Contai
 
 HOMEPAGE="https://github.com/zypp-io/azure-batch-load"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

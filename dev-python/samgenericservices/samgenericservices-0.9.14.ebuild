@@ -15,7 +15,7 @@ DESCRIPTION="Classes and functions to use for development of intregration softwa
 
 HOMEPAGE="https://t.me/samthesuperhero"
 LICENSE="Creative Commons Attribution 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

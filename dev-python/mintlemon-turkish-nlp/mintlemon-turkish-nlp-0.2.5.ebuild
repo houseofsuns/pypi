@@ -15,7 +15,7 @@ DESCRIPTION="Mint & Lemon Turkish NLP Library developed by Mint & Lemon Developm
 
 HOMEPAGE="https://github.com/Teknofest-Nane-Limon/mintlemon-turkish-nlp"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

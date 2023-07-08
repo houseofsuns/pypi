@@ -15,7 +15,7 @@ DESCRIPTION="Define signatures to create beautiful APIs"
 
 HOMEPAGE="https://github.com/piccolbo/autosig"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Wagtail add-on for managing tags."
 
 HOMEPAGE="https://github.com/jberghoef/wagtail-tag-manager"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

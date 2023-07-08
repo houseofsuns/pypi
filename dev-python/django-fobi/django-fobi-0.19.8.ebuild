@@ -15,7 +15,7 @@ DESCRIPTION="Form generator/builder application for Django done right: customisa
 
 HOMEPAGE="https://github.com/barseghyanartur/django-fobi/"
 LICENSE="GPL-2.0-only OR LGPL-2.1-or-later"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

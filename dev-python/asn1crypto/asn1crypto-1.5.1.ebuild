@@ -15,7 +15,7 @@ DESCRIPTION="Fast ASN.1 parser and serializer with definitions for private keys,
 
 HOMEPAGE="https://github.com/wbond/asn1crypto"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Task scopes for AnyIO"
 
 HOMEPAGE="http://github.com/M-o-a-T/asyncscope"
 LICENSE="GPLv3 or later"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

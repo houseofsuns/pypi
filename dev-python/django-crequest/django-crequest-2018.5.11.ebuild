@@ -15,7 +15,7 @@ DESCRIPTION="Middleware that makes the current request available from anywhere."
 
 HOMEPAGE="https://github.com/Alir3z4/django-crequest"
 LICENSE="Copyright c 2012-2018 Alireza Savand"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

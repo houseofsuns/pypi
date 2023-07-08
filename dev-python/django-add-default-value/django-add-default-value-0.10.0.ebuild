@@ -15,7 +15,7 @@ DESCRIPTION="This django Migration Operation can be used to transfer a fields de
 
 HOMEPAGE="https://github.com/3YOURMIND/django-add-default-value"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

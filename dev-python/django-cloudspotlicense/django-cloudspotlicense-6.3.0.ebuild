@@ -15,7 +15,7 @@ DESCRIPTION="Django package to integrate the authentication of the Cloudspot Lic
 
 HOMEPAGE="https://github.com/Ecosy-EU/django-cloudspotlicense"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An abstract layer of the functionalities provided by apimatic-core-
 
 HOMEPAGE="https://github.com/apimatic/core-interfaces-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

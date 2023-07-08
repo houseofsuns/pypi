@@ -15,7 +15,7 @@ DESCRIPTION="This library provides custom logging for python including error han
 
 HOMEPAGE="https://github.com/ondewo/ondewo-logging-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

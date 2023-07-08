@@ -15,7 +15,7 @@ DESCRIPTION="A remote control client for Ubiquiti's UVC NVR"
 
 HOMEPAGE="http://github.org/kk7ds/uvcclient"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

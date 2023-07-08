@@ -15,7 +15,7 @@ DESCRIPTION="USA zipcode programmable database, includes 2020 census data and ge
 
 HOMEPAGE="https://github.com/MacHu-GWU/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

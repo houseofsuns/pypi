@@ -15,7 +15,7 @@ DESCRIPTION="A python query language, similar to xpath and jsonpath, for extract
 
 HOMEPAGE="https://github.com/monkeydevtools/treepath-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

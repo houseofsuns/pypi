@@ -15,7 +15,7 @@ DESCRIPTION="Tools for image forming optical design and analysis"
 
 HOMEPAGE="https://github.com/mjhoptics/ray-optics"
 LICENSE="BSD 3 Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

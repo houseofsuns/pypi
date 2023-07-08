@@ -15,7 +15,7 @@ DESCRIPTION="A Python client and wrapper around the 1Password CLI."
 
 HOMEPAGE="https://github.com/wandera/1password-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/1/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

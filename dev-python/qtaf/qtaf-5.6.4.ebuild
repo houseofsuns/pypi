@@ -15,7 +15,7 @@ DESCRIPTION="Basic test automation framework for QTA"
 
 HOMEPAGE="https://github.com/Tencent/QTAF"
 LICENSE="Copyrightc2010-2018 Tencent All Rights Reserved."
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Simple file hash digests and file integrity checks"
 
 HOMEPAGE="https://github.com/chrissimpkins/hsh"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Falcon-Caching - a caching module for the Falcon web framework"
 
 HOMEPAGE="https://github.com/zoltan-fedor/falcon-caching"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

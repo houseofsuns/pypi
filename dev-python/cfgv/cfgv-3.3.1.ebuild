@@ -15,7 +15,7 @@ DESCRIPTION="Validate configuration and produce human readable error messages."
 
 HOMEPAGE="https://github.com/asottile/cfgv"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

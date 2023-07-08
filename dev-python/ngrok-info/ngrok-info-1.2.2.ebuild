@@ -15,7 +15,7 @@ DESCRIPTION="Easy and fast tool written in python 3 to get info about running ng
 
 HOMEPAGE="https://github.com/HexagonCore/get-ngrok-tunnel-info"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Create sequential synthetic data of mixed types using a GAN."
 
 HOMEPAGE="https://github.com/sdv-dev/DeepEcho"
 LICENSE="BSL-1.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="suger is a sugar. use python in @decorator/@Annotation like other l
 
 HOMEPAGE="https://github.com/SolarisNeko/python-suger"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A small python module for populating json template files."
 
 HOMEPAGE="https://gitlab.com/Jon.Keatley.Folio/json-templates"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A python interface to UNIDATA's UDUNITS-2 package with CF extension
 
 HOMEPAGE="https://bitbucket.org/cfpython/cfunits-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

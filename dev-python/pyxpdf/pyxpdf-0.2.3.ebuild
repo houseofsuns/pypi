@@ -15,7 +15,7 @@ DESCRIPTION="Powerful and Pythonic PDF processing library based on xpdf-4.02"
 
 HOMEPAGE="https://github.com/ashutoshvarma/pyxpdf"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

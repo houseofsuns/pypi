@@ -15,7 +15,7 @@ DESCRIPTION="Disable httpx requests during a test run"
 
 HOMEPAGE="https://github.com/SlavaSkvortsov/pytest-httpx-blockage"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Generate synthetic data for single table, multi table and sequentia
 
 HOMEPAGE="https://github.com/sdv-dev/SDV"
 LICENSE="BSL-1.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

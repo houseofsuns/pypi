@@ -15,7 +15,7 @@ DESCRIPTION="Front-end for the ServiceX Data Server"
 
 HOMEPAGE="https://github.com/ssl-hep/ServiceX_frontend"
 LICENSE="TBD"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

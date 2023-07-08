@@ -15,7 +15,7 @@ DESCRIPTION="Manage and search browser histories across multiple browsers and br
 
 HOMEPAGE="https://github.com/kchawla-pi/united-states-of-browsers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

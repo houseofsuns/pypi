@@ -15,7 +15,7 @@ DESCRIPTION="jinja2 extensions that add django tags"
 
 HOMEPAGE="https://github.com/MoritzS/jinja2-django-tags"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of the Amos optimizer from the JEstimator lib."
 
 HOMEPAGE="https://github.com/google-research/jestimator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

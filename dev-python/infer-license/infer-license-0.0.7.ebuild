@@ -15,7 +15,7 @@ DESCRIPTION="A script to guess licenses based on text"
 
 HOMEPAGE="https://github.com/python-packaging/infer-license/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Authentication support for CyVerse Django applications."
 
 HOMEPAGE="https://github.com/CyVerse/django-cyverse-auth"
 LICENSE="BSD License, 3 clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

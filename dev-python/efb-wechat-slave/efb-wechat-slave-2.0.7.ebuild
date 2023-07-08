@@ -15,7 +15,7 @@ DESCRIPTION="WeChat Slave Channel for EH Forwarder Bot, based on WeChat Web API.
 
 HOMEPAGE="https://ews.1a23.studio"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION=" This package's purpose is to provide a simple and convenient way o
 
 HOMEPAGE="https://hydrosphere.io/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

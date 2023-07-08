@@ -15,7 +15,7 @@ DESCRIPTION="Tooling to build, manage and deploy CFEngine policy"
 
 HOMEPAGE="https://github.com/cfengine/cfbs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

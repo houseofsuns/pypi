@@ -15,7 +15,7 @@ DESCRIPTION="Use the latest type annotation features in older versions of Python
 
 HOMEPAGE="https://github.com/brunonicko/tippo"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

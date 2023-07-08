@@ -15,7 +15,7 @@ DESCRIPTION="A set of template tags (and mixins!) to assist in building CSP-enab
 
 HOMEPAGE="https://github.com/dmptrluke/django-csp-helpers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

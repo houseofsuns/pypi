@@ -15,7 +15,7 @@ DESCRIPTION="HTML Entities for Python"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.15-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.15-x86_64.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.macosx-10.15-x86_64.tar.gz"
 RESTRICT="test"
 

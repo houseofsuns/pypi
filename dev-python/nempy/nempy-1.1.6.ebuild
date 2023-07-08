@@ -15,7 +15,7 @@ DESCRIPTION="A flexible tool kit for modelling Australia's National Electricity 
 
 HOMEPAGE="https://github.com/UNSW-CEEM/nempy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

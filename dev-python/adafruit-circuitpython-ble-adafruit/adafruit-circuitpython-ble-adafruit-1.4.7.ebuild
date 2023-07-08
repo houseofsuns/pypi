@@ -15,7 +15,7 @@ DESCRIPTION="Access to sensors and hardware on or connected to BLE-capable board
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_BLE_Adafruit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

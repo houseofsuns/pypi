@@ -15,7 +15,7 @@ DESCRIPTION="A library for unevenly-spaced time series analysis."
 
 HOMEPAGE="https://github.com/datascopeanalytics/traces"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.15-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.15-x86_64.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.macosx-10.15-x86_64.tar.gz"
 RESTRICT="test"
 

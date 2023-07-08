@@ -15,7 +15,7 @@ DESCRIPTION="Ultra fast memcache client written in highly optimized C++ with Pyt
 
 HOMEPAGE="http://www.esn.me"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

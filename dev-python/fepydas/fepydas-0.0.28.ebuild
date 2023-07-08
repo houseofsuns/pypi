@@ -15,7 +15,7 @@ DESCRIPTION="felix' python data analysis suite"
 
 HOMEPAGE="https://git.tu-berlin.de/nippert/fepydas"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

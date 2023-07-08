@@ -15,7 +15,7 @@ DESCRIPTION="Kerberos authentication for Django"
 
 HOMEPAGE="http://dev.entrouvert.org/projects/authentic/"
 LICENSE="AGPLv3 or later"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

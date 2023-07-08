@@ -15,7 +15,7 @@ DESCRIPTION="A CLI for autogenerate folder structure and boilerplate for Flask a
 
 HOMEPAGE="https://github.com/ericsouza/flask-sketch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

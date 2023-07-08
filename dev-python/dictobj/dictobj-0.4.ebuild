@@ -15,7 +15,7 @@ DESCRIPTION="A set of Python dictionary objects where keys can be accessed as in
 
 HOMEPAGE="https://github.com/grimwm/py-dictobj"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

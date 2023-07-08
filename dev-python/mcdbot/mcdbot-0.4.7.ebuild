@@ -15,7 +15,7 @@ DESCRIPTION="My PERSONAL project for connecting Discord communities with their M
 
 HOMEPAGE="https://gitlab.com/jsmetana/mcdbot"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

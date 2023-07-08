@@ -15,7 +15,7 @@ DESCRIPTION="Include JavaScript/CSS libraries with readable template tags"
 
 HOMEPAGE="https://edugit.org/AlekSIS/libs/django-any-js"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

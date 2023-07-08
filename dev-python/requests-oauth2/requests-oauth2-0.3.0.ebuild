@@ -15,7 +15,7 @@ DESCRIPTION="OAuth2 support to Python-Requests HTTP library."
 
 HOMEPAGE="http://github.com/maraujop/requests-oauth2"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

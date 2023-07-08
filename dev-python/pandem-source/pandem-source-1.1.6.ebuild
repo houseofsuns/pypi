@@ -15,7 +15,7 @@ DESCRIPTION="Routinely collecting heterogeneous surveillance data into a coheren
 
 HOMEPAGE="https://github.com/pandem2/pandem-source"
 LICENSE="EUPL-1.2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

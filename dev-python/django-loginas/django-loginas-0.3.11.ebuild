@@ -15,7 +15,7 @@ DESCRIPTION="An app to add a \"Log in as user\" button in the Django user admin 
 
 HOMEPAGE="https://github.com/stochastic-technologies/django-loginas/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Python library contains a lot of useful functions and tools"
 
 HOMEPAGE="https://github.com/i2cy/i2cylib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

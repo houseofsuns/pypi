@@ -15,7 +15,7 @@ DESCRIPTION="命令解析yaml文件并替换键值 工具"
 
 HOMEPAGE="https://github.com/yhkl-dev/yamlpars"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

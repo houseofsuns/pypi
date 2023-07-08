@@ -15,7 +15,7 @@ DESCRIPTION="Calendário de dias úteis, dias corridos e dias 360 (30/360)."
 
 HOMEPAGE="https://github.com/mfhorita"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

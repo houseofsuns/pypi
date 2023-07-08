@@ -15,7 +15,7 @@ DESCRIPTION="Python unittest integration for vcr.py"
 
 HOMEPAGE="https://github.com/agriffis/vcrpy-unittest"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

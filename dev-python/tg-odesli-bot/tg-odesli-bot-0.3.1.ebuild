@@ -15,7 +15,7 @@ DESCRIPTION="Telegram Bot to share music with Odesli (former Songlink) service."
 
 HOMEPAGE="https://github.com/9dogs/tg-odesli-bot"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

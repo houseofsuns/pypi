@@ -15,7 +15,7 @@ DESCRIPTION="HyperNetX is a Python library for the creation and study of hypergr
 
 HOMEPAGE="https://github.com/pnnl/HyperNetX"
 LICENSE="3-Clause BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

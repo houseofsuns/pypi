@@ -15,7 +15,7 @@ DESCRIPTION="dict object with support for addressing keys in dot notation."
 
 HOMEPAGE="https://github.com/josh-paul/dotted_dict"
 LICENSE="Apache v2"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

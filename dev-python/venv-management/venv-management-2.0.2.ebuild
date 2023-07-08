@@ -15,7 +15,7 @@ DESCRIPTION="A Python package for programmatic creation of Python virtual enviro
 
 HOMEPAGE="https://github.com/sixty-north/venv-management"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

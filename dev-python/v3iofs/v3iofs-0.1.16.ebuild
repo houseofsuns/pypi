@@ -15,7 +15,7 @@ DESCRIPTION="fsspec driver for v3io"
 
 HOMEPAGE="https://github.com/v3io/v3io-fs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

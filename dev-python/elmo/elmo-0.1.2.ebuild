@@ -15,7 +15,7 @@ DESCRIPTION="API adapter used to control programmatically an Elmo alarm system."
 
 HOMEPAGE="https://github.com/palazzem/elmo-alerting"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ND named tensor utilities"
 
 HOMEPAGE="https://github.com/michael-960/xtensor"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

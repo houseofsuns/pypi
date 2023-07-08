@@ -15,7 +15,7 @@ DESCRIPTION="WSGI logging and event reporting middleware"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 

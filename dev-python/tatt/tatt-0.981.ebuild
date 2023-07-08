@@ -15,7 +15,7 @@ DESCRIPTION="Tatt creates a uniform API for multiple speech-to-text (STT) servic
 
 HOMEPAGE="https://github.com/zevaverbach/tatt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

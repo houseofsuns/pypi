@@ -15,7 +15,7 @@ DESCRIPTION="A python SDK for BunnyCDN"
 
 HOMEPAGE="https://github.com/mathrithms/BunnyCDN-Python-Lib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

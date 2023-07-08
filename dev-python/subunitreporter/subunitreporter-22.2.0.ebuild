@@ -15,7 +15,7 @@ DESCRIPTION="A Twisted Trial reporter which emits Subunit v2 streams."
 
 HOMEPAGE="https://github.com/LeastAuthority/subunitreporter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

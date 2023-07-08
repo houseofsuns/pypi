@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK used to interact with the Fusion Platform(r)"
 
 HOMEPAGE="https://github.com/d-cat-support/fusion-platform-python-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

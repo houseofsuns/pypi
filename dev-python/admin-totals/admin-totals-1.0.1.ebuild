@@ -15,7 +15,7 @@ DESCRIPTION="Django Admin Totals, add totals to your columns in Django admin. "
 
 HOMEPAGE="https://github.com/douwevandermeij/admin-totals"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

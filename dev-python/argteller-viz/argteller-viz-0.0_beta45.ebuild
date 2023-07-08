@@ -15,7 +15,7 @@ DESCRIPTION="Decorator for stylized interactive constructor using DSL parser"
 
 HOMEPAGE="https://github.com/mozjay0619/argteller-viz"
 LICENSE="DSB 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Allows using distutils2-like setup.cfg files for a package's metada
 
 HOMEPAGE="https://github.com/embray/d2to1"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

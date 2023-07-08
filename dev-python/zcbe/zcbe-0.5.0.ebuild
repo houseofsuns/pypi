@@ -15,7 +15,7 @@ DESCRIPTION="The Z Cross Build Environment"
 
 HOMEPAGE="https://github.com/myzhang1029/zcbe"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

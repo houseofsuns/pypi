@@ -15,7 +15,7 @@ DESCRIPTION="Pluggable application for Django that helps you to import/export fi
 
 HOMEPAGE="http://github.com/semente/django-smuggler"
 LICENSE="GNU Lesser General Public License v3 or later LGPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

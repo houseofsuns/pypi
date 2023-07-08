@@ -15,7 +15,7 @@ DESCRIPTION="Add model fields to track creation and modification dates, users an
 
 HOMEPAGE="http://github.com/erikvw/django-audit-fields"
 LICENSE="GPL license, see LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

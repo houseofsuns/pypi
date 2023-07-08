@@ -15,7 +15,7 @@ DESCRIPTION="FileChunkIO represents a chunk of an OS-level file containing bytes
 
 HOMEPAGE="http://bitbucket.org/fabian/filechunkio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

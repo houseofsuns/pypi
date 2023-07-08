@@ -15,7 +15,7 @@ DESCRIPTION="A Python wrapper for 18 image quality indicators."
 
 HOMEPAGE="https://qoe.agh.edu.pl/indicators/"
 LICENSE="EVALUATION LICENSE AGREEMENT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

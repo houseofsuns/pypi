@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of missing features to enjoy functional programming 
 
 HOMEPAGE="https://github.com/kachayev/fn.py"
 LICENSE="Copyright 2013 Alexey Kachayev"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

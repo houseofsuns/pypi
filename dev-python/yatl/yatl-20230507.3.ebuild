@@ -15,7 +15,7 @@ DESCRIPTION="Yet Another Teplate Language (it has been around since 2007)"
 
 HOMEPAGE="https://github.com/web2py/yatl"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

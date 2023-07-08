@@ -15,7 +15,7 @@ DESCRIPTION="Python implementation of MOSART-WM: A water routing and management 
 
 HOMEPAGE="https://github.com/IMMM-SFA/mosartwmpy"
 LICENSE="BSD2-Simplified"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

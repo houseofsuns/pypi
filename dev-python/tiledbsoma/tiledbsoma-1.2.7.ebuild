@@ -15,7 +15,7 @@ DESCRIPTION="Python API for efficient storage and retrieval of single-cell data 
 
 HOMEPAGE="https://github.com/single-cell-data/TileDB-SOMA/tree/main/apis/python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python Cloud SDK wraps Aspose.Cells REST API so you could seamlessl
 
 HOMEPAGE="https://github.com/aspose-cells-cloud/aspose-cells-cloud-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A small and insanely fast ARCFOUR (RC4) cipher implementation of Py
 
 HOMEPAGE="https://github.com/manicmaniac/arc4"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

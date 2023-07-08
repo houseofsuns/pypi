@@ -15,7 +15,7 @@ DESCRIPTION="create & track file metadata"
 
 HOMEPAGE="http://mfiers.github.com/mad2"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

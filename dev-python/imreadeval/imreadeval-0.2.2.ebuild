@@ -15,7 +15,7 @@ DESCRIPTION="An evaluation to python imread functions"
 
 HOMEPAGE="http://github.com/quxiaofeng/imreadeval"
 LICENSE="MIT license, Copyright c 2018 QU Xiaofeng"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

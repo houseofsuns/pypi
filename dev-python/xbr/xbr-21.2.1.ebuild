@@ -15,7 +15,7 @@ DESCRIPTION="XBR smart contracts and ABIs"
 
 HOMEPAGE="https://github.com/crossbario/xbr-protocol"
 LICENSE="Apache 2.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

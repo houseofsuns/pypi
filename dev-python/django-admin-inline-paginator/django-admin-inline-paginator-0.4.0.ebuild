@@ -15,7 +15,7 @@ DESCRIPTION="The \"Django Admin Inline Paginator\" is simple way to paginate you
 
 HOMEPAGE="https://github.com/shinneider/django-admin-inline-paginator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

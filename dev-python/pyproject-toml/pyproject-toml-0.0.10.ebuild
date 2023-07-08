@@ -15,7 +15,7 @@ DESCRIPTION="Project intend to implement PEP 517, 518, 621, 631 and so on."
 
 HOMEPAGE="https://github.com/pyproject-toml/pyproject-toml"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Use OpenStreetMap tiles as basemaps in python / matplotlib"
 
 HOMEPAGE="https://github.com/MatthewDaws/TileMapBase"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

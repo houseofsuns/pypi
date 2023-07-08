@@ -15,7 +15,7 @@ DESCRIPTION="Make Django use bcrypt for hashing passwords."
 
 HOMEPAGE="http://bitbucket.org/dwaiter/django-bcrypt/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

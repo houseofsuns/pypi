@@ -15,7 +15,7 @@ DESCRIPTION="Download data from Garmin Connect and store it in a SQLite db for a
 
 HOMEPAGE="https://github.com/tcgoetz/GarminDB"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

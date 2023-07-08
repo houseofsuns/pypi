@@ -15,7 +15,7 @@ DESCRIPTION="Flexible Data Integrator"
 
 HOMEPAGE="http://mercury.bao.ac.cn:9006/mh/fdi"
 LICENSE="LGPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

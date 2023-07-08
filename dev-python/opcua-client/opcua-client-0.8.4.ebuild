@@ -15,7 +15,7 @@ DESCRIPTION="OPC-UA Client GUI"
 
 HOMEPAGE="https://github.com/FreeOpcUa/opcua-client-gui"
 LICENSE="GNU General Public License"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

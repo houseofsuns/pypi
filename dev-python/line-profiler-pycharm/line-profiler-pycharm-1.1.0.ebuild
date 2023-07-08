@@ -15,7 +15,7 @@ DESCRIPTION="PyCharm Line Profiler helper package with which one can visualize p
 
 HOMEPAGE="https://gitlab.com/line-profiler-pycharm/line-profiler-pycharm-python/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

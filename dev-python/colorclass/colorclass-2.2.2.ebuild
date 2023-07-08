@@ -15,7 +15,7 @@ DESCRIPTION="Colorful worry-free console applications for Linux, Mac OS X, and W
 
 HOMEPAGE="https://github.com/matthewdeanmartin/colorclass"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

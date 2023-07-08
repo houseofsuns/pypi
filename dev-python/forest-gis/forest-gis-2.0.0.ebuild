@@ -15,7 +15,7 @@ DESCRIPTION="A set of python modules for machine learning and data mining"
 
 HOMEPAGE="https://github.com/PowderL/forest-gis"
 LICENSE="new BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

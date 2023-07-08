@@ -15,7 +15,7 @@ DESCRIPTION="A simple mixin to create Value Objects"
 
 HOMEPAGE="https://github.com/quiqueporta/value-object"
 LICENSE="MIT/X11"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

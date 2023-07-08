@@ -15,7 +15,7 @@ DESCRIPTION="General-purpose finite element solver for structural analysis and o
 
 HOMEPAGE="https://github.com/saullocastro/pyfe3d"
 LICENSE="3-Clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

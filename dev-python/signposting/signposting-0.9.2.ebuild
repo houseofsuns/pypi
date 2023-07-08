@@ -15,7 +15,7 @@ DESCRIPTION="Parse and navigate FAIR Signposting Link headers"
 
 HOMEPAGE="https://github.com/stain/signposting"
 LICENSE="Apache License, version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A command-line interface for moving content between help desk and t
 
 HOMEPAGE="http://github.com/eventbrite/localization_shuttle"
 LICENSE="Apache License v2"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

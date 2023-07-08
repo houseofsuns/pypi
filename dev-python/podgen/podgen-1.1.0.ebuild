@@ -15,7 +15,7 @@ DESCRIPTION="Generating podcasts with Python should be easy!"
 
 HOMEPAGE="http://podgen.readthedocs.io/en/latest/"
 LICENSE="FreeBSD and LGPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

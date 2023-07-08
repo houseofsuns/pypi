@@ -15,7 +15,7 @@ DESCRIPTION="This backtesting is used to backtest algorithmic/quant trading stra
 
 HOMEPAGE="https://gitlab.com/fsbc/theses/quantbacktest"
 LICENSE="BSD two-clause license"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

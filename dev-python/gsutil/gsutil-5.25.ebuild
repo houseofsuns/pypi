@@ -15,7 +15,7 @@ DESCRIPTION="A command line tool for interacting with cloud storage services."
 
 HOMEPAGE="https://cloud.google.com/storage/docs/gsutil"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

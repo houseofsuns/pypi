@@ -15,7 +15,7 @@ DESCRIPTION="Library for manipulating pronunciations using the International Pho
 
 HOMEPAGE="https://github.com/rhasspy/gruut-ipa"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

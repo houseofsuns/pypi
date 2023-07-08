@@ -15,7 +15,7 @@ DESCRIPTION="Terry django base post ,"
 
 HOMEPAGE="https://terrychanorg.jetbrains.space/p/django-expand/repositories/tbase_post_product/files/README.md"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

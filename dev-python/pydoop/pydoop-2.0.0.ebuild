@@ -15,7 +15,7 @@ DESCRIPTION="Pydoop: a Python MapReduce and HDFS API for Hadoop"
 
 HOMEPAGE="http://crs4.github.io/pydoop"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

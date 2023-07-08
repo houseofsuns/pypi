@@ -15,7 +15,7 @@ DESCRIPTION="Python module for Near Field Communication."
 
 HOMEPAGE="https://github.com/nfcpy/nfcpy"
 LICENSE="EUPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

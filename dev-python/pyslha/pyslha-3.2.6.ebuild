@@ -15,7 +15,7 @@ DESCRIPTION="Parsing, manipulating, and visualising SUSY Les Houches Accord data
 
 HOMEPAGE="http://www.insectnation.org/projects/pyslha"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

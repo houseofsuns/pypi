@@ -15,7 +15,7 @@ DESCRIPTION="OpenFE: automated feature generation with expert-level performance"
 
 HOMEPAGE="https://github.com/IIIS-Li-Group/OpenFE/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A collection of things that we re-use in every Django project, such
 
 HOMEPAGE="https://github.com/bitmazk/django-libs"
 LICENSE="The MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

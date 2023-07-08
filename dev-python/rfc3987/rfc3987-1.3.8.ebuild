@@ -15,7 +15,7 @@ DESCRIPTION="Parsing and validation of URIs (RFC 3986) and IRIs (RFC 3987)"
 
 HOMEPAGE="http://pypi.python.org/pypi/rfc3987"
 LICENSE="GNU GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

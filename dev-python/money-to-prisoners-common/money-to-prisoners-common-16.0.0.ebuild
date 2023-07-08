@@ -15,7 +15,7 @@ DESCRIPTION="Django app with common code and assets for Money to Prisoners servi
 
 HOMEPAGE="https://github.com/ministryofjustice/money-to-prisoners-common"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

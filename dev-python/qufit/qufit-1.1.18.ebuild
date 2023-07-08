@@ -15,7 +15,7 @@ DESCRIPTION="本模块包括了超导量子计算实验中常用模型的拟合�
 
 HOMEPAGE="https://pypi.org/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

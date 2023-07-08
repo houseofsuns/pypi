@@ -15,7 +15,7 @@ DESCRIPTION="flake8 checks for 42 Coffee Cups style guide"
 
 HOMEPAGE="https://github.com/akhavr/42cc-pystyle"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/4/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

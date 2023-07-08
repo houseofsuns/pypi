@@ -15,7 +15,7 @@ DESCRIPTION="Reads/writes R RData and Rds files into/from pandas data frames."
 
 HOMEPAGE="https://github.com/ofajardo/pyreadr"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

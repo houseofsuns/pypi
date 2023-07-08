@@ -15,7 +15,7 @@ DESCRIPTION="A terminal-based dating application for UTD students"
 
 HOMEPAGE="https://github.com/CharlesAverill/kuiper"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Draw objects and run programs in the ARENA using Python!"
 
 HOMEPAGE="https://github.com/arenaxr/ARENA-py"
 LICENSE="BSD 3-clause New or Revised License"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

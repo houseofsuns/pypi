@@ -15,7 +15,7 @@ DESCRIPTION="De novo spatial reconstruction of single-cell gene expression."
 
 HOMEPAGE="https://github.com/rajewsky-lab/novosparc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

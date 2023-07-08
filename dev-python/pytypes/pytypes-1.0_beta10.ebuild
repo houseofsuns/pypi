@@ -15,7 +15,7 @@ DESCRIPTION="Typing toolbox for Python 3 _and_ 2."
 
 HOMEPAGE="https://github.com/Stewori/pytypes"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

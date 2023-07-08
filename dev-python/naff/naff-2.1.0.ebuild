@@ -15,7 +15,7 @@ DESCRIPTION="Not another freaking fork"
 
 HOMEPAGE="https://github.com/Discord-Snake-Pit/NAFF"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

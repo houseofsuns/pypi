@@ -15,7 +15,7 @@ DESCRIPTION="MySQL to PostgreSQL replica and migration"
 
 HOMEPAGE="https://github.com/the4thdoctor/pg_chameleon/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

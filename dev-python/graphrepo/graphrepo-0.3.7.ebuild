@@ -15,7 +15,7 @@ DESCRIPTION="A tool that maps a Github repo to Neo4j and Helps Mining the Repo i
 
 HOMEPAGE="https://github.com/NullConvergence/GraphRepo"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

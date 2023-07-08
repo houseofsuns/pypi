@@ -15,7 +15,7 @@ DESCRIPTION="A Discord API Wrapper for Userbots/Selfbots written in Python."
 
 HOMEPAGE="https://github.com/Merubokkusu/Discord-S.C.U.M"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

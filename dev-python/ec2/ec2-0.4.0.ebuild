@@ -15,7 +15,7 @@ DESCRIPTION="Query for AWS EC2 instances, security groups, and VPCs simply"
 
 HOMEPAGE="https://github.com/mattrobenolt/ec2"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

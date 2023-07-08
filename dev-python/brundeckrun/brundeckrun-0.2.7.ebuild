@@ -15,7 +15,7 @@ DESCRIPTION="A Rundeck API Python client"
 
 HOMEPAGE="https://github.com/antillion/brundeckrun"
 LICENSE="http://creativecommons.org/licenses/by-sa/3.0/"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

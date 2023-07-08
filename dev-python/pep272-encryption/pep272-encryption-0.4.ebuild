@@ -15,7 +15,7 @@ DESCRIPTION="Library for easy creation of PEP-272 cipher classes"
 
 HOMEPAGE="https://github.com/Varbin/pep272-encryption/"
 LICENSE="CC0-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

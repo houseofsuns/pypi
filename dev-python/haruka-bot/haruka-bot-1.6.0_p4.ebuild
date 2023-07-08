@@ -15,7 +15,7 @@ DESCRIPTION="Push dynamics and live informations from bilibili to QQ. Based on n
 
 HOMEPAGE="https://github.com/SK-415/HarukaBot"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

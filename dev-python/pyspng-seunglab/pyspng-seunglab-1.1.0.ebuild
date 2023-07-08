@@ -15,7 +15,7 @@ DESCRIPTION="Fast libspng-based PNG decoder. Fork of pyspng."
 
 HOMEPAGE="https://github.com/seung-lab/pyspng-seunglab"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

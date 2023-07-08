@@ -15,7 +15,7 @@ DESCRIPTION="A drop in replacement wrapper for the MetaTrader5 package"
 
 HOMEPAGE="https://github.com/nicholishen/pymt5adapter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

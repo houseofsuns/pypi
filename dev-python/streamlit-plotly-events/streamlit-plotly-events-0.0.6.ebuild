@@ -15,7 +15,7 @@ DESCRIPTION="Plotly chart component for Streamlit that also allows for events to
 
 HOMEPAGE="https://github.com/null-jones/streamlit-plotly-events"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

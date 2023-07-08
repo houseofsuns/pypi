@@ -15,7 +15,7 @@ DESCRIPTION="Diamond's 1988 rotational superposition algorithm (+scale tranforms
 
 HOMEPAGE="https://github.com/jewettaij/superpose3d"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

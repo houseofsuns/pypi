@@ -15,7 +15,7 @@ DESCRIPTION="A CLI tool used to deploy ephemeral environments for testing cloud.
 
 HOMEPAGE="https://www.github.com/RedHatInsights/bonfire"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

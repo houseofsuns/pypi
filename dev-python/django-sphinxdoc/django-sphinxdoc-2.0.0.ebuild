@@ -15,7 +15,7 @@ DESCRIPTION="Easily integrate Sphinx documentation into your website."
 
 HOMEPAGE="https://gitlab.com/sscherfke/django-sphinxdoc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

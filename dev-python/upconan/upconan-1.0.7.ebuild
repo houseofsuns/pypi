@@ -15,7 +15,7 @@ DESCRIPTION="一个更新conanfile的便捷工具"
 
 HOMEPAGE="https://github.com/leytou/upconan"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

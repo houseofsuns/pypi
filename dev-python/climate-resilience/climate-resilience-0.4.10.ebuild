@@ -15,7 +15,7 @@ DESCRIPTION="Download, Preprocessing, and Visualization code for climate resilie
 
 HOMEPAGE="https://github.com/ALTEMIS-DOE/climate-resilience.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

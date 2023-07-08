@@ -15,7 +15,7 @@ DESCRIPTION="CLI library to automate the onboarding process to IBM Watson OpenSc
 
 HOMEPAGE="https://www.ibm.com/cloud/watson-openscale"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

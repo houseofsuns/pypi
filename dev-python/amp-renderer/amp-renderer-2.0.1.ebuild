@@ -15,7 +15,7 @@ DESCRIPTION="Unofficial Python port of server-side rendering from AMP Optimizer"
 
 HOMEPAGE="https://github.com/chasefinch/amp-renderer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Terminal/console pager module in pure Python"
 
 HOMEPAGE="http://bitbucket.org/techtonik/python-pager"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

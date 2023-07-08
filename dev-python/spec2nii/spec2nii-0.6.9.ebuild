@@ -15,7 +15,7 @@ DESCRIPTION="Multi-format in vivo MR spectroscopy conversion to NIFTI"
 
 HOMEPAGE="https://github.com/wtclarke/spec2nii"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

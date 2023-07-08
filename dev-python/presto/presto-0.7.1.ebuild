@@ -15,7 +15,7 @@ DESCRIPTION="A bioinformatics toolkit for processing high-throughput lymphocyte 
 
 HOMEPAGE="http://presto.readthedocs.io"
 LICENSE="GNU Affero General Public License 3 AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

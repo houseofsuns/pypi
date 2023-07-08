@@ -15,7 +15,7 @@ DESCRIPTION="Complete python wrapper for osu! api v2 and v1."
 
 HOMEPAGE="https://github.com/circleguard/ossapi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

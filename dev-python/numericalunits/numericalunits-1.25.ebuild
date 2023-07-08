@@ -15,7 +15,7 @@ DESCRIPTION="A package that lets you define quantities with units, which can the
 
 HOMEPAGE="http://pypi.python.org/pypi/numericalunits"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

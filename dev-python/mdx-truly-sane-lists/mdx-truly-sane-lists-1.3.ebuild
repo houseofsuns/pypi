@@ -15,7 +15,7 @@ DESCRIPTION="Extension for Python-Markdown that makes lists truly sane. Custom i
 
 HOMEPAGE="https://github.com/radude/mdx_truly_sane_lists"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

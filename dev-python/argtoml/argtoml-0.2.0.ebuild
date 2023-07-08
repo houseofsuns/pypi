@@ -15,7 +15,7 @@ DESCRIPTION="Add the keys from a .toml file to your CLI as arguments. Their valu
 
 HOMEPAGE="https://github.com/JJJHolscher/argtoml"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

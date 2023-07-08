@@ -15,7 +15,7 @@ DESCRIPTION="A variant of Binilla for editing binary structures for games built 
 
 HOMEPAGE="https://github.com/Sigmmma/mozzarilla"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

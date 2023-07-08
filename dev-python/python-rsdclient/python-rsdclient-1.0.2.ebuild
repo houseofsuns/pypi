@@ -15,7 +15,7 @@ DESCRIPTION="OpenStack client plugin for Rack Scale Design"
 
 HOMEPAGE="https://git.openstack.org/cgit/openstack/python-rsdclient"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="hgboost is a python package for hyperparameter optimization for xgb
 
 HOMEPAGE="https://erdogant.github.io/hgboost"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

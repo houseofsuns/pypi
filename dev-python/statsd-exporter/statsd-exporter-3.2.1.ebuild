@@ -15,7 +15,7 @@ DESCRIPTION="A fork of pystatsd package with statsd-exporter compatible tag supp
 
 HOMEPAGE="https://github.com/openmotics/statsd-exporter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

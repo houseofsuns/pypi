@@ -15,7 +15,7 @@ DESCRIPTION="A Python wrapper for the Huawei Inverter modbus TCP API"
 
 HOMEPAGE="https://gitlab.com/EmilV2/huawei-solar"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

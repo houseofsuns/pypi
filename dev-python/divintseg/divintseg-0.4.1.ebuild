@@ -15,7 +15,7 @@ DESCRIPTION="Tools for computing diversity, integration and segregation metrics"
 
 HOMEPAGE="https://github.com/vengroff/divintseg"
 LICENSE="HL3-CL-ECO-EXTR-FFD-LAW-MIL-SV"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python interface to ftd2xx.dll from FTDI using ctypesbased on d2xx 
 
 HOMEPAGE="https://github.com/snmishra/ftd2xx"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

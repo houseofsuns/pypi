@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for Timeseer.AI"
 
 HOMEPAGE="https://timeseer.ai/"
 LICENSE="Copyright Timeseer.AI 2023"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

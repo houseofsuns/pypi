@@ -15,7 +15,7 @@ DESCRIPTION="Airphin is a tool for migrating Airflow DAGs to DolphinScheduler Py
 
 HOMEPAGE="https://github.com/WhaleOps/airphin"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

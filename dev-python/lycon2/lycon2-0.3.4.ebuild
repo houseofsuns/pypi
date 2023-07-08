@@ -15,7 +15,7 @@ DESCRIPTION="A minimal and fast image library"
 
 HOMEPAGE="https://github.com/PettingZoo-Team/lycon2"
 LICENSE="MIT + 3-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

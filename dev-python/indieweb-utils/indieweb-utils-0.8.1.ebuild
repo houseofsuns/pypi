@@ -15,7 +15,7 @@ DESCRIPTION="Utilities to aid the implementation of various IndieWeb specificati
 
 HOMEPAGE="https://github.com/capjamesg/indieweb-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Aquarium python package"
 
 HOMEPAGE="https://docs.fatfish.app/dev/python/index.html"
 LICENSE="gpl-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

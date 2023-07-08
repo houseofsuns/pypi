@@ -15,7 +15,7 @@ DESCRIPTION="Unshortens ad-based shorteners and any 301 redirected urls."
 
 HOMEPAGE="https://github.com/jkehler/unshortenit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

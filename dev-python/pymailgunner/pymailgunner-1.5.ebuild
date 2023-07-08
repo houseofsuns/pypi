@@ -15,7 +15,7 @@ DESCRIPTION="A simple mailgun client - pymailgun fork with Python 3 support"
 
 HOMEPAGE="https://github.com/pschmitt/pymailgunner"
 LICENSE="Apache license version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

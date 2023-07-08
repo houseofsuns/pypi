@@ -15,7 +15,7 @@ DESCRIPTION="Assume an AWS IAM role"
 
 HOMEPAGE="https://github.com/muckamuck/iam-role-assumer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

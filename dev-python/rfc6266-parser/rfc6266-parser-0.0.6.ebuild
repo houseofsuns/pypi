@@ -15,7 +15,7 @@ DESCRIPTION="Parse and generate Content-Disposition headers; Fork of rfc6266 wit
 
 HOMEPAGE="https://github.com/SWW13/python-rfc6266-parser"
 LICENSE="GNU LGPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="The Python Error Steamroller"
 
 HOMEPAGE="https://github.com/ajalt/fuckitpy"
 LICENSE="WTFPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

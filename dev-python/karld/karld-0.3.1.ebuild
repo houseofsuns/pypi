@@ -15,7 +15,7 @@ DESCRIPTION="Doing some data things in a memory efficient manner"
 
 HOMEPAGE="https://github.com/johnwlockwood/karl_data"
 LICENSE="                                 Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

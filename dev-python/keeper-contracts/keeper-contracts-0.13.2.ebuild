@@ -15,7 +15,7 @@ DESCRIPTION="🐳 Integration of TCRs, CPM and Ocean Tokens in Solidity"
 
 HOMEPAGE="https://github.com/oceanprotocol/keeper-contracts"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

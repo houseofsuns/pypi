@@ -15,7 +15,7 @@ DESCRIPTION="Google Analytics Reporting API v4 for Python 3"
 
 HOMEPAGE="http://github.com/gaapi4py/gaapi4py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

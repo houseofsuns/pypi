@@ -15,7 +15,7 @@ DESCRIPTION="Watson Machine Learning API Client"
 
 HOMEPAGE="http://wml-api-pyclient.mybluemix.net"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

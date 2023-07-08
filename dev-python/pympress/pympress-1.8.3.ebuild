@@ -15,7 +15,7 @@ DESCRIPTION="A simple and powerful dual-screen PDF reader designed for presentat
 
 HOMEPAGE="https://github.com/Cimbali/pympress/"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

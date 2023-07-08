@@ -15,7 +15,7 @@ DESCRIPTION="Torrent Client Manager is a CLI utility for managing torrent client
 
 HOMEPAGE="https://github.com/ezggeorge/torrent-client-manager"
 LICENSE="BSD 2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

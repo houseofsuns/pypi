@@ -15,7 +15,7 @@ DESCRIPTION="FLOPs calculator with tf.profiler for neural network architecture w
 
 HOMEPAGE="https://github.com/tokusumi/keras-flops"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

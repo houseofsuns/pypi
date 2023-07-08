@@ -15,7 +15,7 @@ DESCRIPTION="Arc proxy utilities for provisioned clusters"
 
 HOMEPAGE="https://msazure.visualstudio.com/CloudNativeCompute/_git/ArcProxyUtilities"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

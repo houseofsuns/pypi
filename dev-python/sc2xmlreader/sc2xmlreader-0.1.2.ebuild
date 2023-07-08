@@ -15,7 +15,7 @@ DESCRIPTION="Reads and interprets XML data from solvis remote device"
 
 HOMEPAGE="https://github.com/Lurchi70/sc2xmlreader_pypi_package"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

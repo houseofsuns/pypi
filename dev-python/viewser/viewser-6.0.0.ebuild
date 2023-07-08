@@ -15,7 +15,7 @@ DESCRIPTION="The Views 3 CLI tool"
 
 HOMEPAGE="https://www.github.com/prio-data/viewser"
 LICENSE="CC-BY-NC"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

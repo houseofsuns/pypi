@@ -15,7 +15,7 @@ DESCRIPTION="DB-API 2.0 interface for Sqlite 3.x, pre-compiled wheels available 
 
 HOMEPAGE="https://github.com/pysqlite3/pysqlite3"
 LICENSE="ZLIB"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

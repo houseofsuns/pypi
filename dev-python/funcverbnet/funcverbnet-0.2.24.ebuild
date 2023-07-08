@@ -15,7 +15,7 @@ DESCRIPTION="Provides a knowledge system constructed from functionality categori
 
 HOMEPAGE="https://github.com/FudanSELab/funcverbnet"
 LICENSE="BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

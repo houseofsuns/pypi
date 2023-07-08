@@ -15,7 +15,7 @@ DESCRIPTION="Simple, super-flexible options. Does magic upon request."
 
 HOMEPAGE="https://bitbucket.org/jeunice/options"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

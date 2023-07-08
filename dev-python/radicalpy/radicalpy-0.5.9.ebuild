@@ -15,7 +15,7 @@ DESCRIPTION="RadicalPy: a toolbox for radical pair spin dynamics"
 
 HOMEPAGE="https://github.com/Spin-Chemistry-Labs/radicalpy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

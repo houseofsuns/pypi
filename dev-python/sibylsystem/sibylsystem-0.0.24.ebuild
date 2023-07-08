@@ -15,7 +15,7 @@ DESCRIPTION="Python Wrapper for the Sibyl System Antispam API for telegram"
 
 HOMEPAGE="https://github.com/MinistryOfWelfare/SibylSystem-Py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

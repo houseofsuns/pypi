@@ -15,7 +15,7 @@ DESCRIPTION="Fast and Efficient Sentence Tokenization"
 
 HOMEPAGE="https://github.com/craigtrim/fast-sentence-tokenize"
 LICENSE="None"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

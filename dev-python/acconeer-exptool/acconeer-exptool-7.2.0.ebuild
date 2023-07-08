@@ -15,7 +15,7 @@ DESCRIPTION="Acconeer Exploration Tool"
 
 HOMEPAGE="https://github.com/acconeer/acconeer-python-exploration"
 LICENSE="BSD 3-Clause Clear License"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

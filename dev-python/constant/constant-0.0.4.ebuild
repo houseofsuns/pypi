@@ -15,7 +15,7 @@ DESCRIPTION="Use IDLE autocomplete feature to manage large amount of constants."
 
 HOMEPAGE="https://github.com/MacHu-GWU/constant-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="AMQP Client Library"
 
 HOMEPAGE="https://github.com/barryp/py-amqplib"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tgz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tgz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tgz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="The official Python SDK for the Deepgram automated speech recogniti
 
 HOMEPAGE="https://github.com/deepgram/deepgram-python-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

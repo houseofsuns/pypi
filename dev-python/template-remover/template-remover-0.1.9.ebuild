@@ -15,7 +15,7 @@ DESCRIPTION="Remove the template markup from html files"
 
 HOMEPAGE="http://github.com/deezer/template-remover"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

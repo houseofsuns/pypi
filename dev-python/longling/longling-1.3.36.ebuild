@@ -15,7 +15,7 @@ DESCRIPTION="This project aims to provide some handy toolkit functions to help c
 
 HOMEPAGE="https://gitlab.com/tswsxk/longling.git"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="MUSE Python Data Analysis Framework is a python framework in view o
 
 HOMEPAGE="https://git-cral.univ-lyon1.fr/MUSE/mpdaf"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

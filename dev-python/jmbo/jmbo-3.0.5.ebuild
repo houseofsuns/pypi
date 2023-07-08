@@ -15,7 +15,7 @@ DESCRIPTION="The Jmbo base product introduces a content type and various tools r
 
 HOMEPAGE="http://www.jmbo.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

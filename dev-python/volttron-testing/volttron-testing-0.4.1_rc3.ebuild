@@ -15,7 +15,7 @@ DESCRIPTION="The volttron-testing library contains classes and utilities for int
 
 HOMEPAGE="https://github.com/eclipse-volttron/volttron-testing"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

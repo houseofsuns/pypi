@@ -15,7 +15,7 @@ DESCRIPTION="Quickly find the affine matrix mapping one image to another using m
 
 HOMEPAGE="https://github.com/jni/affinder"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

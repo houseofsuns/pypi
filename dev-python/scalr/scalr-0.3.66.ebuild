@@ -15,7 +15,7 @@ DESCRIPTION="Scalr-tools is a command-line interface to your Scalr account"
 
 HOMEPAGE="https://scalr.net"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

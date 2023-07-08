@@ -15,7 +15,7 @@ DESCRIPTION="Utility to manage CloudFormation stacks using YAML configuration fi
 
 HOMEPAGE="https://github.com/LeadingEDJE/stackmanager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

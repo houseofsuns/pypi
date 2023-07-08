@@ -15,7 +15,7 @@ DESCRIPTION="A simple and complete package to abstract main operations with Splu
 
 HOMEPAGE="https://github.com/alissonpdc/pysplunk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

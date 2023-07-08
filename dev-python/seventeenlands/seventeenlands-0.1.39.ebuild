@@ -15,7 +15,7 @@ DESCRIPTION="Utility to upload MTG Arena data to 17Lands.com"
 
 HOMEPAGE="https://github.com/rconroy293/mtga-log-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

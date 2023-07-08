@@ -15,7 +15,7 @@ DESCRIPTION="Lantern Flask Tools"
 
 HOMEPAGE="https://gitlab.com/lantern-tech/lantern-flask"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.6-intel.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.6-intel.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.macosx-10.6-intel.tar.gz"
 RESTRICT="test"
 

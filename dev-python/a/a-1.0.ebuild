@@ -15,8 +15,8 @@ DESCRIPTION="Python Distribution Utilities"
 
 HOMEPAGE="http://www.python.org/sigs/distutils-sig/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/p${REALNAME}ck${REALNAME}ges/22/94/2c8${REALNAME}e1f5${REALNAME}1173347404c7d94${REALNAME}7dd822ff059ff6d19f8f${REALNAME}6240ffde1cb956/${REALNAME}-${REALVERSION}.t${REALNAME}r.gz"
-SOURCEFILE="${REALNAME}-${REALVERSION}.t${REALNAME}r.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

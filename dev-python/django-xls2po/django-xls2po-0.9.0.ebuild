@@ -15,7 +15,7 @@ DESCRIPTION="Convert django-po2xls generated .xls files to .po files"
 
 HOMEPAGE="https://github.com/vint21h/django-xls2po/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

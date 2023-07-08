@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper around httpx that abstracts away interacting with the HTM
 
 HOMEPAGE="https://github.com/sw33ze/NSDotPy"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

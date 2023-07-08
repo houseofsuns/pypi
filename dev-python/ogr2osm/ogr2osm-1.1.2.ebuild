@@ -15,7 +15,7 @@ DESCRIPTION="A tool for converting ogr-readable files like shapefiles into .osm 
 
 HOMEPAGE="https://github.com/roelderickx/ogr2osm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

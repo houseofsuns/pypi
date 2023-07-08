@@ -15,7 +15,7 @@ DESCRIPTION="Official Python client library for LinkedIn APIs"
 
 HOMEPAGE="https://github.com/linkedin-developers/linkedin-api-python-client"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

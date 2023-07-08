@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for getting weather data from AccuWeather API."
 
 HOMEPAGE="https://github.com/bieniu/accuweather"
 LICENSE="Apache-2.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

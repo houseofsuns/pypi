@@ -15,7 +15,7 @@ DESCRIPTION="A library for querying the OSS Index free catalogue of open source 
 
 HOMEPAGE="https://github.com/sonatype-nexus-community/ossindex-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

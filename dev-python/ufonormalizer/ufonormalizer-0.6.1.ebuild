@@ -15,7 +15,7 @@ DESCRIPTION="Script to normalize the XML and other data inside of a UFO."
 
 HOMEPAGE="https://github.com/unified-font-object/ufoNormalizer"
 LICENSE="OpenSource, BSD-style"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

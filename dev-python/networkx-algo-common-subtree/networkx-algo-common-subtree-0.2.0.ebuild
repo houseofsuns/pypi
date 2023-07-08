@@ -15,7 +15,7 @@ DESCRIPTION="A networkx implemention of algorithms to find common subtree minors
 
 HOMEPAGE="https://github.com/Erotemic/networkx_algo_common_subtree"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

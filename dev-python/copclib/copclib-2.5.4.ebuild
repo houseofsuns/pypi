@@ -15,7 +15,7 @@ DESCRIPTION="copc-lib provides an easy-to-use interface for reading and creating
 
 HOMEPAGE="https://github.com/RockRobotic/copc-lib"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

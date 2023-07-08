@@ -15,7 +15,7 @@ DESCRIPTION="Automatically assign new users to groups based on their email domai
 
 HOMEPAGE="http://girder.readthedocs.io/en/latest/plugins.html#auto-join"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

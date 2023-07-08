@@ -15,7 +15,7 @@ DESCRIPTION="A django based miniframework, inspired by Sinatra"
 
 HOMEPAGE="https://github.com/amitu/importd"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 

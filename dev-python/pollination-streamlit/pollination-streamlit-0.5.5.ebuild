@@ -15,7 +15,7 @@ DESCRIPTION="A Pollination extension to facilitate working with Pollination in S
 
 HOMEPAGE="https://github.com/pollination/pollination-streamlit"
 LICENSE="Apache-2.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

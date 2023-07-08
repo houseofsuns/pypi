@@ -15,7 +15,7 @@ DESCRIPTION="Tool for setting up a detect-secrets server"
 
 HOMEPAGE="https://github.com/Yelp/detect-secrets-server"
 LICENSE="Copyright Yelp, Inc. 2018"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

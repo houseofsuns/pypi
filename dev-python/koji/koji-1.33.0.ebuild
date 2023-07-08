@@ -15,7 +15,7 @@ DESCRIPTION="Koji is a system for building and tracking RPMS. The base package c
 
 HOMEPAGE="http://pagure.io/koji/"
 LICENSE="LGPLv2 and GPLv2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

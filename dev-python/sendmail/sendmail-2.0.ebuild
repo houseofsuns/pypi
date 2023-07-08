@@ -15,7 +15,7 @@ DESCRIPTION="Send a message by invoking '/usr/sbin/sendmail' program"
 
 HOMEPAGE="http://www.ultimate.com/phil/python/#sendmail"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

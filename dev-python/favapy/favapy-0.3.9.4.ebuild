@@ -15,7 +15,7 @@ DESCRIPTION="Infer Functional Associations using Variational Autoencoders on -Om
 
 HOMEPAGE="https://github.com/mikelkou/VAE_Functional_associations"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

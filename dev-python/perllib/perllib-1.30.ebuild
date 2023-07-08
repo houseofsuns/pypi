@@ -15,7 +15,7 @@ DESCRIPTION="Library functions to support pythonizer"
 
 HOMEPAGE="https://github.com/snoopyjc/pythonizer"
 LICENSE="Artistic License 2.0 - The Perl Foundation"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

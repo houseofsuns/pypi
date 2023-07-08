@@ -15,7 +15,7 @@ DESCRIPTION="Easily create an authorized service-object for interacting with goo
 
 HOMEPAGE="http://github.com/ambitioninc/gclient-service-account-auth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An aws-adfs spinoff that fits BYU's needs"
 
 HOMEPAGE="https://github.com/byu-oit/awslogin"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

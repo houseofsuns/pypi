@@ -15,7 +15,7 @@ DESCRIPTION="Python Client for Connecting to BGPStuff.net"
 
 HOMEPAGE="https://github.com/mellowdrifter/python-bgpstuff.net"
 LICENSE="Apache Software License http://www.apache.org/licenses/LICENSE-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

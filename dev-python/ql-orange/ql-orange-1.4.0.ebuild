@@ -15,7 +15,7 @@ DESCRIPTION="Orange is a fork of Black Python code formatter maintained by Quant
 
 HOMEPAGE="https://gitlab.com/quantlane/meta/orange"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

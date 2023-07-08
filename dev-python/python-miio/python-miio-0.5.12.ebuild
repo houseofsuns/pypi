@@ -15,7 +15,7 @@ DESCRIPTION="Python library for interfacing with Xiaomi smart appliances"
 
 HOMEPAGE="https://github.com/rytilahti/python-miio"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

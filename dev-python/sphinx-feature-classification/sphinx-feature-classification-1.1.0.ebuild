@@ -15,7 +15,7 @@ DESCRIPTION="Generate a matrix of pluggable drivers and their support to an API 
 
 HOMEPAGE="https://docs.openstack.org/sphinx-feature-classification/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

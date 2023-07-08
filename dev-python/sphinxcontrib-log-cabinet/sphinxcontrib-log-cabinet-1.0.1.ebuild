@@ -15,7 +15,7 @@ DESCRIPTION="Organize changelog directives in Sphinx docs."
 
 HOMEPAGE="https://github.com/davidism/sphinxcontrib-log-cabinet"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

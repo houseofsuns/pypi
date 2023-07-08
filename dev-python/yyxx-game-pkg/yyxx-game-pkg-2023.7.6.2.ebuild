@@ -15,7 +15,7 @@ DESCRIPTION="yyxx game custom module"
 
 HOMEPAGE="https://github.com/yyxxgame/yyxxgame-pkg"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

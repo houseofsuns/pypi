@@ -15,7 +15,7 @@ DESCRIPTION="Prometheus Service Discovery for AWS ECS"
 
 HOMEPAGE="https://github.com/trallnag/prometheus-ecs-discoverer"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

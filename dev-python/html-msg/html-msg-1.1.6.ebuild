@@ -15,7 +15,7 @@ DESCRIPTION="This tool allows you to create HTML messages using simple methods, 
 
 HOMEPAGE="https://github.com/Sirakan-B/html_msg/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

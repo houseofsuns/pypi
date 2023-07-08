@@ -15,7 +15,7 @@ DESCRIPTION="ape-ens: Ape plugin for ENS argument conversion and contracts"
 
 HOMEPAGE="https://github.com/ApeWorX/ape-ens"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

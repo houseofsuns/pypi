@@ -15,7 +15,7 @@ DESCRIPTION="A Python wrapper for librtlsdr (a driver for Realtek RTL2832U based
 
 HOMEPAGE="https://github.com/pyrtlsdr/pyrtlsdr"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A library which integrates Sentry logging into Pyramid with the abi
 
 HOMEPAGE="https://github.com/hypothesis/h-pyramid-sentry"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

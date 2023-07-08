@@ -15,7 +15,7 @@ DESCRIPTION="Instagram client built with Python 3.8 and the Selenium package."
 
 HOMEPAGE="https://github.com/davidwickerhf/instaclient"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

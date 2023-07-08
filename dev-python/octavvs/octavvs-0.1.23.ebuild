@@ -15,7 +15,7 @@ DESCRIPTION="Open Chemometrics Toolkit for Analysis and Visualization of Vibrati
 
 HOMEPAGE="https://github.com/ctroein/octavvs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

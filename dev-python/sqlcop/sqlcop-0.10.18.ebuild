@@ -15,7 +15,7 @@ DESCRIPTION="A cli tool to check and guard against anti-patterns"
 
 HOMEPAGE="https://github.com/freshbooks/sqlcop"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

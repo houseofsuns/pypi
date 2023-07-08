@@ -15,7 +15,7 @@ DESCRIPTION="\"Experimaestro is a computer science experiment manager\""
 
 HOMEPAGE="https://github.com/experimaestro/experimaestro-python"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

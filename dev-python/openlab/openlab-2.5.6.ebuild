@@ -15,7 +15,7 @@ DESCRIPTION="A python client for OpenLab Drilling."
 
 HOMEPAGE="https://live.openlab.app"
 LICENSE="NORCE COPYRIGHT: Do not distribute without approval by NORCE"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

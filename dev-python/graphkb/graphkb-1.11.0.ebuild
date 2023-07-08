@@ -15,7 +15,7 @@ DESCRIPTION="python adapter for interacting with the GraphKB API"
 
 HOMEPAGE="https://github.com/bcgsc/pori_graphkb_python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="an AMQP 0.9.1 client library for Python 2.7 & Python >= 3.2.0"
 
 HOMEPAGE="http://github.com/veegee/amqpy"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

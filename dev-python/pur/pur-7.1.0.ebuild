@@ -15,7 +15,7 @@ DESCRIPTION="Update packages in a requirements.txt file to latest versions."
 
 HOMEPAGE="https://github.com/alanhamlett/pip-update-requirements"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

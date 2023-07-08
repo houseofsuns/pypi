@@ -15,7 +15,7 @@ DESCRIPTION="A simple and clear Web Crawler framework build on python3.6+"
 
 HOMEPAGE="https://github.com/strongbugman/ant_nest"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

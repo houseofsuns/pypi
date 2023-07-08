@@ -15,7 +15,7 @@ DESCRIPTION="A django-otp plugin that verifies YubiKey OTP tokens."
 
 HOMEPAGE="https://github.com/django-otp/django-otp-yubikey"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Basic extension to add google analytics tracking code in page heade
 
 HOMEPAGE="https://github.com/GSA/ckanext-googleanalyticsbasic"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

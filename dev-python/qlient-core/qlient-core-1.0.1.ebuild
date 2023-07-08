@@ -15,7 +15,7 @@ DESCRIPTION="The core for a blazingly fast and modern graphql client designed wi
 
 HOMEPAGE="https://qlient-org.github.io/python-qlient-core/site/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

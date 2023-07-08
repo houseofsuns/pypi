@@ -15,7 +15,7 @@ DESCRIPTION="A library implementing a number of Privacy Enhancing Technologies (
 
 HOMEPAGE="https://pypi.python.org/pypi/petlib/"
 LICENSE="2-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

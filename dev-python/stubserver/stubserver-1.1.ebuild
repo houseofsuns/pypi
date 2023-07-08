@@ -15,7 +15,7 @@ DESCRIPTION="A stub webserver used to enable blackbox testing of applications th
 
 HOMEPAGE="http://www.pyruby.com/pythonstubserver"
 LICENSE="FreeBSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

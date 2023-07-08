@@ -15,7 +15,7 @@ DESCRIPTION="NOTED: a framework to optimise network traffic via the analysis of 
 
 HOMEPAGE="https://gitlab.cern.ch/mmisamor/noted"
 LICENSE="GPLv3 GNU General Public License"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

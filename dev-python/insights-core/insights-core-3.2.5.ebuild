@@ -15,7 +15,7 @@ DESCRIPTION="Insights Core is a data collection and analysis framework"
 
 HOMEPAGE="https://github.com/redhatinsights/insights-core"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

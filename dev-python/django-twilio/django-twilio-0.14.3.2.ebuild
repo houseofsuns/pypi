@@ -15,7 +15,7 @@ DESCRIPTION="Build Twilio functionality into your Django apps."
 
 HOMEPAGE="https://github.com/rdegges/django-twilio"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

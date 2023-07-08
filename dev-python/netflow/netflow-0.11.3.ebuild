@@ -15,7 +15,7 @@ DESCRIPTION="NetFlow v1, v5, v9 and IPFIX tool suite implemented in Python 3"
 
 HOMEPAGE="https://github.com/bitkeks/python-netflow-v9-softflowd"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

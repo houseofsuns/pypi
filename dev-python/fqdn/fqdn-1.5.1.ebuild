@@ -15,7 +15,7 @@ DESCRIPTION="Validates fully-qualified domain names against RFC 1123, so that th
 
 HOMEPAGE="https://github.com/ypcrts/fqdn"
 LICENSE="MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

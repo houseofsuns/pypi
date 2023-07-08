@@ -15,7 +15,7 @@ DESCRIPTION="A python interface to WiringPi 2.0 library which allows for easily 
 
 HOMEPAGE="https://github.com/WiringPi/WiringPi-Python/"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

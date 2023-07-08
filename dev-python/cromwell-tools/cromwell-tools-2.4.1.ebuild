@@ -15,7 +15,7 @@ DESCRIPTION="Utilities for interacting with the Cromwell workflow engine"
 
 HOMEPAGE="http://github.com/broadinstitute/cromwell-tools"
 LICENSE="BSD 3-clause New or Revised License"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

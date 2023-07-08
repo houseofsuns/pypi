@@ -15,7 +15,7 @@ DESCRIPTION="A tool allowing you to migrate data from legacy ILS:s (Library syst
 
 HOMEPAGE="https://github.com/FOLIO-FSE/folio_migration_tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

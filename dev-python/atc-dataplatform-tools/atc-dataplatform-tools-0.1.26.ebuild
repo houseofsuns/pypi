@@ -15,7 +15,7 @@ DESCRIPTION="A common set of python libraries for DataBricks, supplement to atc-
 
 HOMEPAGE="https://github.com/atc-net/atc-dataplatform-tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

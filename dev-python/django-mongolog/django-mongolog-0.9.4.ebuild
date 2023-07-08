@@ -15,7 +15,7 @@ DESCRIPTION="A simple mongo based log handler for python/django"
 
 HOMEPAGE="https://github.com/gnulnx/django-mongolog"
 LICENSE="GPL V3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Bacterial segmentation and analysis platform than can inport/export
 
 HOMEPAGE="https://github.com/piedrro/napari-bacseg"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

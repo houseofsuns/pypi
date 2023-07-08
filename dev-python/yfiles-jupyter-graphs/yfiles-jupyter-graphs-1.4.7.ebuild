@@ -15,7 +15,7 @@ DESCRIPTION="A diagram visualization extension for JupyterLab and Jupyter Notebo
 
 HOMEPAGE="https://www.yworks.com/products/yfiles-graphs-for-jupyter"
 LICENSE="https://github.com/yWorks/yfiles-jupyter-graphs/blob/main/LICENSE.md"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An asyncio GraphQL client built on top of aiohttp and graphql-core-
 
 HOMEPAGE="https://github.com/abn/aiographql-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

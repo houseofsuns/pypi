@@ -15,7 +15,7 @@ DESCRIPTION="Fast detection of recombinant reads in BAMs"
 
 HOMEPAGE="https://github.com/ness-lab/readcomb"
 LICENSE="GNU GPLV3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

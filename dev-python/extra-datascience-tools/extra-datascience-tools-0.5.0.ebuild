@@ -15,7 +15,7 @@ DESCRIPTION="Python package which offers additional tools for data scientists."
 
 HOMEPAGE="https://extra-datascience-tools.readthedocs.io/en/latest/index.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

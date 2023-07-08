@@ -15,7 +15,7 @@ DESCRIPTION="AWS Infrastructure in a Box"
 
 HOMEPAGE="https://github.com/mello7tre/AwsIBox"
 LICENSE="OSI Approved :: Open Software License 3.0 OSL-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

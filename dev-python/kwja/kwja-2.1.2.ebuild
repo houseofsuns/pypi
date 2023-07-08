@@ -15,7 +15,7 @@ DESCRIPTION="A unified Japanese analyzer based on foundation models"
 
 HOMEPAGE="https://github.com/ku-nlp/kwja"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="This is check50, with which you can check solutions to problems for
 
 HOMEPAGE="https://github.com/cs50/check50"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

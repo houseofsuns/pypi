@@ -15,7 +15,7 @@ DESCRIPTION="Python package for SRoll installation"
 
 HOMEPAGE="https://gitlab.ifremer.fr/iaocea/srollex.git"
 LICENSE="BSD 2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

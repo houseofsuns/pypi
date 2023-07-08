@@ -15,7 +15,7 @@ DESCRIPTION="Daybreak Game's Planetside 2 data analysis (UNOFFICIAL)"
 
 HOMEPAGE="https://github.com/spascou/ps2-analysis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

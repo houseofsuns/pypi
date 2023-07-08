@@ -15,7 +15,7 @@ DESCRIPTION="Objects and patterns for working with processes in Python using the
 
 HOMEPAGE="https://github.com/borgstrom/offspring"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

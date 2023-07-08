@@ -15,7 +15,7 @@ DESCRIPTION="Dead simple drop-in multi file upload field for django forms using 
 
 HOMEPAGE="https://github.com/Chive/django-multiupload"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

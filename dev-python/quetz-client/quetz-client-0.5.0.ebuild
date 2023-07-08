@@ -15,7 +15,7 @@ DESCRIPTION="A Python client to interact with a Quetz server."
 
 HOMEPAGE="https://github.com/mamba-org/quetz-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

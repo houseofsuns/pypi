@@ -15,7 +15,7 @@ DESCRIPTION="A package for handling numpy arrays with units"
 
 HOMEPAGE="https://github.com/yt-project/unyt"
 LICENSE="BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

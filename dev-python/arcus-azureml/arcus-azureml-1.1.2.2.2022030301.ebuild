@@ -15,7 +15,7 @@ DESCRIPTION="A Python library to improve MLOps methodology on Azure Machine Lear
 
 HOMEPAGE="https://github.com/arcus-azure/arcus.azureml"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

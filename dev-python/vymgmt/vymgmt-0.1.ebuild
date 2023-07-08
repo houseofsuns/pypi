@@ -15,7 +15,7 @@ DESCRIPTION="A library for managing VyOS routers over SSH"
 
 HOMEPAGE="http://github.com/vyos/python-vyos-mgmt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

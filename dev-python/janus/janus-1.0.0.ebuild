@@ -15,7 +15,7 @@ DESCRIPTION="Mixed sync-async queue to interoperate between asyncio tasks and cl
 
 HOMEPAGE="https://github.com/aio-libs/janus"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

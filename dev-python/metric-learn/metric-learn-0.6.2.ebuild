@@ -15,7 +15,7 @@ DESCRIPTION="Python implementations of metric learning algorithms"
 
 HOMEPAGE="http://github.com/scikit-learn-contrib/metric-learn"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

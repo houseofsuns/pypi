@@ -15,7 +15,7 @@ DESCRIPTION="An open-source, cross-platform, lightweight, and fast Python       
 
 HOMEPAGE="https://github.com/jdlph/PATH4GMNS"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

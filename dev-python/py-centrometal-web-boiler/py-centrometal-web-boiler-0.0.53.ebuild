@@ -15,7 +15,7 @@ DESCRIPTION="Python library to interact with Centrometal Boiler System."
 
 HOMEPAGE="https://github.com/9a4gl/py-centrometal-web-boiler"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

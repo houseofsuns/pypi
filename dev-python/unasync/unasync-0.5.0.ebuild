@@ -15,7 +15,7 @@ DESCRIPTION="The async transformation code."
 
 HOMEPAGE="https://github.com/python-trio/unasync"
 LICENSE="MIT -or- Apache License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

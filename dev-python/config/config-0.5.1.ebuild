@@ -15,7 +15,7 @@ DESCRIPTION="A hierarchical, easy-to-use, powerful configuration module for Pyth
 
 HOMEPAGE="http://docs.red-dove.com/cfg/python.html"
 LICENSE="Copyright C 2004-2020 by Vinay Sajip. All Rights Reserved. See LICENSE for license."
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

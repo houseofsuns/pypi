@@ -15,7 +15,7 @@ DESCRIPTION="Tenant support for Django using PostgreSQL schemas."
 
 HOMEPAGE="https://github.com/bcarneiro/django-tenant-schemas"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Polygenic score toolkit"
 
 HOMEPAGE="https://github.com/marpiech/polygenic"
 LICENSE="Intelliseq dual licenses this package. For commercial use, please contact [contact @ intelliseq.com]mailto:contact@intelliseq.com. For non-commercial use, this license permits use of the software only by government agencies, schools, universities, non-profit organizations or individuals on projects that do not receive external funding other than government research grants and contracts. Any other use requires a commercial license. For the full license, please see [LICENSE.md]https://github.com/intelliseq/polygenic/blob/master/LICENSE.md, in this source repository."
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

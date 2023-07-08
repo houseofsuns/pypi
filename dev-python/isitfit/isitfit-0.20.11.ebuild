@@ -15,7 +15,7 @@ DESCRIPTION="Command-line tool to calculate excess AWS cloud resource capacity"
 
 HOMEPAGE="https://gitlab.com/autofitcloud/isitfit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

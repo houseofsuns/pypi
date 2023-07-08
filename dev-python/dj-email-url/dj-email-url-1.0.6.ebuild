@@ -15,7 +15,7 @@ DESCRIPTION="Use an URL to configure email backend settings in your Django Appli
 
 HOMEPAGE="https://github.com/migonzalvar/dj-email-url"
 LICENSE="BSD-2-Clause AND CC-BY-4.0 AND CC0-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

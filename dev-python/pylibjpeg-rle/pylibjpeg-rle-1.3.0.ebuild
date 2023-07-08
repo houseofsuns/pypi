@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for a fast RLE decoder/encoder, with a focus on use
 
 HOMEPAGE="https://github.com/pydicom/pylibjpeg-rle"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Codon Usage Tables for Python, from kazusa.or.jp"
 
 HOMEPAGE="https://github.com/Edinburgh-Genome-Foundry/codon-usage-tables"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

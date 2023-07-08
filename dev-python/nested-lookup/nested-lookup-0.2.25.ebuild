@@ -15,7 +15,7 @@ DESCRIPTION="Python functions for working with deeply nested documents (lists an
 
 HOMEPAGE="https://git.unturf.com/python/nested-lookup"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

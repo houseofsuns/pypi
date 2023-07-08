@@ -15,7 +15,7 @@ DESCRIPTION="PhyloFisher is a software package for the creation, analysis, and v
 
 HOMEPAGE="https://github.com/TheBrownLab/PhyloFisher"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

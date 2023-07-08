@@ -15,7 +15,7 @@ DESCRIPTION="A Python implementation of the JSON5 data format."
 
 HOMEPAGE="https://github.com/dpranke/pyjson5"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="apricot is a package for submodular selection of representative set
 
 HOMEPAGE="http://pypi.python.org/pypi/apricot-select/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

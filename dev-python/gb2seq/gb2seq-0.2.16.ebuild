@@ -15,7 +15,7 @@ DESCRIPTION="Python library and scripts for working with unannotated sequences b
 
 HOMEPAGE="https://github.com/virologycharite/gb2seq"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

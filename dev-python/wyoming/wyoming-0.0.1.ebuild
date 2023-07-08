@@ -15,7 +15,7 @@ DESCRIPTION="Protocol for Rhasspy Voice Assistant"
 
 HOMEPAGE="http://github.com/rhasspy/rhasspy3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A sensible class for dealing with UUIDv1"
 
 HOMEPAGE="http://github.com/samuraisam/time_uuid"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

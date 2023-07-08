@@ -15,7 +15,7 @@ DESCRIPTION="ro.py is a Python wrapper for the Roblox web API."
 
 HOMEPAGE="https://github.com/rbx-libdev/ro.py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python module for creating/importing/merging GDSII files."
 
 HOMEPAGE="https://github.com/heitzmann/gdspy"
 LICENSE="Boost Software License v1.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

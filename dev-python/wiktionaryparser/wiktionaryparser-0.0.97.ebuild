@@ -15,7 +15,7 @@ DESCRIPTION="A tool to parse word data from wiktionary.com into a JSON object"
 
 HOMEPAGE="https://github.com/Suyash458/WiktionaryParser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

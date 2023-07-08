@@ -15,7 +15,7 @@ DESCRIPTION="A plugin to load images stored in MATLAB .mat files with napari"
 
 HOMEPAGE="https://github.com/hectormz/napari-mat-images"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

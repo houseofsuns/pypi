@@ -15,7 +15,7 @@ DESCRIPTION="Library for querying the instant answer API of DuckDuckGo search en
 
 HOMEPAGE="https://github.com/ivankliuk/duckduckpy/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 

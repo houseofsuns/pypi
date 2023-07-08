@@ -15,7 +15,7 @@ DESCRIPTION="Standard reaction Gibbs energy estimation for biochemical reactions
 
 HOMEPAGE="https://gitlab.com/equilibrator/component-contribution"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

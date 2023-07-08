@@ -15,7 +15,7 @@ DESCRIPTION="A set of utilities and tools for rom hacking and translations."
 
 HOMEPAGE="https://github.com/Illidanz/hacktools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

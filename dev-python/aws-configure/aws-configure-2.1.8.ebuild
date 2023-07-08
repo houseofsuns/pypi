@@ -15,7 +15,7 @@ DESCRIPTION="A CLI to configure AWS named profiles in ~/.aws/config and ~/.aws/c
 
 HOMEPAGE="https://github.com/qoomon/aws-configure"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

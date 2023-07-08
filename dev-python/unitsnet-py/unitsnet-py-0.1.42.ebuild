@@ -15,7 +15,7 @@ DESCRIPTION="A better way to hold unit variables and easily convert to the desti
 
 HOMEPAGE="https://github.com/haimkastner/unitsnet-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Merge PDFs (inspired by metaist/pdfmerge)"
 
 HOMEPAGE="https://github.com/murrple-1/pdf-merger-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

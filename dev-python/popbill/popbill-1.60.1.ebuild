@@ -15,7 +15,7 @@ DESCRIPTION="Popbill API SDK Library"
 
 HOMEPAGE="https://github.com/linkhub-sdk/Popbill.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 

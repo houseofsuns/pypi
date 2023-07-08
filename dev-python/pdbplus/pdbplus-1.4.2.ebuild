@@ -15,7 +15,7 @@ DESCRIPTION="pdbp (Pdb+): A drop-in replacement for pdb and pdbpp."
 
 HOMEPAGE="https://github.com/mdmintz/pdbp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

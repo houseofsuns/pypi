@@ -15,7 +15,7 @@ DESCRIPTION="Simple and easy to use multifunctional wallpaper software 简单好
 
 HOMEPAGE="https://github.com/Pylogmon/earth_wallpaper"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

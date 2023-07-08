@@ -15,7 +15,7 @@ DESCRIPTION="Command line (CLI) tool to inspect Apache Parquet files on the go"
 
 HOMEPAGE="https://github.com/chhantyal/parquet-cli"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.13-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.13-x86_64.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.macosx-10.13-x86_64.tar.gz"
 RESTRICT="test"
 

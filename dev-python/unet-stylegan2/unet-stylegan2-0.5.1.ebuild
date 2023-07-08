@@ -15,7 +15,7 @@ DESCRIPTION="StyleGan2 with UNet Discriminator, in Pytorch"
 
 HOMEPAGE="https://github.com/lucidrains/unet-stylegan2"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

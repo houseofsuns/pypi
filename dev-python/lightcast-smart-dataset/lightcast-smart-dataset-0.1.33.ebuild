@@ -15,7 +15,7 @@ DESCRIPTION="Utility use the Lightcast Global Smart Dataset"
 
 HOMEPAGE="https://github.com/Lightcast-Global-Innovation/global-smart-dataset"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

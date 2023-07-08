@@ -15,7 +15,7 @@ DESCRIPTION="Unification of NSLS-II data sources"
 
 HOMEPAGE="https://github.com/NSLS-II/databroker"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

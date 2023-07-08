@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for Broker REST And Websocket API"
 
 HOMEPAGE="https://github.com/bhexopen/BHEX-OpenApi/tree/master/sdk/python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

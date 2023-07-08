@@ -15,7 +15,7 @@ DESCRIPTION="Python-based data acquisition framework developed by the Copenhagen
 
 HOMEPAGE="https://github.com/QCoDeS/Qcodes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

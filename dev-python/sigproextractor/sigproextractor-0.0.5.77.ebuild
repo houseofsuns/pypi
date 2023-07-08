@@ -15,7 +15,7 @@ DESCRIPTION="Extracts mutational signatures from mutational catalogues"
 
 HOMEPAGE="https://github.com/AlexandrovLab/SigProfilerExtractor.git"
 LICENSE="UCSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

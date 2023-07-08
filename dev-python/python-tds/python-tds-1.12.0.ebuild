@@ -15,7 +15,7 @@ DESCRIPTION="Python DBAPI driver for MSSQL using pure Python TDS (Tabular Data S
 
 HOMEPAGE="https://github.com/denisenkom/pytds"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

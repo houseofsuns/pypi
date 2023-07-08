@@ -15,7 +15,7 @@ DESCRIPTION="Cython functions to speed up Brightway2 LCA calculations"
 
 HOMEPAGE="https://github.com/brightway-lca/brightway2-speedups"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Plugins for Beancount to interpolate transactions"
 
 HOMEPAGE="https://github.com/Akuukis/beancount_interpolate"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

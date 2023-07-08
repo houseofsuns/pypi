@@ -15,7 +15,7 @@ DESCRIPTION="An async API wrapper for rule34.xxx"
 
 HOMEPAGE="https://github.com/LordOfPolls/Rule34-API-Wrapper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

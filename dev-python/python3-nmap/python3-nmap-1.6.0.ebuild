@@ -15,7 +15,7 @@ DESCRIPTION="Python3-nmap converts Nmap commands into python3 methods making it 
 
 HOMEPAGE="https://github.com/wangoloj/python3-nmap"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

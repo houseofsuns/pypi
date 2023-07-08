@@ -15,7 +15,7 @@ DESCRIPTION="displayio driver for ST7735 TFT-LCD displays."
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_ST7735"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

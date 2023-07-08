@@ -15,7 +15,7 @@ DESCRIPTION="Life Data Analysis for Reliability Engineers - Weibull Analysis, De
 
 HOMEPAGE="https://tvtoglu.github.io/predictr/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

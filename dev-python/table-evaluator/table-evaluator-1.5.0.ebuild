@@ -15,7 +15,7 @@ DESCRIPTION="A package to evaluate how close a synthetic data set is to real dat
 
 HOMEPAGE="https://github.com/Baukebrenninkmeijer/Table-Evaluator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Config file reading, writing, and validation."
 
 HOMEPAGE="http://www.voidspace.org.uk/python/validate.html"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An internal Quantile development kit for making working with data e
 
 HOMEPAGE="https://github.com/quantile-development/quantile-data-kit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

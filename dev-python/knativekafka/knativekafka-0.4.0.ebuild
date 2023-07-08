@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper for kafka-python used in knative"
 
 HOMEPAGE="https://github.optum.com/Optum-Serverless/kafka-source/tree/master/python/knativekafka"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

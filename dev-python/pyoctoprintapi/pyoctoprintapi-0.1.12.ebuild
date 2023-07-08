@@ -15,7 +15,7 @@ DESCRIPTION="An asynchronous Python library for communicating with the OctoPrint
 
 HOMEPAGE="https://github.com/rfleming71/pyoctoprintapi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

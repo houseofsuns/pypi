@@ -15,7 +15,7 @@ DESCRIPTION="An app for keeping track of Eve Online structure timers with Allian
 
 HOMEPAGE="https://gitlab.com/ErikKalkoken/aa-structuretimers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

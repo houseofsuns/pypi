@@ -15,7 +15,7 @@ DESCRIPTION="FastAPI-babel is an extenstion for I18n and I10n support in FastAPI
 
 HOMEPAGE="https://github.com/Anbarryprojects/fastapi-babel"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Build complex rules, serialize them as JSON, and execute them in Py
 
 HOMEPAGE="https://github.com/nadirizr/json-logic-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

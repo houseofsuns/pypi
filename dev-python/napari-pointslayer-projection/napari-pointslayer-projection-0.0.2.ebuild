@@ -15,7 +15,7 @@ DESCRIPTION="This plugin creates a 2d projection of all your points."
 
 HOMEPAGE="https://github.com/gatoniel/napari-pointslayer-projection"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

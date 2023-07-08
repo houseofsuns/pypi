@@ -15,7 +15,7 @@ DESCRIPTION="Downloads songs, albums or playlists from deezer"
 
 HOMEPAGE="https://github.com/An0nimia/deezloader"
 LICENSE="CC BY-NC-SA 4.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

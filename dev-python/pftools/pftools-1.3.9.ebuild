@@ -15,7 +15,7 @@ DESCRIPTION="A Python package creating an interface with the ParFlow hydrologic 
 
 HOMEPAGE="https://github.com/parflow/parflow/tree/master/pftools/python"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A serial utility to communicate & flash code to Espressif chips."
 
 HOMEPAGE="https://github.com/espressif/esptool/"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

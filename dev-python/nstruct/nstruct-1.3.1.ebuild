@@ -15,7 +15,7 @@ DESCRIPTION="Define complicate C/C++ structs in Python to parse/pack them from/t
 
 HOMEPAGE="http://github.com/hubo1016/namedstruct"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

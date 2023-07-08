@@ -15,7 +15,7 @@ DESCRIPTION="Flask JWT Router is a Python library that adds authorised routes to
 
 HOMEPAGE="https://github.com/joegasewicz/Flask-JWT-Router"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="pyvitemadose displays available chronodoses of covid vaccine for yo
 
 HOMEPAGE="https://github.com/thib1984/pyvitemadose"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

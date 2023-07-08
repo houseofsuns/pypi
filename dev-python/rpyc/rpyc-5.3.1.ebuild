@@ -15,7 +15,7 @@ DESCRIPTION="Remote Python Call (RPyC) is a transparent and symmetric distribute
 
 HOMEPAGE="https://rpyc.readthedocs.org"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

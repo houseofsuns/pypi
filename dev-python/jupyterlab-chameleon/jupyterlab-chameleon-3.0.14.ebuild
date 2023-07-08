@@ -15,7 +15,7 @@ DESCRIPTION="JupyterLab extension for the Chameleon testbed"
 
 HOMEPAGE="https://github.com/ChameleonCloud/jupyterlab-chameleon"
 LICENSE="None"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

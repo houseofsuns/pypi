@@ -15,7 +15,7 @@ DESCRIPTION="AiiDA plugins and workflows developed at nanotech@surfaces group fr
 
 HOMEPAGE="https://github.com/nanotech-empa/aiida-nanotech-empa"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

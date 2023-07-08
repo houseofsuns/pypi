@@ -15,7 +15,7 @@ DESCRIPTION="Compatability layer between django-jsonfield and Django's native JS
 
 HOMEPAGE="http://github.com/kbussell/django-jsonfield-compat/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

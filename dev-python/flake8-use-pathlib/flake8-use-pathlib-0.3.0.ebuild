@@ -15,7 +15,7 @@ DESCRIPTION="A plugin for flake8 finding use of functions that can be replaced b
 
 HOMEPAGE="https://gitlab.com/RoPP/flake8-use-pathlib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="lixi is a python package to manipulate a valid LIXI 2 message and s
 
 HOMEPAGE="https://standards.lixi.org.au/lixi-tech/lixi-pypi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

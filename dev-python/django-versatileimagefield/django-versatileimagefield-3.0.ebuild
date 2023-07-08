@@ -15,7 +15,7 @@ DESCRIPTION="A drop-in replacement for django's ImageField that provides a flexi
 
 HOMEPAGE="http://github.com/respondcreate/django-versatileimagefield/"
 LICENSE="MIT License, see LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

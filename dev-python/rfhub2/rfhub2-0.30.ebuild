@@ -15,7 +15,7 @@ DESCRIPTION="Webserver for robot framework and python assets documentation"
 
 HOMEPAGE="https://github.com/pbylicki/rfhub2/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

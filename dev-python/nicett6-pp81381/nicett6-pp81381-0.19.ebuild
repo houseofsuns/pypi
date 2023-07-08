@@ -15,7 +15,7 @@ DESCRIPTION="Nice TT6 tubular motor controller APIs"
 
 HOMEPAGE="https://github.com/pp81381/nicett6"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

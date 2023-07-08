@@ -15,7 +15,7 @@ DESCRIPTION="Scrapeops Python Logger, is a library used by the ScrapeOps Python 
 
 HOMEPAGE="https://github.com/ScrapeOps/scrapeops-python-logger"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

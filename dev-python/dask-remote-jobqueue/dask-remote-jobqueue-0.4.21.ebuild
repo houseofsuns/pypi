@@ -15,7 +15,7 @@ DESCRIPTION="Remote jobqueu implementation for DASK: create a scheduler on a rem
 
 HOMEPAGE="http://github.com/dodas-ts/dask-remote-jobqueue"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

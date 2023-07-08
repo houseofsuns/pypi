@@ -15,7 +15,7 @@ DESCRIPTION="A reusable app for cropping images easily and non-destructively in 
 
 HOMEPAGE="https://github.com/jonasundderwolf/django-image-cropping"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

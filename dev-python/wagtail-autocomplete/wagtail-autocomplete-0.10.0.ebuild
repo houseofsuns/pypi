@@ -15,7 +15,7 @@ DESCRIPTION="An Autocomplete edit handler for Pages, Snippets, and more."
 
 HOMEPAGE="https://github.com/wagtail/wagtail-autocomplete"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

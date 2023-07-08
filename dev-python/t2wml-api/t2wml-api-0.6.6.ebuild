@@ -15,7 +15,7 @@ DESCRIPTION="Programming API for T2WML, a cell-based Language for mapping tables
 
 HOMEPAGE="https://github.com/usc-isi-i2/t2wml/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

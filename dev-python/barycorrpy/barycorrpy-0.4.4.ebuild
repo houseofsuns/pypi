@@ -15,7 +15,7 @@ DESCRIPTION="Barycentric Velocity correction at 1 cm/s level"
 
 HOMEPAGE="https://github.com/shbhuk/barycorrpy"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

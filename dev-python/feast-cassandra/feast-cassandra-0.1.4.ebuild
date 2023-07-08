@@ -15,7 +15,7 @@ DESCRIPTION="Cassandra/Astra DB support for Feast online store"
 
 HOMEPAGE="https://github.com/datastaxdevs/feast-cassandra-online-store"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

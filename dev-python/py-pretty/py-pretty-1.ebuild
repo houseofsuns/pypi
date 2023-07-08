@@ -15,7 +15,7 @@ DESCRIPTION="Formats dates, numbers, etc. in a pretty, human readable format."
 
 HOMEPAGE="http://code.google.com/p/py-pretty/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tiny library to push logs to \`Grafana Loki\` in \`logfmt\` format.
 
 HOMEPAGE="https://github.com/michaelkryukov/smoloki"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="API for accessing Lake crypto market data"
 
 HOMEPAGE="https://github.com/crypto-lake/lake-api"
 LICENSE="Apache 2 license"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="TRANSIT is a tool for the analysis of Tn-Seq data. It provides an e
 
 HOMEPAGE="https://github.com/mad-lab/transit"
 LICENSE="GNU GPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

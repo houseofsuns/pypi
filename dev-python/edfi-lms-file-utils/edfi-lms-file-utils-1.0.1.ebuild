@@ -15,7 +15,7 @@ DESCRIPTION="Utilities to facilitate use of the filesystem created by Ed-Fi LMS 
 
 HOMEPAGE="https://techdocs.ed-fi.org/display/EDFITOOLS/LMS+Toolkit"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

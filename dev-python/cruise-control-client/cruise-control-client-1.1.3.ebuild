@@ -15,7 +15,7 @@ DESCRIPTION="A Python client for cruise-control"
 
 HOMEPAGE="https://github.com/linkedin/cruise-control"
 LICENSE="Copyright 2019 LinkedIn Corp. Licensed under the BSD 2-Clause License the License. See License in the project root for license information."
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

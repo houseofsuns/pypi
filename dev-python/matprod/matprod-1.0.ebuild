@@ -15,7 +15,7 @@ DESCRIPTION="Fast repeated multiplication of 2x2 matrices in a compiled numpy ex
 
 HOMEPAGE="https://github.com/electronsandstuff/MatProd"
 LICENSE="GNU Affero General Public License v3 or later AGPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Provides a wrapper for Okta authentication to awscli"
 
 HOMEPAGE="https://github.com/okta-awscli/okta-awscli"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

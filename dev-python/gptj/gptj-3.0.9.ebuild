@@ -15,7 +15,7 @@ DESCRIPTION="A GPT-J api to use with python3 to generate text, blogs, code, and 
 
 HOMEPAGE="https://github.com/TheProtaganist/gpt-j"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

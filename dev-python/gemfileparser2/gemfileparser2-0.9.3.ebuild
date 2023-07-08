@@ -15,7 +15,7 @@ DESCRIPTION="Parse Ruby Gemfile, .gemspec and Cocoapod .podspec files using Pyth
 
 HOMEPAGE="https://github.com/nexB/gemfileparser2"
 LICENSE="GPL-3.0-or-later OR MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

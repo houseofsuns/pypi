@@ -15,7 +15,7 @@ DESCRIPTION="A client for Spring Config Server"
 
 HOMEPAGE="https://realbucksavage.github.io/spring-config-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 

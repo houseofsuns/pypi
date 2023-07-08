@@ -15,7 +15,7 @@ DESCRIPTION="A tool for deploying Django Web Apps to remote servers"
 
 HOMEPAGE="https://github.com/yeti/yurt/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

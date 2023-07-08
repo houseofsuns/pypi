@@ -15,7 +15,7 @@ DESCRIPTION="Python module containing vhdl files for microwatt cpu."
 
 HOMEPAGE="https://github.com/litex-hub/pythondata-cpu-microwatt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

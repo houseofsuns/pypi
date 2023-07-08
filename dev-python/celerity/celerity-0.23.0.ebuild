@@ -15,7 +15,7 @@ DESCRIPTION="Celerity is a lightweight, zero-dependency and type-safe Python lib
 
 HOMEPAGE="https://github.com/michaelroberts/celerity"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

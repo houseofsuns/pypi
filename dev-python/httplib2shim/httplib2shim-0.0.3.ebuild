@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper over urllib3 that matches httplib2's interface"
 
 HOMEPAGE="https://github.com/GoogleCloudPlatform/httplib2shim"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

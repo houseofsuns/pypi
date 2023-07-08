@@ -15,7 +15,7 @@ DESCRIPTION="a mini python sdk for quorum lightnode with http/https requests to 
 
 HOMEPAGE="https://github.com/liujuanjuan1984/quorum-mininode-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

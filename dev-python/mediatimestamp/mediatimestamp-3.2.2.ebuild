@@ -15,7 +15,7 @@ DESCRIPTION="A timestamp library for high precision nanosecond timestamps"
 
 HOMEPAGE="https://github.com/bbc/rd-apmm-python-lib-mediatimestamp"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

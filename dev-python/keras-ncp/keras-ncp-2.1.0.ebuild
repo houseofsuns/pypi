@@ -15,7 +15,7 @@ DESCRIPTION="Neural Circuit Policies implementation for Keras (TensorFlow 2) and
 
 HOMEPAGE="https://github.com/mlech26l/keras-ncp"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

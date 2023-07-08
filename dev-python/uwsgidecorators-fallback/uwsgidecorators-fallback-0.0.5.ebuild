@@ -15,7 +15,7 @@ DESCRIPTION="uWSGI API - Python decorators - with fallback for running outside u
 
 HOMEPAGE="https://github.com/devopsconsulting/uwsgidecorators-fallback"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

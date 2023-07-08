@@ -15,7 +15,7 @@ DESCRIPTION="Message exchange engine to build pipelines using brokers like Rabbi
 
 HOMEPAGE="https://github.com/olxbr/BarterDude/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

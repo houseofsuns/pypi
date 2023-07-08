@@ -15,7 +15,7 @@ DESCRIPTION="A framework easily routing AppSync requests using AWS Lambda"
 
 HOMEPAGE="https://github.com/QuiNovas/appsync-router"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

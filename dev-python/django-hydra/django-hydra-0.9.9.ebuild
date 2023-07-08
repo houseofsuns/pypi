@@ -15,7 +15,7 @@ DESCRIPTION="Gives superpowers to Django Framework"
 
 HOMEPAGE="https://github.com/dbsiavichay/django-hydra.git"
 LICENSE="MIT  # Example license"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

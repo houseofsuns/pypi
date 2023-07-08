@@ -15,7 +15,7 @@ DESCRIPTION="Pre-processing data tool for NHP Lab @ CMU"
 
 HOMEPAGE="https://caoslab.psy.cmu.edu:32443/monkeylab/preprocessing-scripts"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

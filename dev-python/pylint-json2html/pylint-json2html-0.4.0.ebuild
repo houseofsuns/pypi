@@ -15,7 +15,7 @@ DESCRIPTION="Pylint JSON report to HTML"
 
 HOMEPAGE="https://github.com/Exirel/pylint-json2html"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

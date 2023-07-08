@@ -15,7 +15,7 @@ DESCRIPTION="BAT parses Blend files and produces dependency information. After i
 
 HOMEPAGE="https://developer.blender.org/project/profile/79/"
 LICENSE="GPL-2.0+"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

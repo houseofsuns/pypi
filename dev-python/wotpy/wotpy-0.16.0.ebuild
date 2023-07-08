@@ -15,7 +15,7 @@ DESCRIPTION="Python implementation of a W3C WoT Runtime and the WoT Scripting AP
 
 HOMEPAGE="https://github.com/agmangas/wot-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

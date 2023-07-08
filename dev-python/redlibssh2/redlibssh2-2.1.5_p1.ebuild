@@ -15,7 +15,7 @@ DESCRIPTION="Alternate bindings for libssh2 C library"
 
 HOMEPAGE="https://github.com/Red-M/Redlibssh2"
 LICENSE="LGPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

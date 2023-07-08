@@ -15,7 +15,7 @@ DESCRIPTION="米游社大别野Bot Python SDK。MiHoYo Villa Bot Python SDK."
 
 HOMEPAGE="https://github.com/CMHopeSunshine/villa-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

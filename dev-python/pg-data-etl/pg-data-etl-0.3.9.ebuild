@@ -15,7 +15,7 @@ DESCRIPTION="ETL tools for spatial data stored in postgres"
 
 HOMEPAGE="https://github.com/aaronfraint/pg-data-etl"
 LICENSE="GNU v3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

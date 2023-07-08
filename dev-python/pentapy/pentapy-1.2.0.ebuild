@@ -15,7 +15,7 @@ DESCRIPTION="pentapy: A toolbox for pentadiagonal matrizes."
 
 HOMEPAGE="https://github.com/GeoStat-Framework/pentapy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

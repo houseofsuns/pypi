@@ -15,7 +15,7 @@ DESCRIPTION="pytest plugin for pytest-repeat that generate aggregate report of t
 
 HOMEPAGE="https://github.com/hdw868/pytest-aggreport"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Command line utility to transform model output into a flowmap that 
 
 HOMEPAGE="https://github.com/SiggyF/flowmap"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

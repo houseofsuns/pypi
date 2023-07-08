@@ -15,7 +15,7 @@ DESCRIPTION="Python tools for GATE, see https://github.com/OpenGATE/Gate"
 
 HOMEPAGE="https://github.com/OpenGATE/GateTools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

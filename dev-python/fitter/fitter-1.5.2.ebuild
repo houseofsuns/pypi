@@ -15,7 +15,7 @@ DESCRIPTION="A tool to fit data to many distributions and best one(s)"
 
 HOMEPAGE="https://github.com/cokelaer/fitter"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

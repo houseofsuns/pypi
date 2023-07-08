@@ -15,7 +15,7 @@ DESCRIPTION="Extract the top-level domain (TLD) from the URL given."
 
 HOMEPAGE="https://github.com/barseghyanartur/tld"
 LICENSE="MPL-1.1 OR GPL-2.0-only OR LGPL-2.1-or-later"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

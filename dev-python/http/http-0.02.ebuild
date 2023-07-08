@@ -15,7 +15,7 @@ DESCRIPTION="HTTP library for Python"
 
 HOMEPAGE="https://github.com/franckcuny/http"
 LICENSE="MIT"
-SRC_URI="${REALNAME}s://files.pythonhosted.org/packages/e3/91/a9260805e532e33df273b8f7dffad5c51693f8f9ba5f86bedcf42a7f22eb/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

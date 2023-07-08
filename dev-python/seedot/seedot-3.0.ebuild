@@ -15,7 +15,7 @@ DESCRIPTION="SEEDOT: Tool for Enhancing Sentiment Lexicon with Machine Learning"
 
 HOMEPAGE="https://github.com/SEEDOT1/SEEDOT"
 LICENSE="MIT License: http://opensource.org/licenses/MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

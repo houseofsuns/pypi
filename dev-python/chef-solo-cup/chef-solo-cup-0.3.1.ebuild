@@ -15,7 +15,7 @@ DESCRIPTION="Chef-Solo wrapper"
 
 HOMEPAGE="https://github.com/josegonzalez/chef-solo-cup"
 LICENSE="Copyright c 2014 Jose Diaz-Gonzalez"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

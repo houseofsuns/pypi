@@ -15,7 +15,7 @@ DESCRIPTION="Python package that interfaces with the Internet Archive's Wayback 
 
 HOMEPAGE="https://akamhy.github.io/waybackpy/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

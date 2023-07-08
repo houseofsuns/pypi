@@ -15,7 +15,7 @@ DESCRIPTION="Simple and fast client to call rest-api endpoints \`https://trello.
 
 HOMEPAGE="https://github.com/DmitriyKalekin/python-trello-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

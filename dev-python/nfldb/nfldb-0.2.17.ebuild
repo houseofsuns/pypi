@@ -15,7 +15,7 @@ DESCRIPTION="A library to manage and update NFL data in a relational database."
 
 HOMEPAGE="https://github.com/BurntSushi/nfldb"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="US Census utilities for a variety of data loading and mapping purpo
 
 HOMEPAGE="https://github.com/vengroff/censusdis"
 LICENSE="HL3-CL-ECO-EXTR-FFD-LAW-MIL-SV"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

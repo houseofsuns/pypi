@@ -15,7 +15,7 @@ DESCRIPTION="Open source library for developing data science workflows on AWS St
 
 HOMEPAGE="https://github.com/aws/aws-step-functions-data-science-sdk-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

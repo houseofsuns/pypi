@@ -15,7 +15,7 @@ DESCRIPTION="Fast and Easy Infinite Neural Networks in Python"
 
 HOMEPAGE="https://github.com/google/neural-tangents"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

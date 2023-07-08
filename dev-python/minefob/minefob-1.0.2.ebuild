@@ -15,7 +15,7 @@ DESCRIPTION="A package that provides full control over any Minehut server"
 
 HOMEPAGE="https://github.com/thefivesixfive/Minefob"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python library for converting Apache Spark ML pipelines to PMML"
 
 HOMEPAGE="https://github.com/jpmml/pyspark2pmml"
 LICENSE="GNU Affero General Public License AGPL version 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Making using Django with frontend libraries and frameworks DRYer"
 
 HOMEPAGE="https://github.com/drf-forms/drf-schema-adapter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

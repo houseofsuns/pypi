@@ -15,7 +15,7 @@ DESCRIPTION="Tool for generating Clang JSON Compilation Database files for make-
 
 HOMEPAGE="https://github.com/nickdiego/compiledb"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

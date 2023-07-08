@@ -15,7 +15,7 @@ DESCRIPTION="An extension to the standard python 2.x smtpd library implementing 
 
 HOMEPAGE="https://github.com/tintinweb/python-smtpd-tls"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

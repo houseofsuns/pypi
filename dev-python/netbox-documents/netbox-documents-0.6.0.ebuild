@@ -15,7 +15,7 @@ DESCRIPTION="Manage site, circuit and device diagrams and documents in Netbox"
 
 HOMEPAGE="https://github.com/jasonyates/netbox-documents"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

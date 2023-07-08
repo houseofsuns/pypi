@@ -15,7 +15,7 @@ DESCRIPTION="Vectorizing Timestamps by means of a Variational Autoencoder"
 
 HOMEPAGE="https://github.com/GideonRouwendaal/Timestamp2Vec"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

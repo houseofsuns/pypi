@@ -15,7 +15,7 @@ DESCRIPTION="FastaAPI's CRUD project generator for SQLALchemy."
 
 HOMEPAGE="https://github.com/LuisLuii/fastapi-crud-template-generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

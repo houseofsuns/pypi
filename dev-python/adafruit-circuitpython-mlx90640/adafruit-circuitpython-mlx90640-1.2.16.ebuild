@@ -15,7 +15,7 @@ DESCRIPTION="Driver for the MLX90640 thermal camera"
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_MLX90640"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="django-rangefilter app, add the filter by a custom date and numeric
 
 HOMEPAGE="https://github.com/Danycraft98/django-admin-rangefilter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

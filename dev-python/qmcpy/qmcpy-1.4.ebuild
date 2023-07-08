@@ -15,7 +15,7 @@ DESCRIPTION="(Quasi) Monte Carlo Framework in Python 3"
 
 HOMEPAGE="https://qmcsoftware.github.io/QMCSoftware/"
 LICENSE="Apache license 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

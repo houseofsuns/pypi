@@ -15,7 +15,7 @@ DESCRIPTION="AWS Lambda Runtime Interface Client for Python"
 
 HOMEPAGE="https://github.com/aws/aws-lambda-python-runtime-interface-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

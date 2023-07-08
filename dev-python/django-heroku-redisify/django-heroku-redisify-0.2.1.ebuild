@@ -15,7 +15,7 @@ DESCRIPTION="Friendly Redis for Django on Heroku"
 
 HOMEPAGE="https://github.com/dirn/django-heroku-redisify"
 LICENSE="Copyright c 2013, Andy Dirnberger"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

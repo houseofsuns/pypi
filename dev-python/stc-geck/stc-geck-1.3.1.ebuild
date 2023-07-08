@@ -15,7 +15,7 @@ DESCRIPTION="GECK (Garden Of Eden Creation Kit) is a toolkit for setting up and 
 
 HOMEPAGE="https://github.com/nexus-stc/stc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

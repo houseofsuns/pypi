@@ -15,7 +15,7 @@ DESCRIPTION="Parse C++ header files and generate a data structure representing t
 
 HOMEPAGE="https://github.com/robotpy/robotpy-cppheaderparser"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

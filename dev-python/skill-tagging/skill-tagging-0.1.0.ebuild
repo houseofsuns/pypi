@@ -15,7 +15,7 @@ DESCRIPTION="Django app plugin for fetching and verifying tags for xblock skills
 
 HOMEPAGE="https://github.com/openedx/xblock-skill-tagging"
 LICENSE="AGPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

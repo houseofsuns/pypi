@@ -15,7 +15,7 @@ DESCRIPTION="Automation framework for special end-to-end test cases"
 
 HOMEPAGE="https://github.com/google/mobly"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Official 2πSENSE X1000 series hardware control library"
 
 HOMEPAGE="https://www.2pi-labs.com"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

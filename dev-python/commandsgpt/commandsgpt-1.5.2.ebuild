@@ -15,7 +15,7 @@ DESCRIPTION="An implementation of GPT-4 that recognizes which commands it must r
 
 HOMEPAGE="https://github.com/AlexisAndradeDev/CommandsGPT"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

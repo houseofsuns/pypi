@@ -15,7 +15,7 @@ DESCRIPTION="Backport of the cross-DB JSONField model and form fields from Djang
 
 HOMEPAGE="https://github.com/laymonage/django-jsonfield-backport"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

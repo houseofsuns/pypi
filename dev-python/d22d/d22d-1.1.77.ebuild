@@ -15,7 +15,7 @@ DESCRIPTION="Migrating form DataBase to DataBase by 2 lines code"
 
 HOMEPAGE="https://github.com/DJMIN/D2D"
 LICENSE="GPL License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

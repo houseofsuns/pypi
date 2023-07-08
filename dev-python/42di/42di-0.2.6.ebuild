@@ -15,7 +15,7 @@ DESCRIPTION="42di is the python sdk for 42di.com"
 
 HOMEPAGE="https://42di.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/4/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

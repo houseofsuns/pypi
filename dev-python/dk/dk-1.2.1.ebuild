@@ -15,7 +15,7 @@ DESCRIPTION="The Datakortet Basic utilities package: \`dk\`."
 
 HOMEPAGE="http://www.github.com/datakortet/dk/"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

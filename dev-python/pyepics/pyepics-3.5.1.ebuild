@@ -15,7 +15,7 @@ DESCRIPTION="Epics Channel Access for Python"
 
 HOMEPAGE="http://pyepics.github.io/pyepics/"
 LICENSE="Epics Open License"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

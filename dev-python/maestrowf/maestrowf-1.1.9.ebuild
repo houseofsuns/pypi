@@ -15,7 +15,7 @@ DESCRIPTION="A tool to easily orchestrate general computational workflows both l
 
 HOMEPAGE="https://github.com/llnl/maestrowf"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

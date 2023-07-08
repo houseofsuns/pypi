@@ -15,7 +15,7 @@ DESCRIPTION="个人常用功能"
 
 HOMEPAGE="https://github.com/xujiuming/jiuming-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

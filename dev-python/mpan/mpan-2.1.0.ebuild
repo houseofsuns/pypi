@@ -15,7 +15,7 @@ DESCRIPTION="A parsing library for the UK's MPAN energy standard"
 
 HOMEPAGE="https://github.com/limejump/mpan"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

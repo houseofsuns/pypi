@@ -15,7 +15,7 @@ DESCRIPTION="The EasyBuild framework supports the creation of custom easyblocks 
 
 HOMEPAGE="https://easybuild.io"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="CLI, web API and Discord bot for VTES cards and TWDA."
 
 HOMEPAGE="http://github.com/lionel-panhaleux/krcg"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

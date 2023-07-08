@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper around the pdftoppm and pdftocairo command line tools to 
 
 HOMEPAGE="https://github.com/Belval/pdf2image"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ERC20 interface and simple contract with deployment script that let
 
 HOMEPAGE="https://git.defalsify.org/eth-erc20"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

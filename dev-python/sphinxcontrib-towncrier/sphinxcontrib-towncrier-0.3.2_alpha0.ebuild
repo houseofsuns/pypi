@@ -15,7 +15,7 @@ DESCRIPTION="An RST directive for injecting a Towncrier-generated changelog draf
 
 HOMEPAGE="https://github.com/sphinx-contrib/sphinxcontrib-towncrier"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

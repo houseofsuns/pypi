@@ -15,7 +15,7 @@ DESCRIPTION="open source Python modules for the IBM PAIRS Geoscope platform"
 
 HOMEPAGE="https://ibmpairs.mybluemix.net"
 LICENSE="BSD-Clause-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

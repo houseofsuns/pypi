@@ -15,7 +15,7 @@ DESCRIPTION="Easy shell-like pipelines, with input from a file-like object"
 
 HOMEPAGE="http://sourceforge.net/projects/pythoric/"
 LICENSE="PYTHON SOFTWARE FOUNDATION LICENSE    VERSION 2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.0.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.0.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Ellatu is framework for building text based games"
 
 HOMEPAGE="https://github.com/sixkey/ellatu"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Daemon process control library and tools for Unix-based systems"
 
 HOMEPAGE="https://github.com/zopefoundation/zdaemon"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

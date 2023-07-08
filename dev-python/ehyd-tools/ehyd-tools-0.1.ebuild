@@ -15,7 +15,7 @@ DESCRIPTION="Reading and analyzing hydro(geo)logic time series from the Austrian
 
 HOMEPAGE="https://github.com/MarkusPic/ehyd_tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

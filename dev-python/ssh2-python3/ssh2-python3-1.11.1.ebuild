@@ -15,7 +15,7 @@ DESCRIPTION="Super fast SSH library - bindings for libssh2 and Python 3"
 
 HOMEPAGE="https://github.com/pycopia/ssh2-python3"
 LICENSE="LGPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

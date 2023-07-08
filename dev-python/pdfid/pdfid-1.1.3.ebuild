@@ -15,7 +15,7 @@ DESCRIPTION="PDFID simple tool to analyze PDF malicious files by DidierStevens. 
 
 HOMEPAGE="https://github.com/mlodic/pdfid"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

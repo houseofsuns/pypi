@@ -15,7 +15,7 @@ DESCRIPTION="A napari-plugin providing an alternative GUI for Big-FISH. Big-FISH
 
 HOMEPAGE="https://github.com/MontpellierRessourcesImagerie/napari-bigfish"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

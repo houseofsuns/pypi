@@ -15,7 +15,7 @@ DESCRIPTION="Python package for unofficial GPT-4 API access via chat.openai.com"
 
 HOMEPAGE="https://github.com/Erol444/gpt4-openai-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

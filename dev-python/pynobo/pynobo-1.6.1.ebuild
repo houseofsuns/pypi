@@ -15,7 +15,7 @@ DESCRIPTION="Nobø Hub / Nobø Energy Control TCP/IP Interface"
 
 HOMEPAGE="https://github.com/echoromeo/pynobo"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

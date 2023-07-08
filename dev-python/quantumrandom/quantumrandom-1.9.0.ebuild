@@ -15,7 +15,7 @@ DESCRIPTION="A Python interface to the ANU Quantum Random Numbers Server"
 
 HOMEPAGE="http://github.com/lmacken/quantumrandom"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

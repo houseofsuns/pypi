@@ -15,7 +15,7 @@ DESCRIPTION="Parameterized testing with any Python test framework (DEPRECATED; S
 
 HOMEPAGE="https://github.com/wolever/parameterized"
 LICENSE="FreeBSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

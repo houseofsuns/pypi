@@ -15,7 +15,7 @@ DESCRIPTION="Reverse Monte Carlo refinement of diffuse scattering and correlated
 
 HOMEPAGE="https://github.com/zjmorgan/rmc-discord"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

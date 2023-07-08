@@ -15,7 +15,7 @@ DESCRIPTION="Declarative query builder for SQLAlchemy. This is a fork of the ori
 
 HOMEPAGE="https://github.com/infobyte/filteralchemy"
 LICENSE="Copyright 2015 Joshua Carp"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

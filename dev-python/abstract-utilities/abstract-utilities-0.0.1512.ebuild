@@ -15,7 +15,7 @@ DESCRIPTION="abstract_utilities is a collection of utility modules providing a v
 
 HOMEPAGE="https://github.com/AbstractEndeavors/abstract_essentials/tree/main/abstract_utilities"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

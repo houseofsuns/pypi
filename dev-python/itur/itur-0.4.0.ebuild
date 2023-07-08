@@ -15,7 +15,7 @@ DESCRIPTION="A python implementation of the ITU-R P. Recommendations"
 
 HOMEPAGE="https://github.com/inigodelportillo/ITU-Rpy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

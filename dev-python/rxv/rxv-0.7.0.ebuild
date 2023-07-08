@@ -15,7 +15,7 @@ DESCRIPTION="Automation Library for Yamaha RX-V473, RX-V573, RX-V673, RX-V773 re
 
 HOMEPAGE="https://github.com/wuub/rxv"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

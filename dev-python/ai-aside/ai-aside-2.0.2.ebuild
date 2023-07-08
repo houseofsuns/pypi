@@ -15,7 +15,7 @@ DESCRIPTION="A plugin containing xblocks and apps supporting GPT and other LLM u
 
 HOMEPAGE="https://github.com/openedx/ai-aside"
 LICENSE="AGPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="django-froala-editor package helps integrate Froala WYSIWYG HTML ed
 
 HOMEPAGE="http://github.com/froala/django-froala-editor/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Middleware for validation upload-file in FastAPI and Starlette."
 
 HOMEPAGE="https://github.com/terib0l/starlette-validation-uploadfile"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

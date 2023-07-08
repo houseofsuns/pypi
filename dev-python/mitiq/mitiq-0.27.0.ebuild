@@ -15,7 +15,7 @@ DESCRIPTION="Mitiq is an open source toolkit for implementing error mitigation t
 
 HOMEPAGE="https://unitary.fund"
 LICENSE="GPL v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

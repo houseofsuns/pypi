@@ -15,7 +15,7 @@ DESCRIPTION="Python easy mail library, to parse, compose and send emails"
 
 HOMEPAGE="http://www.magiksys.net/pyzmail"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A general math utilities library providing Matrix, Vector, Quaterni
 
 HOMEPAGE="https://gitlab.com/ideasman42/blender-mathutils"
 LICENSE="GNU GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

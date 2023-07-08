@@ -15,7 +15,7 @@ DESCRIPTION="EODMS RAPI Client is a Python3 package used to access the REST API 
 
 HOMEPAGE="https://py-eodms-rapi.readthedocs.io/en/latest/"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

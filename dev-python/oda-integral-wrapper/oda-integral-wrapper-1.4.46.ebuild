@@ -15,7 +15,7 @@ DESCRIPTION="wrapper for INTEGRAL analysis using the API plugin for CDCI online 
 
 HOMEPAGE="https://gitlab.astro.unige.ch/oda/api-clients/oda_api_wrapper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

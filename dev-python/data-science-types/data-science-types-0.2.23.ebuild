@@ -15,7 +15,7 @@ DESCRIPTION="Type stubs for Python machine learning libraries"
 
 HOMEPAGE="https://github.com/predictive-analytics-lab/data-science-types"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

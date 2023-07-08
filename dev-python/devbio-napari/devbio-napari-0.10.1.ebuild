@@ -15,7 +15,7 @@ DESCRIPTION="A bundle of napari plugins useful for 3D+t image processing and ana
 
 HOMEPAGE="https://github.com/haesleinhuepf/devbio-napari"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

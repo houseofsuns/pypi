@@ -15,7 +15,7 @@ DESCRIPTION="An interactive NVIDIA-GPU process viewer and beyond, the one-stop s
 
 HOMEPAGE="https://github.com/XuehaiPan/nvitop"
 LICENSE="Apache License, Version 2.0 Apache-2.0 & GNU General Public License, Version 3 GPL-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

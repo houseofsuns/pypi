@@ -15,7 +15,7 @@ DESCRIPTION="spAudio audio I/O library"
 
 HOMEPAGE="http://www-ie.meijo-u.ac.jp/labs/rj001/spLibs/python/spAudio/en/index.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

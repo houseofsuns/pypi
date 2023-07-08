@@ -15,7 +15,7 @@ DESCRIPTION="A Chaostoolkit control to store events on a time series datastore o
 
 HOMEPAGE="https://github.com/sky-uk/chaostoolkit-storeevent"
 LICENSE="Revised BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

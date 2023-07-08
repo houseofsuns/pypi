@@ -15,7 +15,7 @@ DESCRIPTION="CLI Command making OCI Bastion and kubernetes usage simple and fast
 
 HOMEPAGE="https://github.com/jiri-otoupal/abst"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

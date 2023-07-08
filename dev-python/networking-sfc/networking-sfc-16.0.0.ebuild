@@ -15,7 +15,7 @@ DESCRIPTION="APIs and implementations to support Service Function Chaining in Ne
 
 HOMEPAGE="https://docs.openstack.org/networking-sfc/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

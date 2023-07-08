@@ -15,7 +15,7 @@ DESCRIPTION="基于go-cqhttp与nonebot2的 网易云 无损音乐下载"
 
 HOMEPAGE="https://github.com/kitUIN/nonebot-plugin-ncm"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

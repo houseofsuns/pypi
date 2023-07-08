@@ -15,7 +15,7 @@ DESCRIPTION="A Python wrapper for the HelloSign API (http://www.hellosign.com/ap
 
 HOMEPAGE="https://github.com/hellosign/hellosign-python-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

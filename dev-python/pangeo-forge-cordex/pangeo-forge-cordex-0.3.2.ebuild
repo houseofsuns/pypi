@@ -15,7 +15,7 @@ DESCRIPTION="\"Using queries to the ESGF API to generate urls and keyword argume
 
 HOMEPAGE="https://github.com/euro-cordex/pangeo-forge-cordex"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

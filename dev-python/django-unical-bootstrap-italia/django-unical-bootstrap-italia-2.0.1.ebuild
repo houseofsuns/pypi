@@ -15,7 +15,7 @@ DESCRIPTION="Django theme for Università della Calabria (UNICAL) based on Boots
 
 HOMEPAGE="https://github.com/UniversitaDellaCalabria/django-unical-bootstrap-italia"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

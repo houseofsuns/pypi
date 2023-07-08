@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for GPGME GnuPG cryptography library"
 
 HOMEPAGE="https://www.gnupg.org"
 LICENSE="LGPL2.1+ the library, GPL2+ tests and examples"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

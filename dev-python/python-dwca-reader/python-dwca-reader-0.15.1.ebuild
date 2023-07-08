@@ -15,7 +15,7 @@ DESCRIPTION="A simple Python package to read Darwin Core Archive (DwC-A) files."
 
 HOMEPAGE="https://github.com/BelgianBiodiversityPlatform/python-dwca-reader"
 LICENSE="BSD licence, see LICENCE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

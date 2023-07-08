@@ -15,7 +15,7 @@ DESCRIPTION="A python wrapper for the Terra API"
 
 HOMEPAGE="https://github.com/tryterra/terra-client-python"
 LICENSE="APACHE-2.0-ONLY"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Provides contact forms and any other user submission form you might
 
 HOMEPAGE="https://github.com/tBaxter/tango-contact-manager"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

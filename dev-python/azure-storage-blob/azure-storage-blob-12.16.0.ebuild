@@ -15,7 +15,7 @@ DESCRIPTION="Microsoft Azure Blob Storage Client Library for Python"
 
 HOMEPAGE="https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/storage/azure-storage-blob"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

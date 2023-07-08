@@ -15,7 +15,7 @@ DESCRIPTION="Butler Python SDK"
 
 HOMEPAGE="https://butlerlabs.ai"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}-6.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-6.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}-6.tar.gz"
 RESTRICT="test"
 

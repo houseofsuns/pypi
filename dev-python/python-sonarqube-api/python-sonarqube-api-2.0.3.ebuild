@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for the SonarQube and SonarCloud API."
 
 HOMEPAGE="https://github.com/shijl0925/python-sonarqube-api"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Library to connect to DV event based vision software"
 
 HOMEPAGE="https://gitlab.com/inivation/dv/dv-python/"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

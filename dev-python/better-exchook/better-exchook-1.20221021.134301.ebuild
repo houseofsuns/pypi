@@ -15,7 +15,7 @@ DESCRIPTION="nice Python exception hook replacement"
 
 HOMEPAGE="https://github.com/albertz/py_better_exchook"
 LICENSE="2-clause BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Core utilities for Python packages. Fork to support LegacyVersion"
 
 HOMEPAGE="https://github.com/nexB/packvers"
 LICENSE="BSD-2-Clause or Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

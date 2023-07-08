@@ -15,7 +15,7 @@ DESCRIPTION="Zebra backend for Taxi"
 
 HOMEPAGE="https://github.com/liip/taxi-zebra"
 LICENSE="wtfpl"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

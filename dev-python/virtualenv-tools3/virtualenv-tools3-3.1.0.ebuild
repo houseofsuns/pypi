@@ -15,7 +15,7 @@ DESCRIPTION="A set of tools for virtualenv"
 
 HOMEPAGE="http://github.com/Yelp/virtualenv-tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

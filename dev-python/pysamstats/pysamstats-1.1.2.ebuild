@@ -15,7 +15,7 @@ DESCRIPTION="A Python utility for calculating statistics against genome position
 
 HOMEPAGE="https://github.com/alimanfoo/pysamstats"
 LICENSE="MIT Licenses"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

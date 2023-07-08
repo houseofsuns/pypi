@@ -15,7 +15,7 @@ DESCRIPTION="Twisted adapter for the requests library."
 
 HOMEPAGE="https://github.com/sametmax/requests-twisted"
 LICENSE="Zlib Licence"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

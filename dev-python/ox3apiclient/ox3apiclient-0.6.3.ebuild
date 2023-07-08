@@ -15,7 +15,7 @@ DESCRIPTION="Client to connect to the OpenX Enterprise API."
 
 HOMEPAGE="https://github.com/openx/OX3-Python-API-Client"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

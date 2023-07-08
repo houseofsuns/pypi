@@ -15,7 +15,7 @@ DESCRIPTION="A lightweight Python wrapper for the IG Markets API"
 
 HOMEPAGE="https://github.com/ig-python/trading-ig"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

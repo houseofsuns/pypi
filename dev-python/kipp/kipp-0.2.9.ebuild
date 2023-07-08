@@ -15,7 +15,7 @@ DESCRIPTION="Python Utils"
 
 HOMEPAGE="https://github.com/Laisky/kipp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 

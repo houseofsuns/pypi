@@ -15,7 +15,7 @@ DESCRIPTION="Visualize 3D numpy arrays in the browser."
 
 HOMEPAGE="https://github.com/seung-lab/microviewer/"
 LICENSE="License :: OSI Approved :: GNU Lesser General Public License v2 or later LGPLv2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

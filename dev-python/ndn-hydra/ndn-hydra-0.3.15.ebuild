@@ -15,7 +15,7 @@ DESCRIPTION="ndn-hydra: An NDN distributed repository with resiliency coded in p
 
 HOMEPAGE="https://github.com/justincpresley/ndn-hydra"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

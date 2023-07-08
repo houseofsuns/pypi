@@ -15,7 +15,7 @@ DESCRIPTION="Codenerix Extensions is a module that enables CODENERIX to set exte
 
 HOMEPAGE="https://github.com/codenerix/django-codenerix-extensions"
 LICENSE="Apache License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python envelope for the popular C librarylibjpeg for handling JPEG 
 
 HOMEPAGE="https://pypi.org/project/jpeglib/"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

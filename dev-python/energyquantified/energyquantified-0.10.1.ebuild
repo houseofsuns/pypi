@@ -15,7 +15,7 @@ DESCRIPTION="Energy Quantified Time series API client."
 
 HOMEPAGE="https://github.com/energyquantified/eq-python-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

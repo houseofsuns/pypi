@@ -15,7 +15,7 @@ DESCRIPTION="HTTP Status codes, names, and descriptions."
 
 HOMEPAGE="https://github.com/DanielOaks/http_status"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

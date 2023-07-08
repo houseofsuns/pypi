@@ -15,7 +15,7 @@ DESCRIPTION="A versioned python wrapper package for The CMU Pronouncing Dictiona
 
 HOMEPAGE="https://github.com/prosegrinder/python-cmudict"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

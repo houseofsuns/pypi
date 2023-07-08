@@ -15,7 +15,7 @@ DESCRIPTION="Асинхронный REST-клиент для API Finam"
 
 HOMEPAGE="https://github.com/DBoyara/FinamTradeApiPy"
 LICENSE="GNU GPL v.3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

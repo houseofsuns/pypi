@@ -15,7 +15,7 @@ DESCRIPTION="Build services in python with as little code as possible"
 
 HOMEPAGE="http://github.com/facebook/sparts"
 LICENSE="BSD+"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

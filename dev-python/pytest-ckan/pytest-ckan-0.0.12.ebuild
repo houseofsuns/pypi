@@ -15,7 +15,7 @@ DESCRIPTION="Backport of CKAN 2.9 pytest plugin and fixtures to CAKN 2.8"
 
 HOMEPAGE="https://github.com/datopian/pytest-ckan"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

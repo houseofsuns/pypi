@@ -15,7 +15,7 @@ DESCRIPTION="Useful classes extending langchain library"
 
 HOMEPAGE="https://github.com/dimitree54/yid_langchain_extensions"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

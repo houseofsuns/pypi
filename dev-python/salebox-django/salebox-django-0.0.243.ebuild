@@ -15,7 +15,7 @@ DESCRIPTION="Django ecommerce powered by Salebox"
 
 HOMEPAGE="https://salebox.io"
 LICENSE="BSD licence, see LICENCE file"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

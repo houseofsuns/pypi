@@ -15,7 +15,7 @@ DESCRIPTION="pyenv lets you easily switch between multiple versions of Python. I
 
 HOMEPAGE="https://github.com/pyenv-win/pyenv-win.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

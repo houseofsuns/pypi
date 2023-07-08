@@ -15,7 +15,7 @@ DESCRIPTION="🏺 Read/write JSON/TOML/Yaml/txt 🏺"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://${REALNAME}es.pythonhosted.org/packages/42/6e/ab21a0f2d1b686c7d0e397af65a1f309481b1b0df3889f9ea9bd3fe77296/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

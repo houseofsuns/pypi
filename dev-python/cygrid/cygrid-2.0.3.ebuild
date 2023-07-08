@@ -15,7 +15,7 @@ DESCRIPTION="Cygrid is a cython-powered convolution-based gridding module for as
 
 HOMEPAGE="https://github.com/bwinkel/cygrid"
 LICENSE="GNU GPL v3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Fast, Extensible Progress Meter"
 
 HOMEPAGE="https://tqdm.github.io"
 LICENSE="MPLv2.0, MIT Licences"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

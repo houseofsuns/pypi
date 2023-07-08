@@ -15,7 +15,7 @@ DESCRIPTION="A decoration mechanism for boto3 that allows automatic decoration o
 
 HOMEPAGE="https://github.com/QuiNovas/botoinator"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

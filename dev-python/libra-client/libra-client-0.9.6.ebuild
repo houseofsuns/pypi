@@ -15,7 +15,7 @@ DESCRIPTION="A CLI inteface Libra client and Python API for Libra blockchain."
 
 HOMEPAGE="https://github.com/yuan-xy/libra-client.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

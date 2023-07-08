@@ -15,7 +15,7 @@ DESCRIPTION="python module for colorize string"
 
 HOMEPAGE="http://github.com/htaslan/color"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.1.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.1.tar.gz"
 RESTRICT="test"
 

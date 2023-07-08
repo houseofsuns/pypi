@@ -15,7 +15,7 @@ DESCRIPTION="Custom FILE_STORAGE for Django. Saves files in your database instea
 
 HOMEPAGE="https://github.com/victor-o-silva/db_file_storage"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

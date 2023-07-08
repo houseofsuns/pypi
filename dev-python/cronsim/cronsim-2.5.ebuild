@@ -15,7 +15,7 @@ DESCRIPTION="Cron expression parser and evaluator"
 
 HOMEPAGE="https://github.com/cuu508/cronsim"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

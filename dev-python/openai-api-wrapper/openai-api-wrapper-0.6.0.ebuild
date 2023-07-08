@@ -15,7 +15,7 @@ DESCRIPTION="This Python package provides a comprehensive and efficient wrapper 
 
 HOMEPAGE="https://gitlab.com/runnable.it/openai-api-wrapper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

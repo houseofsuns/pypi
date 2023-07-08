@@ -15,7 +15,7 @@ DESCRIPTION="Implement your music models and algorithms directly in TuneFlow - T
 
 HOMEPAGE="https://github.com/tuneflow/tuneflow-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

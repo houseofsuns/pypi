@@ -15,7 +15,7 @@ DESCRIPTION="Nonebot2 插件，Google、Yandx和基于PicImageSearch的saucenao�
 
 HOMEPAGE="https://github.com/cpuopt/nonebot_plugin_imgexploration"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

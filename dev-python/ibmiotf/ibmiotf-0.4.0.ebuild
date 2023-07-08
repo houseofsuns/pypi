@@ -15,7 +15,7 @@ DESCRIPTION="Python Client for IBM Watson IoT Platform"
 
 HOMEPAGE="https://github.com/ibm-watson-iot/iot-python"
 LICENSE="Eclipse Public License - v 1.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

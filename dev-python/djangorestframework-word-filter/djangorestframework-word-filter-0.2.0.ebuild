@@ -15,7 +15,7 @@ DESCRIPTION="By word filter backend for Django REST Framework. No db backend spe
 
 HOMEPAGE="https://github.com/trollknurr/django-rest-framework-word-search-filter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

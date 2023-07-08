@@ -15,7 +15,7 @@ DESCRIPTION="Library of Eclectic Experiments by Tenchi"
 
 HOMEPAGE="https://github.com/Tenchi2xh/leet"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/2/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

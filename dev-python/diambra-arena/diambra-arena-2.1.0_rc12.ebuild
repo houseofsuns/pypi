@@ -15,7 +15,7 @@ DESCRIPTION="DIAMBRA™ Arena. Built with OpenAI Gym Python interface, easy to u
 
 HOMEPAGE="https://github.com/diambra/arena"
 LICENSE="Custom"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

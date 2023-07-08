@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for tract, a neural network inference engine"
 
 HOMEPAGE=""
 LICENSE="Apache License, Version 2.0 OR MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

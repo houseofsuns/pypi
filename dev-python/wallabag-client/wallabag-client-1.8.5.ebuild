@@ -15,7 +15,7 @@ DESCRIPTION="A command-line client for the self-hosted \`read-it-later\` app Wal
 
 HOMEPAGE="https://github.com/artur-shaik/wallabag-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

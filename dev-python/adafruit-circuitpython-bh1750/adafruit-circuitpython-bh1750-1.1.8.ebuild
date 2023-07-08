@@ -15,7 +15,7 @@ DESCRIPTION="CircuitPython library for use with the Adafruit BH1750 breakout"
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_BH1750"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

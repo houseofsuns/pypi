@@ -15,7 +15,7 @@ DESCRIPTION="streamlit-option-menu is a simple Streamlit component that allows u
 
 HOMEPAGE="https://github.com/victoryhb/streamlit-option-menu"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

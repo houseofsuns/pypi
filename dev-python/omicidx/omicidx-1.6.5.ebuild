@@ -15,7 +15,7 @@ DESCRIPTION="The OmicIDX project collects, reprocesses, and then republishes met
 
 HOMEPAGE="https://github.com/omicidx/omicidx-parsers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

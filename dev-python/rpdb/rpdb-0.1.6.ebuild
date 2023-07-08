@@ -15,7 +15,7 @@ DESCRIPTION="pdb wrapper with remote access via tcp socket"
 
 HOMEPAGE="http://tamentis.com/projects/rpdb"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

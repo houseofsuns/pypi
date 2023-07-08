@@ -15,7 +15,7 @@ DESCRIPTION="An Orthanc python plugin based framework to extend Orthanc's featur
 
 HOMEPAGE="https://github.com/walkIT-nl/orthanc-server-extensions"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An analysis and visualization toolkit for volumetric data"
 
 HOMEPAGE="https://yt-project.org/"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.p${REALNAME}honhosted.org/packages/ac/f2/fcfec00fb21fed77ce4623785ccd572a42feb2c68200cbc26b0e0c6649d7/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

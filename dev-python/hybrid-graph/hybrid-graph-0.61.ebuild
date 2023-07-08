@@ -15,7 +15,7 @@ DESCRIPTION="A python package for accessing and Hybrid-graph Datasets and train-
 
 HOMEPAGE="https://github.com/Zehui127/hybrid-graph-benchmark/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

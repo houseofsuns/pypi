@@ -15,7 +15,7 @@ DESCRIPTION="Time code using syntax similar to tic and toc in MATLAB"
 
 HOMEPAGE="https://github.com/ericcfields/pytictoc"
 LICENSE="BSD three-clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

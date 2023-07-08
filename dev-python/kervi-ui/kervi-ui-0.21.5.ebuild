@@ -15,7 +15,7 @@ DESCRIPTION="UI plugin for the kervi framework. It is included as dependency whe
 
 HOMEPAGE="https://github.com/kervi/kervi-ui"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

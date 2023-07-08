@@ -15,7 +15,7 @@ DESCRIPTION="\"A python client library for the Kaleidescape System Control Proto
 
 HOMEPAGE="https://github.com/SteveEasley/pykaleidescape"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

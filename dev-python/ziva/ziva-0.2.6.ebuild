@@ -15,7 +15,7 @@ DESCRIPTION="Library for communicating with DMS-ziva based devices"
 
 HOMEPAGE="https://github.com/belingarb/ziva"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

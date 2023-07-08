@@ -15,7 +15,7 @@ DESCRIPTION="Execute code blocks in Sphinx and display the output"
 
 HOMEPAGE="https://github.com/spacemanspiff2007/sphinx-exec-code"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

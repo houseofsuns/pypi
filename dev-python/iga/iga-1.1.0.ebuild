@@ -15,7 +15,7 @@ DESCRIPTION="InvenioRDM GitHub Archiver"
 
 HOMEPAGE="https://github.com/caltechlibrary/iga"
 LICENSE="https://github.com/caltechlibrary/iga/blob/main/LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

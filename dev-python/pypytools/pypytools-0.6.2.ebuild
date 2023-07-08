@@ -15,7 +15,7 @@ DESCRIPTION="A collection of useful tools to use PyPy-specific features, with CP
 
 HOMEPAGE="http://bitbucket.org/antocuni/pypytools/"
 LICENSE="MIT X11 style"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

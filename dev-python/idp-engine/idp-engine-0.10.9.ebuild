@@ -15,7 +15,7 @@ DESCRIPTION="IDP-Z3 is a reasoning engine for knowledge represented using the FO
 
 HOMEPAGE="https://www.idp-z3.be"
 LICENSE="GNU LGPL 3"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

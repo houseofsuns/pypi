@@ -15,7 +15,7 @@ DESCRIPTION="Xilinx RapidWright Framework Wrapped for Python."
 
 HOMEPAGE="https://github.com/Xilinx/RapidWright"
 LICENSE="Apache 2.0 and Others"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

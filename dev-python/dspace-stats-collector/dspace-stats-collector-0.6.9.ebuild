@@ -15,7 +15,7 @@ DESCRIPTION="A python library for sending usage stats events from Dspace to Mato
 
 HOMEPAGE="https://github.com/lareferencia/dspace-stats-collector"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

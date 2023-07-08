@@ -15,7 +15,7 @@ DESCRIPTION="A Comprehensive Tool for Meeting Alignment, Annotation and Evaluati
 
 HOMEPAGE="https://github.com/ELITR/alignmeet"
 LICENSE="TBD"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

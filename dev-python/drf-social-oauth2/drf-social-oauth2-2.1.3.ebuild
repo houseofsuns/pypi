@@ -15,7 +15,7 @@ DESCRIPTION="drf-social-oauth2 is a frameworks meant to be used with Django and 
 
 HOMEPAGE="https://github.com/wagnerdelima/drf-social-oauth2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

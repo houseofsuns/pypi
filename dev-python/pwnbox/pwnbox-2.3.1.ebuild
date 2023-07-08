@@ -15,7 +15,7 @@ DESCRIPTION="The CLI tool that lets you easily deploy, customize and manage PwnB
 
 HOMEPAGE="https://github.com/deadpackets/pwnbox-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

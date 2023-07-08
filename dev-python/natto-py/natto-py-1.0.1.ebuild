@@ -15,7 +15,7 @@ DESCRIPTION="A Tasty Python Binding with MeCab(FFI-based, no SWIG or compiler ne
 
 HOMEPAGE="https://github.com/buruzaemon/natto-py"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

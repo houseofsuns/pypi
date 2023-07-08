@@ -15,7 +15,7 @@ DESCRIPTION="A Python module to calculate an estimation of the Sample Entropy of
 
 HOMEPAGE="https://readthedocs.org/projects/sampen/"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

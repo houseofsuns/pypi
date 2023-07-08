@@ -15,7 +15,7 @@ DESCRIPTION="Django Solo helps working with singletons"
 
 HOMEPAGE="https://github.com/lazybird/django-solo/"
 LICENSE="Creative Commons Attribution 3.0 Unported"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

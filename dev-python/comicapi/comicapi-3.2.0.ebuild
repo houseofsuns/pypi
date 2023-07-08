@@ -15,7 +15,7 @@ DESCRIPTION="Comic archive (cbr/cbz/cbt) and metadata utilities. Extracted from 
 
 HOMEPAGE="https://github.com/OzzieIsaacs/comicapi"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="This is a menu to control an integrating sphere through a serial in
 
 HOMEPAGE="https://gitlab.com/fabriziodifran/esfera-codigo-verilog"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A library to send rc signals with the RaspyRFM module"
 
 HOMEPAGE="https://github.com/markusressel/raspyrfm-client"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.win-amd64.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.win-amd64.zip"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.win-amd64.zip"
 RESTRICT="test"
 

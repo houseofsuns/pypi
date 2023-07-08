@@ -15,7 +15,7 @@ DESCRIPTION="An advanced NSFW wrapper, complete rewrite and overhaul of the orig
 
 HOMEPAGE="https://github.com/sinkaroid/scathach-api.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

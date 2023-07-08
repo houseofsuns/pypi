@@ -15,7 +15,7 @@ DESCRIPTION="Encoder for unicode to RTF 1.5 command sequences"
 
 HOMEPAGE="http://pypi.python.org/pypi/rtfunicode"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

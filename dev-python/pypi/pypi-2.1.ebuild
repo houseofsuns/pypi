@@ -15,7 +15,7 @@ DESCRIPTION="PyPI is the Python Package Index at http://pypi.org/"
 
 HOMEPAGE="http://wiki.python.org/moin/CheeseShopDev"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

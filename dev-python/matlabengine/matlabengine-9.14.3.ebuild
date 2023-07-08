@@ -15,7 +15,7 @@ DESCRIPTION="A module to call MATLAB from Python"
 
 HOMEPAGE="https://github.com/mathworks/matlab-engine-for-python/"
 LICENSE="LICENSE.txt, located in this repository"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

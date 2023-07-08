@@ -15,7 +15,7 @@ DESCRIPTION="raw_id_fields widget replacement that handles display of an object'
 
 HOMEPAGE="https://github.com/lincolnloop/django-dynamic-raw-id"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

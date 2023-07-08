@@ -15,7 +15,7 @@ DESCRIPTION="A collection of Python extensions and tools used in BCG GAMMA's ope
 
 HOMEPAGE="https://github.com/BCG-Gamma/pytools"
 LICENSE="Apache Software License v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

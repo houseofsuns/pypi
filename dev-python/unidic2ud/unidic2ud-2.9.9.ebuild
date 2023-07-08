@@ -15,7 +15,7 @@ DESCRIPTION="Tokenizer POS-tagger Lemmatizer and Dependency-parser for modern an
 
 HOMEPAGE="https://github.com/KoichiYasuoka/UniDic2UD"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

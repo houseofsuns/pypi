@@ -15,7 +15,7 @@ DESCRIPTION="Code Coverage Report generator for Firefox"
 
 HOMEPAGE="https://github.com/mozilla/code-coverage"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

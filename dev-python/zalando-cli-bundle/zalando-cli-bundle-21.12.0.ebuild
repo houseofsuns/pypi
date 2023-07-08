@@ -15,7 +15,7 @@ DESCRIPTION="CLI bundle for Zalando developers"
 
 HOMEPAGE="https://github.bus.zalan.do/developer-productivity/zalando-cli-bundle"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

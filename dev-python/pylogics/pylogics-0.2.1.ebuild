@@ -15,7 +15,7 @@ DESCRIPTION="A Python library for logic formalisms representation and manipulati
 
 HOMEPAGE="https://whitemech.github.io/pylogics"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

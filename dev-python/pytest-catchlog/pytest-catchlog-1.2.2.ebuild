@@ -15,7 +15,7 @@ DESCRIPTION="py.test plugin to catch log messages. This is a fork of pytest-capt
 
 HOMEPAGE="https://github.com/eisensheng/pytest-catchlog"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Visualize and force decode YARA and regex matches found in a file o
 
 HOMEPAGE="https://github.com/michelcrypt4d4mus/yaralyzer"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="WSRPC is the RPC over WebSocket for aiohttp"
 
 HOMEPAGE="https://github.com/wsrpc/wsrpc-aiohttp"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

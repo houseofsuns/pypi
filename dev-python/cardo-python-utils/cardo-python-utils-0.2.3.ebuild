@@ -15,7 +15,7 @@ DESCRIPTION="Python library enhanced with a wide range of functions for differen
 
 HOMEPAGE="https://github.com/CardoAI/cardo-python-utils"
 LICENSE="MIT X11"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

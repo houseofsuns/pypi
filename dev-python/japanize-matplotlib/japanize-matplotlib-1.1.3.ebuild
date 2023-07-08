@@ -15,7 +15,7 @@ DESCRIPTION="matplotlibのフォント設定を自動で日本語化する"
 
 HOMEPAGE="https://github.com/uehara1414/japanize-matplotlib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

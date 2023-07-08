@@ -15,7 +15,7 @@ DESCRIPTION="Automated Metadata Service: Manage metadata from different sources.
 
 HOMEPAGE="https://github.com/caltechlibrary/ames"
 LICENSE="https://data.caltech.edu/license"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

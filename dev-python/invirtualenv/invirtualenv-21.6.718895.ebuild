@@ -15,7 +15,7 @@ DESCRIPTION="Tool to abstract host deployment of Python packages"
 
 HOMEPAGE="https://github.com/yahoo/invirtualenv"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

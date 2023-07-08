@@ -15,7 +15,7 @@ DESCRIPTION="A pure python bbcode parser and formatter."
 
 HOMEPAGE="https://github.com/dcwatson/bbcode"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

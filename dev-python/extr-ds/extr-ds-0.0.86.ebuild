@@ -15,7 +15,7 @@ DESCRIPTION="Library to quickly build basic datasets for Named Entity Recognitio
 
 HOMEPAGE="https://github.com/dpasse/extr-ds"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Panoply: save commands and reuse them"
 
 HOMEPAGE="https://github.com/jeremynac/panoply"
 LICENSE="LICENCE"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

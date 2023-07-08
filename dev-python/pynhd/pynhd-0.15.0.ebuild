@@ -15,7 +15,7 @@ DESCRIPTION="Access and navigate NHDPlus V2 via various web services, e.g., NLDI
 
 HOMEPAGE="https://docs.hyriver.io/readme/pynhd.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

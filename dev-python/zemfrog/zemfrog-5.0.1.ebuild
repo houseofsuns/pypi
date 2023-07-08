@@ -15,7 +15,7 @@ DESCRIPTION="Zemfrog is a simple framework based on flask for building a REST AP
 
 HOMEPAGE="https://github.com/zemfrog/zemfrog"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

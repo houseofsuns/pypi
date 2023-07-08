@@ -15,7 +15,7 @@ DESCRIPTION="Python utilities for IBM Watson Studio Pipelines"
 
 HOMEPAGE="https://github.ibm.com/AILifecycle/ibm-watson-studio-pipelines"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

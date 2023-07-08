@@ -15,7 +15,7 @@ DESCRIPTION="A utility for simplifying python-docx document objects"
 
 HOMEPAGE="https://microsofteconomics.visualstudio.com/EconTools/_git/loadify?_a=history"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

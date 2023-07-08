@@ -15,7 +15,7 @@ DESCRIPTION="无数据问答插件"
 
 HOMEPAGE="https://github.com/kexue-z/nonebot-plugin-word-bank2"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Numpy wrapper for fpzip algorithm (P. Lindstrom & M. Isenburg, 2006
 
 HOMEPAGE="https://github.com/seung-lab/fpzip/"
 LICENSE="None"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

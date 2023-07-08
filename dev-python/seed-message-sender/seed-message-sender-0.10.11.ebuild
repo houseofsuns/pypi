@@ -15,7 +15,7 @@ DESCRIPTION="Seed Message Sender mircoservice"
 
 HOMEPAGE="http://github.com/praekelt/seed-message-sender"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

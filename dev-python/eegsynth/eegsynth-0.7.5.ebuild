@@ -15,7 +15,7 @@ DESCRIPTION="Converting real-time EEG into sounds, music and visual effects"
 
 HOMEPAGE="http://www.eegsynth.org"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

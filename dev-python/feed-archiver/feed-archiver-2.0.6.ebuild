@@ -15,7 +15,7 @@ DESCRIPTION="Archive the full contents of RSS/Atom syndication feeds including e
 
 HOMEPAGE="https://gitlab.com/rpatterson/feed-archiver"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

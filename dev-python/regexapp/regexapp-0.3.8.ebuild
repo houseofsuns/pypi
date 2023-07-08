@@ -15,7 +15,7 @@ DESCRIPTION="The application to generate regex pattern."
 
 HOMEPAGE="https://github.com/Geeks-Trident-LLC/regexapp"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

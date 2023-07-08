@@ -15,7 +15,7 @@ DESCRIPTION="OpenStack Octavia Scalable Load Balancer as a Service"
 
 HOMEPAGE="https://docs.openstack.org/octavia/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A package designed to scrape webpages using aiohttp and asyncio. Ha
 
 HOMEPAGE="https://github.com/cia05rf/async-scrape/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

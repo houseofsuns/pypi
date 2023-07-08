@@ -15,7 +15,7 @@ DESCRIPTION="Integration for the Hayward OmniLogic pool control system"
 
 HOMEPAGE="https://github.com/djtimca/omnilogic-api"
 LICENSE="apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A thin wrapper for aiohttp client with Requests simplicity"
 
 HOMEPAGE="https://github.com/maxzheng/aiohttp-requests"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

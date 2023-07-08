@@ -15,7 +15,7 @@ DESCRIPTION="新台幣匯率擷取 (New Taiwan Dollar Exchange Rate)"
 
 HOMEPAGE="https://github.com/jimms/twder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

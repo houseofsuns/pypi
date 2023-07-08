@@ -15,7 +15,7 @@ DESCRIPTION="More cats to your life!"
 
 HOMEPAGE="https://github.com/zzzsochi/cats"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 

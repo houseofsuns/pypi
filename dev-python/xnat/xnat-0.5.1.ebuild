@@ -15,7 +15,7 @@ DESCRIPTION="An XNAT client that exposes the XNAT REST interface as python objec
 
 HOMEPAGE="https://gitlab.com/radiology/infrastructure/xnatpy"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

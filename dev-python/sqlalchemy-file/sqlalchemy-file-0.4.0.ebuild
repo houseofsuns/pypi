@@ -15,7 +15,7 @@ DESCRIPTION="SQLAlchemy-file is a SQLAlchemy extension for attaching files to SQ
 
 HOMEPAGE="https://jowilf.github.io/sqlalchemy-file"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

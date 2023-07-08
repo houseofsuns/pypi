@@ -15,7 +15,7 @@ DESCRIPTION="a screen-scraping API for Mint.com"
 
 HOMEPAGE="https://github.com/mintapi/mintapi"
 LICENSE="The MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

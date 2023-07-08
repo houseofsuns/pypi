@@ -15,7 +15,7 @@ DESCRIPTION="Collective Knowledge - a lightweight knowledge manager to organize,
 
 HOMEPAGE="https://github.com/mlcommons/ck"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/pa${REALNAME}ages/f4/29/b4c314545e53f113816b2965ce6b457272dff06d7ba4a346ad1196cb60cb/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

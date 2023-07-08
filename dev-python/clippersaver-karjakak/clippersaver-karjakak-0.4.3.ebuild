@@ -15,7 +15,7 @@ DESCRIPTION="ClipperSaver will clip everything copied and can be structured for 
 
 HOMEPAGE="https://github.com/kakkarja/ClipperSaver"
 LICENSE="BSD3 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

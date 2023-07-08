@@ -15,7 +15,7 @@ DESCRIPTION="Loads cookies from your browser into a cookiejar object so can down
 
 HOMEPAGE="https://github.com/richardpenman/browsercookie"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

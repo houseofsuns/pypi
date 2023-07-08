@@ -15,7 +15,7 @@ DESCRIPTION="Runs custom filters on Elasticsearch and alerts on matches"
 
 HOMEPAGE=""
 LICENSE="Copyright 2014 Yelp"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

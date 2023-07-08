@@ -15,7 +15,7 @@ DESCRIPTION="Create API wrappers/clients in minutes, enjoying both blocking and 
 
 HOMEPAGE="https://github.com/FalseDev/instant-api-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

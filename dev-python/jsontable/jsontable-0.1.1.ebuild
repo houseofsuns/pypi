@@ -15,7 +15,7 @@ DESCRIPTION="Convert a JSON to a table"
 
 HOMEPAGE="https://github.com/ernestomonroy/jsontable"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

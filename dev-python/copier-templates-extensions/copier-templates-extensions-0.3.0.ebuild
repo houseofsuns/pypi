@@ -15,7 +15,7 @@ DESCRIPTION="Special Jinja2 extension for Copier that allows to load extensions 
 
 HOMEPAGE="https://pawamoy.github.io/copier-templates-extensions"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

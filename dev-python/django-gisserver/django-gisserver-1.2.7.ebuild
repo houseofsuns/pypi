@@ -15,7 +15,7 @@ DESCRIPTION="Django speaking WFS 2.0 (exposing GeoDjango model fields)"
 
 HOMEPAGE="https://github.com/amsterdam/django-gisserver"
 LICENSE="Mozilla Public License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="django_print_sql is an easy-to-use SQL debug tool for Django develo
 
 HOMEPAGE="https://github.com/rabbit-aaron/django-print-sql"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

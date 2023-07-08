@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight helpers for views returning json data in Django."
 
 HOMEPAGE="https://github.com/runekaagaard/jason"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="WebVirtMgr panel for manage virtual machine"
 
 HOMEPAGE="http://github.com/retspen/webvirtmgr"
 LICENSE="Apache Licence, Version 2.0."
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

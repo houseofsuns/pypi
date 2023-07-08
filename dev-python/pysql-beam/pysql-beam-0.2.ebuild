@@ -15,7 +15,7 @@ DESCRIPTION="Apache beam mysql and postgres io connector in pure python"
 
 HOMEPAGE="https://bitbucket.org/dverma90/pysql-beam"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

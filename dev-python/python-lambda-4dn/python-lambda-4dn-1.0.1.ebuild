@@ -15,7 +15,7 @@ DESCRIPTION="FORKED for 4dn-dcic. Use to package and deploy lambda functions."
 
 HOMEPAGE="https://github.com/4dn-dcic/python-lambda"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="pywbem - A WBEM client"
 
 HOMEPAGE="https://pywbem.github.io/pywbem/"
 LICENSE="LGPL version 2.1, or at your option any later version"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

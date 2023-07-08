@@ -15,7 +15,7 @@ DESCRIPTION="CLI to help with an ADR process lifecycle (proposal/approval/reject
 
 HOMEPAGE="https://github.com/opinionated-digital-center/pyadr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

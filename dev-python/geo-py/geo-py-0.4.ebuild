@@ -15,7 +15,7 @@ DESCRIPTION="Set of algorithms and structures related to geodesy and geospatial 
 
 HOMEPAGE="https://github.com/gojuno/geo-py"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

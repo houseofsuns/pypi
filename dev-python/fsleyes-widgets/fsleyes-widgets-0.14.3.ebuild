@@ -15,7 +15,7 @@ DESCRIPTION="A collection of wxPython widgets used by FSLeyes"
 
 HOMEPAGE="https://git.fmrib.ox.ac.uk/fsl/fsleyes/widgets"
 LICENSE="Apache License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

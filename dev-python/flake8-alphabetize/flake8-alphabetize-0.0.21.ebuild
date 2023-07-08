@@ -15,7 +15,7 @@ DESCRIPTION="A Python style checker for alphabetizing import and __all__."
 
 HOMEPAGE="https://github.com/tlocke/flake8-alphabetize"
 LICENSE="MIT No Attribution"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

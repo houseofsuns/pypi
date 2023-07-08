@@ -15,7 +15,7 @@ DESCRIPTION="A mostly universal library to parse and compare software package ve
 
 HOMEPAGE="https://github.com/nexB/univers"
 LICENSE="Apache-2.0 AND BSD-3-Clause AND MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python BPF Assembler"
 
 HOMEPAGE="https://github.com/segevfiner/pybpf_asm"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A functional api for scientific data"
 
 HOMEPAGE="https://github.com/ensemblegov/kamodo-core"
 LICENSE="NASA OPEN SOURCE AGREEMENT VERSION 1.3"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

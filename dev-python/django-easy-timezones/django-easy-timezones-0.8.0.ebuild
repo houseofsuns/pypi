@@ -15,7 +15,7 @@ DESCRIPTION="Easy timezones for Django (>=1.7) based on MaxMind GeoIP."
 
 HOMEPAGE="https://github.com/Miserlou/django-easy-timezones"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

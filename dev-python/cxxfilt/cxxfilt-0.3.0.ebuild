@@ -15,7 +15,7 @@ DESCRIPTION="Python interface to c++filt / abi::__cxa_demangle"
 
 HOMEPAGE="https://github.com/afq984/python-cxxfilt"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

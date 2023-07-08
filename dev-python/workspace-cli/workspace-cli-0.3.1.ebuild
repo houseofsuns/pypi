@@ -15,7 +15,7 @@ DESCRIPTION="Manage interdependent projects in a workspace."
 
 HOMEPAGE="https://github.com/jacksmith15/workspace-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

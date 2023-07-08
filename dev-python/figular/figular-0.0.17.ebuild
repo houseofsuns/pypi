@@ -15,7 +15,7 @@ DESCRIPTION="Figular generates visualisations from flexible, reusable parts"
 
 HOMEPAGE="https://figular.com/"
 LICENSE="AGPL-3.0-or-later AND CC-BY-4.0 AND CC-BY-SA-4.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

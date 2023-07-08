@@ -15,7 +15,7 @@ DESCRIPTION="an opinionated web framework that stays out of your way"
 
 HOMEPAGE="https://ragt.ag/code/projects/webint"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

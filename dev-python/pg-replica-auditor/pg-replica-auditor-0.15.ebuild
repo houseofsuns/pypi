@@ -15,7 +15,7 @@ DESCRIPTION="Run a few sanity checks on your logical PostgreSQL replica to make 
 
 HOMEPAGE="https://github.com/levkk/pg-replica-auditor"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

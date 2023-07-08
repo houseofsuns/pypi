@@ -15,7 +15,7 @@ DESCRIPTION="generate OpenAPI document and validate request&response with Python
 
 HOMEPAGE="https://github.com/0b01001001/spectree"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

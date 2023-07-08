@@ -15,7 +15,7 @@ DESCRIPTION="The Python interface to the Flickr API"
 
 HOMEPAGE="https://stuvel.eu/flickrapi"
 LICENSE="PYTHON"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

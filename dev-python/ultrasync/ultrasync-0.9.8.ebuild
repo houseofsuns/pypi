@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper to XGen/XGen8/Hills/Interlogix NX-595E/UltraSync ZeroWire"
 
 HOMEPAGE="https://github.com/caronc/ultrasync"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

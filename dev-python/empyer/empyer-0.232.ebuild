@@ -15,7 +15,7 @@ DESCRIPTION="Electron Microscopy tools for analyzing 4 and 5 dimensional STEM da
 
 HOMEPAGE="https://github.com/CSSFrancis/empyer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

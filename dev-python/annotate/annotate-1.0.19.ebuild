@@ -15,7 +15,7 @@ DESCRIPTION="Decorator to set a function's __annotations__ like Py3."
 
 HOMEPAGE="https://pypi.org/project/annotate/"
 LICENSE="zlib/libpng License ; https://opensource.org/licenses/Zlib"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

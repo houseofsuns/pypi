@@ -15,7 +15,7 @@ DESCRIPTION="GFPGAN aims at developing Practical Algorithms for Real-world Face 
 
 HOMEPAGE="https://github.com/TencentARC/GFPGAN"
 LICENSE="Apache License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

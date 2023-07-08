@@ -15,7 +15,7 @@ DESCRIPTION="Library to use pose estimation in your projects easily"
 
 HOMEPAGE="https://github.com/Tlaloc-Es/aipose"
 LICENSE="https://github.com/Tlaloc-Es/aipose/blob/master/LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

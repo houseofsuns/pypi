@@ -15,7 +15,7 @@ DESCRIPTION="A bundle of auxiliary scripts for the Anycore project"
 
 HOMEPAGE="https://github.com/s117/anycore-dbg-supplement.git"
 LICENSE="Other/Proprietary License"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

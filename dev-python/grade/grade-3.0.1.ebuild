@@ -15,7 +15,7 @@ DESCRIPTION="a package focused on autograding"
 
 HOMEPAGE="https://github.com/thoward27/grade"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

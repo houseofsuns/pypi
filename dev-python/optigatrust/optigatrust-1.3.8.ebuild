@@ -15,7 +15,7 @@ DESCRIPTION="The ctypes Python wrapper for the Infineon OPTIGA(TM) Trust family 
 
 HOMEPAGE="https://github.com/infineon/python-optiga-trust"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Order utilities for 0x applications"
 
 HOMEPAGE="https://github.com/0xProject/0x-monorepo/tree/development/python-packages/order_utils"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/0/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

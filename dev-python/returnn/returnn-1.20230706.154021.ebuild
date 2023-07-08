@@ -15,7 +15,7 @@ DESCRIPTION="The RWTH extensible training framework for universal recurrent neur
 
 HOMEPAGE="https://github.com/rwth-i6/returnn/"
 LICENSE="RETURNN license"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

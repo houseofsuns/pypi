@@ -15,7 +15,7 @@ DESCRIPTION="CERC Geometry Library with different modules to manipulate geometri
 
 HOMEPAGE="https://nextgenerations-cities.encs.concordia.ca/gitea/p_yefi/geometry"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

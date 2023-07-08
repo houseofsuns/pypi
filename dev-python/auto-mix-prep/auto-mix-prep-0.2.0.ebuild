@@ -15,7 +15,7 @@ DESCRIPTION="Application for automatically preparing stems for mixing."
 
 HOMEPAGE="https://github.com/dashj/auto-mix-prep"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

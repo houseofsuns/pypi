@@ -15,7 +15,7 @@ DESCRIPTION="A pytest plugin for preserving the order in which Django runs tests
 
 HOMEPAGE="https://github.com/rlucioni/pytest-django-ordering"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

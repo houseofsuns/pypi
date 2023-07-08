@@ -15,7 +15,7 @@ DESCRIPTION="A simple plugin to annotate cell centroids in 3D images"
 
 HOMEPAGE="https://github.com/tim-vdl/napari-cell-centroid-annotator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="a \`formatter_class\` for \`argparse\` that deals with ANSI colour 
 
 HOMEPAGE="https://github.com/arrai-innovations/argparse-color-formatter/"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

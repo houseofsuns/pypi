@@ -15,7 +15,7 @@ DESCRIPTION="A Python library that lets you write less code to do more things."
 
 HOMEPAGE="https://github.com/Richienb/quilt"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Native app used alongside the Pywalfox browser extension"
 
 HOMEPAGE="https://github.com/frewacom/pywalfox"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

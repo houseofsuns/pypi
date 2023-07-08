@@ -15,7 +15,7 @@ DESCRIPTION="DMARC-Compliant Message Constructor Library for List-Servs."
 
 HOMEPAGE="https://gitlab.com/teward/dmarcmsg"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

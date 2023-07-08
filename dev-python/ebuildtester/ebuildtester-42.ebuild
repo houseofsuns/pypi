@@ -15,7 +15,7 @@ DESCRIPTION="A container approach to test a Gentoo package within a clean stage3
 
 HOMEPAGE="http://ebuildtester.readthedocs.io/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

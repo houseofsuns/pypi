@@ -15,7 +15,7 @@ DESCRIPTION="Python interface to Oracle Database"
 
 HOMEPAGE="https://oracle.github.io/python-oracledb"
 LICENSE="Apache and/or UPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

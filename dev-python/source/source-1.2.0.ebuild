@@ -15,7 +15,7 @@ DESCRIPTION="A simple printer of source list"
 
 HOMEPAGE="http://www.cctv.com"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

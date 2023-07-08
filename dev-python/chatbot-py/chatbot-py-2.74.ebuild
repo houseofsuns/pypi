@@ -15,7 +15,7 @@ DESCRIPTION="中文聊天机器人， 根据自己的语料训练出自己想要
 
 HOMEPAGE="https://github.com/lin423497786/chatbot-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Paquet agrégeant des données administratives publiques pour en re
 
 HOMEPAGE="https://github.com/aktiur/data-france"
 LICENSE="GNU-GPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A simple tool to retrieve a weather forecast from DWD OpenData"
 
 HOMEPAGE="https://github.com/FL550/simple_dwd_weatherforecast.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

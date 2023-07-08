@@ -15,7 +15,7 @@ DESCRIPTION="For- and backwards compatibility layer for Django 1.4, 1.7, 1.8, 1.
 
 HOMEPAGE="https://github.com/arteria/django-compat"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

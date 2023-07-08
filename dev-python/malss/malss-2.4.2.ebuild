@@ -15,7 +15,7 @@ DESCRIPTION="MALSS: MAchine Learning Support System"
 
 HOMEPAGE="https://github.com/canard0328/malss/"
 LICENSE="MIT License: http://www.opensource.org/licenses/mit-license.php"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

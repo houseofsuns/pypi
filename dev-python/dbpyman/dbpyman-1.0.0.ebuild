@@ -15,7 +15,7 @@ DESCRIPTION="A package used to modify & view your MySQL database data dynamicall
 
 HOMEPAGE="https://github.com/JanikCodes/py_discord_db_management"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

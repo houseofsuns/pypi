@@ -15,7 +15,7 @@ DESCRIPTION="A software for sizing Heat Pump Water Heaters for buildings"
 
 HOMEPAGE="https://ecosizer.ecotope.com/sizer/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

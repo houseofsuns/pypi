@@ -15,7 +15,7 @@ DESCRIPTION="Active semi-supervised clustering algorithms for scikit-learn"
 
 HOMEPAGE="https://github.com/datamole-ai/active-semi-supervised-clustering"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

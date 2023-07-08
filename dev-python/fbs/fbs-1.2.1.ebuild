@@ -15,7 +15,7 @@ DESCRIPTION="Create cross-platform desktop applications with Python and Qt"
 
 HOMEPAGE="https://build-system.fman.io"
 LICENSE="GPLv3 or later"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

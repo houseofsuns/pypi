@@ -15,7 +15,7 @@ DESCRIPTION="gmpy2 interface to GMP/MPIR, MPFR, and MPC for Python 2.7 and 3.5+"
 
 HOMEPAGE="https://github.com/aleaxit/gmpy"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="[CHaracter Ocr COordination for MUFI iN texts] A simple script to m
 
 HOMEPAGE="https://github.com/ponteineptique/choco-mufin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="H2O, Fast Scalable Machine Learning, for python"
 
 HOMEPAGE="https://github.com/h2oai/h2o-3.git"
 LICENSE="Apache v2"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

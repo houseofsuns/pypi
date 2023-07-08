@@ -15,7 +15,7 @@ DESCRIPTION="In-line python grader client."
 
 HOMEPAGE="https://github.com/zackives/PennGrader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.win-amd64.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.win-amd64.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.win-amd64.zip"
 RESTRICT="test"
 

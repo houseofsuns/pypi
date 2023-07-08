@@ -15,7 +15,7 @@ DESCRIPTION="A script to share your obsidian vault (in partial way) using mkdocs
 
 HOMEPAGE="https://github.com/Mara-Li/mkdocs_obsidian_publish"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

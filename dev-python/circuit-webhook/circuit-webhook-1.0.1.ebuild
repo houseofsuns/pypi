@@ -15,7 +15,7 @@ DESCRIPTION="circuit-webhook is a python client library for Unify Circuit api   
 
 HOMEPAGE="https://github.com/braam/unify/tree/master/circuit-webhook-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

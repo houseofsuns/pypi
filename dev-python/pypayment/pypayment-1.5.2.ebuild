@@ -15,7 +15,7 @@ DESCRIPTION="Payment providers API wrapper"
 
 HOMEPAGE="https://github.com/TimNekk/pypayment"
 LICENSE="Apache License, Version 2.0, see LICENSE file"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Downloads Australian NVCL datasets"
 
 HOMEPAGE="https://gitlab.com/csiro-geoanalytics/python-shared/nvcl_kit"
 LICENSE="CSIRO BSD/MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

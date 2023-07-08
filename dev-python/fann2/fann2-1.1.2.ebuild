@@ -15,7 +15,7 @@ DESCRIPTION="Fast Artificial Neural Network Library (FANN) Python bindings."
 
 HOMEPAGE="https://github.com/FutureLinkCorporation/fann2"
 LICENSE="GNU LESSER GENERAL PUBLIC LICENSE LGPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

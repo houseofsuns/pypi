@@ -15,7 +15,7 @@ DESCRIPTION="Easy-to-use UI for automatically sparsifying neural networks and cr
 
 HOMEPAGE="https://github.com/neuralmagic/sparsify"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

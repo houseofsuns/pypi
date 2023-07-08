@@ -15,7 +15,7 @@ DESCRIPTION="Ladybug extension to generate 2D charts."
 
 HOMEPAGE="https://github.com/ladybug-tools/ladybug-charts"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

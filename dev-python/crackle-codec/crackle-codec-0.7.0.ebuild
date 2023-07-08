@@ -15,7 +15,7 @@ DESCRIPTION="Crackle 3D dense segmentation compression codec."
 
 HOMEPAGE="https://github.com/seung-lab/crackle"
 LICENSE="License :: OSI Approved :: BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

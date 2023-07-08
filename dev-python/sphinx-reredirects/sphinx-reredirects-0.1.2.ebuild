@@ -15,7 +15,7 @@ DESCRIPTION="Handles redirects for moved pages in Sphinx documentation projects"
 
 HOMEPAGE="https://gitlab.com/documatt/sphinx-reredirects"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

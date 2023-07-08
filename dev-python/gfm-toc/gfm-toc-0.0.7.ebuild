@@ -15,7 +15,7 @@ DESCRIPTION="Simple and customizable way to generate TOC for Github Markdown fil
 
 HOMEPAGE="https://github.com/waynerv/github-markdown-toc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

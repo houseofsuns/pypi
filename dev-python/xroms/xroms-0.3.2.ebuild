@@ -15,7 +15,7 @@ DESCRIPTION="Package for working with ROMS output in xarray"
 
 HOMEPAGE="https://github.com/xoceanmodel/xroms"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

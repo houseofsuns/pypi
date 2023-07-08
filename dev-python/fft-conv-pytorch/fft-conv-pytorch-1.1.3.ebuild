@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of 1D, 2D, and 3D FFT convolutions in PyTorch."
 
 HOMEPAGE="https://github.com/fkodom/fft-conv-pytorch"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Genome Dashboard is the logic behind a web-based prototype of a gen
 
 HOMEPAGE="http://dna.engr.latech.edu/~gdash/GDash-landing-page/"
 LICENSE="Louisiana Tech University License"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

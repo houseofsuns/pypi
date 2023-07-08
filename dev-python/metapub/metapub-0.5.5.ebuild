@@ -15,7 +15,7 @@ DESCRIPTION="Pubmed / NCBI / eutils interaction library, handling the metadata o
 
 HOMEPAGE="https://github.com/metapub/metapub"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

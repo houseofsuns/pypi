@@ -15,7 +15,7 @@ DESCRIPTION="Pyntegrate is an example of various sorting algorithms and other fu
 
 HOMEPAGE="https://github.com/rtsfred3/pyntegrate"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

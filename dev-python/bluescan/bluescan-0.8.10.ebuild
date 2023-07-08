@@ -15,7 +15,7 @@ DESCRIPTION="\`bluescan\` has evolved into [\`bluing\`](https://github.com/fO-00
 
 HOMEPAGE="https://pypi.org/project/bluescan"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ViggoFiscal Backend Flask REST service"
 
 HOMEPAGE="https://gitlab.com/0RT1/viggofiscal-backend.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

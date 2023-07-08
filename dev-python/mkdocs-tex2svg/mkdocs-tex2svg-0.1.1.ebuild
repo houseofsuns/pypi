@@ -15,7 +15,7 @@ DESCRIPTION="Converts (inline and/or block) LaTeX snippets in Mkdocs, as base64 
 
 HOMEPAGE="https://gitlab.com/rod2ik/mkdocs-tex2svg.git"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

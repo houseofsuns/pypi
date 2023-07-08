@@ -15,7 +15,7 @@ DESCRIPTION="Seq2Pat: Sequence-to-Pattern Generation Library"
 
 HOMEPAGE="https://github.com/fidelity/seq2pat"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

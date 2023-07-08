@@ -15,7 +15,7 @@ DESCRIPTION="A package to interface with the HTTP API of the OpenEnergyMonitor T
 
 HOMEPAGE="https://github.com/Cadair/openenergymonitor_thermostat"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

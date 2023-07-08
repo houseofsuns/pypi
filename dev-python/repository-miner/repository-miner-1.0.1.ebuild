@@ -15,7 +15,7 @@ DESCRIPTION="A tool to mine software repositories for defect prediction."
 
 HOMEPAGE="https://github.com/radon-h2020/radon-repository-miner"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

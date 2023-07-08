@@ -15,7 +15,7 @@ DESCRIPTION="Sf Tools for Python3 Development"
 
 HOMEPAGE="https://github.com/sf-zhou/st"
 LICENSE="MIT"
-SRC_URI="https://files.pythonho${REALNAME}ed.org/packages/94/63/6611a0371025b343609d08c2b9295fe6602d4635acd221f45672ba181655/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

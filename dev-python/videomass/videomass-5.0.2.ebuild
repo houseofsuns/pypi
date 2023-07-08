@@ -15,7 +15,7 @@ DESCRIPTION="Videomass is a cross-platform GUI for FFmpeg and yt-dlp"
 
 HOMEPAGE="http://jeanslack.github.io/Videomass/"
 LICENSE="GPL3 Gnu Public License"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

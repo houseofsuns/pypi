@@ -15,7 +15,7 @@ DESCRIPTION="A cli tool to migrate Trend Micro Deep Security to the cloud."
 
 HOMEPAGE="https://github.com/ajaxbits/ds-migrator"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

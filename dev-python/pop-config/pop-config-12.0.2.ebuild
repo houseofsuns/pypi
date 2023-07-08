@@ -15,7 +15,7 @@ DESCRIPTION="The official tool to allow for creating and app-merging configurati
 
 HOMEPAGE="https://vmware.gitlab.io/pop/pop-config/en/latest/index.html"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

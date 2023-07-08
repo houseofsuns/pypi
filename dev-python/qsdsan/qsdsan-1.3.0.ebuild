@@ -15,7 +15,7 @@ DESCRIPTION="Quantitative Sustainable Design for sanitation and resource recover
 
 HOMEPAGE="https://github.com/QSD-Group/QSDsan"
 LICENSE="UIUC"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

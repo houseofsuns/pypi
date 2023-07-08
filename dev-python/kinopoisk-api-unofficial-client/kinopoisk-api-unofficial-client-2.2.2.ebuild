@@ -15,7 +15,7 @@ DESCRIPTION="API Client for the unofficial Kinopoisk api"
 
 HOMEPAGE="https://github.com/masterWeber/kinopoisk-api-unofficial-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="envclasses is a library to map fields on dataclass object to enviro
 
 HOMEPAGE="https://yukinarit.github.io/envclasses/envclasses.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

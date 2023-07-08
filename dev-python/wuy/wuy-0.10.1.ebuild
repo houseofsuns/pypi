@@ -15,7 +15,7 @@ DESCRIPTION="A simple module for making HTML GUI applications with python3/async
 
 HOMEPAGE="https://github.com/manatlan/wuy"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

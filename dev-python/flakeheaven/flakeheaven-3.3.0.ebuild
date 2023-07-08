@@ -15,7 +15,7 @@ DESCRIPTION="FlakeHeaven is a [Flake8](https://gitlab.com/pycqa/flake8) wrapper 
 
 HOMEPAGE="https://github.com/flakeheaven/flakeheaven"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

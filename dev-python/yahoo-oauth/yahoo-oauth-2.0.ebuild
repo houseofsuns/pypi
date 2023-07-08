@@ -15,7 +15,7 @@ DESCRIPTION="Python Yahoo OAuth Library. Supports OAuth1 and OAuth2"
 
 HOMEPAGE="https://github.com/josuebrunel/yahoo-oauth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

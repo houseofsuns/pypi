@@ -15,7 +15,7 @@ DESCRIPTION="Data Analysis and Visualization using Bootstrap-Coupled Estimation.
 
 HOMEPAGE="https://acclab.github.io/DABEST-python-docs"
 LICENSE="BSD 3-clause Clear License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Webpage Download in Python"
 
 HOMEPAGE="http://amikrop.gr/webpage.php"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 

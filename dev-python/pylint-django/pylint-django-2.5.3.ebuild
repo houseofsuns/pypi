@@ -15,7 +15,7 @@ DESCRIPTION="A Pylint plugin to help Pylint understand the Django web framework"
 
 HOMEPAGE="https://github.com/PyCQA/pylint-django"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A volume modeler computation-oriented. Include rendering bindings."
 
 HOMEPAGE="https://github.com/Dessia-tech/volmdlr"
 LICENSE="Creative Commons Attribution-Share Alike license"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

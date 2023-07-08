@@ -15,7 +15,7 @@ DESCRIPTION="Training wheels, side rails, and helicopter parent for your Deep Le
 
 HOMEPAGE="https://github.com/LukasHedegaard/ride"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

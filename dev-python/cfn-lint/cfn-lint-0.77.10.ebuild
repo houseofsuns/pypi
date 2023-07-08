@@ -15,7 +15,7 @@ DESCRIPTION="Checks CloudFormation templates for practices and behaviour that co
 
 HOMEPAGE="https://github.com/aws-cloudformation/cfn-python-lint"
 LICENSE="MIT no attribution"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

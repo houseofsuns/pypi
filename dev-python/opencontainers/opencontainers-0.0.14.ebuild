@@ -15,7 +15,7 @@ DESCRIPTION="Python module for oci specifications"
 
 HOMEPAGE="http://github.com/vsoch/oci-python"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A python library to control CoolMasterNet HVAC bridges over asyncio
 
 HOMEPAGE="https://github.com/OnFreund/pycoolmasternet-async"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

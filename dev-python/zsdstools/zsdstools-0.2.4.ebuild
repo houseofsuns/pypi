@@ -15,7 +15,7 @@ DESCRIPTION="For quickly create statistics analysis tools on Machine Learning mo
 
 HOMEPAGE="https://github.com/EasonJia9598/zsdstool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

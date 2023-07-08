@@ -15,7 +15,7 @@ DESCRIPTION="Draw DAGs (directed acyclic graphs) as ASCII art, à la git log --g
 
 HOMEPAGE="https://www.github.com/sambrightman/asciidag"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

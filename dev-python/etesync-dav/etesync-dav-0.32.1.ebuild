@@ -15,7 +15,7 @@ DESCRIPTION="A CalDAV and CardDAV frontend for EteSync"
 
 HOMEPAGE="https://github.com/etesync/etesync-dav"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

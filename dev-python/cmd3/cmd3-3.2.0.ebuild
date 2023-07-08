@@ -15,7 +15,7 @@ DESCRIPTION="cmd3 - A dynamic CMD shell with plugins"
 
 HOMEPAGE="https://github.com/cloudmesh/cmd3"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 

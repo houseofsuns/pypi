@@ -15,7 +15,7 @@ DESCRIPTION="OBytes django application for managing surveys, questions and answe
 
 HOMEPAGE="https://www.obytes.com/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

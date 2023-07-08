@@ -15,7 +15,7 @@ DESCRIPTION="Domain name permutation engine for detecting homograph phishing att
 
 HOMEPAGE="https://github.com/elceef/dnstwist"
 LICENSE="ASL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

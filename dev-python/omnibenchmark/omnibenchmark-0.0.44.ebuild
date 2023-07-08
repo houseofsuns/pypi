@@ -15,7 +15,7 @@ DESCRIPTION="Omnibenchmark core utilities: Setup and running of continous benchm
 
 HOMEPAGE="https://omnibenchmark.pages.uzh.ch/omni_dash"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

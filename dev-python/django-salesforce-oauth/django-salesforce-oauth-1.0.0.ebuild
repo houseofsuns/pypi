@@ -15,7 +15,7 @@ DESCRIPTION="Simple package for creating and signing users into your Django site
 
 HOMEPAGE="https://github.com/Kicksaw-Consulting/django-salesforce-oauth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

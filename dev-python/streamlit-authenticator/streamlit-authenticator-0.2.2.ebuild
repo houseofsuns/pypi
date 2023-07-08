@@ -15,7 +15,7 @@ DESCRIPTION="A secure authentication module to validate user credentials in a St
 
 HOMEPAGE="https://github.com/mkhorasani/Streamlit-Authenticator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

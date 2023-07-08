@@ -15,7 +15,7 @@ DESCRIPTION="Robot Framework keywords for HTTP requests"
 
 HOMEPAGE="https://github.com/peritus/robotframework-httplibrary"
 LICENSE="BEER-WARE"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

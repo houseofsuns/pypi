@@ -15,7 +15,7 @@ DESCRIPTION="Solid Waste Optimization Life-cycle Framework in Python(SwolfPy)."
 
 HOMEPAGE="https://swolfpy-project.github.io/"
 LICENSE="GNU GENERAL PUBLIC LICENSE V2"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

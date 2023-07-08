@@ -15,7 +15,7 @@ DESCRIPTION="A fast RPC library based on asyncio and MessagePack"
 
 HOMEPAGE="http://github.com/choleraehyq/aiorpc"
 LICENSE="WTFPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

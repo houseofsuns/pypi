@@ -15,7 +15,7 @@ DESCRIPTION="Parse serialised data to recover their original underlying types"
 
 HOMEPAGE="https://github.com/yushiyangk/parsetypes"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

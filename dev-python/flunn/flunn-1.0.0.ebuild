@@ -15,7 +15,7 @@ DESCRIPTION="Simple decoder and encoder for CBOR (fork of flynn)"
 
 HOMEPAGE="https://github.com/funny-falcon/flunn.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

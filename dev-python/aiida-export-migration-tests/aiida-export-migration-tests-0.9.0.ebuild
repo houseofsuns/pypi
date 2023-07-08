@@ -15,7 +15,7 @@ DESCRIPTION="Export archives for migration tests for AiiDA"
 
 HOMEPAGE="https://github.com/aiidateam/aiida-export-migration-tests"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

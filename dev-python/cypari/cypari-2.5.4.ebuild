@@ -15,7 +15,7 @@ DESCRIPTION="Sage's PARI extension, modified to stand alone."
 
 HOMEPAGE="https://bitbucket.org/t3m/cypari"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

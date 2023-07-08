@@ -15,7 +15,7 @@ DESCRIPTION="Extra fields for Peewee"
 
 HOMEPAGE="https://github.com/juancarlospaco/peewee-extra-fields"
 LICENSE="GPL-3 LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.zip"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Load configuration variables from a file or environment"
 
 HOMEPAGE="https://github.com/lincolnloop/goodconf/"
 LICENSE="Copyright c 2018 Lincoln Loop"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

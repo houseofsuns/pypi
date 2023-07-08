@@ -15,7 +15,7 @@ DESCRIPTION="How to encode sentences in a high-dimensional vector space, a.k.a.,
 
 HOMEPAGE="https://github.com/pdrm83/sent2vec"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

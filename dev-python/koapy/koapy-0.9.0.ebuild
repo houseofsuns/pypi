@@ -15,7 +15,7 @@ DESCRIPTION="Kiwoom Open Api Plus Python"
 
 HOMEPAGE="https://github.com/elbakramer/koapy"
 LICENSE="MIT OR Apache-2.0 OR GPL-3.0-or-later"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

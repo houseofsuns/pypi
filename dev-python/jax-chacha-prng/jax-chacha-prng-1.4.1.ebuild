@@ -15,7 +15,7 @@ DESCRIPTION="A pseudo-random number generator for JAX based on the 20 round ChaC
 
 HOMEPAGE="https://github.com/DPBayes/jax-chacha-prng"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

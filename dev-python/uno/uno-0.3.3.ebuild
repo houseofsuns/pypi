@@ -15,7 +15,7 @@ DESCRIPTION="Extremely fast and easy feature based HTML generator."
 
 HOMEPAGE="https://github.com/jlgoldb2/Uno"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

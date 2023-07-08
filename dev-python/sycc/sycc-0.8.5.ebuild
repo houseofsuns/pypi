@@ -15,7 +15,7 @@ DESCRIPTION="虹源三式(一个有技术含量的四圆计算器)"
 
 HOMEPAGE="https://project.sycc1.tk"
 LICENSE="SYCC license"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An open-source chatgpt tool ecosystem where you can combine tools w
 
 HOMEPAGE="https://github.com/goldfishh/chatgpt-tool-hub"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

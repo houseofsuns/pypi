@@ -15,7 +15,7 @@ DESCRIPTION="AWS CDK construct to send notifications for adds, drops, and trades
 
 HOMEPAGE="https://github.com/ftalburt/fantasy-hockey-notifier-cdk.git#readme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

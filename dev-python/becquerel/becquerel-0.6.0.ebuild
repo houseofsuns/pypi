@@ -15,7 +15,7 @@ DESCRIPTION="Tools for radiation spectral analysis."
 
 HOMEPAGE="https://github.com/lbl-anp/becquerel"
 LICENSE="Other/Proprietary License see LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

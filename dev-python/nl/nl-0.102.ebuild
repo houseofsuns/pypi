@@ -15,7 +15,7 @@ DESCRIPTION="A python library that provides a production system with an API mode
 
 HOMEPAGE="http://http://enriquepablo.github.com/nlproject/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

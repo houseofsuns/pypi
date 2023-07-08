@@ -15,7 +15,7 @@ DESCRIPTION="Thin wrapper to run simple climate models (emissions driven runs on
 
 HOMEPAGE="https://github.com/openscm/openscm-runner"
 LICENSE="3-Clause BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

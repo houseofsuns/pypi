@@ -15,7 +15,7 @@ DESCRIPTION="Formatter for behave that uses color but not fancy terminal reposit
 
 HOMEPAGE="https://github.com/msabramo/behave-plain-color-formatter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

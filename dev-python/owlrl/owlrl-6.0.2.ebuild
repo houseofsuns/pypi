@@ -15,7 +15,7 @@ DESCRIPTION="OWL-RL and RDFS based RDF Closure inferencing for Python"
 
 HOMEPAGE="https://github.com/RDFLib/OWL-RL/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

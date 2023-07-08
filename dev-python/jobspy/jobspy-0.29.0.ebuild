@@ -15,7 +15,7 @@ DESCRIPTION="Use Redis as a job input/output coordinator."
 
 HOMEPAGE="https://github.com/josiahcarlson/jobs"
 LICENSE="GNU LGPL v2.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

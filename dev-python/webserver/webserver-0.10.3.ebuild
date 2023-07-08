@@ -15,7 +15,7 @@ DESCRIPTION="Simple to use CLI for setting up nginx webserver in Docker Swarm an
 
 HOMEPAGE="https://gitlab.com/harry.sky.vortex/docker-webserver"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

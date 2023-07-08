@@ -15,7 +15,7 @@ DESCRIPTION="Powerview blinds API wrapper"
 
 HOMEPAGE="https://github.com/sander76/aio-powerview-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.win-amd64.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.win-amd64.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.win-amd64.zip"
 RESTRICT="test"
 

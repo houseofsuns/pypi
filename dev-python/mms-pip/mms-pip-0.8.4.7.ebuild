@@ -15,7 +15,7 @@ DESCRIPTION="A custom MMS Analytics module for Python3 by the Touchpoint Analyti
 
 HOMEPAGE="https://github.com/MediaMarktSaturn/mms-pip"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

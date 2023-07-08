@@ -15,7 +15,7 @@ DESCRIPTION="A tool for visualizing the decision boundary of a machine learning 
 
 HOMEPAGE="https://github.com/cristi2019255/MasterThesis2023"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

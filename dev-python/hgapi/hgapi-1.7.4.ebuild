@@ -15,7 +15,7 @@ DESCRIPTION="Python API to Mercurial using the command-line interface"
 
 HOMEPAGE="https://bitbucket.org/haard/hgapi"
 LICENSE="Do whatever you want, don't blame me"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

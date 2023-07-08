@@ -15,7 +15,7 @@ DESCRIPTION="A package that sets up a key-value vault to store and access variab
 
 HOMEPAGE="https://github.com/data-ductus/varvault"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

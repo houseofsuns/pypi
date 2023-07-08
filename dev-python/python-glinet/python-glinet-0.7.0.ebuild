@@ -15,7 +15,7 @@ DESCRIPTION="Python3 client for Gl.Inet LUCI API firmware 4.0 onwards."
 
 HOMEPAGE="https://github.com/tomtana/python-glinet"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

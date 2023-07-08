@@ -15,7 +15,7 @@ DESCRIPTION="CDK construct library that allows you to create KeyCloak service on
 
 HOMEPAGE="https://github.com/aws-samples/cdk-keycloak.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

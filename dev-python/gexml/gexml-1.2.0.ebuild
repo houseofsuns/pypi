@@ -15,7 +15,7 @@ DESCRIPTION="A dead-simple Object-XML mapper for Python."
 
 HOMEPAGE="https://github.com/ampledata/gexml"
 LICENSE="Copyright c 2009-2011 Ryan Kelly"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

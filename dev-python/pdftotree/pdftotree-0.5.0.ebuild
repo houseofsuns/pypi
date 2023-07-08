@@ -15,7 +15,7 @@ DESCRIPTION="Convert PDF into hOCR with text, tables, and figures being recogniz
 
 HOMEPAGE="https://github.com/HazyResearch/pdftotree"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

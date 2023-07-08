@@ -15,7 +15,7 @@ DESCRIPTION="Services surrounding KeyCloak, that use the REST API to read/update
 
 HOMEPAGE="https://github.com/WIPACrepo/keycloak-rest-services"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

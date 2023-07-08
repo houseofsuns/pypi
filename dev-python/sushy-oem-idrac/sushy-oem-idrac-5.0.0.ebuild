@@ -15,7 +15,7 @@ DESCRIPTION="Dell EMC iDRAC OEM extension package for the sushy library"
 
 HOMEPAGE="https://docs.openstack.org/sushy/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

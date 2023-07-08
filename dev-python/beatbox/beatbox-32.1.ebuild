@@ -15,7 +15,7 @@ DESCRIPTION="A Python library for querying/updating Saleforce.com data via SOAP 
 
 HOMEPAGE="http://code.google.com/p/salesforce-beatbox/"
 LICENSE="GNU GENERAL PUBLIC LICENSE Version 2"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

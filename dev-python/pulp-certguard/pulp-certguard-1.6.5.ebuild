@@ -15,7 +15,7 @@ DESCRIPTION="Certguard plugin for the Pulp Project"
 
 HOMEPAGE="https://docs.pulpproject.org/pulp_certguard/"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

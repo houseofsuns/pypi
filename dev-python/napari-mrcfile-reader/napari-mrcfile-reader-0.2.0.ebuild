@@ -15,7 +15,7 @@ DESCRIPTION="Read MRC2014 files in napari using mrcfile."
 
 HOMEPAGE="https://github.com/alisterburt/napari-mrcfile-reader"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

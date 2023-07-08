@@ -15,7 +15,7 @@ DESCRIPTION="A command-line utility for Weblate, translation tool with tight ver
 
 HOMEPAGE="https://weblate.org/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

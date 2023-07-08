@@ -15,7 +15,7 @@ DESCRIPTION="High performance unified quantum computing framework for the NISQ e
 
 HOMEPAGE="https://github.com/tencent-quantum-lab/tensorcircuit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

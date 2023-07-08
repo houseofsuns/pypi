@@ -15,7 +15,7 @@ DESCRIPTION="One fits all solution for deduplicated and compressed backups on se
 
 HOMEPAGE="https://github.com/netinvent/npbackup"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

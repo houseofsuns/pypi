@@ -15,7 +15,7 @@ DESCRIPTION="A Python cffi port of libtcod."
 
 HOMEPAGE="https://github.com/HexDecimal/libtcod-cffi"
 LICENSE="Simplified BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

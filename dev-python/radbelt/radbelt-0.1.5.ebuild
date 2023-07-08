@@ -15,7 +15,7 @@ DESCRIPTION="Astropy-friendly wrapper for the AE-8/AP-8 Van Allen belt model"
 
 HOMEPAGE=""
 LICENSE="NOSA"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

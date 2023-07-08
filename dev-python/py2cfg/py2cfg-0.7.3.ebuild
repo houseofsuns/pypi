@@ -15,7 +15,7 @@ DESCRIPTION="Converts python source code to colorful Control Flow Graphs (CFGs).
 
 HOMEPAGE="https://gitlab.com/classroomcode/py2cfg"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

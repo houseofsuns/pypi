@@ -15,7 +15,7 @@ DESCRIPTION="Pytest plugins and helpers for tests using a Postgres database."
 
 HOMEPAGE="https://github.com/CloverHealth/pytest-pgsql"
 LICENSE="Copyright Clover Health, Inc."
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

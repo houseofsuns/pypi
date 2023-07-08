@@ -15,7 +15,7 @@ DESCRIPTION="An AWS Lambda command line interface (CLI). It helps you in creatin
 
 HOMEPAGE="https://github.com/lucioveloso/lambda-toolkit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

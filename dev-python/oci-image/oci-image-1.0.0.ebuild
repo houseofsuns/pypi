@@ -15,7 +15,7 @@ DESCRIPTION="Helper for dealing with OCI Image resources in the charm operator f
 
 HOMEPAGE="https://github.com/juju-solutions/resource-oci-image"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

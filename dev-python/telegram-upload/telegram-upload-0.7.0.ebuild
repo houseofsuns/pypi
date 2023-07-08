@@ -15,7 +15,7 @@ DESCRIPTION="Upload (and download) files to Telegram up to 2 GiB using your acco
 
 HOMEPAGE="https://github.com/Nekmo/telegram-upload/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

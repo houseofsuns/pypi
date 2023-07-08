@@ -15,7 +15,7 @@ DESCRIPTION="A dynamic FastAPI router that automatically creates CRUD routes for
 
 HOMEPAGE="https://github.com/awtkns/fastapi-crudrouter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

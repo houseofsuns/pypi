@@ -15,7 +15,7 @@ DESCRIPTION="Fact Extraction and VERification dataset reader for AllenNLP"
 
 HOMEPAGE="https://jamesthorne.co.uk"
 LICENSE="Type license to see the full license text"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

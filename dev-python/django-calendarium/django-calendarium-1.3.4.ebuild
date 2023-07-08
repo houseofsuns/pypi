@@ -15,7 +15,7 @@ DESCRIPTION="A reusable Django app to manage and display a calendar in your temp
 
 HOMEPAGE="https://github.com/bitmazk/django-calendarium"
 LICENSE="The MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

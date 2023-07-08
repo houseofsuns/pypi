@@ -15,7 +15,7 @@ DESCRIPTION="Quick and dirty pylint codeclimate reporter plugin"
 
 HOMEPAGE="https://gitlab.com/jlecomte/projects/python/pylint-codeclimate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

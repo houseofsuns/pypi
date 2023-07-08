@@ -15,7 +15,7 @@ DESCRIPTION="iced-x86 is a blazing fast and correct x86/x64 disassembler, assemb
 
 HOMEPAGE="https://github.com/icedland/iced/tree/master/src/rust/iced-x86-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

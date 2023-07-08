@@ -15,7 +15,7 @@ DESCRIPTION="Python-Client which enables you to seamlessly integrate the Bitmovi
 
 HOMEPAGE="https://github.com/bitmovin/bitmovin-api-sdk-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

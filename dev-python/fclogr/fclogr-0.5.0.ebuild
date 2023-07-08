@@ -15,7 +15,7 @@ DESCRIPTION="fclogr is a tool for managing RPM changelogs and updates"
 
 HOMEPAGE="https://sr.ht/~gotmax23/fclogr"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for Anaml"
 
 HOMEPAGE="https://anaml.com"
 LICENSE="Copyright 2020 Simple Machines Pty Ltd. All Rights Reserved"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

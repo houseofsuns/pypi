@@ -15,7 +15,7 @@ DESCRIPTION="The sphinx theme for Astropy and affiliated packages."
 
 HOMEPAGE="https://github.com/astropy/astropy-sphinx-theme"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

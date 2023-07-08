@@ -15,7 +15,7 @@ DESCRIPTION="Client library for kRPC, a Remote Procedure Call server for Kerbal 
 
 HOMEPAGE="https://krpc.github.io/krpc"
 LICENSE="GNU LGPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

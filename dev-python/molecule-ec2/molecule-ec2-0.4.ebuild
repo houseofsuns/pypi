@@ -15,7 +15,7 @@ DESCRIPTION="EC2 Molecule Plugin :: run molecule tests using AWS EC2"
 
 HOMEPAGE="https://github.com/ansible-community/molecule-ec2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

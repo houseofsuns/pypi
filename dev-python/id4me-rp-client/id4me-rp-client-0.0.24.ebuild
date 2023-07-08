@@ -15,7 +15,7 @@ DESCRIPTION="Python client library for ID4me protocol - Relying Party side. See:
 
 HOMEPAGE="https://gitlab.com/ID4me/id4me-rp-client-python"
 LICENSE="https://gitlab.com/ID4me/id4me-rp-client-python/blob/master/LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

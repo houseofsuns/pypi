@@ -15,7 +15,7 @@ DESCRIPTION="A Python Library to convert text to phoneme sequence used for XPhon
 
 HOMEPAGE="https://github.com/thelinhbkhn2014/Text2PhonemeSequence"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python idiomatic SDK for the Palo Alto Networks Application Framewo
 
 HOMEPAGE="https://github.com/PaloAltoNetworks/pancloud"
 LICENSE="ISC license"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="CLI application for management of versioned Wasabi S3 buckets"
 
 HOMEPAGE="https://github.com/salimdason/wasabicli"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

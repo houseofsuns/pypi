@@ -15,7 +15,7 @@ DESCRIPTION="GDAL install with Java Bindings for Databricks Runtime 11+"
 
 HOMEPAGE="https://github.com/databrickslabs/mosaic/tree/main/modules/python/gdal_package"
 LICENSE="Databricks License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

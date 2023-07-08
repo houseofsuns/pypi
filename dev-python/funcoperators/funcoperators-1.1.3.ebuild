@@ -15,7 +15,7 @@ DESCRIPTION="Allow natural function notations like (1,2) *dot* (3,4) for dot((1,
 
 HOMEPAGE="https://github.com/robertvandeneynde/python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

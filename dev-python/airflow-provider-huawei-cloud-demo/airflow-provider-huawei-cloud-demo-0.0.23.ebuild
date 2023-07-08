@@ -15,7 +15,7 @@ DESCRIPTION="Huawei Cloud integration for Apoache Airflow"
 
 HOMEPAGE="https://github.com/emincanozcan/airflow-provider-huawei-cloud"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

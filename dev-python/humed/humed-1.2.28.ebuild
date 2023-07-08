@@ -15,7 +15,7 @@ DESCRIPTION="Agnostic sysadmin/devops instrumentation tool. Includes hume and hu
 
 HOMEPAGE="https://github.com/buanzo/hume"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

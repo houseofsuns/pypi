@@ -15,7 +15,7 @@ DESCRIPTION="Pure Python Implementation of MySQL replication protocol build on t
 
 HOMEPAGE="https://github.com/julien-duponchelle/python-mysql-replication"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

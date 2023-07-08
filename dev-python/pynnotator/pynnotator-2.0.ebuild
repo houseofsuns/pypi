@@ -15,7 +15,7 @@ DESCRIPTION="A Python Annotation Framework for VCFs using multiple tools (Ex. VE
 
 HOMEPAGE="http://github.com/raonyguimaraes/pynnotator"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Toolkit for free-energy calculation setup/analysis and biomolecular
 
 HOMEPAGE="https://github.com/deGrootLab/pmx/tree/develop"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

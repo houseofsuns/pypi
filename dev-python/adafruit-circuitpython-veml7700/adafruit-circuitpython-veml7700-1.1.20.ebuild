@@ -15,7 +15,7 @@ DESCRIPTION="CircuitPython driver for VEML7700 high precision I2C ambient light 
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_VEML7700"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

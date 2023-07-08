@@ -15,7 +15,7 @@ DESCRIPTION="Aspose Cloud SDK for Python allows you to use Aspose API in your Py
 
 HOMEPAGE="http://www.aspose.com"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

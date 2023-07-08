@@ -15,7 +15,7 @@ DESCRIPTION="A drop-in replacement for native datetimes that embraces UTC"
 
 HOMEPAGE="https://github.com/dgilland/zulu"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

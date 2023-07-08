@@ -15,7 +15,7 @@ DESCRIPTION="align4d: Multi-sequence alignment tools for aligning ASR and Speake
 
 HOMEPAGE="https://github.com/emorynlp/align4d"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

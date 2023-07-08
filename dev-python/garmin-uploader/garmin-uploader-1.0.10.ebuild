@@ -15,7 +15,7 @@ DESCRIPTION="A tool to upload FIT, GPX, and TCX filesto the Garmin Connect web s
 
 HOMEPAGE="https://github.com/La0/garmin-uploader"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A python tool to manage developing and testing with lots of microse
 
 HOMEPAGE="https://github.com/hmrc/service-manager"
 LICENSE="Apache Licence 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

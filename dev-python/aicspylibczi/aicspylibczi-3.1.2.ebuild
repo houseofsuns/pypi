@@ -15,7 +15,7 @@ DESCRIPTION="A python module and a python extension for Zeiss (CZI/ZISRAW) micro
 
 HOMEPAGE="https://github.com/AllenCellModeling/aicspylibczi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

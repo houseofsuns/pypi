@@ -15,7 +15,7 @@ DESCRIPTION="0x python wrapper"
 
 HOMEPAGE="https://github.com/skeetzo/0x-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/0/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

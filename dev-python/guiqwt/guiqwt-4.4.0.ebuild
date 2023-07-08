@@ -15,7 +15,7 @@ DESCRIPTION="guiqwt is a set of tools for curve and image plotting (extension to
 
 HOMEPAGE="https://github.com/PierreRaybaut/guiqwt"
 LICENSE="CeCILL V2"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

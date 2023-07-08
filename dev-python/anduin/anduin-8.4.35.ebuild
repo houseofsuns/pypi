@@ -15,7 +15,7 @@ DESCRIPTION="a lite mysql & sqlite3 & async_redis connect engine, mapping table 
 
 HOMEPAGE="https://github.com/campanulamediuml/Anduin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

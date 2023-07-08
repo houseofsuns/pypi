@@ -15,7 +15,7 @@ DESCRIPTION="PugJS syntax template adapter for Django, Jinja2, Mako and Tornado 
 
 HOMEPAGE="https://github.com/kakulukia/pypugjs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

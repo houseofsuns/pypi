@@ -15,7 +15,7 @@ DESCRIPTION="A napari plugin to interact with and provide functionality for a co
 
 HOMEPAGE="https://github.com/jhnnsrs/mikro-napari"
 LICENSE="CC BY-NC 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

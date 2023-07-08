@@ -15,7 +15,7 @@ DESCRIPTION="Odoo library for RPC"
 
 HOMEPAGE="https://gitlab.com/katyukha/odoo-rpc-client"
 LICENSE="MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

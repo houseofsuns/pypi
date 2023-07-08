@@ -15,7 +15,7 @@ DESCRIPTION="Blockchain API library (v1)"
 
 HOMEPAGE="https://github.com/blockchain/api-v1-client-python/releases/tag/1.4.3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

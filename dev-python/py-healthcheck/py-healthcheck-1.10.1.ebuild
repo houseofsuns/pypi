@@ -15,7 +15,7 @@ DESCRIPTION="Adds healthcheck endpoints to Flask or Tornado apps"
 
 HOMEPAGE="https://github.com/ateliedocodigo/py-healthcheck"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

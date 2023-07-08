@@ -15,7 +15,7 @@ DESCRIPTION="Use DataLoaders in your Python GraphQL servers that have to run in 
 
 HOMEPAGE="https://github.com/jkimbo/graphql-sync-dataloaders"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

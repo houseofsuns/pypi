@@ -15,7 +15,7 @@ DESCRIPTION="Arrays of numbers for Python, optimized for small sizes"
 
 HOMEPAGE="https://gitlab.kwant-project.org/kwant/tinyarray"
 LICENSE="Simplified BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

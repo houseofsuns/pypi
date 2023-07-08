@@ -15,7 +15,7 @@ DESCRIPTION="Python API client for OpenCTI."
 
 HOMEPAGE="https://github.com/FiligranHQ/filigran-sseclient"
 LICENSE="Copyright c 2015 Brent Tubbs"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

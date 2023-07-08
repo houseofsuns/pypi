@@ -15,7 +15,7 @@ DESCRIPTION="iXML is an iterative event-driven XML parser with a standard Python
 
 HOMEPAGE="https://bitbucket.org/YAmikep/ixml"
 LICENSE="Copyright C 2013, Michael Palumbo"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

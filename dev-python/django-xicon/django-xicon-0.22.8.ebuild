@@ -15,7 +15,7 @@ DESCRIPTION="Django reusable application to handle modern bunch of site icons"
 
 HOMEPAGE="https://github.com/vint21h/django-xicon/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

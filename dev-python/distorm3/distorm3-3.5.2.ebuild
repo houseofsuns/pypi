@@ -15,7 +15,7 @@ DESCRIPTION="The goal of diStorm3 is to decode x86/AMD64 binary streams and retu
 
 HOMEPAGE="https://github.com/gdabah/distorm/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

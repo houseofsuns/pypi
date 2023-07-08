@@ -15,7 +15,7 @@ DESCRIPTION="xiaobaiauto2是对自动化框架的第三次更新，功能覆盖U
 
 HOMEPAGE="https://gitee.com/xiaobaikeji/xiaobaiauto2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

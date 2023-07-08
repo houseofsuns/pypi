@@ -15,7 +15,7 @@ DESCRIPTION="A meta plugin for processing timelapse data in napari timepoint by 
 
 HOMEPAGE="https://github.com/haesleinhuepf/napari-time-slicer"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Lookup location of IP in qqwry.dat, for Python 3.0+"
 
 HOMEPAGE="https://github.com/animalize/qqwry-python3"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

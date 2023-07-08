@@ -15,7 +15,7 @@ DESCRIPTION="Module enabling the IsoTP protocol defined by ISO-15765"
 
 HOMEPAGE="https://github.com/pylessard/python-can-isotp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

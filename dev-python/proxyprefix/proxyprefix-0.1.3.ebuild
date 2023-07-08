@@ -15,7 +15,7 @@ DESCRIPTION="Prefix SCRIPT_NAME with X-Forwarded-Prefix header"
 
 HOMEPAGE="https://github.com/yola/proxyprefix"
 LICENSE="MIT Expat"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Fetches your Amazon order history and matching/tags your Mint trans
 
 HOMEPAGE="https://github.com/jprouty/mint-amazon-tagger"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

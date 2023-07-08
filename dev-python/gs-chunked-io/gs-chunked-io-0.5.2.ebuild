@@ -15,7 +15,7 @@ DESCRIPTION="Streaming read/writes to Google Storage blobs with ascynchronous bu
 
 HOMEPAGE="https://github.com/xbrianh/gs-chunked-io.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

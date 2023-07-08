@@ -15,7 +15,7 @@ DESCRIPTION="Display money format and its filthy currencies, for all money lover
 
 HOMEPAGE="https://github.com/Alir3z4/python-currencies"
 LICENSE="GNU GPL 3"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

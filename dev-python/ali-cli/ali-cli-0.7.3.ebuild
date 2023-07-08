@@ -15,7 +15,7 @@ DESCRIPTION="Wraps the Alibaba Cloud SDK to make complicated tasks a lot simpler
 
 HOMEPAGE="https://github.com/leonrodenburg/ali-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

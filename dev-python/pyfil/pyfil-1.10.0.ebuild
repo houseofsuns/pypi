@@ -15,7 +15,7 @@ DESCRIPTION="Python one-liners in the shell in the spirit of Perl and AWK"
 
 HOMEPAGE="https://github.com/ninjaaron/pyfil"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

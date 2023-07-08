@@ -15,7 +15,7 @@ DESCRIPTION="Helps import Python extensions from memory, e.g. extensions from Zi
 
 HOMEPAGE="http://github.com/SeaHOH/memimport"
 LICENSE="MIT/X11 OR MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

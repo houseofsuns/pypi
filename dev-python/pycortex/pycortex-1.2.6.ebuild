@@ -15,7 +15,7 @@ DESCRIPTION="Python Cortical mapping software for fMRI data"
 
 HOMEPAGE="http://gallantlab.github.io/pycortex"
 LICENSE="2-clause BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Flask webapp utility functions by Little Fish Solutions LTD"
 
 HOMEPAGE="https://github.com/stevelittlefish/littlefish"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

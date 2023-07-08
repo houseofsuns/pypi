@@ -15,7 +15,7 @@ DESCRIPTION="Using Python Given a set of URLs, this packages detects coordinated
 
 HOMEPAGE="https://github.com/UPB-SS1/PyCooRnet"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

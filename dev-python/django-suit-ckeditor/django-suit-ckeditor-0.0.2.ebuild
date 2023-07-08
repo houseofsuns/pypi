@@ -15,7 +15,7 @@ DESCRIPTION="CKEditor (WYSIWYG editor) integration app for Django admin. http://
 
 HOMEPAGE="https://github.com/darklow/django-suit-ckeditor"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

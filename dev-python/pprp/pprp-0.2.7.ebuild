@@ -15,7 +15,7 @@ DESCRIPTION="A pure-Python Rijndael (AES) and PBKDF2 library. Python 2.7 and Pyt
 
 HOMEPAGE="https://github.com/dsoprea/RijndaelPbkdf"
 LICENSE="GPL 2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

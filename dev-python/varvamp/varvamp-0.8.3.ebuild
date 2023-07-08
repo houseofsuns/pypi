@@ -15,7 +15,7 @@ DESCRIPTION="Variable VirusAMPlicons (varVAMP) is a tool to design primers for h
 
 HOMEPAGE="https://github.com/jonas-fuchs/varVAMP"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

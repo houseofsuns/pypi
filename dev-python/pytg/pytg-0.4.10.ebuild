@@ -15,7 +15,7 @@ DESCRIPTION="Connect to the Telegram CLI, receive and send Telegram messages."
 
 HOMEPAGE="https://github.com/luckydonald/pytg"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

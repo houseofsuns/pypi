@@ -15,7 +15,7 @@ DESCRIPTION="Easily define and reuse complex Python objects that serialize into 
 
 HOMEPAGE="https://github.com/kapicorp/kadet"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

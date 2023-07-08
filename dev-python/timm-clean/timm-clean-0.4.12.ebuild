@@ -15,7 +15,7 @@ DESCRIPTION="(Unofficial) PyTorch Image Models, with torch dependency removed in
 
 HOMEPAGE="https://github.com/rwightman/pytorch-image-models"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

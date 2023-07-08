@@ -15,7 +15,7 @@ DESCRIPTION="Differentiable quantization framework for PyTorch."
 
 HOMEPAGE="https://github.com/facebookresearch/diffq"
 LICENSE="Creative Commons Attribution-NonCommercial 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="KeyBERT performs keyword extraction with state-of-the-art transform
 
 HOMEPAGE="https://github.com/MaartenGr/keyBERT"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

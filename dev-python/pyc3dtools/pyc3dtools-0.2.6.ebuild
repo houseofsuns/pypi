@@ -15,7 +15,7 @@ DESCRIPTION="C3Dtools API package - Read c3d files"
 
 HOMEPAGE="https://github.com/etoshey/pyc3dtools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.win-amd64.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.win-amd64.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.win-amd64.zip"
 RESTRICT="test"
 

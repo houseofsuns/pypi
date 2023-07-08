@@ -15,7 +15,7 @@ DESCRIPTION="PyZMQ server/client implementing asyncio freelance protocol based o
 
 HOMEPAGE="https://github.com/curtywang/zmqflp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

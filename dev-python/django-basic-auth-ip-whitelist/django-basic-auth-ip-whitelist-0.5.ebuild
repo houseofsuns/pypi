@@ -15,7 +15,7 @@ DESCRIPTION="Hide your Django site behind basic authentication mechanism with IP
 
 HOMEPAGE="https://github.com/tm-kn/django-basic-auth-ip-whitelist"
 LICENSE="BSD 2-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

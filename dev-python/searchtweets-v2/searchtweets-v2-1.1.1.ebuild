@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper for Twitter API v2 search endpoints (both 'search Tweets' a
 
 HOMEPAGE="https://github.com/twitterdev/search-tweets-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

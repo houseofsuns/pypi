@@ -15,7 +15,7 @@ DESCRIPTION="A translatable password validator for django, based on zxcvbn-pytho
 
 HOMEPAGE="https://github.com/Pierre-Sassoulas/django-zxcvbn-password-validator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

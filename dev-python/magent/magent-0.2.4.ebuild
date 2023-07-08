@@ -15,7 +15,7 @@ DESCRIPTION="Multi-Agent Reinforcement Learning environments with very large num
 
 HOMEPAGE="https://github.com/Farama-Foundation/MAgent"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

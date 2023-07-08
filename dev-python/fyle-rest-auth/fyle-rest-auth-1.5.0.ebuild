@@ -15,7 +15,7 @@ DESCRIPTION="Django application to implement OAuth 2.0 using Fyle in Django rest
 
 HOMEPAGE="https://github.com/fylein/fyle-rest-auth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

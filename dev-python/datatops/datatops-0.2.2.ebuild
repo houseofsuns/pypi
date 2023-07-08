@@ -15,7 +15,7 @@ DESCRIPTION="Datatops is a super-simple zero-auth zero-setup data storage and re
 
 HOMEPAGE="https://github.com/j6k4m8/datatops/tarball/0.2.2"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

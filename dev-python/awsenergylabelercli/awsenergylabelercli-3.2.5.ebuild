@@ -15,7 +15,7 @@ DESCRIPTION="A cli to label accounts and landing zones with energy labels based 
 
 HOMEPAGE="https://github.com/schubergphilis/awsenergylabelercli.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

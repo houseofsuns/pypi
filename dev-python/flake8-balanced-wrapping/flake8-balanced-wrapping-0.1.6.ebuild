@@ -15,7 +15,7 @@ DESCRIPTION="A flake8 plugin that helps you wrap code with visual balance."
 
 HOMEPAGE="https://github.com/PeterJCLaw/flake8-balanced-wrapping"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

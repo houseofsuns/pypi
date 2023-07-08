@@ -15,7 +15,7 @@ DESCRIPTION="A system log management tool with automatically generated log templ
 
 HOMEPAGE="https://github.com/cpflat/amulog/"
 LICENSE="The 3-Clause BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

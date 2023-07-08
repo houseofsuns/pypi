@@ -15,7 +15,7 @@ DESCRIPTION="Run IPython notebooks from the command line"
 
 HOMEPAGE="https://github.com/paulgb/runipy"
 LICENSE="BSD 2-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Integrator for Python-based quantum computing software"
 
 HOMEPAGE="http://scikit-quant.org"
 LICENSE="LBNL BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

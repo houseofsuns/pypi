@@ -15,7 +15,7 @@ DESCRIPTION="authorization SDK used to build protected Web APIs"
 
 HOMEPAGE="https://github.com/yangaound/web-auth-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Scrapy schema validation pipeline and Item builder using JSON Schem
 
 HOMEPAGE="http://github.com/scrapy-plugins/scrapy-jsonschema"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

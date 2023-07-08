@@ -15,7 +15,7 @@ DESCRIPTION="A django app to render django templates as PDF files."
 
 HOMEPAGE="https://django-renderpdf.readthedocs.io/"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

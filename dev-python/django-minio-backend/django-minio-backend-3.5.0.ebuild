@@ -15,7 +15,7 @@ DESCRIPTION="The django-minio-backend provides a wrapper around the MinIO Python
 
 HOMEPAGE="https://github.com/theriverman/django-minio-backend"
 LICENSE="MIT License  Copyright c 2023 Kristof Daja"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

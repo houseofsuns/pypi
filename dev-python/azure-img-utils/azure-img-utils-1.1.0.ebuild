@@ -15,7 +15,7 @@ DESCRIPTION="Package that provides utilities for handling images in Azure Cloud.
 
 HOMEPAGE="https://github.com/SUSE-Enceladus/azure-img-utils"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

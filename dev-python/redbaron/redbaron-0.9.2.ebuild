@@ -15,7 +15,7 @@ DESCRIPTION="Abstraction on top of baron, a FST for python to make writing refac
 
 HOMEPAGE="https://github.com/PyCQA/redbaron"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

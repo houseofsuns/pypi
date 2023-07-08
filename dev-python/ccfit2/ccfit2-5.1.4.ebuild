@@ -15,7 +15,7 @@ DESCRIPTION="CCFIT2 is a program for fitting AC and DC magnetisation data"
 
 HOMEPAGE="https://gitlab.com/chilton-group/cc-fit2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="practical python one-liners"
 
 HOMEPAGE="https://github.com/gvalkov/python-oneliner"
 LICENSE="Revised BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

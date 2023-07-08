@@ -15,7 +15,7 @@ DESCRIPTION="Optimus is the missing framework for cleaning and pre-processing da
 
 HOMEPAGE="https://github.com/hi-primus/optimus/"
 LICENSE="APACHE"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

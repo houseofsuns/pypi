@@ -15,7 +15,7 @@ DESCRIPTION="CTAP (client-to-authenticator-protocol) device backed by python's k
 
 HOMEPAGE="https://github.com/dany74q/ctap-keyring-device"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

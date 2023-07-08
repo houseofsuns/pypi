@@ -15,7 +15,7 @@ DESCRIPTION="A Python sdk for Tuya Open API, which provides IoT capabilities, ma
 
 HOMEPAGE="https://github.com/tuya/tuya-iot-app-sdk-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

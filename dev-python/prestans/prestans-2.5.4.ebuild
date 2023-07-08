@@ -15,7 +15,7 @@ DESCRIPTION="A WSGI compliant REST micro-framework"
 
 HOMEPAGE="https://github.com/anomaly/prestans.git"
 LICENSE="New BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

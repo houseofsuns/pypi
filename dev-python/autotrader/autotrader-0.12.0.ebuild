@@ -15,7 +15,7 @@ DESCRIPTION="A Python-based platform for developing, optimising and deploying au
 
 HOMEPAGE="https://kieran-mackle.github.io/AutoTrader/"
 LICENSE="gpl-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

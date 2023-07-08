@@ -15,7 +15,7 @@ DESCRIPTION="scikit-ci-addons is a command line tool and a set of scripts useful
 
 HOMEPAGE="https://github.com/scikit-build/scikit-ci-addons"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Django-urldecorators is a reusable Django application which allows 
 
 HOMEPAGE="http://github.com/mila/django-urldecorators/tree/master"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

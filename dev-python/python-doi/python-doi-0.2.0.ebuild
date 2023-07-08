@@ -15,7 +15,7 @@ DESCRIPTION="Python package to work with Document Object Identifier (doi)"
 
 HOMEPAGE="https://github.com/papis/python-doi"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

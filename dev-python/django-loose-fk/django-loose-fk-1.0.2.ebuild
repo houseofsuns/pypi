@@ -15,7 +15,7 @@ DESCRIPTION="Django Loose FK handles local or remote \"ForeignKey\" references."
 
 HOMEPAGE="https://github.com/maykinmedia/django-loose-fk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

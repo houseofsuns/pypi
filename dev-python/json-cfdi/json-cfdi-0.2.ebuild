@@ -15,7 +15,7 @@ DESCRIPTION="CFDI's expedidos por el SAT (México) de XML a objetos python"
 
 HOMEPAGE="https://gitlab.com/workyhr/json_cfdi/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

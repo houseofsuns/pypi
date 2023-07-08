@@ -15,7 +15,7 @@ DESCRIPTION="Horizon panels for Neutron LBaaS"
 
 HOMEPAGE="https://docs.openstack.org/neutron-lbaas-dashboard/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

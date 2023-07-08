@@ -15,7 +15,7 @@ DESCRIPTION="Addic7ed scraper written in Python to download subtitles (almost) a
 
 HOMEPAGE="https://github.com/Jesus-21/addic7ed"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

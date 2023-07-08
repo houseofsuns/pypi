@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight wrapper to make http(s) requests. POST, PATCH, and DELE
 
 HOMEPAGE="https://github.com/JustinRWong/JSONRequest"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

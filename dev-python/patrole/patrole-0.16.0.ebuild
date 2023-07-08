@@ -15,7 +15,7 @@ DESCRIPTION="Patrole is a tool for verifying that Role-Based Access Control is b
 
 HOMEPAGE="https://docs.openstack.org/patrole/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

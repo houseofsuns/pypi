@@ -15,7 +15,7 @@ DESCRIPTION="A python client for etcd3 grpc-gateway v3 API"
 
 HOMEPAGE="https://docs.openstack.org/etcd3gw/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

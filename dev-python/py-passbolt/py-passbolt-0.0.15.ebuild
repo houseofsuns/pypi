@@ -15,7 +15,7 @@ DESCRIPTION="Python library for Passbolt, an open-source manager for teams"
 
 HOMEPAGE="https://github.com/passbolt/lab-passbolt-py"
 LICENSE="MIT-0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

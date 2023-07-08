@@ -15,7 +15,7 @@ DESCRIPTION="Symbol syncing framework for decompilers and debuggers"
 
 HOMEPAGE="https://github.com/mahaloz/decomp2dbg"
 LICENSE="BSD 2 Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

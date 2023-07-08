@@ -15,7 +15,7 @@ DESCRIPTION="QR platba SVG QR code and SPAYD string generator."
 
 HOMEPAGE="https://github.com/ViktorStiskala/python-qrplatba"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

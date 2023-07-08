@@ -15,7 +15,7 @@ DESCRIPTION="Pure Python reimplementation of pcapy. This package is API compatib
 
 HOMEPAGE="http://bitbucket.org/viraptor/pure-pcapy/overview"
 LICENSE="Simplified BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

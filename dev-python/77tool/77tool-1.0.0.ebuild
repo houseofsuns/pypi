@@ -15,7 +15,7 @@ DESCRIPTION="77 branch tool"
 
 HOMEPAGE="https://github.com/linrol/77tool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/7/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

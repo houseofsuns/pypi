@@ -15,7 +15,7 @@ DESCRIPTION="TensorKit is a deep learning helper between Python and C++."
 
 HOMEPAGE="https://github.com/atranitell/TensorKit"
 LICENSE="Apache 2.0 Licence"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

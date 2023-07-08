@@ -15,7 +15,7 @@ DESCRIPTION="Fast and dummy way of using transformers to establish quick baselin
 
 HOMEPAGE="https://github.com/xiaoouwang/fummytransformers"
 LICENSE="Apache Licence 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Django redirects, with regular expressions"
 
 HOMEPAGE="https://github.com/maykinmedia/django-regex-redirects"
 LICENSE="BSD licence, see LICENCE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

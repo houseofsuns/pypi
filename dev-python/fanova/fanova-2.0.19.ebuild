@@ -15,7 +15,7 @@ DESCRIPTION="Functional ANOVA: an implementation of the ICML 2014 paper 'An Effi
 
 HOMEPAGE="http://automl.org/fanova"
 LICENSE="FANOVA is free for academic & non-commercial usage. Please contact Frank Hutterfh@informatik.uni-freiburg.de to discuss obtaining a license for commercial purposes."
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

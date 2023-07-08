@@ -15,7 +15,7 @@ DESCRIPTION="Free Python3 package to compute magnetic fields."
 
 HOMEPAGE="https://github.com/magpylib/magpylib"
 LICENSE="2-Clause BSD License, Simplified BSD License, FreeBSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

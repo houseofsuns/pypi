@@ -15,7 +15,7 @@ DESCRIPTION="The WeeWX weather software system. This is an BETA release, and may
 
 HOMEPAGE="https://weewx.com"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

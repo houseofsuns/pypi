@@ -15,7 +15,7 @@ DESCRIPTION="Data Transfer Object (DTO) codegen from OpenAPI JSON schemas"
 
 HOMEPAGE="https://github.com/lmmx/godto"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

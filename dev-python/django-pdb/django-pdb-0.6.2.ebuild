@@ -15,7 +15,7 @@ DESCRIPTION="Easier pdb debugging for Django"
 
 HOMEPAGE="https://github.com/tomchristie/django-pdb"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

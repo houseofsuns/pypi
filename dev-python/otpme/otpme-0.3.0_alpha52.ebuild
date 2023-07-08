@@ -15,7 +15,7 @@ DESCRIPTION="OTPme: A flexible One-Time-Password system."
 
 HOMEPAGE="http://www.otpme.org"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

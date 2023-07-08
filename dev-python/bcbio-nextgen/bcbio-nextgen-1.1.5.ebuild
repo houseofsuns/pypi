@@ -15,7 +15,7 @@ DESCRIPTION="Best-practice pipelines for fully automated high throughput sequenc
 
 HOMEPAGE="https://github.com/bcbio/bcbio-nextgen"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

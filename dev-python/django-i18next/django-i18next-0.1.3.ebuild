@@ -15,7 +15,7 @@ DESCRIPTION="Additions to Django's i18n module."
 
 HOMEPAGE="https://github.com/barseghyanartur/django-i18next/"
 LICENSE="GPL 2.0/LGPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

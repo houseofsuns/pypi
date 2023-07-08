@@ -15,7 +15,7 @@ DESCRIPTION="Abstract library to generate angr states from a debugger state"
 
 HOMEPAGE="https://github.com/andreafioraldi/angrdbg"
 LICENSE="BSD 2-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

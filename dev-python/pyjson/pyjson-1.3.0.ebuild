@@ -15,7 +15,7 @@ DESCRIPTION="Compare the similarities between two JSONs."
 
 HOMEPAGE="https://github.com/leeyoshinari/Small_Tool/tree/master/pyjson"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

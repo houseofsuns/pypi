@@ -15,7 +15,7 @@ DESCRIPTION="Extract UBO BTF archive format(UBO2003, ATRIUM, UBO2014)."
 
 HOMEPAGE="https://github.com/2-propanol/btf_extractor"
 LICENSE="Zlib"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

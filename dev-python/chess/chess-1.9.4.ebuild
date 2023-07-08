@@ -15,7 +15,7 @@ DESCRIPTION="A chess library with move generation and validation, Polyglot openi
 
 HOMEPAGE="https://github.com/niklasf/python-chess"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

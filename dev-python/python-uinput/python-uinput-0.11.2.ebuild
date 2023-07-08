@@ -15,7 +15,7 @@ DESCRIPTION="Pythonic API to Linux uinput kernel module."
 
 HOMEPAGE="http://tjjr.fi/sw/python-uinput/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

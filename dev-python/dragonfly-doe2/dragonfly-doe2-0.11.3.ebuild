@@ -15,7 +15,7 @@ DESCRIPTION="Dragonfly extension for the DOE-2 energy simulation engine."
 
 HOMEPAGE="https://github.com/ladybug-tools/dragonfly-doe2"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

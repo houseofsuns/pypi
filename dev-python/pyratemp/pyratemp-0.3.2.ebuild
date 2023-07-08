@@ -15,7 +15,7 @@ DESCRIPTION="Small, simple and powerful template-engine for Python."
 
 HOMEPAGE="http://www.simple-is-better.org/template/pyratemp.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tgz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tgz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tgz"
 RESTRICT="test"
 

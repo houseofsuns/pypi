@@ -15,7 +15,7 @@ DESCRIPTION="Alternative link dialog for ckeditor 4, using django modeladmin for
 
 HOMEPAGE="http://github.com/bnzk/django-ckeditor-link"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

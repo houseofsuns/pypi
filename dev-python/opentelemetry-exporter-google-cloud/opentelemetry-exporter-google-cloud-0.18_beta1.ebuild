@@ -15,7 +15,7 @@ DESCRIPTION="Deprecated Google Cloud integrations for OpenTelemetry"
 
 HOMEPAGE="https://github.com/GoogleCloudPlatform/opentelemetry-operations-python/opentelemetry-exporter-google-cloud"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

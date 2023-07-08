@@ -15,7 +15,7 @@ DESCRIPTION="Library to interface with the old CC880p Bosch COntrol Panels"
 
 HOMEPAGE="https://github.com/hgomes88/bosch-control-panel-cc880p"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

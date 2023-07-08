@@ -15,7 +15,7 @@ DESCRIPTION="ChatBot for NoneBot : 链接 ChatGPT / Bing / Poe / Stable-Diffusio
 
 HOMEPAGE="https://github.com/thx114/SDGPT"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="DeepSpeech as a (Docker) Service for IBus"
 
 HOMEPAGE="https://github.com/mcfletch/listener"
 LICENSE="LGPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

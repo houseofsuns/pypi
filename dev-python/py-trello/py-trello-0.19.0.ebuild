@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper around the Trello API"
 
 HOMEPAGE="https://trello.com/board/py-trello/4f145d87b2f9f15d6d027b53"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

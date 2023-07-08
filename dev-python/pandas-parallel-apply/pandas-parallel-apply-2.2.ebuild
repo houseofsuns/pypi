@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper for df and df[col].apply parallelized"
 
 HOMEPAGE="https://gitlab.com/meehai/pandas-parallel-apply"
 LICENSE="WTFPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

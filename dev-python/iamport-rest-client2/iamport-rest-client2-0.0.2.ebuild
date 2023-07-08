@@ -15,7 +15,7 @@ DESCRIPTION="REST client for I'mport;(http://www.iamport.kr)"
 
 HOMEPAGE="https://github.com/james-song/iamport-rest-client-python3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

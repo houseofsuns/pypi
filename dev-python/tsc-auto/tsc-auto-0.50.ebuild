@@ -15,7 +15,7 @@ DESCRIPTION="Auto selector for GPU and CUDA, support the detection of tensorflow
 
 HOMEPAGE="https://github.com/aitsc/tsc-auto"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

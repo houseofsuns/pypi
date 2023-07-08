@@ -15,7 +15,7 @@ DESCRIPTION="Assume an AWS Role and get temporary credentials using OneLogin"
 
 HOMEPAGE="https://github.com/onelogin/onelogin-python-aws-assume-role"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

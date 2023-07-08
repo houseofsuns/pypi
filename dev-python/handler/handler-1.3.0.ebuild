@@ -15,7 +15,7 @@ DESCRIPTION="A simple printer of nested list"
 
 HOMEPAGE="http://hi.baidu.com/tianchoua"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

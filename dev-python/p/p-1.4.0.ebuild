@@ -15,7 +15,7 @@ DESCRIPTION="Aliases any available project commands or scripts to \`p <name>\`."
 
 HOMEPAGE="https://www.dropseed.dev/p"
 LICENSE="MIT"
-SRC_URI="htt${REALNAME}s://files.${REALNAME}ythonhosted.org/${REALNAME}ackages/88/27/9d05057da694ff15d3d921eff3c0c46075b98881c4f86f33d86782a8d137/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

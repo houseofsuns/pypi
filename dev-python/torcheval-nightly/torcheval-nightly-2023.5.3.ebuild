@@ -15,7 +15,7 @@ DESCRIPTION="A library for providing a simple interface to create new metrics an
 
 HOMEPAGE="https://github.com/pytorch/torcheval"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="NoneBot2插件|米游社工具-每日米游币任务、游戏签到
 
 HOMEPAGE="https://github.com/Ljzd-PRO/nonebot-plugin-mystool"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

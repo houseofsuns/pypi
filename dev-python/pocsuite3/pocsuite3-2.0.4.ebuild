@@ -15,7 +15,7 @@ DESCRIPTION="Open-sourced remote vulnerability testing framework."
 
 HOMEPAGE="https://pocsuite.org"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

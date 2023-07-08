@@ -15,7 +15,7 @@ DESCRIPTION="Upload source distributions to your PyPI server."
 
 HOMEPAGE="https://github.com/ignacysokolowski/pypi-uploader"
 LICENSE="Copyright c 2014 Ignacy Sokoowski"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

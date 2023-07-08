@@ -15,7 +15,7 @@ DESCRIPTION="Python modules for impfuzzy"
 
 HOMEPAGE="https://github.com/JPCERTCC/impfuzzy/"
 LICENSE="the GNU General Public License version 2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Browser-based frontend to gdb. Debug C, C++, Go, or Rust."
 
 HOMEPAGE="https://github.com/cs01/gdbgui"
 LICENSE="License :: GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

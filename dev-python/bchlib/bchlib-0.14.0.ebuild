@@ -15,7 +15,7 @@ DESCRIPTION="A python wrapper module for the kernel BCH library."
 
 HOMEPAGE="https://github.com/jkent/python-bchlib"
 LICENSE="GNU GPLv2"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

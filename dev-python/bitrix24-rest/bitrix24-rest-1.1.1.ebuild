@@ -15,7 +15,7 @@ DESCRIPTION="Bitrix24 REST API wrapper provides easy way to communicate with bit
 
 HOMEPAGE="https://github.com/akopkesheshyan/bitrix24-python-rest"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

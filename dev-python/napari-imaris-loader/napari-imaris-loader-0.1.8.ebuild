@@ -15,7 +15,7 @@ DESCRIPTION="Napari plugin for loading Bitplane imaris files '.ims'"
 
 HOMEPAGE="https://github.com/AlanMWatson/napari-imaris-loader"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

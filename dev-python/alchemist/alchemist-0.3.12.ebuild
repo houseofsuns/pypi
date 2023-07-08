@@ -15,7 +15,7 @@ DESCRIPTION="A server architecture built on top of a solid foundation provided b
 
 HOMEPAGE="http://github.com/concordusapps/alchemist"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

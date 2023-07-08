@@ -15,7 +15,7 @@ DESCRIPTION="Simple Binary Encoding (SBE) decoder (handles CME MDP3 messages)"
 
 HOMEPAGE="https://github.com/tfgm/sbedecoder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

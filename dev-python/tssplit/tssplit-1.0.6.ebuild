@@ -15,7 +15,7 @@ DESCRIPTION="Trivial split for strings with quotes and escaped characters"
 
 HOMEPAGE="https://github.com/mezantrop/tssplit"
 LICENSE="bsd-2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python client implementation for The Spymaster Solvers HTTP backend
 
 HOMEPAGE="https://github.com/asaf-kali/the-spymaster-solvers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

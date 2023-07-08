@@ -15,7 +15,7 @@ DESCRIPTION="An ASGI FHIR API framework built on top of FastAPI and FHIR Resourc
 
 HOMEPAGE="https://github.com/canvas-medical/fhirstarter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

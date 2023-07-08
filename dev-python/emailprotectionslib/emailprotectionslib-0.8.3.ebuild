@@ -15,7 +15,7 @@ DESCRIPTION="Python library to interact with SPF and DMARC"
 
 HOMEPAGE="https://github.com/lunarca/pyemailprotectionslib"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

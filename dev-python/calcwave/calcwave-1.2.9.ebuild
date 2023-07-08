@@ -15,7 +15,7 @@ DESCRIPTION="A simple cross-platform utility for generating and playing audio us
 
 HOMEPAGE="https://github.com/zenarcher007/calcwave"
 LICENSE="gpl-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

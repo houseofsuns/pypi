@@ -15,7 +15,7 @@ DESCRIPTION="Wagtail-Geo-Widget is the complete map solution for your Wagtail si
 
 HOMEPAGE="https://github.com/frojd/wagtail-geo-widget"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

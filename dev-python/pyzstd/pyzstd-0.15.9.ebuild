@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings to Zstandard (zstd) compression library, the API st
 
 HOMEPAGE="https://github.com/animalize/pyzstd"
 LICENSE="The 3-Clause BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

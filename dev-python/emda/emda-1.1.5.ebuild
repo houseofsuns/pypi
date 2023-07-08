@@ -15,7 +15,7 @@ DESCRIPTION="Electron Microscopy map and model manipulation tools"
 
 HOMEPAGE="https://www2.mrc-lmb.cam.ac.uk/groups/murshudov/content/emda/emda.html"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

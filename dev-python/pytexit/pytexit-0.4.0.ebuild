@@ -15,7 +15,7 @@ DESCRIPTION="Convert a Python expression to a LaTeX formula"
 
 HOMEPAGE="http://pytexit.readthedocs.io/"
 LICENSE="CeCILL-2.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

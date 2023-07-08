@@ -15,7 +15,7 @@ DESCRIPTION="Extra features for Python's JSON: comments, order, numpy, pandas, d
 
 HOMEPAGE="https://github.com/mverleg/pyjson_tricks"
 LICENSE="Revised BSD License LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

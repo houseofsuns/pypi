@@ -15,7 +15,7 @@ DESCRIPTION="Convert received raw data from crypto exchange API endpoints into w
 
 HOMEPAGE="https://github.com/LUCIT-Systems-and-Development/unicorn-fy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

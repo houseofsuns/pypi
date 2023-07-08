@@ -15,7 +15,7 @@ DESCRIPTION="Python development library for working with OCL resources and APIs"
 
 HOMEPAGE="http://github.com/OpenConceptLab/ocldev"
 LICENSE="MPL2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

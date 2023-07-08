@@ -15,7 +15,7 @@ DESCRIPTION="A django survey app that can export results as CSV or PDF using you
 
 HOMEPAGE="https://github.com/Pierre-Sassoulas/django-survey"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

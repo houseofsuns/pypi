@@ -15,7 +15,7 @@ DESCRIPTION="table-oriented abstraction layer over key-value stores"
 
 HOMEPAGE="http://diffeo.com"
 LICENSE="MIT/X11 license http://opensource.org/licenses/MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

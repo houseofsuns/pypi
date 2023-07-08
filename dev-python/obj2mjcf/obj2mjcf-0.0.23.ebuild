@@ -15,7 +15,7 @@ DESCRIPTION="A CLI for processing composite Wavefront OBJ files for use in MuJoC
 
 HOMEPAGE="https://github.com/kevinzakka/obj2mjcf"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

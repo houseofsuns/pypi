@@ -15,7 +15,7 @@ DESCRIPTION="Algorithms for diffraction tomography"
 
 HOMEPAGE="https://github.com/RI-imaging/ODTbrain"
 LICENSE="BSD 3 clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

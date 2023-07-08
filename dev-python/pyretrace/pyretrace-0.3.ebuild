@@ -15,7 +15,7 @@ DESCRIPTION="A python reimplementation on Proguard's Retrace, with a deobfuscati
 
 HOMEPAGE="http://github.com/EverythingMe/pyretrace"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

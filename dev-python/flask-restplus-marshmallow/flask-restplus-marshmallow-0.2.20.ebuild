@@ -15,7 +15,7 @@ DESCRIPTION="Flask RESTPlus with a twist of marshmallow"
 
 HOMEPAGE="https://github.com/joeyorlando/flask-restplus-marshmallow"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

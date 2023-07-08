@@ -15,7 +15,7 @@ DESCRIPTION="\"Website on VTES Strategy, cards rulings and TWD search interface.
 
 HOMEPAGE="http://github.com/lionel-panhaleux/codex-of-the-damned"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

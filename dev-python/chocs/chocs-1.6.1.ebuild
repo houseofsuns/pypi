@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight and powerful WSGI/AWS lambda framework for rapid buildi
 
 HOMEPAGE="https://github.com/kodemore/chocs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python-based non-minimalistic OWL to FHIR converter."
 
 HOMEPAGE="https://github.com/HOT-Ecosystem/owl-on-fhir/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

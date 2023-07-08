@@ -15,7 +15,7 @@ DESCRIPTION="Add direct uploads to S3 functionality with a progress bar to file 
 
 HOMEPAGE="https://github.com/bradleyg/django-s3direct#readme"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

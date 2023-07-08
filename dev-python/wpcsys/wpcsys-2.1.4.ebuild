@@ -15,7 +15,7 @@ DESCRIPTION="WPC Python driver APIs, the easiest way to Control & Data Acquisiti
 
 HOMEPAGE="https://github.com/WPC-Systems-Ltd/WPC_Python_driver_release"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

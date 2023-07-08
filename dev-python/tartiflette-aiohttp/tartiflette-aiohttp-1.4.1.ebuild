@@ -15,7 +15,7 @@ DESCRIPTION="Runs a Tartiflette GraphQL Engine through aiohttp"
 
 HOMEPAGE="https://github.com/tartiflette/tartiflette-aiohttp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

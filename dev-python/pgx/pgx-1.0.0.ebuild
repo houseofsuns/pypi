@@ -15,7 +15,7 @@ DESCRIPTION="GPU/TPU-accelerated parallel game simulators for reinforcement lear
 
 HOMEPAGE="https://github.com/sotetsuk/pgx"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

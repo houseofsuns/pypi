@@ -15,7 +15,7 @@ DESCRIPTION="A library for mapping CIDOC-CRM (v7.1) classes to Python objects"
 
 HOMEPAGE="https://github.com/linked-art/crom"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Custom JSON Encoder for Python utilising functools.singledispatch t
 
 HOMEPAGE="https://github.com/domdfcoding/singledispatch-json"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

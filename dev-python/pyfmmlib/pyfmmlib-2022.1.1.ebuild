@@ -15,7 +15,7 @@ DESCRIPTION="Python wrappers for particle FMMs"
 
 HOMEPAGE="http://github.com/inducer/pyfmmlib"
 LICENSE="wrapper: MIT/code: 3-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

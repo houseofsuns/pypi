@@ -15,7 +15,7 @@ DESCRIPTION="UNKNOWN"
 
 HOMEPAGE="https://bitbucket.org/mirusresearch/useragent"
 LICENSE="BSD licensed. See LICENSE.txt in the source distribution."
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

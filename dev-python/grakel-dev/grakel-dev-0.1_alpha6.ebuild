@@ -15,7 +15,7 @@ DESCRIPTION="A scikit-learn compatible library for graph kernels"
 
 HOMEPAGE="https://ysig.github.io/GraKeL/dev/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

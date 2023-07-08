@@ -15,7 +15,7 @@ DESCRIPTION="Fork from hurry.filesize, A simple Python library for human readabl
 
 HOMEPAGE="https://github.com/Stonesjtu/calmsize"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

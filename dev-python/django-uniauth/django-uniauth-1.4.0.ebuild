@@ -15,7 +15,7 @@ DESCRIPTION="A Django app for managing CAS and custom user authentication."
 
 HOMEPAGE="https://github.com/lgoodridge/django-uniauth"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

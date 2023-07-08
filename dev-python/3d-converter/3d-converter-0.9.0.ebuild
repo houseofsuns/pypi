@@ -15,7 +15,7 @@ DESCRIPTION="Python 3D Models Converter"
 
 HOMEPAGE="https://github.com/vorono4ka/3d-converter"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/3/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

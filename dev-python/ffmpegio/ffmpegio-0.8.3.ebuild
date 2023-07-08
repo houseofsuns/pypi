@@ -15,7 +15,7 @@ DESCRIPTION="Media I/O with FFmpeg and NumPy array"
 
 HOMEPAGE=""
 LICENSE="GPL-2.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

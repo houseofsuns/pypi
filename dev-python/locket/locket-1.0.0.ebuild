@@ -15,7 +15,7 @@ DESCRIPTION="File-based locks for Python on Linux and Windows"
 
 HOMEPAGE="http://github.com/mwilliamson/locket.py"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

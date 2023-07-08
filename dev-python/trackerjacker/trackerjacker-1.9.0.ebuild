@@ -15,7 +15,7 @@ DESCRIPTION="Finds and tracks wifi devices through raw 802.11 monitoring"
 
 HOMEPAGE="https://github.com/calebmadrigal/trackerjacker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

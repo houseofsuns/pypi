@@ -15,7 +15,7 @@ DESCRIPTION="Toggl Entry - CLI REST API client for Toggl"
 
 HOMEPAGE="https://github.com/hubpav/te"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhos${REALNAME}d.org/packages/f2/b4/b4c4e414b62c08bae0b9f8ef3595ab50e39e80c9aea721d6b96805da7b9a/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

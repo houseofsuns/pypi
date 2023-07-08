@@ -15,7 +15,7 @@ DESCRIPTION="Python logging Formatter for CRLF Injection (CWE-93 / CWE-117) prev
 
 HOMEPAGE="https://github.com/darrenpmeyer/logging-formatter-anticrlf"
 LICENSE="BSD 2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

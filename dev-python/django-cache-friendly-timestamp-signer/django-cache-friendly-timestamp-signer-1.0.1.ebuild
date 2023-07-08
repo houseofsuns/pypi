@@ -15,7 +15,7 @@ DESCRIPTION="Signed URLs that can be kept in browser's cache"
 
 HOMEPAGE="https://github.com/PokaInc/django-cache-friendly-timestamp-signer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

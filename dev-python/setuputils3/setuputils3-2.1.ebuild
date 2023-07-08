@@ -15,7 +15,7 @@ DESCRIPTION="A utility module to automate building setup configuration files."
 
 HOMEPAGE="http://pypi.org/project/setuputils3"
 LICENSE="PSF-2.4"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

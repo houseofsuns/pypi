@@ -15,7 +15,7 @@ DESCRIPTION="Use Markov chain Monte Carlo to analyze districting plans and gerry
 
 HOMEPAGE="https://github.com/mggg/GerryChain"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

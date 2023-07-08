@@ -15,7 +15,7 @@ DESCRIPTION="Command line wrapper to run a named Plotly Dash script inside a Tor
 
 HOMEPAGE="https://github.com/ideonate/plotlydash-tornado-cmd"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

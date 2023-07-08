@@ -15,7 +15,7 @@ DESCRIPTION="Happy Transformer is an API built on top of Hugging Face's Transfor
 
 HOMEPAGE="https://github.com/EricFillion/happy-transformer"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

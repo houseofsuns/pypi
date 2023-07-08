@@ -15,7 +15,7 @@ DESCRIPTION="Package for defining and manipulating geometric programming models.
 
 HOMEPAGE="https://www.github.com/convexengineering/gpkit"
 LICENSE="The MIT License MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

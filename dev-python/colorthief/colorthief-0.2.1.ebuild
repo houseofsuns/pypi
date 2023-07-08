@@ -15,7 +15,7 @@ DESCRIPTION="A module for grabbing the color palette from an image."
 
 HOMEPAGE="https://github.com/fengsp/color-thief-py"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A napari plugin covers elementary numpy operations like swap axes, 
 
 HOMEPAGE="https://github.com/MBPhys/napari-elementary-numpy-operations"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

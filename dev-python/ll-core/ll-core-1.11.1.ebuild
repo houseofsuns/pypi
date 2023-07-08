@@ -15,7 +15,7 @@ DESCRIPTION="LivingLogic base package: ansistyle, color, make, sisyphus, xpit, u
 
 HOMEPAGE="http://www.livinglogic.de/Python/core/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Run flake8 across a set of changed files and filter out violations 
 
 HOMEPAGE="http://dealertrack.github.io"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

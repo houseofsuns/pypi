@@ -15,7 +15,7 @@ DESCRIPTION="Python API Wrapper for AppOptics Metrics"
 
 HOMEPAGE="https://github.com/appoptics/appoptics-api-python"
 LICENSE="https://github.com/appoptics/appoptics-api-python/blob/master/LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for Optimizely Feature Experimentation, Optimizely Full 
 
 HOMEPAGE="https://github.com/optimizely/python-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

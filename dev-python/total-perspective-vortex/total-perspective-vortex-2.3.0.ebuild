@@ -15,7 +15,7 @@ DESCRIPTION="A library for routing entities (jobs, users or groups) to destinati
 
 HOMEPAGE="https://github.com/galaxyproject/total-perspective-vortex"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Mark tests as testing a deprecated feature with a warning note."
 
 HOMEPAGE="https://github.com/NyanKiyoshi/pytest-deprecate/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Netezza Dialect for SQLAlchemy"
 
 HOMEPAGE="https://github.com/IBM/nzalchemy"
 LICENSE="IBM"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

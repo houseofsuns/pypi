@@ -15,7 +15,7 @@ DESCRIPTION="metrics for Python, C, C++, Go and Javascript code (plugins for pyl
 
 HOMEPAGE="https://github.com/finklabs/metrics/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

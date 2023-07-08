@@ -15,7 +15,7 @@ DESCRIPTION="Dear ImGui Bundle: easily create ImGui applications in Python and C
 
 HOMEPAGE="https://github.com/pthom/imgui_bundle"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

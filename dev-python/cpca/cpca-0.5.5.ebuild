@@ -15,7 +15,7 @@ DESCRIPTION="Chinese Province, City and Area Recognition Utilities"
 
 HOMEPAGE="https://github.com/DQinYuan/chinese_province_city_area_mapper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Extends scikit-learn with a couple of new models, transformers, met
 
 HOMEPAGE="http://www.xavierdupre.fr/app/mlinsights/helpsphinx/index.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

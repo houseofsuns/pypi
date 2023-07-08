@@ -15,7 +15,7 @@ DESCRIPTION="A library to use BLAKE in keyed hashing mode to sign and verify sig
 
 HOMEPAGE="https://gitlab.com/hackancuba/blake2signer"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

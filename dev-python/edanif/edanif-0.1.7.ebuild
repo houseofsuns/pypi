@@ -15,7 +15,7 @@ DESCRIPTION="EDA-NIf creates a dataframe containing meta information of NIfTi fi
 
 HOMEPAGE="https://github.com/DSDanielPark/EDA-NIf"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

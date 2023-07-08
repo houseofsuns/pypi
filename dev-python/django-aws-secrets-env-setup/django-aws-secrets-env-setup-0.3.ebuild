@@ -15,7 +15,7 @@ DESCRIPTION="A helper function for setting environment variables from AWS secret
 
 HOMEPAGE="https://github.com/Lenders-Cooperative/django-aws-secrets-env-setup"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

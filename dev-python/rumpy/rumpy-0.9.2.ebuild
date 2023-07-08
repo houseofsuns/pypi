@@ -15,7 +15,7 @@ DESCRIPTION="python sdk for quorum: https://github.com/rumsystem/quorum"
 
 HOMEPAGE="https://github.com/liujuanjuan1984/rumpy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

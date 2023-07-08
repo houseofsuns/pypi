@@ -15,7 +15,7 @@ DESCRIPTION="Community Github Action to scan for SCA using Synopsys Black Duck."
 
 HOMEPAGE="https://github.com/synopsys-sig-community/blackduck-direct-scan-action"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

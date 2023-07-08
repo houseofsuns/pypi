@@ -15,7 +15,7 @@ DESCRIPTION="Easy SimAuto (ESA): An easy-to-use Python connector to PowerWorld S
 
 HOMEPAGE="https://github.com/mzy2240/ESA"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python package for data processing of NMR 1D and 2D metabolomics an
 
 HOMEPAGE="https://github.com/ludwigc/metabolabpy"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

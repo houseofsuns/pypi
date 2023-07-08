@@ -15,7 +15,7 @@ DESCRIPTION="An open source DataOps, MLOps platform for humans"
 
 HOMEPAGE="https://omegaml.io/"
 LICENSE="Apache 2.0 + No Sell, Consulting Yes License Condition"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

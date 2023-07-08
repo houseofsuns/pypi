@@ -15,7 +15,7 @@ DESCRIPTION="Update package m3u8downloader to use aiohttp download m3u8 url"
 
 HOMEPAGE="https://github.com/kirikumo/aiom3u8downloader/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

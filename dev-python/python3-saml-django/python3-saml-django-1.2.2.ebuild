@@ -15,7 +15,7 @@ DESCRIPTION="Implement SAML Single Sign-On in your Django project quickly and ea
 
 HOMEPAGE="https://github.com/penn-state-dance-marathon/python3-saml-django"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

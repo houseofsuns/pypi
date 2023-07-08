@@ -15,7 +15,7 @@ DESCRIPTION="Python interface for the NRLMSISE-00 neutral atmosphere model"
 
 HOMEPAGE="https://github.com/st-bender/pynrlmsise00"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

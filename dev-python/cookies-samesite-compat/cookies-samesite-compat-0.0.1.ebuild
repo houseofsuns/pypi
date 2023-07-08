@@ -15,7 +15,7 @@ DESCRIPTION="WSGI Middleware to duplicate the configured cookies and remove the 
 
 HOMEPAGE="https://github.com/c00kiemon5ter/cookies_samesite_compat"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

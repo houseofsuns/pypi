@@ -15,7 +15,7 @@ DESCRIPTION="This plugin allows to configure your own autolink references for no
 
 HOMEPAGE="https://github.com/theskumar/autolink-references-mkdocs-plugin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

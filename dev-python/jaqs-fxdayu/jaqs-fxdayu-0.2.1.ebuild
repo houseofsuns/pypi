@@ -15,7 +15,7 @@ DESCRIPTION="Open source quantitative research&trading framework, base on https:
 
 HOMEPAGE="https://github.com/xingetouzi/jaqs_fxdayu"
 LICENSE="Apache License v2"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

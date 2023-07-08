@@ -15,7 +15,7 @@ DESCRIPTION="xml2rfc generates RFCs and IETF drafts from document source in XML 
 
 HOMEPAGE="https://github.com/ietf-tools/xml2rfc"
 LICENSE="Revised BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A library for reading and writing Garmin FIT files."
 
 HOMEPAGE="https://bitbucket.org/stagescycling/python_fit_tool.git"
 LICENSE="none"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

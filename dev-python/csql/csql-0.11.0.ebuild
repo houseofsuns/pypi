@@ -15,7 +15,7 @@ DESCRIPTION="Simple library for writing composeable SQL queries"
 
 HOMEPAGE="https://github.com/akdor1154/python-csql"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python package for controlling Neato pybotvac Connected vacuum robo
 
 HOMEPAGE="https://github.com/stianaske/pybotvac"
 LICENSE="Licensed under the MIT license. See LICENSE file for details"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

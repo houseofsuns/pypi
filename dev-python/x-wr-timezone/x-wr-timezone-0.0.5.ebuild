@@ -15,7 +15,7 @@ DESCRIPTION="A Python module and program to convert calendars using X-WR-TIMEZON
 
 HOMEPAGE="https://github.com/niccokunzmann/x-wr-timezone"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

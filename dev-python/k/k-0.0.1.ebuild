@@ -15,7 +15,7 @@ DESCRIPTION="enums for Python"
 
 HOMEPAGE="https://github.com/bfontaine/k"
 LICENSE="Copyright  2015  Baptiste Fontaine"
-SRC_URI="https://files.pythonhosted.org/pac${REALNAME}ages/b6/55/ab008775ba045253651325a801ada636ea8f3ff94396620293dd6d1e5a48/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

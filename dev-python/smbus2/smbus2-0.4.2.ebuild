@@ -15,7 +15,7 @@ DESCRIPTION="smbus2 is a drop-in replacement for smbus-cffi/smbus-python in pure
 
 HOMEPAGE="https://github.com/kplindegaard/smbus2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

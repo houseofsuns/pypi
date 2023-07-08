@@ -15,7 +15,7 @@ DESCRIPTION="Flask restful API framework for MongoDB/MongoEngine"
 
 HOMEPAGE="http://github.com/tschaume/flask-mongorest"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

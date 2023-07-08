@@ -15,7 +15,7 @@ DESCRIPTION="哔哩哔哩的各种 API 调用便捷整合（视频、动态、�
 
 HOMEPAGE="https://github.com/MoyuScript/bilibili-api"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

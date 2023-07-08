@@ -15,7 +15,7 @@ DESCRIPTION="Find undeclared and unused 3rd-party dependencies in your Python pr
 
 HOMEPAGE="https://github.com/tweag/FawltyDeps"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

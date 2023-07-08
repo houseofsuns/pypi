@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight SOAP client (Jurko's fork)"
 
 HOMEPAGE="http://bitbucket.org/jurko/suds"
 LICENSE="specified using classifiers"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 

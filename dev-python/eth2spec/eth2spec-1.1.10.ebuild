@@ -15,7 +15,7 @@ DESCRIPTION="Eth2 spec, provided as Python package for tooling and testing"
 
 HOMEPAGE="https://github.com/ethereum/eth2.0-specs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

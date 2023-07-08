@@ -15,7 +15,7 @@ DESCRIPTION="Python dictionary representations of Avro Schema for the nubium pro
 
 HOMEPAGE="https://gitlab.corp.redhat.com/mkt-ops-de/nubium-schemas.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

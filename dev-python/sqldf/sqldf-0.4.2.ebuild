@@ -15,7 +15,7 @@ DESCRIPTION="A simple way to run SQL queries (SQLite3) on pandas.Dataframe objec
 
 HOMEPAGE="https://github.com/christophelebrun/sqldf"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

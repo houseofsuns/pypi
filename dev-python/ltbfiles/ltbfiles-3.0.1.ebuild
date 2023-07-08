@@ -15,7 +15,7 @@ DESCRIPTION="Module for loading of files created with spectrometers from LTB"
 
 HOMEPAGE="https://gitlab.com/ltb_berlin/ltb_files"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

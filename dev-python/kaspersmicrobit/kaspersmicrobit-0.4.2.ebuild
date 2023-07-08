@@ -15,7 +15,7 @@ DESCRIPTION="A python package to connect to the Bluetooth LE GATT services of BB
 
 HOMEPAGE="https://github.com/janickr/kaspersmicrobit"
 LICENSE="Mozilla Public License 2.0 MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

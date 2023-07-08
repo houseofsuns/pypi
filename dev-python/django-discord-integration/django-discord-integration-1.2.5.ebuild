@@ -15,7 +15,7 @@ DESCRIPTION="Discord integration for Django, supporting error reporting via webh
 
 HOMEPAGE="https://github.com/Ninjaclasher/django-discord-integration"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

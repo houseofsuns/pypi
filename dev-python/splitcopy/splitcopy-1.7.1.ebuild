@@ -15,7 +15,7 @@ DESCRIPTION="Improves file transfer rates when copying files to/from JUNOS/EVO/*
 
 HOMEPAGE="https://github.com/Juniper/splitcopy"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

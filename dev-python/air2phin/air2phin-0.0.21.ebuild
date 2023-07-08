@@ -15,7 +15,7 @@ DESCRIPTION="Air2phin is a tool for migrating Airflow DAGs to DolphinScheduler P
 
 HOMEPAGE="https://github.com/WhaleOps/air2phin"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

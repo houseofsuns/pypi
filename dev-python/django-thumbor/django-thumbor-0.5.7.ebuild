@@ -15,7 +15,7 @@ DESCRIPTION="A django application to resize images using the thumbor service"
 
 HOMEPAGE="http://github.com/ricobl/django-thumbor/"
 LICENSE="django-thumbor is licensed under the MIT license. For more information, please see LICENSE file."
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Integration of webpack with jinja2"
 
 HOMEPAGE="https://github.com/JDeuce/python-jinja2-webpack"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

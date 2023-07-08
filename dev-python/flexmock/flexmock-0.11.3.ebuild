@@ -15,7 +15,7 @@ DESCRIPTION="flexmock is a testing library for Python that makes it easy to crea
 
 HOMEPAGE="https://github.com/flexmock/flexmock"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python module to automatically compile UI and RC files in PyQt5 to 
 
 HOMEPAGE="https://github.com/addisonElliott/pyqt5ac"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

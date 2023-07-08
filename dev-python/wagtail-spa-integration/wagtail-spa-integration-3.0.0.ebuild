@@ -15,7 +15,7 @@ DESCRIPTION="Tools for using Wagtail API with JavaScript single page apps"
 
 HOMEPAGE="https://gitlab.com/thelabnyc/wagtail-spa-integration"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

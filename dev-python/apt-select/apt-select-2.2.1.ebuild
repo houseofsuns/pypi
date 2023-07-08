@@ -15,7 +15,7 @@ DESCRIPTION="Ubuntu Archive Mirror reporting tool for apt sources configuration"
 
 HOMEPAGE="https://github.com/jblakeman/apt-select"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

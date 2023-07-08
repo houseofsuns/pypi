@@ -15,7 +15,7 @@ DESCRIPTION="Tiny RML2PDF is open source implementation of RML (Report Markup La
 
 HOMEPAGE="http://github.com/romanlv/trml2pdf/"
 LICENSE="GNU LESSER GENERAL PUBLIC LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

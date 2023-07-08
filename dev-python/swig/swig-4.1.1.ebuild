@@ -15,7 +15,7 @@ DESCRIPTION="SWIG is a software development tool that connects programs written 
 
 HOMEPAGE="http://www.swig.org/"
 LICENSE="https://github.com/swig/swig/blob/master/LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A tool to fetch and extract YANG modules from IETF RFCs and Drafts"
 
 HOMEPAGE="https://github.com/xym-tool/xym"
 LICENSE="New-style BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Convert feeds to maildirs"
 
 HOMEPAGE="https://github.com/sulami/feed2maildir"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.12-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.12-x86_64.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.macosx-10.12-x86_64.tar.gz"
 RESTRICT="test"
 

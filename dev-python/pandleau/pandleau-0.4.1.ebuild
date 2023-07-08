@@ -15,7 +15,7 @@ DESCRIPTION="A quick and easy way to convert a Pandas DataFrame to a Tableau ext
 
 HOMEPAGE="https://github.com/bwiley1/pandleau"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

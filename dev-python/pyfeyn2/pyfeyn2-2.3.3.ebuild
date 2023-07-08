@@ -15,7 +15,7 @@ DESCRIPTION="PyFeyn is a package which makes drawing Feynman diagrams simple and
 
 HOMEPAGE="https://github.com/APN-Pucky/pyfeyn2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

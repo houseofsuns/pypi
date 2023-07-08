@@ -15,7 +15,7 @@ DESCRIPTION="Daltools: utilities for extracting data from Dalton quantum chemist
 
 HOMEPAGE="https://github.com/vahtras/daltools"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

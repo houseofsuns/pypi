@@ -15,7 +15,7 @@ DESCRIPTION="A ConfigParser subclass with file-specified inheritance."
 
 HOMEPAGE="http://github.com/cadithealth/iniherit"
 LICENSE="MIT http://opensource.org/licenses/MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

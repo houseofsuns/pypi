@@ -15,7 +15,7 @@ DESCRIPTION="bciAVM is a machine learning pipeline used to predict property pric
 
 HOMEPAGE="https://github.com/BlockchainClimateInstitute/microservice_price"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

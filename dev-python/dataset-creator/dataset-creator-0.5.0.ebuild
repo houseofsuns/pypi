@@ -15,7 +15,7 @@ DESCRIPTION="Takes SeqRecordExpanded objects and creates datasets for phylogenet
 
 HOMEPAGE="https://github.com/carlosp420/dataset-creator"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

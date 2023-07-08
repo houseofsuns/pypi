@@ -15,7 +15,7 @@ DESCRIPTION="Easy wrapper for antigate.com/anti-captcha.com"
 
 HOMEPAGE="http://github.com/gotlium/antigate"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

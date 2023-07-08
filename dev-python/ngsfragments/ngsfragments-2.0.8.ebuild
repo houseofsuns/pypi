@@ -15,7 +15,7 @@ DESCRIPTION="Python package for Next Generation Sequencing fragment manipulation
 
 HOMEPAGE="https://github.com/kylessmith/ngsfragments"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

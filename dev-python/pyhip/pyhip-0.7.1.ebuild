@@ -15,7 +15,7 @@ DESCRIPTION="A Python interface to Hip which is a package for manipulating"
 
 HOMEPAGE="http://www.cerfacs.fr/avbp7x/hip.php"
 LICENSE="CeCILL-B Free Software License Agreement CECILL-B"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

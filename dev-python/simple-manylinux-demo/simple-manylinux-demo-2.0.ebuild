@@ -15,7 +15,7 @@ DESCRIPTION="This is a simple package with a compiled C extension."
 
 HOMEPAGE="https://github.com/frenzymadness/simple-manylinux-demo"
 LICENSE="CC0 1.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

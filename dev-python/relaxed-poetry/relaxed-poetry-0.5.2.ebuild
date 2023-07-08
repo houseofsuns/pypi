@@ -15,7 +15,7 @@ DESCRIPTION="Fork of Poetry (Python dependency management and packaging tool), a
 
 HOMEPAGE="https://github.com/bennylut/relaxed-poetry"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

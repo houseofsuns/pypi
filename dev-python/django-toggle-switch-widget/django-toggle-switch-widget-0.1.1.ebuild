@@ -15,7 +15,7 @@ DESCRIPTION="Display toggle switch in stead of checkbox for BooleanField in djan
 
 HOMEPAGE="https://github.com/zencore-cn/zencore-issues"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

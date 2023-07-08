@@ -15,7 +15,7 @@ DESCRIPTION="Grako takes a grammar in a variation of EBNF as input, and outputs 
 
 HOMEPAGE="https://bitbucket.org/neogeny/grako"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

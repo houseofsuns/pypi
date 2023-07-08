@@ -15,7 +15,7 @@ DESCRIPTION="Financial Technical Analysis Indicator Library. Python bindings for
 
 HOMEPAGE="https://github.com/cirla/tulipy"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A quick way to add Bootstrap Icons with Django template tags."
 
 HOMEPAGE="https://github.com/christianwgd/django-bootstrap-icons"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

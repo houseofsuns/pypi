@@ -15,7 +15,7 @@ DESCRIPTION="Easily gather data from across NCBI databases"
 
 HOMEPAGE="https://www.ncbi.nlm.nih.gov/datasets"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

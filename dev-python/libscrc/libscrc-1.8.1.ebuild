@@ -15,7 +15,7 @@ DESCRIPTION="Library for calculating CRC3/CRC4/CRC8/CRC16/CRC24/CRC32/CRC64/CRC8
 
 HOMEPAGE="https://github.com/hex-in/libscrc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

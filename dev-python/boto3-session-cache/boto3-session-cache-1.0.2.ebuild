@@ -15,7 +15,7 @@ DESCRIPTION="Provides a local file system cache for temporary AWS session creden
 
 HOMEPAGE="https://github.com/mixja/boto3-session-cache"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

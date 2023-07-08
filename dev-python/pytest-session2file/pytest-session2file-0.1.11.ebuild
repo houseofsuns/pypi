@@ -15,7 +15,7 @@ DESCRIPTION="pytest-session2file (aka: pytest-session_to_file for v0.1.0 - v0.1.
 
 HOMEPAGE="https://github.com/BuhtigithuB/pytest_session2file"
 LICENSE="LGPLv3 http://www.gnu.org/licenses/lgpl.html"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

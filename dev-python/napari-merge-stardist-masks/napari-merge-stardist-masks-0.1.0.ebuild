@@ -15,7 +15,7 @@ DESCRIPTION="Segment non-star-convex objects with StarDist by merging masks."
 
 HOMEPAGE="https://github.com/gatoniel/napari-merge-stardist-masks"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

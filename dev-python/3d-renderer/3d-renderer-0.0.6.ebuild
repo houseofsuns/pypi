@@ -15,7 +15,7 @@ DESCRIPTION="A Python module that renders 3D objects as pygame surfaces."
 
 HOMEPAGE="https://github.com/HuangPatrick16777216/3d_renderer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/3/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

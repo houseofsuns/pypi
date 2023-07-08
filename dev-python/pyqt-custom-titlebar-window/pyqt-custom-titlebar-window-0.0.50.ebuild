@@ -15,7 +15,7 @@ DESCRIPTION="PyQt custom titlebar window (resizable, movable, minimize/maximize/
 
 HOMEPAGE="https://github.com/yjg30737/pyqt-custom-titlebar-window.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

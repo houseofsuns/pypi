@@ -15,7 +15,7 @@ DESCRIPTION="Prevent version normalization when packaging Python projects with s
 
 HOMEPAGE="https://github.com/ccrisan/setup-no-ver-normalize"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

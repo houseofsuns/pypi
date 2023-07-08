@@ -15,7 +15,7 @@ DESCRIPTION="Open source library extension of scikit-learn for Amazon SageMaker.
 
 HOMEPAGE="https://github.com/aws/sagemaker-scikit-learn-extension/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

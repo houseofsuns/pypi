@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for the Yandex MyStem 3.1 morpholocial analyzer of t
 
 HOMEPAGE="https://github.com/nlpub/pymystem3"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

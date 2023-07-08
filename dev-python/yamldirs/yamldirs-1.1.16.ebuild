@@ -15,7 +15,7 @@ DESCRIPTION="yamldirs - create directories and files (incl. contents) from yaml 
 
 HOMEPAGE="https://github.com/datakortet/yamldirs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

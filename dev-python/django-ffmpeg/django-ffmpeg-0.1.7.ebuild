@@ -15,7 +15,7 @@ DESCRIPTION="Download and encode video files by using ffmpeg utilit"
 
 HOMEPAGE="https://github.com/pixxxel/django-ffmpeg"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

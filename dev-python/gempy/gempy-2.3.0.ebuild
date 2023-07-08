@@ -15,7 +15,7 @@ DESCRIPTION="An Open-source, Python-based 3-D structural geological modeling sof
 
 HOMEPAGE="https://github.com/cgre-aachen/gempy"
 LICENSE="LGPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

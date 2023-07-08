@@ -15,7 +15,7 @@ DESCRIPTION="播报群友 Steam 游戏状态"
 
 HOMEPAGE="https://github.com/nek0us/nonebot_plugin_steam_game_status"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

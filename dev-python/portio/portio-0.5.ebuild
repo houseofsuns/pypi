@@ -15,7 +15,7 @@ DESCRIPTION="PortIO, python low level port I/O for Linux x86"
 
 HOMEPAGE="http://portio.inrim.it"
 LICENSE="http://www.gnu.org/licenses/gpl.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

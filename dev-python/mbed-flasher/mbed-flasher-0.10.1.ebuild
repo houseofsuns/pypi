@@ -15,7 +15,7 @@ DESCRIPTION="mbed-flasher"
 
 HOMEPAGE="https://github.com/ARMmbed/mbed-flasher"
 LICENSE="Copyright 2016 ARM Limited"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

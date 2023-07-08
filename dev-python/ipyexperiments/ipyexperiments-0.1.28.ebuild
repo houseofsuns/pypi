@@ -15,7 +15,7 @@ DESCRIPTION="jupyter/ipython experiment containers for GPU and general RAM re-us
 
 HOMEPAGE="https://github.com/stas00/ipyexperiments"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

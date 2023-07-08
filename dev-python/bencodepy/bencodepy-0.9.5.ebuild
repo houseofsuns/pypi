@@ -15,7 +15,7 @@ DESCRIPTION="Bencode encoder/decoder written in Python 3 under the GPLv2."
 
 HOMEPAGE="https://github.com/eweast/bencodepy_opti"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

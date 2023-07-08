@@ -15,7 +15,7 @@ DESCRIPTION="Support tools for TREC CAR participants. Also see trec-car.cs.unh.e
 
 HOMEPAGE="https://github.com/TREMA-UNH/trec-car-tools/python3"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

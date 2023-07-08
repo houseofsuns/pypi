@@ -15,7 +15,7 @@ DESCRIPTION="Examples how to use the Informatica EDC samples. Loosely based on I
 
 HOMEPAGE="https://github.com/jacbeekers/Informatica-EDC-REST-API-Samples"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

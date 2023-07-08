@@ -15,7 +15,7 @@ DESCRIPTION="stactools package for NOAA''s Multi-Radar Multi-Sensor Quantitative
 
 HOMEPAGE="https://github.com/stactools-packages/noaa-mrms-qpe"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

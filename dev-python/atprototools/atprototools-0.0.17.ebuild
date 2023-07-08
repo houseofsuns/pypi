@@ -15,7 +15,7 @@ DESCRIPTION="Easy-to-use and ergonomic library for interacting with bluesky, pac
 
 HOMEPAGE="https://github.com/ianklatzco/atprototools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

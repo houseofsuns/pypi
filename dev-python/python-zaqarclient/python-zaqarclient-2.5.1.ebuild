@@ -15,7 +15,7 @@ DESCRIPTION="Client Library for OpenStack Zaqar Messaging API"
 
 HOMEPAGE="https://docs.openstack.org/python-zaqarclient/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

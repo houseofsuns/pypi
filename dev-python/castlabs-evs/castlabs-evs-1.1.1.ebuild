@@ -15,7 +15,7 @@ DESCRIPTION="A client for EVS, Widevine/VMP signing service"
 
 HOMEPAGE="https://github.com/castlabs/electron-releases/wiki/EVS"
 LICENSE="APACHE 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

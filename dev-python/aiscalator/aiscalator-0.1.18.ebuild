@@ -15,7 +15,7 @@ DESCRIPTION="AIscalate your Jupyter Notebook Prototypes into Airflow Data Produc
 
 HOMEPAGE="https://github.com/Aiscalate/aiscalator"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

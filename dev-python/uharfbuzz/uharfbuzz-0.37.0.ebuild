@@ -15,7 +15,7 @@ DESCRIPTION="Streamlined Cython bindings for the harfbuzz shaping engine"
 
 HOMEPAGE="https://github.com/trufont/uharfbuzz"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tools for building and simulating large-scale neural models"
 
 HOMEPAGE="https://www.nengo.ai/nengo"
 LICENSE="Free for non-commercial use"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

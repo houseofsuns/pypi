@@ -15,7 +15,7 @@ DESCRIPTION="A Django cache backend to use bmemcached module which supports memc
 
 HOMEPAGE="https://github.com/jaysonsantos/django-bmemcached"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

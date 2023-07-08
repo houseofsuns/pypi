@@ -15,7 +15,7 @@ DESCRIPTION="py.test JIRA integration plugin, using markers"
 
 HOMEPAGE="http://github.com/rhevm-qe-automation/pytest_jira"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

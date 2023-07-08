@@ -15,7 +15,7 @@ DESCRIPTION="Utilities for working with Excel files that require both xlrd and x
 
 HOMEPAGE="http://www.python-excel.org"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

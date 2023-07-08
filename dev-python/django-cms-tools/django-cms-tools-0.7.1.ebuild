@@ -15,7 +15,7 @@ DESCRIPTION="Tools/helpers around Django-CMS"
 
 HOMEPAGE="https://github.com/jedie/django-cms-tools"
 LICENSE="GNU General Public License v3.0 or above"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

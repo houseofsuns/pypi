@@ -15,7 +15,7 @@ DESCRIPTION="TaCLe is a tool for learning constraints and formulas in spreadshee
 
 HOMEPAGE="https://github.com/ML-KULeuven/tacle"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

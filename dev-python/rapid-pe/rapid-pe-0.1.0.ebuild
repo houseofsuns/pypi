@@ -15,7 +15,7 @@ DESCRIPTION="RapidPE: The original low-latency gravitational wave parameter esti
 
 HOMEPAGE="https://git.ligo.org/rapidpe-rift/rapidpe/"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Extracts emails and attachments saved in Microsoft Outlook's .msg f
 
 HOMEPAGE="https://github.com/TeamMsgExtractor/msg-extractor"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

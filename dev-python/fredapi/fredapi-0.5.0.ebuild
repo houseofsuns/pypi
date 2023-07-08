@@ -15,7 +15,7 @@ DESCRIPTION="Python API for Federal Reserve Economic Data (FRED) from St. Louis 
 
 HOMEPAGE="https://github.com/mortada/fredapi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

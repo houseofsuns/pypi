@@ -15,7 +15,7 @@ DESCRIPTION="django4-inline-actions adds actions to each row of the ModelAdmin o
 
 HOMEPAGE="https://github.com/HiroshiFuu/django4-inline-actions"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

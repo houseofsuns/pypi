@@ -15,7 +15,7 @@ DESCRIPTION="This python module is a tool to use Alma SRU. it manages the logs a
 
 HOMEPAGE="https://github.com/Swiss-Library-Service-Platform/almasru"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A graphical experiment builder for the social sciences"
 
 HOMEPAGE="https://osdoc.cogsci.nl"
 LICENSE="COPYING"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

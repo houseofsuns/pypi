@@ -15,7 +15,7 @@ DESCRIPTION="Ansi C library for parsing binary output files of LS Dyna (d3plot, 
 
 HOMEPAGE="https://github.com/PucklaJ/dynareadout"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

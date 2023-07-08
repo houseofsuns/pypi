@@ -15,7 +15,7 @@ DESCRIPTION="Use version control tags to discover version numbers"
 
 HOMEPAGE="https://github.com/habnabit/vcversioner"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Visualizer and analyser for biometric signals"
 
 HOMEPAGE="https://github.com/jaj42/GraPhysio"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

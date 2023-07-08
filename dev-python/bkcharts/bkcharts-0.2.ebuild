@@ -15,7 +15,7 @@ DESCRIPTION="High level chart types built on top of Bokeh"
 
 HOMEPAGE="http://github.com/bokeh/bkcharts"
 LICENSE="New BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

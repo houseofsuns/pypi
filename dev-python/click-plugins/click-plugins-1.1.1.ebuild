@@ -15,7 +15,7 @@ DESCRIPTION="An extension module for click to enable registering CLI commands vi
 
 HOMEPAGE="https://github.com/click-contrib/click-plugins"
 LICENSE="New BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

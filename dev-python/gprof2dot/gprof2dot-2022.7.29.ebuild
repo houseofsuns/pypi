@@ -15,7 +15,7 @@ DESCRIPTION="Generate a dot graph from the output of several profilers."
 
 HOMEPAGE="https://github.com/jrfonseca/gprof2dot"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

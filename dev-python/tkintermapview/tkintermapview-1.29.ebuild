@@ -15,7 +15,7 @@ DESCRIPTION="A python Tkinter widget to display image tile maps like OpenStreetM
 
 HOMEPAGE="https://github.com/TomSchimansky/TkinterMapView"
 LICENSE="Creative Commons Zero v1.0 Universal"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

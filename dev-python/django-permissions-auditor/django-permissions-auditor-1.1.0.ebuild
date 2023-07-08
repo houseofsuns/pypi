@@ -15,7 +15,7 @@ DESCRIPTION="django-permissions-auditor is a tool to audit access control on you
 
 HOMEPAGE="https://github.com/AACEngineering/django-permissions-auditor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

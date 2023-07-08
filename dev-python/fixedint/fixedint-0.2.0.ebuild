@@ -15,7 +15,7 @@ DESCRIPTION="simple fixed-width integers"
 
 HOMEPAGE="https://github.com/nneonneo/fixedint"
 LICENSE="PSF-2.4"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

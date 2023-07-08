@@ -15,7 +15,7 @@ DESCRIPTION="Powerful functional logger with support for qt programming"
 
 HOMEPAGE="https://github.com/Nakama3942/qt_colored_logger"
 LICENSE="Apache License, Version 2.0, see LICENSE file"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

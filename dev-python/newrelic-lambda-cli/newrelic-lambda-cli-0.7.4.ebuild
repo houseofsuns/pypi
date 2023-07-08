@@ -15,7 +15,7 @@ DESCRIPTION="A CLI to install the New Relic AWS Lambda integration and layers."
 
 HOMEPAGE="https://github.com/newrelic/newrelic-lambda-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="JILL -- Julia Installer for Linux (MacOS, Windows and FreeBSD) -- L
 
 HOMEPAGE="https://github.com/johnnychen94/jill.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

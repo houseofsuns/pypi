@@ -15,7 +15,7 @@ DESCRIPTION="Packing and unpacking integer representations of binary flags"
 
 HOMEPAGE="https://github.com/bepetersn/flags"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

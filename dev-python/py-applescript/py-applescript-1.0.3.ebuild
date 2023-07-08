@@ -15,7 +15,7 @@ DESCRIPTION="An easy-to-use Python wrapper for NSAppleScript, allowing Python sc
 
 HOMEPAGE="https://github.com/rdhyee/py-applescript"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A common backend for the Toga widget toolkit on web platforms."
 
 HOMEPAGE="https://beeware.org/project/projects/libraries/toga/"
 LICENSE="New BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

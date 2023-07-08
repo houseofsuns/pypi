@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for the tools of the Data-Centric Design Lab"
 
 HOMEPAGE="https://github.com/datacentricdesign/dcd-sdk-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

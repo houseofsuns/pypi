@@ -15,7 +15,7 @@ DESCRIPTION="Python module for registering and instantiating classes by name. Ba
 
 HOMEPAGE="https://github.com/epwalsh/python-registrable"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

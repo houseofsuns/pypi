@@ -15,7 +15,7 @@ DESCRIPTION="A flake8 extension that is looking for function calls and forces to
 
 HOMEPAGE="https://github.com/isac322/flake8-force-keyword-arguments"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

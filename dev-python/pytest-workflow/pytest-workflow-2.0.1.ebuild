@@ -15,7 +15,7 @@ DESCRIPTION="A pytest plugin for configuring workflow/pipeline tests using YAML 
 
 HOMEPAGE="https://github.com/LUMC/pytest-workflow"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

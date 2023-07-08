@@ -15,7 +15,7 @@ DESCRIPTION="Convert Excel Sheet into JSON file."
 
 HOMEPAGE="https://github.com/toransahu/excel2json-3"
 LICENSE="Distributed under terms of the AGPL license."
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

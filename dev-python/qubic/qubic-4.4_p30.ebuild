@@ -15,7 +15,7 @@ DESCRIPTION="Simulation and map-making tools for the QUBIC experiment."
 
 HOMEPAGE="UNKNOWN"
 LICENSE="CeCILL-B"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

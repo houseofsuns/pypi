@@ -15,7 +15,7 @@ DESCRIPTION="Starlite config plugin with SAQ and SQLAlchemy boilerplate"
 
 HOMEPAGE="https://github.com/topsport-com-au/starlite-saqlalchemy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

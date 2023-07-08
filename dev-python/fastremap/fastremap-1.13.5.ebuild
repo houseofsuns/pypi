@@ -15,7 +15,7 @@ DESCRIPTION="Remap, mask, renumber, unique, and in-place transposition of 3D lab
 
 HOMEPAGE="https://github.com/seung-lab/fastremap/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

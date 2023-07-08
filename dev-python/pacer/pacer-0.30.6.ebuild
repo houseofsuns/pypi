@@ -15,7 +15,7 @@ DESCRIPTION="pacer is a lightweight Python package for implementing distributed 
 
 HOMEPAGE="https://ssdmsource.ethz.ch/sis/pacer/tree/master"
 LICENSE="http://opensource.org/licenses/GPL-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

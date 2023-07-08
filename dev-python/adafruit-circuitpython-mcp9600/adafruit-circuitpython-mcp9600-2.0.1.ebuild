@@ -15,7 +15,7 @@ DESCRIPTION="CircuitPython library for the Adafruit MCP9600 breakout"
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_MCP9600"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

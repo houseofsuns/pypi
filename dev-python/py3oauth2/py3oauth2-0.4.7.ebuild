@@ -15,7 +15,7 @@ DESCRIPTION="OAuth 2.0 library for Python 3."
 
 HOMEPAGE="https://github.com/GehirnInc/py3oauth2"
 LICENSE="The MIT License MIT Copyright  2014 Kohei YOSHIDA <kohei.yoshida@gehirn.co.jp>"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Flake8 String Literal Enforcer Extension"
 
 HOMEPAGE="https://github.com/cogniteev/flake8-unicode-string-literal.git"
 LICENSE="Apache license 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

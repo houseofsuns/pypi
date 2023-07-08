@@ -15,7 +15,7 @@ DESCRIPTION="Sort a bulk of data in disk and parallel (RAM memory free)"
 
 HOMEPAGE="https://github.com/Invarato/sort_in_disk_project"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

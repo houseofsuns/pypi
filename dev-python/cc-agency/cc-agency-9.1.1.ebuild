@@ -15,7 +15,7 @@ DESCRIPTION="CC-Agency is part of the Curious Containers project. It connects to
 
 HOMEPAGE="https://www.curious-containers.cc/"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

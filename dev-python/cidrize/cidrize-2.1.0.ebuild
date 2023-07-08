@@ -15,7 +15,7 @@ DESCRIPTION="Cidrize parses IPv4/IPv6 addresses, CIDRs, ranges, and wildcard mat
 
 HOMEPAGE="https://github.com/jathanism/cidrize/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

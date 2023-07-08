@@ -15,7 +15,7 @@ DESCRIPTION="Citations and bibliography formatter"
 
 HOMEPAGE="https://github.com/brechtm/citeproc-py"
 LICENSE="2-clause BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

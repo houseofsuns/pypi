@@ -15,7 +15,7 @@ DESCRIPTION="This project helps you to import config file writen by YAML to Pyth
 
 HOMEPAGE="https://github.com/yukihiko-shinoda/yaml-dataclass-config"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

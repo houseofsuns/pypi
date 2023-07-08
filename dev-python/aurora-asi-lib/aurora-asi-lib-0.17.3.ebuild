@@ -15,7 +15,7 @@ DESCRIPTION="Easily download, plot, animate, and analyze auroral all sky imager 
 
 HOMEPAGE="https://github.com/mshumko/aurora-asi-lib"
 LICENSE="GNU GENERAL PUBLIC LICENSE v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

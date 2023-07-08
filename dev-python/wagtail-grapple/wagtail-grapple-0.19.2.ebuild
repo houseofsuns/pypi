@@ -15,7 +15,7 @@ DESCRIPTION="A Wagtail package that speeds up and simplifies implementing a Grap
 
 HOMEPAGE="https://github.com/torchbox/wagtail-grapple"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

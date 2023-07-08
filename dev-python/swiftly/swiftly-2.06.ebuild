@@ -15,7 +15,7 @@ DESCRIPTION="Command line tool and client bindings for OpenStack Swift."
 
 HOMEPAGE="https://github.com/gholt/swiftly/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tgz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tgz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tgz"
 RESTRICT="test"
 

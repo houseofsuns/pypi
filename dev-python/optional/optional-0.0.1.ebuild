@@ -15,7 +15,7 @@ DESCRIPTION="Optional Class for Python2/3"
 
 HOMEPAGE="https://github.com/alex----/optional"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

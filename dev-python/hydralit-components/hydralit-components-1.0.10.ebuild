@@ -15,7 +15,7 @@ DESCRIPTION="Components to use with or without the Hydralit package."
 
 HOMEPAGE="https://github.com/tanglespace/hydralit_components"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

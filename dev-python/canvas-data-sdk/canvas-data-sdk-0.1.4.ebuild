@@ -15,7 +15,7 @@ DESCRIPTION="A Python SDK for working with Instructure's Canvas Data REST API."
 
 HOMEPAGE="http://pypi.python.org/pypi/canvas-data-sdk/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

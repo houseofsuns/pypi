@@ -15,7 +15,7 @@ DESCRIPTION="An up-to-date, RFC5424-Compliant syslog handler for the Python logg
 
 HOMEPAGE="https://github.com/jobec/rfc5424-logging-handler"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

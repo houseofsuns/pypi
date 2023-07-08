@@ -15,7 +15,7 @@ DESCRIPTION="Package with techniques of artificial immune systems."
 
 HOMEPAGE="https://ais-package.github.io/"
 LICENSE="LGPL-3.0 license"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

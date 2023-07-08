@@ -15,7 +15,7 @@ DESCRIPTION="A Python-based tool for interacting with AzureMSv316-based database
 
 HOMEPAGE="https://github.com/TEAM-SPIRIT-Productions/Lazuli"
 LICENSE="AGPL-3.0 license"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

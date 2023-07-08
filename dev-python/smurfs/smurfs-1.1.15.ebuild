@@ -15,7 +15,7 @@ DESCRIPTION="Smart UseR Frequency analySer, a fast and easy to use frequency ana
 
 HOMEPAGE="https://github.com/muma7490/SMURFS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

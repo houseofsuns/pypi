@@ -15,7 +15,7 @@ DESCRIPTION="Easy to use cache framework for django-rest-framwork apps"
 
 HOMEPAGE="https://github.com/ervilis/django-rest-framework-cache/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

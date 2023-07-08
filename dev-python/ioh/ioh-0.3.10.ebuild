@@ -15,7 +15,7 @@ DESCRIPTION="The experimenter for Iterative Optimization Heuristics"
 
 HOMEPAGE="https://iohprofiler.github.io/IOHexperimenter"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python helper libraries for Web/GAE/Flask, HTML manipulation and co
 
 HOMEPAGE="https://github.com/kign/pkg-inetlab"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A script to validate XML files for the game 'The Binding of Isaac: 
 
 HOMEPAGE="https://github.com/wofsauge/isaac-xml-validator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

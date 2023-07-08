@@ -15,7 +15,7 @@ DESCRIPTION="Mod9 ASR Python SDK, REST API, and Websocket Interface: high-level 
 
 HOMEPAGE="https://github.com/mod9-asr/python-sdk"
 LICENSE="BSD 2-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

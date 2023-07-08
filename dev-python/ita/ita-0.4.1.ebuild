@@ -15,7 +15,7 @@ DESCRIPTION="support package for \"introduction to algorithm\" lecture"
 
 HOMEPAGE="https://lecture.ecc.u-tokyo.ac.jp/johzu/joho-kagaku/"
 LICENSE="You are free to copy, redistribute, modify, and build upon the"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

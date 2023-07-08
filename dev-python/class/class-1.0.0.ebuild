@@ -15,7 +15,7 @@ DESCRIPTION="A simple class!"
 
 HOMEPAGE="http://user.qzone.qq.com/614754894/main"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

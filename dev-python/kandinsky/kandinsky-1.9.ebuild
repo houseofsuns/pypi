@@ -15,7 +15,7 @@ DESCRIPTION="A small module allowing to link the kandinsky module, from the Numw
 
 HOMEPAGE="https://github.com/ZetaMap/Kandinsky-Numworks"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A set of utilities for multiprocessing using zeromq."
 
 HOMEPAGE="http://github.com/chrisjbillington/zprocess"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Plugin for Honeybee to enable Passive House modeling."
 
 HOMEPAGE="https://github.com/PH-Tools/honeybee_ph"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

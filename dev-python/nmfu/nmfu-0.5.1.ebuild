@@ -15,7 +15,7 @@ DESCRIPTION="A parser generator that turns procedural programs into C state mach
 
 HOMEPAGE="https://github.com/mincrmatt12/nmfu"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

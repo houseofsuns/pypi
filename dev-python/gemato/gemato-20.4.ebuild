@@ -15,7 +15,7 @@ DESCRIPTION="Gentoo Manifest Tool -- a utility to verify and update Manifest fil
 
 HOMEPAGE="https://github.com/mgorny/gemato/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

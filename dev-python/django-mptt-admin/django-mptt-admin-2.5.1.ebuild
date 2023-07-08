@@ -15,7 +15,7 @@ DESCRIPTION="Django-mptt-admin provides a nice Django Admin interface for Mptt m
 
 HOMEPAGE="https://github.com/mbraak/django-mptt-admin"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

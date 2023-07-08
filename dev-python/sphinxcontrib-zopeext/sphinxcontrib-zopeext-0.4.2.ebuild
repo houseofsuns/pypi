@@ -15,7 +15,7 @@ DESCRIPTION="Provides sphinxcontrib.zopeext.autointerface for documenting Zope i
 
 HOMEPAGE="https://github.com/sphinx-contrib/zopeext/"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

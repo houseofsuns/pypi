@@ -15,7 +15,7 @@ DESCRIPTION="UMLS RAT (REST API Tool) provides a reasonable interface to the UML
 
 HOMEPAGE="https://github.com/3mcloud/umls-rat"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

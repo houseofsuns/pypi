@@ -15,7 +15,7 @@ DESCRIPTION="AWS CDK Constructs that can be used to create datalakes/meshes and 
 
 HOMEPAGE="https://github.com/randyridgley/cdk-datalake-constructs.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

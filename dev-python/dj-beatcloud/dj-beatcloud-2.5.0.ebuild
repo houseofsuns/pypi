@@ -15,7 +15,7 @@ DESCRIPTION="DJ Tools is a library for managing a collection of music and Rekord
 
 HOMEPAGE="https://github.com/a-rich/DJ-tools"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

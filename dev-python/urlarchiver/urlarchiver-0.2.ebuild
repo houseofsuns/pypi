@@ -15,7 +15,7 @@ DESCRIPTION="url-archiver is a simple library to fetch and archive URL on the fi
 
 HOMEPAGE="http://github.com/adulau/url_archiver"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

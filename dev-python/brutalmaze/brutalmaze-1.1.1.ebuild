@@ -15,7 +15,7 @@ DESCRIPTION="Minimalist thrilling shoot 'em up game"
 
 HOMEPAGE="https://sr.ht/~cnx/brutalmaze"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

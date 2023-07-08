@@ -15,7 +15,7 @@ DESCRIPTION="A MkDocs plugin that converts markdown encoded images into <figure>
 
 HOMEPAGE="https://github.com/stuebersystems/mkdocs-img2fig-plugin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

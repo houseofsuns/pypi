@@ -15,7 +15,7 @@ DESCRIPTION="A Python module for generating, parsing and handling OpenSSH keys a
 
 HOMEPAGE="https://github.com/scheiblingco/sshkey-tools"
 LICENSE="GnuPG 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

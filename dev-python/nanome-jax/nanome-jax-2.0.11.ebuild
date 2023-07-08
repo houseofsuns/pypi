@@ -15,7 +15,7 @@ DESCRIPTION="NANOME (Nanopore methylation) pipeline developed by Li Lab at The J
 
 HOMEPAGE="https://github.com/LabShengLi/nanome"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

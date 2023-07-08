@@ -15,7 +15,7 @@ DESCRIPTION="A DHCP library and server for IPv6 written in Python"
 
 HOMEPAGE="https://github.com/sjm-steffann/dhcpkit"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

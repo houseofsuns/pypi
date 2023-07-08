@@ -15,7 +15,7 @@ DESCRIPTION="thumbor is an open-source photo thumbnail service by globo.com"
 
 HOMEPAGE="https://github.com/thumbor/thumbor/wiki"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A thin Python Wrapper for the Dark Sky (formerly Forecast.io) weath
 
 HOMEPAGE="http://zeevgilovitz.com/python-forecast.io/"
 LICENSE="BSD 2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

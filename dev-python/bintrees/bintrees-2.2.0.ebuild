@@ -15,7 +15,7 @@ DESCRIPTION="Package provides Binary-, RedBlack- and AVL-Trees in Python and Cyt
 
 HOMEPAGE="https://github.com/mozman/bintrees.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

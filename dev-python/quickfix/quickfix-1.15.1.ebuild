@@ -15,7 +15,7 @@ DESCRIPTION="FIX (Financial Information eXchange) protocol implementation"
 
 HOMEPAGE="http://www.quickfixengine.org"
 LICENSE="The QuickFIX Software License, Version 1.0 "
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

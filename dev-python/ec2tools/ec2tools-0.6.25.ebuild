@@ -15,7 +15,7 @@ DESCRIPTION="Scripts & Tools for use with Amazon Web Services EC2 Service"
 
 HOMEPAGE="https://github.com/fstab50/ec2tools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

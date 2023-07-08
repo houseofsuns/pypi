@@ -15,7 +15,7 @@ DESCRIPTION="Lucuma core package for the Gemini Automated Scheduler at: https://
 
 HOMEPAGE="https://github.com/gemini-hlsw/lucupy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

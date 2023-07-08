@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of Tarjan's algorithm: resolve cyclic deps"
 
 HOMEPAGE="http://github.com/bwesterb/py-tarjan/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

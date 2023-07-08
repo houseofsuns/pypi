@@ -15,7 +15,7 @@ DESCRIPTION="AWS Bastion EC2 Server Stack Generator"
 
 HOMEPAGE="https://github.com/marcus16-kang/aws-bastion-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

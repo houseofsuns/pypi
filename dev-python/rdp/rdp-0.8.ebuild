@@ -15,7 +15,7 @@ DESCRIPTION="Pure Python implementation of the Ramer-Douglas-Peucker algorithm"
 
 HOMEPAGE="http://github.com/fhirschmann/rdp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

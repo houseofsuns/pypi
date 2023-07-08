@@ -15,7 +15,7 @@ DESCRIPTION="Utility library for i18n relied on by various Repoze and Pyramid pa
 
 HOMEPAGE="https://github.com/Pylons/translationstring"
 LICENSE="BSD-like http://repoze.org/license.html"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python package to parse, read and write Microsoft OLE2 files (Struc
 
 HOMEPAGE="https://www.decalage.info/python/olefileio"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

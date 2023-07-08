@@ -15,7 +15,7 @@ DESCRIPTION="Python GeoJSON, WKT, and __geo_interface__ made easy."
 
 HOMEPAGE="https://github.com/kmbn/geodaisy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

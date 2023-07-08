@@ -15,7 +15,7 @@ DESCRIPTION="An interface to the Pluggable Authentication Modules (PAM) library 
 
 HOMEPAGE="https://github.com/leonnnn/python3-simplepam"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

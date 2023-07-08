@@ -15,7 +15,7 @@ DESCRIPTION="A python module to generate xls/x files from a xls/x template"
 
 HOMEPAGE="https://github.com/zhangyu836/xltpl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

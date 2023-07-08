@@ -15,7 +15,7 @@ DESCRIPTION="A PyQt4/PyQt5 widget for viewing and editing a DataMatrix object"
 
 HOMEPAGE="https://github.com/smathot/python-qdatamatrix"
 LICENSE="GNU GPL Version 3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

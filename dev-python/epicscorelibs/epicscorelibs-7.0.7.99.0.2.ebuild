@@ -15,7 +15,7 @@ DESCRIPTION="The EPICS Core libraries for use by python modules"
 
 HOMEPAGE="https://github.com/mdavidsaver/epicscorelibs"
 LICENSE="EPICS"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python binding for the libcurl C library."
 
 HOMEPAGE="https://pypi.org/project/libcurl-ct/"
 LICENSE="MIT License ; https://opensource.org/licenses/MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

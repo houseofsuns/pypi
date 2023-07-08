@@ -15,7 +15,7 @@ DESCRIPTION="cTAKES client support for accessing cTAKES REST services"
 
 HOMEPAGE="https://github.com/Machine-Learning-for-Medical-Language/ctakes-client-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

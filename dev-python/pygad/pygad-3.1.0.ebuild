@@ -15,7 +15,7 @@ DESCRIPTION="PyGAD: A Python Library for Building the Genetic Algorithm and Trai
 
 HOMEPAGE="https://github.com/ahmedfgad/GeneticAlgorithmPython"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

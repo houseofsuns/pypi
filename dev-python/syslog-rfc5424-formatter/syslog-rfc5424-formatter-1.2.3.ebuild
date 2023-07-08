@@ -15,7 +15,7 @@ DESCRIPTION="Logging formatter which produces well-formatted RFC5424 Syslog Prot
 
 HOMEPAGE="https://github.com/easypost/syslog-rfc5424-formatter"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

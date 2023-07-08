@@ -15,7 +15,7 @@ DESCRIPTION="Utility functions to be used in Python"
 
 HOMEPAGE="https://github.com/aeonwilliams/bae0n_utils/blob/main/README.md"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

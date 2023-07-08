@@ -15,7 +15,7 @@ DESCRIPTION="A python library for interacting with the SmartThings cloud API bui
 
 HOMEPAGE="https://github.com/andrewsayre/pysmartthings"
 LICENSE="ASL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

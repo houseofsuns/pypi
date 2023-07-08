@@ -15,7 +15,7 @@ DESCRIPTION="Unofficial python bindings for llama-rs. 🐍❤️🦀"
 
 HOMEPAGE="https://github.com/LLukas22/llama-rs-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

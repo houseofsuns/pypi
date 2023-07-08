@@ -15,7 +15,7 @@ DESCRIPTION="Seaplane Python SDK"
 
 HOMEPAGE="https://github.com/seaplane-io/seaplane/tree/main/seaplane-sdk/python"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

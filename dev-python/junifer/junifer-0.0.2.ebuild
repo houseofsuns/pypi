@@ -15,7 +15,7 @@ DESCRIPTION="JUelich NeuroImaging FEature extractoR"
 
 HOMEPAGE="https://juaml.github.io/junifer"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

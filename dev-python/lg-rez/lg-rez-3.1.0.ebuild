@@ -15,7 +15,7 @@ DESCRIPTION="Discord bot for organizing Werewolf RP games ESPCI-style"
 
 HOMEPAGE="https://github.com/GRI-ESPCI/lg-rez"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

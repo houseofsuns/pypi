@@ -15,7 +15,7 @@ DESCRIPTION="Interfaces between napari and pymeshlab library to allow import, ex
 
 HOMEPAGE="https://github.com/zacsimile/napari-pymeshlab"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Resolve specially formated statements to Python objects."
 
 HOMEPAGE="http://lukearno.com/projects/resolver/"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

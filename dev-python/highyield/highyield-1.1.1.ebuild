@@ -15,7 +15,7 @@ DESCRIPTION="Collection of high-yield functions intended to simplify and automat
 
 HOMEPAGE="https://github.com/kenf1/High-Yield"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

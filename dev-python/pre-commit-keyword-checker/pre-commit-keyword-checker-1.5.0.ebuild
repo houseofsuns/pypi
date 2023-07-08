@@ -15,7 +15,7 @@ DESCRIPTION="A pre-commit hook for checking specified keywords in the files bein
 
 HOMEPAGE="https://github.com/AliYmn/pre-commit-keyword-checker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

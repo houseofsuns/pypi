@@ -15,7 +15,7 @@ DESCRIPTION="Independent set of tools for working with GDScript - parser, linter
 
 HOMEPAGE="https://github.com/Scony/godot-gdscript-toolkit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

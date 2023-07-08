@@ -15,7 +15,7 @@ DESCRIPTION="Basic authentication support via htpasswd files in flask applicatio
 
 HOMEPAGE="http://github.com/carsongee/flask-htpasswd"
 LICENSE="BSD New"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

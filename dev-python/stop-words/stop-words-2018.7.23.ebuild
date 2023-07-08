@@ -15,7 +15,7 @@ DESCRIPTION="Get list of common stop words in various languages in Python"
 
 HOMEPAGE="https://github.com/Alir3z4/python-stop-words"
 LICENSE="Copyright c 2014, Alireza Savand, Contributors"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

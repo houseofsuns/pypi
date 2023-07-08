@@ -15,7 +15,7 @@ DESCRIPTION="The most basic Text::Unidecode port"
 
 HOMEPAGE="https://github.com/kmike/text-unidecode/"
 LICENSE="Artistic"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

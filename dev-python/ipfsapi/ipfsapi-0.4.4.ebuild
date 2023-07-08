@@ -15,7 +15,7 @@ DESCRIPTION="Python IPFS API client library"
 
 HOMEPAGE="https://github.com/ipfs/py-ipfs-http-client/tree/py-ipfs-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

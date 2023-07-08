@@ -15,7 +15,7 @@ DESCRIPTION="Deprecated. Please use the OpenDP library: https://github.com/opend
 
 HOMEPAGE="https://github.com/opendp/smartnoise-core-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

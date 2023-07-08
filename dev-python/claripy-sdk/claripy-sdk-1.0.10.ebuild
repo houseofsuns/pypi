@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for use with Clarity.io sensors"
 
 HOMEPAGE="https://github.com/rogers-obrien-rad/clarity-python-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

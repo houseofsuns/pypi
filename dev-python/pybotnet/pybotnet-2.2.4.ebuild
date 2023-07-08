@@ -15,7 +15,7 @@ DESCRIPTION="A Python framework for building remote control, botnet , trojan or 
 
 HOMEPAGE="https://github.com/onionj/pybotnet"
 LICENSE="gpl-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

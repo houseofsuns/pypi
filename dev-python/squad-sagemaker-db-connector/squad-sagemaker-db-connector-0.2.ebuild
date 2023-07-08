@@ -15,7 +15,7 @@ DESCRIPTION="A pluggable connector that allows users (admins) to execute SQL, vi
 
 HOMEPAGE="https://github.com/squadrun/auctm-database-connector"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

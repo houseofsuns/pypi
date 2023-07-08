@@ -15,7 +15,7 @@ DESCRIPTION="Read in .ods and .fods files and return a pandas.DataFrame."
 
 HOMEPAGE="https://github.com/iuvbio/pandas_ods_reader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

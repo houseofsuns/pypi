@@ -15,7 +15,7 @@ DESCRIPTION="oo view of file paths and names, subclassed from bytes/str/unicode"
 
 HOMEPAGE="https://github.com/ethanfurman/antipathy"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

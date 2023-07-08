@@ -15,7 +15,7 @@ DESCRIPTION="Top2Vec learns jointly embedded topic, document and word vectors."
 
 HOMEPAGE="https://github.com/ddangelov/Top2Vec"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

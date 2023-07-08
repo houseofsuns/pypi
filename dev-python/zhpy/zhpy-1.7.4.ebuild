@@ -15,7 +15,7 @@ DESCRIPTION="周蟒, Write python language in chinese"
 
 HOMEPAGE="https://github.com/gasolin/zhpy"
 LICENSE="MIT <http://www.opensource.org/licenses/mit-license.php>"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

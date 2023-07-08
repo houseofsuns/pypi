@@ -15,7 +15,7 @@ DESCRIPTION="card/wiki component for the CubicWeb framework"
 
 HOMEPAGE="https://forge.extranet.logilab.fr/cubicweb/cubes/cubicweb-card"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

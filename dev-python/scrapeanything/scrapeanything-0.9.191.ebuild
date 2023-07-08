@@ -15,7 +15,7 @@ DESCRIPTION="Library to scrape data from the internet and persist it easier"
 
 HOMEPAGE="https://bitbucket.org/scrapeanything-ml/scrapeanything.ml"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

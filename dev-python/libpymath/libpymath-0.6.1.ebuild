@@ -15,7 +15,7 @@ DESCRIPTION="A general purpose Python math module"
 
 HOMEPAGE="https://www.github.com/pencilcaseman/libpymath"
 LICENSE="MIT Licences"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Darcula theme for JupyterLab. Modelled after the classic Intellij t
 
 HOMEPAGE="https://github.com/telamonian/theme-darcula"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

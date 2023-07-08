@@ -15,7 +15,7 @@ DESCRIPTION="CFFI bindings for libmagic."
 
 HOMEPAGE="https://github.com/ionelmc/python-file"
 LICENSE="MIT"
-SRC_URI="https://${REALNAME}s.pythonhosted.org/packages/0a/49/317ac8ed10afb25c4c24972ea4de4c5507d6b0ab13bca4941c9a0bdc64ea/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

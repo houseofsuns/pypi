@@ -15,7 +15,7 @@ DESCRIPTION="The ftrack legacy python api."
 
 HOMEPAGE="https://bitbucket.org/ftrack/ftrack-python-legacy-api"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

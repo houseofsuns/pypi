@@ -15,7 +15,7 @@ DESCRIPTION="Swagger UI for Django REST Framework 3.5+"
 
 HOMEPAGE="https://github.com/marcgibbons/django-rest-swagger"
 LICENSE="FreeBSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

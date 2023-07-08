@@ -15,7 +15,7 @@ DESCRIPTION="scalable pythonic model fitting for high energy physics"
 
 HOMEPAGE="https://github.com/zfit/zfit"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

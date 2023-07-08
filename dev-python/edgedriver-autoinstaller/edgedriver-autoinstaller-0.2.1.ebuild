@@ -15,7 +15,7 @@ DESCRIPTION="Automatically install edgedriver that supports the currently instal
 
 HOMEPAGE="https://github.com/fc-dev/python-edgedriver-autoinstaller"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

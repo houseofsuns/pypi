@@ -15,7 +15,7 @@ DESCRIPTION="A screamingly fast Python 2 + 3 WSGI server written in C."
 
 HOMEPAGE="https://github.com/jonashaag/bjoern"
 LICENSE="2-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

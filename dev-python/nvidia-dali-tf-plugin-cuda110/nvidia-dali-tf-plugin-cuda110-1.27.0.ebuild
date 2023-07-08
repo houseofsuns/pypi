@@ -15,7 +15,7 @@ DESCRIPTION="NVIDIA DALI  TensorFlow plugin for CUDA 11.0. Git SHA: 4cc38a6b48a7
 
 HOMEPAGE="https://github.com/NVIDIA/dali"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Quick tool to browse and view data files (json,csv,parquet,more) on
 
 HOMEPAGE="https://github.com/jverhoeks/databrowser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

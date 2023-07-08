@@ -15,7 +15,7 @@ DESCRIPTION="Wrappers around Python Control for making development of state-spac
 
 HOMEPAGE="https://github.com/calcmogul/frccontrol"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

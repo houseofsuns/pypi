@@ -15,7 +15,7 @@ DESCRIPTION="Automatically add code comments to silence the output of pylint"
 
 HOMEPAGE="http://github.com/udifuchs/pylint-silent"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

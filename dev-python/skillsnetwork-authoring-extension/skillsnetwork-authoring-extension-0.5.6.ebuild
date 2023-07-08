@@ -15,7 +15,7 @@ DESCRIPTION="JupyterLab/JupyterLite extension for Skills Network Authoring"
 
 HOMEPAGE="https://github.com/ibm-skills-network/skillsnetwork-authoring-extension"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

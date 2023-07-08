@@ -15,7 +15,7 @@ DESCRIPTION="Package containing tooling for developing nominode engines"
 
 HOMEPAGE="https://gitlab.com/nomnomdata/tools/nomnomdata-tools-engine"
 LICENSE="LGPL-3.0-only"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Python FFI of nihui/srmd-ncnn-vulkan achieved with SWIG"
 
 HOMEPAGE="https://github.com/media2x/srmd-ncnn-vulkan-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

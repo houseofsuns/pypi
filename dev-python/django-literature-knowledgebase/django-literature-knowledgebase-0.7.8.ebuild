@@ -15,7 +15,7 @@ DESCRIPTION="Django app for creating a knowledge base of curated literature"
 
 HOMEPAGE="https://github.com/genomics-geek/django-literature-knowledgebase"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

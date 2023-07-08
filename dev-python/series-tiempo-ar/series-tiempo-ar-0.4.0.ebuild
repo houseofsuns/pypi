@@ -15,7 +15,7 @@ DESCRIPTION="Módulos para extraer, analizar y compilar series de tiempo documen
 
 HOMEPAGE="https://github.com/datosgobar/series-tiempo-ar"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

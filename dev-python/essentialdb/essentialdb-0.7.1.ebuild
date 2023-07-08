@@ -15,7 +15,7 @@ DESCRIPTION="EssentialDB - pure Python document database."
 
 HOMEPAGE="https://github.com/shane-mason/essentialdb"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.win32.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.win32.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.win32.zip"
 RESTRICT="test"
 

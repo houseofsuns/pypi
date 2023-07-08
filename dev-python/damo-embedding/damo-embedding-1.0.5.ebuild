@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for damo, a set of fast and robust hash functions."
 
 HOMEPAGE="https://github.com/uopensail/damo-embedding"
 LICENSE="License :: AGLP3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

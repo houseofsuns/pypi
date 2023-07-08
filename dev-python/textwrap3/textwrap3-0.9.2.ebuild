@@ -15,7 +15,7 @@ DESCRIPTION="textwrap from Python 3.6 backport (plus a few tweaks)"
 
 HOMEPAGE="https://github.com/jonathaneunice/textwrap3"
 LICENSE="PYTHON"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

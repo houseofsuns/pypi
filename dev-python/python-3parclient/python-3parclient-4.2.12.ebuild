@@ -15,7 +15,7 @@ DESCRIPTION="HPE Alletra 9000 and HPE Primera and HPE 3PAR HTTP REST Client"
 
 HOMEPAGE="http://packages.python.org/python-3parclient"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

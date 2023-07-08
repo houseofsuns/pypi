@@ -15,7 +15,7 @@ DESCRIPTION="A python interface to Philipp Krähenbühl's fully-connected (dense
 
 HOMEPAGE="http://github.com/lucasb-eyer/pydensecrf"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="微信支付 API v3 Python SDK(python sdk for wechatpay v3)"
 
 HOMEPAGE="https://github.com/minibear2021/wechatpayv3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

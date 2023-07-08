@@ -15,7 +15,7 @@ DESCRIPTION="Tools for the management of inventory databases and impact assessme
 
 HOMEPAGE="https://bitbucket.org/cmutel/brightway2-data"
 LICENSE="3-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

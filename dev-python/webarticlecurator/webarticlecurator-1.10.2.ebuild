@@ -15,7 +15,7 @@ DESCRIPTION="A crawler program to download content from portals (news, forums, b
 
 HOMEPAGE="https://github.com/ELTE-DH/WebArticleCurator"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

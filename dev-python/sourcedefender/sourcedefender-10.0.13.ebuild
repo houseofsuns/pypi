@@ -15,7 +15,7 @@ DESCRIPTION="Advanced encryption protecting your python codebase."
 
 HOMEPAGE="https://sourcedefender.co.uk/?src=pypi-url"
 LICENSE="Other/Proprietary License"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

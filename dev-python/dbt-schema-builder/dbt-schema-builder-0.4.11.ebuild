@@ -15,7 +15,7 @@ DESCRIPTION="Automate management of PII redacted schemas for dbt projects."
 
 HOMEPAGE="https://github.com/edx/dbt-schema-builder"
 LICENSE="AGPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

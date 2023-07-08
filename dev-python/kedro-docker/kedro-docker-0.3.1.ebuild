@@ -15,7 +15,7 @@ DESCRIPTION="Kedro-Docker makes it easy to package Kedro projects with Docker."
 
 HOMEPAGE="https://github.com/kedro-org/kedro-plugins/tree/main/kedro-docker"
 LICENSE="Apache Software License Apache 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

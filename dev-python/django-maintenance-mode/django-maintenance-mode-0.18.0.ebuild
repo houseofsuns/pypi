@@ -15,7 +15,7 @@ DESCRIPTION="django-maintenance-mode shows a 503 error page when maintenance-mod
 
 HOMEPAGE="https://github.com/fabiocaccamo/django-maintenance-mode"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

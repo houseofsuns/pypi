@@ -15,7 +15,7 @@ DESCRIPTION="Taxoniq: Taxon Information Query - fast, offline querying of NCBI T
 
 HOMEPAGE="https://github.com/chanzuckerberg/taxoniq"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

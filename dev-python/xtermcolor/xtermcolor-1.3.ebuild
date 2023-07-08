@@ -15,7 +15,7 @@ DESCRIPTION="Python module for colorizing output with xterm 256 color support"
 
 HOMEPAGE="http://github.com/broadinstitute/xtermcolor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

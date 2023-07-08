@@ -15,7 +15,7 @@ DESCRIPTION="A noGDAL tool for reading and writing geotiff files"
 
 HOMEPAGE="https://github.com/Open-Source-Agriculture/geotiff"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

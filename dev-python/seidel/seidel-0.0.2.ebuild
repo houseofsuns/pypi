@@ -15,7 +15,7 @@ DESCRIPTION="Randomized algorithm for trapezoidal decomposition by R. Seidel."
 
 HOMEPAGE="https://github.com/lycantropos/seidel/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

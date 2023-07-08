@@ -15,7 +15,7 @@ DESCRIPTION="A distributed system to learn embeddings of large graphs"
 
 HOMEPAGE="https://github.com/facebookresearch/PyTorch-BigGraph"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

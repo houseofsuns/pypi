@@ -15,7 +15,7 @@ DESCRIPTION="Scripts to manage LDAP users and change LDAP passwords"
 
 HOMEPAGE="http://tuohela.net/packages/secrets"
 LICENSE="PSF-2.4"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

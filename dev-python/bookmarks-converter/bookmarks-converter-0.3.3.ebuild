@@ -15,7 +15,7 @@ DESCRIPTION="Parse db/html/json bookmarks file from (Chrome - Firefox - Custom s
 
 HOMEPAGE="https://github.com/radam9/bookmarks-converter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

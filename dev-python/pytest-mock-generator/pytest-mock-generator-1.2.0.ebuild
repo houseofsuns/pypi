@@ -15,7 +15,7 @@ DESCRIPTION="A pytest fixture wrapper for https://pypi.org/project/mock-generato
 
 HOMEPAGE="https://github.com/pksol/pytest-mock-generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

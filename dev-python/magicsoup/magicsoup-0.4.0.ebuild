@@ -15,7 +15,7 @@ DESCRIPTION="Simulation for cell metabolic and transduction pathway evolution"
 
 HOMEPAGE="https://github.com/mRcSchwering/magic-soup"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

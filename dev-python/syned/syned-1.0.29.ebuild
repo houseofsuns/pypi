@@ -15,7 +15,7 @@ DESCRIPTION="SYNED (SYNchrotron Elements Dictionary) kernel library"
 
 HOMEPAGE="https://github.com/oasys-kit/syned"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

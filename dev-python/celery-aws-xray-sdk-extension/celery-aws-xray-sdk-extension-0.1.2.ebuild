@@ -15,7 +15,7 @@ DESCRIPTION="Extension for AWS X-Ray SDK which enables tracing of Celery tasks"
 
 HOMEPAGE="https://github.com/druids/celery-aws-xray-sdk-extension"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Simple plugin that opens separate .tif files as a 3-dimensional lay
 
 HOMEPAGE="https://github.com/gatoniel/napari-timeseries-opener-plugin"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

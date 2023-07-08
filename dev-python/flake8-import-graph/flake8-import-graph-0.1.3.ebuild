@@ -15,7 +15,7 @@ DESCRIPTION="A flake8 lint to enforce that some modules can't be imported from o
 
 HOMEPAGE="http://github.com/tailhook/flake8-import-graph"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A highly scalable and customizable safe reinforcement learning envi
 
 HOMEPAGE="https://github.com/OmniSafeAI/safety-gymnasium"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Email OSINT and password breach hunting. Use h8mail to find passwor
 
 HOMEPAGE="https://github.com/khast3x/h8mail"
 LICENSE="BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

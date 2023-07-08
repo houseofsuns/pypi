@@ -15,7 +15,7 @@ DESCRIPTION="The Kallisto software enables the efficient calculation of atomic f
 
 HOMEPAGE="https://github.com/AstraZeneca/kallisto"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

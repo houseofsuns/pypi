@@ -15,7 +15,7 @@ DESCRIPTION="Beyond Accuracy: Behavioral Testing of NLP Models with CheckList"
 
 HOMEPAGE="http://github.com/marcotcr/checklist"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

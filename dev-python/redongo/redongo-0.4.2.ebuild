@@ -15,7 +15,7 @@ DESCRIPTION="Gets stuff from a Redis queue and inserts it in Mongo"
 
 HOMEPAGE="https://github.com/stoneworksolutions/redongo"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

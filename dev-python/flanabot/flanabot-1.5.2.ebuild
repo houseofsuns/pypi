@@ -15,7 +15,7 @@ DESCRIPTION="Bot based on https://github.com/AlberLC/multibot to manage Discord,
 
 HOMEPAGE="https://github.com/AlberLC/flanabot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

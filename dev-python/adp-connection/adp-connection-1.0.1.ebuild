@@ -15,7 +15,7 @@ DESCRIPTION="A library to help connect to ADP using Openid-Connect and OAuth 2.0
 
 HOMEPAGE="https://github.com/adplabs/adp-connection-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

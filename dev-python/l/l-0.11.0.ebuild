@@ -15,7 +15,7 @@ DESCRIPTION="A project-oriented directory lister"
 
 HOMEPAGE="https://github.com/Julian/L"
 LICENSE="MIT"
-SRC_URI="https://fi${REALNAME}es.pythonhosted.org/packages/a9/64/8ee43ca4cfeae69fc5768502e1e44916adac11e6d6609edf50d481976341/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

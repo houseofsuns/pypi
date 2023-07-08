@@ -15,7 +15,7 @@ DESCRIPTION="Installable version of dnsrecon: DNS Enumeration Script"
 
 HOMEPAGE="http://github.com/cr0hn/dnsrecon"
 LICENSE="License :: OSI Approved :: GNU General Public License v2 GPLv2"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Seamlessly integrate pydantic models in your Sphinx documentation."
 
 HOMEPAGE="https://github.com/mansenfranzen/autodoc_pydantic"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

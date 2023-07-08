@@ -15,7 +15,7 @@ DESCRIPTION="Adds support for SSL, AUTH, and other goodies, to Petri Lehtinen's 
 
 HOMEPAGE="https://github.com/bcoe/secure-smtpd"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

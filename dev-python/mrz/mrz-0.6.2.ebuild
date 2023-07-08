@@ -15,7 +15,7 @@ DESCRIPTION="Machine readable zone generator and checker for passports, visas, i
 
 HOMEPAGE="https://github.com/Arg0s1080/mrz"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

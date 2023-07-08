@@ -15,7 +15,7 @@ DESCRIPTION="A library to interface with the opentherm gateway through serial or
 
 HOMEPAGE="https://github.com/mvn23/pyotgw"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

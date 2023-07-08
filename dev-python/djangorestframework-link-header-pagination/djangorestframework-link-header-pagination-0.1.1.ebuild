@@ -15,7 +15,7 @@ DESCRIPTION="Provide pagination using a \"Link\" HTTP header as described in htt
 
 HOMEPAGE="https://github.com/tbeadle/django-rest-framework-link-header-pagination"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

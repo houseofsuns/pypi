@@ -15,7 +15,7 @@ DESCRIPTION="scandir, a better directory iterator and faster os.walk()"
 
 HOMEPAGE="https://github.com/benhoyt/scandir"
 LICENSE="New BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

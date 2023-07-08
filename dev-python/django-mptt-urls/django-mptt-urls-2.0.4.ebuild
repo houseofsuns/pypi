@@ -15,7 +15,7 @@ DESCRIPTION="Django app for creating hierarchical URLs associated with django-MP
 
 HOMEPAGE="https://github.com/c0ntribut0r/django-mptt-urls"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="UMIRobot control code and GUI for Python."
 
 HOMEPAGE="https://github.com/mmmarinho/umirobot-py"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

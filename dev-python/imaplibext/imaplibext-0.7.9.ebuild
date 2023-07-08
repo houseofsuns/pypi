@@ -15,7 +15,7 @@ DESCRIPTION="An imaplib extension module, that provides versions of IMAP4 and IM
 
 HOMEPAGE="https://gitlab.com/teward/imaplibext"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

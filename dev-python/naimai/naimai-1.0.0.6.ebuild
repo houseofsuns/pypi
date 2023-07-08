@@ -15,7 +15,7 @@ DESCRIPTION="Python library to help with scientific literature research"
 
 HOMEPAGE="https://github.com/yassinekdi/naimai"
 LICENSE="CC BY-NC-SA"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

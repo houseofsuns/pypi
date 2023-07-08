@@ -15,7 +15,7 @@ DESCRIPTION="The Coscine Python SDK provides a pythonic interface to the Coscine
 
 HOMEPAGE="https://git.rwth-aachen.de/coscine/community-features/coscine-python-sdk/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

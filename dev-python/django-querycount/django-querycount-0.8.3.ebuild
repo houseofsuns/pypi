@@ -15,7 +15,7 @@ DESCRIPTION="Middleware that Prints the number of DB queries to the runserver co
 
 HOMEPAGE="https://github.com/bradmontgomery/django-querycount/tarball/0.8.3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

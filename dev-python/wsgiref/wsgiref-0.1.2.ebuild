@@ -15,7 +15,7 @@ DESCRIPTION="WSGI (PEP 333) Reference Library"
 
 HOMEPAGE="http://cheeseshop.python.org/pypi/wsgiref"
 LICENSE="PSF or ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

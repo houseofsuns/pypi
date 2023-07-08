@@ -15,7 +15,7 @@ DESCRIPTION="A set of helpers for baking your Django Wagtail site out as flat fi
 
 HOMEPAGE="https://github.com/wagtail-nest/wagtail-bakery/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Django reusable app to show pretty formatted copyright years"
 
 HOMEPAGE="https://github.com/vint21h/django-djcopyright/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

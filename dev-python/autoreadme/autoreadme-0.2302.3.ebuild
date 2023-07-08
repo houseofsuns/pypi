@@ -15,7 +15,7 @@ DESCRIPTION="Generate READMEs with collapsable* code and corresponding output fr
 
 HOMEPAGE="https://github.com/davips/autoreadme"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

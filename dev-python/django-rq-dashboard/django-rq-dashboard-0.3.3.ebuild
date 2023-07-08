@@ -15,7 +15,7 @@ DESCRIPTION="A dashboard for managing RQ in the Django admin"
 
 HOMEPAGE="https://github.com/brutasse/django-rq-dashboard"
 LICENSE="BSD licence, see LICENCE file"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

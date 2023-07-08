@@ -15,7 +15,7 @@ DESCRIPTION="Tracking progress of joblib.Parallel execution"
 
 HOMEPAGE="https://stackoverflow.com/a/58936697/5133167"
 LICENSE="CC BY-SA 4.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

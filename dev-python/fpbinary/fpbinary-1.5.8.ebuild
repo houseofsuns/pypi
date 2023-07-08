@@ -15,7 +15,7 @@ DESCRIPTION="Provides binary fixed point functionality."
 
 HOMEPAGE="https://github.com/smlgit/fpbinary"
 LICENSE="GPL-2.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

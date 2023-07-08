@@ -15,7 +15,7 @@ DESCRIPTION="An app to help you manage menus in your Wagtail projects more consi
 
 HOMEPAGE="https://github.com/jazzband/wagtailmenus/tree/stable/3.1.x"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

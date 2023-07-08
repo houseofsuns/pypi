@@ -15,7 +15,7 @@ DESCRIPTION="An MkDocs plugin to export content pages as PDF files"
 
 HOMEPAGE="https://github.com/zhaoterryy/mkdocs-pdf-export-plugin/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

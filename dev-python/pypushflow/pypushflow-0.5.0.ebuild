@@ -15,7 +15,7 @@ DESCRIPTION="A task scheduler for cyclic and acyclic graphs"
 
 HOMEPAGE="https://gitlab.esrf.fr/workflow/pypushflow/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

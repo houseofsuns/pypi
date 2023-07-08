@@ -15,7 +15,7 @@ DESCRIPTION="Python API for accessing the REST API of the Xero accounting tool."
 
 HOMEPAGE="http://github.com/freakboy3742/pyxero"
 LICENSE="New BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Burp-UI is a web-ui for burp backup written in python with Flask an
 
 HOMEPAGE="https://git.ziirish.me/ziirish/burp-ui"
 LICENSE="BSD 3-clause License"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

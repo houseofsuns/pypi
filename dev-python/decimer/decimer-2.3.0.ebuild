@@ -15,7 +15,7 @@ DESCRIPTION="DECIMER 2.3: Deep Learning for Chemical Image Recognition using Eff
 
 HOMEPAGE="https://github.com/Kohulan/DECIMER-Image_Transformer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Library to make it easy to track events in python/django apps"
 
 HOMEPAGE="https://github.com/Yipit/eventlib"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

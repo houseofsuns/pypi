@@ -15,7 +15,7 @@ DESCRIPTION="A plugin for flake8 to ban the usage of unsafe naive datetime class
 
 HOMEPAGE="https://github.com/pjknkda/flake8-datetimez"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

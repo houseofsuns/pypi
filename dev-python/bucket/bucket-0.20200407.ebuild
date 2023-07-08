@@ -15,7 +15,7 @@ DESCRIPTION="Bitbucket from command line"
 
 HOMEPAGE="https://bitbucket.org/DavidVilla/bucket"
 LICENSE="GPL v2 or later"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

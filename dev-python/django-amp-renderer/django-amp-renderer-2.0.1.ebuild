@@ -15,7 +15,7 @@ DESCRIPTION="Middleware for applying AMP Renderer to the output of a request in 
 
 HOMEPAGE="https://github.com/chasefinch/django-amp-renderer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="🏗 Specialized configuration as a code tool for GitLab projects, 
 
 HOMEPAGE="https://gitlabform.github.io/gitlabform"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

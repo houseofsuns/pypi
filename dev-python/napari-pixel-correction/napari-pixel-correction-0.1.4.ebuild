@@ -15,7 +15,7 @@ DESCRIPTION="Plugin to correct manually pixel wrongly predicted on image by anno
 
 HOMEPAGE="https://github.com/hereariim/napari-pixel-correction"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

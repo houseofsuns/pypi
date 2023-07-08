@@ -15,7 +15,7 @@ DESCRIPTION="GRR API client library"
 
 HOMEPAGE="https://github.com/google/grr/tree/master/proto"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

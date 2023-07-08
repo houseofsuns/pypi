@@ -15,7 +15,7 @@ DESCRIPTION="Utility functions to parse HTTP 1.1 protocol headers."
 
 HOMEPAGE="http://deron.meranda.us/python/httpheader/"
 LICENSE="GNU LGPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

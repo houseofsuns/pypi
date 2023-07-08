@@ -15,7 +15,7 @@ DESCRIPTION="The helpers classes/functions of the Ultimate Hosts Blacklist proje
 
 HOMEPAGE="https://github.com/Ultimate-Hosts-Blacklist/dev-center/tree/helpers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

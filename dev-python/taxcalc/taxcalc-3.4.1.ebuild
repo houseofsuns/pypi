@@ -15,7 +15,7 @@ DESCRIPTION="taxcalc"
 
 HOMEPAGE="https://github.com/PSLmodels/Tax-Calculator"
 LICENSE="CC0 1.0 Universal CC0 1.0 Public Domain Dedication"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Package to handle error analysis and data plotting aimed at undergr
 
 HOMEPAGE="https://qexpy.readthedocs.io/en/latest/index.html"
 LICENSE="GNU GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

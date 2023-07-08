@@ -15,7 +15,7 @@ DESCRIPTION="Format a simple (i.e. not nested) list into aligned columns."
 
 HOMEPAGE="https://github.com/rocky/pycolumnize"
 LICENSE="PSF2"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

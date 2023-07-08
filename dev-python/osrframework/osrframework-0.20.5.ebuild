@@ -15,7 +15,7 @@ DESCRIPTION="OSRFramework - A set of AGPLv3+ OSINT tools developed by i3visio an
 
 HOMEPAGE="http://github.com/i3visio/osrframework"
 LICENSE="COPYING"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

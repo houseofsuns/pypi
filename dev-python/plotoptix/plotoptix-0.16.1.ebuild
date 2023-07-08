@@ -15,7 +15,7 @@ DESCRIPTION="Data visualisation in Python based on NVIDIA OptiX ray tracing fram
 
 HOMEPAGE="https://rnd.team/plotoptix"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Python package for interacting with SRAdb and downloading dataset
 
 HOMEPAGE="https://github.com/saketkc/pysradb"
 LICENSE="BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Business days (workdays) between two date, like \`NetworkDays\` fun
 
 HOMEPAGE="https://github.com/cadu-leite/networkdays"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

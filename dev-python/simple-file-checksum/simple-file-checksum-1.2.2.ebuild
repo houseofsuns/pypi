@@ -15,7 +15,7 @@ DESCRIPTION="Returns the MD5, SHA1, SHA256, SHA384, or SHA512 checksum of a file
 
 HOMEPAGE="https://github.com/shash873/simple-file-checksum"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

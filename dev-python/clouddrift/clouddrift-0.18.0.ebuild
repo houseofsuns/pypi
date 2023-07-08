@@ -15,7 +15,7 @@ DESCRIPTION="Accelerating the use of Lagrangian data for atmospheric, oceanic, a
 
 HOMEPAGE="https://github.com/Cloud-Drift/clouddrift"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="fixture is a package for loading and referencing test data"
 
 HOMEPAGE="http://farmdev.com/projects/fixture/"
 LICENSE="GNU Lesser General Public License LGPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

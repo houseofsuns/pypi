@@ -15,7 +15,7 @@ DESCRIPTION="Module providing the DUNE grid interface for unstructured simplicia
 
 HOMEPAGE="https://gitlab.dune-project.org/extensions/dune-alugrid"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

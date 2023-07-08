@@ -15,7 +15,7 @@ DESCRIPTION="Python API client for signal-cli JSON-RPC"
 
 HOMEPAGE="https://gitlab.com/morph027/pysignalclijsonrpc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

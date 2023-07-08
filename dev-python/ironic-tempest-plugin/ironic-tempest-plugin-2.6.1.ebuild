@@ -15,7 +15,7 @@ DESCRIPTION="Tempest plugin for ironic and ironic-inspector"
 
 HOMEPAGE="https://docs.openstack.org/ironic-tempest-plugin/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

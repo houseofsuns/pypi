@@ -15,7 +15,7 @@ DESCRIPTION="Documentation Tools for the Mkdocs Material Framework"
 
 HOMEPAGE="https://axiros.github.io/docutools/"
 LICENSE="BSD 2-Clause Simplified License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="large output in XML using unicode and namespaces"
 
 HOMEPAGE="http://pypi.python.org/pypi/loxun/"
 LICENSE="GNU Lesser General Public License 3 or later"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

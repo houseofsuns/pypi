@@ -15,7 +15,7 @@ DESCRIPTION="A Redis object mapper for Python"
 
 HOMEPAGE="https://github.com/josiahcarlson/rom"
 LICENSE="GNU LGPL v2.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

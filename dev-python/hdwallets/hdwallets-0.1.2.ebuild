@@ -15,7 +15,7 @@ DESCRIPTION="Python implementation of the BIP32 key derivation scheme"
 
 HOMEPAGE="https://github.com/hukkinj1/hdwallets"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

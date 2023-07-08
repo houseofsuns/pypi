@@ -15,7 +15,7 @@ DESCRIPTION="Extension to allow paswordless login to the CKAN API"
 
 HOMEPAGE="https://gitlabext.wsl.ch/EnviDat/ckanext-passwordless_api.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

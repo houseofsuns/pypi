@@ -15,7 +15,7 @@ DESCRIPTION="Azure Molecule Plugin :: run molecule tests on Azure"
 
 HOMEPAGE="https://github.com/ansible-community/molecule-azure"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Biblioteca para construção de APIs Rest Python, de acordo com o g
 
 HOMEPAGE="https://github.com/Nasajon/nsj_rest_lib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

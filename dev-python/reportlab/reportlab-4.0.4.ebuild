@@ -15,7 +15,7 @@ DESCRIPTION="The Reportlab Toolkit"
 
 HOMEPAGE="http://www.reportlab.com/"
 LICENSE="BSD license see license.txt for details, Copyright c 2000-2022, ReportLab Inc."
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

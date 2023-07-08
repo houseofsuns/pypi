@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for MetaStats forex trading statistics API. Can calculat
 
 HOMEPAGE="https://github.com/agiliumtrade-ai/metaapi-metastats-python-sdk"
 LICENSE="SEE LICENSE IN LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

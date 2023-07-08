@@ -15,7 +15,7 @@ DESCRIPTION="日麻寄分器（NoneBot插件）"
 
 HOMEPAGE="https://github.com/ssttkkl/nonebot-plugin-mahjong-scoreboard"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

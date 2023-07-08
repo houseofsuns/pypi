@@ -15,7 +15,7 @@ DESCRIPTION="Locates absolute file paths like the Windows 'where' or the Linux '
 
 HOMEPAGE="https://github.com/hweickert/where"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

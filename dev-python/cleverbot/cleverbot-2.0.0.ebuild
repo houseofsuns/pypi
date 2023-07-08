@@ -15,7 +15,7 @@ DESCRIPTION="An unofficial library to access the Cleverbot service"
 
 HOMEPAGE="https://github.com/folz/cleverbot.py"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

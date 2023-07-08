@@ -15,7 +15,7 @@ DESCRIPTION="A complete, well-tested, and up-to-date module to manipulate Factor
 
 HOMEPAGE="https://github.com/redruin1/factorio-draftsman"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

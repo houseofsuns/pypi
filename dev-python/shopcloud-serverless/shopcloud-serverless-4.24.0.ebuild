@@ -15,7 +15,7 @@ DESCRIPTION="CLI tool for creating a serverles api with API Gateway and Cloud Fu
 
 HOMEPAGE="https://github.com/Talk-Point/shopcloud-serverless-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

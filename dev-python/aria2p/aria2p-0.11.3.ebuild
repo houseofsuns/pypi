@@ -15,7 +15,7 @@ DESCRIPTION="Command-line tool and library to interact with an aria2c daemon pro
 
 HOMEPAGE="https://pawamoy.github.io/aria2p"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

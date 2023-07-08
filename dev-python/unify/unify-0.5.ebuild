@@ -15,7 +15,7 @@ DESCRIPTION="Modifies strings to all use the same (single/double) quote where po
 
 HOMEPAGE="https://github.com/myint/unify"
 LICENSE="Expat License"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

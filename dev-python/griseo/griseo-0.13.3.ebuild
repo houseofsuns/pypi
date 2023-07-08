@@ -15,7 +15,7 @@ DESCRIPTION="Chat with OpenAI in the Hacker way."
 
 HOMEPAGE="https://github.com/korandoru/griseo"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

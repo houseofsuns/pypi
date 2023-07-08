@@ -15,7 +15,7 @@ DESCRIPTION="VHDL Style Guide"
 
 HOMEPAGE="https://github.com/jeremiah-c-leary/vhdl-style-guide"
 LICENSE="GNU General Public License"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

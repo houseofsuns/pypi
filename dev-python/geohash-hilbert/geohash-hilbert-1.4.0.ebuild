@@ -15,7 +15,7 @@ DESCRIPTION="Geohash a lng/lat coordinate using the hilbert curve."
 
 HOMEPAGE="https://github.com/tammoippen/geohash-hilbert"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="FAST-OAD is a framework for performing rapid Overall Aircraft Desig
 
 HOMEPAGE="https://github.com/fast-aircraft-design/FAST-OAD"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

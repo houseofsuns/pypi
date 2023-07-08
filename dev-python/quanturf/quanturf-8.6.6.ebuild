@@ -15,7 +15,7 @@ DESCRIPTION="REMOTE_USER Authenticator: An Authenticator for Jupyterhub to read 
 
 HOMEPAGE="https://github.com/Quanturf/quanturf_pypi_package.git"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Amazon EFS assets from Github repositories or S3 buckets"
 
 HOMEPAGE="https://github.com/pahud/cdk-efs-assets.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

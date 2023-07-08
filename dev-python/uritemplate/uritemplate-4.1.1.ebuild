@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of RFC 6570 URI Templates"
 
 HOMEPAGE="https://uritemplate.readthedocs.org"
 LICENSE="BSD 3-Clause License or Apache License, Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A self-contained and simple BIP39 implementation in Python"
 
 HOMEPAGE="https://github.com/de-centralized-systems/python-bip39/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

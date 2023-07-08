@@ -15,7 +15,7 @@ DESCRIPTION="Transparent calculations with uncertainties on the quantities invol
 
 HOMEPAGE="http://uncertainties-python-package.readthedocs.io/"
 LICENSE="Revised BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

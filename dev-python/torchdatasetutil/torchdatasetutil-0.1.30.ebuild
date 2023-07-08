@@ -15,7 +15,7 @@ DESCRIPTION="Utilities to load and use pytorch datasets stored in Minio S3"
 
 HOMEPAGE="https://github.com/bhlarson/torchdatasetutil"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

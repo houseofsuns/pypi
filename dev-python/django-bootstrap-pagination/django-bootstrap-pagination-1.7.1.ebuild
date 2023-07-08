@@ -15,7 +15,7 @@ DESCRIPTION="Render Django Page objects as Bootstrap 3.x/4.x Pagination compatib
 
 HOMEPAGE="https://github.com/jmcclell/django-bootstrap-pagination"
 LICENSE="MIT licence, see LICENCE"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

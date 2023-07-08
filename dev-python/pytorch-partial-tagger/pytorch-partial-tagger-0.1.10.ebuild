@@ -15,7 +15,7 @@ DESCRIPTION="Sequence Tagger for Partially Annotated Dataset in PyTorch"
 
 HOMEPAGE="https://github.com/yasufumy/pytorch-partial-tagger"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

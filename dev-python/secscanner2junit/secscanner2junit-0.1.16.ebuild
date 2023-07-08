@@ -15,7 +15,7 @@ DESCRIPTION="Convert Security Scanner Output to JUnit Format"
 
 HOMEPAGE="https://github.com/angrymeir/SecScanner2JUnit"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

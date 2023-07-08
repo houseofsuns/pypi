@@ -15,7 +15,7 @@ DESCRIPTION="Organize Django settings into multiple files and directories. Easil
 
 HOMEPAGE="https://django-split-settings.readthedocs.io"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

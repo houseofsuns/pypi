@@ -15,7 +15,7 @@ DESCRIPTION="A set of helper functions for CSV to Salesforce procedures, with re
 
 HOMEPAGE="https://github.com/brno32/django-s3-csv-2-sfdc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Perform Ontology Queries with a Finder Facade"
 
 HOMEPAGE="https://github.com/craigtrim/owl-finder"
 LICENSE="None"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

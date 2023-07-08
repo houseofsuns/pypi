@@ -15,7 +15,7 @@ DESCRIPTION="A Sphinx extension for rendering tables written in markdown"
 
 HOMEPAGE="https://github.com/ryanfox/sphinx-markdown-tables"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

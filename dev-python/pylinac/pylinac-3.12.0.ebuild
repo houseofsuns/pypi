@@ -15,7 +15,7 @@ DESCRIPTION="A toolkit for performing TG-142 QA-related tasks on a linear accele
 
 HOMEPAGE="https://github.com/jrkerns/pylinac"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

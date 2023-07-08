@@ -15,7 +15,7 @@ DESCRIPTION="JSON API 1.0 (https://jsonapi.org) formatting with marshmallow"
 
 HOMEPAGE="https://github.com/marshmallow-code/marshmallow-jsonapi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="The \`tuya-connector-python\` SDK is desinged to support open APIs 
 
 HOMEPAGE="https://github.com/tuya/tuya-connector-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python program to index Sphinx-based documentations into Elasticsea
 
 HOMEPAGE="https://github.com/opentelekomcloud/sphinx-opensearch"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="ScanHub Tools"
 
 HOMEPAGE="https://github.com/brain-link/scanhub_tools"
 LICENSE="BSD-licenced 3 clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

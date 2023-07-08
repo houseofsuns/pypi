@@ -15,7 +15,7 @@ DESCRIPTION="A library for parsing ISO6709 format Degree Minute Second style coo
 
 HOMEPAGE="https://github.com/seanson/python-iso6709"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python 3 version of Nordic Semiconductor nrfutil utility and Python
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_nRF52_nrfutil"
 LICENSE="Nordic Semicondictor proprietary license"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Django hitcounter tracks the number of hits/views for chosen object
 
 HOMEPAGE="https://github.com/TracyWebTech/django-hitcounter"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python JSON-RPC Client Server Library - Simple To Use Python JSONRP
 
 HOMEPAGE="https://github.com/gerold-penz/python-jsonrpc"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

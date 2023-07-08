@@ -15,7 +15,7 @@ DESCRIPTION="Package Dependency: Validates package requirements"
 
 HOMEPAGE="https://github.com/SojiroFukuda/sview-gui"
 LICENSE="SojiroFukuda"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

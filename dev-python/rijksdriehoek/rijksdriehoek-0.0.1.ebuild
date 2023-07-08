@@ -15,7 +15,7 @@ DESCRIPTION="A Rijksdriehoek (EPSG:28992) to WGS'84 conversion utility"
 
 HOMEPAGE="https://gitea.hillebrand.io/Flippylosaurus/python-rijksdriehoek"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="AI2-THOR: A Near Photo-Realistic Interactable Framework for Embodie
 
 HOMEPAGE="https://github.com/allenai/ai2thor"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

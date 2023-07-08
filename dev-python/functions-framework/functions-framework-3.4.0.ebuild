@@ -15,7 +15,7 @@ DESCRIPTION="An open source FaaS (Function as a service) framework for writing p
 
 HOMEPAGE="https://github.com/googlecloudplatform/functions-framework-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

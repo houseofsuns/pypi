@@ -15,7 +15,7 @@ DESCRIPTION="An open-source software library for numerical computation, data acq
 
 HOMEPAGE="https://github.com/neurobionics/opensourceleg"
 LICENSE="GNU GPL v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Retrieve gas consumption from GrDF web site (French Gas Company)"
 
 HOMEPAGE="https://github.com/ssenart/pygazpar"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

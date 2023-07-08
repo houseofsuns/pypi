@@ -15,7 +15,7 @@ DESCRIPTION="Python USBTMC driver for controlling instruments over USB"
 
 HOMEPAGE="http://alexforencich.com/wiki/en/python-usbtmc/start"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

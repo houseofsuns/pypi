@@ -15,7 +15,7 @@ DESCRIPTION="A Python Library to interface with Tumblr v2 REST API & OAuth"
 
 HOMEPAGE="https://github.com/michaelhelmick/python-tumblpy/"
 LICENSE="Copyright c 2013, Mike Helmick"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Cython wrapper for the C++ translation of the Angus Johnson's Clipp
 
 HOMEPAGE="https://github.com/greginvm/pyclipper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Login rate-limiting at the auth backend level"
 
 HOMEPAGE="https://github.com/brutasse/django-ratelimit-backend"
 LICENSE="BSD licence, see LICENCE file"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

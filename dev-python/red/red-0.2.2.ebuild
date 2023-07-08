@@ -15,7 +15,7 @@ DESCRIPTION="Python regex command-line tool, to replace functionality akin to 'p
 
 HOMEPAGE="https://www.bitbucket.org/johannestaas/red"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

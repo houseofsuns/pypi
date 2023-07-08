@@ -15,7 +15,7 @@ DESCRIPTION="A Python framework for building toolchains and utilities for workin
 
 HOMEPAGE="https://github.com/calmjs/calmjs/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

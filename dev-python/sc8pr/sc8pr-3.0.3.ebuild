@@ -15,7 +15,7 @@ DESCRIPTION="A simple framework for new and experienced Python programmers to cr
 
 HOMEPAGE="https://dmaccarthy.github.io/sc8pr"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

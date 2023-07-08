@@ -15,7 +15,7 @@ DESCRIPTION="This is a simple jupyter widget for kepler.gl, an advanced geospati
 
 HOMEPAGE="https://github.com/keplergl/kepler.gl/tree/master/bindings/kepler.gl-jupyter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Helper functions for the book Introduction to machine learning with
 
 HOMEPAGE="https://github.com/amueller/introduction_to_ml_with_python"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

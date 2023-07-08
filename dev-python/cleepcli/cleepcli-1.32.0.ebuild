@@ -15,7 +15,7 @@ DESCRIPTION="Cleep-cli helps developers to build great Cleep applications from c
 
 HOMEPAGE="http://www.github.com/tangb/cleep-cli/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

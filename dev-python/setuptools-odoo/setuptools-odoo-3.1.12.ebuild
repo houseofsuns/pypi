@@ -15,7 +15,7 @@ DESCRIPTION="A library to help package Odoo addons with setuptools"
 
 HOMEPAGE="http://github.com/acsone/setuptools-odoo"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

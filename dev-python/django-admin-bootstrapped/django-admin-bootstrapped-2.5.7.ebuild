@@ -15,7 +15,7 @@ DESCRIPTION="A Bootstrap theme for Django Admin"
 
 HOMEPAGE="https://github.com/django-admin-bootstrapped/django-admin-bootstrapped"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

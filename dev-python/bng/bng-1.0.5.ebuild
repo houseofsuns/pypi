@@ -15,7 +15,7 @@ DESCRIPTION="Convert between BNG grid refs (e.g. NT123456) and OSGB36 (EPSG:2770
 
 HOMEPAGE="https://github.com/volcan01010/bng"
 LICENSE="GPLv3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

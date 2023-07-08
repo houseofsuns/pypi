@@ -15,7 +15,7 @@ DESCRIPTION="A Jupyter widget for exploring PDP and ICE plots."
 
 HOMEPAGE="https://github.com/DanielKerrigan/PDPilot"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Find security vulnerabilities in Python web applications using stat
 
 HOMEPAGE="https://github.com/python-security/pyt"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

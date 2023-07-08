@@ -15,7 +15,7 @@ DESCRIPTION="Python C extension for the eSpeak speech synthesizer"
 
 HOMEPAGE="https://github.com/asrp/python-espeak"
 LICENSE="GNU GPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Conditional aggregates for Django, just like the famous SumIf in Ex
 
 HOMEPAGE="http://github.com/henriquebastos/django-aggregate-if/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

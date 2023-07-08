@@ -15,7 +15,7 @@ DESCRIPTION="UI Automation tool for Mozilla applications"
 
 HOMEPAGE="http://github.com/mozilla/mozmill"
 LICENSE="http://www.mozilla.org/MPL/2.0/"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python functions and command line equivalent for interacting with F
 
 HOMEPAGE="https://github.com/flux-framework/flux-restful-api/tree/main/clients/python"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

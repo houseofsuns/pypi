@@ -15,7 +15,7 @@ DESCRIPTION="Provides the missing pieces for gRPC Gateway."
 
 HOMEPAGE="https://github.com/hack-edu/py_protoc_gen_openapiv2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

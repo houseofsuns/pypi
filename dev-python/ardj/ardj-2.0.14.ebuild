@@ -15,7 +15,7 @@ DESCRIPTION="An artificial DJ for you internet radio."
 
 HOMEPAGE="http://umonkey.net/ardj/"
 LICENSE="GNU GPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

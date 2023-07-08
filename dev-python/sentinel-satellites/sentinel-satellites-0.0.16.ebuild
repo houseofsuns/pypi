@@ -15,7 +15,7 @@ DESCRIPTION="A Python library that allows to extract data from sentinel satellit
 
 HOMEPAGE="https://github.com/Amatofrancesco99/master-thesis/tree/main/Notebooks/utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

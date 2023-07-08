@@ -15,7 +15,7 @@ DESCRIPTION="Mechanism driver for Neutron ML2 plugin using BGP E-VPNs/IP VPNs as
 
 HOMEPAGE="https://docs.openstack.org/networking-bagpipe/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

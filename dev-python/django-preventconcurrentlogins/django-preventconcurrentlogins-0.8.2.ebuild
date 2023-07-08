@@ -15,7 +15,7 @@ DESCRIPTION="Django middleware that prevents multiple concurrent logins."
 
 HOMEPAGE="https://github.com/pcraston/django-preventconcurrentlogins"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

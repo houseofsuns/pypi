@@ -15,7 +15,7 @@ DESCRIPTION="A powerful and scalable library that can be used for a variety of t
 
 HOMEPAGE="https://github.com/TDAmeritrade/stumpy"
 LICENSE="3-clause BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

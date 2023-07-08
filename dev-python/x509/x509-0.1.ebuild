@@ -15,7 +15,7 @@ DESCRIPTION="Parse x509v3 certificates and PKCS7 signatures"
 
 HOMEPAGE="https://github.com/cniemira/py3x509"
 LICENSE="This library is free software; you can redistribute it and/or"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

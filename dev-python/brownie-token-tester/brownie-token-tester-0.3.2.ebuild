@@ -15,7 +15,7 @@ DESCRIPTION="Helper objects for generating ERC20s while testing a Brownie projec
 
 HOMEPAGE="https://github.com/iamdefinitelyahuman/brownie-token-tester"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

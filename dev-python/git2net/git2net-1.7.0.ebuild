@@ -15,7 +15,7 @@ DESCRIPTION="An OpenSource Python package for the extraction of fine-grained and
 
 HOMEPAGE="https://gotec.github.io/git2net/"
 LICENSE="AGPL-3.0+"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Saml Python Toolkit. Add SAML support to your Python software using
 
 HOMEPAGE="https://github.com/SAML-Toolkits/python3-saml"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

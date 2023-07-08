@@ -15,7 +15,7 @@ DESCRIPTION="Python wrappers for 0x smart contracts"
 
 HOMEPAGE="https://github.com/0xproject/0x-monorepo/tree/development/python-packages/contract_wrappers"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/0/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

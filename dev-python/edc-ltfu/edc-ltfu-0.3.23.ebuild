@@ -15,7 +15,7 @@ DESCRIPTION="Loss to follow up classes for the clinicedc/edc"
 
 HOMEPAGE="https://github.com/clinicedc/edc-ltfu"
 LICENSE="GPL license, see LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

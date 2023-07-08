@@ -15,7 +15,7 @@ DESCRIPTION="Private packages repository backed by Google Cloud Storage"
 
 HOMEPAGE="https://github.com/ethronsoft/gcspypi"
 LICENSE="BSD 2-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

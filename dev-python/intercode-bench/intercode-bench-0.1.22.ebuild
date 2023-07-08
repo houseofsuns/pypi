@@ -15,7 +15,7 @@ DESCRIPTION="The official InterCode benchmark package - a framework for interact
 
 HOMEPAGE="http://github.com/intercode-benchmark/intercode-benchmark"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

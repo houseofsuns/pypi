@@ -15,7 +15,7 @@ DESCRIPTION="Python 3 compatible NTLM library"
 
 HOMEPAGE="https://github.com/trustrachel/python-ntlm3"
 LICENSE="GNU Lesser GPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

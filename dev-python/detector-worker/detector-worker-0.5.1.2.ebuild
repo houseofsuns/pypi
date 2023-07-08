@@ -15,7 +15,7 @@ DESCRIPTION="Worker class for incapsulating logic, required for Lionbridge Rnd d
 
 HOMEPAGE="https://liox-teams.visualstudio.com/LE%20Research/_git/DntExtractor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Flexible python implementation of red black trees"
 
 HOMEPAGE="http://stromberg.dnsalias.org/~strombrg/red-black-tree-mod/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Pika Python AMQP Client Library"
 
 HOMEPAGE="https://pika.readthedocs.org"
 LICENSE="MPL v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

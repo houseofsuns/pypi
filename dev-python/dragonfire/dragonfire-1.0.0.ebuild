@@ -15,7 +15,7 @@ DESCRIPTION="Dragonfire is an open source virtual assistant project for Ubuntu b
 
 HOMEPAGE="https://github.com/mertyildiran/Dragonfire"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}rc1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}rc1.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}rc1.tar.gz"
 RESTRICT="test"
 

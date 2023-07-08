@@ -15,7 +15,7 @@ DESCRIPTION="Distributed Crawler Management Framework Based on Scrapy, Scrapyd, 
 
 HOMEPAGE="https://github.com/Gerapy/Gerapy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

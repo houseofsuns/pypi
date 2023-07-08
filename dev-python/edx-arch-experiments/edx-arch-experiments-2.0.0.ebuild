@@ -15,7 +15,7 @@ DESCRIPTION="A plugin to include applications under development by the architect
 
 HOMEPAGE="https://github.com/edx/edx-arch-experiments"
 LICENSE="AGPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

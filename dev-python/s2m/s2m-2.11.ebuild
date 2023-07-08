@@ -15,7 +15,7 @@ DESCRIPTION="A Scratch 2.0 (Offline) Hardware Extension for micro:bit"
 
 HOMEPAGE="https://github.com/MrYsLab/s2m"
 LICENSE="GNU Affero General Public License v3 AGPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

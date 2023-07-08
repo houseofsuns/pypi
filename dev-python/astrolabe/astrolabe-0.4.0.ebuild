@@ -15,7 +15,7 @@ DESCRIPTION="Timer library for recording performance metrics."
 
 HOMEPAGE="https://github.com/cyberdelia/astrolabe"
 LICENSE="Copyright  2012-2014 Timothe Peignier <timothee.peignier@tryphon.org>"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

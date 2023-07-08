@@ -15,7 +15,7 @@ DESCRIPTION="Microsoft Azure Conversational Language Understanding Client Librar
 
 HOMEPAGE="https://github.com/Azure/azure-sdk-for-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

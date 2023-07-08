@@ -15,7 +15,7 @@ DESCRIPTION="Scipion plugin for CryoEM tools developed at SciLifeLab"
 
 HOMEPAGE="https://github.com/3dem/scipion-em-sll"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An ORM-like Pymongo extension that adds json schema validation, ind
 
 HOMEPAGE="https://github.com/musyoka-morris/pymongoext"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

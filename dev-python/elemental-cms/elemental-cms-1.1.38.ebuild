@@ -15,7 +15,7 @@ DESCRIPTION="Flask + MongoDB Web CMS for Developers."
 
 HOMEPAGE="https://github.com/paranoid-software/elemental-cms"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

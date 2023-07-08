@@ -15,7 +15,7 @@ DESCRIPTION="Redis task lock decorator for django celery tasks"
 
 HOMEPAGE="https://github.com/Lenders-Cooperative/django-redis-task-lock"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

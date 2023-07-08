@@ -15,7 +15,7 @@ DESCRIPTION="Wraps your README-only projects in a dynamic Sphinx shell for hosti
 
 HOMEPAGE="http://github.com/stephenmcd/sphinx-me/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

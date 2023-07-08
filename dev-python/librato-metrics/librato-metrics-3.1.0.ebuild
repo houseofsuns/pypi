@@ -15,7 +15,7 @@ DESCRIPTION="Python API Wrapper for Librato"
 
 HOMEPAGE="http://github.com/librato/python-librato"
 LICENSE="https://github.com/librato/python-librato/blob/master/LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

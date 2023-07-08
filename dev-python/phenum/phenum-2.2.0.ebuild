@@ -15,7 +15,7 @@ DESCRIPTION="Enumeration of symmetrically unique derivative superstructures of c
 
 HOMEPAGE="https://github.com/wsmorgan/phonon-enumeration"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

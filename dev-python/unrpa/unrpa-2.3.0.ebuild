@@ -15,7 +15,7 @@ DESCRIPTION="Extract files from the RPA archive format (from the Ren'Py Visual N
 
 HOMEPAGE="https://github.com/Lattyware/unrpa"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

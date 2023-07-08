@@ -15,7 +15,7 @@ DESCRIPTION="Library pytest-spec is a pytest plugin to display test execution ou
 
 HOMEPAGE="https://github.com/pchomik/pytest-spec"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

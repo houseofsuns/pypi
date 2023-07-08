@@ -15,7 +15,7 @@ DESCRIPTION="Clinical Linked Data: Example of loading the FDA CDISC pilot study 
 
 HOMEPAGE=""
 LICENSE="Apache License Version 2.0, January 2004 http://www.apache.org/licenses/"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

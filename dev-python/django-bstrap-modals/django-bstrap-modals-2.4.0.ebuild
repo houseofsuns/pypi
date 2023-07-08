@@ -15,7 +15,7 @@ DESCRIPTION="Template and Javascript tools for working with Bootstrap 4 Modals"
 
 HOMEPAGE="https://github.com/cltrudeau/django-bstrap-modals"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

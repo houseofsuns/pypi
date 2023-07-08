@@ -15,7 +15,7 @@ DESCRIPTION="Redis iot implementation for conecting containers in Jetson Xavier 
 
 HOMEPAGE="https://github.com/OF306PUC/iot-plc-project/tree/main/tools/packages/iot-rdb"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

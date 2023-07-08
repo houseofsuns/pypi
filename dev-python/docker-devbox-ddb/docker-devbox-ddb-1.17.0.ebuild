@@ -15,7 +15,7 @@ DESCRIPTION="ddb - Erase environment differences, make developers happy !"
 
 HOMEPAGE="https://github.com/inetum-orleans/docker-devbox-ddb"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

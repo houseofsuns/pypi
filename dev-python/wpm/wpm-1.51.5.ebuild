@@ -15,7 +15,7 @@ DESCRIPTION="Console app for measuring typing speed in words per minute (WPM)"
 
 HOMEPAGE="https://github.com/cslarsen/wpm"
 LICENSE="https://www.gnu.org/licenses/agpl-3.0.html"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

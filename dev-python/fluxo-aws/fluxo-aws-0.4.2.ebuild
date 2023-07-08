@@ -15,7 +15,7 @@ DESCRIPTION="Provides a bunch of functions and utils to help you build applicati
 
 HOMEPAGE="https://github.com/Fluxo-Resultados/fluxo-aws"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Creates PDFs from HTML rendered using chrome or chromium"
 
 HOMEPAGE="https://github.com/nvnmo/pychromepdf"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

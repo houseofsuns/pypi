@@ -15,7 +15,7 @@ DESCRIPTION="Collection of small utilities that have not yet being promoted to x
 
 HOMEPAGE="https://gitlab.merchise.org/mercurio-2018/xotless"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

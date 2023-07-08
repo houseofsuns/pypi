@@ -15,7 +15,7 @@ DESCRIPTION="Train Gym-derived environments in Python/C++ through Ray RLlib"
 
 HOMEPAGE="https://github.com/LorenzoFederici/pyrlprob"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

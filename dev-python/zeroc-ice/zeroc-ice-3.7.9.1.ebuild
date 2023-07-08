@@ -15,7 +15,7 @@ DESCRIPTION="Ice is a comprehensive RPC framework with support for Python, C++, 
 
 HOMEPAGE="https://zeroc.com"
 LICENSE="GPL v2 with exceptions"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

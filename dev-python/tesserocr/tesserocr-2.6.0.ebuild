@@ -15,7 +15,7 @@ DESCRIPTION="A simple, Pillow-friendly, Python wrapper around tesseract-ocr API 
 
 HOMEPAGE="https://github.com/sirfz/tesserocr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

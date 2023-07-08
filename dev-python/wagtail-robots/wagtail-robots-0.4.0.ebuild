@@ -15,7 +15,7 @@ DESCRIPTION="Robots.txt exclusion for Wagtail, complementing Sitemaps."
 
 HOMEPAGE="https://github.com/adrian-turjak/wagtail-robots/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

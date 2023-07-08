@@ -15,7 +15,7 @@ DESCRIPTION="COMET - Cosmological Observables Modelled by Emulated perturbation 
 
 HOMEPAGE="https://gitlab.com/aegge/comet-emu"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Built wheels for xylib by Marcin Wojdyr"
 
 HOMEPAGE="https://github.com/wojdyr/xylib"
 LICENSE="LGPL2.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

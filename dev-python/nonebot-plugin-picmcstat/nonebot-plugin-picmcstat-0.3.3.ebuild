@@ -15,7 +15,7 @@ DESCRIPTION="A NoneBot2 plugin generates a pic from a Minecraft server's MOTD"
 
 HOMEPAGE="https://github.com/lgc-NB2Dev/nonebot-plugin-picmcstat"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

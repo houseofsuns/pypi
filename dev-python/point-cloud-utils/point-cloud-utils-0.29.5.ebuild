@@ -15,7 +15,7 @@ DESCRIPTION="A Python library for common tasks on 3D point clouds and meshes"
 
 HOMEPAGE="https://github.com/fwilliams/point-cloud-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

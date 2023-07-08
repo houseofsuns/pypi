@@ -15,7 +15,7 @@ DESCRIPTION="Documentation generation that won't make you tear your hair out."
 
 HOMEPAGE="http://sjl.bitbucket.org/d/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhoste${REALNAME}.org/packages/5e/${REALNAME}3/1cec3136c2f208a7529b82b53372${REALNAME}a3bf82eb931be5434622c541${REALNAME}08${REALNAME}e9${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

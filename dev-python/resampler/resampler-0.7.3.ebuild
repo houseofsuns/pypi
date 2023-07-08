@@ -15,7 +15,7 @@ DESCRIPTION="Fast differentiable resizing and warping of arbitrary grids"
 
 HOMEPAGE="https://colab.research.google.com/github/hhoppe/resampler/blob/main/resampler_notebook.ipynb"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python module for convenient storage of classes in files."
 
 HOMEPAGE="https://github.com/GigantPro/frozenclass"
 LICENSE="The GPLv3 License GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

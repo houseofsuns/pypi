@@ -15,7 +15,7 @@ DESCRIPTION="Asynchronous WSGI and WebSocket server based on asyncore module"
 
 HOMEPAGE="https://github.com/romanvm/asyncore-wsgi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

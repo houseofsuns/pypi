@@ -15,7 +15,7 @@ DESCRIPTION="A Poetry plugin to override a version in a pyproject.toml from envi
 
 HOMEPAGE="https://github.com/godfryd/poetry-arbitrary-version-plugin"
 LICENSE="APACHE 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

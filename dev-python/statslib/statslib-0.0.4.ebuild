@@ -15,7 +15,7 @@ DESCRIPTION="Bindings for StatsLib (https://github.com/kthohr/stats)"
 
 HOMEPAGE="https://github.com/aforren1/pystatslib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

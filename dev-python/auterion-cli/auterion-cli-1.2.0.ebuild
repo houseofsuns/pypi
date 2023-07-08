@@ -15,7 +15,7 @@ DESCRIPTION="CLI tool to interact with AuterionOS devices and apps"
 
 HOMEPAGE="https://docs.auterion.com/developers"
 LICENSE="proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

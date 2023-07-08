@@ -15,7 +15,7 @@ DESCRIPTION="Handling, simulating, and plotting HREELS and Auger spectroscopy da
 
 HOMEPAGE="https://gitlab.informatik.uni-halle.de/e3fm8/libhreels"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

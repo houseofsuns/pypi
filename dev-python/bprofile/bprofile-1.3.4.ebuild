@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper around profile/cProfile, gprof2dot and dot,providing a si
 
 HOMEPAGE="https://bitbucket.org/cbillington/bprofile"
 LICENSE="simplified BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

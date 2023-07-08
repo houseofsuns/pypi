@@ -15,7 +15,7 @@ DESCRIPTION="A Python wrapper for libjpeg, with a focus on use as a plugin for f
 
 HOMEPAGE="https://github.com/pydicom/pylibjpeg-libjpeg"
 LICENSE="GPL V3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

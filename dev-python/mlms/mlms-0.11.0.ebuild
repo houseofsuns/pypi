@@ -15,7 +15,7 @@ DESCRIPTION="This package is to facilitate model selection in Machine Learning."
 
 HOMEPAGE="https://github.com/HigherHoopern/ML_ModelSelection"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

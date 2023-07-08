@@ -15,7 +15,7 @@ DESCRIPTION="Dynamically generate Buildkite pipelines"
 
 HOMEPAGE="https://github.com/jwplayer/buildpipe-buildkite-plugin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

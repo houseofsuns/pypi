@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper for executing a command with AWS CLI v2 and SSO, inspired
 
 HOMEPAGE="https://github.com/claytonsilva/aws-sso-cred-restore"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

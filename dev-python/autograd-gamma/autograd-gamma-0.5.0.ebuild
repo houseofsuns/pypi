@@ -15,7 +15,7 @@ DESCRIPTION="Autograd compatible approximations to the gamma family of functions
 
 HOMEPAGE="https://github.com/CamDavidsonPilon/autograd-gamma"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

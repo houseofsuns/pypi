@@ -15,7 +15,7 @@ DESCRIPTION="Neural network architecture for time series forecasting."
 
 HOMEPAGE="https://github.com/hawk31/nnet-ts"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

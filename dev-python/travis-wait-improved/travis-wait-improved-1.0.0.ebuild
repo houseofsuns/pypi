@@ -15,7 +15,7 @@ DESCRIPTION="A tool to help long-running, yet reticent, processes avoid death at
 
 HOMEPAGE="https://www.us-cert.gov/resources/ncats"
 LICENSE="License :: CC0 1.0 Universal CC0 1.0 Public Domain Dedication"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

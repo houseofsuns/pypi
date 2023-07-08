@@ -15,7 +15,7 @@ DESCRIPTION="strongDM SDK for the Python programming language."
 
 HOMEPAGE="https://github.com/strongdm/strongdm-sdk-python"
 LICENSE="apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

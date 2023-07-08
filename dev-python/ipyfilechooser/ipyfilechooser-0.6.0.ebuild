@@ -15,7 +15,7 @@ DESCRIPTION="Python file chooser widget for use in Jupyter/IPython in conjunctio
 
 HOMEPAGE="https://github.com/crahan/ipyfilechooser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

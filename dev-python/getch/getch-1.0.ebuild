@@ -15,7 +15,7 @@ DESCRIPTION="Does single char input, like C getch/getche"
 
 HOMEPAGE="http://pypi.python.org/pypi/getch"
 LICENSE="Public domain it really is just a small utility"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}-python2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-python2.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}-python2.tar.gz"
 RESTRICT="test"
 

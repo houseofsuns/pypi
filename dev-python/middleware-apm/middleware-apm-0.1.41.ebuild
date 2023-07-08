@@ -15,7 +15,7 @@ DESCRIPTION="This package is use to check the RAM and CPU Usage of Current Devic
 
 HOMEPAGE="https://github.com/middleware-labs/agent-apm-python.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

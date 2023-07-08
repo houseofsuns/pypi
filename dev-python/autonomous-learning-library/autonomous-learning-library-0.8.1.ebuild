@@ -15,7 +15,7 @@ DESCRIPTION="A library for building reinforcement learning agents in Pytorch"
 
 HOMEPAGE="https://github.com/cpnota/autonomous-learning-library.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

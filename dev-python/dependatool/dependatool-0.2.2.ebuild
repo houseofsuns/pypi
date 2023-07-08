@@ -15,7 +15,7 @@ DESCRIPTION="\"Pip dependabot checker used in Envoy proxy's CI\""
 
 HOMEPAGE="https://github.com/envoyproxy/pytooling/tree/main/dependatool"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

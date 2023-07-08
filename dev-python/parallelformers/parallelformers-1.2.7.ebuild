@@ -15,7 +15,7 @@ DESCRIPTION="An Efficient Model Parallelization Toolkit for Deployment"
 
 HOMEPAGE="https://github.com/tunib-ai/parallelformers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Functions to easily transform Azure blobs into pandas DataFrames an
 
 HOMEPAGE="https://github.com/uijl/pandablob"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}a.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}a.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}a.tar.gz"
 RESTRICT="test"
 

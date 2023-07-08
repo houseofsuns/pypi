@@ -15,7 +15,7 @@ DESCRIPTION="VaultPass: A CyberArk Search Script. Search for accounts and retrie
 
 HOMEPAGE="https://github.com/mjackstewart/vaultpass"
 LICENSE="Unilicense"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

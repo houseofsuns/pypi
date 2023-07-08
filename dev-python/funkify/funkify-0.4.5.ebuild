@@ -15,7 +15,7 @@ DESCRIPTION="Funkify modules so that they are callable"
 
 HOMEPAGE="https://github.com/dynamic-graphics-inc/dgpy-libs/tree/main/libs/funkify"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

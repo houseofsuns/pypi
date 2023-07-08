@@ -15,7 +15,7 @@ DESCRIPTION="Model for kiwipiepy"
 
 HOMEPAGE="https://github.com/bab2min/kiwipiepy"
 LICENSE="LGPL v3 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

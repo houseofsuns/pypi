@@ -15,7 +15,7 @@ DESCRIPTION="Reports Python code coverage data to scrutinizer-ci.com"
 
 HOMEPAGE="http://github.com/scrutinizer-ci/ocular.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

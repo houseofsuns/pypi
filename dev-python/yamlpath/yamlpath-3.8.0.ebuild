@@ -15,7 +15,7 @@ DESCRIPTION="Command-line get/set/merge/validate/scan/convert/diff processors fo
 
 HOMEPAGE="https://github.com/wwkimball/yamlpath"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

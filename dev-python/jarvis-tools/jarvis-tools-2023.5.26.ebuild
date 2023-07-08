@@ -15,7 +15,7 @@ DESCRIPTION="jarvis-tools: an open-source software package for data-driven atomi
 
 HOMEPAGE="https://github.com/usnistgov/jarvis"
 LICENSE="NIST"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

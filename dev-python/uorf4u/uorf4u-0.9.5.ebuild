@@ -15,7 +15,7 @@ DESCRIPTION="A tool for short uORF annotation."
 
 HOMEPAGE="https://art-egorov.github.io/uorf4u/"
 LICENSE="WTFPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

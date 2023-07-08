@@ -15,7 +15,7 @@ DESCRIPTION="Always return JSON from your Django view."
 
 HOMEPAGE="https://github.com/jsocol/django-jsonview"
 LICENSE="Apache v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

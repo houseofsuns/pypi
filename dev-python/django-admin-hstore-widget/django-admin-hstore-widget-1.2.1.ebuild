@@ -15,7 +15,7 @@ DESCRIPTION="Widget and Field to properly render HStore data in Django-Admin"
 
 HOMEPAGE="https://github.com/PokaInc/django-admin-hstore-widget"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A collection of widgets for Tkinter's ttk extensions by various aut
 
 HOMEPAGE="https://www.github.com/RedFantom/ttkwidgets"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

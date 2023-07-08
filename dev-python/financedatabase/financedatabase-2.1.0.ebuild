@@ -15,7 +15,7 @@ DESCRIPTION="This is a database of 300.000+ symbols containing Equities, ETFs, F
 
 HOMEPAGE="https://github.com/JerBouma/FinanceDatabase"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

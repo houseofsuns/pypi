@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for MurmurHash (MurmurHash3), a set of fast and robu
 
 HOMEPAGE="https://github.com/Fokko/mmhash"
 LICENSE="License :: CC0 1.0 Universal CC0 1.0 Public Domain Dedication"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

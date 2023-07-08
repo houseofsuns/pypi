@@ -15,7 +15,7 @@ DESCRIPTION="Linked Data Platform interface for Django Rest Framework"
 
 HOMEPAGE="https://git.startinblox.com/djangoldp-packages/djangoldp/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

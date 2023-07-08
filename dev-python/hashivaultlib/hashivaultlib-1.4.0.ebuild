@@ -15,7 +15,7 @@ DESCRIPTION="An extension to hvac, implementing recursive removal and retrieval 
 
 HOMEPAGE="https://github.com/schubergphilis/hashivaultlib.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

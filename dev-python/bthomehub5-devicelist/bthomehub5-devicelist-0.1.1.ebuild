@@ -15,7 +15,7 @@ DESCRIPTION="A library that returns a list of devices currently connected to a B
 
 HOMEPAGE="https://github.com/ahobsonsayers/bthomehub5-devicelist"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

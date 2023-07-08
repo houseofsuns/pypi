@@ -15,7 +15,7 @@ DESCRIPTION="Framework for stock-flow consistent agent-based modeling, being dev
 
 HOMEPAGE="https://gitlab.com/dlr-ve/esy/sfctools/framework"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

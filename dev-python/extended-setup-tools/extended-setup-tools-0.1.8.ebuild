@@ -15,7 +15,7 @@ DESCRIPTION="Python tool for helping making shorter and smarter setup.py scripts
 
 HOMEPAGE="https://gitlab.com/Hares-Lab/tools/extended-setup-tools"
 LICENSE="BSD 2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

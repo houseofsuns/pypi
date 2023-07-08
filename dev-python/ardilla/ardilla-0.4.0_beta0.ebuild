@@ -15,7 +15,7 @@ DESCRIPTION="Ardilla ORM. Easy to use, fast to implement, with sync and async fl
 
 HOMEPAGE="https://github.com/chrisdewa/ardilla"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

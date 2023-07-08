@@ -15,7 +15,7 @@ DESCRIPTION="CircuitPython library for RFM95/6/7/8 LoRa 433/915mhz radio modules
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_RFM9x"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Benchmark tabular synthetic data generators using a variety of data
 
 HOMEPAGE="https://github.com/sdv-dev/SDGym"
 LICENSE="BSL-1.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

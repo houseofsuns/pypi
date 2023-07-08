@@ -15,7 +15,7 @@ DESCRIPTION="Streams the content of an iterator to multiple S3 objects based on 
 
 HOMEPAGE="https://github.com/cscetbon/s3-upload-split"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

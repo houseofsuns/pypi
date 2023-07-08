@@ -15,7 +15,7 @@ DESCRIPTION="De-duplicate RDF triples w/ a SPARQL query. Subjects taken from SEL
 
 HOMEPAGE="https://github.com/NeilGraham/rdfhash"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

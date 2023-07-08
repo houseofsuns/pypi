@@ -15,7 +15,7 @@ DESCRIPTION="Chia proof of space plotting, proving, and verifying (wraps C++)"
 
 HOMEPAGE="https://github.com/Chia-Network/chiapos"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

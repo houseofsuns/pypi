@@ -15,7 +15,7 @@ DESCRIPTION="Python library for Bluetooth Low Energy (BLE) on Linux"
 
 HOMEPAGE="https://github.com/ukBaz/python-bluezero"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

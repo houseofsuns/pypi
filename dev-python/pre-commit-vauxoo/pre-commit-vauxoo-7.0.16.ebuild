@@ -15,7 +15,7 @@ DESCRIPTION="pre-commit script to run automatically the configuration and variab
 
 HOMEPAGE="https://github.com/Vauxoo/pre-commit-vauxoo"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

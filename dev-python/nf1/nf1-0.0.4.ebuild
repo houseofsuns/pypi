@@ -15,7 +15,7 @@ DESCRIPTION="NF1: Normalized F1 score for community evaluation against ground tr
 
 HOMEPAGE="https://github.com/GiulioRossetti/f1-communities"
 LICENSE="BSD-Clause-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

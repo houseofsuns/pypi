@@ -15,7 +15,7 @@ DESCRIPTION="Python client library for RESTAPI SDK"
 
 HOMEPAGE="https://github.com/thoughtspot/rest-api-sdk/tree/1.11.0/Python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

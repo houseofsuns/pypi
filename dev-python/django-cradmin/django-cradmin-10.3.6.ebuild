@@ -15,7 +15,7 @@ DESCRIPTION="A role based admin UI for Django that produces a user friendly and 
 
 HOMEPAGE="https://github.com/appressoas/django_cradmin"
 LICENSE="Copyright c 2014, Appresso AS "
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

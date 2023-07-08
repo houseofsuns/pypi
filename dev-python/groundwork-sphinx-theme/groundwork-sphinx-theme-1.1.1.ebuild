@@ -15,7 +15,7 @@ DESCRIPTION="Sphinx theme for groundwork projects (Based on flask_theme)"
 
 HOMEPAGE="https://github.com/useblocks/groundwork-sphinx-theme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

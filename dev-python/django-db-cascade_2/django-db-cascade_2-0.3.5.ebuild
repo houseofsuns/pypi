@@ -15,7 +15,7 @@ DESCRIPTION="Fork of django-db-cascade for Django 2.0.  Optionally use postgres 
 
 HOMEPAGE="http://github.com/jkapelner/django-db-cascade-2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python/C++ version of NE2001, YMW16, and YT2020 electron density mo
 
 HOMEPAGE="https://github.com/frbs/pygedm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

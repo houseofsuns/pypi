@@ -15,7 +15,7 @@ DESCRIPTION="Tools for simple inference testing using TensorRT, CUDA and OpenVIN
 
 HOMEPAGE="https://github.com/PINTO0309/sit4onnx"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

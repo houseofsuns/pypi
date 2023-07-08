@@ -15,7 +15,7 @@ DESCRIPTION="Automatic differentiation with WFSTs"
 
 HOMEPAGE="https://github.com/gtn-org/gtn"
 LICENSE="MIT licensed, as found in the LICENSE file"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

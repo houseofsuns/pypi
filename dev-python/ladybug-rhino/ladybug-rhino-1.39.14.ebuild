@@ -15,7 +15,7 @@ DESCRIPTION="A library for communicating between Ladybug Tools core libraries an
 
 HOMEPAGE="https://github.com/ladybug-tools/ladybug-rhino"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

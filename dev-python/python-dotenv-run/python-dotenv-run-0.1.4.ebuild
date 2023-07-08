@@ -15,7 +15,7 @@ DESCRIPTION="Run command with environment populated by the .env file."
 
 HOMEPAGE="https://github.com/uranusjr/python-dotenv-run"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

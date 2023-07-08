@@ -15,7 +15,7 @@ DESCRIPTION="XL-mHG: A Semiparametric Test for Enrichment"
 
 HOMEPAGE="https://github.com/flo-compbio/xlmhg"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="DB-API interface to Microsoft SQL Server for Python. (new Cython-ba
 
 HOMEPAGE="https://github.com/noisycomputation/pymssql-linux"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

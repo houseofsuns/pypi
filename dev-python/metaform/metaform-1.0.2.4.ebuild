@@ -15,7 +15,7 @@ DESCRIPTION="A utility for defining metadata for data types and formats."
 
 HOMEPAGE="https://gitlab.com/wefindx/metaform"
 LICENSE="ASK FOR PERMISSIONS"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

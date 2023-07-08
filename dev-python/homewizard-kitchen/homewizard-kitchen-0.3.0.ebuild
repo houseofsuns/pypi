@@ -15,7 +15,7 @@ DESCRIPTION="Manage your Homewizard Kitchen Kettle using Python"
 
 HOMEPAGE="https://github.com/lesleyxyz/python-homewizard-kitchen"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

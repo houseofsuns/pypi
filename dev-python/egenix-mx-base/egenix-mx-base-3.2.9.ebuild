@@ -15,7 +15,7 @@ DESCRIPTION="eGenix mx Base Distribution for Python - mxDateTime, mxTextTools, m
 
 HOMEPAGE="http://www.egenix.com/products/python/mxBase/"
 LICENSE="eGenix.com Public License 1.1.0; Copyright c 1997-2000, Marc-Andre Lemburg, All Rights Reserved; Copyright c 2000-2015, eGenix.com Software GmbH, All Rights Reserved"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

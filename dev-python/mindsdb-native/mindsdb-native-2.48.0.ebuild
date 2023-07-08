@@ -15,7 +15,7 @@ DESCRIPTION="MindsDB's goal is to make it very simple for developers to use the 
 
 HOMEPAGE="https://github.com/mindsdb/mindsdb_native"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

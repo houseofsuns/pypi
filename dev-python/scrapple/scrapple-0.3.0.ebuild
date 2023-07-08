@@ -15,7 +15,7 @@ DESCRIPTION="A framework for creating web content extractors"
 
 HOMEPAGE="https://alexmathew.github.io/scrapple"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}_1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}_1.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}_1.tar.gz"
 RESTRICT="test"
 

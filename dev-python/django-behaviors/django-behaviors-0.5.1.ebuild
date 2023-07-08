@@ -15,7 +15,7 @@ DESCRIPTION="Common behaviors for Django Models, e.g. Timestamps, Publishing, Au
 
 HOMEPAGE="https://github.com/audiolion/django-behaviors"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

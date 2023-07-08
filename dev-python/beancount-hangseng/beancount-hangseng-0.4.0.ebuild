@@ -15,7 +15,7 @@ DESCRIPTION="Parse Hang Seng eStatements to Beancount/CSV"
 
 HOMEPAGE="https://github.com/yiufung/beancount-hangseng"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

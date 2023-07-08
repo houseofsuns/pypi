@@ -15,7 +15,7 @@ DESCRIPTION="\`\`aspectlib\`\` is an aspect-oriented programming, monkey-patch a
 
 HOMEPAGE="https://github.com/ionelmc/python-aspectlib"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

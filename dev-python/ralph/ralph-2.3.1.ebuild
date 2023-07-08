@@ -15,7 +15,7 @@ DESCRIPTION="Ralph is a full-featured Asset Management, DCIM and CMDB system for
 
 HOMEPAGE="http://ralph.allegrogroup.com/"
 LICENSE="Apache Software License v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

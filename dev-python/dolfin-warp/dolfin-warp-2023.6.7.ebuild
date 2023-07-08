@@ -15,7 +15,7 @@ DESCRIPTION="A set of FEniCS- and VTK-based python tools for Finite Element Digi
 
 HOMEPAGE="https://gitlab.inria.fr/mgenet/dolfin_warp"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

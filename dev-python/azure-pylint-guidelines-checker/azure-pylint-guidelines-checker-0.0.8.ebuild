@@ -15,7 +15,7 @@ DESCRIPTION="A pylint plugin which enforces azure sdk guidelines."
 
 HOMEPAGE="http://github.com/Azure/azure-sdk-for-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

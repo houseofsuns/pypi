@@ -15,7 +15,7 @@ DESCRIPTION="SHA-3 (Keccak) for Python 3.9 - 3.11"
 
 HOMEPAGE="https://github.com/5afe/pysha3"
 LICENSE="PSFL Keccak: CC0 1.0 Universal"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python implementation of the ActionScript3 toplevel"
 
 HOMEPAGE="https://github.com/ajdelguidice/python-as3toplevel"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

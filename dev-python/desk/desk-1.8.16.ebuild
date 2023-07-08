@@ -15,7 +15,7 @@ DESCRIPTION="The DESK is an SED-fitting python scripts for fitting data from evo
 
 HOMEPAGE="https://github.com/s-goldman/Dusty_Evolved_Star_Kit"
 LICENSE="BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

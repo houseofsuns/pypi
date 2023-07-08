@@ -15,7 +15,7 @@ DESCRIPTION="Altair Jupyter Widget library that relies on VegaFusion for servers
 
 HOMEPAGE="https://github.com/jonmmease/vegafusion"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

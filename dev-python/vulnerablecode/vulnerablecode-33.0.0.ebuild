@@ -15,7 +15,7 @@ DESCRIPTION="VulnerableCode is a free and open database of open source software 
 
 HOMEPAGE="https://github.com/nexB/vulnerablecode"
 LICENSE="Apache-2.0 AND CC-BY-SA-4.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Easily run complex SQL-like queries far beyond what Jira's standard
 
 HOMEPAGE="https://github.com/coddingtonbear/jira-select"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

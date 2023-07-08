@@ -15,7 +15,7 @@ DESCRIPTION="i18ndude performs various tasks related to ZPT's, Python Scripts an
 
 HOMEPAGE="https://github.com/collective/i18ndude"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

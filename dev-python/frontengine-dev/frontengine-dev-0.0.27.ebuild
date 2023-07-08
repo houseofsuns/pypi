@@ -15,7 +15,7 @@ DESCRIPTION="FrontEngine is BingGPT that can use-define front end or only use li
 
 HOMEPAGE="https://github.com/Intergration-Automation-Testing/FrontEngine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

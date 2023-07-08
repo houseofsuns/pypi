@@ -15,7 +15,7 @@ DESCRIPTION="Devstack Helper Tools in Python"
 
 HOMEPAGE="https://opendev.org/openstack/devstack-tools/src/branch/master/README.rst"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

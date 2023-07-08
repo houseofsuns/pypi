@@ -15,7 +15,7 @@ DESCRIPTION="This library will help you to transfer or to mint NFTs on the WAX b
 
 HOMEPAGE="https://github.com/alparo/waxNFTdispatcher"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

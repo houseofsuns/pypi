@@ -15,7 +15,7 @@ DESCRIPTION="Color schemes for Python plots, from Paul Tol (2012)"
 
 HOMEPAGE="https://github.com/volodia99/cblind"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An interface to the Nessus 6 REST API"
 
 HOMEPAGE="https://github.com/tenable/nessrest"
 LICENSE="Copyright c 2014-2015, Tenable Network Security, Inc."
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

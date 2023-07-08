@@ -15,7 +15,7 @@ DESCRIPTION="An API providing a DNS-SD/HTTP bridge for AMWA NMOS service types"
 
 HOMEPAGE="https://github.com/bbc/nmos-mdns-bridge"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

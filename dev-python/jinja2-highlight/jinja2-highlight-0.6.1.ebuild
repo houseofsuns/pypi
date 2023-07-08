@@ -15,7 +15,7 @@ DESCRIPTION="Jinja2 extension to highlight source code using Pygments"
 
 HOMEPAGE="https://github.com/tlatsas/jinja2-highlight"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

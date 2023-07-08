@@ -15,7 +15,7 @@ DESCRIPTION="Simple ONNX operation generator. Simple Operation Generator for ONN
 
 HOMEPAGE="https://github.com/PINTO0309/sog4onnx"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

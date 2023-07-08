@@ -15,7 +15,7 @@ DESCRIPTION="This is a simple and specific solver to gimpy captcha types like SE
 
 HOMEPAGE="http://github.com/CesarCort/gimpysolver"
 LICENSE="gpl-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

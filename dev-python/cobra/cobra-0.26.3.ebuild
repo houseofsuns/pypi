@@ -15,7 +15,7 @@ DESCRIPTION="COBRApy is a package for constraint-based modeling of metabolic net
 
 HOMEPAGE="https://opencobra.github.io/cobrapy"
 LICENSE="LGPL-2.0-or-later OR GPL-2.0-or-later"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

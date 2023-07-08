@@ -15,7 +15,7 @@ DESCRIPTION="Finds and runs debugpy for VS Code \"remote attach\" command line d
 
 HOMEPAGE="https://github.com/bulletmark/debugpy-run"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

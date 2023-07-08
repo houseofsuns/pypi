@@ -15,7 +15,7 @@ DESCRIPTION="Lepton: A high-performance, pluggable particle engine and API for P
 
 HOMEPAGE="https://bitbucket.org/lordmauve/lepton"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

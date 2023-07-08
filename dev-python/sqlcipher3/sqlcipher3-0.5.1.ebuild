@@ -15,7 +15,7 @@ DESCRIPTION="DB-API 2.0 interface for SQLCipher 3.x"
 
 HOMEPAGE="https://github.com/coleifer/sqlcipher3"
 LICENSE="ZLIB"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

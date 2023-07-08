@@ -15,7 +15,7 @@ DESCRIPTION="A parser for BSD syslog protocol (RFC 3164) messages"
 
 HOMEPAGE="https://homework.nwsnet.de/releases/76d6/#syslogmp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

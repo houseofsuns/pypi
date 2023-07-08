@@ -15,7 +15,7 @@ DESCRIPTION="Python client for the lichess API"
 
 HOMEPAGE="https://github.com/lichess-org/berserk"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

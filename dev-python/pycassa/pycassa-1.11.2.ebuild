@@ -15,7 +15,7 @@ DESCRIPTION="Python client library for Apache Cassandra"
 
 HOMEPAGE="http://github.com/pycassa/pycassa"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

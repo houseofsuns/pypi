@@ -15,7 +15,7 @@ DESCRIPTION="The most complete customizable stylesheet for Python and Qt applica
 
 HOMEPAGE="https://github.com/desty2k/QRainbowStyleSheet"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

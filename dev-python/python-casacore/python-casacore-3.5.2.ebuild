@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper around CASACORE, the radio astronomy library"
 
 HOMEPAGE="https://github.com/casacore/python-casacore"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

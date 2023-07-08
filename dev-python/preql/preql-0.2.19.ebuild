@@ -15,7 +15,7 @@ DESCRIPTION="An interpreted relational query language that compiles to SQL"
 
 HOMEPAGE="https://github.com/erezsh/Preql"
 LICENSE="Interface-Protection Clause + MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

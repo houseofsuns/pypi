@@ -15,7 +15,7 @@ DESCRIPTION="Self-hosted outdoor workout/activity tracker"
 
 HOMEPAGE="https://github.com/SamR1/FitTrackee"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

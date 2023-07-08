@@ -15,7 +15,7 @@ DESCRIPTION="Tool for reading, formatting, and manipulating exploration graphs, 
 
 HOMEPAGE="https://cs.wellesley.edu/~pmwh/mvmap/egtool/docs/exploration"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for Tkhtml3 (http://tkhtml.tcl.tk/)"
 
 HOMEPAGE="https://bitbucket.org/aivarannamaa/tkinterhtml"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

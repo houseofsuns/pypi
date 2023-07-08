@@ -15,7 +15,7 @@ DESCRIPTION="Swagger UI Blueprint for Flask on AWS Lambda"
 
 HOMEPAGE="https://github.com/tb102122/aws_flask_swagger_ui"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

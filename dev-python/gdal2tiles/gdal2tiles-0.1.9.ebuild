@@ -15,7 +15,7 @@ DESCRIPTION="A python library for generating map tiles based on gdal2tiles.py sc
 
 HOMEPAGE="https://github.com/tehamalab/gdal2tiles"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

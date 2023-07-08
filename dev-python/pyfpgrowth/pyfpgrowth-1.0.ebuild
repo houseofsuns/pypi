@@ -15,7 +15,7 @@ DESCRIPTION="A Python implementation of the Frequent Pattern Growth algorithm."
 
 HOMEPAGE="https://github.com/evandempsey/fp-growth"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

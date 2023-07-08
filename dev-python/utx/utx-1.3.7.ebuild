@@ -15,7 +15,7 @@ DESCRIPTION="UTX will help you write ui automated tests more easily!"
 
 HOMEPAGE="https://github.com/openutx"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

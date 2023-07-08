@@ -15,7 +15,7 @@ DESCRIPTION="AVP - ASCII Video Player. Allows you to play any video as ASCII-art
 
 HOMEPAGE="https://github.com/romanin-rf/avplib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

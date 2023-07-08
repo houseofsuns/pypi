@@ -15,7 +15,7 @@ DESCRIPTION="Python library to load, analyze and modify EnergyPlus Weather files
 
 HOMEPAGE="https://github.com/ladybug-tools/ladybug"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

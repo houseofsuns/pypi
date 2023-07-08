@@ -15,7 +15,7 @@ DESCRIPTION="ReportPortal integration client lib"
 
 HOMEPAGE="https://github.com/Adrian-Tamas/reportportal-behave-integration-client-lib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

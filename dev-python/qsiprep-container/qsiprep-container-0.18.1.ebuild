@@ -15,7 +15,7 @@ DESCRIPTION="qsiprep is a non-DTI diffusion-weighted image pre-processing pipeli
 
 HOMEPAGE="https://github.com/pennbbl/qsiprep"
 LICENSE="3-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

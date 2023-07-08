@@ -15,7 +15,7 @@ DESCRIPTION="Noughts and Crosses (aka Tic Tac Toe) game implementation"
 
 HOMEPAGE="https://github.com/tkoomzaaskz/noughts-and-crosses"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

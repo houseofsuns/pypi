@@ -15,7 +15,7 @@ DESCRIPTION="the stupid configuration tracker using the stupid content tracker"
 
 HOMEPAGE="https://github.com/elesiuta/baka"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

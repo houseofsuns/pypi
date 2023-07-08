@@ -15,7 +15,7 @@ DESCRIPTION="Send various info to statsd for each Celery task"
 
 HOMEPAGE="https://github.com/lyst/celery-statsd/"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

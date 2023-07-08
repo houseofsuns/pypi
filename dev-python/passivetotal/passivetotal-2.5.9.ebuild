@@ -15,7 +15,7 @@ DESCRIPTION="Library for the RiskIQ PassiveTotal and Illuminate API"
 
 HOMEPAGE="https://github.com/passivetotal/python_api"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A multithread Pushshift.io API Wrapper for reddit.com comment and s
 
 HOMEPAGE="https://github.com/mattpodolak/pmaw"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

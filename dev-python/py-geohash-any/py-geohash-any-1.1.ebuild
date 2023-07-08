@@ -15,7 +15,7 @@ DESCRIPTION="Python geohash library designed to use any encoding"
 
 HOMEPAGE="https://github.com/kylebebak/py-geohash-any"
 LICENSE="CC BY-SA 4.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

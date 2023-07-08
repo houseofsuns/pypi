@@ -15,7 +15,7 @@ DESCRIPTION="enums for Python"
 
 HOMEPAGE="https://github.com/bfontaine/omitempty"
 LICENSE="Copyright  2015  Baptiste Fontaine"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Support for nested routes in the Django REST Framework"
 
 HOMEPAGE="https://pypi.python.org/pypi/drf-nested-resources"
 LICENSE="BSD http://dev.2degreesnetwork.com/p/2degrees-license.html"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

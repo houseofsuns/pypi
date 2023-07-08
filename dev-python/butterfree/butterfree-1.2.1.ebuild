@@ -15,7 +15,7 @@ DESCRIPTION="A tool for building feature stores - Transform your raw data into b
 
 HOMEPAGE="https://github.com/quintoandar/butterfree"
 LICENSE="Copyright"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

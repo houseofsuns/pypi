@@ -15,7 +15,7 @@ DESCRIPTION="A Plugin in order to read medical image formats such as DICOM and N
 
 HOMEPAGE="https://github.com/MBPhys/napari-medical-image-formats"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

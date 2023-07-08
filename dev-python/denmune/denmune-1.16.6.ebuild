@@ -15,7 +15,7 @@ DESCRIPTION="This is the package for DenMune Clustering Algorithm published in p
 
 HOMEPAGE="https://github.com/scikit-learn-contrib/denmune-clustering-algorithm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

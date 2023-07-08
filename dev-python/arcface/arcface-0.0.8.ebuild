@@ -15,7 +15,7 @@ DESCRIPTION="ArcFace face recognition implementation in Tensorflow Lite."
 
 HOMEPAGE="https://github.com/mobilesec/arcface-tensorflowlite"
 LICENSE="European Union Public Licence 1.2 EUPL 1.2"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

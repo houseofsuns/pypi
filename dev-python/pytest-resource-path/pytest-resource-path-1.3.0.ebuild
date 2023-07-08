@@ -15,7 +15,7 @@ DESCRIPTION="Provides path for uniform access to test resources in isolated dire
 
 HOMEPAGE="https://github.com/yukihiko-shinoda/pytest-resource-path"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

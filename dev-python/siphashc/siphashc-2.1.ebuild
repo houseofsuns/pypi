@@ -15,7 +15,7 @@ DESCRIPTION="Python module (in c) for siphash-2-4"
 
 HOMEPAGE="https://github.com/WeblateOrg/siphashc"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

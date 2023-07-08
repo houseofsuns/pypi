@@ -15,7 +15,7 @@ DESCRIPTION="S7 compatible Programmable Logic Controller PLC/SPS (AWL, STL, FUP,
 
 HOMEPAGE="https://bues.ch/a/awlsim"
 LICENSE="GNU General Public License v2 or later"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

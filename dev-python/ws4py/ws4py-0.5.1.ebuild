@@ -15,7 +15,7 @@ DESCRIPTION="WebSocket client and server library for Python 2 and 3 as well as P
 
 HOMEPAGE="https://github.com/Lawouach/WebSocket-for-Python"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

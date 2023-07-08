@@ -15,7 +15,7 @@ DESCRIPTION="Caching library for Django that uses Celery or RQ to refresh cache 
 
 HOMEPAGE="https://github.com/codeinthehole/django-cacheback"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

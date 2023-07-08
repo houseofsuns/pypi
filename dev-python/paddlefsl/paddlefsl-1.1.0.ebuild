@@ -15,7 +15,7 @@ DESCRIPTION="PaddleFSL is a Python library for few-shot learning"
 
 HOMEPAGE="https://github.com/tata1661/FSL-Mate/tree/master/PaddleFSL"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

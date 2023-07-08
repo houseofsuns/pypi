@@ -15,7 +15,7 @@ DESCRIPTION="OpenStack Watcher provides a flexible and scalable resource optimiz
 
 HOMEPAGE="https://docs.openstack.org/watcher/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

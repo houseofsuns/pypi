@@ -15,7 +15,7 @@ DESCRIPTION="Transforms tokens into original source code (while preserving white
 
 HOMEPAGE="https://github.com/myint/untokenize"
 LICENSE="Expat License"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

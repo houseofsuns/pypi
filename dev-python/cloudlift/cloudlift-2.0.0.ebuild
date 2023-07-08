@@ -15,7 +15,7 @@ DESCRIPTION="Cloudlift makes it easier to launch dockerized services in AWS ECS"
 
 HOMEPAGE="https://github.com/GetSimpl/cloudlift"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

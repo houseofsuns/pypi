@@ -15,7 +15,7 @@ DESCRIPTION="Thermo/Finnigan .raw file viewer based on rawprasslib"
 
 HOMEPAGE="https://gitlab.science.ru.nl/jzelenka/prasopes"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

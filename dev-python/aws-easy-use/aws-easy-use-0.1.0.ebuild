@@ -15,7 +15,7 @@ DESCRIPTION="AWS boto3 wrapper. Make it easier and intuitive to use."
 
 HOMEPAGE="https://github.com/imaging8896/aws-easy-use"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

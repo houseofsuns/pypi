@@ -15,7 +15,7 @@ DESCRIPTION="Honeybee extension for translating HBJSON files to INP files for eQ
 
 HOMEPAGE="https://github.com/ladybug-tools/honeybee-doe2"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

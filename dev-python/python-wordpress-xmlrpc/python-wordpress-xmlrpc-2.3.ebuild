@@ -15,7 +15,7 @@ DESCRIPTION="WordPress XML-RPC API Integration Library"
 
 HOMEPAGE="https://github.com/maxcutler/python-wordpress-xmlrpc/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

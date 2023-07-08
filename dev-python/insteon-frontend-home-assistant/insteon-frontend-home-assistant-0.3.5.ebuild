@@ -15,7 +15,7 @@ DESCRIPTION="The Insteon frontend for Home Assistant"
 
 HOMEPAGE="https://github.com/home-assistant/frontend"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}-1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-1.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}-1.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Dsplab is the package for building generalized signal processing sc
 
 HOMEPAGE="https://github.com/aleneus/dsplab"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

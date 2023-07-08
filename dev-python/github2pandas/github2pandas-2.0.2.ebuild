@@ -15,7 +15,7 @@ DESCRIPTION="github2pandas supports the aggregation of project activities in a G
 
 HOMEPAGE="https://github.com/TUBAF-IFI-DiPiT/github2pandas"
 LICENSE="BSD 2"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

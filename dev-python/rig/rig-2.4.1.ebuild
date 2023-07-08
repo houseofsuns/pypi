@@ -15,7 +15,7 @@ DESCRIPTION="A collection of tools for developing SpiNNaker applications"
 
 HOMEPAGE="https://github.com/project-rig/rig"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Passive hostname, domain and IP lookup tool for non-robots"
 
 HOMEPAGE="https://github.com/pirxthepilot/wtfis"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

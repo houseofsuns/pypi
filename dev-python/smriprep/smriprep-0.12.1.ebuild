@@ -15,7 +15,7 @@ DESCRIPTION="sMRIPrep (Structural MRI PREProcessing) pipeline"
 
 HOMEPAGE="https://github.com/nipreps/smriprep"
 LICENSE="3-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

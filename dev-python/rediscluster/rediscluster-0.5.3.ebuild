@@ -15,7 +15,7 @@ DESCRIPTION="a Python interface to a Cluster of Redis key-value store"
 
 HOMEPAGE="http://github.com/salimane/rediscluster-py"
 LICENSE="Copyright c 2012 Salimane Adjao Moustapha"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

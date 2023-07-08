@@ -15,7 +15,7 @@ DESCRIPTION="A simple printer of factorial of a number"
 
 HOMEPAGE="http://3novices.blogspot.com"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

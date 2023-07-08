@@ -15,7 +15,7 @@ DESCRIPTION="Pure-Python Japanese character interconverter for Hiragana, Katakan
 
 HOMEPAGE="https://github.com/ikegami-yukino/jaconv"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="a ligthweight feature manage framework"
 
 HOMEPAGE="https://github.com/eleveyuan/pada"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.9-universal2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.9-universal2.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.macosx-10.9-universal2.tar.gz"
 RESTRICT="test"
 

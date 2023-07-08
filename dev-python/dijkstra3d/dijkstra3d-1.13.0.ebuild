@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of Dijkstra's Shortest Path algorithm on 3D images."
 
 HOMEPAGE="https://github.com/seung-lab/dijkstra3d/"
 LICENSE="License :: OSI Approved :: GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

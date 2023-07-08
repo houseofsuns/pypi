@@ -15,7 +15,7 @@ DESCRIPTION="A simple utility for calculating business time aware timedeltas bet
 
 HOMEPAGE="http://github.com/seatgeek/businesstime"
 LICENSE="Copyright c 2014, SeatGeek, Inc."
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

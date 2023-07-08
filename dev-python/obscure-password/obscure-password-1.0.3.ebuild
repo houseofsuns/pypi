@@ -15,7 +15,7 @@ DESCRIPTION="Self contained obfuscation of hardcoded passwords in Python scripts
 
 HOMEPAGE="https://github.com/Shapedsundew9/obscure-password"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

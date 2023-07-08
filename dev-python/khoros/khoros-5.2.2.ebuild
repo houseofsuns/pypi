@@ -15,7 +15,7 @@ DESCRIPTION="Useful tools and utilities to assist in managing a Khoros Communiti
 
 HOMEPAGE="https://github.com/jeffshurtliff/khoros"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

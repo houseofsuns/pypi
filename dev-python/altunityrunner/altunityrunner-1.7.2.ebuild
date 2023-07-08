@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for the AltUnity Tester framework. AltUnity Tester 
 
 HOMEPAGE="https://gitlab.com/altom/altunity/altunitytester"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

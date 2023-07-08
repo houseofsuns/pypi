@@ -15,7 +15,7 @@ DESCRIPTION="Main automation library to wrap selenium and automate webs"
 
 HOMEPAGE="https://github.com/netzulo/qacode"
 LICENSE="                    GNU GENERAL PUBLIC LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

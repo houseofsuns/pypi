@@ -15,7 +15,7 @@ DESCRIPTION="\"Invenio module containing some customizations and configuration f
 
 HOMEPAGE="https://gitlab.tuwien.ac.at/fairdata/invenio-config-tuw"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

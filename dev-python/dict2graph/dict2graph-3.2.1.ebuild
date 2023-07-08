@@ -15,7 +15,7 @@ DESCRIPTION="Class to extract, transform and load (ETL) dicts/json to a Neo4j gr
 
 HOMEPAGE="https://git.connect.dzd-ev.de/dzdpythonmodules/dict2graph"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

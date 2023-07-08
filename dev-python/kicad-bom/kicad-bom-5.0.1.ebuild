@@ -15,7 +15,7 @@ DESCRIPTION="KiCad Python code for generating bill of materials in multiple form
 
 HOMEPAGE="https://github.com/janelia-pypi/kicad_bom"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

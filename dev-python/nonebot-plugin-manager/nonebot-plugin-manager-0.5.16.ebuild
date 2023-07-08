@@ -15,7 +15,7 @@ DESCRIPTION="Nonebot Plugin Manager base on import hook"
 
 HOMEPAGE="https://github.com/Jigsaw111/nonebot_plugin_manager"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python interface to posix_fadvise(2)"
 
 HOMEPAGE="https://chris-lamb.co.uk/projects/python-fadvise"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

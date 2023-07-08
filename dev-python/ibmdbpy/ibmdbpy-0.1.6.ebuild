@@ -15,7 +15,7 @@ DESCRIPTION="A Pandas-like SQL-wrapper for in-database analytics with IBM Db2 Wa
 
 HOMEPAGE="https://github.com/ibmdbanalytics/ibmdbpy"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

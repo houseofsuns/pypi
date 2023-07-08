@@ -15,7 +15,7 @@ DESCRIPTION="Django email backend that logs all emails"
 
 HOMEPAGE="https://github.com/treyhunner/django-email-log"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

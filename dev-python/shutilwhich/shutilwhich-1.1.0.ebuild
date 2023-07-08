@@ -15,7 +15,7 @@ DESCRIPTION="shutil.which for those not using Python 3.3 yet."
 
 HOMEPAGE="http://github.com/mbr/shutilwhich"
 LICENSE="PSF-2.4"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Simple & Easy-to-use python modules to perform Quick Exploratory Da
 
 HOMEPAGE="https://github.com/sid-the-coder/QuickDA"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

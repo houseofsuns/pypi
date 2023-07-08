@@ -15,7 +15,7 @@ DESCRIPTION="package is a package to package your package"
 
 HOMEPAGE="http://www.pypi.org/pypi/package/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/${REALNAME}s/27/16/89ea913b3e70256b9abe4f222543553fcce8bafc7ff3774a8802a054e6b8/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

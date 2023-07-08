@@ -15,7 +15,7 @@ DESCRIPTION="A utility library to manage and manipulate UNIX epoch timestamps."
 
 HOMEPAGE="http://github.com/metagriffin/epoch"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

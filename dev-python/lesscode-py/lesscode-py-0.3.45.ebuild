@@ -15,7 +15,7 @@ DESCRIPTION="lesscode-python 是基于tornado的web开发脚手架项目，该�
 
 HOMEPAGE="https://gitee.com/yongchao9/lesscode-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

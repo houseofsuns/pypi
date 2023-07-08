@@ -15,7 +15,7 @@ DESCRIPTION="pi3d OpenGLES2 3D graphics library"
 
 HOMEPAGE="http://pi3d.github.com/html/index.html"
 LICENSE="MIT generally but see docstrings in specific files"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

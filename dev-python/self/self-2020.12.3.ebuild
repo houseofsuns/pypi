@@ -15,7 +15,7 @@ DESCRIPTION="@self decorator makes method return self (jQuery-like chaining)"
 
 HOMEPAGE="https://github.com/andrewp-as-is/self.py"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

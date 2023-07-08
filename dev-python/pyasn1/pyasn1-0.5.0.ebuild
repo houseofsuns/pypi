@@ -15,7 +15,7 @@ DESCRIPTION="Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X
 
 HOMEPAGE="https://github.com/pyasn1/pyasn1"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

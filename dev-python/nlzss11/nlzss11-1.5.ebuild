@@ -15,7 +15,7 @@ DESCRIPTION="Library for data (de)compression using Nintendo's lzss11 algorithm"
 
 HOMEPAGE="https://github.com/lepelog/nlzss11"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

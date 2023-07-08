@@ -15,7 +15,7 @@ DESCRIPTION="A really useful Robot Framework library for working with Excel 2010
 
 HOMEPAGE="https://github.com/bartkl/robotframework-excellentlibrary"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

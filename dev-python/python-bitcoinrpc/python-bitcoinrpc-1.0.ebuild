@@ -15,7 +15,7 @@ DESCRIPTION="Enhanced version of python-jsonrpc for use with Bitcoin"
 
 HOMEPAGE="http://www.github.com/jgarzik/python-bitcoinrpc"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

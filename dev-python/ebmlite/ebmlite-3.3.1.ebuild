@@ -15,7 +15,7 @@ DESCRIPTION="A lightweight, \"pure Python\" library for parsing EBML (Extensible
 
 HOMEPAGE="https://github.com/MideTechnology/ebmlite/tree/master"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

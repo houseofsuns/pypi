@@ -15,7 +15,7 @@ DESCRIPTION="A fast AEDAT4 decoder with an underlying Rust implementation"
 
 HOMEPAGE="https://github.com/neuromorphicsystems/aedat/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

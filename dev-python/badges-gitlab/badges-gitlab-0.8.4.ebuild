@@ -15,7 +15,7 @@ DESCRIPTION="Generate badges for Gitlab Projects in Public and Private Repositor
 
 HOMEPAGE="https://gitlab.com/felipe_public/badges-gitlab"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

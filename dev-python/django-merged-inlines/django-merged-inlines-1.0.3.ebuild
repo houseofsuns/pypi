@@ -15,7 +15,7 @@ DESCRIPTION="A Django Admin extension that allows you to mix and reorder multipl
 
 HOMEPAGE="https://github.com/MattBroach/Django-Merged-Inlines"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

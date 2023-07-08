@@ -15,7 +15,7 @@ DESCRIPTION="RWTH Aachen Computer Science i5/dbis assets for Lecture Datenbanken
 
 HOMEPAGE="https://git.rwth-aachen.de/i5/teaching/dbis/dbis-er-diagram"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

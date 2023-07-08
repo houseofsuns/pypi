@@ -15,7 +15,7 @@ DESCRIPTION="Plugin for pytest to simplify calling ansible modules from tests or
 
 HOMEPAGE="https://github.com/ansible-community/pytest-ansible"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

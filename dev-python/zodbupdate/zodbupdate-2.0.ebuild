@@ -15,7 +15,7 @@ DESCRIPTION="Update ZODB class references for moved or renamed classes."
 
 HOMEPAGE="https://github.com/zopefoundation/zodbupdate/"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

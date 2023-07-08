@@ -15,7 +15,7 @@ DESCRIPTION="Robot Framework test suite for Python unittest framework"
 
 HOMEPAGE="https://github.com/collective/robotsuite/"
 LICENSE="GPL version 2"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A little I18N framework for libraries and applications"
 
 HOMEPAGE="https://github.com/oblalex/verboselib/tree/v1.1.0"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

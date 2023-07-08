@@ -15,7 +15,7 @@ DESCRIPTION="MQTT version 5.0/3.1.1 client class"
 
 HOMEPAGE="http://eclipse.org/paho"
 LICENSE="Eclipse Public License v2.0 / Eclipse Distribution License v1.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Search a Git repository's full revision history (commit messages an
 
 HOMEPAGE="https://github.com/emanuelfeld/poirot"
 LICENSE="https://raw.githubusercontent.com/emanuelfeld/poirot/master/LICENSE.md"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

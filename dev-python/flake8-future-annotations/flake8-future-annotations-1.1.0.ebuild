@@ -15,7 +15,7 @@ DESCRIPTION="Verifies python 3.7+ files use from __future__ import annotations"
 
 HOMEPAGE="https://github.com/tyleryep/flake8-future-annotations"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

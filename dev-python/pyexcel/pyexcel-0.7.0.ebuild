@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper library that provides one API to read, manipulate and wri
 
 HOMEPAGE="https://github.com/pyexcel/pyexcel"
 LICENSE="New BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

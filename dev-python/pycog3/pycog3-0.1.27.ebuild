@@ -15,7 +15,7 @@ DESCRIPTION="Command library for the Cog ChatOps platform for Python3"
 
 HOMEPAGE="https://github.com/cog-bundles/pycog3"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

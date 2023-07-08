@@ -15,7 +15,7 @@ DESCRIPTION="Automatically install chromedriver that supports the currently inst
 
 HOMEPAGE="https://github.com/yeongbin-jo/python-chromedriver-autoinstaller"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

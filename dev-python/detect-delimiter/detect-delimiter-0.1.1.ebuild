@@ -15,7 +15,7 @@ DESCRIPTION="Detects the delimiter used in CSV, TSV and other ad hoc file format
 
 HOMEPAGE="https://git.nzoss.org.nz/tim-mcnamara/detect-delimiter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

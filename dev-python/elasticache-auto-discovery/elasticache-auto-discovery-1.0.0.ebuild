@@ -15,7 +15,7 @@ DESCRIPTION="AWS ElastiCache Auto Discovery Client for Python"
 
 HOMEPAGE="https://github.com/studio-ousia/elasticache-auto-discovery"
 LICENSE="Copyright 2013 Studio Ousia"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

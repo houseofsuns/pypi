@@ -15,7 +15,7 @@ DESCRIPTION="FunASR: A Fundamental End-to-End Speech Recognition Toolkit"
 
 HOMEPAGE="https://github.com/alibaba-damo-academy/FunASR.git"
 LICENSE="The MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

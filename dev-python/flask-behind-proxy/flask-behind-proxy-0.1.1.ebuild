@@ -15,7 +15,7 @@ DESCRIPTION="Flask middleware to fix HTTPS redirection behind reverse proxy."
 
 HOMEPAGE="https://bitbucket.org/hongquan/flask-behind-proxy/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

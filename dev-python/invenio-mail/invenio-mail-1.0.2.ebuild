@@ -15,7 +15,7 @@ DESCRIPTION="Invenio-Mail is an integration layer between Invenio and Flask-Mail
 
 HOMEPAGE="https://github.com/inveniosoftware/invenio-mail"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

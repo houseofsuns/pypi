@@ -15,7 +15,7 @@ DESCRIPTION="The package \`mmisdk\` has been renamed \`metamask-institutional.sd
 
 HOMEPAGE="https://pypi.org/project/metamask-institutional.sdk/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

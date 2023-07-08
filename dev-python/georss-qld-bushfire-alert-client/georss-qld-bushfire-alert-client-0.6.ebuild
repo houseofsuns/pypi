@@ -15,7 +15,7 @@ DESCRIPTION="A GeoRSS client library for the Queensland Bushfire Alert feed."
 
 HOMEPAGE="https://github.com/exxamalte/python-georss-qld-bushfire-alert-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

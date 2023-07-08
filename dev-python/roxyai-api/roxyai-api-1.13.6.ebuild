@@ -15,7 +15,7 @@ DESCRIPTION="Roxy AI inspect-server python API package"
 
 HOMEPAGE="https://gitlab.com/roxy-ai/roxy-ai-dev/-/tree/master/python/roxyai-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

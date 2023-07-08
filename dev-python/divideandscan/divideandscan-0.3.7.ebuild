@@ -15,7 +15,7 @@ DESCRIPTION="Divide full port scan results and use it for targeted Nmap runs"
 
 HOMEPAGE="https://github.com/snovvcrash/DivideAndScan"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

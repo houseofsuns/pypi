@@ -15,7 +15,7 @@ DESCRIPTION="一个轻量级、低耦合的基于 mirai-api-http 的 Python SDK�
 
 HOMEPAGE="https://yiri-mirai.vercel.app"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

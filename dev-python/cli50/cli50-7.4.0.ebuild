@@ -15,7 +15,7 @@ DESCRIPTION="This is CS50 CLI, with which you can mount a directory inside of an
 
 HOMEPAGE="https://github.com/cs50/cli50"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python lib for interacting with an instance of the Tapis API Framew
 
 HOMEPAGE="https://github.com/tapis-project/tapipy-tapisservice"
 LICENSE="BSD-4"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

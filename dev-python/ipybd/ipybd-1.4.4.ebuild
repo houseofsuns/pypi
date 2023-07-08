@@ -15,7 +15,7 @@ DESCRIPTION="Powerful data cleaner for biodiversity"
 
 HOMEPAGE="https://github.com/leisux/ipybd"
 LICENSE="GPL-3.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

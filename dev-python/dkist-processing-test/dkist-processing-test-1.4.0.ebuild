@@ -15,7 +15,7 @@ DESCRIPTION="Example Instrument code that is used by the DKIST Science Data Proc
 
 HOMEPAGE="https://bitbucket.org/dkistdc/dkist-processing-test/src/main/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python interface to the Open Babel chemistry library"
 
 HOMEPAGE="http://openbabel.org/"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A module to create middleware with direct access to \`request\` and
 
 HOMEPAGE="https://github.com/Danangjoyoo/flask-http-middleware"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

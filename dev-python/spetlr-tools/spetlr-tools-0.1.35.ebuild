@@ -15,7 +15,7 @@ DESCRIPTION="Supplements to the python SPark ETL libRary (SPETLR) for Databricks
 
 HOMEPAGE="https://github.com/spetlr-org/spetlr-tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

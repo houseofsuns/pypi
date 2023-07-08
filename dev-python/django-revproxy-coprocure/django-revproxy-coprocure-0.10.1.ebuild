@@ -15,7 +15,7 @@ DESCRIPTION="Fork of jazzband/django-revproxy for specialized use."
 
 HOMEPAGE="https://github.com/CoProcure/django-revproxy"
 LICENSE="MPL v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

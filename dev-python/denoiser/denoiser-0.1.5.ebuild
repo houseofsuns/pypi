@@ -15,7 +15,7 @@ DESCRIPTION="Speech enhancement in the waveform domain. Supports offline and str
 
 HOMEPAGE="https://github.com/facebookresearch/denoiser"
 LICENSE="Creative Commons Attribution-NonCommercial 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

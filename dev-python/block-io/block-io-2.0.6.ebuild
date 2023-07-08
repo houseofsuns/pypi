@@ -15,7 +15,7 @@ DESCRIPTION="The easiest way to integrate Bitcoin, Dogecoin and Litecoin in your
 
 HOMEPAGE="https://github.com/BlockIo/block_io-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

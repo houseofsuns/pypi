@@ -15,7 +15,7 @@ DESCRIPTION="一个提供操作Python底层对象工具的模块。A tool of ope
 
 HOMEPAGE="https://github.com/qfcy/Python/tree/main/pyobject"
 LICENSE="qfcy"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}_.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}_.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}_.tar.gz"
 RESTRICT="test"
 

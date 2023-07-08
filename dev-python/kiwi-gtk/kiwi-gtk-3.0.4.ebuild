@@ -15,7 +15,7 @@ DESCRIPTION="A framework and a set of enhanced widgets based on PyGTK"
 
 HOMEPAGE="https://github.com/stoq/kiwi"
 LICENSE="GNU LGPL 2.1 see COPYING"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

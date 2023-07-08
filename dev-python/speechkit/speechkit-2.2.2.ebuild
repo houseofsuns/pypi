@@ -15,7 +15,7 @@ DESCRIPTION="Python SDK for Yandex Speechkit API."
 
 HOMEPAGE="https://github.com/TikhonP/yandex-speechkit-lib-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

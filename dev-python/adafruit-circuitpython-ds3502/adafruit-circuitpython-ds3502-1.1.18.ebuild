@@ -15,7 +15,7 @@ DESCRIPTION="CircuitPython library for the Maxim DS3502 I2C Potentionmeter"
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_DS3502"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

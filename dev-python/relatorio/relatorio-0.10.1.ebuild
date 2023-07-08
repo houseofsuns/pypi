@@ -15,7 +15,7 @@ DESCRIPTION="A templating library able to output odt and pdf files"
 
 HOMEPAGE="https://pypi.python.org/pypi/relatorio"
 LICENSE="GPL License"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

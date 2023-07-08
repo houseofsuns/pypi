@@ -15,7 +15,7 @@ DESCRIPTION="Cron Schedule Triggers ~ A library for determining Quartz Cron sche
 
 HOMEPAGE="https://gitlab.com/dameon.andersen/cstriggers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

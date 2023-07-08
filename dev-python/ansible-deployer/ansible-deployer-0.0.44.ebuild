@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper around ansible-playbook allowing configurable tasks and per
 
 HOMEPAGE="https://github.com/cinek810/ansible-deployer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

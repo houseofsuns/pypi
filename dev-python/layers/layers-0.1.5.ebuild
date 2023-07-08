@@ -15,7 +15,7 @@ DESCRIPTION="Layered source layouts for software development projects"
 
 HOMEPAGE="https://github.com/ribozz/layers"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

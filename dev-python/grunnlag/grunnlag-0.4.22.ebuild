@@ -15,7 +15,7 @@ DESCRIPTION="Basic Schema for interacting with Arnheim through Bergen"
 
 HOMEPAGE="https://github.com/jhnnsrs/grunnlag"
 LICENSE="CC BY-NC 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

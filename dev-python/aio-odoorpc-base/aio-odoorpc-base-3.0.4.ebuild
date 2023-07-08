@@ -15,7 +15,7 @@ DESCRIPTION="Fast, simple Odoo RPC package with sync and async functions to pilo
 
 HOMEPAGE="https://github.com/mbello/aio-odoorpc-base"
 LICENSE="CC0-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Dask-based reader for CASA data"
 
 HOMEPAGE="http://casa-formats-io.readthedocs.org"
 LICENSE="LGPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

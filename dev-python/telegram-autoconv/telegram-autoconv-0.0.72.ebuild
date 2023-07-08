@@ -15,7 +15,7 @@ DESCRIPTION="A python module to auto build conversation for a Telegram bot"
 
 HOMEPAGE="https://github.com/mortafix/AutoConv-Telegram-Python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

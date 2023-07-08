@@ -15,7 +15,7 @@ DESCRIPTION="Combine tabular data with text and images using Wide and Deep model
 
 HOMEPAGE="https://github.com/jrzaurin/pytorch-widedeep"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="LIGO/Virgo/KAGRA Follow-up Advocate Tools"
 
 HOMEPAGE="https://git.ligo.org/emfollow/ligo-followup-advocate"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

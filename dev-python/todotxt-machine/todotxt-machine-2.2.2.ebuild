@@ -15,7 +15,7 @@ DESCRIPTION="An interactive terminal based todo.txt file editor with an interfac
 
 HOMEPAGE="https://github.com/AnthonyDiGirolamo/todotxt-machine"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

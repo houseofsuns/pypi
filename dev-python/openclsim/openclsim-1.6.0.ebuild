@@ -15,7 +15,7 @@ DESCRIPTION="The OpenCLSim package aims to facilitate rule based planning of cyc
 
 HOMEPAGE="https://github.com/TUDelft-CITG/openclsim"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

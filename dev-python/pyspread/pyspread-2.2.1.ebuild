@@ -15,7 +15,7 @@ DESCRIPTION="Pyspread is a non-traditional spreadsheet application that is based
 
 HOMEPAGE="https://pyspread.gitlab.io"
 LICENSE="GPL v3 :: GNU General Public License"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

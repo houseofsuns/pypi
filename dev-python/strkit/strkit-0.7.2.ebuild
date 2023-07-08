@@ -15,7 +15,7 @@ DESCRIPTION="A toolkit for analyzing variation in short(ish) tandem repeats."
 
 HOMEPAGE="https://github.com/davidlougheed/strkit"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

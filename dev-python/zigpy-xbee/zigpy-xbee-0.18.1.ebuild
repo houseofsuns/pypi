@@ -15,7 +15,7 @@ DESCRIPTION="A library which communicates with XBee radios for zigpy"
 
 HOMEPAGE="http://github.com/zigpy/zigpy-xbee"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python API SDK for SolidGate payment gateway"
 
 HOMEPAGE="https://solidgate.atlassian.net/wiki/spaces/API/overview"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="AlekSIS (School Information System) — App كتاب السجل
 
 HOMEPAGE="https://aleksis.org/"
 LICENSE="EUPL-1.2"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

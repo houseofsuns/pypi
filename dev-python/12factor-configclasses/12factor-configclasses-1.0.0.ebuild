@@ -15,7 +15,7 @@ DESCRIPTION="Like dataclasses but for config."
 
 HOMEPAGE="https://github.com/kingoodie/configclasses"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/1/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

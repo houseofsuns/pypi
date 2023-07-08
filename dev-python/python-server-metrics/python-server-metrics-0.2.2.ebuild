@@ -15,7 +15,7 @@ DESCRIPTION="A very simple set of methods to collect metrics about your servers"
 
 HOMEPAGE="https://github.com/bitmazk/python-server-metrics"
 LICENSE="The MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

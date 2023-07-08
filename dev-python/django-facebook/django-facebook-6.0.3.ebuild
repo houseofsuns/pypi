@@ -15,7 +15,7 @@ DESCRIPTION="Facebook open graph API client in python. Enables django applicatio
 
 HOMEPAGE="http://github.com/tschellenbach/Django-facebook"
 LICENSE="Copyright c Thierry Schellenbach"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

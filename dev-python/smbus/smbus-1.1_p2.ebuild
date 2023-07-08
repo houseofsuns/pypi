@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for Linux SMBus access through i2c-dev"
 
 HOMEPAGE="https://i2c.wiki.kernel.org/index.php/I2C_Tools"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

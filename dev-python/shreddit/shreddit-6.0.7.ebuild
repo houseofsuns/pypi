@@ -15,7 +15,7 @@ DESCRIPTION="Remove your comment history on Reddit as deleting an account does n
 
 HOMEPAGE="https://github.com/x89/Shreddit"
 LICENSE="FreeBSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

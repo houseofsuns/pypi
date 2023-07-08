@@ -15,7 +15,7 @@ DESCRIPTION="Query String Parsing The Way It Should Be"
 
 HOMEPAGE="http://github.com/aventurella/pyquerystring"
 LICENSE="Fancy query string parsing & application/x-www-form-urlencoded parsing"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

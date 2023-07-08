@@ -15,7 +15,7 @@ DESCRIPTION="Cleanup tool for AWS AMIs and snapshots"
 
 HOMEPAGE="https://github.com/bonclay7/aws-amicleaner/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

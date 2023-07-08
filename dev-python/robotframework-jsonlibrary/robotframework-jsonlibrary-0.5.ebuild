@@ -15,7 +15,7 @@ DESCRIPTION="robotframework-jsonlibrary is a Robot Framework test library for ma
 
 HOMEPAGE="https://github.com/nottyo/robotframework-jsonlibrary.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

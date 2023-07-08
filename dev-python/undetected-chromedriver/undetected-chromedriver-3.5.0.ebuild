@@ -15,7 +15,7 @@ DESCRIPTION="('Selenium.webdriver.Chrome replacement with compatiblity for Brave
 
 HOMEPAGE="https://github.com/ultrafunkamsterdam/undetected-chromedriver"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

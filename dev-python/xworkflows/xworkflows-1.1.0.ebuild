@@ -15,7 +15,7 @@ DESCRIPTION="A library implementing workflows (or state machines) for Python pro
 
 HOMEPAGE="https://github.com/rbarrois/xworkflows"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

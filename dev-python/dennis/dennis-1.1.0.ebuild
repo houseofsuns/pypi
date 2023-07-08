@@ -15,7 +15,7 @@ DESCRIPTION="Utilities for working with gettext PO and POT files to ease develop
 
 HOMEPAGE="https://github.com/mozilla/dennis"
 LICENSE="Simplified BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

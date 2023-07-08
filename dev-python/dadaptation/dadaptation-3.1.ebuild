@@ -15,7 +15,7 @@ DESCRIPTION="Learning Rate Free Learning for Adam, SGD and AdaGrad"
 
 HOMEPAGE="https://github.com/facebookresearch/dadaptation"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="App Django para Automatizar Integração com Gateway de Pagamento P
 
 HOMEPAGE="https://github.com/renzon/django_pagarme"
 LICENSE="GNU Affero General Public License v3 or later AGPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

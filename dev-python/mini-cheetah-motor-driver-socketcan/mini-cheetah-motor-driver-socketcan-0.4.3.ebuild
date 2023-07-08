@@ -15,7 +15,7 @@ DESCRIPTION="A Python Driver for MIT Mini-Cheetah Actuator which uses SocketCAN 
 
 HOMEPAGE="https://github.com/dfki-ric-underactuated-lab/mini-cheetah-tmotor-python-can"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Fast scalable distributed SCM (revision control, version control) s
 
 HOMEPAGE="https://mercurial-scm.org/"
 LICENSE="GNU GPLv2 or any later version"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

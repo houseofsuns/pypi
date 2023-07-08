@@ -15,7 +15,7 @@ DESCRIPTION="XXTEA is a fast and secure encryption algorithm. This is a XXTEA li
 
 HOMEPAGE="https://github.com/xxtea/xxtea-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

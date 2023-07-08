@@ -15,7 +15,7 @@ DESCRIPTION="A high-level Web Crawling and Web Scraping framework based on Async
 
 HOMEPAGE="https://github.com/conlin-huang/aio-scrapy.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

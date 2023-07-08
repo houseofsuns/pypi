@@ -15,7 +15,7 @@ DESCRIPTION="Replace real objects with fakes (mocks, stubs, etc) while testing."
 
 HOMEPAGE="https://github.com/fudge-py/fudge"
 LICENSE="The MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

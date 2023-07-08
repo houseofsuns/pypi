@@ -15,7 +15,7 @@ DESCRIPTION="Python 3 Anti-Captcha service library with AIO module."
 
 HOMEPAGE="https://github.com/AndreiDrang/python3-anticaptcha"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python utilities for IBM Watson Pipelines"
 
 HOMEPAGE="https://www.ibm.com/docs/en/cloud-paks/cp-data/4.6.x?topic=functions-watson-pipelines"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

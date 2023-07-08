@@ -15,7 +15,7 @@ DESCRIPTION="Microsoft Azure Legacy Service Management Client Library for Python
 
 HOMEPAGE="https://github.com/Azure/azure-sdk-for-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

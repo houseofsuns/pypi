@@ -15,7 +15,7 @@ DESCRIPTION="Pure Python, OS-agnostic Binary Alignment Map (BAM) random access a
 
 HOMEPAGE="https://github.com/betteridiot/bamnostic/"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

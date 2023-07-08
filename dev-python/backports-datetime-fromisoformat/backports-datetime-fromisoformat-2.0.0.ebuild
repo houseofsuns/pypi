@@ -15,7 +15,7 @@ DESCRIPTION="Backport of Python 3.11's datetime.fromisoformat"
 
 HOMEPAGE="https://github.com/movermeyer/backports.datetime_fromisoformat"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

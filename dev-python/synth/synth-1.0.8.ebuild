@@ -15,7 +15,7 @@ DESCRIPTION="A Python binding to the Synth C++ Template Framework"
 
 HOMEPAGE="https://github.com/ajg/synth"
 LICENSE="Boost Software License V1"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

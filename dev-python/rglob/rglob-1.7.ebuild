@@ -15,7 +15,7 @@ DESCRIPTION="Python Recursive Glob"
 
 HOMEPAGE="http://cpiekarski.com/2011/09/23/python-recursive-glob/"
 LICENSE="OSI Approved Apache Software License"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

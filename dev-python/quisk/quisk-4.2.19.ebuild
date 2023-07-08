@@ -15,7 +15,7 @@ DESCRIPTION="QUISK is a Software Defined Radio (SDR) transceiver that can contro
 
 HOMEPAGE="http://james.ahlstrom.name/quisk/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

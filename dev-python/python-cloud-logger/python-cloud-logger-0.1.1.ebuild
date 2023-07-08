@@ -15,7 +15,7 @@ DESCRIPTION="A logger with thread local storage for logging context in all logs 
 
 HOMEPAGE="https://github.com/vasudevan-palani/python-cloud-logger"
 LICENSE="TBD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

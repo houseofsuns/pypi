@@ -15,7 +15,7 @@ DESCRIPTION="A python client for the memri Pod, and tools to create Plugins"
 
 HOMEPAGE="https://gitlab.memri.io/memri/pymemri"
 LICENSE="MPPL License"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

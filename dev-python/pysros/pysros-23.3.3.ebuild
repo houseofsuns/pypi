@@ -15,7 +15,7 @@ DESCRIPTION="Python for the Nokia Service Router Operating Systems (pySROS)"
 
 HOMEPAGE="https://www.nokia.com"
 LICENSE="Copyright 2021-2023 Nokia.  License available in the LICENSE.md file."
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

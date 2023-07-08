@@ -15,7 +15,7 @@ DESCRIPTION="A simulation framework to develop, visualize and test new track seg
 
 HOMEPAGE="https://gitlab.itiv.kit.edu/urobx/belle2-tsf-simulation"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

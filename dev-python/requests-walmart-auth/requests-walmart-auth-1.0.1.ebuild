@@ -15,7 +15,7 @@ DESCRIPTION="python requests support for the Walmart Affiliate Marketplace (REST
 
 HOMEPAGE="https://github.com/Terrabits/requests-walmart-auth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

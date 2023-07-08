@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight XLSX writer with emphasis on minimizing memory usage."
 
 HOMEPAGE="http://github.com/nyaruka/xlxslite"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

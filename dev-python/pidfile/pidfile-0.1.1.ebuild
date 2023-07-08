@@ -15,7 +15,7 @@ DESCRIPTION="A Pidfile Context Manager compatible with python-daemon's DaemonCon
 
 HOMEPAGE="https://github.com/bmhatfield/python-pidfile.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

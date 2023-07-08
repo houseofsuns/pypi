@@ -15,7 +15,7 @@ DESCRIPTION="US state meta information and other fun stuff"
 
 HOMEPAGE="https://github.com/unitedstates/python-us"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="SHADOW is an open source ray tracing code for modeling optical syst
 
 HOMEPAGE="http://github.com/oasys-kit/shadow3"
 LICENSE="http://www.gnu.org/licenses/gpl-3.0.html"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

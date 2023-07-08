@@ -15,7 +15,7 @@ DESCRIPTION="A standardized configuration object for reference genome assemblies
 
 HOMEPAGE="https://refgenie.databio.org"
 LICENSE="BSD2"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

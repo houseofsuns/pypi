@@ -15,7 +15,7 @@ DESCRIPTION="A plugin for flake8 which enforces importing \`datetime as dt\` and
 
 HOMEPAGE="https://github.com/marcgibbons/flake8-datetime-import"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

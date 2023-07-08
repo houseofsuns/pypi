@@ -15,7 +15,7 @@ DESCRIPTION="FrisbyJS-inspired REST API testing helpers and steps for 'behave' b
 
 HOMEPAGE="http://github.com/actionless/wooper"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

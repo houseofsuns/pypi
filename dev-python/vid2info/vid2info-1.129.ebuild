@@ -15,7 +15,7 @@ DESCRIPTION="Vid2Info is an easy-to-use Computer Vision pipeline that implements
 
 HOMEPAGE="https://github.com/Eric-Canas/vid2info"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Signatures for entire Python programs. Extract the structure, the f
 
 HOMEPAGE="https://mkdocstrings.github.io/griffe"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

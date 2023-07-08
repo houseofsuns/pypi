@@ -15,7 +15,7 @@ DESCRIPTION="ML-Cli run in an azureML Pipeline"
 
 HOMEPAGE="https://github.com/AxaGuilDEv/ml-cli-azureml-pipeline"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

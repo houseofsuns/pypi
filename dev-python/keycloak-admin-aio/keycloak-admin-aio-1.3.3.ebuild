@@ -15,7 +15,7 @@ DESCRIPTION="async keycloak admin api wrapper"
 
 HOMEPAGE="https://github.com/V-Mann-Nick/keycloak-admin-aio"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

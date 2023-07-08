@@ -15,7 +15,7 @@ DESCRIPTION="library with cross-python path, ini-parsing, io, code, log faciliti
 
 HOMEPAGE="https://py.readthedocs.io/"
 LICENSE="MIT"
-SRC_URI="https://files.${REALNAME}thonhosted.org/packages/98/ff/fec109ceb715d2a6b4c4a85a61af3b40c723a961e8828319fbcb15b868dc/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Development library for quickly writing configurable applications a
 
 HOMEPAGE="https://helper.readthedocs.io"
 LICENSE="Copyright c 2012-2013, Gavin M. Roy"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

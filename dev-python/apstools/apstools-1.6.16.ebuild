@@ -15,7 +15,7 @@ DESCRIPTION="Various Python tools for use with the Bluesky Framework at the APS.
 
 HOMEPAGE="https://bcda-aps.github.io/apstools/latest/"
 LICENSE="Free To Use But Restricted see LICENSE.txt file"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python Library for Birdbrain Technologies Hummingbird Bit and Finch
 
 HOMEPAGE="https://github.com/fmorton/BirdBrain-Python-Library"
 LICENSE="LGPL-3.0-only"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

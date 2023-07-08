@@ -15,7 +15,7 @@ DESCRIPTION="A framework to work with lottie files and telegram animated sticker
 
 HOMEPAGE="https://gitlab.com/mattbas/python-lottie/"
 LICENSE="GNU Affero General Public License v3 or later AGPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

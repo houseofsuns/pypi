@@ -15,7 +15,7 @@ DESCRIPTION="Python 3 port of django-livesettings"
 
 HOMEPAGE="https://github.com/kunaldeo/django-livesettings3/"
 LICENSE="New BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

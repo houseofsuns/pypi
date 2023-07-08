@@ -15,7 +15,7 @@ DESCRIPTION="A REST Web API for Mezzanine CMS with the Cartridge e-commerce exte
 
 HOMEPAGE="https://github.com/jackvz/mezzanine-cartridge-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

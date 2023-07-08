@@ -15,7 +15,7 @@ DESCRIPTION="goodcrap creates tables, databases and csv files and fill them with
 
 HOMEPAGE="https://github.com/goodcrap/goodcrap"
 LICENSE="gpl-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

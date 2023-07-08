@@ -15,7 +15,7 @@ DESCRIPTION="A Python library for managing fixed-size 2D spaces"
 
 HOMEPAGE="https://github.com/Lucretiel/gridly"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

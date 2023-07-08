@@ -15,7 +15,7 @@ DESCRIPTION="推送Sentry报错信息到钉钉群，并且@具体的人员"
 
 HOMEPAGE="https://github.com/M-Davinci/dt_notify_to_people"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

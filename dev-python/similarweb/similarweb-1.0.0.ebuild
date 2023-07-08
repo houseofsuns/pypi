@@ -15,7 +15,7 @@ DESCRIPTION="Python client for the SimilarWeb API"
 
 HOMEPAGE="https://github.com/danwagnerco/similarweb"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

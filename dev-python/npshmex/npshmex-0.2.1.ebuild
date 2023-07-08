@@ -15,7 +15,7 @@ DESCRIPTION="ProcessPoolExecutor that passes numpyarrays through shared memory"
 
 HOMEPAGE="https://github.com/JelleAalbers/npshmex"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A simple async python API to access wica-http SSE."
 
 HOMEPAGE="https://git.psi.ch/proscan_data/py-wica/-/tree/async"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

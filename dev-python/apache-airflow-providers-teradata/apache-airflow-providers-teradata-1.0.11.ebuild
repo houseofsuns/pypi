@@ -15,7 +15,7 @@ DESCRIPTION="Teradata Tools and Utils wrapper for Apache Airflow 2.0/1.1x."
 
 HOMEPAGE="https://github.com/flolas/apache_airflow_providers_teradata"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Base3"
 
 HOMEPAGE="https://base3.dev"
 LICENSE="https://www.gnu.org/licenses/gpl-3.0.en.html"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

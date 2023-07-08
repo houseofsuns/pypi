@@ -15,7 +15,7 @@ DESCRIPTION="Python utilites for working with sound signals"
 
 HOMEPAGE="http://work.thaslwanter.at/sksound/html"
 LICENSE="http://opensource.org/licenses/BSD-2-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

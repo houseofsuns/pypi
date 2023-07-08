@@ -15,7 +15,7 @@ DESCRIPTION="A Python package to build, manipulate and analyze polygonal meshes.
 
 HOMEPAGE="https://github.com/dewloosh/PolyMesh"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="6502 microprocessor simulation package"
 
 HOMEPAGE="https://github.com/mnaberez/py65"
 LICENSE="License :: OSI Approved :: BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

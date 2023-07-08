@@ -15,7 +15,7 @@ DESCRIPTION="AutoPWN Suite is a project for scanning vulnerabilities and exploit
 
 HOMEPAGE="https://auto.pwnspot.com"
 LICENSE="EULA"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

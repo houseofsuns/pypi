@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for Network Security Services (NSS) and Netscape Po
 
 HOMEPAGE="http://www.mozilla.org/projects/security/pki/python-nss"
 LICENSE="MPLv2.0 or GPLv2+ or LGPLv2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 

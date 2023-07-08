@@ -15,7 +15,7 @@ DESCRIPTION="A Django app that allows the easy addition of Stack Overflow's 'Pag
 
 HOMEPAGE="https://github.com/timmyomahony/django-pagedown"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

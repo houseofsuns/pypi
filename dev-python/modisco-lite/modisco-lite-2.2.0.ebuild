@@ -15,7 +15,7 @@ DESCRIPTION="Transcription Factor MOtif Discovery from Importance SCOres - lite"
 
 HOMEPAGE="https://github.com/jmschrei/tfmodisco-lite"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

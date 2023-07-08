@@ -15,7 +15,7 @@ DESCRIPTION="Registration of 3D multiplex images with one common chanel"
 
 HOMEPAGE="https://gitlab.pasteur.fr/gletort/multireg"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

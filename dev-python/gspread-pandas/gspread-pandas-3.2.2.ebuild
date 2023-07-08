@@ -15,7 +15,7 @@ DESCRIPTION="A package to easily open an instance of a Google spreadsheet and in
 
 HOMEPAGE="https://github.com/aiguofer/gspread-pandas"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

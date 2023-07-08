@@ -15,7 +15,7 @@ DESCRIPTION="A systematic approach to logging, profiling, and statisticscollecti
 
 HOMEPAGE="https://github.com/mahmoud/lithoxyl"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

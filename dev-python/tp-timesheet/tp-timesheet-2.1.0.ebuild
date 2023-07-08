@@ -15,7 +15,7 @@ DESCRIPTION="CLI tool to automate the submisison of tp timesheets"
 
 HOMEPAGE="https://github.com/ThorpeJosh/tp-timesheet"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

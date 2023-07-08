@@ -15,7 +15,7 @@ DESCRIPTION="Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Ato
 
 HOMEPAGE="https://github.com/kurtmckee/feedparser"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="View a list of dictionaries or a 2-D array, in HandsOnTable, in Jup
 
 HOMEPAGE="https://github.com/patarapolw/pyhandsontable"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

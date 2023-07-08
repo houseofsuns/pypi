@@ -15,7 +15,7 @@ DESCRIPTION="A repository of genomic workflows developed by the UCSC Computation
 
 HOMEPAGE="https://github.com/BD2KGenomics/toil-scripts"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

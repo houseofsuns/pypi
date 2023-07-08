@@ -15,7 +15,7 @@ DESCRIPTION="Asynchronous I/O implementation of the katcp protocol"
 
 HOMEPAGE="https://github.com/ska-sa/aiokatcp"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

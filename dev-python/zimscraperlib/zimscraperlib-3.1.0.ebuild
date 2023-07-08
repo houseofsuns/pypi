@@ -15,7 +15,7 @@ DESCRIPTION="Collection of python tools to re-use common code across scrapers"
 
 HOMEPAGE="https://github.com/openzim/python_scraperlib"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Utility code for the rest of MoaT"
 
 HOMEPAGE="https://m-o-a-t.org"
 LICENSE="The code in this repository is part of the MoaT project. The licensing information in the moat-main repository at https://github.com/M-o-a-T/moat-main is applicable."
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

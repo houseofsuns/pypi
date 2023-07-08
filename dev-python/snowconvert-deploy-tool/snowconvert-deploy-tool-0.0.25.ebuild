@@ -15,7 +15,7 @@ DESCRIPTION="Mobilize.Net Database Deploy tool for Snowflake"
 
 HOMEPAGE="https://github.com/MobilizeNet/SnowConvert_Support_Library/tree/main/tools/snowconvert-deploy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

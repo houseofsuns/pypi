@@ -15,7 +15,7 @@ DESCRIPTION="Easy and low-cost ECS on EC2 server without a load balancer"
 
 HOMEPAGE="https://github.com/rajyan/low-cost-ecs.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

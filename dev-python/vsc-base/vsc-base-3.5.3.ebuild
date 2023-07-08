@@ -15,7 +15,7 @@ DESCRIPTION="Common tools used within our organization. Originally created by th
 
 HOMEPAGE="https://github.com/hpcugent/vsc-base"
 LICENSE="LGPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

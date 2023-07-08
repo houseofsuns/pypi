@@ -15,7 +15,7 @@ DESCRIPTION="PicImageSearch APIs for Python 3.x 适用于 Python 3 以图搜源�
 
 HOMEPAGE="https://github.com/kitUIN/PicImageSearch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

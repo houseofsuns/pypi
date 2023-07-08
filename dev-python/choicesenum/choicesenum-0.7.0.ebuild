@@ -15,7 +15,7 @@ DESCRIPTION="Python's Enum with extra powers to play nice with labels and choice
 
 HOMEPAGE="https://github.com/loggi/python-choicesenum"
 LICENSE="BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

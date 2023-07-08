@@ -15,7 +15,7 @@ DESCRIPTION="A helper library for mathematical calculations and symbolic mathema
 
 HOMEPAGE="https://github.com/edx/openedx-calc"
 LICENSE="AGPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

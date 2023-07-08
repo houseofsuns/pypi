@@ -15,7 +15,7 @@ DESCRIPTION="Appwrite is an open-source self-hosted backend server that abstract
 
 HOMEPAGE="https://appwrite.io/support"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

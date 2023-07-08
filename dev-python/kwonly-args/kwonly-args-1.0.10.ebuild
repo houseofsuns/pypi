@@ -15,7 +15,7 @@ DESCRIPTION="Python2 keyword-only argument emulation as a decorator. Python 3 co
 
 HOMEPAGE="https://github.com/pasztorpisti/kwonly-args"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

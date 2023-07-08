@@ -15,7 +15,7 @@ DESCRIPTION="A library for parsing customizable WordPress-style shortcodes."
 
 HOMEPAGE="https://github.com/dmulholl/shortcodes"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

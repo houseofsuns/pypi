@@ -15,7 +15,7 @@ DESCRIPTION="An unofficial api for Google Play Music."
 
 HOMEPAGE="http://pypi.python.org/pypi/gmusicapi/"
 LICENSE="Copyright c 2018, Simon Weber"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="QIIME 2 plugin for metabolic modeling of microbial communities."
 
 HOMEPAGE="https://github.com/micom-dev/q2-micom"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

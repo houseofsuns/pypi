@@ -15,7 +15,7 @@ DESCRIPTION="Flock object uses fcntl.flock to lock (resp. unlock) file descripto
 
 HOMEPAGE="https://github.com/misli/python-flock"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

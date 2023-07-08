@@ -15,7 +15,7 @@ DESCRIPTION="A command line client for the Global Pathogen Analysis Service"
 
 HOMEPAGE="https://github.com/GlobalPathogenAnalysisService/gpas-cli"
 LICENSE="University of Oxford Academic License"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

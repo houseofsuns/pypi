@@ -15,7 +15,7 @@ DESCRIPTION="Checks if an election feed follows best practices"
 
 HOMEPAGE="https://github.com/google/election_results_xml_validator"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

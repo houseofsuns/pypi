@@ -15,7 +15,7 @@ DESCRIPTION="Web and command line user interface, part of the Brightway2 LCA fra
 
 HOMEPAGE="https://bitbucket.org/cmutel/brightway2-ui"
 LICENSE="Copyright c 2014, Chris Mutel and ETH Zrich"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

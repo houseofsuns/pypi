@@ -15,7 +15,7 @@ DESCRIPTION="Python library for communicating with the Archos Safe-T mini (Trezo
 
 HOMEPAGE="https://github.com/archos-safe-t/python-safet"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

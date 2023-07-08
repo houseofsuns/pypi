@@ -15,7 +15,7 @@ DESCRIPTION="A powerful retail system"
 
 HOMEPAGE="http://www.stoq.com.br"
 LICENSE="GNU GPL 2.0 and GNU LGPL 2.1 see COPYING and COPYING.stoqlib"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

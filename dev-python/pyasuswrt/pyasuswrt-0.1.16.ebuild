@@ -15,7 +15,7 @@ DESCRIPTION="Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/ using protoco
 
 HOMEPAGE="https://github.com/ollo69/pyasuswrt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

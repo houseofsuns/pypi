@@ -15,7 +15,7 @@ DESCRIPTION="PSE Timecard CLI"
 
 HOMEPAGE="https://github.com/giuliocalzolari/salesforce-timecard"
 LICENSE="WTFPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

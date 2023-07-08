@@ -15,7 +15,7 @@ DESCRIPTION="kaen is a friendly open source toolkit to help you train and deploy
 
 HOMEPAGE="https://github.com/CounterFactualAI/kaenai"
 LICENSE="GPL v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

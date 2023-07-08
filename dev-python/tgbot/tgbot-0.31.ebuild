@@ -15,7 +15,7 @@ DESCRIPTION="Framework to build a Telegram Bot based on a UWSGI Server"
 
 HOMEPAGE="https://github.com/T-Eberle/tgbot/"
 LICENSE="The MIT License MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

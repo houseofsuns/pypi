@@ -15,7 +15,7 @@ DESCRIPTION="Simple and SCM-friendly KiCad file parser for KiCad 6.0 and up"
 
 HOMEPAGE="https://github.com/mvnmgrx/kiutils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

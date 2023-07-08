@@ -15,7 +15,7 @@ DESCRIPTION="Community Python client for InfluxDB 3.0 (CLI)"
 
 HOMEPAGE="https://github.com/InfluxCommunity/influxdb-python-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A purely-functional HTML builder for Python. Think JSX rather than 
 
 HOMEPAGE="https://github.com/tvst/htbuilder"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="General purpose Python automatization library with nifty real-time 
 
 HOMEPAGE="http://github.com/tuomas2/automate"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

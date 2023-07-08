@@ -15,7 +15,7 @@ DESCRIPTION="The Style of Markdown with the Power of LaTeX."
 
 HOMEPAGE="https://lukeparser.github.io"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

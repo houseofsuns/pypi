@@ -15,7 +15,7 @@ DESCRIPTION="Equiformer - SE3/E3 Graph Attention Transformer for Molecules and P
 
 HOMEPAGE="https://github.com/lucidrains/equiformer-pytorch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

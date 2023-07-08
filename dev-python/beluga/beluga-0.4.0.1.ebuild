@@ -15,7 +15,7 @@ DESCRIPTION="A general purpose indirect trajectory optimization framework."
 
 HOMEPAGE="https://github.com/Rapid-Design-of-Systems-Laboratory/beluga"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

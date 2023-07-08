@@ -15,7 +15,7 @@ DESCRIPTION="GuessIt - a library for guessing information from video filenames."
 
 HOMEPAGE="https://guessit-io.github.io/guessit"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

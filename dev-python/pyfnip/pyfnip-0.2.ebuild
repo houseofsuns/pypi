@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for FutureNow IP relay/dimmer units"
 
 HOMEPAGE="http://github.com/juhaniemi/pyfnip"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

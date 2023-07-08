@@ -15,7 +15,7 @@ DESCRIPTION="Library for the ST LPS2x family of pressure sensors"
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_LPS2x"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Este es un paquete que permite utilizar cosas comunes a los microse
 
 HOMEPAGE="https://github.com/fernanxd17, https://github.com/PaolaBird"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Python wrapper for the Penn Machine Learning Benchmark data repos
 
 HOMEPAGE="https://github.com/EpistasisLab/penn-ml-benchmarks"
 LICENSE="License :: OSI Approved :: MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

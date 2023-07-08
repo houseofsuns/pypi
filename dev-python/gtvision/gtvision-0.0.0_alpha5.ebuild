@@ -15,7 +15,7 @@ DESCRIPTION="A light library to check if two complex/nested objects are equal or
 
 HOMEPAGE="https://github.com/durandtibo/gravitorch-vision"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

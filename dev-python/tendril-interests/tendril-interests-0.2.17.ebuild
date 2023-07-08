@@ -15,7 +15,7 @@ DESCRIPTION="Core Tendril Infrastructure for User Mapped Entitites"
 
 HOMEPAGE="https://github.com/tendril-framework/tendril-interests"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

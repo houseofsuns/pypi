@@ -15,7 +15,7 @@ DESCRIPTION="BiCoN - a package for network-constrained biclustering of omics dat
 
 HOMEPAGE="https://github.com/biomedbigdata/BiCoN"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

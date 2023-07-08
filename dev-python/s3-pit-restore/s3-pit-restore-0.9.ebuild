@@ -15,7 +15,7 @@ DESCRIPTION="s3-pit-restore, a point in time restore tool for Amazon S3"
 
 HOMEPAGE="https://github.com/madisoft/s3-pit-restore/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

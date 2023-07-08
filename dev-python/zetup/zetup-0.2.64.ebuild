@@ -15,7 +15,7 @@ DESCRIPTION="Zimmermann's Extensible Tools for Unified Project_setups"
 
 HOMEPAGE="https://github.com/zimmermanncode/zetup"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Streamlit component that allows you to show PyVista 3d visualizatio
 
 HOMEPAGE="https://github.com/edsaac/streamlit-PyVista-viewer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

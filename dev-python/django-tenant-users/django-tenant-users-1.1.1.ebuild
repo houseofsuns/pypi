@@ -15,7 +15,7 @@ DESCRIPTION="A Django app to extend django-tenants to incorporate global multi-t
 
 HOMEPAGE="https://www.github.com/Corvia/django-tenant-users"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

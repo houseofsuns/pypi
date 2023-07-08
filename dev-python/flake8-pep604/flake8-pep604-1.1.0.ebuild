@@ -15,7 +15,7 @@ DESCRIPTION="flake8 plugin to enforce use of \`|\` over \`typing.Union\`"
 
 HOMEPAGE="https://gitlab.com/matthewhughes/flake-pep604"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

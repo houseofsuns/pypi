@@ -15,7 +15,7 @@ DESCRIPTION="Runs code in a specified environment in the background and notifies
 
 HOMEPAGE="https://github.com/kavigupta/31"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/3/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

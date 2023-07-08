@@ -15,7 +15,7 @@ DESCRIPTION="Python module that encapsulates wolfSSL's C SSL/TLS library."
 
 HOMEPAGE="https://github.com/wolfssl/wolfssl-py"
 LICENSE="GPLv2 or Commercial License"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

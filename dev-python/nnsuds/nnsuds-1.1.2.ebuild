@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight SOAP client (community fork)"
 
 HOMEPAGE="https://github.com/nonamesec/nnsuds"
 LICENSE="specified using classifiers"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

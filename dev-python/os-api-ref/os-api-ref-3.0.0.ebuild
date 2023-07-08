@@ -15,7 +15,7 @@ DESCRIPTION="Sphinx Extensions to support API reference sites in OpenStack"
 
 HOMEPAGE="https://docs.openstack.org/os-api-ref/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

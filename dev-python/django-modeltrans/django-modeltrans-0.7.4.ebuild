@@ -15,7 +15,7 @@ DESCRIPTION="Model translations in a jsonb field"
 
 HOMEPAGE="https://github.com/zostera/django-modeltrans/"
 LICENSE="Simplified BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

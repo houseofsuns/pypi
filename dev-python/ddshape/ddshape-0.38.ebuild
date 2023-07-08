@@ -15,7 +15,7 @@ DESCRIPTION="this is a package which include some modules that you can use them 
 
 HOMEPAGE="https://github.com/xingtingyang/ddshape"
 LICENSE="BSD style"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

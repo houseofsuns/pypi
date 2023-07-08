@@ -15,7 +15,7 @@ DESCRIPTION="A script for repeatedly polling files on a remote host using SSH an
 
 HOMEPAGE="https://gitlab.com/abraxos/boba"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

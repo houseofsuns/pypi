@@ -15,7 +15,7 @@ DESCRIPTION="Script to rotate backup files on AWS S3 according to a grandfather,
 
 HOMEPAGE="https://github.com/dirkcuys/s3-backup-rotate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

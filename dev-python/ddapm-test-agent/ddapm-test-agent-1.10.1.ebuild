@@ -15,7 +15,7 @@ DESCRIPTION="Test agent for Datadog APM client libraries"
 
 HOMEPAGE="https://github.com/Datadog/dd-apm-test-agent"
 LICENSE="BSD 3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

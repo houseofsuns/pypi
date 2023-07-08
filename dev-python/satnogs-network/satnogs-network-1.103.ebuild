@@ -15,7 +15,7 @@ DESCRIPTION="SatNOGS Network"
 
 HOMEPAGE="https://gitlab.com/librespacefoundation/satnogs/satnogs-network"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

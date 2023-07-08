@@ -15,7 +15,7 @@ DESCRIPTION="mscgen Sphinx extension"
 
 HOMEPAGE="http://packages.python.org/sphinxcontrib-mscgen/"
 LICENSE="BOLA"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

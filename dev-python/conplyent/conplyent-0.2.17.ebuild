@@ -15,7 +15,7 @@ DESCRIPTION="Local and Remote Console executor"
 
 HOMEPAGE="https://github.com/joshijayesh/conplyent/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.win-amd64.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.win-amd64.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.win-amd64.zip"
 RESTRICT="test"
 

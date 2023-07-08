@@ -15,7 +15,7 @@ DESCRIPTION="A common JSON/YAML based format for compact network specification, 
 
 HOMEPAGE="https://github.com/NeuroML/NeuroMLlite"
 LICENSE="LICENSE.lesser"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

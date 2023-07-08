@@ -15,7 +15,7 @@ DESCRIPTION="Cross-platform uptime library"
 
 HOMEPAGE="https://github.com/Cairnarvon/uptime"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

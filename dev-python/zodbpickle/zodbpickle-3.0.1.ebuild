@@ -15,7 +15,7 @@ DESCRIPTION="Fork of Python 3 pickle module."
 
 HOMEPAGE="https://github.com/zopefoundation/zodbpickle"
 LICENSE="PSFL 2 and ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

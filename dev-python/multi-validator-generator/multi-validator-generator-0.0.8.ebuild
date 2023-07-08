@@ -15,7 +15,7 @@ DESCRIPTION="Um pacote para validar diverso tipos de dados e documentos"
 
 HOMEPAGE="https://github.com/JoaoVitorMoreiraPassos/Multi_validator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="CircuitPython library for interfacing with VEML6075 UV sensor"
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_VEML6075"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="tox plugin that makes tox use \`pyenv which\` to find python execut
 
 HOMEPAGE="https://github.com/samstav/tox-pyenv"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

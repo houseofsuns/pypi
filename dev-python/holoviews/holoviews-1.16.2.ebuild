@@ -15,7 +15,7 @@ DESCRIPTION="Stop plotting your data - annotate your data and let it visualize i
 
 HOMEPAGE="https://www.holoviews.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

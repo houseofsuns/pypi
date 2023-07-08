@@ -15,7 +15,7 @@ DESCRIPTION="Configuration for service (OpenAPI 3 or other) consumers"
 
 HOMEPAGE="https://github.com/maykinmedia/zgw-consumers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

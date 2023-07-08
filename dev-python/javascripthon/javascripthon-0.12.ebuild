@@ -15,7 +15,7 @@ DESCRIPTION="Javascript for refined palates: a Python 3 to ES6 Javascript transl
 
 HOMEPAGE="https://github.com/azazel75/metapensiero.pj"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

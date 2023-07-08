@@ -15,7 +15,7 @@ DESCRIPTION="Normalize URLs. Mostly useful for deduplicating HTTP URLs."
 
 HOMEPAGE="https://github.com/alephdata/urlnormalizer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

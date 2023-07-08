@@ -15,7 +15,7 @@ DESCRIPTION="pgqmini is a lightweight, easy-to-use Python library for managing P
 
 HOMEPAGE="http://github.com/over-engineers/pgqmini"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

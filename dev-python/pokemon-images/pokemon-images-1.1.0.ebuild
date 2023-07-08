@@ -15,7 +15,7 @@ DESCRIPTION="Randomly get images of Pokémon from the official Pokémon website"
 
 HOMEPAGE="https://github.com/tomodachi94/pokemon-images.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

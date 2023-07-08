@@ -15,7 +15,7 @@ DESCRIPTION="facebook album plugin for django-cms"
 
 HOMEPAGE="http://github.com/vinitcool76/cmsplugin-fbalbum.git"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

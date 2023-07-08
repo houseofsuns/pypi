@@ -15,7 +15,7 @@ DESCRIPTION="py3d is a 3d computational geometry library that deals with 3d data
 
 HOMEPAGE="https://tumiz.github.io/scenario/"
 LICENSE="GPL-3.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

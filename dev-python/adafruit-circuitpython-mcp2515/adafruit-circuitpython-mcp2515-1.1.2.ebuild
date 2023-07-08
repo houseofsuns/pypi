@@ -15,7 +15,7 @@ DESCRIPTION="A CircuitPython library for working with the MCP2515 CAN bus contro
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_MCP2515"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

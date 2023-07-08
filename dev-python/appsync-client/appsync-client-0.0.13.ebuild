@@ -15,7 +15,7 @@ DESCRIPTION="Appsync python client for consuming the graphql endpoint"
 
 HOMEPAGE="https://github.com/vasudevan-palani/appsync-client"
 LICENSE="TBD"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

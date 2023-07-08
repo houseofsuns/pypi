@@ -15,7 +15,7 @@ DESCRIPTION="🌈 Extra colorization and configuration loading for Click."
 
 HOMEPAGE="https://github.com/kdeldycke/click-extra"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Mosaic: geospatial analytics in python, on Spark"
 
 HOMEPAGE="https://github.com/databrickslabs/mosaic"
 LICENSE="Databricks License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

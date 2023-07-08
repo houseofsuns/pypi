@@ -15,7 +15,7 @@ DESCRIPTION="An MkDocs plugin to call plantuml locally or remote"
 
 HOMEPAGE="https://github.com/christo-ph/mkdocs_build_plantuml"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

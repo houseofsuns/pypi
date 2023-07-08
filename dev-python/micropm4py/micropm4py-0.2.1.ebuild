@@ -15,7 +15,7 @@ DESCRIPTION="MicroPM4Py - Process Mining for Micro-Controllers"
 
 HOMEPAGE="http://www.pm4py.org"
 LICENSE="GPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

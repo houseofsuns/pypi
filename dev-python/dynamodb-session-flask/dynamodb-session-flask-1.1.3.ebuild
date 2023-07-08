@@ -15,7 +15,7 @@ DESCRIPTION="A session implementation for Flask using DynamoDB as a backing stor
 
 HOMEPAGE="https://github.com/JCapriotti/dynamodb-session-flask"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

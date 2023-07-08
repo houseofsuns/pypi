@@ -15,7 +15,7 @@ DESCRIPTION="Compile fonts from sources (UFO, Glyphs) to binary (OpenType, TrueT
 
 HOMEPAGE="https://github.com/googlei18n/fontmake"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

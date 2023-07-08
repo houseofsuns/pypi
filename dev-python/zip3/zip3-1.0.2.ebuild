@@ -15,7 +15,7 @@ DESCRIPTION="A package to create a ZIP archive of all your files on S3"
 
 HOMEPAGE="https://github.com/marcotroisi/zip3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

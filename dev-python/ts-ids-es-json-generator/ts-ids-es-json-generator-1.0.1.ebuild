@@ -15,7 +15,7 @@ DESCRIPTION="Python utility for generating elasticsearch.json from schema.json f
 
 HOMEPAGE="https://github.com/tetrascience/ts-ids-es-json-generator"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

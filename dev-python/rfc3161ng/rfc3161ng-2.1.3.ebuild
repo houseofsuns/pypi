@@ -15,7 +15,7 @@ DESCRIPTION="Python implementation of the RFC3161 specification, using pyasn1"
 
 HOMEPAGE="https://dev.entrouvert.org/projects/python-rfc3161"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

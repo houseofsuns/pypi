@@ -15,7 +15,7 @@ DESCRIPTION="PyTorch kernels for spatial operations on point clouds"
 
 HOMEPAGE="https://github.com/nicolas-chaulet/torch-points-kernels"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

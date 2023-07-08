@@ -15,7 +15,7 @@ DESCRIPTION="A Django package for account and authentication managment"
 
 HOMEPAGE="https://gitlab.ambient-innovation.com/ai/ai.kit/authentication"
 LICENSE="BSD-3-Clause  # Example license"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

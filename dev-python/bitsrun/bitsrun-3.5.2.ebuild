@@ -15,7 +15,7 @@ DESCRIPTION="A headless login / logout script for 10.0.0.55"
 
 HOMEPAGE="https://github.com/BITNP/bitsrun"
 LICENSE="WTFPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Protein Visualization Library in Python"
 
 HOMEPAGE="https://github.com/czirjakkethz/provis"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

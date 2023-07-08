@@ -15,7 +15,7 @@ DESCRIPTION="A package for filtering candidate mutations for spontaneous mutatio
 
 HOMEPAGE="https://gitlab.rlp.net/nruffini/camufi/tree/master"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Generate an HTML report for line_parser"
 
 HOMEPAGE="https://1sixunhuit.frama.io/html_report_line_profiler"
 LICENSE="AGPL 3"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

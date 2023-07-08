@@ -15,7 +15,7 @@ DESCRIPTION="Poetry plugin used to tweak dependency versions"
 
 HOMEPAGE="https://github.com/sbrunner/poetry-plugin-tweak-dependencies-version"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

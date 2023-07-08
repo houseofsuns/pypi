@@ -15,7 +15,7 @@ DESCRIPTION="Python implementation of BK-tree and Levenshtein distance to perfor
 
 HOMEPAGE="https://github.com/tomasrasymas/pybktree-spell-checker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

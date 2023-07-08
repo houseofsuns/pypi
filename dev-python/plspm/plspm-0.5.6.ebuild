@@ -15,7 +15,7 @@ DESCRIPTION="A library implementing the Partial Least Squares Path Model algorit
 
 HOMEPAGE="https://github.com/googlecloudplatform/plspm-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

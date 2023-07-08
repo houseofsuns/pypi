@@ -15,7 +15,7 @@ DESCRIPTION="A simple event tracking system."
 
 HOMEPAGE="https://github.com/edx/event-tracking"
 LICENSE="AGPLv3 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

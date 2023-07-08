@@ -15,7 +15,7 @@ DESCRIPTION="This package will get recent earthquake from BMKG (Meteorological, 
 
 HOMEPAGE="https://github.com/arifs16/recent-indonesia-earthquake"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

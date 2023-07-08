@@ -15,7 +15,7 @@ DESCRIPTION="PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)"
 
 HOMEPAGE="https://github.com/fabioz/PyDev.Debugger/"
 LICENSE="EPL, Apache 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

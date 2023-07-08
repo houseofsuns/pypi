@@ -15,7 +15,7 @@ DESCRIPTION="Zipkin instrumentation for the Pyramid framework."
 
 HOMEPAGE="https://github.com/Yelp/pyramid_zipkin"
 LICENSE="Copyright Yelp 2018"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

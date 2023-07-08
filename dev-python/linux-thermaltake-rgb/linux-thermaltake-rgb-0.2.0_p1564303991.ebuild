@@ -15,7 +15,7 @@ DESCRIPTION="python driver and daemon for thermaltake hardware products"
 
 HOMEPAGE="https://github.com/chestm007/linux_thermaltake_rgb"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="High-fidelity performance metrics for generative models in PyTorch"
 
 HOMEPAGE="https://www.github.com/toshas/torch-fidelity"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

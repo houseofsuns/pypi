@@ -15,7 +15,7 @@ DESCRIPTION="See https://github.com/AineeJames/ChatGPTerminator for more details
 
 HOMEPAGE="https://github.com/AineeJames/ChatGPTerminator"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

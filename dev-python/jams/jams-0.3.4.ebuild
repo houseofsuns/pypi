@@ -15,7 +15,7 @@ DESCRIPTION="A JSON Annotated Music Specification for Reproducible MIR Research"
 
 HOMEPAGE="http://github.com/marl/jams"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

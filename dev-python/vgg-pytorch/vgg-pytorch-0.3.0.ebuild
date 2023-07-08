@@ -15,7 +15,7 @@ DESCRIPTION="An VGGNet implements of PyTorch."
 
 HOMEPAGE="https://github.com/Lornatang/VGGNet-PyTorch"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

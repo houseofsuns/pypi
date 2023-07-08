@@ -15,7 +15,7 @@ DESCRIPTION="Python module containing system_verilog files for CV32E40S cpu."
 
 HOMEPAGE="https://github.com/litex-hub/pythondata-cpu-cv32e40s"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

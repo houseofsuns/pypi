@@ -15,7 +15,7 @@ DESCRIPTION="Agent for reporting RobotFramework test results to Report Portal"
 
 HOMEPAGE="https://github.com/reportportal/agent-Python-RobotFramework"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

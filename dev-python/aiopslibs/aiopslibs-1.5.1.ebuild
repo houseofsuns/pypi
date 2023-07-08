@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://dev.azure.com/galliatools/Data_Science_Human-in-the-Loop/_git/AI_Ops_Libs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

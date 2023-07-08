@@ -15,7 +15,7 @@ DESCRIPTION="LabRAD interface for python"
 
 HOMEPAGE="https://github.com/labrad/pylabrad/"
 LICENSE="http://www.gnu.org/licenses/gpl-2.0.html"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

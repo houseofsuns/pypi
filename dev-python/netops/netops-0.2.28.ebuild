@@ -15,7 +15,7 @@ DESCRIPTION="Utilities for NetGitOps Python use cases."
 
 HOMEPAGE="https://git.rnp.br/pop-rj/netops-from-0_2_22"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

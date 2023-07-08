@@ -15,7 +15,7 @@ DESCRIPTION="A webui tool used to obfuscate and pack python scripts based on pya
 
 HOMEPAGE="https://github.com/dashingsoft/pyarmor-webui"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

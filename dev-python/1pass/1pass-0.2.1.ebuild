@@ -15,7 +15,7 @@ DESCRIPTION="A Python library and command line interface for 1Password"
 
 HOMEPAGE="http://github.com/georgebrock/1pass"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/1/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

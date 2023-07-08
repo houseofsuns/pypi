@@ -15,7 +15,7 @@ DESCRIPTION="Query Utility for Elasticsearch"
 
 HOMEPAGE="https://github.com/euler-io/fastapi-elasticsearch"
 LICENSE="LGPL-2.1 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

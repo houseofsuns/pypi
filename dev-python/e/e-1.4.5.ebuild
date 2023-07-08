@@ -15,7 +15,7 @@ DESCRIPTION="Evaluate and display command line expressions with        python -m
 
 HOMEPAGE="UNKNOWN"
 LICENSE="UNKNOWN"
-SRC_URI="https://fil${REALNAME}s.pythonhost${REALNAME}d.org/packag${REALNAME}s/79/19/8bdbb33a50c0a76${REALNAME}ac690${REALNAME}cad9add56${REALNAME}1d${REALNAME}1b08c657ac0faa862b7662b${REALNAME}6/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

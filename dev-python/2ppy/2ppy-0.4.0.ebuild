@@ -15,7 +15,7 @@ DESCRIPTION="Python-based implementation of tuProlog -- the open ecosystem for s
 
 HOMEPAGE="https://github.com/tuProlog/2ppy"
 LICENSE="Apache 2.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/2/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="MkDocs theme that you can use to build technical documentation with
 
 HOMEPAGE="https://github.com/ministryofjustice/mkdocs-tech-docs-template"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

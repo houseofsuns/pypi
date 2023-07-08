@@ -15,7 +15,7 @@ DESCRIPTION="The bias and fairness audit toolkit."
 
 HOMEPAGE="https://github.com/dssg/aequitas"
 LICENSE="https://github.com/dssg/aequitas/blob/master/LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

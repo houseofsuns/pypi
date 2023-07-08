@@ -15,7 +15,7 @@ DESCRIPTION="dump binary data to hex format and restore from there"
 
 HOMEPAGE="https://bitbucket.org/techtonik/hexdump/"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

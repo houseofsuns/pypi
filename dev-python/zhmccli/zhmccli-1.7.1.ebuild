@@ -15,7 +15,7 @@ DESCRIPTION="A CLI for the IBM Z HMC, written in pure Python"
 
 HOMEPAGE="https://github.com/zhmcclient/zhmccli"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

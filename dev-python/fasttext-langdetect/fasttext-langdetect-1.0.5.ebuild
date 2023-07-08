@@ -15,7 +15,7 @@ DESCRIPTION="80x faster and 95% accurate language identification with Fasttext"
 
 HOMEPAGE="https://github.com/zafercavdar/fasttext-langdetect.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

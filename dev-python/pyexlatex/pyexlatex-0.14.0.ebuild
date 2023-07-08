@@ -15,7 +15,7 @@ DESCRIPTION="Python Extends LaTeX - A High-Level Python API for Creating Latex D
 
 HOMEPAGE="https://github.com/nickderobertis/py-ex-latex"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

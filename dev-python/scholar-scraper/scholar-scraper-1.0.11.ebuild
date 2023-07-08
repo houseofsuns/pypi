@@ -15,7 +15,7 @@ DESCRIPTION="A python API to get publications from specific users on Google Scho
 
 HOMEPAGE="https://github.com/guillaume-elambert/ScholarPythonAPI"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

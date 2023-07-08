@@ -15,7 +15,7 @@ DESCRIPTION="This Library allows you to make Misc operations in various domain"
 
 HOMEPAGE="https://github.com/Laurent-Tupin/py2nut"
 LICENSE="Copyright 2022-2035"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

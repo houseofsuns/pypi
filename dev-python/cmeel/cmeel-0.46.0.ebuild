@@ -15,7 +15,7 @@ DESCRIPTION="Create Wheel from CMake projects"
 
 HOMEPAGE="https://github.com/cmake-wheel/cmeel"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

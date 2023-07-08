@@ -15,7 +15,7 @@ DESCRIPTION="C++/pybind11/NumPy implementation of the Ramer-Douglas-Peucker algo
 
 HOMEPAGE="https://github.com/cubao/pybind11-rdp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

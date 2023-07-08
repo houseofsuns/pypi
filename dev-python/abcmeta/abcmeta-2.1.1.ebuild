@@ -15,7 +15,7 @@ DESCRIPTION="Python meta class and abstract method library with restrictions."
 
 HOMEPAGE="https://github.com/mortymacs/abcmeta"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

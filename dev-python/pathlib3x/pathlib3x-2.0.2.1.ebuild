@@ -15,7 +15,7 @@ DESCRIPTION="backport of pathlib 3.10 to python 3.6, 3.7, 3.8, 3.9 with a few ex
 
 HOMEPAGE="https://github.com/bitranox/pathlib3x"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

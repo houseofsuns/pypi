@@ -15,7 +15,7 @@ DESCRIPTION="ANSURR uses backbone chemical shifts to validate the accuracy of NM
 
 HOMEPAGE="https://github.com/nickjf/ansurr2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

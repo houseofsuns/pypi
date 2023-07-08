@@ -15,7 +15,7 @@ DESCRIPTION="Descriptors of crystals based on geometry (isometry invariants)."
 
 HOMEPAGE=""
 LICENSE="CC-BY-NC-SA-4.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

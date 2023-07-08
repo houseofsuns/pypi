@@ -15,7 +15,7 @@ DESCRIPTION="A C++ implementation of StreamVByte, with Python bindings."
 
 HOMEPAGE="https://github.com/wst24365888/libstreamvbyte"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

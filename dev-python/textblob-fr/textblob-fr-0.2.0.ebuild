@@ -15,7 +15,7 @@ DESCRIPTION="French language support for TextBlob."
 
 HOMEPAGE="https://github.com/sloria/textblob-fr"
 LICENSE="Copyright 2013 Steven Loria"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

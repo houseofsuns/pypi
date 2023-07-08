@@ -15,7 +15,7 @@ DESCRIPTION="CTNS, Contact Tracing Network Simulator: a tool to simulate contact
 
 HOMEPAGE="https://gitlab.com/mistrello96/ctns"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

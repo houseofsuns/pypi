@@ -15,7 +15,7 @@ DESCRIPTION="An async client for connecting to Honeywell's TCC RESTful API."
 
 HOMEPAGE="https://github.com/zxdavb/evohome-async"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

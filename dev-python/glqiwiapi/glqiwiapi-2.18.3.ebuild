@@ -15,7 +15,7 @@ DESCRIPTION="The ultrarapid and multifunctional wrapper over QIWI and YooMoney"
 
 HOMEPAGE="https://github.com/GLEF1X/glQiwiApi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

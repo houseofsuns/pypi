@@ -15,7 +15,7 @@ DESCRIPTION="Currencies, Monetary Value Arithmetic/Conversion and Some Type Conv
 
 HOMEPAGE="https://github.com/vst/pypara"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

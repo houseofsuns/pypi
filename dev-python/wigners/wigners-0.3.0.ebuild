@@ -15,7 +15,7 @@ DESCRIPTION="Compute Wigner 3j and Clebsch-Gordan coefficients"
 
 HOMEPAGE="https://github.com/Luthaf/wigners"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

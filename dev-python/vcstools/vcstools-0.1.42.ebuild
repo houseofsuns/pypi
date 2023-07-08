@@ -15,7 +15,7 @@ DESCRIPTION="VCS/SCM source control library for svn, git, hg, and bzr"
 
 HOMEPAGE="http://wiki.ros.org/vcstools"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Automation framework for the WMF production infrastructure"
 
 HOMEPAGE="https://github.com/wikimedia/operations-software-spicerack"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

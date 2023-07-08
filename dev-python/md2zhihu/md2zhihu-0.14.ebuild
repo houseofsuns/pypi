@@ -15,7 +15,7 @@ DESCRIPTION="convert markdown to zhihu compatible format. https://github.com/drm
 
 HOMEPAGE="https://github.com/drmingdrmer/md2zhihu"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

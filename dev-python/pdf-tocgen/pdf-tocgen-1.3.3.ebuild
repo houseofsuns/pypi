@@ -15,7 +15,7 @@ DESCRIPTION="Automatically generate table of contents for pdf files"
 
 HOMEPAGE="https://krasjet.com/voice/pdf.tocgen/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

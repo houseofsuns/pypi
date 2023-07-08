@@ -15,7 +15,7 @@ DESCRIPTION="YooKassa API SDK Python Library"
 
 HOMEPAGE="https://git.yoomoney.ru/projects/SDK/repos/yookassa-sdk-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

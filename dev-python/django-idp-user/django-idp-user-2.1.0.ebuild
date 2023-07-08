@@ -15,7 +15,7 @@ DESCRIPTION="A Django app that handles the communication between the IDP and the
 
 HOMEPAGE="https://github.com/CardoAI/django-idp-user"
 LICENSE="MIT X11"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

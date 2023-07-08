@@ -15,7 +15,7 @@ DESCRIPTION="Adrest - Another Django REST. Simple application for quick build RE
 
 HOMEPAGE="http://github.com/klen/adrest"
 LICENSE="GNU LGPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

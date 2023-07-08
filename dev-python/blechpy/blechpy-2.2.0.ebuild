@@ -15,7 +15,7 @@ DESCRIPTION="Package for exrtacting, processing and analyzing Intan and OpenEphy
 
 HOMEPAGE="https://github.com/nubs01/blechpy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

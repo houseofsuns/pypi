@@ -15,7 +15,7 @@ DESCRIPTION="A simpler class interface and launch utils for processing kinesis s
 
 HOMEPAGE="https://github.com/empiricalresults/easy-kclpy"
 LICENSE="Amazon Software License"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

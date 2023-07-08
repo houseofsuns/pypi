@@ -15,7 +15,7 @@ DESCRIPTION="A WeakList class for storing objects using weak references in a lis
 
 HOMEPAGE="http://www.python.org/pypi/weakreflist"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

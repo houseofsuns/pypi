@@ -15,7 +15,7 @@ DESCRIPTION="Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G740
 
 HOMEPAGE="https://github.com/benleb/horimote"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

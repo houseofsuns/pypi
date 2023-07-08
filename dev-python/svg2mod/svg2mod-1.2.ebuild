@@ -15,7 +15,7 @@ DESCRIPTION="Convert an SVG file to a KiCad footprint."
 
 HOMEPAGE="https://github.com/svg2mod/svg2mod"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

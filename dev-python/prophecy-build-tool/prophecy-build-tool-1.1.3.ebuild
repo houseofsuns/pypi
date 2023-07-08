@@ -15,7 +15,7 @@ DESCRIPTION="Prophecy-build-tool (PBT) provides utilities to build and distribut
 
 HOMEPAGE="https://github.com/SimpleDataLabsInc/prophecy-build-tool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

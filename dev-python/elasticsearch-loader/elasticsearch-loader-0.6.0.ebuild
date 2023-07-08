@@ -15,7 +15,7 @@ DESCRIPTION="A pythonic tool for batch loading data files (json, parquet, csv, t
 
 HOMEPAGE="https://github.com/Moshe/elasticsearch_loader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

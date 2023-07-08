@@ -15,7 +15,7 @@ DESCRIPTION="The tool uncovers patterns, trends, and correlations hidden within 
 
 HOMEPAGE="https://github.com/tdspora/syngen"
 LICENSE="GPLv3 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

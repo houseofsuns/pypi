@@ -15,7 +15,7 @@ DESCRIPTION="Python Arlo is a library written in Python 2.7/3x that exposes the 
 
 HOMEPAGE="https://github.com/tchellomello/python-arlo"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

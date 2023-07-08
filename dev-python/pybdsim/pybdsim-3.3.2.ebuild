@@ -15,7 +15,7 @@ DESCRIPTION="Python utilities for the Monte Carlo Particle accelerator code BDSI
 
 HOMEPAGE="http://www.pp.rhul.ac.uk/bdsim/pybdsim"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

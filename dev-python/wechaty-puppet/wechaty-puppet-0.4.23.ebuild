@@ -15,7 +15,7 @@ DESCRIPTION="Abstract(Base) Class of Puppet Providers for Wechaty Framework"
 
 HOMEPAGE="https://github.com/wechaty/python-wechaty-puppet"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

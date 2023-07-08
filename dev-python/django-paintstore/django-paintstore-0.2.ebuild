@@ -15,7 +15,7 @@ DESCRIPTION="A Django app that integrates jQuery ColorPicker with the Django adm
 
 HOMEPAGE="https://github.com/gsiegman/django-paintstore"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Simple, secure encryption and decryption for Python 2.7 and 3"
 
 HOMEPAGE="https://github.com/andrewcooke/simple-crypt"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

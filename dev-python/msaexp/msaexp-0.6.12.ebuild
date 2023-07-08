@@ -15,7 +15,7 @@ DESCRIPTION="Manual extraction of JWST NIRSpec MSA spectra directly from the tel
 
 HOMEPAGE="https://github.com/gbrammer/msaexp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

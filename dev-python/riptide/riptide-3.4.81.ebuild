@@ -15,7 +15,7 @@ DESCRIPTION="Reaction Inclusion by Parsimony and Transcript Distribution (RIPTiD
 
 HOMEPAGE="https://github.com/mjenior/riptide"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

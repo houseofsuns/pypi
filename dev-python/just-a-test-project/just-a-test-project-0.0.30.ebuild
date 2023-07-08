@@ -15,7 +15,7 @@ DESCRIPTION="A project for testing https://github.com/creditornot/wolt-python-pa
 
 HOMEPAGE="https://creditornot.github.io/just-a-test-project"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

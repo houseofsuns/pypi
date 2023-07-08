@@ -15,7 +15,7 @@ DESCRIPTION="Epidemiological weeks calculation based on the US CDC (MMWR) and IS
 
 HOMEPAGE="https://github.com/dralshehri/epiweeks"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

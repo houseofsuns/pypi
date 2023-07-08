@@ -15,7 +15,7 @@ DESCRIPTION="Generate saved_model, tfjs, tf-trt, EdgeTPU, CoreML, quantized tfli
 
 HOMEPAGE="https://github.com/PINTO0309/tflite2tensorflow"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

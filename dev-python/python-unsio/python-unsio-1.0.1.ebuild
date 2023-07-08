@@ -15,7 +15,7 @@ DESCRIPTION="A python wrapper to unsio"
 
 HOMEPAGE="https://projets.lam.fr/projects/unsio/wiki"
 LICENSE="CeCILL2.1 https://opensource.org/licenses/CECILL-2.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

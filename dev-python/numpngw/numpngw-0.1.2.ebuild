@@ -15,7 +15,7 @@ DESCRIPTION="Write numpy array(s) to a PNG or animated PNG file."
 
 HOMEPAGE="https://github.com/WarrenWeckesser/numpngw"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

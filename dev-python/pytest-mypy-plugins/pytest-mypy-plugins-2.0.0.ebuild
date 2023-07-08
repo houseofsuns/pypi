@@ -15,7 +15,7 @@ DESCRIPTION="pytest plugin for writing tests for mypy plugins"
 
 HOMEPAGE="https://github.com/TypedDjango/pytest-mypy-plugins"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

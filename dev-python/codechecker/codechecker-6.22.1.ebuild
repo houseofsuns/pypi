@@ -15,7 +15,7 @@ DESCRIPTION="CodeChecker is an analyzer tooling, defect database and viewer exte
 
 HOMEPAGE="https://github.com/Ericsson/CodeChecker"
 LICENSE="Apache-2.0 WITH LLVM-exception"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

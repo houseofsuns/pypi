@@ -15,7 +15,7 @@ DESCRIPTION="For lazy python users (monogusa people in Japanse), especially in M
 
 HOMEPAGE="https://github.com/ywatanabe1989/mngs"
 LICENSE="GPL3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="一个用于 QQ 群内高效推送哔哩哔哩 UP 动态及直播�
 
 HOMEPAGE="https://github.com/djkcyl/BBot-Graia"
 LICENSE="AGPL3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

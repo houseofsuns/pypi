@@ -15,7 +15,7 @@ DESCRIPTION="A Python3 class to interrogate Xiaomi Mijia LYWSD* sensors."
 
 HOMEPAGE="https://github.com/Mausy5043/pylywsdxx"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Type stubs for QuantConnect's Lean"
 
 HOMEPAGE="https://github.com/QuantConnect/quantconnect-stubs-generator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

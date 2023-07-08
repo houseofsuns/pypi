@@ -15,7 +15,7 @@ DESCRIPTION="A minimalistic API framework built on top of Flask, Marshmallow and
 
 HOMEPAGE="https://github.com/miguelgrinberg/apifairy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

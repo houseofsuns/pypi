@@ -15,7 +15,7 @@ DESCRIPTION="A package that demonstrates deep neural nets using Monte Carlo-type
 
 HOMEPAGE="https://github.com/SciCapt/Monte-Carlo-Neural-Nets"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

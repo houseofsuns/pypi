@@ -15,7 +15,7 @@ DESCRIPTION="NEMS configuration generation"
 
 HOMEPAGE="https://github.com/noaa-ocs-modeling/nemspy.git"
 LICENSE="CC0-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

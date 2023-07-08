@@ -15,7 +15,7 @@ DESCRIPTION="Get AWS API keys for a SAML-federated identity"
 
 HOMEPAGE="https://github.com/Viasat/alohomora"
 LICENSE="c 2022 Viasat, Inc. See the LICENSE file for more details."
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

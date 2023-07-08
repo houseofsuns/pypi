@@ -15,7 +15,7 @@ DESCRIPTION="ApTop is top like clone for apaache geting info from apache mod_sta
 
 HOMEPAGE="https://bitbucket.org/btoic/aptop/get/master.tar.gz"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

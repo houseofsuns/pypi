@@ -15,7 +15,7 @@ DESCRIPTION="Speeding up stencil computations on CPUs and GPUs"
 
 HOMEPAGE="https://i10git.cs.fau.de/pycodegen/pystencils/"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Incremental btrfs snapshot backups with push/pull support via SSH"
 
 HOMEPAGE="https://github.com/masc3d/btrfs-sxbackup"
 LICENSE="GNU GPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

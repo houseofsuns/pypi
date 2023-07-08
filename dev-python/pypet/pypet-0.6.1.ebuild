@@ -15,7 +15,7 @@ DESCRIPTION="A toolkit for numerical simulations to allow easy parameter explora
 
 HOMEPAGE="https://github.com/SmokinCaterpillar/pypet"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

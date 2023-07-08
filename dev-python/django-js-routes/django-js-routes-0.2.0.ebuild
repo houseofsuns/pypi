@@ -15,7 +15,7 @@ DESCRIPTION="Expose and perform reverse lookups of Django URLs in the frontend w
 
 HOMEPAGE="https://github.com/ellmetha/django-js-routes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

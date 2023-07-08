@@ -15,7 +15,7 @@ DESCRIPTION="NASA's Heliophysics Data Portal Web Service Client Library"
 
 HOMEPAGE="https://heliophysicsdata.gsfc.nasa.gov/WebServices"
 LICENSE="NOSA"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

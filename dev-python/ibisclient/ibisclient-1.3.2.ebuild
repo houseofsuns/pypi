@@ -15,7 +15,7 @@ DESCRIPTION="Lookup API client"
 
 HOMEPAGE="https://www.lookup.cam.ac.uk/doc/ws-doc/"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

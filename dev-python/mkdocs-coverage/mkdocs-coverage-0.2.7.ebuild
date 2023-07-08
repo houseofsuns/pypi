@@ -15,7 +15,7 @@ DESCRIPTION="MkDocs plugin to integrate your coverage HTML report into your site
 
 HOMEPAGE="https://pawamoy.github.io/mkdocs-coverage"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

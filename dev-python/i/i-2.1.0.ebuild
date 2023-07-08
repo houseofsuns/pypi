@@ -15,7 +15,7 @@ DESCRIPTION="Never use print() to debug again; inspect variables, expressions, a
 
 HOMEPAGE="https://github.com/gruns/icecream"
 LICENSE="MIT"
-SRC_URI="https://f${REALNAME}les.pythonhosted.org/packages/23/60/9b7d1db4a1ff3f6e292f2d9841304304f7fe884a65cb7a009e7758600f3d/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

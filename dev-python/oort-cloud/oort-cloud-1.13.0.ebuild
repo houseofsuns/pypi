@@ -15,7 +15,7 @@ DESCRIPTION="Oort utility to upload all your files in Arcsecond.io's cloud stora
 
 HOMEPAGE="https://github.com/arcsecond-io/oort"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A base manager class to handle CRUD on SQLAlchemy models. Suitable 
 
 HOMEPAGE="https://github.com/nakeeon/FastAPI-ORM-Manager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

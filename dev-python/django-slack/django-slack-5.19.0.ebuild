@@ -15,7 +15,7 @@ DESCRIPTION="Provides easy-to-use integration between Django projects and the Sl
 
 HOMEPAGE="https://chris-lamb.co.uk/projects/django-slack"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

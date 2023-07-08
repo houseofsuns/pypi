@@ -15,7 +15,7 @@ DESCRIPTION="Network device configuration generator"
 
 HOMEPAGE="https://gitlab.developers.cam.ac.uk/uis/netsys/udn/net-genconfig"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

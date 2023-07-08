@@ -15,7 +15,7 @@ DESCRIPTION="kronbinations is used to remove nested loops and perform parameter 
 
 HOMEPAGE="https://github.com/Ntropic/kronbinations/archive/refs/tags/v1.15.tar.gz"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

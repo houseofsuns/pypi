@@ -15,7 +15,7 @@ DESCRIPTION="Easily manage data storage and logging across repos"
 
 HOMEPAGE="https://github.com/tylerjwoodfin/securedata"
 LICENSE=": OSI Approved :: MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

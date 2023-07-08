@@ -15,7 +15,7 @@ DESCRIPTION="Django Keycloak Auth is Python package providing access to the Keyc
 
 HOMEPAGE="https://github.com/marcelo225/django-keycloak-auth"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

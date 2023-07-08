@@ -15,7 +15,7 @@ DESCRIPTION="A Python kernel for JupyterLite, powered by Xeus"
 
 HOMEPAGE="https://github.com/jupyterlite/xeus-python-kernel"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

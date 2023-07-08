@@ -15,7 +15,7 @@ DESCRIPTION="Torchhd is a Python library for Hyperdimensional Computing and Vect
 
 HOMEPAGE="https://github.com/hyperdimensional-computing/torchhd"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

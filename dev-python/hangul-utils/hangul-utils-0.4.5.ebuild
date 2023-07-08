@@ -15,7 +15,7 @@ DESCRIPTION="An integrated library for Korean preprocessing."
 
 HOMEPAGE="https://github.com/kaniblu/hangul-utils"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

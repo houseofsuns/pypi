@@ -15,7 +15,7 @@ DESCRIPTION="Provides S3 path manipulation, similar to PurePath in pathlib"
 
 HOMEPAGE="https://github.com/Barbora-Data-Science/s3-path-wrangler"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

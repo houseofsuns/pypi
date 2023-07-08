@@ -15,7 +15,7 @@ DESCRIPTION="ATLAS ITK Pixels Multi-Module Cycling Box environmental monitoring/
 
 HOMEPAGE="https://gitlab.ph.liv.ac.uk/avt/atlas-itk-pmmcb"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

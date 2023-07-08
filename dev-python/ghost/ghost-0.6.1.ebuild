@@ -15,7 +15,7 @@ DESCRIPTION="Ghost stores your secrets where no one can see"
 
 HOMEPAGE="https://github.com/nir0s/ghost"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

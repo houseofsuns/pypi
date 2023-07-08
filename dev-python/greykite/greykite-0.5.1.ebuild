@@ -15,7 +15,7 @@ DESCRIPTION="A python package for flexible forecasting"
 
 HOMEPAGE="https://github.com/linkedin/greykite"
 LICENSE="BSD-2-CLAUSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

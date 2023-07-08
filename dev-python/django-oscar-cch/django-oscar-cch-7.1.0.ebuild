@@ -15,7 +15,7 @@ DESCRIPTION="Integration between django-oscar and the CCH Sales Tax Office SOAP 
 
 HOMEPAGE="https://gitlab.com/thelabnyc/django-oscar/django-oscar-cch"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

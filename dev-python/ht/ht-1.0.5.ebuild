@@ -15,7 +15,7 @@ DESCRIPTION="Heat transfer component of Chemical Engineering Design Library (ChE
 
 HOMEPAGE="https://github.com/CalebBell/ht"
 LICENSE="MIT"
-SRC_URI="${REALNAME}tps://files.pythonhosted.org/packages/1c/6f/33e96a1a2c93d775033bbc781a14c3362657ce45cfc0aaf48f60e8c350b0/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

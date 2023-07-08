@@ -15,7 +15,7 @@ DESCRIPTION="BioSimulators-compliant command-line interface to the GillesPy2 sim
 
 HOMEPAGE="https://github.com/biosimulators/Biosimulators_GillesPy2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

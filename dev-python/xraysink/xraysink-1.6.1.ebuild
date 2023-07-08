@@ -15,7 +15,7 @@ DESCRIPTION="Instrument asyncio Python for distributed tracing with AWS X-Ray."
 
 HOMEPAGE="https://github.com/garyd203/xraysink"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

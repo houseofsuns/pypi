@@ -15,7 +15,7 @@ DESCRIPTION="DICOM -> JPG/PNG/BMP/TIFF/ndarray"
 
 HOMEPAGE="https://github.com/ykuo2/dicom2jpg"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

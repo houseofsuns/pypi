@@ -15,7 +15,7 @@ DESCRIPTION="Contrast Security's agent for Python web frameworks"
 
 HOMEPAGE="https://www.contrastsecurity.com"
 LICENSE="CONTRAST SECURITY see LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

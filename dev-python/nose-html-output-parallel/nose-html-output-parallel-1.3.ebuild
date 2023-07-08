@@ -15,7 +15,7 @@ DESCRIPTION="Nose plugin to produce test results in html and works with parallel
 
 HOMEPAGE="https://github.com/ruivapps/htmloutputparallel"
 LICENSE="GNU GENERAL PUBLIC LICENSE, Version 3"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

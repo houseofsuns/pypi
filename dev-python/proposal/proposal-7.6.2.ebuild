@@ -15,7 +15,7 @@ DESCRIPTION="Monte Carlo simulation library to propagate leptons and gamma rays"
 
 HOMEPAGE="https://github.com/tudo-astroparticlephysics/PROPOSAL"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

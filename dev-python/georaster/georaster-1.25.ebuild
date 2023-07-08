@@ -15,7 +15,7 @@ DESCRIPTION="easy processing and analysis of geographic and projected rasters in
 
 HOMEPAGE="https://github.com/GeoUtils/georaster"
 LICENSE="GNU GPL v.3"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

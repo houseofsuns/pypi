@@ -15,7 +15,7 @@ DESCRIPTION="A minimalistic toolbox for extracting features from sport activity 
 
 HOMEPAGE="https://github.com/firefly-cpp/sport-activities-features"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

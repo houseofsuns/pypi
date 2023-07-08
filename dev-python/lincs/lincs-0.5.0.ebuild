@@ -15,7 +15,7 @@ DESCRIPTION="Learn and Infer Non Compensatory Sortings"
 
 HOMEPAGE="https://github.com/MICS-Lab/lincs"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

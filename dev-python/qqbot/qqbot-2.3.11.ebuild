@@ -15,7 +15,7 @@ DESCRIPTION="QQBot: A conversation robot base on Tencent's SmartQQ"
 
 HOMEPAGE="https://github.com/pandolia/qqbot/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

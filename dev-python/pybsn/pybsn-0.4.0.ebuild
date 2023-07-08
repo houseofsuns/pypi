@@ -15,7 +15,7 @@ DESCRIPTION="pybsn is a python interface to Big Switch Networks' products"
 
 HOMEPAGE="https://github.com/floodlight/pybsn"
 LICENSE="ECLIPSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

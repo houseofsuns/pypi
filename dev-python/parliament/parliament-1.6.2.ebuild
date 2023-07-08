@@ -15,7 +15,7 @@ DESCRIPTION="parliament audits your AWS IAM policies"
 
 HOMEPAGE="https://github.com/duo-labs/parliament"
 LICENSE="BSD 3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Phase shifting algorithms for encoding and decoding sinusoidal frin
 
 HOMEPAGE="https://github.com/comimag/fringes"
 LICENSE="CC-BY-NC-SA-4.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

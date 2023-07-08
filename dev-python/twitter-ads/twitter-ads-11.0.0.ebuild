@@ -15,7 +15,7 @@ DESCRIPTION="A Twitter supported and maintained Ads API SDK for Python."
 
 HOMEPAGE="http://twitterdev.github.io/twitter-python-ads-sdk/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

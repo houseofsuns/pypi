@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper around GNU Aspell for Python 3"
 
 HOMEPAGE="http://github.com/WojciechMula/aspell-python"
 LICENSE="BSD 3 clauses"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 

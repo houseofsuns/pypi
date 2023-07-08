@@ -15,7 +15,7 @@ DESCRIPTION="A Secure and Powerful Python-Pyrogram Based Library For Naya-Pyro."
 
 HOMEPAGE="https://github.com/naya1503/kynaylibs"
 LICENSE="GNU AFFERO GENERAL PUBLIC LICENSE v3"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

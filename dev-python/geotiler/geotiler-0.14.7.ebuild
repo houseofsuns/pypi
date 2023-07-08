@@ -15,7 +15,7 @@ DESCRIPTION="GeoTiler - library to create maps using tiles from a map provider"
 
 HOMEPAGE="https://wrobell.dcmod.org/geotiler/"
 LICENSE="GPL includes BSD licensed code"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

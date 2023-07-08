@@ -15,7 +15,7 @@ DESCRIPTION="news-fetch is an open source easy-to-use news extractor and basic n
 
 HOMEPAGE="https://santhoshse7en.github.io/news-fetch/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

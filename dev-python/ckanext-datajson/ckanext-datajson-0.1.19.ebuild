@@ -15,7 +15,7 @@ DESCRIPTION="CKAN extension to generate /data.json"
 
 HOMEPAGE="https://github.com/GSA/ckanext-datajson"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

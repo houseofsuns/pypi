@@ -15,7 +15,7 @@ DESCRIPTION="A Python package to download Spotify playlists locally including th
 
 HOMEPAGE="https://github.com/GiorgosNik/spotube-package"
 LICENSE="Free for non-commercial use"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

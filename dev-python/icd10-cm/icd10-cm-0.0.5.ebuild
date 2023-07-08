@@ -15,7 +15,7 @@ DESCRIPTION="ICD-10 codes for diseases, signs and symptoms, abnormal findings, c
 
 HOMEPAGE="https://github.com/bryand1/icd10-cm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

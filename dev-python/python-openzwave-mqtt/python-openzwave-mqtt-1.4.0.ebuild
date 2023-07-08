@@ -15,7 +15,7 @@ DESCRIPTION="Converts MQTT messages from qt-openzwave into Python objects and ev
 
 HOMEPAGE="https://github.com/cgarwood/python-openzwave-mqtt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Type annotations for boto3.KendraRanking 1.28.0 service generated w
 
 HOMEPAGE="https://github.com/youtype/mypy_boto3_builder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

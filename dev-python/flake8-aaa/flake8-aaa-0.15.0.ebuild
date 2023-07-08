@@ -15,7 +15,7 @@ DESCRIPTION="A Flake8 plugin that checks Python tests follow the Arrange-Act-Ass
 
 HOMEPAGE="https://github.com/jamescooke/flake8-aaa"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

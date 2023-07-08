@@ -15,7 +15,7 @@ DESCRIPTION="Devpi-builder takes a requirements.txt and incrementally fills a de
 
 HOMEPAGE="https://github.com/blue-yonder/devpi-builder"
 LICENSE="new BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

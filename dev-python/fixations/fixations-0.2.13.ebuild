@@ -15,7 +15,7 @@ DESCRIPTION="This is a set of tools to look up / visualize FIX protocol data"
 
 HOMEPAGE="https://github.com/jeromegit/fixations"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

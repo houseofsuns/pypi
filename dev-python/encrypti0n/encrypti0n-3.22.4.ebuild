@@ -15,7 +15,7 @@ DESCRIPTION="Easily encrypt & decrypt files with python / through the CLI."
 
 HOMEPAGE="http://github.com/vandenberghinc/encrypti0n"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

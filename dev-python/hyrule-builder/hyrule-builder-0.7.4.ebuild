@@ -15,7 +15,7 @@ DESCRIPTION="A mod builder/unbuilder for The Legend of Zelda: Breath of the Wild
 
 HOMEPAGE="https://github.com/NiceneNerd/Hyrule-Builder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Multi-Label Anisotropic Euclidean Distance Transform 3D"
 
 HOMEPAGE="https://github.com/seung-lab/euclidean-distance-transform-3d/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

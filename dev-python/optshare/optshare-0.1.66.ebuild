@@ -15,7 +15,7 @@ DESCRIPTION="Python package for option, index, and yield data"
 
 HOMEPAGE="https://yulu0131.github.io/"
 LICENSE="Free for non-commercial use"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

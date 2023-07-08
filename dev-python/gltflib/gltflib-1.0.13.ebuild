@@ -15,7 +15,7 @@ DESCRIPTION="Library for parsing, creating, and converting glTF 2.0 files in Pyt
 
 HOMEPAGE="http://github.com/sergkr/gltflib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

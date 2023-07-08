@@ -15,7 +15,7 @@ DESCRIPTION="Tree UI for mptt-managed models, extracted from FeinCMS"
 
 HOMEPAGE="https://github.com/lanshark/ls-django-treeadmin"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

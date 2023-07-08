@@ -15,7 +15,7 @@ DESCRIPTION="Includes a collection of utility functions."
 
 HOMEPAGE="https://bitbucket.org/mjr129/mhelper"
 LICENSE="https://www.gnu.org/licenses/agpl-3.0.html"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

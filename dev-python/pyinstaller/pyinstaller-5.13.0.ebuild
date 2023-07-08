@@ -15,7 +15,7 @@ DESCRIPTION="PyInstaller bundles a Python application and all its dependencies i
 
 HOMEPAGE="https://www.pyinstaller.org/"
 LICENSE="GPLv2-or-later with a special exception which allows to use PyInstaller to build and distribute non-free programs including commercial ones"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Android battery history analyZer"
 
 HOMEPAGE="https://github.com/1337/c"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/pa${REALNAME}kages/f${REALNAME}/5f/1130${REALNAME}201f3138745970f8de520095a942${REALNAME}dd174e8f84faf04${REALNAME}e77${REALNAME}434d8d/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

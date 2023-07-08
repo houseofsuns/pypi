@@ -15,7 +15,7 @@ DESCRIPTION="Strict, simple, lightweight RFC3339 functions"
 
 HOMEPAGE="http://www.danielrichman.co.uk/libraries/strict-rfc3339.html"
 LICENSE="GNU General Public License Version 3"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

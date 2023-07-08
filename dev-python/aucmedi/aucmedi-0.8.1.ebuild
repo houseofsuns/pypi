@@ -15,7 +15,7 @@ DESCRIPTION="AUCMEDI - a framework for Automated Classification of Medical Image
 
 HOMEPAGE="https://frankkramer-lab.github.io/aucmedi/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

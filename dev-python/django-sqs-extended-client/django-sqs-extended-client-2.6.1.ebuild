@@ -15,7 +15,7 @@ DESCRIPTION="A Django app to easily use AWS Simple Queue Service (SQS) with S3 f
 
 HOMEPAGE="https://github.com/tommaso-castellani/django-sqs-extended-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

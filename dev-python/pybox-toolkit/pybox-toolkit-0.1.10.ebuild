@@ -15,7 +15,7 @@ DESCRIPTION="A toolkit used within the PyBox project"
 
 HOMEPAGE="https://gitlab.ewi.tudelft.nl/cse2000-software-project/2022-2023-q4/cluster-00/group-13c/group-13c-contributors/-/tree/main/toolkit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

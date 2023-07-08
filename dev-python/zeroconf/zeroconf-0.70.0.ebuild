@@ -15,7 +15,7 @@ DESCRIPTION="A pure python implementation of multicast DNS service discovery"
 
 HOMEPAGE="https://github.com/python-zeroconf/python-zeroconf"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A collection of wrapper classes for event broadcast and task manage
 
 HOMEPAGE="https://github.com/LamaAni/zthreading.py"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

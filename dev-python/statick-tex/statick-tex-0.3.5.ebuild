@@ -15,7 +15,7 @@ DESCRIPTION="Statick analysis plugins for TeX/LaTeX files and projects."
 
 HOMEPAGE="https://github.com/tdenewiler/statick-tex"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="使用老版本:pip install zqpy==0.1.48 使用新版本:pip instal
 
 HOMEPAGE="https://gitee.com/qingBB/zqpy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A fork of Simiple Salesforce that runs on Python 2.7."
 
 HOMEPAGE="https://github.com/taulia/simple-salesforce-2-7"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

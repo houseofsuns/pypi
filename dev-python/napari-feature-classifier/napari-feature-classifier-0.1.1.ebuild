@@ -15,7 +15,7 @@ DESCRIPTION="An interactive classifier plugin to use with label images and featu
 
 HOMEPAGE="https://github.com/fractal-napari-plugins-collection/napari-feature-classifier"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

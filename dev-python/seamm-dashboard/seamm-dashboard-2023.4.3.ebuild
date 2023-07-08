@@ -15,7 +15,7 @@ DESCRIPTION="The Web Dashboard for SEAMM (Simulation Environment for Atomistic a
 
 HOMEPAGE="https://github.com/molssi-seamm/seamm_dashboard.git"
 LICENSE="BSD-3C"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

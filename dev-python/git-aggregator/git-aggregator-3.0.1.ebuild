@@ -15,7 +15,7 @@ DESCRIPTION="A program to aggregate git branches from different remotes into a c
 
 HOMEPAGE="http://github.com/acsone/git-aggregator"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

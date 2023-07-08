@@ -15,7 +15,7 @@ DESCRIPTION="A collection of objects for use in JSON-RPC 2.0 implementations."
 
 HOMEPAGE="https://gitlab.com/mburkard/jsonrpc2-objects"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Fast and powerful SSL/TLS scanning library."
 
 HOMEPAGE="https://github.com/nabla-c0d3/sslyze"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

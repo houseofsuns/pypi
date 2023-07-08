@@ -15,7 +15,7 @@ DESCRIPTION="A python library that wraps around the YouTube V3 API. You can use 
 
 HOMEPAGE="https://youtube-wrapper.readthedocs.io/en/latest/index.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

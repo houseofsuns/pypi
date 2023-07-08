@@ -15,7 +15,7 @@ DESCRIPTION="matplotlib의 폰트 설정을 자동으로 한국어화"
 
 HOMEPAGE="https://github.com/ychoi-kr/koreanize-matplotlib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

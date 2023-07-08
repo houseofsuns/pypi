@@ -15,7 +15,7 @@ DESCRIPTION="JSON Merge Patch library (https://tools.ietf.org/html/rfc7386)"
 
 HOMEPAGE="https://github.com/open-contracting/json-merge-patch"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

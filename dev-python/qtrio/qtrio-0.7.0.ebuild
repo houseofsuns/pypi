@@ -15,7 +15,7 @@ DESCRIPTION="a library bringing Qt GUIs together with \`\`async\`\` and \`\`awai
 
 HOMEPAGE="https://github.com/altendky/qtrio"
 LICENSE="MIT -or- Apache License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Backtest 1000s of minute-by-minute trading algorithms. Automated pr
 
 HOMEPAGE="https://github.com/AlgoTraders/stock-analysis-engine"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

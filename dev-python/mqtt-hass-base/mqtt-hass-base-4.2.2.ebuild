@@ -15,7 +15,7 @@ DESCRIPTION="Bases to build mqtt daemon compatible with Home Assistant"
 
 HOMEPAGE="https://gitlab.com/ttblt-oss/hass/mqtt-hass-base"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

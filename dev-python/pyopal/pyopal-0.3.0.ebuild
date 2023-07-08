@@ -15,7 +15,7 @@ DESCRIPTION="Cython bindings and Python interface to Opal, a SIMD-accelerated pa
 
 HOMEPAGE="https://github.com/althonos/pyopal"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

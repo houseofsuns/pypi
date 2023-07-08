@@ -15,7 +15,7 @@ DESCRIPTION="An interactive git viewer based on urwid. Similar to gitk but in a 
 
 HOMEPAGE="https://gitlab.com/erzo/git-viewer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

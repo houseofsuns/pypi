@@ -15,7 +15,7 @@ DESCRIPTION="dfba algorithm with kinetics to simulate metabolic activities of mi
 
 HOMEPAGE="https://gitee.com/Xu_Billy/d-fba-package"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

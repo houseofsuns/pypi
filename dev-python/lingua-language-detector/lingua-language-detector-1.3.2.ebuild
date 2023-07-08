@@ -15,7 +15,7 @@ DESCRIPTION="An accurate natural language detection library, suitable for long a
 
 HOMEPAGE="https://pemistahl.github.io/lingua-py"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

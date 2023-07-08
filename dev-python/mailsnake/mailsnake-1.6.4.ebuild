@@ -15,7 +15,7 @@ DESCRIPTION="MailChimp API v1.3, STS, Export, Mandrill wrapper for Python."
 
 HOMEPAGE="https://github.com/michaelhelmick/python-mailsnake"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

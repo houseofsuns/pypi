@@ -15,7 +15,7 @@ DESCRIPTION="A Simple pytorch implementation of GradCAM, and GradCAM++"
 
 HOMEPAGE="https://github.com/vickyliin/gradcam_plus_plus-pytorch"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

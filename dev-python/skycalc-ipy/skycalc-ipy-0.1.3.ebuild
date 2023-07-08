@@ -15,7 +15,7 @@ DESCRIPTION="Get atmospheric spectral information from the ESO skycalc server"
 
 HOMEPAGE="https://github.com/AstarVienna/skycalc_ipy"
 LICENSE="We currently don't know much about licences, nor have we thought about them."
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

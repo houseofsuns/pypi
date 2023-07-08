@@ -15,7 +15,7 @@ DESCRIPTION="Tools for AWS Systems Manager: ec2-session ecs-session ec2-ssh ssm-
 
 HOMEPAGE="https://github.com/mludvig/aws-ssm-tools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

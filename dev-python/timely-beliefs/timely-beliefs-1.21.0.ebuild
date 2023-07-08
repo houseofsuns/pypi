@@ -15,7 +15,7 @@ DESCRIPTION="Data modelled as beliefs (at a certain time) about events (at a cer
 
 HOMEPAGE="https://github.com/seitabv/timely-beliefs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

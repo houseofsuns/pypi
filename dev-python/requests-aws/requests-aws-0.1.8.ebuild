@@ -15,7 +15,7 @@ DESCRIPTION="AWS authentication for Amazon S3 for the python requests module"
 
 HOMEPAGE="https://github.com/tax/python-requests-aws"
 LICENSE="BSD licence, see LICENCE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

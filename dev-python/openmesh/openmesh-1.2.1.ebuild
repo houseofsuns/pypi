@@ -15,7 +15,7 @@ DESCRIPTION="a versatile halfedge-based data structure for representing and mani
 
 HOMEPAGE="https://gitlab.vci.rwth-aachen.de:9000/OpenMesh/openmesh-python"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

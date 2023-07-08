@@ -15,7 +15,7 @@ DESCRIPTION="MNE-BIDS: Organizing MEG, EEG, and iEEG data according to the BIDS 
 
 HOMEPAGE="https://github.com/mne-tools/mne-bids"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

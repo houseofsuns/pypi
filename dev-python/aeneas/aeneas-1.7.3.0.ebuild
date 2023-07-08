@@ -15,7 +15,7 @@ DESCRIPTION="aeneas is a Python/C library and a set of tools to automagically sy
 
 HOMEPAGE="https://github.com/readbeyond/aeneas"
 LICENSE="GNU Affero General Public License v3 AGPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

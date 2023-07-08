@@ -15,7 +15,7 @@ DESCRIPTION="Python BaseTools supporting UEFI EDK2 firmware development"
 
 HOMEPAGE="https://github.com/tianocore/edk2-basetools"
 LICENSE="BSD-2-with-patent"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

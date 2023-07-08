@@ -15,7 +15,7 @@ DESCRIPTION="Data access layer for webby, pagex-stocks-api and stockwiz."
 
 HOMEPAGE="https://github.com/raynic35/pagex-stocks-data"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

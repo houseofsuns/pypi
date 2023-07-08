@@ -15,7 +15,7 @@ DESCRIPTION="A Flask-like backend toolkit for building & deploying serverless we
 
 HOMEPAGE="https://gitlab.com/chalice-http-toolkit/chalice-http-toolkit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

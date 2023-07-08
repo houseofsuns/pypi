@@ -15,7 +15,7 @@ DESCRIPTION="An asynchronous RPC client for message brokers implementing the AMQ
 
 HOMEPAGE="https://github.com/j-suchard/amqp-rpc-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A 2D GameEngine Made In Python With PySDL2"
 
 HOMEPAGE="https://mandaw2014.github.io/MandawEngineSDL/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

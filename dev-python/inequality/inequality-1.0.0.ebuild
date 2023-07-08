@@ -15,7 +15,7 @@ DESCRIPTION="Spatial inequality analysis for PySAL A library of spatial analysis
 
 HOMEPAGE="http://pysal.org"
 LICENSE="3-Clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

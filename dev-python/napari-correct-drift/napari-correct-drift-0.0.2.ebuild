@@ -15,7 +15,7 @@ DESCRIPTION="Drift correction 2D/3D for Napari similar to Fijis Correct 3D drift
 
 HOMEPAGE="https://github.com/sommerc/napari-correct-drift"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Singer.io simple field transformer between taps and targets - Pipel
 
 HOMEPAGE="https://github.com/transferwise/pipelinewise-transform-field"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

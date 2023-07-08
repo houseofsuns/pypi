@@ -15,7 +15,7 @@ DESCRIPTION="Poetry plugin that updates dependencies and bumps their versions in
 
 HOMEPAGE="https://github.com/MousaZeidBaker/poetry-plugin-up"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

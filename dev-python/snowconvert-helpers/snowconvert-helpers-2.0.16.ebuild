@@ -15,7 +15,7 @@ DESCRIPTION="Migration helpers for Mobilize SnowConvert for Teradata."
 
 HOMEPAGE="https://docs.mobilize.net/snowconvert/for-teradata/introduction"
 LICENSE="Proprietary License Copyright C Mobilize.Net - All Rights Reserved"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

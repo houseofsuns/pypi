@@ -15,7 +15,7 @@ DESCRIPTION="Peek Plugin Branch - My first enhancement."
 
 HOMEPAGE="https://bitbucket.org/synerty/peek-plugin-branch"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

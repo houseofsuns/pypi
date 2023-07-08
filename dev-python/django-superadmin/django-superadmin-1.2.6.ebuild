@@ -15,7 +15,7 @@ DESCRIPTION="A Django app for build admin sites like django admin."
 
 HOMEPAGE="https://github.com/dbsiavichay/django-superadmin"
 LICENSE="MIT  # Example license"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

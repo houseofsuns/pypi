@@ -15,7 +15,7 @@ DESCRIPTION=".. image:: https://travis-ci.org/chtd/psycopg2cffi.svg?branch=maste
 
 HOMEPAGE="http://github.com/chtd/psycopg2cffi"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

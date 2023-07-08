@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper over Shapely that returns the set of geohashes that form a 
 
 HOMEPAGE="https://github.com/Bonsanto/polygon-geohasher"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

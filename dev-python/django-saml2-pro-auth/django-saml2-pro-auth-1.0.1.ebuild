@@ -15,7 +15,7 @@ DESCRIPTION="SAML2 authentication backend for Django wrapping OneLogins python-s
 
 HOMEPAGE="https://github.com/zibasec/django-saml2-pro-auth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

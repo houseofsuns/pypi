@@ -15,7 +15,7 @@ DESCRIPTION="A Django password validator that checks Troy Hunt's PWNED Passwords
 
 HOMEPAGE="https://github.com/jamiecounsell/django-pwned-passwords"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

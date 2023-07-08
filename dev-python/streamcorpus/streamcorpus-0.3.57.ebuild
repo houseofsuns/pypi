@@ -15,7 +15,7 @@ DESCRIPTION="Tools for organizing a collections of text for entity-centric strea
 
 HOMEPAGE="http://github.com/trec-kba/streamcorpus"
 LICENSE="MIT/X11 license http://opensource.org/licenses/MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

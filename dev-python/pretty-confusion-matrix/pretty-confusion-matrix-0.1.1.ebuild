@@ -15,7 +15,7 @@ DESCRIPTION="plot a pretty confusion matrix (like Matlab) in python using seabor
 
 HOMEPAGE="https://github.com/wcipriano/pretty-print-confusion-matrix"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

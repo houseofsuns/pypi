@@ -15,7 +15,7 @@ DESCRIPTION="Python API for geoh5, an open file format for geoscientific data"
 
 HOMEPAGE="https://mirageoscience.com"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A package to help facilitate postgres and Redshift database communi
 
 HOMEPAGE="https://github.com/Cold-Bore-Capital/cbc-dbmanager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

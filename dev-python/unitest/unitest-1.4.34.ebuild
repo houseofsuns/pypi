@@ -15,7 +15,7 @@ DESCRIPTION="Utilities required for performance and functional tests"
 
 HOMEPAGE="https://bitbucket.org/zetaengg/unitest_plutus/src/main/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

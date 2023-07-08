@@ -15,7 +15,7 @@ DESCRIPTION="The Central Information Source For AI Development"
 
 HOMEPAGE="https://www.trail-ml.com/?utm_source=pypi&utm_medium=pypi&utm_campaign=pypi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

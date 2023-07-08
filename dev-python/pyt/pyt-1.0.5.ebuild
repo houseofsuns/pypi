@@ -15,7 +15,7 @@ DESCRIPTION="easily run python unit tests"
 
 HOMEPAGE="http://github.com/Jaymon/pyt"
 LICENSE="MIT"
-SRC_URI="https://files.${REALNAME}honhosted.org/packages/b4/64/0703f67787591bb42fb0af220774d5a2b7ec64241378defe426324e63451/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

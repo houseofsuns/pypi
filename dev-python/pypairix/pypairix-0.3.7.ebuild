@@ -15,7 +15,7 @@ DESCRIPTION="Pypairix is a Python module for fast querying on a pairix-indexed b
 
 HOMEPAGE="https://github.com/4dn-dcic/pairix"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

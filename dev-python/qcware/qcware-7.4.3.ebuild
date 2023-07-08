@@ -15,7 +15,7 @@ DESCRIPTION="The python client for QC Ware's Forge SaaS quantum computing produc
 
 HOMEPAGE="http://github.com/qcware/platform_client_library_python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

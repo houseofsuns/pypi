@@ -15,7 +15,7 @@ DESCRIPTION="Start, stop, and inspect Yelp SOA services"
 
 HOMEPAGE="https://github.com/Yelp/service_configuration_lib"
 LICENSE="Copyright Yelp 2013, All Rights Reserved"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

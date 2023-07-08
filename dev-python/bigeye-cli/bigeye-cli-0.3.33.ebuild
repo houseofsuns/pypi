@@ -15,7 +15,7 @@ DESCRIPTION="Bigeye CLI offers developer tools for maintaining your developer wo
 
 HOMEPAGE="https://docs.bigeye.com/docs"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

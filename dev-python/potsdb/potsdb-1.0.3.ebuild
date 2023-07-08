@@ -15,7 +15,7 @@ DESCRIPTION="A Python client for OpenTSDB which creates a separate thread for TC
 
 HOMEPAGE="http://github.com/orionvm/potsdb"
 LICENSE="GNU GPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

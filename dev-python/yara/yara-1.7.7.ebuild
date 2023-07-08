@@ -15,7 +15,7 @@ DESCRIPTION="Compile YARA rules to test against files or strings"
 
 HOMEPAGE="http://code.google.com/p/yara-project/"
 LICENSE="Apache Software Licence"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

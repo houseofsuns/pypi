@@ -15,7 +15,7 @@ DESCRIPTION="Custom widget library for PyQt6, PyQt5, PySide6 and PySide2 (Qt for
 
 HOMEPAGE="http://github.com/learnpyqt/python-qtwidgets"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

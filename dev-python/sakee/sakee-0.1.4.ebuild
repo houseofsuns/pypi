@@ -15,7 +15,7 @@ DESCRIPTION="SAKÉ can help you to debug and develop Kodi Python add-ons"
 
 HOMEPAGE="https://github.com/retrospect-addon/kodi.emulator.ascii"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

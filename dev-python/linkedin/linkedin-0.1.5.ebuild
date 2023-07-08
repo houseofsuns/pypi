@@ -15,7 +15,7 @@ DESCRIPTION="A Python Library to interface with LinkedIn API, OAuth and JSON res
 
 HOMEPAGE="https://github.com/michaelhelmick/linkedin/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

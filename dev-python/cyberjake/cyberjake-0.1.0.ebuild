@@ -15,7 +15,7 @@ DESCRIPTION="Common code used in my programs"
 
 HOMEPAGE="https://github.com/Cyb3r-Jak3/common-python"
 LICENSE="MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Official Interactive Brokers API"
 
 HOMEPAGE="https://interactivebrokers.github.io/tws-api"
 LICENSE="IB API Non-Commercial License or the IB API Commercial License"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

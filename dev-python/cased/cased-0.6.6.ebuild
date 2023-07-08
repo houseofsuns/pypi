@@ -15,7 +15,7 @@ DESCRIPTION="Cased CLI adds security and visibility features to the command line
 
 HOMEPAGE="https://github.com/cased/cli"
 LICENSE="BSL 1.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

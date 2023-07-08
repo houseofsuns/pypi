@@ -15,7 +15,7 @@ DESCRIPTION="boost inference speed of T5 models by 5x & reduce the model size by
 
 HOMEPAGE="https://github.com/Ki6an/fastT5"
 LICENSE="apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

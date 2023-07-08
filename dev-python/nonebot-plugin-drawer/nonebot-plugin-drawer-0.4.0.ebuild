@@ -15,7 +15,7 @@ DESCRIPTION="适用于 Nonebot2 的AI画画插件(对接文心大模型API)"
 
 HOMEPAGE="https://github.com/CrazyBoyM/nonebot-plugin-drawer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

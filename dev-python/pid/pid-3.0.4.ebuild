@@ -15,7 +15,7 @@ DESCRIPTION="Pidfile featuring stale detection and file-locking, can also be use
 
 HOMEPAGE="https://github.com/trbs/pid/"
 LICENSE="ASL"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

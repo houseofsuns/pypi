@@ -15,7 +15,7 @@ DESCRIPTION="Create HTML profiling reports from Apache Spark DataFrames"
 
 HOMEPAGE="https://github.com/julioasotodv/spark-df-profiling"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

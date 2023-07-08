@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper for the TreeTagger text annotation tool from H.Schmid."
 
 HOMEPAGE="http://perso.limsi.fr/pointal/dev:treetaggerwrapper"
 LICENSE="GNU General Public License v3 or greater"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

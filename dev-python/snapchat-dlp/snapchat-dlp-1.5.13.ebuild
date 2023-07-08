@@ -15,7 +15,7 @@ DESCRIPTION="An update to snapchat-dlp, a Snapchat Public Stories Downloader."
 
 HOMEPAGE="https://github.com/Walmann/snapchat-dlp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

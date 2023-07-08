@@ -15,7 +15,7 @@ DESCRIPTION="A suite of the generalization-improvement techniques Stroke, Prunin
 
 HOMEPAGE="https://github.com/CharlesAverill/kerastroke/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Import and export IP-XACT XML to/from the systemrdl-compiler regist
 
 HOMEPAGE="https://github.com/SystemRDL/PeakRDL-ipxact"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

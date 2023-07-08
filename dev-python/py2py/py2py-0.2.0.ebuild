@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight P2P in Python 2.7+ and Python 3 via HTTP POST"
 
 HOMEPAGE="https://github.com/etkirsch/py2py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

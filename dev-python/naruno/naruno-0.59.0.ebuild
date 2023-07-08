@@ -15,7 +15,7 @@ DESCRIPTION="Naruno is a lightning-fast, secure, and scalable blockchain that is
 
 HOMEPAGE="https://github.com/Naruno/Naruno"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

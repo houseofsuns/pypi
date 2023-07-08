@@ -15,7 +15,7 @@ DESCRIPTION="Automated creation of project structure"
 
 HOMEPAGE="https://github.com/ByteOtter/nester"
 LICENSE="GPLv3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

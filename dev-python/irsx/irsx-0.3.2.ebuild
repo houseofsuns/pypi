@@ -15,7 +15,7 @@ DESCRIPTION="Turn the IRS' versioned XML 990's into python objects         with 
 
 HOMEPAGE="https://github.com/jsfenfen/990-xml-reader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

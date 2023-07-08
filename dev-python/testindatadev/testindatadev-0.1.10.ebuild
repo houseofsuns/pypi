@@ -15,7 +15,7 @@ DESCRIPTION="云测数据 数据集管理平台pythonSDK"
 
 HOMEPAGE="http://ai.testin.cn/"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

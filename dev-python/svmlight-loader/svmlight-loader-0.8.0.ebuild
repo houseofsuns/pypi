@@ -15,7 +15,7 @@ DESCRIPTION="A Cython-less implementation of the svmlight / libsvm sparse data f
 
 HOMEPAGE="https://github.com/Julian/svmlight-loader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

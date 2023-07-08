@@ -15,7 +15,7 @@ DESCRIPTION="odoo-pre-commit-hooks to use in pre-commit-config.yml files"
 
 HOMEPAGE="https://github.com/OCA/odoo-pre-commit-hooks"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

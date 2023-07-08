@@ -15,7 +15,7 @@ DESCRIPTION="pytest plugin for creating TestRail runs and adding results"
 
 HOMEPAGE="https://github.com/vietnq254/pytest-testrail-e2e/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A simple Python wrapper for the U.S. Census Geocoding Services API 
 
 HOMEPAGE="http://www.github.com/datadesk/python-censusbatchgeocoder/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An auth system for EVE Online to help in-game organizations manage 
 
 HOMEPAGE="https://gitlab.com/allianceauth/allianceauth"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

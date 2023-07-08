@@ -15,7 +15,7 @@ DESCRIPTION="Let's Encrypt/ACME V2 client replacement for Manuale. Manual or aut
 
 HOMEPAGE="https://github.com/candango/automatoes"
 LICENSE="Apache License V2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

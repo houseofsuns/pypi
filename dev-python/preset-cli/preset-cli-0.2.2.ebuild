@@ -15,7 +15,7 @@ DESCRIPTION="A CLI to interact with Preset (https://preset.io/) workspaces."
 
 HOMEPAGE="https://github.com/preset-io/backend-sdk"
 LICENSE="Other/Proprietary License"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

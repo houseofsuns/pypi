@@ -15,7 +15,7 @@ DESCRIPTION="Parser library for Wireshark's OUI database"
 
 HOMEPAGE="https://github.com/coolbho3k/manuf/"
 LICENSE="Apache License 2.0 or GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

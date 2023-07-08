@@ -15,7 +15,7 @@ DESCRIPTION="Spanish banks' CSB norm 43 converter to OFX, Homebank, json, yaml, 
 
 HOMEPAGE="https://bitbucket.org/wmj/csb43"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

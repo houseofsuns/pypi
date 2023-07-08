@@ -15,7 +15,7 @@ DESCRIPTION="Visual analytics for spatial analysis with PySAL."
 
 HOMEPAGE="https://github.com/pysal/splot"
 LICENSE="3-Clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

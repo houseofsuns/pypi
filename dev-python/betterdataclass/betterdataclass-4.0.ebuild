@@ -15,7 +15,7 @@ DESCRIPTION="A multipurpose dataclass libarary used for validation and data stru
 
 HOMEPAGE="https://github.com/dvnasutosh/betterdataclasses"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

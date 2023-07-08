@@ -15,7 +15,7 @@ DESCRIPTION="An interface to libseccomp using ctypes. API compatible with libsec
 
 HOMEPAGE="https://github.com/cptpcrd/pyseccomp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

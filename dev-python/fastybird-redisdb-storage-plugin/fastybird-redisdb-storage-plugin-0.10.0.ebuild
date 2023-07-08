@@ -15,7 +15,7 @@ DESCRIPTION="FastyBird Redis database state storage plugin"
 
 HOMEPAGE="https://github.com/FastyBird/redisdb-storage-plugin"
 LICENSE="Apache Software License Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

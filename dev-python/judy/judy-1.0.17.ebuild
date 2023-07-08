@@ -15,7 +15,7 @@ DESCRIPTION="A Python wrapper for Judy arrays, which provide fast and space-effi
 
 HOMEPAGE="https://github.com/arnimarj/py-judy/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

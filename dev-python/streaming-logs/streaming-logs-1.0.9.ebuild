@@ -15,7 +15,7 @@ DESCRIPTION="Streaming Logs SDK 4 Python."
 
 HOMEPAGE="https://location-world@dev.azure.com/location-world/Research%20and%20Development/_git/streaming-logs.py"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

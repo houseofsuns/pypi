@@ -15,7 +15,7 @@ DESCRIPTION="This is a pythonic simple yet complete system logger."
 
 HOMEPAGE="http://bachiraoun.github.io/pysimplelog/"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

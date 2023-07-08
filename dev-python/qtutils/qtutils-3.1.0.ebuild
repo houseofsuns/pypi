@@ -15,7 +15,7 @@ DESCRIPTION="PySide2/PyQt5 abstraction layer, mulithreading and UI loader utilit
 
 HOMEPAGE="https://github.com/philipstarkey/qtutils"
 LICENSE="2-clause BSD, 3-clause BSD see LICENSE.TXT for full conditions"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

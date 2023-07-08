@@ -15,7 +15,7 @@ DESCRIPTION="将 B 站 XML 弹幕转换为 ASS 弹幕"
 
 HOMEPAGE="https://github.com/yutto-dev/biliass"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

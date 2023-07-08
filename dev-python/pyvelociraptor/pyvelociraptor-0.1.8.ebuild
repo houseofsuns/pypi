@@ -15,7 +15,7 @@ DESCRIPTION="PyVelociraptor is the python binding for the Velociraptor API"
 
 HOMEPAGE="https://github.com/Velocidex/pyvelociraptor"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

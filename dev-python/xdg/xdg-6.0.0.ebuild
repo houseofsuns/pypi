@@ -15,7 +15,7 @@ DESCRIPTION="Variables defined by the XDG Base Directory Specification"
 
 HOMEPAGE="https://github.com/srstevenson/xdg-base-dirs"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

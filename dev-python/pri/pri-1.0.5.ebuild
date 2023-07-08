@@ -15,7 +15,7 @@ DESCRIPTION="Pip Repository Manager. Switch PyPi mirror."
 
 HOMEPAGE="https://github.com/xiyusullos/PipRepositoryIndex"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

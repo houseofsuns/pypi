@@ -15,7 +15,7 @@ DESCRIPTION="适用于 NoneBot2 插件的被动消息构造集成"
 
 HOMEPAGE="https://github.com/NCBM/nonebot-plugin-msgbuf"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

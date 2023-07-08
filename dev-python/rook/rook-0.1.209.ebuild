@@ -15,7 +15,7 @@ DESCRIPTION="Rook is a Python package for on the fly debugging and data extracti
 
 HOMEPAGE="http://rookout.com/"
 LICENSE="https://get.rookout.com/SDK_LICENSE.pdf"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

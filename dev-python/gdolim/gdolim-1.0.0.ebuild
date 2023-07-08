@@ -15,7 +15,7 @@ DESCRIPTION="Google Spreadsheets Client"
 
 HOMEPAGE="https://github.com/jossef/gdolim"
 LICENSE="Apache v2"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

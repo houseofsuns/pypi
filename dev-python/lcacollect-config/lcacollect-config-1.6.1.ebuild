@@ -15,7 +15,7 @@ DESCRIPTION="This package contains shared config and utils to be used across LCA
 
 HOMEPAGE="https://github.com/lcacollect/shared-config-backend"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

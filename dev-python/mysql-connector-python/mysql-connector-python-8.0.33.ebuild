@@ -15,7 +15,7 @@ DESCRIPTION="MySQL driver written in Python"
 
 HOMEPAGE="http://dev.mysql.com/doc/connector-python/en/index.html"
 LICENSE="GNU GPLv2 with FOSS License Exception"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="RADIUS authentication module"
 
 HOMEPAGE="http://github.com/btimby/py-radius/"
 LICENSE="Copyright c 1999, Stuart Bishop <zen@shangri-la.dropbear.id.au>"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

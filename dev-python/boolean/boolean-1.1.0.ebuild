@@ -15,7 +15,7 @@ DESCRIPTION="Converts string to their equivalent boolean value"
 
 HOMEPAGE="https://github.com/scisco/boolean"
 LICENSE="CC0-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

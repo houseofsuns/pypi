@@ -15,7 +15,7 @@ DESCRIPTION="Sphinx Extension that turns documentation into presentations."
 
 HOMEPAGE="https://github.com/wpilibsuite/sphinx-presentations"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

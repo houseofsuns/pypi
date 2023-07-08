@@ -15,7 +15,7 @@ DESCRIPTION="Set of tools to clean up the QCDB repository."
 
 HOMEPAGE="https://gitlab.cern.ch/AliceO2Group/QualityControl/Framework/script/RepoCleaner"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

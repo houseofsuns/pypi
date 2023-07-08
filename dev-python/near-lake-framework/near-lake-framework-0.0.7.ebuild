@@ -15,7 +15,7 @@ DESCRIPTION="Python Library to connect to the NEAR Lake S3 and stream the data"
 
 HOMEPAGE="https://github.com/frolvanya/near-lake-framework-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

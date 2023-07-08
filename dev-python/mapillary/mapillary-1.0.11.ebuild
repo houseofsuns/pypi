@@ -15,7 +15,7 @@ DESCRIPTION="A Python 3 library built on the Mapillary API v4 to facilitate retr
 
 HOMEPAGE="https://github.com/mapillary/mapillary-python-sdk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

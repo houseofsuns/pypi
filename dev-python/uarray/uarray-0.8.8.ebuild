@@ -15,7 +15,7 @@ DESCRIPTION="Array interface object for Python with pluggable backends and a mul
 
 HOMEPAGE="https://github.com/Quansight-Labs/uarray/"
 LICENSE="BSD 3-Clause License Revised"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

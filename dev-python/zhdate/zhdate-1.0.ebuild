@@ -15,7 +15,7 @@ DESCRIPTION="A pachage to convert Chinese Lunar Calendar to datetime"
 
 HOMEPAGE="https://github.com/CutePandaSh/zhdate"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-1${REALVERSION}-arm64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-1${REALVERSION}-arm64.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.macosx-1${REALVERSION}-arm64.tar.gz"
 RESTRICT="test"
 

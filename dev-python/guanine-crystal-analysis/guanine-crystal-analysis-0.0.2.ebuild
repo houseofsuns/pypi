@@ -15,7 +15,7 @@ DESCRIPTION="A plugin for the guanine crystal segmentation, classification and c
 
 HOMEPAGE="https://github.com/biapol/guanine-crystal-analysis"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

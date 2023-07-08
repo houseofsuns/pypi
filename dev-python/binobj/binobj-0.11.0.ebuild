@@ -15,7 +15,7 @@ DESCRIPTION="A Python library for reading and writing structured binary data."
 
 HOMEPAGE="https://dargueta.github.io/binobj"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

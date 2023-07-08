@@ -15,7 +15,7 @@ DESCRIPTION="Tool to load UK bank holidays from GOV.UK"
 
 HOMEPAGE="https://github.com/ministryofjustice/govuk-bank-holidays"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

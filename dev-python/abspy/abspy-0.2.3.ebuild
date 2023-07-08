@@ -15,7 +15,7 @@ DESCRIPTION="A Python tool for 3D adaptive binary space partitioning and beyond"
 
 HOMEPAGE="https://github.com/chenzhaiyu/abspy"
 LICENSE="'MIT'"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

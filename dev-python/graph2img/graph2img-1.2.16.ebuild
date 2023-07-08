@@ -15,7 +15,7 @@ DESCRIPTION="graph2img: convert a graph to a png file."
 
 HOMEPAGE="https://github.com/ForwardStar/graph_drawer"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

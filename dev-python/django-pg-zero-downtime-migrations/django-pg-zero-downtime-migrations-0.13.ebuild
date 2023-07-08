@@ -15,7 +15,7 @@ DESCRIPTION="Django postgresql backend that apply migrations with respect to dat
 
 HOMEPAGE="https://github.com/tbicr/django-pg-zero-downtime-migrations"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

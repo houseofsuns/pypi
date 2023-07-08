@@ -15,7 +15,7 @@ DESCRIPTION="Python module to get stock data from Yahoo! Finance"
 
 HOMEPAGE="https://github.com/lukaszbanasiak/yahoo-finance"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A distributed hyperparameter optimizer for machine learning that li
 
 HOMEPAGE="http://github.com/ErikGartner/hyperdock"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

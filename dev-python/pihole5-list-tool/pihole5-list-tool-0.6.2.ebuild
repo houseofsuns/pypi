@@ -15,7 +15,7 @@ DESCRIPTION="A tool for quickly and easily bulk adding allowlists and ad/blockli
 
 HOMEPAGE="https://github.com/jessedp/pihole5-list-tool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

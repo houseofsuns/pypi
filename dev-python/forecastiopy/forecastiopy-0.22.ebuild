@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper to access weather data provided by darksky.net"
 
 HOMEPAGE="http://github.com/dvdme/forecastiopy"
 LICENSE="Eclipse Public License"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

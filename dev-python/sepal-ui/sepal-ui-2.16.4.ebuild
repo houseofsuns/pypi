@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper for ipyvuetify widgets to unify the display of voila dashbo
 
 HOMEPAGE="https://github.com/12rambau/sepal_ui"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Crossbar.io multi-protocol (WAMP/WebSocket, REST/HTTP, MQTT) applic
 
 HOMEPAGE="http://crossbar.io/"
 LICENSE="European Union Public Licence 1.2 EUPL 1.2"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

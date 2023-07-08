@@ -15,7 +15,7 @@ DESCRIPTION="Converter between Full-width Japanese and Half-width Japanese"
 
 HOMEPAGE="https://github.com/sspiral/zenhan-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.2.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.2.tar.gz"
 RESTRICT="test"
 

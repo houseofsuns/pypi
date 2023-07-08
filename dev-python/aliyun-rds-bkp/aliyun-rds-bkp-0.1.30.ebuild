@@ -15,7 +15,7 @@ DESCRIPTION="A small tool to download db files     from Aliyun RDS per schedule"
 
 HOMEPAGE="https://github.com/life-game-player/aliyun-rds-bkp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

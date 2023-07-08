@@ -15,7 +15,7 @@ DESCRIPTION="Template Text Parser"
 
 HOMEPAGE="https://github.com/dmulyalin/ttp"
 LICENSE="MIT"
-SRC_URI="h${REALNAME}s://files.pythonhosted.org/packages/6e/4f/b95e48d3b653e1b1494a3a5b15614db5a340826282c5389e38cb2248da39/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

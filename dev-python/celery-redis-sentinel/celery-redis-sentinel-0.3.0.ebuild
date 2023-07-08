@@ -15,7 +15,7 @@ DESCRIPTION="Celery broker and results backend implementation for Redis Sentinel
 
 HOMEPAGE="https://github.com/dealertrack/celery-redis-sentinel"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

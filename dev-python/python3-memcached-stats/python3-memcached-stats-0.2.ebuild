@@ -15,7 +15,7 @@ DESCRIPTION="Python3 class to gather stats and slab keys from memcached via the 
 
 HOMEPAGE="https://github.com/lightningsoon/python3-memcached-stats"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

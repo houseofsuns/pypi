@@ -15,7 +15,7 @@ DESCRIPTION="Python DBM style wrapper around LMDB (Lightning Memory-Mapped Datab
 
 HOMEPAGE="https://github.com/Dobatymo/lmdb-python-dbm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

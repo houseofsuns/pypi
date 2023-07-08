@@ -15,7 +15,7 @@ DESCRIPTION="Adds variables to python traceback. Simple, lightweight, controllab
 
 HOMEPAGE="https://github.com/andy-landy/traceback_with_variables"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

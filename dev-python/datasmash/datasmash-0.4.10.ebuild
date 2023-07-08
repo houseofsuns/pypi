@@ -15,7 +15,7 @@ DESCRIPTION="Quantifier of universal similarity amongst arbitrary data streams w
 
 HOMEPAGE="https://gitlab.datadrivendiscovery.org/uchicago/datasmash"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

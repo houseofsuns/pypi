@@ -15,7 +15,7 @@ DESCRIPTION="log for python like log4j2"
 
 HOMEPAGE="https://github.com/starwithmoon/log4p"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

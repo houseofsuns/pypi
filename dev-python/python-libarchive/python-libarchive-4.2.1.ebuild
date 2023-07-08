@@ -15,7 +15,7 @@ DESCRIPTION="A libarchive wrapper for Python supporting password protection."
 
 HOMEPAGE="https://github.com/smartfile/python-libarchive"
 LICENSE="BSD-style license"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

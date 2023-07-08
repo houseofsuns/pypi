@@ -15,7 +15,7 @@ DESCRIPTION="2048 written in Python by the Ladue High School Computer Science Cl
 
 HOMEPAGE="https://github.com/Ta180m/2048"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/2/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

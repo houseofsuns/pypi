@@ -15,7 +15,7 @@ DESCRIPTION="Manage the configuration and tools on your workstation without both
 
 HOMEPAGE="https://github.com/koterpillar/mybox"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

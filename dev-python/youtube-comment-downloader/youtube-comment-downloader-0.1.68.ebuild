@@ -15,7 +15,7 @@ DESCRIPTION="Simple script for downloading Youtube comments without using the Yo
 
 HOMEPAGE="https://github.com/egbertbouman/youtube-comment-downloader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

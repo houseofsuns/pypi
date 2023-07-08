@@ -15,7 +15,7 @@ DESCRIPTION="This is a simple app, which supplies a single template tag for mark
 
 HOMEPAGE="http://github.com/svetlyak40wt/django-markdown2/"
 LICENSE="New BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

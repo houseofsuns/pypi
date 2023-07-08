@@ -15,7 +15,7 @@ DESCRIPTION="Backport of pprint from Python 3.9 to Python 3.6-3.8"
 
 HOMEPAGE="https://github.com/domdfcoding/pprint36"
 LICENSE="PSFLicense"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="shellfoundry - Quali tool for creating, building and installing Clo
 
 HOMEPAGE="https://github.com/QualiSystems/shellfoundry"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

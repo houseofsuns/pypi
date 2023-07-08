@@ -15,7 +15,7 @@ DESCRIPTION="kabuki is a python toolbox that allows easy creation of hierarchica
 
 HOMEPAGE="http://github.com/hddm-devs/kabuki"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

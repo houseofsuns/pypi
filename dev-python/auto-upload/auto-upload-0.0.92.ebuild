@@ -15,7 +15,7 @@ DESCRIPTION="Upload local resources to PT trackers automatically."
 
 HOMEPAGE="https://github.com/dongshuyan/Auto_Upload"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

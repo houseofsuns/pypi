@@ -15,7 +15,7 @@ DESCRIPTION="SABCOM is an open source, easy-to-use, social network, agent-based,
 
 HOMEPAGE="https://github.com/blackrhinoabm/sabcom"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

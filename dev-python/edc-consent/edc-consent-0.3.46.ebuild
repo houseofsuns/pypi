@@ -15,7 +15,7 @@ DESCRIPTION="Base models, forms and admin for participant ICF for clinicedc/edc 
 
 HOMEPAGE="https://github.com/clinicedc/edc-consent"
 LICENSE="GPL license, see LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

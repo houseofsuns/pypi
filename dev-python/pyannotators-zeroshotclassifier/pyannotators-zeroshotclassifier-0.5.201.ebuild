@@ -15,7 +15,7 @@ DESCRIPTION="Annotator based on Huggingface transformers zero-shot classificatio
 
 HOMEPAGE="https://github.com/oterrier/pyannotators_zeroshotclassifier/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

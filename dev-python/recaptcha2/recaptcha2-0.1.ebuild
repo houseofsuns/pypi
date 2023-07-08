@@ -15,7 +15,7 @@ DESCRIPTION="A minimalist Python client for the Google reCAPTCHA 2.0 API"
 
 HOMEPAGE="https://github.com/bryanchow/python-recaptcha2"
 LICENSE="WTFPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

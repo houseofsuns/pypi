@@ -15,7 +15,7 @@ DESCRIPTION="Extract keywords/keyphrases from text using the RAKE algorithm."
 
 HOMEPAGE="https://github.com/andrewrosss/rake-spacy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

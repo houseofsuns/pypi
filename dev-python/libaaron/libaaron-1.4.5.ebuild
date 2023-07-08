@@ -15,7 +15,7 @@ DESCRIPTION="trivial functions I like to pack along for various things"
 
 HOMEPAGE="https://github.com/ninjaaron/libaaron"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="This is a simple wraper to read .mat files from Matlab"
 
 HOMEPAGE="https://github.com/rjlopez2/napari-mat-file-reader"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

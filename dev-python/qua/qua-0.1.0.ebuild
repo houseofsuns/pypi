@@ -15,7 +15,7 @@ DESCRIPTION="SDK to interact with a quantum computer at the pulse level"
 
 HOMEPAGE="https://github.com/qua-platform/qua-sdk-py"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

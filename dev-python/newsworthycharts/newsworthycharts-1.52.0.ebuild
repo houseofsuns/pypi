@@ -15,7 +15,7 @@ DESCRIPTION="Matplotlib wrapper to create charts and publish them on Amazon S3"
 
 HOMEPAGE="https://github.com/jplusplus/newsworthycharts"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

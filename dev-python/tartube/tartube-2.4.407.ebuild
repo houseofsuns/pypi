@@ -15,7 +15,7 @@ DESCRIPTION="GUI front-end for youtube-dl, yt-dlp and other compatible video dow
 
 HOMEPAGE="https://tartube.sourceforge.io"
 LICENSE="LGPL-2.1+"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

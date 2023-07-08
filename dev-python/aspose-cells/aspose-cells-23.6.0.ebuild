@@ -15,7 +15,7 @@ DESCRIPTION="A powerful library for manipulating and converting Excel (XLS, XLSX
 
 HOMEPAGE="https://products.aspose.com/cells/python-java"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

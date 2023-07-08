@@ -15,7 +15,7 @@ DESCRIPTION="Python Library & Command Line Tool to Transmit RF Signals via C1101
 
 HOMEPAGE="https://github.com/fphammerle/python-cc1101"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

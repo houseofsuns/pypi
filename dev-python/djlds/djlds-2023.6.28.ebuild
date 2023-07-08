@@ -15,7 +15,7 @@ DESCRIPTION="常用 Django 功能集合，为了多平台，多电脑调用方�
 
 HOMEPAGE="https://github.com/ldsxp/django-utils-lds"
 LICENSE="GNU GPL 3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

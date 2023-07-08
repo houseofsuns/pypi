@@ -15,7 +15,7 @@ DESCRIPTION="encoder, decoder, and lint/validator for JSON (JavaScript Object No
 
 HOMEPAGE="http://deron.meranda.us/python/demjson/"
 LICENSE="GNU LGPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

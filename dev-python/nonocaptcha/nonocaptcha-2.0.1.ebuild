@@ -15,7 +15,7 @@ DESCRIPTION="An asynchronized Python library to automate solving ReCAPTCHA v2 by
 
 HOMEPAGE="https://github.com/mikeyy/nonoCAPTCHA"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

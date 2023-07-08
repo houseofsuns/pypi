@@ -15,7 +15,7 @@ DESCRIPTION="A Python library and simple command-line frontend for computational
 
 HOMEPAGE="http://gc3pie.readthedocs.io/"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A computational workflow for designing libraries of guide RNAs for 
 
 HOMEPAGE="https://github.com/rraadd88/beditor"
 LICENSE="General Public License v. 3"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A flake8 plugin to ban f-strings"
 
 HOMEPAGE="https://github.com/northisup/flake8-no-unnecessary-fstrings"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

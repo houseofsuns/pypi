@@ -15,7 +15,7 @@ DESCRIPTION="OpenThaiGPT focuses on developing a Thai Chatbot system to have cap
 
 HOMEPAGE="https://github.com/OpenThaiGPT/openthaigpt"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python® package enables you to launch MATLAB® and access it from 
 
 HOMEPAGE="https://github.com/mathworks/matlab-proxy/"
 LICENSE="MATHWORKS CLOUD REFERENCE ARCHITECTURE LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

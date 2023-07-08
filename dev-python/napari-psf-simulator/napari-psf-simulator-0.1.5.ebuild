@@ -15,7 +15,7 @@ DESCRIPTION="A plugin for simulations of the Point Spread Function, with aberrat
 
 HOMEPAGE="https://github.com/andreabassi78/napari-psf-simulator"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

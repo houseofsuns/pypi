@@ -15,7 +15,7 @@ DESCRIPTION="machine learning core library"
 
 HOMEPAGE="http://10.0.1.31/ML/ml-storage/ml-etl/"
 LICENSE="Gogoro Inc."
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

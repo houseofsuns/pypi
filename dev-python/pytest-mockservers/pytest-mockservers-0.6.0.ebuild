@@ -15,7 +15,7 @@ DESCRIPTION="A set of fixtures to test your requests to HTTP/UDP servers"
 
 HOMEPAGE="https://github.com/Gr1N/pytest-mockservers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

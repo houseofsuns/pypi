@@ -15,7 +15,7 @@ DESCRIPTION="Tools for creating and verifying consumer driven contracts using th
 
 HOMEPAGE="https://github.com/reecetech/pactman"
 LICENSE="MIT, Copyright c 2018 ReeceTech"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

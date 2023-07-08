@@ -15,7 +15,7 @@ DESCRIPTION="nose extends unittest to make testing easier - python3 version"
 
 HOMEPAGE="https://github.com/atsb/nose-py3"
 LICENSE="GNU LGPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

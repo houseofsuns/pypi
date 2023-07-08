@@ -15,7 +15,7 @@ DESCRIPTION="Utility to manage file systems on Atari 8-bit (DOS 2) and Apple ][ 
 
 HOMEPAGE="https://github.com/robmcmullen/atrcopy"
 LICENSE="MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

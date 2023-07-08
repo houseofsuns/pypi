@@ -15,7 +15,7 @@ DESCRIPTION="Efficient querying of genomic databases directly into programming e
 
 HOMEPAGE="https://github.com/pachterlab/gget"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

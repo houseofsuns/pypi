@@ -15,7 +15,7 @@ DESCRIPTION="A simple async Python module to bypass Cloudflare's anti-bot page. 
 
 HOMEPAGE="https://github.com/pavlodvornikov/aiocfscrape"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

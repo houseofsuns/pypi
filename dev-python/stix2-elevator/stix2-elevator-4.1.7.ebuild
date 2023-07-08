@@ -15,7 +15,7 @@ DESCRIPTION="Utility to upgrade STIX 1.X and CybOX content to STIX 2.X"
 
 HOMEPAGE="https://oasis-open.github.io/cti-documentation/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

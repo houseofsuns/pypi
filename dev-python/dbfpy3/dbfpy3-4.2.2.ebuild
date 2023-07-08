@@ -15,7 +15,7 @@ DESCRIPTION="Port to Python 3. Dbfpy is a python-only module for reading and wri
 
 HOMEPAGE="https://github.com/frankyxhl/dbfpy3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

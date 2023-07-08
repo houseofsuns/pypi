@@ -15,7 +15,7 @@ DESCRIPTION="Redis-extensions is a collection of custom extensions for Redis-py.
 
 HOMEPAGE="https://github.com/RedisClub/redis-extensions-py/tree/redis4.x+py3.7+"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

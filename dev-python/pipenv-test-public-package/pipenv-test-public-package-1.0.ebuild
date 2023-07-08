@@ -15,7 +15,7 @@ DESCRIPTION=""
 
 HOMEPAGE="https://gist.github.com/ryanwilsonperkin/d8d591e08e0996414eea27b25f4bb68c"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

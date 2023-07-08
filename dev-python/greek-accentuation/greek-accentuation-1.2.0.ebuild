@@ -15,7 +15,7 @@ DESCRIPTION="Python 3 library for accenting (and analyzing the accentuation of) 
 
 HOMEPAGE="http://github.com/jtauber/greek-accentuation"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

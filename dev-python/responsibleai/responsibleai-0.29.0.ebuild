@@ -15,7 +15,7 @@ DESCRIPTION="SDK API to explain models, generate counterfactual examples, analyz
 
 HOMEPAGE="https://github.com/microsoft/responsible-ai-toolbox"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

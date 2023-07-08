@@ -15,7 +15,7 @@ DESCRIPTION="Utility Library"
 
 HOMEPAGE="https://github.com/OnroerendErfgoed/oe_utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.linux-x86_64.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 

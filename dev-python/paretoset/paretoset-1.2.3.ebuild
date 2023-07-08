@@ -15,7 +15,7 @@ DESCRIPTION="Compute the Pareto (non-dominated) set, i.e., skyline operator/quer
 
 HOMEPAGE="https://github.com/tommyod/paretoset"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

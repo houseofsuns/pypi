@@ -15,7 +15,7 @@ DESCRIPTION="Frida CLI tools"
 
 HOMEPAGE="https://frida.re"
 LICENSE="wxWindows Library Licence, Version 3.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

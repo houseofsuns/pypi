@@ -15,7 +15,7 @@ DESCRIPTION="A one step database access tool, built on the SQLAlchemy ORM."
 
 HOMEPAGE="http://bitbucket.org/zzzeek/sqlsoup"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

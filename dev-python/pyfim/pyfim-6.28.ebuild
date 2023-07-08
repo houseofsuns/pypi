@@ -15,7 +15,7 @@ DESCRIPTION="Frequent Item Set Mining and Association Rule Induction for Python"
 
 HOMEPAGE="http://www.borgelt.net/pyfim.html"
 LICENSE="MIT License Expat License"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

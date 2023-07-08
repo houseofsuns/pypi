@@ -15,7 +15,7 @@ DESCRIPTION="Writing user interfaces without all that ugly mucking about in hype
 
 HOMEPAGE="http://www.npcole.com/npyscreen/"
 LICENSE="New BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

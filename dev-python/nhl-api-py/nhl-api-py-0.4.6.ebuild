@@ -15,7 +15,7 @@ DESCRIPTION="NHL API.  For standings, team stats, outcomes, player information. 
 
 HOMEPAGE="https://github.com/coreyjs/nhl-api-py"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A search (cmd+k) modal, for the Django admin UI, that searches your
 
 HOMEPAGE="https://github.com/ahmedaljawahiry/django-admin-site-search/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

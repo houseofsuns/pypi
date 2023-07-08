@@ -15,7 +15,7 @@ DESCRIPTION="osu! pp and difficulty calculator, C bindings"
 
 HOMEPAGE="https://github.com/Francesco149/oppai-ng"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

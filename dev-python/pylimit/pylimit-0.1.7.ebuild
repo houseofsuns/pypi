@@ -15,7 +15,7 @@ DESCRIPTION="A distributed rate limiting library for python using leaky bucket a
 
 HOMEPAGE="https://github.com/biplap-sarkar/pylimit"
 LICENSE="Apache License, Version 2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python DB API 2.0 (PEP 249) client for Amazon Athena"
 
 HOMEPAGE="https://github.com/laughingman7743/PyAthena/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

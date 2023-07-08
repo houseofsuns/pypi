@@ -15,7 +15,7 @@ DESCRIPTION="A zero-dependency, local, fast, tiny ip-address to country lookup"
 
 HOMEPAGE="https://github.com/statsig-io/ip3country-py"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

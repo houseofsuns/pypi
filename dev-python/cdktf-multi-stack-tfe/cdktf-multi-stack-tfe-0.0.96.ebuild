@@ -15,7 +15,7 @@ DESCRIPTION="Sets up TFE / TFC workspaces for all stacks based on a seed stack."
 
 HOMEPAGE="https://github.com/DanielMSchmidt/cdktf-multi-stack-tfe.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python Electronic Design Automation"
 
 HOMEPAGE="https://github.com/cjdrake/pyeda"
 LICENSE="Copyright c 2012, Chris Drake"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

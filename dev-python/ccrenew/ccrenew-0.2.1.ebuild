@@ -15,7 +15,7 @@ DESCRIPTION="Utilities for running Cypress Creek Renewables Performance Engineer
 
 HOMEPAGE="https://cypresscreekrenew.sharepoint.com/:u:/s/AM-Performance/EdhVQHbS4n9Jm022irFSFiABmo6gcEW3KTmV0qEkfHW84Q?e=zxokuU"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

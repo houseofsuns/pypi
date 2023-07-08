@@ -15,7 +15,7 @@ DESCRIPTION="Library for F5 Networks iControl API"
 
 HOMEPAGE="http://devcentral.f5.com"
 LICENSE="https://devcentral.f5.com/resources/devcentral-eula"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

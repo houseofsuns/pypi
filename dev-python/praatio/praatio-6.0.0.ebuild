@@ -15,7 +15,7 @@ DESCRIPTION="A library for working with praat, textgrids, time aligned audio tra
 
 HOMEPAGE="https://github.com/timmahrt/praatIO"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

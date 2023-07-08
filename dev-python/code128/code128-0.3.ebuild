@@ -15,7 +15,7 @@ DESCRIPTION="Create code128 barcodes"
 
 HOMEPAGE="https://bitbucket.org/01100101/code128"
 LICENSE="LGPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 

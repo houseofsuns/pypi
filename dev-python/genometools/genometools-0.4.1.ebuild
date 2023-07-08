@@ -15,7 +15,7 @@ DESCRIPTION="GenomeTools: A Python Toolkit for Working with Genomic Data."
 
 HOMEPAGE="https://github.com/flo-compbio/genometools"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

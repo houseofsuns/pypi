@@ -15,7 +15,7 @@ DESCRIPTION="A package for predicting the number of daily deaths"
 
 HOMEPAGE="https://github.com/ytakefuji/covid-19_daily_death_prediction"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

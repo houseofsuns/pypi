@@ -15,7 +15,7 @@ DESCRIPTION="SSL wrapper for socket objects (2.3, 2.4, 2.5 compatible)"
 
 HOMEPAGE="https://github.com/pypa/ssl"
 LICENSE="Python MIT-like"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

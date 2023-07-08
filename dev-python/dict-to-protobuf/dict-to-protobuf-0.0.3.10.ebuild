@@ -15,7 +15,7 @@ DESCRIPTION="A teeny Python library for creating protobuf dicts from python dict
 
 HOMEPAGE="https://github.com/davyzhang/dict-to-protobuf"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

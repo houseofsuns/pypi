@@ -15,7 +15,7 @@ DESCRIPTION="Deploy DL/ ML inference pipelines with minimal extra code."
 
 HOMEPAGE="https://github.com/notAI-tech/fastDeploy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

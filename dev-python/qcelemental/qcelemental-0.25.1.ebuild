@@ -15,7 +15,7 @@ DESCRIPTION="Essentials for Quantum Chemistry."
 
 HOMEPAGE="https://github.com/MolSSI/QCElemental"
 LICENSE="BSD-3C"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

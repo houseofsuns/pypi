@@ -15,7 +15,7 @@ DESCRIPTION="高并发reids队列,分布式爬虫利器(High concurrency RedisQu
 
 HOMEPAGE="https://github.com/abo123456789/redis-queue-tool"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

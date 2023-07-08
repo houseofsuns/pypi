@@ -15,7 +15,7 @@ DESCRIPTION="This is nwbwidgets, widgets for viewing the contents of a NWB-file 
 
 HOMEPAGE="https://github.com/NeurodataWithoutBorders/nwb-jupyter-widgets"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

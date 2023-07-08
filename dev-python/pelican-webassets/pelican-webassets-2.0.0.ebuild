@@ -15,7 +15,7 @@ DESCRIPTION="Pelican plugin to manage web assets such as CSS and JS files"
 
 HOMEPAGE="https://github.com/pelican-plugins/webassets"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

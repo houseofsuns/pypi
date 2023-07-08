@@ -15,7 +15,7 @@ DESCRIPTION="ReadMe API Metrics SDK"
 
 HOMEPAGE="https://github.com/readmeio/metrics-sdks/tree/main/packages/python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

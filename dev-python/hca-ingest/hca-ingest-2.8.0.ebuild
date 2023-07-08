@@ -15,7 +15,7 @@ DESCRIPTION="A library to communicate with the Human Cell Atlas ingest API hoste
 
 HOMEPAGE="https://github.com/ebi-ait/ingest-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

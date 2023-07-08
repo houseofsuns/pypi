@@ -15,7 +15,7 @@ DESCRIPTION="Python library for the ST7735 controlled 1.8inch display from AZ-De
 
 HOMEPAGE="https://github.com/mrbluesky125/az-st7735"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python Error Monitoring and Reporting"
 
 HOMEPAGE="http://github.com/shopkick/flawless"
 LICENSE="MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

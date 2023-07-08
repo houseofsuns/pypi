@@ -15,7 +15,7 @@ DESCRIPTION="Flake8 plugin to enforce the new Union and Optional annotation synt
 
 HOMEPAGE="https://github.com/xome4ok/flake8-new-union-types"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

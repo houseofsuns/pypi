@@ -15,7 +15,7 @@ DESCRIPTION="A package for unsupervised time series anomaly detection"
 
 HOMEPAGE="https://github.com/arundo/adtk"
 LICENSE="Mozilla Public License 2.0 MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

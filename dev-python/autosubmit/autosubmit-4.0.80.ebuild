@@ -15,7 +15,7 @@ DESCRIPTION="Autosubmit is a Python-based workflow manager to create, manage and
 
 HOMEPAGE="http://www.bsc.es/projects/earthscience/autosubmit/"
 LICENSE="GNU GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

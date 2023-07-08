@@ -15,7 +15,7 @@ DESCRIPTION="Read and write Generic Feature Format (GFF) with Biopython integrat
 
 HOMEPAGE="https://github.com/chapmanb/bcbb/tree/master/gff"
 LICENSE="Biopython License"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

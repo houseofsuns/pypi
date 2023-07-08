@@ -15,7 +15,7 @@ DESCRIPTION="Napari plugin for easy, memory-efficient import of large images."
 
 HOMEPAGE="https://github.com/hiroalchem/napari-large-image-importer"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Tool for creating (and persisting) SQLAlchemy entities from a simpl
 
 HOMEPAGE="https://github.com/RiceKab/sqlalchemy-seeder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

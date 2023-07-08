@@ -15,7 +15,7 @@ DESCRIPTION="Muses from La Passion des Poèmes."
 
 HOMEPAGE="https://gitlab.com/lpdp/muses/-/wikis/Accueil"
 LICENSE="GNU Lesser General Public License v3 LGPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

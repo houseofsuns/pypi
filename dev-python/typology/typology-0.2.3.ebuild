@@ -15,7 +15,7 @@ DESCRIPTION="Python formats derived from vocabulary concepts."
 
 HOMEPAGE="https://github.com/wefindx/typology"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

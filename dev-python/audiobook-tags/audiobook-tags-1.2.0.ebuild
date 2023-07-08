@@ -15,7 +15,7 @@ DESCRIPTION="Fix mp3 tags to use in iTunes/iPhone audiobooks"
 
 HOMEPAGE="https://andgineer.github.io/audiobook-tags/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

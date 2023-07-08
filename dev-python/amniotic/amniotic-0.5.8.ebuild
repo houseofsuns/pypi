@@ -15,7 +15,7 @@ DESCRIPTION="A multi-output ambient sound mixer for Home Assistant"
 
 HOMEPAGE="https://link.frontmatter.ai/amniotic"
 LICENSE="Copyright  2022 Frontmatter. All rights reserved."
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

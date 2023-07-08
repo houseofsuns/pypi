@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper around the different PriceCypher APIs"
 
 HOMEPAGE="https://github.com/marketredesign/pricecypher_python_sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

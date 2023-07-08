@@ -15,7 +15,7 @@ DESCRIPTION="4D Genome Browser Workflow."
 
 HOMEPAGE="https://github.com/4dgb/4DGBWorkflow"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/4/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Type inference for Jinja2 templates."
 
 HOMEPAGE="https://jinja2schema.readthedocs.io"
 LICENSE="Copyright c 2014 by Anton Romanovich."
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

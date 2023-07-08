@@ -15,7 +15,7 @@ DESCRIPTION="Model API: model wrappers and pipelines from Open Model Zoo"
 
 HOMEPAGE="https://github.com/openvinotoolkit/open_model_zoo/tree/develop/demos/common/python/openvino"
 LICENSE="OSI Approved :: Apache Software License"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

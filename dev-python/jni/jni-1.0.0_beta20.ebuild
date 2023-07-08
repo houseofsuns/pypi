@@ -15,7 +15,7 @@ DESCRIPTION="Python bridge for the Java Native Interface."
 
 HOMEPAGE="https://pypi.org/project/jni/"
 LICENSE="Creative Commons BY-NC-ND 4.0 License ; https://creativecommons.org/licenses/by-nc-nd/4.0 ; Copyright c 2004-2022 Adam Karpierz, All Rights Reserved, Licensed under proprietary License"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

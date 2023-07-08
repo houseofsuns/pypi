@@ -15,7 +15,7 @@ DESCRIPTION="Wavelet Matrix/Tree succinct data structure for full text search (u
 
 HOMEPAGE="https://github.com/ikegami-yukino/shellinford-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

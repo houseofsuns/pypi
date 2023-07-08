@@ -15,7 +15,7 @@ DESCRIPTION="Simple node addition tool for onnx. Simple Node Addition for ONNX."
 
 HOMEPAGE="https://github.com/PINTO0309/sna4onnx"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

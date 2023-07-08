@@ -15,7 +15,7 @@ DESCRIPTION="Nifi-Python-Api: A convenient Python wrapper for the Apache NiFi Re
 
 HOMEPAGE="https://github.com/Chaffelson/nipyapi"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

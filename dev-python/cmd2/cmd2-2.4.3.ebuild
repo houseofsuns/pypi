@@ -15,7 +15,7 @@ DESCRIPTION="cmd2 - quickly build feature-rich and user-friendly interactive com
 
 HOMEPAGE="https://github.com/python-cmd2/cmd2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

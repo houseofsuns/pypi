@@ -15,7 +15,7 @@ DESCRIPTION="Tools to pipeline bulk analyses of EEG and other modalities."
 
 HOMEPAGE="https://gitlab.com/open-source-brain/peegy/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

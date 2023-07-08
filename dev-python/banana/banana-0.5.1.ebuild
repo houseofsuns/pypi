@@ -15,7 +15,7 @@ DESCRIPTION="Brain imAgiNg Analysis iN Arcana (Banana): brain imaging analysis w
 
 HOMEPAGE="https://github.com/MonashBI/banana"
 LICENSE="The Apache Software Licence 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

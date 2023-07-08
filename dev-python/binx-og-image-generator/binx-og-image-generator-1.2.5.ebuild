@@ -15,7 +15,7 @@ DESCRIPTION="generates og image for xebia.com and binx.io blog"
 
 HOMEPAGE="https://github.com/binxio/og-image-generator"
 LICENSE="restricted"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

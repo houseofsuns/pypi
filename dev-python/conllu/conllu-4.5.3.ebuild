@@ -15,7 +15,7 @@ DESCRIPTION="CoNLL-U Parser parses a CoNLL-U formatted string into a nested pyth
 
 HOMEPAGE="https://github.com/EmilStenstrom/conllu/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

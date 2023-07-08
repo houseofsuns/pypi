@@ -15,7 +15,7 @@ DESCRIPTION="Python text markup and conversion"
 
 HOMEPAGE="http://wiki.github.com/brendonh/pyth"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.${REALNAME}onhosted.org/packages/45/8c/b01d785d8cab7402a0f14a106ddabccc05e25b4aff4c107d4abf2cf8bfe9/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

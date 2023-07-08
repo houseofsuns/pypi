@@ -15,7 +15,7 @@ DESCRIPTION="Simple Python package to preview and develop streamlit apps in jupy
 
 HOMEPAGE="https://github.com/ddobrinskiy/streamlit-jupyter"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Requests session that returns awaitable Twisted Deferreds instead
 
 HOMEPAGE="https://github.com/requests/requests/requests-threads"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

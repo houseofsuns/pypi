@@ -15,7 +15,7 @@ DESCRIPTION="PySauceNao is an unofficial asynchronous library for the SauceNao A
 
 HOMEPAGE="https://github.com/FujiMakoto/pysaucenao"
 LICENSE="gpl-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

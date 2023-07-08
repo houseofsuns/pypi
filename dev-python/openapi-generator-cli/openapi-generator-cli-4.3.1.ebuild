@@ -15,7 +15,7 @@ DESCRIPTION="CLI for openapi generator"
 
 HOMEPAGE="https://github.com/OpenAPITools/openapi-generator"
 LICENSE="APACHE 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

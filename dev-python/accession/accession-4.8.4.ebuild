@@ -15,7 +15,7 @@ DESCRIPTION="Tool to submit genomics pipeline outputs to the ENCODE Portal"
 
 HOMEPAGE="https://github.com/ENCODE-DCC/accession"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

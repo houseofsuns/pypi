@@ -15,7 +15,7 @@ DESCRIPTION="Allow to filter by a custom date range on the Django Admin"
 
 HOMEPAGE="http://github.com/tzulberti/django-datefilterspec"
 LICENSE="License :: OSI Approved :: BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

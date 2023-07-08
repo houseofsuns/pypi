@@ -15,7 +15,7 @@ DESCRIPTION="Django email backend that saves emails to .eml files. Such files ca
 
 HOMEPAGE="https://bitbucket.org/kmike/django-eml-email-backend/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

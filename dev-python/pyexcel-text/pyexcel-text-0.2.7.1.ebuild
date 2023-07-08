@@ -15,7 +15,7 @@ DESCRIPTION="A plugin to pyexcel and provides the capability to present and writ
 
 HOMEPAGE="https://github.com/pyexcel/pyexcel-text"
 LICENSE="New BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

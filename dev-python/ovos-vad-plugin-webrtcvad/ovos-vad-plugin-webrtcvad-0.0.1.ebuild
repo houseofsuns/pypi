@@ -15,7 +15,7 @@ DESCRIPTION="webrtcvad VAD plugin for OpenVoiceOS"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-vad-plugin-webrtcvad"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

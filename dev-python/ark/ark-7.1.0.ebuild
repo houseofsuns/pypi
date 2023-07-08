@@ -15,7 +15,7 @@ DESCRIPTION="A static website generator for people who enjoy the simpler things 
 
 HOMEPAGE="https://github.com/dmulholl/ark"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

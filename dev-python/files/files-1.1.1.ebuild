@@ -15,7 +15,7 @@ DESCRIPTION="Python file and path manipulation"
 
 HOMEPAGE="http://packages.python.org/files/"
 LICENSE="GNU GPL 3"
-SRC_URI="https://${REALNAME}.pythonhosted.org/packages/d3/b0/ddfcb3c51ad496bf665d80d3465d8c274592d70312558627c803107e7d7d/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

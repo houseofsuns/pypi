@@ -15,7 +15,7 @@ DESCRIPTION="Library to facilitate simple Verification, Validation and Uncertain
 
 HOMEPAGE="https://readthedocs.org/projects/easyvvuq/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

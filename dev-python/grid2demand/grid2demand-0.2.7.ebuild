@@ -15,7 +15,7 @@ DESCRIPTION="A tool for generating zone-to-zone travel demand based on grid cell
 
 HOMEPAGE="https://github.com/asu-trans-ai-lab/grid2demand"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

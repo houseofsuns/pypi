@@ -15,7 +15,7 @@ DESCRIPTION="A widget to replace the object_id in a generic relation with a sear
 
 HOMEPAGE="https://github.com/mqsoh/django-gfklookupwidget"
 LICENSE="ISC license"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

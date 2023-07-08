@@ -15,7 +15,7 @@ DESCRIPTION="An extension on-top of django-oscar-api-checkout to allow interfaci
 
 HOMEPAGE="https://gitlab.com/thelabnyc/django-oscar-wfrs"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

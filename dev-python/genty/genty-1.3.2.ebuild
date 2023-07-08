@@ -15,7 +15,7 @@ DESCRIPTION="Allows you to run a test with multiple data sets"
 
 HOMEPAGE="https://github.com/box/genty"
 LICENSE="Apache Software License, Version 2.0, http://www.apache.org/licenses/LICENSE-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Command line interface to WakaTime used by all WakaTime text editor
 
 HOMEPAGE="https://github.com/wakatime/wakatime-cli-pip"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

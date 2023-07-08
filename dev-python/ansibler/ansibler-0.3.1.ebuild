@@ -15,7 +15,7 @@ DESCRIPTION="Generate JSON data that describes the dependencies of an Ansible pl
 
 HOMEPAGE="https://gitlab.com/megabyte-labs/python/ansibler/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

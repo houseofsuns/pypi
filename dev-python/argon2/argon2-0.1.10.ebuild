@@ -15,7 +15,7 @@ DESCRIPTION="Bindings for the argon2 password hasher"
 
 HOMEPAGE="https://github.com/flamewow/argon2_py"
 LICENSE="CC0-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

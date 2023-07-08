@@ -15,7 +15,7 @@ DESCRIPTION="Common Schemas used in 5G core"
 
 HOMEPAGE="https://github.com/gruyaume/5g-core-common-schemas"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/5/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

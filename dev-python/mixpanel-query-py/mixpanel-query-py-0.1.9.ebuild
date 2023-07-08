@@ -15,7 +15,7 @@ DESCRIPTION="The Python interface to query data from Mixpanel."
 
 HOMEPAGE="https://www.github.com/cooncesean/mixpanel-query-py"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

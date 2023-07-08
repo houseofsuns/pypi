@@ -15,7 +15,7 @@ DESCRIPTION="Interface to data produced by the Simulating eXtreme Spacetimes col
 
 HOMEPAGE="https://github.com/sxs-collaboration/sxs"
 LICENSE="The MIT License MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Utility functions and classes"
 
 HOMEPAGE="https://github.com/the01/python-flotils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.win-amd64.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.win-amd64.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.win-amd64.zip"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Manipulating FHIR data leveraging MongoDB as storage layer"
 
 HOMEPAGE="https://github.com/arkhn/pyfhirstore/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

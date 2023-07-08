@@ -15,7 +15,7 @@ DESCRIPTION="Text User Interface (TUI) and HTML report for Pytest test runs"
 
 HOMEPAGE="https://github.com/jeffwright13/pytest-tui"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Publish your feed items to twitter"
 
 HOMEPAGE="http://www.assembla.com/spaces/feed2twitter"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

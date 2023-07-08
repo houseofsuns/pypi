@@ -15,7 +15,7 @@ DESCRIPTION="The Zen of Zope, by Alex Clark"
 
 HOMEPAGE="https://github.com/aclark4life/other"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

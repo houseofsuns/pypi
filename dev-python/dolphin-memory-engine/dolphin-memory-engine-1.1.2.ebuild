@@ -15,7 +15,7 @@ DESCRIPTION="Hooks into the memory of a running Dolphin processes, allowing acce
 
 HOMEPAGE="https://github.com/henriquegemignani/py-dolphin-memory-engine"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Yet another Django Blog App"
 
 HOMEPAGE="http://bitbucket.org/r0sk/django-rblog"
 LICENSE="BSD licence, see LICENSE file"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

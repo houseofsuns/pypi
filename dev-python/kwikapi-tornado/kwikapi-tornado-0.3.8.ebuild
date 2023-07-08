@@ -15,7 +15,7 @@ DESCRIPTION="Quickest way to build powerful HTTP APIs in Python"
 
 HOMEPAGE="https://github.com/deep-compute/kwikapi.tornado"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

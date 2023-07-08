@@ -15,7 +15,7 @@ DESCRIPTION="Django application to add 'django-crispy-forms' layout objects for 
 
 HOMEPAGE="http://pypi.python.org/pypi/crispy-forms-materialize"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

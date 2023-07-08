@@ -15,7 +15,7 @@ DESCRIPTION="Simple tools to deploy a script 24/7 on repl.it using an aiohttp se
 
 HOMEPAGE="https://github.com/chrisdewa/dontuserepl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

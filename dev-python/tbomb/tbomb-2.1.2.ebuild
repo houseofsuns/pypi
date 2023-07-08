@@ -15,7 +15,7 @@ DESCRIPTION="A free and open-source SMS,Call & Mail bombing application"
 
 HOMEPAGE="https://github.com/TheSpeedX/TBomb"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

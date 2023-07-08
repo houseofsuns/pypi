@@ -15,7 +15,7 @@ DESCRIPTION="JSON config file parser with extended syntax (e.g.: comments), line
 
 HOMEPAGE="https://github.com/pasztorpisti/json-cfg"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

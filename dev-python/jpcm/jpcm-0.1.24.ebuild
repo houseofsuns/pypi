@@ -15,7 +15,7 @@ DESCRIPTION="A perceptually uniform colormap generator for Matplotlib equipped w
 
 HOMEPAGE="https://github.com/akhilsadam/perceptual-jp-colormaps"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

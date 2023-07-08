@@ -15,7 +15,7 @@ DESCRIPTION="A Python port of the YUI CSS compression algorithm."
 
 HOMEPAGE="http://github.com/zacharyvoase/cssmin"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Get live stream metadata from the various Australian parliaments."
 
 HOMEPAGE="https://legistream.org"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}-2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-2.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}-2.tar.gz"
 RESTRICT="test"
 

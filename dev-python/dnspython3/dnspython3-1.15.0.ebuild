@@ -15,7 +15,7 @@ DESCRIPTION="A DNS toolkit for Python 3.x"
 
 HOMEPAGE="http://www.dnspython.org"
 LICENSE="http://www.dnspython.org/LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

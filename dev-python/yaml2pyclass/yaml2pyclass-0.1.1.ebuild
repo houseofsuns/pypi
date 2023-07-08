@@ -15,7 +15,7 @@ DESCRIPTION="Code generator that produces a Python class from a YAML input file.
 
 HOMEPAGE="https://github.com/a-nau/yaml2pyclass"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

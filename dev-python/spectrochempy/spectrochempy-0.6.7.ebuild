@@ -15,7 +15,7 @@ DESCRIPTION="Processing, analysis and modelling Spectroscopic data for Chemistry
 
 HOMEPAGE="https://www.spectrochempy.fr"
 LICENSE="CECILL-B"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

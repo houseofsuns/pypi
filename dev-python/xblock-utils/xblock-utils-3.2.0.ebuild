@@ -15,7 +15,7 @@ DESCRIPTION="Various utilities for XBlocks"
 
 HOMEPAGE="https://github.com/openedx/xblock-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

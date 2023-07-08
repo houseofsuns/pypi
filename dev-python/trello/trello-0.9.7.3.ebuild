@@ -15,7 +15,7 @@ DESCRIPTION="Python library for interacting with the Trello API"
 
 HOMEPAGE="https://github.com/tghw/trello-py"
 LICENSE="3-Clause BSD License https://opensource.org/licenses/BSD-3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

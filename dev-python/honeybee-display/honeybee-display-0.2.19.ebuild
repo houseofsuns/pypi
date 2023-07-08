@@ -15,7 +15,7 @@ DESCRIPTION="Adds methods to translate honeybee objects to VisualizationSets."
 
 HOMEPAGE="https://github.com/ladybug-tools/honeybee-display"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python Library that consolidates Anwendungshandbücher (AHB) and Me
 
 HOMEPAGE="https://github.com/Hochfrequenz/mig_ahb_utility_stack"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

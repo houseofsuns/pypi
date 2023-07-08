@@ -15,7 +15,7 @@ DESCRIPTION="Django-Jinja (Jinja2) extension and filter for parse markdown text 
 
 HOMEPAGE="https://github.com/pmac/django-jinja-markdown"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

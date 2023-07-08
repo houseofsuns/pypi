@@ -15,7 +15,7 @@ DESCRIPTION="Python library to work with ARC and WARC files"
 
 HOMEPAGE="https://github.com/Willian-Zhang/warc3"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

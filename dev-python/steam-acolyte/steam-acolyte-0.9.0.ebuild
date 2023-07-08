@@ -15,7 +15,7 @@ DESCRIPTION="Lightweight user account switcher/login keeper for steam"
 
 HOMEPAGE="https://github.com/coldfix/steam-acolyte"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

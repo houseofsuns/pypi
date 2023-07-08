@@ -15,7 +15,7 @@ DESCRIPTION="A Python library for executing intelligent, realistic-looking, and 
 
 HOMEPAGE="https://github.com/opsdisk/yagooglesearch"
 LICENSE="BSD 3-Clause New or Revised License"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

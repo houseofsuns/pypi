@@ -15,7 +15,7 @@ DESCRIPTION="Library to parse Dutch Smart Meter Requirements (DSMR)"
 
 HOMEPAGE="https://github.com/ndokter/dsmr_parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

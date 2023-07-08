@@ -15,7 +15,7 @@ DESCRIPTION="Install, configure and run JetBrains IDEs with Projector Server on 
 
 HOMEPAGE="https://github.com/JetBrains/projector-installer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

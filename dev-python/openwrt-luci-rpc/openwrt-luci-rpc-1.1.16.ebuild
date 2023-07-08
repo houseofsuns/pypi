@@ -15,7 +15,7 @@ DESCRIPTION="Module for interacting with OpenWrt Luci RPC interface"
 
 HOMEPAGE="https://github.com/fbradyirl/openwrt-luci-rpc"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

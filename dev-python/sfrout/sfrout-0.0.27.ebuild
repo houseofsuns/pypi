@@ -15,7 +15,7 @@ DESCRIPTION="Scalable, asynchronious SalesForce (SFDC) report downloader for SSO
 
 HOMEPAGE="https://github.com/LukaszHoszowski/sfrout"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

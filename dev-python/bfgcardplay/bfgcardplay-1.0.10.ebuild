@@ -15,7 +15,7 @@ DESCRIPTION="A collection of modules that facilitate cardplay in the BfG environ
 
 HOMEPAGE="https://psionman@bitbucket.org/psionman/bfgcardplay.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

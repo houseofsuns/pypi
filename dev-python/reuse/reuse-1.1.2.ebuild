@@ -15,7 +15,7 @@ DESCRIPTION="reuse is a tool for compliance with the REUSE recommendations."
 
 HOMEPAGE="https://reuse.software/"
 LICENSE="Apache-2.0 AND CC0-1.0 AND GPL-3.0-or-later"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

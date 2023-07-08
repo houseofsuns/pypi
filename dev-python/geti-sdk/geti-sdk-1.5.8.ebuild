@@ -15,7 +15,7 @@ DESCRIPTION="Software Development Kit for the Intel® Geti™ platform"
 
 HOMEPAGE="https://github.com/openvinotoolkit/geti-sdk"
 LICENSE="Copyright C 2022 Intel Corporation - All Rights Reserved. Licensed under the Apache License, Version 2.0 the 'License'. See LICENSE file for more details."
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

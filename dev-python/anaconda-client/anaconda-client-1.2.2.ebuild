@@ -15,7 +15,7 @@ DESCRIPTION="Anaconda Cloud command line client library"
 
 HOMEPAGE="http://github.com/Anaconda-client/anaconda-client"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

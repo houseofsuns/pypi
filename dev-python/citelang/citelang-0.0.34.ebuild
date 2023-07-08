@@ -15,7 +15,7 @@ DESCRIPTION="Credit parser and markdown language for scientific software."
 
 HOMEPAGE="https://github.com/vsoch/citelang"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="kuaidaili api sdk python, site: https://www.kuaidaili.com"
 
 HOMEPAGE="https://github.com/kuaidaili/python-sdk/api-sdk"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

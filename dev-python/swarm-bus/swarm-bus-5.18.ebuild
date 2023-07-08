@@ -15,7 +15,7 @@ DESCRIPTION="ESB SQS based"
 
 HOMEPAGE="https://bitbucket.org/monalgroup/swarm-bus"
 LICENSE="GPL License"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

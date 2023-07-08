@@ -15,7 +15,7 @@ DESCRIPTION="A package for adding a django-reversion history endpoint to django-
 
 HOMEPAGE="https://github.com/dennybiasiolli/django-reversion-rest-framework"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A decorator to allow running a function against all AWS accounts in
 
 HOMEPAGE="https://github.com/connelldave/botocove"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Test vectors for the cryptography package."
 
 HOMEPAGE="https://github.com/pyca/cryptography"
 LICENSE="Apache-2.0 OR BSD-3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A tiny scalar-valued autograd engine with a small PyTorch-like neur
 
 HOMEPAGE="https://github.com/karpathy/micrograd"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

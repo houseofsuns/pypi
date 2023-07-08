@@ -15,7 +15,7 @@ DESCRIPTION="A small web server to send data from Ecowitt devices to an MQTT Bro
 
 HOMEPAGE="https://github.com/bachya/ecowitt2mqtt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

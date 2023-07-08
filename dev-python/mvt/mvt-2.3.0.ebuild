@@ -15,7 +15,7 @@ DESCRIPTION="Mobile Verification Toolkit"
 
 HOMEPAGE="https://github.com/mvt-project/mvt"
 LICENSE="MVT v1.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

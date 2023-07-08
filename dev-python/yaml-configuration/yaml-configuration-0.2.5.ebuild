@@ -15,7 +15,7 @@ DESCRIPTION="A python module to easily read from and write to yaml config files.
 
 HOMEPAGE="https://github.com/DLR-RM/python-yaml-configuration"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

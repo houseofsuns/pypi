@@ -15,7 +15,7 @@ DESCRIPTION="Mixin for Django's admin objects to enhance searching by limiting s
 
 HOMEPAGE="https://github.com/Lenders-Cooperative/django-admin-search-plus"
 LICENSE="bsd-3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A utility for tracking volume in and out of azure storage container
 
 HOMEPAGE="https://msazure.visualstudio.com/One/_git/RepoDepot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

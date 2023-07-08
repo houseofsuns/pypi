@@ -15,7 +15,7 @@ DESCRIPTION="FloPy is a Python package to create, run, and post-process MODFLOW-
 
 HOMEPAGE=""
 LICENSE="CC0-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

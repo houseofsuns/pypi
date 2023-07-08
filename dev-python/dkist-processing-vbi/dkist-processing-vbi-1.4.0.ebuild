@@ -15,7 +15,7 @@ DESCRIPTION="Code that is used by the DKIST Science Data Processing Airflow pipe
 
 HOMEPAGE="https://bitbucket.org/dkistdc/dkist-processing-vbi/src/main/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

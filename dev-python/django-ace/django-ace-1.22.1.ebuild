@@ -15,7 +15,7 @@ DESCRIPTION="django-ace provides integration for ajax.org ACE with Django"
 
 HOMEPAGE="https://github.com/django-ace/django-ace"
 LICENSE="Simplified BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

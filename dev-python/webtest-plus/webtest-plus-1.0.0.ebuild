@@ -15,7 +15,7 @@ DESCRIPTION="An extension of WebTest with useful extras, including requests-styl
 
 HOMEPAGE="https://github.com/sloria/webtest-plus"
 LICENSE="Copyright 2017 Steven Loria"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

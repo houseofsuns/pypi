@@ -15,7 +15,7 @@ DESCRIPTION="Converts Obsidian style markdown files to Org-Mode files using pand
 
 HOMEPAGE="https://github.com/Release-Candidate/Obs2Org"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

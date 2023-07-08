@@ -15,7 +15,7 @@ DESCRIPTION="LJM library Python wrapper for LabJack T7 and T4."
 
 HOMEPAGE="https://labjack.com/support/software/examples/ljm/python"
 LICENSE="MIT X11"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

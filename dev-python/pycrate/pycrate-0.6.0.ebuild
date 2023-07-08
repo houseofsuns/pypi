@@ -15,7 +15,7 @@ DESCRIPTION="A software suite to handle various data and protocol formats"
 
 HOMEPAGE="https://github.com/P1sec/pycrate/"
 LICENSE="LGPL v2.1+"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

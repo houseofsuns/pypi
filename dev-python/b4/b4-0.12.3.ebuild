@@ -15,7 +15,7 @@ DESCRIPTION="A tool to work with public-inbox and patch archives"
 
 HOMEPAGE="https://git.kernel.org/pub/scm/utils/b4/b4.git/tree/README.rst"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Define Jenkins jobs from repository"
 
 HOMEPAGE="https://github.com/novafloss/jenkins-yml"
 LICENSE="GPL v3 or later"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

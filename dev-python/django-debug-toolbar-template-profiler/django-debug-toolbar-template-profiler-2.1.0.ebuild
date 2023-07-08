@@ -15,7 +15,7 @@ DESCRIPTION="Displays template rendering time on the timeline"
 
 HOMEPAGE="https://github.com/node13h/django-debug-toolbar-template-profiler"
 LICENSE="Simplified BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

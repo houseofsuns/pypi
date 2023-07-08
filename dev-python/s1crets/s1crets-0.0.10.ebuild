@@ -15,7 +15,7 @@ DESCRIPTION="Convenience wrapper for AWS Parameter Store/Secrets Manager"
 
 HOMEPAGE="https://github.com/bra-fsn/s1crets"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

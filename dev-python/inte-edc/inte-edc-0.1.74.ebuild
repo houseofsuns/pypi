@@ -15,7 +15,7 @@ DESCRIPTION="\"INTE-AFRICA Trial EDC (https://www.isrctn.com/ISRCTN43896688)\""
 
 HOMEPAGE="https://github.com/clinicedc/inte-edc"
 LICENSE="GPL license, see LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

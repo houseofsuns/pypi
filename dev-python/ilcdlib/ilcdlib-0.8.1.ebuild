@@ -15,7 +15,7 @@ DESCRIPTION="A toolkit for reading and writing ILCD format and it's derivatives"
 
 HOMEPAGE="https://github.com/cchangelabs/ilcdlib"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

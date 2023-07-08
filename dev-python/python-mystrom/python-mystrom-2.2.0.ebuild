@@ -15,7 +15,7 @@ DESCRIPTION="Asynchronous Python API client for interacting with myStrom devices
 
 HOMEPAGE="https://github.com/home-assistant-ecosystem/python-mystrom"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

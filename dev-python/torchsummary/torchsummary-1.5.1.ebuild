@@ -15,7 +15,7 @@ DESCRIPTION="Model summary in PyTorch similar to \`model.summary()\` in Keras"
 
 HOMEPAGE="https://github.com/sksq96/pytorch-summary"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

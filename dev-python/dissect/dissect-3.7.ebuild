@@ -15,7 +15,7 @@ DESCRIPTION="Dissect is a digital forensics & incident response framework and to
 
 HOMEPAGE="https://dissect.tools"
 LICENSE="Affero General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

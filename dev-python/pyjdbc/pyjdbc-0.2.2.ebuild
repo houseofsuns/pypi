@@ -15,7 +15,7 @@ DESCRIPTION="Use JDBC drivers to provide DB API 2.0 python database interface"
 
 HOMEPAGE="https://github.com/OpenBigDataPlatform/pyjdbc"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

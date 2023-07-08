@@ -15,7 +15,7 @@ DESCRIPTION="pyheif-pillow-opener is a simple HEIF/HEIC opener for Pillow base o
 
 HOMEPAGE="https://github.com/ciotto/pyheif-pillow-opener"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

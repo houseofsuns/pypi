@@ -15,7 +15,7 @@ DESCRIPTION="StatsD and CollectD adapter for Graphite"
 
 HOMEPAGE="http://github.com/trbs/bucky.git"
 LICENSE="ASF2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

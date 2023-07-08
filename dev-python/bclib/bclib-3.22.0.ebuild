@@ -15,7 +15,7 @@ DESCRIPTION="Python base gateway for communicate with basiscore webserver"
 
 HOMEPAGE="https://github.com/Manzoomeh/BasisCore.Server.Edge/wiki"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

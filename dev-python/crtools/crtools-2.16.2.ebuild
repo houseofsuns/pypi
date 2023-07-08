@@ -15,7 +15,7 @@ DESCRIPTION="Python tools for creating a clan management dashboard for Clash Roy
 
 HOMEPAGE="https://github.com/AaronTraas/Clash-Royale-Clan-Tools"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

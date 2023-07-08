@@ -15,7 +15,7 @@ DESCRIPTION="🐍🤖 Reusable global Invoke tasks that can be merged with local
 
 HOMEPAGE="https://github.com/andreoliwa/conjuring"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

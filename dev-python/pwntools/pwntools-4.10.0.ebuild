@@ -15,7 +15,7 @@ DESCRIPTION="Pwntools CTF framework and exploit development library."
 
 HOMEPAGE="https://pwntools.com"
 LICENSE="Mostly MIT, some GPL/BSD, see LICENSE-pwntools.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

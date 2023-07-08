@@ -15,7 +15,7 @@ DESCRIPTION="PyWorkspaceOneUEM is a Python API library for VMware Workspace ONE 
 
 HOMEPAGE="https://github.com/marcofuchs89/PyWorkspaceOne"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

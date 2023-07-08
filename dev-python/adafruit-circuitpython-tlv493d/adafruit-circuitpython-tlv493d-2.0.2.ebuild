@@ -15,7 +15,7 @@ DESCRIPTION="CircuitPython helper library for the TLV493D 3-axis magnetometer"
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_TLV493D"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

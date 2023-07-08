@@ -15,7 +15,7 @@ DESCRIPTION="Python Flask extension for using Azure Active Directory with OAuth 
 
 HOMEPAGE="https://github.com/antarctica/flask-azure-oauth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Visual Medical Innovation powered by WANGYiping"
 
 HOMEPAGE="http://www.med-3d.top:1111/f/e386e5d3c12f4aaeb523/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

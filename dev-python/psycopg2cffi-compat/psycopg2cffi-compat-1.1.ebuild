@@ -15,7 +15,7 @@ DESCRIPTION="A Simple library to enable psycopg2 compatability"
 
 HOMEPAGE="https://github.com/dstufft/psycopg2cffi-compat"
 LICENSE="Apache License v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

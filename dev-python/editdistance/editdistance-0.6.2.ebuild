@@ -15,7 +15,7 @@ DESCRIPTION="Fast implementation of the edit distance(Levenshtein distance)"
 
 HOMEPAGE="https://www.github.com/roy-ht/editdistance"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

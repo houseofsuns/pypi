@@ -15,7 +15,7 @@ DESCRIPTION="WWVB 60Khz Full functionality receiver/parser for i2c bus based ES1
 
 HOMEPAGE="https://github.com/mahtin/es100-wwvb"
 LICENSE="OSI Approved :: MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

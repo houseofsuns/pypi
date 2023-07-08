@@ -15,7 +15,7 @@ DESCRIPTION="Python package for Top-N recommendation based on implicit feedback 
 
 HOMEPAGE="https://gitlab.com/recpack-maintainers/recpack"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

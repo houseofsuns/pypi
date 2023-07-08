@@ -15,7 +15,7 @@ DESCRIPTION="Re-packaged Cling, as backend for cppyy"
 
 HOMEPAGE="https://root.cern.ch/cling"
 LICENSE="LLVM: UoI-NCSA; ROOT: LGPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Distributed Network Packet Analysis Pipeline for Layer 2, 3 and 4 F
 
 HOMEPAGE="https://github.com/jay-johnson/network-pipeline"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

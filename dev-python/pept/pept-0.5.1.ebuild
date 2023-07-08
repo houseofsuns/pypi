@@ -15,7 +15,7 @@ DESCRIPTION="A Python library that unifies Positron Emission Particle Tracking (
 
 HOMEPAGE="https://github.com/uob-positron-imaging-centre/pept"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

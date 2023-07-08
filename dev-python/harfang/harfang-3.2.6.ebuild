@@ -15,7 +15,7 @@ DESCRIPTION="HARFANG 3D is a game/visualization library for Python. It includes 
 
 HOMEPAGE="https://www.harfang3d.com"
 LICENSE="Other/Proprietary License"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

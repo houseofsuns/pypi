@@ -15,7 +15,7 @@ DESCRIPTION="upgrade packages pip outdated"
 
 HOMEPAGE="https://github.com/Xnuvers007/upgrade-pip"
 LICENSE="GNU/GPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

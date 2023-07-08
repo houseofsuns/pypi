@@ -15,7 +15,7 @@ DESCRIPTION="Simple Local Process spawner for JupyterHub"
 
 HOMEPAGE="https://github.com/yuvipanda/jupyterhub-simplespawner"
 LICENSE="3 Clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

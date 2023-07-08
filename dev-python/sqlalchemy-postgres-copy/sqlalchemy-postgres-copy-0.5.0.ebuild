@@ -15,7 +15,7 @@ DESCRIPTION="Utilities for using PostgreSQL COPY with SQLAlchemy"
 
 HOMEPAGE="https://github.com/jmcarp/sqlalchemy-postgres-copy"
 LICENSE="Copyright 2016 Joshua Carp"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

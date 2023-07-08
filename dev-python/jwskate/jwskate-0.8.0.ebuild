@@ -15,7 +15,7 @@ DESCRIPTION="A Pythonic implementation of Json Web Signature, Keys, Algorithms, 
 
 HOMEPAGE="https://github.com/guillp/jwskate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

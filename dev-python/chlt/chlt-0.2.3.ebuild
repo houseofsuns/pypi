@@ -15,7 +15,7 @@ DESCRIPTION="It is a tool to learn how to read and write Chinese Characters."
 
 HOMEPAGE="https://gitee.com/shawnyanwang/chinese-learning-tool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

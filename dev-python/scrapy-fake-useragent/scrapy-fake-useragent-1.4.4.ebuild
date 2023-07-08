@@ -15,7 +15,7 @@ DESCRIPTION="Use a random User-Agent provided by fake-useragent for every reques
 
 HOMEPAGE="https://github.com/alecxe/scrapy-fake-useragent"
 LICENSE="New BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.9-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.9-x86_64.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.macosx-10.9-x86_64.tar.gz"
 RESTRICT="test"
 

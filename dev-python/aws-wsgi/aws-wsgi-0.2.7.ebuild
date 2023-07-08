@@ -15,7 +15,7 @@ DESCRIPTION="WSGI adapter for AWS API Gateway/Lambda Proxy Integration"
 
 HOMEPAGE="https://github.com/slank/awsgi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

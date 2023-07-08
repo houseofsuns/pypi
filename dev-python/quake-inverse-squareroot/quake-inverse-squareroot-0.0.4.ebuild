@@ -15,7 +15,7 @@ DESCRIPTION="A Python port from Quake 3's fast inverse square root algorithm"
 
 HOMEPAGE="https://github.com/timelessnesses/quake-inverse-squareroot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

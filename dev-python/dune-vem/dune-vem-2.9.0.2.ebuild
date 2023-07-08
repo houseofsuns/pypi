@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of a number of virtual element spaces and bilinear f
 
 HOMEPAGE="https://gitlab.dune-project.org/dune-fem/dune-vem"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

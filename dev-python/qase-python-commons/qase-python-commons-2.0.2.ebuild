@@ -15,7 +15,7 @@ DESCRIPTION="A library for Qase TestOps and Qase Report"
 
 HOMEPAGE="https://github.com/qase-tms/qase-python/tree/master/qase-python-commons"
 LICENSE="apache"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

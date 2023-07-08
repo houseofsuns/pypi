@@ -15,7 +15,7 @@ DESCRIPTION="A modified version based on Mandrill Python API client version 1.0.
 
 HOMEPAGE="https://github.com/woodythewoodpecker/mandrill-for-py3.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

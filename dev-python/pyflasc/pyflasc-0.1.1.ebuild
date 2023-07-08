@@ -15,7 +15,7 @@ DESCRIPTION="Flare-Sensitive Clustering based on HDBSCAN*."
 
 HOMEPAGE="https://github.com/vda-lab/pyflasc"
 LICENSE="3-Clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

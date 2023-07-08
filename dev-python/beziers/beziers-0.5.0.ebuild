@@ -15,7 +15,7 @@ DESCRIPTION="Bezier curve manipulation library"
 
 HOMEPAGE="https://github.com/simoncozens/beziers.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-12-arm64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-12-arm64.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.macosx-12-arm64.tar.gz"
 RESTRICT="test"
 

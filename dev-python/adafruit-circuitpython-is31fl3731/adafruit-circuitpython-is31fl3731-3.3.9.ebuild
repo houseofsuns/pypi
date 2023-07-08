@@ -15,7 +15,7 @@ DESCRIPTION="CircuitPython library for IS31FL3731 charlieplex LED matrices."
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_IS31FL3731"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

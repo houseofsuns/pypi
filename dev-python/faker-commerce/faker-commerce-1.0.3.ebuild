@@ -15,7 +15,7 @@ DESCRIPTION="Provider for Faker which adds fake commerce product names, prices, 
 
 HOMEPAGE="https://github.com/nicobritos/python-faker-commerce"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

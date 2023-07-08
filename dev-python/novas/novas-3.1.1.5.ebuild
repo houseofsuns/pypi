@@ -15,7 +15,7 @@ DESCRIPTION="The United States Naval Observatory NOVAS astronomy library"
 
 HOMEPAGE="http://www.usno.navy.mil/USNO/astronomical-applications/software-products/novas"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

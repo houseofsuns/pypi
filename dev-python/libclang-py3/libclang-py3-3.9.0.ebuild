@@ -15,7 +15,7 @@ DESCRIPTION="Python3 bindings for libclang"
 
 HOMEPAGE="https://bitbucket.org/Anteru/python3-libclang"
 LICENSE="License :: OSI Approved :: University of Illinois/NCSA Open Source License"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

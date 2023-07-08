@@ -15,7 +15,7 @@ DESCRIPTION="CircuitPython library for controlling a SeeSaw helper chip."
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_seesaw"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

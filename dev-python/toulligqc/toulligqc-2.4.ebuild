@@ -15,7 +15,7 @@ DESCRIPTION="A post sequencing QC tool for Oxford Nanopore sequencers"
 
 HOMEPAGE="https://github.com/GenomicParisCentre/toulligQC"
 LICENSE="GPL V3"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

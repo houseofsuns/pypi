@@ -15,7 +15,7 @@ DESCRIPTION="CanvasXpress for Python"
 
 HOMEPAGE="https://github.com/docinfosci/canvasxpress-python.git"
 LICENSE="Copyright 2020 to 2023 CanvasXpress all rights reserved"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

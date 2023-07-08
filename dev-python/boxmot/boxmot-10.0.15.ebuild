@@ -15,7 +15,7 @@ DESCRIPTION="SOTA tracking methods for detection, segmentation and pose estimati
 
 HOMEPAGE="https://github.com/mikel-brostrom/yolov8_tracking"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

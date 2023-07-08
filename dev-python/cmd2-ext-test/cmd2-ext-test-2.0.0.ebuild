@@ -15,7 +15,7 @@ DESCRIPTION="External test plugin for cmd2. Allows for external invocation of co
 
 HOMEPAGE="https://github.com/python-cmd2/cmd2/tree/master/plugins/ext_test"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

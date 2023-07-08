@@ -15,7 +15,7 @@ DESCRIPTION="A client library for accessing CodeGrade"
 
 HOMEPAGE=""
 LICENSE="AGPL-3.0-only OR BSD-3-Clause-Clear"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Deep learning package for automating experimentation, prototyping a
 
 HOMEPAGE="https://asimbluemoon@bitbucket.org/laylaelectric/ml.git"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

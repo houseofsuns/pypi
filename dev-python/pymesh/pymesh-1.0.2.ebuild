@@ -15,7 +15,7 @@ DESCRIPTION="Library for manipulating (Translate, Rotate and Scale) 3D data usin
 
 HOMEPAGE="https://github.com/taxpon/pymesh"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

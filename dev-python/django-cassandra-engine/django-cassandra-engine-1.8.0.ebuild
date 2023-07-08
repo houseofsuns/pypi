@@ -15,7 +15,7 @@ DESCRIPTION="Django Cassandra Engine"
 
 HOMEPAGE="https://github.com/r4fek/django-cassandra-engine"
 LICENSE="2-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

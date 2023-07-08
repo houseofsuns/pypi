@@ -15,7 +15,7 @@ DESCRIPTION="AMQP Client using the rabbitmq-c library."
 
 HOMEPAGE="http://github.com/celery/librabbitmq"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Nanopb is a small code-size Protocol Buffers implementation in ansi
 
 HOMEPAGE="https://jpa.kapsi.fi/nanopb/"
 LICENSE="Zlib"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="The Toilmore API SDK provides Python APIs to optimize and process i
 
 HOMEPAGE="https://pixellena.com/"
 LICENSE="ISC License"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

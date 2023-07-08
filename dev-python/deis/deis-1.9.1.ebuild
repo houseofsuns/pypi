@@ -15,7 +15,7 @@ DESCRIPTION="Command-line Client for Deis, the open PaaS"
 
 HOMEPAGE="https://github.com/deis/deis"
 LICENSE="Copyright 2013, 2014 Engine Yard, Inc."
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

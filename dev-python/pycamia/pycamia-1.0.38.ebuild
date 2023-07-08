@@ -15,7 +15,7 @@ DESCRIPTION="The main package and a background support of project PyCAMIA."
 
 HOMEPAGE="https://github.com/Bertie97/PyZMyc/pycamia"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

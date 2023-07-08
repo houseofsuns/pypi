@@ -15,7 +15,7 @@ DESCRIPTION="Python library for interacting with the PowUnity BikeTrax GPS track
 
 HOMEPAGE="https://github.com/basilfx/aiobiketrax"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

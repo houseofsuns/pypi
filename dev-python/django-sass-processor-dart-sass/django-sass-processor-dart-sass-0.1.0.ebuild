@@ -15,7 +15,7 @@ DESCRIPTION="A drop-in replacement for sass for use with django-sass-processor t
 
 HOMEPAGE="https://github.com/laws-africa/django-sass-processor-dart-sass"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

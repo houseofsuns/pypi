@@ -15,7 +15,7 @@ DESCRIPTION="Python interface to libexiv2"
 
 HOMEPAGE="https://github.com/jim-easterbrook/python-exiv2"
 LICENSE="GNU GPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

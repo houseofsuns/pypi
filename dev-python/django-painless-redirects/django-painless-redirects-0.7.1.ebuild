@@ -15,7 +15,7 @@ DESCRIPTION="Like django.contrib.redirects on steroids. Maybe."
 
 HOMEPAGE="https://github.com/bnzk/django-painless-redirects"
 LICENSE="The MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

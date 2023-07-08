@@ -15,7 +15,7 @@ DESCRIPTION="A HTTP 1.1 client module supporting asynchronous IO, pipelining and
 
 HOMEPAGE="https://github.com/python-dugong/python-dugong/"
 LICENSE="PSF-2.4"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

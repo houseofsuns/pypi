@@ -15,7 +15,7 @@ DESCRIPTION="Command line python tool for working with singularity."
 
 HOMEPAGE="https://github.com/singularityhub/singularity-cli"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

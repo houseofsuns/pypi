@@ -15,7 +15,7 @@ DESCRIPTION="A module to send sms using the Sinch REST apis, www.sinch.com"
 
 HOMEPAGE="https://github.com/sinch/python-sinch-sms.git"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

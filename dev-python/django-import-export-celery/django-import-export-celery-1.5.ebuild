@@ -15,7 +15,7 @@ DESCRIPTION="Process long running django imports and exports in celery"
 
 HOMEPAGE="https://github.com/auto-mat/django-import-export-celery"
 LICENSE="License :: OSI Approved :: GNU Lesser General Public License v3.0 or later LGPLv3.0+"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

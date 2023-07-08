@@ -15,7 +15,7 @@ DESCRIPTION="ACA-Py plugin for MyData DID DIDComm protcol"
 
 HOMEPAGE="https://github.com/decentralised-dataexchange/acapy-mydata-did-protocol"
 LICENSE="License :: OSI Approved :: Apache Software License"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

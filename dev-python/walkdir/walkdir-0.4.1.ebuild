@@ -15,7 +15,7 @@ DESCRIPTION="Tools to manipulate and filter os.walk() style iteration"
 
 HOMEPAGE="http://walkdir.readthedocs.org"
 LICENSE="Simplified BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

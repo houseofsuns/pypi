@@ -15,7 +15,7 @@ DESCRIPTION="Python 2.7 hashing and iteration in Python 3+"
 
 HOMEPAGE="https://github.com/neuml/py27hash"
 LICENSE="MIT License: http://opensource.org/licenses/MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

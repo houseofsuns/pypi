@@ -15,7 +15,7 @@ DESCRIPTION="Client for the iOS app \"Notifications\" (aka \"Push 4.0\")."
 
 HOMEPAGE="https://github.com/cjlucas/notifications"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

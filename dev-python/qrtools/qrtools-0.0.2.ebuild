@@ -15,7 +15,7 @@ DESCRIPTION="qrtools is a suite of tools for handling QR codes."
 
 HOMEPAGE="https://github.com/primetang/qrtools"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

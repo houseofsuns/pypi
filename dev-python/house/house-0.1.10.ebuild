@@ -15,7 +15,7 @@ DESCRIPTION="A lib to persist blobs by their sha256"
 
 HOMEPAGE="https://github.com/FoleyDiver/house"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Field-by-field serializer permissions for Django Rest Framework."
 
 HOMEPAGE="https://github.com/InterSIS/django-rest-serializer-field-permissions/"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

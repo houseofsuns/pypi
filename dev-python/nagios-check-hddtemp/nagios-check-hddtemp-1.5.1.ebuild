@@ -15,7 +15,7 @@ DESCRIPTION="Check HDD temperature Nagios plugin"
 
 HOMEPAGE="https://github.com/vint21h/nagios-check-hddtemp/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Declarative HTML templating system with lazy rendering"
 
 HOMEPAGE="https://github.com/basxsoftwareassociation/htmlgenerator"
 LICENSE="New BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

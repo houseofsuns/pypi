@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for the github v3 api"
 
 HOMEPAGE="https://github.com/Kagami/python-github3"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

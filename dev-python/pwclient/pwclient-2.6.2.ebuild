@@ -15,7 +15,7 @@ DESCRIPTION="The command-line client for the Patchwork patch tracking tool"
 
 HOMEPAGE="https://github.com/getpatchwork/pwclient"
 LICENSE="GPL v2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Data sets from Introductory Econometrics: A Modern Approach (6th ed
 
 HOMEPAGE="https://github.com/spring-haru/wooldridge"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

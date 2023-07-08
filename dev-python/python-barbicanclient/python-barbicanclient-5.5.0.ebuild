@@ -15,7 +15,7 @@ DESCRIPTION="Client Library for OpenStack Barbican Key Management API"
 
 HOMEPAGE="https://docs.openstack.org/python-barbicanclient/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

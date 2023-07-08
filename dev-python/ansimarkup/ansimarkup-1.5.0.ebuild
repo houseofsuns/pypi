@@ -15,7 +15,7 @@ DESCRIPTION="Produce colored terminal text with an xml-like markup"
 
 HOMEPAGE="https://github.com/gvalkov/python-ansimarkup"
 LICENSE="Revised BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Balance, anonymize, and share your data. With privacy guarantees."
 
 HOMEPAGE="https://github.com/gretelai/gretel-python-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

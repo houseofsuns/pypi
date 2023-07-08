@@ -15,7 +15,7 @@ DESCRIPTION="The tool to convert a domain or a file with a list of domain to the
 
 HOMEPAGE="https://github.com/PyFunceble/domain2idna"
 LICENSE="MIT https://raw.githubusercontent.com/PyFunceble/domain2idna/master/LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

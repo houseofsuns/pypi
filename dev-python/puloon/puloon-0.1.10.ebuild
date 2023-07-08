@@ -15,7 +15,7 @@ DESCRIPTION="Puloon LCDM-4000 communication protocol python implementation"
 
 HOMEPAGE="https://gitlab.com/aiba.kg93/puloon-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

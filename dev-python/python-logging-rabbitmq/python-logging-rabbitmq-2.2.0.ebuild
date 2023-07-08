@@ -15,7 +15,7 @@ DESCRIPTION="Send logs to RabbitMQ from Python/Django"
 
 HOMEPAGE="https://github.com/albertomr86/python-logging-rabbitmq"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

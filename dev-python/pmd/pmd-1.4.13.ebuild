@@ -15,7 +15,7 @@ DESCRIPTION="Automated generation of LAMMPS data and input files for polymer mol
 
 HOMEPAGE="https://github.com/Ramprasad-Group/Polymer-Molecular-Dynamics"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

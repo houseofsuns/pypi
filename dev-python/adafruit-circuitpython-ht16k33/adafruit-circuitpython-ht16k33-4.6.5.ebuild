@@ -15,7 +15,7 @@ DESCRIPTION="CircuitPython library for HT16K33 LED matrices and segment displays
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_HT16K33"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A collection of scripts to easily use the API of OCD Datalake"
 
 HOMEPAGE="https://github.com/cert-orangecyberdefense/datalake/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An image serializer field for use with sorl and Django REST Framewo
 
 HOMEPAGE="https://github.com/dessibelle/sorl-thumbnail-serializer-field"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

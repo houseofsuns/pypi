@@ -15,7 +15,7 @@ DESCRIPTION="A fabfile to ease many tasks during development and deployment of D
 
 HOMEPAGE="https://github.com/bitmazk/django-development-fabfile"
 LICENSE="The MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

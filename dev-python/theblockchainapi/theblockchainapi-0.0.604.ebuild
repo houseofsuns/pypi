@@ -15,7 +15,7 @@ DESCRIPTION="Blockchain made easy. Find out more at docs.blockchainapi.com."
 
 HOMEPAGE="https://github.com/BL0CK-X/the-blockchain-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="OpenToolFlux is a command-line application to estimate gas fluxes f
 
 HOMEPAGE="https://github.com/rasmuse/opentoolflux"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

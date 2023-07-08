@@ -15,7 +15,7 @@ DESCRIPTION="Library using lxml and unittest for unit testing XML."
 
 HOMEPAGE="http://python-xmlunittest.readthedocs.org/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Adaptor: Objective-centric Adaptation Framework for Language Models
 
 HOMEPAGE="https://github.com/gaussalgo/adaptor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

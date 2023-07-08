@@ -15,7 +15,7 @@ DESCRIPTION="Ansible modules to configure Solace PubSub+ event brokers with SEMP
 
 HOMEPAGE="https://github.com/solace-iot-team/ansible-solace"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

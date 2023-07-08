@@ -15,7 +15,7 @@ DESCRIPTION="A flake8 plugin that prevents you from writing \"too many\" bad cod
 
 HOMEPAGE="https://github.com/queensferryme/flake8-too-many"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

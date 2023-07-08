@@ -15,7 +15,7 @@ DESCRIPTION="GDBFrontend is a easy, flexible and extensionable gui debugger."
 
 HOMEPAGE="https://github.com/rohanrhu/gdb-frontend"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for MMCore, Micro-Manager's device control layer"
 
 HOMEPAGE="https://github.com/micro-manager/pymmcore"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

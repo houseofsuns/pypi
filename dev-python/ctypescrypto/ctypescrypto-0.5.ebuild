@@ -15,7 +15,7 @@ DESCRIPTION="CTypes-based interface for some OpenSSL libcrypto features"
 
 HOMEPAGE="https://github.com/vbwagner/ctypescrypto"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

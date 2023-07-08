@@ -15,7 +15,7 @@ DESCRIPTION="Backend data analytics platform for MD2K software"
 
 HOMEPAGE="https://github.com/MD2Korg/CerebralCortex-Kernel/"
 LICENSE="BSD2"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

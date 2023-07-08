@@ -15,7 +15,7 @@ DESCRIPTION="A python toolbox for COPASI"
 
 HOMEPAGE="https://github.com/CiaranWelsh/PyCoTools"
 LICENSE="GPL4"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

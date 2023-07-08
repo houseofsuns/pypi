@@ -15,7 +15,7 @@ DESCRIPTION="A library for rapid computation of Neuroglancer Precomputed shard h
 
 HOMEPAGE="https://github.com/seung-lab/shard-computer/"
 LICENSE="License :: OSI Approved :: GNU Lesser General Public License v2 or later LGPLv2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

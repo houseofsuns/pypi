@@ -15,7 +15,7 @@ DESCRIPTION="moonworm: Generate a command line interface to any Ethereum smart c
 
 HOMEPAGE="https://github.com/bugout-dev/moonworm/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

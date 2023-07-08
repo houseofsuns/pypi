@@ -15,7 +15,7 @@ DESCRIPTION="A wrapper for connecting to RabbitMQ which constrains clients to a 
 
 HOMEPAGE="https://bitbucket.org/dkistdc/interservice-bus-adapter/src/master/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

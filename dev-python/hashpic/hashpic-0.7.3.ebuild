@@ -15,7 +15,7 @@ DESCRIPTION="Create an image from a MD5, SHA512, SHA3-512, Blake2b or SHAKE256 h
 
 HOMEPAGE="https://github.com/0xflotus/hashpic"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

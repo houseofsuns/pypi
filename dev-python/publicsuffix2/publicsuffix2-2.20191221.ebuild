@@ -15,7 +15,7 @@ DESCRIPTION="Get a public suffix for a domain name using the Public Suffix List.
 
 HOMEPAGE="https://github.com/nexb/python-publicsuffix2"
 LICENSE="MIT and MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

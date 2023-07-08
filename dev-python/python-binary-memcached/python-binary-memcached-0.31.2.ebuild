@@ -15,7 +15,7 @@ DESCRIPTION="A pure python module to access memcached via its binary protocol wi
 
 HOMEPAGE="https://github.com/jaysonsantos/python-binary-memcached"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A helper library to connect into Amazon SageMaker with AWS Systems 
 
 HOMEPAGE="https://github.com/aws-samples/sagemaker-ssh-helper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

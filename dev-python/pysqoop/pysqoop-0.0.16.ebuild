@@ -15,7 +15,7 @@ DESCRIPTION="A simple package to let you Sqoop into HDFS/Hive/HBase with python"
 
 HOMEPAGE="https://github.com/lucafon/pysqoop"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

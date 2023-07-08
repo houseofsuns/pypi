@@ -15,7 +15,7 @@ DESCRIPTION="Werk24 Client to read PDF- and Image-based Technical Drawings / Eng
 
 HOMEPAGE="https://werk24.io"
 LICENSE="commercial"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

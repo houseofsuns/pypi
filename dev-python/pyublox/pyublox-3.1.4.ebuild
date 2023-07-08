@@ -15,7 +15,7 @@ DESCRIPTION="Interface with ublox chipsets using Python."
 
 HOMEPAGE="https://gitlab.esa.int/AMIC/pyublox.git"
 LICENSE="EUROPEAN SPACE AGENCY PUBLIC LICENSE - V2.4 - STRONG COPYLEFT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

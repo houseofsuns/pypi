@@ -15,7 +15,7 @@ DESCRIPTION="a simple python3 library for the Bouygues BBox Routeur API"
 
 HOMEPAGE="https://github.com/HydrelioxGitHub/pybbox"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

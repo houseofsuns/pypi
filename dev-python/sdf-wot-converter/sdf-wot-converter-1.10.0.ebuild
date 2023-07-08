@@ -15,7 +15,7 @@ DESCRIPTION="Converter between WoT TD and SDF (including protocol bindings)."
 
 HOMEPAGE="https://github.com/JKRhb/sdf-wot-converter-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

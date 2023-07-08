@@ -15,7 +15,7 @@ DESCRIPTION="A Python library to communicate with Ring Door Bell (https://ring.c
 
 HOMEPAGE="https://github.com/tchellomello/python-ring-doorbell"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

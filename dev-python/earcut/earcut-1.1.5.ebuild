@@ -15,7 +15,7 @@ DESCRIPTION="A pure Python port of the earcut JS triangulation library"
 
 HOMEPAGE="https://github.com/vojtatom/earcut-python"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

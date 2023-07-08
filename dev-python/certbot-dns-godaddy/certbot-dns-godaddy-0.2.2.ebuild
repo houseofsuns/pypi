@@ -15,7 +15,7 @@ DESCRIPTION="A certbot plugin that implements letsencrypt dns wildcard support f
 
 HOMEPAGE="https://github.com/miigotu/certbot-dns-godaddy"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

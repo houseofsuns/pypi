@@ -15,7 +15,7 @@ DESCRIPTION="Cornell Conversational Analysis Toolkit"
 
 HOMEPAGE="https://github.com/CornellNLP/Cornell-Conversational-Analysis-Toolkit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

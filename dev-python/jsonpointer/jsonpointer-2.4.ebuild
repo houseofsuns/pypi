@@ -15,7 +15,7 @@ DESCRIPTION="Identify specific nodes in a JSON document (RFC 6901)"
 
 HOMEPAGE="https://github.com/stefankoegl/python-json-pointer"
 LICENSE="Modified BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

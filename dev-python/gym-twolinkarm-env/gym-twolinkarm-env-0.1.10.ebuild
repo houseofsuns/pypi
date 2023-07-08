@@ -15,7 +15,7 @@ DESCRIPTION="This is the open-ai-gym environment for controlling two link arm"
 
 HOMEPAGE="https://github.com/gyuta/gym-twolinkarm-env"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A pytablewriter plugin to provide a theme that colored rows alterna
 
 HOMEPAGE="https://github.com/thombashi/pytablewriter-altrow-theme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

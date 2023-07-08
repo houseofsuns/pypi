@@ -15,7 +15,7 @@ DESCRIPTION="A library to communicate with Omron NX and NJ PLC and motion contro
 
 HOMEPAGE="https://bitbucket.org/jryan/aphytcomm/src/master/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

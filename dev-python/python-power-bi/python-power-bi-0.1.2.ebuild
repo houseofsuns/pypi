@@ -15,7 +15,7 @@ DESCRIPTION="The Unofficial Python API wrapper for the Microsoft Power BI REST A
 
 HOMEPAGE="https://github.com/areed1192/power-bi-python-api.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A library and toolkit for engraving MEI music notation into SVG"
 
 HOMEPAGE="https://www.verovio.org"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

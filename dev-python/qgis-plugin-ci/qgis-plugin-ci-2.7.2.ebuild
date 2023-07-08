@@ -15,7 +15,7 @@ DESCRIPTION="Let qgis-plugin-ci package and release your QGIS plugins for you. H
 
 HOMEPAGE="https://opengisch.github.io/qgis-plugin-ci/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

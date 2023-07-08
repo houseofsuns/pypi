@@ -15,7 +15,7 @@ DESCRIPTION="Poetry plugin for dynamically extracting the package version from a
 
 HOMEPAGE="https://github.com/tiangolo/poetry-version-plugin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

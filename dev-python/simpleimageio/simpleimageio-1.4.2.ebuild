@@ -15,7 +15,7 @@ DESCRIPTION="A very simple Python wrapper to read and write various HDR and LDR 
 
 HOMEPAGE="https://github.com/pgrit/SimpleImageIO"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

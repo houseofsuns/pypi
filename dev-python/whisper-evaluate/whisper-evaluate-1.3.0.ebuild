@@ -15,7 +15,7 @@ DESCRIPTION="Evaluate the effectiveness of the Whisper model."
 
 HOMEPAGE="https://git.xindong.com/fengyanglu/whisper-evaluate"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

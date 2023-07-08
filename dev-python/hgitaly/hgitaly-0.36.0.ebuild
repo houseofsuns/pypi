@@ -15,7 +15,7 @@ DESCRIPTION="Server-side implementation of Gitaly protocol for Mercurial"
 
 HOMEPAGE="https://foss.heptapod.net/heptapod/hgitaly"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

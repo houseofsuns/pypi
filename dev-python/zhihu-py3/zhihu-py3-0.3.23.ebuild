@@ -15,7 +15,7 @@ DESCRIPTION="Zhihu UNOFFICIAL API library in python3, with help of bs4, lxml, re
 
 HOMEPAGE="https://github.com/7sDream/zhihu-py3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/z/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

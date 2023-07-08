@@ -15,7 +15,7 @@ DESCRIPTION="Height-Averaged Navier-Stokes (HANS) solver for 2D lubrication prob
 
 HOMEPAGE="http://github.com/hannes-holey/hans"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

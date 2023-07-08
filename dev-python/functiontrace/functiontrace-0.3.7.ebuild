@@ -15,7 +15,7 @@ DESCRIPTION="A profiling tool that traces your application's execution"
 
 HOMEPAGE="https://functiontrace.com"
 LICENSE="The Prosperity Public License 3.0.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="2D vector, line and polygon classes, and a spatial hash implementat
 
 HOMEPAGE="https://github.com/lordmauve/wasabigeom"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

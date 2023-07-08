@@ -15,7 +15,7 @@ DESCRIPTION="SFDClib is a Salesforce.com Metadata API and Tooling API client bui
 
 HOMEPAGE="https://github.com/rbauction/sfdclib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

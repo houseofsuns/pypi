@@ -15,7 +15,7 @@ DESCRIPTION="Rapidly build, backtest & deploy trading bots"
 
 HOMEPAGE="https://github.com/Blankly-Finance/Blankly"
 LICENSE="lgpl-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

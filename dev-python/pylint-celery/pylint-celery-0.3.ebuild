@@ -15,7 +15,7 @@ DESCRIPTION="pylint-celery is a Pylint plugin to aid Pylint in recognising and u
 
 HOMEPAGE="https://github.com/landscapeio/pylint-celery"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

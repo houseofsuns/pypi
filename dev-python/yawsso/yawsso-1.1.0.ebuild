@@ -15,7 +15,7 @@ DESCRIPTION="Yet Another AWS SSO - sync up AWS CLI v2 SSO login session to legac
 
 HOMEPAGE="https://github.com/victorskl/yawsso"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

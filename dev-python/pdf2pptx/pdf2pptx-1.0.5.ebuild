@@ -15,7 +15,7 @@ DESCRIPTION="Utility to convert a PDF slideshow to Powerpoint PPTX."
 
 HOMEPAGE="https://github.com/kevinmcguinness/pdf2pptx"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

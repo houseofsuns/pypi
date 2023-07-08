@@ -15,7 +15,7 @@ DESCRIPTION="Data with karma and pi"
 
 HOMEPAGE="https://github.com/swfiua/karmapi"
 LICENSE="GPL v 3"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

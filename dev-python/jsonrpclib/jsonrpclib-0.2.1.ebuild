@@ -15,7 +15,7 @@ DESCRIPTION="Implementation of the JSON-RPC v2.0 specification (backwards-compat
 
 HOMEPAGE="https://github.com/joshmarshall/jsonrpclib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

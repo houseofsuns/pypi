@@ -15,7 +15,7 @@ DESCRIPTION="Single trial EEG pipeline at the Abdel Rahman Lab for Neurocognitiv
 
 HOMEPAGE="https://github.com/alexenge/hu-neuro-pipeline"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Gnocis is a system for the analysis and the modelling of cis-regula
 
 HOMEPAGE="https://github.com/bjornbredesen/gnocis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Wrapper around suds-jurko that adds improved proxy support and test
 
 HOMEPAGE="https://gitlab.com/thelabnyc/instrumented-soap"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

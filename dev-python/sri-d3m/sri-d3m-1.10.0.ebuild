@@ -15,7 +15,7 @@ DESCRIPTION="Graph and PSL based TA1 primitive for D3M"
 
 HOMEPAGE="https://gitlab.com/datadrivendiscovery/contrib/sri-d3m"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

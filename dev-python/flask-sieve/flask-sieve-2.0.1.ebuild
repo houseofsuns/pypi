@@ -15,7 +15,7 @@ DESCRIPTION="A Laravel inspired requests validator for Flask"
 
 HOMEPAGE="https://github.com/codingedward/flask-sieve"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

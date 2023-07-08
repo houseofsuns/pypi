@@ -15,7 +15,7 @@ DESCRIPTION="Python client for the Moehlenhoff Alpha2 underfloor heating system"
 
 HOMEPAGE="https://github.com/j-a-n/python-moehlenhoff-alpha2"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

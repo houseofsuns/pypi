@@ -15,7 +15,7 @@ DESCRIPTION="Rule-based sentence tokenizer for Russian language"
 
 HOMEPAGE="https://github.com/deepmipt/ru_sentence_tokenizer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

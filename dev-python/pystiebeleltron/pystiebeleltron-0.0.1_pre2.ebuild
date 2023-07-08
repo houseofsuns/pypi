@@ -15,7 +15,7 @@ DESCRIPTION="Python API for interacting with the Stiebel Eltron ISG web gateway 
 
 HOMEPAGE="https://github.com/fucm/python-stiebel-eltron"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

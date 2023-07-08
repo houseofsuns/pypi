@@ -15,7 +15,7 @@ DESCRIPTION="Python Flask logging handler to group messages on Google Cloud Plat
 
 HOMEPAGE="https://github.com/salrashid123/flask-gcp-log-groups"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

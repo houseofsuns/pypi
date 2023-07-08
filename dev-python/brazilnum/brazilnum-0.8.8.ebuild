@@ -15,7 +15,7 @@ DESCRIPTION="Validate Brazilian CNPJ, CEI, CPF, PIS/PASEP, CEP, and municipal nu
 
 HOMEPAGE="https://github.com/poliquin/brazilnum"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Simple offline map plot utility, for country borders, elevation, wa
 
 HOMEPAGE="https://github.com/burakbayramli/simplegeomap"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

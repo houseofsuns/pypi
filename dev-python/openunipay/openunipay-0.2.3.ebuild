@@ -15,7 +15,7 @@ DESCRIPTION="openunipay. 统一支付接口. 集成了微信支付、支付宝�
 
 HOMEPAGE="https://github.com/panweifeng/openunipay"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

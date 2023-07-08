@@ -15,7 +15,7 @@ DESCRIPTION="Set of useful packages, modules  and programs for ioppytest compone
 
 HOMEPAGE="https://gitlab.f-interop.eu/f-interop-contributors/utils"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.6-intel.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.6-intel.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.macosx-10.6-intel.tar.gz"
 RESTRICT="test"
 

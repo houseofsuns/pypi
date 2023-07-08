@@ -15,7 +15,7 @@ DESCRIPTION="A fast implementation of TreeSHAP algorithm."
 
 HOMEPAGE="http://github.com/linkedin/fasttreeshap"
 LICENSE="BSD 2-CLAUSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

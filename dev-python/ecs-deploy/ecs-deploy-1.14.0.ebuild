@@ -15,7 +15,7 @@ DESCRIPTION="Powerful CLI tool to simplify Amazon ECS deployments, rollbacks & s
 
 HOMEPAGE="https://github.com/fabfuel/ecs-deploy"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

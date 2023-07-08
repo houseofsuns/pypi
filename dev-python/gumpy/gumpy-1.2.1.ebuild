@@ -15,7 +15,7 @@ DESCRIPTION="Genetics with Numpy"
 
 HOMEPAGE="https://github.com/oxfordmmm/gumpy"
 LICENSE="University of Oxford, see LICENSE.md"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

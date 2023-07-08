@@ -15,7 +15,7 @@ DESCRIPTION="pysmb is an experimental SMB/CIFS library written in Python to supp
 
 HOMEPAGE="https://miketeo.net/projects/pysmb"
 LICENSE="ZLIB"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A WeakMethod class for storing bound methods using weak references.
 
 HOMEPAGE="http://github.com/twang817/weakrefmethod"
 LICENSE="PSF-2.4"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

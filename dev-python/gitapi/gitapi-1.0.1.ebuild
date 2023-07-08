@@ -15,7 +15,7 @@ DESCRIPTION="Python API to Git using the command-line interface"
 
 HOMEPAGE="https://bitbucket.org/haard/gitapi"
 LICENSE="Do whatever you want, don't blame me"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

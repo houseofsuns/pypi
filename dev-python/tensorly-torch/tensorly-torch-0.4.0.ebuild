@@ -15,7 +15,7 @@ DESCRIPTION="Deep Learning with Tensors in Python, using PyTorch and TensorLy."
 
 HOMEPAGE="https://github.com/tensorly/tensorly-torch"
 LICENSE="Modified BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

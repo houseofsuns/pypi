@@ -15,7 +15,7 @@ DESCRIPTION="A PDFMiner wrapper to ease the text extraction from pdf files."
 
 HOMEPAGE="https://github.com/syllabs/pdf2text"
 LICENSE="MIT/X"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

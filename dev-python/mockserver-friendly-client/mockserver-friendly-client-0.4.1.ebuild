@@ -15,7 +15,7 @@ DESCRIPTION="Friendly python client to James D. Bloom's awesome MockServer"
 
 HOMEPAGE="https://github.com/internap/python-mockserver-friendly-client"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

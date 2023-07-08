@@ -15,7 +15,7 @@ DESCRIPTION="High quality drawing interface for PIL."
 
 HOMEPAGE="https://github.com/pytroll/aggdraw"
 LICENSE="Python MIT style"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

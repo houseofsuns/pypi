@@ -15,7 +15,7 @@ DESCRIPTION="Generates full genome images from a gbff file"
 
 HOMEPAGE="https://github.com/robotoD/GenoVi"
 LICENSE="BY-NC-SA Creative Commons License"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

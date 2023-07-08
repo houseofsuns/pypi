@@ -15,7 +15,7 @@ DESCRIPTION="Pure Python3 기능을 재사용하기 위해 한단계 추상화�
 
 HOMEPAGE="https://github.com/innovata/iPyLibrary"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

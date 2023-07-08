@@ -15,7 +15,7 @@ DESCRIPTION="SDK to communicate with the Ingenico ePayments platform using the I
 
 HOMEPAGE="https://github.com/Ingenico-ePayments/connect-sdk-python3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

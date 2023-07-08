@@ -15,7 +15,7 @@ DESCRIPTION="An AUR helper (and library) in Python 3."
 
 HOMEPAGE="https://github.com/Kwpolska/pkgbuilder"
 LICENSE="3-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

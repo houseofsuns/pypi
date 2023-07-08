@@ -15,7 +15,7 @@ DESCRIPTION="Backports and enhancements for the contextlib module"
 
 HOMEPAGE="http://contextlib2.readthedocs.org"
 LICENSE="PSF License"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Process and analyze images using SimpleITK in napari"
 
 HOMEPAGE="https://github.com/haesleinhuepf/napari-simpleitk-image-processing"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

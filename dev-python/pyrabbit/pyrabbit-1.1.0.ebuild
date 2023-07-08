@@ -15,7 +15,7 @@ DESCRIPTION="A Pythonic interface to the RabbitMQ Management HTTP API"
 
 HOMEPAGE="http://www.github.com/bkjones/pyrabbit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

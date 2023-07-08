@@ -15,7 +15,7 @@ DESCRIPTION="Minimal Python S2 Geometry cell ID, token and lat/lon conversion li
 
 HOMEPAGE="https://docs.s2cell.aliddell.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

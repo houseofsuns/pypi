@@ -15,7 +15,7 @@ DESCRIPTION="A Python package that exposes the Django model queryset aggregate f
 
 HOMEPAGE="https://github.com/uptick/django-rest-framework-aggregates"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

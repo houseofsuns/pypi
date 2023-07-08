@@ -15,7 +15,7 @@ DESCRIPTION="A JSON/YAML loader"
 
 HOMEPAGE="https://github.com/pearmaster/jacobs-json-doc"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

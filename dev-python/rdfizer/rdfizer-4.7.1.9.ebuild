@@ -15,7 +15,7 @@ DESCRIPTION="This project presents the SDM-RDFizer, an interpreter of mapping ru
 
 HOMEPAGE="https://github.com/SDM-TIB/SDM-RDFizer"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

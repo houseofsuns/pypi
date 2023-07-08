@@ -15,7 +15,7 @@ DESCRIPTION="A python library to convert currency, prettify price and get variou
 
 HOMEPAGE="https://github.com/NearHuscarl/py-currency"
 LICENSE="BSD 3 Clauses"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

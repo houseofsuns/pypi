@@ -15,7 +15,7 @@ DESCRIPTION="DB-API 2.0 interface for SQLite 3.x"
 
 HOMEPAGE="http://github.com/ghaering/pysqlite"
 LICENSE="zlib/libpng license"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

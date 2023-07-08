@@ -15,7 +15,7 @@ DESCRIPTION="Module with C functions. No precise purpose yet."
 
 HOMEPAGE="http://www.xavierdupre.fr/app/cpyquickhelper/helpsphinx/index.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Library from http://pena.lt/y/blog for scraping and modelling footb
 
 HOMEPAGE="https://github.com/martineastwood/penaltyblog"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

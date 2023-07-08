@@ -15,7 +15,7 @@ DESCRIPTION="Helpers to generate different configurations for PCluster"
 
 HOMEPAGE="https://github.com/dabble-of-devops-bioanalyze/aws_pcluster_helpers"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

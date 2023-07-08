@@ -15,7 +15,7 @@ DESCRIPTION="Turns folder of gherkin feature files into a docx file."
 
 HOMEPAGE="https://github.com/Hidden-goblin/eaiscenarioreporter.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

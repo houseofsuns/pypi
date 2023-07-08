@@ -15,7 +15,7 @@ DESCRIPTION="awslogs is a simple command line tool to read aws cloudwatch logs."
 
 HOMEPAGE="https://github.com/jorgebastida/awslogs"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

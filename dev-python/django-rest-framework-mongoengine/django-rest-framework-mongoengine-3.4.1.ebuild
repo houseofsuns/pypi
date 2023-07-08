@@ -15,7 +15,7 @@ DESCRIPTION="MongoEngine support for Django Rest Framework."
 
 HOMEPAGE="https://github.com/umutbozkurt/django-rest-framework-mongoengine"
 LICENSE="see https://github.com/umutbozkurt/django-rest-framework-mongoengine/blob/master/LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

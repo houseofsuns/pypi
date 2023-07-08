@@ -15,7 +15,7 @@ DESCRIPTION="scikit-surgerycalibration provides algorithms designed for the cali
 
 HOMEPAGE="https://github.com/SciKit-Surgery/scikit-surgerycalibration"
 LICENSE="BSD-3 license"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

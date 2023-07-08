@@ -15,7 +15,7 @@ DESCRIPTION="Simple command line tool to deploy your projects"
 
 HOMEPAGE="http://deploy-commander.readthedocs.org"
 LICENSE="Free"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

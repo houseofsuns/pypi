@@ -15,7 +15,7 @@ DESCRIPTION="C++ 98/11/14/17/20 manual pages for Linux/MacOS"
 
 HOMEPAGE="https://github.com/aitjcize/cppman"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

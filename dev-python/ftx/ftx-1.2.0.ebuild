@@ -15,7 +15,7 @@ DESCRIPTION="Unofficial python3 FTX exchange API 1.2.0"
 
 HOMEPAGE="https://github.com/quan-digital/ftx/tree/v1.2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

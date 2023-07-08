@@ -15,7 +15,7 @@ DESCRIPTION="Django fieldsignals simply makes it easy to tell when the fields on
 
 HOMEPAGE="https://github.com/craigds/django-fieldsignals"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

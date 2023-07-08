@@ -15,7 +15,7 @@ DESCRIPTION="OPQBot/IOTQQ/IOTBot的Python开发助手"
 
 HOMEPAGE="https://github.com/xiyaowong/botoy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

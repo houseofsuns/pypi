@@ -15,7 +15,7 @@ DESCRIPTION="SDK to interact with the datalogue platform"
 
 HOMEPAGE="https://github.com/datalogue/platform"
 LICENSE=" Copyright 2021 Datalogue, Inc.  This Datalogue SDK is licensed solely pursuant to the terms of the Master Software License executed between you as Licensee and Datalogue, Inc.  All rights reserved. "
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Karanage interface is a simple interface to access to the karanage 
 
 HOMEPAGE="https://gitea.atria-soft.org/kangaroo-and-rabbit/karanage"
 LICENSE="MPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

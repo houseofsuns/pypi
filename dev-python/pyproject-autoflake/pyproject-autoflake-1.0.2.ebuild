@@ -15,7 +15,7 @@ DESCRIPTION="pyproject-autoflake (pautoflake), a monkey patching wrapper to conn
 
 HOMEPAGE="https://github.com/quwac/pyproject-autoflake"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

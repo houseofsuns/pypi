@@ -15,7 +15,7 @@ DESCRIPTION="CSS HTML JS Minifier"
 
 HOMEPAGE="https://github.com/juancarlospaco/css-html-js-minify#css-html-js-minify"
 LICENSE="GPL-3 LGPL-3 MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

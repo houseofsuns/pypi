@@ -15,7 +15,7 @@ DESCRIPTION="Python Redis ORM library that gives redis easy-to-use objects with 
 
 HOMEPAGE="https://github.com/gh0st-work/python_redis_orm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="pysummarization is Python library for the automatic summarization, 
 
 HOMEPAGE="https://github.com/accel-brain/accel-brain-code/tree/master/Automatic-Summarization/"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

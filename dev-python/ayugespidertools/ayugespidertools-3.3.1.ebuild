@@ -15,7 +15,7 @@ DESCRIPTION="scrapy 扩展库：用于扩展 Scrapy 功能来解放双手，还�
 
 HOMEPAGE="https://www.ayuge.top/mkdocs-material/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

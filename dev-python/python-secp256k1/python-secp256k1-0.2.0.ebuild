@@ -15,7 +15,7 @@ DESCRIPTION="Ctypes Python3 FFI bindings for libsecp256k1"
 
 HOMEPAGE="https://github.com/scgbckbone/python-secp256k1"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

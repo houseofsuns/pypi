@@ -15,7 +15,7 @@ DESCRIPTION="CL-tools for PanSTARRS & ATLAS LIGO-VIRGO (PSAT) group to aid surve
 
 HOMEPAGE="https://github.com/thespacedoctor/breaker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

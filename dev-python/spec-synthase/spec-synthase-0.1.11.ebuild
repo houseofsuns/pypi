@@ -15,7 +15,7 @@ DESCRIPTION="spec-synthase is a tool to help deal with big swagger files, by bui
 
 HOMEPAGE="https://github.com/MicroarrayTecnologia/spec-synthase"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

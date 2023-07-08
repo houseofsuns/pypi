@@ -15,7 +15,7 @@ DESCRIPTION="DateTime variable type for dedupe"
 
 HOMEPAGE="https://github.com/datamade/dedupe-variable-datetime"
 LICENSE="The MIT License: http://www.opensource.org/licenses/mit-license.php"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

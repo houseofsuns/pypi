@@ -15,7 +15,7 @@ DESCRIPTION="A package to control and read MirAIe Aircons by Panasonic"
 
 HOMEPAGE="https://github.com/milothomas/py-miraie-ac"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Django app to add a Multiple Choice List Filter to the admin inte
 
 HOMEPAGE="https://github.com/ctxis/django-admin-multiple-choice-list-filter"
 LICENSE="BSD 2-Clause Simplified License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python API For JMComic (禁漫天堂)"
 
 HOMEPAGE="https://github.com/hect0x7/JMComic-Crawler-Python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

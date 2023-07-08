@@ -15,7 +15,7 @@ DESCRIPTION="Write .fcs files (flow cytometry)"
 
 HOMEPAGE="https://github.com/DC-analysis/fcswrite"
 LICENSE="BSD 3 clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

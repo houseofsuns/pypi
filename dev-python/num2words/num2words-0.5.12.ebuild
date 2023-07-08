@@ -15,7 +15,7 @@ DESCRIPTION="Modules to convert numbers to words. Easily extensible."
 
 HOMEPAGE="https://github.com/savoirfairelinux/num2words"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An utility library that allows to read an Autosubmit 4 experiment c
 
 HOMEPAGE="https://earth.bsc.es/gitlab/ces/autosubmit4-config-parser.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

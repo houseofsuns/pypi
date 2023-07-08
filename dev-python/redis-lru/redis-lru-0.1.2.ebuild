@@ -15,7 +15,7 @@ DESCRIPTION="LRU cache for Python. Use Redis as backend. Provides a dictionary-l
 
 HOMEPAGE="https://github.com/leohowell/redis-lru"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

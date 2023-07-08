@@ -15,7 +15,7 @@ DESCRIPTION="Clean US addresses following USPS pub 28 and RESO guidelines"
 
 HOMEPAGE="https://github.com/GreenBuildingRegistry/usaddress-scourgify"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

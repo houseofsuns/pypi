@@ -15,7 +15,7 @@ DESCRIPTION="A glob matching library, providing an interface similar to the \"re
 
 HOMEPAGE="http://github.com/metagriffin/globre"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

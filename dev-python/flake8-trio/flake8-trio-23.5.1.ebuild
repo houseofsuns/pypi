@@ -15,7 +15,7 @@ DESCRIPTION="A highly opinionated flake8 plugin for Trio-related problems."
 
 HOMEPAGE="https://github.com/Zac-HD/flake8-trio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python API for Yale Access (formerly August) Smart Lock and Doorbel
 
 HOMEPAGE="https://github.com/bdraco/yalexs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

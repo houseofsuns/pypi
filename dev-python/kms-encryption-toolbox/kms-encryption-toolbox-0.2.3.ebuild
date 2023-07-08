@@ -15,7 +15,7 @@ DESCRIPTION="Encryption toolbox to be used with the Amazon Key Management Servic
 
 HOMEPAGE="https://github.com/ApplauseOSS/kms-encryption-toolbox"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

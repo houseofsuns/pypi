@@ -15,7 +15,7 @@ DESCRIPTION="Very simple NCHW and NHWC conversion tool for ONNX. Change to the s
 
 HOMEPAGE="https://github.com/PINTO0309/scc4onnx"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

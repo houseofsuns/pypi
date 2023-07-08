@@ -15,7 +15,7 @@ DESCRIPTION="High fidelity neural audio codec"
 
 HOMEPAGE="https://github.com/facebookresearch/encodec"
 LICENSE="Creative Commons Attribution-NonCommercial 4.0 International"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

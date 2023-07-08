@@ -15,7 +15,7 @@ DESCRIPTION="Parse and generate Content-Disposition headers"
 
 HOMEPAGE="https://github.com/g2p/rfc6266"
 LICENSE="GNU LGPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

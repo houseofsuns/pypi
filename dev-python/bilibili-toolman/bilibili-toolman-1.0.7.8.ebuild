@@ -15,7 +15,7 @@ DESCRIPTION="bilibili-toolman 哔哩哔哩搬运工具"
 
 HOMEPAGE="https://github.com/greats3an/bilibili-toolman"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

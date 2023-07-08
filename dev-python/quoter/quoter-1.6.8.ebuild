@@ -15,7 +15,7 @@ DESCRIPTION="Powerful way to construct text, HTML, and XML, plus a kick-ass join
 
 HOMEPAGE="https://bitbucket.org/jeunice/quoter"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/q/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

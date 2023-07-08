@@ -15,7 +15,7 @@ DESCRIPTION="A QEMU wrapper adding vagrant support and shared folders"
 
 HOMEPAGE="https://github.com/ALSchwalm/transient"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

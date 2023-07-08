@@ -15,7 +15,7 @@ DESCRIPTION="Client side API and simple bot framekwork for fincloud-aria (versio
 
 HOMEPAGE="https://github.com/fincloud-io/ariaclient"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

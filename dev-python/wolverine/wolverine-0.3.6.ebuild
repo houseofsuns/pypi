@@ -15,7 +15,7 @@ DESCRIPTION="micro service framework with python 3.5 and asyncio"
 
 HOMEPAGE="http://github.com/drankinn/wolverine"
 LICENSE="MIT 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

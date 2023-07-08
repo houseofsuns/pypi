@@ -15,7 +15,7 @@ DESCRIPTION="tokmon is a CLI utility to monitor OpenAI token usage and costs"
 
 HOMEPAGE="https://github.com/yagil/tokmon"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

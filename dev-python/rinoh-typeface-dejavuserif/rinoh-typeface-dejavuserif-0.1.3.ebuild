@@ -15,7 +15,7 @@ DESCRIPTION="DejaVu Serif typeface"
 
 HOMEPAGE="https://github.com/brechtm/rinoh-typeface-dejavuserif"
 LICENSE="Bitstream Vera Fonts Copyright, Arev Fonts Copyright, Public Domain"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

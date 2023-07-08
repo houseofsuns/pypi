@@ -15,7 +15,7 @@ DESCRIPTION="Guppy 3 -- Guppy-PE ported to Python 3"
 
 HOMEPAGE="https://github.com/zhuyifei1999/guppy3/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

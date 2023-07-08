@@ -15,7 +15,7 @@ DESCRIPTION="Build static self-extracting app from dynamic executable"
 
 HOMEPAGE="https://github.com/JonathonReinhart/staticx"
 LICENSE="GPL v2 with special exception allowing StaticX to build and distribute non-free programs"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

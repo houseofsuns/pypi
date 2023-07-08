@@ -15,7 +15,7 @@ DESCRIPTION="Python module that encapsulates wolfSSL's crypto engine API."
 
 HOMEPAGE="https://github.com/wolfssl/wolfcrypt-py"
 LICENSE="GPLv2 or Commercial License"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

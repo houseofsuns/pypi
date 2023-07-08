@@ -15,7 +15,7 @@ DESCRIPTION="NoneBot2 plugin for ChatGLM-6B-API"
 
 HOMEPAGE="https://github.com/QNLanYang/nonebot_plugin_ChatGLM6B"
 LICENSE="GPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

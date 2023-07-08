@@ -15,7 +15,7 @@ DESCRIPTION="heavy rain as a function of the duration and the return period acc.
 
 HOMEPAGE="https://github.com/MarkusPic/intensity_duration_frequency_analysis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/i/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Multi-vector Simulation Tool assessing and optimizing Local Energy 
 
 HOMEPAGE="https://github.com/rl-institut/multi-vector-simulator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

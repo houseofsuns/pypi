@@ -15,7 +15,7 @@ DESCRIPTION="Prometheus Exporter for Salt highstate metrics run from the Salt ma
 
 HOMEPAGE="https://github.com/ioki-mobility/salt_exporter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

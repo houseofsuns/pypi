@@ -15,7 +15,7 @@ DESCRIPTION="This script allows to check services under Linux and sends mails in
 
 HOMEPAGE="https://github.com/FLAFLALEBG/Ultimate_Auto_Check_Services"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

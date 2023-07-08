@@ -15,7 +15,7 @@ DESCRIPTION="keras-style API to ResNets (ResNet-50, ResNet-101, and ResNet-152)"
 
 HOMEPAGE="https://github.com/statech/resnet"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

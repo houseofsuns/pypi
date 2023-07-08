@@ -15,7 +15,7 @@ DESCRIPTION="redis-simple-cache is a pythonic interface for creating a cache ove
 
 HOMEPAGE="https://github.com/vivekn/redis-simple-cache"
 LICENSE="3-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="NHSUK Frontend Styles for Wagtail"
 
 HOMEPAGE="https://github.com/nhsuk/wagtail-nhsuk-frontend"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

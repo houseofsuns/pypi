@@ -15,7 +15,7 @@ DESCRIPTION="Simple but powerful assertion and verification of logged lines."
 
 HOMEPAGE="https://github.com/facundobatista/logassert"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="TensorFlow 2 implementation of the Yahoo Open-NSFW model"
 
 HOMEPAGE="https://github.com/bhky/opennsfw2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

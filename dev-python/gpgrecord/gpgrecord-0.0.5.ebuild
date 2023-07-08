@@ -15,7 +15,7 @@ DESCRIPTION="Encrypt/Decrypt interface for GPG record compatiable with JSON via 
 
 HOMEPAGE="https://github.com/wefindx/gpgrecord"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

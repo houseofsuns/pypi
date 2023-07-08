@@ -15,7 +15,7 @@ DESCRIPTION="TableLogger is a handy Python utility for logging tabular data into
 
 HOMEPAGE="https://github.com/AleksTk/table-logger"
 LICENSE="GNU GPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="An authorization middleware for Flask that supports ACL, RBAC, ABAC
 
 HOMEPAGE="https://github.com/pycasbin/flask-authz"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

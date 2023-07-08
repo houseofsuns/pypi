@@ -15,7 +15,7 @@ DESCRIPTION="Log SSL/TLS keys for decrypting SSL/TLS connections"
 
 HOMEPAGE="https://github.com/segevfiner/sslkeylog"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

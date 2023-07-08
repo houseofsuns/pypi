@@ -15,7 +15,7 @@ DESCRIPTION="Converts (already scraped) Entscheidungsbaumdiagramm tables to real
 
 HOMEPAGE="https://github.com/Hochfrequenz/ebd_table_to_graph"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

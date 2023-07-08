@@ -15,7 +15,7 @@ DESCRIPTION="A backport of the subprocess module from Python 3 for use on 2.x."
 
 HOMEPAGE="https://github.com/google/python-subprocess32"
 LICENSE="PSF license"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

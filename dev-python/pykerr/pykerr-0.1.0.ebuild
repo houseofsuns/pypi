@@ -15,7 +15,7 @@ DESCRIPTION="QNM frequencies and spheroidal harmonics of Kerr black holes."
 
 HOMEPAGE="https://github.com/cdcapano/pykerr.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

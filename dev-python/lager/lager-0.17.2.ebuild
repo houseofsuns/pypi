@@ -15,7 +15,7 @@ DESCRIPTION="EZ-PZ logging based on loguru"
 
 HOMEPAGE="https://github.com/dynamic-graphics-inc/dgpy-libs/tree/main/libs/lager"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

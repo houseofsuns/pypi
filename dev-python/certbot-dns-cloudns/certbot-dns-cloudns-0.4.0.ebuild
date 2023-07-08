@@ -15,7 +15,7 @@ DESCRIPTION="ClouDNS DNS Authenticator plugin for Certbot"
 
 HOMEPAGE="https://github.com/inventage/certbot-dns-cloudns"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

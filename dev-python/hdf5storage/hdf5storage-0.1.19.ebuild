@@ -15,7 +15,7 @@ DESCRIPTION="Utilities to read/write Python types to/from HDF5 files, including 
 
 HOMEPAGE="https://github.com/frejanordsiek/hdf5storage"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

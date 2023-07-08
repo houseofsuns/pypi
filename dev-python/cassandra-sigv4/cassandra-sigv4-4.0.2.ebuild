@@ -15,7 +15,7 @@ DESCRIPTION="Implements a sigv4 authentication plugin for the open-source Datast
 
 HOMEPAGE="https://github.com/aws/aws-sigv4-auth-cassandra-python-driver-plugin/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

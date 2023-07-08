@@ -15,7 +15,7 @@ DESCRIPTION="sparkql: Apache Spark SQL DataFrame schema management for sensible 
 
 HOMEPAGE="https://github.com/mattjw/sparkql"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

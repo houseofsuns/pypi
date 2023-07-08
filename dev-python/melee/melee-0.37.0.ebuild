@@ -15,7 +15,7 @@ DESCRIPTION="Open API written in Python 3 for making your own Smash Bros: Melee 
 
 HOMEPAGE="https://github.com/altf4/libmelee"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

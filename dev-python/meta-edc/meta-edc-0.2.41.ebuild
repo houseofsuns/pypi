@@ -15,7 +15,7 @@ DESCRIPTION="META Trial EDC (http://www.isrctn.com/ISRCTN76157257)"
 
 HOMEPAGE="https://github.com/meta-trial/meta-edc"
 LICENSE="GPL license, see LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

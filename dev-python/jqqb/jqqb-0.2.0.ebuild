@@ -15,7 +15,7 @@ DESCRIPTION="Python parsing, evaluation and inspection tools for jQuery-QueryBui
 
 HOMEPAGE="https://github.com/Connecting-Food/jQueryQueryBuilder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

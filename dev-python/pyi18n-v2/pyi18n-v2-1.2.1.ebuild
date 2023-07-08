@@ -15,7 +15,7 @@ DESCRIPTION="Simple and easy to use internationalizationlibrary inspired by Ruby
 
 HOMEPAGE="https://github.com/sectasy0/pyi18n"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

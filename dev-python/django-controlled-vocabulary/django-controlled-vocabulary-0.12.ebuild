@@ -15,7 +15,7 @@ DESCRIPTION="Link your data to authority lists or your own controlled lists"
 
 HOMEPAGE="https://github.com/kingsdigitallab/django-controlled-vocabulary"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

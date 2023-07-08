@@ -15,7 +15,7 @@ DESCRIPTION="Pure-python wrapper for libusb-1.0"
 
 HOMEPAGE="https://github.com/vpelletier/python-libusb1"
 LICENSE="LGPL-2.1+"
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Hestia library to extend Bibliography Nodes with different APIs"
 
 HOMEPAGE="https://gitlab.com/hestia-earth/hestia-data-validation"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

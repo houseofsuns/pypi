@@ -15,7 +15,7 @@ DESCRIPTION="This plugin adds stylesheets to your mkdocs site from \`Sass\`/\`SC
 
 HOMEPAGE="https://github.com/orzih/mkdocs-extra-sass-plugin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

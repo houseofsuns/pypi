@@ -15,7 +15,7 @@ DESCRIPTION="Library implementing the ThoughtSpot V1 REST API"
 
 HOMEPAGE="https://github.com/thoughtspot/thoughtspot_rest_api_v1_python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

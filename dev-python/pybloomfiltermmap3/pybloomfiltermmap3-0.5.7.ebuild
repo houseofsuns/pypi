@@ -15,7 +15,7 @@ DESCRIPTION="A fast implementation of Bloom filter for Python 3 built on mmap"
 
 HOMEPAGE="https://github.com/prashnts/pybloomfiltermmap3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Automatically create and destroy child model instances"
 
 HOMEPAGE="https://chris-lamb.co.uk/projects/django-auto-one-to-one"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

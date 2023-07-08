@@ -15,7 +15,7 @@ DESCRIPTION="FAICE (Fair Collaboration and Experiments) is part of the Curious C
 
 HOMEPAGE="https://www.curious-containers.cc/"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

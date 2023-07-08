@@ -15,7 +15,7 @@ DESCRIPTION="Library to interface to low level linux features (inotify, fanotify
 
 HOMEPAGE="http://blitz.works/butter/file/tip"
 LICENSE="MIT BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

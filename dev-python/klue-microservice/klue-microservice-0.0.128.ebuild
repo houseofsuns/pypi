@@ -15,7 +15,7 @@ DESCRIPTION="Easily implement a REST API and deploy it as a Docker container on 
 
 HOMEPAGE="https://github.com/erwan-lemonnier/klue-microservice"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

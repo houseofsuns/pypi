@@ -15,7 +15,7 @@ DESCRIPTION="Type definitions for AWS Lambda events using Python type hinting."
 
 HOMEPAGE="https://github.com/emcpow2/aws-lambda-py-types"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

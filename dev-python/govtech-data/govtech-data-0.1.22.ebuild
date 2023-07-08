@@ -15,7 +15,7 @@ DESCRIPTION="Library to easily access and read data from data.gov.sg"
 
 HOMEPAGE="https://github.com/merlin83/govtech-data"
 LICENSE="Singapore Open Data License"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

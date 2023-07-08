@@ -15,7 +15,7 @@ DESCRIPTION="Avi python API SDK for Avi Controller REST API with samples and, ut
 
 HOMEPAGE="https://github.com/vmware/alb-sdk"
 LICENSE="Avi Networks"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

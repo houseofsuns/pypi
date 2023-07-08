@@ -15,7 +15,7 @@ DESCRIPTION="Load a shared library (and access a 32-bit library from 64-bit Pyth
 
 HOMEPAGE="https://github.com/MSLNZ/msl-loadlib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

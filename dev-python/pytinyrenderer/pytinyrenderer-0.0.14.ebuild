@@ -15,7 +15,7 @@ DESCRIPTION="Python bindings for Tiny Renderer"
 
 HOMEPAGE="https://github.com/erwincoumans/tinyrenderer"
 LICENSE="Zlib/PNG License"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

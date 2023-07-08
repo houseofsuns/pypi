@@ -15,7 +15,7 @@ DESCRIPTION="Cli tool for navigation in Amazon AWS services. Highly inspired fro
 
 HOMEPAGE="https://github.com/IamShobe/a9s"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

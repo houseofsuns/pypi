@@ -15,7 +15,7 @@ DESCRIPTION="Simple backup and restore for Amazon DynamoDB using AWS SDK for Pyt
 
 HOMEPAGE="https://github.com/bchew/dynamodump"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

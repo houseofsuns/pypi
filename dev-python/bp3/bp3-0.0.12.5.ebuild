@@ -15,7 +15,7 @@ DESCRIPTION="Bepipred-3.0. B-cell epitope prediction"
 
 HOMEPAGE="https://github.com/UberClifford/BepiPred3.0-Predictor"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

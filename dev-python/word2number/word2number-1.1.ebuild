@@ -15,7 +15,7 @@ DESCRIPTION="Convert number words eg. three hundred and forty two to numbers (34
 
 HOMEPAGE="https://github.com/akshaynagpal/w2n"
 LICENSE="The MIT License MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

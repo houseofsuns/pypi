@@ -15,7 +15,7 @@ DESCRIPTION="A python module to create json for VSCode Robot Framework Intellise
 
 HOMEPAGE="https://github.com/Snooz82/robotframework-LibDoc2Json"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

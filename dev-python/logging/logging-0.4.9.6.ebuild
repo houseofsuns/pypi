@@ -15,7 +15,7 @@ DESCRIPTION="A logging module for Python"
 
 HOMEPAGE="http://www.red-dove.com/python_logging.html"
 LICENSE="Copyright C 2001-2005 by Vinay Sajip. All Rights Reserved. See LICENSE for license."
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Create json logging output for pythonnosetests unittest framework"
 
 HOMEPAGE="http://github.com/thschenk/nosetests-json-extended"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

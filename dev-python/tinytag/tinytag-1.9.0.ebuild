@@ -15,7 +15,7 @@ DESCRIPTION="Read music meta data and length of MP3, OGG, OPUS, MP4, M4A, FLAC, 
 
 HOMEPAGE="https://github.com/devsnd/tinytag"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

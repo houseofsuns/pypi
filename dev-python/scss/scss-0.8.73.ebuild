@@ -15,7 +15,7 @@ DESCRIPTION="Python-scss is SCSS compiler for Python. See http://sass-lang.com f
 
 HOMEPAGE="http://github.com/klen/python-scss"
 LICENSE="GNU LGPL"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

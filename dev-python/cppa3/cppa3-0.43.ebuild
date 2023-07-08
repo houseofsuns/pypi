@@ -15,7 +15,7 @@ DESCRIPTION="Libraries for processing ebCore CPPA version 3 documents"
 
 HOMEPAGE="https://www.oasis-open.org/committees/document.php?document_id=57550"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

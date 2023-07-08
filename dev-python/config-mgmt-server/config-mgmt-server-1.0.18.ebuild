@@ -15,7 +15,7 @@ DESCRIPTION="Suncoast Systems Core Router Config Mgmt Server"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE="This project is only for Dotcom Row services, no other use is allowed or even possible"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

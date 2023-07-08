@@ -15,7 +15,7 @@ DESCRIPTION="Server side component of OppiaMobile learning platform"
 
 HOMEPAGE="https://digital-campus.org/"
 LICENSE="GNU GPL v3 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

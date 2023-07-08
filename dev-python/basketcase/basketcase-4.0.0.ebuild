@@ -15,7 +15,7 @@ DESCRIPTION="Download images and videos from Instagram"
 
 HOMEPAGE="https://gitlab.com/crimson.king/basketcase"
 LICENSE="Copyright c 2021-2022 Douglas Silva"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A simple connection pool for gevent"
 
 HOMEPAGE="https://github.com/studio-ousia/gsocketpool"
 LICENSE="Copyright 2013 Studio Ousia"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

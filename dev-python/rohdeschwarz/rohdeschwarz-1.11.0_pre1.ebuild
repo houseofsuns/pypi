@@ -15,7 +15,7 @@ DESCRIPTION="Rohde & Schwarz general purpose instrument control toolbox"
 
 HOMEPAGE="https://github.com/Terrabits/rohdeschwarz"
 LICENSE="R&S Terms and Conditions for Royalty-Free Products"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

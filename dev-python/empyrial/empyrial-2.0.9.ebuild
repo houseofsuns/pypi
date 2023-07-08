@@ -15,7 +15,7 @@ DESCRIPTION="An Open Source Portfolio Management Framework for Everyone 投资�
 
 HOMEPAGE="https://github.com/ssantoshp/Empyrial"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

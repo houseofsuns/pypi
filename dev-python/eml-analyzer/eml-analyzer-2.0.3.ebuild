@@ -15,7 +15,7 @@ DESCRIPTION="A cli script to analyze an E-Mail in the eml format for viewing the
 
 HOMEPAGE="https://github.com/wahlflo/eml_analyzer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

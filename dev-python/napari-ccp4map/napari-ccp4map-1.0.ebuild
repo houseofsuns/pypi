@@ -15,7 +15,7 @@ DESCRIPTION="Enables napari to read .map files in the ccp4 format. Drag&Drop or 
 
 HOMEPAGE="https://github.com/biberger/napari-ccp4map"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper for CONRAD (https://www5.cs.fau.de/conrad/), a frame
 
 HOMEPAGE="https://git5.cs.fau.de/PyConrad/pyCONRAD/"
 LICENSE="GPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

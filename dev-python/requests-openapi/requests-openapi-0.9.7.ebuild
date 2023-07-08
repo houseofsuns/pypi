@@ -15,7 +15,7 @@ DESCRIPTION="RequestsOpenAPI is a python client library for OpenAPI 3.0"
 
 HOMEPAGE="https://github.com/wy-z/requests-openapi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python package for fCAT, a feature-aware completeness assessment to
 
 HOMEPAGE="https://github.com/BIONF/fCAT"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

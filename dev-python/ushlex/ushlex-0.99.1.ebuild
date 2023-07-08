@@ -15,7 +15,7 @@ DESCRIPTION="Replacement for shlex (that works with unicode) for Python 2.X."
 
 HOMEPAGE="https://bitbucket.org/mixmastamyk/ushlex"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

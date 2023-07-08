@@ -15,7 +15,7 @@ DESCRIPTION="A client for handling Remote Commands (RCON) to a Minecraft server.
 
 HOMEPAGE="https://github.com/uncaught-exceptions/mcrcon"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

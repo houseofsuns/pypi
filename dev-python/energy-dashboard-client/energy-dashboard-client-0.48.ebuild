@@ -15,7 +15,7 @@ DESCRIPTION="Energy Dashboard Command Line Interface (CLI)"
 
 HOMEPAGE="http://github.com/energy-analytics-project/energy-dashboard-cli"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

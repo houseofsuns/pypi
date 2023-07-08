@@ -15,7 +15,7 @@ DESCRIPTION="aos commmand line tool for AliOS-Things development."
 
 HOMEPAGE="https://pypi.org/project/aos-cube/"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

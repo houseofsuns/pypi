@@ -15,7 +15,7 @@ DESCRIPTION="A port of Ansible's jinja2 filters without requiring ansible core."
 
 HOMEPAGE="https://gitlab.com/dreamer-labs/libraries/jinja2-ansible-filters"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

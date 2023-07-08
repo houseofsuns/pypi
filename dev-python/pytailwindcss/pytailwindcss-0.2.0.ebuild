@@ -15,7 +15,7 @@ DESCRIPTION="Standalone Tailwind CSS CLI, installable via pip. Use Tailwind CSS 
 
 HOMEPAGE="https://github.com/timonweb/pytailwindcss"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

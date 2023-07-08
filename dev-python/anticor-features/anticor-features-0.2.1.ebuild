@@ -15,7 +15,7 @@ DESCRIPTION="Anti-correlation based feature selection for single cell datasets"
 
 HOMEPAGE="https://scottyler892@bitbucket.org/scottyler892/anticor_features"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

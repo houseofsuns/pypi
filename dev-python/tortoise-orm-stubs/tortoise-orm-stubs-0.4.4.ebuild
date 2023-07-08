@@ -15,7 +15,7 @@ DESCRIPTION="Type stubs that make tortoise-orm a lot easier to work with when us
 
 HOMEPAGE="https://github.com/Ovsyanka83/tortoise-orm-stubs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

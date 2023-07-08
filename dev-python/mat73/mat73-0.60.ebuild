@@ -15,7 +15,7 @@ DESCRIPTION="Load MATLAB .mat 7.3 into Python native data types (via h5/hd5/hdf5
 
 HOMEPAGE="https://github.com/skjerns/mat7.3"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

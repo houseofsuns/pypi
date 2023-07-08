@@ -15,7 +15,7 @@ DESCRIPTION="Bellatrix is a set of (magic) tools to automate the management of A
 
 HOMEPAGE="https://bitbucket.org/deccico/bellatrix"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

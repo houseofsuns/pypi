@@ -15,7 +15,7 @@ DESCRIPTION="Multiplatform application for the solution of physical problems bas
 
 HOMEPAGE="http://www.agros2d.org/"
 LICENSE="License :: OSI Approved :: GNU Lesser General Public License v2 LGPLv2"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

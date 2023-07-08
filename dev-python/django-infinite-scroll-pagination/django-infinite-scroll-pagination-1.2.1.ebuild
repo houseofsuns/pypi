@@ -15,7 +15,7 @@ DESCRIPTION="infinite-scroll-pagination is a Django lib that implementsthe *seek
 
 HOMEPAGE="https://github.com/nitely/django-infinite-scroll-pagination"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

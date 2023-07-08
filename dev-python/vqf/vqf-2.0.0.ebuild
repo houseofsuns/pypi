@@ -15,7 +15,7 @@ DESCRIPTION="A Versatile Quaternion-based Filter for IMU Orientation Estimation"
 
 HOMEPAGE="https://github.com/dlaidig/vqf/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

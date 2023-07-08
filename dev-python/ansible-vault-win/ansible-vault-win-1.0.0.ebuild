@@ -15,7 +15,7 @@ DESCRIPTION="Stand-alone Ansible Vault CLI that works on Windows"
 
 HOMEPAGE="https://github.com/sparkyb/ansible-vault-win"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

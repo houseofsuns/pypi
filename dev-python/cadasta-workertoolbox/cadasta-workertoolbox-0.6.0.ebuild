@@ -15,7 +15,7 @@ DESCRIPTION="Cadasta Worker Toolbox"
 
 HOMEPAGE="https://github.com/Cadasta/cadasta-workertoolbox"
 LICENSE="GNU Affero General Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

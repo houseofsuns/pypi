@@ -15,7 +15,7 @@ DESCRIPTION="Paper Arxiv: A command line based academic paper management tool."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/${REALNAME}ckages/6e/ff/5605ddd218fad24ade33b2696aed17b724fbcb2ae22c1cb4139a466ecc7f/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

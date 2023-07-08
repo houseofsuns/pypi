@@ -15,7 +15,7 @@ DESCRIPTION="Wagtail Nav Menus is a app to provide highly customizable menus in 
 
 HOMEPAGE="https://gitlab.com/thelabnyc/wagtail-nav-menus"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

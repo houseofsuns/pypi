@@ -15,7 +15,7 @@ DESCRIPTION="⚡️TLS-based ChatGPT API with auto token regeneration, conversat
 
 HOMEPAGE="https://github.com/rawandahmad698/PyChatGPT"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

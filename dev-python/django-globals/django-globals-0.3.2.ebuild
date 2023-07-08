@@ -15,7 +15,7 @@ DESCRIPTION="Very simple application, that allow to define a thread specific glo
 
 HOMEPAGE="http://github.com/svetlyak40wt/django-globals/"
 LICENSE="New BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

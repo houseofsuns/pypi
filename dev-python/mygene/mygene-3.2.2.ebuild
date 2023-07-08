@@ -15,7 +15,7 @@ DESCRIPTION="Python Client for MyGene.Info services."
 
 HOMEPAGE="https://github.com/biothings/mygene.py"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Busque,selecione e assista filmes do site https://www.redecanais.co
 
 HOMEPAGE="https://github.com/cleitonleonel/redecanais.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

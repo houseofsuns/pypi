@@ -15,7 +15,7 @@ DESCRIPTION="Python interface for MIT AVL (Athena Vortex Lattice)"
 
 HOMEPAGE="https://github.com/renoelmendorp/AVLWrapper"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

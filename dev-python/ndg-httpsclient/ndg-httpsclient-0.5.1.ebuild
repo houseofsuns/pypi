@@ -15,7 +15,7 @@ DESCRIPTION="Provides enhanced HTTPS support for httplib and urllib2 using PyOpe
 
 HOMEPAGE="https://github.com/cedadev/ndg_httpsclient/"
 LICENSE="BSD - See ndg/httpsclient/LICENCE file for details"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

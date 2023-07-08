@@ -15,7 +15,7 @@ DESCRIPTION="A Python(ic) Implementation of the Eclipse Modeling Framework (EMF/
 
 HOMEPAGE="https://github.com/pyecore/pyecore"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

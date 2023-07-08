@@ -15,7 +15,7 @@ DESCRIPTION="Python API for the Cupra Born online services"
 
 HOMEPAGE="https://github.com/daernsinstantfortress/WeConnect-Cupra-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

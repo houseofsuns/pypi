@@ -15,7 +15,7 @@ DESCRIPTION="very simple authentication module for python3 / django / LDAP or AD
 
 HOMEPAGE="https://github.com/Lucterios2/django_auth_ldap3_ad"
 LICENSE="GPL V3"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

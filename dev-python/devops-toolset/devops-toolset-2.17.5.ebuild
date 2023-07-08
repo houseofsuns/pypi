@@ -15,7 +15,7 @@ DESCRIPTION="General purpose DevOps-related scripts and tools."
 
 HOMEPAGE="https://github.com/aheadlabs/devops-toolset/"
 LICENSE="https://github.com/aheadlabs/devops-toolset/blob/master/LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

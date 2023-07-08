@@ -15,7 +15,7 @@ DESCRIPTION="tinybio cli allows you to run your genomic tools in the cloud quick
 
 HOMEPAGE="https://github.com/tinybio-cloud/tiny"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

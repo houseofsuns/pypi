@@ -15,7 +15,7 @@ DESCRIPTION="A set of constructs deploying pgSTAC with CDK"
 
 HOMEPAGE="https://github.com/developmentseed/cdk-pgstac.git"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="python module wrapper for the data analytics software framework DAS
 
 HOMEPAGE="https://git.geomar.de/digital-earth/dasf/dasf-messaging-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

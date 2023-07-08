@@ -15,7 +15,7 @@ DESCRIPTION="stubdoc is a Python library that append docstring to stub files."
 
 HOMEPAGE="https://github.com/simon-ritchie/stubdoc/tree/main"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

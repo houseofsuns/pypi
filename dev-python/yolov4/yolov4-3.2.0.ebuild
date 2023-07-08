@@ -15,7 +15,7 @@ DESCRIPTION="YOLOv4: Optimal Speed and Accuracy of Object Detection"
 
 HOMEPAGE="https://github.com/hhk7734/tensorflow-yolov4"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

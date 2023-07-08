@@ -15,7 +15,7 @@ DESCRIPTION="temp.tempdir(), temp.tempfile() functions"
 
 HOMEPAGE="https://github.com/andrewp-as-is/temp.py"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

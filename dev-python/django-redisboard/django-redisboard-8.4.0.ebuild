@@ -15,7 +15,7 @@ DESCRIPTION="Redis monitoring and inspection drop-in application using django ad
 
 HOMEPAGE="https://github.com/ionelmc/django-redisboard"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="CircuitPython library for Sensirion SGP30 gas sensor with eCO2 and 
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_SGP30"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

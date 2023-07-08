@@ -15,7 +15,7 @@ DESCRIPTION="Optimised consensus clustering of multiple heterogeneous datasets"
 
 HOMEPAGE="https://github.com/baselabujamous/clust"
 LICENSE="OSI Approved :: GNU Lesser General Public License v3 LGPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

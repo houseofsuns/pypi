@@ -15,7 +15,7 @@ DESCRIPTION="Check PEP-8 naming conventions, plugin for flake8"
 
 HOMEPAGE="https://github.com/PyCQA/pep8-naming"
 LICENSE="Expat license"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="CLI application for efficient and optimized reconstruction of large
 
 HOMEPAGE="https://github.com/Yarroudh/Optim3D"
 LICENSE="BSD 3-Clause BSD 3-Clause New or Revised License"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

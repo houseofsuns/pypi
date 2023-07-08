@@ -15,7 +15,7 @@ DESCRIPTION="Python wrapper para o webservice do SGS - Sistema Gerenciador de Se
 
 HOMEPAGE="https://github.com/rafpyprog/pySGS"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Client for Arcanum's Newspaper Segmentation API"
 
 HOMEPAGE="https://www.arcanum.com/en/newspaper-segmentation/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

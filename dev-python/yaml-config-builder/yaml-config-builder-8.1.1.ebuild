@@ -15,7 +15,7 @@ DESCRIPTION="Yaml-Config-Builder: SDK for building configuration classes on the 
 
 HOMEPAGE="https://git.openlogisticsfoundation.org/silicon-economy/base/ml-toolbox/config-builder"
 LICENSE="Open Logistics Foundation License 1.3"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

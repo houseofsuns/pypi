@@ -15,7 +15,7 @@ DESCRIPTION="A napari plugin for loading and working with light sheet imaging da
 
 HOMEPAGE="https://github.com/haesleinhuepf/beetlesafari"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="DataStax Enterprise Python Driver"
 
 HOMEPAGE="http://docs.datastax.com/en/developer/python-dse-driver/"
 LICENSE="DataStax DSE Driver License http://www.datastax.com/terms/datastax-dse-driver-license-terms"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

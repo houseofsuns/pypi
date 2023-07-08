@@ -15,7 +15,7 @@ DESCRIPTION="Neuron Analysis and Visualization library"
 
 HOMEPAGE="http://navis.readthedocs.io"
 LICENSE="GNU GPL V3"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

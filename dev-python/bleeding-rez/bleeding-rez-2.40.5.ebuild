@@ -15,7 +15,7 @@ DESCRIPTION="A cross-platform packaging system that can build and install multip
 
 HOMEPAGE="https://github.com/mottosso/bleeding-rez"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="pure python download utility"
 
 HOMEPAGE="http://bitbucket.org/techtonik/python-wget/"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

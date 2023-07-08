@@ -15,7 +15,7 @@ DESCRIPTION="Convert emoji in HTML to fallback images, alt text, title text, and
 
 HOMEPAGE="https://github.com/glasnt/emojificate"
 LICENSE="New BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/e/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

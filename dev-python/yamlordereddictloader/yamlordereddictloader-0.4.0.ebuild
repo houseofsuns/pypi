@@ -15,7 +15,7 @@ DESCRIPTION="YAML loader and dump for PyYAML allowing to keep keys order."
 
 HOMEPAGE="https://github.com/fmenabe/python-yamlordereddictloader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/y/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

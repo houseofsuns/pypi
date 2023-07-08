@@ -15,7 +15,7 @@ DESCRIPTION="A library to get and set values of the EZcontrol XS1 Gateway"
 
 HOMEPAGE="https://github.com/markusressel/xs1-api-client"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

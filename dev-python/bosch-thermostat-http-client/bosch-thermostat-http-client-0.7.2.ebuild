@@ -15,7 +15,7 @@ DESCRIPTION="Python API for talking to Bosch™ Heating gateway using HTTP"
 
 HOMEPAGE="https://github.com/moustic999/bosch-thermostat-http-client-python.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Refactors valid 3.x syntax into valid 2.x syntax, if a syntactical 
 
 HOMEPAGE="http://www.startcodon.com/wordpress/?cat=8"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/3/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Web interface for falocalrepo."
 
 HOMEPAGE="https://github.com/FurryCoders/falocalrepo-server"
 LICENSE="EUPL-1.2"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

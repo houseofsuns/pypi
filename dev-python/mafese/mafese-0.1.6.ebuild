@@ -15,7 +15,7 @@ DESCRIPTION="MAFESE: Metaheuristic Algorithm for Feature Selection - An Open Sou
 
 HOMEPAGE="https://github.com/thieu1995/mafese"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

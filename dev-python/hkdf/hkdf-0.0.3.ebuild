@@ -15,7 +15,7 @@ DESCRIPTION="HMAC-based Extract-and-Expand Key Derivation Function (HKDF)"
 
 HOMEPAGE="https://github.com/casebeer/python-hkdf"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

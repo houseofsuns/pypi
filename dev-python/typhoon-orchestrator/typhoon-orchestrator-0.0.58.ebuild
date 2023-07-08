@@ -15,7 +15,7 @@ DESCRIPTION="Create asynchronous data pipelines and deploy to cloud or airflow"
 
 HOMEPAGE="https://github.com/typhoon-data-org/typhoon-orchestrator"
 LICENSE="Apache 2 License"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

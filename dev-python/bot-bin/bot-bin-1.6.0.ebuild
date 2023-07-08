@@ -15,7 +15,7 @@ DESCRIPTION="Shared cogs and utilities for use in Discord bots"
 
 HOMEPAGE="https://github.com/bmintz/bot-bin"
 LICENSE="BlueOak-1.0.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

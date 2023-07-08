@@ -15,7 +15,7 @@ DESCRIPTION="Generate Gaussian (1/f)**beta noise (e.g. pink noise)"
 
 HOMEPAGE="http://github.com/felixpatzelt/colorednoise"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

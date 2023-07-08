@@ -15,7 +15,7 @@ DESCRIPTION="LT Codecs"
 
 HOMEPAGE="https://git.whoi.edu/acomms/ros_acomms/tree/master/src/acomms_codecs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/l/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A copy of the ASDL parser used in CPython 3.5."
 
 HOMEPAGE="https://github.com/fpoli/python-asdl"
 LICENSE="PSF-2.4"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

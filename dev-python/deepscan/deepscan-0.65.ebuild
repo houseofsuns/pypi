@@ -15,7 +15,7 @@ DESCRIPTION="DeepScan is a source extraction tool designed to identify extended 
 
 HOMEPAGE="https://github.com/danjampro/DeepScan"
 LICENSE="GPL v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

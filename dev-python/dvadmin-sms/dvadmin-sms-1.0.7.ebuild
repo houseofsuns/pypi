@@ -15,7 +15,7 @@ DESCRIPTION="一款适用于django-vue-admin基于阿里云、腾讯云、华为
 
 HOMEPAGE="https://gitee.com/huge-dream/dvadmin-sms"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

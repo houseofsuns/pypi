@@ -15,7 +15,7 @@ DESCRIPTION="simple aiohttp server to host OpenVoiceOS stt plugins as a service"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-stt-http-server"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/o/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

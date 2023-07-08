@@ -15,7 +15,7 @@ DESCRIPTION="A language server for Galaxy (https://galaxyproject.org) tool wrapp
 
 HOMEPAGE="https://github.com/davelopez/galaxy-language-server/tree/main/server"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Arches is an open-source, web-based, geospatial information system 
 
 HOMEPAGE="http://archesproject.org/"
 LICENSE="GNU AGPL3"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

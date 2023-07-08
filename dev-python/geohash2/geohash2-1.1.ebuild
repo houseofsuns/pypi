@@ -15,7 +15,7 @@ DESCRIPTION="(Geohash fixed for python3) Module to decode/encode Geohashes to/fr
 
 HOMEPAGE="https://github.com/dbarthe/geohash/"
 LICENSE="GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or at your option any later version."
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

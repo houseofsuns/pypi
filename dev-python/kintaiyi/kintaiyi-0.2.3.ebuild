@@ -15,7 +15,7 @@ DESCRIPTION="Taiyi(太乙) is one of the three greatest Chinese Divination syste
 
 HOMEPAGE="https://github.com/kentang2017/kintaiyi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

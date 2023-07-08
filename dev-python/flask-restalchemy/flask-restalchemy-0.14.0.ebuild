@@ -15,7 +15,7 @@ DESCRIPTION="Flask extension to build REST APIs based on SQLAlchemy models"
 
 HOMEPAGE="https://github.com/ESSS/flask-restalchemy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

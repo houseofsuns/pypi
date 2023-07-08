@@ -15,7 +15,7 @@ DESCRIPTION="A collection of LS-DYNA card writing tools"
 
 HOMEPAGE="https://gitlab.arup.com/kevin.stanton/AutomatedCardGenerator_LS-DYNA"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

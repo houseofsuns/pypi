@@ -15,7 +15,7 @@ DESCRIPTION="CircuitPython/Python library to support the I2C and SPI FRAM Breako
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_FRAM"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

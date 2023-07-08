@@ -15,7 +15,7 @@ DESCRIPTION="Misc utilities and definitions not included or hidden in BioPython"
 
 HOMEPAGE="http://github.com/veg/bioext"
 LICENSE="GNU GPL version 3"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

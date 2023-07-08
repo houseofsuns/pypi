@@ -15,7 +15,7 @@ DESCRIPTION="A pytest plugin for instrumenting test runs via OpenTelemetry"
 
 HOMEPAGE="https://github.com/chrisguidry/pytest-opentelemetry"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Widgets Container and Mashup edition tools for composing end-user c
 
 HOMEPAGE="http://github.com/Wirecloud/wirecloud"
 LICENSE="AGPLv3+ with classpath-like exception"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Function easing life :)"
 
 HOMEPAGE="https://github.com/Laurent-Tupin/pynut"
 LICENSE="Copyright 2022-2035"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="jinja2 template renderer for aiohttp.web (http server for asyncio)"
 
 HOMEPAGE="https://github.com/aio-libs/aiohttp_jinja2/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

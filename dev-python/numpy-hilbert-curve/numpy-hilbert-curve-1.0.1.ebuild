@@ -15,7 +15,7 @@ DESCRIPTION="Implements Hilbert space-filling curves for Python with numpy"
 
 HOMEPAGE="https://github.com/PrincetonLIPS/numpy-hilbert-curve"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

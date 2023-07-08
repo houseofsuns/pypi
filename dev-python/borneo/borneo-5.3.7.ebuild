@@ -15,7 +15,7 @@ DESCRIPTION="Oracle NoSQL Database Python SDK"
 
 HOMEPAGE="https://nosql-python-sdk.readthedocs.io/en/stable/index.html"
 LICENSE="Universal Permissive License 1.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/b/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

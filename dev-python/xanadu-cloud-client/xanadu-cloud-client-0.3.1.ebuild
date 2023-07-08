@@ -15,7 +15,7 @@ DESCRIPTION="XCC is a Python API and CLI for the Xanadu Cloud."
 
 HOMEPAGE="https://github.com/XanaduAI/xanadu-cloud-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/x/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Dramatiq-Mongodb Broker and Results Backend for Dramatiq"
 
 HOMEPAGE="https://github.com/obscuritylabs/dramatiq-mongodb"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

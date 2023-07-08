@@ -15,7 +15,7 @@ DESCRIPTION="Command-line program to download image galleries and collections fr
 
 HOMEPAGE="https://github.com/mikf/gallery-dl"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

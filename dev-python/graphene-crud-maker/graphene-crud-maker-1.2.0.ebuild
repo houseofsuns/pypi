@@ -15,7 +15,7 @@ DESCRIPTION="This is a project to auto generate a graphql crud using graphene dj
 
 HOMEPAGE="https://github.com/dercio-sinione/graphene-crud-maker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

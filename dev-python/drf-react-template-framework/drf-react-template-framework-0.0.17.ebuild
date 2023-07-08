@@ -15,7 +15,7 @@ DESCRIPTION="Django REST Framework plugin that creates form schemas for react-js
 
 HOMEPAGE="https://github.com/yoyowallet/drf-react-template-framework"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

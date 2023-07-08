@@ -15,7 +15,7 @@ DESCRIPTION="Microsoft Azure Monitor Opentelemetry Distro Client Library for Pyt
 
 HOMEPAGE="https://github.com/microsoft/ApplicationInsights-Python/tree/main/azure-monitor-opentelemetry"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

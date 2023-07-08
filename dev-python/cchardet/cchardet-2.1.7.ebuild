@@ -15,7 +15,7 @@ DESCRIPTION="cChardet is high speed universal character encoding detector."
 
 HOMEPAGE="https://github.com/PyYoshi/cChardet"
 LICENSE="Mozilla Public License"
-SRC_URI="https://files.pythonhosted.org/packages/source/c/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

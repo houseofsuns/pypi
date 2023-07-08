@@ -15,7 +15,7 @@ DESCRIPTION="Client library for the NNext Neural search engine"
 
 HOMEPAGE="https://nnext.io/docs/Python-22a9be22c5cf4869bda849e3f06c0993"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

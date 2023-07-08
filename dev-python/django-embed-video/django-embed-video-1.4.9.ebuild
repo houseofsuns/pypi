@@ -15,7 +15,7 @@ DESCRIPTION="Django app for easy embedding YouTube and Vimeo videos and music fr
 
 HOMEPAGE="https://github.com/jazzband/django-embed-video"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

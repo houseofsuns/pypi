@@ -15,7 +15,7 @@ DESCRIPTION="A Django middleware to restrict incoming IPs to admin panel"
 
 HOMEPAGE="https://github.com/sdonk/django-admin-ip-restrictor/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

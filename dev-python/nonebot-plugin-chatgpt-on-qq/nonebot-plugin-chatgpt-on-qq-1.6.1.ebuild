@@ -15,7 +15,7 @@ DESCRIPTION="具有多对话功能的chatGPT聊天插件"
 
 HOMEPAGE="https://github.com/Suxmx/nonebot_plugin_chatgpt_turbo_on_qq"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/n/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

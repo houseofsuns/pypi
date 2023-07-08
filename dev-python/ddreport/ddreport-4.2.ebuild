@@ -15,7 +15,7 @@ DESCRIPTION="pytest测试报告"
 
 HOMEPAGE="https://blog.csdn.net/weixin_43975720/article/details/130559489"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="比对postgres数据库备份的数据，得出新增的存储过�
 
 HOMEPAGE="https://github.com/zerobyte1o1/gensp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="PA&C Pipeline"
 
 HOMEPAGE="https://bitbucket.org/dkistdc/dkist-processing-pac/src/main/"
 LICENSE="unknown"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

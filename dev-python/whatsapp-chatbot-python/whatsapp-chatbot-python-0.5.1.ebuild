@@ -15,7 +15,7 @@ DESCRIPTION="This library helps you easily create a Python chatbot with WhatsApp
 
 HOMEPAGE="https://github.com/green-api/whatsapp-chatbot-python"
 LICENSE="Creative Commons Attribution-NoDerivatives 4.0 International CC BY-ND 4.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/w/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

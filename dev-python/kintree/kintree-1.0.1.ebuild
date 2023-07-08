@@ -15,7 +15,7 @@ DESCRIPTION="Fast part creation in KiCad and InvenTree"
 
 HOMEPAGE="https://github.com/sparkmicro/Ki-nTree"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="这是一个Linux管理脚本的基础库，通过对Linux基本功
 
 HOMEPAGE="https://gitee.com/liumou_site/PythonLinuxBasicModule"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

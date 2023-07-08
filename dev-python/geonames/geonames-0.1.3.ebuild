@@ -15,7 +15,7 @@ DESCRIPTION="Geonames data parser into Shapefile/KML"
 
 HOMEPAGE="http://addxy.com"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/g/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
 SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 

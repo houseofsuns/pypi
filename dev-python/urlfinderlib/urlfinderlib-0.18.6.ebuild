@@ -15,7 +15,7 @@ DESCRIPTION="Library to find URLs and check their validity."
 
 HOMEPAGE="https://github.com/ace-ecosystem/urlfinderlib"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/u/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

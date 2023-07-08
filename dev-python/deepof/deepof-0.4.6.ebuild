@@ -15,7 +15,7 @@ DESCRIPTION="A suite for postprocessing time-series extracted from videos of fre
 
 HOMEPAGE="https://gitlab.mpcdf.mpg.de/lucasmir/deepof/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

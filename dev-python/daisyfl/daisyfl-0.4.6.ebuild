@@ -15,7 +15,7 @@ DESCRIPTION="Daisy - A Hierarchical Friendly Federated Learning Framework For Ed
 
 HOMEPAGE="https://github.com/Intelligent-Systems-Lab/daisy"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/d/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

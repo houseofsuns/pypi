@@ -15,7 +15,7 @@ DESCRIPTION="It is a micro-toolbox that includes various common operations and w
 
 HOMEPAGE="https://gitee.com/jiwei-data/python-jwtools.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/j/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

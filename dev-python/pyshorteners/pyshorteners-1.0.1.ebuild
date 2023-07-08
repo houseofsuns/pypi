@@ -15,7 +15,7 @@ DESCRIPTION="A Python lib to wrap and consume the most used shorteners APIs"
 
 HOMEPAGE="https://github.com/ellisonleao/pyshorteners/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

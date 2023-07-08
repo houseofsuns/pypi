@@ -15,7 +15,7 @@ DESCRIPTION="Versatile Data Kit SDK Core"
 
 HOMEPAGE="https://github.com/vmware/versatile-data-kit/projects/vdk-core"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/v/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

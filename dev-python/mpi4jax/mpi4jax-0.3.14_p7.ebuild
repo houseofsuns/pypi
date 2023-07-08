@@ -15,7 +15,7 @@ DESCRIPTION="Zero-copy MPI communication of JAX arrays, for turbo-charged HPC ap
 
 HOMEPAGE="https://github.com/mpi4jax/mpi4jax"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/m/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="A Powerline segment for showing the status of a Git working copy"
 
 HOMEPAGE="https://github.com/jaspernbrouwer/powerline-gitstatus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

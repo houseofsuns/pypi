@@ -15,7 +15,7 @@ DESCRIPTION="Py3k-compatible fork of Paste's urlmap"
 
 HOMEPAGE="https://github.com/tseaver/rutter"
 LICENSE="BSD-derived Repoze"
-SRC_URI="https://files.pythonhosted.org/packages/source/r/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

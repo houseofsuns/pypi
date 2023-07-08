@@ -15,7 +15,7 @@ DESCRIPTION="Plotting the segmentation masks has never been so exciting!"
 
 HOMEPAGE="https://github.com/lobantseff/segmentation-mask-overlay"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

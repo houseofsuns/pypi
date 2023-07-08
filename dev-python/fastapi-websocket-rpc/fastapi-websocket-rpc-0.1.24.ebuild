@@ -15,7 +15,7 @@ DESCRIPTION="A fast and durable bidirectional JSON RPC channel over Websockets a
 
 HOMEPAGE="https://github.com/permitio/fastapi_websocket_rpc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

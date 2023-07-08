@@ -15,7 +15,7 @@ DESCRIPTION="torchmaxflow: Max-flow/Min-cut in PyTorch for 2D images and 3D volu
 
 HOMEPAGE="https://github.com/masadcv/torchmaxflow"
 LICENSE="BSD-3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/source/t/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

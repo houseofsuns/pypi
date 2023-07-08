@@ -15,7 +15,7 @@ DESCRIPTION="PyWorld: a Python wrapper for WORLD vocoder"
 
 HOMEPAGE="https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/p/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

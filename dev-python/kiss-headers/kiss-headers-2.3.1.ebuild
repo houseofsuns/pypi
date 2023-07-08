@@ -15,7 +15,7 @@ DESCRIPTION="Python package for object oriented headers, HTTP/1.1 style. Parser 
 
 HOMEPAGE="https://github.com/ousret/kiss-headers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/k/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -15,7 +15,7 @@ DESCRIPTION="Python library to check Swagger Spec backward compatibility"
 
 HOMEPAGE="https://github.com/Yelp/swagger-spec-compatibility"
 LICENSE="Copyright Yelp, Inc. 2018"
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

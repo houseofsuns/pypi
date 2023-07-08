@@ -15,7 +15,7 @@ DESCRIPTION="A python REST API wrapper for Ardoq - https://ardoq.com."
 
 HOMEPAGE="https://github.com/jbaragry/ardoq-python-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/a/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

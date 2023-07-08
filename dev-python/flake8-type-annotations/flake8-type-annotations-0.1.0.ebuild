@@ -15,7 +15,7 @@ DESCRIPTION="Flake8 plugin to enforce consistent type annotation styles"
 
 HOMEPAGE="https://github.com/sobolevn/flake8-type-annotations"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/f/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

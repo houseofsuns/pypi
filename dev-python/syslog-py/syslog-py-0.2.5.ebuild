@@ -15,7 +15,7 @@ DESCRIPTION="Syslog client implementation (RFC 3164/RFC 5424) with message trans
 
 HOMEPAGE="https://github.com/maciejbudzyn/syslog-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/s/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

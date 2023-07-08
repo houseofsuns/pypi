@@ -15,7 +15,7 @@ DESCRIPTION="Implements a wrapper class around nhentai's RESTful API."
 
 HOMEPAGE="https://www.hentai-chan.dev/projects/hentai"
 LICENSE="General Public License V3"
-SRC_URI="https://files.pythonhosted.org/packages/source/h/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

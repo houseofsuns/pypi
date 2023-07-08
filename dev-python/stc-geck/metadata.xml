@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription># GECK (Garden of Eden Creation Kit)## Install```bashpip install stc-geck```## Usage```bash# Iterate over all stored documentsgeck --ipfs-http-endpoint 127.0.0.1:8080 - documents# Do a match search by fieldgeck --ipfs-http-endpoint 127.0.0.1:8080 - search doi:10.3384/ecp1392a41# Do a match search by wordgeck --ipfs-http-endpoint 127.0.0.1:8080 - search hemoglobin --limit 10```</longdescription>
 </pkgmetadata>

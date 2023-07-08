@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>mvpoly======A library for the numeric (rather than symbolic) treatment of multivariate polynomials.</longdescription>
+	<longdescription>MVPoly======A pure-Python library for the numeric (rather than symbolic) treatmentof multivariate polynomials.  Depends only on numpy and scipy.  See the`documentation &lt;https://mvpoly.readthedocs.io/&gt;`_ for details on usage.Install from PyPI-----------------Run.. code-block:: sh   python3 -m pip install mvpolyNote that install from PyPI is deprecated and will be removed bythe end of 2023.Install from GitLab-------------------Run.. code-block:: sh   python3 -m pip install mvpoly \     --index-url https://gitlab.com/api/v4/projects/6939644/packages/pypi/simple</longdescription>
 </pkgmetadata>

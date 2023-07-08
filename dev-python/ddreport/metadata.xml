@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>1.request使用session；2.解决动态化参数中调用其他fixture不生效问题；3.解决响应头获取content-type失败后，无法确定响应内容类型问题</longdescription>
+	<longdescription>1.解决动态参数化逻辑判断bug；2.环境变量db改写mysql，方便以后区分各种类型的配置；3.新增json_in、json_contain两类型断言；</longdescription>
 </pkgmetadata>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription>**Project only for educational purposes! 🤓**[![Downloads](https://static.pepy.tech/personalized-badge/selfbotclient?period=total&amp;units=international_system&amp;left_color=grey&amp;right_color=brightgreen&amp;left_text=Downloads)](https://pepy.tech/project/selfbotclient)[![Documentation Status](https://readthedocs.org/projects/selfbotclient/badge/?version=latest)](https://selfbotclient.readthedocs.io/en/latest/?badge=latest)![master](https://img.shields.io/github/last-commit/badges/shields/master)![commits](https://badgen.net/github/commits/xXenvy/selfbotclient/master)## 🌐 Docshttps://selfbotclient.readthedocs.io/en/latest/# ⚡ Fast Self Bot Client- Token Checker | `1` token / `140`ms- +10 requests / 1s `(using threads)`https://github.com/xXenvy/SelfBotClient/assets/111158232/ede9fb47-d489-4d9a-b58d-95c06dea6fe9# 🔧 Full control- A separate method to send your own requests- Ability to manage individual selfbots# 📌 Ratelimit handler- The library itself detects whether you have reached the ratelimit of the discord and, if so, forces you to wait a certain time.![Test](https://i.imgur.com/hTUFQKF.png)# 🛠️ Installation```shellpip install -U selfbotclient```# 💫 Usage```pyfrom SelfBotClient import Clienttokens: list[str] = [&quot;TOKEN_1&quot;, &quot;TOKEN_2&quot;]client: Client = Client(api_version=10)client.login(token=tokens)```**See more examples on github:** [Examples](https://github.com/xXenvy/SelfBotClient/tree/master/examples)</longdescription>
-</pkgmetadata>

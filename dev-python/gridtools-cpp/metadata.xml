@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription>&lt;a href=&quot;https://GridTools.github.io/gridtools&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/GridTools/gridtools/gh-pages/v1.0/_static/logo.svg&quot;/&gt;&lt;/a&gt;# Python package for GridTools headers and CMake files## UsageUse the following when compiling C++ code with GridTools programmatically from Python.Either by calling a compiler directly or by generating a CMake project and calling CMake on it.```pythonimport gridtools_cppinclude_dir = gridtools_cpp.get_include_dir()   # header files can be found herecmake_dir = gridtools_cpp.get_cmake_dir()       # cmake files can be found here```</longdescription>
-</pkgmetadata>

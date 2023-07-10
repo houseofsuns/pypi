@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># gps_encodingPython library, implemented in rust, including base functions for encoding of gps data.  It is used to encode competitors data on https://www.routechoices.com## install ```pip install gps-encoding``````&gt;&gt; import gps_encoding&gt;&gt; gps_encoding.encode_data([(1628667993, 4.56543, -110.536214), ]) # [(time, lat, lon), ...]'qtaxyT}tzZhbtaT'&gt;&gt; gps_encoding.decode_data('qtaxyT}tzZhbtaT')[(1628...```# Warning:    - The list of GPS points must be sorted by increasing timestamps.</longdescription>
-</pkgmetadata>

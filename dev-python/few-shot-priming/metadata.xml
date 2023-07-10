@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># Analyzing Priming Effect in Prompt-based learningHow does priming affect prompt-based learing?This project aims at analyzing this effect in stance classification.We train a stance classifier on the ibm stance classification dataset byfine-tuning a GPT-2 model with a prompt and analzing how does the selectionof the few shots used in the prompt affect the performance of the model.Our main assumption is that the examples chosen should be chosen in a diverse manner with regard topic.1) To evaluate the prompt-fine-tuning, run the following command* Hyperparamter optimization```python scripts/run_prompt_fine_tuning.py --validate --optimize ```* Best Hyperparameters```python scripts/run_prompt_fine_tuning.py --validate --optimize ``` 2) To evaluate the in-context (prompt) setup run```python scripts/run_prompt_fine_tuning.py --validate --optimize ```3) To evaluate DeBERTa (a normal classifier) with all hyperparameters, run the following```python scripts/optimize_baseline.py ```The results of the experiments will be logged to your home directory.The parameters can be saved in [config.yaml](../blob/maser/config.yaml)</longdescription>
-</pkgmetadata>

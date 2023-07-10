@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription>This package provides a Sphinx extension for documenting PHP projects.PHP Domain supports following objects:* Global variable* Global function* Constants* Namespaces    * Functions    * Class* Class    * Class constant    * Instance methods    * Static methods    * Properties* Enums</longdescription>
-</pkgmetadata>

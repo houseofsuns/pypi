@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription>**CryptoParser** is a cryptographic protocol (TLS, SSH) and security-related protocol piece (HTTP headers) parser. Itis neither a comprehensive nor a secure implementation of any cryptographic protocol. The goal is to supporttesting cryptographic libraries or analysing cryptography-realted settings of application servers such as`CryptoLyzer &lt;https://cryptolyzer.readthedocs.io/&gt;`__ does.Usage-----Pip^^^.. code:: shell   pip install cryptoparserSupport-------Python implementation^^^^^^^^^^^^^^^^^^^^^-  CPython (2.7, 3.3+)-  PyPy (2.7, 3.5+)Operating systems^^^^^^^^^^^^^^^^^-  Linux-  macOS-  WindowsLicense-------The code is available under the terms of Mozilla Public License Version 2.0 (MPL 2.0).A non-comprehensive, but straightforward description of MPL 2.0 can be found at`Choose an open source license &lt;https://choosealicense.com/licenses#mpl-2.0&gt;`__ website.</longdescription>
-</pkgmetadata>

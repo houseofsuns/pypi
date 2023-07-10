@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription>[![icpp](https://github.com/icppWorld/icpp/actions/workflows/cicd.yml/badge.svg)](https://github.com/icppWorld/icpp/actions/workflows/cicd.yml)# icppModern C++ for the [Internet Computer](https://internetcomputer.org/).## What is icppicpp is a command-line application for compiling C++20 code to WebAssembly that runs in a canister of the Internet Computer.For details, see [docs.icpp.world](https://docs.icpp.world/) !</longdescription>
-</pkgmetadata>

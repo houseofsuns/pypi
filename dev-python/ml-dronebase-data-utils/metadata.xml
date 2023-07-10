@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># Dronebase Machine Learning Data Utils## PUBLIC FACINGThis package contains commonly used data functions for ML Engineers```pythonimport ml_dronebase_data_utils as data_utils...```# Object Detection Annotation FormattingThis package provides a Pascal VOC writer that renders ```*.xml``` annotation files for object detection tasks.It supports regular object detection and oriented object detection annotations with an additional ```&lt;angle&gt;```_some angle_```&lt;/angle&gt;``` parameter.```pythonfrom ml_dronebase_data_utils import PascalVOCWriterwriter = PascalVOCWriter()for box in boxes:    xmin, ymin, xmax, ymax, angle = box    writer.addObject(        name=&quot;some class name&quot;,        xmin=xmin,        ymin=ymin,        xmax=xmax,        ymax=ymax,        angle=angle # Optional parameter    )writer.save(annotation_path)```# S3 Data UtilsThis package also provides common AWS S3 data functions like downloading data, uploading data (data or trained models), train/test split, etc.## Installation from sourceClone and ```cd``` into the root directory of this repo, then run the following:```bashpip install -e .```## Installation using pip```bashpip install ml-dronebase-data-utils```</longdescription>
-</pkgmetadata>

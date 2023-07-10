@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># pybpa解析PSD-BPA软件中.dat文件和.swi文件的工具，同时包含了对pfo/swx文件的解析，可用于数据集的解析和生成。包含两个顶层类，dat和swi，基本组成单位为_card，对应文件的每一行。_card由若干字段和字段对应的值组成，通过get_value方法可以获得字段的值，比如对于某个节点卡，bus_card.get_value(BASE)可以获得节点基准电压。dat,swi,_card都支持str()方法，会相应地输出为字符串形式的文件或者行。所有的节点、发电机、线路等电气对象拥有唯一uid，详见uid文件。这些对象分别存储在dat和swi对象的list类型的属性中，uid对应的唯一索引可以在相应的_name属性中查询到。欢迎试用和交流看法。持续更新中。# pybpa的世界观bpa的使用模式为： - 实际系统用dat和swi描述，这两个文件可以认为是由许多行组成，每行是一张bpa卡（我们将空行进行特别处理，保留其作为提升可读性的分隔符的作用，但不进入复杂的解析环节）。 - 实际系统的元件用一张或者多张卡描述，元件的属性对应卡的字段，元件的属性的读写按照bpa说明书规定的Fortran格式进行。对应地，pybpa有层次地处理这个系统： - 用文件建模系统(dat/swi类)：提供了按行(卡)的索引和组织形式，建立文件行-卡的联系。 - 用uid组织元件：提供了每个元件在pybpa里的唯一uid，建立卡-元件之间的联系。 - 卡的读写(init/get/set)由基类_Card提供，卡中字段的读写由基类_Field提供，建立卡字段-元件对象的联系。 - 最终实现，可以在元件层面操作属性，并发布到文件。 - 注意上述联系是有限制的。pybpa项目出发点是更方便地操作bpa文件，并不指望读取这些元件并建立一个系统。</longdescription>
-</pkgmetadata>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription>imagededup is a python package that provides functionality to find duplicates in a collection of images using a varietyof algorithms. Additionally, an evaluation and experimentation framework, is also provided. Following details thefunctionality provided by the package:* Finding duplicates in a directory using one of the following algorithms:    - Convolutional Neural Network    - Perceptual hashing    - Difference hashing    - Wavelet hashing    - Average hashing* Generation of features for images using one of the above stated algorithms.* Framework to evaluate effectiveness of deduplication given a ground truth mapping.* Plotting duplicates found for a given image file.Read the documentation at: https://idealo.github.io/imagededup/imagededup is compatible with Python 3.8+ and runs on Linux, MacOS X and Windows. It is distributed under the Apache 2.0 license.</longdescription>
-</pkgmetadata>

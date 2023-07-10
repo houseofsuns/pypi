@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># PyToolsPyTools is a Python package based on PyTorch.---## InstallationLatest version: 0.1.23```pip install yupeeee-pytools==0.1.23```Manual installation of PyTorch is required.\https://pytorch.org/get-started/locally/### Requirements```Python &gt;= 3.8grad-cammatplotlibml_collectionsmore_itertoolsnumpyopencv-python == 4.5.5.64pandasPillowpyyamlscikit_learnscipytimm# torch# torchvisiontqdm```## Usage```import yupeeee_pytools```Example codes: https://github.com/yupeeee/PyTools/tree/main/examples</longdescription>
-</pkgmetadata>

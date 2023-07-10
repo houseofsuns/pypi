@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># Intel SGX DCAP Remote Attestation library## OverviewPython library for Intel SGX DCAP remote attestation.## Installation```console$ pip install intel-sgx-ra```## Usage```console$ sgx-ra-verify --helpusage: sgx-ra-verify [-h] [--verbose] [--mrenclave MRENCLAVE] [--mrsigner MRSIGNER] {certificate,quote} ...Intel SGX DCAP Quote verificationpositional arguments:  {certificate,quote}   sub-command help    certificate         Remote Attestation from X.509 certificate used for RA-TLS    quote               Remote Attestation of a raw SGX quoteoptional arguments:  -h, --help            show this help message and exit  --verbose             Verbose mode  --mrenclave MRENCLAVE                        Expected MRENCLAVE value in SGX quote  --mrsigner MRSIGNER   Expected MRSIGNER value in SGX quote$ sgx-ra-utils --helpusage: sgx-ra-utils [-h] [--verbose] {extract} ...Intel SGX DCAP Quote toolspositional arguments:  {extract}   sub-command help    extract   Extract Quote from X.509 certificate using RA-TLSoptional arguments:  -h, --help  show this help message and exit  --verbose   Verbose mode```</longdescription>
-</pkgmetadata>

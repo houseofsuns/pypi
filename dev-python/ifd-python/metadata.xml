@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># Executer les tests unitaires```bashpython -m unittest discover --pattern=*.test.py```## Environement d'execution des tests unitaires du packageAfin d'exécuter les tests unitaire dans les meilleur conditions vous devez vous munir d'un serveur RabbitMQavec les spécifications suivant :- Nom d'utilisateur : **guest**- Mot de passe : **guest**- Role de l'utilisateur **guest** : **administrator**- Adresse IP du serveur RabbitMQ : **127.0.0.1**- Ouvrir le port **5672**## Build package```bashpython -m build```</longdescription>
-</pkgmetadata>

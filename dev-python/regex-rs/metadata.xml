@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription># regex-rsPython bindings for the rust regex crate## Usage```pyfrom regex_rs import Regexre = Regex(r&quot;\d+&quot;)for number_match in re.find_iter(&quot;1 2 34 123&quot;):    # number_match: regex_rs.Match    print(number_match)# 1# 2# 34# 123```## Available methods- `Regex.find`- `Regex.find_iter`- `Regex.captures`- `Regex.captures_iter`- `Regex.split`- `Regex.replace`## NoteThese bindings are missing a significant portion of the rust regex crate.If you see a struct or method that you would like added, feel free toopen an issue for it.</longdescription>
 </pkgmetadata>

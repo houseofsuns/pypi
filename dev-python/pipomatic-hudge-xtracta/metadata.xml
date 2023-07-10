@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># Pipomatic Packagepython setup.py sdist bdist_wheeltwine upload dist/*To create the magic functions, run     ipython profile createAnd then create the magic function there. Have all this as part of the install.</longdescription>
-</pkgmetadata>

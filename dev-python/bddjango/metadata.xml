@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription>bddjango========wiki文档--------* `wiki文档地址_内网 &lt;https://www.bodexiong.vip/mkdocs&gt;`_* `wiki文档地址_外网 &lt;https://wiki-bddjango.readthedocs.io&gt;`_安装----.. code-block::   pip install bddjango</longdescription>
-</pkgmetadata>

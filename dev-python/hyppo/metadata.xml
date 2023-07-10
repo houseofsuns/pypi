@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription>hyppo (**HYP**othesis Testing in **P**yth**O**n, pronounced &quot;Hippo&quot;) is an open-sourcesoftware package for multivariate hypothesis testing. We decided to develop hyppo forthe following reasons:* With the increase in the amount of data in many fields, hypothesis testing for highdimensional and nonlinear data is important* Libraries in R exist, but their interfaces are inconsistent and most are not availablein Pythonhyppo intends to be a comprehensive multivariate hypothesis testing package and runs onall major versions of operating systems. It also includes novel tests not found in otherpackages. It is quick to install and free of charge. If you need to use multivariatehypothesis testing, be sure to give hyppo a try!&quot;</longdescription>
-</pkgmetadata>

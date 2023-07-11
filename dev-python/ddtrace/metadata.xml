@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># dd-trace-py`ddtrace` is Datadog's tracing library for Python.  It is used to trace requestsas they flow across web servers, databases and microservices so that developershave great visibility into bottlenecks and troublesome requests.## Getting StartedFor a basic product overview, installation and quick start, check out our[setup documentation][setup docs].For more advanced usage and configuration, check out our [APIdocumentation][api docs].For descriptions of terminology used in APM, take a look at the [officialdocumentation][visualization docs].[setup docs]: https://docs.datadoghq.com/tracing/setup/python/[api docs]: https://ddtrace.readthedocs.io/[visualization docs]: https://docs.datadoghq.com/tracing/visualization/</longdescription>
+</pkgmetadata>

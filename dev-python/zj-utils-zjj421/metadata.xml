@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Some easy to use python code.## how to push to pypi```python -m buildpython -m twine upload --repository pypi dist/*  --verbose```</longdescription>
+	<longdescription>A personal kit.Some easy to use python code.</longdescription>
 </pkgmetadata>

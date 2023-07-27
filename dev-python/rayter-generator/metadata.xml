@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># rayter-generator[![Build Status](https://github.com/rayter-org/rayter-generator/workflows/Tests/badge.svg)](https://github.com/rayter-org/rayter-generator/actions?query=workflow%3ATests)A static site generator for game ranking leagues.</longdescription>
+	<longdescription># rayter-generator[![Build Status](https://github.com/rayter-org/rayter-generator/workflows/Tests/badge.svg)](https://github.com/rayter-org/rayter-generator/actions?query=workflow%3ATests)A static site generator for game ranking leagues.## DevelopingThis is more a set of notes than a full-fledged guide.### Get started`pip install -e .``rayter-generate-website --games-path &lt;path to games folder&gt; --output &lt;output folder&gt;``python3 -m http.server 8000` in output folder.### When done with change* Commit change.* Bump version in pyproject.toml and commit.* `git tag &lt;same version&gt;`* Push commits and tag.* Wait for https://github.com/rayter-org/rayter-generator/actions to build.* Optionally: ask someone to code review.* Click &quot;Run workflow&quot; on `https://github.com/&lt;your user&gt;/&lt;your games repo&gt;/actions/workflows/build.yml`.* Go to &lt;your Rayter site&gt; to see the result.</longdescription>
 </pkgmetadata>

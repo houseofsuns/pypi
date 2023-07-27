@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>'''                            此py程序归李导所有   当然也是你的权净·同构·加强·精粹·强·改·致命·巨构·神圣 --- 流曦种·阀德特类·露法蒂型·卡希塔版 --- SelR编号:15437 --- &lt;卡特洛&gt; 工程贰期                            [吃个python，好凉凉]    [鬼！]                            0                                 0                        （~0~）           @---（'   ）                              FBI warning                                                ——李导本项目完全开源(虽然完全没什么用)你要用？可以。如果你改了,也行。邮箱发个链接看看。                            HISTORY OF THISTHIS'S SOMETHING I MADE WHEN I HAVEN'T ANYTHING                                   TO DO'''</longdescription>
+	<longdescription>食用前准备the preparation before use the module1.下载并安装python及pip1.download and install python and pip2.(1).Win+R and input &quot;cmd&quot;2.(2).Enter3.input &quot;pip install lichenggong&quot; and Enter3.wait for a little mins4.create new file &quot;anything.py&quot;5.(1).input &quot;import lichenggong&quot; and Enter in the file5.(2).input &quot;lichenggong.start()&quot; and Enter in the file6.double-click the filepython download by www.python.org/download</longdescription>
 </pkgmetadata>

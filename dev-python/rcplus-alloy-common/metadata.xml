@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># rcplus-alloy-lib-py-common![PyPI](https://img.shields.io/pypi/v/rcplus-alloy-common)![PyPI - Python Version](https://img.shields.io/pypi/pyversions/rcplus-alloy-common)![Coverage badge](./coverage.svg)Current version: **v1.2.0**---Python utilities for RC+/Alloy._**NOTE**_: This Python package is published to PyPI.org as publicly available package.## Install```bashpip install -U rcplus-alloy-common```## Usage### Structured loggingTODO### Application metricsTODO### Airflow```bashpip install -U rcplus-alloy-common[airflow]```TODO</longdescription>
+	<longdescription># rcplus-alloy-lib-py-common![PyPI](https://img.shields.io/pypi/v/rcplus-alloy-common)![PyPI - Python Version](https://img.shields.io/pypi/pyversions/rcplus-alloy-common)![Coverage badge](./coverage.svg)Current version: **v1.2.1**---Python utilities for RC+/Alloy._**NOTE**_: This Python package is published to PyPI.org as publicly available package.## Install```bashpip install -U rcplus-alloy-common```## Usage### Structured loggingTODO### Application metricsTODO### Airflow```bashpip install -U rcplus-alloy-common[airflow]```TODO</longdescription>
 </pkgmetadata>

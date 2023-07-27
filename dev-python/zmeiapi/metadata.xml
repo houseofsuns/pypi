@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>hellohello</longdescription>
+	<longdescription># ZmeiapiZmeiapi является набором программных средств для упрощения и автоматизации построения файлов входных данных для кода Serpent. # V 0.1.12## Новое- Добавлен класс ```utilities.Concentrations.SimpleMaterialConcentrations```- Добавлен класс ```utilities.Concentrations.UO2MaterialConcentration```- Добавлен класс ```utilities.Concentrations.MixTwoMaterialConcentrations```- Добавлена информация по массовым долям нуклидов для некоторых материалов, вся информация теперь хранится в файле *data.materials_data.yml*. Загрузка данных из файла data.materials_data.yml проводится автоматически в модуле ```data.Materials```, доступ к данным по материалам осуществляется через переменную ```data.Materials.materials_data```- Добавлены классы для упрощения построения графиков: ```utilities.Graphs.SimpleGraph```, ```utilities.Graphs.ManyLinesGraph```, ```utilities.Graphs.BinsGraph```,  ```utilities.Graphs.AnimatedBarPlot```## Известные баги- Неправильно прописаны логические выражения в классе ```utilities.Graphs.ManyLinesGraph```, из-за чего при некоторых обстоятельствах на графике не отрисовывается планка погрешности</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># dav_toolsPersonal Python library to aid in software development</longdescription>
+	<longdescription># dav_toolsPersonal Python library to aid in software development## Installation```bash$ pip install dav-tools```## Usage`dav-tools` contains a variety of diffent submodules, each with its own set of functionalities.Importing is done in the form of```pythonfrom dav_tools import &lt;submodule&gt;```since it usually doesn't make sense to import the whole library.</longdescription>
 </pkgmetadata>

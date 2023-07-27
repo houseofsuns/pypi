@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## An example:``` pythonfrom rubiran import rubiranbot = rubiran(&quot;Auth Account&quot;)gap = &quot;guids&quot;bot.sendMessage(gap,&quot;pyrubika&quot;)```### How to import the Rubik's library``` bashfrom rubiran import rubiran```### How to install the library``` bashpip install rubiran```### My ID in Rubika``` bash@mamadcoder1```## And My ID Channel in Rubika``` bash@python_java_source ```</longdescription>
+	<longdescription>## An example:``` pythonfrom rubiran import rubirankey = &quot;&quot;auth = &quot;&quot;bot = rubiran(auth,key)gap = &quot;guids&quot;bot.sendMessage(gap,&quot;rubiran&quot;)```###how to install library```bashpip install aiohttppip install pycryptodomepip install pillow```### How to import the Rubik's library``` bashfrom rubiran import rubiran```### How to install the library``` bashpip install rubiran==2.1.0```### My ID in Rubika``` bash@professor_102```## And My ID Channel in Rubika``` bash@python_java_source ```</longdescription>
 </pkgmetadata>

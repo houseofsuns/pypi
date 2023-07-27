@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription># imsize[![Build Status](https://travis-ci.com/toaarnio/imsize.svg?branch=master)](https://travis-ci.com/github/toaarnio/imsize)Lightning-fast extraction of image dimensions &amp; bit depth. Tested on Python 3.8 and Ubuntu 20.04.Supports PGM / PPM / PNM / PFM / PNG / BMP / JPG / TIFF / INSP / EXR / DNG / CR2 / NEF / RAW / NPY.**Installing on Linux:**```pip install imsize```**Documentation:**```pydoc imsize```**Command-line usage:**```imsize --help```**Building &amp; installing from source:**```make install```**Building &amp; releasing to PyPI:**```make release```</longdescription>
 </pkgmetadata>

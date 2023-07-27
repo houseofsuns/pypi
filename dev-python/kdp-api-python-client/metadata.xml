@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>    The KDP API is a REST API that can be used to create, access, and update data in KDP Workspaces  # noqa: E501    </longdescription>
+	<longdescription>    The KDP API is a REST API that can be used to create, access, and update data in KDP Workspaces. Please note that the Python client library follows Python&amp;#39;s naming convention of snake casing for fields, even though they may appear in camel case in the API specification.  # noqa: E501    </longdescription>
 </pkgmetadata>

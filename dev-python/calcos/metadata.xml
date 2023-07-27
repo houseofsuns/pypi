@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CALCOS[![Jenkins CI](https://ssbjenkins.stsci.edu/job/STScI/job/calcos/job/master/badge/icon)](https://ssbjenkins.stsci.edu/job/STScI/job/calcos/job/master/)Calibration software for HST/COS.Nightly regression test results are available only from within the STScInetwork at this time.https://plwishmaster.stsci.edu:8081/job/RT/job/calcos/test_results_analyzer/</longdescription>
+	<longdescription>README.md</longdescription>
 </pkgmetadata>

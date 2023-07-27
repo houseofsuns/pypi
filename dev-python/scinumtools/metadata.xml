@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># scinumtoolsTools for numerical scientific calculations </longdescription>
+	<longdescription># scinumtoolsEssential tools for numerical scientific calculationsFor more information see the scinumtools [documentation](https://vrtulka23.github.io/scinumtools/).</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>DC++ client.\Using [eiskaltdcpp-daemon](https://github.com/eiskaltdcpp/eiskaltdcpp).\[Git Page](https://github.com/colin-i/dico)</longdescription>
+	<longdescription>DC++ client.\Using [eiskaltdcpp-daemon](https://github.com/eiskaltdcpp/eiskaltdcpp).\To remove configuration launch the program with one argument.\[Git Page](https://github.com/colin-i/dico)</longdescription>
 </pkgmetadata>

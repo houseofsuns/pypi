@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>SageMaker SSH Helper is a library that helps you to securely connect to Amazon SageMaker's training jobs, processing jobs, realtime inference endpoints, and SageMaker Studio notebook containers for fast interactive experimentation, remote debugging, and advanced troubleshooting.For the full description see [README.md](https://github.com/aws-samples/sagemaker-ssh-helper/blob/main/README.md).</longdescription>
+	<longdescription>SageMaker SSH Helper is a library that helps you to securely connect to Amazon SageMaker's training jobs, processing jobs, realtime inference endpoints, and SageMaker Studio notebook containers for fast interactive experimentation, remote debugging, and advanced troubleshooting, also known as &quot;SSH into SageMaker&quot;.For the documentation, see the repo [https://github.com/aws-samples/sagemaker-ssh-helper/](https://github.com/aws-samples/sagemaker-ssh-helper/).</longdescription>
 </pkgmetadata>

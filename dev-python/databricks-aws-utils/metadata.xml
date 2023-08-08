@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Databricks AWS UtilsDatabricks AWS Utils is a library to abstract Databricks integration with AWS Services## Features- Convert Delta Table to be consumed by AWS Athena with Schema evolution- Run queries against AWS RDS using AWS Secrets Manager to retrive the connection properties and returns as Spark DataFrame## Install`pip install databricks-aws-utils`## Contributing- See our [Contributing Guide](CONTRIBUTING.md)## Change Log- See our [Change Log](CHANGELOG.md)</longdescription>
+</pkgmetadata>

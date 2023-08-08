@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># NyckelPython package for &lt;www.nyckel.com&gt;![build](https://github.com/NyckelAI/python-sdk/actions/workflows/build.yml/badge.svg)![test](https://github.com/NyckelAI/python-sdk/actions/workflows/test.yml/badge.svg)## Local development* Run Nyckel Server and Trainer instances locally* pytest -s</longdescription>
+	<longdescription># NyckelPython package for www.nyckel.com![build](https://github.com/NyckelAI/python-sdk/actions/workflows/build.yml/badge.svg)![test](https://github.com/NyckelAI/python-sdk/actions/workflows/test.yml/badge.svg)[![PyPi version](https://img.shields.io/pypi/v/nyckel.svg)](https://pypi.python.org/pypi/nyckel/)# UsageRetrieve `client_id` and `client_secret` from https://www.nyckel.com/console/keys```from nyckel import OAuth2Renewer, TextClassificationFunction, TextClassificationSampleuser = OAuth2Renewer(client_id=&lt;CLIENT_ID&gt;, client_secret=&lt;CLIENT_SECRET&gt;)my_func = TextClassificationFunction.new('Example function name', user)my_func.create_samples([TextClassificationSample(data=&quot;hello Nyckel&quot;)])```</longdescription>
 </pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CellMap - RNA landscape inference method&lt;div style=&quot;text-align:left&quot;&gt;&lt;img style=&quot;width:100%; height: auto&quot; src=&quot;https://github.com/yusuke-imoto-lab/CellMap/blob/main/figures/CellMap_Overview.jpg&quot;/&gt;&lt;/div&gt;The CellMap is a RNA landscape inference method based on the graph Hodge decomposition. ## InstallationTo install CellMap package, use `pip` as follows:```$ pip install cellmap```## Requirements* Python3* matplotlib* numpy* scipy* scikit-learn## TurtorialTurtorials are prepared by jupyter notebook.* [Tutorial for pancreas endocrine cell data](https://github.com/yusuke-imoto-lab/CellMap/blob/main/tutorial/CellMap_tutorial_pancreas.ipynb)## VisualizationWe prepare original visualization system *[CellMap viewer](https://github.com/yusuke-imoto-lab/CellMapViewer)*. &lt;div style=&quot;text-align:left&quot;&gt;&lt;img style=&quot;width:100%; height: auto&quot; src=&quot;https://github.com/yusuke-imoto-lab/CellMapViewer/blob/main/Images/TopImage.png&quot;/&gt;&lt;/div&gt;</longdescription>
+</pkgmetadata>

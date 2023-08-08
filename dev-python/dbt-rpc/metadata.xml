@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription> A JSON RPC server that provides an interface to programmically interact with dbt projects. </longdescription>
+	<longdescription>A JSON RPC server that provides an interface to programmically interact with dbt projects. </longdescription>
 </pkgmetadata>

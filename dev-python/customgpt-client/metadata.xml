@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CustomGPT SDK## UsageFirst, create a client:```pythonfrom customgpt_client import CustomGPTCustomGPT.api_key=&quot;SuperSecretToken&quot;```Now you can access to all of our Models:Example Request will be like this:Creating a Project synchronously:```pythonresponse = CustomGPT.Project.create(project_name='Test', sitemap_path='https://example.com/test.xml', file_data_retension=False, file=file)project_id = response.data.id```Or do the same thing with an async version:```pythonresponse = await CustomGPT.Project.acreate(project_name='Test', sitemap_path='https://example.com/test.xml', file_data_retension=False, file=file)project_id = response.data.id```</longdescription>
+</pkgmetadata>

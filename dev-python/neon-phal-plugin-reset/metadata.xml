@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Neon Reset PluginPlugin to handle factory reset requests. Note that this plugin will install systemservices and modify system config as part of its installation. Installation mayfail if not completed as `root`.## Default Reset BehaviorBy default, the reset plugin will reset your Python environment to the state itwas in when this plugin was installed. It will also restore the user `.local`, `.cache`, and `.config` directories to the state their original state.`/etc/neon/neon.yaml` will be updated to the latest default if an internet connectionis available. The reset script comes from the [neon-image-recipe repository](https://github.com/NeonGeckoCom/neon-image-recipe/blob/master/11_factory_reset/overlay/opt/neon/reset).</longdescription>
+</pkgmetadata>

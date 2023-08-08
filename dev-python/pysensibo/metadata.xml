@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>asyncio-friendly python API for Sensibo(https://sensibo.com). Requires Python 3.10+</longdescription>
+	<longdescription>asyncio-friendly python API for Sensibo(https://sensibo.com). Supported on Python 3.11+</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>X-ray Reference Data for the Elements using SQLite</longdescription>
+	<longdescription>xraydb provides reference data for X-ray interactions withmatter and a python module with functions for working withthese data. The data is assembled into an SQLite3 databasexraydb.sqlite.</longdescription>
 </pkgmetadata>

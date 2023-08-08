@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>a django app which manages course information</longdescription>
+	<longdescription>A django app which manages course information.</longdescription>
 </pkgmetadata>

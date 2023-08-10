@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ODH CORECore helper py lib for working with ODH# Changelogsee docs/changelog.rst# Todo- add logging with docs about uvicorn- get secrets from azure key valut</longdescription>
+	<longdescription># ODH CORECore helper py lib for working with ODH# Changelogsee docs/changelog.rst# Todo- add logging with docs about uvicorn</longdescription>
 </pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># LiamHsieh toolboxAuthor: Liam Hsieh  Latest update: Dec 21, 2022This package is a collection of Python utilities created for benefiting my development of prototypes/applications regarding data-driven decision science a bit easier. &lt;!-- Activate the virtual environment (venv) you want with the installation of this package, then run the following command to install this package for your venv:  ```bashpip install git+https://github.com/intel-sandbox/CnA-ODS-toolbox.git```or from downloaded project source code then unarchive (have to change to project root folder before running following command)```bashpip install -e .```The -e option is for editable install. It doesn’t make a copy of the code into the venv folder. Instead, it makes reference to where the code has been placed. --&gt;</longdescription>
+</pkgmetadata>

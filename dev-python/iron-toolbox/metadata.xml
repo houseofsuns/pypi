@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># iron_toolbox# Para importar a função, usar a nomenclatura iron_toolbox</longdescription>
+	<longdescription># Iron Toolbox### Utilização da BibliotecaPara importar a biblioteca, basta usar a nomenclatura **iron_toolbox**.### Atualização da BibliotecaTodo commit no repositório vai publicar a atualização automaticamente no **PyPI.org**, por isso sempre que for commitar qualquer atualização é necessário modificar a versão no arquivo **setup.py** em **setuptools.setup (...version='0.0.00'...)**.</longdescription>
 </pkgmetadata>

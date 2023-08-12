@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription>A simple HTTP Request &amp; Response Service, written in Python + Flask.</longdescription>
 </pkgmetadata>

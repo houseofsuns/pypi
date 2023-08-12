@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>**youtube_lv**github: &lt;https://github.com/phillychi3/youtube_lv&gt;how to useuse ID```pythonfrom ytlv import *lv=islive()live=lv.ytid(&quot;channel ID&quot;)print(live)```use LINK```pythonfrom ytlv import *lv=islive()live=lv.ytlk(&quot;channel ID&quot;)print(live)```</longdescription>
+	<longdescription>![image](https://shields.io/pypi/pyversions/youtube-lv)### how to download`pip install youtube-lv`### how to update`pip install --upgrade youtube-lv`### how to useYoutube```pythonfrom ytlv import youtubelive=youtube(&quot;https://www.youtube.com/@ShirakamiFubuki&quot;)print(live){  &quot;link&quot;: &quot;url&quot;,  &quot;status&quot;: &quot;live status&quot;,  &quot;title&quot;: &quot;live title&quot;,  &quot;picture&quot;: &quot;live image&quot;,  &quot;timestamp&quot;: &quot;timestamp&quot;}```Twitch```pythonfrom ytlv import twitchlive=twitch(&quot;iitifox&quot;)print(live){   &quot;link&quot;:&quot;url&quot;,   &quot;status&quot;:&quot;LIVE&quot;,   &quot;title&quot;:&quot;title&quot;,   &quot;picture&quot;:&quot;pictureurl&quot;,   &quot;avatar&quot;:&quot;avatar&quot;}```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>python-can-isotp</longdescription>
+	<longdescription>python-can-isotp################.. image:: https://app.travis-ci.com/pylessard/python-can-isotp.svg?branch=masterThis project is a Python package meant to provide support for IsoTP (ISO-15765) protocol written in Python 3. The code is published under MIT license on GitHub (`pylessard/python-can-isotp &lt;https://github.com/pylessard/python-can-isotp&gt;`_).This package contains a Python implementation of the protocol that works in the user space that may or may not be coupled with `python-can &lt;https://python-can.readthedocs.io&gt;`_. It also contains a wrapper for a simplified usage of the `Linux SocketCAN IsoTP kernel module &lt;https://github.com/hartkopp/can-isotp&gt;`__Documentation-------------The documentation is available here :   http://can-isotp.readthedocs.ioRequirements------------ - Python 3+Installation------------using pip::    pip install can-isotp</longdescription>
 </pkgmetadata>

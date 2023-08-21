@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Underthesea CoreUnderthesea Core is a powerful extension of the popular natural language processing library Underthesea, which includes a range of efficient data preprocessing tools and machine learning models for training. Built with Rust for optimal performance, Underthesea Core offers fast processing speeds and is easy to implement, with Python bindings for seamless integration into existing projects. This extension is an essential tool for developers looking to build high-performance NLP systems that deliver accurate and reliable results.## UsageCRFFeaturizer```python&gt;&gt;&gt; from underthesea_core import CRFFeaturizer&gt;&gt;&gt; features = [&quot;T[-1]&quot;, &quot;T[0]&quot;, &quot;T[1]&quot;]&gt;&gt;&gt; dictionary = set([&quot;sinh viên&quot;])&gt;&gt;&gt; featurizer = CRFFeaturizer(features, dictionary)&gt;&gt;&gt; sentences = [[[&quot;sinh&quot;, &quot;X&quot;], [&quot;viên&quot;, &quot;X&quot;], [&quot;đi&quot;, &quot;X&quot;], [&quot;học&quot;, &quot;X&quot;]]]&gt;&gt;&gt; featurizer.process(sentences)[[['T[-1]=BOS', 'T[0]=sinh', 'T[1]=viên'],  ['T[-1]=sinh', 'T[0]=viên', 'T[1]=đi'],  ['T[-1]=viên', 'T[0]=đi', 'T[1]=học'],  ['T[-1]=đi', 'T[0]=học', 'T[1]=EOS']]]```## Release Workflow1. Change version in `Cargo.toml` and `pyproject.toml`2. Push to branch `core` with commit `Publish Underthesea Core`  * This will trigger `release-pypi-core` action3. Check latest version in [pypi](https://pypi.org/project/underthesea_core/)Note*: Run a self-hosted for building `macos-arm`</longdescription>
+</pkgmetadata>

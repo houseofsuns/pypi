@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Package: dashDeckglTitle: Deck.gl component for DashVersion: 0.2.2Description: Deck.gl component for DashDepends: R (&gt;= 3.0.2)Imports: Suggests: License: MIT + file LICENSEURL: https://github.com/oceanum-io/dash-deckglBugReports: https://github.com/oceanum-io/dash-deckgl/issuesEncoding: UTF-8LazyData: trueKeepSource: true</longdescription>
+	<longdescription>Package: dashDeckglTitle: Deck.gl component for DashVersion: 0.2.3Description: Deck.gl component for DashDepends: R (&gt;= 3.0.2)Imports: Suggests: License: MIT + file LICENSEURL: https://github.com/oceanum-io/dash-deckglBugReports: https://github.com/oceanum-io/dash-deckgl/issuesEncoding: UTF-8LazyData: trueKeepSource: true</longdescription>
 </pkgmetadata>

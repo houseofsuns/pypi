@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Welcome to the Carbon DLS API docs!  You can find all relevant documentation here: https://github.com/carbon3d/carbon3d-api   # noqa: E501</longdescription>
+	<longdescription>Welcome to the Carbon DLS API docs!   # noqa: E501</longdescription>
 </pkgmetadata>

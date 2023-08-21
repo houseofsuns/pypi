@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># aioqswPython library to control QNAP QSW devices.## Requirements- Python &gt;= 3.9## Install```bashpip install aioqsw```## Install from SourceRun the following command inside this folder```bashpip install --upgrade .```## ExamplesExamples can be found in the `examples` folder</longdescription>
+	<longdescription># aioqsw[![Latest Version][mdversion-button]][md-pypi][![Python Versions][pyversion-button]][md-pypi][![License: Apache 2.0][apache-button]](LICENSE)[apache-button]: https://img.shields.io/badge/License-Apache%202.0-blue.svg[md-pypi]: https://pypi.org/project/aioqsw[mdversion-button]: https://img.shields.io/pypi/v/aioqsw.svg[pyversion-button]: https://img.shields.io/pypi/pyversions/aioqsw.svgPython library to control QNAP QSW devices.## Requirements- Python &gt;= 3.11## Install```bashpip install aioqsw```## Install from SourceRun the following command inside this folder```bashpip install --upgrade .```## ExamplesExamples can be found in the `examples` folder</longdescription>
 </pkgmetadata>

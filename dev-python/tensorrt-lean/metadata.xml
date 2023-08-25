@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A high performance deep learning inference library</longdescription>
+	<longdescription>A high performance deep learning inference libraryTo install, please execute the following:```pip install tensorrt --extra-index-url https://pypi.nvidia.com```Or add the index URL to the (space-separated) PIP_EXTRA_INDEX_URL environment variable:```export PIP_EXTRA_INDEX_URL='https://pypi.nvidia.com'pip install tensorrt```When the extra index url does not contain `https://pypi.nvidia.com`, a nested `pip install` will run with the proper extra index url hard-coded.</longdescription>
 </pkgmetadata>

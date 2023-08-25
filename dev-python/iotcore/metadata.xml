@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># iot-core## Subscribe to MQTT Topic```import iotcoredef callback(payload):    print(f&quot;Received payload in python: {payload}&quot;)core = iotcore.IotCore(&quot;mqtt.eclipseprojects.io&quot;, 1883, callback)core.publish(&quot;pub/iotcore&quot;, &quot;hello&quot;)core.subscribe(&quot;sub/iotcore&quot;)core.run()```</longdescription>
+	<longdescription>add iotcore to your django apps. check docs at https://github.com/tomvictor/iotcore for more details</longdescription>
 </pkgmetadata>

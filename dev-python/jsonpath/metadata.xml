@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A port of the Perl, and JavaScript versions of JSONPathsee http://goessner.net/articles/JsonPath/Based on on JavaScript version by Stefan Goessner at:        https://goessner.net/articles/JsonPath/        http://code.google.com/p/jsonpath/and Perl version by Kate Rhodes at:        http://github.com/masukomi/jsonpath-perl/tree/masterPython3 compatibily by Per J. Sandstrom</longdescription>
+	<longdescription>A port of the Perl, and JavaScript versions of JSONPathsee http://goessner.net/articles/JsonPath/Based on on JavaScript version by Stefan Goessner at:        https://goessner.net/articles/JsonPath/        http://code.google.com/p/jsonpath/and Perl version by Kay Rhodes at:        http://github.com/masukomi/jsonpath-perl/Python3 compatibily by Per J. Sandstrom</longdescription>
 </pkgmetadata>

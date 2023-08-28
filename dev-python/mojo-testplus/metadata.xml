@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>==========================Automation Mojo - Testplus========================== This is preliminary release of the 'testplus' automation framework in a separate package fromthe AutomationKit.  This release is not ready for public consumption.</longdescription>
+	<longdescription>==========================Automation Mojo - Testplus========================== This is preliminary release of the 'testplus' automation framework in a separate package fromthe AutomationKit.  This release is not ready for public consumption because it is under &quot;very active&quot; development.</longdescription>
 </pkgmetadata>

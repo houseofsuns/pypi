@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># smithed-python&gt; The python package for Smithed. Including weld, cli, and libraries (via [`smithed-libraries`](https://github.com/Smithed-MC/Libraries)).&gt; **HEAVY WIP**</longdescription>
+	<longdescription># smithed-pythonThe python package for all things Smithed. Includes weld, cli, and libraries (via [`smithed-libraries`](https://github.com/Smithed-MC/Libraries)).## Weld&gt; The fastest pack merger of the west 🚅, build on beet technologies™</longdescription>
 </pkgmetadata>

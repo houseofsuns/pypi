@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># PyNumeca[![Python application](https://github.com/GitMarco27/PyNumeca/actions/workflows/python-app.yml/badge.svg)](https://github.com/GitMarco27/PyNumeca/actions/workflows/python-app.yml)Python interface to Numera family software</longdescription>
+</pkgmetadata>

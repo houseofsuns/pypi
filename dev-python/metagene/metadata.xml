@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Metagene[![Readthedocs](https://readthedocs.org/projects/metagene/badge/?version=latest)](https://metagene.readthedocs.io/en/latest/?badge=latest)[![Build Status](https://img.shields.io/travis/y9c/metagene.svg)](https://travis-ci.com/y9c/metagene)[![Pypi Releases](https://img.shields.io/pypi/v/metagene.svg)](https://pypi.python.org/pypi/metagene)[![Downloads](https://static.pepy.tech/badge/metagene)](https://pepy.tech/project/metagene)**Metagene Profiling Analysis and Visualization**(WIP)## DEMO![demo](docs/fig_metagene.svg)</longdescription>
+	<longdescription># Metagene[![Pypi Releases](https://img.shields.io/pypi/v/metagene.svg)](https://pypi.python.org/pypi/metagene)[![Downloads](https://static.pepy.tech/badge/metagene)](https://pepy.tech/project/metagene)**Metagene Profiling Analysis and Visualization**(WIP)## DEMO![demo](docs/fig_metagene.svg)- example```bashmetagene -i metagene/data/input.bed.gz -t 10 -w 7,8,9 -n a,xxx,new -F GRCh38 -b 100 -o /dev/null -s test.tsv -p test.pdf```</longdescription>
 </pkgmetadata>

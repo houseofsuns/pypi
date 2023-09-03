@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># e-Yantra Autoeval## Usage- For `Sentinel Drone` theme```sheyantra-autoeval evaluate --year 2022 --theme SD --task 0```- For `Luminosity Drone` theme```sheyantra-autoeval evaluate --year 2023 --theme LD --task 0```</longdescription>
+	<longdescription># eyantra-autoeval## Usage&gt; NOTE: Check [#3][i3] for generating result from the evaluator.- For `Sentinel Drone` theme```sheyantra-autoeval evaluate --year 2022 --theme SD --task 0```- For `Luminosity Drone` theme```sheyantra-autoeval evaluate --year 2023 --theme LD --task 0```- For `AstroTinker Bot` theme```sheyantra-autoeval evaluate --year 2023 --theme AB --task 0```[i3]: https://github.com/eYantra-Robotics-Competition/eyantra-autoeval/issues/3</longdescription>
 </pkgmetadata>

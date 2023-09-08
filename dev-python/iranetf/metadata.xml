@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A library to fetch data about ETFs active on Tehran Stock Exchange.The `sites` module provides functions to retrieve info from fund websites directly.</longdescription>
+	<longdescription>A library to fetch data form ETF websites active on Tehran Stock Exchange.</longdescription>
 </pkgmetadata>

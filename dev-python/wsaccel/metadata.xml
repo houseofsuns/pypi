@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>WSAccell=========**NOTE: AutobahnPython and ws4py are not actively maintained. So I will stop this project too.Please migrate to `Tornado &lt;https://www.tornadoweb.org/en/stable/&gt;`_ or`websockets &lt;https://websockets.readthedocs.io/en/stable/intro.html&gt;`_.**WSAccell is WebSocket accelerator for `AutobahnPython &lt;https://autobahn.readthedocs.io/en/latest/&gt;`_,and `ws4py &lt;https://github.com/Lawouach/WebSocket-for-Python&gt;`_.WSAccell replaces per-byte process in them with Cython version.AutobahnPython beginning with version 0.6 automatically uses WSAccell if available.Otherwise you can run-time patch supported WebSocket libraries using:.. code-block:: python    import wsaccel    wsaccel.patch_autobahn()  # for autobahn.    wsaccel.patch_ws4py()     # for ws4py.test----wsaccel uses `pytest &lt;https://pytest.org/&gt;`_ for testing... code-block:: console    $ pip install pytest    $ pytest tests</longdescription>
+	<longdescription/>
 </pkgmetadata>

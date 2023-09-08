@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># eolearn.coregistration subpackageA collection of tools and EOTasks for image co-registrationFor more information about the module visit [readthedocs](https://eo-learn.readthedocs.io/en/latest/reference/eolearn.coregistration.html), or see the [module task index](https://eo-learn.readthedocs.io/en/latest/eotasks.html#coregistration).</longdescription>
+	<longdescription># eolearn.coregistration subpackageThe deprecated way to install `eolearn.coregistration`. See [migration guide](https://github.com/sentinel-hub/eo-learn/issues/733) on how to correctly install the `eo-learn` package.Installs requirements and a dummy package that is detected by `eo-learn` but otherwise does not change anything.</longdescription>
 </pkgmetadata>

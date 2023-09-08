@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Banana Python SDK### Getting StartedInstall via pip```bashpip3 install banana-dev```If integration testing against a local Potassium server:```bashexport BANANA_SERVER=local```to call `http://localhost:8000/` directly. Be sure to unset in prod!If deploying to prod:[Sign in / log in here](https://app.banana.dev) to get your API and Model Keys### Run:```pythonfrom banana_dev import Client# Create a reference to your model on Bananamy_model = Client(    api_key=&quot;YOUR_API_KEY&quot;, # Found in dashboard    model_key=&quot;YOUR_MODEL_KEY&quot;, # Found in model view in dashboard    url=&quot;https://YOUR_URL.run.banana.dev&quot;, # Found in model view in dashboard)# Specify the model's input JSONinputs = {    &quot;prompt&quot;: &quot;In the summer I like [MASK].&quot;,}# Call your model's inference endpoint on Bananaresult, meta = my_model.call(&quot;/&quot;, inputs)print(result)```</longdescription>
+	<longdescription># Banana Python SDKPlease see our usage docs in the official [Banana Documentation](https://docs.banana.dev/banana-docs/core-concepts/sdks/python)</longdescription>
 </pkgmetadata>

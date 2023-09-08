@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>click-default-group-wheel=========================This package provides [click-default-group](https://github.com/click-contrib/click-default-group) with an additional pure Python wheel package, compatible with [Pyodide](https://github.com/pyodide/pyodide).    pip install click-default-group-wheel</longdescription>
+	<longdescription># click-default-group-wheel is now click-default-groupThis package has been renamed. Use `pip install click-default-group` instead.New package: https://pypi.org/project/click-default-group/</longdescription>
 </pkgmetadata>

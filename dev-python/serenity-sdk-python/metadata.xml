@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>## Serenity SDK - Python### IntroductionThe Serenity digital asset risk platform exposes all functionality via an API -- currently REST only.Although it's possible to call the API with simple HTTP client code in most any modern language, there are conventions that need to be followed -- especially for authentication and authorization -- and to make it easier we have provided this lightweight SDK.### InstallationInstallation for Python 3.x users is very simple using pip:```plainpip install serenity.sdk.python```If you have already installed the SDK and want to upgrade to latest:```plainpip install -U serenity.sdk.python```### API documentationThe latest API documentation is always available at [ReadTheDocs](https://cloudwall-serenitysdkpython.readthedocs-hosted.com/en/stable/).### Learning moreIf you want to learn more about the Serenity digital asset risk platform, book a demo or get in touch, you can reach out to us at [https://cloudwall.tech](https://cloudwall.tech).</longdescription>
+</pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Chalk Harness---This package wraps [Chalk's CLI](https://github.com/chalk-ai/cli)with Python to aid with testing.---Chalk enables innovative machine learning teams to focus on buildingthe unique products and models which make their business stand out.Behind the scenes Chalk seamlessly handles data infrastructure witha best-in-class developer experience.---## Example Usage```pythonharness = CLIHarness()harness.apply_await(force=True)version = harness.version()assert version.version == &quot;v0.4.5&quot; == harness.version_tag_only()print(harness.whoami().user)print(harness.token().token)```</longdescription>
+	<longdescription># Chalk Harness---This package wraps [Chalk's CLI](https://github.com/chalk-ai/cli)with Python to aid with testing.---Chalk enables innovative machine learning teams to focus on buildingthe unique products and models that make their business stand out.Behind the scenes Chalk seamlessly handles data infrastructure witha best-in-class developer experience.---## Example Usage```pythonharness = CLIHarness()harness.apply_await(force=True)version = harness.version()assert version.version == &quot;v0.4.5&quot; == harness.version_tag_only()print(harness.whoami().user)print(harness.token().token)```</longdescription>
 </pkgmetadata>

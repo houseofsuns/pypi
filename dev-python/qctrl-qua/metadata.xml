@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Q-CTRL QUA AdapterThe Q-CTRL QUA Adapter package allows you to integrate Boulder Opal with theQUA quantum computing language.See how you can do that in the user guide [How to integrate Boulder Opal withQUA from QuantumMachines](https://docs.q-ctrl.com/boulder-opal/user-guides/how-to-integrate-boulder-opal-with-qua-from-quantum-machines).</longdescription>
+	<longdescription># Q-CTRL QUA AdapterThe Q-CTRL QUA Adapter package allows you to integrate Boulder Opal with the QUA quantum computing language.See how you can do that in the user guide [How to integrate Boulder Opal with QUA from Quantum Machines](https://docs.q-ctrl.com/boulder-opal/user-guides/how-to-integrate-boulder-opal-with-qua-from-quantum-machines).</longdescription>
 </pkgmetadata>

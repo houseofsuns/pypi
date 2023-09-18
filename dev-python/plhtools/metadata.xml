@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>彭麟汉工具包在dist文件夹中删除旧的版本打包更新版本号python3 setup.py sdist bdist_wheel上传包twine upload dist/*</longdescription>
+	<longdescription>彭麟汉工具包删除build文件夹在dist文件夹中删除旧的版本打包更新版本号python3 setup.py sdist bdist_wheel上传包twine upload dist/*</longdescription>
 </pkgmetadata>

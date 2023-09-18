@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python Tools for Applications of Interval Design## RequirementsPython 3.11+## Installation```shpip install interval-tools```Or if you want to use[ObjectID](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)as a unique identifier for `Entity` or `Aggregate`, run```shpip install &quot;interval-tools[objectid]&quot;```## Quickstart```pycon&gt;&gt;&gt; from interval.utils import batched&gt;&gt;&gt; for batch in batched('ABCDEFG', 3):...     print(batch)...('A', 'B', 'C')('D', 'E', 'F')('G',)```</longdescription>
+	<longdescription># Python Tools for Applications of Interval Design## RequirementsPython 3.11+## Installation```shpip install interval-tools```Or if you want to use[ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)as a unique identifier for `Entity` or `Aggregate`, run```shpip install &quot;interval-tools[objectid]&quot;```## Quickstart```pycon&gt;&gt;&gt; from interval.utils import batched&gt;&gt;&gt; for batch in batched('ABCDEFG', 3):...     print(batch)...('A', 'B', 'C')('D', 'E', 'F')('G',)```</longdescription>
 </pkgmetadata>

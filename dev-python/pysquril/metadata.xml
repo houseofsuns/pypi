@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pysqurilPython implementation of structured URI query language.## Tests```bashpoetry installpoetry run python pytest pysquril/tests.py```## LicenseBSD.</longdescription>
+	<longdescription># pysqurilPython implementation of structured URI query language.## Tests```bashpoetry installpoetry run pytest pysquril/tests.py```## LicenseBSD.</longdescription>
 </pkgmetadata>

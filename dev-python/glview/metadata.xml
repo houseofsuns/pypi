@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># glview[![Build Status](https://travis-ci.com/toaarnio/glview.svg?branch=master)](https://travis-ci.com/github/toaarnio/glview)Lightning-fast image viewer with synchronized split-screen zooming &amp;amp; panning + HDR exposure control.**Installing:**```pip install glview```**Usage:**```glview --help```**Building &amp;amp; installing from source:**```</longdescription>
+	<longdescription># glview[![Build Status](https://travis-ci.com/toaarnio/glview.svg?branch=master)](https://travis-ci.com/github/toaarnio/glview)Lightning-fast image viewer with synchronized split-screen zooming &amp;amp; panning + HDR &amp;amp; WCG support**Installing:**```pip install glview```**Usage:**```glview --help```**Building &amp;amp; installing from source:**```</longdescription>
 </pkgmetadata>

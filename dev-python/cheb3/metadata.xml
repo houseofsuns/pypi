@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription>.. image:: https://raw.githubusercontent.com/YanhuiJessica/cheb3/main/docs/_static/img/cheb3.png    :width: 300    :align: centerInstallation============.. code-block:: shell   $ python3 -m pip install cheb3.. end-of-readme-introExamples========Examples of using `cheb3` in CTF challenges can be found in `/examples &lt;examples/&gt;`_.Documentation=============- Quick Start    - `Making Connections &lt;https://cheb3.readthedocs.io/en/latest/connection_basis.html&gt;`_    - `Interaction Basis &lt;https://cheb3.readthedocs.io/en/latest/interaction_basis.html&gt;`_- API Reference    - `Connection &lt;https://cheb3.readthedocs.io/en/latest/connection.html&gt;`_    - `Account &lt;https://cheb3.readthedocs.io/en/latest/account.html&gt;`_    - `Contract &lt;https://cheb3.readthedocs.io/en/latest/contract.html&gt;`_    - `cheb3.utils &lt;https://cheb3.readthedocs.io/en/latest/utils.html&gt;`_</longdescription>
 </pkgmetadata>

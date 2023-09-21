@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># dash-enterprise-authAuthentication for dash enterprise</longdescription>
+	<longdescription># Dash Enterprise AuthAuthentication for apps deployed to [Dash Enterprise](https://plotly.com/dash)Learn more at https://dash.plotly.com/dash-enterprise/app-authentication```pyimport dash_enterprise_auth as auth@callback(...)def private_data(...):    username = auth.get_username()    if username:        return get_view_for_user(username)    else:        return public_view()```</longdescription>
 </pkgmetadata>

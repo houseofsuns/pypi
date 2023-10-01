@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Ansys fork of `pythonnet &lt;https://github.com/pythonnet/pythonnet&gt;`_.We will try to keep this up-to-date with pythonnet and upstream changes that might benefit the pythonnet communityChanges relative to pythonnet:- Revert of `#1240 &lt;https://github.com/pythonnet/pythonnet/pull/1240&gt;`_.</longdescription>
+	<longdescription>Ansys fork of `pythonnet &lt;https://github.com/pythonnet/pythonnet&gt;`_.We will try to keep this up-to-date with pythonnet and upstream changes that might benefit the pythonnet communityChanges relative to pythonnet:- Revert of `#1240 &lt;https://github.com/pythonnet/pythonnet/pull/1240&gt;`_.- Enum REPR `#2239 &lt;https://github.com/pythonnet/pythonnet/pull/2239&gt;` is included in this release of version 3.0.2, but is unreleased in pythonnet</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># setuptools plugin for gettextCompile .po files into .mo files.This plugin adds `build_mo`, 'clean_mo' and 'install_mo' subcommands forsetup.py as well as hooking those into standard commands.## UsageBy default, setuptools_gettext compiles and installs mo files when there is a`po` directory present that contains ``.po`` files.</longdescription>
+	<longdescription># setuptools plugin for gettextCompile .po files into .mo files.This plugin adds `build_mo`, 'clean_mo' and 'install_mo' subcommands forsetup.py as well as hooking those into standard commands.## UsageBy default, setuptools_gettext compiles and installs mo files when there is a`po` directory present that contains ``.po`` files.You can override these settings in ``pyproject.toml``:```toml[tool.setuptools-gettext]source_dir = &quot;po&quot;build_dir = &quot;breezy/locale&quot;```</longdescription>
 </pkgmetadata>

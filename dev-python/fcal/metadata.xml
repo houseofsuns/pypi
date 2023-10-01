@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Installation```pip install fcal```## Usage```sh# Print the last 10 days in the default formatfcal -b 10# Print the last 10 days in MM-DD format fcal -b 10 -f '%m-%d'# Print the last 10 days and next 10 days in local datetime format %c  fcal -b 10 -a 10 -f '%c'```</longdescription>
+	<longdescription>## Installation```shpip install fcal```## Usage```sh# Print the last 10 days in the default formatfcal -b 10# Print the last 10 days in MM-DD format fcal -b 10 -f '%m-%d'# Print the last 10 days and next 10 days in local datetime format %c  fcal -b 10 -a 10 -f '%c'```## DevelopmentTo build the package locally, run```python -m build```Uploading to twine, which only package authors can do, is done using twine.</longdescription>
 </pkgmetadata>

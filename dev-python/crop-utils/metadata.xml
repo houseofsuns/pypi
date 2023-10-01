@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>为了区分3.0与4.0版本，同时资源图与详情页也共用的一套裁剪逻辑代码。为了降低裁剪部分维护与开发难度，封装为裁剪工具包# 包制作流程环境：winpython版本: 3.9# 自定义包https://packaging.python.org/tutorials/packaging-projects/#项目目录结构~~~markdown ecpro-util/ |-- src/ |   |-- ecpro/ |   |  |-- init.py |   |  |-- html_slot_config.py |   |  |-- image.py |   |  |-- img_crop.py |--tests/ |   |--test.py |--setup.py |--LICENSE |--MANIFEST.IN |--pyproject.toml |--READNE.md~~~# 打包&gt; python setup.py sdist bdist_wheel# 发布到pypi首先需要在pypi上注册并绑定邮箱才有权限上传&gt; twine upload dist/*# 安装pip install crop-utils==4.3.15 -i  https://pypi.python.org/simple/</longdescription>
+	<longdescription>为了区分3.0与4.0版本，同时资源图与详情页也共用的一套裁剪逻辑代码。为了降低裁剪部分维护与开发难度，封装为裁剪工具包# 包制作流程环境：winpython版本: 3.9# 自定义包https://packaging.python.org/tutorials/packaging-projects/#项目目录结构~~~markdown ecpro-util/ |-- src/ |   |-- ecpro/ |   |  |-- init.py |   |  |-- html_slot_config.py |   |  |-- image.py |   |  |-- img_crop.py |--tests/ |   |--test.py |--setup.py |--LICENSE |--MANIFEST.IN |--pyproject.toml |--READNE.md~~~# 打包&gt; python setup.py sdist bdist_wheel# 发布到pypi首先需要在pypi上注册并绑定邮箱才有权限上传&gt; twine upload dist/*# 安装pip install crop-utils==4.3.17 -i  https://pypi.python.org/simple/</longdescription>
 </pkgmetadata>

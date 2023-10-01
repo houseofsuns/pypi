@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pychromedriver## Installation:```# From PyPIpip install pychromedriver```## Usage:```from selenium import webdriverfrom pychromedriver import chromedriver_pathbs = webdriver.Chrome(executable_path=chromedriver_path)bs.get('https://www.pypi.org')```</longdescription>
+	<longdescription># pychromedriver## Installation:```# From PyPIpip install pychromedriver```## Usage:```from selenium import webdriverfrom selenium.webdriver.chrome.service import Servicefrom pychromedriver import chromedriver_pathbs = webdriver.Chrome(service=Service(chromedriver_path))bs.get('https://www.pypi.org')```</longdescription>
 </pkgmetadata>

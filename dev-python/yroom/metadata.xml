@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![PyPI version](https://badge.fury.io/py/yroom.svg)](https://badge.fury.io/py/yroom)# YroomPython API to synchronize clients and distribute updates via the Yjs protocol. It's written in Rust and uses [Yrs](https://github.com/y-crdt/y-crdt) and [y-sync](https://github.com/y-crdt/y-sync).It was built for [channels-yroom](https://github.com/stefanw/channels-yroom).## Installation```pip install yroom```## APISee `yroom.pyi`.</longdescription>
+	<longdescription>[![PyPI version](https://badge.fury.io/py/yroom.svg)](https://badge.fury.io/py/yroom)# YroomPython API to synchronize clients and distribute updates via the Yjs protocol. It's written in Rust and uses [Yrs](https://github.com/y-crdt/y-crdt) and [y-sync](https://github.com/y-crdt/y-sync).It was built for [channels-yroom](https://github.com/stefanw/channels-yroom).## Installation```pip install yroom```## APISee `yroom.pyi`.## Development[Maturin](https://www.maturin.rs) can be used to build `Yroom` inside a virtual environment.```maturin develop```</longdescription>
 </pkgmetadata>

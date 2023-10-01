@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># medialoopster**medialoopster API wrapper for Python**_medialoopster_ is a wrapper library for the [HTTP API](https://docs.medialoopster.com/api) of the[medialoopster](https://www.medialoopster.com/) Media Asset Management System.## Installation```bashpip install medialoopster```    ## UsageYou can start using _medialoopster_ as simply as:```pythonfrom medialoopster import Medialoopster```</longdescription>
+	<longdescription># medialoopster**medialoopster API wrapper for Python**_medialoopster_ is a wrapper library for the [HTTP API](https://docs.medialoopster.com/api) of the[medialoopster](https://www.medialoopster.com/) Media Asset Management System.## Installation```bashpip install medialoopster```</longdescription>
 </pkgmetadata>

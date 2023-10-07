@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># resoto-plugin-oneloginOneLogin collector plugin for ResotoThis plugin collects OneLogin users as cloud resources and adds them to the Resoto graph for use by other plugins.## UsageRetrieve OneLogin API credentials and provide them to the plugin either as environment variables or commandline arguments.</longdescription>
+	<longdescription># resoto-plugin-oneloginOneLogin collector plugin for ResotoThis plugin collects OneLogin users as cloud resources and adds them to the Resoto graph for use by other plugins.## UsageRetrieve OneLogin API credentials and provide them to the plugin either as environment variables or commandline arguments.## LicenseSee [LICENSE](../../LICENSE) for details.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># DocumentationOfficial documentation for Vectice can be found at https://docs.vectice.com.</longdescription>
+	<longdescription>Auto-documentation for ML projects &amp; their governance. View https://github.com/vectice/GettingStarted to get started.# DocumentationOfficial documentation for Vectice can be found at https://docs.vectice.com.</longdescription>
 </pkgmetadata>

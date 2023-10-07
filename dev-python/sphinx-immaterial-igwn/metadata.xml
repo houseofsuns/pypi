@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># sphinx-immaterial-igwn</longdescription>
+	<longdescription># sphinx-immaterial-igwnThis project defines the IGWN Material theme for Sphinx, an extension of[Sphinx Immaterial](https://jbms.github.io/sphinx-immaterial/).To install this package:```shellpython -m pip install sphinx-immaterial-igwn```To use the theme add the following to your `conf.py`:```pythonextensions = [&quot;sphinx_immaterial_igwn&quot;]html_theme = &quot;sphinx_immaterial_igwn&quot;```For full details, see &lt;https://computing.docs.ligo.org/igwn-material/sphinx/&gt;.</longdescription>
 </pkgmetadata>

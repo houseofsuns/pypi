@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Cython wrapper for the FastNoise Lite libraryThis wraps Auburns' great [FastNoise Lite](https://github.com/Auburn/FastNoise/) library using Cython for use in Python 3.6+</longdescription>
+	<longdescription>[![Build Status](https://travis-ci.org/tizilogic/PyFastNoiseLite.svg?branch=master)](https://travis-ci.org/tizilogic/PyFastNoiseLite)# Cython wrapper for the [FastNoise Lite](https://github.com/Auburn/FastNoise/) libraryThis wraps Auburns' great [FastNoise Lite](https://github.com/Auburn/FastNoise/)library using Cython  for use in Python 3.6+## InstallationThis package is available on the [Python Package Index](https://pypi.org) bothas source and binary distribution for a variety of Python versions andplatforms using the following command:```bashpip install pyfastnoiselite  # On some systems, &quot;pip&quot; has to be replaced by &quot;pip3&quot;```&gt; __Note__:&gt;&gt; This wrapper currently lacks the domain warping functionality and&gt; documentation. Both are planned to be added in the future.</longdescription>
 </pkgmetadata>

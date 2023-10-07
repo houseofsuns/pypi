@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># kkpyutilSmall utility frequently used by myself for daily Python work.- No dependency on third-party Python modules, so it alwyas run- Some functions use system builtin executable or essential programs, so runs will fail if those are not installed separately## INSTALL```shellpip3 install kkpyutil```</longdescription>
+	<longdescription># kkpyutilPremises- Provide one-liner APIs to simplify generic cross-platform sys-admin tasks- Act as a thin wrapper over Python stdlibs, system builtin programs, and well-known 3rd-party standalone programs- Avoid dependency on third-party packages## INSTALL```shellpip3 install kkpyutil```</longdescription>
 </pkgmetadata>

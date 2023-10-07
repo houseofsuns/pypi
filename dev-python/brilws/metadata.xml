@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>### BRIL Work Suitepython package for working with BRIL data #### Install#### into brilconda virtual environmentpip install brilwspip uninstall brilws#### into local user areaexport PYTHONPATH=$HOME/.local:$PYTHONPATHpip install --install-option=&quot;--prefix=$HOME/.local&quot; brilwspip uninstall brilws### Examples### Build &amp; Distributepython setup.py sdist python setup.py register -r pypipython setup.py sdist upload -r pypi</longdescription>
+	<longdescription>### BRIL Work Suitepython package for working with BRIL data #### Install#### into brilconda virtual environmentpip install brilwspip uninstall brilws#### into local user areaexport PYTHONPATH=$HOME/.local:$PYTHONPATHpip install --install-option=&quot;--prefix=$HOME/.local&quot; brilwspip uninstall brilws### Examples### Build &amp; Distributepython setup.py sdist python setup.py register -r pypipython setup.py sdist upload -r pypi </longdescription>
 </pkgmetadata>

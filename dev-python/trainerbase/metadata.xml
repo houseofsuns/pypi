@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Trainer Base============.. image:: https://badge.fury.io/py/TrainerBase.svg    :target: https://badge.fury.io/py/TrainerBase    :alt: PyPI version.. image:: https://static.pepy.tech/badge/trainerbase    :target: https://pepy.tech/project/trainerbase    :alt: DownloadsTo create project from template using cookiecutter--------------------------------------------------.. code-block:: bash    cookiecutter https://gitlab.com/v01d-gl/basic-project-template.git --checkout trainerbaseExamples--------`Python Trainers &lt;https://gitlab.com/python-trainers&gt;`__</longdescription>
+	<longdescription>============Trainer Base============.. image:: https://badge.fury.io/py/TrainerBase.svg    :target: https://badge.fury.io/py/TrainerBase    :alt: PyPI version.. image:: https://static.pepy.tech/badge/trainerbase    :target: https://pepy.tech/project/trainerbase    :alt: DownloadsTo create project from template using cookiecutter==================================================.. code-block:: bash    cookiecutter https://gitlab.com/v01d-gl/basic-project-template.git --checkout trainerbaseExamples========`Python Trainers &lt;https://gitlab.com/python-trainers&gt;`__</longdescription>
 </pkgmetadata>

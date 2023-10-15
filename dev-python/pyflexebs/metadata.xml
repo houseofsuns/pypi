@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===========*pyflexebs*===========.. image:: https://img.shields.io/pypi/v/pyflexebs.. image:: https://img.shields.io/github/license/veltzer/pyflexebs.. image:: https://img.shields.io/badge/code%20style-black-000000.svgproject website: https://veltzer.github.io/pyflexebsauthor: Mark Veltzerversion: 0.0.87Mark Veltzer &lt;mark.veltzer@gmail.com&gt;, Copyright © 2020, 2021, 2022, 2023</longdescription>
+	<longdescription>===========*pyflexebs*===========.. image:: https://img.shields.io/pypi/v/pyflexebs.. image:: https://img.shields.io/github/license/veltzer/pyflexebs.. image:: https://img.shields.io/badge/code%20style-black-000000.svgproject website: https://veltzer.github.io/pyflexebsauthor: Mark Veltzerversion: 0.0.88Mark Veltzer &lt;mark.veltzer@gmail.com&gt;, Copyright © 2020, 2021, 2022, 2023</longdescription>
 </pkgmetadata>

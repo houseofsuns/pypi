@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Pytoolconfig**Py**thon **Tool** **Config**urationThe goal of this project is to manage configuration for python tools, such asblack and rope and add support for a pyproject.toml configuration file.[Documentation](https://pytoolconfig.readthedocs.io/en/latest/) This libraryonly supports python 3.7 to 3.11. 3.12 plus may work, but isn't tested.## Development`pdm install --dev -G :all` to setup development environment `pdm run tox` torun tests## Alternatives[Maison](https://dbatten5.github.io/maison/) is a similar library</longdescription>
+	<longdescription># Pytoolconfig**Py**thon **Tool** **Config**urationThe goal of this project is to manage configuration for python tools, such asrope and add support for a pyproject.toml configuration file.[Documentation](https://pytoolconfig.readthedocs.io/en/latest/) This libraryonly supports python 3.7 to 3.11. 3.12 plus may work, but isn't tested.## Development`pdm install --dev -G :all` to setup development environment `pdm run tox` torun tests## Alternatives[Maison](https://dbatten5.github.io/maison/) is a similar library</longdescription>
 </pkgmetadata>

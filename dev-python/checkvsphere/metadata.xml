@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[Documentation](https://consol-monitoring.github.io/check_vsphere/#/)# Installation```pip install checkvsphere```# LICENSEIf not stated otherwise in a source file everything is licensed underGNU AFFERO GENERAL PUBLIC LICENSE Version 3.See also the LICENSE file.</longdescription>
+	<longdescription>[Documentation](https://omd.consol.de/docs/plugins/check_vsphere/)# Installation```pip install checkvsphere```# LICENSEIf not stated otherwise in a source file everything is licensed underGNU AFFERO GENERAL PUBLIC LICENSE Version 3.See also the LICENSE file.</longdescription>
 </pkgmetadata>

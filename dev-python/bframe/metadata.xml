@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription>&lt;div align=center&gt;&lt;img src=&quot;docs/favicon.ico&quot;&gt;&lt;/div&gt;`bframe`是一个基于`WSGI`的协议的`web`框架。它非常像`flask`，但也会有`django restframework`的味道。`bframe`的初衷是为了学习`python`的`web`框架，加深对`WSGI`及周边生态的了解。当然，若您想更深入的了解`python web`开发，请参与进来吧！### 安装```shellpip install -U bframe```### 快速入门```python# app.pyfrom bframe import Frameapp = Frame(__name__)@app.get(&quot;/&quot;)def home():    return &quot;hello world&quot;if __name__ == &quot;__main__&quot;:    app.run()```### 启动项目```shellpython app.py```### LINKS项目文档: [https://bean-jun.github.io/bframe-docs/](https://bean-jun.github.io/bframe-docs/)项目DEMO: [https://github.com/PyWebBuilders/Plats.git](https://github.com/PyWebBuilders/Plats.git)</longdescription>
+</pkgmetadata>

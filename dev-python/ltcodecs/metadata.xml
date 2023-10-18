@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># LT CodecsThe package was original part of ros_acomms under the field_codecs directory. </longdescription>
+	<longdescription># LT CodecsFlexible, lightweight codec system for transferring messages over acoustic and other low-throughput links.See the documentation for more information: https://acomms.pages.whoi.edu/ltcodec/Install from Pypi via `pip install ltcodecs`</longdescription>
 </pkgmetadata>

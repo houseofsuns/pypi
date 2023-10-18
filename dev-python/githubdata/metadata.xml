@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Install```bashpip install githubdata```# Quick Start```pythonfrom githubdata.utils import get_data_fr_github_without_double_clone# Github data repository urlurl = 'https://github.com/imahdimir/d-TSETMC_ID-2-FirmTicker'df = get_data_fr_github_without_double_clone(url)```- Easy as That!</longdescription>
+	<longdescription># Install```bashpip install githubdata```# Quick Start```pythonfrom githubdata import get_data_wo_double_clone# GitHub &quot;Data Repository&quot; url/pathurl = 'imahdimir/d-TSETMC_ID-2-FirmTicker'# get the data as a pandas DataFramedf = get_data_wo_double_clone(url)```***Easy as that!***</longdescription>
 </pkgmetadata>

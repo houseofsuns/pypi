@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CircRLTools for applying circuits-style interpretability techniques to RL agents.</longdescription>
+	<longdescription># CircRLA small library of mech interp tools, primarily focused oninterpreting RL policies (though most of the tools are general).The library has three main components:- **Hooks**: Tools for hooking into PyTorch models that provide  simple, safe wrappers around PyTorch forward hooks  functionality and allow easy caching, patching and arbitrary hook  functions.- **Probing**: Tools for training linear probes on model activations  (or any other data), including sparse probes.- **Rollouts**: Tools for running rollouts and collectiong various  kinds of data through a unified interface.## InstallationCircRL is available on PyPI, and can be installed with pip:```bashpip install circrl```## UsageA detailed, self-contained demo of CircRL is available in the[CircRL demo notebook](demo.ipynb).## LicenseCircRL is licensed under the MIT license.## CitationIf you use CircRL in your research, please cite according to:```bibtex@misc{circrl,  author    = {MacDiarmid, Monte},  title     = {CircRL},  year      = {2023},  url       = {https://github.com/montemac/circrl}}```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pyfilehandling is a Python package that provides functions and classes for handling file operations, including creating files and directories, reading and writing data, and more.</longdescription>
+	<longdescription># PyFileHandling[![Run-Tests](https://github.com/JeelDobariya38/PyFileHandling/actions/workflows/Run-Tests.yaml/badge.svg)](https://github.com/JeelDobariya38/PyFileHandling/actions/workflows/Run-Tests.yaml)## OverviewPyFileHandling is a Python package that provides file handling capabilities and offers various functions for file manipulation operations.## InstallationYou can install PyFileHandling using pip:```shellpip install pyfilehandling```## ContributingContributions are welcome! To contribute to PyFileHandling, please read the [Contribution Guidelines](CONTRIBUTING.md).## Code of ConductWe strive to maintain a positive and inclusive community. We encourage everyone participating in PyFileHandling to read the [Code of Conduct](CODE_OF_CONDUCT.md).## LicenseBy contributing to `PyFileHandling`, you agree that your contributions will be licensed under the [MIT License](LICENSE.txt). Make sure you understand and agree with this before submitting your contributions.</longdescription>
 </pkgmetadata>

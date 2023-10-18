@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Q-CTRLThe Q-CTRL Python package provides an intuitive and convenient Python interfaceto Q-CTRL's quantum control solutions for users of Boulder Opal. Boulder Opalis a versatile Python toolset that provides everything a research team needs toautomate and improve the performance of hardware for quantum computing andquantum sensing.See how you can [get started with BoulderOpal](https://docs.q-ctrl.com/boulder-opal/get-started) today.</longdescription>
+	<longdescription># Q-CTRLThe Q-CTRL Python package provides an intuitive and convenient Python interfaceto Q-CTRL's quantum control solutions for users of Boulder Opal. Boulder Opalis a versatile Python toolset that provides everything a research team needs toautomate and improve the performance of hardware for quantum computing andquantum sensing.See how you can [get started with BoulderOpal](https://docs.q-ctrl.com/boulder-opal/legacy/get-started) today.</longdescription>
 </pkgmetadata>

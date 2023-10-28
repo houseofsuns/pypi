@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>predicting with the book of changes.</longdescription>
+	<longdescription>Quick installation::  pip install ichingQuick Start::  from iching import iching    iching.predict(19850927, 20180119)</longdescription>
 </pkgmetadata>

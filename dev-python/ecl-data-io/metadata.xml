@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>ecl-data-io===========[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)[![docs](https://readthedocs.org/projects/ecl-data-io/badge/?version=latest&amp;style=plastic)](https://ecl-data-io.readthedocs.io/)Parser for the ecl output format, such as found in files withextensions .UNRST, .EGRID, .INIT, etc. and also the correspondingascii files with extension .FUNRST, .FEGRID, .FINIT, etc.Installation============ecl-data-io can be installed with pip:```bashpip install ecl-data-io```Getting started===============Ecl output files consist of a sequence of named arrays. ecl-data-io does notinterpret the names, but simply give you a tuple of the name and a numpy arraywith the read function:```import ecl_data_io as ecliofor kw, arr in eclio.read(&quot;my_grid.egrid&quot;):    print(kw)&gt;&gt;&gt; &quot;FILEHEAD&quot;&gt;&gt;&gt; &quot;GRIDHEAD&quot;&gt;&gt;&gt; &quot;COORD&quot;&gt;&gt;&gt; &quot;ZCORN&quot;&gt;&gt;&gt; &quot;ACTNUM&quot;&gt;&gt;&gt; &quot;MAPAXES&quot;```For more information, see [the docs](http://ecl-data-io.rtfd.io).</longdescription>
+	<longdescription>ecl-data-io has been renamed to [resfo](https://github.com/equinor/resfo)</longdescription>
 </pkgmetadata>

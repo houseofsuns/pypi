@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. image:: https://github.com/dfm/python-fsps/workflows/Tests/badge.svg  :target: https://github.com/dfm/python-fsps/actions?query=workflow%3ATests**Read the documentation:**`dfm.io/python-fsps &lt;https://dfm.io/python-fsps&gt;`_If you use this code, follow the citation requirements `on the FSPShomepage &lt;https://github.com/cconroy20/fsps&gt;`_ and referencethese Python bindings:.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.591505.svg   :target: https://doi.org/10.5281/zenodo.591505</longdescription>
+	<longdescription>.. image:: https://github.com/dfm/python-fsps/workflows/Tests/badge.svg  :target: https://github.com/dfm/python-fsps/actions?query=workflow%3ATests**Read the documentation:**`python-fsps.readthedocs.io &lt;https://python-fsps.readthedocs.io&gt;`_If you use this code, follow the citation requirements `on the FSPShomepage &lt;https://github.com/cconroy20/fsps&gt;`_ and referencethese Python bindings:.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.591505.svg   :target: https://doi.org/10.5281/zenodo.591505</longdescription>
 </pkgmetadata>

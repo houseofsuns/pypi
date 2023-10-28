@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription>Deep-learning based tool for clustering genomic sequences</longdescription>
 </pkgmetadata>

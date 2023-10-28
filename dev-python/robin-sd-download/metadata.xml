@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># robin-sd-downloadA package to download files to the Robin Radar API.## Installationpip install robin-sd-download## Usagerobin-sd-download --help</longdescription>
+	<longdescription># Python package to download via SD API. (robin-sd-download)A package to download files to the Robin Radar API.## InstallationMake sure you have Python 3.6 or higher, and pip installed.Install the package with:```bashpip install robin-sd-download```## UsageThe package can be used as a command line tool, or as a Python package.```bashrobin-sd-download --help```Use the documentation to find out how to use the package.## DevelopmentUse the Vagrantfile to create a development environment, and run the tests.Select the VM you want to use, and run the following commands:```bashvagrant up vm1/2/3vagrant sshcd /vagrant```</longdescription>
 </pkgmetadata>

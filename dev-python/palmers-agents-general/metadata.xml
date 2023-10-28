@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>python -m buildtwine upload dist/*</longdescription>
+	<longdescription>streamtwine upload dist/*</longdescription>
 </pkgmetadata>

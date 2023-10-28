@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># coveo-testing-extrasContains extra testing tools without dependency restrictions.## temporary resource implementation: Docker ContainerThe docker container temporary resource can be used to prepare short-lived containers.- Supports building from a dockerfile- Supports pulling images- Can signal on AWS ECR logout- Dynamic port mapping retrieval- Saves log output before removing the container### Automatic AWS ECR login exampleHere's how you can enhance `TemporaryDockerContainerResource` with automatic ECR login:```pythonfrom base64 import b64decodeimport boto3from coveo_testing_extras.temporary_resource.docker_container import (    TemporaryDockerContainerResource,     ECRLogoutException,    get_docker_client)class WithECR(TemporaryDockerContainerResource):    def obtain_image(self) -&gt; None:        try:            super().obtain_image()        except ECRLogoutException:            self._do_ecr_login()            super().obtain_image()    def _do_ecr_login(self) -&gt; None:        &quot;&quot;&quot; Performs an ecr login through awscli. &quot;&quot;&quot;        assert self.ecr_region        ecr = boto3.client('ecr')        account_id, *_ = self.image_name.split('.')        assert account_id.isdigit()        authorization_data = ecr.get_authorization_token(registryIds=[account_id])['authorizationData'][0]        username, password = b64decode(authorization_data['authorizationToken']).decode().split(':')        with get_docker_client() as client:            login = client.login(username=username, password=password, registry=authorization_data['proxyEndpoint'])        assert login['Status'] == 'Login Succeeded'```</longdescription>
+</pkgmetadata>

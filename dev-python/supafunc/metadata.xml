@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription># Functions-py## Installation`pip3 install supafunc`## UsageDeploy your function as per documentation.```python3import asynciofrom supafunc import AsyncFunctionsClientasync def run_func():    fc = AsyncFunctionsClient(&quot;https://&lt;project_ref&gt;.functions.supabase.co&quot;, {})    res = await fc.invoke(&quot;payment-sheet&quot;, {&quot;responseType&quot;: &quot;json&quot;})if __name__ == &quot;__main__&quot;:    asyncio.run(run_func())```</longdescription>
 </pkgmetadata>

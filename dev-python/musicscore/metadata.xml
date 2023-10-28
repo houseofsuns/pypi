@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription>musicscore==========Tested with python 3.9, 3.10 and 3.11**musicscore** is a python library for generating musicxml data in an intuitive and easy but nevertheless exhaustive way. The generatedfiles can be imported in several music notation programs and be processed further if necessary. The preferred software is Finale whichseems at the moment to have the best implementation of musicxml format files and supports version 4.0.For documentation see: `&lt;https://musicscore.readthedocs.io&gt;`_The project can be found on GitHub under: `&lt;https://github.com/alexgorji/musicscore&gt;`_**musicscore** can be installed via pip:.. code-block:: console    (.venv) $ pip install musicscore**musicxml** can also be found in a separate repository under: `&lt;https://github.com/alexgorji/musicxml&gt;` and be installed via pip:.. code-block:: console    (.venv) $ pip install musicxml</longdescription>
 </pkgmetadata>

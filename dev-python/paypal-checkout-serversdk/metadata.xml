@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python Rest SDK for PayPal Checkout</longdescription>
+	<longdescription>Deprecated</longdescription>
 </pkgmetadata>

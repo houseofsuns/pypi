@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># 修改点:1. fix bugs: get_device_list(timeout: int) return empty</longdescription>
+	<longdescription># AlphaMini PythonSDKDocuments: &lt;br/&gt;[Chinese](http://docs.ubtrobot.com/alphamini/python-sdk/index.html)&lt;br/&gt;[English](http://docs.ubtrobot.com/alphamini/python-sdk-en/index.html)</longdescription>
 </pkgmetadata>

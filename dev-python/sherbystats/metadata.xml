@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python for GCB140 and GCH711:        anova    doe    mlr    normplot    xlsread</longdescription>
+	<longdescription>Python for GCH711:        anova    binaire    binaire3D    doe    mlr    normplot    ernaire    xlsread</longdescription>
 </pkgmetadata>

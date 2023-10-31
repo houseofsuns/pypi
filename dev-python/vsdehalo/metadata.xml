@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># vs-dehaloCollection of dehaloing VapourSynth functions## How to use```pyfrom vsdehalo import fine_dehalosrc = ...dehaloed = fine_dehalo(src)```## How to installInstall `vsdehalo` with the following command:```sh$ pip install vsdehalo```Or if you want the latest git version, install it with this command:```sh$ pip install git+https://github.com/Irrational-Encoding-Wizardry/vs-dehalo.git```&lt;br&gt;</longdescription>
+	<longdescription># vs-dehaloCollection of dehaloing VapourSynth functions## How to use```pyfrom vsdehalo import fine_dehalosrc = ...dehaloed = fine_dehalo(src)```## How to installInstall `vsdehalo` with the following command:```shpip install vsdehalo```Or if you want the latest git version, install it with this command:```shpip install git+https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git```&lt;br&gt;</longdescription>
 </pkgmetadata>

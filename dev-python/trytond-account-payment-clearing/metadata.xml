@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Account Payment Clearing Module###############################The account_payment_clearing module allows to generate account move when apayment is succeeded between the receivable/payable account to a clearingaccount defined on the payment journal.The clearing account will be used for statement lines which are linked to suchpayment.If a delay is configured on journal for posting, a scheduled task will postautomatically clearing moves after this delay.</longdescription>
+	<longdescription>###############################Account Payment Clearing Module###############################The *Account Payment Clearing Module* allows to generate account move when apayment is succeeded between the receivable/payable account to a clearingaccount defined on the payment journal.</longdescription>
 </pkgmetadata>

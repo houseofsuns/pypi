@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># vs-rgtoolsWrapper for RGVS, RGSF, and various other functions#### Dependencies- [vstools](https://github.com/Irrational-Encoding-Wizardry/vstools/)- [RGVS](https://github.com/vapoursynth/vs-removegrain)- [RGSF](https://github.com/IFeelBloated/RGSF)- [Akarin Expr](https://github.com/AkarinVS/vapoursynth-plugin)</longdescription>
+	<longdescription># vs-rgtoolsWrapper for RGVS, RGSF, and various other functions#### Dependencies- [vstools](https://github.com/Jaded-Encoding-Thaumaturgy/vstools/)- [RGVS](https://github.com/vapoursynth/vs-removegrain)- [RGSF](https://github.com/IFeelBloated/RGSF)- [Akarin Expr](https://github.com/AkarinVS/vapoursynth-plugin)</longdescription>
 </pkgmetadata>

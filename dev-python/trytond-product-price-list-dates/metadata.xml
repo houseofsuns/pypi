@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Product Price List Dates Module###############################The product_price_list_dates module adds *Start Date* and *End Date* conditionsto the *Price List Lines*.</longdescription>
+	<longdescription>Product Price List Dates Module###############################The *Product Price List Dates Module* adds date range condition to the pricelist lines.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Account French Chorus Module############################The account_fr_chorus module allows to send invoices through the `Chorus Pro&lt;https://chorus-pro.gouv.fr/&gt;`_ portal.If the party is checked for Chorus Pro, all posted customer invoices are queued to be sent.A cron job will send them every 15 minutes by default using the credential fromthe accounting configuration.Configuration*************The account_fr_chorus module uses the section ``account_fr_chorus`` to retrievethe path of the SSL certificates.- ``certificate``: the path to the SSL certificate.- ``privatekey``: the path to the SSL private key... warning::    The private key must be unencrypted...</longdescription>
+	<longdescription>############################Account French Chorus Module############################The *Account French Chorus Module* allows to send invoices through the `ChorusPro &lt;https://chorus-pro.gouv.fr/&gt;`_ portal.</longdescription>
 </pkgmetadata>

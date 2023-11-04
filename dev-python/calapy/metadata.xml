@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CalaPyCalaPy is an undocumented python library that Dr Carmelo Calafioredeveloped for personal use. It is a collection of many python functions that Dr Carmelo tends to use in differentprojects.In previous versions from 0.0.0 to 0.0.60, its name was ccalafiore.## ContactsDr Carmelo CalafioreUniversity of EssexColchester, UK[dr.carmelo.calafiore@gmail.com](mailto:dr.carmelo.calafiore@gmail.com)[LinkedIn](https://www.linkedin.com/in/carmelo-calafiore-a07120269)[GitHub](https://github.com/ccalafiore)</longdescription>
+	<longdescription># CalaPyCalaPy is an undocumented python library that Dr Carmelo Calafiore developed for personal use. It is a collection ofmany python functions that Dr Carmelo tends to use in different projects.In previous versions from 0.0.0 to 0.0.60, the name of this package was ccalafiore.You can install CalaPy by pip as:```pip install calapy```## ContactsDr Carmelo CalafioreNewcastle UniversityNewcastle, UK[carmelo.calafiore@newcastle.ac.uk](mailto:carmelo.calafiore@newcastle.ac.uk)[LinkedIn](https://www.linkedin.com/in/carmelo-calafiore-a07120269)[GitHub](https://github.com/ccalafiore)</longdescription>
 </pkgmetadata>

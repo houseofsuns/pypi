@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>CBMPy: https://github.com/SystemsBioinformatics/cbmpy is a platform for constraint based modelling and analysis. CBMPy implements popular analyses such as FBA, FVA, element/charge balancing, network analysis and model editing as well as advanced methods.</longdescription>
+	<longdescription>CBMPy: https://systemsbioinformatics.github.io/cbmpy/ is a platform for constraint based modelling. It implements popular FBA analyses, model editing and supports the latest SBML3FBC standards.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pulp_file=========.. figure:: https://github.com/pulp/pulp_file/actions/workflows/nightly.yml/badge.svg?branch=main   :alt: File Nightly CI/CDA Pulp plugin to support hosting arbitrary files.For more information, please see the `documentation &lt;https://docs.pulpproject.org/pulp_file/&gt;`_or the `Pulp project page &lt;https://pulpproject.org&gt;`_.</longdescription>
+	<longdescription>pulp_file=========.. warning:: This pulp plugin has been merged into the main pulpcore project.   This repository can only accept bugfixes on release branches... figure:: https://github.com/pulp/pulp_file/actions/workflows/nightly.yml/badge.svg?branch=main   :alt: File Nightly CI/CDA Pulp plugin to support hosting arbitrary files.For more information, please see the `documentation &lt;https://docs.pulpproject.org/pulp_file/&gt;`_or the `Pulp project page &lt;https://pulpproject.org&gt;`_.</longdescription>
 </pkgmetadata>

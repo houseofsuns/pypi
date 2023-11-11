@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># py-randomprimePython 3.6+ bindings for aprilwade's randomprime.Currently using toasterparty's fork.</longdescription>
+	<longdescription># py-randomprimePython 3.8+ bindings for aprilwade's randomprime.Currently using toasterparty's fork.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># podping-schemas-python</longdescription>
+	<longdescription># podping-schemas-pythonPython schema files for Podping</longdescription>
 </pkgmetadata>

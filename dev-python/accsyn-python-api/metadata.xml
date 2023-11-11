@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># accsyn-python-apiOfficial accsyn fast film delivery Python APIComplete Python API reference can be found [here](https://support.accsyn.com/python-api).Changelog:----------See doc/release_notes.rstHenrik Norin, HDR AB, 2022accsyn(r) - secure data delivery and workflow synchttps://accsyn.com https://support.accsyn.com</longdescription>
+	<longdescription># accsyn-python-apiOfficial accsyn fast film delivery Python APIComplete Python API reference can be found [here](https://support.accsyn.com/python-api).Changelog:----------See doc/release_notes.rstDocumentation:--------------[https://accsyn-python-api.readthedocs.io/en/latest](https://accsyn-python-api.readthedocs.io/en/latest)Building:---------To build the documentation locally, run:```    cd doc    pip install -r requirements.txt    python -m sphinx -T -E -b html -d _build/doctrees -D language=en . ../dist/doc```Henrik Norin, HDR AB, 2023accsyn(r) - secure data delivery and workflow synchttps://accsyn.com https://support.accsyn.com</longdescription>
 </pkgmetadata>

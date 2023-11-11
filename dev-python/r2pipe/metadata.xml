@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription/>
+	<longdescription># r2pipe for PythonInteract with radare2 using the #!pipe command or in standalone scriptsthat communicate with local or remote r2 via pipe, tcp or http.## Installation```$ pip install r2pipe```or```$ pip3 install r2pipe```## Usage example:```pythonimport r2piper2 = r2pipe.open(&quot;/bin/ls&quot;)r2.cmd('aa')print(r2.cmd(&quot;afl&quot;))print(r2.cmdj(&quot;aflj&quot;))            # evaluates JSONs and returns an objectprint(r2.cmdj(&quot;ij&quot;).core.format)  # shows file formatr2.quit()```</longdescription>
 </pkgmetadata>

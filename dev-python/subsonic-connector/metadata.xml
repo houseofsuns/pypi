@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># Subsonic Connector## ReferenceThis library relies on the [py-sonic](https://github.com/crustymonkey/py-sonic) project.  The current version I use in this project is [`1.0.0`](https://github.com/crustymonkey/py-sonic/releases/tag/0.8.0).## StatusThis software is in its early development phase.## LinksType|Link:---|:---Source Code|[GitHub](https://github.com/GioF71/subsonic-connector)Python Library|[PiPy](https://pypi.org/project/subsonic-connector/)## InstructionsCreate your own `.env` file. Use `.sample.env` as a reference for the format of the file.### InitializationFrom a terminal, type```textpoetry shellpoetry install```#### Test executionThen you can run the simple test using the following command:```textpython subsonic_connector/test-cn.py```Make sure to load the variables specified in the `.env` file.  The test is currently just a `main` and it requires a running subsonic server. I am currently using [Navidrome](https://github.com/navidrome/navidrome).</longdescription>
+</pkgmetadata>

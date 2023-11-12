@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python library for interfacing with ZhongHong HVAC controller</longdescription>
+	<longdescription># ZhongHongHVACPython driver for ZhongHong HVAC Controller</longdescription>
 </pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># CMeel SIMDe[![PyPI version](https://badge.fury.io/py/cmeel-simde.svg)](https://pypi.org/project/cmeel-simde)This is adding [SIMDe](https://github.com/simd-everywhere/simde) as a CMake &quot;external project&quot; to be exported as a wheel by cmeel.</longdescription>
+</pkgmetadata>

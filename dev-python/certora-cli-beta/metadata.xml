@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Commit 24e24ae.                    Build and Run scripts for executing the Certora Prover on Solidity smart contracts.</longdescription>
+	<longdescription>Commit f4fecb0.                    Build and Run scripts for executing the Certora Prover on Solidity smart contracts.</longdescription>
 </pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@houseofsuns.org</email>
+		<name>Markus Walter</name>
+	</maintainer>
+	<longdescription># pitertoolsTools to process python iterators in parallel.## map_parallelConcurrently run computation on iterator, respecting backpressure.## Roadmap- Add automated testing, publishing- Add more tests - Add some linter, static type checking- Allow running on Process pool executor</longdescription>
+</pkgmetadata>

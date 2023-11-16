@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Testing### CouchDBhttp://localhost:5984/_utils/#- user: admin- passwd: pytest</longdescription>
+	<longdescription># Testing### CouchDBhttp://localhost:5984/_utils/#- user: admin- passwd: pytest## Initialization### Automatic initialization from environment```pythoninit_backend()```### Manual initializationExample for MongoDB with alias.If missing, the default for alias is _&quot;default&quot;_```pythonMongoDbBackend(alias=&quot;people&quot;)client = Backend.client(alias=&quot;people&quot;)```## Pagination### Usage with routers```python        @router.get(&quot;/people&quot;)@pagination()def people_get():    return Backend.client().get_instances(PeopleModel)```### Custom usage in code```python        pagination_params = PaginationParameterModelwith pagination_provider(pagination_params) as p:    Backend.client().get_instances(PeopleModel)``````python        pagination_params = PaginationParameterModelwith pagination_provider(pagination_params) as p:    Backend.client().get_instances(PeopleModel)pagination_params = PaginationParameterModelwith pagination_parameter_provider(pagination_params):    objs, max_results = Backend.client().pagination_aggregate(agg)    return pagination_result((objs, max_results))```</longdescription>
 </pkgmetadata>

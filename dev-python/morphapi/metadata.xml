@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># morphapi## OverviewMorphapi is a lightweight python package for downloading neuronsmorphological reconstructions from publicly available datasets. Check out the [official documentation](https://docs.brainglobe.info/morphapi/morphapi)## ContributingContributions to morphapi are more than welcome. Please see the [contributing guide](https://github.com/brainglobe/.github/blob/main/CONTRIBUTING.md).</longdescription>
+	<longdescription># morphapi## OverviewMorphapi is a lightweight python package for downloading neuronsmorphological reconstructions from publicly available datasets. Please see the [documentation](https://brainglobe.info/documentation/morphapi/index.html)## ContributingContributions to morphapi are more than welcome. Please see the [developers guide](https://brainglobe.info/developers/index.html).</longdescription>
 </pkgmetadata>

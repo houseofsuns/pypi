@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Example PackageThis is a simple example package</longdescription>
+	<longdescription>**0.3.3更新**1 增加了请求参数类型自动识别2 增加了curl的请求参数对比**当前功能**1 将curl数据转换为普通代码，类代码和线程池代码2 可以将请求的数据进行格式化，请求参数可以直接是字符串3 优化了请求的响应体对象</longdescription>
 </pkgmetadata>

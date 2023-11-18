@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>==========*pygitpub*==========.. image:: https://img.shields.io/pypi/v/pygitpub.. image:: https://img.shields.io/github/license/veltzer/pygitpub.. image:: https://img.shields.io/badge/code%20style-black-000000.svgproject website: https://veltzer.github.io/pygitpubauthor: Mark Veltzerversion: 0.0.47Mark Veltzer &lt;mark.veltzer@gmail.com&gt;, Copyright © 2022, 2023</longdescription>
+	<longdescription>==========*pygitpub*==========.. image:: https://img.shields.io/pypi/v/pygitpub.. image:: https://img.shields.io/github/license/veltzer/pygitpub.. image:: https://img.shields.io/badge/code%20style-black-000000.svgproject website: https://veltzer.github.io/pygitpubauthor: Mark Veltzerversion: 0.0.51Mark Veltzer &lt;mark.veltzer@gmail.com&gt;, Copyright © 2022, 2023</longdescription>
 </pkgmetadata>

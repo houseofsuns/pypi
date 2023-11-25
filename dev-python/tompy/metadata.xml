@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># tompyPython Time Series Library# Install## conda```conda create -n tompy python=3.10conda activate tompypip install flit```## code```cd PATH_TO_CODEflit install```## run```cd PATH_TO_RUNconda activate tompy```</longdescription>
+	<longdescription># tompyPython Time Series Library# Install## conda```conda create -n tompy python=3.12conda activate tompypip install flit```## code```cd PATH_TO_CODEflit install --deps production```## run```cd PATH_TO_RUNconda activate tompy```</longdescription>
 </pkgmetadata>

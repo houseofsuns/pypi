@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## candid-python: A [Candid Health](https://joincandidhealth.com) Python client[![PyPI](https://img.shields.io/pypi/v/candidhealth)](https://pypi.org/project/candidhealth/)### Installation```bashpip install candidhealth   # or poetry install, etc.```</longdescription>
+	<longdescription>## candid-python: A [Candid Health](https://joincandidhealth.com) Python client[![PyPI](https://img.shields.io/pypi/v/candidhealth)](https://pypi.org/project/candidhealth/)[![fern shield](https://img.shields.io/badge/%F0%9F%8C%BF-SDK%20generated%20by%20Fern-brightgreen)](https://buildwithfern.com/?utm_source=candidhealth/candid-python/readme)### Installation```bashpip install candidhealth   # or poetry install, etc.```</longdescription>
 </pkgmetadata>

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMunin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Module for developing Munin Multigraph Monitoring Plugins."
 
 HOMEPAGE="http://aouyar.github.com/PyMunin"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/52/b9/2e34f201b8a9c43d4b9d763fd0b7613a5239607c4e15d9cc54ebbbd558e4/PyMunin-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMunin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

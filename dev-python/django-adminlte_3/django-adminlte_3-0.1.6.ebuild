@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="django-adminlte-3"
+LITERALNAME="django-adminlte-3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

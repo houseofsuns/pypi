@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyQtGuiLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python version of the qt component library."
 
 HOMEPAGE="https://github.com/LX-sys/PyQtGuiLib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/74/a18ebe17ccbb5135cd012fb45799c4fb818a24342565d3f5cf45bbea6365/PyQtGuiLib-${REALVERSION}.tar.gz"
-SOURCEFILE="PyQtGuiLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

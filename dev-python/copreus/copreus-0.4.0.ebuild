@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Copreus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This library provides a framework to write device drivers for the r
 
 HOMEPAGE="https://gitlab.com/pelops/copreus/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/b0/ccb08a02bb9d29526d3e1f0541642dfcf5634369943fc74f844d3d0652b4/Copreus-${REALVERSION}.tar.gz"
-SOURCEFILE="Copreus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Fabric3"
 REALVERSION="1.14.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fabric is a simple, Pythonic tool for remote execution and deployme
 
 HOMEPAGE="https://github.com/mathiasertl/fabric/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/24/ce/05901538f2112f48b78e1e0db0e9c8fff874ca3aa989faa4c8dfe6e6b796/Fabric3-${REALVERSION}.tar.gz"
-SOURCEFILE="Fabric3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

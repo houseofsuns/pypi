@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EBNFParser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="very powerful and optional parser framework for python"
 
 HOMEPAGE="https://github.com/thautwarm/EBNFParser"
 LICENSE="GPLv3.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/be/8f/20f95952ef50550654dd93e5fa9062a03dc673a7da827af25c4b35611f0e/EBNFParser-${REALVERSION}.tar.gz"
-SOURCEFILE="EBNFParser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

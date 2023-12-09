@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepNN"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="深度学习工具类"
 
 HOMEPAGE="https://github.com/Jie-Yuan/DeepNN"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/eb/f5/3aba8249bf21caa8da759ace428074500f8390a27f3cbcb748317cea08c5/DeepNN-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepNN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

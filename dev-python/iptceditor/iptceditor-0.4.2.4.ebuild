@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IptcEditor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python3 GTK3 wrapper for EXIV2, which is used to read and edit imag
 
 HOMEPAGE="https://www.zaziork.com"
 LICENSE="GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/d6/12/e6a604347bfe4e9bd8b046ae2286b6889b7171c4587b2ae3a2f301eeb826/IptcEditor-${REALVERSION}.tar.gz"
-SOURCEFILE="IptcEditor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MJOLNIR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Neutron Scattering software suite."
 
 HOMEPAGE="https://github.com/jakob-lass/MJOLNIR"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c6/b0/aa9ef0404e9d9b5aaab3936ee5bf6365304a12a0cc55d43004c6e05f34c1/MJOLNIR-${REALVERSION}.tar.gz"
-SOURCEFILE="MJOLNIR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

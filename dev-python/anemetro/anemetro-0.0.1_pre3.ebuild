@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AneMetro"
 REALVERSION="0.0.1.dev3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Static site generator using MeetUp as data source."
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/22/bc/c5ae288516f035f6e3adcd493e0187cdd1017b0905b2acb75a7396018c0f/AneMetro-${REALVERSION}.zip"
-SOURCEFILE="AneMetro-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

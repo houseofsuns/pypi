@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Access-Modify"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python module which includes private, or protected class methods fo
 
 HOMEPAGE="https://github.com/pl-Steve28-lq/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/a1/a134faf66b9492add3fd05666634d740f8557da43debc64b63fbf1d4e0d5/Access-Modify-${REALVERSION}.tar.gz"
-SOURCEFILE="Access-Modify-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

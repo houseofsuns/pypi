@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="recOrder-napari"
 REALVERSION="0.4.2rc0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Computational microscopy toolkit for label-free imaging"
 
 HOMEPAGE="https://github.com/mehta-lab/recOrder"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/62/e0/4ce785e663976c7501fbf407c1e64b615fdc659164ecf425a8b17beef020/recOrder-napari-${REALVERSION}.tar.gz"
-SOURCEFILE="recOrder-napari-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

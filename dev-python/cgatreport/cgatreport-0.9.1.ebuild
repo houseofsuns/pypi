@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CGATReport"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CGATReport : a report generator in python based on sphinx"
 
 HOMEPAGE="https://github.com/AndreasHeger/CGATReport/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/8e/6342c5688bb24fb49371445ae8607bf27988ff20a539998b1fc5aa45cfc6/CGATReport-${REALVERSION}.tar.gz"
-SOURCEFILE="CGATReport-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

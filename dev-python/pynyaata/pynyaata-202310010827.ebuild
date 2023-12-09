@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyNyaaTa"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="π 😼た, Xéfir's personal animes torrent search engine"
 
 HOMEPAGE="https://git.crystalyx.net/Xefir/PyNyaaTa"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/80/47/d9e413266214e7ddc2963ae80e716ecd726d16954559953a39d07f237d1b/PyNyaaTa-${REALVERSION}.tar.gz"
-SOURCEFILE="PyNyaaTa-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

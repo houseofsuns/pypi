@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Django-Persistent-Message"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Django-Persistent-Message"
 
 HOMEPAGE="https://github.com/uw-it-aca/django-persistent-message"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/16/c0/c257381b3f466bc44bbe83c822dd18cb864d9584b7aa207372d2eddec59b/Django-Persistent-Message-${REALVERSION}.tar.gz"
-SOURCEFILE="Django-Persistent-Message-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

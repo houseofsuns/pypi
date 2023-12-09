@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GeoAlchemy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Using SQLAlchemy with Spatial Databases"
 
 HOMEPAGE="http://geoalchemy.org/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/50/a1/a1b6bdc9e9d2cf3f1d44a86265f6405dc9412f1306d6b59df5cef5f7b4e2/GeoAlchemy-${REALVERSION}.tar.gz"
-SOURCEFILE="GeoAlchemy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

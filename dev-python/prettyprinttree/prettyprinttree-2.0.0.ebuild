@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PrettyPrintTree"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tool to print trees to the console"
 
 HOMEPAGE="https://github.com/AharonSambol/PrettyPrintTree"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/8f/a0999cada8db0d23c4b4b32ffb79a5ce9bcbb5f45447728b2ee19936b730/PrettyPrintTree-${REALVERSION}.tar.gz"
-SOURCEFILE="PrettyPrintTree-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ISY994-Homie4-Bridge"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Homie 4 for Universal Devices ISY994"
 
 HOMEPAGE="https://github.com/mjcumming/ISY-Homie-Bridge"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/71/d76ec2660e13c88bda7174e73fe42b605cab52c2eca79d2113fc65fabd41/ISY994-Homie4-Bridge-${REALVERSION}.tar.gz"
-SOURCEFILE="ISY994-Homie4-Bridge-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

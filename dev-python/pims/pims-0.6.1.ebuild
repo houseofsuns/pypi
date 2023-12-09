@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PIMS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Image Sequence"
 
 HOMEPAGE="https://github.com/soft-matter/pims"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a8/aa/5f779c3c4a471a0b6f8b641d41758b286a451e8fd9e777a52d075c6bf551/PIMS-${REALVERSION}.tar.gz"
-SOURCEFILE="PIMS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

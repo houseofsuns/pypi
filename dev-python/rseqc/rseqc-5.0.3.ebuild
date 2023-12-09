@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RSeQC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="RNA-seq QC Package"
 
 HOMEPAGE="http://rseqc.sourceforge.net/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/a0/49c6c15dd12c6219ea33d2286ec8ed7b77e793d3e817efab00bfd711dd85/RSeQC-${REALVERSION}.tar.gz"
-SOURCEFILE="RSeQC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

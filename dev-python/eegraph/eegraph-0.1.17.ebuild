@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EEGRAPH"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/ufvceiec/EEGRAPH"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8d/a0/0790037005b1bedd6dde5df2ad04bc9f82a7ceafd34e515ed1beba722895/EEGRAPH-${REALVERSION}.tar.gz"
-SOURCEFILE="EEGRAPH-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

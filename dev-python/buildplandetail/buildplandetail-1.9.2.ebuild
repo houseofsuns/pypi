@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BuildPlanDetail"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="获取代码改动的文件和方法"
 
 HOMEPAGE="https://github.com/vfrtgb158/email"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/35/be/27a9ea0f73c2341ee7fab1500abd9f01d2a3de8b2ad2789a57826290b78c/BuildPlanDetail-${REALVERSION}.tar.gz"
-SOURCEFILE="BuildPlanDetail-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

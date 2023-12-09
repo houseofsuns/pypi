@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pySFeel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An implementation of S-FEEL using SLY (lex and yacc for Python3)"
 
 HOMEPAGE="https://github.com/russellmcdonell/pySFeel"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fb/29/9981607acf7b0b90599690dfeec7cb70e621287f92f0a313879eb5c6f486/pySFeel-${REALVERSION}.tar.gz"
-SOURCEFILE="pySFeel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

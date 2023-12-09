@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyRDDLGym"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="pyRDDLGym: RDDL automatic generation tool for OpenAI Gym"
 
 HOMEPAGE="https://github.com/ataitler/pyRDDLGym"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/d3/cd0f012486809cf89315feddf799a096dd2148fb0bc57a8ba45e97987328/pyRDDLGym-${REALVERSION}.tar.gz"
-SOURCEFILE="pyRDDLGym-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

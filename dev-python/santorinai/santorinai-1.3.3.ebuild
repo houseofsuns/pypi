@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SantorinAI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library for the Santorini board game"
 
 HOMEPAGE="https://github.com/tomansion/santorinai"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/01/bb/d5bfc30c0ae25c98a2eaef31fae2fc915b3d1ef09a2463117ed424356220/SantorinAI-${REALVERSION}.tar.gz"
-SOURCEFILE="SantorinAI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

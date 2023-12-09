@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SecondaryCoolantProps"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A collection of secondary coolant fluid property functions and clas
 
 HOMEPAGE="https://github.com/mitchute/SecondaryCoolantProps"
 LICENSE="BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/fb/53/2346429512b88c6886d35d3743caa819ecb7323ca7ac7487681a540efce5/SecondaryCoolantProps-${REALVERSION}.tar.gz"
-SOURCEFILE="SecondaryCoolantProps-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

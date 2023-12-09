@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyFluxconserving"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FluxConserving is a set of Fortran 2003+ legacy routines with Pytho
 
 HOMEPAGE="https://github.com/neutrinomuon/PyFluxconserving"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/14/4514ef6b1c19b0b34d05bc3c4bcb31bc00cc8d32bee34423298f1942120c/PyFluxconserving-${REALVERSION}.tar.gz"
-SOURCEFILE="PyFluxconserving-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

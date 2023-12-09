@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CndIO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools to manage In/Out file. Easy to add new class if you need to c
 
 HOMEPAGE="https://gitlab.com/changendevops/cnd-io"
 LICENSE="MIT/X11"
-SRC_URI="https://files.pythonhosted.org/packages/56/88/6b70b13b80e2fd77cca918d44165b2567ced8cd0a6faadcd040bd198b6b9/CndIO-${REALVERSION}.tar.gz"
-SOURCEFILE="CndIO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

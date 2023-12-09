@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="InvoiceGenerator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library to generate PDF invoice."
 
 HOMEPAGE="https://github.com/creckx/InvoiceGenerator"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/0f/d6/5bc21a11e649db54304d22c8b7c3c6496d9c5e59da22ef3d39d977790bbc/InvoiceGenerator-${REALVERSION}.tar.gz"
-SOURCEFILE="InvoiceGenerator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

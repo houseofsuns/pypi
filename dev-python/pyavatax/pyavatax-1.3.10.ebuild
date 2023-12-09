@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyAvaTax"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="http://github.com/activefrequency/pyavatax/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/45/ff/c4772768d7fb59faea4b6d5d9c39c553a1f9cd83cc3371ff09a77cdc4571/PyAvaTax-${REALVERSION}.tar.gz"
-SOURCEFILE="PyAvaTax-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

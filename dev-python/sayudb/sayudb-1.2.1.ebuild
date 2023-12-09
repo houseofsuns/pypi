@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="sayuDB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Database management system based on python and JSON."
 
 HOMEPAGE="https://github.com/Arsybai/sayuDB"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/3c/7b78a9aa3876c178efbd533c08a107869e47995d143b9c51c283b73aa764/sayuDB-${REALVERSION}.tar.gz"
-SOURCEFILE="sayuDB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

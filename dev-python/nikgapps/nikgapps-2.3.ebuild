@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NikGapps"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A short description of your project"
 
 HOMEPAGE="https://github.com/nikgapps/project"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/ac/4c9583453fa2f4443c18ab68d6b051672406dc94dfaf4dfb217ab1d3907c/NikGapps-${REALVERSION}.tar.gz"
-SOURCEFILE="NikGapps-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

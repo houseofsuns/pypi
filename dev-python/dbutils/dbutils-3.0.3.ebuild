@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DBUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Database connections for multi-threaded environments."
 
 HOMEPAGE="https://webwareforpython.github.io/DBUtils/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/5a/4660944f3d6854f617102e2e4c91240c74c4cc094444258e588c6de1e219/DBUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="DBUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

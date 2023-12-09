@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EcoNameTranslator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A lightweight but powerful package for full management and translat
 
 HOMEPAGE="https://github.com/Daniel-Davies/MedeinaTranslator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/6a/89694fa60516b943c044bd4865f3763f332d1c949bb56e4fd5b10d8ad063/EcoNameTranslator-${REALVERSION}.tar.gz"
-SOURCEFILE="EcoNameTranslator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

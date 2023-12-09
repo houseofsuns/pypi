@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMySQLLock"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MySQL Backed Locking Primitive"
 
 HOMEPAGE="https://github.com/sanketplus/PyMySQLLock"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/aa/71/68882e5c3601e3f2f62d53736e397338f58c8254b9419a21d7aa15a6a281/PyMySQLLock-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMySQLLock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

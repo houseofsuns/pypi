@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kivy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A software library for rapid development of hardware-accelerated mu
 
 HOMEPAGE="http://kivy.org"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/39/ed/d62cc0112107863899f88c5e59cd434082be6c3b1c423367ebf4e31c9c1a/Kivy-${REALVERSION}.tar.gz"
-SOURCEFILE="Kivy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

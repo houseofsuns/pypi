@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VapourSynth"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A frameserver for the 21st century"
 
 HOMEPAGE="https://www.vapoursynth.com/"
 LICENSE="LGPL 2.1 or later"
-SRC_URI="https://files.pythonhosted.org/packages/a8/19/c7415ee6d4483e9a46a48651c691ac7caa9255f66a5d1c74f7048c6fb017/VapourSynth-${REALVERSION}.zip"
-SOURCEFILE="VapourSynth-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

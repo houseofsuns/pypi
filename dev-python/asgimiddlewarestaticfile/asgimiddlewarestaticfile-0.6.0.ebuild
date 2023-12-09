@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ASGIMiddlewareStaticFile"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ASGI Middleware for serving Static File."
 
 HOMEPAGE="https://github.com/rexzhang/asgi-middleware-static-file"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/99/f5/4237fd24947bef549a1a701f166b7635d7d873d3a621ceec5b683fbfe445/ASGIMiddlewareStaticFile-${REALVERSION}.tar.gz"
-SOURCEFILE="ASGIMiddlewareStaticFile-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

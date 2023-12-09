@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="volumentations-3d"
+LITERALNAME="volumentations-3D"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for 3D augmentations"
 
 HOMEPAGE="https://github.com/ZFTurbo/volumentations"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/56/d9/48113201803e286566890d8bb8c1767bd77c4ea8d8d997cf3189efa7fa25/volumentations_3D-${REALVERSION}.tar.gz"
-SOURCEFILE="volumentations_3D-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

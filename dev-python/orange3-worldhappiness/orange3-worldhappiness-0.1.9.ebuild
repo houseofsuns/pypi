@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Orange3-WorldHappiness"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Orange3 add-on for retrieving socioeconomic data"
 
 HOMEPAGE="http://orange.biolab.si/download"
 LICENSE="GPL3+"
-SRC_URI="https://files.pythonhosted.org/packages/7b/db/1119af868329a5d12a4bddce483999e542cf4492bf5080747bc12589359a/Orange3-WorldHappiness-${REALVERSION}.tar.gz"
-SOURCEFILE="Orange3-WorldHappiness-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

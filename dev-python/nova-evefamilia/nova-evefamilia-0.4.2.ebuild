@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Nova-EveFamilia"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="WebApplication Framework"
 
 HOMEPAGE="https://github.com/Eve-Familia-Inc/Nova"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/93/f4/55dde1070e0af6919312fcf9faebc6959f7a68b3c0d54a85b859a7cc251a/Nova-EveFamilia-${REALVERSION}.tar.gz"
-SOURCEFILE="Nova-EveFamilia-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

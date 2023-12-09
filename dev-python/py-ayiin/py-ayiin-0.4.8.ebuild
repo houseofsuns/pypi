@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="py-Ayiin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Secure and Powerful Python-Telethon Based and Python-Pyrogram Bas
 
 HOMEPAGE="https://github.com/AyiinXd/AyiinXd"
 LICENSE="GNU General Public License v3.0 GPL-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/e5/04/01fef5b699efc04f2e30f3f1cd73d1ae60ba217f978fc3f2be036857ac62/py-Ayiin-${REALVERSION}.tar.gz"
-SOURCEFILE="py-Ayiin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

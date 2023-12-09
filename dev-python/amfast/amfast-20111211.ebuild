@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AmFast"
 REALVERSION="0.5.3-r541"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flash remoting framework. Includes support for NetConnection, Remot
 
 HOMEPAGE="http://code.google.com/p/amfast/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/f5/d1/fbd9e1a52ac91e3147a1a2cbaecdf23049ff0ddb910a2aff59a9413fa91e/AmFast-${REALVERSION}.tar.gz"
-SOURCEFILE="AmFast-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

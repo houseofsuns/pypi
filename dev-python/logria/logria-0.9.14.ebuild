@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Logria"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A powerful CLI tool that puts log analytics at your fingertips."
 
 HOMEPAGE="https://github.com/ReagentX/Logria-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0f/a1/a7ff1fd8aaddb631b077c87f8b707da2ba97496cf9c5d68dd33232245d4f/Logria-${REALVERSION}.tar.gz"
-SOURCEFILE="Logria-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

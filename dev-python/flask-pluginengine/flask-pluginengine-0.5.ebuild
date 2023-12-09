@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-PluginEngine"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple plugin system for Flask applications."
 
 HOMEPAGE="https://github.com/indico/flask-pluginengine"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f5/1a/4b8ac7071b973e7f9f664dea58ee42f9fbba3a33234eadfa139f140eb7ca/Flask-PluginEngine-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-PluginEngine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

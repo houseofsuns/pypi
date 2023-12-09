@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Python-Rest-Framework"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Rest Framework. Box utils for easy makes rest api on python"
 
 HOMEPAGE="https://github.com/nxexox/python-rest-framework"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d5/43/37cd5608e9057c541ee5b6a4e566ecdaa4b70e863887ef5ec453fc491e0a/Python-Rest-Framework-${REALVERSION}.tar.gz"
-SOURCEFILE="Python-Rest-Framework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyXB-X"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyXB-X (\"pixbix\") is a pure Python package that generates Python 
 
 HOMEPAGE="http://pyxb.sourceforge.net"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/67/99/b59aa3d3de26e5b446e89878a2019af9432f36a29577a8181a616c1a83ec/PyXB-X-${REALVERSION}.tar.gz"
-SOURCEFILE="PyXB-X-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

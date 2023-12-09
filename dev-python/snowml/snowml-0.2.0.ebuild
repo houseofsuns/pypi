@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SnowML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Openweb's ML utility package"
 
 HOMEPAGE="https://github.com/SpotIM/openweb-ml-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/7b/5df812ffc59a7924d5b0b313d6814af2da12aab893e67a9505f0716a12fe/SnowML-${REALVERSION}.tar.gz"
-SOURCEFILE="SnowML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

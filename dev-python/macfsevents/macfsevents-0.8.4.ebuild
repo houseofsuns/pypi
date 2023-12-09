@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MacFSEvents"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Thread-based interface to file system observation primitives."
 
 HOMEPAGE="https://github.com/malthe/macfsevents"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f3/80/0d780e46286819558305c3d698f0c700cba2af0b04e86840f528cc302802/MacFSEvents-${REALVERSION}.tar.gz"
-SOURCEFILE="MacFSEvents-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

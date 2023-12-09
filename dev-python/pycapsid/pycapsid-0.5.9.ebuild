@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyCapsid"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
@@ -15,8 +16,8 @@ DESCRIPTION="A set of computational tools written in python for the analysis of 
 
 HOMEPAGE="https://github.com/luquelab/pycapsid"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/bc/7926ee5eed165dbc1ac0ecec9e8599877f222cc5b6e6cbfdd6421a83a2e9/pyCapsid-${REALVERSION}.tar.gz"
-SOURCEFILE="pyCapsid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

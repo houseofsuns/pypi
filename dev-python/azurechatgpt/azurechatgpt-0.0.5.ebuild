@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="azureChatGPT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ChatGPT is a reverse engineering of Azure ChatGPT API"
 
 HOMEPAGE="https://github.com/EvAnhaodong/azureChatGPT"
 LICENSE="GNU General Public License v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3a/b2/77b237b746cbe03c42eb01a56309c0eb27a82c9b24804f951d38787d77f5/azureChatGPT-${REALVERSION}.tar.gz"
-SOURCEFILE="azureChatGPT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

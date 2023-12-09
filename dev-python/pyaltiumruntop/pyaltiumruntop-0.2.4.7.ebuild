@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyAltiumRunTop"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library that can run scripts in altium designer"
 
 HOMEPAGE="https://github.com/wqh0109663/PyAltiumRun"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/10/33/182bdb4ce23ef75e5b888aa123540eb545d450e3533716fdc742e895a614/PyAltiumRunTop-${REALVERSION}.tar.gz"
-SOURCEFILE="PyAltiumRunTop-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

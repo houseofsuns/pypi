@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TextFeatureSelection"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library for feature selection for text features. It has filt
 
 HOMEPAGE="https://github.com/StatguyUser/TextFeatureSelection"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/f4/91abcaa6e7cd47bb00fb9fd059215dfe3e5153ee1cb559b179404220b829/TextFeatureSelection-${REALVERSION}.tar.gz"
-SOURCEFILE="TextFeatureSelection-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CatLearn"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Machine Learning using atomic-scale calculations."
 
 HOMEPAGE="https://github.com/SUNCAT-Center/CatLearn"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/95/55/3e5590c4538afa710272a008eb31d6b925188553aadcb1e0bd6dca01aafa/CatLearn-${REALVERSION}.tar.gz"
-SOURCEFILE="CatLearn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

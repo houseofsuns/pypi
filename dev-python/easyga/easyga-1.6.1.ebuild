@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EasyGA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="EasyGA is a python package designed to provide an easy-to-use Genet
 
 HOMEPAGE="https://github.com/danielwilczak101/EasyGA"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/13/23/16e5a069cdd672bd07009a27b35c98d09cab1e7e1bbc5148a33fef14af98/EasyGA-${REALVERSION}.tar.gz"
-SOURCEFILE="EasyGA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

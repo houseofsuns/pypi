@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CAMSA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CAMSA: a tool for Comparative Analysis and Merging of Scaffold Asse
 
 HOMEPAGE="https://github.com/compbiol/camsa"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/96/d1222271f095132807bf7140f7b86be1a3d3366ebfaa4ddd8f5646b8e89d/CAMSA-${REALVERSION}.tar.gz"
-SOURCEFILE="CAMSA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

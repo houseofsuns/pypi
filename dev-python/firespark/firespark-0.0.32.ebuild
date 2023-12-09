@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FireSpark"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FireSpark data processing utility library"
 
 HOMEPAGE="https://elc-github.magna.global/Magna-Autonomous-Systems/FireSpark"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/26/06/b2466e8c01e47cdf9837506c60810cb6c325d07fcdf5e2d8e57840241b81/FireSpark-${REALVERSION}.tar.gz"
-SOURCEFILE="FireSpark-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

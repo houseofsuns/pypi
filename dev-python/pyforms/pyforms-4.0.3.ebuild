@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyForms"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pyforms is a Python framework to develop GUI applications based on 
 
 HOMEPAGE="https://github.com/UmSenhorQualquer/pyforms"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/48/0d22f607e3c6693b0474c5c176ad445d3d338e2c1574ef820ae128cb8f7c/PyForms-${REALVERSION}.tar.gz"
-SOURCEFILE="PyForms-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

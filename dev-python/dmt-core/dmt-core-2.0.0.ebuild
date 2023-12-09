@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DMT-core"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Device Modeling Toolkit Core"
 
 HOMEPAGE="https://gitlab.com/dmt-development/dmt"
 LICENSE="GNU GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/eb/46/42d3af93966cc58046148897507b4f77bc2feda09e01d72caa35ce41dbd9/DMT_core-${REALVERSION}.tar.gz"
-SOURCEFILE="DMT_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

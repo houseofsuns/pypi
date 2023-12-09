@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="StructNoSQL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Structured document based NoSQL client for DynamoDB with automatic 
 
 HOMEPAGE="https://github.com/Robinson04/StructNoSQL"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/ea/6a8687ed174a4063ea72006c6e48a5fed67c3ab9a7cd9ceb09da71c4dd22/StructNoSQL-${REALVERSION}.tar.gz"
-SOURCEFILE="StructNoSQL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

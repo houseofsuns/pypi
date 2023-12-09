@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HydroErr"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Goodness of fit metrics for use in comparison studies, specifically
 
 HOMEPAGE="https://github.com/BYU-Hydroinformatics/HydroErr"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/55/4f/b1e8912c765b6cbca90b713d689b94fa2bc18ed276f58c07d965108cda2a/HydroErr-${REALVERSION}.tar.gz"
-SOURCEFILE="HydroErr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

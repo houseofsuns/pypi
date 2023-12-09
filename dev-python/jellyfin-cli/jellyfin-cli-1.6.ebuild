@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Jellyfin-CLI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Jellyfin command line client."
 
 HOMEPAGE="https://github.com/marios8543/Jellyfin-CLI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/29/e562c08305823cf6eca6f1b55d5e503da52f8714ae84c0bd2e5bab09a25e/Jellyfin-CLI-${REALVERSION}.tar.gz"
-SOURCEFILE="Jellyfin-CLI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

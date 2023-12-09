@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="YooMoney"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Unofficial YooMoney API python library"
 
 HOMEPAGE="https://github.com/AlekseyKorshuk/yoomoney-api"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/76/e5/61ab0317a9ee8374f34bdad3dc7bf6511fb0d553bb043bb82909beb698a9/YooMoney-${REALVERSION}.tar.gz"
-SOURCEFILE="YooMoney-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

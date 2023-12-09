@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LibRecommender"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Versatile end-to-end recommender system."
 
 HOMEPAGE="https://github.com/massquantity/LibRecommender"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/b0/7a1d716886ada78f52c5471b7a5374d5130b0ffd26c85b365ede6d5ecf1d/LibRecommender-${REALVERSION}.tar.gz"
-SOURCEFILE="LibRecommender-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="cityscapesScripts"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Scripts for the Cityscapes Dataset"
 
 HOMEPAGE="https://github.com/mcordts/cityscapesScripts"
 LICENSE="https://github.com/mcordts/cityscapesScripts/blob/master/LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/c9/9b/1ef033dac66e705f963d4b5f814ea7157c21d232d275c7cf0e3c114b78e6/cityscapesScripts-${REALVERSION}.tar.gz"
-SOURCEFILE="cityscapesScripts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

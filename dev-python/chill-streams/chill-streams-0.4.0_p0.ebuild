@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Chill-Streams"
 REALVERSION="0.4.0.post0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Chill electronica streaming"
 
 HOMEPAGE="https://github.com/zcutlip/chill_streams"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/5f/2b2b6a2345c6ff93da2993d082a88e702affac10d41ef6c1951bdbd18441/Chill-Streams-${REALVERSION}.tar.gz"
-SOURCEFILE="Chill-Streams-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

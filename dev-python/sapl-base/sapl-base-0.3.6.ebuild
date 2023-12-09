@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SAPL-Base"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Base library to create SAPL Integrations for Python Frameworks"
 
 HOMEPAGE="https://sapl.io/"
 LICENSE="Copyright 2017-2022 Dominic Heutelbeck  Licensed under the Apache License, Version 2.0 the License; you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
-SRC_URI="https://files.pythonhosted.org/packages/b8/87/bc017ba59183c6aa6e0c01e3fa512ad19f05d39c9aff84477e39d6ffba7c/SAPL-Base-${REALVERSION}.tar.gz"
-SOURCEFILE="SAPL-Base-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

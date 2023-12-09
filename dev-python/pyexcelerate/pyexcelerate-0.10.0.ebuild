@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyExcelerate"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Accelerated Excel XLSX Writing Library for Python 2/3"
 
 HOMEPAGE="https://github.com/kz26/PyExcelerate"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/35/9b/545bd8829b63b50ac7a177e6669209618c1b8ac8f0f7e8f167234852e6f8/PyExcelerate-${REALVERSION}.tar.gz"
-SOURCEFILE="PyExcelerate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

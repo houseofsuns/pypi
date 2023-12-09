@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="aemo-EIGENMODE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to parse and verify AEMO MMS data model files"
 
 HOMEPAGE="https://github.com/esheppa/aemo-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c0/44/556c84ead6b5f67efcf61774de352edb095067b893fdfb0ff60c5ed24cf9/aemo-EIGENMODE-${REALVERSION}.tar.gz"
-SOURCEFILE="aemo-EIGENMODE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

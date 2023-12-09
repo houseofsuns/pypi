@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Arabic-Stopwords"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Arabic Stop words: list and routins"
 
 HOMEPAGE="http://arabicstopwords.sourceforge.net/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/db/e7/16463f07add672dc7b33230e6eccd52b1f517140520f10dabb3c34049888/Arabic_Stopwords-${REALVERSION}.tar.gz"
-SOURCEFILE="Arabic_Stopwords-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

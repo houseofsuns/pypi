@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="astLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A set of python modules for producing simple plots, statistics, com
 
 HOMEPAGE="https://astlib.readthedocs.io,"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/6c/77/29d2079b09f1d519c616a15eff32628057c0d0f15e157ddcf1d2a4ee4338/astLib-${REALVERSION}.tar.gz"
-SOURCEFILE="astLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

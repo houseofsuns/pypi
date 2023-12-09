@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Dhelpers"
 REALVERSION="0.1.5rc1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Dhelpers support modules"
 
 HOMEPAGE="https://github.com/dp0s/Dpowers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f7/09/22fa0be775582c14e11f2fbf4f505ef46e09b2729e45284434573baa2cf0/Dhelpers-${REALVERSION}.tar.gz"
-SOURCEFILE="Dhelpers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

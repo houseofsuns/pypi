@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HFODetector"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package for detecting HFOs"
 
 HOMEPAGE="https://github.com/roychowdhuryresearch/HFO_Detector"
 LICENSE="TDG Attribution Non-Commercial No Distrib"
-SRC_URI="https://files.pythonhosted.org/packages/a8/e1/2537007d038815f95690a6bd449c01181266009ae953d2aac34563b589e7/HFODetector-${REALVERSION}.tar.gz"
-SOURCEFILE="HFODetector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

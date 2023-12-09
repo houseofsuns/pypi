@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DadosAbertosBrasil"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pacote Python para acesso a dados abertos e APIs do governo brasile
 
 HOMEPAGE="https://github.com/GusFurtado/DadosAbertosBrasil"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/81/7c/67d347712994af65c95e26ea69d74e94d06380780dfd367c188b40e9bceb/DadosAbertosBrasil-${REALVERSION}.tar.gz"
-SOURCEFILE="DadosAbertosBrasil-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

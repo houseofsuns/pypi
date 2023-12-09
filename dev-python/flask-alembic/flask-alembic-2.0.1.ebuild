@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Alembic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension to integrate Alembic migrations"
 
 HOMEPAGE="https://bitbucket.org/davidism/flask-alembic"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/09/4d/6cf6182051bd31177ec5612eec3b211af0a3880e82a4e6137b6d1518593b/Flask-Alembic-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Alembic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

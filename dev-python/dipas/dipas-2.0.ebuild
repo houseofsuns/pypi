@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DiPAS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DiPAS is a framework for differentiable simulations of particle acc
 
 HOMEPAGE="https://gitlab.com/Dominik1123/dipas"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/08/d0/8fe0467c713b704ced37076f3737818efef0ee85b4ea8c1711948e9c6f7e/DiPAS-${REALVERSION}.tar.gz"
-SOURCEFILE="DiPAS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CryptoParser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fast and flexible security protocol parser and generator"
 
 HOMEPAGE="https://gitlab.com/coroner/cryptoparser"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/17/98/6cb06a3d31d988b480982ff25378e660941de572f39c79c87c63c34654a7/CryptoParser-${REALVERSION}.tar.gz"
-SOURCEFILE="CryptoParser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

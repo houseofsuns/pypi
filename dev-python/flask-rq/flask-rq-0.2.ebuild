@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-RQ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="RQ (Redis Queue) integration for Flask applications"
 
 HOMEPAGE="http://packages.python.org/Flask-RQ/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/ed/6882d090e86e7bca566531cc793d6b69cc4b5a69a979877ac753054281c1/Flask-RQ-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-RQ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

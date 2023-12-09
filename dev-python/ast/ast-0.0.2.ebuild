@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AST"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Conversion between protobuf3 and srcML."
 
 HOMEPAGE="https://github.com/yijunyu/needle/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/fb/2b954d2a38c9a0ef1da6a46737a75b4dbf6f60e5dad0f267a4ec5ece20de/AST-${REALVERSION}.tar.gz"
-SOURCEFILE="AST-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ModuleUltra"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools to make pipelines easier to run and distribute for large biol
 
 HOMEPAGE="https://github.com/dcdanko/ModuleUltra"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/85/02/de240ba80d1f6c2c0f3cb665b793f466ec1dc62fcefcca47099da3fe8b60/ModuleUltra-${REALVERSION}.tar.gz"
-SOURCEFILE="ModuleUltra-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

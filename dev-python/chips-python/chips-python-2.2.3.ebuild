@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Chips-python"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Design hardware with Python"
 
 HOMEPAGE="http://benfre.github.io/Chips/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d2/ef/d57154d935507bf452db8c1e3b9ae3c530a8ca4b2c7a3a59aeb4b04ef8ac/Chips-python-${REALVERSION}.tar.gz"
-SOURCEFILE="Chips-python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

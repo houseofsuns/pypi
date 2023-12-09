@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyNA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Neighborhood parameter space search algorithm"
 
 HOMEPAGE="https://github.com/rbeucher/pyNA.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/98/38/478fa4d5a0c393f72a0a094114033a10ea59154ceb98a916bfe06bd0733e/pyNA-${REALVERSION}.tar.gz"
-SOURCEFILE="pyNA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FluidCubeGame"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FluidCubeGame"
 
 HOMEPAGE="https://github.com/Spektoruk3/PAK"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d6/5a/c36db8de2e4696179ce4ac6ff853120bb9c8143a834236fc4763083e58fc/FluidCubeGame-${REALVERSION}.tar.gz"
-SOURCEFILE="FluidCubeGame-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

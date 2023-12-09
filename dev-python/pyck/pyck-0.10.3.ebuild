@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyCK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Code Karigar - Web Framework"
 
 HOMEPAGE="http://pyck.compulife.com.pk"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/c5/1b/3da7c64e52c66e3d1f71bae069fcc5a122d4527cdda71c95ecd9b2c55067/PyCK-${REALVERSION}.tar.gz"
-SOURCEFILE="PyCK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

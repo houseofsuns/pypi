@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SkillMetrics"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library for calculating and displaying the skill of model 
 
 HOMEPAGE="https://github.com/PeterRochford/SkillMetrics/tree/master"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/e1/ef218c3f5d9e32dd8a9861ff40c76b011a4d0c74aa8467c049c46987e4aa/SkillMetrics-${REALVERSION}.tar.gz"
-SOURCEFILE="SkillMetrics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

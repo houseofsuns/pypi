@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Cloudy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask-Cloudy is a simple flask extension and standalone library to 
 
 HOMEPAGE="https://github.com/mardix/flask-cloudy/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6d/99/b9f3fce8443fb8dfaef73923e6b677215bd0ad31ca0809a3dac6940f7a69/Flask-Cloudy-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Cloudy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

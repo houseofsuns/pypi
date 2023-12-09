@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ScalaFunctional"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package for creating data pipelines, LINQ, and chain functional pro
 
 HOMEPAGE="https://github.com/EntilZha/ScalaFunctional"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/32/3c/f52d36b32997615294efa100fe0411a5a76508159121944d4d10579a2a16/ScalaFunctional-${REALVERSION}.tar.gz"
-SOURCEFILE="ScalaFunctional-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

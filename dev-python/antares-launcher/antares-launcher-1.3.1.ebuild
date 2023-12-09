@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Antares-Launcher"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Antares_Launcher to run Antares on a remote linux machine"
 
 HOMEPAGE="https://github.com/AntaresSimulatorTeam/antares-launcher.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/98/a6/f2754cdc3f241084aeaa68d151b876ed127d540a131ac1d366bf9a9c2695/Antares_Launcher-${REALVERSION}.tar.gz"
-SOURCEFILE="Antares_Launcher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

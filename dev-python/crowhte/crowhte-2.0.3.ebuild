@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CrowHTE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python GUI to enable High Throughput Experimentation."
 
 HOMEPAGE="https://github.com/JacksonBurns/Crow"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/71/1a/4ecfd7cc5a71df893b722438f99cca30e454667b9fa58b95bd4d1452be4c/CrowHTE-${REALVERSION}.tar.gz"
-SOURCEFILE="CrowHTE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

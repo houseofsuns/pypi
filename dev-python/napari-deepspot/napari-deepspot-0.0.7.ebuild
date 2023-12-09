@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="napari-DeepSpot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="RNA spot enhancement for fluorescent microscopy images"
 
 HOMEPAGE="https://github.com/ebouilhol/napari-DeepSpot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a2/f6/ac507b8232d02a52c29cafa886a19a4e0ae326b3645c775a05595ef07d95/napari-DeepSpot-${REALVERSION}.tar.gz"
-SOURCEFILE="napari-DeepSpot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

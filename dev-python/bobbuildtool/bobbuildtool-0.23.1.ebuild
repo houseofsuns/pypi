@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BobBuildTool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Functional cross platform build-automation tool"
 
 HOMEPAGE="https://bobbuildtool.github.io/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/2e/6f/3d600b8d533abfd7cd4f233d9647e3343d5a44ee3e2f41a1d2f03e58d266/BobBuildTool-${REALVERSION}.tar.gz"
-SOURCEFILE="BobBuildTool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

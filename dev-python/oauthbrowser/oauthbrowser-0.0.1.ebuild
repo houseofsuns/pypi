@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OAuthBrowser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OAuthBrowser is module to do authentications and web scraping."
 
 HOMEPAGE="https://github.com/Saadmairaj/OAuthBrowser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/16/5578502a71046d760799b8da4361a256e3e25929c7c10de9de8383cb8368/OAuthBrowser-${REALVERSION}.tar.gz"
-SOURCEFILE="OAuthBrowser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

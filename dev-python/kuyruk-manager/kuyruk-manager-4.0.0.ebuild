@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kuyruk-Manager"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Manage Kuyruk workers."
 
 HOMEPAGE="https://github.com/cenkalti/kuyruk-manager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/de/98/e00caa2f448e3438946b9419848a306d93e0db5649b1ed91fe486a433d72/Kuyruk-Manager-${REALVERSION}.tar.gz"
-SOURCEFILE="Kuyruk-Manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

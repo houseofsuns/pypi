@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Gpxity"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A uniform interface to GPX services like mapmytracks or gpsies"
 
 HOMEPAGE="https://github.com/wrohdewald/Gpxity"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/cc/60/1680db8de893ef50f351f98ef0342933f547415e77b942ebb6b14e03e2ff/Gpxity-${REALVERSION}.tar.gz"
-SOURCEFILE="Gpxity-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

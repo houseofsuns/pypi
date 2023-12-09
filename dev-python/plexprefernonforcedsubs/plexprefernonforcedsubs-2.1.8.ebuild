@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PlexPreferNonForcedSubs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This script will set all movies and shows in your local Plex librar
 
 HOMEPAGE="https://github.com/RileyXX/PlexPreferNonForcedSubs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/33/bd3393932ca4d17af64321987d3671efd5671d1c1566c9944f1fa0a66e7b/PlexPreferNonForcedSubs-${REALVERSION}.tar.gz"
-SOURCEFILE="PlexPreferNonForcedSubs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Authorize"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask plugin for content authorization and access control"
 
 HOMEPAGE="https://github.com/bprinty/Flask-Authorize"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/a0/d88b645a837c0cb6d79765dce791e7ea3da5d6c7d584cbce609c37c9fa45/Flask-Authorize-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Authorize-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

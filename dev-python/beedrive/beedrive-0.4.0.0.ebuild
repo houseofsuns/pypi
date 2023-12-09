@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BeeDrive"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BeeDrive: Open Source Privacy File Transfering System for Teams and
 
 HOMEPAGE="https://github.com/JacksonWuxs/BeeDrive"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/1f/17/d15bfc9f52a40996fe937dbbc9aa44dd5a445b092ff92c5da6e0ef90d549/BeeDrive-${REALVERSION}.tar.gz"
-SOURCEFILE="BeeDrive-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

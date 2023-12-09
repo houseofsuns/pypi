@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ImageExtras"
 REALVERSION="0.1.6.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Image Processing extra functions"
 
 HOMEPAGE="https://gitlab.com/adriabrucortes/imageextras"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/3b/62/61054c0210cb083780a69b6260097880feedc91d1ac5c8531fc786a4c8d5/ImageExtras-${REALVERSION}.tar.gz"
-SOURCEFILE="ImageExtras-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

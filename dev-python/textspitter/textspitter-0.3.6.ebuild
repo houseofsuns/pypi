@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TextSpitter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package that spits out text from your document files!"
 
 HOMEPAGE="https://github.com/fsecada01/TextSpitter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9a/85/a8f8829ed4b17609fddef9ce240c63b601600c54a81464a488cfc85ec0b8/TextSpitter-${REALVERSION}.tar.gz"
-SOURCEFILE="TextSpitter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

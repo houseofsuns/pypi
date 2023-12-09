@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flaskel"
 REALVERSION="3.1.0rc4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Skeleton for flask applications"
 
 HOMEPAGE="https://github.com/cs91chris/flaskel"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b6/cd/fef7d532bdae585b9589b0bb95e6c2c324e1e381fe8e51dfb75713e3bc42/Flaskel-${REALVERSION}.tar.gz"
-SOURCEFILE="Flaskel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

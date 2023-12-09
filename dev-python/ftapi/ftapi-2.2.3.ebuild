@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FtApi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Class for manipulating 42 Api"
 
 HOMEPAGE="https://github.com/ryaoi/ftApi"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/72/94/e0b0ed110fa1a9530a7e6c49dc7344fb60275bdf64396c86ff177a83cc9e/FtApi-${REALVERSION}.tar.gz"
-SOURCEFILE="FtApi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

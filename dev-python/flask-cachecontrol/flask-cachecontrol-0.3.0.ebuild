@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-CacheControl"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Set Cache-Control headers on the Flask response"
 
 HOMEPAGE="https://github.com/twiebe/Flask-CacheControl"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/82/e6/263fadac78f426428bc9705694069955a3c27b8f1d5b318ed23641d68d0f/Flask-CacheControl-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-CacheControl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

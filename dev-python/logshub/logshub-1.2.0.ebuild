@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LogsHub"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Writing specific logs"
 
 HOMEPAGE="https://github.com/Odai-Atef/logs_hub_python3"
 LICENSE="OpenSource"
-SRC_URI="https://files.pythonhosted.org/packages/65/de/02cf6a27b31f753679f4ee5dde8a6b1d42bcc22935f6f351bed5710df3c2/LogsHub-${REALVERSION}.tar.gz"
-SOURCEFILE="LogsHub-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

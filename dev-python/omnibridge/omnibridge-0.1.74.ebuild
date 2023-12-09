@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OmniBridge"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bridging AI models"
 
 HOMEPAGE="https://github.com/OmniSpective/OmniBridge"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/56/4a/1ed5d9d026ef0055c7876977c8704aa17505247b967cb4627e9e4992904c/OmniBridge-${REALVERSION}.tar.gz"
-SOURCEFILE="OmniBridge-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

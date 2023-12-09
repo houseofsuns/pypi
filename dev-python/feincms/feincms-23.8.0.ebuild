@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FeinCMS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Django-based Page CMS and CMS building toolkit."
 
 HOMEPAGE="http://github.com/feincms/feincms/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/9a/50/149d48f7a67473b0cb058e70a529080e61b7745dc7469821d82f8f2490f3/FeinCMS-${REALVERSION}.tar.gz"
-SOURCEFILE="FeinCMS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

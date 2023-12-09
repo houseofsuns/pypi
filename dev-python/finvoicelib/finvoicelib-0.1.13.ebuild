@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FinvoiceLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for reading Finvoice XML files"
 
 HOMEPAGE="https://postita.fi"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3c/e7/57b1f0093a2db869215ac60b52330ca3af24eb91fc6f36b2ccb6c4c19b22/FinvoiceLib-${REALVERSION}.tar.gz"
-SOURCEFILE="FinvoiceLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

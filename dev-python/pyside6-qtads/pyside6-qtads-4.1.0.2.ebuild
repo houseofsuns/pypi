@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySide6-QtAds"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PySide6 bindings to Qt Advanced Docking System"
 
 HOMEPAGE="https://github.com/mborgerson/pyside6_qtads/"
 LICENSE="LGPL v2.1"
-SRC_URI="https://files.pythonhosted.org/packages/f8/30/60e1561d5ddbaa2869b9f52f41c80ca3b9f090357fa52bf44cb02d12e3ac/PySide6-QtAds-${REALVERSION}.tar.gz"
-SOURCEFILE="PySide6-QtAds-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

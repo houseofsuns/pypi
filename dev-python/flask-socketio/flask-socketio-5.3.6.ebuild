@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-SocketIO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Socket.IO integration for Flask applications"
 
 HOMEPAGE="https://github.com/miguelgrinberg/flask-socketio"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/b2/aa882384d130523d7d2d6eed33403aed68a438622df388d92171d7657960/Flask-SocketIO-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-SocketIO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

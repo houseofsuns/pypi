@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Sublimescheme"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easily create a Sublime text Color Scheme with as little as six lin
 
 HOMEPAGE="https://github.com/tushortz/sublimescheme"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/fe/f7/7a889c43ee0a9b4dae863b88c714c92bdd2173cc3d1ff25bf9f2a5969595/Sublimescheme-${REALVERSION}.tar.gz"
-SOURCEFILE="Sublimescheme-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

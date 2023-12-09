@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BDD4Django"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="\"Behavior Driven Development\" (BDD) -- Integrating Morelia + Spli
 
 HOMEPAGE="http://github.com/danielfranca/BDD4Django"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/51/82/99b9dc77549647a714036801d0d113a11fc7975c24aa48b42d9b628e5dc8/BDD4Django-${REALVERSION}.tar.gz"
-SOURCEFILE="BDD4Django-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

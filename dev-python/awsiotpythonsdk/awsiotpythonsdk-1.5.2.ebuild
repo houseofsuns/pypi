@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AWSIoTPythonSDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SDK for connecting to AWS IoT using Python."
 
 HOMEPAGE="https://github.com/aws/aws-iot-device-sdk-python.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/07/da/b352d91a409c3ec26faf3191e650c209666353af1b5a34ae4f446db087c8/AWSIoTPythonSDK-${REALVERSION}.tar.gz"
-SOURCEFILE="AWSIoTPythonSDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

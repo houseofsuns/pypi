@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mathics-Scanner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Character Tables and Tokenizer for Mathics and the Wolfram Language
 
 HOMEPAGE="https://mathics.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/bd/2d/ceb5d263a73bc1009580489d5d80d5f8ed0cb9d86fb2a1f52d2ed8e00c45/Mathics_Scanner-${REALVERSION}.tar.gz"
-SOURCEFILE="Mathics_Scanner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ConsoleHelp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="For all of your console needs!"
 
 HOMEPAGE="https://github.com/darkdarcool/ConsoleHelp/blob/master/MyApp/setup.py"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/3f/33/52fca466220cdbc991adef34b52beda9e24197f936d201b33bd1359dd2f8/ConsoleHelp-${REALVERSION}.tar.gz"
-SOURCEFILE="ConsoleHelp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

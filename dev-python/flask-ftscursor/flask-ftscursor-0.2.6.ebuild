@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-FTSCursor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An extension to facilitate using FTSCursor with flask"
 
 HOMEPAGE="https://gitlab.com/aaylward/flask-ftscursor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/cf/3bd652fa968a3e518c7b3b4d09f488d257b64ee3e8763d3d60b5ac82040d/Flask-FTSCursor-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-FTSCursor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

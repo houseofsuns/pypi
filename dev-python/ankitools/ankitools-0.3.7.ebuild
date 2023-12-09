@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AnkiTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="an Anki *.apkg and collection.anki2 reader and editor"
 
 HOMEPAGE="https://github.com/patarapolw/AnkiTools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/48/b01de3fbbff3957d799598e2e882ed757e6978c48d09de739443b35885b2/AnkiTools-${REALVERSION}.tar.gz"
-SOURCEFILE="AnkiTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DomiKnowS"
 REALVERSION="0.546.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library provides integration between Domain Knowledge and Deep Le
 
 HOMEPAGE="https://github.com/HLR/DomiKnowS"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1c/d2/5a1be63107ab0444543efcb7a37c31839a43a500e22ff07e0aa073be3b2c/DomiKnowS-${REALVERSION}.tar.gz"
-SOURCEFILE="DomiKnowS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

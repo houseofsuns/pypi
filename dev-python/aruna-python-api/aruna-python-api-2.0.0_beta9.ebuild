@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Aruna-Python-API"
 REALVERSION="2.0.0b9"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Aruna Object Storage Python API builds"
 
 HOMEPAGE="https://github.com/ArunaStorage/python-api"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f1/c1/f2f3a4c5a9b1b0748c6b0b0b2538777a60c0b6d12c2dc2a24d9230c8a1d1/Aruna-Python-API-${REALVERSION}.tar.gz"
-SOURCEFILE="Aruna-Python-API-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

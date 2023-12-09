@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ServeIt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Machine learning prediction serving"
 
 HOMEPAGE="https://github.com/rtlee9/serveit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f6/83/bda15c52f95b802f7da9165d076e6f4d9601a385b278f81fb8a2706072cb/ServeIt-${REALVERSION}.tar.gz"
-SOURCEFILE="ServeIt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

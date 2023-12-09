@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OCRfixr"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A contextual spellchecker for OCR output"
 
 HOMEPAGE="https://github.com/ja-mcm/ocrfixr"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/5a/ee/40f5fcb864530ebecb7393e59db95aea92ac187730ff478cf7b23a35f390/OCRfixr-${REALVERSION}.tar.gz"
-SOURCEFILE="OCRfixr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

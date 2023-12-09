@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyTangtv"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LLNL DIII-D diagnostic image tools"
 
 HOMEPAGE=""
 LICENSE="LLNL"
-SRC_URI="https://files.pythonhosted.org/packages/25/4d/587c49b67562a77e942657c31145cae3e2788b6e06c1eb8b424869b9fdec/PyTangtv-${REALVERSION}.tar.gz"
-SOURCEFILE="PyTangtv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

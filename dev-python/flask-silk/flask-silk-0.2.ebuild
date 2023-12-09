@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Silk"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds silk icons to your Flask application or blueprint, or extensio
 
 HOMEPAGE="http://github.com/sublee/flask-silk"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/05/95/57667716765b21a8fcd0918ae4a99b5de60f8632d7d1a0b401609fbb28ab/Flask-Silk-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Silk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

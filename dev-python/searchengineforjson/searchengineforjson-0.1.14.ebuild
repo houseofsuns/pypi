@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SearchEngineForJSON"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SearchEngineForJSON"
 
 HOMEPAGE="https://github.com/aoimaru/packagingTutorial"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/b5/e1a703459b970a6ff05495ed01ad47bf03cfd04b076b7285190dc2f6c110/SearchEngineForJSON-${REALVERSION}.tar.gz"
-SOURCEFILE="SearchEngineForJSON-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

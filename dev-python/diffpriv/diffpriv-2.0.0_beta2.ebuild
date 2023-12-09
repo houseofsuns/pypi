@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DiffPriv"
 REALVERSION="2.0.0b2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Differential Privacy Package"
 
 HOMEPAGE="https://github.com/Quantalabs/DiffPriv"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b7/5e/8d71f6a29f49e6ccbaf4b4d4fcc77235f94019e92f671730ef7c9e90fc9e/DiffPriv-${REALVERSION}.tar.gz"
-SOURCEFILE="DiffPriv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

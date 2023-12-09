@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySuperTuxKart"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python SuperTuxKart inferface"
 
 HOMEPAGE="https://github.com/philkr/pystk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a0/31/1185355afab02c441d87b473f63f2ae8de72892944668af4a36cba2e20b1/PySuperTuxKart-${REALVERSION}.tar.gz"
-SOURCEFILE="PySuperTuxKart-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

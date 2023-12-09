@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ZEO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ZEO - Single-server client-server database server for ZODB"
 
 HOMEPAGE="https://github.com/zopefoundation/ZEO"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/1a/85/ab008e84445dcd39b2d079fdc7eb5475d5597de9504e2a0cb6bb44ca9a4b/ZEO-${REALVERSION}.tar.gz"
-SOURCEFILE="ZEO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="nnAudio"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A fast GPU audio processing toolbox with 1D convolutional neural ne
 
 HOMEPAGE="https://github.com/KinWaiCheuk/nnAudio"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0d/9d/e8b0211729a99b09e72c56e90731936d93d31f3ad8ae3ff573ac532460c5/nnAudio-${REALVERSION}.tar.gz"
-SOURCEFILE="nnAudio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

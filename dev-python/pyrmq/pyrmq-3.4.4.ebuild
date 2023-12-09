@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyRMQ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python with RabbitMQ—simplified so you won't have to."
 
 HOMEPAGE="https://pyrmq.readthedocs.io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/8f/80740de737f12793bdec901b8462ac19720f21f963aacde2af92ff1b37be/PyRMQ-${REALVERSION}.tar.gz"
-SOURCEFILE="PyRMQ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

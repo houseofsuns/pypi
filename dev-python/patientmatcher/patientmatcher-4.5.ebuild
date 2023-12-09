@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="patientMatcher"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python and MongoDB-based Matchmaker Exchange server"
 
 HOMEPAGE="https://github.com/Clinical-Genomics/patientMatcher"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/2f/ade345868516d464ec8aed834580a940e31f624849182acba4e93ce50dc0/patientMatcher-${REALVERSION}.tar.gz"
-SOURCEFILE="patientMatcher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

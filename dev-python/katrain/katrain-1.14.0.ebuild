@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KaTrain"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Go/Baduk/Weiqi playing and teaching app with a variety of AIs"
 
 HOMEPAGE="https://github.com/sanderland/katrain"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/4a/384987c80a11bada4f470b595cb3900f0a3a5fde098c402efbe3bffa26e9/KaTrain-${REALVERSION}.tar.gz"
-SOURCEFILE="KaTrain-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

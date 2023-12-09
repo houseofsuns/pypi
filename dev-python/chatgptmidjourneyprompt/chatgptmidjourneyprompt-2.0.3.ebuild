@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="chatGPTMidJourneyPrompt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This is a ChatGPT based prompt generation model for MidJorney. The 
 
 HOMEPAGE="https://github.com/awekrx/ChatGPT-MidJourney-prompt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/79/5605eebc47fac069185440f966b4599d199d140112f3247a4912462d8d58/chatGPTMidJourneyPrompt-${REALVERSION}.tar.gz"
-SOURCEFILE="chatGPTMidJourneyPrompt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

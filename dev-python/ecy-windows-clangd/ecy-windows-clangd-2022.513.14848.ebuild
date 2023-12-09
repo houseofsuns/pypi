@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ECY-Windows-clangd"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/JimmyHuang454/ECY_exe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/fb/557d6ea51ee1af75aac4bc4547aaaa75f47f0cf5af8c1634ed82ef0507d1/ECY_Windows_clangd-${REALVERSION}.tar.gz"
-SOURCEFILE="ECY_Windows_clangd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

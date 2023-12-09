@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PowDeRUL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The project aims to assess the lifetime and efficiency of electroni
 
 HOMEPAGE="https://github.com/PGarn/LifeTime"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/f8/416727238a265c958bdc24c8ecd1d5d85cfa539effa6d479e5f4d0c3fe90/PowDeRUL-${REALVERSION}.tar.gz"
-SOURCEFILE="PowDeRUL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

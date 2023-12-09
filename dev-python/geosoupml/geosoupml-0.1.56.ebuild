@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="geosoupML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Machine Learning support for geosoup"
 
 HOMEPAGE="https://github.com/masseyr/geosoupML"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b9/7c/915f104f2905d1a65d66eebdbca854a5f0c415f93c99de9c9117ef732255/geosoupML-${REALVERSION}.zip"
-SOURCEFILE="geosoupML-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

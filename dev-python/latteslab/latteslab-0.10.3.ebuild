@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LattesLab"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Set of tools to generate data products originated by Lattes CV file
 
 HOMEPAGE="https://github.com/tcodingprojects/LattesLab"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/cc/3cb03b76ac9624eaedf34dc1b0fc94bf3730a7a7f9bebf6323705a3c9cc1/LattesLab-${REALVERSION}.tar.gz"
-SOURCEFILE="LattesLab-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-SSE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Server-Sent Events for Flask"
 
 HOMEPAGE="https://github.com/singingwolfboy/flask-sse"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/31/82586853cb1c0fcc2b8b533891606a779acc0da7d4cda5c8d7f2c2b05a29/Flask-SSE-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-SSE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

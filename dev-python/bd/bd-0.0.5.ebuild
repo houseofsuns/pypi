@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bangladesh Details with postal code"
 
 HOMEPAGE="https://vimmaniac.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/37/0f/80ef3368970d63f3698ace7e9769d3845e7fb2d89da3d60ba89424205ec0/BD-${REALVERSION}.tar.gz"
-SOURCEFILE="BD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

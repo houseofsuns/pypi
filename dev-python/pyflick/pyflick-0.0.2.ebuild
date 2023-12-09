@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyFlick"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python API For Flick Electric in New Zealand"
 
 HOMEPAGE="https://github.com/ZephireNZ/PyFlick"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bf/b3/2714f824b14c9617db6c27ddd4d6ac5b472be2be5bbc3eeaa9d04dbddf44/PyFlick-${REALVERSION}.tar.gz"
-SOURCEFILE="PyFlick-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

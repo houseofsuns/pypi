@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="immuneML"
 REALVERSION="3.0.0a2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="immuneML is a software platform for machine learning analysis of im
 
 HOMEPAGE="https://github.com/uio-bmi/immuneML"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7c/7d/437cd13276bdcc43df81e1544a024d7a254f2665af9058a0a5be2611ef8f/immuneML-${REALVERSION}.tar.gz"
-SOURCEFILE="immuneML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

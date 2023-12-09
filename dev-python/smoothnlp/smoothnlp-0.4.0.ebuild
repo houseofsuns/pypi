@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SmoothNLP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Package for SmoothNLP"
 
 HOMEPAGE="https://github.com/smoothnlp/SmoothNLP"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/e2/b835367174b7fe24ad18348b906de902cb7ab8f5f5e954f5aef95377956c/SmoothNLP-${REALVERSION}.tar.gz"
-SOURCEFILE="SmoothNLP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

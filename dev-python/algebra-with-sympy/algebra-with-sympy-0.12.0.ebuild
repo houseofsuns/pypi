@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Algebra-with-SymPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Equations that can be algebraicly manipulated."
 
 HOMEPAGE="https://gutow.github.io/Algebra_with_Sympy/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/4a/48/4e57600ca163ac10d060655f1460431c6cbb21348b86f3c4da1e8602067b/Algebra_with_SymPy-${REALVERSION}.tar.gz"
-SOURCEFILE="Algebra_with_SymPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

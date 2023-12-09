@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="napari-LF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Light field imaging plugin for napari"
 
 HOMEPAGE="https://github.com/PolarizedLightFieldMicroscopy/napari-LF"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d2/78/5800152f7bd426d787b0c20c30e333ead61aea7e3449285e89c665f625a1/napari-LF-${REALVERSION}.tar.gz"
-SOURCEFILE="napari-LF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

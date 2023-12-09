@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ECY-Windows-gopls"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/JimmyHuang454/ECY_exe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/43/128c86cc0f267f3d6d9a91cd9995bfa0047ec1c390ad9a4f212d27ff283c/ECY_Windows_gopls-${REALVERSION}.tar.gz"
-SOURCEFILE="ECY_Windows_gopls-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

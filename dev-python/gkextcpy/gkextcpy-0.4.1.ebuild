@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GKextCPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Graph Kernels: building the extension Python module. This is a wrap
 
 HOMEPAGE=""
 LICENSE="ETH Zurich"
-SRC_URI="https://files.pythonhosted.org/packages/d1/21/cbb0119cde08c9dda0fd7c8651f961d07bc354469ffe5cabeb31e6cfbe5b/GKextCPy-${REALVERSION}.tar.gz"
-SOURCEFILE="GKextCPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

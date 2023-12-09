@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pySOT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Surrogate Optimization Toolbox"
 
 HOMEPAGE="https://github.com/dme65/pySOT"
 LICENSE="LICENSE.rst"
-SRC_URI="https://files.pythonhosted.org/packages/c8/38/9f980e8d985151b59b0d2f38b24ab42407623657e98bbda686d1a9be8ed0/pySOT-${REALVERSION}.tar.gz"
-SOURCEFILE="pySOT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

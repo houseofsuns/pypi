@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IxNetRestApi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="API modules and sample scripts to accelerate your script developmen
 
 HOMEPAGE="https://github.com/openixia/ixnetwork"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/da/37facc5819cbdd9c6b15c703f9cba63a81c37fa2326a112336f9f8a57ec7/IxNetRestApi-${REALVERSION}.tar.gz"
-SOURCEFILE="IxNetRestApi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

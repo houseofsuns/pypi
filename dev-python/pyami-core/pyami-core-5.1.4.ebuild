@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyAMI-core"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python ATLAS Metadata Interface (pyAMI)"
 
 HOMEPAGE="http://ami.in2p3.fr/"
 LICENSE="CeCILL-C"
-SRC_URI="https://files.pythonhosted.org/packages/7f/82/57465c4b059935f2be0c63351c61cdbe6b6ab4fb90fa36c2dbf5badbbe8a/pyAMI_core-${REALVERSION}.tar.gz"
-SOURCEFILE="pyAMI_core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

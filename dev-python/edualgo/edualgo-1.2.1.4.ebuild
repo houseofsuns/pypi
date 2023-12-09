@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="eduAlgo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An educational software to make Algorithm learning & implementation
 
 HOMEPAGE="https://github.com/edualgo/eduAlgo"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/34/d3acc0bb5163dac9dd7de62d09b5c39451a822c6f867905af842233c7b53/eduAlgo-${REALVERSION}.tar.gz"
-SOURCEFILE="eduAlgo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

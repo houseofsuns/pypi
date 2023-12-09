@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ControlBurn"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Feature Selection by Sparse Forests"
 
 HOMEPAGE="https://github.com/brianliu12437/ControlBurnPackage"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7d/1a/7d10a29bff6cadc33ed3159b9136003a197be96501120e86cab240e29909/ControlBurn-${REALVERSION}.tar.gz"
-SOURCEFILE="ControlBurn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

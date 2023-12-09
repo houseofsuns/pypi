@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CLAM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Turns command-line tools into fully-fledged RESTful webservices wit
 
 HOMEPAGE="https://proycon.github.io/clam"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b9/92/aa443c9ad058a40a58b1b47ae7b74247983ae7e1f0add39ffe013d28c3c9/CLAM-${REALVERSION}.tar.gz"
-SOURCEFILE="CLAM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

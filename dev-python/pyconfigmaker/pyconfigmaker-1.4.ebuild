@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyConfigMaker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generates a config and an argument parser from a yaml file"
 
 HOMEPAGE="https://github.com/cvoelcker/PyConfigMaker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/06/bbf555d978d372b96addf36b89718bc2a8a8f24f3bd5eb79539d33e6df65/PyConfigMaker-${REALVERSION}.tar.gz"
-SOURCEFILE="PyConfigMaker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

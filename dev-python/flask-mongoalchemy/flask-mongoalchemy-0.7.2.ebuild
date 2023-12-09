@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-MongoAlchemy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Add Flask support for MongoDB using MongoAlchemy."
 
 HOMEPAGE="http://github.com/cobrateam/flask-mongoalchemy"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7a/7d/7b146ab50332c3882520ed7e7f231404a630dedbb7d34f8adb021dbe5180/Flask-MongoAlchemy-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-MongoAlchemy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

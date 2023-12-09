@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ovos-PHAL-plugin-system"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A plugin for OpenVoiceOS hardware abstraction layer"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-PHAL-plugin-system"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/71/1b/67ce4ceead6d09aad3bfc64b2209eae80cc95b256f5661ebee2c9e855158/ovos-PHAL-plugin-system-${REALVERSION}.tar.gz"
-SOURCEFILE="ovos-PHAL-plugin-system-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

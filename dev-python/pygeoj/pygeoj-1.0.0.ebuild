@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyGeoj"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple Python GeoJSON file reader and writer."
 
 HOMEPAGE="http://github.com/karimbahgat/PyGeoj"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/6c/c569e49b24beeef47dd15e02f583fb0ab0b3c95fffae71e8f5fe50a8297e/PyGeoj-${REALVERSION}.tar.gz"
-SOURCEFILE="PyGeoj-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

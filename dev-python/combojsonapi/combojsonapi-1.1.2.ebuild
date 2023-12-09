@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ComboJSONAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="4 plugins for Flask-COMBO-JSONAPI package."
 
 HOMEPAGE="https://github.com/AdCombo/combojsonapi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d3/bd/a32823a52c0f80bc453c2f7c5b8fd03851969a8b2f41d27aaca7e64ff9c3/ComboJSONAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="ComboJSONAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

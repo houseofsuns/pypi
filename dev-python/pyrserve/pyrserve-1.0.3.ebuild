@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyRserve"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python client to remotely access the R statistic package via netw
 
 HOMEPAGE="https://github.com/ralhei/pyRserve"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/cc/0ea5e613374c72def5f2327ec0a78acfd9428faf4849e8e009a2fa9591d1/pyRserve-${REALVERSION}.tar.gz"
-SOURCEFILE="pyRserve-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

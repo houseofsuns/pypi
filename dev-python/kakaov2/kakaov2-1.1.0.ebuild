@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KakaoV2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Kakaotalk LOCO/HTTP API protocol wrapper for python."
 
 HOMEPAGE="https://github.com/ULTRA0221/KakaoV2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/f3/d3ca26638436ced62ebd94c3654f68bebcfd06b28fc22bf6982e2157a2c1/KakaoV2-${REALVERSION}.tar.gz"
-SOURCEFILE="KakaoV2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

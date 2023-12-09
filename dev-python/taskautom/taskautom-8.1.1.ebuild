@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="taskAutom"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple task automation tool"
 
 HOMEPAGE="https://github.com/laimaretto/taskAutom"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/f6/98/94047222322624ee6f73872828ac4d6664bc8b552f8114969b9243c1bca6/taskAutom-${REALVERSION}.tar.gz"
-SOURCEFILE="taskAutom-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

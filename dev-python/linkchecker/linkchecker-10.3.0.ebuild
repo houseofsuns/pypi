@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LinkChecker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="check links in web documents or full websites"
 
 HOMEPAGE="https://linkchecker.github.io/linkchecker/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/20/87e21e7ab09e699e19fe1ad81033a55bdb0f719b7ce2fe43b43a3a229b36/LinkChecker-${REALVERSION}.tar.gz"
-SOURCEFILE="LinkChecker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AutoTorch"
 REALVERSION="0.0.2b20201112"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="AutoTorch Package"
 
 HOMEPAGE="https://github.com/StacyYang/AutoTorch"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/be/af/934ac88ab8859b4139207791b0c364ed16347774173701dcc2f35e33767a/AutoTorch-${REALVERSION}.tar.gz"
-SOURCEFILE="AutoTorch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="astroML"
 REALVERSION="1.0.2.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for machine learning and data mining in Astronomy"
 
 HOMEPAGE="http://astroML.github.com"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/c1/d9/e32e3f8a9742503f789920972d3c9fa09a461e5ba058229fd62b61959d45/astroML-${REALVERSION}.tar.gz"
-SOURCEFILE="astroML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

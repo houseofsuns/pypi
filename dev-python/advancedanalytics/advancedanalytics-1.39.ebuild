@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AdvancedAnalytics"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python support for 'The Art and Science of Data Analytics'"
 
 HOMEPAGE="https://github.com/tandonneur/AdvancedAnalytics"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c6/4f/afb4423adf5b8455a0bf19abfd9fd4352ebe80c3cf5e454dd40985971c6f/AdvancedAnalytics-${REALVERSION}.tar.gz"
-SOURCEFILE="AdvancedAnalytics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

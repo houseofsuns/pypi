@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PIconnect"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python connector to OSIsoft PI SDK"
 
 HOMEPAGE="https://github.com/Hugovdberg/PIconnect"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/05/63/88a875049a7a6d4acf174e9fb3e41e8173981d265a48b902291076e5cf21/PIconnect-${REALVERSION}.tar.gz"
-SOURCEFILE="PIconnect-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

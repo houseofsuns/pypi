@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MonkeyType"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generating type annotations from sampled production types"
 
 HOMEPAGE="https://github.com/Instagram/MonkeyType"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/de/66/7006d51ed537648107c28086f8c390030b4b4c5524b77598a3bbb657d3ec/MonkeyType-${REALVERSION}.tar.gz"
-SOURCEFILE="MonkeyType-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

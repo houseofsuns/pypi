@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SDF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Work with Scientific Data Format files in Python"
 
 HOMEPAGE="https://github.com/ScientificDataFormat/SDF-Python"
 LICENSE="Standard 3-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7e/0f/35fe015db93179c905795b84cc03fc79b5b40d0daf530e1e075b0f78aea2/SDF-${REALVERSION}.tar.gz"
-SOURCEFILE="SDF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

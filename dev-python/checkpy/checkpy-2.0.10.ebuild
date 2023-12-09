@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="checkPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple python testing framework for educational purposes"
 
 HOMEPAGE="https://github.com/Jelleas/CheckPy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/a2/d1fb86786794ed9aa8ec8fedbada9e9c54e2713c2082aa84a826bd1c2e5a/checkPy-${REALVERSION}.tar.gz"
-SOURCEFILE="checkPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

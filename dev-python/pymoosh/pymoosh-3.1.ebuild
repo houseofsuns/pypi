@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMoosh"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A scattering matrix formalism to solve Maxwell's equations in a mul
 
 HOMEPAGE="https://github.com/AnMoreau/PyMoosh"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/c1/6e/a4de10662f08235450d38a33a7ca942dac3fb9fa5aaed730c96a277c08b0/PyMoosh-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMoosh-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

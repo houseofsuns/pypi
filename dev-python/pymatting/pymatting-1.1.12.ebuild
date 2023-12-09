@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMatting"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package for alpha matting."
 
 HOMEPAGE="https://pymatting.github.io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/e6/a9741c13a5432018170b7f97b997a04e470a0a3b8ab3b5d5d20dde8a9529/PyMatting-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMatting-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

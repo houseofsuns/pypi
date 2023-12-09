@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Stackility"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python CloudFormation utility"
 
 HOMEPAGE="https://github.com/muckamuck/stackility"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/f2/c4d7f1cdd19ef86afb9dea168916ed12cafe1aa26f63189c7f19f64e42c7/Stackility-${REALVERSION}.tar.gz"
-SOURCEFILE="Stackility-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

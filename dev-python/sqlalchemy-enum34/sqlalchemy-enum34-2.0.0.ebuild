@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SQLAlchemy-Enum34"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SQLAlchemy type to store standard enum.Enum value"
 
 HOMEPAGE="https://github.com/spoqa/sqlalchemy-enum34"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/12/184e6c30c888b8a3dd031c8443542a2f3e6b724647d3dd4b0715bf7580a8/SQLAlchemy-Enum34-${REALVERSION}.tar.gz"
-SOURCEFILE="SQLAlchemy-Enum34-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

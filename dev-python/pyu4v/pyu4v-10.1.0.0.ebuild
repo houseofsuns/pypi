@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyU4V"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library for use with Dell EMC's Unisphere for PowerMax RES
 
 HOMEPAGE="https://github.com/dell/PyU4V/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f7/ae/586a92284fd3638b7ff7bbf84385ec5a80affee372594b4471dec170f7aa/PyU4V-${REALVERSION}.tar.gz"
-SOURCEFILE="PyU4V-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

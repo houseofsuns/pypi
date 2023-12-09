@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Fishconsole"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="一个有点东西的工具合集，代码上不是很规范，用�
 
 HOMEPAGE="https://space.bilibili.com/698117971?spm_id_from=333.1007.0.0"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/09/7106f463fc80eef1d814c0dc62d338de8a954cf91ace4f3449f7843232a4/Fishconsole-${REALVERSION}.tar.gz"
-SOURCEFILE="Fishconsole-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

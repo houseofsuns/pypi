@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyGPGO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bayesian Optimization tools in Python"
 
 HOMEPAGE="https://github.com/hawk31/pyGPGO"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/19/b527a78ae626130bb8593878c54fb73ff9b16635dc5a42469bf2263911f0/pyGPGO-${REALVERSION}.tar.gz"
-SOURCEFILE="pyGPGO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

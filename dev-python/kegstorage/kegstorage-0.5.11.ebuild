@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KegStorage"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple storage interface with multiple backends for use in a Keg 
 
 HOMEPAGE="https://github.com/level12/keg-storage"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/08/09/436aa3d95d7a1f57e84eb0cb12cd41e24a8d77b9f92e7e0c292d8c582ceb/KegStorage-${REALVERSION}.tar.gz"
-SOURCEFILE="KegStorage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

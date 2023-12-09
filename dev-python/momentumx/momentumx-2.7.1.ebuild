@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MomentumX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Zero-copy shared memory IPC library for building complex streaming 
 
 HOMEPAGE="https://github.com/captivationsoftware/MomentumX"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c2/f6/8dc6b2eb0044359c492a9f625ae9c3bfb4da84464a08c0674c3a00dbf107/MomentumX-${REALVERSION}.tar.gz"
-SOURCEFILE="MomentumX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RPLCD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Raspberry Pi LCD library for the widely used Hitachi HD44780 cont
 
 HOMEPAGE="https://github.com/dbrgn/RPLCD"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7f/f7/9860cc59f12fcb80ced36b45ce05dd321f381b8ff3d00b79ad48bcbd96b9/RPLCD-${REALVERSION}.tar.gz"
-SOURCEFILE="RPLCD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

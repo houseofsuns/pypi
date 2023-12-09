@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Log-Request-ID"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension that can parse and handle multiple types of request
 
 HOMEPAGE="http://github.com/Workable/flask-log-request-id"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/59/e7299f5fa5d7b5c374065d59b487c75f25df6b8c5c81e78a34f18c4acd8e/Flask-Log-Request-ID-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Log-Request-ID-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

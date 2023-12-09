@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="dcCodeDeploy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Deploys code to various tagets (AWS, internal VMs, etc) based on ta
 
 HOMEPAGE="https://github.com/devopscenter/dcCodeDeploy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/9b/c01f63cf146a9b717d749a11f1628b0b2a4d8010b76b68b739743652df01/dcCodeDeploy-${REALVERSION}.tar.gz"
-SOURCEFILE="dcCodeDeploy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

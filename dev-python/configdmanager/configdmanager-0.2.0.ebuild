@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ConfigDmanager"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple configuration files manager package"
 
 HOMEPAGE="https://github.com/hmiladhia/ConfigDmanager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8f/e5/0d2c7de8b1c4df84dd4fc4e60146dd251ac6378f0859852c92775b7d170f/ConfigDmanager-${REALVERSION}.tar.gz"
-SOURCEFILE="ConfigDmanager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

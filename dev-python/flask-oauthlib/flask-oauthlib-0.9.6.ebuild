@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-OAuthlib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OAuthlib for Flask"
 
 HOMEPAGE="https://github.com/lepture/flask-oauthlib"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/75/f2/54a551d00a39dac9aa58d97b45e3c05051e7eea8ed686e4b6be91fc075a6/Flask-OAuthlib-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-OAuthlib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PLATER-GRAPH"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Graph DB interface for Translator API"
 
 HOMEPAGE="https://github.com/yaphetkg/plater.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/7e/bceebc4d23300f679df7474cb4602d5db228c1d877f24aab363310d7ac22/PLATER-GRAPH-${REALVERSION}.tar.gz"
-SOURCEFILE="PLATER-GRAPH-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

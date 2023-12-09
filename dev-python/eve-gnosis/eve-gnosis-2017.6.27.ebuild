@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EVE-Gnosis"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="EVE Online Formulas and Simulations"
 
 HOMEPAGE="https://github.com/Pyfa-fit/EVE_Gnosis"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/3f/2cf72d228c94649e6681b915ce1b173880395dd1ae896af2a1c62490a8fd/EVE_Gnosis-${REALVERSION}.tar.gz"
-SOURCEFILE="EVE_Gnosis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

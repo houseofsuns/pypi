@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PM3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Like pm2 without node.js ;-)"
 
 HOMEPAGE="https://github.com/ilariofebi/PM3.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/9c/936e652e340b99398bb621f3d1760cb8f6775f2b0b4606e58a3b825688b2/PM3-${REALVERSION}.tar.gz"
-SOURCEFILE="PM3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

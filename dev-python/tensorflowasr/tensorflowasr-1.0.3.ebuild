@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TensorFlowASR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Almost State-of-the-art Automatic Speech Recognition using Tensorfl
 
 HOMEPAGE="https://github.com/TensorSpeech/TensorFlowASR"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/e3/3bd44a5ebd93eb4c604ecfbbf603b7a5efd5d20ea595f216c4005045f2d5/TensorFlowASR-${REALVERSION}.tar.gz"
-SOURCEFILE="TensorFlowASR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

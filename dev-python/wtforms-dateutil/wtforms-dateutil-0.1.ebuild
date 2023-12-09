@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WTForms-dateutil"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="WTForms fields using dateutil"
 
 HOMEPAGE="http://github.com/wtforms/wtforms-dateutil/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/eb/0c/a14fe0c05249758b0a31a1a880e2f9e8801ef6ba16598960421c0ef10c4a/WTForms-dateutil-${REALVERSION}.tar.gz"
-SOURCEFILE="WTForms-dateutil-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

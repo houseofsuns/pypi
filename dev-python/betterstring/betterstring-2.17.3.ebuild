@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BetterString"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Like a normal string but with more functionality"
 
 HOMEPAGE="http://index12.bplaced.net/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d0/eb/2fb8c8617494ab097808a5bf8dbf358511799845327b22350b92a34132e9/BetterString-${REALVERSION}.tar.gz"
-SOURCEFILE="BetterString-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

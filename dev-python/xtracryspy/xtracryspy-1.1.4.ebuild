@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XtraCrysPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python tool for visualizing atomic systems and properties of cond
 
 HOMEPAGE="https://github.com/sassafrass6/XtraCrysPy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f9/ca/82a7c6dcf11e9545d80d9c00f0c472faf2e28d619600c8d48263b1489562/XtraCrysPy-${REALVERSION}.tar.gz"
-SOURCEFILE="XtraCrysPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

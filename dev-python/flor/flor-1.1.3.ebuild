@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flor - An efficient Bloom filter implementation in Python"
 
 HOMEPAGE="https://github.com/DCSO/flor"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d7/bc/cf69186c4c88de6e2f87a1d1ccb619b5f91184453625c0a77ad77c68f402/Flor-${REALVERSION}.tar.gz"
-SOURCEFILE="Flor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

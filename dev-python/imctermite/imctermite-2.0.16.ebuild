@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IMCtermite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Enables extraction of measurement data from binary files with exten
 
 HOMEPAGE="https://github.com/RecordEvolution/IMCtermite.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/e9/076e7baef093aea76601834e05682fc38778b5d63b55a22f2feaafe9812c/IMCtermite-${REALVERSION}.tar.gz"
-SOURCEFILE="IMCtermite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

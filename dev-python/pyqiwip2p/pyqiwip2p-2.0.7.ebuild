@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyQiwiP2P"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="pyQiwiP2P"
 
 HOMEPAGE="https://github.com/WhiteApfel/pyQiwiP2P"
 LICENSE="Mozilla Public License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b6/ef/17c717b3d1ac7e8ff77a1c0e3e1135df0d2646d62f3fabf6acf0e9e5e810/pyQiwiP2P-${REALVERSION}.tar.gz"
-SOURCEFILE="pyQiwiP2P-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

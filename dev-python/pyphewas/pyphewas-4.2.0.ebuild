@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyPheWAS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MASI Lab Port of PheWAS into Python"
 
 HOMEPAGE="https://github.com/MASILab/pyPheWAS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/45/85d2fd8c864c1626a2becbe632b13b2d8a11800e0495595d4f5e41dd312c/pyPheWAS-${REALVERSION}.tar.gz"
-SOURCEFILE="pyPheWAS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GenRisk"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Comprehensive genetic risk assessment"
 
 HOMEPAGE="https://github.com/AldisiRana/genrisk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/e7/a9ffa0cdda31120eec6b0d1e4938b9f9c0905455cab81f229c19b2cb4a65/GenRisk-${REALVERSION}.tar.gz"
-SOURCEFILE="GenRisk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Dokang"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lightweight web documentation repository with a search engine"
 
 HOMEPAGE="https://dokang.readthedocs.io/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f7/65/410aae1c3f99401df37a38a67f104d08ab52f821b9e5e3de6e7fdaf4caff/Dokang-${REALVERSION}.tar.gz"
-SOURCEFILE="Dokang-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

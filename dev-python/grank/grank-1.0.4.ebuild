@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Grank"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Github Project Rank Command Line Tool"
 
 HOMEPAGE="https://github.com/LCTT/Grank"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/98/8c/6b3258b60ef41d29c043557972796fcf39d07c6f65c1133a9d343ae87cb4/Grank-${REALVERSION}.tar.gz"
-SOURCEFILE="Grank-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

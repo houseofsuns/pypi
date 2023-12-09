@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FiNoodle"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A small transpiler that converts human-readable text and TOML file 
 
 HOMEPAGE="https://github.com/uoa-compsci399-s2-2022/Finale"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/4d/36b52145e5b71dbb22cde7f8084d5a3aa355e6c7a2e1874dbce8700312fc/FiNoodle-${REALVERSION}.tar.gz"
-SOURCEFILE="FiNoodle-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

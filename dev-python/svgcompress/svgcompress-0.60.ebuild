@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SVGCompress"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Compress svg graphics"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/0c/ec/fb1393a632712c6191336a0d6f29e520672b229d303311ebef545ac930fd/SVGCompress-${REALVERSION}.tar.gz"
-SOURCEFILE="SVGCompress-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyReact"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python bridge to JSX & the React JavaScript library."
 
 HOMEPAGE="https://github.com/reactjs/react-python/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a1/1e/7c6eeff2c9ae2782dda2f57fa9aee7079efbabd5a6b81a4891f9496bd5ba/PyReact-${REALVERSION}.tar.gz"
-SOURCEFILE="PyReact-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

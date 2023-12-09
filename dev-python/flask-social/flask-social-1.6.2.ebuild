@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Social"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple OAuth provider integration for Flask-Security"
 
 HOMEPAGE="https://github.com/mattupstate/flask-social"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/1c/b323f02f3424bb20b60103c4b5dcea363e4c40496de12ce0237c373e495b/Flask-Social-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Social-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

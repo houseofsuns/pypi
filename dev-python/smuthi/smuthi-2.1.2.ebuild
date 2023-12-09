@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SMUTHI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Light scattering by multiple particles in thin-film systems"
 
 HOMEPAGE="https://gitlab.com/AmosEgel/smuthi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/8d/735b48096fe892f5e8f8fbf34fc9ddd08f2e8d67a7bb372d3ea71c440eb4/SMUTHI-${REALVERSION}.tar.gz"
-SOURCEFILE="SMUTHI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

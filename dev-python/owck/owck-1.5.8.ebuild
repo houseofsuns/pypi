@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OWCK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Optimal Weighted Kriging / Gaussian Process"
 
 HOMEPAGE="https://github.com/Basvanstein/OWCK"
 LICENSE="GNUv2"
-SRC_URI="https://files.pythonhosted.org/packages/d5/7f/a322993f7dc7ad5147e3ddb682feaa8b8d06f0c1bdfa12127ffc6e885261/OWCK-${REALVERSION}.tar.gz"
-SOURCEFILE="OWCK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

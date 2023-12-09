@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XGBoost-Ranking"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="XGBoost Extension for Easy Ranking & TreeFeature."
 
 HOMEPAGE="https://github.com/bigdong89/xgboostExtension"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6e/a8/8e757b85f86d8efbdf2f66c67b6a976b2c78d8803866dc9f417fb8234943/XGBoost-Ranking-${REALVERSION}.tar.gz"
-SOURCEFILE="XGBoost-Ranking-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Calculator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Performs basic calculation operations"
 
 HOMEPAGE="http://gopikrishna.net78.net"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/d7/d1/b92d9d20a0fe193088ef0c4ae15ca3710fdd35a09e4f59b80ef11fa62b7f/Calculator-${REALVERSION}.zip"
-SOURCEFILE="Calculator-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

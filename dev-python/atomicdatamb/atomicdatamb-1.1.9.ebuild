@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="atomicdataMB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Atomic data procedures for nexoclom and general use"
 
 HOMEPAGE="https://github.com/mburger-stsci/atomicdataMB"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/9f/cb/ac77c4b59051c8daedc62781c401ba445e67900f0f2959abc44322fcf06d/atomicdataMB-${REALVERSION}.tar.gz"
-SOURCEFILE="atomicdataMB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

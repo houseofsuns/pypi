@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CGRtools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/cimm-kzn/CGRtools"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/6a/5e/cc29dec8f6da3a62167057cb7a8695ff72958a84f70619351c443745b6c0/CGRtools-${REALVERSION}.tar.gz"
-SOURCEFILE="CGRtools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

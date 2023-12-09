@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="nonebot-plugin-60s"
+LITERALNAME="nonebot-plugin-60s"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Celery-OpenTracing"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OpenTracing support for Celery"
 
 HOMEPAGE="http://github.com/signalfx/python-celery"
 LICENSE="Apache Software License v2"
-SRC_URI="https://files.pythonhosted.org/packages/7c/b3/8ab55641fb3b9ebbd8bf5e71b5f6bc79f43e0be1afc350657f07c426d2a1/Celery-OpenTracing-${REALVERSION}.tar.gz"
-SOURCEFILE="Celery-OpenTracing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

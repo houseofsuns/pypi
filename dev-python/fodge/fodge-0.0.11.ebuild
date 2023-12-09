@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FODGE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Dynamic graph embedding algorithm (DGEA) to gradually shift the pro
 
 HOMEPAGE="https://github.com/AmitKabya/FODGE"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/99/dd/4cd09294c5eec6d622756e2df8a38be43c77cffbc9b9eb92e0341a9bfcb7/FODGE-${REALVERSION}.tar.gz"
-SOURCEFILE="FODGE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

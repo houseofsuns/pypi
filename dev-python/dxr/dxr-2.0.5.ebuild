@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DXR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DXR is a python library for DXR_mqtt"
 
 HOMEPAGE="http://pycn.me"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/0f/9e9363c68f3f96340270e978ec326afde326cd19524b418a39da4d1c360c/DXR-${REALVERSION}.tar.gz"
-SOURCEFILE="DXR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

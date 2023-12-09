@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BitVector"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A memory-efficient packed representation for bit arrays in pure Pyt
 
 HOMEPAGE="https://engineering.purdue.edu/kak/dist/BitVector-3.5.0.html"
 LICENSE="PYTHON"
-SRC_URI="https://files.pythonhosted.org/packages/46/1c/69678b05bcfbafa18d8166aa8ad89d0a57e9b348ac58a7586edc3424b33e/BitVector-${REALVERSION}.tar.gz"
-SOURCEFILE="BitVector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

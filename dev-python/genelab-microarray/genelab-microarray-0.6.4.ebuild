@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GeneLab-Microarray"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Standardized processing pipeline for microarray data on GeneLab."
 
 HOMEPAGE="https://github.com/jdrubin91/GeneLab-Microarray"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/35/51/40696054fadb6e9978dd83efc455afe9fd01ac7bf31eb7b4257643edfb8d/GeneLab-Microarray-${REALVERSION}.tar.gz"
-SOURCEFILE="GeneLab-Microarray-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

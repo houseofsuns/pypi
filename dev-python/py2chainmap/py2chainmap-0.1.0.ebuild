@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Py2ChainMap"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A backport of ChainMap from Python 3 to Python 2."
 
 HOMEPAGE="https://github.com/kkxue/Py2ChainMap/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/af/3b/496d8a97d947117e29593c121b88c26c764f279f28011433e9784470df8d/Py2ChainMap-${REALVERSION}.zip"
-SOURCEFILE="Py2ChainMap-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

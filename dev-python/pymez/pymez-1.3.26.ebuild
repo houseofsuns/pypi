@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyMez"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Measurement, Analysis and Data Management Software. To load the API
 
 HOMEPAGE="https://github.com/aricsanders/pyMez"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/1a/f23770f5db03c62c9153ff2a7042ed045ee8205fd555d0f762a9ecb3c2f7/pyMez-${REALVERSION}.tar.gz"
-SOURCEFILE="pyMez-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

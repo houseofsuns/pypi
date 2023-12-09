@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyKubeCtl"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python bridge to kubectl"
 
 HOMEPAGE="https://github.com/4Catalyzer/pykubectl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/4a/003faeb0ffb8b4040d51edd7c594dc3d3a2894160418d91802bb88be79a3/PyKubeCtl-${REALVERSION}.tar.gz"
-SOURCEFILE="PyKubeCtl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

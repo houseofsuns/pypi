@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Affirmations"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Randomly adds affirming print statements to functions."
 
 HOMEPAGE="https://github.com/TimNicholsonShaw/affirmation"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ca/ca/b4e701f17671b63b24a4f90c36f54ae83d576b324f41620d4c3b20666b8b/Affirmations-${REALVERSION}.tar.gz"
-SOURCEFILE="Affirmations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

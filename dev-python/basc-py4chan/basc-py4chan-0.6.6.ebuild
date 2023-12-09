@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BASC-py4chan"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python 4chan API Wrapper. Improved version of Edgeworth's original 
 
 HOMEPAGE="http://github.com/bibanon/BASC-py4chan"
 LICENSE="DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE Version 2, December 2004  Copyright C 2004 Sam Hocevar <sam@hocevar.net>  Everyone is permitted to copy and distribute verbatim or modified copies of this license document, and changing it is allowed as long as the name is changed.  DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION  0. You just DO WHAT THE FUCK YOU WANT TO.  "
-SRC_URI="https://files.pythonhosted.org/packages/01/73/04390d6006ebe903d06980a37c3d2e4a977b923ed924067e20ff2e804bd0/BASC-py4chan-${REALVERSION}.tar.gz"
-SOURCEFILE="BASC-py4chan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LunarCalendar-ext"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A fork from LunarCalendar."
 
 HOMEPAGE="https://github.com/KaixuYang/LunarCalendar-extension"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/ab/f92ac9fa81ec4b9b302d9b10a15cc852e324314eb096ec1c1a5b18725c88/LunarCalendar-ext-${REALVERSION}.tar.gz"
-SOURCEFILE="LunarCalendar-ext-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

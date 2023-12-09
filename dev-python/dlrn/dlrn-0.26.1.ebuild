@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DLRN"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Build packages"
 
 HOMEPAGE="http://www.openstack.org/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9f/93/a38ffe3482e2ea5a73943b3e6fa13ccec1a718c5040d29b750eb070e0e24/DLRN-${REALVERSION}.tar.gz"
-SOURCEFILE="DLRN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HTTP-PyServer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple way to make complex HTTP servers with python"
 
 HOMEPAGE="https://github.com/Alex-Jando/HTTP-PyServer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c6/39/926535918071076203f6cd853ecef8d89e3bf94f4811b91afca3fcf9db4e/HTTP-PyServer-${REALVERSION}.tar.gz"
-SOURCEFILE="HTTP-PyServer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

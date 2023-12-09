@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BiblioPixelAnimations"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BiblioPixelAnimations is an animation repository for animation clas
 
 HOMEPAGE="http://github.com/maniacallabs/BiblioPixelAnimations/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/a2/3c3a7b71f420734a40853945157bcd56b24f7f15c220368ff5cb1a79fe0e/BiblioPixelAnimations-${REALVERSION}.tar.gz"
-SOURCEFILE="BiblioPixelAnimations-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

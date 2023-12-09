@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="robotpy-toolkit-7407"
+LITERALNAME="robotpy-toolkit-7407"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )

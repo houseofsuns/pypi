@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="aioWiserHeatAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An AsyncIO API for controlling the Drayton Wiser Heating system"
 
 HOMEPAGE="https://github.com/msp1974/aioWiserHeatAPI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6a/93/5a86b73618cb9d76989b90e142c34831368a841d5e848c80c27d8b84f02c/aioWiserHeatAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="aioWiserHeatAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MAGINE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package to analyze biological data."
 
 HOMEPAGE="https://github.com/LoLab-VU/Magine"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/98/2f/ac3f24511bc074dd2ff3bf61e6a0ab16fc58f11460a7329f2b51a8df6568/MAGINE-${REALVERSION}.tar.gz"
-SOURCEFILE="MAGINE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GetSubString"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Get stdout line substring based on regexp."
 
 HOMEPAGE="https://gitlab.com/alda78/getsubstr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/74/97417ddb6bbbf5caa5cd363ad012346db8f36815dc1a14d401243062a91d/GetSubString-${REALVERSION}.tar.gz"
-SOURCEFILE="GetSubString-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

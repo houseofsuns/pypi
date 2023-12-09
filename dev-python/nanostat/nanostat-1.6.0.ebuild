@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NanoStat"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Calculate statistics for Oxford Nanopore sequencing data and alignm
 
 HOMEPAGE="https://github.com/wdecoster/nanostat"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/96/bb/755daafc7ee2a4afa5716c360ddd424fe85801790f101492ead1c5fde28f/NanoStat-${REALVERSION}.tar.gz"
-SOURCEFILE="NanoStat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

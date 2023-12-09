@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MyGaiaDB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Setup local serverless ESA Gaia / 2MASS / ALLWISE / CATWISE databas
 
 HOMEPAGE="https://github.com/henrysky/MyGaiaDB"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/32/877b13069303346451c57fa8ac0d2f0b351cba79c39766fb5c44849796a0/MyGaiaDB-${REALVERSION}.tar.gz"
-SOURCEFILE="MyGaiaDB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

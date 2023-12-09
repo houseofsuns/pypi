@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Threads"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A helper library to work with threads within Flask applications."
 
 HOMEPAGE="https://github.com/sintezcs/flask-threads.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/76/2f/82c24c44e2bf42af0c4353d7b910e67c41d553e6f586083339ea659d2385/Flask-Threads-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Threads-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

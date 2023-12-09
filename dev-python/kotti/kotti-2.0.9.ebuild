@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kotti"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A high-level, Pythonic web application framework based on Pyramid a
 
 HOMEPAGE="http://kotti.pylonsproject.org/"
 LICENSE="BSD-derived http://www.repoze.org/LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/c9/e6/c66ce9c60a17cf6e451b7a3bb59fd7390e9f95553dd797e41add5f23bf29/Kotti-${REALVERSION}.tar.gz"
-SOURCEFILE="Kotti-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

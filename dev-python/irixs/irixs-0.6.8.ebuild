@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IRIXS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Routines for the IRIXS spectrometer"
 
 HOMEPAGE="http://github.com/djlns/irixs"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/27/93/a289e6f3bf455b82bdbb142ffb0772258be66fdf0093a2e0e753cdf56409/IRIXS-${REALVERSION}.tar.gz"
-SOURCEFILE="IRIXS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

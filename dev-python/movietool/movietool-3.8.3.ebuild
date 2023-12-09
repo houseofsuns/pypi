@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MovieTool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="=?utf-8?q?Descarga_tus_peliculas_y_series=2C_automatiza_todo_y_crea
 
 HOMEPAGE="https://github.com/ElHaban3ro/MovieTool"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4c/60/82ab77bcf5c88f6155970dbe440fd3c6b2825c8b7e87eda247d6684c6654/MovieTool-${REALVERSION}.tar.gz"
-SOURCEFILE="MovieTool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

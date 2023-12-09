@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Sijax"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An extension for the Flask microframework that adds Sijax support."
 
 HOMEPAGE="https://github.com/spantaleev/flask-sijax"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/97/0e/b2c803d8af324c7161608339496b7a8b05af4711d3da329f8e8d7fc7c49d/Flask-Sijax-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Sijax-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

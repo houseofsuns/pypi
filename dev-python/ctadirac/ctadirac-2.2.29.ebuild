@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CTADIRAC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CTADIRAC is the CTA extension of DIRAC"
 
 HOMEPAGE="https://gitlab.cta-observatory.org/cta-computing/dpps/CTADIRAC/"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/30/8d/6efefffd8e5cc58adad00d01a55e1b19a73548ce09c75bf0702e0e6e6d45/CTADIRAC-${REALVERSION}.tar.gz"
-SOURCEFILE="CTADIRAC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

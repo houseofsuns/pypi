@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ImmuneDB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A system for the analysis and exploration of high-throughput adapti
 
 HOMEPAGE="https://github.com/arosenfeld/immunedb"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/ba/10/d5732f71fc69de4a6e0464e827a205c2b130e01a7fe4426515c15a0cb49b/ImmuneDB-${REALVERSION}.tar.gz"
-SOURCEFILE="ImmuneDB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

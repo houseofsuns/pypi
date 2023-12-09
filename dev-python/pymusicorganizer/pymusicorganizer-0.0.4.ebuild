@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMusicOrganizer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CLI tool to keep your music organized."
 
 HOMEPAGE="https://github.com/g-battaglia/pymusicorganizer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/0e/c7b2fd9f9d2c330878dbd73b6cf82d14531f37768a059a3407940c9c2c74/PyMusicOrganizer-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMusicOrganizer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

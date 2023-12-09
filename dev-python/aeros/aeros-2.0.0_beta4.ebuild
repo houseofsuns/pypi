@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Aeros"
 REALVERSION="2.0.0b4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="High-performance ASGI framework"
 
 HOMEPAGE="https://github.com/TheClockTwister/Aeros"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6b/de/7b5b29881ceacd54d5284501f2e7166881b587788609b0a23130b5caa454/Aeros-${REALVERSION}.tar.gz"
-SOURCEFILE="Aeros-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

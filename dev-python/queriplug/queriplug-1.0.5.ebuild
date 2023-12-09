@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QueriPlug"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A SQLite3 wrapper for python"
 
 HOMEPAGE="https://github.com/IvanVZabrodin/QueriPlug"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b6/04/0346145b3489d67bebfa278c7456864e3484ef4fa55b65343b0b355ba0b8/QueriPlug-${REALVERSION}.tar.gz"
-SOURCEFILE="QueriPlug-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

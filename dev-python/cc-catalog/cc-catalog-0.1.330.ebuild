@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CC-CataLog"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for computational catalyst research"
 
 HOMEPAGE="https://github.com/statt8900/CataLog"
 LICENSE="APACHE LICENSE, VERSION 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/40/d2/6b693c5391517b6e04b4d861b7dbb92b9c0f760ce066d9af58e014a82971/CC-CataLog-${REALVERSION}.tar.gz"
-SOURCEFILE="CC-CataLog-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

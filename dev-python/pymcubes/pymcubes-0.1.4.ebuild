@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMCubes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Marching cubes for Python"
 
 HOMEPAGE="https://github.com/pmneila/PyMCubes"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/22/4a/fd2e95b1a2010d2a21c071313472f8d7e66cb8cb3351cef1b83c5ebb7cbe/PyMCubes-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMCubes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DecisionForest"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package for DecisionForest API access"
 
 HOMEPAGE="https://gitlab.com/decisionforest/decisionforest-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c5/f6/3954524021631e82f380f47e5196a8760cd35f00d3ac9f59abb372d90a28/DecisionForest-${REALVERSION}.tar.gz"
-SOURCEFILE="DecisionForest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

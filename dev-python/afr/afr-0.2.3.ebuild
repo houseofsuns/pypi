@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AFR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Statistical toolkit aimed to help statisticians, data analysts, dat
 
 HOMEPAGE="https://github.com/AFRKZ/AFR"
 LICENSE="3-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ca/19/9fb0f29f47b6f35d5cccc41f1015c67dae76144c1ca4d194963002fdd673/AFR-${REALVERSION}.tar.gz"
-SOURCEFILE="AFR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

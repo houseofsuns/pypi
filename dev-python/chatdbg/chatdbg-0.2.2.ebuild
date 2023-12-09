@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChatDBG"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ChatDBG."
 
 HOMEPAGE="https://github.com/plasma-umass/ChatDBG"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/79/66/b8eab83735b3ccda3565c9c3a2c3c85d53de50b40f5d35b3157e5dd4c057/ChatDBG-${REALVERSION}.tar.gz"
-SOURCEFILE="ChatDBG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

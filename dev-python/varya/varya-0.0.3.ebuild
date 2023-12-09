@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Varya"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Machine Learning Tools"
 
 HOMEPAGE="https://github.com/kritikseth"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3e/46/2920bd49908225a63af130e06bdb91811a2c02ef290fd6615cf408683563/Varya-${REALVERSION}.tar.gz"
-SOURCEFILE="Varya-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

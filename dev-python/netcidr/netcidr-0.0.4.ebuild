@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NetCIDR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Object representations, operations and logic for hosts, networks, a
 
 HOMEPAGE="http://netcidr.svn.sourceforge.net/viewvc/netcidr/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/54/88/04f71deef3b5323c40ce62ae21d3343ac9e7827195a4bb00e5ce83630f34/NetCIDR-${REALVERSION}.tar.gz"
-SOURCEFILE="NetCIDR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

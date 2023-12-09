@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LRphase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Phasing individual long reads using known haplotype information."
 
 HOMEPAGE="https://github.com/Boyle-Lab/LRphase.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/f4/f15e00a50b764c931637d562c56d680e38aad2a753c348a67947f9dabc9d/LRphase-${REALVERSION}.tar.gz"
-SOURCEFILE="LRphase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

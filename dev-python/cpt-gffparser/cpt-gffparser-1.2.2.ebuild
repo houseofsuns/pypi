@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CPT-GFFParser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Biopython extension package for I/O of GFF files"
 
 HOMEPAGE="https://pypi.org/project/CPT-GFFParser/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/8c/ba/1816729621d1aac7d866bb63e06693f3112066ea9c01eff8b4d977beeec6/CPT_GFFParser-${REALVERSION}.tar.gz"
-SOURCEFILE="CPT_GFFParser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="types-pyOpenSSL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Typing stubs for pyOpenSSL"
 
 HOMEPAGE="https://github.com/python/typeshed"
 LICENSE="Apache-2.0 license"
-SRC_URI="https://files.pythonhosted.org/packages/a4/43/32f874b5fa2240932d758c8f4350632e4edd19e662032ff4992ebcd8a882/types-pyOpenSSL-${REALVERSION}.tar.gz"
-SOURCEFILE="types-pyOpenSSL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

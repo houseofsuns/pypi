@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BlastRadius"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Interactive visualizations of Terraform dependency graphs"
 
 HOMEPAGE="http://pypi.python.org/pypi/BlastRadius/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/19/5a/154aa8523324dc3ffb6e2f6daeab0c34363bfe07b5405d61ffdb01e6f75d/BlastRadius-${REALVERSION}.tar.gz"
-SOURCEFILE="BlastRadius-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

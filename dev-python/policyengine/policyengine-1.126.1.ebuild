@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PolicyEngine"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/policyengine/policyengine"
 LICENSE="http://www.fsf.org/licensing/licenses/agpl-3.0.html"
-SRC_URI="https://files.pythonhosted.org/packages/ac/b7/6cd30ac33e703cb033d0c1357c62624c74c7648f3a9eacaa438d5e24646c/PolicyEngine-${REALVERSION}.tar.gz"
-SOURCEFILE="PolicyEngine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TurbineClient"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Turbine Science Gateway Client"
 
 HOMEPAGE="https://github.com/CCSI-Toolset/turb_client"
 LICENSE="See LICENSE.md"
-SRC_URI="https://files.pythonhosted.org/packages/8a/49/f3c8658e48c17806738655e2a6795c2bcfac3af6afa7eb504e114cdf01cf/TurbineClient-${REALVERSION}.tar.gz"
-SOURCEFILE="TurbineClient-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

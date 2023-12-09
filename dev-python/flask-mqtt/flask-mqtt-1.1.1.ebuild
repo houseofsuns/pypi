@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-MQTT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for the MQTT protocol"
 
 HOMEPAGE="https://github.com/MrLeeh/Flask-MQTT"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/aa/01/da65ea5c0fb5f5e96ddb41bd3e0b526c26edf9f09907966e0c8f2aa72c4e/Flask-MQTT-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-MQTT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

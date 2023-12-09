@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PysparkGateway"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Connect Pyspark to remote clusters"
 
 HOMEPAGE="https://github.com/abronte/PysparkGateway"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cd/7d/5396903f94d19fcf24e15acc87617ef840efca3ffe2b6127fa2daba61005/PysparkGateway-${REALVERSION}.tar.gz"
-SOURCEFILE="PysparkGateway-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

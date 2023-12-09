@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PythonDebugTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A set of helpers for debugging Python 3.x."
 
 HOMEPAGE="https://github.com/Jakar510/PythonDebugTools"
 LICENSE="GPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/75/33/9a779b5924a94185d5734d2c261a823507d3a596bc5ba60b7d8b94ada16f/PythonDebugTools-${REALVERSION}.tar.gz"
-SOURCEFILE="PythonDebugTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

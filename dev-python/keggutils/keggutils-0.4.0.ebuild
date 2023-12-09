@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KEGGutils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple utils to work with KEGG data on NetworkX"
 
 HOMEPAGE="https://github.com/filippocastelli/KEGGutils"
 LICENSE="Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/fa/d9/44c080def3e22242287be0f4a9f97b8ac986eeb6fabf5ea1fbfa70cf50e8/KEGGutils-${REALVERSION}.tar.gz"
-SOURCEFILE="KEGGutils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

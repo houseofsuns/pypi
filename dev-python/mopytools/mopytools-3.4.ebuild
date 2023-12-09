@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MoPyTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Set of tools to build Mozilla Services apps"
 
 HOMEPAGE="https://github.com/mozilla-services/mopytools"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/48/00/6fc16192427db4b33c3dfd5d94082072aa7d3eb76f8a6d902c7160fec7c9/MoPyTools-${REALVERSION}.tar.gz"
-SOURCEFILE="MoPyTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

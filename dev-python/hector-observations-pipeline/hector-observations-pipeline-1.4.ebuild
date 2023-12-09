@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Hector-Observations-Pipeline"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Hector Galaxy Survey Observations pipeline"
 
 HOMEPAGE="https://github.com/samvaughan/Hector-Observations-Pipeline"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/6d/ed/18d6ec4e2d5dd6f93c319754d995b512622f00b7d2d873d1265370b8f8c2/Hector-Observations-Pipeline-${REALVERSION}.tar.gz"
-SOURCEFILE="Hector-Observations-Pipeline-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

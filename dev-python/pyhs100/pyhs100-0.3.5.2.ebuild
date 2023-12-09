@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyHS100"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Interface for TPLink HS1xx plugs, HS2xx wall switches & LB1xx bulbs
 
 HOMEPAGE="https://github.com/GadgetReactor/pyHS100"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/00/a2/18543b5f4233dcb7616b73aa6ba48944bf36cf578d5860370c754bc619ed/pyHS100-${REALVERSION}.tar.gz"
-SOURCEFILE="pyHS100-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PolicyEngine-UK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PolicyEngine tax and benefit system for the UK"
 
 HOMEPAGE="https://github.com/PolicyEngine/policyengine-uk"
 LICENSE="http://www.fsf.org/licensing/licenses/agpl-3.0.html"
-SRC_URI="https://files.pythonhosted.org/packages/ec/b9/7908be5c93298e810f591640f9ff4e595fcdbc1d33528b5b933ab9611a31/PolicyEngine-UK-${REALVERSION}.tar.gz"
-SOURCEFILE="PolicyEngine-UK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

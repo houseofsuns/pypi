@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ReFrame-HPC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ReFrame is a powerful framework for writing system regression tests
 
 HOMEPAGE="https://github.com/reframe-hpc/reframe"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/fa/a5/830813e03287fd8a2d3c7d73ea2d83b6fa779f22a17d164191d16fd7efc4/ReFrame-HPC-${REALVERSION}.tar.gz"
-SOURCEFILE="ReFrame-HPC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

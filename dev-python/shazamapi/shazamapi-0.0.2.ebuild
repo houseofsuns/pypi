@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ShazamAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fully reverse engeenired shazam api"
 
 HOMEPAGE="https://github.com/Numenorean/ShazamAPI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/25/0a/6b754fe396de52f3fe86ba76ba1dd1d9346d68179613249063c8ef0926ea/ShazamAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="ShazamAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

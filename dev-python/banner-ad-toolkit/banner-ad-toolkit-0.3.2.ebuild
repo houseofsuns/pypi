@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Banner-Ad-Toolkit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A command line tool to aid in the development of banner ad campaign
 
 HOMEPAGE="https://bitbucket.org/tsantor/banner-ad-toolkit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/4a/030c01a6fde58a5fe6ae68b3d347041cb36121b91488d7c96097cc30a7f9/Banner-Ad-Toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="Banner-Ad-Toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XPER"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="XPER (eXplainable PERformance) is a methodology designed      to me
 
 HOMEPAGE="https://github.com/hi-paris/XPER"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/61/63ae6ea28591afe9d3363b80887f04efade9e47b68f0ac54ffaa744265eb/XPER-${REALVERSION}.tar.gz"
-SOURCEFILE="XPER-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

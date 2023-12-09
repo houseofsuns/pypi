@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IGram"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="InstaGram Scrapper"
 
 HOMEPAGE="https://github.com/3110vaibhav2005/Igram/blob/main/sample1.py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/7b/a763000bc948b730d49e33573fddd8b66d728e6fb5f68982218994e4dc3e/IGram-${REALVERSION}.tar.gz"
-SOURCEFILE="IGram-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DRSlib-DavidRodriguezSoaresCUI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DRSlib - a set of utilities by DavidRodriguezSoaresCUI"
 
 HOMEPAGE="https://github.com/DavidRodriguezSoaresCUI/DRSlib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/87/4418b9603cce91e6bd269db38cd0a596cc43c352950060f9962304906ac6/DRSlib-DavidRodriguezSoaresCUI-${REALVERSION}.tar.gz"
-SOURCEFILE="DRSlib-DavidRodriguezSoaresCUI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

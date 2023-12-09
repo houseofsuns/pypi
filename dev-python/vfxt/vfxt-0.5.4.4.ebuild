@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="vFXT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Avere virtual FXT (vFXT) Python library and vfxt.py command lin
 
 HOMEPAGE="http://www.averesystems.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/f6/3a8f6bdca0aa360b5058086ea7fae5d22b4cb9e74ea877b4044a0454503a/vFXT-${REALVERSION}.tar.gz"
-SOURCEFILE="vFXT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

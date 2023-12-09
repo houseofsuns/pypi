@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyGeoTile"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package to handle tiles and points of different projections,
 
 HOMEPAGE="https://github.com/geometalab/pyGeoTile"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/43/4efe7a429e75b946dace4493e012990d135ac1b063d4e8fa710f04a6f191/pyGeoTile-${REALVERSION}.tar.gz"
-SOURCEFILE="pyGeoTile-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

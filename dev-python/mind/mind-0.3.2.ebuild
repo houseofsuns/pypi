@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mind"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mind is library for games in Python"
 
 HOMEPAGE="https://github.com/Knowlege/Mind"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/b2/e2/c56893dccc39f85b2f42c042c98b55bbd063933cdf950a7ab9d946a42071/Mind-${REALVERSION}.zip"
-SOURCEFILE="Mind-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

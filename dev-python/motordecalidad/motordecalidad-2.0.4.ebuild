@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MotorDeCalidad"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Paquete demo de Motor de Calidad"
 
 HOMEPAGE=""
 LICENSE="Management Solutions"
-SRC_URI="https://files.pythonhosted.org/packages/ee/87/f018e515fcd984dbd5af697b3d66adcfc9cb5130b097620bf1fce1cf2a64/MotorDeCalidad-${REALVERSION}.tar.gz"
-SOURCEFILE="MotorDeCalidad-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

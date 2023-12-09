@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CGEA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Chemo Genomic Enrichment Analysis"
 
 HOMEPAGE="https://bitbucket.org/MaxTomlinson/cgea"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7d/57/68b479d4734feac4ec6a7e1fc8a1190a0439c89d1d2b851a5e2683d34163/CGEA-${REALVERSION}.tar.gz"
-SOURCEFILE="CGEA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

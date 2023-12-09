@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepImageSearch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DeepImageSearch is a Python library for fast and accurate image sea
 
 HOMEPAGE="https://github.com/TechyNilesh/DeepImageSearch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/56/9e61f13e55a4e0df6d5d44122a278b087fcad384a9063bba97c009b59cca/DeepImageSearch-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepImageSearch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

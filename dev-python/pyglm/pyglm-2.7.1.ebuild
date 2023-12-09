@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyGLM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OpenGL Mathematics library for Python"
 
 HOMEPAGE="https://github.com/Zuzu-Typ/PyGLM"
 LICENSE="zlib/libpng license"
-SRC_URI="https://files.pythonhosted.org/packages/78/86/bf1d4965824f8b53e0fff520e773845633929114ddd0a6d6e522add92c98/PyGLM-${REALVERSION}.tar.gz"
-SOURCEFILE="PyGLM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

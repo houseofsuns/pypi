@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyHTML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple HTML generator for Python"
 
 HOMEPAGE="https://github.com/cenkalti/pyhtml"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/52/b5/ac8e2ff8748b76ee09696b29365100da1828af7f49a8614358733de2d9e8/PyHTML-${REALVERSION}.tar.gz"
-SOURCEFILE="PyHTML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

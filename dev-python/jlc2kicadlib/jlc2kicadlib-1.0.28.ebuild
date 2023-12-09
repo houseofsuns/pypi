@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JLC2KiCadLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="JLC2KiCad_lib is a python script that generate a component library 
 
 HOMEPAGE="https://github.com/TousstNicolas/JLC2KiCad_lib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/32/92/031f7f61e0a3d68b8541d1fbb53c47227fc7eab25d2c3cd1cd1d93efec9c/JLC2KiCadLib-${REALVERSION}.tar.gz"
-SOURCEFILE="JLC2KiCadLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

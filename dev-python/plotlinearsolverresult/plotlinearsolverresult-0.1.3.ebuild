@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PlotLinearSolverResult"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This project is for plot LinearMSTMM solver result that is write wi
 
 HOMEPAGE="https://github.com/Qxxx1xx/PlotLinearSolverResult"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/4e/27a5f387284284b42e4fc42cb2b922d305d99960567d8b406f2e64d4dce9/PlotLinearSolverResult-${REALVERSION}.tar.gz"
-SOURCEFILE="PlotLinearSolverResult-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

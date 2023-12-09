@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SPF2IP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python module to get IP addresses from an SPF record"
 
 HOMEPAGE="https://github.com/nathandines/SPF2IP"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/b1/9d537d4d910e4b20474a6107f3fba3470846a7b309a515926da0928d5db8/SPF2IP-${REALVERSION}.tar.gz"
-SOURCEFILE="SPF2IP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

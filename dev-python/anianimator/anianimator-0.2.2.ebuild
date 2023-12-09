@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ANIAnimator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ANIAnimator makes the GIF file from a given chemical ANI file"
 
 HOMEPAGE="https://github.com/eftalgezer/ANIAnimator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bd/66/65eaea91a095e58967eb560be2748b11b21c809b4579e9fa7514998b790b/ANIAnimator-${REALVERSION}.tar.gz"
-SOURCEFILE="ANIAnimator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

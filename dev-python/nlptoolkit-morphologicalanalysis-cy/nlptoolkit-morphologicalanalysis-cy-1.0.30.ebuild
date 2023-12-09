@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NlpToolkit-MorphologicalAnalysis-Cy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Turkish Morphological Analysis"
 
 HOMEPAGE="https://github.com/StarlangSoftware/TurkishMorphologicalAnalysis-Cy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/8c/af53077585c3db59ee0dbccec26a08fc46da91589d3f3486b74d6ecb1a35/NlpToolkit-MorphologicalAnalysis-Cy-${REALVERSION}.tar.gz"
-SOURCEFILE="NlpToolkit-MorphologicalAnalysis-Cy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Orange3-Survival-Analysis"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Survival Analysis add-on for Orange data mining software package."
 
 HOMEPAGE="https://github.com/biolab/orange3-survival-analysis"
 LICENSE="GPL3+"
-SRC_URI="https://files.pythonhosted.org/packages/5f/de/e941c066dbd10320e686f25d8a5fafdebffd7511fa3ed771bab70625fc36/Orange3-Survival-Analysis-${REALVERSION}.tar.gz"
-SOURCEFILE="Orange3-Survival-Analysis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

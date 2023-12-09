@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FQCS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This is for FQCS Capstone Project"
 
 HOMEPAGE="https://github.com/trannamtrung1st/FQCS-Research"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/3b/7cc59f82e96a1e5f81403e34c61ea9d31b0714609328236ec2b05126951a/FQCS-${REALVERSION}.tar.gz"
-SOURCEFILE="FQCS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

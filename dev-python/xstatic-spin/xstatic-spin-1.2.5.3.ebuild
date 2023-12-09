@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-Spin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Spin 1.2.5 (XStatic packaging standard)"
 
 HOMEPAGE="http://fgnass.github.io/spin.js/"
 LICENSE="same as Spin"
-SRC_URI="https://files.pythonhosted.org/packages/a0/7a/598e72d65c1fca68aa1a47f62d6dd72ad8aa67ceaaa5a5193afc8ae9ada1/XStatic-Spin-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-Spin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

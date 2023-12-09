@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RM-Tools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="RM-synthesis, RM-clean and QU-fitting on polarised radio spectra"
 
 HOMEPAGE="https://github.com/CIRADA-Tools/RM-Tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/74/f908855b622c4f5dd5ac959edf9ca35cc897deb890bcea8b4193a8228866/RM-Tools-${REALVERSION}.tar.gz"
-SOURCEFILE="RM-Tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

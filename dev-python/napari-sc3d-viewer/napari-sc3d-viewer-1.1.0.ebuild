@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="napari-sc3D-viewer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A plugin to visualize 3D single cell omics"
 
 HOMEPAGE="https://github.com/GuignardLab/napari-sc3D-viewer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/b9/7819bf08161c75b902da49dc6299338d785d7a5be0d9fb8dd67d7b0b39fe/napari-sc3D-viewer-${REALVERSION}.tar.gz"
-SOURCEFILE="napari-sc3D-viewer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

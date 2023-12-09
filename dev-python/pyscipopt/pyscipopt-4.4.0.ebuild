@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySCIPOpt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python interface and modeling environment for SCIP"
 
 HOMEPAGE="https://github.com/SCIP-Interfaces/PySCIPOpt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/37/bd/3f2b615669247c061d72d014b9713dc21f77e5fe9ab4ffa65451890f250e/PySCIPOpt-${REALVERSION}.tar.gz"
-SOURCEFILE="PySCIPOpt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

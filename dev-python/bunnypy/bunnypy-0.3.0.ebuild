@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BunnyPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lightweight Python Web Framework"
 
 HOMEPAGE="https://github.com/ivanlulyf/bunnypy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/92/84b5d6df4db13120ac3efb8495e58928e177db1ae4ae2a83512979b420e7/BunnyPy-${REALVERSION}.tar.gz"
-SOURCEFILE="BunnyPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

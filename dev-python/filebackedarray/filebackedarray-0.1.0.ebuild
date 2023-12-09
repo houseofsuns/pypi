@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FileBackedArray"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="File backed objects for array and matrix like data"
 
 HOMEPAGE="https://github.com/biocpy/FileBackedArray"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/48/39/cd6840a863c25ea01ea5fd216993acc24d109a7056029cb112036ec5e15e/FileBackedArray-${REALVERSION}.tar.gz"
-SOURCEFILE="FileBackedArray-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

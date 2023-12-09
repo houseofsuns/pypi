@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="celoMine"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Predictive machine learning for Celonis"
 
 HOMEPAGE="https://github.com/JeanBertinR/celoMine"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/5a/97/25e809ef269aba911d5d1b993a3889fc9af7a9efeb9b39ab769371c6e8d1/celoMine-${REALVERSION}.tar.gz"
-SOURCEFILE="celoMine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

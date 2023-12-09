@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TimeConvert"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Time Convert for Humans™"
 
 HOMEPAGE="https://github.com/xxx-convert/TimeConvert"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/3e/6daa9585a1fa17c25d854e4c6bd2ae53b2a075c081416e39d80ff29957ca/TimeConvert-${REALVERSION}.tar.gz"
-SOURCEFILE="TimeConvert-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

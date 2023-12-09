@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Webpack"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for managing assets with Webpack."
 
 HOMEPAGE="https://github.com/nickjj/flask-webpack"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8a/20/d65d148939e75f860b059f3d960ccdd316da599a9ee54462d9b53821d16c/Flask-Webpack-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Webpack-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

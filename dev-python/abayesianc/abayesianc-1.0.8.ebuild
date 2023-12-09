@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ABayesianC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A general-purpose approximate Bayesian calculation"
 
 HOMEPAGE="https://github.com/janursa/ABayesianC"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0b/9d/2f11317bbbac3c62d3a0b5fe6a1374e5282188774f02fa51d60678638739/ABayesianC-${REALVERSION}.tar.gz"
-SOURCEFILE="ABayesianC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

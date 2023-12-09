@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RNG"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python3 API for the C++ Random Library"
 
 HOMEPAGE=""
 LICENSE="Free for non-commercial use"
-SRC_URI="https://files.pythonhosted.org/packages/d0/a8/459fd20204a0f8773b6724bdc8018cef3db2e47d4153c0cbe182fdcf3b0e/RNG-${REALVERSION}.tar.gz"
-SOURCEFILE="RNG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

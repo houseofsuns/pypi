@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyIsEven"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Check is a integer is even"
 
 HOMEPAGE="https://github.com/rosineygp/PyIsEven"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/59/917e3ebe62b534cc4a62d0482f4574f61bd563af3d5576a47d1b5a4c9bc9/PyIsEven-${REALVERSION}.tar.gz"
-SOURCEFILE="PyIsEven-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

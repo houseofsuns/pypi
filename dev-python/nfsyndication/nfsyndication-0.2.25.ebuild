@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NFSyndication"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="News Feed Syndication - A package that read and fetch RSS feeds fro
 
 HOMEPAGE=""
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/32/91/e554426f613ff85a863dd4768c4b443c842c9548b75ee4c2900dd3cd3179/NFSyndication-${REALVERSION}.tar.gz"
-SOURCEFILE="NFSyndication-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

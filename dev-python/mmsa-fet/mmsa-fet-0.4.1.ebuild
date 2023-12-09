@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MMSA-FET"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Tool for extracting multimodal features from videos."
 
 HOMEPAGE="https://github.com/thuiar/MMSA_FET"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3a/0f/83816f5865bd85e2c4c5bf50d37ea24d7b166137582971acb508f7e0c5d2/MMSA-FET-${REALVERSION}.tar.gz"
-SOURCEFILE="MMSA-FET-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FunID"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
@@ -15,8 +16,8 @@ DESCRIPTION="Fungal Identification Pipeline"
 
 HOMEPAGE="https://github.com/Changwanseo/FunID"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f1/81/ee1190bea2ff4dd671345fe431101f580e8d4bb2708fe4e9db6275fbed85/FunID-${REALVERSION}.tar.gz"
-SOURCEFILE="FunID-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

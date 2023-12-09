@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MAVProxy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MAVProxy MAVLink ground station"
 
 HOMEPAGE="https://github.com/ArduPilot/MAVProxy"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/fe/04/ef5b23951bd880e6a244dfb0d78a5735c851cdb16350c4ca9f0bc5bee3e1/MAVProxy-${REALVERSION}.tar.gz"
-SOURCEFILE="MAVProxy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

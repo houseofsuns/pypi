@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DRAM-bio"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Distilled and Refined Annotation of Metabolism: A tool for the anno
 
 HOMEPAGE="https://github.com/shafferm/DRAM/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/bd/a820a040aec889908a0854205c58b1b0c79c0691e13320287a79095c6dc4/DRAM-bio-${REALVERSION}.tar.gz"
-SOURCEFILE="DRAM-bio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

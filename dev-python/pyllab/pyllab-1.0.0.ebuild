@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pyllab"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Deep learning library"
 
 HOMEPAGE="https://github.com/ez-spark/Pyllab"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8e/ba/d595405ee26e400782362f51ad56676b9a69b37fa57514386daa659be27e/Pyllab-${REALVERSION}.tar.gz"
-SOURCEFILE="Pyllab-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

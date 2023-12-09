@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ARS"
 REALVERSION="0.5b1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Physically-accurate robotics simulator"
 
 HOMEPAGE="http://bitbucket.org/glarrain/ars"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/ed/38/6a37b094d9b7ee7940c312d65d93d3c0ed54b3e146556e1c5f7186a6de1a/ARS-${REALVERSION}.zip"
-SOURCEFILE="ARS-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

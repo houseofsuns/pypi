@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Dustvw"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fine dust visualization"
 
 HOMEPAGE="https://github.com/Pandemic23/FCV-ver1.3/tree/main"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/f3/55bc571e9c29697aae4ce9601a3b77a30075f1cfc945c58424bad779de8e/Dustvw-${REALVERSION}.tar.gz"
-SOURCEFILE="Dustvw-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

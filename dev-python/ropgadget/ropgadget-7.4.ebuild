@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ROPGadget"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This tool lets you search your gadgets on your binaries to facilita
 
 HOMEPAGE="https://github.com/JonathanSalwan/ROPgadget"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/0f/5f/55add023bd2af62dc25f17bb0f26360e228ecb5cb4c0182a714a01672000/ROPGadget-${REALVERSION}.tar.gz"
-SOURCEFILE="ROPGadget-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Auth"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Auth extension for Flask."
 
 HOMEPAGE="https://bitbucket.org/Empanado/flask-auth"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b5/f5/0be3fa48160222a538d7db1715ea88ca8674aa2dbfcb2ba10b9cf47d16cd/Flask-Auth-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

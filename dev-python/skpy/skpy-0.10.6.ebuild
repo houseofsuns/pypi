@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SkPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An unofficial Python library for interacting with the Skype HTTP AP
 
 HOMEPAGE="https://skpy.t.allofti.me"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/88/ba/97ff8d1f8514355c81cd93fcf8a5cf5839aa49b5bffe73192872d56f3b74/SkPy-${REALVERSION}.tar.gz"
-SOURCEFILE="SkPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyobjc-framework-XgridFoundation"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Wrappers for the framework XgridFoundation on macOS"
 
 HOMEPAGE="https://github.com/ronaldoussoren/pyobjc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/58/57/de9e63874dc677a0d52545444f6ab7fcf4f687dbfdc2583a7f6bcf6b5bfc/pyobjc-framework-XgridFoundation-${REALVERSION}.tar.gz"
-SOURCEFILE="pyobjc-framework-XgridFoundation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

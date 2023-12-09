@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Grimsel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GeneRal Integrated Modeling environment for the Supply of Electrici
 
 HOMEPAGE="https://github.com/mcsoini/grimsel"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/3e/9c8f972b5fecd704a69dd03aa98a4466cb56db7018496ca3b6e0000320ad/Grimsel-${REALVERSION}.tar.gz"
-SOURCEFILE="Grimsel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

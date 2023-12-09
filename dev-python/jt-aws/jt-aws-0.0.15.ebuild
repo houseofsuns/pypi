@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JT-AWS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="My AWS boto3 Wrapper"
 
 HOMEPAGE="https://github.com/Gothingbop/JT_AWS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c3/9f/9172f4e3e0bf59d065393a927d630e58af6d03abcfddfb02e0f76074388e/JT_AWS-${REALVERSION}.tar.gz"
-SOURCEFILE="JT_AWS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

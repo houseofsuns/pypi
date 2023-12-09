@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Cities"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Cities is a simple tool for searching cities located at a given lon
 
 HOMEPAGE="https://github.com/131250208/Cities"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/1a/ba1b720771c22ea6f20023c5e244978d5c1d8b832fab3005a490350a39b5/Cities-${REALVERSION}.tar.gz"
-SOURCEFILE="Cities-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

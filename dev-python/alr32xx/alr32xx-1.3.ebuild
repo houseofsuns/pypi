@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ALR32XX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Ce module permet de commander via liaison série les alimentations 
 
 HOMEPAGE="https://github.com/elc-construction-electronique/Librairie-Python-ALR32XX"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c0/9c/d26241a98c109b95e0367589f6de19488117ad50cd5f74f49436cf183d0f/ALR32XX-${REALVERSION}.tar.gz"
-SOURCEFILE="ALR32XX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

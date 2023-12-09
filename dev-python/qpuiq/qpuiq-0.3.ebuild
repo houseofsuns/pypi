@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QPUIQ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="\"PUI\" Python Declarative UI Framework"
 
 HOMEPAGE="https://github.com/buganini/PUI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/e5/58ddadbfc18e9b2fc3fec560054cab365969b9da165b648d807c41e02260/QPUIQ-${REALVERSION}.tar.gz"
-SOURCEFILE="QPUIQ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

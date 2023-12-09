@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-PubSubDecorator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Decorates publisher functions and subscriber routes creating topics
 
 HOMEPAGE="https://github.com/MobiusWorksLLC/Flask-PubSubDecorator.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/6e/fb14f6403aa8f3cb70873522fb1355ecc5a3d1cfbf87c6fbc91285edfdd6/Flask-PubSubDecorator-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-PubSubDecorator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

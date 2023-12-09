@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyIF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An open source implementation to compute bi-variate Transfer Entrop
 
 HOMEPAGE="https://github.com/lcdm-uiuc/PyTE"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d9/bf/5cd1a269438455d0c8fdea30f59dcf853b16d2d7e8e089d7e2bff9e6ef8b/PyIF-${REALVERSION}.tar.gz"
-SOURCEFILE="PyIF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

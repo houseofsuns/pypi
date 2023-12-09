@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flag"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple flag library for python"
 
 HOMEPAGE="http://github.com/danielchatfield/flag"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/2e/89d6b7fcaf94c24f538d6990835acbbbc57dbf5dfc63f68361d9ab7bd820/Flag-${REALVERSION}.tar.gz"
-SOURCEFILE="Flag-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

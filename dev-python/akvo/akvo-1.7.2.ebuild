@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Akvo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Surface nuclear magnetic resonance workbench"
 
 HOMEPAGE="https://akvo.lemmasoftware.org/"
 LICENSE="GPL 4.0"
-SRC_URI="https://files.pythonhosted.org/packages/15/76/104a42987c238a68bab84aa08256b56e4c2595787059b7a8bf91a52c15ea/Akvo-${REALVERSION}.tar.gz"
-SOURCEFILE="Akvo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

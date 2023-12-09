@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyOTA"
 REALVERSION="3.1.0b1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="IOTA API library for Python"
 
 HOMEPAGE="https://github.com/iotaledger/iota.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/79/125c3ba329cbec9a1d5410011e557cdd982e69608e31b591cdc8ea629133/PyOTA-${REALVERSION}.tar.gz"
-SOURCEFILE="PyOTA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

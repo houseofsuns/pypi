@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AuDoLab"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="With AuDoLab you can do LDA on highly imbalanced datasets."
 
 HOMEPAGE="https://github.com/ArneTillmann/AuDoLab"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/02/6b/9cb0f6dfa7897e68b082c3d834078fb7abf8f1784f9b6b61c84e6cc455ef/AuDoLab-${REALVERSION}.tar.gz"
-SOURCEFILE="AuDoLab-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

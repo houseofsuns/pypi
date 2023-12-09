@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ValiotWorker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Enables running Python functions as standalone jobs based on intera
 
 HOMEPAGE="https://github.com/valiot/python-gql-worker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/87/dd/0e8ad699d47c0a7de28f09e7b0505555cc99cc06521f6b464b746c7da5f5/ValiotWorker-${REALVERSION}.tar.gz"
-SOURCEFILE="ValiotWorker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

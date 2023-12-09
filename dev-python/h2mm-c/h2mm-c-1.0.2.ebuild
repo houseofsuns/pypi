@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="H2MM-C"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="C level implementation of H2MM algorithm by Pirchi. 2016"
 
 HOMEPAGE="https://github.com/harripd/H2MMpythonlib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/79/514623d1b8abae0a99a1431cd8f77885e65947caa4d5330e2a8bc032dd61/H2MM_C-${REALVERSION}.tar.gz"
-SOURCEFILE="H2MM_C-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

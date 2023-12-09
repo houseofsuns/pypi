@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySocketLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library to simplify working with socket"
 
 HOMEPAGE="https://github.com/Minuta18/PySocketLib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e5/40/9751738db219379fff105ad5abc0b7c230a980851a2a952f1e8838d50de8/PySocketLib-${REALVERSION}.tar.gz"
-SOURCEFILE="PySocketLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

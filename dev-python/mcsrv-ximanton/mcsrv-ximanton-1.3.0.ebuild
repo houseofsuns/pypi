@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="mcsrv-xImAnton"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Manage your Minecraft Server with more comfort from the CLI"
 
 HOMEPAGE="https://github.com/xImAnton/MCManager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c5/d6/94e5dc7c8de6d7ae9bd0da646bee2a864b45527f2ddc30bba8a9d049d9a4/mcsrv-xImAnton-${REALVERSION}.tar.gz"
-SOURCEFILE="mcsrv-xImAnton-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

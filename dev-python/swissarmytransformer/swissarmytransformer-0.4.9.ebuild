@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SwissArmyTransformer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A transformer-based framework with finetuning as the first class ci
 
 HOMEPAGE="https://github.com/THUDM/SwissArmyTransformer"
 LICENSE="Apache 2.0 license"
-SRC_URI="https://files.pythonhosted.org/packages/b0/43/2883fb7ee18e580e748f04888ce41913d21160ccd1ca996ca278f3222de2/SwissArmyTransformer-${REALVERSION}.tar.gz"
-SOURCEFILE="SwissArmyTransformer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

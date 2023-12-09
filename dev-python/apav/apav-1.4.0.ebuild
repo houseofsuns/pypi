@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="APAV"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library for Atom Probe Tomography analysis"
 
 HOMEPAGE="https://apav.readthedocs.io/en/latest/"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/56/e8/f8d2e6b34a82cfe746fbe41c87d52442632151bcae8ebb3c0027f65bf73b/APAV-${REALVERSION}.tar.gz"
-SOURCEFILE="APAV-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

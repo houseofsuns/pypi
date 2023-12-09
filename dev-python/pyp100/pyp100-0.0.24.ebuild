@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyP100"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A module for controlling the Tp-link Tapo P100/P105/P110 plugs and 
 
 HOMEPAGE="https://github.com/fishbigger/TapoP100"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/a4/660399b95fc3e587948e48ceaf7f6fb94bfc7e21660c658635b324c8cd56/PyP100-${REALVERSION}.tar.gz"
-SOURCEFILE="PyP100-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

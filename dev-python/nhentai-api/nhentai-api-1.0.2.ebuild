@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NHentai-API"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NHentai Python API made using webscraping."
 
 HOMEPAGE="https://github.com/AlexandreSenpai/NHentai-API"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9d/fc/c78915f445b653ae0cef2ae2529e883bfd987a22c8bfd08c8f79efca357c/NHentai-API-${REALVERSION}.tar.gz"
-SOURCEFILE="NHentai-API-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

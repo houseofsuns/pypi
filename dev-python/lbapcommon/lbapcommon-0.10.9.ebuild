@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LbAPCommon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Common utilities used by LHCb DPA WP2 related software"
 
 HOMEPAGE="https://gitlab.cern.ch/lhcb-dpa/analysis-productions/LbAPCommon"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/28/144672a387d4c1e2a674f3abb96bbc06bc43be09f267434f03dc4eb29ee2/LbAPCommon-${REALVERSION}.tar.gz"
-SOURCEFILE="LbAPCommon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

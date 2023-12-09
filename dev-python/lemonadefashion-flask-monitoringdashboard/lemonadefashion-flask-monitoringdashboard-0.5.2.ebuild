@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="lemonadefashion-Flask-MonitoringDashboard"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automatically monitor the evolving performance of Flask/Python web 
 
 HOMEPAGE="https://github.com/us88/Flask-MonitoringDashboard"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3a/09/f8250b7cf84e346d69524271598e291661e77590f6ada682eaf3feff5e3d/lemonadefashion-Flask-MonitoringDashboard-${REALVERSION}.tar.gz"
-SOURCEFILE="lemonadefashion-Flask-MonitoringDashboard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

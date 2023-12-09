@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MLFeatureSelection"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Features selection algorithm based on self selected algorithm, loss
 
 HOMEPAGE="https://github.com/duxuhao/Feature-Selection"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/80/e3/b5de40590e304263758d48adac1e06041b2eb207740711ebd912b701dff0/MLFeatureSelection-${REALVERSION}.tar.gz"
-SOURCEFILE="MLFeatureSelection-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

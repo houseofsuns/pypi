@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="freeGPT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="freeGPT provides free access to text and image generation models."
 
 HOMEPAGE="https://github.com/Ruu3f/freeGPT"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/25/0f/d2b47430b56cc5eb1a82d476d3859713aaa69467b228ee2981fec5b89204/freeGPT-${REALVERSION}.tar.gz"
-SOURCEFILE="freeGPT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

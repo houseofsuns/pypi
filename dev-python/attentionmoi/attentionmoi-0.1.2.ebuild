@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AttentionMOI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Denoised Multi-omics Integration Framework for Cancer Subtype Cla
 
 HOMEPAGE="https://github.com/BioAI-kits/AttentionMOI"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ff/4b/937277202e9fcd148e7a9c5cd8c163f9ae2a2d4e326362cc86a10d66b227/AttentionMOI-${REALVERSION}.tar.gz"
-SOURCEFILE="AttentionMOI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

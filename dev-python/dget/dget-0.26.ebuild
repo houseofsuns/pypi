@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DGet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Calculates compound deuteration from ToF-MS data."
 
 HOMEPAGE="https://github.com/djdt/dget"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/5d/e4/20c6568e3ca3919b729213cf2d2389df52bb998869ff3d99d09e39d44ce5/DGet-${REALVERSION}.tar.gz"
-SOURCEFILE="DGet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

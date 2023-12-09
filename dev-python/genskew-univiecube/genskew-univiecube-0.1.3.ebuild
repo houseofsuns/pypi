@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Genskew-univiecube"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A program that calculates the skew of two selectable nucleotides fo
 
 HOMEPAGE="https://genskew.csb.univie.ac.at/library_documentation"
 LICENSE="Creative Commons"
-SRC_URI="https://files.pythonhosted.org/packages/57/c3/6b676c822d0214291bbc3e27f8fb3d781dd219b37d9089efedbe9eaf71a8/Genskew-univiecube-${REALVERSION}.tar.gz"
-SOURCEFILE="Genskew-univiecube-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

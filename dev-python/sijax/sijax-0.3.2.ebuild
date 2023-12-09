@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Sijax"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An easy to use AJAX library based on jQuery.ajax"
 
 HOMEPAGE="https://github.com/spantaleev/sijax-python"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3a/08/32c4e77caafc7542195cfb00e0ee400f1d9e29c4259842c3b32441b39bd3/Sijax-${REALVERSION}.tar.gz"
-SOURCEFILE="Sijax-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

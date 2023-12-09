@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Data42"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library specializing in data cleaning, visualization and prediction
 
 HOMEPAGE="https://github.com/pablod1/library-project-TheBridge"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c6/fd/b235e39dde3929d57d8949c7fc629df856893ebf9be62e11b1ad0b249ae9/Data42-${REALVERSION}.tar.gz"
-SOURCEFILE="Data42-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

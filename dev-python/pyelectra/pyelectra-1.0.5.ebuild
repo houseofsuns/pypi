@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyElectra"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Electra Smart Python Integration."
 
 HOMEPAGE="https://pypi.org/project/pyelectra/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/67/68/4698fb6495cb3f171352fc1e14f159cd7d515aa3a797b1f578643c3750a8/pyElectra-${REALVERSION}.tar.gz"
-SOURCEFILE="pyElectra-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

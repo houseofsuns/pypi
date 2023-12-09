@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="sigProfilerPlotting"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SigProfiler plotting tool"
 
 HOMEPAGE="https://github.com/alexandrovlab/SigProfilerPlotting"
 LICENSE="UCSD"
-SRC_URI="https://files.pythonhosted.org/packages/33/e9/7d158475478f9caaa7bce6e929460fd5ac4abd991223d360bf2a7800dbef/sigProfilerPlotting-${REALVERSION}.tar.gz"
-SOURCEFILE="sigProfilerPlotting-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

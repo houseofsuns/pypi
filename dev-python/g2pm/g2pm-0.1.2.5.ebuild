@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="g2pM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="g2pM: A Neural Grapheme-to-Phoneme Conversion Package for MandarinC
 
 HOMEPAGE="https://github.com/kakaobrain/g2pM"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2e/d6/06b20ffa5ea2e2a6c55ada6bf9503c1ee7bae2c64b3f6aa6107396a0a657/g2pM-${REALVERSION}.tar.gz"
-SOURCEFILE="g2pM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

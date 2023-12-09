@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UzbekTagger"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Part of Speech Tagger for Uzbek Language."
 
 HOMEPAGE="https://https://github.com/MaksudSharipov/UzbekTokenizer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/52/6f/6257c2c47be8af398777d329d97451d59f836f0fe99b1d08e8ce36c57e99/UzbekTagger-${REALVERSION}.tar.gz"
-SOURCEFILE="UzbekTagger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

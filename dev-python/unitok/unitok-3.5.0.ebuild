@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UniTok"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Unified Tokenizer"
 
 HOMEPAGE="https://github.com/Jyonn/UnifiedTokenizer"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/d9/98/09ef88bff78357de24dedac9f298f21af0b814c8e623d3cc21550a478d42/UniTok-${REALVERSION}.tar.gz"
-SOURCEFILE="UniTok-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

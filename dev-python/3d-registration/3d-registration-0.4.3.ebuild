@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="3D-registration"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Some scripts to register images in space and time"
 
 HOMEPAGE="https://github.com/GuignardLab/registration-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/1e/1c04f91c04ffd6987beba79faf9f22ee873b17293288873ef517c0244440/3D-registration-${REALVERSION}.tar.gz"
-SOURCEFILE="3D-registration-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

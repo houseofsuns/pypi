@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="simple-salesforce-2-7"
+LITERALNAME="simple-salesforce-2-7"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

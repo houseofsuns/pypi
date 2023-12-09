@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="anaplanConnector"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package to manage integrations with Anaplan."
 
 HOMEPAGE="https://github.com/matt-budd/anaplan-connector"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ab/fe/34e6d3d64a20057aa1aeaecc673659848bf52a5c54902953f3e290455115/anaplanConnector-${REALVERSION}.tar.gz"
-SOURCEFILE="anaplanConnector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TemplateCreator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This project is intended unify boilerplate code between team member
 
 HOMEPAGE="https://github.com/galbh/template-generator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/aa/c3/746b0630fcda84f9e60ab7940342497b5bc024796532f5013c963f836e8b/TemplateCreator-${REALVERSION}.tar.gz"
-SOURCEFILE="TemplateCreator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

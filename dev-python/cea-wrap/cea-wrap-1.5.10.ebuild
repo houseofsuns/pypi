@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CEA-Wrap"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python-Based wrapper for the NASA CEA Thermochemical Code"
 
 HOMEPAGE="https://github.com/civilwargeeky/CEA_Wrap"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3c/ff/ae641c72cd9ef35de7ff1697d316040336fbe28a2131d5682cad7c8c103c/CEA_Wrap-${REALVERSION}.zip"
-SOURCEFILE="CEA_Wrap-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

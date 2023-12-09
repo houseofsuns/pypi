@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Apllepy-personal-assistant"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Apllepy-personal-assistant"
 
 HOMEPAGE="https://github.com/IgorPupynin/Project_group6"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a5/17/b6067f8522dbabc65ba1dfdef77dd9235972307655a4221b3cb0917dba99/Apllepy_personal_assistant-${REALVERSION}.tar.gz"
-SOURCEFILE="Apllepy_personal_assistant-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

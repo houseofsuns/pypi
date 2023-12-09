@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ECY-macOS-jedi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/JimmyHuang454/ECY_exe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/80/4be2c1f98dc5c756fd90776d80362d4c89c626dd26447f40fe526f1df390/ECY_macOS_jedi-${REALVERSION}.tar.gz"
-SOURCEFILE="ECY_macOS_jedi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

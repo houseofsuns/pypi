@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyVIA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/ShobiStassen/VIA"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/19/dae5797e6ebeb9c2fcde5b73d74ad7f1b8d196351244383f7d89b45a49dc/pyVIA-${REALVERSION}.tar.gz"
-SOURCEFILE="pyVIA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

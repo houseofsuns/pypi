@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Cognito"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Authenticate users to Cognito user pool via JWT."
 
 HOMEPAGE="https://github.com/jetbridge/flask_cognito"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/99/f15c214389e0354b0b0712f11ad5379d9844b9749bca9928a438bbd8e526/Flask-Cognito-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Cognito-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

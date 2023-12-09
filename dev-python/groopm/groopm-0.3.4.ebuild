@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GroopM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Metagenomic binning suite"
 
 HOMEPAGE="http://pypi.python.org/pypi/GroopM/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/99/57/3bd0628798e351c4eda55af58b31824cbab720121ea673406c585f389b6e/GroopM-${REALVERSION}.tar.gz"
-SOURCEFILE="GroopM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

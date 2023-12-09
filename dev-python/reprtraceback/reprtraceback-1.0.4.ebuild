@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ReprTraceback"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Improve stack traces with the values associated with each argument 
 
 HOMEPAGE="https://github.com/NateRiz/ReprTraceback"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/4c/20727cee61f45f6fd15bb818559cd43af1fd400bd393f617134b9140cea5/ReprTraceback-${REALVERSION}.tar.gz"
-SOURCEFILE="ReprTraceback-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

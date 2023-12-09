@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyBetterGitUp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A better package for git up"
 
 HOMEPAGE="https://github.com/edweird06/BetterGitUp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/b7/e498872fed28dcaeaa613585db22330151b3ee45db8a0d9d04c92adcb4be/PyBetterGitUp-${REALVERSION}.tar.gz"
-SOURCEFILE="PyBetterGitUp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

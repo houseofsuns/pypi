@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CoolAMQP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Very fast pure-Python AMQP client"
 
 HOMEPAGE="https://github.com/smok-serwis/coolamqp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/69/62e909854c082addf629844bbeb85d5f502c402e1f06d128bb8a2077d19d/CoolAMQP-${REALVERSION}.tar.gz"
-SOURCEFILE="CoolAMQP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GenMine"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GenBank data miner for fungal taxonomists"
 
 HOMEPAGE="https://github.com/Changwanseo/GenMine"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a3/80/cf93697d82b0ce9a8fdf80155936008ed6295ed69d455b051d43ff3726fc/GenMine-${REALVERSION}.tar.gz"
-SOURCEFILE="GenMine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

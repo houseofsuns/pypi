@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AIOSomecomfort"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A client for Honeywell's US-based cloud devices"
 
 HOMEPAGE="https://github.com/mkmer/AIOSomecomfort"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e6/e7/9d0f71d323b57910daebff7a987c129ac89f1a5a5b1116247acb071b7caa/AIOSomecomfort-${REALVERSION}.tar.gz"
-SOURCEFILE="AIOSomecomfort-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

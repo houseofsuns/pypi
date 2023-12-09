@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyBabeljs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The python binding for babel compiler"
 
 HOMEPAGE="http://github.com/yetone/babeljs-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/c0/a7172111616df2bb00129a23bb8c0602214c7bf6315ac3605dfe85bd7946/PyBabeljs-${REALVERSION}.tar.gz"
-SOURCEFILE="PyBabeljs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

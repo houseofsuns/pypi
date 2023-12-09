@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Lurlene"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python-based live-coding language optimised for a small number of c
 
 HOMEPAGE="https://github.com/combatopera/Lurlene"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/8f/a4f3e226dd99002fa38505a5e7cf1bd660aefc1f9cf14b778833364fc49e/Lurlene-${REALVERSION}.tar.gz"
-SOURCEFILE="Lurlene-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

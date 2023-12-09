@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JaqalPaq-extras"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python tools for Jaqal (extras)"
 
 HOMEPAGE="https://qscout.sandia.gov"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/85/0f/694e6d661fa242001792812e12538b45ab60f9e59f18ec10190e2fc914fb/JaqalPaq-extras-${REALVERSION}.tar.gz"
-SOURCEFILE="JaqalPaq-extras-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SingleLog"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="# SingleLog"
 
 HOMEPAGE="https://github.com/PttCodingMan/SingleLog"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/4d/01a9a19a60127030446c605f397d90b333cea59858f9f644b1657edb17a5/SingleLog-${REALVERSION}.tar.gz"
-SOURCEFILE="SingleLog-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

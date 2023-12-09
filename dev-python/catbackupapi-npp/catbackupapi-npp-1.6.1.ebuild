@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CatbackupAPI-NPP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Programa per recoleccio de dades d'apis de CatBackup"
 
 HOMEPAGE="https://github.com/NilPujolPorta/CatbackupAPI-NPP"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/4c/57/13e35b20b9ff5d85bae25ce2317c045829fbb6b9d50126041f79ae929798/CatbackupAPI-NPP-${REALVERSION}.tar.gz"
-SOURCEFILE="CatbackupAPI-NPP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepMatter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tool for machine learning in materials Science"
 
 HOMEPAGE="https://github.com/m3-learning/DeepMatter.git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/66/04/6ee75a054ede6a3ed592a8bb3ece3b10cdfada6ab4dc49320082f322c87b/DeepMatter-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepMatter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

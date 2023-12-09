@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="StoveOpt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Biomass cookstove optimization package"
 
 HOMEPAGE="https://github.com/Liam-Cassidy/StoveOpt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/b7/7e149076be6ff1c624f268be35ff79530a41e5a51cf39df4cb6a28af94d2/StoveOpt-${REALVERSION}.tar.gz"
-SOURCEFILE="StoveOpt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

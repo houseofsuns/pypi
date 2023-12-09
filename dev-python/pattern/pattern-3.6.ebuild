@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pattern"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Web mining module for Python."
 
 HOMEPAGE="http://www.clips.ua.ac.be/pages/pattern"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1e/07/b0e61b6c818ed4b6145fe01d1c341223aa6cfbc3928538ad1f2b890924a3/Pattern-${REALVERSION}.0.tar.gz"
-SOURCEFILE="Pattern-${REALVERSION}.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.0.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.0.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

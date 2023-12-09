@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="adjustText"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Iteratively adjust text position in matplotlib plots to minimize ov
 
 HOMEPAGE="https://github.com/Phlya/adjustText"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/96/fc/1ed0d0302c80f7238cb4169d4a505aa3594ca2acffbeb1680aaed136a923/adjustText-${REALVERSION}.tar.gz"
-SOURCEFILE="adjustText-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

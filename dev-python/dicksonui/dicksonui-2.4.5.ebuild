@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DicksonUI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lightweight And Full Featured Browser Based UI / GUI (Graphical Use
 
 HOMEPAGE="https://github.com/Ksengine/DicksonUI"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/ea/0774ce6a94b1f358445527242ffb3cbbd64bdefa9b158cd7bef7c78d7db5/DicksonUI-${REALVERSION}.tar.gz"
-SOURCEFILE="DicksonUI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

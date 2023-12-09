@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pycco"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python port of Docco: the original quick-and-dirty, hundred-line-
 
 HOMEPAGE="https://pycco-docs.github.io/pycco/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/7e/c5178a95aa5683e63adaf2e3b4df139181f04048df0f69665d978b951368/Pycco-${REALVERSION}.tar.gz"
-SOURCEFILE="Pycco-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

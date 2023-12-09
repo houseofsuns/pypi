@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CAD-to-OpenMC"
 REALVERSION="0.2.9a0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package to automagically convert step-geometries to h5m description
 
 HOMEPAGE="https://github.com/openmsr/CAD_to_OpenMC"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/46/6d/317700c3de5fd8446c7e8d10fab57ee5680c77d8a8a4d2219466dc2ae671/CAD_to_OpenMC-${REALVERSION}.tar.gz"
-SOURCEFILE="CAD_to_OpenMC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

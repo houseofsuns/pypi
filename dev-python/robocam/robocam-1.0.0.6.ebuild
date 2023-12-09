@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RoboCam"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library for RoboCam"
 
 HOMEPAGE="https://eng.roborobo.co.kr/main"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1c/dd/895e35564ab1625c7d3a90666e839d55a71dd7c7dfadd7b0de7dfe47bbfc/RoboCam-${REALVERSION}.tar.gz"
-SOURCEFILE="RoboCam-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

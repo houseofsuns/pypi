@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RUST"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Unit step transformation of Ribo-Seq data"
 
 HOMEPAGE="https://github.com/JackCurragh/RUST"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/18/654e1c4d900f2893b52963f6a53446d3254d4da13c28ab17c562f5254054/RUST-${REALVERSION}.tar.gz"
-SOURCEFILE="RUST-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

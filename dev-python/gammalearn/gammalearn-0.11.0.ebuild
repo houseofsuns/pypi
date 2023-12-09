@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Gammalearn"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A framework to easily train deep learning model on Imaging Atmosphe
 
 HOMEPAGE="https://gitlab.lapp.in2p3.fr/GammaLearn/GammaLearn"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/99/d52031f403a0c35dbb59a29959313747821dff1d8d65b6694263e6da785c/Gammalearn-${REALVERSION}.tar.gz"
-SOURCEFILE="Gammalearn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

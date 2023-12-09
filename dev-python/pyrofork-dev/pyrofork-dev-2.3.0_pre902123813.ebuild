@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyroFork-dev"
 REALVERSION="2.3.0.dev902123813"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Elegant, modern and asynchronous Telegram MTProto API framework in 
 
 HOMEPAGE="https://github.com/Mayuri-Chan/pyrofork"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/db/64/21edd64fa488583baae40b333a81f25d294d44ae5820a9a37a2098ba31ce/PyroFork-dev-${REALVERSION}.tar.gz"
-SOURCEFILE="PyroFork-dev-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

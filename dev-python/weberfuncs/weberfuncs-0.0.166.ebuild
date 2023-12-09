@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="weberFuncs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Public functions library wrote by Weber Juche."
 
 HOMEPAGE="https://github.com/Weber-JC/PythonEggs/tree/master/weberFuncs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/9d/898ec2fcb45a9c1b3ea42fb72e041844dd0b8d73deb10d017cb7f559e8e7/weberFuncs-${REALVERSION}.tar.gz"
-SOURCEFILE="weberFuncs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Lawes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/MrLawes/Lawes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/58/c9d0d86f6a7afa7ad0c05d3af828c18fd540fe931a3d68551274ca1988f2/Lawes-${REALVERSION}.tar.gz"
-SOURCEFILE="Lawes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

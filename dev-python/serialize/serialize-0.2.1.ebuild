@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Serialize"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A common API for multiple serialization formats with support for cu
 
 HOMEPAGE="https://github.com/hgrecco/serialize"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/91/62/d0fe3397a276e2586836c52e9c3eadc1bfd1a0641361cd7365bbe6dd612f/Serialize-${REALVERSION}.tar.gz"
-SOURCEFILE="Serialize-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

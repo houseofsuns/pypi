@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="nexxT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An extensible framework."
 
 HOMEPAGE="https://github.com/ifm/nexxT"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/56/76/a3c7d73c7ad63efd089889f1d8d32ee59ab9a6f25b3743d5aebe33c88b9e/nexxT-${REALVERSION}.zip"
-SOURCEFILE="nexxT-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

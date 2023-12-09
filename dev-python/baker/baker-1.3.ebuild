@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Baker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy, powerful access to Python functions from the command line"
 
 HOMEPAGE="http://bitbucket.org/mchaput/baker"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/43/84/4a0ed2bd69b8079a5f8a8eda478c7ebe267e65f3f87a61a0b56353b6961c/Baker-${REALVERSION}.tar.gz"
-SOURCEFILE="Baker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

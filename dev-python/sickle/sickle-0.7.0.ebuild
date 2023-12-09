@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Sickle"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A lightweight OAI client library for Python"
 
 HOMEPAGE="http://github.com/mloesch/sickle"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a3/78/8fe5fc3d7379593abf0b42b97e7ad9981437afd5cf5ae2032536def9d411/Sickle-${REALVERSION}.tar.gz"
-SOURCEFILE="Sickle-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

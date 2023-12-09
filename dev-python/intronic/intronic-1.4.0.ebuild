@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="intronIC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Retrieve annotated intron sequences and classify them as minor (U12
 
 HOMEPAGE="https://github.com/glarue/intronIC/"
 LICENSE="GPL v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/ba/23/a16c7ffedf6a19179f028a5f1d807d535b68b9efd9626b69f40f95ffcd36/intronIC-${REALVERSION}.tar.gz"
-SOURCEFILE="intronIC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

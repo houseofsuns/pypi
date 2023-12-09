@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HomoglyphsCJK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An easy Python package for fuzzy matching Chinese(simplified and tr
 
 HOMEPAGE="https://github.com/dell-research-harvard/HomoglyphsCJK.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/ab/dff9ab43580e9df67d20b86de5d089ef75c3dea9c181e0b0d153dd35cd49/HomoglyphsCJK-${REALVERSION}.tar.gz"
-SOURCEFILE="HomoglyphsCJK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

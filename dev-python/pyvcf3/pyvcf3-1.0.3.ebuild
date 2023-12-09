@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyVCF3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Variant Call Format (VCF) parser for Python"
 
 HOMEPAGE="https://github.com/dridk/PyVCF3"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/28/ee/5d0b0bd20762f1126b34cb15dce973fe4dbd1baf17d7ee621b18e336c0e5/PyVCF3-${REALVERSION}.tar.gz"
-SOURCEFILE="PyVCF3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

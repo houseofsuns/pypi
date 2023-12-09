@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyFi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Project FiFo API implementation and console client."
 
 HOMEPAGE="https://project-fifo.net"
 LICENSE="CDDL"
-SRC_URI="https://files.pythonhosted.org/packages/a7/ea/df8e11f196024d708ef34817c8631f13931e81b4180893647cb76ff34e22/PyFi-${REALVERSION}.tar.gz"
-SOURCEFILE="PyFi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

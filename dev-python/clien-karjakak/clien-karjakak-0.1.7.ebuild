@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Clien-karjakak"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Clien is a tool for developer to create encrypted password."
 
 HOMEPAGE=""
 LICENSE="BSD3 License"
-SRC_URI="https://files.pythonhosted.org/packages/14/e0/c932bb15a95d79cb578bf524ae298578d89813380c2b3b831955fe7ce396/Clien-karjakak-${REALVERSION}.tar.gz"
-SOURCEFILE="Clien-karjakak-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BlastML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BlastML is a Fast Machine Learning Prototyping Library"
 
 HOMEPAGE="https://github.com/shanytc/BlastML"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cf/ff/9c4bdfb32977c5e770f812fd3bdf825f94c07af57b22e7d345440d9b0d74/BlastML-${REALVERSION}.tar.gz"
-SOURCEFILE="BlastML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

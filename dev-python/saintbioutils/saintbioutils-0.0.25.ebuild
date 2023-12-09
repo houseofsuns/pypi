@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="saintBioutils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package of utility and miscellaneous functions for using in bioin
 
 HOMEPAGE="https://github.com/HobnobMancer/saintBioutils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/34/69feb43a9b6be04106cca918d80f07c4313829f2b6dc598fd8c4067fe218/saintBioutils-${REALVERSION}.tar.gz"
-SOURCEFILE="saintBioutils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

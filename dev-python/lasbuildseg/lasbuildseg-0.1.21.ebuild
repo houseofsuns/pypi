@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LasBuildSeg"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Building Footrprint Extraction from Aerial LiDAR data"
 
 HOMEPAGE=""
 LICENSE="GNU General Public License v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bb/f7/8031cfce8f504842ffa716d545b80c599b03852fc321f25e64f3ec911552/LasBuildSeg-${REALVERSION}.tar.gz"
-SOURCEFILE="LasBuildSeg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TradeMaster-try"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="TradeMaster - A platform for algorithmic trading"
 
 HOMEPAGE="https://github.com/TradeMaster-NTU/TradeMaster"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2a/4b/82565b3d0e930a80d56bb3e5ac3e27b14e5f99ced30d6fea8e6541761e6c/TradeMaster_try-${REALVERSION}.tar.gz"
-SOURCEFILE="TradeMaster_try-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

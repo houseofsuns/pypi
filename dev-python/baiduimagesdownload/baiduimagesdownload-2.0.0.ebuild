@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BaiduImagesDownload"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="download image from Baidu Image"
 
 HOMEPAGE="https://github.com/YXL76/BaiduImagesDownload"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/89/356b6d76558ceeac7add69a0669ee8cd4bdc795a7fd0965b3dd9983961ca/BaiduImagesDownload-${REALVERSION}.tar.gz"
-SOURCEFILE="BaiduImagesDownload-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

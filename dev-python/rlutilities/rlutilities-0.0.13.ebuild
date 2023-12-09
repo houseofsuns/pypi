@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RLUtilities"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="tools for controlling Rocket League bots"
 
 HOMEPAGE="https://github.com/samuelpmish/RLUtilities"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/80/7f/861b20291a33f14691159fd993c62e33ffe15ee8e4ef49f7baa1b7eaf02d/RLUtilities-${REALVERSION}.tar.gz"
-SOURCEFILE="RLUtilities-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

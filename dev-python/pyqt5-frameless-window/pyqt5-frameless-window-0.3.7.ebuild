@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyQt5-Frameless-Window"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A cross-platform frameless window based on pyqt5, support Win32, X1
 
 HOMEPAGE="https://github.com/zhiyiYo/PyQt-Frameless-Window"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/79/c5/74d4977f72414cb9300c97008ba46e1927569bfc2f09951632e855c3856a/PyQt5-Frameless-Window-${REALVERSION}.tar.gz"
-SOURCEFILE="PyQt5-Frameless-Window-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

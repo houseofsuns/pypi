@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyTigerGraph"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library to connect to TigerGraph databases"
 
 HOMEPAGE="https://docs.tigergraph.com/pytigergraph/current/intro/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/97/70/6400c376ad4f0f36d7ba66832b0d23ef74ce047b9a0d513721dea3849759/pyTigerGraph-${REALVERSION}.tar.gz"
-SOURCEFILE="pyTigerGraph-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

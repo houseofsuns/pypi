@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ImgAnn"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Image annotation file operation provider. [Documentation](https://i
 
 HOMEPAGE="https://github.com/nipdep/imgann.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/13/2685fef7beb7f2455ac7a7f08ce5b289f62224b9f185389237ebf881b407/ImgAnn-${REALVERSION}.tar.gz"
-SOURCEFILE="ImgAnn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

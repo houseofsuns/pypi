@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FlaskEx"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="UNKNOWN"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/dd/21/f60518ea435081ac5733447809ea369e302137d92b8dce6a4ca426a520cd/FlaskEx-${REALVERSION}.tar.gz"
-SOURCEFILE="FlaskEx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

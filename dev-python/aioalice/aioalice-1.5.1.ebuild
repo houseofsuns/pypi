@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="aioAlice"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Asynchronous library for Yandex Dialogs (Alice) API"
 
 HOMEPAGE="https://github.com/mahenzon/aioalice"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/b6/b0840ac6517d67e256cbe5fb2121161cbd7309ef6650ae16a4daf92b5d28/aioAlice-${REALVERSION}.tar.gz"
-SOURCEFILE="aioAlice-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

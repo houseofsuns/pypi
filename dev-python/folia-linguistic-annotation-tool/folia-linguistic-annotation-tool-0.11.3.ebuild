@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FoLiA-Linguistic-Annotation-Tool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FLAT is a web-based linguistic annotation environment based around 
 
 HOMEPAGE="https://github.com/proycon/flat"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7a/0d/0b83b7c4df0cb78539b8ea705cc9d4d369cdb2e582e81022d813d192d50d/FoLiA-Linguistic-Annotation-Tool-${REALVERSION}.tar.gz"
-SOURCEFILE="FoLiA-Linguistic-Annotation-Tool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

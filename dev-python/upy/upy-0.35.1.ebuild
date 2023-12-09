@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UPY"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Open-source platform built on top of Django Web Framework, provides
 
 HOMEPAGE="http://upyproject.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/58/7f/ba13383e3506a98d869137025c94241a1167da814f4b3b929cccae90b50e/UPY-${REALVERSION}.tar.gz"
-SOURCEFILE="UPY-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

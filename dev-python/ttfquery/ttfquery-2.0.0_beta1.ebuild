@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TTFQuery"
 REALVERSION="2.0.0b1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FontTools-based package for querying system fonts"
 
 HOMEPAGE="http://ttfquery.sourceforge.net/"
 LICENSE="BSD-style, see license.txt for details"
-SRC_URI="https://files.pythonhosted.org/packages/cc/44/3596271cda8b44c93278408586f7aef1fdfa1944869b20c641aa905d96e1/TTFQuery-${REALVERSION}.tar.gz"
-SOURCEFILE="TTFQuery-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

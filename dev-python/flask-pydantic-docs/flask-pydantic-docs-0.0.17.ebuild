@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Pydantic-Docs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Add openapi docs to flask app using Flask-Pydantic"
 
 HOMEPAGE="https://github.com/buildpeak/flask_pydantic_docs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9b/0e/88919d738e6070a6442b25ffa29f45d52f197269f30c5b831c79676508cb/Flask-Pydantic-Docs-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Pydantic-Docs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

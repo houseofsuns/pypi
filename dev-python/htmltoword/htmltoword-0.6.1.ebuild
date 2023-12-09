@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HtmlToWord"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Render HTML to a specific portion of a word document"
 
 HOMEPAGE="https://github.com/orf/HtmlToWord"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/b7/34/faa5c1afb389d011b78a0556432cb90e9bb0eef4d377999496aeb20039c0/HtmlToWord-${REALVERSION}.tar.gz"
-SOURCEFILE="HtmlToWord-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

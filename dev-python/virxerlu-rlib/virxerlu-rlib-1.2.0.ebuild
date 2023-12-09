@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VirxERLU-RLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Rust modules for VirxERLU"
 
 HOMEPAGE="https://github.com/VirxEC/VirxERLU-RLib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7f/20/53940c68586ec5d0f9bae70e5a5d54fa01ce462f7400c5a97b65340876f4/VirxERLU_RLib-${REALVERSION}.tar.gz"
-SOURCEFILE="VirxERLU_RLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

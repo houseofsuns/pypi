@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WereSync"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Incrementally clones Linux drives"
 
 HOMEPAGE="https://github.com/DonyorM/weresync"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/22/2d/09b8ab7ab0ddf1c946812b5b3b7266e3c1adf7e539646f05e48a31bcced4/WereSync-${REALVERSION}.tar.gz"
-SOURCEFILE="WereSync-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

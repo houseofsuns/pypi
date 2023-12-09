@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DiSwarm"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Discord-based Swarm Protocol Library"
 
 HOMEPAGE="https://github.com/iTecAI/DiSwarm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/68/f0/56646080925f89cbe9c89df2df167226c3f266b907b5248a058ec6d757e9/DiSwarm-${REALVERSION}.tar.gz"
-SOURCEFILE="DiSwarm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

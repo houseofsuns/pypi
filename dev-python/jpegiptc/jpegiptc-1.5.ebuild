@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JpegIPTC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Jpeg Iptc data raw extract/copy"
 
 HOMEPAGE="https://github.com/gdegoulet/JpegIPTC"
 LICENSE="http://www.opensource.org/licenses/gpl-license.php"
-SRC_URI="https://files.pythonhosted.org/packages/1d/e6/3e1221fcce49a5ef40b7942b261b06248e6e628b1fd9dd51f8c31759a7e6/JpegIPTC-${REALVERSION}.tar.gz"
-SOURCEFILE="JpegIPTC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MLandPattern"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Machine Learning and Pattern recognition Library"
 
 HOMEPAGE=""
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/ee/e2/38d6b8bf8e73a836cd63bb6ff51f3f4b71b173b12ad253c373ef3a6fcf05/MLandPattern-${REALVERSION}.tar.gz"
-SOURCEFILE="MLandPattern-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

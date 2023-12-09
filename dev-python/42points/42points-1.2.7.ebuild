@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="42Points"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python implementation of the fourty-two points game."
 
 HOMEPAGE="https://github.com/T0nyX1ang/42-Points-Game"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/66/e94118360e5ca75bda9fcf7d6797fb159cd59d6abd12539311ebb9fdc560/42Points-${REALVERSION}.tar.gz"
-SOURCEFILE="42Points-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

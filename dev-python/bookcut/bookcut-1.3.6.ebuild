@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BookCut"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Command Line Interface app to download ebooks"
 
 HOMEPAGE="https://github.com/costis94/bookcut"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/76/62da2fbb42d1db6aee5c8e1bccfd8f11366cea3c0a87082e5ed9af98a585/BookCut-${REALVERSION}.tar.gz"
-SOURCEFILE="BookCut-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

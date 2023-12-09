@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HastebinAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple-to-use Hastebin API wrapper for Python."
 
 HOMEPAGE="https://google.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/a0/f893301d45562841828af5df37e6e206f3cf59da3ef258c78d23fee492c7/HastebinAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="HastebinAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

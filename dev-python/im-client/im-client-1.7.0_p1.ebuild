@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IM-client"
 REALVERSION="1.7.0.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="IM is a tool to manage virtual infrastructures on Cloud deployments
 
 HOMEPAGE="http://www.grycap.upv.es/im"
 LICENSE="GPL version 3, http://www.gnu.org/licenses/gpl-3.0.txt"
-SRC_URI="https://files.pythonhosted.org/packages/b2/ea/048c6e2668907f88aaa05f3a7016bb5995b3543c02a013ec585439bac1d6/IM-client-${REALVERSION}.tar.gz"
-SOURCEFILE="IM-client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

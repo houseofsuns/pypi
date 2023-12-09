@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyRx"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Rx schema and validation system"
 
 HOMEPAGE="https://github.com/uniphil/pyrx"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/36/92/eb6a52b80b230d8ce2965e50e9cc67086a728ac5ab3f83d4d6de64e6f63c/PyRx-${REALVERSION}.tar.gz"
-SOURCEFILE="PyRx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FiddleOptions"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fiddle Options Platform"
 
 HOMEPAGE="https://github.com/vblagoje"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b6/a5/10e085caed6414cac796b4073a0e6f2ba1d08f2d51618415951d5f7e8d2e/FiddleOptions-${REALVERSION}.tar.gz"
-SOURCEFILE="FiddleOptions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

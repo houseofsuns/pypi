@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyCodeBook"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="方便学员查询 Python 相关知识点,辅助考试。"
 
 HOMEPAGE="https://github.com/AndersonHJB/PyNoteBook"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/13/4d0ca81e786d21e2e9ee41438f63d9ab1c8731bbc4083815c851aaedfdec/PyCodeBook-${REALVERSION}.tar.gz"
-SOURCEFILE="PyCodeBook-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

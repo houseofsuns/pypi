@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepSurrogatepin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Deep surrogate model for the probability of informed trading model"
 
 HOMEPAGE="https://github.com/GuillaumePv/pin_surrogate_model"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/f3/798d1720ab833f14d4cfbc9788a687fd09ea1922c86926468d88840613aa/DeepSurrogatepin-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepSurrogatepin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

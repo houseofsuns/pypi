@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NoseHTML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="HTML Output plugin for Nose / Nosetests"
 
 HOMEPAGE="https://github.com/galaxyproject/nosehtml"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/49/03/c57f81aa51c293e6987a67c9cb0661972d3027b4c59da0ee82512e2eb63e/NoseHTML-${REALVERSION}.tar.gz"
-SOURCEFILE="NoseHTML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

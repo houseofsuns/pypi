@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="diffReport"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="File comparison and report differences"
 
 HOMEPAGE="https://github.com/vish-nu-ram/diffReport"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/a4/c7ea9393c9435095f17da1e865d93258f947478ba53205c7811bb8a14593/diffReport-${REALVERSION}.tar.gz"
-SOURCEFILE="diffReport-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Digikam-DB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library to access Digikam metadata"
 
 HOMEPAGE="https://github.com/rcw-2/python-digikamdb"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6b/f7/9cdf1f7922d2723bbcf63fc71f688f77988c51c9d5e92b5be99e20957af4/Digikam-DB-${REALVERSION}.tar.gz"
-SOURCEFILE="Digikam-DB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PennyLane-Lightning-Kokkos"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PennyLane-Lightning plugin"
 
 HOMEPAGE="https://github.com/XanaduAI/pennylane-lightning"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/52/8c/617f0e3783f17608df3c38224e6f8a0f1242ee1b84a021c8c4b4accde349/PennyLane_Lightning_Kokkos-${REALVERSION}.tar.gz"
-SOURCEFILE="PennyLane_Lightning_Kokkos-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

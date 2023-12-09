@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="agentMET4FOF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A software package for the integration of metrological input into a
 
 HOMEPAGE="https://github.com/bangxiangyong/agentMET4FOF"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/71/41/fe10c86d99bb09467cd6a39eccfe8c181bda0b918da8777f2533ff358486/agentMET4FOF-${REALVERSION}.tar.gz"
-SOURCEFILE="agentMET4FOF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

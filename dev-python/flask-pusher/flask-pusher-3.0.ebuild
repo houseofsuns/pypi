@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Pusher"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for Pusher"
 
 HOMEPAGE="https://www.github.com/iurisilvio/Flask-Pusher"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/4a/257ed7602a31e36364775d9c7c4a2b4fdd3eaaf43107f7b5e4056a0dfeb4/Flask-Pusher-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Pusher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

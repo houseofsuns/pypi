@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DNBC4dev"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DNBelab Series Single-Cell analysis workflow"
 
 HOMEPAGE="https://github.com/lishuangshuang0616/DNBC4tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/7a/1e525a5e1d3291561fcb31bcf56ef9ceaf9c7b33ad660c5b87747a8172c8/DNBC4dev-${REALVERSION}.tar.gz"
-SOURCEFILE="DNBC4dev-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PartSegData"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PartSeg data files"
 
 HOMEPAGE="https://4dnucleome.cent.uw.edu.pl/PartSeg/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/19/42/25c1185800137d73a784dd79902bc3d909e12c74eb5c50ffb099cc67b298/PartSegData-${REALVERSION}.tar.gz"
-SOURCEFILE="PartSegData-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BMCTool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python tool to perform Bloch-McConnell (BMC) simulations."
 
 HOMEPAGE="https://github.com/schuenke/BMCTool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/25/f24b8fa73c6a12ff40ba0e7c0c631f9bf518092b0bf9e3065304a54c1994/BMCTool-${REALVERSION}.tar.gz"
-SOURCEFILE="BMCTool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="iSpin-data"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Gets iSpin data for a turbine ID."
 
 HOMEPAGE="https://gitlab.com/romowind_public/ispin_data"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5e/bf/7f856777eee54a50a842aeddee97acf126e1c100550e3d3d8141b4094000/iSpin_data-${REALVERSION}.tar.gz"
-SOURCEFILE="iSpin_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

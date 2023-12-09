@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CodeIntel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Komodo Edit CodeIntel"
 
 HOMEPAGE="https://github.com/SublimeCodeIntel/CodeIntel"
 LICENSE="MPL 1.1"
-SRC_URI="https://files.pythonhosted.org/packages/0a/24/141db0d6c64453e6848849979b9c527d3547ad1552674763000e9da2a648/CodeIntel-${REALVERSION}.tar.gz"
-SOURCEFILE="CodeIntel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

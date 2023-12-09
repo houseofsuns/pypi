@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PlanOut"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PlanOut is a framework for online field experimentation."
 
 HOMEPAGE="http://pypi.python.org/pypi/PlanOut/"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/c0/3c/0762580f6f733a5addc8085c27e8d0c061fe530e0f12571d5950742b668a/PlanOut-${REALVERSION}.tar.gz"
-SOURCEFILE="PlanOut-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CensusData"
 REALVERSION="1.15.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Download data from U.S. Census API"
 
 HOMEPAGE="https://github.com/jtleider/censusdata"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/c1/5cdd3daea8df1d24fe0d59cf7cdb11a4ffea6c6c4230dcb125c28ea9d513/CensusData-${REALVERSION}.tar.gz"
-SOURCEFILE="CensusData-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

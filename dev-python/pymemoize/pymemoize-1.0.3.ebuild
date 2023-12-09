@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMemoize"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple memoizing module."
 
 HOMEPAGE="http://github.com/mikeboers/PyMemoize"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f9/31/9c561a845c929ba60c8df2b70be47bd0c0aadb3a55ddfa0cecd244bb6c6f/PyMemoize-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMemoize-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

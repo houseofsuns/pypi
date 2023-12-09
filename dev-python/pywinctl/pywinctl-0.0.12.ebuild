@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyWinCtl"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A cross-platform module to control and obtain GUI information on ap
 
 HOMEPAGE="https://github.com/Kalmat/PyWinCtl"
 LICENSE="BSD 3"
-SRC_URI="https://files.pythonhosted.org/packages/9e/42/fa802b5e5f7654d5dc4c4c01cbcdeb95f1acdf3af61979c17b8fa2bddd0e/PyWinCtl-${REALVERSION}.tar.gz"
-SOURCEFILE="PyWinCtl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

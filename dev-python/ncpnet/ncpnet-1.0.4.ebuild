@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NCPNet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Learning synapse-level brain circuit networks. Include training, in
 
 HOMEPAGE="https://github.com/mxz12119/NCPNet"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6e/00/9d442ada5ce6721923ef43d2c24c28704ac5811bcd6f7a2593f99f26294e/NCPNet-${REALVERSION}.tar.gz"
-SOURCEFILE="NCPNet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SEMSTR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Scheme Evaluation and Mapping for Structural Text Representation"
 
 HOMEPAGE="https://github.com/huji-nlp/semstr"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/9e/acf18f96d9e12a7e471b3be5b4d7919e7b0a82ce283b62e23e7053e2c348/SEMSTR-${REALVERSION}.tar.gz"
-SOURCEFILE="SEMSTR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

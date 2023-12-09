@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Adafruit-SHT31"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Library for Adafruit SHT31 module"
 
 HOMEPAGE="https://github.com/ralf1070/Adafruit_Python_SHT31"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1c/4f/2c6823cd69d5fcaf4748d07ebeced54e303016b468262ea18e9ef6137016/Adafruit_SHT31-${REALVERSION}.tar.gz"
-SOURCEFILE="Adafruit_SHT31-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AMIVA-F"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A FLNc mutation pathogenicity predictor algorithm"
 
 HOMEPAGE="http://amiva.msp.univie.ac.at"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9c/42/9d101e38dc6a8f3242255fae30ecbdd453d741d61d1b8f8d3ee698432857/AMIVA-F-${REALVERSION}.tar.gz"
-SOURCEFILE="AMIVA-F-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

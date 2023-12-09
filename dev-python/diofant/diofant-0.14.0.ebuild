@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Diofant"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Computer algebra system (CAS) in Python"
 
 HOMEPAGE="https://diofant.readthedocs.io/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5e/b0/11628bf2b5a405336516f70649b3eb34fde08b83053ea6faae6d2a788ba4/Diofant-${REALVERSION}.tar.gz"
-SOURCEFILE="Diofant-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

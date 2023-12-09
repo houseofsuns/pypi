@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyScaffolder"
 REALVERSION="1.5.2.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate 3D mesh from implicit surface and an input mesh"
 
 HOMEPAGE="https://github.com/nodtem66/Scaffolder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9b/42/13febeb309d5476e02cfdd65b46e27463eb97b57f0a9acf82329caeafc1a/PyScaffolder-${REALVERSION}.tar.gz"
-SOURCEFILE="PyScaffolder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

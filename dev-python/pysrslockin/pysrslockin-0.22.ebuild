@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pySRSLockin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python library/GUI to access and control different models of lock
 
 HOMEPAGE="https://github.com/MicheleCotrufo/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/a2/4ffee3e6052b13c16234c431a7819d10075e54f363a55f9f532cee0714e6/pySRSLockin-${REALVERSION}.tar.gz"
-SOURCEFILE="pySRSLockin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

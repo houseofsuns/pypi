@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="mmWave"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Joybien mmWave (Batman-101/201/301/501/601) library"
 
 HOMEPAGE="http://www.joybien.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f2/00/cfc20bb13303336992b43149d8239dc3ad1a7944ea902510587835912870/mmWave-${REALVERSION}.tar.gz"
-SOURCEFILE="mmWave-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

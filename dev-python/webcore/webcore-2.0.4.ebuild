@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WebCore"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A powerful web development nanoframework so small it's not even a m
 
 HOMEPAGE="https://github.com/marrow/WebCore/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/37/9c3583d18d4b4cb00a53023a6a912b647bbc363ab5fda1ff9726f188b511/WebCore-${REALVERSION}.tar.gz"
-SOURCEFILE="WebCore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

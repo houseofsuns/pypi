@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyCrowlingo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Official Crowlingo SDK. Access to all NLP and NLU services that ana
 
 HOMEPAGE="https://github.com/Crowlingo/PyCrowlingo/"
 LICENSE="copyright: Crowlingo"
-SRC_URI="https://files.pythonhosted.org/packages/fb/84/33bb551e79ad8cd87c5ef5ade7668280953668bfd6cbc9d6c7f045ad09f0/PyCrowlingo-${REALVERSION}.tar.gz"
-SOURCEFILE="PyCrowlingo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

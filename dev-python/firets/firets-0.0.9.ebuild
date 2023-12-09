@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="fireTS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python package for multi-variate time series prediction"
 
 HOMEPAGE="https://github.com/jxx123/fireTS.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/de/10b2aa7176a86eabd791470d274a86b59adec0d585c5b085e61697bffc59/fireTS-${REALVERSION}.tar.gz"
-SOURCEFILE="fireTS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

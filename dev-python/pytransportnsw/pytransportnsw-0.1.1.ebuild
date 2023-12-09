@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyTransportNSW"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Get transport information from TransportNSW"
 
 HOMEPAGE="https://github.com/Dav0815/TransportNSW"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/ea/e978a5662e2a2db76427258cbb2c089b934d08ddfdca07e4819c20a302f0/PyTransportNSW-${REALVERSION}.tar.gz"
-SOURCEFILE="PyTransportNSW-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

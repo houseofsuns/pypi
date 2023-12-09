@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySastrawi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for stemming Indonesian (Bahasa) text"
 
 HOMEPAGE="https://github.com/har07/PySastrawi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/54/fa55361786c98bc8afc49253c49bb5325b56af70a3f014e68ee3009612f0/PySastrawi-${REALVERSION}.tar.gz"
-SOURCEFILE="PySastrawi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

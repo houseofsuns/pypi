@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-ADFS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="User session management for Flask"
 
 HOMEPAGE="https://github.com/johnpickerill/flask-login"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/eb/ec213f68050d39fc8db6dd7fa7bbff5dc7da6cfbe055e940e3f8c4484eb3/Flask-ADFS-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-ADFS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

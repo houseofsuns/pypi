@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-PW"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Peewee ORM integration for Flask framework"
 
 HOMEPAGE="https://github.com/klen/flask-pw"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/2f/a0b9c33438c24050d55835c0e126ad97a6a53d31abcbf7daad9f1b70b877/Flask-PW-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-PW-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

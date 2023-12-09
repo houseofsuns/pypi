@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FairArticle"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Article Provider for Sources, Categorizer, Utils and more."
 
 HOMEPAGE="https://github.com/chazzcoin/FairArticle"
 LICENSE="BSD 2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/43/02/89fd585304554f565408d2e69744b111ad94526d6c472cceba5177eaaaeb/FairArticle-${REALVERSION}.tar.gz"
-SOURCEFILE="FairArticle-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

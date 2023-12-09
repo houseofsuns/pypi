@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pylons"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pylons Web Framework"
 
 HOMEPAGE="https://github.com/Pylons/pylons"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5f/aa/cc3af2c89fa956a781ef6f4aa9a54ee0f1be814eecdc885a14b543462823/Pylons-${REALVERSION}.tar.gz"
-SOURCEFILE="Pylons-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

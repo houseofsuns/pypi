@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MelissaData"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python interface for MelissaData JSON API"
 
 HOMEPAGE="https://github.com/gregmccoy/melissadata"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/55/d1259c39944c69e94b8ff95f610e850d63d03df1a1f9ffbd3d67cb1d0d61/MelissaData-${REALVERSION}.tar.gz"
-SOURCEFILE="MelissaData-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

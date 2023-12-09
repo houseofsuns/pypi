@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BDMesh"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BD Mesh generator"
 
 HOMEPAGE="https://github.com/bond-anton/BDMesh"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/28/be/a70e8b679dd55b408d34bc60015e97017d69a7cd52834d9d04b5060fca03/BDMesh-${REALVERSION}.tar.gz"
-SOURCEFILE="BDMesh-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CogEnvDecoder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="For decoding observation data from Cog virtual environment"
 
 HOMEPAGE="https://github.com/DRL-CASIA/COG-sim2real-challenge"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6f/d3/1d000b0ef51d45ed5094c53687643597cf6b85fc3216b34b8f4d1ba10821/CogEnvDecoder-${REALVERSION}.tar.gz"
-SOURCEFILE="CogEnvDecoder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

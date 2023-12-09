@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Escher"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Escher: A Web Application for Building, Sharing, and Embedding Data
 
 HOMEPAGE="https://escher.github.io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/e6/62ca512196b375aa93bebb0cb2d7b620fe90e26a330cb3ea89dc2a47acbd/Escher-${REALVERSION}.tar.gz"
-SOURCEFILE="Escher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

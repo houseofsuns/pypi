@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-Angular-FileUpload"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Angular-FileUpload 12.2.13 (XStatic packaging standard)"
 
 HOMEPAGE="https://github.com/danialfarid/angular-file-upload"
 LICENSE="same as Angular-FileUpload"
-SRC_URI="https://files.pythonhosted.org/packages/48/02/9e988bd85ef21c0b1009e4d232907e3d19a18bb3eb08d4f98fdd495d5926/XStatic-Angular-FileUpload-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-Angular-FileUpload-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

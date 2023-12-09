@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FASTRAL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A hybrid summary method for reconstructing species tree from gene t
 
 HOMEPAGE="https://github.com/PayamDiba/FASTRAL"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/7f/005060f111cd0677d8af66d519923b41001f50ee0c596cd7c155aa59c10e/FASTRAL-${REALVERSION}.tar.gz"
-SOURCEFILE="FASTRAL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

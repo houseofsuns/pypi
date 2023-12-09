@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PymoNNto"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Modular Neural Network Toolbox"
 
 HOMEPAGE="https://github.com/trieschlab/PymoNNto"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/07/1fe992b68097169cf78956fd4bb3988cf2c74b0c60344c8f44446b6f1186/PymoNNto-${REALVERSION}.tar.gz"
-SOURCEFILE="PymoNNto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

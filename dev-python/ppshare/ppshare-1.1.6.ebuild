@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PPshare"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PPshare is an application platform that focuses on scientific resea
 
 HOMEPAGE="https://github.com/zemengchuan/PPshare"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/fd/ac09f1685dd6f41a94f0b162ded691bceb5dcff54e8b72681e255a3ca653/PPshare-${REALVERSION}.tar.gz"
-SOURCEFILE="PPshare-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

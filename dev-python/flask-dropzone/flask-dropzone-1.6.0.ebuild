@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Dropzone"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Upload files in Flask with Dropzone.js."
 
 HOMEPAGE="https://github.com/greyli/flask-dropzone"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/c1/17146af35bd74084163511b7349f0f3241f40105a497782f179f891113bf/Flask-Dropzone-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Dropzone-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

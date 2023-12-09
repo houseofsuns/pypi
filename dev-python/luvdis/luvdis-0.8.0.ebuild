@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Luvdis"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pure-Python Game Boy Advance Disassembler"
 
 HOMEPAGE="https://github.com/arantonitis/luvdis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/23/32c3313f9378d9a9529dcbd7cfdc40fc861dd6c8ba2c48efe7a2c421abf7/Luvdis-${REALVERSION}.tar.gz"
-SOURCEFILE="Luvdis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

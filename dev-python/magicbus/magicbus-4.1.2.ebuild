@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MagicBus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A pub/sub state machine"
 
 HOMEPAGE="https://github.com/cherrypy/MagicBus"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c4/37/5ba414c9275b8d9aa3f7527b66714902874946b662c0b682b5970499fc20/MagicBus-${REALVERSION}.tar.gz"
-SOURCEFILE="MagicBus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

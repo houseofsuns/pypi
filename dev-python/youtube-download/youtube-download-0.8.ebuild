@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Youtube-Download"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Api to download Youtube videos as mp3 files"
 
 HOMEPAGE="https://dadard.fr:8010/dadard/YtApi.git"
 LICENSE="WTFPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/12/b7/103a1b8814d940b9048e25bf40541190852b01bb6939236b3dcf609bca9c/Youtube_Download-${REALVERSION}.tar.gz"
-SOURCEFILE="Youtube_Download-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

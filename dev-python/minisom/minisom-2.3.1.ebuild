@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MiniSom"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Minimalistic implementation of the Self Organizing Maps (SOM)"
 
 HOMEPAGE="https://github.com/JustGlowing/minisom"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/aa/22d31e9f3fbd462585099f8fd07a5373cff1c00ae3c9455e1de8f3b56c7b/MiniSom-${REALVERSION}.tar.gz"
-SOURCEFILE="MiniSom-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

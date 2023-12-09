@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BWP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Business Web Platform is Django-application. Contains models, t
 
 HOMEPAGE="https://bitbucket.org/rosix/bwp/"
 LICENSE="GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/98/b1/2c33e6570edd9499beb510600567ba3871c07622cd2c886ae2e03e65e5b9/BWP-${REALVERSION}.tar.gz"
-SOURCEFILE="BWP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

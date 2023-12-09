@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Procpath"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Procpath is a process tree analysis workbench"
 
 HOMEPAGE="https://heptapod.host/saajns/procpath"
 LICENSE="LGPL-3.0-only"
-SRC_URI="https://files.pythonhosted.org/packages/5a/58/9f99f915ff894422ee4f88eb9978bb63051deef89dec7e373a8b11d30c30/Procpath-${REALVERSION}.tar.gz"
-SOURCEFILE="Procpath-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

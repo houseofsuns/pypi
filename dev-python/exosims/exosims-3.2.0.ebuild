@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EXOSIMS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Exoplanet Imaging Mission Simulator"
 
 HOMEPAGE="https://github.com/dsavransky/EXOSIMS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/68/36/4f8e426f3ced76929c7df218b744b429a51f4a27061b6b240c6c02953f2b/EXOSIMS-${REALVERSION}.tar.gz"
-SOURCEFILE="EXOSIMS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

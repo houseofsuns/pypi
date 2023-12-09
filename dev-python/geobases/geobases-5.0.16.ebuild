@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GeoBases"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Data services and visualization"
 
 HOMEPAGE="http://opentraveldata.github.com/geobases"
 LICENSE="Creative Commons"
-SRC_URI="https://files.pythonhosted.org/packages/17/0b/9b7e29ee7bb431c90ff84ef79cea087575bedd7115b091f01040818da6e9/GeoBases-${REALVERSION}.zip"
-SOURCEFILE="GeoBases-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

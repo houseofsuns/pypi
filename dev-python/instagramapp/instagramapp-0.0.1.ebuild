@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="InstagramApp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/Marko-Toosl/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3e/2b/096d50d9b436eef93226e67f04ce8094289a00e4f963506af06f1335f259/InstagramApp-${REALVERSION}.tar.gz"
-SOURCEFILE="InstagramApp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

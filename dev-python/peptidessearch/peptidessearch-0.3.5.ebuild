@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PeptidesSearch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Search a list of peptides in a fasta file (or proteome) and returns
 
 HOMEPAGE="https://github.com/khaledianehdieh/PeptidesSearch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/0a/6002bc021d5742b4c2d950db9964fe791a97cf487ec7a620fc8b71293ebc/PeptidesSearch-${REALVERSION}.tar.gz"
-SOURCEFILE="PeptidesSearch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

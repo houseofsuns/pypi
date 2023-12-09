@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChemGAPP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for the analysis of chemical genomic screen data"
 
 HOMEPAGE="https://github.com/HannahMDoherty/ChemGAPP"
 LICENSE="by-nc-nd-4.0"
-SRC_URI="https://files.pythonhosted.org/packages/20/a9/0518cfa36fce1c61496d7379d90861262bf3d3adc2b0bae917df4cb36204/ChemGAPP-${REALVERSION}.tar.gz"
-SOURCEFILE="ChemGAPP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

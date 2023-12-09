@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Alanos"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Alan's package"
 
 HOMEPAGE="https://github.com/Alanosy/alanos"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/d4/3d1f8624c7aaef3b639bc1472f20018152dbf106afcc43178c972a6ec690/Alanos-${REALVERSION}.tar.gz"
-SOURCEFILE="Alanos-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SocialCrawler"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This package allow you get data from Twitter, Swarm(check-ins) and 
 
 HOMEPAGE="http://github.com/JosielWirlino/SocialCrawler"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/c4/4d/cbe1f097e1557b6be4f4912d1532d1d091801f01e5a4b3f1778640704486/SocialCrawler-${REALVERSION}.tar.gz"
-SOURCEFILE="SocialCrawler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

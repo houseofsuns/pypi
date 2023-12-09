@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="useDAVE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Design Analysis Visualization Engineering (or Difficult Analysis Ve
 
 HOMEPAGE="https://github.com/RubendeBruin/DAVE"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f8/e0/8798945b3c1c7940aca52302e15d0a44ba50c510669fc663af5171165fcb/useDAVE-${REALVERSION}.tar.gz"
-SOURCEFILE="useDAVE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

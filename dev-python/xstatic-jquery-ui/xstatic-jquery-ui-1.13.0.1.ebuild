@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-jquery-ui"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="jquery-ui 1.13.0 (XStatic packaging standard)"
 
 HOMEPAGE="http://jqueryui.com/"
 LICENSE="same as jquery-ui"
-SRC_URI="https://files.pythonhosted.org/packages/cb/e8/20e39283a6b44299c39f99ab3240662bddccf0ec8d8f8657eddeb0eed93d/XStatic-jquery-ui-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-jquery-ui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

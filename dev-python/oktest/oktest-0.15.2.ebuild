@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Oktest"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a new-style testing library"
 
 HOMEPAGE="http://www.kuwata-lab.com/oktest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/83/fa/7be008edf000279b642fbb09695a50b8258a8c1549852e6ee4cf22006b09/Oktest-${REALVERSION}.tar.gz"
-SOURCEFILE="Oktest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

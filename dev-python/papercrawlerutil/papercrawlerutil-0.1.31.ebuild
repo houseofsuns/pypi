@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PaperCrawlerUtil"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a collection of utils"
 
 HOMEPAGE="https://github.com/Liwu-di/PaperCrawlerUtil"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/57/87/834ee63a74c242c4fb3c3826306fa2f805de62946ed15393cdb2195ecef5/PaperCrawlerUtil-${REALVERSION}.tar.gz"
-SOURCEFILE="PaperCrawlerUtil-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

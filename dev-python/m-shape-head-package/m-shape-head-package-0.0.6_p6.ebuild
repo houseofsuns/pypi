@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="M-Shape-Head-Package"
 REALVERSION="0.0.6.post6"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="M Shape Standalone Package for Head"
 
 HOMEPAGE="https://github.com/NVlabs/SPADE"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/00/41/cd7b2620fb51d287a42b4b11ba2949d431ef8a1d90485fe3f34a1cc9e5d9/M_Shape_Head_Package-${REALVERSION}.tar.gz"
-SOURCEFILE="M_Shape_Head_Package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HandlerAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Parsing PR, Issue, Commit, and LOC data from GitHub REST API"
 
 HOMEPAGE="https://github.com/Susi-Eva/Parser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/88/899d1363be2b58469642a943f3d801f7fd76ee0024b6f3488f4305958034/HandlerAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="HandlerAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

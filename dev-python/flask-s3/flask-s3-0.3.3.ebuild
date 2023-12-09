@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-S3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Seamlessly serve the static files of your Flask app from Amazon S3"
 
 HOMEPAGE="http://github.com/e-dard/flask-s3"
 LICENSE="WTFPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/db/3f/fdc16869d4140df0096af7cdd4c6beee4a66629d80d15d444f5eca0fe6a5/Flask-S3-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-S3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

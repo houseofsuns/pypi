@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ConnectorDB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ConnectorDB Python Interface"
 
 HOMEPAGE="https://github.com/connectordb/connectordb-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5a/91/70f6e82f8783c2bf7b3aa69fb1c1244133dac649d973178b386de8593cf7/ConnectorDB-${REALVERSION}.tar.gz"
-SOURCEFILE="ConnectorDB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

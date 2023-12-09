@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyForms-Web"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pyforms Web is Python 3 framework to create single-page web applica
 
 HOMEPAGE="https://github.com/UmSenhorQualquer/pyforms-web"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/e5/20/d9ae4d3943444f02e4654258eb086c240ddafde1c2cf8fc3326c3601d78d/PyForms-Web-${REALVERSION}.tar.gz"
-SOURCEFILE="PyForms-Web-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

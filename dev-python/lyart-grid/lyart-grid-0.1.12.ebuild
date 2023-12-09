@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LyaRT-Grid"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fast Lyman alpha Radiative Transfer for everyone!"
 
 HOMEPAGE="https://github.com/sidgurun/LyaRT-Grid"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/97/9c/2d46c1394a28fb01f9604894cf0ab7e0c3307d83f47a334e3898e8e0a669/LyaRT_Grid-${REALVERSION}.tar.gz"
-SOURCEFILE="LyaRT_Grid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

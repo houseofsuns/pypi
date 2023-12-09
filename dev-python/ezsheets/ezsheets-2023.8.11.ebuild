@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EZSheets"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Pythonic interface to the Google Sheets API that actually works a
 
 HOMEPAGE="https://github.com/asweigart/ezsheets"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/0c/29/f4820c6d02ebd6bfe1d9fa24e5ffa6de22e305136460107dcbd081c74bd5/EZSheets-${REALVERSION}.tar.gz"
-SOURCEFILE="EZSheets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

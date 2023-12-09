@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TopasOpt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="optimisation for topas Monte Carlo"
 
 HOMEPAGE="https://github.com/ACRF-Image-X-Institute/TopasOpt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/96/9a74f974ad694de9f7f2c6f44ac1748caa6880c7b6e0f4acbdb507ea1b52/TopasOpt-${REALVERSION}.tar.gz"
-SOURCEFILE="TopasOpt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

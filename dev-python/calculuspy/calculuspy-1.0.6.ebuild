@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CalculusPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tool for teaching calculus in one variable."
 
 HOMEPAGE="https://github.com/josorio398/CalculusPy_Library"
 LICENSE="CC BY-NC-SA 4.0"
-SRC_URI="https://files.pythonhosted.org/packages/cd/27/ee15947ca7fd13448e17caf7cf9e86e1be5962aae7a8cd241014a4708b15/CalculusPy-${REALVERSION}.tar.gz"
-SOURCEFILE="CalculusPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

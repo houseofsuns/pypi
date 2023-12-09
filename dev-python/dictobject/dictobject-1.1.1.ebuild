@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DictObject"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DictObject"
 
 HOMEPAGE="https://github.com/luckydonald/DictObject"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/47/0b/18e256994d3fc00381059ab065a677d55f29d1eb6e76feba3b497983e7b3/DictObject-${REALVERSION}.tar.gz"
-SOURCEFILE="DictObject-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

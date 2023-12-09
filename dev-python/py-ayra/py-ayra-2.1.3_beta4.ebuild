@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="py-Ayra"
 REALVERSION="2.1.3b4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Secure and Powerful Python-Telethon Based Library For Ayra Userbo
 
 HOMEPAGE="https://github.com/naya1503/pyAyra"
 LICENSE="GNU AFFERO GENERAL PUBLIC LICENSE v3"
-SRC_URI="https://files.pythonhosted.org/packages/b5/1d/07f292e59d5f32a3477ae14b7d77377d15ab4e11db82035440d904c4d90c/py-Ayra-${REALVERSION}.tar.gz"
-SOURCEFILE="py-Ayra-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

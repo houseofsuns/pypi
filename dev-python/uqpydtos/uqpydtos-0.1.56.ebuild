@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UQpyDTOs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A collection of DTOs to deserialize json into UQpy classes"
 
 HOMEPAGE="https://github.com/DTsapetis/UQpyDTOs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/ad/bbad645cfa3cf4348d13f8085d26ac30b76f88d264087589cdc300cae30a/UQpyDTOs-${REALVERSION}.tar.gz"
-SOURCEFILE="UQpyDTOs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

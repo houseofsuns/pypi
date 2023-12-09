@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Chibchas"
 REALVERSION="0.2.13b0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="InstituLAC Automation Tools"
 
 HOMEPAGE="https://github.com/colav/Chibchas"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b2/7c/80d52cc260947d846a4abee0a46bc80df6544abbd0e3f6748b073d3249a6/Chibchas-${REALVERSION}.tar.gz"
-SOURCEFILE="Chibchas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

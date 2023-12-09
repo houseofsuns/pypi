@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OASYS1-WONDER"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Whole POwder PatterN MoDEl in OASYS."
 
 HOMEPAGE="https://github.com/WONDER-project/OASYS1-WONDER"
 LICENSE="GPL3+"
-SRC_URI="https://files.pythonhosted.org/packages/cc/60/b43381366df510ec70ef8961b6e0a7de7c5b1ce2f913f09091b562dae056/OASYS1-WONDER-${REALVERSION}.tar.gz"
-SOURCEFILE="OASYS1-WONDER-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

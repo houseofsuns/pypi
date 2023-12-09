@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-InfluxDB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask bindings for the InfluxDB time series database"
 
 HOMEPAGE="http://github.com/btashton/flask-influxdb"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e2/a3/fafc882be270bc4f41ca711f1ad071987d15b67d81d25cbbcd6bedf1606c/Flask-InfluxDB-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-InfluxDB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

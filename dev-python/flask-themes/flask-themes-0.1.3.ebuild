@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Themes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Provides infrastructure for theming Flask applications"
 
 HOMEPAGE="http://bitbucket.org/leafstorm/flask-themes/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/12/5be3cc2a56c63277177a7e3db4a8f346b9f68a6641277bb3029d401688e3/Flask-Themes-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Themes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

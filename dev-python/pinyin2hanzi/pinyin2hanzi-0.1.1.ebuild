@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pinyin2Hanzi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="拼音转汉字， Engine of Chinese Input Method"
 
 HOMEPAGE="https://github.com/someus/Pinyin2Hanzi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/04/be/a01db528e5b0870dada638ddbc4a8470c9fa1119a49c651be6b08546a5b0/Pinyin2Hanzi-${REALVERSION}.tar.gz"
-SOURCEFILE="Pinyin2Hanzi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

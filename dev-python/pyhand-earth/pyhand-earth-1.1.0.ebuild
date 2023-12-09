@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyHand-Earth"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Google Earth navigation driven by gesture recognition"
 
 HOMEPAGE="https://github.com/liujohnj/PyHand_Earth"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fb/24/6f16ef03418e10f44b92e8baa01ec907d308648921c880e749d2f4758044/PyHand_Earth-${REALVERSION}.tar.gz"
-SOURCEFILE="PyHand_Earth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

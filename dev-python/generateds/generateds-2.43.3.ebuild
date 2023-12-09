@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="generateDS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate Python data structures and XML parser from Xschema"
 
 HOMEPAGE="http://www.davekuhlman.org/generateDS.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/77/622d6d35c60da5ec106f2293c80ce1a8b2549043707f834d45b2ecb37d13/generateDS-${REALVERSION}.tar.gz"
-SOURCEFILE="generateDS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

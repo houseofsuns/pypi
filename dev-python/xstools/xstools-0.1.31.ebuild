@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XsTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools and classes for interfacing with XESS FPGA boards via USB."
 
 HOMEPAGE="https://github.com/xesscorp/XSTOOLs"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/5f/41/1f705fcf4894d9e8a84fab171331e7ade20df3c0c386b62e04fdc5c5a1c1/XsTools-${REALVERSION}.zip"
-SOURCEFILE="XsTools-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

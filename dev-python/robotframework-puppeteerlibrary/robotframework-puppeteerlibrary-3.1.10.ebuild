@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="robotframework-PuppeteerLibrary"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PuppeteerLibrary is a Web Testing library for Robot Framework."
 
 HOMEPAGE="https://qahive.github.io/robotframework-puppeteer.github.io/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/08/75/74c307c18f2280b31434100ad84de637b2cd586e5b28d8ba244d0e99c575/robotframework-PuppeteerLibrary-${REALVERSION}.tar.gz"
-SOURCEFILE="robotframework-PuppeteerLibrary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MLStudio"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Machine Learning Algorithms"
 
 HOMEPAGE="https://github.com/decisionscients/MLStudio"
 LICENSE="BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/ae/c4/a55ccdd8a5db11b4220b6256d04038e2c98f1d031770ad7bbbc75d261022/MLStudio-${REALVERSION}.tar.gz"
-SOURCEFILE="MLStudio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

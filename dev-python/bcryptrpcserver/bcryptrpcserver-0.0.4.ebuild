@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BcryptRpcServer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The rpc server api of https://github.com/cyal1/BcryptMontoya"
 
 HOMEPAGE="https://github.com/cyal1/BcryptRpcServer/tree/main/python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5c/fb/acd287ae760ee96b5d086ac131e29be7532317dba19efd71a65f41ebb377/BcryptRpcServer-${REALVERSION}.tar.gz"
-SOURCEFILE="BcryptRpcServer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

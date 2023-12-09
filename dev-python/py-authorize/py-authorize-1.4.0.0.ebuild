@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Py-Authorize"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A full-featured Python API for Authorize.net's AIM, CIM, ARB and Re
 
 HOMEPAGE="https://github.com/vcatalano/py-authorize"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/16/28/1a505fd17de5bf966965a09e3ec36823c034dc7c1cd9a1f6473848ad1501/Py-Authorize-${REALVERSION}.tar.gz"
-SOURCEFILE="Py-Authorize-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

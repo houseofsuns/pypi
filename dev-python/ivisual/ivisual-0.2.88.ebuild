@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IVisual"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="VPython visual inline for IPython Notebook"
 
 HOMEPAGE="http://pypi.python.org/pypi/IVisual/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/f1/67/07f06a19da72197610ef96c7e48974455bdec55d796f74ee9497552b0f90/IVisual-${REALVERSION}.zip"
-SOURCEFILE="IVisual-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

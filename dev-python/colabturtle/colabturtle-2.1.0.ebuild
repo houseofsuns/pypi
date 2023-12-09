@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ColabTurtle"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An HTML based Turtle implementation, in order to work in Google Col
 
 HOMEPAGE="https://github.com/tolgaatam/ColabTurtle"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/6f/619066317c24cd988979ad1b8c7b324c09ee1c408bfd88926889d6a62d99/ColabTurtle-${REALVERSION}.tar.gz"
-SOURCEFILE="ColabTurtle-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

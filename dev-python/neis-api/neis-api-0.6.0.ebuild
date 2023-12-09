@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Neis-API"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="나이스 API를 활용할 수 있게 도와주는 파이썬 패키
 
 HOMEPAGE="https://github.com/Piop2/Neis_API"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/9c/394a19d9103dd0a2bdddeea71dd93c457e652bb95b086f279d72a91db1a0/Neis_API-${REALVERSION}.tar.gz"
-SOURCEFILE="Neis_API-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

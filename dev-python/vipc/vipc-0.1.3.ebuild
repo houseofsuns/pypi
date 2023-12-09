@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Vipc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="command line tool for auto tuner"
 
 HOMEPAGE="https://github.com/ly1016799291/ceshi.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/e5/3676d52522b91976a4d5f5e70b816af79ea3ccb4b419bbcfe35de1042ea9/Vipc-${REALVERSION}.tar.gz"
-SOURCEFILE="Vipc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

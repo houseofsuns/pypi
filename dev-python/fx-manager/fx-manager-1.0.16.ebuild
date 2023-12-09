@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FX-Manager"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package for developing and testing forex algorithmic trading
 
 HOMEPAGE="https://github.com/AbdullahBahi/fxmanager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/59/0f/bd55c82f02c06fd9327214992357b57afddb0915d24756fda5a810d65d54/FX-Manager-${REALVERSION}.tar.gz"
-SOURCEFILE="FX-Manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

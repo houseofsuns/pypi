@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HDDM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="HDDM is a python module that implements Hierarchical Bayesian estim
 
 HOMEPAGE="http://github.com/hddm-devs/hddm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fb/48/822be4ea5f49e1146cec3ae875c0dcf772fda53416f4f2cf5a791d143fc0/HDDM-${REALVERSION}.tar.gz"
-SOURCEFILE="HDDM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

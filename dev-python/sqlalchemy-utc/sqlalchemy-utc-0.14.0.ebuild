@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SQLAlchemy-Utc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SQLAlchemy type to store aware datetime values"
 
 HOMEPAGE="https://github.com/spoqa/sqlalchemy-utc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5c/db/2d8f421cece2758954278bd16e05e3f73ce86c0062577a1ccfd3eb4208cd/SQLAlchemy-Utc-${REALVERSION}.tar.gz"
-SOURCEFILE="SQLAlchemy-Utc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

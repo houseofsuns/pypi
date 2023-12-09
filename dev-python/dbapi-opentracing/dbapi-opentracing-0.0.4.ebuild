@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DBAPI-OpenTracing"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OpenTracing support for Python DB API"
 
 HOMEPAGE="http://github.com/opentracing-contrib/python-dbapi"
 LICENSE="Apache Software License v2"
-SRC_URI="https://files.pythonhosted.org/packages/e4/38/f5d537cb07c4b204a8d7438a729171edefb2c278775cf9cf766079ebe6e1/DBAPI-OpenTracing-${REALVERSION}.tar.gz"
-SOURCEFILE="DBAPI-OpenTracing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

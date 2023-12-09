@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMca5"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mapping and X-Ray Fluorescence Analysis"
 
 HOMEPAGE="http://pymca.sourceforge.net"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/36/e1/eb72029c14d7144716db0e199afb113932459fa80fecee184e01afe57809/PyMca5-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMca5-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

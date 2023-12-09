@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CodeMetaPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate and manage CodeMeta software metadata"
 
 HOMEPAGE="https://github.com/proycon/codemetapy"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ca/b9/af7d19cc299cb421d5fb2ff3dea3572f07a21d7eef68d9a79f04d9e07ddb/CodeMetaPy-${REALVERSION}.tar.gz"
-SOURCEFILE="CodeMetaPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

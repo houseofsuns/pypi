@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyCocoa"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Basic Python binding to macOS' Objective-C Cocoa"
 
 HOMEPAGE="https://GitHub.com/mrJean1/PyCocoa"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/40/ee1a351d5293d5347a94b77731ae067e4ee6f308e173a79bba7854814e8a/PyCocoa-${REALVERSION}.zip"
-SOURCEFILE="PyCocoa-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

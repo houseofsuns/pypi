@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AA-module"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Module for performing various archetypal analyses."
 
 HOMEPAGE="https://github.com/anden1305/AAM-Module"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/83/fa/1e8a44d781d9a988ae35cc04f6fad856f5843651bef218db6381d684c1c2/AA-module-${REALVERSION}.tar.gz"
-SOURCEFILE="AA-module-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

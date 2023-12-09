@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Py-BOBYQA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A flexible derivative-free solver for (bound constrained) general o
 
 HOMEPAGE="https://github.com/numericalalgorithmsgroup/pybobyqa/"
 LICENSE="GNU GPL"
-SRC_URI="https://files.pythonhosted.org/packages/64/d4/5cdf443bf7fde99ca180d7bb4a0c1668cc1a5477634db64688c7481e7c33/Py-BOBYQA-${REALVERSION}.tar.gz"
-SOURCEFILE="Py-BOBYQA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

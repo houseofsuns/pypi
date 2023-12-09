@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NewlineJSON"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Streaming newline delimited JSON I/O."
 
 HOMEPAGE="https://github.com/geowurster/NewlineJSON"
 LICENSE="New BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ec/4c/04f0e60c8cc22581b1362a40e7c1342288517f0583aee221a49a50a075ef/NewlineJSON-${REALVERSION}.tar.gz"
-SOURCEFILE="NewlineJSON-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="mLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library contains functions commonly used in malware research"
 
 HOMEPAGE="https://github.com/mak/mlib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/c2/d0fed7e4c7d847bf564c8abd89d7361b4b0d1f0a67f5eec3a56ebbcc7da9/mLib-${REALVERSION}.tar.gz"
-SOURCEFILE="mLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

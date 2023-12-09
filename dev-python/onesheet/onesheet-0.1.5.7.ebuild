@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OneSheet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easily access metadata for image, video, sound, and document file."
 
 HOMEPAGE="https://github.com/henryborchers/OneSheet"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/90/e5/55230f076780174630d5aa7009fddbccf12f3f1063fa889b1d7fbf643f51/OneSheet-${REALVERSION}.tar.gz"
-SOURCEFILE="OneSheet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

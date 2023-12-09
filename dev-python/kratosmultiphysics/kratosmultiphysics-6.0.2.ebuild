@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KratosMultiphysics"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="KRATOS Multiphysics (Kratos) is a framework for building parallel, 
 
 HOMEPAGE="https://github.com/KratosMultiphysics/Kratos"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/63/768917c20a5d28589143dafaa971dbe31a16e51a4875764cbf423763c50d/KratosMultiphysics-${REALVERSION}.tar.gz"
-SOURCEFILE="KratosMultiphysics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

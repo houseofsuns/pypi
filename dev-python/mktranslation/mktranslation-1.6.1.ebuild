@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="mkTranslation"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Command line tools translated using Google、Youdao and i18ns.com"
 
 HOMEPAGE="https://github.com/mythkiven/mkTranslate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/f6/1982a72503e73f99de082b9c20fedda2b2d365c560501ae3de96f0378e66/mkTranslation-${REALVERSION}.tar.gz"
-SOURCEFILE="mkTranslation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

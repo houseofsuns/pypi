@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EnergyFlow"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package for the Energy Flow suite of particle physics tools"
 
 HOMEPAGE="https://energyflow.network"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/52/16/480dc9c3548b61781424b0f30fa4fd7b788a266b3dbb02ce6e925fd34f61/EnergyFlow-${REALVERSION}.tar.gz"
-SOURCEFILE="EnergyFlow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MetPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Collection of tools for reading, visualizing and performing calcula
 
 HOMEPAGE="https://github.com/Unidata/MetPy"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1a/21/3e920f80862b1e94c98dc4464b8a8ae788989b9d306154097cac83136605/MetPy-${REALVERSION}.tar.gz"
-SOURCEFILE="MetPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

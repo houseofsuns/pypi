@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RummikubConsole"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Rummikub solver console with multi-game support and persistence."
 
 HOMEPAGE="https://github.com/mjpieters/RummikubConsole"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/b2/1d318c7a3a354c14b91da4c969c7c84bb88a548bf2fc4b7cef3810b8b417/RummikubConsole-${REALVERSION}.tar.gz"
-SOURCEFILE="RummikubConsole-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

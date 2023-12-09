@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IPythonDisplayTurtle"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Turtles using IPython Display"
 
 HOMEPAGE="https://github.com/atahan-git/IPythonDisplayTurtle"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/ef/a4f2a1bdace1eaa2995934ea014335e528420891600223734c5e39255c0d/IPythonDisplayTurtle-${REALVERSION}.tar.gz"
-SOURCEFILE="IPythonDisplayTurtle-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LatLon23"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Methods for representing geographic coordinates"
 
 HOMEPAGE="https://github.com/hickeroar/LatLon23"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/39/db/fc3b19993095c19eea84793ebb3bcbe3706c693c107f6b49b2ea3d025514/LatLon23-${REALVERSION}.tar.gz"
-SOURCEFILE="LatLon23-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

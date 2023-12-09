@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EdgeClassifier"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python package for classify edges of graph based on topological f
 
 HOMEPAGE="https://github.com/louzounlab/Edge-Prediction"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/d4/65440de656da4df059e03cd78ab4ad9ac2222647b0c0f749a9fefff01d29/EdgeClassifier-${REALVERSION}.tar.gz"
-SOURCEFILE="EdgeClassifier-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

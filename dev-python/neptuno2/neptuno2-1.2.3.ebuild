@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Neptuno2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A little set of utilities that Ender has been using in their web pr
 
 HOMEPAGE="http://www.ender.es"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/3b/f8/46248b3ca9b67a47e1b4ba4c29e4cde59af02ee742e426c4f83e0c91bb01/Neptuno2-${REALVERSION}.tar.gz"
-SOURCEFILE="Neptuno2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

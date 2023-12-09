@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyDMNrules"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An implementation of DMN in Python. DMN rules are read from an Exce
 
 HOMEPAGE="https://github.com/russellmcdonell/pyDMNrules"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/7c/0b7a1f7c768fc47efab752df5ea1f2c571a1f6721c4b22d075af8b5ed9d5/pyDMNrules-${REALVERSION}.tar.gz"
-SOURCEFILE="pyDMNrules-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

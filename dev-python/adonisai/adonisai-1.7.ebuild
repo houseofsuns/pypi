@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AdonisAI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="AdonisAI is python library to build your own AI virtual assistant w
 
 HOMEPAGE="https://github.com/Dipeshpal/Adonis"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9d/1c/69a6b85091dc833686bb61fa77b170e7e1bd3276cd4f76061492eb50620f/AdonisAI-${REALVERSION}.tar.gz"
-SOURCEFILE="AdonisAI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

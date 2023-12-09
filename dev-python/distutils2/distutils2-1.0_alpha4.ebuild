@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Distutils2"
 REALVERSION="1.0a4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Packaging Library"
 
 HOMEPAGE="http://wiki.python.org/moin/Distutils2"
 LICENSE="Python license"
-SRC_URI="https://files.pythonhosted.org/packages/09/d1/315da9e4ca095ce111ce112df08b3effcad47034dcc1833e1f08c97678b6/Distutils2-${REALVERSION}.tar.gz"
-SOURCEFILE="Distutils2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LnkParse3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Windows Shortcut file (LNK) parser"
 
 HOMEPAGE="https://github.com/Matmaus/LnkParse"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ed/80/b9d898622cab331e734946ab8fd7df7c0e70139ce0a938d434a2d399ee5c/LnkParse3-${REALVERSION}.tar.gz"
-SOURCEFILE="LnkParse3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

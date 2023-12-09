@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PythonExtensions"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Strongly typed classes with multiple built in helper functions to s
 
 HOMEPAGE="https://github.com/Jakar510/PythonExtensions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d9/ba/2f9c01ac4ee7d7f3eba25db2034e9335042bf92690ce50c2a9bf98094291/PythonExtensions-${REALVERSION}.tar.gz"
-SOURCEFILE="PythonExtensions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

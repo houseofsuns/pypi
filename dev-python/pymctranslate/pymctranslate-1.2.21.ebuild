@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMCTranslate"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Minecraft data translation system."
 
 HOMEPAGE="https://www.amuletmc.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/61/48/203f042b261edcd150982e3184500588bff5b5529d5b305157a2f8057f37/PyMCTranslate-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMCTranslate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

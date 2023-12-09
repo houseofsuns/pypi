@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Authcode"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Awesome authentication code"
 
 HOMEPAGE="http://github.com/jpscaletti/authcode"
 LICENSE="MIT license see LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/87/cc/967dbb5dc1ff2f7f49103fbf3c3dcaa900ca4c49a090280a02461a2080ac/Authcode-${REALVERSION}.tar.gz"
-SOURCEFILE="Authcode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

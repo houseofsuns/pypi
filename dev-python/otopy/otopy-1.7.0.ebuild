@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OtoPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Otoma Systems developed Lib Containing useful Tools and More"
 
 HOMEPAGE="https://github.com/Otoma-Systems/OtoPy.git"
 LICENSE="BSD 2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/53/fa/211265e6a9a7a4bf5aa1a9a36039e16233bc2be0c7510f5fbf92d2059a25/OtoPy-${REALVERSION}.tar.gz"
-SOURCEFILE="OtoPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

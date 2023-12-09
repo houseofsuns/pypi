@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Auptimizer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/LGE-ARC-AdvancedAI/auptimizer"
 LICENSE="SPDX-License-Identifier: GPL-3.0-or-later"
-SRC_URI="https://files.pythonhosted.org/packages/d4/de/2fe06c268ba133fc6d95ad1eebd2f18a28dd27e1c91bd513b0def7df4d76/Auptimizer-${REALVERSION}.tar.gz"
-SOURCEFILE="Auptimizer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

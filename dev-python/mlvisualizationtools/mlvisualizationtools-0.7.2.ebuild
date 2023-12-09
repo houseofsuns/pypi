@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MLVisualizationTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A set of functions and demos to make machine learning projects easi
 
 HOMEPAGE="https://github.com/RobertJN64/MLVisualizationTools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/26/fd50c6a2e72470b92bd9cb208479be357e065f319666867159ea719ee3cb/MLVisualizationTools-${REALVERSION}.tar.gz"
-SOURCEFILE="MLVisualizationTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

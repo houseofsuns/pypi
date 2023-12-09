@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="lisa-plugin-Domoticz"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LISA home automation system - Plugin"
 
 HOMEPAGE="http://github.com/jfcjfc/LISA-PLUGINS-Domoticz"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/5e/30ca6268ab75bbdfa0b83f1dab6a610eb56abeabd762b28fe37de77bbca5/lisa-plugin-Domoticz-${REALVERSION}.tar.gz"
-SOURCEFILE="lisa-plugin-Domoticz-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

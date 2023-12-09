@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyRFXtrx"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a library to communicate with the RFXtrx family of devices"
 
 HOMEPAGE="https://github.com/Danielhiversen/pyRFXtrx"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/cd/30dfb61c6918481b8918ab966e6bea86c9fb4eff15355fac222fa3eb1fdc/pyRFXtrx-${REALVERSION}.tar.gz"
-SOURCEFILE="pyRFXtrx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

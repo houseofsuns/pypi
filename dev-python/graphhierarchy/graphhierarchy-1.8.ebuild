@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GraphHierarchy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A module calculating quantities related to a network metric known a
 
 HOMEPAGE="https://github.com/shuaib7860/GraphHierarchy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/cd/fff2e978e803c1ef153146bcf19d19ef4d62ec1e6d52d349d7dc1a1a65ea/GraphHierarchy-${REALVERSION}.tar.gz"
-SOURCEFILE="GraphHierarchy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

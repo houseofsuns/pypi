@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FAIRsoft"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FAIRsoft package for the aggregation of Life Sciences software meta
 
 HOMEPAGE="https://gitlab.bsc.es/inb/elixir/software-observatory/FAIRsoft_ETL/-/tree/master/FAIRsoft"
 LICENSE="AGLP-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/6e/b2/292a706e2c9d1a449e776342cb90d9d5038b93b02a417cde720ee656c48a/FAIRsoft-${REALVERSION}.tar.gz"
-SOURCEFILE="FAIRsoft-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

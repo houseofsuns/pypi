@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AnyQt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyQt5/PyQt6 compatibility layer."
 
 HOMEPAGE="https://github.com/ales-erjavec/anyqt"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/23/4c/ea43dc35e2460199758b4ae78e476ccd2bc8d54672eb1a71be3fbe188b84/AnyQt-${REALVERSION}.tar.gz"
-SOURCEFILE="AnyQt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Nano-Utils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Utility functions used throughout the various nlesc-nano repositori
 
 HOMEPAGE="https://github.com/nlesc-nano/Nano-Utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/44/17/4a88113f2eb58938efd896a3227ae654b3c444f9e2e29c3ca696a11227d1/Nano-Utils-${REALVERSION}.tar.gz"
-SOURCEFILE="Nano-Utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

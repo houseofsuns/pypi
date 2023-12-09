@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JSON-log-formatter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="JSON log formatter"
 
 HOMEPAGE="https://github.com/marselester/json-log-formatter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/0f/daee9657d9860f505afab484b3d80f3f1f757ec3a65ab93212558cfac468/JSON-log-formatter-${REALVERSION}.tar.gz"
-SOURCEFILE="JSON-log-formatter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

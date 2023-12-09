@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepCell-Toolbox"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
@@ -15,8 +16,8 @@ DESCRIPTION="The pre- and post-processing functions module for deepcell-tf."
 
 HOMEPAGE="https://github.com/vanvalenlab/deepcell-toolbox"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/e2/d7/1f2deed50c2cb15844eb5e068ae649576600ada797986dd7864b4fc24c4b/DeepCell_Toolbox-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepCell_Toolbox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

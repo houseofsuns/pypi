@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BaseNN"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BaseNN can easily build neural networks layer by layer and deeply e
 
 HOMEPAGE="https://github.com/OpenXLab-Edu/OpenMMLab-Edu"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/f6/2644cf3b6050ab1e3d1524a4ad157f5edcf5cd9a729826bdb05ba7a14958/BaseNN-${REALVERSION}.tar.gz"
-SOURCEFILE="BaseNN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

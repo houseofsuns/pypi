@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TorchSisso"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GPU Supported Sure Independence Screening and Sparsifying Operator 
 
 HOMEPAGE="https://github.com/MR1319/TorchSisso"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/79/db/f611745149854ce5b935613a597557a3e2ce05046a85b758f1f2e5fefdda/TorchSisso-${REALVERSION}.tar.gz"
-SOURCEFILE="TorchSisso-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

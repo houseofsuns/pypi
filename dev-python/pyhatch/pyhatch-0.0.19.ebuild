@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyHatch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyHatch initializes files and directory structure for new python pr
 
 HOMEPAGE="http://pyhatch.readthedocs.org/en/latest/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ca/49/dc60f20fb20a58e543b7269c863ffd4110a72c504323c6d624e212eac46b/PyHatch-${REALVERSION}.tar.gz"
-SOURCEFILE="PyHatch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

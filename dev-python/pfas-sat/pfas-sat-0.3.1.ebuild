@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PFAS-SAT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Perfluoroalkyl Substances Systems Analysis Tool (PFAS_SAT)"
 
 HOMEPAGE="https://github.com/PFAS-SAT/PFAS-SAT"
 LICENSE="GNU GENERAL PUBLIC LICENSE V2"
-SRC_URI="https://files.pythonhosted.org/packages/02/92/826a9c871942afb55cbf632249fc8edfbc975f786fc9d961ff59d25da9e9/PFAS_SAT-${REALVERSION}.tar.gz"
-SOURCEFILE="PFAS_SAT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RolexReserver"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="RolexReserver Package"
 
 HOMEPAGE="https://github.com/kaioman/RolexReserver.git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a5/a7/cd58ab7d5eea10e9a281bce6a22763bafa6f5acf183c734bad5c577df0ee/RolexReserver-${REALVERSION}.tar.gz"
-SOURCEFILE="RolexReserver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

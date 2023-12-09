@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Covid19Dashboard-ah1062"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Covid-19 Data Presentation Dashboard, ECM1400 Programming Coursewor
 
 HOMEPAGE="https://github.com/ah1062/Covid19Dashboard"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9f/fa/176ddae5270f98f06d674491c6d2137429739f715a106ccc04e275a7f4d5/Covid19Dashboard_ah1062-${REALVERSION}.tar.gz"
-SOURCEFILE="Covid19Dashboard_ah1062-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

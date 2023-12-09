@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MDbrew"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Postprocessing tools for the MD simulation results (ex. lammps)"
 
 HOMEPAGE="https://github.com/MyKnu/MDbrew"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f0/f7/f7ac0cbe90c8eff824e6dbcc3e87b2c55dd153aca1e25eaa79150623eba6/MDbrew-${REALVERSION}.tar.gz"
-SOURCEFILE="MDbrew-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

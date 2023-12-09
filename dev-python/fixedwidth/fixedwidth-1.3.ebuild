@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FixedWidth"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Two-way fixed-width <--> Python dict converter."
 
 HOMEPAGE="https://github.com/ShawnMilo/fixedwidth"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/94/b3/a6c09d71a822d3570bcc1ec807af99052ef41d6b4606f67340f23933fc54/FixedWidth-${REALVERSION}.tar.gz"
-SOURCEFILE="FixedWidth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

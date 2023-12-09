@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MonkeyScope"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Distributions & Timer for Non-deterministic Value Generators"
 
 HOMEPAGE="https://github.com/BrokenShell/MonkeyScope"
 LICENSE="Free for non-commercial use"
-SRC_URI="https://files.pythonhosted.org/packages/92/85/2b8899cf809e50d9d2b9a05f59027f173f2ee3f26cdcf946fb4894bfd713/MonkeyScope-${REALVERSION}.tar.gz"
-SOURCEFILE="MonkeyScope-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AsteriskChannelHangup"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Programa utilizado para prevenir canales colgados en una planta ast
 
 HOMEPAGE="http://www.sapian.com.co"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/1c/49/ea7177c0cbb879db365be38ee3d8fc16efc85d62823e46719f8415467330/AsteriskChannelHangup-${REALVERSION}.tar.gz"
-SOURCEFILE="AsteriskChannelHangup-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SBMLKinetics"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Analyze SBML kinetics."
 
 HOMEPAGE="https://github.com/SunnyXu/SBMLKinetics"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/f4/5367b321b1dc1b6f89a799ebfba974f4d1ea8869c295145fc2d7c3f9477a/SBMLKinetics-${REALVERSION}.tar.gz"
-SOURCEFILE="SBMLKinetics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

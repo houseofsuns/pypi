@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Random-Enemy-Attributes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Randomizes enemy stat values for most of the enemies in the game Me
 
 HOMEPAGE="https://github.com/Fantaselion/PARAMETEREDITOR"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/ad/558eb99b9b23574165c00a12b060c1629d2b98764919bd58e1dd6946e031/Random_Enemy_Attributes-${REALVERSION}.tar.gz"
-SOURCEFILE="Random_Enemy_Attributes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

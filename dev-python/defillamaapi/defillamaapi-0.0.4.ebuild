@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="defillamaAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="defillama API Module"
 
 HOMEPAGE="https://github.com/jafark92/defillamaAPI"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ae/6f/c751ec9acc0a23b2f5fa6252a56acd117a56f1748a52645c57f550ce02b3/defillamaAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="defillamaAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

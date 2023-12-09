@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XLML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy Excel to HTML library for Python (3.x)."
 
 HOMEPAGE="https://github.com/Sarthak049/htmxl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/5e/e1a768310bae21b06dc394c3816e8024e64928a505a426a40c1696ff9f50/XLML-${REALVERSION}.tar.gz"
-SOURCEFILE="XLML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

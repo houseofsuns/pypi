@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VRPSolverEasy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="'VRPSolverEasy is a simplified modeler solving routing problems by 
 
 HOMEPAGE="https://github.com/inria-UFF/VRPSolverEasy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2a/92/2be14e8526762dcbe15d8c287c5b133154757fbbb7d3cc969613cafb9a2d/VRPSolverEasy-${REALVERSION}.tar.gz"
-SOURCEFILE="VRPSolverEasy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

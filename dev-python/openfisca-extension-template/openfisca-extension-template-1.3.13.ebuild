@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenFisca-Extension-Template"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An OpenFisca extension that adds some variables to an already-exist
 
 HOMEPAGE="https://github.com/openfisca/extension-template"
 LICENSE="http://www.fsf.org/licensing/licenses/agpl-3.0.html"
-SRC_URI="https://files.pythonhosted.org/packages/45/d4/2fde578d717752f738b06b0366866f3c3df2a8ca6071f2b4e60bce211618/OpenFisca-Extension-Template-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenFisca-Extension-Template-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

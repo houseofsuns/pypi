@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LightDB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lightweight JSON Database for Python"
 
 HOMEPAGE="https://github.com/Fl1yd/LightDB"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/ed/0a7141812d24595fe234c6bf81e4c6b99246016db8d26e96e23a8758c3e0/LightDB-${REALVERSION}.tar.gz"
-SOURCEFILE="LightDB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

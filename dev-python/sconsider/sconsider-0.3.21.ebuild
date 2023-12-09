@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SConsider"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="scons build system extension"
 
 HOMEPAGE="https://gitlab.dev.ifs.hsr.ch/ifs/sconsider"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a6/c4/dd9bf4f4cad8a9cecbcc562b2b2bdf526add67807fc9f1eab55f6e5d8c21/SConsider-${REALVERSION}.tar.gz"
-SOURCEFILE="SConsider-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

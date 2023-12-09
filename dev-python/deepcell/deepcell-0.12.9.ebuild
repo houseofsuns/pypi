@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepCell"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
@@ -15,8 +16,8 @@ DESCRIPTION="Deep learning for single cell image segmentation"
 
 HOMEPAGE="https://github.com/vanvalenlab/deepcell-tf"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/f2/a2/ee8288ea7348065a6ca232a343eaab710f51051311c6dd8857df9da62e26/DeepCell-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepCell-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

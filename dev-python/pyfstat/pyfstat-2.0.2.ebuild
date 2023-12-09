@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyFstat"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a python package for gravitational wave analysis with the F-statist
 
 HOMEPAGE="https://github.com/PyFstat/PyFstat"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c3/d3/4a9089eba56ce261628a7c12d56c17506221280dc392cbd8dbd7b302bd81/PyFstat-${REALVERSION}.tar.gz"
-SOURCEFILE="PyFstat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

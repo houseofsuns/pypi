@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Signal8"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A multi-agent environment inspired by the Lewis Signaling Game, fea
 
 HOMEPAGE="https://github.com/ethanmclark1/signal8"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6b/84/ad70d318236ef621b14780273ac7a4197a1f816259556a00836720744ed4/Signal8-${REALVERSION}.tar.gz"
-SOURCEFILE="Signal8-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

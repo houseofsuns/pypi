@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-RBAC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="RBAC support for Flask"
 
 HOMEPAGE="https://github.com/shonenada/flask-rbac"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1b/1f/32bed57425a906e643bcae6d27b4b92f7d77d7a55f5a4381fd2f8f5d5d15/Flask-RBAC-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-RBAC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

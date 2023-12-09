@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Datadog"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Access to dogstatsd in your app."
 
 HOMEPAGE="https://github.com/50onRed/flask-datadog.git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/8a/12/9205acc6fcf6c69a48834456b15c61f6d65617483e2a2a36d6a351a6b4f7/Flask-Datadog-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Datadog-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

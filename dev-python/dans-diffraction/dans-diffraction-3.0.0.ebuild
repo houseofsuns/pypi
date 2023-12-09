@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Dans-Diffraction"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate diffracted intensities from crystals"
 
 HOMEPAGE="https://github.com/DanPorter/Dans_Diffraction"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/53/cc/2862f720cb241197f538cd26ebb2a75e57eda6bd1af4cb316f9692bcd6b3/Dans_Diffraction-${REALVERSION}.tar.gz"
-SOURCEFILE="Dans_Diffraction-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

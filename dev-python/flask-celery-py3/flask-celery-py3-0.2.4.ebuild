@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Celery-py3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Celery 3.0+ integration for Flask (Python 3 version)"
 
 HOMEPAGE="https://github.com/taogeT/flask-celery"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/cb/a36a848d11462ed456d9c2d80232d58ac5e1c57817c0dca4b8116cd6fbcc/Flask-Celery-py3-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Celery-py3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

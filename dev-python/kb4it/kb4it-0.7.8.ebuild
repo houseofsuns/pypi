@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KB4IT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A static website generator based on Asciidoctor sources."
 
 HOMEPAGE="https://github.com/t00m/KB4IT"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/6f/4d/8a1ab9bd2f3cc69d9051f25ffd23a0725bdc93a58e6b684d7230f34dd871/KB4IT-${REALVERSION}.tar.gz"
-SOURCEFILE="KB4IT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

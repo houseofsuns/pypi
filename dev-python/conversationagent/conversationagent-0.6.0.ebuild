@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ConversationAgent"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ConversationAgent"
 
 HOMEPAGE="https://github.com/Chunshan-Theta/ConversationAgent"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/d6/eca5e61aafc97c33c0f3d7f8d907bab247a15b50c46c349a9843e3239dc9/ConversationAgent-${REALVERSION}.tar.gz"
-SOURCEFILE="ConversationAgent-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

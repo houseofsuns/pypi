@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PheWeb"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tool for building PheWAS websites from association files"
 
 HOMEPAGE="https://github.com/statgen/pheweb"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/c8/2a4613560e472361dc2123179888a9c281da6c534d2052f796ba652f387c/PheWeb-${REALVERSION}.tar.gz"
-SOURCEFILE="PheWeb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

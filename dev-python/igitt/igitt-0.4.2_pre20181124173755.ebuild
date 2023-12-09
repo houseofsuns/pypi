@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IGitt"
 REALVERSION="0.4.2.dev20181124173755"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A git(hub/lab/...) hosting abstraction library."
 
 HOMEPAGE="https://gitlab.com/gitmate/open-source/IGitt/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/9d/4b62289650c0ebd5f3777be02fef1c6821ce4fafdd9f1cfb1b00a9966d47/IGitt-${REALVERSION}.tar.gz"
-SOURCEFILE="IGitt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

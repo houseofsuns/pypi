@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QETpy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="TES Detector Calibration and Analysis Python Tools"
 
 HOMEPAGE="https://github.com/spice-herald/QETpy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/bb/e19cb821f2391b06a15eb5f5009b9a463ca98f64d718d3825ffa3933ea87/QETpy-${REALVERSION}.tar.gz"
-SOURCEFILE="QETpy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

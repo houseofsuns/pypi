@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChangePointDetectorEVT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This module takes a date time series and returns: (a) the underlayi
 
 HOMEPAGE="https://github.com/mhaupt63/ChangePointDetector"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/fd/d1cbdda9b01a4cdc1f69df8936add62f6792076171ec8e7174e9fe77fd80/ChangePointDetectorEVT-${REALVERSION}.tar.gz"
-SOURCEFILE="ChangePointDetectorEVT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MediaInfo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python wrapper around the ffprobe or mediainfo command line utili
 
 HOMEPAGE="https://github.com/laodifang/MediaInfo"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/67/0c8fcb5412f99f6868766816665369547a790c77de555463c0becaa25b71/MediaInfo-${REALVERSION}.tar.gz"
-SOURCEFILE="MediaInfo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

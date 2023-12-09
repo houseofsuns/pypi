@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IsoCor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="IsoCor: Isotope Correction for mass spectrometry labeling experimen
 
 HOMEPAGE="https://github.com/MetaSys-LISBP/IsoCor/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/3e/9dfdba9783d0425f8f30e132d5c76afe57673af2c336f3de1e8446114d21/IsoCor-${REALVERSION}.tar.gz"
-SOURCEFILE="IsoCor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

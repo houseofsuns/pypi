@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CrossMap"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lift over genomics coordinates between assemblies"
 
 HOMEPAGE="https://crossmap.readthedocs.io/en/latest/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/3c/2a4cfdfa552c6ba0871662867222d79086fb4b8f3d66c3f9bc41aa8da2cf/CrossMap-${REALVERSION}.tar.gz"
-SOURCEFILE="CrossMap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

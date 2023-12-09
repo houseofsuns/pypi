@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TDMtermite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Extract and read data from National Instruments LabVIEW tdx/tdm fil
 
 HOMEPAGE="https://github.com/RecordEvolution/TDMtermite.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/21/98924f4127f0e590b775b4f25a284a430d1355ecbc783d99212fe74e9988/TDMtermite-${REALVERSION}.tar.gz"
-SOURCEFILE="TDMtermite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

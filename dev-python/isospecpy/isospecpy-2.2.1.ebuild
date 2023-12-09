@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IsoSpecPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python interface to IsoSpec++ isotopic envelope calculator library"
 
 HOMEPAGE="http://matteolacki.github.io/IsoSpec/"
 LICENSE="2-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ba/62/6844812d78d7650bd0c2432c83b9ea2e58a8adb047da4a352d492bc901e3/IsoSpecPy-${REALVERSION}.tar.gz"
-SOURCEFILE="IsoSpecPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

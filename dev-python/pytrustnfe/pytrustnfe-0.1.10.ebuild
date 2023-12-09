@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyTrustNFe"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyTrustNFe é uma biblioteca para envio de NF-e"
 
 HOMEPAGE="https://github.com/danimaribeiro/PyTrustNFe"
 LICENSE="LGPL-v2.1+"
-SRC_URI="https://files.pythonhosted.org/packages/1f/a6/4f75fee5d8e64e808b7511d63528dda5376da8d5c93f7b28597ed835a1f8/PyTrustNFe-${REALVERSION}.tar.gz"
-SOURCEFILE="PyTrustNFe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

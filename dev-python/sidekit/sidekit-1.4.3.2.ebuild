@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SIDEKIT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Speaker, Language Recognition and Diarization package."
 
 HOMEPAGE="http://www-lium.univ-lemans.fr/sidekit/"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/66/9f/267d8079c94df8c2b28bebd9e8b97f4dfb7fc47a689919cf6026ab004e28/SIDEKIT-${REALVERSION}.tar.gz"
-SOURCEFILE="SIDEKIT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

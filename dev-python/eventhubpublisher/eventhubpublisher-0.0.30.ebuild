@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EventHubPublisher"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://storis.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c5/f4/b7249e4dd24ebf747e304485b5e63933ec5122d24a8840b7f5e4ee84f3f6/EventHubPublisher-${REALVERSION}.tar.gz"
-SOURCEFILE="EventHubPublisher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

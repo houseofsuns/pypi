@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Leytonium"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for developing git-managed software"
 
 HOMEPAGE="https://github.com/combatopera/Leytonium"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7b/a2/8005730a0d0a314bbfe2d3337882669ef73d05697611d7d15bf88c49adb9/Leytonium-${REALVERSION}.tar.gz"
-SOURCEFILE="Leytonium-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

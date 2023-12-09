@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MiModD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for Mutation Identification in Model Organism Genomes using D
 
 HOMEPAGE="http://sourceforge.net/projects/mimodd/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c0/fa/33df1d5f7bac714e22bf76e2ff714a822700bba61b89275599cd55335e7b/MiModD-${REALVERSION}.tar.gz"
-SOURCEFILE="MiModD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

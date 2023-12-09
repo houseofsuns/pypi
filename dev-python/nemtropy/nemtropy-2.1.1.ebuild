@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NEMtropy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NEMtropy is a Maximum-Entropy toolbox for networks, it provides the
 
 HOMEPAGE="https://github.com/nicoloval/NEMtropy/"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/d0/e9/7c56459ed190da714893840549b5a27d897b292ec0c80df6329ee9a805e1/NEMtropy-${REALVERSION}.tar.gz"
-SOURCEFILE="NEMtropy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

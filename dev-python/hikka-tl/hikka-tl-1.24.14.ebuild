@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Hikka-TL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Custom Telethon fork with latest layers and new features support"
 
 HOMEPAGE="https://github.com/hikariatama/Telethon"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/09/4b/ca083df10d9515d42868dccf00f47aed0386fa6bedf03309510cb8c48452/Hikka-TL-${REALVERSION}.tar.gz"
-SOURCEFILE="Hikka-TL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PillowImage"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pillow wrapper for quick image alterations."
 
 HOMEPAGE="https://github.com/sfneal/PillowImage"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/13/ad40b16aee1d22fe3f840c7c779daef533fa84964a6ed10263569f2866bb/PillowImage-${REALVERSION}.tar.gz"
-SOURCEFILE="PillowImage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

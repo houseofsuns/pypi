@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PriceDb"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Price database storage for commodities"
 
 HOMEPAGE="https://github.com/MisterY/price-database"
 LICENSE="GPL version 3"
-SRC_URI="https://files.pythonhosted.org/packages/32/19/4006d65211f0a4eae852c575e897958eb8319b4dfb7febb299fc969cfe89/PriceDb-${REALVERSION}.tar.gz"
-SOURCEFILE="PriceDb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

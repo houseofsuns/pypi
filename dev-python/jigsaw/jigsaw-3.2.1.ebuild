@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Jigsaw"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A plugin framework for Python3.6+"
 
 HOMEPAGE="https://github.com/nint8835/jigsaw"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/54/cfaed24b809469394ae368267daa3f330a4dba17a7340be494639e79c787/Jigsaw-${REALVERSION}.tar.gz"
-SOURCEFILE="Jigsaw-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

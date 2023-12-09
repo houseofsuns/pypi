@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ThermiaOnlineAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python API for Thermia heat pumps using https://online.thermia.se
 
 HOMEPAGE="https://github.com/klejejs/python-thermia-online-api"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ca/28/7a32da31ddb78a9277f23db667b5a3138f047ef55e6cf1263e5caec29338/ThermiaOnlineAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="ThermiaOnlineAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

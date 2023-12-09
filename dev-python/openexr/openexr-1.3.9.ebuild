@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenEXR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python bindings for ILM's OpenEXR image file format"
 
 HOMEPAGE="https://github.com/sanguinariojoe/pip-openexr"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/70/ba/53f62b17b14e76cb5eff4b72140995f7dfd614a0877cc26aab9e66f00612/OpenEXR-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenEXR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EasyS7"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy way to communicate with S7 series PLC."
 
 HOMEPAGE="https://github.com/canerkaraguler/EasyS7"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9d/ab/3d48e2571ee326e5e8082d24b9dd58b5e4e6c4690d28ed8a7f155855c8dc/EasyS7-${REALVERSION}.tar.gz"
-SOURCEFILE="EasyS7-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LbSoftConfDb2Clients"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LHCb Software configuration database 2 clients"
 
 HOMEPAGE="https://gitlab.cern.ch/lhcb-core/LbSoftConfDb2Clients"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/8c/5d/e98b20958f9556158e15e03ad9c87f188e1aac2caa3ea2769eadfdba0cfd/LbSoftConfDb2Clients-${REALVERSION}.tar.gz"
-SOURCEFILE="LbSoftConfDb2Clients-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

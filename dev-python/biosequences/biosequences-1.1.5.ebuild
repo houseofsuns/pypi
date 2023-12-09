@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BioSequences"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools to analysis biology sequence"
 
 HOMEPAGE="https://github.com/Dragon-GCS/BioSequence"
 LICENSE="GPL License"
-SRC_URI="https://files.pythonhosted.org/packages/87/d8/d6834991f7c36ad87bf13595e31938541ca76c7a1b03717cdda0cad4d403/BioSequences-${REALVERSION}.tar.gz"
-SOURCEFILE="BioSequences-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

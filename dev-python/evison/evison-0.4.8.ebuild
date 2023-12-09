@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Evison"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Feature map visualization"
 
 HOMEPAGE="https://github.com/JonnesLin/Evison"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ec/c5/16766c327fb1e874d0092755a78052b7787b73ef5a48a35fa7ef251414d3/Evison-${REALVERSION}.tar.gz"
-SOURCEFILE="Evison-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XGEE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="eXtensible Graphical EMOF Editor - a framework for graphical editin
 
 HOMEPAGE="https://gitlab.com/xgee/py/xgee"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/28/a4f2b270f5da64c60eb24e3beea26de01f98284bdc2a11b1cb1af6892222/XGEE-${REALVERSION}.tar.gz"
-SOURCEFILE="XGEE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

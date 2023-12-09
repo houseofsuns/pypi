@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QtAwesome"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FontAwesome icons in PyQt and PySide applications"
 
 HOMEPAGE="https://github.com/spyder-ide/qtawesome"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/5d/ab3a69aabe0df6482bc4c2d12ff6c394a3256286160bcbf7a0312e04bf52/QtAwesome-${REALVERSION}.tar.gz"
-SOURCEFILE="QtAwesome-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

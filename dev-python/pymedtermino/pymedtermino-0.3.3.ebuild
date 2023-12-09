@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMedTermino"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Medical Terminologies for Python: SNOMED CT, ICD10, MedDRA, CDF, UM
 
 HOMEPAGE="http://www.lesfleursdunormal.fr/static/informatique/pymedtermino/index_en.html"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/a5/7e/ac9a622ccff56c03f7dd12f0605a782a26343f9dad0d057594432f27db9a/PyMedTermino-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMedTermino-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

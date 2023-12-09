@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="1Q847"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="模拟操作"
 
 HOMEPAGE="https://github.com/qxt514657/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/87/ea/f1cdf9356244a6c170705fe292f7be6af8586ecc51294d226c7ed9a92f14/1Q847-${REALVERSION}.tar.gz"
-SOURCEFILE="1Q847-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

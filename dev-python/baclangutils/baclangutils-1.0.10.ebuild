@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BAClangUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Clang utils for parse Objective-C code"
 
 HOMEPAGE="https://github.com/BenArvin/BAClangUtils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/36/50/e51c302bbf48e1d8b12a58fac42fecbb61b30ae3aceba34fed18b9896bc1/BAClangUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="BAClangUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

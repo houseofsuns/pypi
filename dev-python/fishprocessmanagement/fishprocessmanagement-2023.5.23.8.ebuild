@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FishProcessManagement"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="一个后台项目管理器，适用于启动或关闭多个毫不�
 
 HOMEPAGE="https://space.bilibili.com/698117971?spm_id_from=333.1007.0.0"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d6/09/3a7b736651a83e72f27ace1d85473cd0962363336d596d7a3050dc54740b/FishProcessManagement-${REALVERSION}.tar.gz"
-SOURCEFILE="FishProcessManagement-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

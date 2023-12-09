@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMerge"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Code File Merge Tool in Python."
 
 HOMEPAGE="https://github.com/syys96/PyMerge"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/23/d1/8b4072c09e645793ec34b1a9e17f01b1af8c5c5a08260da4937c6de08aa4/PyMerge-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMerge-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

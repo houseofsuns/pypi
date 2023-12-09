@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BlitzChain"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BlitzChain"
 
 HOMEPAGE="https://github.com/mr-gpt/blitzchain"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b4/06/6afa4e19bc41a7ce48fe8224418e97c4295d72a6a6ad7886d1b0f0e46ecb/BlitzChain-${REALVERSION}.tar.gz"
-SOURCEFILE="BlitzChain-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

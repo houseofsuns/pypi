@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FetchCord"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="grabs information about your Distro and displays it as Discord Rich
 
 HOMEPAGE="https://github.com/MrPotatoBobx/FetchCord"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/d3/92634dea7df2ae02d13d87f35fe3655dffcfc7dda416e4c2aadb33a2363b/FetchCord-${REALVERSION}.tar.gz"
-SOURCEFILE="FetchCord-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KapoorLabs-Lightning"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lightning modules for KapoorLabs specific projects"
 
 HOMEPAGE="https://github.com/Kapoorlabs-CAPED/KapoorLabs-Lightning"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2c/7c/ec481c0c43a8eff87bd9a6b9777d2f2bbca566324a65b15f3c6796b6c46e/KapoorLabs-Lightning-${REALVERSION}.tar.gz"
-SOURCEFILE="KapoorLabs-Lightning-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

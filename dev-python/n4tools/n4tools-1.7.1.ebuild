@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="N4Tools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Style for linux tools."
 
 HOMEPAGE="https://github.com/No-Name-404/N4Tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/92/b3/4dc0fab8675ec7ab85c83d5812ed4193c8a76214f9cbdd36f25a35afe7f0/N4Tools-${REALVERSION}.tar.gz"
-SOURCEFILE="N4Tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

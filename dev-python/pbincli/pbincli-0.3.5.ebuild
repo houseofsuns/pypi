@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PBinCLI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PrivateBin client for command line"
 
 HOMEPAGE="https://github.com/r4sas/PBinCLI/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a4/3b/8ae0fb35715c3337d4efdc67589db4eac8d7c2a21debad56c6e70a48f1ba/PBinCLI-${REALVERSION}.tar.gz"
-SOURCEFILE="PBinCLI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

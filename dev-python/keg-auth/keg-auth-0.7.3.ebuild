@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Keg-Auth"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Authentication plugin for Keg"
 
 HOMEPAGE="https://github.com/level12/keg-auth"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f1/07/5c73ca76be47d51729a2c4436097c1fe87664242804c5b586bd366ca7557/Keg-Auth-${REALVERSION}.tar.gz"
-SOURCEFILE="Keg-Auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

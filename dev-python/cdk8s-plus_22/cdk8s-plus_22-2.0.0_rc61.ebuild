@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="cdk8s-plus-22"
+LITERALNAME="cdk8s-plus-22"
 REALVERSION="2.0.0rc61"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Envelopes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mailing for human beings"
 
 HOMEPAGE="http://tomekwojcik.github.io/envelopes/"
 LICENSE="https://github.com/tomekwojcik/envelopes/blob/master/LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/2e/ac/0aaba34d717868729428bf4dca601c93cd6b0f9123894f2509911027b0dd/Envelopes-${REALVERSION}.tar.gz"
-SOURCEFILE="Envelopes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

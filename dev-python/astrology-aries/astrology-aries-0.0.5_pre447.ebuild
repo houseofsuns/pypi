@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Astrology-Aries"
 REALVERSION="0.0.5.dev447"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package providing shortcuts to tasks like accessing files on
 
 HOMEPAGE="https://github.com/qiuosier/Aries"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/07/f6/a89afb4c04585009137255e18cbd4550b19e5fd49a7d5be83415b5c0a1b4/Astrology-Aries-${REALVERSION}.tar.gz"
-SOURCEFILE="Astrology-Aries-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

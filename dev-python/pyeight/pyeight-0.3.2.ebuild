@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyEight"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Provides a python api to interact with an Eight Sleep mattress cove
 
 HOMEPAGE="https://github.com/mezz64/pyEight"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/80/93c11d299738b4c47493ba6b4633ee5ebe235713936a300ff35931bf452b/pyEight-${REALVERSION}.tar.gz"
-SOURCEFILE="pyEight-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

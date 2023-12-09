@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ImageLayers"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Split and process image segments and layers."
 
 HOMEPAGE="https://github.com/GrandMoff100/ImageLayers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/61/00/5ca0cd11d28222dc8bc04e88434de770030783a76e6607e49ccf7ff66fde/ImageLayers-${REALVERSION}.tar.gz"
-SOURCEFILE="ImageLayers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

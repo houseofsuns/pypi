@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Smap"
 REALVERSION="2.0.bcb1a7"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="sMAP standard library and drivers"
 
 HOMEPAGE="http://code.google.com/p/smap-data"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ed/64/00b4888c7216c9e7e71ff0f04a1d5dfa1d0fcd5d3b5bd57b1b99b07d6616/Smap-${REALVERSION}.tar.gz"
-SOURCEFILE="Smap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

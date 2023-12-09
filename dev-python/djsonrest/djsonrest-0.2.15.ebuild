@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="djsonREST"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simply build a powerful JSON-REST-API with django"
 
 HOMEPAGE="https://git.voltane.eu/voltane/pypi/djsonrest"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/58/9a/457acd20d286b9f52fbefb698724ed499d0b544e82dd68e0fd3ca4e58585/djsonREST-${REALVERSION}.tar.gz"
-SOURCEFILE="djsonREST-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

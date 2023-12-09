@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="nplusone-TrialSpark"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Detecting the n+1 queries problem in Python"
 
 HOMEPAGE="https://github.com/trialspark/nplusone"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/cf/c2a3fade2be81e8fb49ac7c4ff2f8deb964d22c428b506169520fe6042fd/nplusone-TrialSpark-${REALVERSION}.tar.gz"
-SOURCEFILE="nplusone-TrialSpark-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EMaligner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="global alignment of features between images"
 
 HOMEPAGE="https://github.com/AllenInstitute/EM_Aligner_python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/62/0c429abdc1631724e48363fb17f9e238d3df71355aa26d6e4a95db2c01b7/EMaligner-${REALVERSION}.tar.gz"
-SOURCEFILE="EMaligner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ProsperCommon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Common Utilities for EVEProsper Projects"
 
 HOMEPAGE="https://github.com/EVEprosper/ProsperCommon"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/c5/b20b8d530df69419526a996c7f16f67c87b15afcd33bf08fe23044fc6199/ProsperCommon-${REALVERSION}.tar.gz"
-SOURCEFILE="ProsperCommon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

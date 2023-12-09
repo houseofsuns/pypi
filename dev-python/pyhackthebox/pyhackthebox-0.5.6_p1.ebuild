@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyHackTheBox"
 REALVERSION="0.5.6.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A wrapper for the Hack The Box API."
 
 HOMEPAGE="https://github.com/clubby789/htb-api"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ef/cd/e20d5ec1e001b0362eb909fd26adfcd9c1578739a3758c4ac963623bf1d7/PyHackTheBox-${REALVERSION}.tar.gz"
-SOURCEFILE="PyHackTheBox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

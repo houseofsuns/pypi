@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyVHACD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python bindings for VHACD"
 
 HOMEPAGE="https://github.com/thomwolf/pyVHACD"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/77/25/42419121debc7dc468d0cdd5f58c36af9a6f831e284c47840abe173e0fbf/pyVHACD-${REALVERSION}.tar.gz"
-SOURCEFILE="pyVHACD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

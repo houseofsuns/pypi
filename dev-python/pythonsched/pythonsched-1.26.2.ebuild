@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pythonSCHED"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python extension of NRAO's VLBI scheduling program SCHED (see http:
 
 HOMEPAGE="https://github.com/jive-vlbi/sched"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/30/f8/733ab1cec3d1269c58e94f6c13bd85184bfef744a2a3c69bdfd63ed7710f/pythonSCHED-${REALVERSION}.tar.gz"
-SOURCEFILE="pythonSCHED-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

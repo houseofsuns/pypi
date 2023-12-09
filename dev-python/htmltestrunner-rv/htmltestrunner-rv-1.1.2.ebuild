@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HTMLTestRunner-rv"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="HTMLTestRunner for unit test framework"
 
 HOMEPAGE="https://github.com/ravikiranb36/HTMLTestRunner.io.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/c9/2d3f7e338d8a136913791a8a5899c9f83fa9a07bac25119db01d1caebb50/HTMLTestRunner-rv-${REALVERSION}.tar.gz"
-SOURCEFILE="HTMLTestRunner-rv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

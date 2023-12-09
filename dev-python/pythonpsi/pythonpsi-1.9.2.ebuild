@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PythonPSI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CLI + API for Google PageSpeed Insights"
 
 HOMEPAGE="https://github.com/prakhargurunani/PyPSI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/37/9e8fa7ed0bdf0095f4878e0d1a4a006433e85858ae83401a787c6b428706/PythonPSI-${REALVERSION}.tar.gz"
-SOURCEFILE="PythonPSI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

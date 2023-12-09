@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RP1210"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python32 implementation of the RP1210C standard."
 
 HOMEPAGE="https://github.com/dfieschko/RP1210"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/d1/7b896ddd54afde6bdd9757724ebe9c3cf03517f8eeb25154ca6af6815a4a/RP1210-${REALVERSION}.tar.gz"
-SOURCEFILE="RP1210-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

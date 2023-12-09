@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDynamic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A software package for the analysis of dynamic measurements"
 
 HOMEPAGE="https://ptb-m4d.github.io/PyDynamic/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7d/b3/234a7fbcb3cd2a3ecc2f23cd2f9327b204c710130cc8b8f9b27bc4f49e75/PyDynamic-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDynamic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

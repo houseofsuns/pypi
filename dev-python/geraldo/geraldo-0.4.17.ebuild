@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Geraldo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Geraldo is a reports engine for Python and Django applications"
 
 HOMEPAGE="http://www.geraldoreports.org/"
 LICENSE="GNU Lesser General Public License LGPL"
-SRC_URI="https://files.pythonhosted.org/packages/62/d7/c933e557f8b116e9d3079199f1573090f20afd4bd9f28317250ace9c0a40/Geraldo-${REALVERSION}.tar.gz"
-SOURCEFILE="Geraldo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

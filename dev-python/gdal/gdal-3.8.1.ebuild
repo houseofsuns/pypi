@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GDAL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GDAL: Geospatial Data Abstraction Library"
 
 HOMEPAGE="http://www.gdal.org"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/00/bc/e7a8bddd6840e9862b7cc4f75ca485ecd06e20bd36f64ba7c1c62f1794b8/GDAL-${REALVERSION}.tar.gz"
-SOURCEFILE="GDAL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

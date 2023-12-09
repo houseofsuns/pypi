@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Extract"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Extraction tool for model and observed data intercomparison"
 
 HOMEPAGE="https://bitbucket.org/luizirber/extract"
 LICENSE="PSF-2.4"
-SRC_URI="https://files.pythonhosted.org/packages/80/1c/11a869df72d335338324d5977ef243f0422dc561a47b6c57dea7841f10f8/Extract-${REALVERSION}.tar.gz"
-SOURCEFILE="Extract-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

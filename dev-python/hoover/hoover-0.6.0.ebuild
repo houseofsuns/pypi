@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Hoover"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for logging to Loggly from within Python webapps"
 
 HOMEPAGE="http://www.github.com/loggly/hoover"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/48/b2/d0fa4316f25222f671ec5383f68185756d2c2f1a77cd6ea1d60832a1cf3a/Hoover-${REALVERSION}.tar.gz"
-SOURCEFILE="Hoover-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

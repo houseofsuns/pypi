@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Weverse"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Creates internal cache for the communities a user follows on wevers
 
 HOMEPAGE="https://github.com/MujyKun/Weverse/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/c3/acd84a7ad04f6214d2987cc9906dda41d5f956bd0f1ee8ca791da0c8e487/Weverse-${REALVERSION}.tar.gz"
-SOURCEFILE="Weverse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

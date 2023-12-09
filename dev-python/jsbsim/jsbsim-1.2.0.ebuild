@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JSBSim"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An open source flight dynamics & control software library"
 
 HOMEPAGE="https://github.com/JSBSim-Team/jsbsim"
 LICENSE="LGPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/81/42/e0185da8000c3f7b3091a9e6d404cc32fe12c18b7dff420a1bf3e7c0f9d8/JSBSim-${REALVERSION}.tar.gz"
-SOURCEFILE="JSBSim-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

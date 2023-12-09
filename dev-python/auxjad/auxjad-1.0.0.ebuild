@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Auxjad"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Auxiliary classes and functions for Abjad."
 
 HOMEPAGE="https://github.com/gilbertohasnofb/auxjad"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/78/dd7b9812496d4548c67bc8ae7e87aff931685d1dff56461805116d2b9ce6/Auxjad-${REALVERSION}.tar.gz"
-SOURCEFILE="Auxjad-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

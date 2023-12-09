@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HyperKitty"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A web interface to access GNU Mailman v3 archives"
 
 HOMEPAGE="https://gitlab.com/mailman/hyperkitty"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/15/62/0c13dd9220a73d3e4691ca704c7895f441c3743f7282921427eaadc15c9a/HyperKitty-${REALVERSION}.tar.gz"
-SOURCEFILE="HyperKitty-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DocumentTemplate"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Document Templating Markup Language (DTML)"
 
 HOMEPAGE="https://github.com/zopefoundation/DocumentTemplate"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/0b/37/6ddc9ff06cc16a402e5aa8908b99f212dc429507e9e78a457d95448c5083/DocumentTemplate-${REALVERSION}.tar.gz"
-SOURCEFILE="DocumentTemplate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

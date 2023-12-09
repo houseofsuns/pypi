@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VEnCode"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package to get VEnCodes as in Macedo and Gontijo, 2019"
 
 HOMEPAGE="https://github.com/AndreMacedo88/VEnCode"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/25/24/de5da9452777a7834b9359f15024827ad221562afab56c08839972f35a26/VEnCode-${REALVERSION}.tar.gz"
-SOURCEFILE="VEnCode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

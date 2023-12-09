@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MACS2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Model Based Analysis for ChIP-Seq data"
 
 HOMEPAGE="http://github.com/macs3-project/MACS/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/a7/973a7867efc40ff87d040f3adac29a26fcde76edbf10ed80733c1caafbf6/MACS2-${REALVERSION}.tar.gz"
-SOURCEFILE="MACS2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

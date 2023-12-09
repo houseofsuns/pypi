@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyTMD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tide Model Driver to read OTIS, GOT and FES formatted tidal solutio
 
 HOMEPAGE="https://github.com/tsutterley/pyTMD"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/48/d7/ff28445af62b8867022cb53bc02eef637eaa8b20e3583a8d6ed51cd4e63c/pyTMD-${REALVERSION}.tar.gz"
-SOURCEFILE="pyTMD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

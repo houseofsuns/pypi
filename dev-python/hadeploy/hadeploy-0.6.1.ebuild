@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HADeploy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An Hadoop Application deployment tool"
 
 HOMEPAGE="https://github.com/BROADSoftware/hadeploy"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/9c/fc/8698f9c4fdaad3bf6bc6e0aede01642c9bfe2545fdbfcdc3d682376e3ece/HADeploy-${REALVERSION}.tar.gz"
-SOURCEFILE="HADeploy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

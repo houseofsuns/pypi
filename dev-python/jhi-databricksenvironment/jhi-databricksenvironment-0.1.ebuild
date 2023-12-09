@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JHI-DatabricksEnvironment"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="JHI Databricks Environment Package"
 
 HOMEPAGE="https://github.com/pypa/JHI-DatabricksEnvironment"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ec/16/ed6af484ab5441e6756cb157633718fbf72c2004efafb7ffaa622d7bba99/JHI-DatabricksEnvironment-${REALVERSION}.tar.gz"
-SOURCEFILE="JHI-DatabricksEnvironment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

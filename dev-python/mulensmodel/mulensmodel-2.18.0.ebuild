@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MulensModel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="package for modeling gravitational microlensing events"
 
 HOMEPAGE="https://github.com/rpoleski/MulensModel"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f0/fe/149820fffc6f21466c54564f079e45be4bf285c150c68b6e1c9f83de1fea/MulensModel-${REALVERSION}.tar.gz"
-SOURCEFILE="MulensModel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

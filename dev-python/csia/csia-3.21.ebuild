@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CSIA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CRISPR Sequence Indel Analyze"
 
 HOMEPAGE="www.calyx.biz"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/47/2e/25cdb350de318b903113c9f9c93bc09ea4a46dd274c0c935e8c3ef8f22c5/CSIA-${REALVERSION}.tar.gz"
-SOURCEFILE="CSIA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

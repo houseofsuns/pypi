@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MlTrackTool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Documetation and Ml tracking tool using jupyter extensions"
 
 HOMEPAGE="https://github.com/anesh-ml/Document-and-ML-track-tool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/15/75/c7b4a007fc432a318e71b400606dc66806ebbdde3bec1048378b2bbcf7aa/MlTrackTool-${REALVERSION}.tar.gz"
-SOURCEFILE="MlTrackTool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BBFinance"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Uma biblioteca com o objetivo de adquirir informações de ações 
 
 HOMEPAGE="https://github.com/beb0pp/BBFinance"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/2b/77/466b7a7122bd73a08b0faeebf91c0003beb146b8ec74dd7a7e5cfd610a57/BBFinance-${REALVERSION}.tar.gz"
-SOURCEFILE="BBFinance-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

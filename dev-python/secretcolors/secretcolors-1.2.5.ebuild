@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SecretColors"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A small package for fantastic color palette"
 
 HOMEPAGE="https://github.com/secretBiology/SecretColors"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/91/6d59bd062546ef02bb75578e20fc308b6b77623d01d13558935375723815/SecretColors-${REALVERSION}.tar.gz"
-SOURCEFILE="SecretColors-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

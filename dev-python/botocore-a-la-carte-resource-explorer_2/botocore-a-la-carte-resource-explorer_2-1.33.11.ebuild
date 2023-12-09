@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="botocore-a-la-carte-resource-explorer-2"
+LITERALNAME="botocore-a-la-carte-resource-explorer-2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

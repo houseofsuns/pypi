@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FairWEB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Full HTML WebPage Downloader, Parser and Data Extractor. Web Crawle
 
 HOMEPAGE="https://github.com/chazzcoin/fairweb"
 LICENSE="BSD 2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/a0/8d/9b770d422f3f2aca91b0013f44cf9c34e51acc31b392e03da55a92f7363d/FairWEB-${REALVERSION}.tar.gz"
-SOURCEFILE="FairWEB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

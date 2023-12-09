@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="fro-AI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for easy use of AI application"
 
 HOMEPAGE="https://gitee.com/z14git/fro_-ai"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/0a/d74a13eb64aa770436af948c62ba3f4d2a8cc0114640cec286845209a12a/fro_AI-${REALVERSION}.tar.gz"
-SOURCEFILE="fro_AI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

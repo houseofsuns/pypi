@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="capella-RM-Bridge"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
@@ -15,8 +16,8 @@ DESCRIPTION="Sync requirements from different ALM tools from and back to Capella
 
 HOMEPAGE="https://github.com/DSD-DBS/capella-rm-bridge"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2f/1e/86ec2b13a7b8881c8119147448ea33fc5b14bd0490aba8c849cf05ba70c6/capella-RM-Bridge-${REALVERSION}.tar.gz"
-SOURCEFILE="capella-RM-Bridge-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

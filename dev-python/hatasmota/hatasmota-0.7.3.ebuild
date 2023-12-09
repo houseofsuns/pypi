@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HATasmota"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python module to help parse and construct Tasmota MQTT messages."
 
 HOMEPAGE="https://github.com/emontnemery/hatasmota"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/7b/fa2e2eed933d7aad5ebeb97fa44935e4b9c5a7bcdfeb134400f0a7dd081c/HATasmota-${REALVERSION}.tar.gz"
-SOURCEFILE="HATasmota-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

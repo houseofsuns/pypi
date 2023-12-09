@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AXX-AIAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="create application template for axx ai-api."
 
 HOMEPAGE=""
 LICENSE="GUN V3"
-SRC_URI="https://files.pythonhosted.org/packages/02/12/066b94c612f8bda3eee74ed266b10561fbc131e81a4ac6d77a55e48d33df/AXX-AIAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="AXX-AIAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

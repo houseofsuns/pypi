@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Bybit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Client for connecting to the Bybit Restful API."
 
 HOMEPAGE="https://github.com/bybit-exchange/api-connectors"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/7b/d04c2bd8d8d07336df375c5cbbca4015e115e1b3e1566e3829b6ce9906e6/Bybit-${REALVERSION}.tar.gz"
-SOURCEFILE="Bybit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

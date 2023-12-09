@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OSF-EIMTC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Framework for Encrypted Internet and Malicious Traffic Classifica
 
 HOMEPAGE="https://github.com/neyney10/PCAPFeatureExtractor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/8e/6414736bef760285fdd8093c8ebe487450b55876873974570800a15e8e2e/OSF_EIMTC-${REALVERSION}.tar.gz"
-SOURCEFILE="OSF_EIMTC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

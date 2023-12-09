@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="txAMQP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library for communicating with AMQP peers and brokers using 
 
 HOMEPAGE="https://github.com/txamqp/txamqp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c6/a0/7c18f4a3805af57e2be19a6502c1946f5dac51c8b1ed19368968a46a2f07/txAMQP-${REALVERSION}.tar.gz"
-SOURCEFILE="txAMQP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

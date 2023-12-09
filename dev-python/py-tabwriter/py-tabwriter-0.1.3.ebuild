@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Py-TabWriter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/qazbnm456/py_tabwriter"
 LICENSE="BSD 3-clause license"
-SRC_URI="https://files.pythonhosted.org/packages/cd/ba/6c399a06fd886a6ed317ed63710f8704abb75a1135720aabd74488e88257/Py_TabWriter-${REALVERSION}.tar.gz"
-SOURCEFILE="Py_TabWriter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EnsemblesOpt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Ensemble models creation trough Bayesian Optimization"
 
 HOMEPAGE="https://github.com/DSun91/EnsemblesOpt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/fc/cd44cacde297925b8072a49d228350efbc2f54e0a4113e7466cf53f13981/EnsemblesOpt-${REALVERSION}.tar.gz"
-SOURCEFILE="EnsemblesOpt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

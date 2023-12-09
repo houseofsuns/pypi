@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BlazeWeb"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A light weight WSGI framework with a pluggable architecture"
 
 HOMEPAGE="http://pypi.python.org/pypi/BlazeWeb/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/68/3b/5a4416fd33bedd8cc5646baae41915e734fae5d9d7e0965fff03f202fc74/BlazeWeb-${REALVERSION}.tar.gz"
-SOURCEFILE="BlazeWeb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

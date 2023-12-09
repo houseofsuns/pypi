@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EzTDX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python interface to the TeamDynamix REST APIs"
 
 HOMEPAGE="https://github.com/cgarrett/eztdx"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/ce/25/b6fd435d5a6a78aaecc9d7e3c563f00bedf37ecba7b72f1bdcf2a0138951/EzTDX-${REALVERSION}.tar.gz"
-SOURCEFILE="EzTDX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

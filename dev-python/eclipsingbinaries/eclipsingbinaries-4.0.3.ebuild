@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EclipsingBinaries"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="\"Binary Star Package for Ball State University's Astronomy Researc
 
 HOMEPAGE="https://eclipsingbinaries.readthedocs.io/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/35/e0/ce788823dccc2ca7702caf68080a16717a41ffd2d3fe295ad7f3e9a315eb/EclipsingBinaries-${REALVERSION}.tar.gz"
-SOURCEFILE="EclipsingBinaries-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

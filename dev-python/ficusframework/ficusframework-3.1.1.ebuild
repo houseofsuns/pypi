@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FicusFramework"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A framework for Ficus by Python3. Require Sobey-Ficus:3.0.230418104
 
 HOMEPAGE="https://git.sobey.com/SobeyHive/FicusFramework4Py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c6/68/aec324f7c25322b77472110b5fbc07d2c708ca29e47e72728c69cbe2c3ec/FicusFramework-${REALVERSION}.tar.gz"
-SOURCEFILE="FicusFramework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

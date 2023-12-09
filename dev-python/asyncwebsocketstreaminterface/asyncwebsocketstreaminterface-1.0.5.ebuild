@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AsyncWebsocketStreamInterface"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Exchange one normal asynchronous websocket connection to unlimited 
 
 HOMEPAGE="https://github.com/monk-after-90s/AsyncWebsocketStreamInterface"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/f7/f798fb8b69e20e39dab9d13fd344c9451f387d37b32839be47973c753b84/AsyncWebsocketStreamInterface-${REALVERSION}.tar.gz"
-SOURCEFILE="AsyncWebsocketStreamInterface-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

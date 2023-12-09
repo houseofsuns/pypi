@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NEMO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NEMO is a laboratory logistics web application. Use it to schedule 
 
 HOMEPAGE="https://github.com/usnistgov/NEMO"
 LICENSE="Public domain"
-SRC_URI="https://files.pythonhosted.org/packages/04/4a/b4440a79f6a71866ec2495bdbc6390d9644ba561a3991d075815498f4d98/NEMO-${REALVERSION}.tar.gz"
-SOURCEFILE="NEMO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

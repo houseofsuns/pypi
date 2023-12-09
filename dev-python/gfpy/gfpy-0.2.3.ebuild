@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GFPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python toolbox for reading and analysing of meteorological and ocea
 
 HOMEPAGE="https://github.com/jakobdoerr/GFPy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/2a/250bb5227635afe59f0a91abdf1e25febf81c103c7f6e0c4f2b9a4d7b9a4/GFPy-${REALVERSION}.tar.gz"
-SOURCEFILE="GFPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Json-Dict"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Store data in JSON format"
 
 HOMEPAGE="https://github.com/JulianKimmig/json_dict"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/f0/f64d14322ebddf72bb3f6ed1531f9cc183c5cfa699d2bced113c6814593f/Json_Dict-${REALVERSION}.tar.gz"
-SOURCEFILE="Json_Dict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

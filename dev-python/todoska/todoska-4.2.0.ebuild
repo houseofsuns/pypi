@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Todoska"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Basic Todo Tracker in Cli"
 
 HOMEPAGE="https://github.com/Abbhiishek/Todoska"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/e0/44030397e2049e289461ee6c71eee33d264031500efca0d5b2007dcdf15c/Todoska-${REALVERSION}.tar.gz"
-SOURCEFILE="Todoska-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

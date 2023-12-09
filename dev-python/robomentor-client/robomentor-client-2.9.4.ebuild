@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RoboMentor-Client"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library and framework for robomentor_client."
 
 HOMEPAGE="https://github.com/robomentor/RoboMentor_Client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/69/8f/8e484fe847426ad64556741478b78bb9faafade16c32b3db9dda6e7794e4/RoboMentor_Client-${REALVERSION}.tar.gz"
-SOURCEFILE="RoboMentor_Client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

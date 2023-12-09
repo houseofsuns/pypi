@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TreeSAK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BioSAK"
 
 HOMEPAGE="https://github.com/songweizhi/TreeSAK"
 LICENSE="GPL3+"
-SRC_URI="https://files.pythonhosted.org/packages/de/26/984e3f6847ca069687ec3d7adde4701f56042d2815a2d4033d261d1657c8/TreeSAK-${REALVERSION}.tar.gz"
-SOURCEFILE="TreeSAK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

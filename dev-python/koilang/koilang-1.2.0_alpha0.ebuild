@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KoiLang"
 REALVERSION="1.2.0a0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="simple python module for KoiLang parsing"
 
 HOMEPAGE="https://github.com/Ovizro/Kola"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4a/73/68da3f77a12dcd632548559a6a85809baacc7639cb2a82487be6b0854fb8/KoiLang-${REALVERSION}.tar.gz"
-SOURCEFILE="KoiLang-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KekikSpatula"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Siz uğraşmayın diye biz uğraştık.. ~ dızz 🐍"
 
 HOMEPAGE="https://github.com/keyiflerolsun/KekikSpatula"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/fb/ef/36d19d2d07b97879bcbf38d9714e34fcfb016e4b51248b9414776ad20eeb/KekikSpatula-${REALVERSION}.tar.gz"
-SOURCEFILE="KekikSpatula-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

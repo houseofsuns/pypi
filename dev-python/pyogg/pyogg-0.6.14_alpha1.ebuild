@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyOgg"
 REALVERSION="0.6.14a1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Xiph.org's Ogg Vorbis, Opus and FLAC for Python"
 
 HOMEPAGE="https://github.com/Zuzu-Typ/PyOgg"
 LICENSE="BSD 3-clause New or Revised"
-SRC_URI="https://files.pythonhosted.org/packages/1a/13/07358440dc3e94a71f3cd0f734e90b41392cc125de1571a99c4f8b594ccb/PyOgg-${REALVERSION}.tar.gz"
-SOURCEFILE="PyOgg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

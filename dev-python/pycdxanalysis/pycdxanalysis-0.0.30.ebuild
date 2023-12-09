@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyCDxAnalysis"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Integrative tools to anlysis companian diagnosis gene data set."
 
 HOMEPAGE="https://github.com/JaylanLiu/pyCDxAnalysis"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/46/ae/d1e252fc59650b8c0a1126e2637fd2880698b370f566e34f305eb91846d6/pyCDxAnalysis-${REALVERSION}.tar.gz"
-SOURCEFILE="pyCDxAnalysis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

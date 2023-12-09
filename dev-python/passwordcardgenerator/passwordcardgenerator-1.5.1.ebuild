@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PasswordCardGenerator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Password Card Generator"
 
 HOMEPAGE="http://index12.bplaced.net/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/cf/eeee7d66ed43798051875a87c26f737ca1511508e0ec43e6fa6b7ddbdde9/PasswordCardGenerator-${REALVERSION}.tar.gz"
-SOURCEFILE="PasswordCardGenerator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

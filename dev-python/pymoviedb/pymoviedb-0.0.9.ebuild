@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMovieDb"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python Module that represents IMDB API"
 
 HOMEPAGE="https://github.com/itsmehemant7/PyMovieDb"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/84/18da8720a82deb0a775e5e9c181edf9895c96c083157dcc26ea5f6eecfe2/PyMovieDb-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMovieDb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IP2Location"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This is an IP geolocation library that enables the user to find the
 
 HOMEPAGE="https://github.com/chrislim2888/ip2location-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/80/61/1b2d429417d70a253bd752242723a5b7f831da584ce7f04d22d1ff5ce62d/IP2Location-${REALVERSION}.tar.gz"
-SOURCEFILE="IP2Location-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

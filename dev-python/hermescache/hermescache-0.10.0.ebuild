@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HermesCache"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python caching library with tag-based invalidation and dogpile effe
 
 HOMEPAGE="https://heptapod.host/saajns/hermes"
 LICENSE="LGPL-2.1+"
-SRC_URI="https://files.pythonhosted.org/packages/1b/40/543723cfb79ba17f91334c8bf13658e7c24ce334a782c4b549109786914e/HermesCache-${REALVERSION}.tar.gz"
-SOURCEFILE="HermesCache-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

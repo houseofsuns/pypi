@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OktaJWT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A subset of RFC 7519 for working with JWTs minted by Okta API Acces
 
 HOMEPAGE="https://github.com/mdwallick/okta-jwt"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/da/9b/2e31ad4980a7d8689d7a22ccfbe081255429b3ae4f6642403a9f3a6b48d5/OktaJWT-${REALVERSION}.tar.gz"
-SOURCEFILE="OktaJWT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

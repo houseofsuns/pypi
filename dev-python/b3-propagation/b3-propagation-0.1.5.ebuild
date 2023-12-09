@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="B3-Propagation"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="B3 header access and propagation for Python."
 
 HOMEPAGE="https://github.com/davidcarboni/B3-Propagation"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/50/de/89577f2db563b581d3944a088412e62587df4b39a4a109a4865456953ce7/B3-Propagation-${REALVERSION}.tar.gz"
-SOURCEFILE="B3-Propagation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

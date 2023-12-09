@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OSlash"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OSlash (Ø) for Python 3.8+"
 
 HOMEPAGE="https://github.com/dbrattli/oslash"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/b2/54ea4a7c6f768469a4c6a2f27f5c7cf572d63e9fd7f7618fca89c30966b3/OSlash-${REALVERSION}.tar.gz"
-SOURCEFILE="OSlash-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

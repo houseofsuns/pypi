@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="isoCycle"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="isolating single cycles of oscillatory activity in neuronal spiking
 
 HOMEPAGE="https://github.com/esiabri/isoCycle"
 LICENSE="CC-BY-NC-SA-4.0"
-SRC_URI="https://files.pythonhosted.org/packages/3a/30/7328d752b09c6b33e7a00c8ace9c2919aca1addf8116c7985cebbda04244/isoCycle-${REALVERSION}.tar.gz"
-SOURCEFILE="isoCycle-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Colorfan"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A powerful python module to set console color"
 
 HOMEPAGE="https://github.com/hushra/colorfan"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/4a/b9825387d55c862a2a4c070d47bff845f3a90995db730557894f79c9ce44/Colorfan-${REALVERSION}.tar.gz"
-SOURCEFILE="Colorfan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

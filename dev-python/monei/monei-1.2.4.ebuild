@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Monei"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MONEI PYTHON SDK"
 
 HOMEPAGE="https://github.com/monei/monei-python-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a8/7d/b9746289716c62545967526374eed488fb98dc659e5dbfc5a0f5c8d9c7da/Monei-${REALVERSION}.tar.gz"
-SOURCEFILE="Monei-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

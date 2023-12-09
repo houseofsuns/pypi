@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="fontMath"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A set of objects for performing math operations on font data."
 
 HOMEPAGE="https://github.com/robotools/fontMath"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/47/1f3a198381a786cd6007a3617a9dd73262e85c0886fc7b5a574d0d476915/fontMath-${REALVERSION}.zip"
-SOURCEFILE="fontMath-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CVAugmentor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for augmenting images and videos for computer vision task
 
 HOMEPAGE="https://github.com/AliKHaliliT/CVAugmentor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/bd/5f5897e395559cab44ca5cd97e8f01b47702db164c64f26fa30ce47a6a9e/CVAugmentor-${REALVERSION}.tar.gz"
-SOURCEFILE="CVAugmentor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

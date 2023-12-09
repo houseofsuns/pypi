@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FreeTVG-karjakak"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tree View Gui for outline treeview note."
 
 HOMEPAGE="https://github.com/kakkarja/FreeTVG#latest-notice"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/c1/fa41c19c6c69efdd43051eb21f4113336e007bbf67feaa1e28d90df2263f/FreeTVG-karjakak-${REALVERSION}.tar.gz"
-SOURCEFILE="FreeTVG-karjakak-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

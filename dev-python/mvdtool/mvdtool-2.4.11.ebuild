@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MVDTool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python bindings to the MVD3 neuroscience file format"
 
 HOMEPAGE="https://github.com/BlueBrain/MVDTool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1d/05/14fc4407234bb4bad00d8b378f2358fa939abdb6b046f83992b6de2a8954/MVDTool-${REALVERSION}.tar.gz"
-SOURCEFILE="MVDTool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

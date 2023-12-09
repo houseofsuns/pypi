@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MANAclust"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Multi Affinity Network Association"
 
 HOMEPAGE="https://scottyler892@bitbucket.org/scottyler892/manaclust"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/47/ab/eebda6c3bb70eabec4fe29e5d67af72b6da7f7ddd99278b9c9b618336f3e/MANAclust-${REALVERSION}.tar.gz"
-SOURCEFILE="MANAclust-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

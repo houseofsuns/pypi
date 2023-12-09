@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MyoSuite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Musculoskeletal environments simulated in MuJoCo"
 
 HOMEPAGE="https://sites.google.com/view/myosuite"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/14/eb/5d85783cc7593bf45e3ca050c60cf328373c36b38a226a5197299e88d4b8/MyoSuite-${REALVERSION}.tar.gz"
-SOURCEFILE="MyoSuite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

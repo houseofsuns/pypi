@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HiNT-Package"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="HiNT -- HiC for copy number vairations and translocations detection
 
 HOMEPAGE="https://github.com/suwangbio/HiNT_py3"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ff/a1/f1d40fad4546763d4df8b02aea3d07454d55a865c418c8163b1b124cbb6b/HiNT-Package-${REALVERSION}.tar.gz"
-SOURCEFILE="HiNT-Package-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

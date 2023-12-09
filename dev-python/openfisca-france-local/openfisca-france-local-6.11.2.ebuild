@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenFisca-France-Local"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Extension OpenFisca pour nos partenariats avec les collectivités t
 
 HOMEPAGE="https://github.com/openfisca/openfisca-france-local"
 LICENSE="http://www.fsf.org/licensing/licenses/agpl-3.0.html"
-SRC_URI="https://files.pythonhosted.org/packages/0a/3a/44ce2b3ca9ff08586fd5e15ea3ea02d335423ed91663c5a8d0e7e6518aa0/OpenFisca-France-Local-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenFisca-France-Local-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

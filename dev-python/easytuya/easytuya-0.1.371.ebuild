@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EasyTuya"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Interact with devices connected to the Tuya IOT platform through Py
 
 HOMEPAGE="https://github.com/ASchoe311/EasyTuya"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/f1/08/0b5c1cb35c8e94ce9eebc09291e3f7029d45d7eb27b942502d4e127ea747/EasyTuya-${REALVERSION}.tar.gz"
-SOURCEFILE="EasyTuya-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

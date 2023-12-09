@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FPC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Frank's Personal Conllection"
 
 HOMEPAGE="http://ff2.pw"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d5/e5/ffca38d8d6ff32e24580096222378fa16561c7e8ad861a372e04e01fe7ff/FPC-${REALVERSION}.tar.gz"
-SOURCEFILE="FPC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-Moment-Timezone"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Moment-Timezone 0.5.22 (XStatic packaging standard)"
 
 HOMEPAGE="https://github.com/moment/moment-timezone"
 LICENSE="same as Moment-Timezone"
-SRC_URI="https://files.pythonhosted.org/packages/77/8d/a3a89a0b2b18086b1c7c9c754decefb813715d870df3adcdcf1ca687ff70/XStatic-Moment-Timezone-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-Moment-Timezone-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

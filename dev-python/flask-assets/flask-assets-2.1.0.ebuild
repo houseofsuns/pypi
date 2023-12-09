@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Assets"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Asset management for Flask, to compress and merge CSS and Javascrip
 
 HOMEPAGE="http://github.com/miracle2k/flask-assets"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3e/8b/1bc3887678557a1ff85fe294ef7f1139ca0f8956195741c8fad39b69616f/Flask-Assets-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Assets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

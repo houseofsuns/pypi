@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="zLOG"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A general logging facility"
 
 HOMEPAGE="https://github.com/zopefoundation/zLOG"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/c9/56/8dc74b1fab251a87d16e854da3f0e8516b4a0edd62002f67b92f500e6dab/zLOG-${REALVERSION}.tar.gz"
-SOURCEFILE="zLOG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

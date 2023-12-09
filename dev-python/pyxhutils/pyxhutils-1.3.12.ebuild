@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyXhUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A collection of self dev py library"
 
 HOMEPAGE="https://github.com/xh-dev-py/xhUtils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/60/16/1928400f2a9e5875e8848b975d0590dce0e6d0bd028aca1e9e693039c65c/pyXhUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="pyXhUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

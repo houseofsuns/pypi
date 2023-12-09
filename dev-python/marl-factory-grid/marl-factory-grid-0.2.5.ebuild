@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Marl-Factory-Grid"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A framework to research MARL agents in various setings."
 
 HOMEPAGE="https://github.com/illiumst/marl-factory-grid/import"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/05/5718138e7d1c8f4fa17fc696a36ffeda7a4ab9d4881a586160f280e87ec5/Marl-Factory-Grid-${REALVERSION}.tar.gz"
-SOURCEFILE="Marl-Factory-Grid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

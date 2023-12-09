@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AIConf"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Config reader and Factory method provider to create instances from 
 
 HOMEPAGE="http://github.com/ai-systems/AIConf"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/74/dcf643421376183bb59388da3d4d5f9dea1f583913ff9caa2671ad44329d/AIConf-${REALVERSION}.tar.gz"
-SOURCEFILE="AIConf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenFintech"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Laurier-Fintech/OpenFintech"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/85/ac/51dd2ea0dd6969e34f0e33cbdf575da8a5353dce2f45f009be4d62913e2d/OpenFintech-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenFintech-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

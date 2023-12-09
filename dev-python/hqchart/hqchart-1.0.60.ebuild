@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HQChart"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="HQChartPy2 C++"
 
 HOMEPAGE="https://github.com/jones2000/hqchartPy2"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/87/8f/88e03041121d3879ad8ac656f0f1a9eeda7791184c948154a6d564ee6d1a/HQChart-${REALVERSION}.tar.gz"
-SOURCEFILE="HQChart-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

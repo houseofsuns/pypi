@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TUPA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Transition-based UCCA Parser"
 
 HOMEPAGE="https://github.com/huji-nlp/tupa"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/0a/1eac685f12c287d734a552486ee7e38f1e83aa005c05569911d8865c3349/TUPA-${REALVERSION}.tar.gz"
-SOURCEFILE="TUPA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Executor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An easy to use Flask wrapper for concurrent.futures"
 
 HOMEPAGE="https://github.com/dchevell/flask-executor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/9d/48200aa3211148e1a250882e68be5a97a6a6995ff6d63aa1f9b32b5c6e35/Flask-Executor-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Executor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

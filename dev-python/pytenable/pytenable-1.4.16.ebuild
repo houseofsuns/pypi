@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyTenable"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library to interface into Tenable's products and application
 
 HOMEPAGE="https://github.com/tenable/pytenable"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/11/99/f4e3d925cf0b9ae535d95b7cc602bb513807ae353a09409721d4eac56bbd/pyTenable-${REALVERSION}.tar.gz"
-SOURCEFILE="pyTenable-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

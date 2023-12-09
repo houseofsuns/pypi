@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AliceGit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Project Alice Python to Git utilities"
 
 HOMEPAGE="https://github.com/project-alice-assistant/AliceGit"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/60/fe/8c75fd32ae4e452b88500883eb9e755d0eb6484d0ee35f177f714839dad6/AliceGit-${REALVERSION}.tar.gz"
-SOURCEFILE="AliceGit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

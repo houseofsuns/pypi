@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-JWT-Extended"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Extended JWT integration with Flask"
 
 HOMEPAGE="https://github.com/vimalloc/flask-jwt-extended"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7f/69/5b5e58ffd0d2f4f815f6a8f9e0591f4b3c191f8723281f5c46091d990913/Flask-JWT-Extended-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-JWT-Extended-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

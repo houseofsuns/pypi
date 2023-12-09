@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SimPEG"
 REALVERSION="0.20.0.post2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SimPEG: Simulation and Parameter Estimation in Geophysics"
 
 HOMEPAGE="https://simpeg.xyz/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4d/cc/c6c2c1b4e79c4892d6315602dc7150685fa9efc271c293516e19f27feba2/SimPEG-${REALVERSION}.tar.gz"
-SOURCEFILE="SimPEG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

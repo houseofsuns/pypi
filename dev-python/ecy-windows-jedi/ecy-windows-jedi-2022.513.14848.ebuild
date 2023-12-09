@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ECY-Windows-jedi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/JimmyHuang454/ECY_exe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bd/c9/9c105c40457ccee4fc8416ec37ba34701ed1f57189406cf9d2a3a19103dc/ECY_Windows_jedi-${REALVERSION}.tar.gz"
-SOURCEFILE="ECY_Windows_jedi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

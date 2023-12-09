@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IOHexperimenter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The experimenter for Iterative Optimization Heuristic"
 
 HOMEPAGE="https://github.com/IOHprofiler/IOHexperimenter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/d1/1810a3c50f8e2713997d274d851a5244c5c47037ec3b57ee4a4ace0ff4c5/IOHexperimenter-${REALVERSION}.tar.gz"
-SOURCEFILE="IOHexperimenter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

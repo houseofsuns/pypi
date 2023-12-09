@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyFFTW"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A pythonic wrapper around FFTW, the FFT library, presenting a unifi
 
 HOMEPAGE="https://github.com/pyFFTW/pyFFTW"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9f/bc/7376df0393e816b60bdc627fc8f653706f4caa95bcf79d07302a672f893e/pyFFTW-${REALVERSION}.tar.gz"
-SOURCEFILE="pyFFTW-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

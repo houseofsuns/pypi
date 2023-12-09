@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyKCS11"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Full PKCS#11 wrapper for Python"
 
 HOMEPAGE="https://github.com/LudovicRousseau/PyKCS11"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8d/34/ffa45b6152c2839627229456a83cd538002407e9ce6529c6f06bcd628fca/PyKCS11-${REALVERSION}.tar.gz"
-SOURCEFILE="PyKCS11-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

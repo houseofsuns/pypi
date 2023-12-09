@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="COMDIRAC"
 REALVERSION="2.0.0a5"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package to supply a comprehensive list of UNIX-like commands for th
 
 HOMEPAGE="https://github.com/DIRACGrid/COMDIRAC"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/5e/35/36ec24d9fb946cc2ed8d3de381545cd78dcafef89b514ce05b3dfba7c346/COMDIRAC-${REALVERSION}.tar.gz"
-SOURCEFILE="COMDIRAC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

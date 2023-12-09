@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AtomicPuppy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A service-activator component for eventstore"
 
 HOMEPAGE="https://github.com/madedotcom/atomicpuppy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/49/94/c6e0a293eaebe09ce3f7625485de2f4aba762c1067e0ed335656166c9c54/AtomicPuppy-${REALVERSION}.tar.gz"
-SOURCEFILE="AtomicPuppy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

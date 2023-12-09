@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CaChannel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CaChannel Interface to EPICS"
 
 HOMEPAGE="http://pypi.python.org/pypi/cachannel"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/30/4f/bacc667d96b1809c853dd7348bba3173bd29d3b814c5c0ee4ed2e338025d/CaChannel-${REALVERSION}.tar.gz"
-SOURCEFILE="CaChannel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

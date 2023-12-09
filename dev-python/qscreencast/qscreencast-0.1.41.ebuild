@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QScreenCast"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A no-nonsense screen-caster behind a QToolButton."
 
 HOMEPAGE="https://github.com/Semi-ATE/QScreenCast"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/44/0352c655fce242ccf60b45da552b6afd336c15756436d21c595d8858d391/QScreenCast-${REALVERSION}.tar.gz"
-SOURCEFILE="QScreenCast-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

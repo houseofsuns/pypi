@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GDX2py"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Read and write GAMS Data eXchange (GDX) files using Python"
 
 HOMEPAGE="https://github.com/ererkka/GDX2py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4d/32/a8bd371bb9b1d7c0bad3cb2812bb487913c7e379bfcde048d861d80b9b77/GDX2py-${REALVERSION}.tar.gz"
-SOURCEFILE="GDX2py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

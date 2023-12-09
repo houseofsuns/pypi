@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-SQLAlchemy-Session"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SQL Alchemy session scoped on Flask requests."
 
 HOMEPAGE="http://github.com/dtheodor/flask-sqlalchemy-session"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/39/7e/5a3db4b8ecca842b87df34a64cee1ea3c89f0c85f2b68d7589ea85df2519/Flask-SQLAlchemy-Session-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-SQLAlchemy-Session-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

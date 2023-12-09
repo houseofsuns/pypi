@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Resource"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library concentrated on the Resource layer of RESTful APIs
 
 HOMEPAGE="https://github.com/RussellLuo/resource"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/64/13/2db7b02cecc646a1b53dcf40cce9586d9f860550b32d931a1eb3c7280d43/Resource-${REALVERSION}.tar.gz"
-SOURCEFILE="Resource-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

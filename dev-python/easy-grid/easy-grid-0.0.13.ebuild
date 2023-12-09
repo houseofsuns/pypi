@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Easy-GRID"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A GUI for field segmentation"
 
 HOMEPAGE="https://github.com/Zhiwu-Zhang-Lab/James_Git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4c/96/fc738fa0422491c0c4bc3b9af84e1458aae6e0971c5ca7eae993a8e0478b/Easy_GRID-${REALVERSION}.tar.gz"
-SOURCEFILE="Easy_GRID-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

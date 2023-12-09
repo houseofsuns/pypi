@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AbPyTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package for antibody analysis"
 
 HOMEPAGE="https://github.com/gf712/AbPyTools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/36/c2/d5fe73a37353af9d6a6434dfff4c62bc1ccd70940e69ff2ecfdb7928942a/AbPyTools-${REALVERSION}.tar.gz"
-SOURCEFILE="AbPyTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

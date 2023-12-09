@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AthenaCSS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CSS generator for Python"
 
 HOMEPAGE="https://github.com/DirectiveAthena/VerSC-AthenaCSS"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ae/76/f9679c078ed833c82041e48291ba35f40d546de796b29942c5460d4466a8/AthenaCSS-${REALVERSION}.tar.gz"
-SOURCEFILE="AthenaCSS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

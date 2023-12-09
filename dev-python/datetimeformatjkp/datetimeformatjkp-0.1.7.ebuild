@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DateTimeFormatJKP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for robot framework"
 
 HOMEPAGE="https://github.com/praveenjkp/DateFormat"
 LICENSE="apache 2.0 Software License"
-SRC_URI="https://files.pythonhosted.org/packages/c8/ba/4fd40d9f4cbaf20f8a987342ad6e95f52a0b2f479af607d71c1d83fd35bb/DateTimeFormatJKP-${REALVERSION}.tar.gz"
-SOURCEFILE="DateTimeFormatJKP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

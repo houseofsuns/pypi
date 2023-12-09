@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GitHub-Flask"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GitHub extension for Flask microframework"
 
 HOMEPAGE="http://github.com/cenkalti/github-flask"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f5/9b/22b02ef71386337226e98b842f1891740505aa5324c739f93c66b8db5197/GitHub-Flask-${REALVERSION}.tar.gz"
-SOURCEFILE="GitHub-Flask-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

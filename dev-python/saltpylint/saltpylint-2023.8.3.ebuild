@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SaltPyLint"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Required PyLint plugins needed in the several SaltStack projects."
 
 HOMEPAGE="https://github.com/saltstack/salt-pylint"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/76/d8/45f7a7fbe5682c56107714d50cdd19dfa67def71958ca6ed9c718a2a5788/SaltPyLint-${REALVERSION}.tar.gz"
-SOURCEFILE="SaltPyLint-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TakeMessageCleaner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="TakeMessageCleaner is a tool for pre processing messages"
 
 HOMEPAGE="https://github.com/karinatk/TakeMessageCleaner"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/26/cb/b977c71a6a34322e23bee45b0be39ee0d0b3885f8383ff7b50d796119ff5/TakeMessageCleaner-${REALVERSION}.tar.gz"
-SOURCEFILE="TakeMessageCleaner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

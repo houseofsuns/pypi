@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pymem"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="pymem: python memory access made easy"
 
 HOMEPAGE="http://pymem.readthedocs.org/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/83/ccdd9d7fb3be0bb2e69db7543c5179c05e1f89947f3b641b872424982111/Pymem-${REALVERSION}.tar.gz"
-SOURCEFILE="Pymem-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

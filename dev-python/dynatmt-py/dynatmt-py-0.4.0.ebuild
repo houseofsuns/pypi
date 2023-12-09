@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DynaTMT-py"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package to analyse pSILAC TMT data"
 
 HOMEPAGE="https://github.com/bobbyhaze/DynaTMT-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/a3/62a4c6f2d23ae9dc1233702434b102f4bde2e812216122588719ff4c85e4/DynaTMT-py-${REALVERSION}.tar.gz"
-SOURCEFILE="DynaTMT-py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

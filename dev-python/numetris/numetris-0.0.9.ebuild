@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NuMeTriS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NuMeTris is a package for Maximum-Entropy models for triadic patter
 
 HOMEPAGE="https://github.com/MarsMDK/NuMeTriS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/e7/1a8da067a1e318b8460f440709d928bca9e22fd25627225e2d91068fe38f/NuMeTriS-${REALVERSION}.tar.gz"
-SOURCEFILE="NuMeTriS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

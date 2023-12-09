@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Actifio"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Actifio Restful API wrapper for Python."
 
 HOMEPAGE="https://github.com/Actifio/actifio-python-package"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/8f/877b0ddd1318b0525547007c8e1cf5af5632123f04409c88cc1c0ab84152/Actifio-${REALVERSION}.tar.gz"
-SOURCEFILE="Actifio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

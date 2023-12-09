@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Vapory"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="3D rendering with Python and POV-Ray"
 
 HOMEPAGE=""
 LICENSE="see LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/fb/4e/76ad473b54c7d12b4625e067ff736432dc25602d6ec07e82aec5a670e698/Vapory-${REALVERSION}.tar.gz"
-SOURCEFILE="Vapory-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

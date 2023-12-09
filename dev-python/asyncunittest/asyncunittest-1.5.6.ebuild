@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="asyncUnittest"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fully asynchronous unit test"
 
 HOMEPAGE="https://github.com/monk-after-90s/asyncUnittest.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/03/18fd1b30a0fa205a7b5c08427e931a0000875dfe99d7d7d5a0bb72c79dc2/asyncUnittest-${REALVERSION}.tar.gz"
-SOURCEFILE="asyncUnittest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

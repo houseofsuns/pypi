@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Loopback"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for faking HTTP requests using flask applications without a
 
 HOMEPAGE="https://github.com/vmalloc/flask-loopback"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/eb/21/003ada5da669c609a9a3ee4139077f74fdbac9ce183352e168cbcb76c427/Flask-Loopback-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Loopback-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

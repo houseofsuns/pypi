@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MagicGoogle"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A google search results crawler"
 
 HOMEPAGE="https://github.com/howie6879/MagicGoogle/blob/master/README.md"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/72/f71a4021250ec686e5228fe40eadd74dc764dd824bbdc11e2375d7dfbe9b/MagicGoogle-${REALVERSION}.tar.gz"
-SOURCEFILE="MagicGoogle-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

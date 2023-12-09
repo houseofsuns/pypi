@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kipkoech-polls"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple Django Polls app"
 
 HOMEPAGE="https://github.com/DenisBiwott/PollsApp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/59/978f72636dd8462a83079518541e8fa2e06bf8ffa2d64bf0d73c179b589b/Kipkoech-polls-${REALVERSION}.tar.gz"
-SOURCEFILE="Kipkoech-polls-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

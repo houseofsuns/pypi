@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Henson-AMQP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for interacting with AMQP with a Henson application."
 
 HOMEPAGE="https://henson-amqp.readthedocs.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/06/1b/54b8d4df7be81023b076d46c70d54d25c576b2958c739964384ad279c6dd/Henson-AMQP-${REALVERSION}.tar.gz"
-SOURCEFILE="Henson-AMQP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

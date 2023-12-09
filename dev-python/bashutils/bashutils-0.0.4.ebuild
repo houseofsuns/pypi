@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Bashutils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bash colors management and log system"
 
 HOMEPAGE="https://github.com/OlivierB/Bashutils.git"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a0/53/a35356e2eaeced6fc15c10c71397b731d5f37e00b1e44a6eb4437d171277/Bashutils-${REALVERSION}.tar.gz"
-SOURCEFILE="Bashutils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

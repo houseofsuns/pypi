@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Py3Chef"
 REALVERSION="0.4.0rc5"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python implementation of a Chef API client."
 
 HOMEPAGE="http://github.com/leigh-johnson/pychef"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/81/47/7db1405520559ee2ac969ff098ffc28741aa64776753fd6c102f54772183/Py3Chef-${REALVERSION}.tar.gz"
-SOURCEFILE="Py3Chef-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

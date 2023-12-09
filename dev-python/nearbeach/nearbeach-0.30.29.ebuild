@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NearBeach"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NearBeach - an open source project management tool"
 
 HOMEPAGE="https://github.com/robotichead/NearBeach"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0f/2a/ee5a2db3ebd917ca4a6b17d321bf3bdc5d62b98c397a0e7bea3b0b468e2f/NearBeach-${REALVERSION}.tar.gz"
-SOURCEFILE="NearBeach-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

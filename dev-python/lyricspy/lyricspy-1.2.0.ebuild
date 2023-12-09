@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LyricsPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="search lyrics on musixmatch.com"
 
 HOMEPAGE="https://github.com/amanoteam/LyricsPy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/00/81/d8c68c2c22b14c210344866cecb7738b48fc04985976bc65dc12bb580a60/LyricsPy-${REALVERSION}.tar.gz"
-SOURCEFILE="LyricsPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

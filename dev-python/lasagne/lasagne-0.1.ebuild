@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Lasagne"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A lightweight library to build and train neural networks in Theano"
 
 HOMEPAGE="https://github.com/Lasagne/Lasagne"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/bf/4b2336e4dbc8c8859c4dd81b1cff18eef2066b4973a1bd2b0ca2e5435f35/Lasagne-${REALVERSION}.tar.gz"
-SOURCEFILE="Lasagne-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BNumMet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Basic Numerical Methods for Python 3"
 
 HOMEPAGE="https://github.com/fbpazos/Trabajo-Fin-Master/tree/main/Python_BNumMet"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a0/ef/d2e43d4f6af79c20acc5613e20866f2f12113e04d1cac835d6a77a1b2f2d/BNumMet-${REALVERSION}.tar.gz"
-SOURCEFILE="BNumMet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

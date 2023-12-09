@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Sanic-Plugins-Framework"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Doing all of the boilerplate to create a Sanic Plugin, so you don't
 
 HOMEPAGE="https://github.com/ashleysommer/sanicpluginsframework"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/40/4cbd0dde727c5168234513212f81a7f9d67a98d143fa8d79b4727a95aaee/Sanic-Plugins-Framework-${REALVERSION}.tar.gz"
-SOURCEFILE="Sanic-Plugins-Framework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

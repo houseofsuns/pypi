@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CV-Robot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Computer vision robotics project"
 
 HOMEPAGE="https://github.com/RobertJN64/CV_Robot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/3c/e4b50c6107cf36183315b8e5d8b07ca3591c6af447e6001460830b4cf6d2/CV_Robot-${REALVERSION}.tar.gz"
-SOURCEFILE="CV_Robot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

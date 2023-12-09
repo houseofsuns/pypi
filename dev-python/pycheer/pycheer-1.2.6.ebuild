@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyCheer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://gitee.com/cyrxdzj/PyCheer"
 LICENSE="MulanPSL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d3/8c/ffc902ca0b1323778cbf305aa99f84418e94500a9759cd5067135cbc9dae/PyCheer-${REALVERSION}.tar.gz"
-SOURCEFILE="PyCheer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

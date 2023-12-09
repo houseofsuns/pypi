@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Dpowers"
 REALVERSION="0.1.5rc1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Unified Interface for automatic interaction"
 
 HOMEPAGE="https://github.com/dp0s/Dpowers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5a/9c/7d3f0b56631eac79caef259a505c09e9185ee4aca5996831a4b18d9f08b1/Dpowers-${REALVERSION}.tar.gz"
-SOURCEFILE="Dpowers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

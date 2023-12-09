@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MLapp1"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="\"MLapp\""
 
 HOMEPAGE="https://github.com/FunctionalUrology/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/45/84/b616bb3a4bc1e135a9ba90d5abbc8520eeb5f574e7c9b2b40b2772868525/MLapp1-${REALVERSION}.tar.gz"
-SOURCEFILE="MLapp1-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

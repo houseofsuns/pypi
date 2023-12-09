@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BUCTOJ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="用Python玩转北化OJ平台"
 
 HOMEPAGE="https://github.com/LetMeFly666/BUCTOJ"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/9a/de/bac8a5ffeceb5f423dee14291d127d0d363d576b733c34399b4393c36bc0/BUCTOJ-${REALVERSION}.tar.gz"
-SOURCEFILE="BUCTOJ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

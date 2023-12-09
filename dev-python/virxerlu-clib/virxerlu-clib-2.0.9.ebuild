@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VirxERLU-CLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="C modules for VirxERLU"
 
 HOMEPAGE="https://github.com/VirxEC/VirxERLU-CLib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/d1/1deeab8f088267560ef2dd8b3109d594a4fb327a81e6e0823e7f422fd44d/VirxERLU-CLib-${REALVERSION}.tar.gz"
-SOURCEFILE="VirxERLU-CLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

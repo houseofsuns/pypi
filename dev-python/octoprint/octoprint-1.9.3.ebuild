@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OctoPrint"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
@@ -15,8 +16,8 @@ DESCRIPTION="The snappy web interface for your 3D printer"
 
 HOMEPAGE="https://octoprint.org"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/98/85/87e9539a5c7262c49be21e3dd214fa7247b04fb643ad6ac53d1bc61f9fe0/OctoPrint-${REALVERSION}.tar.gz"
-SOURCEFILE="OctoPrint-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

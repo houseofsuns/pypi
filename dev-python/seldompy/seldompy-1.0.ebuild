@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SELDOMpy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Dynamic modelling of cellular signalling networks."
 
 HOMEPAGE="https://github.com/lupralo31/SELDOMpy"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ed/8c/d56a9dc40587ae6bfce50954f024f71864d3fe9604d0c4200cc5704f5688/SELDOMpy-${REALVERSION}.tar.gz"
-SOURCEFILE="SELDOMpy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

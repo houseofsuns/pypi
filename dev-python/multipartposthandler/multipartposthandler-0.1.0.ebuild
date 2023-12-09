@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MultipartPostHandler"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A handler for urllib2 to enable multipart form uploading"
 
 HOMEPAGE="http://pipe.scs.fsu.edu/PostHandler/MultipartPostHandler.py"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/18/48/ba7c00a469cc0a0a7c19deebff844f15779256c209a4992e06e0f511ae36/MultipartPostHandler-${REALVERSION}.tar.gz"
-SOURCEFILE="MultipartPostHandler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

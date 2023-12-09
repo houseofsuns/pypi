@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SchemaChecker"
 REALVERSION="0.0.3.dev121"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE=""
 LICENSE="Creative Commons Attribution-Noncommercial-Share Alike license"
-SRC_URI="https://files.pythonhosted.org/packages/82/38/c3a3e19601951edafa93a58cac4d7b376a1f52626d37baa0990a9f356378/SchemaChecker-${REALVERSION}.tar.gz"
-SOURCEFILE="SchemaChecker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="backStrategy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="读取数据更新,接口更新"
 
 HOMEPAGE="https://gitee.com/Jason520deng/back-strategy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/7b/8f58a69ad3e912a4b5ba15086d2e44b3d748a9f600b8387c213eb0e01e5b/backStrategy-${REALVERSION}.tar.gz"
-SOURCEFILE="backStrategy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

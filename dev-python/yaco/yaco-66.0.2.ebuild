@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Yaco"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to prevent Dependency Confusion attacks against Yandex."
 
 HOMEPAGE="https://ya.ru"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/84/fd/f07862950603d02b707bad110f91e592d4f25035bec5a803ee9f49b0e72c/Yaco-${REALVERSION}.tar.gz"
-SOURCEFILE="Yaco-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

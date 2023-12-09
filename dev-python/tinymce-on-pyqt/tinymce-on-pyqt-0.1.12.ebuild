@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TinyMCE-on-pyqt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="在pyqt中方便的使用TinyMCE"
 
 HOMEPAGE="https://github.com/ovo-Tim/TinyMCE-on-pyqt"
 LICENSE="GPL License"
-SRC_URI="https://files.pythonhosted.org/packages/ee/9a/cdce06699dd81b32b8cb74eddc4f3d12c5942a96cb743032b905a28c2bd8/TinyMCE-on-pyqt-${REALVERSION}.tar.gz"
-SOURCEFILE="TinyMCE-on-pyqt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FRCUploader"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A YouTube Uploader with FIRST Robotics Competition in mind"
 
 HOMEPAGE="https://github.com/NikhilNarayana/FRC-YouTube-Uploader"
 LICENSE="GNU Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/68/5f/7e658e9e7c3f7524f0d8bd31e255544b5553f0f9788446869f2117e36d19/FRCUploader-${REALVERSION}.tar.gz"
-SOURCEFILE="FRCUploader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

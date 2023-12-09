@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyControl4"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python 3 asyncio package for interacting with Control4 systems"
 
 HOMEPAGE="https://github.com/lawtancool/pyControl4"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/ea/578fbdb9645da5d913df79f9c4a2396390852b36e27d711a47f8521fefa7/pyControl4-${REALVERSION}.tar.gz"
-SOURCEFILE="pyControl4-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

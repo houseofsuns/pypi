@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DIRAC"
 REALVERSION="9.0.0a4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DIRAC is an interware, meaning a software framework for distributed
 
 HOMEPAGE="https://github.com/DIRACGrid/DIRAC/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/fb/b2/b6f75ed76164e3f1b3af4660194cc5db6903a7a18442f5a868e496a515cc/DIRAC-${REALVERSION}.tar.gz"
-SOURCEFILE="DIRAC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

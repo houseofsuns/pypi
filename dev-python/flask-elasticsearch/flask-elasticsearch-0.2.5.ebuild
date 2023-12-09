@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Elasticsearch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for Elasticsearch integration"
 
 HOMEPAGE="https://github.com/chiangf/Flask-Elasticsearch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9b/08/98fabf90462a4ff01b23e952b99275417c9a76af68f43e3d97178deb35f8/Flask-Elasticsearch-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Elasticsearch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

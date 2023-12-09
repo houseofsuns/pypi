@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SeqLbToolkit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Commonly-used functions for building sequence labeling models."
 
 HOMEPAGE="https://github.com/Yinghao-Li/seqlbtoolkit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/40/03/56383d0a4c7556bb3ef53e17538558750e7ec07a7f56a024d8c5416d8429/SeqLbToolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="SeqLbToolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

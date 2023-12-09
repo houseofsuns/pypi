@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JSON-Datetime"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Allows for proper decoding of datetime values contained in JSON str
 
 HOMEPAGE="http://github.com/nicolaiarocci/json-datetime"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/87/6a/1d957962a483cf51455180e7a6e6972386f67f891ae5032f8b6c63b0af0a/JSON-Datetime-${REALVERSION}.tar.gz"
-SOURCEFILE="JSON-Datetime-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

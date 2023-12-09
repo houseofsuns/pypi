@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IBATS-BitMex-Trader"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="作为IBATS架构的 Trader 端，用于连接BitMex进行相应的
 
 HOMEPAGE="https://github.com/IBATS/IBATS_BitMexTrader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/da/1e/91593fd503ee301ff5b8f7b4edaab960063b2799a043a3aa933b4be4ee66/IBATS_BitMex_Trader-${REALVERSION}.tar.gz"
-SOURCEFILE="IBATS_BitMex_Trader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

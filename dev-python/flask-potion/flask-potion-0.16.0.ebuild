@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Potion"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Powerful REST API framework for Flask and SQLAlchemy"
 
 HOMEPAGE="http://potion.readthedocs.org/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/94/f51269caef8467f0c68b0e613bf207ddbf9d7acc20f204457d6e053d61d1/Flask-Potion-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Potion-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="StORF-Reporter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="StORF-Reporter - A a tool that takes an annotated genome and return
 
 HOMEPAGE="https://github.com/NickJD/StORF-Reporter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/60/b3/133bee4e8509d34065e607d1a2a85bbbfee3e369e1627e1738444438716e/StORF-Reporter-${REALVERSION}.tar.gz"
-SOURCEFILE="StORF-Reporter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

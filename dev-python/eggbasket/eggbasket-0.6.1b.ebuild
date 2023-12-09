@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EggBasket"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple, lightweight Python Package Index (aka Cheeseshop) clone."
 
 HOMEPAGE="http://chrisarndt.de/projects/eggbasket/"
 LICENSE="MIT License, Zope Public License rest.py, BSD License odict.py"
-SRC_URI="https://files.pythonhosted.org/packages/cc/fd/ff438696177080702c5d82365c06bf6d283f1a164f18354d5540a2a43719/EggBasket-${REALVERSION}.tar.bz2"
-SOURCEFILE="EggBasket-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.bz2"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 
 SLOT="0"

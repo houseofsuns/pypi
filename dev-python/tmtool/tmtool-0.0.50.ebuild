@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TMTool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="python tool for Microsoft Threat modeling tool"
 
 HOMEPAGE="https://github.com/tmart234/TMT"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/37/4c/f788f64c0fae57e176b76a3344abed96d7be7207bfc71c65e3ba127bf8db/TMTool-${REALVERSION}.tar.gz"
-SOURCEFILE="TMTool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

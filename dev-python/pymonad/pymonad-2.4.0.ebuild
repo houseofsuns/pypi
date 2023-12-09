@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMonad"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Data structures and utilities for monadic style functional programm
 
 HOMEPAGE="https://github.com/jasondelaat/pymonad"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3b/4e/68803065743007b7dc000c543f45f6e407f8a1cbc673fdab016df3ca4b44/PyMonad-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMonad-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

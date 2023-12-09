@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Yamada"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Calculate the Yamada polynomial of spatial topologies."
 
 HOMEPAGE="https://github.com/Chad-Peterson/Yamada"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/fd/54f72cb83ad4c2497a86f60c01b15f3e1061d1967903be63531c6e87e908/Yamada-${REALVERSION}.tar.gz"
-SOURCEFILE="Yamada-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

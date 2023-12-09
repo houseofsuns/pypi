@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RobustGaussianFittingLibrary"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for robust Gaussian fitting of geometric models in presen
 
 HOMEPAGE="https://github.com/arsadri/RobustGaussianFittingLibrary"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bf/15/6be89e640d0eb21e5de16a0d9e1b84b7c1b9c0656e3c61d849d3931b0605/RobustGaussianFittingLibrary-${REALVERSION}.tar.gz"
-SOURCEFILE="RobustGaussianFittingLibrary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VonPylib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/voicevon/VonPylib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e4/a9/3ef7053231b4da0aaddc5270ee60f06f71f4bb3683f126a17f2b2fc13a09/VonPylib-${REALVERSION}.tar.gz"
-SOURCEFILE="VonPylib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

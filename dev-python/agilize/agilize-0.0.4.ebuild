@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Agilize"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Unofficial client to access Agilize"
 
 HOMEPAGE="https://github.com/lucasrcezimbra/agilize"
 LICENSE="LGPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/02/d1/701834e733318c5cd462ecbce2ac6ec3afd37287d67c293c7a40591528f1/Agilize-${REALVERSION}.tar.gz"
-SOURCEFILE="Agilize-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

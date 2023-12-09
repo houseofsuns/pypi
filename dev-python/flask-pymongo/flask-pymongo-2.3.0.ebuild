@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-PyMongo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyMongo support for Flask applications"
 
 HOMEPAGE="http://flask-pymongo.readthedocs.org/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d9/14/6e714ad96666d1c626aacaad3a368318ba421b1e0cedaf62507444ede0f9/Flask-PyMongo-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-PyMongo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

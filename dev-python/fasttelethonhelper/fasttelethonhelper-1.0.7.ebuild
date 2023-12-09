@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FastTelethonhelper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Make Telethon files upload/download faster"
 
 HOMEPAGE="https://github.com/MiyukiKun/FastTelethonhelper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2d/87/8d300152a005bfdd02ffc8dccd0d08d95a79c58e941b188263aacb269717/FastTelethonhelper-${REALVERSION}.tar.gz"
-SOURCEFILE="FastTelethonhelper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

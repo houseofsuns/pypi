@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-pymysql"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="pymysql extension for Flask"
 
 HOMEPAGE="https://github.com/rcbensley/flask-pymysql"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/b5/7926830f38ac38c0e7394300e31b4145191a7bcb1a2aa612c03c41557f87/Flask-pymysql-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-pymysql-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BotpySE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python framework to create chatbots on the StackExchange network.
 
 HOMEPAGE="https://github.com/SOBotics/Botpy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/7a/0b3f05ae3f0b595ba3477869d24ef68b77efc83b2bb1297191cc6d0bf9dd/BotpySE-${REALVERSION}.tar.gz"
-SOURCEFILE="BotpySE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DiscordGame"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python Discord Library for developing games in Discord Servers."
 
 HOMEPAGE="https://github.com/GrandMoff100/Discordgame"
 LICENSE="GNU License"
-SRC_URI="https://files.pythonhosted.org/packages/4f/db/537f98d8d1210a493db5cfc419127144bad11fee54378662ae5f55df9e60/DiscordGame-${REALVERSION}.tar.gz"
-SOURCEFILE="DiscordGame-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

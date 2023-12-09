@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AutoPostTelegram"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An Telegram Auto Post Package"
 
 HOMEPAGE="https://github.com/AasfCyberKing/AutoPostTelegram/"
 LICENSE="License :: OSI Approved :: GNU Lesser General Public License v3 LGPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/f8/d4/8a5b821e044f227305cc253a0c131a0b122ae1d72725ec7f34c61b85ed95/AutoPostTelegram-${REALVERSION}.tar.gz"
-SOURCEFILE="AutoPostTelegram-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="eArsivPortal"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GİB e-Arşiv Portal e-Fatura Oluşturucu"
 
 HOMEPAGE="https://github.com/keyiflerolsun/eArsivPortal"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/28/1a/9bdeca3a268a3c336ac8885ed7f9e8aad027bff4a7fb8e23ba75bf2e3b60/eArsivPortal-${REALVERSION}.tar.gz"
-SOURCEFILE="eArsivPortal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

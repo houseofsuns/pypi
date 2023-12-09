@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UPAFuzzySystems"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="UPAFuzzySystems package for definition and simulation of Fuzzy Infe
 
 HOMEPAGE="https://github.com/UniversidadPolitecnicaAguascalientes/UPAFuzzySystems/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/c1/79826b635af1ad023aff2d132b8175363dfbea387ca848064aa868170033/UPAFuzzySystems-${REALVERSION}.tar.gz"
-SOURCEFILE="UPAFuzzySystems-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

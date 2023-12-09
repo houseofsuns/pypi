@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BRACoD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BRACoD is a method to identify associations between bacteria and ph
 
 HOMEPAGE="https://github.com/ajverster/BRACoD/tree/main"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/42/2f730e889ca1fdb83c3fd7f2f1f33af30c90927ca279d4c74dddf22fea1a/BRACoD-${REALVERSION}.tar.gz"
-SOURCEFILE="BRACoD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LinguaFrancaBase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Useful notations and helper functions used in Lingua Franca program
 
 HOMEPAGE="https://github.com/icyphy/lingua-franca"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/67/3f9a81ec77a979f9d995487adf82ca31388f5ca106e84771e6afad8e765f/LinguaFrancaBase-${REALVERSION}.tar.gz"
-SOURCEFILE="LinguaFrancaBase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

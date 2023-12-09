@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Historic-Crypto"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An open source Python library for scraping Historical Cryptocurrenc
 
 HOMEPAGE="https://github.com/David-Woroniuk/Historic_Crypto"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b6/47/c4d71709e64b9fe3fc4aaa27b9422209c0f274aa7a28d7b9e350e047b471/Historic_Crypto-${REALVERSION}.tar.gz"
-SOURCEFILE="Historic_Crypto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

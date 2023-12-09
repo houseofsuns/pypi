@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FinNews"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package for gathering financial news from various RSS feeds"
 
 HOMEPAGE="https://github.com/scaratozzolo/FinNews"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/be/d2b89dd24bf9767668e7ecfc3ae08a810370b49a48978bd643efade7af89/FinNews-${REALVERSION}.tar.gz"
-SOURCEFILE="FinNews-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

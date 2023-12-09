@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="bCNC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Swiss army knife for all your CNC/g-code needs"
 
 HOMEPAGE="https://github.com/vlachoudis/bCNC"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/2d/be/4a49fa0b2e89ccaad0da8bd14f5dffe492c9de6b1c8c4524b0ca1234bf5b/bCNC-${REALVERSION}.tar.gz"
-SOURCEFILE="bCNC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

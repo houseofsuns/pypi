@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CleanerVersion"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A versioning solution for relational data models using the Django O
 
 HOMEPAGE="https://github.com/swisscom/cleanerversion"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/14/17/5f7c7c58767ee699eaa2f1c24d49c48b8aec521e219fc519f780796f100a/CleanerVersion-${REALVERSION}.tar.gz"
-SOURCEFILE="CleanerVersion-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

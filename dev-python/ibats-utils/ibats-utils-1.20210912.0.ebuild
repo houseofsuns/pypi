@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IBATS-Utils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="IBATS 通用工具，该工具涉及数据库、量化、以及一�
 
 HOMEPAGE="https://github.com/IBATS/IBATS_Utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/fe/8d4361307e13907a5554bb864382f143d4878176592a11f84328eb8b3bcf/IBATS_Utils-${REALVERSION}.tar.gz"
-SOURCEFILE="IBATS_Utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

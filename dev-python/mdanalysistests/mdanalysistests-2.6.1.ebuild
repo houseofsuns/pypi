@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MDAnalysisTests"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MDAnalysis testsuite"
 
 HOMEPAGE="https://www.mdanalysis.org"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/63/81/ffe48b43bb5a6d307ead256dd28802bc45ee629e24a03051eb82edc3d84e/MDAnalysisTests-${REALVERSION}.tar.gz"
-SOURCEFILE="MDAnalysisTests-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

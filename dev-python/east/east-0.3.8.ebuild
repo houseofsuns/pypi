@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EAST"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Text analysis library based on the Annotated Suffix Tree method"
 
 HOMEPAGE="https://github.com/msdubov/AST-text-analysis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/b4/b9a79caaf825662ea573aee2c60379855b7302fb0e60336b5c7feebca6a4/EAST-${REALVERSION}.tar.gz"
-SOURCEFILE="EAST-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

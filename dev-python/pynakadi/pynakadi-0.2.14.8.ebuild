@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyNakadi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python client for Nakadi"
 
 HOMEPAGE="https://github.com/eiunkar/pyNakadi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dc/5a/046ae489bda3f2dbbb63667edebf2c3c4478b8eff6e9a92ca1c9fc71ec96/pyNakadi-${REALVERSION}.tar.gz"
-SOURCEFILE="pyNakadi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

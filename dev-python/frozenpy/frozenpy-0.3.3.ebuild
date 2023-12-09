@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FrozenPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A small suit of function for analyzing freezing behavior based on a
 
 HOMEPAGE="https://github.com/MicTott/FrozenPy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4c/36/bb874c163e67bb2cdc373237115fb406673bdaa6c682905df50197850853/FrozenPy-${REALVERSION}.tar.gz"
-SOURCEFILE="FrozenPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

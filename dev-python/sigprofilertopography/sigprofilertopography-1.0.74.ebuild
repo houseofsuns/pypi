@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SigProfilerTopography"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SigProfilerTopography provides topography analyses for substitution
 
 HOMEPAGE="https://github.com/AlexandrovLab/SigProfilerTopography"
 LICENSE="UCSD"
-SRC_URI="https://files.pythonhosted.org/packages/7d/54/7e2ea33b28a3252b0f4484aeb552f8fd33fda1406dcacd93feb6417e1cb1/SigProfilerTopography-${REALVERSION}.tar.gz"
-SOURCEFILE="SigProfilerTopography-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BingImageCreator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="High quality image generation by Microsoft. Reverse engineered API.
 
 HOMEPAGE="https://github.com/acheong08/BingImageCreator"
 LICENSE="GNU General Public License v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/57/13/d3dee1846b8844e83fcb522ab3c7c335052f173ad3fb8e3970cfa11e9abd/BingImageCreator-${REALVERSION}.tar.gz"
-SOURCEFILE="BingImageCreator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KalturaApiClient"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python module for accessing the Kaltura API."
 
 HOMEPAGE="https://github.com/kaltura/KalturaGeneratedAPIClientsPython"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/9a/15/761bfd56f7435fe11c485ce56f9999fe5963dfd3a22a65091e027bdae66a/KalturaApiClient-${REALVERSION}.tar.gz"
-SOURCEFILE="KalturaApiClient-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

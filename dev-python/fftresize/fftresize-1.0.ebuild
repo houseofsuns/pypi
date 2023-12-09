@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FFTresize"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FFTresize resizes images using zero-padding in the frequencydomain.
 
 HOMEPAGE="https://bitbucket.org/eliteraspberries/fftresize"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/bb/4e/f9e4c1c4a6759b28432ba83a86468577f31cc44558e224fa02b474c095db/FFTresize-${REALVERSION}.tar.gz"
-SOURCEFILE="FFTresize-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyAutoIt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python binding for AutoItX3.dll"
 
 HOMEPAGE="https://github.com/jacexh/pyautoit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/ab/a78e06c8245ceebd120336f745cd0a4afc45d0fde1920e0c22afd5b4b61b/PyAutoIt-${REALVERSION}.tar.gz"
-SOURCEFILE="PyAutoIt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

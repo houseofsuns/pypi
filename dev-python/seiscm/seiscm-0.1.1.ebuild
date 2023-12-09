@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SeisCM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Seismic Colormap Generator"
 
 HOMEPAGE="https://github.com/gatechzhu/SeisCM"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/0f/0c3ecb10b4e209f8f378fbff69ee6383819a2999482f5d7ab500971b7e3e/SeisCM-${REALVERSION}.tar.gz"
-SOURCEFILE="SeisCM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

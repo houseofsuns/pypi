@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Cactus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Static site generation and deployment."
 
 HOMEPAGE="http://github.com/koenbok/Cactus"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/bb/15/e4e432ff3d6d5de967233f677899e62cc4c2241075040b3e82f4ad4eb901/Cactus-${REALVERSION}.tar.gz"
-SOURCEFILE="Cactus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

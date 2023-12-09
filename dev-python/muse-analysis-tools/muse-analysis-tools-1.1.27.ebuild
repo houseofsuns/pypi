@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Muse-Analysis-Tools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This package contains code for graphing Muse EEG data"
 
 HOMEPAGE="https://github.com/digital-cinema-arts/Muse-Analysis-Tools/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/03/50f315967350176617c8cce268d4b2678ad6992af8c841904d8d7ccdce94/Muse-Analysis-Tools-${REALVERSION}.tar.gz"
-SOURCEFILE="Muse-Analysis-Tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

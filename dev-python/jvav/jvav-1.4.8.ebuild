@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Jvav"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
@@ -15,8 +16,8 @@ DESCRIPTION="Useful tools for Jav."
 
 HOMEPAGE="https://github.com/akynazh/jvav"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/21/69/00d772066b41ae7a303de216303dcc92c6af4b06c18ec4e01bdd29ce2d1b/Jvav-${REALVERSION}.tar.gz"
-SOURCEFILE="Jvav-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

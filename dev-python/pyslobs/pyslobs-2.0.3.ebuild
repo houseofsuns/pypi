@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySLOBS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python wrapper to StreamLabs Desktop API"
 
 HOMEPAGE="https://github.com/Julian-O/pyslobs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/5f/ee66e42056abb394c86687a22aef2679ca38548529883ec1695c3a737803/PySLOBS-${REALVERSION}.tar.gz"
-SOURCEFILE="PySLOBS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BiliUtil"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bilibili.com（B站）视频下载工具"
 
 HOMEPAGE="https://github.com/wolfbolin/BiliUtil"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/53/ce/abb946acd6b7101d7650092060cd968ffec4ea9903418965a891e741ff4b/BiliUtil-${REALVERSION}.tar.gz"
-SOURCEFILE="BiliUtil-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

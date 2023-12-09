@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySC2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Starcraft II environment and library for training agents."
 
 HOMEPAGE="https://github.com/deepmind/pysc2"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a2/8b/744a745a8d851ee7677debc332bcfc8421c96a6a3930602dabc989f05027/PySC2-${REALVERSION}.tar.gz"
-SOURCEFILE="PySC2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

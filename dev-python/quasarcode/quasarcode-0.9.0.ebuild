@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QuasarCode"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A general purpose library for Python applications."
 
 HOMEPAGE="https://github.com/QuasarX1/QuasarCode"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/67/46/55d9a0f234778abc638a43b265aa1558469d0967d78b5d026750dc299011/QuasarCode-${REALVERSION}.tar.gz"
-SOURCEFILE="QuasarCode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

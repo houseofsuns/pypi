@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Corpus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple English dictionary for Python"
 
 HOMEPAGE="https://github.com/aneeshb413/Corpus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f1/b9/120d9e0ae8702a6929946b494b723a4de6c9bf3d79e8e07e239a81be4e7c/Corpus-${REALVERSION}.tar.gz"
-SOURCEFILE="Corpus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

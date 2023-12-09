@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SlideRunner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SlideRunner - A Tool for Massive Cell Annotations in Whole Slide Im
 
 HOMEPAGE="http://github.com/maubreville/SlideRunner"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/3e/0c/ede978b9c7e09963135e8be15f0233ce490aad4a545a16d7cc8d81cbc92e/SlideRunner-${REALVERSION}.macosx-11.1-arm64.tar.gz"
-SOURCEFILE="SlideRunner-${REALVERSION}.macosx-11.1-arm64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.macosx-11.1-arm64.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.macosx-11.1-arm64.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

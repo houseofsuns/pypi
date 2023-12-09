@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyNeVer"
 REALVERSION="0.1.1a4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package for the training, pruning and verification of neural networ
 
 HOMEPAGE="https://github.com/NeVerTools/pyNeVer"
 LICENSE="GNU General Public License with Commons Clause License Condition v1.0"
-SRC_URI="https://files.pythonhosted.org/packages/dd/c1/4ad0744174492a0d9f41b73dead061917d8d932759b71bc18c4b98bc88ee/pyNeVer-${REALVERSION}.tar.gz"
-SOURCEFILE="pyNeVer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

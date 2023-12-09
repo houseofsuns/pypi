@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="watson-machine-learning-client-V4"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Watson Machine Learning API Client"
 
 HOMEPAGE="http://wml-api-pyclient-v4.mybluemix.net"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f2/59/dffd7c172f5f19155eeec830e64cb8121a51ffd294aea28b4bb2f073b25d/watson_machine_learning_client_V4-${REALVERSION}.tar.gz"
-SOURCEFILE="watson_machine_learning_client_V4-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

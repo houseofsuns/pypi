@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kallithea"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Kallithea is a fast and powerful management tool for Mercurial and 
 
 HOMEPAGE="https://kallithea-scm.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/47/7b/d5c740f3840c47f98b8ff8d5b818d4640c2f47e5fcc7080ac5636c0feb71/Kallithea-${REALVERSION}.tar.gz"
-SOURCEFILE="Kallithea-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

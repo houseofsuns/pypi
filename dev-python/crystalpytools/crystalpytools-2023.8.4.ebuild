@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CRYSTALpytools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python tools for the CRYSTAL code developed and mantained by the CR
 
 HOMEPAGE="https://github.com/crystal-code-tools/CRYSTALpytools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/84/fb/f19ff67948eaeef77ff70c5e4f78b2a6933aebdf0f1ba661857dc409f29b/CRYSTALpytools-${REALVERSION}.tar.gz"
-SOURCEFILE="CRYSTALpytools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

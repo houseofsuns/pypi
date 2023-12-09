@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="valhallaAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Valhalla API Client"
 
 HOMEPAGE="https://github.com/nextron/valhallaAPI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/46/7e63014bf270e09d9a3af23ffb21999b929800ddea458e0f72b0a7e8ee4d/valhallaAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="valhallaAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

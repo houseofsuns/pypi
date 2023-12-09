@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GenDoc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate a Markdown Documentation file from a Python Repository wit
 
 HOMEPAGE="https://github.com/http-samc/GenDoc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/af/27e1dca271d950ba168419e164e46cbb405642f4d8e49114fa0511869113/GenDoc-${REALVERSION}.tar.gz"
-SOURCEFILE="GenDoc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Transcrypt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python to JavaScript transpiler, supporting multiple inheritance an
 
 HOMEPAGE="https://www.transcrypt.org"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/af/fc/ea9a37fd8082f1f5d8c37691f54216a7b3049a49920b5855138adbd80600/Transcrypt-${REALVERSION}.linux-x86_64.tar.gz"
-SOURCEFILE="Transcrypt-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

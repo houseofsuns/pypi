@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenREM"
 REALVERSION="1.0.0b2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Developer beta only"
 
 HOMEPAGE="https://openrem.org/"
 LICENSE="GPLv3 with additional permissions"
-SRC_URI="https://files.pythonhosted.org/packages/25/cd/8df75cbf6a7356d885c58fe529dfba9cf984abea7414d73622a6dd9e41d5/OpenREM-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenREM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

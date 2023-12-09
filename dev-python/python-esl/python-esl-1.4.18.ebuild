@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="python-ESL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FreeSWITCH Event Socket Library for Python"
 
 HOMEPAGE="https://github.com/sangoma/python-ESL"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/26/41/a4396267f6700ce4356425343d57fc0dc1bd5f7700b7dbc6b03c5d2be3af/python-ESL-${REALVERSION}.tar.gz"
-SOURCEFILE="python-ESL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

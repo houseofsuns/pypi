@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyScoreSaber"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Score Saber API wrapper"
 
 HOMEPAGE="https://github.com/Kiyomi-Parents/PyScoreSaber"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/a2/17048c225923ee9a3d895f0e7cbe46ac83878b9d34efdf76b20f7fe54c7f/PyScoreSaber-${REALVERSION}.tar.gz"
-SOURCEFILE="PyScoreSaber-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

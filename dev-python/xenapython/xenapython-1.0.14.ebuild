@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="xenaPython"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="XENA python API"
 
 HOMEPAGE="https://github.com/ucscXena/xenaPython"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/07/85/15b73c554875aff11a1d3ea3a3c0678f1a63908f007e83ced7cc9bfd4933/xenaPython-${REALVERSION}.tar.gz"
-SOURCEFILE="xenaPython-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

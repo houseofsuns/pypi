@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RESTEasy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="REST API calls made easier"
 
 HOMEPAGE="https://github.com/rapidstack/RESTEasy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/49/16/4f6f26cb6da59290dc59a8762918c5b83c7e2a44ef1148cf61a5c158d83c/RESTEasy-${REALVERSION}.tar.gz"
-SOURCEFILE="RESTEasy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="simple-icd-10"
+LITERALNAME="simple-icd-10"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XenonMKV"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="XenonMKV is a video container conversion tool that takes MKV files 
 
 HOMEPAGE="https://github.com/barisariburnu/xenonmkv"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/db/e5/2a4d20f3283dce9c83826080e0e2ba45eeb966e1ff300a867e1ada1fe9aa/XenonMKV-${REALVERSION}.tar.gz"
-SOURCEFILE="XenonMKV-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

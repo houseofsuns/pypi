@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AirStuff"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Utilities to speedup AIR (Archivio Istituzionale della Ricerca) doc
 
 HOMEPAGE="https://github.com/wiso/airstuff"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/28/a1d29edfb7344cc3566068a19ca527377c72707be24408ef18e2cc4c684e/AirStuff-${REALVERSION}.tar.gz"
-SOURCEFILE="AirStuff-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

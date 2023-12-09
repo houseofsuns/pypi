@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PrettyColorPrinter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pandas DataFrames / Pandas Series / Print colored Numpy arrays / li
 
 HOMEPAGE="https://github.com/hansalemaos/PrettyColorPrinter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a0/75/28f87fde059dfa5266c231aa0b217f270e5b9c15cd65e881d8430c9f8651/PrettyColorPrinter-${REALVERSION}.tar.gz"
-SOURCEFILE="PrettyColorPrinter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

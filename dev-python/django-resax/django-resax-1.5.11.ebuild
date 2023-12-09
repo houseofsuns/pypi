@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Django-ResaX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Django API for reservation systems"
 
 HOMEPAGE="https://github.com/alexpirine/resax"
 LICENSE="New BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/42/84/79824275ee8297fadf8a2c650e14064105db9ba1228bda9a57de209d0636/Django-ResaX-${REALVERSION}.zip"
-SOURCEFILE="Django-ResaX-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

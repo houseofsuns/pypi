@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SuperfacilityConnector"
 REALVERSION="0.3.1b0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Connector API NERSC Superfacility"
 
 HOMEPAGE="https://github.com/tylern4/superfacilityConnector"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/14/6e9afd3c7305eb10bc3137ee7c2d2721d931032636de4736f185abdda59c/SuperfacilityConnector-${REALVERSION}.tar.gz"
-SOURCEFILE="SuperfacilityConnector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Sanic-Dispatcher"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Multi-application dispatcher based on DispatcherMiddleware from the
 
 HOMEPAGE="https://github.com/ashleysommer/sanic-dispatcher"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/ad/d6178f101f98dd7c5c6bd3d033212e13912e3a3d96b97406e3d3723f0d29/Sanic-Dispatcher-${REALVERSION}.tar.gz"
-SOURCEFILE="Sanic-Dispatcher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

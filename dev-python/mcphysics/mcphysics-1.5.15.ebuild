@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="McPhysics"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Useful tools for the McGill Undergraduate Physics Labs"
 
 HOMEPAGE="https://github.com/sankeylab/mcphysics"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/7b/b0bc5bccd5dc17b012e2e3f8526a9153b3eb89de92e56334f003595c39b4/McPhysics-${REALVERSION}.tar.gz"
-SOURCEFILE="McPhysics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

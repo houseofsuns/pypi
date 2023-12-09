@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DLite-Python"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lightweight data-centric framework for working with scientific data
 
 HOMEPAGE="https://github.com/SINTEF/dlite"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/6a/0a1d1a500cec46d33df8db30d55a9ab0453c9eb0c9463fa28d73b19dbaad/DLite-Python-${REALVERSION}.tar.gz"
-SOURCEFILE="DLite-Python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

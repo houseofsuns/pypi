@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="d20-securityLayer"
 REALVERSION="2.0.0a47"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple access manager"
 
 HOMEPAGE="https://github.com/d20services/security_layer_python_arangodb"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/37/80/26fba1448cc80d8b9b9e81e624b7984fac492971205361cc4e4c47629389/d20-securityLayer-${REALVERSION}.tar.gz"
-SOURCEFILE="d20-securityLayer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

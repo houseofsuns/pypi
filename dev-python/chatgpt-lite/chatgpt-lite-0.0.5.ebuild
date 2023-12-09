@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChatGPT-lite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ChatGPT is a reverse engineering of OpenAI's ChatGPT API"
 
 HOMEPAGE="https://github.com/acheong08/ChatGPT-lite"
 LICENSE="GNU General Public License v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/33/86/e97dafede302b3397a6108e95c518b8988a656bcc0a1c92d660867b12d6e/ChatGPT_lite-${REALVERSION}.tar.gz"
-SOURCEFILE="ChatGPT_lite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

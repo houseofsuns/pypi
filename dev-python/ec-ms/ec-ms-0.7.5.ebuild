@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EC-MS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Analysis tools for electrochemistry and mass spectrometry and a lot
 
 HOMEPAGE="https://github.com/ScottSoren/EC_MS"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/16/9f34344a3d75d5e964b31e8342598e5da117f400372b61a8b0a7f1c571eb/EC_MS-${REALVERSION}.tar.gz"
-SOURCEFILE="EC_MS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

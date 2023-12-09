@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="certora-cli-alpha-dudi-cert-2090"
+LITERALNAME="certora-cli-alpha-dudi-CERT-2090"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Runner for the Certora Prover"
 
 HOMEPAGE="https://pypi.org/project/certora-cli-alpha-dudi-CERT-2090"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/dc/0343c08d3863627df6379fa626d729fec6b0994301607abad6b464cf8a80/certora-cli-alpha-dudi-CERT-2090-${REALVERSION}.tar.gz"
-SOURCEFILE="certora-cli-alpha-dudi-CERT-2090-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

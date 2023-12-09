@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ArduinoCodeCreator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="python code creator for creating arduino code"
 
 HOMEPAGE="https://github.com/JulianKimmig/ArduinoCodeCreator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d9/37/edea30cf91a806ade49f8edde272e39e8d9cf6518ea1e84ad78d13036fcb/ArduinoCodeCreator-${REALVERSION}.tar.gz"
-SOURCEFILE="ArduinoCodeCreator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

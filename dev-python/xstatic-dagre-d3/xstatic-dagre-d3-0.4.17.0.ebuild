@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-Dagre-D3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Dagre-D3 0.4.17 (XStatic packaging standard)"
 
 HOMEPAGE="https://github.com/dagrejs/dagre-d3"
 LICENSE="same as Dagre-D3"
-SRC_URI="https://files.pythonhosted.org/packages/1f/5a/d63943c2e4839f6d1cad2cb31d5ca0ca91bed756dddc7d09bfacdb9d1d60/XStatic-Dagre-D3-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-Dagre-D3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

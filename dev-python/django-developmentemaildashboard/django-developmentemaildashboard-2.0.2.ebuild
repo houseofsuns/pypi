@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="django-developmentEmailDashboard"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A django email backend that saves the emails to database instead of
 
 HOMEPAGE="https://github.com/dragoncommits/django-developmentEmailDashboard"
 LICENSE="GNU GENERAL PUBLIC LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/67/ba/4f9d29bfee56fec356b95906589ca620d7a3017e182ceaefd1919f581522/django-developmentEmailDashboard-${REALVERSION}.tar.gz"
-SOURCEFILE="django-developmentEmailDashboard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

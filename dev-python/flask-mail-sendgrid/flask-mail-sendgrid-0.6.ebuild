@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Mail-SendGrid"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for sendgrid. It has same interface with Flask-Mail
 
 HOMEPAGE="http://github.com/hamano/flask-mail-sendgrid"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/68/11e7ff237c5533c59dbd16b1d16001796d9709cbf0f7bb4986421e979e23/Flask-Mail-SendGrid-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Mail-SendGrid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

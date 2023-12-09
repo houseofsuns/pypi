@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PagingServer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SIP-based Announcement / PA / Paging / Public Address Server system
 
 HOMEPAGE="https://github.com/AccelerateNetworks/PagingServer"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/d1/a7/0ab7b74c3bb552f4d4f3068ecece286ebda102b93d4113c683e2902d5822/PagingServer-${REALVERSION}.tar.gz"
-SOURCEFILE="PagingServer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

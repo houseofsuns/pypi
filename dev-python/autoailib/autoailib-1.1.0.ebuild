@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AutoAiLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The library that automates the silly ML things."
 
 HOMEPAGE=""
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/3e/1d/a6e70d607be8e88b01f0f5986f731f4b09b656006f5e45f22ab4988c8311/AutoAiLib-${REALVERSION}.tar.gz"
-SOURCEFILE="AutoAiLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

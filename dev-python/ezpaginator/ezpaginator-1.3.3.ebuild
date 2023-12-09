@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EZPaginator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python wrapper for discord.py pagination."
 
 HOMEPAGE="https://github.com/khk4912/EZPaginator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/f8/152f5905a2f6322559664b1a342454788526add9642212e72cff39c12d1c/EZPaginator-${REALVERSION}.tar.gz"
-SOURCEFILE="EZPaginator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

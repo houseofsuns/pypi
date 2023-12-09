@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyLTI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyLTI provides Python Implementation of IMS LTI interface that work
 
 HOMEPAGE="http://github.com/mitodl/pylti"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/dd/c0/0cd221dc26438b2a111004b0b5344926b11f2683a5f6fcbdb5f86a5acd90/PyLTI-${REALVERSION}.tar.gz"
-SOURCEFILE="PyLTI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

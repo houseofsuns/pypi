@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UtilsRL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python module desgined for RL logging, monitoring and experiments
 
 HOMEPAGE="https://github.com/typoverflow/UtilsRL"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/48/537b904897d5da2a00cba8110e4d82a005cd71eeaf83d0d6ea64e9afac2f/UtilsRL-${REALVERSION}.tar.gz"
-SOURCEFILE="UtilsRL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

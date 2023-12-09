@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CrawlerCodePythonTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for Python"
 
 HOMEPAGE="https://github.com/CrawlerCode"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/76/1d0367c26631de0e57b0973c1851936e0692b85d84576c25f06cacd9c269/CrawlerCodePythonTools-${REALVERSION}.tar.gz"
-SOURCEFILE="CrawlerCodePythonTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

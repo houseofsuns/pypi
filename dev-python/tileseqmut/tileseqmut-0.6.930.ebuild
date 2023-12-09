@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TileSeqMut"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Analysis scriptsTileSeqMut for TileSeq sequencing data"
 
 HOMEPAGE="https://github.com/RyogaLi/tilseq_mutcount"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1b/11/20a6a665c789b724489a90739b1eb6c51e4d21879c23c2e2b5ea6f3fca45/TileSeqMut-${REALVERSION}.tar.gz"
-SOURCEFILE="TileSeqMut-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

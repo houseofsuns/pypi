@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PypeR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python interface to R lanugage"
 
 HOMEPAGE="http://bioinfo.ihb.ac.cn/softwares/PypeR"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e6/3e/4ed8b7c23333f7a1d3b18ecb37b09b4867fee95151a3a59c43c20376678e/PypeR-${REALVERSION}.tar.gz"
-SOURCEFILE="PypeR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

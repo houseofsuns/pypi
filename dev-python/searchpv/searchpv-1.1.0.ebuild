@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="searcHPV"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An HPV integration sites detection tool for targeted capture sequen
 
 HOMEPAGE="https://github.com/WenjinGudaisy/SearcHPV"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0a/87/892c1cdb3efc2a241c57573efde865bd8504c2fc1106faa59f3a7b8738d9/searcHPV-${REALVERSION}.tar.gz"
-SOURCEFILE="searcHPV-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

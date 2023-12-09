@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="requestXpath"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Inherit the requests module, add xpath functionality to expand the 
 
 HOMEPAGE="https://github.com/peng0928/prequests"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/d0/f3d2e86bec461003ea0ebc1db8cbe9c662b07d83af1246da608ec0e56f2c/requestXpath-${REALVERSION}.tar.gz"
-SOURCEFILE="requestXpath-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

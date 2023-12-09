@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Humanize"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Common humanization utilities for Flask applications."
 
 HOMEPAGE="https://github.com/vitalk/flask-humanize"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/f0/96d2150dc684224084c82f70996cf569f679617a553c88b54b768bd284be/Flask-Humanize-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Humanize-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

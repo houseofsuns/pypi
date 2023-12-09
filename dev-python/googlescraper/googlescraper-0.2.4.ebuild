@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GoogleScraper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A module to scrape and extract links, titles and descriptions from 
 
 HOMEPAGE="http://incolumitas.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/e4/b6f3014181d04a0c0232f63d3af2eac38493d5efbbb2a9e6ccc26d3af045/GoogleScraper-${REALVERSION}.tar.gz"
-SOURCEFILE="GoogleScraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

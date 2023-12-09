@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyEmail"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library to send emails using SMTPLIB library"
 
 HOMEPAGE="http://www.yashsinha.com/PyEmail"
 LICENSE="GNU GENERAL PUBLIC LICENSE Version 3"
-SRC_URI="https://files.pythonhosted.org/packages/ca/39/caf0436670b6fa9f072e322fab1a2b04d5631bdbdc8ea9857230aae02dd5/PyEmail-${REALVERSION}.zip"
-SOURCEFILE="PyEmail-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

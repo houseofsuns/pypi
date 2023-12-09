@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BFQ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="博采众长的人脸质量评价库"
 
 HOMEPAGE="https://zhengtq.github.io/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/33/368ed186e166b553b8dab05911285f36e0fd80e7cad5b7841ffc622f38ac/BFQ-${REALVERSION}.tar.gz"
-SOURCEFILE="BFQ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

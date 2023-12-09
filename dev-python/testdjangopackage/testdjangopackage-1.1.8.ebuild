@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TestDjangoPackage"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/KathurimaKimathi/testdjangopackage/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/30/96/f0408ea4f692f4b99e7f683df060772ac2dbe3a3dff6ea75640dc0d7ab9a/TestDjangoPackage-${REALVERSION}.tar.gz"
-SOURCEFILE="TestDjangoPackage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

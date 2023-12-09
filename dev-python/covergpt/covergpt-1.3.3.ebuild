@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CoverGPT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate a personalized and formatted cover letter for a given job 
 
 HOMEPAGE="https://github.com/mahfoozm/CoverGPT"
 LICENSE="gpl-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/de/d4/9f4a14cf9150412ad640b1bb04fdd1f492f382077377d5c1ec0e1cb2c251/CoverGPT-${REALVERSION}.tar.gz"
-SOURCEFILE="CoverGPT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

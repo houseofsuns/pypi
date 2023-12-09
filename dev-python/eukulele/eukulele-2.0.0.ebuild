@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EUKulele"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to make the process of taxonomically classifying microbia
 
 HOMEPAGE="https://github.com/AlexanderLabWHOI/EUKulele"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d7/9c/907012960be24fdabc08fa2fa0b24a50309d30bfc38e81004563337bca24/EUKulele-${REALVERSION}.tar.gz"
-SOURCEFILE="EUKulele-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

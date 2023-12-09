@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyTextNow"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Texting python package which utilizes TextNow."
 
 HOMEPAGE="https://github.com/leogomezz4t/PyTextNow_API"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4f/ac/da78aa1394ae38681acf18610153b7349f6a5c35e2eb362955de3341208f/PyTextNow-${REALVERSION}.tar.gz"
-SOURCEFILE="PyTextNow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Wraptor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Useful decorators and other utility functions."
 
 HOMEPAGE="http://github.com/carlsverre/wraptor"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/50/8d/e3605669df8541f68a028dfd81db7f5b9b4d43bed133d070929f829eafce/Wraptor-${REALVERSION}.tar.gz"
-SOURCEFILE="Wraptor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

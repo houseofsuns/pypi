@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-UUID"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="UUID url converter for Flask routes"
 
 HOMEPAGE="https://github.com/wbolster/flask-uuid"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1e/17/ed38fb7a9d7685bb1553dc3c1c6acd0bc960cb8935ad432e58665a7802e9/Flask-UUID-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-UUID-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

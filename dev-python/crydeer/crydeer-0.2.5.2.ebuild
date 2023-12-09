@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CryDeer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a command line express package helper"
 
 HOMEPAGE="https://github.com/vimsucks/CryDeer"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/9c/05/794b83c423cc40a4ed2905338b2a0b8ef2b5b5c9d9ead6b781b9a3c85e55/CryDeer-${REALVERSION}.tar.gz"
-SOURCEFILE="CryDeer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

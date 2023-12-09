@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Bot-Base"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simplistic yet feature rich discord bot template."
 
 HOMEPAGE="https://github.com/Skelmis/DPY-Bot-Base"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7b/ad/852bcabba7f90e9923308dd1b2e57e3fadb6b943bc8c9f5b4aca030ed57c/Bot-Base-${REALVERSION}.tar.gz"
-SOURCEFILE="Bot-Base-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

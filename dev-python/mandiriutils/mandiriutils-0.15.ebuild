@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MandiriUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Helper package for requesting token and generating request signatur
 
 HOMEPAGE="https://github.com/har07"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/1b/c4fd01811aec7f8445bdc79aed73866ea9864253f6421fa89dcb5caec255/MandiriUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="MandiriUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

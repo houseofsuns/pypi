@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="A-Api-Server"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="自建一个Resful风格的接口自助服务，方便API自动化�
 
 HOMEPAGE="https://github.com/zhuifengshen/a-api-server"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a2/b8/a9dd4d38800870975eb1ad94135dc8f85e31a73b70502638325214aa1461/A_Api_Server-${REALVERSION}.tar.gz"
-SOURCEFILE="A_Api_Server-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

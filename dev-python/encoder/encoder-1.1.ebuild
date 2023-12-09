@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Encoder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Encoder library for Raspberry Pi for measuring quadrature encoded s
 
 HOMEPAGE="https://github.com/mivallion/Encoder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c5/a0/8b9b80a87bbec32ec3e89d22e32cf9a9f6ab25fca264b461ace497657e02/Encoder-${REALVERSION}.tar.gz"
-SOURCEFILE="Encoder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

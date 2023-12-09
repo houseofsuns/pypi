@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Telethon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Full-featured Telegram client library for Python 3"
 
 HOMEPAGE="https://github.com/LonamiWebs/Telethon"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/1a/704c370c1154112994f6d2916302b933dc6de062c832e44986cb2e2ac5af/Telethon-${REALVERSION}.tar.gz"
-SOURCEFILE="Telethon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

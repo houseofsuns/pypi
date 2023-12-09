@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Automunge"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="platform for preparing tabular data for machine learning"
 
 HOMEPAGE="https://github.com/Automunge/AutoMunge"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/5e/a94943e92fa35f9d2eb456823157ab714bdfd5d479163fbc4e3a256bb6c1/Automunge-${REALVERSION}.tar.gz"
-SOURCEFILE="Automunge-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

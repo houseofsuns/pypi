@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EXCAT-Sync"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to download images and annotations from the EXACT Server 
 
 HOMEPAGE="https://github.com/ChristianMarzahl/EXACT-Sync"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a8/99/1d5dbcaca4f30d411ace78a5add6fe676344e48674e73d806fd53caad46a/EXCAT-Sync-${REALVERSION}.tar.gz"
-SOURCEFILE="EXCAT-Sync-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

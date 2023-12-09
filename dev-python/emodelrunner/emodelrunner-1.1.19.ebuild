@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EModelRunner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Runs cells from Blue Brain Project cell packages, such as sscx, syn
 
 HOMEPAGE="https://github.com/BlueBrain/EModelRunner"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d9/24/de0468134b93a6f4a46ea69feae65099fa1c9fb2962de014c6f03191b9da/EModelRunner-${REALVERSION}.tar.gz"
-SOURCEFILE="EModelRunner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

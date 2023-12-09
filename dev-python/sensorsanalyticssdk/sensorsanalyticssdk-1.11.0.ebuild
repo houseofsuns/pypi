@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SensorsAnalyticsSDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This is the official Python SDK for Sensors Analytics."
 
 HOMEPAGE="https://github.com/sensorsdata/sa-sdk-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/06/8529586a92ced62327013adb8e48b66057a64ec5d2b89eae58ae3a7e8b0a/SensorsAnalyticsSDK-${REALVERSION}.tar.gz"
-SOURCEFILE="SensorsAnalyticsSDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

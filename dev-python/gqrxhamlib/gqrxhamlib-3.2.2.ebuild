@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="gqrxHamlib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="gqrx-Hamlib interface"
 
 HOMEPAGE="http://github.com/g0fcu/gqrx-hamlib-gui"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ab/45/2b57523cbec76f28353d50045b896f43af9a4f6c2c612af4e4ceaeea7bf3/gqrxHamlib-${REALVERSION}.tar.gz"
-SOURCEFILE="gqrxHamlib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

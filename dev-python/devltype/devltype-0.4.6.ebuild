@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DevLType"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MyType"
 
 HOMEPAGE="https://github.com/devladityanugraha"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/d3/66/64aed9e1b0ad02dfdf1e046df6c4b632ada8dc62634c6ba7d65a09624927/DevLType-${REALVERSION}.tar.gz"
-SOURCEFILE="DevLType-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="sdsRayanArvin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="System data server"
 
 HOMEPAGE="https://hamgit.ir/v.heidary13/sds"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/fd/37bf7dc643335f27e223b34efadc39e6593a57c5e93504bb975827851ffc/sdsRayanArvin-${REALVERSION}.tar.gz"
-SOURCEFILE="sdsRayanArvin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

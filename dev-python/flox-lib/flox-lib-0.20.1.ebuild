@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flox-lib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library to help build Flow Launcher and Wox plugins."
 
 HOMEPAGE="https://github.com/Garulf/Flox"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f0/e5/9948643f51c013484e60f1e281d5396c8feae85fc5b7b4ee70d3655ab25f/Flox-lib-${REALVERSION}.tar.gz"
-SOURCEFILE="Flox-lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

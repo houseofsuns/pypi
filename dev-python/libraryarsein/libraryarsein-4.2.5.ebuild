@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="libraryArsein"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="library robot Rubika"
 
 HOMEPAGE="https://github.com/Arseinlibrary/Arsein__library.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c4/b6/59e8c394d18c55bdd54e99acbd67c096edf0e653753f531bc10b695ac04a/libraryArsein-${REALVERSION}.tar.gz"
-SOURCEFILE="libraryArsein-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="python-daemon-3k"
+LITERALNAME="python-daemon-3K"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library to implement a well-behaved Unix daemon process.   This is 
 
 HOMEPAGE="https://github.com/jbvsmo/python-daemon"
 LICENSE="PSF-2+"
-SRC_URI="https://files.pythonhosted.org/packages/25/d7/80cd440662e90e4686d5bef24017914d68cb67b8a58e4aaa588c255cc613/python-daemon-3K-${REALVERSION}.tar.gz"
-SOURCEFILE="python-daemon-3K-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

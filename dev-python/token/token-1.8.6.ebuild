@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Token"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Token client to REST Apis"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/97/f6/45ef88979836ff6100dafcbbe6ac5ad7fc444ba54f52bf730054abb72320/Token-${REALVERSION}.tar.gz"
-SOURCEFILE="Token-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GromacsWrapper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python wrapper around the Gromacs tools."
 
 HOMEPAGE="https://github.com/Becksteinlab/GromacsWrapper"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/50/5f/bbc5fa4f1d323d5fd7ff515b406345d305d4d464ad4245e5cd6cc9e0e00f/GromacsWrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="GromacsWrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

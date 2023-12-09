@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ConfigFramework"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A small framework to build your flexible project configurations"
 
 HOMEPAGE="https://github.com/Rud356/ConfigFramework"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/50/68/0555d16afcff8d82fa0138f6b368da50abc534dec7e662d8503f5738135b/ConfigFramework-${REALVERSION}.tar.gz"
-SOURCEFILE="ConfigFramework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

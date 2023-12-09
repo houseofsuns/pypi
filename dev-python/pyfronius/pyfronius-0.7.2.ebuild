@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyFronius"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automated JSON API based communication with Fronius Symo"
 
 HOMEPAGE="https://github.com/nielstron/pyfronius/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/21/df5a2b1c2c6dba1dce21c67f776f3551248edb11662897f2923fcb837f61/PyFronius-${REALVERSION}.tar.gz"
-SOURCEFILE="PyFronius-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

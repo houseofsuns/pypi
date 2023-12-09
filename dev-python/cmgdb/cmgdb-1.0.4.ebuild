@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CMGDB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CMGDB (Conley Morse Graph Database) Python Extension"
 
 HOMEPAGE="https://github.com/marciogameiro/CMGDB"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/01/b5/3650b3d9532b2de4484aa97aecfd4f0c1a6250c6d81862efd68e112bf779/CMGDB-${REALVERSION}.tar.gz"
-SOURCEFILE="CMGDB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

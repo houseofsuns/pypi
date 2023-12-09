@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Orange3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Orange, a component-based data mining framework."
 
 HOMEPAGE="https://orangedatamining.com/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/bc/78/d815afd911bf941a639f56492d1f1214fae67a8bd3392e5707c599cc4bc8/Orange3-${REALVERSION}.tar.gz"
-SOURCEFILE="Orange3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

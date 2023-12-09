@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AMDirT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="AMDirT: AncientMetagenomeDir Toolkit"
 
 HOMEPAGE="https://github.com/SPAAM-community/AMDirT"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7b/5b/48b2ea62775fad64fd5add5de96728e01ec3b58ee9d9f8a9c09cab521464/AMDirT-${REALVERSION}.tar.gz"
-SOURCEFILE="AMDirT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

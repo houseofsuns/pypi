@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyFEBOL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Filter Exploration for Bearing Only Localization"
 
 HOMEPAGE="https://github.com/cdrckrgt/PyFEBOL"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/52/cad85ef4a56c02db82559832a6d5c762d1cb709618a5ffa79e616e56cbe3/PyFEBOL-${REALVERSION}.tar.gz"
-SOURCEFILE="PyFEBOL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

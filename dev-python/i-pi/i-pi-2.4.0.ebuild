@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="i-PI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python interface for ab initio path integral molecular dynamics s
 
 HOMEPAGE="http://ipi-code.org"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/68/952b2ace260bdea4a98d167640c0cf371f9ac0cde1897a2a195d4484cb71/i-PI-${REALVERSION}.tar.gz"
-SOURCEFILE="i-PI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FitBenchmarking"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FitBenchmarking: A tool for comparing fitting software"
 
 HOMEPAGE="http://fitbenchmarking.com"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d0/91/44c469aec24812184dd86d6115dd9893fc97630819f575b500e1e65f7bfb/FitBenchmarking-${REALVERSION}.tar.gz"
-SOURCEFILE="FitBenchmarking-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

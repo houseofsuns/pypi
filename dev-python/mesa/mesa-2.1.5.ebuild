@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mesa"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Agent-based modeling (ABM) in Python 3+"
 
 HOMEPAGE="https://github.com/projectmesa/mesa"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/56/19/a62415cd75199bf13ccf40315c166aaa747279f4aab55277307f7ad71ff1/Mesa-${REALVERSION}.tar.gz"
-SOURCEFILE="Mesa-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

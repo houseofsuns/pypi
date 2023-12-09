@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-JSON"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Better JSON support for Flask"
 
 HOMEPAGE="https://github.com/skozlovf/flask-json"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ba/4a/6046e195241772f4b6add3adcd4e820004c6151afc587d8c7d0d4ffeb473/Flask-JSON-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-JSON-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

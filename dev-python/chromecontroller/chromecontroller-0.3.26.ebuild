@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChromeController"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Chrome Remote Debugger interface."
 
 HOMEPAGE="https://github.com/fake-name/ChromeController"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/65/65d5b3f591c9b57bd9a01cab26f7d27e215ea6d912123441f5920066e21d/ChromeController-${REALVERSION}.tar.gz"
-SOURCEFILE="ChromeController-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

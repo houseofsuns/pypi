@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyAutoscoper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python client library for the Autoscoper API"
 
 HOMEPAGE="https://autoscoperm.slicer.org/"
 LICENSE="Autoscoper License"
-SRC_URI="https://files.pythonhosted.org/packages/26/a0/25a57a6230f4d3bbccfe1ea9204559d20e10bfc1d2d0b6534c1d0b42967c/PyAutoscoper-${REALVERSION}.tar.gz"
-SOURCEFILE="PyAutoscoper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

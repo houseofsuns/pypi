@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyTeCK"
 REALVERSION="0.2.5a11"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Evaluation of chemical kinetic models with experimental data"
 
 HOMEPAGE="https://github.com/pr-omethe-us/PyTeCK"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/fa/979d63d028abdf9d7661747f07d32e0752fc880f90de4412e07711176dfb/PyTeCK-${REALVERSION}.tar.gz"
-SOURCEFILE="PyTeCK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

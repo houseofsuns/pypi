@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KvFront"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="KvFront is a gui tool for memcached & redis developed by GTK+3"
 
 HOMEPAGE="https://github.com/wgalaxy/KvFront"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/21/74/0b3c90935c087b51c390ca6c75203bd9de48facbf5b7a0c9db14421a5444/KvFront-${REALVERSION}.tar.gz"
-SOURCEFILE="KvFront-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

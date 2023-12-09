@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ONE-api"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Open Neurophysiology Environment"
 
 HOMEPAGE="https://github.com/int-brain-lab/ONE"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/9f/f7fbfed571c515829db033bf26d708be5798a9bb6a0fe6d2a0460787f916/ONE-api-${REALVERSION}.tar.gz"
-SOURCEFILE="ONE-api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

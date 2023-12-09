@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Obsidian-Snippet-Manager"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A script to magically update your obsidian snippets hosted on githu
 
 HOMEPAGE="https://github.com/Mara-Li/Obsidian-Snippet-Manager"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7c/f6/0fc42f524cd132fc45e11b2acb007bdbf7f7a973257b22f794c76d0470df/Obsidian_Snippet_Manager-${REALVERSION}.tar.gz"
-SOURCEFILE="Obsidian_Snippet_Manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

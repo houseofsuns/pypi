@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QualtricsAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="QualtricsAPI is a lightweight Python library for the Qualtrics Web 
 
 HOMEPAGE="https://github.com/Jaseibert/QualtricsAPI"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/ec/370f3017c6a60cde10737c0b607365d758baa093107f16df49664e1d74a4/QualtricsAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="QualtricsAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySys"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python System Test Framework"
 
 HOMEPAGE="http://www.sourceforge.net/projects/pysys"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4b/a6/65a9427d378bfe52e28d3e2c7b67c855e3132308c6a96d13be488dcf03c6/PySys-${REALVERSION}.tar.gz"
-SOURCEFILE="PySys-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

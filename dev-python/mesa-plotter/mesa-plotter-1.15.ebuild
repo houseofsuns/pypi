@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MESA-Plotter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Plot the evolution of pre-main sequence stars in various way. A too
 
 HOMEPAGE="https://github.com/Steinerkadabra/MESA_Plotter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/95/f1/12e6c0af7d1c4b3d4bde436a9532f6b42376f4f632857de3307d38e0ac01/MESA_Plotter-${REALVERSION}.tar.gz"
-SOURCEFILE="MESA_Plotter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

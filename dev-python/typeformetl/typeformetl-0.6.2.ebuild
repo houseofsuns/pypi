@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TypeformETL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Ingest all data from a Typeform account and put the data into a SQL
 
 HOMEPAGE="https://github.com/avibrazil/Typeform-ETL"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ab/d1/e8dea9d2038ed9d853e67de39413e3d704abd463008dd060c364f183dc3a/TypeformETL-${REALVERSION}.tar.gz"
-SOURCEFILE="TypeformETL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChemE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Various functions and data for Chemical Engineering Students"
 
 HOMEPAGE="https://github.com/ConciseVerbosity18/ChemE_CV"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0a/b5/bef9a9b50279b749867ad84e0dc12baeff4905f64c50451195a6acf8ae2d/ChemE-${REALVERSION}.tar.gz"
-SOURCEFILE="ChemE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="wiserHeatAPIv2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An API for controlling the Drayton Wiser Heating system"
 
 HOMEPAGE="https://github.com/msp1974/wiserheatapiv2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/45/cd/d9e4e97f5a3db5c30add3c800b56f1b9846d1595673010fbbb94caa1fcdb/wiserHeatAPIv2-${REALVERSION}.tar.gz"
-SOURCEFILE="wiserHeatAPIv2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

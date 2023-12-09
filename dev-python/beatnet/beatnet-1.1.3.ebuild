@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BeatNet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for Real-time and offline music beat, downbeat tempo and 
 
 HOMEPAGE="https://github.com/mjhydri/BeatNet"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/cd/15e82754b4a501fed0d6ce811e27ce41c77d21dba43f47073ad2a4f6e702/BeatNet-${REALVERSION}.tar.gz"
-SOURCEFILE="BeatNet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

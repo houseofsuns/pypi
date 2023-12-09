@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MetaHeuristicsFS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Implementation of metaheuristic algorithms for machine learning fea
 
 HOMEPAGE="https://github.com/StatguyUser/MetaHeuristicsFS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ab/1f/8652682c850d21d610e65b55a7715f52378bde62086333c3f465a6f71f0c/MetaHeuristicsFS-${REALVERSION}.tar.gz"
-SOURCEFILE="MetaHeuristicsFS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

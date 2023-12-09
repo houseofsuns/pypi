@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SAPsim"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simulation of SAP (Simple As Possible) computer programs from COMP3
 
 HOMEPAGE="https://github.com/jesse-wei/SAPsim"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8d/87/c944634226b138bccc401b6540f6102951c56281b529c967bca6a43b55dc/SAPsim-${REALVERSION}.tar.gz"
-SOURCEFILE="SAPsim-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

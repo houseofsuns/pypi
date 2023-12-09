@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenLP"
 REALVERSION="3.1.0rc3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Open source Church presentation and lyrics projection application."
 
 HOMEPAGE="https://openlp.org/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/e0/2c/52aed4ef0dcece84355ddce8f538ecb22840b80ba320b217378dfb416dea/OpenLP-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenLP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

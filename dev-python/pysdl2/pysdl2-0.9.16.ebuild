@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySDL2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python SDL2 bindings"
 
 HOMEPAGE="https://github.com/py-sdl/py-sdl2"
 LICENSE="Public Domain / zlib"
-SRC_URI="https://files.pythonhosted.org/packages/63/ae/f40e4c4738fb39ce140950ed7d9bc21358826416d91a5426a190c612f789/PySDL2-${REALVERSION}.tar.gz"
-SOURCEFILE="PySDL2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

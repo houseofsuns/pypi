@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mopidy-Dirble"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mopidy extension for Dirble open radio directory"
 
 HOMEPAGE="https://github.com/mopidy/mopidy-dirble"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ed/1c/c9d0af06bb25afbd99ee701f11c25dd5286db9dae4bb7082cb8fa9e64cb6/Mopidy-Dirble-${REALVERSION}.tar.gz"
-SOURCEFILE="Mopidy-Dirble-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

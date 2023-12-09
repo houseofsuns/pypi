@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TG-AutoPoster"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Telegram Bot for reposting from VK"
 
 HOMEPAGE="https://github.com/qwertyadrian/TG_AutoPoster"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/76/a949777697d39bb493777b7945d412dde2ae526f2753f7d05af7bc7dd2ee/TG_AutoPoster-${REALVERSION}.tar.gz"
-SOURCEFILE="TG_AutoPoster-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

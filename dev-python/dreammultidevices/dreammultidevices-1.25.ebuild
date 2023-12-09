@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DreamMultiDevices"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="给adb加了过滤关键字的功能"
 
 HOMEPAGE="https://github.com/saint228/DreamMultiDevices"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/72/2f/8a434a09e8fddc8e6367ca11bfdb46d5be65971f66ec4cadde3ebc0b76da/DreamMultiDevices-${REALVERSION}.tar.gz"
-SOURCEFILE="DreamMultiDevices-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

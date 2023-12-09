@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GridCal"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GridCal is a Power Systems simulation program intended for professi
 
 HOMEPAGE="https://github.com/SanPen/GridCal"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e8/6b/16b9451221637b9cb692b89a63806e79769fea8d6c4158f15c05d2ce6455/GridCal-${REALVERSION}.tar.gz"
-SOURCEFILE="GridCal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

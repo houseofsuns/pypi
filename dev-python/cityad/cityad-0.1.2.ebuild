@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CityAD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CityAD, an Automatic Differentiation package"
 
 HOMEPAGE="https://github.com/cityscape-107/cs107-FinalProject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/56/001be3993cb45862ecae01e7a6c690b14a8356c773703ae47341f3b738f7/CityAD-${REALVERSION}.tar.gz"
-SOURCEFILE="CityAD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

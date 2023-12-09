@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mopidy-Rough-Base"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Shared classes for building radio rough guis."
 
 HOMEPAGE="https://github.com/unusualcomputers/unusualcomputers/tree/master/code/mopidy/mopidyroughbase"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2f/58/951c559de351cec63462515c4ec26db2f0c07361d881e419a669572c839b/Mopidy-Rough-Base-${REALVERSION}.tar.gz"
-SOURCEFILE="Mopidy-Rough-Base-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

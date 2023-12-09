@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Acquisition"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Acquisition is a mechanism that allows objects to obtain attributes
 
 HOMEPAGE="https://github.com/zopefoundation/Acquisition"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/6a/49/af690d6b6a756f5dc42ea38c6466f27f01ea21641f8d220a971f18929a53/Acquisition-${REALVERSION}.tar.gz"
-SOURCEFILE="Acquisition-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

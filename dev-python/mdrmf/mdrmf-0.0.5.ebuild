@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MDRMF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Multidrug Resistance Machine Fishing"
 
 HOMEPAGE="https://github.com/MolinDiscovery/MDRMF"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cf/9b/0fb03c15a817478edf5029715dd3a75867c9e958dad58a2836002b81cba2/MDRMF-${REALVERSION}.tar.gz"
-SOURCEFILE="MDRMF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

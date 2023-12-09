@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Bluto"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DNS Recon | Brute Forcer | DNS Zone Transfer | DNS Wild Card Checks
 
 HOMEPAGE="https://github.com/darryllane/Bluto"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/ac/b3/1a2caaac52153c96a0abc45bd4bbe210ccdbbcd4bdab445faaee58a163dd/Bluto-${REALVERSION}.tar.gz"
-SOURCEFILE="Bluto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

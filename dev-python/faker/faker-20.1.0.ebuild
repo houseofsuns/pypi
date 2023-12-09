@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Faker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Faker is a Python package that generates fake data for you."
 
 HOMEPAGE="https://github.com/joke2k/faker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/65/24/54413530c8924a6a1bf75c3670f0911707fc7435017b57b4f57be098e469/Faker-${REALVERSION}.tar.gz"
-SOURCEFILE="Faker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

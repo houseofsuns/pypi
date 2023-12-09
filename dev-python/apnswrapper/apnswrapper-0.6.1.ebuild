@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="APNSWrapper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This is wrapper for Apple Push Notification Service."
 
 HOMEPAGE="http://code.google.com/p/apns-python-wrapper/"
 LICENSE="ALv2"
-SRC_URI="https://files.pythonhosted.org/packages/f7/73/d5d221b332b8f072587e2893ac2a39cca125f72a3dced1212e1e10fb9c2c/APNSWrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="APNSWrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

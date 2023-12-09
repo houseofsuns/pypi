@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AdvancedHTTPServer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A standalone web server built on Python's BaseHTTPServer."
 
 HOMEPAGE="https://github.com/zeroSteiner/AdvancedHTTPServer"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/aa/7a/71cb05d6f5924ecd398301e85de8543e9356118d8795907f31492ef4c226/AdvancedHTTPServer-${REALVERSION}.tar.gz"
-SOURCEFILE="AdvancedHTTPServer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

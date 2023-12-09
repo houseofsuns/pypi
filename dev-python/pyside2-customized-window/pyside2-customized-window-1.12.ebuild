@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySide2-Customized-Window"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A customized window based on PySide2."
 
 HOMEPAGE="https://yuzhouren86.github.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/68/6a/456838bf6f2b21394f9c0edfac9f7cd1f4b41c4b74ff8cba4025fbd0239a/PySide2_Customized_Window-${REALVERSION}.tar.gz"
-SOURCEFILE="PySide2_Customized_Window-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

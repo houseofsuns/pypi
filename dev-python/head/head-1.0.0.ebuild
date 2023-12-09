@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Head"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple printer of Head lists"
 
 HOMEPAGE="http://www.headfirstlabs.xom"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/e3/fd/75dd553fe80cc5912663e6332fc351225bcf7c19c68fc33baad833dbfa59/Head-${REALVERSION}.zip"
-SOURCEFILE="Head-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

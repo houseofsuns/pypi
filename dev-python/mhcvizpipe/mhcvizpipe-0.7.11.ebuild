@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MhcVizPipe"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A reporting pipeline for visualization of immunopeptidomics MS data
 
 HOMEPAGE="https://github.com/CaronLab/MhcVizPipe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b9/cc/3ce142a8f0c914fbd418e07ab579867955d898a7d63d762bf7f8ba99ae5a/MhcVizPipe-${REALVERSION}.tar.gz"
-SOURCEFILE="MhcVizPipe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GoogleAppEnginePipeline"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Enable asynchronous pipeline style data processing on App Engine"
 
 HOMEPAGE="https://github.com/GoogleCloudPlatform/appengine-pipelines"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a5/8b/36fb8e247ecb3b7106012125509ef3dec1a385a0b56a737be60f321a483c/GoogleAppEnginePipeline-${REALVERSION}.tar.gz"
-SOURCEFILE="GoogleAppEnginePipeline-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

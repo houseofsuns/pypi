@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyChatGPT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An unofficial Python wrapper for OpenAI's ChatGPT API"
 
 HOMEPAGE="https://github.com/terry3041/pyChatGPT"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/52/11/9aa77973e364019b67c05613f19a2bb043ad0f537a3bf3cf9e20f38e22f8/pyChatGPT-${REALVERSION}.tar.gz"
-SOURCEFILE="pyChatGPT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FLAML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A fast library for automated machine learning and tuning"
 
 HOMEPAGE="https://github.com/microsoft/FLAML"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5b/42/ffb7e228fb4bf7f53815f9e017f7a610a5888f9b65fc17d6c238e3664fca/FLAML-${REALVERSION}.tar.gz"
-SOURCEFILE="FLAML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

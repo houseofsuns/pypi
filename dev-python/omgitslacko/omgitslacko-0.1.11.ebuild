@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OMGITSLACKO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library for data analysis"
 
 HOMEPAGE="https://github.com/YOUR_USERNAME/OMGITSLACKO"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/9f/82f1be365207d37035be30a4a09f6a2d68828163dfca95a85057d6afc25e/OMGITSLACKO-${REALVERSION}.tar.gz"
-SOURCEFILE="OMGITSLACKO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

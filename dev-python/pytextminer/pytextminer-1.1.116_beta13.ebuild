@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyTextMiner"
 REALVERSION="1.1.116b13"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A text mining tool for Korean and English"
 
 HOMEPAGE="https://github.com/MinSong2/pyTextMiner"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3c/0a/1f9b66a86ed39895acbfc3c689df846ca8e20ac15899ceae05b1e754b995/pyTextMiner-${REALVERSION}.tar.gz"
-SOURCEFILE="pyTextMiner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

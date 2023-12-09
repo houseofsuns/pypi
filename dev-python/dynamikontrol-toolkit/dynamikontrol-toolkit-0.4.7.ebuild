@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DynamiKontrol-Toolkit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DynamiKontrol Toolkit"
 
 HOMEPAGE="https://github.com/TheMatrixGroup/DynamiKontrol"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/c3/5f64b39851a2a96ffa9cc7769099de95b3d6264e732687eb7cbc91504253/DynamiKontrol-Toolkit-${REALVERSION}.tar.gz"
-SOURCEFILE="DynamiKontrol-Toolkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

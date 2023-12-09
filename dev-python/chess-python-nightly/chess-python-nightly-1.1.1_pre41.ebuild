@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CHESS-python-nightly"
 REALVERSION="1.1.1.dev41"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Clustered Hierarchical Entropy-Scaling Search"
 
 HOMEPAGE="https://github.com/nishaq503/CHESS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b8/6c/7001e7d96a810ac3f7c7e808cabf0efc86b48fd5be4d685171fdc6508f7d/CHESS-python-nightly-${REALVERSION}.tar.gz"
-SOURCEFILE="CHESS-python-nightly-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

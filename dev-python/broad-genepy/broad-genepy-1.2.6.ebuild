@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Broad-genepy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A useful module for any CompBio"
 
 HOMEPAGE="https://github.com/BroadInstitute/genepy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/60/d7/e407bf4a6170569204dad6995211a31262d47e618ec02fa8a285e5a40de9/Broad-genepy-${REALVERSION}.tar.gz"
-SOURCEFILE="Broad-genepy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

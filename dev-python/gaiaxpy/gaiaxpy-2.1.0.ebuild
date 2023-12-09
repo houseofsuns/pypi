@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GaiaXPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Utilities to handle BP/RP (XP) Gaia low-resolution spectra as deliv
 
 HOMEPAGE="https://gaia-dpci.github.io/GaiaXPy-website/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/b1/aa2a62ec57f275eb8a0bbf56316061eb4b3c793e2ec5ffa5b91e1a80f95f/GaiaXPy-${REALVERSION}.tar.gz"
-SOURCEFILE="GaiaXPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

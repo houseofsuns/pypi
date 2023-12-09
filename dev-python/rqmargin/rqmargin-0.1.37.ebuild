@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RQmargin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="fetch and store RQmargin data into mongodb."
 
 HOMEPAGE="http://www.ricequant.com"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/2e/93/6b0f2b3d89cf1a6132b393ff01f38fe7b474d400a5debdc6a5df74413fae/RQmargin-${REALVERSION}.tar.gz"
-SOURCEFILE="RQmargin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

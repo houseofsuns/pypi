@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Exscript"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automating Telnet and SSH"
 
 HOMEPAGE="https://github.com/knipknap/exscript/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/e7/3e5aecf81e9dd4f030a1570904aa10169f86136fe9d9b81c4d16a14180d3/Exscript-${REALVERSION}.tar.gz"
-SOURCEFILE="Exscript-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

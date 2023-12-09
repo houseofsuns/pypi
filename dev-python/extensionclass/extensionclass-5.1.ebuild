@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ExtensionClass"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Metaclass for subclassable extension types"
 
 HOMEPAGE="https://github.com/zopefoundation/ExtensionClass"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/3c/e8/3358bc76a82bb9a28b5371d2ac2ff9ea0323172e421d055ab3b9e559a0b8/ExtensionClass-${REALVERSION}.tar.gz"
-SOURCEFILE="ExtensionClass-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

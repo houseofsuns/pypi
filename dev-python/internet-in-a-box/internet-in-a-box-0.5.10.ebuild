@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Internet-in-a-Box"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Sharing the world's Free information"
 
 HOMEPAGE="http://internet-in-a-box.org"
 LICENSE="2-clause BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/ba/73/cd6b3d7e9b948f0cd568499ef1594bf87c626375648c22120e834c70b509/Internet-in-a-Box-${REALVERSION}.tar.gz"
-SOURCEFILE="Internet-in-a-Box-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

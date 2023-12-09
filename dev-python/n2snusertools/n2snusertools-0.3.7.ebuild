@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="N2SNUserTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="User Manipulation Tools for Python"
 
 HOMEPAGE="https://github.com/NSLS-II/N2SNUserTools"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/dd/df/cc7714b6718b5c4660a561201138605776a8962196d24ba368b822a2221e/N2SNUserTools-${REALVERSION}.tar.gz"
-SOURCEFILE="N2SNUserTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

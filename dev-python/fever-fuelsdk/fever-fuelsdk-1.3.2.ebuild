@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Fever-FuelSDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fever Salesforce Marketing Cloud Fuel SDK for Python"
 
 HOMEPAGE="https://github.com/Feverup/FuelSDK-Python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/22/3a/8239157d7dfc47a5485014d03dfc4028cce2466f803dccd9cd8cb04ed3a4/Fever-FuelSDK-${REALVERSION}.tar.gz"
-SOURCEFILE="Fever-FuelSDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ERgene"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python module that could analysis the ERGs"
 
 HOMEPAGE="https://github.com/Starlitnightly/ERgene"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c1/cf/639bb4b6133dbe56cf503f7ffdcab987b080e3c209266380151a72a19820/ERgene-${REALVERSION}.tar.gz"
-SOURCEFILE="ERgene-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

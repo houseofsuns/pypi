@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GitMarco"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An Engineering, Data Science and Deep Learning python package"
 
 HOMEPAGE="https://github.com/GitMarco27/GitMarco"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/51/daf63a3ac2bf2e3fe0abe2e98c2ab8447a87d72235acead864f121c02d16/GitMarco-v${REALVERSION}.tar.gz"
-SOURCEFILE="GitMarco-v${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/51/daf63a3ac2bf2e3fe0abe2e98c2ab8447a87d72235acead864f121c02d16/${LITERALNAME}-v${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-v${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

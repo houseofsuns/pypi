@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyStark"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An add-on extension to Pyrogram for absolute beginners"
 
 HOMEPAGE="https://github.com/StarkBotsIndustries/PyStark"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/2c/72/bdb96fab3fdcdcf51ab8b17e446672886222491a1a476b7bb4985d90c0f9/PyStark-${REALVERSION}.tar.gz"
-SOURCEFILE="PyStark-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

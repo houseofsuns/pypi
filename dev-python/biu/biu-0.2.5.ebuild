@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Biu"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tiny web crawler framework."
 
 HOMEPAGE="https://github.com/Windfarer/biu"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/99/5a/f3304b843a6db3d7349ca900c2e6ba2ed5b34ca14dea994f4aa2051db1ce/Biu-${REALVERSION}.tar.gz"
-SOURCEFILE="Biu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

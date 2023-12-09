@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Hikka-TL-New"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Full-featured Telegram client library for Python 3"
 
 HOMEPAGE="https://github.com/hikariatama/Hikka-TL"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/64/f9e614ec9a9559e3e03c88279898bbe91b364c684ec2ea022cade9a74b8a/Hikka-TL-New-${REALVERSION}.tar.gz"
-SOURCEFILE="Hikka-TL-New-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

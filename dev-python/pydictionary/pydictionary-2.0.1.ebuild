@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDictionary"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A real dictionary module for Python"
 
 HOMEPAGE="https://github.com/geekpradd/PyDictionary"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b2/f3/ad649300654c82ce2f13ea3355a02e00019ec89da3b76a92f970f970e891/PyDictionary-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDictionary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

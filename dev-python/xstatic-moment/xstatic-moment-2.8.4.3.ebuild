@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-moment"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="moment 2.8.4 (XStatic packaging standard)"
 
 HOMEPAGE="https://github.com/moment/moment"
 LICENSE="same as moment"
-SRC_URI="https://files.pythonhosted.org/packages/9c/20/4c43da2c1c4b8d430cd1da20c6952b49facd0704458aebe4a77877ce42f4/XStatic-moment-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-moment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

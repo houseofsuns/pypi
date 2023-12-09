@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="4Suite-XML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An open-source platform for XML processing"
 
 HOMEPAGE="http://4suite.org/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/71/f6/5657e0dcd6ba614967630827bf194eaf7db2911a3ad00003e38aae3e8a7b/4Suite-XML-docs-${REALVERSION}.tar.bz2"
-SOURCEFILE="4Suite-XML-docs-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/71/f6/5657e0dcd6ba614967630827bf194eaf7db2911a3ad00003e38aae3e8a7b/${LITERALNAME}-docs-${REALVERSION}.tar.bz2"
+SOURCEFILE="${LITERALNAME}-docs-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 
 SLOT="0"

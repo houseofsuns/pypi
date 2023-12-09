@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ElectricalWireSizes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Module for dimensioning copper electrical conductors, feeder conduc
 
 HOMEPAGE="https://electricalwiresizes.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/4a/18/d577a6b75a22f540608cd0aa31702e553f185581a0cba91f7033ad64545b/ElectricalWireSizes-${REALVERSION}.tar.gz"
-SOURCEFILE="ElectricalWireSizes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

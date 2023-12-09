@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SpeedTorch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fast Pinned CPU -> GPU transfer"
 
 HOMEPAGE="https://github.com/Santosh-Gupta/SpeedTorch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/f3/5a505189a651a9d77f6449be87ee21807396e2649915df42334c3b18af2a/SpeedTorch-${REALVERSION}.tar.gz"
-SOURCEFILE="SpeedTorch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

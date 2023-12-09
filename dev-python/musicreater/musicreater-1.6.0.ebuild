@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Musicreater"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="一款免费开源的 《我的世界》 mid音乐转换库。"
 
 HOMEPAGE="https://github.com/TriM-Organization/Musicreater"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/25/9787632111a4a8ec01eaa81f9cb0735fb7daf56ce97adac2f838ede8aa52/Musicreater-${REALVERSION}.tar.gz"
-SOURCEFILE="Musicreater-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

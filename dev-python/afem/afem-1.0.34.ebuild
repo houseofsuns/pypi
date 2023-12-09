@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AFEM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Finite Element Python implementation"
 
 HOMEPAGE="https://github.com/ZibraMax/FEM"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/8a/6a3a2a45282b7fb8164bffa8cbe839a3cd61e8da5cce0e35deef78b89f8c/AFEM-${REALVERSION}.tar.gz"
-SOURCEFILE="AFEM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

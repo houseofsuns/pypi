@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Clorm"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Clingo ORM (CLORM) provides a ORM interface for interacting with th
 
 HOMEPAGE="https://github.com/potassco/clorm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/ab/58f6bd2825e45e7f0de719cc461a635bfa3aff094d755c70c0b6f6244036/Clorm-${REALVERSION}.tar.gz"
-SOURCEFILE="Clorm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

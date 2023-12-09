@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="scFates"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="scanpy compatible python suite for fast tree inference and advanced
 
 HOMEPAGE="https://github.com/LouisFaure/scFates"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/29/8b95d85e6551c4913117f97d5e8024017f2d4ba04224916c385ea42a45f0/scFates-${REALVERSION}.tar.gz"
-SOURCEFILE="scFates-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

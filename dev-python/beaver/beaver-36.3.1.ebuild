@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Beaver"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="python daemon that munches on logs and sends their contents to logs
 
 HOMEPAGE="http://github.com/python-beaver/python-beaver"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/25/d6/01d20156eb1fdfca25362f9e45d8de997d0422408500d81b3af15b7f3ae3/Beaver-${REALVERSION}.tar.gz"
-SOURCEFILE="Beaver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

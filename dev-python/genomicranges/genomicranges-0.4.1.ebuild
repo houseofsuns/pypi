@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GenomicRanges"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Container class to represent and operate over genomic regions and a
 
 HOMEPAGE="https://github.com/BiocPy/GenomicRanges"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/2d/29cb5c3f9311ec1631e874145cee5a19a5ab79d4ab4c0146a720ef302045/GenomicRanges-${REALVERSION}.tar.gz"
-SOURCEFILE="GenomicRanges-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

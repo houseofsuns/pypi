@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyMapVBVD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python twix file reader"
 
 HOMEPAGE="https://github.com/wtclarke/pymapvbvd"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/ea/05d673a7b6c91a6b2940690cf388c51b3344fb28d29b91beab47b586b364/pyMapVBVD-${REALVERSION}.tar.gz"
-SOURCEFILE="pyMapVBVD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

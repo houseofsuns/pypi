@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ReverseTwitterScraper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python package for scraping Twitter data without API. With proxy 
 
 HOMEPAGE="https://github.com/1220moritz/reverse-twitter-scraper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b2/e3/ff4255848380a4904869f486bb54fec8defe599a44c9031ff6431d420b5b/ReverseTwitterScraper-${REALVERSION}.tar.gz"
-SOURCEFILE="ReverseTwitterScraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

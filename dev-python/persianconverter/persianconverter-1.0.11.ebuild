@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PersianConverter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for converting Persian text"
 
 HOMEPAGE="https://github.com/komeylian/PersianConverter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/ac/f66c0bfeece66e161269fd19012c5c928a46e88ec61d6c35df6b13e3152b/PersianConverter-${REALVERSION}.tar.gz"
-SOURCEFILE="PersianConverter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

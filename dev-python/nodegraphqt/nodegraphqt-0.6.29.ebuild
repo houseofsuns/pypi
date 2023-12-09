@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NodeGraphQt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Node graph framework for PySide2/PyQt5 that can be"
 
 HOMEPAGE="https://github.com/jchanvfx/NodeGraphQt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/0b/5b560acdaf0238da1f7b6dbeb1265fed7d8e2325e7e3c269cb0a39f8fd56/NodeGraphQt-${REALVERSION}.tar.gz"
-SOURCEFILE="NodeGraphQt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

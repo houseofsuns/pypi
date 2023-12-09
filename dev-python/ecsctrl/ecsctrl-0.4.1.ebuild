@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ECSctrl"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ECSctrl - utility to deploy ECS services for humans"
 
 HOMEPAGE="http://github.com/wlatanowicz/ecsctrl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/54/e3/bf7baaa1748fb9cc56e8667f62febb642138ca54d7a7f45598bbe96f4103/ECSctrl-${REALVERSION}.tar.gz"
-SOURCEFILE="ECSctrl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

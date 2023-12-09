@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OMPython"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OpenModelica-Python API Interface"
 
 HOMEPAGE="http://openmodelica.org/"
 LICENSE="BSD, OSMC-PL 1.2, GPL user's choice"
-SRC_URI="https://files.pythonhosted.org/packages/7f/71/f3df0d4b8c4c3d7ab5d48ff432684ddac1b2fb4ffc40fec7d0ef6e479c12/OMPython-${REALVERSION}.tar.gz"
-SOURCEFILE="OMPython-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

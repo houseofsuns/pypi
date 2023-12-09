@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Spotify-Gender-Ex"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Ein kleines Tool, das die Gendersternchen (z.B. Künstler*innen) au
 
 HOMEPAGE="https://github.com/Theta-Dev/Spotify-Gender-Ex"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9d/d7/8d413d34dd1893a5ae2254098f151b78392d48bfe50ed0acb0f8e90bf7ca/Spotify-Gender-Ex-${REALVERSION}.tar.gz"
-SOURCEFILE="Spotify-Gender-Ex-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

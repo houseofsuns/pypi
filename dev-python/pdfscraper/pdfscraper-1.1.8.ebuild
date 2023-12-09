@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PDFScraper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PDF text and table search"
 
 HOMEPAGE="https://github.com/erikkastelec/PDFScraper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4f/c7/63589ac05d04c23b7638b5f25d5e55cc79a2b1655c7b553651e88953cd29/PDFScraper-${REALVERSION}.tar.gz"
-SOURCEFILE="PDFScraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

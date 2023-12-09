@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JAQK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A light toolkit for crawling financia data and basic analysis and c
 
 HOMEPAGE="https://github.com/Haannbboo/JAQK"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4c/af/91d34de2cb7883bd1ccc952885ca65c3d5b70dd3a21797a7fbb43c125a23/JAQK-${REALVERSION}.tar.gz"
-SOURCEFILE="JAQK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

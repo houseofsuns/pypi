@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pySatlantic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Unpack binary messages from Satlantic instruments."
 
 HOMEPAGE="https://github.com/OceanOptics/pySatlantic/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a5/83/168be3fc839b0956a62fa0a06ad1a4605af51c535a273b2ebb9265f05a42/pySatlantic-${REALVERSION}.tar.gz"
-SOURCEFILE="pySatlantic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

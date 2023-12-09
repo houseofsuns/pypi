@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Schemer3"
 REALVERSION="0.2.11.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Powerful schema-based validation of Python dicts"
 
 HOMEPAGE="http://github.com/thekiba/schemer3"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c9/43/b6eab442abc7dfca1c876482c1f507d39788cefe3fc369fa39f25bebcbf3/Schemer3-${REALVERSION}.tar.gz"
-SOURCEFILE="Schemer3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

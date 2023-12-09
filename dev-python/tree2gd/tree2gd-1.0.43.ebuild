@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Tree2gd"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tree2gd"
 
 HOMEPAGE="https://github.com/Dee-chen/Tree2gd"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c4/d9/3d20488a92c56b16472ec65bdb2c8de5b26ed80f1a08f34f882bc5f16278/Tree2gd-${REALVERSION}.tar.gz"
-SOURCEFILE="Tree2gd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

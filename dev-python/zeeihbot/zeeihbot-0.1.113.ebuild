@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ZEEIHBOT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lobby bot."
 
 HOMEPAGE="https://www.youtube.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/d0/8b319d4a6c48f0a6ac336008c72f24efcf58778b51cae51e1281785614b8/ZEEIHBOT-${REALVERSION}.tar.gz"
-SOURCEFILE="ZEEIHBOT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

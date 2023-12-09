@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CVXcanon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A low-level library to perform the matrix building step in cvxpy, a
 
 HOMEPAGE="https://github.com/jacklzhu/CVXcanon"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/80/43/d7b3c42b4c11425bc905359f3dc4c5742294f9abf13c2a14e8946fb6c5f8/CVXcanon-${REALVERSION}.tar.gz"
-SOURCEFILE="CVXcanon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

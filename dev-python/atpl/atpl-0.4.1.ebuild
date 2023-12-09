@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ATPL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="With this Toolset and one audio cable you can simply built end2end 
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/7a/5452ac55c529fa3fd1667b21d4eb5cd7b9fbe3391d0ecc0ff83b566c7358/ATPL-${REALVERSION}.tar.gz"
-SOURCEFILE="ATPL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

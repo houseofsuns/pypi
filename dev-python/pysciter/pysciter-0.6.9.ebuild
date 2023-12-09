@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySciter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python bindings for the Sciter - Embeddable HTML/CSS/script engine 
 
 HOMEPAGE="https://github.com/sciter-sdk/pysciter/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/46/3c8d56f586f652c04eed4bd02d592b74e893e4a9929ea4d279c38343acd8/PySciter-${REALVERSION}.tar.gz"
-SOURCEFILE="PySciter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

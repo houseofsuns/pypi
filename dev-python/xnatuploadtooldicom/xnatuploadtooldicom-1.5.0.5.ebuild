@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XnatUploadToolDicom"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tool for assisting in uploading dicom data directly to xnat imaging
 
 HOMEPAGE="https://bitbucket.org/radiologics/XnatUploadToolDicom"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/46/4d/38ff13c117bf34e8a74766ddc9fd46ae109bb21a2d5ab88bd9c659f4d77f/XnatUploadToolDicom-${REALVERSION}.tar.gz"
-SOURCEFILE="XnatUploadToolDicom-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

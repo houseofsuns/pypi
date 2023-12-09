@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Diamond"
 REALVERSION="0.5.2rc6"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask-Diamond is a batteries-included Flask framework, sortof like 
 
 HOMEPAGE="http://flask-diamond.readthedocs.org"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/7a/ca070461f76a1e645dd7adc0dd55bd9c63586ed0e5fb0702e56b49bd9c85/Flask-Diamond-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Diamond-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

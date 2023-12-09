@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pras-Server"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A webserver to repair PDB files"
 
 HOMEPAGE="https://www.protein-science.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/64/0dde4715b24a7bde078d82e2773281a147625d21c49e34a2a7e0879b5041/Pras_Server-${REALVERSION}.tar.gz"
-SOURCEFILE="Pras_Server-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

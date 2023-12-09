@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AMD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Advanced Data Science enabled Data extraction and control library f
 
 HOMEPAGE="https://github.com/SayadPervez/Arduino_Master_Delta"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/11/87/f5172d82dbf49dfe1550dfe1d326951abda94b2327d479684ad8119f5de9/AMD-${REALVERSION}.tar.gz"
-SOURCEFILE="AMD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Decken"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Deck Organizer to Trading Card Games"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/0b/fd/1397a508f6abeb6705e44644bed2b143586a3950cb2c82efab0181b7f2b5/Decken-${REALVERSION}.tar.gz"
-SOURCEFILE="Decken-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

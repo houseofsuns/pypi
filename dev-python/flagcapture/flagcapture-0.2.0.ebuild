@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FlagCapture"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A 3d Game that no-one can play unless Michael says so"
 
 HOMEPAGE="https://pypi.org/search/?q=FlagCapture"
 LICENSE="Michaels License"
-SRC_URI="https://files.pythonhosted.org/packages/aa/50/1f6887486a42b437dad4cd2ebe3cfc20d7e9d2a15e0235c21a788ad6008e/FlagCapture-${REALVERSION}.tar.gz"
-SOURCEFILE="FlagCapture-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

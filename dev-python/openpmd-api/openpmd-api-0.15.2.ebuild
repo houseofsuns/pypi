@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="openPMD-api"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="C++ & Python API for Scientific I/O with openPMD"
 
 HOMEPAGE="https://www.openPMD.org"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/43/96/585086797417d72eda388264e3a086967cd7da67a58496c5ef1b6f5c92d8/openPMD-api-${REALVERSION}.tar.gz"
-SOURCEFILE="openPMD-api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

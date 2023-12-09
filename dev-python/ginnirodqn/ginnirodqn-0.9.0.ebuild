@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GinniroDQN"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="My own DQN Library"
 
 HOMEPAGE="https://github.com/RuiZhangCHN/GinniroDQN"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/b3/0c2d0b1e504a4b11047cd9295164338534e11f1263ea1d3230bdec9e7944/GinniroDQN-${REALVERSION}.tar.gz"
-SOURCEFILE="GinniroDQN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BEER-curve"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A very small package to model the BEaming, Ellipsoidal variations, 
 
 HOMEPAGE="https://github.com/decaelus/BEER_curve"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/2b/e09fd1d9c5fae27549b828b6861467a4772943367ec5171bb5c6971fb67a/BEER_curve-${REALVERSION}.tar.gz"
-SOURCEFILE="BEER_curve-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

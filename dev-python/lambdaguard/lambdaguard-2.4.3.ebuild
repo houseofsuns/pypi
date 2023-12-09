@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LambdaGuard"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LambdaGuard"
 
 HOMEPAGE="https://github.com/Skyscanner/LambdaGuard"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/c6/eef48ea0b7be24fc880361bd4af800f8f8f228b67bfb90c5768d31e099fa/LambdaGuard-${REALVERSION}.tar.gz"
-SOURCEFILE="LambdaGuard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

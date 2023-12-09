@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CircuitSeeker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for finding neural circuits"
 
 HOMEPAGE="https://github.com/GFleishman/CircuitSeeker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/f9/8b58b159f442992368fb32cc5aa344fd45d08c8abdf69620cd050ab0d0b3/CircuitSeeker-${REALVERSION}.tar.gz"
-SOURCEFILE="CircuitSeeker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

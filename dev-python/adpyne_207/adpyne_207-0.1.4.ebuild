@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="adpyne-207"
+LITERALNAME="ADPYNE-207"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automatic Differentiation Package for Python"
 
 HOMEPAGE="https://github.com/PYNE-AD/cs207-FinalProject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/49/15/c7b0a40da1ea04ade5389c1056bdf440b63d331c9bb3e4e57dc6603d489f/ADPYNE-207-${REALVERSION}.tar.gz"
-SOURCEFILE="ADPYNE-207-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

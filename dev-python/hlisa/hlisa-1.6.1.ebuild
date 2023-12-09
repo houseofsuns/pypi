@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HLISA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A reimplementation of the Selenium API, emulating human interaction
 
 HOMEPAGE="https://github.com/droefs/HLISA"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/cc/41/fc8716714c0cae108af9da37c4b3d7fa791b9875cb3218eee8092912f411/HLISA-${REALVERSION}.tar.gz"
-SOURCEFILE="HLISA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

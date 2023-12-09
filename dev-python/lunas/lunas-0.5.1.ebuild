@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Lunas"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Building customisable data processing pipeline and data iterators f
 
 HOMEPAGE="https://github.com/pluiez/lunas"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/78/a5/4e4e93c0a8814fb3b0e83f420b3ff33c81599b55b2bc971edfe2cb8fe387/Lunas-${REALVERSION}.tar.gz"
-SOURCEFILE="Lunas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

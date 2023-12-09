@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RealstatsModelRollout"
 REALVERSION="0.2.2.dev19"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Realstats model version control"
 
 HOMEPAGE="https://github.com/bharkema/RealstatsModelRollout"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/1b/b15d3c14390aeedef9a5762d2941da1a678d12717e9f822d59a00e5930ca/RealstatsModelRollout-${REALVERSION}.tar.gz"
-SOURCEFILE="RealstatsModelRollout-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

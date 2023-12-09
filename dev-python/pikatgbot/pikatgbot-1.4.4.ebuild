@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PikaTgBot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Secure and Optimized Python-Telethon Based Library For Pikachu Us
 
 HOMEPAGE="https://github.com/ItzSjDude/PikachuUserbot"
 LICENSE="GNU AFFERO GENERAL PUBLIC LICENSE v3"
-SRC_URI="https://files.pythonhosted.org/packages/fc/33/3de2c240561643b428d4fab6c2ef71d6ea587440aaa5a9dfa5f6133d6dfb/PikaTgBot-${REALVERSION}.tar.gz"
-SOURCEFILE="PikaTgBot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

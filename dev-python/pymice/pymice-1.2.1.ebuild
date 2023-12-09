@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMICE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyMICE - a Python® library for mice behavioural data analysis"
 
 HOMEPAGE="https://neuroinflab.wordpress.com/research/pymice/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/36/7c/1158ad6bec9086853bee631db6d77a429c7e9a66afbf706218fa8dae202b/PyMICE-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMICE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

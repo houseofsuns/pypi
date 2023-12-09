@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PolyRound"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python package for rounding polytopes."
 
 HOMEPAGE="https://gitlab.com/csb.ethz/PolyRound"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/85/c0/65e821bdcae98498bbc515d7db8019c0f4229acc98db062a909c5fa5e3fa/PolyRound-${REALVERSION}.tar.gz"
-SOURCEFILE="PolyRound-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

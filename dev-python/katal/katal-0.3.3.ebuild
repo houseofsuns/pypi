@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Katal"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="files' catalogue manager"
 
 HOMEPAGE="https://github.com/suizokukan/katal"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/1a/98/1460a4d0770929b05fd707ea06971dab15369e4cb8fe8e4a2fa198c870fb/Katal-${REALVERSION}.tar.gz"
-SOURCEFILE="Katal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

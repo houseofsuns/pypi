@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TFBS-footprinting"
 REALVERSION="1.0.0b54"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tool for identifying conserved TFBSs in vertebrate species."
 
 HOMEPAGE="https://github.com/thirtysix/TFBS_footprinting"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/7f/fb4affdfa2b2110330c718899a7ae8d143cb2c21882e1f00d4591bf868e2/TFBS_footprinting-${REALVERSION}.tar.gz"
-SOURCEFILE="TFBS_footprinting-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

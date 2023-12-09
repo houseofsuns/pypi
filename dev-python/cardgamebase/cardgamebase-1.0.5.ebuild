@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CardGameBase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Card Game Base with basic deck and card class"
 
 HOMEPAGE="https://github.com/DerSchinken/CardGameBase/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/52/643740b8fe4f572704a6ed08c49df0b2ae235e6e45638602aaa796a516b6/CardGameBase-${REALVERSION}.tar.gz"
-SOURCEFILE="CardGameBase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

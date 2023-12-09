@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BiasBuster"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python package to check for algorithmic bias."
 
 HOMEPAGE="https://github.com/nathalierze/BiasBuster"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/b9/de63cbe18d3b13bd71aefa0410bf92d685335fe09b8349f76b71fdf52537/BiasBuster-${REALVERSION}.tar.gz"
-SOURCEFILE="BiasBuster-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

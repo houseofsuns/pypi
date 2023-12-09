@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DropTheBeat"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Music sharing using Dropbox."
 
 HOMEPAGE="https://github.com/jacebrowning/dropthebeat"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d7/68/e7e330cb48903cda92025959ea71ec9fc88b0c851648950e04f511fe90de/DropTheBeat-${REALVERSION}.tar.gz"
-SOURCEFILE="DropTheBeat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

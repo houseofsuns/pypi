@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EQcorrscan"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="EQcorrscan - matched-filter earthquake detection and analysis"
 
 HOMEPAGE="https://github.com/eqcorrscan/EQcorrscan"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/17/bb/c9a52b668a05925c0f4af06d373cc55f2bbeeb5c5d2b843242dd43b1588f/EQcorrscan-${REALVERSION}.tar.gz"
-SOURCEFILE="EQcorrscan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

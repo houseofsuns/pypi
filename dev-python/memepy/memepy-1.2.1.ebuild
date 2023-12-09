@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MemePy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Meme Generator for python"
 
 HOMEPAGE="https://github.com/julianbrandt/MemePy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/43/1327072e1f4c75909ddfa7e799e3f944d1e988926fe46a86833c3273caac/MemePy-${REALVERSION}.tar.gz"
-SOURCEFILE="MemePy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

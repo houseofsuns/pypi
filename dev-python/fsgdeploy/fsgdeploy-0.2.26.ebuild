@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FSGDeploy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Universal website deploy script."
 
 HOMEPAGE="http://pypi.python.org/pypi/FSGDeploy/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/21/40/b32ba4804a19cf83217f78d94f673137841105b8ba9435d6a90f7de9eac3/FSGDeploy-${REALVERSION}.zip"
-SOURCEFILE="FSGDeploy-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

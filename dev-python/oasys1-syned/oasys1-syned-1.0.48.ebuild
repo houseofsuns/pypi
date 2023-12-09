@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OASYS1-SYNED"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SYNED SYNchrotron Elements Dictionary"
 
 HOMEPAGE="https://github.com/oasys-kit/OASYS-SYNED"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/37/e8/d1e6ba09f0b5ea177281535a02b6be7808414727ef5e7a83d65a8b60673c/OASYS1-SYNED-${REALVERSION}.tar.gz"
-SOURCEFILE="OASYS1-SYNED-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

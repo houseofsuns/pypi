@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pyvolve"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Sequence simulation along phylogenies according to continuous-time 
 
 HOMEPAGE="https://github.com/sjspielman/pyvolve"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5b/28/f57e8ef87315fa6b60a68059872f88f33b7da354eb7132dab206c75cf804/Pyvolve-${REALVERSION}.tar.gz"
-SOURCEFILE="Pyvolve-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

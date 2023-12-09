@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySparkIP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An API for working with IP addresses in Apache Spark."
 
 HOMEPAGE="https://github.com/jshalaby510/PySparkIP"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/25/1c587c11b9316b8ecf13c8ec16ddd5c331071702ade401adda4f6b609aeb/PySparkIP-${REALVERSION}.tar.gz"
-SOURCEFILE="PySparkIP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

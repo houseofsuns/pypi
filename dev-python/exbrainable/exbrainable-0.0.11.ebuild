@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ExBrainable"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ExBrainable: An Open-Source GUI for CNN-based EEG Decoding and Mode
 
 HOMEPAGE="https://github.com/CECNL/ExBrainable"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f9/f4/f1a60c59bc17e8c275c8d252a09d96adf7e617827f00dc1fc8e7e5563736/ExBrainable-${REALVERSION}.tar.gz"
-SOURCEFILE="ExBrainable-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CausalInference"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Causal Inference in Python"
 
 HOMEPAGE="https://github.com/laurencium/causalinference"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/b4/46/76b177dd50c4fb9e4ba3a633d44592d9c11029f813e9f43f39c13b725d2d/CausalInference-${REALVERSION}.tar.gz"
-SOURCEFILE="CausalInference-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Hellf"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The aim of this project is to provide a python library for patching
 
 HOMEPAGE="https://github.com/0xswitch/Hellf"
 LICENSE="WTFPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/5a/93/855e305636d45b73844ab90ca86900e1d19730623ea40c13a243f508c3f8/Hellf-${REALVERSION}.tar.gz"
-SOURCEFILE="Hellf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

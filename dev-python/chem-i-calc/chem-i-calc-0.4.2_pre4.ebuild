@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Chem-I-Calc"
 REALVERSION="0.4.2.dev4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Chemical information calculator for resolved stellar spectroscopy"
 
 HOMEPAGE="https://github.com/NathanSandford/Chem-I-Calc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/39/e0/41eab648fb1fd83887277da548159af23bce2d47d4938c9aec99fbe2f580/Chem-I-Calc-${REALVERSION}.tar.gz"
-SOURCEFILE="Chem-I-Calc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

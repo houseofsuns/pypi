@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="YahooFinanceDashboard"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="API for accessing, synchronizing, managing locally and plotting Yah
 
 HOMEPAGE="https://github.com/mosegui/YahooFinanceDashboard"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b0/01/699e46d5d69417a56cd504590a5a220b22f0f2f1030dcc8f402ec08da090/YahooFinanceDashboard-${REALVERSION}.tar.gz"
-SOURCEFILE="YahooFinanceDashboard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

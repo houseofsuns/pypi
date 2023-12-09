@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RecoLul"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Overtime management for RecoRu"
 
 HOMEPAGE="https://github.com/Maerig/recolul"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b4/09/e92d024f7ea86565a2dd37b52b283a7a728be5feca8ef73b9770692bc510/RecoLul-${REALVERSION}.tar.gz"
-SOURCEFILE="RecoLul-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="dataUncert"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="import data from .xlsx and .xls files. Use the data to perform calc
 
 HOMEPAGE="https://github.com/jacobv95/dataProcessing"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3e/90/3a943ab7a7ee490886b6ff27fc28a80c5bb72c088f74307345a0f3e5d0b3/dataUncert-${REALVERSION}.tar.gz"
-SOURCEFILE="dataUncert-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

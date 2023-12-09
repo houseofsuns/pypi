@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Crowd"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python client to the Atlassian Crowd REST API"
 
 HOMEPAGE="https://github.com/pycontribs/python-crowd"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b3/16/08c1b18ea6ea4589281b485e592daadbe3f1decbf65c6b813c0e346c9f8f/Crowd-${REALVERSION}.macosx-11-x86_64.tar.gz"
-SOURCEFILE="Crowd-${REALVERSION}.macosx-11-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.macosx-11-x86_64.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.macosx-11-x86_64.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

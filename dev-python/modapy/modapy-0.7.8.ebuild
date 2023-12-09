@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MODApy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package to perform several analysis on Multi-Omics Data"
 
 HOMEPAGE="https://github.com/juancgvazquez/MODApy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/19/befa942842a3bff717c5b5e356f0bd503c416fcb1d90caa4a6acc90eb63b/MODApy-${REALVERSION}.tar.gz"
-SOURCEFILE="MODApy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Weblate"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A web-based continuous localization system with tight version contr
 
 HOMEPAGE="https://weblate.org/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/96/5c/0a0cb294877ad482c5514183b78d46e0a30e59ae789aecceb77272e89a71/Weblate-${REALVERSION}.tar.gz"
-SOURCEFILE="Weblate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pySerialTransfer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package used to transmit and receive low overhead byte packe
 
 HOMEPAGE="https://github.com/PowerBroker2/pySerialTransfer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cd/97/6845a58f1450f2dbdd58178d7f939429dbc5a06db622cff167742c3a792b/pySerialTransfer-${REALVERSION}.tar.gz"
-SOURCEFILE="pySerialTransfer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyTermTk"
 REALVERSION="0.37.0a3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Terminal Toolkit"
 
 HOMEPAGE="https://github.com/ceccopierangiolieugenio/pyTermTk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/af/4d/06e654797f22b05196f6e289dabbfbec675bd003ea7ef55b14264d4f4cad/pyTermTk-${REALVERSION}.tar.gz"
-SOURCEFILE="pyTermTk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

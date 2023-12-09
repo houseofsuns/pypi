@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Django-Verify-Email"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Django app for email verification."
 
 HOMEPAGE="https://github.com/foo290/Django-Verify-Email/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c6/e8/71387759826bd87531c78c4e2de62c43f994dcf7291127cf05ff04ac7501/Django-Verify-Email-${REALVERSION}.tar.gz"
-SOURCEFILE="Django-Verify-Email-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

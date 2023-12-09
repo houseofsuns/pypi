@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyGenomeTracks"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Command-line tool to make beautiful and reproducible genome browser
 
 HOMEPAGE="http://pygenometracks.readthedocs.io"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/1a/ae/0efba414b8a5bf29fc675a7b305c5f9240d4573bf3ddfdb5841daf357d06/pyGenomeTracks-${REALVERSION}.tar.gz"
-SOURCEFILE="pyGenomeTracks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

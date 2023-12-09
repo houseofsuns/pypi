@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CSpipe"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ChIP-Seq pipe"
 
 HOMEPAGE="https://pypi.python.org/pypi/CSpipe"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7c/de/abb73b3425e7ad03739a25d37667d701b8b63239436edaa8137147ebc92b/CSpipe-${REALVERSION}.tar.gz"
-SOURCEFILE="CSpipe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

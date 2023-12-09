@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FuzzManager"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A fuzzing management tools collection"
 
 HOMEPAGE="https://github.com/MozillaSecurity/FuzzManager"
 LICENSE="MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/11/75/8242d6a0fdcc6f5256a008acbbe1c3f2a5a8ab661ffd545980a012e5f706/FuzzManager-${REALVERSION}.tar.gz"
-SOURCEFILE="FuzzManager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

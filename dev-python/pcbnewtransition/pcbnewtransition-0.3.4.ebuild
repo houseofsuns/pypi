@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pcbnewTransition"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library that allows you to support both, KiCAD 5 and KiCAD 6 in you
 
 HOMEPAGE="https://github.com/yaqwsx/pcbnewTransition"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/ec/5155eb09fe43a2eeddac0dfa66e7d678da07cf376344bff706e730bcd267/pcbnewTransition-${REALVERSION}.tar.gz"
-SOURCEFILE="pcbnewTransition-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Graphy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple chart library for Python"
 
 HOMEPAGE="http://code.google.com/p/graphy/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/8b/27/88fddc27c7a20bad8dae7355f074a775e156766522bc7504fcf884d5a3ba/Graphy-${REALVERSION}.tar.gz"
-SOURCEFILE="Graphy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

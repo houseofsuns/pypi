@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DAC43608"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python wrapper for interacting with the DAC43608"
 
 HOMEPAGE="https://github.com/Pioreactor/DAC43608"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/48/9f/887dc85e4c042111906523622edc040e8180db947920126f55a96de3db68/DAC43608-${REALVERSION}.tar.gz"
-SOURCEFILE="DAC43608-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

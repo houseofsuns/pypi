@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyNiteFEA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple elastic 3D structural finite element library for Python."
 
 HOMEPAGE="https://github.com/JWock82/PyNite.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5a/95/362427f0005b71d68d3c0662a71cf3ea2525cc64d9e428f0c0475e80d7e8/PyNiteFEA-${REALVERSION}.tar.gz"
-SOURCEFILE="PyNiteFEA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

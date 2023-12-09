@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Propel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to deploy sites in virtualenv, run scripts, and deploy wo
 
 HOMEPAGE="http://github.com/mardix/propel/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/34/81b261cbfa6ba03b876db554c4fc3e704c74eeeddd8f1a1aff316016c96e/Propel-${REALVERSION}.tar.gz"
-SOURCEFILE="Propel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

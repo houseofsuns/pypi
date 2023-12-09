@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Analytics"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Analytics snippets generator extension for the Flask framework"
 
 HOMEPAGE="https://github.com/citruspi/Flask-Analytics"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/8c/33/b9f98a51481ed67ee82afbd49d89f7c17558f5ed582bd97f842ab4e15fe6/Flask-Analytics-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Analytics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

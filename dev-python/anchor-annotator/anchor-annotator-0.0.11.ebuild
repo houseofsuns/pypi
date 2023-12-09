@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Anchor-annotator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Anchor annotator is a program for inspecting corpora for the Montre
 
 HOMEPAGE="https://github.com/MontrealCorpusTools/Anchor-annotator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/22/52f4e4c006dd2aebf954a72b567016c63931cd5df5d39d77311175ab7690/Anchor_annotator-${REALVERSION}.tar.gz"
-SOURCEFILE="Anchor_annotator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

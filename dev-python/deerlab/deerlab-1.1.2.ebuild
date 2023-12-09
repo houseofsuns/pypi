@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeerLab"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Comprehensive package for data analysis of dipolar EPR spectroscopy
 
 HOMEPAGE="https://github.com/JeschkeLab/DeerLab"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/01/ea/101ffcf199a460b601f082084c5e2f669dba2284fa698eb38e4cdbf0ca04/DeerLab-${REALVERSION}.tar.gz"
-SOURCEFILE="DeerLab-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

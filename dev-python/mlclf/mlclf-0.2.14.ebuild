@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MLclf"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="mini-imagenet dataset transformed to fit classification task or kee
 
 HOMEPAGE="https://github.com/tiger2017/mlclf"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/bb/cdf2c6167408e049f0a674292aae2f4e5ccadc85ce4217bab3974ce5415e/MLclf-${REALVERSION}.tar.gz"
-SOURCEFILE="MLclf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

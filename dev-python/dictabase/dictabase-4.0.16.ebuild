@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Dictabase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A database interface that mimics a python dictionary."
 
 HOMEPAGE="https://github.com/GrantGMiller/dictabase"
 LICENSE="PSF-2.4"
-SRC_URI="https://files.pythonhosted.org/packages/9c/6d/783024c8e99c2e5ada8771f300850fd24eec6e8230e71325f7cba8e1c8f9/Dictabase-${REALVERSION}.tar.gz"
-SOURCEFILE="Dictabase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

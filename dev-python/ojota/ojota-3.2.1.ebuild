@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Ojota"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flat File Database with ORM"
 
 HOMEPAGE="http://pypi.python.org/pypi/Ojota/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/84/92/2a006f50df8c4f64e4a0ee46206e9eb9873259882d799b21d1dab5d549a0/Ojota-${REALVERSION}.tar.gz"
-SOURCEFILE="Ojota-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

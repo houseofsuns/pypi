@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-LogConfig"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for configuring Python logging module"
 
 HOMEPAGE="https://github.com/dgilland/flask-logconfig"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c4/8e/49ae35ce5d30f352e9e923a98e6e091342dd3f351f8b2fbcdef21116dbcc/Flask-LogConfig-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-LogConfig-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

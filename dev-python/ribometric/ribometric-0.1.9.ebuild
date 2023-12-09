@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RiboMetric"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python command-line utility for the generation of comprehensive r
 
 HOMEPAGE="https://github.com/JackCurragh/RiboMetric"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d3/6d/850ed4c2c33b9af178cb7efd0a72ea84d67458db85987a05232aab62150f/RiboMetric-${REALVERSION}.tar.gz"
-SOURCEFILE="RiboMetric-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

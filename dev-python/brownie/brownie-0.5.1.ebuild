@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Brownie"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Common utilities and datastructures for Python applications."
 
 HOMEPAGE="http://github.com/DasIch/brownie/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/49/c4/f8aa4d3946206e9847d8b3c67a68983f1f8dc149f00c6e86370c64a72a52/Brownie-${REALVERSION}.tar.gz"
-SOURCEFILE="Brownie-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="vrpSolver"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="VRP Solver"
 
 HOMEPAGE="https://github.com/isaac0821/vrpSolver"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/c9/6d2506c745769d8953d23352bc30d1c5b26654d2a5303acad5cff64bc708/vrpSolver-${REALVERSION}.tar.gz"
-SOURCEFILE="vrpSolver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

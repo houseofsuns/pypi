@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyP6Xer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Parser for XER written in Python"
 
 HOMEPAGE=""
 LICENSE="GNU GENERAL PUBLIC LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/5c/ed/dd2a20e38e22485daee30a361fd8232fb8f883770c35124b2b67062439a0/PyP6Xer-${REALVERSION}.tar.gz"
-SOURCEFILE="PyP6Xer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

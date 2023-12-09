@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EduSocialMediaDSHelper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Helper for DS Social Media learning material"
 
 HOMEPAGE="https://github.com/Joshkking/EduSocialMediaDSHelper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/13/f6/0d36a5cf8252871dd3d508d4168f932b65c9630db61c95d0a92fb3f18ab8/EduSocialMediaDSHelper-${REALVERSION}.tar.gz"
-SOURCEFILE="EduSocialMediaDSHelper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Confopy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Evaluates the linguistic and structural quality of scientific texts
 
 HOMEPAGE="https://github.com/ooz/Confopy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c3/03/6d429315bd3382c89ce4c78b2bf460cf7db98b18b5225532a6107f1b7628/Confopy-${REALVERSION}.tar.gz"
-SOURCEFILE="Confopy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

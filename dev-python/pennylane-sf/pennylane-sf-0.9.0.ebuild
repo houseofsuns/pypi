@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PennyLane-SF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Open source library for continuous-variable quantum computation"
 
 HOMEPAGE="https://github.com/XanaduAI/pennylane-sf"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e9/3e/a72045a1b271cf52e176f04164577ec557c11e1134a12b49796adbbe46c0/PennyLane-SF-${REALVERSION}.tar.gz"
-SOURCEFILE="PennyLane-SF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

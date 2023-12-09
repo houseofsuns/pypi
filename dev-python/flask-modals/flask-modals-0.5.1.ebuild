@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Modals"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Use forms in Bootstrap modals with Flask."
 
 HOMEPAGE="https://github.com/deb17/flask-modals"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/74/6d930d8bc8b22e896114f40834a2163685e5f68b7751bf4861ccd1263008/Flask-Modals-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Modals-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

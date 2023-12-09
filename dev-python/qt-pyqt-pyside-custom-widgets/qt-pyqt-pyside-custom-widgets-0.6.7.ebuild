@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QT-PyQt-PySide-Custom-Widgets"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Custom widgets and widget animations made for QT applications"
 
 HOMEPAGE="https://github.com/KhamisiKibet/QT-PyQt-PySide-Custom-Widgets"
 LICENSE="GNU General Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/e0/20/fd61da3622473b2187ad1a931919d1547eb75d010e82b1be31d2212b2885/QT-PyQt-PySide-Custom-Widgets-${REALVERSION}.tar.gz"
-SOURCEFILE="QT-PyQt-PySide-Custom-Widgets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

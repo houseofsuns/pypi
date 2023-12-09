@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyPhasesRecordloader"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds a record loaders to the pyPhases package"
 
 HOMEPAGE="https://gitlab.com/tud.ibmt.public/pyphases/pyphasesrecordloader/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c1/11/c9f76a7ee941597f04d83bf7eaccbe6b2832fc1f13e78ff7bec3ca7c1d78/pyPhasesRecordloader-${REALVERSION}.tar.gz"
-SOURCEFILE="pyPhasesRecordloader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="INITools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for parsing and using INI-style files"
 
 HOMEPAGE="http://pythonpaste.org/initools/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ff/08/755b5dd7d003e95380a0375f8430a5696ce3063201cf1f6f10d8dd0a40eb/INITools-${REALVERSION}.tar.gz"
-SOURCEFILE="INITools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

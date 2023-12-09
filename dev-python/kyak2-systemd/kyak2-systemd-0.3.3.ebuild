@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kyak2-systemd"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Openbox(WM-Window Manager) Logout screen with Tkinter, for users wh
 
 HOMEPAGE="https://github.com/UnbalancedSkunk/Kyak2"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/fd/ca/41e5225c2d7020e1f4a2a7376f64d87d29d90caa18e7baf112950fc5adc3/Kyak2-systemd-${REALVERSION}.tar.gz"
-SOURCEFILE="Kyak2-systemd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

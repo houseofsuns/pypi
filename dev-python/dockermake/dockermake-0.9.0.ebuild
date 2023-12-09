@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DockerMake"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Build manager for docker images"
 
 HOMEPAGE="https://github.com/avirshup/dockermake"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c5/32/2fff052d08a5be06bf93a30fa63c0c6f59221fe12af4a9dc48ce2b43a6f4/DockerMake-${REALVERSION}.tar.gz"
-SOURCEFILE="DockerMake-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

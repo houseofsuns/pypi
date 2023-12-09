@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="APIactModule"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/siraisi368/APIActionModule"
 LICENSE="Apache License2.0"
-SRC_URI="https://files.pythonhosted.org/packages/75/48/c9342260695d072508f6a5272d91da1778a74f7217080d2f44086cb5eb89/APIactModule-${REALVERSION}.tar.gz"
-SOURCEFILE="APIactModule-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

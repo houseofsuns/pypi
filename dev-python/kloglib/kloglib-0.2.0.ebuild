@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KLogLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/javifriasj/KLog/releases/tag/0.2.0"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/60/2e/dc51fa66258ae39b94dec212567fca1e5dd1724c4c9574aefa2a0ff00f3f/KLogLib-${REALVERSION}.tar.gz"
-SOURCEFILE="KLogLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

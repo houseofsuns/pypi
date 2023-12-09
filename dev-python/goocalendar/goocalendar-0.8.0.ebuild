@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GooCalendar"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A calendar widget for GTK using PyGoocanvas"
 
 HOMEPAGE="https://pypi.python.org/pypi/goocalendar"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/24/ce/cf8ca7d0ed791b4b8f5e48b6d29800cb9b2d2a3b90faef61c0fb5bdeb9de/GooCalendar-${REALVERSION}.tar.gz"
-SOURCEFILE="GooCalendar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

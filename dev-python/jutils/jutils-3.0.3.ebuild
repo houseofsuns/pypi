@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package containing various utility functions i needed now and then,
 
 HOMEPAGE="https://github.com/Logogistiks/JUtils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f4/22/c672b0336abf6ef5ceeba7cae0ce21cb53a6590f18c2111a3916cf4491fb/JUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="JUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

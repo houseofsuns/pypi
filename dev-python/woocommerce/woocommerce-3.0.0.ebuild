@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WooCommerce"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python wrapper for the WooCommerce REST API"
 
 HOMEPAGE="https://github.com/woocommerce/wc-api-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/e1/a65781f73ae47c59900e6a88a07af42109233c9f4e8be4e0a8051c817893/WooCommerce-${REALVERSION}.tar.gz"
-SOURCEFILE="WooCommerce-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="classicML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An easy-to-use ML framework"
 
 HOMEPAGE="https://github.com/sun1638650145/classicML"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6d/09/80490d42a70e6ad553599669e96c01cb61961147b3872ae36b201e8d8786/classicML-${REALVERSION}.tar.gz"
-SOURCEFILE="classicML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

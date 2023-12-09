@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="txAWS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Async library for EC2, OpenStack, and Eucalyptus"
 
 HOMEPAGE="https://github.com/twisted/txaws"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/9a/aae08d96e6de9c77903d8dca2ba8924d48635e03d4098ff8106cb12c649c/txAWS-${REALVERSION}.tar.gz"
-SOURCEFILE="txAWS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

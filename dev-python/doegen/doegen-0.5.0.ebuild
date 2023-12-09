@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DoEgen"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DoEgen: A Python Library for Optimised Design of Experiment Generat
 
 HOMEPAGE="https://github.com/sebhaan/DoEgen"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/28/fa3a75ac985c397d84b6493b695fdd871a3194a61d0f1772be56c9ce36d2/DoEgen-${REALVERSION}.tar.gz"
-SOURCEFILE="DoEgen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

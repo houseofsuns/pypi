@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Eve-Mongoengine2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An Eve extension for Mongoengine ODM support"
 
 HOMEPAGE="https://github.com/wangsha/eve-mongoengine"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d2/b1/3a97d7e5b2494271ffe0626ebda204dce5ff8f4a6ed98ed5fc81167feb35/Eve-Mongoengine2-${REALVERSION}.linux-x86_64.tar.gz"
-SOURCEFILE="Eve-Mongoengine2-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

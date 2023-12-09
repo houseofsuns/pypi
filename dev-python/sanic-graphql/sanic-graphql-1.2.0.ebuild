@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Sanic-GraphQL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds GraphQL support to your Sanic application"
 
 HOMEPAGE="https://github.com/graphql-python/sanic-graphql"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/e9/f04e17c0cecbe52349a9a6582e5749233bb71392354b3c4e1a64024f8445/Sanic-GraphQL-${REALVERSION}.tar.gz"
-SOURCEFILE="Sanic-GraphQL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

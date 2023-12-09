@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PythonCoordinates"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A collection of classes for representing the physical measurable qu
 
 HOMEPAGE="https://gitlab.com/frankmobley/physical_quantities_coordinates"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/cf/9a33738f69f454ca14f03896187bea7b271915e70f56d8c5e1288d5c895a/PythonCoordinates-${REALVERSION}.tar.gz"
-SOURCEFILE="PythonCoordinates-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

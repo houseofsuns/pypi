@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LoProp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LoProp: localized molecular properties"
 
 HOMEPAGE="https://github.com/vahtras/loprop"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ce/93/f74f466db4147f6df2e8eaad0b3ad1031004b57ee374d9c5aea55011a46d/LoProp-${REALVERSION}.tar.gz"
-SOURCEFILE="LoProp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HUNANA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="HUNANA"
 
 HOMEPAGE="https://github.com/pu-sds/hunana"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/a5/1e8d7baffcf71d5c76b2dfc0cf59963150e045e220152ca93cc3bf1ff0fb/HUNANA-${REALVERSION}.tar.gz"
-SOURCEFILE="HUNANA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

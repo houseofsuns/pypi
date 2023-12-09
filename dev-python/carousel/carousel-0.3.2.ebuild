@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Carousel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Model Simulation Framework"
 
 HOMEPAGE="https://github.com/SunPower/Carousel"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/9e/1b/431852473e2143e88b4ff9979ae39783c6a01eeae09915d5bd7eab527abb/Carousel-${REALVERSION}.tar.gz"
-SOURCEFILE="Carousel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

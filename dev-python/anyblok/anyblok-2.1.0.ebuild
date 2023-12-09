@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AnyBlok"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Anyblok is a dynamic injection blok framework"
 
 HOMEPAGE="https://doc.anyblok.org/en/1.4.0/"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/49/da/f5710f3b9bf735fc729a9074fbb52d3dfd9df309e99a61b13054908d053d/AnyBlok-${REALVERSION}.tar.gz"
-SOURCEFILE="AnyBlok-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

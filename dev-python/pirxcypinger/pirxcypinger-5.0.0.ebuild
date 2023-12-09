@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PirxcyPinger"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Async Tool For Uploading URL's To PirxcyPinger"
 
 HOMEPAGE="https://pirxcypingerfinal.pirxcy1942.repl.co/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/00/65c6af93364196e58580db19d36945654cb8f5b9566492832c0d8f6f2f0e/PirxcyPinger-${REALVERSION}.tar.gz"
-SOURCEFILE="PirxcyPinger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Choco"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A super-fast templating language that borrows the  best ideas from 
 
 HOMEPAGE="https://github.com/whiteclover/Choco"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/41/c270306772b9459020b44eca26d995903919b3488f096950460ff7fd58d8/Choco-${REALVERSION}.tar.gz"
-SOURCEFILE="Choco-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

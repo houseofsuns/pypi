@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TCRcloud"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="TCRcloud is an AIRR visualization and comparison tool"
 
 HOMEPAGE="https://github.com/eriicdesousa/TCRcloud"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/e9/4362a6a2e31ab1044a478066364e14da073f301537da77a09fbb3e822f43/TCRcloud-${REALVERSION}.tar.gz"
-SOURCEFILE="TCRcloud-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

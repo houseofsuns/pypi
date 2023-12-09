@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ExAssist"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Experiment Assist"
 
 HOMEPAGE="https://github.com/flyaway1217/ExAssist"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/79/e1/4cf0403e76bc516929eb3e80399eeacdab73968b1b6f7aeffa212137d4ac/ExAssist-${REALVERSION}.tar.gz"
-SOURCEFILE="ExAssist-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

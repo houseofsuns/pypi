@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Autowire"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple dependency injection."
 
 HOMEPAGE="https://github.com/hardtack/autowire"
 LICENSE="MIT LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/7f/bc/ab1677ad4f602c0931bd35a2397d17aedbe7fc737febc5fef95174d6f262/Autowire-${REALVERSION}.tar.gz"
-SOURCEFILE="Autowire-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

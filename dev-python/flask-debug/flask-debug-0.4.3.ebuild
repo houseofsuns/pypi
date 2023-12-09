@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Debug"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Shows reflection/configuration to aid the development of Flask appl
 
 HOMEPAGE="http://github.com/mbr/flask-debug"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e3/a9/e54d3ea6a04a809e83eb547bcec65f82a6e77570fbb0c7831e903000b969/Flask-Debug-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Debug-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

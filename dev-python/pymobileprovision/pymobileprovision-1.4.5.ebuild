@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMobileProvision"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python3, parse \".mobileprovision\" file in MacOS System;"
 
 HOMEPAGE="https://github.com/shede333/PyMobileProvision"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bd/27/d47095f81d77b91f4338b136e5b029361a585d568f3743a6337ea8ac0331/PyMobileProvision-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMobileProvision-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Reddit-ChatBot-Python"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="an event-driven chatbot library for reddit chatrooms"
 
 HOMEPAGE="https://github.com/scrubjay55/Reddit_ChatBot_Python.git"
 LICENSE="APLv2"
-SRC_URI="https://files.pythonhosted.org/packages/14/63/c8224dcb522acd18adbfaa890ba8389c4efdd135e9ad736206f9f49e7f47/Reddit_ChatBot_Python-${REALVERSION}.tar.gz"
-SOURCEFILE="Reddit_ChatBot_Python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

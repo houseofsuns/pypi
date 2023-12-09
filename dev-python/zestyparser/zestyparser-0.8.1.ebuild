@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ZestyParser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Write less parsing code. Write nicer parsing code. Have fun with it
 
 HOMEPAGE="http://adamatlas.org/2006/12/ZestyParser/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/cf/508324350113ba798db436a5b89e624b37aaeff4a5dba8808f8d948d8ab1/ZestyParser-${REALVERSION}.tar.gz"
-SOURCEFILE="ZestyParser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

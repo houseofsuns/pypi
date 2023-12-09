@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-OpenTracing"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OpenTracing support for Flask applications"
 
 HOMEPAGE="http://github.com/opentracing-contrib/python-flask"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/58/6c/6417701ba5ecc8854670c6db3207bcc3e5fbc96289a7cb18d5516d99a1c6/Flask-OpenTracing-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-OpenTracing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

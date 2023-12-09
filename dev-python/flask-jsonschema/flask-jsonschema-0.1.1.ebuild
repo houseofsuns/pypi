@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-JsonSchema"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for validating JSON requets"
 
 HOMEPAGE="https://github.com/mattupstate/flask-jsonschema"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/3d/1b3a57332cc80c2abc8accf8df7b07ba986109f9d477d7e846976e466edb/Flask-JsonSchema-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-JsonSchema-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

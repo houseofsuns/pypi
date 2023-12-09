@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="inStrain"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Calculation of strain-level metrics"
 
 HOMEPAGE="https://github.com/MrOlm/inStrain"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/09/13/db14d5f1573016a7ba91a9a58e288b9185466996540be20753e26a40db53/inStrain-${REALVERSION}.tar.gz"
-SOURCEFILE="inStrain-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

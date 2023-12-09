@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BinanceAsyncWebsocket"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Binance asynchronous websocket SDK"
 
 HOMEPAGE="https://github.com/monk-after-90s/BinanceAsyncWebsocket"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/00/642370cdc877d4c5f9747e6a20d551dc6ee2bb24265bcfaf691227d8aa80/BinanceAsyncWebsocket-${REALVERSION}.tar.gz"
-SOURCEFILE="BinanceAsyncWebsocket-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

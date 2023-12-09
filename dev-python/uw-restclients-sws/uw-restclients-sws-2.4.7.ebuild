@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UW-RestClients-SWS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for connecting to the SWS at the University of Washington
 
 HOMEPAGE="https://github.com/uw-it-aca/uw-restclients-sws"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/18/e0/cb8f83be773f5f0f688de10d4d01c56f3e5a3506014bba3b6cdde074ba36/UW-RestClients-SWS-${REALVERSION}.tar.gz"
-SOURCEFILE="UW-RestClients-SWS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

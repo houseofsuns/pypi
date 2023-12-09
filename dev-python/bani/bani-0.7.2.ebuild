@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Bani"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/captanlevi/FAQ-QnA-matching.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/ef/4d7d4c879182d009b66c12232a3af08fcf1056a1e04653054ce458d76481/Bani-${REALVERSION}.tar.gz"
-SOURCEFILE="Bani-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SignalCliAPi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python3 API to the signal-cli application."
 
 HOMEPAGE="https://peternearing.ca/signal"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b7/ee/258972c969205c54f0f35c1801150d848fe9ee92cb23c80414f2a24a974d/SignalCliAPi-${REALVERSION}.tar.gz"
-SOURCEFILE="SignalCliAPi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

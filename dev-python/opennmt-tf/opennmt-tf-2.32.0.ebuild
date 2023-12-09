@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenNMT-tf"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Neural machine translation and sequence learning using TensorFlow"
 
 HOMEPAGE="https://opennmt.net"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/39/a7/aa003550a746f2c843718b55f21a6697a61b2c9e10587c5ba0fa4b62708b/OpenNMT-tf-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenNMT-tf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

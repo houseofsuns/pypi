@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="xUnique"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A converter of the Xcode project file to make merging it much easie
 
 HOMEPAGE="https://github.com/truebit/xUnique"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/64/e0/bd7e2ce2c78145578eea4c3e8d8cf2cd735545fb03207544e0a44e3410d4/xUnique-${REALVERSION}.tar.gz"
-SOURCEFILE="xUnique-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

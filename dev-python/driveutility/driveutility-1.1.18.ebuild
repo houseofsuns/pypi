@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DriveUtility"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Google Drive tool"
 
 HOMEPAGE="https://github.com/PeterGabaldon/DriveUtility"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/74/43bc106164ee65f76c9bb5a9972eef002c0960f15c4c77f56d4d3c19ea9d/DriveUtility-${REALVERSION}.tar.gz"
-SOURCEFILE="DriveUtility-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

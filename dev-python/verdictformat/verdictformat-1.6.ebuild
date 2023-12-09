@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VerdictFormat"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="To format verdict"
 
 HOMEPAGE="https://github.com/Josiriser/VerdictFormat"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/e2/fd0f8c2d670b52b0767a7677ee2bc465e47c157275dd976d93f09f8d7cc3/VerdictFormat-${REALVERSION}.tar.gz"
-SOURCEFILE="VerdictFormat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

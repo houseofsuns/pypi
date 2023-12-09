@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ibmBluegroup"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="IBM Bluegroup API"
 
 HOMEPAGE="https://github.com/ThomasIBM/ibmBluegroup"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/09/ca/54818d18148eeb07954f0dfb6e2bda27e067fdd332d5a4b6f2f252116ab6/ibmBluegroup-${REALVERSION}.tar.gz"
-SOURCEFILE="ibmBluegroup-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

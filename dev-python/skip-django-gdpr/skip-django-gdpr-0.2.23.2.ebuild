@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="skip-django-GDPR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for GDPR implementation"
 
 HOMEPAGE="https://github.com/skip-pay/django-GDPR"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/4a/d93231b171fecf68e94c6749070cd3703f1622aae41a47073b25561acc6c/skip-django-GDPR-${REALVERSION}.tar.gz"
-SOURCEFILE="skip-django-GDPR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

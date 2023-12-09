@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="python-Levenshtein"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python extension for computing string edit distances and similariti
 
 HOMEPAGE="https://github.com/maxbachmann/python-Levenshtein"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/06/3d/d238db3ca97bf749abcec7146991ab5a1ef71610daf8e331eb86f3dddb25/python-Levenshtein-${REALVERSION}.tar.gz"
-SOURCEFILE="python-Levenshtein-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

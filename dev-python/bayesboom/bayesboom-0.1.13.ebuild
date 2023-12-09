@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BayesBoom"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for Bayesian modeling."
 
 HOMEPAGE="https://github.com/steve-the-bayesian/BOOM"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/71/3572d5d9f48b9b0efc729b2745e6b571ff84be1660d9a164a98d7d6e40b7/BayesBoom-${REALVERSION}.tar.gz"
-SOURCEFILE="BayesBoom-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KiwiDist"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Combining gene-set analysis with network properties."
 
 HOMEPAGE="UNKNOWN"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/53/79/6a1a0511fbfa338eea24b4d5386c522ea285f8fe9aea7c16bc16495edf58/KiwiDist-${REALVERSION}.tar.gz"
-SOURCEFILE="KiwiDist-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

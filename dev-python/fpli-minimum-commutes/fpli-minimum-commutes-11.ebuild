@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FPLI-Minimum-Commutes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FPLI Inter-District Minimum Commute Estimator"
 
 HOMEPAGE="https://github.com/kdewey13/CIS4914-Minimum_Commute_FPLI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/29/0cf9be2351b848f6b550bafd1239e96dc3311286d317d852467308e43ce1/FPLI_Minimum_Commutes-${REALVERSION}.tar.gz"
-SOURCEFILE="FPLI_Minimum_Commutes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

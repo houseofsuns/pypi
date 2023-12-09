@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pySecDec"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Numerical evaluator of integrals implementing the \"Sector Decompos
 
 HOMEPAGE="https://github.com/gudrunhe/secdec"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d9/56/a692006425040435a6fe18969e222b61865dd2e70a8549353187f79e02f9/pySecDec-${REALVERSION}.tar.gz"
-SOURCEFILE="pySecDec-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

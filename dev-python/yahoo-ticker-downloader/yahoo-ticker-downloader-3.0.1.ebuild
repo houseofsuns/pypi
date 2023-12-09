@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Yahoo-ticker-downloader"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A web scraper for ticker symbols from yahoo finance"
 
 HOMEPAGE="https://github.com/Benny-/Yahoo-ticker-symbol-downloader"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/26/c6/012180ba63223f39bfea186f04e19840381a9bc22a2fc15a7aecb0b8d90d/Yahoo-ticker-downloader-${REALVERSION}.tar.gz"
-SOURCEFILE="Yahoo-ticker-downloader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

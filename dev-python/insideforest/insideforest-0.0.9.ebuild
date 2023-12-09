@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="InsideForest"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A comprehensive library for describing and analyzing data insights 
 
 HOMEPAGE="https://github.com/jcval94/InsideForest.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/22/9956136e10d97f1db7a65b7094c6c02cbcd9eae4e287227751b2d9a29562/InsideForest-${REALVERSION}.tar.gz"
-SOURCEFILE="InsideForest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

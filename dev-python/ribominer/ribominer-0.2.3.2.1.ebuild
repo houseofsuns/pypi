@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RiboMiner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python toolset for mining multi-dimensional features of the trans
 
 HOMEPAGE="https://github.com/xryanglab/RiboMiner"
 LICENSE="GPLv3.0"
-SRC_URI="https://files.pythonhosted.org/packages/95/ca/3de3a9f49c46ef1173169c8f7f19e38303e8fa662046285072a4a31ea80a/RiboMiner-${REALVERSION}.tar.gz"
-SOURCEFILE="RiboMiner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

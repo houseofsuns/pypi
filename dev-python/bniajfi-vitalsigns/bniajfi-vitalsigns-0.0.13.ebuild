@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BNIAJFI-VitalSigns"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Scripts for BNIA-JFIs Vital Signs Data"
 
 HOMEPAGE="https://github.com/bnia/VitalSigns/tree/main/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/24/c6/9a2cf12627a6b3be222739ff3dbf16ae579028df34fcdb1d14eb231f630f/BNIAJFI_VitalSigns-${REALVERSION}.tar.gz"
-SOURCEFILE="BNIAJFI_VitalSigns-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BDXConverter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A code library to marshal, unmarshal, visual and reverse visualizat
 
 HOMEPAGE="https://github.com/TriM-Organization/BDXConverter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3c/90/7e3ef84fff80d3614bdc6d28265eab2ad728710324a23f99e3dc84243173/BDXConverter-${REALVERSION}.tar.gz"
-SOURCEFILE="BDXConverter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

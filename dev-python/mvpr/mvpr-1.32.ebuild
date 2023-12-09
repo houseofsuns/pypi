@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MVPR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Multi-variable polynomial regression for curve fitting."
 
 HOMEPAGE="https://github.com/Joel-H-dot/MVPR"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d3/54/8dc6c69cb1841d2cfe774e6522224bdeb1c820db642612ecd59b7be3dd8a/MVPR-${REALVERSION}.tar.gz"
-SOURCEFILE="MVPR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Genshi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A toolkit for generation of output for the web"
 
 HOMEPAGE="https://github.com/edgewall/genshi"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d5/13/bdb68fb9652bb145c341756fbe9563a270fd385ff11410837b59d98ab178/Genshi-${REALVERSION}.tar.gz"
-SOURCEFILE="Genshi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

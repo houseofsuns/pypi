@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MEAutility"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package for multi-electrode array (MEA) handling and stimula
 
 HOMEPAGE="https://github.com/alejoe91/MEAutility"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/40/30/a9f957ad8fe00721e9a5fdef433f8c261eaac816c776adfebe9d1f059063/MEAutility-${REALVERSION}.tar.gz"
-SOURCEFILE="MEAutility-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

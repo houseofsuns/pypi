@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Oasys-Canvas-Core"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Core component of Oasys Canvas"
 
 HOMEPAGE="http://orange.biolab.si/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e9/53/b463e70b644e9d58897816590c22e42db15a5d41aa0601a48ce5642892d4/Oasys-Canvas-Core-${REALVERSION}.tar.gz"
-SOURCEFILE="Oasys-Canvas-Core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

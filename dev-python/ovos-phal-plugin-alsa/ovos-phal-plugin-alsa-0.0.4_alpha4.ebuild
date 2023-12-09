@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ovos-PHAL-plugin-alsa"
 REALVERSION="0.0.4a4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A volume control plugin for OpenVoiceOS hardware abstraction layer"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-PHAL-plugin-alsa"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/23/ff/79d0d93fc17876d07ca8f0bb47957b8ffe21f3800a40ebe81074b3080f46/ovos-PHAL-plugin-alsa-${REALVERSION}.tar.gz"
-SOURCEFILE="ovos-PHAL-plugin-alsa-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

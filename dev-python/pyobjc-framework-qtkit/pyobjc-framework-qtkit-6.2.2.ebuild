@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyobjc-framework-QTKit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Wrappers for the framework QTKit on macOS"
 
 HOMEPAGE="https://github.com/ronaldoussoren/pyobjc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/01/3a895e97e610f56f7d251a4ce6ebe2005db51fb5c88c4ad5fbdf3669e413/pyobjc-framework-QTKit-${REALVERSION}.tar.gz"
-SOURCEFILE="pyobjc-framework-QTKit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Bubot-WebServer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Web server for Bubot"
 
 HOMEPAGE="https://github.com/businka/Bubot_WebServer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/84/02/689674db84a0711de2211035a1eaf3af9b8ebf0f2fbf7f4828abb50d9522/Bubot_WebServer-${REALVERSION}.tar.gz"
-SOURCEFILE="Bubot_WebServer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

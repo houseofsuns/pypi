@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyQuASAR-genotype"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Command line tool for genotyping with QuASAR"
 
 HOMEPAGE="https://gitlab.com/aaylward/pyQuASAR_genotype"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/3c/4758bcd08412cb74b7c37603877d36c6a989266e04a9f9dc7ef97f80a585/pyQuASAR_genotype-${REALVERSION}.tar.gz"
-SOURCEFILE="pyQuASAR_genotype-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

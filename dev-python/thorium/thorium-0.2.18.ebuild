@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Thorium"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python framework for RESTful API interfaces in Flask"
 
 HOMEPAGE="https://github.com/EventMobi/thorium"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/48/d4/d59df5358adc41c075172c5001e842ee4833f0ad7b5c5aef194e9608798e/Thorium-${REALVERSION}.tar.gz"
-SOURCEFILE="Thorium-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

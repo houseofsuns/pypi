@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CoreNLG"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/societe-generale/core-nlg.git"
 LICENSE="Apache v2"
-SRC_URI="https://files.pythonhosted.org/packages/1c/fb/27ca739407f2a03c46afbec5dd7e5dd94f4386fe6cf34b4e4e93adb29159/CoreNLG-${REALVERSION}.tar.gz"
-SOURCEFILE="CoreNLG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

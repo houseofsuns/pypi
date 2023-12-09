@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="APIxoo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python wrapper for Divoom Pixoo server API"
 
 HOMEPAGE="https://github.com/redphx/apixoo"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/84/6b1b9a50030b5740df95ab72094cda7ef1dc4df80e94b734aa0737bf537e/APIxoo-${REALVERSION}.tar.gz"
-SOURCEFILE="APIxoo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

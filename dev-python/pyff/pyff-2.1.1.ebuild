@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyFF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Federation Feeder"
 
 HOMEPAGE="https://pyff.io"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b5/81/8641ba2e4fb1964dd6867f34236d2710aa15e8cfca57f29aa0833252e0d5/pyFF-${REALVERSION}.tar.gz"
-SOURCEFILE="pyFF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

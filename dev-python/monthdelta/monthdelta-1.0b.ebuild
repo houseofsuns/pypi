@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MonthDelta"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="date computations with months"
 
 HOMEPAGE="http://pypi.python.org/pypi/MonthDelta"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d1/ce/0d02f8b3f7138c93dc086c9a6830f1a17c604640293c80f2164887d83784/MonthDelta-${REALVERSION}.zip"
-SOURCEFILE="MonthDelta-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

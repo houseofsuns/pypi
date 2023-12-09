@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pySAXS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python for Small Angle X-ray Scattering data treatment"
 
 HOMEPAGE="http://iramis.cea.fr/nimbe/lions/"
 LICENSE="CeCILL"
-SRC_URI="https://files.pythonhosted.org/packages/f5/ee/22197210affc36bce2827bfab2faab46d6c3ab1d41e0651227f2feb57b0f/pySAXS-${REALVERSION}.tar.gz"
-SOURCEFILE="pySAXS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

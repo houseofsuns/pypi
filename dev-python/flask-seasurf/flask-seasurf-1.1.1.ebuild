@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-SeaSurf"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An updated CSRF extension for Flask."
 
 HOMEPAGE="https://github.com/maxcountryman/flask-seasurf/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/02/62/b0dec6dac58e442211e0a3733213758225e361843b679dae57674964a09e/Flask-SeaSurf-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-SeaSurf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

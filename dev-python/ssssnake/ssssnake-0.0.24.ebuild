@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SSSsnake"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="IPythonDisplayTurtles edited for my school's python courses"
 
 HOMEPAGE="https://github.com/atahan-git/SSSsnake"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/84/3a/6f66f089db2d1452e21853b3a92578613b8fc5ca8a1779704a0d10dfe073/SSSsnake-${REALVERSION}.tar.gz"
-SOURCEFILE="SSSsnake-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

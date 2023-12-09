@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Bootstrap-Flask"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bootstrap 4 & 5 helper for your Flask projects."
 
 HOMEPAGE="https://github.com/helloflask/bootstrap-flask"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/09/214cba688cd2a4f9ffac6f54bb9ba6b3eff13a7ef1e8b47d933044f27c39/Bootstrap-Flask-${REALVERSION}.tar.gz"
-SOURCEFILE="Bootstrap-Flask-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

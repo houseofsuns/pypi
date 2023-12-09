@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySpeedMacro"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A fast and easy library for scripting and macroing"
 
 HOMEPAGE="https://github.com/BaneofRogue/PySpeedMacro"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d6/2e/75198d62efcdf31e6ffa72011c944190ba9e4949654b64a0f558ccb2c81e/PySpeedMacro-${REALVERSION}.tar.gz"
-SOURCEFILE="PySpeedMacro-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

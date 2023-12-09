@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Spinmob"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Data handling, plotting, analysis, and GUI building for scientific 
 
 HOMEPAGE="https://github.com/Spinmob/spinmob"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/11/52ad5d53704a9894e439163d1903f250760bc3a3f5cd3f0ede0bef20e58e/Spinmob-${REALVERSION}.tar.gz"
-SOURCEFILE="Spinmob-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

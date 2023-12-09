@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GloboNetworkAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GloboNetworkAPI Client Python"
 
 HOMEPAGE="https://github.com/globocom/GloboNetworkAPI-client-python"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/e0/de/d0bfdd2f0eb45dea8c41c9bdc62ff68a64a61d38f4e734e29a1ced06c2a7/GloboNetworkAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="GloboNetworkAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

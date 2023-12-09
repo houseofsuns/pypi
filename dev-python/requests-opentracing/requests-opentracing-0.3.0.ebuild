@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Requests-OpenTracing"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OpenTracing support for Requests"
 
 HOMEPAGE="http://github.com/opentracing-contrib/python-requests"
 LICENSE="Apache Software License v2"
-SRC_URI="https://files.pythonhosted.org/packages/0f/a3/b0c18a20042aec5d2cb6724123752167895c4873a90ff59de91f2ddc3432/Requests-OpenTracing-${REALVERSION}.tar.gz"
-SOURCEFILE="Requests-OpenTracing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

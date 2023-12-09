@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Multi-Template-Matching"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Object-recognition in images using multiple templates"
 
 HOMEPAGE="https://github.com/multi-template-matching/MultiTemplateMatching-Python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/04/0d/3633b11096c86cb78316ac66efff00007affe3a4e590c259287f20c92d8e/Multi-Template-Matching-${REALVERSION}.tar.gz"
-SOURCEFILE="Multi-Template-Matching-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Metage2Metabo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automatic reconstruction of draft metabolic networks with Pathway T
 
 HOMEPAGE="https://github.com/aureme/metage2metabo"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/3c/ec/63d4bab6da2e19c7f5abfd266de5586aad88cbe6bf07b9b19aeacf6cb797/Metage2Metabo-${REALVERSION}.tar.gz"
-SOURCEFILE="Metage2Metabo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

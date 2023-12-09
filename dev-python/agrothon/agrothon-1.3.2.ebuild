@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Agrothon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Farm Monitoring Bot"
 
 HOMEPAGE="https://github.com/viswanathbalusu/agrothon"
 LICENSE="GPL3.0"
-SRC_URI="https://files.pythonhosted.org/packages/d0/a0/cc814cd6c200ec7e3cf49c8b70c03b0fb651912ce113ca69a12d889ea5ba/Agrothon-${REALVERSION}.tar.gz"
-SOURCEFILE="Agrothon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

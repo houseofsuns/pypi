@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PartSeg-smfish"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PartSeg and napari plugin for smfish data"
 
 HOMEPAGE="https://github.com/4DNucleome/PartSeg-smfish"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c8/1d/a2427e4aa040e53e3f1ae6db071099e7f2df1b044027a63531b3e7f2f4de/PartSeg-smfish-${REALVERSION}.tar.gz"
-SOURCEFILE="PartSeg-smfish-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="proJSON"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python library to compress a dict into a bytearray."
 
 HOMEPAGE="https://github.com/The-Geiger-Network-Project/proJSON/tree/main"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/46/54177db595d31a71ba572d7f7a5cc3cc40590294c8b13a5629bfde186f63/proJSON-${REALVERSION}.tar.gz"
-SOURCEFILE="proJSON-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AIFunction"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate realtime AI Functions!"
 
 HOMEPAGE="https://github.com/nekumelon/AIFunction"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/29/f3a19886d6ed8b1e70289570cef2a9b52c671f30620318b1ca75fd0bd511/AIFunction-${REALVERSION}.tar.gz"
-SOURCEFILE="AIFunction-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

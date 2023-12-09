@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AltAnalyze"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="User Friendly Application for Comprehensive Transcriptome Analysis"
 
 HOMEPAGE="http://www.altanalyze.org"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d7/10/7c6a7774fb09e19b8a08b7589164d3b89d4ae562040932acaff243f1e80d/AltAnalyze-${REALVERSION}.tar.gz"
-SOURCEFILE="AltAnalyze-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

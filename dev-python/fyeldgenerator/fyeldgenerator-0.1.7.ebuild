@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FyeldGenerator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple package to symmetric generate random field."
 
 HOMEPAGE="https://github.com/cphyc/FyeldGenerator"
 LICENSE="CC-BY-SA2.0"
-SRC_URI="https://files.pythonhosted.org/packages/14/57/19d19ecb4750b68eca303f6a2561d37988b282203a3843f68d7e0c0cb578/FyeldGenerator-${REALVERSION}.tar.gz"
-SOURCEFILE="FyeldGenerator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

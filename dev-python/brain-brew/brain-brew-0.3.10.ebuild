@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Brain-Brew"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automated Anki flashcard creation and extraction to/from Csv"
 
 HOMEPAGE="https://github.com/ohare93/brain-brew"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/20/bd/76e72f0c656dd231b3460bcb5b799a05ffea1c7549d821420405744f174f/Brain-Brew-${REALVERSION}.tar.gz"
-SOURCEFILE="Brain-Brew-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

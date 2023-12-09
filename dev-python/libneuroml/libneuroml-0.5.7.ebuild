@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="libNeuroML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library for working with NeuroML descriptions of neuronal 
 
 HOMEPAGE="http://libneuroml.readthedocs.org/en/latest/"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/e7/8e/98c13f20419315fe93d7ada4dbf6a04dfb83f9885386946c7973ebd3c258/libNeuroML-${REALVERSION}.tar.gz"
-SOURCEFILE="libNeuroML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

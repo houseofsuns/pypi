@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ScoutSuite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Scout Suite, a multi-cloud security auditing tool"
 
 HOMEPAGE="https://github.com/nccgroup/ScoutSuite"
 LICENSE="GNU General Public License v2 GPLv2"
-SRC_URI="https://files.pythonhosted.org/packages/1f/9c/3d8b7323ef163f1fe3f4d1176676ba474e4bd2568cfd6004d6f9ebcd05a3/ScoutSuite-${REALVERSION}.tar.gz"
-SOURCEFILE="ScoutSuite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

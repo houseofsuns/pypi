@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Wenxin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a reverse engineering of ERNIEBot"
 
 HOMEPAGE="https://github.com/Soulter/ERNIEBot"
 LICENSE="GNU Affero General Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/1f/ec/b0bf75be2191ff0c869fce84a2b26cd904c6bdf3b06747430b156f83f6d1/Wenxin-${REALVERSION}.tar.gz"
-SOURCEFILE="Wenxin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

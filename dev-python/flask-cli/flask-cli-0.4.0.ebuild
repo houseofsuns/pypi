@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-CLI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Backport of Flask 1.0 new click integration."
 
 HOMEPAGE="http://github.com/inveniosoftware/flask-cli/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/96/aa/12256c6efd795e4d14a3b22a021ec337b403680ec57127a546c4b72daeb0/Flask-CLI-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-CLI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

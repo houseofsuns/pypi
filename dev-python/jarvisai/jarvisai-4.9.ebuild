@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JarvisAI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="JarvisAI is python library to build your own AI virtual assistant w
 
 HOMEPAGE="https://github.com/Dipeshpal/Jarvis_AI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/98/d9/6c230c26510d3ee70f13e6b424d1a6e606c9278a03696d85f6a63b4adc3f/JarvisAI-${REALVERSION}.tar.gz"
-SOURCEFILE="JarvisAI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

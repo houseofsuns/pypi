@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BPTK-Py"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python simulation engine for System Dynamics & Agent based models
 
 HOMEPAGE="https://www.transentis.com/business-prototyping-toolkit/en"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/48/97/5ca0e153aadf70114c268e1305f9c778b18d4b16fe34af1538618d5bc356/BPTK_Py-${REALVERSION}.tar.gz"
-SOURCEFILE="BPTK_Py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

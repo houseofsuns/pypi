@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Husky"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An advanced serializing library like pickle but can seralize more, 
 
 HOMEPAGE="https://github.com/Tefx/Husky"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/25/1e/3402e7ddfceb3b07dfaea6b51ed95cc04b2b98f591a3eeb3980006523472/Husky-${REALVERSION}.tar.gz"
-SOURCEFILE="Husky-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

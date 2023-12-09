@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ACTIONet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ACTIONet single-cell analysis framework"
 
 HOMEPAGE="https://github.com/shmohammadi86/ACTIONet"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/38/ae/6780f3d35072d60af2e0e6d8eae052121ebfa15ef7bdcd4393bb84e496b0/ACTIONet-${REALVERSION}.tar.gz"
-SOURCEFILE="ACTIONet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

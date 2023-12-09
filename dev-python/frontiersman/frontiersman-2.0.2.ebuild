@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Frontiersman"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Network Multiplayer Board Game"
 
 HOMEPAGE="https://gitlab.com/csi4930-frontiersman/csi4930-frontiersman"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/e1/e81ea733a7446d28fd0d7980a31ef53c0ac6f7c2583d5d73190ec669b065/Frontiersman-${REALVERSION}.tar.gz"
-SOURCEFILE="Frontiersman-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VTUResults"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Package for accessing VTU Results."
 
 HOMEPAGE="https://github.com/maheshkkumar/VTUResults/"
 LICENSE="GNU General Public License GPL"
-SRC_URI="https://files.pythonhosted.org/packages/71/d6/480ccb6bb26a2acafb972c38b3c77c01cbd9b589b447e77b24e0a5220ea2/VTUResults-${REALVERSION}.tar.gz"
-SOURCEFILE="VTUResults-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

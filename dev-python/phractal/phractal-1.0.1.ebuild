@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Phractal"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tool for creating HTML documents programmatically with Python"
 
 HOMEPAGE="https://github.com/Hauteclere/phractal"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c4/ec/0895ecf1b35fa8fb205c647d3b8414ed3dbc027892bd33c278ba9d689990/Phractal-${REALVERSION}.tar.gz"
-SOURCEFILE="Phractal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

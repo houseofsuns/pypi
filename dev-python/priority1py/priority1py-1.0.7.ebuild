@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Priority1py"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Priority 1 web API python library"
 
 HOMEPAGE="https://github.com/reid10305/Priority1py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/92/992428f443e49d1c3ec1367dc86623e8ff7fff5dc1ab70e5e71c4fec8267/Priority1py-${REALVERSION}.tar.gz"
-SOURCEFILE="Priority1py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

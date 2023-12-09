@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Plost"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A deceptively simple plotting library for Streamlit"
 
 HOMEPAGE="https://github.com/tvst/plost"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1e/d2/b5eb51b5c1e267de49bee5edd0062e1f6c38079daf486bbeb77137a38aa3/Plost-${REALVERSION}.tar.gz"
-SOURCEFILE="Plost-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

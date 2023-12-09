@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OBITools3"
 REALVERSION="3.0.1b25"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for the management of analyses and data in DNA metabarcod
 
 HOMEPAGE="https://metabarcoding.org/obitools3"
 LICENSE="CeCILL-V2"
-SRC_URI="https://files.pythonhosted.org/packages/9c/9d/bad2c06fbd573662678f94e69df46e79d4c72256ffc5d01f72fae21ac6f1/OBITools3-${REALVERSION}.tar.gz"
-SOURCEFILE="OBITools3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

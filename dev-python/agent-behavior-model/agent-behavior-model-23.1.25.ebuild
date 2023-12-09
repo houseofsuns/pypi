@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Agent-Behavior-Model"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Agent Behavior Model"
 
 HOMEPAGE="https://GitHub.com/IoT-Robotics/Agent-Behavior-Model"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/b1/f9149d241527908bd1ef0da91a517313531b25f53613a7c0d8dee1416580/Agent-Behavior-Model-${REALVERSION}.tar.gz"
-SOURCEFILE="Agent-Behavior-Model-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

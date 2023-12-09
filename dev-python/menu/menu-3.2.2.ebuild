@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Menu"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easily create command-line menus"
 
 HOMEPAGE="https://github.com/drich14/Menu/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/a1/57/66755041c5fa34386869bb4dda9d79938ef1b06b57360c2e0ccbb81d5b27/Menu-${REALVERSION}.tar.gz"
-SOURCEFILE="Menu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TurboJson"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python template plugin that supports JSON"
 
 HOMEPAGE="http://docs.turbogears.org/TurboJson"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/d0/88a89e0ba3a991ef47303f2e08835c4114f689ab52a2b53185af02bde211/TurboJson-${REALVERSION}.tar.gz"
-SOURCEFILE="TurboJson-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

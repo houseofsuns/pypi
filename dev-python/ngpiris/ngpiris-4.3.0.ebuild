@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NGPIris"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="\"Iris is a light-weight tool for interacting with a Boto3 backed H
 
 HOMEPAGE="https://github.com/genomic-medicine-sweden/NGPIris"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/eb/05dfd7fcc7d79d805c39635b819239ab4a0eacf1303352c9c39d2dd51a2d/NGPIris-${REALVERSION}.tar.gz"
-SOURCEFILE="NGPIris-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

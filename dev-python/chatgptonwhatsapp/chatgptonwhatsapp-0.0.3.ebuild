@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChatGPTonWhatsApp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The following is a Python Package [ChatGPTonWhatsApp] that uses the
 
 HOMEPAGE="https://github.com/masterprogramingdotcom/chatgptonwhatsapp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/96/17766706042b25ce8926896ce81a07ec2636b4cddbf6f2a3bf1081dcea25/ChatGPTonWhatsApp-${REALVERSION}.tar.gz"
-SOURCEFILE="ChatGPTonWhatsApp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

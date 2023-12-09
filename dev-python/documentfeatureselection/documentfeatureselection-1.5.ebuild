@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DocumentFeatureSelection"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Various methods of feature selection from Text Data"
 
 HOMEPAGE="https://github.com/Kensuke-Mitsuzawa/DocumentFeatureSelection"
 LICENSE="CeCILL-B"
-SRC_URI="https://files.pythonhosted.org/packages/b2/d8/7af550d2c17096b15619b1832bdc97cecc3ad2af86a2351b85d19df664a9/DocumentFeatureSelection-${REALVERSION}.tar.gz"
-SOURCEFILE="DocumentFeatureSelection-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

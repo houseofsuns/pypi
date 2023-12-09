@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Migrate"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SQLAlchemy database migrations for Flask applications using Alembic
 
 HOMEPAGE="https://github.com/miguelgrinberg/flask-migrate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9b/64/0b0b96fd2401b26628a2a12c4b2953dfef4cb7922b9a9d207cd920cfbfc4/Flask-Migrate-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Migrate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

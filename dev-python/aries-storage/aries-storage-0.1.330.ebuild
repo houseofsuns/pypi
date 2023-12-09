@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Aries-storage"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Read and write files on Google Cloud Storage and Amazon S3 as if th
 
 HOMEPAGE="https://github.com/qiuosier/Aries"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/68/36/399e7d168cdeccc5852ee67eea6b0c4da57b9d5f41714f16e1eb1a322b02/Aries-storage-${REALVERSION}.tar.gz"
-SOURCEFILE="Aries-storage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

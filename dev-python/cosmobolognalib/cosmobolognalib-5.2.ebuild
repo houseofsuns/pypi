@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CosmoBolognaLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="C++ libraries for cosmological calculations"
 
 HOMEPAGE="http://github.com/federicomarulli/CosmoBolognaLib"
 LICENSE="GNU General Public License"
-SRC_URI="https://files.pythonhosted.org/packages/ee/f0/6b7aef8381fad64f157678510b5248564ec3bed423cb8348d7a663ee18da/CosmoBolognaLib-${REALVERSION}.tar.gz"
-SOURCEFILE="CosmoBolognaLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

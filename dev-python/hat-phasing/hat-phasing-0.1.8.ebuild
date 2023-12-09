@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HAT-phasing"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="HAT:  Haplotype assembly tool that use both long and short reads to
 
 HOMEPAGE="https://github.com/AbeelLab/hat"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/80/36/ea9da306e84741547c081535af02cebb3226844ae32a0719848d3dc8fb99/HAT_phasing-${REALVERSION}.tar.gz"
-SOURCEFILE="HAT_phasing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

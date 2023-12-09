@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ZODB3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Zope Object Database: object database and persistence"
 
 HOMEPAGE=""
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/34/5f/5604cdaa9be530e4cfb5a9c885fbe83b63629865d036ec2748003180307c/ZODB3-${REALVERSION}.tar.gz"
-SOURCEFILE="ZODB3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

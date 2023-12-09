@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SpecLab"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python alternative for SAO/DS9+IRAF/imexam"
 
 HOMEPAGE="http://pypi.python.org/pypi/SpecLab/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/71/de37846c294ccccd04990acb71f5cbe063c3652fc9df3a580167c76d4e17/SpecLab-${REALVERSION}.tar.gz"
-SOURCEFILE="SpecLab-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

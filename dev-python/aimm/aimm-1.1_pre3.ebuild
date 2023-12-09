@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AIMM"
 REALVERSION="1.1.dev3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Artificial intelligence model manager"
 
 HOMEPAGE="https://github.com/hat-open/aimm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/5d/87fb86c0c735fcd9d815c731082e12cf1b434d306589ff55ffc2ac90d8a6/AIMM-${REALVERSION}.tar.gz"
-SOURCEFILE="AIMM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

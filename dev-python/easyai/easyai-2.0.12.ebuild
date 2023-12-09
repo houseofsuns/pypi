@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="easyAI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy-to-use game AI algorithms (Negamax etc. )"
 
 HOMEPAGE=""
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/5f/f2/0f799df322bdeffd2dca758c9b64905b8cc7a27415701b751f415a81180b/easyAI-${REALVERSION}.tar.gz"
-SOURCEFILE="easyAI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

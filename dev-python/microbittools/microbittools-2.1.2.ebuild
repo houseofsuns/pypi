@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MicroBitTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library used for helping developing for the BBC microbit easier."
 
 HOMEPAGE="https://github.com/BigCowKing/MicroBitTools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/d0/7d2aa36b742c862214f5d4f0e52654ef84635bab7d9de72edc0588ab041d/MicroBitTools-${REALVERSION}.tar.gz"
-SOURCEFILE="MicroBitTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

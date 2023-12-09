@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="big-O"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Empirical estimation of time complexity from execution time"
 
 HOMEPAGE="https://github.com/pberkes/big_O"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/a8/c1/2191493f715a1a326124f1e6166338b7caa8ffd402fe0d5ce5adfa473990/big_O-${REALVERSION}.tar.gz"
-SOURCEFILE="big_O-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

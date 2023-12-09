@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ceODBC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python interface to ODBC"
 
 HOMEPAGE="https://anthony-tuininga.github.io/ceODBC"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/be/a7/c4bd12fee195f577e81bed01f1de95fc204a360f8bfb2163ca74a7ae1697/ceODBC-${REALVERSION}.tar.gz"
-SOURCEFILE="ceODBC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BMPM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A program for bulk replacement of BYML map file parameters."
 
 HOMEPAGE="https://github.com/SDarkMagic/BMPM-BOTWMapTool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/ef/c4bcb4363b5cb93e18da0ef73589f4e774661c450f74ef6f809e9f8ea61b/BMPM-${REALVERSION}.tar.gz"
-SOURCEFILE="BMPM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

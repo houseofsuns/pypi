@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pyfhel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python for Homomorphic Encryption Libraries"
 
 HOMEPAGE="https://pyfhel.readthedocs.io"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/2d/34/c6b1563a4c7a0fa940e5c9bfd521048bc936236e34deeb7f28cae71bf2d7/Pyfhel-${REALVERSION}.tar.gz"
-SOURCEFILE="Pyfhel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

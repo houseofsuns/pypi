@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyUFbr"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Cidades e estados do Brasil (Tabela IBGE)"
 
 HOMEPAGE="https://github.com/sidon/py-ufbr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/1b/8abd66c800f915e0d7525b398c01faae618a2f4d3c92d35f23da1bbd5744/pyUFbr-${REALVERSION}.tar.gz"
-SOURCEFILE="pyUFbr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

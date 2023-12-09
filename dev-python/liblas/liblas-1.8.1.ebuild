@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="libLAS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LAS 1.0/1.1/1.2 LiDAR data format translation"
 
 HOMEPAGE="http://liblas.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2f/13/1d233142092b9dcfbfd47ec9f3380361e5a7b9061408a809005abe0e60aa/libLAS-${REALVERSION}.tar.gz"
-SOURCEFILE="libLAS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

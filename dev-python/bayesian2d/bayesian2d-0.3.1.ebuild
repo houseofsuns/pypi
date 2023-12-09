@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Bayesian2D"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package used to find the maximum or minimum of any 2D function usin
 
 HOMEPAGE="https://github.com/JRaidal/Bayesian2D"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/db/829d2abe56768e55c3fcea23d520e92e0eff5013de88c7fbcbd08312bc89/Bayesian2D-${REALVERSION}.tar.gz"
-SOURCEFILE="Bayesian2D-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

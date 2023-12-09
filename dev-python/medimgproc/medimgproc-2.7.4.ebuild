@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="medImgProc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Medical Image Processing module for viewing and editing."
 
 HOMEPAGE="https://github.com/WeiXuanChan/medImgProc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/10/a2/63b68347538dd8fb63c8be75bd2dc3eec61d23814dc8c748f2969caf1418/medImgProc-${REALVERSION}.tar.gz"
-SOURCEFILE="medImgProc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

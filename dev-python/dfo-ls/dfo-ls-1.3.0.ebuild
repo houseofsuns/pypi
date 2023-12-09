@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DFO-LS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A flexible derivative-free solver for (bound constrained) nonlinear
 
 HOMEPAGE="https://github.com/numericalalgorithmsgroup/dfols/"
 LICENSE="GNU GPL"
-SRC_URI="https://files.pythonhosted.org/packages/ad/d8/82dcb98493e8a1532652750a0c9c5098fdb8ee5cfd49c4d532bb974813ff/DFO-LS-${REALVERSION}.tar.gz"
-SOURCEFILE="DFO-LS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

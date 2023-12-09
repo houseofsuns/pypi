@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ApiDoc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Api Documentation Generator"
 
 HOMEPAGE="http://solutionscloud.github.io/apidoc/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/57/76/8881ccd63949eb4cab2df10ceb33c4e2793dfbeebcd9f10fe634ba37225e/ApiDoc-${REALVERSION}.tar.gz"
-SOURCEFILE="ApiDoc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

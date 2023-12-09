@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HLL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="HyperLogLog implementation in C for python."
 
 HOMEPAGE="https://github.com/ascv/HyperLogLog"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/83/11c5382811c1df86c08875c38479e117e68f0e16eeac89874f4dcbc1f027/HLL-${REALVERSION}.tar.gz"
-SOURCEFILE="HLL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

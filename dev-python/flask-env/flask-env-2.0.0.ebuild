@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Env"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easily set Flask settings from environment variables"
 
 HOMEPAGE="https://github.com/brettlangdon/flask-env"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/c4/2146ffb5dbbee8718e35dbcda74b416a6a986bf06e4f408a2ce751b6b248/Flask-Env-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Env-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

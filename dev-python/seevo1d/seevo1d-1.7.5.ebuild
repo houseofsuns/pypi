@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="seEvo1D"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Software for simulating slightly effect mutations impact on populat
 
 HOMEPAGE="https://github.com/JGil-polsl/seEvo_1D"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/31/035aa2bbc8cbcf868247d9b158a0246e0ddb40d213603b73fcb86ecdc9c5/seEvo1D-${REALVERSION}.tar.gz"
-SOURCEFILE="seEvo1D-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

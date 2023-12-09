@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyHDX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Derive ΔG for single residues from HDX-MS data"
 
 HOMEPAGE="https://github.com/Jhsmit/PyHDX"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/05/f0/cbca878a892150bdde874a7b0fdcf5477f2ea4c03070d3083d590f0f0a28/PyHDX-${REALVERSION}.tar.gz"
-SOURCEFILE="PyHDX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

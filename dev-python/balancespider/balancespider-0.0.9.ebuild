@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BalanceSpider"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="simple tool"
 
 HOMEPAGE="https://github.com/Nevquit/monitor_msg_tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/a7/ae14764d7ac1dbd0ff2c9f205c5be9a78c45591b69e5ac3d5c7302ed657a/BalanceSpider-${REALVERSION}.tar.gz"
-SOURCEFILE="BalanceSpider-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

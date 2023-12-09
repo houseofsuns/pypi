@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MeaningCloud-python"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Official Python SDK for MeaningCloud APIs"
 
 HOMEPAGE="https://github.com/MeaningCloud/meaningcloud-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/53/64/cfc57dbe8c9321c370ffcc9518c2b3b5fd1a55952c8dadc0b6a114ba0335/MeaningCloud-python-${REALVERSION}.tar.gz"
-SOURCEFILE="MeaningCloud-python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

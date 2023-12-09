@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Perseus2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Perseus Software for Persistent Homology Computation"
 
 HOMEPAGE="https://github.com/marciogameiro/Perseus"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6f/17/22d36b8321dbe8d54c333376e9d5e0246312977a387d4c47eeef70e874af/Perseus2-${REALVERSION}.tar.gz"
-SOURCEFILE="Perseus2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

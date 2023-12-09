@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SyntheticControlMethods"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python package for causal inference using various Synthetic Contr
 
 HOMEPAGE="https://github.com/OscarEngelbrektson/SyntheticControlMethods"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/81/b9/c87ed26799a76c5627571b3b9ab6344727b01a5ffd7e8dd4062bd6428373/SyntheticControlMethods-${REALVERSION}.tar.gz"
-SOURCEFILE="SyntheticControlMethods-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

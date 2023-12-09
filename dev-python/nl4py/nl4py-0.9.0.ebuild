@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NL4Py"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A NetLogo connector for Python."
 
 HOMEPAGE="https://github.com/chathika/NL4Py"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/50/06/84d758ba1de0769b1aeabd935bc6137e9c204ca91e9cb00606d2551ce40f/NL4Py-${REALVERSION}.tar.gz"
-SOURCEFILE="NL4Py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TADLib"
 REALVERSION="0.4.5.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Library to Explore Chromatin Interaction Patterns for Topological
 
 HOMEPAGE="https://github.com/XiaoTaoWang/TADLib/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ab/6d/2c878859a2df76d457d3b063de58bd2020594ed6ce3add9119d5089c0c51/TADLib-${REALVERSION}.tar.gz"
-SOURCEFILE="TADLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

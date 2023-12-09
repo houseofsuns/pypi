@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AssimpCy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fast Python bindings for Assimp."
 
 HOMEPAGE="https://github.com/jr-garcia/AssimpCy"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1d/b6/0993e3bfdb49eaa9d52b276a24b95d0187dc4413239a04fccde06c92eb96/AssimpCy-${REALVERSION}.tar.gz"
-SOURCEFILE="AssimpCy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

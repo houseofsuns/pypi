@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Bio-Epidemiology-NER"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Recognize bio-medical entities from a text corpus"
 
 HOMEPAGE="https://github.com/dreji18/biomedicalNER"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/28/b4c778a93326748b1380f7ee786e0e43659679506741e9da091601d8d4c8/Bio_Epidemiology_NER-${REALVERSION}.tar.gz"
-SOURCEFILE="Bio_Epidemiology_NER-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

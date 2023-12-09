@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Tornado-JSON"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple JSON API framework based on Tornado"
 
 HOMEPAGE="https://github.com/hfaran/Tornado-JSON"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0a/e4/8885d884b9d099d1a5d5e7a98e6428b80d1cf24dceda18cbb558133fac8e/Tornado-JSON-${REALVERSION}.tar.gz"
-SOURCEFILE="Tornado-JSON-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

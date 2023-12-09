@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyTEMlib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="pyTEM: TEM Data Quantification library through a model-based approa
 
 HOMEPAGE="https://pycroscopy.github.io/pyTEMlib/about.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/b8/622f660e1d46f6a7ff53e21deff19dd16b49837b0defc41ae49fd27dfc66/pyTEMlib-${REALVERSION}.tar.gz"
-SOURCEFILE="pyTEMlib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Inject"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A micro dependency injection framework for Flask micro web framewor
 
 HOMEPAGE="https://github.com/imwithye/flask-inject"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3c/90/e97c68dd86ae67fda542fb1cbbbcf606f1a00be609e3fca0204ce4ffddc9/Flask-Inject-${REALVERSION}.zip"
-SOURCEFILE="Flask-Inject-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

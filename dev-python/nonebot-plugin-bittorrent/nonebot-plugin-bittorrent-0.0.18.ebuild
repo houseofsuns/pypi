@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="nonebot-plugin-BitTorrent"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="encapsulate logger"
 
 HOMEPAGE="https://github.com/Special-Week/nonebot_plugin_BitTorrent"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0d/e6/af7553edb007dcd1e500dbc4046104fa2f4697b122e4b2735dac1535210f/nonebot_plugin_BitTorrent-${REALVERSION}.tar.gz"
-SOURCEFILE="nonebot_plugin_BitTorrent-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CoffeeScript"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A bridge to the JS CoffeeScript compiler"
 
 HOMEPAGE="https://github.com/doloopwhile/Python-CoffeeScript"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/61/d8f84e5acc7807dab8d8cd7311ba1f32f88509ad56fa5d3499e72f2bee4e/CoffeeScript-${REALVERSION}.tar.gz"
-SOURCEFILE="CoffeeScript-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

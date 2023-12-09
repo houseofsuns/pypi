@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Wire"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension that implements \"Html over the wire\""
 
 HOMEPAGE="https://github.com/michaelbukachi/flask-wire"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/11/a7/f47587073c2d61a2f39775614ee84648fe27870a3fe82338cbf526cdafa3/Flask-Wire-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Wire-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

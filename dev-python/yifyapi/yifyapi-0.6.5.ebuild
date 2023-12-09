@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="YifyAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A scraping API for Yify."
 
 HOMEPAGE="https://github.com/ArjixGamer/YifyAPI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/d3/5b371abdf837a668f16d2428e54743bc77e0cecab0887d22ae66c44baa5a/YifyAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="YifyAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

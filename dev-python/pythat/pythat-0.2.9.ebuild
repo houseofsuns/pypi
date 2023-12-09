@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyThat"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Read Thatec h5 formatting and convert it to netcdf files and xarray
 
 HOMEPAGE="https://github.com/mrschweizer/PyThat"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/71/873710b89cdd8cc3a2f9fb5b881b36c90becdfec0d5e501f422b14f93e9f/PyThat-${REALVERSION}.tar.gz"
-SOURCEFILE="PyThat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

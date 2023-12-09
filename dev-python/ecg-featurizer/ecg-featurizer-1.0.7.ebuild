@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ECG-featurizer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This Python package recognize patterns in an ECG and extract featur
 
 HOMEPAGE="https://github.com/ECG-featurizer/ECG-featurizer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/92/4dc9bba447407e09414c564b69908fc5192b31fbe02274f884dd38caa3d6/ECG-featurizer-${REALVERSION}.tar.gz"
-SOURCEFILE="ECG-featurizer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

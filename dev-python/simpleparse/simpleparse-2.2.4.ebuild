@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SimpleParse"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Parser Generator for Python (w/mxTextTools derivative)"
 
 HOMEPAGE="http://simpleparse.sourceforge.net/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/79/e3/54760b15d16a986a819408d2ba4f831ed1e47a25f7b0e39cfc8b3f8dcbfd/SimpleParse-${REALVERSION}.tar.gz"
-SOURCEFILE="SimpleParse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

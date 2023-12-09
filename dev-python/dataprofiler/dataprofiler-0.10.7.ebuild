@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DataProfiler"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="What is in your data? Detect schema, statistics and entities in alm
 
 HOMEPAGE="https://github.com/capitalone/data-profiler"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/67/32/3ce3660804c6cd877f6c3868a721418110e55af4b9e3510397c3a2935073/DataProfiler-${REALVERSION}.tar.gz"
-SOURCEFILE="DataProfiler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

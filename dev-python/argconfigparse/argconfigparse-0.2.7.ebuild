@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ArgConfigParse"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Merge multiple configuraton files and command line arguments into a
 
 HOMEPAGE="https://github.com/txoof/ArgConfigParse"
 LICENSE="GP"
-SRC_URI="https://files.pythonhosted.org/packages/2f/8f/7a8119d7be8a1e645a45feb813d4c5ba4c412fde7c1375205d850eebaaa7/ArgConfigParse-${REALVERSION}.tar.gz"
-SOURCEFILE="ArgConfigParse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

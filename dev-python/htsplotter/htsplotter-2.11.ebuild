@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HTSplotter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An end-to-end data processing, analysis and visualisation tool for 
 
 HOMEPAGE="https://github.com/CBIGR/HTSplotter"
 LICENSE="GNU General Public License v3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/10/fb/b210ae1cd4f18bc69952bda539979488acc0707023f59eed8d2ee9b0201a/HTSplotter-${REALVERSION}.tar.gz"
-SOURCEFILE="HTSplotter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

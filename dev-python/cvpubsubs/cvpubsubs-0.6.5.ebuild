@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CVPubSubs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/SimLeek/CV_PubSubs"
 LICENSE="MIT Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/52/78/51f011bd5d3e432991ffad0e412f8c2f5e73d854f352a61a8352fd672105/CVPubSubs-${REALVERSION}.tar.gz"
-SOURCEFILE="CVPubSubs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

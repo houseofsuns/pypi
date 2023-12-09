@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Doraemon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The pocket of Doraemon: many tools"
 
 HOMEPAGE="https://github.com/131250208/Doraemon"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/b2/af6448f4f89cca2f850b1e451d08493b3ef3bfad54ea196c17697ee19746/Doraemon-${REALVERSION}.tar.gz"
-SOURCEFILE="Doraemon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

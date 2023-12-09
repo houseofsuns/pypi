@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="cx-Logging"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python and C interfaces for logging"
 
 HOMEPAGE="https://github.com/anthony-tuininga/cx_Logging"
 LICENSE="PYTHON"
-SRC_URI="https://files.pythonhosted.org/packages/8e/0f/bf59dd6e0682dd25597783f03203c4114d681a0c9c35ac55aaa8694d1ef9/cx_Logging-${REALVERSION}.tar.gz"
-SOURCEFILE="cx_Logging-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

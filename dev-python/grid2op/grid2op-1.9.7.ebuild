@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Grid2Op"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An gymnasium compatible environment to model sequential decision ma
 
 HOMEPAGE="https://github.com/rte-france/Grid2Op"
 LICENSE="Mozilla Public License 2.0 MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/53/45/946fc53c9195f648b739861b804d6ad14b14433f31f29d4298d4479d3dd1/Grid2Op-${REALVERSION}.tar.gz"
-SOURCEFILE="Grid2Op-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

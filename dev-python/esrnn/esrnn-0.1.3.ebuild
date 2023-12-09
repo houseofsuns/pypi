@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ESRNN"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pytorch implementation of the ESRNN"
 
 HOMEPAGE="https://github.com/kdgutier/esrnn_torch"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/36/105c4bf3d4abf5128b7083b5b5805118daa3b46c7ca3ff5282121372bb0e/ESRNN-${REALVERSION}.tar.gz"
-SOURCEFILE="ESRNN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyJSONViewer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A JSON file data viewer using pure python"
 
 HOMEPAGE="https://github.com/AtsushiSakai/PyJSONViewer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/53/f5f2f829ac00a2586c834b7a9c306a6cd59a5bf3392f1c38fc1f9e5d6aaf/PyJSONViewer-${REALVERSION}.tar.gz"
-SOURCEFILE="PyJSONViewer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

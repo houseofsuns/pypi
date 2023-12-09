@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Open-LISA-SDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SDK for Laboratory Instrument Station Adapter"
 
 HOMEPAGE="https://github.com/aalvarezwindey/Open-LISA-SDK"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/b8/822011462c22fa1f9f390f883c584d1222439addc05c036ab634fcb44ce8/Open_LISA_SDK-${REALVERSION}.tar.gz"
-SOURCEFILE="Open_LISA_SDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

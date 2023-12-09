@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyIndego"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="API for Bosch Indego mower"
 
 HOMEPAGE="https://github.com/jm-73/pyIndego"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b4/d4/d3104534c1267d25126ad3bee7bc2624f2646154ef4f9b00edc5c2716713/pyIndego-${REALVERSION}.tar.gz"
-SOURCEFILE="pyIndego-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

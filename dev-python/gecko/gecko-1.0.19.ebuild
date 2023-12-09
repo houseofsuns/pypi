@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Gecko"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A framework for building applications to communicate with Exosite"
 
 HOMEPAGE="https://github.com/exosite/gecko"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/21/b6a58f981ca62a56087cf5e523344c311848282765b20fd23d1c49a04e9d/Gecko-${REALVERSION}.tar.gz"
-SOURCEFILE="Gecko-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

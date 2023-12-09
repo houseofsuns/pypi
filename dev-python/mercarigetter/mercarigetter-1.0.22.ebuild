@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="mercariGetter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mercari data collection package"
 
 HOMEPAGE="https://github.com/kaioman/mercariGetter.git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/73/17/fc6400fa599e383496294db619a7ff719992a25f3a226f28ecb722b7a3cd/mercariGetter-${REALVERSION}.tar.gz"
-SOURCEFILE="mercariGetter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

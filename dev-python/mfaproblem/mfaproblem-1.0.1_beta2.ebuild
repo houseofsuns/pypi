@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MFAProblem"
 REALVERSION="1.0.1b2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Material Flow Analysis Problem"
 
 HOMEPAGE="https://gitlab.com/su-model/mfa_problem"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/b2/223d699dc7f1890756261c134446b68193867ee97235684dffa12dc3d5e4/MFAProblem-${REALVERSION}.tar.gz"
-SOURCEFILE="MFAProblem-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

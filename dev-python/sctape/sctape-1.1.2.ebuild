@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="scTAPE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="deep learning tools for bulk RNA-seq deconvolution and gene express
 
 HOMEPAGE="https://github.com/poseidonchan/TAPE"
 LICENSE="GPL-3.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/4f/5c/8cfc111cebe57534b9b0dac2504d6943a0defef01458506d8cad95fa4dff/scTAPE-${REALVERSION}.tar.gz"
-SOURCEFILE="scTAPE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

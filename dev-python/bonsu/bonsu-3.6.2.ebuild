@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Bonsu"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bonsu - The Interactive Phase Retrieval Suite"
 
 HOMEPAGE="https://github.com/bonsudev/bonsu"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/97/60/235b32895c5d01b35b20bff2795d80a5ae630bc7690864dc7d37157f7d0a/Bonsu-${REALVERSION}.tar.gz"
-SOURCEFILE="Bonsu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

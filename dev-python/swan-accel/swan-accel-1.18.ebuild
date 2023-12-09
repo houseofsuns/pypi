@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SWaN-accel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A pacakge to classify sleep-wear, wake-wear, and non-wear in accele
 
 HOMEPAGE="https://bitbucket.org/mhealthresearchgroup/packageswanfortime.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/41/30/3ad99aee8cc05f9499bb2565d04dbdca154b2dd9076f54117c5a4df7f344/SWaN_accel-${REALVERSION}.tar.gz"
-SOURCEFILE="SWaN_accel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Images"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Dynamic image resizing for Flask."
 
 HOMEPAGE="http://github.com/mikeboers/Flask-Images"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/fa/f2/caefe30f886fc28573992016c406c54aa472d55a6539483565f97abf513f/Flask-Images-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Images-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

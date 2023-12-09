@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RILseq"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Processing RILSeq experiments results"
 
 HOMEPAGE="http://github.com/asafpr/RILseq"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a2/0e/06f7dbe6303a75197e76a36b7cdd61b9aec55cdb46c9dde89facb12f8f06/RILseq-${REALVERSION}.tar.gz"
-SOURCEFILE="RILseq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

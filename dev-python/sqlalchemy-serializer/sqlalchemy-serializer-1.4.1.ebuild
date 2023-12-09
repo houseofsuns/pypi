@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SQLAlchemy-serializer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mixin for SQLAlchemy-models serialization without pain"
 
 HOMEPAGE="https://github.com/n0nSmoker/SQLAlchemy-serializer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/14/3b/65d34387525c722fbdaa43677e0cd8bb92f3546a59cb5af83023d0edbf3e/SQLAlchemy-serializer-${REALVERSION}.tar.gz"
-SOURCEFILE="SQLAlchemy-serializer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

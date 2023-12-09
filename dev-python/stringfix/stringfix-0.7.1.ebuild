@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="StringFix"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Annotation guided transcriptome assembly program."
 
 HOMEPAGE="https://github.com/combio-dku"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/2a/38be761e2279a51fa9160024c6b3eb7694834511603de1167797f647e026/StringFix-${REALVERSION}.tar.gz"
-SOURCEFILE="StringFix-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

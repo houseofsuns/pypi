@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MeUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="description"
 
 HOMEPAGE="https://github.com/yuanjie-ai/MeUtils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f1/54/67529abf3925d8d92dd1d4b62c5658f2ca9a98febf3f846f94cfe9357604/MeUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="MeUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

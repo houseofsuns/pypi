@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyWebRunner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library that extends and improves the Selenium python library."
 
 HOMEPAGE="http://github.com/smeggingsmegger/PyWebRunner"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bb/08/92ce77ce5f4790e5d4bfe033c4f817a636f6146d76fe656fed6c763e1373/PyWebRunner-${REALVERSION}.tar.gz"
-SOURCEFILE="PyWebRunner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

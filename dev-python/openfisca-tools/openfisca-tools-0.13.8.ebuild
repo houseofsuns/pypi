@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenFisca-Tools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/policyengine/openfisca-tools"
 LICENSE="http://www.fsf.org/licensing/licenses/agpl-3.0.html"
-SRC_URI="https://files.pythonhosted.org/packages/b4/e1/42cc20a0e72719b5463839fb43d4b5b4ce171406c83c4eb791a3fc429887/OpenFisca-Tools-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenFisca-Tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

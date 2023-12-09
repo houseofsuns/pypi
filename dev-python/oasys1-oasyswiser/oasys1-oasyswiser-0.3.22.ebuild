@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OASYS1-oasyswiser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Wiser in Python"
 
 HOMEPAGE="https://github.com/oasys-elettra-kit/OasysWiser"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ee/2b/abde36d46331f6d83d8c6db7b15416dbc109519a37c8d13a578dbe6b62f9/OASYS1-oasyswiser-${REALVERSION}.tar.gz"
-SOURCEFILE="OASYS1-oasyswiser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

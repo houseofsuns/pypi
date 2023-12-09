@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GANDLF"
 REALVERSION="0.0.18.dev20231209"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyTorch-based framework that handles segmentation/regression/classi
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/be/f0/a1d6f3dac7598478f83f63ac2b9b20b6cccea503065f1ff8a333c9f20c38/GANDLF-${REALVERSION}.tar.gz"
-SOURCEFILE="GANDLF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

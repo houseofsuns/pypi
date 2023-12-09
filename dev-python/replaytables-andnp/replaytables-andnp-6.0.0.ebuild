@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ReplayTables-andnp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple replay buffer implementation in python for sampling n-step
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/34/550989ef8dd714ebe015342e3bf5bc8cc3600dae083754561d124b74250d/ReplayTables-andnp-${REALVERSION}.tar.gz"
-SOURCEFILE="ReplayTables-andnp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

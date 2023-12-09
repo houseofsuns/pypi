@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TrackerGG"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="TrackerGG API Wrapper Library"
 
 HOMEPAGE="https://github.com/dev-ruby/TrackerGG"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/57/4d/08422f842f6dc9878c4365043af309ac8c5df4b367c008458e0f104a56a7/TrackerGG-${REALVERSION}.tar.gz"
-SOURCEFILE="TrackerGG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

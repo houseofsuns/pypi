@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyAesCrypt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Encrypt and decrypt files and streams in AES Crypt format (version 
 
 HOMEPAGE="https://github.com/marcobellaccini/pyAesCrypt"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/29/17/59bdb5f36bcf376d11ea16f5d1b4113b783a3ff0b201ff34cec91f836bde/pyAesCrypt-${REALVERSION}.tar.gz"
-SOURCEFILE="pyAesCrypt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

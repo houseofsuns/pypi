@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Hashing"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy hashing of data in Flask"
 
 HOMEPAGE="https://github.com/ThaWeatherman/flask-hashing"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/a4/aedba4ed276e8bbd06e4f6d937f15fbcb2432fcf32908fdbc518c8d709c2/Flask-Hashing-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Hashing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

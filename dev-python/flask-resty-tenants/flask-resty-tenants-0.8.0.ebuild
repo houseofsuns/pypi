@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-RESTy-Tenants"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Multitenant authorization for Flask-RESTy"
 
 HOMEPAGE="https://github.com/4Catalyzer/flask-resty-tenants"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/48/6575bf52a57f65c4709cdb16f3114c6c28135fd268b2946a47f3892a3b69/Flask-RESTy-Tenants-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-RESTy-Tenants-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

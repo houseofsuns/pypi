@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="lsHotword"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Hotword/Wake Word detection in python for all platforms(Windows/Lin
 
 HOMEPAGE="https://github.com/HemantKArya/lsHotword"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/6b/89c28d0624a2b34b4f5d2ba1edffa12e9c41a1d27517ae7dce070aae5d44/lsHotword-${REALVERSION}.tar.gz"
-SOURCEFILE="lsHotword-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

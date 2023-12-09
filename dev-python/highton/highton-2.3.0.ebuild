@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Highton"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library for Highrise"
 
 HOMEPAGE="https://github.com/seibert-media/Highton"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a1/1b/9ceb87f0e14d132cbad1accfefc0a310ad6d598683ef89f28ff2ccd14bfd/Highton-${REALVERSION}.tar.gz"
-SOURCEFILE="Highton-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NPytdl"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a new youtube_dl"
 
 HOMEPAGE="https://github.com/rexwu1104/Pytdl"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d2/3d/44b663ef596f7bc2afb85fd048b01eec1729caf618e0d39c01df5e2bc462/NPytdl-${REALVERSION}.tar.gz"
-SOURCEFILE="NPytdl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

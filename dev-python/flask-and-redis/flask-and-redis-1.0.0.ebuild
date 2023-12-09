@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-And-Redis"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple as dead support of Redis database for Flask apps."
 
 HOMEPAGE="https://github.com/playpauseandstop/Flask-And-Redis"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/42/78/5d252c16a0afb1bdccf7f8bc60f023dad9c092fd8f8c06b27884d5165b6d/Flask-And-Redis-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-And-Redis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

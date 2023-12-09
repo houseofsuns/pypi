@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Arky"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python API bridging DPOS blockchains"
 
 HOMEPAGE="https://github.com/ArkEcosystem/arky"
 LICENSE="Copyright 2016-2017 Toons, Copyright 2017 ARK, MIT licence"
-SRC_URI="https://files.pythonhosted.org/packages/9a/14/5ca02e9fa196da91eb222ca9172506a90649e732294a8da984f64798ba00/Arky-${REALVERSION}.tar.gz"
-SOURCEFILE="Arky-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

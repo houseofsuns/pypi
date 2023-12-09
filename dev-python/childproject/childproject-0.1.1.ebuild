@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChildProject"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LAAC@LSCP"
 
 HOMEPAGE="https://github.com/LAAC-LSCP/ChildProject"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f5/19/c313f12d92e246c1959a651b1ea0c42a533e9670e6a39c671e73a97ef7fe/ChildProject-${REALVERSION}.tar.gz"
-SOURCEFILE="ChildProject-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

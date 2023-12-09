@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyLFMF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A wrapper for NTIA/LFMF's groundwave propagarion tool"
 
 HOMEPAGE="https://github.com/ksavina/PyLFMF/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c6/2f/e20c47de46e6144e8782a50a9fc3b6d879998c7da170e626477633c11bdd/PyLFMF-${REALVERSION}.tar.gz"
-SOURCEFILE="PyLFMF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

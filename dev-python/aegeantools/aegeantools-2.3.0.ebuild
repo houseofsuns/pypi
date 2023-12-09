@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AegeanTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Aegean source finding program, and associated tools."
 
 HOMEPAGE="https://github.com/PaulHancock/Aegean"
 LICENSE="afl-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/22/eb/ac75e439f84d24b78b93a0ba8d4470b86a19ff9778858520a79447aae595/AegeanTools-${REALVERSION}.tar.gz"
-SOURCEFILE="AegeanTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

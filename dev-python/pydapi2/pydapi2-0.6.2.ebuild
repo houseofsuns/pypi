@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDapi2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The PyDapi2 library offers a Python implementation of the Dassym AP
 
 HOMEPAGE="https://github.com/dassym/PyDapi2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/1d/eb390e50e332f3fde4c5f23391e31ba8ab0fd84b2914fb61b0341cec8aa4/PyDapi2-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDapi2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

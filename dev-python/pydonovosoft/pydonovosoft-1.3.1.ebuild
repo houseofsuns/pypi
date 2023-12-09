@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PydoNovosoft"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Some Python's utilities for other projects"
 
 HOMEPAGE="https://github.com/donovosoft/PydoNovosoft"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/36/cf/9e91d229e6a0720ba84ae949af6ea7494c6f9101eaf15db2a369df05cc18/PydoNovosoft-${REALVERSION}.tar.gz"
-SOURCEFILE="PydoNovosoft-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

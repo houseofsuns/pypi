@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IIIFingest"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A wrapper library for interacting with the MPS ingest system for II
 
 HOMEPAGE="https://github.com/Harvard-ATG/lts-iiif-ingest-service"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/9f/8494d8a2442dbe7dbe85e3e5f73834fdf9d6c366d2159d8582d0b43947ef/IIIFingest-${REALVERSION}.tar.gz"
-SOURCEFILE="IIIFingest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Appium-UIAutomation"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A handy tool based on Appium-Python to write common UIAutomation te
 
 HOMEPAGE="https://github.com/ayshrimali/Appium-UIAutomation"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b5/4b/c172c6094a074bd7b0249ac1353ad588fb6eb3bee657d185e6c1b8f49989/Appium-UIAutomation-${REALVERSION}.tar.gz"
-SOURCEFILE="Appium-UIAutomation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

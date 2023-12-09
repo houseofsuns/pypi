@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WSGIserver"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A high-speed, production ready, thread pooled, generic WSGI server 
 
 HOMEPAGE="http://fgallaire.github.io/wsgiserver"
 LICENSE="GNU LGPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/b8/76/adaa6544746bd11c6bab6c9b4be0a40054835ef1c92c4487c28c7509ddc0/WSGIserver-${REALVERSION}.tar.gz"
-SOURCEFILE="WSGIserver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

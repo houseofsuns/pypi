@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Webpt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for penetration testing, website analysis and requests."
 
 HOMEPAGE="https://github.com/saharavitan/webpt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/96/fd0a43878890c9fc9851ffa040c204f69196c5ff94a837a49518d9704df8/Webpt-${REALVERSION}.tar.gz"
-SOURCEFILE="Webpt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

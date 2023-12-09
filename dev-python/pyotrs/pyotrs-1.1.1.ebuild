@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyOTRS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python wrapper for OTRS (using REST API)"
 
 HOMEPAGE="https://gitlab.com/rhab/PyOTRS"
 LICENSE="The MIT License MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b3/4f/308ed805825a393407e26d608f4ca2a30adf247d6c65e1e428f58f5bcade/PyOTRS-${REALVERSION}.tar.gz"
-SOURCEFILE="PyOTRS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

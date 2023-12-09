@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MechElastic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library to calculate elastic properties of materials."
 
 HOMEPAGE="https://github.com/romerogroup/MechElastic"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/aa/73/2e5f2fe3815ee8409c2a8d03d2e7d1978339faa7c1c371e7f9cea1e1c1c3/MechElastic-${REALVERSION}.tar.gz"
-SOURCEFILE="MechElastic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ValVault"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/ValUtils/ValVault"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/28/cf/bba234acb128ad1f42deca0aa9cc5a1edf93a930d7bb4ca2a7fb6ef5dc5f/ValVault-${REALVERSION}.tar.gz"
-SOURCEFILE="ValVault-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

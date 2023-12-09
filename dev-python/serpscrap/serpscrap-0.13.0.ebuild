@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SerpScrap"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=" SEO python scraper to extract data from major searchengine result 
 
 HOMEPAGE="https://github.com/ecoron/SerpScrap"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d7/d3/ac73e8ace3cc42fdc2c6cfb2a617f224d36c548cc62fed2d2c14a51197c2/SerpScrap-${REALVERSION}.tar.gz"
-SOURCEFILE="SerpScrap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

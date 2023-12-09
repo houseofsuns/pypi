@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Classy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Class based views for Flask"
 
 HOMEPAGE="https://github.com/apiguy/flask-classy"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/92/07/bbe7a8aefd8799fc456f711b86952457b3e63c8aec9dfd4c911c55df9ea7/Flask-Classy-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Classy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

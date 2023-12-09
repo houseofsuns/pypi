@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TOpsPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OpenseesPy Functions"
 
 HOMEPAGE="https://github.com/BijanSeif"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a8/b1/048140fb9e631d89287adb07c4d8079e664b84452c72339e21bf970a3db1/TOpsPy-${REALVERSION}.tar.gz"
-SOURCEFILE="TOpsPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

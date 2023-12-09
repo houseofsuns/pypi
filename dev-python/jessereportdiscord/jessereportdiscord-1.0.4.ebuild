@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JesseReportDiscord"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Send backtest results for jesse trade to discord"
 
 HOMEPAGE="https://github.com/qwpto/jesse-report-discord"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/b1/e153af038e5121049c897a1a491799a53eb23ccde7130b03d06b22e513d5/JesseReportDiscord-${REALVERSION}.tar.gz"
-SOURCEFILE="JesseReportDiscord-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepCell-Tracking"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tracking cells and lineage with deep learning."
 
 HOMEPAGE="https://github.com/vanvalenlab/deepcell-tracking"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/2a/4f/6a773227856fd11c4a0b9a00f014c487329b87222c1874012b43c611c0f3/DeepCell_Tracking-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepCell_Tracking-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

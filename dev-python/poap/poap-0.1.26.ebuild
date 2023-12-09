@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="POAP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Optimization Asynchronous Plumbing."
 
 HOMEPAGE="http://pypi.python.org/pypi/POAP/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/82/7c/a9f3e7cd3da47b4d3a5c7386d55ff2bfb65dbb9bc6875e5e9ea0122cda35/POAP-${REALVERSION}.tar.gz"
-SOURCEFILE="POAP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

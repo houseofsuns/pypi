@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="twitchAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python 3.7+ implementation of the Twitch Helix API, PubSub, Event
 
 HOMEPAGE="https://github.com/Teekeks/pyTwitchAPI"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3e/43/ed913155bdb636711e44ffcc386438acf4525d3d7a5e414073f639010785/twitchAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="twitchAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FreeTAKServer-UI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="an optional UI for FreeTAKServer"
 
 HOMEPAGE="https://github.com/FreeTAKTeam/FreeTakServer"
 LICENSE="Eclipse License"
-SRC_URI="https://files.pythonhosted.org/packages/c6/72/3096346816e6f26b2df5896448e2538a800bb58e0b534e7b9adcb5763db6/FreeTAKServer-UI-${REALVERSION}.tar.gz"
-SOURCEFILE="FreeTAKServer-UI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

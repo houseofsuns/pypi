@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ESClient"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A lightweight Python client for ElasticSearch, including a dump and
 
 HOMEPAGE="https://github.com/eriky/ESClient"
 LICENSE="New BSD license"
-SRC_URI="https://files.pythonhosted.org/packages/71/55/6ed2927ac7ea78f767c94edf7e1670c2cb8b31d1e37e931cdeb6618f7b26/ESClient-${REALVERSION}.tar.gz"
-SOURCEFILE="ESClient-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

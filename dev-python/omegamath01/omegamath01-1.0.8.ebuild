@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OmegaMath01"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A small package of useful miscellaneuos functions, including drawin
 
 HOMEPAGE="https://github.com/GrandMoff100/MathFunctions"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6e/a3/7571037a193c9c1ff72fa27c0b0917d4eaa3de97ed99e5d0f7b47f6263cb/OmegaMath01-${REALVERSION}.tar.gz"
-SOURCEFILE="OmegaMath01-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

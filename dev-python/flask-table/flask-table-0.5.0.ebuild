@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Table"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="HTML tables for use with the Flask micro-framework"
 
 HOMEPAGE="https://github.com/plumdog/flask_table"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5c/f8/c8680277a8a0170d6f4c170dc4525f7869134021549eb84b116a75a24b15/Flask-Table-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Table-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

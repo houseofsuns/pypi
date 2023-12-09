@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepMTP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a Deep Learning Framework for Multi-target Prediction"
 
 HOMEPAGE="https://github.com/diliadis/DeepMTP"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/62/20/c8f2e072c652a29477aaab1e2008068d76d53bec066d9c08b02460b0cf8b/DeepMTP-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepMTP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

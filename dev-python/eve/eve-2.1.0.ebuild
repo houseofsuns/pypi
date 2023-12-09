@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Eve"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python REST API for Humans."
 
 HOMEPAGE="http://python-eve.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4d/d1/be90541b169af415cad2aa27dc7cc36d3375228e2664342bd9f4b6622697/Eve-${REALVERSION}.tar.gz"
-SOURCEFILE="Eve-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

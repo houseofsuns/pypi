@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Fraction"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fraction carries out all the fraction operations including addition
 
 HOMEPAGE="https://github.com/bradley101/fraction"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5f/77/4d0ad9332ebf561d6966e0c7d9daecefd2031cd0dd73f9d1760cac3ae0ec/Fraction-${REALVERSION}.tar.gz"
-SOURCEFILE="Fraction-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

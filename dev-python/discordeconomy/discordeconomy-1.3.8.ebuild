@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DiscordEconomy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Discord.py, other libs(hikari etc.), and forks(pycord, nextcord etc
 
 HOMEPAGE="https://github.com/Nohet/DiscordEconomy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/37/18/ce3dc677655a1af7b7e944c4376d868efbc60acb8e2e724214c4e13e33bc/DiscordEconomy-${REALVERSION}.tar.gz"
-SOURCEFILE="DiscordEconomy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LightSim2Grid"
 REALVERSION="0.7.6.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LightSim2Grid implements a c++ backend targeting the Grid2Op platfo
 
 HOMEPAGE="https://github.com/BDonnot/lightsim2grid/"
 LICENSE="MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ae/6d/2c1780e39fb30b92f9c45d6a979f55d02c948c23ac0411501fca418a0141/LightSim2Grid-${REALVERSION}.tar.gz"
-SOURCEFILE="LightSim2Grid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

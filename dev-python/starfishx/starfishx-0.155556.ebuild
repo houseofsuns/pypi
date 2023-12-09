@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="starfishX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Get data of stock exchange thailand (SET)"
 
 HOMEPAGE="https://github.com/tapattan/starfishX"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/ff/573ef116c943a96397bddd1fb6832ed13c83cb3ed6d48b6023ee9cd4c4b8/starfishX-${REALVERSION}.tar.gz"
-SOURCEFILE="starfishX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyProfane"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library to censor and detect offensive words in strings."
 
 HOMEPAGE="https://github.com/ieshaan12/PyProfane"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/be/8e21bb6eae16942373843c23dbd712517ecbb1a38d0e4b8cd5640aa73548/PyProfane-${REALVERSION}.tar.gz"
-SOURCEFILE="PyProfane-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

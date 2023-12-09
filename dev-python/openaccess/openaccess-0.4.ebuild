@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenAccess"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Librería no oficial para leer comunicarse con un servidor de LENEL
 
 HOMEPAGE="https://github.com/alejomejia1"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/51/f7/ad806449db50ae1a0288a8ee05660acc4d0e9573cf0fc8fd7bb0edbc20d8/OpenAccess-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenAccess-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

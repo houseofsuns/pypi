@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Webware-for-Python"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Webware for Python is a time-tested modular, object-oriented web fr
 
 HOMEPAGE="https://webwareforpython.github.io/w4py3/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e0/69/10ffe1b93fdb671efa7ab2b9ae4a817cc665fcdc093b8240b26868f544a1/Webware-for-Python-${REALVERSION}.tar.gz"
-SOURCEFILE="Webware-for-Python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CaptchaCracker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CaptchaCracker is an open source Python library that provides funct
 
 HOMEPAGE="https://github.com/WooilJeong/CaptchaCracker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/ee/2e0c7f7f6c9eb6b16d8dd8fe20d30324398209c9ac085d098e5fb955f85a/CaptchaCracker-${REALVERSION}.tar.gz"
-SOURCEFILE="CaptchaCracker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

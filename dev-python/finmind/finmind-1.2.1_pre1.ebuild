@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FinMind"
 REALVERSION="1.2.1.dev1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="financial mining"
 
 HOMEPAGE="https://github.com/linsamtw"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/13/46953c52a9217443d4a130fbdf26f59817ab31e8cacda4ef1b7f4f93ab97/FinMind-${REALVERSION}.tar.gz"
-SOURCEFILE="FinMind-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

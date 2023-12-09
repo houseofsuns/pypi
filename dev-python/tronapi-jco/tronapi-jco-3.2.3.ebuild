@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="tronapi-JCO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python API for interacting with Tron (Forked from tronapi)"
 
 HOMEPAGE="https://github.com/RastinS/tron-api-JCO"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/8b/b4fbc26a5f9cec1d101cd3f6385ac4dd2734b31cf4f0952623d4e75c489e/tronapi-JCO-${REALVERSION}.tar.gz"
-SOURCEFILE="tronapi-JCO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

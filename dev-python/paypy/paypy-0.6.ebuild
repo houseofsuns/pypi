@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PayPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Payment gateway API integration package"
 
 HOMEPAGE="http://bitbucket.org/ixmatus/paypy"
 LICENSE="PSF-2.4"
-SRC_URI="https://files.pythonhosted.org/packages/1d/cf/59676acf0d12f354ead7162e24ec06a6ec63e743c8339ae1fc7cf64680b2/PayPy-${REALVERSION}.tar.gz"
-SOURCEFILE="PayPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

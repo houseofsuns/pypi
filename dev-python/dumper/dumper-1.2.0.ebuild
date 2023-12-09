@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Dumper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tool to conveniently describe any Python datastructure"
 
 HOMEPAGE="https://github.com/jric/Dumper.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/0c/2b5a4e34eda55856a7adeb4e11f768d2beb190b7c2abafc3aac13dc816c9/Dumper-${REALVERSION}.tar.gz"
-SOURCEFILE="Dumper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

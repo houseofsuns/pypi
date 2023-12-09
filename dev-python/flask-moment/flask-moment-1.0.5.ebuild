@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Moment"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Formatting of dates and times in Flask templates using moment.js."
 
 HOMEPAGE="https://github.com/miguelgrinberg/flask-moment"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5b/db/3fbc023b087ec95d04991bd053e92702b92a24968cc9935598a8f7045832/Flask-Moment-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Moment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

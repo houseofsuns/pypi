@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AuthoritySpoke"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="legal authority automation"
 
 HOMEPAGE="https://github.com/mscarey/authorityspoke"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5d/6a/f6e8bc03d3d8c65a6de790b971a087fb328b15f1f8974c25cd128e8c88ec/AuthoritySpoke-${REALVERSION}.tar.gz"
-SOURCEFILE="AuthoritySpoke-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

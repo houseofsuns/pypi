@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GITCodeAnalysis"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Git Code Analysis"
 
 HOMEPAGE="https://github.com/mxtadmin/code_analysis"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/40/40/f8e920ecde33202abe2dcfb6041b5d70a1374d9dff8626654a52901d28cf/GITCodeAnalysis-${REALVERSION}.tar.gz"
-SOURCEFILE="GITCodeAnalysis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

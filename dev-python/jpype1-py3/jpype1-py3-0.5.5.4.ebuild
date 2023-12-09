@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JPype1-py3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python-Java bridge. Fork of the jPype project by Steve Menard (http
 
 HOMEPAGE="http://github.com/tcalmant/jpype-py3/"
 LICENSE="License :: OSI Approved :: Apache Software License"
-SRC_URI="https://files.pythonhosted.org/packages/9b/81/63f5e4202c598f362ee4684b41890f993d6e58309c5d90703f570ab85f62/JPype1-py3-${REALVERSION}.tar.gz"
-SOURCEFILE="JPype1-py3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MALDIpy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MALDI-MS data analysis at the single-cell level (Tutorials availabl
 
 HOMEPAGE="https://github.com/TheHumphreysLab"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/76/72/3baf60c8c18607f9f45bbd4ca0124d5d90e146e3c615f1b8350ca35fd43a/MALDIpy-${REALVERSION}.tar.gz"
-SOURCEFILE="MALDIpy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

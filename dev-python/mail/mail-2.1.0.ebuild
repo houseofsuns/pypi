@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mail"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple wrapper over Python's email package for common operations, a
 
 HOMEPAGE="http://jimmyg.org/work/code/mail/index.html"
 LICENSE="GNU AGPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/1d/74/0a90cb0fe1e9536d83fc3c4e06c9559687813f214b57a3ba3e707365de7f/Mail-${REALVERSION}.tar.gz"
-SOURCEFILE="Mail-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

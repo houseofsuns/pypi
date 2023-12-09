@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JATA-Tools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Digital Humanities Package"
 
 HOMEPAGE="https://github.com/albisbub/JATA-TOOLS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d2/2f/b125fd2d6383079a073ed90bb7e12163a4cc4b501787ea10ff3615a04693/JATA-Tools-${REALVERSION}.tar.gz"
-SOURCEFILE="JATA-Tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

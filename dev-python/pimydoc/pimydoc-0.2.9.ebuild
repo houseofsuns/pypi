@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pimydoc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Insert and update blocks of text into text files"
 
 HOMEPAGE="https://github.com/suizokukan/pimydoc"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8b/cb/b49c828db6c4dd2ba2f61c679a554bc10320c3f84cf8d2d7ee0d828bbcd6/Pimydoc-${REALVERSION}.tar.gz"
-SOURCEFILE="Pimydoc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

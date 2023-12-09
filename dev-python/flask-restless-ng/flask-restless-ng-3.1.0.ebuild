@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Restless-NG"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A fork of Flask-Restless with updated dependencies and bug fixes"
 
 HOMEPAGE="https://github.com/mrevutskyi/flask-restless-ng"
 LICENSE="GNU AGPLv3+ or BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4b/ca/ca245fd53d629be48ab76ad6b83906dd905db8b132ebd000b6ef528c224c/Flask-Restless-NG-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Restless-NG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

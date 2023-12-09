@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EVECelery"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Task queue framework for building tools that interact with the EVE 
 
 HOMEPAGE="https://github.com/NullsecSpace/EVECelery"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/0e/38bd199952f0b2a16d3f50bfed2d69574b43c91271a18b0eb52f0d9f45c9/EVECelery-${REALVERSION}.tar.gz"
-SOURCEFILE="EVECelery-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

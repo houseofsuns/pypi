@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Gravatar"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Small extension for Flask to make usage of Gravatar service easy."
 
 HOMEPAGE="https://github.com/zzzsochi/Flask-Gravatar/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cd/9a/d7b1d570f98725d340034ea7df62ef20a48d9f5322b89f3accae88d58466/Flask-Gravatar-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Gravatar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

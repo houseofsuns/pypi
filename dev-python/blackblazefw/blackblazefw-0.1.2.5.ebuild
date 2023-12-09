@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BlackBlazeFw"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Minimalistic Web Framework"
 
 HOMEPAGE="https://github.com/Black-Blaze/web-fw/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e7/c2/47629065c538e1fd78775e4927197e2d512269a34b79e36412de51a30d6c/BlackBlazeFw-${REALVERSION}.tar.gz"
-SOURCEFILE="BlackBlazeFw-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

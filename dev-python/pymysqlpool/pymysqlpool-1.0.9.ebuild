@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMysqlPool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="python practical mysql pool -motivation from=>[lost connection to M
 
 HOMEPAGE="https://codeload.github.com/LuciferJack/python-mysql-pool/zip/master"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/90/6b5ea17698566a44e411a8ff6ffb4fbd3e275f1654d737b3b8fae30f339f/PyMysqlPool-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMysqlPool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

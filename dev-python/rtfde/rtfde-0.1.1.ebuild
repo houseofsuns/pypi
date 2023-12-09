@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RTFDE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for extracting HTML content from RTF encapsulated HTML as
 
 HOMEPAGE="https://github.com/seamustuohy/RTFDE"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8d/b0/0ac16842c6875ed36e48cb97e8bc70f9fdb742b10d590af51fe34311c87f/RTFDE-${REALVERSION}.tar.gz"
-SOURCEFILE="RTFDE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

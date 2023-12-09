@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Eikthyr"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An wrapper to provide more utilities and completion checks to the l
 
 HOMEPAGE="https://github.com/hojin-koh/Eikthyr"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/11/cd/96023c36303d287440156ccfac96d70caba3502f7f8dcb67f9f9633d7e8a/Eikthyr-${REALVERSION}.tar.gz"
-SOURCEFILE="Eikthyr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

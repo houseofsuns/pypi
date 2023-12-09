@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ACSConv"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="[IEEE JBHI] Reinventing 2D Convolutions for 3D Images"
 
 HOMEPAGE="https://github.com/M3DV/ACSConv"
 LICENSE="Apache-2.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/00/66/7cc7fbcdf41c8868b9a37bad697e192a74683a1944dcf102a1db65f16217/ACSConv-${REALVERSION}.tar.gz"
-SOURCEFILE="ACSConv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

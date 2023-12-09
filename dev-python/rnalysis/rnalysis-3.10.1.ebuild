@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RNAlysis"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
@@ -15,8 +16,8 @@ DESCRIPTION="RNAlysis is an analysis software for RNA sequencing data. RNAlysis 
 
 HOMEPAGE="https://github.com/GuyTeichman/RNAlysis"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/2e/8518aaebfb6d370ecff0cf13eaab4354265547288f2b28eb2679e21730d8/RNAlysis-${REALVERSION}.tar.gz"
-SOURCEFILE="RNAlysis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

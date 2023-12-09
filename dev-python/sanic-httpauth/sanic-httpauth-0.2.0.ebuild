@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Sanic-HTTPAuth"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Basic, Digest and Bearer token authentication for Sanic routes"
 
 HOMEPAGE="http://github.com/MihaiBalint/sanic-httpauth/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/12/89/38a2116129df5afb926c8eb4625fd12fe66cdc1133a989397c9fd3d73e66/Sanic-HTTPAuth-${REALVERSION}.tar.gz"
-SOURCEFILE="Sanic-HTTPAuth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PEQNP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PEQNP Mathematical Solver from http://www.peqnp.com"
 
 HOMEPAGE="http://www.peqnp.com"
 LICENSE="copyright c 2012-2021 Oscar Riveros. All rights reserved."
-SRC_URI="https://files.pythonhosted.org/packages/17/60/adf837767ffb596da1343749b0bb5dbc8dd7436e15476d506cce9efec57c/PEQNP-${REALVERSION}.tar.gz"
-SOURCEFILE="PEQNP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

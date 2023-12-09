@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GitHubCommitsDownloader"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Github Commits Downloader App"
 
 HOMEPAGE="https://github.com/MDReal32/GitHubCommitsDownloader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/66/a3140f1ea594a86609d2c1c91926a70e2449576514d688c68bde05c4f8c3/GitHubCommitsDownloader-${REALVERSION}.tar.gz"
-SOURCEFILE="GitHubCommitsDownloader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

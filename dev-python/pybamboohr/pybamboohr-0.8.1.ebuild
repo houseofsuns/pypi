@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyBambooHR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python wrapper for the Bamboo HR API"
 
 HOMEPAGE="http://github.com/smeggingsmegger/PyBambooHR"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/81/b8/9ce02508704c3d6bb2c1ccbc98e3eed750383e4492acb6e4b83bf92eba7c/PyBambooHR-${REALVERSION}.tar.gz"
-SOURCEFILE="PyBambooHR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

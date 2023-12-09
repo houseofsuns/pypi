@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WebOb-GraphQL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds GraphQL support to your WebOb (Pyramid/Pylons/...) application
 
 HOMEPAGE="https://github.com/graphql-python/webob-graphql"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/79/e40d2c212e5c800716c182173ade1185cdb836dd60a3ab04e2316d8a9375/WebOb-GraphQL-${REALVERSION}.tar.gz"
-SOURCEFILE="WebOb-GraphQL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

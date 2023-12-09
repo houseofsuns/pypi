@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ZiCutter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ZiCutter: cut character smaller"
 
 HOMEPAGE="https://github.com/laohur/ZiCutter"
 LICENSE="[Anti-996 License]https: // github.com/996icu/996.ICU/blob/master/LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/ca/57/16025be5e484da835c1f77cce7cb88f47b6d2e6c79645d6a7d0cf359cf9e/ZiCutter-${REALVERSION}.tar.gz"
-SOURCEFILE="ZiCutter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

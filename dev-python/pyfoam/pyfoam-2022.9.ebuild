@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyFoam"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Utilities for OpenFOAM"
 
 HOMEPAGE="http://openfoamwiki.net/index.php/Contrib/PyFoam"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7a/14/95de134ffe6679449518a41bfe4c90b67624f7f57f7b026a15b763a4d372/PyFoam-${REALVERSION}.tar.gz"
-SOURCEFILE="PyFoam-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

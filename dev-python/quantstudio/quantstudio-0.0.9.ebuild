@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QuantStudio"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Quant Studio"
 
 HOMEPAGE="https://github.com/Scorpi000/QuantStudio/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/92/2c/e0f542d164f026770daae4c9006005e0b538abc26ff417b58fd85390eb93/QuantStudio-${REALVERSION}.tar.gz"
-SOURCEFILE="QuantStudio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

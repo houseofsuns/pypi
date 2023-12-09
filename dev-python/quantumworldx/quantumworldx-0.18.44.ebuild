@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="quantumworldX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Basic library for the QuantumWorld edX course"
 
 HOMEPAGE="https://pythonhosted.org/quantumworldX/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/99/50/6fda12a920c3c6a03e116c9632dff2201780893bba6d685d6d56c160c8aa/quantumworldX-${REALVERSION}.tar.gz"
-SOURCEFILE="quantumworldX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

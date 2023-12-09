@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PermutationImportance"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Important variables determined through data-based variable importan
 
 HOMEPAGE="https://github.com/gelijergensen/PermutationImportance"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/78/83c67e1d2f88808904762e3521aecdfe9bfd08505fa9b1f2629a1c7b6e32/PermutationImportance-${REALVERSION}.tar.gz"
-SOURCEFILE="PermutationImportance-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

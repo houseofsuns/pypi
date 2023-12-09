@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FreeProxyScraper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Themis3000/FreeProxyScraper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/58/cd036bc135080c8da969bbf352369f69f7285c0ecd1fac14477ddc1ba619/FreeProxyScraper-${REALVERSION}.tar.gz"
-SOURCEFILE="FreeProxyScraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

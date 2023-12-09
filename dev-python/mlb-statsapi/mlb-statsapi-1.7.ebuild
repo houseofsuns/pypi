@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MLB-StatsAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MLB Stats API Wrapper for Python"
 
 HOMEPAGE="https://github.com/toddrob99/MLB-StatsAPI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4f/a0/1d9b1f2f5da2cdf638305f8da8a66e10c40fc77321729a0b214bc9339d98/MLB-StatsAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="MLB-StatsAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

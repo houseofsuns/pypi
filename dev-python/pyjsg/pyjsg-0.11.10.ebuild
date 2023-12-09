@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyJSG"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python JSON Schema Grammar interpreter"
 
 HOMEPAGE="https://github.com/hsolbrig/pyjsg"
 LICENSE="CC0 1.0 Universal"
-SRC_URI="https://files.pythonhosted.org/packages/90/61/e001a4b679a171f84783deb8e215a91c9f614cb498807e24e4f73ea4e5ed/PyJSG-${REALVERSION}.tar.gz"
-SOURCEFILE="PyJSG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CheckMyTex"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple tool for checking complex LaTeX documents, e.g., dissertat
 
 HOMEPAGE="https://github.com/d-krupke/checkmytex"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/6d/4fb35e62755c4f1d22cfba8df3449ac93e814faf633e6593daf9ca650348/CheckMyTex-${REALVERSION}.tar.gz"
-SOURCEFILE="CheckMyTex-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

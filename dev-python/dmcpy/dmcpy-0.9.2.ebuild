@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DMCpy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python software packaged designed for reduction of neutron powder d
 
 HOMEPAGE="https://www.psi.ch/en/sinq/dmc/"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e2/01/73a120e4e616d70514e6eedd0ce5eb0a6fa49e7e0b89d095d3ee915053b7/DMCpy-${REALVERSION}.tar.gz"
-SOURCEFILE="DMCpy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

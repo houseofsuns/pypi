@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ProfanityDetector"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Detect profanity in a sentence."
 
 HOMEPAGE="https://github.com/xditya/ProfanityDetector"
 LICENSE="GNU AFFERO GENERAL PUBLIC LICENSE v3"
-SRC_URI="https://files.pythonhosted.org/packages/c1/c7/3b86f3b550e345014a445458ff23a25a28b1df2a4609bae1bc9326407b33/ProfanityDetector-${REALVERSION}.tar.gz"
-SOURCEFILE="ProfanityDetector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

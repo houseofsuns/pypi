@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDoof"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Doofinder's search & management API client"
 
 HOMEPAGE="https://github.com/doofinder/pydoof"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/30/fb/2ce66950b64bb5f396dab775564211c685d20a3b55a4649e44eb3c53e4d8/PyDoof-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDoof-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

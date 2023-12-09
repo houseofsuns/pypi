@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyReporter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python reporting API that helps with reading and writing tabular 
 
 HOMEPAGE="https://github.com/Alex-Au1/PyReporter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/46/b7/fa8d64ac4c8660f7447254073edbee75b1e85ba1d317e713e9a140d94e2d/PyReporter-${REALVERSION}.tar.gz"
-SOURCEFILE="PyReporter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

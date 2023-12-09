@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="APacheDEX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Compute APDEX from Apache-style logs."
 
 HOMEPAGE="http://git.erp5.org/gitweb/apachedex.git"
 LICENSE="GPL 2+"
-SRC_URI="https://files.pythonhosted.org/packages/9e/3c/63e6fbcea81746ae437a58406ed06b8e05afe4a50219c568ca9607fcded1/APacheDEX-${REALVERSION}.tar.gz"
-SOURCEFILE="APacheDEX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

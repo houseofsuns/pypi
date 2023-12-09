@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Deployapp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to deploy sites in virtualenv, run scripts, and deploy wo
 
 HOMEPAGE="http://github.com/mardix/deployapp/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/fe/8043c1267cd8da0ac743774a64b8fb821aba9b6aa23f7da6aceae8ef6571/Deployapp-${REALVERSION}.tar.gz"
-SOURCEFILE="Deployapp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

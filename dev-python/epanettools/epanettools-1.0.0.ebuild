@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EPANETTOOLS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Epanet 2.0 Python calling interface"
 
 HOMEPAGE="https://github.com/asselapathirana/epanettools"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/6a/50/55082eac183f5c6ede8f78f05cb1f015ea1a187b9a900ecee20e0aeaf4e4/EPANETTOOLS-${REALVERSION}.tar.gz"
-SOURCEFILE="EPANETTOOLS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

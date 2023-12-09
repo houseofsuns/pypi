@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EzTg"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An api wrapper for telegram easy to use. Coerent according to teleg
 
 HOMEPAGE="https://github.com/HexyeDEV/EzTg/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/8b/c7922e2aabac06f75391f9aa0b396c8f5ddd3a8f45bc504194a5098d7162/EzTg-${REALVERSION}.tar.gz"
-SOURCEFILE="EzTg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

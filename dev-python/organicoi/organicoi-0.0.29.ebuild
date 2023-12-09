@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OrganicOI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An image reconstuction algorithm using GANs"
 
 HOMEPAGE="https://github.com/kluskaj/Organic"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/77/e5/aaf5e4bcc395ae8511fae32acc9258801a14968885fea82b30145b52108a/OrganicOI-${REALVERSION}.tar.gz"
-SOURCEFILE="OrganicOI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

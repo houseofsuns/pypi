@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EWANBOT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lobby bot."
 
 HOMEPAGE="https://www.youtube.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/75/fbbb4ce3dff282e402352246cffa642fea9970192bb9a570091765656cc0/EWANBOT-${REALVERSION}.tar.gz"
-SOURCEFILE="EWANBOT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

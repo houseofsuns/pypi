@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Fletxible"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Web Boilerplate for Flet Library"
 
 HOMEPAGE="https://github.com/LineIndent/fletxible"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/b9/5bd37896333abacd50ee5df86fd5453f36930e3025cc1bd31a427289e16e/Fletxible-${REALVERSION}.tar.gz"
-SOURCEFILE="Fletxible-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

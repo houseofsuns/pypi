@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ColabTurtlePlus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An HTML based Turtle implementation with classes for Google Colab a
 
 HOMEPAGE="https://github.com/mathriddle/ColabTurtlePlus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/9d/4e147e5e0af54d75db0c745f57098042c7165b7eefb22c548b73c3d396d4/ColabTurtlePlus-${REALVERSION}.tar.gz"
-SOURCEFILE="ColabTurtlePlus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

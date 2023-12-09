@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Boruta"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Implementation of Boruta Feature Selection"
 
 HOMEPAGE="https://github.com/danielhomola/boruta_py"
 LICENSE="BSD 3 clause"
-SRC_URI="https://files.pythonhosted.org/packages/d5/ab/800c93706b1919dbdcb48fcab3d5251dbd135fa2ca7cd345f7a4dcb0864b/Boruta-${REALVERSION}.tar.gz"
-SOURCEFILE="Boruta-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

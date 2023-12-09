@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="html-testRunner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Test Runner in python, for Human Readable HTML Reports"
 
 HOMEPAGE="https://github.com/oldani/HtmlTestRunner"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/5b/7844d6e6e9d072f38666fb332fc85aaa7ebed99b2f792c724d8a85282254/html-testRunner-${REALVERSION}.tar.gz"
-SOURCEFILE="html-testRunner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

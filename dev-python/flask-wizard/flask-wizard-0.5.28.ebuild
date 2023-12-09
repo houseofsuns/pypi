@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Wizard"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Rapid and easy chatbot development in Python for multiple channels"
 
 HOMEPAGE="https://github.com/ozzai/flask-wizard"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e2/b5/b2e590a15836398ea096685d416600caf3d01a212a4b02878d676082603f/Flask-Wizard-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Wizard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ShopifyAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Shopify API for Python"
 
 HOMEPAGE="https://github.com/Shopify/shopify_python_api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/00/86/a47cddbafea41834f65805ad71510e237706c9afd565c4e7e5a1b9b2f1ea/ShopifyAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="ShopifyAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

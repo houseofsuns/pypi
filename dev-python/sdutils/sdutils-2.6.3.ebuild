@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SDUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="StratoDem utilities"
 
 HOMEPAGE="https://github.com/StratoDem/SDUtils"
 LICENSE="c 2017- StratoDem Analytics. All rights reserved."
-SRC_URI="https://files.pythonhosted.org/packages/3c/2f/220fc49a7f7b438f004dc928f3e544091f65509b4439204a0b157971eef7/SDUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="SDUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

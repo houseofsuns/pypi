@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TMDBTraktSyncer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python script that syncs user watchlist and ratings for Movies, T
 
 HOMEPAGE="https://github.com/RileyXX/TMDB-Trakt-Syncer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/04/52d76c6f5ca0920f61bf1defe5659b7d809ebbb8743cd242f880bee7da4f/TMDBTraktSyncer-${REALVERSION}.tar.gz"
-SOURCEFILE="TMDBTraktSyncer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

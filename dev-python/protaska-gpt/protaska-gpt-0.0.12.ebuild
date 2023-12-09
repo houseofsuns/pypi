@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ProTaska-GPT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Unleash the Potential of Datasets with Intelligent Tasks, Tutorials
 
 HOMEPAGE="https://github.com/AmanPriyanshu/protaska-gpt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/b7/2f82d44e16dec1dddcedef8acf06b24637fe3cdf33b614e83388095960cb/ProTaska-GPT-${REALVERSION}.tar.gz"
-SOURCEFILE="ProTaska-GPT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

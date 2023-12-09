@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AzurLaneToolLib"
 REALVERSION="0.7.0a1.dev2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools lib for Azur Lane which game powered by ManJiu Shanghai"
 
 HOMEPAGE="https://github.com/thedayofthedoctor/altl"
 LICENSE="GPL-3.0 LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/a9/22/688a280f9a38e148f62983cd99173c53a3cff8bd78112e67fc29e68c6dfc/AzurLaneToolLib-${REALVERSION}.tar.gz"
-SOURCEFILE="AzurLaneToolLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

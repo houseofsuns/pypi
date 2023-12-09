@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-PageDown"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Implementation of StackOverflow's \"PageDown\" markdown editor for 
 
 HOMEPAGE="https://github.com/miguelgrinberg/flask-pagedown"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/17/b35144e53a200308581d886e8f3d6f95ecfafe97a226b786b138088e73f3/Flask-PageDown-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-PageDown-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

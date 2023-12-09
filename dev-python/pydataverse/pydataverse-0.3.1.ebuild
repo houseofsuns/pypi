@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyDataverse"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python module for the Dataverse API's and its data-types"
 
 HOMEPAGE="https://github.com/gdcc/pyDataverse"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/12/83/7db16dcbc056587d0dbf46994fc0f9ecb2e4bc131b619341e80a02c730c8/pyDataverse-${REALVERSION}.tar.gz"
-SOURCEFILE="pyDataverse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SixAdsDS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generic functions for SixAds data science projects"
 
 HOMEPAGE="https://bitbucket.org/eligijus112/sixadsml/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e0/59/b4ea1ea62adc0817a80ef9d1ea107aaa197ce3e47744fbb3b491d8c4226f/SixAdsDS-${REALVERSION}.tar.gz"
-SOURCEFILE="SixAdsDS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

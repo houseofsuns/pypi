@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MAVdataflash"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Read, analyze and visualize *.bin flight data logs recorded by Ardu
 
 HOMEPAGE="https://github.com/generalaeronautics/MAVdataflash"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/01/1d27c483ac6a67cec7e98741c7cc562932152bc87d22acbf442e8b6faa5b/MAVdataflash-${REALVERSION}.tar.gz"
-SOURCEFILE="MAVdataflash-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

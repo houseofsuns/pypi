@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SimPyLC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SimPyLC PLC simulator, after its C++ big brother that has controlle
 
 HOMEPAGE="http://www.qquick.org/educational"
 LICENSE="qQuickLicence"
-SRC_URI="https://files.pythonhosted.org/packages/33/13/f03349f6fbbbcf172f13efa9452353e8ac8b4f2b0ff98c6ba2da06e56d98/SimPyLC-${REALVERSION}.linux-x86_64.tar.gz"
-SOURCEFILE="SimPyLC-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

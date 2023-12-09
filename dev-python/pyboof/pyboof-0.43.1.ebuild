@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyBoof"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Py4J Python wrapper for BoofCV"
 
 HOMEPAGE="https://github.com/lessthanoptimal/PyBoof"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/07/74/0715289421bde8dc86c18a698eeed19a319a7a778c6843493ea7e481c9ba/PyBoof-${REALVERSION}.tar.gz"
-SOURCEFILE="PyBoof-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

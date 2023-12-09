@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Orange3-Textable"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Textable add-on for Orange 3 data mining software package."
 
 HOMEPAGE="http://textable.io"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ef/98/e6f250fd71388510622124b162a1158458c9d688673fb64bf3d73d77ea52/Orange3-Textable-${REALVERSION}.tar.gz"
-SOURCEFILE="Orange3-Textable-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XenAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="XenAPI SDK, for communication with XenServer."
 
 HOMEPAGE="https://xapi-project.github.io/"
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/52/2d/49a52795d9e586ad6714417f47e08db84bb0eb9fe464a7a268ca6a963c0e/XenAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="XenAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

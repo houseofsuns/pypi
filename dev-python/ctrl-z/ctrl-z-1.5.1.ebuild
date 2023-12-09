@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CTRL-Z"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Django backup and recovery tool"
 
 HOMEPAGE="https://github.com/isprojects/ctrl-z"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/8b/61a4d29b5881867737f3105f62067d89d89e8ca0ff35151735a1c5f95a82/CTRL-Z-${REALVERSION}.tar.gz"
-SOURCEFILE="CTRL-Z-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

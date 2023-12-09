@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EthTx"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="EthTx transaction decoder."
 
 HOMEPAGE="https://github.com/EthTx/ethtx"
 LICENSE="Apache-2.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/3e/39/65dc2c848920d94de7982801ac15552b507c50e7016309913bef8e467074/EthTx-${REALVERSION}.tar.gz"
-SOURCEFILE="EthTx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

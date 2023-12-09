@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="daedalus-5g"
+LITERALNAME="daedalus-5g"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

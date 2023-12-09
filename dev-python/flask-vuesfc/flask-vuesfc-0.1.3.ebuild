@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-VueSFC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for rendering Vue.js SFCs"
 
 HOMEPAGE="https://github.com/michaelbukachi/flask-vuesfc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/e3/a52c633c44deb6fa27692874901b3520afe76e7856eef1e06bf456ebfcf1/Flask-VueSFC-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-VueSFC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

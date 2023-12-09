@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Sphinx-PyPI-upload"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="setuptools command for uploading Sphinx documentation to PyPI"
 
 HOMEPAGE="http://bitbucket.org/jezdez/sphinx-pypi-upload/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3e/68/723a5656d0fa705c1eae4c546ded85882fb4b3241b079aeab66e92513416/Sphinx-PyPI-upload-${REALVERSION}.tar.gz"
-SOURCEFILE="Sphinx-PyPI-upload-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

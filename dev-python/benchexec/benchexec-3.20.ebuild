@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BenchExec"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Framework for Reliable Benchmarking and Resource Measurement."
 
 HOMEPAGE="https://github.com/sosy-lab/benchexec/"
 LICENSE="Apache-2.0 AND BSD-3-Clause AND CC-BY-4.0 AND MIT AND ISC AND LicenseRef-BSD-3-Clause-CMU"
-SRC_URI="https://files.pythonhosted.org/packages/60/7c/04f0706b153c63e94b01fdb1f3ccfca19c80fa7c42ac34c182f4b1a12c75/BenchExec-${REALVERSION}.tar.gz"
-SOURCEFILE="BenchExec-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

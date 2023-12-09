@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VoigtFit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Voigt Profile Fitting in Python"
 
 HOMEPAGE="https://github.com/jkrogager/VoigtFit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/4e/bbe5dbc4184ad4929d4f930a2d31b7192a12593531a5cf374b4ee17f9720/VoigtFit-${REALVERSION}.tar.gz"
-SOURCEFILE="VoigtFit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

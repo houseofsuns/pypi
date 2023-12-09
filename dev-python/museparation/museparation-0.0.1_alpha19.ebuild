@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Museparation"
 REALVERSION="0.0.1a19"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple scripts for music separation tasks"
 
 HOMEPAGE="https://github.com/B-lanc/Museparation"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b7/f7/80afafaddfd2735c58ba36d3a41fcd1a6c6bf35911dba2478984fe182a75/Museparation-${REALVERSION}.tar.gz"
-SOURCEFILE="Museparation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VantiveCommerceSDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Vantiv eCommerce Python SDK"
 
 HOMEPAGE="https://developer.vantiv.com/community/ecommerce"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/d9/61aee90ede0b2c662960f85c8a7fc4ff9d5bd365f37f007c5c6a840cb701/VantiveCommerceSDK-${REALVERSION}.tar.gz"
-SOURCEFILE="VantiveCommerceSDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

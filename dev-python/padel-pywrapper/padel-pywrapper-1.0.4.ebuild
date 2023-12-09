@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PaDEL-pywrapper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python wrapper for the PaDEL descriptors"
 
 HOMEPAGE="https://github.com/OlivierBeq/PaDEL_pywrapper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/10/b2965b572cb650b515f2f943fbd99573c9970b889aada1bc88ce9cee97cb/PaDEL_pywrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="PaDEL_pywrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

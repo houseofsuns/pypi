@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SqlalchemyMixin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Active Record, Django-like queries, nested eager load and beauty __
 
 HOMEPAGE="https://github.com/blueromans/SqlalchemyMixin.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/65/fb17c8358a4920d8b28c769ce020c80544a34a56b5c785427a8bf46e8f94/SqlalchemyMixin-${REALVERSION}.tar.gz"
-SOURCEFILE="SqlalchemyMixin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

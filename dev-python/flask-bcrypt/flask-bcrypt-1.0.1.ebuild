@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Bcrypt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Brcrypt hashing for Flask."
 
 HOMEPAGE="https://github.com/maxcountryman/flask-bcrypt"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/0c/f4/25dccfafad391d305b63eb6031e7c1dbb757169d54d3a73292939201698e/Flask-Bcrypt-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Bcrypt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

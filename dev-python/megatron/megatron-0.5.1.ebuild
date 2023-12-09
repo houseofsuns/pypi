@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Megatron"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A computation graph library for feature engineering with Numpy data
 
 HOMEPAGE="https://github.com/ntaylorwss/megatron"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/34/c712fc83bb3967a727e1bf13f09b7fec2aa3fb1054afd6f106b2f3d0fe03/Megatron-${REALVERSION}.tar.gz"
-SOURCEFILE="Megatron-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

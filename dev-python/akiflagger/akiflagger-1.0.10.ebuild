@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="akiFlagger"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flag patients with acute kidney injury as per the KDIGO guidelines.
 
 HOMEPAGE="https://github.com/isaranwrap/StandardizingAKI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f1/14/151dd6fe2bc6823157d3151fdbbc09b6745f424c5214bb34f7dced58a317/akiFlagger-${REALVERSION}.tar.gz"
-SOURCEFILE="akiFlagger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BlurWindow"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Blur PySide, Tkinter, etc windows."
 
 HOMEPAGE="https://github.com/Peticali/PythonBlurBehind"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/54/4f/8fb94f671b55560a462446d1cc6ea38052ba7db58ad9c7c8fbd7b5bddee4/BlurWindow-${REALVERSION}.tar.gz"
-SOURCEFILE="BlurWindow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

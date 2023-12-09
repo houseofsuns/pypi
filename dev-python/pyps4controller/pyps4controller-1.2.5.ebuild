@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyPS4Controller"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple hooks for PS4 controller"
 
 HOMEPAGE="https://github.com/ArturSpirin/pyPS4Controller"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a9/31/374832a42312cbc99e6c70dd3a5ba5d13e4f65d2ecc995d79afe7c978718/pyPS4Controller-${REALVERSION}.tar.gz"
-SOURCEFILE="pyPS4Controller-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

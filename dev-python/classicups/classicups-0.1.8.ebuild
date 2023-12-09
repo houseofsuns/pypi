@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ClassicUPS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Usable UPS Integration in Python"
 
 HOMEPAGE="http://github.com/classicspecs/ClassicUPS/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/5e/c4/8bb6d22f2dd6941be9c5c36633ba18ea23b1999bfd8959f98469a39a04dc/ClassicUPS-${REALVERSION}.tar.gz"
-SOURCEFILE="ClassicUPS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

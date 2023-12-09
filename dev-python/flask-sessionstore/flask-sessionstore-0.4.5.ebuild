@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Sessionstore"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds session support to your Flask application"
 
 HOMEPAGE="https://github.com/mcrowson/flask-sessionstore"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/39/3b/d18277abce7282c52390619c3bb07c4b5e79d1afdf563673bb3cc20705b3/Flask-Sessionstore-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Sessionstore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

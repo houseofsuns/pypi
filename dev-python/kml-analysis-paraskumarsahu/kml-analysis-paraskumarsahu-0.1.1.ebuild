@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="kml-analysis-parasKumarSahu"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Wikipedia Analysis Toolkit"
 
 HOMEPAGE="https://github.com/parasKumarSahu/Knolml-Analysis-Package"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/60/e5/57b590b04bdf4d82c2fb04ef13f8abc6ec0d6b6c1a1705b97bca93cb28e1/kml-analysis-parasKumarSahu-${REALVERSION}.tar.gz"
-SOURCEFILE="kml-analysis-parasKumarSahu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

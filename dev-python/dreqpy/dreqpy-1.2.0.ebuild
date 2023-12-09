@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="dreqPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CMIP6 Data Request Python API"
 
 HOMEPAGE="http://proj.badc.rl.ac.uk/svn/exarch/CMIP6dreq/tags/01.02.00"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/92/06/a7a8715b1ef30dba699d2df3db2f559de6e375795fe93b57abed3cb2ec31/dreqPy-${REALVERSION}.tar.gz"
-SOURCEFILE="dreqPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

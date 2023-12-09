@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ADS1x15-ADC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library used for ADS1x15 analog to digital converter (ADC)"
 
 HOMEPAGE="https://github.com/chandrawi/ADS1x15-ADC"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/04/9b45a7823555de2ee0bdec9f1903e87cc69912f5f2456c7f08f2c1e688ad/ADS1x15-ADC-${REALVERSION}.tar.gz"
-SOURCEFILE="ADS1x15-ADC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-CeleryExt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="\"Flask-CeleryExt is a simple integration layer between Celery and 
 
 HOMEPAGE="https://github.com/inveniosoftware/flask-celeryext"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/bc/58/1395b07b9f8ab38ee6e13db16f60ddd82927b4782624e554d3a686a45fd9/Flask-CeleryExt-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-CeleryExt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

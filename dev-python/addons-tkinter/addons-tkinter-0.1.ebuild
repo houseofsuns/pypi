@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Addons-Tkinter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Addons-tkinter gives you everything you need for tkinter. Made by t
 
 HOMEPAGE="https://github.com/OmerYelin/Addons-Tkinter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/2a/b12ca7e75f253cbf4567fcdd61f8e704b8cc9de343495e367efe976e147a/Addons-Tkinter-${REALVERSION}.tar.gz"
-SOURCEFILE="Addons-Tkinter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

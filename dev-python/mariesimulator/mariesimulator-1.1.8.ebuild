@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="marieSimulator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python Package to simulate a MARIE architecture on any computer"
 
 HOMEPAGE="https://github.com/dehadeaaryan/MarieSimulator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b6/e7/ec4289c77a825d2481ad3e98dad6ece99cfad7ee2f54c981f4e495b5fd75/marieSimulator-${REALVERSION}.tar.gz"
-SOURCEFILE="marieSimulator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

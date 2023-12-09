@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BOHB-HPO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bayesian Optimization Hyperband Hyperparameter Optimization"
 
 HOMEPAGE="https://github.com/goktug97/bohb_hpo"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/11/1c093976ff45711e0f9060fb6ea0d02629522715f7d17463b397a6ae62c5/BOHB_HPO-${REALVERSION}.tar.gz"
-SOURCEFILE="BOHB_HPO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

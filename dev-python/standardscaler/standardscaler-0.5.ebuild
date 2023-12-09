@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="StandardScaler"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Standard scale your data"
 
 HOMEPAGE="https://github.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/5e/e265c9515c4fe7dae7041cdcb21174f857350fe0602c170c5d58588559fe/StandardScaler-${REALVERSION}.tar.gz"
-SOURCEFILE="StandardScaler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

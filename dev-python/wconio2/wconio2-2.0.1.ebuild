@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WConio2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Windows Console I/O"
 
 HOMEPAGE="https://github.com/Solomoriah/WConio2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/72/ac0c4ea6cafe0422ba288b1b0eb18ffe57ca43d731157aa668c14027b3bc/WConio2-${REALVERSION}.tar.gz"
-SOURCEFILE="WConio2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DE-LibUtil"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LibUtil - Biblioteca de Utilidades"
 
 HOMEPAGE="https://github.com/DE-DataEng/DE_LibUtil.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/47/b4938082789fa849e263872d6432f98d90162162ee2f6912192507f2f149/DE_LibUtil-${REALVERSION}.tar.gz"
-SOURCEFILE="DE_LibUtil-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

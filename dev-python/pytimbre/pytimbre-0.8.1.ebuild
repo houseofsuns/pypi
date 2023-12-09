@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyTimbre"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python conversion of Timbre Toolbox"
 
 HOMEPAGE="https://gitlab.com/python-audio-feature-extraction/pytimbre"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a3/62/55a0e79d449637b4cc9a868fd10c80954414f026fe4147cef3a9f6aa74ae/PyTimbre-${REALVERSION}.tar.gz"
-SOURCEFILE="PyTimbre-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

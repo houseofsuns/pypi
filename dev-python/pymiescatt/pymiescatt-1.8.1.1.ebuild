@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMieScatt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A collection of forward and inverse Mie solving routines based on B
 
 HOMEPAGE="http://air.eece.wustl.edu/people/ben-sumlin/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/70/92654b4dc399392452b1f016924ac96cefd6cbb60e25cd37fa731d661ee3/PyMieScatt-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMieScatt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

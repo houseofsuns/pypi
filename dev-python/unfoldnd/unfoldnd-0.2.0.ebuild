@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="unfoldNd"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="N-dimensional unfold (im2col) and fold (col2im) in PyTorch"
 
 HOMEPAGE="https://github.com/f-dangel/unfoldNd"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/05/66/70c28a9ccd943f1643515dbf622b49657bbefa4c00b582b2fd90750601f2/unfoldNd-${REALVERSION}.tar.gz"
-SOURCEFILE="unfoldNd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

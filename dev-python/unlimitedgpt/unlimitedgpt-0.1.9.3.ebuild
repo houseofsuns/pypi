@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UnlimitedGPT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An unofficial Python wrapper for OpenAI's ChatGPT API"
 
 HOMEPAGE="https://github.com/Sxvxgee/UnlimitedGPT"
 LICENSE="GPL-3.0 license"
-SRC_URI="https://files.pythonhosted.org/packages/f6/eb/6e0ee9fb23f1029108e7ca0e14ac8fd4fd74c97aecc8d04dfae472699bd1/UnlimitedGPT-${REALVERSION}.tar.gz"
-SOURCEFILE="UnlimitedGPT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="speXtra"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tool to  manage and manipulate  astronomical spectra"
 
 HOMEPAGE="https://github.com/AstarVienna/speXtra"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/ad/f605ad49f0f78b99d6374641a37e5cd67f0924a3175c99c0df328df31f83/speXtra-${REALVERSION}.tar.gz"
-SOURCEFILE="speXtra-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

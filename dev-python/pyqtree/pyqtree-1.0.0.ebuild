@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pyqtree"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A pure Python quad tree spatial index for GIS or rendering usage."
 
 HOMEPAGE="http://github.com/karimbahgat/Pyqtree"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/90/2905247e80944d2ce6b36a69fb995709cef25c409018f7471fd88cc1122a/Pyqtree-${REALVERSION}.tar.gz"
-SOURCEFILE="Pyqtree-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

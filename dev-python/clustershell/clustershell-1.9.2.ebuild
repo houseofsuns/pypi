@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ClusterShell"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ClusterShell library and tools"
 
 HOMEPAGE="https://clustershell.readthedocs.io/"
 LICENSE="LGPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/d0/24/1d574c46a1833da20e17037ab039646e788c9411c9132f91b007be44ddb3/ClusterShell-${REALVERSION}.tar.gz"
-SOURCEFILE="ClusterShell-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

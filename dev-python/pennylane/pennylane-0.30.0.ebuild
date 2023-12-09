@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PennyLane"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PennyLane is a Python quantum machine learning library by Xanadu In
 
 HOMEPAGE="https://github.com/XanaduAI/pennylane"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/85/b3/50637dab084e5a8bacd64910dc1c0d7e1167599c4354edb279e51674b88f/PennyLane-${REALVERSION}.tar.gz"
-SOURCEFILE="PennyLane-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

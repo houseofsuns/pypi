@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyOfficeRobot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="pip install PyOfficeRobot"
 
 HOMEPAGE="https://www.python-office.com/office/robot.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/62/3b04a18188004e286a04d2e662af9d7d44980ab6c09b65a0c316be7ab1c9/PyOfficeRobot-${REALVERSION}.tar.gz"
-SOURCEFILE="PyOfficeRobot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

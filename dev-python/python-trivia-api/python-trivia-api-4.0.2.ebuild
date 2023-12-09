@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Python-Trivia-API"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An API wrapper for opentdb"
 
 HOMEPAGE="https://github.com/MaT1g3R/Python-Trivia-API"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/98/6cd852892d8b01b49379370e2a3bb90ad1f967a705781c0a7d4e1b4a6617/Python-Trivia-API-${REALVERSION}.tar.gz"
-SOURCEFILE="Python-Trivia-API-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

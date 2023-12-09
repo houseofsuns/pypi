@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyFluidSynth"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python bindings for FluidSynth, a MIDI synthesizer that uses SoundF
 
 HOMEPAGE="https://github.com/nwhitehead/pyfluidsynth"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/88/c9/bbeebb572d52fb5b94a5d6f8f08ec72a8da86cf29892c33cb2f317063d48/pyFluidSynth-${REALVERSION}.tar.gz"
-SOURCEFILE="pyFluidSynth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

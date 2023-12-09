@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="mooyoUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="mooyo 常用工具包"
 
 HOMEPAGE="http://git.ppdaicorp.com/chenqiang08/mooyoUtils.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e0/85/6e6223f93e55991337dfdb15f51f0b6d276c99e72b7c42889d47616c1c42/mooyoUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="mooyoUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

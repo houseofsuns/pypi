@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Quid"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Quid is a tool for quotation detection in texts and can deal with c
 
 HOMEPAGE="https://hu.berlin/quid"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/19/da/432623830a65c7b095b51f72b01adb1487c1fab2825c923478bf07d8a7a8/Quid-${REALVERSION}.tar.gz"
-SOURCEFILE="Quid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CTH-sentence-split"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Chinese (Traditional), Taiwanese and Hakka's sentence split tool."
 
 HOMEPAGE="https://github.com/eran0926/CTH_sentence_split"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/8c/b55da20f545b3ebbaf88c4418fae379554c33edf796cca7704e09e476c5b/CTH_sentence_split-${REALVERSION}.tar.gz"
-SOURCEFILE="CTH_sentence_split-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

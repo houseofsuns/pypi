@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Uploads"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flexible and efficient upload handling for Flask"
 
 HOMEPAGE="https://github.com/maxcountryman/flask-uploads"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/a8/2c8e9ec04267d94b7852a374cebeb9a32d60f8cba83818af960e64fafbec/Flask-Uploads-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Uploads-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

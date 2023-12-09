@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-GoogleStorage"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Google Cloud Storage for Flask"
 
 HOMEPAGE="https://github.com/svidela/flask-googlestorage"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/6e/6a353f43612265c8415d4991bfb2726608c7114cf49122342308345df284/Flask-GoogleStorage-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-GoogleStorage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

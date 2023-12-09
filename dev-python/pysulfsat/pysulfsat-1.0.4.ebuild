@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySulfSat"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PySulfSat"
 
 HOMEPAGE="https://github.com/PennyWieser/PySulfSat"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/8c/ca722844019494bcb65e4608e42f0ee089ab0e301e70bf066ce2b33eafdc/PySulfSat-${REALVERSION}.tar.gz"
-SOURCEFILE="PySulfSat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

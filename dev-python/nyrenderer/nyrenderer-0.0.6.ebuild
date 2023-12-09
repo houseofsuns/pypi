@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NYRenderer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A small python package"
 
 HOMEPAGE="https://github.com/NishKoder/NYRenderer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/23/ff7617d4dbc0ab4427bbbff96145bdfdbc42769261f6fc5616b2c54db083/NYRenderer-${REALVERSION}.tar.gz"
-SOURCEFILE="NYRenderer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

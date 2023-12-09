@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FormAlchemy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FormAlchemy greatly speeds development with SQLAlchemy mapped class
 
 HOMEPAGE="https://github.com/FormAlchemy/formalchemy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/f3/848c6763aab06813e0c59da106960fb8b5c258c308dcf6982513cfd27bc2/FormAlchemy-${REALVERSION}.tar.gz"
-SOURCEFILE="FormAlchemy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

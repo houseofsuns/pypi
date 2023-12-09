@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ZxSci"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="一个帮助理工科本科学生进行简化计算的库"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/5d/96/4a2d6ff8462ddfe909747846715a9d46beb3d0aad2546c6bd67583765cc6/ZxSci-${REALVERSION}.tar.gz"
-SOURCEFILE="ZxSci-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="lofarSun"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="tools to process the lofar solar data"
 
 HOMEPAGE="https://github.com/peijin94/LOFAR-Sun-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f7/29/cad57be7576f79cc49e3d46f56290328d6d33922e98f3aaa226598b3b14f/lofarSun-${REALVERSION}.tar.gz"
-SOURCEFILE="lofarSun-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

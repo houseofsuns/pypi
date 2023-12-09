@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ConfigORM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ORM-like *.ini file and HashiCorp Vault config parser"
 
 HOMEPAGE="https://github.com/YADRO-KNS/ConfigORM"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/82/3f455629fe23c13dc2e4e9db5694e25651ed35f2fd635f81564693bbaddb/ConfigORM-${REALVERSION}.tar.gz"
-SOURCEFILE="ConfigORM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

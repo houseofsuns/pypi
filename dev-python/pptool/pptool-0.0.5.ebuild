@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PPtool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PPtool is a Python third-party package that integrates many conveni
 
 HOMEPAGE="https://github.com/zemengchuan/PPtool"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/31/6de976bca3d70db70e931ae4bb0d69525d99078ebd267c2b703b86a02c3c/PPtool-${REALVERSION}.tar.gz"
-SOURCEFILE="PPtool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

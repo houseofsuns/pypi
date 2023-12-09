@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyAVM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple pure-python AVM meta-data handling"
 
 HOMEPAGE="http://astrofrog.github.io/pyavm/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c7/9d/0f5fbf2030a83a9ca23f2801eeb27f4407675f17622208491118bdfc207c/PyAVM-${REALVERSION}.tar.gz"
-SOURCEFILE="PyAVM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mattermost-API"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple Mattermost API library"
 
 HOMEPAGE="https://github.com/izhatomic/mattermost-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/35/7e/09f2753b4e9076120a97b0a2fffb68c2beaa55523d8b6b5a0884c9063e67/Mattermost-API-${REALVERSION}.tar.gz"
-SOURCEFILE="Mattermost-API-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

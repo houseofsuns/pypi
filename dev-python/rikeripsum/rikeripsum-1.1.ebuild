@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RikerIpsum"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lorem Ipsum generator which uses dialog from Star Trek to generate 
 
 HOMEPAGE="http://ben174.github.io/rikeripsum/"
 LICENSE="Creative Commons Attribution-Noncommercial-Share Alike license"
-SRC_URI="https://files.pythonhosted.org/packages/77/55/e7aec6d2852e625dd2aa365f8198c7a376faaadedadec6ac22d627edec77/RikerIpsum-${REALVERSION}.tar.gz"
-SOURCEFILE="RikerIpsum-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

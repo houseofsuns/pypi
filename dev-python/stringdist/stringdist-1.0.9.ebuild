@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="StringDist"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This package provides the stringdist module, which includes several
 
 HOMEPAGE="https://github.com/obulkin/string-dist"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/85/f0/c56cbe92b4b06fbc7adaa81917ad34d7027834e166fff2d2db73961c67fa/StringDist-${REALVERSION}.tar.gz"
-SOURCEFILE="StringDist-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

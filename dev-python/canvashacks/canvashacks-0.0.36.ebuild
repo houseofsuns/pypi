@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CanvasHacks"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for mitigating the user-unfriendliness of canvas."
 
 HOMEPAGE="https://github.com/AdamSwenson/CanvasHacks"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/fa/d31f84e1025fef9c82ca16d6a4bf072bc0a7117769046d9406b23167c9e1/CanvasHacks-${REALVERSION}.tar.gz"
-SOURCEFILE="CanvasHacks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

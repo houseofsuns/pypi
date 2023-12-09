@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MoSeka"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Deep learning framework"
 
 HOMEPAGE="https://github.com/Muhamedelsayed/MNiST"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/c3/74fe3d5b533e2a10faa25e259b2e2c375b422ea8d08c0d78433d2c60d17e/MoSeka-${REALVERSION}.tar.gz"
-SOURCEFILE="MoSeka-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

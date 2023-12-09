@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AFQ-Browser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://yeatmanlab.github.io/AFQ-Browser"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/46/4c/886dedcd7402397f5e2d97ad4ab2ef572b65ebcf84f248fb364ed2fd2c95/AFQ-Browser-${REALVERSION}.tar.gz"
-SOURCEFILE="AFQ-Browser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

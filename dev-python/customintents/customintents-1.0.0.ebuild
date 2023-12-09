@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CustomIntents"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/iparsw/custom-intent.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/32/6dbc684df7b58468454d6d52b8c1be50c4f6514050e17136243cad77fe76/CustomIntents-${REALVERSION}.tar.gz"
-SOURCEFILE="CustomIntents-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

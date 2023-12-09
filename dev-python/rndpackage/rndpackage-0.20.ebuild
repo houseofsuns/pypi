@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RnDPackage"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Shared packages for R&D projects"
 
 HOMEPAGE="https://github.com/mehtarjt/python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/95/0750b12f44aa4ae4474c05b284725b84fe47f02997ea091dd15c0d01d8f5/RnDPackage-${REALVERSION}.tar.gz"
-SOURCEFILE="RnDPackage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Python-EasyConfig"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple library for loading configurations easily in Python, inspi
 
 HOMEPAGE="https://github.com/RussellLuo/easyconfig"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/0c/307a2f3bb00c3b8475a112c4f00753bb392ae190c0d5664e58e4cdafb25b/Python-EasyConfig-${REALVERSION}.tar.gz"
-SOURCEFILE="Python-EasyConfig-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

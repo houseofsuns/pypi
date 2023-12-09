@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SF-Mako"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MkNxGn SF Mako"
 
 HOMEPAGE="https://mknxgn.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ff/0b/088a05adc6f5333ee1e217cfa3041260068bb3533d7f09c035af48d9d4f9/SF_Mako-${REALVERSION}.tar.gz"
-SOURCEFILE="SF_Mako-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

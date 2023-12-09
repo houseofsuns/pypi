@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OnlySnarf"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OnlyFans Content Distribution Tool"
 
 HOMEPAGE="https://github.com/skeetzo/onlysnarf"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/cd/e75049f9cbfc4125259ffce5001392082fb89c3ccea3a69c2490c86793c3/OnlySnarf-${REALVERSION}.tar.gz"
-SOURCEFILE="OnlySnarf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

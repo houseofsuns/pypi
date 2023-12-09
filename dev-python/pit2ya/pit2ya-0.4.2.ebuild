@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pit2ya"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Ergonomic continuation of Toggl time entries"
 
 HOMEPAGE="https://github.com/Exr0nProjects/pit2ya"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/c0/5f6d746b87dffb54bd583ecf0c2c79ee5c7d35b0599bb72bf03091afeff1/Pit2ya-${REALVERSION}.tar.gz"
-SOURCEFILE="Pit2ya-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

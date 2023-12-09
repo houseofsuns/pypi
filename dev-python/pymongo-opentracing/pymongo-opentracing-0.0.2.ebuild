@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMongo-OpenTracing"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OpenTracing support for PyMongo"
 
 HOMEPAGE="http://github.com/signalfx/python-pymongo"
 LICENSE="Apache Software License v2"
-SRC_URI="https://files.pythonhosted.org/packages/c7/63/29dca4d1c065de95e7735653d02dae531f537c125e7a9dcb2ffea8d99e13/PyMongo-OpenTracing-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMongo-OpenTracing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

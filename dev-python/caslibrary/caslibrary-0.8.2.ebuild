@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CASlibrary"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The universal lib used in the CAS system"
 
 HOMEPAGE="https://github.com/FF-Woernitz/CAS_library"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/94/3f60e7049d7c79d6a789501d814c7c60d2c87301ceed11999392143cd87d/CASlibrary-${REALVERSION}.tar.gz"
-SOURCEFILE="CASlibrary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

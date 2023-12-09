@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CoAPthon3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CoAPthon is a python library to the CoAP protocol."
 
 HOMEPAGE="https://github.com/mcfreis/CoAPthon3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/5b/cb738600df341b3b3748aeb67e699407b5510821d721a01c4ab2bc392a25/CoAPthon3-${REALVERSION}.tar.gz"
-SOURCEFILE="CoAPthon3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Ezpub-karjakak"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Ezpub is a tool for developer to upload package to PyPI"
 
 HOMEPAGE="https://github.com/kakkarja/Ezpub"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a0/1f/21a87795663349f24311f83520a0e76b5ef45e7a4464791ae44747a34f05/Ezpub-karjakak-${REALVERSION}.tar.gz"
-SOURCEFILE="Ezpub-karjakak-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

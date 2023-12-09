@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Biopyutils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A bionformatic tookits"
 
 HOMEPAGE="https://jingxinfu.github.io/Biopyutils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5d/93/005dc20a9d37b45b060291388178191219c6b841edae7427289cec31eb8f/Biopyutils-${REALVERSION}.tar.gz"
-SOURCEFILE="Biopyutils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

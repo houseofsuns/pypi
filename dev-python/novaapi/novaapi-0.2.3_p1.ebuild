@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NovaAPI"
 REALVERSION="0.2.3.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to accelerate REST API development"
 
 HOMEPAGE="https://github.com/novaweb-mobi/nova-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/97/95/c77184057811d3f0195f25a0206296bfe8c73c3450a132755aa7364bc139/NovaAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="NovaAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

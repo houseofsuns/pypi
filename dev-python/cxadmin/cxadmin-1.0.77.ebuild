@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CxAdmin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python SDK for interacting with the CxEngage API"
 
 HOMEPAGE="https://github.com/ntflix/cxadmin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/c9/e104580a8c544709726d95af503961fb52c14bdf5fd3dac71d90ff97e7a9/CxAdmin-${REALVERSION}.tar.gz"
-SOURCEFILE="CxAdmin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Nikola"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A modular, fast, simple, static website and blog generator"
 
 HOMEPAGE="https://getnikola.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ef/e7/9ed1bb8f515b13d774b5e9c0fdbaa93860146321de4feb8127b014f04ffc/Nikola-${REALVERSION}.tar.gz"
-SOURCEFILE="Nikola-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

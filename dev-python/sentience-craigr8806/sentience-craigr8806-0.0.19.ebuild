@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Sentience-CraigR8806"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Machine Learning Library"
 
 HOMEPAGE="https://github.com/CraigR8806/Sentience"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/b6/dc4b89a0fb938d27a13fb8ad822f6957e4fab30c4048af5fb62677f6f487/Sentience-CraigR8806-${REALVERSION}.tar.gz"
-SOURCEFILE="Sentience-CraigR8806-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

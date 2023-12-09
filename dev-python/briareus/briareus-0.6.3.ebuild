@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Briareus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="UNKNOWN"
 
 HOMEPAGE="https://github.com/Tefx/Briareus"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/a7/50/51ed310412ed6d58c67fccf9c34d08755297147177775e623809d33f8c86/Briareus-${REALVERSION}.tar.gz"
-SOURCEFILE="Briareus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

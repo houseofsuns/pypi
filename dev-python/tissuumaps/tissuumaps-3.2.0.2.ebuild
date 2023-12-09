@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TissUUmaps"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="TissUUmaps is a lightweight viewer that uses basic web tools to vis
 
 HOMEPAGE="https://tissuumaps.github.io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/58/503f9b95594fb4a58fbf46ba24281f9a03877add67f7095af02e0501af10/TissUUmaps-${REALVERSION}.tar.gz"
-SOURCEFILE="TissUUmaps-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PeakUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Peak detection utilities for 1D data"
 
 HOMEPAGE="https://bitbucket.org/lucashnegri/peakutils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/89/39332b9fadef40443a781c00053beb9ec668181267aec5b7e5865b70e039/PeakUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="PeakUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="np-data-validator-2"
+LITERALNAME="np-data-validator-2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

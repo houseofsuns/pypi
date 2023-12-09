@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyShelly"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for Shelly smart home devices"
 
 HOMEPAGE="https://github.com/StyraHem/pyShelly"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/99/62984e3c27705bcd13db7765fc2f06c78ca8770a24a886bd1eac0dba920d/pyShelly-${REALVERSION}.tar.gz"
-SOURCEFILE="pyShelly-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

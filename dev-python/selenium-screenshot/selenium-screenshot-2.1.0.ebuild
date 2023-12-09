@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Selenium-Screenshot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This package is used to Clipped Images of Html Elements of Selenium
 
 HOMEPAGE="https://github.com/PyWizards/Selenium_Screenshot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/7a/4c7746b687e07adba89262956996dc5b355ae0fcab6572b660697a139a0b/Selenium-Screenshot-${REALVERSION}.tar.gz"
-SOURCEFILE="Selenium-Screenshot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

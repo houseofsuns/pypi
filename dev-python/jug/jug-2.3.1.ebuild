@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Jug"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Task Based Parallelization Framework"
 
 HOMEPAGE="https://jug.readthedocs.io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/e0/c5116694d10e5168b7290495d38895b4ee03b26b1cd877fe65f51e725d06/Jug-${REALVERSION}.tar.gz"
-SOURCEFILE="Jug-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="tpDcc-libs-qt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Collection of Python utilities modules to work with PySide/PyQt and
 
 HOMEPAGE="https://github.com/tpDcc/tpDcc-libs-qt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/dd/6199671a15f0d95754d25e4cde1f9e035356b400fc08278899bdbad1fdcc/tpDcc-libs-qt-${REALVERSION}.tar.gz"
-SOURCEFILE="tpDcc-libs-qt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

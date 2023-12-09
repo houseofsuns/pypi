@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Scripy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python tools for manage system commands as replacement to bash scri
 
 HOMEPAGE="http://bitbucket.org/ares/scripy/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/b8/94/e938ead848dd951c03a6cad601dee4150cca8a7251e74c983fc2001df792/Scripy-${REALVERSION}.tar.gz"
-SOURCEFILE="Scripy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

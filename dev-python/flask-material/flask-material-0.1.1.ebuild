@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Material"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An extension that includes Materialize CSS (http://materializecss.c
 
 HOMEPAGE="https://github.com/HellerCommaA/flask-materialize"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/7d/8ea6a5c8c84d92b60cc86659a5bd25633ca0f60192bf403769be765b7bdb/Flask-Material-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Material-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

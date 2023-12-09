@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BTrees"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Scalable persistent object containers"
 
 HOMEPAGE="https://github.com/zopefoundation/BTrees"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/3e/fa/e111f2a2676aa489e7b181c03a1adf82fc9ee691d648fbeb783638375fcc/BTrees-${REALVERSION}.tar.gz"
-SOURCEFILE="BTrees-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="autoPyTorch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Auto-PyTorch searches neural architectures using smac"
 
 HOMEPAGE="https://github.com/automl/Auto-PyTorch"
 LICENSE="3-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/29/95/15c04117236fde853f351b82f29ba8513aa3e514b1b8750a113ead1ac5aa/autoPyTorch-${REALVERSION}.tar.gz"
-SOURCEFILE="autoPyTorch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

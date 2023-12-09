@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Multipass-CERN"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CERN-specific Flask-Multipass providers"
 
 HOMEPAGE="https://github.com/indico/flask-multipass-cern"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/8f/b693826404260523280a3b13299d0142adbad40a5a3088ea81e528558f43/Flask-Multipass-CERN-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Multipass-CERN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

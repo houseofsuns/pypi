@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SeCo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python data serialization and compression made easy."
 
 HOMEPAGE="https://www.github.com/copyrighthero/SeCo"
 LICENSE="BSD-2-Clause + MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/df/b47223cfc624209af284c6166fd3f5b083464efca944e92129886e25fc79/SeCo-${REALVERSION}.tar.gz"
-SOURCEFILE="SeCo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

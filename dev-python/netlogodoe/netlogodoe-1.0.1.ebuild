@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NetLogoDOE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NetLogoDOE provides a GUI that allows for easy design, execution an
 
 HOMEPAGE="https://github.com/robinfaber97/NetLogoDOE"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/0b/16f6215a873ecae85e6a159244b17acab65d138c7d23f4625fccc5e6eb18/NetLogoDOE-${REALVERSION}.tar.gz"
-SOURCEFILE="NetLogoDOE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

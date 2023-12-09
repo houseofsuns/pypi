@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeCAF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Discrimination, Comparison, Alignment tool for small molecules"
 
 HOMEPAGE="https://bitbucket.org/marta-sd/decaf"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/92/21/89360fd3ded7aff7adca0b6d30d4a2ce8cbcda9bca8eea62829c56e9ce4c/DeCAF-${REALVERSION}.tar.gz"
-SOURCEFILE="DeCAF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

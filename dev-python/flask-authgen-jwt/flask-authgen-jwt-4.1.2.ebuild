@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-authgen-jwt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="JWT authentication and generator for Flask routes"
 
 HOMEPAGE="https://github.com/dmtzs/Flask-authgen-jwt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/ee/9b488b4239c0834e0f73f5c4ef014ee9e115ec32ae7b8ca27e94a654683b/Flask-authgen-jwt-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-authgen-jwt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Adax-local"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python3 library to communicate with Adax"
 
 HOMEPAGE="https://github.com/Danielhiversen/pyAdaxLocal"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/88/6874d37fdd0b92533db5e40a1e9b12d16e8e95deb7f6a3002de729e4d91b/Adax-local-${REALVERSION}.tar.gz"
-SOURCEFILE="Adax-local-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

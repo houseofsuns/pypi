@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyDOE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Design of experiments for Python"
 
 HOMEPAGE="https://github.com/tisimst/pyDOE"
 LICENSE="BSD License 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/bc/ac/91fe4c039e2744466621343d3b8af4a485193ed0aab53af5b1db03be0989/pyDOE-${REALVERSION}.zip"
-SOURCEFILE="pyDOE-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

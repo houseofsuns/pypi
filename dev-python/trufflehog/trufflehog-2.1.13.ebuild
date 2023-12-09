@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="truffleHog"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Searches through git repositories for high entropy strings, digging
 
 HOMEPAGE="https://github.com/dxa4481/truffleHog"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/86/d3/4858f1dc7835205ef51ab3eebf4c0737d3c0ef23b3d1c3f586f26ab0f637/truffleHog-${REALVERSION}.tar.gz"
-SOURCEFILE="truffleHog-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

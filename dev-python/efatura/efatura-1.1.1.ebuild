@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="eFatura"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Vergi veya TC Kimlik Numarasından E-Fatura Mükellefiyet Sorgusu"
 
 HOMEPAGE="https://github.com/keyiflerolsun/eFatura"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/72/50/638fce076588bcce484b2df5d5a24916b6534d7393287cbd9581354e5936/eFatura-${REALVERSION}.tar.gz"
-SOURCEFILE="eFatura-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Paginator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Paginator for SQLAlchemy query object, list or iterable"
 
 HOMEPAGE="http://github.com/mardix/paginator.py/"
 LICENSE="https://github.com/mardix/Paginator.py"
-SRC_URI="https://files.pythonhosted.org/packages/67/3e/4ab739fc6385a2996f7b472d47935bed9cf496e7abcf2bf3aa8699dc94bf/Paginator-${REALVERSION}.tar.gz"
-SOURCEFILE="Paginator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

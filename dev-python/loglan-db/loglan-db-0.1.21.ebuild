@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Loglan-DB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Loglan Dictionary Database Model for SQLAlchemy"
 
 HOMEPAGE="https://github.com/torrua/loglan_db"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/9c/cd43cea827f8c136cf7d44e43235e875b9eba8bd814ed99811a01ffd83c7/Loglan-DB-${REALVERSION}.tar.gz"
-SOURCEFILE="Loglan-DB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

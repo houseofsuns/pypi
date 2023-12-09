@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Omnis"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Deep Learning for everyone"
 
 HOMEPAGE="https://github.com/omnis-labs-company/omnis"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/01/9c/62b024b501914ff0c064bcc3045d50e434dc9f5e0a5f3eaf14ea4e853738/Omnis-${REALVERSION}.tar.gz"
-SOURCEFILE="Omnis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

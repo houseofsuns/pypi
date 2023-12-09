@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DB13"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DIRAC Benchmark 2012"
 
 HOMEPAGE="https://github.com/pypa/DIRACGrid/DB12"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/9a/acc29dc8eda9eec33813390452efcc70d8e9fb837b6adf900c9f263937a5/DB13-${REALVERSION}.tar.gz"
-SOURCEFILE="DB13-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

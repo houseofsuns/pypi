@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AutoFun"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="文件拆分与加书签"
 
 HOMEPAGE="https://alidocs.dingtalk.com/i/p/4oJRz0VRJyvmLZMydy0mV7WvjQn7MG89"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/bf/f48047bb4cf35f7a3cfde7bc7874d2f7a9bfb28542bcee661582fda6a13a/AutoFun-${REALVERSION}.tar.gz"
-SOURCEFILE="AutoFun-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

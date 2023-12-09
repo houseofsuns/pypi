@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MarkdownSubscript"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python-Markdown extension to allow for subscript text."
 
 HOMEPAGE="https://github.com/jambonrose/markdown_subscript_extension"
 LICENSE="Simplified BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/20/12/74c20322d3cf127f3606902f4999e32962d92e74cbcd71e61f4a79e863fb/MarkdownSubscript-${REALVERSION}.tar.gz"
-SOURCEFILE="MarkdownSubscript-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

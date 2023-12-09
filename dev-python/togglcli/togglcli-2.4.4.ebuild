@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="togglCli"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Command line tool and set of Python wrapper classes for interacting
 
 HOMEPAGE="https://toggl.uhlir.dev"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9d/91/53254a966deb81f92479c3f60f41fb84b50bf2b73532d5f4c26fc809fec0/togglCli-${REALVERSION}.tar.gz"
-SOURCEFILE="togglCli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

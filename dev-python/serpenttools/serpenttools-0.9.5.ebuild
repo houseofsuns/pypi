@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="serpentTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A suite of parsers designed to make interacting with SERPENT output
 
 HOMEPAGE="https://github.com/CORE-GATECH-GROUP/serpent-tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/17/c9f30b088f4c2d64a79a06055ac49659e2fbadc5ffce4ad656cec829afec/serpentTools-${REALVERSION}.tar.gz"
-SOURCEFILE="serpentTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

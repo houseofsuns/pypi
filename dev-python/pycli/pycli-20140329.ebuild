@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyCLI"
 REALVERSION="devel"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple, object-oriented approach to Python CLI apps"
 
 HOMEPAGE="http://packages.python.org/pyCLI/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/f4/e3/996ad1032bc3e29b6412e1bf5e07fba9acbe292ec955ed92ccd54d6c43c1/pyCLI-${REALVERSION}.tar.gz"
-SOURCEFILE="pyCLI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

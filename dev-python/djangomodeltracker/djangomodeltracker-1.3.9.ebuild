@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DjangoModelTracker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Track Django Model Objects over time"
 
 HOMEPAGE="https://github.com/mkalioby/ModelTracker/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/7a/e1504964339a0d11352562235f242c8d0b18e6ce2a6dc06cdd3c7bfdf911/DjangoModelTracker-${REALVERSION}.tar.gz"
-SOURCEFILE="DjangoModelTracker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

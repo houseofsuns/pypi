@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Snake"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Snake is yet another Make-like tool inspired by Rake."
 
 HOMEPAGE="http://yumatov.org/snake/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/74/fa/60e007e4858ab4ea5b53acae114769f5b0281e435a6f3a6027622a55ce55/Snake-${REALVERSION}.tar.gz"
-SOURCEFILE="Snake-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

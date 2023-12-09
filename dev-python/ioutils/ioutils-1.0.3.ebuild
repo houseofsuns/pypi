@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IOUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Functions for input & output"
 
 HOMEPAGE="http://www.adamstudio.cn"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/51/bd/6a0c50c1ecd1d6b89d43f24a89f1f13e81bfd861a57f41fc675efaa2f947/IOUtils-${REALVERSION}.zip"
-SOURCEFILE="IOUtils-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

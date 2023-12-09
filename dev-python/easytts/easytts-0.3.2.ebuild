@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EasyTTS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Ready-to-use Multilingual Text-To-Speech (TTS) package."
 
 HOMEPAGE="https://EasyTTS.github.io/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/fa/8d9190a063141c23a369152df9768d05ef3d50e35caf39b806ebb5efcaa7/EasyTTS-${REALVERSION}.tar.gz"
-SOURCEFILE="EasyTTS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

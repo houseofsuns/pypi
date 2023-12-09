@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyForks"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to interface with Trailforks.com"
 
 HOMEPAGE="http://pypi.python.org/pypi/PyForks/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/af/19/22ed90426520064b600ace07776b9070d498c848a5c27e50f63194808709/PyForks-${REALVERSION}.tar.gz"
-SOURCEFILE="PyForks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

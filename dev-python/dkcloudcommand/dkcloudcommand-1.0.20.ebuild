@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DKCloudCommand"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DataKitchen Cloud Command Line"
 
 HOMEPAGE="https://github.com/DataKitchen/DKCloudCommand"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/1f/d7/f7bc512fb3312d4b3032cb8d0d09a1d55e1d4f043ac36793a9372b676a3e/DKCloudCommand-${REALVERSION}.tar.gz"
-SOURCEFILE="DKCloudCommand-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

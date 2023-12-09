@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HotnCold"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a Hot and Cold Game"
 
 HOMEPAGE="https://gitlab.com/samic130/hotncold/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/58/d6/07ef0a065cb52e910ff59e8d7aed9dc5e411811b83c7e5ea14d95c821762/HotnCold-${REALVERSION}.tar.gz"
-SOURCEFILE="HotnCold-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

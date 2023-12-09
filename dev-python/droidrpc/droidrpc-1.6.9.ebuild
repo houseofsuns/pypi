@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DroidRpc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python client for connecting to LORA Technologies' bot services."
 
 HOMEPAGE="https://asklora.ai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/e7/55475bac18be3aca6a0072dfcd8fcb3f2eed71e89a5694350455d7b2fc2c/DroidRpc-${REALVERSION}.tar.gz"
-SOURCEFILE="DroidRpc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

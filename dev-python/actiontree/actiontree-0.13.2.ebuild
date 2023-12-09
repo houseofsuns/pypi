@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ActionTree"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Executes (long) actions in parallel, respecting dependencies betwee
 
 HOMEPAGE="http://jacquev6.github.io/ActionTree"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/54/5f/c1ed6be040a71071104c58f3fe388b0d72b360c3422c673ee6a6358930e1/ActionTree-${REALVERSION}.tar.gz"
-SOURCEFILE="ActionTree-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

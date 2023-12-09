@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pyrebase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple python wrapper for the Firebase API"
 
 HOMEPAGE="https://github.com/thisbejim/Pyrebase"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/41/eb969d9e524c1d21fc3460b3f1efbae604d02861c472e6eaaf39a4f8df6a/Pyrebase-${REALVERSION}.tar.gz"
-SOURCEFILE="Pyrebase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

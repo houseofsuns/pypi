@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OctoBot-Commons"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OctoBot project common modules"
 
 HOMEPAGE="https://github.com/Drakkar-Software/OctoBot-Commons"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/2f/7a/8b6f565f33354ee00106cb03abcf8a8b2e7c3f9d6653ad4c8f5e99ff78ad/OctoBot-Commons-${REALVERSION}.tar.gz"
-SOURCEFILE="OctoBot-Commons-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

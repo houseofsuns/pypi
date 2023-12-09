@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LinkPython-extern"
 REALVERSION="1.0.4a1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A fork of the LinkPython wrapper for Ableton Link"
 
 HOMEPAGE="https://github.com/thegamecracks/link-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/c4/0ce9ae57c79636390f546c98235d779f9d14815d7dd15459b3a38e0e3a4e/LinkPython-extern-${REALVERSION}.tar.gz"
-SOURCEFILE="LinkPython-extern-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

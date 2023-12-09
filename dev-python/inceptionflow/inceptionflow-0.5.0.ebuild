@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="InceptionFlow"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Object & Facial Recognition With IoT Communication. Using Tensorflo
 
 HOMEPAGE="https://github.com/AdamMiltonBarker/InceptionFlow"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/eb/f7599a466c230b37d330b9755295b65b83bc1383f0dd10e7b45eec592cdc/InceptionFlow-${REALVERSION}.tar.gz"
-SOURCEFILE="InceptionFlow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DfxHelper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="辅助工具"
 
 HOMEPAGE="https://www.baidu.com"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/52/b3/7715880231dc010ab79fbc4e6e093c946eeefff18f27e726dc131811b4e8/DfxHelper-${REALVERSION}.tar.gz"
-SOURCEFILE="DfxHelper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

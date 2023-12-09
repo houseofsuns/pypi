@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Codado"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A collection of system development utilities"
 
 HOMEPAGE="https://github.com/corydodt/Codado"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/92/60/b465b51f5d4dac6808559c71430130b5389a784fc79e0796302ead4bfefc/Codado-${REALVERSION}.tar.gz"
-SOURCEFILE="Codado-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

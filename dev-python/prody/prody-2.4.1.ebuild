@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ProDy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python Package for Protein Dynamics Analysis"
 
 HOMEPAGE="http://www.csb.pitt.edu/ProDy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c7/1c/18ad5d7f00c3c2ef3d5ea2e63c0cd1c10e8cb123cc1b4274d41828debb31/ProDy-${REALVERSION}.tar.gz"
-SOURCEFILE="ProDy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

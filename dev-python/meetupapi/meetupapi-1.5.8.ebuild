@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MeetupAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Use the combined power of the official Meetup API and a web scraper
 
 HOMEPAGE="https://github.com/glowingkitty/Meetup-API"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/94/3eb2cf5bb43c1ac5e9b038ad4c2ae88255821ad7e3566ecbed687bd95419/MeetupAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="MeetupAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

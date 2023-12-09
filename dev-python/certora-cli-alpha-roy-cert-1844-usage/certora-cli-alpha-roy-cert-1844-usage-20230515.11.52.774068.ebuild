@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="certora-cli-alpha-roy-CERT-1844-usage"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Runner for the Certora Prover"
 
 HOMEPAGE="https://pypi.org/project/certora-cli-alpha-roy-CERT-1844-usage"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a9/18/f6d5ccce6d75c32cf8b31d310f9306aa3910e594a7a39dba055287c8a923/certora-cli-alpha-roy-CERT-1844-usage-${REALVERSION}.tar.gz"
-SOURCEFILE="certora-cli-alpha-roy-CERT-1844-usage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

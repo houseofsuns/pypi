@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RG"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Ryan's go-to Python functions"
 
 HOMEPAGE="https://www.usherbrooke.ca/gchimiquebiotech/departement/professeurs/ryan-gosselin/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7c/ef/0794e5b9fb1e68184c0f675199f995622ebb6e381f7161cc141d9eeb98b3/RG-${REALVERSION}.tar.gz"
-SOURCEFILE="RG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

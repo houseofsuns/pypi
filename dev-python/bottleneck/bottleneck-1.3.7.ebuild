@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Bottleneck"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fast NumPy array functions written in C"
 
 HOMEPAGE="https://github.com/pydata/bottleneck"
 LICENSE="Simplified BSD"
-SRC_URI="https://files.pythonhosted.org/packages/98/1f/e5c91a94a9e695fe12442aa3a1c0c8fa7b09b1091ab885e288a45733c089/Bottleneck-${REALVERSION}.tar.gz"
-SOURCEFILE="Bottleneck-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

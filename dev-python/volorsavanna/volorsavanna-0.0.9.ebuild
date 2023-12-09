@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VolorSavanna"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Volor Savanna is a text adventure game! To play: import VolorSavann
 
 HOMEPAGE="https://github.com/Invizabel/Volor-Savanna"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/d1/f6c296bc5b5d64d5c38f61fb825b88ac9b40e266482b71c15a9f1a958620/VolorSavanna-${REALVERSION}.tar.gz"
-SOURCEFILE="VolorSavanna-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Elixir"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Declarative Mapper for SQLAlchemy"
 
 HOMEPAGE="http://elixir.ematia.de"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3d/8d/0009e2a623849894131f258529fe3a818c5734f7a9892f8721d99bd5cc31/Elixir-${REALVERSION}.tar.gz"
-SOURCEFILE="Elixir-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

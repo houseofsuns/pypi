@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CASTEP-dispersion"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CASTEP utility for plotting band structures and phonon dispersions.
 
 HOMEPAGE="https://github.com/zachary-hawk/dispersion.py.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/c8/bdf478b373aa077df1369b6512379db9ba635c844fcc5ff6dd3b46671b35/CASTEP-dispersion-${REALVERSION}.tar.gz"
-SOURCEFILE="CASTEP-dispersion-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

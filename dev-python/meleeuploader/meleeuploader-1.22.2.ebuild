@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MeleeUploader"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A YouTube Uploader with Super Smash Bros. in mind"
 
 HOMEPAGE="https://github.com/NikhilNarayana/Melee-YouTube-Uploader"
 LICENSE="GNU Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/8f/53/78d870fc7a36754ec43588bb0a75868446d7898133945b2e42a98c88b601/MeleeUploader-${REALVERSION}.tar.gz"
-SOURCEFILE="MeleeUploader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Silence"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An educational API+Web framework."
 
 HOMEPAGE="http://github.com/DEAL-US/Silence"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/f9/051ca8de01fce3237fe7845424cf721cfed8cddfec3e8e5e56661f107696/Silence-${REALVERSION}.tar.gz"
-SOURCEFILE="Silence-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SetSimilaritySearch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library of set similarity search algorithms"
 
 HOMEPAGE="https://github.com/ekzhu/SetSimilaritySearch"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f1/19/e3f7ac825a842c1bf633283483345e3c36f9cd9cde724ff88380961952d7/SetSimilaritySearch-${REALVERSION}.tar.gz"
-SOURCEFILE="SetSimilaritySearch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

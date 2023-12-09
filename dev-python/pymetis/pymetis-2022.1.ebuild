@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMetis"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Graph Partitioning Package"
 
 HOMEPAGE="http://mathema.tician.de/software/pymetis"
 LICENSE="wrapper: MIT/METIS: Apache 2"
-SRC_URI="https://files.pythonhosted.org/packages/2a/58/ec4eddef8fd529b160c35e8dbf36851b8f60c2132a173e4017a6e722354e/PyMetis-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMetis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

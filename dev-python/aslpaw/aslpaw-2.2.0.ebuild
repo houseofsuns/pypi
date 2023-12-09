@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ASLPAw"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adaptive overlapping community discovery algorithm package in pytho
 
 HOMEPAGE="https://github.com/fsssosei/ASLPAw"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/aa/0b/83d1289c05d7c299d556c527d9ab7455db1a016a84510063bc5b49329c38/ASLPAw-${REALVERSION}.tar.gz"
-SOURCEFILE="ASLPAw-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

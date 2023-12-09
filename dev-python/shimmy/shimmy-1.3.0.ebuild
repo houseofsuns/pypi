@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Shimmy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An API conversion tool providing Gymnasium and PettingZoo bindings 
 
 HOMEPAGE="https://github.com/Farama-Foundation/Shimmy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/92/a7/e2c7e4674f060a4465be9f9f1f40f07e6a0b3acd8d03f9f84832111d45b6/Shimmy-${REALVERSION}.tar.gz"
-SOURCEFILE="Shimmy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

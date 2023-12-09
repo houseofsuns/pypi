@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LibJciHitachi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for controlling Jci Hitachi devices."
 
 HOMEPAGE="https://github.com/qqaatw/LibJciHitachi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/bd/3ba802f123d76e8df7b64b5c1297d14c19d7bda21c049fb78576fed1992d/LibJciHitachi-${REALVERSION}.tar.gz"
-SOURCEFILE="LibJciHitachi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Checks"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy and clean way to add conditions to function arguments"
 
 HOMEPAGE="https://github.com/CodeItISR/Python/tree/master/Frameworks/Checks"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/15/2d/16952ee8e452de1d2b3e846034913708788bb9dd678f41e88bb945abb90f/Checks-${REALVERSION}.tar.gz"
-SOURCEFILE="Checks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyGObject-stubs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Typing stubs for PyGObject"
 
 HOMEPAGE="https://github.com/pygobject/pygobject-stubs"
 LICENSE="LGPL-2.1"
-SRC_URI="https://files.pythonhosted.org/packages/68/d2/40868f7c2894b0910e6d49976c09042783e0ebf8e1ce7ddab21fc9518f97/PyGObject-stubs-${REALVERSION}.tar.gz"
-SOURCEFILE="PyGObject-stubs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

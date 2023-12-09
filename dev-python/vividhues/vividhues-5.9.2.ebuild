@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VividHues"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="VividHues: Super light Python string formatter!"
 
 HOMEPAGE="https://github.com/KennyOliver/VividHues"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/88/06/cecfcd2f0d7eac68f2ce0ba126bf6f94d03424f1447137fbe0eab7477e42/VividHues-${REALVERSION}.tar.gz"
-SOURCEFILE="VividHues-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

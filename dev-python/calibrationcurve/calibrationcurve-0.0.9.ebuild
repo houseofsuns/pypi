@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CalibrationCurve"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A collection of functions that streamline the process of creating c
 
 HOMEPAGE="https://github.com/Rhys-McAlister/CalibrationCurve"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/54/2c/e2ab4d2f9697195c6b949119ed97f22193cc3a15df469a9a406ca927b9d1/CalibrationCurve-${REALVERSION}.tar.gz"
-SOURCEFILE="CalibrationCurve-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

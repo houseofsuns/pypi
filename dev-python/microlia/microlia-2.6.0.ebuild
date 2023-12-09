@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MicroLIA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Machine learning classifier for microlensing"
 
 HOMEPAGE="https://github.com/Professor-G/MicroLIA"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f3/42/8e81d15ea66de27b0f14c8bcd053bb1ec5b71d76dab4ba9c63c7d0eccb46/MicroLIA-${REALVERSION}.tar.gz"
-SOURCEFILE="MicroLIA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

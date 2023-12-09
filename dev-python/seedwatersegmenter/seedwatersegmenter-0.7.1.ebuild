@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SeedWaterSegmenter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="graphical program to interactively segment image stacks of cells in
 
 HOMEPAGE="http://pypi.python.org/pypi/SeedWaterSegmenter/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/f1/f7/992ab0a2c3359c3813995d7f18a515fe2f8b7cd671e708515357f0dd2be6/SeedWaterSegmenter-${REALVERSION}.tar.gz"
-SOURCEFILE="SeedWaterSegmenter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

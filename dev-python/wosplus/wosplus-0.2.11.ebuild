@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WOSplus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="WOS+ is a tool for to manage and merge bibliographic databases like
 
 HOMEPAGE="https://github.com/colav/WOSplus"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/72/02/a3daecebfcec92ed33c80b8d42d1090d0e3e34a9a70208cdb70e5389af81/WOSplus-${REALVERSION}.tar.gz"
-SOURCEFILE="WOSplus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

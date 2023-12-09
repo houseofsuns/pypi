@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SyncRNG"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate the same random numbers in R and Python"
 
 HOMEPAGE="https://github.com/GjjvdBurg/SyncRNG"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/6e/03/a276423d9d49348f4d905797469bcef6f7cec79446fba0314fa830b308e9/SyncRNG-${REALVERSION}.tar.gz"
-SOURCEFILE="SyncRNG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TrimLog"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="TriMO组织的python项目log和项目管理框架库。"
 
 HOMEPAGE="https://github.com/TriM-Organization/TrimLog"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/13/64/0f5abd5cc17c0a8393cb79a1a4f21f6cd68589066dca34e7f47a2a0f8737/TrimLog-${REALVERSION}.tar.gz"
-SOURCEFILE="TrimLog-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

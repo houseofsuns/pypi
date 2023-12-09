@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LDTk"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Toolkit to calculate stellar limb darkening profiles for arbitrary 
 
 HOMEPAGE="https://github.com/hpparvi/ldtk"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/44/9a/aa2f82533734f80a2107e7e4b4cd61916f56afa96c27e07007596c8887df/LDTk-${REALVERSION}.macosx-10.9-x86_64.tar.gz"
-SOURCEFILE="LDTk-${REALVERSION}.macosx-10.9-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.macosx-10.9-x86_64.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.macosx-10.9-x86_64.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PARANOID"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A utility to obfuscate and mask elements in XML and JSON files"
 
 HOMEPAGE="https://gitlab.com/sonra-labs/paranoid"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/df/97/168c78858c20fc2d09f92712b6f662b860dfdf54661d3650640cbde33c04/PARANOID-${REALVERSION}.tar.gz"
-SOURCEFILE="PARANOID-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

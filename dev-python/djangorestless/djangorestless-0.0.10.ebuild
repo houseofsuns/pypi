@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DjangoRestless"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A RESTful framework for Django"
 
 HOMEPAGE="https://github.com/dobarkod/django-restless"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/19/46501147d5c9a252b3c79678c19186ae0757598d9b07b36cc45d2d6551eb/DjangoRestless-${REALVERSION}.tar.gz"
-SOURCEFILE="DjangoRestless-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

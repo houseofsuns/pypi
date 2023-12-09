@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HashableDict"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A hashable immutable dictionary"
 
 HOMEPAGE="https://github.com/IFcoltransG/HashableDict"
 LICENSE="unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/e1/4c/58d3c02a6fab49c613df8f22c88c829928d1ee35172e7765134988549c1a/HashableDict-${REALVERSION}.tar.gz"
-SOURCEFILE="HashableDict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

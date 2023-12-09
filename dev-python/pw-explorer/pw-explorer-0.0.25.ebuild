@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PW-explorer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An Extensible Possible World Explorer for Answer Set Programming"
 
 HOMEPAGE="https://github.com/idaks/PW-explorer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e2/08/bcbaa524e76c7613bd4d2908faebe9d7a9f6dd9d25763491ee896ed18042/PW_explorer-${REALVERSION}.tar.gz"
-SOURCEFILE="PW_explorer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

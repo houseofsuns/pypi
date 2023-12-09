@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CacheToolsUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Cachetools Utilities"
 
 HOMEPAGE=""
 LICENSE="CC0-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/5a/89/8fcdffe507097050870ad5f324e943bedfeaf88d7352a5acdf4e85f3a37d/CacheToolsUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="CacheToolsUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

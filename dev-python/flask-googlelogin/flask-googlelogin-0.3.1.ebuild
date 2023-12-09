@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-GoogleLogin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Extends Flask-Login to use Google's OAuth2 authorization"
 
 HOMEPAGE="https://github.com/marksteve/flask-googlelogin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/ca/ad26cb150bd7897e643910be711e63212ba8afa45b0929a73761d9731251/Flask-GoogleLogin-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-GoogleLogin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

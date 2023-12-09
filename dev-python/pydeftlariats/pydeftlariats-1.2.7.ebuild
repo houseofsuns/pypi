@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDeftLariats"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Using PyHamcrest to build a collection of data filters."
 
 HOMEPAGE="https://github.com/mcmasty/PyDeftLariats"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/cc/5f/3d8f1ed26847711883c09af97bf2adfef17ae891c3ef5d8abc909ddecb58/PyDeftLariats-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDeftLariats-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

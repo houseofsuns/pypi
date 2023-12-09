@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Zope"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Zope application server / web framework"
 
 HOMEPAGE="https://zope.readthedocs.io/en/latest/"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/5d/48/964d5a01cf85c5443c0f176b03c2aefafa70fef0f4f9933c46a03ba2ce00/Zope-${REALVERSION}.tar.gz"
-SOURCEFILE="Zope-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

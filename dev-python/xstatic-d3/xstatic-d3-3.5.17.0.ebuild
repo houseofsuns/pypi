@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-D3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="D3 3.5.17 (XStatic packaging standard)"
 
 HOMEPAGE="http://d3js.org/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/18/e0/6f6485a34d56084485900f03278c2140e6eb8e079bb255a5c17b082ab881/XStatic-D3-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-D3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Facebooker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An un official facebook api"
 
 HOMEPAGE="https://github.com/gpwork4u/Facebooker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/95/04/2bc0cf41570165c2895d8b819024ae752df64eaa36f6cc48f3ed7a4ad699/Facebooker-${REALVERSION}.tar.gz"
-SOURCEFILE="Facebooker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

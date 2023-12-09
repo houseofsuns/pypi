@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WORC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Workflow for Optimal Radiomics Classification."
 
 HOMEPAGE="https://github.com/MStarmans91/WORC"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b0/67/cb70dfc0e9af71b698c8a12f2582630c9eff1b768d259f9227705d30834b/WORC-${REALVERSION}.tar.gz"
-SOURCEFILE="WORC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

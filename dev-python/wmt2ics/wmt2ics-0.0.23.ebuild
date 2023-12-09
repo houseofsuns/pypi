@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Wmt2Ics"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Converts wmt schedule Views:My Schedule to .ics file"
 
 HOMEPAGE="https://github.com/mhr320/Wmt2Ics"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/11/fa/3e0bd03bdc440df436c1fdd18782e09b498b0f4c05abbde50694361ee64c/Wmt2Ics-${REALVERSION}.tar.gz"
-SOURCEFILE="Wmt2Ics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

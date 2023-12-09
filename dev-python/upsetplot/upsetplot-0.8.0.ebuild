@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UpSetPlot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Draw Lex et al.'s UpSet plots with Pandas and Matplotlib"
 
 HOMEPAGE="https://upsetplot.readthedocs.io"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/25/62/f9ab73c23da63d77e8498253b043d03c65c259f4d0358309b37f56cdf5cd/UpSetPlot-${REALVERSION}.tar.gz"
-SOURCEFILE="UpSetPlot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

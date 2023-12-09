@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DEERPREdict"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for DEER and PRE predictions based on molecular dynamics 
 
 HOMEPAGE="https://github.com/KULL-Centre/DEERpredict"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/62/ed/e5f6406f273d34adde0ca53a71516f0a775bb79dc41ab9b962092c691670/DEERPREdict-${REALVERSION}.tar.gz"
-SOURCEFILE="DEERPREdict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

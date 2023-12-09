@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TRAPT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A novel deep learning framework for transcription regulators predic
 
 HOMEPAGE="https://github.com/LicLab-bio/TRAPT"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/ee/30af77b0eaac7c862a9b87551ae789b2914881a9c9c9e092f077aeef5a34/TRAPT-${REALVERSION}.tar.gz"
-SOURCEFILE="TRAPT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

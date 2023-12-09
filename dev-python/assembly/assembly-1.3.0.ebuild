@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Assembly"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Assembly is a pythonic object-oriented, mid stack, batteries includ
 
 HOMEPAGE="https://github.com/mardix/assembly"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/dd/300832e2e2c2ceb979a8812a1a8de43dec456b296b081206afda5b4ea0a4/Assembly-${REALVERSION}.tar.gz"
-SOURCEFILE="Assembly-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

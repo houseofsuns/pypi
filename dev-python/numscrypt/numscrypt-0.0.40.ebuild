@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Numscrypt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tiny bit of NumPy for Transcrypt using JavaScript typed arrays"
 
 HOMEPAGE="https://github.com/JdeH/Numscrypt"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/84/7f/45da6e494cbe7ca6453d7566fe9b381080f23b36feb08e0af7ad669f3631/Numscrypt-${REALVERSION}.tar.gz"
-SOURCEFILE="Numscrypt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

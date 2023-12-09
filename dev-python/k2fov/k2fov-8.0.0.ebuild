@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="K2fov"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Find which targets are in the field of view of K2"
 
 HOMEPAGE="https://github.com/KeplerGO/K2fov"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/83/6caf8a902c0837b7afcaaba82bafa11f8ca899cd934123c14454c5459f5d/K2fov-${REALVERSION}.tar.gz"
-SOURCEFILE="K2fov-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

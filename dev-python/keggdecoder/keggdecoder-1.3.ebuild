@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KEGGDecoder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Designed to parse through a blastKoala or ghostKoala output to dete
 
 HOMEPAGE="https://github.com/bjtully/BioData/KEGGDecoder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2a/29/d1dfe85a76a096cc88042f3ab5d83b085304be9f29f14db3165092b1a2ce/KEGGDecoder-${REALVERSION}.tar.gz"
-SOURCEFILE="KEGGDecoder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

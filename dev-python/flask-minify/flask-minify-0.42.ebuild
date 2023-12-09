@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Minify"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension to minify html, css, js and less."
 
 HOMEPAGE="https://github.com/mrf345/flask_minify/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/10/f2/c44fbffa87124ae6f69100f4b289b22473ad58b2f86471732409eb727765/Flask-Minify-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Minify-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

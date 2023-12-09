@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VertFlow"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Apache Airflow operator for running Google Cloud Run Jobs using gre
 
 HOMEPAGE="https://github.com/ovotech/VertFlow"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b0/9c/cd5c631f375f8ccab8add3f126e9dcd5eebe317364b6d823679235529497/VertFlow-${REALVERSION}.tar.gz"
-SOURCEFILE="VertFlow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

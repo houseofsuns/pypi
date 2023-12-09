@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MyProxyClient"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MyProxy Client"
 
 HOMEPAGE="https://github.com/cedadev/MyProxyClient"
 LICENSE="BSD - See LICENSE file in top-level package directory  Software adapted from myproxy_logon.  - For myproxy_logon see Access Grid Toolkit Public License AGTPL  This product includes software developed by and/or derived from the Access Grid Project http://www.accessgrid.org to which the U.S. Government retains certain rights."
-SRC_URI="https://files.pythonhosted.org/packages/7e/07/532396a66141ea6293ddf4d9dc8fd6ba8bb839f9f5ff3b27fcc0a2a8c765/MyProxyClient-${REALVERSION}.tar.gz"
-SOURCEFILE="MyProxyClient-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

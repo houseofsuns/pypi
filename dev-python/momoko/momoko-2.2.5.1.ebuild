@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Momoko"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Momoko wraps Psycopg2's functionality for use in Tornado."
 
 HOMEPAGE="http://momoko.61924.nl/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bf/00/7692f929b09566bb1325f1c14d9ad4ca59365ccfaabb57119fb81f81e878/Momoko-${REALVERSION}.tar.gz"
-SOURCEFILE="Momoko-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

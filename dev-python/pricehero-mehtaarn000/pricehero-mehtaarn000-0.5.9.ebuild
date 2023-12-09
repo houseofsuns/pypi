@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PriceHero-mehtaarn000"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python module that will allow users to get product prices informa
 
 HOMEPAGE="https://github.com/mehtaarn000/PriceHero"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/23/4ea16317bff18a326cf633b0b70fc44ec216f7740006836384ed48b695a7/PriceHero-mehtaarn000-${REALVERSION}.tar.gz"
-SOURCEFILE="PriceHero-mehtaarn000-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XBlock"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="XBlock Core Library"
 
 HOMEPAGE="https://github.com/openedx/XBlock"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/51/81/3acb4277f96ebf7a42a76807dc3a2d4c7afda1e0ba8e7365de845688c163/XBlock-${REALVERSION}.tar.gz"
-SOURCEFILE="XBlock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

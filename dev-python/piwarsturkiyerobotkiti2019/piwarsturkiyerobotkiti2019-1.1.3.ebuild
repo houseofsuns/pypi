@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PiWarsTurkiyeRobotKiti2019"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library that makes use of sensors, motors, and servos in the PiWars
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4d/a4/34c3751c7590510870dfcd42e99c6d1f74b2816be3dd56182d7dcc18414d/PiWarsTurkiyeRobotKiti2019-${REALVERSION}.tar.gz"
-SOURCEFILE="PiWarsTurkiyeRobotKiti2019-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

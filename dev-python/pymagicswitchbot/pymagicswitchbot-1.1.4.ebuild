@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyMagicSwitchbot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library to control Magic Switchbot devices"
 
 HOMEPAGE="https://github.com/ec-blaster/pyMagicSwitchbot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/da/416e89b69fd09b2970dac1b178f35608e722477cf808e9c9a697f4849575/pyMagicSwitchbot-${REALVERSION}.tar.gz"
-SOURCEFILE="pyMagicSwitchbot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

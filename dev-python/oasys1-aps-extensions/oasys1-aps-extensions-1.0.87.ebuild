@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OASYS1-APS-Extensions"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ShadowOui/SRW extension for the APS"
 
 HOMEPAGE="https://github.com/oasys-aps-kit/OASYS1-APS-Extensions"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/5d/a7/b483a66984d46b9475eb06e2261a3f237d469dc510a207c23e593243d2e9/OASYS1-APS-Extensions-${REALVERSION}.tar.gz"
-SOURCEFILE="OASYS1-APS-Extensions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

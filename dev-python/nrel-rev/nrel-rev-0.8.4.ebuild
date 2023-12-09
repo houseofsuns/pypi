@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NREL-reV"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="National Renewable Energy Laboratory's (NREL's) Renewable Energy Po
 
 HOMEPAGE="https://nrel.github.io/reV/"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/b3/29/2782ef63b25e493a655e988bc8d0da312155c7a12869a20c98b3cd897818/NREL-reV-${REALVERSION}.tar.gz"
-SOURCEFILE="NREL-reV-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

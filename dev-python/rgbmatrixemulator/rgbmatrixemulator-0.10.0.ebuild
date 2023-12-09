@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RGBMatrixEmulator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A PC emulator for Raspberry Pi LED matrices driven by rpi-rgb-led-m
 
 HOMEPAGE="https://github.com/ty-porter/RGBMatrixEmulator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/c7/a89c287dd63fa5a7ddd1f84068d8ba9f8f6ee6ac6770bf9ed269ef527716/RGBMatrixEmulator-${REALVERSION}.tar.gz"
-SOURCEFILE="RGBMatrixEmulator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

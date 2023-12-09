@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pySDCP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SDCP library to control Sony Projectors"
 
 HOMEPAGE="https://github.com/Galala7/pySDCP"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/b9/85bf4f08a2251e732caa6e7f3462e2c2d77a1e2b1f80d16d273710e1c08c/pySDCP-${REALVERSION}.tar.gz"
-SOURCEFILE="pySDCP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

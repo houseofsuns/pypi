@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ZServer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Zope ZServer."
 
 HOMEPAGE="https://github.com/zopefoundation/ZServer"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/b9/bd/c746466182d0e45e59d77ed2b766e8f981550dc48ade42570988daf80810/ZServer-${REALVERSION}.tar.gz"
-SOURCEFILE="ZServer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

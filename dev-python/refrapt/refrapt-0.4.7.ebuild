@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Refrapt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tool to mirror Debian repositories for use as a local mirror."
 
 HOMEPAGE="https://github.com/Progeny42/Refrapt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/68/58cbfc8ae4d23ab4b47e29e54af5b1f7d40c6794564bdc1f1ade7efc6716/Refrapt-${REALVERSION}.tar.gz"
-SOURCEFILE="Refrapt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

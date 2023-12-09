@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="topsis-uday-102053008"
+LITERALNAME="Topsis-Uday-102053008"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The one stop tool to perform Multiple Criteria Decision Making(MCDM
 
 HOMEPAGE="https://github.com/uday-uppal"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ce/92/75a8465bd6b745cee11ff80419f044645dc4633407c9608632474cce2e00/Topsis-Uday-102053008-${REALVERSION}.tar.gz"
-SOURCEFILE="Topsis-Uday-102053008-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

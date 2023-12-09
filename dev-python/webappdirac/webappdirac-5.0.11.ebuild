@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WebAppDIRAC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="WebAppDIRAC is a portal for the DIRAC software."
 
 HOMEPAGE="https://github.com/DIRACGrid/WebAppDIRAC/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a5/fc/0aa4dab080cfda885829270bf81414c1acc2d61e0cc6d03af144de1bf5b7/WebAppDIRAC-${REALVERSION}.tar.gz"
-SOURCEFILE="WebAppDIRAC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

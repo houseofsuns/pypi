@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-HAL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Provides easy integration of the HAL specification for your REST Fl
 
 HOMEPAGE="https://github.com/thisissoon/Flask-HAL"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/49/2a/3814885540bd22d737068494756b3fbd2fa025f0e7f5ac1781dfe1d13f99/Flask-HAL-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-HAL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

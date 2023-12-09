@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Secweb"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Secweb is a pack of security middlewares for fastApi and starlette 
 
 HOMEPAGE="https://github.com/tmotagam/Secweb"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7c/a8/fbd18ab89548284d7fc9fe40240b2943e0cf032b09cb6978934b8f3aaa3e/Secweb-${REALVERSION}.tar.gz"
-SOURCEFILE="Secweb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

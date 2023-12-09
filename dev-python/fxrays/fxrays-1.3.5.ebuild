@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FXrays"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Computes extremal rays with filtering"
 
 HOMEPAGE="http://t3m.computop.org"
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/64/14/d750573bd8db2d7b2a848026dab6bfd7ce1cf3a31d1b393d1a5a1ffdf46f/FXrays-${REALVERSION}.tar.gz"
-SOURCEFILE="FXrays-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

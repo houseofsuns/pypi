@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="slpp-23"
+LITERALNAME="SLPP-23"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SLPP-23 is a simple lua-python data structures parser"
 
 HOMEPAGE="https://github.com/IlyaSkriblovsky/slpp-23"
 LICENSE="https://github.com/IlyaSkriblovsky/slpp-23/blob/master/LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/03/52/cc4acf0391cc02baa553692449c8618247cb9c7bc3eee69b6e25bc85346b/SLPP-23-${REALVERSION}.tar.gz"
-SOURCEFILE="SLPP-23-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

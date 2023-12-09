@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Docs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds Docs support to Flask."
 
 HOMEPAGE="https://github.com/kwkwc/flask-docs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bf/32/2676b2135921b9d382b5f94a811395c0a6ad8dd862eea78651b011e48328/Flask-Docs-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Docs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

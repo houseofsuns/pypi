@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FSlash"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Practical functional programming for Python 3.8+"
 
 HOMEPAGE="https://github.com/dbrattli/fslash"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/82/60faec1e21b9529ec79e84da57b37459e2de53b4182eb08f4226a707274a/FSlash-${REALVERSION}.tar.gz"
-SOURCEFILE="FSlash-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

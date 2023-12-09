@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyGObject"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python bindings for GObject Introspection"
 
 HOMEPAGE="https://pygobject.readthedocs.io"
 LICENSE="GNU LGPL"
-SRC_URI="https://files.pythonhosted.org/packages/5a/be/ed2ce6f5aca81deab12a165affa3220ae0393e0089c7ed67e4193030de07/PyGObject-${REALVERSION}.tar.gz"
-SOURCEFILE="PyGObject-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

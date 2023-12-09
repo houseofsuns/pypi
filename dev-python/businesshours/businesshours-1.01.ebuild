@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BusinessHours"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Calculate Business days/hours between any two dates."
 
 HOMEPAGE=""
 LICENSE="* Sponsored by Ma Foi Academy"
-SRC_URI="https://files.pythonhosted.org/packages/49/5f/c0bf771ab86a1e2d195d951417b58bf7e9bc306d92570a0eaba9d19b716a/BusinessHours-1.2.tar.gz"
-SOURCEFILE="BusinessHours-1.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/5f/c0bf771ab86a1e2d195d951417b58bf7e9bc306d92570a0eaba9d19b716a/${LITERALNAME}-1.2.tar.gz"
+SOURCEFILE="${LITERALNAME}-1.2.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

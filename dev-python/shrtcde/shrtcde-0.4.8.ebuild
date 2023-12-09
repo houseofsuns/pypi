@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ShrtCde"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Helps shorten the amount of code you write"
 
 HOMEPAGE="https://github.com/Uralstech/ShrtCde"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/88/10/0bb7ab0c721c5b99f629c6283502c1474eed5eb85d80b410ead2097cc916/ShrtCde-${REALVERSION}.tar.gz"
-SOURCEFILE="ShrtCde-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

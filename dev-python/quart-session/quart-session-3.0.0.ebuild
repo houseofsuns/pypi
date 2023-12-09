@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Quart-Session"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds server-side session support to your Quart application"
 
 HOMEPAGE="https://github.com/kroketio/quart-session"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1c/15/87047bb2139166cd8ee7f18148b7d7cf58f60b71d27e978fd47f7db6fd2b/Quart-Session-${REALVERSION}.tar.gz"
-SOURCEFILE="Quart-Session-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

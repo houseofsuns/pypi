@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BeneDict"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="http://github.com/SurrealAI/BeneDict"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/97/8f/3221feb57d3c9897a171099b405700d8d3a724e42e0271f502d76217fb59/BeneDict-${REALVERSION}.tar.gz"
-SOURCEFILE="BeneDict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

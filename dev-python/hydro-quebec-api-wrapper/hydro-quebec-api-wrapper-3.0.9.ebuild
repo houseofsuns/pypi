@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Hydro-Quebec-API-Wrapper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A wrapper library to access hydro quebec API and more"
 
 HOMEPAGE="https://hydroqc.ca"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/2c/97/858fc9cead5e6e31eaa2586688a5cd1122e1c00e862f72de94898dd84c20/Hydro-Quebec-API-Wrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="Hydro-Quebec-API-Wrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

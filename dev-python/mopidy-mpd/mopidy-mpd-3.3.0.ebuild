@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mopidy-MPD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mopidy extension for controlling Mopidy from MPD clients"
 
 HOMEPAGE="https://github.com/mopidy/mopidy-mpd"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8a/45/2ae38c8e83c7e7fd49bda4ce2ee3cd7b2454837ab763a5be192ac657bf98/Mopidy-MPD-${REALVERSION}.tar.gz"
-SOURCEFILE="Mopidy-MPD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Scrapy-UserAgents"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A middleware to change user-agent in request for Scrapy"
 
 HOMEPAGE="https://github.com/grammy-jiang/scrapy-useragents"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d7/53/f83dd78f44ad6310aec870f50b216d56f938478b4bdb9886c86aff81bfc4/Scrapy-UserAgents-${REALVERSION}.tar.gz"
-SOURCEFILE="Scrapy-UserAgents-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

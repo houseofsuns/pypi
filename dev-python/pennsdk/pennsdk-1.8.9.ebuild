@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PennSDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python tools for building Penn-related applications"
 
 HOMEPAGE="https://github.com/pennlabs/penn-sdk-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ed/82/56dd3f5bd7b719a894bd3886abc41f203b123cbd03872d2fa5179cc33ac7/PennSDK-${REALVERSION}.tar.gz"
-SOURCEFILE="PennSDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

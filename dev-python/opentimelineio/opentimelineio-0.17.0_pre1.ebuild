@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenTimelineIO"
 REALVERSION="0.17.0.dev1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Editorial interchange format and API"
 
 HOMEPAGE="http://opentimeline.io"
 LICENSE="Apache 2.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/5b/79/f518a24db8333f5c3e7381bbcea1141b889d402feef1c4787079a8a3abc2/OpenTimelineIO-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenTimelineIO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MASlite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A lightweight multi-agent system"
 
 HOMEPAGE="https://github.com/root-11/maslite"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/6a/0ed158c5199fd267503f9d8cd3f7a197f8c34f26386cbf0fb947b64f734d/MASlite-${REALVERSION}.tar.gz"
-SOURCEFILE="MASlite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

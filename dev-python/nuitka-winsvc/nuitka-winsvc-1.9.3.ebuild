@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Nuitka-winsvc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Nuitka but support compile as Windows service"
 
 HOMEPAGE="https://github.com/tabris17/Nuitka-winsvc"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a0/60/94d401a5396096de44605428625b67cda6264cb45a67c8b4ad03feb43458/Nuitka-winsvc-${REALVERSION}.tar.gz"
-SOURCEFILE="Nuitka-winsvc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

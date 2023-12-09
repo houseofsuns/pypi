@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Tanker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tanker is a Python database library targeting analytic operations"
 
 HOMEPAGE="https://github.com/bertrandchenal/tanker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/20/54634697256d8347a36098312ebc4f50c0710a1454a8c1d7fa351abee8fa/Tanker-${REALVERSION}.zip"
-SOURCEFILE="Tanker-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

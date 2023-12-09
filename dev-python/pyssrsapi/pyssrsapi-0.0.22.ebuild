@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pySSRSapi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python SSRS API"
 
 HOMEPAGE="https://pypi.org/project/pySSRSapi/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/f0/cff2c5887cb3df4b11bebe2f415d647f64f10ad6d340228b8d640890335e/pySSRSapi-${REALVERSION}.tar.gz"
-SOURCEFILE="pySSRSapi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

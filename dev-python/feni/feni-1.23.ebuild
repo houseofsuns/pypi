@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Feni"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple static site generator."
 
 HOMEPAGE="http://bitbucket.org/sras/feni"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/39/4dee68df42aa26ef4d2638d3c5c3170f565eef8aea5ef1a32cf803a747d1/Feni-${REALVERSION}.tar.gz"
-SOURCEFILE="Feni-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

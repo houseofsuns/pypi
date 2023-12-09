@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-smart-table"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="smart-table 1.4.13 (XStatic packaging standard)"
 
 HOMEPAGE="https://github.com/lorenzofox3/Smart-Table"
 LICENSE="same as smart-table"
-SRC_URI="https://files.pythonhosted.org/packages/78/fe/b1d1344753e5bf3f4afddaea11f0f90042d7c7da33994c44145bf85004d7/XStatic-smart-table-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-smart-table-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

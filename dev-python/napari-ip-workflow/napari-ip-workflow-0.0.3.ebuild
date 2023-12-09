@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="napari-IP-workflow"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A plugin to do image preprocessing, segmentation, and measurements 
 
 HOMEPAGE="https://github.com/jayunruh/napari-IP-workflow"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/74/1e/1d25d8b1d112769efedef83e37707de1a24a69b737cd7b9c8c85425822fc/napari-IP-workflow-${REALVERSION}.tar.gz"
-SOURCEFILE="napari-IP-workflow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

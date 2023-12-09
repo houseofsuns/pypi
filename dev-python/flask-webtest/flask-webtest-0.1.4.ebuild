@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-WebTest"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Utilities for testing Flask applications with WebTest."
 
 HOMEPAGE="https://github.com/level12/flask-webtest"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b1/52/ff04fb159eeb63850fd9e8933b97a768677beb9f5a37f1ea5091c599fc87/Flask-WebTest-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-WebTest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

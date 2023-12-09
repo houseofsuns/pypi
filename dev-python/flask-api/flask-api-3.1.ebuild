@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-API"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Browsable web APIs for Flask."
 
 HOMEPAGE="https://flask-api.github.io/flask-api/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/dd/4f/49bd943d2ceeb2e5872a182b1547f7eadc53121e1ceea0f8718f1a97c4cc/Flask-API-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-API-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

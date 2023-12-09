@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FMPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simulate Functional Mockup Units (FMUs) in Python"
 
 HOMEPAGE="https://github.com/CATIA-Systems/FMPy"
 LICENSE="Standard 3-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e2/e5/49ea41bb3709e0d84bd12e3f613f2bbedeb927f1b840163f22231d5e2466/FMPy-${REALVERSION}.tar.gz"
-SOURCEFILE="FMPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WSocket"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple WSGI Websocket Server, Framework, Middleware And App"
 
 HOMEPAGE="https://github.com/Ksengine/wsocket/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/30/f4/cf572069caecbb7c05465a1a70a877e3ce40059be42535ecd0a637418540/WSocket-${REALVERSION}.tar.gz"
-SOURCEFILE="WSocket-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

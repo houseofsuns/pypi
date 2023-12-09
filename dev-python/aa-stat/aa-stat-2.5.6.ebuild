@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AA-stat"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A utility for validation of peptide identification results in prote
 
 HOMEPAGE=""
 LICENSE="License :: OSI Approved :: Apache Software License"
-SRC_URI="https://files.pythonhosted.org/packages/c4/a6/d6a5e843401a851e8d81e4daf2aacadbedaa70ff58a6a51fa054abf05560/AA_stat-${REALVERSION}.tar.gz"
-SOURCEFILE="AA_stat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Jerify"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Validate JSON requests against schemas"
 
 HOMEPAGE="http://github.com/alx-k/flask-jerify"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/26/13/355fa48d116547f48b9e4d509dee2f3d2eb9fea6ea25e1181cac0149b760/Flask-Jerify-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Jerify-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

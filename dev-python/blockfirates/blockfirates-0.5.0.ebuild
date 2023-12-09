@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BlockFiRates"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/pgoslatara/blockfirates"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/86/935566167a6e11c626a778bd0335417c389f458de11c7632021555e9bae5/BlockFiRates-${REALVERSION}.tar.gz"
-SOURCEFILE="BlockFiRates-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

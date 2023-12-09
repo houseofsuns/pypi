@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pycuGMRES"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fast CUDA C++ GMRES implementation for Toeplitz-like (Toeplitz, Han
 
 HOMEPAGE="https://github.com/archilless/pycuGMRES"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/3c/2dd0a0a9cd5e4ab2358176ca782f15bd99b90e13ccd579647c0db8a76621/pycuGMRES-${REALVERSION}.tar.gz"
-SOURCEFILE="pycuGMRES-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

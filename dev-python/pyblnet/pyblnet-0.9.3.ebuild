@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyBLNET"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automate wireless communication to UVR1611 via BL-NET"
 
 HOMEPAGE="https://github.com/nielstron/pyblnet/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ec/fd/3be0532910d50bedb941ea7e34806345bac2b864feb02cdd2f17bf01a9bf/PyBLNET-${REALVERSION}.tar.gz"
-SOURCEFILE="PyBLNET-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

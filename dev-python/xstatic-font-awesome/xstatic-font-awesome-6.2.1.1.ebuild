@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-Font-Awesome"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Font-Awesome 6.2.1 (XStatic packaging standard)"
 
 HOMEPAGE="https://github.com/FortAwesome/Font-Awesome"
 LICENSE="same as Font-Awesome"
-SRC_URI="https://files.pythonhosted.org/packages/2a/97/80bde8d53b021945ea147bc6f3a8562650b4d914cab4864c15d15af5e3c6/XStatic-Font-Awesome-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-Font-Awesome-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

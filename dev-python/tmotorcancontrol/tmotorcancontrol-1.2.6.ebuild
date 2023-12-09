@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TMotorCANControl"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to manage AK series T Motors over CAN"
 
 HOMEPAGE="https://github.com/neurobionics/TMotorCANControl"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/c4/49e8d978239ce1fb346b41050c698fd5a48a8aa18c5e94eccea7725100a2/TMotorCANControl-${REALVERSION}.tar.gz"
-SOURCEFILE="TMotorCANControl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CIRCexplorer2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Circular RNA analysis toolkits"
 
 HOMEPAGE="https://github.com/YangLab/CIRCexplorer2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/57/04/c9586b07c96b6f4a8b07871a27f3f1bb06510c50c211f97837f41fbc088a/CIRCexplorer2-${REALVERSION}.tar.gz"
-SOURCEFILE="CIRCexplorer2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

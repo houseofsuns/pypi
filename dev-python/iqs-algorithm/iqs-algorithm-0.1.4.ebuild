@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IQS-algorithm"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The IQS is an iterative approach for optimizing short keyword queri
 
 HOMEPAGE="https://iqs.cs.bgu.ac.il/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cb/e4/fcc6d8641f82f7be6ba75cf2451567928e3698b623a6b53fa645ee4aad33/IQS_algorithm-${REALVERSION}.tar.gz"
-SOURCEFILE="IQS_algorithm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python interface to my life"
 
 HOMEPAGE="https://github.com/karlicoss/HPI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/13/d7/2c04680108384e092834c2084c10b61e0a6fe93d1ec65800399373e003bc/HPI-${REALVERSION}.tar.gz"
-SOURCEFILE="HPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

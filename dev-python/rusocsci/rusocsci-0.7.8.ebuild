@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RuSocSci"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Support package for Radboud University Nijmegen, Faculty of Social 
 
 HOMEPAGE="https://www.socsci.ru.nl/wilberth/python/rusocsci.html"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/61/da/eda03b02f77d5ec63a3f7dabb4517597961ef3f7ad201db6f37a4704028b/RuSocSci-${REALVERSION}.zip"
-SOURCEFILE="RuSocSci-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

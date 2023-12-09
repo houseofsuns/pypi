@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="userlib-spinD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="userlibrary functions for using SpinD-code of the spintronics group
 
 HOMEPAGE="https://gitlab.com/hschrautzer/seafood"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/62/8b8988ffe513ded1306910b482fe22cb27bd301e0992c65586b516a99471/userlib_spinD-${REALVERSION}.tar.gz"
-SOURCEFILE="userlib_spinD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

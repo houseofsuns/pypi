@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenFisca-UK-Data"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python package to manage OpenFisca-UK-compatible microdata"
 
 HOMEPAGE="http://github.com/PolicyEngine/OpenFisca-UK-Data"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/f7/d10b23e6ed1cfb38892b6212897de8409f89808090c1a7200e6c0b8a2a3a/OpenFisca-UK-Data-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenFisca-UK-Data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

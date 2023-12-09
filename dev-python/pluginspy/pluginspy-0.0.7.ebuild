@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PluginsPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Plugins Framework"
 
 HOMEPAGE="https://github.com/ZengjfOS/PluginsPy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/41/4c4f66ec4c9ef3c1baffe340d1f397aa0578b02e44a6c1135e8bb992886c/PluginsPy-${REALVERSION}.tar.gz"
-SOURCEFILE="PluginsPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

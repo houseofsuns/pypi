@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DungeonGenerator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="D&D 5e Dungeon Generator"
 
 HOMEPAGE=""
 LICENSE="Free for non-commercial use"
-SRC_URI="https://files.pythonhosted.org/packages/30/33/08907a67671051e128f04a6c1be7422ce317c8d0a95385b507cef9209201/DungeonGenerator-${REALVERSION}.tar.gz"
-SOURCEFILE="DungeonGenerator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

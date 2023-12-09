@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="COMTool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Cross platform serial debug assistant with GUI"
 
 HOMEPAGE="https://github.com/Neutree/COMTool"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a9/0b/55a0badb44c0faa3de87e58cac01147f9f4e3b3155dabc7c85aace31d2c3/COMTool-${REALVERSION}.tar.gz"
-SOURCEFILE="COMTool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

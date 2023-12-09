@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ConfigSpaceNNI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Creation and manipulation of parameter configuration spaces for aut
 
 HOMEPAGE="https://github.com/automl/ConfigSpaceNNI"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/35/c7/e3b8b1d662498a92fa2913d9c7c2134b4831820c8a13de962b987c0acb18/ConfigSpaceNNI-${REALVERSION}.tar.gz"
-SOURCEFILE="ConfigSpaceNNI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Template-Python"
 REALVERSION="0.1.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python port of the Template Toolkit"
 
 HOMEPAGE="http://template-toolkit.org/python/"
 LICENSE="Artistic License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/87/6a/51690473b1ea08232214f96ebbc2e2603fe8090620f0bc67668158c4e764/Template-Python-${REALVERSION}.tar.gz"
-SOURCEFILE="Template-Python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

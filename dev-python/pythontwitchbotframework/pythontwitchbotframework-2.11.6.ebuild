@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PythonTwitchBotFramework"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="asynchronous twitch-bot framework made in pure python"
 
 HOMEPAGE="https://github.com/sharkbound/PythonTwitchBotFramework"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7d/12/7973f609de478146e4259c576adc3ce03b76c83cd318a9b3f8301e436a93/PythonTwitchBotFramework-${REALVERSION}.tar.gz"
-SOURCEFILE="PythonTwitchBotFramework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

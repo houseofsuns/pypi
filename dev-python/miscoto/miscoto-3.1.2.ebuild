@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Miscoto"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Microbiome Screening and COmmunity selection using TOpology"
 
 HOMEPAGE="https://github.com/cfrioux/miscoto"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/eb/4a/fe9374ce9a3efb1649763e1567efefdb4fd5582d06ef50065d24503208b3/Miscoto-${REALVERSION}.tar.gz"
-SOURCEFILE="Miscoto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

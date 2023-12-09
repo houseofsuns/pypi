@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Nightingale-ORM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="('一个简单而小巧的orm工具，只用于生成sql和对象�
 
 HOMEPAGE="https://github.com/beincy/Nightingale-ORM"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8f/23/badcf5c6cb1045f2ada5666bf2c51888fd07a9d4b14d88ff3a3d68539a05/Nightingale-ORM-${REALVERSION}.tar.gz"
-SOURCEFILE="Nightingale-ORM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

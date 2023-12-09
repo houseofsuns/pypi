@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Liara"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Static page generator"
 
 HOMEPAGE="http://shelter13.net/projects/Liara"
 LICENSE="BSD 2-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/6e/c5/29a21099b61947388179af169822be277f9dfe6ed25526d09a79257d24fc/Liara-${REALVERSION}.tar.gz"
-SOURCEFILE="Liara-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

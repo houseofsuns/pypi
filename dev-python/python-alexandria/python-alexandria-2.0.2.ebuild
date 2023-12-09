@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Python-Alexandria"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="General utilities for Python projects."
 
 HOMEPAGE="https://github.com/alopezrivera/alexandria"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e7/5d/46132809365886af9a241a9b660f977e98b74ee096c59114f66a35c39f8f/Python-Alexandria-${REALVERSION}.tar.gz"
-SOURCEFILE="Python-Alexandria-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

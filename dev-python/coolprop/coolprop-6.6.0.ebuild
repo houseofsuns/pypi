@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CoolProp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Open-source thermodynamic and transport properties database"
 
 HOMEPAGE="http://www.coolprop.org"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/13/88/35c88960cf20cf483f1e2127ad999fce4528451ad37173064cdcb3834ebf/CoolProp-${REALVERSION}.tar.gz"
-SOURCEFILE="CoolProp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

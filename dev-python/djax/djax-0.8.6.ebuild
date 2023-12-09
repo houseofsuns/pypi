@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Djax"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Integrates Django projects with Axilent."
 
 HOMEPAGE="http://github.com/Axilent/Djax"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/44/1c/c49ec9129f50c2bc458bb9beb1dbd5b6b67c568b41d3744be43d1031fbce/Djax-${REALVERSION}.tar.gz"
-SOURCEFILE="Djax-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="types-D3DShot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Typing stubs for D3DShot"
 
 HOMEPAGE="https://github.com/python/typeshed"
 LICENSE="Apache-2.0 license"
-SRC_URI="https://files.pythonhosted.org/packages/7a/cb/1cd1cc8ef77bd6f0b7225e188689ac53066d795c492e70f8d4a69ac40d08/types-D3DShot-${REALVERSION}.tar.gz"
-SOURCEFILE="types-D3DShot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

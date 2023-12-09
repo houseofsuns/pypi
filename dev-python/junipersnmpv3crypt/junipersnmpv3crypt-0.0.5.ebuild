@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="juniperSNMPv3crypt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Encrypt/decrypts juniper \$9\$ secrets"
 
 HOMEPAGE="https://github.com/zach-bray/junipercrypt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/72/b2/c0bd10c010d46518083106353c1c8682d29b6e2ab96030445f2b38bafaa2/juniperSNMPv3crypt-${REALVERSION}.tar.gz"
-SOURCEFILE="juniperSNMPv3crypt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

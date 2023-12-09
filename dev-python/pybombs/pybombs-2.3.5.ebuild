@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyBOMBS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A meta-package manager to install software from source, or whatever
 
 HOMEPAGE="https://www.gnuradio.org/blog/pybombs-the-what-the-how-and-the-why/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/22/8c/6f0171166d46af334abceef3bec0e4c54206aa6f7c957c05d4a7b9afd85b/PyBOMBS-${REALVERSION}.tar.gz"
-SOURCEFILE="PyBOMBS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

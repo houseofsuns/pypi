@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LibWiser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Wiser kernel library"
 
 HOMEPAGE="https://github.com/oasys-elettra-kit/WISEr"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a7/a2/1645c1b0a23eac6650b2206f857515a089e89130685ac84bc6f5019bee5c/LibWiser-${REALVERSION}.tar.gz"
-SOURCEFILE="LibWiser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Unchained"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The quickest and easiest way to build large web apps and APIs with 
 
 HOMEPAGE="https://github.com/briancappello/flask-unchained"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bc/e2/675a3f47511bef65b3e1c44385cfddd196e1e72011f64fc130cc98b4e8c2/Flask-Unchained-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Unchained-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

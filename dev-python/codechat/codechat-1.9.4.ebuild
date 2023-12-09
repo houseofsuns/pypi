@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CodeChat"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The CodeChat System for software documentation"
 
 HOMEPAGE="http://codechat.readthedocs.io/en/latest/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/67/71/4f422117f793620b426e7ddfc39762eda067763cee43b565470775a34d76/CodeChat-${REALVERSION}.tar.gz"
-SOURCEFILE="CodeChat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SteamRoller"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Grid-awareness for SCons build system"
 
 HOMEPAGE="https://github.com/TomLippincott/steamroller"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/e9/9e85f91daf0a60b5d5edc9398d19ba743150cdb95cbf13420ab23a5d9a16/SteamRoller-${REALVERSION}.tar.gz"
-SOURCEFILE="SteamRoller-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

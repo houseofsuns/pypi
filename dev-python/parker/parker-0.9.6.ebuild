@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Parker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A web spider for collecting specific data across a set of configure
 
 HOMEPAGE="http://github.com/nefarioustim/parker/"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/50/f2/987925d90e9eff0d08e2ecc9235da862f4e9f1940d3fa408765049470ab0/Parker-${REALVERSION}.tar.gz"
-SOURCEFILE="Parker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

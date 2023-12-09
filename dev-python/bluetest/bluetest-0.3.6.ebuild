@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BlueTest"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="My short description for my project."
 
 HOMEPAGE="https://github.com/liufeng3486/BlueTest.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a0/b6/abfef32100e6526bfe790ff04f075cb18dcf4192375f4bad8883c9119de8/BlueTest-${REALVERSION}.tar.gz"
-SOURCEFILE="BlueTest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

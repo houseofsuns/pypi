@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UAutoml"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automated Machine Learning Framework for Data Analysis."
 
 HOMEPAGE="https://github.com/ujjwalredd/Automated-Machine-Learning-Framework-for-Data-Analysis"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/41/68/754b20b1dd793952535ea3a115643d07f759abfa5e1a643a79e34371c58c/UAutoml-${REALVERSION}.tar.gz"
-SOURCEFILE="UAutoml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

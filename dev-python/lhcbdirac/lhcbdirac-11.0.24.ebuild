@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LHCbDIRAC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LHCbDIRAC is the LHCb extension of DIRAC"
 
 HOMEPAGE="https://gitlab.cern.ch/lhcb-dirac/LHCbDIRAC/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/73/aa/6f595b766b055de9a99579292dc0665d71617a1d01f0c60d92ed4034fae9/LHCbDIRAC-${REALVERSION}.tar.gz"
-SOURCEFILE="LHCbDIRAC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

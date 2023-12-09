@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QKeras"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Quantization package for Keras"
 
 HOMEPAGE="https://github.com/google/qkeras"
 LICENSE="Apache v.2.0"
-SRC_URI="https://files.pythonhosted.org/packages/14/56/1695f7b9efdb999ebb22fb0c5067ac8485049f36b41ded4e9a8f0620e37b/QKeras-${REALVERSION}.tar.gz"
-SOURCEFILE="QKeras-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

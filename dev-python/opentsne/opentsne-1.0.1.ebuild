@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="openTSNE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Extensible, parallel implementations of t-SNE"
 
 HOMEPAGE="https://github.com/pavlin-policar/openTSNE"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ab/5d/a2fe5a04574b03d5df267f8b7523feb5d015d70a2e86c96bfbb11899f6c7/openTSNE-${REALVERSION}.tar.gz"
-SOURCEFILE="openTSNE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

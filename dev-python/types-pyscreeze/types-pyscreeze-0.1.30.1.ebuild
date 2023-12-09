@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="types-PyScreeze"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Typing stubs for PyScreeze"
 
 HOMEPAGE="https://github.com/python/typeshed"
 LICENSE="Apache-2.0 license"
-SRC_URI="https://files.pythonhosted.org/packages/59/56/6be32772e097c815f83867e3f99199c33dc79f9b07d1ff0bd16ec616f4de/types-PyScreeze-${REALVERSION}.tar.gz"
-SOURCEFILE="types-PyScreeze-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="POTHEAD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A reverse-http proxy implementation for non-concurrent requests"
 
 HOMEPAGE="https://gitlab.com/rawler/pothead"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/60/59/e3ce797043669be91b4b7f7bd45f291977d1845739e877168e7402d96d53/POTHEAD-${REALVERSION}.tar.gz"
-SOURCEFILE="POTHEAD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

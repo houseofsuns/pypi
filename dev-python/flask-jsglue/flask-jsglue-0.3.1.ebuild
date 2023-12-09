@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-JSGlue"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask-JSGlue helps hook up your Flask application nicely with the f
 
 HOMEPAGE="http://stewartpark.github.com/Flask-JSGlue"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/95/c9/3ede07c3d0b0d99563e0370ccc72f60ccf50dc42498342204f8d5911dca1/Flask-JSGlue-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-JSGlue-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

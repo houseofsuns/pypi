@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DARE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Dynamic Application Runtime Environment"
 
 HOMEPAGE="https://github.com/saga-project/DARE"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/d5/d4ca5489ed610c9238b68f0a50cafa8f055150165fe6a0a9874fb28b0385/DARE-${REALVERSION}.tar.gz"
-SOURCEFILE="DARE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

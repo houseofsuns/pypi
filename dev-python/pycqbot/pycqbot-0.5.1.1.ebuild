@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pycqBot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="go-cqhttp python 框架，可以用于快速塔建 bot"
 
 HOMEPAGE="https://github.com/FengLiuFeseliud/pycqBot"
 LICENSE="AGPL-3.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/69/14/fedb77e45e520818b8a9bca1e498b97fed0fafa38d70f1b2fb861d4ff554/pycqBot-${REALVERSION}.tar.gz"
-SOURCEFILE="pycqBot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

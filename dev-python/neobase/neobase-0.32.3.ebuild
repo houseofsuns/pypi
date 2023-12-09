@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NeoBase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library to manipulate Open Travel Data"
 
 HOMEPAGE="https://github.com/alexprengere/neobase"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/db/9cd6ca58b22b3f94455afbafe1f8a927804019c2c2c2da183a26ea14338f/NeoBase-${REALVERSION}.tar.gz"
-SOURCEFILE="NeoBase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

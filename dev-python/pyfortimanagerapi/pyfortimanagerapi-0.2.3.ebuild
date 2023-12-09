@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyFortiManagerAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python wrapper for the FortiManager REST API"
 
 HOMEPAGE="https://github.com/akshaymane920/pyFortiManagerAPI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/80/e2/c7e531a8fefbbe5ac1e3162fdca02b190e8050738bf56b25bce9506ba3f5/pyFortiManagerAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="pyFortiManagerAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

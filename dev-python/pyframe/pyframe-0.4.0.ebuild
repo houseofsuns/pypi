@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyFraME"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyFraME: Python framework for Fragment-based Multiscale Embedding"
 
 HOMEPAGE="https://gitlab.com/FraME-projects/PyFraME/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/c8/2d425e05f9981cee6fbf2ff639cf7399cfa2f89df1759d540d1ff4e29f45/PyFraME-${REALVERSION}.tar.gz"
-SOURCEFILE="PyFraME-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

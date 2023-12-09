@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MHCInc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="改进漏洞：重复模块引用时无法配置删除的环境，�
 
 HOMEPAGE="https://pypi.org/project/MHCInc/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/2b/ecfc2f8f364c74af3269275c86cf1b42a47b8d65e32d9890832b7d29355b/MHCInc-${REALVERSION}.tar.gz"
-SOURCEFILE="MHCInc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

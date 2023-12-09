@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SpliceV"
 REALVERSION="0.1.6.11b0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Visualize splice junctions, backsplice junctions (circleRNA) and co
 
 HOMEPAGE="https://github.com/flemingtonlab/SpliceV"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/15/5f/60c58c4ae6591fbec1afcdd59f7df48f3f956dcd20880914173452b3f698/SpliceV-${REALVERSION}.tar.gz"
-SOURCEFILE="SpliceV-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

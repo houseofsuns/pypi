@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="catsHTM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="fast access and cross-matching of large astronomical catalogs"
 
 HOMEPAGE="https://github.com/maayane/catsHTM"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/48/0a4bd3e1b1a247276052df4950c22fa9ef8bbb3286e92e5475661275d562/catsHTM-${REALVERSION}.tar.gz"
-SOURCEFILE="catsHTM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

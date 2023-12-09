@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BLACKFORGE2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Framework For Building 2d Games With Python+Pygame."
 
 HOMEPAGE="https://github.com/setoyuma/CURSEWORK"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a5/8c/8ead82d3d0a51e19c30a157b709df706593bb4c2faba58fd5b57781be76b/BLACKFORGE2-${REALVERSION}.tar.gz"
-SOURCEFILE="BLACKFORGE2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

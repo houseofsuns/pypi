@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Drum"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Reddit / Hacker News clone for Django."
 
 HOMEPAGE="http://drum.jupo.org/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/76/03/f13c994e7fc69f7e9ccab8f726d986a311f1934bcf520c3865df76a33658/Drum-${REALVERSION}.tar.gz"
-SOURCEFILE="Drum-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="excel2json-3"
+LITERALNAME="excel2json-3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

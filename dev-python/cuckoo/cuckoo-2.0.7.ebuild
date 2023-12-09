@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Cuckoo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automated Malware Analysis System"
 
 HOMEPAGE="https://cuckoosandbox.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/11/9c/85cd4af08962a4f4ff3ab00a2f453d343f5ff8ede9366978f4457e72d28a/Cuckoo-${REALVERSION}.tar.gz"
-SOURCEFILE="Cuckoo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

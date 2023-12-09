@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FFPopSim"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library to simulate evolution of large populations that are polymor
 
 HOMEPAGE="https://github.com/neherlab/ffpopsim"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/43/a92c53c7824d5c1afc0a38b612cf72718c7fbbab767d6b0f9f51618626b1/FFPopSim-${REALVERSION}.tar.gz"
-SOURCEFILE="FFPopSim-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

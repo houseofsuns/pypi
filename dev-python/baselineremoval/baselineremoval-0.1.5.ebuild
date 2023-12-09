@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BaselineRemoval"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Perform baseline removal, baseline correction and baseline substrac
 
 HOMEPAGE="https://github.com/StatguyUser/BaselineRemoval"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/97/2f/c64b09425504be0c8ec85cb0e3bf0a8def899f0d2e79c4c0f4c9f63ffe1d/BaselineRemoval-${REALVERSION}.tar.gz"
-SOURCEFILE="BaselineRemoval-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyRCN"
 REALVERSION="0.0.17.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A scikit-learn-compatible framework for Reservoir Computing in Pyth
 
 HOMEPAGE="https://github.com/TUD-STKS/PyRCN"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d0/04/9058f0086e1d60250723781ef5a5bfc39177887e66f56aac2201471a9659/PyRCN-${REALVERSION}.tar.gz"
-SOURCEFILE="PyRCN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

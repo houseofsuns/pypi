@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XLMMacroDeobfuscator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="XLMMacroDeobfuscator is an XLM Emulation engine written in Python 3
 
 HOMEPAGE="https://github.com/DissectMalware/XLMMacroDeobfuscator"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e4/8f/1ceecef6fac7710888806cc13a0819f370aedff7a3a26c2c380b48c1e65c/XLMMacroDeobfuscator-${REALVERSION}.tar.gz"
-SOURCEFILE="XLMMacroDeobfuscator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

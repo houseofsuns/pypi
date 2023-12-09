@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySimpleGUI27"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python 2.7 version of PySimpleGUI - GUI SDK Launched in 2018 Active
 
 HOMEPAGE="https://github.com/MikeTheWatchGuy/PySimpleGUI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/42/e6e1dd3acc0b114190b6b15288062ebb4e3575e5550c387591e48c7fbb10/PySimpleGUI27-${REALVERSION}.tar.gz"
-SOURCEFILE="PySimpleGUI27-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KTensors"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="K-Tensors"
 
 HOMEPAGE="https://github.com/Hanchao-Zhang/KTensors"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/63/84f3dbca49f7898bbe6f43634aa29ea8992a31f8615c1a84ef11714747f8/KTensors-${REALVERSION}.tar.gz"
-SOURCEFILE="KTensors-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

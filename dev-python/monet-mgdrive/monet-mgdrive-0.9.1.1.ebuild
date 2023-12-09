@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MoNeT-MGDrivE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MoNeT python package for MGDrivE data analysis"
 
 HOMEPAGE="https://github.com/Chipdelmal/MoNeT_MGDrivE"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/7c/e757cb1763ee1fbbda5506f79370255553185cf34e2f94ee09f7cf01c537/MoNeT_MGDrivE-${REALVERSION}.tar.gz"
-SOURCEFILE="MoNeT_MGDrivE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySquashfsImage"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Squashfs image parser"
 
 HOMEPAGE="https://github.com/matteomattei/PySquashfsImage"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/b6/8a453795e78c743bb6d765b8288f86ecbba4e3522bcc1db534142062ec0e/PySquashfsImage-${REALVERSION}.tar.gz"
-SOURCEFILE="PySquashfsImage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

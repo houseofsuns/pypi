@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TwitterSearch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library to easily iterate tweets found by the Twitter API"
 
 HOMEPAGE="http://github.com/ckoepp/TwitterSearch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/77/3731f0d25c97ef1d1e5d034563f9e8ec2445946c1633b3813c22c7f363ee/TwitterSearch-${REALVERSION}.tar.gz"
-SOURCEFILE="TwitterSearch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

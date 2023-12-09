@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FlaskFarm"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FlaskFarm"
 
 HOMEPAGE="https://github.com/flaskfarm/flaskfarm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2b/1f/c09e3ba0678a663c9a089e1dce7e71ba7fef7ff8bda8532665ccd31af13e/FlaskFarm-${REALVERSION}.tar.gz"
-SOURCEFILE="FlaskFarm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

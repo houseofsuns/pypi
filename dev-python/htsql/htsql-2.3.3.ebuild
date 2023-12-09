@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HTSQL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Database Query Language (core & SQLite backend)"
 
 HOMEPAGE="http://htsql.org/"
 LICENSE="AGPLv3 or Permissive for use with Open Source databases"
-SRC_URI="https://files.pythonhosted.org/packages/41/b8/27779f6abbefde9be5ac06701afe38d50287d70829f03317fcaab6fcebe9/HTSQL-${REALVERSION}.tar.gz"
-SOURCEFILE="HTSQL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

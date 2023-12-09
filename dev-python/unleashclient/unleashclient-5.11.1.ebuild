@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UnleashClient"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python client for the Unleash feature toggle system!"
 
 HOMEPAGE="https://github.com/Unleash/unleash-client-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bf/ea/c5d05727badb66f970826367c67d96d112f66154b3d39fe1744fff0f6451/UnleashClient-${REALVERSION}.tar.gz"
-SOURCEFILE="UnleashClient-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

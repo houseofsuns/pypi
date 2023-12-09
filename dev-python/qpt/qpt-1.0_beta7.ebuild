@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QPT"
 REALVERSION="1.0b7"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="QPT-Python环境打包工具"
 
 HOMEPAGE="https://github.com/GT-ZhangAcer/QPT"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/77/c9/7aed93aa34995ae51993a88590a54a7af5a1d62cef84349a5303439d85dd/QPT-${REALVERSION}.tar.gz"
-SOURCEFILE="QPT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

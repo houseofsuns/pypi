@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ovos-PHAL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/OpenVoiceOS/PHAL"
 LICENSE="apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/29/15/5c65602b581c8f733094d892b99f87cd9532f94cff0e52cef6f95da950b5/ovos_PHAL-${REALVERSION}.tar.gz"
-SOURCEFILE="ovos_PHAL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

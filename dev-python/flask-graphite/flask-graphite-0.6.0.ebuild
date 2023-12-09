@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Graphite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Push useful metrics for each request without effort!"
 
 HOMEPAGE="https://github.com/numberly/flask-graphite"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/05/97/4386234c7f84a707fabd71ab6da7c809e9080a4ca1c059196c8397d0806e/Flask-Graphite-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Graphite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

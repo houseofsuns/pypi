@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChatstatTikTokApi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Unofficial TikTok API Wrapper in Python 3 for our own Chatstat.
 
 HOMEPAGE="https://github.com/j-teng96/TikTok-Api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/36/7f65bcd800306bf1f08e35bf4c09821de956f9e110a7d7e6c659a69bb6eb/ChatstatTikTokApi-${REALVERSION}.tar.gz"
-SOURCEFILE="ChatstatTikTokApi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SteemAX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="http://github.com/artolabs/steemax"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/39/d7/c270516448784a6d3468746cd597cf819f4806e1e5ddefc5316999e76bc7/SteemAX-${REALVERSION}.tar.gz"
-SOURCEFILE="SteemAX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

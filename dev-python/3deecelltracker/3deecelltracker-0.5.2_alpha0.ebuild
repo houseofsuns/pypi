@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="3DeeCellTracker"
 REALVERSION="0.5.2a0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for tracking cells in 3D time lapse images in deforming o
 
 HOMEPAGE="https://github.com/WenChentao/3DeeCellTracker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5a/5f/d065ae280b57a90381c891725d4a2d8afc5eb574530061ed87d251f181d1/3DeeCellTracker-${REALVERSION}.tar.gz"
-SOURCEFILE="3DeeCellTracker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

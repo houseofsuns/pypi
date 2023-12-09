@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyLanguagetool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python library and CLI for the LanguageTool JSON API"
 
 HOMEPAGE="https://pylanguagetool.lw1.at/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/bc/bb895e555e1bd4a358e4fa747be28a08489aacee98ccb9e9233fba374dd2/pyLanguagetool-${REALVERSION}.tar.gz"
-SOURCEFILE="pyLanguagetool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

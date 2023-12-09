@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DIRestInvoker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="调用 DIRestPlus 接口，实现Wind、iFinD、Choice接口调用"
 
 HOMEPAGE="https://github.com/DataIntegrationAlliance/DIRestInvoker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/1b/edcc2961683a31b218c105f323d9bf1edb32dd984d95da25f19a64420eae/DIRestInvoker-${REALVERSION}.tar.gz"
-SOURCEFILE="DIRestInvoker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

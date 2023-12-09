@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyLD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python implementation of the JSON-LD API"
 
 HOMEPAGE="https://github.com/digitalbazaar/pyld"
 LICENSE="BSD 3-Clause license"
-SRC_URI="https://files.pythonhosted.org/packages/82/92/2e6b2756d9b6603a24630f9d3c795fa6add3ef5c7a87a6f7062d2e845a02/PyLD-${REALVERSION}.tar.gz"
-SOURCEFILE="PyLD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

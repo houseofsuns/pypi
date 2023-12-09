@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="nnabla-ext-cuda102-nccl2-mpi3-1-6"
+LITERALNAME="nnabla-ext-cuda102-nccl2-mpi3-1-6"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyRSMQ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Implementation of Redis SMQ"
 
 HOMEPAGE="https://mlasevich.github.io/PyRSMQ/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f8/cd/0bd6ad8caa28eba8033c168d923507af11aca02adbe3c1c3721270029505/PyRSMQ-${REALVERSION}.tar.gz"
-SOURCEFILE="PyRSMQ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

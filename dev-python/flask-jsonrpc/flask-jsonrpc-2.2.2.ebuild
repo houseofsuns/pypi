@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-JSONRPC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds JSONRPC support to Flask."
 
 HOMEPAGE="https://github.com/cenobites/flask-jsonrpc"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a5/7b/8cbd53084a1efb58a1105905a38b0cbefcd3ae13ef2c90c07eedf0fdb6dc/Flask-JSONRPC-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-JSONRPC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

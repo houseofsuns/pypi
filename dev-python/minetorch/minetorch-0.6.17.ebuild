@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Minetorch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tools collection for pytorch users"
 
 HOMEPAGE="https://github.com/minetorch/minetorch"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/0a/9fbc684ccb2b94c6becb82655c01b7da2cc003e7cdbfdc84a656f41bb93e/Minetorch-${REALVERSION}.tar.gz"
-SOURCEFILE="Minetorch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LAC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A chinese lexical analysis tool by Baidu NLP."
 
 HOMEPAGE="https://github.com/baidu/lac"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c3/88/966e99c95cac93730a7f3cdf92a17e2a0e924bea61b9a86ae7995feaa4fe/LAC-${REALVERSION}.tar.gz"
-SOURCEFILE="LAC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

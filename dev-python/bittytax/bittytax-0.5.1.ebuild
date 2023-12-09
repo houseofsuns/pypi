@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BittyTax"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Crypto-currency tax calculator for UK tax rules. Produces a PDF rep
 
 HOMEPAGE="https://github.com/BittyTax/BittyTax"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d4/1d/9a8840e74df63fb342ef8968c13c603c768ea13df7fd87d9218764bacf3c/BittyTax-${REALVERSION}.tar.gz"
-SOURCEFILE="BittyTax-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

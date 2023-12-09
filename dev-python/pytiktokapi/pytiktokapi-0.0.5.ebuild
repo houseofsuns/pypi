@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyTikTokAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Unofficial TikTok API wrapper in Python"
 
 HOMEPAGE="https://github.com/avilash/TikTokAPI"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/05/0a7c367dc9ac0eb5c2f0d1f1c53f12c9081069df3b46e8144b1ea8eadf88/PyTikTokAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="PyTikTokAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

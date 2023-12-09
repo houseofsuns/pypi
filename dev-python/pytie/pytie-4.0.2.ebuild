@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyTie"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Well tie in Python"
 
 HOMEPAGE="https://github.com/raquelsilva/pytie"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/2b/20cb5664c529b249368a026da4911565b7c106f934357a01760d8d4bbb3d/PyTie-${REALVERSION}.tar.gz"
-SOURCEFILE="PyTie-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

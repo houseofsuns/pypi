@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PredictionIO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PredictionIO Python SDK"
 
 HOMEPAGE="http://predictionio.apache.org/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/35/6a/f7fd903e18ccacb7709c22ee3a11f645235b4ac8e4ca3d8f5f4fbecc3d75/PredictionIO-${REALVERSION}.tar.gz"
-SOURCEFILE="PredictionIO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Marshmallow-Arrow"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Marshmallow Custom Field for Arrow objects."
 
 HOMEPAGE="https://github.com/youversion/marshmallow_arrow"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/c5/a5d5272e71250a65ebdc7880edd87b44f1767faaed2dfe909ae832c0c197/Marshmallow-Arrow-${REALVERSION}.tar.gz"
-SOURCEFILE="Marshmallow-Arrow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

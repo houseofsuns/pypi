@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QiwuGrader"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Qiwu auto test tool, supports accuracy/pressure tests for knowledge
 
 HOMEPAGE="https://github.com/noahzark/QiwuGrader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/21/c4a534108eb76a7d5e538ce556bfedac785eb49c231caea5889801e992ea/QiwuGrader-${REALVERSION}.tar.gz"
-SOURCEFILE="QiwuGrader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

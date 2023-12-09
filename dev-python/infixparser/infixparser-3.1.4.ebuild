@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="InfixParser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Evaluate infix math expresion in python with ease."
 
 HOMEPAGE="https://github.com/KJ002/Py-MathParser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/16/14368fd66406be1d51855a85c2be8671d455bc9287c100c56e6271fad080/InfixParser-${REALVERSION}.tar.gz"
-SOURCEFILE="InfixParser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

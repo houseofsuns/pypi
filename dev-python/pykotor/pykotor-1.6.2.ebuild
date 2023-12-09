@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyKotor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Read, modify and write files used by KotOR's game engine."
 
 HOMEPAGE="https://github.com/NickHugi/PyKotor"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/89/8c/e2936c4ba52a0adc2ff10c5e3bf79a9f42c4603ec2d3669fdad522e3bbee/PyKotor-${REALVERSION}.tar.gz"
-SOURCEFILE="PyKotor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

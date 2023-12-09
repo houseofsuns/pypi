@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BanglaTTS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An open-source offline text-to-speech package for Bangla language. 
 
 HOMEPAGE="https://github.com/shhossain/BanglaTTS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3c/bf/6af59343b23604859f28ce9936ea8b9af8ee14c6fb3ca6ba9ebc132b0a28/BanglaTTS-${REALVERSION}.tar.gz"
-SOURCEFILE="BanglaTTS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

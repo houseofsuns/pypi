@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FuncsForSPO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Funções Para Melhorar Desenvolvimento de Robôs com Selenium"
 
 HOMEPAGE="https://github.com/githubpaycon/FuncsForSPO"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/27/29a59238a792aad6fa02d8060ce29069c4df2e4821cda590d401c0e7acda/FuncsForSPO-${REALVERSION}.tar.gz"
-SOURCEFILE="FuncsForSPO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

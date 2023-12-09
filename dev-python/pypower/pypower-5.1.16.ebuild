@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PYPOWER"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Solves power flow and optimal power flow problems"
 
 HOMEPAGE="https://github.com/rwl/PYPOWER"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/95/5d/5bd82477bd4a3fc87f15e2d404217e5e29ba63513e04678d13c9722a3507/PYPOWER-${REALVERSION}.tar.gz"
-SOURCEFILE="PYPOWER-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

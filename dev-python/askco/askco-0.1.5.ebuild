@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="askCO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python interface for Te Papa's collections API"
 
 HOMEPAGE="https://github.com/lucyschrader/askCO"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9a/9d/6d2d724066c2ffc46f6746e604affa51d4de65add0e7aea7f7d65d977f18/askCO-${REALVERSION}.tar.gz"
-SOURCEFILE="askCO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

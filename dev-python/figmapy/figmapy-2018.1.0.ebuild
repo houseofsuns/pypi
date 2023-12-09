@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FigmaPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Figma API wrapper."
 
 HOMEPAGE="https://www.IamGregAmato.com"
 LICENSE="Apache License v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/60/66/2a3bb519e56008f315a50823149b9c14f29c8603fe0b180868a361d5f179/FigmaPy-${REALVERSION}.tar.gz"
-SOURCEFILE="FigmaPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CIpipe"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CRISPR Indel pipe"
 
 HOMEPAGE="https://zlab.umassmed.edu/CIpipe/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8d/e7/9b6438e7e27b30e413b78ff3b254bcfc5ca7c8b6228423d89471af599a6c/CIpipe-${REALVERSION}.tar.gz"
-SOURCEFILE="CIpipe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

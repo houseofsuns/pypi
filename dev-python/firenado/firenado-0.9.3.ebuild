@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Firenado"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Firenado is a python web framework based on Tornado web framework/s
 
 HOMEPAGE="https://github.com/candango/firenado"
 LICENSE="Apache License V2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f0/df/0f56e9dc46c69d6e727e42f9df8a82ccec2f5095f092d60d763adf15379c/Firenado-${REALVERSION}.tar.gz"
-SOURCEFILE="Firenado-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

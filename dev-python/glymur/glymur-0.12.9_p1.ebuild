@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Glymur"
 REALVERSION="0.12.9.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/quintusdias/glymur"
 LICENSE="'MIT'"
-SRC_URI="https://files.pythonhosted.org/packages/85/fd/a78532b183c7c6f0d5bbca3cac0838b1477aa61529b51823e22ecc8f00ca/Glymur-${REALVERSION}.tar.gz"
-SOURCEFILE="Glymur-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

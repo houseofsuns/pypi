@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pyccuracy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pyccuracy is a BDD style Acceptance Testing framework"
 
 HOMEPAGE="http://www.pyccuracy.org"
 LICENSE="OSI"
-SRC_URI="https://files.pythonhosted.org/packages/c1/39/e948e33899d00216d48fd07879561bf26c233833e9b162e3e6f06b3c0d50/Pyccuracy-${REALVERSION}.tar.gz"
-SOURCEFILE="Pyccuracy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

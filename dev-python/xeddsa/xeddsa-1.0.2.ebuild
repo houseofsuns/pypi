@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XEdDSA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python bindings to libxeddsa."
 
 HOMEPAGE="https://github.com/Syndace/python-xeddsa"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/1d/d46552a13e50550f8fd6d2d6dd12eef506be016c6c882d629e0ac98e66a1/XEdDSA-${REALVERSION}.tar.gz"
-SOURCEFILE="XEdDSA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ColorInfo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ColorInfo 是一个使用Python3编写的简单的彩色日志工�
 
 HOMEPAGE="https://gitee.com/liumou_site/ColorInfo"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/00/c5/e7052bf7dccc768128493c5bc056ccc4ac3cd14e05cda9048ce85de1076f/ColorInfo-${REALVERSION}.tar.gz"
-SOURCEFILE="ColorInfo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

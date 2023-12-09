@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Collection of utilities including general algorithms, astronomical 
 
 HOMEPAGE="http://staff.washington.edu/rowen/"
 LICENSE="MIT except RO.Astro which has more restrictions for commercial use"
-SRC_URI="https://files.pythonhosted.org/packages/cc/88/e9366241873d786e905d0e3045941325a37e9a019bd3605ac29d48985933/RO-${REALVERSION}.tar.gz"
-SOURCEFILE="RO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

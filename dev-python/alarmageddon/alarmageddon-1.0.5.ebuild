@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Alarmageddon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automated testing and reporting"
 
 HOMEPAGE="https://github.com/PearsonEducation/Alarmageddon/tarball/1.0.5"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/07/bd/e010abcbe8a2ae2ef478dad79643e36aee672b3a2d0cbfa389f9dd61a657/Alarmageddon-${REALVERSION}.tar.gz"
-SOURCEFILE="Alarmageddon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Wasserstein"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package wrapping C++ code for computing Wasserstein distance
 
 HOMEPAGE="https://github.com/pkomiske/Wasserstein"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/2a/bf/c00067dcfbb70042402d25d61a33a05085a141c490045e1bb240da0815d3/Wasserstein-${REALVERSION}.tar.gz"
-SOURCEFILE="Wasserstein-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ZoomFoundry"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A dynamic Web Framework that promotes modularity and rapid prototyp
 
 HOMEPAGE="https://github.com/ZoomFoundry/ZoomFoundry"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2d/09/56692d8229dc005dbe864b1e5aa23d528acdef36acd8f1238ea9bb8d6c0a/ZoomFoundry-${REALVERSION}.tar.gz"
-SOURCEFILE="ZoomFoundry-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

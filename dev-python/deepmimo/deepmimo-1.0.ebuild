@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepMIMO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DeepMIMO"
 
 HOMEPAGE="https://deepmimo.net/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a9/e9/9b71a089341ebce394ed17abcd7619eeca4629b5d478ad519accb0764325/DeepMIMO-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepMIMO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

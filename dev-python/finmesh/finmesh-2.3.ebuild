@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FinMesh"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python wrapper to bring together various financial APIs."
 
 HOMEPAGE="https://finmesh.readthedocs.io/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/36/02/74d5bc6c51607d7e097cadd0b5b52f97d3afefe5773d39720b2471943f79/FinMesh-${REALVERSION}.tar.gz"
-SOURCEFILE="FinMesh-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CacheMan"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A dependent cache manager"
 
 HOMEPAGE="https://github.com/MSeal/py_cache_manager"
 LICENSE="New BSD"
-SRC_URI="https://files.pythonhosted.org/packages/62/fa/cd8c75d9e72f56964f15b8d86f30dcdb26ec3e6506871bbd7e5da0174343/CacheMan-${REALVERSION}.tar.gz"
-SOURCEFILE="CacheMan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

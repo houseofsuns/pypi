@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Rhetoric"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pyramid-like routes for Django projects"
 
 HOMEPAGE="https://github.com/avanov/Rhetoric"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ee/bd/9369dd884b4ba0946bdd2d7d6b4ed8398d4b77760458818e721a4fff67ce/Rhetoric-${REALVERSION}.tar.gz"
-SOURCEFILE="Rhetoric-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Py-Trading"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python module for trading information."
 
 HOMEPAGE="https://github.com/JCamyre/Python-Trading"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/88/53/f4c3f063e53fc72b548b4627c9aa40977621592e4eff5f71892b32d03788/Py-Trading-${REALVERSION}.tar.gz"
-SOURCEFILE="Py-Trading-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

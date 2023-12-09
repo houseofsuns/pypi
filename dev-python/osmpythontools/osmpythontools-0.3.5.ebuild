@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OSMPythonTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library to access OpenStreetMap related services"
 
 HOMEPAGE="https://github.com/mocnik-science/osm-python-tools"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b8/c0/d7fac2c6992a07bedec01de2ed3b1678b28fb9c374961a124c7d6bb73772/OSMPythonTools-${REALVERSION}.tar.gz"
-SOURCEFILE="OSMPythonTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

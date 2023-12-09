@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="chewBBACA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A complete suite for gene-by-gene schema creation and strain identi
 
 HOMEPAGE="https://github.com/B-UMMI/chewBBACA"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/72/d8/884105044bd523993d9e5ee1c50913ce25e5ca24b96d42f3be60be3e4ec2/chewBBACA-${REALVERSION}.tar.gz"
-SOURCEFILE="chewBBACA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

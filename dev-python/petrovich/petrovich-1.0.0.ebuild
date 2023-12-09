@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Petrovich"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Библиотека для склонения кирилличес
 
 HOMEPAGE="https://github.com/damirazo/petrovich"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/7a/5ee291a3a14376d9f75396b2d44adcda1c06c9836ff3b3c8143a5b055b1b/Petrovich-${REALVERSION}.tar.gz"
-SOURCEFILE="Petrovich-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

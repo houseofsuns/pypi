@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyHanko"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for stamping and signing PDF files"
 
 HOMEPAGE="https://github.com/MatthiasValvekens/pyHanko"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/5c/fbf816f850841d71bae1038ca9245ae0288695137710629413a95f963fdb/pyHanko-${REALVERSION}.tar.gz"
-SOURCEFILE="pyHanko-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

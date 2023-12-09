@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AQoPA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automated Quality of Protection Analysis Tool for QoP-ML models."
 
 HOMEPAGE="http://qopml.org/aqopa/"
 LICENSE="Freeware"
-SRC_URI="https://files.pythonhosted.org/packages/69/2a/881369ab97684ddf83345726423515c29c49d3f5a0d9d3ed69a9f62fbd5e/AQoPA-${REALVERSION}.tar.gz"
-SOURCEFILE="AQoPA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

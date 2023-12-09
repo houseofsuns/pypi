@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="17MonIP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="IP search based on 17mon.cn, the best IP database for China."
 
 HOMEPAGE="http://lxyu.github.io/17monip/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/42/33a54730582ad1f4d3e87b1d818aa6bb989941c8a54add88e7413936aee2/17MonIP-${REALVERSION}.tar.gz"
-SOURCEFILE="17MonIP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

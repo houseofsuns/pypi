@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MojangAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An async python wrapper for Mojangs API and Authentication API"
 
 HOMEPAGE="https://github.com/Jack92829/Mojang-API-Wrapper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/4a/2d2c51e89317e359433c0eb13b5b683968f1d58ec7fff565b949d94bc033/MojangAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="MojangAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

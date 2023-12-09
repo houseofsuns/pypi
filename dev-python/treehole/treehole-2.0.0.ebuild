@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TreeHole"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python interface to PKU Hole!"
 
 HOMEPAGE="https://github.com/TeddyHuang-00/pyTreeHole"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/da/9759777e3c8229788dab3e7331b762423899df720d3afc1d3f3c7c5ae56b/TreeHole-${REALVERSION}.tar.gz"
-SOURCEFILE="TreeHole-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

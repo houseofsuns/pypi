@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyBitrix"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyBitrix is my lightweight implementation of Bitrix 24 REST API wra
 
 HOMEPAGE="https://github.com/momoru-kun/PyBitrix"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6b/ba/291e69039cedd608164d2529f4082f64d121fe364db47a6502a0f2b976b9/PyBitrix-${REALVERSION}.tar.gz"
-SOURCEFILE="PyBitrix-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

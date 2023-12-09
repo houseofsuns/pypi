@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DI-engine"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Decision AI Engine"
 
 HOMEPAGE="https://github.com/opendilab/DI-engine"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/60/38/f53946f6b5856f29c9b30df8c3d525cfcfa31798f18ae4e1916b2bc720b4/DI-engine-${REALVERSION}.tar.gz"
-SOURCEFILE="DI-engine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

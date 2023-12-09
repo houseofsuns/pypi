@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OnClass"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Single Cell Annotation based on the Cell Ontology"
 
 HOMEPAGE="https://github.com/wangshenguiuc/OnClass"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/5e/10/6daef2302876309bf4419b297c3939c983865f2c26c0ecd16a2768977bbe/OnClass-${REALVERSION}.tar.gz"
-SOURCEFILE="OnClass-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

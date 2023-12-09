@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AuthKit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An authentication and authorization toolkit for WSGI applications a
 
 HOMEPAGE="http://authkit.org/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/99/3b096adf59bf6313488f6fde5405aaf118ca4d5a36189063bb6f470cdceb/AuthKit-${REALVERSION}.tar.gz"
-SOURCEFILE="AuthKit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

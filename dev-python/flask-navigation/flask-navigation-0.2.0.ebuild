@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Navigation"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The navigation of Flask application."
 
 HOMEPAGE="https://github.com/tonyseek/flask-navigation"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/f7/71aa270b2c91c76cf811434fe8e31493944d00a499db417c0bc9c44a3a5f/Flask-Navigation-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Navigation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

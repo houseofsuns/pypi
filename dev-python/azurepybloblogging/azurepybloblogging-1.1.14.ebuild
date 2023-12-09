@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AzurePyblobLogging"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library to log into blob storage in Azure"
 
 HOMEPAGE="https://github.com/JorgeDiazz/pyblob_logging"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/44/2b32362ebec1d27b4e45d20c436d0a042f958dce95de9cc2572ce3b9a993/AzurePyblobLogging-${REALVERSION}.tar.gz"
-SOURCEFILE="AzurePyblobLogging-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

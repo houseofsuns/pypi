@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="newsscrapper-SamirPS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/SamirPS/News-Scrapper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/48/0dea0bd87264ec45bab8ec4ad1f81bcf07c2ecc7c0f4bb8c0d25004686fc/newsscrapper-SamirPS-${REALVERSION}.tar.gz"
-SOURCEFILE="newsscrapper-SamirPS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

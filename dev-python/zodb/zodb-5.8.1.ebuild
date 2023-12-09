@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ZODB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ZODB, a Python object-oriented database"
 
 HOMEPAGE="http://zodb-docs.readthedocs.io"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/68/8f/ba84246f531ffe594f78e417ab9069673e2ffd12f210939f42d2c1b86aa9/ZODB-${REALVERSION}.tar.gz"
-SOURCEFILE="ZODB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

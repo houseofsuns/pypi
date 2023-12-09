@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySide2-Fluent-Widgets"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A fluent design widgets library based on PySide2"
 
 HOMEPAGE="https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/PySide2"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d9/09/6b705593a807d66faff290215df52e9c3d4efcbdd28f1adb4d60019b10c4/PySide2-Fluent-Widgets-${REALVERSION}.tar.gz"
-SOURCEFILE="PySide2-Fluent-Widgets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

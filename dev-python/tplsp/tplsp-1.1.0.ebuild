@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TPLSp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package for thresholded partial least squares"
 
 HOMEPAGE="https://github.com/sangillee/TPLSp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e7/c0/b60571834e6607b9b88c78ffb72aaf8a24646a97c4f24df4d8c4ffa70563/TPLSp-${REALVERSION}.tar.gz"
-SOURCEFILE="TPLSp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

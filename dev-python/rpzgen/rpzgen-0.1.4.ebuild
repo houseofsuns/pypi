@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RPZGen"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A generator for Response Policy Zones (RPZ)"
 
 HOMEPAGE="https://github.com/M4t7e/RPZGen"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/16/3d9421eff6700f32f98f62bb3c39667c2dce78408ae1487ab7208e3b43a0/RPZGen-${REALVERSION}.tar.gz"
-SOURCEFILE="RPZGen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HafrenHaver"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Goes on and on about the River Severn"
 
 HOMEPAGE="https://InnovAnon-Inc.github.io/HafrenHaver"
 LICENSE="unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/0f/e8/9c7a9a3776c64ea0c2451e5b6c6982ad542ab8fa68d000d73d63529752de/HafrenHaver-${REALVERSION}.tar.gz"
-SOURCEFILE="HafrenHaver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

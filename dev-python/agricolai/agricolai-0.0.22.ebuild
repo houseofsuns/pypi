@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AgricolAI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="AI Module for Agricultural application"
 
 HOMEPAGE="https://github.com/Zhiwu-Zhang-Lab/James_Git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/0c/6d7832078aa20c115fd6a57fd4774ff7a1d5e349777a4e5a4e41de924eee/AgricolAI-${REALVERSION}.tar.gz"
-SOURCEFILE="AgricolAI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MADAM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Digital asset management library"
 
 HOMEPAGE="https://github.com/eseifert/madam"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c1/e1/bfef631e6697b38d80dc9ec767be346aed77d026e0f0538548fcb9e14f5f/MADAM-${REALVERSION}.tar.gz"
-SOURCEFILE="MADAM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

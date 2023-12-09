@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Django-Integrator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Create and use django-integrator compliant applications."
 
 HOMEPAGE="https://bitbucket.org/hellwig/Django-Integrator/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/97/93/b29a137e51ab48930ff18b636b61f8f9fb18e07ab3dfe50eed905feafb04/Django-Integrator-${REALVERSION}.tar.gz"
-SOURCEFILE="Django-Integrator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

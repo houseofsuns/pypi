@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JWST-IMAGE-MAKER"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Creates images from raw JWST data"
 
 HOMEPAGE="https://github.com/sidratresearch/JWST_Image_Maker"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3b/e5/3a5f7b5b60ac0987eab38b2301851680ba1669a09ce8066ce41926cc62ce/JWST_IMAGE_MAKER-${REALVERSION}.tar.gz"
-SOURCEFILE="JWST_IMAGE_MAKER-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

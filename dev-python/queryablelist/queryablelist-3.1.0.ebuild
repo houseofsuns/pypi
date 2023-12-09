@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QueryableList"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python module to add support for ORM-style filtering to any list of
 
 HOMEPAGE="https://github.com/kata198/QueryableList"
 LICENSE="LGPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/59/cd/ff38fb62fc81def97f50a98fc4bdbbe258351b5be8be6a6b69fec7a25c81/QueryableList-${REALVERSION}.tar.gz"
-SOURCEFILE="QueryableList-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

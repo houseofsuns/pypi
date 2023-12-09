@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MAD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simulation of microservices architectures dynamics"
 
 HOMEPAGE="https://github.com/fchauvel/MAD"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e6/69/4b0d7db5159ea4336069f6947ef03e6a8f0789e8b0070502305a80f7e410/MAD-${REALVERSION}.zip"
-SOURCEFILE="MAD-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

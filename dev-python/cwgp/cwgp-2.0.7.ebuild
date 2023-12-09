@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CWGP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CWGP"
 
 HOMEPAGE="https://github.com/andy971022/CWGP"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/ef/7ed0587f6d2bfbb6fda1b2bbb28bf6cb063f1371cb726d5242914a4e9ebc/CWGP-${REALVERSION}.tar.gz"
-SOURCEFILE="CWGP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

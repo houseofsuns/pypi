@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Bgolearn"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Bayesian global optimization package for material design"
 
 HOMEPAGE="https://github.com/Bin-Cao/Bgolearn"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/b2/a5ffc8d00947dda7979674612daeb5aac66145a1d4355a98efb4552f938b/Bgolearn-${REALVERSION}.tar.gz"
-SOURCEFILE="Bgolearn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

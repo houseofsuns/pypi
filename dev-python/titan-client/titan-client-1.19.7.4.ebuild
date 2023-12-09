@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Titan-Client"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Titan API v1"
 
 HOMEPAGE="https://github.com/intel471/titan-client-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/a0/f4959fd7f8dbce0efa047729f76769f56e9546f30a61c7b91fd12dfeaaac/Titan_Client-${REALVERSION}.tar.gz"
-SOURCEFILE="Titan_Client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

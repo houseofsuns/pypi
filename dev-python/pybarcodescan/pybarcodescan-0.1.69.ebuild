@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyBarCodeScan"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Scan tool"
 
 HOMEPAGE="https://github.com/cfranke/scan"
 LICENSE="APACHE LICENSE, VERSION 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0d/7b/b47c10300f6c4ace5e252296fad9c9403adee42bbd05307a5c2fb0f975cc/PyBarCodeScan-${REALVERSION}.tar.gz"
-SOURCEFILE="PyBarCodeScan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

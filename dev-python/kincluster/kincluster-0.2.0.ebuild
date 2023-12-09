@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KINCluster"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Korean Involute News Cluster"
 
 HOMEPAGE="https://github.com/MaybeS/KINCluster"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/fd/3f5fffc1450872bfa5abb4942756c58181c9f1181c5ca8659d22afa51a6b/KINCluster-${REALVERSION}.tar.gz"
-SOURCEFILE="KINCluster-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenTEA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Graphical User Interface engine based upon Schema"
 
 HOMEPAGE="https://gitlab.com/cerfacs/opentea3"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/d9/a4d6f6d9dc3cbe2e3db953ff22b8ca92e53636d292bdce391bd7b88df954/OpenTEA-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenTEA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

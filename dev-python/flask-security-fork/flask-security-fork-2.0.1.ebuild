@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Security-Fork"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple security for Flask apps."
 
 HOMEPAGE="https://github.com/inveniosoftware/flask-security-fork"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/a6/20fe9649768e109d122072ca23e3655381775dfd9d088915ea1cb32d422c/Flask-Security-Fork-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Security-Fork-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

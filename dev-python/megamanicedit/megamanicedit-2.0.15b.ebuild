@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MegamanicEdit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Batch and simplified editing of Archetypes"
 
 HOMEPAGE="http://nidelven-it.no/d"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/67/67/a0e263e24b447465bfc2aabd7d42b872467ccf9b36952044cab561e65a77/MegamanicEdit-${REALVERSION}.tar.gz"
-SOURCEFILE="MegamanicEdit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

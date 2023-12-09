@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="pyqt6-3d"
+LITERALNAME="PyQt6-3D"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python bindings for the Qt 3D framework"
 
 HOMEPAGE="https://www.riverbankcomputing.com/software/pyqt3d/"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/3c/3f/7909d2886f500b9512a544c46c4e3e213a7624229a1dd1f417b885dedd6e/PyQt6_3D-${REALVERSION}.tar.gz"
-SOURCEFILE="PyQt6_3D-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

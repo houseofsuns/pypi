@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LanguageIdentifier"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Language identifier based on an LSTM model"
 
 HOMEPAGE="https://dummyUrl.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/69/cb/84910ed6edbddfc55e484fec9a174bd35d7d369e32d4477f01c7373b9492/LanguageIdentifier-${REALVERSION}.tar.gz"
-SOURCEFILE="LanguageIdentifier-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="H5Gizmos"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for building interactive graphical interfaces for application
 
 HOMEPAGE="https://github.com/AaronWatters/H5Gizmos"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/87/e3/4fa675af889ae46ac3252ff2490e4234d2edd8be75b3f215f8ebba8afcd2/H5Gizmos-${REALVERSION}.tar.gz"
-SOURCEFILE="H5Gizmos-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

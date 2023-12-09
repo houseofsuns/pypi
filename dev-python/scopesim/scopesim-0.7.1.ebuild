@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ScopeSim"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generalised telescope observation simulator"
 
 HOMEPAGE="https://scopesim.readthedocs.io/en/latest/"
 LICENSE="License :: OSI Approved :: GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/6d/91/35f4fd362d9b07925d7c2a0544eff79eeda075079e4bd3a72176c163130a/ScopeSim-${REALVERSION}.tar.gz"
-SOURCEFILE="ScopeSim-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

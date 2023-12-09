@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="openPMD-viewer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Visualization tools for openPMD files"
 
 HOMEPAGE="https://github.com/openPMD/openPMD-viewer.git"
 LICENSE="BSD-3-Clause-LBNL"
-SRC_URI="https://files.pythonhosted.org/packages/83/f1/f0de71dccc0711f729313654078ec41aedc751ca94456b3beccf2dc5a459/openPMD-viewer-${REALVERSION}.tar.gz"
-SOURCEFILE="openPMD-viewer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

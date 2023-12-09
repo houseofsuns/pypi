@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Apptimize"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Apptimize Python Server SDK"
 
 HOMEPAGE="https://apptimize.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/91/186152b1b0bac06d5b88a7e757b53c5fe428f03d3679d001cdb426f10042/Apptimize-${REALVERSION}.tar.gz"
-SOURCEFILE="Apptimize-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

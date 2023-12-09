@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FotoKilof"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Nice gui for ImageMagick"
 
 HOMEPAGE="https://github.com/TeaM-TL/FotoKilof"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/88/73/66c46300fbf40c69dfba467b552f3fbeda2ad2a7e991e1e1672505934846/FotoKilof-${REALVERSION}.tar.gz"
-SOURCEFILE="FotoKilof-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

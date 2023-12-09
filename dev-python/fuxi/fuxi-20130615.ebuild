@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FuXi"
 REALVERSION="1.4.1.production"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An OWL / N3-based in-memory, logic reasoning system for RDF"
 
 HOMEPAGE="http://code.google.com/p/python-dlp/wiki/FuXi"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/17/33/b6d0ffeec77d500c4556b3761f7e83b54fb79acb045552f232cc0195cfd4/FuXi-${REALVERSION}.tar.gz"
-SOURCEFILE="FuXi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

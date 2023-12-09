@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-PluginKit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Load and run plugins for your Flask application"
 
 HOMEPAGE="https://github.com/staugur/Flask-PluginKit"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/f0/a4/d7cccb8eadd1b60f304306e0037bb1d8c5e2c6839390120fff93b521a9a7/Flask-PluginKit-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-PluginKit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

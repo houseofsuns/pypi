@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NathanJamesToolbox"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Collection of tools developed for NathanJames"
 
 HOMEPAGE="https://github.com/pfajardo-nj/NathanJamesToolbox"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/9b/473aaaab3c2783113e080e320b55d721b72beb33830bdc523c320b0599b6/NathanJamesToolbox-${REALVERSION}.tar.gz"
-SOURCEFILE="NathanJamesToolbox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

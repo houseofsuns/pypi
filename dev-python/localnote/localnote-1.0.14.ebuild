@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LocalNote"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LocalNote让你能够像使用本地文件一样使用印象笔记�
 
 HOMEPAGE="https://github.com/littlecodersh/LocalNote"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/93/062777052fe89d0c5b7d3df08f754f8f62a86e6df0cfe018485618c9138e/LocalNote-${REALVERSION}.zip"
-SOURCEFILE="LocalNote-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Django-ddd"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An app for a cleaner Django"
 
 HOMEPAGE="https://github.com/jdiazromeral/django-ddd"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/24/9f/6ec8908c98dd1f4d9cea4e768bdf049a6d5af7338919dd0531fcf1c62800/Django-ddd-${REALVERSION}.tar.gz"
-SOURCEFILE="Django-ddd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

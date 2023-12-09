@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="robotframework-SikuliLibrary"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Sikuli library for Robot Framework"
 
 HOMEPAGE="https://github.com/rainmanwy/robotframework-SikuliLibrary"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/82/a1/f1865cfd81e14c44bb430d4dcb11c6e5d60c690aeb21617cd32f0c54f33d/robotframework-SikuliLibrary-${REALVERSION}.tar.gz"
-SOURCEFILE="robotframework-SikuliLibrary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

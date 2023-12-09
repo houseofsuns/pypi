@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="public-data-food-analysis-3"
+LITERALNAME="public-data-food-analysis-3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

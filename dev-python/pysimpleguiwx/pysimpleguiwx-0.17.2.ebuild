@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySimpleGUIWx"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Engineering Pre-Release WxPython version of PySimpleGUI. PySimp
 
 HOMEPAGE="https://github.com/PySimpleGUI/PySimpleGUI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ff/f2/acc5aa024c99bbcc3dab3b3944427fda9ade1db8ede90aa94b9070423185/PySimpleGUIWx-${REALVERSION}.tar.gz"
-SOURCEFILE="PySimpleGUIWx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

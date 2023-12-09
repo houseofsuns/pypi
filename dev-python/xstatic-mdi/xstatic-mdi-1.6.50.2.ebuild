@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-mdi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="mdi 1.6.50 (XStatic packaging standard)"
 
 HOMEPAGE="http://materialdesignicons.com"
 LICENSE="SIL OFL 1.1"
-SRC_URI="https://files.pythonhosted.org/packages/1c/02/fb6e654eca3486fd74a80a51aada0e621225193957b0e5b97dc157c57c32/XStatic-mdi-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-mdi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

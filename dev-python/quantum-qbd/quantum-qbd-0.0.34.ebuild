@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="quantum-QBD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Quantum computing."
 
 HOMEPAGE="https://github.com/QuantumBrainDisorder/quantum_QBD"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d8/a0/66fbe9c549c7aeae7a5fc21b03a845a4ed5a87dececbf2e935b28a7f5259/quantum_QBD-${REALVERSION}.tar.gz"
-SOURCEFILE="quantum_QBD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

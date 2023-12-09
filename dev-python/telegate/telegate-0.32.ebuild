@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="teleGate"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple logging-gate with http-api."
 
 HOMEPAGE="https://gitlab.com/byaka/telegate"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7a/e9/e27ffb1166ca60741bf70cdc2f2e11350e9b87f22508c669a2f4528c30db/teleGate-${REALVERSION}.tar.gz"
-SOURCEFILE="teleGate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

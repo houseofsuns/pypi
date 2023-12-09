@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Obscure"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Route converter to obscure IDs."
 
 HOMEPAGE="https://github.com/jidn/flask-obscure"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/30/7f31dc6b56398e8ea9b1f78d295003c86276fbd4a52bc13722d69c2b1ffb/Flask-Obscure-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Obscure-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

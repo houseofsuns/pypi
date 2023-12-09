@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-PaperTrail"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds PaperTrail logging to your Flask application"
 
 HOMEPAGE="https://github.com/cuonglm/flask_papertrail"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5d/41/4cf03ad29912a5a802ff29639d0a7f186004c021144ce57299620248ec3d/Flask-PaperTrail-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-PaperTrail-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

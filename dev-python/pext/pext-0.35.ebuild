@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pext"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python-based extendable tool"
 
 HOMEPAGE="https://pext.io/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/cc/99/e44fb76b9881d2e455f8b9ac490d2e855f11b4d6f4aa6ba6c493ec33182f/Pext-${REALVERSION}.tar.gz"
-SOURCEFILE="Pext-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Desktopmagic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Robust multi-monitor screenshot grabber (Windows-only right now)"
 
 HOMEPAGE="https://github.com/ludios/Desktopmagic"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/44/d3/f68428c318a213f1c77d11ea001b341cd659e973e80abc4d3739adca9714/Desktopmagic-${REALVERSION}.zip"
-SOURCEFILE="Desktopmagic-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

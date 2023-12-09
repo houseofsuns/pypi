@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Webhook-Listener"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Very basic webserver module to listen for webhooks and forward requ
 
 HOMEPAGE="https://github.com/toddrob99/Webhooks"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f0/fc/d04cda3834a50c5fc248094b5f65508998b2ef81683f312a8c2fe5bfd685/Webhook_Listener-${REALVERSION}.tar.gz"
-SOURCEFILE="Webhook_Listener-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ImgConverter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pure Python Image conversion package"
 
 HOMEPAGE="https://github.com/mrstephenneal/ImgConverter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/4a/6dea89c3abd9422bab7245d86e724aca3ec1a8d89dfae22a328a3dc82faf/ImgConverter-${REALVERSION}.tar.gz"
-SOURCEFILE="ImgConverter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ParallelDots"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Wrapper for ParallelDots APIs"
 
 HOMEPAGE="https://github.com/ParallelDots/ParallelDots-Python-API.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c6/af/a1c575da7c8d3f1e6d34242037d2bf93ec363aed80e5fa6097bb02678c91/ParallelDots-${REALVERSION}.tar.gz"
-SOURCEFILE="ParallelDots-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

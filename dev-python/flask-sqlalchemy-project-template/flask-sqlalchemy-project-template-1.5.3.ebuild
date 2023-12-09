@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-SQLAlchemy-Project-Template"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Ready to grow Flask SQLAlchemy basic template, Blueprints and appli
 
 HOMEPAGE="https://github.com/44xtc44"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bf/22/c3346ba8844bebe55d123cb05e7f9abf659537a1081e709ee802e0e3ba5a/Flask_SQLAlchemy_Project_Template-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask_SQLAlchemy_Project_Template-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

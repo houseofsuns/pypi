@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Shell2HTTP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A minimalist REST API wrapper for python's subprocess API."
 
 HOMEPAGE="https://github.com/eshaan7/flask-shell2http"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/58/46/7f7341c054f13ac6ba2bbebb75a71fba08438bc952cc442848a65d865d1a/Flask-Shell2HTTP-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Shell2HTTP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

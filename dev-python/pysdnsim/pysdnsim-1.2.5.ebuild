@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySDNSim"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simulation tool for microservices based SDN, with CloudSim Plus 7
 
 HOMEPAGE="https://github.com/ulfaric/PySDNSim"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/e2/2bc59d75e6c285a6e099838efdd0f07ce0f7aa13a6a4018db1875830ac66/PySDNSim-${REALVERSION}.tar.gz"
-SOURCEFILE="PySDNSim-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

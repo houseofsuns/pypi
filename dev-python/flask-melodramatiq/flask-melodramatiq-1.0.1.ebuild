@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Melodramatiq"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Flask extension that adds support for the \"dramatiq\" task proce
 
 HOMEPAGE="https://github.com/epandurski/flask_melodramatiq"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/cd/4dfc2c61497c835e26700b9ba98d5a12c6e17abb8f5e0c71629b28047fe5/Flask-Melodramatiq-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Melodramatiq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

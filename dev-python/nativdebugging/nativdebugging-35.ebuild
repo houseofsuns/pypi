@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NativDebugging"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Debugging tools for many platforms"
 
 HOMEPAGE="https://github.com/assafnativ/NativDebugging"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/08/cc/e6bbb7ef9a534faf5dab7d00a012eb2cef88f127df44458bb11e0f4eb0d6/NativDebugging-${REALVERSION}.tar.gz"
-SOURCEFILE="NativDebugging-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

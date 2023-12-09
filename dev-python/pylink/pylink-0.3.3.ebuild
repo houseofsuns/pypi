@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyLink"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Universal communication interface using File-Like API"
 
 HOMEPAGE="https://github.com/SalemHarrache/PyLink"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/0c/42/c4b5562a88fc7cd0b42564ee58eac5fb26ea576e92042d16ef0687831a6b/PyLink-${REALVERSION}.tar.gz"
-SOURCEFILE="PyLink-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

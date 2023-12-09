@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AMFM-decompy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package containing the tools necessary for decomposing a speech sig
 
 HOMEPAGE="https://github.com/bjbschmitt/AMFM_decompy/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/e7/ea/9364ece82c511c85131e24012dcf37d2aca876db7ea18799e8969fc5e8b6/AMFM_decompy-${REALVERSION}.tar.gz"
-SOURCEFILE="AMFM_decompy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

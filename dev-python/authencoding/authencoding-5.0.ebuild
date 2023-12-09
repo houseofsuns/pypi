@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AuthEncoding"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Framework for handling LDAP style password hashes."
 
 HOMEPAGE="https://github.com/zopefoundation/AuthEncoding"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/a8/4c/f0eb18cb8b3dd477094ff07f11f78f859550f7416b15a6bf08d173809f89/AuthEncoding-${REALVERSION}.tar.gz"
-SOURCEFILE="AuthEncoding-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

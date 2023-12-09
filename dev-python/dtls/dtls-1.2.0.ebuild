@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Dtls"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Datagram Transport Layer Security"
 
 HOMEPAGE="https://github.com/rbit/pydtls"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/06/bb/dcd7fd37b109b7b63d9fec5c5a25f5842e699e864a0c10ca8448c6bb1f04/Dtls-${REALVERSION}.tar.gz"
-SOURCEFILE="Dtls-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

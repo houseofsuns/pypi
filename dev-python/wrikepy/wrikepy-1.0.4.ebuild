@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WrikePy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python wrapper for the Wrike API."
 
 HOMEPAGE="https://github.com/TGoers-FNSB/WrikePy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/b9/dab30eb61451c4d7bc7221f454006cbd917588ddc64367b5dc6b9e7f3e4e/WrikePy-${REALVERSION}.tar.gz"
-SOURCEFILE="WrikePy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Jetforce"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An Experimental Gemini Server"
 
 HOMEPAGE="https://github.com/michael-lazar/jetforce"
 LICENSE="Other/Proprietary License"
-SRC_URI="https://files.pythonhosted.org/packages/ed/cf/c7f09dbb8e78b87e60d2ca0b4669980fa763bf0045b39563f4bd11008ef1/Jetforce-${REALVERSION}.tar.gz"
-SOURCEFILE="Jetforce-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

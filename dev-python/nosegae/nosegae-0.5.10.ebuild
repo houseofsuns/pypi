@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NoseGAE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NoseGAE: nose plugin for Google App Engine testing"
 
 HOMEPAGE="https://github.com/Trii/NoseGAE"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ad/b0/c01d43bd5ba72ac7bcf690f7ceae79316c36f8672c350a90b6a9b16f4305/NoseGAE-${REALVERSION}.tar.gz"
-SOURCEFILE="NoseGAE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

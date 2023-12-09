@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDust"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyDust"
 
 HOMEPAGE="https://github.com/MondoAurora/pydust/dust"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8c/8f/584ca24d956f18a82a25118e32175ec7afe6d76affefef313e6323cbb56a/PyDust-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDust-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

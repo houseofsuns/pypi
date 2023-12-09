@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyLogo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Logo interpreter witten in Python"
 
 HOMEPAGE="http://svn.colorstudy.com/PyLogo/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/1c/3000bc911d660a495bf24c43c108351d8ee44e9d0d3791b157e5c2400e5a/PyLogo-${REALVERSION}.tar.gz"
-SOURCEFILE="PyLogo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PPPForgivenessSDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="api support for Paycheck Protection Program Portal"
 
 HOMEPAGE="https://sandbox.ussbaforgiveness.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/5b/2ae7a53fba47a08a0dca342c037ef53e3279be1fc49aeb28b8a3a96a0361/PPPForgivenessSDK-${REALVERSION}.tar.gz"
-SOURCEFILE="PPPForgivenessSDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

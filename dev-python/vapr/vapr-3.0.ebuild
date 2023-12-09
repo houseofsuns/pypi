@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VAPr"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package for NoSQL variant data storage, annotation and prioritizati
 
 HOMEPAGE="https://github.com/ucsd-ccbb/VAPr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/10/35/836f0b347e3a8942f52905f741d657a818d6c2b9f485316a6a6ddf9399f8/VAPr-${REALVERSION}.tar.gz"
-SOURCEFILE="VAPr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

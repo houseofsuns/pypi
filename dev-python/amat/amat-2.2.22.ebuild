@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AMAT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Aerocapture Mission Analysis Tool"
 
 HOMEPAGE="https://github.com/athulpg007/AMAT"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/65/d0/4ee1c55eafae09dbcf4f574c8e672777af92d9783a027bcf420397928726/AMAT-${REALVERSION}.tar.gz"
-SOURCEFILE="AMAT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

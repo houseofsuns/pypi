@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IntelliPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automatic IntelliCage data analysis using Python"
 
 HOMEPAGE="https://github.com/NiRuff/IntelliPy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/45/661c19f865cb80600aa5b830ddaf6757ef066db13c438f7c1ce7b7256b4b/IntelliPy-${REALVERSION}.tar.gz"
-SOURCEFILE="IntelliPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

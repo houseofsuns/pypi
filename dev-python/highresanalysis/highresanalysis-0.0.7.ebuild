@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HighResAnalysis"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Analysis of High Resolution Data from CERN and DESY beam tests"
 
 HOMEPAGE="https://github.com/dmitryhits/HighResAnalysis"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f8/7c/42582a9b53fd7b8588a1d3d89b2560833097452deaf20b4c24e4feabbe39/HighResAnalysis-${REALVERSION}.tar.gz"
-SOURCEFILE="HighResAnalysis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

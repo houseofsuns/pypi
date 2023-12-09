@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DataRecorder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="用于记录数据的模块。"
 
 HOMEPAGE="https://gitee.com/g1879/DataRecorder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/45/b642b205a235ed5bdb549ab9d475b6ffb9f55a5a3bdcbc7b04014136a77e/DataRecorder-${REALVERSION}.tar.gz"
-SOURCEFILE="DataRecorder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

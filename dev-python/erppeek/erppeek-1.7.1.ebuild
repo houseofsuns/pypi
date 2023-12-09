@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ERPpeek"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Versatile tool for browsing Odoo / OpenERP data"
 
 HOMEPAGE="http://erppeek.readthedocs.org/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a8/d6/68fc37536809e7397eb2bda8319ad68f339bee8006b078dbe8febeb53c30/ERPpeek-${REALVERSION}.tar.gz"
-SOURCEFILE="ERPpeek-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

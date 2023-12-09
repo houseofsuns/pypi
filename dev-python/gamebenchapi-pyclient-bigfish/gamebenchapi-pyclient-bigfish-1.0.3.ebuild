@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GameBenchAPI-PyClient-BigFish"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A GameBench API Client Library."
 
 HOMEPAGE="https://github.com/bigfishgames/GameBenchAPI-PyClient"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/93/2f/150f8e2f76c28c0f8a2f28d4a0fb5004ec689a871a216c99df0ca52f2d00/GameBenchAPI-PyClient-BigFish-${REALVERSION}.tar.gz"
-SOURCEFILE="GameBenchAPI-PyClient-BigFish-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

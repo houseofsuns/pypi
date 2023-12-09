@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CO2Signal"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to access the co2signal API"
 
 HOMEPAGE="https://github.com/danielsjf/CO2Signal"
 LICENSE="Creative Commons Attribution-Noncommercial-Share Alike license"
-SRC_URI="https://files.pythonhosted.org/packages/38/99/20adbe5f71f41ea2a11429f3fc52f416da0d6361a12b40a57058525d4498/CO2Signal-${REALVERSION}.tar.gz"
-SOURCEFILE="CO2Signal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

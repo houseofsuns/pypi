@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PlumedToHTML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for creating pretified HTML for PLUMED files"
 
 HOMEPAGE="https://github.com/plumed/PlumedToHTML"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/44/75/eb5ffa006a68f2c615150aadae8012872db470c958acd7f318641357b20c/PlumedToHTML-${REALVERSION}.tar.gz"
-SOURCEFILE="PlumedToHTML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

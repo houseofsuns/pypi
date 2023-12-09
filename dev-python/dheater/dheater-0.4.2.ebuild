@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DHEater"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="D(HE)ater is an attacking tool heating the CPU by enforcing DHE KEX
 
 HOMEPAGE="https://gitlab.com/dheatattack/dheater"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e7/4e/5b95fd4d85ba52cccbd6f7dfc3838dc7b441361c3056b1d3f034ac872f4c/DHEater-${REALVERSION}.tar.gz"
-SOURCEFILE="DHEater-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

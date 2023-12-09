@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BatchTINTV3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BatchTINTV3 - GUI created to more efficiently sort Axona/Tint data.
 
 HOMEPAGE="https://github.com/HussainiLab/BatchTINTV3.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5a/73/b836b56ee74a4dc8ad0f0729b7f7c52f6a0c3bfbda7702913c10877fe31f/BatchTINTV3-${REALVERSION}.tar.gz"
-SOURCEFILE="BatchTINTV3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

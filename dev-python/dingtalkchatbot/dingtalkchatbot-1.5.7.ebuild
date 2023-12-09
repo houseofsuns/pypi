@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DingtalkChatbot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="一个钉钉自定义机器人消息的Python封装库"
 
 HOMEPAGE="https://github.com/zhuifengshen/DingtalkChatbot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b1/8b/52243aed0a1a449ef2fedc42607b5ce9bdaa2f771ef9c7b8c1675141c8d6/DingtalkChatbot-${REALVERSION}.tar.gz"
-SOURCEFILE="DingtalkChatbot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

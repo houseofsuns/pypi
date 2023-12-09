@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="STEME"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="STEME: an accurate efficient motif finder for large data sets."
 
 HOMEPAGE="http://sysbio.mrc-bsu.cam.ac.uk/johns/STEME/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a1/b9/303c1b566378e9ed1bbd1967a06cc6b65c485d390af4968f953b655900f0/STEME-${REALVERSION}.tar.gz"
-SOURCEFILE="STEME-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

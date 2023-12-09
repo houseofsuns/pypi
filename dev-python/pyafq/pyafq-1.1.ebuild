@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyAFQ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="pyAFQ: Automated Fiber Quantification ... in Python"
 
 HOMEPAGE="https://yeatmanlab.github.io/pyAFQ"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/15/02/549c88e167e522aaddb71fd424174f386008a6d504162c0b4163b1dce038/pyAFQ-${REALVERSION}.tar.gz"
-SOURCEFILE="pyAFQ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

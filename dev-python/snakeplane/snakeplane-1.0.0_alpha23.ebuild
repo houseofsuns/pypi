@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SnakePlane"
 REALVERSION="1.0.0a23"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Alteryx Python SDK Abstraction Layer"
 
 HOMEPAGE="https://github.com/alteryx/snakeplane"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ae/cb/b83d7660b5824380240b14b7cad14256764721567feb84b2f2050a5cfc66/SnakePlane-${REALVERSION}.tar.gz"
-SOURCEFILE="SnakePlane-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

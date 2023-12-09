@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TagScriptEngine"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/JonSnowbd/TagScript/tree/v2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/fa/bd44347b516b0afde1f56cb26f04de6ca2f165c3bab08f2dd2219516b6c0/TagScriptEngine-${REALVERSION}.tar.gz"
-SOURCEFILE="TagScriptEngine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

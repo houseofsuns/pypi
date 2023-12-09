@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="dinteractions-Paginator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Official interactions.py paginator"
 
 HOMEPAGE="https://github.com/Toricane/dinteractions-Paginator"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/34/a8/f9048609e8a5a57f141a8f1df40d9bbd61b199f3cf372102df1ded160e41/dinteractions_Paginator-${REALVERSION}.tar.gz"
-SOURCEFILE="dinteractions_Paginator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

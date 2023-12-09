@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pmdr"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CLI Pomodoro Timer"
 
 HOMEPAGE="https://github.com/JDSalisbury/doro"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/b8/f1577621d7bcd64bcf0b530e539b518118d91b3aa9924fcca17ad6e20afb/Pmdr-${REALVERSION}.tar.gz"
-SOURCEFILE="Pmdr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

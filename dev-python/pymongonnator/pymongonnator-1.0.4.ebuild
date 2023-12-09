@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMongonnator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple pymongo paginator using bucket pattern"
 
 HOMEPAGE="https://github.com/nitxiodev/py-mongonnator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/05/3582baed4cc983b81b15a39bcdfcda882fa0bceeb979fdff9802aa188554/PyMongonnator-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMongonnator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

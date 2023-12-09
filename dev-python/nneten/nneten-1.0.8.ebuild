@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NNetEn"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Package for Neural Network Entropy (NNetEn) calculation"
 
 HOMEPAGE="https://github.com/izotov93/NNetEn"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/fc/7786b41683d6d768147233033ff8903c78b87f80123d7c2040bb136f545c/NNetEn-${REALVERSION}.tar.gz"
-SOURCEFILE="NNetEn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

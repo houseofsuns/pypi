@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ReunionLog"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A small package to access and use WarcraftLogs API"
 
 HOMEPAGE="https://github.com/nickgismokato/ReunionLog"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/bc/9d4fc7163e45d0abd37fe1d231f55f0c23803ab2620518fc68a3c90b3cf3/ReunionLog-${REALVERSION}.tar.gz"
-SOURCEFILE="ReunionLog-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

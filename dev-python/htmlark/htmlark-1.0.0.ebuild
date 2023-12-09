@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HTMLArk"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pack a webpage including support files into a single HTML file."
 
 HOMEPAGE="https://github.com/BitLooter/htmlark"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d7/0a/c5150fb593abf13dd58ae3e3b46da56266d3f8aff8c0fc512f2001fa35a3/HTMLArk-${REALVERSION}.tar.gz"
-SOURCEFILE="HTMLArk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-MDE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pagedown for Flask"
 
 HOMEPAGE="https://github.com/bittobennichan/Flask-MDE"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/e1/f5e56e598f7f0da48804160ac56a4077f336bc792dab6b09415e49339a34/Flask-MDE-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-MDE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

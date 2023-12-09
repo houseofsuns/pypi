@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SciANN"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Keras/Tensorflow wrapper for scientific computations and physics-
 
 HOMEPAGE="https://github.com/sciann/sciann"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5c/c7/f0ce5ca0d454ce6c1cde063008afbc3820522425847bdfe2455a87c52eb6/SciANN-${REALVERSION}.tar.gz"
-SOURCEFILE="SciANN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

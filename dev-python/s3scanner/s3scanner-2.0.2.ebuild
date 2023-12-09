@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="S3Scanner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Scan for open S3 buckets and dump the contents"
 
 HOMEPAGE="https://github.com/sa7mon/S3Scanner"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7c/28/20af6edde8edee3e44cbaeaab0cbe0fb1dd64d9f613bd1f68b678cee944b/S3Scanner-${REALVERSION}.tar.gz"
-SOURCEFILE="S3Scanner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

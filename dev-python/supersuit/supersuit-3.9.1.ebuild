@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SuperSuit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
@@ -15,8 +16,8 @@ DESCRIPTION="Wrappers for Gymnasium and PettingZoo"
 
 HOMEPAGE="https://farama.org"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ce/4e/e2992ce9a969a1c28bea95a37377219242bb4e6bcbd44157edfa76fa12f2/SuperSuit-${REALVERSION}.tar.gz"
-SOURCEFILE="SuperSuit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

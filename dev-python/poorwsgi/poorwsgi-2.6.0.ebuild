@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PoorWSGI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Poor WSGI connector for Python"
 
 HOMEPAGE="http://poorhttp.zeropage.cz/poorwsgi"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2a/43/ac8aa581fa44d3960c89b7ef89409ae9972c847a8e6895477c4129b67f02/PoorWSGI-${REALVERSION}.tar.gz"
-SOURCEFILE="PoorWSGI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

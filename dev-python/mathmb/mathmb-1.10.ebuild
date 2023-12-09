@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="mathMB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mathematical procedures for nexoclom and general use"
 
 HOMEPAGE="https://github.com/mburger-stsci/mathMB"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/88/40/2bfcf7bed9b2ef5696987048b313044ac2329dcaaab718d829fada91bc2b/mathMB-${REALVERSION}.tar.gz"
-SOURCEFILE="mathMB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

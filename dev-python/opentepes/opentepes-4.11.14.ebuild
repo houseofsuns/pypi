@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="openTEPES"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Open Generation, Storage, and Transmission Operation and Expansion 
 
 HOMEPAGE="https://pascua.iit.comillas.edu/aramos/openTEPES/index.html"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a0/84/c7100272d0df00696c3a82fb4f466881b9f763a5e019e8c48c9239a68dad/openTEPES-${REALVERSION}.tar.gz"
-SOURCEFILE="openTEPES-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

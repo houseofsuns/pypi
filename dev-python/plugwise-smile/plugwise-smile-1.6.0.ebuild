@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Plugwise-Smile"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Plugwise_Smile (Anna/Adam/P1/Stretch) API to use in conjunction wit
 
 HOMEPAGE="https://github.com/plugwise/Plugwise-Smile"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/99/7a/5490ca8fd0e9faa71f7a9552f42d49d6394adb71257e6ad7f8db0c238a56/Plugwise_Smile-${REALVERSION}.tar.gz"
-SOURCEFILE="Plugwise_Smile-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

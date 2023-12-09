@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Potosnail"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="improves ML workflow"
 
 HOMEPAGE="https://github.com/spe301/Potosnail"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/37/8b/f655c29cb5ca8a7f51e541b8cfc7167f4d601eac627d5a3c3310eafac268/Potosnail-${REALVERSION}.tar.gz"
-SOURCEFILE="Potosnail-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

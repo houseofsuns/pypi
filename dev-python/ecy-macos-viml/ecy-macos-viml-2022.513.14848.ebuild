@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ECY-macOS-viml"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/JimmyHuang454/ECY_exe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/81/85/9b1c86e32188e81acac712d088414562e1690ed889be3d9ee2d9dfd609bc/ECY_macOS_viml-${REALVERSION}.tar.gz"
-SOURCEFILE="ECY_macOS_viml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

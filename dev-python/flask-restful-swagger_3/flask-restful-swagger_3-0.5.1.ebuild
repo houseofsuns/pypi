@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="flask-restful-swagger-3"
+LITERALNAME="flask-restful-swagger-3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

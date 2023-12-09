@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kodistubs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Stub modules that re-create Kodi Python API"
 
 HOMEPAGE="https://github.com/romanvm/Kodistubs"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/cd/43/76c956fddfc03e7c517a47e8f7c36879f0b94d846e857ca6500161b23dce/Kodistubs-${REALVERSION}.tar.gz"
-SOURCEFILE="Kodistubs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Crystally"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python module to model and analyze crystal structures"
 
 HOMEPAGE="https://git.rwth-aachen.de/john.arnold/Crystally.git"
 LICENSE="None"
-SRC_URI="https://files.pythonhosted.org/packages/36/ed/b3f3b02839965e0eed6c7b54d340d9f2376f28b142393cfde6803a81fdf3/Crystally-${REALVERSION}.tar.gz"
-SOURCEFILE="Crystally-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

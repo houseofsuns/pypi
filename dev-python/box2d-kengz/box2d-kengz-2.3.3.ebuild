@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Box2D-kengz"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Box2D"
 
 HOMEPAGE="http://pybox2d.googlecode.com/"
 LICENSE="ZLIB"
-SRC_URI="https://files.pythonhosted.org/packages/81/20/51d6c0c87f7642efb709c518fb0ca8e5eab068259588552c41da5926ae27/Box2D-kengz-${REALVERSION}.tar.gz"
-SOURCEFILE="Box2D-kengz-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

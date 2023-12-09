@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Hydra"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A high performance persistent bloom filter"
 
 HOMEPAGE="http://github.com/crankycoder/Hydra"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/ac/7a7596cb752fe807be2f6fa11ed561e39efa86f556214733fc7df0e985d9/Hydra-${REALVERSION}.tar.gz"
-SOURCEFILE="Hydra-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

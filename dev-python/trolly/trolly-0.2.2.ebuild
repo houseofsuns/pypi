@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Trolly"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Trello API Wrapper"
 
 HOMEPAGE="https://github.com/plish/Trolly"
 LICENSE="LICENCE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/eb/0b/79ebf114bb81c4f942bf5af617a3c602440bfbe9dce86f3b4bbbaebef2e5/Trolly-${REALVERSION}.zip"
-SOURCEFILE="Trolly-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ezRL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="easy Reinforcement Learning tool for python"
 
 HOMEPAGE="https://github.co.jp/"
 LICENSE="CC0 v1.0"
-SRC_URI="https://files.pythonhosted.org/packages/c9/f6/84b87846491377e8c286db61b10f0ff438a78ecc27a2e3fbe6dbb228d526/ezRL-${REALVERSION}.tar.gz"
-SOURCEFILE="ezRL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

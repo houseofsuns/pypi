@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AlgBench"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Util for benchmarking algorithms."
 
 HOMEPAGE="https://github.com/d-krupke/AlgBench"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/c9/390ee950475eceaef1c0eb915b6bd346e9314a6c34b95b2b44225067f623/AlgBench-${REALVERSION}.tar.gz"
-SOURCEFILE="AlgBench-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TorchPIV"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package for PIV data analysis"
 
 HOMEPAGE="https://github.com/NikNazarov/TorchPIV"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/70/fc/e5b85bf42358810bb7501023275f567f6be3dafe4f4d9c65fbb6bd5159f1/TorchPIV-${REALVERSION}.tar.gz"
-SOURCEFILE="TorchPIV-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

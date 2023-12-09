@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyShExC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyShExC - Python ShEx compiler"
 
 HOMEPAGE="https://github.com/shexSpec/grammar-python-antlr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/31/95c590e8ed6e8cff141b6dd2a3de93b540f9dc3fba54621a20fd1cdb11e4/PyShExC-${REALVERSION}.tar.gz"
-SOURCEFILE="PyShExC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

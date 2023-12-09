@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeeprAI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A easy to use and beginner friendly neural network tool box that an
 
 HOMEPAGE="https://github.com/Deepr-ai/Deepr-ai"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/68/c2/426f33d8dd0a275ed617c22f77e21a04e1a27d409f3a942ee7375d05881f/DeeprAI-${REALVERSION}.tar.gz"
-SOURCEFILE="DeeprAI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

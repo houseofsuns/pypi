@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="YouTubeMusicAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The YouTube Music search scraper for the Python programming languag
 
 HOMEPAGE="https://github.com/cj-praveen/YouTube-Music-API/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/9f/7c32de0f9b75e8e52d265ea6dc000ff9e5436ad0ba6aaab5e772dbffaf11/YouTubeMusicAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="YouTubeMusicAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

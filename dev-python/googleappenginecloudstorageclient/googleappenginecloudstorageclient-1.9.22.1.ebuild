@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GoogleAppEngineCloudStorageClient"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This library is the preferred way of accessing Google Cloud Storage
 
 HOMEPAGE="https://github.com/GoogleCloudPlatform/appengine-gcs-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/92/cd/4a8aaeb4bf69c67a6fa06c001fd54c229c2bc811e13d3f4d305e1a8201b0/GoogleAppEngineCloudStorageClient-${REALVERSION}.tar.gz"
-SOURCEFILE="GoogleAppEngineCloudStorageClient-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-of-Oil"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask OAuth Filter - an OAuth Interceptor Logic"
 
 HOMEPAGE="https://github.com/curity/flask-of-oil"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fb/75/d9ec15759e8224b0b5138f0105a1377972cca8d952fdef86a94534437964/Flask-of-Oil-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-of-Oil-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Fancy-progressbar"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An easy to use multi progressbar manager"
 
 HOMEPAGE="https://github.com/Plawn/Fancy_progressbar"
 LICENSE="apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/84/46/c3e21f84a0dcc55a8bed8f46ed3c0d29b7d8aa1780e60a696f41bf8f3870/Fancy_progressbar-${REALVERSION}.tar.gz"
-SOURCEFILE="Fancy_progressbar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

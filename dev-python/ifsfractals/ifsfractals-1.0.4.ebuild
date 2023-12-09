@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ifsFractals"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="For Fast Generation of IFS Fractals"
 
 HOMEPAGE="https://github.com/PeterEFrancis/ifsFractals-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/c8/f1627b13f098e904da4bdd3309cd9d120e016e834d71059482871fb0d1c0/ifsFractals-${REALVERSION}.tar.gz"
-SOURCEFILE="ifsFractals-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

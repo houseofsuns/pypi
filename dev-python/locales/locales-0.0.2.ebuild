@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Locales"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Module for multilingual solutions"
 
 HOMEPAGE="https://github.com/vffuunnyy/Locales"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a9/49/89c3242769d5fdcf96d437601fa182fcb65209153567911c06ee5a5132e5/Locales-${REALVERSION}.tar.gz"
-SOURCEFILE="Locales-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

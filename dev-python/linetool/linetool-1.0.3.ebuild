@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="lineTool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Simple Line Notify Tool"
 
 HOMEPAGE="https://rockywang101.github.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7a/29/7e96eef82de56d045e0016bbd7b7a41f597444ee0c7a38b0a5cdc6034a16/lineTool-${REALVERSION}.tar.gz"
-SOURCEFILE="lineTool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

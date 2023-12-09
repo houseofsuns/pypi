@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyW800rf32"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library to communicate with the W800rf32 family of devices"
 
 HOMEPAGE="https://github.com/horga83/W800rf32"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/39/59/ba638792c66d1caf492e3c1f7d6686070361047282d44aa90e9a6e2a21a4/pyW800rf32-${REALVERSION}.tar.gz"
-SOURCEFILE="pyW800rf32-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

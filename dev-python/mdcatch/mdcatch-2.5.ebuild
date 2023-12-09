@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MDCatch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fetch metadata from EPU / SerialEM and launch on-the-fly pre-proces
 
 HOMEPAGE="https://github.com/azazellochg/MDCatch"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/73/99/fbf0e19c64f15d1c7b31978b33d671780e96e080f3041544b7f2fdad6b2e/MDCatch-${REALVERSION}.tar.gz"
-SOURCEFILE="MDCatch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

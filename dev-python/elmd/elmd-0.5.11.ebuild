@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ElMD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An implementation of the Element movers distance for chemical simil
 
 HOMEPAGE="https://github.com/lrcfmd/ElMD/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/eb/64/24cb6133ecd606d97f3eaefd47eb6fe42618dcf711d787343c988ff08051/ElMD-${REALVERSION}.tar.gz"
-SOURCEFILE="ElMD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

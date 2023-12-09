@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DigitalCellSorter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Toolkit for analysis and identification of cell types from heteroge
 
 HOMEPAGE="https://github.com/sdomanskyi/DigitalCellSorter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/aa/ff/ba4a40eb753c899973e638e701194d198051f9f21076f68d76147ee347f5/DigitalCellSorter-${REALVERSION}.tar.gz"
-SOURCEFILE="DigitalCellSorter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kook"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="task automation tool for Python, similar to Make, Rake, Ant, or Coo
 
 HOMEPAGE="http://www.kuwata-lab.com/kook/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/aa/71cf105729b385a99fb07dfbf038e1144f4ddea1ca6b26f21d1286cee3fc/Kook-${REALVERSION}.tar.gz"
-SOURCEFILE="Kook-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

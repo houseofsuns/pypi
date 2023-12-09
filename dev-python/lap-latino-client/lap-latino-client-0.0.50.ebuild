@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LAP-latino-client"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Administrador de paquetes de latino (LAP)"
 
 HOMEPAGE="https://github.com/N3koSempai/LAP_Cliente"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a9/b7/c35263ccd1cb3eb5beea088b731838faad095e3d038ee7c6b795be64526c/LAP-latino-client-${REALVERSION}.tar.gz"
-SOURCEFILE="LAP-latino-client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ClickSQL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python client for Clickhouse"
 
 HOMEPAGE="http://www.github.com/sn0wfree/ClickSQL"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/5d/eb/522a32d8fa4483b9cfd58ce3b40d2c2f896c238080e55bc1f662042b6de5/ClickSQL-${REALVERSION}.tar.gz"
-SOURCEFILE="ClickSQL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

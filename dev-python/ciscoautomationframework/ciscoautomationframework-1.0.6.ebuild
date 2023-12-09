@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CiscoAutomationFramework"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Framework for issuing commands and retrieving consistent data on Ci
 
 HOMEPAGE="https://github.com/superadm1n/CiscoAutomationFramework"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fe/78/469890f673aa4325ae2342a8b390d335b30ffaa85274bf91e5be6a709089/CiscoAutomationFramework-${REALVERSION}.tar.gz"
-SOURCEFILE="CiscoAutomationFramework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

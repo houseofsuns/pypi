@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FilterDict"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Store data in JSON format"
 
 HOMEPAGE="https://github.com/JulianKimmig/filter_dict"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c1/37/589cce2468c60d71519aeaf5174bfd5d55d26c0be9355a1429423381589d/FilterDict-${REALVERSION}.tar.gz"
-SOURCEFILE="FilterDict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Figures"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Reporting and data retrieval for Open edX"
 
 HOMEPAGE="https://github.com/appsembler/figures"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/45/4acf12f08fcbcf46b4dbe1ceed21524c4f066de0a059ed3487492a11a390/Figures-${REALVERSION}.tar.gz"
-SOURCEFILE="Figures-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

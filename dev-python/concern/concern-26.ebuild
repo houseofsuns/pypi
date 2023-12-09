@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Concern"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Control pym2149 (via Lurlene) or FoxDot using Vim"
 
 HOMEPAGE="https://github.com/combatopera/Concern"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/8a/5d50363e0469c5aad852dde7bd0e878ec2f2871e49159351c432ad0d65db/Concern-${REALVERSION}.tar.gz"
-SOURCEFILE="Concern-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

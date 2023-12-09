@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LbDevTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LHCb development tools"
 
 HOMEPAGE="https://gitlab.cern.ch/lhcb-core/LbDevTools"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/59/0f/78ff31d310fe8025107ce3a13334b321d0627e5fce7be6fcca07ecb34451/LbDevTools-${REALVERSION}.tar.gz"
-SOURCEFILE="LbDevTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

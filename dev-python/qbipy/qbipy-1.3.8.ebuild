@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QbiPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DCE-MRI analysis code from the QBI lab, University of Manchester"
 
 HOMEPAGE="https://gitlab.com/manchester_qbi/manchester_qbi_public/qbipy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/ef/226ed83c12a62ddf35e13b0124ddad52b7017b303373626fe4969cd8e23e/QbiPy-${REALVERSION}.tar.gz"
-SOURCEFILE="QbiPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

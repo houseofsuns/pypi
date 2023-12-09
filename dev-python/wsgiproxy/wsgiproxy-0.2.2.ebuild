@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WSGIProxy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="HTTP proxying tools for WSGI apps"
 
 HOMEPAGE="http://pythonpaste.org/wsgiproxy/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/23/c110badc5e220682adab8fbcd69a3fd6190db3c649d503a411ec175d2efc/WSGIProxy-${REALVERSION}.tar.gz"
-SOURCEFILE="WSGIProxy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

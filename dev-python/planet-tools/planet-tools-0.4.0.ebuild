@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Planet-tools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package with useful functions for exoplanetary research"
 
 HOMEPAGE="https://github.com/tundeakins/Planet_tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/de/48/cef87894d1d689d89985e4778da339eca7894cf7897b2671efcd967dc983/Planet_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="Planet_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Collectfast"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Faster Collectstatic"
 
 HOMEPAGE="https://github.com/antonagestam/collectfast/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/6f/f648a790c833d50a19c66143a1cea10e5c7768d0d2599a04357d04a9845c/Collectfast-${REALVERSION}.tar.gz"
-SOURCEFILE="Collectfast-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

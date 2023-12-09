@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BeautifulReport"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="unittest自动化测试的可视化报告模板"
 
 HOMEPAGE="https://github.com/mocobk/BeautifulReport"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/2c/b944e50172b72ce94f2b495a761e66ee3c4d517cee226469727749224f13/BeautifulReport-${REALVERSION}.tar.gz"
-SOURCEFILE="BeautifulReport-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

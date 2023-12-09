@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="seeFretboard"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="For Release"
 
 HOMEPAGE="https://github.com/LindaRZhang/seeFretboard"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/60/55/5ae53138222ba37fbfe1f21ab52fe6cea482b24f0eeac33232b7684642a7/seeFretboard-${REALVERSION}.tar.gz"
-SOURCEFILE="seeFretboard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

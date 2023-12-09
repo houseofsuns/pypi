@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Orange3-Prototypes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Prototype Orange widgets — only for the brave."
 
 HOMEPAGE="https://github.com/biolab/orange3-prototypes"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/17/0a807b9a51c98085733a2a7dd16aa9c352341a426cc86b94ab05b95ac7cd/Orange3-Prototypes-${REALVERSION}.tar.gz"
-SOURCEFILE="Orange3-Prototypes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

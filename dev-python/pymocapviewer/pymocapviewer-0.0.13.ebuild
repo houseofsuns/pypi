@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMoCapViewer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A not anymore so simple MoCap Viewer"
 
 HOMEPAGE="https://github.com/justamad/PyMoCapViewer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fe/03/5ce39fe75206b84e2b1220b9dac8b885b8b053b7c1e18174fbf48cc3e8f0/PyMoCapViewer-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMoCapViewer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

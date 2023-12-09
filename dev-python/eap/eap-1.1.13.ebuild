@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EAP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This package is designed for empirical asset pricing"
 
 HOMEPAGE="https://whyecofiliter.github.io/EAP/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/3d/d6f7f1f816468f27f49beaae301df0dda926c074794da54222dbe92f6fbc/EAP-${REALVERSION}.tar.gz"
-SOURCEFILE="EAP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

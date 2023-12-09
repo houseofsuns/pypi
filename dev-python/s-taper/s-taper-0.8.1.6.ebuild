@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="S-Taper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple write-read add-on to SQLite3"
 
 HOMEPAGE="https://github.com/TheYoungEngineers/SulfTaper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/81/11ef3c2cf7011cf87d2cfc0e28be0d2cbea21414dc0a11a6961b7876cd13/S_Taper-${REALVERSION}.tar.gz"
-SOURCEFILE="S_Taper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

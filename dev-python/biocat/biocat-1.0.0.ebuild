@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BioCAT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NRP biosynthesis  Cluster  Analysis  Tool)"
 
 HOMEPAGE="https://github.com/DanilKrivonos/BioCAT"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a0/f7/293b8b8ee18e1ceb573b1837d241ab6c4eb819043ea1045cbc2057be61d0/BioCAT-${REALVERSION}.tar.gz"
-SOURCEFILE="BioCAT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EvtPlugins"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Plugin Package to communicate with RUG developed hardware"
 
 HOMEPAGE="https://github.com/markspan/EvtPlugins"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/14/55/d3e9e47a5d8c1f79d6422720da953d5b3472674de32d2aa66676e56d968f/EvtPlugins-${REALVERSION}.tar.gz"
-SOURCEFILE="EvtPlugins-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

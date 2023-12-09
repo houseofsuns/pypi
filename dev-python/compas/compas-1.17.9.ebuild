@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="COMPAS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The COMPAS framework"
 
 HOMEPAGE="http://compas.dev"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/85/38/199440eb1d21838fe67080efe8c3f68d5904c5802111a96b1dfb66cdb7ec/COMPAS-${REALVERSION}.tar.gz"
-SOURCEFILE="COMPAS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RateMyProfessorAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python web scraper to get professor ratings from ratemyprofessor.co
 
 HOMEPAGE="https://github.com/Nobelz/RateMyProfessorAPI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/de/e7/f7c86c2c127270f7e526ce6137da5d72ba27442803114b8620a4a6e64e05/RateMyProfessorAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="RateMyProfessorAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

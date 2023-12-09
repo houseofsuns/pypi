@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Chameleon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fast HTML/XML Template Compiler."
 
 HOMEPAGE="https://chameleon.readthedocs.io"
 LICENSE="BSD-like http://repoze.org/license.html"
-SRC_URI="https://files.pythonhosted.org/packages/0a/c7/bf24207ad79a383c8105df50f5d32e075a97fb30a85e1123810ac2326ad8/Chameleon-${REALVERSION}.tar.gz"
-SOURCEFILE="Chameleon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

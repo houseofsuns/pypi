@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MetaCHIP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="HGT detection pipeline"
 
 HOMEPAGE="https://github.com/songweizhi/MetaCHIP"
 LICENSE="GPL3+"
-SRC_URI="https://files.pythonhosted.org/packages/16/61/83e1509023dfa0d9e81f5acdf84d54b658f6c33a85da9907c8573e059adf/MetaCHIP-${REALVERSION}.tar.gz"
-SOURCEFILE="MetaCHIP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="targetDB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package with an application to generate report on potential drug ta
 
 HOMEPAGE="https://github.com/sdecesco/targetDB"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/1d/0574d01433635a6ab017167103bb196cf7e8cb17f8604ce6264536ed399d/targetDB-${REALVERSION}.tar.gz"
-SOURCEFILE="targetDB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

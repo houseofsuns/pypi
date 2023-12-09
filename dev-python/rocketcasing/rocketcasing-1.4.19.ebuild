@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RocketCasing"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Programa baseado na planilha Casing de Richard Nakka para cálculo 
 
 HOMEPAGE="https://github.com/LucasValentimB/RocketCasing"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/47/a7ba63239d8b216cff9a8e6e7b5b5cfd9b6206f90dae77a0c4d1dcd6b9dc/RocketCasing-${REALVERSION}.tar.gz"
-SOURCEFILE="RocketCasing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

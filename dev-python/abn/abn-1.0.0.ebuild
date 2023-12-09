@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ABN"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Validate Australian Business Numbers."
 
 HOMEPAGE="https://gitlab.com/Sturm/python-abn"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/92/e9/6d4960f1f379fa8b7e21144de04db6284a3831cf7e9154b87e2af2877fb1/ABN-${REALVERSION}.tar.gz"
-SOURCEFILE="ABN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

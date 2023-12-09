@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PythonPluginFramework"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python plugin framework based QT"
 
 HOMEPAGE="https://gitee.com/imlaji/PythonPluginFW"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/78/72e49b26fcbb7e59ac3878f7ee504ffa5131a9fffd36671fe6546ecafdf9/PythonPluginFramework-${REALVERSION}.tar.gz"
-SOURCEFILE="PythonPluginFramework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

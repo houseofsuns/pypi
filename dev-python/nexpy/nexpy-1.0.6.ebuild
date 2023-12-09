@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NeXpy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python GUI to analyze NeXus data"
 
 HOMEPAGE="https://nexpy.github.io/nexpy/"
 LICENSE="Modified BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/c4/94/5b49241fd9afbc16446d454e5ffb2f0e5707e0550d240d75bd4f0240612c/NeXpy-${REALVERSION}.tar.gz"
-SOURCEFILE="NeXpy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

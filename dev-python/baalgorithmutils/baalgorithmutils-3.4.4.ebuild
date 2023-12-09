@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BAAlgorithmUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Algorithm utils for python"
 
 HOMEPAGE="https://github.com/BenArvin/BAAlgorithmUtils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6a/23/3c8dba350e15d00a8a995b26c46f64fe07ba6bea900d2774a5ac079e5ee3/BAAlgorithmUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="BAAlgorithmUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

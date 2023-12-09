@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GimmeThat"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A file transfer tool"
 
 HOMEPAGE="https://github.com/nejdetckenobi/gimme-that"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/50/66/0cbc962106d4e61e97a6b93075d3363a871361d7be933c426e6ba4b1f071/GimmeThat-${REALVERSION}.tar.gz"
-SOURCEFILE="GimmeThat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

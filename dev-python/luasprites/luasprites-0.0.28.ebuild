@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LUASprites"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate spritesheets and lua modules for easy image reference"
 
 HOMEPAGE="https://github.com/AJSteinhauser/LUASprites"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ab/6e/76cd8e060d2525e49450d56bec64f0610e8e867e9cdde18a5a9f0178afb1/LUASprites-${REALVERSION}.tar.gz"
-SOURCEFILE="LUASprites-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UW-RestClients-UWNetID"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for connecting to the UW NetID API"
 
 HOMEPAGE="https://github.com/uw-it-aca/uw-restclients-uwnetid"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/36/19/50f7a957a82596ef39e3f3cd31c59a9b09d17f3ca4ee1249775bb595bdc2/UW-RestClients-UWNetID-${REALVERSION}.tar.gz"
-SOURCEFILE="UW-RestClients-UWNetID-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

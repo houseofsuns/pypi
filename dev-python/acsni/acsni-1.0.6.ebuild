@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ACSNI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="automatic context-specific network inference"
 
 HOMEPAGE="https://github.com/caanene1/ACSNI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/a0/2105902b302f3845e34989475fd5fd66dcad2a3852320cce1d8db9f0cfd1/ACSNI-${REALVERSION}.tar.gz"
-SOURCEFILE="ACSNI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

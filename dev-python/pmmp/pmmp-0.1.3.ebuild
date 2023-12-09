@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PMMP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PMMP is a math library"
 
 HOMEPAGE="https://github.com/PlayfulMathematician/PMMP"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/53/97e9955990a48fb6b504dde94e3e6373576911618c5a688cd1521c403ce6/PMMP-${REALVERSION}.tar.gz"
-SOURCEFILE="PMMP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="1OS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="1OS"
 
 HOMEPAGE="https://github.com/1deos/1OS"
 LICENSE="OpenBSV"
-SRC_URI="https://files.pythonhosted.org/packages/76/c0/cee71cdf903bc57d576cbeaebae6d6a74728c39feafaf8c3f8f20f001089/1OS-${REALVERSION}.tar.gz"
-SOURCEFILE="1OS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

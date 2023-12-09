@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyChromecast"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python module to talk to Google Chromecast."
 
 HOMEPAGE="https://github.com/balloob/pychromecast"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/8e/a85e3608cea8393016568846b99dac955da1394e17a3fa208d3eca8852dd/PyChromecast-${REALVERSION}.tar.gz"
-SOURCEFILE="PyChromecast-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

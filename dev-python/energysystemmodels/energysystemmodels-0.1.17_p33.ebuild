@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EnergySystemModels"
 REALVERSION="0.1.17.post33"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Energy systems models are the mathematical models that are develope
 
 HOMEPAGE="https://github.com/ZoheirHADID/EnergySystemModels"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/3c/b4bbdc24e30e925521937ac4654ac751b47d8a85765c24cf9b0a6337cd08/EnergySystemModels-${REALVERSION}.tar.gz"
-SOURCEFILE="EnergySystemModels-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

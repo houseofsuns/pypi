@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BabelDjango"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Utilities for using Babel in Django"
 
 HOMEPAGE="http://babel.edgewall.org/wiki/BabelDjango"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/98/33/e0e0e640f3e1794ab79f6e19388c5df06263042b95dddcf6707cec6d2662/BabelDjango-${REALVERSION}.tar.gz"
-SOURCEFILE="BabelDjango-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

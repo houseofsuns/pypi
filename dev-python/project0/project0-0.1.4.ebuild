@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Project0"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Offline vocal assistant and tts"
 
 HOMEPAGE="http://github.com/fenrir77/project0"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/38/da9e9230e1cfe7f4467af29fe66cf02e04748c91397727f33a2e1483471f/Project0-${REALVERSION}.tar.gz"
-SOURCEFILE="Project0-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Patreon-Flask-OAuthlib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OAuthlib for Flask"
 
 HOMEPAGE="https://github.com/lepture/flask-oauthlib"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2f/ae/b37a2cf423686aa6313584913abf254c2e63d49493768937c89773261002/Patreon-Flask-OAuthlib-${REALVERSION}.tar.gz"
-SOURCEFILE="Patreon-Flask-OAuthlib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

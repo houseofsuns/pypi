@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VisualFlow"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library for object detection format conversion"
 
 HOMEPAGE="https://github.com/Ojas-Sharma/VisualFlow"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/59/cb/b9a432ad8accd8b7e9fb8c9e169bdd0455037510761c37c49e3de79f7413/VisualFlow-${REALVERSION}.tar.gz"
-SOURCEFILE="VisualFlow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

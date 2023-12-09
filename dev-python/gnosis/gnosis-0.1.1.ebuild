@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Gnosis"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Parses XML into Python object representation"
 
 HOMEPAGE="http://github.com/smokedice/Objectify"
 LICENSE="Creative Commons Attribution 3.0 Unported"
-SRC_URI="https://files.pythonhosted.org/packages/c0/92/9305f6b03bf3897dcda55d02ad43032dc27b38bc613ded6904fbf7a12da7/Gnosis-${REALVERSION}.tar.gz"
-SOURCEFILE="Gnosis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

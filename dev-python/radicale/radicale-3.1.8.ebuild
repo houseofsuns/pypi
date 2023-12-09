@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Radicale"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CalDAV and CardDAV Server"
 
 HOMEPAGE="https://radicale.org/"
 LICENSE="GNU GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/e7/18/570aaf1e66b5bd75558b8a433c83e69921ae6fd727f5947e296046be5c0d/Radicale-${REALVERSION}.tar.gz"
-SOURCEFILE="Radicale-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TRA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Trust region algorithms for non-linear optimisation."
 
 HOMEPAGE="https://github.com/Joel-H-dot/TRA"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4c/26/34900b2905cafb77d0634cedde441e59de33ebce43097b069cbc4977c11e/TRA-${REALVERSION}.tar.gz"
-SOURCEFILE="TRA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

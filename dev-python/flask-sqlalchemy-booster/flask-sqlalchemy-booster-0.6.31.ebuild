@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-SQLAlchemy-Booster"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A booster package for Flask and SQLAlchemy"
 
 HOMEPAGE="https://github.com/SuryaSankar/flask-sqlalchemy-booster"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/11/bfcb234fff53fc90d19cafb70a9d34268f95dd6d6156095259e2c65023f3/Flask-SQLAlchemy-Booster-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-SQLAlchemy-Booster-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

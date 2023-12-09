@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NaverTTS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NaverTTS (NAVER Text-to-Speech), a Python library and CLI tool to i
 
 HOMEPAGE="https://github.com/scottgigante/NaverTTS"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5a/88/9333cf4306e589d419bd5779851c0fcfb0c5d36a98a16632d640d72757ae/NaverTTS-${REALVERSION}.tar.gz"
-SOURCEFILE="NaverTTS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

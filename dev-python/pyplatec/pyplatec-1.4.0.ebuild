@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyPlatec"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Plates simulation library"
 
 HOMEPAGE="https://github.com/Mindwerks/pyplatec"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/af/3e/97d1055a5d29d39b7adbb1a6fe9b243d8517b63c1618f55d91833af5de62/PyPlatec-${REALVERSION}.tar.gz"
-SOURCEFILE="PyPlatec-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

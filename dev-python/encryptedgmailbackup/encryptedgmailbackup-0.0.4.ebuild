@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EncryptedGmailBackup"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Backup your GMail account with GPG encryption."
 
 HOMEPAGE="https://github.com/sholiday/encrypted-gmail-backup"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/d8/1c/4f41e95caa682c65e01a53a708e5c86f90f9651118ce4a2274294d03e046/EncryptedGmailBackup-${REALVERSION}.tar.gz"
-SOURCEFILE="EncryptedGmailBackup-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

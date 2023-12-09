@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GetPixelColor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A cross-platform python library for getting the color of a given pi
 
 HOMEPAGE="https://github.com/Bobrobot1/GetPixelColor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/88/14/751ad96804e3ab8ab332f82df8510ac080d38b900ba6c08b9712964d7fc0/GetPixelColor-${REALVERSION}.tar.gz"
-SOURCEFILE="GetPixelColor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

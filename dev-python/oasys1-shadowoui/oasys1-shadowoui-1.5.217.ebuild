@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OASYS1-ShadowOui"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Shadow, Ray-tracing simulation software"
 
 HOMEPAGE="http://github.com/oasys-kit/ShadowOui"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/15/ec/efbc955109bf7ce84c3151b44b2d55c4056723137a49f5de9b550f18a92b/OASYS1-ShadowOui-${REALVERSION}.tar.gz"
-SOURCEFILE="OASYS1-ShadowOui-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

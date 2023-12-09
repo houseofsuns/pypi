@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Actions"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="custom actions for flask to help manage your application"
 
 HOMEPAGE="http://blog.flyzen.com"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f1/61/f227702b2e1fbad2ac2b343cd7093259a2e4dd60585d0399d9a583603680/Flask-Actions-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Actions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

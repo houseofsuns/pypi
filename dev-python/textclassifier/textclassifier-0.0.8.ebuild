@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TextClassifier"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Short text Classifier based on Numpy,scikit-learn,Pandas,Matplotlib
 
 HOMEPAGE="https://github.com/ArnoldGaius/Text_Classifier"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/74/8d/0b1768053344e9e50c9db2c2d5a11dfbf6d1ef321cabcc6ad444190ea339/TextClassifier-${REALVERSION}.tar.gz"
-SOURCEFILE="TextClassifier-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyOCT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Optical imaging reconstruction for both spectral-domain OCT and off
 
 HOMEPAGE="https://github.com/NeversayEverLin/PyOCT"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5c/59/554b5606c25743be8f9ef998e048d16dd292dd15e1df927dc344156a19e2/PyOCT-${REALVERSION}.tar.gz"
-SOURCEFILE="PyOCT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

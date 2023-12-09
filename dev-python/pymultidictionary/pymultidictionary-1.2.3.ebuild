@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMultiDictionary"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyMultiDictionary is a Dictionary Module for Python 2 to get meanin
 
 HOMEPAGE="https://github.com/ppizarror/PyMultiDictionary"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/36/7d/cfaaefa81a7fa4da0c304e6b3f7e84ba29250beedbe82de67ecf1be6982c/PyMultiDictionary-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMultiDictionary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

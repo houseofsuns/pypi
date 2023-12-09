@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SpatialCluster"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Spatial cluster package"
 
 HOMEPAGE="https://github.com/AxlKings/SpatialCluster"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/dc/fa5e2e1da8895a5a8c3897788528cb9d25888ca36c41f8dc2932437e78c3/SpatialCluster-${REALVERSION}.tar.gz"
-SOURCEFILE="SpatialCluster-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

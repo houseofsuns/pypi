@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JesseLOTRsdk"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An SDK for the Lord of the Rings API. Created for a coding challeng
 
 HOMEPAGE="https://github.com/vincjess"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/9c/4aba488c27caaca836fd43fe4cfbb53d6c6910bf93f8bb517a60ad131c0c/JesseLOTRsdk-${REALVERSION}.tar.gz"
-SOURCEFILE="JesseLOTRsdk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

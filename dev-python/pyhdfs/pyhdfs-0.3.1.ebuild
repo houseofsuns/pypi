@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyHDFS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pure Python HDFS client"
 
 HOMEPAGE="https://github.com/jingw/pyhdfs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/a9/e9bf3dc7c1f673765e6ba9acf7d049a7b90cd734d85dfa832cf704a1eb59/PyHDFS-${REALVERSION}.tar.gz"
-SOURCEFILE="PyHDFS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

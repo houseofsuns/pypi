@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VSMD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Controller for VSMD CAN motor"
 
 HOMEPAGE="https://github.com/JChrysanthemum/VSMD"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c1/fd/11020291deeec17242e73e28f159c90850f94e231fd4b2253328b105f296/VSMD-${REALVERSION}.tar.gz"
-SOURCEFILE="VSMD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

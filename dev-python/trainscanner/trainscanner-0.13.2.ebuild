@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TrainScanner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate a long image strip from a train video"
 
 HOMEPAGE="https://github.com/vitroid/TrainScanner/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/25/0944a887e16b2b8ab691a31ae1e049c7e0a8de0456c04baa3eaa67e184a9/TrainScanner-${REALVERSION}.tar.gz"
-SOURCEFILE="TrainScanner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Djblets"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A collection of useful classes and functions for developing large-s
 
 HOMEPAGE="https://www.reviewboard.org/downloads/djblets/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/f9/3571a6140a5dce9eaf7d3dfbceaf8c88ad6a0a407ec5e63a6591f5dcbb3e/Djblets-${REALVERSION}.tar.gz"
-SOURCEFILE="Djblets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

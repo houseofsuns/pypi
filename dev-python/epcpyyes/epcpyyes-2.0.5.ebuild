@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EPCPyYes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="EPCIS Python module for quickly developing EPCIS-enabled applicatio
 
 HOMEPAGE="https://gitlab.com/serial-lab/EPCPyYes"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8f/8d/8e90e51894b0e37307c8bc3840f7034cc7030d3afaa9d7cb9d10feba2af4/EPCPyYes-${REALVERSION}.tar.gz"
-SOURCEFILE="EPCPyYes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

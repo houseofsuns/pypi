@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyXRD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyXRD is a python implementation of the matrix algorithm developed 
 
 HOMEPAGE="http://github.org/mathijs-dumon/PyXRD"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/82/df/03984961d2af47c41f9d199230f0645f7131ca148e061f9870bf5606edfa/PyXRD-${REALVERSION}.linux-x86_64.tar.gz"
-SOURCEFILE="PyXRD-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Lab93-Finance"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for handling and managing finance accounts algorithmicall
 
 HOMEPAGE="https://github.com/Lab-93/Finance"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/c7/a32ae74f57d067e495762fa4f9917b66197cf08080b9c8dc8e55e19de1cc/Lab93-Finance-${REALVERSION}.tar.gz"
-SOURCEFILE="Lab93-Finance-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

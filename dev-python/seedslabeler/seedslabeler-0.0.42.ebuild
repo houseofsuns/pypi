@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SeedsLabeler"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Seeds annotation tool"
 
 HOMEPAGE="https://github.com/meryusha/seeds_labeler/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f8/b6/fbcc82b276aab2c009a8cbe4974cdc71abae13290bb55994630fcf934e18/SeedsLabeler-${REALVERSION}.tar.gz"
-SOURCEFILE="SeedsLabeler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CV-skeleton-provider"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="provide skeleton of a person"
 
 HOMEPAGE="https://github.com/LiiNen/CV_skeleton_provider"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1d/6f/c7994e4af2ea27a3c72f5eaf68a2e80d8a41763d3d57660cb94c03be50c9/CV_skeleton_provider-${REALVERSION}.tar.gz"
-SOURCEFILE="CV_skeleton_provider-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

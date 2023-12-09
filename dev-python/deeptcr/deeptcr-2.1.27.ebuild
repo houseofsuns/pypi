@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepTCR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Deep Learning Methods for Parsing T-Cell Receptor Sequencing (TCRSe
 
 HOMEPAGE="https://github.com/sidhomj/DeepTCR"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/f0/59/8a163cb2897d176e21fff7a8da552ebfa754f625ed7b918721d339f16d18/DeepTCR-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepTCR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

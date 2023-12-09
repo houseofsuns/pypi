@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Cyther"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Cross-Platform Cython/Python Compiler"
 
 HOMEPAGE="https://github.com/nickpandolfi/Cyther"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/66/ac48a7149ae779eaa919e3c9108f0307dba5d54f763083cff23321d9592d/Cyther-${REALVERSION}.tar.gz"
-SOURCEFILE="Cyther-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyFakeDados"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generic generator fake data for application and api development."
 
 HOMEPAGE="https://github.com/juliansantosinfo/PyFakeDados"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/85/5a/6fb32caee91172157b616512bc3817a498f6bd801c6ba0cb6e0412140355/PyFakeDados-${REALVERSION}.tar.gz"
-SOURCEFILE="PyFakeDados-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

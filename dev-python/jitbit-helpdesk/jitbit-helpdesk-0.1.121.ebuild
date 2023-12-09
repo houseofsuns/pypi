@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Jitbit-Helpdesk"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Jitbit Helpdesk Ticketing system plugin for your python webapp"
 
 HOMEPAGE="https://www.jitbit.com/helpdesk/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/e8/f516512d60a2490747600f85a4753d21e1d2c662cb70a14e67d5a5e61c06/Jitbit-Helpdesk-${REALVERSION}.tar.gz"
-SOURCEFILE="Jitbit-Helpdesk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

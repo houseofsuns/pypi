@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyNNRW"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library for NNRW (neural network with random weights)"
 
 HOMEPAGE="https://github.com/zhangys11/pyNNRW"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e9/68/72cd8535d75d69b150a153495e9e9ab608c08e70e4d96009c39d23b57754/pyNNRW-${REALVERSION}.tar.gz"
-SOURCEFILE="pyNNRW-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

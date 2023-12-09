@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SigProfilerClusters"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SigProfilerClusters tool"
 
 HOMEPAGE=""
 LICENSE="UCSD"
-SRC_URI="https://files.pythonhosted.org/packages/7d/59/5fb1662eb81202c8cf81f4eec12632001ea72a05f4d0f9ae9d40350d9a8c/SigProfilerClusters-${REALVERSION}.tar.gz"
-SOURCEFILE="SigProfilerClusters-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KeSi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="台語文NLP家私"
 
 HOMEPAGE="https://ithuan.tw/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/2c/58f03ddbce6548eb5c2939584a0ce91e6842223fdea4de5c045eafc56399/KeSi-${REALVERSION}.tar.gz"
-SOURCEFILE="KeSi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

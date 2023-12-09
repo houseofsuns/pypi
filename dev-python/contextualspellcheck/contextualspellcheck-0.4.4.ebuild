@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="contextualSpellCheck"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Contextual spell correction using BERT (bidirectional representatio
 
 HOMEPAGE="https://github.com/R1j1t/contextualSpellCheck"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/4e/8dd3e3e9b59389ba3328728347712444e1121ff483694ccace60c54a5ac6/contextualSpellCheck-${REALVERSION}.tar.gz"
-SOURCEFILE="contextualSpellCheck-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

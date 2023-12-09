@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Prix-Carburant-FR-Client"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="StationEssence client"
 
 HOMEPAGE="https://github.com/ryann72/essence"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/10/921d1deca8ddcd16f835a4c24c92a92e7234884901ee6df4bca2e8a2ec42/Prix-Carburant-FR-Client-${REALVERSION}.tar.gz"
-SOURCEFILE="Prix-Carburant-FR-Client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

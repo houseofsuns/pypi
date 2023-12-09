@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Fanduel-Webscrape"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python script that will webscrape historical NBA Fanduel salary i
 
 HOMEPAGE="https://github.com/nathanhilton/NBAFanduel"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/98/f1c879f030774d9547cddd43439933d2c325a2d28821a4d08105a0b85654/Fanduel-Webscrape-${REALVERSION}.tar.gz"
-SOURCEFILE="Fanduel-Webscrape-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SoccerNet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SoccerNet SDK"
 
 HOMEPAGE="https://github.com/SoccerNet/SoccerNet"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/7d/127d8400b13c9e3c3dea03fdb42c11d04613a253ad55a1955fb415f0dc85/SoccerNet-${REALVERSION}.tar.gz"
-SOURCEFILE="SoccerNet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MTGA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="python-mtga: a python-accessible interface for MTGA cards"
 
 HOMEPAGE="https://github.com/mtgatracker/python-mtga"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/64/3b/866660afef433337fdc6f842209193a6d9df23f6bfc8221251ab7f860439/MTGA-${REALVERSION}.tar.gz"
-SOURCEFILE="MTGA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

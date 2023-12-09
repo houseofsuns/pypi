@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EMMOntoPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python reference API for the Elementary MultiperspectiveMaterial On
 
 HOMEPAGE="https://github.com/emmo-repo/EMMOntoPy"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e9/a6/8830fbd3cacf2613bce60c1b69a21fd3ddf954af94c952de9d4f93698286/EMMOntoPy-${REALVERSION}.tar.gz"
-SOURCEFILE="EMMOntoPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

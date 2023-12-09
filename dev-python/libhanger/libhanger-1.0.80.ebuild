@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LibHanger"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Common Package"
 
 HOMEPAGE="https://github.com/kaioman/LibHanger.git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cd/49/d06a863f8e941d44a3fa977f9948c548704e71a8a1e91df04fd987334b70/LibHanger-${REALVERSION}.tar.gz"
-SOURCEFILE="LibHanger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

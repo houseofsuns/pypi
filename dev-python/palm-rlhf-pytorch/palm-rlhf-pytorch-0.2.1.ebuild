@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PaLM-rlhf-pytorch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PaLM + Reinforcement Learning with Human Feedback - Pytorch"
 
 HOMEPAGE="https://github.com/lucidrains/PaLM-rlhf-pytorch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/ec/967c6634f069011c333f005aa3d78bb0b65c8b3171f1be9fe9caba83bd9a/PaLM-rlhf-pytorch-${REALVERSION}.tar.gz"
-SOURCEFILE="PaLM-rlhf-pytorch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NoetherAutoDiff"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python wrapper for an efficient C++ library that is used for Auto
 
 HOMEPAGE="https://github.com/cs107-noether/cs107-FinalProject"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/d8/777ad4770c57b9fadc9b9bbdde295c3349183f7ff0bd56da661aff2014cf/NoetherAutoDiff-${REALVERSION}.tar.gz"
-SOURCEFILE="NoetherAutoDiff-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

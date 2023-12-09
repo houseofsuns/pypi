@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LexaPureToolbox"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Collection of tools developed for LexaPure"
 
 HOMEPAGE="https://github.com/paulo-lexapure/LexaPuretoolbox"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/2a/781b723dd6d5bfa35eb0036c9c05c7761e042c070e58856f8ce00ab4a557/LexaPureToolbox-${REALVERSION}.tar.gz"
-SOURCEFILE="LexaPureToolbox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

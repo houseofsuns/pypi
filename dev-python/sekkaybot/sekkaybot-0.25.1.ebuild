@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SEKKAYBOT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lobby bot."
 
 HOMEPAGE="https://www.youtube.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/da/7e/4295b97df9a45d7249f91612fc6086f7e3a85f7fc215739830c1f5682ef9/SEKKAYBOT-${REALVERSION}.tar.gz"
-SOURCEFILE="SEKKAYBOT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

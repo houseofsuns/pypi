@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AMLT-learn"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python classes for the AMLT course of the Master in Artificial Inte
 
 HOMEPAGE="http://www.cs.upc.edu/~bejar/amlt/amlt.html"
 LICENSE="GPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/ed/cf/4c85dde67516f8b4fd8306c69c1d3d7eb70b9896e978fee4f835bbb57228/AMLT-learn-${REALVERSION}.tar.gz"
-SOURCEFILE="AMLT-learn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

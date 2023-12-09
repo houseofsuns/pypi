@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FOMUserUtil"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Command line utility to help with adding users to the FOM applicati
 
 HOMEPAGE="https://github.com/bcgov/nr-fom-usermanager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cb/27/1d41bb54a959ce3c2672926506cc093d1383fb3f9c303a8168621341635f/FOMUserUtil-${REALVERSION}.tar.gz"
-SOURCEFILE="FOMUserUtil-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

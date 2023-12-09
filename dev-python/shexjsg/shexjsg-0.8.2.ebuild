@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ShExJSG"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ShExJSG - Astract Syntax Tree for the ShEx 2.0 language"
 
 HOMEPAGE="https://github.com/hsolbrig/ShExJSG"
 LICENSE="CC0 1.0 Universal"
-SRC_URI="https://files.pythonhosted.org/packages/30/c9/34224e3c8fd9d466535626e3c2f6e01f6adae3e82acaed353d42add509ec/ShExJSG-${REALVERSION}.tar.gz"
-SOURCEFILE="ShExJSG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EasyMenusBar"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="基于Pyside2 实现的menusbar"
 
 HOMEPAGE="https://gitee.com/osczaizai/EasyMenusBar.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/61/88c67be2db6c03480fe171fbb53d9b1d6cc16140d79233de9d245e80f28e/EasyMenusBar-${REALVERSION}.tar.gz"
-SOURCEFILE="EasyMenusBar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

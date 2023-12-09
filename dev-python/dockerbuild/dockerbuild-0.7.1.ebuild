@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DockerBuild"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DockerBuild is a 'dockerfile' file generation tools. It converts a 
 
 HOMEPAGE="https://github.com/qeyup/DockerBuild"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/4f/9dbdd3edefb1a65d151e27fedf335401adea5253ad26f24a45e38acc5bf0/DockerBuild-${REALVERSION}.tar.gz"
-SOURCEFILE="DockerBuild-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

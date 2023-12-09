@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FilterReportIPsByCount"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Script to read through a report, grab IPs and check if malicious, o
 
 HOMEPAGE="https://github.com/divyaaveerama/FilterReportIPsByCount"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/35/2d20cdf49d6e64196d83de779d505fa1ac7d05db801a6ecb25948bb6bcd4/FilterReportIPsByCount-${REALVERSION}.tar.gz"
-SOURCEFILE="FilterReportIPsByCount-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

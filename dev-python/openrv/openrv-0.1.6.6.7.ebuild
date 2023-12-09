@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenRV"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/OpenRoboVision/OpenRV"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/6f/14/9aa3bb152c00c3c9aba4cc8d5a0ab4c257d553c37ac29b2ab5c9cce82547/OpenRV-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenRV-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

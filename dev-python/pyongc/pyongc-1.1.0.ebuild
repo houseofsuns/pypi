@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyOngc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python interface to OpenNGC database data"
 
 HOMEPAGE="https://github.com/mattiaverga/PyOngc"
 LICENSE="MIT AND CC-BY-SA-4.0"
-SRC_URI="https://files.pythonhosted.org/packages/c9/1f/8920ab015c52379352fd8037094ab50c8c798a5f9a27398a743e0063d669/PyOngc-${REALVERSION}.tar.gz"
-SOURCEFILE="PyOngc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

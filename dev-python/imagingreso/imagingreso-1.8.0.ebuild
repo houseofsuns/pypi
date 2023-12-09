@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ImagingReso"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="tool for resonance neutron imaging"
 
 HOMEPAGE="https://github.com/ornlneutronimaging/ImagingReso.git"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/54/f8/2f0600ab96f276731a9ab8822121641dbcf5f0f3fb317c45f1ef7365dd9b/ImagingReso-${REALVERSION}.tar.gz"
-SOURCEFILE="ImagingReso-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

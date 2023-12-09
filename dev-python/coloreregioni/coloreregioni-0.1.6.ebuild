@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ColoreRegioni"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Web-scraping del sito del governo italiano per la classificazione d
 
 HOMEPAGE="https://github.com/MCilento93/ColoreRegioni"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/83/5bb14e13b70acd77e9b9ac1531bcc8a4a558303e2a162ba84b62a1bad251/ColoreRegioni-${REALVERSION}.tar.gz"
-SOURCEFILE="ColoreRegioni-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

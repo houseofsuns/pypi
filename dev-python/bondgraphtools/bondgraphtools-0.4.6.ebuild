@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BondGraphTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bond Graph Modelling Toolkit"
 
 HOMEPAGE="https://github.com/BondGraphTools/BondGraphTools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ff/b5/178cfec9b8f0823421ec939a51badec7c748b23bbab382fe6a678bb82cba/BondGraphTools-${REALVERSION}.tar.gz"
-SOURCEFILE="BondGraphTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

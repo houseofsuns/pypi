@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AnkiIn"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Import markdown to Anki"
 
 HOMEPAGE="https://github.com/clouder0/AnkiIn"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/da/b7dfef2ea7ef449b321d176615d08e1e671783c7865aec1539a63c7d8d80/AnkiIn-${REALVERSION}.tar.gz"
-SOURCEFILE="AnkiIn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

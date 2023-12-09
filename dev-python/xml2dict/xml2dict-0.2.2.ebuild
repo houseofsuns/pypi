@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XML2Dict"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Convert between XML String and Python Dict"
 
 HOMEPAGE="https://github.com/mcspring/XML2Dict"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/94/5d/7ee47d1b0e976b55a49d331e328038adba21e3be28b8c2cb6abd2ac713f1/XML2Dict-${REALVERSION}.tar.gz"
-SOURCEFILE="XML2Dict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

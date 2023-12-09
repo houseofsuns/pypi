@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Cybernator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Paginator and Rolegator"
 
 HOMEPAGE="https://github.com/RuCybernetic/Cybernator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/e1/ced2a38aee3e9ef094c535b1ff539df9bb84fd0d768a944aca17205ec012/Cybernator-${REALVERSION}.tar.gz"
-SOURCEFILE="Cybernator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

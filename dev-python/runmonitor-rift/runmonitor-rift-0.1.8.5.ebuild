@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="runmonitor-RIFT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for monitoring RIFT PE runs"
 
 HOMEPAGE="https://git.ligo.org/richard.udall/runmonitor_rift"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/db/6107759d213edf7c4aae5acf65d254293af3e8ca5ab2b2ed8e211ab63f7e/runmonitor-RIFT-${REALVERSION}.tar.gz"
-SOURCEFILE="runmonitor-RIFT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

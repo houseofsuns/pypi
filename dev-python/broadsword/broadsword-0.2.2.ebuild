@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BroadSword"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python script to broaden calculated spectra from Wien2k and compare
 
 HOMEPAGE="https://github.com/Cody-Somers/BroadSword"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6a/bb/ff250daf352cdced6e54323f564e500f270b61f6e4e2c017a63425158cc7/BroadSword-${REALVERSION}.tar.gz"
-SOURCEFILE="BroadSword-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

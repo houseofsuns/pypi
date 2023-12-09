@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ApexTrackerPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for easily calling Apex tracker APIs (supports TRN and APEX
 
 HOMEPAGE="https://github.com/nerrog/ApexTrackerPy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/45/18/e5d723813ec5d8117b694c1d2089875f5a03ec0d039f2f6cd3ca14f40c76/ApexTrackerPy-${REALVERSION}.tar.gz"
-SOURCEFILE="ApexTrackerPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

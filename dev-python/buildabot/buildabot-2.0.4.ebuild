@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BuildABot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Build a Dicord bot with ease and flexibility"
 
 HOMEPAGE="https://gitlab.com/artex-development/bot_framework"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/d3/bde55cb9f3943721d5ee5a025234c92ddc7b9d7fcd220eadfd2ccc2d8056/BuildABot-${REALVERSION}.tar.gz"
-SOURCEFILE="BuildABot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

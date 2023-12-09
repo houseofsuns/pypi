@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TweetBase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Write tweets to database"
 
 HOMEPAGE="https://github.com/geduldig/TweetBase"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/e1/ff85cbb8a7f6ad8e6f5e4658816154f602a6fe56e80627794983aa668203/TweetBase-${REALVERSION}.tar.gz"
-SOURCEFILE="TweetBase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

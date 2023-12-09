@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SQCommon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SQCommon - skopt common optimizer API"
 
 HOMEPAGE="http://scikit-quant.org/"
 LICENSE="LBNL BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c7/d9/d39c37c013619316302029d3747a51ef601929744613076b8bf2f0ab33d5/SQCommon-${REALVERSION}.tar.gz"
-SOURCEFILE="SQCommon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

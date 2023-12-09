@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NREL-PySAM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="National Renewable Energy Laboratory's System Advisor Model Python 
 
 HOMEPAGE="http://www.github.com/nrel/pysam"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/52/17/db2947a1424bc1ed99d53a68ece9e90e9714e3bed87b98318d2c6bc05409/NREL-PySAM-${REALVERSION}.tar.gz"
-SOURCEFILE="NREL-PySAM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

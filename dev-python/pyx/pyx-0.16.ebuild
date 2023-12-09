@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package for the generation of PostScript, PDF, and SVG files
 
 HOMEPAGE="https://pyx-project.org/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/2a/d6/59f65e3f8ca3972c29b935563e21ec800b084335f4dbe9747cd1eed0de64/PyX-${REALVERSION}.tar.gz"
-SOURCEFILE="PyX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

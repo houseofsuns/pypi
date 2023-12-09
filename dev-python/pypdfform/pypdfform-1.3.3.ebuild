@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyPDFForm"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Python library for PDF forms."
 
 HOMEPAGE="https://github.com/chinapandaman/PyPDFForm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ca/34/2605ecafcda23ee522eb587fe86cb94b43f4acf5e0e91fada459670e5e1a/PyPDFForm-${REALVERSION}.tar.gz"
-SOURCEFILE="PyPDFForm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

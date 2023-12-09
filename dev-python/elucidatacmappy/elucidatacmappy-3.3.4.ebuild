@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="elucidatacmapPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Assorted tools for interacting with .gct, .gctx files and other Con
 
 HOMEPAGE="https://github.com/cmap/cmapPy"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/3d/dd/69c45a8990edf8c284fb6464d00dad9e9da4702cb99dc343f403cb227f05/elucidatacmapPy-${REALVERSION}.tar.gz"
-SOURCEFILE="elucidatacmapPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

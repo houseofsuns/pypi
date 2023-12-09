@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ArduinoControllServer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="webframe for arduinocontroller"
 
 HOMEPAGE="https://github.com/JulianKimmig/arduinocontrollserver"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/8d/1c55a45f1c6f876605a0b4ac24954a0b7070f6e64ec8a4cd6243781787ea/ArduinoControllServer-${REALVERSION}.tar.gz"
-SOURCEFILE="ArduinoControllServer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChemDataExtractor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A toolkit for extracting chemical information from the scientific l
 
 HOMEPAGE="https://github.com/mcs07/ChemDataExtractor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/21/9a2a54c949c6ab55445d2c51b3c837983f5d18e80fdbc8f01cb442d55012/ChemDataExtractor-${REALVERSION}.tar.gz"
-SOURCEFILE="ChemDataExtractor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

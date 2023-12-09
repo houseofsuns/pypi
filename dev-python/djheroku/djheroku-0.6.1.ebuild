@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Djheroku"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Some helper functionality for binding Heroku configuration to Djang
 
 HOMEPAGE="http://github.com/fubaz/djheroku/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f0/5c/53d883b80278d4e0280f2f18d165ae24359278d245da7f4b4bc6c6814971/Djheroku-${REALVERSION}.tar.gz"
-SOURCEFILE="Djheroku-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

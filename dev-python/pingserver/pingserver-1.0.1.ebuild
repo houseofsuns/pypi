@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PingServer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Makes creating a server to be pinged easier"
 
 HOMEPAGE="https://github.com/Necrownyx/PingServer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6e/26/344f673a507b4ec922363d0fbfaad70d93dc3359f4bb533ddf02aab8e947/PingServer-${REALVERSION}.tar.gz"
-SOURCEFILE="PingServer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

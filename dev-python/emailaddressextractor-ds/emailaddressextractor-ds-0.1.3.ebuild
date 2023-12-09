@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EmailAddressExtractor-DS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Extracts email addresses from MBOX files"
 
 HOMEPAGE="https://bitbucket.org/daedalsystems/workspace/projects/microservices"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6e/5d/6d0df08b5ec92b8fb2a612c5323f887bd39a77220106961ef3db2256e299/EmailAddressExtractor_DS-${REALVERSION}.tar.gz"
-SOURCEFILE="EmailAddressExtractor_DS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SPLayout"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Silicon Photonics Design Tools for GDSII Files."
 
 HOMEPAGE="https://github.com/Hideousmon/SPLayout"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/76/2646b3d155625ba8c7919a8cd81416730977c3fe977839005c04b7857dd7/SPLayout-${REALVERSION}.tar.gz"
-SOURCEFILE="SPLayout-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

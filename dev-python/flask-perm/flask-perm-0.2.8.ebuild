@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Perm"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask Permission Management Extension"
 
 HOMEPAGE="https://github.com/soasme/flask-perm"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/c6/300d5c0ee6b6503ccb7f620c291d2a6d5d10ac0b29b20884b55e7a254843/Flask-Perm-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Perm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

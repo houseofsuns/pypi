@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Naftawayh"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Naftawayh: Arabic word tagger"
 
 HOMEPAGE="http://naftawayh.sourceforge.net/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/68/de/0b22ee28fc925098c1f66ef43e8cb1a40d92b8525f19aa1ca35289429e6c/Naftawayh-${REALVERSION}.tar.gz"
-SOURCEFILE="Naftawayh-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BMI500caonia"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BMI500 HW4"
 
 HOMEPAGE="https://github.com/shaoyanpan/BMI500-HW4"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/35/d7/c2b35fc365a85f6b4cd09937dfe9c41e8f52e45574121747edf0077dc6a5/BMI500caonia-${REALVERSION}.tar.gz"
-SOURCEFILE="BMI500caonia-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

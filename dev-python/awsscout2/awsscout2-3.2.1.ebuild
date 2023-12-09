@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AWSScout2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Scout2, TODO"
 
 HOMEPAGE="https://github.com/nccgroup/Scout2"
 LICENSE="GNU General Public License v2 GPLv2"
-SRC_URI="https://files.pythonhosted.org/packages/1c/e4/779bf3eb840883e4b069237bc025cdf0bcb5331f002282e339aa4f14ffe4/AWSScout2-${REALVERSION}.tar.gz"
-SOURCEFILE="AWSScout2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

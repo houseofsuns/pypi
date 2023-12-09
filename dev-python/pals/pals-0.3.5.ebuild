@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PALs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy distributed locking using PostgreSQL Advisory Locks."
 
 HOMEPAGE="https://github.com/level12/pals"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/30/24/4e6be92977cc94d8f9411f0dcba72ab369e8227b7a3cb6dbde29b12ff466/PALs-${REALVERSION}.tar.gz"
-SOURCEFILE="PALs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

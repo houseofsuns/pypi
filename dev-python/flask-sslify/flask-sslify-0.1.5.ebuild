@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-SSLify"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Force SSL on your Flask app."
 
 HOMEPAGE="https://github.com/kennethreitz/flask-sslify"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/6e/98/54f2ffaf886d25eb1591cfb534c04cbf983236d657d58d180fd9ccbb5e7f/Flask-SSLify-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-SSLify-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

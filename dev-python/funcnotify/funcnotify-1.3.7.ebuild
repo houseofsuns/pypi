@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FuncNotify"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Get notified when your functions finish running"
 
 HOMEPAGE="https://github.com/kevinfjiang/FuncNotify"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/45/5c3aba354e8003fc1df51ee48efebce9564b5b831fa9bcbb1b8160ad127d/FuncNotify-${REALVERSION}.tar.gz"
-SOURCEFILE="FuncNotify-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

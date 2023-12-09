@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RsInstrument"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="VISA or Socket Communication Module for Rohde & Schwarz Instruments
 
 HOMEPAGE="https://github.com/Rohde-Schwarz/RsInstrument"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/09/fc/eb2fb161304b95a9dec413997e269b8149d916e2cff19490d5b3faa18dbe/RsInstrument-${REALVERSION}.tar.gz"
-SOURCEFILE="RsInstrument-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

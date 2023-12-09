@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="uModbus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Implementation of the Modbus protocol in pure Python."
 
 HOMEPAGE="https://github.com/AdvancedClimateSystems/umodbus/"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c1/13/5eb635dd6ab67fedcfe5147209135a737d33c1220fdf4ad735a224a8a684/uModbus-${REALVERSION}.tar.gz"
-SOURCEFILE="uModbus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

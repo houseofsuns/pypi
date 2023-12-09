@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Markdown-Editor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Standalone editor for your markdown files"
 
 HOMEPAGE="https://github.com/ncornette/Python-Markdown-Editor.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4d/9d/3d5eb9c7c6488cdf9e072d7beecf4411cb1882fb0010ad34801218b7b66e/Markdown-Editor-${REALVERSION}.tar.gz"
-SOURCEFILE="Markdown-Editor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

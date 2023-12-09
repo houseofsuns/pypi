@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Pypendency"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for Pypendency, a dependency injection tool"
 
 HOMEPAGE="https://github.com/miguelgf/pypendency-flask"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/b2/e5f2c9b2c7de88ca3a3136e2e055111d8a27f0ce203ea8cea9320f113eb8/Flask-Pypendency-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Pypendency-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

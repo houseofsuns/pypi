@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="yixinPyLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="易鑫金融测试用例公共库"
 
 HOMEPAGE="http://192.168.145.20:8088/testsite"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/ee/3f9c3e24071a3416e5f3a6470c32b95b79b177476bde008e950d64f45a2a/yixinPyLib-${REALVERSION}.zip"
-SOURCEFILE="yixinPyLib-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

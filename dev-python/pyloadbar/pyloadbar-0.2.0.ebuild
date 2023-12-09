@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyLoadBar"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Customizeable loading sequence/progress bar generator, enabling use
 
 HOMEPAGE="https://github.com/schlopp96/PyLoadBar"
 LICENSE="GPL v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/55/dd/13c76cb48af76f72cad449edfd42b8a6130fbaecc651d9238049311a4276/PyLoadBar-${REALVERSION}.tar.gz"
-SOURCEFILE="PyLoadBar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MICTI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Feature extraction approach in single-cell gene expression profilin
 
 HOMEPAGE="https://github.com/insilicolife/micti"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/e7/d5b404d8a8616b771a6c24c369bf06b108618a801446b475aebc3ee22ef7/MICTI-${REALVERSION}.tar.gz"
-SOURCEFILE="MICTI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

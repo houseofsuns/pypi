@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pySPFM"
 REALVERSION="0.0.1b17"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="\"A python package for Paradigm Free Mapping (3dPFM and 3dMEPFM).\"
 
 HOMEPAGE="https://github.com/pySPFM/pySPFM"
 LICENSE="LGPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/29/f4/b44fd9948eb9849a07a596b0922a2b409e01c3d6dc9370ddb0a9cf55465c/pySPFM-${REALVERSION}.tar.gz"
-SOURCEFILE="pySPFM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Environments"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Environment tools and configuration for Flask applications"
 
 HOMEPAGE="http://packages.python.org/flask-environments/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/85/1e555af8a44c490fabe367f864e9a0c8cf536733f0f0fc6bf53dd3165b07/Flask-Environments-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Environments-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

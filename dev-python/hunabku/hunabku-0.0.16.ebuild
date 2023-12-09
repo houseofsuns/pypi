@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Hunabku"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Modular APIs creation using plugins system"
 
 HOMEPAGE="https://github.com/colav/Hunabku"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/0f/92/ff9655ae48182fdff61c345c3f6080e49ce1f1a686111c600c80776a3723/Hunabku-${REALVERSION}.tar.gz"
-SOURCEFILE="Hunabku-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

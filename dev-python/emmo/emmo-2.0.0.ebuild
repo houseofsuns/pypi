@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EMMO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python reference API for the Europeean Materials & Modelling Ontolo
 
 HOMEPAGE="https://github.com/emmo-repo/EMMO-python"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/87/c9/2417e140f73794589041dceba6f56ae7f5dd1cd0b82a34945ccd9dff78c7/EMMO-${REALVERSION}.tar.gz"
-SOURCEFILE="EMMO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

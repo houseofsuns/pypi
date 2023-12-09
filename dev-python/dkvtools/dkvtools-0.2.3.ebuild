@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DKVTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Some useful functions."
 
 HOMEPAGE="https://www.baidu.com"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ee/36/379af962c8d80da6981f85ce9d9095acf3614dd69e1f45b9c7ea4ccff686/DKVTools-${REALVERSION}.tar.gz"
-SOURCEFILE="DKVTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

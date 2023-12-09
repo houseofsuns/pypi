@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyPDFLite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple PDF Writer."
 
 HOMEPAGE="https://github.com/katerina7479/pypdflite"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/69/2e/9738a5e6565cd8e7aa267fb4e7e5f15595ce8a0f49186c1f421249417d99/PyPDFLite-${REALVERSION}.tar.gz"
-SOURCEFILE="PyPDFLite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

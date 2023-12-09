@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LambdaTool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Lambda utility"
 
 HOMEPAGE="https://github.com/muckamuck/lambda-tool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/c2/796d4a62353c8adf48d78687d12b5c4858fa50800a93a403fd7eb79044d1/LambdaTool-${REALVERSION}.tar.gz"
-SOURCEFILE="LambdaTool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

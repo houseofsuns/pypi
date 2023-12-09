@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyEmitter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="UNKNOWN"
 
 HOMEPAGE="http://github.com/fuzeman/PyEmitter/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/39/a5/8186fe1e60abd5375696dbed3644e6eda6ca2348cab59314a3f962ee16fb/PyEmitter-${REALVERSION}.zip"
-SOURCEFILE="PyEmitter-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

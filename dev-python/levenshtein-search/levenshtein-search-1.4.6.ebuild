@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Levenshtein-search"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Search through documents for approximately matching strings"
 
 HOMEPAGE="https://github.com/mattandahalfew/Levenshtein_search"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/54/6d2cc7c2a0c4a5d811c47b0b8113fa0dc14a8bd69a18a3dd77e41547e493/Levenshtein_search-${REALVERSION}.tar.gz"
-SOURCEFILE="Levenshtein_search-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

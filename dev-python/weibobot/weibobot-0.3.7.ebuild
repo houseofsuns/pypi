@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WeiboBot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="基于微博H5 API开发的机器人框架"
 
 HOMEPAGE="https://github.com/MerlinCN/WeiboBot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d9/72/54042467af8675421a3455adb5753742237cedbd4036b9c97330bf5669c9/WeiboBot-${REALVERSION}.tar.gz"
-SOURCEFILE="WeiboBot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

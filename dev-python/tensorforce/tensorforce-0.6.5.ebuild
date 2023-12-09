@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Tensorforce"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tensorforce: a TensorFlow library for applied reinforcement learnin
 
 HOMEPAGE="http://github.com/tensorforce/tensorforce"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cd/f1/2da8d2547dc1f6f3eb04f42472bc9126c50c4e2527c784b5d52e8ae0219f/Tensorforce-${REALVERSION}.tar.gz"
-SOURCEFILE="Tensorforce-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

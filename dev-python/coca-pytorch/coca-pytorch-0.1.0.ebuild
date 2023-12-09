@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CoCa-pytorch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CoCa, Contrastive Captioners are Image-Text Foundation Models - Pyt
 
 HOMEPAGE="https://github.com/lucidrains/CoCa-pytorch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3e/5b/b573528e68f77744887cc2dfb0d498ade7b27263151e8174292e674ac26f/CoCa-pytorch-${REALVERSION}.tar.gz"
-SOURCEFILE="CoCa-pytorch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

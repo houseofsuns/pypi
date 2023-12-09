@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ByHelpers"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library used by ByPrice"
 
 HOMEPAGE="https://github.com/ByPrice/ByHelpers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/15/a6/40215fc442473483fc7101d0e0f4124b5b20d3f7c757eda53ed5f6a0a32b/ByHelpers-${REALVERSION}.tar.gz"
-SOURCEFILE="ByHelpers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

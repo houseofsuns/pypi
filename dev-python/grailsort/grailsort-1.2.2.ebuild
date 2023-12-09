@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GrailSort"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Cython wrapper around GrailSort (https://github.com/gaming32/GrailS
 
 HOMEPAGE="https://github.com/gaming32/grailsort"
 LICENSE="License :: OSI Approved :: MIT License"
-SRC_URI="https://files.pythonhosted.org/packages/42/f0/9242784eeb26e32c8c5dfaa7d2dcdb968fcc9dd8ed32fca80d9d76c6d0c5/GrailSort-${REALVERSION}.tar.gz"
-SOURCEFILE="GrailSort-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

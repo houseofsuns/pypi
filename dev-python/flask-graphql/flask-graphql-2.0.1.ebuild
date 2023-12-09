@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-GraphQL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds GraphQL support to your Flask application"
 
 HOMEPAGE="https://github.com/graphql-python/flask-graphql"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/73/7e30093467341c1a9261fdd1ea296f6a1efd13dc659a8beb915d40853705/Flask-GraphQL-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-GraphQL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

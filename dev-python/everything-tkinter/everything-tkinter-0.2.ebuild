@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Everything-Tkinter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Everything-Tkinter gives you everything you need for tkinter. Made 
 
 HOMEPAGE="https://github.com/OmerYelin/Every-tkinter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/50/337027980af20fdd9236c83329f496a4208b5333bfa59b93d4aa11908e58/Everything-Tkinter-${REALVERSION}.tar.gz"
-SOURCEFILE="Everything-Tkinter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

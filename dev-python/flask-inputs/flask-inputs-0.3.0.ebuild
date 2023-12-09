@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Inputs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask request data validation"
 
 HOMEPAGE="http://pythonhosted.org/Flask-Inputs/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/61/0bb73f4d9531a72c237e3ea7a2448a310a03e39c660e9955cccb5f4a842a/Flask-Inputs-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Inputs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

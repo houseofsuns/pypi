@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pySEI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pacote para interagir com o SEI"
 
 HOMEPAGE="https://github.com/danielsioli/pySEI"
 LICENSE="Creative Commons Attribution-Noncommercial-Share Alike license"
-SRC_URI="https://files.pythonhosted.org/packages/f7/22/aabdbfd7d051b455689f82d0479efcd6bcfe9d87e467b22c4bbf9509e5f3/pySEI-${REALVERSION}.tar.gz"
-SOURCEFILE="pySEI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

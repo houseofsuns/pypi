@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyKat"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python interface and tools for FINESSE"
 
 HOMEPAGE="http://pypi.python.org/pypi/PyKat/"
 LICENSE="GPL v2"
-SRC_URI="https://files.pythonhosted.org/packages/20/3d/1ff38b347cf4d0c7949908352c0b38690502f9920ef04b47b6dd82fbdafb/PyKat-${REALVERSION}.tar.gz"
-SOURCEFILE="PyKat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Cahoots"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Text Comprehension Engine in Python."
 
 HOMEPAGE="https://github.com/SerenitySoftwareLLC/cahoots"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/5c/a82ebed2368b30a0852a222ccd9400955646de9ae79d1bdb920c3aad5b13/Cahoots-${REALVERSION}.zip"
-SOURCEFILE="Cahoots-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyQt6-Fluent-Widgets"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A fluent design widgets library based on PyQt6"
 
 HOMEPAGE="https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/PyQt6"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f4/06/c9ccff3cf46b2cd9fcf2eeb96a6fcc8447fe5ff9fe361ac5c7b0821ef24b/PyQt6-Fluent-Widgets-${REALVERSION}.tar.gz"
-SOURCEFILE="PyQt6-Fluent-Widgets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ForMoSA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ForMoSA: Forward Modeling Tool for Spectral Analysis"
 
 HOMEPAGE="https://github.com/exoAtmospheres/ForMoSA"
 LICENSE="BSD 2-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/90/7f/d61ed63ade84a943380d268efe20e2cdf1cd1e8805a6b921f41dfe50893f/ForMoSA-${REALVERSION}.tar.gz"
-SOURCEFILE="ForMoSA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

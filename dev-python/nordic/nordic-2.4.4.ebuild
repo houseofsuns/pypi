@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NORDic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Network Oriented Repurposing of Drugs (NORDic): network identificat
 
 HOMEPAGE="https://github.com/clreda/NORDic"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/9b/817e2004a1e7f798b5f361dc04d28d7b99657cc469f26abde2d9095fd1e4/NORDic-${REALVERSION}.tar.gz"
-SOURCEFILE="NORDic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

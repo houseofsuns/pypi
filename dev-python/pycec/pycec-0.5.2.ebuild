@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyCEC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Provide HDMI CEC devices as objects, especially for use with Home A
 
 HOMEPAGE="https://github.com/konikvranik/pycec/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/bb/d407b6285f6dd7c30b33568f4af50b3b7c57bc4e9382e7878a20ddefe1be/pyCEC-${REALVERSION}.tar.gz"
-SOURCEFILE="pyCEC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

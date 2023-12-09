@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ArriveTheSpaceship"
 REALVERSION="0.0.2.dev1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A frogger-like game made with Pygame"
 
 HOMEPAGE="https://github.com/viniciussousaazevedo/arrive_the_spaceship"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/1c/b41bf3c6c6622a111f0f63aab81bbb8177cb693f5622667665f73cadbeb0/ArriveTheSpaceship-${REALVERSION}.tar.gz"
-SOURCEFILE="ArriveTheSpaceship-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

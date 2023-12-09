@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MLLytics"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library of tools for easier evaluation of ML models."
 
 HOMEPAGE="https://github.com/scottclay/MLLytics"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/f2/5a26529eb02ab005060644781f7f6b28717cc1f16e5c62cbe3a95bfd0fbc/MLLytics-${REALVERSION}.tar.gz"
-SOURCEFILE="MLLytics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="igeCore"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Indi Games Engine core module"
 
 HOMEPAGE="https://indigames.net/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/29/06f3b288ad4367c0922452e192f5c1e7930c653abc6886480ff366cc6608/igeCore-${REALVERSION}.tar.gz"
-SOURCEFILE="igeCore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

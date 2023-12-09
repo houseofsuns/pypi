@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Unirest"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simplified, lightweight HTTP client library"
 
 HOMEPAGE="https://github.com/Mashape/unirest-python"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/92/da/2149cbd7a8c78f8b76b377379c1bda64ec36cc13315d55f6f7de6d094ac5/Unirest-${REALVERSION}.tar.gz"
-SOURCEFILE="Unirest-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

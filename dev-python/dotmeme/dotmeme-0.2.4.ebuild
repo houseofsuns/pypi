@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DotMeme"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to use .meme files"
 
 HOMEPAGE="https://gitlab.com/ire4ever1190/dotmeme"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/20/59c48059823a018ac89c69fc218fae3ddce33d4713c11555dd47f1a21bd9/DotMeme-${REALVERSION}.tar.gz"
-SOURCEFILE="DotMeme-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

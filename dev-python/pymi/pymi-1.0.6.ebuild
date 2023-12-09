@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Windows Management Infrastructure API for Python."
 
 HOMEPAGE="https://github.com/cloudbase/PyMI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/43/31/427b4bf5f5fee18ec180f934cc5da9a5d30a95684debb7c7a9b2d3abcbbb/PyMI-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Camelot"
 REALVERSION="13.04.13-gpl-pyqt"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python GUI framework on top of Sqlalchemy and Qt, inspired by the
 
 HOMEPAGE="http://www.python-camelot.com"
 LICENSE="GPL, Commercial"
-SRC_URI="https://files.pythonhosted.org/packages/b2/65/b3b7adc6a56541eb4fd211dc9811670a8fc7e3a45bd7e6ff6147ebb37458/Camelot-${REALVERSION}.tar.gz"
-SOURCEFILE="Camelot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

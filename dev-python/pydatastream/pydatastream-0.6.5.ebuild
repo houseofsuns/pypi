@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDatastream"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python interface to the Refinitiv Datastream (former Thomson Reuter
 
 HOMEPAGE="http://github.com/vfilimonov/pydatastream"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a0/ec/2abd3badb273a85c738519ac5ef87e532211c0d9bdc83106a5cff04b2c69/PyDatastream-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDatastream-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyUpdater-S3-Plugin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Amazon S3 plugin for PyUpdater"
 
 HOMEPAGE="https://github.com/DigitalSapphire/PyUpdater-s3-Plugin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/cb/5a81829741829cf268b9cf9c1fc1dbb1831b11af49afa1644c6bf6486c7a/PyUpdater-S3-Plugin-${REALVERSION}.tar.gz"
-SOURCEFILE="PyUpdater-S3-Plugin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

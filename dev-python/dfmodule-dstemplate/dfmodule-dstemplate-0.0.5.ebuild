@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="dfmodule-DSTemplate"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="dfmodule for DE -> DS code transition"
 
 HOMEPAGE="https://github.com/Data-Flower/dfmodule_DSTemplate"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6a/91/c5216d1222a11f69bdda5ca849337180761e6b7b2afe68d360a86b911f9a/dfmodule_DSTemplate-${REALVERSION}.tar.gz"
-SOURCEFILE="dfmodule_DSTemplate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

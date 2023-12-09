@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Cornifer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An easy-to-use data manager for experimental mathematics."
 
 HOMEPAGE="https://github.com/automorphis/cornifer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cb/99/3fab5e01019e062dc601c56906be9281d8469cd49022a1f7cf9d89c2de4a/Cornifer-${REALVERSION}.tar.gz"
-SOURCEFILE="Cornifer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

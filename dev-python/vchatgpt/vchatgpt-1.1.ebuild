@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="vChatGPT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Verbal ChatGPT"
 
 HOMEPAGE="https://github.com/ywatanabe1989/vChatGPT"
 LICENSE="GPL3.0"
-SRC_URI="https://files.pythonhosted.org/packages/99/ab/7a1e21c6658a22c79e4c00466aed30f68b2a6ccc5ba45c7c2aa1c1f87326/vChatGPT-${REALVERSION}.tar.gz"
-SOURCEFILE="vChatGPT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

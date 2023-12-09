@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="fastBPE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="C++ implementation of Neural Machine Translation of Rare Words with
 
 HOMEPAGE="https://github.com/glample/fastBPE"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/37/f97181428a5d151501b90b2cebedf97c81b034ace753606a3cda5ad4e6e2/fastBPE-${REALVERSION}.tar.gz"
-SOURCEFILE="fastBPE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

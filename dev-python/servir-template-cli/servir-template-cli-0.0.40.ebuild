@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SERVIR-Template-CLI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Installer for the SERVIR App Template"
 
 HOMEPAGE="https://github.com/SERVIR/SERVIR_Template_CLI"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/c2/9da2a1b1e4367877cb0f6c429e925bea6babff1f28cea2bdd730d2d80cce/SERVIR_Template_CLI-${REALVERSION}.tar.gz"
-SOURCEFILE="SERVIR_Template_CLI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

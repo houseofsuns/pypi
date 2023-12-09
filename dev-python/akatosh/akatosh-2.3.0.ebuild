@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Akatosh"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple implement for discrete events simulation."
 
 HOMEPAGE="https://github.com/ulfaric/Akatosh"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/13/68/0620262bb89428b3626e3a4c2d8c7e38493fed7d5001d05ba085fc304021/Akatosh-${REALVERSION}.tar.gz"
-SOURCEFILE="Akatosh-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

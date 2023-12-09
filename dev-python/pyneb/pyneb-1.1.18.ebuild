@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyNeb"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Nebular tools"
 
 HOMEPAGE="http://www.iac.es/proyecto/PyNeb/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/08/66/c01e42f5882649f691544546643767b0bcca7e67a7fd62763129afbf399c/PyNeb-${REALVERSION}.tar.gz"
-SOURCEFILE="PyNeb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

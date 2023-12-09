@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SimpleCV"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Make Computers See with SimpleCV, the Python Framework for Machine 
 
 HOMEPAGE="http://simplecv.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/04/8e/503df6f56d6ab2e7cf9e006015ca6ef8b6d1cff9f4691e6edc1636f1ff24/SimpleCV-${REALVERSION}.tar.gz"
-SOURCEFILE="SimpleCV-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

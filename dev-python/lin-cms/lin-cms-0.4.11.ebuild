@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Lin-CMS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple and practical CMS implememted by flask"
 
 HOMEPAGE="https://pypi.org/project/Lin-CMS/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/01/ec20a500c24ff72f1a507a8baade80944a01be250125e07790618340a216/Lin-CMS-${REALVERSION}.tar.gz"
-SOURCEFILE="Lin-CMS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

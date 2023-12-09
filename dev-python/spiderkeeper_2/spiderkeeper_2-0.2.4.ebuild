@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="spiderkeeper-2"
+LITERALNAME="SpiderKeeper-2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Admin ui for spider service"
 
 HOMEPAGE="https://github.com/kalombos/SpiderKeeper/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f7/4e/b9e1543febf218e46d51a436ff192c7acccf9ab66fc076d263701cbacc7d/SpiderKeeper-2-${REALVERSION}.tar.gz"
-SOURCEFILE="SpiderKeeper-2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

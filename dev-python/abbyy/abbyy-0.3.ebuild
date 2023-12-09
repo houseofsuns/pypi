@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ABBYY"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ABBYY Cloud OCR API Wrapper."
 
 HOMEPAGE="https://github.com/samueltc/ABBYY"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/bf/31/dc5f85d693d956c8c471c52289d66df8717732bc60f21c7471b6f3d49455/ABBYY-${REALVERSION}.tar.gz"
-SOURCEFILE="ABBYY-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

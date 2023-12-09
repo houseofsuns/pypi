@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Shiboken"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Shiboken generates bindings for C++ libraries using CPython source 
 
 HOMEPAGE="http://www.pyside.org"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/3a/b5/e89449be343044fc1ddfc52f321c0b06988466272209c8de9b44cd10cf7b/Shiboken-${REALVERSION}.tar.gz"
-SOURCEFILE="Shiboken-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyChatGPTLoop"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Added backtracking chat on the basis of [terry3041/pyChatGPT]"
 
 HOMEPAGE="https://github.com/nek0us/pyChatGPTLoop"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/3f/2987732ab499efbb9fd41c05799549e321cc3d2101b78133237111b0bf52/pyChatGPTLoop-${REALVERSION}.tar.gz"
-SOURCEFILE="pyChatGPTLoop-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

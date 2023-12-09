@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pato-man"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pac-man with ducks"
 
 HOMEPAGE="https://github.com/AbraaoCF/Pato-man"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/b7/d811fbc7330c30dabd103d39edc1d4086887bf95fa61c9c55b731a05b9c8/Pato-man-${REALVERSION}.tar.gz"
-SOURCEFILE="Pato-man-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

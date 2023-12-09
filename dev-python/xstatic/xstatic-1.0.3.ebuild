@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="XStatic base package with minimal support code"
 
 HOMEPAGE="https://github.com/xstatic-py/xstatic"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/dd/e448da90f0e72a30546cda9b193893ea2907e7d3a702655c2c3b80c3b97f/XStatic-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

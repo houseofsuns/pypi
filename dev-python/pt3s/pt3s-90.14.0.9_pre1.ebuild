@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PT3S"
 REALVERSION="90.14.0.9.dev1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Tools 3S"
 
 HOMEPAGE="https://github.com/aw3s/PT3S"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/64/17/6a4eb38dfa9e2b0ca74c71fe6731ed16519ee59d58fb39716862a1d50f37/PT3S-${REALVERSION}.tar.gz"
-SOURCEFILE="PT3S-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

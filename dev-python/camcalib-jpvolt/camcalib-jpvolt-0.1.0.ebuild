@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CamCalib-jpvolt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Opencv based camera calibration lib for stereo vision"
 
 HOMEPAGE="https://github.com/jpvolt/CameraCalibration"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/01/a8/8ca2f05f07057589363e15f8e22a047cffb62980ab92a4e0f37beeff8b07/CamCalib-jpvolt-${REALVERSION}.tar.gz"
-SOURCEFILE="CamCalib-jpvolt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

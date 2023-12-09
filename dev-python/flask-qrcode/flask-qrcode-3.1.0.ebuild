@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-QRcode"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A concise Flask extension to render QR codes on Jinja2 templates us
 
 HOMEPAGE="https://github.com/marcoagner/Flask-QRcode"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/6f/2a/69e9ec20a6215ec5ea0c8346f65cd249537e3e72ce34414be61d39f9b83c/Flask-QRcode-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-QRcode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

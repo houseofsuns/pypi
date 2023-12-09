@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Orange3-Associate"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Orange add-on for mining frequent itemsets and association rules."
 
 HOMEPAGE="https://github.com/biolab/orange3-associate"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3d/78/4ec5f189302dfbd31f31c87ed24b4dadcf9064c8aa244d63dbd091218b0b/Orange3-Associate-${REALVERSION}.tar.gz"
-SOURCEFILE="Orange3-Associate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

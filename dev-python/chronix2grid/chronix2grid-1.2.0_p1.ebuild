@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Chronix2Grid"
 REALVERSION="1.2.0.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python package to generate \"en-masse\" chronics for loads and pr
 
 HOMEPAGE="https://github.com/BDonnot/ChroniX2Grid"
 LICENSE="Mozilla Public License 2.0 MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/62/33/48d85d3a9d0e884751212b19a814c69fd8e856414bc211870daed0117f41/Chronix2Grid-${REALVERSION}.tar.gz"
-SOURCEFILE="Chronix2Grid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

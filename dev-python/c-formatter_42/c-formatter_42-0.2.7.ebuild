@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="c-formatter-42"
+LITERALNAME="c-formatter-42"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

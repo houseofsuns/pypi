@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WazeRouteCalculator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Calculate actual route time and distance with waze api."
 
 HOMEPAGE="https://github.com/kovacsbalu/WazeRouteCalculator"
 LICENSE="GNU GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/6e/0c/17b8920d834a144e978d742fe800bf0134acbea6fcf84ce6661b943601cd/WazeRouteCalculator-${REALVERSION}.tar.gz"
-SOURCEFILE="WazeRouteCalculator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

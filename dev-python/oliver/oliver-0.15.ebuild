@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OLIVER"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Convenience functions for interacting with the OLIVER workspace"
 
 HOMEPAGE="https://msu.edu/~tessmero/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9a/4e/4aa44c6742bdb28ce8f00d4cebd6f3bbee2b2cbad6669f2cb122192a4102/OLIVER-${REALVERSION}.zip"
-SOURCEFILE="OLIVER-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

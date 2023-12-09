@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FlowKit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flow Cytometry Toolkit"
 
 HOMEPAGE="https://github.com/whitews/flowkit"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/eb/26/65a22954c5ae4bbbb4fe350a6b3e9a7f1149b833c83f1f9593f9f2229f6a/FlowKit-${REALVERSION}.tar.gz"
-SOURCEFILE="FlowKit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

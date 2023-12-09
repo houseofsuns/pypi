@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Appengine-Fixture-Loader"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Appengine fixture loader"
 
 HOMEPAGE="http://github.com/rbanffy/appengine-fixture-loader/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/93/0a/051f49a34d0d5fc7f514d79a218fa35d4c0e7c19ffb9cd6c21a2a2c869dd/Appengine-Fixture-Loader-${REALVERSION}.tar.gz"
-SOURCEFILE="Appengine-Fixture-Loader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

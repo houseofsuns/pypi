@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MPD-sima"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automagically add titles to MPD playlist"
 
 HOMEPAGE="https://kaliko.me/mpd-sima"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a0/8e/cca196479ae71a71e91ca6500c0daae2a01d07ae00d7b56d490c9889993f/MPD_sima-${REALVERSION}.tar.gz"
-SOURCEFILE="MPD_sima-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SlaterPythonGames"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An updated version of rygames, a collection of games written in Pyt
 
 HOMEPAGE="https://github.com/rjslater2000/SlaterPythonGames"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/50/a5/ad6fcbe38e23b08788fdb78beeb6b3db3b20d2d8839774923738e803932a/SlaterPythonGames-${REALVERSION}.tar.gz"
-SOURCEFILE="SlaterPythonGames-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

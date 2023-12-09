@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CaseInsensitiveDict"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Case insensitive dictionary"
 
 HOMEPAGE="https://github.com/tivvit/python-case-insensitive-dict"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d1/cd/656bd67b2a942d3ac9f6e9d0c345d2a6a40538d11a286ca738be45d34b2c/CaseInsensitiveDict-${REALVERSION}.tar.gz"
-SOURCEFILE="CaseInsensitiveDict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

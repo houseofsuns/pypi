@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BuildNotify"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Cruise Control build monitor for Windows/Linux/Mac"
 
 HOMEPAGE="https://anaynayak.github.io/buildnotify/"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/dd/df/fa3435c0be6529a5b352f9b2c641edd3a927835ae8a63c7e1835097c6641/BuildNotify-${REALVERSION}.tar.gz"
-SOURCEFILE="BuildNotify-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

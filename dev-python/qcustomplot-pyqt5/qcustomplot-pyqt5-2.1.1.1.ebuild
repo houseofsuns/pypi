@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QCustomPlot-PyQt5"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="QCustomPlot is a Qt widget for plotting and data visualization"
 
 HOMEPAGE="https://github.com/salsergey/QCustomPlot-PyQt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/13/ac81714f64edf49ccab1b824ffcc696c304a488fcd41852422962d547a9e/QCustomPlot_PyQt5-${REALVERSION}.tar.gz"
-SOURCEFILE="QCustomPlot_PyQt5-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

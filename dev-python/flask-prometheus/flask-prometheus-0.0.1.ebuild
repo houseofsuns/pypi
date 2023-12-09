@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Prometheus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Prometheus client instrumentation for flask. See http://github.com/
 
 HOMEPAGE="http://github.com/sbarratt/flask-prometheus"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/39/bf/4f2a15a433a163b47962609f10dc433661a3bdf0632775c2815509076be2/Flask-Prometheus-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Prometheus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

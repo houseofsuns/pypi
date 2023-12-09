@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CryptoDataHub"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Repository of cryptography-related data"
 
 HOMEPAGE="https://gitlab.com/coroner/cryptodatahub"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2f/fd/fb6084f9f30ab9fefd093fb36da4c332c17d5fe6264e978ffd288ff0cb5f/CryptoDataHub-${REALVERSION}.tar.gz"
-SOURCEFILE="CryptoDataHub-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

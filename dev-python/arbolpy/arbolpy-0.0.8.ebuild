@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ARBOLpy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="python implementation of ARBOL scRNAseq iterative tiered clustering
 
 HOMEPAGE="https://github.com/jo-m-lab/ARBOLpy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/84/1b/c869d4782137222dc124109f33633705b7de546d3bb230fd21e3330e7cc1/ARBOLpy-${REALVERSION}.tar.gz"
-SOURCEFILE="ARBOLpy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="persistQueue"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A implementation of Class for Persist Queue"
 
 HOMEPAGE="http://re91877z@10.55.200.102:7990/scm/edge/lib-persist-queue.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/f0/bb81ca7dc632b3aa51dbaf17dd27747c0a9e6af1831991ba629c3985adc1/persistQueue-${REALVERSION}.tar.gz"
-SOURCEFILE="persistQueue-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

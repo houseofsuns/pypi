@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="hypixelaPY"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An API wrapper for the Hypixel API"
 
 HOMEPAGE="https://github.com/myerfire/hypixelaPY"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1d/e5/874568e3ca7d43d25872447fb5b333985b4e7bf8274f6f711f8f5e7a718c/hypixelaPY-${REALVERSION}.tar.gz"
-SOURCEFILE="hypixelaPY-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Babel-JS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension to add Flask-Babel translations in JS"
 
 HOMEPAGE="https://github.com/emdemir/Flask-Babel-JS/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4b/7d/9fc194b876519642373d8226b28d606d8c79e4a289455b97bcdaa8d9088d/Flask-Babel-JS-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Babel-JS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

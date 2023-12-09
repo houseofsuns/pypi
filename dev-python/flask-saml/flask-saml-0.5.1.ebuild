@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-SAML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask SAML integration"
 
 HOMEPAGE="https://bitbucket.org/asecurityteam/flask_saml"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/e8/64b23b9e4ae6e0ee408b14cdf8e5bdb70f28b8c54e68bbd63449c681d98d/Flask-SAML-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-SAML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

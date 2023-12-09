@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Dockets"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SUPER simple Redis-backed queueing in Python"
 
 HOMEPAGE="http://github.com/gamechanger/dockets"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c4/4b/8def6830282551894a8d45cc7061684609d0a8c6296b562bd6d34e90af8a/Dockets-${REALVERSION}.tar.gz"
-SOURCEFILE="Dockets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

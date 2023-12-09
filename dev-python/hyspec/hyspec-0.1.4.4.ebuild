@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HySpec"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A GUI-based toolbox for hyperspectral image and library viewing, de
 
 HOMEPAGE="https://github.com/wbasener/HySpec"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/20/e4556d88c2c7232a5828336eedb98adfd636135e16efbd0610197a354103/HySpec-${REALVERSION}.tar.gz"
-SOURCEFILE="HySpec-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

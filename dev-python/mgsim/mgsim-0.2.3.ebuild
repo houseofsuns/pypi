@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MGSIM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Metagenome simulation of multiple synthetic communities"
 
 HOMEPAGE="https://github.com/nick-youngblut/MGSIM"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/64/c3/2e8aee0c13b1041317ff19e8b29f676e655c1b3edbb0414b0531728a32d1/MGSIM-${REALVERSION}.tar.gz"
-SOURCEFILE="MGSIM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

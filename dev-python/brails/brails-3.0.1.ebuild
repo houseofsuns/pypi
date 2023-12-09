@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BRAILS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Building Recognition Using AI at Large-Scale"
 
 HOMEPAGE="https://github.com/NHERI-SimCenter/BRAILS"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/f8/0c/9f3c76990a0ab965337435f2b2d57d202d880a5731b6f54eb477a28c5b87/BRAILS-${REALVERSION}.tar.gz"
-SOURCEFILE="BRAILS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PLAN-Tools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A set of tools to help with Pip Links And Nonsense"
 
 HOMEPAGE="https://github.com/Myoldmopar/PlanTools"
 LICENSE="ModifiedBSD"
-SRC_URI="https://files.pythonhosted.org/packages/b2/26/c2eee71e5ee3b95148c98ff161ee32f979aea0ff238766576b323235e891/PLAN-Tools-${REALVERSION}.tar.gz"
-SOURCEFILE="PLAN-Tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

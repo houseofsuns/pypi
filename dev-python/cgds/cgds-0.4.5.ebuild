@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CGDs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adaptive Competitive Gradient Descent optimizer"
 
 HOMEPAGE="https://github.com/devzhk/cgds-package"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6d/fa/205d7e1cc4753513b68958853e656721e05539713001578541dafc82379f/CGDs-${REALVERSION}.tar.gz"
-SOURCEFILE="CGDs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

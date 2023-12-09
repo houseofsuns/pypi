@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Phidgets"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Wrapper library for the Phidgets API"
 
 HOMEPAGE="http://www.phidgets.com"
 LICENSE="Creative Commons Attribution 2.5 Canada License"
-SRC_URI="https://files.pythonhosted.org/packages/7b/e5/b6a2986f385c2f059b713202d7ad12f53555036817da85068fc9c4f97588/Phidgets-${REALVERSION}.tar.gz"
-SOURCEFILE="Phidgets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

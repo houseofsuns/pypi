@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyPtt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyPtt"
 
 HOMEPAGE="https://github.com/PyPtt/PyPtt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/38/9eac6efcb0415d0f5f5ec768ba8adee4cd0d2d9ec13d2a00318ac77a7baa/PyPtt-${REALVERSION}.tar.gz"
-SOURCEFILE="PyPtt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Shakersynth"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bass shaker synthesizer for DCS World."
 
 HOMEPAGE="https://github.com/jarpy/shakersynth"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/1f/875bb77201cafa42f2e2232d9ad8ae00a5fcbecce20a0452e6ebc71032ea/Shakersynth-${REALVERSION}.tar.gz"
-SOURCEFILE="Shakersynth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

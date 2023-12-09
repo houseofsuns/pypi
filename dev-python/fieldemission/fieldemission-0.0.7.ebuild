@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FieldEmission"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Field Emission Data Postprocessing and Data Provider"
 
 HOMEPAGE="https://github.com/Dephrilibrium/PythonFieldEmission"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4d/15/10a257b0149dab21d195160d8b9e28974103906a3d5f53cc050d37482f09/FieldEmission-${REALVERSION}.tar.gz"
-SOURCEFILE="FieldEmission-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

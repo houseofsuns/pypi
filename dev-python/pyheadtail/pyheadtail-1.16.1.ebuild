@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyHEADTAIL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CERN PyHEADTAIL numerical n-body simulation code for simulating mac
 
 HOMEPAGE="https://github.com/PyCOMPLETE/PyHEADTAIL"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/9f/5458dc75c80b3e74d67cd94184c80e45881fd6219c497f77268693f2a77e/PyHEADTAIL-${REALVERSION}.tar.gz"
-SOURCEFILE="PyHEADTAIL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyOnlineSpreadsheetEditing"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="python Online SpreadSheet Editing tool with configurable enhancer/i
 
 HOMEPAGE="http://wiki.bitplan.com/index.php/pyOnlineSpreadsheetEditing"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4c/55/51a3709316adfa7d88e788c84163439d9952542342d35f96ebc343527e5c/pyOnlineSpreadsheetEditing-${REALVERSION}.tar.gz"
-SOURCEFILE="pyOnlineSpreadsheetEditing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IntuneCD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tool to backup and update configurations in Intune"
 
 HOMEPAGE="https://github.com/almenscorner/IntuneCD"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/94/78dd431d49a62d362ed322e1ed9aa0c4190b3271af56cb6e31396dba0a6f/IntuneCD-${REALVERSION}.tar.gz"
-SOURCEFILE="IntuneCD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

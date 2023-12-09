@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TXM-Sandbox"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Integrated Spectro-Imaging Analysis Toolbox"
 
 HOMEPAGE="https://github.com/xianghuix/TXM_Sandbox"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cf/0c/fdd4329bfcf6527b1acea5223be4a83410d08ffba8d7776c30eab4f9c774/TXM_Sandbox-${REALVERSION}.tar.gz"
-SOURCEFILE="TXM_Sandbox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

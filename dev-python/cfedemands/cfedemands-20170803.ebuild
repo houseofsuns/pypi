@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CFEDemands"
 REALVERSION="0.1.4.2dev"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for estimating and computing Constant Frisch Elasticity (CFE)
 
 HOMEPAGE="https://bitbucket.org/ligonresearch/cfedemands"
 LICENSE="Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International license"
-SRC_URI="https://files.pythonhosted.org/packages/f7/bc/8d0f9bf65953c8a80e8aa686579cb9933233ad9b408b015b89e5611bae5b/CFEDemands-${REALVERSION}.tar.gz"
-SOURCEFILE="CFEDemands-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

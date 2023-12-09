@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SSIM-PIL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Comparison of two images using the structural similarity algorithm 
 
 HOMEPAGE="https://github.com/ChsHub/SSIM-PIL"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/c3/5538bdb2654005bc162d4fdf49c21de11fb03d317077d21c885d950febbc/SSIM-PIL-${REALVERSION}.tar.gz"
-SOURCEFILE="SSIM-PIL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

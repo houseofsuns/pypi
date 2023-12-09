@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Runner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple command runner"
 
 HOMEPAGE="https://github.com/mfalesni/Run"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/9c/85/c1156bb4f23c1d584fd6d3c9aa2e6711f4bb627bbc95c0c2cf6be0586594/Runner-${REALVERSION}.tar.gz"
-SOURCEFILE="Runner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

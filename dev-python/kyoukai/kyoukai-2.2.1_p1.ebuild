@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kyoukai"
 REALVERSION="2.2.1.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A fast, asynchronous web framework for Python 3.5+"
 
 HOMEPAGE="https://mirai.veriny.tf"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6f/58/5f1724e5ce5dabecc821c135fef0c5a47b536372c75fc140a3ecf00c529a/Kyoukai-${REALVERSION}.tar.gz"
-SOURCEFILE="Kyoukai-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

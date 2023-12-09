@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ParamUnittest"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple extension to have parametrized unit tests."
 
 HOMEPAGE="https://github.com/rik0/ParamUnittest"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/60/b7/b775b4ce23ca303c7a41ab9a3ed303ba85d10d89b41524daa07619073fc6/ParamUnittest-${REALVERSION}.zip"
-SOURCEFILE="ParamUnittest-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

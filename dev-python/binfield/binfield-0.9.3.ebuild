@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BinField"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python BinField implementation for binary data manipulation"
 
 HOMEPAGE="https://github.com/penguinolog/binfield"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cf/8e/1090f5117025c24dedbb0eb3f1f59bba8e3bc493a7e19105daa10f30bc99/BinField-${REALVERSION}.tar.gz"
-SOURCEFILE="BinField-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

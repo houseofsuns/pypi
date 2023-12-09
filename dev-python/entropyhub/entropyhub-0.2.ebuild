@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EntropyHub"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An open-source toolkit for entropic time series analysis."
 
 HOMEPAGE="https://www.EntropyHub.xyz"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/18/6e/1cddd5d2902ba1092a40449f5ef9068b159336649d9cb5ebec1fd5dc77e4/EntropyHub-${REALVERSION}.tar.gz"
-SOURCEFILE="EntropyHub-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

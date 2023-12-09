@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DynamicNestedField"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DynamicNestedField is a set of tools used to perform dynamic nested
 
 HOMEPAGE="https://github.com/NAMEER242/DynamicNestedField"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a1/7a/5139c1d8ef066dce3c9108d73cd5b65716d5f01e49ed5c45dcddd409ecfb/DynamicNestedField-${REALVERSION}.tar.gz"
-SOURCEFILE="DynamicNestedField-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

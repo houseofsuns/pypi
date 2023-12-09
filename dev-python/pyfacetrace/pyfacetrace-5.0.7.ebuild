@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyFaceTrace"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="easy Face Recognition for python"
 
 HOMEPAGE="https://pypi.org/project/pyFaceTrace"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/4a/4b7a5afd2a9705e140d8737879b3f266ef8fa440ba653b2884efcf3315a8/pyFaceTrace-${REALVERSION}.tar.gz"
-SOURCEFILE="pyFaceTrace-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

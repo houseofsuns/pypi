@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GvGen"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate clear Graphviz Graphs which can be edited manually later o
 
 HOMEPAGE="http://www.github.com/stricaud/gvgen/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/59/bf1fee74afaa055ae999d899369eb3278b55e3503be281a2f2cdf8ae6824/GvGen-${REALVERSION}.tar.gz"
-SOURCEFILE="GvGen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

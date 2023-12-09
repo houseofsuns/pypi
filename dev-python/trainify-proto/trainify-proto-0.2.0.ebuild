@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Trainify-proto"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Trainify-proto"
 
 HOMEPAGE="https://github.com/jieye-ericx/Trainify-proto"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c0/b2/8d1a00d4c7c0a1f9901673a2408f594ddd5898ab8e4ebf2e03f6282c22f7/Trainify-proto-${REALVERSION}.tar.gz"
-SOURCEFILE="Trainify-proto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

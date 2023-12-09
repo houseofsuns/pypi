@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyC8"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python SDK for Macrometa Global Data Mesh"
 
 HOMEPAGE="https://www.macrometa.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/5d/1183b0b839d580588100afd876763f784a8d7b13dd04194662d636f8b3b7/pyC8-${REALVERSION}.tar.gz"
-SOURCEFILE="pyC8-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

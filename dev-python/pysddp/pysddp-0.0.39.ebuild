@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySDDP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PySDDP package"
 
 HOMEPAGE="https://github.com/AndreMarcato/PySDDP"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/0d/352a005883d337ec5a3709227625525a0cd81b9912e03c551de2e469b283/PySDDP-${REALVERSION}.tar.gz"
-SOURCEFILE="PySDDP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

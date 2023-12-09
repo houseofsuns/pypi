@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="diGraph"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="For plotting DiGraphs"
 
 HOMEPAGE="https://github.com/francisp336/diGraph"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/04/71/317009ff77e5ab0848e45a8b6d19cdb19c005e9284bd507528e7479ccba1/diGraph-${REALVERSION}.tar.gz"
-SOURCEFILE="diGraph-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

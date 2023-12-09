@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-CDN"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Serve the static files in your Flask app from a CDN."
 
 HOMEPAGE="https://libwilliam.github.io/flask-cdn/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/7a/e5ef42142abd9e5c9785c74210510dea38d5587f42803c5029db7415dcd6/Flask-CDN-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-CDN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

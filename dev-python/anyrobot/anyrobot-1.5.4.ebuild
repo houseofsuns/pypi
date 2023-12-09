@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AnyRobot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This is a data service module that solves test data problems."
 
 HOMEPAGE="https://mp.weixin.qq.com/s/v6FS96ifCoMvp_rwrhzhKw"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/33/4c/e9ba2c2d190ec2c080b87d176ab7f2b4fcd55b2afa6457d45a928fffe834/AnyRobot-${REALVERSION}.tar.gz"
-SOURCEFILE="AnyRobot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

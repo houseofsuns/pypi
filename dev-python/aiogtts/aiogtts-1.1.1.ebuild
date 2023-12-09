@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="aiogTTS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library to interface with Google Translate text-to-speech 
 
 HOMEPAGE="https://github.com/Helow19274/aiogTTS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/86/05/ecc208a30258eccf5d2d45df078130b375ca9838307c51a1748889c1b28b/aiogTTS-${REALVERSION}.tar.gz"
-SOURCEFILE="aiogTTS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

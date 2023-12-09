@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="fp-NGFW-SMC-python"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python based API to Forcepoint NGFW Management Center"
 
 HOMEPAGE="http://github.com/Forcepoint/fp-NGFW-SMC-python"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/65/40/900d93b223c947d2b4c615cf26d1b3e2b48b96303b4a02c56d846824dea4/fp-NGFW-SMC-python-${REALVERSION}.tar.gz"
-SOURCEFILE="fp-NGFW-SMC-python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

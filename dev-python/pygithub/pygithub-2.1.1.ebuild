@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyGithub"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Use the full Github API v3"
 
 HOMEPAGE="https://github.com/pygithub/pygithub"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e2/bc/b9a3c3d6870d1e216fa8c79cf6d183a2da3df1bdcb7823c79cd2a6faa6b6/PyGithub-${REALVERSION}.tar.gz"
-SOURCEFILE="PyGithub-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

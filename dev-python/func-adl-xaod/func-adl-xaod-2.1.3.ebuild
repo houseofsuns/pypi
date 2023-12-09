@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="func-adl-xAOD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Functional Analysis Description Language backend for accessing ATLA
 
 HOMEPAGE="https://github.com/iris-hep/func_adl_xAOD"
 LICENSE="TBD"
-SRC_URI="https://files.pythonhosted.org/packages/47/f9/554834a68b15d332439264c96203469876ead16ad7bd7eed8304ad873696/func_adl_xAOD-${REALVERSION}.tar.gz"
-SOURCEFILE="func_adl_xAOD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OctoPrint-Nanny"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Get notified when defects are detected in your print."
 
 HOMEPAGE="https://github.com/bitsy-ai/octoprint-nanny-plugin"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/5d/ca/b2f19e80dd58aa80e36a92b14524644cad287aaeb0c93c841c1f6a5928f0/OctoPrint-Nanny-${REALVERSION}.tar.gz"
-SOURCEFILE="OctoPrint-Nanny-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

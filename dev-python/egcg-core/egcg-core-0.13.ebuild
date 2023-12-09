@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EGCG-Core"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Shared functionality across EGCG projects"
 
 HOMEPAGE="https://github.com/EdinburghGenomics/EGCG-Core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/c6/fbe3420e487e44e8376cc0a995de98cc5f6c98121598c038d6c3347bdd33/EGCG-Core-${REALVERSION}.tar.gz"
-SOURCEFILE="EGCG-Core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SCRIdb"
 REALVERSION="1.2.11a4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A platform to handle sequencing data submission and initiation of p
 
 HOMEPAGE="https://github.com/dpeerlab/SCRI_db.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1d/f8/4db058ae0faf22b67273116d4fc5314afc9823a95f00cfddb8f06decdeb7/SCRIdb-${REALVERSION}.tar.gz"
-SOURCEFILE="SCRIdb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

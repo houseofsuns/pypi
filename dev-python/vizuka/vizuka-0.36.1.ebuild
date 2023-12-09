@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Vizuka"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Represents your high-dimensional datas in a 2D space and play with 
 
 HOMEPAGE=""
 LICENSE="GPL V3"
-SRC_URI="https://files.pythonhosted.org/packages/e2/9b/ea2a75e914c7b2b6641ffa4248d50ccc9b7250f4c52fa74e605c31b27a2f/Vizuka-${REALVERSION}.tar.gz"
-SOURCEFILE="Vizuka-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

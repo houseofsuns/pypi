@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DOE2-SIM-Parser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/grammy-jiang/doe2-sim-parser"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/db/69/c386c806c4caf38556abdb96c84c3612b9ff71129e6647301dcec6eac9ef/DOE2-SIM-Parser-${REALVERSION}.tar.gz"
-SOURCEFILE="DOE2-SIM-Parser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

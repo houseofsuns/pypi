@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Rahimcalc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Student pass or fail package"
 
 HOMEPAGE="https://pypi.org/user/AbdurRahim2003/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/35/0b/ae5833e785c02cf84ac12270f1cf1fbf3297a7a4c2e347654a52952aa002/Rahimcalc-${REALVERSION}.tar.gz"
-SOURCEFILE="Rahimcalc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Maat"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Validate like a Maat"
 
 HOMEPAGE="https://github.com/Attumm/Maat"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/88/dc/c872762a87a6e97b5d6bc8b015cf43334e7d66b3f2e37b9ca4a59c3c3c11/Maat-${REALVERSION}.tar.gz"
-SOURCEFILE="Maat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HMpTy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate Hierarchical Triangular Mesh (HTM) IDs, crossmatch sets of
 
 HOMEPAGE="https://github.com/thespacedoctor/HMpTy"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/7a/b3/b386673dd8b0eb45ee1998c11801f2411b26d5615c07ef9cf2817e686591/HMpTy-${REALVERSION}.tar.gz"
-SOURCEFILE="HMpTy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

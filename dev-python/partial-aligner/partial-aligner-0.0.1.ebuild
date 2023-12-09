@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Partial-Aligner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A napari plugin for manual registration of (a part of) an image"
 
 HOMEPAGE="https://github.com/DKFZ-TMTRR/Partial-Aligner"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1a/cd/903a9ec86e5e6ac08ad7e40f9b1e7ee74f0f6c47d66effd04bad318ecfef/Partial-Aligner-${REALVERSION}.tar.gz"
-SOURCEFILE="Partial-Aligner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

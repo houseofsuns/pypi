@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DXC-Industrialized-AI-Starter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library which is extensively used for all AI projects"
 
 HOMEPAGE="https://github.com/dxc-technology/DXC-Industrialized-AI-Starter"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f4/0b/4f7fa3428c36e4db8cd3613198ad1d0f18e484c1810b9648c0eff0948359/DXC-Industrialized-AI-Starter-${REALVERSION}.tar.gz"
-SOURCEFILE="DXC-Industrialized-AI-Starter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

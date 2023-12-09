@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Chrones"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Software development tool to visualize runtime statistics about you
 
 HOMEPAGE="https://github.com/jacquev6/Chrones"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f4/11/52a70cf6a10255e01c2d4bc54d83cae265593d62a2d721ea8eaa2aea9f89/Chrones-${REALVERSION}.tar.gz"
-SOURCEFILE="Chrones-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

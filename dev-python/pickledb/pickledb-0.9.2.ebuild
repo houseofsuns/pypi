@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pickleDB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A lightweight and simple database using json."
 
 HOMEPAGE="http://github.com/patx/pickledb"
 LICENSE="three-clause BSD"
-SRC_URI="https://files.pythonhosted.org/packages/29/7f/ae7a32f125c6165941ed5c547bff7e6fbd385658fc6e490c2ee73c78c4c2/pickleDB-${REALVERSION}.tar.gz"
-SOURCEFILE="pickleDB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

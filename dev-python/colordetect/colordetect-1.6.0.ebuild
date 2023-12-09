@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ColorDetect"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Detect and recognize colors in images or video"
 
 HOMEPAGE="https://github.com/MarvinKweyu/ColorDetect"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/81/2f/a1991ed616b951f306bf9eedbf8e5b811650de76438f375084314be095e0/ColorDetect-${REALVERSION}.tar.gz"
-SOURCEFILE="ColorDetect-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

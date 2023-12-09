@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="evilHunter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Cracking WiFi(KCRACK)"
 
 HOMEPAGE="https://github.com/an0mal1a/evilHunter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/80/751ef4a880548d0b0126b7fdfb178db30f77e2dbca785c8bbb6857dc379a/evilHunter-${REALVERSION}.tar.gz"
-SOURCEFILE="evilHunter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

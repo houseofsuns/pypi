@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Record"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Special Record objects used in Zope."
 
 HOMEPAGE="https://github.com/zopefoundation/Record"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/ff/39/e52dd2f3131cb3bb07187c1a928f40e4c16e87ad4caa58274d8fa4863580/Record-${REALVERSION}.tar.gz"
-SOURCEFILE="Record-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

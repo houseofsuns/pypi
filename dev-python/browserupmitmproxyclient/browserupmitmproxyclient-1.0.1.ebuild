@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BrowserUpMitmProxyClient"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BrowserUp MitmProxy"
 
 HOMEPAGE="https://github.com/browserup/mitmproxy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/64/67/326aad72625c97b162bd954626653a5efa81e4a2d34e1d666a285b30e8a0/BrowserUpMitmProxyClient-${REALVERSION}.tar.gz"
-SOURCEFILE="BrowserUpMitmProxyClient-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

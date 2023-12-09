@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EcanAlloUsageTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Functions to process and analyse ECan allocation and usage data"
 
 HOMEPAGE="https://github.com/mullenkamp/EcanAlloUsageTools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b5/b2/ae22c0fbf42f886da63cfc4050a19b42db6faa7b9b1a3b3f04207679eaf7/EcanAlloUsageTools-${REALVERSION}.tar.gz"
-SOURCEFILE="EcanAlloUsageTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

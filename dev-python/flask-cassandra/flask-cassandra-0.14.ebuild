@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Cassandra"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Provides a connection to a Cassandra cluster in a Flask app"
 
 HOMEPAGE="http://terbiumlabs.com/flask-cassandra/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/32/58/5db63631ba2fe8b3fd31794f29b939eda4f21ceeaaa6e8cd64dd623da847/Flask-Cassandra-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Cassandra-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

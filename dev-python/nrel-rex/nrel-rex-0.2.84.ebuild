@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NREL-rex"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="National Renewable Energy Laboratory's (NREL's) REsource eXtraction
 
 HOMEPAGE="https://nrel.github.io/rex/"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/cd/47/98c46c7d85af5b183e62ec49ad5c953bbc892219962e67d194d4b9a7ad5d/NREL-rex-${REALVERSION}.tar.gz"
-SOURCEFILE="NREL-rex-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

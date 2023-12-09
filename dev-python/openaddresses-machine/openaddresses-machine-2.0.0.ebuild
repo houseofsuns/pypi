@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenAddresses-Machine"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="In-progress scripts for running OpenAddresses on a complete data se
 
 HOMEPAGE="https://github.com/openaddresses/machine"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/e2/f0/3dae855e54e487d83215c41c86fc6c704d9956bc3fdf2b0c5bb0e29fdb8a/OpenAddresses-Machine-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenAddresses-Machine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

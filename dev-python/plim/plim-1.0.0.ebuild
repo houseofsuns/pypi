@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Plim"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Plim is a Python port of Ruby's Slim template language built on top
 
 HOMEPAGE="https://github.com/avanov/Plim"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/df/7b53b2f8d3bb4b40058026bf92030e825540d9700919ab153d7783ec162c/Plim-${REALVERSION}.tar.gz"
-SOURCEFILE="Plim-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

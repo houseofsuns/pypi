@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BaseDT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BaseDT is a data-processing  tool including data, dataset, io and p
 
 HOMEPAGE="https://github.com/OpenXLab-Edu/OpenMMLab-Edu"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/50/b1/73fd192cf81c496dde4f72804ef811aeee75de63df2763cd14b75aa92c60/BaseDT-${REALVERSION}.tar.gz"
-SOURCEFILE="BaseDT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

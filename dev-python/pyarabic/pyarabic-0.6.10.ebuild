@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyArabic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Arabic text tools for Python"
 
 HOMEPAGE="http://pyarabic.sourceforge.net/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7b/e2/46728ec2f6fe14970de5c782346609f0636262c0941228f363710903aaa1/PyArabic-${REALVERSION}.tar.gz"
-SOURCEFILE="PyArabic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

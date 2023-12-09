@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SMART-BS-Seq"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Specific Methylation Analysis and Report Tool 2"
 
 HOMEPAGE="http://fame.edbc.org/smart/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/36/35/37242e8ed531c71c045e21fe00a3a652b6d691e7ae57bb331efb88f8f33a/SMART-BS-Seq-${REALVERSION}.tar.gz"
-SOURCEFILE="SMART-BS-Seq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

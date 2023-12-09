@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QuadraticElement"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="命令行项目"
 
 HOMEPAGE="https://codechina.csdn.net/qq_53280175/quadraticelement"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/33/4e/3f44a9aee2f76c2e4798fe00df15a8fd900cc4046de5004a66d9b29a133f/QuadraticElement-${REALVERSION}.tar.gz"
-SOURCEFILE="QuadraticElement-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

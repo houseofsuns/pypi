@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MadQt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tutorials and Tools for PySide"
 
 HOMEPAGE="https://github.com/MadPonyInteractive/MadQt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/a6/113538c4b15277005d578bc0b265097ae621af2d4b668b549dd62837e1d7/MadQt-${REALVERSION}.tar.gz"
-SOURCEFILE="MadQt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

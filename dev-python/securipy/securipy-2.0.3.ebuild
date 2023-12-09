@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SecuriPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Encrypter and Decrypter of all types of human-readable file formats
 
 HOMEPAGE="https://pypi.org/project/SecuriPy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8d/ed/f59fb62f6237551779a4a5d5075fc8c8017649c9f8c31f33674943326133/SecuriPy-${REALVERSION}.tar.gz"
-SOURCEFILE="SecuriPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

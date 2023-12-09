@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EnvBert"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Predicts classes of environmental due diligence"
 
 HOMEPAGE="https://github.com/dreji18/environmental-due-diligence"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/20/e09832b5ac66aa60d65b8368654786aee5b7bfb2f0d4bb962e74c3c14daf/EnvBert-${REALVERSION}.tar.gz"
-SOURCEFILE="EnvBert-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PythonStarterPackage"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python starter package, a template for creating your own python pac
 
 HOMEPAGE="https://github.com/MysticTechnology/PythonStarterPackage"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/7e/3432341d6ba50a6983992e5625a8e50d2e84d6faab3bce781e5b3e38c143/PythonStarterPackage-${REALVERSION}.tar.gz"
-SOURCEFILE="PythonStarterPackage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

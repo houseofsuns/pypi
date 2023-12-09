@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LIFEsim"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simulator software for the Large Interferometer For Exoplanets (LIF
 
 HOMEPAGE="https://github.com/fdannert/LIFEsim"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c5/21/0bc702fa28df8b23679fadb0ddcbaed3d62977f7fb2d8e9203af65722861/LIFEsim-${REALVERSION}.tar.gz"
-SOURCEFILE="LIFEsim-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

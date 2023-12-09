@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AGEpy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bioinformatics tools for Python developed at the MPI for Biology of
 
 HOMEPAGE="https://github.com/mpg-age-bioinformatics/AGEpy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/24/e0/d571604b1e9d10be51dcee965852cec57a7f44d9b03c18c2ea18bf446756/AGEpy-${REALVERSION}.tar.gz"
-SOURCEFILE="AGEpy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TUIFIManager"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A cross-platform terminal-based termux-oriented file manager."
 
 HOMEPAGE="https://github.com/GiorgosXou/TUIFIManager"
 LICENSE="General Public License v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/be/e5/d60992d27d3023f7c41011cf92c714efec0a90bd30b6a6ad5d3e7c6a6b6b/TUIFIManager-${REALVERSION}.tar.gz"
-SOURCEFILE="TUIFIManager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

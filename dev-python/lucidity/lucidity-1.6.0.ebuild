@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Lucidity"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Filesystem templating and management."
 
 HOMEPAGE="https://gitlab.com/4degrees/lucidity"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/33/87/fb019211e06e0cd2e5f15713333c3ea9f84c72f7f2397264c7c28189ebfb/Lucidity-${REALVERSION}.tar.gz"
-SOURCEFILE="Lucidity-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

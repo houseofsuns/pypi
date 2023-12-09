@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Python-CartolaFC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Uma interface em Python para a API Rest do Cartola FC"
 
 HOMEPAGE="https://github.com/vicenteneto/python-cartolafc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/61/08/f4ab9b4ab2afc6fa12ade1e28be9e9c82bdd859fc89f42298e01c1e91d4f/Python-CartolaFC-${REALVERSION}.tar.gz"
-SOURCEFILE="Python-CartolaFC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IRonPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="IRon Package"
 
 HOMEPAGE="https://github.com/berreergun/IRonPy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/73/c7f603c20c2ea4185b02a625cff5c447ec217b3c5a13bc71bdc5d791040e/IRonPy-${REALVERSION}.tar.gz"
-SOURCEFILE="IRonPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

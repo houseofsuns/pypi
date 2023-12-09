@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PythonDNS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python-based DNS Interception and Proxy"
 
 HOMEPAGE="https://github.com/endail/PythonDNS"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/50/8ecad722869629cd3bf7af6bf370ad4153144e1426a232976b2c41ae2116/PythonDNS-${REALVERSION}.tar.gz"
-SOURCEFILE="PythonDNS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

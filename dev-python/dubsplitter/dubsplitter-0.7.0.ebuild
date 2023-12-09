@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DubSplitter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="an easy tool to split dubs based on given silence"
 
 HOMEPAGE="https://github.com/defisym/HibiscusAVGEngine/tree/main/Utilities/DubSplitter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/8e/9bdc9eed9ba9e87708de448e84b89ef1199cea8617dc3eaad58ee1e3a9fa/DubSplitter-${REALVERSION}.tar.gz"
-SOURCEFILE="DubSplitter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

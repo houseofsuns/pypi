@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FoKL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Karhunen Loève decomposed Gaussian processes with forward variable
 
 HOMEPAGE="https://github.com/derek-slack/FokLPackage"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/e3/3940090610bca56cdead79dab0447ebedf1529d12903e3ca9a73e12218e6/FoKL-${REALVERSION}.tar.gz"
-SOURCEFILE="FoKL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="APOExptime"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Exposure time calculator for Apache point observatory"
 
 HOMEPAGE="https://github.com/APOExposureTimeCalculator/APOExptime"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a2/d0/1393aadecb35b7adfd8cc75e00b4c8b33f2001c22943e89c066f8fa1b974/APOExptime-${REALVERSION}.tar.gz"
-SOURCEFILE="APOExptime-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

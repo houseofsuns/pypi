@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ForceAtlas2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The ForceAtlas2 algorithm for Python (and NetworkX)"
 
 HOMEPAGE="https://code.launchpad.net/forceatlas2-python"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/17/40/1966ff5370616809a400085c2e782c0b5f93ed838e437eb2371bc3033414/ForceAtlas2-${REALVERSION}.tar.gz"
-SOURCEFILE="ForceAtlas2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

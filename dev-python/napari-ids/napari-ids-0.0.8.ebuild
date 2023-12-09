@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="napari-IDS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Plug in which enables to take photo with IDS uEye camera"
 
 HOMEPAGE="https://github.com/tcotte/napari-IDS"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5f/e8/227ad4671cfd4db25d6598973a5328c30b87703a0c83a25f3a666e4e640a/napari_IDS-${REALVERSION}.tar.gz"
-SOURCEFILE="napari_IDS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

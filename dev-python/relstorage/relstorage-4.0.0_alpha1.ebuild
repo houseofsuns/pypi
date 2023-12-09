@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RelStorage"
 REALVERSION="4.0.0a1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A backend for ZODB that stores pickles in a relational database."
 
 HOMEPAGE="https://relstorage.readthedocs.io/"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/43/20/79e388c7c6c953695c96d9d8e70829462ede05f6e25885cb938b344162d8/RelStorage-${REALVERSION}.tar.gz"
-SOURCEFILE="RelStorage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

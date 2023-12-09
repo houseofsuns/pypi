@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Tangly"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This package lets you display lists in form of tables!"
 
 HOMEPAGE="https://github.com/rrayes3110/Tangly-Tables"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1d/e6/ee277fcec13baa1c4405811c069fae0e56a3856b9eb3383e9a0d724e5870/Tangly-${REALVERSION}.tar.gz"
-SOURCEFILE="Tangly-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

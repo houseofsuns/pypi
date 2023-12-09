@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MinificationWebHelpers"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CSS and Javascript Minification/Combination Upgrade to WebHelpers"
 
 HOMEPAGE="http://docs.fubar.si/minwebhelpers/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/08/92/5648d24810624f85e6900a707dfd12b637c7695954c6d786e6fb321fc914/MinificationWebHelpers-${REALVERSION}.zip"
-SOURCEFILE="MinificationWebHelpers-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

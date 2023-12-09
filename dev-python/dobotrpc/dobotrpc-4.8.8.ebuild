@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DobotRPC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Dobotlink communication module"
 
 HOMEPAGE=""
 LICENSE="Apache Licence"
-SRC_URI="https://files.pythonhosted.org/packages/b5/6c/5f865cf8eb4fe555f9c59e8f593dc136570036d70fee3f89fc122615cd98/DobotRPC-${REALVERSION}.tar.gz"
-SOURCEFILE="DobotRPC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

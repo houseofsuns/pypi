@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyArweave"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tiny Arweave Library"
 
 HOMEPAGE="https://github.com/xloem/pyarweave"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/25/a13337c5ca2c6d773400bb8dfd76ea91a7bd4c3a9e21a4ee18b9a983f1f6/PyArweave-${REALVERSION}.tar.gz"
-SOURCEFILE="PyArweave-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

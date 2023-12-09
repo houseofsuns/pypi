@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WavinSentioModbus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python API for interfacing with Wavin CCU-208"
 
 HOMEPAGE="https://github.com/wavingroup/WavinSentioModbus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/7d/d2a969e2424f6945d4da455bdf8d8b4bbccc72fb56b67982937eb2ac5722/WavinSentioModbus-${REALVERSION}.tar.gz"
-SOURCEFILE="WavinSentioModbus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

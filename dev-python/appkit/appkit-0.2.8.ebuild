@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AppKit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Desktop application framework based on Webkit HTML5, CSS3, Javascri
 
 HOMEPAGE="http://nitipit.github.com/appkit/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/93/5d77e3cccb45a065e9853869af66cf9b09353f51c629cfe040d094620866/AppKit-${REALVERSION}.tar.gz"
-SOURCEFILE="AppKit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

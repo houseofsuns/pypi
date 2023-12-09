@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TestRunner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="generate a report in Chinese"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/a7/77/fafa43c4638dffecde01b34aed518886b630840b210da313beb66d414483/TestRunner-${REALVERSION}.zip"
-SOURCEFILE="TestRunner-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

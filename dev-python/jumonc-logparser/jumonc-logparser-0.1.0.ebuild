@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JuMonC-LogParser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LogParser plugin for JuMonC"
 
 HOMEPAGE="https://gitlab.jsc.fz-juelich.de/coec/jumonc-logparser"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/d9/03/3eb85ccb7b1188bca729b69fb285f6f89cbae05d236acb46bbdcbd3db5fa/JuMonC-LogParser-${REALVERSION}.tar.gz"
-SOURCEFILE="JuMonC-LogParser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyTujian"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simlpe tool for Tujian"
 
 HOMEPAGE="https://github.com/gggxbbb/tujian_python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d3/e9/2e77fa619c7ef4607f84183a09b7a45a5e658cd80747d533ac9f80e62c10/PyTujian-${REALVERSION}.tar.gz"
-SOURCEFILE="PyTujian-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

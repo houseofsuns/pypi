@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EarthMC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Provides data on people, places and more on the EarthMC Minecraft s
 
 HOMEPAGE="https://github.com/EarthMC-Toolkit/EarthMC-Py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/10/aef036dbc304086411a28cdfb5f71a7fa6df9f94b1611e3e1c7c9f32ebc9/EarthMC-${REALVERSION}.tar.gz"
-SOURCEFILE="EarthMC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mopidy-Lagukan"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mopidy extension for Lagukan"
 
 HOMEPAGE="https://github.com/jacobobryant/mopidy-lagukan"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b5/11/0be4d465b28759e7550a0deb6888c1dcce9a97dc8a37125ebb75d0a5c5df/Mopidy-Lagukan-${REALVERSION}.tar.gz"
-SOURCEFILE="Mopidy-Lagukan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

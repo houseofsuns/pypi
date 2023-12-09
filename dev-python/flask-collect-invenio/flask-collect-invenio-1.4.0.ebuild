@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Collect-Invenio"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask-Collect-Invenio -- Collect static files in Flask application"
 
 HOMEPAGE="http://github.com/inveniosoftware/Flask-Collect-Invenio"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1d/ef/1b253332bd27ddb4152f7702e7c91b5d9048086edd1930c7a3ed97af56cf/Flask-Collect-Invenio-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Collect-Invenio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Voice-Cloning"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Introducing Voice_Cloning: A Python Package for Speech Synthesis an
 
 HOMEPAGE="https://github.com/dreji18/Voice_Cloning"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/37/efcc5e39c43b0356a1b49abff12fd91e6bc4fcca2db0460a9ffc8e06ac5a/Voice-Cloning-${REALVERSION}.tar.gz"
-SOURCEFILE="Voice-Cloning-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

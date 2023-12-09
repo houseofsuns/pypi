@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NbRisk"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NIST 800-30 Risk Management for Netbox"
 
 HOMEPAGE="https://github.com/renatoalmeidaoliveira/nbrisk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/d6/68e61a48d5744c211c4a95aeb76ec13b233b568abb0dfc47ede2d519192f/NbRisk-${REALVERSION}.tar.gz"
-SOURCEFILE="NbRisk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

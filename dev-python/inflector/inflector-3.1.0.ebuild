@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Inflector"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Inflector for Python"
 
 HOMEPAGE="https://github.com/ixmatus/inflector"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/e0/090bd9a38e6c61d0e3cc7475c20a61c809517a3287abf3afdfb930d6cf8f/Inflector-${REALVERSION}.tar.gz"
-SOURCEFILE="Inflector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

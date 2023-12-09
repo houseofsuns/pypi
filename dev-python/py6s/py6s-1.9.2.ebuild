@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Py6S"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A wrapper for the 6S Radiative Transfer Model to make it easy to ru
 
 HOMEPAGE="http://py6s.rtwilson.com/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/6e/47/d1931df56bb48f6982574f56b8589c0c43291ce06baa1118dbb979d1d57d/Py6S-${REALVERSION}.tar.gz"
-SOURCEFILE="Py6S-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

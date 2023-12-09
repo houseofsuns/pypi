@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-uWSGI-WebSocket"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="High-performance WebSockets for your Flask apps powered by uWSGI."
 
 HOMEPAGE="https://github.com/zeekay/flask_uwsgi_websocket"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d1/66/934d86fb7411e63e0eaae6432a28d11ac82bdbe59cbebfe3efca56661421/Flask-uWSGI-WebSocket-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-uWSGI-WebSocket-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

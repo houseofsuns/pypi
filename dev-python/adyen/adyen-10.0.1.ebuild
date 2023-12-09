@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Adyen"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adyen Python Api"
 
 HOMEPAGE="https://github.com/Adyen/adyen-python-api-library"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/00/29f3d8a3d4ac7314d6c119b3d064a12bf8e51056f9d778f83ad33f81f8dd/Adyen-${REALVERSION}.tar.gz"
-SOURCEFILE="Adyen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

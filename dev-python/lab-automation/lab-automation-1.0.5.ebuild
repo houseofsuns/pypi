@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Lab-Automation"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lab Automation Project"
 
 HOMEPAGE="https://github.com/rakhejabhai/Assembler.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/1a/c93aa3ddcee96ddb47d094ddab8ffebddd39405621435eaaa5cf4596634c/Lab-Automation-${REALVERSION}.tar.gz"
-SOURCEFILE="Lab-Automation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

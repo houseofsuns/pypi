@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WSDiscovery"
 REALVERSION="2.0.2.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="WS-Discovery implementation for python"
 
 HOMEPAGE="https://github.com/andreikop/python-ws-discovery.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/0b/dc354d0293efe42ae3cd7dcc815b1a16bd875cd0726a472ae44c1ac91fc6/WSDiscovery-${REALVERSION}.tar.gz"
-SOURCEFILE="WSDiscovery-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ArangoPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Driver for ArangoDB"
 
 HOMEPAGE="https://github.com/saeschdivara/ArangoPy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/69/959abc087284b3fbad3cb5ec83d0fbb1555b118b1d580b9331071bb11497/ArangoPy-${REALVERSION}.tar.gz"
-SOURCEFILE="ArangoPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

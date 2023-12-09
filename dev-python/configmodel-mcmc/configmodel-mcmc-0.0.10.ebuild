@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ConfigModel-MCMC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tool for sampling networks from the Configuration model"
 
 HOMEPAGE="https://arxiv.org/abs/2105.12120"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/36/3f/66f3b29bcc66463e071135fc932eb1df1f6de615efc1fed04c6681b7f0d7/ConfigModel_MCMC-${REALVERSION}.tar.gz"
-SOURCEFILE="ConfigModel_MCMC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

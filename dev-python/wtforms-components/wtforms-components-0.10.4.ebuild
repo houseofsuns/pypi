@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WTForms-Components"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Additional fields, validators and widgets for WTForms."
 
 HOMEPAGE="https://github.com/kvesteri/wtforms-components"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/22/19/7075cb32afc09962f8871bacc55214040dae06f0a7870033f7ceba0a9490/WTForms-Components-${REALVERSION}.tar.gz"
-SOURCEFILE="WTForms-Components-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

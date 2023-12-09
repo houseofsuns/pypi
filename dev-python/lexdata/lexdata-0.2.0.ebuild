@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LexData"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tiny package for editing Lexemes on Wikidata"
 
 HOMEPAGE="https://github.com/Nudin/LexData"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/04/868e9da226b89abb65462c6c81f678f8cc75535159d132e6a98d198cefe4/LexData-${REALVERSION}.tar.gz"
-SOURCEFILE="LexData-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="napari-J"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A plugin to exchange data with FIJI and to use FIJI image analysis 
 
 HOMEPAGE="https://github.com/MontpellierRessourcesImagerie/napari-J"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/a1/57a23f5bd592b6804eef359b07d718f0156f59454ab56858dc6c550dba33/napari-J-${REALVERSION}.tar.gz"
-SOURCEFILE="napari-J-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

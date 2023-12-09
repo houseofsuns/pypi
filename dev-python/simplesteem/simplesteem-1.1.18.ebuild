@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SimpleSteem"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="http://github.com/artolabs/simplesteem"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5b/12/a216958bd0d61a765a81e3d47c58c3dde5fcad23a1e2cb9a8d6133df6c3e/SimpleSteem-${REALVERSION}.tar.gz"
-SOURCEFILE="SimpleSteem-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

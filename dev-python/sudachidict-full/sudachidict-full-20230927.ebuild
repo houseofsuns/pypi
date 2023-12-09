@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SudachiDict-full"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Sudachi Dictionary for SudachiPy - Full Edition"
 
 HOMEPAGE="https://github.com/WorksApplications/SudachiDict"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1f/5e/381dbeb8be384eab928211c73251975b146247af9e467b502f52b5982e3c/SudachiDict-full-${REALVERSION}.tar.gz"
-SOURCEFILE="SudachiDict-full-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

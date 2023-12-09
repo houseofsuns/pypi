@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="beCoditive"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The official pip package for beCoditive API."
 
 HOMEPAGE="https://github.com/becoditive/becoditive-pip"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/07/d5d443cb6bf77a1340720fb679f27bba0534897bf41417e898eef9d82dc6/beCoditive-${REALVERSION}.tar.gz"
-SOURCEFILE="beCoditive-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

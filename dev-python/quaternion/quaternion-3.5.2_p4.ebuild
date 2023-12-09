@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Quaternion"
 REALVERSION="3.5.2.post4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Quaternion object manipulation"
 
 HOMEPAGE="https://sot.github.io/Quaternion"
 LICENSE="New BSD/3-clause BSD License. Copyright c 2016 Smithsonian Astrophysical Observatory. All rights reserved."
-SRC_URI="https://files.pythonhosted.org/packages/98/e1/c68205f26b056927a3bd3d7d4e31d40da71176579c9af3b1bf1f1861e21c/Quaternion-${REALVERSION}.tar.gz"
-SOURCEFILE="Quaternion-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OutputCheck"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tool for checking the output of console programs inspired by LLVM
 
 HOMEPAGE="https://github.com/stp/OutputCheck"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/a9/50/f3c7210c2bb2236373432d8cba34b7f67d8071bf03cb2f4cf16022d86dda/OutputCheck-${REALVERSION}.tar.gz"
-SOURCEFILE="OutputCheck-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

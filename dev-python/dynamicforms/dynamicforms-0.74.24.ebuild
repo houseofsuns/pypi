@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DynamicForms"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DynamicForms performs all the visualisation & data entry of your DR
 
 HOMEPAGE="https://github.com/velis74/DynamicForms"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1a/ba/dbd10175e22797174610580a627fe3d19d989a20c5a3ab0c5fa4c6571ac4/DynamicForms-${REALVERSION}.tar.gz"
-SOURCEFILE="DynamicForms-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

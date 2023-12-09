@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ADLES"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automated Deployment of Lab Environments System (ADLES)"
 
 HOMEPAGE="https://github.com/GhostofGoes/ADLES"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/dd/cb/8b763af04de84aceead651d2ed95d5018478e1c55935943f25ee4823018f/ADLES-${REALVERSION}.tar.gz"
-SOURCEFILE="ADLES-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

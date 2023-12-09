@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CouchDB2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="C"
 
 HOMEPAGE="https://github.com/pekrau/CouchDB2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/c0/aad8f6be8b2ebd71e95454296aa2390d6beb81d5f7a0bc4b3804509f3278/CouchDB2-${REALVERSION}.tar.gz"
-SOURCEFILE="CouchDB2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

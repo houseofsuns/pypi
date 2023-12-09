@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Unlock"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Client for the Unlock web services"
 
 HOMEPAGE="http://unlock.edina.ac.uk/api.html"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/67/3a/05cbf0f985d74528924dd803294f36df50bcaf8467eb045b9b92eb6d7630/Unlock-${REALVERSION}.tar.gz"
-SOURCEFILE="Unlock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

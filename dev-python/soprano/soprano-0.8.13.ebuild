@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Soprano"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library to crack crystals"
 
 HOMEPAGE="https://ccp-nc.github.io/soprano/"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/3f/0a/34aecc18fc93f50a279c1200398e50bdb900969d4230b5ed6dfa25240115/Soprano-${REALVERSION}.tar.gz"
-SOURCEFILE="Soprano-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

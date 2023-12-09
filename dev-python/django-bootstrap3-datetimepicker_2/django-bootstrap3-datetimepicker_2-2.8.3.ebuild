@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="django-bootstrap3-datetimepicker-2"
+LITERALNAME="django-bootstrap3-datetimepicker-2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

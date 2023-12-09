@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="radianceQuantifier"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automatically crops mice and quantifies their tumor luminescences f
 
 HOMEPAGE="https://github.com/soorajachar/radianceQuantifier"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/71/d1/e7aa5b7d21890720e2a88e89642f02ba9a96eec1cede823fa4fd9109322d/radianceQuantifier-${REALVERSION}.tar.gz"
-SOURCEFILE="radianceQuantifier-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

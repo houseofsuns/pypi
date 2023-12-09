@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyVimeo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple interaction with the Vimeo API."
 
 HOMEPAGE="https://developer.vimeo.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7a/6f/ba14edae35818a1a5edec216e48a7506f88343118af0a5ccb26265723c0c/PyVimeo-${REALVERSION}.tar.gz"
-SOURCEFILE="PyVimeo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SSAP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="tonylab"
 
 HOMEPAGE="https://github.com/QinYu211/SSAP"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/79/15/b013c77a11c715853b3d27be4cd84dcb673e557241c56311d69cc7e40e5b/SSAP-${REALVERSION}.tar.gz"
-SOURCEFILE="SSAP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

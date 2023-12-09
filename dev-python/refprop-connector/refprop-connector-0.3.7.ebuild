@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="REFPROP-connector"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for launching REFPROP calculation and retrieving results from
 
 HOMEPAGE="https://www.dief.unifi.it/vp-177-serg-group-english-version.html"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/47/e7/9fa826e693f4c0b310b9605779b8ec40eea9db1bb7d03e600e2af61b0016/REFPROP_connector-${REALVERSION}.tar.gz"
-SOURCEFILE="REFPROP_connector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

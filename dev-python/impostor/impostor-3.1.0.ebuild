@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Impostor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Staff can login as a different user."
 
 HOMEPAGE="https://github.com/avallbona/Impostor/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5b/c2/ed924a986131a78bd5352b15f4e3792c8e6eeae31db80aada7d76d939ad4/Impostor-${REALVERSION}.tar.gz"
-SOURCEFILE="Impostor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

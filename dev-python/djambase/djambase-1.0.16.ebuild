@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DjamBase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Thin JamBase API Client library for Django/Python Applications."
 
 HOMEPAGE="https://pypi.python.org/pypi/DjamBase"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/22/4e/02a3f0994709df4c33401bd3dcd9845fb87f10b4c710f0a4e3592f2271f8/DjamBase-${REALVERSION}.tar.gz"
-SOURCEFILE="DjamBase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XTCryptoSignals"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Platform that collects cryptocurrencies price data, fires alerts ba
 
 HOMEPAGE="https://xtcryptosignals.com"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/84/b3/6aac6735f71b6c7995cc7d5edf5ebf0011cc981bb292e68e90adfdf1cee9/XTCryptoSignals-${REALVERSION}.tar.gz"
-SOURCEFILE="XTCryptoSignals-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

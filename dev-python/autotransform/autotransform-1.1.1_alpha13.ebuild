@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AutoTransform"
 REALVERSION="1.1.1a13"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A component based framework for designing automated code modificati
 
 HOMEPAGE="https://github.com/nathro/AutoTransform"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6b/13/7360e4a7e8cd7d114a4ef2f8611e67a58b7db3ae0d16d2371f15eafb1769/AutoTransform-${REALVERSION}.tar.gz"
-SOURCEFILE="AutoTransform-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

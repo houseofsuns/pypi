@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ArgParseInator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Decorators and wrapper for easily define script's arguments within 
 
 HOMEPAGE="https://github.com/ellethee/argparseinator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/80/7a5a271a094ca5cfb66822c83a6adb6abbd1436b96f6cf3f29b4011f696e/ArgParseInator-${REALVERSION}.tar.gz"
-SOURCEFILE="ArgParseInator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

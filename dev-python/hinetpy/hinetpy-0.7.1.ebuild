@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HinetPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python package to request and process seismic waveform data from 
 
 HOMEPAGE="https://github.com/seisman/HinetPy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/06/2297a1781c39d8de8f4f7502088340bc46c34e42e2e157d94b3f4477144e/HinetPy-${REALVERSION}.tar.gz"
-SOURCEFILE="HinetPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

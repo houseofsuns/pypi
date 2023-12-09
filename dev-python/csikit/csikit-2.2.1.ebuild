@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CSIKit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for extracting Channel State Information from files produced 
 
 HOMEPAGE="https://github.com/Gi-z/CSIKit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e8/5d/d9cfb32d84f18614f69f32ba8188227e4356e13675eb278a301a474a3aa6/CSIKit-${REALVERSION}.tar.gz"
-SOURCEFILE="CSIKit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

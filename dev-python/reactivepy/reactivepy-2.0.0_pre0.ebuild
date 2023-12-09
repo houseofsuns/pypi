@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ReactivePy"
 REALVERSION="2.0.0.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Reactive properties and owners for Python classes."
 
 HOMEPAGE="https://github.com/Dan6erbond/ReactivePy"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/56/e5/1421d7530933ecfeeba9aa79a12aa90379dbee2f4514058dbf7a1c89490b/ReactivePy-${REALVERSION}.tar.gz"
-SOURCEFILE="ReactivePy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

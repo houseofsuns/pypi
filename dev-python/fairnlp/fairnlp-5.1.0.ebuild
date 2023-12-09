@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FairNLP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FairNLP (Natural Language Processing) Library."
 
 HOMEPAGE="https://github.com/chazzcoin/FAIR"
 LICENSE="BSD 2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/ba/0f/2f6d8ed6d6313fb593e0fc408e75a6788b9ec5895bc787248493fab29d85/FairNLP-${REALVERSION}.tar.gz"
-SOURCEFILE="FairNLP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

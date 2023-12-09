@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GraphRicciCurvature"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Compute discrete Ricci curvatures and Ricci flow on NetworkX graphs
 
 HOMEPAGE="https://github.com/saibalmars/GraphRicciCurvature"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/70/6a/57a10107a146545c9e9cbf6dfb1f05489c9b691618001ff91159a3864a8c/GraphRicciCurvature-${REALVERSION}.tar.gz"
-SOURCEFILE="GraphRicciCurvature-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

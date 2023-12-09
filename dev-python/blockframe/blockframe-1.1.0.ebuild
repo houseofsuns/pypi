@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BlockFrame"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="File Chunking Library to work as a data-store solution alongside we
 
 HOMEPAGE="https://github.com/Wizock/BlockFrame/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/9c/a6780c12ae363262895ee2e27d1242f27233409d0ced937af0176e500bcb/BlockFrame-${REALVERSION}.tar.gz"
-SOURCEFILE="BlockFrame-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

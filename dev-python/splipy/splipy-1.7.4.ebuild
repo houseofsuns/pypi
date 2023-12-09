@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Splipy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Spline modelling library for Python"
 
 HOMEPAGE="https://github.com/sintefmath/Splipy"
 LICENSE="GNU public license v3"
-SRC_URI="https://files.pythonhosted.org/packages/05/fe/bfc7035dabcc7fd124d36aaa0100aab5e86f0d89073f7e9898e8b535df39/Splipy-${REALVERSION}.tar.gz"
-SOURCEFILE="Splipy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

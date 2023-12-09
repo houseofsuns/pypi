@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySimpleGUI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI i
 
 HOMEPAGE="https://github.com/PySimpleGUI/PySimpleGUI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8f/21/afa5178096672ef7a36c6d98255e8c489313cd640679b9eefefde41a2986/PySimpleGUI-${REALVERSION}.tar.gz"
-SOURCEFILE="PySimpleGUI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

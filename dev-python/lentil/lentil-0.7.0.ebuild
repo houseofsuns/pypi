@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Lentil"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Heart-healthy physical optics"
 
 HOMEPAGE="https://lentil.readthedocs.io"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e5/82/d3a2ca17888c7eeaa262549673974dc6ad9b5b5b0d952047b1189dca7f5e/Lentil-${REALVERSION}.tar.gz"
-SOURCEFILE="Lentil-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

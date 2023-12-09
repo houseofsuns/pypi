@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ParmEd"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Inter-package toolkit for molecular mechanical simulations"
 
 HOMEPAGE="https://parmed.github.io/ParmEd/html/index.html"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/5b/48/d94bf10284cac3daaecdeaa856fcdb5def06c5187d8c0431266b8805ff9d/ParmEd-${REALVERSION}.tar.gz"
-SOURCEFILE="ParmEd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

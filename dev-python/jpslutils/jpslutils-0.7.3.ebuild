@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JPSLUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Utilities for Jupyter Physical Science Lab project"
 
 HOMEPAGE="https://github.com/JupyterPhysSciLab/JPSLUtils"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/6b/8b/d30afb8bfd0da859af08c9f682d459ad3bef325ce0c459af54054fe1cbcc/JPSLUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="JPSLUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PrintDebug"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A small debug printing module that prints extra info like filenames
 
 HOMEPAGE="http://pypi.python.org/pypi/PrintDebug/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/c5/e9/2e68cbd0a32e679f3b4ca00e2fe212e6cc994513b6f409eecae0427eb587/PrintDebug-${REALVERSION}.tar.gz"
-SOURCEFILE="PrintDebug-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

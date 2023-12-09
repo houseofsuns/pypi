@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Resiliparse"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A collection of robust and fast processing tools for parsing and an
 
 HOMEPAGE="https://resiliparse.chatnoir.eu"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/35/31/9ddd7e51b03f37d6b45ec60d984784e271aaffa64ef1e072fc046697e382/Resiliparse-${REALVERSION}.tar.gz"
-SOURCEFILE="Resiliparse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Wave"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Whole Architecture Verification"
 
 HOMEPAGE="http://packages.python.org/Wave/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/ef/34/bc43da20c1b9015a9500e4e016ad92b4187ee525e706d247e08e5e2af408/Wave-${REALVERSION}.zip"
-SOURCEFILE="Wave-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

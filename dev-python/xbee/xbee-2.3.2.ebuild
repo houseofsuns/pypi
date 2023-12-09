@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XBee"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python tools for working with XBee radios"
 
 HOMEPAGE="https://github.com/nioinnovation/python-xbee"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/6b/34a1a5a0c45c662f8ae033a0d077b0fcc45b3e0e71e0b17522b2861e0090/XBee-${REALVERSION}.tar.gz"
-SOURCEFILE="XBee-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Sessions"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds server-side session support to your Flask application"
 
 HOMEPAGE="https://github.com/jefurry/flask-sessions"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b3/cd/b10dbd50aba75944377a4b33003e18c3edb89537361ef4033e4d02ec8b8d/Flask-Sessions-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Sessions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

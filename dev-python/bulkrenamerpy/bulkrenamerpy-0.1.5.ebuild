@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BulkRenamerPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple tool to bulk rename files in a directory"
 
 HOMEPAGE="https://github.com/brunoanesio/bulk-rename"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/76/e1/f1ec6a69bd399d015802fc9cf3c926ce221044d7be25af81e85d266d1efb/BulkRenamerPy-${REALVERSION}.tar.gz"
-SOURCEFILE="BulkRenamerPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

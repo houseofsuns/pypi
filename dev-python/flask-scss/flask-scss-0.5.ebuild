@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Scss"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds support for scss files to Flask applications"
 
 HOMEPAGE="https://github.com/bcarlin/flask-scss"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/86/02783628ad726c77007ac22c1c51fab160a241215d8492c5ae8c27ec2943/Flask-Scss-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Scss-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

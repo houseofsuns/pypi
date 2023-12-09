@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PennyLane-Lightning-GPU"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PennyLane-Lightning plugin"
 
 HOMEPAGE="https://github.com/XanaduAI/pennylane-lightning"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/49/e4/1f020db2bb2934d0f705787ca9dd4c83eae38b2565e3d85c0eab43271c77/PennyLane_Lightning_GPU-${REALVERSION}.tar.gz"
-SOURCEFILE="PennyLane_Lightning_GPU-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

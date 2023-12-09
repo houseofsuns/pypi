@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CellProfiler"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/CellProfiler/CellProfiler"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ad/76/25bb376d2e46a4616b37e3b7b56238a6b9b90a5527e2c423973f78c7efcc/CellProfiler-${REALVERSION}.tar.gz"
-SOURCEFILE="CellProfiler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

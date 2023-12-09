@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MarkerMAG"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="linking MAGs with 16S rRNA marker genes"
 
 HOMEPAGE="https://pypi.org/project/MarkerMAG/"
 LICENSE="GPL3+"
-SRC_URI="https://files.pythonhosted.org/packages/a9/f2/c6bd35b7356bdd3dacdc2fd2a110b971247d35b0aa62fe93113b3f1e25d8/MarkerMAG-${REALVERSION}.tar.gz"
-SOURCEFILE="MarkerMAG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

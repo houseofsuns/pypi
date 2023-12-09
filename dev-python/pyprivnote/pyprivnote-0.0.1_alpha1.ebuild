@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyPrivnote"
 REALVERSION="0.0.1a1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python Interface to Privnote service"
 
 HOMEPAGE="https://github.com/intelligentguy/pyPrivnote"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/fe/63/43bf71ce0302248adac8845f511b93ecba3a4adef1b0d88c1e4341b6b09b/pyPrivnote-${REALVERSION}.tar.gz"
-SOURCEFILE="pyPrivnote-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

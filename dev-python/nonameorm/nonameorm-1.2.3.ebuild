@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NonameOrm"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Orm support asyncio and sync"
 
 HOMEPAGE="https://gitee.com/otonashi-4/python_async_orm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/b0/50655ccbb2e0cf481d4cdc2f9b330707f876694273129e9974083ea42b07/NonameOrm-${REALVERSION}.tar.gz"
-SOURCEFILE="NonameOrm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

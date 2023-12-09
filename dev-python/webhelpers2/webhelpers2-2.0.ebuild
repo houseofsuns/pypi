@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WebHelpers2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="WebHelpers2"
 
 HOMEPAGE="https://webhelpers2.readthedocs.org/en/latest/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/ff/30/56342c6ea522439e3662427c8d7b5e5b390dff4ff2dc92d8afcb8ab68b75/WebHelpers2-${REALVERSION}.tar.gz"
-SOURCEFILE="WebHelpers2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

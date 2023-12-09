@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Turbolinks"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Turbolinks for Flask."
 
 HOMEPAGE="https://github.com/lepture/flask-turbolinks"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4d/f3/e7b4ff1fa5c121e81480bf54dcfb8ce61ccab1153cc6d3a00c36f1e7d2a6/Flask-Turbolinks-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Turbolinks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-LoginManager"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask-Loginmanager supports multiple roles and permissions for Flas
 
 HOMEPAGE="https://github.com/AristotleJunior/flask-loginmanager"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/f6/bd1ed5e97f9ffa9593909f051abef2b5be7608220f91085910e693ab6b71/Flask-LoginManager-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-LoginManager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

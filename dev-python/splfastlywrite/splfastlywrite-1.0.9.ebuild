@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SpLFastlyWrite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SpLFastlyWrite"
 
 HOMEPAGE="https://github.com/ShutupKeshav/SpLFastlyWrite"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/0f/e479c8ed47b53541704898e4451ed0f45f481ec9fccb75274a3e9e188f7b/SpLFastlyWrite-${REALVERSION}.tar.gz"
-SOURCEFILE="SpLFastlyWrite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

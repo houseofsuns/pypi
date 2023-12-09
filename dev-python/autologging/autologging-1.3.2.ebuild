@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Autologging"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Autologging makes logging and tracing Python classes easy."
 
 HOMEPAGE="http://ninthtest.info/python-autologging/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/dd/2062256827437ba3584b94a595b024bdfab17523b36e4749f220f7b60ec5/Autologging-${REALVERSION}.zip"
-SOURCEFILE="Autologging-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

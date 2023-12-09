@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Galaxy-ML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Galaxy Machine Learning Library"
 
 HOMEPAGE="https://github.com/goeckslab/Galaxy-ML/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/f5/28fb10cf56cf8d84a9cc6cee355341b0dbe48ca924ccf6bc68714a89319a/Galaxy-ML-${REALVERSION}.tar.gz"
-SOURCEFILE="Galaxy-ML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

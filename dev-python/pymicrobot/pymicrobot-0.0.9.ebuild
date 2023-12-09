@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMicroBot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library to communicate with MicroBot"
 
 HOMEPAGE="https://github.com/spycle/pyMicroBot/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/47/1bdef27dd7b034e041b9e51bac03260e55f64e02d5569375b1c174f1591b/PyMicroBot-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMicroBot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

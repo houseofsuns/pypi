@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AsyncLine"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LINE Unofficial Python Library with Asyncio support and C++ Binding
 
 HOMEPAGE="https://github.com/dyseo/AsyncLine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/d1/b034cf44746a5730addce1d62156e1af2dc6d7e76d10fd35c41195b64503/AsyncLine-${REALVERSION}.tar.gz"
-SOURCEFILE="AsyncLine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

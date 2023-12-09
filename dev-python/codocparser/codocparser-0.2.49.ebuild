@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CoDocParser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="文档解析器"
 
 HOMEPAGE="https://www.cityocean.com"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/1b/1f/a1227329f61c3a4fe19f92ae940b5a6f21040592a46c6abeedf02f91937b/CoDocParser-${REALVERSION}.tar.gz"
-SOURCEFILE="CoDocParser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

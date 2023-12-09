@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Draugr"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for plotting directly in your terminal"
 
 HOMEPAGE="https://github.com/pything/draugr"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b1/4f/00a1d622dda9f4c3a6adc81f454d993dccbf5bb8a754b1da570767aea0c1/Draugr-${REALVERSION}.tar.gz"
-SOURCEFILE="Draugr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

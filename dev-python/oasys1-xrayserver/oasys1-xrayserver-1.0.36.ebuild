@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OASYS1-XRayServer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="X-Ray Server: Sergey Stepanov's X-Ray Server on OASYS"
 
 HOMEPAGE="https://github.com/oasys-kit/XRayServer"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f7/ce/dc6903c1d8faf6551d284a84c21b727a5c0ae66fef5a2459209fcc135347/OASYS1-XRayServer-${REALVERSION}.tar.gz"
-SOURCEFILE="OASYS1-XRayServer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

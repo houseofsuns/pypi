@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ANYstructure"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A plate field optimization tool for offshore structures calculated 
 
 HOMEPAGE="https://github.com/audunarn/ANYstructure"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/08/6f01a867ccb96462d89f8ce6dad7d4a89c1c368ef7b7d90f53278572bfb0/ANYstructure-${REALVERSION}.tar.gz"
-SOURCEFILE="ANYstructure-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

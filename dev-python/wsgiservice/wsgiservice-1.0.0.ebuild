@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WsgiService"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A lean WSGI framework for easy creation of REST services"
 
 HOMEPAGE="http://github.com/pneff/wsgiservice/tree/master"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/60/28/7bb56cb8e4f0ae3325cb01d1d9155fddeceede96f821c139e8b7aaa6aac9/WsgiService-${REALVERSION}.tar.gz"
-SOURCEFILE="WsgiService-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

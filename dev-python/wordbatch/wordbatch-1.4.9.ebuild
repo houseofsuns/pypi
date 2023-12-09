@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Wordbatch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library for distributed AI processing pipelines, using swapp
 
 HOMEPAGE="https://github.com/anttttti/Wordbatch"
 LICENSE="GNU GPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/34/e0/55744eea88af2ed10172e03d508d6de014344216388ac9da2ee06507b9d3/Wordbatch-${REALVERSION}.tar.gz"
-SOURCEFILE="Wordbatch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

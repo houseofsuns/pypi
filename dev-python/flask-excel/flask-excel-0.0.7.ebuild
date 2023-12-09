@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Excel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A flask extension that provides one application programming interfa
 
 HOMEPAGE="https://github.com/pyexcel/Flask-Excel"
 LICENSE="New BSD"
-SRC_URI="https://files.pythonhosted.org/packages/bf/02/afcb678eabba9bd17382b55dc021699aeea167ca936c9854464540d04665/Flask-Excel-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Excel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

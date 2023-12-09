@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Matador"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Change management for Agresso systems"
 
 HOMEPAGE="http://www.empiria.co.uk"
 LICENSE="The MIT License MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/9d/19141bb027620b6f79f2afcd165d39450d51b7154875fdb4900aa0bc192a/Matador-${REALVERSION}.tar.gz"
-SOURCEFILE="Matador-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

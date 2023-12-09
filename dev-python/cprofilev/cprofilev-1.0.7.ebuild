@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CProfileV"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An easier way to use cProfile"
 
 HOMEPAGE="https://github.com/ymichael/cprofilev"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/50/d8c1ada7d537c64b0f76453fa31dedb6af6e27b82fcf0331e5f71a4cf98b/CProfileV-${REALVERSION}.tar.gz"
-SOURCEFILE="CProfileV-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

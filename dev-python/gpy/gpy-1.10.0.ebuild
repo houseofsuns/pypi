@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Gaussian Process Toolbox"
 
 HOMEPAGE="http://sheffieldml.github.com/GPy/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ce/4a/43d6f07b8b493bc216ecf1d5c447809e8c9d0b1b18b0b9db496dfadd87ea/GPy-${REALVERSION}.tar.gz"
-SOURCEFILE="GPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

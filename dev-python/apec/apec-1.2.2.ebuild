@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="APEC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Single cell epigenomic clustering based on accessibility pattern"
 
 HOMEPAGE="https://github.com/QuKunLab/APEC"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cb/90/77f299ca39bf6d0bffbb77d159d652c185f76ce824c1cd92ceb27790d2ac/APEC-${REALVERSION}.tar.gz"
-SOURCEFILE="APEC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

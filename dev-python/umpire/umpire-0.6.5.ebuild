@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Umpire"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generic dependency resolver."
 
 HOMEPAGE="https://www.signiant.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/41/00e150e8e86a354385b3ea02006b2ad3b3e4850820c5162ea6803fe2aa15/Umpire-${REALVERSION}.tar.gz"
-SOURCEFILE="Umpire-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

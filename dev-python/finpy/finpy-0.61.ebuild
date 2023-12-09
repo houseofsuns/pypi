@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FinPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Financial Python. Using python to do stock analysis."
 
 HOMEPAGE="http://pypi.python.org/pypi/FinPy/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/f2/bd/29d2a4461fd69c0f65fc50fc0a3ccee493e8a0255acb10bc92a97c34cfd4/FinPy-${REALVERSION}.tar.gz"
-SOURCEFILE="FinPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

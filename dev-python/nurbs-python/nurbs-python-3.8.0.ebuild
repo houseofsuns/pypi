@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NURBS-Python"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NURBS curve and surface evaluation library in pure python"
 
 HOMEPAGE="https://github.com/orbingol/NURBS-Python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/48/c19f9997eaf37dfdf651fe452a9013226301d9d943bea7f6aef1dd73327f/NURBS-Python-${REALVERSION}.tar.gz"
-SOURCEFILE="NURBS-Python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

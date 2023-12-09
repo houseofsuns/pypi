@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UniversalParser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="一款通用的文本格式解析器，支持XML、JSON、YAML、HT
 
 HOMEPAGE="https://gitee.com/jiyangj/universal-parser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fe/d4/dc26b0eb48f7d5539e7ebfac7d9c50bf2c382a2cdfc366b11d9f8e476a2f/UniversalParser-${REALVERSION}.tar.gz"
-SOURCEFILE="UniversalParser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

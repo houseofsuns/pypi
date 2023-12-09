@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="InterPhon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python Package for Ab initio Interface Phonon Calculations within
 
 HOMEPAGE="https://github.com/inwonyeu/interphon"
 LICENSE="LGPL-2.1"
-SRC_URI="https://files.pythonhosted.org/packages/b4/e4/7bb7953d93e3a9fd957fdfa12c12d90549a463aa63964024b098022e4fed/InterPhon-${REALVERSION}.tar.gz"
-SOURCEFILE="InterPhon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

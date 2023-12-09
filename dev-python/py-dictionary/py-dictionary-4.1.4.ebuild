@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Py-Dictionary"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Dictionary module"
 
 HOMEPAGE="https://github.com/nit-in/py-dictionary"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/59/b5/3d1abf737245a7c40f35965ad38ba9b698e7e6d7d5ca87404f37f22adfec/Py-Dictionary-${REALVERSION}.tar.gz"
-SOURCEFILE="Py-Dictionary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

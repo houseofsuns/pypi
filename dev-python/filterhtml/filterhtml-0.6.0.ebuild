@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FilterHTML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FilterHTML: A whitelisting HTML filter for Python and JavaScript"
 
 HOMEPAGE="http://filterhtml.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d7/97/e691ded76d6f0202ef6ae3eb3fdb90c0d7258de5caf3bf876a58f60fa5c1/FilterHTML-${REALVERSION}.tar.gz"
-SOURCEFILE="FilterHTML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

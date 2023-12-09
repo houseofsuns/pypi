@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NPhish"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Ultimate Phishing Tool in Python"
 
 HOMEPAGE="https://github.com/Nishant2009/NPhish/"
 LICENSE="LICENCE"
-SRC_URI="https://files.pythonhosted.org/packages/b5/6a/d8cc6d1cd7f8eb37579ca4126e21d991b9027056b338071d0a70392052ce/NPhish-${REALVERSION}.tar.gz"
-SOURCEFILE="NPhish-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

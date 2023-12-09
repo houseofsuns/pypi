@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BugMaker-Project-SDK"
 REALVERSION="0.0.0.3.post6"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Develop Package for BugMaker-Project,By BugMaker-Project."
 
 HOMEPAGE="https://pypi.org/project/BugMaker_Project_SDK/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/40/82/613c7d384dbfe360c1401748e93f6eebcb20eb53798e50026ef5aec3abbd/BugMaker_Project_SDK-${REALVERSION}.win-amd64.zip"
-SOURCEFILE="BugMaker_Project_SDK-${REALVERSION}.win-amd64.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.win-amd64.zip"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.win-amd64.zip"
 RESTRICT="test"
 
 SLOT="0"

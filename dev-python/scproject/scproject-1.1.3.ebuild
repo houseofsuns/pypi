@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="scProject"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Transfer learning framework for single cell gene expression analysi
 
 HOMEPAGE="https://github.com/gofflab/scProject"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/97/48/7717c93b487287559bb6264688626c00ddbf3bd608e9ea415059fa839e3d/scProject-${REALVERSION}.tar.gz"
-SOURCEFILE="scProject-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

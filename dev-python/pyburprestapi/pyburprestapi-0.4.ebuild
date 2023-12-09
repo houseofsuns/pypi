@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyBurprestapi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library enumerating the Burp RESTFul API endpoints."
 
 HOMEPAGE="https://github.com/anandtiwarics/python-burp-rest-api/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b3/13/756f11edf3c2765ad110c7a2c4464d6777085438c3d6ceaf27fa0a78604f/PyBurprestapi-${REALVERSION}.tar.gz"
-SOURCEFILE="PyBurprestapi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

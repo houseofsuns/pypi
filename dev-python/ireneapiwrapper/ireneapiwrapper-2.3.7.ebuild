@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IreneAPIWrapper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A wrapper for Irene's API and connects with a websocket connection.
 
 HOMEPAGE="https://github.com/MujyKun/IreneAPIWrapper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/30/6bc1dd64d712d868f953c3a99378d2e74a847fc4760824901100cbedfdcd/IreneAPIWrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="IreneAPIWrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

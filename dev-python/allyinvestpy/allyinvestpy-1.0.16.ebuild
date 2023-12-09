@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AllyInvestPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A blackbox Ally Invest/TradeKing API interface for application deve
 
 HOMEPAGE="https://github.com/anthonymorast/AllyInvest.py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d8/50/def465462dc7cd01730361c7f0f99fc20a5840e1c45eeb2c84edbd778f2a/AllyInvestPy-${REALVERSION}.tar.gz"
-SOURCEFILE="AllyInvestPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Discord"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Discord OAuth2 extension for Flask."
 
 HOMEPAGE="https://github.com/thec0sm0s/Flask-Discord"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ed/43/a02d33b730d7fecdbdb496e40ec4262adf6b09791689e9e08cdf91c3c889/Flask-Discord-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Discord-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

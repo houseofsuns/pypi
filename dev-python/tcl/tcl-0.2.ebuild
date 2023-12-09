@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Tcl"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A coding language used for Graphical user interface"
 
 HOMEPAGE="https://github.com/SCORPIA-oss/Tcl-repo"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/a8/5bc7924d0f23ee33c3ac62442af9cd1531712f5d4d086255b94d06be49fe/Tcl-${REALVERSION}.tar.gz"
-SOURCEFILE="Tcl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

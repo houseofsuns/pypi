@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EpiTator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Annotators for extracting epidemiological information from text."
 
 HOMEPAGE="https://github.com/ecohealthalliance/EpiTator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e2/44/e8b9332c753b0fca6322bcf8c10d5d2fad6327a9285b7b43c3d4b65fb52a/EpiTator-${REALVERSION}.tar.gz"
-SOURCEFILE="EpiTator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

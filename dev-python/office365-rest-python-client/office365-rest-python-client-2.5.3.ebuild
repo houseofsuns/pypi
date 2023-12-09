@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Office365-REST-Python-Client"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Microsoft 365 & Microsoft Graph Library for Python"
 
 HOMEPAGE="https://github.com/vgrem/Office365-REST-Python-Client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/94/12/dac2959ad6eddac74196e53164f6d4e29503e1e50b8b07437f1d239193c1/Office365-REST-Python-Client-${REALVERSION}.tar.gz"
-SOURCEFILE="Office365-REST-Python-Client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

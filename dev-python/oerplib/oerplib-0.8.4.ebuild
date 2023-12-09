@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OERPLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OERPLib is a Python module providing an easy way to pilot your Open
 
 HOMEPAGE="http://pythonhosted.org/OERPLib/"
 LICENSE="LGPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/83/1e/c57cbf97ec0e6d43419a537cb36be2b4fa370a67ac74b2b55100510070bc/OERPLib-${REALVERSION}.tar.gz"
-SOURCEFILE="OERPLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

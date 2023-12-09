@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyOpenAL"
 REALVERSION="0.7.11a1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OpenAL integration for Python"
 
 HOMEPAGE="https://github.com/Zuzu-Typ/PyOpenAL"
 LICENSE="Unilicense"
-SRC_URI="https://files.pythonhosted.org/packages/04/a8/8c09f20724e99790952014dd70f8c1fa6ca9cbf3bef4a43e188e09b959a4/PyOpenAL-${REALVERSION}.tar.gz"
-SOURCEFILE="PyOpenAL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

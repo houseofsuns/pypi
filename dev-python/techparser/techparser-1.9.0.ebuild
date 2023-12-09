@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TechParser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lets You parse articles from various related to IT sites."
 
 HOMEPAGE="https://github.com/SPython/tech-parser"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/88/df/3b1b9df46c4713f8967ddb4db2bc992ccf67380ea7c3c434c82d78b90ccd/TechParser-${REALVERSION}.tar.gz"
-SOURCEFILE="TechParser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

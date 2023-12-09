@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SpaDecon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SpaDecon: cell-type deconvolution in spatial transcriptomics with s
 
 HOMEPAGE="https://github.com/kylepcoleman87/SpaDecon"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/a0/96e2f8fba0e577948f7e7e948f31aa619968bd1ce0861f94ff392c341826/SpaDecon-${REALVERSION}.tar.gz"
-SOURCEFILE="SpaDecon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

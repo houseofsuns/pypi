@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GoDaddyPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A very simple python client used to update the IP address in A reco
 
 HOMEPAGE="https://github.com/eXamadeus/godaddypy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/30/b78622c36ac91c8fbd936958c0e1cd0fea9223adf97e8f8d1228e62b4609/GoDaddyPy-${REALVERSION}.tar.gz"
-SOURCEFILE="GoDaddyPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

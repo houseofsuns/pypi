@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EdiHeadyTrack"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automatic, markerless measurement of head kinematics using from vid
 
 HOMEPAGE="https://github.com/isDynamics/EdiHeadyTrack"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/1e/4036425fc3ca3b7ddb6e911a4a451095d4d7bca0dfdf52bd4dbe1e714b1e/EdiHeadyTrack-${REALVERSION}.tar.gz"
-SOURCEFILE="EdiHeadyTrack-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

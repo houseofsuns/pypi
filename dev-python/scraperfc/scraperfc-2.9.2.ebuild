@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ScraperFC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package for scraping soccer data from a variety of sources."
 
 HOMEPAGE="https://github.com/oseymour/ScraperFC"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1b/43/bae26cd09202b61ad11385e141e673a4f17607888b1d7a453ecda812932e/ScraperFC-${REALVERSION}.tar.gz"
-SOURCEFILE="ScraperFC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

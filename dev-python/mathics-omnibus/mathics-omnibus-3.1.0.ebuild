@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mathics-omnibus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Collection Mathics components to provide the full Mathics experie
 
 HOMEPAGE="http://github.com/Mathics3/mathics-omnibus"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/04/a1/97a826fa2720ab5f04cfba03f9cb7909ca1a782b5b9edb1cd175caf3af71/Mathics-omnibus-${REALVERSION}.tar.gz"
-SOURCEFILE="Mathics-omnibus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

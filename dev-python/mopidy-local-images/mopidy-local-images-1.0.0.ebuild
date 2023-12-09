@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mopidy-Local-Images"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mopidy local library proxy extension for handling embedded album ar
 
 HOMEPAGE="https://github.com/mopidy/mopidy-local-images"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ac/a0/2b289611d80753f4d536fd3a57b06ee2d2f388f2c34fbca3d23fadd07f7a/Mopidy-Local-Images-${REALVERSION}.tar.gz"
-SOURCEFILE="Mopidy-Local-Images-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-LDAP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for LDAP auth and profile user"
 
 HOMEPAGE="https://bitbucket.org/3f17/flask-ldap/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ef/22/7a566db1a9951a2755aed9dc2b3f7513c8844290474f5173b70be7eff25e/Flask-LDAP-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-LDAP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

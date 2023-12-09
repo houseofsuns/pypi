@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Sphinx-Themes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Sphinx themes for Flask and related projects."
 
 HOMEPAGE="https://github.com/pallets/flask-sphinx-themes"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ae/66/5e84bfe3168295c9c806d87eebf65f4cfc07d9c2d4f27d80e026c69046e6/Flask-Sphinx-Themes-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Sphinx-Themes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

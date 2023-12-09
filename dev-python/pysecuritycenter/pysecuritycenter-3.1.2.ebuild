@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pySecurityCenter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Security Center API Library"
 
 HOMEPAGE="https://github.com/SteveMcGrath/pySecurityCenter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/68/31/b009ae517ac2323d4ad24604364022f51108e21d2f21c2b46fc809d45f1a/pySecurityCenter-${REALVERSION}.tar.gz"
-SOURCEFILE="pySecurityCenter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

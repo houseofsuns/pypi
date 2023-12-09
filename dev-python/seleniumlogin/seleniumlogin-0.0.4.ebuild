@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SeleniumLogin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Login some website using selenium."
 
 HOMEPAGE="https://github.com/CharlesPikachu/SeleniumLogin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/9c/a831d1594054e2f468afc3fbc49178edaed3c2a89766443d39588a5794e8/SeleniumLogin-${REALVERSION}.tar.gz"
-SOURCEFILE="SeleniumLogin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UCCA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Universal Conceptual Cognitive Annotation"
 
 HOMEPAGE="https://github.com/huji-nlp/ucca"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/a5/a42028dcc21c3d1ddaf609daa57863362bc88bff7072b5c96550aa06ca5f/UCCA-${REALVERSION}.tar.gz"
-SOURCEFILE="UCCA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

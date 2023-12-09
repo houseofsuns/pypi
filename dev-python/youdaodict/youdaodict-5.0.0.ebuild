@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="YoudaoDict"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="通过有道爬虫查询单词"
 
 HOMEPAGE="https://github.com/hellflame/youdao"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/1a/d2035c33df0d28fab8a056dd9e9302a026ec02ebacac5c68f11815f3a415/YoudaoDict-${REALVERSION}.tar.gz"
-SOURCEFILE="YoudaoDict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

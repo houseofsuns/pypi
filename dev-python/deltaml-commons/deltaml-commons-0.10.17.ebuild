@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeltaML-commons"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Commons resources between DeltaML projects"
 
 HOMEPAGE="https://github.com/DeltaML/commons"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/c3/f3cb133dd150ca925787742a6c02ba49e6ffb8c72392222273e34a2034bc/DeltaML-commons-${REALVERSION}.tar.gz"
-SOURCEFILE="DeltaML-commons-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

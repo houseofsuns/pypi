@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AutoMD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="AutoMD is a documentation library for Flask APIs build with FlaskRE
 
 HOMEPAGE="https://github.com/cliftbar/automd"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/10/23cae9b2ae9c5b05ed414bfe9d8135ab3f40f6712ee73e97f362cf5f6c5c/AutoMD-${REALVERSION}.tar.gz"
-SOURCEFILE="AutoMD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

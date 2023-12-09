@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Fsdb"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="File system database. Easily manage file storing"
 
 HOMEPAGE="https://github.com/ael-code/pyFsdb"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/93/e7/64b9065c899c6da6d94e2c91c942c3beee84560578285889da47b261f1dd/Fsdb-${REALVERSION}.tar.gz"
-SOURCEFILE="Fsdb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

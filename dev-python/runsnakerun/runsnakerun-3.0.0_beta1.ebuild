@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RunSnakeRun"
 REALVERSION="3.0.0b1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GUI Viewer for Python profiling runs"
 
 HOMEPAGE="https://github.com/mcfletch/runsnakerun"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/68/72/d9b6a0851df04df2649bd1b20c6c736b3e7693c7bba3ed02f58413e6ed2a/RunSnakeRun-${REALVERSION}.tar.gz"
-SOURCEFILE="RunSnakeRun-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

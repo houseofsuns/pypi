@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HawaData"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Use For Unified Hawa Data."
 
 HOMEPAGE="https://github.com/StevenLianaL/HawaData"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0a/2f/7b768ed8ba7ecb8c9454a2928888f3de0a4b9e56060eedab71710755f2dc/HawaData-${REALVERSION}.tar.gz"
-SOURCEFILE="HawaData-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

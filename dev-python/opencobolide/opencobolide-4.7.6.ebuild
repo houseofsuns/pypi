@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenCobolIDE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple COBOL IDE"
 
 HOMEPAGE="https://github.com/OpenCobolIDE/OpenCobolIDE"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/30/19/bbcf13bca5c0baf34ef5aad2763f8ab92c1e6a9653703cbcda38af62e092/OpenCobolIDE-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenCobolIDE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

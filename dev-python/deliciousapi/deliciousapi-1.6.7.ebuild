@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeliciousAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Unofficial Python API for retrieving data from Delicious.com"
 
 HOMEPAGE="http://www.michael-noll.com/wiki/Del.icio.us_Python_API"
 LICENSE="GNU General Public License version 2"
-SRC_URI="https://files.pythonhosted.org/packages/67/b7/a5b0d48b788e712bed9441c0bb66c3679d2d61f72c13ba5e41c1047bc5ce/DeliciousAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="DeliciousAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

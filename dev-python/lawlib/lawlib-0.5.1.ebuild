@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="lawLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library to extract legal information from official resources"
 
 HOMEPAGE="https://github.com/JonanOribe/lawLib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/69/e4/bfe11376af7a70c1f48eec0eb958db07b414a8caa9fd1c1456028c1e9ab9/lawLib-${REALVERSION}.tar.gz"
-SOURCEFILE="lawLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

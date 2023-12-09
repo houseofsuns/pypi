@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Retro"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lightweight Declarative Web Toolkit"
 
 HOMEPAGE="http://www.github.com/sebastien/retro"
 LICENSE="Revised BSD License"
-SRC_URI="https://files.pythonhosted.org/packages/f0/5d/d774e99f06320f06c150a8e5eb74e2690e6713ef5ad8405a4ab0b5db16ec/Retro-${REALVERSION}.tar.gz"
-SOURCEFILE="Retro-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

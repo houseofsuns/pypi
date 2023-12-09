@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyPardotSF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="API wrapper for API v3 & v4 of Pardot marketing automation software
 
 HOMEPAGE="https://github.com/anelendata/PyPardotSF"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/26/55/b39d4b4df6cdf3c7ca9b8ccbcaa33f2221aa3fd321b35ae877f15b6d78bd/PyPardotSF-${REALVERSION}.tar.gz"
-SOURCEFILE="PyPardotSF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SQLAlchemy-Ext"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Extensions of SQLAlchemy"
 
 HOMEPAGE="https://github.com/zengqiu/sqlalchemy-ext"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/30/ac/4882ca53c773c4d03f75ea34913810700d12dc70727ecd667d028b4f8ff0/SQLAlchemy-Ext-${REALVERSION}.tar.gz"
-SOURCEFILE="SQLAlchemy-Ext-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

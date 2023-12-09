@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SuperconGAN"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GAN trained on superconductivity data"
 
 HOMEPAGE="https://github.com/RajeevAtla/SuperconGAN"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/cf/c1/748d7359aeb8dca4d3ccf1d74e2fa48e616e8acc4c5854db5f1fae70d4ab/SuperconGAN-${REALVERSION}.tar.gz"
-SOURCEFILE="SuperconGAN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

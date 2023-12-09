@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SpiffWorkflow"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A workflow framework and BPMN/DMN Processor"
 
 HOMEPAGE="https://github.com/sartography/SpiffWorkflow"
 LICENSE="lGPLv2"
-SRC_URI="https://files.pythonhosted.org/packages/df/31/387c5db42bd5a69cdf750f0420136814903b6939601f8d75a1bb8a50ea88/SpiffWorkflow-${REALVERSION}.tar.gz"
-SOURCEFILE="SpiffWorkflow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

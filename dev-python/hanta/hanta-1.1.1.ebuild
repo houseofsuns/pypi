@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HanTa"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Hannover Tagger: Morphological Analysis and POS Tagging"
 
 HOMEPAGE="https://github.com/wartaal/HanTa"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/71/9c/b71b187848ed28ad0f8914f1b39bb2203e5905d36aa08eaa20e60bb08450/HanTa-${REALVERSION}.tar.gz"
-SOURCEFILE="HanTa-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

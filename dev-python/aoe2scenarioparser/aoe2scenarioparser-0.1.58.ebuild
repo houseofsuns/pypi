@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AoE2ScenarioParser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This is a project for editing parts of an 'aoe2scenario' file from 
 
 HOMEPAGE="https://github.com/KSneijders/AoE2ScenarioParser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9b/03/ebb44d46854878e92cab39ea3f4649b5e9063c1b7dd72fbcdc9dd9d3abe6/AoE2ScenarioParser-${REALVERSION}.tar.gz"
-SOURCEFILE="AoE2ScenarioParser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

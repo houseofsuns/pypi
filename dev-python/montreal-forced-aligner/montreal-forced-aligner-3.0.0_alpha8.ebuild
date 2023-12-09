@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Montreal-Forced-Aligner"
 REALVERSION="3.0.0a8"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Montreal Forced Aligner is a package for aligning speech corpora us
 
 HOMEPAGE="https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/46/4ea5e88a44aaa9d59f737b8d989512f65235c276ddae73b8c8aedb0327e3/Montreal_Forced_Aligner-${REALVERSION}.tar.gz"
-SOURCEFILE="Montreal_Forced_Aligner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

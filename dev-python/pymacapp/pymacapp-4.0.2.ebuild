@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMacApp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Basic Tools to Build, Package, Sign, and Notarize Python Apps for M
 
 HOMEPAGE="https://github.com/The-Nicholas-R-Barrow-Company-LLC/PyMacApp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/45/2f6e885e6234c2ea076a35b7ec7e170550a0f699e086f2eef3ed0d2c4a5e/PyMacApp-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMacApp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

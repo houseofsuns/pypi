@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NREL-NRWAL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="National Renewable Energy Laboratory's (NREL's) Wind AnalysisLibrar
 
 HOMEPAGE="https://nrel.github.io/NRWAL/"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/29/20/5cb5c05bec6791d75e7f8cbac78d27baa9386a97dc3956a8a03a0ff88f15/NREL-NRWAL-${REALVERSION}.tar.gz"
-SOURCEFILE="NREL-NRWAL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

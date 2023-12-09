@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FLAI-CAUSAL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library to creat causal model and mitigate the bias."
 
 HOMEPAGE="https://github.com/rugonzs/FLAI"
 LICENSE="Apache-2.0 license"
-SRC_URI="https://files.pythonhosted.org/packages/c6/bf/0875e08a84205c4bb77cc9f861ef731899b01d4a125a919f021cdfe0dd2d/FLAI_CAUSAL-${REALVERSION}.tar.gz"
-SOURCEFILE="FLAI_CAUSAL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

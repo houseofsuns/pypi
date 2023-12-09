@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DrissionPage"
 REALVERSION="4.0.0b17"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python based web automation tool. It can control the browser and se
 
 HOMEPAGE="https://gitee.com/g1879/DrissionPage"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ee/61/73471b6c1e24f56840f998406d40fb93e757a996041e80835a658415fb2a/DrissionPage-${REALVERSION}.tar.gz"
-SOURCEFILE="DrissionPage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

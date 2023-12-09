@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="InowasFlopyAdapter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A FLOPY wrapper for the INOWAS-platform"
 
 HOMEPAGE="https://github.com/inowas/InowasFlopyAdapter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/de/20cf6faec695f35a0b6c58d00e8859e4ef8fe92e8c96ac7deba2aebf2c98/InowasFlopyAdapter-${REALVERSION}.tar.gz"
-SOURCEFILE="InowasFlopyAdapter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

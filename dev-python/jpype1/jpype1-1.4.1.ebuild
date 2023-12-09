@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JPype1"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python to Java bridge."
 
 HOMEPAGE="https://github.com/jpype-project/jpype"
 LICENSE="License :: OSI Approved :: Apache Software License"
-SRC_URI="https://files.pythonhosted.org/packages/1b/eb/3e9696c3feda2d70a866a3f62880b9eb77187d7b188436d3f480c2f4842c/JPype1-${REALVERSION}.tar.gz"
-SOURCEFILE="JPype1-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

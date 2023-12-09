@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MakeDjango"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="simple command line tool for start project"
 
 HOMEPAGE="https://github.com/MahanBi/MakeDjango.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/25/69de730994d47d58506ba066cbc540c4e0547b3c8a69d9d8947bd41af53c/MakeDjango-${REALVERSION}.tar.gz"
-SOURCEFILE="MakeDjango-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

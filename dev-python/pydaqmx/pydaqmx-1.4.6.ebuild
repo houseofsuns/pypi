@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDAQmx"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Interface to the National Instruments PyDAQmx driver"
 
 HOMEPAGE="http://pythonhosted.org/PyDAQmx/"
 LICENSE="This software can be used under one of the following two licenses: 1 The BSD license. 2 Any other license, as long as it is obtained from the original author."
-SRC_URI="https://files.pythonhosted.org/packages/da/a9/2c454f56713b84e6f6bf338f7114d670498571e2dd6ee3b95eee0b1d1b33/PyDAQmx-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDAQmx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

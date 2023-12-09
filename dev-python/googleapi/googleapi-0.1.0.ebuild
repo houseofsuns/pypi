@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="googleAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A high-level python interface to Google APIs"
 
 HOMEPAGE="https://github.com/zy2327/googleAPI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/f4/b6fd50a5bae8bbe7aae9e0f8d488dc6ae5d70cd9c0ec4305b591d05db616/googleAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="googleAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

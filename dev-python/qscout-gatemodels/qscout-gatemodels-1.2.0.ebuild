@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QSCOUT-gatemodels"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="QSCOUT Gate Models"
 
 HOMEPAGE="https://qscout.sandia.gov"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/fe/1d/cb0f56f26ef0a0f030ed13fa95c29db7536a947fd2dc48b12210adfe7b70/QSCOUT-gatemodels-${REALVERSION}.tar.gz"
-SOURCEFILE="QSCOUT-gatemodels-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

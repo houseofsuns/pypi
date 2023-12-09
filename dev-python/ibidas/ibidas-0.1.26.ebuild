@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Ibidas"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Ibidas is an environment for data handling and exploration, able to
 
 HOMEPAGE="https://trac.nbic.nl/ibidas/"
 LICENSE="LGPL-2.1"
-SRC_URI="https://files.pythonhosted.org/packages/42/1c/f6341d18346f87621b575a7d7ba42b79a036c4141c63f677c95863da6629/Ibidas-${REALVERSION}.tar.gz"
-SOURCEFILE="Ibidas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

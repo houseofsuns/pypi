@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PennyLane-Honeywell"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PennyLane plugin to access the Honeywell Quantum Solutions cloud se
 
 HOMEPAGE="http://xanadu.ai"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/97/98/c1a17b7546874b83e8a7132036c89b8bda5b2fc51ba1abf5efb8a550cd22/PennyLane-Honeywell-${REALVERSION}.tar.gz"
-SOURCEFILE="PennyLane-Honeywell-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TorchCRF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An Implementation of Conditional Random Fields in pytorch"
 
 HOMEPAGE="https://github.com/s14t284/TorchCRF"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a4/b8/1b7568b7e84d0439723f7a972cd4b3007e606a66e3d81ada5f61c131d29f/TorchCRF-${REALVERSION}.tar.gz"
-SOURCEFILE="TorchCRF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

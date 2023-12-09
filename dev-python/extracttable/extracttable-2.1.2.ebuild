@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ExtractTable"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Extract table data from images and scanned PDFs. Easily convert ima
 
 HOMEPAGE="https://github.com/ExtractTable/ExtractTable-py"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c2/14/870ee0f7ebd655ef7fd0372766e8b04a95b86d986f700f12db99ec0efccc/ExtractTable-${REALVERSION}.tar.gz"
-SOURCEFILE="ExtractTable-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

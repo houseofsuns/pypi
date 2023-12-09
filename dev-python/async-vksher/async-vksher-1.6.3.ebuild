@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="async-VKsher"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="asyncVK is asynchronous library for creating a bot in VK"
 
 HOMEPAGE="https://github.com/Ekventor/asyncVK"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b2/87/e665669c7a389e50d29f18511a3cb2906cf9a242e8d58f2a45ee858d0a3f/async_VKsher-${REALVERSION}.tar.gz"
-SOURCEFILE="async_VKsher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

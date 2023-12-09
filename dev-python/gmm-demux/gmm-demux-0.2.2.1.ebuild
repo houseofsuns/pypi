@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GMM-Demux"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A multiplet removal tool for processing cell hashing data"
 
 HOMEPAGE="https://github.com/CHPGenetics/GMM-demux"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/4c/0778e83d447a7e2ba2751ca1b4710adc5691c9fd5976e7b962161d1aa026/GMM_Demux-${REALVERSION}.tar.gz"
-SOURCEFILE="GMM_Demux-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

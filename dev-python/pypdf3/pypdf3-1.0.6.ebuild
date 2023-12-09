@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyPDF3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pure Python PDF toolkit"
 
 HOMEPAGE="https://github.com/sfneal/PyPDF3"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/38/a7/55aeac6bc35446517ea2f50e9f285a35181cdf0a85e320bff997e2497721/PyPDF3-${REALVERSION}.tar.gz"
-SOURCEFILE="PyPDF3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

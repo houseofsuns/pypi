@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EasyDeL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An open-source library to make training faster and more optimized i
 
 HOMEPAGE="https://github.com/erfanzar/EasyDeL"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/6a/3804fc14b2c7ee5ba805ec59982c7dcb42daadbe7c6f29f22770753965e7/EasyDeL-${REALVERSION}.tar.gz"
-SOURCEFILE="EasyDeL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

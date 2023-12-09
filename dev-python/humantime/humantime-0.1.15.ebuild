@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HumanTime"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Time for Humans"
 
 HOMEPAGE="https://github.com/AgalmicVentures/HumanTime"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/5f/1a1a2dac0843f05db051a56f9e24e14cc3bec82bc72fdc814e21b3a9ce13/HumanTime-${REALVERSION}.tar.gz"
-SOURCEFILE="HumanTime-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

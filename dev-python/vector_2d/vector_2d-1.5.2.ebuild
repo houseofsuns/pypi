@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="vector-2d"
+LITERALNAME="vector-2d"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

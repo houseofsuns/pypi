@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChatRoom-jianjun"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python分布式交互框架！快速建立可靠的网络连接！"
 
 HOMEPAGE="https://github.com/EVA-JianJun/ChatRoom"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2a/fe/b83c26d8161ae924ba557d2f5db70b5c68053383fa43793c08a2dd3d4a09/ChatRoom-jianjun-${REALVERSION}.tar.gz"
-SOURCEFILE="ChatRoom-jianjun-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

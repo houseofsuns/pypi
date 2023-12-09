@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Orange3-Bioinformatics"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Orange Bioinformatics add-on for Orange data mining software packag
 
 HOMEPAGE="https://github.com/biolab/orange3-bioinformatics"
 LICENSE="GPL3+"
-SRC_URI="https://files.pythonhosted.org/packages/29/7e/b45e6c5a44f388ea4fc32dc5a70892d7ee861306191d4dcac3a7d8248cdd/Orange3-Bioinformatics-${REALVERSION}.tar.gz"
-SOURCEFILE="Orange3-Bioinformatics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyRTF3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyRTF - Rich Text Format Document Generation"
 
 HOMEPAGE="https://github.com/xoviat/pyrtf"
 LICENSE="http://www.gnu.org/licenses/gpl.html"
-SRC_URI="https://files.pythonhosted.org/packages/29/ff/8b53dd7327286ab3d91fa268c4559f5203075c16fb4bb0ce84ff39ecc7b3/PyRTF3-${REALVERSION}.tar.gz"
-SOURCEFILE="PyRTF3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

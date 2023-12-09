@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SparseArray"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SparseArray"
 
 HOMEPAGE="https://github.com/INGEOTEC/SparseArray"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7d/dc/45f06777562ca1e8b9abecc37ca3cfef1f7af8438483b0aea7d9b8dad126/SparseArray-${REALVERSION}.tar.gz"
-SOURCEFILE="SparseArray-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

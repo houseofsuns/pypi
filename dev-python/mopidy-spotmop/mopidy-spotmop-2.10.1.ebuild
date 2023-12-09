@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mopidy-Spotmop"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Mopidy Web client that utilizes the Spotify and EchoNest framewor
 
 HOMEPAGE="https://github.com/jaedb/spotmop"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/09/a7/f1db5681e2028be069daf9d508c33456f230aacb29495cbbbb48f90e78a8/Mopidy-Spotmop-${REALVERSION}.tar.gz"
-SOURCEFILE="Mopidy-Spotmop-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

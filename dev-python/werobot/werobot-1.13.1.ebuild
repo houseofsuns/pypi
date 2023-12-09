@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WeRoBot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="WeRoBot: writing WeChat Offical Account Robots with fun"
 
 HOMEPAGE="https://github.com/offu/WeRoBot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f1/67/c4f2c0c4ee23c98cbb4f0d42ac92a9f417398ee89a19dd7760ac8e59bf15/WeRoBot-${REALVERSION}.tar.gz"
-SOURCEFILE="WeRoBot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

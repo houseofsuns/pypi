@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="bgRemoverApp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Background Remover App"
 
 HOMEPAGE="https://github.com/kos94ok/bgRemoverApp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ef/0e/b83cd884ee53c1e8fcfda76b591ea4d19e630c05d08e71504f8eab78fc1c/bgRemoverApp-${REALVERSION}.tar.gz"
-SOURCEFILE="bgRemoverApp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

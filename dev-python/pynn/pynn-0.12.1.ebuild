@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyNN"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python package for simulator-independent specification of neurona
 
 HOMEPAGE="http://neuralensemble.org/PyNN/"
 LICENSE="CeCILL http://www.cecill.info"
-SRC_URI="https://files.pythonhosted.org/packages/dd/dc/8f3fa3af04af2780c3dee226973537a415c02038a8465d2eff774d60003f/PyNN-${REALVERSION}.tar.gz"
-SOURCEFILE="PyNN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

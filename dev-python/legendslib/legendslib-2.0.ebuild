@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LegendsLIB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="For developers"
 
 HOMEPAGE="https://t.me/LegendsLIB"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/f2/55ee94cc243a8260a2646ab328e45ae63d74c9b90d29d263e70432135d25/LegendsLIB-${REALVERSION}.tar.gz"
-SOURCEFILE="LegendsLIB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

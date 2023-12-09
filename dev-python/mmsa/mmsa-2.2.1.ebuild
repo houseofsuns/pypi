@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MMSA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Multimodal Sentiment Analysis Framework"
 
 HOMEPAGE="https://github.com/thuiar/MMSA"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/95/a122c7114d5f3c8d95ee22b5275154f2e40e01e232991d796c60fde8b6dd/MMSA-${REALVERSION}.tar.gz"
-SOURCEFILE="MMSA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="dnaStreaming"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Dow Jones DNA Streaming Project"
 
 HOMEPAGE="https://github.com/dowjones/dj-dna-streams-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/73/ade3fb7bb9b9e911d2e0cc589dd98a0e45c65096db9c71d7402bd657b603/dnaStreaming-${REALVERSION}.tar.gz"
-SOURCEFILE="dnaStreaming-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

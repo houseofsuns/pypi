@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NaMAZU"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NaMAZU: Pretty Usefull Library"
 
 HOMEPAGE="https://github.com/NMZ0429/NaMAZU"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/4a/9c1c61256bd89639f656a3562d207734dc99b8baa2f101983897e527ae4d/NaMAZU-${REALVERSION}.tar.gz"
-SOURCEFILE="NaMAZU-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

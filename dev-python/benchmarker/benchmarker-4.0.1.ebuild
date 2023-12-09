@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Benchmarker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="small but awesome utility for benchmarking"
 
 HOMEPAGE="https://pythonhosted.org/Benchmarker/"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/bb/59/a14359313e20efaaa367c60a87165f40ef9d3f5da2230a815db2433e3967/Benchmarker-${REALVERSION}.tar.gz"
-SOURCEFILE="Benchmarker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

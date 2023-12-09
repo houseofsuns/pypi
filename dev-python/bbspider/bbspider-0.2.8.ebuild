@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BBSpider"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a web spider"
 
 HOMEPAGE="https://www.dailyrecords.xyz/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f6/40/f5fe7cfa30304866d7ca82a1c50f069f304febefa29ceff7b280deb96d4b/BBSpider-${REALVERSION}.tar.gz"
-SOURCEFILE="BBSpider-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

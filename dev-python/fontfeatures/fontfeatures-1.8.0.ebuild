@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="fontFeatures"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library for manipulating OpenType font features"
 
 HOMEPAGE="https://github.com/simoncozens/fontFeatures"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c3/d4/0e5e4d68e2c24bf5ee289de7197736c3da9c367d59c09dd6a42e9827d62e/fontFeatures-${REALVERSION}.tar.gz"
-SOURCEFILE="fontFeatures-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

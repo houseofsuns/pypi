@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChatGPTWeb"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ChatGPT API"
 
 HOMEPAGE="https://github.com/nek0us/ChatGPT"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/20/52/4c561ccf7042774c8c74c8886ab758bf0e6a872f208ca067379ca8af95fe/ChatGPTWeb-${REALVERSION}.tar.gz"
-SOURCEFILE="ChatGPTWeb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

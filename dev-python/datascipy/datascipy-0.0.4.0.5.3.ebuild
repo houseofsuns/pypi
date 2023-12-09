@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="dataScipy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Library for some data-science tasks"
 
 HOMEPAGE="https://github.com/boraaktas/dataScipy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/97/ef/c08b3dd53010f1f7629810b48be4497e59cef4024d8538d0499eeee73a94/dataScipy-${REALVERSION}.tar.gz"
-SOURCEFILE="dataScipy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

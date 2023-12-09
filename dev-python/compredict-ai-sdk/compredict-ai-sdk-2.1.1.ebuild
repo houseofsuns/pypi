@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="COMPREDICT-AI-SDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Connect Python applications with COMPREDICT AI Core."
 
 HOMEPAGE="https://github.com/compredict/ai-sdk-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/71/ca/187dc299e084dc4e8b31626d704f379bb49e3cf1855d48f13476c1ecc20f/COMPREDICT-AI-SDK-${REALVERSION}.tar.gz"
-SOURCEFILE="COMPREDICT-AI-SDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

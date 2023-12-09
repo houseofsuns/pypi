@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OurvleApi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Unofficial module for Ourvle"
 
 HOMEPAGE="https://github.com/Alexcmad/OurvleScraper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/ea/ca5216d772ecd3cfb83c08dece6642f9f58f7062dc72b93d1784c6aeeb7d/OurvleApi-${REALVERSION}.tar.gz"
-SOURCEFILE="OurvleApi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

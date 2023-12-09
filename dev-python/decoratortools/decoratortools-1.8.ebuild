@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DecoratorTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Class, function, and metaclass decorators -- even in Python 2.3 (no
 
 HOMEPAGE="http://cheeseshop.python.org/pypi/DecoratorTools"
 LICENSE="PSF or ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/86/78/8de8bc5f64c125d17be429c5da33344bf1690f745f121737d5b6fbfe828c/DecoratorTools-${REALVERSION}.zip"
-SOURCEFILE="DecoratorTools-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyNDN"
 REALVERSION="2.13b1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An NDN client library with TLV wire format support in native Python
 
 HOMEPAGE="https://github.com/named-data/PyNDN2"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/36/d5/a071fb4d5c04b173583320789766be307e55dcb235e70b0edaf58e192509/PyNDN-${REALVERSION}.tar.gz"
-SOURCEFILE="PyNDN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

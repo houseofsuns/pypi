@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DnsBench"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Multi-Threaded Python Application for Dns Benchmark"
 
 HOMEPAGE="https://github.com/aravindha1234u/dnsbench"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/a7/8568337f115f3fb50b5b9bfdd57011e7c0015676b0e2ae7e75ac575c5278/DnsBench-${REALVERSION}.tar.gz"
-SOURCEFILE="DnsBench-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kqlmagic"
 REALVERSION="0.1.114.post22"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Kqlmagic: Microsoft Azure Monitor magic extension to Jupyter notebo
 
 HOMEPAGE="https://github.com/Microsoft/jupyter-Kqlmagic"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/35/9cbf7e95cae359e2de8d820957809b141fe58eb8ba3fa1575025f7f76c2b/Kqlmagic-${REALVERSION}.tar.gz"
-SOURCEFILE="Kqlmagic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

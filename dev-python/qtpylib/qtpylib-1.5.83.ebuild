@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QTPyLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Quantitative Trading Python Library"
 
 HOMEPAGE="https://github.com/ranaroussi/qtpylib"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/71/86/621ac3870dad934da7b53b23d4a25c2182bab8c538d3971b05b51213f735/QTPyLib-${REALVERSION}.tar.gz"
-SOURCEFILE="QTPyLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

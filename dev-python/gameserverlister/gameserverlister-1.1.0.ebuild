@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GameserverLister"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python command line tool to retrieve game server lists for various 
 
 HOMEPAGE="https://github.com/cetteup/GameserverLister"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7d/ea/f2e18e4ca4539a125a8c06fce720614a82970b47d58352fce941ed088908/GameserverLister-${REALVERSION}.tar.gz"
-SOURCEFILE="GameserverLister-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

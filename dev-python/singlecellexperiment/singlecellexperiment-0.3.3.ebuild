@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SingleCellExperiment"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Container class for single-cell experiments"
 
 HOMEPAGE="https://github.com/BiocPy/SingleCellExperiment"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/80/a573fcd6bab9fc3459103f13b78e1ae918917c5683aec0834b2b1f714035/SingleCellExperiment-${REALVERSION}.tar.gz"
-SOURCEFILE="SingleCellExperiment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

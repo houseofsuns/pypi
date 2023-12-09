@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Uname-sridhar"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Get Information About  Linux Kernel with the help of  Python"
 
 HOMEPAGE="https://git.selfmade.ninja/SRIDHARDSCV/package_uname_command"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/51/cb15d36db0a48b14b959a0af2d6195e13bcf72bd5b90c4e69f455cfb2f77/Uname_sridhar-${REALVERSION}.tar.gz"
-SOURCEFILE="Uname_sridhar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

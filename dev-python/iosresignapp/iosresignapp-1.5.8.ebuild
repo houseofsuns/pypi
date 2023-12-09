@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="iOSReSignApp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/shede333/iOSReSignApp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/90/71fca0a570675aa28a819ba3c2a8eb5615c553ff387cfe63f1e1acb9ad57/iOSReSignApp-${REALVERSION}.tar.gz"
-SOURCEFILE="iOSReSignApp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

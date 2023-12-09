@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="APIConnect"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="APIs to trade from Nuvama"
 
 HOMEPAGE="https://nuvamawealth.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/60/3674fc281e1b30518cd80592b6101ae77156dade08a6f7a821a5f7fc5634/APIConnect-${REALVERSION}.tar.gz"
-SOURCEFILE="APIConnect-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

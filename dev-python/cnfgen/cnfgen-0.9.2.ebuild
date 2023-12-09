@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CNFgen"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CNF formula generator"
 
 HOMEPAGE="https://massimolauria.net/cnfgen"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ff/6f/8e7d4845efa84ba14aac47f016a171eab70954ea10fce76b6beef465c859/CNFgen-${REALVERSION}.tar.gz"
-SOURCEFILE="CNFgen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

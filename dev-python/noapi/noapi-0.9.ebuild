@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NoApi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Use a part of your program remotely without making an api (in beta)
 
 HOMEPAGE="https://github.com/MrHole/NoApi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c9/ba/c6a2217d4f57f7756d941b6b0260680fb438adc06d0d558e09a9644b45fe/NoApi-${REALVERSION}.tar.gz"
-SOURCEFILE="NoApi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LbCondaWrappers"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Wrappers for using LHCb CVMFS conda installations"
 
 HOMEPAGE="https://gitlab.cern.ch/lhcb-core/LbCondaWrappers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8c/14/1b6db9b7971c6f4d32eded606526816bb1c8b86c347209981a3c745c2423/LbCondaWrappers-${REALVERSION}.tar.gz"
-SOURCEFILE="LbCondaWrappers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

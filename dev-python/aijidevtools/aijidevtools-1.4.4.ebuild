@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AIJIdevtools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Some useful helper-funcs for devpers"
 
 HOMEPAGE="https://github.com/AIJIJI/devtools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0f/db/c981d7fcddb5c817f30f8e882eb8ae1631c479d9bfd879d5a541df4ff8b6/AIJIdevtools-${REALVERSION}.tar.gz"
-SOURCEFILE="AIJIdevtools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

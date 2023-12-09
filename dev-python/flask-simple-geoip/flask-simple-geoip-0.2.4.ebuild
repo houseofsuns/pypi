@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Simple-GeoIP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The simplest GeoIP lookup library for Flask."
 
 HOMEPAGE="https://github.com/whois-api-llc/flask-simple-geoip"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/63/4a/20ca3efa0e3fe00eab5b4491041d7f598c1969008f9449f17c2fe81d0ecf/Flask-Simple-GeoIP-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Simple-GeoIP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

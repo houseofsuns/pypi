@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JSJumble"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tool for obfuscating, compressing Javascript, and collecting static
 
 HOMEPAGE="https://github.com/GoodDay360/JSJumble"
 LICENSE="GNU General Public License GPL"
-SRC_URI="https://files.pythonhosted.org/packages/ff/0c/45120bb8a6e57b85657d90102f5948b429fe821abaeaeecfb42ee9614898/JSJumble-${REALVERSION}.tar.gz"
-SOURCEFILE="JSJumble-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

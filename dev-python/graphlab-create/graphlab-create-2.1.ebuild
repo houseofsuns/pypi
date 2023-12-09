@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GraphLab-Create"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GraphLab Create enables developers and data scientists to apply mac
 
 HOMEPAGE="https://turi.com"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/9a/6f/c6a3ae3c7fe8afa85ee60f6c2e2c0bd4f914fa1a1f60af478e826ec05fe8/GraphLab_Create-${REALVERSION}-py2.7.tar.gz"
-SOURCEFILE="GraphLab_Create-${REALVERSION}-py2.7.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}-py2.7.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}-py2.7.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

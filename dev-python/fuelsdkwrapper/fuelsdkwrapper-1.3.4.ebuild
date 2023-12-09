@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FuelSDKWrapper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simplify and enhance the FuelSDK for Salesforce Marketing Cloud (Ex
 
 HOMEPAGE="https://github.com/seb-angel/FuelSDK-Python-Wrapper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/71/04/7e2bdab3fea804106e83e322f15476c749e2911621958037d56443ee44cb/FuelSDKWrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="FuelSDKWrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

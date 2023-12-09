@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Adafruit-Blinka"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CircuitPython APIs for non-CircuitPython versions of Python such as
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_Blinka"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/b1/4039acfcd63abbbc237d60ecf5f997d412d2f045ff69e3ee890c9041f65f/Adafruit-Blinka-${REALVERSION}.tar.gz"
-SOURCEFILE="Adafruit-Blinka-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

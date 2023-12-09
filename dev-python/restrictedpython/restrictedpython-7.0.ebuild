@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RestrictedPython"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="RestrictedPython is a defined subset of the Python language which a
 
 HOMEPAGE="https://github.com/zopefoundation/RestrictedPython"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/ce/7c/19254deb8d2e1a0eea74fe92c3dbd250b400aa853e027de6734fce7ea143/RestrictedPython-${REALVERSION}.tar.gz"
-SOURCEFILE="RestrictedPython-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

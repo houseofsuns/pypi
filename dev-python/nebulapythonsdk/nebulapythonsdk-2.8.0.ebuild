@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NebulaPythonSDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NebulaPythonSDK is a Pythonic SDK to manage Nebula container orches
 
 HOMEPAGE="https://github.com/nebula-orchestrator/nebula-python-sdk"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/66/05/4359c9122309c2e6f917f30b9b72811b1e6c075c73e17f3856163bfa0a0a/NebulaPythonSDK-${REALVERSION}.tar.gz"
-SOURCEFILE="NebulaPythonSDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

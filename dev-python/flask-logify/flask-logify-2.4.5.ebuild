@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Logify"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Logging configuration for flask application"
 
 HOMEPAGE="https://github.com/cs91chris/flask_logify"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/99/16/96e889fd2d907f62d3e208c648f113c3c8448648cd1e05a50c1367b9a299/Flask-Logify-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Logify-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

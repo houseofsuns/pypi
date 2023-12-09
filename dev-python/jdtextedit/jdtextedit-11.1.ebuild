@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="jdTextEdit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An powerful texteditor with a lot of featuresr"
 
 HOMEPAGE=""
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/3c/2b/9b028b3da6c9706191256e7eec5062ca8cfb5cf7d02721bc5b640a17beb8/jdTextEdit-${REALVERSION}.tar.gz"
-SOURCEFILE="jdTextEdit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

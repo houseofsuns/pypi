@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="eClinical"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for work"
 
 HOMEPAGE="https://github.com/xxxx"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/2f/a9e496297f227692eda74a649006ea771d7856fdfb3b75bd2d1618ee4803/eClinical-${REALVERSION}.tar.gz"
-SOURCEFILE="eClinical-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

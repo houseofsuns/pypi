@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDelphin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Libraries and scripts for DELPH-IN data"
 
 HOMEPAGE="https://github.com/delph-in/pydelphin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/1a/e52f55f1be2fb3ddfeace59d014ca0ed3594c4393cc9220cc33bfe6ce628/PyDelphin-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDelphin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

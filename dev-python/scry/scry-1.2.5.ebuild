@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SCRY"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SPARQL Compatible seRvice laYer"
 
 HOMEPAGE="http://www.few.vu.nl/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/13/7bc7d256605b0207ddfa68a83bf1454b2599038717353f57f3a1c9c2b2bc/SCRY-${REALVERSION}.tar.gz"
-SOURCEFILE="SCRY-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

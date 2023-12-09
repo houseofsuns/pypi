@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Py-FS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python Package for Feature Selection"
 
 HOMEPAGE="https://github.com/CMATER-JUCS/Py-FS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ea/49/63f0dd50ad53a55f00717f77fe13f16bd7aec3d07ac02d789a8b8fdc36f2/Py_FS-${REALVERSION}.tar.gz"
-SOURCEFILE="Py_FS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LatexTemplater"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to allow python templating in latex files"
 
 HOMEPAGE="https://github.com/NathanRoseCE/LatexTemplater"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/88/9e/96c45e390495707ca1db8a5276f7a7f4c6a5f2bff36c50d8addd46954960/LatexTemplater-${REALVERSION}.tar.gz"
-SOURCEFILE="LatexTemplater-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

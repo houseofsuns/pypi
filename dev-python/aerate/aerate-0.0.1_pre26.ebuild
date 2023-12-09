@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Aerate"
 REALVERSION="0.0.1.dev26"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Aerate REST APIs: falcons with bravado and swagger."
 
 HOMEPAGE="http://aerate.arable.com"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/3b/41/4abd6f299c64f6277de3f105f8a5187a328b78247b19876fc3a79cc4c9f9/Aerate-${REALVERSION}.tar.gz"
-SOURCEFILE="Aerate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

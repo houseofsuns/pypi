@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SRITPOT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SRI Fork of Tree-based Pipeline Optimization Tool"
 
 HOMEPAGE="https://github.com/daraghhartnett/tpot"
 LICENSE="GNU/LGPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/b6/ba/2a9db309accb27e8ac4d036a1d0f65f1576a0c19310dfa3f2d2f6b787866/SRITPOT-${REALVERSION}.tar.gz"
-SOURCEFILE="SRITPOT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

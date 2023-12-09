@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Yaml8"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package to make getting yaml easier and cleaner"
 
 HOMEPAGE="https://github.com/AppDevIn/Yaml-Python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e7/8c/9db4fc691053edbd009b7d4da35751c909a5bbfffc9e6d04cf7e5289ba9a/Yaml8-${REALVERSION}.tar.gz"
-SOURCEFILE="Yaml8-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

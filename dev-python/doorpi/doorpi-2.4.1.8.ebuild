@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DoorPi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="provide intercomstation to the doorstation by VoIP"
 
 HOMEPAGE="https://github.com/motom001/DoorPi"
 LICENSE="CC BY-NC 4.0"
-SRC_URI="https://files.pythonhosted.org/packages/18/c9/6ad592939334e78e8c30ffc14eda895b5944ba2fb8ea052e834b9312b536/DoorPi-${REALVERSION}.tar.gz"
-SOURCEFILE="DoorPi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

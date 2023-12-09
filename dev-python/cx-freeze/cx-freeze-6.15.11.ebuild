@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="cx-Freeze"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Create standalone executables from Python scripts"
 
 HOMEPAGE=""
 LICENSE="PYTHON"
-SRC_URI="https://files.pythonhosted.org/packages/77/68/15adf0ad045e4f5de355d75e2e52a1825fbf81a36d864a4d2fee43262740/cx_Freeze-${REALVERSION}.tar.gz"
-SOURCEFILE="cx_Freeze-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

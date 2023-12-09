@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FADiff"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="autodiff using forward and reverse mode"
 
 HOMEPAGE="https://github.com/liuxiaoxuan97/FADiff"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/ff/51b9f4c5ee424a64c3f5cc76cdec704ab2720016864f90e2004ff3698e0f/FADiff-${REALVERSION}.tar.gz"
-SOURCEFILE="FADiff-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

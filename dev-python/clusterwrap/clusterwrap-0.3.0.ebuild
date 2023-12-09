@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ClusterWrap"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Wrappers around dask-jobqueue functions for specific clusters"
 
 HOMEPAGE="https://github.com/GFleishman/ClusterWrap"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/4e/3bfcbf8b8de52316ffeec4e8ad7176d0f702b2c64a11f06336bb152d0214/ClusterWrap-${REALVERSION}.tar.gz"
-SOURCEFILE="ClusterWrap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

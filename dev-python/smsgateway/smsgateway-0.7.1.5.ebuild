@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SMSGateway"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Forwards messages via SMS from and to instant messengers"
 
 HOMEPAGE="https://github.com/Craeckie/SMSGateway"
 LICENSE="Creative Commons Attribution-Noncommercial-Share Alike license"
-SRC_URI="https://files.pythonhosted.org/packages/bb/f9/f5564616d11f607e21cf88cf998d891de919d25ad9eb636f6c898bde22af/SMSGateway-${REALVERSION}.tar.gz"
-SOURCEFILE="SMSGateway-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

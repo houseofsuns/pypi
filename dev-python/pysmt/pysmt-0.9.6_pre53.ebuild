@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySMT"
 REALVERSION="0.9.6.dev53"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A solver-agnostic library for SMT Formulae manipulation and solving
 
 HOMEPAGE="http://www.pysmt.org"
 LICENSE="APACHE"
-SRC_URI="https://files.pythonhosted.org/packages/a3/5b/d79c528745754442f2848d15d4fddcde636c5799732f157d7e568e203370/PySMT-${REALVERSION}.tar.gz"
-SOURCEFILE="PySMT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

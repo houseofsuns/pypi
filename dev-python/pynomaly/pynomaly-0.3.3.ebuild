@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyNomaly"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python 3 implementation of LoOP: Local Outlier Probabilities, a l
 
 HOMEPAGE="https://github.com/vc1492a/PyNomaly"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/73/3d/585ad56ce7cf70bf0ffac25db9af6d68d31711ef9f875fa60290ceb0b6cb/PyNomaly-${REALVERSION}.tar.gz"
-SOURCEFILE="PyNomaly-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mopidy-MusicBox-Webclient"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mopidy MusicBox web extension"
 
 HOMEPAGE="https://github.com/pimusicbox/mopidy-musicbox-webclient"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9e/ca/95f08bf6fd4d14666fdadc9005784cf7b272fc2fa06198c359cf46264854/Mopidy-MusicBox-Webclient-${REALVERSION}.tar.gz"
-SOURCEFILE="Mopidy-MusicBox-Webclient-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

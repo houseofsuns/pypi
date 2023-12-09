@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="autodiff-AsiaUnionCS107"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An Automatic Differentiation Package"
 
 HOMEPAGE="https://github.com/AsiaUnionCS107/cs107-FinalProject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/bd/676416c9ef7bad6a14c6d7b78b7c2931dbcb933e41e44608675bb1bb34ca/autodiff-AsiaUnionCS107-${REALVERSION}.tar.gz"
-SOURCEFILE="autodiff-AsiaUnionCS107-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

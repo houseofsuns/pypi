@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ElPeriodic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Phase-locked userland scheduling library"
 
 HOMEPAGE="https://github.com/sobomax/libelperiodic"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/de/91/16ee87d73f3f00431c9f840ec20366a52c927397e8cd05af68b9094c8a4f/ElPeriodic-${REALVERSION}.tar.gz"
-SOURCEFILE="ElPeriodic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

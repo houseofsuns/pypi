@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="YABT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="YABT: A context sensitive string manipulation tool"
 
 HOMEPAGE="http://yabt.berlios.de"
 LICENSE="RPL"
-SRC_URI="https://files.pythonhosted.org/packages/1f/29/934e3f3e2280fa2c481f53a9d8fbe3f8f020ce3b25cf44ace98e7d7a7afb/YABT-${REALVERSION}.zip"
-SOURCEFILE="YABT-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

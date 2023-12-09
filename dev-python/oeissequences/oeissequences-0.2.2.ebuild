@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OEISsequences"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python functions to generate OEIS sequences"
 
 HOMEPAGE="https://github.com/postvakje/oeis-sequences"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/bd/61/998b7fb067c238d4a3f165cae01f85c795a4d647bcb1eb5adf73ac3e9a45/OEISsequences-${REALVERSION}.tar.gz"
-SOURCEFILE="OEISsequences-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

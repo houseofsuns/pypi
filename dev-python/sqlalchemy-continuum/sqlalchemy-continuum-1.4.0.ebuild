@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SQLAlchemy-Continuum"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Versioning and auditing extension for SQLAlchemy."
 
 HOMEPAGE="https://github.com/kvesteri/sqlalchemy-continuum"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b7/46/74fc59f22ae5bc9cc4052e861d4bdfa5215075760b235030ee0491ee55a8/SQLAlchemy-Continuum-${REALVERSION}.tar.gz"
-SOURCEFILE="SQLAlchemy-Continuum-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

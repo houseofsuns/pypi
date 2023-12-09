@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Superior-Cache-ANalyzer"
 REALVERSION="3.3.7.post3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An analysis tool for Apache Traffic Server caches."
 
 HOMEPAGE="https://github.com/comcast/Superior-Cache-ANalyzer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/de/1c477771ae5c839f940f0083e606256098e1451f433e5c76252a645e2849/Superior-Cache-ANalyzer-${REALVERSION}.tar.gz"
-SOURCEFILE="Superior-Cache-ANalyzer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

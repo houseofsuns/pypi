@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Axelrod"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Reproduce the Axelrod iterated prisoners dilemma tournament"
 
 HOMEPAGE="http://axelrod.readthedocs.org/"
 LICENSE="The MIT License MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/7e/b5b2480d420f3d4bef7e94dd4565a5bc56a35d4f776d1c6fdd0f031f8b1f/Axelrod-${REALVERSION}.tar.gz"
-SOURCEFILE="Axelrod-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

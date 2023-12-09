@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Telegant"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An Elegant Modern Bot Framework for Python"
 
 HOMEPAGE="https://github.com/kotov584/Telegant"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/21/22380f6d6e608ba6fe19546f350fdcfef87c50489b0be1411ac0dbdc99d3/Telegant-${REALVERSION}.tar.gz"
-SOURCEFILE="Telegant-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NucDetect"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Module to identify intranuclear proteins on basis of fluorescence i
 
 HOMEPAGE="https://github.com/SilMon/NucDetect"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/fe/85069c147b114d74b06a0aa2fe37bf083ef72120dad943d2cd12e8e5512b/NucDetect-${REALVERSION}.tar.gz"
-SOURCEFILE="NucDetect-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

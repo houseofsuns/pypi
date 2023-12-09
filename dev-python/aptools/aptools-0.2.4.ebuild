@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="APtools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A collection of tools for accelerator physics"
 
 HOMEPAGE="https://github.com/AngelFP/APtools"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/29/04/4f72c8d92138603ec891c3f096697c171fb750bcd6402c476306e4d9caf2/APtools-${REALVERSION}.tar.gz"
-SOURCEFILE="APtools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

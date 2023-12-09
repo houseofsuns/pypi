@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BESST"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Scaffolder for genomic assemblies."
 
 HOMEPAGE="https://github.com/ksahlin/BESST"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/4e/77/8e3ef4977dafc1c270b87f465b2850a346e9529077934ae3f8c520f3608d/BESST-${REALVERSION}.tar.gz"
-SOURCEFILE="BESST-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

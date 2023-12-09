@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="secScraper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for Insight project"
 
 HOMEPAGE="https://github.com/AlexBdx/sec_scrapper/tree/master/sec_scrapper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b4/e4/d667b1f00352173d4a042b8fd04841a7d224396d57dc54cbf28bf73fd1ae/secScraper-${REALVERSION}.tar.gz"
-SOURCEFILE="secScraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

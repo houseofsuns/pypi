@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Scyland3D"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python package for processing 3D landmarks"
 
 HOMEPAGE="https://github.com/ybayle/Scyland3D"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/71/09/3725341f5331573a710f25564496984c1e196644183581775cc48c4d63b3/Scyland3D-${REALVERSION}.tar.gz"
-SOURCEFILE="Scyland3D-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

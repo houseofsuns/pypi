@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyPowerStore"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Library for Dell PowerStore"
 
 HOMEPAGE="https://github.com/dell/python-powerstore"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/df/21dcb35317d1e953669abc2153a86a9b2c0daa2cd9f7f08d6031ed38d1d3/PyPowerStore-${REALVERSION}.tar.gz"
-SOURCEFILE="PyPowerStore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

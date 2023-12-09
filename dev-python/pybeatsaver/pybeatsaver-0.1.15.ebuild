@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyBeatSaver"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Beat Saver API wrapper"
 
 HOMEPAGE="https://github.com/Kiyomi-Parents/PyBeatSaver"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0a/83/ededce13512e8263e8d3655e48cf125a0451c31c2d13ed0315d0503670ff/PyBeatSaver-${REALVERSION}.tar.gz"
-SOURCEFILE="PyBeatSaver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

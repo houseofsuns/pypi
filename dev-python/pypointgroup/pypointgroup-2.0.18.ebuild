@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyPointGroup"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Point group symmetry study software"
 
 HOMEPAGE="https://github.com/nik0380/pypointgroup"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/94/fe6dde7165ed78fc228ce681ae8324dadf5c0e3864d14e2064a74b2ebe07/PyPointGroup-${REALVERSION}.tar.gz"
-SOURCEFILE="PyPointGroup-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

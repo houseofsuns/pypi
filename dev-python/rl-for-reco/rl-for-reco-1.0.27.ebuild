@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RL-for-reco"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python toolkit of Deep Reinforcement Learning for Structured Data
 
 HOMEPAGE="https://github.com/gowun/RL_for_reco.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5c/33/639db20d859e99c2aa15f81ea30b1c09dcb8552dcba2223761088fa4dae8/RL_for_reco-${REALVERSION}.tar.gz"
-SOURCEFILE="RL_for_reco-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

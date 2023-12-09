@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyChromeDevTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyChromeDevTools : Interact with Google Chrome using the Chrome Dev
 
 HOMEPAGE="https://github.com/marty90/PyChromeDevTools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/70/26/cc42c67c6cc08a5951a1e78a05834655e368333b4ae31e7d9dd48ce288cf/PyChromeDevTools-${REALVERSION}.tar.gz"
-SOURCEFILE="PyChromeDevTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

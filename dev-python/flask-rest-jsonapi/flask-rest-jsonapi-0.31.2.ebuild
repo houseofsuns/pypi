@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-REST-JSONAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension to create REST web api according to JSONAPI 1.0 spe
 
 HOMEPAGE="https://github.com/miLibris/flask-rest-jsonapi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6d/b1/79dfd9be8018ac1d0f64004d8419f491d2c0ba317f5fc05ce32389a83abc/Flask-REST-JSONAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-REST-JSONAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

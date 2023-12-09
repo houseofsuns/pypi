@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TruMusic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Audio file auto-tagger"
 
 HOMEPAGE="https://github.com/jacobtruman/TruMusic"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/81/2f/a65185eea48090c1044fe771461145c500e0b38cd921032ae2ccdfa52ff8/TruMusic-${REALVERSION}.tar.gz"
-SOURCEFILE="TruMusic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

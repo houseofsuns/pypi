@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ALMAFE-Lib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Contains reusable tools which are required by other ALMAFE packages
 
 HOMEPAGE="https://github.com/morganmcleod/ALMAFE-Lib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/53/1a/68fcb57708ef9a94616213fd67cd088240b5288f07744408dec53c2f7693/ALMAFE-Lib-${REALVERSION}.tar.gz"
-SOURCEFILE="ALMAFE-Lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

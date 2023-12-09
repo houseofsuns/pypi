@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Metafone"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python implementation of the double metaphone algorithms."
 
 HOMEPAGE="https://github.com/al45tair/metaphone"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/9e/45/21742e8497da72e73206410fe53bc1a013fb748d51bb0b119efd6bdbcc9f/Metafone-${REALVERSION}.tar.gz"
-SOURCEFILE="Metafone-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

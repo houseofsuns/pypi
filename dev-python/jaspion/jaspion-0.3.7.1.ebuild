@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Jaspion"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FreeSwitch Event Handler based in Flask."
 
 HOMEPAGE="https://github.com/Otoru/Jaspion"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/2b/d17f1ef17484f870864b6b255619f559f85f3ff0879616af15c9823d9795/Jaspion-${REALVERSION}.tar.gz"
-SOURCEFILE="Jaspion-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

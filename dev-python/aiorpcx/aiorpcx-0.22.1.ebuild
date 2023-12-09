@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="aiorpcX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generic async RPC implementation, including JSON-RPC"
 
 HOMEPAGE="https://github.com/kyuupichan/aiorpcX"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/70/b2/77ab9e156152f2054b17115cf30bbb56766c4a8545ff323346434871bd88/aiorpcX-${REALVERSION}.tar.gz"
-SOURCEFILE="aiorpcX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

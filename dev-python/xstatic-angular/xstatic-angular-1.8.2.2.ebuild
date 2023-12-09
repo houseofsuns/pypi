@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-Angular"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Angular 1.8.2 (XStatic packaging standard)"
 
 HOMEPAGE="http://angularjs.org"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/10/45/ef21b960ea44834912f1131d84d972210f7815c63938843c30e72be451e1/XStatic-Angular-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-Angular-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

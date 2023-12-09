@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="grpcWSGI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="gRPC-Web + WSGI"
 
 HOMEPAGE="https://github.com/public/grpcWSGI"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a3/97/3cfe9023257aee9b09d5cdb3bafe9cdba28ff141dd13d1fee94c318a0191/grpcWSGI-${REALVERSION}.tar.gz"
-SOURCEFILE="grpcWSGI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

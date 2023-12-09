@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AutoSite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Keep all your website's pages under one template"
 
 HOMEPAGE="https://github.com/dotcomboom/AutoSite"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5e/1e/aedbdf8b12fe09f8b24c5ee86169487cf573bd8e2a9472970f8d804d7050/AutoSite-${REALVERSION}.tar.gz"
-SOURCEFILE="AutoSite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

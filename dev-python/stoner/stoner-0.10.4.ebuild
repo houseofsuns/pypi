@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Stoner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library to help write data analysis tools for experimental condense
 
 HOMEPAGE="http://github.com/~gb119/Stoner-PythonCode"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b8/61/a4a706e7d10973f6ea0fb81383abd1e9b9b9b32f9bfd925ec7b11a062cfe/Stoner-${REALVERSION}.tar.gz"
-SOURCEFILE="Stoner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-objectpath"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="objectpath 1.2.1 (XStatic packaging standard)"
 
 HOMEPAGE="https://github.com/mike-marcacci/objectpath"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/6c/56de25d9d3be430e7de2fcf4baac10279dad78d7b16cbda339cf014c2fe5/XStatic-objectpath-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-objectpath-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

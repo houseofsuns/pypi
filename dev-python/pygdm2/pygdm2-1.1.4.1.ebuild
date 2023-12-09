@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyGDM2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python full-field electrodynamical solver, based on the Green dya
 
 HOMEPAGE="https://gitlab.com/wiechapeter/pyGDM2"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/f7/a3/419f48fc8b3deee1d5ebeff3edbf9e8520a154316213e4ad0a057818e694/pyGDM2-${REALVERSION}.tar.gz"
-SOURCEFILE="pyGDM2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

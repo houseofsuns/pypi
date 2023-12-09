@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ESD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Enumeration Sub Domains(枚举子域名)"
 
 HOMEPAGE="https://github.com/FeeiCN/ESD"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/38/d2/aad92c999615e085e6388ca48b3fa4880fc5efca59be356f3c30552065f2/ESD-${REALVERSION}.tar.gz"
-SOURCEFILE="ESD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

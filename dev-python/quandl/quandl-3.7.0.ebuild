@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Quandl"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package for quandl API access"
 
 HOMEPAGE="https://github.com/quandl/quandl-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b1/9c/113e52b176d90532deaf4001cda6e7064d2c129c5c10164ace61423c6e4f/Quandl-${REALVERSION}.tar.gz"
-SOURCEFILE="Quandl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

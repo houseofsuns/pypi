@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Continuum"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Model provenance and versioning via SQLAlchemy-Continuum"
 
 HOMEPAGE="https://github.com/bprinty/Flask-Continuum"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/3b/76f1e43f8a3613331edf3192c6ce5c4ab16cb9bc47633a05555387e1c362/Flask-Continuum-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Continuum-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

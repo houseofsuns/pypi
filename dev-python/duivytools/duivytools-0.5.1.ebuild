@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DuIvyTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple tool for GROMACS results analysis and visualization"
 
 HOMEPAGE="https://github.com/CharlesHahn/DuIvyTools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/e8/65462713a6b9908b90b5465b52d016a44cd5ceb55c51b271f331d0b990a6/DuIvyTools-${REALVERSION}.tar.gz"
-SOURCEFILE="DuIvyTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

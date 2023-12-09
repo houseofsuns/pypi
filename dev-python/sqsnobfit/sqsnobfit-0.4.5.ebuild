@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SQSnobFit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SnobFit - Stable Noisy Optimization by Branch and FIT"
 
 HOMEPAGE="http://scikit-quant.org/"
 LICENSE="other"
-SRC_URI="https://files.pythonhosted.org/packages/5e/38/93f0258aaf46c273869407f18dc0335d4ffda5c2886fc86c16a008b2b225/SQSnobFit-${REALVERSION}.tar.gz"
-SOURCEFILE="SQSnobFit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

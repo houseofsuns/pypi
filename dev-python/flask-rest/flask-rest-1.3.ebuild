@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-REST"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple REST toolkit for Flask"
 
 HOMEPAGE="http://github.com/ametaireau/flask-rest/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/73/88/c604c41e4f5350da313948451fdf2d1507c0f43aeb5073302b06ecde2b92/Flask-REST-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-REST-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

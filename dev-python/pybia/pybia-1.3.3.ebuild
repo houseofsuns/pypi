@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyBIA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Convolutional Neural Network for Ly-alpha Blob Detection"
 
 HOMEPAGE="https://github.com/Professor-G/pyBIA"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/78/4c/43067d3e3b2eb192a185d221eef6e6879464555f3da26a524a916ea43a7f/pyBIA-${REALVERSION}.tar.gz"
-SOURCEFILE="pyBIA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

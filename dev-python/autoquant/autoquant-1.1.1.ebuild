@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AutoQuant"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Auto Quant"
 
 HOMEPAGE="https://github.com/marcnuth/AutoQuant"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/8b/14c6e6f043fd7c8f358be3671ab6210c7e295ab7b64b748aaa594e2ef986/AutoQuant-${REALVERSION}.tar.gz"
-SOURCEFILE="AutoQuant-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

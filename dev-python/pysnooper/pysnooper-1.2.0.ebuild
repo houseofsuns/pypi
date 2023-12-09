@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySnooper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A poor man's debugger for Python."
 
 HOMEPAGE="https://github.com/cool-RR/PySnooper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/08/474e7891ff7107328404b46f42cdc9bf58b99404924d35933037cd0fb145/PySnooper-${REALVERSION}.tar.gz"
-SOURCEFILE="PySnooper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PythonPals"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Production Release"
 
 HOMEPAGE="https://github.com/nathanhilton/PythonPals/tree/development"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e5/35/084dfa5be270571e34545a6a3b3aa32e6af1089fe9f8772f2e74499ea17a/PythonPals-${REALVERSION}.tar.gz"
-SOURCEFILE="PythonPals-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

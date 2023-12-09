@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MinAtar"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A miniaturized version of the Arcade Learning Environment."
 
 HOMEPAGE="https://github.com/kenjyoung/MinAtar"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/73/c3/4ea70dd08545e25ef53b07f3d64de36ca24d0b5f8579991f35557fc427f4/MinAtar-${REALVERSION}.tar.gz"
-SOURCEFILE="MinAtar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

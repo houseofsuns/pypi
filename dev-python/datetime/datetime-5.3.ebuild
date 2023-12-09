@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DateTime"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This package provides a DateTime data type, as known from Zope. Unl
 
 HOMEPAGE="https://github.com/zopefoundation/DateTime"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/be/ec/802a22e6aeace2d3b4ee254c2b9613ed20b3ec4e9827915e87b21dbd0c33/DateTime-${REALVERSION}.tar.gz"
-SOURCEFILE="DateTime-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

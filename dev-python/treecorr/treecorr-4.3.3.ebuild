@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TreeCorr"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python module for computing 2-point correlation functions"
 
 HOMEPAGE="https://github.com/rmjarvis/TreeCorr"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/63/97/0ff148d05e924ce854120a8ab96f7e52f5f2223e910ac54388e0929d3660/TreeCorr-${REALVERSION}.tar.gz"
-SOURCEFILE="TreeCorr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

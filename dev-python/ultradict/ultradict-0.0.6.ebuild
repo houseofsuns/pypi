@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UltraDict"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Sychronized, streaming dictionary that uses shared memory as a back
 
 HOMEPAGE="https://github.com/ronny-rentner/UltraDict"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/37/51/85769139b621dbfe2ef741ddbe7d75df39f203d226983a274e9474edb65e/UltraDict-${REALVERSION}.tar.gz"
-SOURCEFILE="UltraDict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

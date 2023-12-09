@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ItchClaim"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automatically claim free games from itch.io"
 
 HOMEPAGE="https://github.com/Smart123s/ItchClaim"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/0f/0a8a33cc14f9fc3a56d8b18cfb5dc2cf5b80e369862354c5631aba050e5d/ItchClaim-${REALVERSION}.tar.gz"
-SOURCEFILE="ItchClaim-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ZBRO2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lobby bot."
 
 HOMEPAGE="https://www.youtube.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/15/bfc8a73dd2822e4b8a578be66a54d313e9f611c50568ca4c6d6c6adeac85/ZBRO2-${REALVERSION}.tar.gz"
-SOURCEFILE="ZBRO2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

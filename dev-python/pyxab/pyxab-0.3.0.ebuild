@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyXAB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyXAB - A Python Library for X-Armed Bandit and Online Blackbox Opt
 
 HOMEPAGE="https://github.com/WilliamLwj/PyXAB"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/80/e2a57267708fe523d7f11995487e8e2ff5fa8c2c0ff085b5ff300bf2a7ce/PyXAB-${REALVERSION}.tar.gz"
-SOURCEFILE="PyXAB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

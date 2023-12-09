@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Saika"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple web framework base on Flask."
 
 HOMEPAGE="https://github.com/HsOjo/Saika/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/e4/4bf7070035ddc994fe0eb5a734dc65d1de41b580e681b92a0eb04fc2b6e3/Saika-${REALVERSION}.tar.gz"
-SOURCEFILE="Saika-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

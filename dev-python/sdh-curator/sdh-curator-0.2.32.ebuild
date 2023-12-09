@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SDH-Curator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The service responsible for supporting resource enrichment on a Lin
 
 HOMEPAGE="https://github.com/smartdeveloperhub/sdh-curator.git"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d9/f6/b5ed54fc8003dbbbd3f8825fb7a861de47cdb0629f1a952a9d6caadb3b44/SDH-Curator-${REALVERSION}.tar.gz"
-SOURCEFILE="SDH-Curator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

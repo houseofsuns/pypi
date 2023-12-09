@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pytess"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pure Python tessellation of points into polygons, including Delaune
 
 HOMEPAGE="http://github.com/karimbahgat/Pytess"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/12/f6/b687d1684d5db29e0a014dbafce6d0ec120353719631265c7f612bb41a4c/Pytess-${REALVERSION}.tar.gz"
-SOURCEFILE="Pytess-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

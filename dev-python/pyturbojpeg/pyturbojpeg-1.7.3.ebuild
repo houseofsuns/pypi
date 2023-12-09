@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyTurboJPEG"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python wrapper of libjpeg-turbo for decoding and encoding JPEG im
 
 HOMEPAGE="https://github.com/lilohuang/PyTurboJPEG"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/51/1262a8a42bf4f7dedff4cd7c96586427f0cd369533f9668aef275caf1a0c/PyTurboJPEG-${REALVERSION}.tar.gz"
-SOURCEFILE="PyTurboJPEG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

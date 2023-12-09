@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OrzMC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A project for deployment of minecraft game."
 
 HOMEPAGE="https://github.com/OrzGeeker/OrzMC.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/c9/484e2a3f3205a4dad75e48b8beeda41b730ce6325ef9e7d4d52450366190/OrzMC-${REALVERSION}.tar.gz"
-SOURCEFILE="OrzMC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

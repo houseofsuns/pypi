@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Hydrawiser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library to communicate with Hunter Wi-Fi irrigation contro
 
 HOMEPAGE="https://github.com/ptcryan/hydrawiser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f5/c4/0ded068d4075b43847ce71b442da4a81cb0baf048784cb2345e7a6403147/Hydrawiser-${REALVERSION}.tar.gz"
-SOURCEFILE="Hydrawiser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

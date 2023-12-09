@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Baskit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Minecraft Server Manager"
 
 HOMEPAGE="https://github.com/SteveMcGrath/baskit"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/3d/f7/f2b1497968f329382369036dccf76975fdcf44515b3a9d97cac07aa76bba/Baskit-${REALVERSION}.tar.gz"
-SOURCEFILE="Baskit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

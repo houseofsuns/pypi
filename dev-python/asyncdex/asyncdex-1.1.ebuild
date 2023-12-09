@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AsyncDex"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Async MangaDex library"
 
 HOMEPAGE="https://github.com/PythonCoderAS/AsyncDex"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/21/088246b1591586fc1c65a09c169fbbe3b26ccc2522f6637feb17f6689a17/AsyncDex-${REALVERSION}.tar.gz"
-SOURCEFILE="AsyncDex-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

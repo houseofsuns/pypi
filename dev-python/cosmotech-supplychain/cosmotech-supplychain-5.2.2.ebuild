@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CosmoTech-SupplyChain"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A support package for SupplyChain"
 
 HOMEPAGE="https://github.com/Cosmo-Tech/supplychain-python-library<"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3b/47/f118da657ecca5bb154f7db8055dc3d94948beea8ee063270fd955662d7f/CosmoTech-SupplyChain-${REALVERSION}.tar.gz"
-SOURCEFILE="CosmoTech-SupplyChain-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

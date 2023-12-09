@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UliEngineering"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Computational tools for electronics engineering"
 
 HOMEPAGE="https://techoverflow.net/"
 LICENSE="Apache License v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/81/97/8d7b772d8f2c4a875bc05168f48f5911374939404a063d69249463ad2d0d/UliEngineering-${REALVERSION}.tar.gz"
-SOURCEFILE="UliEngineering-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

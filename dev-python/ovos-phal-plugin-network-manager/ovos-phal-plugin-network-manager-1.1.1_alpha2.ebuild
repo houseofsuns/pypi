@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ovos-PHAL-plugin-network-manager"
 REALVERSION="1.1.1a2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Network Manager plugin for OpenVoiceOS hardware abstraction layer"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-PHAL-plugin-network-manager"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/98/79/242fc54ef0b7ff8d5e02ee6b7484b1e680f19756709d4c66a1f65a7497c1/ovos-PHAL-plugin-network-manager-${REALVERSION}.tar.gz"
-SOURCEFILE="ovos-PHAL-plugin-network-manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

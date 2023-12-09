@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HOPYBOX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This is an open source, practical command Python box"
 
 HOMEPAGE="https://github.com/HOStudio123/HOPYBOX"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/ef/ac/44b08f2f47e159ac16f12ec54baca661e59eb2d9ec09427c8f0b16384a9c/HOPYBOX-${REALVERSION}.tar.gz"
-SOURCEFILE="HOPYBOX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

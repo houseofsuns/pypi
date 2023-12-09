@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="iOpt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Фреймворк для автоматического выбор
 
 HOMEPAGE="https://github.com/aimclub/iOpt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d0/fb/be7013f77f758cccfa85647d3ad1333233d77d911de636c491c6aab44f0d/iOpt-${REALVERSION}.tar.gz"
-SOURCEFILE="iOpt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

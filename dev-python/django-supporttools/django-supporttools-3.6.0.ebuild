@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Django-SupportTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Django application used for theming and wrapping AXDD support too
 
 HOMEPAGE="https://github.com/uw-it-aca/django-supporttools"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/00/db/4d5d6757a0d457b9b1864ec7d0dbeb9fd3e6c7b5cd670591048a868f6324/Django-SupportTools-${REALVERSION}.tar.gz"
-SOURCEFILE="Django-SupportTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

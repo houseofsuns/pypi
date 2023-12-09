@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pyckson"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A minimalist python object mapper"
 
 HOMEPAGE="https://github.com/antidot/Pyckson"
 LICENSE="LGPL-2.1+"
-SRC_URI="https://files.pythonhosted.org/packages/12/f8/49256f7fab2b1b95e34cfe497437ff59f8cc6b28179ef671f4495e8457b9/Pyckson-${REALVERSION}.tar.gz"
-SOURCEFILE="Pyckson-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

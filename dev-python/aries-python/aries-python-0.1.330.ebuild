@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Aries-Python"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package providing shortcuts to small tasks like string manip
 
 HOMEPAGE="https://github.com/qiuosier/Aries"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/52/5f/59af51d9800e4b27d85a0410000a61488fb17bc8da860eea99731785720e/Aries-Python-${REALVERSION}.tar.gz"
-SOURCEFILE="Aries-Python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

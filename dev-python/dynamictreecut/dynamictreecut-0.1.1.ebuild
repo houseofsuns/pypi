@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="dynamicTreeCut"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Dynamic Tree Cut"
 
 HOMEPAGE="https://github.com/kylessmith/dynamicTreeCut"
 LICENSE="GPL-3 Licenses"
-SRC_URI="https://files.pythonhosted.org/packages/e2/f9/07241f0d25fe0e00a2e545142241a9cf81482b4054789e0cd590b0016623/dynamicTreeCut-${REALVERSION}.tar.gz"
-SOURCEFILE="dynamicTreeCut-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

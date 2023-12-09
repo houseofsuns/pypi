@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Lifetimes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Measure customer lifetime value in Python"
 
 HOMEPAGE="https://github.com/CamDavidsonPilon/lifetimes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b5/63/a3262c94c4773440369dca99c2202fb0ffe3b5cff7d07837ab8862219180/Lifetimes-${REALVERSION}.tar.gz"
-SOURCEFILE="Lifetimes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

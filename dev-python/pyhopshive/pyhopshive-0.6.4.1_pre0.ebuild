@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyHopsHive"
 REALVERSION="0.6.4.1.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python interface to Hops Hive"
 
 HOMEPAGE="https://github.com/logicalclocks/PyHive"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cf/98/b8e544f60cf3b61b48e9a542f4b69dca662f6ec4f8d6a4891375ceb6e31c/PyHopsHive-${REALVERSION}.tar.gz"
-SOURCEFILE="PyHopsHive-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

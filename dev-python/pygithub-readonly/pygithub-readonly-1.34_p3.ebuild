@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyGithub-ReadOnly"
 REALVERSION="1.34.post3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This fork of PyGithub provides support for read-only deploy keys"
 
 HOMEPAGE="https://github.com/kbarnes3/PyGithub"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/ef/c93c9d1b534ca8620f03b2662583c5dd918dcce43f2cdbe9c1cd793a6ffd/PyGithub-ReadOnly-${REALVERSION}.tar.gz"
-SOURCEFILE="PyGithub-ReadOnly-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Odooly"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Versatile tool for browsing Odoo / OpenERP data"
 
 HOMEPAGE="http://odooly.readthedocs.org/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/70/59/c3f202329354243526e7d41b6f956face0232aee78c38747ab889e9441e8/Odooly-${REALVERSION}.tar.gz"
-SOURCEFILE="Odooly-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

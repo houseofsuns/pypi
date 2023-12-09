@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LeoX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Spectrum simulations with TD(A)-DFT"
 
 HOMEPAGE="https://github.com/LeonardoESousa/LeoX"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/4e/adbf5b9d510dd64e05703e726e6cb70766f105bf0d969e2f9b517642a1fb/LeoX-${REALVERSION}.tar.gz"
-SOURCEFILE="LeoX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

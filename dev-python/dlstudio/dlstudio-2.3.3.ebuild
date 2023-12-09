@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DLStudio"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A PyTorch based software platform for teaching the Deep Learning cl
 
 HOMEPAGE="https://engineering.purdue.edu/kak/distDLS/DLStudio-2.3.3.html"
 LICENSE="PYTHON"
-SRC_URI="https://files.pythonhosted.org/packages/89/1d/ad44663531928c326543b94f9817193ba13772db41cde5e439307ebc2a49/DLStudio-${REALVERSION}.tar.gz"
-SOURCEFILE="DLStudio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

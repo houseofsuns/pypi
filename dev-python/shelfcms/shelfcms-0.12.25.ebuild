@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ShelfCMS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Enhancing flask microframework with beautiful admin and cms-like fe
 
 HOMEPAGE="https://github.com/iriahi/shelf-cms"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b0/ec/12925f463de4a60350b5cda064e7d62e78d650b448da14c345da81f5cb7e/ShelfCMS-${REALVERSION}.zip"
-SOURCEFILE="ShelfCMS-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

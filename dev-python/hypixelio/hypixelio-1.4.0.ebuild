@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HypixelIO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A modern, efficient and better way of interacting with the Hypixel 
 
 HOMEPAGE="https://github.com/janaSunrise/HypixelIO"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/51/a69dd9fda855ca7ac90bae279b96cd5fdbbae8b479b6758c7ea354bdecf0/HypixelIO-${REALVERSION}.tar.gz"
-SOURCEFILE="HypixelIO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

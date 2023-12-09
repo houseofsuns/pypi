@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Vicinator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A small python package to trace orthology neighborhood across featu
 
 HOMEPAGE="https://github.com/ba1/vicinator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fb/20/1bc6dd3bc088bfdd933b1ace6c2a384c7da34491dc54d7f2907621d2b01f/Vicinator-${REALVERSION}.tar.gz"
-SOURCEFILE="Vicinator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

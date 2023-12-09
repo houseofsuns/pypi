@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyBibX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Bibliometric and Scientometric Library Powered with Artificial In
 
 HOMEPAGE="https://github.com/Valdecy/pyBibX"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/63/5d/0fa67a99e476100cc02bbc02eaa3c1a6348baf0d8b171b7d7a8685d3cb7a/pyBibX-${REALVERSION}.tar.gz"
-SOURCEFILE="pyBibX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

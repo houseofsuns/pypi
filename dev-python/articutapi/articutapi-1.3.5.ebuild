@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ArticutAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Articut NLP system provides not only finest results on Chinese word
 
 HOMEPAGE="https://github.com/Droidtown/ArticutAPI"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/bc/e7567d3c09e1bf5844f2375c0cef2d2586a4d65ebd5c33fbc0a905df5e94/ArticutAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="ArticutAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

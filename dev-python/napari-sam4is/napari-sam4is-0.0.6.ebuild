@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="napari-SAM4IS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Create annotations for instance segmentation using Segment Anything
 
 HOMEPAGE="https://github.com/hiroalchem/napari-SAM4IS"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/82/74/09cf3cfb20bdcb30e2fc7e29fc2b37537a823e0017919efb3069e4debedc/napari-SAM4IS-${REALVERSION}.tar.gz"
-SOURCEFILE="napari-SAM4IS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

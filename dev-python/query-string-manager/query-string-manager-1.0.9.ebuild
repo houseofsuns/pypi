@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Query-String-Manager"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple Python utility to generate/parse URL query strings, either r
 
 HOMEPAGE="https://github.com/Topazoo/Query-String-Manager"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/59/4e/4165ff0eb1dc1df6d652e51a9e5d9b045bdaaa7c0856e135c81cb9d4b3be/Query-String-Manager-${REALVERSION}.tar.gz"
-SOURCEFILE="Query-String-Manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySixel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="View full-pixel color graphics on SIXEL-supported terminals(xterm/m
 
 HOMEPAGE="https://github.com/saitoha/PySixel"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/0d/f8/e67ae96d3a42122e85343ac9741692183158882d0ba67ce7c5d84043c7fc/PySixel-${REALVERSION}.tar.gz"
-SOURCEFILE="PySixel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

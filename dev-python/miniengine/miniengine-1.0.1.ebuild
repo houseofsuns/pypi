@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Miniengine"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Engine for pygame"
 
 HOMEPAGE="https://github.com/rrayes3110/Mini-Engine"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/25/11/d9bd13436a6f1d4f7730f46b51f68430fcd149bc6bd75cdde76d0ddf5f12/Miniengine-${REALVERSION}.tar.gz"
-SOURCEFILE="Miniengine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

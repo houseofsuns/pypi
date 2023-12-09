@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MkEdit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="基于Pyside2 实现的markdwon edit"
 
 HOMEPAGE="https://gitee.com/osczaizai/PySide2MkEdit.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/cf/f91d5667cabb1f9dce0142fd4fac191b6d9ac434f39ebac08051f73484ae/MkEdit-${REALVERSION}.tar.gz"
-SOURCEFILE="MkEdit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

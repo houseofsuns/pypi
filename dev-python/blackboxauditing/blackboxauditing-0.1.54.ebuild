@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BlackBoxAuditing"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Sample Implementation of Gradient Feature Auditing (GFA)"
 
 HOMEPAGE="https://github.com/algofairness/BlackBoxAuditing"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d8/2e/e2e7166bc78eb599b602ca79ace1ceba2ef83b69a0b708c9a7eb729347bf/BlackBoxAuditing-${REALVERSION}.tar.gz"
-SOURCEFILE="BlackBoxAuditing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

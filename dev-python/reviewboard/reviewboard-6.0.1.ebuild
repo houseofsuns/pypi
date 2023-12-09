@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ReviewBoard"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Review Board, a fully-featured web-based code and document review t
 
 HOMEPAGE="https://www.reviewboard.org/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/24/412edacc3e04af5e9287bbd36a6b8e11341b5733b5790158d14ad8cb6f99/ReviewBoard-${REALVERSION}.tar.gz"
-SOURCEFILE="ReviewBoard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

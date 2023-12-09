@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Staxing"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Stax test base"
 
 HOMEPAGE="https://github.com/openstax/staxing"
 LICENSE="Creative Commons Attribution 4.0 International Public License"
-SRC_URI="https://files.pythonhosted.org/packages/96/72/7c3d0769e433e7d9f379731983d97fbc0b6a2a15748d2590f65d2c7a0901/Staxing-${REALVERSION}.tar.gz"
-SOURCEFILE="Staxing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

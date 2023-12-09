@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WSME"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simplify the writing of REST APIs, and extend them with additional 
 
 HOMEPAGE="https://opendev.org/x/wsme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/4f/04ddd9a3340142e68a60b9158bbe39b347deee4178c44e8aabee577781df/WSME-${REALVERSION}.tar.gz"
-SOURCEFILE="WSME-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

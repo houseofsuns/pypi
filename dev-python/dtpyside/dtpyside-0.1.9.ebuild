@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DTPySide"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A PySide framework for constructing customizable GUI software."
 
 HOMEPAGE="https://github.com/Holence/DTPySide"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/77/c0/06c7b0ee00afd0d4c735ece1609186097c279597284f4e7c88b8a8157688/DTPySide-${REALVERSION}.tar.gz"
-SOURCEFILE="DTPySide-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

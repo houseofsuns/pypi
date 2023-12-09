@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SobolSequence"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Sobol sequence generator"
 
 HOMEPAGE="https://github.com/DavidWalz/sobol"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/13/c5/06eae8024943bb71ab9194f00cecd3564ad7553532dd1f058be7b368cbe4/SobolSequence-${REALVERSION}.tar.gz"
-SOURCEFILE="SobolSequence-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

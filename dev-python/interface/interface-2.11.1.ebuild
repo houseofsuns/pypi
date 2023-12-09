@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Interface"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Interface implementation"
 
 HOMEPAGE="http://cheeseshop.python.org/pypi/Interface"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/f9/80/7283dfe76ceb7eb1868cf97b8c8cb3a988f80757921341f95d5420de2a6e/Interface-${REALVERSION}.tar.gz"
-SOURCEFILE="Interface-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

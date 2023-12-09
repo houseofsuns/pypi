@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Python-Brokers-API"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to make requests to brokers like binance,kraken"
 
 HOMEPAGE="https://github.com/hugodemenez/Python_Brokers_API"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/1b/57d5c76970261f1b83bb3388565a04e584b0cc2b46008f1d243b034017d3/Python_Brokers_API-${REALVERSION}.tar.gz"
-SOURCEFILE="Python_Brokers_API-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

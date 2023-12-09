@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Sockets"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Elegant WebSockets for your Flask apps."
 
 HOMEPAGE="https://github.com/kennethreitz/flask-sockets"
 LICENSE="See License"
-SRC_URI="https://files.pythonhosted.org/packages/54/ce/9870fb46283b6a1130a3893e5640064f957d62d48ed2bc3cd84a8f529620/Flask-Sockets-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Sockets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

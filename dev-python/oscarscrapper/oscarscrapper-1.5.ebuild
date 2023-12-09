@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OscarScrapper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Academy Awards Scraper and Data processor"
 
 HOMEPAGE="https://github.com/omasamo/Final-Project-JEM207"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dc/26/8b44833daa52e7013d9e471ca3ff757f52326e80d62035c74d2af60033f8/OscarScrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="OscarScrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

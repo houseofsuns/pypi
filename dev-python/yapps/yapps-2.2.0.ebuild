@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Yapps"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Yet Another Python Parser System"
 
 HOMEPAGE="https://github.com/smurfix/yapps"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7a/53/e6b985ee650378b985c2f7fa74242b64554ddb06740bfe8b0a758b868832/Yapps-${REALVERSION}.tar.gz"
-SOURCEFILE="Yapps-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

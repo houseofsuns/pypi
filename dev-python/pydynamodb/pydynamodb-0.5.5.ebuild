@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDynamoDB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python DB API 2.0 (PEP 249) client for Amazon DynamoDB"
 
 HOMEPAGE="https://github.com/passren/PyDynamoDB"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/3a/3eb899906d7c42ce5daf8ed1365c46224cc1031562f19dd66724a780d2d1/PyDynamoDB-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDynamoDB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

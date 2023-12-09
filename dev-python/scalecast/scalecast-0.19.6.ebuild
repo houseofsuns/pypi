@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SCALECAST"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The practitioner's time series forecasting library"
 
 HOMEPAGE="https://github.com/mikekeith52/scalecast"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/1b/56c2e3ff683507beaaa8a96e4d580cf5c292b79e9eaedbaaaa2940b59827/SCALECAST-${REALVERSION}.tar.gz"
-SOURCEFILE="SCALECAST-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

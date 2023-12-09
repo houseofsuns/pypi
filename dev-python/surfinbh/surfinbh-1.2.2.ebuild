@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="surfinBH"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Surrogate Final BH properties."
 
 HOMEPAGE="https://github.com/vijayvarma392/surfinBH"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/46/13804770f54fc0e55cc6899082580a069afe88f916128250960d635b4284/surfinBH-${REALVERSION}.tar.gz"
-SOURCEFILE="surfinBH-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

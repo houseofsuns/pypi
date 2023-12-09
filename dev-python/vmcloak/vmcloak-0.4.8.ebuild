@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VMCloak"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automated Virtual Machine Generation and Cloaking for Cuckoo Sandbo
 
 HOMEPAGE="https://github.com/hatching/vmcloak"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8d/07/1ebc0f373775d2831478a8f39f3e4eb420a831b4f386b57c8cc1348b0401/VMCloak-${REALVERSION}.tar.gz"
-SOURCEFILE="VMCloak-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

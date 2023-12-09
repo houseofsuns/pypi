@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="A-library"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automated Library is a software to ease the entire library-book iss
 
 HOMEPAGE="https://github.com/R-Wolf/CFD_A_library"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/15/5c/177bea7aaa48e05aa893f41a5ab803486854855160375336f418e3384f46/A_library-${REALVERSION}.tar.gz"
-SOURCEFILE="A_library-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

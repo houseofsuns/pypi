@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyCalverter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Calendar Converter"
 
 HOMEPAGE="https://bitbucket.org/bayazee/pycalverter/overview"
 LICENSE="GPL v2"
-SRC_URI="https://files.pythonhosted.org/packages/4f/5c/57c6853f7a5bc41fc9da7651ae67b9c76381083742613faa7381724081e9/pyCalverter-${REALVERSION}.tar.gz"
-SOURCEFILE="pyCalverter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

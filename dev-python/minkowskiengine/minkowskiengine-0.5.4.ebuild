@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MinkowskiEngine"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a convolutional neural network library for sparse tensors"
 
 HOMEPAGE="https://github.com/NVIDIA/MinkowskiEngine"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/5c/c543c4bc5fbe73ac3e38465b3da4f24a61f7a4ac5baec867e582e94aa551/MinkowskiEngine-${REALVERSION}.tar.gz"
-SOURCEFILE="MinkowskiEngine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

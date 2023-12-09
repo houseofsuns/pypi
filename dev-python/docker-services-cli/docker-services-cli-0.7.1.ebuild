@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Docker-Services-CLI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python module to ease the creation and management of external servi
 
 HOMEPAGE="https://github.com/inveniosoftware/docker-services-cli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/d7/86105977b200c6d1c902226916ac6242b97948adf509b5f4a20309f52e1b/Docker-Services-CLI-${REALVERSION}.tar.gz"
-SOURCEFILE="Docker-Services-CLI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

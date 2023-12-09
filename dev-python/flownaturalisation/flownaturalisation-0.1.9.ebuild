@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FlowNaturalisation"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools to perform flow naturalisation in Caterbury"
 
 HOMEPAGE="https://github.com/Data-to-Knowledge/FlowNaturalisation"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d8/af/96a564c3eb57431e7be3bfe4af8d632ce3e5601a8a820f8b316cdb072774/FlowNaturalisation-${REALVERSION}.tar.gz"
-SOURCEFILE="FlowNaturalisation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

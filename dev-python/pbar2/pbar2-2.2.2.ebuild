@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PBar2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Display customizable progress bars on the terminal easily."
 
 HOMEPAGE="https://darvil82.github.io/PBar"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/18/d49ff7c685b1dc52d98ef6d5aedc83aeb623eb8749382813f02081809efa/PBar2-${REALVERSION}.tar.gz"
-SOURCEFILE="PBar2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

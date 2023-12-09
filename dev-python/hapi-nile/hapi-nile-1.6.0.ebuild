@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HAPI-Nile"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Distributed hydrological-model"
 
 HOMEPAGE="https://github.com/MAfarrag/Hapi"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/1a/f9/0a363d6ca0502ba57c967c09bd44dc9124bd84eb4040c91d618a25b3b100/HAPI-Nile-${REALVERSION}.tar.gz"
-SOURCEFILE="HAPI-Nile-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

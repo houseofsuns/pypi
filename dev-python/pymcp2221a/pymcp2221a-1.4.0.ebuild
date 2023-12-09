@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMCP2221A"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This is a Microchip MCP2221(A) HID Library by python3."
 
 HOMEPAGE="https://github.com/nonNoise/PyMCP2221A"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/f7/76fb522afc95363ff243ceec4a211adca08bddd161e524fe5f1df12fe784/PyMCP2221A-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMCP2221A-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

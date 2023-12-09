@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="localStoragePy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A familiar API from the Web, adapted to storing data locally with P
 
 HOMEPAGE="http://github.com/jkelol111/localStoragePy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d3/3f/fae8e6790ec592b15838dc1cef03693da01cab42e88b358fd2315346eb38/localStoragePy-${REALVERSION}.tar.gz"
-SOURCEFILE="localStoragePy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

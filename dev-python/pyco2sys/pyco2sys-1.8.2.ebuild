@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyCO2SYS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyCO2SYS: marine carbonate system calculations in Python"
 
 HOMEPAGE="https://github.com/mvdh7/PyCO2SYS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6b/b9/75b044e447a651eed0f4d360102839ee119152abb6fdb16f742692a6820e/PyCO2SYS-${REALVERSION}.tar.gz"
-SOURCEFILE="PyCO2SYS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

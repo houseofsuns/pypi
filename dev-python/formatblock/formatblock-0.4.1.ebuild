@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FormatBlock"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Format blocks of characters for display, split by words, characters
 
 HOMEPAGE="https://github.com/welbornprod/fmtblock"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/35/f149f35720194e55f4b0d10cfa0988aa8f8e82a1fb7280e24ec2794449e7/FormatBlock-${REALVERSION}.tar.gz"
-SOURCEFILE="FormatBlock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

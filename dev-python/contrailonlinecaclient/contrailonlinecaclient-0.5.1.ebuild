@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ContrailOnlineCAClient"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Certificate Authority web service client"
 
 HOMEPAGE="https://github.com/cedadev/online_ca_client"
 LICENSE="BSD - See LICENSE file in contrail.security.onlineca.client"
-SRC_URI="https://files.pythonhosted.org/packages/4a/bc/59c0b21b6fa13f5f9b5ad0af2feeb542e43090307cd2cfd6875536c2f584/ContrailOnlineCAClient-${REALVERSION}.tar.gz"
-SOURCEFILE="ContrailOnlineCAClient-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

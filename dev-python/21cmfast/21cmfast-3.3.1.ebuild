@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="21cmFAST"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A semi-numerical cosmological simulation code for the 21cm signal"
 
 HOMEPAGE="https://github.com/21cmFAST/21cmFAST"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ff/4d/31054be4d51bab853d654b011a7649d15dec9ac1667ea9b8860b13333f23/21cmFAST-${REALVERSION}.tar.gz"
-SOURCEFILE="21cmFAST-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

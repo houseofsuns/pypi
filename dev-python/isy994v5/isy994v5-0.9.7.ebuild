@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ISY994v5"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ISY99 Controller Rest and Websocket client v5 firmware"
 
 HOMEPAGE="https://github.com/mjcumming/ISY994v5"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/de/bcb4a3f26a6a7171133e49a9555b0bb198b206ac30b520424e1b173d9858/ISY994v5-${REALVERSION}.tar.gz"
-SOURCEFILE="ISY994v5-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

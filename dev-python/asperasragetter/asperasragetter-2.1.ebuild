@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AsperaSRAgetter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The AsperaSRAgetter provides a easy way to download sequencing data
 
 HOMEPAGE="https://github.com/RunJiaJi/AsperaSRAgetter"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/55/be/3f75a7cccbd6af80f9d26ca2518cb5b0c7065472a2629d050b2cd5ac7f0e/AsperaSRAgetter-${REALVERSION}.tar.gz"
-SOURCEFILE="AsperaSRAgetter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

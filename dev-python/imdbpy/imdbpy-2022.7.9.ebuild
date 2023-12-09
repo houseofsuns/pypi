@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IMDbPY"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="IMDbPY is now cinemagoer"
 
 HOMEPAGE="https://cinemagoer.github.io/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/30/57/d72563c77f63efe08da5645ab92d5f1dd382f6d3460e0b0c4c4ee7847f1c/IMDbPY-${REALVERSION}.tar.gz"
-SOURCEFILE="IMDbPY-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

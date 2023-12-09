@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GameBaker"
 REALVERSION="0.1.10.dev25"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="High level framework for making games and simulations based on Pyga
 
 HOMEPAGE="https://pypi.python.org/pypi/GameBaker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/ec/b5854c20d4b72a3f9b0662cf3c8345a76e26e8a0defd0d2022ac4f81bab4/GameBaker-${REALVERSION}.zip"
-SOURCEFILE="GameBaker-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

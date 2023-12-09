@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyROQ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyROQ is a Python-based code that can generate reduced basis and re
 
 HOMEPAGE="https://github.com/qihongcat/PyROQ"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/64/7cb91c538db8c64722e2b72da9c2366e6e536b023a23426ad8f280a7ebfd/PyROQ-${REALVERSION}.tar.gz"
-SOURCEFILE="PyROQ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

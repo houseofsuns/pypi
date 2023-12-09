@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TinyAutoML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Combinaison of ML models for binary classification. Academic Projec
 
 HOMEPAGE="https://github.com/g0bel1n/TinyAutoML"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/48/4f274df79c09732218a8fa82f62068283c33abc95ce5cd21f62b0805ad51/TinyAutoML-${REALVERSION}.tar.gz"
-SOURCEFILE="TinyAutoML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

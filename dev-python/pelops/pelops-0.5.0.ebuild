@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pelops"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Common tools for projects of the the gitlab group pelops."
 
 HOMEPAGE="https://gitlab.com/pelops/pelops/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/c4/3d30985e41dfb8c25eb8681bfd9526008538d2ca90a2f0a6e1ef21d66331/Pelops-${REALVERSION}.tar.gz"
-SOURCEFILE="Pelops-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

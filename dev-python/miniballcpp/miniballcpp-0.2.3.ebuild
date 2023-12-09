@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MiniballCpp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Smallest Enclosing Balls of Points"
 
 HOMEPAGE="https://github.com/weddige/miniball"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/fb/96c4219669efca5e83a6b25b64139aaf3bbcb679ff5fdb9b2969c64de3d1/MiniballCpp-${REALVERSION}.tar.gz"
-SOURCEFILE="MiniballCpp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

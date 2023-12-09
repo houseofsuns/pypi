@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PublicDataReader"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Open Source Public Data Reader"
 
 HOMEPAGE="https://github.com/WooilJeong/PublicDataReader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/56/9343a1654dd515aefce162f6a5851974e4f0cb796a9cc05b931b107df7e5/PublicDataReader-${REALVERSION}.tar.gz"
-SOURCEFILE="PublicDataReader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

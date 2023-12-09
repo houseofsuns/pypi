@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ezFlashCLI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Command line tool to manipulate microcontroller flash"
 
 HOMEPAGE="https://github.com/ezflash/ezFlashCLI.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/eb/2c/9ec08fa7ae866521f5e9b3f78d58c36801c2bc1140c9bdaa159257cf99b3/ezFlashCLI-${REALVERSION}.tar.gz"
-SOURCEFILE="ezFlashCLI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

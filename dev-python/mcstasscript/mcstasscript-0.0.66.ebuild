@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="McStasScript"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python scripting interface for McStas"
 
 HOMEPAGE="https://github.com/PaNOSC-ViNYL/McStasScript"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/82/6591c20071346d6f9d82accd0259eaf7c50d5f0ec48b1919d4c03883ced9/McStasScript-${REALVERSION}.tar.gz"
-SOURCEFILE="McStasScript-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

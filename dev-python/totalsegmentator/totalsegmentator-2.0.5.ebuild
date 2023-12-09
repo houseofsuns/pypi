@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TotalSegmentator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Robust segmentation of 104 classes in CT images."
 
 HOMEPAGE="https://github.com/wasserth/TotalSegmentator"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e5/da/b8b2396da851b605f57e188ab3f8a23f7b71effe4f5e24171c0758bbe74e/TotalSegmentator-${REALVERSION}.tar.gz"
-SOURCEFILE="TotalSegmentator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

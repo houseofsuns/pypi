@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NextcordUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NextcordUtils is a very useful library made to be used with discord
 
 HOMEPAGE="https://www.github.com/amirdadfar9192/NextcordUtils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/40/c2255a813d27c8284aec3568195f915c9f26b7fd8cfa9374f87de52ed7de/NextcordUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="NextcordUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

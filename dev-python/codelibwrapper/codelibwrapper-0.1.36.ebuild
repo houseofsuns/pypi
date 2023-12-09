@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CodeLibWrapper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Robot Framework util package for MorningStar DataProduct/API team."
 
 HOMEPAGE="https://pypi.python.org/pypi/CodeLibWrapper"
 LICENSE="All Data Production/API QA team member use."
-SRC_URI="https://files.pythonhosted.org/packages/65/47/40e3b6401b1a1931f11241349482250ca3a4df5307270cfd5d6aca4dec5a/CodeLibWrapper-${REALVERSION}.zip"
-SOURCEFILE="CodeLibWrapper-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

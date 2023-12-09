@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AdvancedHTMLParser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Powerful HTML Parser/Scraper/Validator/Formatter that constructs 
 
 HOMEPAGE="https://github.com/kata198/AdvancedHTMLParser"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/58/90/9be5b3cf430c36b0ba27959aad24262be5494b4b9a2aa5a1c427b8391ef9/AdvancedHTMLParser-${REALVERSION}.tar.gz"
-SOURCEFILE="AdvancedHTMLParser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

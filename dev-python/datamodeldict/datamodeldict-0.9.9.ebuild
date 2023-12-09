@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DataModelDict"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Class allowing for data models equivalently represented as Python d
 
 HOMEPAGE="https://github.com/usnistgov/DataModelDict/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/da/c5709322a1ddab201d37e2614edb1a90c6b64d5c0f02f9eae70f26847075/DataModelDict-${REALVERSION}.tar.gz"
-SOURCEFILE="DataModelDict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

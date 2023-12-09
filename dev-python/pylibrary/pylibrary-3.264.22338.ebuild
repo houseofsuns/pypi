@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyLibrary"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library of Wonderful Things"
 
 HOMEPAGE="https://github.com/klahnakoski/pyLibrary"
 LICENSE="MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e9/40/b244996031d930d01add4f8185c5eda179cb78ea098e0eed18c9023bb36b/pyLibrary-${REALVERSION}.tar.gz"
-SOURCEFILE="pyLibrary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

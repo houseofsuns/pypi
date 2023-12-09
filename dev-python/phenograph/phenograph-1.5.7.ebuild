@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PhenoGraph"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Graph-based clustering for high-dimensional single-cell data"
 
 HOMEPAGE="https://github.com/dpeerlab/PhenoGraph.git"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/75/97/c1077df94cb0e1ebd201d67e52c438810fdaa393dc4c663b3bc651e497b8/PhenoGraph-${REALVERSION}.tar.gz"
-SOURCEFILE="PhenoGraph-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

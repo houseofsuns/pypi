@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KiMoPack"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A comprehensive package for the analysis of kinetic data."
 
 HOMEPAGE="https://www.chemphys.lu.se/research/projects/kimopack/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3e/9d/ee9a084860d58819b659ae8e7232ffbb5ce70951732b42035f0f05861679/KiMoPack-${REALVERSION}.tar.gz"
-SOURCEFILE="KiMoPack-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

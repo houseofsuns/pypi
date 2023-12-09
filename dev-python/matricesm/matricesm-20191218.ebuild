@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MatricesM"
 REALVERSION="0.9a24.post2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python>=3.6 library for creating and using matrices used in linear 
 
 HOMEPAGE="https://github.com/MathStuff/Matrices"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ca/ea/967c1e2de9171a72a3c19e80274f381eeffe7728499b08f5142a01790ae7/MatricesM-${REALVERSION}.tar.gz"
-SOURCEFILE="MatricesM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

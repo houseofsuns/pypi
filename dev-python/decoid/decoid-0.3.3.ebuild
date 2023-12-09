@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DecoID"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Metabolomics software for database assisted deconvolution of MS/MS 
 
 HOMEPAGE="https://github.com/e-stan/DecoID"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/1f/49254128cbd7e45bd1b5b607ff4355d32196eca00770c73a878386bde082/DecoID-${REALVERSION}.tar.gz"
-SOURCEFILE="DecoID-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

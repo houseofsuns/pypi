@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Amino-Socket"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python API to Connect Amino wss"
 
 HOMEPAGE="https://github.com/hanamixp/Amino-Socket.py.git"
 LICENSE="Apache V2"
-SRC_URI="https://files.pythonhosted.org/packages/17/a3/24efde8dca337a5a995f17e263cf07207bb3c0ed32be55318e511951f83c/Amino-Socket-${REALVERSION}.tar.gz"
-SOURCEFILE="Amino-Socket-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

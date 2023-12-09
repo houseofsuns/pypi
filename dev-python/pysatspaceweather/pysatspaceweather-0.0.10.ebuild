@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pysatSpaceWeather"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="'pysat support for Space Weather Indices'"
 
 HOMEPAGE="https://github.com/pysat/pysatSpaceWeather"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/ad/603a6a8fbc6c3a059e4e319b57e7b1a9038f17ecaef8fa602048fc5d82ba/pysatSpaceWeather-${REALVERSION}.tar.gz"
-SOURCEFILE="pysatSpaceWeather-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

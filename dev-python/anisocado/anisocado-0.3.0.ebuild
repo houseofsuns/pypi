@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AnisoCADO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate off-axis SCAO PSFs for the ELT"
 
 HOMEPAGE="https://anisocado.readthedocs.io/en/latest/"
 LICENSE="License :: OSI Approved :: GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/48/15/3a34937780a37eea8a2b5bebf22afd77c06368cef6e6643747bb898a2676/AnisoCADO-${REALVERSION}.tar.gz"
-SOURCEFILE="AnisoCADO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

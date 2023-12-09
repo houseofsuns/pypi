@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMetno"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library to communicate with the met.no api"
 
 HOMEPAGE="https://github.com/Danielhiversen/pyMetno/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/85/a5/d39e58941cd4a022ab58616a288f81865a312004b075b0273df417fc6cea/PyMetno-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMetno-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

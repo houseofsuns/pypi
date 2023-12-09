@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CADETMatch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CADETMatch is a parameter estimation and error modeling library for
 
 HOMEPAGE="https://github.com/modsim/CADET-Match"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dc/b7/a4af7099afe82c5e7a2bd4b7afb71064b4baa10606375f6ee7b127c6990a/CADETMatch-${REALVERSION}.tar.gz"
-SOURCEFILE="CADETMatch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

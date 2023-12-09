@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ComplexSystems"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Toolbox for Complex Sytems including : Public Good Game, Human Base
 
 HOMEPAGE="http://bitbucket.org/vgauthier/complex-systems/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/18/ceac0cf7ec1c08beca79def9f41485459193cdaf842fd13ee0bbb85337ea/ComplexSystems-${REALVERSION}.tar.gz"
-SOURCEFILE="ComplexSystems-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

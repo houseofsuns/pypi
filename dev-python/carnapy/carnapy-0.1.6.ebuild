@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CarnaPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="General-purpose real-time 3D visualization"
 
 HOMEPAGE="https://github.com/kostrykin/CarnaPy"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/86/aa/0158674761f185934a892d367a408303158217cc423ab44398bdc62ed199/CarnaPy-${REALVERSION}.tar.gz"
-SOURCEFILE="CarnaPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

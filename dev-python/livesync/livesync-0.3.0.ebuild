@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LiveSync"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Repeatedly synchronize local workspace with a (slow) remote machine
 
 HOMEPAGE="https://github.com/zauberzeug/livesync"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/4c/aced8ca7bbbc0b478f4a486c81ce3ffb2bf016f5b8167dc77b1330fd0b20/LiveSync-${REALVERSION}.tar.gz"
-SOURCEFILE="LiveSync-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

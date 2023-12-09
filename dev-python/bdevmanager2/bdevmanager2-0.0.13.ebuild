@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BDevManager2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A business development manager library"
 
 HOMEPAGE="https://github.com/BlackFoxgamingstudio/BDevManager2.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/93/bf/8d47800e4581a7939d3337d742e0e66882eeca0c8da060ed3c9cc27087ee/BDevManager2-${REALVERSION}.tar.gz"
-SOURCEFILE="BDevManager2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

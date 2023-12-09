@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LightMagic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LightMagic is very simple and quick python3 ORM over momoko/psycopg
 
 HOMEPAGE="https://github.com/MaxRV/LightMagic"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/8a/91540df17f3ee796cb59b5606d59b457dbcaa213151a74822c1578c0e296/LightMagic-${REALVERSION}.tar.gz"
-SOURCEFILE="LightMagic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DomainClassifier"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DomainClassifier is a Python library to extract and classify Intern
 
 HOMEPAGE="http://github.com/adulau/DomainClassifier"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/68/cb/ac42fb998a0413aad0f4b38ab7e8ecc0f277c44505b47d4c70f3be14c160/DomainClassifier-${REALVERSION}.tar.gz"
-SOURCEFILE="DomainClassifier-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

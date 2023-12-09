@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DaPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Enjoy your tour in data minning"
 
 HOMEPAGE="http://dapy.kitgram.cn"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/aa/f0/397538834a8180c7b03620360c4f66b9349c98f2c517eb1497e7ac3ce3d4/DaPy-${REALVERSION}.tar.gz"
-SOURCEFILE="DaPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

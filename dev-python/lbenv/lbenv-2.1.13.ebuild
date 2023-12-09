@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LbEnv"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LHCb Environment tools"
 
 HOMEPAGE="https://gitlab.cern.ch/lhcb-core/LbEnv"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/d5/9e9159f40bb047d472a5a9a03b653f53c08759bc72099eed7e54c6176cce/LbEnv-${REALVERSION}.tar.gz"
-SOURCEFILE="LbEnv-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

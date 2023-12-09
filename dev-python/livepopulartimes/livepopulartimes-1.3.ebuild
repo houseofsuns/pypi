@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LivePopularTimes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LivePopularTimes: A Google Maps scraper"
 
 HOMEPAGE="https://github.com/GrocerCheck/LivePopularTimes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/5d/337da8e93d7afc125e25e4f60b1bdc703c9321d920f56a6b021de21fb720/LivePopularTimes-${REALVERSION}.tar.gz"
-SOURCEFILE="LivePopularTimes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

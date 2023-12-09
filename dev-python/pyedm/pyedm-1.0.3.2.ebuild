@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyEDM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python wrapper for cppEDM using pybind11"
 
 HOMEPAGE="https://github.com/SugiharaLab/pyEDM"
 LICENSE="Copyright 2019 The Regents of the University of California."
-SRC_URI="https://files.pythonhosted.org/packages/85/9a/39a017b75daecfe2cc6db97750826abf5cd4abf3cd35458aaf48fddf29ac/pyEDM-${REALVERSION}.tar.gz"
-SOURCEFILE="pyEDM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

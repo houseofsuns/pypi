@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyIGRF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="IGRF-13 Model by Python"
 
 HOMEPAGE="https://github.com/zzyztyy/pyIGRF"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6f/c7/f020a3402dc27fdfc6b49d6c212de9c496019b598514ccd5e1ed6d56f8c7/pyIGRF-${REALVERSION}.tar.gz"
-SOURCEFILE="pyIGRF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

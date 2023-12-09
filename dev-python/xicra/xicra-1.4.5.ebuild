@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XICRA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Small RNAseq pipeline for paired-end reads"
 
 HOMEPAGE="https://github.com/HCGB-IGTP/XICRA/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/90/42/890d7a8e2dbb1c7f4d00228004fe891644ee405e8ca37e07772a309482c8/XICRA-${REALVERSION}.tar.gz"
-SOURCEFILE="XICRA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

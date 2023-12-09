@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NotebookScripter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Expose ipython jupyter notebooks as callable functions.  More info 
 
 HOMEPAGE="https://github.com/breathe/NotebookScripter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/91/cf5b0bb1f539fac57cd900ebb2fed93b2c872497258f1031c0d7fc57b15f/NotebookScripter-${REALVERSION}.tar.gz"
-SOURCEFILE="NotebookScripter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

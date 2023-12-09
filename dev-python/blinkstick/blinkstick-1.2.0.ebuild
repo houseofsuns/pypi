@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BlinkStick"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package to control BlinkStick USB devices."
 
 HOMEPAGE="http://pypi.python.org/pypi/BlinkStick/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/d5/bb/d57bfbe938e6f2135d14a153999c3bf82288e315bfc546411160c6cbaadd/BlinkStick-${REALVERSION}.tar.gz"
-SOURCEFILE="BlinkStick-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

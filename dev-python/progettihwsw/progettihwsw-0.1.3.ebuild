@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ProgettiHWSW"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Controls ProgettiHWSW relay boards."
 
 HOMEPAGE="http://github.com/ardaseremet/progettihwsw"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/26/d2/df7b36d9f27e5f576a88c7787804b24ea23297907df0e4a9b9a7e8d5ff14/ProgettiHWSW-${REALVERSION}.tar.gz"
-SOURCEFILE="ProgettiHWSW-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenWebNet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OpenWebNet reading/writing class"
 
 HOMEPAGE="https://github.com/pippocla/OpenWebNet"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cd/ef/237adfa5f4e4207afa204dec9ab4fe4a3e2021f9f13b9630fc391bb8d456/OpenWebNet-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenWebNet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

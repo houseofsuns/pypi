@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CWR-API"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="API library for the CWR standard format"
 
 HOMEPAGE="https://github.com/weso/CWR-DataApi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/c0/5e933ed064fbb1bf746f46193f021e75a6c57a669ac14ff141068dbdc7d2/CWR-API-${REALVERSION}.tar.gz"
-SOURCEFILE="CWR-API-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

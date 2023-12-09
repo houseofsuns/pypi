@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyobjc-framework-IMServicePlugIn"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Wrappers for the framework IMServicePlugIn on macOS"
 
 HOMEPAGE="https://github.com/ronaldoussoren/pyobjc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/90/b58e87d3761f2d311516858b3f4363bf6b2b770130f04325f99a0152be25/pyobjc-framework-IMServicePlugIn-${REALVERSION}.tar.gz"
-SOURCEFILE="pyobjc-framework-IMServicePlugIn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

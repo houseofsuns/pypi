@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GoogleBard"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Reverse engineering of Google's Bard chatbot"
 
 HOMEPAGE="https://github.com/acheong08/Bard"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/65/3110785c07312224408c5a5a8ba5348171d4a472cc693c337548246e67b0/GoogleBard-${REALVERSION}.tar.gz"
-SOURCEFILE="GoogleBard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

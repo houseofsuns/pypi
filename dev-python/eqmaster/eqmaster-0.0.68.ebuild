@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="eQmaster"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Query interface to retrieve data from destinated s3 location with p
 
 HOMEPAGE="https://github.com/avachen2005/ephodtech_query_master"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b3/95/3a139ea208f8046e87da8c32bd4ddb8996c58549c1703f0a9c1044eae8a6/eQmaster-${REALVERSION}.tar.gz"
-SOURCEFILE="eQmaster-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

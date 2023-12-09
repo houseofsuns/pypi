@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="StockDataInterface"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An API for Yahoo Finance that collects current and historical stock
 
 HOMEPAGE="https://github.com/nlatham1999/StockAPI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e0/02/720627048b39ffd601d4b6f513548c09806467f34a104f7466c7fd2748f5/StockDataInterface-${REALVERSION}.tar.gz"
-SOURCEFILE="StockDataInterface-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

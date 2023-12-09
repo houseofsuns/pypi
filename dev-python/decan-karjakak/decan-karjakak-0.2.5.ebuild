@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DecAn-karjakak"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DecAn is a tool for Analyze and Deconstruct chars in text for its p
 
 HOMEPAGE="https://github.com/kakkarja/DecAn"
 LICENSE="BSD3 License"
-SRC_URI="https://files.pythonhosted.org/packages/59/c8/d2629bbe084567cb07dd9da4ab9a0688168de5e1feed9295af179ce12563/DecAn-karjakak-${REALVERSION}.tar.gz"
-SOURCEFILE="DecAn-karjakak-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

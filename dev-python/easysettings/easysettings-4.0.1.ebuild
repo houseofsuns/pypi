@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EasySettings"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easily set and retrieve application settings."
 
 HOMEPAGE="https://github.com/welbornprod/easysettings"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/61/e1/108c8a0de024bff1668be61c67e74ca6bba6bf9a7749fe57712d92054b79/EasySettings-${REALVERSION}.tar.gz"
-SOURCEFILE="EasySettings-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

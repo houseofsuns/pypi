@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="electrumX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ElectrumX Server"
 
 HOMEPAGE="https://github.com/kyuupichan/electrumx"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/04/3c/7a5f07d583eb775fb2e135fda0dac2693baa74b68b57a8704bfb0d720d8c/electrumX-${REALVERSION}.tar.gz"
-SOURCEFILE="electrumX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

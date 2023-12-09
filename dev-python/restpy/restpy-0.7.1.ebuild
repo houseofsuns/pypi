@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RESTpy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Werkzeug extensions for building RESTful services."
 
 HOMEPAGE="https://github.com/kevinconway/rest.py"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/53/3d/09b7e97f28612e28c84ae9586f3c4db4704e3e754e3723a27bd3d3b9ef23/RESTpy-${REALVERSION}.tar.gz"
-SOURCEFILE="RESTpy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="baseImage"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
@@ -15,8 +16,8 @@ DESCRIPTION="This is a secondary package of OpenCV,for manage image data"
 
 HOMEPAGE="https://github.com/hakaboom/base_image"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b0/cd/cca83858890d69585a01f6a2fc5c253357f2f7e0642d4aebc555a9de01b2/baseImage-${REALVERSION}.tar.gz"
-SOURCEFILE="baseImage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

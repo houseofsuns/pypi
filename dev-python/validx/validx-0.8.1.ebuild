@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ValidX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="fast, powerful, and flexible validator with sane syntax"
 
 HOMEPAGE="https://github.com/Cottonwood-Technology/ValidX"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/07/14/629750a8d50dbff1076818a908d6180ab865bb68c4f5c9a0d8f98e38d59e/ValidX-${REALVERSION}.tar.gz"
-SOURCEFILE="ValidX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

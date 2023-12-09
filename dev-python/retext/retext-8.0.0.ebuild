@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ReText"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple editor for Markdown and reStructuredText"
 
 HOMEPAGE="https://github.com/retext-project/retext"
 LICENSE="GPL 2+"
-SRC_URI="https://files.pythonhosted.org/packages/9b/80/a51d16f360eacb52903dc700adababfb0b232c2536f14c7ea7bbede1284b/ReText-${REALVERSION}.tar.gz"
-SOURCEFILE="ReText-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

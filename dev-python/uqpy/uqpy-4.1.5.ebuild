@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UQpy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="UQpy is a general purpose toolbox for Uncertainty Quantification"
 
 HOMEPAGE="https://github.com/SURGroup/UQpy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/65/e76017cf49c9722482de8aaf0593c8cf73ff034a6a33fcaab33785a3bb6d/UQpy-${REALVERSION}.tar.gz"
-SOURCEFILE="UQpy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

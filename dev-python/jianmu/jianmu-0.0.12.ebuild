@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Jianmu"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple desktop app development framework combining Python, Vue.js
 
 HOMEPAGE="https://github.com/frederick-wang/jianmu"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/6c/cc29d8ce76d2a42aab3833be6f796679b7dedfeff67d55cb6c34c92cf522/Jianmu-${REALVERSION}.tar.gz"
-SOURCEFILE="Jianmu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

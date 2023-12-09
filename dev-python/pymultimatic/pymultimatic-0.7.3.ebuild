@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pymultiMATIC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python interface with Vaillant multiMATIC"
 
 HOMEPAGE="https://github.com/thomasgermain/pymultiMATIC.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/1a/920914edb51c0729821a7d6470960bca2e9cd41eedb1c798fe290ada2190/pymultiMATIC-${REALVERSION}.tar.gz"
-SOURCEFILE="pymultiMATIC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

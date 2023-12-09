@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ArduinoController"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A highly versatile arduino controller"
 
 HOMEPAGE="https://github.com/JulianKimmig/arduino_controller"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/96/f8/4a273c2b3056a20f2423bf9cf1a1c6d74e4d99d878804fbadc2d2d761387/ArduinoController-${REALVERSION}.tar.gz"
-SOURCEFILE="ArduinoController-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

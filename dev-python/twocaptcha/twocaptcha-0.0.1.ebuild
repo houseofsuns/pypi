@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TwoCaptcha"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="2Captcha Python3 API Wrapper"
 
 HOMEPAGE="https://github.com/My-kal/2Captcha"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fe/2a/423a536af707f4f8938176ed260e39f0612f846ee1d053b087a66ac2b961/TwoCaptcha-${REALVERSION}.tar.gz"
-SOURCEFILE="TwoCaptcha-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

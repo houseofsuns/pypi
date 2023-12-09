@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Red-DiscordBot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
@@ -15,8 +16,8 @@ DESCRIPTION="A highly customisable Discord bot"
 
 HOMEPAGE="https://github.com/Cog-Creators/Red-DiscordBot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/c1/095d590ec8a0c596daac281790cf68da7af5074220af495afa776e0a5869/Red-DiscordBot-${REALVERSION}.tar.gz"
-SOURCEFILE="Red-DiscordBot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

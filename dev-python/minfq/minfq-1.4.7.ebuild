@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="minFQ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Command line interface for uploading fastq files and monitoring min
 
 HOMEPAGE="https://github.com/LooseLab/minotourcli"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f1/d3/a2087265819052338ccba9457caae60a7c12fe1589443c5d301dafaa71e8/minFQ-${REALVERSION}.tar.gz"
-SOURCEFILE="minFQ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

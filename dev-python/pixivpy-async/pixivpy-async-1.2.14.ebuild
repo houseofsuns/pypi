@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PixivPy-Async"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pure Python 3 Async Pixiv API"
 
 HOMEPAGE="https://github.com/Mikubill/pixivpy-async"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f1/65/8a3668afbc78e6a81ac735c0f326adb637b73b723d0118a36d177c74c57f/PixivPy-Async-${REALVERSION}.tar.gz"
-SOURCEFILE="PixivPy-Async-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

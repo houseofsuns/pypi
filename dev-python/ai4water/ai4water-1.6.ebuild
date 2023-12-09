@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AI4Water"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Platform for developing data driven based models for sequential/tab
 
 HOMEPAGE="https://github.com/AtrCheema/AI4Water"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/a3/007df0f2ae2786aaba7c15071104b46cc3bcb6c3bf5ed4d233c1a076c647/AI4Water-${REALVERSION}.tar.gz"
-SOURCEFILE="AI4Water-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

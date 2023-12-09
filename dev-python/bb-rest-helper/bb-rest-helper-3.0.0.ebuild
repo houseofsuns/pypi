@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Bb-rest-helper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library to simplify requests to the Blackboard REST APIs for Anth
 
 HOMEPAGE="https://github.com/JgregoriBb/Bb_rest_helper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/05/6d07a6e491493375490bbbd5725953983c6df0a707ef122f97d715f62ee1/Bb_rest_helper-${REALVERSION}.tar.gz"
-SOURCEFILE="Bb_rest_helper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

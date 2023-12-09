@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HTMLTestRunner-Python3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="suite original HTMLTestRunner to python3"
 
 HOMEPAGE="http://tungwaiyip.info/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/0f/96072143c4c2f1c359c43ced711046a203af1ef8e92251df418b23966bba/HTMLTestRunner_Python3-${REALVERSION}.tar.gz"
-SOURCEFILE="HTMLTestRunner_Python3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

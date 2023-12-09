@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Tweezepy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Single-molecule force spectroscopy calibration"
 
 HOMEPAGE="https://github.com/ianlmorgan/tweezepy"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/12/4f/31868b52ce4376f16b53710cfda2a6bac82ac68c616279d68b99546a08e1/Tweezepy-${REALVERSION}.tar.gz"
-SOURCEFILE="Tweezepy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

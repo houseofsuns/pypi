@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AIOAladdinConnect"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Async API for controlling Genie garage doors connected to Al
 
 HOMEPAGE="http://github.com/mkmer/AIOAladdinConnect"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/cf/8e2ecbf9f680a03a2120a258338cae748d14cb7518e90ed470dc88eb7878/AIOAladdinConnect-${REALVERSION}.tar.gz"
-SOURCEFILE="AIOAladdinConnect-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

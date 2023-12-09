@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DePTH"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DePTH provides neural network models for sequence-based TCR and HLA
 
 HOMEPAGE="https://github.com/Sun-lab/DePTH"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/dc/35e51114e90023f99c76ee5debbee7e29c806d260b61eb501fe2756fea99/DePTH-${REALVERSION}.tar.gz"
-SOURCEFILE="DePTH-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

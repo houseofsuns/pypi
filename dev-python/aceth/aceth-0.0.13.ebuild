@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ACETH"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Analytics Club ETHZ helper package"
 
 HOMEPAGE="https://github.com/kimo26/ACE"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/2c/4ef53568c79667845f31871d0f201c5b28d2ad41bbce1d4ccb535daafdd4/ACETH-${REALVERSION}.tar.gz"
-SOURCEFILE="ACETH-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

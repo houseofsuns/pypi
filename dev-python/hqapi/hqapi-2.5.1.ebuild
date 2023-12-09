@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HQApi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="HQ Trivia & Words API"
 
 HOMEPAGE="https://github.com/apipy/HQApi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f3/fa/ff28c6931dc4440a5664bdee74b140768b7d880a2088a42c29ee5ace0d75/HQApi-${REALVERSION}.tar.gz"
-SOURCEFILE="HQApi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

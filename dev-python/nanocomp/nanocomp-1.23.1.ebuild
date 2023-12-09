@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NanoComp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Comparing runs of Oxford Nanopore sequencing data and alignments"
 
 HOMEPAGE="https://github.com/wdecoster/NanoComp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/25/afe859639d29f40415778eaa0a4474d66585a9a70175e82003e5057681e7/NanoComp-${REALVERSION}.tar.gz"
-SOURCEFILE="NanoComp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

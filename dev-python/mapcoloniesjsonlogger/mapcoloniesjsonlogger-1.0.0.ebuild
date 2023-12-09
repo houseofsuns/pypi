@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MapColoniesJSONLogger"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A JSON logger for map colonies project"
 
 HOMEPAGE="https://github.com/MapColonies/json-logger"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/ed/7c6206fb9f487b8639b5a89a06cd5aa31133ef4ce70b8618d7828ba1e3ea/MapColoniesJSONLogger-${REALVERSION}.tar.gz"
-SOURCEFILE="MapColoniesJSONLogger-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ColanderAlchemy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Autogenerate Colander schemas based on SQLAlchemy models."
 
 HOMEPAGE="https://github.com/stefanofontanelli/ColanderAlchemy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/6b/21c34465df8ebacd875f4fb8ae407870bd5b357b90122275aff34f353b78/ColanderAlchemy-${REALVERSION}.tar.gz"
-SOURCEFILE="ColanderAlchemy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

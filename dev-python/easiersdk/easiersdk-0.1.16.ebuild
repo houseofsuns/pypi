@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="easierSDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This library contains code for interacting with EASIER.AI platform.
 
 HOMEPAGE="https://scm.atosresearch.eu/ari/easier/easier-sdk"
 LICENSE="ATOS"
-SRC_URI="https://files.pythonhosted.org/packages/0b/9b/46f8a03bffc866e57a07727e4b9a067c28d64c294e9e54a305f71c139f13/easierSDK-${REALVERSION}.tar.gz"
-SOURCEFILE="easierSDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

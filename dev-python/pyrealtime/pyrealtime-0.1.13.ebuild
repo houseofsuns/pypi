@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyRealtime"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for realtime data processing, including reading from seri
 
 HOMEPAGE="https://github.com/ewhitmire/pyrealtime"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/2c/5f5520eb3e2a564af7018f3472dd2e82dbe5f5f57c7ee2d84f86f3536644/PyRealtime-${REALVERSION}.tar.gz"
-SOURCEFILE="PyRealtime-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

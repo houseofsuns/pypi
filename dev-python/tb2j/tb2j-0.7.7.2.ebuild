@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TB2J"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="TB2J: First principle to Heisenberg exchange J using tight-binding 
 
 HOMEPAGE=""
 LICENSE="BSD-2"
-SRC_URI="https://files.pythonhosted.org/packages/5a/8a/35e652720e13bfe70f62b173c0353b75303acd5965bad389df56c5571f8b/TB2J-${REALVERSION}.tar.gz"
-SOURCEFILE="TB2J-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

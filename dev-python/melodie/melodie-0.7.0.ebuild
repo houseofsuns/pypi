@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Melodie"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A general framework that can be used to establish agent-based model
 
 HOMEPAGE="https://github.com/ABM4ALL/Melodie"
 LICENSE="BSD 3"
-SRC_URI="https://files.pythonhosted.org/packages/12/8c/86dc14ece4c0b133167d7bee0eac04290e0aa604c711bf6099ce01dee66b/Melodie-${REALVERSION}.tar.gz"
-SOURCEFILE="Melodie-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pweave"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Scientific reports with embedded python computations with reST, LaT
 
 HOMEPAGE="http://mpastell.com/pweave"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/4d/19/1d26e59f8928592062cfd4cd40084285be770b3a4735fff2aa38b97d1aaf/Pweave-${REALVERSION}.tar.gz"
-SOURCEFILE="Pweave-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

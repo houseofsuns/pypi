@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OctoPrint-PiSupport"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Provides additional information about your Pi in the UI"
 
 HOMEPAGE="https://github.com/OctoPrint/OctoPrint-PiSupport"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e9/80/05186711d918220ae3496e08a63c6136d5b6eebc1ae5ac2a389f23549444/OctoPrint-PiSupport-${REALVERSION}.tar.gz"
-SOURCEFILE="OctoPrint-PiSupport-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

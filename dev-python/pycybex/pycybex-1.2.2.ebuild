@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyCybex"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Use this lib to visit public data on cybex decentralized exchange l
 
 HOMEPAGE="https://github.com/CybexDEX/cybex-node-doc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/35/52/187aa909f308cf0f19d16f292e5a3703367a9b430558d0be2bf3fdec0ef1/PyCybex-${REALVERSION}.tar.gz"
-SOURCEFILE="PyCybex-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

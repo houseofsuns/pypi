@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PingdomLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A documented python library to consume the full pingdom API"
 
 HOMEPAGE="https://github.com/KennethWilke/PingdomLib"
 LICENSE="ISC license"
-SRC_URI="https://files.pythonhosted.org/packages/13/03/9bd6855caa9c131a26b86617befbab56a31f1d54eccc1234eab21996735a/PingdomLib-${REALVERSION}.tar.gz"
-SOURCEFILE="PingdomLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

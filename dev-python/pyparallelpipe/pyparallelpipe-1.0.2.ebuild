@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyParallelPipe"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Using this ParallelPipe library, it is very fast and easy to build 
 
 HOMEPAGE="https://github.com/gongpx20069/ParallelPipe"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fc/cd/0fc4a5f3092dd3f226f85fa479e23a4c675f7fb54d3a6da2c541acb774d7/PyParallelPipe-${REALVERSION}.tar.gz"
-SOURCEFILE="PyParallelPipe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

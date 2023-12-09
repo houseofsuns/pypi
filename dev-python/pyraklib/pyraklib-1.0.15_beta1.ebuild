@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyRakLib"
 REALVERSION="1.0.15b1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A port of the PHP RakLib library to Python."
 
 HOMEPAGE="https://github.com/jython234/PyRakLib"
 LICENSE="GPL V3"
-SRC_URI="https://files.pythonhosted.org/packages/b4/02/88a730234150527123651447785a5c94009829abbfb0188dd8dc039b8e46/PyRakLib-${REALVERSION}.zip"
-SOURCEFILE="PyRakLib-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

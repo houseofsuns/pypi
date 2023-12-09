@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FindJobsTW"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python package to find jobs on 104.com.tw based on specific keywo
 
 HOMEPAGE="https://github.com/DannyFin/FindJobsTW"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0c/31/59f36365a4a3c065f2a7f0f2fbe6afc0139a26c94a66794ce3968689833e/FindJobsTW-${REALVERSION}.tar.gz"
-SOURCEFILE="FindJobsTW-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HammerTime-http"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
@@ -15,8 +16,8 @@ DESCRIPTION="HammerTime is an HTTP client library aiming to perform a large numb
 
 HOMEPAGE="https://github.com/delvelabs/hammertime"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/c5/69/89cb7b8f090b47d31bb23b0903745adc716ee2ec2ac56f0904ebeb3d7c90/HammerTime-http-${REALVERSION}.tar.gz"
-SOURCEFILE="HammerTime-http-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

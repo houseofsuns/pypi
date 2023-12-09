@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="scNodes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Correlating super-resolution fluorescence and cryoEM github.com/bio
 
 HOMEPAGE="https://github.com/bionanopatterning/scNodes"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/f0/44/dc7157e3c81e1063cd40c6f9d789d8b82df963a2b6f9210ef74b368243ba/scNodes-${REALVERSION}.tar.gz"
-SOURCEFILE="scNodes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

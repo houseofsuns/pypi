@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Orange-Network"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Orange Network add-on for Orange data mining software package."
 
 HOMEPAGE="http://orange.biolab.si/addons/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ac/83/0dcf04454c0358c052ffd1b99c8f08298ffe643c6fba93dc40fcfc2a4f81/Orange-Network-${REALVERSION}.tar.gz"
-SOURCEFILE="Orange-Network-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PlyPlus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a friendly yet powerful LR-parser written in Python"
 
 HOMEPAGE="https://github.com/erezsh/plyplus"
 LICENSE="MIT/GPL"
-SRC_URI="https://files.pythonhosted.org/packages/2f/e2/82efb358adef63ae282022ac43638b8b9905eb0014d618b738a7ecd82c0d/PlyPlus-${REALVERSION}.tar.gz"
-SOURCEFILE="PlyPlus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

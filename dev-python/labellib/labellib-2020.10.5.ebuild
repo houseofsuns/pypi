@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LabelLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python bindings for LabelLib"
 
 HOMEPAGE="https://github.com/Fluorescence-Tools/LabelLib"
 LICENSE="MPL v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0e/9b/ff543e292c6fe5e33c6389c10243306504ffd13a6b1dfc42f70795832f05/LabelLib-${REALVERSION}.tar.gz"
-SOURCEFILE="LabelLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="STVPoll"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="STV polling methods"
 
 HOMEPAGE="https://github.com/VoteIT/STVPoll"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/08/a4/58a3c48572ee38f236170488ed41bf1810b9093bba9190c7e8159a8d9e65/STVPoll-${REALVERSION}.tar.gz"
-SOURCEFILE="STVPoll-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FileDownloader"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="download file in multi threads"
 
 HOMEPAGE="https://github.com/yangsibai/py-FileDownloader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/a9/1f50e59e45ed33772272f66d3a268fb08e5d67fbb6f67bd23f76f73adece/FileDownloader-${REALVERSION}.tar.gz"
-SOURCEFILE="FileDownloader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

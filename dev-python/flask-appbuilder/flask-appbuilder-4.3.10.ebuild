@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-AppBuilder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple and rapid application development framework, built on top of
 
 HOMEPAGE="https://github.com/dpgaspar/flask-appbuilder/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c0/40/7ed2d16a328a0abece366d2e8e84eb149c1a0fddf4a09585efbf718f9206/Flask-AppBuilder-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-AppBuilder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

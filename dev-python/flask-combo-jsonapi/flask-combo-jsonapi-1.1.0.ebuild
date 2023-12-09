@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-COMBO-JSONAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension to create REST web api according to JSON:API 1.0 sp
 
 HOMEPAGE="https://github.com/AdCombo/flask-combo-jsonapi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/33/65b32493de1a1fa4b4e63e9b5bb838202ec3c25f387b9f339c72bfdb5276/Flask-COMBO-JSONAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-COMBO-JSONAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

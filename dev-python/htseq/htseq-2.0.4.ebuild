@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HTSeq"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A framework to process and analyze data from high-throughput sequen
 
 HOMEPAGE="https://github.com/htseq"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ed/ca/6f1e2f556cb2aad34ea8481f41a5a16dc52bef2e4fa55e7107b0b8e6bfe5/HTSeq-${REALVERSION}.tar.gz"
-SOURCEFILE="HTSeq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

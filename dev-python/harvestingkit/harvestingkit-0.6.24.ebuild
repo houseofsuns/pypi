@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HarvestingKit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Kit of tools to convert publisher XML (NLM/JATS) to MARCXML."
 
 HOMEPAGE="https://github.com/inspirehep/harvesting-kit"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/3e/19/32e204a080189914a49e98114eb667d6fd0ef689e6fc2fd2ed0a936c4356/HarvestingKit-${REALVERSION}.tar.gz"
-SOURCEFILE="HarvestingKit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

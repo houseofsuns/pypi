@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VSRstats"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="VSR statstics compute util"
 
 HOMEPAGE="https://github.com/semenovDA/VSRstats"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/4a/48510ff76a7a00474d4b15ffa704bf31b9d164eb37356e4dc58d8c3665db/VSRstats-${REALVERSION}.tar.gz"
-SOURCEFILE="VSRstats-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

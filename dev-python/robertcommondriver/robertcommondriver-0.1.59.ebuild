@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RobertCommonDriver"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Robert Common Driver Library"
 
 HOMEPAGE="https://github.com/hun0423/RobertCommonDriver"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/81/82e0a65dbf941049598d3a5f5ccca016416fb44566071d0d7bf86c5a6750/RobertCommonDriver-${REALVERSION}.tar.gz"
-SOURCEFILE="RobertCommonDriver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

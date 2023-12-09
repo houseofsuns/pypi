@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Salesforce-FuelSDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Salesforce Marketing Cloud Fuel SDK for Python"
 
 HOMEPAGE="https://github.com/salesforce-marketingcloud/FuelSDK-Python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/b9/27c72b50793438fcaabda895633ea579ec87715daeac5c34069b431f0370/Salesforce-FuelSDK-${REALVERSION}.tar.gz"
-SOURCEFILE="Salesforce-FuelSDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

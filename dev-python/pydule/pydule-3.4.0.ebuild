@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pydule"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Access ChatGPT, Remove Background, AI Generated Image, Track Locati
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/c3/4812a6eb013f153fb660bc6c4a481141a15e8410afac0f8431ecddb1b62c/Pydule-${REALVERSION}.tar.gz"
-SOURCEFILE="Pydule-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

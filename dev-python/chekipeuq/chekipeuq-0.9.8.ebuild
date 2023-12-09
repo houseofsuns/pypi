@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CheKiPEUQ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This is the CheKiPEUQ package which stands for Chemical Kinetics Pa
 
 HOMEPAGE="https://github.com/AdityaSavara/CheKiPEUQ"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b0/28/9966151bd2176ac5bd57385dbd1b665121a4c515610c2e84c7741c88294c/CheKiPEUQ-${REALVERSION}.tar.gz"
-SOURCEFILE="CheKiPEUQ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="valorantClientAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Asynchronous Python wrapper for VALORANT's Client API"
 
 HOMEPAGE="https://github.com/Jet612/VALORANT-Async-Client-API"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a8/92/e0bcb54af4705b959c5998aee00a429df9c88021956c710db4738ec9eb64/valorantClientAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="valorantClientAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

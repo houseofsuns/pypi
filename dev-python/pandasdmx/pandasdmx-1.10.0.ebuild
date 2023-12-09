@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pandaSDMX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
@@ -15,8 +16,8 @@ DESCRIPTION="Statistical Data and Metadata eXchange (SDMX) for the Python data e
 
 HOMEPAGE="https://github.com/dr-leo/pandasdmx"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/55/b3626e22193b0950c214ae913d02460c14faca380dbc9f4fd6d54a31d824/pandaSDMX-${REALVERSION}.tar.gz"
-SOURCEFILE="pandaSDMX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

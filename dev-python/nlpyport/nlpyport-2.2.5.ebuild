@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NLPyPort"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python NLP for Portuguese"
 
 HOMEPAGE="https://github.com/jdportugal/NLPyPort"
 LICENSE="cc0-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/b7/cb/27c653a479f649313c3d6da4dd88bbf6e92ed9f71f6cf64aa8cc177426c4/NLPyPort-${REALVERSION}.tar.gz"
-SOURCEFILE="NLPyPort-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

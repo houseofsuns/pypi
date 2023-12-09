@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EpubCrawler"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="EpubCrawler，用于抓取网页内容并制作 EPUB 的小工具"
 
 HOMEPAGE="https://github.com/apachecn/epub-crawler"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/19/2c/3dff1b707a29b36d3e6c12e20ae3580d2a90ef13e80a48a5a15cf8288f05/EpubCrawler-${REALVERSION}.tar.gz"
-SOURCEFILE="EpubCrawler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

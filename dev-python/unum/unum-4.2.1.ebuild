@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Unum"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Units in Python"
 
 HOMEPAGE="https://unum.readthedocs.io/"
 LICENSE="GNU General Public License GPL"
-SRC_URI="https://files.pythonhosted.org/packages/ff/a7/0d0685be80d222f1dcd32d687960e9dba1a2b7f77ea2d6dfc79290de4892/Unum-${REALVERSION}.tar.gz"
-SOURCEFILE="Unum-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

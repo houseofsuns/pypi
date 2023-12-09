@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CommandAlarm"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple command line program that allows users to set an alarm wit
 
 HOMEPAGE="https://github.com/alofgren/commandalarm"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/b1/84/2a2da80657b20670f0ce1539551d25858440adc4f7bec0a166f80d785e56/CommandAlarm-${REALVERSION}.tar.gz"
-SOURCEFILE="CommandAlarm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

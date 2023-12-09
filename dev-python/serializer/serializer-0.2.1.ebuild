@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Serializer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy object serialization. Mimics RoR ActiveRecord serializer."
 
 HOMEPAGE="http://github.com/kvesteri/serializer"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d1/3b/35ee2c33cfdc96680f6c7573212327cdbef28740e4af191585f23b2b65b3/Serializer-${REALVERSION}.tar.gz"
-SOURCEFILE="Serializer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

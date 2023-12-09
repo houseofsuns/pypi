@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CallingGPT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GPT's function calling feature wrapper"
 
 HOMEPAGE="https://github.com/RockChinQ/CallingGPT"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/22/a64557f5fe6b3db94f2aa899c566377a07c527345b08624f79c4e795b17e/CallingGPT-${REALVERSION}.tar.gz"
-SOURCEFILE="CallingGPT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RapidSMS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Build SMS applications with Python and Django"
 
 HOMEPAGE="http://github.com/rapidsms/rapidsms"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/4b/2c/b03287f0c1d9ed180c28ee978d6c664519be87db73e5c4953255e2bda466/RapidSMS-${REALVERSION}.tar.gz"
-SOURCEFILE="RapidSMS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

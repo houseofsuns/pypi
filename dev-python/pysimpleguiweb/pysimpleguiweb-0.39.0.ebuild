@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySimpleGUIWeb"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A port of PySimpleGUI that runs in a web browser.  Utilizes Remi as
 
 HOMEPAGE="https://github.com/PySimpleGUI/PySimpleGUI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9d/7c/1b9010df7f244121932962272e8d7df36bc14178dbcb63629a787be14951/PySimpleGUIWeb-${REALVERSION}.tar.gz"
-SOURCEFILE="PySimpleGUIWeb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

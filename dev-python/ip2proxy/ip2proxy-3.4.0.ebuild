@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IP2Proxy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python API for IP2Proxy database. It can be used to query an IP add
 
 HOMEPAGE="https://github.com/ip2location/ip2proxy-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/08/dd0a6180c9fb60a740d3694c54d231d8ff727dc31a826f72a4fdcb539b25/IP2Proxy-${REALVERSION}.tar.gz"
-SOURCEFILE="IP2Proxy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

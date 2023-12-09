@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="difPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="difPy Duplicate Image Finder - automated search for duplicate or si
 
 HOMEPAGE="https://github.com/elisemercury/Duplicate-Image-Finder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/61/f5e4be1db74a51aecbc58f33ef94ce07e13a5e9d9d6f20bbfc6beb901e8f/difPy-${REALVERSION}.tar.gz"
-SOURCEFILE="difPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

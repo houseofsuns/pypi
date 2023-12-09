@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Trac"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Integrated SCM, wiki, issue tracker and project environment"
 
 HOMEPAGE="https://trac.edgewall.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/6b/d7/9109f5ca0a50116980c29ebc4e52ecc50babf978a6042b46a8b8087f77d7/Trac-${REALVERSION}.tar.gz"
-SOURCEFILE="Trac-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

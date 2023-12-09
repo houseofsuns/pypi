@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AlienFeed"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="AlienFeed is a simple Reddit client for viewing and opening links f
 
 HOMEPAGE="http://github.com/jawerty/AlienFeed"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/a5/bc0fb6491e4e8a5710a6d6c126188eaa460022943d0a03b97ffe708ee692/AlienFeed-${REALVERSION}.tar.gz"
-SOURCEFILE="AlienFeed-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

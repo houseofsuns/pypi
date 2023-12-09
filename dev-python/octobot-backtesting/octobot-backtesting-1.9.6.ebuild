@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OctoBot-Backtesting"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OctoBot project backtesting engine"
 
 HOMEPAGE="https://github.com/Drakkar-Software/OctoBot-Backtesting"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/65/80/86c971d36be7349023e32d442c5fe676d5c0302976bbdb53f3368c01af1a/OctoBot-Backtesting-${REALVERSION}.tar.gz"
-SOURCEFILE="OctoBot-Backtesting-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

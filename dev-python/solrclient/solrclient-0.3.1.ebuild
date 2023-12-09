@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SolrClient"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python based client for Solr."
 
 HOMEPAGE="https://github.com/moonlitesolutions/SolrClient"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/ee/5a22c45c6cbc17efdb63961c08ee0782e2c1261fb52fe1ed41eedb4b53a1/SolrClient-${REALVERSION}.tar.gz"
-SOURCEFILE="SolrClient-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

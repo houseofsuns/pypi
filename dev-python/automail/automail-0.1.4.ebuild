@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Automail"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="sends bulk automated emails"
 
 HOMEPAGE="https://github.com/Preetam2114/Automail"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/37/36/11cf6b9e0eefff46fe1401e1ae670c32769d6b4193eb61bd47a89e1ecafd/Automail-${REALVERSION}.tar.gz"
-SOURCEFILE="Automail-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

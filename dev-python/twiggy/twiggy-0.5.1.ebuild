@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Twiggy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a Pythonic logger"
 
 HOMEPAGE="https://github.com/wearpants/twiggy/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/6e/81/6e2e2ee0e90df68ce1e8aec6fe147563dfcadbab3072f57f71bf42433cb2/Twiggy-${REALVERSION}.tar.gz"
-SOURCEFILE="Twiggy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

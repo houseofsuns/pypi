@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Youtube-Video-Audio-Downloader"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Simple GUI interface to help download videos and audio files from
 
 HOMEPAGE="https://github.com/Alex-Au1/Youtube_Downloader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/05/26/573cad1053e39e4f9f89c79bba73b1f5997de51a345a492dd40a17fc5a43/Youtube_Video_Audio_Downloader-${REALVERSION}.tar.gz"
-SOURCEFILE="Youtube_Video_Audio_Downloader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

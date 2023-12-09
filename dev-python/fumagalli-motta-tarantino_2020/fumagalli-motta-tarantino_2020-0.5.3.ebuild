@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="fumagalli-motta-tarantino-2020"
+LITERALNAME="Fumagalli-Motta-Tarantino-2020"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Implements the models presented in Fumagalli et al. (2020)"
 
 HOMEPAGE="https://github.com/manuelbieri/Fumagalli_2020#readme"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/04/83c692a96da9214ea55d9769ddb1d8ffd741672b44ee2b3b911d652357f3/Fumagalli_Motta_Tarantino_2020-${REALVERSION}.tar.gz"
-SOURCEFILE="Fumagalli_Motta_Tarantino_2020-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

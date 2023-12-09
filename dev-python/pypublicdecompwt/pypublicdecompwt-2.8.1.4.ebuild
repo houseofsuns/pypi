@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyPublicDecompWT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python bindings for EUMETSAT's PublicDecompWT"
 
 HOMEPAGE="https://github.com/sbrodehl/pyPublicDecompWT"
 LICENSE="Apache-2.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/12/c9/1cd0e8ac38ea124e81a3b353bca85b9f696196133cdbeb2e6da3a6f08bc2/pyPublicDecompWT-${REALVERSION}.tar.gz"
-SOURCEFILE="pyPublicDecompWT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

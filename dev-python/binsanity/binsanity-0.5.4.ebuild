@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Binsanity"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Method to cluster contigs based a biphasic method with coverage and
 
 HOMEPAGE="https://github.com/edgraham/BinSanity"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/1b/c7/a1070a62d2967e4897b53c557bdf328fdc103b40c91e73b19ff61bbedb0b/Binsanity-${REALVERSION}.tar.gz"
-SOURCEFILE="Binsanity-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

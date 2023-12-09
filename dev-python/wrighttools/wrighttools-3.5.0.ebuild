@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WrightTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for loading, processing, and plotting multidimensional spectr
 
 HOMEPAGE="http://wright.tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/d8/49741031ca8f2bc2d748da0bbf082b0c1179f07e34b9f586a956ed8a7aa9/WrightTools-${REALVERSION}.tar.gz"
-SOURCEFILE="WrightTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

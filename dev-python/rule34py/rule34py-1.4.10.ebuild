@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="rule34Py"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="API wraper for rule34.xxx"
 
 HOMEPAGE="https://github.com/b3yc0d3/rule34Py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/67/6f88635dc46771fdbeb555189dd5ea27bfdd0d82f6114f7c130d965787ce/rule34Py-${REALVERSION}.tar.gz"
-SOURCEFILE="rule34Py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Hefesto"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Preprocessing datatable toolkit"
 
 HOMEPAGE="https://github.com/pabloalarconm/hefesto"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/44/ef29caa9dbc8b2364cea8e323986647f05e39d07c9064a80c0e7d168a7b1/Hefesto-${REALVERSION}.tar.gz"
-SOURCEFILE="Hefesto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

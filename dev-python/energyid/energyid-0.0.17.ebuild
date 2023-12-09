@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EnergyID"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python API wrapper for EnergyID"
 
 HOMEPAGE="https://github.com/EnergieID/energyid-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/df/753e87aab7409b2c3db7a4760689fc19d6026ad108da5f06fc97d119edb0/EnergyID-${REALVERSION}.tar.gz"
-SOURCEFILE="EnergyID-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

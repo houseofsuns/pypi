@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PSyclone"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PSyclone - a compiler for Finite Element/Volume/Difference DSLs in 
 
 HOMEPAGE="https://github.com/stfc/psyclone"
 LICENSE="OSI Approved :: BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/91/79/363fbb54f06d4bda682486f3ca57bbfa6cb5fb18e798d10e661b60a06963/PSyclone-${REALVERSION}.tar.gz"
-SOURCEFILE="PSyclone-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

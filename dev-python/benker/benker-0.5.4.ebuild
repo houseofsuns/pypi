@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Benker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easily convert your CALS, HTML, Formex4, Office Open XML (docx) tab
 
 HOMEPAGE="https://github.com/laurent-laporte-pro/benker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/0f/89956345b3a950b80bf3bb978981bb165c7f50f8a00fc7168cff6e0c282a/Benker-${REALVERSION}.tar.gz"
-SOURCEFILE="Benker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

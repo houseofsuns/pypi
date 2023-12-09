@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Chatbot-by-IE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Chatbot: Addressbook, NoteBook, Sort file, Games"
 
 HOMEPAGE="https://github.com/Sanyavas/chatbot-team-project.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/47/485483ac804cdd7a75782785f4025e305aca4686c653512ad64b72b63716/Chatbot_by_IE-${REALVERSION}.tar.gz"
-SOURCEFILE="Chatbot_by_IE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

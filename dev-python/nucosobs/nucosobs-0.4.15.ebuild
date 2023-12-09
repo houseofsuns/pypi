@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="nucosObs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="nucosObs - an observer/observable toolbox based on asyncio"
 
 HOMEPAGE="https://github.com/DocBO/nucosObs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c8/0b/8a977649c1f029fb203e9e25fe219f63efcfd7d39839603ccacfb0469bee/nucosObs-${REALVERSION}.tar.gz"
-SOURCEFILE="nucosObs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

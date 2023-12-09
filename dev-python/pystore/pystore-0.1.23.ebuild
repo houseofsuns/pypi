@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyStore"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fast data store for Pandas timeseries data"
 
 HOMEPAGE="https://github.com/ranaroussi/pystore"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/55/e1/d7680118b8e34099ec117cd0730773a212c5bfc8cc9d6371d603529bf4b6/PyStore-${REALVERSION}.tar.gz"
-SOURCEFILE="PyStore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

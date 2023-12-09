@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FolderProcessing"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="一个基于其他模块，快速执行文件夹处理的模块|A m
 
 HOMEPAGE="https://codechina.csdn.net/qq_53280175/folderprocessing"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/57/afef4c5adb265c50212b8c9ff71ff40734593966e86962e646f1fb10d08e/FolderProcessing-${REALVERSION}.tar.gz"
-SOURCEFILE="FolderProcessing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

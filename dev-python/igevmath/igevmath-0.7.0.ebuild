@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="igeVmath"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="C++ Vector Math extension for 3D and 2D games."
 
 HOMEPAGE="https://indigames.net/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/28/8c/df27e52d1f57d68d5b8ef9f824594b4d06b19440b9ba60b5a4f8eff93134/igeVmath-${REALVERSION}.tar.gz"
-SOURCEFILE="igeVmath-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

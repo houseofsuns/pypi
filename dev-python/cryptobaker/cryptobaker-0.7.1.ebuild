@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CryptoBaker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Crypto Bakery"
 
 HOMEPAGE="https://github.com/AgeOfMarcus/CryptoBaker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/9e/d757cb9dff5f797311a5fb624f6097abefc2e61a1a93a7ee5bc8d8e51d0c/CryptoBaker-${REALVERSION}.tar.gz"
-SOURCEFILE="CryptoBaker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

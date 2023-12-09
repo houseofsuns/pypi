@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Binance-Data-Getter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Used to extract and process data from Binance"
 
 HOMEPAGE="https://github.com/mario-likes-camels/Binance_Data_Getter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/22/17/a803a1d1ef17da338588a3808e6844c06cb1400b8b6c9d39bcb2ed4b152c/Binance_Data_Getter-${REALVERSION}.tar.gz"
-SOURCEFILE="Binance_Data_Getter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

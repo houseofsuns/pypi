@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="POT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Optimal Transport Library"
 
 HOMEPAGE="https://github.com/PythonOT/POT"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/ce/e26a1bd731c089249d32af1f422f0d420e0f0ff6856575fce3b98403da04/POT-${REALVERSION}.tar.gz"
-SOURCEFILE="POT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

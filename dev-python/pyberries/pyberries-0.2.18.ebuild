@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyBerries"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Processing of Bacmman measurement tables"
 
 HOMEPAGE="https://gitlab.com/MEKlab/pyberries"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/df/86/016f2cef0c029ce6969fe05571762bca8206ce86f36fdb496febf8323932/PyBerries-${REALVERSION}.tar.gz"
-SOURCEFILE="PyBerries-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyTigerDriver"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GSQL client for TigerGraph"
 
 HOMEPAGE="https://github.com/tigergraph/pyTigerDriver"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e7/6a/03d00a040806f88492df20208ae5b806767ec700b2690fa0f0eb22e8c51c/pyTigerDriver-${REALVERSION}.tar.gz"
-SOURCEFILE="pyTigerDriver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

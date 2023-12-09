@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Aspidites"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Aspidites is the reference implementation of the Woma Language"
 
 HOMEPAGE="https://github.com/rjdbcm/Aspidites"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/cc/ef/2d007fdd78e41c8df7db102879fb0acd3d63f730f68b474cfa4bc7ae4b48/Aspidites-${REALVERSION}.tar.gz"
-SOURCEFILE="Aspidites-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

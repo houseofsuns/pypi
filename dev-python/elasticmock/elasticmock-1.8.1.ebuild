@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ElasticMock"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Elasticsearch Mock for test purposes"
 
 HOMEPAGE="https://github.com/vrcmarcos/elasticmock"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6a/2b/82213b57b3426b94cadcc5bc1ced471626e3f21153dd7506fc3b8c568324/ElasticMock-${REALVERSION}.tar.gz"
-SOURCEFILE="ElasticMock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

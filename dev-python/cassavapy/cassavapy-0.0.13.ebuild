@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CassavaPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to write, run and get outputs from DSSAT-Manihot model"
 
 HOMEPAGE="https://github.com/FabioSeixas/CassavaPy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/ab/97cfdc68bb371035ef6feefa3c1676f3d815224075e7532efd391f9e2ba4/CassavaPy-${REALVERSION}.tar.gz"
-SOURCEFILE="CassavaPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

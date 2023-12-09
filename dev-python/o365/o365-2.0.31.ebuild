@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="O365"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Microsoft Graph and Office 365 API made easy"
 
 HOMEPAGE="https://github.com/O365/python-o365"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/59/2e/289e1d9886a9424a71f2c84d962c065acd521f8f2d4d9a9c0e7dc17445d8/O365-${REALVERSION}.tar.gz"
-SOURCEFILE="O365-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

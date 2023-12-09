@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OctoBot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Cryptocurrencies alert / trading bot"
 
 HOMEPAGE="https://github.com/Drakkar-Software/OctoBot"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b5/67/341afb193c93e69e54405ace5c65777507f4e9a135602543f6599eb95ed3/OctoBot-${REALVERSION}.tar.gz"
-SOURCEFILE="OctoBot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

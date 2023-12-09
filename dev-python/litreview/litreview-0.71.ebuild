@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LitReview"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Literature curation tool."
 
 HOMEPAGE="http://cherry-vm13.stanford.edu"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/45/bcecfd6b478e1cbc2392ba2681b266931546972f28324775dfe62d2b3ace/LitReview-${REALVERSION}.tar.gz"
-SOURCEFILE="LitReview-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

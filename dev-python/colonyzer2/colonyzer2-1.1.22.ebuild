@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Colonyzer2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Image analysis for microbial cultures growing on solid agar surface
 
 HOMEPAGE="http://research.ncl.ac.uk/colonyzer/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9b/63/b5da26edbbcb3bd97085597deb323433b9801b2e85bb047d9e84801a5a8c/Colonyzer2-${REALVERSION}.tar.gz"
-SOURCEFILE="Colonyzer2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

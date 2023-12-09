@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySwitchbot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library to communicate with Switchbot"
 
 HOMEPAGE="https://github.com/Danielhiversen/pySwitchbot/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3c/03/83030666b7eb1b49d791b8d45daabc6d96d4ea407855d92fc63b1803e15c/PySwitchbot-${REALVERSION}.tar.gz"
-SOURCEFILE="PySwitchbot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

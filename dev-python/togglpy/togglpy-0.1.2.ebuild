@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TogglPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library for interacting with the Toggl API."
 
 HOMEPAGE="https://github.com/matthewdowney/TogglPy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/52/91/d2d4e113f5579face709ceb443e4368cbacb48bed3b4b7521415c5f530f6/TogglPy-${REALVERSION}.tar.gz"
-SOURCEFILE="TogglPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

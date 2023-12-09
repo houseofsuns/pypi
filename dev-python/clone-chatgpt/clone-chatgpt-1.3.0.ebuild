@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Clone-ChatGPT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A command-line interface to ChatGPT"
 
 HOMEPAGE="https://github.com/lannychan/pandora"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/ba/3e1814432f41b91218ffa09dd53a9b11fe3b45ec9d73686e6a008e0526cf/Clone-ChatGPT-${REALVERSION}.tar.gz"
-SOURCEFILE="Clone-ChatGPT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

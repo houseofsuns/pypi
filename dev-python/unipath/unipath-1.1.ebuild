@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Unipath"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Object-oriented alternative to os/os.path/shutil"
 
 HOMEPAGE="https://github.com/mikeorr/Unipath"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/56/de14fb87407047321dad378cb403c6a9adfb7ba394a6f0e9d8839b8b0ef3/Unipath-${REALVERSION}.tar.gz"
-SOURCEFILE="Unipath-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

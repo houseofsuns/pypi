@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HABApp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy automation with MQTT and/or openHAB. Create home automation ru
 
 HOMEPAGE="https://github.com/spacemanspiff2007/HABApp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/7a/e93db9730c50e53e9d3a229d34b3ecc85f3cdb295389e2c2f2dbd3dc1823/HABApp-${REALVERSION}.tar.gz"
-SOURCEFILE="HABApp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

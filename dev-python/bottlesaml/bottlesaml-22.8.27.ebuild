@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BottleSaml"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SAML Service Provider for Bottle"
 
 HOMEPAGE="https://github.com/Glocktober/BottleSaml"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/86/86f58e6942cc0e6050ae408b8bc44ce50d529d89ad1a86b8b9fd0015ba4c/BottleSaml-${REALVERSION}.tar.gz"
-SOURCEFILE="BottleSaml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

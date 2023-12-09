@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="tabNamesCat"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CategorizationTabNames"
 
 HOMEPAGE="https://github.com/Denisalik/TabNamesCat"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/cd/d5e307d9e30b71cd6841c55ae96554fd2dbcb2cd63c7e6b224ec21ce01bf/tabNamesCat-${REALVERSION}.tar.gz"
-SOURCEFILE="tabNamesCat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

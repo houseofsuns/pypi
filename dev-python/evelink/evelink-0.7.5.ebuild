@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EVELink"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Bindings for the EVE Online API"
 
 HOMEPAGE="https://github.com/eve-val/evelink"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/bc/b8b6ef633772d4aa7b51daa0adc7641933de51c4bc1fcd7d666fe09250d9/EVELink-${REALVERSION}.tar.gz"
-SOURCEFILE="EVELink-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

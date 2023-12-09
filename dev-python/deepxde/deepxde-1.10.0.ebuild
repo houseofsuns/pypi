@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepXDE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for scientific machine learning"
 
 HOMEPAGE="https://github.com/lululxvi/deepxde"
 LICENSE="LGPL-2.1"
-SRC_URI="https://files.pythonhosted.org/packages/31/05/582190487cae04020991797dc0c3bdc232bac7055141fb9faa2357bf250f/DeepXDE-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepXDE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

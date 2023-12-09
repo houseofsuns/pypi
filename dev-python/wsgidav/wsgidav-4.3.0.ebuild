@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WsgiDAV"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generic and extendable WebDAV server based on WSGI"
 
 HOMEPAGE="https://github.com/mar10/wsgidav"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/06/22/3d3116a02c606b80cb006b489f1bd95aac96d815f94dd227326167d8fce6/WsgiDAV-${REALVERSION}.tar.gz"
-SOURCEFILE="WsgiDAV-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Code1v1"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Code 1v1 是 AI悦创·致力推广编程教学而研发的教学�
 
 HOMEPAGE="https://github.com/AndersonHJB/Code1v1"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d6/cd/c2e6a7edc25a849c1715bb99fee9db65e719dac9ed37134e74e48d8c4657/Code1v1-${REALVERSION}.tar.gz"
-SOURCEFILE="Code1v1-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

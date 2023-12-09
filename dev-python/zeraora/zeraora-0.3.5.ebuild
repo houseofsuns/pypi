@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Zeraora"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="为了跨平台跨项目复用代码而开发的工具库。A utili
 
 HOMEPAGE="https://github.com/aixcyi/zeraora"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/11/c4/bfbf081704bc9d8bf5a1238b021758f6ebb5a314da5bcd5123b6ced28942/Zeraora-${REALVERSION}.tar.gz"
-SOURCEFILE="Zeraora-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

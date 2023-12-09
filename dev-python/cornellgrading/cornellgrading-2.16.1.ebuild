@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="cornellGrading"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Routines for interacting with Cornell installations of Canvas and Q
 
 HOMEPAGE="https://github.com/dsavransky/grading"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/8d/a55ad2dd0941b3992083c84e7aac0048a2cecf0f11be1f9fdc1b95e68d47/cornellGrading-${REALVERSION}.tar.gz"
-SOURCEFILE="cornellGrading-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChiantiPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a Python interface to the CHIANTI atomic database for astrophysical
 
 HOMEPAGE="https://github.com/chianti-atomic/ChiantiPy"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/35/78/962e9751200e3e32433f83b4152c145932a756105fc57027ca0d46668aaf/ChiantiPy-${REALVERSION}.tar.gz"
-SOURCEFILE="ChiantiPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

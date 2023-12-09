@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ESMValCore"
 REALVERSION="2.10.0rc1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ESMValCore: A community tool for pre-processing data from Earth sys
 
 HOMEPAGE="https://www.esmvaltool.org"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/10/f0/2163d87241971f9e46822dd06d80dd9d00f20fa3bd3c178634bd2bacec5a/ESMValCore-${REALVERSION}.tar.gz"
-SOURCEFILE="ESMValCore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Logging"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="UNKNOWN"
 
 HOMEPAGE="https://pypi.python.org/pypi/Flask-Logging"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0a/63/77b776de80ed6506390c3e7d5d29bab22786e4f8ee0c32a0485600963c28/Flask-Logging-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Logging-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

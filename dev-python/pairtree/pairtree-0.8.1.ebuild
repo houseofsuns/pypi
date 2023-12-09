@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pairtree"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pairtree FS implementation."
 
 HOMEPAGE="http://packages.python.org/Pairtree/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/39/20/2016f34a3082f94211bdb62d59866db7d03dd1a12b41a19b6ea9cc78cc4a/Pairtree-${REALVERSION}.tar.gz"
-SOURCEFILE="Pairtree-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

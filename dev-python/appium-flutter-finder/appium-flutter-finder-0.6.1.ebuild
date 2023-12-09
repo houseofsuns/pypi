@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Appium-Flutter-Finder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An extension of finder for Appium flutter"
 
 HOMEPAGE="https://github.com/appium-userland/appium-flutter-driver"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/b6/1b3ffcf924112d9aa19d335038c505eddd030982f044e6d51eaaeb8dde9d/Appium-Flutter-Finder-${REALVERSION}.tar.gz"
-SOURCEFILE="Appium-Flutter-Finder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

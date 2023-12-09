@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OneClick"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OneClik"
 
 HOMEPAGE="https://github.com/SidraELEzz/EmailChecker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/95/87/1cbd8fb7d54935dc6f9c7bdb0dc99b6e156d6704b596fbd515ddf1e3f725/OneClick-${REALVERSION}.tar.gz"
-SOURCEFILE="OneClick-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

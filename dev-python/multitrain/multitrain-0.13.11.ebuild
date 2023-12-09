@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MultiTrain"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MultiTrain allows you to train multiple machine learning algorithms
 
 HOMEPAGE="https://github.com/LOVE-DOCTOR/train-with-models"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/23/69e4f51e1c02c166335950b6703b22ea07504032609ae3b03c06d4fda6cb/MultiTrain-${REALVERSION}.tar.gz"
-SOURCEFILE="MultiTrain-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

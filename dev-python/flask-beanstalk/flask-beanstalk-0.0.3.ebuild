@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Beanstalk"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Utilities for using Beanstalk with Flask"
 
 HOMEPAGE="https://github.com/marksteve/flask-beanstalk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/3f/65766093bc9c746b2f8d03fd9cbdc4f352a9222d0239f456270d64610d49/Flask-Beanstalk-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Beanstalk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

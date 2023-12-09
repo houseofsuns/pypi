@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EasyMCDM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A easy to use Multi-Criteria Decision-Making (MCDM) toolkit which p
 
 HOMEPAGE="https://EasyMCDM.github.io/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/9c/806661a205170864912d0a4765f0b78f39149530a6b00230a0bcb932bf4d/EasyMCDM-${REALVERSION}.tar.gz"
-SOURCEFILE="EasyMCDM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

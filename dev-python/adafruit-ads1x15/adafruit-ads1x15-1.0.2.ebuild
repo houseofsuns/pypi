@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Adafruit-ADS1x15"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python code to use the ADS1015 and ADS1115 analog to digital conver
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_Python_ADS1x15/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/e8/c9935e32f61e6562abea08cb704fcbfbb78b39bd1d20bb9b12eb4c2c820c/Adafruit_ADS1x15-${REALVERSION}.tar.gz"
-SOURCEFILE="Adafruit_ADS1x15-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

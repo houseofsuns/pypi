@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EasyDraw"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A graphical library built for visual arts. EasyDraw is built on top
 
 HOMEPAGE="https://github.com/vafakaramzadegan/EasyDraw"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/44/8f/c52e09c8efb1fd9e3a374bb550c9937ec393ab57640b99e4042f134147dc/EasyDraw-${REALVERSION}.tar.gz"
-SOURCEFILE="EasyDraw-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

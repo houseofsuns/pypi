@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FOFA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library for FOFA (https://fofa.info)"
 
 HOMEPAGE="https://github.com/fofa-dev/FofaSDK-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/92/a4/b868da826e1cf92de3db47d4cce8ccf26f57fbd0aaaef53a3439d4ef1f8c/FOFA-${REALVERSION}.tar.gz"
-SOURCEFILE="FOFA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

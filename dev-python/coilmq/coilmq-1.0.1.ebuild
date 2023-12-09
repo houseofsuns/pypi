@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CoilMQ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple, lightweight, and easily extensible STOMP message broker."
 
 HOMEPAGE="https://github.com/hozn/coilmq"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c7/65/ec512bd99c370b6f076fea9213a0e0431d402ccd755dcc15646d5d4f6f08/CoilMQ-${REALVERSION}.tar.gz"
-SOURCEFILE="CoilMQ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

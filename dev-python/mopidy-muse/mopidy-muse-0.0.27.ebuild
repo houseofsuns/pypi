@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mopidy-Muse"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mopidy interface with snapcast support"
 
 HOMEPAGE="https://github.com/cristianpb/muse"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c9/13/4d63ac8b0a9e66aea4ad775454a65ad8ae4b2364b5e430965f446ef88655/Mopidy-Muse-${REALVERSION}.tar.gz"
-SOURCEFILE="Mopidy-Muse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

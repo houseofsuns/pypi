@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenMEASURE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package for soft sensing applications"
 
 HOMEPAGE="https://github.com/albertoprocacci/OpenMEASURE"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/fa/4eddbc181da6b2332f92b0e3278a24907a726c40fb38c9cdb20eb9ef5961/OpenMEASURE-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenMEASURE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

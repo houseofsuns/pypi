@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Injector"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds Injector, a Dependency Injection framework, support to Flask."
 
 HOMEPAGE="https://github.com/alecthomas/flask_injector"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/70/f1/c9a83644c62ef7b0dec8c10d5dc18d83bd145eb442ab778279ab847e0683/Flask-Injector-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Injector-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

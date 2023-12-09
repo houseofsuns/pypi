@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyCifRW"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CIF/STAR file support for Python"
 
 HOMEPAGE="https://github.com/jamesrhester/pycifrw/blob/development/README.md"
 LICENSE="Python 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/57/08/e0811d3a6bd0895fef98a0341ba2bd4556c8bbc7287ea01f1a8db96214f6/PyCifRW-${REALVERSION}.tar.gz"
-SOURCEFILE="PyCifRW-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

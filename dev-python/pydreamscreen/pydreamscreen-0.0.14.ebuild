@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDreamScreen"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python device discovery and manipulation for DreamScreen HD, 4K, an
 
 HOMEPAGE="https://github.com/GregoryDosh/pydreamscreen"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/1a/4bc231be4a4423dcb09696115b0f5f17fb42521a8ce4fcda3ff7bfd5eb7a/PyDreamScreen-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDreamScreen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

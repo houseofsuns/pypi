@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Python-EasyGraph"
 REALVERSION="0.2a46"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy Graph"
 
 HOMEPAGE="https://github.com/easy-graph/Easy-Graph"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/93/a56e9ec86e108a69025463483b129ce1d10da7f64321711d1920c3c45f5b/Python-EasyGraph-${REALVERSION}.tar.gz"
-SOURCEFILE="Python-EasyGraph-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

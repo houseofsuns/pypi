@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ITMO-FS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Feature Selection library from ITMO University."
 
 HOMEPAGE="https://github.com/ctlab/ITMO_FS"
 LICENSE="new BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e0/21/4e204d7a5b95ac62f7efab41a2fc2c4b0e2c211cd34e2100deddaf6d6aca/ITMO_FS-${REALVERSION}.tar.gz"
-SOURCEFILE="ITMO_FS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

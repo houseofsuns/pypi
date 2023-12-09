@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="InnoCleaner"
 REALVERSION="1.0.17.dev1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This is a CLI based cleaner utility for Unix based systems."
 
 HOMEPAGE="https://github.com/Kush22/Cleaning-Sorting-Utility"
 LICENSE="MIT LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/d1/0f/733aa98ec8548696d06f81623bf693284a2f4f47c0de6e9b7f31367401b8/InnoCleaner-${REALVERSION}.tar.gz"
-SOURCEFILE="InnoCleaner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

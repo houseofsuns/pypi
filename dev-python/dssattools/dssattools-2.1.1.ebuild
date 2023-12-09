@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DSSATTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A DSSAT's Python implementation"
 
 HOMEPAGE="https://github.com/daquinterop/Py_DSSATTools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/83/a0b8c4943cef0be1bd4ec80259d8d13da1f7920b66da2dde49edffb02c85/DSSATTools-${REALVERSION}.tar.gz"
-SOURCEFILE="DSSATTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

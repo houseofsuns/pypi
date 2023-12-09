@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="kBmc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Kage's Intelgent BMC handler"
 
 HOMEPAGE="https://github.com/kagepark/kBmc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1c/ff/138d8f918b3156d461dc5039275c2f5bcb4bfc3a3e7860413c656e1b1f84/kBmc-${REALVERSION}.tar.gz"
-SOURCEFILE="kBmc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

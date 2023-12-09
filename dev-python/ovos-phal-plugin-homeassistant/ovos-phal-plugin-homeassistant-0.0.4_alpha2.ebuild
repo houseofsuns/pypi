@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ovos-PHAL-plugin-homeassistant"
 REALVERSION="0.0.4a2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Homeassistant PHAL plugin for OpenVoiceOS"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-PHAL-plugin-homeassistant"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7c/01/2e7760bee25f009030dc650678e75728ed881d235cbb8abc265dcfbe144f/ovos-PHAL-plugin-homeassistant-${REALVERSION}.tar.gz"
-SOURCEFILE="ovos-PHAL-plugin-homeassistant-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

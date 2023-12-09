@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="adafruit-circuitpython-HTU21D"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CircuitPython library for HTU21D-F Temperature and     Humidity Sen
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_HTU21D"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/58/4108c85539099840754c771ef05f2b5f9e3212fdb71dbdf3a76cabe94711/adafruit-circuitpython-HTU21D-${REALVERSION}.tar.gz"
-SOURCEFILE="adafruit-circuitpython-HTU21D-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KevinSR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This package includes inference codes supporting Super-resolution i
 
 HOMEPAGE="https://pypi.org/project/KevinSR"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/71/58/541a0e43a6a7b70c910144be3cc8db771bda0ddc41a7bb58572476435091/KevinSR-${REALVERSION}.tar.gz"
-SOURCEFILE="KevinSR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

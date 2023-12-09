@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Helper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask Helper"
 
 HOMEPAGE="https://github.com/meisanggou/Flask-Helper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e3/cf/76178ac7a5b60a892571ddc33def52094ee7d44fb0e4819c2bfd739fdfe7/Flask-Helper-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Helper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pylot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pylot is a Flask extension that adds structure and map your views a
 
 HOMEPAGE="https://github.com/mardix/pylot/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6f/18/1d14c2f30b46c92c01ec3aa8499553e73e1f3258188a9abecefb784fb7a5/Pylot-${REALVERSION}.tar.gz"
-SOURCEFILE="Pylot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

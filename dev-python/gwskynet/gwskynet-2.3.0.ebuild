@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GWSkyNet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GWSkyNet : a machine learning algorithm used for estimating the pro
 
 HOMEPAGE=""
 LICENSE="GPL-2.0+"
-SRC_URI="https://files.pythonhosted.org/packages/f5/c7/c2839fb11330dc84b3852cf1379c23584b6723194a1e64c675c9bbbf7d72/GWSkyNet-${REALVERSION}.tar.gz"
-SOURCEFILE="GWSkyNet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyEyeTrack"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyEyeTrack is a python-based pupil-tracking library. The library tr
 
 HOMEPAGE="https://github.com/algoasylum/PyEyeTrack"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ab/53/40ec2c2f09cb6fbc4182fde3ea2f7561c1c93c9c2944a81d06558bc42062/PyEyeTrack-${REALVERSION}.tar.gz"
-SOURCEFILE="PyEyeTrack-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

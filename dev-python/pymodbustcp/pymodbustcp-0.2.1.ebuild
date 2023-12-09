@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyModbusTCP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple Modbus/TCP library for Python"
 
 HOMEPAGE="https://github.com/sourceperl/pyModbusTCP"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e6/a6/0c27322f0329644352d54687bb4679adbff3bc15d975c75a9a3c453055b3/pyModbusTCP-${REALVERSION}.tar.gz"
-SOURCEFILE="pyModbusTCP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

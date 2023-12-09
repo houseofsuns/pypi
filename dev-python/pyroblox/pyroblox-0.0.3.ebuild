@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyRoblox"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library for interfacing with Roblox"
 
 HOMEPAGE="https://github.com/EchoReaper/pyroblox"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c7/d7/e154d72f3b420f3ac504110214ecc53cc134b10620990e7a9070e754379a/pyRoblox-${REALVERSION}.tar.gz"
-SOURCEFILE="pyRoblox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

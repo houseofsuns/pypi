@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SalesforceMinu"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Librería para extraer datos de minu en salesforce"
 
 HOMEPAGE="https://github.com/BalamCor?tab=repositories"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/62/7e/874d8fad44a77ef806a56e4b434a1ddfdc0d61fe656d0eb5a0bc84d6967d/SalesforceMinu-${REALVERSION}.tar.gz"
-SOURCEFILE="SalesforceMinu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GLRParser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A GLR Parser for Natural Language Processing and Translation"
 
 HOMEPAGE="https://github.com/mdolgun/GLRParser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/9f/d6c1e9cf802d8860251738797193464d4430f5504018277ecdef8d8d781e/GLRParser-${REALVERSION}.tar.gz"
-SOURCEFILE="GLRParser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

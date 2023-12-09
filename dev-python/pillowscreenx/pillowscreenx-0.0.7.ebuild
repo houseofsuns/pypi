@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PillowScreenX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PillowScreenX is a powerful screenshot capturing tool that leverage
 
 HOMEPAGE="https://github.com/4akhilkumar/pillowscreenx"
 LICENSE="HPND"
-SRC_URI="https://files.pythonhosted.org/packages/57/f7/9f9439af9e1a6a068b64504b7cd63854369adb2500e282ed63b3619decb0/PillowScreenX-${REALVERSION}.tar.gz"
-SOURCEFILE="PillowScreenX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

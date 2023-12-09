@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DAJIN2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="One-step genotyping tools for targeted long-read sequencing"
 
 HOMEPAGE="https://github.com/akikuno/DAJIN2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/75/70f910126fabf97f17ec6d21dc3288b99477d2201660db00ad775bfc96db/DAJIN2-${REALVERSION}.zip"
-SOURCEFILE="DAJIN2-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

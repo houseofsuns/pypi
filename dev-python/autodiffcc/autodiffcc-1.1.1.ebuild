@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AutoDiffCC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An AutoDifferentiation Library"
 
 HOMEPAGE="https://github.com/Crimson-Computing/cs207-FinalProject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b1/40/9ba46370fac036bb312b57d5b3fa4fe8ea9340adc9798a10409fe75ba31a/AutoDiffCC-${REALVERSION}.tar.gz"
-SOURCEFILE="AutoDiffCC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

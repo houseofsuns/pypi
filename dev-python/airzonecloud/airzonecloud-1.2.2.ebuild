@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AirzoneCloud"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python3 library for Airzone Cloud API"
 
 HOMEPAGE="https://github.com/max13fr/AirzoneCloud"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e0/6b/7d41c51c0fc3c683840b084ca87c792554fc1eacbbb7d5e083375ca27bc0/AirzoneCloud-${REALVERSION}.tar.gz"
-SOURCEFILE="AirzoneCloud-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AYABInterface"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library with the interface to the AYAB shield."
 
 HOMEPAGE="https://github.com/fossasia/AYABInterface"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/fe/b8/4b57d514cee90ccb1ebaa85fda1998012c4a3e60d2a9077b0ca9072a609f/AYABInterface-${REALVERSION}.zip"
-SOURCEFILE="AYABInterface-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

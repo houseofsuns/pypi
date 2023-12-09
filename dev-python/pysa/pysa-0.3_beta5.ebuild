@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pysa"
 REALVERSION="0.3b5"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Reverse your Servers Configuration"
 
 HOMEPAGE="http://madeiracloud.github.io/pysa/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/16/a0/3b1b93c85eda89d24d2b1512b9e3e66f32c08d1f8b501e44d694a594e5d7/Pysa-${REALVERSION}.tar.gz"
-SOURCEFILE="Pysa-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

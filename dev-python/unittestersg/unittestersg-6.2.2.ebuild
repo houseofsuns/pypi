@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UnitTesterSG"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="UnitTesterSG is for unit testing scientific/engineering outputs. It
 
 HOMEPAGE="https://github.com/AdityaSavara/UnitTesterSG"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b7/67/43e49d450e53e5caab6884990f87e2cab0f3df99bc199545c088fdcba39d/UnitTesterSG-${REALVERSION}.tar.gz"
-SOURCEFILE="UnitTesterSG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

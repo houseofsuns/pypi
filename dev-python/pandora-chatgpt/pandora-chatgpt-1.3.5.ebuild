@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pandora-ChatGPT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A command-line interface to ChatGPT"
 
 HOMEPAGE="https://github.com/zhile-io/pandora"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/93/ba43ce02d0a21bd25a4ddf85106f1384ff6d836074673ad54d857219cc6d/Pandora-ChatGPT-${REALVERSION}.tar.gz"
-SOURCEFILE="Pandora-ChatGPT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

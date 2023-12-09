@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="qBitrr"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple script to monitor Qbit and communicate with Radarr and Son
 
 HOMEPAGE="https://github.com/Drapersniper/Qbitrr"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a3/4d/63ccafde67dde316b7ce6e60a43dd1a916b26d7f7a59a836f3d7668a1006/qBitrr-${REALVERSION}.tar.gz"
-SOURCEFILE="qBitrr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

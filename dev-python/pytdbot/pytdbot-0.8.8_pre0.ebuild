@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pytdbot"
 REALVERSION="0.8.8.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy-to-use asynchronous TDLib wrapper for Python."
 
 HOMEPAGE="https://github.com/pytdbot/client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/a6/d558f4baa9ef184f90d2891b44b7add8be2d2a1f6a070075cddb16e5a7eb/Pytdbot-${REALVERSION}.tar.gz"
-SOURCEFILE="Pytdbot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

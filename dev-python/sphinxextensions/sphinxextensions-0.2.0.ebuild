@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SphinxExtensions"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Extensions for the Sphinx documentation tool."
 
 HOMEPAGE="https://github.com/Paebbels/SphinxExtensions"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f7/74/afc772ecabcfaa377e7c3ef256d1b9397364ce4cb9e371274ec5554e9e8c/SphinxExtensions-${REALVERSION}.tar.gz"
-SOURCEFILE="SphinxExtensions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

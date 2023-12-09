@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Cache-Redis-Cluster"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds redis cluster caching support to the Flask Cache(ing) extensio
 
 HOMEPAGE="https://github.com/Richard-Mathie/Flask-Cache-Redis-Cluster"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/79/c2/fd9e0c39d0292f24d622ec5523d80c1c40494b76a0eb5d2dcf36e163ae4e/Flask-Cache-Redis-Cluster-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Cache-Redis-Cluster-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

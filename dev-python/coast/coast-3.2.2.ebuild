@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="COAsT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
@@ -15,8 +16,8 @@ DESCRIPTION="This is the Coast Ocean Assessment Tool"
 
 HOMEPAGE="https://www.bodc.ac.uk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d8/a3/f90fcefe5f000a2b5b613d43af588faa102573edfb22faa0137c4be8ce6e/COAsT-${REALVERSION}.tar.gz"
-SOURCEFILE="COAsT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

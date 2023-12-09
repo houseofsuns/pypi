@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JYTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Jing Yun Tools Library"
 
 HOMEPAGE="https://github.com/meisanggou/Tools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/91/6d/e52062356c1e79fd3f94448f6b45af136ff621107963e905b1c71011597e/JYTools-${REALVERSION}.tar.gz"
-SOURCEFILE="JYTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

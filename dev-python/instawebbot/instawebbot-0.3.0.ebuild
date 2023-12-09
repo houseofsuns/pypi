@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="InstaWebBot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple library for managing an Instagram bot as a web application
 
 HOMEPAGE="https://github.com/Julius-W/InstaBot"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/9b/36/53fd52189fb865ea8cb0287521c61fcda672a93923a6022d0ea2b2039596/InstaWebBot-${REALVERSION}.tar.gz"
-SOURCEFILE="InstaWebBot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

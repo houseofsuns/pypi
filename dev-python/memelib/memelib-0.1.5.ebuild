@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MemeLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python lib to get dank memes"
 
 HOMEPAGE="https://github.com/CraziiAce/MemeLib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/92/ac/b32199fb619a5111b41af996ca7ead17927cedade4f5fb009c72b087e4e9/MemeLib-${REALVERSION}.tar.gz"
-SOURCEFILE="MemeLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

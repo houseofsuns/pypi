@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HandTrackingModule"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This is a simplified version to do hand tracking from mediapipe"
 
 HOMEPAGE="https://github.com/Harshbansal8705/HandTrackingModule"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/2b/bcd6299d7ece92affe1a5de6fd3d2a9504d2c9f03629ee8c45acf7fdf21d/HandTrackingModule-${REALVERSION}.tar.gz"
-SOURCEFILE="HandTrackingModule-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pyomo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pyomo: Python Optimization Modeling Objects"
 
 HOMEPAGE="http://pyomo.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/43/46/80bf188f20812381b29d95f3123ced89be68955c821b8d229af0a0439e79/Pyomo-${REALVERSION}.tar.gz"
-SOURCEFILE="Pyomo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

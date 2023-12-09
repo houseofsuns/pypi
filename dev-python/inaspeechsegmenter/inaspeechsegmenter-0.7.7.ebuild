@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="inaSpeechSegmenter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CNN-based audio segmentation toolkit. Does voice activity detection
 
 HOMEPAGE="https://github.com/ina-foss/inaSpeechSegmenter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/18/dd/2802148d83a2c40fd249ed75198404916f6985bafcce37af0e0bf448e1e1/inaSpeechSegmenter-${REALVERSION}.tar.gz"
-SOURCEFILE="inaSpeechSegmenter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OppOpPopInit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyPI package containing opposition learning operators and populatio
 
 HOMEPAGE="https://github.com/PasaOpasen/opp-op-pop-init"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/59/3e/59fa1a994f1ec6fe85539293e8dcd363cefb4ee04d7ae2d35591cb437e5a/OppOpPopInit-${REALVERSION}.tar.gz"
-SOURCEFILE="OppOpPopInit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

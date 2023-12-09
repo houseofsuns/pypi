@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Ambiclimate"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python3 library to communicate with Ambiclimate"
 
 HOMEPAGE="https://github.com/Danielhiversen/pyAmbiclimate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/bb/1c/282ef2e892bdc60cb52e7ec8e6698cdac162af9a91645e199b0c8eac42e0/Ambiclimate-${REALVERSION}.tar.gz"
-SOURCEFILE="Ambiclimate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

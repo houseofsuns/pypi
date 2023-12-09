@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FastAPI-SQLAlchemy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds simple SQLAlchemy support to FastAPI"
 
 HOMEPAGE="https://github.com/mfreeborn/fastapi-sqlalchemy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/1d/c08c99b2be52d822323840a7acc8f17df5bc3963e5e3431b4cedc0838b2f/FastAPI-SQLAlchemy-${REALVERSION}.tar.gz"
-SOURCEFILE="FastAPI-SQLAlchemy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

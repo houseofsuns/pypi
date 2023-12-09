@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Seeder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension to seed database through scripts"
 
 HOMEPAGE="https://github.com/diddi-/flask-seeder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1b/cf/d6167af60d6222d2898dca238a787ce47ce22a8afce41e5f1cf1023a31c3/Flask-Seeder-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Seeder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

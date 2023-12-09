@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FireWorks"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FireWorks workflow software"
 
 HOMEPAGE="https://github.com/materialsproject/fireworks"
 LICENSE="modified BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d1/9a/54d72f7b09995155f513064d1e6207b3ac87f73306b4c0522c3dd68b6a57/FireWorks-${REALVERSION}.tar.gz"
-SOURCEFILE="FireWorks-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

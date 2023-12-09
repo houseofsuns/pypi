@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="COVID19Py"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tiny Python package for easy access to up-to-date Coronavirus (CO
 
 HOMEPAGE="https://github.com/Kamaropoulos/covid19py"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d2/e5/d8129426769328cc19d939c7ccb9cb774a79de92cb093bec65f3dc81eb75/COVID19Py-${REALVERSION}.tar.gz"
-SOURCEFILE="COVID19Py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

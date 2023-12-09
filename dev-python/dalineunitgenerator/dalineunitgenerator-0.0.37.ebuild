@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DalineUnitGenerator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="test package"
 
 HOMEPAGE="https://github.com/DalineWH"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/37/75/3abb7d6130b8f8414f4a441418540e7d99dd94b8c1e36c43f98d780fd85c/DalineUnitGenerator-${REALVERSION}.tar.gz"
-SOURCEFILE="DalineUnitGenerator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Celery-Helper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Celery support for Flask without breaking PyCharm inspections."
 
 HOMEPAGE="https://github.com/Robpol86/Flask-Celery-Helper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/71/f5/3631b71ac28d9b691ff2e2371a95121be18c742c963098635c11cf4a254f/Flask-Celery-Helper-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Celery-Helper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

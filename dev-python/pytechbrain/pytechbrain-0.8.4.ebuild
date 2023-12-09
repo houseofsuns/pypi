@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyTechBrain"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyTechBrain to nowa platforma wprowadzająca uczniów w dziedzinę 
 
 HOMEPAGE="https://pytechbrain.edu.pl"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/fc/602be96f560b9ecc2fb363687aad63b1ffb4344a371fe5311b9109b8a1ef/PyTechBrain-${REALVERSION}.tar.gz"
-SOURCEFILE="PyTechBrain-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

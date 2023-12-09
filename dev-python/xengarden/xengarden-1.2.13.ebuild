@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XenGarden"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="XenGarden, A Python XenAPI Wrapper for Citrix Hypervisor and XCP-ng
 
 HOMEPAGE="https://github.com/Stella-IT/XenGarden"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/06/9cf674839e6ce4203058f98f03b0f6d727c51dd898d2b26e1bc69d52681f/XenGarden-${REALVERSION}.tar.gz"
-SOURCEFILE="XenGarden-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

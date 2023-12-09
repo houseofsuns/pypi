@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HiPart"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A hierarchical divisive clustering toolbox"
 
 HOMEPAGE="https://github.com/panagiotisanagnostou/HiPart"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/ec/4bb4f52d057914c8bd6889ec42753e4dd1c189b1a2829333db734963cceb/HiPart-${REALVERSION}.tar.gz"
-SOURCEFILE="HiPart-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

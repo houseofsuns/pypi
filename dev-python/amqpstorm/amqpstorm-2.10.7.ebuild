@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AMQPStorm"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Thread-safe Python RabbitMQ Client & Management library."
 
 HOMEPAGE="https://www.amqpstorm.io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/9c/48f63d266eff8254c45b824cc25175ab9d9175bd50866ef6a981dfb46eb8/AMQPStorm-${REALVERSION}.tar.gz"
-SOURCEFILE="AMQPStorm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

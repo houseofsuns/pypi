@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PsychroLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library of psychrometric functions to calculate thermodynamic prope
 
 HOMEPAGE="https://github.com/psychrometrics/psychrolib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/d2/f32c2db16c3a5a76a75897f854dbb28228f43a192f0b398f31f7b774e9b9/PsychroLib-${REALVERSION}.zip"
-SOURCEFILE="PsychroLib-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

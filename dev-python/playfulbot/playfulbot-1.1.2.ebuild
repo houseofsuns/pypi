@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Playfulbot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Playfulbet auto-bet"
 
 HOMEPAGE="https://github.com/Alexsays/Playfulbot"
 LICENSE="GNU General Public License GPLv2"
-SRC_URI="https://files.pythonhosted.org/packages/be/d0/d719d41994bea3a0eee8c0704c98527e11809c91722a8e619606b32a0746/Playfulbot-${REALVERSION}.tar.gz"
-SOURCEFILE="Playfulbot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

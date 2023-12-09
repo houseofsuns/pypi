@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ScenarioGUI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package for a scenario based GUI"
 
 HOMEPAGE="https://github.com/tblanke/ScenarioGUI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/aa/21164008aaa51d39b7316fb12b0d9b0af2eedb9b754034eb40b0cb97b801/ScenarioGUI-${REALVERSION}.tar.gz"
-SOURCEFILE="ScenarioGUI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

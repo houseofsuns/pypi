@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MetEvolSim"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MetEvolSim (Metabolome Evolution Simulator) Python Package"
 
 HOMEPAGE="https://github.com/charlesrocabert/MetEvolSim"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/2c/b0/6c4e91d8b30dce0a186b75bd7bd6f0c3bb1c0f7a0715eb724b60dc00f4fd/MetEvolSim-${REALVERSION}.tar.gz"
-SOURCEFILE="MetEvolSim-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

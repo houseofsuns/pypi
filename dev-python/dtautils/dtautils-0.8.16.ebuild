@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Dtautils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="some utils to process data easy"
 
 HOMEPAGE="https://github.com/gitduk/utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/49/a5506f2a1b06976ee8f09f74a2b1f630cde443f8c6bbb406fa30d6bbc659/Dtautils-${REALVERSION}.tar.gz"
-SOURCEFILE="Dtautils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

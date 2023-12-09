@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BaseModel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SqlAlchemy's spuer class"
 
 HOMEPAGE="https://github.com/billsteve"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/83/134a871a36beb6e68b200c86b92ca6dc9583d55dc9f97e63bc5d1903eba2/BaseModel-${REALVERSION}.tar.gz"
-SOURCEFILE="BaseModel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

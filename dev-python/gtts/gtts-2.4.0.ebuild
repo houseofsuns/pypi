@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="gTTS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="gTTS (Google Text-to-Speech), a Python library and CLI tool to inte
 
 HOMEPAGE="https://github.com/pndurette/gTTS"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/1f/9beda1d10d5e3a861900759f955f4385df5c049af7ac61f0f788baae7687/gTTS-${REALVERSION}.tar.gz"
-SOURCEFILE="gTTS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

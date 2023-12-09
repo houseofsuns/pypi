@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyStorCLI2"
 REALVERSION="0.6.5.dev4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="StorCLI module wrapper 2"
 
 HOMEPAGE="https://github.com/Naudit/pystorcli2"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/18/4a/565986181192a94ed573cb67c21de6ff4059dd75cca45ad0d6b002fca45a/PyStorCLI2-${REALVERSION}.tar.gz"
-SOURCEFILE="PyStorCLI2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

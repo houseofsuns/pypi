@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple printer of nester lists"
 
 HOMEPAGE="http://www.headfristlabs.com"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/21/a3/106adde103928c78e8dd528a54f7088a4308f4c0a5192a802ad932ae1b0b/CD-${REALVERSION}.zip"
-SOURCEFILE="CD-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

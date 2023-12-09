@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RIFT"
 REALVERSION="0.0.15.10rc3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="RIFT parameter estimation pipeline. Note branch used is temp-RIT-Ti
 
 HOMEPAGE="https://git.ligo.org/rapidpe-rift/rift"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/5e/daf76a3202391b0067ff6f93fa9cca840b693f82262995d08a36991914dd/RIFT-${REALVERSION}.tar.gz"
-SOURCEFILE="RIFT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

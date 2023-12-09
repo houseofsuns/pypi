@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="dictIO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Read, write and manipulate dictionary text files."
 
 HOMEPAGE="https://dnv-opensource.github.io/dictIO/README.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/7e/6a47c2e7bd7b1052f84953ab848775159f7d1015a0b4a7e178855b1befdb/dictIO-${REALVERSION}.tar.gz"
-SOURCEFILE="dictIO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

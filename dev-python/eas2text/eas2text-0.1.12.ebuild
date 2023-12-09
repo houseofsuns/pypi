@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EAS2Text"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library to convert raw EAS header data to a human readable
 
 HOMEPAGE="https://github.com/A-c0rN/EAS2Text"
 LICENSE="ODbL-1.0"
-SRC_URI="https://files.pythonhosted.org/packages/c8/bc/6f9d3ea2a4bff6addb844c8793163050915bcca3718998772a078f990590/EAS2Text-${REALVERSION}.tar.gz"
-SOURCEFILE="EAS2Text-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

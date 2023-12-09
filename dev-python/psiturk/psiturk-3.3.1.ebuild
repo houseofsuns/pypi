@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PsiTurk"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An open platform for science on Amazon Mechanical Turk"
 
 HOMEPAGE="https://github.com/NYUCCL/psiturk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/f0/cbef672abbdec8358f11732b316ee722bca6bdf20d5625617b02a629ee10/PsiTurk-${REALVERSION}.tar.gz"
-SOURCEFILE="PsiTurk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

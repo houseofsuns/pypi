@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BIP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bayesian Inference Tools for Python"
 
 HOMEPAGE="https://github.com/fccoelho/bayesian-inference"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/70/ff/6e4ff8e839aacb1a4347c4fa1d143f69589368ec0b9e1c30a86be11f277e/BIP-${REALVERSION}.tar.gz"
-SOURCEFILE="BIP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

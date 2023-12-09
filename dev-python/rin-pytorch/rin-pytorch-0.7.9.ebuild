@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RIN-pytorch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="RIN - Recurrent Interface Network - Pytorch"
 
 HOMEPAGE="https://github.com/lucidrains/RIN-pytorch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/8d/49022e3da709b9b3dfe2ab6ce529d06c178e5da6590dadbca15b79d04c9f/RIN-pytorch-${REALVERSION}.tar.gz"
-SOURCEFILE="RIN-pytorch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

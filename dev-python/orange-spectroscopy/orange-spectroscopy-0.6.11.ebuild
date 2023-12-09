@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Orange-Spectroscopy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Extends Orange to handle spectral and hyperspectral analysis."
 
 HOMEPAGE="https://github.com/Quasars/orange-spectroscopy"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/71/d1/b53bfd5b5de8d94bca40a22fbee01bfed8ffb69971d50d8fc3273ee5ad84/Orange-Spectroscopy-${REALVERSION}.tar.gz"
-SOURCEFILE="Orange-Spectroscopy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SoL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Carrom tournaments management"
 
 HOMEPAGE="https://gitlab.com/metapensiero/SoL"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/27/5f/682a639dcb9ea2041331d7b451228dc21a28df7280f088c3b154d5b3b2d0/SoL-${REALVERSION}.tar.gz"
-SOURCEFILE="SoL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

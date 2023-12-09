@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="South"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="South: Migrations for Django"
 
 HOMEPAGE="http://south.aeracode.org/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/e3/11/10a986f30ce1a1d5209b192c68adcc3eaf312f9caba70b35c0ac6e354a6b/South-${REALVERSION}.tar.gz"
-SOURCEFILE="South-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

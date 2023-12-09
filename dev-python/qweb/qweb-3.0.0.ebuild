@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QWeb"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Keyword driven automation for the web"
 
 HOMEPAGE="https://github.com/qentinelqi/qweb/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/18/d4/f4d2a6f853ebea786e9833a87a571ae73a21004a6139c79c81b0d9411f47/QWeb-${REALVERSION}.tar.gz"
-SOURCEFILE="QWeb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

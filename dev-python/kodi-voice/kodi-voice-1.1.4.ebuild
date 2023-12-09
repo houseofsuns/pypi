@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kodi-Voice"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for interfacing with Kodi with VUI platforms like Amazon 
 
 HOMEPAGE="https://github.com/m0ngr31/kodi-voice"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/dd/dc64e1676ca6814585fd7599db2ea1549eefadcb3d8500c19e73e39c6d52/Kodi-Voice-${REALVERSION}.tar.gz"
-SOURCEFILE="Kodi-Voice-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

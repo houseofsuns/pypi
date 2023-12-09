@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PTP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PTP parses and ranks the discoveries listed in security tool report
 
 HOMEPAGE="https://owtf.github.io/ptp"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/31/10/2697309c1ae6e2251234c9c7cafcd122ab12f3bcd1911a1c047cae18314c/PTP-${REALVERSION}.tar.gz"
-SOURCEFILE="PTP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JesseTradingViewLightReport"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate an html document containing all of the scripts and data to
 
 HOMEPAGE="https://github.com/qwpto/JesseTradingViewLightReport"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/71/0f67b0ce4b32d65acfe018716d0e27a8d36a8773058ef47540905ff3a73b/JesseTradingViewLightReport-${REALVERSION}.tar.gz"
-SOURCEFILE="JesseTradingViewLightReport-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

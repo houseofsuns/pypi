@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RelevanceAI-dev"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://tryrelevance.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ba/89/e8e8d75cf0dc1f0e865fb0b1d58b615511d8c516f1ca63a6d25ff6521fe0/RelevanceAI-dev-${REALVERSION}.tar.gz"
-SOURCEFILE="RelevanceAI-dev-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

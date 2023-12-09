@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BrosHelp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BrosHelp Bot"
 
 HOMEPAGE="https://github.com/KayShenA/PythonProjects"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cd/0d/61d6a3d383c13f735648f64689bed15043d2dcc6e3cc527ca3ea697c51fb/BrosHelp-${REALVERSION}.tar.gz"
-SOURCEFILE="BrosHelp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

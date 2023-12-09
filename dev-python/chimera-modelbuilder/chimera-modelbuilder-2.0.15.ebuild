@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChiMera-ModelBuilder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ChiMera: An easy-to-use pipeline for Genome-based Metabolic Network
 
 HOMEPAGE="https://github.com/tamascogustavo/chimera"
 LICENSE="glp3"
-SRC_URI="https://files.pythonhosted.org/packages/b2/4a/98ded40129a0467d77896bf2715d12cb67e1160f6cb2b966de978d09fcd3/ChiMera-ModelBuilder-${REALVERSION}.tar.gz"
-SOURCEFILE="ChiMera-ModelBuilder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MufSim"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Muf language simulator and debugger."
 
 HOMEPAGE="https://github.com/revarbat/mufsim"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b5/55/b8783719159e68f90a4ab5c905735a820ba22124fa07cd7eff7ac838e1f3/MufSim-${REALVERSION}.tar.gz"
-SOURCEFILE="MufSim-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BaiduSpider"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BaiduSpider，一个爬取百度的利器"
 
 HOMEPAGE="https://github.com/BaiduSpider/BaiduSpider"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/56/b9/6fe01e26ffa410faefa9a399981d3dcc72c8e03d6372d68996655b0e5409/BaiduSpider-${REALVERSION}.tar.gz"
-SOURCEFILE="BaiduSpider-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

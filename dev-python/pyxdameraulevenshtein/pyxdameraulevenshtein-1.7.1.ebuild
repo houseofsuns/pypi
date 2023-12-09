@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyxDamerauLevenshtein"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="pyxDamerauLevenshtein implements the Damerau-Levenshtein (DL) edit 
 
 HOMEPAGE="https://github.com/lanl/pyxDamerauLevenshtein"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/4c/37/fefa8524e61f513a26e2aa7224c5bbed0e4ff1b1bd713e69d5866550d170/pyxDamerauLevenshtein-${REALVERSION}.tar.gz"
-SOURCEFILE="pyxDamerauLevenshtein-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

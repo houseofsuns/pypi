@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Scaffold"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple project scaffolding for Python"
 
 HOMEPAGE="https://github.com/Aaronontheweb/scaffold-py"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/68/c3/53992347ef73427f9a1dd475b3959245d3fdda27427b436d6045e436ac5c/Scaffold-${REALVERSION}.zip"
-SOURCEFILE="Scaffold-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

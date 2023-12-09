@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyLucid"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyLucid CMS"
 
 HOMEPAGE="http://www.pylucid.org"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/32/0d/2b0d1cd91cecb56e648e17ce316006320720d787d3bad701800c06ae1c31/PyLucid-${REALVERSION}.tar.gz"
-SOURCEFILE="PyLucid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

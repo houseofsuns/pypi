@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="m3u8-To-MP4"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python downloader for saving m3u8 video to local MP4 file."
 
 HOMEPAGE="https://github.com/songs18/m3u8_To_MP4"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/30/58eb9b8af0c3f5e6f7d42c45af28de3e61c8e31fceed60458dd466ea54cd/m3u8-To-MP4-${REALVERSION}.tar.gz"
-SOURCEFILE="m3u8-To-MP4-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

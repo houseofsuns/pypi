@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="igeFirebase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="C++ Firebase extension for 3D and 2D games."
 
 HOMEPAGE="https://indigames.net/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/83/42/8e9e294cdc7f0d1af40ea7f646657001e0a64e84738584918fdfcbb7eead/igeFirebase-${REALVERSION}.tar.gz"
-SOURCEFILE="igeFirebase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EjabberdAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python wrapper for Ejabberd API."
 
 HOMEPAGE="https://git.mastodont.cat/spla/EjabberdAPI.py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/6b/a1d662bd5201b93529acd22732266c4c168512cc4b5d69b5dfa8ad1b9977/EjabberdAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="EjabberdAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

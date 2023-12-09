@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Filter"
 REALVERSION="0.1.2a3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Flask extension for creating standard resource searches"
 
 HOMEPAGE="https://github.com/exleym/Flask-Filter"
 LICENSE="Creative Commons Attribution-Noncommercial-Share Alike license"
-SRC_URI="https://files.pythonhosted.org/packages/34/d4/fefebb436a4079c5f6f8ab73b64e9e7e3f74f34521f0d06d4f2e5a0b32e9/Flask-Filter-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Filter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

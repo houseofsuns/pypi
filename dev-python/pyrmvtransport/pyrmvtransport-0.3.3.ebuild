@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyRMVtransport"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library to make use of transport information from opendata.r
 
 HOMEPAGE="https://github.com/cgtobi/PyRMVtransport"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/1a/fbcb638a15872d59a158eed9da6f73f288ab535438eecf0abf3e0a90b1d4/PyRMVtransport-${REALVERSION}.tar.gz"
-SOURCEFILE="PyRMVtransport-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

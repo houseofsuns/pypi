@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Accern"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python library for Accern Data API"
 
 HOMEPAGE="https://github.com/Accern/accern-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/4f/adf1724cee88ff473612aa4a6ba00b45851a863cac40e71a94ea15298460/Accern-${REALVERSION}.tar.gz"
-SOURCEFILE="Accern-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

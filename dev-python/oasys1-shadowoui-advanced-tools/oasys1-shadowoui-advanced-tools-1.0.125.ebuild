@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OASYS1-ShadowOui-Advanced-Tools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ShadowOui advanced simulation tools"
 
 HOMEPAGE="https://github.com/oasys-kit/ShadowOui-Advanced-Tools"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f7/d2/18b6da994fef31ddc3e1df505b934223e4e6e7cf2fb09b29f12f0a2aabb0/OASYS1-ShadowOui-Advanced-Tools-${REALVERSION}.tar.gz"
-SOURCEFILE="OASYS1-ShadowOui-Advanced-Tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

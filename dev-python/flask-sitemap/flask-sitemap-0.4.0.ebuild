@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Sitemap"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension that helps with sitemap generation."
 
 HOMEPAGE="http://github.com/inveniosoftware/flask-sitemap/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c6/d7/146fa795769b53e10371e18b2e73acd269a249ca1ed77dec16fae61b53b6/Flask-Sitemap-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Sitemap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

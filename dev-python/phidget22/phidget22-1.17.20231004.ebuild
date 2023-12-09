@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Phidget22"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Phidget22 Python wrapper library"
 
 HOMEPAGE="http://www.phidgets.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ed/d0/4f530535f39f2062927c2e13bf4cd97873ec09c938112870fb26578f36eb/Phidget22-${REALVERSION}.tar.gz"
-SOURCEFILE="Phidget22-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AOMUSE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="AO Muse package"
 
 HOMEPAGE="https://github.com/AxlKings/AOMUSE"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/57/4b4efd9fe7987f78110a8f54d655b420aa5ee57885219a809a1addd20e87/AOMUSE-${REALVERSION}.tar.gz"
-SOURCEFILE="AOMUSE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

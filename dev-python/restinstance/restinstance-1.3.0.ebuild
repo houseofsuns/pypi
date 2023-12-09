@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RESTinstance"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Robot Framework library for RESTful JSON APIs"
 
 HOMEPAGE="https://github.com/asyrjasalo/RESTinstance"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/06/ea/d984d5e17d7809203a0bce8150cd3490edf60fa957afef9e5d3f7030a6e5/RESTinstance-${REALVERSION}.tar.gz"
-SOURCEFILE="RESTinstance-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

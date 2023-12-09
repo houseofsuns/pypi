@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Simis"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for communicating with the Ashes wind turbine simulation 
 
 HOMEPAGE="https://www.simis.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/1c/082cae7577406fb16c3abf2049c2c394bae37ba4974579f0de34aaee391e/Simis-${REALVERSION}.tar.gz"
-SOURCEFILE="Simis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

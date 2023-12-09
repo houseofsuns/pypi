@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TransVar"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Transcript-based Variant annotator"
 
 HOMEPAGE="https://github.com/zwdzwd/transvar"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b5/8d/7016d6a3488c2cfdfa5669c1f11ed6970d32eb2e3bbe9efad980d0a0b7e8/TransVar-${REALVERSION}.tar.gz"
-SOURCEFILE="TransVar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

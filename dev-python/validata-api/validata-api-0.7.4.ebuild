@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Validata-API"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Validata Web API"
 
 HOMEPAGE="https://git.opendatafrance.net/validata/validata-api"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/2c/88/095a161f1cab5a84cd4e129341e4aeffea58d90eb0ee1791d95e56a3fb6e/Validata-API-${REALVERSION}.tar.gz"
-SOURCEFILE="Validata-API-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

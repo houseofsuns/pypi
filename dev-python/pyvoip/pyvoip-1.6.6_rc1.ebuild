@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyVoIP"
 REALVERSION="1.6.6rc1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyVoIP is a pure python VoIP/SIP/RTP library."
 
 HOMEPAGE="https://github.com/tayler6000/pyVoIP"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/b1/1991f9594d86769e379cafd3a877c7fbb715daf34da01bfe67a7c367f256/pyVoIP-${REALVERSION}.tar.gz"
-SOURCEFILE="pyVoIP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

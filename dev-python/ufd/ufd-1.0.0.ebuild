@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Ufd"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Unopinionated, minimalist, reusable, slightly configurable, general
 
 HOMEPAGE="https://github.com/emboiko/Ufd"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/c3/09696cccbe861eda2faf809c19ddd51c73e81ad32c47d7c58fe5bc0d2add/Ufd-${REALVERSION}.tar.gz"
-SOURCEFILE="Ufd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

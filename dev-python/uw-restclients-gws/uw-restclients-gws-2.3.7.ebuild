@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UW-RestClients-GWS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for connecting to the Groups Web Service at the Universit
 
 HOMEPAGE="https://github.com/uw-it-aca/uw-restclients-gws"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/32/bd/f6ceb02eb56e078096476e7f531bbbeb05e54f9ec91b3a14fb6c11434275/UW-RestClients-GWS-${REALVERSION}.tar.gz"
-SOURCEFILE="UW-RestClients-GWS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

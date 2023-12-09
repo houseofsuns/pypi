@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-roboto-fontface"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="roboto-fontface 0.5.0 (XStatic packaging standard)"
 
 HOMEPAGE="https://github.com/choffmeister/roboto-fontface-bower"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1a/9a/a6b23651a238ad7e71dfa7f7a0c9f205b6fd1b5336f93985f7ef65f6a85b/XStatic-roboto-fontface-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-roboto-fontface-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

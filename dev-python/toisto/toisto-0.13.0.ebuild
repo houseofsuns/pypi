@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Toisto"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Toisto is a command-line terminal app to practice languages."
 
 HOMEPAGE="https://github.com/fniessink/toisto"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/62/7f143710b34244e352700149027c3ced78ed2ed662e5731d718f5cb6b9c9/Toisto-${REALVERSION}.tar.gz"
-SOURCEFILE="Toisto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CreditScoreModel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CreditScoreModel"
 
 HOMEPAGE="https://github.com/chengsong990020186/CreditScoreModel"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/33/95/33e83e9e523cec95945fb53fd539f35be3ec4c4ffa41c8e55b40ff76758c/CreditScoreModel-${REALVERSION}.tar.gz"
-SOURCEFILE="CreditScoreModel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

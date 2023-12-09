@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MechTruffleHog"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Searches through git repositories for high entropy strings and rege
 
 HOMEPAGE="https://github.com/MechanicalRock/truffleHog"
 LICENSE="GNU"
-SRC_URI="https://files.pythonhosted.org/packages/4d/f8/c3769b6cfa412895900446f1904f0c3495cdeb2d77af5625e0df894ff634/MechTruffleHog-${REALVERSION}.tar.gz"
-SOURCEFILE="MechTruffleHog-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

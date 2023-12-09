@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pinterest-Generated-Client"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pinterest REST API"
 
 HOMEPAGE="https://github.com/pinterest/pinterest-python-generated-api-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/ab/3109a46cfe5ec67a7bb951580b1f6a4ee3e45b396a2ed53ef9035412d886/Pinterest_Generated_Client-${REALVERSION}.tar.gz"
-SOURCEFILE="Pinterest_Generated_Client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

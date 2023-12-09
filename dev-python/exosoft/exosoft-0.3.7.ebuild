@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ExoSOFT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Exoplanet Simple Orbit Fitting Toolbox (ExoSOFT)"
 
 HOMEPAGE="https://github.com/kylemede/ExoSOFT"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/61/2c/d4b922bba7c0a6aca7f5959eeed8f64a7b778b777829f98e526123e8f130/ExoSOFT-${REALVERSION}.tar.gz"
-SOURCEFILE="ExoSOFT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

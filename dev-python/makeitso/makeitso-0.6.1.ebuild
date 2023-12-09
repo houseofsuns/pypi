@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MakeItSo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="filesystem template interpreter"
 
 HOMEPAGE="http://k0s.org/hg/MakeItSo"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/bd/72/e41e0cf1955340cd5689c394bd45d01980d1c814dd33efaf69d7bc2f8d0b/MakeItSo-${REALVERSION}.tar.gz"
-SOURCEFILE="MakeItSo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

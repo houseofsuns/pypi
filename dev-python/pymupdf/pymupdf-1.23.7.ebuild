@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMuPDF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A high performance Python library for data extraction, analysis, co
 
 HOMEPAGE=""
 LICENSE="GNU AFFERO GPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/77/c0/33e6c3865e91209ef433cbe0c1531c9610cd2be5b00622e53b10c6183f96/PyMuPDF-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMuPDF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

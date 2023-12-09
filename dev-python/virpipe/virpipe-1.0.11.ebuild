@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VirPipe"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="VirPipe is a easy-to-use computational pipeline to identify virus s
 
 HOMEPAGE="https://github.com/KijinKims/VirPipe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/50/41/7474a424c438bb39208bc63ded19631dec66ee6e621a0bbfed40662ea949/VirPipe-${REALVERSION}.tar.gz"
-SOURCEFILE="VirPipe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

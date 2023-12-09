@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Sift"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python bindings for Sift Science's API"
 
 HOMEPAGE="https://siftscience.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/93/bb/6613d098d93b5df989dd48f1b709d0872deb6f6a15bed74fee3e65bf7753/Sift-${REALVERSION}.tar.gz"
-SOURCEFILE="Sift-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

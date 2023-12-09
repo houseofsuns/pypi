@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="spotPython"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="spotPython - Sequential Parameter Optimization in Python"
 
 HOMEPAGE="https://www.spotseven.de"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/ef/b9/4bb173bb16c48a1e4f871bec57a4c3d7f856df7d08367a566d4bc09be9a8/spotPython-${REALVERSION}.tar.gz"
-SOURCEFILE="spotPython-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

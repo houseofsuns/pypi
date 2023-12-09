@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GusPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This open-source python package aims to provide statistical support
 
 HOMEPAGE="https://github.com/ygeszvain/GusPI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dd/ae/761427fd449e583968237358fc0ed1aa8a4109a21424002ab7d247500711/GusPI-${REALVERSION}.tar.gz"
-SOURCEFILE="GusPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

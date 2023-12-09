@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DendroPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library for phylogenetics and phylogenetic computing: read
 
 HOMEPAGE="http://pypi.org/project/DendroPy//"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/35/fc/0ff301d0f2484b61f2cc46cfd7649c530cad6313c7f7a695f8cabff8a061/DendroPy-${REALVERSION}.tar.gz"
-SOURCEFILE="DendroPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

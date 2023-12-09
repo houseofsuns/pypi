@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MetaNN"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MetaNN provides extensions of PyTorch nn.Module for meta learning"
 
 HOMEPAGE="https://github.com/yhqjohn/MetaModule"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6c/03/f8b81237ad7930ed19b3b7e4cdc5aa5ef4c60cc1936cdb102558d993bcb5/MetaNN-${REALVERSION}.tar.gz"
-SOURCEFILE="MetaNN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="spiderYa"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Identifying spatially variable interactions"
 
 HOMEPAGE="https://github.com/deepomicslab/SPIDER"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/df/7f3a0d646d20884d8049d74b9ca1d527c87d71a40fdd476020f906e8b5ca/spiderYa-${REALVERSION}.tar.gz"
-SOURCEFILE="spiderYa-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

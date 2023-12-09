@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="S4"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fast and cheap synchronisation of files using Amazon S3"
 
 HOMEPAGE="https://github.com/MichaelAquilina/S4"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/70/a1/c2202c7de3588d97095402d03450366045cace89c6272faaac8cb479d143/S4-${REALVERSION}.tar.gz"
-SOURCEFILE="S4-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

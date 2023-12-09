@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyTestReport"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The HTML Report for Python unit testing Base on HTMLTestRunner"
 
 HOMEPAGE="https://github.com/five3/PyTestReport"
 LICENSE="GPL V3"
-SRC_URI="https://files.pythonhosted.org/packages/b9/5c/45f2b8771c1d3d40e535bab2cc52724f75a46598eec69442afe5ca3e80d4/PyTestReport-${REALVERSION}.tar.gz"
-SOURCEFILE="PyTestReport-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

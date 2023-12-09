@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ScraGet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package that makes interacting with Scratch API easier"
 
 HOMEPAGE="https://github.com/Quantum-Codes/ScraGet"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f7/fe/282e58da7dd994d77df3de3c250e6f4ebcd7d6547b21abc982f6d6f9d627/ScraGet-${REALVERSION}.tar.gz"
-SOURCEFILE="ScraGet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

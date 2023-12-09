@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pythonCFG"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An easy-to-use library for implementing and visualizing a control f
 
 HOMEPAGE="https://github.com/Calastrophe/pythonCFG"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d5/48/51d2f00de45d55ead19eb6bf1ef04a8b5d9390dbecd06624f54d13790336/pythonCFG-${REALVERSION}.tar.gz"
-SOURCEFILE="pythonCFG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SCSA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A novel algorithm for signal representation and denoising"
 
 HOMEPAGE="https://emang.kaust.edu.sa/Pages/Home.aspx"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/39/08/b7b4edd30f7df3d42bc932aa054d3c38e13b3910ac8801936f5d46ce3117/SCSA-${REALVERSION}.tar.gz"
-SOURCEFILE="SCSA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

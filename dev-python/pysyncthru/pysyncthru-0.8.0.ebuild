@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySyncThru"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automated JSON API based communication with Samsung SyncThru Web Se
 
 HOMEPAGE="https://github.com/nielstron/pysyncthru/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8e/15/c61568c333c16f6f27b89da8ce006ae6dae25f86aee8b96bb27eb3ac8dd5/PySyncThru-${REALVERSION}.tar.gz"
-SOURCEFILE="PySyncThru-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

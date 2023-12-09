@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Requirementz"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Checks pip requirements against installed versions, and other relat
 
 HOMEPAGE="https://github.com/welbornprod/requirementz"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2d/35/77b3d8dcb32c3cb109abd10d85011104500fcf793cb6060408c7bcc1d899/Requirementz-${REALVERSION}.tar.gz"
-SOURCEFILE="Requirementz-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

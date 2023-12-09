@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Lexitron"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A command-line regex search engine for the English language"
 
 HOMEPAGE="http://github.com/rothos/lexitron"
 LICENSE="GNU GPL Version 2"
-SRC_URI="https://files.pythonhosted.org/packages/3d/ba/ba3e386c319342d8c7007521e6ac3c26aef0588adb35d4986c07da575f01/Lexitron-${REALVERSION}.tar.gz"
-SOURCEFILE="Lexitron-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-gTTS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Flask extension to help in generating Google Text-To-Speech files
 
 HOMEPAGE="https://github.com/mrf345/flask_gtts/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a5/80/24f74fe83db3fe32bdf4ea4d582d58f8b6057dcea7507aa1e29a2e358504/Flask-gTTS-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-gTTS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

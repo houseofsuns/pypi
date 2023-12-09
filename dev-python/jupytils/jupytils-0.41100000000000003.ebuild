@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Jupytils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Productive Simple Intuitive Jupyter Python Utilities"
 
 HOMEPAGE="https://github.com/sada-narayanappa/PyUtils.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/7d/eee96563405ea85f60d8b9202c9a43437650e1ec8fe8ffae8ac6cd2a6809/Jupytils-${REALVERSION}.tar.gz"
-SOURCEFILE="Jupytils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

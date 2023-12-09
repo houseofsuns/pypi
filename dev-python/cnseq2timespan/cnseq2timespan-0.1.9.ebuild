@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CNSeq2TimeSpan"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This is a tool for converting chinese time phrases into time spans.
 
 HOMEPAGE="https://github.com/QixinLi/Time_NLP"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/48/ca/8c52c31807f41cddf7773902de7e9d56218f7841ed0cab3eed7cc0f42643/CNSeq2TimeSpan-${REALVERSION}.tar.gz"
-SOURCEFILE="CNSeq2TimeSpan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Orange3-Geo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Orange add-on for dealing with geography and geo-location."
 
 HOMEPAGE="https://github.com/biolab/orange3-geo"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/90/0d/5cc705156dec52b4447c3eeb5f79d090e63db632dd596dc3fff2f0e265de/Orange3-Geo-${REALVERSION}.tar.gz"
-SOURCEFILE="Orange3-Geo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

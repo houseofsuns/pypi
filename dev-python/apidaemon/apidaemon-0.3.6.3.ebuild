@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ApiDaemon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Daemon for wraps any external APIs"
 
 HOMEPAGE="https://github.com/tsyganov-ivan/ApiDaemon"
 LICENSE="MIT-license"
-SRC_URI="https://files.pythonhosted.org/packages/e5/13/df9420498b99fc0f5e3a2416ce84d7b3c2416e5dbfb0a513c7c69756635c/ApiDaemon-${REALVERSION}.tar.gz"
-SOURCEFILE="ApiDaemon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

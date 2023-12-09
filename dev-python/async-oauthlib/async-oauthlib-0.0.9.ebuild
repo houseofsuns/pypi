@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Async-OAuthlib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OAuthlib authentication support for Aiohttp."
 
 HOMEPAGE="https://github.com/thec0sm0s/Async-OAuthlib"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/33/fa/9c30101767dd711e54ae9dc695cb7b17647ab420b47cfccfd6c1417a8718/Async-OAuthlib-${REALVERSION}.tar.gz"
-SOURCEFILE="Async-OAuthlib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

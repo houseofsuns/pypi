@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="modAL-python"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A modular active learning framework for Python3"
 
 HOMEPAGE="https://modAL-python.github.io/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/b8/fa1907679206c4e0120263512a4b3662c29fa4be40a24c8b0d1380e7d703/modAL-python-${REALVERSION}.tar.gz"
-SOURCEFILE="modAL-python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

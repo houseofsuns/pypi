@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Amsync"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An async library to easily create bots for the amino."
 
 HOMEPAGE="https://github.com/ellandor/Amsync"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/09/61/05dc62c9f7c79f72391fdd967aae81d7953ebbcc489a888168a9ffeac2e1/Amsync-${REALVERSION}.tar.gz"
-SOURCEFILE="Amsync-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

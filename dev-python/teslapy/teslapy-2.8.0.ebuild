@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TeslaPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python module to use the Tesla Motors Owner API"
 
 HOMEPAGE="https://github.com/tdorssers/TeslaPy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/14/9c/96470a1c4cc75054944412a9c4e18c6fb6f2e50d6a7fda4091e2e4801f1d/TeslaPy-${REALVERSION}.tar.gz"
-SOURCEFILE="TeslaPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

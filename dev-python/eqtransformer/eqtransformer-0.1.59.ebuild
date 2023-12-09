@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EQTransformer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python package for making and using attentive deep-learning model
 
 HOMEPAGE="https://github.com/smousavi05/EQTransformer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1a/aa/a5736607cbd205eefe112023732b417d9268873546b81c7312b16bb36923/EQTransformer-${REALVERSION}.tar.gz"
-SOURCEFILE="EQTransformer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

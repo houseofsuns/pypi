@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Assimulo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for solving ordinary differential equations and different
 
 HOMEPAGE="http://www.jmodelica.org/assimulo"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/28/ef/4d8b15a0842410bb4ca8f500dadd5ff76fb3e34559f956a51c19b8a4912b/Assimulo-${REALVERSION}.tar.gz"
-SOURCEFILE="Assimulo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

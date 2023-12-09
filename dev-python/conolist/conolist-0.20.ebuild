@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Conolist"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Surf paths easily from console."
 
 HOMEPAGE="https://github.com/E-RROR/conolist"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/84/aae0da7345ad237a03cd17d9f729c4c5737d8bc018c78132b50f0c4e7e5e/Conolist-${REALVERSION}.tar.gz"
-SOURCEFILE="Conolist-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

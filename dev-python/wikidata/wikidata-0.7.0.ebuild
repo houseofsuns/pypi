@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Wikidata"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Wikidata client library"
 
 HOMEPAGE="https://github.com/dahlia/wikidata"
 LICENSE="GPLv3 or later"
-SRC_URI="https://files.pythonhosted.org/packages/f5/5e/cbaa3824308404281cb225eebc703527e2b4b8048b9f41ab799be4a3ca5f/Wikidata-${REALVERSION}.tar.gz"
-SOURCEFILE="Wikidata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

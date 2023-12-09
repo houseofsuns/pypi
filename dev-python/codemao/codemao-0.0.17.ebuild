@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Codemao"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Codemao是由深圳点猫科技有限公司创建的一个面向Pyt
 
 HOMEPAGE="https://python.codemao.cn/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/aa/86ccc045f85e67c09b5e953c93f5880c2d223ddc3121cf22564209942b5b/Codemao-${REALVERSION}.tar.gz"
-SOURCEFILE="Codemao-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

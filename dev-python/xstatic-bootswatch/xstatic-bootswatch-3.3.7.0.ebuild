@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-bootswatch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="bootswatch 3.3.7 (XStatic packaging standard)"
 
 HOMEPAGE="http://bootswatch.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/da/db1cce6cb51225fda111c8e078983f9abebfbf8572c328036023bd4232b8/XStatic-bootswatch-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-bootswatch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

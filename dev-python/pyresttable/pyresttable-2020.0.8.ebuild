@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyRestTable"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Format a nice table in reST (reStructuredText) from Python."
 
 HOMEPAGE="https://github.com/prjemian/pyRestTable"
 LICENSE="Creative Commons Attribution 4.0 International Public License see LICENSE file"
-SRC_URI="https://files.pythonhosted.org/packages/93/a1/26d2aba86819133bbc396095c3e2d6dbd40838c2aa89781bbb55f4fe8290/pyRestTable-${REALVERSION}.tar.gz"
-SOURCEFILE="pyRestTable-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

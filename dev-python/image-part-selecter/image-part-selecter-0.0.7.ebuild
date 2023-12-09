@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Image-Part-Selecter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A napari plugin in order to select parts of images"
 
 HOMEPAGE="https://github.com/MBPhys/Image-Part-Selecter"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/63/a1/8763f8ab574976d43fbd4f4e77f889fc8f5f4ad97c18da302c047523ac89/Image-Part-Selecter-${REALVERSION}.tar.gz"
-SOURCEFILE="Image-Part-Selecter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

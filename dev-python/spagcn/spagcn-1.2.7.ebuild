@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SpaGCN"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SpaGCN: Integrating gene expression and histology to identify spati
 
 HOMEPAGE="https://github.com/jianhuupenn/SpaGCN"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/34/5be61d402e7cbc99e49dd2db25508c336ea05b934faab8110c4b523b7082/SpaGCN-${REALVERSION}.tar.gz"
-SOURCEFILE="SpaGCN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

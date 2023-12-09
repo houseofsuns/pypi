@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NotionLab"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A kit for Notion based on Notion Python SDK."
 
 HOMEPAGE="https://github.com/ElaBosak233/NotionLab"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/5d/60/9b33a097255f62690465fc4f9e027222c494a5c76ea471d1581ead09fad6/NotionLab-${REALVERSION}.tar.gz"
-SOURCEFILE="NotionLab-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

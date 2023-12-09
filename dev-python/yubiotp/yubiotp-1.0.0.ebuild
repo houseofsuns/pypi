@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="YubiOTP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for verifying YubiKey OTP tokens, both locally and throug
 
 HOMEPAGE="https://github.com/django-otp/yubiotp"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cb/e9/eeac2f12ea8e1507b63baa2305cea987f5592a28d73e92914c404ded17d3/YubiOTP-${REALVERSION}.tar.gz"
-SOURCEFILE="YubiOTP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

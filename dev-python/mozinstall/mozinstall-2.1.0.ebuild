@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="mozInstall"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="package for installing and uninstalling Mozilla applications"
 
 HOMEPAGE="https://wiki.mozilla.org/Auto-tools/Projects/Mozbase"
 LICENSE="MPL 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cf/d7/436f8b4034bee94cc2d98842dd01af595a9b2745aa1b4eddee27869cecb4/mozInstall-${REALVERSION}.tar.gz"
-SOURCEFILE="mozInstall-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

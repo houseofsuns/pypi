@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyElk"
 REALVERSION="0.2.0.dev20"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python module to talk to Elk M1 Gold and M1 EZ8 security / integrat
 
 HOMEPAGE="https://github.com/BioSehnsucht/pyelk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9a/d4/9554ddc7c7662401f73ce0bce033667b2a4832b191e772b8dd85db34d52a/PyElk-${REALVERSION}.tar.gz"
-SOURCEFILE="PyElk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Beeswarm"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Honeytoken transmission, reception and analysis."
 
 HOMEPAGE="https://github.com/honeynet/beeswarm"
 LICENSE="GPL 3"
-SRC_URI="https://files.pythonhosted.org/packages/6c/3f/6c5e8ad1862e160a7bcbbcd92cae85068a82478ee4463d06fd7b5d50a70f/Beeswarm-${REALVERSION}.tar.gz"
-SOURCEFILE="Beeswarm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

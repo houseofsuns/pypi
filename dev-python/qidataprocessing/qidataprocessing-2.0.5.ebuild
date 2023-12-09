@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QiDataProcessing"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="read data from custom bytes file"
 
 HOMEPAGE="https://github.com/CarlSnow/QiDataProcessing"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/07/49/cd5cb6304d6b426093d4eb1d6bff1264033c4259c0dcd1813b659944abe2/QiDataProcessing-${REALVERSION}.tar.gz"
-SOURCEFILE="QiDataProcessing-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

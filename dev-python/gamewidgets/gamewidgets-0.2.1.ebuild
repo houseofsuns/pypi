@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GameWidgets"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Make Game Easier with pygame and GameWidgets"
 
 HOMEPAGE="https://github.com/SuperGuy123456/GameWidgets"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/31/6af71d2f2fc74487e354cd760cfc99923887b2f3f0c69022cfdce6a31842/GameWidgets-${REALVERSION}.tar.gz"
-SOURCEFILE="GameWidgets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

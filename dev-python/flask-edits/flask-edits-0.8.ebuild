@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Edits"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Editable Content in Flask"
 
 HOMEPAGE="http://github.com/nathancahill/flask-edits"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f7/63/cee10bbe6de41f5919be16df84eff1d0472593cab17fa4ef0f70b8f55c1f/Flask-Edits-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Edits-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

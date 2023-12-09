@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDocX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="docx (OOXML) to html converter"
 
 HOMEPAGE="http://github.com/CenterForOpenScience/pydocx"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2b/c2/015516924e2f671d18371296a62cd0a50842a24eab59844f6c474e9f12e9/PyDocX-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDocX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Mako"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mako templating support for Flask applications."
 
 HOMEPAGE="https://github.com/benselme/flask-mako"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/88/96/122a910fd450c5d40d6104c3610bd49e4a9bbbad43c9afcd58941cbf8678/Flask-Mako-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Mako-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

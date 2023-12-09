@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="x-Metaformer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A PyTorch implementation of \"MetaFormer Baselines\" with optional 
 
 HOMEPAGE="https://github.com/romue404/x-metaformer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/94/ee62ac48ceb19d7bbf501d200f56f7f893d6a36e5fd9617343bf99a77190/x-Metaformer-${REALVERSION}.tar.gz"
-SOURCEFILE="x-Metaformer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

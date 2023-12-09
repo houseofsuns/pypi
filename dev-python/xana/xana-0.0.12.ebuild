@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Xana"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Analysis software for XPCS, XSVS and SAXS data."
 
 HOMEPAGE="https://github.com/reiserm/Xana"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a3/e0/c2a2508b5bc9a6cf198a8d3493ac8b8152da2a84c7b4b349650197d80be5/Xana-${REALVERSION}.tar.gz"
-SOURCEFILE="Xana-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

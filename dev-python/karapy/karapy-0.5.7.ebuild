@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KaraPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Kara runtime for Python"
 
 HOMEPAGE="https://github.com/PixelboysTM/KaraPy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/2d/39d44baacbf6c4d6cad8ceb1e14eed4dd6f88994ed031f9b14e16079ab43/KaraPy-${REALVERSION}.tar.gz"
-SOURCEFILE="KaraPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

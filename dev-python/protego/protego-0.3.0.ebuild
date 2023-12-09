@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Protego"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pure-Python robots.txt parser with support for modern conventions"
 
 HOMEPAGE="https://github.com/scrapy/protego"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2c/7e/fc128cfd3bb8e081165fcdaad44ab5fff73678fbebc51f79f733c57c5295/Protego-${REALVERSION}.tar.gz"
-SOURCEFILE="Protego-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

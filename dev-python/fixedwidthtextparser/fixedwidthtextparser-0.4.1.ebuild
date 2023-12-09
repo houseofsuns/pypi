@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FixedWidthTextParser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fixed width text parser"
 
 HOMEPAGE="https://github.com/mysiar/fixed-width-text-parser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/63/f18b7f935760ef7a058a57d8af4b6e9d7fb46f28959dd26e5ca33d87373a/FixedWidthTextParser-${REALVERSION}.tar.gz"
-SOURCEFILE="FixedWidthTextParser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

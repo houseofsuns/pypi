@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Cherrydoor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An overengineered rfid lock manager created for my school community
 
 HOMEPAGE="https://github.com/oplik0/cherrydoor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/79/b887620308d8d118672107dd949a2021ed24445cd2732552d94b8bf22fc6/Cherrydoor-${REALVERSION}.tar.gz"
-SOURCEFILE="Cherrydoor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

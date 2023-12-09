@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LonginusPYPl"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/projectlonginus/LonginusPYPI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/80/a6/9675596bb6cd49dc128517a618db8f234be2c27d017708fbe998563e7644/LonginusPYPl-${REALVERSION}.tar.gz"
-SOURCEFILE="LonginusPYPl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OASYS1"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OrAnge SYnchrotron Suite"
 
 HOMEPAGE="https://github.com/oasys-kit/OASYS1"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/6a/df/6796839a221eaffb9ddf4a57f79d98f3e6d89884bf74e5741232dffd60ca/OASYS1-${REALVERSION}.tar.gz"
-SOURCEFILE="OASYS1-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

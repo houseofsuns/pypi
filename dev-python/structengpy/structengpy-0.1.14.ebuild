@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="StructEngPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="package for structural engineering"
 
 HOMEPAGE="https://github.com/zhuoju36/StructEngPy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c4/a5/e7554f00eac2f368d623a548720357235cf1a8aebd567e9bba644e92b970/StructEngPy-${REALVERSION}.tar.gz"
-SOURCEFILE="StructEngPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

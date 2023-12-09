@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="funEnsemble"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Ensemble Clustering for Functional Data"
 
 HOMEPAGE="https://github.com/Newman251/funEnsemble"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/92/02/572415b510fe7519ac73cbbb8085cadb3115a01fbc5ec79cab08e1c1342f/funEnsemble-${REALVERSION}.tar.gz"
-SOURCEFILE="funEnsemble-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

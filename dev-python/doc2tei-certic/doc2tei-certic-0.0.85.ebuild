@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="doc2tei-CERTIC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Convert ODT and DOCX files to TEI"
 
 HOMEPAGE="https://git.unicaen.fr/fnso/i-fair-ir/xsl-tei-circe"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/77/4b/95f3d8106470a26e267c5014a8a651e418147b362adca163954c7ff9fd14/doc2tei-CERTIC-${REALVERSION}.tar.gz"
-SOURCEFILE="doc2tei-CERTIC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

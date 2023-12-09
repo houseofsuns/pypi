@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DataSynthesizer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate synthetic data that simulate a given dataset."
 
 HOMEPAGE="https://github.com/DataResponsibly/DataSynthesizer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/b4/051fea17ca58bdef3538772fc59115b8bc868eecf81582f6b1b9162854d8/DataSynthesizer-${REALVERSION}.tar.gz"
-SOURCEFILE="DataSynthesizer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

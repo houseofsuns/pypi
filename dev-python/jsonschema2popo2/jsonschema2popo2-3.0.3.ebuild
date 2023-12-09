@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JSONSchema2PoPo2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Converts a JSON Schema to a Plain Old Python Object class"
 
 HOMEPAGE="https://github.com/mikedombo/JSONSchema2PoPo2"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/a5/bf8b93e6862695a0384a6cbfc392fe9a05c9484f1e1e4dc75601452dc915/JSONSchema2PoPo2-${REALVERSION}.tar.gz"
-SOURCEFILE="JSONSchema2PoPo2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

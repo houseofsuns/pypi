@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pypsy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Electrodermal activity processing and analysis"
 
 HOMEPAGE="http://www.musicsensorsemotion.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b9/6f/928a937193a750693a7211c8bdf0320a4ca8418043c421f3da9803b3c68f/Pypsy-${REALVERSION}.tar.gz"
-SOURCEFILE="Pypsy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

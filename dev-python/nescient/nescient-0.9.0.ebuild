@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Nescient"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Store, encrypt and decrypt files to and from encrypted, authenticat
 
 HOMEPAGE="https://github.com/arantonitis/nescient"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/85/ba/087a57d1a15f4698d69ab3d06502544a86b2e2d68346ef112930f473f718/Nescient-${REALVERSION}.tar.gz"
-SOURCEFILE="Nescient-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

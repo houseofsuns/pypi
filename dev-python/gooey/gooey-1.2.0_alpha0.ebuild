@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Gooey"
 REALVERSION="1.2.0a0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Turn (almost) any command line program into a full GUI application 
 
 HOMEPAGE="http://pypi.python.org/pypi/Gooey/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/8a/69dbef8283de1fa98f2857539b2478e98c0759e8453a07fc1ae966960fdf/Gooey-${REALVERSION}.tar.gz"
-SOURCEFILE="Gooey-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

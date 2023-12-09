@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ExGrads"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="calculate example-wise gradient"
 
 HOMEPAGE="https://gitlab.com/takuo-h/examplewise-gradients"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/5d/b24adf883c18240708b1af78ece70516b29c8a6378acfad9ae711b652e63/ExGrads-${REALVERSION}.tar.gz"
-SOURCEFILE="ExGrads-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

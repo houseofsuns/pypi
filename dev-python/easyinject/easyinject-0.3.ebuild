@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EasyInject"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A pythonic, reflection driven, dependency injection container"
 
 HOMEPAGE="https://github.com/delvelabs/easyinject"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c4/3d/ec48a8709541ab53ebf7e55f92a0f55c4f1d6390ea5d00b2ef94f5008308/EasyInject-${REALVERSION}.tar.gz"
-SOURCEFILE="EasyInject-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

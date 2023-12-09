@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenHowNet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OpenHowNet"
 
 HOMEPAGE="https://github.com/thunlp/OpenHowNet"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c9/9f/4ecd36e1a8ed505831f89469856f3f5e86f81008a916268802f4fc8a72e8/OpenHowNet-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenHowNet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EPICS-CA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="EPICS Channel Access Protocol Python Module"
 
 HOMEPAGE="https://github.com/friedrich-schotte/EPICS_CA"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/86/71/bc13d6f847d1113365bdf4345931e311bcb1f10b162347ea8b849230957e/EPICS_CA-${REALVERSION}.tar.gz"
-SOURCEFILE="EPICS_CA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

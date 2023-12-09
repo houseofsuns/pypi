@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="scETM"
 REALVERSION="0.5.1a0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Single cell embedded topic model for integrated scRNA-seq data anal
 
 HOMEPAGE="https://github.com/hui2000ji/scETM/"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/e7/b8/8d2779112eca3132e8437292b1e01e25d77cdf10053a8458dca2401181be/scETM-${REALVERSION}.tar.gz"
-SOURCEFILE="scETM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

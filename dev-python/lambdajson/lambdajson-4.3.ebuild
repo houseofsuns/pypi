@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="lambdaJSON"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Use json to serialize unsupported python types (and many more inclu
 
 HOMEPAGE="https://github.com/pooya-eghbali/lambdaJSON"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/fb/24/7d0b4586d0c92951fef67d4937ed39c0aec5e44b61855afdac328df6f287/lambdaJSON-${REALVERSION}.zip"
-SOURCEFILE="lambdaJSON-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

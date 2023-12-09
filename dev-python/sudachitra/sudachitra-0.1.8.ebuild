@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SudachiTra"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Japanese tokenizer for Transformers."
 
 HOMEPAGE="https://github.com/WorksApplications/SudachiTra"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/df/9f/4d4bbc970ef4dec229ad0eacaa92fd1e5d6cb0cafab0b38c1cfb12bab14b/SudachiTra-${REALVERSION}.tar.gz"
-SOURCEFILE="SudachiTra-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

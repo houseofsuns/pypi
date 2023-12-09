@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UoL-Autograder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="General testing and feedback"
 
 HOMEPAGE=""
 LICENSE="ecl-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9a/88/a7608720295fd9ac46b8f92e0d7b19ad551407da56751c153fcdd5d28f10/UoL-Autograder-${REALVERSION}.tar.gz"
-SOURCEFILE="UoL-Autograder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FairMongo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A complete Python Package for PyMongo and MongoDB."
 
 HOMEPAGE="https://github.com/chazzcoin/FairMongo"
 LICENSE="BSD 2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/b6/bb/ca7ea6437f6362554d7889b31cd87eb8061fb43b930e71eb8b39dd7edf75/FairMongo-${REALVERSION}.tar.gz"
-SOURCEFILE="FairMongo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

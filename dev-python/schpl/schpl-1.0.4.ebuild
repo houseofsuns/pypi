@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="scHPL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Hierarchical progressive learning pipeline for single-cell RNA-sequ
 
 HOMEPAGE="https://github.com/lcmmichielsen/scHPL"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/50/30cc5077766823dacf4b6ea9d340328456a920b14e04a105f130e1e6c2fe/scHPL-${REALVERSION}.tar.gz"
-SOURCEFILE="scHPL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

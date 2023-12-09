@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TestLink-API-Python-client"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python XML-RPC client for TestLink DEV 1.9.20 (github a1c7aca97)"
 
 HOMEPAGE="https://github.com/lczub/TestLink-API-Python-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/37/1b/f9bd486e85c93ec033abd21daa040e90683fcdf0e9e27206d4666225a4cf/TestLink-API-Python-client-${REALVERSION}.tar.gz"
-SOURCEFILE="TestLink-API-Python-client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

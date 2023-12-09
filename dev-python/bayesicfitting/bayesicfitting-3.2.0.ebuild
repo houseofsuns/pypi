@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BayesicFitting"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python Toolbox for Bayesian fitting."
 
 HOMEPAGE="https://www.bayesicfitting.nl"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/58/8f/7b4e2a284565ffb0691b2bbb0e181174de3a763df5b80958c8ece57e3beb/BayesicFitting-${REALVERSION}.tar.gz"
-SOURCEFILE="BayesicFitting-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

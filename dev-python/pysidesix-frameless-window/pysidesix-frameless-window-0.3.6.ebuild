@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySideSix-Frameless-Window"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A cross-platform frameless window based on pyside6, support Win32, 
 
 HOMEPAGE="https://github.com/zhiyiYo/PyQt-Frameless-Window/tree/PySide6"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/41/3a/682abf0598cabea6384bde93fd6c5d31849b11cde7fc4309ec54b5dcb667/PySideSix-Frameless-Window-${REALVERSION}.tar.gz"
-SOURCEFILE="PySideSix-Frameless-Window-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

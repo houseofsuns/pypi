@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SQLAlchemy-ImageAttach"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SQLAlchemy extension for attaching images to entity objects"
 
 HOMEPAGE="https://github.com/dahlia/sqlalchemy-imageattach"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/be/6b/4bab17d924c851b47050e623d8e86042d71715836b5d5fe2f166aa5366d4/SQLAlchemy-ImageAttach-${REALVERSION}.tar.gz"
-SOURCEFILE="SQLAlchemy-ImageAttach-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

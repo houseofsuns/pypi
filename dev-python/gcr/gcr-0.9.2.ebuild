@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GCR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generic Catalog Reader: A common reader interface for accessing gen
 
 HOMEPAGE="https://github.com/yymao/generic-catalog-reader"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/04/4b9a3a3effac9c7dffddff04c02cb1e347e1da3f4440ff372b8926563f52/GCR-${REALVERSION}.tar.gz"
-SOURCEFILE="GCR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

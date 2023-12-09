@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="labelStoma"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="labelStoma is a graphical tool for using and creating detection mod
 
 HOMEPAGE="https://github.com/ancasag/labelStoma"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/69/08764dd0e5fbed0cb59bd1b01af1ce0ae3d44d497f8a99cad5f06becc970/labelStoma-${REALVERSION}.tar.gz"
-SOURCEFILE="labelStoma-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

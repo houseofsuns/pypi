@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="safeIO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Safely make I/O operations to files in Python even from multiple th
 
 HOMEPAGE="https://github.com/Animenosekai/safeIO"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/2f/00e4f435cc49f1b600807356e17ec7625f011a5ae86d8b893ab8ddb5bd98/safeIO-${REALVERSION}.tar.gz"
-SOURCEFILE="safeIO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

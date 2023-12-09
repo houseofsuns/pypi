@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BFEE2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Binding Free Energy Estimator 2"
 
 HOMEPAGE="https://github.com/fhh2626/BFEE2"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8e/51/ea768a8699d9fab971d86a4a5a2d618329cc4762ba369b21977b46eaac6d/BFEE2-${REALVERSION}.tar.gz"
-SOURCEFILE="BFEE2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

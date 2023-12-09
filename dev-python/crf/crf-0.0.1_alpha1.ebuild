@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CRF"
 REALVERSION="0.0.1a1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Conditional Random Fields for Vision and Language"
 
 HOMEPAGE="https://github.com/ManifoldPerception/CRF"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/e4/359978574d52bc8fa0b4bae491273aba80fe580e86d1356ac5f1a65f4912/CRF-${REALVERSION}.tar.gz"
-SOURCEFILE="CRF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

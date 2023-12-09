@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QuantStats"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Portfolio analytics for quants"
 
 HOMEPAGE="https://github.com/ranaroussi/quantstats"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2a/d0/21abd054009e3b0b8e3fd1510b1b6f476a3dbf95b19f2dc1dfd1fe4e0c92/QuantStats-${REALVERSION}.tar.gz"
-SOURCEFILE="QuantStats-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

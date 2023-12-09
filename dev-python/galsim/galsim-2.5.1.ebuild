@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GalSim"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The modular galaxy image simulation toolkit"
 
 HOMEPAGE="https://github.com/GalSim-developers/GalSim"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/fe/e6/e865ba11bcec87433595a51a3fd8ef060b60803c077d8ba3a0bc9343bb70/GalSim-${REALVERSION}.tar.gz"
-SOURCEFILE="GalSim-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

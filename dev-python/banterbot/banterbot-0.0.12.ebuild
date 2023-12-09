@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BanterBot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BanterBot: An OpenAI ChatGPT-powered chatbot with Azure Neural Voic
 
 HOMEPAGE="https://github.com/GabrielSCabrera/BanterBot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/45/1cbfadabbbe495dd945eb4e3e4eef209eaf660046191f6edf796de7f9b31/BanterBot-${REALVERSION}.tar.gz"
-SOURCEFILE="BanterBot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

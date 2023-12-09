@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Octagon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="How can I find an octagon? How, Elmo? How?"
 
 HOMEPAGE="https://github.com/Cloud11665/octagon"
 LICENSE="gpl-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/ca/8b/a476c1068591c2405c488d0fc61c74c491668922e57632d2f0eb4151a27b/Octagon-${REALVERSION}.tar.gz"
-SOURCEFILE="Octagon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

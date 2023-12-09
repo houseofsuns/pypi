@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JSONPyth"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A JSONPath implementation for Python"
 
 HOMEPAGE="https://github.com/Frimkron/JSONPyth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6f/7d/f0c9f28064522bca8cf1231237e6b7ab4895e4a3cbcbb0222666af2c14bd/JSONPyth-${REALVERSION}.tar.gz"
-SOURCEFILE="JSONPyth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

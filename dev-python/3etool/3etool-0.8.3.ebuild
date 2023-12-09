@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="3ETool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for performing exergo-economic and exergo-environmental analy
 
 HOMEPAGE="https://tinyurl.com/SERG-3ETool"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/3d/74/b8b2eb464a6552e52a0645dfef925aafacda91d128d2d82c3784520bec16/3ETool-${REALVERSION}.tar.gz"
-SOURCEFILE="3ETool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

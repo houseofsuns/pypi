@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySimpleSOAP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Simple SOAP Library"
 
 HOMEPAGE="https://github.com/pysimplesoap/pysimplesoap/tree/stable"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/ed/307d2f8b6e1684230ab272d17646a06a84691f734aa4c7cc9dec5dd27162/PySimpleSOAP-${REALVERSION}.tar.gz"
-SOURCEFILE="PySimpleSOAP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

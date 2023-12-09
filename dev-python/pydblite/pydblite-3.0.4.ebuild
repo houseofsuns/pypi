@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDbLite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyDbLite, a fast, pure-Python in-memory database"
 
 HOMEPAGE="http://www.pydblite.net/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/55/bc/a8e7078bd50411d43c05407cfefc0fd1d42e5722c1d544bd243125de30a8/PyDbLite-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDbLite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

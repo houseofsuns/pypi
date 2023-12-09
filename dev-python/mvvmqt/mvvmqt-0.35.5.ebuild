@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="mvvmQt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="write qt like html"
 
 HOMEPAGE="https://gitee.com/zhiyang/py-qt-dom"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/bf/b2d19764c848cd127e5059c08109d1ff09738b7b015ac0c1a3df38539557/mvvmQt-${REALVERSION}.tar.gz"
-SOURCEFILE="mvvmQt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

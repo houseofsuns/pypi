@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyEXR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="One line EXR manipulation library"
 
 HOMEPAGE="https://github.com/tvogels/pyexr"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/41/c0/ae59c4c3d03778b40fc33b2cbb6e93a22fab8981148e12caf3840b25fd23/PyEXR-${REALVERSION}.tar.gz"
-SOURCEFILE="PyEXR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

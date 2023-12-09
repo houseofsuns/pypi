@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Goulib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="library of useful Python code for scientific + technical applicatio
 
 HOMEPAGE="http://github.com/goulu/goulib"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ab/dd/4d53f15b282f7aaff2c16e27d725491a7fe90e10c6231f274f74899dff9b/Goulib-${REALVERSION}.tar.gz"
-SOURCEFILE="Goulib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

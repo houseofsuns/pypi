@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Coliform"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Coliform UPRM Project Library, Written for Raspberry Pi"
 
 HOMEPAGE="https://github.com/Regendor/coliform-project"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/24/32/f97b1490a19d1d92e029d084d90d0e98f9691d9c70ec13c3fa61dfd0fd60/Coliform-${REALVERSION}.tar.gz"
-SOURCEFILE="Coliform-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UWGeodynamics"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Underworld Geodynamics wrapper"
 
 HOMEPAGE="https://github.com/rbeucher/UWGeodynamics.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e0/ba/8210245b8666ff34582e1b40b162cf78e1b9bad8063478b20320c633f3c8/UWGeodynamics-${REALVERSION}.tar.gz"
-SOURCEFILE="UWGeodynamics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

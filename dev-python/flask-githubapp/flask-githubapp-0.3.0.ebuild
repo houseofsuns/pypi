@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-GitHubApp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Rapid GitHub app development in Python"
 
 HOMEPAGE="https://github.com/bradshjg/flask-githubapp"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/41/91a8bdbab0f98360544f65d67df06476013bdc94f6d5521c61da6a3d80bb/Flask-GitHubApp-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-GitHubApp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

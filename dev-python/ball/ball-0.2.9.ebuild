@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Ball"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Ball: A Python Package for Detecting Distribution Difference and As
 
 HOMEPAGE="https://github.com/Mamba413/Ball"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a3/1a/46099e0cee1243a07cdbfd10c1362912fcd4b86f9f368f9b094746b22c84/Ball-${REALVERSION}.tar.gz"
-SOURCEFILE="Ball-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

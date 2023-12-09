@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KMMTR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a transfer learning regression model based on Kernel Mean Matching 
 
 HOMEPAGE="https://github.com/Bin-Cao/KMMTransferRegressor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d1/de/e5853296934a377ce8776d234905376de07b6a5195c28f384d825367f83a/KMMTR-${REALVERSION}.tar.gz"
-SOURCEFILE="KMMTR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XTTOOLS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="XTJsonResponse"
 
 HOMEPAGE="https://github.com/fengchuan1021"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9b/e9/89cfaa3552a881d67b3041542efa9957ce956e91f37d0c41eca19088ba89/XTTOOLS-${REALVERSION}.tar.gz"
-SOURCEFILE="XTTOOLS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

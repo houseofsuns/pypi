@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BDPapi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="bdp api"
 
 HOMEPAGE="https://github.com/haizhiml/bdp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1d/5a/1e538a75744a022b571ee91240f07dd0b0701403ba957a5277241486d144/BDPapi-${REALVERSION}.tar.gz"
-SOURCEFILE="BDPapi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

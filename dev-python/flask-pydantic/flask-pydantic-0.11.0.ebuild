@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Pydantic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for integration with Pydantic library"
 
 HOMEPAGE="https://github.com/bauerji/flask_pydantic.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/f4/34f688e8a15c1efc7caede3cb9f81f9824e2daccd4b41436a28b2cb5c518/Flask-Pydantic-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Pydantic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

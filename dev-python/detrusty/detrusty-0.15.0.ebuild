@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeTrusty"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DeTrusty - Decentralized and Trustable Query Engine"
 
 HOMEPAGE="https://github.com/SDM-TIB/DeTrusty"
 LICENSE="GNU/GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/91/fc/c9e0acb5571a49271d12e995a7163f4d4a778f420e8dbb4cb28d53101b69/DeTrusty-${REALVERSION}.tar.gz"
-SOURCEFILE="DeTrusty-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

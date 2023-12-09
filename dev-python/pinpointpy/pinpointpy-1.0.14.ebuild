@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pinpointPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/pinpoint-apm/pinpoint-c-agent"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/84/e3/7e4cddc67d21fad7705d917248345fde840b37cca17149557746fa49b236/pinpointPy-${REALVERSION}.tar.gz"
-SOURCEFILE="pinpointPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SeedboxManager"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Seedbox Task Manager"
 
 HOMEPAGE="http://shad7.github.io/seedbox"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/2d/0ae41cdac5fd6bf9e48528551db9df03c2c2cfb8138f87748c5bde38f8ff/SeedboxManager-${REALVERSION}.tar.gz"
-SOURCEFILE="SeedboxManager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

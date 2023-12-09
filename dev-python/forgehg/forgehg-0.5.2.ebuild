@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ForgeHg"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mercurial (Hg) SCM support for Apache Allura"
 
 HOMEPAGE="http://sourceforge.net/p/forgehg"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/ac/3e/c7a285091cda560622c110a2cf55917d58f156db13469ee8cfb7e12b5740/ForgeHg-${REALVERSION}.tar.gz"
-SOURCEFILE="ForgeHg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

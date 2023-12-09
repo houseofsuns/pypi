@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MouseTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python wrapper for the Disney API"
 
 HOMEPAGE="https://github.com/scaratozzolo/MouseTools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3a/dd/c9d160e3d9e4d787c823d5387865db6d2e090034e8241fbea5e280d51756/MouseTools-${REALVERSION}.tar.gz"
-SOURCEFILE="MouseTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

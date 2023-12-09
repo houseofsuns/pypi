@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RXN4Chemistry"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python wrapper for IBM RXN for Chemistry"
 
 HOMEPAGE="https://github.com/rxn4chemistry/rxn4chemistry"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fd/91/a0b4d0d5e1e7f14a109ff8ebfb77b7e9b72e70c2316d8c4c56747b2d4f7c/RXN4Chemistry-${REALVERSION}.tar.gz"
-SOURCEFILE="RXN4Chemistry-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

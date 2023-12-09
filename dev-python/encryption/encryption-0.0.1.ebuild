@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Encryption"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Basic text transformations"
 
 HOMEPAGE="https://github.com/nasiegel8/Encryptions"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dc/b2/14d7aec05841cfd5da6df1c2e866e04e2fa2c89287e82c277688b2c86eac/Encryption-${REALVERSION}.tar.gz"
-SOURCEFILE="Encryption-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

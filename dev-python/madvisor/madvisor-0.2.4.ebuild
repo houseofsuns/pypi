@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="mAdvisor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An automated AI/ML solution from Marlabs"
 
 HOMEPAGE="https://www.marlabs.com/platforms/cognitive-computing-AI-ML-platform/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/98/f0/9abcd266969463e414f7a2e22d3ca0efb3150f7d5af0b3defab6d642482f/mAdvisor-${REALVERSION}.tar.gz"
-SOURCEFILE="mAdvisor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

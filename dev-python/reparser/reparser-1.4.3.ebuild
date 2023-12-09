@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ReParser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple regex-based lexer/parser for inline markup"
 
 HOMEPAGE="https://github.com/xmikos/reparser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a7/eb/8bd06ddaeb3d5963abb0e2e2f14f2fa975b32fafe198254bfb4106ed9415/ReParser-${REALVERSION}.tar.gz"
-SOURCEFILE="ReParser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Eureqa"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Nutonian Eureqa API"
 
 HOMEPAGE="http://nutonian.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/c8/d29a8062d0f40d52df087d82b675bb8fb65f8d96268f4c0d5f0feb32b573/Eureqa-${REALVERSION}.tar.gz"
-SOURCEFILE="Eureqa-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

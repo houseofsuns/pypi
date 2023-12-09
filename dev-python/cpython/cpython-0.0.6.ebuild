@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="cPython"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="more common def"
 
 HOMEPAGE="https://github.com/JxiaoC/cPython"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/91/80/d01f39dd8e742d4548e497a28f70a5c556f7803f80598520f7f31096132a/cPython-${REALVERSION}.tar.gz"
-SOURCEFILE="cPython-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="deskaone-sdk-scrypt-2023"
+LITERALNAME="deskaone-sdk-scrypt-2023"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

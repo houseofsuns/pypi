@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CrawlersTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for Crawlers"
 
 HOMEPAGE="https://github.com/MuggleK/CrawlersTools"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/81/7b/619a65d7b2c5723e9e876a8fcaa2247999a06599015ca6baa79ebe0f67ed/CrawlersTools-${REALVERSION}.tar.gz"
-SOURCEFILE="CrawlersTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

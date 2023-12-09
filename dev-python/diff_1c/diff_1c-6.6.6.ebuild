@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="diff-1c"
+LITERALNAME="diff-1c"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

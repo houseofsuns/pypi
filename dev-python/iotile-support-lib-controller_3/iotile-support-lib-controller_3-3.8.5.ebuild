@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="iotile-support-lib-controller-3"
+LITERALNAME="iotile-support-lib-controller-3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

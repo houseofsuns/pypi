@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JLpyUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="General utilities to streamline data science and machine learning r
 
 HOMEPAGE="https://github.com/jlnerd/JLpyUtils.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/35/ce/da63cc96a664a54527e78c54a7deedaff472218806408d5019d153f0586e/JLpyUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="JLpyUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyCIM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python implementation of the Common Information Model."
 
 HOMEPAGE="https://github.com/rwl/PyCIM"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/35/9a/38948e73501a772ac06c101cba8fc389c5c0c5446c650a27687896474757/PyCIM-${REALVERSION}.tar.gz"
-SOURCEFILE="PyCIM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

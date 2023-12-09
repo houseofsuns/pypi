@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySmbClient"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A convenient smbclient wrapper"
 
 HOMEPAGE="http://bitbucket.org/nosklo/pysmbclient"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/9f/81/1d3e94c27fd7ce8ed46ccf7260d321832b9778d283f43bdee29ea7527b0e/PySmbClient-${REALVERSION}.tar.gz"
-SOURCEFILE="PySmbClient-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

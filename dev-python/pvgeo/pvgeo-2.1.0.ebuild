@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PVGeo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Geoscientific visualization tools for VTK and ParaView"
 
 HOMEPAGE="https://github.com/OpenGeoVis/PVGeo"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/35/7df69a8b333a77e5921d2efb6f31eb3f6fe8133c08e407a953c88c34eb89/PVGeo-${REALVERSION}.tar.gz"
-SOURCEFILE="PVGeo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Homie4"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Homie 4.0.0 Implementation"
 
 HOMEPAGE="https://github.com/mjcumming/homie4"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/eb/382681ed89dc1832b2efaf34c46a40ba0fc04f3c26caa3ac9f1f88c2c657/Homie4-${REALVERSION}.tar.gz"
-SOURCEFILE="Homie4-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

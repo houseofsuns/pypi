@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DTL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Multiplatform tools development api"
 
 HOMEPAGE="https://github.com/rocktavious/DevToolsLib"
 LICENSE="Copyright c 2013 Kyle Rockman"
-SRC_URI="https://files.pythonhosted.org/packages/1d/f4/007b6eed03f0b5e08bb5d5ab0f30a42efc21ef1eb20b0fdcf05287e84668/DTL-${REALVERSION}.zip"
-SOURCEFILE="DTL-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CommonConf"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An interface for getting settings from a variety of configuration l
 
 HOMEPAGE="https://github.com/uw-it-aca/commonconf"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/52/46/db480d734aa6d41bc8366b5f6eef37b5644f5b468b5c7a15c1bf5c997c23/CommonConf-${REALVERSION}.tar.gz"
-SOURCEFILE="CommonConf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

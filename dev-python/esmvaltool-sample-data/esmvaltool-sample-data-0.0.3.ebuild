@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ESMValTool-sample-data"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ESMValTool sample data"
 
 HOMEPAGE="https://github.com/ESMValGroup/ESMValTool_sample_data"
 LICENSE="Apache 2.0; CC BY-SA 4.0"
-SRC_URI="https://files.pythonhosted.org/packages/5c/7c/5f91b7e3d3c1934c648cc1fd727641444724561b99428dfe4e6acbd6916e/ESMValTool_sample_data-${REALVERSION}.tar.gz"
-SOURCEFILE="ESMValTool_sample_data-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

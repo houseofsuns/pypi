@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MetaboDistTrees"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python implementation for building chemically informed distance t
 
 HOMEPAGE="https://github.com/madeleineernst/MetaboDistTrees"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/25/2b/4d3b45345ff7efc4b1fc73d983d6d67ab9f9b6f5a49b1f8d030e610dad93/MetaboDistTrees-${REALVERSION}.tar.gz"
-SOURCEFILE="MetaboDistTrees-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

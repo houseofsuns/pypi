@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenPatchMiner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A patch miner for large histopathology images"
 
 HOMEPAGE="https://github.com/CBICA/OPM"
 LICENSE="BSD-3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/72/b9/b084379a9057c0e86a55ab6cdd1b5af1238506c61eb5345ff9834a5116ff/OpenPatchMiner-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenPatchMiner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

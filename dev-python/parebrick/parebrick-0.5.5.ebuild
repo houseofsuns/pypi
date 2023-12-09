@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PaReBrick"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A bioinf tool for finding genome rearrangements in bacterial genome
 
 HOMEPAGE="https://github.com/ctlab/parallel-rearrangements"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/b0/aa7ca2816231fe1e7f9bc65fabe65ec1e1214c51c41bdfec25124f5b52e7/PaReBrick-${REALVERSION}.tar.gz"
-SOURCEFILE="PaReBrick-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

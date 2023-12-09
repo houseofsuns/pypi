@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NearPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Framework for fast approximated nearest neighbour search."
 
 HOMEPAGE="http://pypi.python.org/pypi/NearPy/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/a9/c5/9745fea7ddbb051ed642d5d2e29e988abcccafdf04abfc014f90bcdb1628/NearPy-${REALVERSION}.tar.gz"
-SOURCEFILE="NearPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

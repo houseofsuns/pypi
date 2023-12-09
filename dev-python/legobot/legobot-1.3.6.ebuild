@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Legobot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A framework for creating interactive chatbots on various protocols"
 
 HOMEPAGE="https://github.com/bbriggs/Legobot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/2b/0d2a35fe06b10719bce22096bd1263fb3747078835ca607332e04768df53/Legobot-${REALVERSION}.tar.gz"
-SOURCEFILE="Legobot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

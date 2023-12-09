@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Bubot-Core"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="iot framework based on OCF specification"
 
 HOMEPAGE="https://github.com/businka/Bubot_Core"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/70/bc/09a6622e4ab885c4f990d75e8e25f5bc0ca08a2d299ed8fce65d9fba20b5/Bubot_Core-${REALVERSION}.tar.gz"
-SOURCEFILE="Bubot_Core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

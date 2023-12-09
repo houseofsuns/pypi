@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="fpGrowth"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="implimention of fpGrowth in python"
 
 HOMEPAGE="http://pypi.python.org/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/ef/24/7584e2c328d66b3eb4ed80d49dfc0555427cd44be4c39e6b78370937ce72/fpGrowth-${REALVERSION}.tar.gz"
-SOURCEFILE="fpGrowth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ForgeryPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An easy to use forged data generator for Python"
 
 HOMEPAGE="http://tomekwojcik.github.com/ForgeryPy/"
 LICENSE="https://github.com/tomekwojcik/ForgeryPy/blob/master/LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/de/66/8a29d7163b528d2d5c3ccc98e621959723b7eeb010e38c11f1404313e2b7/ForgeryPy-${REALVERSION}.tar.gz"
-SOURCEFILE="ForgeryPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

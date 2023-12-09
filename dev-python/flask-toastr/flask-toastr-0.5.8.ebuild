@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Toastr"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Showing non-blocking notifications in Flask templates using toastr.
 
 HOMEPAGE="https://github.com/wiltonsr/Flask-Toastr/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cc/e9/33adc2d17855b6b78670c4b523882ee68c80287d7176ef1b1bb3bd2b4750/Flask-Toastr-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Toastr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

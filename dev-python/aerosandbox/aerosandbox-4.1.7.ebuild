@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AeroSandbox"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="AeroSandbox is a Python package that helps you design and optimize 
 
 HOMEPAGE="https://peterdsharpe.github.io/AeroSandbox/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/2a/c6801261fd4ff57b8e1eedadc7f5fdc9a0e2255514ce329d2d849cf20969/AeroSandbox-${REALVERSION}.tar.gz"
-SOURCEFILE="AeroSandbox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

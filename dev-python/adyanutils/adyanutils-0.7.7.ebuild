@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AdyanUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Special package"
 
 HOMEPAGE="https://gitee.com/liujiang99/AdyanUtils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/04/a65009c98b7dad8223caa9a6a74e41b999ed4a4ffae3fb185d61f8057657/AdyanUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="AdyanUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

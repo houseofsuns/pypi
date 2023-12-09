@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenAIAuth"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OpenAI Authentication Reverse Engineered"
 
 HOMEPAGE="https://github.com/acheong08/OpenAIAuth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1b/a0/01c339fe5132c3a4d54b0553b0100b6e84c342ae0e1e24b9175ba56a9f68/OpenAIAuth-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenAIAuth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

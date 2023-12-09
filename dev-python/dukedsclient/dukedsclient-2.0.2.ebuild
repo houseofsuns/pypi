@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DukeDSClient"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Command line tool(ddsclient) to upload/manage projects on the duke-
 
 HOMEPAGE="https://github.com/Duke-GCB/DukeDSClient"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d3/2e/5a8a108dcd84c4875fc0f7172bfe5b5d901b4ba912d5ec5866187d5f0e75/DukeDSClient-${REALVERSION}.tar.gz"
-SOURCEFILE="DukeDSClient-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

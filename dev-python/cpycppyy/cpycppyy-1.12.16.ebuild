@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CPyCppyy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Cling-based Python-C++ bindings for CPython"
 
 HOMEPAGE="http://cppyy.readthedocs.io/"
 LICENSE="LBNL BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ab/bf/947395ad56390b626d4b533e2772eecbc07b857cd241d9497cd0f4741334/CPyCppyy-${REALVERSION}.tar.gz"
-SOURCEFILE="CPyCppyy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-BigApp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Flask auto importer that allows your Flask apps to grow big."
 
 HOMEPAGE="https://github.com/CheeseCake87/Flask-BigApp"
 LICENSE="GNU Lesser General Public License v2.1"
-SRC_URI="https://files.pythonhosted.org/packages/b0/32/33e1bdf3094bb126065c9185c9b6a64d344753c3806bff063ed20b098e71/Flask-BigApp-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-BigApp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

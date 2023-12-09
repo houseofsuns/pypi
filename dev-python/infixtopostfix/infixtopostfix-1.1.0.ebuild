@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="InfixToPostfix"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python module converts infix expressions to postfix expressions a
 
 HOMEPAGE="https://github.com/RoiexLee/InfixToPostfiX"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/9d/5e9df5054cc926e959ead46c744128d43a3c94b0ec2714c56f00a74427bd/InfixToPostfix-${REALVERSION}.tar.gz"
-SOURCEFILE="InfixToPostfix-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

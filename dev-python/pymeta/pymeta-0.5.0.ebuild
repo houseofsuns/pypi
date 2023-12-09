@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMeta"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pattern-matching language based on OMeta"
 
 HOMEPAGE="http://launchpad.net/pymeta"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/8e/677557793fada7e75f97a098bede3a606e57668e1ded2faba3b83d4716fb/PyMeta-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMeta-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

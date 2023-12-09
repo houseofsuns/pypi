@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Django-local-lib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python wrapper for the CircleCI API"
 
 HOMEPAGE="https://github.com/joseph-njogu/Django_local_lib"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/e1/4bc1d13c482b37ecfd9a2322abe8c63be19643c4225ce9f2c4417b1bb9cf/Django_local_lib-${REALVERSION}.tar.gz"
-SOURCEFILE="Django_local_lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CovidPyLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple Python library to work with DCCs (Digital Covid Certificates
 
 HOMEPAGE="https://github.com/CovidPyLib"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/e7/ff/08baf15b71688b399d35b8abeec7c10e91081bac7065608281034011fa45/CovidPyLib-${REALVERSION}.tar.gz"
-SOURCEFILE="CovidPyLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

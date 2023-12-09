@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyFxA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Firefox Accounts client library for Python"
 
 HOMEPAGE="https://github.com/mozilla/PyFxA"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/19/58/9c34650d9ef75ac93348306d0888174af8c18be7e98f1273653142b2fcee/PyFxA-${REALVERSION}.tar.gz"
-SOURCEFILE="PyFxA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

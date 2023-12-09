@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pyro5"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Remote object communication library, fifth major version"
 
 HOMEPAGE="https://github.com/irmen/Pyro5"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/53/d0fb4625ecf2fdbe83211a4b7e384b8deec95989330451b53b25ddc6f79a/Pyro5-${REALVERSION}.tar.gz"
-SOURCEFILE="Pyro5-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

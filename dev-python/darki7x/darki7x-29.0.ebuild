@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DARKI7X"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="For developers"
 
 HOMEPAGE="https://t.me/LegendsLIB"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/a2/a36ba3e902b803f943c6674e877306fd42902424da3be5a97d59aae7ae3d/DARKI7X-${REALVERSION}.tar.gz"
-SOURCEFILE="DARKI7X-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

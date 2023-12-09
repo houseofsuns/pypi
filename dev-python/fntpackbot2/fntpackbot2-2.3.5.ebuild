@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FNTPACKBOT2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lobby bot."
 
 HOMEPAGE="https://www.youtube.com/channel/UCiDx7oYO4f0qbDEzGdgaq_w?view_as=subscriber&pbjreload=101"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b7/4e/e99fe398c69a9050981e76ed8ff44ce880eed3d4377fe67cc70fcf52f3ae/FNTPACKBOT2-${REALVERSION}.tar.gz"
-SOURCEFILE="FNTPACKBOT2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

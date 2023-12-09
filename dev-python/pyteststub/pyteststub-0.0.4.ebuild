@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyTestStub"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Reads your Python code to generate unit test stubs"
 
 HOMEPAGE="https://github.com/AgalmicVentures/PyTestStub/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/4e/c9d37b5001ffa8c0a5a96bce527c7729ee61f3f8aada4cc959f50719c1b8/PyTestStub-${REALVERSION}.tar.gz"
-SOURCEFILE="PyTestStub-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

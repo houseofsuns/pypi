@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="py3Dmol"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An IPython interface for embedding 3Dmol.js views in Jupyter notebo
 
 HOMEPAGE="https://3dmol.org"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2f/69/2a8cc6643b8dca681327560de4a6baf0262d153fc6b13e97d59d0c8367f2/py3Dmol-${REALVERSION}.tar.gz"
-SOURCEFILE="py3Dmol-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

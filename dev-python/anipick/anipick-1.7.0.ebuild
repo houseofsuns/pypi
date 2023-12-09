@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Anipick"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Anime module for search Anime, Manga, Quote info"
 
 HOMEPAGE="https://github.com/pengode-handal/anipick"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/5b/a3f14ddf9e4946333c31db027903d527d441fbf1c56f0217e45941211a79/Anipick-${REALVERSION}.tar.gz"
-SOURCEFILE="Anipick-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

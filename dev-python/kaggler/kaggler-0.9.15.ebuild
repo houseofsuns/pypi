@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kaggler"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Code for Kaggle Data Science Competitions."
 
 HOMEPAGE="https://github.com/jeongyoonlee/Kaggler"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/30/0c/ac3fc0136360f5ebf0e538ac09dd07e00905a9a59a94c28758e5dc174c27/Kaggler-${REALVERSION}.tar.gz"
-SOURCEFILE="Kaggler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

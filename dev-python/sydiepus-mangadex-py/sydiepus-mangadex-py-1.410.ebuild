@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Sydiepus-mangadex-py"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MangaDexv5 manga downloader"
 
 HOMEPAGE="https://github.com/Sydiepus/mangadex-py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/6c/9abcfb3ee7fa7c29db034bc34bafb72607cb55714be10e62c0665fce1969/Sydiepus-mangadex-py-${REALVERSION}.tar.gz"
-SOURCEFILE="Sydiepus-mangadex-py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

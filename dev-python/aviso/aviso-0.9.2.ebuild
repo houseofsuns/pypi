@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AVISO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library to handle altimetric data produced by AVISO"
 
 HOMEPAGE="https://pyaviso.castelao.net"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/e1/bf3f8435471ab98986340cd35e325c8902de8e1c8368949992c9c1964e4d/AVISO-${REALVERSION}.tar.gz"
-SOURCEFILE="AVISO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ULLRPALIB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Librería para utilidades generales de RPA para Python"
 
 HOMEPAGE="https://github.com/RPA-ULL/0998_LIB_Python_Scripts"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b8/60/6f6f2a5b5ce2e239724644dfee197fcdbeeddeb21f647b3ec28b863006e7/ULLRPALIB-${REALVERSION}.tar.gz"
-SOURCEFILE="ULLRPALIB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

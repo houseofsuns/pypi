@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GraphQL-core-next"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GraphQL-core-next is a Python port of GraphQL.js, the JavaScript re
 
 HOMEPAGE="https://github.com/graphql-python/graphql-core-next"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e2/ae/b1fc0f5dc4f0d6ccf4b41f18f5dc031ab2ab9fda07c27550c3fb38173025/GraphQL-core-next-${REALVERSION}.tar.gz"
-SOURCEFILE="GraphQL-core-next-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

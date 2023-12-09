@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyPDF2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A pure-python PDF library capable of splitting, merging, cropping, 
 
 HOMEPAGE="https://pypdf2.readthedocs.io/en/latest/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b5/d5/88fdebb1fed2215fb5e110524f7b6d3779350f17c29331d6efb8d989b590/PyPDF2-${REALVERSION}.tar.gz"
-SOURCEFILE="PyPDF2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

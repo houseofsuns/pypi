@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="novelWriter"
 REALVERSION="2.2rc1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A markdown-like text editor for planning and writing novels"
 
 HOMEPAGE="https://novelwriter.io"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/50/d1/6d4de2c0f053aedcbf3a9e389cd953af4bdaac5d612b9e5cce8a82ae95f9/novelWriter-${REALVERSION}.tar.gz"
-SOURCEFILE="novelWriter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

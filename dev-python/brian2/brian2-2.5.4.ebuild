@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Brian2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A clock-driven simulator for spiking neural networks"
 
 HOMEPAGE="https://briansimulator.org"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0b/91/7d2dc966a91c4915fc6d1164103758083808bec7686f6995f09c4986f6c0/Brian2-${REALVERSION}.tar.gz"
-SOURCEFILE="Brian2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

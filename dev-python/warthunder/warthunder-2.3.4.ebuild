@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WarThunder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package used to access air vehicle telemetry while in War Th
 
 HOMEPAGE="https://github.com/PowerBroker2/WarThunder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/5a/f9c9d2eb251342462f489efa8a7b7cc00c7d6a40ca344adc04fb7f365afc/WarThunder-${REALVERSION}.tar.gz"
-SOURCEFILE="WarThunder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

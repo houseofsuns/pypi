@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ETSformer-pytorch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ETSTransformer - Exponential Smoothing Transformer for Time-Series 
 
 HOMEPAGE="https://github.com/lucidrains/ETSformer-pytorch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1b/7f/860aed5bef6ef1de972dd4f5564ba09385c16606cfe6215c2562204c376a/ETSformer-pytorch-${REALVERSION}.tar.gz"
-SOURCEFILE="ETSformer-pytorch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

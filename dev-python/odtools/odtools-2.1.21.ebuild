@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ODtools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="zkrTools"
 
 HOMEPAGE="https://github.com/zkr-origin-data-dpt/ODtools"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/51/16/f22806b0949474c9adc56f682a9e4f5e6e503d88f34cd3a9d55f5c882ce3/ODtools-${REALVERSION}.tar.gz"
-SOURCEFILE="ODtools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

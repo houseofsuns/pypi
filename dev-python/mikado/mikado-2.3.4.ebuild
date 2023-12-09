@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mikado"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python3 annotation program to select the best gene model in each 
 
 HOMEPAGE="https://github.com/EI-CoreBioinformatics/mikado"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7c/53/cbd94a6419cb6b85fe392f5e82b2270567a7f3fd3cf381f54f9bd080d4b0/Mikado-${REALVERSION}.tar.gz"
-SOURCEFILE="Mikado-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

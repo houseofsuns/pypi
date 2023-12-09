@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SWTK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Sort txt file from weirdest line to last from cli. Meant to be used
 
 HOMEPAGE="https://github.com/nileshkhetrapal/SWTK"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/f1/653885eee045e2ca8a99c079db749f1c3a3de567212fcde4c7a74410bf21/SWTK-${REALVERSION}.tar.gz"
-SOURCEFILE="SWTK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

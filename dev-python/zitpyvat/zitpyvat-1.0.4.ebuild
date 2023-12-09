@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ZITPyVAT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ZIT python vat common packages"
 
 HOMEPAGE="http://www.tjzit.com/"
 LICENSE="None"
-SRC_URI="https://files.pythonhosted.org/packages/51/c5/212d6fbf221300f118fbd16be4e45a0fded58927437c04bd8d7301c417bb/ZITPyVAT-${REALVERSION}.tar.gz"
-SOURCEFILE="ZITPyVAT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

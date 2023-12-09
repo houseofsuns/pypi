@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AutoLayout"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/trezitorul/GDSPYUtils/tree/AutoLayout-package/AutoLayout"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a4/b3/aff7d6038d9cfa596ab3bed2fa61086d44a27ea38f1c55c4e9e6fabdf589/AutoLayout-${REALVERSION}.tar.gz"
-SOURCEFILE="AutoLayout-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

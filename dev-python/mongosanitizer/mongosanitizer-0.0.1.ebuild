@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MongoSanitizer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/noamt/python-mongo-sanitizer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/37/47/70ce2e25e8c7bfb5e0a10636c5eb4cf3e37c01568a9e782a76fbab7b7e18/MongoSanitizer-${REALVERSION}.tar.gz"
-SOURCEFILE="MongoSanitizer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

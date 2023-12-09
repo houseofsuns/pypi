@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HEBO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Heteroscedastic Evolutionary Bayesian Optimisation"
 
 HOMEPAGE="https://github.com/Yard1/noah-research/tree/master/HEBO"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/61/30/013bc9e30e3f00af7a2c0c5ae4f893a22fba2add7d37724c7c0b74f4019c/HEBO-${REALVERSION}.tar.gz"
-SOURCEFILE="HEBO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

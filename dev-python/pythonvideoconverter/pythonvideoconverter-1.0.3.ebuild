@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PythonVideoConverter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Video Converter library"
 
 HOMEPAGE="https://gitlab.com/jamieoglindsey0/python-video-converter/-/archive/1.0.3/python-video-converter-1.0.3.tar.gz"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/24/6a/cc922269ef84edb2784f9035d008c5a5eabb8b95bf8f28eb3cef444558cd/PythonVideoConverter-${REALVERSION}.tar.gz"
-SOURCEFILE="PythonVideoConverter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

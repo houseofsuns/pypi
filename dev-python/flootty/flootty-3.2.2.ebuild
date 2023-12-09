@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flootty"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Floobits collaborative terminal"
 
 HOMEPAGE="https://floobits.com/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/94/f0/de75818975e4b89f05ad5f12d11e5153c499ee157439bd14fa85fad5e592/Flootty-${REALVERSION}.tar.gz"
-SOURCEFILE="Flootty-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

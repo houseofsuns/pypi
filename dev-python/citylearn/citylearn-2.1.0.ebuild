@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CityLearn"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An open source OpenAI Gym environment for the implementation of Mul
 
 HOMEPAGE="https://github.com/intelligent-environments-lab/CityLearn"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/2b/8735c89c691c7a7be9b80daff292b742d2bd1e0300a94d621d87a68562d6/CityLearn-${REALVERSION}.tar.gz"
-SOURCEFILE="CityLearn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

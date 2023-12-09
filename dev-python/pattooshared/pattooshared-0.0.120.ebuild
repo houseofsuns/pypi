@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PattooShared"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Shared libraries for Pattoo Servers and Agents."
 
 HOMEPAGE="https://github.com/PalisadoesFoundation/pattoo-shared"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/26/d6/26ff6081e87b793d096b3674f25a514523daa67d79c65820932a71ed038f/PattooShared-${REALVERSION}.tar.gz"
-SOURCEFILE="PattooShared-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-AutoCRUD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automatically generated a RESTful API services for CRUD operation a
 
 HOMEPAGE="https://github.com/cs91chris/flask_autocrud/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/2e/fa2f3306eaa7554d560a62986610b4037c5c05d3491f76befaaa02710cb2/Flask-AutoCRUD-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-AutoCRUD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

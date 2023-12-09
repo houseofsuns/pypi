@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="H2H-Creator-startgg"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="H2H Spreadsheet Creator for startgg"
 
 HOMEPAGE="https://github.com/ETossed/H2H-Creator-startgg"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/2d/34ea3d0dde54bf73b9793f3a8e6e72315361b1b3ec741d2c6b9f6d308334/H2H_Creator_startgg-${REALVERSION}.tar.gz"
-SOURCEFILE="H2H_Creator_startgg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

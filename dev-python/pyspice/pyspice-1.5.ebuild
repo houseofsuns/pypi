@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySpice"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simulate electronic circuit using Python and the Ngspice / Xyce sim
 
 HOMEPAGE="https://github.com/FabriceSalvaire/PySpice"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/0a/c5/8bc8c2838edc410e7751c1fcfe80b7bd1280e35e96661a866743fd6a0700/PySpice-${REALVERSION}.tar.gz"
-SOURCEFILE="PySpice-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Annalist"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Annalist linked data notebook"
 
 HOMEPAGE="https://github.com/gklyne/annalist"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3e/3d/e4a0455edd5f1f052445770997c3e6a9572be0a79c542c95c1bfc2bcd82b/Annalist-${REALVERSION}.tar.gz"
-SOURCEFILE="Annalist-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

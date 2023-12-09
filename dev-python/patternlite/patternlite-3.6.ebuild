@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PatternLite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Stripped down, forked version of Pattern package (Web mining module
 
 HOMEPAGE="https://github.com/WZBSocialScienceCenter/patternlite"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5a/65/d872a6269072568f4e812fc071705b5134c6153e05b121ed3234a16eb1ca/PatternLite-${REALVERSION}.tar.gz"
-SOURCEFILE="PatternLite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

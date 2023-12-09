@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SigProfilerAssignment"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mutational signatures attribution and decomposition tool"
 
 HOMEPAGE="https://github.com/AlexandrovLab/SigProfilerAssignment.git"
 LICENSE="UCSD"
-SRC_URI="https://files.pythonhosted.org/packages/af/fb/e1dc6d89cf5753a64ba91adb630b2b299ee5849056318d44e1e357de8780/SigProfilerAssignment-${REALVERSION}.tar.gz"
-SOURCEFILE="SigProfilerAssignment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

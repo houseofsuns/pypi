@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TwoSampleHC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Two-sample Higher Criticism"
 
 HOMEPAGE="https://github.com/alonkipnis/TwoSampleHC"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/51/70605976fb6eb917e428e582849525fb91aefbd642d8d43abc2db127a823/TwoSampleHC-${REALVERSION}.tar.gz"
-SOURCEFILE="TwoSampleHC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

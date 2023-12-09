@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ICS-VSBIO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package to help users read and write Intrepid's vsb files"
 
 HOMEPAGE="https://github.com/intrepidcs/ICS_VSBIO"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/30/c06eb09a20da32e9ae60cf45719d0134a625eada1fe2415aae6a9d38f277/ICS_VSBIO-${REALVERSION}.tar.gz"
-SOURCEFILE="ICS_VSBIO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

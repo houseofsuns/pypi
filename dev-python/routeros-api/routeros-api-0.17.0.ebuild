@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RouterOS-api"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python API to RouterBoard devices produced by MikroTik."
 
 HOMEPAGE="https://github.com/socialwifi/RouterOS-api"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8f/ba/82083e74a915aa5e891be14359ec03bb4e5cf30251c3ca79fb93152b87c5/RouterOS-api-${REALVERSION}.tar.gz"
-SOURCEFILE="RouterOS-api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AirobotLibrary"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Robotframework Library For Airobot Test Framework"
 
 HOMEPAGE="https://github.com/BSTester/AirobotLibrary"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/4b/e60a261378deade6243ac0d9636f3ab21743d30facc033d7955a2f34ba0f/AirobotLibrary-${REALVERSION}.tar.gz"
-SOURCEFILE="AirobotLibrary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

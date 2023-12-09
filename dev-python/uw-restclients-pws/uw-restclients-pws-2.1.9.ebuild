@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UW-RestClients-PWS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for connecting to the Person Web Service at the Universit
 
 HOMEPAGE="https://github.com/uw-it-aca/uw-restclients-pws"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/33/22/f63fdd509af3d5ea0541c494d54e0aec4aee09fddc5d9861ec03367f4339/UW-RestClients-PWS-${REALVERSION}.tar.gz"
-SOURCEFILE="UW-RestClients-PWS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

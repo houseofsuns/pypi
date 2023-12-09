@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-Angular-Bootstrap"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Angular-Bootstrap 2.5.0 (XStatic packaging standard)"
 
 HOMEPAGE="http://angular-ui.github.io/bootstrap/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/3e/01858ce3e6988ee2d41f72d7413a83d525dd838803f59e8191e243884403/XStatic-Angular-Bootstrap-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-Angular-Bootstrap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

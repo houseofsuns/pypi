@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Alchy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for alchy"
 
 HOMEPAGE="https://github.com/dgilland/flask-alchy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b5/4b/ce33d8a638c757b0038e69aef310488ffd283acaea21c58e11c313549f7e/Flask-Alchy-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Alchy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

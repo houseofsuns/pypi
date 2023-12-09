@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Factory"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Object Oriented Currying"
 
 HOMEPAGE="http://code.google.com/p/python-factory/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/18/7b/342e9c93d32b21deaaded9fb929413b71c37187079bbdce4b6bae4568f47/Factory-${REALVERSION}.tar.gz"
-SOURCEFILE="Factory-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

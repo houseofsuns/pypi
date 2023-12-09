@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="learnMSA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="learnMSA: Learning and Aligning large Protein Families"
 
 HOMEPAGE="https://github.com/Gaius-Augustus/learnMSA"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2f/b2/82997ff6924a6ee80599cec9e746834da6265d49eb8dc3b739d9b2367442/learnMSA-${REALVERSION}.tar.gz"
-SOURCEFILE="learnMSA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="orange3-wonder-1"
+LITERALNAME="Orange3-WONDER-1"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Whole POwder PatterN MoDEl in Orange."
 
 HOMEPAGE="https://github.com/WONDER-project/Orange3-WONDER"
 LICENSE="GPL3+"
-SRC_URI="https://files.pythonhosted.org/packages/72/3e/723816ad19a126ec36854d12fba37a83eca06505ac01b92864d0f28b48d0/Orange3-WONDER-1-${REALVERSION}.tar.gz"
-SOURCEFILE="Orange3-WONDER-1-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

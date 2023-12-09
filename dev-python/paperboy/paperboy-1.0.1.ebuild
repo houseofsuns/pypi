@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Paperboy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple fork of django.dispatch for use as a standalone PubSub lib
 
 HOMEPAGE="http://github.com/edgeflip/dispatch"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d3/37/14192e859ba8dd79fecd57838c63b7ef18c6de328a1983c4cba8a487049b/Paperboy-${REALVERSION}.tar.gz"
-SOURCEFILE="Paperboy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

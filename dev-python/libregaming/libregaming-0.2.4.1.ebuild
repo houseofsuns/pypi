@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LibreGaming"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Install Gaming Packages with ease"
 
 HOMEPAGE="https://github.com/Ahmed-Al-Balochi/LibreGaming.git"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/21/c6/a3caba0e82dfbdbc925f57633c256bcc58f1748c0d34588abd8466f7fb6d/LibreGaming-${REALVERSION}.tar.gz"
-SOURCEFILE="LibreGaming-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

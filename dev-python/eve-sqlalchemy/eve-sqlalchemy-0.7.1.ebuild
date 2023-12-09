@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Eve-SQLAlchemy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="REST API framework powered by Eve, SQLAlchemy and good intentions."
 
 HOMEPAGE="https://github.com/pyeve/eve-sqlalchemy"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/6f/a8/9e5cd0bdd2c518e7c5991e95ae3036d4e126d28b938b2a50e81f04cc6c6b/Eve-SQLAlchemy-${REALVERSION}.tar.gz"
-SOURCEFILE="Eve-SQLAlchemy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

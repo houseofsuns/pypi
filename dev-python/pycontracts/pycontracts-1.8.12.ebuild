@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyContracts"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyContracts is a Python package that allows to declare constraints 
 
 HOMEPAGE="http://andreacensi.github.com/contracts/"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/4e/7a/0f79370e4e3a6741396d76d1f76586c2924bed049fb38597799b72a24081/PyContracts-${REALVERSION}.tar.gz"
-SOURCEFILE="PyContracts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

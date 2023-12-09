@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyCLAMs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An integrated Python toolkit for classifiability analysis"
 
 HOMEPAGE="https://github.com/zhangys11/pyCLAMs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/d7/a6f20ae8e7b8062c07ec0b589f8f7bdad70eb8445a08b33cb65bd9562c5a/pyCLAMs-${REALVERSION}.tar.gz"
-SOURCEFILE="pyCLAMs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

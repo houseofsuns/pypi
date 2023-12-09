@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Augmentor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Image augmentation library for Machine Learning"
 
 HOMEPAGE="https://github.com/mdbloice/Augmentor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fe/96/70ef29008bb1a881f050d6f765389a5ce59f46161f91cd5d60f965224cdd/Augmentor-${REALVERSION}.tar.gz"
-SOURCEFILE="Augmentor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

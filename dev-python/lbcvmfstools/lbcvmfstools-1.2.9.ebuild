@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="lbCVMFSTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LHCb CVMFS-Stratum0 tool-set"
 
 HOMEPAGE="https://gitlab.cern.ch/lhcb-core/LbCVMFSTools"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ef/fe/502f5a5879d9c52dcb966b605b07bbcab20d7d3db5c8cd36c3fc2bdacd49/lbCVMFSTools-${REALVERSION}.tar.gz"
-SOURCEFILE="lbCVMFSTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

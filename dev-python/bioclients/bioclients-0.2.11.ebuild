@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BioClients"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Clients for online biomedical resources, usually REST APIs."
 
 HOMEPAGE="https://github.com/jeremyjyang/BioClients"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5b/3b/d8e72d59166c43ba184fb4ea3d040a6b5b0b6408d88e2e232c882aa53d92/BioClients-${REALVERSION}.tar.gz"
-SOURCEFILE="BioClients-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PaLM-pytorch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PaLM: Scaling Language Modeling with Pathways - Pytorch"
 
 HOMEPAGE="https://github.com/lucidrains/PaLM-pytorch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/30/04db521c0c93486537d7c75408415ad860d68468b9f78c56b0a86b57b7ec/PaLM-pytorch-${REALVERSION}.tar.gz"
-SOURCEFILE="PaLM-pytorch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

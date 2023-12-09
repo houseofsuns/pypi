@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OCAT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A new single-cell analytics framework"
 
 HOMEPAGE="https://github.com/bowang-lab/OCAT"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/fc/a5e9865a1718d4c56a9bb4240c1ae5a828f32091df4427ae98898feb0505/OCAT-${REALVERSION}.tar.gz"
-SOURCEFILE="OCAT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

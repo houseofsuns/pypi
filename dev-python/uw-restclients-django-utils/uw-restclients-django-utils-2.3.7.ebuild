@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UW-RestClients-Django-Utils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="UW-RestClients-Django-Utils"
 
 HOMEPAGE="https://github.com/uw-it-aca/uw-restclients-django-utils"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ff/a2/00618ccf932299740faffa46def6f0b589e188a134a654af6827d0a1eb3a/UW-RestClients-Django-Utils-${REALVERSION}.tar.gz"
-SOURCEFILE="UW-RestClients-Django-Utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

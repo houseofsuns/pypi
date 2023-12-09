@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Dosepy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Gamma analysis and film dosimetry for dose distributions in radioth
 
 HOMEPAGE="https://dosepy.readthedocs.io/en/latest/intro.html"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/c1/8f8df55b70f45baf0516f76e76e4558445590dd8f0b82c2aff78729dc2bc/Dosepy-${REALVERSION}.tar.gz"
-SOURCEFILE="Dosepy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyLTI1p3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LTI 1.3 Advantage Tool implementation in Python"
 
 HOMEPAGE="https://github.com/dmitry-viskov/pylti1.3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/97/14/56eed10e98dc38a0ce376dfcebd079d3c6692e609ba1bb553116aba9d9db/PyLTI1p3-${REALVERSION}.tar.gz"
-SOURCEFILE="PyLTI1p3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

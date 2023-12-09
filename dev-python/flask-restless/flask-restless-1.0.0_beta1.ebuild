@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Restless"
 REALVERSION="1.0.0b1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Flask extension for easy ReSTful API generation"
 
 HOMEPAGE="https://github.com/jfinkels/flask-restless"
 LICENSE="GNU AGPLv3+ or BSD"
-SRC_URI="https://files.pythonhosted.org/packages/89/16/385bfd25b44898878b1a0b6207d026e1953f8c2e4cd3ee64b2d3cef90719/Flask-Restless-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Restless-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

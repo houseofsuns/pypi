@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ABSQL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A rendering engine for templated SQL"
 
 HOMEPAGE="https://github.com/chriscardillo/ABSQL"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/6a/5e9169e6145e3e4e36a30d54f3d4bd03e4fe1e7d3ed98356ed7fe7fc19dc/ABSQL-${REALVERSION}.tar.gz"
-SOURCEFILE="ABSQL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

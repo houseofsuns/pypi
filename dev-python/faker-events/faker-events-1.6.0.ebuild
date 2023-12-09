@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Faker-Events"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generates Events with formatted fake data for streams."
 
 HOMEPAGE="https://github.com/johnbrandborg/faker-events"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/67/288ec541eb57a6232cff13b60654529e810ac211e43eb495ade6ab0b94d4/Faker-Events-${REALVERSION}.tar.gz"
-SOURCEFILE="Faker-Events-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

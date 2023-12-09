@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Orange3-Text"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Orange3 TextMining add-on."
 
 HOMEPAGE="https://github.com/biolab/orange3-text"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/15/10/cf8e92843a0846134abbb3fd7493f9a265f128ff1634c84dd5de54c22a08/Orange3-Text-${REALVERSION}.tar.gz"
-SOURCEFILE="Orange3-Text-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

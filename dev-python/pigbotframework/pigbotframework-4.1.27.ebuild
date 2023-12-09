@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PigBotFramework"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PigBotFramework is a fast, easy-to-use, intelligent robot framework
 
 HOMEPAGE="https://github.com/PigBotFramework/v4"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/fe/607d1b4ffe7903031a33f20129b79e960a6cf02215f3b0a6097a27f8ae17/PigBotFramework-${REALVERSION}.tar.gz"
-SOURCEFILE="PigBotFramework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

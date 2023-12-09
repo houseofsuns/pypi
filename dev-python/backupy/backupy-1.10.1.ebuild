@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BackuPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple backup program in python with an emphasis on data integrit
 
 HOMEPAGE="https://github.com/elesiuta/backupy"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/19/ac/b180f7cf228ad9ec06b28acfe33c46c138717241cb19286a5f61d2e3d506/BackuPy-${REALVERSION}.tar.gz"
-SOURCEFILE="BackuPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BitstampClient"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bitstamp API python implementation"
 
 HOMEPAGE="https://github.com/kmadac/bitstamp-python-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/61/2272f9c55a8cb734530e80975685e1354f7c9d234e5faac4b8ff215dcd9d/BitstampClient-${REALVERSION}.tar.gz"
-SOURCEFILE="BitstampClient-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

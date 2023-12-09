@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SmileLog"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Log library"
 
 HOMEPAGE="https://github.com/sitthykun/smilelog"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/29/ced7932e980e81abac9142cf62982a7ad7ffb2cd2691f7e30f4d5c945ca0/SmileLog-${REALVERSION}.tar.gz"
-SOURCEFILE="SmileLog-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

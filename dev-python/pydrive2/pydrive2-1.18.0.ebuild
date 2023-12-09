@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDrive2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Google Drive API made easy. Maintained fork of PyDrive."
 
 HOMEPAGE="https://github.com/iterative/PyDrive2"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/24/f4/3cccf07407c3f737f0d166a80af9a446f90ce8b0977fb89f312d88f335a7/PyDrive2-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDrive2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

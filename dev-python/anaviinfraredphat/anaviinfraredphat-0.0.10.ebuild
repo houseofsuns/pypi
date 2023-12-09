@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AnaviInfraredPhat"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="AnaviInfraredPhat"
 
 HOMEPAGE="https://github.com/KurisuD/AnaviInfraredPhat"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f9/cb/869ef30d7b302a665843f7fec73fc4198f7a222878b01379179acad38474/AnaviInfraredPhat-${REALVERSION}.tar.gz"
-SOURCEFILE="AnaviInfraredPhat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

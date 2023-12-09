@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Backgroundr"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple way to create backgrounds for your computer with custom co
 
 HOMEPAGE="https://github.com/smg247/backgroundr"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b5/af/c23dc073d5ded7fa229e90c987e8ccfdc5142c8df132a46209cc3818b1d3/Backgroundr-${REALVERSION}.tar.gz"
-SOURCEFILE="Backgroundr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

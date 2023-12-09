@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Crosscap"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Suite of tools for enhancing the Klein web framework"
 
 HOMEPAGE="https://github.com/corydodt/Crosscap"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c4/c7/b5275c4033917ba90e7c85c74288357f37b871f8f3b6e0e03ac6ea0928e5/Crosscap-${REALVERSION}.tar.gz"
-SOURCEFILE="Crosscap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

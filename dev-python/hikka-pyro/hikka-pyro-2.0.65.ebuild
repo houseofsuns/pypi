@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Hikka-Pyro"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Custom fork of elegant, modern and asynchronous Telegram MTProto AP
 
 HOMEPAGE="https://github.com/pyrogram"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/8e/7e/6420f3bc9c67cb21249c7f5b69b17fc32392c4c0436024cdad5bcd224ca3/Hikka-Pyro-${REALVERSION}.tar.gz"
-SOURCEFILE="Hikka-Pyro-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

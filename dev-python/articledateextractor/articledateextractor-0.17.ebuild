@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="articleDateExtractor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automatically extracts and normalizes an online article or blog pos
 
 HOMEPAGE="https://github.com/Webhose/article-date-extractor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a2/57/2ffe99497046242986f84a7145a7debaaaafa105a0088a18022bceca62c4/articleDateExtractor-${REALVERSION}.tar.gz"
-SOURCEFILE="articleDateExtractor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

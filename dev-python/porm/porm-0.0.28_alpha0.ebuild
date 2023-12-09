@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Porm"
 REALVERSION="0.0.28a0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A flexible forms validation and rendering library for Python web de
 
 HOMEPAGE="https://github.com/DeeeFOX/porm"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ed/86/e5239a653bb2e8daf880ca30a8e88b05a02c3f4c046def10a5e6b7a580e0/Porm-${REALVERSION}.tar.gz"
-SOURCEFILE="Porm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

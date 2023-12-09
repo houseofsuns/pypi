@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyQt6-QScintilla"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python bindings for the QScintilla programmers editor widget"
 
 HOMEPAGE="https://www.riverbankcomputing.com/software/qscintilla/"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/e8/06/799c04a51f6cc2111f0cfb090ed4938fc044c5c12d1d9671280e235f2f2e/PyQt6_QScintilla-${REALVERSION}.tar.gz"
-SOURCEFILE="PyQt6_QScintilla-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

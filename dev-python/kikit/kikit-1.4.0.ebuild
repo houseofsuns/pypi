@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KiKit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automation for KiCAD boards"
 
 HOMEPAGE="https://github.com/yaqwsx/KiKit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/dd/c86f1567588e923dedbd46f23a403f1dccfa56407333c82858de3d505e44/KiKit-${REALVERSION}.tar.gz"
-SOURCEFILE="KiKit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

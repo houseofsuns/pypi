@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="minBlepy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MinBLEPs library including fast naive waveform conversion"
 
 HOMEPAGE="https://github.com/combatopera/minBlepy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/75/8a56469966f0bb697a89cda9a7bb0f296f6431bbbc530d9749999418d6f1/minBlepy-${REALVERSION}.tar.gz"
-SOURCEFILE="minBlepy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

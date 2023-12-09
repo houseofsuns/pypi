@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Sixpack"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A/B testing framework under active development at SeatGeek"
 
 HOMEPAGE="http://github.com/seatgeek/sixpack"
 LICENSE="Copyright c 2015, SeatGeek, Inc."
-SRC_URI="https://files.pythonhosted.org/packages/66/50/c46b7a85daf3da1f108e0403d8648e3b578ab55a42df6be809249d7f412e/Sixpack-${REALVERSION}.tar.gz"
-SOURCEFILE="Sixpack-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

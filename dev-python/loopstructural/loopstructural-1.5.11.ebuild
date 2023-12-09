@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LoopStructural"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Open source 3D structural geology modelling"
 
 HOMEPAGE="https://loop3d.github.io/LoopStructural/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/89/235fa19b8d22face41aae96fc796d41481f67c4b4443c7b7734696b56868/LoopStructural-${REALVERSION}.tar.gz"
-SOURCEFILE="LoopStructural-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

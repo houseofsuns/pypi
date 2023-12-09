@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="restify-ENGYAK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Abstractions should save typing, not thinking! This project will pr
 
 HOMEPAGE="https://github.com/ngschmidt/python-resttool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2d/5c/127d36f9881126ae6507e39755e0e3a89d9eff0d097db3df2d1194958acb/restify-ENGYAK-${REALVERSION}.tar.gz"
-SOURCEFILE="restify-ENGYAK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kickbase-Bot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python bot framework for kickbase"
 
 HOMEPAGE="https://github.com/kevinskyba/kickbase-bot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/84/bd74212b861b6f60095686248806c7c9efe3469cadfdadd80c97ea0d5d1c/Kickbase_Bot-${REALVERSION}.tar.gz"
-SOURCEFILE="Kickbase_Bot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

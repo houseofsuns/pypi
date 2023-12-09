@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Python-BrowserStack"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="First functional release"
 
 HOMEPAGE="http://pypi.python.org/pypi/Python-BrowserStack"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/15/77/e4af5f466a727ad10d84d9798609834b468eb9ede81be4894d6ad8d46e7b/Python-BrowserStack-${REALVERSION}.tar.gz"
-SOURCEFILE="Python-BrowserStack-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

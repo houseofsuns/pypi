@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AIOrqlite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Ayncio-based Python client for rqlite."
 
 HOMEPAGE="https://github.com/superloach/aiorqlite"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/06/96/ca28a554b7b40476394fce84d8cb53f2efcd6952180985631bed69645197/AIOrqlite-${REALVERSION}.tar.gz"
-SOURCEFILE="AIOrqlite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

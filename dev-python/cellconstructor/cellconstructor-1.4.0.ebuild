@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CellConstructor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python utilities that is interfaced with ASE for atomic crystal ana
 
 HOMEPAGE="https://github.com/mesonepigreco/CellConstructor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/64/69/92989c1dbf1335202b58308657883e929bd1fc6dcf63403feb62af587201/CellConstructor-${REALVERSION}.tar.gz"
-SOURCEFILE="CellConstructor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

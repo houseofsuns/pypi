@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="StrangeCase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A straightforward python static site generator."
 
 HOMEPAGE="https://github.com/colinta/StrangeCase"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/03/97/0f8d27da4fcf805895d9657a885d131245da80eb305b7db226ecf45aa2d9/StrangeCase-${REALVERSION}.tar.gz"
-SOURCEFILE="StrangeCase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

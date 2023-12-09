@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="iLCDirac"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="iLCDirac is the iLC/CLIC/FCC extension of DIRAC"
 
 HOMEPAGE="https://gitlab.cern.ch/clicdp/ilcdirac/ilcdirac.git"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/30/95/4a762ed3ae617b5baf6d43b92d3cae0dd295e07ea71fd447b2f671aa1e09/iLCDirac-${REALVERSION}.tar.gz"
-SOURCEFILE="iLCDirac-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

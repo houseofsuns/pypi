@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TikTokLive"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="TikTok Live Connection Client"
 
 HOMEPAGE="https://github.com/isaackogan/TikTokLive"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e8/45/ec02668a28e9041d76915d456f0cb64284de4982b50ca593cbd87c423d5d/TikTokLive-${REALVERSION}.tar.gz"
-SOURCEFILE="TikTokLive-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

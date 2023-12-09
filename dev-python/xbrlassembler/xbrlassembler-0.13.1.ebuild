@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XBRLAssembler"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An assembler for XBRL Documents into pandas"
 
 HOMEPAGE="https://gitlab.com/Reggles44/xbrlassembler"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0d/c2/a40a2248fd0e8e4c2407df12dd1ea6cd0dd472610dada92db7751dc9982b/XBRLAssembler-${REALVERSION}.tar.gz"
-SOURCEFILE="XBRLAssembler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

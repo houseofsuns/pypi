@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pillow-SIMD"
 REALVERSION="9.0.0.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Imaging Library (Fork)"
 
 HOMEPAGE="https://github.com/uploadcare/pillow-simd"
 LICENSE="HPND"
-SRC_URI="https://files.pythonhosted.org/packages/4e/f1/452523b163a2ca604df47aaeec4621a0a47df4c7ea6b80373777b92d3aef/Pillow-SIMD-${REALVERSION}.tar.gz"
-SOURCEFILE="Pillow-SIMD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

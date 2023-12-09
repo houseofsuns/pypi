@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NlpToolkit-AnnotatedSentence"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Annotated Sentence Processing Library"
 
 HOMEPAGE="https://github.com/olcaytaner/AnnotatedSentence-Py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/28/23/9461f1ec9c4549a556992e8da62ac77939f6bd9311de1da46d87c4925b9b/NlpToolkit-AnnotatedSentence-${REALVERSION}.tar.gz"
-SOURCEFILE="NlpToolkit-AnnotatedSentence-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

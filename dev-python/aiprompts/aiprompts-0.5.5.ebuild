@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AIPrompts"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Create and parse prompts for large language models."
 
 HOMEPAGE="https://github.com/TeiaLabs/prompts"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/80/66/217fdb7ab2f3927d73c4fc495488511ca18188696ac3d937d88c2d0681e2/AIPrompts-${REALVERSION}.tar.gz"
-SOURCEFILE="AIPrompts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

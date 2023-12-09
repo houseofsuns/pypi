@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Jinjer2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Static Macro File Generator (cmd line generator using jinja2)"
 
 HOMEPAGE="https://github.com/val314159/jinjer2"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/44/ce/c1505485af2b248bda74bcedf91745b4c7b03caef499012c4931f9d06e99/Jinjer2-${REALVERSION}.tar.gz"
-SOURCEFILE="Jinjer2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SigProfilerExtractor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Extracts mutational signatures from mutational catalogues"
 
 HOMEPAGE="https://github.com/AlexandrovLab/SigProfilerExtractor.git"
 LICENSE="UCSD"
-SRC_URI="https://files.pythonhosted.org/packages/37/a5/b3deb94cfe717e2a1fa6b62f502da48b97b203ac1c926d45d64e64011440/SigProfilerExtractor-${REALVERSION}.tar.gz"
-SOURCEFILE="SigProfilerExtractor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

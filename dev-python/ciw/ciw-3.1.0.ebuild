@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Ciw"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A discrete event simulation library for open queueing networks"
 
 HOMEPAGE="https://github.com/CiwPython/Ciw"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/57/9e/78e9fcd265bedc7fefc17be730c2449eec8944d8b6c8d24c3bb79fdfcd95/Ciw-${REALVERSION}.tar.gz"
-SOURCEFILE="Ciw-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Hallo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="web mvc framework for python"
 
 HOMEPAGE="https://github.com/oldjun/hallo"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/36/dd/14969521e71668a216f31bd315fe7309a7aff466752d0956dddc8a42bef2/Hallo-${REALVERSION}.tar.gz"
-SOURCEFILE="Hallo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

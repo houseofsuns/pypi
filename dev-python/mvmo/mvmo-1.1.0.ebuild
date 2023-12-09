@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MVMO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package for heuristic optimization"
 
 HOMEPAGE="https://github.com/dgusain1/MVMO"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2b/ee/b4bee427d156e8f6062a6a0b33a1a2891d29dad4940868d711c02e482e5b/MVMO-${REALVERSION}.tar.gz"
-SOURCEFILE="MVMO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

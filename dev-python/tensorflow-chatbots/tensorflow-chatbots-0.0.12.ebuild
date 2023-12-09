@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Tensorflow-ChatBots"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ChatBots supporting TensorFlow"
 
 HOMEPAGE="https://github.com/Yeachan-Heo/Tensorflow-ChatBots"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/bf/cf75fd0ca5c8d3d7b42e8a31aeb509c3b1d4dcbfd2fd3269c54c84655e8c/Tensorflow-ChatBots-${REALVERSION}.tar.gz"
-SOURCEFILE="Tensorflow-ChatBots-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

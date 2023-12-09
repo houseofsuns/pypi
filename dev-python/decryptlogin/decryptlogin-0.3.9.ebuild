@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DecryptLogin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DecryptLogin: APIs for loginning some websites by using requests."
 
 HOMEPAGE="https://github.com/CharlesPikachu/DecryptLogin"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4e/d0/126e9a4ea67fcd662035b781bd01cb8e7e4ddf8e513657cba41bc6a16399/DecryptLogin-${REALVERSION}.tar.gz"
-SOURCEFILE="DecryptLogin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

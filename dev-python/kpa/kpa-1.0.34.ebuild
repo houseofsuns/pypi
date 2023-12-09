@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kpa"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="<forthcoming>"
 
 HOMEPAGE="https://github.com/pjvandehaar/kpa"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/4b/6e4af27756f8585de92bc1ff9c8ba2c998ab068d1ae1cddbfc909efcb8c8/Kpa-${REALVERSION}.tar.gz"
-SOURCEFILE="Kpa-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

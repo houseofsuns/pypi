@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="qsAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="qsAPI - a client for Qlik Sense QPS and QRS interfaces"
 
 HOMEPAGE="https://github.com/rafael-sanz/qsAPI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8f/58/5127ab0965890f90e134f4fe5df83fd3752f35e7968c46ba3a6e47cff386/qsAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="qsAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

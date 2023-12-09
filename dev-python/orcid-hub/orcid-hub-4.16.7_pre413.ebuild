@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ORCID-Hub"
 REALVERSION="4.16.7.dev413"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="New Zealand ORCID Hub (Federated ORCID Intergration Solution for Ne
 
 HOMEPAGE="https://github.com/Royal-Society-of-New-Zealand/NZ-ORCID-Hub/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/54/02/e3d87dacf5f7f21bae05c8b46b229f2d36d09fba477c4020f1b7e69fe12e/ORCID-Hub-${REALVERSION}.tar.gz"
-SOURCEFILE="ORCID-Hub-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

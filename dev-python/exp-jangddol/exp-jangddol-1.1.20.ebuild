@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EXP-jangddol"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="kawaii experiment data analysis tool"
 
 HOMEPAGE="https://github.com/jangddol/EXP_jangddol_pip.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/07/1b/7d3f791cb08d71821b373feb074372334b662dda0cb7e75c965658bacc9a/EXP_jangddol-${REALVERSION}.tar.gz"
-SOURCEFILE="EXP_jangddol-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

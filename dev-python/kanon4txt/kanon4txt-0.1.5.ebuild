@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kanon4txt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="K Anonymity for Text first Try"
 
 HOMEPAGE="https://github.com/LiorTrieman/Kanon4txt/tree/maine"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/8b/bf94904be011f50d98897ad79fdb506110a5444aab60fdd52670b1615522/Kanon4txt-${REALVERSION}.tar.gz"
-SOURCEFILE="Kanon4txt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

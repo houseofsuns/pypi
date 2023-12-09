@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ENSEK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Client for the ENSEK API (http://www.ensek.co.uk/)"
 
 HOMEPAGE="https://github.com/Usio-Energy/ENSEK"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/41/2d/da167af93286b58436a6ff0dbb30de8f44e8920f4364c1413ae1d8ebb3a2/ENSEK-${REALVERSION}.tar.gz"
-SOURCEFILE="ENSEK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

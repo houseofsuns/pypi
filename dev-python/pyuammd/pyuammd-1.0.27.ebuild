@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyUAMMD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="UAMMD python"
 
 HOMEPAGE="https://github.com/PabloIbannez/pyUAMMD"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d1/8c/413f6715979d340245053bfe330d77ce2e496bc2ecfc998e508d0fb5c0ca/pyUAMMD-${REALVERSION}.tar.gz"
-SOURCEFILE="pyUAMMD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

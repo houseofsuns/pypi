@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SmplML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SmplML is a user-friendly Python module for streamlined machine lea
 
 HOMEPAGE="https://github.com/JhunBrian/SmplML"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/e6/c5a3a776288194371bd91d09b794eb05e8dc012e575daca6c8a45241950c/SmplML-${REALVERSION}.tar.gz"
-SOURCEFILE="SmplML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

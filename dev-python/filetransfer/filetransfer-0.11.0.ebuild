@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FileTransfer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Application and library for file transfer."
 
 HOMEPAGE="https://andreas19.github.io/FileTransfer/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/9e/ec/448fc88a6e1761f5907113a2839808deb49d9818514cd3ff8aad39749163/FileTransfer-${REALVERSION}.tar.gz"
-SOURCEFILE="FileTransfer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

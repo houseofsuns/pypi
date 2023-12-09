@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="rlPyCairo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Plugin backend renderer for reportlab.graphics.renderPM"
 
 HOMEPAGE=""
 LICENSE="BSD license, Copyright c 2000-2022, ReportLab Inc."
-SRC_URI="https://files.pythonhosted.org/packages/41/1c/92b68514640869e554252a1c454b654abea8f9a58567062b96ea254bd7ad/rlPyCairo-${REALVERSION}.tar.gz"
-SOURCEFILE="rlPyCairo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

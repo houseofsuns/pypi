@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BacklogPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Backlog API v2 Client Library"
 
 HOMEPAGE="https://github.com/koxudaxi/BacklogPy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/ee/1d558e49b7b1ae8254c1b63e27aed45684c739050838a7b3c142eaefa923/BacklogPy-${REALVERSION}.tar.gz"
-SOURCEFILE="BacklogPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

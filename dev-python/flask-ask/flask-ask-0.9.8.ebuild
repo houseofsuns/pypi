@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Ask"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Rapid Alexa Skills Kit Development for Amazon Echo Devices in Pytho
 
 HOMEPAGE="https://github.com/johnwheeler/flask-ask"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6a/f5/d4709ae94584a0b1541e9b52b2d25a8a1bdb6e2da9d6870f23fdd0523a30/Flask-Ask-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Ask-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

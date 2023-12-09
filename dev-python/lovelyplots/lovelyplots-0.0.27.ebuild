@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LovelyPlots"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Format Matplotlib Plots for thesis, scientific papers and reports."
 
 HOMEPAGE="https://github.com/killiansheriff/LovelyPlots"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/97/6a/5508c93212bb7ec61a6d1274ca5794cfdb9005028aefa70e5f136de64025/LovelyPlots-${REALVERSION}.tar.gz"
-SOURCEFILE="LovelyPlots-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

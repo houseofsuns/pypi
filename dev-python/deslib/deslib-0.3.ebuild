@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DESlib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Implementation of Dynamic Ensemble Selection methods"
 
 HOMEPAGE="https://github.com/Menelau/DESlib"
 LICENSE="BSD 3-clause New or Revised License"
-SRC_URI="https://files.pythonhosted.org/packages/bf/89/f2c9cc4086c45ee20a6b9850b2a1209fd45455701273c3d6538d04509d84/DESlib-${REALVERSION}.tar.gz"
-SOURCEFILE="DESlib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

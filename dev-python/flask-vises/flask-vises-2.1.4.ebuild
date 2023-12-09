@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Vises"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Flask scaffold library"
 
 HOMEPAGE="https://github.com/rexzhang/flask-vises"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e7/5a/1c8f03a0eaaa19759e87e61f11c59170ae777754427965ffce8560676253/Flask-Vises-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Vises-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

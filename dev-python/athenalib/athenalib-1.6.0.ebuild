@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AthenaLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Library for Directive Athena related Python Packages"
 
 HOMEPAGE="https://github.com/DirectiveAthena/AthenaLib"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/36/9d/14b0b405377fb207d25ab615ff00af3ce97e6bddd82ffdf69dffda8feff2/AthenaLib-${REALVERSION}.tar.gz"
-SOURCEFILE="AthenaLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

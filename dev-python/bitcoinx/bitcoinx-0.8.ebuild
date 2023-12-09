@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="bitcoinX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library of Bitcoin functions"
 
 HOMEPAGE="https://github.com/kyuupichan/bitcoinX"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/85/ef/0b49659936db93463907c5516a34ed679686b16d9079b8f3b488c309eae3/bitcoinX-${REALVERSION}.tar.gz"
-SOURCEFILE="bitcoinX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

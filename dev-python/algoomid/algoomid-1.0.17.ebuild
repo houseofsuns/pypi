@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AlgoOmid"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A few Classes and Functions for Algorithmic Trading++"
 
 HOMEPAGE="https://github.com/behzadazadie/OmidAlgo"
 LICENSE="OmidAnalyzer"
-SRC_URI="https://files.pythonhosted.org/packages/6a/37/ae356c4332dd063ddc6a93e2de4f8204ee372817acd450cdf46eb591627c/AlgoOmid-${REALVERSION}.tar.gz"
-SOURCEFILE="AlgoOmid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

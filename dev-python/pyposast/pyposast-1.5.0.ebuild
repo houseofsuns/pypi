@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyPosAST"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Extends Python ast nodes with positional informations"
 
 HOMEPAGE="https://github.com/JoaoFelipe/PyPosAST"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/c8/3a6b5ff81bb73f97e54e1a4e168349d90f78b5714373a2b4dbc7bc4f1ad6/PyPosAST-${REALVERSION}.tar.gz"
-SOURCEFILE="PyPosAST-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

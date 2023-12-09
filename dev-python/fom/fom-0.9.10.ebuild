@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Fom"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FluidDB API and Object Mapper"
 
 HOMEPAGE="http://packages.python.org/Fom/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/79/98/4097419796b8b0b74e0dd9630a60c2fef5d9f481769f29647b9aac95e255/Fom-${REALVERSION}.zip"
-SOURCEFILE="Fom-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

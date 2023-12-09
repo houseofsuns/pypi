@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyAutoMark"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automated marking of student electronic submissions"
 
 HOMEPAGE="https://willijar.github.io/pyAutoMark/"
 LICENSE="GPL-3.0-openpyxl"
-SRC_URI="https://files.pythonhosted.org/packages/38/c0/d22b91ec38d4609d50d5b775a620c03534a5b03cdabc68329a0eea91e400/pyAutoMark-${REALVERSION}.tar.gz"
-SOURCEFILE="pyAutoMark-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

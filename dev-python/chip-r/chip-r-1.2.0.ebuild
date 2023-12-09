@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChIP-R"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ChIP-R is a method for assessing the reproducibility of replicated 
 
 HOMEPAGE="https://github.com/rhysnewell/ChIP-R"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/9e/96/0388e48a47fee8c584da2d4cb020d83a818141453fa3ee0c43c987d69f64/ChIP-R-${REALVERSION}.tar.gz"
-SOURCEFILE="ChIP-R-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

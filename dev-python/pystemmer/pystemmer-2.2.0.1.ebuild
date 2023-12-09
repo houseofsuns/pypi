@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyStemmer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Snowball stemming algorithms, for information retrieval"
 
 HOMEPAGE="https://github.com/snowballstem/pystemmer/"
 LICENSE="MIT, BSD"
-SRC_URI="https://files.pythonhosted.org/packages/01/5e/d2db082b8da23972a434aeda9180864f825478b7bf3b5f035c2007e2a0bd/PyStemmer-${REALVERSION}.tar.gz"
-SOURCEFILE="PyStemmer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

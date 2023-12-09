@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Polygon3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Polygon3 is a Python-3 package that handles polygonal shapes in 2D"
 
 HOMEPAGE="http://www.j-raedler.de/projects/polygon"
 LICENSE="LGPL for Polygon, other for gpc"
-SRC_URI="https://files.pythonhosted.org/packages/1f/26/eea4112be43c8b7345477ad9150d499303494f32fb5951cb0f6e9104045b/Polygon3-${REALVERSION}.tar.gz"
-SOURCEFILE="Polygon3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="motionSegmentation"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Explicit spatio-temporal regularization of motion tracking."
 
 HOMEPAGE="https://github.com/WeiXuanChan/motionSegmentation"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ec/c0/cca9188fb6c4c75811eaf70537144fb0485fdfbc870c4f94efc1aa023771/motionSegmentation-${REALVERSION}.tar.gz"
-SOURCEFILE="motionSegmentation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

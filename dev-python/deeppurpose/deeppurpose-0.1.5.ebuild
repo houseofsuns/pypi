@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepPurpose"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a Deep Learning Based Toolkit for Drug Discovery"
 
 HOMEPAGE="https://github.com/kexinhuang12345/DeepPurpose"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/fb/45/cb1eaa6cf8bb7f9595372fc66232e10b70c5dfc3191a3effc35c3e00d947/DeepPurpose-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepPurpose-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

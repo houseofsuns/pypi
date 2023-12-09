@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="gcMapExplorer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A platform to visualize and analyze genome contact maps"
 
 HOMEPAGE="https://github.com/rjdkmr/gcMapExplorer"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/62/4b/2ad0eb023179f2f1d1579941a68fcd64dd92a185d04dacaa1f85356d71f7/gcMapExplorer-${REALVERSION}.tar.gz"
-SOURCEFILE="gcMapExplorer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

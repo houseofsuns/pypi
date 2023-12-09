@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyUSID"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Framework for storing, visualizing, and processing Universal Spectr
 
 HOMEPAGE="https://pycroscopy.github.io/pyUSID/about.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/91/6f2d4bfa968ac20b02d17a41ff026dc8beccbccd8ca567b7dadf58ae38fd/pyUSID-${REALVERSION}.tar.gz"
-SOURCEFILE="pyUSID-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

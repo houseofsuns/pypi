@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BaseExtensions"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Jakar510/BaseExtensions"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/07/9994712f532be6e1a2297d43be1bfca4cc7d2e6152b526292aad6ad353d5/BaseExtensions-${REALVERSION}.tar.gz"
-SOURCEFILE="BaseExtensions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

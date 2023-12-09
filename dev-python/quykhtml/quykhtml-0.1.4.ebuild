@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QuykHtml"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python library that allows you to quickly and easily generate HTM
 
 HOMEPAGE="https://github.com/mwd1993/QuykHtml"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/99/8c/d8cfb574e45fdf8230717868de91c023f7ba80d62ed28574ee1191d719cf/QuykHtml-${REALVERSION}.tar.gz"
-SOURCEFILE="QuykHtml-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

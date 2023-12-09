@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DecisionTreeClassifier"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Decision Tree Classifier."
 
 HOMEPAGE="https://github.com/mlouii/Decision-Tree-Practicum"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/a2/7b0f39f567331a14962d55d22a5bf98755e7819e9fad03817acab9ee2411/DecisionTreeClassifier-${REALVERSION}.tar.gz"
-SOURCEFILE="DecisionTreeClassifier-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

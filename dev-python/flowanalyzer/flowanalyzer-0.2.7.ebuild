@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FlowAnalyzer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FlowAnalyzer是一个流量分析器，用于解析和处理tshark�
 
 HOMEPAGE="https://github.com/Byxs20/FlowAnalyzer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/83/20898e0e83d7fff1555a3ff47b37472b56055dd6bdde1801354966239809/FlowAnalyzer-${REALVERSION}.tar.gz"
-SOURCEFILE="FlowAnalyzer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

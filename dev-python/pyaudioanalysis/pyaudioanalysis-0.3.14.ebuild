@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyAudioAnalysis"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Audio Analysis Library: Feature Extraction, Classification, 
 
 HOMEPAGE="https://github.com/tyiannak/pyAudioAnalysis"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/25/d9/d47d16ba4b9717b6d25af0077147f131897127a6cbfd9f90bd5fd68d7d82/pyAudioAnalysis-${REALVERSION}.tar.gz"
-SOURCEFILE="pyAudioAnalysis-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

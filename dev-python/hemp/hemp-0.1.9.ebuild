@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Hemp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for Fabric"
 
 HOMEPAGE="https://github.com/Addvilz/hemp"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/11/9a/27ffda6e48e3d150d70f745c31edc81c58d5a0c0123ad37c820488675c84/Hemp-${REALVERSION}.tar.gz"
-SOURCEFILE="Hemp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

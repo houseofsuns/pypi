@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GrabzIt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GrabzIt enables allows you to programmatically convert web pages an
 
 HOMEPAGE="https://grabz.it/api/python/"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/d5/dd/852bf9b440b946d0ed7851598b8c2e1737b596e5029726d6796b3c7f0bb9/GrabzIt-${REALVERSION}.tar.gz"
-SOURCEFILE="GrabzIt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

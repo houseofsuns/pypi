@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BearSki"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="There is a toolbox for autotest"
 
 HOMEPAGE="https://github.com/Sirius1942/BearSki"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a8/83/672b4d5eaf9d6f30df3f2f7fd1cad572c5fa59adfb72cc36131e7d1a3b6d/BearSki-${REALVERSION}.tar.gz"
-SOURCEFILE="BearSki-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

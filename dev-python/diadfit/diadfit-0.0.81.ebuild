@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DiadFit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DiadFit"
 
 HOMEPAGE="https://github.com/PennyWieser/DiadFit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/da/90/efc915bac0d5c3da96186e46d533c57a90d2785000d4bd8d5f9eb0814740/DiadFit-${REALVERSION}.tar.gz"
-SOURCEFILE="DiadFit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

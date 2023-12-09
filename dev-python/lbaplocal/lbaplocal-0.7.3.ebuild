@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LbAPLocal"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tool to locally run tests for AnalysisProductions"
 
 HOMEPAGE="https://gitlab.cern.ch/lhcb-dpa/analysis-productions/lbaplocal"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1b/79/d5058bb1116e93a1cabbc07814b84d33dbb44c426e5233f7dcf198fafee1/LbAPLocal-${REALVERSION}.tar.gz"
-SOURCEFILE="LbAPLocal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

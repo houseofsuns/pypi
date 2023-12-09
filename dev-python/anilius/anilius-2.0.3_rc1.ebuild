@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Anilius"
 REALVERSION="2.0.3rc1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A high performance grpc micro framework based on python"
 
 HOMEPAGE="https://github.com/Malivix/Anilius"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/38/c1/6b19022ad1bb7528b52c136242c00728e43c762e498fa124786e1210d9bf/Anilius-${REALVERSION}.tar.gz"
-SOURCEFILE="Anilius-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

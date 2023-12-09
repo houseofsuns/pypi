@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DogeMachine-utils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/kmcquade/DogeMachine-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0b/8f/32f6caf9b9b8093003a20a811e22048e791a22465c2246de7d3d4b618549/DogeMachine-utils-${REALVERSION}.tar.gz"
-SOURCEFILE="DogeMachine-utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

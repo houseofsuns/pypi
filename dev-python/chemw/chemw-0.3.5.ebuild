@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChemW"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Calculates the Molecular Weight, to the appropriate significant dig
 
 HOMEPAGE="https://github.com/freiburgermsu/chemw"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e7/5a/f44214b9027e30a03db7fca3745a00723b46e448652f8c4927b29e68d749/ChemW-${REALVERSION}.tar.gz"
-SOURCEFILE="ChemW-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

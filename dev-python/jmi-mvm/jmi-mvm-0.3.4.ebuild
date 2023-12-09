@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JMI-MVM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A collection of our functions and classes from bootcamp."
 
 HOMEPAGE="https://github.com/jirvingphd/JMI_MVM"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/81/93d0dcde8641c7785f13d50de7ad1117ebf74856ad41f2790e6b31e80883/JMI_MVM-${REALVERSION}.tar.gz"
-SOURCEFILE="JMI_MVM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

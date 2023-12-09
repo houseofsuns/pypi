@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Attr-Dict"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Yet another Attribute Dict implementation !"
 
 HOMEPAGE="https://github.com/LuckyDams/Attr-Dict"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/62/54/0e75a87fe1449052e6ed5740fedeeda2cd0adba0305a3a0fe9ccc707174b/Attr-Dict-${REALVERSION}.tar.gz"
-SOURCEFILE="Attr-Dict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

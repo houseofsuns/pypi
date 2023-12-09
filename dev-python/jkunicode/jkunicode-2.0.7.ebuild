@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="jkUnicode"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Unicode support libraries"
 
 HOMEPAGE="https://pypi.org/project/jkUnicode/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c2/45/a841ae8dc3309268cc012f0364276b471c018a5e9e167cdcaafb6a83be45/jkUnicode-${REALVERSION}.tar.gz"
-SOURCEFILE="jkUnicode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

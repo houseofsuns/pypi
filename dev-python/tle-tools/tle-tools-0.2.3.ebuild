@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TLE-tools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library to work with two-line element set files"
 
 HOMEPAGE="https://federicostra.github.io/tletools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/94/78c82e616e22eeb430089c73c5bd222b1a482943dec3aaf2ebb13f1eb001/TLE-tools-${REALVERSION}.tar.gz"
-SOURCEFILE="TLE-tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

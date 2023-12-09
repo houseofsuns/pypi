@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ATPLibrary"
 REALVERSION="0.2.0rc8"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Robotframework ATP Library"
 
 HOMEPAGE="https://sqsglobal.visualstudio.com/ATP/_git/ATP.RobotFramework"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/ef/5f52253a4d2c15c6e9df4522da250795a6df5dee35d2f0b6314341dea653/ATPLibrary-${REALVERSION}.tar.gz"
-SOURCEFILE="ATPLibrary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

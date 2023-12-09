@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="txTwitter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Twisted-based client library for Twitter's API."
 
 HOMEPAGE="https://github.com/jerith/txTwitter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/8b/bd291d0b71bf5b23d59730687ab2eb2549dd16e562898e7e68cc265af012/txTwitter-${REALVERSION}.tar.gz"
-SOURCEFILE="txTwitter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

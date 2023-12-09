@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pythactyl"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pterodactyl panel API wrapper"
 
 HOMEPAGE="https://github.com/iamgadget/Pythactyl"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/7d/7b064279aa8b406d9c6ea5547849b9fba600cc2f6d8eab7fb8c5d40bbdcd/Pythactyl-${REALVERSION}.tar.gz"
-SOURCEFILE="Pythactyl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

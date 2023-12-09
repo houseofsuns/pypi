@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HMOBSTER"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="VAF clustering for multiple karyotypes"
 
 HOMEPAGE="https://github.com/Militeee/hmobster"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/2a/0b/116555337422cf738e5a10a3c4bf4915815ed3da638ae8dd22d23984c347/HMOBSTER-${REALVERSION}.tar.gz"
-SOURCEFILE="HMOBSTER-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

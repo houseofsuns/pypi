@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GrandFatherSon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Grandfather-father-son backup rotation calculator"
 
 HOMEPAGE="http://github.com/ecometrica/grandfatherson/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/09/1a/aa26eaab11c1e0fcd3ae778c3def6d95a008c711b6b72797297d8675061d/GrandFatherSon-${REALVERSION}.tar.gz"
-SOURCEFILE="GrandFatherSon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

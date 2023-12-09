@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="YoutubeTags"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="YoutubeTags is a python third-party api wrapper to Extract Youtube 
 
 HOMEPAGE="https://github.com/nuhmanpk/YoutubeTags"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b9/61/293f30703e3d7a10afe995f5a801c30557fd6535b312ae6267f62668ad66/YoutubeTags-${REALVERSION}.tar.gz"
-SOURCEFILE="YoutubeTags-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="importRosbag"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Standalone rosbag loader for python3"
 
 HOMEPAGE="https://github.com/event-driven-robotics/importRosbag"
 LICENSE="gpl"
-SRC_URI="https://files.pythonhosted.org/packages/d6/9b/fd50cf899b702e7f75e424bc06ff51945cae79f0cdd80faad8d7ba5f4b39/importRosbag-${REALVERSION}.tar.gz"
-SOURCEFILE="importRosbag-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

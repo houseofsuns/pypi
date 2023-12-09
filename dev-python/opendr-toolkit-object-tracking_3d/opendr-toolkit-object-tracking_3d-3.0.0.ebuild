@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="opendr-toolkit-object-tracking-3d"
+LITERALNAME="opendr-toolkit-object-tracking-3d"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

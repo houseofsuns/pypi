@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SNPTMT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python module for searching for a new popular topics in the message
 
 HOMEPAGE="https://github.com/FIvER4IK/snptmt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/13/59/e9f4ffbf594c3b8b325968714880fa18db7c2feb624f12df5590fd627572/SNPTMT-${REALVERSION}.tar.gz"
-SOURCEFILE="SNPTMT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

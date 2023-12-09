@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMatching"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for decoding quantum error correcting codes using minimum
 
 HOMEPAGE="https://github.com/oscarhiggott/PyMatching"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/09/16a1770fbe1beb9660e8dd01727172fe0b051ef20d4777454e5730c02309/PyMatching-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMatching-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

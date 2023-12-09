@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EventGeometry"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FastJet Contrib for computing the Energy Mover's Distance and relat
 
 HOMEPAGE="https://github.com/pkomiske/EventGeometry"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/44/ee/f6fe8f7cd638d8a42dcd0170bc51fcd9fbcfd1833b053e58d61545f2543d/EventGeometry-${REALVERSION}.tar.gz"
-SOURCEFILE="EventGeometry-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

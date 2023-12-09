@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ProxyTypes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="General purpose proxy and wrapper types"
 
 HOMEPAGE="https://github.com/PEAK-Legacy/ProxyTypes#readme"
 LICENSE="PSF or ZPL"
-SRC_URI="https://files.pythonhosted.org/packages/fd/15/96033b47133203946d63aa2af276237f0f93d97de10422b9611a0e3c1c3b/ProxyTypes-${REALVERSION}.tar.gz"
-SOURCEFILE="ProxyTypes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

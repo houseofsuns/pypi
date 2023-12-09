@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GISPython"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Additional tools for administering and automating different ArcPy a
 
 HOMEPAGE="https://github.com/lvmgeo/GISPython"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/76/ff/b534093da973fc7aa952090642eba825f6b9c361be89a4170a8ad9fe4c66/GISPython-${REALVERSION}.tar.gz"
-SOURCEFILE="GISPython-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

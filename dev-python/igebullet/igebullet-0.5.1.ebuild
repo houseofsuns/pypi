@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="igeBullet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bullet Physic for 3D and 2D games."
 
 HOMEPAGE="https://indigames.net/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/99/1ca9cb82158bc2a17aa499bf264c27f5ae418210873963adde0c892e374f/igeBullet-${REALVERSION}.tar.gz"
-SOURCEFILE="igeBullet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Shiba"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python API for PriceMinister WebServices"
 
 HOMEPAGE="https://github.com/ShibaAPI/shiba"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/02/94/ad7a9f6f6ee62ca97666bda0f1fd46524c1a2a844cdf2f7327577bb74f96/Shiba-${REALVERSION}.tar.gz"
-SOURCEFILE="Shiba-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pykSQL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python wrapper for the KSQL REST API"
 
 HOMEPAGE="https://github.com/bryanyang0528/ksql-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9c/63/554907113f35c9895449f6afb2dc175573df83a3eedc4b1f50f18f8e0f6d/pykSQL-${REALVERSION}.tar.gz"
-SOURCEFILE="pykSQL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

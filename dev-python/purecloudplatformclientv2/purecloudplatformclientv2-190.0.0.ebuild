@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PureCloudPlatformClientV2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PureCloud Platform API SDK"
 
 HOMEPAGE="https://developer.mypurecloud.com/api/rest/client-libraries/python/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/03/35e4da60cc9b6470db89df8ec0e1a4121347ea1a1bb60e0cc5c0a5fa37b2/PureCloudPlatformClientV2-${REALVERSION}.tar.gz"
-SOURCEFILE="PureCloudPlatformClientV2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

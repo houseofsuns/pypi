@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PartSeg"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PartSeg is python GUI and set of napari plugins for bio imaging ana
 
 HOMEPAGE="https://4dnucleome.cent.uw.edu.pl/PartSeg/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7d/fe/ac6a2f3d55e1ce94e1bb46b2a14d2a6acb620068285a60205bc674bf7685/PartSeg-${REALVERSION}.tar.gz"
-SOURCEFILE="PartSeg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

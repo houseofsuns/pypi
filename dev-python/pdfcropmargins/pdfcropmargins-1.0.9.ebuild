@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pdfCropMargins"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A command-line program to crop the margins of PDF files, with many 
 
 HOMEPAGE="https://github.com/abarker/pdfCropMargins"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/24/d9/d9bb0286d9c8e0aa2a752c7bad654f6491daefaab6b1737544ab62caf0db/pdfCropMargins-${REALVERSION}.tar.gz"
-SOURCEFILE="pdfCropMargins-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

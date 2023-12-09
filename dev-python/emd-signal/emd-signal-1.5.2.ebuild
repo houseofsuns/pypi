@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EMD-signal"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Implementation of the Empirical Mode Decomposition (EMD) and its va
 
 HOMEPAGE="https://github.com/laszukdawid/PyEMD"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/74/91/a0dab833da247fffcf011a1126230f234b7b694f8aa9f2bf6d6e07d22c70/EMD-signal-${REALVERSION}.tar.gz"
-SOURCEFILE="EMD-signal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

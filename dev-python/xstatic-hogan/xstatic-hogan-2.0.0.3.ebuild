@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-Hogan"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Hogan 2.0.0 (XStatic packaging standard)"
 
 HOMEPAGE="http://twitter.github.io/hogan.js/"
 LICENSE="same as Hogan"
-SRC_URI="https://files.pythonhosted.org/packages/1b/25/4535fe5c20dd42445aee7b1a3f0b572ebda0e3979e70a8c218eec2d5d09d/XStatic-Hogan-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-Hogan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

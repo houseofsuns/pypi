@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="tkitAutoRewriter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Terry toolkit sdk for AutoRewriter ,"
 
 HOMEPAGE="https://www.terrychan.org/2022/07/%e8%8b%b1%e6%96%87%e5%86%85%e5%ae%b9%e8%87%aa%e5%8a%a8%e9%87%8d%e5%86%99sdk/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/00/a6/92c07bfdba6b7c5a499c2abc68b78d9677e8d17d9535be678ef9adf96be0/tkitAutoRewriter-${REALVERSION}.tar.gz"
-SOURCEFILE="tkitAutoRewriter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

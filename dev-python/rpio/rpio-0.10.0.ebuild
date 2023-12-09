@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RPIO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Advanced GPIO for the Raspberry Pi. Extends RPi.GPIO with PWM, GPIO
 
 HOMEPAGE="https://github.com/metachris/RPIO"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/29/05/6884572923c57ff488fdf5c4ab887deb9edb2515afbcb49be087c95ac698/RPIO-${REALVERSION}.tar.gz"
-SOURCEFILE="RPIO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

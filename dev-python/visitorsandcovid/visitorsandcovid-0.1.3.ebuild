@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VisitorsandCOVID"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This project compares the number of amusement park visitors with CO
 
 HOMEPAGE="https://github.com/ritakei/VisitorsandCOVID"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/02/75/734f1e9095964f3dc67ef795388b4c3d3c45c1e942c466cbbee7c41a2c14/VisitorsandCOVID-${REALVERSION}.tar.gz"
-SOURCEFILE="VisitorsandCOVID-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

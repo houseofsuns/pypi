@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Django-Pizza"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Yet another Django CMS."
 
 HOMEPAGE="https://github.com/pizzapanther/Django-Pizza"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a7/4b/91dd3f74f18eb6589da1e40abab22a742eb1eab0f8504e40b9e70adfa186/Django-Pizza-${REALVERSION}.tar.gz"
-SOURCEFILE="Django-Pizza-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

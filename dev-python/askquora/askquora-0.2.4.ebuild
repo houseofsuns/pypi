@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AskQuora"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Quora Q&A right from the command line"
 
 HOMEPAGE="https://www.github.com/Ritiek/AskQuora"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ec/d8/cd4de8cb9e21099a265be36e32d3fabf97b36d8d462f1dc3d681c46dbda5/AskQuora-${REALVERSION}.tar.gz"
-SOURCEFILE="AskQuora-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

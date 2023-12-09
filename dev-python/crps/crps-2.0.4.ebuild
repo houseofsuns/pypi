@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CRPS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to compute the Continuous Ranked Probability Score (CRPS)
 
 HOMEPAGE="https://github.com/gouthamnaveen/CRPS"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ad/79/fa0b68194fb3112fc9320c2f03119d0d9e7d63226800b8617af233107b43/CRPS-${REALVERSION}.tar.gz"
-SOURCEFILE="CRPS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mocha"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A mid stack Flask based framework that put structure in the file sy
 
 HOMEPAGE="https://github.com/mardix/mocha"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/40/1c/26bf00a03b0cc32ff3e38a46427954802498d059c603d8f9e5c08835759e/Mocha-${REALVERSION}.tar.gz"
-SOURCEFILE="Mocha-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

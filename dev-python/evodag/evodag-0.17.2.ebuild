@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EvoDAG"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Evolving Directed Acyclic Graph"
 
 HOMEPAGE="https://github.com/mgraffg/EvoDAG"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/04/85/f9d518ff75230bbc2dfccb4ca65a3f9118a11211cfc57b8f39e8277cbde3/EvoDAG-${REALVERSION}.tar.gz"
-SOURCEFILE="EvoDAG-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

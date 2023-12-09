@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Lemmagen"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LemmaGen lemmatizer for Python supporing Slovene, Serbian, Romanian
 
 HOMEPAGE=""
 LICENSE="GPL-2+"
-SRC_URI="https://files.pythonhosted.org/packages/db/ad/46c20a1466a0761e98e1ff75ae81ffe254914f5d1554323755d2b3d7141a/Lemmagen-${REALVERSION}.tar.gz"
-SOURCEFILE="Lemmagen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

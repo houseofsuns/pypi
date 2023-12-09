@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TPOT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tree-based Pipeline Optimization Tool"
 
 HOMEPAGE="https://github.com/EpistasisLab/tpot"
 LICENSE="GNU/LGPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/48/77/54d27055f414fdebdf386b82bd51403ec850f9a1e8bec89e6eaa31ad635e/TPOT-${REALVERSION}.tar.gz"
-SOURCEFILE="TPOT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

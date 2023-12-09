@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TimeForge"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Create realistic looking but fake time documentation for your stude
 
 HOMEPAGE="https://github.com/MitchiLaser/timeforge"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/57/c1/67e9fb1d0738e4aafbf2459dfa31c0b0e6fc62eb03088db5cd031e80b953/TimeForge-${REALVERSION}.tar.gz"
-SOURCEFILE="TimeForge-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

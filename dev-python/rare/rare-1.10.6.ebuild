@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Rare"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A gui for Legendary"
 
 HOMEPAGE="https://github.com/Dummerle/Rare"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/9b/0c/92d4170e2f9738f66bbd192b2c43ff41cf9df5daecc93662083b3b60bc6c/Rare-${REALVERSION}.tar.gz"
-SOURCEFILE="Rare-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

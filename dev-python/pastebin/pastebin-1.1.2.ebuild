@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pastebin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Pastebin API interaction object."
 
 HOMEPAGE="http://www.morrolan.com"
 LICENSE="GNU General Public License GPL"
-SRC_URI="https://files.pythonhosted.org/packages/3b/5f/3e069acfa5991195475d914f4e70696ba5fbb241e37d3b74b0ad1e78d411/Pastebin-${REALVERSION}.tar.gz"
-SOURCEFILE="Pastebin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

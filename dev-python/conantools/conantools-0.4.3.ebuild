@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ConanTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Helpers and tools that make working with conan more convenient."
 
 HOMEPAGE="https://github.com/niosHD/ConanTools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/36/6efe9d9da42d02390b2c2dd0f5c57afa8873b26b38098a0f9bc48d29482c/ConanTools-${REALVERSION}.tar.gz"
-SOURCEFILE="ConanTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

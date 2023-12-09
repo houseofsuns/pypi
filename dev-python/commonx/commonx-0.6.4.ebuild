@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="commonX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="python common toolkit"
 
 HOMEPAGE="https://github.com/hect0x7/common"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5e/83/4fa380534b7515da42e5d2a00d9c5178a041510dfb4a77e92e5931aa5bec/commonX-${REALVERSION}.tar.gz"
-SOURCEFILE="commonX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

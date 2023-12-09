@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ToolBiox"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a biological toolkit for genome assembly, annotation and analysis t
 
 HOMEPAGE="https://github.com/SouthernCD/ToolBiox"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/af/16dd3fda32b843fda46cf5708ce279d8857df56b8a09769a9ec5aea32191/ToolBiox-${REALVERSION}.tar.gz"
-SOURCEFILE="ToolBiox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

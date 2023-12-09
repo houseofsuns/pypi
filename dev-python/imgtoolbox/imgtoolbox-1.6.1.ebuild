@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ImgToolBox"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package about the transformations between raw, csv and numpy arra
 
 HOMEPAGE="https://github.com/LiaoU3/ImageToolBox.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/7f/b78546615742f5254e1766ba2fc27654e1112c6e3dcf141d26ac11fe6c4a/ImgToolBox-${REALVERSION}.tar.gz"
-SOURCEFILE="ImgToolBox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

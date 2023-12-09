@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GPyOpt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Bayesian Optimization Toolbox"
 
 HOMEPAGE="http://sheffieldml.github.io/GPyOpt/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/52/be/669d505416d7e465b2aef7df3b58d590f56468c4f7dc50c91fe91b8a78d9/GPyOpt-${REALVERSION}.tar.gz"
-SOURCEFILE="GPyOpt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

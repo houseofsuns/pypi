@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyLBFGS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LBFGS and OWL-QN optimization algorithms"
 
 HOMEPAGE="https://github.com/dedupeio/pylbfgs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e2/7e/e014b3394a547148618764d25fd173835de1de80e3b11356d052ac80ef4f/PyLBFGS-${REALVERSION}.tar.gz"
-SOURCEFILE="PyLBFGS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

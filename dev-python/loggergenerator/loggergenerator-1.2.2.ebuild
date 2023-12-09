@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LoggerGenerator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="http://github.com/Akasan/LoggerGenerator"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/2b/2eb23611417dcf2c4b4c85b5a5823b605282163eea51ca09a5ec6ac97733/LoggerGenerator-${REALVERSION}.tar.gz"
-SOURCEFILE="LoggerGenerator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

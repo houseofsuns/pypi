@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Keg"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A web framework built on Flask & SQLAlchemy.  Somewhere North of Fl
 
 HOMEPAGE="https://github.com/level12/keg"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d2/2f/9be7aa3b2f449d75965e4bea5941d8aeb0f54a89eb6c053affc1e19e7421/Keg-${REALVERSION}.tar.gz"
-SOURCEFILE="Keg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

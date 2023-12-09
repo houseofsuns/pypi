@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SuperDuperMetroid"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Super Metroid patching utility"
 
 HOMEPAGE="https://github.com/SolventMercury/Super-Duper-Metroid"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/61/0c/aeb3f051da8fd18265073253c3c0a3f946ad1b463a986b4d99c82af108eb/SuperDuperMetroid-${REALVERSION}.tar.gz"
-SOURCEFILE="SuperDuperMetroid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AnimatedGraphs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Build and awesome animated graph easily"
 
 HOMEPAGE="https://github.com/lgbaeza/animatedgraph-pkg"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/b1/43e5f9cdda35cc925c03feda16ad70d68a47cf82def5f2de2cebc5f1343f/AnimatedGraphs-${REALVERSION}.tar.gz"
-SOURCEFILE="AnimatedGraphs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

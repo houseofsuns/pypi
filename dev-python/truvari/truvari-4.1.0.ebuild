@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Truvari"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Structural variant comparison tool for VCFs"
 
 HOMEPAGE="https://github.com/ACEnglish/truvari"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/5d/f907c056e82f9e37b9a20cc240ce86e8027e2213ba034f11a6fcf548f8c9/Truvari-${REALVERSION}.tar.gz"
-SOURCEFILE="Truvari-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

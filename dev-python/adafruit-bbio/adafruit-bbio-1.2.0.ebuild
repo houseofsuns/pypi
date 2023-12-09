@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Adafruit-BBIO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A module to control BeagleBone IO channels"
 
 HOMEPAGE="https://github.com/adafruit/adafruit-beaglebone-io-python/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/db/0d7afa47b97bb3786b564032fe56b0cf2bf7537ef96c24ae1d95fa4c54e9/Adafruit_BBIO-${REALVERSION}.tar.gz"
-SOURCEFILE="Adafruit_BBIO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

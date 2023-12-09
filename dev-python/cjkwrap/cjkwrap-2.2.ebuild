@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CJKwrap"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CJKwrap is a library for wrapping and filling CJK text. Fix Python 
 
 HOMEPAGE="https://fgallaire.github.io/cjkwrap"
 LICENSE="GNU LGPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/43/e7/6289123edb86eef09d43ece0648c2eb71d860f020ae17b2c7a52ffa8bbe9/CJKwrap-${REALVERSION}.tar.gz"
-SOURCEFILE="CJKwrap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

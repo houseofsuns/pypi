@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="autoTestScheme"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="auto test scheme"
 
 HOMEPAGE="https://gitee.com/xiongrun/auto-test-scheme"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f1/4a/cdc070246beaca852780cff5e00e212aff55c58eae8636c12af07797d544/autoTestScheme-${REALVERSION}.tar.gz"
-SOURCEFILE="autoTestScheme-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

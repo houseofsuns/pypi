@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QGUI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="QGUI - 0.1MB超轻量Python GUI框架，用模板来快捷制作深
 
 HOMEPAGE="https://github.com/QPT-Family/QGUI"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1b/80/ca92e47bae57888e500bc58e7c182b9d12a8a8db2a3bdd0aa4c92aef3878/QGUI-${REALVERSION}.tar.gz"
-SOURCEFILE="QGUI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

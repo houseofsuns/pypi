@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MongoFrames"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A fast unobtrusive MongoDB ODM for Python"
 
 HOMEPAGE="https://github.com/GetmeUK/MongoFrames"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/d9/751096281f7683cbe332d17e60e58f67841d98dcac3efaa7560b0cf9ac11/MongoFrames-${REALVERSION}.tar.gz"
-SOURCEFILE="MongoFrames-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

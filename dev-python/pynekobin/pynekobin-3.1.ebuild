@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyNekobin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Paste codes to Nekobin.com with python"
 
 HOMEPAGE="https://github.com/Nusab19/pyNekobin"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/64/f3f540106f21c1c06a86bc162424a2931d6c56f8519625ee39fc5d1f79fa/pyNekobin-${REALVERSION}.tar.gz"
-SOURCEFILE="pyNekobin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

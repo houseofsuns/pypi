@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="napari-PICASSO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Blind fluorescence unmixing"
 
 HOMEPAGE="https://github.com/nygctech/PICASSO"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/b4/c4/f867458d09a49b0db83a00e58bff1c978d57f312427dc5fe21f314b26ef3/napari-PICASSO-${REALVERSION}.tar.gz"
-SOURCEFILE="napari-PICASSO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

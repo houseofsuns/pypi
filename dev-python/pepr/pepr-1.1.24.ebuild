@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PePr"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Peak-calling and Prioritization pipeline for replicated ChIP-Seq da
 
 HOMEPAGE="https://github.com/shawnzhangyx/PePr/"
 LICENSE="GNU GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/1f/ee/5972ca4edbb7fdeba5dde5c2f49863e6b26d3df7dfbfab882601c68f4741/PePr-${REALVERSION}.tar.gz"
-SOURCEFILE="PePr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

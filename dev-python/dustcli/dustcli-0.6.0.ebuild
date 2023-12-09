@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DustCli"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="dust cli"
 
 HOMEPAGE="https://tangeche.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/39/fb76211903c2d6739e94d228487fe05cc10091ac52bf1df8383595059b12/DustCli-${REALVERSION}.tar.gz"
-SOURCEFILE="DustCli-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

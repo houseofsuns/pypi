@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KucoinPy"
 REALVERSION="0.0.3b1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Probably the fastest kucoin API wrapper in python"
 
 HOMEPAGE="https://www.github.com/PrivatePandaCO/KucoinPy"
 LICENSE="GNU GENERAL PUBLIC LICENSE Version 2"
-SRC_URI="https://files.pythonhosted.org/packages/b6/59/24288dc708f3ea25183ad11dc07a566c49cc9ee11642ef990721237f4319/KucoinPy-${REALVERSION}.tar.gz"
-SOURCEFILE="KucoinPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

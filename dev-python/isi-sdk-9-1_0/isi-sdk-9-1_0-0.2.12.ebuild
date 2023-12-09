@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="isi-sdk-9-1-0"
+LITERALNAME="isi-sdk-9-1-0"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

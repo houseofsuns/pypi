@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ezIBpy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a Pythonic Client for Interactive Brokers API"
 
 HOMEPAGE="https://github.com/ranaroussi/ezibpy"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ef/bc/5767b08108e37ffd24d0f550241e0c8e76a88f733d4734d2b7a72d9312e0/ezIBpy-${REALVERSION}.tar.gz"
-SOURCEFILE="ezIBpy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

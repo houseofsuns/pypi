@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NanoPlot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Plotting suite for Oxford Nanopore sequencing data and alignments"
 
 HOMEPAGE="https://github.com/wdecoster/NanoPlot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/86/7a/ea5d9c5339570f71a46b378d30fa8544eb13b61b8433e9e052aabfab96f4/NanoPlot-${REALVERSION}.tar.gz"
-SOURCEFILE="NanoPlot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

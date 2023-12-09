@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CSHLDAP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="[DEPRECATED- use csh.ldapapi] LDAP Wrapper for CSH"
 
 HOMEPAGE="http://www.github.com/gambogi/CSHLDAP"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/96/ffa745737a1fbcceaec78818d62f2be6f727488caaf70b42b799baabaea0/CSHLDAP-${REALVERSION}.tar.gz"
-SOURCEFILE="CSHLDAP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

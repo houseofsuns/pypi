@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LabJackPython"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The LabJack Python modules for the LabJack U3, U6, UE9 and U12."
 
 HOMEPAGE="https://labjack.com/support/software/examples/ud/labjackpython"
 LICENSE="MIT X11"
-SRC_URI="https://files.pythonhosted.org/packages/21/c5/f174d72ca2ad85b6f2bb41491a7bc02dc26b380a09e6dc54b515efa06d6d/LabJackPython-${REALVERSION}.tar.gz"
-SOURCEFILE="LabJackPython-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

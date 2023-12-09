@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Korpora"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This package provides easy-download and easy-usage for various Kore
 
 HOMEPAGE="https://github.com/ko-nlp/Korpora"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7a/4c/1a069c0bf9afe46684f7fd407329c76dfca0ee50575db6171d58933144aa/Korpora-${REALVERSION}.tar.gz"
-SOURCEFILE="Korpora-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

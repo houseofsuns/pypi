@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ResourceBundle"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ResourceBundle is a module that manages internationalization of str
 
 HOMEPAGE="https://felix-zenk.github.io/projects/ResourceBundle"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/35/fa1e379b8ea46b5afb57d28b826515e6068a0c7bfbd64b90d8a6173711bb/ResourceBundle-${REALVERSION}.tar.gz"
-SOURCEFILE="ResourceBundle-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

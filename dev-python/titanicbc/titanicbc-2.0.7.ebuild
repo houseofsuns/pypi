@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Titanicbc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple neural network interface including pre-trained model for the
 
 HOMEPAGE="https://github.com/chrisb27/Titanic_Binary"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/68/b8/dd195cdf517d9567a56d33306a9ab06da92b1a8752e98495db80f24c88d0/Titanicbc-${REALVERSION}.tar.gz"
-SOURCEFILE="Titanicbc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

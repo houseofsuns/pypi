@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LsBook"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="markdown 静态网页生成器"
 
 HOMEPAGE="https://github.com/liushilive/lsbook"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/08/097c575d88a417eef7faf66d38c1d2f0bf2df7a16ff7e1b59fe4dbb173b4/LsBook-${REALVERSION}.tar.gz"
-SOURCEFILE="LsBook-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

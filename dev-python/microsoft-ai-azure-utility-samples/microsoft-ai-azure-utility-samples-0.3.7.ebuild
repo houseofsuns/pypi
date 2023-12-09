@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Microsoft-AI-Azure-Utility-Samples"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Utility Samples for AI Solutions"
 
 HOMEPAGE="https://github.com/microsoft/AI-Utilities"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/7b/6a0658c59c90e7b2457422c97c5231898e0d140a6cf3245b27076cc97c46/Microsoft-AI-Azure-Utility-Samples-${REALVERSION}.tar.gz"
-SOURCEFILE="Microsoft-AI-Azure-Utility-Samples-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

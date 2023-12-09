@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MSTR-Robotics-magerdaniel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MicroStrateg(P)ython"
 
 HOMEPAGE="https://github.com/magerdaniel"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/f6/1c6dd016e55c3c439cc6ac1c490c146e8da921503bf435c6c98b03f14633/MSTR_Robotics_magerdaniel-${REALVERSION}.tar.gz"
-SOURCEFILE="MSTR_Robotics_magerdaniel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

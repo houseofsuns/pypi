@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Adafruit-DHT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library to get readings from the DHT11, DHT22, and AM2302 humidity 
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_Python_DHT/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ff/24/b999708edffbc3d30763acdf07dc7a1666a1542795f3d2b80d6ef2590c0c/Adafruit_DHT-${REALVERSION}.tar.gz"
-SOURCEFILE="Adafruit_DHT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

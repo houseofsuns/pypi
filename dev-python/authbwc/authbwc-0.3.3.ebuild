@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AuthBWC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A user authentication and authorization component for the BlazeWeb 
 
 HOMEPAGE="https://github.com/blazelibs/authbwc/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/a6/1d/47e1c40e1757a1965ab4c27e64f2544d474b2e31bb495ac060e91757f9e1/AuthBWC-${REALVERSION}.tar.gz"
-SOURCEFILE="AuthBWC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

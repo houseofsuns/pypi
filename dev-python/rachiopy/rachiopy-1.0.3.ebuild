@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RachioPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python module for the Rachio API."
 
 HOMEPAGE="https://github.com/rfverbruggen/rachiopy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/44/1a5edf2b05c421bf41c932f3a684ed415f931985db3b9683deb21ff97479/RachioPy-${REALVERSION}.tar.gz"
-SOURCEFILE="RachioPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

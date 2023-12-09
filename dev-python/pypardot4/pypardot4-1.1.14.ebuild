@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyPardot4"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="API wrapper for APIv4 of Pardot marketing automation software."
 
 HOMEPAGE="https://github.com/mneedham91/PyPardot4"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/24/20/2c25e6040a1b64a83d39088d3f235d485810bbd44927894d24f01ce2740d/PyPardot4-${REALVERSION}.tar.gz"
-SOURCEFILE="PyPardot4-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

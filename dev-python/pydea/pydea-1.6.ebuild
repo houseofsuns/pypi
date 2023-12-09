@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyDEA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package for conducting data envelopment analysis"
 
 HOMEPAGE="https://github.com/araith/pyDEA"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/a5/1158328ef1b8ab9607e4dcd3987fee40543528f15aabbbacfb02dbbbd6fd/pyDEA-${REALVERSION}.tar.gz"
-SOURCEFILE="pyDEA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

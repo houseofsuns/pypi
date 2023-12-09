@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BytecodeAssembler"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate Python code objects by \"assembling\" bytecode (Now includ
 
 HOMEPAGE="http://pypi.python.org/pypi/BytecodeAssembler"
 LICENSE="ZPL 2.1"
-SRC_URI="https://files.pythonhosted.org/packages/51/91/f9faa7ddd6e42c0d8de47e5e06fca2b8b4be56261389ad0dea3abeb1b177/BytecodeAssembler-${REALVERSION}.zip"
-SOURCEFILE="BytecodeAssembler-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JsonPreprocessor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Preprocessor for json files"
 
 HOMEPAGE="https://github.com/test-fullautomation/python-jsonpreprocessor"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/19/57/696680d9f89eadb308e0d8f6fa8264df4cdc3edbe617fb414831eb1d5782/JsonPreprocessor-${REALVERSION}.tar.gz"
-SOURCEFILE="JsonPreprocessor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

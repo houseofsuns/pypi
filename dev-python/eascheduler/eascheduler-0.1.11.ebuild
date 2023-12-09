@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EAScheduler"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy async scheduling with a nice interface"
 
 HOMEPAGE="https://github.com/spacemanspiff2007/eascheduler"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/26/1e/2cc5609e337f30598f3e706005d3515403106a942cfa9e813a530f91189f/EAScheduler-${REALVERSION}.tar.gz"
-SOURCEFILE="EAScheduler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

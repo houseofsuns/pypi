@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyVig"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="python based Visio Generator"
 
 HOMEPAGE="https://github.com/alias1978/pyVig"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c4/36/02b1596f2f8e4213734f0fdd0dd26d217e8bc180e9001d129d9300433031/pyVig-${REALVERSION}.tar.gz"
-SOURCEFILE="pyVig-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FLASH-pytorch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FLASH - Transformer Quality in Linear Time - Pytorch"
 
 HOMEPAGE="https://github.com/lucidrains/FLASH-pytorch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8f/da/2490417939d189b6f43745ff4c095985687c5edff2685b575e57c1da68a9/FLASH-pytorch-${REALVERSION}.tar.gz"
-SOURCEFILE="FLASH-pytorch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

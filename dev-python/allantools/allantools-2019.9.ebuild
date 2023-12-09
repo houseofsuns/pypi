@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AllanTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Allan deviation and related time/frequency statistics"
 
 HOMEPAGE="https://github.com/aewallin/allantools"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/b9/63/3a998237dde66b844a5f3d0d90f62dcfde668ed5f0fc8257c7d57023f8b4/AllanTools-${REALVERSION}.tar.gz"
-SOURCEFILE="AllanTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

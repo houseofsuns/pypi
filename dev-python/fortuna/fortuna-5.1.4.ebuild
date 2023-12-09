@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Fortuna"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="High Performance Random Value Toolkit"
 
 HOMEPAGE="https://github.com/BrokenShell/Fortuna"
 LICENSE="Free for non-commercial use"
-SRC_URI="https://files.pythonhosted.org/packages/f5/ec/2ba606975dc4deafed32eb23b666229e19dde55984e9ca0a20d82a81b8e3/Fortuna-${REALVERSION}.tar.gz"
-SOURCEFILE="Fortuna-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

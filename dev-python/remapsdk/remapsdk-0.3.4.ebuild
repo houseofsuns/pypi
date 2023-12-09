@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="remapSDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ReMAP SDK for RUL Models"
 
 HOMEPAGE="https://h2020-remap.eu/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6a/6a/025971734fd0ad60ba3452bc01e421e9f2a94ef4f62bab2071fd9e6a7ae5/remapSDK-${REALVERSION}.tar.gz"
-SOURCEFILE="remapSDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

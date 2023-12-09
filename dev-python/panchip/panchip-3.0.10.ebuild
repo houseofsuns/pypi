@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PanChIP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pan-ChIP-seq Analysis of Peak Sets"
 
 HOMEPAGE="https://github.com/hanjunlee21/PanChIP"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2c/4b/e0d311250d07ab0323c38ab2bda21cdb22dff7ba99054b45cb2e236b4182/PanChIP-${REALVERSION}.tar.gz"
-SOURCEFILE="PanChIP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

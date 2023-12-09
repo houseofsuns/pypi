@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Sanic-Cors"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Sanic extension adding a decorator for CORS support. Based on fla
 
 HOMEPAGE="https://github.com/ashleysommer/sanic-cors"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/b8/fd98a4842e54c1fb3d7b7bc85abbc6d76f79871763eb455a391ddfdb934d/Sanic-Cors-${REALVERSION}.tar.gz"
-SOURCEFILE="Sanic-Cors-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

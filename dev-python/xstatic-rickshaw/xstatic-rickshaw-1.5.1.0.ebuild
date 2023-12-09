@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-Rickshaw"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Rickshaw 1.5.1 (XStatic packaging standard)"
 
 HOMEPAGE="http://code.shutterstock.com/rickshaw/"
 LICENSE="same as Rickshaw"
-SRC_URI="https://files.pythonhosted.org/packages/c1/98/743fb7ed9633c99b458caa06fd9700b167f6704a797c316ba97d6d919c0f/XStatic-Rickshaw-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-Rickshaw-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

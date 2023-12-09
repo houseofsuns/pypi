@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="riboSeed"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="riboSeed: assemble across rDNA regions"
 
 HOMEPAGE="https://github.com/nickp60/riboSeed"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/42/e6f0af24f6c14982db3f966e59232da4412e57e69ad96d7431a0cd5e1ef3/riboSeed-${REALVERSION}.tar.gz"
-SOURCEFILE="riboSeed-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

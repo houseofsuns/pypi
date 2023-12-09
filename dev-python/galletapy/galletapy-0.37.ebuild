@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GalletaPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Paquete con código para ERIs"
 
 HOMEPAGE="https://github.com/felipelewyee/galleta"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/be/ced404c66cbd669ce3b31329adfaa0864bbca5727e2b86a7cb61b67bf838/GalletaPy-${REALVERSION}.tar.gz"
-SOURCEFILE="GalletaPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

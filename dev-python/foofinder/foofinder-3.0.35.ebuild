@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FooFinder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package designed to help you find foo."
 
 HOMEPAGE="https://github.com/MadisonAster/FooFinder"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/90/b0/f3f501e2ae046b30801ec5ca33629183a27d0296850f9361039a00fb9a94/FooFinder-${REALVERSION}.tar.gz"
-SOURCEFILE="FooFinder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

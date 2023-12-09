@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="snakeMQ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="message queuing for Python"
 
 HOMEPAGE="http://www.snakemq.net"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/f9/bdfc5e80bb66cea0f86634e76ed42e5a9cfdd7580a0464c528b832419b58/snakeMQ-${REALVERSION}.tar.gz"
-SOURCEFILE="snakeMQ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

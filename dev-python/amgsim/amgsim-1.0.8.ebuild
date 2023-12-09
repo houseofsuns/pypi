@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="aMGSIM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="aMGSIM: simulate ancient metagenomes for multiple synthetic communi
 
 HOMEPAGE="https://github.com/genomewalker/aMGSIM"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/27/a4/bb63cf62d57432fe7fdf822c350b6552fafecde2b57c39a35f0e3ab0beb6/aMGSIM-${REALVERSION}.tar.gz"
-SOURCEFILE="aMGSIM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

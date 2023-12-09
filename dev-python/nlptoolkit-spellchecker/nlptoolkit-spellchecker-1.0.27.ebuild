@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NlpToolkit-SpellChecker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Turkish Spell Checker Library"
 
 HOMEPAGE="https://github.com/StarlangSoftware/TurkishSpellChecker-Py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c4/ee/0536e270ede3c2a0697407a42ce34b329b36be46acc38ee033811fec2f65/NlpToolkit-SpellChecker-${REALVERSION}.tar.gz"
-SOURCEFILE="NlpToolkit-SpellChecker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

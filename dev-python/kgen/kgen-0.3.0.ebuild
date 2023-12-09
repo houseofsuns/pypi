@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kgen"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python functions for calculating stoichiometric speciation constant
 
 HOMEPAGE="https://github.com/PalaeoCarb/Kgen"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/8f/483398a9aa2d6542609c9a628e998d86d34a14fed803f851a7429d4c146b/Kgen-${REALVERSION}.tar.gz"
-SOURCEFILE="Kgen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kreveik"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Kreveik is a Python module for Boolean networks. With Kreveik, one 
 
 HOMEPAGE="http://github.com/mehmetalianil/Kreveik/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/f7/cb/bbfec58714e96673e79e9866716d1ed91a709a02fdccdfcca0362373f4e1/Kreveik-${REALVERSION}.tar.gz"
-SOURCEFILE="Kreveik-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

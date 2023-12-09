@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Blockthon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Blockthon: Fast and easy generation of Private Keys and Mnemonics, 
 
 HOMEPAGE="https://github.com/Blockthon/Blockthon"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/52/bd/6fb2ff23111152e8b54cef1e4a14bcfbece11d0d0f6a1356217ba375ad56/Blockthon-${REALVERSION}.tar.gz"
-SOURCEFILE="Blockthon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

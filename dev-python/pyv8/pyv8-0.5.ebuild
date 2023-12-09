@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyV8"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Wrapper for Google V8 Engine"
 
 HOMEPAGE="http://code.google.com/p/pyv8/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c6/fb/5c0512a373e3d0aad0b683f439e7bdd67f95a69e6473b76dc2cfdca2c43f/PyV8-${REALVERSION}.zip"
-SOURCEFILE="PyV8-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

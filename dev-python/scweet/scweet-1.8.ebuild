@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Scweet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tool for scraping Tweets"
 
 HOMEPAGE="https://github.com/Altimis/Scweet"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/39/cc/ffeb6cec7337570f15caeff118da021760e0d69b32e2844dc94ee2f7511f/Scweet-${REALVERSION}.tar.gz"
-SOURCEFILE="Scweet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

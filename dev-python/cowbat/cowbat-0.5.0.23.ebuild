@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="COWBAT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CFIA OLC Workflow for Bacterial Assembly and Typing"
 
 HOMEPAGE="https://github.com/OLC-Bioinformatics/COWBAT"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/be/4c/c0af77f8daab2170a42be71c5a7c07e3722c47201cbaeb869e19ce2e85bd/COWBAT-${REALVERSION}.tar.gz"
-SOURCEFILE="COWBAT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

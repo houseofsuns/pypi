@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Av1an"
 REALVERSION="6.1.post3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Cross-platform command-line AV1 / VP9 / HEVC / H264 / VVC encoding 
 
 HOMEPAGE="https://github.com/master-of-zen/Av1an"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/f3/e5203b8f645fb91a14f9556adc8b4ec444746b77bdf7750c098cabbd3f91/Av1an-${REALVERSION}.tar.gz"
-SOURCEFILE="Av1an-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

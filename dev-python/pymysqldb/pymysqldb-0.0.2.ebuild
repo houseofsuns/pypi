@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMysqlDB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="manage mysql tool"
 
 HOMEPAGE="http://docs.51pub.cn/python/MysqlDB"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7e/9b/1da42d89a9232716d0a63ef51b70fe5b5171a82c057d48eda2fd4ca763d9/PyMysqlDB-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMysqlDB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CEDApy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/TerenceLiu98/CEDApy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/03/f1efff03a1794d514bc0023d90c166e8eb7533d0ee7ea966a8bd93acf4b9/CEDApy-${REALVERSION}.tar.gz"
-SOURCEFILE="CEDApy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

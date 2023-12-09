@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyNamecheap"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Namecheap API client in Python"
 
 HOMEPAGE="https://github.com/Bemmu/PyNamecheap"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c3/65/07f51c2b0177b9075e1afabf88dd7798c8562b1b789e78c9495ae2209297/PyNamecheap-${REALVERSION}.tar.gz"
-SOURCEFILE="PyNamecheap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

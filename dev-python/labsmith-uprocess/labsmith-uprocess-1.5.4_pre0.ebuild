@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LabSmith-uProcess"
 REALVERSION="1.5.4.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python x86 support for controlling LabSmith uDevices"
 
 HOMEPAGE="http://www.labsmith.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/23/f4/978e55e1eaf4d6153fcbf233edd5ca5bad90333e69460101e5794a5ee0a3/LabSmith_uProcess-${REALVERSION}.tar.gz"
-SOURCEFILE="LabSmith_uProcess-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

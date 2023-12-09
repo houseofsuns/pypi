@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PlanaPY"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Anaplan RESTful API Convenience Library"
 
 HOMEPAGE="https://github.com/hopfenspiel/PlanaPY"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/53/54/1bb34891a7f9244725d92e9926dbed88ba28fc0a9ccfd1684378aca9ae14/PlanaPY-${REALVERSION}.tar.gz"
-SOURCEFILE="PlanaPY-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

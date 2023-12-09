@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Netbase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Netbase : Wikidata World Graph"
 
 HOMEPAGE=""
 LICENSE="Apache2 license"
-SRC_URI="https://files.pythonhosted.org/packages/42/7a/b58a33ea6952207f01829540a8f7a8ca6a50eac1303f44a3414cc2d73610/Netbase-${REALVERSION}.tar.gz"
-SOURCEFILE="Netbase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

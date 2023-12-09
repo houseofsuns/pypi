@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="discordLevelingSystem"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library to implement a leveling system into a discord bot. Contai
 
 HOMEPAGE="https://github.com/Defxult/discordLevelingSystem"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/69/1f689a376de12c013d77dfd731d3eeeca089ed4d3ad63f68383d379dc7d7/discordLevelingSystem-${REALVERSION}.tar.gz"
-SOURCEFILE="discordLevelingSystem-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

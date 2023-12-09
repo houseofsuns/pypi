@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JeremyPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Useful methods and classes used in my own personal projects"
 
 HOMEPAGE="https://github.com/jeremyhobson111/JeremyPy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/25/4b4876be0a48e78029b7bc79306b42a776c1bdcc1b33c803efce47c8c80c/JeremyPy-${REALVERSION}.tar.gz"
-SOURCEFILE="JeremyPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

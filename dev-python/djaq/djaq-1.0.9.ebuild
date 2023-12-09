@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Djaq"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A string-based Django query language"
 
 HOMEPAGE="https://github.com/paul-wolf/djaq"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/12/5d/2544c44549892068416015248b4e4a61cb8d4ab9cc6d247808356ae3b412/Djaq-${REALVERSION}.tar.gz"
-SOURCEFILE="Djaq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

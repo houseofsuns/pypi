@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyEMMA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyEMMA: Emma's Markov Model Algorithms"
 
 HOMEPAGE="http://github.com/markovmodel/PyEMMA"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/fb/f2/7bb51bcfad7bd49ab6f86c597fff4ac9a7143dd906e5ed707d9922a7be51/pyEMMA-${REALVERSION}.tar.gz"
-SOURCEFILE="pyEMMA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

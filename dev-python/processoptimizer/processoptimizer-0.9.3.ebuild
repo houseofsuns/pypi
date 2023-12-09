@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ProcessOptimizer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Sequential model-based optimization toolbox     (forked from scikit
 
 HOMEPAGE="https://github.com/novonordisk-research/ProcessOptimizer"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d3/7c/d96f2a328853551aa2fa8f4d5b51c77e975abffc899924e4923ee2bda7f3/ProcessOptimizer-${REALVERSION}.tar.gz"
-SOURCEFILE="ProcessOptimizer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="tpDcc-config"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="tpDcc module that contains configuration files"
 
 HOMEPAGE="https://github.com/tpDcc/tpDcc-config"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/39/27/662216cf1a263ba9173c47bc3a4e332955f55761130cfa34c21c57c49ea5/tpDcc-config-${REALVERSION}.tar.gz"
-SOURCEFILE="tpDcc-config-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

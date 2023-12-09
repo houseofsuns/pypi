@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Xponge"
 REALVERSION="1.4.1a2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python package to perform pre- and post-processing of molecular s
 
 HOMEPAGE="https://gitee.com/gao_hyp_xyj_admin/xponge"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d2/97/eadd0c1d1efc3006d2d9129af6ae7fe1cdeabd3a7d947d18d9329ee2aa13/Xponge-${REALVERSION}.tar.gz"
-SOURCEFILE="Xponge-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

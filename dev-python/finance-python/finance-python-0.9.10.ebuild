@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Finance-Python"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PyFin 0.9.10"
 
 HOMEPAGE="https://github.com/ChinaQuants/Finance-Python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/0f/270b97251cc667f5f5a56d32d3ec4079dff96f526eddf07b646b9f3f8b2c/Finance-Python-${REALVERSION}.tar.gz"
-SOURCEFILE="Finance-Python-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

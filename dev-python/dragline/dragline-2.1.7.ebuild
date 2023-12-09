@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Dragline"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Distributed Python web crawling framework"
 
 HOMEPAGE="http://www.inzyte.com"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/2a/a2/ec979fc9c80b4a2dc28bcf941eab1bdb4efe723b6ac6cb0a1288f4b000fd/Dragline-${REALVERSION}.tar.gz"
-SOURCEFILE="Dragline-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

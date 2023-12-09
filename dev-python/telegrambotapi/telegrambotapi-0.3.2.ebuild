@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TelegramBotAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Telegram Bot API"
 
 HOMEPAGE="https://github.com/sourcesimian/pyTelegramBotAPI"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3a/90/6114a98705fa33300623d24ce7437153dce9e0ce6afa95a7e5b913a575a0/TelegramBotAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="TelegramBotAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

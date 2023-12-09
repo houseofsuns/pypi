@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyGenStability"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python binding of generalised Louvain with Markov Stability"
 
 HOMEPAGE="https://github.com/ImperialCollegeLondon/PyGenStability"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9b/a9/23a5ae824c6b25861ce1e58916bf4295e6a4c798b76ad8a0aacd534fa35f/PyGenStability-${REALVERSION}.tar.gz"
-SOURCEFILE="PyGenStability-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

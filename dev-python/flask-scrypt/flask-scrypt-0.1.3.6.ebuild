@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Scrypt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask-Scrypt provides convenient wrappers forscrypt password hashin
 
 HOMEPAGE="http://github.com/grobins2/flask-scrypt"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6a/23/1c65e00b9925d233b064232449a661e64478bd088633529942a175072766/Flask-Scrypt-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Scrypt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

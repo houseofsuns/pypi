@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Cantonese"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Cantonese programming language"
 
 HOMEPAGE="https://github.com/StepfenShawn/Cantonese"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/f7/a86e76501870527ad4f76794c6edd9892a32ab19df512fcd2fd173b06819/Cantonese-${REALVERSION}.tar.gz"
-SOURCEFILE="Cantonese-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

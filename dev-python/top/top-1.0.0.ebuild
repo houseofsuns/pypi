@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Top"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="DaYu message api of Ali"
 
 HOMEPAGE="https://github.com/littlecodersh/Top"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/08/fd/db486b41a2e0eed121543bf87d758a1b3287d24431a52f087e6a5cafdb43/Top-${REALVERSION}.zip"
-SOURCEFILE="Top-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

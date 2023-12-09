@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BTKSorgu"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Hedef websitesinin BTK Tarafından Erişim Engeli Sorgusu"
 
 HOMEPAGE="https://github.com/keyiflerolsun/BTKSorgu"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/45/35/8aad89a29eb37e4759f12f39ad74c02db8b030acc508141f86c189d55658/BTKSorgu-${REALVERSION}.tar.gz"
-SOURCEFILE="BTKSorgu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TFGENZOO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="helper of building generative model with Tensorflow 2.x"
 
 HOMEPAGE="https://github.com/MokkeMeguru/TFGENZOO"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/57/41/748a4d93ddf9ea9a51c765bc02b07ca8634a72ab00a75b32751cfd530052/TFGENZOO-${REALVERSION}.tar.gz"
-SOURCEFILE="TFGENZOO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

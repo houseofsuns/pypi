@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Embedly"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Library for Embedly"
 
 HOMEPAGE="https://github.com/embedly/embedly-python"
 LICENSE="Copyright c 2011, Embed.ly, Inc."
-SRC_URI="https://files.pythonhosted.org/packages/d7/94/2e387186617fe450fd21da3fd08c4ea1c68914c21622e939a892755620bc/Embedly-${REALVERSION}.tar.gz"
-SOURCEFILE="Embedly-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

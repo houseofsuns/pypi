@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IBLPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="IBLPy is a API Wrapper for Infinity Bots"
 
 HOMEPAGE="https://github.com/cheesycod/IBLPy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/37/db/ec5ed6066e72d37c52e028c78c0df3ebe3305eee155c580dab786c964984/IBLPy-${REALVERSION}.tar.gz"
-SOURCEFILE="IBLPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

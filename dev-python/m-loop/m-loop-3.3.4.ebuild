@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="M-LOOP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="M-LOOP: Machine-learning online optimization package. A python pack
 
 HOMEPAGE="https://github.com/michaelhush/M-LOOP/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/97/e6/4cbf394ab12853d78379f5e510d52fa56822d4ca8f19f032e4e8ac44ee18/M-LOOP-${REALVERSION}.tar.gz"
-SOURCEFILE="M-LOOP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

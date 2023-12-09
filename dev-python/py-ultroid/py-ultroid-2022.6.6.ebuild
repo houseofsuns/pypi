@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="py-Ultroid"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
@@ -15,8 +16,8 @@ DESCRIPTION="A Secure and Powerful Python-Telethon Based Library For Ultroid Use
 
 HOMEPAGE="https://github.com/TeamUltroid/pyUltroid"
 LICENSE="GNU AFFERO GENERAL PUBLIC LICENSE v3"
-SRC_URI="https://files.pythonhosted.org/packages/95/59/688262f08a88684ade8b90d58148c41f220eebb0d7b78d1be726d46f5efb/py-Ultroid-${REALVERSION}.tar.gz"
-SOURCEFILE="py-Ultroid-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

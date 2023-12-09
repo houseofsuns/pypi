@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ovos-PHAL-plugin-wifi-setup"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A plugin for OpenVoiceOS hardware abstraction layer"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-PHAL-plugin-wifi-setup"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a2/d1/915cb1f4e233a1455a9c7c84aacfdc4cc89e38a18acbfee12b54be08530c/ovos-PHAL-plugin-wifi-setup-${REALVERSION}.tar.gz"
-SOURCEFILE="ovos-PHAL-plugin-wifi-setup-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

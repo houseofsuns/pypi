@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Graphillion"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fast, lightweight library for a huge number of graphs"
 
 HOMEPAGE="http://graphillion.org/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/fb/ce4e83506e43d632994244eb88459cb213b52cfb86114b987778b97b10d6/Graphillion-${REALVERSION}.tar.gz"
-SOURCEFILE="Graphillion-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

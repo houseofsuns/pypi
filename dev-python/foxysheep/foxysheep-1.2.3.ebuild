@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FoxySheep"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mathematica parser and translator"
 
 HOMEPAGE="http://github.com/rocky/FoxySheep2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cd/4d/86be7b952e50c5a291c7e454c8d91fd9ceb18d95caba73da82a4d39dad1e/FoxySheep-${REALVERSION}.tar.gz"
-SOURCEFILE="FoxySheep-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

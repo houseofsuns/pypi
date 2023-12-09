@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JapaneseTokenizer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Kensuke-Mitsuzawa/JapaneseTokenizers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/13/4e/758f36d3d7f51d9c10d07d46a265f3f2337062b1913c231223156b719d0f/JapaneseTokenizer-${REALVERSION}.tar.gz"
-SOURCEFILE="JapaneseTokenizer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

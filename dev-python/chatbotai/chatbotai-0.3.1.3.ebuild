@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="chatbotAI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A chatbot AI engine is a chatbot builder platform that provides bot
 
 HOMEPAGE="https://github.com/ahmadfaizalbh/Chatbot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d4/40/f32720944b7bfad2a31a98cb9f90932347c5b2c562cecd5438980ab44f5c/chatbotAI-${REALVERSION}.tar.gz"
-SOURCEFILE="chatbotAI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

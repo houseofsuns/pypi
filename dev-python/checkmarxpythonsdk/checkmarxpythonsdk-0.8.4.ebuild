@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CheckmarxPythonSDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Checkmarx Python SDK"
 
 HOMEPAGE="https://github.com/checkmarx-ts/checkmarx-python-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d5/2f/2c7ba30ec42947f6060e5b8f9284c129ebe5da8be3bc70a30e4b3d2fa6db/CheckmarxPythonSDK-${REALVERSION}.tar.gz"
-SOURCEFILE="CheckmarxPythonSDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

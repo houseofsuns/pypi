@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CASCADe-spectroscopy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
@@ -15,8 +16,8 @@ DESCRIPTION="CASCADe : Calibration of trAnsit Spectroscopy using CAusal Data"
 
 HOMEPAGE="https://jbouwman.gitlab.io/CASCADe/"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/e1/3c/c90eb914c68e1a962138bfde77e7049eab26106ddc90eb3c167eeaecf136/CASCADe-spectroscopy-${REALVERSION}.tar.gz"
-SOURCEFILE="CASCADe-spectroscopy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

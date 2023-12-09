@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyHum"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Buscombe, D., 2017"
 
 HOMEPAGE="https://github.com/dbuscombe-usgs/prism"
 LICENSE="GNU GENERAL PUBLIC LICENSE v3"
-SRC_URI="https://files.pythonhosted.org/packages/b6/72/962ee61c01896e2dc96af542faa34965ffe0b01c3fe5a0d731afe57b1775/PyHum-${REALVERSION}.tar.gz"
-SOURCEFILE="PyHum-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

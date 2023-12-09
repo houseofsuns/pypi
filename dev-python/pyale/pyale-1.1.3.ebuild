@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyALE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ALE plots with python"
 
 HOMEPAGE="https://github.com/DanaJomar/PyALE"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/02/089d56e61312e3a3e704cc806a660634ec061d6e997c4904bbc70821c13a/PyALE-${REALVERSION}.tar.gz"
-SOURCEFILE="PyALE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

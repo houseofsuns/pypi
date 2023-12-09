@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMeasure"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Scientific measurement library for instruments, experiments, and li
 
 HOMEPAGE="https://github.com/pymeasure/pymeasure"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6c/ac/3f2da45208869b33a537b2bd1814849bada6d86909c5a480f17ea841af54/PyMeasure-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMeasure-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

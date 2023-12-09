@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Webflowpy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Webflow CMS API Client"
 
 HOMEPAGE="https://github.com/rfechtner/webflowpy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/78/16f7bf862cd9b90527f991c9ce7f471dd53bef7b6ec16e399eebe53d0a9f/Webflowpy-${REALVERSION}.tar.gz"
-SOURCEFILE="Webflowpy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

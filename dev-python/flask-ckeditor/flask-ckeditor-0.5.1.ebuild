@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-CKEditor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CKEditor integration for Flask."
 
 HOMEPAGE="http://github.com/helloflask/flask-ckeditor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/87/db/645ac8e36582fc858fe3959fd16a939232747dc4165c7c72b79fdf7f3963/Flask-CKEditor-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-CKEditor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

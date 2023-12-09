@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BabelGladeExtractor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Babel l10n support for Glade, GtkBuilder, and .desktop files"
 
 HOMEPAGE="https://github.com/GNOME-Keysign/babel-glade"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/92/d1/322c28eec415ac3469edf3293958b4a57e7028cb78c5eaa6cd010cffa380/BabelGladeExtractor-${REALVERSION}.tar.bz2"
-SOURCEFILE="BabelGladeExtractor-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.bz2"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 
 SLOT="0"

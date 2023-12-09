@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SigMF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python module for interacting with SigMF recordings."
 
 HOMEPAGE="https://github.com/sigmf/sigmf-python"
 LICENSE="GNU Lesser General Public License v3 or later LGPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/99/cc/0b54071d9e6ba769c2afee7cb7f155c64fc969141463e5c19385ffc2ae72/SigMF-${REALVERSION}.tar.gz"
-SOURCEFILE="SigMF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

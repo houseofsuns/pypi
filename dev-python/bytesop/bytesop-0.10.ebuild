@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BytesOp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bitwise operations on bytestrings."
 
 HOMEPAGE="https://github.com/janbrohl/BytesOp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a0/ff/f4148fa0bdd9685963166130ff5a28a8522b372710be59f17531cd213227/BytesOp-${REALVERSION}.zip"
-SOURCEFILE="BytesOp-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

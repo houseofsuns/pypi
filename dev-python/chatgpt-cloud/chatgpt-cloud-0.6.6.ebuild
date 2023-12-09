@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChatGPT-Cloud"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for Pandora-ChatGPT"
 
 HOMEPAGE="https://github.com/lannychan/pandora-cloud"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ee/ef/8774990d6705a801984d389a57e049128ebc73589cc0603db60faec53789/ChatGPT-Cloud-${REALVERSION}.tar.gz"
-SOURCEFILE="ChatGPT-Cloud-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

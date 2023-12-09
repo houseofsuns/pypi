@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="toga-iOS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An iOS backend for the Toga widget toolkit."
 
 HOMEPAGE="https://beeware.org/project/projects/libraries/toga/"
 LICENSE="New BSD"
-SRC_URI="https://files.pythonhosted.org/packages/b9/73/c47bf247172f103c6017637d7a92750d869a8d900203297d53a8e2800d6d/toga-iOS-${REALVERSION}.tar.gz"
-SOURCEFILE="toga-iOS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

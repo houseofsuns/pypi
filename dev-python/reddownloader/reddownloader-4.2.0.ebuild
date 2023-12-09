@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RedDownloader"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to download Reddit hosted videos easily and efficiently."
 
 HOMEPAGE="https://github.com/JackhammerYT/RedVidDownloader"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/5e/0451d20b9271bc63ad000385e4b75740e2ced60bac5cfed45794de2df387/RedDownloader-${REALVERSION}.tar.gz"
-SOURCEFILE="RedDownloader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CausalEGM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CausalEGM: a general causal inference framework by encoding generat
 
 HOMEPAGE="https://github.com/SUwonglab/CausalEGM"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4f/2c/736020638117b9f73cf7def4be9c77865d9444aebed35748860130f92264/CausalEGM-${REALVERSION}.tar.gz"
-SOURCEFILE="CausalEGM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

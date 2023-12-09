@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UrsinaNetworking"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A high level API for networking !"
 
 HOMEPAGE="https://github.com/kstzl/UrsinaNetworking"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/b4/234ad0536f6e15d21a6f859a27b4e113b14cc806a5f9520fe63eab6c3b86/UrsinaNetworking-${REALVERSION}.tar.gz"
-SOURCEFILE="UrsinaNetworking-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

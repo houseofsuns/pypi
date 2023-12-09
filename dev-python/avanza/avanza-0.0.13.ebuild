@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Avanza"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python wrapper for Unofficial Avanza API"
 
 HOMEPAGE="https://github.com/North14/avanza"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/31/9435bf054cee11153ec137ff604d5d4aa99e60bc0d214ecef5d4c8d577a9/Avanza-${REALVERSION}.tar.gz"
-SOURCEFILE="Avanza-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

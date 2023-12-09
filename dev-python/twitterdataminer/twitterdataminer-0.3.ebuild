@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TwitterDataMiner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Twitter data mining scripts"
 
 HOMEPAGE="http://github.com/Ibercivis/TwitterDataMining"
 LICENSE="GPL2+"
-SRC_URI="https://files.pythonhosted.org/packages/4f/ba/14fcfabaec66532f5b0f14cb8f762f616c6be70b867f4b9dd4ebb38981ff/TwitterDataMiner-${REALVERSION}.tar.gz"
-SOURCEFILE="TwitterDataMiner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyCondor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python utility for HTCondor"
 
 HOMEPAGE="https://github.com/pycondor/pycondor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/cb/4962362421822b8f1c5fa522148c2958605a075a6ba4e33eea8151219612/PyCondor-${REALVERSION}.tar.gz"
-SOURCEFILE="PyCondor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

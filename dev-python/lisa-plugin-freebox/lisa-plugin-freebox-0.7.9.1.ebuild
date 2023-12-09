@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="lisa-plugin-Freebox"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LISA home automation system - Plugin"
 
 HOMEPAGE="http://github.com/jfcjfc/LISA-PLUGINS-Freebox"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2f/28/7f12de5810b3d5d84e49491bd2e94e994488259828c5b15dcdd44374862e/lisa-plugin-Freebox-${REALVERSION}.tar.gz"
-SOURCEFILE="lisa-plugin-Freebox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

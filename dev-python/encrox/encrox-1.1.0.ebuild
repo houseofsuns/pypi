@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EncroX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="EncroX是一个强大的加密拓展工具，旨在为您的应用�
 
 HOMEPAGE="https://github.com/KindLittleTurtle/EncroX"
 LICENSE="AGPL3.0"
-SRC_URI="https://files.pythonhosted.org/packages/c4/5a/210fd0ddeaf8ed1a29dcc691c1944061c1fa3f7f21c1b02fb8b28a885b97/EncroX-${REALVERSION}.tar.gz"
-SOURCEFILE="EncroX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

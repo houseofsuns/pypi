@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="classification-models-3d"
+LITERALNAME="classification-models-3D"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Set of models for classification of 3D volumes."
 
 HOMEPAGE="https://github.com/ZFTurbo/classification_models_3D"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/0b/44dda283d6053f380b333501de43c4b562ca9a15bab96e6e1af73d49ff8c/classification_models_3D-${REALVERSION}.tar.gz"
-SOURCEFILE="classification_models_3D-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

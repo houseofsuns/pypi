@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OMSimulator"
 REALVERSION="2.1.1.post248"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OMSimulator - the FMI-based co-simulation environment for Python"
 
 HOMEPAGE="http://openmodelica.org/"
 LICENSE="BSD, OSMC-PL 1.2, GPL user's choice"
-SRC_URI="https://files.pythonhosted.org/packages/18/8a/7f276af0251b208955da4e14ec6c3ef7be66997eddb37da8f9625acea73c/OMSimulator-${REALVERSION}.tar.gz"
-SOURCEFILE="OMSimulator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

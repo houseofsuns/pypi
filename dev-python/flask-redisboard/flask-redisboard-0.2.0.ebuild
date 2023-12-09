@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Redisboard"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A flask extension to support user view and manage redis with beauti
 
 HOMEPAGE="https://github.com/hjlarry/flask-redisboard"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6d/95/db8d89563fd599f7b48b242ca5ebf5bbf0fcea1447fd684ca7a91ebd26cb/Flask-Redisboard-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Redisboard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

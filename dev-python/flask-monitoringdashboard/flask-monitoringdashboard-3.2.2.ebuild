@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-MonitoringDashboard"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automatically monitor the evolving performance of Flask/Python web 
 
 HOMEPAGE="https://github.com/flask-dashboard/Flask-MonitoringDashboard"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d6/d0/254ff48d8de20a95b225eb995a626e0e807cd615a941b504805f5fdf992e/Flask-MonitoringDashboard-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-MonitoringDashboard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

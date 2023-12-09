@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KTBoost"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Implements several boosting algorithms in Python"
 
 HOMEPAGE="https://github.com/fabsig/KTBoost"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/85/72/32bce1b2f133ca5c48e168c932870da1212771c21ce31dae0060bd45e22a/KTBoost-${REALVERSION}.tar.gz"
-SOURCEFILE="KTBoost-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

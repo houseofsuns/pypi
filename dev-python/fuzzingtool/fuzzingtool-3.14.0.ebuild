@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FuzzingTool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Software for fuzzing, used on web application pentestings."
 
 HOMEPAGE="https://github.com/NESCAU-UFLA/FuzzingTool/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/66/05/a26248a0908ba83651ef148466d74b1860152b4203fcdbe58f2a790e9695/FuzzingTool-${REALVERSION}.tar.gz"
-SOURCEFILE="FuzzingTool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

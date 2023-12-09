@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="commandRunner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Allows thread safe, object oriented running of commandline operatio
 
 HOMEPAGE="https://github.com/AnalyticsAutomated/commandRunner.git"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c5/00/ed9b710c14f0737f8c97104cf143c17eb14eb8a983d355fff9527d786faf/commandRunner-${REALVERSION}.tar.gz"
-SOURCEFILE="commandRunner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LbNightlyTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LHCb Nightly tools"
 
 HOMEPAGE="https://gitlab.cern.ch/lhcb-core/LbNightlyTools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/86/e8/4488214a041b2b8f72f1180141e9392be480ea43691ee6dccf6b0193d46e/LbNightlyTools-${REALVERSION}.tar.gz"
-SOURCEFILE="LbNightlyTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

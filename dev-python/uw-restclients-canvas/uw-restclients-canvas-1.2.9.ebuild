@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UW-RestClients-Canvas"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for connecting to the Canvas LMS"
 
 HOMEPAGE="https://github.com/uw-it-aca/uw-restclients-canvas"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0c/4b/b36e4876bb4ed66ec728b96646dc59e2fb7e0431a3d98412128490c8cd3e/UW-RestClients-Canvas-${REALVERSION}.tar.gz"
-SOURCEFILE="UW-RestClients-Canvas-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MultiAssayExperiment"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Container class for representing and managing multi-omics genomic e
 
 HOMEPAGE="https://github.com/BiocPy/MultiAssayExperiment"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/01/d1/e27d1b65c82fbf804c3f7eff84f81aa9f899759ac4822b5f7599433b8203/MultiAssayExperiment-${REALVERSION}.tar.gz"
-SOURCEFILE="MultiAssayExperiment-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

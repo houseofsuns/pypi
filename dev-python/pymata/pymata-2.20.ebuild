@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMata"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python Protocol Abstraction Library For Arduino Firmata"
 
 HOMEPAGE="https://github.com/MrYsLab/PyMata"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/de/02/174fceebefe3f74715f44e82a896b11f73ec782f0401eebd4baeb3c491cf/PyMata-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

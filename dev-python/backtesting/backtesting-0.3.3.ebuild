@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Backtesting"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Backtest trading strategies in Python"
 
 HOMEPAGE="https://kernc.github.io/backtesting.py/"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/97/41/fb91644ac11bfcd72212fcd187c5388d402b4f8f9ed4a35d0cd61c2c8e1a/Backtesting-${REALVERSION}.tar.gz"
-SOURCEFILE="Backtesting-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

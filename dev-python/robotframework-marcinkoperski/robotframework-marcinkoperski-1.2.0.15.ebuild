@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="robotframework-MarcinKoperski"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="RobotFramework Marcin Koperski bundle"
 
 HOMEPAGE="https://github.com/IlfirinPL/robotframework-MarcinKoperski"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7d/78/6873fb748cdf210dc04e7c40a0b95206105df1ff1301d0fd6a06e3c79fad/robotframework-MarcinKoperski-${REALVERSION}.tar.gz"
-SOURCEFILE="robotframework-MarcinKoperski-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

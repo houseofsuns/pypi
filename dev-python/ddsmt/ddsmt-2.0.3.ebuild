@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ddSMT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A delta debugger for SMT-LIBv2 files"
 
 HOMEPAGE="https://github.com/ddsmt/ddSMT"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e4/bc/fc2689f33e4b50a6c206c4a4b581c3a7a3f29ec44600580967ec4b9f9245/ddSMT-${REALVERSION}.tar.gz"
-SOURCEFILE="ddSMT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

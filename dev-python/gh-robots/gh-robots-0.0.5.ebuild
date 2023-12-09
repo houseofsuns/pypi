@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Gh-Robots"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Github API-based Robot"
 
 HOMEPAGE="https://github.com/CoolPlayLin/Gh-Robot"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/d1/29/081f35502be26a41dcea89ca81b043396c0bf6da51140cf88bd3b7c7c3fe/Gh-Robots-${REALVERSION}.tar.gz"
-SOURCEFILE="Gh-Robots-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

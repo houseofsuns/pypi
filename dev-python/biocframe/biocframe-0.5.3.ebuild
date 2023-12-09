@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BiocFrame"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flexible dataframe representation to support nested structures."
 
 HOMEPAGE="https://github.com/BiocPy/biocframe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/38/5c/4992865727ecf443e23642cff5e08a0283aaef824fff54566ad599d1cfd3/BiocFrame-${REALVERSION}.tar.gz"
-SOURCEFILE="BiocFrame-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

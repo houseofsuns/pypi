@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyW215"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Interface for d-link W215 Smart Plugs."
 
 HOMEPAGE="https://github.com/linuxchristian/pyW215"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6f/4a/c8cff44540c36235193a923b34df1d83c5be134dda9f08f3c5cce46046df/pyW215-${REALVERSION}.tar.gz"
-SOURCEFILE="pyW215-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

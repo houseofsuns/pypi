@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Orange3-Educational"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Orange Educational add-on for Orange data mining software package."
 
 HOMEPAGE="https://github.com/biolab/orange3-educational"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c0/04/c010cc70127b065022b670f40cd91494d323ff7fed9ab204f39496166299/Orange3-Educational-${REALVERSION}.tar.gz"
-SOURCEFILE="Orange3-Educational-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

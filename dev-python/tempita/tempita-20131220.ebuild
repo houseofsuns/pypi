@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Tempita"
 REALVERSION="0.5.3dev"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A very small text templating language"
 
 HOMEPAGE="http://pythonpaste.org/tempita/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/d9/736ee2b825ff601151676ce30889de2f7df2bac59a2451f069a8a15af19e/Tempita-${REALVERSION}.tar.gz"
-SOURCEFILE="Tempita-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

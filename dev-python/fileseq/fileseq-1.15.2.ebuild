@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Fileseq"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library for parsing frame ranges and file sequences common
 
 HOMEPAGE="https://github.com/justinfx/fileseq"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/76/cd/a1591bd45673e212ad71c2df4f1bd1a446f11f0cf45349c1cdd6e68632f0/Fileseq-${REALVERSION}.tar.gz"
-SOURCEFILE="Fileseq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CONGA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
@@ -15,8 +16,8 @@ DESCRIPTION="Combined Open and Narrow searches via Group Analysis"
 
 HOMEPAGE="https://github.com/freejstone/CONGA"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3a/c3/adc55e19363d428ea41a46fbf51fbf3fd7b02fd0f69d5a0f78bf6f64822a/CONGA-${REALVERSION}.tar.gz"
-SOURCEFILE="CONGA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

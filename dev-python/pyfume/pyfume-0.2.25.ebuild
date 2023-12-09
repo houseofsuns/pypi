@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyFUME"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python package for fuzzy model estimation"
 
 HOMEPAGE="https://github.com/CaroFuchs/pyFUME"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/7d/2b/04484978ebad12ecc58f1d1788b5c7e290f34638b47e351123ea4cc7f1c2/pyFUME-${REALVERSION}.tar.gz"
-SOURCEFILE="pyFUME-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

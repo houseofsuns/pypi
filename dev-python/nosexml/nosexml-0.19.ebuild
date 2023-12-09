@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NoseXML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="XML Output plugin for Nose / Nosetests"
 
 HOMEPAGE="http://cheeseshop.python.org/pypi/NoseXML/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/9a/a9/0634f104219b253309031768aa95b2997239a8d877aa06ab464da3f65629/NoseXML-${REALVERSION}.tar.gz"
-SOURCEFILE="NoseXML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

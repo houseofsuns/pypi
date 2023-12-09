@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Topyfic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Topyfic is a Python package designed to identify reproducible laten
 
 HOMEPAGE="https://github.com/mortazavilab/Topyfic"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/51/2f615bce8f0d12a6e18e5f37b5b2d43effcbca8f4b4e9cfae2c9e487947e/Topyfic-${REALVERSION}.tar.gz"
-SOURCEFILE="Topyfic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

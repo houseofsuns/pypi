@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="material-engineering-QBD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for chemical elements and compounds."
 
 HOMEPAGE="https://github.com/QuantumBrainDisorder/material_engineering_QBD"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c5/aa/dab8b58513aa4ce3964986c89399a2d10f92e138b97cc026d66d4087a28f/material_engineering_QBD-${REALVERSION}.tar.gz"
-SOURCEFILE="material_engineering_QBD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

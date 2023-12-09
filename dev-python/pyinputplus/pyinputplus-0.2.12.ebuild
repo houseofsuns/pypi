@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyInputPlus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Provides more featureful versions of input() and raw_input()."
 
 HOMEPAGE="https://github.com/asweigart/pyinputplus"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/6a/d4/afb45ed88323ef6d3c4cbf48e9c1bac38059a168b8392a56f3b8f9d1d39c/PyInputPlus-${REALVERSION}.tar.gz"
-SOURCEFILE="PyInputPlus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

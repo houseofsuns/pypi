@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TurboGears"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Front-to-back, open-source, rapid web development framework"
 
 HOMEPAGE="http://www.turbogears.org/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/35/80872474a6663b6994b6879041a38b2fa81a34098e331f2ffddd43e2c8d3/TurboGears-${REALVERSION}.tar.gz"
-SOURCEFILE="TurboGears-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

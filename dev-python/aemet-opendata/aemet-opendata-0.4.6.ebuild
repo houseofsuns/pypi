@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AEMET-OpenData"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="AEMET OpenData Rest API library"
 
 HOMEPAGE="https://github.com/Noltari/AEMET-OpenData"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/c4/5e/192c805aec49bff381a866e06ad7d0abc5316756415571a543ad067b59c3/AEMET-OpenData-${REALVERSION}.tar.gz"
-SOURCEFILE="AEMET-OpenData-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

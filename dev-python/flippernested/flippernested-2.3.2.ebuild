@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FlipperNested"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Recover keys from collected nonces"
 
 HOMEPAGE="https://github.com/AloneLiberty/FlipperNestedRecovery"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9c/ce/51ca5bb7b62a5b10925482dfbbe1ffe2d3b1b085408dac3d57e9ed82be3b/FlipperNested-${REALVERSION}.tar.gz"
-SOURCEFILE="FlipperNested-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

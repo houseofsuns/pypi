@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FoxDot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Live coding music with SuperCollider"
 
 HOMEPAGE="http://foxdot.org/"
 LICENSE="cc-by-sa-4.0"
-SRC_URI="https://files.pythonhosted.org/packages/dd/7c/4aa2f586a669a8abcf9423040135b0f1ca829d2de2ee00c3c51c724bea48/FoxDot-${REALVERSION}.tar.gz"
-SOURCEFILE="FoxDot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MagnetiCalc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MagnetiCalc calculates the magnetic flux density, vector potential,
 
 HOMEPAGE="https://github.com/shredEngineer/MagnetiCalc"
 LICENSE="ISC License"
-SRC_URI="https://files.pythonhosted.org/packages/b9/97/e621696b60b1356a465f97b3507fc2e1997767835d15da653d00da695eb6/MagnetiCalc-${REALVERSION}.tar.gz"
-SOURCEFILE="MagnetiCalc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

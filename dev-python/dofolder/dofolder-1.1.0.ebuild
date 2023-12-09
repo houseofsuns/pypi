@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="doFolder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Manage files more easily"
 
 HOMEPAGE="https://kuankuan2007.gitee.io/docs/do-folder/"
 LICENSE="Mulan PSL v2"
-SRC_URI="https://files.pythonhosted.org/packages/80/78/cabd62d495ceb89f268b0e6b5029bbe9942f176f53001a69999532fdf596/doFolder-${REALVERSION}.tar.gz"
-SOURCEFILE="doFolder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

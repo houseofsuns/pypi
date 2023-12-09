@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDMXControl"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python 3 module to control DMX using OpenDMX or uDMX. Featuring f
 
 HOMEPAGE="https://github.com/MattIPv4/PyDMXControl/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/73/3a/1ac98a5695a3e4f25008dc8928ab51da55b0e27a83605f91ac657b214c52/PyDMXControl-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDMXControl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

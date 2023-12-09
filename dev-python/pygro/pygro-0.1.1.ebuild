@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyGRO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python Integrator for General Relativistic Orbits"
 
 HOMEPAGE=""
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/75/76/f4ce52278167d14362124b36f32f64b705ba790b81459c0a150ad32c3bed/PyGRO-${REALVERSION}.tar.gz"
-SOURCEFILE="PyGRO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

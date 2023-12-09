@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XnatUploadTool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tool for assisting in uploading data directly to xnat imaging resea
 
 HOMEPAGE="https://bitbucket.org/radiologics/XnatUploadTool"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/fc/51/e67db6d367a3540c3303dd72d8ee74c5d6ffc2c82c046b044c71e4db5444/XnatUploadTool-${REALVERSION}.tar.gz"
-SOURCEFILE="XnatUploadTool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

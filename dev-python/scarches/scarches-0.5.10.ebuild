@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="scArches"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Transfer learning with Architecture Surgery on Single-cell data"
 
 HOMEPAGE="https://github.com/theislab/scarches"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/db/2f/350eedcac5ce463ce64c55d94c7325c8fa043f93a12cdc287b278a439afa/scArches-${REALVERSION}.tar.gz"
-SOURCEFILE="scArches-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SiEPICLab"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Create Testing routine files for use with the SiEPICLAB testing pac
 
 HOMEPAGE="https://github.com/SiEPIC/pyOptomip"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/85/67/e39ee0428a5004795eabdf99f3a261c22f72dda30fcc51bfdd84f3a4f6ae/SiEPICLab-${REALVERSION}.tar.gz"
-SOURCEFILE="SiEPICLab-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

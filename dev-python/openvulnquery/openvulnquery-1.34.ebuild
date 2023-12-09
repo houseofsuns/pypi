@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenVulnQuery"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python-based module(s) to query the Cisco PSIRT openVuln API."
 
 HOMEPAGE="https://github.com/CiscoPSIRT/openVulnQuery"
 LICENSE="The MIT License MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6f/b1/18d1b4089fa1c30acc8d7809b98c44604b0c11b75b889e9b48b1d625b679/OpenVulnQuery-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenVulnQuery-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

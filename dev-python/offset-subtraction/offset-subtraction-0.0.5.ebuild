@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Offset-Subtraction"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A napari plugin in oder to subtract an intensity offset such as aut
 
 HOMEPAGE="https://github.com/MBPhys/Offset-Subtraction"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ec/db/0a1f1ed9128d0a9227810675ad04ebc8765a088c273a497de6d36cf19e6a/Offset-Subtraction-${REALVERSION}.tar.gz"
-SOURCEFILE="Offset-Subtraction-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

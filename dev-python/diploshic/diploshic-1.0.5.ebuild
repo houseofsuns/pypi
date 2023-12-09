@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="diploSHIC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="diploSHIC"
 
 HOMEPAGE="https://github.com/kr-colab/diploSHIC"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/12/bd/e811845aaf4d50d3e3197cf46dde64cdef271d370a0658f015db8aa52ca3/diploSHIC-${REALVERSION}.tar.gz"
-SOURCEFILE="diploSHIC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

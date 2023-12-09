@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ImageEffects"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library to add effects to your images."
 
 HOMEPAGE="https://github.com/prashantrahul141/ImageEffects"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fb/2b/2e6ba570cebbaf3a8d87367288a2fa05ffb06a5c453e85ab405921696fe4/ImageEffects-${REALVERSION}.tar.gz"
-SOURCEFILE="ImageEffects-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

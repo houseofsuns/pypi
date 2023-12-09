@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RADD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="RADD (Race Against Drift-Diffusion model) is a python package for f
 
 HOMEPAGE="http://github.com/CoAxLab/radd"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7b/39/6b193cec0bdff0965e54f722d89764c8ee4312a1fadf4b89da1ab314a13a/RADD-${REALVERSION}.tar.gz"
-SOURCEFILE="RADD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

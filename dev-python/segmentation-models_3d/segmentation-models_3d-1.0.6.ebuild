@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="segmentation-models-3d"
+LITERALNAME="segmentation-models-3D"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Set of Keras models for segmentation of 3D volumes ."
 
 HOMEPAGE="https://github.com/ZFTurbo/segmentation_models_3D"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/9f/1dfb94d781226d889284be8b90dd731c4469ac14c291accebb67c3e59cdd/segmentation_models_3D-${REALVERSION}.tar.gz"
-SOURCEFILE="segmentation_models_3D-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

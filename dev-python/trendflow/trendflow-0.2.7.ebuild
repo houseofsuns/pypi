@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TrendFlow"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tool for literature research and analysis"
 
 HOMEPAGE="https://github.com/leoxiang66/research-trends-analysis"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ca/88/4d529406f524b43d9d2bc19693b511b1c45539a03bcf1c878ad6b49850f0/TrendFlow-${REALVERSION}.tar.gz"
-SOURCEFILE="TrendFlow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

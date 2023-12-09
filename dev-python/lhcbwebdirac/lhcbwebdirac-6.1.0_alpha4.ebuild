@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LHCbWebDIRAC"
 REALVERSION="6.1.0a4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LHCbWebDIRAC is a portal for the DIRAC software."
 
 HOMEPAGE="https://gitlab.cern.ch/lhcb-dirac/LHCbWebDIRAC/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/6b/39/92119b82bd2f44a6db8ad19d67646fd2d5d1697b80254134d7e5f851e6f1/LHCbWebDIRAC-${REALVERSION}.tar.gz"
-SOURCEFILE="LHCbWebDIRAC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

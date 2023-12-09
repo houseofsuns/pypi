@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PassportEye"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Extraction of machine-readable zone information from passports, vis
 
 HOMEPAGE="https://github.com/konstantint/PassportEye"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/98/45de816080d9d54ee4bb6aeef1d3075068dd57676c46f566b8e4ebb9ca73/PassportEye-${REALVERSION}.tar.gz"
-SOURCEFILE="PassportEye-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

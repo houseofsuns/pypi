@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyDigitalWaveTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for operations with VCD and other digital wave files"
 
 HOMEPAGE="https://github.com/Nic30/pyDigitalWaveTools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ab/6e/89fb3afa3e53b5955b68f14f2ab731199c89f7b7fd4a247b195cea023218/pyDigitalWaveTools-${REALVERSION}.tar.gz"
-SOURCEFILE="pyDigitalWaveTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

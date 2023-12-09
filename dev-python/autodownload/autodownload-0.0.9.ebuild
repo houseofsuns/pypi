@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="autoDownload"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="download files quickly"
 
 HOMEPAGE="https://kuankuan2007.gitee.io/docs/multithreaded-download/"
 LICENSE="Mulan PSL v2"
-SRC_URI="https://files.pythonhosted.org/packages/53/6d/7d03e99f4b4b45c5cadfda0813519e1d37f1652d5c52d765183ee8026562/autoDownload-${REALVERSION}.tar.gz"
-SOURCEFILE="autoDownload-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

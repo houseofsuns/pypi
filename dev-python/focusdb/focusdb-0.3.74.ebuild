@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="focusDB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Draft genome reassembly using riboSeed, for the construction of hig
 
 HOMEPAGE="https://github.com/FEMLab/focusdb"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/f6/77ed6f1d81a55f2056578568e0613e6fda98a54f7ddcd65cb0365fe5428b/focusDB-${REALVERSION}.tar.gz"
-SOURCEFILE="focusDB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

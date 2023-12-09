@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="py-KISSmetrics"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Official KISSmetrics client library."
 
 HOMEPAGE="https://github.com/kissmetrics/py-KISSmetrics/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/4d/d8e940c168de8d5bdd5d213a94d72d086df15398ef6130760cfbc3b6d6d1/py-KISSmetrics-${REALVERSION}.tar.gz"
-SOURCEFILE="py-KISSmetrics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

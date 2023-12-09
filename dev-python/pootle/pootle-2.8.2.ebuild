@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pootle"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An online collaborative localization tool."
 
 HOMEPAGE="http://pootle.translatehouse.org"
 LICENSE="GNU General Public License 3 or later GPLv3+"
-SRC_URI="https://files.pythonhosted.org/packages/1d/b5/74de9b1ee914589a7e6bea90a6be376a06d523887c1f4b17e602a4a97aa6/Pootle-${REALVERSION}.tar.bz2"
-SOURCEFILE="Pootle-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.bz2"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 
 SLOT="0"

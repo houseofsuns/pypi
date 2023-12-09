@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DockerENT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tool to analyse issues with running docker container(s)"
 
 HOMEPAGE="https://github.com/r0hi7/DockerENT"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/31/8a/aee5f25a86a14ef00740a98e4920a3d49eb9d3893f953ec790da7219ab52/DockerENT-${REALVERSION}.tar.gz"
-SOURCEFILE="DockerENT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

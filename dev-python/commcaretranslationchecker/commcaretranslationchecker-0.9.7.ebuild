@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CommcareTranslationChecker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Command line tool to check that Bulk Translation files for CommCare
 
 HOMEPAGE="https://github.com/dimagi/CommcareTranslationChecker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/3c/1ee7617ddfde695d836ea395fe74f3087964926c17bfcd78287cff5e31ae/CommcareTranslationChecker-${REALVERSION}.tar.gz"
-SOURCEFILE="CommcareTranslationChecker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

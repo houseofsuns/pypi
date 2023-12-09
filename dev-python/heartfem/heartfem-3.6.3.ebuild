@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="heartFEM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Optimization of patient specific heart model with myocardium FEM an
 
 HOMEPAGE="https://github.com/WeiXuanChan/heartFEM"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/cd/5ca6c6712fdf9b5bfc5697a3851607e49d35ae9ebbc71372ca026e19f2d2/heartFEM-${REALVERSION}.tar.gz"
-SOURCEFILE="heartFEM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

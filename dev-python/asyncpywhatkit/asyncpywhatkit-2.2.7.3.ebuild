@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AsyncPywhatKit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="AsyncPywhatKit is a Simple and Powerful WhatsApp Automation Library
 
 HOMEPAGE="https://github.com/SigireddyBalasai/AsyncPywhatKit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/31/c53af2f4a98250f1cfa1695cc877d9b51a33ddaa6c42e5bff775401061f1/AsyncPywhatKit-${REALVERSION}.tar.gz"
-SOURCEFILE="AsyncPywhatKit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

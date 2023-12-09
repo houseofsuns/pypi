@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Rabbyt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A fast 2D sprite engine using OpenGL"
 
 HOMEPAGE="http://matthewmarshall.org/projects/rabbyt/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/27/3e708b61fcf9714f092ae4b894e2f7b25ee558f06b1ac2ad06cf0a4080d6/Rabbyt-${REALVERSION}.zip"
-SOURCEFILE="Rabbyt-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

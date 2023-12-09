@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IngeniSkel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A collection of skeletons for quickstarting projects with Ingeniweb
 
 HOMEPAGE="http://ingeniweb.svn.sourceforge.net/svnroot/ingeniweb/IngeniSkel"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/85/3c/085e1f70c842db5cae9a9a8f4ff171a8f358381d3db5de0905f1ef348412/IngeniSkel-${REALVERSION}.tar.gz"
-SOURCEFILE="IngeniSkel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

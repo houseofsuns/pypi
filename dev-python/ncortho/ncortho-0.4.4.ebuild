@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ncOrtho"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Targeted ortholog search for miRNAs"
 
 HOMEPAGE="https://github.com/felixlangschied/ncortho"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ac/33/bec6c0344d04a1d87219dfa8a9a44eb0d0a74cebecf769489fc457b45bdd/ncOrtho-${REALVERSION}.tar.gz"
-SOURCEFILE="ncOrtho-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

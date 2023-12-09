@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Houndify"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Houndify libraries and SoundHound speex encoder"
 
 HOMEPAGE="https://www.houndify.com/sdks#python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d1/60/015842f247255fd942dbf86e47b29361adeb3bfba4dbe98d23fbb37f558b/Houndify-${REALVERSION}.tar.gz"
-SOURCEFILE="Houndify-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMCT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple implement for MCTS algorithm."
 
 HOMEPAGE="https://github.com/ulfaric/PyMCT"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2a/a2/0087ce48f2941f32847629bddb59cccd492255dd7aca255cff77e1045936/PyMCT-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMCT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

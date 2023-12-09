@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CryptographyMethods"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An implementation of cryptography used for keeping secrets within L
 
 HOMEPAGE="https://github.com/guyyatsu/CryptographyMethods"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/77/f16dc3856d72cf195fa97559620f7adeba03896d3c08d3aadf0c3135ef52/CryptographyMethods-${REALVERSION}.tar.gz"
-SOURCEFILE="CryptographyMethods-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

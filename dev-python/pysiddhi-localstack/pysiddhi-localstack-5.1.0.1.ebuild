@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySiddhi-localstack"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python wrapper for \`Siddhi 5.x.x\`."
 
 HOMEPAGE="https://github.com/localstack/PySiddhi"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1c/e5/28cb53c3004a5322b6ece911dac4bd640f1c2ff217ee6a8c1840f6c6424f/PySiddhi-localstack-${REALVERSION}.tar.gz"
-SOURCEFILE="PySiddhi-localstack-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

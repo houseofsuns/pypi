@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LambdaData"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Data Science Iterator Algorithm Library"
 
 HOMEPAGE=""
 LICENSE="Free for non-commercial use"
-SRC_URI="https://files.pythonhosted.org/packages/19/29/ec71452032b99c6803a29043a15f0646d3726d5c37f70fee268500e72931/LambdaData-${REALVERSION}.tar.gz"
-SOURCEFILE="LambdaData-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

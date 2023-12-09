@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="petitRADTRANS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Exoplanet spectral synthesis tool for retrievals"
 
 HOMEPAGE="https://gitlab.com/mauricemolli/petitRADTRANS"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/a5/a7d711219fe1876bbe87b9ac5e9774b39ea58cb091c117a02124e6fedc16/petitRADTRANS-${REALVERSION}.tar.gz"
-SOURCEFILE="petitRADTRANS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

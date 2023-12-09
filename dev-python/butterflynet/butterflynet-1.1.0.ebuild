@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ButterflyNet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A better networking library."
 
 HOMEPAGE="https://butterflynet.veriny.tf"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e1/aa/2a1e06f5ef24a2c327b54463d427f29b4218c0d363f6651af1f91ba74d4d/ButterflyNet-${REALVERSION}.tar.gz"
-SOURCEFILE="ButterflyNet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

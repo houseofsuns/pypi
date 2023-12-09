@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GenAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python API for the Genesis platform."
 
 HOMEPAGE="https://github.com/genialis/genesis-genapi/"
 LICENSE="Proprietary software"
-SRC_URI="https://files.pythonhosted.org/packages/48/94/460841b690604e5b581c91733b36a29eab98471f4ad692f59282d4bc9902/GenAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="GenAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

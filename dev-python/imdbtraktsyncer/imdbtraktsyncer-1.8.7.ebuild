@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IMDBTraktSyncer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python script that syncs user watchlist, ratings and reviews for 
 
 HOMEPAGE="https://github.com/RileyXX/IMDB-Trakt-Syncer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/6d/f8c8b80677f12f84e82338c22df1dab5a8d32be3b6b764b42ded19ae3f6b/IMDBTraktSyncer-${REALVERSION}.tar.gz"
-SOURCEFILE="IMDBTraktSyncer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mesa-Geo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GIS extension for the Mesa agent-based modeling framework in Python
 
 HOMEPAGE="https://github.com/projectmesa/mesa-geo"
 LICENSE="Apache License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b3/c1/8d2e9dd31f55da6fee160620599d8b120cf328d9065bab0703543afdfce3/Mesa-Geo-${REALVERSION}.tar.gz"
-SOURCEFILE="Mesa-Geo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

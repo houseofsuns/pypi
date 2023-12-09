@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OnlinePVT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python SDK for accessing OnlinePVT API"
 
 HOMEPAGE="https://github.com/OnlinePVT/onlinepvt-python-sdk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/f6/afe52e657df290533935dfbd70486f98d45712480c251723fda7fdd5102a/OnlinePVT-${REALVERSION}.tar.gz"
-SOURCEFILE="OnlinePVT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

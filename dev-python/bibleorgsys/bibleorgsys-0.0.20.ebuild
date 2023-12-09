@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BibleOrgSys"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bible Organisational System — load, check, and/or export Bible fi
 
 HOMEPAGE="http://Freely-Given.org/Software/BibleOrganisationalSystem/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e2/22/aa1830a94d3736d407bb7300e5f524b9b8ca5615711866f394ddc7e2c1e6/BibleOrgSys-${REALVERSION}.tar.gz"
-SOURCEFILE="BibleOrgSys-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

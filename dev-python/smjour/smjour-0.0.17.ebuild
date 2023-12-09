@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SMjour"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="investigation journal"
 
 HOMEPAGE="https://github.com/AgustinBustos/SMjour"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/03/69/940507061b36dc4569c4e2f6a19f8040789f7276e6c2a9adc7f972fcea92/SMjour-${REALVERSION}.tar.gz"
-SOURCEFILE="SMjour-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

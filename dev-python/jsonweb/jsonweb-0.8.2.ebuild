@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JsonWeb"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Quickly add json serialization and deserialization to your python c
 
 HOMEPAGE="UNKNOWN"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/ca/92/12b3127e09b3141989a7e42f326a2f359514aae1e7e2fc4a568c97ef6cb9/JsonWeb-${REALVERSION}.tar.gz"
-SOURCEFILE="JsonWeb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

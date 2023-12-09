@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UC2-REST"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This pacage will help you to drive the ESP32-driven microscopy cont
 
 HOMEPAGE="https://github.com/openUC2/UC2-REST"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/64/c8/6fbaed0915fbd8d66c0c33daab5742d41a5ed3d8c42bb7e9e96d40172397/UC2-REST-${REALVERSION}.tar.gz"
-SOURCEFILE="UC2-REST-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

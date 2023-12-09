@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ScratchEncoder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Scratch Encoder"
 
 HOMEPAGE="https://github.com/The-Cloud-Dev/ScratchEncoder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/46/4b/df76b1908dc5c193a9bea94736249353cca5aa80919e11138c02142b3d5a/ScratchEncoder-${REALVERSION}.tar.gz"
-SOURCEFILE="ScratchEncoder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-GraphQL-Auth"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="JWT library for Flask-GraphQL"
 
 HOMEPAGE="https://github.com/NovemberOscar/Flask-GraphQL-Auth"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/74/f4/e98ebe85b8e674c2898a7670049ed38e65f2ef4247b42502f80e3deabe88/Flask-GraphQL-Auth-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-GraphQL-Auth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

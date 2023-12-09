@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NiMARE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NiMARE: Neuroimaging Meta-Analysis Research Environment"
 
 HOMEPAGE="https://github.com/neurostuff/NiMARE"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/a5/b124619a6abf2268ef0b9421a674d7be4d1dfd28a9fc7f6dc5571b6b3123/NiMARE-${REALVERSION}.tar.gz"
-SOURCEFILE="NiMARE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

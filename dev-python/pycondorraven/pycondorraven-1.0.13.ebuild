@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyCondorRaven"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Investment analytics and machine learning tools"
 
 HOMEPAGE="https://s3pip-library.s3.amazonaws.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cc/c0/28358d26837dc98bef71da631203e05c5c83fa401ba50dbb206317a2bac5/PyCondorRaven-${REALVERSION}.tar.gz"
-SOURCEFILE="PyCondorRaven-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

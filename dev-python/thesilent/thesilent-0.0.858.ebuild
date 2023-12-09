@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TheSilent"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="TheSilent contains free and open source tools similar to hak5! Plea
 
 HOMEPAGE="https://github.com/Invizabel/The-Silent"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b2/87/94d6e4d5a7dbe0b3d02df3bbfa057d08edbe085be57fdfed29c89e700238/TheSilent-${REALVERSION}.tar.gz"
-SOURCEFILE="TheSilent-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

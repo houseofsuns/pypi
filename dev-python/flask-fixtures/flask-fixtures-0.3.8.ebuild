@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Fixtures"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple library for adding database fixtures for unit tests using 
 
 HOMEPAGE="https://github.com/croach/Flask-Fixtures"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/51/f6a30e04b094c0657d66852183550c9ca708c1d2416d53a528dfad818efc/Flask-Fixtures-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Fixtures-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

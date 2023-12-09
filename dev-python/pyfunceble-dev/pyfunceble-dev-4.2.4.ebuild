@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyFunceble-dev"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The tool to check the availability or syntax of domain, IP or URL."
 
 HOMEPAGE="https://github.com/funilrys/PyFunceble"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/93/a5/9e9dcef877121d88558b31ad442295f65e9a89d7ac675df61df0189dcf9d/PyFunceble-dev-${REALVERSION}.tar.gz"
-SOURCEFILE="PyFunceble-dev-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

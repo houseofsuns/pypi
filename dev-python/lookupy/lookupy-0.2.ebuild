@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Lookupy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Django QuerySet inspired interface to query list of dicts"
 
 HOMEPAGE="https://github.com/naiquevin/lookupy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/90/bc/1fc5fdb7943c0e10300e87b71e3494b9669c9682f340231822889e4ea044/Lookupy-${REALVERSION}.tar.gz"
-SOURCEFILE="Lookupy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

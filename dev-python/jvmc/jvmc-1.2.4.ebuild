@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="jVMC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="jVMC: Versatile and performant variational Monte Carlo"
 
 HOMEPAGE="https://jvmc.readthedocs.io/en/latest/#"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/98/c5/dee9a1b11c976f8b2179338e330f6790d881f32c895ad9f1bbc1ffd310ba/jVMC-${REALVERSION}.tar.gz"
-SOURCEFILE="jVMC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="qrookDB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="tiny ORM for SQL-databases"
 
 HOMEPAGE="https://github.com/Kurush7/qrook_db"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c3/fc/fe942092ea5a792b3f1290915c8f82404305586320d1d6968fa2059e82ac/qrookDB-${REALVERSION}.tar.gz"
-SOURCEFILE="qrookDB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyCurrency-Converter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python library to convert currency using Google Finance."
 
 HOMEPAGE="http://siddharthsaxena.weebly.com/pycurrency-converter.html"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/76/5c/edba2c55eda097968e4930c2b8f1f2e6b2e2be510a825a83c86025dfee60/PyCurrency-Converter-${REALVERSION}-py2.py3.zip"
-SOURCEFILE="PyCurrency-Converter-${REALVERSION}-py2.py3.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}-py2.py3.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}-py2.py3.zip"
 RESTRICT="test"
 
 SLOT="0"

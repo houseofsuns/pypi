@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SQLAlchemy-Unchained"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Improved declarative SQLAlchemy models"
 
 HOMEPAGE="https://github.com/briancappello/sqlalchemy-unchained"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/3c/f578703ffbfe1721645fc0800d3ce33ba314b5f75f82f84363de5cba98b4/SQLAlchemy-Unchained-${REALVERSION}.tar.gz"
-SOURCEFILE="SQLAlchemy-Unchained-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyNLPIR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python wrapper around the NLPIR/ICTCLAS Chinese segmentation soft
 
 HOMEPAGE="https://github.com/tsroten/pynlpir"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2a/d7/474be875809ea2a75c1e142f03d42f907aae84f24bc72bb752337be63053/PyNLPIR-${REALVERSION}.tar.gz"
-SOURCEFILE="PyNLPIR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

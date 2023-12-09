@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PoliticsAndData"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easily summarize the csv data files from https://politicsandwar.com
 
 HOMEPAGE="https://github.com/pythonian23/PoliticsAndData"
 LICENSE="MPL-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ae/f6/78450718ff496411709192a73a4fa021923b1bdca4e0a9bad85de1f6f46b/PoliticsAndData-${REALVERSION}.tar.gz"
-SOURCEFILE="PoliticsAndData-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Assistant"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Framework for Building Virtual Assistants with Dialogflow"
 
 HOMEPAGE="https://github.com/treethought/flask-assistant"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/32/f2/65893fd5844b42978b908855dc24adf4354e1d36e456810394e81c63ebc4/Flask-Assistant-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Assistant-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

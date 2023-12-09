@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyHessian"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pytorch library for second-order based analysis and training of Neu
 
 HOMEPAGE="https://github.com/amirgholami/PyHessian"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/7b/969d33ec6231c7ad0b1eef202f9d4af4a5dae31d29d9e1494e86d682d811/PyHessian-${REALVERSION}.tar.gz"
-SOURCEFILE="PyHessian-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

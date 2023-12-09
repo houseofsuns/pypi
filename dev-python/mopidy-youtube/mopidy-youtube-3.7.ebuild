@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mopidy-YouTube"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mopidy extension for YouTube"
 
 HOMEPAGE="https://github.com/natumbri/mopidy-youtube"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d4/34/af6504a887028f56391859c660e855311e88036198a72c77fa9710ba8c34/Mopidy-YouTube-${REALVERSION}.tar.gz"
-SOURCEFILE="Mopidy-YouTube-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

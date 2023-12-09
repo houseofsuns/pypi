@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Crwy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Simple Web Crawling and Web Scraping framework"
 
 HOMEPAGE="https://github.com/wuyue92tree/crwy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/52/66cd57e721b892eafd195c734214a861e67534a0a137c30bc1cf926b26af/Crwy-${REALVERSION}.tar.gz"
-SOURCEFILE="Crwy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UW-RestClients-Core"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Core code for clients of a variety of RESTful web services at the U
 
 HOMEPAGE="https://github.com/uw-it-aca/uw-restclients-core"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0e/b6/c05bf864a29203014d2f5e7b2968fa9670adf52883c3e884fa18ce4874ed/UW-RestClients-Core-${REALVERSION}.tar.gz"
-SOURCEFILE="UW-RestClients-Core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

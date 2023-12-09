@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyTDC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Therapeutics Data Commons"
 
 HOMEPAGE="https://github.com/mims-harvard/TDC"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d4/01/bd7429c6afdcf675d7c08f69748022bd527f16788cccef6eb63e15845dbc/PyTDC-${REALVERSION}.tar.gz"
-SOURCEFILE="PyTDC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

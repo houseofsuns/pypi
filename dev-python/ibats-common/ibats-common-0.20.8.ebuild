@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IBATS-Common"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="IBATS（Integration Backtest Analysis Trade System）的公共模�
 
 HOMEPAGE="https://github.com/IBATS/IBATS_Common"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/26/1a/ab2b7aa98d4b4c6108bead8e37315f166ada5b5162644d5b957d271d41a3/IBATS_Common-${REALVERSION}.tar.gz"
-SOURCEFILE="IBATS_Common-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

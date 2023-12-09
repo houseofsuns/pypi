@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CamoTSS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CamoTSS: Detection alternative TSS in single cells"
 
 HOMEPAGE="https://github.com/StatBiomed/CamoTSS"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f3/63/83929393bc24e6c9365d2ad05fda819fdf0c14bf413784a2bcb285a0af0f/CamoTSS-${REALVERSION}.tar.gz"
-SOURCEFILE="CamoTSS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

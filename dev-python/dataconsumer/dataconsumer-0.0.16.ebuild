@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DataConsumer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="实现对数据的快速处理以及对带有不确定度的数据�
 
 HOMEPAGE="https://github.com/lsyxiaopang/auto-Dataconsuming"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/7e/0ef334868c4211b8f89380be0ba863eb0703fab79d155e4e00f8b890e1e3/DataConsumer-${REALVERSION}.tar.gz"
-SOURCEFILE="DataConsumer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="socketIO-client-nexus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A socket.io client library"
 
 HOMEPAGE="https://github.com/nexus-devs/socketIO-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/ec/5a328019992d77703fd7075e0dec80db01f2a040b831f0a7035ff5ba7fac/socketIO-client-nexus-${REALVERSION}.tar.gz"
-SOURCEFILE="socketIO-client-nexus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

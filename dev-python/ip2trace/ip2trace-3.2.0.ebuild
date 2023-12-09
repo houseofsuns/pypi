@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IP2Trace"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python tool to display geolocation information in the traceroute.
 
 HOMEPAGE="https://github.com/ip2location/ip2trace-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/07/ab/1a803768369c51a3431ca928486d1bf8b72f0ecd2c63bd4549aad702fb1c/IP2Trace-${REALVERSION}.tar.gz"
-SOURCEFILE="IP2Trace-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

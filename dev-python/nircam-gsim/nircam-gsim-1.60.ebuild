@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NIRCAM-Gsim"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NIRCAM Grism simulator, includes J.D. Smith polyclip C code"
 
 HOMEPAGE="https://github.com/npirzkal/GRISM_NIRCAM"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7d/d0/11507bd7ee0ca195877fab37fd9cba1732a0aabb41ff49af09f885870d33/NIRCAM_Gsim-${REALVERSION}.tar.gz"
-SOURCEFILE="NIRCAM_Gsim-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

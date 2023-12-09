@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GelReportModels"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Genomics England Bioinformatics team model definitions"
 
 HOMEPAGE="https://gelreportmodels.genomicsengland.co.uk"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c6/0a/b3567951daa8eab049d77b1c6f0407eeb33c719e32fc11c5334e5eaa5251/GelReportModels-${REALVERSION}.tar.gz"
-SOURCEFILE="GelReportModels-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

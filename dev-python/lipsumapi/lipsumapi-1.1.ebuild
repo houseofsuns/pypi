@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="lipsumAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A lipsum.com API for Python."
 
 HOMEPAGE="https://gitlab.com/xedre/Python-Lipsum-API"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/d8/d8b956d882bd146635180c9ac7ede5690c146d22a10628ec5efcbcd05a2a/lipsumAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="lipsumAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

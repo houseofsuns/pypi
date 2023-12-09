@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="heatmiserV3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library to interact with Heatmiser Themostats using V3"
 
 HOMEPAGE="https://github.com/andylockran/heatmiserV3"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/44/48/82cb3d17c2fe45f0241a1e0ec82392ec82049a28d7502b1175d7b3df20df/heatmiserV3-${REALVERSION}.tar.gz"
-SOURCEFILE="heatmiserV3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

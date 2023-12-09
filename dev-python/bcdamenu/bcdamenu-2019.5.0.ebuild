@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BcdaMenu"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A GUI menu button to start common software."
 
 HOMEPAGE="http://BcdaMenu.readthedocs.io"
 LICENSE="c 2009-2019, UChicago Argonne, LLC"
-SRC_URI="https://files.pythonhosted.org/packages/74/b0/6bc51c2273dc5c15b05a74f160397767372f014927ae16f60c613e56d2a5/BcdaMenu-${REALVERSION}.tar.gz"
-SOURCEFILE="BcdaMenu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Marcellus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Utilities for Quentin projects"
 
 HOMEPAGE="http://www.codevince.com"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/68/5b/cfa01bc77d7acca9bdf9e964c52dcd46ab9947be985b4e455bbe777b23a4/Marcellus-${REALVERSION}.tar.gz"
-SOURCEFILE="Marcellus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RESTEasyCLI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Handy REST API client on your terminal"
 
 HOMEPAGE="https://github.com/rapidstack/RESTEasyCLI"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/8f/19a0851526f0a0d50d1c839b9b2575c94ef4782c9216562360ea377241da/RESTEasyCLI-${REALVERSION}.tar.gz"
-SOURCEFILE="RESTEasyCLI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

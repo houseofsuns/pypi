@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Poutyne"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simplified framework and utilities for PyTorch."
 
 HOMEPAGE="https://poutyne.org"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/85/a6/0426a8732db1682d478f975f0749d3d89ad424aef4ffc06c72d655728b28/Poutyne-${REALVERSION}.tar.gz"
-SOURCEFILE="Poutyne-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MoonMag"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Magnetic induction calculations for sounding of icy moons"
 
 HOMEPAGE="https://github.com/itsmoosh/MoonMag"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/90/c8/c72d5f4101ffb584b32a8ffbd59cf78d9c5dc875a2393cde3b673211f7bb/MoonMag-${REALVERSION}.tar.gz"
-SOURCEFILE="MoonMag-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

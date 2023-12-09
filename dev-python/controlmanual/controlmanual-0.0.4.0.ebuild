@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ControlManual"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A universal console-like interface"
 
 HOMEPAGE="https://github.com/ZeroIntensity/ControlManual"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/dc/56/dd168e9fa12aded2f09b72a90b747707d2b4f4ceb535bfeab62bc1b1aa0e/ControlManual-${REALVERSION}.tar.gz"
-SOURCEFILE="ControlManual-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

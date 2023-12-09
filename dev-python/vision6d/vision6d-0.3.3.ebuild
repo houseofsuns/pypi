@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="vision6D"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="vision6D: A tool for 6D pose estimation annotation"
 
 HOMEPAGE="https://github.com/ykzzyk/vision6D"
 LICENSE="GNU GENERAL Public License"
-SRC_URI="https://files.pythonhosted.org/packages/0e/6b/74ad49ef6d15f4f0872b5ad4182dd8d15b48b941fe6ebef80b269065cb56/vision6D-${REALVERSION}.tar.gz"
-SOURCEFILE="vision6D-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

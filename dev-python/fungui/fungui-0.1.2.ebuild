@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FunGUI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="It is a tool to easily generate GUI from a function."
 
 HOMEPAGE="https://gitee.com/shawnyanwang/fun_-gui"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/49/ddbbfb8e01b7b1f77a6847cae05a9fcf8fa62dc9c91be32d46642edf62d6/FunGUI-${REALVERSION}.tar.gz"
-SOURCEFILE="FunGUI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

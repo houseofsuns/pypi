@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="rankerEval"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A fast implementation of ranking metrics for information retrieval 
 
 HOMEPAGE="https://github.com/microsoft/rankerEval"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/11/82/cbf208f76073849b96d906452d1ee54364765431f0e7127c6576cf7274d6/rankerEval-${REALVERSION}.tar.gz"
-SOURCEFILE="rankerEval-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

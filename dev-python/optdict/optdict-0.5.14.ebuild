@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OptDict"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OptDict - Option parser from dictionary, with configure from file a
 
 HOMEPAGE="http://github.com/mosquito/optdict"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/97/81/ea434ea042c0d2064ebb2e27f3507a54c5e777f43bfbc3bff9ea91d3593f/OptDict-${REALVERSION}.tar.gz"
-SOURCEFILE="OptDict-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

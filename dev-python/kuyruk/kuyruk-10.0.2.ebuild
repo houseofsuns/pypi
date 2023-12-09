@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kuyruk"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple task queue"
 
 HOMEPAGE="https://github.com/cenkalti/kuyruk"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/3d/c04bcce3ec9ff13151b99f95c3e07c5d554bda025ebc0e2cd1bdd9228253/Kuyruk-${REALVERSION}.tar.gz"
-SOURCEFILE="Kuyruk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

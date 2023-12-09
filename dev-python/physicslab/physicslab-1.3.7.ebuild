@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="physicsLab"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Doing experiments in the physics-lab-AR by python"
 
 HOMEPAGE="https://gitee.com/script2000/physicsLab"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/d5/15db305b1374885e3d3445ead9911b2fafe7d08fd9324053f966953c4422/physicsLab-${REALVERSION}.tar.gz"
-SOURCEFILE="physicsLab-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

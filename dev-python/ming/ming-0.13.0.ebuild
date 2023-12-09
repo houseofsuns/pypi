@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Ming"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bringing order to Mongo since 2009"
 
 HOMEPAGE="https://github.com/TurboGears/Ming"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/09/73b8481c7877c547cd41a68d721758400ae3e47ba32bcb08ac05319ca9bb/Ming-${REALVERSION}.tar.gz"
-SOURCEFILE="Ming-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

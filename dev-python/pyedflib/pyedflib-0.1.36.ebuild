@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyEDFlib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="library to read/write EDF+/BDF+ files"
 
 HOMEPAGE="https://github.com/holgern/pyedflib"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/0f/a1/f117b95757574de0d6108f4070f4ca06b5dc7c41baa0193d6865bd6cda2e/pyEDFlib-${REALVERSION}.tar.gz"
-SOURCEFILE="pyEDFlib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

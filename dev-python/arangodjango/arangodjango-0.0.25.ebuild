@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ArangoDjango"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bridge between the django and the arangodb world"
 
 HOMEPAGE="https://github.com/saeschdivara/ArangoDjango"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/93/33955e082a6140f3c38681909c4c62062626982967e16fbee27faad5ad26/ArangoDjango-${REALVERSION}.tar.gz"
-SOURCEFILE="ArangoDjango-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

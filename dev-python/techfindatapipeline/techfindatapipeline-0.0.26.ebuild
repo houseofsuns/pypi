@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TechfinDataPipeline"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://totvstfs.visualstudio.com/Techfin/_git/techfin-ds-golden-data-pipeline"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/00/1a/cd5ce5993f648aeff81eaf3bbe76773a63bb7e7e4ab154614cae7ace1dc9/TechfinDataPipeline-${REALVERSION}.tar.gz"
-SOURCEFILE="TechfinDataPipeline-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

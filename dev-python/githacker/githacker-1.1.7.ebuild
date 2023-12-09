@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GitHacker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A multiple threads tool to download the \`.git\` folder and rebuild
 
 HOMEPAGE="https://github.com/WangYihang/GitHacker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c4/60/d052b7a968bb8d3fa2373fc5df2f4f59052a227b63b57c09bcea74277724/GitHacker-${REALVERSION}.tar.gz"
-SOURCEFILE="GitHacker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

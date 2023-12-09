@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BareNecessities"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Provides the \`\`bn\`\` module containing a dictionary allowing att
 
 HOMEPAGE="http://jimmyg.org/work/code/barenecessities/index.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ab/7d/6e82e68c7e3be857006b219746d61bd8b72f463d871de1a83c07c6bacf57/BareNecessities-${REALVERSION}.tar.gz"
-SOURCEFILE="BareNecessities-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

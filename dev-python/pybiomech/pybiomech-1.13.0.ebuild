@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyBiomech"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Collection of tools for certain biomechanical pipelines"
 
 HOMEPAGE="https://github.com/u0078867/PyBiomech"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/be/51bea8ccafcb9b94032e92a96f3eb47e71d5330e4eba6900c07f41915ab8/PyBiomech-${REALVERSION}.tar.gz"
-SOURCEFILE="PyBiomech-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MicroPipe"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for automated microbe bioinfomatics Analysis"
 
 HOMEPAGE="https://github.com/lpp1985/lpp_Script"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8d/a9/0321ab1bb045cd5ddc9bc6dadbd8b201c91bcfe8c98fafbf780a2181241b/MicroPipe-${REALVERSION}.tar.gz"
-SOURCEFILE="MicroPipe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

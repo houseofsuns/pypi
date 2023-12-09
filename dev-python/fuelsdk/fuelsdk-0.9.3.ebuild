@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FuelSDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ExactTarget Fuel SDK for Python"
 
 HOMEPAGE="https://github.com/ExactTarget/FuelSDK-Python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/34/5a/a184fa46f8b2adf81e986f056ccdea1c017a3ae21f6695579a5f0a9e57c5/FuelSDK-${REALVERSION}.tar.gz"
-SOURCEFILE="FuelSDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

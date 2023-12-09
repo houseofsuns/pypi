@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Eel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="For little HTML GUI applications, with easy Python/JS interop"
 
 HOMEPAGE="https://github.com/python-eel/Eel"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/8f/a60971f45884f871a5f1e249e75c0c80745568683fa17378cd200e929681/Eel-${REALVERSION}.tar.gz"
-SOURCEFILE="Eel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

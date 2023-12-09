@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyArango"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An easy to use python driver for ArangoDB with built-in validation"
 
 HOMEPAGE="https://github.com/tariqdaouda/pyArango"
 LICENSE="ApacheV2"
-SRC_URI="https://files.pythonhosted.org/packages/86/09/72ec95061917165f38e29eabf4a0d78be92f6a64bafea695d2049b1f16c5/pyArango-${REALVERSION}.tar.gz"
-SOURCEFILE="pyArango-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

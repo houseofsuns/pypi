@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyAnVIL"
 REALVERSION="0.1.1rc3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="AnVIL client library. Data harmonization, gen3, terra single sign-o
 
 HOMEPAGE="https://github.com/anvilproject/client-apis/pyAnVIL"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a1/8a/85a23fd452dd84416be0ba409675692c7497aaa84023a8197da7c4f79036/pyAnVIL-${REALVERSION}.tar.gz"
-SOURCEFILE="pyAnVIL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

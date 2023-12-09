@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ThreatPlaybook"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Threat-Models-as Code, An Action-Oriented Threat Modeling and Autom
 
 HOMEPAGE="https://we45.gitbook.io/threatplaybook/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8a/96/95db8489e8a1a500780c34b2cccb4e26dbbb2a91ced1b73f89b84749171b/ThreatPlaybook-${REALVERSION}.tar.gz"
-SOURCEFILE="ThreatPlaybook-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

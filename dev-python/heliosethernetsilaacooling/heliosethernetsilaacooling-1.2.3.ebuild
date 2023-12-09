@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HeliosEthernetSilaaCooling"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This package is designed to control a Helios KWL EC 170 W via Modbu
 
 HOMEPAGE="https://gogs.es-lab.de/SilaaCooling/Simulationsmodell_SilaaCooling/src/master/Helios%20Modbus"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/49/3c/580546d583cb966b081c22fba5accdb1d539925becd4d538c2d6b34487d5/HeliosEthernetSilaaCooling-${REALVERSION}.tar.gz"
-SOURCEFILE="HeliosEthernetSilaaCooling-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

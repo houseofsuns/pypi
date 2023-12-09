@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BubbleTea-py"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BubbleTea enables developers to quickly build any data applications
 
 HOMEPAGE="https://github.com/scout-cool/BubbleTea"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/bf/05835572d68aff8dcbfecdc02f45c12b5dc3c19da3f8df4a55a1fa4af637/BubbleTea-py-${REALVERSION}.tar.gz"
-SOURCEFILE="BubbleTea-py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

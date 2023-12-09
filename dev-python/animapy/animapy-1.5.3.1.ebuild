@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Animapy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An anime API for python"
 
 HOMEPAGE="https://github.com/JWebCoder/animapy"
 LICENSE="GNU GPLv2"
-SRC_URI="https://files.pythonhosted.org/packages/0a/5c/c1a8c11b56ee41c8986c60ff2aedfc9978f35ddd028ff25ce8b515ffaf03/Animapy-${REALVERSION}.tar.gz"
-SOURCEFILE="Animapy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

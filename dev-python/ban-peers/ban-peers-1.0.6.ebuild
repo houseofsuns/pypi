@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Ban-Peers"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Checking & banning BitTorrent leech peers via Web API, remove Ads, 
 
 HOMEPAGE="https://github.com/SeaHOH/ban-peers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/26/a47a293572803c1ffa18d670b83b68237b7452631bdeddedb87b8c92e046/Ban-Peers-${REALVERSION}.tar.gz"
-SOURCEFILE="Ban-Peers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

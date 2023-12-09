@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyJustpyWidgets"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="justpy Widgets"
 
 HOMEPAGE="http://wiki.bitplan.com/index.php/pyJustpyWidgets"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b2/60/248a467c4ccf1dff1962b0b1c81d24f8096a252ec6d785a76b9b90ff4c3c/pyJustpyWidgets-${REALVERSION}.tar.gz"
-SOURCEFILE="pyJustpyWidgets-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Homevee"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Dein neues Smarthome-System!"
 
 HOMEPAGE="https://github.com/Homevee/Homevee"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/37/6111102b8856801b28053ab7a724872eead526f8e162a54c6ac377a98d53/Homevee-${REALVERSION}.tar.gz"
-SOURCEFILE="Homevee-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyFineract"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A fineract API wrapper"
 
 HOMEPAGE="https://github.com/mobidevke/PyFineract"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/4c/e96078f2b8fa58023007d95a4c948c4336d7e099b5adebe3609dfc734542/PyFineract-${REALVERSION}.tar.gz"
-SOURCEFILE="PyFineract-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

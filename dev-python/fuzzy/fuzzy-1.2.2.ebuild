@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Fuzzy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fast Python phonetic algorithms"
 
 HOMEPAGE="https://github.com/yougov/Fuzzy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ad/b0/210f790e81e3c9f86a740f5384c758ad6c7bc1958332cf64263a9d3cf336/Fuzzy-${REALVERSION}.tar.gz"
-SOURCEFILE="Fuzzy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="reCBZ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Utility for repacking and optmizing manga & comic book archives"
 
 HOMEPAGE="https://github.com/avalonv/reCBZ"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/ed/d5/98ab8913b1a5f646a84acae97717ad896ec0e6765e0758e6677c3b19b71f/reCBZ-${REALVERSION}.tar.gz"
-SOURCEFILE="reCBZ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

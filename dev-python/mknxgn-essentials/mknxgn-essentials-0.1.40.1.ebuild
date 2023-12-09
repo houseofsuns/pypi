@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MkNxGn-Essentials"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MkNxGn File Writing, Network Essentials and More - A lot more"
 
 HOMEPAGE="https://mknxgn.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6e/cf/7cd4a78803c7942d31c9335f856e86dd9250492fabad4530aeb9ecf38770/MkNxGn_Essentials-${REALVERSION}.tar.gz"
-SOURCEFILE="MkNxGn_Essentials-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyCDSL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Access various dictionaries from CDSL (Cologne Digital Sanskrit Lex
 
 HOMEPAGE="https://github.com/hrishikeshrt/PyCDSL"
 LICENSE="GNU General Public License v3"
-SRC_URI="https://files.pythonhosted.org/packages/ad/a8/f117fe67668ac17c58f0bcdd66eb49043fda88a1b9abea18e26e41b7b1bd/PyCDSL-${REALVERSION}.tar.gz"
-SOURCEFILE="PyCDSL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TensorFlowTTS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="TensorFlowTTS: Real-Time State-of-the-art Speech Synthesis for Tens
 
 HOMEPAGE="https://github.com/tensorspeech/TensorFlowTTS"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/63/df/69a696749a3a863b75444753ab38ddb0a3269d5074fb0ef1630f3e21975b/TensorFlowTTS-${REALVERSION}.tar.gz"
-SOURCEFILE="TensorFlowTTS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

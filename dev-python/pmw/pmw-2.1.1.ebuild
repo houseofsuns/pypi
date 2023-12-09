@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pmw"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python Megawidgets"
 
 HOMEPAGE="http://pmw.sourceforge.net/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/78/c7/d2e18a08af53d64eb658c5ca9b4655317c3d3e54589fe86e3a3bf0b51762/Pmw-${REALVERSION}.tar.gz"
-SOURCEFILE="Pmw-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

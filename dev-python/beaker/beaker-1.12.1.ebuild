@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Beaker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Session and Caching library with WSGI Middleware"
 
 HOMEPAGE="https://beaker.readthedocs.io/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cc/10/56b6585a436940c1c50102937fb4a1aa79ab8106efd23a4c4bff6751a36f/Beaker-${REALVERSION}.tar.gz"
-SOURCEFILE="Beaker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

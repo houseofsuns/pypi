@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TorchSUL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple but useful layers for Pytorch"
 
 HOMEPAGE="https://github.com/ddddwee1/TorchSUL"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/39/bd/3d9b1113e087a91bf62f11742e0f28f5536d2af5dfa4cb220aca93bd0851/TorchSUL-${REALVERSION}.tar.gz"
-SOURCEFILE="TorchSUL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

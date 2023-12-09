@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DadardWebsiteApi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This API allows to manage profile account on Dadard Website"
 
 HOMEPAGE="http://dadard.fr:8010/dadard/MainWebsiteApi.git"
 LICENSE="WTFPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/dd/39/ef64171e0e30e45753983cc48f3038858ebc70cb802d75e2d1979527266a/DadardWebsiteApi-${REALVERSION}.tar.gz"
-SOURCEFILE="DadardWebsiteApi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

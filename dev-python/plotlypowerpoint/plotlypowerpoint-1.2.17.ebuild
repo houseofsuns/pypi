@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="plotlyPowerpoint"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library using Plotly and Powerpoint to easily generate slides wit
 
 HOMEPAGE="https://github.com/jonboone1/plotlyPowerpoint"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a3/f3/27e966e8ef2099fdd2dc08869a93136c6578333f9650efc4e501ded1a8d2/plotlyPowerpoint-${REALVERSION}.tar.gz"
-SOURCEFILE="plotlyPowerpoint-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

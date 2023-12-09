@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CLUSTER-SELECTION"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Learning setup"
 
 HOMEPAGE="https://github.com/vineetbiyani09/ML/tree/master/CLUSTER_SELECTION"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/fa/3822dbc785468f9f1d154e0c4f719672828dd815b675fc84a94168fc3d85/CLUSTER_SELECTION-${REALVERSION}.tar.gz"
-SOURCEFILE="CLUSTER_SELECTION-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

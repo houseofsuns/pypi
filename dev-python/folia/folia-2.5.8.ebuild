@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FoLiA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An extensive library for processing FoLiA documents. FoLiA stands f
 
 HOMEPAGE="https://github.com/proycon/foliapy"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/2b/57/e52741ad29b7d7d786b37f2c7727f1b5f63cff3c483b63ef21cd55dc111b/FoLiA-${REALVERSION}.tar.gz"
-SOURCEFILE="FoLiA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

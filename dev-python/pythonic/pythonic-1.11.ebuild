@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pythonic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Graphical automation tool"
 
 HOMEPAGE="https://github.com/hANSIc99/Pythonic"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/2f/36/1b642d3dae036ba19a960bfabc5dfc84fb995ded2a8956e01d5972839b89/Pythonic-${REALVERSION}.tar.gz"
-SOURCEFILE="Pythonic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMPL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mathematical Programming Toolbox for AMPL/GMPL"
 
 HOMEPAGE="https://github.com/fdabrandao/pympl"
 LICENSE="AGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/43/12/8b88e44ba31cc5b5a6c8b046e2cda801a4d6479570bc70608820df03198e/PyMPL-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMPL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

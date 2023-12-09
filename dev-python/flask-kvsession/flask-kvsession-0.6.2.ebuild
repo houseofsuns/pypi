@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-KVSession"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Transparent server-side session support for flask"
 
 HOMEPAGE="https://github.com/mbr/flask-kvsession"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/4a/533f1dbf427107cbe383de1801426693b88a7348a0b4420e5a4c19571c3f/Flask-KVSession-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-KVSession-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

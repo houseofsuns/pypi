@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Avena"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Avena is an image processing library and command-line tool."
 
 HOMEPAGE="https://bitbucket.org/eliteraspberries/avena"
 LICENSE="ISC"
-SRC_URI="https://files.pythonhosted.org/packages/0f/3d/bb5a647f021d586890395f252f7b2fc03adc6b983792988fbf1f940f040f/Avena-${REALVERSION}.tar.gz"
-SOURCEFILE="Avena-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

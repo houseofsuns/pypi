@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JablotronPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A client to interact with the Jablotron API to control Jablotron al
 
 HOMEPAGE="https://github.com/fdegier/JablotronPy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/74/f0/72fbc9af3ce9de2f0ef2046ef0bd545a8e00594d37a90b566baf94ea76c6/JablotronPy-${REALVERSION}.tar.gz"
-SOURCEFILE="JablotronPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

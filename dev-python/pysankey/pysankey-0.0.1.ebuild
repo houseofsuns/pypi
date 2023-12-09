@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pySankey"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Make simple, pretty Sankey Diagrams"
 
 HOMEPAGE="https://github.com/anazalea/pySankey"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b3/f2/0a9f3de3ee054fddb1354c5c4a93d72b611d8c5b4dde34f664f1caeeb384/pySankey-${REALVERSION}.tar.gz"
-SOURCEFILE="pySankey-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

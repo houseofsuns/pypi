@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AdvEMDpy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Advanced Empirical Mode Decomposition package with numerous extensi
 
 HOMEPAGE="https://github.com/Cole-vJ/AdvEMDpy.git"
 LICENSE="gpl-3.0"
-SRC_URI="https://files.pythonhosted.org/packages/29/31/dc5b6e17d4a6d5d38ab6f7b2af19572826031adf7b94161c0dfa85f9fb3a/AdvEMDpy-${REALVERSION}.tar.gz"
-SOURCEFILE="AdvEMDpy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

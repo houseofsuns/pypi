@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-DJ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Django (mvc) structure for your Flask project."
 
 HOMEPAGE="https://github.com/AlexandrovRoman/Flask-DJ"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/ca/c0979b06048ec22d190ad775499e2f2b28405b733b3bbc1e6a4c77dd226f/Flask-DJ-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-DJ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

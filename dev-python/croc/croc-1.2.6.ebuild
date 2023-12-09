@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CROC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for calculating ROC curves and Concentrated ROC (CROC) cu
 
 HOMEPAGE="http://swami.wustl.edu/CROC"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/12/0fdedd86f171b35d2a4c184d115d6a9795d62671b4f4ef43b57e934b3926/CROC-${REALVERSION}.tar.gz"
-SOURCEFILE="CROC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

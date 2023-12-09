@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SmartParams"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The tool for advanced project configuration with python object inje
 
 HOMEPAGE="https://gitlab.com/mateusz.baran/smartparams"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e1/36/62647563e74161b92b453d90bf9da6b1fb9e5b4303cd26b03b44fcb7b5ab/SmartParams-${REALVERSION}.tar.gz"
-SOURCEFILE="SmartParams-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

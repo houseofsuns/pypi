@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BayesOpt4dftu"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/maituoy/BayesianOpt4dftu"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/88/88/4969c2e49c9e86802a2232409c3973b6bff4cd296c969796d805d6e67c52/BayesOpt4dftu-${REALVERSION}.tar.gz"
-SOURCEFILE="BayesOpt4dftu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

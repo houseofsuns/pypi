@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyLin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lin Engineering step motor driver software."
 
 HOMEPAGE="http://pypi.python.org/pypi/PyLin/"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/5e/5d/bea4edd72937d1b370f8830c1dbd147fa101e4bb85a91c54a01943e7bcc3/PyLin-${REALVERSION}.tar.gz"
-SOURCEFILE="PyLin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

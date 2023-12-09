@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LMRt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="LMR turbo"
 
 HOMEPAGE="https://github.com/fzhu2e/LMRt"
 LICENSE="GPL-3.0 license"
-SRC_URI="https://files.pythonhosted.org/packages/5a/50/92761c8ce454895b17e4fbf0f9f75cca2f1eed0790ff68e5a8455691dcc7/LMRt-${REALVERSION}.tar.gz"
-SOURCEFILE="LMRt-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

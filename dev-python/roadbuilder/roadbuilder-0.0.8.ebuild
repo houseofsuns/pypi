@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RoadBuilder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Road builder"
 
 HOMEPAGE="https://github.com/LukasLange28/RoadBuilder"
 LICENSE="GPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/8b/60/6f7f33e76a2edff635095013b3610572379cad62c24e6aab6da28b5e2b28/RoadBuilder-${REALVERSION}.tar.gz"
-SOURCEFILE="RoadBuilder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Inflate"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Inflate / Decompress gzipped requests"
 
 HOMEPAGE="https://github.com/ronlut/flask-inflate"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0c/9a/85d669d85c004f96f0de090f536c7d94dee794e6b3d50d737498858cb88b/Flask-Inflate-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Inflate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

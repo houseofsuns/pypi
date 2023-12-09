@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Finance-Ultron"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="By traders for AI.  FinUltron 1.3.4"
 
 HOMEPAGE="https://github.com/ChaosTransaction/notebook"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/b0/6803e4be773d826ad02b61490623255b6044a37ab4a97f95f2232a66ecc5/Finance-Ultron-${REALVERSION}.tar.gz"
-SOURCEFILE="Finance-Ultron-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

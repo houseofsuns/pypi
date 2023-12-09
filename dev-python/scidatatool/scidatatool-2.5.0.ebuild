@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SciDataTool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Scientific Data Tool"
 
 HOMEPAGE="https://github.com/Eomys/SciDataTool"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fb/63/c9c2a2e9771c645580788efbbd1342b7465d201a7c05b3dcda527518964e/SciDataTool-${REALVERSION}.tar.gz"
-SOURCEFILE="SciDataTool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

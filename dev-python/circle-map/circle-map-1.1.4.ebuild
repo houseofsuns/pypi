@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Circle-Map"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Circular DNA analysis tools"
 
 HOMEPAGE="https://github.com/iprada/Circle-Map"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/0e/e72948c9fa5d83a8aada6f92651294eb4d816521046e048ab3848054cf4f/Circle-Map-${REALVERSION}.tar.gz"
-SOURCEFILE="Circle-Map-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

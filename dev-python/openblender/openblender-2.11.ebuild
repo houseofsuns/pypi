@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenBlender"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="OpenBlender API Service"
 
 HOMEPAGE="https://www.openblender.io"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fc/94/843c252f427e8cf23f876f1e1e91629ab85b8cb5fb1907982e0141af78de/OpenBlender-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenBlender-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

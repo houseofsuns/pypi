@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Thingy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Dictionary as an object, that can have different views"
 
 HOMEPAGE="https://github.com/Refty/thingy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8b/a8/17bd2539b6c8d0cc23c875e8af8691ed400dca178fc56946b37616a336c1/Thingy-${REALVERSION}.tar.gz"
-SOURCEFILE="Thingy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

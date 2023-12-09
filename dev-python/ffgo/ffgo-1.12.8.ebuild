@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FFGo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A powerful graphical launcher for the FlightGear flight simulator"
 
 HOMEPAGE="http://frougon.net/projects/FFGo/"
 LICENSE="WTFPLv2"
-SRC_URI="https://files.pythonhosted.org/packages/12/99/aeec21bba8186e8a72fb48bf35921e32e1ba973b935c72a7d6df31ba4294/FFGo-${REALVERSION}.tar.gz"
-SOURCEFILE="FFGo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

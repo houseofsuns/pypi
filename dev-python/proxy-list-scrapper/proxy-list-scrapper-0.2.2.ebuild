@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Proxy-List-Scrapper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Proxy list scrapper from various websites. They gives the free prox
 
 HOMEPAGE="https://pypi.org/project/Proxy-List-Scrapper/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/be/2e/3bc7b7de8d1372e515bdf8dba313abf91311052cb95d40c2865f636b1c8b/Proxy-List-Scrapper-${REALVERSION}.tar.gz"
-SOURCEFILE="Proxy-List-Scrapper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

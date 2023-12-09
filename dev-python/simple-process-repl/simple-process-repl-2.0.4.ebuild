@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Simple-Process-REPL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An extensible application framework with REPL for creating processe
 
 HOMEPAGE="https://github.com/EricGebhart/Simple_Process_REPL"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/2d/4e9b87f7c4470e6b9b09b1c74df0c3ebff6ddecfe5bea2bda70ecaf6f8b4/Simple_Process_REPL-${REALVERSION}.tar.gz"
-SOURCEFILE="Simple_Process_REPL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

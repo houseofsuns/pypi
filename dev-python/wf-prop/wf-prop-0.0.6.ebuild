@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WF-Prop"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python package for one-elecron wavefunction propagation"
 
 HOMEPAGE="https://github.com/Yairpt/Wave_Function_Propagation"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/39/e481c8e15678b4ed9b82f8ba42f747ecadd4d7a4fc9413e9452693f1a51f/WF_Prop-${REALVERSION}.tar.gz"
-SOURCEFILE="WF_Prop-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="StringFormat"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Advanced String Formatting for Python >= 2.4"
 
 HOMEPAGE="http://github.com/florentx/stringformat"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/29/1c/eb571296afd851fde78591c78b83968a0d05627b6d2c257ec980a1160884/StringFormat-${REALVERSION}.tar.gz"
-SOURCEFILE="StringFormat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

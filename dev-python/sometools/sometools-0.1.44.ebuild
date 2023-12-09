@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SomeTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Some python tools"
 
 HOMEPAGE="https://pypi.org/project/SomeTools/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3a/bc/1cef48a2eeb8c58657a4ccc47a3fa77e0a023c8e6dd2746c7986c33cff27/SomeTools-${REALVERSION}.tar.gz"
-SOURCEFILE="SomeTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

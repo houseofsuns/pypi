@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TDTNex"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="To add OfflineSorter codes to TDT blocks"
 
 HOMEPAGE="https://github.com/matthewperkins/TDTNex"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/27/95/324381579b3be1e39837ea959040487d3255ddef9ef72d9b244cca170abe/TDTNex-${REALVERSION}.tar.gz"
-SOURCEFILE="TDTNex-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

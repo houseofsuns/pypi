@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HangoutCore"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A modular bot for teaching new developers"
 
 HOMEPAGE="https://github.com/NextYearStudios/HangoutCore"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/40/6f/37a628a4d8505f1fd3ff7f685882ff8c911d7f9362244356c6c9114bef10/HangoutCore-${REALVERSION}.tar.gz"
-SOURCEFILE="HangoutCore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

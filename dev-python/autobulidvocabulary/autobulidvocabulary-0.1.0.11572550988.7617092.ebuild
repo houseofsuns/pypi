@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AutoBUlidVocabulary"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Auto BUlid Vocabulary"
 
 HOMEPAGE="https://github.com/napoler/AutoBUlidVocabulary"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a8/3e/02579b7e2fd487752cbdc8f0610b11d2bef9dd61bedee637e0fe845e3bc3/AutoBUlidVocabulary-${REALVERSION}.tar.gz"
-SOURCEFILE="AutoBUlidVocabulary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

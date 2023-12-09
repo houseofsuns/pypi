@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DZDutils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tool collection from the DZD Devs"
 
 HOMEPAGE="https://git.connect.dzd-ev.de/dzdpythonmodules/dzdutils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d9/52/6fd5162e87f01589b7f3413b1016c1b5cef7b300e68d5c0859c66a0dbcda/DZDutils-${REALVERSION}.tar.gz"
-SOURCEFILE="DZDutils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

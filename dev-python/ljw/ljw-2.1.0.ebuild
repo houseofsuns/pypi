@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LJW"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="All About LJW"
 
 HOMEPAGE="https://github.com/jaewoo4200/poem_LJW"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/8a/f29b9bff2c7e12f8a0860c8348ae42688f8cd73f7fb3102d3c7d9564df7b/LJW-${REALVERSION}.tar.gz"
-SOURCEFILE="LJW-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

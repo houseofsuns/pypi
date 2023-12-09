@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AlphacodersDownloader"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A script for download wallpapers on https://alphacoders.com written
 
 HOMEPAGE="https://github.com/Asthowen/AlphacodersDownloader"
 LICENSE="GNU v3.0"
-SRC_URI="https://files.pythonhosted.org/packages/6d/61/5623070289c04eb7472326391fe22ab1007d56a4e2cde041b4a70cbe83fc/AlphacodersDownloader-${REALVERSION}.tar.gz"
-SOURCEFILE="AlphacodersDownloader-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

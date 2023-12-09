@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Neuroharmony"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tool to perform Freesurfer volume Harminization in unseen scanner
 
 HOMEPAGE="https://github.com/garciadias/Neuroharmony"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/73/c2/8befd5cd57829b4cd1f63ed653c5fa861610583ba514a4e3e43fa2b6ddfa/Neuroharmony-${REALVERSION}.tar.gz"
-SOURCEFILE="Neuroharmony-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

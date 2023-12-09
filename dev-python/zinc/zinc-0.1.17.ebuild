@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Zinc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Wrapper for Zinc ecommerce API (zinc.io)"
 
 HOMEPAGE="https://github.com/wangjohn/zinc_cli"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/2a/f7/eb199856c1b11979772b480082cf182e858aa2da371246d0d78ff2930c11/Zinc-${REALVERSION}.tar.gz"
-SOURCEFILE="Zinc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyGenericSpreadSheet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="python API providing generic Access to Spreadsheet backends"
 
 HOMEPAGE="http://wiki.bitplan.com/index.php/pyGenericSpreadSheet"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8f/52/449f11e3cda30e4c2c1a9bf39b34b3e8ef6e59a7983dd7f785dd04478674/pyGenericSpreadSheet-${REALVERSION}.tar.gz"
-SOURCEFILE="pyGenericSpreadSheet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

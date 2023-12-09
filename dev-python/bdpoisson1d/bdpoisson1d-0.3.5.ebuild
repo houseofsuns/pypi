@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BDPoisson1D"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BD Finite Difference Poisson equation solver"
 
 HOMEPAGE="https://github.com/bond-anton/BDPoisson1D"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/d2/da/0d34fb34acc931fe1a5c6fccd3b72ec12ea6eb5d6daa6a88d932351d0b4f/BDPoisson1D-${REALVERSION}.tar.gz"
-SOURCEFILE="BDPoisson1D-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

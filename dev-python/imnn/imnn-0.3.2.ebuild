@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IMNN"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Using neural networks to extract sufficient statistics from        
 
 HOMEPAGE="https://bitbucket.org/tomcharnock/imnn.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/2f/ec68a74f305b700245f3c6b6fb08870937a017b778fe8fa79bf2e895596f/IMNN-${REALVERSION}.tar.gz"
-SOURCEFILE="IMNN-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

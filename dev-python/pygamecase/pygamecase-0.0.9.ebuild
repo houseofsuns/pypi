@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PygameCase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="AI悦创·玩中学，专属游戏代码。报名微信:Jiabcdefh"
 
 HOMEPAGE="https://github.com/AndersonHJB/pygame_demo"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/d5/51120d1f8a2047fc3eac31402dcb91e25974a18ca5d9dea2d4cc1d04461a/PygameCase-${REALVERSION}.tar.gz"
-SOURCEFILE="PygameCase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CaptureMock"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tool for creating mocks via a capture-replay style approach"
 
 HOMEPAGE="http://www.texttest.org/index.php?page=capturemock"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/86/ce4ef22ff095b732ee1191fcdf0a00be6b338ab170b24b98e53874b4717d/CaptureMock-${REALVERSION}.tar.gz"
-SOURCEFILE="CaptureMock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

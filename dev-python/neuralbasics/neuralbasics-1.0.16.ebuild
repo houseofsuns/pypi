@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NeuralBasics"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Neural network basics module. Number detection on images."
 
 HOMEPAGE="https://github.com/HCook86/NeuralBasics"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4b/71/6560b1f7387a20b013ef0b96817796e608b6ededc591da956423fc3e7cf8/NeuralBasics-${REALVERSION}.tar.gz"
-SOURCEFILE="NeuralBasics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

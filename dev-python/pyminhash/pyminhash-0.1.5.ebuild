@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyMinHash"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Efficient MinHashing"
 
 HOMEPAGE="https://github.com/fritshermans/pyminhash"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/15/c5/a268e236817ba8f7b51b48fe79e2a5dbfba0afb4d548742ee1dd54c8ce53/PyMinHash-${REALVERSION}.tar.gz"
-SOURCEFILE="PyMinHash-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WaifuPicsPython"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An asyncronous & syncronous API wrapper for https://waifu.pics writ
 
 HOMEPAGE="https://github.com/Scrumpyy/WaifuPicsPython"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/15/d8/ba05254825df24bb71e255ecda1ecbe66ca1467d0abc15cc37908ab2e4b0/WaifuPicsPython-${REALVERSION}.tar.gz"
-SOURCEFILE="WaifuPicsPython-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

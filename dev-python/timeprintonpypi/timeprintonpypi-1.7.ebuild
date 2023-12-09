@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TimePrintOnPYPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for printing text with time delay between characters"
 
 HOMEPAGE="https://github.com/SForces/TimePrint"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/a2/10a2455f272e9f2b3b9a3406ffb1596f6ae2cbe06094198f2a3efdb9a595/TimePrintOnPYPI-${REALVERSION}.tar.gz"
-SOURCEFILE="TimePrintOnPYPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KatFetch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A minimal and customizable fetch script."
 
 HOMEPAGE="https://gitlab.com/kathamer/katfetch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d8/11/afc567518e8fa52cb588eab019f82a9195c54a2ed123ff9adadd140946d3/KatFetch-${REALVERSION}.tar.gz"
-SOURCEFILE="KatFetch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

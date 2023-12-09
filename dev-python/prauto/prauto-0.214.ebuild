@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PRauto"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PRauto is a package for collecting and preprocessing protein and li
 
 HOMEPAGE="https://github.com/KimJisanER/PRauto"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ff/fb/bba2ce722db5942eba21052b8658deee68263f49befd10d05fca41eab4a8/PRauto-${REALVERSION}.tar.gz"
-SOURCEFILE="PRauto-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

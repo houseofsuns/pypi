@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyWave"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Open, read and write Wave files"
 
 HOMEPAGE="https://github.com/Zuzu-Typ/PyWave"
 LICENSE="zlib/libpng license"
-SRC_URI="https://files.pythonhosted.org/packages/ca/cc/011f0f80e49cae1adc2e98e79b2393cc35b083fc2be5a9c47483510f6e66/PyWave-${REALVERSION}.tar.gz"
-SOURCEFILE="PyWave-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

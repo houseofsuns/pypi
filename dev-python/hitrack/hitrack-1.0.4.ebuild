@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HITrack"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="3D scene on a monocular video"
 
 HOMEPAGE="https://github.com/Kirill-Shokhin/HITrack"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/c2/96b7ceadfabbad5b949b512bf1e47bf7d9579c31489b3c511fafa0e020e3/HITrack-${REALVERSION}.tar.gz"
-SOURCEFILE="HITrack-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

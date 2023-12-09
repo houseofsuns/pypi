@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyWaves"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Object-oriented library for the Waves blockchain platform"
 
 HOMEPAGE="http://github.com/pywaves/pywaves"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c6/cf/5a2fa10d9df22af52251a51e0aa03ac5fcf518fce5b8e7048110d1758f7d/PyWaves-${REALVERSION}.tar.gz"
-SOURCEFILE="PyWaves-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

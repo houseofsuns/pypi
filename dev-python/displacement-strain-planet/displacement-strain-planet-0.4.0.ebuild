@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Displacement-strain-planet"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Planetary crustal thickness, displacement, stress and strain calcul
 
 HOMEPAGE="https://github.com/AB-Ares/Displacement_strain_planet"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/46/a2/0b540c2bf253259b31b6a81d89d0189da3a456542358715285ef4dbd9aae/Displacement_strain_planet-${REALVERSION}.tar.gz"
-SOURCEFILE="Displacement_strain_planet-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MongoAlchemy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="UNMAINTAINED. Document-Object Mapper/Toolkit for Mongo Databases"
 
 HOMEPAGE="http://mongoalchemy.org/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/8d/f7ed1aa65618bb8291b56015954a75aeb2ca179e0c72b238f293fbf7683c/MongoAlchemy-${REALVERSION}.tar.gz"
-SOURCEFILE="MongoAlchemy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

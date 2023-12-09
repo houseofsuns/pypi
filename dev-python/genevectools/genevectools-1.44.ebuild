@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GeneVecTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/danielum16/SecondProject"
 LICENSE="danielum16license"
-SRC_URI="https://files.pythonhosted.org/packages/8c/55/251bc030281f273985fe5592e9ee01e13abba5c5d7a40c16e47189a4ba2e/GeneVecTools-${REALVERSION}.tar.gz"
-SOURCEFILE="GeneVecTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

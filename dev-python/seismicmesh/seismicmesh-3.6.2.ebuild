@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SeismicMesh"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="2D/3D serial and parallel triangular mesh generation for seismology
 
 HOMEPAGE="https://github.com/krober10nd/SeismicMesh"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/8c/de/3df9b9c68080bf1800fccce118a9ca94bd46a15c886dd62062128847d72e/SeismicMesh-${REALVERSION}.tar.gz"
-SOURCEFILE="SeismicMesh-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

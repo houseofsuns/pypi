@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JsonSir"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A serializer for JSON-like data in Python."
 
 HOMEPAGE="https://github.com/RussellLuo/jsonsir"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/aa/bf/5c00c1dafaa3ca2c32e7641d9c2c6f9d6d76e127bde00eb600333a60c5bc/JsonSir-${REALVERSION}.tar.gz"
-SOURCEFILE="JsonSir-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

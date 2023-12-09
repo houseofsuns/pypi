@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ApiLogicServer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_12,3_11} )
@@ -15,8 +16,8 @@ DESCRIPTION="Create JSON:API and Admin Web App from database, with LogicBank -- 
 
 HOMEPAGE="https://github.com/ApiLogicServer/ApiLogicServer-src"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/11/4b/33e6a43de266cc45444ffcd46c2cefd6a9040d2ecd9f3eca037469ad6cef/ApiLogicServer-${REALVERSION}.tar.gz"
-SOURCEFILE="ApiLogicServer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

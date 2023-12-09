@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Dandelion"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A light weight deep learning framework"
 
 HOMEPAGE="https://github.com/david-leon/Dandelion"
 LICENSE="Mozilla Public License v2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c5/95/ffc8f66952f46c0d05228ccd233f6c319d596382879cd8ccfe33ec67bc6e/Dandelion-${REALVERSION}.tar.gz"
-SOURCEFILE="Dandelion-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

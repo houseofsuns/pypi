@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyIOSXR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python API to interact with network devices running IOS-XR"
 
 HOMEPAGE="https://github.com/fooelisa/pyiosxr/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fd/86/0f0a45ba27d7c4fb8cf85e09cd2368060f7bb4642ef193edfb8942a027b6/pyIOSXR-${REALVERSION}.tar.gz"
-SOURCEFILE="pyIOSXR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UComp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Modelling and forecasting univariate time series"
 
 HOMEPAGE="https://github.com/djpedregal/UComp"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1f/5b/11ab4ae67445b9aa5d562642ac35685e3fa390a20354a7888005c5917905/UComp-${REALVERSION}.tar.gz"
-SOURCEFILE="UComp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

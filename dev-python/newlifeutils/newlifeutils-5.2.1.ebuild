@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NewLifeUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="View changelog.txt at https://raw.githubusercontent.com/NewLife1324
 
 HOMEPAGE="https://github.com/NewLife1324/NewLifeUtils-Dev"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/54/59423ce9fda4a88268efa51c5339f7df93137edd7f4389e1f1beb5850e8b/NewLifeUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="NewLifeUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

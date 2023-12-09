@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="qiniuManager"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="终端管理七牛云空间"
 
 HOMEPAGE="https://github.com/hellflame/qiniu_manager"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e5/69/96b037581d7f48baa99d9f776ee15079ad910c31aca32c79a97c628ea658/qiniuManager-${REALVERSION}.tar.gz"
-SOURCEFILE="qiniuManager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

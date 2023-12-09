@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyAttributes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=".NET-like Attributes implemented as Python decorators."
 
 HOMEPAGE="https://GitHub.com/pyTooling/pyAttributes"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/81/e7/6171db8acd68eec0715ac622bd5999ec6c64f56ee1d6b40dcfc038d79c0e/pyAttributes-${REALVERSION}.tar.gz"
-SOURCEFILE="pyAttributes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

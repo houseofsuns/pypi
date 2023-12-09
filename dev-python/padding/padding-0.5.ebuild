@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Padding"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Padding methods for password based encryption"
 
 HOMEPAGE="http://pypi.python.org/pypi/Padding"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/39/c6/400b6f20c0679fcca2d0d7d933e142d000a707a571a9068fd8297e88a781/Padding-${REALVERSION}.tar.gz"
-SOURCEFILE="Padding-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

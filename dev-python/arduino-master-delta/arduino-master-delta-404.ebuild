@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Arduino-Master-Delta"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Data Science enabled Data extraction and control library for Arduin
 
 HOMEPAGE="https://github.com/SayadPervez/Arduino_Master_Delta"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/9d/b75bd02868462c282c80965be7cfe0b6645dadbc8c1de7c728d1660ea69f/Arduino_Master_Delta-${REALVERSION}.tar.gz"
-SOURCEFILE="Arduino_Master_Delta-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

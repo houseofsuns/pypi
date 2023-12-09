@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BASEmesh"
 REALVERSION="2.2.0.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pre-processing and mesh generation toolkit for BASEMENT."
 
 HOMEPAGE="https://gitlab.ethz.ch/vaw/public/basemesh-v2/"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/84/e6/5241e13cb7ae8db6f5a385cf2cb9749ce45dc42bc48dceebf19e70e37a25/BASEmesh-${REALVERSION}.tar.gz"
-SOURCEFILE="BASEmesh-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

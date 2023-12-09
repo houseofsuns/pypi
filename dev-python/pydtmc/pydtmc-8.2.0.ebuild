@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyDTMC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A full-featured and lightweight library for discrete-time Markov ch
 
 HOMEPAGE="https://github.com/TommasoBelluzzo/PyDTMC"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/64/b0/8f7ab69998f60976805efe15c2bf086259aed3d423196726e035faef2741/PyDTMC-${REALVERSION}.tar.gz"
-SOURCEFILE="PyDTMC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

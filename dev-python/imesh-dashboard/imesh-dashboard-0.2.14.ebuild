@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="iMesh-Dashboard"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Create Dashboard for serial connected meshtastic device"
 
 HOMEPAGE="https://github.com/iz1kga/Meshtastic-rpi-dashboard"
 LICENSE="apache 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6e/f1/4496c1d1f1f1058c31669569ff69698d3bc812a5c35278f565e224470070/iMesh-Dashboard-${REALVERSION}.tar.gz"
-SOURCEFILE="iMesh-Dashboard-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

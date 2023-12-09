@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TurtLSystems"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tool to draw L-systems via turtle graphics and save them as pngs an
 
 HOMEPAGE="https://github.com/discretegames/TurtLSystems"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/93/1b/7090e4a32fbaf8bb4f258e22fb284fdee693d756aca926669c5d0a0a03e0/TurtLSystems-${REALVERSION}.tar.gz"
-SOURCEFILE="TurtLSystems-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

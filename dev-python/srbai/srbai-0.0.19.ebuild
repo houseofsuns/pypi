@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SrbAI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for processing serbian language"
 
 HOMEPAGE="https://github.com/Serbian-AI-Society/SrbAI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/16/4c/caff1400c5589bdc5cb2155b88282e058be35f0584ae4bb2b225fd11c846/SrbAI-${REALVERSION}.tar.gz"
-SOURCEFILE="SrbAI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

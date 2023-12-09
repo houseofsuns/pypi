@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="mindaffectBCI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The MindAffect BCI python SDK"
 
 HOMEPAGE="http://github.com/mindaffect/pymindaffectBCI"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/1f/64af33d2a60ceff770f6da7f7f000f3ff23282b305b250d481348fe34623/mindaffectBCI-${REALVERSION}.tar.gz"
-SOURCEFILE="mindaffectBCI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

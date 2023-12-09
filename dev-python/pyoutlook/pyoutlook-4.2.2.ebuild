@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyOutlook"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python module for connecting to the Outlook REST API, without the
 
 HOMEPAGE="https://pypi.python.org/pypi/pyOutlook"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e3/70/3e9c9950f46ea5ce349629cdbf4ec71ae4c3c00f9766eb5aba7c34f40b3b/pyOutlook-${REALVERSION}.tar.gz"
-SOURCEFILE="pyOutlook-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

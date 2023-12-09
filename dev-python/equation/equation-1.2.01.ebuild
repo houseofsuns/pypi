@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Equation"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="General Equation Parser and Evaluator"
 
 HOMEPAGE="https://github.com/alphaomega-technology/Equation"
 LICENSE="AlphaOmega Technology Open License Version 1.0 http://www.alphaomega-technology.com.au/license/AOT-OL/1.0"
-SRC_URI="https://files.pythonhosted.org/packages/fd/0d/ede829e7c0c457b651de2792cd19a739e4885477f59832da54d2cc7a1982/Equation-${REALVERSION}.tar.gz"
-SOURCEFILE="Equation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

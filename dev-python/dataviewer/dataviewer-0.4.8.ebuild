@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Dataviewer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Dataviewer for project files"
 
 HOMEPAGE="https://gitlab.com/imdc/apps/dataviewer"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/73/2e/7810b6244c5660f9a5be7a0a5244dc04f3bd85cf62ed0ba643450107a7a5/Dataviewer-${REALVERSION}.tar.gz"
-SOURCEFILE="Dataviewer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

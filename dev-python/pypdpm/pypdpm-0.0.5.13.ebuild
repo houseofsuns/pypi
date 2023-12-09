@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyPDPM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library for dealing with PDPM HIPP codes"
 
 HOMEPAGE="https://github.com/Scorks/PyPDPM"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/de/3a/703a0d53b4bac44cafca53848c73a8714cdb7b17e462dd431c15562c93a5/PyPDPM-${REALVERSION}.tar.gz"
-SOURCEFILE="PyPDPM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

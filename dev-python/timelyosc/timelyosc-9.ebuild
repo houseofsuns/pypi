@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="timelyOSC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Open Sound Control library for Python 3"
 
 HOMEPAGE="https://github.com/combatopera/timelyOSC"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/e1/8ce80738112942c58a1069cb60e27e3aa664ec5441d8c1e7aa262e4fa93e/timelyOSC-${REALVERSION}.tar.gz"
-SOURCEFILE="timelyOSC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EXtra-geom"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools to work with EuXFEL detector geometry and assemble detector i
 
 HOMEPAGE="https://github.com/European-XFEL/EXtra-geom"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cc/83/57e422dd9d08fa86c532bcec31058dd9b2044caa3c0542028a19858a240b/EXtra-geom-${REALVERSION}.tar.gz"
-SOURCEFILE="EXtra-geom-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

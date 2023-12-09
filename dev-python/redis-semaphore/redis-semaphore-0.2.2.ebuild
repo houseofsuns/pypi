@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Redis-Semaphore"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A distributed semaphore and mutex built on Redis."
 
 HOMEPAGE="https://github.com/bluele/redis-semaphore"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/30/de/431fbf151d1f7cf72b14d6f7ddc700310e6692aac116eda3b1e9800c9f55/Redis-Semaphore-${REALVERSION}.tar.gz"
-SOURCEFILE="Redis-Semaphore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

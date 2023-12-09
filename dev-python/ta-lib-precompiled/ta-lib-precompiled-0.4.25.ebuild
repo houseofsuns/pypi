@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TA-Lib-Precompiled"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python wrapper for TA-Lib"
 
 HOMEPAGE="https://github.com/minggnim/ta-lib"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/6f/0a/099e4dcad82267bb81e5cb54ad6488427c1734ed967722f0fd7e46379637/TA-Lib-Precompiled-${REALVERSION}.tar.gz"
-SOURCEFILE="TA-Lib-Precompiled-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

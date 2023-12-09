@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="e2eAIOK"
 REALVERSION="1.1.1b2023120900"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Intel® End-to-End AI Optimization Kit"
 
 HOMEPAGE="https://github.com/intel/e2eAIOK"
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/25/2b/2cf437bb8b7d1dd70ccaaea1e2b2d9619cfe3b5ea19b8fedd17ffa843659/e2eAIOK-${REALVERSION}.tar.gz"
-SOURCEFILE="e2eAIOK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

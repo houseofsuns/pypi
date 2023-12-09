@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UTide"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python distribution of the MatLab package UTide"
 
 HOMEPAGE="https://github.com/wesleybowman/UTide"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/97/5b/1eda5ddab2201207fbf4ed8798750d0e96dc1f5b4ddfde979cb4e18ed49f/UTide-${REALVERSION}.tar.gz"
-SOURCEFILE="UTide-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

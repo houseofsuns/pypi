@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyCQuery"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python interface to Hive with pure-python Kerberos support"
 
 HOMEPAGE="https://github.com/naver/PyCQuery"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/62/cc/be3f72b26686cb688ccf2d983be0cb869ba3cedad941d2bd595967a230ba/PyCQuery-${REALVERSION}.tar.gz"
-SOURCEFILE="PyCQuery-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

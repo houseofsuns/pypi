@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="notebookAutomationUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for a notebook generator"
 
 HOMEPAGE="https://git.soma.salesforce.com/j-gao/notebook_automation_utils"
 LICENSE="Private"
-SRC_URI="https://files.pythonhosted.org/packages/d7/3e/7908f832ae6c5fef46ca4bdbabe32a20bee35a8da3de566b9050b2d3290c/notebookAutomationUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="notebookAutomationUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

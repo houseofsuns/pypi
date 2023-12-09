@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RoffIO"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A (lazy) parser and writer for the Roxar Open File Format (ROFF)."
 
 HOMEPAGE="https://github.com/equinor/roffio"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/cb/31/cb42619d78828bb64ca137bf913575478f0a9fe84ba14f4a84e087cfbfbb/RoffIO-${REALVERSION}.tar.gz"
-SOURCEFILE="RoffIO-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyScaffold"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Template tool for putting up the scaffold of a Python project"
 
 HOMEPAGE="https://github.com/pyscaffold/pyscaffold/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/77/02/1cc7509d231b7b8a85368ff57a326faf6f339255d5a5c909701faf8de892/PyScaffold-${REALVERSION}.tar.gz"
-SOURCEFILE="PyScaffold-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

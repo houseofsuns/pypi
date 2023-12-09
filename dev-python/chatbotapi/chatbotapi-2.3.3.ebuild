@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChatbotAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lib to make AI chatbot with other additional utilities"
 
 HOMEPAGE="https://github.com/hilfing/ChatbotAPI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/78/93/5c6388ffbedca5472209de841c390bc1c19bce6e6866f416513100ad51f8/ChatbotAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="ChatbotAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

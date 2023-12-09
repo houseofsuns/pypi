@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pySafetyNet-Attestation"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Verify JWS-attestations from Google's SafetyNet."
 
 HOMEPAGE="https://github.com/RoosDaniel/SafetyNet-Attestation"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ca/42/1fa921784ae67db70a54e295ef0e137ffa57bd634b9a7dec5b5cde860b78/pySafetyNet-Attestation-${REALVERSION}.tar.gz"
-SOURCEFILE="pySafetyNet-Attestation-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

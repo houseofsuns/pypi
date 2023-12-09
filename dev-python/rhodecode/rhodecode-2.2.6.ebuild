@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RhodeCode"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="RhodeCode is a fast and powerful management tool for Mercurial and 
 
 HOMEPAGE="https://rhodecode.com"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/87/6a/f4fb9bcd683c66cc13cc8b895260df3903cbc53e0354fc0181bf02337de0/RhodeCode-${REALVERSION}.tar.gz"
-SOURCEFILE="RhodeCode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

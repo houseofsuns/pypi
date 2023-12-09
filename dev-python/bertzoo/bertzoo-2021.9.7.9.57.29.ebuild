@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BertZoo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="description"
 
 HOMEPAGE="https://github.com/Jie-Yuan/BertZoo"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/3a/da/61cd8b4f80a377b36fea41e28ab193d0521be733b548258e726fb8629b5a/BertZoo-${REALVERSION}.tar.gz"
-SOURCEFILE="BertZoo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

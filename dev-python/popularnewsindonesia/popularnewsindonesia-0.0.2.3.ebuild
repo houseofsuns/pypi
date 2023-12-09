@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PopularNewsIndonesia"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple package to show 5 popular news from detik.com"
 
 HOMEPAGE="https://github.com/DwikyDamara/popular-news-indonesia"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/aa/e9826f87b3c4902c3ccf9084fc6c865f66f3641b5729b6e1611979fe9a96/PopularNewsIndonesia-${REALVERSION}.tar.gz"
-SOURCEFILE="PopularNewsIndonesia-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

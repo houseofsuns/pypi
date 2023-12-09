@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="buildbot-UnrealEngine"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy configuration for the Unreal Automation Tool"
 
 HOMEPAGE="https://github.com/pampersrocker/buildbot-UnrealEngine"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e3/88/7b65b68571bca2c9a531355c8ab646a4e08a1f02a46b53ef0570690c10ac/buildbot_UnrealEngine-${REALVERSION}.tar.gz"
-SOURCEFILE="buildbot_UnrealEngine-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

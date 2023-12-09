@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BAproducetracker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Produce expiration tracker"
 
 HOMEPAGE="https://github.com/jd3builds/BadApplesJJP"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f1/d4/c636662e50b4ffd053f583d59f38aea137cf46066a69c12a9dd8b0957208/BAproducetracker-${REALVERSION}.tar.gz"
-SOURCEFILE="BAproducetracker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

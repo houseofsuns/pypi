@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MGSurvE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MGSurvE"
 
 HOMEPAGE="https://github.com/Chipdelmal/MGSurvE"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/87/1f/d8e7d114c7e8d681963349f98bba0a23a67ba98aeaf4a7022efe92b2c9a0/MGSurvE-${REALVERSION}.tar.gz"
-SOURCEFILE="MGSurvE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

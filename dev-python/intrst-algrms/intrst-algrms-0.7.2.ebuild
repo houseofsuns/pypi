@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Intrst-algrms"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="https://intrst-algrms.readthedocs.io/en/latest/"
 
 HOMEPAGE="https://pypi.org/project/Intrst-algrms/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/54/72/36a2b009fb22ba07863554ac4248b98174d928ae14815fe6fb2b055e2c9b/Intrst_algrms-${REALVERSION}.tar.gz"
-SOURCEFILE="Intrst_algrms-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

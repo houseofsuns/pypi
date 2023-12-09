@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepBrainSeg"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Deep Learning tool for brain tumor segmentation."
 
 HOMEPAGE="https://github.com/koriavinash1/DeepBrainSeg"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4e/2a/7554884aa93f9ac0e870b63e09da9f91a9c813b1bf257a2fb7b020109eec/DeepBrainSeg-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepBrainSeg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

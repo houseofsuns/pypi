@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SaltTesting"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Required testing tools needed in the several SaltStack projects."
 
 HOMEPAGE="https://github.com/saltstack/salt-testing"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a8/71/c57d18217e960f3e876dce811e7f22ef8e8d7af19449be12f2bf0ddde5ef/SaltTesting-${REALVERSION}.tar.gz"
-SOURCEFILE="SaltTesting-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

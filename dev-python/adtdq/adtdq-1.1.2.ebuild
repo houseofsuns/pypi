@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ADTdq"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package designed to improve HL7 ADT Data Quality reporting in the
 
 HOMEPAGE="https://github.com/pjgibson25/ADTdq"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5d/3f/8d983ffbd0ce0b8c5759636eb81a7d3e067f3d9988cb5089e7ae9ea9e6be/ADTdq-${REALVERSION}.tar.gz"
-SOURCEFILE="ADTdq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

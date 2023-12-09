@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Payton"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="\"3D Graphics Programming Toolkit\""
 
 HOMEPAGE="https://github.com/sinanislekdemir/payton"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/ec/19351194d7204888fa372dd53f47d7a0572cf463eaa4f0a5a266528e62e1/Payton-${REALVERSION}.tar.gz"
-SOURCEFILE="Payton-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

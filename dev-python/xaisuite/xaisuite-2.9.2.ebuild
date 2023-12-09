@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XAISuite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="XAISuite: Training and Explanation Generation Utilities for Machine
 
 HOMEPAGE="https://github.com/11301858/XAISuite"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/90/1c/fc7e98bb559101038bd37034ca91537a250d40a783c3bd70d4d991add543/XAISuite-${REALVERSION}.tar.gz"
-SOURCEFILE="XAISuite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

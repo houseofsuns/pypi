@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyFRF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Frequency response function as used in structural dynamics."
 
 HOMEPAGE="https://github.com/ladisk/pyFRF"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1c/c1/10dbb9beb2245e174aa051ad92d821ec936e56fd8b6243dc74ea0370498d/pyFRF-${REALVERSION}.tar.gz"
-SOURCEFILE="pyFRF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

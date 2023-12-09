@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PDBeCif"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A lightweight pure python package for reading, writing and manipula
 
 HOMEPAGE="http://pypi.python.org/pypi/PDBeCIF/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/83/508a153c3030fc02043544692fd03ef038c8c060b039a75c244c4c9e4a46/PDBeCif-${REALVERSION}.tar.gz"
-SOURCEFILE="PDBeCif-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

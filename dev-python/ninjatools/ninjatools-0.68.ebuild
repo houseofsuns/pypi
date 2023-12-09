@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NinjaTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bunch of useful tools"
 
 HOMEPAGE="https://github.com/nikkoxgonzales/ninja-tools"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/45/06/f02ebdc630b2d25f5fd3f129559cbb23f5475077fc3a62d36aeeafa7bcfd/NinjaTools-${REALVERSION}.tar.gz"
-SOURCEFILE="NinjaTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HiYaPyCo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Hierarchical Yaml Python Config"
 
 HOMEPAGE="https://github.com/zerwes/hiyapyco"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/64/6a/bfcb07251fbe01c151f28b06e4d3fcc24eb876351d151c607f76c936c307/HiYaPyCo-${REALVERSION}.tar.gz"
-SOURCEFILE="HiYaPyCo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

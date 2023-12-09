@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Betelgeuse"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Betelgeuse is a Python program that reads standard Python test case
 
 HOMEPAGE="https://github.com/SatelliteQE/betelgeuse"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/45/43/1d257dde656b36b5965d1037e4168619088db2eea79305f45c94a89044eb/Betelgeuse-${REALVERSION}.tar.gz"
-SOURCEFILE="Betelgeuse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KaiHeiLaCardBuilder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="一个构建开黑啦卡片的工具"
 
 HOMEPAGE="https://github.com/DancingSnow0517/KaiheilaCardBuilder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e5/36/edd9e5003fc7967c1daf7f936e5ab1f1eeb4ac6cc16edaa9dfdcb2965ceb/KaiHeiLaCardBuilder-${REALVERSION}.tar.gz"
-SOURCEFILE="KaiHeiLaCardBuilder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

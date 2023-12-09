@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="decore-Base"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="decore Base is an out-of-the-box \"Python to Vue.js\" data applicat
 
 HOMEPAGE="https://www.decore.dev"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/13/05/a7f188a031217c2094e2ffbe81c5f8e711fef3c7ee20013b2280b54b54e0/decore_Base-${REALVERSION}.tar.gz"
-SOURCEFILE="decore_Base-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WLED-light-controller"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A small WLED light controller in Python"
 
 HOMEPAGE="https://github.com/carson-coder/Python-WLED-api-Wrapper"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/20/7f/690870c72a0f9dbd1c899587e818900469dbdaf338fe86bca87f8c157eea/WLED_light_controller-${REALVERSION}.tar.gz"
-SOURCEFILE="WLED_light_controller-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PartNLP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python NLP Library for Persian language, by PartDP AI"
 
 HOMEPAGE="https://github.com/partdpai/PartNLP"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6b/56/25eff521f5f2620830a92f1321e10cd445dfb9046de23cc0a18162fac11c/PartNLP-${REALVERSION}.tar.gz"
-SOURCEFILE="PartNLP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

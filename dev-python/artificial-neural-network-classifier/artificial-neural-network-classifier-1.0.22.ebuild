@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Artificial-Neural-Network-Classifier"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Artificial Neural Network, is a deep learning API written in Python
 
 HOMEPAGE="https://github.com/somkietacode/Artificial_Neural_Network"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a7/42/882839de2991d37dcb0103bf5c68fffbadf23722d61abf29d7f4331a4909/Artificial_Neural_Network_Classifier-${REALVERSION}.tar.gz"
-SOURCEFILE="Artificial_Neural_Network_Classifier-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

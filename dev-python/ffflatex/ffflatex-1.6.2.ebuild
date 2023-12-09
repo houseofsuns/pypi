@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FFFLaTeX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Small scrapper script generating a basic LaTeX article from any FFF
 
 HOMEPAGE="https://github.com/helldragger/FactorioFridayFactsLaTeX"
 LICENSE="lGPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/92/0b/214a032c5c7630a50869e7f510375d7e1605e55edf6992d5bfb045eac930/FFFLaTeX-${REALVERSION}.tar.gz"
-SOURCEFILE="FFFLaTeX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

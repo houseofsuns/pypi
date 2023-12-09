@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Manteia"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="deep learning,NLP,classification,text,bert,distilbert,albert,xlnet,
 
 HOMEPAGE="https://pypi.org/project/Manteia/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6b/f9/66fae5f7d919d35fa8b246b6d51e95bd5b6bf4093b91974b5ad44fd959d3/Manteia-${REALVERSION}.tar.gz"
-SOURCEFILE="Manteia-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="checkQC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple program to parse Illumina NGS data and check it for qualit
 
 HOMEPAGE="https://www.github.com/Molmed/checkQC"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/de/42/e1a547d9ec2016524ae6dd3962434ec0c2c4be886c1a8b06843a22361f0b/checkQC-${REALVERSION}.tar.gz"
-SOURCEFILE="checkQC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

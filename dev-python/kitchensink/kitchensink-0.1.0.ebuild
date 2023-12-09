@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KitchenSink"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a smarter pager"
 
 HOMEPAGE="http://github.com/okayzed/kk"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5e/ef/bc1eb987e04fdbc8893d90f14e503e2d79b546d46f7afb0b88c7cead5079/KitchenSink-${REALVERSION}.tar.gz"
-SOURCEFILE="KitchenSink-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

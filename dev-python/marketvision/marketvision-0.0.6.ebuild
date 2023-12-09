@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MarketVision"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/m21248074/MarketVision"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/14/45/7fab67e54bbd60b3a6e36dc1a09e15715ec6ccea562138f1180e8b2797c6/MarketVision-${REALVERSION}.tar.gz"
-SOURCEFILE="MarketVision-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

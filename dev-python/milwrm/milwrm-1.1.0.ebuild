@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MILWRM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Multiplex Image Labeling With Regional Morphology"
 
 HOMEPAGE="https://github.com/codyheiser/MILWRM"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/82/7d/d0d4432fc604642ffd97749a1327be8773595f9507ce1d07df98737923cc/MILWRM-${REALVERSION}.tar.gz"
-SOURCEFILE="MILWRM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

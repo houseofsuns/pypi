@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Adafruit-PlatformDetect"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Platform detection for use by libraries like Adafruit-Blinka."
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_Python_PlatformDetect"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d4/f6/df2895c7d441e683030e1b1afcd4ba8b28a198543192dc6ec3a2ee3db2c0/Adafruit-PlatformDetect-${REALVERSION}.tar.gz"
-SOURCEFILE="Adafruit-PlatformDetect-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

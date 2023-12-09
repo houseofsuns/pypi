@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PollyReports"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Band-oriented PDF report generation from database query"
 
 HOMEPAGE="http://newcenturycomputers.net/projects/pollyreports.html"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/af/e8/329490aab33b1b7d53c992673c7e3e6f3024ba2fccd71760c95f9b9ca35d/PollyReports-${REALVERSION}.tar.gz"
-SOURCEFILE="PollyReports-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

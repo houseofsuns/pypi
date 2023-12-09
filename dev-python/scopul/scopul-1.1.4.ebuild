@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Scopul"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A MIDI file analyzer which allows you to go through components of a
 
 HOMEPAGE="https://github.com/SwayamSahoo11742/Scopul"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/97/33/7241d41d110adea59495fe6457c71d6382767946479f54fdb4fc2a0d0305/Scopul-${REALVERSION}.tar.gz"
-SOURCEFILE="Scopul-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

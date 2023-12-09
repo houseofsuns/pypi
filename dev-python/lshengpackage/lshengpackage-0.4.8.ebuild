@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Lshengpackage"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="个人自动化爬虫开源学习"
 
 HOMEPAGE="https://lsheng0-0.github.io/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c1/96/7a259d897562a0bf21938ca42ff75a01ac210d5ce801b9165d9a7893c59f/Lshengpackage-${REALVERSION}.tar.gz"
-SOURCEFILE="Lshengpackage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

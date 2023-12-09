@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="wbBase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Base package for WorkBench applications."
 
 HOMEPAGE="https://gitlab.com/workbench2/wbbase"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cb/0b/39697553984ad2f7b79c217860776f904286d0f3fe81895bb4613f843622/wbBase-${REALVERSION}.tar.gz"
-SOURCEFILE="wbBase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

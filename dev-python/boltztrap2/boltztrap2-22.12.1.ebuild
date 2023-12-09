@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BoltzTraP2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="band-structure interpolator and transport coefficient calculator"
 
 HOMEPAGE="https://www.boltztrap.org"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/e2/74/222d259bc218339f1661ac1dc5f9abaddd3d1a90e81521722edc6a204c7e/BoltzTraP2-${REALVERSION}.tar.gz"
-SOURCEFILE="BoltzTraP2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

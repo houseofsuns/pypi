@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RobertCommonBasic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Robert Common Basic Library"
 
 HOMEPAGE="https://github.com/hun0423/RobertCommonBasic"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/38/44e40d388dde7668e285a0989bc87d0407f1a35625e274dbd7ba6e82ef7f/RobertCommonBasic-${REALVERSION}.tar.gz"
-SOURCEFILE="RobertCommonBasic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

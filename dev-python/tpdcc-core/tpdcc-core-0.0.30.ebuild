@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="tpDcc-core"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Core module for tpDcc. Includes core modules to use DCC Python APIs
 
 HOMEPAGE="https://github.com/tpDcc/tpDcc-core"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/54/39/f3689a9b03998bbed9d19caf4706158bd0c89f7ad45bb2bd07359461af5d/tpDcc-core-${REALVERSION}.tar.gz"
-SOURCEFILE="tpDcc-core-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

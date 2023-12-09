@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IndicoIo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python Wrapper for indico. Use pre-built state of the art machine
 
 HOMEPAGE="https://github.com/IndicoDataSolutions/indicoio-python"
 LICENSE="MIT License See LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/25/2f/ca5898efa371333130e648159cacc721562dca030ff444e01a3a71d557e3/IndicoIo-${REALVERSION}.tar.gz"
-SOURCEFILE="IndicoIo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

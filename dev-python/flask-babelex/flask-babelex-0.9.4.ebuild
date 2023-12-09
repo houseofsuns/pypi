@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-BabelEx"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds i18n/l10n support to Flask applications"
 
 HOMEPAGE="http://github.com/mrjoes/flask-babelex"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/85/e7/217fb37ccd4bd93cd0f002028fb7c5fdf6ee0063a6beb83e43cd903da46e/Flask-BabelEx-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-BabelEx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

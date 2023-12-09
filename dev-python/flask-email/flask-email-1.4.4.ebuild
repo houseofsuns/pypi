@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Email"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for sending email"
 
 HOMEPAGE="https://github.com/allanlei/flask-email"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/9a/9d/0786c1921b8f9874b2befd574d78703f50b0c566e703b4b199ca73b857f8/Flask-Email-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Email-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

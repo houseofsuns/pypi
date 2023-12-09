@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyNastran"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Nastran BDF/F06/OP2/OP4 File reader/editor/writer/viewer"
 
 HOMEPAGE="https://github.com/SteveDoyle2/pyNastran"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/bb/50/c37809747779f680d0afee31aa623606f12af02c4486eca88ef2cea5f400/pyNastran-${REALVERSION}.zip"
-SOURCEFILE="pyNastran-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pandaSuit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="pandas extension for DataFrame manipulation, statistics, and visual
 
 HOMEPAGE="https://github.com/AnthonyRaimondo/pandaSuit"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/17/f0/ea3fcc18e40d13f420c71e6ffb8f3a045a7604161395a4ae2c5e25b3f949/pandaSuit-${REALVERSION}.tar.gz"
-SOURCEFILE="pandaSuit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

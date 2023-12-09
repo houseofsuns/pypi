@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ComponentDB-API"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python APIs used to communicate with java hosted ComponentDB API."
 
 HOMEPAGE="https://github.com/AdvancedPhotonSource/ComponentDB"
 LICENSE="Copyright c UChicago Argonne, LLC. All rights reserved."
-SRC_URI="https://files.pythonhosted.org/packages/79/14/bfd7658330eac45837023fd92d00218bc8cc5419c94501dcee66aec85115/ComponentDB-API-${REALVERSION}.tar.gz"
-SOURCEFILE="ComponentDB-API-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

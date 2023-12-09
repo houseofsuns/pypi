@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PIL-Tools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An extension module for Pillow to add functions that help simplify 
 
 HOMEPAGE="https://pypi.python.org/pypi/PILTools"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e4/de/c57a1ad6fc06a4418db475adfdc694cf90ca3a216f4ccc2d4ee3195d6205/PIL-Tools-${REALVERSION}.tar.gz"
-SOURCEFILE="PIL-Tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

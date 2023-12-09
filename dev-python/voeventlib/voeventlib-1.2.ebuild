@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VOEventLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library to read, modify, and create VOEvents"
 
 HOMEPAGE=""
 LICENSE="GNU General Public License Version 3"
-SRC_URI="https://files.pythonhosted.org/packages/a5/68/a174f8043c516de446e2a852b14665448fa3201b81fe987c77aba4a6c6ba/VOEventLib-${REALVERSION}.tar.gz"
-SOURCEFILE="VOEventLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

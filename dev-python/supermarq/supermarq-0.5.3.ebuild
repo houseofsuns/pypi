@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Supermarq"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Supermarq is a scalable, application-centric quantum benchmarking s
 
 HOMEPAGE="https://github.com/Infleqtion/client-superstaq"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2d/51/382336d3c17e085c129728451269b31a6826d8f2c4dd3e36a4808436e4d7/Supermarq-${REALVERSION}.tar.gz"
-SOURCEFILE="Supermarq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KegElements"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A testing ground for Keg related code and ideas."
 
 HOMEPAGE="https://github.com/level12/keg-elements"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c9/af/7ded631241374e11bc15a7663f1f1ed7d249d58a67404e81e12516b177f7/KegElements-${REALVERSION}.tar.gz"
-SOURCEFILE="KegElements-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

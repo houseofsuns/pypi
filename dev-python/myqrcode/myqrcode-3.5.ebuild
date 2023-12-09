@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MyQRcode"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generater for amazing QR Codes. Including Common, Artistic and Anim
 
 HOMEPAGE="https://github.com/xyz27900/qrcode"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/6c/95/01bf4df3cc2e408e1a738d13b91990667ba909b55732e67c730fdad5cf98/MyQRcode-${REALVERSION}.tar.gz"
-SOURCEFILE="MyQRcode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

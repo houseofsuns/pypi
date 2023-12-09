@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyQtExtendedScene"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Extended scene library"
 
 HOMEPAGE="https://github.com/EPC-MSU/PyQtExtendedScene"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/67/13/fc0932623244ca810f0697ed60f9bc5b912e4312596c65f8cfe8dbee9158/PyQtExtendedScene-${REALVERSION}.tar.gz"
-SOURCEFILE="PyQtExtendedScene-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

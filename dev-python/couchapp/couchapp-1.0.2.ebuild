@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Couchapp"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Standalone CouchDB Application Development Made Simple."
 
 HOMEPAGE="http://github.com/couchapp/couchapp/tree/master"
 LICENSE="Apache License 2"
-SRC_URI="https://files.pythonhosted.org/packages/1d/4b/921fcbac374cc1a8a442b48f02dc99de190009596b65dc30d7b33da7952e/Couchapp-${REALVERSION}.tar.gz"
-SOURCEFILE="Couchapp-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

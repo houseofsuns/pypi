@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="asn1PERser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Parse ASN.1 schemas into Python code and encode/decode them using P
 
 HOMEPAGE="https://github.com/erupikus/asn1PERser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/30/17/a0760623e02c5e90def5f864d860b132d368eb92acb597c07494eb69c8b2/asn1PERser-${REALVERSION}.tar.gz"
-SOURCEFILE="asn1PERser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

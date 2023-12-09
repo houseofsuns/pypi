@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Henson"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A framework for running a Python service driven by a consumer"
 
 HOMEPAGE="https://henson.readthedocs.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/82/9a/982ce98e4a4e6f93a07840223a833d0f5a98da7a9aa3d16f80531d627cbf/Henson-${REALVERSION}.tar.gz"
-SOURCEFILE="Henson-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ParallelLinear-CraigR8806"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Linear Maths library using pyopencl"
 
 HOMEPAGE="https://github.com/CraigR8806/ParallelLinear"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/d2/2c29f7932fc26cddf009f7eb4010e1987e8250a560bdeecdf9c64536acd3/ParallelLinear-CraigR8806-${REALVERSION}.tar.gz"
-SOURCEFILE="ParallelLinear-CraigR8806-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

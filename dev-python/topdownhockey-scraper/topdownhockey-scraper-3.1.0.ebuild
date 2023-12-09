@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TopDownHockey-Scraper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The TopDownHockey Scraper"
 
 HOMEPAGE="https://github.com/TopDownHockey/TopDownHockey_Scraper"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/d3/94d51c01ab4976ecf88b3cf03e847304631891ee8f8160987ce05e5f841e/TopDownHockey_Scraper-${REALVERSION}.tar.gz"
-SOURCEFILE="TopDownHockey_Scraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

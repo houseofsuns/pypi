@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PassivePy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for processing large corpora and detecting passive voice.
 
 HOMEPAGE="https://github.com/mitramir55/PassivePy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/71/aa6fb625e041c9af319f59c790ca0bcaee3beda206772806c169cb27e4d0/PassivePy-${REALVERSION}.tar.gz"
-SOURCEFILE="PassivePy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

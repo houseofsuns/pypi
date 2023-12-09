@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mothership"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mothership - asset managment"
 
 HOMEPAGE="http://mothership.sf.net"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/19/cb/fd3f56e20ba4a08593923701dd35e987f0f6da75f342716e7398dd9cbf48/Mothership-${REALVERSION}.zip"
-SOURCEFILE="Mothership-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

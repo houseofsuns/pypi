@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyWavefront"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python/pyglet library for importing Wavefront .obj files"
 
 HOMEPAGE="https://github.com/greenmoss/PyWavefront"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/6f/32/2747da8293bf94818220f23ab0aed301d322ae5f9d75ba3e224c5cb6899d/PyWavefront-${REALVERSION}.tar.gz"
-SOURCEFILE="PyWavefront-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

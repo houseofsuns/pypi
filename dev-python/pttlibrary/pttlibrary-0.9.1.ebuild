@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PTTLibrary"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PTT library"
 
 HOMEPAGE="https://github.com/PttCodingMan/PTTLibrary"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/de/fa/1f7daae4fec223b8637acbd33cfe7f27befacc22e726daf4162a39a0e2dd/PTTLibrary-${REALVERSION}.tar.gz"
-SOURCEFILE="PTTLibrary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TkToolsD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Some usefull tk widgets like: ImgView, ScrollView."
 
 HOMEPAGE="https://www.baidu.com"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2c/22/68cd2b296cfc8a14fdc734bb132bfca15847540e232869314a816692e9b7/TkToolsD-${REALVERSION}.tar.gz"
-SOURCEFILE="TkToolsD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

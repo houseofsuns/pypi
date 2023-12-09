@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LEPL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Parser Library for Python 2.6+/3+: Recursive Descent; Full Backtr
 
 HOMEPAGE="http://www.acooke.org/lepl/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/fd/5d/7ec76725dab377d26cfbbb769c7fd5f7126a1cbf68934887e30514f04df2/LEPL-${REALVERSION}.zip"
-SOURCEFILE="LEPL-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

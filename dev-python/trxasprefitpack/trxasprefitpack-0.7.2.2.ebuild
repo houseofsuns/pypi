@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TRXASprefitpack"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="package for TRXAS pre-fitting process"
 
 HOMEPAGE="https://github.com/pistack/TRXASprefitpack"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c6/b4/282ee56d7844b27b6249f4cb0dde02899aac8e1fefb16c4f21ff681d103a/TRXASprefitpack-${REALVERSION}.tar.gz"
-SOURCEFILE="TRXASprefitpack-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

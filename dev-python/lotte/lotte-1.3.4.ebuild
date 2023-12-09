@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Lotte"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lotte is a tool for quotation detection in texts and can deal with 
 
 HOMEPAGE="https://pypi.org/project/quid/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/86/7b72908461900ce08d1410b301ac729451e768bd366508e798f6a8e6c17d/Lotte-${REALVERSION}.tar.gz"
-SOURCEFILE="Lotte-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

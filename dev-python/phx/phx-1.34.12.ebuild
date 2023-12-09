@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PHX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Input / Output Passive House building energy model data."
 
 HOMEPAGE="https://github.com/PH-Tools/PHX"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/94/fa/3c5e4936718934b2d551cb99091b759dbdc304a65dc4b3bb75f6f580b260/PHX-${REALVERSION}.tar.gz"
-SOURCEFILE="PHX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

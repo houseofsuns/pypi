@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Fragmenstein"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Merging, linking and placing compounds by stitching them together l
 
 HOMEPAGE="https://github.com/matteoferla/Fragmenstein"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/05/3086daced307fac62e0af02487b863473834466418a1605fe1de249e1a78/Fragmenstein-${REALVERSION}.tar.gz"
-SOURCEFILE="Fragmenstein-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

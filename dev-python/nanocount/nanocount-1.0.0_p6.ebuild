@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NanoCount"
 REALVERSION="1.0.0.post6"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NanoCount estimates transcripts abundance from Oxford Nanopore *dir
 
 HOMEPAGE="https://github.com/a-slide/NanoCount/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b1/82/7f67f30f1224ecf5afd4f4cc2aa83cf0c9fc56a1e131dc6572e908bd9a9a/NanoCount-${REALVERSION}.tar.gz"
-SOURCEFILE="NanoCount-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

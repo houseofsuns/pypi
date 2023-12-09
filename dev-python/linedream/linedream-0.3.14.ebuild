@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LineDream"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A creative coding library..."
 
 HOMEPAGE="https://linedream.marcrleonard.com/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0e/6b/596178d3b18223d4bfe7cca78bb0506d054ba0235af12ccdfc1c8e6587a3/LineDream-${REALVERSION}.tar.gz"
-SOURCEFILE="LineDream-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

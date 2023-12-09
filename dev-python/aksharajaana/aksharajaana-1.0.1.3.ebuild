@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AksharaJaana"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Kannada OCR"
 
 HOMEPAGE="https://github.com/Navaneeth-Sharma/Akshara-Jaana/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/e9/84f69dfc5ec0c81742f44f06fecf17d9768cfa18a07337e6a8c1f1e46c24/AksharaJaana-${REALVERSION}.tar.gz"
-SOURCEFILE="AksharaJaana-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

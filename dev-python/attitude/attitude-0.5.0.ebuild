@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Attitude"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Attitude computes the orientations of planes from point data."
 
 HOMEPAGE="http://github.com/davenquinn/Attitude"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/28/a3/3d37f2c8a0e9031cd982b9f0f0507755e36c59112489b5fc393c22a1c76d/Attitude-${REALVERSION}.tar.gz"
-SOURCEFILE="Attitude-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

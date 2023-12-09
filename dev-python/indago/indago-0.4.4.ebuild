@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Indago"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Numerical optimization framework"
 
 HOMEPAGE="http://sim.riteh.hr/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ca/91/b7a91ecd03b4a65ec1c3adeda13e58ebdd097aae25f0c81e7a992ab67b9c/Indago-${REALVERSION}.tar.gz"
-SOURCEFILE="Indago-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

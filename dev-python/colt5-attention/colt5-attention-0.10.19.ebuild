@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CoLT5-attention"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Conditionally Routed Attention"
 
 HOMEPAGE="https://github.com/lucidrains/CoLT5-attention"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c0/f5/01de0dfe8b5f8e43463c9e248b0d944d518d7e6925b4bbc7f90b7e5fb208/CoLT5-attention-${REALVERSION}.tar.gz"
-SOURCEFILE="CoLT5-attention-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

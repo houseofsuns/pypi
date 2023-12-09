@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="charLLM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Character Level Language Models 🕺🏽"
 
 HOMEPAGE="https://github.com/RAravindDS/CharLLMs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/3f/634043208a51154d56ac5dbbea0ca76d809083104808f548ae974c0076fa/charLLM-${REALVERSION}.tar.gz"
-SOURCEFILE="charLLM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

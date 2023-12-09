@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Dozer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="WSGI Middleware version of the CherryPy memory leak debugger"
 
 HOMEPAGE="https://github.com/mgedmin/dozer"
 LICENSE="public-domain"
-SRC_URI="https://files.pythonhosted.org/packages/65/64/a81aa16eef84363442e9d3b7686b62c344abd0fb4838332c763c713f11e2/Dozer-${REALVERSION}.tar.gz"
-SOURCEFILE="Dozer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

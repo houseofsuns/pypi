@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-jQuery"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="jQuery 3.5.1 (XStatic packaging standard)"
 
 HOMEPAGE="https://jquery.com/"
 LICENSE="same as jQuery"
-SRC_URI="https://files.pythonhosted.org/packages/93/54/256b9f6709ebc1715be585891c69cad6dd777cdf64510bf5f7c8abb935ba/XStatic-jQuery-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-jQuery-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

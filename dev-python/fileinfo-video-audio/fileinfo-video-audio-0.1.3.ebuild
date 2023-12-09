@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FileInfo-Video-Audio"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="In this tool is help to get the properties of the Audio and Video f
 
 HOMEPAGE="https://git.selfmade.ninja/SRIDHARDSCV/collage_sem_4_python_project_cli_file_details"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/08/66/817e7986807fca5a7a764c3fca13dcb12092d2b4f67e2bf2608fbf31a6d2/FileInfo_Video_Audio-${REALVERSION}.tar.gz"
-SOURCEFILE="FileInfo_Video_Audio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LNMarketBot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Trading Bot for LNMarkets"
 
 HOMEPAGE="https://github.com/DivyanshuBagga/LNMarketBot"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/50/be/bd8cbf09f2e353dbb36fe37da95228f3cd6257358c2be3d4e64632aba36e/LNMarketBot-${REALVERSION}.tar.gz"
-SOURCEFILE="LNMarketBot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

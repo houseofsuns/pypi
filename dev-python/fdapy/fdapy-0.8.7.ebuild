@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FDApy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/StevenGolovkine/FDApy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/58/ce9f4cebb3bff6cc026cd2a9239f96fa8248a215e6a6b50ec75b6ec5929b/FDApy-${REALVERSION}.tar.gz"
-SOURCEFILE="FDApy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

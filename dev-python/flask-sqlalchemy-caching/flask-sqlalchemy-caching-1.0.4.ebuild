@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-SQLAlchemy-Caching"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CachingQuery implementation to Flask using Flask-SQLAlchemy and Fla
 
 HOMEPAGE="http://www.github.com/bbelyeu/Flask-SQLAlchemy-Caching"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/da/3d/20339dbe72c9acacd0191dfaf8af9e29aaf153fa8759a3a7ddaaaae9b03b/Flask-SQLAlchemy-Caching-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-SQLAlchemy-Caching-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

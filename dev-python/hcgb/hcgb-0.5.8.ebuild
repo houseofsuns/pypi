@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HCGB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Useful python functions"
 
 HOMEPAGE="https://github.com/HCGB-IGTP/HCGB_python_functions/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9b/77/3dc01e9d042aa343fb951ceb00533fa9f3a86848072fffda336cb8d8311c/HCGB-${REALVERSION}.tar.gz"
-SOURCEFILE="HCGB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

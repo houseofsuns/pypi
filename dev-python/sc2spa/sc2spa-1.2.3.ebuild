@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SC2Spa"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SC2Spa: a deep learning based approach to map transcriptome to spat
 
 HOMEPAGE="https://github.com/linbuliao/SC2Spa"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/79/e9/e83b0ba794493407f327d57a725b301ff0738c5be376afe08ccedf6888a7/SC2Spa-${REALVERSION}.tar.gz"
-SOURCEFILE="SC2Spa-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

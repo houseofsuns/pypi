@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Scrappy"
 REALVERSION="0.3.0.alpha.4"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Rename video files based on information scraped from thetvdb.com"
 
 HOMEPAGE="https://github.com/louist87/scrappy"
 LICENSE="GPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/b4/df/dcd763f44aea90fbd58b4e7f7c8be95ade7d130cd21251fc0d93c295b1f0/Scrappy-${REALVERSION}.tar.gz"
-SOURCEFILE="Scrappy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

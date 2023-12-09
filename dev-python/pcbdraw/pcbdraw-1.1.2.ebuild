@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PcbDraw"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Utility to produce nice looking drawings of KiCAD boards"
 
 HOMEPAGE="https://github.com/yaqwsx/PcbDraw"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/30/c1/55b67440bcdcfaf4a8a81392493961c184f8537598d3cb103d71c71f5917/PcbDraw-${REALVERSION}.tar.gz"
-SOURCEFILE="PcbDraw-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

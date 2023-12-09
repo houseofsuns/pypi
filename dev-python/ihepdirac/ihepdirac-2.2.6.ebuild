@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IHEPDIRAC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="IHEPDIRAC is the IHEP extension of DIRAC"
 
 HOMEPAGE="https://code.ihep.ac.cn/Grid/IHEPDIRAC"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/02/98/a30ba8e7892465ee2bf3121cd96b9dedea5bcc2f09916dc268721919afff/IHEPDIRAC-${REALVERSION}.tar.gz"
-SOURCEFILE="IHEPDIRAC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

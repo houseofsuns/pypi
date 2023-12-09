@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CFBScrapy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python wrapper for the collegefootballapi located here: https://api
 
 HOMEPAGE="https://github.com/rlindholm/CFBScrapy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5c/ef/58b7d62cd01936a741c1db844a63500f1476de8ae373f9e9a6f9f344aef1/CFBScrapy-${REALVERSION}.tar.gz"
-SOURCEFILE="CFBScrapy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

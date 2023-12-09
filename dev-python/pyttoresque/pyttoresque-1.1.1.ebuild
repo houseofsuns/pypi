@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pyttoresque"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for working with NyanCAD tools"
 
 HOMEPAGE="https://github.com/NyanCAD/pyttoresque"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/75/b4/931912880ba04cd0c36a41127c9babec05941f123faf066267eb1981f21c/Pyttoresque-${REALVERSION}.tar.gz"
-SOURCEFILE="Pyttoresque-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

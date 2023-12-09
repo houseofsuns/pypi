@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Fern2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NLP text processing toolkit for Deep Learning"
 
 HOMEPAGE="https://github.com/Jasonsey/Fern"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/89/25/77a290f3c85fc27a5cf610d33a47afab8fa4275331b65322d5f4f20d87ed/Fern2-${REALVERSION}.tar.gz"
-SOURCEFILE="Fern2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

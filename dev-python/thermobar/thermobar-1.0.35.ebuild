@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Thermobar"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Thermobar"
 
 HOMEPAGE="https://github.com/PennyWieser/Thermobar"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/3b/fbffa14546a643f465a26433b15c2687232aa67981b8114ee867329a6189/Thermobar-${REALVERSION}.tar.gz"
-SOURCEFILE="Thermobar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

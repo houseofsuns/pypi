@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="specCreator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="create private pod, package framework Archive by Subspecs"
 
 HOMEPAGE="https://github.com/piaoying/specCreator"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/ed/b8/f6dfebcee0dfe46019bcc369cbf4d8245159f2216f2ebbf53e2b8539e10e/specCreator-${REALVERSION}.tar.gz"
-SOURCEFILE="specCreator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

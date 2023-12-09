@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyNlple"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="NLP procedures in python brought to you by YouScan."
 
 HOMEPAGE="https://github.com/YouScan/pyNlple"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/cb/c3408566b28ae8a2e7fbe9902e480406bc180ddc817102a0ad5373ea0e22/pyNlple-${REALVERSION}.tar.gz"
-SOURCEFILE="pyNlple-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CsPy-Uploading"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package useful for THG staff to aid data pipeline implementation"
 
 HOMEPAGE="https://github.com/JamesRobinson-THG/CsPy_Uploading/archive/1.0.11.tar.gz"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/58/eea7a7e4501689b89a3d66bdd625037745c856aa13234b392d35a6cbb6f8/CsPy_Uploading-${REALVERSION}.tar.gz"
-SOURCEFILE="CsPy_Uploading-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

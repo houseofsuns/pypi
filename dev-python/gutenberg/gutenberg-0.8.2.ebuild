@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Gutenberg"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library to interface with Project Gutenberg"
 
 HOMEPAGE="https://github.com/c-w/Gutenberg"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/da/73/2d2e1b34d50b9d6023d7ee8b643ed325e0e447d5f07460c93ff370643d41/Gutenberg-${REALVERSION}.tar.gz"
-SOURCEFILE="Gutenberg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Louie"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Signal dispatching mechanism"
 
 HOMEPAGE="https://github.com/11craft/louie/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7e/5e/adc02bf4e4168d5ad23ddc4751c98ea12c8d5699f2d6b71b7445a71f3e6b/Louie-${REALVERSION}.tar.gz"
-SOURCEFILE="Louie-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SATX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SAT-X The constraint modeling language for SAT solvers"
 
 HOMEPAGE="https://twitter.com/maxtuno"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/df/15/39a236d322c71ddac5f9a62ff6d33b3ccb37258647ff487314d5d1839cfa/SATX-${REALVERSION}.tar.gz"
-SOURCEFILE="SATX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

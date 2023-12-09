@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="gmx-MMPBSA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="gmx_MMPBSA is a new tool based on AMBER's MMPBSA.py aiming to perfo
 
 HOMEPAGE="https://github.com/Valdes-Tresanco-MS/gmx_MMPBSA"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7e/60/761e59fdea51db1447752425c401f38b13c98a25955d850556a197513219/gmx_MMPBSA-${REALVERSION}.tar.gz"
-SOURCEFILE="gmx_MMPBSA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

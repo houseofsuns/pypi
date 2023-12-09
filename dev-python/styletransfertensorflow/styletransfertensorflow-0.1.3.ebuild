@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="StyleTransferTensorFlow"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package to apply style transfer on different frames of a video"
 
 HOMEPAGE="https://github.com/LordHarsh/Neural_Style_Transfer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f3/1f/ba4525f65466e46de880f41e32028b8b77a6a8bbaa24a3a8bbf0450f6db7/StyleTransferTensorFlow-${REALVERSION}.tar.gz"
-SOURCEFILE="StyleTransferTensorFlow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

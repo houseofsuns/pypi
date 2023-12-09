@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyobjc-framework-ServerNotification"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Wrappers for the framework ServerNotification on macOS"
 
 HOMEPAGE="https://github.com/ronaldoussoren/pyobjc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/af/c8/5709965e5f9890d7eeab0e86758050e5a0c0ddff3c1cd3c11e0b8efcaec3/pyobjc-framework-ServerNotification-${REALVERSION}.tar.gz"
-SOURCEFILE="pyobjc-framework-ServerNotification-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

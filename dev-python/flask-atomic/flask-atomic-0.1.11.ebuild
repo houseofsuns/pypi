@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Atomic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Core code for Flask based projects"
 
 HOMEPAGE="https://github.com/kmjbyrne/flask-atomic"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/42/eb/cc063b26f2e339305b739ba8b4cb52f8d9c04d2bd1ea1537d5f1e6a82877/Flask-Atomic-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Atomic-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

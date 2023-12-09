@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Qcover"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Quantum computing solver"
 
 HOMEPAGE="https://github.com/BAQIS-Quantum/Qcover"
 LICENSE="Apache-2.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/25/7e/76da3f459f8b93b68ee3b00dab1a08a39588687a63ed6e672ac375d2a0f5/Qcover-${REALVERSION}.tar.gz"
-SOURCEFILE="Qcover-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

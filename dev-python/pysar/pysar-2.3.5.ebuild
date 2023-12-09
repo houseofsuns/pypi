@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pySAR"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python package used to analysis Sequence Activity Relationships (
 
 HOMEPAGE="https://github.com/amckenna41/pySAR"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/84/8b/95ed6feb0325051a3b6ae21543d6b29c6fd6cebf3ca68090d8a4fd68b21c/pySAR-${REALVERSION}.tar.gz"
-SOURCEFILE="pySAR-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

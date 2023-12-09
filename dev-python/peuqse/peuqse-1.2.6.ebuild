@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PEUQSE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This is the PEUQSE package which stands for Chemical Kinetics Param
 
 HOMEPAGE="https://github.com/AdityaSavara/PEUQSE"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/88/51/9e9f064f8f8fc076bfbc442036583a482be570741f555904e14fcc787b3b/PEUQSE-${REALVERSION}.tar.gz"
-SOURCEFILE="PEUQSE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

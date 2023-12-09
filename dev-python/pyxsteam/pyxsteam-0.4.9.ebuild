@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyXSteam"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="pyXSteam is a port of the Matlab/Excel Package XSteam     by Magnus
 
 HOMEPAGE="https://github.com/drunsinn/pyXSteam"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/62/cab7aa7c469f23a8d4ac99cce60676913cf02e4ca1d9f91afe3d5e461fb6/pyXSteam-${REALVERSION}.tar.gz"
-SOURCEFILE="pyXSteam-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="fireREST"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python api client for firepower management center"
 
 HOMEPAGE="https://github.com/kaisero/fireREST.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e5/54/c17f97a52eeab9c5c238ac6d78babe05a9c4733718853f4acb1d04ccd284/fireREST-${REALVERSION}.tar.gz"
-SOURCEFILE="fireREST-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

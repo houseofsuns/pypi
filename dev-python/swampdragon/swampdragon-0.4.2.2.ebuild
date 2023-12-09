@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SwampDragon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SwampDragon is a powerful platform making it easy to build real tim
 
 HOMEPAGE="http://swampdragon.net"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c1/6d/878573c7ce27f7228d1254d6ebf9e405b1858db14b8be816810b97c15a8c/SwampDragon-${REALVERSION}.zip"
-SOURCEFILE="SwampDragon-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

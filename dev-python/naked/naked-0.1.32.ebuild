@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Naked"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A command line application framework"
 
 HOMEPAGE="https://github.com/chrissimpkins/naked"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/47/a5/7a4f84bb6a7b0d6ba84fda48119e29afd339a1bc4f9589dab1fe064d6eb6/Naked-${REALVERSION}.tar.gz"
-SOURCEFILE="Naked-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

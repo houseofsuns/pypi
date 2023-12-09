@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OctoBot-Tulipy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Financial Technical Analysis Indicator Library. Python bindings for
 
 HOMEPAGE="https://github.com/Drakkar-Software/tulipy"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/1d/9d/0fbb8b2b0d91a61dca2d5935a2fad0f8dbed83cb02583a546277b38f4156/OctoBot-Tulipy-${REALVERSION}.tar.gz"
-SOURCEFILE="OctoBot-Tulipy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

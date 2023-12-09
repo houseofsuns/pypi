@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="kuttyPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package for KuttyPy and KuttyPyPlus AVR trainer"
 
 HOMEPAGE="https://github.com/csparkresearch/kuttypy-gui"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cf/20/a2798c40f687dc801ed907f198673bc8f6feac552e7db228f11d5c85661c/kuttyPy-${REALVERSION}.tar.gz"
-SOURCEFILE="kuttyPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

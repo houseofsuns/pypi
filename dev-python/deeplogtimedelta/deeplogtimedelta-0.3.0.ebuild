@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepLogTimedelta"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a deeplog implementation for timedelta"
 
 HOMEPAGE="https://github.com/sasniy/DeeplogTimedelta"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/83/87902993a15211aa15d1640e505100a3cdb9691c8f9601cdc061ee1b1b35/DeepLogTimedelta-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepLogTimedelta-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

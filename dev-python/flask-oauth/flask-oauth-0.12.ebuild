@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-OAuth"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Adds OAuth support to Flask"
 
 HOMEPAGE="http://github.com/mitsuhiko/flask-oauth"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/06/86/0ee429eb76e1ac357544129336e83d9f829e3e1f042ea217c0ac8504a0a7/Flask-OAuth-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-OAuth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

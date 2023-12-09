@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BiblioPixel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BiblioPixel is a pure python library for manipulating a wide variet
 
 HOMEPAGE="http://github.com/maniacallabs/bibliopixel/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a9/56/2a421931d64353865052e3cb0efa67a4425b03409d43c3e365c53a7d4cd5/BiblioPixel-${REALVERSION}.tar.gz"
-SOURCEFILE="BiblioPixel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

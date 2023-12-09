@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyDatalog"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A pure-python implementation of Datalog, a truly declarative langua
 
 HOMEPAGE="https://sites.google.com/site/pydatalog/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ac/81/177499a23ca0802f9cca7af4df7c2ea74e91e0526c9e411204a58e4f01f9/pyDatalog-${REALVERSION}.tar.gz"
-SOURCEFILE="pyDatalog-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

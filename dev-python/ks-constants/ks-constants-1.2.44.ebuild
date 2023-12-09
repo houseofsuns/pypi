@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KS-Constants"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/kerrigan-survival-team/ks_constants_py"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/92/f3/77dea90f82723fda906258fcd4f560f6c1306b8fe85a0bc9cb8a1eb8634b/KS_Constants-${REALVERSION}.tar.gz"
-SOURCEFILE="KS_Constants-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

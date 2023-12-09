@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CreateCloudMap"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Create a cloud map for xplanet using satellite images from the Dund
 
 HOMEPAGE="https://github.com/jmozmoz/cloudmap"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/1f/5c/75ce03f468e0765120a307da2ccefafe10f7d1cce122de21ae653cbb49af/CreateCloudMap-${REALVERSION}.tar.gz"
-SOURCEFILE="CreateCloudMap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

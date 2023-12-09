@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GhostScan"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="three-dimensional imaging and projection"
 
 HOMEPAGE="https://github.com/NU-ACCESS/GhostScan"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/62/be/33200640a6c41f981d13a1bf63b90b032d29564b14a819b10cb113d967ae/GhostScan-${REALVERSION}.tar.gz"
-SOURCEFILE="GhostScan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

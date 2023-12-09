@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CTkTable"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Customtkinter Table widget"
 
 HOMEPAGE="https://github.com/Akascape/CTkTable"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/88/81/5acd5380e1135295804cf0e53b5bb51ff3c8c1b2188c4e0f00a1553a758c/CTkTable-${REALVERSION}.tar.gz"
-SOURCEFILE="CTkTable-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

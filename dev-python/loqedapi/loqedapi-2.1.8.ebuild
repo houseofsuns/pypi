@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="loqedAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python package to use the Loqed Smart Door Lock APIs in a local net
 
 HOMEPAGE="https://github.com/cpolhout/loqedAPI"
 LICENSE="BSD 2-clause"
-SRC_URI="https://files.pythonhosted.org/packages/fe/67/cc8e72d6bf3238189bcdd543a04510af33aee70a3b88a3f4e5d1044b0f87/loqedAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="loqedAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

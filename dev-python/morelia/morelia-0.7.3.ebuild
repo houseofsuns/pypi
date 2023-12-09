@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Morelia"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="for \"Behavior Driven Development\" (BDD) -- a client-facing script
 
 HOMEPAGE="https://github.com/kidosoft/morelia"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/5e/79ea4b77b607ed38ad72e2f8aac9499220fe27ef11e1a4a60854ec01745c/Morelia-${REALVERSION}.tar.gz"
-SOURCEFILE="Morelia-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

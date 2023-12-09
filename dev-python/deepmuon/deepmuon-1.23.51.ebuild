@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepMuon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Interdisciplinary Deep Learning Platform"
 
 HOMEPAGE="https://airscker.github.io/DeepMuon/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/93/75/e7ed03dceddd755811d56be56396e48b8aa4545b779d2e23969ac43e23ab/DeepMuon-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepMuon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyViCare"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library to communicate with the Viessmann ViCare API"
 
 HOMEPAGE="https://github.com/somm15/PyViCare"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/48/60c4f545d27d0ef339a288c223261b11a231372ebc2b8650983fb4e65d46/PyViCare-${REALVERSION}.tar.gz"
-SOURCEFILE="PyViCare-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

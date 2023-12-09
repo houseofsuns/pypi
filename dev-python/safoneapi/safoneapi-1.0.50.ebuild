@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SafoneAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Asynchronous Python Wrapper For SafoneAPI"
 
 HOMEPAGE="https://github.com/AsmSafone/SafoneAPI"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4b/00/e6bcf63273444371f98d2892ecf0a5d33dc645a2dd9a22db2c4993d7b98d/SafoneAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="SafoneAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

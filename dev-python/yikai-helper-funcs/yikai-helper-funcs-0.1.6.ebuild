@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Yikai-helper-funcs"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Test nbdev for developing packages for self-resue"
 
 HOMEPAGE="https://github.com/DavidykZhao/Yikai_helper_funcs/tree/master/"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/b1/aa/9c2fa988a03e44bb4ffdf0dec0fc6f3f3e9a464db8fa0516582ca9ee8b2d/Yikai_helper_funcs-${REALVERSION}.tar.gz"
-SOURCEFILE="Yikai_helper_funcs-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

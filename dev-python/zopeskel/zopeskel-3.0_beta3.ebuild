@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ZopeSkel"
 REALVERSION="3.0b3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Templates and code generator for quickstarting Python, Zope and Plo
 
 HOMEPAGE="https://github.com/collective/zopeskel"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1b/d3/380bb6f38bb75ac3372b96151378c6030c659599055e5fa8fbb2d346bc9f/ZopeSkel-${REALVERSION}.zip"
-SOURCEFILE="ZopeSkel-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

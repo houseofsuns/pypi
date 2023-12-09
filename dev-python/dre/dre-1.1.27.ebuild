@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DRE"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Deep Recursive Embedding for High-Dimensional Data"
 
 HOMEPAGE="https://github.com/zuxinrui/DRE"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/8a/93/f231e241638f757e56e2812173f281cfcec4155f665320c92b2cf36cfac4/DRE-${REALVERSION}.tar.gz"
-SOURCEFILE="DRE-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SplatStats"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Chipdelmal/SplatStats"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/df/f6/a5e7d6e857842bd975d063773a4adabe0ac5bfac1a197b41b805ba938f24/SplatStats-${REALVERSION}.tar.gz"
-SOURCEFILE="SplatStats-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

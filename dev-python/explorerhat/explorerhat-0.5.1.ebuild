@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ExplorerHAT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A module to control the Explorer HAT Raspberry Pi Addon Board"
 
 HOMEPAGE="http://shop.pimoroni.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/77/765e47c61c78fcdcc0e848ddfe20302d6798acded9d81956a5748ccafa91/ExplorerHAT-${REALVERSION}.tar.gz"
-SOURCEFILE="ExplorerHAT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

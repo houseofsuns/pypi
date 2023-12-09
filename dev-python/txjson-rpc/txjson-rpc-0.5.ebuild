@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="txJSON-RPC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Code for creating Twisted JSON-RPC servers and clients."
 
 HOMEPAGE="http://github.com/rockstar/txjsonrpc"
 LICENSE="BSD, GPL"
-SRC_URI="https://files.pythonhosted.org/packages/83/68/fb79f7a5154cb9fea93ae1a00b2d0aed3527c79b8a30649a902a3eaf7846/txJSON-RPC-${REALVERSION}.tar.gz"
-SOURCEFILE="txJSON-RPC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

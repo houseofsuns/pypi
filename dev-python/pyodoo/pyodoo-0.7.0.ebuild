@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyOdoo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="API for Odoo"
 
 HOMEPAGE="http://www.muflone.com/pyodoo/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/84/57/bbec3876f40a66d4ef126bdce1dcef09ebb9a0b8d21ea808602ad2c63e98/PyOdoo-${REALVERSION}.tar.gz"
-SOURCEFILE="PyOdoo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

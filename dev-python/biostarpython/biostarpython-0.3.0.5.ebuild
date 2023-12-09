@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="biostarPython"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python client for Suprema GSDK with included callable classes."
 
 HOMEPAGE="https://github.com/gcartlidge/biostarPython"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/79/6f/039a248173ab486443438391291decc28a5d7253abbaff9f897d2d4c9976/biostarPython-${REALVERSION}.tar.gz"
-SOURCEFILE="biostarPython-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

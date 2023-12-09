@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Paver"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy build, distribution and deployment scripting"
 
 HOMEPAGE="https://github.com/paver/paver"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7f/df/c2aba0e68432471a252dc0d344f0a55f63104a1eeb83440e8e6b01cec47d/Paver-${REALVERSION}.tar.gz"
-SOURCEFILE="Paver-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Django-UserService"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="User abstraction and impersonation for Django"
 
 HOMEPAGE="https://github.com/uw-it-aca/django-userservice"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/dc/fa/ffd08c738b50aa07a650ec53b2977d8ef539561542c4459b4bc917279fd0/Django-UserService-${REALVERSION}.tar.gz"
-SOURCEFILE="Django-UserService-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

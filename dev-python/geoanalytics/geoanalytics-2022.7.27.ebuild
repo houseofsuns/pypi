@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="geoAnalytics"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This software is being developed at the University of Aizu, Aizu-Wa
 
 HOMEPAGE="https://github.com/udayRage/geoAnalytics"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c6/1a/28819f027d6f535aa54ad9cf1a21f2fa3591c28402635434f060595536f1/geoAnalytics-${REALVERSION}.tar.gz"
-SOURCEFILE="geoAnalytics-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

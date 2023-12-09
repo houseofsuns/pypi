@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MeanStars"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Automated property interpolation and color calculations for main se
 
 HOMEPAGE="https://github.com/dsavransky/MeanStars"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/61/ea/2ad05a5e167a63683371533fb46f1bc9a5df4f49ea74db3478d2df3d0844/MeanStars-${REALVERSION}.tar.gz"
-SOURCEFILE="MeanStars-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BotCore"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Base core for telegram bots."
 
 HOMEPAGE="https://gitlab.com/Tullp/botcore"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d3/2e/593826ef21517d027c987380424aa5ba171ac3aff3e31ac893a608b4ad68/BotCore-${REALVERSION}.tar.gz"
-SOURCEFILE="BotCore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

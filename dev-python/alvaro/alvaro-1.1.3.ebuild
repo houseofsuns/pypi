@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Alvaro"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy to use networking library."
 
 HOMEPAGE="https://github.com/edgecase963/Alvaro"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4e/58/ac759107d87c4dfac879c981d6f1696fec7b2a73d6fc911b604dfe9e3b3c/Alvaro-${REALVERSION}.tar.gz"
-SOURCEFILE="Alvaro-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

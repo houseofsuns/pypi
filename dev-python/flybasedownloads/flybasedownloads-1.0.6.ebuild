@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FlyBaseDownloads"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package to download Flybase data in Python, easily and quickly."
 
 HOMEPAGE="https://github.com/JavieraQuirozO/FlyBaseDownloads"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ac/aa/3695fac802dbc4d0d5778152d8a7160850e9ca491e522c5f52349b6f757a/FlyBaseDownloads-${REALVERSION}.tar.gz"
-SOURCEFILE="FlyBaseDownloads-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

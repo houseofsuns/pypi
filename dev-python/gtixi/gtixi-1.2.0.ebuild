@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="gTixi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="高效碳基演示体系核心模块"
 
 HOMEPAGE="https://gitee.com/lxwk1spectre/walartminstar"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a1/e0/ca49beecf6c1e7850d373f9e5805c24c61199c2279f206eae7f5549c74bd/gTixi-${REALVERSION}.tar.gz"
-SOURCEFILE="gTixi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

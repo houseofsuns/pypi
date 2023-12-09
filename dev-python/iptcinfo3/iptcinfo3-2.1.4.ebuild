@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IPTCInfo3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A great way to get IPTCInfo"
 
 HOMEPAGE="https://github.com/jamesacampbell/iptcinfo3"
 LICENSE="http://www.opensource.org/licenses/gpl-license.php"
-SRC_URI="https://files.pythonhosted.org/packages/78/da/886f82690de6006b5d2164dc8024c1e35b5930555ca29c0650dddd93f7e1/IPTCInfo3-${REALVERSION}.tar.gz"
-SOURCEFILE="IPTCInfo3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

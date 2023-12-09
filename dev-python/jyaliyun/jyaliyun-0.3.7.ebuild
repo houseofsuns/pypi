@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JYAliYun"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Aliyun Service Library"
 
 HOMEPAGE="https://github.com/meisanggou/AliYun"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/75/17/a0850e4797e65795a427cc8f903dbdb29594d6b1b23ddfab27a960c8721b/JYAliYun-${REALVERSION}.tar.gz"
-SOURCEFILE="JYAliYun-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

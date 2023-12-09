@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="py-Asterisk"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Asterisk Manager API Python interface."
 
 HOMEPAGE="https://github.com/jeansch/py-asterisk/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/44/0a/fff6eb05fbf3acec5cdefacd667d4421ef235ec0ea400783d053cafdc7f5/py-Asterisk-${REALVERSION}.tar.gz"
-SOURCEFILE="py-Asterisk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

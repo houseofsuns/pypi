@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QWebSite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="QWebSite"
 
 HOMEPAGE="https://github.com/QPT-Family/QWebSiteOptimizer"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/47/eb/5b670bb2357113a7c3387d1f9fa99c080faaaa68c53ef79cf08d79f66c6b/QWebSite-${REALVERSION}.tar.gz"
-SOURCEFILE="QWebSite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

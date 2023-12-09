@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pdns-Remotebackend"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Support package for PowerDNS remotebackend"
 
 HOMEPAGE="https://github.com/cmouse/pdns-remotebackend-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/59/98/dfc89a783ee683212b66ef04438eecb16900bd0dcca86ed1de18d70a6749/Pdns_Remotebackend-${REALVERSION}.tar.gz"
-SOURCEFILE="Pdns_Remotebackend-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

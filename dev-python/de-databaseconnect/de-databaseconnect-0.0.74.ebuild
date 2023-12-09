@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DE-DataBaseConnect"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Conector com varias base de dados"
 
 HOMEPAGE="https://github.com/DE-DataEng/DE_DataBaseConnect.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d5/c6/9acb561ff6454d7aa1c65c829c39b9e02247f17c6514f63ace773c2310d6/DE_DataBaseConnect-${REALVERSION}.tar.gz"
-SOURCEFILE="DE_DataBaseConnect-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

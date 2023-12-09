@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TerminalPrinter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="终端图片、文字生成器"
 
 HOMEPAGE="https://github.com/hellflame/terminal_printer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/19/f8/e1738f19351a42ace186105f40b17480c783de0e73b8132b7047a244755e/TerminalPrinter-${REALVERSION}.tar.gz"
-SOURCEFILE="TerminalPrinter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

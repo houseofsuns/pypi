@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ctbBio"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="scripts for working with sequencing data"
 
 HOMEPAGE="https://github.com/christophertbrown/bioscripts"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f8/5c/da308bac1e272137c8b3d3e0c93e0265412a5ed9b7bebf7d307521e11d4d/ctbBio-${REALVERSION}.tar.gz"
-SOURCEFILE="ctbBio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

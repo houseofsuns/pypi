@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="nnMorpho"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for GPU-accelerated and Machine-Learning adapted Mathemat
 
 HOMEPAGE="https://github.com/Manza12/nnMorpho"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/db/2b2e054220faa85c931cafef524acd15538b16aa0fe24fd60a1723002ef5/nnMorpho-${REALVERSION}.tar.gz"
-SOURCEFILE="nnMorpho-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

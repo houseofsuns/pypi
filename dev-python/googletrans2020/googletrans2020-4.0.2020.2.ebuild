@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GoogleTrans2020"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Free Google Translate Tool"
 
 HOMEPAGE="https://github.com/wingram01"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/4f/5f6a516a1864729994d9ad05162fd66db2dc1153125976759b5d88d02238/GoogleTrans2020-${REALVERSION}.tar.gz"
-SOURCEFILE="GoogleTrans2020-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

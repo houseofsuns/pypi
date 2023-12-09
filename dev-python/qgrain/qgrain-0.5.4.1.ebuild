@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QGrain"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An easy-to-use software for the comprehensive analysis of grain siz
 
 HOMEPAGE="https://github.com/yuriok/QGrain"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f0/98/677140c2e8988f3f46c31bd2bb2dc23651c78067ca9c9342fbbfbbdd0970/QGrain-${REALVERSION}.tar.gz"
-SOURCEFILE="QGrain-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

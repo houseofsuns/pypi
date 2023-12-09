@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PREDICT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Predict: a Radiomics Extensive Digital Interchangable Classificatio
 
 HOMEPAGE="https://github.com/Svdvoort/PREDICTFastr"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/99/0f/bbd7bea22fc31dd3392e154fa713a46596b15363613354d44e0793fe896b/PREDICT-${REALVERSION}.tar.gz"
-SOURCEFILE="PREDICT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

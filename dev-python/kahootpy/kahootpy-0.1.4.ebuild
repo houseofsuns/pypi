@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KahootPY"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python package to interact with Kahoot!"
 
 HOMEPAGE="https://github.com/theusaf/KahootPY"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/f4/6d0dc911752122e1a38977233d7bc2397f9a115a9ea11e5a5e9ebcff6f11/KahootPY-${REALVERSION}.tar.gz"
-SOURCEFILE="KahootPY-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PythonFunctions"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A list of functions ready to install and use."
 
 HOMEPAGE="https://github.com/FunAndHelpfulDragon/python-Functions/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/19/61/3d74f89f92d37795f3ff627a9ebf68466e98924fa4b05d0db59a46a94891/PythonFunctions-${REALVERSION}.tar.gz"
-SOURCEFILE="PythonFunctions-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

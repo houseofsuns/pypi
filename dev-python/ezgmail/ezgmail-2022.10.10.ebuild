@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EZGmail"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Pythonic interface to the Gmail API that actually works as of Oct
 
 HOMEPAGE="https://github.com/asweigart/ezgmail"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/c9/21/a873dfd114db444022df17d29f01a7ae9c4152e5fd1536be1e3c85b6fefe/EZGmail-${REALVERSION}.tar.gz"
-SOURCEFILE="EZGmail-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

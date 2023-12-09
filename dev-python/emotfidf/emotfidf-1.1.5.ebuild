@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EmoTFIDF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library to extract emotions using two methods, 1- Using lexicon b
 
 HOMEPAGE="https://github.com/mmsa/emotfidf"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/92/05/505cb23bec5ba29e1f36c73e341ba2ab4edf0f5aa5aeb81f0591538c0771/EmoTFIDF-${REALVERSION}.tar.gz"
-SOURCEFILE="EmoTFIDF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyTibber"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python3 library to communicate with Tibber"
 
 HOMEPAGE="https://github.com/Danielhiversen/pyTibber"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/38/c9/5fb081794cb3b5ff7e6104a999fe60d2fe6eaf873c55d0339ca323012a3f/pyTibber-${REALVERSION}.tar.gz"
-SOURCEFILE="pyTibber-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

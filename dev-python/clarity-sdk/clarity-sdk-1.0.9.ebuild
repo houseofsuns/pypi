@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Clarity-SDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python SDK for the Clarity API"
 
 HOMEPAGE="https://test.pypi.org/legacy/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b9/a9/9c1270a2f2c9460066d03b7edcfdbb331a626abc79c0fc8ff47e12c9f13a/Clarity_SDK-${REALVERSION}.tar.gz"
-SOURCEFILE="Clarity_SDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Cheetah3"
 REALVERSION="3.2.7b1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Cheetah is a template engine and code generation tool"
 
 HOMEPAGE="https://cheetahtemplate.org/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b4/9f/39d5814e3184baa64670bcaa5bc04550a375d10b06d5197ad8885c06f296/Cheetah3-${REALVERSION}.tar.gz"
-SOURCEFILE="Cheetah3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

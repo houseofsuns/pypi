@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PDF4Cat"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PDF4Cat Simple and Power tool for processing pdf docs using PyMuPDF
 
 HOMEPAGE="https://github.com/BlackCatDevel0per/PDF4Cat"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/39/0832ab7005a65d958d9fa867ed7fe8e2f5758e086e6c71c170f81e96f9af/PDF4Cat-${REALVERSION}.tar.gz"
-SOURCEFILE="PDF4Cat-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Xhpc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Xhpc is a command line tool allowing the conversion of a sh/bash sc
 
 HOMEPAGE="https://github.com/FranckLejzerowicz/Xhpc"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/e9/96/c30bf9569421033823b0f005cc50ac1e9096d948aa07503d89db73d6cb6c/Xhpc-${REALVERSION}.tar.gz"
-SOURCEFILE="Xhpc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

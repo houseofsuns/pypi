@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Rest-Utils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Rest-Utils provides simple generation of Restful APIs for database 
 
 HOMEPAGE="https://github.com/windprog/rest-utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3b/f5/246f0812f6e81e4b339c99b9e7512a61f827d4f05ef48665a1deabfed128/Rest-Utils-${REALVERSION}.tar.gz"
-SOURCEFILE="Rest-Utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

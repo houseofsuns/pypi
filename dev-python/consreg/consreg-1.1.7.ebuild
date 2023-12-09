@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ConSReg"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="condition-specific regulation"
 
 HOMEPAGE="https://github.com/LiLabAtVT/ConSReg"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ad/4e/47edea2d770fd9d0f99b0356cf215361302c7375764256740357e383987c/ConSReg-${REALVERSION}.tar.gz"
-SOURCEFILE="ConSReg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

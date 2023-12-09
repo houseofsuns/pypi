@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AutoStrEnum"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="# AutoStrEnum"
 
 HOMEPAGE="https://github.com/PttCodingMan/AutoStrEnum"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ed/d4/e6d63d1af0e9e52b2579736c2b305e0d4022ad0c0d5219641589573a5555/AutoStrEnum-${REALVERSION}.tar.gz"
-SOURCEFILE="AutoStrEnum-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

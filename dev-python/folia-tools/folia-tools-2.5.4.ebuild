@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FoLiA-tools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FoLiA-tools contains various Python-based command line tools for wo
 
 HOMEPAGE="https://proycon.github.io/folia"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/0e/ab/eef9d57cabb8604535b36b17c16a10c9630c277e24f5395ec999dbfaba7e/FoLiA-tools-${REALVERSION}.tar.gz"
-SOURCEFILE="FoLiA-tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

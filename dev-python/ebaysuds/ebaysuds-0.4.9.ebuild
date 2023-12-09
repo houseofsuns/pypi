@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EbaySuds"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="UNKNOWN"
 
 HOMEPAGE="https://github.com/anentropic/ebaysuds"
 LICENSE="LGPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/96/63/7f7029dab7ae9a2c5fec6f8054c138d57cab9aba894f9715709cd169ef27/EbaySuds-${REALVERSION}.tar.gz"
-SOURCEFILE="EbaySuds-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

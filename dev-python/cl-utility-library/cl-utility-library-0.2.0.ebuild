@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CL-Utility-Library"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A custom Library"
 
 HOMEPAGE="https://github.com/carolineshewchuk/RepoA/CL_Utility_Library"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/eb/71/eee4e5d822464060c4bd63da038bac2f7d427b539cf0459b243378090adc/CL_Utility_Library-${REALVERSION}.tar.gz"
-SOURCEFILE="CL_Utility_Library-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

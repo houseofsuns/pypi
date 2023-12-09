@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyStaticConfiguration"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python library for loading static configuration"
 
 HOMEPAGE="https://github.com/dnephin/PyStaticConfiguration"
 LICENSE="APACHE20"
-SRC_URI="https://files.pythonhosted.org/packages/b8/db/f38696a2d19196729ccbeaf7f321175ee47931b84f408ed7d6852a0680d8/PyStaticConfiguration-${REALVERSION}.tar.gz"
-SOURCEFILE="PyStaticConfiguration-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

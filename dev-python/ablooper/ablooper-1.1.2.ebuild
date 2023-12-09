@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ABlooper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Set of functions to predict CDR structure"
 
 HOMEPAGE=""
 LICENSE="BSD 3-clause license"
-SRC_URI="https://files.pythonhosted.org/packages/c4/36/249210f22e68f6f78f868af3cfa93ab3a566aa3df3f7bb147cb0ae059d62/ABlooper-${REALVERSION}.tar.gz"
-SOURCEFILE="ABlooper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

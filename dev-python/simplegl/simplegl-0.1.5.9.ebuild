@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SimpleGL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://gitee.com/bbnoodle/simple_gl"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/57/4d/922e6bc5dd59543d5ff780474c27d4d617c888de5c40c4894f53b39126e7/SimpleGL-${REALVERSION}.tar.gz"
-SOURCEFILE="SimpleGL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

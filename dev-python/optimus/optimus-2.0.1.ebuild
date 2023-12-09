@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Optimus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Optimus is a static site builder using Jinja2, webassets and Babel.
 
 HOMEPAGE="https://github.com/sveetch/Optimus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/85/3afaa16c30573a54076ad4d0acee1ff0fecd22f5d491987f923dd697cfc0/Optimus-${REALVERSION}.tar.gz"
-SOURCEFILE="Optimus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

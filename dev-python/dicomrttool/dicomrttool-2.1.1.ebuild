@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DicomRTTool"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Services for reading dicom files, RT structures, and dose files, as
 
 HOMEPAGE="https://github.com/brianmanderson/Dicom_RT_and_Images_to_Mask"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/65/82/23008b01f0cf2c4dfd4a79043790a2a431226453f107492710ac51a0b08c/DicomRTTool-${REALVERSION}.tar.gz"
-SOURCEFILE="DicomRTTool-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

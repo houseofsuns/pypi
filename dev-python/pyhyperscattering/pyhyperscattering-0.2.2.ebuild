@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyHyperScattering"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Utilities for loading, reducing, fitting, and plotting hyperspectra
 
 HOMEPAGE="https://github.com/usnistgov/pyhyperscattering"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/09/4a/9b4ea1bf902d217121045347e7f1b5c98bb7a02b6d7a55ffd22ca6330a5c/PyHyperScattering-${REALVERSION}.tar.gz"
-SOURCEFILE="PyHyperScattering-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

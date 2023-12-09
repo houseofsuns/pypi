@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySDM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pythonic particle-based (super-droplet) warm-rain/aqueous-chemistry
 
 HOMEPAGE="https://github.com/open-atmos/PySDM"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/12/9a/84510aaf9ba43ad52cb2aab3d123341a675cb58065f312acae1cbba72164/PySDM-${REALVERSION}.tar.gz"
-SOURCEFILE="PySDM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

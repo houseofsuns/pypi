@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CNVkit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Copy number variation toolkit for high-throughput sequencing."
 
 HOMEPAGE="https://github.com/etal/cnvkit"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/97/bf/89948ad0018712eac88313daa1350f867154926823d7ae1952e61afad83c/CNVkit-${REALVERSION}.tar.gz"
-SOURCEFILE="CNVkit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

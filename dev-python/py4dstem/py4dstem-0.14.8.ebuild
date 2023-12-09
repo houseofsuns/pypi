@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="py4DSTEM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
@@ -15,8 +16,8 @@ DESCRIPTION="An open source python package for processing and analysis of 4D STE
 
 HOMEPAGE="https://github.com/py4dstem/py4DSTEM/"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/8c/2e/7228946ecbd4b499a45d69d464fc9a4c104e9ded6cce31cf4e16fd2d159d/py4DSTEM-${REALVERSION}.tar.gz"
-SOURCEFILE="py4DSTEM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

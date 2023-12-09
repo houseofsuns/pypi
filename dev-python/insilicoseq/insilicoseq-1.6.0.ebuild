@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="InSilicoSeq"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a sequencing simulator"
 
 HOMEPAGE="https://github.com/HadrienG/InSilicoSeq"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b7/f1/1ba5ec8a31d99e948d4a59465a9675edf70154eb89d3949254f8b6e6edbf/InSilicoSeq-${REALVERSION}.tar.gz"
-SOURCEFILE="InSilicoSeq-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

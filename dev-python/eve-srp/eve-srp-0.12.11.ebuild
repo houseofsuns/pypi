@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EVE-SRP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="EVE Ship Replacement Program Helper"
 
 HOMEPAGE="https://github.com/paxswill/evesrp"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/41/d3/db7b4df81e59801840e3c8634341a2f11c274fb970f3dda47cc6fbce31ed/EVE-SRP-${REALVERSION}.tar.gz"
-SOURCEFILE="EVE-SRP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

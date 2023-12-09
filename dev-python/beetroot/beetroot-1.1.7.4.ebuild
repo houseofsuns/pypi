@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Beetroot"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A General Purpose Utility package for Python 3"
 
 HOMEPAGE="https://github.com/CuboidRaptor/Python-Beetroot"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/2c/45/892663ce25c183664ac0e501d0aed80afd9c5abe3c4bf99cecb67f6794e4/Beetroot-${REALVERSION}.tar.gz"
-SOURCEFILE="Beetroot-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

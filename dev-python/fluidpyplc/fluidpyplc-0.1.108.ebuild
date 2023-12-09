@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FluidPyPLC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FluidSim Circuits Analyzer & PLC ST Code Generator"
 
 HOMEPAGE="https://github.com/MrLostInTheInternet/FluidPyPLC"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/f6/a8/06f3daf5c55108ab159868a7ae5b341344c3404e7ecf9aa298d54de74285/FluidPyPLC-${REALVERSION}.tar.gz"
-SOURCEFILE="FluidPyPLC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

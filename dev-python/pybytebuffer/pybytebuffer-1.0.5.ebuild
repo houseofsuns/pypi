@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyByteBuffer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A bytes manipulation library inspired by Java ByteBuffer"
 
 HOMEPAGE="https://github.com/iGio90/PyByteBuffer"
 LICENSE="GPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/22/07/124736940ea5c8526c0e33c241fb25fce5b154e5481b243db50be42f7c3b/PyByteBuffer-${REALVERSION}.tar.gz"
-SOURCEFILE="PyByteBuffer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

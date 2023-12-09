@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ScopeSim-Templates"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="On-sky source templates for ScopeSim"
 
 HOMEPAGE="https://scopesim_templates.readthedocs.io/en/latest/"
 LICENSE="License :: OSI Approved :: GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/88/2d/f0228873cb8490b47a53824c999582065d930b6b116b8dfeebfad79cfd1c/ScopeSim_Templates-${REALVERSION}.tar.gz"
-SOURCEFILE="ScopeSim_Templates-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Aglyph"
 REALVERSION="3.0.0.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Aglyph is a Dependency Injection framework for Python."
 
 HOMEPAGE="http://ninthtest.info/aglyph-python-dependency-injection/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b2/11/56e5523709a0d86a6ba903f957cadf232342a0219795069a3df500b78721/Aglyph-${REALVERSION}.zip"
-SOURCEFILE="Aglyph-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

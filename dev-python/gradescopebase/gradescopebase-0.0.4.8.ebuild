@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GradescopeBase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Utilities for building Gradescope autograders"
 
 HOMEPAGE="https://github.com/61c-teach/GradescopeBase"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/06/bb5ef2c7ce21576eb406568ca89c8d0b191130eeb0f89a55087c48edf3fc/GradescopeBase-${REALVERSION}.tar.gz"
-SOURCEFILE="GradescopeBase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

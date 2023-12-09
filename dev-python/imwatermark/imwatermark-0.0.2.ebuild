@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="imWatermark"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This snippet of code attempts to watermark images."
 
 HOMEPAGE="https://github.com/Mamdasn/imWatermark"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/57/67/960b6747a432f549efab12c84fbe091e9651c2fbc2ca29e58f2999ed5465/imWatermark-${REALVERSION}.tar.gz"
-SOURCEFILE="imWatermark-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

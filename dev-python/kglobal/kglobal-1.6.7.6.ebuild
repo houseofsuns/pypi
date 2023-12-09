@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="KGlobal"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SQL Handling, Object Shelving, Data Encryption, ETL File Handler, E
 
 HOMEPAGE="https://github.com/KLRussell/Python_KGlobal_Package"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/55/45/e548743adcddd6dde6dbc23178a5de47084ef2662e59dfb4c28f8ada704b/KGlobal-${REALVERSION}.tar.gz"
-SOURCEFILE="KGlobal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

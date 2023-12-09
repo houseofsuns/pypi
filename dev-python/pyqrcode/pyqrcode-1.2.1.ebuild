@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyQRCode"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A QR code generator written purely in Python with SVG, EPS, PNG and
 
 HOMEPAGE="https://github.com/mnooner256/pyqrcode"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/06/76/1aa11ac094c65005b5d8a042b8bd96d73d4e2c32d9a63a68b21278e4b7d2/PyQRCode-${REALVERSION}.zip"
-SOURCEFILE="PyQRCode-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CoCap"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CAP"
 
 HOMEPAGE="https://www.cityocean.com"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/72/62/f48747d679caff97dfc32bfc4507ed5cb5aa19113562ecd84ddd35a73337/CoCap-${REALVERSION}.tar.gz"
-SOURCEFILE="CoCap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

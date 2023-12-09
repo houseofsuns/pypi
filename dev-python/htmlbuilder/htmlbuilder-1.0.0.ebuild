@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="htmlBuilder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A beautiful html builder library."
 
 HOMEPAGE="https://github.com/jaimevp54/htmlBuilder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/a1/da87d642b31831fb6731cbec6c5dceb3f770dd0b147beefbb1426eb8f0c6/htmlBuilder-${REALVERSION}.tar.gz"
-SOURCEFILE="htmlBuilder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

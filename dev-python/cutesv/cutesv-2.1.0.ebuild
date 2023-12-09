@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="cuteSV"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Long-read-based human genomic structural variation detection with c
 
 HOMEPAGE="https://github.com/tjiangHIT/cuteSV"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a5/50/3bb331ce84788ae71ec4e55e0d4a0306abef92ca6d788a2ccc09947282e0/cuteSV-${REALVERSION}.tar.gz"
-SOURCEFILE="cuteSV-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AlgorithmLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="audio algorithms to compute and test audio quality of speech enhenc
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/45/b9/edc1d69902a46061845ba6b3b1f4c85038c6ce1403903e8783ce639b4287/AlgorithmLib-${REALVERSION}.tar.gz"
-SOURCEFILE="AlgorithmLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

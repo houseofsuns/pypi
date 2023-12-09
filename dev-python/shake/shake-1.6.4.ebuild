@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Shake"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A lightweight web framework based on Werkzeug and Jinja2 as an alte
 
 HOMEPAGE="http://github.com/lucuma/shake"
 LICENSE="MIT license http://www.opensource.org/licenses/mit-license.php"
-SRC_URI="https://files.pythonhosted.org/packages/ca/76/d7a42092cf0e3f81333e4b7ba56fb1fb03709f93f2a69d24b8a239d3f5fe/Shake-${REALVERSION}.tar.gz"
-SOURCEFILE="Shake-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

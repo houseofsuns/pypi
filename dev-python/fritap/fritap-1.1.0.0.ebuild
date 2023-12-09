@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="friTap"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Decrypts and logs a process's SSL/TLS traffic on all major platform
 
 HOMEPAGE="https://github.com/fkie-cad/friTap"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/b1/27/66cf14627ffce5f3b9609a8dcf13903fa663be19a36cfe4a847dd157dd1a/friTap-${REALVERSION}.tar.gz"
-SOURCEFILE="friTap-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

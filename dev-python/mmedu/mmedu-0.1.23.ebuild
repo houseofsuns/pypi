@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MMEdu"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MMEdu originates from the domestic artificial intelligence visual a
 
 HOMEPAGE="https://github.com/OpenXLab-Edu/OpenMMLab-Edu"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/23/85/1fd0a7e9ccfc645d6502765b33928dcb0dfad684eaa3aad072e204d8d97d/MMEdu-${REALVERSION}.tar.gz"
-SOURCEFILE="MMEdu-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

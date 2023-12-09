@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="testforPPshare"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PPtest is a utility for crawling historical and Real-time Quotes da
 
 HOMEPAGE="https://github.com/zemengchuan/PPtest"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/f4/470aeda7c66ab66f4d83fe5826fd96a2d693cf709deff8691d6d0de40fb0/testforPPshare-${REALVERSION}.tar.gz"
-SOURCEFILE="testforPPshare-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

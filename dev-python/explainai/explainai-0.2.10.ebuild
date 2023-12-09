@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ExplainAI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="explain AI tool"
 
 HOMEPAGE="https://github.com/HuangFeini/ExplainAI"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/4e/3b/b828b86656b014ece5a062c2c0da0a6e5e07f151da7458415fe907f86d21/ExplainAI-${REALVERSION}.tar.gz"
-SOURCEFILE="ExplainAI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

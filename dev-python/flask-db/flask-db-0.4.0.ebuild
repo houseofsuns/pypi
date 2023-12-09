@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-DB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Flask CLI extension to help migrate and manage your SQL database.
 
 HOMEPAGE="https://github.com/nickjj/flask-db"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c6/ca/13db34301f1fa1d5777882b5f8faa6425d30a308bcc7b160b97e9c249180/Flask-DB-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-DB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Cartridge"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Django shopping cart application."
 
 HOMEPAGE="http://cartridge.jupo.org/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/dc/08/35ebbf815c4d87c5b2856714289ff35f74992583ab7b5fe07f222870784c/Cartridge-${REALVERSION}.tar.gz"
-SOURCEFILE="Cartridge-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

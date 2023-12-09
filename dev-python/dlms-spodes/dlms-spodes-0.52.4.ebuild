@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DLMS-SPODES"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="dlms-spodes"
 
 HOMEPAGE="https://github.com/youserj/DlmsSPODES"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5b/52/98053db8624f2e693ecafb62e4347e1d7bc9b92186e78827e4eea6be8614/DLMS_SPODES-${REALVERSION}.tar.gz"
-SOURCEFILE="DLMS_SPODES-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mopidy-MPRIS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mopidy extension for controlling Mopidy through the MPRIS D-Bus int
 
 HOMEPAGE="https://github.com/mopidy/mopidy-mpris"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/72/5d/fd7ab225e406ed1a3d8d5d3506974200d6f44813609cd6f6ecdd25e419bf/Mopidy-MPRIS-${REALVERSION}.tar.gz"
-SOURCEFILE="Mopidy-MPRIS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

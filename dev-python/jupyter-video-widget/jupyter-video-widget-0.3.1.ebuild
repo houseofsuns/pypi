@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Jupyter-Video-Widget"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Jupyter HTML5 Video Player Widget"
 
 HOMEPAGE="https://github.com/Who8MyLunch/Jupyter_Video_Widget"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8c/4f/d7d99a72dd754e5cb63a18cd714959bef91c7b08d61bb49f9a90504fc6d3/Jupyter_Video_Widget-${REALVERSION}.tar.gz"
-SOURCEFILE="Jupyter_Video_Widget-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

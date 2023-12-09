@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="hashID"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Software to identify the different types of hashes"
 
 HOMEPAGE="https://github.com/psypanda/hashID"
 LICENSE="GNU GPL"
-SRC_URI="https://files.pythonhosted.org/packages/09/ce/d26df4843e6d62ce016a126e8faae1905b6f2b5629a59982dd3af23761aa/hashID-${REALVERSION}.zip"
-SOURCEFILE="hashID-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

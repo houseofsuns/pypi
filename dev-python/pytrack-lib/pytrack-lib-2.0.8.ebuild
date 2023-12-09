@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyTrack-lib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a Map-Matching-based Python Toolbox for Vehicle Trajectory Reconstr
 
 HOMEPAGE="https://github.com/cosbidev/PyTrack"
 LICENSE="BSD-3-Clause-Clear"
-SRC_URI="https://files.pythonhosted.org/packages/53/44/e42529f07ee9a1103369fd335d3bd92bcd476dc2fcf3ce86b0b09c1f9bc5/PyTrack-lib-${REALVERSION}.tar.gz"
-SOURCEFILE="PyTrack-lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

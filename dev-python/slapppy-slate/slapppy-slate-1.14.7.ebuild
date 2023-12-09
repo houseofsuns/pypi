@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SlappPy-Slate"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SlappPy is the Python support and generation code for Slapp and Dol
 
 HOMEPAGE="https://github.com/kjhf/SlappPy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0d/ba/54b96692faba259b76bdd863aa0beaf0dc0b30141a9aaa40dd14d4a8cc11/SlappPy-Slate-${REALVERSION}.tar.gz"
-SOURCEFILE="SlappPy-Slate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

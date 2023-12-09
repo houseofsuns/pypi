@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ChannelAttribution"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Markov Model for Online Multi-Channel Attribution"
 
 HOMEPAGE="https://channelattribution.io"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/7e/7e/a7393957bea8823ef20d61fc1c4787e7cf684ecbf1372f78ea4349ae8ed7/ChannelAttribution-${REALVERSION}.tar.gz"
-SOURCEFILE="ChannelAttribution-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

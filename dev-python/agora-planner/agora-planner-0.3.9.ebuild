@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Agora-Planner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Agora core service that provides search plans for graph pattern
 
 HOMEPAGE="https://github.com/smartdeveloperhub/agora-planner"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/ef/fd/d0bab1f4105356100b2229c56ead077fa937e9553c5023cb1d2c6ed6a477/Agora-Planner-${REALVERSION}.tar.gz"
-SOURCEFILE="Agora-Planner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

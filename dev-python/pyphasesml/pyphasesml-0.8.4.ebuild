@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyPhasesML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Framework for creating a boilerplate template for ai projects tha
 
 HOMEPAGE="https://gitlab.com/tud.ibmt.public/pyphases/pyphasesml/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/06/b5d4b24453ba8df45b7049b86b1c29a10b6159cf68be6a85d5f083b7917d/pyPhasesML-${REALVERSION}.tar.gz"
-SOURCEFILE="pyPhasesML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

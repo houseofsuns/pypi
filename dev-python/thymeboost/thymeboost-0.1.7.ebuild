@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ThymeBoost"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Spicy time series forecasting."
 
 HOMEPAGE="https://github.com/tblume1992/ThymeBoost"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/ac/98aa1cfec89f98594b56b55f724d5610fc9e097819f6182d992ae1ad37ef/ThymeBoost-${REALVERSION}.tar.gz"
-SOURCEFILE="ThymeBoost-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EditorConfig"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="EditorConfig File Locator and Interpreter for Python"
 
 HOMEPAGE="http://editorconfig.org/"
 LICENSE="python"
-SRC_URI="https://files.pythonhosted.org/packages/13/31/8382c65fb54ef19b8335f8e05e9ed9f62e33122f9619d989a151cc7e5152/EditorConfig-${REALVERSION}.tar.gz"
-SOURCEFILE="EditorConfig-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

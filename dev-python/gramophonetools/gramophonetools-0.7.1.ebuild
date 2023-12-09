@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GramophoneTools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for Gramophone systems by Femtonics Ltd."
 
 HOMEPAGE="http://femtonics.eu/"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/d4/8a/8820308a125d9947ca0ab03d278679a2cb429a602e10dd025293e0196761/GramophoneTools-${REALVERSION}.tar.gz"
-SOURCEFILE="GramophoneTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

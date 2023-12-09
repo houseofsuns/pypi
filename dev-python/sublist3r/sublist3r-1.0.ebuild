@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Sublist3r"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Subdomains enumeration tool for penetration testers"
 
 HOMEPAGE="https://github.com/aboul3la/Sublist3r"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/5c/7b/769ebbc526d8bd11c0bce1ba684d0d35fd4fbe237a7c0e5068fc0859dd80/Sublist3r-${REALVERSION}.tar.gz"
-SOURCEFILE="Sublist3r-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

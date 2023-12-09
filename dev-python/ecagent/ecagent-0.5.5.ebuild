@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ECAgent"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An Agent-based Modelling framework based on the Entity-Component-Sy
 
 HOMEPAGE="https://github.com/BrandonGower-Winter/ECAgent"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/03/ce/9cbc3d5f09e74c546f2db147be956f5b76b7fd0eaa240f25824c9b2c872c/ECAgent-${REALVERSION}.tar.gz"
-SOURCEFILE="ECAgent-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

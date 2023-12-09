@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Blogging"
 REALVERSION="2.0.0.post2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A flask extension for adding Markdown blog support to your site"
 
 HOMEPAGE="https://github.com/gouthambs/Flask-Blogging"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/ca/7a2080aac969bd6e3dd66b90af6d5af641aec8f29feeb9457408323954c2/Flask-Blogging-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Blogging-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

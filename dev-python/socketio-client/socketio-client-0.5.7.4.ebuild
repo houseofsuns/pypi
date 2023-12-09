@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="socketIO-client"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A socket.io client library"
 
 HOMEPAGE="https://github.com/invisibleroads/socketIO-client"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0f/50/e4ba29ea1219a986c7dd9e6b37134ab555a441107d8032fd4c4166042573/socketIO-client-${REALVERSION}.tar.gz"
-SOURCEFILE="socketIO-client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

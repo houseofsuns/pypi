@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="doki-Mowstyl"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python interface for Doki (QSimov core)"
 
 HOMEPAGE="https://github.com/Mowstyl/Doki"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/60/c7/24642b82acc0d65b214faa0b740608eb33bf642ea32bf42b4a831a4e8785/doki-Mowstyl-${REALVERSION}.tar.gz"
-SOURCEFILE="doki-Mowstyl-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

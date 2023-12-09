@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySupercell"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library for creating and manipulating crystal structures"
 
 HOMEPAGE="https://pypi.org/project/PySupercell"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/6d/fb7d09dd1a4d3aaed43625fd8866d200185c60846fbc59f7919a9c492193/PySupercell-${REALVERSION}.tar.gz"
-SOURCEFILE="PySupercell-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

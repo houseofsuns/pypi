@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LucidDynamodb"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple Python wrapper to AWS Dynamodb"
 
 HOMEPAGE="https://github.com/dineshsonachalam/Lucid-Dynamodb"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6b/bf/55b8ebf5d8737113426dd0dfb4fd1d019d304a76a0fc78109fae9bf92b28/LucidDynamodb-${REALVERSION}.tar.gz"
-SOURCEFILE="LucidDynamodb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MiniMock"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The simplest possible mock library"
 
 HOMEPAGE="http://pypi.python.org/pypi/MiniMock"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/43/c8/0928c5f684d6f86fb34c12e4b6bcde2dd8b951d060f304b5e4cc4d13d106/MiniMock-${REALVERSION}.tar.gz"
-SOURCEFILE="MiniMock-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

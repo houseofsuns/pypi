@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PIPython"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Collection of libraries to use PI devices and process GCS data."
 
 HOMEPAGE="http://www.physikinstrumente.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0b/da/2c6baa7db53e10bec9a880639d838c67cada71d0aa80b7c647becf94db7a/PIPython-${REALVERSION}.tar.gz"
-SOURCEFILE="PIPython-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

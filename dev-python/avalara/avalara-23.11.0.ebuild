@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Avalara"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Avalara Tax Python SDK."
 
 HOMEPAGE="https://github.com/avadev/AvaTax-REST-V2-Python-SDK"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c7/32/cdd15a583be82b9df73dfaf67f51975d6b762492982eb60f54e07350bbca/Avalara-${REALVERSION}.tar.gz"
-SOURCEFILE="Avalara-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

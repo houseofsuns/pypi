@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="StreamHelper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package of RL algorithms"
 
 HOMEPAGE="https://github.com/leoxiang66/streamlit-apps/tree/toolkit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a4/00/4a856d7ac6cefc069e331d0ed332ae412edf00943a038eb6c48292a43b5d/StreamHelper-${REALVERSION}.tar.gz"
-SOURCEFILE="StreamHelper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

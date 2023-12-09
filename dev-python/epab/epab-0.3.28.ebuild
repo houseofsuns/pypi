@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EPAB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Etcher's Python Application Builder"
 
 HOMEPAGE="https://github.com/132nd-etcher/EPAB"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/6c/d4/54ab11de9291c84ba0d0dab19109835d7abda880e937e9ae72d6069ad006/EPAB-${REALVERSION}.tar.gz"
-SOURCEFILE="EPAB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

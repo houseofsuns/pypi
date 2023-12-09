@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ExoSOFTmodel"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An astronomical model for calculating the predicted astrometry and 
 
 HOMEPAGE="https://github.com/kylemede/ExoSOFTmodel"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/04/79/2cbdeada97f681ab8f4a792e5feac56e4789eedb9439b545fb59d88eb8e1/ExoSOFTmodel-${REALVERSION}.tar.gz"
-SOURCEFILE="ExoSOFTmodel-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

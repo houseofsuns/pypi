@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FlashGBX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Reads and writes Game Boy and Game Boy Advance cartridge data using
 
 HOMEPAGE="https://github.com/lesserkuma/FlashGBX"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a8/10/30f6ea4590cda320596833bf724938867a754b28326e5beacc6292695559/FlashGBX-${REALVERSION}.tar.gz"
-SOURCEFILE="FlashGBX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

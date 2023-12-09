@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SynChron"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SynChron"
 
 HOMEPAGE="https://github.com/sequencecentral/SynChron.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/25/3a/0c94d1754e78aee90a2925342baab462d9a3f92ad5834438ea1c85421ce0/SynChron-${REALVERSION}.tar.gz"
-SOURCEFILE="SynChron-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AstraCarta"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Perform astroquery with useful options"
 
 HOMEPAGE="https://github.com/user29A/astracarta"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/f5/de669dbe6b927f59d6a50cd83d9156c4bb24a2796614c6f4610c00c6e259/AstraCarta-${REALVERSION}.tar.gz"
-SOURCEFILE="AstraCarta-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

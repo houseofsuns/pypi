@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="noteyXMLParser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Music XML Parser"
 
 HOMEPAGE="https://github.com/mmahjoub5/NoteyXMLParser"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a8/6f/2a5a5918943b3136aa7268709196cabc8fc200849de6be7786eb2aca6d4a/noteyXMLParser-${REALVERSION}.tar.gz"
-SOURCEFILE="noteyXMLParser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

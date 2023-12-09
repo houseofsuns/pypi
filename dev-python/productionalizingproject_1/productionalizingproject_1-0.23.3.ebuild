@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="productionalizingproject-1"
+LITERALNAME="ProductionalizingProject-1"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A very simple setuptools-pyproject.toml project"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/39/b9/4c313d66da96f2f2563b8b37a29affd959d704a17c58cbfb0d6c2b62a6c1/ProductionalizingProject-1-${REALVERSION}.tar.gz"
-SOURCEFILE="ProductionalizingProject-1-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CTkMessagebox"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A modern messagebox for customtkinter"
 
 HOMEPAGE="https://github.com/Akascape/CTkMessagebox"
 LICENSE="Creative Commons Zero v1.0 Universal"
-SRC_URI="https://files.pythonhosted.org/packages/36/4c/5430dac576c00f48e8ff5e8f39632783eb27678494853ecd3939c54dc097/CTkMessagebox-${REALVERSION}.tar.gz"
-SOURCEFILE="CTkMessagebox-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyGSTi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python implementation of Gate Set Tomography"
 
 HOMEPAGE="http://www.pygsti.info"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/55/33/eb79e7b5a318294058e008cf2d647ea1adc17bf7794a4a0db6db834c2b1a/pyGSTi-${REALVERSION}.tar.gz"
-SOURCEFILE="pyGSTi-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

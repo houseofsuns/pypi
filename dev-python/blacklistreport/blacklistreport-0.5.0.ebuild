@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BlacklistReport"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bad Reputation (Blacklisted IP) Incident Reporting."
 
 HOMEPAGE="https://git.vcjames.io/soc/dailyblacklistreporting"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/e1/1b/4c738917e46f08938411fdf8d67d284318c5dec43a5eacb1f51889f1f398/BlacklistReport-${REALVERSION}.tar.gz"
-SOURCEFILE="BlacklistReport-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

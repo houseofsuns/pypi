@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WebPortfolio"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A full stack Flask based framework that put structure in the file s
 
 HOMEPAGE="https://github.com/mardix/webportfolio"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7b/df/fdef77f1387fba3fb7ab96a02cf66f16c4b9db83ba1cdf6d5d389824c9fc/WebPortfolio-${REALVERSION}.tar.gz"
-SOURCEFILE="WebPortfolio-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

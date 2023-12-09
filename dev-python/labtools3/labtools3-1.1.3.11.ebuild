@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LabTools3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python 3 Package of modules for typical analysis tasks analyzing ph
 
 HOMEPAGE="http://wanda.fiu.edu/LabTools3"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c4/2b/1c232be7f26fda6045a96155f0f5417e01f0300aa79e18cb15ea02d7cfd4/LabTools3-${REALVERSION}.tar.gz"
-SOURCEFILE="LabTools3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

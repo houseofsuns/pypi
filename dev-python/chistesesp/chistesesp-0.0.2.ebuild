@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="chistesESP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Un paquete que contiene un comando que obtiene chistes de chistes.c
 
 HOMEPAGE="https://github.com/netherpills/chistesESP-py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/69/7b/eb22c04a39024731fbca8a3fba51fdc08b39c4d6ad67fb6d4d10974b6867/chistesESP-${REALVERSION}.tar.gz"
-SOURCEFILE="chistesESP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

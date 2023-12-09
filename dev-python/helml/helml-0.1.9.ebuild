@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HELML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Encoding-decoding HELML format"
 
 HOMEPAGE="https://github.com/dynoser/HELML/tree/master/Python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9b/84/ccbfcb7976a1d03e7288dc2e8c674a29acc4abe649c6a3a9ba7fd6fe0bae/HELML-${REALVERSION}.tar.gz"
-SOURCEFILE="HELML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

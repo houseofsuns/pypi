@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pyara"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for audio classification"
 
 HOMEPAGE="https://github.com/Millcool/Pyara.git"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/fa/af/611227ce1a6ac608b5e6ed47550e785bd3f1a5b1b8eb1d8ea234bef5e0cd/Pyara-${REALVERSION}.tar.gz"
-SOURCEFILE="Pyara-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

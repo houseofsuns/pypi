@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="mihkelBayesian"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Machine learning hyperparameter optimiser using the Bayesian model"
 
 HOMEPAGE="https://github.com/mihkelKR/mihkelBayesian"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/19/acb43463ac8be3cf3ba79a19628b2d015ee083d60e9b8283f4d1f984ecc0/mihkelBayesian-${REALVERSION}.tar.gz"
-SOURCEFILE="mihkelBayesian-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

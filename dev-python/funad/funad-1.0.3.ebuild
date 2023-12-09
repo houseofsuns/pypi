@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="funAD"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="an automatic differentiation package created by AC207 students"
 
 HOMEPAGE="https://code.harvard.edu/CS107/team21"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/79/e01eb281e9779e1bcec0dc7812c2345942f84710fbfe64981118c40dbde1/funAD-${REALVERSION}.tar.gz"
-SOURCEFILE="funAD-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

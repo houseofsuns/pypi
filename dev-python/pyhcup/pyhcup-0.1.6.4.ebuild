@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyHCUP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python tools for working with data from the Healthcare Cost and Uti
 
 HOMEPAGE="UNKNOWN"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/a2/e14eac9ea4e27dcc4b37b8594ec980a8bfad10920f6ccb4dcf8c5b348635/PyHCUP-${REALVERSION}.tar.gz"
-SOURCEFILE="PyHCUP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

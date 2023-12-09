@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SQcircuit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="superconducting quantum circuit analyzer"
 
 HOMEPAGE="https://github.com/stanfordLINQS/SQcircuit"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/5c/b7/ea6494403e516ee380b691c9c57f1ad00022e389877e9c09e72b21e8133d/SQcircuit-${REALVERSION}.tar.gz"
-SOURCEFILE="SQcircuit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

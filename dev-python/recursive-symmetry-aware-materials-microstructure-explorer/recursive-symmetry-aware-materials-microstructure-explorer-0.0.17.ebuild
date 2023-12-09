@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Recursive-Symmetry-Aware-Materials-Microstructure-Explorer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tool for recursive symmetry aware searching of materials microstruc
 
 HOMEPAGE=""
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/9d/55/4f7908f87b6c739b162d06fdf1eae0425a15ef49500db1bc93144515b029/Recursive_Symmetry_Aware_Materials_Microstructure_Explorer-${REALVERSION}.tar.gz"
-SOURCEFILE="Recursive_Symmetry_Aware_Materials_Microstructure_Explorer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="myPythonLibrary"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A collection of python tools."
 
 HOMEPAGE="https://gitlab.inria.fr/mgenet/myPythonLibrary"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/1c/ba/fc4d475a8d69d31c5e6a3a1964fe22ff1a60f651bd5e78f45ed68ae68fed/myPythonLibrary-${REALVERSION}.tar.gz"
-SOURCEFILE="myPythonLibrary-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

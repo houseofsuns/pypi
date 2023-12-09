@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JMS-Utils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Various utility functions"
 
 HOMEPAGE="https://github.com/JohnyMoSwag/jms-utils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c1/00/cb13441ae81090f9d2b551dce005f932d50d06e1210edb7de269bc01bb65/JMS-Utils-${REALVERSION}.tar.gz"
-SOURCEFILE="JMS-Utils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

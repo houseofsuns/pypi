@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BlurGenerator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fast generate blur image."
 
 HOMEPAGE="https://github.com/NatLee/Blur-Generator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/fe/905fc32b5ec94774a19e08b5a27c015298a29af25c17b30fe815c5655252/BlurGenerator-${REALVERSION}.tar.gz"
-SOURCEFILE="BlurGenerator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

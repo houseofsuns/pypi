@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OTXv2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="AlienVault OTX API"
 
 HOMEPAGE="https://github.com/AlienVault-Labs/OTX-Python-SDK"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/42/dd/7a8423a0692f33b7bc10dbcfb5b8cc1ade80a691a3de37516b85137144e5/OTXv2-${REALVERSION}.tar.gz"
-SOURCEFILE="OTXv2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

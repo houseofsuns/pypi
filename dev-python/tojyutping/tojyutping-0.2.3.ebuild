@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ToJyutping"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="粵語拼音自動標註工具 Cantonese Pronunciation Automatic La
 
 HOMEPAGE="https://github.com/CanCLID/ToJyutping"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/12/6e/1a386587dd251e207bac4af2eb697f3c2e03130b0d8904e9fa77974b4f3e/ToJyutping-${REALVERSION}.tar.gz"
-SOURCEFILE="ToJyutping-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

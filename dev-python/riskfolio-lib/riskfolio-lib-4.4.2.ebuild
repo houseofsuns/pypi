@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Riskfolio-Lib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Portfolio Optimization and Quantitative Strategic Asset Allocation 
 
 HOMEPAGE="https://github.com/dcajasn/Riskfolio-Lib"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/a9/bf/2ddcc1cb2942154a77bf70d97d383065c7e1be156b5fa7f7cf7dc269de65/Riskfolio-Lib-${REALVERSION}.tar.gz"
-SOURCEFILE="Riskfolio-Lib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

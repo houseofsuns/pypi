@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="cx-Oracle-async"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A very simple asynchronous wrapper that allows you to get access to
 
 HOMEPAGE="https://github.com/GoodManWEN/cx_Oracle_async"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d1/87/fe75e196c5570749ae228b6b85b78b0d887d412e54c504642f46f4eef857/cx_Oracle_async-${REALVERSION}.tar.gz"
-SOURCEFILE="cx_Oracle_async-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

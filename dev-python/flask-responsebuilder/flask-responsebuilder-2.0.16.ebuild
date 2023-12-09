@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-ResponseBuilder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Implementations of flask response in many format notation"
 
 HOMEPAGE="https://github.com/cs91chris/flask_response_builder"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/c5/49/ad618741557f04679f313b2b44e8b8c1303811de9a29fa62eddb1a77ad5a/Flask-ResponseBuilder-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-ResponseBuilder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pinax"
 REALVERSION="0.9a2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pinax is an open-source collection of re-usable apps for the Django
 
 HOMEPAGE="http://pinaxproject.com/"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/ce/f6/ace2fa019fd908d21e311d00191e8bcbf91b0405e659ff3700fbb5853f6c/Pinax-${REALVERSION}.tar.gz"
-SOURCEFILE="Pinax-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

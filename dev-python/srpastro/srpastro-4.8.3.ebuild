@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SRPAstro"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Astronomical Data Analysis Tools"
 
 HOMEPAGE="https://pypi.python.org/pypi/SRPAstro"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/29/d7354bb6a3450b9a9d6ccb4f654ce5eec0b28b907ea6bbd1ae6929863e2b/SRPAstro-${REALVERSION}.tar.gz"
-SOURCEFILE="SRPAstro-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

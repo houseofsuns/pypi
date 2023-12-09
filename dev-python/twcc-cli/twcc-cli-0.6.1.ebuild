@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TWCC-CLI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="TWCC-CLI is a toolkit for operating TWCC resources."
 
 HOMEPAGE="https://github.com/TW-NCHC/TWCC-CLI"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/df/04/e2b92ab31f1e021c063c6a00708880a9cd53add7cb615dfdff195ae37526/TWCC-CLI-${REALVERSION}.tar.gz"
-SOURCEFILE="TWCC-CLI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

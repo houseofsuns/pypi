@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyFirmata2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Use your Arduino as a data acquisition card under Python"
 
 HOMEPAGE="https://github.com/berndporr/pyFirmata2"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/85/b4/22578838b514e9e3ceaffa94429b92d70d657a6c885a257ea0c7a056c319/pyFirmata2-${REALVERSION}.tar.gz"
-SOURCEFILE="pyFirmata2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

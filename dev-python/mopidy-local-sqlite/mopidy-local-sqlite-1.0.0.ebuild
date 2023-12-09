@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mopidy-Local-SQLite"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mopidy SQLite local library extension"
 
 HOMEPAGE="https://github.com/mopidy/mopidy-local-sqlite"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0f/4d/f156196381ae8cea81bd3b75a493a180a137f01a568aacb77f0f5e223c08/Mopidy-Local-SQLite-${REALVERSION}.tar.gz"
-SOURCEFILE="Mopidy-Local-SQLite-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

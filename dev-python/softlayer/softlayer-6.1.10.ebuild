@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SoftLayer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A library for SoftLayer's API"
 
 HOMEPAGE="http://github.com/softlayer/softlayer-python"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/71/95/e43de5361a9b2c9255ae373f9fe342c3ff802edeb2c4c5c82816647925c1/SoftLayer-${REALVERSION}.tar.gz"
-SOURCEFILE="SoftLayer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

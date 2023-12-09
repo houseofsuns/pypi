@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-SignalBus"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Flask-SQLAlchemy extension for atomically sending messages (signa
 
 HOMEPAGE="https://github.com/epandurski/flask_signalbus"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9e/2d/1e3b4112ffb7293ed93fa833e9bcf448eb6f3f6873b0e399cc783d4fb5f1/Flask-SignalBus-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-SignalBus-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

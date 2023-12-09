@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-INIConfig"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A flask extension to load ini files via config"
 
 HOMEPAGE="https://bitbucket.org/wampeter/flask-iniconfig/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/db/4a/998f0ad11b6311d375d7f1c7d2a9dfe394ed8cf10b92ca4816bf10838dc9/Flask-INIConfig-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-INIConfig-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

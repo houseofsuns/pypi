@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MambuPy"
 REALVERSION="2.0.0b26"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python lib for using Mambu APIs."
 
 HOMEPAGE="https://mambupydocs.readthedocs.io"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/53/25/5bcd905e258484771e976e920e520c2dcab5d0636d654dd015c1cd6ff250/MambuPy-${REALVERSION}.tar.gz"
-SOURCEFILE="MambuPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

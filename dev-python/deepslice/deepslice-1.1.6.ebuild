@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeepSlice"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to align histology to 3D brain atlases"
 
 HOMEPAGE="https://github.com/PolarBean/DeepSlice"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/5c/a0/aa771bfdb6127f97fd258a31c552f0ff5ee3df09530bf6d15038fbdf7393/DeepSlice-${REALVERSION}.tar.gz"
-SOURCEFILE="DeepSlice-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

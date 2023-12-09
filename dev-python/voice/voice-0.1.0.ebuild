@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Voice"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A voting app for letting users request features."
 
 HOMEPAGE="http://github.com/jarodl/voice"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/16/85/a648b2a057b60024c753565c80945d57f3c9ac158cf481e544c54f888ae6/Voice-${REALVERSION}.tar.gz"
-SOURCEFILE="Voice-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

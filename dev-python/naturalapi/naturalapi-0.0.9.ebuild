@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NaturalAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="API for a small studio"
 
 HOMEPAGE="https://github.com/Buelie/Natural"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/18/2a/90b87b726c63615104b6d584d8c168323374f37609e8c49e8ea76b2789d0/NaturalAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="NaturalAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

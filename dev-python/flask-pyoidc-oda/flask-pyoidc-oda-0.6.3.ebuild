@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-pyoidc-oda"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for OpenID Connect authentication, modified for use
 
 HOMEPAGE="https://github.com/KLMatlock/Flask-pyoidc-oda"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/19/39/91cdebaa2b40cfc84cc275943ab4a1f47ac2f2f4880efc8f2a690142e9d0/Flask-pyoidc-oda-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-pyoidc-oda-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

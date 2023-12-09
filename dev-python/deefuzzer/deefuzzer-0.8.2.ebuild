@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DeeFuzzer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="open, light and instant media streaming tool"
 
 HOMEPAGE="http://github.com/yomguy/DeeFuzzer"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/a4/64/3161128cefe9fce8de8c686b09eada23cff123d6412cbc2672ba6ea5c4e7/DeeFuzzer-${REALVERSION}.tar.gz"
-SOURCEFILE="DeeFuzzer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

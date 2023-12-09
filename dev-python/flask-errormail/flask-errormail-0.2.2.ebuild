@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-ErrorMail"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for sending administrators e-mails with stacktraces
 
 HOMEPAGE="http://github.com/jasonwyatt/Flask-ErrorMail"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d2/53/97d48770636c85a8d2d2529febb0687ff80f6cf770203372040e414d730b/Flask-ErrorMail-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-ErrorMail-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="sigproSS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Decomposes mutational catalogues to mutational signatures"
 
 HOMEPAGE="https://github.com/AlexandrovLab/SigProfilerExtractor.git"
 LICENSE="UCSD"
-SRC_URI="https://files.pythonhosted.org/packages/c9/82/fbd3b010c1e2ab403c426833ab239307f91a32ff9a3be5c09abd41e1afc1/sigproSS-${REALVERSION}.tar.gz"
-SOURCEFILE="sigproSS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

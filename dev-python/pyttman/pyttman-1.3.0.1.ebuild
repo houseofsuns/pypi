@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pyttman"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Python chatbot framework with batteries included"
 
 HOMEPAGE="https://github.com/dotchetter/Pyttman"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a1/2f/9f0ad961ca87f3303dbfcf06c11a8aef52e1b1593e5601fb5e72348cba64/Pyttman-${REALVERSION}.tar.gz"
-SOURCEFILE="Pyttman-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

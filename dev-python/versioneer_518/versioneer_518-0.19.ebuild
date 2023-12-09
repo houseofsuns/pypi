@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="versioneer-518"
+LITERALNAME="versioneer-518"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

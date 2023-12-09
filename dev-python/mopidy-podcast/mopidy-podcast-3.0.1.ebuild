@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mopidy-Podcast"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mopidy extension for browsing and playing podcasts"
 
 HOMEPAGE="https://github.com/tkem/mopidy-podcast"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/66/0e/84b848db511b8bbd1a3b7b32fb36656956e98a4069b3b41249db93b7f548/Mopidy-Podcast-${REALVERSION}.tar.gz"
-SOURCEFILE="Mopidy-Podcast-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

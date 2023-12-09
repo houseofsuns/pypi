@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Amara"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for XML processing in Python"
 
 HOMEPAGE="http://wiki.xml3k.org/Amara2"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/4e/a7/586ed07e89d80c34c2aff98b5ccc1a6b7d58e4fd9f871f471ae7f4847b85/Amara-${REALVERSION}.tar.gz"
-SOURCEFILE="Amara-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

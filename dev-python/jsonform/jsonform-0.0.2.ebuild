@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JsonForm"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Form validation for JSON-like data (i.e. document) in Python."
 
 HOMEPAGE="https://github.com/RussellLuo/jsonform"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4f/b7/b9491ba4b709d0616fab15a89f8efe4d3a7924652e1fdd4f15303e9ecdf0/JsonForm-${REALVERSION}.tar.gz"
-SOURCEFILE="JsonForm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

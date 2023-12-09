@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Annotations2Sub"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Download and convert Youtube Annotation"
 
 HOMEPAGE="https://github.com/USED255/Annotations2Sub"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/07/a2edb7ee884e7e0265c45c242a570dc1c42388884a6f398b9f9cd46dab7d/Annotations2Sub-${REALVERSION}.tar.gz"
-SOURCEFILE="Annotations2Sub-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

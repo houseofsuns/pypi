@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SKompiler"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for compiling trained SKLearn models into abstract expressi
 
 HOMEPAGE="https://github.com/konstantint/SKompiler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/41/cb/9604733bcdf7ef49e7cfb224a2e52dc0f09d2880805a6609f0e40dce9589/SKompiler-${REALVERSION}.tar.gz"
-SOURCEFILE="SKompiler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

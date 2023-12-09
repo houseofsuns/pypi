@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Function-Limiter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Rate limiting for callable functions"
 
 HOMEPAGE="https://github.com/mghorbani2357/Function-Limiter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/eb/30/57d00852ef4d6c3d6991b073d1b27f0b48e3be2a8172964f5d66ef058691/Function-Limiter-${REALVERSION}.tar.gz"
-SOURCEFILE="Function-Limiter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

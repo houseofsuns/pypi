@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="INDIpy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python implementation of INDI server and client"
 
 HOMEPAGE="http://github.com/wlatanowicz/indipy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5b/8a/6d11f5cee5d9729c90fb160e994c58495a166b34645eba7bcde11d003afa/INDIpy-${REALVERSION}.tar.gz"
-SOURCEFILE="INDIpy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

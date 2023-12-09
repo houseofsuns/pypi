@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DjangoDav"
 REALVERSION="0.0.1b23"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A WebDAV server for Django."
 
 HOMEPAGE="https://github.com/meteozond/djangodav"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/47/ca/ca9b962f64ad15bfe514b0781075ef89e02e753668bd5e7891a3b22b6031/DjangoDav-${REALVERSION}.tar.gz"
-SOURCEFILE="DjangoDav-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

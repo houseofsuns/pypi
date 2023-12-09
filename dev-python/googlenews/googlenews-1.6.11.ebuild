@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GoogleNews"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Google News search for Python"
 
 HOMEPAGE="https://github.com/Iceloof/GoogleNews"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/ad/312e0fdcc07aca3ad15c9cf33ddfce7a2dc1d60d622713e060a571c11448/GoogleNews-${REALVERSION}.tar.gz"
-SOURCEFILE="GoogleNews-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

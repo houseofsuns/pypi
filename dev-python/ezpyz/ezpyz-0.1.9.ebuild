@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EzPyZ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An easy-to-use statistics package for Python 3."
 
 HOMEPAGE="https://github.com/EGuthrieWasTaken/EzPyZ"
 LICENSE="GNU GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/f2/96/02ebfc4a64565eff66c1ae17e37ac2b756b3c33d30904209e60435d30066/EzPyZ-${REALVERSION}.tar.gz"
-SOURCEFILE="EzPyZ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

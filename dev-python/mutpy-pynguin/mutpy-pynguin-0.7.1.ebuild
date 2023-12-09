@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MutPy-Pynguin"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mutation testing tool for Python 3.x source code."
 
 HOMEPAGE="https://github.com/se2p/mutpy-pynguin"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/72/19/5c13f31c219863618b6199be33b0df0bf96926da29ad186e0345da1b58a6/MutPy-Pynguin-${REALVERSION}.tar.gz"
-SOURCEFILE="MutPy-Pynguin-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TGScheduler"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pure Python Scheduler"
 
 HOMEPAGE="https://bitbucket.org/xcg/tgscheduler"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e9/0a/0c9557231d99f6312aa67e3da915ba58aa1ad0b1c754f127c8567b37c0ac/TGScheduler-${REALVERSION}.zip"
-SOURCEFILE="TGScheduler-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

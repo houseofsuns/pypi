@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WakaQ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Background task queue for Python backed by Redis, a minimal Celery.
 
 HOMEPAGE="https://github.com/wakatime/wakaq"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/2c/10/33fa39158cd323dd50b1bf3a7d714ed5894cf157514d1211904398524697/WakaQ-${REALVERSION}.tar.gz"
-SOURCEFILE="WakaQ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

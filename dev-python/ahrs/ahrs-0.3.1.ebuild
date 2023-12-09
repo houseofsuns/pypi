@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AHRS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Attitude and Heading Reference Systems."
 
 HOMEPAGE="https://github.com/Mayitzin/ahrs/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/56/7fc17b6c330eff8986e01dfd3744154ffa45cf4ccd45fd779dc6e2713ec1/AHRS-${REALVERSION}.tar.gz"
-SOURCEFILE="AHRS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

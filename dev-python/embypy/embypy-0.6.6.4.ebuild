@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EmbyPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python API wrapper for Emby Media Browser"
 
 HOMEPAGE="https://pypi.org/project/EmbyPy/"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/a4/d3/6a74aa2075ccd592444faedec5a770fb08ba224beb11c751e27cd49241a7/EmbyPy-${REALVERSION}.tar.gz"
-SOURCEFILE="EmbyPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

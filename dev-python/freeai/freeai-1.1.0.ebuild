@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FreeAI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FreeAI is a powerful Python package that utilizes the advanced capa
 
 HOMEPAGE="https://github.com/mir-ashiq/FreeAI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7b/7c/c127ac01864f6e6edcf45482494863a16a8dd39b07c690f38f3d1e34fe25/FreeAI-${REALVERSION}.tar.gz"
-SOURCEFILE="FreeAI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

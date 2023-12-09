@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WebScripts"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This tool runs CLI scripts and displays output in a Web Interface."
 
 HOMEPAGE="https://github.com/mauricelambert/WebScripts"
 LICENSE="GPL-3.0 License"
-SRC_URI="https://files.pythonhosted.org/packages/39/8b/84d8634ac97e2cfd0fd02247406d775385fe9b4aabbe309af09245ed79b0/WebScripts-${REALVERSION}.tar.gz"
-SOURCEFILE="WebScripts-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

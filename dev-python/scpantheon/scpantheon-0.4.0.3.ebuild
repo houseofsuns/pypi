@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="scPANTHEON"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A graphical interface for single cell analysis."
 
 HOMEPAGE="https://github.com/xinzhu-email/Pantheon"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/96/e2/5512e0dc122cc34e0cc00d5330c0eee5ae6cf0821945b5bd1a41fb9679c0/scPANTHEON-${REALVERSION}.tar.gz"
-SOURCEFILE="scPANTHEON-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

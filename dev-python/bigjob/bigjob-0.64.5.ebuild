@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BigJob"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="P* Pilot-Job Implementation based on SAGA-Python"
 
 HOMEPAGE="https://github.com/saga-project/BigJob"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/c7/5b/c6be18f3516d89728d836e44be91a6990c6a40110902da21e0d9a8522d46/BigJob-${REALVERSION}.tar.gz"
-SOURCEFILE="BigJob-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

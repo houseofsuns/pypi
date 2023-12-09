@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CACodeFramework"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CACode Framework For Python Flask,This framework corresponds to the
 
 HOMEPAGE="https://gitee.com/cacode_cctvadmin/CACodeFramework-python-ORM"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/5c/42/cfa72be642ac4198f2866ac49b573e0d9c95114ec144e7b70677190113fb/CACodeFramework-${REALVERSION}.tar.gz"
-SOURCEFILE="CACodeFramework-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Nevow"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Web Application Construction Kit"
 
 HOMEPAGE="https://github.com/twisted/nevow"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e6/c0/59718b8eae15586e9af4bb367243a143822704714ea995c0a130886d10f4/Nevow-${REALVERSION}.tar.gz"
-SOURCEFILE="Nevow-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="aPRAW"
 REALVERSION="0.6.9a0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="aPRAW is an asynchronous Reddit API wrapper written in Python."
 
 HOMEPAGE="https://github.com/Dan6erbond/aPRAW"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/19/63/d6116d590536e58ce84fdff2211c0b6f0bd59329c7cf09f23b73c0110918/aPRAW-${REALVERSION}.tar.gz"
-SOURCEFILE="aPRAW-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

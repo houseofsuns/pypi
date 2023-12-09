@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TableauScraper"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library to scrape data from Tableau viz"
 
 HOMEPAGE="https://github.com/bertrandmartel/tableau-scraping"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5c/a1/9a8872dd93d598a710b8a61ffcd75897cf45eb1c8d0ac3507ab4496d683f/TableauScraper-${REALVERSION}.tar.gz"
-SOURCEFILE="TableauScraper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

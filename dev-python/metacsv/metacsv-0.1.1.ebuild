@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MetaCSV"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for documentation-aware data reading, writing, and analysis"
 
 HOMEPAGE="https://github.com/delgadom/metacsv"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/62/ce/36d01f4150f7ad7d9f3cbe09aa67df660ecb77bd524183a4e045bd1d7bac/MetaCSV-${REALVERSION}.tar.gz"
-SOURCEFILE="MetaCSV-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

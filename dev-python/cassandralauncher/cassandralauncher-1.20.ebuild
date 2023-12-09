@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CassandraLauncher"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Command line utilities for launching Cassandra clusters in EC2"
 
 HOMEPAGE="http://www.github.com/joaquincasares/cassandralauncher"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/f7/d4/d7acb416ad86d7ce1690513b48bca85430273ffc819ba0a64f12d860218b/CassandraLauncher-${REALVERSION}.tar.gz"
-SOURCEFILE="CassandraLauncher-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

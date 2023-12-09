@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Numerical-CFS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Basically for a set of parameters i use Symengine to produce a func
 
 HOMEPAGE=""
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/a6/36/324cfc40d75fb98490631d635a15d95653246799cc5cf71dc64894985983/Numerical_CFS-${REALVERSION}.tar.gz"
-SOURCEFILE="Numerical_CFS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

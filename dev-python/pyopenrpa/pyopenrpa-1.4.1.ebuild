@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyOpenRPA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The powerful open source RPA platform for business"
 
 HOMEPAGE="https://pyopenrpa.ru/"
 LICENSE="  .  : LICENSE.PDF     : https://pyopenrpa.ru/license/oferta.pdf"
-SRC_URI="https://files.pythonhosted.org/packages/11/59/e3ac0659f68a1d2cd7014feba2f951acb55c93eeb9e065ed5cd15ddb6efa/pyOpenRPA-${REALVERSION}.tar.gz"
-SOURCEFILE="pyOpenRPA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

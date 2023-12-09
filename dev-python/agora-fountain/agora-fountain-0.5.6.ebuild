@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Agora-Fountain"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Agora core service for ontology paths discovery and seeds manag
 
 HOMEPAGE="https://github.com/smartdeveloperhub/agora-fountain"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/6c/9e/b95f7dd4ae9350154a2c5e19f66e4d60b4439e2d312b375f402ac7aea8e7/Agora-Fountain-${REALVERSION}.tar.gz"
-SOURCEFILE="Agora-Fountain-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

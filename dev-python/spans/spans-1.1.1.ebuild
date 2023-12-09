@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Spans"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Continuous set support for Python"
 
 HOMEPAGE="https://www.github.com/runfalk/spans"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/03/ec/0c9cc8cc1f533de3d1ffd4baad9d9ea0dccbb2c692d1425a18f4a518ffeb/Spans-${REALVERSION}.tar.gz"
-SOURCEFILE="Spans-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

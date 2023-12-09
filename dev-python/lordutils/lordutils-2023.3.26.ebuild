@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LordUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Helper Package for other Lord packages"
 
 HOMEPAGE="https://github.com/BexWorld/LordUtils.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/21/96/7d4336e60df4f33f94edcc80ca89c1c36eec3aa9115a23502cda84579aef/LordUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="LordUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

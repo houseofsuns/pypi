@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SIGACTor"
 REALVERSION="0.1.21dev"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="SIGACTor is an application for efficiently entering SIGACT data."
 
 HOMEPAGE="http://bitbucket.org/davidystephenson/sigactor"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/42/62/0dff9e61f9a6f6a065724da238a733da2f27a311d6788ac808bb6f0fd9eb/SIGACTor-${REALVERSION}.tar.gz"
-SOURCEFILE="SIGACTor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BriCA2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="BriCA Version 2 Python bindings"
 
 HOMEPAGE="https://github.com/BriCA/BriCA2"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9c/0b/621af78f6f0f310f9f51611a4ad6b6db9873d1e9037f71a325e44d64a928/BriCA2-${REALVERSION}.tar.gz"
-SOURCEFILE="BriCA2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

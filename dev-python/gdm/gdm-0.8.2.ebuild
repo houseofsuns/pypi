@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GDM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A language-agnostic"
 
 HOMEPAGE="http://git-dependency-manager.info"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/29/6c/78a29c43af28c736557e46fed33ffd3a2cb796d7de48bec5f55d8758c8e2/GDM-${REALVERSION}.tar.gz"
-SOURCEFILE="GDM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

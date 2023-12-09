@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JTdata"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="data api"
 
 HOMEPAGE="https://oa.csc.com.cn"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/17/7b/3c189abfc08139aca2070ce69fb229c0affb28a76abb701cbcd1829c4ae5/JTdata-${REALVERSION}.tar.gz"
-SOURCEFILE="JTdata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

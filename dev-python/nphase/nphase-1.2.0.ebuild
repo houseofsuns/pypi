@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="nPhase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="nPhase is a command line ploidy agnostic phasing pipeline and algor
 
 HOMEPAGE="https://https://github.com/nPhasePipeline/nPhase"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1b/e5/03f8b0f3dd0a36ec2d03ed412ff28e86f2536a14acbe2e664f6c2bc18976/nPhase-${REALVERSION}.tar.gz"
-SOURCEFILE="nPhase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

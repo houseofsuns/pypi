@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CouchDB3"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A wrapper around the CouchDB API."
 
 HOMEPAGE="https://github.com/n-vlahovic/couchdb3"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/80/83/dad87d6ea9c00234a05726aef74b95bf5e900538bb09f3a53445215f2b9d/CouchDB3-${REALVERSION}.tar.gz"
-SOURCEFILE="CouchDB3-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

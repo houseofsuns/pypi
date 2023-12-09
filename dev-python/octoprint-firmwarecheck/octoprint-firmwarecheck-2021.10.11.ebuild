@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OctoPrint-FirmwareCheck"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Checks for unsafe or broken printer firmwares"
 
 HOMEPAGE="https://github.com/OctoPrint/OctoPrint-FirmwareCheck"
 LICENSE="AGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/db/31/fe4ddb176b5de9930278a72ed15fdfc57470066c000f23c6fdd056bbcd8b/OctoPrint-FirmwareCheck-${REALVERSION}.tar.gz"
-SOURCEFILE="OctoPrint-FirmwareCheck-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HTML4Vision"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple HTML visualization tool for computer vision research"
 
 HOMEPAGE="https://github.com/mtli/HTML4Vision"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/98/e1/5b3e6b4e6d79faaf197fa93ef2ad8c25b1625586dcfc4442da1ab68a59b0/HTML4Vision-${REALVERSION}.tar.gz"
-SOURCEFILE="HTML4Vision-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

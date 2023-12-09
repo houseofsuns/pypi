@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyFlaskBootstrap4"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="python flask + Bootstrap 4 static components and templates for webp
 
 HOMEPAGE="https://github.com/WolfgangFahl/pyFlaskBootstrap4"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/66/a6/7c2dc4d9547842a7fa02832bb6bf166fdd80812190bc0ad0d4c32f1c6696/pyFlaskBootstrap4-${REALVERSION}.tar.gz"
-SOURCEFILE="pyFlaskBootstrap4-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

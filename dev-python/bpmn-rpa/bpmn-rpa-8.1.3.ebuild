@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BPMN-RPA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Robotic Process Automation by running BPMN diagram flows."
 
 HOMEPAGE="https://github.com/joostvangils/BPMN_RPA"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/b1/e6b1ef796e2c24b9ffac252bdcd86cfb79ed2769546861232d47bd782de1/BPMN_RPA-${REALVERSION}.tar.gz"
-SOURCEFILE="BPMN_RPA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

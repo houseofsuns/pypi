@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Datepicker"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Flask extension for jQueryUI DatePicker."
 
 HOMEPAGE="https://github.com/mrf345/flask_datepicker/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/82/4b/9eb873caf0dc03a1b18c3d8051e64a32d708e1dcdba614676c49a7eafcd7/Flask-Datepicker-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Datepicker-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

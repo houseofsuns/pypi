@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Jade-Application-Kit"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Create native web wrappers or write hybrid Desktop applications on 
 
 HOMEPAGE="https://codesardine.github.io/Jade-Application-Kit"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/2e/6b/ca6fa3c23d83e1f73729f87de866621d1f7ce26f786229ab926ac3bd8021/Jade-Application-Kit-${REALVERSION}.tar.gz"
-SOURCEFILE="Jade-Application-Kit-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="UBPY"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="UniqueBot python SDK"
 
 HOMEPAGE="https://github.com/popop098/UBPY"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1e/2f/458b3245a2999de7ddb3c0b962b78f64bb9b80fab74c204af55515531ad4/UBPY-${REALVERSION}.tar.gz"
-SOURCEFILE="UBPY-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

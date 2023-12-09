@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FortniteAPIAsync"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Asynchronous Python wrapper for Fortnite-API.com."
 
 HOMEPAGE="https://github.com/xMistt/FortniteAPIAsync"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/e4/f8c443681414cab8c659d5ab412161535a405e70744518b7251ef3a76283/FortniteAPIAsync-${REALVERSION}.tar.gz"
-SOURCEFILE="FortniteAPIAsync-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

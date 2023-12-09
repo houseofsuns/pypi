@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PairList"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Generate neighbor list for the particles in a periodic boundary cel
 
 HOMEPAGE="https://github.com/vitroid/PairList/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/d1/1e57fff664740c35c65809b2225f7baec5e290a943370051fab3fd001d37/PairList-${REALVERSION}.tar.gz"
-SOURCEFILE="PairList-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GoogleAppEngineMapReduce"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Enable MapReduce style data processing on App Engine"
 
 HOMEPAGE="https://github.com/GoogleCloudPlatform/appengine-mapreduce"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/e8/75/aa5286ae205dd6696238c53d7929a5325d26e94016f777c6ad6636e2361c/GoogleAppEngineMapReduce-${REALVERSION}.tar.gz"
-SOURCEFILE="GoogleAppEngineMapReduce-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

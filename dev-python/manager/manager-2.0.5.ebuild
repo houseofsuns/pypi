@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Manager"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Manager is the Components Manager package of Umbra, sIBL_GUI and sI
 
 HOMEPAGE="https://github.com/KelSolaar/Manager"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/61/8d/3b9bce5400950d1029131dfcbb8b4487ca932abbe735bda412fdae149e7b/Manager-${REALVERSION}.tar.gz"
-SOURCEFILE="Manager-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

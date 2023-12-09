@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GPTConnect"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python package to make GPT functions easy"
 
 HOMEPAGE="https://github.com/SleepyStew/gptconnect"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/8b/5e/32a5709be3bf0392d06fb31028bf5bdc8af6365a4d27e43ee3a8b6382756/GPTConnect-${REALVERSION}.tar.gz"
-SOURCEFILE="GPTConnect-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

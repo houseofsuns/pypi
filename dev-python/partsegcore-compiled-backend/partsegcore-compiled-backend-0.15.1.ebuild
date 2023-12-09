@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PartSegCore-compiled-backend"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PartSegCore compiled backend,"
 
 HOMEPAGE="https://4dnucleome.cent.uw.edu.pl/PartSeg/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/7a/cf/578593f58b0c988de04b65df42a6a615c38aa597260d34d95a672fb04b9e/PartSegCore_compiled_backend-${REALVERSION}.tar.gz"
-SOURCEFILE="PartSegCore_compiled_backend-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

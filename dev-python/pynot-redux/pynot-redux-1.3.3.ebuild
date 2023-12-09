@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyNOT-redux"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Data Reduction Pipeline for NOT/ALFOSC"
 
 HOMEPAGE="https://github.com/jkrogager/PyNOT"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/31/fd/a1624a64131556173055f5ff89dbaaa7daa0046f3d731372b0cb54a8473f/PyNOT-redux-${REALVERSION}.tar.gz"
-SOURCEFILE="PyNOT-redux-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

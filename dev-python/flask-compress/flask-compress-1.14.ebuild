@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Compress"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Compress responses in your Flask app with gzip, deflate or brotli."
 
 HOMEPAGE="https://github.com/colour-science/flask-compress"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/41/5c8b37328813713b70fff2d3dbaf0ca956af62eb1470ef53f7bc609257ba/Flask-Compress-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Compress-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

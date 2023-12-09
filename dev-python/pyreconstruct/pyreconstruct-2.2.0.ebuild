@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyRECONSTRUCT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python tools for interacting with XML files associated with RECONST
 
 HOMEPAGE="https://github.com/wtrdrnkr/pyrecon"
 LICENSE="LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/dc/27/19fbd130d2192abe47edbfa8a72acec415fdefa106ddfbb6a78672d50cdf/PyRECONSTRUCT-${REALVERSION}.tar.gz"
-SOURCEFILE="PyRECONSTRUCT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

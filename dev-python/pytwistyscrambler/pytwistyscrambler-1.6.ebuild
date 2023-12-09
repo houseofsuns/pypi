@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyTwistyScrambler"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python utility package for generating scrambles for twisty puzzle
 
 HOMEPAGE="https://github.com/euphwes/pyTwistyScrambler"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/54/f7/4895385350ee16240d3107f1fc47055037ee3cb7fa976989fc956d28abb7/pyTwistyScrambler-${REALVERSION}.tar.gz"
-SOURCEFILE="pyTwistyScrambler-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

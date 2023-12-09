@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Allagash"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python Spatial Optimization Library"
 
 HOMEPAGE="https://apulverizer.github.io/allagash"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/d6/c57695fec0ceb38f060ba9b02e94ea560e8822a8d933372a44d1d8ef16c2/Allagash-${REALVERSION}.tar.gz"
-SOURCEFILE="Allagash-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

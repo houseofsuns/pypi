@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Pybooru"
 REALVERSION="5.0.0.dev1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to access to Danbooru/Moebooru APIs"
 
 HOMEPAGE="https://github.com/LuqueDaniel/pybooru"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b9/01/5039d2859b8f5990ab39e741081d9922ddfca90653f33ef9e7466596ddb5/Pybooru-${REALVERSION}.tar.gz"
-SOURCEFILE="Pybooru-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

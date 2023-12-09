@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SIOTCommon"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Common operations for sweiot microservices"
 
 HOMEPAGE="https://github.com/AntonNPersson/SweIoTServices.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b2/a0/b9526d2899b9b43c23c33a1de2cb46d02a0041c02740acaf747565d5b6a1/SIOTCommon-${REALVERSION}.tar.gz"
-SOURCEFILE="SIOTCommon-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DoorBirdPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python wrapper for the DoorBird LAN API v0.21"
 
 HOMEPAGE="https://gitlab.com/klikini/doorbirdpy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f2/63/136ef4d0b6e93834ffdbbd821d69c61a5ffdc773cbf51efabd03a4855160/DoorBirdPy-${REALVERSION}.tar.gz"
-SOURCEFILE="DoorBirdPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

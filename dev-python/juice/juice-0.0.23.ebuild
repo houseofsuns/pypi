@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Juice"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A full stack Flask based framework that put structure in the file s
 
 HOMEPAGE="https://github.com/mardix/juice"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/68/ad436d75276f1d6d9c1bab7f4482023c0888651e0e90ea1b9e1b288c8856/Juice-${REALVERSION}.tar.gz"
-SOURCEFILE="Juice-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Specter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Specter is a spec-based testing library to help facilitate BDD-test
 
 HOMEPAGE="https://github.com/jmvrbanac/Specter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/8f/7a/cc548f6462367c91726c844a5a410f9f6bd4fbc28aa38f4279a541df6b6a/Specter-${REALVERSION}.tar.gz"
-SOURCEFILE="Specter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

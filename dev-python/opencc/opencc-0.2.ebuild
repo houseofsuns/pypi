@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpenCC"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A ctypes-based OpenCC converter for Chinese."
 
 HOMEPAGE="https://github.com/lepture/opencc-python"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/56/fb/5a7224ede65ac6271d163fcee81d4cb84f42a40667271f970faab97840df/OpenCC-${REALVERSION}.tar.gz"
-SOURCEFILE="OpenCC-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

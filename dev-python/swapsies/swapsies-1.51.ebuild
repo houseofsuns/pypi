@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Swapsies"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/eddo888/Swapsies"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/72/18/f9312fd591a35fa5a5ec8e87211c673ac47029ec7595b1152bb21844db76/Swapsies-${REALVERSION}.tar.gz"
-SOURCEFILE="Swapsies-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

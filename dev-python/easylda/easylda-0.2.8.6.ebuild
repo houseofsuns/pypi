@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="easyLDA"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="easily bult LDA Topic Models with just a list of docs (e.g. a list 
 
 HOMEPAGE="https://github.com/shichaoji/easyLDA"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/02/25/06d3ccf63f834d3b5a6f11e4a35271dbf332d842b43386cd82597593f9c3/easyLDA-${REALVERSION}.tar.gz"
-SOURCEFILE="easyLDA-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

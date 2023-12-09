@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Smg88"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Contains a python package with some useful functions and classes to
 
 HOMEPAGE="https://github.com/Smartestguy88/Smg88"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d8/be/8870cb9eeb0e468277dd82b88e88002189ad5ab507fc4beca8ce7cdb5387/Smg88-${REALVERSION}.tar.gz"
-SOURCEFILE="Smg88-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FukuML"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple machine learning library"
 
 HOMEPAGE="https://github.com/fukuball/fuku-ml"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/4c/efa4b2c1fac7c3d00b209e8edb6f9b8cac48ac47504a976f11cae8bdd13b/FukuML-${REALVERSION}.tar.gz"
-SOURCEFILE="FukuML-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

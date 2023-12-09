@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="growattServer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to talk to growatt server"
 
 HOMEPAGE="https://github.com/indykoning/PyPi_GrowattServer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/71/d2/e268b1d92ce45920ef34e6c5b4806a2d52864fb4608bc02ea40562047a6f/growattServer-${REALVERSION}.tar.gz"
-SOURCEFILE="growattServer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

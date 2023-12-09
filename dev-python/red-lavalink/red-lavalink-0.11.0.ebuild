@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Red-Lavalink"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Lavalink client library for Red-DiscordBot"
 
 HOMEPAGE="https://github.com/Cog-Creators/Red-Lavalink"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/6d/66/b05f3661afbc22d7af10827eaf68e5da5076d73ad0c3f7028acb8bf40bfd/Red-Lavalink-${REALVERSION}.tar.gz"
-SOURCEFILE="Red-Lavalink-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

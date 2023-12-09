@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mirrorstr"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An application to mirror Nostr posts on twitter, and vice-versa"
 
 HOMEPAGE="https://github.com/pleblira/mirrorstr"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/5d/7d/4f8cd3593977301c8854565f6bb3fcc4e6e03f6b40c60eb59eaa4c9b7387/Mirrorstr-${REALVERSION}.tar.gz"
-SOURCEFILE="Mirrorstr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

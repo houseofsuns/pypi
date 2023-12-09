@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="nameCreator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package to generate names by country"
 
 HOMEPAGE="https://github.com/JHudd435/nameCreator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e0/7d/ccf125bd389e6a7c6a7811dc201345c16ebadf3f2cfdb504e193aa0d5e67/nameCreator-${REALVERSION}.tar.gz"
-SOURCEFILE="nameCreator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

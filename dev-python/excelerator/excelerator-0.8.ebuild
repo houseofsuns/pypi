@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EXCELerator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Library for reading tabular data from excel in a very forgiving man
 
 HOMEPAGE="https://github.com/jonathanchukinas/excelerator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a5/a2/4bd7dfbcb359b27ebbb5980ccf3412e9ff39c3a1817743dc7a5152e13cb4/EXCELerator-${REALVERSION}.tar.gz"
-SOURCEFILE="EXCELerator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

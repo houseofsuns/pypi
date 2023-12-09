@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="G4S"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="API interface for G4S Alarms"
 
 HOMEPAGE="https://github.com/PTST/G4S_Alarm_Py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/59/3c/995c97e358517fb54b64a8321ea8dc6b1c528cfc9f1820549f2f85c664ab/G4S-${REALVERSION}.tar.gz"
-SOURCEFILE="G4S-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

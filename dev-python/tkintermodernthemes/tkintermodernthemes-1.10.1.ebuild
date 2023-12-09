@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TKinterModernThemes"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A collection of modern themes with code that makes it easy to integ
 
 HOMEPAGE="https://github.com/RobertJN64/TKinterModernThemes"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/d9/5558d6f6a06cc5ec61356e8a1f100c62ca8da931b22c337085ab4000e44f/TKinterModernThemes-${REALVERSION}.tar.gz"
-SOURCEFILE="TKinterModernThemes-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

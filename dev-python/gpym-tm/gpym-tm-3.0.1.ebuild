@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GPyM-TM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The following package enables users to perform text modelling"
 
 HOMEPAGE="https://github.com/jrmazarura/GPM"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4f/63/1468a4e7e5e6890ddc3cf3879d2edbad7b35b7dc563c0df3280afb406644/GPyM_TM-${REALVERSION}.tar.gz"
-SOURCEFILE="GPyM_TM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

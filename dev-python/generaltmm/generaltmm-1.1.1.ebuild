@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GeneralTmm"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="General 4x4 transfer-matric method (TMM)"
 
 HOMEPAGE="https://github.com/ardiloot/GeneralTmm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7e/36/66cdbb75d5624c4be377bedda2256681f065969008f95e81a4d495abd372/GeneralTmm-${REALVERSION}.tar.gz"
-SOURCEFILE="GeneralTmm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

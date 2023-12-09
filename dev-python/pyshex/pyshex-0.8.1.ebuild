@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyShEx"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python ShEx Implementation"
 
 HOMEPAGE="https://github.com/hsolbrig/PyShEx"
 LICENSE="CC0 1.0 Universal"
-SRC_URI="https://files.pythonhosted.org/packages/97/d7/420ce2df4e8688e06fa8e1fc353fdf3875eb70f6fc2e17493d0526d778ff/PyShEx-${REALVERSION}.tar.gz"
-SOURCEFILE="PyShEx-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

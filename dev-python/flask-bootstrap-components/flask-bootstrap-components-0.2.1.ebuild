@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Bootstrap-Components"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Collection of HTML generation helpers for Flask with Bootstrap 4"
 
 HOMEPAGE="https://github.com/adh/flask-bootstrap-components"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4c/ec/f9a8969c52bba61c9ac5e0d5d9fb68a3e958c6c1ce1a61870e0141b34564/Flask-Bootstrap-Components-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Bootstrap-Components-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

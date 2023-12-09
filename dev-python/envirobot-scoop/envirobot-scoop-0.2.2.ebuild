@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="enviRobot-scoop"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="enviRobot service that can be held by Scoop."
 
 HOMEPAGE="https://github.com/bohachu/ask_enviRobot"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8a/0c/89af699f8b2f17c8bd14f177f9d3ed270c7a7accbe3c11ea6437e422eab9/enviRobot_scoop-${REALVERSION}.tar.gz"
-SOURCEFILE="enviRobot_scoop-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

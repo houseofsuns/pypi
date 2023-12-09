@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NetTraRec"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="服务器流量监控小工具"
 
 HOMEPAGE="https://github.com/ga1008/net_tracfic_recorder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/40/6f/bd5084e42ee9b95357cba8989944382e58ec1aaa58b078d3a9f6b0b2fde3/NetTraRec-${REALVERSION}.tar.gz"
-SOURCEFILE="NetTraRec-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

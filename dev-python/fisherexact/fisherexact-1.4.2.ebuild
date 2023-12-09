@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FisherExact"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fishe's Exact test for mxn contingency table"
 
 HOMEPAGE="https://github.com/maclandrol/FisherExact"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/6f/e9/a849764e3da0f166cd1e37c624fc74f918920c72feb72f351854cbfedd94/FisherExact-${REALVERSION}.tar.gz"
-SOURCEFILE="FisherExact-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

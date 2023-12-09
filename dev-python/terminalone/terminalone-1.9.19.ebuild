@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TerminalOne"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for interacting with MediaMath's TerminalOne API."
 
 HOMEPAGE="http://www.mediamath.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/54/f3/3911fac924b4502a00121e6bf8c46c743dc39e0279f6ced552ec32c0d7d6/TerminalOne-${REALVERSION}.tar.gz"
-SOURCEFILE="TerminalOne-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyFiware"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python library to access Fiware REST API v2"
 
 HOMEPAGE="https://github.com/josubg/pyfiware"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cd/87/8a12bf8e791fb0fe4fb56f64d65cc187d896b45ce344510ecb22934faa4d/PyFiware-${REALVERSION}.tar.gz"
-SOURCEFILE="PyFiware-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

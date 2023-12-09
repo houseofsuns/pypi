@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CommonModules"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Common Python modules/functionalities used in practice."
 
 HOMEPAGE="https://github.com/wanghewen/CommonModules"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/51/da/e07a50d3898363789cf3e0253c16d583b842977b7375eec77eda02907483/CommonModules-${REALVERSION}.tar.gz"
-SOURCEFILE="CommonModules-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

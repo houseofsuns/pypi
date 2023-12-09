@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-Angular-lrdragndrop"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Angular-lrdragndrop 1.0.2 (XStatic packaging standard)"
 
 HOMEPAGE="https://github.com/lorenzofox3/lrDragNDrop"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/22/4c/92093256c67c042166ca70d5ff7db2971a25db13c6402fa988ad2c080d76/XStatic-Angular-lrdragndrop-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-Angular-lrdragndrop-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EdgeGPT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Reverse engineered Edge Chat API"
 
 HOMEPAGE="https://github.com/acheong08/EdgeGPT"
 LICENSE="The Unlicense"
-SRC_URI="https://files.pythonhosted.org/packages/3f/0f/b9053d94be96cbb345d96d97198c13e8fb244ce199fb4369f1400be71de3/EdgeGPT-${REALVERSION}.tar.gz"
-SOURCEFILE="EdgeGPT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

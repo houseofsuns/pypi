@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AaronTools"
 REALVERSION="1.0b19"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Tools for measuring and manipulating molecular structures"
 
 HOMEPAGE="https://github.com/QChASM/AaronTools.py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/58/f4/c62209eab04d23949a75b1b03dbb0d5db67d4a8ce42e1e01c0c5a941edf9/AaronTools-${REALVERSION}.tar.gz"
-SOURCEFILE="AaronTools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Janitor"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple HTTP Server behind the OAuth"
 
 HOMEPAGE="https://github.com/yoloseem/janitor"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3e/c5/29974ebf1686b6db866aa918be07f541b7e83e09bfe89032a51e9e96097a/Janitor-${REALVERSION}.tar.gz"
-SOURCEFILE="Janitor-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

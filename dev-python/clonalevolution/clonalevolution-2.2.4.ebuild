@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="clonalEvolution"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Software for simulating clonal evolution in binned and tau leap ver
 
 HOMEPAGE="https://github.com/JGil-polsl/clonalEvolution"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/85/338e56f894834b6fbcd1cfc712dc24836179f5790f95b57e9b4b6dc27538/clonalEvolution-${REALVERSION}.tar.gz"
-SOURCEFILE="clonalEvolution-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

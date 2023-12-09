@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GenIce"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Swiss army knife to generate hydrogen-disordered ice structures."
 
 HOMEPAGE="https://github.com/vitroid/GenIce/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d4/b3/7ad70f5ed2793227bacb3df2a70c1d4bb114208829893846e99389acd1ce/GenIce-${REALVERSION}.tar.gz"
-SOURCEFILE="GenIce-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MEArec"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python toolkit for biophysical simulation of extracellular electrop
 
 HOMEPAGE="https://github.com/alejoe91/MEArec"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/72/9f/955f7553fe8f72d945b7067de84b40da667247f3c9c80fe2ec8cd6216746/MEArec-${REALVERSION}.tar.gz"
-SOURCEFILE="MEArec-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

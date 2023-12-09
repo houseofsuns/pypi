@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Terrascan"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Security best practice static code analysis for terraform"
 
 HOMEPAGE="https://github.com/accurics/terrascan"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/9b/d6/c9a0b7735521106f0cc50fbbf7e54cbb8e0ff0ecb426e3f53190ebc53710/Terrascan-${REALVERSION}.tar.gz"
-SOURCEFILE="Terrascan-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

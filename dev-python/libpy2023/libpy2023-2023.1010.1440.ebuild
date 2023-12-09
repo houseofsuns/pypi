@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="libPy2023"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Librerías de propósito General"
 
 HOMEPAGE="https://github.com/Dexsys/libPy2023"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/04/dd/a7203bf32a08e06bfb017adcac99dc4628578453e558ce3e305f2ec9672b/libPy2023-${REALVERSION}.tar.gz"
-SOURCEFILE="libPy2023-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

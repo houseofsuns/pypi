@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Ullr"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A serial <-> MQTT interface for sports timing."
 
 HOMEPAGE="https://ullr.rtfd.io"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/37/b6f2ca2f11a785922fda1f12b3c39cd97c29b45181149d4ef11c955b444b/Ullr-${REALVERSION}.tar.gz"
-SOURCEFILE="Ullr-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

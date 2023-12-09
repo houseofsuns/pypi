@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ErCore"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Core for projects"
 
 HOMEPAGE="https://github.com/Eragod/ErCore"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/29/aa/d29b8a2eff4ff63d733c200112eedac59d5bb04186deec3c304794af170a/ErCore-${REALVERSION}.tar.gz"
-SOURCEFILE="ErCore-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

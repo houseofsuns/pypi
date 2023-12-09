@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JT-Gmail"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="My Gmail API Wrapper"
 
 HOMEPAGE="https://github.com/Gothingbop/JT_Gmail"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/97/2cdbdfa5ca2990413f6d9e7cd956485aa7769b73bedfe545b4b3d45671a1/JT_Gmail-${REALVERSION}.tar.gz"
-SOURCEFILE="JT_Gmail-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

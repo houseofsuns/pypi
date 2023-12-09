@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PlexAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python bindings for the Plex API."
 
 HOMEPAGE="https://github.com/pkkid/python-plexapi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/88/e3/80a9d7c822de935dc333be972ec112a098e13232d033650fbd0db8235b3b/PlexAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="PlexAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

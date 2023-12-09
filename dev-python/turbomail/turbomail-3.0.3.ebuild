@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TurboMail"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="TurboMail is a mail delivery subsystem and MIME message generation 
 
 HOMEPAGE="https://github.com/marrow/marrow.mailer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/00/d5bb60a747ef0d0483bdcd9e9daaea6d11fbc0217ca00a53148720b2f552/TurboMail-${REALVERSION}.tar.gz"
-SOURCEFILE="TurboMail-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

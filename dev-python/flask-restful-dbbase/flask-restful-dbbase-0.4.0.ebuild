@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-RESTful-DBBase"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package that extends Flask-RESTful resources to make creating res
 
 HOMEPAGE="https://sidorof.github.io/flask-restful-dbbase/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4d/92/c50761896d3c81a946e4ab765a9696b7b6cc6d96e102984b186ef17226ed/Flask-RESTful-DBBase-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-RESTful-DBBase-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

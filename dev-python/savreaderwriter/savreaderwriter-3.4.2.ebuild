@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="savReaderWriter"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Read and write SPSS files"
 
 HOMEPAGE="https://bitbucket.org/fomcl/savreaderwriter"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/2b/d7c2f50a5756cbf32f8a095c4950749753ad10f58a6301734225b0ac1ddc/savReaderWriter-${REALVERSION}.tar.gz"
-SOURCEFILE="savReaderWriter-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

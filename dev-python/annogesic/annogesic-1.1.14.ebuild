@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ANNOgesic"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="ANNOgesic - A tool for bacterial/archaeal RNA-Seq based genome anno
 
 HOMEPAGE="https://github.com/Sung-Huan/ANNOgesic"
 LICENSE="ISC License ISCL"
-SRC_URI="https://files.pythonhosted.org/packages/9e/d4/7acab28190683a2540c351f2a8769813f2200d04fff6c975d79c1da756d2/ANNOgesic-${REALVERSION}.linux-x86_64.tar.gz"
-SOURCEFILE="ANNOgesic-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

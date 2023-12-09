@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Beautifly-B"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Beautifly_B team B packages"
 
 HOMEPAGE="https://github.com/azmidri/Beautifly_B"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b3/df/6fbed7a4ec5ada482fad3adf5623472de00f825be4a6ac128fa0caaf181f/Beautifly_B-${REALVERSION}.tar.gz"
-SOURCEFILE="Beautifly_B-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Piff"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PSFs in the Full FOV"
 
 HOMEPAGE="https://github.com/rmjarvis/Piff"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/26/9e/d4905f54a3e311023b9f9f15e627d5aac465e7afa76ffec2a529088951c7/Piff-${REALVERSION}.tar.gz"
-SOURCEFILE="Piff-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

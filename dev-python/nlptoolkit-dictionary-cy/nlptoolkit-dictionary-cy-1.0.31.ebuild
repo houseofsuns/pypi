@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NlpToolkit-Dictionary-Cy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Simple Dictionary Processing"
 
 HOMEPAGE="https://github.com/StarlangSoftware/Dictionary-Cy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/0e/ca/e734bc5620f02baf3b71b9ffcbc7237ef5430872ce733655534a31e0a091/NlpToolkit-Dictionary-Cy-${REALVERSION}.tar.gz"
-SOURCEFILE="NlpToolkit-Dictionary-Cy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

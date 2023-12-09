@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PixivPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Pixiv API for Python (with 6.x AppAPI supported)"
 
 HOMEPAGE="https://github.com/upbit/pixivpy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/53/cb/8bb8eb5e6423d74f0a6dbbbd2bbdc534f858e54fdb2916ef37a1d3e1b869/PixivPy-${REALVERSION}.tar.gz"
-SOURCEFILE="PixivPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

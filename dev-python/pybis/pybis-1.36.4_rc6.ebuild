@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyBIS"
 REALVERSION="1.36.4rc6"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="openBIS connection and interaction, optimized for using with Jupyte
 
 HOMEPAGE="https://sissource.ethz.ch/sispub/openbis/tree/master/pybis"
 LICENSE="Apache Software License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/c2/93/39aa8741cd85ac9e8329028cbb51f8e31c80b930235ba2404986e14d3ed7/PyBIS-${REALVERSION}.tar.gz"
-SOURCEFILE="PyBIS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyHik"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Provides a python api to interact with a Hikvision camera event str
 
 HOMEPAGE="https://github.com/mezz64/pyhik"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dd/7a/93029a8d2d3cf5b543d255845f5fda4f8c69d612799b08e7a66ebaa52872/pyHik-${REALVERSION}.tar.gz"
-SOURCEFILE="pyHik-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Printrun"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Host software for 3D printers"
 
 HOMEPAGE="http://github.com/kliment/Printrun/"
 LICENSE="GPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/26/17/51167e17f3e44d283930da801ae36d497763281bc2c0065fc2c4e5d751b0/Printrun-${REALVERSION}.tar.gz"
-SOURCEFILE="Printrun-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

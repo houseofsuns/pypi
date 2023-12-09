@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RESTApiGen"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="REST API auto-generator."
 
 HOMEPAGE="https://github.com/Saiyam-J/RESTApiGen"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ae/f4/6d43843676bed0f479bc06c27ed19c544c582f7b30a95c58b6204d3eb01a/RESTApiGen-${REALVERSION}.tar.gz"
-SOURCEFILE="RESTApiGen-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

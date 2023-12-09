@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="BeanCommonUtils"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library for common methods."
 
 HOMEPAGE="https://github.com/beansKingdom/CommonUtils"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/3f/8c/2c71eaa2c09022950d40e6f361cc109bc92561d1c1b1f38cb939e142e444/BeanCommonUtils-${REALVERSION}.tar.gz"
-SOURCEFILE="BeanCommonUtils-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

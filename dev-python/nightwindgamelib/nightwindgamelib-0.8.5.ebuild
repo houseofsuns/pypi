@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NightWindGameLib"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Some little games"
 
 HOMEPAGE="https://github.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b8/35/15325f6e837835d93ae2891f47e6f4dd3381f236d05658e97a2c1aaa1993/NightWindGameLib-${REALVERSION}.tar.gz"
-SOURCEFILE="NightWindGameLib-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

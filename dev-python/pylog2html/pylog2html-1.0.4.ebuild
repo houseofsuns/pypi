@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyLog2html"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python logging to html"
 
 HOMEPAGE="https://github.com/trelay/PyLog2html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ab/4f/d63b8bf684ca2e43d70ee5aa742ae9c0dca1c0a2aaf7e790e9dee2c3a48a/PyLog2html-${REALVERSION}.tar.gz"
-SOURCEFILE="PyLog2html-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

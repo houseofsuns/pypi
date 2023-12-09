@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Orange3-Explain"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Orange3 add-on for explanatory AI"
 
 HOMEPAGE="https://orangedatamining.com/download"
 LICENSE="GPL3+"
-SRC_URI="https://files.pythonhosted.org/packages/d7/96/b9194eef1e5f882dc3497b8c1c2e9242b5bbf7c4efe3a890c4569bb647ea/Orange3-Explain-${REALVERSION}.tar.gz"
-SOURCEFILE="Orange3-Explain-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

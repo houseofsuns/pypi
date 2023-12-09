@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Heralding"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Credentials catching honeypot."
 
 HOMEPAGE="https://github.com/johnnykv/heralding"
 LICENSE="GPL 3"
-SRC_URI="https://files.pythonhosted.org/packages/cb/8e/e0448bf6069e520135bfcd7309ec2290cf2437dba50e2e7cc79b5ee96e6e/Heralding-${REALVERSION}.tar.gz"
-SOURCEFILE="Heralding-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

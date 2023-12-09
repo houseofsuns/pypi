@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Corrfunc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Blazing fast correlation functions on the CPU"
 
 HOMEPAGE="https://github.com/manodeep/Corrfunc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/39/df/622884e96b1c0b0eafc2e532ec08e35fa60dc2fd63562c2037382692c5f4/Corrfunc-${REALVERSION}.tar.gz"
-SOURCEFILE="Corrfunc-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

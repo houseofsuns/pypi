@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Backup2Cloud"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Backup specific folders to and upload to a cloud provider"
 
 HOMEPAGE="https://github.com/otapi/Backup2Cloud"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ef/a5/6a7aacfa7059773fab06c16a566a7748d7678fd2e239b3e85714a4950bc7/Backup2Cloud-${REALVERSION}.tar.gz"
-SOURCEFILE="Backup2Cloud-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

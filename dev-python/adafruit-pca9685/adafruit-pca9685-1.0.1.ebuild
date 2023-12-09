@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Adafruit-PCA9685"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python code to use the PCA9685 PWM servo/LED controller with a Rasp
 
 HOMEPAGE="https://github.com/adafruit/Adafruit_Python_PCA9685/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f6/33/ea998d02bab6f51c43ed99e3345ff7642aa0ceac871aff8cb8850f0dde05/Adafruit_PCA9685-${REALVERSION}.tar.gz"
-SOURCEFILE="Adafruit_PCA9685-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyFileFixity"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Helping file fixity (long term storage of data) via redundant error
 
 HOMEPAGE="https://github.com/lrq3000/pyFileFixity"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/9f/8b/19777af196d8d74704ad18fbd47bedaca3817bf7514fb473350ed8b19aaa/pyFileFixity-${REALVERSION}.tar.gz"
-SOURCEFILE="pyFileFixity-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

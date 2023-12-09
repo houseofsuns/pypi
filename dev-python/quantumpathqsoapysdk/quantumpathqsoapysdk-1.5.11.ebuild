@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="QuantumPathQSOAPySDK"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="QuantumPath qSOA Python SDK"
 
 HOMEPAGE="https://core.quantumpath.app/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/c9/4a13c7f958b59c0e9bc88aa37004163279d59ba3f99b5790bb541bcc66c6/QuantumPathQSOAPySDK-${REALVERSION}.tar.gz"
-SOURCEFILE="QuantumPathQSOAPySDK-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

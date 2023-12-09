@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PlexTraktSync"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Plex-Trakt-Sync is a two-way-sync between trakt.tv and Plex Media S
 
 HOMEPAGE="https://github.com/Taxel/PlexTraktSync"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/00/14/cef7f0d40854af69b426f866f4a64e9b147cfa70ef8af18ffd5cc70dafd7/PlexTraktSync-${REALVERSION}.tar.gz"
-SOURCEFILE="PlexTraktSync-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CyvoreOS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Next-Gen email threat prevention"
 
 HOMEPAGE="https://cyvore.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4c/7c/b9d79ebe417b5786c91bd7d8f3522c24db3f3157d0c840ac8906a143c1b2/CyvoreOS-${REALVERSION}.tar.gz"
-SOURCEFILE="CyvoreOS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

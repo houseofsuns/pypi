@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HDRezka"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="HDRezka (rezka.ag) Python API"
 
 HOMEPAGE="https://github.com/NIKDISSV-Forever/HDRezka"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/63/63/d069184b34bdb03ef1f354400e76befb9d6810667ac6dc74bd50effadb1e/HDRezka-${REALVERSION}.tar.gz"
-SOURCEFILE="HDRezka-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

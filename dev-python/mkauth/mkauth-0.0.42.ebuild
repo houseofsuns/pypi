@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MkAuth"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="MkNxGn User Management. Free for use."
 
 HOMEPAGE="https://mknxgn.com/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/cc/f1d2ee2d2fd0254e256803ab3a924ce9049cf8dad2af604f0361669bd23e/MkAuth-${REALVERSION}.tar.gz"
-SOURCEFILE="MkAuth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

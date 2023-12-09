@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HelioPy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="\"Python for heliophysics\""
 
 HOMEPAGE=""
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/26/f8/282e4f9d0e0d0a0edbe84c275c7a382e741e0aa6d9e179c48b8f4d821b70/HelioPy-${REALVERSION}.tar.gz"
-SOURCEFILE="HelioPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

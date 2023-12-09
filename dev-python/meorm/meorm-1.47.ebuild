@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MeORM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="orm框架"
 
 HOMEPAGE="https://github.com/Blackstone1204"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b6/67/bc9b700030c6056058f463ed5cae1a48104e7edf497792d3f6bc201f7d37/MeORM-${REALVERSION}.tar.gz"
-SOURCEFILE="MeORM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

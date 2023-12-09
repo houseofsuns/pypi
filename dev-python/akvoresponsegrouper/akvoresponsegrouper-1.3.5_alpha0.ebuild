@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="AkvoResponseGrouper"
 REALVERSION="1.3.5a0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fast-API Response catalog for pre-computed query"
 
 HOMEPAGE="https://github.com/akvo/Akvo-ResponseGrouper"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/81/84/aa957f19f8dfd7c564d178aaf8f03e0e351d13d169d402d4b10def44e4a2/AkvoResponseGrouper-${REALVERSION}.tar.gz"
-SOURCEFILE="AkvoResponseGrouper-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

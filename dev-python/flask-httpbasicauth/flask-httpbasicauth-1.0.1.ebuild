@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-HTTPBasicAuth"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Basic authentication for Flask routes"
 
 HOMEPAGE="http://github.com/Aidenir/flask-httpbasicauth/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d4/b0/96658aa211a8c47d4c70dd1707c35115516fb70b5b1f3890e4374cb625a9/Flask-HTTPBasicAuth-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-HTTPBasicAuth-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

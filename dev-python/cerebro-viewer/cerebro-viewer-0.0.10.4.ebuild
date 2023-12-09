@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Cerebro-Viewer"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Cerebro Viewer - A pythonic 3D viewer to visualize and plot brains"
 
 HOMEPAGE="https://github.com/sina-mansour/Cerebro_Viewer"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8d/c8/7bbcfcad2747c07a9ff54ff6f45bc14eaafc595f1f1dced26cbb61bd97a3/Cerebro_Viewer-${REALVERSION}.tar.gz"
-SOURCEFILE="Cerebro_Viewer-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

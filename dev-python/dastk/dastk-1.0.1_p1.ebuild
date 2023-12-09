@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="DAStk"
 REALVERSION="1.0.1.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Differential ATAC-seq toolkit"
 
 HOMEPAGE="https://github.com/Dowell-Lab/DAStk"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/6b/d9/3ff879c202f7a9cebfc5ec605c39f6ef5c06aa264cec092e1851fb034f7a/DAStk-${REALVERSION}.tar.gz"
-SOURCEFILE="DAStk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

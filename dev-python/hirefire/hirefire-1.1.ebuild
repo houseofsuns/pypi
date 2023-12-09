@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="HireFire"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python lib to integrate with the HireFire service -- The Heroku P
 
 HOMEPAGE="https://hirefire.readthedocs.io/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/c1/0d/1e2288aa13598f7aa134c65e11eef847c358d557abd0a9f1ddb5756998e6/HireFire-${REALVERSION}.tar.gz"
-SOURCEFILE="HireFire-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

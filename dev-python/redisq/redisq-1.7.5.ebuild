@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RedisQ"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a mini python Redis Task Queue model"
 
 HOMEPAGE="https://github.com/Tsimage/RedisQ"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/76/ec/e218ca410b4e360410bd09b60c942a495cb0f5e775c01a69d8b69c860491/RedisQ-${REALVERSION}.tar.gz"
-SOURCEFILE="RedisQ-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

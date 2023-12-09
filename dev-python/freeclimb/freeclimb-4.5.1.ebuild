@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FreeClimb"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="FreeClimb API"
 
 HOMEPAGE="https://freeclimb.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/da/5f/b650f5c3ef253f351382bf0c87bf06e6d33fb42792fa98c61b47b28abd02/FreeClimb-${REALVERSION}.tar.gz"
-SOURCEFILE="FreeClimb-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

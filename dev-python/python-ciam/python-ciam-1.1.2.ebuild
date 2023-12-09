@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="python-CIAM"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An efficient Python implementation of the Coastal Impacts and Adapt
 
 HOMEPAGE="https://gitlab.com/ClimateImpactLab/coastal/projects/pyciam"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/97/da/055495a91f7eea1c389cb431b0fbefc210b518e538628dd195de4573bfae/python-CIAM-${REALVERSION}.tar.gz"
-SOURCEFILE="python-CIAM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

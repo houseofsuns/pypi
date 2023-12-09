@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="YAROM"
 REALVERSION="0.12.1.dev20200125043535"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Yet Another RDF-Object Mapper"
 
 HOMEPAGE="http://yarom.readthedocs.org/en/latest/"
 LICENSE="BSD 3-clause"
-SRC_URI="https://files.pythonhosted.org/packages/17/e2/7d4a2991a1f4d024e8e0412c40876f2dd0130aa353c088442189c5ffb881/YAROM-${REALVERSION}.tar.gz"
-SOURCEFILE="YAROM-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

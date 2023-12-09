@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Konsave"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A program that lets you save your Plasma configuration in an instan
 
 HOMEPAGE="https://www.github.com/prayag2/konsave/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9e/85/cf6645742e3c63a625e93cfe1e66fd9c79481b197e112593a34edfd5d248/Konsave-${REALVERSION}.tar.gz"
-SOURCEFILE="Konsave-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

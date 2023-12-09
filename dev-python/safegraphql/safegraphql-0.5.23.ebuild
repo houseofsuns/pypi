@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="safegraphQL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="graphQL API of safegraph.com using Python functions"
 
 HOMEPAGE="https://github.com/echong-SG/API-python-client-MKilic"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5f/6e/08367fd2134ce163d2cbbf8320e19ea394cbffa077ea12c2b3ad13697c8c/safegraphQL-${REALVERSION}.tar.gz"
-SOURCEFILE="safegraphQL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

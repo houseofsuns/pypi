@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PrSpiders"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Inherit the requests module, add xpath functionality to expand the 
 
 HOMEPAGE="https://github.com/peng0928/prequests"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f1/27/a395c14b0bc838ac6b87bcba9430228e8c1be8fe1483e0a8075118ab5c58/PrSpiders-${REALVERSION}.tar.gz"
-SOURCEFILE="PrSpiders-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

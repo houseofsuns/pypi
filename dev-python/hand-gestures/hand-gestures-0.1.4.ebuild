@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Hand-Gestures"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a minimalist custom module for mediapipe"
 
 HOMEPAGE="https://github.com/DILPREET1910/Hand-Gestures-module"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/51/5d/19cb23b93567de1c9fed72ed5b5e2416b1d43d7a8aa31ab6879404fa2f34/Hand_Gestures-${REALVERSION}.tar.gz"
-SOURCEFILE="Hand_Gestures-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

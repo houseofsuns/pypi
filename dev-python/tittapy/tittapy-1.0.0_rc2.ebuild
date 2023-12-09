@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="TittaPy"
 REALVERSION="1.0.0rc2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Interface to Tobii eye trackers using Tobii Pro SDK"
 
 HOMEPAGE="https://github.com/dcnieho/Titta"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/04/b9/7cbf17b3a1708df01658a59dafaa2c211d0889950e91658d914f076e19d9/TittaPy-${REALVERSION}.tar.gz"
-SOURCEFILE="TittaPy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

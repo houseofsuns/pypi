@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PySimpleGUIDesigner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PySimpleGUI designer, that uses transpiler to produce PySimpleGUI c
 
 HOMEPAGE="https://github.com/nngogol/PySimpleGUI_designer"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/1c/23/5fe5e39510beff64090371a7552ff4b5e139beb9d9d61b2d64b995791a49/PySimpleGUIDesigner-${REALVERSION}.tar.gz"
-SOURCEFILE="PySimpleGUIDesigner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

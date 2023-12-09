@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="flake8-SQL"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flake8 plugin that checks SQL code against opinionated style rules"
 
 HOMEPAGE="https://github.com/pgjones/flake8-sql"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/80/7b/a82825ecd4aca4e3be4394f31a1179f71bfcdae4d4325c908626d0e09461/flake8-SQL-${REALVERSION}.tar.gz"
-SOURCEFILE="flake8-SQL-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

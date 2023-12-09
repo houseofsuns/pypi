@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IBATS-BitMex-Feeder"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="连接BitMex交易所，获取实时行情、历史行情，保存�
 
 HOMEPAGE="https://github.com/IBATS/IBATS_BitMexFeeder"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c0/73/44e182bfa3af4c797bfd0291999c4ff1f9edbe885a942a2a3b9cd3fb5726/IBATS_BitMex_Feeder-${REALVERSION}.tar.gz"
-SOURCEFILE="IBATS_BitMex_Feeder-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

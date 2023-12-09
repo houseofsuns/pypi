@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Log-Api"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Paquete para el manejo de logs de apis aws lambda serverles con sql
 
 HOMEPAGE="https://github.com/1kagro/serverless-sqlalchemy-logapi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e3/f2/951872a9d1ab05fab40e7ca91c9f97126b73f3c6628b8203c2cee5b24024/Log_Api-${REALVERSION}.tar.gz"
-SOURCEFILE="Log_Api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

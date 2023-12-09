@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyBigWig"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for accessing bigWig files using libBigWig"
 
 HOMEPAGE="https://github.com/deeptools/pyBigWig"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f0/57/334db9a75d6941876ef282cc7eb1885a24fe71d3c6522c19f717db4f8b73/pyBigWig-${REALVERSION}.tar.gz"
-SOURCEFILE="pyBigWig-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

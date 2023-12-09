@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Plone"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The Plone Content Management System"
 
 HOMEPAGE="https://plone.org/"
 LICENSE="GPL version 2"
-SRC_URI="https://files.pythonhosted.org/packages/ba/fa/f14327155bae64d01b5428efcc97aa81ec7b60d6d77cca37d55dc445569a/Plone-${REALVERSION}.tar.gz"
-SOURCEFILE="Plone-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

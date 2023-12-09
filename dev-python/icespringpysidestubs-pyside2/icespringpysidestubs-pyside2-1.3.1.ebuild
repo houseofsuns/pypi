@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="IceSpringPySideStubs-PySide2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="PySide2 stubs with Qt signals and Qt documentations and more"
 
 HOMEPAGE="https://github.com/baijifeilong/IceSpringPySideStubs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/e8/3257fddc9ec623909312bdd5d8626c07139f9da21003dc6bbefd31b3c453/IceSpringPySideStubs-PySide2-${REALVERSION}.tar.gz"
-SOURCEFILE="IceSpringPySideStubs-PySide2-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

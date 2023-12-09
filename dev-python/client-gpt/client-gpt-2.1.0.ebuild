@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="client-GPT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A package for working with GPT language models."
 
 HOMEPAGE="https://github.com/littleknitsstory/client-gpt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cd/7e/7f83b77c993b281242e23b0d06e90dee9bc5116e24757d6b009c12b3763a/client_GPT-${REALVERSION}.tar.gz"
-SOURCEFILE="client_GPT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

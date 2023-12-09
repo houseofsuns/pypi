@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PointBlaster"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="find point mutation in assembled genomes"
 
 HOMEPAGE="https://github.com/hbucqp/PointBlaster"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/f8/9c/dfbd9ce0f82679f7779665a40c9de7ca6df4b95a91fa7220a90baeeb06bf/PointBlaster-${REALVERSION}.tar.gz"
-SOURCEFILE="PointBlaster-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

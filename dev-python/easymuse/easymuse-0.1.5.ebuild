@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EasyMuse"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library for connecting and communicate with MUSE headbands
 
 HOMEPAGE="https://github.com/bardiabarabadi/EasyMuse"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/81/95/fc33fd43a6b5a0cad4bf0e060b6ba3ddfea140f72c5aa50995349e7db998/EasyMuse-${REALVERSION}.tar.gz"
-SOURCEFILE="EasyMuse-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="APS-BlueSky-tools"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Various Python tools for use with BlueSky at the APS"
 
 HOMEPAGE="http://APS_BlueSky_tools.readthedocs.org"
 LICENSE="c 2017-2019, UChicago Argonne, LLC see LICENSE file for details"
-SRC_URI="https://files.pythonhosted.org/packages/13/7b/ca1d0a7874874cc372f47eacb1376feabcc61d44796a60e2f85fef704d1f/APS_BlueSky_tools-${REALVERSION}.tar.gz"
-SOURCEFILE="APS_BlueSky_tools-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

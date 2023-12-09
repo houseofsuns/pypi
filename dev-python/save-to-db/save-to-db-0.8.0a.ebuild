@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Save-to-DB"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This library makes it easy to store data from any source into a dat
 
 HOMEPAGE="https://bitbucket.org/mikhail-makovenko/save-to-db"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/68/a3/13ff07e22be5251ea4d04fe234e9ac0f24ffbccc2053ddbba34e5b2cf75d/Save-to-DB-${REALVERSION}.tar.gz"
-SOURCEFILE="Save-to-DB-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

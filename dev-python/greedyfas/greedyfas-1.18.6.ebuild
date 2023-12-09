@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="greedyFAS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A tool to compare protein feature architectures"
 
 HOMEPAGE="https://github.com/BIONF/FAS"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/9c/c0/664933ddec55e7562dc8c64a5a142fa8f07ccec50d8590792ce383a345c1/greedyFAS-${REALVERSION}.tar.gz"
-SOURCEFILE="greedyFAS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

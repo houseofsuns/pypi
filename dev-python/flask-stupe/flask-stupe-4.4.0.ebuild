@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Stupe"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="a.k.a. « Flask on steroids »"
 
 HOMEPAGE="https://github.com/numberly/flask-stupe"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/4a/0142d6fdce926e0a1d41b0a20ef3045c8cf3c81a858577e7cc40fe7acfe4/Flask-Stupe-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Stupe-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

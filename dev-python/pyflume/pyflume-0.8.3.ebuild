@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyFlume"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Package to integrate with Flume Sensor"
 
 HOMEPAGE="https://github.com/ChrisMandich/PyFlume"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/80/48454ea51ff93300ec25d56460d67604fa171962f0d968549e4696e1463d/PyFlume-${REALVERSION}.tar.gz"
-SOURCEFILE="PyFlume-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RGT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Toolkit to perform regulatory genomics data analysis"
 
 HOMEPAGE="https://reg-gen.readthedocs.io"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/51/e6/82c6daf8f24a92feb71116f0cdd95ea76ce4555e9b73b64a7ddc68e90015/RGT-${REALVERSION}.tar.gz"
-SOURCEFILE="RGT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

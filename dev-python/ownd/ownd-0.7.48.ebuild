@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OWNd"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python interface for the OpenWebNet protocol"
 
 HOMEPAGE="https://github.com/anotherjulien/OWNd"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b0/35/d102719d9f4fc3a461551c9a6d6ec70f903ecc8957458b28bab1eca72c28/OWNd-${REALVERSION}.tar.gz"
-SOURCEFILE="OWNd-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-Occam"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Flask extension for simplifying REST API development."
 
 HOMEPAGE="https://github.com/bprinty/Flask-Occam"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/56/5b/51753570df603272195084cae14b9b6cc4ade2011748d640693275ea9089/Flask-Occam-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-Occam-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

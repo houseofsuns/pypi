@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Abg"
 REALVERSION="2.3.6.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="add-on for Pyrogram || Telegram bot helpers || Easy botting"
 
 HOMEPAGE="https://github.com/Abishnoi69/Abg"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ea/07/61355565e534ff90c372fff9657b30a2c58af8bee3da962b99016fda96ff/Abg-${REALVERSION}.tar.gz"
-SOURCEFILE="Abg-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

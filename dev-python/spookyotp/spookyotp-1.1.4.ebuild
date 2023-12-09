@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SpookyOTP"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A lightweight Python 2/3 package for handling HOTP/TOTP (Google Aut
 
 HOMEPAGE="https://github.com/steveherrin/SpookyOTP"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2f/3d/b7c544c5ff54b59c3cfc1cd9f6c5aeda32a4c395818454eaabfedba078da/SpookyOTP-${REALVERSION}.tar.gz"
-SOURCEFILE="SpookyOTP-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CLI-passthrough"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Importable CLI-passthrough with bells and whistles."
 
 HOMEPAGE="https://github.com/terminal-labs/cli-passthrough"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/f6/73/a26855d13e32b14b00d2f093a1de881275f2a17146ca502bc076d7de7280/CLI-passthrough-${REALVERSION}.linux-x86_64.tar.gz"
-SOURCEFILE="CLI-passthrough-${REALVERSION}.linux-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

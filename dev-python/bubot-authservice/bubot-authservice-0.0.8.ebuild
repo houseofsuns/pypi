@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Bubot-AuthService"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Service providing authentication capabilities for the Bubot framewo
 
 HOMEPAGE="https://github.com/businka/Bubot_AuthService"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e1/7f/8cb53feb79548cd1e6a2acf1fd66669198a9fa91c3e358b1c26b1dc31f22/Bubot_AuthService-${REALVERSION}.tar.gz"
-SOURCEFILE="Bubot_AuthService-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

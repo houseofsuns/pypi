@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="dStorage"
 REALVERSION="1.1.3rc1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="dStorage, biblioteca para construção de aplicativos em python."
 
 HOMEPAGE="https://github.com/leo0-07/dStorage"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/67/9e/f0ae52642c6899c95ca75d25b32fe593a3939a871af78a3ce284c8c24975/dStorage-${REALVERSION}.tar.gz"
-SOURCEFILE="dStorage-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

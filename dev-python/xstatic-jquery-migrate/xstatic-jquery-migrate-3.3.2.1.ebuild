@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="XStatic-JQuery-Migrate"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="JQuery-Migrate 3.3.2 (XStatic packaging standard)"
 
 HOMEPAGE="https://github.com/jquery/jquery-migrate"
 LICENSE="same as JQuery-Migrate"
-SRC_URI="https://files.pythonhosted.org/packages/b0/53/fcce98f1c1a7eed1aac2c7bafd804791ad29dff7b3efe22919ad7f2f790b/XStatic-JQuery-Migrate-${REALVERSION}.tar.gz"
-SOURCEFILE="XStatic-JQuery-Migrate-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ConsLoadingBar"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Easy to make progress bars"
 
 HOMEPAGE="https://github.com/flamechain/ConsLoadingBar"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/46/63/ceef02054d90d9232876d5e14c0ec17c0aeb00545a51d20d4a1fd3c84542/ConsLoadingBar-${REALVERSION}.tar.gz"
-SOURCEFILE="ConsLoadingBar-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

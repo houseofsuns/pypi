@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="InMemoryCloudDatastoreStub"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An in-memory stub implementation of Google Cloud Datastore for use 
 
 HOMEPAGE="https://github.com/phil-lopreiato/google-cloud-datastore-stub/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/a2/e9fd99c853154ee0688d17be3e7cb53fc8958ff08fc21d40b5c80d7f68fe/InMemoryCloudDatastoreStub-${REALVERSION}.tar.gz"
-SOURCEFILE="InMemoryCloudDatastoreStub-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

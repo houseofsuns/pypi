@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="VENOMgetREST"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="For developers"
 
 HOMEPAGE="https://t.me/LegendsLIB"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c5/7c/8aeea5b06081f872979dec3746b3a39044342d41616ca8f1658ba5406c33/VENOMgetREST-${REALVERSION}.tar.gz"
-SOURCEFILE="VENOMgetREST-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

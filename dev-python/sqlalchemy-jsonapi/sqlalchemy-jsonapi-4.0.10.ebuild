@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SQLAlchemy-JSONAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="JSONAPI Mixin for SQLAlchemy"
 
 HOMEPAGE="http://github.com/coltonprovias/sqlalchemy-jsonapi"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/6a/d4fe2881debd7f1ee37e8e349fcbd889f76d6e84dfa93623c31265df95cd/SQLAlchemy-JSONAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="SQLAlchemy-JSONAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

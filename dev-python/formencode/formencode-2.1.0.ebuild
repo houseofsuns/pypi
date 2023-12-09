@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FormEncode"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="\"HTML form validation, generation, and conversion package\""
 
 HOMEPAGE="https://www.formencode.org/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b0/f5/bc214d7521e7ffda4eb64bd04a28c1457159a155ba074d5f08e3c9553169/FormEncode-${REALVERSION}.tar.gz"
-SOURCEFILE="FormEncode-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

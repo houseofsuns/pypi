@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EMP-PY"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Functions for estimating EMP (Expected Maximum Profit Measure) in C
 
 HOMEPAGE="https://github.com/Banking-Analytics-Lab/EMP-Py"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/ff/a4/fdb75c7293a2b91bb8531e6457cea028c3683f8ef057e2e99b5b0df225aa/EMP-PY-${REALVERSION}.tar.gz"
-SOURCEFILE="EMP-PY-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

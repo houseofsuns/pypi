@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Agora-Client"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An Agora client for Python that requests and executes search plans 
 
 HOMEPAGE="https://github.com/smartdeveloperhub/agora-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f4/8d/5fd820dac142bc9c629505a83442f1c63a0c197ac739300e77da2c57afe9/Agora-Client-${REALVERSION}.tar.gz"
-SOURCEFILE="Agora-Client-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

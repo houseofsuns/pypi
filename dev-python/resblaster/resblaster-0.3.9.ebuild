@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ResBlaster"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="find antimcirobial resistance genes on genomes"
 
 HOMEPAGE="https://github.com/hbucqp/ResBlaster"
 LICENSE="MIT Licence"
-SRC_URI="https://files.pythonhosted.org/packages/cb/f4/a304cbaf6bca4ba68f6469536b5c8baa9277e85f9ec81a22825fc0623764/ResBlaster-${REALVERSION}.tar.gz"
-SOURCEFILE="ResBlaster-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

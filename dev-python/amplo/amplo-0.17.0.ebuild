@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Amplo"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Fully automated end to end machine learning pipeline"
 
 HOMEPAGE="https://github.com/nielsuit227/AutoML"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4a/40/f178bed9ff3276ccb073ca265efd1672b8901bcb6a16dedd489f8ebf1e84/Amplo-${REALVERSION}.tar.gz"
-SOURCEFILE="Amplo-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

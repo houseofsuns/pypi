@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mongo-Thingy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="The most idiomatic and friendly-yet-powerful way to use MongoDB wit
 
 HOMEPAGE="https://github.com/Refty/mongo-thingy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/24/f9/d5ff41aff00d263642faccbad4bd3e50d2b287e8602e1133e6366a71efbf/Mongo-Thingy-${REALVERSION}.tar.gz"
-SOURCEFILE="Mongo-Thingy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

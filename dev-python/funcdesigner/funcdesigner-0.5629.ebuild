@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="FuncDesigner"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A python module for function design and automatic derivatives"
 
 HOMEPAGE="http://openopt.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/fa/32/c8c94bdf9da20cdedf521a34f7e5e9958a4f6420539bbe44bd5ff0e6c6fd/FuncDesigner-${REALVERSION}.tar.gz"
-SOURCEFILE="FuncDesigner-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

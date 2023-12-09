@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="pyobjc-framework-Message"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Wrappers for the framework Message on macOS"
 
 HOMEPAGE="https://github.com/ronaldoussoren/pyobjc"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/d0/c8/0f73311b435518997ad4afc975bd7dbca789ef563b519ac5f28dc9302da9/pyobjc-framework-Message-${REALVERSION}.tar.gz"
-SOURCEFILE="pyobjc-framework-Message-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

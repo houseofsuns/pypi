@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="bestOf"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A module that uses machine learning to chose the best image in grou
 
 HOMEPAGE="https://github.com/apangasa/bestof"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/59/e2/51206db58c4c2754f608d0d71879f03e703cf418144bfed82d41d82dadf0/bestOf-${REALVERSION}.tar.gz"
-SOURCEFILE="bestOf-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

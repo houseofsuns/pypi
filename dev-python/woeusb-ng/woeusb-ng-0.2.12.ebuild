@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="WoeUSB-ng"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="WoeUSB-ng is a simple tool that enable you to create your own usb s
 
 HOMEPAGE="https://github.com/WoeUSB/WoeUSB-ng"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/52/5b/e7426fc6096116efc8ca380e6c8ceaa265f17300a6308b948c7abe4ec9f0/WoeUSB-ng-${REALVERSION}.tar.gz"
-SOURCEFILE="WoeUSB-ng-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Flask-RESTy"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Building blocks for REST APIs for Flask"
 
 HOMEPAGE="https://github.com/4Catalyzer/flask-resty"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/20/6a/c9f043e1d9b6f872e7056cdcc16dfffc58c2ea2e383056b50103aa86ae12/Flask-RESTy-${REALVERSION}.tar.gz"
-SOURCEFILE="Flask-RESTy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

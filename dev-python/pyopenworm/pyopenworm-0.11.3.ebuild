@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyOpenWorm"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Python library for working with OpenWorm data and models"
 
 HOMEPAGE="http://PyOpenWorm.readthedocs.org/en/latest/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/4a/c2/b8ea48f213d9ff102f41b9c9e6a79985239ec38906d5c7070d88d17100cf/PyOpenWorm-${REALVERSION}.tar.gz"
-SOURCEFILE="PyOpenWorm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

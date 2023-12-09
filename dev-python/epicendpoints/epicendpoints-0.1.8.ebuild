@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="EpicEndpoints"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="An easy way to access Epic Games' endpoints without clutter."
 
 HOMEPAGE="https://github.com/AtomicXYZ/EpicEndpoints"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/e0/10/79dc7bfdfd4a25a6ee210b16bd7f5aba892c0436914021addccf75f9f40d/EpicEndpoints-${REALVERSION}.tar.gz"
-SOURCEFILE="EpicEndpoints-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

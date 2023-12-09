@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="NeuralNMF"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION=""
 
 HOMEPAGE="https://github.com/jvendrow/NeuralNMF"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1f/6b/fa7b1cd289ab9ce00135f6ba5e5654f79687225f3a9f8fa5a09a1e1a9ec4/NeuralNMF-${REALVERSION}.tar.gz"
-SOURCEFILE="NeuralNMF-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

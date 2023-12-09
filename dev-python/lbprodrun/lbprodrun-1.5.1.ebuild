@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="LbProdRun"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="CLI for running LHCb applications from LHCbDIRAC"
 
 HOMEPAGE="https://gitlab.cern.ch/lhcb-core/lbprodrun"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/10/24/b3d86779748df029978a7a358b236a6464e18e10ced85c1e178cfca0a6a9/LbProdRun-${REALVERSION}.tar.gz"
-SOURCEFILE="LbProdRun-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

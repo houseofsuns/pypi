@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Attention-and-Transformers"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_10 )
@@ -15,8 +16,8 @@ DESCRIPTION="Building attention mechanisms and Transformer models from scratch. 
 
 HOMEPAGE="https://github.com/veb-101/Attention-and-Transformers"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/0c/5d/1b143ff86a9182751ac0ddabac126afce2f1c0e6ee91e812f46d0c9d2b3f/Attention_and_Transformers-${REALVERSION}.tar.gz"
-SOURCEFILE="Attention_and_Transformers-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

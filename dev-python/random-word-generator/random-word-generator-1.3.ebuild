@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Random-Word-Generator"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="This is a random word generator module"
 
 HOMEPAGE="https://github.com/AbhishekSalian/Random-Word-Generator"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8b/60/088c690d74a401525e12c122c6f55657d4fab3d5a979c5dd3c740d8d2f17/Random-Word-Generator-${REALVERSION}.tar.gz"
-SOURCEFILE="Random-Word-Generator-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

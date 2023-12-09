@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="RegonAPI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Python 3 API Client for Polish REGON database (Baza Internetowa Reg
 
 HOMEPAGE="https://github.com/rolzwy7/RegonAPI"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a4/cc/9321a1db7aa602252de8d81124f43ee98167936261287271351aa21864de/RegonAPI-${REALVERSION}.tar.gz"
-SOURCEFILE="RegonAPI-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

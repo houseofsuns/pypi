@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="JustWatch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple api for justwatch.com"
 
 HOMEPAGE="https://github.com/dawoudt/JustWatchAPI"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/2d/31/54c11c1e4f8beffab32e842d39c8d89e1ab97e7f4ec516aaba374fd66aea/JustWatch-${REALVERSION}.tar.gz"
-SOURCEFILE="JustWatch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

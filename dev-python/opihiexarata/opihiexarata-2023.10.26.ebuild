@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="OpihiExarata"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Analysis software for the IRTF Opihi telescope."
 
 HOMEPAGE="https://github.com/psmd-iberutaru/OpihiExarata"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/13/e9/d42206698e63d9a885abe77d6a659c16f6fba4be8ca73bc5c609896dd1d8/OpihiExarata-${REALVERSION}.tar.gz"
-SOURCEFILE="OpihiExarata-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="django-singleton-admin-2"
+LITERALNAME="django-singleton-admin-2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )

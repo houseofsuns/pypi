@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mega-pytorch"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mega - Pytorch"
 
 HOMEPAGE="https://github.com/lucidrains/Mega-pytorch"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/70/cf/1a80749c0530ec7d77d367d035d92291d2a5745fa03aeb66da74be31095c/Mega-pytorch-${REALVERSION}.tar.gz"
-SOURCEFILE="Mega-pytorch-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

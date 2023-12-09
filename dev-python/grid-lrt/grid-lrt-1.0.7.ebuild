@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="GRID-LRT"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="GRID LOFAR Reduction Tools"
 
 HOMEPAGE="https://www.github.com/apmechev/GRID_LRT/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/91/dd/72f5e01999546de040d55453827318d3996ffe5fc27c8dedb5bf0bb14fd1/GRID_LRT-${REALVERSION}.tar.gz"
-SOURCEFILE="GRID_LRT-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

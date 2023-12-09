@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Mopidy-Mopify"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A Mopidy Web client based on the (old) Spotify interface. Improved 
 
 HOMEPAGE="https://github.com/dirkgroenen/Mopify"
 LICENSE="GNU General Public License v3 GPLv3"
-SRC_URI="https://files.pythonhosted.org/packages/87/1b/85a6c097ddf1f2839ba34515517caa8ee1b6e153c84c3cb40b0ceaf2bcc7/Mopidy-Mopify-${REALVERSION}.tar.gz"
-SOURCEFILE="Mopidy-Mopify-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

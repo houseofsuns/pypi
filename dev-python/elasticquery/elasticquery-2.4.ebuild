@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="ElasticQuery"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="A simple query builder for Elasticsearch"
 
 HOMEPAGE="http://github.com/Fizzadar/ElasticQuery"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c1/72/62968f4daff77f44c95e411ee2c638e4f55f01cbf8c03b216bd4bc46d2ad/ElasticQuery-${REALVERSION}.tar.gz"
-SOURCEFILE="ElasticQuery-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

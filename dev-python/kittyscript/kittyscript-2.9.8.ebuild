@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="Kittyscript"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Assist mode for python"
 
 HOMEPAGE="https://github.com/Iwertyuiop123653/kitty-script-"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/7c/27/6979833b205dfcd66f5bf29cb29626611d6df39e3d4a70988613a08ab0f0/Kittyscript-${REALVERSION}.tar.gz"
-SOURCEFILE="Kittyscript-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

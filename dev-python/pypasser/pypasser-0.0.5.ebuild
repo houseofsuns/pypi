@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="PyPasser"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Bypassing reCaptcha V3 by sending HTTP requests & solving reCaptcha
 
 HOMEPAGE="https://github.com/xHossein/PyPasser"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/dc/18/405c919c0398ecdb9ff5fa62a6c092751d7c6d5865191633967f95ded134/PyPasser-${REALVERSION}.tar.gz"
-SOURCEFILE="PyPasser-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

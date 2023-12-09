@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="SouPyX"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Sound Python Library"
 
 HOMEPAGE="https://github.com/Yuan-ManX/SouPy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/79/0a/ea25f08292fb2a852c2ab67a06438fcb6e3a8e51b3240327ba608d660b01/SouPyX-${REALVERSION}.tar.gz"
-SOURCEFILE="SouPyX-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

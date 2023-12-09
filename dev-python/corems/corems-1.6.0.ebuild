@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="CoreMS"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Mass Spectrometry Framework for Small Molecules Analysis"
 
 HOMEPAGE="https://github.com/EMSL-Computing/CoreMS"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/a7/1f50f5f387be5764d88e7888de8441f7355fe7e4bbce20dfcd999b7568f6/CoreMS-${REALVERSION}.tar.gz"
-SOURCEFILE="CoreMS-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

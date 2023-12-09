@@ -4,6 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
+LITERALNAME="MeshSync"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -15,8 +16,8 @@ DESCRIPTION="Command line tool to download/update Mesh projects with ease!"
 
 HOMEPAGE="https://rawa.dev"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b2/5a/4b00911b54addd6d4d49e62129964a2ef9b07acb8e62ed8d6b56c98c4c46/MeshSync-${REALVERSION}.tar.gz"
-SOURCEFILE="MeshSync-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

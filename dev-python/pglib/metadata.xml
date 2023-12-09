@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A PostgreSQL interface for Python.This provides an interface to the libpq library.  It is not an DB APIlibrary, but is instead designed to match the interface PostgreSQLoffers.</longdescription>
 </pkgmetadata>

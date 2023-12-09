@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Read muon spin rotation and relaxation data from PSI directly in Python.</longdescription>
 </pkgmetadata>

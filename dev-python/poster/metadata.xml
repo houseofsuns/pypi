@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The modules in the Python standard library don't provide a way to upload largefiles via HTTP without having to load the entire file into memory first.poster provides support for both streaming POST requests as well asmultipart/form-data encoding of string or file parameters</longdescription>
 </pkgmetadata>

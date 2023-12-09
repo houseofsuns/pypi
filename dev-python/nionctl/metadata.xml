@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># `nionctl`An abbreviation of common linux command-line utilities into one ctl## InstallationInstall `nionctl` with pip:```bashpip install nionctl```The PyPi page is availible [here.](https://pypi.org/project/nionctl/)## Current commands (WIP):- Basic WiFi controlling (uses `nmcli`)- Basic Bluetooth controlling (uses `bluetoothctl`)- `git clone` from url to default directory- Basic archiving utilities (supports `.zip`, `.tar`, `.tar.gz`, `.tar.bz2`)- Simple image editing (converting, rotating, resizing, negating etc)## ContributingAny kinds of contributions are very welcome!Currently the main goals are to bring more utilities and make the ctl cross-platform. Any tests on other linux distros are also welcome!</longdescription>
 </pkgmetadata>

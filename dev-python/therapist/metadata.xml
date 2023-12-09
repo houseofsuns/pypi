@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A lint suite runner with Git-aware capabilities and a smart pre-commit hook.Full documentation for this tool is available at:http://therapist.readthedocs.io/</longdescription>
 </pkgmetadata>

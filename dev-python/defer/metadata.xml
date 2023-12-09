@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The defer module provides an easy way to write asynchrouns Python programms.It is greatly inspired by Twisted's defer, but comes without a lot of thedependencies.At first defer was part of aptdaemon and moved to a separate project inAugust of 2010.The project homepage is at https://launchpad.net/python-deferYou can report errors and suggestion there.</longdescription>
 </pkgmetadata>

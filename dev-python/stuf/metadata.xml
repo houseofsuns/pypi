@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A collection of Python dictionary types that support attribute-style access.Includes *defaultdict*,  *OrderedDict*, restricted, *ChainMap*, *Counter*, andfrozen implementations plus miscellaneous utilities for writing Python software.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Stock Supply Forecast Module############################The stock supply forecast module takes forecast into account to computepurchase requests.</longdescription>
 </pkgmetadata>

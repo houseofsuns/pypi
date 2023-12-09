@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># tigris-client-pythonPython client for Tigris## Installation```commandlinepip install tigrisdb```# UsageVector Search - https://www.tigrisdata.com/docs/concepts/vector-search/python/# Development1. Install `poetry` following the installation instructions [here](https://python-poetry.org/docs/#installation)2. Requires **python 3.8+**, **pip 23.x**3. Clone the repo and cd into the directory4. Update submodule - `git submodule update --init`5. Create and activate the virtual environment - `poetry shell`6. Install dependencies - `poetry install --with dev`7. [Optional] install [git hooks](#git-hooks)8. Compile proto and generate api client helpers - `poetry run make generate`## Git HooksWe use [pre-commit](https://pre-commit.com/index.html) to automaticallysetup and run git hooks.On every `git commit` we check the code quality. Install the hooks:```commandlinepre-commit install```</longdescription>
 </pkgmetadata>

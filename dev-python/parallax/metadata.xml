@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Parallax SSH provides an interface to executing commands on multiplenodes at once using SSH. It also provides commands for sending and receiving files tomultiple nodes using SCP.</longdescription>
 </pkgmetadata>

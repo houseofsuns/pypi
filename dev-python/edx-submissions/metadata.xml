@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>An API for creating and scoring submissions for the Open edX platform</longdescription>
 </pkgmetadata>

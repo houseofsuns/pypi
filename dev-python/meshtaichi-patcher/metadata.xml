@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Some examples can be found under example folder.### install```bashpip install meshtaichi_patcher```For users who want to build this repository:```bashpip install -r requirements.txtpython3 setup.py develop --user```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>autowrap automatically generates python extension modules for wrappingC++ libraries based on annotated (commented) cython pxd files. </longdescription>
 </pkgmetadata>

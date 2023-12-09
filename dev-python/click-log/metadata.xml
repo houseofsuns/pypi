@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>click-log=========.. image:: https://travis-ci.org/click-contrib/click-log.svg?branch=master    :target: https://travis-ci.org/click-contrib/click-logIntegrates logging with click.- `Documentation &lt;https://click-log.readthedocs.org/&gt;`_- `Source code &lt;https://github.com/click-contrib/click-log&gt;`_License=======Licensed under the MIT, see ``LICENSE``.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># crispy-bootstrap4[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/smithdc1/crispy-bootstrap4/blob/main/LICENSE)Bootstrap4 template pack for django-crispy-forms. This template pack was included with the core django-crispy-forms package until version 2.0.## InstallationInstall this plugin using `pip`:```bash    $ pip install crispy-bootstrap4```## UsageYou will need to update your project's settings file to add `crispy_forms`and `crispy_bootstrap4` to your projects `INSTALLED_APPS`. Also set`bootstrap4` as and allowed template pack and as the default template packfor your project:```python    INSTALLED_APPS = (        ...        &quot;crispy_forms&quot;,        &quot;crispy_bootstrap4&quot;,        ...    )    CRISPY_ALLOWED_TEMPLATE_PACKS = &quot;bootstrap4&quot;    CRISPY_TEMPLATE_PACK = &quot;bootstrap4&quot;```</longdescription>
 </pkgmetadata>

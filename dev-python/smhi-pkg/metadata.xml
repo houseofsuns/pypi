@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># SMHI Swedish weather institute packagePython library for accessing SMHI open forecast dataPlease visit http://opendata.smhi.se/apidocs/metfcst/parameters.html for more informationIf you want to contribute you can use devcontainers in vscode for easiest setup. Please see [instructions here](.devcontainer/README.md)If you like what I do and want to buy me a cup of coffee. It is always appreciated :)&lt;a href=&quot;https://www.buymeacoffee.com/ij1qXRM6E&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png&quot; alt=&quot;Buy Me A Coffee&quot; style=&quot;height: auto !important;width: auto !important;&quot; &gt;&lt;/a&gt;</longdescription>
 </pkgmetadata>

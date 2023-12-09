@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>        # Cloudify Utilities SDK        Utilities SDK for extending Cloudify features.    </longdescription>
 </pkgmetadata>

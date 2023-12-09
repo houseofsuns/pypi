@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Pip Update## SummaryUpdates all outdated packages using pip. Also allows specifying packages,or showing outdated packages.## Usage&gt;    $ pip_upgrade -h&gt;    usage: Provides functionality for updating all your outdated packages&gt;&gt;    positional arguments:&gt;      PACKAGE_NAME          Name of package to update - without specifying a&gt;                            package all packages will be updated.&gt;&gt;    optional arguments:&gt;      -h, --help            show this help message and exit&gt;      -d, --dry, --dry-run  Do not do anything, just print what would be done.## Authors: * Alistair Broomhead * Ross Binden## Contributors * Charalampos Papaloizou * Frank Herrmann * Russel Winder * Sam Raza * Shivan Sornarajah## LicenceThis code is licence under the [MIT Licence](http://opensource.org/licenses/MIT)</longdescription>
 </pkgmetadata>

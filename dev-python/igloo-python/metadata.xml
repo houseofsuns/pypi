@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;p align=&quot;center&quot;&gt;  &lt;img src=&quot;https://github.com/IglooCloud/igloo-python/raw/master/IglooLogo.png&quot; alt=&quot;Igloo logo&quot; width=&quot;128&quot;/&gt;&lt;/p&gt;&lt;h1 align=&quot;center&quot;&gt;Python SDK for Igloo&lt;/h1&gt;## Getting startedInstall the library with pip:```pip install igloo-python```You can find detailed documentation and examples on how to use the library on [our official site](http://igloo.ooo/).## LicenseSee the [license](https://github.com/IglooCloud/igloo-python/blob/master/LICENSE.txt) file for license rights and limitations.</longdescription>
 </pkgmetadata>

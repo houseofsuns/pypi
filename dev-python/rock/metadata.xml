@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>rock is a command line tool that simplifies building, testing, and runningapplications in multiple languages and versions on the same system.See http://www.rockstack.org for more information.</longdescription>
 </pkgmetadata>

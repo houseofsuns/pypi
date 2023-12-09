@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># FastASHFast Averaged Shifted Histograms.Density estimation which approximate a triangular Kernel Density Estimation (KDE.Cython inside.## InstallIf Cython is installed, the sources files in '.pyx' are used. Otherwise, the '.cpp' files are directly used.### From PyPiSimply use the Pypi command (numpy is mandatorry to achieve the installation due to cython components) :```bashpip install numpypip install fastash ```### From SourceSimply use the install command :```bashmake install```This command is usefull during the developpement work.## Build and deployTo build the package :```bashmake build```Then, the procedure to deploy is the following (version number need to be incremented) :```bashmake distmake deploy```## Getting Startedexemple usage in test/test_2d.py## help for packagingscript files are based on the package https://github.com/cmcqueen/simplerandom .</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>MyGrad is a lightweight library that adds automatic differentiation to NumPy – its only dependency is NumPy!It's primary goal is to make automatic differentiation an accessible and easy to use across the Python/NumPy ecosystem.MyGrad introduces a tensor object, which behaves like NumPy's ndarray object, but that builds a computationalgraph, which enables MyGrad to perform reverse-mode differentiation (i.e. &quot;backpropagation&quot;). By exploitingNumPy's mechanisms for ufunc/function overrides, MyGrad's tensor works &quot;natively&quot; with NumPy's suite of mathematicalfunctions so that they can be chained together into a differentiable computational graph.NumPy's systems for broadcasting operations, producing views of arrays, performing in-place operations, and permittingboth &quot;basic&quot; and &quot;advanced&quot; indexing of arrays are all supported by MyGrad to a high-fidelity.</longdescription>
 </pkgmetadata>

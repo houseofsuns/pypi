@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>============== release-test==============Package for testing OpenStack release tools.This package contains no real useful code and should not need to bepackaged by distributors. Its sole purpose is to test the OpenStackrelease automation tools.* Free software: Apache license* Documentation: http://docs.openstack.org/developer/release-test* Source: http://git.openstack.org/cgit/openstack/release-test</longdescription>
 </pkgmetadata>

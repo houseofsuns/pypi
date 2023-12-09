@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Murano======Murano Project introduces an application catalog, which allows applicationdevelopers and cloud administrators to publish various cloud-readyapplications in a browsable categorised catalog. Cloud users— including inexperienced ones — can then use the catalog tocompose reliable application environments with the push of a button.Project Resources-----------------* `Murano Official Documentation &lt;http://murano.readthedocs.org&gt;`_* Project status, bugs, and blueprints are tracked on  `Launchpad &lt;https://launchpad.net/murano&gt;`_* Additional resources are linked from the project  `Wiki &lt;https://wiki.openstack.org/wiki/Murano&gt;`_ page* `Python client &lt;https://github.com/openstack/python-muranoclient&gt;`_License-------Apache License Version 2.0 http://www.apache.org/licenses/LICENSE-2.0</longdescription>
 </pkgmetadata>

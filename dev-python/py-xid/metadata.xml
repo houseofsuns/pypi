@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># xid [![codecov](https://codecov.io/gh/alexferl/xid/branch/master/graph/badge.svg)](https://codecov.io/gh/alexferl/xid)A Python 3.8+ port of [https://github.com/rs/xid](https://github.com/rs/xid).# Install```shell scriptpip install py-xid```# Usage```pythonfrom xid import XIDguid = XID()print(guid.string())# Output: bsqo1inf38q5alkk85a0print(guid.machine())# Output:  b'\xef\x1a4'print(guid.pid())# Output: 21846print(guid.time())# Output: 1597341898print(guid.counter())# Output: 9716052print(guid.bytes())# Output: b'_5\x80\xca\xef\x1a4UV\x94AT'print(XID(&quot;bsqo1inf38q5alkk85a0&quot;))# Output: XID('bsqo1inf38q5alkk85a0')print(XID(b&quot;_5\x80\xca\xef\x1a4UV\x94AT&quot;))# Output: XID('bsqo1inf38q5alkk85a0')```</longdescription>
 </pkgmetadata>

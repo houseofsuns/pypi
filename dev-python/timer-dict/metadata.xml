@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># TimerDictThis package provides a simple dictionary-like class, which drops items after aset amount of time.```pythonfrom datetime import timedeltafrom typing import Union# When creating a TimerDict specify for how long items should live for:my_dict = TimerDict(default_duration=timedelta(minutes=5))# Then add items like you would to any dictionarymy_dict[&quot;foo&quot;] = &quot;bar&quot;# Or use the `put` method if you want to explicitly set the duration for a keymy_dict.put('foo', 'bar', timedelta(seconds=10))# Getting items also works just like you'd would expectprint(my_dict['foo'])```## Implementation DetailsInternally, the dict keeps a queue of all items and when they should be removed.The items are then purged whenever control flow passes to the dictionary, suchas when adding or getting an item. There is no separate thread or `async` taskrunning in the background.</longdescription>
 </pkgmetadata>

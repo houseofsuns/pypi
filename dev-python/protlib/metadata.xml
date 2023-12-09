@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>protlib makes it easy to implement binary network protocols. It usesthe struct and SocketServer modules from the standard library. Itprovides support for default and constant struct fields, nested structs, arrays of structs, better handling for strings and arrays, struct inheritance, and convenient syntax for instantiating and using your custom structs.protlib requires Python 2.7 or later and works in Python 3.</longdescription>
 </pkgmetadata>

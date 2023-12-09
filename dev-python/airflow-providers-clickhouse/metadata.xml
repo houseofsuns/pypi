@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># apache-airflow-providers-clickhouseProvider allow connect Apache Airflow to Yandex Clickhouse Database and perform query using ClickhouseOperator</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>==============swagger-schema==============An object-oriented representation of Swagger for Python. See theunit tests for usage.</longdescription>
 </pkgmetadata>

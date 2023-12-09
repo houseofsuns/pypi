@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=========Astrolabe=========Timer library for recording performance metrics.Installation============To install atomic, use pip : ::    pip install astrolabeAcknowledgement===============This is heavily inspired by `hitimes &lt;https://github.com/copiousfreetime/hitimes/&gt;`_.</longdescription>
 </pkgmetadata>

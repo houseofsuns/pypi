@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># A data validation package to check the dataset level and sample level metadata for errors.</longdescription>
 </pkgmetadata>

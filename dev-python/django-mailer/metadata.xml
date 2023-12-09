@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>``django-mailer`` is a reusable Django app for queuing the sending of email.It works by storing email in the database for later sending.The main reason for doing this is that for many apps, the database will bemuch more reliable and faster than other email sending backends which require3rd party services e.g. SMTP or an HTTP API. By storing and sending later, we canreturn succeed immediately, and then attempt actual email sending in the background,with retries if needed.</longdescription>
 </pkgmetadata>

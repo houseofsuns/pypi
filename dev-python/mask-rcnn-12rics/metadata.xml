@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a library of Mask-RCNN implemented by (https://github.com/matterport/Mask_RCNN)</longdescription>
 </pkgmetadata>

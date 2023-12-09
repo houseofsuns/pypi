@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>tethysts==================================This git repository contains the tethys time series main class for accessing S3 time series data.The documentation for the package can be found here: `&lt;https://tethysts.readthedocs.io&gt;`_</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># OpenAPI definition for Toaztr APIsDocumentation is accessible on our [developers site](https://developers.toaztr.com).# Usage## Inclusion in your projectCompiled specs can be accessed from the [developers site](https://developers.toaztr.com) or from the following package managers:- For javascript/typescript on [npmjs](https://www.npmjs.com/package/@toaztr/specs)- For python on [pypi](https://pypi.org/project/toaztr-specs/)## Code generationIf you require code generation from the api specs, it is up to you to set it up from the compiled specs we publish.A good starting point is the [OpenAPI generator](https://openapi-generator.tech/).</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>beanstalkc is a simple beanstalkd client library for Python. `beanstalkd&lt;http://kr.github.com/beanstalkd/&gt;`_ is a fast, distributed, in-memoryworkqueue service.</longdescription>
 </pkgmetadata>

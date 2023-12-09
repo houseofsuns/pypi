@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=======etlstat=======**etlstat** is a Python package that contains **Extract-Transform-Load**utilities for statistical offices data processing.It's been created by the Instituto Cántabro de Estadística (ICANE) andbelongs to ICANE's Python data framework.</longdescription>
 </pkgmetadata>

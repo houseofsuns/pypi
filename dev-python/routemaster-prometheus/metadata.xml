@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>routemaster-prometheus^^^^^^^^^^^^^^^^^^^^^^Usage, in your Routemaster configuration file:.. code-block:: yaml   plugins:     logging:       - class: routemaster_prometheus.logger:PrometheusLogger         kwargs:           path: /metricsThis package is based on the official Python Promeutheus bindings in`\ ``prometheus_client`` &lt;https://pypi.org/project/prometheus_client/&gt;`_. In orderfor that package to operate in a multithreaded program such as Routemaster,the environment variable ``prometheus_multiproc_dir`` must be set to a writeabledirectory for temporary files. It does not need to be backed up as nothingis persisted between application launches.This is already done for you in the ``thread/routemaster`` Docker imageprovided, but when deploying in a custom way you may wish to change thisdirectory.</longdescription>
 </pkgmetadata>

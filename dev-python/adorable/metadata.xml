@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;p align=&quot;center&quot;&gt;  &lt;h1 align=&quot;center&quot;&gt;adorable&lt;/h1&gt;  &lt;p align=&quot;center&quot;&gt;    Make the UI of your project &lt;b&gt;adorable&lt;/b&gt;.  &lt;/p&gt;&lt;/p&gt;[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)Basic Usage-----------```pythonimport adorablefrom adorable import colorRED = color.from_name(&quot;red&quot;)print(RED.fg(&quot;Hello adorable World&quot;))BLUE = color.from_hex(0x0AF)DARK = color.from_rgb((38, 38, 38))col = BLUE.on(DARK)adorable.printc(&quot;Hello&quot;, &quot;World&quot;, style = col)```Links-----* [Documentation](https://phoenixr-codes.github.io/adorable)* [Source Code](https://github.com/phoenixr-codes/adorable)* [PyPI](https://pypi.org/project/adorable)</longdescription>
 </pkgmetadata>

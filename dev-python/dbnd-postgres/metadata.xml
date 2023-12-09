@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># DBND Postgres## The plugin`dbnd-postgres` create histograms for postgres tables.The plugin supports Redshift.### What does it do?It uses internal/system postgres tables to create the histograms. It doesn't query user tables at all.### Installation```bashpip install dbnd-postgres```</longdescription>
 </pkgmetadata>

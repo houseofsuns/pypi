@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## vegafusion-python-embedThis crate contains the Python library that embeds the VegaFusion Runtime and select Connection. This crate uses PyO3 to expose the Rust logic to CPython. </longdescription>
 </pkgmetadata>

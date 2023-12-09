@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># GoPro SynchronizerTired of *GoPro Cloud* not working?  Did you miss the old **GoPro software** to sync videos?  This tool is what you're searching for (if you're a sheel enjoyer)  ## InstallationThe tool can be downloaded directly from [PyPi](https://pypi.org/project/gopro-sync/).```bashpip install gopro-sync```## UsageYou can see the help, `-h`, man to know all the possibile commands.```bashgopro-sync -h```</longdescription>
 </pkgmetadata>

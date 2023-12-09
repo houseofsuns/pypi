@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## snapmlengine : snapmlengine helps you with Machine Learning Tasks- **Website:** https://github.com/midnightbot/snapmlengine- **Source Code:** https://github.com/midnightbot/snapmlengine- **Bug Reports:** https://github.com/midnightbot/snapmlengine/issues## What is it?**snapmlengine** is a Python package that provides fast and flexible solution to Machine Learning Tasks## snapmlengine provides- Functions to perform ML Tasks## Where to get itThe source code is currently hosted on GitHub at:https://github.com/midnightbot/snapmlengine```sh# condaconda install snapmlengine``````sh# or PyPIpip install snapmlengine```## BackgroundWork on ``snapmlengine`` started in 2023 and has been under active development since then.</longdescription>
 </pkgmetadata>

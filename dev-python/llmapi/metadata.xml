@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># llmapillms api## 安装(Install)```bashsudo pip install llmapi```## 用法(Usage)TODO</longdescription>
 </pkgmetadata>

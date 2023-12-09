@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python implementation of the Johansen test for cointegrationInstallation notes:This package requires scipy, which in turn  requires blas, lapack, atlas, andgfortran. These can be installed on a Ubuntu system with:    sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran</longdescription>
 </pkgmetadata>

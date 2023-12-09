@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># kinesisA kinesis consumer with color.![kinesis_gif](https://user-images.githubusercontent.com/4519234/54093775-944dc180-4371-11e9-8c0d-326a3e12b023.gif)[![Build Status](https://travis-ci.org/davegallant/kinesis.svg?branch=master)](https://travis-ci.org/davegallant/kinesis)[![PyPI version](https://badge.fury.io/py/kinesis.svg)](https://badge.fury.io/py/kinesis)## Installation```bashpip install kinesis```Credentials for AWS are read from `~/.aws/credentials`.Optionally, config is loaded from `~/.aws/config`.## Usage### ConsumeStart consuming at the latest shard iterator:```bashkinesis consume --stream my-stream```### Consume and CaptureIf you want to capture:```bashkinesis consume --stream my-stream --capture```### Produce from a file```bashkinesis produce --stream my-stream -f ./my_file.json --repeat 100```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>neat is a `WSGI`_ micro framework that encourages API-centric development of webapplications. The framework is especially compatible with `REST`_ services andAPIs, though it can conceivably be used for more or less anything. Applicationsimplemented with neat are easy to test and produce data that is easy for clientsto consume... _WSGI:   http://wsgi.org/wsgi/.. _REST:   http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Acdc ToolsCollection of tools (widgets, utils, io functions, etc.) used by [Cell-ACDC](https://github.com/SchmollerLab/Cell_ACDC) and spotMAX.</longdescription>
 </pkgmetadata>

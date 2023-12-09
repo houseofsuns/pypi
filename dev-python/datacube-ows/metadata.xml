@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>============datacube-ows============Open Web Services for the Open Datacube.* Free software: Apache Software License 2.0* Documentation: https://datacube-ows.readthedocs.io.Features--------* Leverages the power of the Open Data Cube, including support for COGs on S3.* Supports WMS and WMTS.* Experimental support for WCS (1.0, 2.0, 2.1).    </longdescription>
 </pkgmetadata>

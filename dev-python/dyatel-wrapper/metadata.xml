@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Dyatel Dyatel is a wrapper tool of Selenium/Appium/Playwright libraries to test web applications in a single project with possibility to easy switching between these engines.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>json-cherry-pick provides quick access to sub-objects inside large JSON blobs</longdescription>
 </pkgmetadata>

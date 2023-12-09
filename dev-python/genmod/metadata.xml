@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Tool for annotating patterns of genetic inheritance in Variant Call Format (VCF) files.</longdescription>
 </pkgmetadata>

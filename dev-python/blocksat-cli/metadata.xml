@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Blockstream Satellite CLIA command-line interface for configuring, running and monitoring a BlockstreamSatellite receiver setup.</longdescription>
 </pkgmetadata>

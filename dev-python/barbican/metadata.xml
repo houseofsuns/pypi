@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Service for storing sensitive client information for OpenStack</longdescription>
 </pkgmetadata>

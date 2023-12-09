@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![codecov](https://codecov.io/gh/stefanondisponibile/theboringlibrary/branch/develop/graph/badge.svg?token=8VHJ01UKLX)](https://codecov.io/gh/stefanondisponibile/theboringlibrary)# theboringlibrary&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://stefanofrassetto.com/theboringlibrary&quot;&gt;&lt;img width=&quot;200px&quot; src=&quot;docs/img/rb.png&quot; alt=&quot;TheBoringLibrary&quot;&gt;&lt;/a&gt;&lt;/p&gt;## Installation```bashpip install theboringlibrary```## UsageFrom your terminal:```bashtheboringlibrary```Or as a library:```pythonimport theboringlibrary as bohassert boh.do_nothing() is None```---For advance usage see [the official documentation](https://stefanondisponibile.github.io/theboringlibrary/).</longdescription>
 </pkgmetadata>

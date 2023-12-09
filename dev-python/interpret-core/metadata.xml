@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Core system for the interpret package.https://github.com/interpretml/interpret</longdescription>
 </pkgmetadata>

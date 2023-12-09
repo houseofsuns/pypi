@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. image:: https://travis-ci.com/cmaclell/py_search.svg?branch=master   :target: https://travis-ci.com/cmaclell/py_search.. image:: https://coveralls.io/repos/github/cmaclell/py_search/badge.svg?branch=master   :target: https://coveralls.io/github/cmaclell/py_search?branch=master=========Py Search=========This is a Python library of algorithms that implements various searchalgorithms written by Christopher MacLellan (https://chrismaclellan.com).In particular, there are uninformed, informed, and optimization techniquesimplemented with a standard interface.Installation============You can install this software using pip::    pip install -U py_searchYou can install the latest version of the code directly from github::    pip install -U git+https://github.com/cmaclell/py_search@masterImportant Links===============- Source code: `&lt;https://github.com/cmaclell/py_search&gt;`_- Documentation: `&lt;http://py_search.readthedocs.org&gt;`_</longdescription>
 </pkgmetadata>

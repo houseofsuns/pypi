@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>![PyThaiNLP Logo](https://avatars0.githubusercontent.com/u/32934255?s=200&amp;v=4)PyThaiNLP is a Python library for Thai natural language processing.The library provides functions like word tokenization, part-of-speech tagging,transliteration, soundex generation, spell checking, anddate and time parsing/formatting.Website: [pythainlp.github.io](https://pythainlp.github.io/)# InstallFor stable version:```shpip install pythainlp```For development version:```shpip install --upgrade --pre pythainlp```Some functionalities, like named-entity recognition, required extra packages.See https://github.com/PyThaiNLP/pythainlp for installation options.</longdescription>
 </pkgmetadata>

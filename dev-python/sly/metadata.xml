@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&quot;SLY is an implementation of lex and yacc. No longer maintained on PyPI. Latest version on GitHub.&quot;</longdescription>
 </pkgmetadata>

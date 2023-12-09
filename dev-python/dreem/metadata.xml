@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Build docs](https://github.com/rouskinlab/dreem/actions/workflows/documentation.yml/badge.svg)](https://github.com/rouskinlab/dreem/actions/workflows/documentation.yml)[![Run tests](https://github.com/rouskinlab/dreem/actions/workflows/tests.yaml/badge.svg?branch=main)](https://github.com/rouskinlab/dreem/actions/workflows/tests.yaml)# DREEMProf. Silvi Rouskin's [DREEM algorithm](https://www.nature.com/articles/s41586-020-2253-5).## InstallationInstallation instructions [here](https://rouskinlab.github.io/dreem/dreem/installation.html).## DocumentationThe documentation is available on [Github Pages](https://rouskinlab.github.io/dreem).## ContributorsYves Martin, Scott Grote, Matthew Allan, Albéric de Lajarte.## For developersBefore pushing to main, ensure that the code passes the tests:```pytest test/test_pipeline.py```and that the docs compile:```cd docsmake html```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># geosparkThis library is Python wrapper on GeoSpark library.GeoSpark is a cluster computing system for processing large-scale spatial data. GeoSpark extends Apache Spark / SparkSQL with a set of out-of-the-box Spatial Resilient Distributed Datasets (SRDDs)/ SpatialSQL that efficiently load, process, and analyze large-scale spatial data across machines.Python version supports:&lt;li&gt; GeoSpark core &lt;/li&gt;&lt;li&gt; GeoSpark SQL &lt;/li&gt;Please follow tutorial on official GeoSpark website:https://datasystemslab.github.io/GeoSpark/</longdescription>
 </pkgmetadata>

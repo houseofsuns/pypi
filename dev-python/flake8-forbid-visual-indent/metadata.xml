@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Flake8-forbid-visual-indent[![Build Status](https://travis-ci.com/ateraz/flake8-forbid-visual-indent.svg?branch=master)](https://travis-ci.com/ateraz/flake8-forbid-visual-indent)Flake8 plugin that disallows visual indentation. It raises error for indentation style like```pythondef my_function(first_arg: int,                second_arg: int) -&gt; int:    ...```in favor of```pythondef my_function(        first_arg: int, second_arg: int) -&gt; int:    ...```</longdescription>
 </pkgmetadata>

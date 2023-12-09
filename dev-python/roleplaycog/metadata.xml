@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Roleplay CogThis package is a cog edition of [my roleplay bot repository](https://github.com/mariohero24/Roleplay-Bot) that has been heavily modified## Installation```cspip install roleplaycog```## Setup```pyimport discordbot = discord.Bot()# Loading via the setup functionbot.load_extension(&quot;roleplaycog&quot;)# Loading directly (why would you do this)from roleplaycog import Roleplaybot.add_cog(Roleplay(bot))bot.run(&quot;Token&quot;)```</longdescription>
 </pkgmetadata>

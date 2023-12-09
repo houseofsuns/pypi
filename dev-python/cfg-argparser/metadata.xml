@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cfg_argparser 1.2.1a config wrapper I made.## Installation```bash# from pypi:pip install cfg-argparser# from github:git clone &quot;https://github.com/zeptofine/cfg-argparser&quot;cd cfg-argparserpip install -e .```## Example```pythonfrom cfg_argparser import wrap_config, CfgDictcfg = CfgDict(&quot;test.json&quot;)@wrap_config(cfg)def test_function(s: str, is_real: bool = True): # I'd advise only wrapping functions all having default methods    return f&quot;{s} is {'real' if is_real else 'fake'}&quot;if __name__ == &quot;__main__&quot;:  print(test_function(&quot;We&quot;))  cfg['s'] = &quot;us&quot;  print(test_function()) # Linters hate him!```## CompatibiltyThis was mainly tested on 3.9 and 3.10, but it should work from 3.6 onwards. i can't test earlier versions for some reason.</longdescription>
 </pkgmetadata>

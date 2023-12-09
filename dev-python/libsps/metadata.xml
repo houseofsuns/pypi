@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>libSps is a versatile C++ library designed for efficiently analyzing n-dimensional data. Specifically, it implements constant-time hyperrectangle count queries using a sparse prefix sum index. libSps is available as a header-only library for C++ as well as a Python 3 module.The library is ideal for processing interactome data (https://en.wikipedia.org/wiki/Chromosome_conformation_capture), and is therefore used in Smoother (https://github.com/Siegel-Lab/BioSmoother).libSps's documentation is available at https://libsps.readthedocs.io/.    </longdescription>
 </pkgmetadata>

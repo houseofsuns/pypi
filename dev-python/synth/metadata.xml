@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Synth is a framework that provides C++ implementations of various templateengines, including Django, SSI and HTML::Template (TMPL). This library providesa simple binding to Synth in the form of a Template class.</longdescription>
 </pkgmetadata>

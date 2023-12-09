@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python第三方包二次封装应该会用到一些其他依赖## 安装```shellpip install pylwr```打包与上传```shellpy -m buildpython setup.py sdist bdist_wheelpy -m twine upload dist\*```</longdescription>
 </pkgmetadata>

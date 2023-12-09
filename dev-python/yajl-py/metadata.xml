@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pure Python wrapper to the excellent Yajl (Yet Another Json Library) C library</longdescription>
 </pkgmetadata>

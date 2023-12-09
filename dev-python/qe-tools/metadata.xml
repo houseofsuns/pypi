@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># qe-toolsThis repository contains a set of useful tools for Quantum ESPRESSO, in particular * a parser for pw.x input files * a parser for cp.x input filesThe code is developed and maintained by the AiiDA Team and is licensed under the MIT license (see LICENSE file).</longdescription>
 </pkgmetadata>

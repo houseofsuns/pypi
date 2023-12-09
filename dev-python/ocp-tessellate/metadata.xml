@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Tessellate OCP (https://github.com/cadquery/OCP) objects to use with threejs</longdescription>
 </pkgmetadata>

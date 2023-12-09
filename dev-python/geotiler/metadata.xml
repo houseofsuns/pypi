@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>GeoTiler is a library to create maps using tiles from a map provider.The main goal of the library is to enable a programmer to create maps usingtiles downloaded from OpenStreetMap, Stamen or other map provider.The maps can be used by interactive applications or to create data analysisgraphs.The code is based on Python port of Modest Maps project [1][2], which islicensed under BSD license. All subsequent changes are licensed under GPLv3 license.- [1] http://modestmaps.com/- [2] https://github.com/stamen/modestmaps-py.. note::   Version 0.20.0 of GeoTiler will change API. Please use::        geotiler&gt;=0.14.2,&lt;0.20.0   as your dependency requirement if you need old API.</longdescription>
 </pkgmetadata>

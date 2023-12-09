@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># fastxmFor cross-matching astronomical catalogs. Like `np.intersect1d` but faster. ### InstallationFrom `PyPI`:```bashpip install fastxm```From source (requires [maturin](https://github.com/PyO3/maturin/)):```bashgit clone https://github.com/al-jshen/fastxmcd fastxmmaturin build --releasepip install target/release/&lt;path to wheel&gt;```### Example usage```pythonfrom fastxm import intersect_1dcatalog_1 = ...catalog_2 = ...match_ix_1, match_ix_2 = intersect_1d(catalog_1['common_id'], catalog_2['common_id'], parallel=True)```### Tests/BenchmarksThis requires `pytest` and `pytest-benchmark`.```bashgit clone https://github.com/al-jshen/fastxmcd fastxmmaturin developpytest```</longdescription>
 </pkgmetadata>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription>Python Module Security Admonition=================================If you are reading this admonition while running pip, I'd like to takethis time to inform you that you just ran arbitrary code from the untrustedinternet (maybe even as root?). The fact that this was so easy is a bit of aproblem.Remember when RubyGems.org got compromised and was down since they weren'tsure whether there were any problems with the gems themselves? That couldhave just as easily been PyPI. Adding SSL to PyPI and certificate checkingto pip were big steps forward, but we need to make shipping and installingmodules securely even easier. I'm not sure whether that means developercertificates or package signing or something else, but we need to find away to run only trusted code. As long as a one character typo can root yourbox, the problem persists.https://github.com/davidfischer/requestes</longdescription>
-</pkgmetadata>

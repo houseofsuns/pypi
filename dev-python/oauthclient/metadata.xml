@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>oauthclient===========Simple OAuth2 client for retrieving and managing tokens.</longdescription>
 </pkgmetadata>

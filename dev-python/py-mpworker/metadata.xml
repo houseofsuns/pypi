@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>![Workflow Status](https://github.com/Ujang360/py-mpworker/workflows/Tests/badge.svg)# Python - Multiprocess WorkerThis a wrapper class for periodic multiprocess worker in Python, currently only support Python 3.6 or above## Install using PyPI```bashpip install py-mpworker```</longdescription>
 </pkgmetadata>

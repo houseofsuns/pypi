@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>An advanced, but easy to use foursquare API client that handles OAuth, automatic retries, and other niceties.For usage, see: http://github.com/mLewisLogic/foursquare</longdescription>
 </pkgmetadata>

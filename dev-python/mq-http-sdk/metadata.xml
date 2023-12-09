@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Provides http interfaces to Aliyun Message Queue(MQ) Service.</longdescription>
 </pkgmetadata>

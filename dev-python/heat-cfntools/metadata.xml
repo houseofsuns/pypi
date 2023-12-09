@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=========================Heat CloudFormation Tools=========================There are several bootstrap methods for cloudformations:1. Create image with application ready to go2. Use cloud-init to run a startup script passed as userdata to the nova   server create3. Use the CloudFormation instance helper scriptsThis package contains files required for choice #3.cfn-init   -             Reads the AWS::CloudFormation::Init for the instance resource,             installs packages, and starts servicescfn-signal -             Waits for an application to be ready before continuing, ie:             supporting the WaitCondition featurecfn-hup    -             Handle updates from the UpdateStack CloudFormation API call* Free software: Apache license* Source: http://git.openstack.org/cgit/openstack/heat-cfntools* Bugs: http://bugs.launchpad.net/heat-cfntoolsRelated projects----------------* http://wiki.openstack.org/Heat</longdescription>
 </pkgmetadata>

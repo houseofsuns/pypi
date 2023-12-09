@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Ansible Modules for Solace PubSub+ Event Brokers SEMP(v2) REST API# DEPRECATEDSee [Solace PubSub+ Ansible Collection](https://galaxy.ansible.com/solace/pubsub_plus) instead.---</longdescription>
 </pkgmetadata>

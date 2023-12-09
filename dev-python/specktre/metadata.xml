@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>specktre========specktre is a tool for generating low-contrast desktop wallpapers fromtiling patterns.Here are some examples of the patterns it produces:.. image:: https://raw.githubusercontent.com/alexwlchan/specktre/development/https://github.com/alexwlchan/specktre/raw/master/output/demo.pngIt can be used as a Python library, or invoked from the command-line.Installation************To install specktre, run:.. code-block:: console   $ pip install specktreUsage*****To see a usage message, just run:.. code-block:: console   $ specktre --helpThere are some examples of specktre used as a script and as a library inthe ``examples`` directory in the `GitHub repo &lt;https://github.com/alexwlchan/specktre&gt;`_.What's in a name?*****************The word &quot;speckled&quot; came to mind when describing this pattern, and I wrotethe first version shortly after the James Bond film *SPECTRE* had beenreleased.License*******``specktre`` is licensed under the MIT License.  For more details, see the``LICENSE`` file in the repository.</longdescription>
 </pkgmetadata>

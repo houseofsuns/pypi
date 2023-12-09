@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Coinoxr - Open Exchange Rates[![Build Status](https://travis-ci.org/luisfmcalado/coinoxr.svg?branch=master)](https://travis-ci.org/luisfmcalado/coinoxr)[![Coverage Status](https://coveralls.io/repos/github/luisfmcalado/coinoxr/badge.svg?branch=master)](https://coveralls.io/github/luisfmcalado/coinoxr?branch=master)Python library for Open Exchange Rates API.## InstallationInstall dependency```bash$ pip install coinoxr```Install dependency from source code```bash$ python setup.py install```### Requirements- Python 3.7+## Usage```pythonimport coinoxrcoinoxr.app_id = &quot;c01ed21da6424fd3b0ac68f9e63a3d29&quot;coinoxr.Latest().get(base=&quot;EUR&quot;)```## DevelopmentRun all the tests for every environment:```bash$ make test```The code can be formatted with black:```bash$ make fmt```</longdescription>
 </pkgmetadata>

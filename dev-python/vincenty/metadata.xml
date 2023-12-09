@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Vincenty========Calculate the geographical distance (in kilometers or miles) between 2 pointswith extreme accuracy.This library implements Vincenty's solution to the inverse geodetic problem. Itis based on the WGS 84 reference ellipsoid and is accurate to within 1 mm (!) orbetter.This formula is widely used in geographic information systems (GIS) and is muchmore accurate than methods for computing the great-circle distance (which assumea spherical Earth).Example: distance between Boston and New York City--------------------------------------------------.. code:: python   &gt;&gt;&gt; from vincenty import vincenty   &gt;&gt;&gt; boston = (42.3541165, -71.0693514)   &gt;&gt;&gt; newyork = (40.7791472, -73.9680804)   &gt;&gt;&gt; vincenty(boston, newyork)   298.396057   &gt;&gt;&gt; vincenty(boston, newyork, miles=True)   185.414657Installation------------.. code:: bash   $ pip install vincentyReferences----------* https://en.wikipedia.org/wiki/Vincenty's_formulae* https://en.wikipedia.org/wiki/World_Geodetic_System</longdescription>
 </pkgmetadata>

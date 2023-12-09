@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Defog is a Python library that helps you generate data queries from natural language questions.</longdescription>
 </pkgmetadata>

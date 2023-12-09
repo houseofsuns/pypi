@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;h1 align=&quot;center&quot;&gt;💾 Store&lt;/h1&gt;This library is a Python implementation of `svelte/store`.## 💻 InstallationThis package is [published to PyPI as `babichjacob-store`](https://pypi.org/project/babichjacob-store/).## 🛠 Usage```pyfrom store import writablemy_store = writable(17)my_store.subscribe(lambda value: print(f&quot;Store value changed to {value}&quot;))my_store.set(23)# readable and derived are also available but I didn't feel like documenting them because this is just for myself```## 😵 Help! I have a questionCreate an issue and I'll try to help.## 😡 Fix! There is something that needs improvementCreate an issue or pull request and I'll try to fix.## 📄 LicenseMIT## 🙏 Attribution_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_</longdescription>
 </pkgmetadata>

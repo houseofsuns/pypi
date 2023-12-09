@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>torch-contrib=============This repository contains reviewed implementations of ideas from recent machine learning papers.Installation============pip:.. code:: bash    pip install torchcontribFrom source:.. code:: bash    python setup.py install</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># message-queueIn a parent directory run```bashpip install mq_sa ```Create interprocess message queue and send ```pythonimport mq_saq=mq_sa.create('myqueue', 100)mq_sa.send(q, 'fo', 'bar', 'baz', 'quux')```Receive like this ```pythonimport mq_saq=mq_sa.open('myqueue')mq_sa.receive(q)('fo', 'bar', 'baz', 'quux')```## Release new versionBump version in `setup.py` and ```rm -rf dist/ &amp;&amp; \python setup.py sdist &amp;&amp; \twine upload dist/* -usmashingalpha -p`cat .env | grep TWINE_PASSWORD | cut -d '=' -f 2- | tr -d '&quot;'````## Boost install directory and Pyenv If boost installed in eg `$HOME/boost` then, why - https://github.com/scikit-build/scikit-build/issues/733```bashexport SKBUILD_CONFIGURE_OPTIONS=&quot;-DBOOST_ROOT=$HOME/boost&quot; &amp;&amp; \pip install mq_sa ```And copy boost python to where Python can find it with its @rpath like this ```bashcp $HOME/boost/lib/libboost_python311.* $HOME/.pyenv/versions/3.11.2/lib```</longdescription>
 </pkgmetadata>

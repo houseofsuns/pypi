@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python Wrapper for the Librato Metrics API: http://dev.librato.com/v1/metrics</longdescription>
 </pkgmetadata>

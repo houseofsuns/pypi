@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># friendly_stylesPygments compatible styles used with [friendly](https://github.com/friendly-traceback/friendly).Two styles are defined: one suitable for black (or very dark) backgroundand another for white (or very pale) background. These styles are defined in such a way that code highlighted by [Rich](https://github.com/willmcgugan/rich) use consistent colours whetherthe code is highlighted by Rich base on some `repr` bypassing Pygmentsor done by Pygments.![Example of highlighting](example.png)</longdescription>
 </pkgmetadata>

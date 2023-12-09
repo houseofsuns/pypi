@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Neutrino Propagator-----**Table of Contents**- [Installation](#installation)- [License](#license)## Installation```consolepip install nupropagator```## License`nupropagator` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=========``aiapy``=========``aiapy`` is a Python package for analyzing data from the Atmospheric Imaging Assembly (AIA) instrument onboard NASA's Solar Dynamics Observatory (SDO) spacecraft.For more information, see the `aiapy documentation &lt;https://aiapy.readthedocs.io/en/latest/&gt;`__.For some examples of using aiapy, see `our gallery &lt;https://aiapy.readthedocs.io/en/latest/generated/gallery/index.html&gt;`__.Citing------If you use ``aiapy`` in your scientific work, we would appreciate you citing it in your publications.The latest citation information can be found in the `documentation &lt;https://aiapy.readthedocs.io/en/latest/about.html&gt;`__, or obtained with ``aiapy.__citation__``.Contributing------------``aiapy`` is open source software, built on top of other open source software, and we'd love to have you contributePlease checkout the `contributing guide &lt;https://aiapy.readthedocs.io/en/latest/develop.html&gt;`__ for more information on how to contribute to aiapy.</longdescription>
 </pkgmetadata>

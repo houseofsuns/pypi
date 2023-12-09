@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>CERC Hub consist of a set of classes (Central data model), importers and exporters to help researchers to create better and more sustainable cities.Developed at Concordia university in Canada as part of the research group from the Next Generation Cities Institute, our aim among others is to provide a comprehensive set of tools to help researchers and urban developers to make decisions to improve the livability and efficiency of our cities</longdescription>
 </pkgmetadata>

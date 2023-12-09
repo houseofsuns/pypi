@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Toyplot is the kid-sized plotting toolkit for Python with grownup-sized goals:  * Develop beautiful plots that embrace the unique capabilities of electronic publishing and support repoducibility.  * Create the best possible data graphics &quot;out-of-the-box&quot;, maximizing data ink and minimizing chartjunk.  * Provide a clean, minimalist interface that scientists and engineers will love.  See the Toyplot documentation at http://toyplot.readthedocs.io, and the Toyplot sources at http://github.com/sandialabs/toyplot</longdescription>
 </pkgmetadata>

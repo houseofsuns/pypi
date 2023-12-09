@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CPI Data ToolsA repository of commonly used tools across CPI## Instructions1. Install:```pip install cpi_tools```AWS Tools```pythonfrom cpi_tools import aws_tools#S3 Bucketbucket = 'YOUR_BUCKET'#Path within S3path = 'PATH_IN_BUCKET'#S3 File name file_name = 'FILE_NAME'#Read file from S3df = aws_tools.read_from_s3(bucket, path, file_name)#Write file to S3aws_tools.write_to_s3(df, bucket, path, file_name)```</longdescription>
 </pkgmetadata>

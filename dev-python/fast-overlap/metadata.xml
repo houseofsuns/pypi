@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Fast OverlapA tiny cython library to calculate the pairwise overlap of all cellmasks between two time points. Created for use in https://github.com/Hekstra-Lab/microutil/## Install```pip install fast-overlap```## Development### Installation```python setup.py build_ext -i```To really remove stuff and build + test:```rm *.so build/ fast_overlap.cpp -rf &amp;&amp; python setup.py build_ext -i &amp;&amp; python test_speedup.py```### On MacYou need to compile python extensions with the same compiler used to compile python. So on mac you should use `clang`. However the apple distributed clang doesn't include openmp so you should either use g++ locally (which seems to work for some reason, but doesn't for built wheels) or use homebrew clang as in the github workflows.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Generate dependencies from Python code, filter, cluster and generate graphsfrom the dependency list.</longdescription>
 </pkgmetadata>

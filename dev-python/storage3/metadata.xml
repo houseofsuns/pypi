@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Storage-pyPython Client library to interact with Supabase Storage.## How to useAs it takes some effort to get the headers. We suggest that you use the storage functionality through the main [Supabase Python Client](https://github.com/supabase-community/supabase-py)```python3from storage3 import create_clienturl = &quot;https://&lt;your_supabase_id&gt;.supabase.co/storage/v1&quot;key = &quot;&lt;your api key&gt;&quot;headers = {&quot;apiKey&quot;: key, &quot;Authorization&quot;: f&quot;Bearer {key}&quot;}# pass in is_async=True to create an async clientstorage_client = create_client(url, headers, is_async=False)storage_client.list_buckets()```### Uploading filesWhen uploading files, make sure to set the correct mimetype by using the `file_options` argument:```pystorage_client.from_(&quot;bucket&quot;).upload(&quot;/folder/file.png&quot;, file_object, {&quot;content-type&quot;: &quot;image/png&quot;})```If no mime type is given, the default `text/plain` will be used.</longdescription>
 </pkgmetadata>

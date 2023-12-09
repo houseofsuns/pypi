@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>    The vManage API exposes the functionality of operations maintaining devices and the overlay network  # noqa: E501    </longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># InPlat application framework&gt; Framework with asyncio based on python.![PyPI](https://img.shields.io/pypi/v/ipapp?style=for-the-badge) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ipapp?style=for-the-badge) ![Read the Docs](https://img.shields.io/readthedocs/ipapp?style=for-the-badge)## DocumentationDocumentation can be found at [readthedocs](https://ipapp.readthedocs.io/ru/latest/).## InstallationUsing pip:```shpip install ipapp```Using poetry:```shpoetry add ipapp```Installation with all dependencies: ```shpoetry add ipapp[fastapi,oracle,postgres,rabbitmq,s3,sftp,dbtm,testing,redis]```## Usage exampleFor examples and usage, please refer to the [examples](examples) folder.## Release HistoryFor release history refer to [release-notes](release-notes.rst).## Contributing1. Fork it2. Create your feature branch (`git checkout -b feature/fooBar`)3. Commit your changes (`git commit -am 'Add some fooBar'`)4. Push to the branch (`git push origin feature/fooBar`)5. Create a new Pull Request</longdescription>
 </pkgmetadata>

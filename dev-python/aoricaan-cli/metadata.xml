@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># aoricaan-cliA cli for manage a project.for use:Recommendation: Create and activate a virtual environment.````commandlinepython -m venv venv````````commandlinesorurce ./venv/Scripts/activateor./venv/Scripts/activate````now you can install the CLI````commandlinepip install aoricaan-cli````for start to work````commandlineapm initpip install -r requirements.txtapm project install````All ready!You can start developing you api.for more information read the readme created within your project.</longdescription>
 </pkgmetadata>

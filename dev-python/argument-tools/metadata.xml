@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># argument_tools is now argluThis package has been renamed. Use `pip install arglu` instead.New package: https://pypi.org/project/arglu/</longdescription>
 </pkgmetadata>

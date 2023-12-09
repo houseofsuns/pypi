@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>dstools=======.. image:: https://travis-ci.org/edublancas/dstools.svg?branch=master    :target: https://travis-ci.org/edublancas/dstools.svg?branch=masterExamples are available in the `examples/` directory</longdescription>
 </pkgmetadata>

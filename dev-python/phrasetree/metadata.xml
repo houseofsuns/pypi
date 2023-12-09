@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The phrase tree module from Natural Language Toolkit (NLTK)Modifications:- Keep phrase tree only- Removed PCFG- Dropped py2 support</longdescription>
 </pkgmetadata>

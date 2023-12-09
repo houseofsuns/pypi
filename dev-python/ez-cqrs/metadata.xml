@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ez-cqrsA lightweight, opinionated framework to write software in a procedural way.</longdescription>
 </pkgmetadata>

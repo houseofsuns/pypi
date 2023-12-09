@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Repository for Hilltop Python tools=============================================================This git repository contains the Hilltop Python tools and associated documentation.Documentation--------------The primary documentation for the package can be found `here &lt;https://hilltop-py.readthedocs.io&gt;`_.</longdescription>
 </pkgmetadata>

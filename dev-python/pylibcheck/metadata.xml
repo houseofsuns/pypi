@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;p align=&quot;center&quot;&gt;  &lt;img src=&quot;https://img.shields.io/pypi/v/PyLibCheck?style=flat-square&quot; &lt;/a&gt;  &lt;img src=&quot;https://img.shields.io/pypi/l/PyLibCheck?style=flat-square&quot; &lt;/a&gt;  &lt;img src=&quot;https://img.shields.io/pypi/dm/pylibcheck?style=flat-square&quot; &lt;/a&gt;  &lt;img src=&quot;https://img.shields.io/github/stars/Rdimo/PyLibCheck?label=Stars&amp;style=flat-square&quot; &lt;/a&gt;  &lt;img src=&quot;https://img.shields.io/github/forks/Rdimo/PyLibCheck?label=Forks&amp;style=flat-square&quot; &lt;/a&gt;&lt;/p&gt;#### PyLibCheck was made byLove ❌ code ✅---### 🎈・Code exampleExample of how you can use [pylibcheck](https://pypi.org/project/pylibcheck/)```pyimport pylibcheck, timeif pylibcheck.checkPackage(&quot;pyinstaller&quot;) == False:    print(&quot;pyinstaller is not installed!&quot;)    time.sleep(1)    print(&quot;installing it for you!&quot;)    pylibcheck.installPackage(&quot;pyinstaller&quot;)```</longdescription>
 </pkgmetadata>

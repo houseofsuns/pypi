@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>awslogs is a simple command line tool to read aws cloudwatch logs.</longdescription>
 </pkgmetadata>

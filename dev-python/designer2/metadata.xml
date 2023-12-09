@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>designer and TMI package for use with brain     diffusion MRI processing. Designer is used for image preprocessing     including denoising, partial-fourier gibbs correction, epi eddy     current and motion, and normalization. TMI is used for dti/dti/wmti/smi    along with outlier correction.</longdescription>
 </pkgmetadata>

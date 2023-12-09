@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>empiricaldist=============Python library that represents empirical distribution functions.To see an example, you can `read thisnotebook &lt;https://nbviewer.jupyter.org/github/AllenDowney/empiricaldist/blob/master/empiricaldist/dist_demo.ipynb&gt;`__or `run it onBinder &lt;https://mybinder.org/v2/gh/AllenDowney/empiricaldist/master?filepath=empiricaldist%2Fdist_demo.ipynb&gt;`__.</longdescription>
 </pkgmetadata>

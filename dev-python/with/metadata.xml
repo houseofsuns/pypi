@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>with====|Build Status| |PyPI version| |Coverage|A shell context managerInstall-------Use `pip`_ (Python 3 only)::    pip3 install withUsage-----Type ``with`` followed to the command you don’t want to repeat, thantype the subcommand. Eg:.. figure:: http://i.imgur.com/P6QzNrl.gif   :alt: with gitType Ctrl-D to quit... _pip: https://pip.pypa.io/en/stable/installing/.. |Build Status| image:: https://travis-ci.org/renanivo/with.svg   :target: https://travis-ci.org/renanivo/with.. |PyPI version| image:: https://badge.fury.io/py/with.svg   :target: https://badge.fury.io/py/with.. |Coverage| image:: https://codecov.io/github/renanivo/with/coverage.svg?branch=master   :target: https://codecov.io/github/renanivo/with?branch=master</longdescription>
 </pkgmetadata>

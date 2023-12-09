@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![](https://codecov.io/gh/nickderobertis/data-code/branch/master/graph/badge.svg)](https://codecov.io/gh/nickderobertis/data-code)# data-code## OverviewData pipelines for humans. Work with variables, sources, and pipelines rather than raw data. Also includes high-level tools to analyze, summarize, and transform data.## Getting StartedInstall `datacode`:```pip install datacode```A simple example:```pythonimport datacode# Do something with datacode```## LinksSee the[documentation here.](https://nickderobertis.github.io/data-code/)## AuthorCreated by Nick DeRobertis. MIT License.</longdescription>
 </pkgmetadata>

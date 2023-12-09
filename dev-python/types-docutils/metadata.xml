@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for docutilsThis is a PEP 561 type stub package for the `docutils` package. Itcan be used by type-checking tools like[mypy](https://github.com/python/mypy/),[pyright](https://github.com/microsoft/pyright),[pytype](https://github.com/google/pytype/),PyCharm, etc. to check code that uses`docutils`. The source for this package can be found athttps://github.com/python/typeshed/tree/main/stubs/docutils. All fixes fortypes and metadata should be contributed there.This stub package is marked as [partial](https://peps.python.org/pep-0561/#partial-stub-packages).If you find that annotations are missing, feel free to contribute and help complete them.See https://github.com/python/typeshed/blob/main/README.md for more details.This package was generated from typeshed commit `7a7dba5e7a000bfbd3e642760e6374e3f5a4d618` and was testedwith mypy 1.4.1, pyright 1.1.320, andpytype 2023.8.14.</longdescription>
 </pkgmetadata>

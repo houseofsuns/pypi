@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Risk Distributions======================.. image:: https://badge.fury.io/py/risk_distributions.svg    :target: https://badge.fury.io/py/risk-distributions.. image:: https://github.com/ihmeuw/risk_distributions/actions/workflows/build.yml/badge.svg?branch=main    :target: https://github.com/ihmeuw/risk_distributions    :alt: Latest Version.. image:: https://readthedocs.org/projects/risk-distributions/badge/?version=latest    :target: https://risk-distributions.readthedocs.io/en/latest/?badge=latest    :alt: Documentation StatusThis library contains various probability distributions, compatible for use with the ``Vivarium`` frameworkYou can install ``risk_distributions`` from PyPI with pip:  ``&gt; pip install risk_distributions``or build it from source with  ``&gt; git clone https://github.com/ihmeuw/risk_distributions.git``  ``&gt; cd risk_distributions``  ``&gt; python setup.py install``</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for futuresThis is a PEP 561 type stub package for the `futures` package.It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check codethat uses `futures`. The source for this package can be found athttps://github.com/python/typeshed/tree/master/stubs/futures. All fixes fortypes and metadata should be contributed there.See https://github.com/python/typeshed/blob/master/README.md for more details.This package was generated from typeshed commit `0e185f40877a614c5ddd87815707cf8153296872`.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># image-utilsimage utilspython setup.py sdist</longdescription>
 </pkgmetadata>

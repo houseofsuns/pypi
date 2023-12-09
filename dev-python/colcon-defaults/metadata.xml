@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>colcon-defaults===============An extension for `colcon-core &lt;https://github.com/colcon/colcon-core&gt;`_ to provide custom default values for the command line arguments from a configuration file.For more information about the format of the configuration file see `colcon.readthedocs.io &lt;http://colcon.readthedocs.io/en/released/user/configuration.html#defaults-yaml&gt;`_.</longdescription>
 </pkgmetadata>

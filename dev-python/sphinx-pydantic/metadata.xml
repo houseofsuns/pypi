@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>sphinx-pydantic===============**Autogenerate documentation from pydantic objects in Sphinx**See the [documentation](https://sphinx-pydantic.readthedocs.io).</longdescription>
 </pkgmetadata>

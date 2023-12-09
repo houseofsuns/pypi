@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># `appnope`Simple package for disabling App Nap on macOS &gt;= 10.9,which can be problematic.To disable App Nap:```pythonimport appnopeappnope.nope()```To reenable, for some reason:```pythonappnope.nap()```or to only disable App Nap for a particular block:```with appnope.nope_scope():    do_important_stuff()```It uses ctypes to wrap a `[NSProcessInfo beginActivityWithOptions]` call to disable App Nap.To install:    pip install appnope</longdescription>
 </pkgmetadata>

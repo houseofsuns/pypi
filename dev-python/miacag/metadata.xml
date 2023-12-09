@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>### install instructions1. install numpy version2. install torch with gpu support3. install requirements.txt</longdescription>
 </pkgmetadata>

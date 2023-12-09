@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># requests-gracedbrequests-gracedb provides a generic REST API client for [GraceDB] and similarLIGO/Virgo API services. It uses the powerful [Requests] package for reliableand high-throughput HTTP connection pooling.[GraceDB]: https://gracedb.ligo.org/[Requests]: http://requests.readthedocs.io/## Notes for software packagingSoftware packaging files exist for the following systems:- RPM: https://git.ligo.org/packaging/rhel/python-requests-gracedb- Debian: https://git.ligo.org/packaging/debian/requests-gracedb- Conda: https://github.com/conda-forge/requests-gracedb-feedstock</longdescription>
 </pkgmetadata>

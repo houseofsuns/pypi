@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This **not** the official git-repo. Official version is hosted on google's Gerrit (see later part of this readme)</longdescription>
 </pkgmetadata>

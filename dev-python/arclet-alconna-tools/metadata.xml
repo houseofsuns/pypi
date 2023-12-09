@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Alconna ToolsProvider various tools for AlconnaExtensions:- `actions`: `exclusion`, `cooldown`, `inclusion`- `checker`: `simple_type`- `constrcut`: ` AlconnaDecorate`, `AlconnaFormat`, `AlconnaString`, `AlconnaFire`- `formatter`: `Shell`, `Markdown`, `RichText`, `RichConsole`- `pattern`: `ObjectPattern`## Example:`AlconnString`:```python#constrcut.pyfrom arclet.alconna.tools import AlconnaStringalc = (    AlconnaString('constrcut')    .option('alpha', '-a')              .option('beta', '-b [beta]')    .option('gamma', '-c &lt;gamma&gt;')    .build())if __name__ == '__main__':    alc()``````shell$ python constrcut.py -a -b -c abc{&quot;alpha&quot;: ..., &quot;beta&quot;: {}, &quot;gamma&quot;: &quot;abc&quot;}```</longdescription>
 </pkgmetadata>

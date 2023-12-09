@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pythonic bindings for git.Those bindings map the object representation of git in a rather low level, andallows editing a repository.</longdescription>
 </pkgmetadata>

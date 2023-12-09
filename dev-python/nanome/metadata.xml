@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># NanomeThis library allows users to create Python plugins for Nanome VR Molecular Design Software (https://nanome.ai/)![gif-1](https://media.giphy.com/media/RfZhOVwyp4GS8tBbNr/giphy-downsized.gif)### ExamplesCheck out our other repositories to see plugin examples ([docking](https://github.com/nanome-ai/plugin-docking), for instance)### InstallationIn order to use Nanome Plugin API, you need Python 3.5+ or 2.7+To install the library, run:```sh$ pip install nanome```As of version 0.38.0, we provide schemas for serializing nanome API objects in JSON. To use these, install with:```sh$ pip install nanome[schemas]```Some modules in the `beta` folder require extra dependencies. To install these, run:```sh$ pip install nanome[beta]```### DocumentationAll documentation needed to use this package is available at [Read The Docs](https://nanome.readthedocs.io/en/latest/)#### Building Docs```shpip install sphinx sphinx_rtd_themecd docmake html# start server to serve html docscd build/htmlpython -m http.server 8000``` ### LicenseMIT</longdescription>
 </pkgmetadata>

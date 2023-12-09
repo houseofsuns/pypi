@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>astcheck========astcheck compares Python Abstract Syntax Trees against a template. This isuseful for testing software that automatically generates or modifies Python code.Installation::    pip install astcheckExample use:.. code:: python    import ast, astcheck    template = ast.Module(body=[        ast.FunctionDef(name='double', args=ast.arguments(args=[ast.arg(arg='a')])),        ast.Assign(value=ast.Call(func=ast.Name(id='double')))    ])    sample = &quot;&quot;&quot;    def double(a):        do_things()        return a*2    b = double(a)    &quot;&quot;&quot;    astcheck.assert_ast_like(ast.parse(sample), template)Only the parts specified in the template are checked. In this example, the codeinside the function, and the assignment target (``b``) could be anything.For more details, see `the documentation &lt;http://astcheck.readthedocs.org/en/latest/index.html&gt;`_.</longdescription>
 </pkgmetadata>

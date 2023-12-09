@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Core package for all CloudShell Shells. This package contains the basic driver interfaces and metadata definitions as well as utilities and helpers created specifically for Shells</longdescription>
 </pkgmetadata>

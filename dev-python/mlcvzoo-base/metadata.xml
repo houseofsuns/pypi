@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MLCVZoo BaseThe MLCVZoo is an SDK for simplifying the usage of various (machine learning driven)computer vision algorithms. The package **mlcvzoo_base** provides the base modulesthat are defining the MLCVZoo API. Furthermore, it includes modules that allow to handleand process the data structures of the MLCVZoo, as well as providing modules forrunning evaluations / calculation of metrics.Further information about the MLCVZoo can be found [here](documentation).## Install`pip install mlcvzoo-base`## Technology stack- Python</longdescription>
 </pkgmetadata>

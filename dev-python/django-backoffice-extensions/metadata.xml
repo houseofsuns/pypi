@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Django Backoffice Extensions============================A set of views, tools and helpers to create a backoffice using Django.</longdescription>
 </pkgmetadata>

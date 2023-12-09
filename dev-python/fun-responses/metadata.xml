@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Fun ResponsesAn API for getting fun responses### How to use:```pythonimport funresponsesprint(funresponses.joke())print(funresponses.topic())print(funresponses.pickup())print(funresponses.roast())print(funresponses.toast())```</longdescription>
 </pkgmetadata>

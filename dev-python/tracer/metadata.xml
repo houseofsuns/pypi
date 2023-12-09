@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Centralized Trace management using sys.settrace.We allow several trace hooks to get registered and unregistered andallow tracing to be turned on and off temporarily without losing thetrace hooks. You can also indicate filters on events for which tracehooks should fire and mark methods that should automatically beignored.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># A basic python replication framework prototype&gt; A simple client/server python objects replication framework ## Dependencies| Dependencies | Version | Needed ||--------------|:-------:|-------:|| ZeroMQ       | latest  |    yes |## Contributing1. Fork it (&lt;https://gitlab.com/yourname/yourproject/fork&gt;)2. Create your feature branch (`git checkout -b feature/fooBar`)3. Commit your changes (`git commit -am 'Add some fooBar'`)4. Push to the branch (`git push origin feature/fooBar`)5. Create a new Pull Request</longdescription>
 </pkgmetadata>

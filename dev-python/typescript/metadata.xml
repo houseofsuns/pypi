@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># TypeScript for Python```virtualenv venvsource venv/bin/activate``````pip install typescript```Import TypeScript for single file usage```import typescriptmyNumber = 0print(type(myNumber))#&lt;class 'int'&gt;```</longdescription>
 </pkgmetadata>

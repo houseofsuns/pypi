@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>robotpy-hal===========Python wrappers around the WPILib HAL.API Documentation can be found athttps://robotpy.readthedocs.io/projects/hal/en/latest</longdescription>
 </pkgmetadata>

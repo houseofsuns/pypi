@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Convert DMS to Decimal.# Usage```from dms2dec.dms_convert import dms2decdms2dec('''36°44'47.69&quot;N''') # converts to decdms2dec('''3° 2'33.53&quot;E''') # converts to dec```</longdescription>
 </pkgmetadata>

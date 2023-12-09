@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python client for Azure Data Lake Gen2 REST APIIt's simple implementation of Data Lake Gen2 REST api. Some of methods still not works properly.## Installation```bashpip3 install pydatalake-gen2```## Usage```pythonfrom azure.datalake.gen2.client import DataLakeGen2Clientclient = DataLakeGen2Client(ACCOUNT_NAME, STORAGE_KEY)# Create fylesystem (aka container)headers = client.create_filesystem('/testfilesystem')# List available filesystems (containers)filesystems = client.list_filesystem()# Get files from containerfiles = client.list_path('testfilesystem', directory=&quot;/optional/folder&quot;)# Create directorypath = client.create_path('testfolder', 'testfolder2', resource='directory')# Rename (move) filefiles = client.rename_file('/testfolder/file1.txt', '/testfolder2/file2.txt')```This is really early version of client. So, please fell free to contribute!</longdescription>
 </pkgmetadata>

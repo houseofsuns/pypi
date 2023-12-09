@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># SQLAlchemy-ORMORM framework for Python. Designed for simplicity, based on [SQLAlchemy](https://www.sqlalchemy.org/).[![coverage report](https://gitlab.com/parob/sqlalchemy-orm/badges/master/coverage.svg)](https://gitlab.com/parob/sqlalchemy-orm/commits/master)[![pipeline status](https://gitlab.com/parob/sqlalchemy-orm/badges/master/pipeline.svg)](https://gitlab.com/parob/sqlalchemy-orm/commits/master)Check out the tests directory for more examples.## Basic Example``` pythonfrom sqlalachemy_orm import Model, DatabaseBase = Model()class Animal(Base):    name: str    age: intdb = Database(&quot;sqlite:///:memory:&quot;) # use an in-memory SQLite databasedb.create(Animal)  # Create the `Animal` table in the databasebea = Animal(name=&quot;bea&quot;, age=5)session = db.session()session.create(bea) # Create a row in the `Animal` tableprint(session.query(Animal).filter(Animal.name == &quot;bea&quot;).one())session.commit() # commit the session to the database`````` text$ python example.py&gt;&gt;&gt; Animal(name='bea', age=5)```</longdescription>
 </pkgmetadata>

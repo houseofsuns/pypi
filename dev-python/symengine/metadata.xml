@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>SymEngine is a standalone fast C++ symbolic manipulation library.Optional thin Python wrappers (SymEngine) allow easy usage from Python andintegration with SymPy and Sage.See https://github.com/symengine/symengine.py for information about Licenseand dependencies of wheels</longdescription>
 </pkgmetadata>

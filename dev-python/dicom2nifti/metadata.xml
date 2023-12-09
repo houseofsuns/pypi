@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>With this package you can convert dicom images to nifti files.There is support for most anatomical CT and MR data.For MR specifically there is support for most 4D data (like DTI and fMRI)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># stauthStreamlit authentication components  ## Installation```pythonpip install stauth```## ExampleClone the repo and launch the example Streamlit page:```consolepoetry run streamlit run example.py```</longdescription>
 </pkgmetadata>

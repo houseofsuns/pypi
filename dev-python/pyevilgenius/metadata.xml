@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pyevilgenius## Asynchronous library to control devices by Evil Genius LabsRequires Python 3.8+ and uses asyncio and aiohttp.```pythonimport asynciofrom pprint import pprintimport aiohttpfrom pyevilgenius import EvilGeniusDeviceHOST = &quot;192.168.1.113&quot;async def main():    async with aiohttp.ClientSession() as session:        await run(session)async def run(websession):    device = pyevilgenius.EvilGeniusDevice(host, websession)    data = await client.get_data()    pprint(device.details)    await device.set_path_value('power', '1')asyncio.run(main())```## Testing locally```bashpython3 example.py &lt;host&gt;```## TimeoutsPyevilgenius does not specify any timeouts for any requests. You will need to specify them in your own code. We recommend the `async_timeout` package:```pythonimport async_timeoutwith async_timeout.timeout(10):    devices = await hub.get_device_list()```## Contribution guidelinesObject hierarchy and property/method names should match the Evil Genius Device APIs.</longdescription>
 </pkgmetadata>

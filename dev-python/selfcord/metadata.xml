@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># selfcordThe best Discord selfbot API wrapper.Enhances discord.py selfbots with new functions.Edit your Discord client settings, account settings and more with code.### Example```pythonimport discordimport selfcordfrom discord.ext import commandsbot = commands.Bot(command_prefix=&quot;.&quot;, self_bot=True)selfcord.login(&quot;TOKEN&quot;)@bot.eventasync def on_ready():    print(&quot;Selfcord Example Selfbot Online.&quot;)    print(&quot;Use the prefix '.' to control the bot&quot;)@bot.command(name=&quot;changetheme&quot;, usage=&quot;[light/dark]&quot;)async def changetheme(ctx, theme):    selfcord.User.setTheme(theme)    selfcord.Messages.sendMessage(f&quot;Changed your Discord client theme to `{theme}`.&quot;, ctx.channel.id)@bot.command(name=&quot;customstatus&quot;, usage=&quot;[text]&quot;)async def customstatus(ctx, *, text):    selfcord.User.setCustomStatus(text)    selfcord.Messages.sendMessage(f&quot;Changed your Discord custom status to `{text}`.&quot;, ctx.channel.id)bot.run(&quot;TOKEN&quot;, bot=False)```</longdescription>
 </pkgmetadata>

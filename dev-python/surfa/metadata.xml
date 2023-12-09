@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Surfa is a collection of Python utilities for medical imageanalysis and mesh-based surface processing. It provides tools that operate on 3D imagearrays and triangular meshes with consideration of their representation in a world (orscanner) coordinate system. While broad in scope, surfa is developed with particularemphasis on neuroimaging applications.</longdescription>
 </pkgmetadata>

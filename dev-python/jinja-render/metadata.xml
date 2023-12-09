@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;a href=&quot;https://www.islas.org.mx/&quot;&gt;&lt;img src=&quot;https://www.islas.org.mx/img/logo.svg&quot; align=&quot;right&quot; width=&quot;256&quot; /&gt;&lt;/a&gt;# Jinja RenderBase functinos to use Jinja2Here we use the `jinja_render` module, as example, from `robinson_code` repo# ExampleThis example is from [muestreo-aves-marinas-ipbc](https://bitbucket.org/IslasGECI/muestreo-aves-marinas-ipbc/src/43dba1b46b492393baa508fbbb73d3ff9ade42be/Makefile#lines-946)``` shtyper jinja_render run \--report-name=&quot;time_series_results_section&quot; \--summary-path=&quot;tests/data/mergulo_punta.json&quot;```</longdescription>
 </pkgmetadata>

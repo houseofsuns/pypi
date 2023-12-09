@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Trattoria-core is a very thin wrapper around the Rust library tttr-toolbox. For a morecomplete experience please look at the Trattoria python library.</longdescription>
 </pkgmetadata>

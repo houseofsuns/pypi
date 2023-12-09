@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Small set of utilities: containers and interfaces.This package provides some utilities that I tend to rely on during development. Since Iuse these in many different projects, I turned this into a repository so that I caneasily sync and keep track of updates. Once the intreface and contents become stable, itwill probably make sense to include these directly along with the original project sothat an additional dependency is not introduced.</longdescription>
 </pkgmetadata>

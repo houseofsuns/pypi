@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>====================rackspace-novaclient====================Metapackage to install python-novaclient and Rackspace extensionsInstall=======::  pip install rackspace-novaclientUsage=====This metapackage will ensure that python-novaclient and these extensionsare installed that are compatible with the Rackspace cloud:- rackspace-auth-openstack- os_diskconfig_python_novaclient_ext- rax_scheduled_images_python_novaclient_ext- os_networksv2_python_novaclient_ext- os_virtual_interfacesv2_python_novaclient_ext- rax_default_network_flags_python_novaclient_ext- ip_associations_python_novaclient_ext</longdescription>
 </pkgmetadata>

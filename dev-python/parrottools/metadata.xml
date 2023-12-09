@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Parrot tools## Modules[Logging](docs/logging.md)## DevelopmentInstall dependencies```bashmake install```Install pre-commit hook to avoid commiting invalid code:```bashmake pre-commit-install```## TestsRun all tests:```bashmake test```</longdescription>
 </pkgmetadata>

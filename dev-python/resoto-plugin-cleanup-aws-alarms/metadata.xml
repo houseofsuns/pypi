@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># resoto-plugin-cleanup-aws-alarmsAWS Cloudwatch Alarms Cleanup Plugin for ResotoThis plugin marks all orphaned AWS CloudWatch Instance Alarms for cleanup.The following resources are currently being marked for cleanup- Instance Alarms## UsageIn `resh` execute```&gt; config edit resoto.worker```and find the following section```plugin_cleanup_aws_alarms:  # Dictionary of key cloud with list of account IDs for which the plugin should be active as value  config:    aws:      - '1234567'      - '567890'  # Enable plugin?  enabled: false```</longdescription>
 </pkgmetadata>

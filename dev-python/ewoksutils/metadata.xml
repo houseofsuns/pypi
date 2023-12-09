@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ewoksutils*ewoksutils* provides utilities for [ewoks](https://ewoks.readthedocs.io/) developers.## Install```bashpip install ewoksutils[test]```## Test```bashpytest --pyargs ewoksutils.tests```## Documentationhttps://ewoksutils.readthedocs.io/</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>==========javasphinx==========javasphinx is an extension to the Sphinx documentation system which adds supportfor documenting Java projects. It includes a Java domain for writingdocumentation manually and a javasphinx-apidoc utility which will automaticallygenerate API documentation from existing Javadoc markup.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This python file handles the communication between Home Assistant and the SolarEdge Portal.</longdescription>
 </pkgmetadata>

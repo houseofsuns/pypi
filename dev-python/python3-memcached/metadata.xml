@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python3 port for pure python memcached client library, ported and beingkept up to date by https://github.com/eguvenPlease report issues and submit code changes to the github repository at:    https://github.com/eguven/python3-memcachedBelow is the original README content.This package was originally written by Evan Martin of Danga.Sean Reifschneider of tummy.com, ltd. has taken over maintenance of it.This software is a 100% Python interface to the memcached memory cachedaemon.  It is the client side software which allows storing values in oneor more, possibly remote, memcached servers.  Search google for memcachedfor more information.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python3 port of the official Net-SNMP Python bindings.Maintainer: Christian Svensson &lt;blue@cmd.nu&gt;Source: https://github.com/bluecmd/python3-netsnmp</longdescription>
 </pkgmetadata>

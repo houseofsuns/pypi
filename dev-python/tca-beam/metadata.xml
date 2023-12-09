@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>TCA-beam, a helper for The Composable Architecture for creating Views and Reducers for new features.https://github.com/alexhunsley/tca-beam</longdescription>
 </pkgmetadata>

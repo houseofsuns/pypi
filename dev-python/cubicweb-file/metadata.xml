@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This cube models `Files` (pdf document, word processor file, screenshots, etc).They are stored in the database and fulltext-indexed when possible.For image files, an adaptor is provided to generate thumbnails (whichare cached in &lt;INSTANCEDIR&gt;/cache/file/thumbnails by default).Please note that this thumbnail generation adaptor is not meant to beconsidered as a &quot;public API&quot; for thumbnail generation. This is just asimple solution waiting for a proper official API to manage suchfeatures as arbitrary content rendering.</longdescription>
 </pkgmetadata>

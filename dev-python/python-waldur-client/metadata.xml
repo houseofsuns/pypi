@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python Waldur ClientPython API client for [backend](https://github.com/waldur/waldur-mastermind) of [Waldur project](https://waldur.com/).## ContributingInstall `pre-commit````bashpip install pre-commitpre-commit install```</longdescription>
 </pkgmetadata>

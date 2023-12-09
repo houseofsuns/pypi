@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. image:: https://travis-ci.org/frdb194/emc.svg?branch=master    :target: https://travis-ci.org/frdb194/emc</longdescription>
 </pkgmetadata>

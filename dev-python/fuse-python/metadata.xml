@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a Python interface to libfuse (https://github.com/libfuse/libfuse),a simple interface for userspace programs to export a virtual filesystem to the Linux kernel</longdescription>
 </pkgmetadata>

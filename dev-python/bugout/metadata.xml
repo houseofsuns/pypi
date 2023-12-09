@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># bugout-pythonPython client library for Bugout API## Setup- Add variables from `sample.env` in you development environment```bashexport BUGOUT_TIMEOUT_SECONDS=5```- Example of usage, just fill `token`, `group_id`, `journal_id` and `entry_id` with proper values from your account. Or remove unnecessary variables and API calls.```pythonfrom bugout.app import Bugoutdef main():    bugout = Bugout()    token = &quot;&quot;    group_id = &quot;&quot;    journal_id = &quot;&quot;    entry_id = &quot;&quot;    user = bugout.get_user(token=token)    print(f&quot;User name is {user.username}&quot;)    group = bugout.get_group(token=token, group_id=group_id)    journal = bugout.get_journal(token=token, journal_id=journal_id)    entry = bugout.get_entry(token=token, journal_id=journal.id, entry_id=entry_id)    search_res = bugout.search(        token=token, journal_id=journal.id, query=&quot;your query&quot;, content=False    )    print(f&quot;Search results: {search_res}&quot;)if __name__ == &quot;__main__&quot;:    main()```</longdescription>
 </pkgmetadata>

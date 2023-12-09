@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!-- Copyright (c) 2021 dciangot This software is released under the MIT License. https://opensource.org/licenses/MIT--&gt;# dask-remote-jobqueueA custom dask remote jobqueue for HTCondor</longdescription>
 </pkgmetadata>

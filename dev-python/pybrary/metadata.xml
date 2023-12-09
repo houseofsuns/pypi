@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pybraryPython Library## AbstractPython tools## Usage    import pybrary## Installation    $ pip install pybrary</longdescription>
 </pkgmetadata>

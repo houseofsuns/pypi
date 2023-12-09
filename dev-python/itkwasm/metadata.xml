@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># itkwasmPython interface to [itk-wasm](https://wasm.itk.org) WebAssembly modules.For more information, see the [project documentation](https://itkwasm.readthedocs.io).## DevelopmentThank you for contributing a pull request!**Welcome to the ITK community!**We are glad you are here and appreciate your contribution. Please keep in mind our [community participation guidelines](https://github.com/InsightSoftwareConsortium/ITK/blob/main/CODE_OF_CONDUCT.md).```git clone https://github.com/InsightSoftwareConsortium/itk-wasmcd itk-wasm/packages/core/python/itkwasmpip install hatchhatch run download-pyodidehatch run test```</longdescription>
 </pkgmetadata>

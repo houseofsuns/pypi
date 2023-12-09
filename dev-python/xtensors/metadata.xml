@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>xtensors############`xtensors` is a named tensor utility library.Installation=============Install with :code:`pip`:.. code-block:: console    pip install xtensorsDocumentation==============Documentaion is available on `&lt;https://xtensors.readthedocs.io/en/latest&gt;`_</longdescription>
 </pkgmetadata>

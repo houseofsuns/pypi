@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pylinkvalidator is a simple crawler that traverses a web sites and reportserrors (e.g., 500 and 404 errors) encountered. The crawler can try to downloadresources like images.</longdescription>
 </pkgmetadata>

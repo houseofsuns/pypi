@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. image:: https://travis-ci.org/amibiz/microschema.svg?branch=develop    :target: https://travis-ci.org/amibiz/microschema.. image:: https://coveralls.io/repos/github/amibiz/microschema/badge.svg    :target: https://coveralls.io/github/amibiz/microschemaMicroSchema-----------Example:    &gt;&gt;&gt; import microschema    &gt;&gt;&gt; schema = {    ...     'username': {'type': str, 'required': True},    ...     'score': {'type': int},    ... }    &gt;&gt;&gt; data = {    ...     'username': 'foobar',    ...     'score': 10000,    ... }    &gt;&gt;&gt; print(microschema.validate(schema, data))Python Compatibility--------------------Python 2.7 and 3.3+ are supported.</longdescription>
 </pkgmetadata>

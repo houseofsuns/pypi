@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Three parts: 1) fluxnet2015 dataset processing; 2) gap-filling; 3) partitioning refferred to Hesseflux please</longdescription>
 </pkgmetadata>

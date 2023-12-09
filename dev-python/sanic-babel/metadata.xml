@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>sanic-babel-----------Adds i18n/l10n support to Sanic applications with the help of the`Babel`_ library.Links`````* `documentation &lt;http://pythonhosted.org/sanic-babel/&gt;`_.. _Babel: http://babel.edgewall.org/</longdescription>
 </pkgmetadata>

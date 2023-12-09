@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># first-python-packageThis package does amazing things.## Installation```shell$ python -m pip install first-python-package```</longdescription>
 </pkgmetadata>

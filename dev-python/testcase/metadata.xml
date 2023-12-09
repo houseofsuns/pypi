@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># testcaseRun tabular unit tests.## SupportIt has been tested with `unittest.TestCase`.Basically it will work with any class that implements:- `assertEqual(x, y)`- `assertRaises(t)` with `__enter__` and `__exit__` handlers for `with`.## Example```pythonimport unittestimport testcasedef foo(x, y):    return x / yclass FooTest(unittest.TestCase):    def test_foo(self):        testcase.runall(self, foo, [            testcase.new(                name='1 / 1 = 1',                args=(1, 1),                expect=1),            testcase.new(                name='raises ZeroDivisionError',                args=(1, 0),                raises=ZeroDivisionError),        ])if __name__ == '__main__':    unittest.main()```</longdescription>
 </pkgmetadata>

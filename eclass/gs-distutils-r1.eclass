@@ -129,6 +129,8 @@ esac
 #
 # - poetry - poetry-core backend
 #
+# - scikit-build-core - scikit-build-core backend
+#
 # - setuptools - distutils or setuptools (incl. legacy mode)
 #
 # - sip - sipbuild backend
@@ -191,6 +193,7 @@ esac
 if [[ -z ${_DISTUTILS_R1_ECLASS} ]]; then
 _DISTUTILS_R1_ECLASS=1
 
+inherit flag-o-matic
 inherit multibuild multilib multiprocessing ninja-utils toolchain-funcs
 
 if [[ ! ${DISTUTILS_SINGLE_IMPL} ]]; then
@@ -207,7 +210,7 @@ _distutils_set_globals() {
 		fi
 
 		bdep='
-			>=dev-python/gpep517-13[${PYTHON_USEDEP}]
+			>=dev-python/gpep517-15[${PYTHON_USEDEP}]
 		'
 		case ${DISTUTILS_USE_PEP517} in
 			flit)
@@ -271,8 +274,7 @@ _distutils_set_globals() {
 				;;
 			setuptools)
 				bdep+='
-					>=dev-python/setuptools-67.7.2[${PYTHON_USEDEP}]
-					>=dev-python/wheel-0.40.0[${PYTHON_USEDEP}]
+					>=dev-python/setuptools-67.8.0-r1[${PYTHON_USEDEP}]
 				'
 				;;
 			sip)
@@ -292,7 +294,7 @@ _distutils_set_globals() {
 			eqawarn "is enabled."
 		fi
 	else
-		local setuptools_dep='>=dev-python/setuptools-67.7.2[${PYTHON_USEDEP}]'
+		local setuptools_dep='>=dev-python/setuptools-67.8.0-r1[${PYTHON_USEDEP}]'
 
 		case ${DISTUTILS_USE_SETUPTOOLS:-bdepend} in
 			no|manual)
@@ -606,18 +608,28 @@ distutils_enable_tests() {
 	esac
 
 	[[ ${#} -eq 1 ]] || die "${FUNCNAME} takes exactly one argument: test-runner"
-	local test_pkg
+
+	local test_deps=${RDEPEND}
+	local test_pkgs
 	case ${1} in
 		nose)
-			test_pkg=">=dev-python/nose-1.3.7_p20221026"
+			test_pkgs='>=dev-python/nose-1.3.7_p20221026[${PYTHON_USEDEP}]'
 			;;
 		pytest)
-			test_pkg=">=dev-python/pytest-7.3.1"
+			test_pkgs='>=dev-python/pytest-7.3.1[${PYTHON_USEDEP}]'
+			if [[ ${EPYTEST_XDIST} ]]; then
+				test_pkgs+=' dev-python/pytest-xdist[${PYTHON_USEDEP}]'
+			fi
 			;;
 		setup.py)
 			;;
 		unittest)
-			# dep handled below
+			# unittest-or-fail is needed in py<3.12
+			test_deps+="
+				$(python_gen_cond_dep '
+					dev-python/unittest-or-fail[${PYTHON_USEDEP}]
+				' 3.10 3.11)
+			"
 			;;
 		*)
 			die "${FUNCNAME}: unsupported argument: ${1}"
@@ -626,22 +638,14 @@ distutils_enable_tests() {
 	_DISTUTILS_TEST_RUNNER=${1}
 	python_test() { gs-distutils-r1_python_test; }
 
-	local test_deps=${RDEPEND}
-	if [[ -n ${test_pkg} ]]; then
+	if [[ -n ${test_pkgs} ]]; then
 		if [[ ! ${DISTUTILS_SINGLE_IMPL} ]]; then
-			test_deps+=" ${test_pkg}[${PYTHON_USEDEP}]"
+			test_deps+=" ${test_pkgs//'${PYTHON_USEDEP}'/${PYTHON_USEDEP}}"
 		else
 			test_deps+=" $(python_gen_cond_dep "
-				${test_pkg}[\${PYTHON_USEDEP}]
+				${test_pkgs}
 			")"
 		fi
-	elif [[ ${1} == unittest ]]; then
-		# unittest-or-fail is needed in py<3.12
-		test_deps+="
-			$(python_gen_cond_dep '
-				dev-python/unittest-or-fail[${PYTHON_USEDEP}]
-			' 3.{9..11})
-		"
 	fi
 	if [[ -n ${test_deps} ]]; then
 		IUSE+=" test"
@@ -1446,6 +1450,7 @@ distutils_pep517_install() {
 	einfo "  Building the wheel for ${PWD#${WORKDIR}/} via ${build_backend}"
 	local cmd=(
 		gpep517 build-wheel
+			--prefix="${EPREFIX}/usr"
 			--backend "${build_backend}"
 			--output-fd 3
 			--wheel-dir "${WHEEL_BUILD_DIR}"
@@ -1463,12 +1468,6 @@ distutils_pep517_install() {
 	[[ -n ${wheel} ]] || die "No wheel name returned"
 
 	distutils_wheel_install "${root}" "${WHEEL_BUILD_DIR}/${wheel}"
-
-	# clean the build tree; otherwise we may end up with PyPy3
-	# extensions duplicated into CPython dists
-	if [[ ${DISTUTILS_USE_PEP517:-setuptools} == setuptools ]]; then
-		rm -rf build || die
-	fi
 }
 
 # @FUNCTION: distutils-r1_python_compile
@@ -1480,9 +1479,6 @@ distutils_pep517_install() {
 #
 # If DISTUTILS_USE_PEP517 is set to any other value, builds a wheel
 # using the PEP517 backend and installs it into ${BUILD_DIR}/install.
-# May additionally call build_ext prior to that when using setuptools
-# and the eclass detects a potential benefit from parallel extension
-# builds.
 #
 # In legacy mode, runs 'esetup.py build'. Any parameters passed to this
 # function will be appended to setup.py invocation, i.e. passed
@@ -1497,40 +1493,21 @@ gs-distutils-r1_python_compile() {
 			# call setup.py build when using setuptools (either via PEP517
 			# or in legacy mode)
 
-			if [[ ${DISTUTILS_USE_PEP517} ]]; then
-				if [[ -d build ]]; then
-					eqawarn "A 'build' directory exists already.  Artifacts from this directory may"
-					eqawarn "be picked up by setuptools when building for another interpreter."
-					eqawarn "Please remove this directory prior to building."
-				fi
-			else
-				_distutils-r1_copy_egg_info
-			fi
-
 			# distutils is parallel-capable since py3.5
 			local jobs=$(makeopts_jobs "${MAKEOPTS} ${*}")
 
 			if [[ ${DISTUTILS_USE_PEP517} ]]; then
-				# issue build_ext only if it looks like we have at least
-				# two source files to build; setuptools is expensive
-				# to start and parallel builds can only benefit us if we're
-				# compiling at least two files
-				#
-				# see extension.py for list of suffixes
-				# .pyx is added for Cython
-				#
-				# esetup.py does not respect SYSROOT, so skip it there
-				if [[ -z ${SYSROOT} && ${DISTUTILS_EXT} && 1 -ne ${jobs}
-					&& 2 -eq $(
-						find '(' -name '*.c' -o -name '*.cc' -o -name '*.cpp' \
-							-o -name '*.cxx' -o -name '*.c++' -o -name '*.m' \
-							-o -name '*.mm' -o -name '*.pyx' ')' -printf '\n' |
-							head -n 2 | wc -l
-					)
-				]]; then
-					esetup.py build_ext -j "${jobs}" "${@}"
-				fi
+				mkdir -p "${BUILD_DIR}" || die
+				local -x DIST_EXTRA_CONFIG="${BUILD_DIR}/extra-setup.cfg"
+				cat > "${DIST_EXTRA_CONFIG}" <<-EOF || die
+					[build]
+					build_base = ${BUILD_DIR}/build
+
+					[build_ext]
+					parallel = ${jobs}
+				EOF
 			else
+				_distutils-r1_copy_egg_info
 				esetup.py build -j "${jobs}" "${@}"
 			fi
 			;;
@@ -1722,7 +1699,7 @@ gs-distutils-r1_python_install() {
 		# python likes to compile any module it sees, which triggers sandbox
 		# failures if some packages haven't compiled their modules yet.
 		addpredict "${EPREFIX}/usr/lib/${EPYTHON}"
-		addpredict "${EPREFIX}/usr/lib/pypy3.9"
+		addpredict "${EPREFIX}/usr/lib/pypy3.10"
 		addpredict "${EPREFIX}/usr/local" # bug 498232
 
 		if [[ ! ${DISTUTILS_SINGLE_IMPL} ]]; then
@@ -1838,6 +1815,15 @@ gs-distutils-r1_run_phase() {
 		# bug fixes from Cython (this works only when setup.py is using
 		# cythonize() but it's better than nothing)
 		local -x CYTHON_FORCE_REGEN=1
+	fi
+
+	# silence warnings when pydevd is loaded on Python 3.11+
+	local -x PYDEVD_DISABLE_FILE_VALIDATION=1
+
+	# Rust extensions are incompatible with C/C++ LTO compiler
+	# see e.g. https://bugs.gentoo.org/910220
+	if has cargo ${INHERITED}; then
+		filter-lto
 	fi
 
 	# How to build Python modules in different worlds...
@@ -1989,7 +1975,7 @@ _distutils-r1_post_python_compile() {
 			die "${rscriptdir} should not exist!"
 		if [[ -d ${bindir} ]]; then
 			mkdir -p "${rscriptdir}" || die
-			cp -a --reflink=auto "${bindir}"/. "${rscriptdir}"/ || die
+			cp -a "${bindir}"/. "${rscriptdir}"/ || die
 		fi
 
 		# enable venv magic inside the install tree

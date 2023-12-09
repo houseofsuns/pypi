@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Scrapeops Python Requests SDK, is a monitoring tool for your Python scraping scripts.</longdescription>
 </pkgmetadata>

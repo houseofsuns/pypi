@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Easy to use Pythonic circuit breaker for Python 3, supporting distributed environment setup, Django, and more</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>cfnv1a======fnv1a non-cryptographic hash function for python written in c.Examples:```pythonfrom cfnv1a import fnv1aprint(fnv1a(&quot;Hello&quot;))# 7201466553693376363print(fnv1a(&quot;Hello&quot;, prime=7, offset=1))# 9972599733547454827```</longdescription>
 </pkgmetadata>

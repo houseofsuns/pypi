@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># python-slapd [![Documentation Status](https://readthedocs.org/projects/slapd/badge/?version=latest)](https://slapd.readthedocs.io/en/latest/?badge=latest)Controls your OpenLDAP process in a pythonic way.```pip install slapd``````python&gt;&gt;&gt; import slapd&gt;&gt;&gt; process = slapd.Slapd()&gt;&gt;&gt; process.start()&gt;&gt;&gt; process.init_tree()&gt;&gt;&gt; process.ldapwhoami().stdout.decode(&quot;utf-8&quot;)'dn:cn=manager,dc=slapd-test,dc=python-ldap,dc=org\n'&gt;&gt;&gt; process.stop()```# TroubleshootingOn distributions like Ubuntu, apparmor may restrict *slapd* to access some files that*python-slapd* has generated. This situation can be solved by passing slapd in complain mode:```bashsudo apt install --yes apparmor-utilssudo aa-complain /usr/sbin/slapd```</longdescription>
 </pkgmetadata>

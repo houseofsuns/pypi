@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Localization of django URLs with appending language prefix to it.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PysparkRPC |teststatus|========================.. |teststatus| image:: https://github.com/abronte/PysparkRPC/workflows/Tests/badge.svgSeamlessly run Pyspark code on remote clusters.</longdescription>
 </pkgmetadata>

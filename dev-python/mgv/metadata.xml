@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Mangrove is a simple tool to help you to manage your projects.It's has been thought to be used by every one, from scholar teams to private companies, with or without any technical skills.With a clean and intuitive interface, users create, open, connect or version data easilywithout any knowledge of the nomenclatures and the data structure.Based on a nodal interface, you plug pre-scripted nodes by your own TDs or the community to create and manage your files.Originaly created for 3d post production ease, it's widely open and can be used for a non limited type of projects.</longdescription>
 </pkgmetadata>

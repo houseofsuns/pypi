@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>sphinxcontrib-pecanwsme=======================Extension to Sphinx for documenting APIs built with Pecan and WSME</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>IOTileCore----------A python package for interacting with IOTile based devices.  See https://www.arch-iot.com.</longdescription>
 </pkgmetadata>

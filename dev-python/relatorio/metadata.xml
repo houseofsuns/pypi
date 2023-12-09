@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Relatorio=========Relatorio is a templating library which provides a way to easily output severalkinds of files (odt, ods, png, svg, ...). Support for more filetypes canbe easily added by creating plugins for them.Relatorio also provides a report repository allowing you to link python objectsand report together, find reports by mimetype/name/python object.Documenation============The documenation is provided at http://relatorio.readthedocs.org/</longdescription>
 </pkgmetadata>

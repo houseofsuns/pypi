@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>`Kolibri &lt;https://learningequality.org/kolibri/&gt;`_ is the offline learning platformfrom `Learning Equality &lt;https://learningequality.org/&gt;`_.This package can be installed by running ``pip install --user kolibri``. `See the downloadpage &lt;https://learningequality.org/download/&gt;`_ for other methods of installation.- `View the documentation &lt;https://kolibri.readthedocs.io/&gt;`_ and the `community  forums &lt;https://community.learningequality.org/&gt;`_ for more guidance on setting up  and using Kolibri- Visit the `Github project &lt;https://github.com/learningequality/kolibri&gt;`_ and the  `developer documentation &lt;https://kolibri-dev.readthedocs.io/&gt;`_ if you would like  to contribute to development</longdescription>
 </pkgmetadata>

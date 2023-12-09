@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A library for automatically creating DynamoDB tables from CSV files and, optionally, automatically populating those tables. The populate_table function handles floats/decimals, NaN, missing values, and create a unique Id for each row to use as a key.</longdescription>
 </pkgmetadata>

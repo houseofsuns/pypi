@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Screen_CLS&lt;img src=&quot;https://igorman2005.github.io/images/screen_cls.jpg&quot; alt=&quot;screen_cls&quot;&gt;Python script for clearing screen for any OS's: Windows, MAC, Linux## Setuphttps://pypi.org/project/screen-cls/**pip install screen-cls**## Example1:```import screen_clsscreen_cls.cls()```## Example2:```from screen_cls import *cls()```### Documentationhttps://best-itpro.ru/news/screen_cls/</longdescription>
 </pkgmetadata>

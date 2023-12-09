@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package implements the classifier proposed in the paper [Text Classification with Born's Rule](https://proceedings.neurips.cc/paper_files/paper/2022/hash/c88d0c9bea6230b518ce71268c8e49e0-Abstract-Conference.html). All code is available at the [GitHub repository](https://github.com/eguidotti/bornrule). The documentation is available [here](https://bornrule.eguidotti.com).</longdescription>
 </pkgmetadata>

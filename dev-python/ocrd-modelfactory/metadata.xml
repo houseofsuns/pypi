@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ocrd_modelfactory&gt; OCR-D framework - wrappers to create ocrd_model instancesSee also: https://github.com/OCR-D/core</longdescription>
 </pkgmetadata>

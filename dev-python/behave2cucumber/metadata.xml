@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This project helps solving the incompatibilty of Behave's genereated json reports to tools using Cucumber json reports. Its done by reformatting the Behave json to Cucumber json.</longdescription>
 </pkgmetadata>

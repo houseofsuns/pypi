@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A simple implementation of Physically-Based Rendering (PBR) in Python. Compliant with the glTF 2.0 standard.</longdescription>
 </pkgmetadata>

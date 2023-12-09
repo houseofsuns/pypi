@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Peach CI Generic Integration Runner===================================This module provides generic integration with CI systems by running acommand that returns non-zero when testing did not pass.The vast majority of CI systems support this method of integration.If a specific integration is offered for your CI system that ispreferred over this generic integration.To use, update the configuration at top of python file andconfigure your CI system to run.See User Guide -&gt; CI Integration for additional informationabout using and configuring the generic CI integration runner.Installation------------Install required python dependencies with internet connection.$ pip install -r requirements.txtOffline Installation--------------------Install required python dependencies using our offline dependenciesfolder.$ pip install --no-index --find-links ../../deps -r requirements.txt</longdescription>
 </pkgmetadata>

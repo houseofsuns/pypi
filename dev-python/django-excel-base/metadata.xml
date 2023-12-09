@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># django-excel-baseDjango Excel Base## Installation```shellpip install django-excel-base```## Usage```pythonfrom django_excel_base import as_csv, as_dict_row_merge_xls, as_list_row_merge_xls, as_row_merge_xls, as_xls```</longdescription>
 </pkgmetadata>

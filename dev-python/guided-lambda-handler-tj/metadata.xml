@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>guided lambda handlerthis module houses shared code used to run lambda functions in a more focused mannerfirst time stuff:pip install wheelpip install twineuse python3 setup.py sdist bdist_wheel to make new versionthen remove old whl and tar filesthen use ```python3 -m twine upload --repository testpypi dist/*``` to reuploadthen, in the project the library is to be used in, dopip uninstall &lt;name&gt;pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple &lt;name&gt;to get the latestonce the dependency is solidified, you don't have to use test.pypi, so instead, the above becomes:use python3 setup.py sdist bdist_wheel to make new versionthen remove old whl and tar filesthen use ```python3 -m twine upload dist/*``` to reuploadthen, in the project the library is to be used in, dopip uninstall &lt;name&gt;pip install &lt;name&gt;to get the latestDon't forget to save the dependency snapshot in this and the other package!pip freeze &gt; requirements.txt</longdescription>
 </pkgmetadata>

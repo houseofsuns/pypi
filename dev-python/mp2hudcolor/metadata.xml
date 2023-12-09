@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># mp2hudcolorSets a user-defined HUD color for Metroid Prime 2: Echoes. Values are stored as R/G/B where values are 0.0 to 1.0.Build instructions all are written for Linux, but should adapt fine for Windows.# Usage## Python Module```sh&gt; pip install mp2hudcolor&gt; python&gt;&gt;&gt; import mp2hudcolor&gt;&gt;&gt; mp2hudcolor.mp2hudcolor_c(&quot;Standard.ntwk&quot;, &quot;Standard-out.ntwk&quot;, 1.0, 0.5, 0.25) # (input, output, red, green, blue)```## Standalone```sh# mp2hudcolor &lt;input&gt; &lt;output&gt; &lt;red&gt; &lt;green&gt; &lt;blue&gt;mp2hudcolor Standard.ntwk Standard-out.ntwk 1.0 0.5 0.25```# Build## Python```tools/venv.shtools/build-cython.sh```## Standalone```shtools/build-standalone.sh```</longdescription>
 </pkgmetadata>

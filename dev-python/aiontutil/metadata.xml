@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># aiontutilAIONT utility package## InstallMethod 1:```bashpip install aiontutil```Method 2:```bashgit clone git@github.com:aiont-joelan/aiontutil.gitcd aiontutil/make buildcd dist/pip install aiontutil-x.y.z-py3-none-any.whl```## Testing```bashmake test```</longdescription>
 </pkgmetadata>

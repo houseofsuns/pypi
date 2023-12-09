@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>About-----A feature-packed Python package and vector storage file format for utilizing vector embeddings in machine learning models in a fast, efficient, and simple manner developed by `Plasticity &lt;https://www.plasticity.ai/&gt;`_. It is primarily intended to be a faster alternative to `Gensim &lt;https://radimrehurek.com/gensim/&gt;`_, but can be used as a generic key-vector store for domains outside NLP.Documentation-------------You can see the full documentation and README at the `GitLab repository &lt;https://gitlab.com/Plasticity/magnitude&gt;`_ or the `GitHub repository &lt;https://github.com/plasticityai/magnitude&gt;`_.</longdescription>
 </pkgmetadata>

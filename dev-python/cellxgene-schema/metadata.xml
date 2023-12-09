@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Tool for applying and validating cellxgene integration schema to single cell datasets</longdescription>
 </pkgmetadata>

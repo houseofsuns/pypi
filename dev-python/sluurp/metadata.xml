@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># sluurpsluurp is a package to launch shell script through slurm SBATCH command</longdescription>
 </pkgmetadata>

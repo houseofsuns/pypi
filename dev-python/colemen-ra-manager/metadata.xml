@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Refactoring the ra9 project manager into its own library</longdescription>
 </pkgmetadata>

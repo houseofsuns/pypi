@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Tests](https://github.com/gillenbrown/betterplotlib/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/gillenbrown/betterplotlib/actions/workflows/tests.yaml)[![Coverage Status](https://coveralls.io/repos/github/gillenbrown/betterplotlib/badge.svg?branch=master)](https://coveralls.io/github/gillenbrown/betterplotlib?branch=master)# betterplotlibSome tools to help me make nicer plotsDocumentation is here: http://betterplotlib.readthedocs.org/</longdescription>
 </pkgmetadata>

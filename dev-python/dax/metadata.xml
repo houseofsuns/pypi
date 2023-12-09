@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>========================================================DAX: Distributed Automation for XNAT========================================================*DAX*, is a python package developed at Vanderbilt University, Nashville, TN,USA. It's available on github at: https://github.com/VUIIS/dax.XNAT provides a flexible imaging informatics software platform toorganize and manage imaging data.*DAX*, an open-source initiative under the umbrella of Vanderbilt UniversityInstitute of Imaging Science (VUIIS), is a Python project that provides auniform interface to run pipelines on a cluster by grabbing data from a XNATdatabase via RESTApi Calls.*DAX* allows you to:* extract information from XNAT via scripts (bin/Xnat_tools/Xnat...)* create pipelines (spiders/processors) to run pipelines on your data* build a project on XNAT with pipelines (assessors)* launch pipelines on your cluster and upload results back to xnat* interact with XNAT via python using commands in XnatUtils.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python interface to the Mesos Marathon REST API.</longdescription>
 </pkgmetadata>

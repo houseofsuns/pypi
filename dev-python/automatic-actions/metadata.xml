@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># automate-actionsautomatic update on release for pip and docker image</longdescription>
 </pkgmetadata>

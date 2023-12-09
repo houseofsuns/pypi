@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># jsw-bio&gt; Jsw for biography.## installation```shellpip install jsw-bio -U```## usage```pythonimport jsw_bio as bio## common methods# get fasta/genbank urlbio.url('7EU9_A', 'fasta')bio.url('7EU9_A', 'gb')bio.ncbi_download_accids(term='cas12') # ['VEJ66715.1', 'SUY72866.1', 'SUY81473.1', ...```</longdescription>
 </pkgmetadata>

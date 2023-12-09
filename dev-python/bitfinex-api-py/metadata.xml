@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A Python reference implementation of the Bitfinex API for both REST and websocket interaction</longdescription>
 </pkgmetadata>

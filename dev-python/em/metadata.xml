@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Em--Em is a terminal tool that prints FILE(s), or standard input to standardoutput and highlights the expressions that are matched the PATTERN.The expression will be highlighted iff the terminal is ANSI-compatible.Em is Cool``````````.. code:: bash    $ tail -f /path/to/log | em &quot;DEBUG|INFO&quot; -f green | em &quot;WARN&quot;Links`````* `documentation &lt;http://em.readthedocs.org/&gt;`_* `source code &lt;https://github.com/ikalnitsky/em&gt;`_</longdescription>
 </pkgmetadata>

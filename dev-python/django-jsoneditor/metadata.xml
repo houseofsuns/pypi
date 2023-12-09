@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Django-JSONEditor===================Django-JSONEditor is an online structured JSON input widget for Django appropriate for various JSONField's provided for Django.Code of the javascript JSONEditor online editor has been got from the http://jsoneditoronline.org/.See the latest versions of the javascript online JSON Editor here: https://github.com/josdejong/jsoneditorSample views:.. image:: https://raw.github.com/josdejong/jsoneditor/master/misc/jsoneditor.pngInstallation------------Latest version from the GIT repository::    pip install &quot;git+git://github.com/nnseva/django-jsoneditor.git&quot;Stable version from the PyPi repository::    pip install django-jsoneditorSee all details on https://github.com/nnseva/django-jsoneditor</longdescription>
 </pkgmetadata>

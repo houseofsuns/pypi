@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># koji-fedoramessaging messagesA schema package for [koji-fedoramessaging](http://github.com/fedora-infra/koji-fedoramessaging).See the [detailed documentation](https://fedora-messaging.readthedocs.io/en/latest/messages.html) on packaging your schemas.</longdescription>
 </pkgmetadata>

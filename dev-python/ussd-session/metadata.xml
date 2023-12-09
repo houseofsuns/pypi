@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>USSD Session============USSD session app for Django.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Summary-------This module reports the Unicode properties of codepoints, beyond what Python's ``unicodedata`` module provides.Unicode-------This module supports Unicode 14.0.0.Examples--------  .. sourcecode:: python    &gt;&gt;&gt; import uniprop    &gt;&gt;&gt; uniprop.script('A')    'Latin'    &gt;&gt;&gt; uniprop.script('\N{GREEK SMALL LETTER ALPHA}')    'Greek'    &gt;&gt;&gt; uniprop.block('A')    'Basic_Latin'    &gt;&gt;&gt; uniprop.block('\N{GREEK SMALL LETTER ALPHA}')    'Greek_And_Coptic'    &gt;&gt;&gt; uniprop.numeric_value('\N{VULGAR FRACTION ONE THIRD}')    '1/3'    &gt;&gt;&gt; uniprop.numeric_value('A')    'NaN'    &gt;&gt;&gt; uniprop.numeric_type('\N{VULGAR FRACTION ONE THIRD}')    'Numeric'    &gt;&gt;&gt; uniprop.numeric_type('A')    'None'Please note that all of the results are strings. This differs from the ``unicodedata`` module where ``numeric_value`` returns a float.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Automation==========Automation is a Django-specific implementation of Fabric that providesautomation for server and git repository tasks.:copyright: (c) 2013 by Dustin Farris:license: BSD, see LICENSE for more details</longdescription>
 </pkgmetadata>

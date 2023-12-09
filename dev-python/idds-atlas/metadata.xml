@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>idds-atlas====idds-atlas subpackage is for CERN ATLAS specific functions and plugins.With it, iDDS can support CERN ATLAS workflows.</longdescription>
 </pkgmetadata>

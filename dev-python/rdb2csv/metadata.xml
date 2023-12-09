@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>rdb to csvThis is a tool to convert rdb to csv. rdb is the output file format by redis (http://redis.io/).Use redis-rdb-tools (https://github.com/sripathikrishnan/redis-rdb-tools) for parsing rdb fileProgressredis-Strings(http://redis.io/commands#string) and redis-Hashes (http://redis.io/commands#hash) have been implemented.</longdescription>
 </pkgmetadata>

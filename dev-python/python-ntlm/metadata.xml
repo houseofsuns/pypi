@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package allows Python clients running on any operatingsystem to provide NTLM authentication to a supporting server.python-ntlm is probably most useful on platforms that are notWindows, since on Windows it is possible to take advantage ofplatform-specific NTLM support.This is also useful for passing hashes to servers requiringntlm authentication in instances where using windows tools is not desirable.</longdescription>
 </pkgmetadata>

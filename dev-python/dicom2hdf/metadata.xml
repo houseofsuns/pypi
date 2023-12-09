@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># dicom2hdf is now deliaThis package has been renamed. Use `pip install delia` instead.New package: https://pypi.org/project/delia/</longdescription>
 </pkgmetadata>

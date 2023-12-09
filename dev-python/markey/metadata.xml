@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Markey |build-status|=====================Markup parser framework... |build-status| image:: https://travis-ci.org/EnTeQuAk/markey.svg?branch=master   :target: https://travis-ci.org/EnTeQuAk/markeyChangelog=========0.8 - 2016-06-15---------------- * Remove `interpolate` keyword (kosmos342) * Add argument type information (louyihua)0.7 - 2015-08-28---------------- * Fix release0.6 - 2015-08-28---------------- * Fixed removing some trailing symbols (#1, thanks kosmos342!)0.5 - 2014-12-24---------------- * Force parsing to be unicode everywhere0.4 - 2014-05-25---------------- * Fixed Python 2/3 compatibility0.3 - 2014-05-25----------------* Rename markey.handlebars to markey.underscore. This actually is  what the module implements.0.2 - 2014-05-17----------------* Fix release builds.0.1 - 2014-05-17----------------* Initial release.</longdescription>
 </pkgmetadata>

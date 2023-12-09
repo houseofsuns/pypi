@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># BioBricks&lt;!-- badges: start --&gt;[![codecov](https://codecov.io/gh/biobricks-ai/biobricks/branch/master/graph/badge.svg?token=J041MF0JKG)](https://codecov.io/gh/biobricks-ai/biobricks)&lt;!-- badges: end --&gt;BioBricks makes loading data from biological datasets easy.```bashpip install biobricks```# initializeTo get started configure biobricks with a path for bricks and a biobricks.ai token:```biobricks configure&gt; Choose path to store bricks: &lt;input a local path&gt;&gt; Input a token from biobricks.ai/token: &lt;this is your access token&gt;```# Install and Use BricksTo install a brick the command line command:```sh&gt; biobricks install tox21```You can then use the brick in python as below:```pythonimport biobricks as bbbb.assets('tox21') # get the paths for the 'tox21' brick```To list the bricks currently available visit [github.com/biobricks-ai](https://github.com/biobricks-ai)</longdescription>
 </pkgmetadata>

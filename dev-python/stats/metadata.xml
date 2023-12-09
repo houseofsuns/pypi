@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Statistical functions---------------------stats is a pure-Python module providing basic statistics functions similarto those found on scientific calculators. It has over 40 statistics functions,including:Univariate statistics:  * arithmetic, harmonic, geometric and quadratic means  * median, mode, midrange, trimean  * mean of angular quantities  * running and weighted averages  * quartiles, hinges and quantiles  * variance and standard deviation (sample and population)  * average deviation and median average deviation (MAD)  * skew and kurtosis  * standard error of the meanMultivariate statistics:  * Pearson's correlation coefficient  * Q-correlation coefficient  * covariance (sample and population)  * linear regression  * sums Sxx, Syy and Sxyand others.Requires Python 3.1 or better.</longdescription>
 </pkgmetadata>

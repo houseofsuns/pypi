@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># sphinxext-linkcheckdiff[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)Sphinx Extension to run diff-only linkchecks## Installation`python -m pip install git+https://github.com/wpilibsuite/sphinxext-linkcheckdiff`## UsageAdd `sphinxext.linkcheckdiff` to your extensions list in your `conf.py````pythonextensions = [   sphinxext.linkcheckdiff,]```## OptionsThese values are placed in the conf.py of your sphinx project.* `linkcheckdiff_branch`    * Required. The branch to diff against.Note: linkcheckdiff is an extension of the linkcheck builder that ships with Sphinx. linkcheckdiff respects all of linkcheck's configuration options.## Example Config```pythonlinkcheckdiff_branch = &quot;master&quot;```</longdescription>
 </pkgmetadata>

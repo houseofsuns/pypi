@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># wiperf_pollerThis is the core python module for the wiperf utility. Please see the main wiperf repo for usage details: https://github.com/wifinigel/wiperf# ContributionsPlease, get in touch before starting work on any code you'd like to submit as a PR. I love feedback and ideas, but each new feature costs me more cycles to support. Let's agree it can be included before submitting.# DeveloperNigel Bowden (WifiNigel): https://twitter.com/wifinigel</longdescription>
 </pkgmetadata>

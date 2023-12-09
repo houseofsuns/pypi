@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>###############Currency Module###############The *Currency Module* defines the basics needed to work with currencies inTryton including a list of standard currencies.It is also possible to define the rates used to convert amounts betweendifferent currencies.</longdescription>
 </pkgmetadata>

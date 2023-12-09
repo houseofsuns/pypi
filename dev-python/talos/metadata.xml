@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Talos radically changes the ordinary deep learning workflow byfully automating hyperparameter tuning and model evaluation.Talos supports Tensorflow and Pytorch.Talos exposes backend functionality entirely and there is no new syntax or templates to learn.</longdescription>
 </pkgmetadata>

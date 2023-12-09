@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry ASGI Instrumentation==================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-asgi.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-asgi/This library provides a ASGI middleware that can be used on any ASGI framework(such as Django, Starlette, FastAPI or Quart) to track requests timing through OpenTelemetry.Installation------------::    pip install opentelemetry-instrumentation-asgiReferences----------* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
 </pkgmetadata>

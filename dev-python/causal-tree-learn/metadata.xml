@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CTLChristopher Tran, Elena Zheleva, [&quot;Learning Triggers for Heterogeneous Treatment Effects&quot;, AAAI 2019.](https://arxiv.org/pdf/1902.00087.pdf)Our method is based on and adapted from: https://github.com/susanathey/causalTree## Requirements* Python 3* sklearn* scipy* graphviz (if you want to plot the tree)## Installationthrough pip```bashpip install causal_tree_learn```or clone the repository```bashpython setup.py build_ext --inplace```## Demo CodeTwo demo codes are available to run.```bashpython binary_example.py```Runs the tree on a binary example (asthma.txt)```bashpython trigger_example.py```Runs a tree on a trigger problem where the treatment is continuous (note for now the example is made up and treatment does not affect outcome, this is only to show example code)</longdescription>
 </pkgmetadata>

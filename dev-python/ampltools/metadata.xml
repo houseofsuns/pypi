@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># AMPL Python ToolsThis package includes tools to use with [AMPL](https://ampl.com) and [amplpy](https://amplpy.readthedocs.io).## Links* GitHub Repository: https://github.com/ampl/amplpy/* PyPI Repository: https://pypi.python.org/pypi/ampltools</longdescription>
 </pkgmetadata>

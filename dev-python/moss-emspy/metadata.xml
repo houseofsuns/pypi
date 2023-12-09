@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MOSS emspy## DescriptionThis is the Python SDK to interact with [M.O.S.S. Computer Grafik Systeme GmbH](https://www.moss.de/wega/) WEGA-EMS## InstallationThis package kann be installed using pip```shellpython -m pip install moss_emspy```## Usage```pythonmy_service = Service(&quot;http://localhost:8080/wega-ems/&quot;,            username=&quot;Test&quot;,            password=&quot;Test&quot;)my_service.projects```</longdescription>
 </pkgmetadata>

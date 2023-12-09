@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ngql_gen## 1. 介绍ngql_gen 是一个用于生成 nebula graph 的 ngql 语句的工具。</longdescription>
 </pkgmetadata>

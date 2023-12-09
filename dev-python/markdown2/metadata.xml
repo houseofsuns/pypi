@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>markdown2: A fast and complete Python implementation of Markdown.Markdown is a text-to-HTML filter; it translates an easy-to-read /easy-to-write structured text format into HTML.  Markdown's textformat is most similar to that of plain text email, and supportsfeatures such as headers, *emphasis*, code blocks, blockquotes, andlinks.  -- http://daringfireball.net/projects/markdown/This is a fast and complete Python implementation of the Markdownspec. See http://github.com/trentm/python-markdown2 for more info.</longdescription>
 </pkgmetadata>

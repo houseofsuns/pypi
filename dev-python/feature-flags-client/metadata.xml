@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Feature Flags Backend Clientpip install feature_flags_client```from flags_be_client import FeatureFlagClientff = FeatureFlagClient()def is_flag_enabled(optional_identifier):    return ff.is_enabled(&quot;exact_flag_name&quot;, optional_identifier)```## Creating a new releaseUpdate the version in pyproject.toml and create a new tag with that version number and push it,this will trigger the release.yml GitHub Action.</longdescription>
 </pkgmetadata>

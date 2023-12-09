@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Boring Avatarsboringavatars is a Python port of the &lt;a href=&quot;https://www.npmjs.com/package/boring-avatars&quot;&gt;boring-avatars&lt;/a&gt; JS library.![Build Status](https://github.com/federicobond/boringavatars/actions/workflows/python-package.yml/badge.svg?branch=main)[![Supported Versions](https://img.shields.io/pypi/pyversions/boringavatars.svg)](https://pypi.python.org/pypi/boringavatars)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)## Install```pip install boringavatars```## Usage```pythonfrom boringavatars import avatar# returns the string corresponding to the generated SVGavatar(    &quot;Maria Mitchell&quot;,    variant=&quot;marble&quot;,    colors=[&quot;92A1C6&quot;, &quot;146A7C&quot;, &quot;F0AB3D&quot;, &quot;C271B4&quot;, &quot;C20D90&quot;],    title=False,    size=40,    square=True,)```## LicenseMIT</longdescription>
 </pkgmetadata>

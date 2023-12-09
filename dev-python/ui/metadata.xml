@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>ui=='ui' is a simple menu-driven user interface for the terminal. It is awork in progress, and this readme will be updated when the package ismore stable.</longdescription>
 </pkgmetadata>

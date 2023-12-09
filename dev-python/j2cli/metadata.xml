@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>j2cli - Jinja2 Command-Line Tool================================`j2cli` is a command-line tool for templating in shell-scripts,leveraging the [Jinja2](http://jinja.pocoo.org/docs/) library.Features:* Jinja2 templating* INI, YAML, JSON data sources supported* Allows the use of environment variables in templates! Hello [Docker](http://www.docker.com/) :)Inspired by [mattrobenolt/jinja2-cli](https://github.com/mattrobenolt/jinja2-cli)</longdescription>
 </pkgmetadata>

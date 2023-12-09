@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Библиотека-обёртка для работы с http api SelectelПока что реализован только функционал для взаимодействия с DNSПодробнее [по ссылке](https://developers.selectel.ru/docs/cloud-services/dns_api/)</longdescription>
 </pkgmetadata>

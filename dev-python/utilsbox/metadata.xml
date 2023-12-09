@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package contains module named utils.py which contains useful functions and classes.</longdescription>
 </pkgmetadata>

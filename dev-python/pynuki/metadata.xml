@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pynuki![PyPI](https://img.shields.io/pypi/v/pynuki)![PyPI - Downloads](https://img.shields.io/pypi/dm/pynuki)![PyPI - License](https://img.shields.io/pypi/l/pynuki)[![CI](https://github.com/pschmitt/pynuki/workflows/CI/badge.svg)](https://github.com/pschmitt/pynuki/actions?query=workflow%3A%22CI%22)Python library for interacting with Nuki locks and openers## Installation```bashpip install -U pynuki```## Usage```pythonfrom pynuki import NukiBridgebridges = NukiBridge.discover()br = bridges[0]br.token = &quot;YOUR_TOKEN&quot;# Locksbr.locks[0].lock()br.locks[0].unlock()# Openersbr.openers[0].activate_rto()br.openers[0].deactivate_rto()```</longdescription>
 </pkgmetadata>

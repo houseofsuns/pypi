@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pytest_yamlThis plugin is used to load yaml output to your test using pytest framework.## How to install```bashpip install pytest_yaml```## How to use#### Example code```yamlparam: &quot;value&quot;``````pythondef test_hello(yaml_content):    assert yaml_content['param'] == 'value', 'your message'```#### Command line```bashpytest ./tests/sample/ --yaml-file ./yaml/sample.yml```</longdescription>
 </pkgmetadata>

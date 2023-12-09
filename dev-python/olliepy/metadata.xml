@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># OlliePy - An alternative approach for data science&gt; **OlliePy** is a python package which can help data scientists in&gt; exploring their data and evaluating and analysing their machine learning experiments by&gt; utilising the power and structure of modern web applications. &gt; The data scientist only needs to provide the data and any required &gt; information and OlliePy will generate the rest.## &lt;br/&gt;DocumentationGet started by following the [guide](https://ahmed-mohamed-sn.github.io/olliePy/)### Installation`pip install -U olliepy`</longdescription>
 </pkgmetadata>

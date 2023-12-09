@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>食用前准备the preparation before use the module1.下载并安装python及pip1.download and install python and pip2.(1).Win+R and input &quot;cmd&quot;2.(2).Enter3.input &quot;pip install lichenggong&quot; and Enter3.wait for a little mins4.create new file &quot;anything.py&quot;5.(1).input &quot;import lichenggong&quot; and Enter in the file5.(2).input &quot;lichenggong.start()&quot; and Enter in the file6.run the filepython download by www.python.org/download</longdescription>
 </pkgmetadata>

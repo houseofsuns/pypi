@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>使用老版本:pip install zqpy==0.1.48 使用新版本:pip install zqpy 新老版本区别在于：最前面位 0（老版本）1（新版本）</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=======SQLSoup=======SQLSoup provides a convenient way to map Python objectsto relational database tables, with no declarative codeof any kind.   It's built on top of the`SQLAlchemy &lt;http://www.sqlalchemy.org&gt;`_ ORM and provides asuper-minimalistic interface to an existing database.Usage is as simple as::    import sqlsoup    db = sqlsoup.SQLSoup(&quot;postgresql://scott:tiger@localhost/test&quot;)    for user in db.users.all():        print &quot;user:&quot;, user.name    db.users.filter_by(name=&quot;ed&quot;).update({&quot;name&quot;:&quot;jack&quot;})    db.commit()Included for many years as an extension to SQLAlchemy itself, SQLSouphas been broken out into it's own project as of 2012.   The community is encouragedto collaborate on Bitbucket with patches and features.Documentation and status of SQLSoup is at http://readthedocs.org/docs/sqlsoup/.</longdescription>
 </pkgmetadata>

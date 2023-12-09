@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>CFFI====Foreign Function Interface for Python calling C code.Please see the `Documentation &lt;http://cffi.readthedocs.org/&gt;`_.Contact-------`Mailing list &lt;https://groups.google.com/forum/#!forum/python-cffi&gt;`_</longdescription>
 </pkgmetadata>

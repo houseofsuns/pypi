@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>``getlino`` is a command-line tool for installing Lino in different environments.Note: If you **just want to install** Lino, then this documentation tree is**not for you**. You want to read the `Hosting Guide&lt;https://hosting.lino-framework.org/&gt;`__  or the `Developer Guide&lt;https://dev.lino-framework.org/&gt;`__ instead. This documentation tree is forpeople who want to help with developing the tool that you use to install Lino.- Project homepage: https://gitlab.com/lino-framework/getlino- Documentation:  https://getlino.lino-framework.org/  (mirrored at https://lino-framework.gitlab.io/getlino/)    </longdescription>
 </pkgmetadata>

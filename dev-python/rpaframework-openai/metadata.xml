@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>rpaframework-openai===================This library enables OpenAI Services for `RPA Framework`_libraries... _RPA Framework: https://rpaframework.org</longdescription>
 </pkgmetadata>

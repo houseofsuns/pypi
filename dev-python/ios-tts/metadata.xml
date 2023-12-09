@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ios_ttsUse ios native tts engine to pack as a pyttsx3 driver for ios device</longdescription>
 </pkgmetadata>

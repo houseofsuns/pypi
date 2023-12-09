@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>strings=============Python strings for humans.Usage:.. code-block:: python    &gt;&gt;&gt; from strings import string    &gt;&gt;&gt; s = string(&quot;Hello, World&quot;)    &gt;&gt;&gt; s    'Hello, World'    &gt;&gt;&gt; s.len()    12    &gt;&gt;&gt; s.length    12    &gt;&gt;&gt; s.size    12    &gt;&gt;&gt; s + &quot;, What?&quot;    Traceback (most recent call last):      File &quot;strings.py&quot;, line 27, in &lt;module&gt;        x = s.add(&quot;, world&quot;)      File &quot;strings.py&quot;, line 20, in add        return self + string(value)      File &quot;strings.py&quot;, line 23, in __add__        raise NotImplementedError(&quot;Use add instead&quot;)    NotImplementedError: Use add instead    &gt;&gt;&gt; s.add(&quot;, What?&quot;)    'Hello, World, What?'    Background-----------Inspired by an April Fool's Day joke.</longdescription>
 </pkgmetadata>

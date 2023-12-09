@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>``dynamic-pybloom`` is a fork of the popular https://travis-ci.org/jaybaird/python-bloomfilter repo modulethat includes a Bloom Filter data structure, an implementation of the Scalable Bloom Filter[1] anda new implementation of the Dynamic Bloom Filter[2].</longdescription>
 </pkgmetadata>

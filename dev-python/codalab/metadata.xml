@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Visit https://worksheets.codalab.org/ or setup your own server by following the instructions in the documentation (https://codalab-worksheets.readthedocs.io/en/latest/Server-Setup).</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Belle2 Track Segment Finder SimulationA simulation framework to develop, visualize and test new track segment finder algorithms.</longdescription>
 </pkgmetadata>

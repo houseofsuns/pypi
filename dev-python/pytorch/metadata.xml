@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>You tried to install &quot;pytorch&quot;. The package named for PyTorch is &quot;torch&quot;</longdescription>
 </pkgmetadata>

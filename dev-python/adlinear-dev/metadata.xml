@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># AdLinearUtility functions to manipulate data matricesWrapper classes around sklearn.PCA (Scikit-Learn), nmtf.NMF and nmtf.NTF (Paul Fogel)</longdescription>
 </pkgmetadata>

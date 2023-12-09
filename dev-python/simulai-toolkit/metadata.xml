@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>SimulAI=======The SimulAI toolkit is a Python package that provides data-driven pipelinesfor physics-informed machine learning.</longdescription>
 </pkgmetadata>

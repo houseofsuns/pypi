@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pyudkThis library provides Udwadia Kalaba constrained parameters and force quantities for Python 3 out of the box. The usage is mostly based on numpy and sympy library.## InstallationJust run    pip install pyudk## Usage### Basic usageThe simplest usage would be    import pyudk as udk    Qc = udk.ideal_Constraint_force(m, q, A, b)</longdescription>
 </pkgmetadata>

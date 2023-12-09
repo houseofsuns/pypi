@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># djutils## Tools for use within the django frameworkdjutils provides tools for common actions within the django framework.It includes tools for:- Administration interface- Cryptographics- Database interaction- Exceptions- HTTP Handling- IP-Address handling- Mixins for Classes## InstallationUse the python package manager pip to install djutils.```bashpip install djutils```## UsageJust an example how you could use the exceptions_to_http decorator.Each method defined in djutils has a small documentation with it.```pythonfrom djutils import http, exceptions@http.exceptions_to_http(exceptions.Error)def my_route(request):    if request.POST:        raise exceptions.Error(&quot;POST is not allowed&quot;, code=&quot;no_post&quot;, status_code=403)    return &quot;Hello World&quot;```## LicenseGNU LGPLv2.1, see LICENSE## MaintainerThis package is maintained by Manuel Stingl.</longdescription>
 </pkgmetadata>

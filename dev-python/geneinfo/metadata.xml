@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># geneinfoFunctions using mygene to show gene summaries and gene annotation plots in Jupyter# install conda install -c conda-forge -c bioconda -c kaspermunch geneinfo </longdescription>
 </pkgmetadata>

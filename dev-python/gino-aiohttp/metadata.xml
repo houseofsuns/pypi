@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># gino-aiohttp[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7579f869992a4b618e115731821e43ee)](https://www.codacy.com/gh/python-gino/gino-aiohttp?utm_source=github.com&amp;amp;utm_medium=referral&amp;amp;utm_content=python-gino/gino-aiohttp&amp;amp;utm_campaign=Badge_Grade)## IntroductionAn extension for GINO to support aiohttp.web server.## UsageThe common usage looks like this:```pythonfrom aiohttp import webfrom gino.ext.aiohttp import Ginodb = Gino()app = web.Application(middlewares=[db])db.init_app(app)```</longdescription>
 </pkgmetadata>

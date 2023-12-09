@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a dummy package managed by the developers of acryl-datahub to prevent name squatting and ensure that folks who run `pip install datahub` end up with the right package. We recommend using `acryl-datahub &lt;https://pypi.org/project/acryl-datahub/&gt;`_ instead.</longdescription>
 </pkgmetadata>

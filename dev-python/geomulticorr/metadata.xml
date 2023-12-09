@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># GeoMultiCorrA python lib to study earth-surface displacements from optical images with Ames Stereo Pipeline# RequirementsUnix OSAmes Stereo Pipelinetelenvigeocubetqdm...(to complete)## GitHub repohttps://github.com/rgdyn-toolbox/GeoMultiCorr</longdescription>
 </pkgmetadata>

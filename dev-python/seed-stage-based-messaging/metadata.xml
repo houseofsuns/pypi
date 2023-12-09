@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>==========================Seed Stage-Based Messaging==========================The Seed Stage-Based Messaging Store is one of the microservices in the SeedStack.The Stage-Based Messaging Store has the following key responsibilities:- Store the stage-based content (both audio and text).- Store the stage-based content schedules.- Store the stage-based content subscriptions for each user.This uses the django cache framework to provide locking for the processing ofsubscriptions, so please ensure that the `REDIS_URL` setting is set.</longdescription>
 </pkgmetadata>

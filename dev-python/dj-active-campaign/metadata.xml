@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># dj-active-campaign## OverviewThis project is intened to help django developers integrate ActiveCampaing's API endpoints to their django solution.This project is still under development and currently only supports adding Custom Fields and Contacts.</longdescription>
 </pkgmetadata>

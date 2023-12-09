@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>vosk_autosrt is a COMMAND LINE UTILLITY for automatic speech recognition and subtitle generation using  Vosk API. It takes video or audio files as input, convert them to temporary wav files then performs an  offline voice recognition, generate transcriptions, and optionally translates them to different languageand finally save the resulting subtitles to disk.It supports 21 input languages but can translate up to 134 languages and can produce subtitles currentlyin SRT, VTT, JSON, and RAW format.</longdescription>
 </pkgmetadata>

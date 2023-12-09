@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># DESCRIPTIONfor making main.py files with just pyinf in your cmdpyinsertfile have to option pypi, none or anything elsepypi option will make a package setup for you pypi packagenone or anything else option will generate main.pyleave it nothing to generate main.py# USAGE - pyinf  - mode# EXAMPLEScmd: pyinfmode: [(pypi): pypi package setup, (none, clear, anything else): main.py file] : --- at here enter the mode ---.for example pypi mode.package name: -- enter package name --.for example pyinsertfileTutorial.author name: -- enter your name --.for example author.finished now you have your package example you should fill it as your own.# FIXES fixed must of bugs this is stable version# CONTACT mirzaeiariya88@gmail.com</longdescription>
 </pkgmetadata>

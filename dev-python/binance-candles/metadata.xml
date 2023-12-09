@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Binance CandlesProvides python generator for crypto currency candles via Binance Socket API## CandlesGenerator example```pythonfrom binance_candles import candles_generator# 1 min candles generator for symbol BTCUSDTfor candles in candles_generator(symbols=[&quot;BTCUSDT&quot;], interval=60):    print(&quot;,&quot;.join(map(str, candles)))```</longdescription>
 </pkgmetadata>

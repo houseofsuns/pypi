@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pycomplianceA simply library to represent compliance benchmarks as tree structures.```pythonfrom pycompliance import pycompliancebenchmark = pycompliance.Benchmark(&quot;CIS Red Hat OpenShift Container Platform&quot;)benchmark.version = &quot;1.3.0&quot;section = pycompliance.Section(&quot;1&quot;)section.title = &quot;Control Plane Components&quot;benchmark.add_section(section)subsection = pycompliance.Section(&quot;1.1&quot;)subsection.title = &quot;Master Node Configuration Files&quot;benchmark.add_section(subsection)control = pycompliance.Control(&quot;1.1.1&quot;)control.title = &quot;Ensure foobar permissions&quot;benchmark.add_control(control)print(benchmark.find('1.1.1').title)```Outputs:```consoleEnsure foobar permissions```</longdescription>
 </pkgmetadata>

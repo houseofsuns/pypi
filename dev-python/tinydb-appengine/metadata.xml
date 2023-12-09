@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># tinydb-appengine__tinydb-appengine__ provides TinyDB storage for App Engine. You can use JSON readonly.## Installation```bash$ pip install tinydb-appengine```## Usage```pythonfrom tinydb import TinyDBfrom tinydb_appengine.storages import EphemeralJSONStoragedb = TinyDB('your_data.json', storage=EphemeralJSONStorage)```</longdescription>
 </pkgmetadata>

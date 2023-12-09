@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>codebox - Python tools collection.-----------------------------------------Installation==================.. code-block:: bash    pip install codeboxDocumentation=============https://wils0ns.github.io/codebox/</longdescription>
 </pkgmetadata>

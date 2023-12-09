@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pynagioscheck is a Python framework for Nagios plug-in developers.pynagioscheck strives to conform to the practices described in theNagios Plug-in Development Guidelines and, more importantly, savevaluable system administrator time.</longdescription>
 </pkgmetadata>

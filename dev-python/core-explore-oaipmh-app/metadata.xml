@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=======================Core Explore Oaipmh App=======================OAI-PMH exploration functions for curator core project.Quick start===========1. Add &quot;core_explore_oaipmh_app&quot; to your INSTALLED_APPS setting---------------------------------------------------------------.. code:: python    INSTALLED_APPS = [      ...      'core_explore_oaipmh_app',    ]2. Add &quot;core_explore_oaipmh_app&quot; to your DATA_SOURCES_EXPLORE_APPS setting--------------------------------------------------------------------------.. code:: python    DATA_SOURCES_EXPLORE_APPS = [        'core_explore_oaipmh_app',    ]3. Include the core_explore_oaipmh_app URLconf in your project urls.py----------------------------------------------------------------------.. code:: python        url(r'^oaipmh_search/', include(&quot;core_explore_oaipmh_app.urls&quot;)),</longdescription>
 </pkgmetadata>

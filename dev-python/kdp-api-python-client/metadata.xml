@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>    The KDP API is a REST API that can be used to create, access, and update data in KDP Workspaces. Please note that the Python client library follows Python&amp;#39;s naming convention of snake casing for fields, even though they may appear in camel case in the API specification. &amp;lt;p&amp;gt;&amp;lt;b&amp;gt;By default this api documentation targets the koverse production server at &amp;#39;api.app.koverse.com&amp;#39; You can provide the hostname of your koverse instance to this documentation page via the &amp;#39;host&amp;#39; query param.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;b&amp;gt;For example providing host - https://documentation.koverse.com/api?host&amp;#x3D;api.myHost.com, will update requests to target the provided host.&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Authentication request example with provided host - https://api.myHost.com/authentication&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt;  # noqa: E501    </longdescription>
 </pkgmetadata>

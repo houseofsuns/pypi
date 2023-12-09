@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The Plivo Python SDK makes it simpler to integrate communications into yourPython applications using the Plivo REST API. Using the SDK, you will be ableto make voice calls, send SMS and generate Plivo XML to control your call flows.See https://github.com/plivo/plivo-python for more information.</longdescription>
 </pkgmetadata>

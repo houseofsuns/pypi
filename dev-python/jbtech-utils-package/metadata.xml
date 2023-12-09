@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># utils_packagesUtilities and controllers that I like to use among several projects implemented via pypi package#### data_controllerAll postgres controlled logic and scripts#### py_utilsRecyclable utilities</longdescription>
 </pkgmetadata>

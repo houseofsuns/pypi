@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry Database API instrumentation==========================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-dbapi.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-dbapi/Installation------------::    pip install opentelemetry-instrumentation-dbapiReferences----------* `OpenTelemetry Database API Instrumentation &lt;https://opentelemetry-python-contrib.readthedocs.io/en/latest/instrumentation/dbapi/dbapi.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
 </pkgmetadata>

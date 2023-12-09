@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Base ShopBase Shop is a lightweight Django app that provides an extendable data model to be used in online shops.&gt; Base Shop is currently in early stages of development and is likely to radically change without notice.As online shops have many differing needs and requirements a single data model does not offer a sound solution. The philosophy of _Base Shop_ is to provide a solid infrastructure that can extended for the needs of any online shop using Django.Base Shop provides a collection of &quot;base&quot; models that are intended to be extended by end users of the package, or used as is. The primary models provided include &quot;BaseProduct&quot;, &quot;BaseOrder&quot;, &quot;BaseCheckoutDetails&quot; along with more concrete models designed to interact seamlessly with user extended versions of the previously mentioned models.</longdescription>
 </pkgmetadata>

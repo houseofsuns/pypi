@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>mds-account-primanota=====================Tryton module to add a primanota-view.Install=======pip install mds-account-primanotaRequires========- Tryton 6.8Changes=======*6.8.7 - 27.06.2023*- updt: field 'origin_party' --&gt; 'origin_parties'*6.8.6 - 27.06.2023*- add: fields - move, move_parties, origin_party*6.8.5 - 19.06.2023*- init</longdescription>
 </pkgmetadata>

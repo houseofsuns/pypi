@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># TrialBotA lightweight framework for training networks in pytorch.</longdescription>
 </pkgmetadata>

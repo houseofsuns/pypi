@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package allows Python clients running on any operating      system to provide NTLM authentication to a supporting server.</longdescription>
 </pkgmetadata>

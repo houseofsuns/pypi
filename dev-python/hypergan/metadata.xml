@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>HyperGAN is an AI framework for building Generative Adversarial Networks. There are examples for building classifiers, content generators, sequence generation, and aligning two datasets. Check out the github for more information.</longdescription>
 </pkgmetadata>

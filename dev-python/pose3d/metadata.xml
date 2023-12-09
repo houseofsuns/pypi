@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Pose3D - Position and Orientation Python LibraryHandling 2D and 3D poses as well as transformations between reference frames.## DocumentationVisit page: &lt;https://johnhal.gitlab.io/pose3d_python&gt;## Installing LibraryThis ibrary is freely available at the Python Package Index. You can install the latest version onto your machine with the following command:``` bashpip install pose3d --upgrade```</longdescription>
 </pkgmetadata>

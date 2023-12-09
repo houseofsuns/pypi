@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a dummy implementation of a module for the standard library ofPycopy project (https://github.com/pfalcon/pycopy).It contains zero or very little functionality, and primarily intended toavoid import errors (using idea that even if an application imports amodule, it may be not using it onevery code path, so may work at leastpartially). It is expected that more complete implementation of the modulewill be provided later. Please help with the development if you areinterested in this module.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Description-----------Parses iCalendar and vCard files into Python data structures, decoding therelevant encodings. Also serializes vobject data structures to iCalendar, vCard,or (experimentally) hCalendar unicode strings.Requirements------------Requires python 2.7 or later, dateutil 2.4.0 or later.Recent changes--------------    - Revert too-strict serialization of timestamp values - broke too many other       implementationsFor older changes, see   - http://eventable.github.io/vobject/#release-history or   - http://vobject.skyhouseconsulting.com/history.html</longdescription>
 </pkgmetadata>

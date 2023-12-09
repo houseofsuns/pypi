@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=====================django-feature-policy=====================django-feature-policy is now `django-permissions-policy &lt;https://pypi.org/project/django-permissions-policy/&gt;`__.This package is now solely a shim to pull in the new name, and can be safely swapped for just ``django-permissions-policy`` in your dependencies.</longdescription>
 </pkgmetadata>

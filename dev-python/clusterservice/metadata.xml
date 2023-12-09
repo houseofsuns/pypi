@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># clusterserviceClusters comments given seed questions.This model uses TensorFlow and PyTorch.Supporting Bitbucket Pipelines and GitHub Actions for CI/CD-based model deployment.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Experimental SQLAlchemy type stubs and mypy pluginThis package contains type stubs and mypy plugin to provide more precisestatic types and type inference for SQLAlchemy framework. SQLAlchemy usesdynamic Python features that are hard to understand by static type checkers,this is why the plugin is needed in addition to type stubs.Currently, some basic use cases like inferring model field types are supported.The final goal is to be able to get precise types for most common patterns.## Installation```pip install sqlalchemy-stubs```Important: you need to enable the plugin in your mypy config file:```[mypy]plugins = sqlmypy```</longdescription>
 </pkgmetadata>

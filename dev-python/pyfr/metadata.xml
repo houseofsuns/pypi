@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PyFR is an open-source Python based framework forsolving advection-diffusion type problems on streaming architecturesusing the Flux Reconstruction approach of Huynh. The framework isdesigned to solve a range of governing systems on mixed unstructuredgrids containing various element types. It is also designed to target arange of hardware platforms via use of an in-built domain specificlanguage derived from the Mako templating engine.</longdescription>
 </pkgmetadata>

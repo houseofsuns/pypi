@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for termcolorThis is a PEP 561 type stub package for the `termcolor` package. Itcan be used by type-checking tools like[mypy](https://github.com/python/mypy/),[pyright](https://github.com/microsoft/pyright),[pytype](https://github.com/google/pytype/),PyCharm, etc. to check code that uses`termcolor`. The source for this package can be found athttps://github.com/python/typeshed/tree/main/stubs/termcolor. All fixes fortypes and metadata should be contributed there.*Note:* The `termcolor` package includes type annotations or type stubssince version 2.0.0. Please uninstall the `types-termcolor`package if you use this or a newer version.See https://github.com/python/typeshed/blob/main/README.md for more details.This package was generated from typeshed commit `72456da2a3546044508828dc9075fa25cbdb3645`.</longdescription>
 </pkgmetadata>

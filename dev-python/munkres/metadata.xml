@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Introduction============The Munkres module provides an implementation of the Munkres algorithm(also called the Hungarian algorithm or the Kuhn-Munkres algorithm),useful for solving the Assignment Problem.For complete usage documentation, see: https://software.clapper.org/munkres/</longdescription>
 </pkgmetadata>

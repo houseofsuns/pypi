@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Catsup----------------.. image:: https://travis-ci.org/whtsky/Catsup.png?branch=master        :target: https://travis-ci.org/whtsky/Catsup.. image:: https://coveralls.io/repos/whtsky/catsup/badge.png?branch=master        :target: https://coveralls.io/r/whtsky/catsup?branch=masterCatsup is a lightweight static website generator which aims to be simple and elegant.Documentation is available at RTFD: https://catsup.readthedocs.org/en/v0.3.11/Quick Start===============First, install Catsup via pip ::    $ pip install catsupThen, create a new Catsup site ::    $ mkdir site    $ cd site    $ catsup initEdit the config file ::    vim config.jsonWrite some posts ::    $ vim posts/hello-world.md    $ cat posts/hello-world.md    # Hello World    - tags: hello world, catsup    - time: 2013-08-30 12:00    ---    Hello, World!Build your site and deploy ::    catsup build &amp;&amp; catsup deployFor more information, please read the document: https://catsup.readthedocs.org/en/v0.3.11/</longdescription>
 </pkgmetadata>

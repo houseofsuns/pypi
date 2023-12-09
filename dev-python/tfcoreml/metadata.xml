@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. -*- mode: rst -*-tfcoreml========:code:`tfcoreml` is a python package for converting TensorFlow 1 graphs to the Core ML .mlmodel format when deployment target is either iOS12 or earlier.Source code is available on Github: `tf-coreml &lt;https://github.com/tf-coreml/tf-coreml&gt;`_.Installation------------The method for installing :code:`tfcoreml` follows the`standard python package installation steps &lt;https://packaging.python.org/installing/&gt;`_.Once you have set up a python environment, run::    pip install tfcoreml --upgradeMore Information----------------- `tf-coreml GitHub repository &lt;https://github.com/tf-coreml/tf-coreml&gt;`_- `Core ML framework documentation &lt;http://developer.apple.com/documentation/coreml&gt;`_- `coremltools documentation &lt;https://coremltools.readme.io/docs&gt;`_- `Machine Learning at Apple &lt;https://developer.apple.com/machine-learning&gt;`_- `TensorFlow &lt;https://www.tensorflow.org&gt;`_License-------[Apache License 2.0](LICENSE)</longdescription>
 </pkgmetadata>

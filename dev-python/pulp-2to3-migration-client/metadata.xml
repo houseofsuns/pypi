@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Fetch, Upload, Organize, and Distribute Software Packages  # noqa: E501</longdescription>
 </pkgmetadata>

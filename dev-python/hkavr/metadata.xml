@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Library for controlling a Harman Kardon AVR</longdescription>
 </pkgmetadata>

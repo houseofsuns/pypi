@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package creates a quaternion type in python, and further enables numpy tocreate and manipulate arrays of quaternions.  The usual algebraic operations(addition and multiplication) are available, along with numerous propertieslike norm and various types of distance measures between two quaternions.There are also additional functions like &quot;squad&quot; and &quot;slerp&quot; interpolation, andconversions to and from axis-angle, matrix, and Euler-angle representations ofrotations.  The core of the code is written in C for speed.</longdescription>
 </pkgmetadata>

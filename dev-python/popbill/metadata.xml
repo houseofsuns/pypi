@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Popbill API SDK. Consist of Taxinvice Service. http://www.popbill.com</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## logs2graphs### A python library for extraction of graph data from logs #### Supported datasets:- NOVA- HDFS- BGL#### Authors: - Stefan Andonov- Viktor Jovev- Aleksandar Kitanovski- Aleksandar Krstevski</longdescription>
 </pkgmetadata>

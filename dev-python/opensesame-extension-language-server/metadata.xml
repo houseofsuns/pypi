@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Language-server extension for OpenSesame and RapunzelCopyright 2020-2023 Sebastiaan Mathôt (@smathot)## AboutThis extension adds language-server-protocol (LSP) support to Rapunzel (a code editor based on OpenSesame) and OpenSesame. The Language Server protocol is used between a tool (the client) and a language smartness provider (the server) to integrate features like auto complete, go to definition, find all references and alike into the tool- OpenSesame: &lt;https://osdoc.cogsci.nl/&gt;- Rapunzel: &lt;https://rapunzel.cogsci.nl/&gt;- Language servers: &lt;https://langserver.org/&gt;## Dependencies- Required: [pyqode.language_server](https://github.com/open-cogsci/pyqode.language_server)- Optional: See [this page](https://rapunzel.cogsci.nl/manual/language-server) for a list of supported language servers## LicenseThis software is distributed under the terms of the GNU General Public License 3. The full license should be included in the file COPYING, or can be obtained from:- &lt;http://www.gnu.org/licenses/gpl.txt&gt;</longdescription>
 </pkgmetadata>

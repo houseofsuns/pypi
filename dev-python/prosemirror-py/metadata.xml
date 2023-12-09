@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># prosemirror-py is now prosemirrorThis package has been renamed. Use `pip install prosemirror` instead.New package: https://pypi.org/project/prosemirror/</longdescription>
 </pkgmetadata>

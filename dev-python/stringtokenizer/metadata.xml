@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>**This project is a python implementation of the StringTokenizer class present in java**__How to import ?__from stringtokenizer import StringTokenizer__How to declare object?__s1=StringTokenizer(st)--&gt;uses default delimeter sets2=StringTokenizer(st,delim)--&gt;uses provided delim set. Uses each character present in provided delim string as delimeterss3=StringTokenizer(st,delim,retdelim)--&gt;same as no. 2 but returns delim as tokens depending on True/False of retdelim__Functions Contained and how to use?__s1=StringTokenizer(st)s1.countTokens()--&gt;returns number of tokens left to parses1.hasMoreTokens()--&gt;returns True/False depending on wheather any more tokens are left to parses1.nextToken()--&gt;returns next Tokens1.nextToken(delim)--&gt;returns next token based on the provided delim and updates the previously provided delim with the new ones**made by Tanmay Mandal**for any query please mail on tanmay.mandal@zohomail.in</longdescription>
 </pkgmetadata>

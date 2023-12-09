@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>marketo-python is a python query client that wraps the Marketo SOAP API.For sending data to Marketo, check out https://segment.io.</longdescription>
 </pkgmetadata>

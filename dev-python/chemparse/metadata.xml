@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># chemparseA lightweight package for parsing chemical formula strings into python dictionaries. ## Features* Convert a chemical formula string into a python dictionary.    - example: `&quot;CH4&quot;` returns `{&quot;C&quot;:1.0, &quot;H&quot;:4.0}`* Handles fractional stoichiometry.    - example: `&quot;C1.5O3&quot;` returns `{&quot;C&quot;:1.5, &quot;O&quot;:3.0}`    - example: `&quot;H2e-1O1e-1&quot;` returns `{&quot;H&quot;:0.2, &quot;O&quot;:0.1}`* Handles groups with parentheses.    - example: `&quot;(CH3)2(CH2)4&quot;` returns `{&quot;C&quot;:6.0, &quot;H&quot;:14.0}`    - Note: chemparse currently only handles non-nested paretheses. A formula with nested parentheses like `&quot;CH3(C2(CH3)2)3CH3&quot;` will not work properly.## InstallationInstall `chemparse` with pip:```$ pip install chemparse```## UsageImport chemparse in python and use the parse_formula function:```import chemparseprint(chemparse.parse_formula(&quot;C6H12O6&quot;))```</longdescription>
 </pkgmetadata>

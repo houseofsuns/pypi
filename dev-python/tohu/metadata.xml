@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![PyPI version](https://badge.fury.io/py/tohu.svg)](https://badge.fury.io/py/tohu) [![CircleCI](https://circleci.com/gh/maxalbert/tohu.svg?style=shield)](https://circleci.com/gh/maxalbert/tohu)&lt;img src=&quot;./docs/img/logo.png&quot; alt=&quot;Tohu Logo&quot; width=&quot;70px&quot;&gt;tohu: Your friendly synthetic data generator============================================Overview--------TODOGet it now----------```bash$ pip install tohu```Documentation-------------Full documentation is available at https://maxalbert.github.io/tohu/Requirements------------- Python &gt;= 3.6Tohu requires Python 3.6 or greater. There is no intention to support earlier versions.License-------See [LICENSE](./LICENSE)Attributions------------- The tohu logo is [&quot;Chaos&quot;](https://thenounproject.com/madeirah/uploads/?i=1893477), created by [Anna Sophie](https://thenounproject.com/madeirah/) from the [Noun Project](https://thenounproject.com/) (licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode))</longdescription>
 </pkgmetadata>

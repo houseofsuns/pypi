@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># winwin## 安装说明```pip install winwin```## 使用说明```import winnwinwinwin.__version__```</longdescription>
 </pkgmetadata>

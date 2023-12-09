@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>MibianLib is an options pricing library implementing the Garman-Kohlhagen, Black-Scholes and Merton pricing models for European options on currencies and stocks.</longdescription>
 </pkgmetadata>

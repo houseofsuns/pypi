@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Tabular data as published on the web is often not well formattedand structured. Messytables tries to detect and fix errors in thedata. Typical examples include:* Finding the header of a table when there are explanations and  text fragments in the first few rows of the table.* Guessing the type of columns in CSV data.This library provides data structures and some heuristics tofix these problems and read a wide number of different tabularabominations.See the full documentation at: https://messytables.readthedocs.io</longdescription>
 </pkgmetadata>

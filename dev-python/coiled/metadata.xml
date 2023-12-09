@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/coiled/logos/master/Coiled-Logo_Horizontal_Black-RGB.png&quot; width=&quot;200&quot; style=&quot;max-width: 200px;&quot; alt=&quot;Coiled&quot;&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;  &lt;a href=&quot;https://coiled.io&quot;&gt;Coiled.io&lt;/a&gt; •  &lt;a href=&quot;https://docs.coiled.io/user_guide/index.html&quot;&gt;Documentation&lt;/a&gt; •  &lt;a href=&quot;https://join.slack.com/t/coiled-users/shared_invite/zt-hx1fnr7k-In~Q8ui3XkQfvQon0yN5WQ&quot;&gt;Community&lt;/a&gt; •  &lt;a href=&quot;https://docs.coiled.io/user_guide/support.html&quot;&gt;Support&lt;/a&gt;&lt;/p&gt;Coiled is a deployment-as-a-service library for scaling Python with Dask, a popular open source library for parallel analytics. Coiled manages cloud resources, networking, software environments, and everything you need to scale Python in the cloud robustly and easily.Go to https://cloud.coiled.io to get started with Coiled.</longdescription>
 </pkgmetadata>

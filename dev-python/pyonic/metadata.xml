@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ion-channel-python-sdkThis is a Python SDK for the Ion Channel Application Programming InterfaceNote: This SDK package is still in an alpha development stage - use cautiouslyInstallation: pip install pyonic</longdescription>
 </pkgmetadata>

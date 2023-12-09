@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>openid-connect - Low-level Python OIDC Client library=====================================================.. image:: https://badge.fury.io/py/openid-connect.svg:target: https://badge.fury.io/py/openid-connectThis is a low-level Python library for authentication against OpenIDProviders (e.g. Google).For high-level libraries see the Aiakos_ project.What is OpenID Connect?-----------------------It's a OAuth2-based standard for authentication in applications.Legacy authorization servers----------------------------openid-connect does also support some legacy OAuth2 providersthat do not implement OpenID Connect protocol:- facebook- gitlab- githubFor gitlab and github - both official and on-premise instances are supported.Requirements------------- Python 3.7+ - might work on older 3.x versions, but it's not tested- python-jose_.. _Aiakos: https://gitlab.com/aiakos.. _python-jose: https://github.com/mpdavis/python-jose</longdescription>
 </pkgmetadata>

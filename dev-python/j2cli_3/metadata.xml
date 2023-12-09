@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>j2cli_3==========Command-line interface to [Jinja2](http://jinja.pocoo.org/docs/) for templating in shell scripts.Features:* Jinja2 templating* Allows to use environment variables! Hello [Docker](http://www.docker.com/) :)* INI, YAML, JSON data sources supportedBased on [kolypto/j2cli](https://github.com/kolypto/j2cli)</longdescription>
 </pkgmetadata>

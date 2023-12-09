@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Bandit ML pip libraryBandit ML is a lightweight library for training &amp; serving contextual bandit &amp; reinforcement learning models.</longdescription>
 </pkgmetadata>

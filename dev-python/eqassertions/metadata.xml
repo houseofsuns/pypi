@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>==================eqassertion==================assertions in `__eq__` methods.&gt;&gt;&gt; from eqassertions import Any, NotNone, IsA, IsTrue, Match&gt;&gt;&gt; data = {&quot;a&quot;: 1, &quot;b&quot;: 2}&gt;&gt;&gt; assert {&quot;a&quot;: 1, &quot;b&quot;: Any()}&gt;&gt;&gt; assert {&quot;a&quot;: 1, &quot;b&quot;: NotNone()}&gt;&gt;&gt; assert {&quot;a&quot;: 1, &quot;b&quot;: IsA(int)}&gt;&gt;&gt; assert {&quot;a&quot;: 1, &quot;b&quot;: IsTrue()}&gt;&gt;&gt; assert v == {&quot;a&quot;: 1, &quot;b&quot;: Match(r&quot;\d&quot;)}&gt;&gt;&gt; assert v == {&quot;a&quot;: 1, &quot;b&quot;: Match(r&quot;[a-z]&quot;)}Traceback (most recent call last): ...AssertionError</longdescription>
 </pkgmetadata>

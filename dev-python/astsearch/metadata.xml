@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>ASTsearch is an intelligent search tool for Python code.To get it::    pip install astsearchTo use it::    # astsearch pattern [path]    astsearch &quot;?/?&quot;  # Division operations in all files in the current directoryFor more details, see `the documentation &lt;http://astsearch.readthedocs.org/en/latest/&gt;`_.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Flask Request ID----------------Adds Request ID inside your http requests to better identify what's happening on your app.</longdescription>
 </pkgmetadata>

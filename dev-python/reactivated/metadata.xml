@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Zero-configuration Django and React. Together at last.Reactivated is the easiest way to use Django and React together.You get the full power of Django. Rendered by ReactNo webpack, no config, no tooling. Just React and Django.https://www.reactivated.io</longdescription>
 </pkgmetadata>

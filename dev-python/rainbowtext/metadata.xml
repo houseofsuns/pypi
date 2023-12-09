@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This Simple Python Library allows you to make your poor white text rainbow colored!Usage:import rainbowtextrainbowtext.text(&quot;Hello world in rainbow colors!&quot;)</longdescription>
 </pkgmetadata>

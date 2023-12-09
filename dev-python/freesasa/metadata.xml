@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This module provides bindings for the FreeSASA C library. See http://freesasa.github.io/python/ for documentation.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Arkindex CLIDocumentation for users is available in the [docs](./docs) folder, and online as [cli.arkindex.org](https://cli.arkindex.org).## Dev setupRequirements:- Python 3.7+```consolemkvirtualenv clipip install -e .arkindex -h```### Unit testsTox is used on this project to run all unit tests:```consolepip install toxtox```### LintingWe use [pre-commit](https://pre-commit.com/) to check the Python source code syntax of this project.To avoid superfluous commits, always run pre-commit before committing.To do that, run once :```pip install pre-commitpre-commit install```The linting workflow will now run on modified files before committing, and may fix issues for you.If you want to run the full workflow on all the files: `pre-commit run -a`.### DocumentationPlease keep the documentation updated when modifying or adding commands.It's pretty easy to do:```pip install mkdocsmkdocs serve```You can then write in Markdown in the relevant `docs/*.md` files, and see live output on http://localhost:8000</longdescription>
 </pkgmetadata>

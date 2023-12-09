@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry gRPC Integration==============================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-grpc.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-grpc/Client and server interceptors for `gRPC Python`_... _gRPC Python: https://grpc.github.io/grpc/python/grpc.htmlInstallation------------::     pip install opentelemetry-instrumentation-grpcReferences----------* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This CPython extension provides Python bindings for cracklib. Itcontains a pythonic interface to cracklib's functions and some Pythonconvenience functions.</longdescription>
 </pkgmetadata>

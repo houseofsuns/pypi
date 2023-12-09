@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>| ⚠️ | This SDK is currently in pre-release alpha state and subject to change. To getmore info or access to test features check out the[Strangeworks Backstage Pass Program](https://strangeworks.com/backstage). ||---------------|:------------------------|# Strangeworks Qiskit ExtensionStrangeworks Python SDK extension for Qiskit.For more information on using the SDK check out the[Strangeworks documentation](https://docs.strangeworks.com/).</longdescription>
 </pkgmetadata>

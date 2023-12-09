@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>============**metameta**============*!!!IMPORTANT!!!*=================metameta is incomplete and inactive. Do not use.*Purpose*---------Toolkit for analyzing meta-transcriptome/metagenome mapping data*Requirements*--------------- Python 3.4 or higher- pysam 0.8.2.1 or higher*Installation*--------------''pip install metameta''*Usage*-------metameta &lt;tool name&gt; [arguments for tool]</longdescription>
 </pkgmetadata>

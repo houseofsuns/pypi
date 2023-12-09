@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Meta EndpointsСборка и запуск api на основе GRPC + Google Cloud Endpoint# Области примененияХорошо подходит почти для всех api.Ограничения: - Не может отдавать через себя ничего кроме JSON, а значит файлы на скачивание# Структура каталогов - docker: по папкам образы для для работы соответствующих tools - metaendpoints.tools: Скрипты для упрощения работы с ESP в непосредственных проектах, использующих Meta Endpoints</longdescription>
 </pkgmetadata>

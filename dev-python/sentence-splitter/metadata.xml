@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Text to sentence splitter using heuristic algorithm by Philipp Koehn and Josh Schroeder.This module allows splitting of text paragraphs into sentences. It is based on scripts developed by PhilippKoehn and Josh Schroeder for processing the `Europarl corpus &lt;http://www.statmt.org/europarl/&gt;`_.The module is a port of `Lingua::Sentence Perl module &lt;http://search.cpan.org/perldoc?Lingua::Sentence&gt;`_ withsome extra additions (improved non-breaking prefix lists for some languages and added support for Danish,Finnish, Lithuanian, Norwegian (Bokmål), Romanian, and Turkish).</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The pysnmpcrypto package is an optional extension to SNMP libraryfor Python -- pysnmp 5.0+. The pysnmpcrypto library providesstronger authentication and encryption features to the SNMPlibrary by way of invoking stronger crypto algorithms.The pysnmpcrypto library runs on Python 2.4 through 3.7 and has adependency on either PyCryptodomex (for Python versions 2.4-2.6and 3.2-3.3) or Cryptography (for Python versions 2.7 and 3.4+).</longdescription>
 </pkgmetadata>

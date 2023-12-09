@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A universal Python parser combinator library inspired by Parsec library of Haskell.</longdescription>
 </pkgmetadata>

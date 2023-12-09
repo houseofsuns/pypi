@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>convertlib========### Esse é um pacote que converte arquivos de diversas extensões.## Instalação    pip install convertlib## Uso```from convertlib import convertlib as cvpath = &quot;path/to/file.extension&quot;converter = cv.convertlib(path)converter.docx2pdf()```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>idds-workflow====idds-workflow subpackage implements basic workflow and a DAG(Directed Acyclic Graph) workflow.</longdescription>
 </pkgmetadata>

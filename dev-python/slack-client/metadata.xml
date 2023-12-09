@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># slack-clientSlack-client is meant to be used as an interface for the Slack API.</longdescription>
 </pkgmetadata>

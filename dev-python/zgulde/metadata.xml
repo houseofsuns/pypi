@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Zgulde's Python UtilitiesA collection of miscellaneous helper functions and classes that I find useful.Maybe you will too!To install/upgrade:```python -m pip install --upgrade zgulde```## Pandas ExtensionsThe most polished of all of these modules is `extend_pandas`. It provides someextensions to [pandas](http://pandas.pydata.org/) that I've found useful.Usage:```python# from within a python script / jupyter notebook, etcimport zgulde.extend_pandas# now you can use all the additional methods```[Further documentation can be found here](https://zgulde.github.io/zgulde-python/), or by looking at the built-inhelp:```pythonimport zgulde.extend_pandashelp(zgulde.extend_pandas)```## Other ModulesAre in various stages of completeness, and documentation for them (if present)can be found within docstrings in the module.</longdescription>
 </pkgmetadata>

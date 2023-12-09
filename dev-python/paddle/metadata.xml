@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>**PADDLE** is a Python package for learning dictionaries with frame-like properties, as well as achieving sparse coding of the training data.In particular, it provides algorithms for- learning a dictionary together with a dual of itself, and- learning a dictionary close to a tigth-frame.PADDLE's license is free for both commercial and non-commercial use, under the `BSD terms &lt;http://www.opensource.org/licenses/bsd-license.php&gt;`_.</longdescription>
 </pkgmetadata>

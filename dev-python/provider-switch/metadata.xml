@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Provider Switch Package### Installation``pip install provider-switch``## Change log### 20/12/2022v0.0.6</longdescription>
 </pkgmetadata>

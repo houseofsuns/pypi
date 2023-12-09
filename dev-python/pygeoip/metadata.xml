@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pure Python GeoIP API=====================This library is based on `Maxmind's GeoIP C API &lt;https://github.com/maxmind/geoip-api-c&gt;`__.Tested with Python version 2.6, 2.7, 3.2, 3.3 and 3.4.Installation------------You can easily install pygeoip from PyPi... code:: python    pip install pygeoipIssues and Contribution-----------------------Bug reports are done by `creating an issue onGithub &lt;https://github.com/appliedsec/pygeoip/issues&gt;`__. If you want tocontribute you can always `create a pullrequest &lt;https://github.com/appliedsec/pygeoip/pulls&gt;`__ for discussionand code submission.Documentation-------------For more information, `check out the documentation &lt;http://pygeoip.readthedocs.org/&gt;`__ over at Read the Docs.</longdescription>
 </pkgmetadata>

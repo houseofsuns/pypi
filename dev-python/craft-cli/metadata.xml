@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>*********Craft CLI*********A Command Line Client builder that follows the `Canonical's Guidelines for a Command LineInterface &lt;https://discourse.ubuntu.com/c/design/cli-guidelines/62&gt;`_.The library provides two main functionalities:- a framework to define and execute application commands, which involves argument parsing and the provision of help texts- infrastructure to handle the terminal and present all the outputs for the different application needsDocumentation-------------The `documentation &lt;https://craft-cli.readthedocs.io&gt;`_ is available on Read The Docs.Contributing------------See the `&lt;HACKING.rst&gt;`_ document for details on how to contribute.License-------Free software: GNU Lesser General Public License v3</longdescription>
 </pkgmetadata>

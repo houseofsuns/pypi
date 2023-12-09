@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># benchling-api-clientA client generated from Benchling's OpenAPI definition files using openapi-python-client.Rather than using this package directly, we recommend using the[Benchling SDK](https://pypi.org/project/benchling-sdk/), which has extra scaffolding to make some endpointseasier to use and has been released to general availability.</longdescription>
 </pkgmetadata>

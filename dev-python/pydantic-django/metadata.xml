@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pydantic-django is now djanticThis package has been renamed. Use `pip install djantic` instead.New package: https://pypi.org/project/djantic/</longdescription>
 </pkgmetadata>

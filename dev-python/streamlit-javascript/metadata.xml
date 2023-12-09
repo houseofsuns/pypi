@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Streamlit javascript execution[![GitHub][github_badge]][github_link] [![PyPI][pypi_badge]][pypi_link] ## Installation```pip install streamlit-javascript```## Getting started```import streamlit as stfrom streamlit_javascript import st_javascriptst.subheader(&quot;Javascript API call&quot;)return_value = st_javascript(&quot;&quot;&quot;await fetch(&quot;https://reqres.in/api/products/3&quot;).then(function(response) {    return response.json();}) &quot;&quot;&quot;)st.markdown(f&quot;Return value was: {return_value}&quot;)print(f&quot;Return value was: {return_value}&quot;)```## Demo![example image](https://github.com/thunderbug1/streamlit-javascript/blob/master/example.png)[github_link]: https://github.com/thunderbug1/streamlit-javascript[github_badge]: https://badgen.net/badge/icon/GitHub?icon=github&amp;color=black&amp;label[pypi_badge]: https://badge.fury.io/py/streamlit-javascript.svg[pypi_link]: https://pypi.org/project/streamlit-javascript/</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. -*-restructuredtext-*-.. image:: https://travis-ci.org/ubernostrum/django-referrer-policy.svg?branch=master    :target: https://travis-ci.org/ubernostrum/django-referrer-policydjango-referrer-policy provides a middleware class implementing `theReferrer-Policy header &lt;https://www.w3.org/TR/referrer-policy/&gt;`_ for`Django &lt;https://www.djangoproject.com/&gt;`_-powered sites.Setting the ``Referrer-Policy`` header allows you to control what, ifany, information is sent in the HTTP ``Referer`` header when a userclicks a link on your site.Documentation is `available online&lt;https://django-referrer-policy.readthedocs.io/&gt;`_.</longdescription>
 </pkgmetadata>

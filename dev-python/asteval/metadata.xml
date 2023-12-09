@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>ASTEVAL provides a numpy-aware, safe(ish) 'eval' functionEmphasis is on mathematical expressions, and so numpy ufuncsare used if available.  Symbols are held in the Interpretersymbol table 'symtable':  a simple dictionary supporting asimple, flat namespace.Expressions can be compiled into ast node for later evaluation,using the values in the symbol table current at evaluation time.</longdescription>
 </pkgmetadata>

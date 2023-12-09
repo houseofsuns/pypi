@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python Windows SDKPython bindings for the Windows SDK.This is a community-supported version of the unmaintained [winrt] package.[winrt]: https://pypi.org/project/winrt## InstallationThis package is distributed on PyPI as the [winsdk] package.    # use your favorite environment manager    poetry add winsdk    pipenv install winsdk    pip install winsdk[winsdk]: https://pypi.org/project/winsdk## Documentationhttps://python-winsdk.readthedocs.io/en/latest/</longdescription>
 </pkgmetadata>

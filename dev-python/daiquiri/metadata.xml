@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=======================================daiquiri -- Python logging setup helper=======================================.. image:: https://img.shields.io/pypi/v/daiquiri.svg    :target: https://pypi.python.org/pypi/daiquiri    :alt: Latest VersionThe daiquiri library provides an easy way to configure logging. It alsoprovides some custom formatters and handlers.You can read the whole documentation at http://daiquiri.readthedocs.io/* Free software: Apache license* Source: https://github.com/Mergifyio/daiquiri</longdescription>
 </pkgmetadata>

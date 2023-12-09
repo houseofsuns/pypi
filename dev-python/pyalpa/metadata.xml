@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## AlpaAnother cooL way to PAckage in copr### Build statusalpa [![Copr build status](https://copr.fedorainfracloud.org/coprs/alpa-team/alpa/package/alpa/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/alpa-team/alpa/package/alpa/)## Table of contents&lt;!-- toc --&gt;- [Installation](#installation)- [Usage](#usage)- [Contributing](#contributing)&lt;!-- tocstop --&gt;### InstallationFrom PyPi:```bash$ pip install --user pyalpa```From Copr:```bash$ dnf copr enable alpa-team/alpa$ dnf install alpa```### UsagePlease visit our [documentation page](https://alpa.readthedocs.io/en/latest) to learn how to use alpa.### ContributingTODO</longdescription>
 </pkgmetadata>

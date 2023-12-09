@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>![PyPI - License](https://img.shields.io/pypi/l/yyjson.svg?style=flat-square)![Tests](https://github.com/TkTech/py_yyjson/workflows/Run%20tests/badge.svg)# py_yyjsonFast, flexible Python bindings for the excellent [yyjson][] project.## DocumentationFind the latest documentation at https://tkte.ch/py_yyjson.[yyjson]: https://github.com/ibireme/yyjson</longdescription>
 </pkgmetadata>

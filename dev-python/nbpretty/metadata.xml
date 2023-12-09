@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>nbpretty========nbpretty is a tool to convert sets of notebook files into a single, cohesive set of linked pages.Documentation at https://nbpretty.readthedocs.io</longdescription>
 </pkgmetadata>

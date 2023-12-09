@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># LibDoc2JsonSmall python class which converts Robot Framework Libdoc XML Files to JSON that is compatible with VSCode plugin &quot;Robot Framework Intellisense&quot;**Installation**:    pip install -e &lt;path to source folder&gt;**Usage**:    python -m libdoc2json &lt;LIBRARY or *.robot or *.py&gt; &lt;MyLibrary.json&gt;The generated json file might be put o this folder and then be set up in settings.json of vscode.    &quot;rfLanguageServer.libraries&quot;:     [        &quot;BuiltIn-3.0.4&quot;,        &quot;SeleniumLibrary-3.2.0&quot;,        &quot;Dialogs-3.0.4&quot;        &quot;MyLibrary&quot;    ]Path to Library docs    &lt;userprofile&gt;\.vscode\extensions\tomiturtiainen.rf-intellisense-2.5.0\server\library-docsIt is also possible to just put the complete JSON into the rfLanguageServer.libraries List.</longdescription>
 </pkgmetadata>

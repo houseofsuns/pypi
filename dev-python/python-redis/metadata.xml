@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Redis Client implementation for Python 3.Copyright (c) 2021, Stephan Schultchen.License: MIT (see LICENSE for details)    </longdescription>
 </pkgmetadata>

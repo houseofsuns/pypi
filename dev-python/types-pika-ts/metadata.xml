@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for pikaThis is a [PEP 561](https://peps.python.org/pep-0561/)type stub package for the [`pika`](https://github.com/pika/pika) package.It can be used by type-checking tools like[mypy](https://github.com/python/mypy/),[pyright](https://github.com/microsoft/pyright),[pytype](https://github.com/google/pytype/),PyCharm, etc. to check code that uses`pika`.This version of `types-pika-ts` aims to provide accurate annotationsfor `pika==1.3.*`.The source for this package can be found athttps://github.com/python/typeshed/tree/main/stubs/pika. All fixes fortypes and metadata should be contributed there.The `types-pika` package contains alternate, more complete type stubs, that are maintained outside of typeshed.See https://github.com/python/typeshed/blob/main/README.md for more details.This package was generated from typeshed commit `81633e27097228a8a7eb0f963c62916ecea78abc` and was testedwith mypy 1.7.1, pyright 1.1.334, andpytype 2023.11.21.</longdescription>
 </pkgmetadata>

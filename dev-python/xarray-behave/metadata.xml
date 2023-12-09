@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># xarray-behaveInstall a working conda installation (see [here](https://docs.conda.io/en/latest/miniconda.html)). ```shellconda install mamba -c conda-forge -n base -ymamba create -c conda-forge -c anaconda -c ncb -n xb python=3.9 xarray-behave```See `demo.ipynb` for usage examples.</longdescription>
 </pkgmetadata>

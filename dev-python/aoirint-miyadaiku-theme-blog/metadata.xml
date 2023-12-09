@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># aoirint_miyadaiku_theme_blog- [Miyadaiku - Doc](https://miyadaiku.github.io/)- [Miyadaiku - GitHub](https://github.com/miyadaiku/miyadaiku)- [Miyadaiku - PyPI](https://pypi.org/project/miyadaiku/)```pip3 install aoirint_miyadaiku_theme_blog``````# in document directory with config.yml,miyadaiku-build -sw .```## Sample config.yml```yml# Miyadaiku config file# Base URL of the sitesite_url: https://www.example.com# Title of the sitesite_title: Your site title# Default language codelang: ja-JP# Default charsetcharset: utf-8# Default timezonetimezone: Asia/Tokyocopyright: Copyright © 20xx Your Name.favicon: /favicon.ico# ga_tracking_id: UA-...twitter_name: examplegithub_name: github# List of site themethemes:  - aoirint_miyadaiku_theme_blog```</longdescription>
 </pkgmetadata>

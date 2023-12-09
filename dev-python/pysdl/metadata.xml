@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pysdlPython Stackdriver Logger - A python library that helps Stackdriver consume python logs appropriately## Installing pysdl```bashpip install pysdl ```## Implementing this in your app#### In Django: settings.py -&gt;   ```pythonfrom pysdl.logger_config import logging_dictLOGGING = logging_dict```#### In regular python apps: ```pythonfrom logging.config import dictConfigfrom pysdl.logger_config import logging_dictdictConfig(logging_dict)```</longdescription>
 </pkgmetadata>

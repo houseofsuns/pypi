@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># napari-sphinx-themeA Sphinx theme fork of the awesome[pydata-sphinx-theme](https://github.com/pydata/pydata-sphinx-theme)  with thelook and feel of napari.This is currently a work-in-progress, but since it's a fork of pydata, all theexisting configurations and affordances are already available. Check out the[PyData Docs](https://pydata-sphinx-theme.readthedocs.io/en/latest/) for moreinfo.</longdescription>
 </pkgmetadata>

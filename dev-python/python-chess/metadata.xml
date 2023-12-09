@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>python-chess============Package moved-------------This package has been moved to https://pypi.org/project/chess/.Thanks to `Kristian Glass &lt;https://github.com/doismellburning&gt;`_ for makingthe package name available.</longdescription>
 </pkgmetadata>

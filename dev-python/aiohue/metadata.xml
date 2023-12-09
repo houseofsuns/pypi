@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Aiohue## Asynchronous library to control Philips HueRequires Python 3.10+ and uses asyncio and aiohttp.For usage examples, see the examples folder.## Hue Bridge versionThis library supports both the new style V2 API (only available on V2 bridges) and the old style V1 API.The biggest advantage of the V2 API is that it supports event based updates so polling is not required.## Contribution guidelinesObject hierarchy and property/method names should match the Philips Hue API.</longdescription>
 </pkgmetadata>

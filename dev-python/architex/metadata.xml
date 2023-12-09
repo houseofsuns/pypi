@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A package to auto draw your software architecture diagram from your source code.Current limitation :Your source code should be consist of docker compose (required) and nginx (optional) configuration file.</longdescription>
 </pkgmetadata>

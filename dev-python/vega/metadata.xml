@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>IPython Vega============IPython/Jupyter notebook module for `Vega &lt;https://github.com/vega/vega/&gt;`_and `Vega-Lite &lt;https://github.com/vega/vega-lite/&gt;`_.Notebooks with embedded visualizations can be viewed on GitHub and nbviewer.For more information, see https://github.com/vega/ipyvega.Installation Notes------------------When installing from PyPI, extra steps may be required to enable the Jupyternotebook extension. For more information, see the`github page &lt;https://github.com/vega/ipyvega&gt;`_.</longdescription>
 </pkgmetadata>

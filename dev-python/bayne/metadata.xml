@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Bayne - Bayesian Neural NetworksPytorch/Pyro-based Bayesian Neural Networks libraryFeatures:- Markov Chain Monte Carlo (MCMC)  - Fully connected neural network with ReLU, Sigmoid, or Tanh activation  - Configurable prior &amp; likelihood  - Hamiltonian Monte Carlo or NUTS samplerAuthors:- Frederik Baymler Mathiesen, PhD student @ TU Delft, Netherlands</longdescription>
 </pkgmetadata>

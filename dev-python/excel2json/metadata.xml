@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. image:: https://travis-ci.org/malongge/exceltojson.svg?branch=master</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># bsb-hdf5The HDF5 storage engine of the BSB</longdescription>
 </pkgmetadata>

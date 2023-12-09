@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>RPA for Python's simple and powerful API makes robotic process automation fun! You can use it to quickly automate away repetitive time-consuming tasks on websites, desktop applications, or the command line.Built on AI Singapore's TagUI open-source RPA tool, RPA capabilities out-of-the-box for this package include website automation, computer vision automation, optical character recognition, keyboard &amp; mouse automation.Tables can't be displayed here, please refer to RPA for Python homepage for full API - https://github.com/tebelorg/RPA-Python</longdescription>
 </pkgmetadata>

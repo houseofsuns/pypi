@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># alt:V Masterlist for PythonYou can use this Package to interface with the alt:V master list API.# Install ```pip install altvmasterlist``` or ```pip3 install altvmasterlist```# Usage```from altvmasterlist import masterlist as altv```# DocsPlease see the Docs [here](https://nickwasused.github.io/altv-python-masterlist/).# DevelopmentYou need to have [poetry](https://python-poetry.org/docs/#installation) installed.Then install everything with ``poetry install``After that you can run the examples with ``poetry run python example_masterlist.py`` and   pytest with ``poetry run pytest``  </longdescription>
 </pkgmetadata>

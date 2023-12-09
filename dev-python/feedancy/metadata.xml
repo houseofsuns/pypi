@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># feedancyThe client is provided with async and sync adapters.To install the async version with all its dependencies use:```bashpip install feedancy[asyncio]```To install the sync version with all its dependencies use:```bashpip install feedancy[sync]```To install both versions with all their dependencies use:```bashpip install feedancy[asyncio,sync]```## Client instantiation example```pythonfrom feedancy import new_client, Configurationfrom feedancy.lib.adapter.requests import RequestsAdapterclient = new_client(RequestsAdapter(), Configuration(host=&quot;&lt;your openapi server URL&gt;&quot;))```</longdescription>
 </pkgmetadata>

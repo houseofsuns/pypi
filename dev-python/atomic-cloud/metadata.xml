@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Atomic CloudThis is a Python Library intended to simplify interactions with different cloud environments. ## AWS Design ApproachFor AWS, we are using CloudFormation to define and build the various resources.  It is a convenient mechanism because we can then delete those resources conveniently by deletingthe stacks that were created with CloudFormation.  The vast majority of this library will consist of querying what resources exist in AWS.  It is just easier to do query, filter and extract data using Python rather than using the command line interface.## Getting StartedThe complete documentation can be found here: http://atomic-cloud.docs.simoncomputing.com/.  You can follow the links at the bottom left of each page to step through all the features.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!--SPDX-FileCopyrightText: 2021 Magenta ApS &lt;https://magenta.dk&gt;SPDX-License-Identifier: MPL-2.0--&gt;# OS2mo DAR ClientOS2mo DAR Client is a client for [DAWA / DAR](https://dawadocs.dataforsyningen.dk/).## RequirementsPython 3.8+Dependencies:* &lt;a href=&quot;https://more-itertools.readthedocs.io/&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;More Itertools&lt;/a&gt;* &lt;a href=&quot;https://docs.aiohttp.org/en/stable/&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;AIOHTTP&lt;/a&gt;* &lt;a href=&quot;https://rammearkitektur.docs.magenta.dk/ra-utils/index.html&quot; class=&quot;external-link&quot; target=&quot;_blank&quot;&gt;RA Utils&lt;/a&gt;## Installation```console$ pip install os2mo-dar-client```## Usage```Pythonfrom os2mo_dar_client import DARClientdarclient = DARClient()with darclient:    print(darclient.healthcheck())```## LicenseThis project is licensed under the terms of the MPL-2.0 license.</longdescription>
 </pkgmetadata>

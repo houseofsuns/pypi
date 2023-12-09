@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># EnumyThe problem with Python's &quot;Enum&quot; module is that it is not a reasonable way to restrict variables to a predefined set of values.Latest version: `v1.0.2`## Installation```shellpip install --user enumy```## Special methods### `check_type`Check if a variable matches a certain data type.```pythonvar.check_type(str)```### `check_value`Check if a value is present in the allowed values.```pythontext = &quot;ByteSentinel&quot;var.check_value(text)```## Example```pythonfrom enumy import Enumytest = Enumy((&quot;Value 1&quot;, &quot;Value 2&quot;), str)test = &quot;Value 2&quot;        # Workingtest = 123              # Exception```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># yhttp[![PyPI](http://img.shields.io/pypi/v/yhttp.svg)](https://pypi.python.org/pypi/yhttp)[![Build](https://github.com/yhttp/yhttp/workflows/Build/badge.svg?branch=master)](https://github.com/yhttp/yhttp/actions)[![Coverage Status](https://coveralls.io/repos/github/yhttp/yhttp/badge.svg?branch=master)](https://coveralls.io/github/yhttp/yhttp?branch=master)[![Documentation](https://img.shields.io/badge/Documentation-almost%20done!-blue)](https://yhttp.github.io/yhttp)[![Python](https://img.shields.io/badge/Python-%3E%3D3.6-blue)](https://python.org)[Documentation](https://yhttp.github.io/yhttp)### Contribution```bashcd path/to/yhttpmake env```#### Running tests```bashpytest```#### Coverage```bashmake cover```#### Documentation```bashcd sphinxmake doctestmake htmlmake livehtml```[Documentation](https://yhttp.github.io/yhttp/)</longdescription>
 </pkgmetadata>

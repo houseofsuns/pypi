@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry asyncpg Instrumentation=====================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-asyncpg.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-asyncpg/This library allows tracing PostgreSQL queries made by the`asyncpg &lt;https://magicstack.github.io/asyncpg/current/&gt;`_ library.Installation------------::     pip install opentelemetry-instrumentation-asyncpgReferences----------* `OpenTelemetry asyncpg Instrumentation &lt;https://opentelemetry-python-contrib.readthedocs.io/en/latest/instrumentation/asyncpg/asyncpg.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
 </pkgmetadata>

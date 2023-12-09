@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Nordea AnalyticsThis is the Nordea Analytics python library, which gives you direct access to the best key figures for our Nordic products. To use the library, you will need access to the underlying API. For further information please reach out to E-advisorySupport@nordea.com# DocumentationLatest documentation is available here: https://nordea-analytics.readthedocs.io/en/latest/ # LicenseGPLv3 - GNU General Public License v3.0#AuthersNordea Desk Quants and Markets Advisory Tools</longdescription>
 </pkgmetadata>

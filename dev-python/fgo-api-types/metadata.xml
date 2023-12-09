@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Types for FGO Game Data APIThis is a package containing the Pydantic definitions of the objects returned by https://api.atlasacademy.io/rapidoc.Example usage:```from fgo_api_types.enums import Traitfrom fgo_api_types.gameenums import SvtTypefrom fgo_api_types.nice import NiceServantr = httpx.get(&quot;https://api.atlasacademy.io/nice/NA/servant/200&quot;)fujino = NiceServant.parse_raw(r.content)assert Trait.genderFemale in fujino.traits```</longdescription>
 </pkgmetadata>

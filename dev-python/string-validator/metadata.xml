@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># string_validatorA fast and correct Python string validator library. Also includes a [cuid](https://github.com/paralleldrive/cuid) generator for the sake of posterity.Validates:- Emails- IP addresses- IPv4 addresses- IPv6 addresses- URLs- Credit card numbers- Phone numbers- Non-control characters## Example```pythonimport string_validatorresult = string_validator.validate_email(&quot;example@example.com&quot;)assert result == True```</longdescription>
 </pkgmetadata>

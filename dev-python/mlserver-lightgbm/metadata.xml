@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># LightGBM runtime for MLServerThis package provides a MLServer runtime compatible with LightGBM.## UsageYou can install the runtime, alongside `mlserver`, as:```bashpip install mlserver mlserver-lightgbm```For further information on how to use MLServer with LightGBM, you can check outthis [worked out example](../../docs/examples/lightgbm/README.md).## Content TypesIf no [content type](../../docs/user-guide/content-type) is present on therequest or metadata, the LightGBM runtime will try to decode the payload asa [NumPy Array](../../docs/user-guide/content-type).To avoid this, either send a different content type explicitly, or define thecorrect one as part of your [model'smetadata](../../docs/reference/model-settings).</longdescription>
 </pkgmetadata>

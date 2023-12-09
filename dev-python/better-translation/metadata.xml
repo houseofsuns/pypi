@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># better-translation## InstallationYou can install `better_translation` using pip:```bashpip install better_translation```</longdescription>
 </pkgmetadata>

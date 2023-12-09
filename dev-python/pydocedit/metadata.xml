@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pycvtools[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)   ## Functionality of the pydocedit- EDIT THE DOCUMENT&gt; - Name &gt; - Email&gt; - Country / Address&gt; - Mask Mobile and Passport number```pip install pydocedit```##### To run```from pydocedit import *```</longdescription>
 </pkgmetadata>

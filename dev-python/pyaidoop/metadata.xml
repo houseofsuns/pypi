@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A python library for AIdoop web-based application platform such as AIdoop-R and AIdoop-P.Supports camera operation, object trakcing using tensorflow-based deep learning models, opecv-based image processing and graphql and websocket to cooperate with web application server</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The Self-Assembling-Manifold algorithm for analyzing single-cell RNA sequencing data.</longdescription>
 </pkgmetadata>

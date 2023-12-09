@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pyip is a Python package offering assembling/disassembling of raw ip packet,including ip, udp, and icmp. Also it includes 2 utilities based on raw ip, traceroute and ping.The primary motivation for this project is to fill the blank in Python,i.e., handling raw ip packet. Meanwhile, the utility 'traceroute' is intended to be port of Unix 'traceroute' to Windows platform, as Windows' tracert has only very limited command line options compared with Unix 'traceroute'.</longdescription>
 </pkgmetadata>

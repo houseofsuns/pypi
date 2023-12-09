@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A sample program================This is a sample program unintended for much use except to serve as a meansto learn about python packaging with setuptools.</longdescription>
 </pkgmetadata>

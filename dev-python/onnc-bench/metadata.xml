@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># WARNING: This repository is no longer maintained ⚠️This repository has been moved to:- https://github.com/skymizer/oasis-api-client- https://pypi.org/project/oasis-api-client/Make sure you have permission to view this repository# ONNC-benchONNC-bench is a Python wrapper of ONNC## Installation### Developer install```python3 -m pip install -e .```### Using pip```pip install onnc-bench```## Python API ExampleHere is an example to show how to use ONNC python API```from onnc.bench import login, Project# Setup your ONNC API keyapi_key = &quot;Your API KEY&quot;login(api_key)# Instantiate a projctproject = Project('experiment-1')# Add a model and its coresponding calibration samplesproject.add_model('path/to/model', 'path/to/samples')# Compile the model and optmize to `CMSIS-NN` backendproject.compile(target='CMSIS-NN-DEFAULT')# Save the compiled modeldeployment = project.save('./output')```Please Check https://docs-tinyonnc.skymizer.com/index.html for the full documents.</longdescription>
 </pkgmetadata>

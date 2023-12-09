@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># localcosmos-cordova-builderrequired environment variable: LOCALCOSMOS_CORDOVA_BUILDER_WORKDIR## using python3 virtualenvaddexport LOCALCOSMOS_CORDOVA_BUILDER_WORKDIR=/path/to/workdirto venv/bin/activate</longdescription>
 </pkgmetadata>

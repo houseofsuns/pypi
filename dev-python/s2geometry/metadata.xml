@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A setuptools wrapper around [s2geometry](https://github.com/google/s2geometry).Notes: All credit goes to Google; this is just a wrapper around their lib.Inspired by [s2-py](https://github.com/mira/s2-py).</longdescription>
 </pkgmetadata>

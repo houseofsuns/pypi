@@ -15,8 +15,8 @@ DESCRIPTION="Remote Desktop Protocol in Python"
 
 HOMEPAGE="https://github.com/citronneur/rdpy"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
-SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

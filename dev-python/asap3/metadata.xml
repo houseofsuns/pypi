@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>ASAP (Atomic SimulAtion Program or As Soon As Possible) is apackage for large-scale molecular dynamics within the AtomicSimulation Environment (ASE).  It implements a number of 'classical'potentials, most importantly the Effective Medium Theory, and also themechanisms for domain-decomposition of the atoms.</longdescription>
 </pkgmetadata>

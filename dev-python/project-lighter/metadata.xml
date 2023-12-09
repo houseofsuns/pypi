@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Lighter[![build](https://github.com/project-lighter/lighter/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/project-lighter/lighter/actions/workflows/build.yml) ![Coverage](./assets/images/coverage.svg)## SetupRun the following commands to develop with the repository and add the package in develop mode to your environment````make setupmake install ````To setup the pre-commit hook to format code before commit,````make pre-commit-install````</longdescription>
 </pkgmetadata>

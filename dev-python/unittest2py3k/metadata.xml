@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>unittest2 is a backport of the new features added to the unittest testingframework in Python 2.7 and 3.2.This is a Python 3 compatible version of unittest2. Tested with Python 3.0,3.1 and 3.2.Although the PyPI project name is &quot;unittest2py3k&quot;, the Python package is calledunittest2. Version numbers are the same as the Python 2 unittest2 package.For full details, including changelog, see:* `unittest2 on PyPI &lt;http://pypi.python.org/pypi/unittest2&gt;`_unittest2py3k is maintained in the unittest-ext repository:* `unittest2py3k svn repository  &lt;http://code.google.com/p/unittest-ext/source/browse/#svn/trunk/unittest2-py3k&gt;`_</longdescription>
 </pkgmetadata>

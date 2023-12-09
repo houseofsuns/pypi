@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>BeakerX: Beaker EasyForms, Magics, Plots and Spark Extension for Jupyter Lab 2.x</longdescription>
 </pkgmetadata>

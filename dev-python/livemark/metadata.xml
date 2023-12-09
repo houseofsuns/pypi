@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># LivemarkData presentation framework for Python that generates static sites from extended Markdown with interactive charts, tables, scripts, and other features:- https://livemark.frictionlessdata.io/</longdescription>
 </pkgmetadata>

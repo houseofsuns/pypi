@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CTC segmentationCTC segmentation is used to align utterances within audio files.It can be combined with CTC-based ASR models.This package includes the core functions.https://github.com/lumaku/ctc-segmentation</longdescription>
 </pkgmetadata>

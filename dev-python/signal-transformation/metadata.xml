@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The package allows performing a transformation of a signal using TensorFlow, Pytorch or LibROSA</longdescription>
 </pkgmetadata>

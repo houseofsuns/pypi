@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Wrappers for the &quot;xpc&quot; library on macOS.These wrappers don't include documentation, please check Apple's documentationfor information on how to use this framework and PyObjC's documentationfor general tips and tricks regarding the translation between Pythonand (Objective-)C frameworksProject links-------------* `Documentation &lt;https://pyobjc.readthedocs.io/en/latest/&gt;`_* `Issue Tracker &lt;https://github.com/ronaldoussoren/pyobjc/issues&gt;`_* `Repository &lt;https://github.com/ronaldoussoren/pyobjc/&gt;`_</longdescription>
 </pkgmetadata>

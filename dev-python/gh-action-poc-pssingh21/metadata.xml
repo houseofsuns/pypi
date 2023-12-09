@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Hello world docker actionThis action prints &quot;Hello World&quot; or &quot;Hello&quot; + the name of a person to greet to the log.## Inputs## `who-to-greet`**Required** The name of the person to greet. Default `&quot;World&quot;`.## Outputs## `time`The time we greeted you.## Example usageuses: actions/hello-world-docker-action@v2with:  who-to-greet: 'Mona the Octocat'</longdescription>
 </pkgmetadata>

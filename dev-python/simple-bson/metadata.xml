@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Simple-Bson========================.. image:: https://github.com/DeltaLaboratory/simple-bson/actions/workflows/CI.yml/badge.svg?branch=stable    :target: https://github.com/DeltaLaboratory/simple-bson/actions/workflows/CI.yml?branch=stable    :alt: stable CI statusIntroduction------------simple-bson is a simple and lightweight bson implementation (current 7.89KiB)Usage------------.. sourcecode:: python   &gt;&gt;&gt; import simple_bson as bson   &gt;&gt;&gt; a = bson.dumps({&quot;Answer to life the universe and everything&quot;: 42})   &gt;&gt;&gt; b = bson.loads(a)   &gt;&gt;&gt; b   {&quot;Answer to life the universe and everything&quot;: 42}</longdescription>
 </pkgmetadata>

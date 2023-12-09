@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python configuration files themselves are actual Python files. The module readsonly values in uppercase from them, checks that they contain only basic Pythontypes and returns a dictionary which corresponds to the configuration file.Note: if you want to validate the configuration values, take a look athttps://github.com/KonishchevDmitry/object-validator project.</longdescription>
 </pkgmetadata>

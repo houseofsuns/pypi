@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Model Selection### Scope of This Project- As a beginner in Data science/Machine learning field, most of us having issue in **Feature Selection**,**Feature Extraction** and **Model Selection**. Algorithm-Finder can help you to solve this problem. using Algorithm-Finderyou can achieve the below tasks and more.    - **Model Selection**    - **Feature Selection**    - **Feature Extraction**    - **Optimized tuning parameters**- This package mainly used scikit-learn for most of the estimators, by using Algorithm-Finder you can apply your dataseton below models    - ALL --&gt; ALL IN    - MLR --&gt; MultiLinearRegression    - POLY --&gt; PolynomialRegression    - SVR --&gt; SupportVectorRegression    - DTREE --&gt; DecisionTreeRegression &amp; DecisionTreeClassification    - RFR --&gt; RandomForestRegression    - SIGMOID --&gt; LogisticRegression    - KNN --&gt; K-NearestNeighbours Classifier    - SVM --&gt; SupportVectorMachine Classifier    - RFC --&gt; RandomForestClassifier    - BAYESIAN --&gt; NaiveBayesClassifier</longdescription>
 </pkgmetadata>

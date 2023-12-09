@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Build and Deploy with Kluff## Installation```$ pip install -r requirements.txt$ python setup.py install```## DevelopmentThis project includes a number of helpers in the `Makefile` to streamline common development tasks.### Environment SetupThe following demonstrates setting up and working with a development environment:```### create a virtualenv for development$ make virtualenv$ source env/bin/activate### run kluff cli application$ kluff --help### run pytest / coverage$ make test```### Releasing to PyPiBefore releasing to PyPi, you must configure your login credentials:**~/.pypirc**:```[pypi]username = YOUR_USERNAMEpassword = YOUR_PASSWORD```Then use the included helper function via the `Makefile`:```$ make dist$ make dist-upload```## Deployments### DockerIncluded is a basic `Dockerfile` for building and distributing `Kluff CLI`,and can be built with the included `make` helper:```$ make docker$ docker run -it kluff --help```</longdescription>
 </pkgmetadata>

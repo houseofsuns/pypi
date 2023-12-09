@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Awaken 关键字驱动自动化框架---#### 介绍    Awaken 是以 &quot;关键字驱动&quot; 为中心思想搭建的自动化测试框架。        其核心实现是通过相比编程语言更加语义化的 &quot;关键字&quot; 来组织自动化用例的逻辑实现;        相较于传统的通过编程语言直接编写的自动化脚本而言, &quot;关键字驱动&quot; 极大降低了技术栈的门槛, 使得非技术人员也能参与其中;        但这种 &quot;便捷&quot; 的代价便是牺牲了原生编码的部分灵活性, 并且将功能实现的职责嫁接给框架开发者。---#### 安装教程## Python PIP    pip install awaken2---#### 使用说明1.  xxxx2.  xxxx3.  xxxx#### 参与贡献1.  Fork 本仓库2.  新建 Feat_xxx 分支3.  提交代码4.  新建 Pull Request#### 特技1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)</longdescription>
 </pkgmetadata>

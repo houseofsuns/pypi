@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>IOTile Analytics Interactive----------------------------This package provides interactive IPython widgets for viewing, plotting andinteracting with iotile.cloud data.  It builds on the core functionality iniotile-analytics-core.```pip install iotile-analytics-interactive```</longdescription>
 </pkgmetadata>

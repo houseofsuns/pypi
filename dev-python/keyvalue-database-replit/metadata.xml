@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>New version of keyvalue_database module that is designed to work on repl.it</longdescription>
 </pkgmetadata>

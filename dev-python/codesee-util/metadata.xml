@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CodeSee UtilitiesA collection of Python utilities devloped by[CodeSee](https://www.codesee.io). Includes the following:## codesee-pyA command-line utility we use when generating CodeSee Maps. Ithas the ability to introspect a directory containing a Python package,and emits information about that package.</longdescription>
 </pkgmetadata>

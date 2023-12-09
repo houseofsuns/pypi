@@ -15,8 +15,8 @@ DESCRIPTION="gcloud-datastore-oem is a Python Object-Entity Mapper for working w
 
 HOMEPAGE="https://github.com/Kapiche/gcloud-datastore-oem"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.macosx-10.10-x86_64.tar.gz"
-SOURCEFILE="${REALNAME}-${REALVERSION}.macosx-10.10-x86_64.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

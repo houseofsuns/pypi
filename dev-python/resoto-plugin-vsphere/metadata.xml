@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># resoto-plugin-vsphereVMWare VSphere Collector Plugin for Resoto (Alpha)## LicenseSee [LICENSE](../../LICENSE) for details.</longdescription>
 </pkgmetadata>

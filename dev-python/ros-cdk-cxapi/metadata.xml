@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># `@alicloud/ros-cdk-cxapi`&gt; TODO: description## Usage```const rosCxapi = require('@alicloud/ros-cdk-cxapi');// TODO: DEMONSTRATE API```</longdescription>
 </pkgmetadata>

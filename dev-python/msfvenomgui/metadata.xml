@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># msfvenomGUImsfvenomgui provides a graphical UI over Metasploit's msfvenom tool.This tool was created to satisfy classwork for Dakota State University's CSC-842 Security Tool Development.Demo video: *coming soon...*![image](media/msfvenomgui-screenshot.png)## Prerequisites- Python 3 Interpreter- PIP- msfvenom## Usage```bash# install msfvenomgui with pippip install msfvenomgui# execute msfvenomguimsfvenomgui```## Future Work1. Expose all payloads and executable formats2. Automatically find the msvenom path, without blocking the program3. Dynamically expose arguments based on the selected payload</longdescription>
 </pkgmetadata>

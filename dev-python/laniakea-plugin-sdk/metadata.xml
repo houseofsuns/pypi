@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Laniakea Plugin SDKRepository for Laniakea Plugin SDKs in various coding languages# ExamplesAn example in Go can be found in the examples repository</longdescription>
 </pkgmetadata>

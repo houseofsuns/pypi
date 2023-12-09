@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a dummy package managed by the developer of Beautiful Soup to prevent name squatting. The official name of PyPI's Beautiful Soup Python package is `beautifulsoup4 &lt;https://pypi.python.org/pypi/beautifulsoup4&gt;`_. This package ensures that if you type `pip install bs4` by mistake you will end up with Beautiful Soup.</longdescription>
 </pkgmetadata>

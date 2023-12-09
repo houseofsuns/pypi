@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># inventree-zapierIntegrate Zapier into InvenTree## Setup1. InstallInstall this plugin in the webinterface with the packagename `inventree-zapier`2. EnableEnable the plugin in the plugin settings. You need to be signed in as a superuser for this.**The server will restart if you enable the plugin**3. MigrateAccess your instances python enviroment and run```bashinv migrate```4. ConfigureCreate an API-token in the admin interface and add set up the zapier integration in Zapier.com itself.## LicenseThis project is licensed as MIT. Copy and do what you want - maybe tag your new plugin so others can find it. The more the merrier.## State of the CodeThis is currently a PoC / 'beta' - at least till the Zapier App is published. Please feel free to file FRs, issues or just ideas.</longdescription>
 </pkgmetadata>

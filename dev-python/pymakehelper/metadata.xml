@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>==============*pymakehelper*==============.. image:: https://img.shields.io/pypi/v/pymakehelper.. image:: https://img.shields.io/github/license/veltzer/pymakehelper.. image:: https://img.shields.io/badge/code%20style-black-000000.svgproject website: https://veltzer.github.io/pymakehelperauthor: Mark Veltzerversion: 0.0.28Mark Veltzer &lt;mark.veltzer@gmail.com&gt;, Copyright © 2020, 2021, 2022, 2023</longdescription>
 </pkgmetadata>

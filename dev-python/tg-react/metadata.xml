@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># tg-react![https://badge.fury.io/py/tg-react](https://badge.fury.io/py/tg-react.png)![Workflow status](https://github.com/thorgate/tg-react/actions/workflows/python-package.yml/badge.svg?branch=master)Helpers for react based applications running on django.## DocumentationThe full documentation is at https://tg-react.readthedocs.org.## QuickstartInstall tg-react:```pip install tg-react```Then use it in a project:```import tg_react```## Features* TODO.. TODO: List features and link to documentation for more information## ChangelogChanges are documented under `Github Releases &lt;https://github.com/thorgate/tg-react/releases&gt;`_.</longdescription>
 </pkgmetadata>

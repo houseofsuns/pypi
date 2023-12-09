@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># OpenResty Edge SDK### IntroductionPython SDK of [OpenResty Edge](https://openresty.com/en/edge/), which provides users with the ability to write custom tools to use OpenResty Edge.### Installation```pip install openresty-edge-sdk```### Usage```pythonfrom edge2client import Edge2Clientclient = Edge2Client('http://127.0.0.1:8080', 'username', 'password')client.login()app_id = client.new_app(domains = ['orig.foo.com'], label = 'origin site for foo.com')print(app_id)```</longdescription>
 </pkgmetadata>

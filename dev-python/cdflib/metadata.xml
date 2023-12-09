@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Run tests](https://github.com/MAVENSDC/cdflib/actions/workflows/ci.yml/badge.svg)](https://github.com/MAVENSDC/cdflib/actions/workflows/ci.yml)[![codecov](https://codecov.io/gh/MAVENSDC/cdflib/branch/master/graph/badge.svg?token=IJ6moGc40e)](https://codecov.io/gh/MAVENSDC/cdflib)[![DOI](https://zenodo.org/badge/102912691.svg)](https://zenodo.org/badge/latestdoi/102912691)[![Documentation Status](https://readthedocs.org/projects/cdflib/badge/?version=latest)](https://cdflib.readthedocs.io/en/latest/?badge=latest)# CDFlib`cdflib` is a python module to read/write CDF (Common Data Format `.cdf`) files without needing to install the[CDF NASA library](https://cdf.gsfc.nasa.gov/).Python &gt;= 3.8 is required.The core of this package uses only numpy, with no complicated compiler requirements.## InstallTo install, open up your terminal/command prompt, and type:```shpip install cdflib```## DocumentationThe full documentation can be found here:[https://cdflib.readthedocs.io/en/latest/](https://cdflib.readthedocs.io/en/latest/)</longdescription>
 </pkgmetadata>

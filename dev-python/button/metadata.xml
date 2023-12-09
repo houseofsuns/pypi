@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ButtonTiny automation tool written by Python## IntroductionButton is a simple wrapper program for executing command line program or user-defined python script. Button provides abstract classes that can be extended to meet users' requirements.## Installation```bash$ pip install button```## Usage```# pre-defined task to enumerate available tasks$ btn tasks$ btn &lt;user-defined task name&gt;# taskdir can be changed by command-line option '--taskdir'$ btn --taskdir mybuttons tasks```## ExamplesSee, [examples](https://github.com/somssi/button/tree/master/examples).</longdescription>
 </pkgmetadata>

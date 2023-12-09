@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Flask-StorageSimple and easy file storages for FlaskFlask-Storage is a community driven fork of [Flask-FS](https://github.com/noirbizarre/flask-fs)## CompatibilityFlask-Storage requires 3.9+ and Flask 1.1.4.Amazon S3 support requires Boto3.## InstallationYou can install Flask-Storage with pip:.. code-block:: console    $ pip install flask-storage    # or    $ pip install flask-storage[s3]  # For Amazon S3 backend support## Quick start.. code-block:: python    from flask import Flask    import flask_storage as fs    app = Flask(__name__)    fs.init_app(app)    images = fs.Storage('images')    if __name__ == '__main__':        app.run(debug=True)## DocumentationThe full documentation is hosted [on Read the Docs](http://flask-storage.readthedocs.org/en/latest/)</longdescription>
 </pkgmetadata>

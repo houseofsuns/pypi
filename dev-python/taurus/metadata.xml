@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Taurus is a python framework for control and dataacquisition CLIs and GUIs in scientific/industrial environments.It supports multiple control systems or data sources: Tango, EPICS,...New control system libraries can be integrated through plugins.</longdescription>
 </pkgmetadata>

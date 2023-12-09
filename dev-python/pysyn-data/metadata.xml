@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package is for generating synthetic data using 4 models i.e Conditional Genrative Adveserial Networks(CTGAN), Gaussian Mixture Model (GMM), Prinicipal Component Analysis (PCA) and Bayesian Network (BN). It also informs the user which model will work best based on the input data characterisitics. This package was created in TAVLAB under guidance of Dr. Tavpritesh Sethi (Computational Biology Lab under Dr Tavpritesh Sethi at IIITD) for Clinical Data Synthesis Project at Indraprastha Institute of Information Technology, Delhi.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>yatracker-linker---------------------Allows to link Yandex Tracker issues with different VCS (e.g. Gitlab).</longdescription>
 </pkgmetadata>

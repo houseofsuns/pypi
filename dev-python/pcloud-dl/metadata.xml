@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pcloud-dlpcloud-dl is a Python package that allows you to download public files from pCloud using their public link or code.## InstallationYou can install pcloud-dl using pip:```pip install pcloud-dl```## UsageTo download a file, simply run:```pcloud-dl &lt;link/code&gt;```where `&lt;link/code&gt;` is the public link or code of the file you want to download.The downloaded file will be saved in the current directory with the same name as the original file.## ExampleTo download a file with the public link `https://u.pcloud.link/publink/show?code=XZtTpwVZnMvzSRIY2vhs6zCQgfHtI8Oya3YV`, run:```pcloud-dl https://u.pcloud.link/publink/show?code=XZtTpwVZnMvzSRIY2vhs6zCQgfHtI8Oya3YV```This will download the file to your current directory with the same name as the original file.## Licensepcloud-dl is licensed under the MIT License. See [LICENSE](https://github.com/javsensei/pcloud-dl/blob/main/LICENSE) for more information.</longdescription>
 </pkgmetadata>

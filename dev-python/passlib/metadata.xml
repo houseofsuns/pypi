@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Passlib is a password hashing library for Python 2 &amp; 3, which providescross-platform implementations of over 30 password hashing algorithms, as wellas a framework for managing existing password hashes. It's designed to be usefulfor a wide range of tasks, from verifying a hash found in /etc/shadow, toproviding full-strength password hashing for multi-user applications.* See the `documentation &lt;https://passlib.readthedocs.io&gt;`_  for details, installation instructions, and examples.* See the `homepage &lt;https://foss.heptapod.net/python-libs/passlib/wikis/home&gt;`_  for the latest news and more information.* See the `changelog &lt;https://passlib.readthedocs.io/en/stable/history&gt;`_  for a description of what's new in Passlib.All releases are signed with the gpg key`4D8592DF4CE1ED31 &lt;http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0x4D8592DF4CE1ED31&gt;`_.</longdescription>
 </pkgmetadata>

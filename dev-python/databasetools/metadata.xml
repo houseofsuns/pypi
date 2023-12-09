@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A collection of database tools written in Python for handling basic actions with CSV files, numpy dictionaries, SQLite databases and MySQL databases.</longdescription>
 </pkgmetadata>

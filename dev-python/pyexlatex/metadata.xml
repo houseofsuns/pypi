@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![](https://codecov.io/gh/nickderobertis/py-ex-latex/branch/master/graph/badge.svg)](https://codecov.io/gh/nickderobertis/py-ex-latex)# &lt;img src=&quot;https://nickderobertis.github.io/derobertis-project-logo/_images/pyexlatex.svg&quot; height=&quot;27px&quot; align=&quot;left&quot;&gt;&lt;/img&gt; py-ex-latex## OverviewThis project is aimed at creating LaTeX documents using only Python,without directly writing LaTeX code. Ratherthan building a direct Python API to LaTeX, this package has its own,simpler API to creating documents.## LinksSee the[documentation here.](https://nickderobertis.github.io/py-ex-latex/)## AuthorCreated by Nick DeRobertis. MIT License.</longdescription>
 </pkgmetadata>

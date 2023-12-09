@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Shardmonster============A tool for managing sharding of Mongo using pure Python. Crucially, allows formulti-version clusters of Mongo. Useful for upgrades.Docs available at http://shardmonster.readthedocs.org/en/latest/</longdescription>
 </pkgmetadata>

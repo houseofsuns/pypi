@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># dojoAlgo Dojo is a Python library for program traders are convenient to use our lib for program trading## InstallationUse the package manager [pip]() to install algodojo.```bashpip install algodojo```## Usage```pythonimport algodojo```## ContributingPull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.Please make sure to update tests as appropriate.## License</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>HashiCorp Vault API python 3.6+ client using asyncio.</longdescription>
 </pkgmetadata>

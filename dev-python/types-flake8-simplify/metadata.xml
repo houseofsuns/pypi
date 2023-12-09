@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for flake8-simplifyThis is a PEP 561 type stub package for the `flake8-simplify` package. Itcan be used by type-checking tools like[mypy](https://github.com/python/mypy/),[pyright](https://github.com/microsoft/pyright),[pytype](https://github.com/google/pytype/),PyCharm, etc. to check code that uses`flake8-simplify`. The source for this package can be found athttps://github.com/python/typeshed/tree/main/stubs/flake8-simplify. All fixes fortypes and metadata should be contributed there.This stub package is marked as [partial](https://peps.python.org/pep-0561/#partial-stub-packages).If you find that annotations are missing, feel free to contribute and help complete them.See https://github.com/python/typeshed/blob/main/README.md for more details.This package was generated from typeshed commit `13359d1281a6e6944b1f4e1228630f8862c7bd0c` and was testedwith mypy 1.5.1, pyright 1.1.328, andpytype 2023.8.31.</longdescription>
 </pkgmetadata>

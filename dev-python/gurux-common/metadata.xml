@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>See An [Gurux](http://www.gurux.org/ &quot;Gurux&quot;) for an overview.Join the Gurux Community or follow [@Gurux](https://twitter.com/guruxorg &quot;@Gurux&quot;) for project updates.gurux.common.python package implements interfaces that are needed for Gurux Media components and Gurux Device Framework. Purpose of Gurux Device Framework is help you to read your devices, meters and sensors easier.For more info check out [Gurux](http://www.gurux.org/ &quot;Gurux&quot;).We are updating documentation on Gurux web page. If you have problems you can ask your questions in Gurux [Forum](http://www.gurux.org/forum).You can get source codes from http://www.github.com/gurux or intall package: ```pythonpip install gurux-common```</longdescription>
 </pkgmetadata>

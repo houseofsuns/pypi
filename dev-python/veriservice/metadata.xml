@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Veri Python ClientPython client for veri```shell scriptpip install veriservice``````pythonimport veriservice``````pythonservice = &quot;localhost:5678&quot;veriservice.init_service(service, &quot;./tmp&quot;)client = veriservice.VeriClient(service, &quot;example_data&quot;)data_conf = {}client.create_data_if_not_exists(data_conf)data = [            {                'label': 'a',                'feature': [0.5, 0.1, 0.2]            },            {                'label': 'b',                'feature': [0.5, 0.1, 0.3]            },            {                'label': 'c',                'feature': [0.5, 0.1, 1.4]            },        ]for d in data:    client.insert(d['feature'], d['label'].encode())result = client.search([[0.1, 0.1, 0.1]])for i in result:    print(i)result = client.data()for i in result:    print(i)```</longdescription>
 </pkgmetadata>

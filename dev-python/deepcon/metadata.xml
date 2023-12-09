@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Deepcon-packagePython package for the DEEPCON contact prediction tool at https://github.com/ba-lab/DEEPCON## How to install DEEPCON package?```bashpip3 install deepcon```## How to test DEEPCON package?```bashwget https://raw.githubusercontent.com/ba-lab/deepcon-package/master/deepcon/test/1a0tP0.aln``````bashwget https://raw.githubusercontent.com/ba-lab/deepcon-package/master/deepcon/weights-rdd-covariance.hdf5``````bashpython3``````pythonimport deepconfrom deepcon import deepconcovariancedeepconcovariance.main(&quot;1a0tP0.aln&quot;,&quot;1a0tP0.rr&quot;)```To print the contact map as image, add the image name as the last parameter (optional)```deepconcovariance.main(&quot;1a0tP0.aln&quot;,&quot;1a0tP0.rr&quot;, &quot;1a0tP0.png&quot;)```Example contact map as an image:![](1a0tP0.png)### Python package developed by:Chase Richards&lt;br/&gt;Email: CNRichards@gmail.com</longdescription>
 </pkgmetadata>

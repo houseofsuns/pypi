@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MSE CLI CoreComponents used by both [mse-cli](https://github.com/Cosmian/mse-cli) and [mse-home-cli](https://github.com/Cosmian/mse-home-cli)</longdescription>
 </pkgmetadata>

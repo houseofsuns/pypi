@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># chainingiteratorA python wrapper-library for iterators to be usable via chaining(such as C#, Java streams or Rust iterators). Extended functionality based on Rust's buit-in iterators. </longdescription>
 </pkgmetadata>

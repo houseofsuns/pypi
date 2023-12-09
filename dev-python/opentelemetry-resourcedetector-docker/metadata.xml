@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># opentelemetry-resourcedetector-dockerAn OpenTelemetry package to populates Resource attributes from Docker containers.## Usage```from opentelemetry.sdk.resources import get_aggregated_resourcesfrom opentelemetry_resourcedetector_docker import DockerResourceDetector...resource = get_aggregated_resources([    DockerResourceDetector(),    SomeOtherResourceDetector()])... pass the returned `resource` to a TracerProvder, for example ...```</longdescription>
 </pkgmetadata>

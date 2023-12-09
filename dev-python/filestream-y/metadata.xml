@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># A package that can automatically obtain the file suffix### Install    pip install filestream-y### Use    from filestream_y.FileStream_y import stream_type    stream = stream_type(&lt;file_bytes&gt;)    print(stream)</longdescription>
 </pkgmetadata>

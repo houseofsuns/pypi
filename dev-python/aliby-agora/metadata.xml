@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># AgoraShared tools for data processing within the aliby pipeline.## InstallationIf you just want to use the tools.```bash&gt; pip install aliby-argo```Or, for development, clone this repository and then install using pip:```bash&gt; pip install -e argo/```</longdescription>
 </pkgmetadata>

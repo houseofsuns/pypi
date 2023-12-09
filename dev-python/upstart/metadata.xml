@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>An intuitive library interface to Upstart for service and job management. Requires the python-dbus Ubuntu package or equivalent.</longdescription>
 </pkgmetadata>

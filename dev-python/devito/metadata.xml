@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>      Devito is a tool for performing optimised Finite Difference (FD)      computation from high-level symbolic problem definitions. Devito      performs automated code generation and Just-In-time (JIT) compilation      based on symbolic equations defined in SymPy to create and execute highly      optimised Finite Difference stencil kernels on multiple computer platforms.</longdescription>
 </pkgmetadata>

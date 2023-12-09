@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>What is it?===========LFC is a Content Manangement System based on DjangoDemo====* http://demo.django-lfc.comGroup=====* http://groups.google.com/group/django-lfcCode====* http://github.com/diefenbach/django-lfcChanges=======1.1.1 (2014-06-27)------------------* Adds Pillow to ``install_requires``* Adds django-compressor to ``install_requires``* Fixes german translation for lfc-contact-form1.1 (2014-06-26)----------------* Adds Django 1.6 support* Factores out page content type to lfc-page* Factores out portlets to lfc-portlets* Factores out contact form to lfc-contact-form</longdescription>
 </pkgmetadata>

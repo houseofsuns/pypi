@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># netbox-plugin-unacceptable-events-users-computers```bashpip3 install netbox-unacceptable-events-users-computers```Добавить в файле netbox/netbox/configuration.py```PLUGINS = [    'ptuevents']```В командной строке```./manage.py migrate```Перезапустить сервер netbox.</longdescription>
 </pkgmetadata>

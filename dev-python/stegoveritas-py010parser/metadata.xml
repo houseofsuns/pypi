@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>py010parser is a modified fork of the pycparser project. It ispure Python using the PLY parsing library. It parses 010 templatesinto an AST.</longdescription>
 </pkgmetadata>

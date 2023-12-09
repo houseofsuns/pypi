@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># idfInterface Definition Framework: specify how codes talk to each other and auto-generate corresponding code</longdescription>
 </pkgmetadata>

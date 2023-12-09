@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>python-freeipa is lightweight FreeIPA client.API documentation: https://python-freeipa.readthedocs.io/</longdescription>
 </pkgmetadata>

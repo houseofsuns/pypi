@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Turn strings like &quot;packagename.modulename:Eval().the_rest()&quot;into whatever you would get back by performing a similar sequence of imports and calls. This is useful for config filesand situations where you would like to import things in a lazy way. Later this package will probably provide a way to restrict resolution for safety.</longdescription>
 </pkgmetadata>

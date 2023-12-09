@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Fake Headers**An ideal tool for generating random user agents**```User Agents:Elementaryos # elementary OSBlackberry   # blackberryOpenbsd      # openbsdWindows      # windowsConsole      # nintendo/ps/xboxAndroid      # androidSumbian      # sumbian OSSunos        # Sun OSLinux        # fedora/ubuntu/debian &amp; otherIos          # ios``````pythonfrom headers import uaua.elementaryos() #Generate elementary OS user agentua.blackberry() #Generate Blackberry user agentua.windows() #Generate Windows user agentua.console() #Generate Nintendo/PS/Xbox user agentua.openbsd() #Generate OpenBSD user agentua.sumbian() #Generate Sumbian user agentua.android() #Generate Android user agentua.sunos() #Generate sun OS user agentua.linux() #Generate Linux user agentua.ios() #Generate IOS user agent```</longdescription>
 </pkgmetadata>

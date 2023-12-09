@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## pymielePython library for Miele integration with Home Assistant.The library is distributed via pypi.org.### Installation```bash$ pip install pymiele```</longdescription>
 </pkgmetadata>

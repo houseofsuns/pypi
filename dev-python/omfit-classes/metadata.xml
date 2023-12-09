@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>To achieve these goals OMFIT adopts a bottom-up collaborative development approach.For more info and tutorials visit the OMFIT `documentation website &lt;https://omfit.io&gt;`_ .The OMFIT source code is maintained as a `GitHub repository &lt;https://github.com/gafusion/OMFIT-source&gt;`_ .Fill out the OMFIT users agreement `OMFIT users agreement form &lt;http://form.omfit.io&gt;`_ to be added to the GitHub repository or the mailing list.The GitHub `issue tracking system &lt;https://github.com/gafusion/OMFIT-source/issues?state=open&gt;`_ is the best way to file bug reports and make feature requests.OMFIT users and developers are welcome to join the OMFIT `DISCORD server &lt;https://discord.gg/ARDn3qD7CE&gt;`_.</longdescription>
 </pkgmetadata>

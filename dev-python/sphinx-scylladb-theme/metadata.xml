@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=====================ScyllaDB Sphinx Theme=====================Sphinx theme for ScyllaDB documentation projects.`Read More: &lt;https://github.com/scylladb/sphinx-scylladb-theme&gt;`_</longdescription>
 </pkgmetadata>

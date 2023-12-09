@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>0.5 pod release alters API and database format and is not backward compatible</longdescription>
 </pkgmetadata>

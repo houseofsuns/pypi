@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># vs-aa### VapourSynth anti aliasing and scaling functions&lt;br&gt;Wrappers for aa/scaling plugins and functions, aimed to have compatibility with vs-kernels scalers.For support you can check out the [JET Discord server](https://discord.gg/XTpc6Fa9eB). &lt;br&gt;&lt;br&gt;## How to installInstall `vsaa` with the following command:```shpip install vsaa```Or if you want the latest git version, install it with this command:```shpip install git+https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Plotly chart component for Streamlit that also allows for events to bubble back up to Streamlit.</longdescription>
 </pkgmetadata>

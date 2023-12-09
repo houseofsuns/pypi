@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># corpus-pax![Github CI](https://github.com/justmars/corpus-pax/actions/workflows/main.yml/badge.svg)Using Github API (to pull individuals, orgs, and article content), setup a local sqlite database, syncing images to Cloudflarel utilized in the [LawSQL dataset](https://lawsql.com).## DocumentationSee [documentation](https://justmars.github.io/corpus-pax).## DevelopmentCheckout code, create a new virtual environment:```shpoetry add corpus-pax # python -m pip install corpus-paxpoetry update # install dependenciespoetry shell```Run tests:```shpytest```</longdescription>
 </pkgmetadata>

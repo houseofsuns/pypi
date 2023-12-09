@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>It provides several utilities for achieving a *fixed state* when testingPython programs.  Specifically, these utilities setup / teardown databases andwork with temporary file systems.You may want to start by reading the `End User Documentation`_... _End User Documentation: http://farmdev.com/projects/fixture/docs/</longdescription>
 </pkgmetadata>

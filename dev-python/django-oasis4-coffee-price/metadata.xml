@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Coffee Price ModuleThis module has been created to offer access to the coffee price table via REST services. The system requires theCHFL-OASIS module for its operation.## Service directorycoffee_price/list/: Return a product list with its price for 125Kg.coffee_price/</longdescription>
 </pkgmetadata>

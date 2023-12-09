@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Mentat SIEM - README================================================================================For more information about this project please refer to following resources:* `Official project webpage &lt;https://mentat.cesnet.cz/en/index&gt;`__* `Official project documentation &lt;https://alchemist.cesnet.cz/mentat/doc/production/html/manual.html&gt;`__* `Issue tracking system &lt;https://homeproj.cesnet.cz/projects/mentat&gt;`__* `Code repository &lt;https://homeproj.cesnet.cz/git/mentat-ng.git/&gt;`__Copyright--------------------------------------------------------------------------------| Copyright: (C) since 2011 CESNET, z.s.p.o (http://www.ces.net/)| Author: Jan Mach &lt;jan.mach@cesnet.cz&gt;| Use of this package is governed by the MIT license, see LICENSE file.|</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># .github-testThis is a repo in which we can tests our [organization-level github workflows][w].[w]: https://github.com/openclimatefix/.github/tree/main/.github/workflows</longdescription>
 </pkgmetadata>

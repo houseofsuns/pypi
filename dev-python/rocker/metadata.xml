@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A tool to run docker containers with customized extra added like nvidia gui support overlayed.</longdescription>
 </pkgmetadata>

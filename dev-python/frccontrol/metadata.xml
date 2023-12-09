@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>frccontrol##########Provides SciPy wrappers for easing development of state-space models forthe FIRST Robotics Competition.Dependencies************- `Python 3.5 or newer &lt;https://www.python.org/downloads/&gt;`_- Matplotlib- NumPy- SciPyInstallation************On Windows, execute::    py -m pip install frccontrolOn Linux/OSX, execute::    pip install frccontrol</longdescription>
 </pkgmetadata>

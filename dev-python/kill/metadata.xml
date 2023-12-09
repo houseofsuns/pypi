@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/kill.svg?maxAge=3600)](https://pypi.org/project/kill/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install kill```#### Examples```python&gt;&gt;&gt; kill.kill(61024)&gt;&gt;&gt; kill.kill([61076])```errors```python&gt;&gt;&gt; kill.kill(9999999)kill: 999999: No such process&gt;&gt;&gt; kill.kill(1)kill: (1) - Operation not permitted```&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># README.md# Rubrix is now ArgillaThis package has been renamed. Use `pip install argilla` instead.New package: https://pypi.org/project/argilla/</longdescription>
 </pkgmetadata>

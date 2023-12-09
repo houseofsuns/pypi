@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># RAPyDo REST APIsREST APIs integrated with the RAPyDo frameworkBased on:- Flask- flask-apispec with apispec- marshmallow- webargs- Flask-Caching- PyJWT- passlib- pyotp With segno- Flask-SQLAlchemy- Neomodel- PyMySQL- Redis-py- pika with amqp- celery with celery-redbeat- gunicorn with gevent</longdescription>
 </pkgmetadata>

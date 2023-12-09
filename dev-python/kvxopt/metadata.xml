@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>KVXOPT is a fork from CVXOPT wich contains more functions andwrappers to Suite Sparse library.CVXOPT is a free software package for convex optimization based on thePython programming language. It can be used with the interactive Pythoninterpreter, on the command line by executing Python scripts, orintegrated in other software via Python extension modules. Its mainpurpose is to make the development of software for convex optimizationapplications straightforward by building on Python's extensive standardlibrary and on the strengths of Python as a high-level programminglanguage.</longdescription>
 </pkgmetadata>

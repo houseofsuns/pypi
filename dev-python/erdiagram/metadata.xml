@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ERdiagram: Entity relationship diagrams for SQLalchemyThis package is heavily based on: https://github.com/fschulze/sqlalchemy_schemadisplay.</longdescription>
 </pkgmetadata>

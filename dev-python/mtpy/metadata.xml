@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>MTPy is an open source Python package to assist with magnetotelluric (MT) data processing, analysis,modelling, visualization and interpretation.</longdescription>
 </pkgmetadata>

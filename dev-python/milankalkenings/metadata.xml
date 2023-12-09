@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>a small PyPI package that implements basic functionalities needed in a wide range of deep learning projects.</longdescription>
 </pkgmetadata>

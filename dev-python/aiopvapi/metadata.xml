@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>AioPvApi========A python asyncio API for PowerView blinds.Written for Home-Assistant. Adding features as I go...Have a look at the examples folder for some guidance how to use it.Links------ https://home-assistant.io/- https://www.hunterdouglas.com/operating-systems/powerview-motorizationChangelog---------**v1.6.19**- Add endpoints and handle 423 response- Remove loop as argument**v2.0.0**- Add support for all known shade types- Fallback to shade recognition based on capability- Clamping to prevent MIN_POSITION or MAX_POSITION being exceeded- Code refactoring**v2.0.1**- Invert type 3 &amp; 4 to match api documentation from hunter douglas- Add type 10**v2.0.2**- Bug Fix to handle shades with unexpected json responses**v2.0.3**- Add Type 26, 27 &amp; 28 - Skyline Panels- Force capability 1 for Type 44 - Twist- Align class name standard**v2.0.4**- Add Type 10 - SkyLift- Handle calls to update shade position during maintenance- Raise error directly on hub calls instead of logger</longdescription>
 </pkgmetadata>

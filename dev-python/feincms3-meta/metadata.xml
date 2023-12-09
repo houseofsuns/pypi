@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=============feincms3-meta=============.. image:: https://github.com/matthiask/feincms3-meta/actions/workflows/tests.yml/badge.svg    :target: https://github.com/matthiask/feincms3-meta/    :alt: CI StatusHelpers and mixins for making meta and `open graph &lt;http://ogp.me/&gt;`__tags less annoying.Documentation is available as a part of `feincms3&lt;https://feincms3.readthedocs.io/&gt;`__'s documentation.The guide is here: `Meta and OpenGraph tags&lt;https://feincms3.readthedocs.io/en/latest/guides/meta-opengraph-tags.html&gt;`__.Despite its name and the fact that it is documented as a part offeincms3, feincms3-meta can also be used standalone.</longdescription>
 </pkgmetadata>

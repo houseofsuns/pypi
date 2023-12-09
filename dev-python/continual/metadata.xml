@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python CLI and SDK for ContinualContinual is an operational AI for the modern data stack. Learn more athttps://continual.ai.## Getting StartedTo install the Continual CLI and SDK run:```pip3 install continual```</longdescription>
 </pkgmetadata>

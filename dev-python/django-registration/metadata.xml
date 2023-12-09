@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. -*-restructuredtext-*-.. image:: https://github.com/ubernostrum/django-registration/workflows/CI/badge.svg   :alt: CI status image   :target: https://github.com/ubernostrum/django-registration/actions?query=workflow%3ACIThis is a user-registration application for `Django&lt;https://www.djangoproject.com/&gt;`_. There are two registrationworkflows (one-step, and two-step with activation) built in, and it'sdesigned to be extensible and support building additional workflows.To get started, check out `the documentation&lt;https://django-registration.readthedocs.io/&gt;`_.</longdescription>
 </pkgmetadata>

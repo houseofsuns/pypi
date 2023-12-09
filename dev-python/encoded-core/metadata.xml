@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>============encoded-core============Welcome to ``encoded-core``!This library contains common data models used across ENCODE style projectsimplemented by the Park Lab.</longdescription>
 </pkgmetadata>

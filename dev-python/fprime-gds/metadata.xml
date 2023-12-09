@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package contains the Python files used to run the F prime Ground Data System and Test API.It is intended to supply the user with the ability to test F prime flight software in anintegrated configuration with ground in-the-loop.    </longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Tarsafe![Unit Tests](https://github.com/beatsbears/tarsafe/workflows/Unit%20Tests/badge.svg)Tarsafe is a drop-in replacement for the tarfile module from the standard library to safely handle the vulnerable `extractall()` method. Inspired by a [6 year old security bug](https://bugs.python.org/issue21109).## Installation```$ pip install tarsafe```## Usage```from tarsafe import TarSafetar = TarSafe.open(&quot;example.tar&quot;, &quot;r&quot;)tar.extractall()tar.close()# ORwith TarSafe.open(&quot;example.tar&quot;, &quot;r&quot;) as tar:    tar.extractall()```</longdescription>
 </pkgmetadata>

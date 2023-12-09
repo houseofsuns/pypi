@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Cerberus-KIND=================Help to select a schema by &quot;kind&quot; key on cerberus.Installation==============$ pip install cerberus-kindHow To Use==============Visit : https://github.com/onetop21/cerberus-kind</longdescription>
 </pkgmetadata>

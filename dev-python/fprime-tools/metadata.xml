@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package contains the necessary core data types used by F prime. Users who seek to develop tools,utilities, and other libraries used to interact with F prime framework code can use these data typesto interact with the data coming from the FSW.    </longdescription>
 </pkgmetadata>

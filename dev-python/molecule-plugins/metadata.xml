@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># molecule-pluginsThis repository contains the following molecule plugins:- azure- containers- docker- ec2- gce- podman- vagrantInstalling `molecule-plugins` does not install dependencies specific to each,plugin. To install these you need to install the extras for each plugin, like`pip3 install 'molecule-plugins[azure]'`.Before installing these plugins be sure that you uninstall their old standalonepackages, like `pip3 uninstall molecule-azure`. If you fail to do so, you willend-up with a broken setup, as multiple plugins will have the same entry points,registered.</longdescription>
 </pkgmetadata>

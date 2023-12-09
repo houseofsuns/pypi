@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># OpenWebPOSOpenWebPOS is a web-based point of sale system written in python using the Flask framework.## InstallationRun the following to install:```bash$ pip install openwebpos```## Usage```pythonfrom openwebpos import create_appapplication = create_app()if __name__ == &quot;__main__&quot;:    application.run()```# DevelopingTo install openwebpos, along with the tools you need to develop and run tests, run the following in your virtualenv:```bash$ pip install -e .[dev]```</longdescription>
-</pkgmetadata>

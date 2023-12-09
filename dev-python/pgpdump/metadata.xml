@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># python-pgpdump: a Python library for parsing PGP packetsThis is based on the C version published at:http://www.mew.org/~kazu/proj/pgpdump/The intent here is not on completeness, as we don't currently decode everypacket type, but on being able to do what people actually have to 95% of thetime. Currently supported things include:* Signature packets* Public key packets* Secret key packets* Trust, user ID, and user attribute packets* ASCII-armor decoding and CRC checkA single codebase with dependencies on only the standard python library iscompatible across Python 2.6, 2.7, and 3.2+, as well as with PyPy 1.8+.</longdescription>
 </pkgmetadata>

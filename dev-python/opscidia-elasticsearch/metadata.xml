@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># opscidia_elastisearchTools to manage elasticsearch indexes # Installation ## From pip```bashpip install opscidia-elasticsearch```# Python usage```pythonfrom opscidia_elasticsearch import Managermg = Manager(hosts='url-to-es')      # Connect to ESmg.create_index(index_name='')       # to create indexmg.save_to_index(generator=None)     # to save generator```</longdescription>
 </pkgmetadata>

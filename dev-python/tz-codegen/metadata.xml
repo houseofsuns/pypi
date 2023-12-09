@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># TrustZone code generatorTrustzone module code generator for the Authentic Execution framework## Installation```bash# from the root of this repositorypip install .```## Run```bash#TODO```## General rulesTODO</longdescription>
 </pkgmetadata>

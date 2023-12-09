@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A Girder plugin to store and display annotations on large, multiresolution images.See the large-image package for more details.</longdescription>
 </pkgmetadata>

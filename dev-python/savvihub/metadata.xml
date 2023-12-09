@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># `savvihub-python-sdk`## Basic usage```pythonimport savvihubsavvihub.init(organization_name=&quot;my-organization&quot;)savvihub.create_experiment(...)```## Integrations### Keras- Use ExperimentCallback```pythonimport savvihubfrom savvihub.integration.keras import ExperimentCallbacksavvihub.init()# Keras training codemodel = Model()model.compile(...)# Add integrationmodel.fit(x, y, epochs=5, callbacks=[ExperimentCallback()])```- Run experiment on Savvihub using Web UI or SDK</longdescription>
 </pkgmetadata>

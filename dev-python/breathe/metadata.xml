@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Breathe is an extension to reStructuredText and Sphinx to be able to read and render `Doxygen &lt;http://www.doxygen.org&gt;`__ xml output.</longdescription>
 </pkgmetadata>

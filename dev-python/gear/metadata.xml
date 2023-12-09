@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>python-gear===========A pure-Python asynchronous library to interface with Gearman.</longdescription>
 </pkgmetadata>

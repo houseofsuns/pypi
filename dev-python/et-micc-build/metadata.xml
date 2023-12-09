@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=============et-micc-build=============`Micc-build &lt;https://github.com/etijskens/et-micc-build&gt;`_ is a companion to `Micc &lt;https://github.com/etijskens/et-micc&gt;`_ aiming at building binary extensionmodules written in C++ or Fortran. * Free software: MIT license* Documentation: https://et-micc-build.readthedocs.io.</longdescription>
 </pkgmetadata>

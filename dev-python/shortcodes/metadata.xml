@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Shortcodes==========A library for parsing customizable WordPress-style shortcodes. Useful as adrop-in component in text-processing applications.Supports shortcodes with space-separated positional and keyword arguments::    [% tag arg1 &quot;arg 2&quot; key1=arg3 key2=&quot;arg 4&quot; %]Shortcodes can be atomic or block-scoped and can be nested to any depth.Innermost shortcodes are processed first::    [% tag %] ... content with [% more %] shortcodes ... [% endtag %]Shortcode syntax is customizable::    &lt;tag arg=&quot;foo&quot;&gt; ... &lt;/tag&gt;See the project's `Github homepage &lt;https://github.com/dmulholl/shortcodes&gt;`_for further details.Note that this package requires Python 3.</longdescription>
 </pkgmetadata>

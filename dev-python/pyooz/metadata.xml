@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pyoozPython bindings to the ooz decompressor. Supports at least x64 and ARM64 thanks to SIMDe.</longdescription>
 </pkgmetadata>

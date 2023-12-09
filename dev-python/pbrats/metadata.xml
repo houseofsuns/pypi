@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># IntroductionIt is used to generate tables of scores for bridge games````pip install pbr # install packagepbr sample      # download sample xlsx for reference: record.xlsx                # edit xlsx for team and add data in first sheet (sheet name with datetime like 2021-05-19)pbr record.xlsx # check result, mostly record.html````see sample [https://xrgopher.gitlab.io/pbrats](https://xrgopher.gitlab.io/pbrats)## GuidelineIn sheet `team`````hostguestgopherzyjlhylllllxjtuzhulihaowingzero````In sheet `2021-05-12`, set this as default````id12345678gopherW3NT+2S2D+1S1H=S3NT-2S5Hx=N4SX-3S3NT+2W1NT=zyjW3NT+1S2D+2S1H=S3NT-3W5CX-1N4SX-3S3NT+2E1S=xjtuzhuW3NT+1S2D+2S1H=S3NT-3W5CX-3N4SX-2S3NT+2W1NT-1lihaoW3NT+2S2D+1S1H=S3NT-2W5CX-2N4SX-3S3NT+2W1NT=wingzeroW3NT+2S2D=S1H=S3NT-2W5CX-3N4SX-5S3NT+2S1NT-2lhylllllW3NT+1S2D+2S1H+1S3NT-1W5CX-3N4SX-3S3NT+2W1NT-1````# Contact* gopher in xinrui app# Credits* inspired with http://www.bridgeconex.com/IndexBC.aspx* some codes are from https://github.com/anntzer/redeal</longdescription>
 </pkgmetadata>

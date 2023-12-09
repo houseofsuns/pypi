@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>It parses image files' header and return image size.* PNG* JPEG* JPEG2000* GIF* TIFF* SVG* Netpbm* WebPThis is a pure Python library.</longdescription>
 </pkgmetadata>

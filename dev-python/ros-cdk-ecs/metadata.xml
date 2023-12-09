@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Aliyun ROS ECS Construct LibraryThis module is part of the AliCloud ROS Cloud Development Kit (ROS CDK) project.```pythonimport * as ECS from '@alicloud/ros-cdk-ecs';```</longdescription>
 </pkgmetadata>

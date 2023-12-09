@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===================django-microsip-api===================api de modelos de microsip para djangoInstall or update-------### latest version ###```pip install --upgrade --no-cache-dir microsip_api```### An specific release version ###```pip install --upgrade django_microsip_api = [version]</longdescription>
 </pkgmetadata>

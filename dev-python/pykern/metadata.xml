@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PyKern======PyKern is an application support framework to simplify and to speeddevelopment of Python programs and servers.PyKern defines policies, which make it easy to eliminate boiler-plate.For more info, `read the API Docs &lt;http://pykern.readthedocs.org&gt;`_git-commit=9c5a0e821c57f57bee67e6bddee03a78d316ff41</longdescription>
 </pkgmetadata>

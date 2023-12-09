@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Shopcloud-Streams-CLIShopcloud Streams CLI Package thats send the events per PubSub to the streams backend where the magic happend.## Install```py$ pip install shopcloud-streams````## Usage```pyfrom shopcloud_streams import Event as StreamEventEvent(&quot;de.talk-point.streams/test_fired&quot;, {'pk' :'&lt;pk&gt;'}).fire()```## Develop```sh$ pytest```## Deploy to PyPi```sh$ pip3 install wheel twine$ python3 setup.py sdist bdist_wheel$ twine upload dist/*```</longdescription>
 </pkgmetadata>

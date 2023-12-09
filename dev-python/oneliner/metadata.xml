@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>*oneliner*----------This module tries to improve Python's usefulness as a tool for writingshell one-liners... code-block:: bash    # show line numbers    python -m oneliner -ne '&quot;%5d: %s&quot; % (NR, _)' &lt; input.txt    # convert unix timestamp to something more human readable    date +%s | pyl -j ' =&gt; ' -line '_, datetime.datetime.fromtimestamp(int(_))'    # 1355256353 =&gt; 2012-12-11 22:05:53    # triple space a file    pyl -ne 'line + &quot;\n&quot;*2' &lt; input.txt    # double space only non-blank lines:    pyl -ne '_ if re.match(&quot;^$&quot;, _) else _+&quot;\n&quot;' input.txtDocumentation:    http://python-oneliner.readthedocs.org/en/latest/Development:    https://github.com/gvalkov/python-onelinerPackage:    http://pypi.python.org/pypi/oneliner</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Band\t Software Developement Kit#### Common tools in one place.This library is written for economy time of developement.Common usage tools in one touch. GPL-3.0 license.The library contains the next packages:### GitHub Repository:&lt;a href=https://github.com/4ngry-GitHub/banditsdk&gt;Click here&lt;/a&gt;### Authors nicnames:&lt;ul&gt;&lt;li&gt; &lt;a href=https://github.com/4ngry-GitHub&gt;AngryDanny+&lt;/a&gt; &lt;/li&gt;&lt;li&gt; &lt;a href=https://github.com/NazikXY&gt;N_XY&lt;/a&gt; &lt;/li&gt;&lt;/ul&gt;### Included libraries:&lt;ul&gt;&lt;li&gt;&lt;a href=https://docs.pydantic.dev/&gt;Pydantic&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=https://www.sqlalchemy.org/&gt;SqlAlchemy&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</longdescription>
 </pkgmetadata>

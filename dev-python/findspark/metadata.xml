@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>        Provides findspark.init() to make pyspark importable as a regular library.    </longdescription>
 </pkgmetadata>

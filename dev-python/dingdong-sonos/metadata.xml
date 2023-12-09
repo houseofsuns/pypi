@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Publish to PyPI.org](https://github.com/leokster/dingdong_sonos/actions/workflows/publish-pypi.yml/badge.svg?event=release)](https://github.com/leokster/dingdong_sonos/actions/workflows/publish-pypi.yml)# DinDongAdd some flair to your office routine with the charm of nostalgia. Have you ever yearned for those good old school days when the bell signalled a break? Now, with dingdong-sonos, you can recreate that same anticipation in your office environment. Just one command transforms your Sonos system into a school bell, reminding everyone to take that well-deserved pause. Rediscover the joy of break time with dingdong-sonos 🔔!# How to use it```pip install dingdong-sonosdingdong```You can adjust the volume or set the sonos_ip:```dingdong --sonos_ip &lt;ip-of-your-sonos&gt; --volume 80</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>libpolarbytebot===============Library of functions, database models and regex expressions which I use for the implementation of /u/polarbytebot.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/python-solumclient.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point onPython bindings to the Solum API================================This is a client library for Solum built on the Solum API.* Free software: Apache license* Documentation: https://wiki.openstack.org/wiki/SolumInstallation============At the command line::    $ pip install python-solumclientOr, if you have virtualenvwrapper installed::    $ mkvirtualenv python-solumclient    $ pip install python-solumclientUsage========To use python-solumclient in a project::    import solumclient</longdescription>
 </pkgmetadata>

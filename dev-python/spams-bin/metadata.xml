@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python interface for SPArse Modeling Software (SPAMS),an optimization toolbox for solving various sparse estimation problems.This (unofficial) version includes pre-built wheels for python 3 on windows, mac (with openmp support) and linux.The source code for this fork is also available at https://github.com/samuelstjean/spams-python/</longdescription>
 </pkgmetadata>

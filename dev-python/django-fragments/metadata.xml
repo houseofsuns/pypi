@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># django-fragments![Github CI](https://github.com/justmars/django-fragments/actions/workflows/main.yml/badge.svg)## PurposeUsed for partial template rendering of: `&lt;input&gt;`, `&lt;svg&gt;` tags. Originally for a Django [boilerplate](https://start-django.fly.dev), refactored out into an independent library.## SetupAfter installation, e.g. `pip install django-fragments````pyINSTALLED_APPS = [    &quot;django_fragments&quot;, # add this]...FRAGMENTS = {    &quot;icons_prefix&quot;: &quot;heroicons&quot;, # prefix to use for icons    &quot;icons_path&quot;: BASE_DIR / &quot;templates&quot; / &quot;xxx&quot; # type: Path, location where svg icons will be stored}```See [documentation](https://justmars.github.io/django-fragments).</longdescription>
 </pkgmetadata>

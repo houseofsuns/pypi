@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>NIP is a yaml-like config files parser for convenient python object construction and experiment holding.Short guide can be found here: https://github.com/spairet/nip/tree/main/doc</longdescription>
 </pkgmetadata>

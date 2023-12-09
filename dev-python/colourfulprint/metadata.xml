@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ColourfulPrintColourfulPrint for rainbow colours in Linux without extra newline character (&quot;\n&quot;).### [+] Installation Run these commands to clone and run ColourfulPrint.```shell scriptpkg install git -y pkg install python -y pip install colourfulprint```### [+] For Usage ExampleType ```shell scriptdate | colourfulprint```</longdescription>
 </pkgmetadata>

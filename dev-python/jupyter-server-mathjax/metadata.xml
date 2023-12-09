@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MathJax resources endpoints for Jupyter Server![Testing](https://github.com/jupyter-server/jupyter_server_mathjax/workflows/Testing/badge.svg)## Basic UsageInstall from PyPI:```sh&gt; pip install jupyter_server_mathjax```This will automatically enable the extension in Jupyter Server.To test the installation, you can run Jupyter Server and visit the `/static/jupyter_server_mathjax/MathJax.js` endpoint:```sh&gt; jupyter server```## Maintenance NotesTo install an editable install locally for development, first clone the repository locally,then run:```sh`pip install -e .[test]````Note that the editable install will not install the data file thatautomatically configures the extension for use. To manually enable it, run:```shjupyter server extension enable --py jupyter_server_mathjax```To build for distribution, use the `build` package:```shpip install buildpython -m build```Then release using twine:```shtwine check dist/*twine check dist/*```</longdescription>
 </pkgmetadata>

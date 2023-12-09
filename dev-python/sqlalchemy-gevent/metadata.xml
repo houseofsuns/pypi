@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>sqlalchemy_gevent=================sqlalchemy dialect adaptor for gevent to work in non-blocking mode```import sqlalchemyimport sqlalchemy.dialects# use case 1.# Installing sqlalchemy_gevent via setuptools installs gevent_* schemaengine = sqlalchemy.create_engine(&quot;gevent_sqlite:///example.db&quot;)# use case 2.# override standard sqlite driver with gevent enabled driver explicitly.sqlalchemy.dialects.registry.register(&quot;sqlite&quot;, &quot;sqlalchemy_gevent&quot;, &quot;SqliteDialect&quot;)engine = sqlalchemy.create_engine(&quot;sqlite:///example.db&quot;)# use case 3.# monkey patchingimport sqlalchemy_geventsqlalchemy_gevent.patch_all()engine = sqlalchemy.create_engine(&quot;sqlite:///example.db&quot;)```</longdescription>
 </pkgmetadata>

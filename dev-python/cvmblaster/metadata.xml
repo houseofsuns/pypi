@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>cvmblaster===![PYPI](https://img.shields.io/pypi/v/cvmblaster)## IntroductionThe core code of python class about finding genes in assembled genome</longdescription>
 </pkgmetadata>

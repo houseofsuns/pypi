@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PSML - Python server markup languageThis is LMFS-PSML Compiler. It has a built-in staging server and can compile one psml file into many usable HTML pages.It can reduce some of the development steps for you, so that you can complete the front-end development faster.It is free(libre) software, open source under the GPL v2.0 license.---1. How to install:&lt;code&gt;$ sudo python3 setup.py install&lt;/code&gt;---2. How to compile:&lt;br&gt;&lt;code&gt;psml &amp;lt;file&amp;gt; {targets...}&lt;/code&gt;&lt;br&gt;Example: &lt;br&gt;&lt;code&gt;$ cat &amp;gt; test.psml &amp;lt;&amp;lt; &quot;EOF&quot;&lt;br&gt;&gt; text{&lt;br&gt;&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;inner: Hello-World! &lt;br&gt;&gt; }&lt;br&gt;&gt; command(end)&lt;br&gt;&gt; EOF&lt;br&gt;$ psml test.psml -o TEST&lt;br&gt;$ ls TEST&lt;br&gt;index.html&lt;/code&gt;&lt;br&gt;---3. Feedback: Lone_air_Use@outlook.com</longdescription>
 </pkgmetadata>

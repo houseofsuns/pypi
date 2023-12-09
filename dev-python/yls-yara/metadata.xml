@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># yls-yara![PyPI](https://img.shields.io/pypi/v/yls-yara)An [YLS](https://www.github.com/avast/yls) plugin adding[YARA](https://github.com/VirusTotal/yara) linting capabilities.This plugin runs `yara.compile` on every save, parses the errors, and returnslist of diagnostic messages.## LicenseCopyright (c) 2022 Avast Software, licensed under the MIT license. See the[`LICENSE`](https://github.com/avast/yls/blob/master/plugins/yls-yara/LICENSE)file for more details.</longdescription>
 </pkgmetadata>

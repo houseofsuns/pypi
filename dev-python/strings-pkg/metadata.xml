@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># strings packageThis is a simple demo package.demo:```bash&gt;&gt;&gt; import strings&gt;&gt;&gt; strings.reverse(&quot;hello world&quot;)'dlrow olleh'```</longdescription>
 </pkgmetadata>

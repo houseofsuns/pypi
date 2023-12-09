@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># jupyter-kiteKite-LSP WebSocket proxy for @kiteco/jupyterlab-kite.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Mozilla Tracking Protection Tools [![Build Status](https://travis-ci.org/mozilla/trackingprotection-tools.svg?branch=master)](https://travis-ci.org/mozilla/trackingprotection-tools)A collection of tools for working with and analyzing Firefox's TrackingProtection.## Tools1. **DisconnectParser**: A python parser for the Disconnect Tracking Protection   list.2. **DisconnectReporting**: A collection of tools to prepare and send tracking   domain reports to Disconnect.</longdescription>
 </pkgmetadata>

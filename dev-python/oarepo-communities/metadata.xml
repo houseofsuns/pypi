@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># OARepo communities## InstallationTo init custom fields, add them under COMMUNITIES_CUSTOM_FIELDS key to invenio.cfg, for example``` pythonfrom oarepo_communities.cf.permissions import PermissionsCFfrom oarepo_communities.cf.aai import AAIMappingCFCOMMUNITIES_CUSTOM_FIELDS = [PermissionsCF(&quot;permissions&quot;), AAIMappingCF(&quot;aai&quot;)]COMMUNITIES_CUSTOM_FIELDS_UI = [{     &quot;section&quot;: &quot;settings&quot;,     &quot;fields&quot;: [{                 &quot;field&quot;: &quot;permissions&quot;,                 &quot;ui_widget&quot;: &quot;Input&quot;,                 &quot;props&quot;: {                             &quot;label&quot;:&quot;permissions dict&quot;,                          }                }] }]```and the init cli command:invenio communities custom-fields init</longdescription>
 </pkgmetadata>

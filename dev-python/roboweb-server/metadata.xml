@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># A Jupyter Server Extension for ChatGPT## Installation```bashpython -m pip install roboweb-extensionpython -m pip install roboweb-server```Activate the extension```bashpython -m jupyter serverextension enable --py roboweb_server```## UsageSee [these instructions](https://roboweb.app/docs/quickstart/).</longdescription>
 </pkgmetadata>

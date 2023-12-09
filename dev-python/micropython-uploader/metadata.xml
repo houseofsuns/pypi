@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Micropython Uploader### The script can:* Recursively bypass the current directory* Download detected files to mk. It was decided that you should push only `.py` files.* Delete all files with mk (ps directory is also a file)## InstallationOn MacOS or Linux, in a terminal run the following command (assumingPython 3):    pip3 install --user micropython-uploaderOn Windows, do:    pip install micropython-uploader## UsageIn terminal run:    mploader### Requirements:* ampy        pip3 install ampy* `micropython` as firmware for microcontroller</longdescription>
 </pkgmetadata>

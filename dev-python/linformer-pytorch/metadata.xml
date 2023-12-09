@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Linformer Pytorch ImplementationA practical implementation of the [Linformer paper](https://arxiv.org/pdf/2006.04768.pdf).This is a self attention mechanism with linear time complexity in n.Check out the github for more information: https://github.com/tatp22/linformer-pytorch</longdescription>
 </pkgmetadata>

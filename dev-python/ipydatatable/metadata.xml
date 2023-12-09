@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Library to wrap jQuery DataTables to use inside Jupyter.ipydatatable is a library build using the Jupyter Widget cookiecutter in order to have jQuery DataTable inside a Jupyter Environment.</longdescription>
 </pkgmetadata>

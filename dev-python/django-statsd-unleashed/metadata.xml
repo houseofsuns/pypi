@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=============Django Statsd=============.. image:: https://coveralls.io/repos/github/vikingco/django-statsd/badge.svg?branch=master    :target: https://coveralls.io/github/vikingco/django-statsd?branch=master.. image:: https://travis-ci.org/vikingco/django-statsd.svg?branch=master    :target: https://travis-ci.org/vikingco/django-statsdThis is a friendly fork with support for Django&gt;1.8.The original documentation is on `Read the Docs &lt;https://django-statsd.readthedocs.org/&gt;`_.-------License-------BSD and MPLPortions of this are from commonware:https://github.com/jsocol/commonware/blob/master/LICENSE</longdescription>
 </pkgmetadata>

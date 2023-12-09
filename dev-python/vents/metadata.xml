@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![License: Apache 2](https://img.shields.io/badge/License-apache2-green.svg)](LICENSE)[![vents](https://github.com/mmourafiq/vents/actions/workflows/vents.yml/badge.svg)](https://github.com/mmourafiq/vents/actions/workflows/vents.yml)&lt;a href=&quot;https://github.com/mmourafiq/vents&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/mmourafiq/vents/master/artifacts/logo/vents.svg&quot; width=&quot;125&quot; height=&quot;125&quot; align=&quot;right&quot; /&gt;&lt;/a&gt;# VentsOpen source connections catalog, integrations, alerting, and notifications library.## Install```bashpip install vents```</longdescription>
 </pkgmetadata>

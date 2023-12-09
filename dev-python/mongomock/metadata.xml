@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Fake pymongo stub for testing simple MongoDB-dependent code</longdescription>
 </pkgmetadata>

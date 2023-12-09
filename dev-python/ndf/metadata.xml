@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Numpy deep-frameworkNumPy based deep learning framework. Implemented for production purposes whereit is critical to use Tensorflwo, PyTorch or any other no-Numpy framework.### Installation    cd &lt;to-package-dir&gt;    pip install .    # when it will be deployed to pip    # pip install ndf### UsageThe syntax is similar to Keras's.Check the example [squeezenet model](https://github.com/PrimozGodec/ndf/blob/master/ndf/example_models/squeezenet.py).</longdescription>
 </pkgmetadata>

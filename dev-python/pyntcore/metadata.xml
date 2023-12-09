@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pyntcore========Python pybind11 wrappers around the C++ ntcore library.</longdescription>
 </pkgmetadata>

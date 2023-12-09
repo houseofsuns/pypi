@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># wispyNeural Network Based Waveform Modellingpypi - https://pypi.org/project/gw-wispy/## Installation```pip install gw-wispy```## Development```conda create -n wispy python=3.7conda activate wispypip install tensorflow lalsuite pycbc matplotlib tensorflow-addons tqdm gw-phenom```## Upload to pypi```python setup.py clean --allrm -rf dist/python3 setup.py sdist bdist_wheelpython3 -m twine upload  dist/*```</longdescription>
 </pkgmetadata>

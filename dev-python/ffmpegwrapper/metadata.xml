@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>FFmpegwrapper~~~~~~~~~~~~~FFmpegWrapper is a small wrapper for the ffmpeg encoder. You can appendCodec, Filters and other OptionStores to the FFmpeg class and then run theresulting command.&gt;&gt;&gt; from ffmpegwrapper import FFmpeg, Input, Output, VideoCodec, VideoFilter&gt;&gt;&gt; codec = VideoCodec('webm')&gt;&gt;&gt; input_video = Input('old')&gt;&gt;&gt; output_video = Output('new', codec)&gt;&gt;&gt; FFmpeg('ffmpeg', input_video, output_video)&lt;FFmpeg ['ffmpeg', '-i', 'old', '-vcodec', 'webm', 'new']&gt;</longdescription>
 </pkgmetadata>

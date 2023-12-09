@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Donphan=======.. image:: https://readthedocs.org/projects/donphan/badge/?version=latest    :target: https://donphan.readthedocs.io/en/latest/?badge=latest    :alt: Documentation StatusAsynchronous database ORM for use with Postgres.</longdescription>
 </pkgmetadata>

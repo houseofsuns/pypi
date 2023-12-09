@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>============================= OpenStack Sphinx Extensions=============================oslosphinx is obsolete. The openstackdocstheme package should be usedinstead. oslosphinx will be maintained for the pike, ocata, and newtonrelease series and completely remove after that pike is markedend-of-life.The contents of this repository are still available in the Git sourcecode management system.  To see the contents of this repository beforeit reached its end of life, please check out the previous commit with&quot;git checkout HEAD^1&quot;, or check out one of the supported stablebranches.For any further questions, please emailopenstack-dev@lists.openstack.org or join #openstack-oslo on Freenode.</longdescription>
 </pkgmetadata>

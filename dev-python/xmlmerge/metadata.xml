@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># xmlmergeXMLMerge is simple tool to merge multiple xml files.## How to Install```bashpip install xmlmerge```## Usage```bash$xmlmerge file1.xml file2.xml &gt; file3.xml$xmlmerge tests/*.xml &gt; combine.xml```## How end file looks like```xml&lt;products&gt;    &lt;product id=&quot;9999&quot;&gt;        &lt;a&gt;1234&lt;/a&gt;        &lt;b&gt;1234&lt;/b&gt;    &lt;/product&gt;&lt;product id=&quot;5678&quot;&gt;        &lt;a&gt;1234&lt;/a&gt;        &lt;b&gt;1234&lt;/b&gt;    &lt;/product&gt;&lt;/products&gt;```## ContactContact Kiran Kumar Kotari &lt;kirankotari@live.com&gt; with any suggestions or comments. If you find any bugs please fix them and send me a pull request.</longdescription>
 </pkgmetadata>

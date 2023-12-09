@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription> A Python package to read and write SAS(sas7bdat, sas7bcat, xport/xpt), SPSS (sav, zsav, por) and Stata (dta) files into/from pandas data frames. It is a wrapperaround the C library readstat.&lt;br&gt;Please visit out project home page for more information:&lt;br&gt;https://github.com/Roche/pyreadstat</longdescription>
 </pkgmetadata>

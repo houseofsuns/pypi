@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Description: UNKNOWNKeywords: date math datemath elaticsearch solrPlatform: UNKNOWNClassifier: Development Status :: 4 - BetaClassifier: Intended Audience :: DevelopersClassifier: Topic :: Software Development :: Build ToolsClassifier: License :: OSI Approved :: MIT LicenseClassifier: Programming Language :: Python :: 2.7Classifier: Programming Language :: Python :: 3.5Classifier: Programming Language :: Python :: 3.6Classifier: Programming Language :: Python :: 3.7Provides-Extra: devProvides-Extra: test</longdescription>
 </pkgmetadata>

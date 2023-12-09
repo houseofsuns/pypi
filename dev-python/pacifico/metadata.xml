@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pacifico-clientThis repository holds the pacifico user Python package for the API (client source code).</longdescription>
 </pkgmetadata>

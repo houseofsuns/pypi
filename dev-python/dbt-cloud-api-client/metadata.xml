@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># dbt cloud api clientdbt cloud api client## Install tox```pip install tox```Usage:```pythonimport timefrom dbt_cloud_api_client.client import DbtCloudClient...client = DbtCloudClient(token='&lt;token&gt;')account = client.get_account_by_name('&lt;ACCOUNT_NAME&gt;')job = account.get_job_by_name('&lt;JOB NAME IN DBT CLOUD&gt;')run = job.run('Job triggered from python.')while not run.is_finished():    print('{} - {}'.format(run.id, run.status))    run.reload()    # print(run.data) # display all details of run.    # sleep for a period of time    time.sleep(60)print('{} - {}'.format(run.id, run.status))```</longdescription>
 </pkgmetadata>

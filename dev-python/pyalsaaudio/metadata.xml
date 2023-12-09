@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package contains wrappers for accessing the ALSA API from Python.It is fairly complete for PCM devices and Mixer access.</longdescription>
 </pkgmetadata>

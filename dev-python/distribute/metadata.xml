@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Distribute - legacy packageThis package is a simple compatibility layer that installs Setuptools 0.7+.</longdescription>
 </pkgmetadata>

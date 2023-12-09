@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===========django-dore===========django-dcore package is django app with sets of commonly useful code to start new project.</longdescription>
 </pkgmetadata>

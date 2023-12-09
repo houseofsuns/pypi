@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>GREASE is a general purpose distributed automation engine designed to scale to enterprise workloads. We utilize    MongoDB and a plugin architecture to enable broad automation possibilities via one common core of primitives and    services.</longdescription>
 </pkgmetadata>

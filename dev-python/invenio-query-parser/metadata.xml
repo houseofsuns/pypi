@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Search query parser supporting Invenio and SPIRES search syntax.</longdescription>
 </pkgmetadata>

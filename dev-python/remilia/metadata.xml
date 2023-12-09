@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;div align=center&gt;  &lt;img width=200 src=&quot;https://raw.githubusercontent.com/H2Sxxa/Remilia/main/background.png&quot;  alt=&quot;[BG](https://raw.githubusercontent.com/H2Sxxa/Remilia/main/background.png)&quot;/&gt;  &lt;h1 align=&quot;center&quot;&gt;Remilia&lt;/h1&gt; &lt;/div&gt;&lt;div align=center&gt;  &lt;img src=&quot;https://img.shields.io/badge/python-3.8+-blue&quot; alt=&quot;python&quot;&gt;  &lt;img src=&quot;https://img.shields.io/github/languages/code-size/H2Sxxa/Remilia&quot; alt=&quot;size&quot;&gt;  &lt;img src=&quot;https://img.shields.io/github/license/H2Sxxa/Remilia&quot; alt=&quot;license&quot;&gt;&lt;/div&gt;# Install```shellpip install Remilia```# Quick start## [ REWRITE NOW ]# QA## Q: AttributeError: module 'Remilia' has no attribute '...'See the pyproject.toml ,there offer some other optional dependiences# Learn more in our WIKI## https://github.com/H2Sxxa/Remilia/wiki</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pryeact=============#### Esse pacote python converte interfaces gráficas criadas no Qt designer para python usando o conceito de componente.#### Exemplos#### Requisitos#### Pyqt5#### Instalação    `pip install pryeact`    #### Uso</longdescription>
 </pkgmetadata>

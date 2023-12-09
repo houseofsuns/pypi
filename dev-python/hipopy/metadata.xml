@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># HIPOPy: UpROOT-like I/O Interface for CLAS12 HIPO Files## InstallationTo install from source:```bashgit clone https://github.com/mfmceneaney/hipopy.git```Then add to following to your startup script:```bashexport PYTHONPATH=$PYTHONPATH:/path/to/hipopy```You will also need to install the project dependencies:* [numpy](https://numpy.org)* [awkward](https://awkward-array.readthedocs.io/en/latest/)* [hipopybind](https://github.com/mfmceneaney/hipopybind.git)(All available with pip.)To install with pip:```bashpip install hipopy```## Getting StartedCheck out the example scripts in `tutorials`.  More functionality coming soon!## DocumentationFull documentation available on [Read the Docs](https://hipopy.readthedocs.io/en/latest/index.html)!#Contact: matthew.mceneaney@duke.edu</longdescription>
 </pkgmetadata>

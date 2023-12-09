@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. code-block:: bash    pip install descarteslabs[complete]Documentation is available at https://docs.descarteslabs.com.Source code and version information is athttps://github.com/descarteslabs/descarteslabs-python.The Descartes Labs Platform simplifies analysis of **global-scale raster data**by providing:    * Access to a catalog of petabytes of disparate geospatial data,      all normalized and interoperable through one **common interface**    * A Python client library to access these systems</longdescription>
 </pkgmetadata>

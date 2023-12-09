@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Meilisearch Python Async:warning:This project has been renamed to [meilisearch-python-sdk](https://github.com/sanders41/meilisearch-python-sdk):warning:Under the new name both an async and a sync client are provided. You should install the new packageinstead of this one.## Installation```shpip install meilisearch-python-sdk```</longdescription>
 </pkgmetadata>

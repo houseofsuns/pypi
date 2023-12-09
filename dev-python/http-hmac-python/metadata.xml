@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>An implementation of the Acquia HTTP HMAC Spec (https://github.com/acquia/http-hmac-spec) in Python.</longdescription>
 </pkgmetadata>

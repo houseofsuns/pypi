@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Bootstraps EC2 instances by retrieving and processing the Metadata block of a CloudFormation resource.</longdescription>
 </pkgmetadata>

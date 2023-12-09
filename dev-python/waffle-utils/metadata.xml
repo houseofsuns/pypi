@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;div align=&quot;center&quot;&gt;  &lt;p&gt;    &lt;a href=&quot;http://snuailab.ai/&quot;&gt;        &lt;img width=&quot;75%&quot; src=&quot;https://raw.githubusercontent.com/snuailab/assets/main/waffle/icons/waffle_banner.png&quot;&gt;    &lt;/a&gt;  &lt;/p&gt;&lt;/div&gt;# Waffle UtilsWaffle utilities.## Features- [file](https://github.com/snuailab/waffle_utils/blob/main/waffle_utils/file/)- [logger](https://github.com/snuailab/waffle_utils/blob/main/waffle_utils/logger/)- [validator](https://github.com/snuailab/waffle_utils/blob/main/waffle_utils/validator/)See our [documentation](https://snuailab.github.io/waffle_docs/) for more information!</longdescription>
 </pkgmetadata>

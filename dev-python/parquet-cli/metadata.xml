@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Command line (CLI) tool to inspect Apache Parquet files on the go</longdescription>
 </pkgmetadata>

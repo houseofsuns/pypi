@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># compactifyCompactify collapses sequential lines with only ()[]{}, and whitespace into one.## Usage```bashpip install compactifycompactify /path/to/filename.pycat /path/to/filename.py | compactify --from-stdin```## PrerequisitesCompactify is tested with Python&gt;=3.8.</longdescription>
 </pkgmetadata>

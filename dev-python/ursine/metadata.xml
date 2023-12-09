@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ursine - a bearable sip uri library[![Build Status](https://travis-ci.org/sangoma/ursine.svg?branch=master)](https://travis-ci.org/sangoma/ursine)----## installingursine is packaged and available on [pypi](https://pypi.org/project/ursine)```shpip install ursine```----## basic usage```pythonfrom ursine import URI, Header# build new URIs / Headersuri = URI.build(scheme='sip', host='10.10.10.10', transport='tcp')print(uri)  # sip:10.10.10.10;transport=tcpheader = Header.build(display_name='Alice', uri=uri, tag='xyz')print(header)  # &quot;Alice&quot; &lt;sip:10.10.10.10;transport=tcp&gt;;tag=xyz# parse existing onesuri = URI('sips:[::1]:5080')uri.scheme == 'sips'uri.host == '[::1]'uri.transport == 'tcp'header = Header('&quot;Bob&quot; &lt;sips:[::1]:5080&gt;;tag=abc')header.display_name == 'Bob'header.tag == 'abc'header.uri.scheme == 'sips'# Header and URI objects are immutablealice_uri = URI('sip:alice@10.10.10.10')modified_uri = alice_uri.with_user(None)  # 'sip:10.10.10.10;transport=udp'modified_uri != alice_uri```</longdescription>
 </pkgmetadata>

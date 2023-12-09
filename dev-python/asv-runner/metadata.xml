@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># About [![Documentation](https://img.shields.io/badge/Documentation-latest-brightgreen?style=for-the-badge)](https://asv.readthedocs.io/projects/asv-runner/en/latest/)Core Python benchmark code for `asv`.**This package shall not have any dependencies on external packages and must becompatible with all Python versions greater than or equal to `3.7`.**For other functionality, refer to the `asv` package or consider writing an extension.# ContributionsAll contributions are welcome, this includes code and documentationcontributions but also questions or other clarifications. Note that we expectall contributors to follow our [Code ofConduct](https://github.com/airspeed-velocity/asv_runner/blob/main/CODE_OF_CONDUCT.md).## Developing locallyA `pre-commit` job is setup on CI to enforce consistent styles, so it is best toset it up locally as well (using [pipx](https://pypa.github.io/pipx/) for isolation):```sh# Run before commitingpipx run pre-commit run --all-files# Or install the git hook to enforce thispipx run pre-commit install```</longdescription>
 </pkgmetadata>

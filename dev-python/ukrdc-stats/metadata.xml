@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Dashboard Statistics LibraryLibrary for generating statistics for the UKRDC dashboard## Installation`pip install ukrdc-stats`## Basic usageStatistics calculations require an SQLAlchemy session with a connection to the UKRDC3 database.In this example, we use `ukrdc3_session`, and calculate for the unit code &quot;TEST_UNIT&quot;.```pythonfrom ukrdc_stats import DemographicStatsCalculatordemographics = DemographicStatsCalculator(ukrdc3, &quot;TEST_UNIT&quot;).extract_stats()```Each calculator returns multiple stats from the same cohort, and each of those includes basic metadata required for rendering and plotting the data.</longdescription>
 </pkgmetadata>

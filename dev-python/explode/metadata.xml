@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=======explode=======Sometimes you need to drop some data onto a server.YAML and JSON are both great for that, except that they suck to beconsumed in shell scripts. `jq` is an excellent tool for consuming partsof a JSON file in a shell script, but similar to `find` it has its own syntaxand semantics that need to be learned.Shell scripts are already great at consuming text files and processingdirectory trees, and if you need to do fancy things and you're doing themin shell, you probably have already learned all of the finer points of `find`.`explode` will take a JSON or a YAML file and turn it into a directorystructure with simple text files containing the values. Dictionary keysbecome directories. Lists become directories named for the list index. Booleansare rendered as True or False. There is no support for anything else.* Free software: Apache license* Source: http://github.com/emonty/explode</longdescription>
 </pkgmetadata>

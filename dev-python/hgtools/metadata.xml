@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>``hgtools`` is defunct, superseded by `jaraco.vcs &lt;https://pypi.org/project/jaraco.vcs&gt;`_.</longdescription>
 </pkgmetadata>

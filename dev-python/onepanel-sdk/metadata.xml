@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python SDK for Onepanel - Production scale vision AI platform with fully integrated components for model building, automated labeling, data processing and model training pipelines.</longdescription>
 </pkgmetadata>

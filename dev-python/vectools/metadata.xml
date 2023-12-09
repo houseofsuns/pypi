@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Vectools was created to simultaneously simplify and increase the development speed of informatics pipelines byreducing the amount of custom programs needed in analyses. Furthermore, Vectools is extensively tested reducing thechanges of bungs in pipelines.Vectools offers a wide range of operations related to the manipulation of vectors an matrices.These operations include:- Linear algebra- Table (Spreadsheets, CSV/TSV files, etc.) manipulation (Join, uniquifying, )- Machine learning (Supervised and Unsupervised)- Support functions for machine learning (descriptors, PCA, feature selection, normalization, etc.).- Statistical analysis- Network-Graph manipulation</longdescription>
 </pkgmetadata>

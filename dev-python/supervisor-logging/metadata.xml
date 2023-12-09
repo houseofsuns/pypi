@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Supervisor-logging==================A [supervisor] plugin to stream events to an external Syslog instance (forexample, Logstash).Installation------------Python 2.7 or Python 3.2+ is required.```pip install supervisor-logging```Note that supervisor itself does not yet work on Python 3, though it can beinstalled in a separate environment (because supervisor-logging is a separateprocess).Usage-----The Syslog instance to send the events to is configured with the environmentvariables:* `SYSLOG_SERVER`* `SYSLOG_PORT`* `SYSLOG_PROTO`Add the plugin as an event listener:```[eventlistener:logging]command = supervisor_loggingevents = PROCESS_LOG```Enable the log events in your program:```[program:yourprogram]stdout_events_enabled = truestderr_events_enabled = true```[supervisor]: http://supervisord.org/</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># incentive utilsData collectors from energy data sources## InstallationRun the following to install ```python -m pip install git+https://github.com/tfranch/datacollectors.git#egg=datacollectors```## Usage```import datacollectors# connectors: Entsoe, ECB and ICE```</longdescription>
 </pkgmetadata>

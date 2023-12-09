@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Javascript.pyThis package lets you use javascript like objects in python.## InstallationStable version:```pip install javascriptpy```Working version:```pip install git+https://github.com/CodeWithSwastik/javascript-py```## Example Usage```pythonfrom javascript import *array = Array('apple', 'orange', 'cherry')index = Math.floor(Math.random() * array.length)console.info('Random element:', array[index])console.table(array)```## Console```pyfrom javascript import console, Arrayconsole.clear()console.error(&quot;Syntax Error!&quot;)console.warn(&quot;Forgot an import!&quot;)console.table(Array(['earth', 'venus']))```![image](https://user-images.githubusercontent.com/61446939/126521684-669e4dd5-4263-4c5e-9cce-9c0e097759e3.png)## What's new?- Added RegExp, Date, JSON</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Alas Ce0 Client API=======================A project for developing a client to access the Alas.Ce0 API----This is the README file for the project.&quot;generate dist and wheel&quot;python setup.py sdist bdist_wheel&quot;upload to pypi project&quot;twine upload dist/*</longdescription>
 </pkgmetadata>

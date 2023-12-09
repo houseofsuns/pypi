@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A compression AGSI middleware using brotli.Built using starlette under the hood, it can be used as a drop-in replacement toGZipMiddleware for Starlette or FastAPI.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># App description* bloxroute-gateway connects you to the BDN, a blockchain distribution network, to greatly speed up block propagationtimes and scale your blockchain today.* [bloxroute-cli] is also included.# DocumentationYou can find our full documentation, including requirements and installation instructions, [on our website][documentation].# TroubleshootingContact us at support@bloxroute.com for further questions.[documentation]: https://docs.bloxroute.com/[bloxroute-cli]: https://pypi.org/project/bloxroute-cli/</longdescription>
 </pkgmetadata>

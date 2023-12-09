@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># OSWeb extension for OpenSesameCopyright 2018 - 2023 Sebastiaan Mathôt (@smathot)## AboutThis OpenSesame extension allows you to run OpenSesame experiments in a browser using OSWeb, a JavaScript implementation of OpenSesame.- &lt;https://osdoc.cogsci.nl/manual/osweb/osweb/&gt;- &lt;https://github.com/open-cogsci/OpenSesame/&gt;- &lt;https://github.com/open-cogsci/osweb/&gt;## InstallationPyPi:```pip install opensesame-extension-osweb```Anaconda:```conda install opensesame-extension-osweb -c cogsci```## LicenseOSWeb is distributed under the terms of the GNU General Public License 3. The full license should be included in the file COPYING, or can be obtained from:- &lt;http://www.gnu.org/licenses/gpl.txt&gt;</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># concoursepyconcoursepy gives you a way to interact with the concourse api through pythoncurrently supports * concourse's local user mechanism * the endpoints used by the concourse web uiUse a version prior to 0.0.8 for concourse 3.x## Examples```python3import concoursepyci = concoursepy.api('https://ci.example.com', 'username', 'password')print(ci.jobs('example_pipeline'))# Or with token istead of username and password:ci = concoursepy.api('https://ci.example.com', token='SomeLongTokenString')print(ci.jobs('example_pipeline'))```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Installation of created packagepip install polygon-data-generator# Get startedcurrency_pairs = [[&quot;AUD&quot;, &quot;USD&quot;, [], portfolio(&quot;AUD&quot;, &quot;USD&quot;)]] \location = os.getcwd() \print(location) \data_writer(currency_pairs) #data_writer is replacing main function</longdescription>
 </pkgmetadata>

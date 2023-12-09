@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. image:: https://github.com/imageio/imageio/workflows/CI/badge.svg    :target: https://github.com/imageio/imageio/actionsImageio is a Python library that provides an easy interface to read andwrite a wide range of image data, including animated images, volumetricdata, and scientific formats. It is cross-platform, runs on Python 3.5+,and is easy to install.Main website: https://imageio.readthedocs.io/Release notes: https://github.com/imageio/imageio/blob/master/CHANGELOG.mdExample:.. code-block:: python    &gt;&gt;&gt; import imageio    &gt;&gt;&gt; im = imageio.imread('imageio:astronaut.png')    &gt;&gt;&gt; im.shape  # im is a numpy array    (512, 512, 3)    &gt;&gt;&gt; imageio.imwrite('astronaut-gray.jpg', im[:, :, 0])See the `API Reference &lt;https://imageio.readthedocs.io/en/stable/reference/index.html&gt;`_or `examples &lt;https://imageio.readthedocs.io/en/stable/examples.html&gt;`_for more information.</longdescription>
 </pkgmetadata>

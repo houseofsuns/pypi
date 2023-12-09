@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Trigger is a Python framework and suite of tools for interfacing with networkdevices and managing network configuration and security policy. Trigger wasdesigned to increase the speed and efficiency of network configurationmanagement.</longdescription>
 </pkgmetadata>

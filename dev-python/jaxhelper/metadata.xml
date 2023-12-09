@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># JaxHelperBasic tools and helpers for Jax## Getting Started### Installation```BASHpython3 -m pip install jaxhelper```### ExplanationThis repository contains basic helper functions I use every day.\Here are some highlights:* **remat**: function decorator to rematerialize (&quot;activation checkpointing&quot;) hidden states during backward pass* **softmax**:    * exp in fp32 and matmul in bf16 (-&gt; improved convergence and speed)    * fewer stored intermediates yet faster gradient* **attention**:    * recomputation of hidden states    * memory of O(K * N) rather than O(N^2) thanks      to [Self-attention Does Not Need O(n2) Memory](https://arxiv.org/abs/2112.05682). (No slowdown)</longdescription>
 </pkgmetadata>

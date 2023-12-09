@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Inference and prediction on hidden Markov model with missing observations</longdescription>
 </pkgmetadata>

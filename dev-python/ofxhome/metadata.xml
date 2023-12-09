@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>ofxhome=========REST client for the web service provided by ofxhome.comofxhome.com provides a way to discover the Open Financial Exchange (OFX) URL's and financial institution IDs for banks and other financial institutions.ofxhome is a sort of &quot;DNS&quot; for financial institution OFX URLs and IDs.This client by itself is not all that useful unless you are coupling it with software that needs this lookup capability.other modules=============ofxclient - a python API that downloads transactions from banksexample=======```pythonfrom ofxhome import OFXHomes = OFXHome.search(&quot;USAA&quot;)&quot; 's' contains a list that has entries like so:&quot; { name: 'USAA Federal Savings Bank', id: '483' }&quot; { name: 'USAA Investment Mgmt Co', id: '665' }for item in s:    print item['id'] _ item['name']    bank = OFXHome.lookup(item.id)    print bank.name _ bank.fid _ bank.url _ bank.brokerid # OR    print bank['name'] _ bank['fid'] _ bank['url'] _ bank['brokerid']```</longdescription>
 </pkgmetadata>

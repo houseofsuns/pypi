@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># QuickStart_Rhy```shellpip3 install quickstart-rhy                                         # stable versionpip3 install git+https://github.com/Rhythmicc/quickstart-rhy.git -U # beta version but more features```| Key  | Value                                              || :--: | -------------------------------------------------- || ENV  | **^Python 3.7**                                    || FONT | **Cascadia Code / Meslo**                          || DOCS | &lt;https://rhythmlian.cn/2020/02/14/QuickStart-Rhy/&gt; |## Tab Complete1. fig   ```shell   npx @fig/publish-spec -p complete/fig/qs-&lt;your language&gt;.ts --name qs   ```2. zsh   ```shell   mv _qs /path/in/$FPATH/   ```</longdescription>
 </pkgmetadata>

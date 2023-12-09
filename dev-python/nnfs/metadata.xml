@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># nnfsNeural Networks from ScratchFor use in conjunction with the book (https://nnfs.io) and the video series on YouTube (link to come later).At the moment, the main use is for the dataset generator:```pythonfrom nnfs.datasets import spiral_data_generator``` Have much more planned in the future... but just needed a quick way for people to get the dataset generator.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># TXL plugin for a file browserThis is almost a copy of https://github.com/Textualize/textual/blob/main/src/textual/widgets/_directory_tree.py</longdescription>
 </pkgmetadata>

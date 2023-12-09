@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package contains simple async API framework, based on Tornado.Sources can be found on GitHub: https://github.com/ihormaioroff/simple-api-framework</longdescription>
 </pkgmetadata>

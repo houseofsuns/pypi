@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. -*-restructuredtext-*-.. image:: https://github.com/ubernostrum/pwned-passwords-django/workflows/CI/badge.svg   :alt: CI status image   :target: https://github.com/ubernostrum/pwned-passwords-django/actions?query=workflow%3ACIpwned-passwords-django provides helpers for working with the `PwnedPasswords database of Have I Been Pwned&lt;https://haveibeenpwned.com/Passwords&gt;`_ in `Django&lt;https://www.djangoproject.com/&gt;`_ powered sites. Pwned Passwords isan extremely large database of passwords known to have beencompromised through data breaches, and is useful as a tool forrejecting common or weak passwords.Documentation is `available online&lt;https://pwned-passwords-django.readthedocs.io/&gt;`_.</longdescription>
 </pkgmetadata>

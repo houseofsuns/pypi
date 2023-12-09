@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a hello world c into python library # Changelog pythonce## [1.0.0] - 03-06-2023- Initial release- Create sample code in C## [0.0.2] - 07-06-2023- Release version 0.0.2- Fix C path issue## [0.0.3] Dev-Version - 11-06-2023- Release version 0.0.3- Release OlaMi ## [0.0.4] Dev-Version- 11-06-2023- Release version 0.0.4- Release Subtraction ## [0.0.5] - Dev-Version-- Fix 0.0.4 troubles ## [0.0.6] - Cython Version- Building and use Cython in process## [0.0.7] - Prod- Release cython use</longdescription>
 </pkgmetadata>

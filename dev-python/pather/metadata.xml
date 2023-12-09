@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PatherParameters:-   _string_ - string (&quot;1&quot;, &quot;author&quot;)Returned OS path:-   _string_ - directories (e.g., `a/1/e/4/`)## Installation```shpip install pather```## UsagePather by query:```python&gt;&gt;&gt; import pather&gt;&gt;&gt; path = pather(&quot;string&quot;)&gt;&gt;&gt; path'c/3/f/e/'```## ContributingPull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.Make sure to add or update tests as appropriate.Use [Black](https://black.readthedocs.io/en/stable/) for code formatting and [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/) for commit messages.## [Changelog](CHANGELOG.md)## License[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
 </pkgmetadata>

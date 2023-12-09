@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pip uninstall zcbot-celery-sdkpip install --upgrade zcbot-celery-sdk -i https://pypi.python.org/simplepip show zcbot-celery-sdk</longdescription>
 </pkgmetadata>

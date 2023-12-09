@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>bitly API python library========================## Installation    pip install bitly_api## Run testsYour username is the lowercase name shown when you login to bitly, your access token can be fetched using the following ( http://dev.bitly.com/authentication.html ):    curl -u &quot;username:password&quot; -X POST &quot;https://api-ssl.bitly.com/oauth/access_token&quot;To run the tests either export the environment variable or set it up inline before calling `nosetests`:    bitly-api-python $ BITLY_ACCESS_TOKEN=&lt;accesstoken&gt; nosetests## API Documentationhttp://dev.bitly.com/</longdescription>
 </pkgmetadata>

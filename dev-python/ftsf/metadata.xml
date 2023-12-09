@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ftsfThis package provides high-level interface to work with financial time series forecasting models.### InstallationTo install this package run command:&gt; pip install ftsf### UsageThe usage of package is simple:&gt; from ftsf.model import Model  &gt; from ftsf.preprocessing import get_data  &gt; x_train, x_test, y_train, y_test, scaler = get_data('AAPL', length=15)  &gt; model = Model('LSTM x2', lag = 15)  &gt; model.fit(x_train, y_train)&gt; model.evaluate(x_test, y_test, scaler)  {'mse' : 0.679, 'mae' : 0.8291, 'mape' : 0.00783, 'r2' : 0.98778}</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python base modules of Frank Brehm==================================These are Python modules for common used objects, error classes and functions.Author: Frank Brehm (&lt;frank@brehm-online.com&gt;)Liste der VMWare-OS-Identifier:-------------------------------https://www.vmware.com/support/orchestrator/doc/vro-vsphere65-api/html/VcVirtualMachineGuestOsIdentifier.htmlListe ce VMWare Virtual Hardware Versions:------------------------------------------https://kb.vmware.com/s/article/1003746</longdescription>
 </pkgmetadata>

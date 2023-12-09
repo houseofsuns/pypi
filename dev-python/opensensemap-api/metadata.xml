@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>opensensemap-api================Python Client for interacting with the `openSenseMap &lt;https://opensensemap.org/&gt;`_API.This module is not official, developed, supported or endorsed by`openSenseMap &lt;https://opensensemap.org/&gt;`_Installation------------The module is available from the `Python Package Index &lt;https://pypi.python.org/pypi&gt;`_... code:: bash    $ pip3 install opensensemap-apiOn a Fedora-based system or a CentOS/RHEL machine with EPEL... code:: bash    $ sudo dnf -y install python3-opensensemap-apiFor Nix or NixOS users is a package available. Keep in mind that the lastest releases might onlybe present in the ``unstable`` channel... code:: bash    $ nix-env -iA nixos.python3Packages.opensensemap-apiUsage-----The file ``example.py`` contains an example about how to use this module.License-------``opensensemap-api`` is licensed under MIT, for more details check LICENSE.</longdescription>
 </pkgmetadata>

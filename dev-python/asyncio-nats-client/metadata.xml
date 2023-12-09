@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Asyncio based Python client for NATS, a lightweight, high-performance cloud native messaging system</longdescription>
 </pkgmetadata>

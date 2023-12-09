@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A Python binding for the v4l2 (video4linux2) userspace api, usingctypes.  Basic example usage::    &gt;&gt;&gt; import v4l2    &gt;&gt;&gt; import fcntl    &gt;&gt;&gt; vd = open('/dev/video0', 'rw')    &gt;&gt;&gt; cp = v4l2.v4l2_capability()    &gt;&gt;&gt; fcntl.ioctl(vd, v4l2.VIDIOC_QUERYCAP, cp)    0    &gt;&gt;&gt; cp.driver    'uvcvideo'    &gt;&gt;&gt; cp.card    'USB 2.0 Camera'See the ``linux/videodev2.h`` header file for details.  Currently thebindings are up to date with the 2.6.34 kernel headers.* `Video for Linux Two Specification &lt;http://linuxtv.org/downloads/v4l-dvb-apis/ch07s02.html&gt;`_* `Reporting bugs &lt;http://bugs.launchpad.net/python-v4l2&gt;`_</longdescription>
 </pkgmetadata>

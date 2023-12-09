@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># igz-mgmt-sdkSDK for Iguazio Management API## InstallationIgz-mgmt can be installed by running `pip install igz-mgmt`.## LicenseApache License, Version 2.0## DocumentationPlease see [Documentation](https://iguazio.github.io/igz-mgmt-sdk/) for more information</longdescription>
 </pkgmetadata>

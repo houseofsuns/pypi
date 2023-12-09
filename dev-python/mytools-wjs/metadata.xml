@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## 扁平化列表方法&gt;  expansion : 递归方法实现多维列表扁平化&gt;  expansion_up : 生成器方法实现多维列表扁平化&gt;  mapping_yq: 任意长度映射 例 1-&gt;① 123-&gt;①②③&gt;  mapping_NumberToChinese: 数字转大写和数字转大写钱数&gt;  secondsT0format: 秒数格式化为时间&gt;  timestampTotime: 时间戳格式化为时间```python&quot;&quot;&quot;   https://blog.csdn.net/MemoryD/article/details/84295855可以参考怎么样发布你的 Python 代码给别人 “pip install”来发布自己的pypi包。如果需要更新包的话，可以通过以下几个步骤完成。第一步：更新代码这个比较简单也比较基础，把经过测试的代码更新到package中的.py文件即可。第二步：更新版本号信息打开setup.py文件，然后修改对应的信息，比如版本号等等。第三步：使用以下指令更新包体python setup.py sdist bdist1第四步：使用以下指令把新包体上传到pypi服务器上twine upload dist/*1第五步：使用以下指令更新python中的包体pip install --upgrade certimaker## python setup.py sdist upload -r pypi&quot;&quot;&quot;```</longdescription>
 </pkgmetadata>

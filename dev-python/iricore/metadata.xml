@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># iricoreA Python interface to IRI-2016 and IRI-2020 using `ctypes` communication.**The extensive documentation is available at the [RTD wbsite](https://iricore.readthedocs.io/en/latest).**## InstallationThis package proved to work under Linux only (due to compilation difficulties in Windows).If you are using Windows - consider installing [WSL](https://docs.microsoft.com/en-us/windows/wsl/install).### Prerequisites- CMAKE```sudo apt instal cmake```- Fortran compiler, e.g. `gfortran````sudo apt isntall gfortran```### Installing packageNow you can simply install it via `pip`:```python3 -m pip install iricore```## Data files`IRI2016` model depends on [data files](http://irimodel.org/indices/) which are regularly updated.`iricore` does not autoupdate those, but provides tool for quick update. You can run from terminal```python3 -c &quot;import iricore; iricore.update()&quot;```or add```import iricoreiricore.update()```to any Python script.</longdescription>
 </pkgmetadata>

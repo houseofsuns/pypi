@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CombiLog-PythonHandlerPython package containing custom log handler to integrate with CombiLog## Installation```$ pip install combilog-handler```## Usage GuideExample usage```import loggingimport combilog_handler# Points to the Websocket Server Url hosted in the Combilog Aggregator.url = &quot;ws://AGG_DOMAIN:AGG_SOCKET_PORT&quot;# Secret of the service registered in the Combilog Dashboardsecret = &quot;MY-SPECIAL-SECRET&quot;logger = logging.Logger(&quot;NamedService&quot;)handler = combilog_handler.loghandler.CombilogHandler(aggregator_url=url, service_secret=secret)formatter = logging.Formatter(&quot;%(asctime)s - %(name)s - %(levelname)s - %(message)s&quot;)handler.setFormatter(formatter)logger.addHandler(handler)```</longdescription>
 </pkgmetadata>

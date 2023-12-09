@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Install from `PyPI &lt;https://pypi.org/project/sqlite3-api&gt;`_::    pip install sqlite3-apiInstall from `GitHub &lt;https://github.com/AlexDev-py/sqlite3_api.git&gt;`_::    git clone https://github.com/AlexDev-py/sqlite3_api.gitMore information in the`GitHub page &lt;https://github.com/AlexDev-py/sqlite3_api/tree/2.0.0&gt;`_</longdescription>
 </pkgmetadata>

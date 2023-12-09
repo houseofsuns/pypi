@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>    iparapheur v5.x main core application.  The main link between every sub-services, integrating business code logic.   # noqa: E501    </longdescription>
 </pkgmetadata>

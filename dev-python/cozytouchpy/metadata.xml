@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cozytouchpyInspired and forked from the [biker91620](https://github.com/biker91620/cozypy) repositoryCozytouch python implementationThis API allows you to control Atlantic, Thermor and Sauter equipment via the Cozytouch bridgeUsed to obtain information from the following sensors:- Gateway- Radiators- Water heaters and other counters- APC Heat Pump (Beta)## Example     from cozytouchpy import CozytouchClient          username=&quot;my-username&quot;     password=&quot;my-password&quot;          client = CozytouchClient(username, password)     client.connect()     setup = await client.async_get_setup()      for place in setup.places:           print(place.id)</longdescription>
 </pkgmetadata>

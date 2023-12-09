@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># OverviewThe gawseed-threat-feed-tools package provides a mechanism that bindstogether:- A threat feed source that returns a list of &quot;threats&quot;- A data source, that returns rows of data to search through for the threats- A searcher that can bind the two together, looking for threats/data  that meet particular criteria - A list of &quot;enrichers&quot; that can take the results of any matches and  gather additional context to pass to the ....- A report generator that can take the results of everything and  print/save the results# UsageTypical usage would be running `threat-feed.py` and loading a YAMLconfiguration file (passed to the `-y` switch) to bind the abovemodules together.  See `theat-feed.py --config-templates` for aselection of YAML configuration templates to use when creating configfiles.# Example configurationComing soon...</longdescription>
 </pkgmetadata>

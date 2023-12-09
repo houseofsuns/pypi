@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This Shell enables setting up Azure as a cloud provider in CloudShell. It supports connectivity, and adds new deployment types for apps which can be used in CloudShell sandboxes.</longdescription>
 </pkgmetadata>

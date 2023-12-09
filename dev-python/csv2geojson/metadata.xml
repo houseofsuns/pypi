@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># csv2geojsonConvert csv to geojson## Installation```bashpip install csv2geojson```### Development```bashgit clone https://github.com/YuChunTsao/csv2geojson.gitcd csv2geojsonpip install -e '.[test]'```## CLI usage```txtusage: csv2geojson [-h] [-v] [-lat lat] [-long long] [-exclude_columns [column_name ...] | -include_columns [column_name ...]]                   input outputConvert csv to geojsonpositional arguments:  input                 Input csv file path  output                Output geojson file pathoptions:  -h, --help            show this help message and exit  -v, --version         show program's version number and exit  -lat lat              Specify the latitude column in csv (default: latitude)  -long long            Specify the longitude column in csv (default: longitude)  -exclude_columns [column_name ...]                        Exclude columns from geojson properties (default: None)  -include_columns [column_name ...]                        Include only these columns in the geojson properties (default: None)```</longdescription>
 </pkgmetadata>

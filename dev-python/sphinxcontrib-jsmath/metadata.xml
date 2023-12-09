@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>sphinxcontrib-jsmath is a sphinx extension which renders display math in HTMLvia JavaScript.</longdescription>
 </pkgmetadata>

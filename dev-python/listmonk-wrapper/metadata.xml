@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ListmonkWrapperLight Python wrapper for listmonk.app* PyPI: &lt;https://pypi.org/project/listmonk-wrapper/&gt;* Free software: BSD-3-Clause## Testing* Must have local listmonk container running (TODO: add docker container in repo for testing purposes)* `poetry install -E dev -E test`* `poetry run pytest`## Usage* `pip install listmonk-wrapper````    from listmonk_wrapper import ListMonkClient    client = ListMonkClient(host=&quot;http://localhost&quot;, port=9000, username=&quot;password&quot;, password=&quot;password&quot;)    my_campaigns = client.get_campaigns()```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Cloudera Manager API client 45.0.4 for API version 45 introduced in Cloudera Manager 7.5.4</longdescription>
 </pkgmetadata>

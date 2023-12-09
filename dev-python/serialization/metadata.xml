@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===============================Serialization===============================.. image:: https://img.shields.io/travis/pragmaticcoders/serialization.svg        :target: https://travis-ci.org/pragmaticcoders/serialization.. image:: https://img.shields.io/pypi/v/serialization.svg        :target: https://pypi.python.org/pypi/serializationSmart serialization library for Python language* Free software: MIT license* Documentation: https://serialization.readthedocs.org.Features--------* TODO.. :changelog:History-------1.2.0 (2016-05-16)------------------* Add VersionedFormatable (forgotten to migrate from feat)* Make it possible for the serializer to specify the VERSION_ATOM to be used.1.1.0 (2016-04-29)------------------* Simplify imports of interfaces.1.0.0 (2016-03-09)---------------------* First release on PyPI.* Separate from `https://github.com/f3at/feat`</longdescription>
 </pkgmetadata>

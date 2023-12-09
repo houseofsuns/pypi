@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>'The Code Snippet editor extension adds support for reusable code fragments, making programming in JupyterLab more efficient by reducing repetitive work. See https://elyra.readthedocs.io/en/v3.15.0/user_guide/code-snippets.html'</longdescription>
 </pkgmetadata>

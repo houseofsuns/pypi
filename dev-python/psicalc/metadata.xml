@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PSICalc Algorithm PackageThis is a package for clustering Multiple Sequence Alignments (MSAs) utilizing normalized mutual information to examine protein subdomains. A complete data visualization tool for psicalc is available on the releases page. As an example:```import psicalc as pcfile = &quot;&lt;your_fasta_file&gt;&quot; # e.g &quot;PF02517_seed.txt&quot;data = pc.read_txt_file_format(file) # read Fasta filedata = pc.durston_schema(data, 1) # Label column index starting at 1result = pc.find_clusters(1, data) # will sample every column against msa# Optionally write dictionary to csvpc.write_output_data(1, result)```The program will run and return a csv file with the strongest clusters found in the MSA provided.</longdescription>
 </pkgmetadata>

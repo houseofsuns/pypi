@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># dagster-pandasThe docs for `dagster-pandas` can be found[here](https://docs.dagster.io/_apidocs/libraries/dagster-pandas).</longdescription>
 </pkgmetadata>

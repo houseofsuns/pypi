@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Account Deposit Module######################The account_deposit module adds support for deposit accounting.A deposit is an amount paid by the customer prior to the company providing itwith services or goods.A wizard on invoice allows to recall prior deposit of the party.</longdescription>
 </pkgmetadata>

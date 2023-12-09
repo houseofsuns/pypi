@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ezcode[![PyPi](https://img.shields.io/pypi/v/ezcode.svg)](https://pypi.python.org/pypi/ezcode)[![Github](https://img.shields.io/badge/github-master-brightgreen)](https://github.com/zheng-gao/ez_code)## Installation```bashpip3 install --upgrade ezcode```## Documentation* [docs](https://github.com/zheng-gao/ez_code/blob/main/docs)## Development Workflow```bashgit clone https://github.com/zheng-gao/ez_code.gitez_code/ez.sh -d/--development```## Release Workflow```bashgit clone https://github.com/zheng-gao/ez_code.gitez_code/ez.sh -r/--release```## Unit Test### Run all the tests```bashez_code/ez.sh -o/--operations test```### Run a single test```bashez_code/ez.sh -o/--operations test -a/--arguments test_array.py::test_binary_search```</longdescription>
 </pkgmetadata>

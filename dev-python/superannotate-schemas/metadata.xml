@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Annotation Json Schemas* [General info](#general-info)* [Setup](#setup)## General infoThis project is SuperAnnotate annotations JSON schema generator.## Setup```$ pip install superannotate_schemas```## Example```$ superannotate_schema validate &lt;annotation_path&gt;$ superannotate_schema validate &lt;annotation_path&gt;, &lt;annotation_path&gt;```- To print validation report set --verbose True- To store reports in the file set --report-path</longdescription>
 </pkgmetadata>

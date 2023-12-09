@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package allows for adding the clingcon propagator as atheory to clingcon.It can also be used as a clingcon solver running:    python -m clingcon CLINGCON_ARGUMENTS</longdescription>
 </pkgmetadata>

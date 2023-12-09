@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># rfc3339-validatorA pure python RFC3339 validator[![image](https://img.shields.io/pypi/v/rfc3339_validator.svg)](https://pypi.python.org/pypi/rfc3339_validator)[![Build Status](https://travis-ci.org/naimetti/rfc3339-validator.svg?branch=master)](https://travis-ci.org/naimetti/rfc3339-validator)# Install```shell scriptpip install rfc3339-validator```# Usage```pythonfrom rfc3339_validator import validate_rfc3339validate_rfc3339('1424-45-93T15:32:12.9023368Z')&gt;&gt;&gt; Falsevalidate_rfc3339('2001-10-23T15:32:12.9023368Z')&gt;&gt;&gt; True```  - Free software: MIT license</longdescription>
 </pkgmetadata>

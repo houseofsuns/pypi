@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>python3 -m pip install --user --upgrade setuptools wheel twinepython3 setup.py sdist bdist_wheelpython3 -m twine upload dist/*pip install tencentcloud-manager -U -i https://pypi.org/simplepip install /Users/xinz0526/Documents/workspace/python/schedule-mq# 一键更新上传rm -rf ./dist/ &amp;&amp; python3 setup.py sdist bdist_wheel &amp;&amp; python3 -m twine upload dist/* </longdescription>
 </pkgmetadata>

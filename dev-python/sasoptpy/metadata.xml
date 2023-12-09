@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>sasoptpy: SAS Optimization Interface for Python- Repository: https://github.com/sassoftware/sasoptpy- Issues: https://github.com/sassoftware/sasoptpy/issues- Releases: https://github.com/sassoftware/sasoptpy/releases- Community: https://communities.sas.com/t5/Mathematical-Optimization/bd-p/operations_researchCopyright (C) SAS Institute Inc.</longdescription>
 </pkgmetadata>

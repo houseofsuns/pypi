@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry Jaeger Propagator===============================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-propagator-jaeger.svg   :target: https://pypi.org/project/opentelemetry-propagator-jaeger/This library provides a propagator for the Jaeger formatInstallation------------::     pip install opentelemetry-propagator-jaegerReferences----------* `OpenTelemetry &lt;https://opentelemetry.io/&gt;`_* `Jaeger format &lt;https://www.jaegertracing.io/docs/1.21/client-libraries/#propagation-format&gt;`_</longdescription>
 </pkgmetadata>

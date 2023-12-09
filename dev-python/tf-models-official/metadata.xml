@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The TensorFlow official models are a collection ofmodels that use TensorFlow's high-level APIs.They are intended to be well-maintained, tested, and kept up to date with thelatest TensorFlow API. They should also be reasonably optimized for fastperformance while still being easy to read.</longdescription>
 </pkgmetadata>

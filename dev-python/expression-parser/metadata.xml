@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python sandboxed expression parser.This parser can calculate the results of a single simple expression,disallowing any complicated functions or control structures, with support forcustom variable and function environment contexts.</longdescription>
 </pkgmetadata>

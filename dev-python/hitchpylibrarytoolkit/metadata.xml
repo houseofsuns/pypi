@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>HitchPyLibraryToolkit---------------------Note: You probably shouldn't be using this unless you're building a libraryfor use with hitch.It's for deduplicating code across hitch libraries for doing:* Specifying / Testing* Documenting* Deployment* Linting* Reformatting</longdescription>
 </pkgmetadata>

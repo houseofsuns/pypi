@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A full API to map the ZWave network in Python objects. Look at examples at : https://github.com/OpenZWave/python-openzwave</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># AppSignal Python: Deprecated packageThe `appsignal-beta` Python package is now deprecated.Please install [the `appsignal` Python package](https://pypi.org/project/appsignal/) instead.## ReleaseUpdate the `pyproject.toml` file and update the version number.Run these two commands:```rm -rf disthatch buildhatch publish```Tag the release in Git:```git tag v#.#.#git push main v#.#.#```</longdescription>
 </pkgmetadata>

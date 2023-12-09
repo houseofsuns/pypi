@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># scex_pyPython wrapper for SCEX - Loan calculation package## Pre-commitRun the below command to install the pre-commit hooks:```bash$ poetry run pre-commit install```To execute the hooks without making any commit:```bash$ poetry run pre-commit run --all-files```## Usage```&gt;&gt;&gt; from scex_py.scex_client import ScexClient&gt;&gt;&gt; client = ScexClient(&quot;host&quot;, &quot;api_key&quot;)&gt;&gt;&gt; client.process_equal_payment_loan({        &quot;LoanDate&quot;: &quot;2020-02-02&quot;,           # Year-month-date        &quot;PmtDate&quot;: &quot;2020-02-02&quot;,            # Year-month-date        &quot;IntStartDate&quot;: &quot;2020-02-02&quot;,       # Year-month-date        &quot;Proceeds&quot;: 20000,        &quot;Term&quot;: 5,        &quot;IntRate&quot;: 10,        &quot;TotalDown&quot;: 2000    })```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># geocachingapi-pythonPython library to control the Geocaching API</longdescription>
 </pkgmetadata>

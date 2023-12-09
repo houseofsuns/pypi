@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>CEKit=====.. image:: https://github.com/cekit/cekit/raw/develop/docs/_static/logo-wide.pngAbout-----Container image creation tool.CEKit helps to build container images from image definition files with strongfocus on modularity and code reuse.Features--------* Building container images  from YAML image definitions* Integration/unit testing of imagesDocumentation-------------`Documentation is available here &lt;http://cekit.readthedocs.io/&gt;`_.</longdescription>
 </pkgmetadata>

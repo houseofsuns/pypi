@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Aquarium Learning Python Client LibraryThe python client library for common interactions with the Aquarium Learning API.</longdescription>
 </pkgmetadata>

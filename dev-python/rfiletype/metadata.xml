@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># rfiletype-py![CI](https://github.com/messense/rfiletype-py/workflows/CI/badge.svg)[![PyPI](https://img.shields.io/pypi/v/rfiletype.svg)](https://pypi.org/project/rfiletype)[infer](https://github.com/bojand/infer) Python binding, infer file and MIMEtype by checking the magic number signature.## Installation```bashpip install rfiletype```## LicenseThis work is released under the MIT license. A copy of the license is provided in the [LICENSE](./LICENSE) file.</longdescription>
 </pkgmetadata>

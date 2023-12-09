@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>from sqlbean.db.sqlstore import SqlStore#tables can in different databasesDATABASE_CONFIG = {    &quot;mokodb&quot;: {    &quot;master&quot;: &quot;localhost:3306:mokodb:root:111111&quot;,    &quot;tables&quot;: [&quot;*&quot;, &quot;user&quot;],    },}SQLSTORE = SqlStore(db_config=DATABASE_CONFIG, **{})def get_db_by_table(table_name):    return SQLSTORE.get_db_by_table(table_name)from sqlbean.db import connectionconnection.get_db_by_table = get_db_by_tablefrom sqlbean.shortcut import Model# will auto mapping the table structure# class User will mapping to user# class UserProfile will mapping to user_profile and so on class User(Model):    passfor i in User.where():    print i.id# more useage please the source code  :)</longdescription>
 </pkgmetadata>

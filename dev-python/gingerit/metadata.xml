@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription>===============================Gingerit===============================.. image:: https://github.com/Azd325/gingerit/workflows/Python%20package/badge.svg.. image:: https://img.shields.io/pypi/v/gingerit.svg        :target: https://pypi.python.org/pypi/gingeritCorrecting spelling and grammar mistakes based on the context of complete sentences. Wrapper around the gingersoftware.com API* Free software: MIT license* Documentation: https://gingerit.readthedocs.org.Installation:-------------::    pip install gingeritUsage:------::    from gingerit.gingerit import GingerIt    text = 'The smelt of fliwers bring back memories.'    parser = GingerIt()    parser.parse(text)TODO:-----    - Commandline ToolThanks------Thank you for  `Ginger Proofreader &lt;http://www.gingersoftware.com/&gt;`_ for such awesome service. Hope they will keep it free :)Thanks to @subosito for this inspriration `Gingerice &lt;https://github.com/subosito/gingerice&gt;`_</longdescription>
-</pkgmetadata>

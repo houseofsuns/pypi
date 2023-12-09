@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># urllib3-secure-extraMarker library to detect whether urllib3 was installed with the deprecated `[secure]` extra.Read the [issue on the urllib3 repository](https://github.com/urllib3/urllib3/issues/2680) for more information.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Jupyter Kernel Gateway is a web server that supports different mechanisms forspawning and communicating with Jupyter kernels, such as:* A Jupyter Notebook server-compatible HTTP API used for requesting kernels  and talking the `Jupyter kernel protocol &lt;https://jupyter-client.readthedocs.io/en/latest/messaging.html&gt;`_  with the kernels over Websockets* A HTTP API defined by annotated notebook cells that maps HTTP verbs and  resources to code to execute on a kernelThe server launches kernels in its local process/filesystem space. It can becontainerized and scaled out using common technologies like`tmpnb &lt;https://github.com/jupyter/tmpnb&gt;`_,`Cloud Foundry &lt;https://github.com/cloudfoundry&gt;`_, and`Kubernetes &lt;http://kubernetes.io/&gt;`_.</longdescription>
 </pkgmetadata>

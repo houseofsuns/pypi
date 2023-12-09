@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>HMAC====This is a stand alone packaging of the hashlib compatible hmac libraryincluded with Python 2.5 so that it can be used together with the hashlibbackport on older versions of Python (tested on 2.4). Not needed with Python2.5 or later.Changelog=========20101005-------- * Initial standalone release * Import hmac.py from Python 2.7 (hg revision a7637168ee41)</longdescription>
 </pkgmetadata>

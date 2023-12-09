@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Install library```pip install lementpro```## Main packages```servicesdata```## Structure```folders:    data    services```</longdescription>
 </pkgmetadata>

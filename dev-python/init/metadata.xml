@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Init: for a simple life=======================Init is a program to init a package folder structure.Installation------------It is easy to install with pip::    $ sudo pip install initIf you don't have pip, you can install it with easy_install::    $ sudo easy_install initHow to Use----------Take an example of a python package, let's call it a ``fool``::    $ mkdir fool    $ init pythonAnd answer the questions, you will everything you need for a python package.Templates---------You can find all offical templates on `init-template@github`_... _`init-template@github`: https://github.com/init-templateYou can also use your own templates::    $ init {github username}/{github repo}</longdescription>
 </pkgmetadata>

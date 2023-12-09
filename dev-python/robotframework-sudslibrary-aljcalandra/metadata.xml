@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>SudsLibrary is a web service testing library for Robot Frameworkthat leverages Suds to test SOAP-based services.</longdescription>
 </pkgmetadata>

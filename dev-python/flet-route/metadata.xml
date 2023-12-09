@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>![Build Status](flet-route.png)# This makes it easy to manage multiple views with dynamic routing.[![Downloads](https://static.pepy.tech/badge/flet-route)](https://pepy.tech/project/flet-route)This is an utility class based on repath library which allows matching ExpressJS-like routes and parsing their parameters, for example `/account/:account_id/orders/:order_id`.## Installation```pip install flet-route```## Upgradation```pip install flet-route --upgrade```## Create New App```flet-route init```### or```flet-route init --appname my_flet_app```#### [📖 Read the documentation ](https://saurabhwadekar.github.io/flet-route-doc)## Author&lt;b&gt;Name :&lt;/b&gt; Saurabh Wadekar&lt;br&gt;&lt;b&gt;Email :&lt;/b&gt; saurabhwadekar420@gmail.com&lt;br&gt;&lt;b&gt;County :&lt;/b&gt; 🇮🇳INDIA🇮🇳&lt;br&gt;&lt;h1&gt;❤️ THANK YOU ❤️&lt;/h1&gt;&lt;br&gt; </longdescription>
 </pkgmetadata>

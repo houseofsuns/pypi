@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># fm-base-workersNetwork infrastructure micro servicesBase workers and workflows for Frinx-Machine workflow-manager##### ENV variables```UNICONFIG_URL_BASEELASTICSEACRH_URL_BASECONDUCTOR_URL_BASEINVENTORY_URL_BASEINFLUXDB_URL_BASERESOURCE_MANAGER_URL_BASEUNICONFIG_USERUNICONFIG_PASSWDX_TENANT_IDX_FROMX_AUTH_USER_GROUP```e.g.:Uniconfig host can be configured in env.:```UNICONFIG_URL_BASE=http://uniconfig:8181/rests```</longdescription>
 </pkgmetadata>

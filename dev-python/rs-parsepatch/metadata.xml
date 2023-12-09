@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pyo3-parsepatchA Python wrapper for https://github.com/mozilla/rust-parsepatch.  The goal of this library is to be able to parse the patches coming from mercurial.  All the patches in https://hg.mozilla.org/mozilla-central/ have been successfully parsed !  It's used in https://github.com/mozilla/bugbug to get some metrics on patches.## LicensePublished under the MPL 2.0 license.## PublishInstall docker and then:```shdocker build -t rs_pp```It will compile everything and run tests in a manylinux environment.And then:```shdocker run -it rs_pp```to publish the packages on Pypi.## ContactEmail: calixte@mozilla.com</longdescription>
 </pkgmetadata>

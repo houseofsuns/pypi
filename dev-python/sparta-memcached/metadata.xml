@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># sparta-memcachedSparta memcached library.## Usage```pythonimport pylibmcimport sparta.memcachedalice_cache = sparta.memcached.SpartaCacheWrapper(    pylibmc.Client(        [&quot;127.0.0.1:11211&quot;],        binary=True,        behaviors={&quot;tcp_nodelay&quot;: True, &quot;ketama&quot;: True, &quot;no_block&quot;: True, &quot;cas&quot;: True}    ),    key_prefix=&quot;alice/&quot;,)bob_cache = sparta.memcached.SpartaCacheWrapper(    pylibmc.Client(        [&quot;127.0.0.1:11211&quot;],        binary=True,        behaviors={&quot;tcp_nodelay&quot;: True, &quot;ketama&quot;: True, &quot;no_block&quot;: True, &quot;cas&quot;: True}    ),    key_prefix=&quot;bob/&quot;,)your_value = ...alice_cache.set(&quot;your_key&quot;, your_value)assert alice_cache.get(&quot;your_key&quot;) == your_valueassert alice_cache.get(&quot;your_key&quot;) != bob_cache.get(&quot;your_key&quot;)```</longdescription>
 </pkgmetadata>

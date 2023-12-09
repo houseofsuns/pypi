@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># GUI ExecutorYou ever wanted to execute your Python code from a simple GUI without the need to use a REPL or commandline? Look no further, use GUI Executor.## InstallationInstall this package in your virtual environment:```$ python3 -m pip install [--upgrade] gui-executor ```## DocumentationYou can find the documentation at https://ivs-kuleuven.github.io/gui-executor/.## Running the Tests```$ PYTHONPATH=~/Documents/PyCharmProjects/gui-executor/tests gui-executor --module-path tasks.shared --module-path tasks.specific --debug```</longdescription>
 </pkgmetadata>

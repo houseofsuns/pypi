@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A library with helper functions to parse URLs, and sanitize and normalize themin pure python.This includes support for escaping, unescaping, cleaning and sorting parametersand query strings, and a little more sanitization.This version is a friendly fork of the upstream url.py from Moz to keep a purePython version around to run on Python 2 and 3 and all OSes.</longdescription>
 </pkgmetadata>

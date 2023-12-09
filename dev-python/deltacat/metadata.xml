@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># DeltaCATDeltaCAT is a Pythonic Data Catalog powered by Ray.Its data storage model allows you to define and manage fast, scalable,ACID-compliant data catalogs through git-like stage/commit APIs, and has beenused to successfully host exabyte-scale enterprise data lakes.DeltaCAT uses the Ray distributed compute framework together with Apache Arrowfor common table management tasks, including petabyte-scalechange-data-capture, data consistency checks, and table repair.## Getting Started### Install```pip install deltacat```### Running Tests```pip3 install virtualenvvirtualenv test_envsource test_env/bin/activatepip3 install -r requirements.txtpytest```</longdescription>
 </pkgmetadata>

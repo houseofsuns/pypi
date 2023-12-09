@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>TensorFlow Lattice is a library that implements fast-to-evaluate andinterpretable (optionally monotonic) lattice based models, which are also knownas *interpolated look-up tables*. The library includes a collection ofEstimators, which operate like any TensorFlow Estimator. It also includesKeras layers for lattices and feature calibration that can be composedinto custom models.</longdescription>
 </pkgmetadata>

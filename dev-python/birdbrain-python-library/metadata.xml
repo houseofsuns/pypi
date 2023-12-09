@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>========Overview========Python Library for Birdbrain Technologies Hummingbird Bit and Finch 2* Free software: GNU Lesser General Public License v3 (LGPLv3)Installation============::    pip install birdbrain-python-libraryYou can also install the in-development version with::    pip install https://github.com/fmorton/BirdBrain-Python-Library/archive/main.zipDocumentation=============Finch: https://learn.birdbraintechnologies.com/finch/python/library/Hummingbird: https://learn.birdbraintechnologies.com/hummingbirdbit/python/library/Development===========To run all the tests run::    toxNote, to combine the coverage data from all the tox environments run:.. list-table::    :widths: 10 90    :stub-columns: 1    - - Windows      - ::            set PYTEST_ADDOPTS=--cov-append            tox    - - Other      - ::            PYTEST_ADDOPTS=--cov-append toxChangelog=========0.0.1 (2022-10-01)------------------* First release on PyPI.</longdescription>
 </pkgmetadata>

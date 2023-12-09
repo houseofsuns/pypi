@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># adamspyPython tools for working with MSC/Adams data.Please see the documentation here:https://bthornton191.github.io/adamspy/#</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># nr.utilGeneral purpose Python utility library.Compatible with Python 3.7 and higher.</longdescription>
 </pkgmetadata>

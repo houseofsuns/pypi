@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>changefinder===========Online Change-Point Detection Library based on ChangeFinder Algorithm.Authors &amp; Contributors----------------------* Shunsuke Aihara - http://argmax.jpLicense=======This code is licensed under MIT License.</longdescription>
 </pkgmetadata>

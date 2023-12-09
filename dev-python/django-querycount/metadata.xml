@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>this project gives you a middleware thatprints DB query counts in Django's runserver console output.</longdescription>
 </pkgmetadata>

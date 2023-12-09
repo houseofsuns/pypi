@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>SCPI abstraction for SCPI commands and parameters=================================================This is a very rudimentary implementation of a SCPI abstraction/command+parameter interface for SCPI devicesSeveral features are not implemented (yet) and parsing is often not fully waterproof.</longdescription>
 </pkgmetadata>

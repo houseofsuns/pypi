@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># LlamaStop prompt tuning. Create your own Generative AI.## Installation```shpip install lamini```## Setup your keysGo to [https://app.lamini.ai/account](https://app.lamini.ai/account) and log in to get your API key and purchase credits.Create `~/.powerml/configure_llama.yaml` and put a key in it.```shproduction:    key: &quot;&lt;YOUR-KEY-HERE&gt;&quot;```# DocumentationPackage Documentation here: [https://lamini-ai.github.io/](https://lamini-ai.github.io/)</longdescription>
 </pkgmetadata>

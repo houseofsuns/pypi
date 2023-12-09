@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>txpostgres==========A Twisted wrapper for asynchronous PostgreSQL connections.Based on the interface exposed from the native Postgres C library by the Pythonpsycopg2 driver.Can be used as a drop-in replacement for Twisted's adbapi module when workingwith PostgreSQL. The only part that does not provide 100% compatibility isconnection pooling, although pooling provided by txpostgres is very similar tothe one Twisted adbapi offers.</longdescription>
 </pkgmetadata>

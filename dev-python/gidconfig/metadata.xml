@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># GidconfigDifferent Config Mangagment Classes derived from the stdlib ConfigParser## Config File Formats Supported- `ini`- `json` (WIP)## Status```Work In Progress```</longdescription>
 </pkgmetadata>

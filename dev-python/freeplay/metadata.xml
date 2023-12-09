@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Freeplay Python SDK The official Python SDK for easily accessing the Freeplay API.## Installation```pip install freeplay```## Compatibility- Python 3.8+## Usage```python# Import the SDKfrom freeplay import Freeplay# Initialize the clientfp_client = Freeplay(    provider_config=ProviderConfig(openai=OpenAIConfig(OPENAI_API_KEY)),    freeplay_api_key=FREEPLAY_API_KEY,    api_base=f'https://{FREEPLAY_CUSTOMER_NAME}.freeplay.ai/api')# Completion Requestcompletion = fp_client.get_completion(project_id=FREEPLAY_PROJECT_ID,                                          template_name=&quot;template&quot;,                                          variables={&quot;input_variable_name&quot;: &quot;input_variable_value&quot;})```See the [Freeplay Docs](https://docs.freeplay.ai) for more usage examples and the API reference.## LicenseThis SDK is released under the [MIT License](LICENSE).</longdescription>
 </pkgmetadata>

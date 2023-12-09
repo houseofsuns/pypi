@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Slack Resource ProviderThe Slack Provider enables you to manage Slack resources via Pulumi.## InstallingThis package is available for several languages/platforms:### Node.js (JavaScript/TypeScript)To use from JavaScript or TypeScript in Node.js, install using either `npm`:```bashnpm install @pulumi/slack```or `yarn`:```bashyarn add @pulumi/slack```### PythonTo use from Python, install using `pip`:```bashpip install pulumi_slack```### GoTo use from Go, use `go get` to grab the latest version of the library:```bashgo get github.com/pulumi/pulumi-slack/sdk/go/...```### .NETTo use from .NET, install using `dotnet add package`:```bashdotnet add package Pulumi.Slack```## ConfigurationThe following configuration points are available for the `slack` provider:- `slack:token` (environment: `SLACK_TOKEN`) - the token for your slack workspace## ReferenceFor detailed reference documentation, please visit [the Pulumi registry](https://www.pulumi.com/registry/packages/slack/api-docs/).</longdescription>
 </pkgmetadata>

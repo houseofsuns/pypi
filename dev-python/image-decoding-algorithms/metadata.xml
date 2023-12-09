@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Scripts for decoding an image. I have myself have written a decoding algorithm for JFIF, baseline encoding mode, used skimage for everything else.</longdescription>
 </pkgmetadata>

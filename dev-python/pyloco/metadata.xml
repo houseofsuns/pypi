@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&quot;pyloco&quot; executes a composable Python microapplication, or a task.</longdescription>
 </pkgmetadata>

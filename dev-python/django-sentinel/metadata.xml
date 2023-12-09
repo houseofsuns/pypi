@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Travis Status](https://travis-ci.org/lamoda/django-sentinel.svg?style=flat)](https://travis-ci.org/lamoda/django-sentinel)# django-sentinelPlugin for django-redis that supports Redis Sentinel. This is fork of [KabbageInc/django-redis-sentinel](https://github.com/KabbageInc/django-redis-sentinel) deprecated project.# Installation```pip install django-sentinel```# UsageLocation format: master_name/sentinel_server:port,sentinel_server:port/db_idIn your settings, do something like this:```    CACHES = {        &quot;default&quot;: {            &quot;BACKEND&quot;: &quot;django_redis.cache.RedisCache&quot;,            &quot;LOCATION&quot;: &quot;redis_master/sentinel-host1:2639,sentinel-host2:2639/0&quot;            &quot;OPTIONS&quot;: {                &quot;PASSWORD&quot;: 's3cret_passw0rd!',                &quot;CLIENT_CLASS&quot;: &quot;django_sentinel.SentinelClient&quot;,            }        }    }```</longdescription>
 </pkgmetadata>

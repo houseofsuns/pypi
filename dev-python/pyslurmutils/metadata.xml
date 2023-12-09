@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pyslurmutilsSLURM utilities for Python.## DemoGet an access token on rnice```bashexport SLURM_TOKEN=$(scontrol token lifespan=3600)export SLURM_URL=...export SLURM_USER=...```Run any of the example scripts```bashpython3 scripts/examples.py```Run the tests (CI or locally)```bashpython3 -m pytest .```When `SLURM_TOKEN`, `SLURM_URL` or `SLURM_USER` is missing it will mockthe SLURM clients.## Execute a python function on SLURMExecute a function on SLURM with an API similar to python's `concurrent.futures````pythonfrom pyslurmutils.concurrent.futures import SlurmRestExecutorwith SlurmRestExecutor(    url,    user_name,    token,    log_directory=&quot;/path/to/log&quot;,  # for log files    data_directory=&quot;/path/to/data&quot;,  # TCP when not provided    pre_script=&quot;module load ewoks&quot;,  # load environment    python_cmd=&quot;python&quot;,) as pool:    future = pool.submit(sum, [1, 1])    assert future.result() == 2```</longdescription>
 </pkgmetadata>

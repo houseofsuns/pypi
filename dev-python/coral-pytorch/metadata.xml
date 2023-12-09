@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Library implementing the core utilities for theCORAL ordinal regression approach fromWenzhi Cao, Vahid Mirjalili, Sebastian Raschka (2020):Rank Consistent Ordinal Regression for Neural Networkswith Application to Age Estimation.Pattern Recognition Letters.https://doi.org/10.1016/j.patrec.2020.11.008.</longdescription>
 </pkgmetadata>

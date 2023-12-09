@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/env2json.svg?maxAge=3600)](https://pypi.org/project/env2json/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install env2json```#### Examples`.env.dev````bashDB_NAME=nameDB_USER=usernameDB_HOST=127.0.0.1DB_PORT=5432``````bash$ python -m env2json .env.dev &gt; .env.dev.json````.env.dev.json````json{  &quot;DB_HOST&quot;: &quot;127.0.0.1&quot;,  &quot;DB_NAME&quot;: &quot;name&quot;,  &quot;DB_PORT&quot;: &quot;5432&quot;,  &quot;DB_USER&quot;: &quot;username&quot;}```&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
 </pkgmetadata>

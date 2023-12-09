@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># 这是README君禹科技人工智能神经网络## 字体*这是斜体*_这是斜体_**这是粗体**__这是粗体__***这是粗斜体***___这是粗斜体___## 引用&gt;这是一个引用&gt;&gt; 这是一个引用的引用## 链接[百度](https://www.baidu.com)或者[百度]&lt;https://www.baidu.com&gt;## 图片&lt;img alt=&quot;图片描述&quot; height=&quot;300&quot; src=&quot;C:\Users\Administrator\Pictures\gravator.jpg&quot; width=&quot;300&quot;/&gt;## 列表* 无序列表   * 无序列表 1+ 无序列表- 无序列表1. 有序列表    1. 有序列表      1. 有序列表   2. 有序列表2. 有序列表3. 有序列表## 代码块`hello` world```pythondef func():    print('python')```</longdescription>
 </pkgmetadata>

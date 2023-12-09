@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># Masonite-Servicing## IntroductionA simple and small utility library that aids in constructing services features in Masonite 4.## Features[Documentation coming soon]## Usage[Documentation coming soon]## Maintainers- [LJ S.A.](https://www.github.com/lvjhn)## LicenseMasonite-UAS is open-sourced software licensed under the [MIT license](LICENSE).</longdescription>
-</pkgmetadata>

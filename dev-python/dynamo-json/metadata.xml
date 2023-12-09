@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Build](https://travis-ci.org/adilosa/dynamo-json.svg?branch=master)]()# dynamo-jsonSick of DynamoDB using its own data type descriptors? Swap between DynamoDB and normal JSON!## InstallationInstall from PyPI via `pip`:    pip install dynamo_json## UsageUse as a library```pythonimport dynamo_jsondynamo_json.marshall({&quot;some&quot;: [&quot;json&quot;, &quot;document&quot;]})# {&quot;some&quot;: {&quot;L&quot;: [{&quot;S&quot;: &quot;json&quot;}, {&quot;S&quot;: &quot;document&quot;}]}}dynamo_json.unmarshall({&quot;some&quot;: {&quot;L&quot;: [{&quot;S&quot;: &quot;json&quot;}, {&quot;S&quot;: &quot;document&quot;}]}})# {&quot;some&quot;: [&quot;json&quot;, &quot;document&quot;]}```or as a CLI tool```$ dynamo-json '{&quot;my&quot;: &quot;json&quot;}'{&quot;my&quot;: {&quot;S&quot;: &quot;json&quot;}}$ dynamo-json '{&quot;my&quot;: {&quot;S&quot;: &quot;dynamo-json&quot;}}'{&quot;my&quot;: &quot;dynamo-json&quot;}```</longdescription>
 </pkgmetadata>

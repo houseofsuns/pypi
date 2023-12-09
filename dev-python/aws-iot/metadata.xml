@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># AWS IoT HandlerThis library provides an abstraction of the boto3 library in terms of IoT handling.</longdescription>
 </pkgmetadata>

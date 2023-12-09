@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>CheckBox Support================CheckBox Support library is a collection of python modules used by PlainBoxproviders scripts.They were originally provided by the checkbox python package.</longdescription>
 </pkgmetadata>

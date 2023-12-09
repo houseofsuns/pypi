@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A module to retrieve Garbage Collection data  for Danish Municipalities that are using RenoWeb.</longdescription>
 </pkgmetadata>

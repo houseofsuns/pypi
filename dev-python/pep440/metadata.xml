@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PEP 440A simple package with utils to check whether versions number match [Pep440](https://www.python.org/dev/peps/pep-0440/)Example:```&gt;&gt;&gt; from pep440 import is_canonical&gt;&gt;&gt; is_canonical('4.1.0')True&gt;&gt;&gt; is_canonical('4.2.1.beta2')  # 4.2.1b2 is correctFalse```For a bigger dependencies with more utilities see [PyPA Packaging (versionsubmodule)](https://pypi.python.org/pypi/packaging)</longdescription>
 </pkgmetadata>

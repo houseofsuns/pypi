@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## pytest capture WarningsThis is a pytest plugin to collect and print a summary of all the warnings encountered during test execution and save them in a file.# Installation    pip install pytest-capture-warnings# Usage     pytest --output &lt;output_file&gt; &lt;file_to_test&gt;    or    CAPTURE_WARNINGS_OUTPUT=&lt;output_file&gt; pytest &lt;files_to_test&gt;# Flake8 Format    The output file is formatted on a flake8 format        &lt;filename/path&gt;:&lt;line number&gt;:&lt;character number&gt;:&lt;warning message&gt;</longdescription>
 </pkgmetadata>

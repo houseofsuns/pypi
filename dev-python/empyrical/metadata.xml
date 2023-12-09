@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>empyrical is a Python library with performance and riskstatistics commonly used in quantitative finance by `Quantopian Inc`_... _Quantopian Inc: https://www.quantopian.com.. _Zipline: https://zipline.io.. _pyfolio: https://quantopian.github.io/pyfolio/</longdescription>
 </pkgmetadata>

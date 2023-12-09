@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># thcliCLI program created by taehoon. This is for studying. Do not use in production ;)## How to use?```bashpip install thclithcli hello --name 'taehoon' --age 14 # Hello taehoon in 14 years old. 👍# see morethcli --help```## Features1. Capitalize the greeting.When `heLlo` is given, it will change into `Hello` capitalizing the first character.2. Random emoji for fun!Random emoji is added at the end!* available emojis- 👍- 👎- 🔥</longdescription>
 </pkgmetadata>

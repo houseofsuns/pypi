@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># suitcase.utilsThis is a package of utility functions and test fixtures for suitcase packages.## Installation```pip install suitcase-utils```## Quick Start## DocumentationSee the [suitcase documentation](https://blueskyproject.io/suitcase/).</longdescription>
 </pkgmetadata>

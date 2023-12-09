@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># BernhardA simple Python client for [Riemann](http://github.com/aphyr/riemann). Usage:```pythonimport bernhardc = bernhard.Client()c.send({'host': 'myhost.foobar.com', 'service': 'myservice', 'metric': 12})q = c.query('true')```Bernhard supports custom attributes with the syntax:```pythonimport bernhardc = bernhard.Client()c.send({'host': 'awesome.host.com', 'attributes': {'sky': 'sunny', 'sea': 'agitated'}})```Querying the index is as easy as:```pythonimport bernhardc = bernhard.Client()q = c.query('true')for e in q:    print &quot;Host:&quot;, e.host, &quot;State:&quot;, e.state```## Installing```bashpip install bernhard```You may encounter issues with the `protobuf` dependency; if so, just run `pipinstall protobuf` manually, then `pip install bernhard`.</longdescription>
 </pkgmetadata>

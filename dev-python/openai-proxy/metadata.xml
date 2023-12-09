@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This proxy enables better budgeting and cost management for making OpenAI API calls including more transparency into pricing. Github repo here: https://github.com/tomiwa123/openai-proxy-python</longdescription>
 </pkgmetadata>

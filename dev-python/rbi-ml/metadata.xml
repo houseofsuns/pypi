@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># rbi_mlHelps build better ml workflow with...   * `kedro` for project structure management,  * `pytorch-lightning` for model training,  * `wandb` and `mlflow` for experiment tracking and management,  * Other utility tools to help handle aws services and miscellaneous tasksSource code can be found here: https://gitlab.com/rbibigdata/mldp/rbi-ml/-/tree/rbi_ml_package</longdescription>
 </pkgmetadata>

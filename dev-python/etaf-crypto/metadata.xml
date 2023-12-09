@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># fate_cryptoThis package contains some crypto algorithms implemented or wrappedusing Rust. It's for FATE use only!</longdescription>
 </pkgmetadata>

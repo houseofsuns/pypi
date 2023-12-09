@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ChatCreate a mattermost chat for discussing superevents.## UsageThis current version uses a superevent_id informationto make mattermost channels. It only works if the .netrc file has a &quot;mattermost-bot&quot; login with appropiate token as password. If the channel creation succeedes, the new channel name will be `RRT O4 {superevent_id}`. A post will be made in this channel with a corresponding grace_db url. Raises exceptions in case of failures.```from ligo.rrt_chat import channel_creationimport jsonchannel_creation.rrt_channel_creation(superevent_id, gracedb_url)```</longdescription>
 </pkgmetadata>

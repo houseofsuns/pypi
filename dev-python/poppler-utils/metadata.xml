@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># poppler-utilsPrecompiled command-line utilities (based on Poppler) for manipulating PDF files and converting them to other formats.</longdescription>
 </pkgmetadata>

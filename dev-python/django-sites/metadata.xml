@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>django-sites============.. image:: https://img.shields.io/travis/niwinz/django-sites.svg?style=flat    :target: https://travis-ci.org/niwinz/django-sites.. image:: https://img.shields.io/pypi/v/django-sites.svg?style=flat    :target: https://pypi.python.org/pypi/django-sites.. image:: https://img.shields.io/pypi/dm/django-sites.svg?style=flat    :target: https://pypi.python.org/pypi/django-sitesAlternative implementation of django &quot;sites&quot; framework based onsettings instead of models.How to install?---------------You can install it with pip:.. code-block:: shell    pip install django-sitesDocumentation-------------http://niwinz.github.io/django-sites/latest/</longdescription>
 </pkgmetadata>

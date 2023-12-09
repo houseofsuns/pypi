@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>============Dagster UI============Usage~~~~~Eg in dagster_examples.. code-block:: sh  dagit -p 3333Running dev ui:.. code-block:: sh  NEXT_PUBLIC_BACKEND_ORIGIN=&quot;http://localhost:3333&quot; yarn start</longdescription>
 </pkgmetadata>

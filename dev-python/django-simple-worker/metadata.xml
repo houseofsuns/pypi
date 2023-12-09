@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Django Simple Worker#### Installation```shellpip install django-simple-worker```Add to installed apps:```pythonINSTALLED_APPS = [    'simpleworker',]```Add to your urls (optional):```pythonpath('simpleworker/', include(('simpleworker.urls', 'simpleworker'), namespace='simpleworker')),```#### ConfigurationAdd to Django settings:```pythonSIMPLE_WORKER_SYNC_PROCESSING = env.bool('SIMPLE_WORKER_SYNC_PROCESSING', default=False)```#### UsageTODO</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>scikit-fuzzy (a.k.a. `skfuzzy`): Fuzzy logic toolbox for Python.This package implements many useful tools for projects involving fuzzy logic,also known as grey logic.</longdescription>
 </pkgmetadata>

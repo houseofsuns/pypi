@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python Base45A Python module to encode/decode binary data using Base45 as described in [RFC 9285 ](https://www.rfc-editor.org/info/rfc9285).</longdescription>
 </pkgmetadata>

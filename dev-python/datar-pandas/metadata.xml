@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># datar-pandasThe pandas backend for [datar][1].## Installation```bashpip install -U datar-pandas# orpip install -U datar[pandas]```## Usage```pythonfrom datar import f# Without the backend: NotImplementedByCurrentBackendErrorfrom datar.data import irisfrom datar.dplyr import mutate# Without the backend: NotImplementedByCurrentBackendErroriris &gt;&gt; mutate(sepal_ratio = f.Sepal_Width / f.Sepal_Length)```[1]: https://github.com/pwwang/datar</longdescription>
 </pkgmetadata>

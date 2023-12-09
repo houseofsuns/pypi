@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Raspberry Pi Python module to access the pigpio daemon</longdescription>
 </pkgmetadata>

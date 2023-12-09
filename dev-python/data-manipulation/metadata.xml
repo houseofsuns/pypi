@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Data Manipulation is a Python package providing powerful utility functions. It contains many subpackages with utility functions built for popular packages such as Pandas, PySpark and many more.</longdescription>
 </pkgmetadata>

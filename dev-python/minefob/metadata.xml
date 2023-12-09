@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MinefobMinefob is a Python module that provides full controlover any Minehut server by utilizing the Minehut API## InstallationUse the package manager [pip](https://pypi.org/project/minefob) to install Minefob.```bashpip install minefob```## Usage```pythonfrom minefob import Minefob# Instantiate a new instance of the Minefob class and provide it with# Minehut account email, password, and server namem = Minefob(&quot;foo_foo@example.domain&quot;, &quot;123456789&quot;, &quot;my_server&quot;)m.awaken() # starts serverm.say(&quot;Hello Word&quot;) # says &quot;Hello World&quot; in server chatm.slumber(10) # gives a ten second countdown before kicking players,  # saving the world, and shutting down the server```## ContributingPull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.## License[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
 </pkgmetadata>

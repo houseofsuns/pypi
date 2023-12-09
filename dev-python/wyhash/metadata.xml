@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;h1 align=&quot;center&quot;&gt;&lt;i&gt;✨ python-wyhash ✨ &lt;/i&gt;&lt;/h1&gt;&lt;h3 align=&quot;center&quot;&gt;The python binding for &lt;a href=&quot;https://github.com/wangyi-fudan/wyhash&quot;&gt;wyhash&lt;/a&gt; &lt;/h3&gt;[![pypi](https://img.shields.io/pypi/v/wyhash.svg)](https://pypi.org/project/wyhash/)![python](https://img.shields.io/pypi/pyversions/wyhash)![implementation](https://img.shields.io/pypi/implementation/wyhash)![wheel](https://img.shields.io/pypi/wheel/wyhash)![license](https://img.shields.io/github/license/synodriver/python-wyhash.svg)![action](https://img.shields.io/github/workflow/status/synodriver/python-wyhash/build%20wheel)### Usage```pythonimport wyhashfrom random import randintseed = randint(0, 255)sec = wyhash.make_secret(seed)print(wyhash.hash(b&quot;121&quot;, seed, sec))```</longdescription>
 </pkgmetadata>

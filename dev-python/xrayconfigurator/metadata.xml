@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># XRay ConfiguratorXRay configuration helper- pip install --upgrade setuptools wheel- setup.py sdist bdist_wheel- pip install twine- twine upload  dist/*</longdescription>
 </pkgmetadata>

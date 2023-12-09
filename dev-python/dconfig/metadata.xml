@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Dconfig - Bootstrap Configuration for Django project======[![Downloads](https://img.shields.io/travis/shinznatkid/django-config.svg)](https://travis-ci.org/shinznatkid/django-config/)[![Downloads](https://img.shields.io/pypi/dm/dconfig.svg)](https://pypi.python.org/pypi/dconfig/)[![Downloads](https://img.shields.io/pypi/v/dconfig.svg)](https://pypi.python.org/pypi/dconfig/)[![Downloads](https://img.shields.io/badge/license-MIT-blue.svg)](https://pypi.python.org/pypi/dconfig/)Dconfig is configuration by console for the Django webdevelopment framework.Support Django &gt;= 2.2Installation------------1. Python package        pip install dconfig2. Add 'dconfig' to INSTALLED_APPS:        'dconfig',Usage--------`python manage.py conf`Help--------`python manage.py conf``&gt;&gt;&gt; help`Wizard Setup--------`python manage.py conf``&gt;&gt;&gt; init`**WARNING: this action will wipeout all data in settings.py**</longdescription>
 </pkgmetadata>

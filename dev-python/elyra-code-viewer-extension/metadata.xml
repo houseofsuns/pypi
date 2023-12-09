@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>'The Code Viewer extension adds the ability to display a given chunk of code (string) in a transient read-only 'editor' without needing to create a file.This extension will be available in JupyterLab core in a near future release and removed from Elyra as a standalone extension.'</longdescription>
 </pkgmetadata>

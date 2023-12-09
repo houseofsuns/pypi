@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># shanten-toolsFast calculation of shanten numbers in Japanese Mahjong.## Usage```&gt;&gt;&gt; from shanten_tools import shanten&gt;&gt;&gt; import numpy as np&gt;&gt;&gt; hand = np.array([&gt;&gt;&gt;     3,1,1,1,1,1,1,1,3,&gt;&gt;&gt;     0,0,0,0,0,0,0,0,0,&gt;&gt;&gt;     0,0,0,0,0,0,0,0,0,&gt;&gt;&gt;     0,0,0,0,0,0,0], dtype=np.uint8)&gt;&gt;&gt; shanten(hand)1&gt;&gt;&gt; hand = np.array([&gt;&gt;&gt;     3,1,1,1,1,1,1,1,3,&gt;&gt;&gt;     0,0,0,0,0,0,0,0,0,&gt;&gt;&gt;     0,0,0,0,0,0,0,0,0,&gt;&gt;&gt;     0,0,0,0,0,0,1], dtype=np.uint8)&gt;&gt;&gt; shanten_discard(hand)array([2,1,2,2,1,2,2,1,2,       0,0,0,0,0,0,0,0,0,       0,0,0,0,0,0,0,0,0,       0,0,0,0,0,0,1], dtype=uint64)```## Notes- shanten number **+1** is output</longdescription>
 </pkgmetadata>

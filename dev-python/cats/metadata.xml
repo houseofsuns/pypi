@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>====Cats====It brings more cats to your life!-------Install-------.. code-block ::    pip install catsIf you want to run parsers you need Python 3.5 or better and install special requirements:.. code-block ::    pip install 'cats[parser]'----------How to use----------You can do it!.. code-block ::    $ cats          ,-~-,       ,-~~~~-,   /\  /\    (\   / ,-, \   ,'        ', /  ~~  \     \'-' /   \ \  /    _      #  &lt;0 0&gt; \      '--'     \ \/    .''.    # =  Y  =/               \     / \   \   `#-..!.-'                \   \   \   `\ \\                 )  /&gt;  /     \ \\                / /`/ /`__     \ \\__          jgs  (____)))_)))     \__)))-------Sources-------1. https://user.xmission.com/~emailbox/ascii_cats.htm2. http://www.asciiworld.com/-Cats-.html3. ...to be continued.</longdescription>
 </pkgmetadata>

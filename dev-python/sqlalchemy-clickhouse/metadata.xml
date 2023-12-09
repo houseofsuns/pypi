@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>sqlalchemy-clickhouse=====================ClickHouse dialect for SQLAlchemy.Installation------------The package is installable through PIP::   pip install sqlalchemy-clickhouseUsage-----The DSN format is similar to that of regular Postgres::    &gt;&gt;&gt; import sqlalchemy as sa    &gt;&gt;&gt; sa.create_engine('clickhouse://username:password@hostname:port/database')    Engine('clickhouse://username:password@hostname:port/database')It implements a dialect, so there's no user-facing API.Testing-------The dialect can be registered on runtime if you don't want to install it as::    from sqlalchemy.dialects import registry    registry.register(&quot;clickhouse&quot;, &quot;base&quot;, &quot;dialect&quot;)</longdescription>
 </pkgmetadata>

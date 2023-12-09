@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>retrofix========RetroFix is a python library for reading and writing fixed-size field text fileand more specifically for managing files from Spanish banks and publicinstitutions, including:- CSB 19, 32, 34 (several versions), 43, 57 &amp; 58- AEAT 182, 303, 340, 347 &amp; 349Installing----------See INSTALLPackage Contents----------------  doc/      documentation in reStructuredText. To generate the HTML:        make html  retrofix/      retrofix sourcesSupport-------License-------See LICENSECopyright---------See project files for the complete list of Copyright owners.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pandas-log provides feedback about basic pandas operations. It provides simple wrapper functions for the most common functions, such as apply, map, query and more.</longdescription>
 </pkgmetadata>

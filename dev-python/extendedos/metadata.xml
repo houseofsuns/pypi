@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># eos: Extended os module[![Build Status](https://github.com/iory/eos/workflows/Run%20Tests/badge.svg?branch=master)](https://github.com/iory/eos/actions)## Install```pip install extendedos```## Quick Start```import os.path as ospfrom eos import makedirsmakedirs('/tmp/example/1/2')osp.exists('/tmp/example/1/2')# Truefrom eos import make_fancy_output_dirmake_fancy_output_dir('/tmp/result')# '/tmp/result/iory-mac-2020-03-27-19-08-17-191116-46504'make_fancy_output_dir(time_format=None)# '/tmp/vm7bwis1'``````from eos import measureimport timewith measure('measure_example'):   time.sleep(1.0)# measure_example: 00:00:01.000574``````from eos import current_time_strcurrent_time_str()# '2021-01-08-07-42-12-301381'```</longdescription>
 </pkgmetadata>

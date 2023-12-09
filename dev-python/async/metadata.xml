@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Async is a framework to process interdependent tasks in a pool of workers.DEPRECATION NOTE: Please do not use this library ! It's not working correctly in python 3, and besides that might be called a failed experiment.Currently gitdb (via git-python) is it's major user, but it will be patched to not require it anymore.</longdescription>
 </pkgmetadata>

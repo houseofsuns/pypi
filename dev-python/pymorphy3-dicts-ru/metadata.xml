@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pymorphy3-dicts-ru==========================================================Russian dictionaries for `pymorphy3`_... _pymorphy3: https://github.com/no-plagiarism/pymorphy3Installation------------Install::    $ pip install pymorphy3-dicts-ruUsage-----To use these dictionaries with pymorphy2 create MorphAnalyzerwith ``lang='ru'`` parameter:&gt;&gt;&gt; import pymorphy3&gt;&gt;&gt; morph = pymorphy3.MorphAnalyzer(lang='ru')To get a path to the installed dictionary data use``pymorphy3_dicts_ru.get_path()`` method.Development-----------The main repo is https://github.com/no-plagiarism/pymorphy3-dicts. The repositorydoesn't contain the data itself: only package template and updatescripts are stored in VCS.License for Python code in this package is MIT.The data is licensed under`Creative Commons Attribution-Share Alike &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;`_.</longdescription>
 </pkgmetadata>

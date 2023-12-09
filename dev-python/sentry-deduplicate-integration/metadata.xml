@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># sentry-deduplicate-integrationSentry integration to rate-limit duplicated errors, using redis to sync errorcount and identify duplications.Add the integration to your sentry_sdk initialization.```pythonimport redisfrom sentry_deduplicate_integration import SentryDeduplicateIntegrationsentry_sdk.init(    integrations=[        SentryDeduplicateIntegration(            redis_factory=redis.Redis,            max_events_per_minute=10,        ),    ],)```The `redis_factory` arg is any function returning a redis client.</longdescription>
 </pkgmetadata>

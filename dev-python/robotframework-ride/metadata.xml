@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Robot Framework is a generic test automation framework for acceptancelevel testing. RIDE is a lightweight and intuitive editor for RobotFramework test data.Project: https://github.com/robotframework/RIDE#readme</longdescription>
 </pkgmetadata>

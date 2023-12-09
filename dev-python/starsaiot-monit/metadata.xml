@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>starsaiot_monit===============================version number: 1.0.0author: wangningOverview--------监控平台Installation / Usage--------------------To install use pip:    $ pip install starsaiot_monitOr clone the repo:    $ git clone https://github.com/huamoai/starsaiot_monit.git    $ python setup.py install    Contributing------------TBDExample-------TBD</longdescription>
 </pkgmetadata>

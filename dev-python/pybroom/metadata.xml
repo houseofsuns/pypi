@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pybroom=======**Pybroom** is a small python 3+ library for converting collections offit results (curve fitting or other optimizations)to `Pandas &lt;http://pandas.pydata.org/&gt;`__`DataFrame &lt;http://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe&gt;`__in tidy format (or long-form)`(Wickham 2014) &lt;http://dx.doi.org/10.18637/jss.v059.i10&gt;`__.Once fit results are in tidy DataFrames, it is possible to leverage`common patterns &lt;http://tomaugspurger.github.io/modern-5-tidy.html&gt;`__for tidy data analysis. Furthermore powerful visualexplorations using multi-facet plots becomes easy thanks to librarieslike `seaborn &lt;https://pypi.python.org/pypi/seaborn/&gt;`__ nativelysupporting tidy DataFrames.See the `pybroom homepage &lt;http://pybroom.readthedocs.io/&gt;`__ for more info.</longdescription>
 </pkgmetadata>

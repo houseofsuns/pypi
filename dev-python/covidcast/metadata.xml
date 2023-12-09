@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># COVIDcast API clientProvides Python access to the [COVIDcastAPI](https://cmu-delphi.github.io/delphi-epidata/api/covidcast.html) publishedby the [Delphi group](https://delphi.cmu.edu/) at [Carnegie MellonUniversity](https://www.cmu.edu). This API provides daily access to a range ofCOVID-related signals Delphi collects from a variety of sources, includingcases, deaths, symptom surveys, healthcare data, and other information. Thispackage also provides convenient tools for mapping and analyzing the API's data.For installation instructions, documentation, and examples, consult the [packagedocumentation](https://cmu-delphi.github.io/covidcast/covidcast-py/html/).</longdescription>
 </pkgmetadata>

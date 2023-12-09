@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>![Tests](https://github.com/strangeworks/strangeworks-qaoa/actions/workflows/cron_test.yml/badge.svg)# Strangeworks QAOA SDK ExtensionThis extension provides access to the Strangeworks QAOA service through the SDK.## InstallationInstall using `poetry````pip install poetrypoetry install```## TestsTest using pytest```poetry run pytest tests```## LintLint with black```poetry run black .```## Bump versionBump version with [poetry](https://python-poetry.org/docs/cli/#version).```poetry version [patch, minor, major]```## Update packagesUpdate &lt;package&gt; version```poetry update &lt;package&gt;```Update all packages```poetry update```</longdescription>
 </pkgmetadata>

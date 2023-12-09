@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># python-cngalA Python wrapper for cngal.org API## 数据来源1. [数据汇总页面](https://app.cngal.org/data)2. [Swagger UI](https://api.cngal.org/swagger/index.html)3. [GitHub 文档](https://github.com/CnGal/CnGalWebSite/blob/master/Docs/AboutCode/APIInstructions/Summary.md)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python SDK to use Apicurio Registry as a model registryThis is a POC library used to demo a possible workflow.</longdescription>
 </pkgmetadata>

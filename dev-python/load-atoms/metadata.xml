@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;div align=&quot;center&quot;&gt;    &lt;img src=&quot;dev/docs/source/logo.svg&quot; width=&quot;50%&quot;/&gt;    &lt;/br&gt;&lt;/div&gt;    _**L**arge **O**pen **A**ccess **D**atasets for **Ato**mistic **M**aterials **S**cience_---![GitHub](https://img.shields.io/github/license/jla-gardner/load-atoms)![PyPI - Downloads](https://img.shields.io/pypi/dw/load-atoms?color=lavender&amp;label=installs&amp;logo=python&amp;logoColor=white)Tests:[![Docs](https://github.com/jla-gardner/load-atoms/actions/workflows/docs.yaml/badge.svg?branch=main)](https://github.com/jla-gardner/load-atoms/actions/workflows/docs.yaml)[![Tests](https://github.com/jla-gardner/load-atoms/actions/workflows/tests.yaml/badge.svg?branch=main)](https://github.com/jla-gardner/load-atoms/actions/workflows/tests.yaml)[![codecov](https://codecov.io/github/jla-gardner/load-atoms/branch/main/graph/badge.svg?token=HCVF02CDHR)](https://app.codecov.io/gh/jla-gardner/load-atoms)# Homepagehttps://jla-gardner.github.io/load-atoms/TODO: write this</longdescription>
 </pkgmetadata>

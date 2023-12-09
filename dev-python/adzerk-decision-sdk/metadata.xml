@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>    Adzerk Decision SDK    Python Software Development Kit for Adzerk Decision &amp; UserDB APIs    https://github.com/adzerk/adzerk-decision-sdk-python    </longdescription>
 </pkgmetadata>

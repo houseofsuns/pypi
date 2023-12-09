@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>######################Account Invoice Module######################The *Account Invoice Module* adds the concept of invoicing to Tryton.It allows the creation of customer and supplier invoices, and can handle thepayment terms related to the invoices and show when they have been paid.</longdescription>
 </pkgmetadata>

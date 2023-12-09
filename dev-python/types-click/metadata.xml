@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for clickThis is a PEP 561 type stub package for the `click` package.It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check codethat uses `click`. The source for this package can be found athttps://github.com/python/typeshed/tree/master/stubs/click. All fixes fortypes and metadata should be contributed there.*Note:* The `click` package includes type annotations or type stubssince version 8.0. Please uninstall the `types-click`package if you use this or a newer version.See https://github.com/python/typeshed/blob/master/README.md for more details.This package was generated from typeshed commit `2445eddb4b67fdaa58ec7c2113ff1542021a6206`.</longdescription>
 </pkgmetadata>

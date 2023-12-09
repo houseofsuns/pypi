@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/python-blazarclient.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point on=============Blazar client=============This is a client for the OpenStack Blazar API. It provides a Python API (the**blazarclient** module) and a command-line script (**blazar**).Other Resources---------------* Source code:    * `Blazar &lt;https://opendev.org/openstack/blazar&gt;`__    * `Nova scheduler filter &lt;https://opendev.org/openstack/blazar-nova&gt;`__    * `Client tools &lt;https://opendev.org/openstack/python-blazarclient&gt;`__    * `Dashboard (Horizon plugin) &lt;https://opendev.org/openstack/blazar-dashboard&gt;`__* Blueprints/Bugs: https://launchpad.net/blazar* Documentation: https://docs.openstack.org/blazar/latest/* Release notes: https://docs.openstack.org/releasenotes/python-blazarclient/</longdescription>
 </pkgmetadata>

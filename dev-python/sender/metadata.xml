@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Sender------Sender is easy``````````````.. code:: python        from sender import Mail    mail = Mail()    mail.send_message(&quot;Hello&quot;, fromaddr=&quot;from@example.com&quot;,                      to=&quot;to@example.com&quot;, body=&quot;Hello world!&quot;)Install```````.. code:: bash    $ pip install senderLinks`````* `documentation &lt;http://sender.readthedocs.org/&gt;`_* `github &lt;https://github.com/fengsp/sender&gt;`_* `development version  &lt;http://github.com/fengsp/sender/zipball/master#egg=sender-dev&gt;`_</longdescription>
 </pkgmetadata>

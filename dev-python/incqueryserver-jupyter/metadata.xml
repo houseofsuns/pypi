@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># incquery-server-jupyterIncQuery Server Client Extensions for Jupyter and PythonRequires [IncQuery Server](https://incquery.io) to operate.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>dnsq====DNS Query ToolUsage-----.. code-block:: py   &gt;&gt;&gt; import dnsq   &gt;&gt;&gt; dnsq.query_dns('www.example.com', 'a')   ['93.184.216.119'].. code-block:: py   &gt;&gt;&gt; import dnsq   &gt;&gt;&gt; dnsq.mx_hosts_for('example.com')   ['example.com']</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Quilt manages data like code (with packages, repositories, browsing andrevision history) so that teams can experiment faster in machine learning,biotech, and other data-driven domains.The `quilt3` PyPI package allows you to build, push, and install data packages.Visit the `documentation quickstart &lt;https://docs.quiltdata.com/quickstart&gt;`_to learn more.</longdescription>
 </pkgmetadata>

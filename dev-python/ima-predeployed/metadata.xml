@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Predeployed IMAThe package is a tool for generating configs for predeployed IMA</longdescription>
 </pkgmetadata>

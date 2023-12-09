@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># psicPacking spheres in cube [![Codacy Badge](https://app.codacy.com/project/badge/Grade/28b130e6ef7c40638b77f806620de9f9)](https://www.codacy.com/gh/sunwhale/psic/dashboard?utm_source=github.com&amp;amp;utm_medium=referral&amp;amp;utm_content=sunwhale/psic&amp;amp;utm_campaign=Badge_Grade) ![PyPI](https://img.shields.io/pypi/v/psic) ![GitHub](https://img.shields.io/github/license/sunwhale/psic)</longdescription>
 </pkgmetadata>

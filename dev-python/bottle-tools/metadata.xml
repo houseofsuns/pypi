@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Bottle-Tools============A set of tools to make things easier to work with when using Bottle.[Full Documentation](https://bottle-tools.readthedocs.io/en/latest/)Autofill APIs with typed information```pythonimport bottle_tools as btbt.common_kwargs.update({&quot;User&quot;: UserTable})@app.post('/calculate')@bt.fill_args(coerce_types=True)def login(usrname: str, pwd: str, User):    user = User.get_or_404(usrname=usrname)    if not user.password_is_correct(pwd):        raise HttpNotFound()    return 'ok'```</longdescription>
 </pkgmetadata>

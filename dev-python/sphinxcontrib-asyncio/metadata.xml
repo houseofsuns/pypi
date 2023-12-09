@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>sphinxcontrib-asyncio=====================Sphinx extension for adding asyncio-specific markupsRead docs https://sphinxcontrib-asyncio.readthedocs.io/en/latest/ for more detailsCHANGES=======0.2.0 (2016-04-15)------------------* Added autodoc support #10.1.0 (2016-03-07)-------------------* Initial release</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># NowYou Grafits script python## Create new version to Pypi1. Increase version in `setup.py` file1. Build: `python setup.py sdist bdist_wheel`2. Upload: `python -m twine upload --skip-existing dist/*`### VirtualenvYou can use `pipenv` tool for development:  - create virtualenv: `pipenv --python /path/to/python` - install dependencies: `pipenv lock &amp;&amp; pipenv install` - open virtualenv shell: `pipenv shell` (optional)</longdescription>
 </pkgmetadata>

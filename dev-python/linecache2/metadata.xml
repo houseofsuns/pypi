@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A backport of linecache to older supported Pythons. &gt;&gt;&gt; import linecache2 as linecacheProfit.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>ZOPE Object Database implementation of rdflib.store.Store.This store has been adapted for use with `owmeta-core`_, but it is acceptable forgeneral use... _owmeta-core: https://owmeta-core.readthedocs.io/en/latest/</longdescription>
 </pkgmetadata>

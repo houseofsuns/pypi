@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Coverage Status](https://coveralls.io/repos/github/zincware/dot4dict/badge.svg?branch=main)](https://coveralls.io/github/zincware/dot4dict?branch=main)[![PyPI version](https://badge.fury.io/py/dot4dict.svg)](https://badge.fury.io/py/dot4dict)# Dot4DictAccess dictionary keys with a Dot:```pythonfrom dot4dict import dotdictmy_dict = dotdict({&quot;foo&quot;: &quot;bar&quot;})assert my_dict.foo == &quot;bar&quot;assert my_dict[&quot;foo&quot;] == &quot;bar&quot;```This works also recursively```pythonfrom dot4dict import dotdictmy_dict = dotdict({&quot;a&quot;: {&quot;b&quot;: {&quot;c&quot;: &quot;foo&quot;}}})assert my_dict.a.b.c == &quot;foo&quot;```Copyright=========This project is distributed under the [Apache license version 2.0](https://github.com/zincware/dot4dict/blob/main/LICENSE).</longdescription>
 </pkgmetadata>

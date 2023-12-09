@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Pika (Multithreaded)## IntroductionThis repository uses Pika as a base to create connections to AMQP brokers. Pikadoesn't use threads at all so it fails when using a consumer for long livedtasks. This project builds on top of Pika to enable long lived task executionfor consumers by implementing a threading layer on top of the base Pikaconnections.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># anchorpy-corePython bindings for Anchor Rust code</longdescription>
 </pkgmetadata>

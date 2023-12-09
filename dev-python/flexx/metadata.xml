@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>`Flexx &lt;https://flexx.readthedocs.io&gt;`_ is a pure Python toolkit forcreating graphical user interfaces (GUI's), that uses web technologyfor its rendering. Apps are written purely in Python; The`PScript &lt;https://pscript.readthedocs.io&gt;`_ transpiler generates thenecessary JavaScript on the fly.You can use Flexx to create (cross platform) desktop applications, webapplications, and export an app to a standalone HTML document. It alsoworks in the Jupyter notebook.The docs are on `Readthedocs &lt;http://flexx.readthedocs.io&gt;`_,the code is on `Github &lt;http://github.com/flexxui/flexx&gt;`_,and there is a `demo server &lt;http://demo.flexx.app&gt;`_.Once you've got started, the most important page is probably the`Widget reference &lt;https://flexx.readthedocs.io/en/stable/ui/api.html&gt;`_.----For more information, see http://flexx.readthedocs.io.</longdescription>
 </pkgmetadata>

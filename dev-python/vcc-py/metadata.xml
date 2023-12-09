@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># vcc.py: The Python version of vccLink of vcc: [vcc](http://www.gitee.com/intirain/vcc)Link of vccd: [vccd](http://www.gitee.com/intirain/vccd)## Installationjust `pip install vcc_py`## Feature1. Work on Windows2. Easy to install</longdescription>
 </pkgmetadata>

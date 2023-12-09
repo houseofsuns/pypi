@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Gmtestplugin    大家软件Python插件定制私有库开发项目## change logsV0.0.16   1、增加登录封装gm_login2_utils.py   2、优化second_verify.py   V0.0.15    增加二次验证读取identities的值V0.0.14    gm_assert_utils工具增加按列表分别取列表中的值并进行验证gm_assert_list_anyone_inv0.0.13  gm_assert_utils工具增加字典类型验证 gm_assert_dict_iseuqalV0.0.12  gm_assert_utils工具增加 gm_assert_lists_isinclude和gm_assert_lists_iseuqals验证V0.0.11  增加analysis库v0.0.10  优化部分内容v0.0.9  demo演示v0.0.8 修改gm_prase_response的调用名称为gm_extract_json 增加gm_sucreditcode_utils，用于生成企业社会信用代码v0.0.6  修改gm_request_utils的请求参数verfiy的默认值,由NONE调整成Falsev0.0.5 增加gm_assert_utils：assert验证封装 增加gm_excel_utils: excel工具类封装 增加gm_stock_enum: 增加采购数据枚举类 增加gm_yaml_process_utils: 增加yaml工具类 增加gm_request_utils：增加requests请求封装类v0.0.4  增加gm_prase_response.py: 解析request请求返回值  增加gm_timestamp.py： 生成测试的时间戳v0.0.3   优化目录结构  china_address.py   getrandomdata.py -- 生成随机数据  mysqlconn.py -- 数据库连接池v0.0.2   try somethingv0.0.1   mydemo-package 实验项目</longdescription>
 </pkgmetadata>

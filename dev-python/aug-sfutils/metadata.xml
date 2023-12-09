@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Routines reading shotfiles without wrappersSee https://www.aug.ipp.mpg.de/aug/manuals/aug_sfutils</longdescription>
 </pkgmetadata>

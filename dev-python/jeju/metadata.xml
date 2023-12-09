@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=======================Introduction=======================Jeju is intelligent provisioning system based on specification documentsEach S/W project has instruction documents like REAME.md, INSTALL.md ...User can manually insall programs based on INSTALL.mdBut the document may be ambiguously described.Jeju can automatically install the software instructed by INSTALL.mdThis can help developer and user.=======================   Installation=======================Jeju is python program. This can be easily installed by pip.If pip is not exist, run *apt-get install python-pip*    pip install jeju# Run exampleYou can easily test Jeju.    jejuIf you want to know detailed options.    jeju -h</longdescription>
 </pkgmetadata>

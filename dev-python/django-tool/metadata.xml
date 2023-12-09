@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=====django-tool=====djtool is a simple Django app to conduct Web-based tool. For eachquestion, visitors can choose between a fixed number of answers.Detailed documentation is in the &quot;docs&quot; directory.Quick start-----------Add &quot;djtool&quot; to your INSTALLED_APPS setting like this::    INSTALLED_APPS = (        ...        'djtool',    )</longdescription>
 </pkgmetadata>

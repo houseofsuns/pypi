@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>============================Django Statsd |Build Status|============================Documentation is on `Read the Docs &lt;https://django-statsd.readthedocs.org/&gt;`_.-------License-------BSD and MPLPortions of this are from commonware:https://github.com/jsocol/commonware/blob/master/LICENSE.. |Build Status| image:: https://travis-ci.org/django-statsd/django-statsd.svg?branch=master   :target: https://travis-ci.org/django-statsd/django-statsd</longdescription>
 </pkgmetadata>

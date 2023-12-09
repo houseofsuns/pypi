@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Hikvision AX Pro ISAPI IntegrationWrapper for hikvision ax pro alarm kit ISAPI commands.## InstallationUse the package manager [pip](https://pip.pypa.io/en/stable/) to install hikaxpro.```bashpip install hikaxpro```## Usage```pythonfrom hikaxpro import HikAxProaxpro = HikAxPro(&quot;{host}&quot;, &quot;{username}&quot;, &quot;{password}&quot;)# returns 'True or False'axpro.arm_away()#returns 'True or False'axpro.disarm()# returns 'True or False'axpro.arm_home()axpro.disarm()```</longdescription>
 </pkgmetadata>

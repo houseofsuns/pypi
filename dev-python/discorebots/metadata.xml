@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># AboutModule to create discord bots its easy!#Example```pyfrom discorebots import setupBotbot = setupBot(prefix=&quot;.&quot;, #provide your bot prefixintents=True, #discord intents (if True pls enable intents in discordapp.com/developers/applications in your application bot)sharding=True, #if you want sharding guildsshardsAmount=2, #shards counttoken=&quot;bot token&quot;)bot.onWebsocketResponse(&quot;Bot is ready to use!&quot;) #log readybot.onClientMessage() #acess bot messagesbot.addCommand(name = &quot;ping&quot;,code = &quot;Pong! $pingms&quot; #if you want change prefix in command add: prefix=&quot;new prefix&quot;)bot.addCommand(name = &quot;uptime&quot;,code = &quot;Uptime: $uptime&quot;)bot.start() #start client```</longdescription>
 </pkgmetadata>

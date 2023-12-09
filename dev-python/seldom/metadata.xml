@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>seldom---------------WebUI/HTTP automation testing framework based on unittest.Installation------------    $ pip install seldomDocumentation++++++++++++++++++https://github.com/SeldomQA/seldom</longdescription>
 </pkgmetadata>

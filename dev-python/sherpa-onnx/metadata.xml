@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># IntroductionDocumentation: &lt;https://k2-fsa.github.io/sherpa/onnx/index.html&gt;See &lt;https://github.com/k2-fsa/sherpa&gt;This repo uses [onnxruntime](https://github.com/microsoft/onnxruntime) anddoes not depend on libtorch.</longdescription>
 </pkgmetadata>

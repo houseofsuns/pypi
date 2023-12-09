@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>==================asbool==================.. image:: https://travis-ci.org/aodag/asbool.svg?branch=master               :target: https://travis-ci.org/aodag/asbool``asbool`` is simple converter from ``str`` to ``bool``.INSTALL======================use pip to install ``asbool``.::   pip install asboolUSAGE==================You can use ``asbool.asbool`` function simply.::   &gt;&gt;&gt; from asbool import asbool   &gt;&gt;&gt; asbool('TRUE')   TrueOr use ``AsBoolConverter`` instance with customized values.::   &gt;&gt;&gt; from asbool.converter import AsBoolConverter   &gt;&gt;&gt; converter = AsBoolConverter(['t'], ['f'])   &gt;&gt;&gt; converter('t')   True   &gt;&gt;&gt; converter('f')   False   &gt;&gt;&gt; converter('true')   Traceback (most recent call last):       ...   raise ValueError(ss)   ValueError: true</longdescription>
 </pkgmetadata>

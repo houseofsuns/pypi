@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ximea-pyThis module provides a python interface to XIMEA cameras. It is simply a repackaging of XIMEA's python drivers available at https://www.ximea.com/downloads/recent/XIMEA_Linux_SP.tgz (package/api/Python/v3/ximea) in order to allow for easier installation with pip, e.g. into virtual or conda environments.# InstallationOn Linux, add users that will use the camera to the &quot;plugdev&quot; group:`sudo usermod -aG plugdev &lt;myuser&gt;`Install with:`pip install ximea-py`and use like so:```import ximea.xiapiximea.xiapi.Camera()...```</longdescription>
 </pkgmetadata>

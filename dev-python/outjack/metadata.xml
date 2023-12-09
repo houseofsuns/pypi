@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># outjackJACK and PortAudio integration for Python## InstallThese are generic installation instructions.### To use, permanentlyThe quickest way to get started is to install the current release from PyPI:```pip3 install --user outjack```### To use, temporarilyIf you prefer to keep .local clean, install to a virtualenv:```python3 -m venv venvnamevenvname/bin/pip install outjack. venvname/bin/activate```### To developFirst clone the repo using HTTP or SSH:```git clone https://github.com/combatopera/outjack.gitgit clone git@github.com:combatopera/outjack.git```Now use pyven's pipify to create a setup.py, which pip can then use to install the project editably:```python3 -m venv pyvenvenvpyvenvenv/bin/pip install pyvenpyvenvenv/bin/pipify outjackpython3 -m venv venvnamevenvname/bin/pip install -e outjack. venvname/bin/activate```</longdescription>
 </pkgmetadata>

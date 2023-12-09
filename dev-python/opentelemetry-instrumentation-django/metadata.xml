@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry Django Tracing============================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-django.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-django/This library allows tracing requests for Django applications.Installation------------::    pip install opentelemetry-instrumentation-djangoReferences----------* `Django &lt;https://www.djangoproject.com/&gt;`_* `OpenTelemetry Instrumentation for Django &lt;https://opentelemetry-python-contrib.readthedocs.io/en/latest/instrumentation/django/django.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
 </pkgmetadata>

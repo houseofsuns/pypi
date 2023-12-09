@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>**true_encoding**==================*Usage:*--------&gt;&gt;&gt;from true_encoding.debug import debug&gt;&gt;&gt;r = requests.get('http://www.fang.com')&gt;&gt;&gt;r.encoding = debug(r)&gt;&gt;&gt;print(r.text)</longdescription>
 </pkgmetadata>

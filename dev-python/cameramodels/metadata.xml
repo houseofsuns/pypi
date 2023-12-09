@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Camera Models[![Build Status](https://github.com/iory/cameramodels/workflows/Run%20Tests/badge.svg?branch=master)](https://github.com/iory/cameramodels/actions)&lt;h4&gt;    &lt;a href=&quot;https://cameramodels.readthedocs.io/en/latest/&quot;&gt;Documentation&lt;/a&gt; |    &lt;a href=&quot;https://cameramodels.readthedocs.io/en/latest/reference/index.html&quot;&gt;Python API&lt;/a&gt; |&lt;/h4&gt;Manipulate Camera Library.## Installation```bashpip install cameramodels```If you would like to use `open3d` conversion functions,```bashpip install cameramodels[all]```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pythran is an ahead of time compiler for a subset of the Python language, with afocus on scientific computing. It takes a Python module annotated with a fewinterface descriptions and turns it into a native Python module with the sameinterface, but (hopefully) faster.It is meant to efficiently compile **scientific programs**, and takes advantageof multi-cores and SIMD instruction units.Until 0.9.5 (included), Pythran was supporting Python 3 and Python 2.7.It now only supports Python **3**.</longdescription>
 </pkgmetadata>

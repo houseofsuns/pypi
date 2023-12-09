@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PyNIPAP - a Python NIPAP client library=======================================PyNIPAP is a Python client library to communicate with the NIPAP server viaXML-RPC. It abstracts away all the evil in ze world.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>![logo](logo.png)---A collection of tools to analyze and visualize atmospheric aerosol data.## Installation```shellpip install aerosol-functions```## DocumentationSee [here](https://jlpl.github.io/aerosol-functions/)</longdescription>
 </pkgmetadata>

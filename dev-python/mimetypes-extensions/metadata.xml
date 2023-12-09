@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Mimetypes Extensions -- Experimental MIME Types Features for Python    The ``mimetypes_extensions`` module enables experimentation with features that are not found in the ``mimetypes`` module.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Product Classification Module#############################The Product Classification module defines the tools for other modules to createclassifications of products.It adds a reference field *classification* to the product template.</longdescription>
 </pkgmetadata>

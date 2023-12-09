@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Reload------This utility starts given program and reloads it whenever any file in current directory changes. Paths can be excluded by putting regular expressions matching them in .reloadignore file.Installation::    pip install reloadUsage::reload ./server.pyUsage from Python::    reload_me(&quot;server&quot;)</longdescription>
 </pkgmetadata>

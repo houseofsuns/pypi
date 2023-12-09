@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Geneea Interpretor ClientInterpretor is a Natural Language Processing platform which helps the users leverage their text data. Features include - language detection- entity recognition- semantic tagging- sentiment analysisThis package contains Python SDK which enables easy integration of Interpretor [General NLP REST API](https://help.geneea.com/api_general/index.html#api-general) with your code.For detailed information, please [read the docs](https://help.geneea.com/sdk/index.html).</longdescription>
 </pkgmetadata>

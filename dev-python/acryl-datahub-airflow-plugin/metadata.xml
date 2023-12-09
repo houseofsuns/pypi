@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Datahub Airflow PluginSee [the DataHub Airflow docs](https://datahubproject.io/docs/lineage/airflow) for details.</longdescription>
 </pkgmetadata>

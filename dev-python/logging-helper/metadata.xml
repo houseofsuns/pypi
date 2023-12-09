@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Logging Helper========================A python helper to make setting up more informative logging a little easier.</longdescription>
 </pkgmetadata>

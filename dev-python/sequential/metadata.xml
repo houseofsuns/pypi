@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Sequential-----Sequential wrappers for python functions allowing you to easily define order ofexecution independent of content of the function.</longdescription>
 </pkgmetadata>

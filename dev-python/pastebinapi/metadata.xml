@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&gt; # PASTEBIN API```# Module made by @venaxyt on Githubimport pastebinapiusername = &quot;pastebin account username&quot;password = &quot;pastebin account password&quot;api_key = &quot;account api_key findable here https://pastebin.com/doc_api# Check an accountpastebinapi.check(username, password, api_key)&gt;&gt;&gt; Output : [username] Valid account# Get the token of an accountpastebinapi.token(username, password, api_key)&gt;&gt;&gt; Output : [username] Token : account token# Upload a paste on an accountprivacity = &quot;2&quot;  # 0 : public | 1 : unlisted | 2 : privatecontent = &quot;That's my text&quot;title = &quot;Venax paste&quot;pastebinapi.paste(username, password, api_key, privacity, title, content)&gt;&gt;&gt; Output : [&gt;] Successfully uploaded :&gt;&gt;&gt; Output : [&gt;] Pastebin text page : https://pastebin.com/pasteid&gt;&gt;&gt; Output : [&gt;] Pastebin text /raw : https://pastebin.com/raw/pasteid```&gt; ### **Download** : ``pip install pastebinapi``</longdescription>
 </pkgmetadata>

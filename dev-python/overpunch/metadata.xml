@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Overpunch Parser/Formatter==========================Extract and generate overpunch (https://en.wikipedia.org/wiki/Signed_overpunch) formatted numbers.Examples:---------    &gt;&gt;&gt; import overpunch    &gt;&gt;&gt; overpunch.format(123.45)    '1234E'    &gt;&gt;&gt; overpunch.extract(&quot;1234E&quot;)    Decimal('123.45')Requirements:-------------* Python 2.7+ or Python 3Tests:------Without coverage::    $ nosetestsWith coverage::    $ nosetests --with-coverage --cover-package=overpunch</longdescription>
 </pkgmetadata>

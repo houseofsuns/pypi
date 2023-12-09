@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry SQLAlchemy Instrumentation========================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-sqlalchemy.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-sqlalchemy/This library allows tracing requests made by the SQLAlchemy library.Installation------------::    pip install opentelemetry-instrumentation-sqlalchemyReferences----------* `SQLAlchemy Project &lt;https://www.sqlalchemy.org/&gt;`_* `OpenTelemetry SQLAlchemy Tracing &lt;https://opentelemetry-python-contrib.readthedocs.io/en/latest/instrumentation/sqlalchemy/sqlalchemy.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
 </pkgmetadata>

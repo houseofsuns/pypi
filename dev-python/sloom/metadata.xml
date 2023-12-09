@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># sloomUNDER DEVELOPMENT v 0.2.0Sloom is a webscrapper / crawling library## Setupto get use ```pip install sloom```to update use``` pip install sloom --upgrade ``` ## Documentation Simple program to run sloom: ```python import sloom sloom.run(&quot;https://example.com&quot;) ```</longdescription>
 </pkgmetadata>

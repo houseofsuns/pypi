@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># dataprep_mlData utilities for Machine Learning pipelines.## Submodules1. Data cleaning2. Data analysis3. Data splitting</longdescription>
 </pkgmetadata>

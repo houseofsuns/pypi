@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Provides command line tools for working with catkin.</longdescription>
 </pkgmetadata>

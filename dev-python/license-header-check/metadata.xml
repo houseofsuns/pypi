@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># license-header-checklicense-header-check is a tool to test if all modules in a python package have a certain license header.## Install```bashpip install license-header-check```## UsageYou have to provide two arguments:* license_file: A file with the license header as its only content.* package_name: The name of the package that should be checked.Optional:* --ignore: A path in the package that should be ignored.## Example```bashlicense-header-check LICENSE my_package``````bashlicense-header-check LICENSE my_package --ignore my_package.my_subpackage```</longdescription>
 </pkgmetadata>

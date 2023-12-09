@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>It is a Technical Analysis library to financial time series datasets. You can use to do feature engineering. It is built on Python Pandas library.</longdescription>
 </pkgmetadata>

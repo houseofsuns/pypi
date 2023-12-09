@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Extractor to get main content from the web page. - guessed title of main content - guessed main content - guessed summarization - candidate of main imageInstall   sudo easy_install summaryUsages   visit at https://github.com/after12am/summary</longdescription>
 </pkgmetadata>

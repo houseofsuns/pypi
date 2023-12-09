@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>|travis|microarch=========Knuth Microarchitecture Management (CPUID)Getting started---------------Stable version:.. code-block:: bash    $ pip install --upgrade microarchDevelopment version:.. code-block:: bash    $ pip install --upgrade --index-url https://test.pypi.org/pypi/ microarch.. |travis| image:: https://travis-ci.org/k-nuth/microarch.svg?branch=master    :target: https://travis-ci.org/k-nuth/microarch</longdescription>
 </pkgmetadata>

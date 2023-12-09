@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Horovod is a distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.The goal of Horovod is to make distributed Deep Learning fast and easy to use.</longdescription>
 </pkgmetadata>

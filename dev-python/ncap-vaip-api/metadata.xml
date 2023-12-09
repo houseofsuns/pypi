@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Use the vAIP API to help build up entities based on the vAIP ontology.See example.py for example implementation.</longdescription>
 </pkgmetadata>

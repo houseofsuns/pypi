@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>livereloadstatic assetsPlatform: UNKNOWNClassifier: Development Status :: 3 - AlphaClassifier: Intended Audience :: DevelopersClassifier: Intended Audience :: Information TechnologyClassifier: License :: OSI Approved :: MIT LicenseClassifier: Environment :: Web EnvironmentClassifier: Framework :: DjangoClassifier: Operating System :: POSIX :: LinuxClassifier: Programming Language :: Python :: 3Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: MiddlewareClassifier: Topic :: Internet :: WWW/HTTP :: Site Management</longdescription>
 </pkgmetadata>

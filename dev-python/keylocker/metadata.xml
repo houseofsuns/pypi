@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Keylocker CLILibrary with the CLI to save the encrypted secrets in the configuration file, but a transparent read and write the new settings in the app.## Simple usage in CLI:```keylocker initkeylocker listkeylocker read &lt;keyname&gt;keylocker remove &lt;keyname&gt;keylocker write &lt;keyname&gt; &lt;value&gt;```## Simple usage in code:```from keylocker import Storagesecrets = Storage()print(secrets['test'])```## Simple usage in bash:```PYPIPASS=&quot;$(keylocker read pypi_password)&quot;PYPIUSER=&quot;$(keylocker read pypi_user)&quot;poetry publish --username &quot;${PYPIUSER}&quot; --password &quot;${PYPIPASS}&quot; --build```## Source Code:* [https://github.com/vpuhoff/keylocker](https://github.com/vpuhoff/keylocker)## Travis CI Deploys:* [https://travis-ci.com/vpuhoff/keylocker](https://travis-ci.com/vpuhoff/keylocker) [![Build Status](https://travis-ci.com/vpuhoff/keylocker.svg?branch=master)](https://travis-ci.com/vpuhoff/keylocker)</longdescription>
 </pkgmetadata>

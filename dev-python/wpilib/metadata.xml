@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>RobotPy WPILib==============Python version of WPILib - the standard library used for programming FRCrobots.Installation============Typically, you don't install this directly, but use the RobotPy installerto install it on your roboRIO, or it is installed by pip as part of thepyfrc setup process.</longdescription>
 </pkgmetadata>

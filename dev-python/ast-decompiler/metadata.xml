@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>**************ast_decompiler**************ast_decompiler is a module for generating Python code given an AST.A usage example::    &gt;&gt; import ast    &gt;&gt; from ast_decompiler import decompile    &gt;&gt; decompile(ast.parse('(a + b) * c'))    (a + b) * cThis module supports Python 3.6 through 3.11.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. image:: https://travis-ci.org/ambitioninc/django-db-mutex.png   :target: https://travis-ci.org/ambitioninc/django-db-mutexdjango-db-mutex===============Provides the ability to acquire a mutex lock from the database in Django.Installation------------To install the latest release, type::    pip install django-db-mutexTo install the latest code directly from source, type::    pip install git+git://github.com/ambitioninc/django-db-mutex.gitDocumentation-------------Full documentation is available at http://django-db-mutex.readthedocs.orgLicense-------MIT License (see LICENSE)</longdescription>
 </pkgmetadata>

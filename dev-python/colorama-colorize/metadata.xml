@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A package that allows you to use the colorama module with a simpler syntax</longdescription>
 </pkgmetadata>

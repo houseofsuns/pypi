@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PyPlots[![Build status](https://github.com/jakkes/pyplots/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/jakkes/pyplots/actions/workflows/python-app.yml)Wraps matplotlib into easier plotting utilities. ## Installation```pip install pyplots```## Documentationhttps://jakkes.github.io/pyplots/## Exampleshttps://github.com/jakkes/pyplots/tree/main/examples</longdescription>
 </pkgmetadata>

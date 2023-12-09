@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A backward compatibility package to the official winpdb-reborn, a platform independent GPL Python debugger.The debugger `winpdb` is now developed under the package name [winpdb-reborn](https://pypi.org/project/winpdb-reborn/)This package exists just for backward compatibility reasons.</longdescription>
 </pkgmetadata>

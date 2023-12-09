@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># fsspec data plugin for Flytekit — ExperimentalThis plugin provides an implementation of the data persistence layer in Flytekit that uses fsspec. Once this pluginis installed, it overrides all default implementations of the data plugins and provides the ones supported by fsspec. This pluginwill only install the fsspec core. To install all fsspec plugins, please follow the [fsspec documentation](https://filesystem-spec.readthedocs.io/en/latest/).</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pygame Extra is a mask for pygame, you can easily make complex games and or apps with much less lines then you would of before, Pygame Extra makes coding easier. The online documentation can be found at: https://pygame-extra.readthedocs.io/en/latest/github: https://github.com/JustRedTTG/PGE</longdescription>
 </pkgmetadata>

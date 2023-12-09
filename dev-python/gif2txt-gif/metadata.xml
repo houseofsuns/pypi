@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>通过输入gif文件路径等信息,把gif图片转成字符图片png然后在合并成字符gif</longdescription>
 </pkgmetadata>

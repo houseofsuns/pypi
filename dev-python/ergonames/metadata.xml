@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Ergo Names Python SDK### Example for resolving an ergoname```pythonname = &quot;~balb&quot;;address = ergonames.resolve_ergoname(name);```### Example for address lookup```pythonaddress = &quot;3WwKzFjZGrtKAV7qSCoJsZK9iJhLLrUa3uwd4yw52bVtDVv6j5TL&quot;;token_list = ergonames.reverse_search(address);```</longdescription>
 </pkgmetadata>

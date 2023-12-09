@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. image:: https://img.shields.io/pypi/v/django-otp-yubikey?color=blue   :target: https://pypi.org/project/django-otp-yubikey/   :alt: PyPI.. image:: https://img.shields.io/readthedocs/django-otp-yubikey   :target: https://django-otp-yubikey.readthedocs.io/   :alt: Documentation.. image:: https://img.shields.io/badge/github-django--agent--trust-green   :target: https://github.com/django-otp/django-otp-yubikey   :alt: SourceThis is a django-otp plugin that handles `YubiKey&lt;https://www.yubico.com/yubikey&gt;`_ devices using the Yubico OTP algorithm. Thisincludes two device definitions: one to verify YubiKey tokens locally andanother to verify them against a `web service&lt;https://www.yubico.com/yubicloud&gt;`_.See `django-otp &lt;https://pypi.org/project/django-otp&gt;`_ for more information onthe OTP framework... _upgrade notes: https://django-otp-yubikey.readthedocs.io/#upgrading</longdescription>
 </pkgmetadata>

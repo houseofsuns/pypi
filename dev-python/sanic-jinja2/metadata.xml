@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>sanic-jinja2--------------Jinja2 support for sanic</longdescription>
 </pkgmetadata>

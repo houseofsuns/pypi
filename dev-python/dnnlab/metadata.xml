@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># DnnLabDnnlab is a small framework for deep learning models based on TensorFlow.It provides custom training loops for:* Generative Models (GAN, cGan, cycleGAN)* Image Detection (custom YOLO)Additonaly custom Keras Layer:* Non-Local-Blocks (Self-Attention)* Squeeze and Excitation Blocks (SEBlocks)* YOLO-Decoding LayerInput pipeline functionality:* YOLO (Tfrecords to Datasets)* YOLO data augmentation* Generative Models (Tfrecords to Datasets)TensorBoard output:* YOLO coco metrics (Precision (mAP) &amp; Recall)* YOLO loss (loss_class, loss_conf, loss_xywh, total_loss)* YOLO bounding boxes* Generative Models (Loss &amp; Images)## RequirementsTensorFlow 2.3.0## InstallationRun the following to install:```pythonpip install dnnlab```</longdescription>
 </pkgmetadata>

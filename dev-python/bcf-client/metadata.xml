@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># bcfA simple Python implementation of the BCF standard. Manipulation of BCF-XML isavailable via `bcfxml.py` and manipulation of BCF-API is available via`bcfapi.py`.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># leftpad`leftpad` is a Python library for padding the left of strings.# Installation`pip install leftpadx`# Usage```from leftpad import leftpadprint(leftpad(&quot;epic&quot;, 100, &quot;@&quot;))```Expected output:```@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@epic```</longdescription>
 </pkgmetadata>

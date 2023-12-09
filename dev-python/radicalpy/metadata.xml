@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># RadicalPy: a toolbox for radical pair spin dynamicsRadicalPy in an intuitive (object-oriented) open-source Pythonframework specific to radical pair spin dynamics.To get started take a look at the [quick startguide](https://github.com/Spin-Chemistry-Labs/radicalpy/tree/main/docs/quick-start/guide.org)or the[examples](https://github.com/Spin-Chemistry-Labs/radicalpy/tree/main/examples).The package is still under development.  Basic functionality isimplemented, [documentation](https://radicalpy.readthedocs.io/) issparse, testing partial.If you would like to contact us, please visit the Spin Chemistry Community [Discord server](https://discord.io/spin-chemistry-community/).## InstallationInstall simply using `pip`:```pip install radicalpy```</longdescription>
 </pkgmetadata>

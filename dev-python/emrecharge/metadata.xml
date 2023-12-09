@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># EM RechargeInstall the package using pip```    pip install emrecharge```## Development Install```    pip install -r requirements_dev.txt```</longdescription>
 </pkgmetadata>

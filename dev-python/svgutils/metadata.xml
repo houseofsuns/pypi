@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is an utility package that helps to edit andconcatenate SVG files. It is especially directed at scientists preparingfinal figures for submission to journal. So far it supports arbitraryplacement and scaling of svg figures andadding markers, such as labels.</longdescription>
 </pkgmetadata>

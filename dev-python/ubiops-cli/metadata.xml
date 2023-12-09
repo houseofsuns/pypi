@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Command Line Interface to interact with the UbiOps API (v2.1).Read the documentation at: https://github.com/UbiOps/command-line-interfaceMore information about UbiOps: https://ubiops.com/UbiOps-cli is compatible with Python 3.6+ and is distributed under the Apache 2.0 License.</longdescription>
 </pkgmetadata>

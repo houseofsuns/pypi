@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Easy flattening with detailed setting-------------------------------------Powered by [Yamato Nagata](https://twitter.com/514YJ)[GitHub](https://github.com/delta114514/flatto)```python&gt;&gt;&gt; list(flatten([&quot;12&quot;, (3, [4]), [5, 6, {7, &quot;8&quot;}]]))['12', 3, 4, 5, 6, 7, '8']&gt;&gt;&gt; list(flatten([&quot;12&quot;, (3, [4]), [5, 6, {7, &quot;8&quot;}]], ignore=(), peep=()))['1', '2', 3, 4, 5, 6, 7, '8']&gt;&gt;&gt; list(flatten([&quot;12&quot;, (3, [4]), [5, 6, {7, &quot;8&quot;}]], ignore=(), peep=(tuple,)))['1', '2', (3, 4), 5, 6, 7, '8']&gt;&gt;&gt; list(flatten([&quot;12&quot;, (3, [4]), [5, 6, {7, &quot;8&quot;}]], ignore=(), peep=(tuple,), depth=1))['1', '2', (3, [4]), 5, 6, {7, '8'}]&gt;&gt;&gt; list(flatten([&quot;12&quot;, (3, [4]), [5, 6, {7, &quot;8&quot;}]], ignore=(), peep=(tuple,), depth=0))['12', (3, [4]), [5, 6, {7, '8'}]]```</longdescription>
 </pkgmetadata>

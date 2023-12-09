@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pathtools=========Pattern matching and various utilities for file systems paths.Installing----------As simple as:    python3 -m pip install --upgrade --user pathtools3Or from sources:    python3 -m pip install -e .Testing-------Requirements:    python3 -m pip install pytest pytest-covAnd then:    python3 -m pytestDeploying---------For the maintainer, you will need to install wheel:    python3 -m pip install wheelAnd the command to distribute the module is:    python3 setup.py sdist bdist_wheel upload</longdescription>
 </pkgmetadata>

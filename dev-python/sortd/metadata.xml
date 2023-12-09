@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># SortdCollection of `stdin` -&gt; `stdout` sorting commands```shsortd &lt;fmt&gt; [options...]```Supported formats:`cfg`, `csv`, `json`, `lines`, `plist`, `toml`, `yaml`## [Install](https://pypi.org/project/sortd)```shpip3 install -U sortd```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Fred====Python wrapper of the St. Louis Federal Reserve Bank's [FRED API webservice](http://api.stlouisfed.org/docs/fred/) for retrieving economic data.FRED API Documentation:[http://api.stlouisfed.org/docs/fred/](http://api.stlouisfed.org/docs/fred/)Sign up for a FRED API key:[http://api.stlouisfed.org/api_key.html](http://api.stlouisfed.org/api_key.html)</longdescription>
 </pkgmetadata>

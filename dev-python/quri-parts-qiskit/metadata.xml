@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># QURI Parts QiskitQURI Parts Qiskit is a support library for using Qiskit with QURI Parts.## Documentation[QURI Parts Documentation](https://quri-parts.qunasys.com)## Installation```pip install quri-parts-qiskit```## LicenseApache License 2.0</longdescription>
 </pkgmetadata>

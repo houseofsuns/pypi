@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/pgrep.svg?maxAge=3600)](https://pypi.org/project/pgrep/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install pgrep```#### Examples```python&gt;&gt;&gt; import pgrep&gt;&gt;&gt; pgrep.pgrep(&quot;Finder&quot;)[322]&gt;&gt;&gt; pgrep.pgrep(&quot;bash&quot;)[416, 434, 30681, 30918]&gt;&gt;&gt; pgrep.pgrep(&quot;not-existing-process&quot;)[]```&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
 </pkgmetadata>

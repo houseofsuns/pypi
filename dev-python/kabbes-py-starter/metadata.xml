@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[GitHub Pages](https://jameskabbes.github.io/py_starter)&lt;br&gt;[PyPI](https://pypi.org/project/kabbes-py-starter)# py_starterHelpful python starter functions for various repository use&lt;br&gt;# Installation`pip install kabbes_py_starter`&lt;br&gt;# UsageFor more in-depth documentation, read the information provided on the Pages. Or better yet, read the source code.```pythonimport py_starter as ps``````pythonps.print_for_loop( ['Apple','Strawberry','Banana'] )``````&gt;&gt;&gt; 1. Apple2. Strawberry3. Banana``````pythonps.merge_two_dicts( {'A':'Alpha','C':'Nothing'}, {'B':'Bravo':'C':'Charlie'} )``````&gt;&gt;&gt; {'A':'Alpha','B':'Bravo','C':'Charlie'}```&lt;br&gt;# AuthorJames Kabbes</longdescription>
 </pkgmetadata>

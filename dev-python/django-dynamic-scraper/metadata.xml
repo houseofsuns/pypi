@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># django-dynamic-scraperDjango Dynamic Scraper (DDS) is an app for Django which builds on top of the scraping framework Scrapy and letsyou create and manage Scrapy spiders via the Django admin interface. It was originally developed for germanwebtv program site http://fernsehsuche.de.## DocumentationRead more about DDS in the ReadTheDocs documentation:- http://django-dynamic-scraper.readthedocs.org/## Getting Help/UpdatesThere is a mailing list on Google Groups, feel free to ask questions or make suggestions:- https://groups.google.com/group/django-dynamic-scraperInfos about new releases and updates on Twitter:- https://twitter.com/#!/dynamicscraper </longdescription>
 </pkgmetadata>

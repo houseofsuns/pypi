@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python wrapper around https://bellard.org/quickjs/ .Translates types like `str`, `float`, `bool`, `list`, `dict` and combinationsthereof to and from Javascript.QuickJS is currently thread-hostile, so this wrapper makes sure that all callsto the same JS runtime comes from the same thead.</longdescription>
 </pkgmetadata>

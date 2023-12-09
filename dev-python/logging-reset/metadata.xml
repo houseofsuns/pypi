@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>### Reset Python logging configuration to factory defaultsReset logging configuration in your project to factory defaults - to deal with third-party libraries which configure their own formatters, etc. at import time.## Usage:```    &gt;&gt;&gt; import logreset    &gt;&gt;&gt; logreset.reset_logging()```</longdescription>
 </pkgmetadata>

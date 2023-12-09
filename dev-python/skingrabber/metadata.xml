@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Documentation Status](https://readthedocs.org/projects/skingrabber/badge/?version=latest)](https://skingrabber.readthedocs.io/en/latest/?badge=latest)  [![PyPI version](https://badge.fury.io/py/skingrabber.svg)](https://badge.fury.io/py/skingrabber)# SkinGrabberA Python API wrapper for Minecraft skins and UUID'sCurrent Version = `0.1.5`## DocumentationDocumentation is available here: https://skingrabber.readthedocs.io/## InstallationTo install skingrabber, do:`pip install skingrabber` or `pip3 install skingrabber` or`python -m pip install skingrabber`## ExamplesSome examples are available in the [examples folder](https://github.com/MakufonSkifto/skingrabber/tree/master/examples)For more detailed explanations and functions, visit [the docs](https://skingrabber.readthedocs.io/)</longdescription>
 </pkgmetadata>

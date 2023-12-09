@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Tests](https://github.com/intergral/deep-python-client/actions/workflows/on_push.yaml/badge.svg)](https://github.com/intergral/deep-python-client/actions/workflows/on_push.yaml)[![PyPI](https://img.shields.io/pypi/v/deep-agent)](https://pypi.org/project/deep-agent/)# DEEP Python ClientDEEP is an open source dynamic insight engine based on the Grafana stack. The idea is to allow dynamic collection ofTraces, Metrics, Logs and Snapshots via the Grafana UI.## UsageTo use DEEP simple import the package and start the agent at the earliest point in the code.```bashpip install deep-agent``````pythonimport deepdeep.start()```## ExamplesThere are a couple of examples [available here](./examples/README.md).## DocumentationFor further documentation on the usage of deep-agent view the [docs](https://intergral.github.io/deep-python-client/).## LicensingFor licensing info please see [LICENSING.md](./LICENSING.md)</longdescription>
 </pkgmetadata>

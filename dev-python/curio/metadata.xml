@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Curio is a coroutine-based library for concurrent systems programming.  No longermaintained as a PyPi project.  Latest version is available on GitHub. </longdescription>
 </pkgmetadata>

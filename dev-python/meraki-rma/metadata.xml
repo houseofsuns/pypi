@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Meraki RMA WrapperThis repo contains an early prototype to simplify replacing devices on the Meraki Dashboard.## Insallation :pip install meraki-rma / poetry add meraki-rma## Usage :from meraki_rma import MerakiRmathen see examples/switch-rma.py</longdescription>
 </pkgmetadata>

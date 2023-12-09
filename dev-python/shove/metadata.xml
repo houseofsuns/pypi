@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Common object storage frontend that supportsdictionary-style access, object serializationand compression, and multiple storage and cachingbackends.Supported storage backends out of the box are:- DBM- Filesystem- Memory- sqlite (disk or memory)Current supported caching backends are:- Filesystem- Memory- sqlite (disk or memory)The simplest *shove* use case...&gt;&gt;&gt; from shove import Shove&gt;&gt;&gt; store = Shove()...which creates an in-memory store and cache.Use of other backends for storage and caching involvespassing an module URI or existing store or cache instanceto *shove* following the form:&gt;&gt;&gt; from shove import Shove&gt;&gt;&gt; &lt;storename&gt; = Shove(&lt;store_uri&gt;, &lt;cache_uri&gt;)Each module-specific URI form is documented in its module. TheURI form follows the URI form used by SQLAlchemy:    http://www.sqlalchemy.org/docs/core/engines.html*shove* implements the Python dictionary/mapping API:    http://docs.python.org/lib/typesmapping.html</longdescription>
 </pkgmetadata>

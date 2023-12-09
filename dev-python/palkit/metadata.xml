@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PAL kitThis is a collection of useful functions written by the folks at PAL.[Documentation](https://wearepal.ai/palkit/)## InstallRun```pip install palkit```or install directly from GitHub:```pip install git+https://github.com/predictive-analytics-lab/palkit.git@main```</longdescription>
 </pkgmetadata>

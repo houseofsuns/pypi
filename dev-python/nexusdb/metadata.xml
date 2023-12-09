@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python nexusdbYour nexusdb is a lightweight JSON-based database system for Python, providing an easy way to store and manage structured data within your Python applications.## InstallationYou can install nexusdb using pip:```shellpip install nexusdb</longdescription>
 </pkgmetadata>

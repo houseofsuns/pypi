@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Google Maps Module##################The Google Maps module add a new URL field on the partyaddresses. This link open the Google Maps page on the default browserwith the map centered on the selected address.</longdescription>
 </pkgmetadata>

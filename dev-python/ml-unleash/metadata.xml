@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python package for packaging and deploying machine learning models as invokable endpoints in Docker containers.</longdescription>
 </pkgmetadata>

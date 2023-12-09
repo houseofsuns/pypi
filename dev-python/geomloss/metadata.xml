@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Geometric loss functions between point clouds, images and volumesPlease check our [website](https://www.kernel-operations.io/geomloss)!</longdescription>
 </pkgmetadata>

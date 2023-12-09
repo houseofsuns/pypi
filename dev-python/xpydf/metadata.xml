@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># xpdf-pythonPython wrapper around the pdftotext functionality of xpdf.# Usage```pythonfrom xpydf.pdf_loader import PdfLoaderloader = PdfLoader(&quot;foo.pdf&quot;)pdf_text = loader.extract_strings()pdf_images = loader.extract_images()```</longdescription>
 </pkgmetadata>

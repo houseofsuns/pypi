@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># IntroductionA python package for enhancing the experience of interacting with databricks## Build process```py -m build``````py -m twine upload --repository pypi dist/* --verbose```### To set your API token for PyPI, you can create a $HOME/.pypirc similar to:```[pypi]username = __token__password = &lt;PyPI token&gt;````</longdescription>
 </pkgmetadata>

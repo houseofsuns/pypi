@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># requests-factoryA HTTP Request Builder based on requests Library</longdescription>
 </pkgmetadata>

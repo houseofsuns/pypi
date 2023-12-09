@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This library contains various financial technical indicators that can be used to analyze financial data.</longdescription>
 </pkgmetadata>

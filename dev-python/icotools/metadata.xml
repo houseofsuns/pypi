@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Tools for collecting behavioural measures of iconicity. See https://github.com/BonnieMcLean/IcoTools for a tutorial. </longdescription>
 </pkgmetadata>

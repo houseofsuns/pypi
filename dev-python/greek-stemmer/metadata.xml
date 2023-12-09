@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Greek Stemmer-------------This is a Python implementation of Skroutz's Ruby Greek stemmer.Usage=====To use simply do:    &gt;&gt;&gt; from greek_stemmer import GreekStemmer    &gt;&gt;&gt; stemmer = GreekStemmer()    &gt;&gt;&gt; stemmer.stem('ΘΑΛΑΣΣΑ')Installation============To install using pip issue the following command:.. code-block:: bash   pip install greek-stemmerTesting=======In order to run the tests, you should firstly install all the necessarydependencies:.. code-block:: bash   pip install -r requirements.txtTests can be run using the following command:.. code-block:: bash   python -m pytest tests/</longdescription>
 </pkgmetadata>

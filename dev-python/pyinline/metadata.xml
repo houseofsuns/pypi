@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PyinlineA function inliner for Python. Import `inline` from `pyinline` and run:```console$ python -m pyinline source.py```This will convert the following:```pythonfrom pyinline import inlineimport logginglog = logging.getLogger(__name__)@inlinedef log_error(msg: str, exception: Exception):    log.error(msg, exception, exc_info=True)try:    x = 1 / 0except Exception as e:    log_error(&quot;Could not divide number&quot;, e)```will generate:```pythonimport logginglog = logging.getLogger(__name__)try:    x = 1 / 0except Exception as e:    log.error(&quot;Could not divide number&quot;, e, exc_info=True)```Call with `--diff` to generate a patch.</longdescription>
 </pkgmetadata>

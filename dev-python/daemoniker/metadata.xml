@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Daemoniker provides a cross-platform (including Windows),pure-Python API for creating daemons and communicating with themvia signals and signal handlers.</longdescription>
 </pkgmetadata>

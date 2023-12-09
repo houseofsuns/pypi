@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pybalboa--------Python Module to interface with a balboa spaRequires Python 3 with asyncio.To Install::  pip install pybalboaTo test::  python3 pybalboa &lt;ip-of-spa-wifi&gt; &lt;debug-flag&gt;To Use``````See ``__main__.py`` for usage examples.Minimal example::  import asyncio  import pybalboa  async with pybalboa.SpaClient(spa_host) as spa:    # read/run spa commands  returnRelated```````- https://github.com/ccutrer/balboa_worldwide_app/wiki - invaluable wiki for Balboa module protocol</longdescription>
 </pkgmetadata>

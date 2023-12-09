@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PyNumeca[![Python application](https://github.com/GitMarco27/PyNumeca/actions/workflows/python-app.yml/badge.svg)](https://github.com/GitMarco27/PyNumeca/actions/workflows/python-app.yml)Python interface to Numera family software</longdescription>
 </pkgmetadata>

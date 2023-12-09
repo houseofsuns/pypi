@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># AYCD AutoSolve Python ClientClient for connecting to the AYCD AutoSolve network## Documentationhttps://docs.aycd.io/docs/getting-started/## LicenseThis project is licensed under the MIT License</longdescription>
 </pkgmetadata>

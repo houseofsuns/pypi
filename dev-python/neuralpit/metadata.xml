@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Update versionpython -m pip install pip-toolspip install bumpverpip-compile --extra dev pyproject.tomlbumpver update --minor# Install package locallypython -m pip install -e .# Using SDKRUn NeuralPitSDK.init(api_endpoint, api_key)</longdescription>
 </pkgmetadata>

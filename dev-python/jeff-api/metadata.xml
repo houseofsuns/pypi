@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># jeff-apiPython library for Jeff interaction. Supports only `jeff-qt` for now.## Installing from PyPI.org```bashpip install jeff-api```## Usage*TBD*## Building```bashcd jeff-apipython -m pip install --upgrade buildpython -m build```</longdescription>
 </pkgmetadata>

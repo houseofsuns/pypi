@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># tentaclio-s3A package containing all the dependencies for the s3 tentaclio schema .## Quick StartThis project comes with a `Makefile` which is ready to do basic common tasks```$ make helpinstall                       Initalise the virtual env installing depsclean                         Remove all the unwanted clutterlock                          Lock dependenciesupdate                        Update dependencies (whole tree)sync                          Install dependencies as per the lock filelint                          Lint files with flake and mypyformat                        Run black and isorttest                          Run unit testscircleci                      Validate circleci configuration (needs circleci cli)```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The ``pyPM.ca`` population modeller (www.pyPM.ca) describes connected systems withdiscrete-time difference equations. It was developed specificallyto understand and characterize the CoViD-19 epidemic. This package, ipypm, is a convenient graphical user interface (GUI) forpyPM.ca based in interactive python widgets for use inside a Jupyter notebook.After opening the GUI in a notebook, the user can open a pyPM.ca modeland compare its predictions with data.Models and data can be accessed on the local filesystem or downloadedfrom a network server.The model parameters can be adjusted manually or by fitting to data.Models can be examined in detail and modified through the GUI, withoutprogramming.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># brainglobe-utilsShared general purpose tools for the BrainGlobe project## Installation```bashpip install brainglobe-utils```To also include the dependencies required for `napari`, use:```bashpip install brainglobe-utils[napari]```For development, clone this repository and install the dependencies with one of the following commands:```bashpip install -e .[dev]pip install -e .[dev,napari]```</longdescription>
 </pkgmetadata>

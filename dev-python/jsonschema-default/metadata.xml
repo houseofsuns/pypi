@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># jsonschema-instanceA Python package that creates default objects from a JSON schema.## NoteThis is not a validator. Inputs should be valid JSON schemas. For Python you can use the [jsonschema](https://github.com/Julian/jsonschema) package to validate schemas.## Installation```pip install jsonschema-default```## Usage```pythonimport jsonschema_defaultdefault_obj = jsonschema_default.create_from(&quot;&lt;schema&gt;&quot;)```## Development- Install and configure [Poetry](https://python-poetry.org/)```bashpip install --user poetry```See [Installation](https://python-poetry.org/docs/#installation) for the official guide.- Install the dependencies using ```bash# Configure poetry to create a local venv directorypoetry config virtualenvs.in-project truepoetry install```</longdescription>
 </pkgmetadata>

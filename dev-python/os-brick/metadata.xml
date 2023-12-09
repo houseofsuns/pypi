@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenStack Cinder brick library for managing local volume attaches</longdescription>
 </pkgmetadata>

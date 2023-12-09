@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A static analyzer for Python2 and Python3 code.Beniget provides a static over-approximation of the global andlocal definitions inside Python Module/Class/Function.It can also compute def-use chains from each definition.</longdescription>
 </pkgmetadata>

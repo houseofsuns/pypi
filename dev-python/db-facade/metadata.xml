@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># db-facadeA simple library that provides an easy to use interface for databases.</longdescription>
 </pkgmetadata>

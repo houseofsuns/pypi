@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Shape-aware type stubs for TensorFlow. See the `tensor-annotations` package.</longdescription>
 </pkgmetadata>

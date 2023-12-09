@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>========Overview========Mixtures of Independently Collected Samples* Free software: MIT licenseInstallation============::    pip install micsDocumentation=============https://mics.readthedocs.io/Development===========To run the all tests run::    toxNote, to combine the coverage data from all the tox environments run:.. list-table::    :widths: 10 90    :stub-columns: 1    - - Windows      - ::            set PYTEST_ADDOPTS=--cov-append            tox    - - Other      - ::            PYTEST_ADDOPTS=--cov-append toxChangelog=========0.2.0 (2018-05-09)------------------* Implementation of classes ``sample``, ``pool``, ``mixture``, ``MICS`` and ``MBAR``.0.1.0 (2017-10-11)------------------* First release on PyPI.</longdescription>
 </pkgmetadata>

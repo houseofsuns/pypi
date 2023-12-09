@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># QLU API CALL UTIL PACKAGEThis is a QLU API call util package which provides functionality of making HTTP requeset with retries and retry after interval.</longdescription>
 </pkgmetadata>

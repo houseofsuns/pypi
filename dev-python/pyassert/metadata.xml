@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pyassert is an assertion library for the Python programming language.Introduction------------Assertions are used in automated tests to verify that a given piece of code behaves as expected. pyassert aims to provide assertions with provide* **rich functionality**: common assertions should be expressed easily* **good readability**: assertions should be easy to read and easy to understand to enhance the overall understandability of the test* **independent of the test framework**: pyassert assertions work with every Python test environment.How to install it?``````````````````pyassert is available via the [Cheeseshop](http://pypi.python.org/pypi/pyassert/) so you can use easy_install or pip:    $ pip install pyassertLinks`````* pyassert Github repository including documentation &lt;https://github.com/pyclectic/pyassert&gt;</longdescription>
 </pkgmetadata>

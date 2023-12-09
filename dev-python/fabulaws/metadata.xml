@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>FabulAWS========`FabulAWS &lt;https://github.com/caktus/fabulaws&gt;`_ began as a tool to createephemeral EC2 instances using Python, like so::    from fabulaws.ec2 import MicroLucidInstance    with MicroLucidInstance():        run('uname -a')FabulAWS is now a fully-featured tool for deploying Python web applicationsto autoscaling-enabled AWS EC2 environments.Please refer to the `documentation &lt;http://fabulaws.readthedocs.org/&gt;`_ fordetails.Pre-commit----------This repo uses `pre-commit &lt;https://pre-commit.com/&gt;`_ to keep the code nicelyformatted. Be sure to install the commit hook locally to get these benefits::    $ pip install -r requirements.txt    $ pre-commit installDevelopment by `Caktus Consulting Group &lt;http://www.caktusgroup.com/&gt;`_.</longdescription>
 </pkgmetadata>

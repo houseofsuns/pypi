@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># django-girder-utils[![PyPI](https://img.shields.io/pypi/v/django-girder-utils)](https://pypi.org/project/django-girder-utils/)Django utilities for data management applications.</longdescription>
 </pkgmetadata>

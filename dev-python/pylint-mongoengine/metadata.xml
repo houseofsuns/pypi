@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pylint-mongoengine is a pylint plugin for mongoengine and mongomotor. Inspiredby the pylint-django plugin.Install=======Install it using pip:```sh   $ pip install pylint-mongoengine```Usage=====From the command line use the ``--load-plugins`` parameter:```sh   $ pylint --load-plugins=pylint_mongoengine mycode/```or add ``load-plugins=pylint_mongoengine`` to your pylintrc file#### How to use in VS-Code:Open the Command Palette (⇧⌘P), then type `Preferences: Configure Language Specific Settings`, select Python and add the following code:```json&quot;python.linting.pylintArgs&quot;: [  &quot;--load-plugins=pylint_mongoengine&quot;]```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cached_urlLibrary to fetch url, read from cache when testing.## usage```import cached_urlcontent = cached_url.get(webpage_url, ttl=10)```## how to install`pip3 install cached_url`</longdescription>
 </pkgmetadata>

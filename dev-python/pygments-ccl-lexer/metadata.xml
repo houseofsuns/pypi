@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Contents========CCL Lexer for the Cerner Command Language.This module extends the *SqlLexer* lexer of `Pygments`_ to support morekeywords of CCL.Installation============Use the following commands to install the package::    $ cd pygments-sql-pl-lexer    $ [sudo] python setup.py installCheck if the lexer is present=============================Simply grep the output of the following command for **ccl**.::    $ pygmentize -L lexers | grep cclUse the lexer in LaTeX======================Replace &lt;language&gt; with **ccl**::    \begin{minted}{&lt;language&gt;}        &lt;code&gt;    \end{minted}For example::    \begin{minted}[linenos=true,frame=single]{ccl}    --#SET TERMINATOR @    CREATE OR REPLACE MODULE project @    \end{minted}</longdescription>
 </pkgmetadata>

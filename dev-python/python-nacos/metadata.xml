@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># python-nacos### 声明&gt; 参考nacos-sdk-python项目改造&gt;&gt; https://github.com/nacos-group/nacos-sdk-python### Usage```pythonfrom nacos import NacosUsageSERVER_ADDRESSES = &quot;127.0.0.1:8848&quot;NAMESPACE = &quot;44b27ac4-60c1-43e7-8ac3-ed34108ca1aa&quot;params = {    &quot;servers&quot;: SERVER_ADDRESSES,    &quot;namespace&quot;: NAMESPACE,    &quot;service_name&quot;: &quot;test.service&quot;,    # &quot;ip&quot;: &quot;127.0.0.1&quot;,    &quot;port&quot;: 8080,    &quot;cluster_name&quot;: &quot;testCluster&quot;,    &quot;weight&quot;: 1.0,    &quot;metadata&quot;: {},    &quot;enable&quot;: True,    &quot;healthy&quot;: True,    &quot;ephemeral&quot;: True,}usage = NacosUsage(debug=False, daemon=False, **params)# 获取配置conf = usage.get_config(data_id=&quot;test&quot;)print(&quot;config: {}&quot;.format(conf))# 注册实例usage.register_instance()```</longdescription>
 </pkgmetadata>

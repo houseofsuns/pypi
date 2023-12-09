@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Flexible dotted dictionaryA dictionary that allows access to keys via the dot operator, so that instance.value is equivalent to instance['value'].Github repository: https://github.com/ailling/flexible-dotdict</longdescription>
 </pkgmetadata>

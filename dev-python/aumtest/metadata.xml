@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>### 最新安装```# 更新pip install aumtest# 源码安装python setup.py install# 查看版本号aumtest -V# 帮助命名行参数aumtest -h```</longdescription>
 </pkgmetadata>

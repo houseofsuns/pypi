@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># nnfnd## Library publishing* python3 -m build* twine upload dist/*  --verbose</longdescription>
 </pkgmetadata>

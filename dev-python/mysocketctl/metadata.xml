@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Mysocketctl: a CLI tool for Mysocket.io ==================================================Mysocketctl is a CLI wrapper around the Mysocket.io APIPlease check the full documentation here:`mysocketctl documentation on readthedocs.io &lt;https://mysocket.readthedocs.io/en/latest/mysocketctl/mysocket.html#&gt;`_Installation--------------------::    pip3 install mysocketctlAuthors--------------------* Andree ToonkLinks--------------------* `mysocketctl documentation on readthedocs.io &lt;https://mysocket.readthedocs.io/en/latest/mysocketctl/mysocket.html#&gt;`_* `Mysocket home page &lt;https://mysocket.io/&gt;`_* `Project home page (GitHub) &lt;https://github.com/mysocketio/mysocketctl&gt;`_Bugs--------------------Please report bugs, issues, feature requests, etc. on `GitHub &lt;https://github.com/mysocketio/mysocketctl/issues&gt;`_.</longdescription>
 </pkgmetadata>

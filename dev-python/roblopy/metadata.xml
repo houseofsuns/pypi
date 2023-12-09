@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Roblopy![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)Roblox API built in Python.Migrating from 4.5 to 5.0, we will now be using snake case to follow PEP8. We are also adding type hints and docstrings.## InstallingHere is a simple way to install:```pip install roblopy```Here is a simple way to upgrade the package to the newest version:```pip install roblopy --upgrade```## Quick Example```pythonfrom roblopy import Usersuser_id = Users.get_id_from_username(&quot;ROBLOX&quot;)print(&quot;Roblox's User ID is &quot; + str(user_id))```## Documentationhttps://github.com/jackprogramsjp/Roblopy/wiki## Requirements* requests* Beautiful Soup</longdescription>
 </pkgmetadata>

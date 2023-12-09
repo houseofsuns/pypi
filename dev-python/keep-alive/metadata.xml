@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># keep-alive A system for keeping an application alive with a webserver. Install with: pip install keep-alive. </longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python Multigit&lt;a name=&quot;top&quot;&gt;&lt;/a&gt;This package offers a simple way of managing *&quot;workspaces&quot;* integrating multiple git repos starting from a top one, and without the need of difficult *&quot;arcanes&quot;* like *git submodules*, *git-subtree*, etc.: you only need to declare your intended layout in a YAML file, and let this script (**multigit**) do its job.Read the [full documentation on GitHub](https://github.com/jmnavarrol/python-multigit#readme).See also the [simplest-git-subrepos README](https://github.com/jmnavarrol/simplest-git-subrepos#readme) for a long-wired rationale.</longdescription>
 </pkgmetadata>

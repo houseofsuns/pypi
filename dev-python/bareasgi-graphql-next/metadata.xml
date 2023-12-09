@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># bareASGI-graphql-nextGraphql support for [bareASGI](http://github.com/rob-blackbourn/bareASGI) (read the [documentation](https://rob-blackbourn.github.io/bareASGI-graphql-next/))The controller provides a GraphQL GET and POST route, a WebSocket subscription server, and a Graphiql view.## InstallationInstall from the pie shop.```bashpip install bareasgi-graphql-next```If you wish to install with the grapheme option:```bashpip install 'bareasgi-graphql-next[graphene]'```## UsageYou can register the graphql controller with the `add_graphql_next` function.```pythonfrom bareasgi import Applicationfrom bareasgi_graphql_next import add_graphql_nextimport graphql# Get the schema ...schema = graphql.GraphQLSchema( ... )import uvicornapp = Application()add_graphql_next(app, schema)uvicorn.run(app, port=9009)```## DevelopmentTo develop with the graphene optional package:```bashpoetry install --extras graphene```</longdescription>
 </pkgmetadata>

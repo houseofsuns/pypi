@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># mkdocs-material-extras## Install deps```bashpip3 install -U -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/```</longdescription>
 </pkgmetadata>

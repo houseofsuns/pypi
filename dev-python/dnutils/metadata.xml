@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Welcome to dnutils==================Install dnutils with:    pip install dnutilsPlease visit the project page athttps://spritinio.de/dnutils/index.htmlChanges 0.3.6=============* new functions in tools, console, debug, stats* new modules math, datesChanges 0.3.5=============* fixed signals on Windows machines.Changelog 0.2.9===============Changelog 0.2.8===============* import error &quot;monotonic&quot; in threadsafe on python 2* import threads.Timer in __init__.py* fixed internal representation in Gaussian</longdescription>
 </pkgmetadata>

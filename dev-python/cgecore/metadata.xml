@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cge_core_moduleCore module for the Center for Genomic EpidemiologyThis module contains classes and functions needed to run the service wrappers and pipeline scriptsThe pypi project can be found here:https://pypi.org/project/cgecore/# How to update:1. Make changes to the modules2. Bump the version number accordingly in cgecore/__init__.py3. Install package locally4. Test the changes locally (for both python2 and python3)5. Distribute to Pypi# Install package locallypython2 setup.py installpython3 setup.py install# Distribute to PyPipython3 setup.py sdist bdist_wheeltwine upload dist/**deprecated:*~~python setup.py sdist upload -r pypi~~</longdescription>
 </pkgmetadata>

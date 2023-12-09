@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package contains built wheels for xylib by Marcin Wojdyr (https://github.com/wojdyr/xylib)xylib is a library for reading obscure file formats with data frompowder diffraction, spectroscopy and other experimental methods.For the list of supported formats see https://github.com/wojdyr/xylib .This module includes bindings to xylib and xylib itself.The first two numbers in the version are the version of included xylib.</longdescription>
 </pkgmetadata>

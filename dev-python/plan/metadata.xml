@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Plan----Cron jobs in Python.Plan is easy````````````Save in a schedule.py:.. code:: python        from plan import Plan    cron = Plan()    cron.command('ls /tmp', every='1.day', at='12:00')    cron.command('pwd', every='2.month')    cron.command('date', every='weekend')    if __name__ == &quot;__main__&quot;:        cron.run()And run it:.. code:: bash    $ pip install plan    $ python schedule.pyLinks`````* `documentation &lt;http://plan.readthedocs.org/&gt;`_* `github &lt;https://github.com/fengsp/plan&gt;`_* `development version  &lt;http://github.com/fengsp/plan/zipball/master#egg=plan-dev&gt;`_</longdescription>
 </pkgmetadata>

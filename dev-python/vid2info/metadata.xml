@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># video_info_extractorVideo Info Extractor is an easy-to-use Computer Vision based pipeline that implements Detection, Tracking and, optionally, segmentation. </longdescription>
 </pkgmetadata>

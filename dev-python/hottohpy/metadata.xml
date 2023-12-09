@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Project desciptionThis library can be used to discuss with HootoH based stove devicesActually tested and validated with a CMG Drum stove.To use this library you need to have a wifi capable stove.# Usage```shell$ stove = Hottoh(address=&quot;192.168.1.10&quot;, port=&quot;5001&quot;)$ stove.connect()$ stove.get_temperature()```You can check example.py </longdescription>
 </pkgmetadata>

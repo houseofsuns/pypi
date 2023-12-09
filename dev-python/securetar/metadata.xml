@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Secure TarSecure Tarfile libraryIt's a streaming wrapper around python tarfile and allow secure handling files and support encryption.```pythonwith SecureTarFile(&quot;test.tar&quot;, &quot;w&quot;) as tar_file:        atomic_contents_add(            tar_file,            temp_orig,            excludes=[],            arcname=&quot;.&quot;,        )with SecureTarFile(&quot;test.tar&quot;, &quot;w&quot;, b&quot;AES128_KEY_SIZE&quot;) as tar_file:        atomic_contents_add(            tar_file,            temp_orig,            excludes=[],            arcname=&quot;.&quot;,        )```</longdescription>
 </pkgmetadata>

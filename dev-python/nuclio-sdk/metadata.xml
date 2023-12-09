@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>![CI](https://github.com/nuclio/nuclio-sdk-py/workflows/CI/badge.svg)# Nuclio SDKPython SDK for Nuclio (www.nuclio.io, www.github.com/nuclio/nuclio).</longdescription>
 </pkgmetadata>

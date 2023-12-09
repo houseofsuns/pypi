@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>======fspath======After 10 years juggling with os.path, zipfile &amp; Co. I thought it is time tobring back more *pythonic* to APIs. It is made with the philosophy that API'sshould be intuitive and their defaults should at least cover 80% of whatprogrammer daily needs.  Started with the semantic file system pathes, it growscontinuous and includes more and more handy stuff for the daily pythonscripting.visit our slide-show at https://return42.github.io/fspath/slides/index.html:copyright:  Copyright (C) 2023 Markus Heiser:e-mail:     markus.heiser@darmarIT.de:license:    GNU Affero General Public License v3 or later (AGPLv3+):docs:       http://return42.github.io/fspath:repository: `github return42/fspath &lt;https://github.com/return42/fspath&gt;`_Installing==========Works as usual, e.g. use::  pip install --user fspathor a bleeding edge installation from GitHub::  pip install --user git+http://github.com/return42/fspath.git</longdescription>
 </pkgmetadata>

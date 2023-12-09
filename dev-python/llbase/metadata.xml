@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Linden Lab Base[![codecov](https://codecov.io/gh/secondlife/python-llbase/branch/main/graph/badge.svg?token=GUB4VX1OSG)](https://codecov.io/gh/secondlife/python-llbase)Vintage python utility modules used by Linden Lab, the creators of[Second Life](https://secondlife.com).## UseInstall llbase:```pip install llbase```Use it:```pyfrom llbase.config import Configconfig = Config(&quot;./config.xml&quot;)print(config.get(&quot;my-setting&quot;))```</longdescription>
 </pkgmetadata>

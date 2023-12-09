@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Tondor - Tool### Description Python package for Tondor processing line  ### Install```pip install tondor-tools```</longdescription>
 </pkgmetadata>

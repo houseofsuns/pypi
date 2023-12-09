@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Provides functions to interact with NAT-PMP gateways implementing version 0 of the NAT-PMP draft specification.</longdescription>
 </pkgmetadata>

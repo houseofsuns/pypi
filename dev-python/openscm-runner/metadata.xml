@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenSCM-Runner==============OpenSCM-Runner is a thin wrapper to run simple climate models with aunified interface.At present, it supports emissions driven runs only.This wrapper is implemented while`OpenSCM &lt;https://github.com/openscm/openscm&gt;`_ is still a work inprogress.</longdescription>
 </pkgmetadata>

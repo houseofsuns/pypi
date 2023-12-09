@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Product Cost History Module###########################The Product Cost History Module adds a *Cost History* relate on the productform showing the cost price evolution of the product. The history is based onthe cost price stored on the incoming stock moves for goods and assets andbased on the history table for service.When a historic cost price is needed the value is taken from this history forgoods and assets.</longdescription>
 </pkgmetadata>

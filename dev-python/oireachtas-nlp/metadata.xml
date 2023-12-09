@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>nlp on data from the oireachtas api relating to members / parties</longdescription>
 </pkgmetadata>

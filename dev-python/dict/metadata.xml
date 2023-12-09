@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/dict.svg?maxAge=3600)](https://pypi.org/project/dict/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install dict```#### Features***attribute-style access*** **None** instead of **KeyError*** safe **remove*** jQuery like **methods chaining**#### Examples```python&gt;&gt;&gt; from dict import dict&gt;&gt;&gt; dict(k=&quot;v&quot;)[&quot;k&quot;]&quot;v&quot;&gt;&gt;&gt;  dict(k=&quot;v&quot;).k&quot;v&quot;&gt;&gt;&gt; dict(k=&quot;v&quot;)[&quot;not_existing&quot;]None&gt;&gt;&gt; dict(k=&quot;v&quot;).not_existingNone&gt;&gt;&gt; dict(k=&quot;v&quot;).get(&quot;K&quot;,i=True) # case insensitive```&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
 </pkgmetadata>

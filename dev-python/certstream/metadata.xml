@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Certstream is a library to connect to the certstream network (certstream.calidog.io). It supports automatic reconnection when networks issues occur, and should be stable for long-running jobs. </longdescription>
 </pkgmetadata>

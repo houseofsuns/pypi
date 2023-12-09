@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The CGAL Bindings project allows to use some packages of CGAL, the Computational Algorithms Library with Python. This project is still experimental and more packages will be added. For more information, please visit https://github.com/CGAL/cgal-swig-bindings/wiki.</longdescription>
 </pkgmetadata>

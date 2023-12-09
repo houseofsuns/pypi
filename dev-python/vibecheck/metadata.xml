@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># jupyter-vibecheckA Jupyter Widget to get atomic feedback as a student progresses through a didactic jupyter notebook.## Setup```pip install vibecheck datatops```## Usage```pythonfrom vibecheck import DatatopsContentReviewContainerDatatopsContentReviewContainer(    &quot;&quot;,  # No text prompt    &quot;W1D1-GD-Explanation-v1&quot;,    {        &quot;url&quot;: &quot;https://datatops-example-server.com&quot;,        &quot;name&quot;: &quot;deep-learning-101&quot;,        &quot;user_key&quot;: &quot;30d8xnd2&quot;,    },).render()```![image](https://user-images.githubusercontent.com/693511/234666584-f09e84af-148e-4cb0-aef4-68104b512dbf.png)For more information, see the [documentation](./docs/).</longdescription>
 </pkgmetadata>

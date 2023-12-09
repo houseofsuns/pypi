@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A package that gives you many math functions that are not in the math module.Update History:v2.0: All the functions are organized</longdescription>
 </pkgmetadata>

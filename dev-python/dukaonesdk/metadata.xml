@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>SDK for connection to the Duka One S6W ventilation. Made for interfacing to home assistant</longdescription>
 </pkgmetadata>

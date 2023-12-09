@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># hypertrack-pythonHyperTrack API Python package## InstallationInstall from PyPi using [pip](http://www.pip-installer.org/en/latest/), apackage manager for Python.    pip install hypertrack## Setting Started and DocumentationTo get started, visit this [page](https://www.hypertrack.com/docs/references/#references-helper-libraries-python-helper-library).The documentation for the HyperTrack API and library usage can be found [here](https://www.hypertrack.com/docs/references/#references-apis).## ContributingBug fixes, docs, and library improvements are always welcome. </longdescription>
 </pkgmetadata>

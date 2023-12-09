@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Rohde &amp; Schwarz python instrument control toolkit=================================================This package provides classes for controlling Rohde &amp; Schwarz general purpose instruments in a pythonic way.</longdescription>
 </pkgmetadata>

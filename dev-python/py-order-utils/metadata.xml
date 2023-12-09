@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Polymarket CLOB Python order-utils&lt;a href='https://pypi.org/project/py-order-utils'&gt;    &lt;img src='https://img.shields.io/pypi/v/py-order-utils.svg' alt='PyPI'/&gt;&lt;/a&gt;Python utilities used to generate and sign orders from Polymarket's Exchange### Install```bashpip install py-order-utils```### Usage```pyfrom py_order_utils.builders import OrderBuilderfrom py_order_utils.signer import Signerfrom pprint import pprintdef main():    exchange_address = &quot;0x....&quot;    chain_id = 80001    signer = Signer(&quot;0x....&quot;)    builder = OrderBuilder(exchange_address, chain_id, signer)    # Create and sign the order    order = builder.build_signed_order(        OrderData(            ...        )    )    # Generate the Order and Signature json to be sent to the CLOB API    pprint(json.dumps(order.dict()))```</longdescription>
 </pkgmetadata>

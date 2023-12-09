@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. image:: https://travis-ci.org/crdoconnor/xeger.svg?branch=master    :target: https://travis-ci.org/crdoconnor/xegerXeger=====Library to generate random strings from regular expressions.To install, type:::    pip install xegerTo use, type:&gt;&gt;&gt; from xeger import Xeger&gt;&gt;&gt; x = Xeger(limit=10)  # default limit = 10&gt;&gt;&gt; x.xeger(&quot;/json/([0-9]+)&quot;)u'/json/15062213'About=====Code borrowed and cleaned up from `the python modulerstr by Leap Frog Development &lt;http://jpmens.net/2010/04/26/resty/&gt;`,in turn inspired by the Java library `Xeger &lt;http://code.google.com/p/xeger/&gt;`.</longdescription>
 </pkgmetadata>

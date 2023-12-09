@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># funPyModelingA package to help data scientist in Exploratory Data Analysis and Data Preparation for ML models</longdescription>
 </pkgmetadata>

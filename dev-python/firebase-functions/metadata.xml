@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The Firebase Functions Python SDK provides an SDK for defining Cloud Functions for Firebase.</longdescription>
 </pkgmetadata>

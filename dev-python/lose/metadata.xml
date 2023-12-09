@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># loselose, but in particular `lose.LOSE`, is a helper class for handling data using `hdf5` file format and `PyTables````python&gt;&gt;&gt; from lose import LOSE&gt;&gt;&gt; LOSE()&lt;lose hdf5 data handler, fname=None, atom=Float32Atom(shape=(), dflt=0.0)&gt;generator parameters: iterItems=None, iterOutput=None, batch_size=1, limit=None, loopforever=False, shuffle=False```## installation```pythonpip3 install -U lose```or```pythonpip install -U lose```# documentation[documentation](https://github.com/okawo80085/lose/blob/master/README.md), [change log](https://github.com/okawo80085/lose/blob/master/changeLog.md)# bugs/issuesif you find any, raise an issue [here](https://github.com/okawo80085/lose/issues)</longdescription>
 </pkgmetadata>

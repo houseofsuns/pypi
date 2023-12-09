@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This repository contains scripts for using the Autoreduce service from command line, or health/sanity checks.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>usersettings------------&quot;usersettings&quot; is a python module for easily managing persistent settingsusing an editable format and stored in an OS-appropriate location(windows/macOS/unix are supported).For more information, please refer to README.md or the `usersettings githubpage &lt;https://github.com/glvnst/usersettings&gt;`.</longdescription>
 </pkgmetadata>

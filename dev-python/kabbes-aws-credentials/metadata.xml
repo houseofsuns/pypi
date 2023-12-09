@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># aws_credentialsSystem for quickly importing AWS credentials into Python scripts[Documentation](https://jameskabbes.github.io/aws_credentials)&lt;br&gt;[PyPI](https://pypi.org/project/kabbes-aws-credentials)&lt;br&gt; # Installation`pip install kabbes_aws_credentials`&lt;br&gt;# UsageFor more in-depth documentation, read the information provided on the Pages. Or better yet, read the source code.```pythonimport aws_credentials``````pythonrole = 'myawsrole'print ( aws_credentials.Creds[ role ].dict )``````&gt;&gt;&gt; { 'aws_access_key_id': 'XXXXXX', 'aws_secret_access_key': 'XXXXXX' }```## Updating AWS Credentials&lt;br&gt;**1. Copy credentials in this format to your clipboard**[aws_role] &lt;br&gt;aws_access_key_id=XXXXXX &lt;br&gt;aws_secret_access_key=XXXXXX &lt;br&gt;**2. Run one of the following**- ```python -m aws_credentials``` &lt;br&gt;- ```aws_credentials.update()```**3. Verify the aws_credentials/aws_creds.txt file is updated**&lt;br&gt;# AuthorJames Kabbes</longdescription>
 </pkgmetadata>

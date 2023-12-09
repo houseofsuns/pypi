@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># eigenrulesPowered by [eigendata.ai](https://eigendata.ai)# installation`pip install eigenrules`or`poetry add eigenrules`# usageplease refer to the [examples folder](./examples/) for usage examples</longdescription>
 </pkgmetadata>

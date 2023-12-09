@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is an AWS ElasticCache (or similar cluster) adapter for django redis</longdescription>
 </pkgmetadata>

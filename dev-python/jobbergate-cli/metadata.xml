@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Jobbergate CLIThe Jobbergate CLI provides a command-line interface to view and manage the Jobbergateresources. It can be used to create Job Scripts from template and then submit them tothe Slurm cluster to which Jobbergate is connected.Jobbergate CLI is a Python project implemented with the[Typer](https://typer.tiangolo.com/) CLI builder library. Its dependencies andenvironment are managed by [Poetry](https://python-poetry.org/).The CLI has a rich help system that can be accessed by passing the `--help` flag tothe main command:```shelljobbergate job-scripts --help```There is also help and parameter guides for each of the subcommands that can be accessedby passing them the `--help` flag:```shelljobbergate job-scripts list --help```See also:* [jobbergate-api](https://github.com/omnivector-solutions/jobbergate/jobbergate-api)## License* [MIT](./LICENSE)## Copyright* Copyright (c) 2020 OmniVector Solutions &lt;info@omnivector.solutions&gt;</longdescription>
 </pkgmetadata>

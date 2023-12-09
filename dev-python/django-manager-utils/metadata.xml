@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. image:: https://travis-ci.org/ambitioninc/django-manager-utils.png   :target: https://travis-ci.org/ambitioninc/django-manager-utils.. image:: https://img.shields.io/pypi/v/django-manager-utils.svg    :target: https://pypi.python.org/pypi/django-manager-utils/    :alt: Latest PyPI version.. image:: https://img.shields.io/pypi/dm/django-manager-utils.svg    :target: https://pypi.python.org/pypi/django-manager-utils/    :alt: Number of PyPI downloadsdjango-manager-utils====================Additional utilities for Django model managers.Installation------------To install the latest release, type::    pip install django-manager-utilsTo install the latest code directly from source, type::    pip install git+git://github.com/ambitioninc/django-manager-utils.gitDocumentation-------------Full documentation is available at http://django-manager-utils.readthedocs.orgLicense-------MIT License (see LICENSE)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PyQtGraph is a pure-python graphics and GUI library built on PyQt5/PySide2 andnumpy. It is intended for use in mathematics / scientific / engineering applications.Despite being written entirely in python, the library is very fast due to itsheavy leverage of numpy for number crunching, Qt's GraphicsView framework for2D display, and OpenGL for 3D display.</longdescription>
 </pkgmetadata>

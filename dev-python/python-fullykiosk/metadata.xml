@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># python-fullykioskPython wrapper for Fully Kiosk Browser REST interface</longdescription>
 </pkgmetadata>

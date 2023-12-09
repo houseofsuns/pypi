@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Old Airflow packagePlease install Airflow using `pip install apache-airflow` instead of `pip install airflow`.</longdescription>
 </pkgmetadata>

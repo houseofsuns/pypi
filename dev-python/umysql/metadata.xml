@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>:: Description ::A fast MySQL driver written in pure C/C++ for Python. Compatible with gevent through monkey patching:: Requirements ::Requires Python (http://www.python.org) :: Installation ::python setup.py build install</longdescription>
 </pkgmetadata>

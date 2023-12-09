@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Documentation Status](https://readthedocs.org/projects/pyhashlookup/badge/?version=latest)](https://pyhashlookup.readthedocs.io/en/latest/?badge=latest)# PyHashlookupThis is the client API for [hashlookup](https://hashlookup.circl.lu/).## Installation```bashpip install pyhashlookup```## Usage### Command line```bashusage: hashlookup [-h] [--query QUERY]Query hashlookupoptional arguments:  -h, --help     show this help message and exit    --query QUERY  Hash (md5 or sha1) to lookup.```### LibrarySee [API Reference](https://pyhashlookup.readthedocs.io/en/latest/api_reference.html)</longdescription>
 </pkgmetadata>

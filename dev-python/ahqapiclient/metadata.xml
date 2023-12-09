@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># DEPRECATED! Please use the information at https://[yourname].abusehq.net/api/v1/docs/ and use an http client of your liking for accessing the API directly# AbuseHQ API Client## About**ahqapiclient** is a library which reflects the AbuseHQ API on client side.## Usageimport Client from ahqapiclient### Setupendpoint = {  &quot;auth_method&quot;: &quot;JWT&quot;,  &quot;auth_options&quot;: {    &quot;token&quot;: &quot;&lt;YOUR_API_KEY&gt;&quot;  },  &quot;url&quot;: &quot;https://&lt;yourcompany&gt;.abusehq.net/api/v1&quot;}api_client = Client(endpoint)### Usage#### Get a casecase = api_client.case.get_case('case_id')#### Perform a transitionapi_client.case.trigger_transition('case_id', 'transition_id')</longdescription>
 </pkgmetadata>

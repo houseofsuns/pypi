@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Fugle Trade Python SDK## 事前準備可以參考 https://developer.fugle.tw/docs/trading/prerequisites 完成申請金鑰相關步驟## QuickStart```pythonfrom configparser import ConfigParserfrom fugle_trade.sdk import SDKfrom fugle_trade.order import OrderObjectfrom fugle_trade.constant import (APCode, Trade, PriceFlag, BSFlag, Action)config = ConfigParser()config.read('./config.ini')sdk = SDK(config)sdk.login()order = OrderObject(    buy_sell = Action.Buy,    price = 28.00,    stock_no = &quot;2884&quot;,    quantity = 2,    ap_code = APCode.Common)sdk.place_order(order)```## Detail所有 function 跟 response 可以在專屬文件頁查到相關資訊https://developer.fugle.tw/docs/trading/reference/python## License[MIT](LICENSE)</longdescription>
 </pkgmetadata>

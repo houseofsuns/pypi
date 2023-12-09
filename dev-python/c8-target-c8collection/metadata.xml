@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># C8-target-c8collectionA [Singer](https://singer.io) target that writes data to ([C8DB](https://macrometa.com/docs/c8ql/)) collections.## How to use it`c8_target_c8collection` works together with any other [Singer Tap] to move data from sources like [Braintree], [Freshdesk] and [Hubspot] to JSONL formatted files.---</longdescription>
 </pkgmetadata>

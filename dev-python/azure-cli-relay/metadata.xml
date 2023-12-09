@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Microsoft Azure CLI 'relay' Command Module=======================================================This package is for the 'relay' module.i.e. 'az relay'.. :changelog:Release History===============0.1.5+++++* Minor fixes0.1.4+++++* Minor fixes0.1.3+++++* Minor fixes0.1.2+++++* Minor fixes0.1.1+++++* Minor fixes0.1.0+++++* Initial release.</longdescription>
 </pkgmetadata>

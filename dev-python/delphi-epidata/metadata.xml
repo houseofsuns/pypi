@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Delphi Epidata API ClientThis package provides a programmatic interface to[Delphi](https://delphi.cmu.edu/)'s epidemiological data (&quot;epidata&quot;)API. Source code and usage information can be found at[https://github.com/cmu-delphi/delphi-epidata](https://github.com/cmu-delphi/delphi-epidata).</longdescription>
 </pkgmetadata>

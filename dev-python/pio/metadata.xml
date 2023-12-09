@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PIOA simplified, yarn-like alternative to pip.## Installation```shpip install pio```## Usage```shpio add example # Install example packagepio remove example # Remove example packagepio upgrade example # Upgrade example package (leave blank to upgrade all)pio install # Install all packages from pio.json```## Migrate from `requirements.txt````shpio migrate requirements.txt```## Programmatic usage```pythonimport pio # Import PIO packagepio.add(&quot;example&quot;) # Install example packagepio.remove(&quot;example&quot;) # Remove example packagepio.upgrade(&quot;example&quot;) # Upgrade example package (leave blank to upgrade all)pio.install() # Install all packages from pio.json```</longdescription>
 </pkgmetadata>

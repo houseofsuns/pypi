@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Poetry Demo Thomas ClearyAn example of setting up a package with poetry</longdescription>
 </pkgmetadata>

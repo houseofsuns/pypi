@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Tiny Differentiable Physics Library for Robotics Simulation and Reinforcement Learning</longdescription>
 </pkgmetadata>

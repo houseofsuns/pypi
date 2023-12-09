@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A beginner-friendly library for using common electronics components with the Raspberry Pi Pico.```pythonfrom picozero import LED, Buttonled = LED(1)button = Button(2)button.when_pressed = led.onbutton.when_released = led.off```Documentation is available at [picozero.readthedocs.io](https://picozero.readthedocs.io/en/latest/).</longdescription>
 </pkgmetadata>

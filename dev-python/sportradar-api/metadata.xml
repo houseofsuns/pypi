@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Sportradar APILightweight wrapper for [Sportradar API](https://developer.sportradar.com/docs/read/Home)## Set up1. Register on [Sportradar Developer](https://developer.sportradar.com/member/register)2. Generate an API Key## Installation````bashpip install sportradar-api````## Usage````pythonfrom sportradar_api import SoccerExtendedsportradar = SoccerExtended(api_key='SPORTRADAR_API_KEY')````</longdescription>
 </pkgmetadata>

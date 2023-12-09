@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CLU - Common Loop UtilsThis repository contains common functionality for writing ML training loops. Thegoal is to make trainings loops short and readable (but moving common tasks tosmall libraries) without removing the flexibility required for research.To get started, check out this Colab:https://colab.research.google.com/github/google/CommonLoopUtils/blob/main/clu_synopsis.ipynbIf you're looking for usage examples, see:https://github.com/google/flax/tree/main/examplesYou can also find answers to common questions about CLU on Flax Githubdiscussions page:https://github.com/google/flax/discussionsNote: As this point we are not accepting contributions. Please fork therepository if you want to extend the libraries for your use case.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MDBParserEasy use Python library to read Microsoft Access (.mdb, .accdb) database files, this library use the mdb-tools command.## InstallingUse pip:  `pip install mdb-parser`Or install manually:```git clone https://github.com/fedestella263/mdb_parsercd mdb_parserpython3 setup.py install```## Usage Example```from mdb_parser import MDBParser, MDBTabledb = MDBParser(file_path=&quot;db.accdb&quot;)# Get and print the database tablesprint(db.tables)# Get a table from the DB.table = db.get_table(&quot;MY_TABLE_NAME&quot;)# Or you can use the MDBTable class.table = MDBTable(file_path=&quot;db.accdb&quot;, table=&quot;MY_TABLE_NAME&quot;)# Get and print the table columns.print(table.columns)# Iterate the table rows.for row in table:    print(row)```</longdescription>
 </pkgmetadata>

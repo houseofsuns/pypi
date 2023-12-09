@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># HO protocolsProtoBuf definitions used in various HO components.Project is structured as recommended by [Google](https://github.com/protocolbuffers/protobuf/issues/1491#issuecomment-263772124) for Python projects.# Python 3+ components## Installation``` bashpip install ho-protocols```## Use``` pythonimport ho_protocols.example_pb2 as pbreq = pb.ExampleRequest()    req.type = pb.ExampleRequest.Tworeq.param = 42print('Request:')print(req)print(req.SerializeToString())res = pb.ExampleResponse()res.valueA = 'Lorem'res.valueB = 3.1415print('\nResponse:')print(res)print(res.SerializeToString())```## Build and distributeGenerate Python source files (including mypy stub files for better code completion)``` bashprotoc --python_out=./src --mypy_out=./src --proto_path=./src $(find ./src -name &quot;*.proto&quot;)```Build distribution package```bashpython3 -m build```Publish to PyPi```bashtwine upload dist/*```</longdescription>
 </pkgmetadata>

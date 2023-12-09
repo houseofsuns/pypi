@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Home Assistant Intents PackagePackaging for [intents](https://github.com/home-assistant/intents/)## InstallClone the repo and create a virtual environment:``` shgit clone --recursive https://github.com/home-assistant/intents-packagecd intents-packagescript/setup```## PackageUpdate the submodule:``` shgit submodule update --remote```Bump the version in `pyproject.toml` to `YYYY.M.D` and commit changes.Generate dist:``` shscript/package```Upload `.tar.gz` and `.whl` in `dist/` to PyPI.</longdescription>
 </pkgmetadata>

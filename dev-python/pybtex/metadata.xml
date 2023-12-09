@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>BibTeX-compatible bibliography processor in Python==================================================Synopsis--------::    latex foo.tex    pybtex foo.aux    latex foo.tex    latex foo.texDescription-----------Pybtex reads citation information from a file andproduces a formatted bibliography. BibTeX style files are supported.Alternatively it is possible to write styles in Python.Pybtex currently understands the following bibliography formats:- BibTeX- BibTeXML- YAML-based formatThe resulting bibliography may be output in one of the following formats(not supported by legacy BibTeX styles):- LaTeX- HTML- markdown- plain textSee also--------- `Home page &lt;https://pybtex.org/&gt;`_- `Pybtex at Bitbucket &lt;https://bitbucket.org/pybtex-devs/pybtex&gt;`_- `Pybtex at PyPI &lt;https://pypi.org/project/pybtex&gt;`_</longdescription>
 </pkgmetadata>

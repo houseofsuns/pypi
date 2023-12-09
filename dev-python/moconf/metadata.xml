@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># moconfPython module for configuring Morpheus training environments## Installation```pip install moconf```</longdescription>
 </pkgmetadata>

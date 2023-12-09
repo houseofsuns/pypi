@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># roboflow2huggingfaceConvert Roboflow datasets into HuggingFace datasets format and upload to HuggingFace Hub.Supports `image-classification`, `object-detection`, and `instance-segmentation` formats.## installation```bashpip install roboflow2huggingface```## api usage```pythonfrom roboflow2huggingface import roboflow_to_huggingface_pipelineroboflow_to_huggingface_pipeline(    roboflow_universe_url='https://universe.roboflow.com/boxer5/123-qq5ea/dataset/6',    roboflow_api_key=YOUR-ROBOFLOW-API-KEY,    hf_dataset_id=DESIRED-HF-HUB-ID,    hf_write_token=YOUR-HF-WRITE-TOKEN,)```## cli usage```bashroboflow2huggingface --roboflow_universe_url https://universe.roboflow.com/boxer5/123-qq5ea/dataset/6 --roboflow_api_key YOUR-ROBOFLOW-API-KEY --hf_dataset_id DESIRED-HF-HUB-ID --hf_write_token YOUR-HF-WRITE-TOKEN```## converted datasetsCheck converted datasets on the 🤗 hub: https://huggingface.co/datasets?other=roboflow2huggingface</longdescription>
 </pkgmetadata>

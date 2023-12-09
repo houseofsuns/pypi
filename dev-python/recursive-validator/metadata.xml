@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>```shellpython main.py \--include_patterns '*.yml,*.yaml' \--exclude_patterns '*/backups/*' \--loaders_path ./loaders \--input_directory ./my-project```</longdescription>
 </pkgmetadata>

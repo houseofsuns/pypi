@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Picsellia TF2This package is a wrapper of Tensorflow Object DetectionIt is mostly used for training models around Tensorflow environment</longdescription>
 </pkgmetadata>

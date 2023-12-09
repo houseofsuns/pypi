@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The Google API Client for Python is a client library foraccessing the Plus, Moderator, and many other Google APIs.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>git-review==========A git command for submitting branches to Gerritgit-review is a tool that helps submitting Git branches to Gerrit forreview.* Free software: Apache license* Documentation: http://docs.opendev.org/opendev/git-review* Source: https://opendev.org/opendev/git-review* Bugs: https://storyboard.openstack.org/#!/project/opendev/git-review</longdescription>
 </pkgmetadata>

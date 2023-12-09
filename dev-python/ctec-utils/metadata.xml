@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===================Project description===================**Python version must be greater than 3.7.1***Based on the package*- pika&gt;=0.13.1- requests&gt;=2.20.0- DBUtils&gt;=2.0- cx_Oracle&gt;=7.1.1- redis-py-cluster&gt;=1.3.4- pymongo&gt;=3.8.0- pymysql&gt;=0.9.3- six&gt;=1.12.0- kafka-python&gt;=1.4.6- logstash-formatter&gt;=0.5.17- kombu&gt;=5.0.2**reStructuredText(rst) Quick start:**    https://www.jianshu.com/p/1885d5570b37**To view more go to github**</longdescription>
 </pkgmetadata>

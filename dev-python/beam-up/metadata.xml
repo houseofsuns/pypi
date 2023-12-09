@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A simple yet powerful static site generator for Python.Templates (HTML, Markdown, ...) go in, pages come out.</longdescription>
 </pkgmetadata>

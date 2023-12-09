@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># WowPy## DescriptionThis is a python3 wrapper for wowza cloud api calls## Usage```pip install wowpy``````➜  python3&gt;&gt;&gt; from wowpy.livestreams import LiveStream&gt;&gt;&gt; LiveStream.get_live_stream('ytzbkw49')Endpoint: https://api.cloud.wowza.com/api/v1.4/live_streams/ytzbkw49, Method: get, Data: {}, Description: not descriptionEndpoint https://api.cloud.wowza.com/api/v1.4/live_streams/ytzbkw49 succesfully reached```</longdescription>
 </pkgmetadata>

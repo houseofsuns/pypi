@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Testing tool for schema and smart function unit tests for FlureeDB</longdescription>
 </pkgmetadata>

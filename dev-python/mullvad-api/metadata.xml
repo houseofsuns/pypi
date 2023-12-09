@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MullvadAPIPython wrapper around Mullvad api## Installation```bashpip install mullvad_api```## QuickStart```python&gt;&gt;&gt; from mullvad_api import MullvadAPI&gt;&gt;&gt; mullvad = MullvadAPI()&gt;&gt;&gt; mullvad.data.keys()             # List Mullvad API keys&gt;&gt;&gt; mullvad.data[&quot;mullvad_exit_ip&quot;] # Check if Mullvad VPN is activeTrue&gt;&gt;&gt; mullvad.data[&quot;ip&quot;]              # Check exit ip address'89.46.62.92'```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Provides helper functions for integration in the CoLoMoTo Jupyter notebook.See https://github.com/colomoto/colomoto-jupyter</longdescription>
 </pkgmetadata>

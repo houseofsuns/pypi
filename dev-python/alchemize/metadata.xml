@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Alchemize - Simple de/serialization for Python===============================================Alchemize is designed to be a simple serialization and deserializationlibrary for Python. The primary use-case for Alchemize is to allow forusers to quickly build ReST clients using simple model mappings totransform data from Python objects to a serializable form and vice-versa.The power of Alchemize is that you can use it to augment existingmodel structures from other libraries. For example, you can use Alchemizeto easily serialize your ORM models.Installation--------------Alchemize is available on PyPI.. code-block:: shell    pip install alchemize* Documentation: `ReadTheDocs &lt;http://alchemize.readthedocs.org&gt;`_* Travis CI: |travis|* Coverage: |codecov|.. |travis| image:: https://travis-ci.org/jmvrbanac/alchemize.svg    :target: https://travis-ci.org/jmvrbanac/alchemize.. |codecov| image:: https://codecov.io/gh/jmvrbanac/alchemize/branch/master/graph/badge.svg  :target: https://codecov.io/gh/jmvrbanac/alchemize</longdescription>
 </pkgmetadata>

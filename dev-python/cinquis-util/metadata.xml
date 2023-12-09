@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cinquis-utilcinquis utilities repo## Patch History### 0.0.1 untested build### 0.0.2cleand up code with pylint### 0.0.3renamed cinquis-util to cinquis_util due to package name requirements### 0.0.4renamed src/cinquis-util to src/cinquis_util and updated build files### 0.0.5updated text_analytics.py to import spacy### 0.0.6updated to use spacy current, removed some old spacy imports for cli</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>First version of urequests for micropythonSupports: - SSL - Cookies - Basic Auth - Custom HTTP Headers - GET, POST, PUT, DELETE, OPTIONS, HEADSimilar interface to http://docs.python-requests.org/en/latest/</longdescription>
 </pkgmetadata>

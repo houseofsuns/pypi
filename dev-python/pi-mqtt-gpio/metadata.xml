@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>the PCF8574) to an MQTT server. This allows pins to be read andswitched by reading or writing messages to MQTT topics.Home-page: https://github.com/flyte/pi-mqtt-gpioAuthor: Ellis PercivalAuthor-email: pi_mqtt_gpio@failcode.co.ukLicense: MITDescription: UNKNOWNPlatform: UNKNOWNClassifier: Programming Language :: PythonClassifier: Intended Audience :: DevelopersClassifier: License :: OSI Approved :: MIT LicenseClassifier: Natural Language :: EnglishClassifier: Operating System :: OS IndependentClassifier: Topic :: CommunicationsClassifier: Topic :: Home AutomationClassifier: Topic :: System :: Networking</longdescription>
 </pkgmetadata>

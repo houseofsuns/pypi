@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Installation```pip install safetensors```## Usage### Numpy```pythonfrom safetensors.numpy import save_file, load_fileimport numpy as nptensors = {   &quot;a&quot;: np.zeros((2, 2)),   &quot;b&quot;: np.zeros((2, 3), dtype=np.uint8)}save_file(tensors, &quot;./model.safetensors&quot;)# Now loadingloaded = load_file(&quot;./model.safetensors&quot;)```### Torch```pythonfrom safetensors.torch import save_file, load_fileimport torchtensors = {   &quot;a&quot;: torch.zeros((2, 2)),   &quot;b&quot;: torch.zeros((2, 3), dtype=torch.uint8)}save_file(tensors, &quot;./model.safetensors&quot;)# Now loadingloaded = load_file(&quot;./model.safetensors&quot;)```### Developing```# inside ./safetensors/bindings/pythonpip install .[dev]```Should be enough to install this library locally.### Testing```# inside ./safetensors/bindings/pythonpip install .[dev]pytest -sv tests/```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>fast-json=========Combines best parts of json and ujson for fast serialization... code-block:: python    import fast_json    print(        fast_json.dumps({            &quot;foo&quot;: &quot;bar&quot;,             &quot;now&quot;: datetime.datetime.now()        })    )Serializing custom type~~~~~~~~~~~~~~~~~~~~~~~.. code-block:: python    import fast_json    from collections import namedtuple    MyType = namedtuple(&quot;MyType&quot;, [&quot;name&quot;, &quot;value&quot;])    @fast_json.convert.register(MyType)    def _(value):        return &quot;name={0.name} value={0.value}&quot;.format(value)    print(        fast_json.dumps({            &quot;one&quot;: MyType(name=&quot;foo&quot;, value=&quot;bar&quot;)        })    )</longdescription>
 </pkgmetadata>

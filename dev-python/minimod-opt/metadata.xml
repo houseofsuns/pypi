@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># minimod-optA mixed-integer solver that solves optimal intervention allocation across time and space (Port from GAMS)This python module is designed as a port from GAMS and uses `mip` to do mixed-integer optimization.Visit [the website](https://minimod-nutrition.github.io/minimod) for more information!</longdescription>
 </pkgmetadata>

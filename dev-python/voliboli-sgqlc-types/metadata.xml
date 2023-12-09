@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Voliboli SGQLC Types## DistributeTo generate the distribution archives, run:    python3 -m pip install --upgrade build    python3 -m buildYou can then install this package locally from any other project using:    pip install -e &lt;/path/to/root&gt;where `root` is the top-level directory of this project.## New ReleaseTo deploy a new version you can use the following commands:    twine upload --skip-existing dist/*</longdescription>
 </pkgmetadata>

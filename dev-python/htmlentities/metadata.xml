@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>+++++++++++++++++++python-htmlentities+++++++++++++++++++HTML Entities for PythonInstalling==========For install python-htmlentities, run on terminal: ::    $ [sudo] pip install htmlentitiesUsing htmlentities==================encoding--------You can encode a char to your htmlentitie relative using ``encode`` method: ::    import htmlentities    htmlentities.encode('&lt;') # returns &quot;&amp;lt&quot;decoding--------You can decode a htmlentitie to your relative char using ``decode`` method: ::    import htmlentities    htmlentities.decode('&amp;lt') # returns &quot;&lt;&quot;development===========* Source hosted at `GitHub &lt;http://github.com/cobrateam/python-htmlentities&gt;`_* Report issues on `GitHub Issues &lt;http://github.com/cobrateam/python-htmlentities/issues&gt;`_Pull requests are very welcomed! Make sure your patches are well tested.running the tests-----------------if you are using a virtualenv, all you need is:::    $ make testcommunity=========irc channel-----------#cobrateam channel on irc.freenode.net</longdescription>
 </pkgmetadata>

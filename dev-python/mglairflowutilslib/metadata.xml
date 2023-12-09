@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Make sure you have upgraded version of pipWindows```py -m pip install --upgrade pip```Linux/MAC OS```python3 -m pip install --upgrade pip```## Import package```from mglairflowutilslib import invoke_http_request```## Usage```url = 'http://example.com'request_type = 'POST'headers = {&quot;Content-Type&quot;: &quot;application/json&quot;}payload = {&quot;foo&quot;: &quot;bar&quot;}response, status = invoke_http_request(url, request_type, headers, payload)```</longdescription>
 </pkgmetadata>

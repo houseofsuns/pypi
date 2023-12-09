@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># padawanWrangle partitioned data with polars.## Installation```bash$ pip install padawan```## Documentation[padawan](https://github.com/mwiebusch78/padawan) is a tool for out-of-coreprocessing of partitioned tabular datasets which are too large to holdcompletely in memory. It uses[polars](https://pola-rs.github.io/polars/py-polars/html/index.html) forrepresenting and manipulating tabular data in memory and the parquet formatfor storing partitions on disk.The full documentation is hosted at[readthedocs.io](https://padawan.readthedocs.io/en/latest/).</longdescription>
 </pkgmetadata>

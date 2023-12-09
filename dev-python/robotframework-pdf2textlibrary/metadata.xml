@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pdf2TextLibrary===============.. contents::Introduction------------Pdf2TextLibrary_ is a Robot Framework library for read the pdf file as text data.Keyword documentation---------------------See `keyword documentation &lt;https://qahive.github.io/robotframework-pdf2textlibrary/Pdf2TextLibrary.html&gt;`_ for available keywords and more information about the library in general.Installation------------The recommended installation method is using pip::    pip install --upgrade robotframework-pdf2textlibraryManal install by download source code to your local computer and running following command to install using python::    python setup.py install --force -vDirectory Layout----------------Examples/    A simple demonstration robot test scriptdocs/    Keyword documentationsrc/    Python source codeUsage-----1. Import Pdf2TextLibraryEnhancement and release------------------------ Create update keyword documents.. code:: python    python -m robot.libdoc -f html src/Pdf2TextLibrary docs/Pdf2TextLibrary.html- Extended (In-progress)</longdescription>
 </pkgmetadata>

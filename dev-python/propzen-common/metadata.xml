@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PropZen CommonCommon modules for PropZen application## Deployment1. Make sure `build` is installed2. Make sure `twine` is installed3. Run `python -m build .`, this should create a `dist/` folder4. Run `python -m twine upload dist/*`5. For `username`, enter `__token__`6. For `password`, enter `&lt;your_pypi_token&gt;`</longdescription>
 </pkgmetadata>

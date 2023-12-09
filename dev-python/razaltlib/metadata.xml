@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Startd following https://johnfraney.ca/blog/create-publish-python-package-poetry/to publish to pypi:poetry buildpoetry publishpoetry cache clear pypi --all &amp;&amp; poetry update razaltlib</longdescription>
 </pkgmetadata>

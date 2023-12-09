@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![PyPI version](https://badge.fury.io/py/django-ajax-helpers.svg)](https://badge.fury.io/py/django-ajax-helpers)Helps building buttons to send data to Django views and get command back from DjangoProvides bootstrap tooltips populated with html from Django viewProvides functions to download and upload filesAdd to installed apps in settings   `'ajax_helpers',`</longdescription>
 </pkgmetadata>

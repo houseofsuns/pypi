@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pysomaVery simple Python wrapper for the HTTP API provided by SOMA Connect.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Simple AWS Lambda RouterThis contains utilities to create a pseudo-application to be served behind an AWS API Gateway with a proxy endpoint.</longdescription>
 </pkgmetadata>

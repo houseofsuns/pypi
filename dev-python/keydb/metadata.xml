@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># keydb-pythonA python client for [KeyDB](https://keydb.dev/) derived from [redis-py](https://github.com/andymccurdy/redis-py). You can use all classes from `redis` package as `keydb`. For example  to use connection pool ```pythonfrom keydb import KeyDBfrom keydb import ConnectionPoolpool = ConnectionPool(host='localhost', password='password')db = KeyDB(connection_pool=pool)```#### Examples```pythonimport timefrom keydb import KeyDBdb = KeyDB(host='localhost', password='password')db.set(&quot;A&quot;, 10)db.sadd(&quot;SS&quot;, 11, 12, 13, 14, 15)db.scard(&quot;SS&quot;)db.expiremember(&quot;SS&quot;, 12, 5)time.sleep(6)db.scard(&quot;SS&quot;)```#### ContributionYou can add new commands from KeyDB CLI in this repository. Another related to redis, please contribute to [redis-py](https://github.com/andymccurdy/redis-py)</longdescription>
 </pkgmetadata>

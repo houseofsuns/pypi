@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Layer dbt Adapter for BigQueryThis adapter runs dbt builds for ML pipelines with BigQuery as the backing data warehouse.</longdescription>
 </pkgmetadata>

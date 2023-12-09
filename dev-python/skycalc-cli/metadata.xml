@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>###################################### SkyCalc Command Line Interface (CLI)######################################============Installation============The SkyCalc CLI works in Python 2.7 or Python3. Install the SkyCalc CLIon your computer using the command: ::    pip install --user skycalc_cliThis will also install skycalc_cli's dependency, i.e. the requests package formaking HTTP calls.=============Documentation=============Documentation can be found on the `ESO SkyCalc Web Page &lt;https://www.eso.org/observing/etc/doc/skycalc/helpskycalccli.html&gt;`_.</longdescription>
 </pkgmetadata>

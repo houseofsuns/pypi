@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># 一个简易的时间模块，包含常用的时间方法，仅支持python3安装：```pip install python-time```使用方法，例如：```from pytime import timeprint(pytime.timestamps())```输出：```1576225887```提供的所有方法：```pytime.timestamps()pytime.microtime()pytime.time_format(timestamp=None, format=&quot;%Y-%m-%d %X&quot;)pytime.strtotime(format_time)pytime.shift(time_type: str, timestamp: int=None)pytime.sleep(second: int)```</longdescription>
 </pkgmetadata>

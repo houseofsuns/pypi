@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>robotpy-navx============This is a python implementation of the kauailabs NavX library... note:: The RobotPy project is not associated with or endorsed by kauailabsDocumentation=============* `Installation &lt;http://robotpy.readthedocs.io/en/stable/install/navx.html&gt;`_* `Python API Documentation &lt;http://robotpy.readthedocs.io/projects/navx/en/stable/api.html&gt;`_* `Examples &lt;https://github.com/robotpy/robotpy-navx/tree/main/examples&gt;`_License=======The original NavX software is available under the MIT license, as is this.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># py-moodle-quiz-parser**py-moodle-quiz-parser** is simple Python library for fast parsing HTML documents with Moodle quizes.```pythonfrom MoodleQuizParser.QuizParser import QuizParserparser = QuizParser()file = open(&quot;moodle_quiz.html&quot;, encoding=&quot;utf-8&quot;)parsed_data = parser.parse_html(file.read(), as_dict=True)```## How to use this libraryTo use **py-moodle-quiz-parser** you should simply install it using PIP```pythonpip install py-moodle-quiz-parser```   </longdescription>
 </pkgmetadata>

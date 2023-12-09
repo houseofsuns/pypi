@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pyPega Deployment Manager (Python)Python package for orchestrating Pega Deployment Manager - details coming soon</longdescription>
 </pkgmetadata>

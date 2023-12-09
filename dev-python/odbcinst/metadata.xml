@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># odbcinstreturn output from unixODBC `odbcinst` command### Installation```pip install odbcinst```### UsageThe `.j()` function executes `odbcinst -j`. If called with no argument itreturns a dict. If called with a str argument it returns the specified value.```pythonfrom pprint import pprintimport odbcinstpprint(odbcinst.j())&quot;&quot;&quot;console output:{'DRIVERS': '/etc/odbcinst.ini', 'FILE DATA SOURCES': '/etc/ODBCDataSources', 'SQLLEN Size': '8', 'SQLSETPOSIROW Size': '8', 'SQLULEN Size': '8', 'SYSTEM DATA SOURCES': '/etc/odbc.ini', 'USER DATA SOURCES': '/home/gord/.odbc.ini', 'unixODBC': '2.3.4'}&quot;&quot;&quot;print(repr(odbcinst.j(&quot;unixODBC&quot;)))# '2.3.4'```If unixODBC is not installed then the results are```pythonpprint(odbcinst.j())&quot;&quot;&quot;console output:{'unixODBC': None}&quot;&quot;&quot;print(repr(odbcinst.j(&quot;SYSTEM DATA SOURCES&quot;)))# None```</longdescription>
 </pkgmetadata>

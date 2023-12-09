@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Unlike the built-in sets, IntervalSets contain sets of Interval objects,      which describe an interval of continuous values.  These IntervalSets can       be used in pretty much the same ways as set objects.            interval3 is a fork of the original interval module by Jacob Page.</longdescription>
 </pkgmetadata>

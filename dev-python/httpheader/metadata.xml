@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This module provides several utility functions for parsing variousHTTP headers; such as those dealing with byte range requests andcontent negotiation (Accept-xxx headers).  It tries to be an exactimplementation of the HTTP 1.1 RFC.</longdescription>
 </pkgmetadata>

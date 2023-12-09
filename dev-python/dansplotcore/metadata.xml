@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Dan's Plot Core is a minimal library that adds plots with low-latency interactivity to Python.</longdescription>
 </pkgmetadata>

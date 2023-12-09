@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The `acryl-datahub` package contains a CLI and SDK for interacting with DataHub,as well as an integration framework for pulling/pushing metadata from external systems.See the [DataHub docs](https://datahubproject.io/docs/metadata-ingestion).</longdescription>
 </pkgmetadata>

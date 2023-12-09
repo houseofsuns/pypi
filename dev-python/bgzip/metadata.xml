@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># bgzip: block gzip streams_bgzip_ provides streams for block gzip files.Cython is used under the hood to bypass Python's GIL and provide fast, parallelized inflation/deflation.```with open(&quot;my_bgzipped_file.gz&quot;, &quot;rb&quot;) as raw:with bgzip.BGZipReader(raw) as fh:data = fh.read(number_of_bytes)with open(&quot;my_bgzipped_file.gz&quot;, &quot;wb&quot;) as raw:with bgzip.BGZipWriter(raw) as fh:fh.write(my_data)```## Installation```pip install bgzip```#### Requirementsbgzip requires [openmp](https://github.com/llvm/llvm-project/tree/master/openmp). On MacOSit can be installed with:```brew install llvm```## LinksProject home page [GitHub](https://github.com/xbrianh/bgzip)  Package distribution [PyPI](https://pypi.org/project/bgzip/)### BugsPlease report bugs, issues, feature requests, etc. on [GitHub](https://github.com/xbrianh/bgzip).![](https://travis-ci.org/xbrianh/bgzip.svg?branch=master) ![](https://badge.fury.io/py/bgzip.svg)</longdescription>
 </pkgmetadata>

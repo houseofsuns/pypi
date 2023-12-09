@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Project descriptionAthena is the core SDK for requesting the EnOS API### Example#### 1.1 Query```pythonfrom poseidon.poseidon import poseidonappkey = 'xxxxx-xxxx-xxxx-xxxx-xxxxxxxx'appsecret = 'xxxxx-xxxx-xxxx-xxxx-xxxxxx'url = 'http://{apim-url}/someservice/v1/tyy?sid=28654780'req = poseidon.urlopen(appkey, appsecret, url)print(req)```#### 1.2 Header```pythonfrom poseidon.poseidon import poseidonappkey = 'xxxxx-xxxx-xxxx-xxxx-xxxxxxxx'appsecret = 'xxxxx-xxxx-xxxx-xxxx-xxxxxx'url = 'http://{apim-url}/someservice/v1/tyy?sid=28654780'header = {}req = poseidon.urlopen(appkey, appsecret, url, None, header)print(req)```#### 1.3 Body```pythonfrom poseidon.poseidon import poseidonappkey = 'xxxxx-xxxx-xxxx-xxxx-xxxxxxxx'appsecret = 'xxxxx-xxxx-xxxx-xxxx-xxxxxx'url = 'http://{apim-url}/someservice/v1/tyy?sid=28654780'data = {&quot;username&quot;: &quot;11111&quot;, &quot;password&quot;: &quot;11111&quot;}req = poseidon.urlopen(appkey, appsecret, url, data)print(req)```</longdescription>
 </pkgmetadata>

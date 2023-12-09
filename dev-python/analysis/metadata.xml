@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The analysis package provides support for the analysis of Python source code beyond that provided by the compiler standard library package.</longdescription>
 </pkgmetadata>

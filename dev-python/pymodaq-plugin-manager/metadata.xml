@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PyMoDAQ Plugin Manager[&lt;img src=&quot;https://img.shields.io/pypi/v/pymodaq_plugin_manager.svg&quot;&gt;](https://pypi.org/project/pymodaq_plugin_manager/)[&lt;img src=&quot;https://readthedocs.org/projects/pymodaq/badge/?version=latest&quot;&gt;](https://pymodaq.readthedocs.io/en/stable/?badge=latest)[&lt;img src=&quot;https://github.com/PyMoDAQ/pymodaq_plugin_manager/workflows/Upload%20Python%20Package/badge.svg&quot;&gt;](https://github.com/PyMoDAQ/pymodaq_plugin_manager)A plugin manager for PyMoDAQ, Modular Data Acquisition with Python.Give a list of available, installable or updatable plugins compatible with pymodaq</longdescription>
 </pkgmetadata>

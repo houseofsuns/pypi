@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Flask-Heroku------------This is a super simple Flask extension that provides some app configurationdefaults based on the Heroku-esque environment variables.</longdescription>
 </pkgmetadata>

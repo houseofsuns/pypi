@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pic_cutCut long picture for better view.## usage```import pic_cutfile_list = pic_cut.cut(file)```## how to install`pip3 install pic_cut`</longdescription>
 </pkgmetadata>

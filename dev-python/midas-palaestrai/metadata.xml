@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MIDAS Palaestrai Adapter## DescriptionThis package contains everything needed to use midas with palaestrAI.## LicenseThis software is released under the GNU Lesser General Public License (LGPL). See the license file for more information about the details.</longdescription>
 </pkgmetadata>

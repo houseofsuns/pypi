@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>linkedin_pdf_extractor======================    Add a short description here!A longer description of your project goes here..... _pyscaffold-notes:Note====This project has been set up using PyScaffold 4.3.1. For details and usageinformation on PyScaffold see https://pyscaffold.org/.Steps to upload it to pypi:1. Delete the old tag command to delete the tag on local repo : git tag -d &lt;tagname&gt;2. Push the changes to remote:command:    git push origin --delete &lt;tagname&gt;3. create a new tag Command: to create a new tag : git tag -a tagname -m &quot;my version 1.4&quot;4. push that tagCommand:    git push origin tagname5. Build the package distributionCommand:  tox -e build  # to build your package distribution6. Publish the package Command: tox -e publish -- --repository pypi  # to release your package to PyPI</longdescription>
 </pkgmetadata>

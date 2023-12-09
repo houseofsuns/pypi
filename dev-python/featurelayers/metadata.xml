@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># FeatureLayers## Installation```bashpip install featurelayers```## Usage### LBC Layers```pythonimport numpy as npfrom keras.models import Sequentialfrom keras.layers import Dense, Flattenfrom featurelayers.layers.LBC import LBC# Create a simple Keras modelmodel = Sequential()# Add the LBC layer as the first layer in the modelmodel.add(LBC(filters=32, kernel_size=3, stride=1, padding='same', activation='relu', sparsity=0.9, name='lbc_layer'))# Add a Flatten layer to convert the output to 1Dmodel.add(Flatten())# Add a Dense layer for classificationmodel.add(Dense(units=10, activation='softmax'))# Compile the modelmodel.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])# Generate some dummy datax_train = np.random.rand(100, 28, 28, 1)y_train = np.random.randint(0, 10, size=(100,))# Convert the labels to one-hot encodingy_train = keras.utils.to_categorical(y_train, num_classes=10)# Train the modelmodel.fit(x_train, y_train, epochs=10, batch_size=32)```__version__ = &quot;&quot;1.5.6&quot;&quot;</longdescription>
 </pkgmetadata>

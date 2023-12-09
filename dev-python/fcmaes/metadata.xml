@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># fcmaesA Python 3 gradient-free optimization library.- [README](https://github.com/dietmarwo/fast-cma-es/blob/master/README.adoc)- [Tutorials](https://github.com/dietmarwo/fast-cma-es/blob/master/tutorials/Tutorials.adoc)</longdescription>
 </pkgmetadata>

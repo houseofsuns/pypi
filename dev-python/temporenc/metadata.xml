@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>====================Temporenc for Python====================This is a Python library implementing the `temporenc format&lt;https://github.com/wbolster/temporenc&gt;`_.* `Online documentation &lt;http://temporenc.readthedocs.org/&gt;`_* `Project page (Github) &lt;https://github.com/wbolster/temporenc-python&gt;`_</longdescription>
 </pkgmetadata>

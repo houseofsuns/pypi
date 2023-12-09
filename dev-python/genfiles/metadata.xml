@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python library for generate files with jinja and hjson.</longdescription>
 </pkgmetadata>

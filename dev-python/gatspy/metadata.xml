@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>gatspy: General tools for Astronomical Time Series in Python============================================================Gatspy (pronounced as F. Scott Fitzgerald might pronounce it) is a collection of tools for analyzing astronomical time series in Python.For more information, visit http://github.com/astroml/gatspy/</longdescription>
 </pkgmetadata>

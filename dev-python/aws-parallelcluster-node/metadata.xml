@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>aws-parallelcluster-node is the python package installed on the Amazon EC2 instances launched as part of AWS ParallelCluster.</longdescription>
 </pkgmetadata>

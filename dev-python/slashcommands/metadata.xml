@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>slashcommands=====A tiny framework for slash commands of Slack.Repository: https://github.com/matsub/slashcommandsLicense: MIT</longdescription>
 </pkgmetadata>

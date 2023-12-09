@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PyTorch Profiler TensorBoard Plugin :         https://github.com/pytorch/kineto/tree/main/tb_plugin</longdescription>
 </pkgmetadata>

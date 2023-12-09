@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Memento - Scorecard development with Python**Memento** is a Python package with the aim of providing the necessary tools for:- Grouping variables (both numerical and categorical) in an automatic and interactive way.- Development of customizable scorecards adaptable to the requirements of each user.## Source codeCheck out the [GitHub](https://github.com/Guilliu/Memento) repository.## DocumentationYou can find useful documentation [here](https://guilliu.github.io/).</longdescription>
 </pkgmetadata>

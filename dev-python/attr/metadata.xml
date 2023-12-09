@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Usage example::    # Django proposes:    def my_calculated_field(...    my_calculated_field.short_description = 'Field'    my_calculated_field.admin_order_field = 'real_field'    # DRY:    @attr(short_description='Field', admin_order_field='real_field')    def my_calculated_field(...Get it::    sudo pip install attr    from attr import attrNew popular `attrs.org &lt;http://attrs.org&gt;`_ used by `pytest.org &lt;https://pytest.org&gt;`_ defines another &quot;attr&quot; package that shadows this &quot;attr&quot; module.Please use &quot;dry_attr&quot; alias to unshadow it::    from dry_attr import attr    from dry_attr import dry_attr</longdescription>
 </pkgmetadata>

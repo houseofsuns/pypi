@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># 1D particle trackingSoftware for particle tracking where particles are restricted to move in only one dimension.## Installation`pip install particle-tracker-one-d`## DocumentationDocumentation can be found at [readthedocs](https://1d-particle-tracking.readthedocs.io/en/latest/index.html)</longdescription>
 </pkgmetadata>

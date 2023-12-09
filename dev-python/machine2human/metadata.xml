@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)# machine2human```pythonfrom m2h import Hum2Sec, Sec2Hum&gt;&gt; print(Sec2Hum(80000).string)'22 часа 13 минут 20 секунд'&gt;&gt; print(Hum2Sec(&quot;22 часа 13 минут 20 секунд&quot;).seconds)80000</longdescription>
 </pkgmetadata>

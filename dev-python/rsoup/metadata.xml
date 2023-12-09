@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># RSoup ![PyPI](https://img.shields.io/pypi/v/rsoup)A very fast library for web scraper that handles text correctly</longdescription>
 </pkgmetadata>

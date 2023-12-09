@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=======================LibreOffice UNO Typings=======================UNO Types ``uno.py`` and ``unohelper.py``For LibreOffice `API &lt;https://api.libreoffice.org/&gt;`_ typings see `LibreOffice API Typings &lt;https://github.com/Amourspirit/python-types-unopy&gt;`_Installation============PIP---**types-uno-script** on `PyPi &lt;https://pypi.org/project/types-uno-script/&gt;`_.. code-block:: bash    $ pip install types-uno-scriptCONDA-----**types-uno-script** on `Anaconda &lt;https://anaconda.org/conda-forge/types-uno-script&gt;`_.. code-block:: bash    $ conda install -c conda-forge types-uno-script</longdescription>
 </pkgmetadata>

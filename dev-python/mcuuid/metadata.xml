@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MCUUIDGetting Minecraft Player Information from Mojang API.## Usage1. `pip install mcuuid`2. Use the module like this:### API```&gt; from mcuuid import MCUUID&gt; player = MCUUID(name=&quot;gronkh&quot;)&gt; player.name'Gronkh'&gt; player.names{0: 'Gronkh'}&gt; player.uuid'a2080281c2784181b961d99ed2f3347c'```You can also use an existing uuid to start from:```&gt; player = MCUUID(uuid=&quot;a2080281c2784181b961d99ed2f3347c&quot;)&gt; player.name'Gronkh'```### ToolsCheck syntax of an username:```&gt;from mcuuid.tools import is_valid_minecraft_username&gt; is_valid_minecraft_username('gronkh'):True```Check syntax of an UUID:```&gt; from mcuuid.tools import is_valid_mojang_uuid&gt; is_valid_mojang_uuid('a2080281c2784181b961d99ed2f3347c'):True```### Version informationThere is a wrapper around the new MCUUID class to still be usable using former api versions.They are deprecated and not recommended for future use.## LicenseThis software is licensed under the MIT license. Feel free to use it however you like.</longdescription>
 </pkgmetadata>

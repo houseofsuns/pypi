@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>robotpy-hal-roborio===================This RobotPy HAL implementation is usable on the RoboRIO.Installation============Typically, you don't install this directly, but use the RobotPy installerto install it on your RoboRIO.</longdescription>
 </pkgmetadata>

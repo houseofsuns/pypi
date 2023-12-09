@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># :fire: `ebtorch` &lt;a href=&quot;https://ballarin.cc/cdn/ebtorch_dalle2.png&quot;&gt;&lt;img src=&quot;https://ballarin.cc/cdn/ebtorch_dalle2.png&quot; align=&quot;right&quot; height=&quot;139&quot; /&gt;&lt;/a&gt;Collection of [PyTorch](https://pytorch.org/) additions, extensions, utilities, *uses and abuses*.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># TopsisIt takes 4 arguments :&lt;/br&gt;1.Data.csv file&lt;/br&gt;2.Weights&lt;/br&gt;3.Impacts&lt;/br&gt;4.Result file&lt;/br&gt;&lt;/br&gt;Return file with Ranks and Topsis Score&lt;/br&gt;## How to use it?Open terminal and type topsis data file name weights impacts result file name&lt;/br&gt;&lt;/br&gt;ex: topsis data.csv 1,1,1,1 +,+,-,+ resullt.csv</longdescription>
 </pkgmetadata>

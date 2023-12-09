@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;a href=&quot;https://markdownlit.streamlit.app&quot; title=&quot;Markdownlit app&quot;&gt;&lt;img src=&quot;https://static.streamlit.io/badges/streamlit_badge_black_white.svg&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/arnaudmiribel/streamlit-extras&quot;&gt; &lt;img src=&quot;https://img.shields.io/badge/-%F0%9F%AA%A2%20featured%20extra-e8ded1&quot;&gt;&lt;/img&gt;&lt;/a&gt;# markdownlit`markdownlit` gives you a couple of lit additional Markdown commands for your Streamlit apps! It is built upon the [Python-Markdown/markdown](https://github.com/Python-Markdown/markdown) project.## Get startedThe package is available on PyPI!```pip install markdownlit```## IntroductionVisit... &lt;a href=&quot;https://markdownlit.streamlit.app&quot; title=&quot;Markdownlit app&quot;&gt;&lt;img src=&quot;https://static.streamlit.io/badges/streamlit_badge_black_white.svg&quot;&gt;&lt;/a&gt;&lt;br&gt;</longdescription>
 </pkgmetadata>

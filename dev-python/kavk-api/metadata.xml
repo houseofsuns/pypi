@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># KAVK_API[![](https://img.shields.io/pypi/v/kavk_api?style=for-the-badge)](https://pypi.org/project/kavk-api/)[![](https://img.shields.io/pypi/l/kavk_api?style=for-the-badge)](https://pypi.org/project/kavk-api/)[![](https://img.shields.io/badge/VK-Contact-blue?style=for-the-badge)](https://vk.com/klm_ahmed)## Установка`pip install kavk_api`## Пример``` pythonimport asynciofrom kavk_api import Vkfrom kavk_api.longpoll import BotLongPollasync def main():    vk = Vk('token')    longpoll = LongPoll(vk)    await vk.wall.post(message=&quot;Привет kavk_api!&quot;)    async for event in longpoll.listen():        print(event.type, event.object)        asyncio.run(main())```## TODO- Замена asyncio.run()</longdescription>
 </pkgmetadata>

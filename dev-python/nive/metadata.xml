@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Nive application base packageThis is the base package.## Source codeThe source code is hosted on github: https://github.com/nive### The form module nive.components.reformThe reform package is a merge of deform and colander and includes several changesto make form handling easier. Please see nive.components.reform.README.txt for details.### TranslationsTranslations can be extracted using lingua&gt;=3.2&gt; pip install lingua-3.2&gt; bin/pot-create -o nive/locale/nive.pot nive### Dependencieslibrary 'pillow' 10&gt; optional. required for extensions.images.</longdescription>
 </pkgmetadata>

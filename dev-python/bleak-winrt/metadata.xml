@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># bleak-winrtPython binding for WinRT for Bleak</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># xonsh-tcgThis is a [Xonsh](https://xon.sh/) plugin for tcg. To install this plugin, do```bashxpip install xonsh-tcg```After installation, add```xonshxontrib load tcg```to your `.xonshrc` to load it automatically. Then `tcg` will automatically createcgroup for your shells. The cgoup of the current shell will be displayed in`$PROMPT` and `$TITLE`.</longdescription>
 </pkgmetadata>

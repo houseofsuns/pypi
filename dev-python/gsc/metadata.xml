@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># gsc![build](https://github.com/git-scientist/gsc/workflows/build/badge.svg)Git for Scientists practical exercise helper.See https://www.gitscientist.com for more.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Cloud Builder=============.. |GitHub CI Action| image:: https://github.com/OSInside/cloud-builder/workflows/CILint/badge.svg   :target: https://github.com/OSInside/cloud-builder/actions|GitHub CI Action|The Cloud Builder project provides a collection of services whichallows you to stand up a package building backend to build softwarepackages through a messaging API. Primarily **rpm** packages but alsoother package formats like **deb**, **pacman** and alike are possible.For more information see: https://osinside.github.io/cloud-builder</longdescription>
 </pkgmetadata>

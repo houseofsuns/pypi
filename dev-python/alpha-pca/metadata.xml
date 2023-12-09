@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Alpha-PCAAlpha-PCA is more robust to outliers than standard PCA. \Standard PCA is a special case of alpha PCA (when alpha=1).* [Usage](#usage)## UsageThe model is inherited from a sklearn module and works the same way as the [standard PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html). \It also supports [PyTorch](https://pytorch.org/) tensors (on cpu and GPU).```pythonfrom alpha_pca import AlphaPCAimport torch X = torch.randn(16, 10) # also works with numpypca = AlphaPCA(n_components=5, alpha=0.7, random_state=123) # alpha=1 -&gt; standard PCApca.fit(X)# to project X in the latent spaceX_transformed = pca.transform(X) # (16, 10) -&gt; (16, 5)# fit inverseX_ = pca.inverse_transform(X_transformed) # (16, 5) -&gt; (16, 10)# directly approximate X_ == inverse_transform(transform(X))X_ = pca.approximate(X) # (16, 10) -&gt; (16, 10)# Find the optimal alpha via a reconstruction lossbest_alpha = pca.compute_optimal_alpha(X, n_components=5)```</longdescription>
 </pkgmetadata>

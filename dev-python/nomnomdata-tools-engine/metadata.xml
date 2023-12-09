@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Installation`pip install nomnomdata-tools-engine nomnomdata-engine`# Creating a new appInstructions for how to create, build and deploy a new app available here:&lt;https://support.nomnomdata.com/portal/en/kb/articles/creating-your-first-nnd-app&gt;Additional toolkit information available here:&lt;http://developer.nomnomdata.com/&gt;</longdescription>
 </pkgmetadata>

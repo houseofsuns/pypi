@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># This is an &lt;h1&gt; tag## This is an &lt;h2&gt; tag###### This is an &lt;h6&gt; tag</longdescription>
 </pkgmetadata>

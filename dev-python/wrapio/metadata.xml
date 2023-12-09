@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Installing==========.. code-block:: bash  pip3 install wrapioLinks------ `Documentation &lt;https://wrapio.readthedocs.io&gt;`_</longdescription>
 </pkgmetadata>

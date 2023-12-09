@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>iso639======A simple (really simple) library for working with ISO639-2 language codes.Tested for Python 2.7 &amp; 3.4.Includes data from Congress library: http://www.loc.gov/standards/iso639-2/php/code_list.php (+ updates)Installation------------The easiest way is using `pip`:    pip install iso639Alternatives------------* **pycountry**: https://bitbucket.org/flyingcircus/pycountry - a more-featured package* **iso639**: https://github.com/noumar/iso639 - another package with the same nameExample usage-------------```pythonimport iso639&gt;&gt;&gt; iso639.to_name('sv')u'Swedish'&gt;&gt;&gt; iso639.to_native('sv')u'svenska'```For more examples, see doctests in the source code.Acknowledgments---------------@hosford42 - adding the native language support</longdescription>
 </pkgmetadata>

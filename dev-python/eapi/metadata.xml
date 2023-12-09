@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Ein Modul zu Ansteuerung eines Eingabe-Ausgabe-Moduls fuer den Raspberry. Fuer die Ausgabe dienen LEDs und fuer die Eingabe Taster. Es kommt im Bildungsbereich zum Einsatz.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># reprobench[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8163f0d20e9145cf9379a56f0383287c)](https://app.codacy.com/app/rkkautsar/reprobench?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rkkautsar/reprobench&amp;utm_campaign=Badge_Grade_Dashboard)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/reprobench.svg)](https://pypi.org/project/reprobench)[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&amp;repo=rkkautsar/reprobench)](https://dependabot.com)[![Anaconda-Server Badge](https://anaconda.org/rkkautsar/reprobench/badges/installer/conda.svg)](https://conda.anaconda.org/rkkautsar)## Development Guide### Installing locallyWe recommend using Anaconda.```sh$ conda env create -f environment.yml$ conda activate reprobench```</longdescription>
 </pkgmetadata>

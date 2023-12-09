@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>本模块包括了超导量子计算实验中常用模型的拟合函数与数据处理方法。dataTools模块主要包含了qubit能谱与电压的转换函数，以及读取IQ信号的临界判断方法optimize模块包括了各种实验过程的拟合函数，以及时频分析方法，外加一部分数据清洗方法。</longdescription>
 </pkgmetadata>

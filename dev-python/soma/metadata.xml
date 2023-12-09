@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># InstallationThe installation can be done using either ssh or https:## SSH`pip install -e &quot;git+ssh://git@bitbucket.org/somalabs/soma-tools.git/#egg=soma&amp;subdirectory=soma_pkg/&quot;`## HTTPS`pip install -e &quot;git+https://bitbucket.org/somalabs/soma-tools.git/#egg=soma&amp;subdirectory=soma_pkg/&quot;`</longdescription>
 </pkgmetadata>

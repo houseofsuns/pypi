@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package implements a Python client for the[EveryAction 8 REST API](https://docs.everyaction.com/reference/api-overview), which makes the process of sendingEveryAction requests from Python easier. For usage information, check out the[documentation](https://python-client-for-everyaction.readthedocs.io/en/latest/).</longdescription>
 </pkgmetadata>

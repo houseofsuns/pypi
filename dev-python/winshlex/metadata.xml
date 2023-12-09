@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Winshlex Alternative to shlex for easy split of windows path. Inspired by a [stack overflow post](https://stackoverflow.com/questions/33560364/python-windows-parsing-command-lines-with-shlex). Python package for multi-platform variant of shlex.split() for command-line splitting.For use with subprocess, for argv injection etc. Using fast REGEX._Build with: Python 3.7.2_## InstallationIn your terminal executepip install -i https://test.pypi.org/simple/ winshlex ## UsageOn windows with shlex&gt;&gt;&gt; import shlex &gt;&gt;&gt; to_split = &quot;C:\Users\samsung\Desktop\Dev2\package-winshlex&quot;&gt;&gt;&gt; shlex.split()&gt;&gt;&gt; ['C:UserssamsungDesktopDev2package-winshlex']On windows with winshlex&gt;&gt;&gt; import winshlex &gt;&gt;&gt; to_split = &quot;C:\Users\samsung\Desktop\Dev2\package-winshlex&quot;&gt;&gt;&gt; winshlex.split()&gt;&gt;&gt; ['C:\\Users\\samsung\\Desktop\\Dev2\\package-winshlex']</longdescription>
 </pkgmetadata>

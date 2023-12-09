@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># 使用方式```bashfrom  chromedriver_autoupdate import checkAndUpdatecheckAndUpdate('存放driver的绝对地址')```</longdescription>
 </pkgmetadata>

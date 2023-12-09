@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># dispander (Discord Message URL Expander)DiscordのメッセージURLを検知して展開する機能を追加する discord.py Bot拡張用ライブラリ&lt;img width=&quot;789&quot; src=&quot;https://user-images.githubusercontent.com/11159059/70523586-bc7b8280-1b86-11ea-87f3-aa3dade6ba51.png&quot;&gt;# 使い方`python3 -m pip install dispander`## extensionとして使用する場合load_extensionで読み込んでください```pythonfrom discord.ext import commandsbot = commands.Bot(command_prefix='/')bot.load_extension('dispander')bot.run(token)```## 関数として使用する場合on_message内のどこかで実行してください```pythonimport discordfrom dispander import dispandclient = discord.Client()@client.eventasync def on_message(message):    if message.author.bot:        return    await dispand(message)client.run(token)```</longdescription>
 </pkgmetadata>

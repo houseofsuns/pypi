@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>mds-pim-memos=============Tryton module to store memos.Memos are only visible to the owner.Categories can be assigned to the memos.Install=======pip install mds-pim-memosRequires========- Tryton 6.8Changes=======*6.8.9 - 19.06.2023*- compatibility to Tryton 6.8</longdescription>
 </pkgmetadata>

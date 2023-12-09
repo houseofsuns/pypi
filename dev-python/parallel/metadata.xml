@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The pprocess module provides elementary support for parallel        programming in Python using a fork-based process creation model in        conjunction with a channel-based communications model implemented        using socketpair and poll.</longdescription>
 </pkgmetadata>

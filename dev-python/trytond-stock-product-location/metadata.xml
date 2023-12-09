@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Stock Product Location Module#############################The Stock Product Location Module adds on the product form a list ofpreferred location by warehouse. This list is used when a suppliershipment is received: the auto-generated Inventory Moves will use asdefault destination the preferred locations associated to the currentwarehouse.</longdescription>
 </pkgmetadata>

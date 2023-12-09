@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>#####################django-templateaddons#####################django-templateaddons is a set of tools for use with Django's templates, template tags and context processors. It provides additional template tags, context processors and utilities for template tag development.*************Documentation************** Read the HTML documentation online at   http://packages.python.org/django-templateaddons/* Read the RestructuredText documentation in the docs/ folder in the source  code.****Code****The project page is http://bitbucket.org/benoitbryon/django-templateaddons.*******************Credits and license*******************This application is published under the BSD license. See LICENSE.txt and AUTHORS.txt for details.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>AsyncPool is a asyncio-based coroutine worker pool, intended to process through large amounts of jobsefficiently and with explicit timeouts.</longdescription>
 </pkgmetadata>

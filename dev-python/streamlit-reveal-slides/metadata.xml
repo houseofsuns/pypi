@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>create and add reveal.js HTML presentations to your streamlit app</longdescription>
 </pkgmetadata>

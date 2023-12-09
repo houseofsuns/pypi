@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Parameter Balancing - A Systems Biology tool to determine thermodynamically consistent parameter sets for kinetic models of cell metabolism</longdescription>
 </pkgmetadata>

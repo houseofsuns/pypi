@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Flask==0.11.1Jinja2==2.8MarkupSafe==0.23Werkzeug==0.11.11requestsnumpyclintoauth2clientscipyflask_restfulflask-jsonpifypymongogspreadpandasstringdistsklearnpythainlpxlrdgensimpymongoscikit-learnuvicorn==0.11.5sanic==20.3.0gunicorn==19.9.0</longdescription>
 </pkgmetadata>

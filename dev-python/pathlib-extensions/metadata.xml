@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pathlib Extensions -- Backported and Experimental Filesystem Path Features for PythonThe ``pathlib`` module was added to the standard library in Python 3.4, butmany new features have been added to the module since then.This means users of older Python versions who are unable to upgrade will not beable to take advantage of new features added to the ``pathlib`` module, such as``pathlib.PurePath.with_stem()``.The ``pathlib_extensions`` module contains backports of these changes.Experimental filesystem path features that are not found in the ``pathlib``module are also included in ``pathlib_extensions``.</longdescription>
 </pkgmetadata>

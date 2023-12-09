@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># airflow-add-onsAirflow utilities to extend Airflow operators and connectors## Where to get itThe source code is currently hosted on GitHub at:https://github.com/pualien/airflow-add-onsBinary installers for the latest released version are available at the [Pythonpackage index](https://pypi.org/project/airflow-add-ons/).```shpip install airflow-add-ons```</longdescription>
 </pkgmetadata>

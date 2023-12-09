@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for influxdb-clientThis is a PEP 561 type stub package for the `influxdb-client` package. Itcan be used by type-checking tools like[mypy](https://github.com/python/mypy/),[pyright](https://github.com/microsoft/pyright),[pytype](https://github.com/google/pytype/),PyCharm, etc. to check code that uses`influxdb-client`. The source for this package can be found athttps://github.com/python/typeshed/tree/main/stubs/influxdb-client. All fixes fortypes and metadata should be contributed there.Note: `types-influxdb-client` has required `urllib3&gt;=2` since v1.37.0.1. If you need to install `types-influxdb-client` into an environment that must also have `urllib3&lt;2` installed into it, you will have to use `types-influxdb-client&lt;1.37.0.1`.See https://github.com/python/typeshed/blob/main/README.md for more details.This package was generated from typeshed commit `011f24794d334ecbd6bda104a8e57399bd6bcad8` and was testedwith mypy 1.5.1, pyright 1.1.328, andpytype 2023.8.31.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># info-clustering[![Travis](https://api.travis-ci.com/zhaofeng-shu33/info-clustering-python-binding.svg?branch=master)](https://travis-ci.com/zhaofeng-shu33/info-clustering-python-binding)[![PyPI](https://img.shields.io/pypi/v/info-cluster.svg)](https://pypi.org/project/info-cluster)## Usage```shellpip install info-cluster```After installing `info-cluster` package, you can use it as follows:```Pythonfrom info_cluster import InfoClusterimport networkx as nxg = nx.Graph() # undirected graphg.add_edge(0, 1, weight=1)g.add_edge(1, 2, weight=1)g.add_edge(0, 2, weight=5)ic = InfoCluster(affinity='precomputed') # use precomputed graph structureic.fit(g)ic.print_hierarchical_tree()```The output is like```shell      /-0   /-|--|   \-2  |   \-1```</longdescription>
 </pkgmetadata>

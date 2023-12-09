@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>\ A collection of higher-order functionsthat brings the the beauty of FP to Python</longdescription>
 </pkgmetadata>

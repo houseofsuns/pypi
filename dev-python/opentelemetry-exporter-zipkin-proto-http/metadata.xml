@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry Zipkin Protobuf Exporter======================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-exporter-zipkin-proto-http.svg   :target: https://pypi.org/project/opentelemetry-exporter-zipkin-proto-http/This library allows export of tracing data to `Zipkin &lt;https://zipkin.io/&gt;`_ using Protobuffor serialization.Installation------------::     pip install opentelemetry-exporter-zipkin-proto-httpReferences----------* `OpenTelemetry Zipkin Exporter &lt;https://opentelemetry-python.readthedocs.io/en/latest/exporter/zipkin/zipkin.html&gt;`_* `Zipkin &lt;https://zipkin.io/&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MangoWGMango Website Generator PyPi Package ## Python Venv* `python -m venv venv`* `venv\Scripts\activate.bat`* `pip install -r requirements.txt`* `pip freeze &gt; requirements.txt`## UsageGet started `python mangowg.py --help`To use command selection rather than typing the command name, use `python mangowg.py cut` then select the command to be executed.Run the commands in order```start &gt;  new &gt; updateWholeProfile &gt; getGithubInfo &gt; getRepos &gt; selectRepos &gt; updateTemplate &gt; push ```## PyPi publish Publish new package* install poetry* `poetry init`* `poetry build`* `poetry publish -u USERNAME -p PASSWORD`    * use pypi password for this stepTo update version number:* `poetry version 0.1.2`* `poetry build`* `poetry publish -u USERNAME -p PASSWORD`    * use github password for this step</longdescription>
 </pkgmetadata>

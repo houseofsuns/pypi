@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># `@alicloud/ros-cdk-assembly-schema`&gt; TODO: description## Usage```const rosAssemblySchema = require('@alicloud/ros-cdk-assembly-schema');// TODO: DEMONSTRATE API```</longdescription>
 </pkgmetadata>

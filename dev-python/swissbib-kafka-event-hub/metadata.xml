@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Kafka Event HubA collection of producers and consumers to feed the Swissbib Kafka Event Hub.</longdescription>
 </pkgmetadata>

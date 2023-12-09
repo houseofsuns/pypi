@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a chat bot making module for wikia's Special:Chat.It allows you to connect to the chat and execute actions and retrieve events all specified bythe author.  Very function for beginners to advanced python users.</longdescription>
 </pkgmetadata>

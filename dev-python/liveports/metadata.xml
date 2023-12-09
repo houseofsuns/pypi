@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># LivePorts## Get your localhost app online.### Features- Setup a persistent cloud tunnel.- Custom domain name support.- Log Viewer to debug your request/responses- Request for higher throughput.</longdescription>
 </pkgmetadata>

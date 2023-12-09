@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>MLCube brings the concept of interchangeable parts to the world of machine learning models. It is the shipping container that enables researchers and developers to easily share the software that powers machine learning.</longdescription>
 </pkgmetadata>

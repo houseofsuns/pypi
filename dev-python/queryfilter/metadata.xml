@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===========queryfilter===========.. image:: https://travis-ci.org/iCHEF/queryfilter.svg?branch=master  :target: https://travis-ci.org/iCHEF/queryfilterFeature=======- Allow same query interface to be shared between Django ORM, SQLAlchemy, and GraphQL backend.Document========https://github.com/iCHEF/queryfilter/wikiInstallation============.. code-block::  pip install queryfilterDevelopment===========.. code-block::  git clone https://github.com/iCHEF/queryfilter.git  cd queryfilter  pip install -e .[dev]Tests-----This project uses `pytest &lt;http://pytest.org&gt;`_ to run tests.</longdescription>
 </pkgmetadata>

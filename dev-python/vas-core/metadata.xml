@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Package that holds all models and common functions/classes of VAS Orchestra project</longdescription>
 </pkgmetadata>

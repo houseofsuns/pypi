@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Django application that provides cropping, resizing, thumbnailing, overlays and masking for images and videos with the ability to set the center of attention,</longdescription>
 </pkgmetadata>

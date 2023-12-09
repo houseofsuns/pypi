@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A python wrapper around the [Agent](https://www.ispyconnect.com/download.aspx) API.</longdescription>
 </pkgmetadata>

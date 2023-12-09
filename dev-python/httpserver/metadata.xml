@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===============================Asyncio HTTP Server===============================.. image:: https://img.shields.io/travis/thomwiggers/httpserver.svg        :target: https://travis-ci.org/thomwiggers/httpserver.. image:: https://img.shields.io/pypi/v/httpserver.svg        :target: https://pypi.python.org/pypi/httpserverPython 3.4 asyncio implementation of an HTTP server* Free software: BSD license* Documentation: http://pythonhosted.org/httpserver/Features--------* Supports HTTP/1.1* Supports Keep-Alive* Serve a specific hostname only* Bind to an ip address* Uses asyncio* Installs an 'httpserver' commandHistory-------1.1.0 (2015-04-02)---------------------* No longer rely on sockets to timeout themselves* Add default timeout of 15 seconds to httpserver* Negotiate with the Keep-Alive header* Add ``--version`` command* Change documentation theme to ``alabaster``1.0.1 (2015-03-21)---------------------* Fix small issue in README on pypi1.0.0 (2015-03-21)---------------------* First release</longdescription>
 </pkgmetadata>

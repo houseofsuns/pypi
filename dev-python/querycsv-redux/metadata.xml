@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>``querycsv.py`` is a Python module and programthat executes SQL code against data contained in one or morecomma-separated-value (CSV) files. The output of the SQL query will bedisplayed on the console by default, but may be saved in a new CSV file.</longdescription>
 </pkgmetadata>

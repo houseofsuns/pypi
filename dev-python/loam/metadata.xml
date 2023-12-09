@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. image:: https://readthedocs.org/projects/loam/badge/?version=latest   :target: http://loam.readthedocs.io/en/latest/?badge=latest   :alt: Documentation Status.. image:: https://badge.fury.io/py/loam.svg   :target: https://badge.fury.io/py/loam   :alt: PyPI versionloam====The main goal of loam is to offer a light and simple interface to manage theconfiguration of your own Python application. It avoids you the burden ofwriting the code to build the command line argument parser and/or aconfiguration file parser in a self-consistent way.</longdescription>
 </pkgmetadata>

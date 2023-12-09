@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>==============feincms3-sites==============.. image:: https://github.com/matthiask/feincms3-sites/workflows/Tests/badge.svg    :target: https://github.com/matthiask/feincms3-sites/    :alt: CI StatusMultisite support for `feincms3 &lt;https://feincms3.readthedocs.io&gt;`_.Documentation is available as a part of `feincms3&lt;https://feincms3.readthedocs.io/&gt;`__'s documentation.The multisite guide is here: `Multisite setup&lt;https://feincms3.readthedocs.io/en/latest/guides/multisite.html&gt;`__</longdescription>
 </pkgmetadata>

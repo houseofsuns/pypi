@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># RapidPE/RIFT PipelineGenerates pipelines for running RapidPE and RIFT on HTCondor.# CreditCopyright (c) 2022 Caitlin Rose, Vinaya Valsan, Daniel Wysocki, Sinead Walsh, Patrick BradyThis software may be freely distributed under the terms of the GNU General Public License v2.  See [`COPYING`](./COPYING) for details.</longdescription>
 </pkgmetadata>

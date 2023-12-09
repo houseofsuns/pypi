@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Tools for MecapackLa doc est disponible en Html ou en MD## installation par pip`pip install mecapacktools`Installer les extensions :`pip install mecapacktools[excel,sql,webservices]`### Extensions diponibles :- excel - Sql - WebServices - FTP ## Notes pour le développement:### Installation`poetry install --with dev --all-extras`### Génération de la doc`poetry run .\make.bat html``poetry run .\make.bat markdown`### Publier une nouvelle versionChanger la version :Dans le fichier pyproject.toml modifier :```[tool.poetry]version = &quot;1.0.0&quot; ```Publier sur pypi `poetry publish --build`</longdescription>
 </pkgmetadata>

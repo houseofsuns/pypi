@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. image:: https://gitlab.tiker.net/inducer/codepy/badges/main/pipeline.svg    :alt: Gitlab Build Status    :target: https://gitlab.tiker.net/inducer/codepy/commits/main.. image:: https://github.com/inducer/codepy/workflows/CI/badge.svg    :alt: Github Build Status    :target: https://github.com/inducer/codepy/actions?query=branch%3Amain+workflow%3ACI.. image:: https://badge.fury.io/py/codepy.svg    :alt: Python Package Index Release Page    :target: https://pypi.org/project/codepy/CodePy is a C/C++ metaprogramming toolkit for Python. It helps you compilesource code and dynamically load it into the Python interpreter.This facility also works in conjunction with with `PyCuda&lt;http://mathema.tician.de/software/pycuda&gt;`_.  Dynamic compilation and linkingare so far only supported in Linux with the GNU toolchain.See also the `documentation &lt;http://documen.tician.de/codepy&gt;`_ and the`git tree &lt;http://github.com/inducer/codepy&gt;`_.</longdescription>
 </pkgmetadata>

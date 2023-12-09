@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Automata Exchange Repository## Packaging`python3 -m build`## Prerequisites```EXCHANGE_RATE_TIMESERIES_KEYEXCHANGE_RATE_TIMESERIES_RETENTION (use 6 mins)INSTRUMENT_EXCHANGES_KEY```</longdescription>
 </pkgmetadata>

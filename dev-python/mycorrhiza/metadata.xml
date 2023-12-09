@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Combining phylogenetic networks and Random Forests for prediction of ancestry from multilocus genotype data.</longdescription>
 </pkgmetadata>

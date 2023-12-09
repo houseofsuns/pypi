@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>MemProcFS for Python : native extension for windows memory analysis and forensics</longdescription>
 </pkgmetadata>

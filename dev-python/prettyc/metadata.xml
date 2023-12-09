@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># prettyc - static code checker for CPrettyC is a command-line tool to check only C files for style issues.It's forked from Cpplint which is developed and maintained by Google Inc. at `google/styleguide &lt;https://github.com/google/styleguide&gt;`_, also see the `wikipedia entry &lt;http://en.wikipedia.org/wiki/Cpplint&gt;`_## InstallationTo install prettyc from PyPI, run:```bashpip install prettyc```Then run it with:```bashprettyc [OPTIONS] files ```For full usage instructions, run:```bashprettyc --help```## How to use:```bashprettyc --help```## DevelopmentCreate virtual environment.```bashmake venv```Activate.```bashsource activate.sh```Create development environment```bashmake dev```Distribution and install:```bashmake distmake install```</longdescription>
 </pkgmetadata>

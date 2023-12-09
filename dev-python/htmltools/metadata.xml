@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># htmltoolsTools for creating, manipulating, and writing HTML from Python.## Installation```shpip install htmltools```To install the latest development version from this repository:```shpip install https://github.com/rstudio/py-htmltools/tarball/main```## DevelopmentIf you want to do development on htmltools for Python:```shpip install -e &quot;.[dev,test]&quot;```</longdescription>
 </pkgmetadata>

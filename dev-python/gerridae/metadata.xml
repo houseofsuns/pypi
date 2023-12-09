@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># this is new spider framework gerridae&gt; 学习之作, 参考[ruia](https://github.com/howie6879/ruia)## 安装- 使用pip安装```bashpip install gerridae --user```- 使用pipenv安装```bashpipenv install gerridae```- 使用源码安装```bashgit clone https://github.com/BUGLAN/gerridaepython setup.py install```## 测试- 安装测试依赖包```bashpipenv install --dev```- 执行测试```bashpipenv run pytest```## 额外说明基本是一个学习之作, 可以说一个简单的玩具, 请勿使用在生产环境之中</longdescription>
 </pkgmetadata>

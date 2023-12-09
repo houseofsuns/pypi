@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>com2ann=======Tool for translation of type comments to type annotations in Python.This tool requires Python 3.8 to run. But the supported target code versionis Python 3.4+ (can be specified with ``--python-minor-version``).Currently, the tool translates function and assignment type comments totype annotations.The philosophy of of the tool is too minimally invasive, and preserve originalformatting as much as possible. This is why the tool doesn't use un-parse.</longdescription>
 </pkgmetadata>

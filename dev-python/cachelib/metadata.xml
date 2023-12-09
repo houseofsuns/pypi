@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>CacheLib========A collection of cache libraries in the same API interface. Extractedfrom Werkzeug.Installing----------Install and update using `pip`_:.. code-block:: text    $ pip install -U cachelib.. _pip: https://pip.pypa.io/en/stable/getting-started/Donate------The Pallets organization develops and supports Flask and the librariesit uses. In order to grow the community of contributors and users, andallow the maintainers to devote more time to the projects, `pleasedonate today`_... _please donate today: https://palletsprojects.com/donateLinks------   Documentation: https://cachelib.readthedocs.io/-   Changes: https://cachelib.readthedocs.io/changes/-   PyPI Releases: https://pypi.org/project/cachelib/-   Source Code: https://github.com/pallets/cachelib/-   Issue Tracker: https://github.com/pallets/cachelib/issues/-   Twitter: https://twitter.com/PalletsTeam-   Chat: https://discord.gg/pallets</longdescription>
 </pkgmetadata>

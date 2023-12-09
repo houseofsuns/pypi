@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># StringmetricsA library that implements Levenshtein distance and other string metrics. ThisPython bindings for the Rust stringmetrics library```py&gt;&gt;&gt; from stringmetrics import levenshtein&gt;&gt;&gt; levenshtein(&quot;a slow cat&quot;, &quot;a fast bat&quot;)5&gt;&gt;&gt; levenshtein(&quot;a slow cat&quot;, &quot;a fast bat&quot;, limit=3)3```</longdescription>
 </pkgmetadata>

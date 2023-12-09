@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Blockchain ETL CommonCommon utils for https://github.com/blockchain-etl.### Installing```bash&gt; pip3 install -e .[streaming]```### Running Tests```bash&gt; pytest -vv ```</longdescription>
 </pkgmetadata>

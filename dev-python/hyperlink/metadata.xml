@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The humble, but powerful, URL runs everything around us. Chancesare you've used several just to read this text.Hyperlink is a featureful, pure-Python implementation of the URL, withan emphasis on correctness. MIT licensed.See the docs at http://hyperlink.readthedocs.io.</longdescription>
 </pkgmetadata>

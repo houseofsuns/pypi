@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># setuptools extension for building non-Python Dynamic Shared ObjectsBuilding non-python shared libraries (eg. `libY.so`, `libY.dylib`, or `Y.dll`) for inclusion in a Python Wheel.This extension is an alternative to bundling externally builtlibraries in Python Wheel packages by providing the means toreplace an external build system (eg. Makefile) so that non-pythonlibraries to be built from source within the python ecosystem.- Documentation at https://mdavidsaver.github.io/setuptools_dso- Github project https://github.com/mdavidsaver/setuptools_dso- PYPI https://pypi.org/project/setuptools-dso/</longdescription>
 </pkgmetadata>

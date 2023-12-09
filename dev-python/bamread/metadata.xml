@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># bamreadRead bam files quickly into dataframes in Python## Development### DevelopmentSee [How to Publish an Open-Source Python Package to PyPI](https://realpython.com/pypi-publish-python-package/)Install```bashpip install -e .  # -e flag means editing affects the installed package```Create sdist and wheel (requires [build](https://pypa-build.readthedocs.io/en/stable/))```bashpython -m build```Check whether the package archives look fine:```bashtwine check dist/*```Upload to PyPI test server```bashtwine upload -r testpypi dist/*```Chek that the package can be installed from the test server```bashpython -m pip install -i https://test.pypi.org/simple bamreadpython -c &quot;import bamread; print(bamread.read_bam('Some.bam'))&quot;```Upload to pypi```bashtwine upload -r testpypi dist/*```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Connect Reports Executor========================This project contains the executor code used to run custom reports on CloudBlue Connect.</longdescription>
 </pkgmetadata>

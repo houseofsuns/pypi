@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># webp_supportedQuickly determine whether Webp is supported from UserAgent.## support webp browser list- FireFox &gt;= 65- Chrome &gt;= 32- Edge &gt;= 18- AppleWebKit &gt;= 605 # Safari 14- OPR &gt;= 19- UCBrowser &gt;= 12- SamsungBrowser &gt;= 4- QQBrowser &gt;= 10## using`webp_supported(user_agent: bytes) -&gt; bool`example:```pythonfrom webp_support import webp_supporteduser_agent = b&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36&quot;webp_supported(user_agent)    # Chrome &gt; 32 -&gt; True```</longdescription>
 </pkgmetadata>

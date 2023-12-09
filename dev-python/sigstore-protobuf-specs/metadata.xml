@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>sigstore-protobuf-specs=======================These are the Python language bindings for Sigstore's protobuf specs.See the [repository's README](https://github.com/sigstore/protobuf-specs)for more information.</longdescription>
 </pkgmetadata>

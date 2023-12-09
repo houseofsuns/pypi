@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A low-level interface to a growing number of KSC Web Services.</longdescription>
 </pkgmetadata>

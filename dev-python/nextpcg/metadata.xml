@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>    What is NextPCG?    Fast Track to Game Content Generation        To meet the growing demand for immersive games with vast amounts of content, game developers can use a procedural     approach with NextPCG to create high-quality games efficiently, while meeting deadlines and containing costs.        NextPCG is a cloud-based solution that enhances game engines' AIGC and procedural content generation capabilities.     It provides comprehensive toolsets for creating game content out-of-the-box, along with an efficient pipeline     and the ability to generate Vastworlds.        The NextPCG Features    - Provide rich out-of-the-box toolsets for game content generation.    - Provide a product standard efficient pipeline for open-world game levels generation.    - Support one-click Vastworlds generation through a cloud-based platform.    </longdescription>
 </pkgmetadata>

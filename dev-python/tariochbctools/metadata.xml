@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. image:: https://img.shields.io/pypi/l/tariochbctools.svg   :target: https://pypi.python.org/pypi/tariochbctools.. image:: https://img.shields.io/pypi/v/tariochbctools.svg   :target: https://pypi.python.org/pypi/tariochbctools.. image:: https://readthedocs.org/projects/tariochbctools/badge   :target: https://tariochbctools.rtfd.iotariochbctools==============Some importers, plugins and price fetchers for the double-entry bookkeeping software `Beancount &lt;https://beancount.github.io/&gt;`__.See the detailed `Documentation &lt;https://tariochbctools.rtfd.io/&gt;`__.</longdescription>
 </pkgmetadata>

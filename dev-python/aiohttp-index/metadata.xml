@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>aiohttp\_index==============`aiohttp.web &lt;http://aiohttp.readthedocs.org/en/stable/&gt;`__ middleware toserve index files (e.g. index.html) when static directories are requested.Usage-----.. code:: python    from aiohttp import web    from aiohttp_index import IndexMiddleware    app = web.Application(middlewares=[IndexMiddleware()])    app.router.add_static('/', 'static')``app`` will now serve ``static/index.html`` when ``/`` is requested.Dependencies-------------  Python 3.5+-  `aiohttp &lt;http://aiohttp.readthedocs.org/en/stable/&gt;`__ (tested on   0.21.4)</longdescription>
 </pkgmetadata>

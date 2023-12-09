@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>SQLAlchemy-Searchable=====================|Version Status| |Downloads|Fulltext searchable models for SQLAlchemy. Only supports PostgreSQLResources---------- `Documentation &lt;https://sqlalchemy-searchable.readthedocs.io/&gt;`_- `Issue Tracker &lt;http://github.com/kvesteri/sqlalchemy-searchable/issues&gt;`_- `Code &lt;http://github.com/kvesteri/sqlalchemy-searchable/&gt;`_.. |Version Status| image:: https://img.shields.io/pypi/v/SQLAlchemy-Searchable.svg   :target: https://pypi.python.org/pypi/SQLAlchemy-Searchable/.. |Downloads| image:: https://img.shields.io/pypi/dm/SQLAlchemy-Searchable.svg   :target: https://pypi.python.org/pypi/SQLAlchemy-Searchable/</longdescription>
 </pkgmetadata>

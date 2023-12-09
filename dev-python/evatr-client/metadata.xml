@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A client to validate EU-VAT numbers with the official German tool that can be found here: https://evatr.bff-online.de/eVatR/</longdescription>
 </pkgmetadata>

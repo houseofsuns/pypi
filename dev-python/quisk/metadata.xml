@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>QUISK is a Software Defined Radio (SDR) transceiver.  You supply radio hardware that converts signals at the antenna to complex (I/Q) data at anintermediate frequency (IF). Data can come from a sound card, Ethernet or USB. Quisk then filters anddemodulates the data and sends the audio to your speakers or headphones. For transmit, Quisk takesthe microphone signal, converts it to I/Q data and sends it to the hardware.Quisk can be used with SoftRock, Hermes Lite 2, HiQSDR, Odyssey and many radios that use the Hermes protocol.Quisk can connect to digital programs like Fldigi and WSJT-X. Quisk can be connected to other software likeN1MM+ and software that uses Hamlib.</longdescription>
 </pkgmetadata>

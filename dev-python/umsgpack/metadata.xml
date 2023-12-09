@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>If you are looking for the unicode wrapper around msgpack, that's msgpacku. If you are looking for the umsgpack module, that's u-msgpack-python.Sorry for the confusion!</longdescription>
 </pkgmetadata>

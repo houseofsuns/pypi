@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Configurable, pluggable and more user friendly map widgets for Django PostGIS fields. Please check the `project home page &lt;https://github.com/erdem/django-map-widgets/&gt;`_ for latest updates.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># django-redirect-to-non-wwwRedirects ww&lt;span&gt;&lt;/span&gt;w URL address to non-ww&lt;span&gt;&lt;/span&gt;w.## Installation```bashpip install django-redirect-to-non-www``````bashpip install git+https://git@github.com/lukasvinclav/django-redirect-to-non-www.git```## ConfigurationOpen your settings file and append middleware **redirect_to_non_ww&lt;span&gt;&lt;/span&gt;w.middleware.RedirectToNonWw&lt;span&gt;&lt;/span&gt;w** at the end of **MIDDLEWARE** list.```pythonMIDDLEWARE = [    # Other middleware classes    'redirect_to_non_www.middleware.RedirectToNonWww',]```</longdescription>
 </pkgmetadata>

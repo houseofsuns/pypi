@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>##############Country Module##############The *Country Module* provides the basic features needed to handle datarelated to countries, their subdivisions, and their postal codes.It also provides some scripts that are used to load standard countries,subdivisions, and selected countries' postal codes into Tryton.</longdescription>
 </pkgmetadata>

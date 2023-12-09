@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry Python API============================================================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-api.svg   :target: https://pypi.org/project/opentelemetry-api/Installation------------::    pip install opentelemetry-apiReferences----------* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_</longdescription>
 </pkgmetadata>

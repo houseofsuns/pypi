@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>colcon-powershell=================An extension for `colcon-core &lt;https://github.com/colcon/colcon-core&gt;`_ to provide `PowerShell &lt;https://github.com/PowerShell/PowerShell&gt;`_ scripts.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A toolkit for numerical simulations to allow easy parameter exploration and storage of results.</longdescription>
 </pkgmetadata>

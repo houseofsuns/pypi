@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![PyPI pyversions](https://img.shields.io/pypi/pyversions/aioairq.svg)](https://pypi.org/project/aioairq/0.3.0/)[![PyPI downloads](https://pepy.tech/badge/aioairq)](https://pypi.org/project/aioairq/0.3.0/)# PyPI package `aioairq`Python library for asynchronous data access to local air-Q devices.## Retrieve data from air-QAt its present state, `AirQ` requires an `aiohttp` session to be provided by the user:```pythonimport asyncioimport aiohttpfrom aioairq import AirQADDRESS = &quot;123ab_air-q.local&quot;PASSWORD = &quot;airqsetup&quot;async def main():    async with aiohttp.ClientSession() as session:        airq = AirQ(ADDRESS, PASSWORD, session)        config = await airq.config        print(f&quot;Available sensors: {config['sensors']}&quot;)        data = await airq.data        print(f&quot;Momentary data: {data}&quot;)asyncio.run(main())```</longdescription>
 </pkgmetadata>

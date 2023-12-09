@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PackBits encoder/decoder========================This module implements a PackBits encoder/decoder for Python 2.x and 3.x.PackBits encoding is used in PSD and TIFF files.Installation------------::    pip install packbitsUsage-----Import ``packbits`` module; then use ``packbits.encode(data)`` and``packbits.decode(data)`` functions.Contributing------------Development happens at github and bitbucket:* https://github.com/kmike/packbits* https://bitbucket.org/kmike/packbitsThe main issue tracker is at github: https://github.com/kmike/packbits/issuesFeel free to submit ideas, bugs, pull requests (git or hg) or regular patches.In order to run tests, install `tox &lt;http://tox.testrun.org&gt;`_ and type::    toxfrom the source checkout.The license is MIT.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Microsoft Azure Monitor library for PythonStarting with v0.4.0, this package cannot be installed anymore, please use [azure-mgmt-monitor](https://pypi.org/project/azure-mgmt-monitor/) instead.</longdescription>
 </pkgmetadata>

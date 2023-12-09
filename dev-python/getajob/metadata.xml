@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># sharedStores All Business Logic for the Angies Job Board BackendPatterns of this repositoryYou'll see some common file names in each of the contexts in this repoThe contexts may be embedded into each other if they are expected to be stored as childrenFor instance, you'll find the Resume context under a user because it is a direct relationshipBUT, you'll find the Application context at the &quot;Parent&quot; level because it is a shared entity between a user and a company/job.Each context will have files matching this pattern, some may have all of these and others may only have a portion of these files depending on what is neededmodelsenumerationssearchrepositoryunit_of_workasync_service</longdescription>
-</pkgmetadata>

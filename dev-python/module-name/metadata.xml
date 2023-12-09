@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>module_name===========Simple module to make it easy to run python files with `-m` flag.The benefits of running with `-m` is that your relative imports will work.Running a python file as a script doesn't understand that it is part of apackage.```usage: py-module-name [-h] [-f] [-d] pathpositional arguments:  path         path to python fileoptional arguments:  -h, --help   show this help message and exit  -f, --flag   Will output -m flag if path is importable  -d, --debug  Debug```## Examples```&gt; py-module-name module_name/resolve.pymodule_name.resolve&gt; py-module-name -f module_name/resolve.py-m 'module_name.resolve'&gt; py-module-name -f /tmp/not_package/standalone.py'/tmp/not_package/standalone.py'```The `-f` flag is useful for use with scripting. I use it from my `.vimrc` torun files I am editing.## .vimrc```autocmd FileType python map &lt;buffer&gt; &lt;S-r&gt; :w&lt;CR&gt;:!tmux send-keys -t :.{bottom-right} &quot;\%time \%run `py-module-name -f %:p`&quot; enter&lt;CR&gt;&lt;CR&gt;```</longdescription>
 </pkgmetadata>

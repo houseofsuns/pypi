@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Django class-based views ready to work with Twitter's Bootstrap toolkit, designed to kickstart development of webapps and sites.</longdescription>
 </pkgmetadata>

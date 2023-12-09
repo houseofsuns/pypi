@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ktch - A python package for model-based morphometrics[![codecov](https://codecov.io/gh/noshita/ktch/branch/main/graph/badge.svg?token=SJN66K7KJY)](https://codecov.io/gh/noshita/ktch)ktch is a python package for model-based morphometrics.## Usage```sh# pippip install ktch# condaconda install -c conda-forge ktch ```## Licensektch is licensed under the Apache License, Version2.0</longdescription>
 </pkgmetadata>

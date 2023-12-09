@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Pipeline Status](https://cd.screwdriver.cd/pipelines/2820/badge)](https://cd.screwdriver.cd/pipelines/2820/events)  [![codecov](https://codecov.io/gh/dwighthubbard/bandersnatch_safety_db/branch/master/graph/badge.svg)](https://codecov.io/gh/dwighthubbard/bandersnatch_safety_db)-----# Bandersnatch Safety DB filtering pluginThis package provides a bandersnatch plugin that filters releases based on [safety-db]().## Installation``` commandpip install bandersnatch bandersnatch_safety_db```## ConfigurationTo enable add `safety_db_release` to the [blacklist] plugins setting of the bandersnatch.conf.  - If bandersnatch &gt; 3.3.1```[plugins]enabled =    safety_db_release```- If bandersnatch &lt;= 3.3.1```[blacklist]plugins =    safety_db_release```</longdescription>
 </pkgmetadata>

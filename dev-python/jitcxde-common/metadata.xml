@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>JiTCxDE Common is a collection common code for`JiTCODE &lt;http://github.com/neurophysik/jitcode&gt;`_,`JiTCDDE &lt;http://github.com/neurophysik/jitcdde&gt;`_, and`JiTCSDE &lt;http://github.com/neurophysik/jitcsde&gt;`_.You’ll need it if you install any of them manually.Otherwise it should be automatically installed as a dependency.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CK AstroToolsGeneral tools for astronomy I personally use regularly for data analysis.**Status:**  Alpha\**Author:** Carsten König\**Repository:** https://gitlab.com/ck2go/ckastrotools \**PyPi:** https://pypi.org/project/CKAstroTools/ \**Documentation:** https://ckastrotools.readthedocs.io/en/latest/## PurposeProviding common tools, functions, workflows that I use for my everyday scientific work.## Installation```bashpip install ckastrotools```## How to useImport modules and use the objects or functions.## License[MIT License](https://choosealicense.com/licenses/mit/)## Author**Carsten König**- [GitLab](https://gitlab.com/ck2go &quot;Carsten König&quot;)- [GitHub](https://github.com/ck2go &quot;Carsten König&quot;)- [LinkedIn](https://www.linkedin.com/in/ck2go/ &quot;Carsten König&quot;)- [Website](https://www.carsten-koenig.de &quot;Carsten König&quot;)</longdescription>
 </pkgmetadata>

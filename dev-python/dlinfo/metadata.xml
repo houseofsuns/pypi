@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>python-dlinfo=============Python wrapper for libc's dlinfoInstall-------.. code:: sh   pip install dlinfo   # or   pipenv install dlinfoUsage-----.. code:: python   &gt;&gt;&gt; from dlinfo import DLInfo   &gt;&gt;&gt; lib = ctypes.cdll.LoadLibrary(ctypes.util.find_library('c'))   &gt;&gt;&gt; dlinfo = DLInfo(lib)   &gt;&gt;&gt; dlinfo.path   '/lib/x86_64-linux-gnu/libc.so.6'</longdescription>
 </pkgmetadata>

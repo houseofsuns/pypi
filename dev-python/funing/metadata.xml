@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Funing  A **simple** face recognition GUI, try it just enter:  ```bashpip3 install funing; funing```</longdescription>
 </pkgmetadata>

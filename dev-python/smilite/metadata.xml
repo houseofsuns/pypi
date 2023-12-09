@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>smilite is a Python module to download and analyze SMILE strings(Simplified Molecular-Input Line-entry System)of chemical compounds from ZINC(a free database of commercially-available compounds for virtual screening,http://zinc.docking.org).Source repository: https://github.com/rasbt/smilite</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># internetPython library for working with IP addresses and other internet related functionalities# Installation`pip install internet`# Usage```pythonfrom internet.ipv4 import I```</longdescription>
 </pkgmetadata>

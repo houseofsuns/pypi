@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry Boto3 SQS Instrumentation=======================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-boto3sqs.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-boto3sqs/This library allows tracing requests made by the Boto3 library to the SQS service.Installation------------::    pip install opentelemetry-instrumentation-boto3sqsReferences----------* `OpenTelemetry boto3sqs/ Tracing &lt;https://opentelemetry-python-contrib.readthedocs.io/en/latest/instrumentation/boto3sqs/boto3sqs.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cdkactionsSee the [main README](https://github.com/ArmaanT/cdkactions/) for an overview of cdkactions.See the [API reference](https://github.com/ArmaanT/cdkactions/blob/master/packages/cdkactions/API.md) for detailed information about the cdkactions constructs.## LicenseThis project is distributed under the [Apache License, Version 2.0](./LICENSE).</longdescription>
 </pkgmetadata>

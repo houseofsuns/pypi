@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Docker container bootstrapper that synchronizes state from a configuration file.It can load configuration from EC2 user-data, and automatically handles containerupdates and cleanup.</longdescription>
 </pkgmetadata>

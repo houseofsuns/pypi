@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>bugzillapluginPlatform: UNKNOWNClassifier: Development Status :: 5 - Production/StableClassifier: Intended Audience :: DevelopersClassifier: License :: OSI Approved :: GNU General Public License (GPL)Classifier: Environment :: PluginsClassifier: Framework :: PytestClassifier: Operating System :: POSIXClassifier: Operating System :: Microsoft :: WindowsClassifier: Operating System :: MacOS :: MacOS XClassifier: Programming Language :: PythonClassifier: Programming Language :: Python :: 2.7Classifier: Programming Language :: Python :: 3.6Classifier: Topic :: Software Development :: TestingClassifier: Topic :: Software Development :: Quality AssuranceClassifier: Topic :: Utilities</longdescription>
 </pkgmetadata>

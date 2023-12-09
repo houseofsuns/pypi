@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># gh_subdirPython module to install a subfolder of a github repo instead of the entire repo.## How to useFirst, install the module with pip.```bashpip install gh_subdir```Then use the module in your python file as follows:```pythonfrom gh_subdir import gh_subdirghs_config = {    &quot;owner&quot;: &quot;example_owner&quot;,    &quot;repo&quot;: &quot;example_repo&quot;,    &quot;encoding&quot;: &quot;utf-8&quot;, # optional (default: utf-8)    &quot;create_subfolder&quot;: True, # optional (default: True)}ghs = gh_subdir(ghs_config)ghs.install(&quot;example_subdir&quot;)```## Optionsencoding: Default encoding for the files, I've found utf-8 handles the most cases, but if you're having issues with encoding, try changing this.create_subfolder: - If True, the files will be installed in a subfolder with the same name as the subfolder path. - If False, the files will be installed in the same directory as the python file.## ContributorsReece Vela  - [Github](https://github.com/reecevela)  Others welcome!</longdescription>
 </pkgmetadata>

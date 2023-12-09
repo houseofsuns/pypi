@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Microsoft Bonsai API Python Client[![PyPi version](https://badge.fury.io/py/microsoft-bonsai-api.svg?new)](https://badge.fury.io/py/microsoft-bonsai-api)Use this Python library to test and integrate simulators with Project Bonsai.## RequirementsThe SDK supports the following versions of Python:- Python 3 versions 3.4 and later## InstallationInstall the latest client using pip:```shpip install microsoft-bonsai-api```Alternatively, you can download or clone the client from the[Bonsai API GitHub repo] and install the client by running Setuptools in theinstallation directory:```shpython setup.py install --user```## Usagehttps://docs.microsoft.com/en-us/python/api/microsoft-bonsai-api/## Ask the communityPlease join us in our [community forums] if you have any questions![//]: # &quot;Link anchor definitions&quot;[bonsai api github repo]: https://github.com[community forums]: https://aka.ms/as/forums</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Mox is a mock object framework for Python based on theJava mock object framework EasyMock.New uses of this library are discouraged.People are encouraged to use https://pypi.python.org/pypi/mock instead which matches the unittest.mock library available in Python 3.</longdescription>
 </pkgmetadata>

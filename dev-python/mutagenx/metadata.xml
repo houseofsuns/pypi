@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A fork of the mutagen package, modified to support Python 3.3+. Itake no credit for the original mutagen - the copyright for that isowned by the original developers. This package isn't currentlycompatible with Python 2.x, but I am working with the mutagendevelopers to make these two projects converge. Once this happens, I'llclose this project and start working on improving mutagen itself.From the original package description:&quot;Mutagen is a Python module to handle audio metadata. It supports ASF,FLAC, M4A, Monkey's Audio, MP3, Musepack, Ogg FLAC, Ogg Speex, OggTheora, Ogg Vorbis, True Audio, WavPack and OptimFROG audio files. Allversions of ID3v2 are supported, and all standard ID3v2.4 frames areparsed. It can read Xing headers to accurately calculate the bitrateand length of MP3s. ID3 and APEv2 tags can be edited regardless ofaudio format. It can also manipulate Ogg streams on an individualpacket/page level.&quot;</longdescription>
 </pkgmetadata>

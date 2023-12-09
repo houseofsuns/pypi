@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># trdb2py这是 ``tradingdb2`` 的python库，初衷是希望有一个更方便的研究工具，能在 ``jupyter`` 里使用。大量的运算，都是通过 ``tradingdb2`` 发送给 ``tradingnode2`` 节点进行分布式运算，而 ``tradingdb2`` 负责负载均衡 和 结果缓存，这样就算 ``jupyter`` 有什么问题，也不至于要重新运算。图形化选择的是 ``plotly`` 。注意：- ``jupyter``运行效率有些低，如果不在研究阶段，建议直接python运行脚本更合适。- 如果进行非常大数据量的运算，在``jupyter``里很容易内核挂掉，这种脚本需要自己处理好内存管理，直接python运行脚本更合适。- 提供了vscode可用的``devcontainer``，建议用这个配置开发，避免污染本地环境。# 安装直接用 ``pip`` 安装即可。```pip install trdb2py```# 更新日志### v0.3- 需要搭配 ``TradingDB2`` v0.6 以上版本使用。### v0.2- 加入更多本地分析功能，不会把所有计算都放云端。### v0.1- 实现了基本功能。</longdescription>
 </pkgmetadata>

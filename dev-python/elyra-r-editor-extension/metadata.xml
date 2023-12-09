@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>'The R Script editor extension contains support for R files, which can take advantage of the Hybrid Runtime Support enabling users to locally edit .R scripts and execute them against local or cloud-based resources.See https://elyra.readthedocs.io/en/v3.15.0/user_guide/enhanced-script-support.html'</longdescription>
 </pkgmetadata>

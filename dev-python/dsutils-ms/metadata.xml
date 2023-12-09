@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>python3.11 setup.py sdisttwine upload --repository dsutils_ms dist/dsutils_ms-1.1.tar.gz --verbosepip3.11 install -e .</longdescription>
 </pkgmetadata>

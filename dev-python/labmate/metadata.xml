@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Install`pip install labmate`## Installation in dev mode`pip install -e .[dev]`or`python setup.py develop`## UsageStart by looking inside`docs/examples/acquisition_and_analysis_notebook.ipynb`and don't be afraid by the other examples</longdescription>
 </pkgmetadata>

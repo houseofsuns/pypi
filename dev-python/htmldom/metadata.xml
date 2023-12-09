@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>htmldom parses the HTML file and provides methods for iterating and searching and modifying the parse tree in a similar way as Jquery.The source code of the library can be found at `htmldom&lt;https://github.com/bhimsen92/htmldom&gt;`_.To report bugs, you can open ticket at `HTMLDOM Bug Tracker&lt;http://sourceforge.net/p/thehtmldom/tickets/&gt;`_.You can find examples at `Examples&lt;https://sourceforge.net/p/thehtmldom/thehtmldom/thehtmldom/thread/ca6c4227/&gt;`_.For documentation click on this link: `Documentation&lt;http://thehtmldom.sourceforge.net/&gt;`_.</longdescription>
 </pkgmetadata>

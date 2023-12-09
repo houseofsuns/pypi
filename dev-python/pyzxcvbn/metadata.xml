@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=================pyzxcvbn=================Python version `zxcvbn &lt;https://github.com/dropbox/zxcvbn&gt;`_.There are the same test scripts (but written in not coffee script but python) as the original repository in order to ensure this library will move in the same way.Install-------::    $ pip install pyzxcvbn</longdescription>
 </pkgmetadata>

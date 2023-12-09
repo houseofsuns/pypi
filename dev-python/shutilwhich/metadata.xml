@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A copy &amp; paste backport of Python 3.3's ``shutil.which`` function.Usage=====First, install the package: ``pip install shutilwhich``Importing the package::  import shutilwhichwill monkey-patch the ``shutil`` package, so from that point on you can simplyimport the ``which`` function::  from shutil import whichTo keep things a little more concise, you can also import ``which`` directlyfrom ``shutilwhich``::  from shutilwhich import whichThis will still monkeypatch the ``shutil`` module. On Python 3.3 and above, themodule never do anything but return the stdlib ``shutil.which`` function.</longdescription>
 </pkgmetadata>

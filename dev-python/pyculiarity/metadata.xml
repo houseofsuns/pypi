@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Usage details and source available here: https://github.com/nicolasmiller/pyculiarity.The original R source and examples are available here: https://github.com/twitter/AnomalyDetection.Copyright and LicensePython port Copyright 2015 Nicolas Steven MillerOriginal R source Copyright 2015 Twitter, Inc and other contributorsLicensed under the GPLv3</longdescription>
 </pkgmetadata>

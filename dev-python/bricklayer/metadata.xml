@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Bricklayer builds packages to help you automate builds and upload them to repositories.</longdescription>
 </pkgmetadata>

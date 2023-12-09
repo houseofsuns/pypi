@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Palmers Preprocess PackageThis is a package for preprocessing data for machine learning. It is a work in progress and is not yet ready for use.# To Uploadpy -m buildtwine upload dist/*# ----- DELETE -------to start venvC:\Users\assafm\.virtualenvs\sdatta_packages\palmers_preprocess\Scripts\activate</longdescription>
 </pkgmetadata>

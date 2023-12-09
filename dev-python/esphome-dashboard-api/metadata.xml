@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ESPHome Dashboard APIPython package to interact with the ESPHome dashboard.</longdescription>
 </pkgmetadata>

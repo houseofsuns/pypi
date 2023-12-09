@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Kinto Signer============This project **is deprecated** and has become ``kinto-remote-settings``. See https://github.com/mozilla/remote-settings/</longdescription>
 </pkgmetadata>

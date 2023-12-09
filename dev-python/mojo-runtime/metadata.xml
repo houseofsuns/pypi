@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ContextualizeA package used to create a global context that allows for the distribution of options and configuration.</longdescription>
 </pkgmetadata>

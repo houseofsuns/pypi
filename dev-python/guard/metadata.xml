@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Guard=====.. image:: https://travis-ci.org/dstufft/guard.png?branch=master   :target: https://travis-ci.org/dstufft/guard.. image:: https://coveralls.io/repos/dstufft/guard/badge.png?branch=master   :target: https://coveralls.io/r/dstufft/guard?branch=masterGuard is a collection of generic WSGI middlewares and utilities for improvingthe security of a web application.Content Security Policy-----------------------``guard.ContentSecurityPolicy`` provides a WSGI middleware that can be usedto provide a content security policy for a web application.Usage~~~~~.. code:: python    import guard, wsgi_app    # Default Policy    app = guard.ContentSecurityPolicy(wsgi_app.application)    # Custom Directives    app = guard.ContentSecurityPolicy(wsgi_app.application, {&quot;img-src&quot;: [&quot;*&quot;]})    # Report Only    app = guard.ContentSecurityPolicy(wsgi_app.application, report_only=True)</longdescription>
 </pkgmetadata>

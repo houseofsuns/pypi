@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>API for grabbing 3D Printer statistics and remote controlling a 3D20, 3D40 or 3D45 model for operations such as resuming a print, pausing, canceling or starting a new print from either a file path or a URL.</longdescription>
 </pkgmetadata>

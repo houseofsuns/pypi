@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># wpt-interopLibrary for working with[web-platform-tests](https://web-platfrom-tests.org) and[Interop](https://wpt.fyi/interop-2023) data.</longdescription>
 </pkgmetadata>

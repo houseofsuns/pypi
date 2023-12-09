@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=====XChemDB=====This is a simple Django app to get a RESTFul API of XChem data.Detailed documentation is in the &quot;docs&quot; directory.Quick start-----------1. Add &quot;xchem_db&quot; to your INSTALLED_APPS setting like this::    INSTALLED_APPS = [        ...        'xchem_db',    ]2. Run `python manage.py migrate` to create the xchem_db models.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>``py2jdbc`` is an open source Python module that accesses JDBC-compliant databases.It implements the DB API 2.0 specification.- Documentation: http://py2jdbc.readthedocs.org/- Source: https://github.com/swstephe/py2jdbc- Download: https://pypi.python.org/pypi/py2jdbc</longdescription>
 </pkgmetadata>

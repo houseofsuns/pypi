@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Usagesimple_json_flatten_py is a Python library for flattening complex JSONsFrom```JSON{&quot;a&quot;: [ {&quot;b&quot;:37},{&quot;c&quot;:64}],&quot;g&quot;: 26}```To```{  &quot;a_b&quot;:37,  &quot;a_c&quot;:64,  &quot;g&quot;:26}``````Pythonfrom simple_flatten_json_py import simple_flatten_json# Sample JSON datadata={   &quot;cat&quot;:[      {         &quot;fish&quot;:&quot;tuna&quot;      },      {         &quot;chicken&quot;:3      },      {         &quot;medicine&quot;:{            &quot;pills&quot;:5         }      }   ]}# returns a flattened json # {&quot;cat_0_fish&quot;: &quot;tuna&quot;,  &quot;cat_1_chicken&quot;: 3,&quot;cat_2_medicine_pills&quot;: 20}print(simple_flatten_json.flatten_json(data))```</longdescription>
 </pkgmetadata>

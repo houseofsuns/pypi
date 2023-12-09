@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Create a file called `limber.yaml` with the following configuration:```cloud:    provider: google    project: &quot;&lt;project name&gt;&quot;    region: &quot;europe-west1&quot;    key_file: &quot;&lt;path to key_file&gt;&quot;    default_bucket: &quot;&lt;gcp cloud storage bucket name&gt;&quot;```    In the main directory run:1. python -m limber init2. python -m limber terraform login3. python -m limber plan4. python -m limber applyGoogle Cloud APIs enabled1. CloudFunctions API2. PubSub API3. CloudScheduler API4. Cloud Build API5. Secret manager APIOther1. Create app engine in your project: https://console.cloud.google.com/appengineService account needed roles:1. Pub/Sub Editor2. Service Account User3. Cloud Scheduler Admin4. Cloud Functions Developer5. Storage Admin6. Secret Manager Admin</longdescription>
 </pkgmetadata>

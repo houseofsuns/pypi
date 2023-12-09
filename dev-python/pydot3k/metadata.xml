@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Graphviz's dot language Python interface.This module provides with a full interface to create handle modifyand process graphs in Graphviz's dot language.References:pydot Homepage: http://code.google.com/p/pydot/Graphviz:       http://www.graphviz.org/DOT Language:   http://www.graphviz.org/doc/info/lang.htmlProgrammed and tested with Graphviz 2.26.3 and Python 2.6 on OSX 10.6.4Copyright (c) 2005-2011 Ero Carrera &lt;ero.carrera@gmail.com&gt;Distributed under MIT license [http://opensource.org/licenses/mit-license.html].</longdescription>
 </pkgmetadata>

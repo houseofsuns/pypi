@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Streams are iterables with a pipelining mechanism to enable data-flowprogramming and easy parallelization.See the reference documentation at &lt;http://www.trinhhaianh.com/stream.py&gt;.Articles written by the author about the module can be viewed at &lt;http://blog.onideas.ws/tag/project:stream.py&gt;.The code repository is located at &lt;http://github.com/aht/stream.py&gt;.</longdescription>
 </pkgmetadata>

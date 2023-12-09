@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pt100=====Python package with different calculation algorithms for Pt100temperature sensors.This package was written to facilitate converting Pt100 sensorresistance values to temperature values and back. Different algorithms(e.g. lookup tables) and approximating polygonal functions are describedin literature and in different sites on the Internet. A further aim ofthis package is to make it easy to choose the right approximation oralgorithm.</longdescription>
 </pkgmetadata>

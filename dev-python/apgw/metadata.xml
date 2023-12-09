@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># A simple wrapper around asyncpgapgw is a simple wrapper around the excellent asyncpg library. It is designed to make buildingcertain types of simple queries very easy.Please note: documentation on this project is currently not provided## Interacting With the Project`make` is the best way to interact with the project.### Setting Up:    make install### Running Tests:    make test### Running Coverage    make coverage</longdescription>
 </pkgmetadata>

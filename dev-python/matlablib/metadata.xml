@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># matlablibSuite of Matlab utilities ported over to Python ## InstallationRun the following to install :```pythonpip install matlablib```## Usage``` pythonimport matlablib as ml  from matlablib import closefigures  from matlablib import cc  from matlablib import keyboard  from matlablib import sayHey  from matlablib import quit_early  from matlablib import kill_background  from matlablib import getPythonVariables  ```### Say hey``` pythonml.sayHey```</longdescription>
 </pkgmetadata>

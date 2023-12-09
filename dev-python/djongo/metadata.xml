@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Use Mongodb as a backend database for your django project, without changing asingle django model!Usage-----1. Install djongo::      pip install djongo2. Into settings.py file of your project, add::      DATABASES = {           'default': {               'ENGINE': 'djongo',               'NAME': 'your-db-name',           }       }3. Run (ONLY the first time to create collections in mongoDB)::      manage.py makemigrations      manage.py migrateYOUR ARE SET! HAVE FUN!Requirements------------1. Djongo requires python 3.6 or above.How it works------------Djongo is a SQL to mongodb query transpiler. It translates a SQL query stringinto a mongoDB query document. As a result, all Django features, models etcwork as is.Django contrib modules::    'django.contrib.admin',    'django.contrib.auth',    'django.contrib.sessions',and others... fully supported.Important links---------------* `Full Documentation &lt;https://nesdis.github.io/djongo/&gt;`_* `Source code &lt;https://github.com/nesdis/djongo&gt;`_</longdescription>
 </pkgmetadata>

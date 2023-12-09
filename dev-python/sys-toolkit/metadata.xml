@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>![Unit Tests](https://github.com/hile/sys-toolkit/actions/workflows/unittest.yml/badge.svg)![Style Checks](https://github.com/hile/sys-toolkit/actions/workflows/lint.yml/badge.svg)# Python system utility toolkitThis module contains various small utility methods and common classes for working in python.These classes have moved from *systematic* and *cli-toolkit* modules to this module.## InstallingThis module has minimal dependencies (PyYAML) and should install with *pip* on any recentpython version. The module has been tested with python 3.9 and python 3.10.## Running unit tests and lintersAll tests are run with *tox*.Run unit tests, flake8 and pylint:```bashmake```Run unit tests:```bashmake test```Run flake8 and pylint:```bashmake lint```</longdescription>
 </pkgmetadata>

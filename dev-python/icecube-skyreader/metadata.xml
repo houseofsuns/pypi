@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!--- Top of README Badges (automated) ---&gt;[![PyPI](https://img.shields.io/pypi/v/icecube-skyreader)](https://pypi.org/project/icecube-skyreader/) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/icecube/skyreader?include_prereleases)](https://github.com/icecube/skyreader/) [![PyPI - License](https://img.shields.io/pypi/l/icecube-skyreader)](https://github.com/icecube/skyreader/blob/main/LICENSE) [![Lines of code](https://img.shields.io/tokei/lines/github/icecube/skyreader)](https://github.com/icecube/skyreader/) [![GitHub issues](https://img.shields.io/github/issues/icecube/skyreader)](https://github.com/icecube/skyreader/issues?q=is%3Aissue+sort%3Aupdated-desc+is%3Aopen) [![GitHub pull requests](https://img.shields.io/github/issues-pr/icecube/skyreader)](https://github.com/icecube/skyreader/pulls?q=is%3Apr+sort%3Aupdated-desc+is%3Aopen) &lt;!--- End of README Badges (automated) ---&gt;# skyreaderAn API for Results Produced by SkyDriver &amp;amp; the Skymap Scanner</longdescription>
 </pkgmetadata>

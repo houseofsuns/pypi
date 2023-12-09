@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ClassifierA scalable land cover classification tool for humansGo to [the documentation](https://satelligence.gitlab.io/classifier) for more info on how to install and run Classifier!## Note on performanceFor now, the multithreading of XGboost is not properly implemented. If you havea lot of input files the XGBoost method is MUCH slower than e.g. scikit-learn'srandom forest. With single input files (so not a lot of IO operations), thedifference in performance is small.## issues and bugsIssues are tracked on the [issue list of thisrepo](https://gitlab.com/satelligence/classifier/issues).## DevelopmentPlease follow the [Satelligence development guidelines](https://gitlab.com/satelligence/workflow/blob/master/dev_workflow.md)when adding features or fixing bugs.(Fork) Clone this repo:```shgit clone git@gitlab.com:satelligence/classifier.git```Make sure you are running the latest docker image.Run docker with a binding to the source files:```shdocker run  -v $(pwd):/app -t -i classifier```</longdescription>
 </pkgmetadata>

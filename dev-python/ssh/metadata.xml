@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This library originated as a fork of the Paramiko library, and has now been merged back into it. All fixes and features that were released or developed under the 'ssh' name have been incorporated into Paramiko! Please switch your dependencies to Paramiko 1.8.0 or newer.You can find it here: `Paramiko &lt;http://pypi.python.org/pypi/paramiko/1.8.0&gt;`_.Thanks!</longdescription>
 </pkgmetadata>

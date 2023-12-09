@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>urlwatch is intended to help you watch changes in webpages and get notified(via e-mail, in your terminal or through various third party services) of anychanges. The change notification will include the URL that has changed anda unified diff of what has changed.</longdescription>
 </pkgmetadata>

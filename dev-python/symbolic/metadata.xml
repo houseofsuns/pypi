@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Symbolic--------Symbolic is a Python library that can work with debug symbol files.</longdescription>
 </pkgmetadata>

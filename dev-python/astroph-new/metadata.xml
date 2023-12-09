@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===========astroph_new===========``astropy_new`` is a python module to search for`new astrophysics submissions &lt;https://arxiv.org/list/astro-ph/new&gt;`_in `arXiv &lt;https://arxiv.org&gt;`_ based on the user interests and to create asummarized document that can be easily opened in any browser.- Docs: https://astroph-new.readthedocs.ioInstallation: ``pip install -U astroph-new``Features========- Managing user interests (subjects, author names, and keywords)- Searching for new submissions in  `astro-ph &lt;https://arxiv.org/list/astro-ph/new&gt;`_ based on the user interests- Creating a summarized HTML document of the interested submissions- Daily automatic searching and summary on a set time.License=======All files are under MIT License, see `LISENCE &lt;LICENSE&gt;`_.</longdescription>
 </pkgmetadata>

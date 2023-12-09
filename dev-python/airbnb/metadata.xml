@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription> Copyright (C) 2004 Sam Hocevar &lt;sam@hocevar.net&gt; Everyone is permitted to copy and distribute verbatim or modified copies of this license document, and changing it is allowed as long as the name is changed.            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION  0. You just DO WHAT THE FUCK YOU WANT TO.Description: UNKNOWNPlatform: UNKNOWNClassifier: Programming Language :: PythonClassifier: Topic :: Software Development :: Libraries :: Python ModulesClassifier: Development Status :: 4 - BetaClassifier: Intended Audience :: DevelopersClassifier: Intended Audience :: End Users/DesktopClassifier: Operating System :: OS IndependentClassifier: License :: Public DomainClassifier: Programming Language :: Python :: 3Classifier: Programming Language :: Python :: 2.6Classifier: Programming Language :: Python :: 2.7Classifier: Topic :: Internet :: WWW/HTTPClassifier: Environment :: Console</longdescription>
 </pkgmetadata>

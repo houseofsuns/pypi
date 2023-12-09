@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>================================================================Framework for extract data from vk.com (russian social network).================================================================This is a Python wrapper for Telegram Bot API.Quickstart==========Install-------.. code:: bash    pip install telebot7Usage-----.. code:: python    &gt;&gt;&gt; from telebot7 import TeleBot    &gt;&gt;&gt; from telebot7.long_polling import get_updates    &gt;&gt;&gt;    &gt;&gt;&gt; token = '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11'    &gt;&gt;&gt; tele_bot = TeleBot(token)    &gt;&gt;&gt;    &gt;&gt;&gt; print(tele_bot.getMe())    &gt;&gt;&gt;    &gt;&gt;&gt; def on_updates(updates):    ...    print(updates)    ...    &gt;&gt;&gt; get_updates(tele_bot, on_updates, timeout=10)See https://core.telegram.org/bots/api for detailed API guide.</longdescription>
 </pkgmetadata>

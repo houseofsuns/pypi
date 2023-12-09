@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PCCMPython C++ Code Manager[![Build Status](https://github.com/FindDefinition/PCCM/workflows/build/badge.svg)](https://github.com/FindDefinition/PCCM/actions?query=workflow%3Abuild)Only pccm 0.1.x support python 3.5, pccm &gt;= 0.2.0 require python &gt;= 3.6.## Docssee [introduction ppt](docs/PCCM_intro.pptx) or [pdf](docs/PCCM_intro.pdf)</longdescription>
 </pkgmetadata>

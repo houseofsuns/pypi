@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>##########################Stock Package Shipping UPS##########################The *Stock Package Shipping UPS Module* allows to generate `UPS&lt;https://www.ups.com/&gt;`_ labels per package using their APIs.</longdescription>
 </pkgmetadata>

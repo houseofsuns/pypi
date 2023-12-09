@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>==========pysiaalarm==========Python package for creating a client that talks with SIA-based alarm systems.Description===========A longer description of your project goes here..... _pyscaffold-notes:Note====This project has been set up using PyScaffold 4.0. For details and usageinformation on PyScaffold see https://pyscaffold.org/.</longdescription>
 </pkgmetadata>

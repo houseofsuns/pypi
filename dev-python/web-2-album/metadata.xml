@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># web_2_albumReturn photo list and caption (markdown format) from web.## usage```import web_2_albumresult = web_2_album.get(url)result.imgsresult.videoresult.cap```### Optional param- force_cache## how to install`pip3 install web_2_album`</longdescription>
 </pkgmetadata>

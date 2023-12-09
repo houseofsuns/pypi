@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python SDK for Apache Airavata Managed File Transfers (MFT)</longdescription>
 </pkgmetadata>

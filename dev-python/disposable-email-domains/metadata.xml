@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Disposable Email DomainsThis module provides a set of known disposable email domains.## UsageThe blocklist is a Python `set` containing all domains in the blocklist:```python&gt;&gt;&gt; from disposable_email_domains import blocklist&gt;&gt;&gt; 'bearsarefuzzy.com' in blocklistTrue```The domains are guaranteed to be fully lowercased and stripped of whitespace.## SourceThe source of this list is the [disposable-email-domains][1] project.This module attempts to provide a mirror of that project as a Python module.If you feel a domain should or shouldn't be on the blocklist, you areencouraged to make a pull request against the [source repository][2][1]: https://github.com/disposable-email-domains/disposable-email-domains[2]: https://github.com/disposable-email-domains/disposable-email-domains</longdescription>
 </pkgmetadata>

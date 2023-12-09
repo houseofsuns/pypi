@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is just a continuation of the great job of Steffen Prince (sprin/markdown-inline-graphviz) in order to get it work with pip3. If you use python 2, please use the original extension instead.</longdescription>
 </pkgmetadata>

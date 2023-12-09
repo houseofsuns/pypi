@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Bigeye SDKBigeye SDK is a collection of protobuf generated code, functions, and models used to interact programmaticallywith the Bigeye API.  Bigeye currently supports a Python SDK.  The main entry point is the DatawatchClient abstraction and, in this core package, a basic auth client has been implemented.  The abstract base class includes core functionality (methods to interact with the API) and each implementation should enable a different authorization methods.## Install```shellpip install bigeye_sdk```## Basic AuthBasic authorization credentials can be stored as Json either on disk or in a secrets/credentials manager.  Thisformat will be marshalled into an instance of [BasicAuthRequestLibApiConf](bigeye_sdk/authentication/api_authentication.py).```json{    &quot;base_url&quot;: &quot;https://app.bigeye.com&quot;,    &quot;user&quot;: &quot;&quot;,    &quot;password&quot;: &quot;&quot;}```</longdescription>
 </pkgmetadata>

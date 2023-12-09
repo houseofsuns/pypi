@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>All Fives Domino================Simple version of a domino variant![image](https://img.shields.io/pypi/v/jhdata?style=flat-square)![image](https://img.shields.io/static/v1?label=pytest&amp;message=20+tests&amp;color=success&amp;style=flat-square)![image](https://img.shields.io/static/v1?label=coverage&amp;message=64%25&amp;color=yellow&amp;style=flat-square)## InstallingInstall the [PyPI Package](https://pypi.org/project/all-fives-domino/):    pip install all-fives-domino## ExamplesTODO</longdescription>
 </pkgmetadata>

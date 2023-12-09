@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># NRPyS: Python language bindings for `nrps-rs` substrate specificity predictor## LicenseNRPyS is an open source tool available under the GNU Affero General PublicLicense version 3.0 or greater. See the [`LICENSE.txt`](LICENSE.txt) file fordetails.</longdescription>
 </pkgmetadata>

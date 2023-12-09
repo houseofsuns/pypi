@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Interactive Parallel Computing with IPythonIPython Parallel (`ipyparallel`) is a Python package and collection of CLI scripts for controlling clusters of IPython processes, built on the Jupyter protocol.IPython Parallel provides the following commands:- ipcluster - start/stop/list clusters- ipcontroller - start a controller- ipengine - start an engine## InstallInstall IPython Parallel:    pip install ipyparallelThis will install and enable the IPython Parallel extensionsfor Jupyter Notebook and (as of 7.0) Jupyter Lab 3.0.## RunStart a cluster:    ipcluster startUse it from Python:```pythonimport osimport ipyparallel as ippcluster = ipp.Cluster(n=4)with cluster as rc:    ar = rc[:].apply_async(os.getpid)    pid_map = ar.get_dict()```See [the docs](https://ipyparallel.readthedocs.io) for more info.</longdescription>
 </pkgmetadata>

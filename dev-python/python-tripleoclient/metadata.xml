@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===================About tripleoclient===================General information-------------------**tripleoclient** is an OpenStackClient (OSC) plugin implementation thatimplements commands useful for TripleO and the install and management ofboth an undercloud and an overcloud.See the`TripleO Documentation &lt;https://docs.openstack.org/tripleo-docs/latest/&gt;`_for details on using tripleoclient.See the`Release Notes &lt;https://docs.openstack.org/releasenotes/python-tripleoclient&gt;`_Team and repository tags------------------------.. image:: https://governance.openstack.org/tc/badges/python-tripleoclient.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html</longdescription>
 </pkgmetadata>

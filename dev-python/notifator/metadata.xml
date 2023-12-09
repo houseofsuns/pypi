@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Project: notifator*in development*will merge- rpihat- DBUS messaging- myservice2## Module: telegram## Installation```sudo -H apt install python3-dbuspip3 install dbus-python```</longdescription>
 </pkgmetadata>

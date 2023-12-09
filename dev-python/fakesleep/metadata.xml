@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>fakesleep=========fakesleep is a simple module for tests that use `time.sleep()`. Sleeping intests is generally considered bad (as it makes tests run slow). Usingsleep with `time.time()` can lead to spurious failures, as clockprecision / interpeter overhead can cause small differences in reportedtimes.But sometimes, you need `sleep()`.fakesleep provides a fake implementation of `time.sleep()` that doesn'tactually sleep. It also guarrantees &quot;correct&quot; results for calls to`time.time()` and other time functions. Note that `datetime` functions are**not** faked.To install, simply call `fakesleep.monkey_patch()`. To restore the real versions, call `fakesleep.monkey_restore()`.:author: Pete Fein &lt;pete@wearpants.org&gt;:license: BSD:versions: Python 2.7 &amp; 3:source: https://github.com/wearpants/fakesleep</longdescription>
 </pkgmetadata>

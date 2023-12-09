@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A small Django app for converting static images to WebP images. Read the docs at http://django-webp-converter.readthedocs.org</longdescription>
 </pkgmetadata>

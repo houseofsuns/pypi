@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>CLD3 is a neural network model for language identification.This package contains the inference code and a trained model. Seehttps://github.com/google/cld3 for more details.</longdescription>
 </pkgmetadata>

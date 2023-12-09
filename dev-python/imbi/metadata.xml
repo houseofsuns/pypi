@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Imbi API========The backend API for `Imbi &lt;https://github.com/AWeber-Imbi/imbi&gt;`_.|Version| |Coverage| |License|Contributing------------For information on contributing, including development environment setup, see`CONTRIBUTING.md &lt;https://github.com/aweber/imbi/blob/main/CONTRIBUTING.md&gt;`_.Etymology---------Imbi is Old High German for &quot;Swarm of Bees&quot;.. |Version| image:: https://img.shields.io/pypi/v/imbi.svg   :target: https://pypi.python.org/pypi/imbi.. |Coverage| image:: https://img.shields.io/codecov/c/github/aweber/imbi.svg   :target: https://codecov.io/github/AWeber-Imbi/imbi-api?branch=master.. |License| image:: https://img.shields.io/pypi/l/imbi.svg?   :target: https://imbi.readthedocs.org</longdescription>
 </pkgmetadata>

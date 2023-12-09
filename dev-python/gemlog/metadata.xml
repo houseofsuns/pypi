@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>gemlog is a python package that provides functions for processing thelog files from the Gem infrasound datalogger. The Gem infrasound loggeris a low-cost, lightweight, low-power instrument for recording infrasoundin field campaigns.Source code: https://github.com/ajakef/gemlog</longdescription>
 </pkgmetadata>

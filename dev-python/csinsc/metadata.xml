@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># csinsc code helper packageTools and libraries used in the CSinSchools course.Includes a trace based goto functionality.Incorporates the termcolor library.And a simple curses wrapper.</longdescription>
 </pkgmetadata>

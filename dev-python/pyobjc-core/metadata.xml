@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PyObjC is a bridge between Python and Objective-C.  It allows fullfeatured Cocoa applications to be written in pure Python.  It is alsoeasy to use other frameworks containing Objective-C class librariesfrom Python and to mix in Objective-C, C and C++ source.Python is a highly dynamic programming language with a shallow learningcurve.  It combines remarkable power with very clear syntax.PyObjC also supports full introspection of Objective-C classes anddirect invocation of Objective-C APIs from the interactive interpreter.Project links-------------* `Documentation &lt;https://pyobjc.readthedocs.io/en/latest/&gt;`_* `Issue Tracker &lt;https://github.com/ronaldoussoren/pyobjc/issues&gt;`_* `Repository &lt;https://github.com/ronaldoussoren/pyobjc/&gt;`_</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>ll-orasql contains utilities for working with ``cx_Oracle``: It allowscalling Oracle procedures via keyword arguments, it wraps the result offetch calls in a custom dictionary and it contains some utilitiy functionsand scripts for accessing and copying database metadata.Changes in 1.27.1 (released 03/31/2009)---------------------------------------*Fixed a bug in the dependency checking for ``Connnection.itertables``.*``oradelete`` now has a new option to use ``truncate table`` instead of``delete from``.</longdescription>
 </pkgmetadata>

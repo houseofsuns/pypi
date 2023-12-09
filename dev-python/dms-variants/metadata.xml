@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===============================dms_variants===============================.. image:: https://img.shields.io/pypi/v/dms_variants.svg        :target: https://pypi.python.org/pypi/dms_variants.. image:: https://app.travis-ci.com/jbloomlab/dms_variants.svg        :target: https://app.travis-ci.com/github/jbloomlab/dms_variants.. image:: https://mybinder.org/badge_logo.svg        :target: https://mybinder.org/v2/gh/jbloomlab/dms_variants/master?filepath=notebooksAnalyze deep mutational scanning of barcoded variants and fit global epistasis models.``dms_variants`` is a Python package written by `the Bloom lab &lt;https://research.fhcrc.org/bloom/en.html&gt;`_.The source code is `on GitHub &lt;https://github.com/jbloomlab/dms_variants&gt;`_.See the `dms_variants documentation &lt;https://jbloomlab.github.io/dms_variants&gt;`_ for details on how to install and use ``dms_variants``.To contribute to this package, read the instructions in `CONTRIBUTING.rst &lt;CONTRIBUTING.rst&gt;`_.</longdescription>
 </pkgmetadata>

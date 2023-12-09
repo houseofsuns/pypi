@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This library reads and writes the Tiled TMX format in a simple way.This is useful for map editors or generic level editors, and it's alsouseful for using a map editor or generic level editor like Tiled to edityour game's levels.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## How to publish&gt; Manually for now to pypi via api key- poetry build- poetry publish</longdescription>
 </pkgmetadata>

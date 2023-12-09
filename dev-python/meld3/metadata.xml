@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>No further development of the meld3 package is planned.  The meld3 packageshould be considered unmaintained as of April 2020.  Since 2007, meld3received only minimal updates to keep compatible with newer Python versions.It was only maintained because it was a dependency of the Supervisor package.Since Supervisor 4.1.0 (released in October 2019), the meld3 package isno longer a dependency of Supervisor.</longdescription>
 </pkgmetadata>

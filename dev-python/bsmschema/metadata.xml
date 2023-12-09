@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># BIDS Stats Models SchemaThis package contains a [Pydantic](https://pydantic-docs.helpmanual.io/) description of theBIDS Stats Models format, which can be used as a schema validator or generate JSONschema for independent validation.## Installing `bsmschema`### From the Python package index```pip install bsmschema```### From source```git clone https://github.com/bids-standard/stats-models.gitpip install stats-models/bsmschema```You may wish to install in editable mode, to ensure that your changes get propagated withoutreinstalling:```pip install -e stats-models/bsmschema```## How to run schema validator```pythonfrom bsmschema.models import BIDSStatsModelBIDSStatsModel.parse_file('stats-models/specification/examples/model-example_smdl.json')```</longdescription>
 </pkgmetadata>

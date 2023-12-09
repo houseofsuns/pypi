@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Wavecount cli PackageThis is a wavecount cli package. You can use[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)to write your content.</longdescription>
 </pkgmetadata>

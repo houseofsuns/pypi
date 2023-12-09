@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=========================================  CDBx - CDB Reimplementation for Python=========================================CDBx is `CDB`_ reimplementation for Python.Supported python versions are Python 2.7 and Python 3.6+... _CDB: https://cr.yp.to/cdb.htmlDevelopment Status~~~~~~~~~~~~~~~~~~Beta.Copyright and License~~~~~~~~~~~~~~~~~~~~~Copyright 2016 - 2023André Malo or his licensors, as applicable.The whole package is distributed under the Apache License Version 2.0.You'll find a copy in the root directory of the distribution or onlineat: &lt;http://www.apache.org/licenses/LICENSE-2.0&gt;.Bugs~~~~No bugs, of course. ;-)But if you've found one or have an idea how to improve cdbx, feelfree to send a pull request on `github&lt;https://github.com/ndparker/cdbx&gt;`_ or send a mail to&lt;cdbx-bugs@perlig.de&gt;.Author Information~~~~~~~~~~~~~~~~~~André &quot;nd&quot; Malo &lt;nd perlig.de&gt;GPG: 0x029C942244325167    If God intended people to be naked, they would be born that way.    -- Oscar Wilde.. vim:tw=72 syntax=rest</longdescription>
 </pkgmetadata>

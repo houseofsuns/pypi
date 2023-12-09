@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Spectral Python (SPy) is a pure Python module forprocessing hyperspectral image data (imaging spectroscopy data). It hasfunctions for reading, displaying, manipulating, and classifying hyperspectralimagery. SPy is Free, Open Source Software (FOSS) distributed under the MITLicense.</longdescription>
 </pkgmetadata>

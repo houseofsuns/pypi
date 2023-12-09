@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>celerybeat-redis================It's modified from celerybeat-mongo(https://github.com/zakird/celerybeat-mongo)This is a Celery Beat Scheduler(http://celery.readthedocs.org/en/latest/userguide/periodic-tasks.html)that stores both the schedules themselves and their status informationin a backend Redis database.Features========1. Full-featured celery-beat scheduler2. Dynamically add/remove/modify tasks3. Support multiple instance by Active-Standby modelInstallation============It can be installed by installing the celerybeat-redis Python egg:::    # pip install celerybeat-redisAnd specifying the scheduler when running Celery Beat, e.g.::    $ celery beat -S celerybeatredis.schedulers.RedisSchedulerSee more details in Github:https://github.com/kongluoxing/celerybeatredis</longdescription>
 </pkgmetadata>

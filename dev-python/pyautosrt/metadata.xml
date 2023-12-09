@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pyautosrt  is a python based desktop app  for automatic speech  recognition and subtitle generation. It takes a video or an audio file as input, performs voiceactivity detection  to find speech regions,  makes parallel requests to  Google Web Speech API  to generate transcriptions  for those regions,  then translatesthem to a different language, and finally saves the resulting subtitles to disk.It supports  a variety of input and output languages  and can currently produce subtitles in SRT, VTT, JSON, and RAW format.</longdescription>
 </pkgmetadata>

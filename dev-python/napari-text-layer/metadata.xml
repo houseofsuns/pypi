@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># napari-text-layerNapari text layer for bio-image annotation.![](https://github.com/hanjinliu/napari-text-layer/raw/main/GIFs/annot.gif)![](https://github.com/hanjinliu/napari-text-layer/raw/main/GIFs/age.gif)### InstallationYou can install using pip:```pip install napari-text-layer```### Keybindings and mouse callbacks- &quot;&amp;rarr;&quot;, &quot;&amp;larr;&quot;, &quot;&amp;uarr;&quot;, &quot;&amp;darr;&quot; ... Move selected shapes by 1 pixel.- &quot;F2&quot; ... Enter edit mode at the selected shape (or the last one if no shape is selected).- &quot;Enter&quot; ... Finish edit mode or add a new shape at the same interval.- &quot;Ctrl&quot; + &quot;Shift&quot; + &quot;&lt;&quot; or &quot;&gt;&quot; ... Change font size.- double click ... Enter edit mode at the clicked shape.</longdescription>
 </pkgmetadata>

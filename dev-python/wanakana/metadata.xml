@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;div align=&quot;center&quot;&gt;&lt;h1&gt;WanaKanaPython&lt;/h1&gt;&lt;h4&gt;A Python library to assist in detecting Japanese text&lt;/h4&gt;&lt;/div&gt;## Usage### Install```shellpip install wanakana``````pythonfrom wanakana import hiraganahiragana.is_hiragana(&quot;げーむ&quot;)orfrom wanakana.hiragana import is_hiraganais_hiragana(&quot;げーむ&quot;)```## DocumentationSee original [WanaKana docs](http://wanakana.com/docs/global.html) as the functions are near identical.## Quick Reference```pythonis_japanese(&quot;泣き虫。！〜２￥ｚｅｎｋａｋｕ&quot;)// =&gt; trueis_kana(&quot;あーア&quot;)// =&gt; trueis_hiragana(&quot;げーむ&quot;)// =&gt; trueis_katakana(&quot;ゲーム&quot;)// =&gt; trueis_kanji(&quot;切腹&quot;)// =&gt; trueis_romaji(&quot;Tōkyō and Ōsaka&quot;)// =&gt; true```## CreditsA partial port of [WanaKana](https://github.com/wanikani/wanakana)## LicenseSource files of this project are available under the MIT License. See [LICENSE](LICENSE)</longdescription>
 </pkgmetadata>

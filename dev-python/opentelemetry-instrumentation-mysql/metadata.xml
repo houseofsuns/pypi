@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry MySQL Instrumentation===================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-mysql.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-mysql/Instrumentation with MySQL that supports the mysql-connector library and isspecified to trace_integration using 'MySQL'.Installation------------::    pip install opentelemetry-instrumentation-mysqlReferences----------* `OpenTelemetry MySQL Instrumentation &lt;https://opentelemetry-python-contrib.readthedocs.io/en/latest/instrumentation/mysql/mysql.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
 </pkgmetadata>

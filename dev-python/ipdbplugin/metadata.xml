@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>What about running nose with a smarter interactive debugger?        Use this and *never* risk yourself forgetting `import ipdb; ipdb.set_trace()` in your code again!        This plugin is 99.99% based on nose's builtin debug plugin.        If you have any ideas about how to improve it, come and fork the code at http://github.com/flavioamieiro/nose-ipdb        </longdescription>
 </pkgmetadata>

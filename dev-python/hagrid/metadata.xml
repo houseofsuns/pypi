@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>HAGrid is the swiss army knife of OpenMined's PySyft and PyGrid.</longdescription>
 </pkgmetadata>

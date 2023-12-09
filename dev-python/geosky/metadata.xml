@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Geo skyA Python package to get all city, stae and country names## UsageFollowing methods can be utilized to get info..```from geosky import geo_pluggeo_plug.all_CountryNames()geo_plug.all_Country_StateNames()geo_plug.all_State_CityNames(name)# name == 'all' or stae namegeo_plug.all_State_CityNames('Odisha')```To uninstall execute following..```pip uninstall geosky```</longdescription>
 </pkgmetadata>

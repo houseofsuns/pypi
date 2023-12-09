@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python package for gogoproto(https://github.com/gogo/protobuf/blob/master/gogoproto/gogo.proto)## Usage```pythonfrom github.com.gogo.protobuf.gogoproto import gogo_pb2```</longdescription>
 </pkgmetadata>

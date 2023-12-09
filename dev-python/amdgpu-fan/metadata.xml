@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![CircleCI](https://circleci.com/gh/chestm007/amdgpu-fan.svg?style=svg)](https://circleci.com/gh/chestm007/amdgpu-fan)  # Fan controller for amdgpusIf you experience problems please create an issue.## installation:### pip`sudo pip3 install .`### Arch linuxAvailable in the aur as `amdgpu-fan`## usage:  `sudo amdgpu-fan`  ## configuration:```# /etc/amdgpu-fan.yml# eg:speed_matrix:  # -[temp(*C), speed(0-100%)]- [0, 0]- [40, 30]- [60, 50]- [80, 100]# optional# cards:  # can be any card returned from #         # ls /sys/class/drm | grep &quot;^card[[:digit:]]$&quot;# - card0```</longdescription>
 </pkgmetadata>

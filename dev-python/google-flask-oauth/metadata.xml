@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Google Flask OAuthThis module is intended to simplify the OAuth pass arounds with a couple of provided flask endpoints.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Django user audit utilities like logging user log in, disabling access when password expires or user is inactive</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>postgres is a high-value abstraction over psycopg2[Read the Docs](https://postgres-py.readthedocs.org)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>oauth2client is a client library for OAuth 2.0.Note: oauth2client is now deprecated. No more features will be added to the    libraries and the core team is turning down support. We recommend you use    `google-auth &lt;https://google-auth.readthedocs.io&gt;`__ and    `oauthlib &lt;http://oauthlib.readthedocs.io/&gt;`__.</longdescription>
 </pkgmetadata>

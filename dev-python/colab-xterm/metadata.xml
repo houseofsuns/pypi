@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># colab-xtermColab-xterm allows you to open a terminal in a cell.# Usage1. Install package and load the extension    ```    !pip install colab-xterm    %load_ext colabxterm    ```2. Open a terminal    ```    %xterm    ```3. Enjoy!Try it out in the demo notebook. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/infuseai/colab-xterm/blob/main/demo.ipynb)# Features- TTY support- Does not block your kernel# Options```%xterm height=1000 port=10001```option | description-------|-----------height | The height of the terminal panelport | The server port# Screenshots![](assets/colab-xterm.png)</longdescription>
 </pkgmetadata>

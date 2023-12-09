@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PyOne is an implementation of OpenNebula XML-RPCbindings in Python. It works as a proxy over the XML-RPC api andutilizes generateDS (https://www.davekuhlman.org/generateDS.html)to ecapsulate the xml response to Python objects.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># aermanager*Python package for managing AER data, including .aedat4 files, live DV streams, and interfacing with pyTorch.*This software is designed for the following purposes:- Read aedat files (v2-4) containing DVS spike trains, accumulate them, and save them in a format that can be read by a pyTorch dataset in a faster way.- Read the files into a pyTorch dataset- Receive frames from the DV software, queue and batch them in order to feed them to a spiking neural network simulation (`LiveDv`).## InstallationThe easiest way to install this repository is to clone it and install it with pip:```bashpip install aermanager```Alternatively, you can checkout this repository and install it.```bashgit clone https://gitlab.com/synsense/aermanager.gitcd aermanagerpip install .```## Documentationhttps://synsense.gitlab.io/aermanagerYou can generate local documentation by running the below command at the location of the source code.```bashcd path/to/aermanagerpython setup.py build_sphinx```</longdescription>
 </pkgmetadata>

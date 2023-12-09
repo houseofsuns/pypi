@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Use specific system python packages from virtualenv without --system-site-packages.Supports:pygtk, gi (gtk3), qt4, qt5, panda3d, vtk, wx</longdescription>
 </pkgmetadata>

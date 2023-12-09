@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># DriveBuild client## InstallThe client is available as Python package at [https://pypi.org/project/drivebuild-client/](https://pypi.org/project/drivebuild-client/) and there is no need to install any part of the client.</longdescription>
 </pkgmetadata>

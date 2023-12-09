@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># dictdaora&lt;p align=&quot;center&quot; style=&quot;margin: 3em&quot;&gt;  &lt;a href=&quot;&quot;&gt;    &lt;img src=&quot;python.svg&quot; alt=&quot;dictdaora&quot; width=&quot;300&quot;/&gt;  &lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;    &lt;em&gt;Dicts that can be accessed via attributes&lt;/em&gt;&lt;/p&gt;---**Documentation**: &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;**Source Code**: &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;---## Key Features- Print hello world on screen **\* feature in development.*## Requirements - Python 3.8+## Instalation```$ pip install dictdaora```## Basic example```pythonprint('Hello World!')``````Hello World!```## Complex example```pythonimport jsonprint(json.dumps(dict(hello='Hello', world='World!')))``````{&quot;hello&quot;: &quot;Hello&quot;, &quot;world&quot;: &quot;World!&quot;}```</longdescription>
 </pkgmetadata>

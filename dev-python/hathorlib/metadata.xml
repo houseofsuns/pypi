@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>hathorlib=========Hathor Network base library.## ConfigurationTo install dependencies, including optionals, run:    poetry install -E client## Running the testsTo run the tests using poetry virtualenv:    poetry run make testsIf are managing virtualenvs without poetry, make sure it's activated and run:    make tests## Running lintersTo run linters:    poetry run make checkOr without poetry venv:    make check</longdescription>
 </pkgmetadata>

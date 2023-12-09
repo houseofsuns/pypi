@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The Uniforum PO (portable object) format is a human-readable format forlocalization data used by the gettext tools.  The po module implementsclasses to read and write PO files.</longdescription>
 </pkgmetadata>

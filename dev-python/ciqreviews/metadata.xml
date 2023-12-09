@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Using Beautifulsoup4 to find the download and reviews statistics of some app</longdescription>
 </pkgmetadata>

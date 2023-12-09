@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># flake8-patchA `flake8` plugin checking for mocking issues.Currently reports the code `PAT001` when assignments to imported objects are detected.## Bad code example```pythonfrom some_module import SomeClassdef test_something():    SomeClass.some_method = lambda: 42```This is bad because `SomeClass.some_method` might be used directly or indirectly in another test, which will break randomly depending on the execution order.## Good code example```pythonfrom some_module import SomeClassdef test_something(mocker):    mocker.patch.object(SomeClass, &quot;some_method&quot;, return_value=42)```This uses the mocker fixture from `pytest-mock` to automatically unwind the patch after the test method runs.## Change Log**Unreleased**...**0.1.0 - 2020-10-02**Add PAT001: assignment to imported name</longdescription>
 </pkgmetadata>

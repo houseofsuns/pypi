@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># rustletsA wavelet library written in Rust, with bindings to python.## steps to buildMake sure you have rust and python installed, check rustc --versionSetup virtual environment to your liking, make sure to export PYTHON_CONFIGURE_OPTS=&quot;--enable-shared&quot;Install maturin python package into virtual environment. Install numpy as wellFor example, with pip, do pip install maturinYou will also need matplotlib, scipy, numpy to run demosTo build, run maturin develop --release## usagesee cwtfuncs.py## TODOMove Array types to ArcArray for cleanliness</longdescription>
 </pkgmetadata>

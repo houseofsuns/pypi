@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[tool.poetry]name = &quot;ringgpt&quot;version = &quot;0.2.0&quot;description = &quot;Package enables users to iterate on a corpus to perform single shot completion tasks leveraging GPT-3.5, Bard and Bing Chat&quot;authors = [&quot;Avinaash Anand K &lt;avinaash96@gmail.com&gt;&quot;]license = &quot;Apache-2.0&quot;readme = &quot;README.md&quot;[tool.poetry.dependencies]python = &quot;^3.9&quot;pandas = &quot;^2.0.2&quot;GoogleBard = &quot;^1.0.3&quot;asyncio = &quot;^3.4.3&quot;EdgeGPT = &quot;0.5.0&quot;revChatGPT = &quot;^5.0.3&quot;requests = &quot;^2.31.0&quot;rich = &quot;^13.4.2&quot;langchain = &quot;^0.0.203&quot;tiktoken = &quot;^0.4.0&quot;[build-system]requires = [&quot;poetry-core&quot;]build-backend = &quot;poetry.core.masonry.api&quot;</longdescription>
 </pkgmetadata>

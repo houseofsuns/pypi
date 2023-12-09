@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription> A Python package to read and write R RData and Rds filesinto/from pandas data frames. It does not need to have R or other externaldependencies installed.It is based on the C library librdata anda modified version of the cython wrapper jamovi-readstat.&lt;br&gt;Please visit out project home page for more information:&lt;br&gt;https://github.com/ofajardo/pyreadr</longdescription>
 </pkgmetadata>

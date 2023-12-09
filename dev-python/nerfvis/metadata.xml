@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>NeRF visualization library based on PlenOctrees. See https://github.com/sxyu/nerfvis</longdescription>
 </pkgmetadata>

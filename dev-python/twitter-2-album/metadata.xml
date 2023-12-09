@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># twitter_2_albumReturn photo list and caption (markdown format) from twitter.## usage```import twitter_2_albumresult = twitter_2_album.get(url)result.imgsresult.cap```## how to install`pip3 install twitter_2_album`</longdescription>
 </pkgmetadata>

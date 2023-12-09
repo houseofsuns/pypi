@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>==========aodhclient==========Python bindings to the OpenStack Aodh APIThis is a client for OpenStack Aodh API. There's a `Python API&lt;https://docs.openstack.org/python-aodhclient/latest/api.html&gt;`_ (theaodhclient module), and a `command-line script&lt;https://docs.openstack.org/python-aodhclient/latest/shell.html&gt;`_ (installedas aodh). Each implements the entire OpenStack Aodh API.* Free software: Apache license* Release notes: https://releases.openstack.org/teams/telemetry.html* Documentation: https://docs.openstack.org/python-aodhclient/latest/* Source: https://opendev.org/openstack/python-aodhclient* Bugs: https://storyboard.openstack.org/#!/project/openstack/python-aodhclient</longdescription>
 </pkgmetadata>

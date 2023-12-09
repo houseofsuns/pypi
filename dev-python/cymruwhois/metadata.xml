@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Perform lookups by ip address and return ASN, Country Code, and Netblock Owner::&gt;&gt;&gt; import socket&gt;&gt;&gt; ip = socket.gethostbyname(&quot;www.google.com&quot;)&gt;&gt;&gt; from cymruwhois import Client&gt;&gt;&gt; c=Client()&gt;&gt;&gt; r=c.lookup(ip)&gt;&gt;&gt; print r.asn15169&gt;&gt;&gt; print r.ownerGOOGLE - Google Inc.</longdescription>
 </pkgmetadata>

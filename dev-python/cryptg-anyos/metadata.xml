@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>|logo|cryptg======This is a small native extension for Python 3 to help libraries that want towork with the Telegram API, which uses the uncommon AES-IGE mode for it.Note that while this wrapper library is licensed under CC0, the Rust dependencieshave their own license... |logo| image:: https://raw.githubusercontent.com/cher-nov/cryptg/master/logo.png    :target: https://github.com/cher-nov/cryptg    :alt: cryptg</longdescription>
 </pkgmetadata>

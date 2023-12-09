@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>*************************Gardena Bluetooth Control*************************This module support controlling gardena bluetooth enabled wateringcomputers.It's main target is for use with Home Assistant. But can be usedstandalone as well. Its mainly consist of list of know servicesand characteristics, and parser for these... note::    The devices only allow a single paired connection, and require    a factory reset to allow a new controller to connect.Module======Commandline===========Scan for possible devices.. code-block:: bash    python -m gardena_bluetooth scanConnect to device and dump it's data.. code-block:: bash    pyhton -m gardena_bluetooth connect [ADDRESS]</longdescription>
 </pkgmetadata>

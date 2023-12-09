@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># octomap-python[![PyPI Version](https://img.shields.io/pypi/v/octomap-python.svg)](https://pypi.python.org/pypi/octomap-python)[![Python Versions](https://img.shields.io/pypi/pyversions/octomap-python.svg)](https://pypi.org/project/octomap-python)[![Build Status](https://travis-ci.com/wkentaro/octomap-python.svg?branch=master)](https://travis-ci.com/wkentaro/octomap-python)Python binding of [the OctoMap library](https://github.com/OctoMap/octomap).## Installation```bashpip install octomap-python```## Example```bashgit clone https://github.com/wkentaro/octomap-python.git &amp;&amp; cd octomap-pythonpip install -e '.[example]'cd examplespython insertPointCloud.py```&lt;img src=&quot;https://github.com/wkentaro/octomap-python/blob/master/examples/.readme/insertPointCloud.jpg?raw=true&quot; height=&quot;200px&quot; /&gt;## AcknowledgementThis is a fork of [neka-nat/python-octomap](https://github.com/neka-nat/python-octomap).</longdescription>
 </pkgmetadata>

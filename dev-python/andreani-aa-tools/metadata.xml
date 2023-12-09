@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Andreani Advanced Analytics tools## Instalar usando pip```pip install andreani-aa-tools```## Importación```import aa_tools```## Ejemplo de uso- Haversine```from aa_tools import logger, haversineif __name__ == &quot;__main__&quot;:    log = logger(&quot;test.py&quot;, &quot;main&quot;)    result = haversine(-58.490160, -34.566116, -58.485096, -34.572123)    log.log_console(f&quot;Haversine distance: {result}&quot;, &quot;INFO&quot;)    log.close()```### Listado de funciones agregadas:* Haversine: Distancia euclidia entre dos puntos.* Logger: Maneja el log según los lineamientos de Andreani.* Datalake: Interfaz de conexión al datalake para descargar y cargar archivos csv, parquet y/o json.### Listado de funciones a agregar:* Distancia de ruta entre dos puntos.* Model training* Conexión a Elastic Search</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Django LC UtilsDjango app for various django utilities`pip install django-lc-utils`### PrerequisitesThis package relies on `django-model-utils`, `Django`. ## Running Tests```python manage.py test```## UsuageIn order to use the system you must add django_lc_utils to your installed apps in your settings.py file.```pythonINSTALLED_APPS = [    'django_lc_utils']```## Utilities1. Django Soft Delete MixinThis is a custom mixin to enable soft delete feature on the Django models.```pythonfrom django_lc_utils.mixins import SoftDeleteMixinfrom model_utils.models import TimeStampedModelclass TestModel(TimeStampedModel, SoftDeleteMixin):    class Meta:        db_table = &quot;test_model&quot;        verbose_name = &quot;Django Test Model&quot;        verbose_name_plural = &quot;Djando Test Models&quot;    test_field = models.TextField(&quot;Test field&quot;)```</longdescription>
 </pkgmetadata>

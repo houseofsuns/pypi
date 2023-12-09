@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Minimize     1/2 x^T G x - a^T xSubject to   C.T x &gt;= bThis routine uses the the Goldfarb/Idnani dual algorithm [1].References----------1) D. Goldfarb and A. Idnani (1983). A numerically stable dual   method for solving strictly convex quadratic programs.   Mathematical Programming, 27, 1-33.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>KEMPtechnologies API====================This is a python implementation of a wrapper around the KEMP RESTful APIContributors============* Shane McGough, KEMP Technologies* Andrew Conti, KEMP Technologies* Jonathan Malek, KEMP Technologies* Stephen Power, KEMP Technologies</longdescription>
 </pkgmetadata>

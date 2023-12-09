@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PiBotLibrary for controlling the PiBot# Installation```bashpip install pibot```# Usage```pythonfrom pibot import *display.sample_function(&quot;test&quot;)```</longdescription>
 </pkgmetadata>

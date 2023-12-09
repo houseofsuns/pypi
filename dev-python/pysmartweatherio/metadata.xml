@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Lightweight Python 3 module to receive data via REST API from a Smart Home Weather station from WeatherFlow.</longdescription>
 </pkgmetadata>

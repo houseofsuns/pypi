@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Azure DevOps Git Repository ArchiverThe documentation is available [here](https://stefanfreitag.github.io/azure_s3_repository_archiver/).## How to contribute* See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute to this project.</longdescription>
 </pkgmetadata>

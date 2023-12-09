@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Tron is a centralized system for managing periodic batch processes across acluster. If you find cron or fcron to be insufficient for managing complex workflows across multiple computers, Tron might be for you.For more information, look at the`tutorial &lt;http://tron.readthedocs.io/en/latest/tutorial.html&gt;`_ or the`full documentation &lt;http://tron.readthedocs.io/en/latest/index.html&gt;`_.</longdescription>
 </pkgmetadata>

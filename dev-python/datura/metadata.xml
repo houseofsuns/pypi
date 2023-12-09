@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;div align=&quot;center&quot;&gt;  &lt;img src=&quot;https://raw.githubusercontent.com/ptweir/datura/main/images/datura_196.png&quot;&gt;&lt;br&gt;&lt;/div&gt;# DaturaA simple pure Python data visualization package.[Documentation](https://datura.readthedocs.io)[Code](https://github.com/ptweir/datura)</longdescription>
 </pkgmetadata>

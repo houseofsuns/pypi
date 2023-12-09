@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python: Rivian API ClientCurrently a Work In Progress## Dependencies[Poetry](https://python-poetry.org/docs/)```curl -sSL https://install.python-poetry.org | python3 -```## SetupInstall project dependencies into the poetry virtual environment.```poetry install```## Run Tests```poetry run pytest```</longdescription>
 </pkgmetadata>

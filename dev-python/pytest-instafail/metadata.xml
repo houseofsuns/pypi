@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pytest-instafail================|build status|_.. |build status| image:: https://github.com/pytest-dev/pytest-instafail/actions/workflows/test.yml/badge.svg   :alt: Build Status.. _build status: https://github.com/pytest-dev/pytest-instafail/actions/workflows/test.ymlpytest-instafail is a plugin for `pytest &lt;https://pytest.org&gt;`_ that showsfailures and errors instantly instead of waiting until the end of test session.Requirements------------You will need the following prerequisites in order to use pytest-instafail:- Python 3.7+ or PyPy3- pytest 5 or newerInstallation------------To install pytest-instafail::    $ pip install pytest-instafailThen run your tests with::    $ pytest --instafailResources---------- `Issue Tracker &lt;https://github.com/pytest-dev/pytest-instafail/issues&gt;`_- `Code &lt;https://github.com/pytest-dev/pytest-instafail/&gt;`_- `Development Version  &lt;https://github.com/pytest-dev/pytest-instafail/zipball/master#egg=pytest-instafail-dev&gt;`_</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Build Status](https://jelasticozor-teamcity.sh1.hidora.com/app/rest/builds/buildType:(id:SharedLibraries_JelasticClient_Integration)/statusIcon)](https://jelasticozor-teamcity.sh1.hidora.com/viewType.html?buildTypeId=SharedLibraries_JelasticClient_Integration&amp;guest=1)# jelastic-clientA Jelastic API python library.# Installation```bashpip3 install jelastic-client```# UsageAt the root of this repository, you can run```pythonimport jelastic_clientapi_url = &quot;https://[hoster-api-host]/1.0/&quot;api_token = &quot;your-private-access-token&quot;factory = jelastic_client.JelasticClientFactory(api_url, api_token)jps_client = factory.create_jps_client()env_name = &quot;my-jelastic-client-test&quot;jps_client.install_from_file(&quot;./test/data/valid_manifest.jps&quot;, env_name)control_client = factory.create_control_client()env_info = control_client.get_env_info(env_name)assert env_info.is_running() is True```</longdescription>
 </pkgmetadata>

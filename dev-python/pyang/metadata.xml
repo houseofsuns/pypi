@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>An extensible  YANG (RFC 6020/7950) validator. Provides a framework for plugins that can convert YANG modulesto other formats.</longdescription>
 </pkgmetadata>

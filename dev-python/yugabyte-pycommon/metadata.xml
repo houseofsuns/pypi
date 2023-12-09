@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Common utilities used in YugaByte Database's build infrastructure but could also be useful for anyone. E.g. convenient utilities for running external programs, logging, etc.</longdescription>
 </pkgmetadata>

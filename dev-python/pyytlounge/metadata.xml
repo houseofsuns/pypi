@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># YouTube Lounge API wrapper written in Python (WIP)## SetupActivate virtual environment:- create `python -m venv .venv`- activate `source .venv/bin/activate`## How to use`python test.py` will run an interactive demo.## Release NotesSee [CHANGELOG](CHANGELOG.md).## Thanks- https://github.com/henriquekano/youtube-lounge-api### Publish to pypi1. Update pyproject.toml2. `python -m build`3. `python -m twine upload dist/*`</longdescription>
 </pkgmetadata>

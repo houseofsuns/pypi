@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>faculty=======.. image:: https://github.com/facultyai/faculty/workflows/Tests/badge.svg    :target: https://github.com/facultyai/faculty/actionsA Python library for interacting with`the Faculty platform &lt;https://faculty.ai/products-services/platform/&gt;`_.This project is licensed under the Apache License, Version 2.0, except for thevendored `marshmallow-oneofschema &lt;https://github.com/marshmallow-code/marshmallow-oneofschema&gt;`_,which is licensed under the MIT license (see ``faculty/_oneofschema.py`` forcopyright and license detail).</longdescription>
 </pkgmetadata>

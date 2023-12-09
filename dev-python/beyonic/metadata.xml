@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Beyonic Python LibraryThe official Python library for interacting with http://beyonic.com API## InstallationYou don't need this source code unless you want to modify the package. If you just want to use the Beyonic Python bindings, you should run:```pythonpip install beyonic```or```pythoneasy_install beyonic```or manually```pythongit clone https://github.com/beyonic/beyonic-python.gitcd beyonic-pythonpython setup.py install```## UsagePlease visit https://apidocs.beyonic.com/ for usage documentation## DevelopmentPlease see DEVELOPMENT.md for information on adding installing requirements, adding new API methods and running tests## Changelog0.1.8- Added `Accounts API Wrapper` for interacting with the `accounts api`.0.1.14- Added Network and Currency APIs and ability to set Duplicate-Check-Key header for each request0.1.15- Added `banks API wrapper` for interacting with `the banks api`</longdescription>
 </pkgmetadata>

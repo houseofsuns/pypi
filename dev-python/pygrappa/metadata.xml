@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>About=====Online documentation `here &lt;https://pygrappa.readthedocs.io/en/latest/&gt;`_GRAPPA is a popular parallel imaging reconstruction algorithm.Unfortunately there aren't a lot of easy to use Pythonimplementations of it or its many variants available, so I decided torelease this simple package.There are also a couple reference SENSE-like implementations thathave made their way into the package.  This is to be expected -- alot of later parallel imaging algorithms have hints of both GRAPPA-and SENSE-like inspirations.Installation should be quick:.. code-block::   pip install pygrappa</longdescription>
 </pkgmetadata>

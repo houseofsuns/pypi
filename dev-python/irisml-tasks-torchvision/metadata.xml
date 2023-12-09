@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># irisml-tasks-torchvisionA collections of IrisML tasks that depends on torchvision library.See [irisml](https://github.com/microsoft/irisml) repository for the detail.## Available tasks### create_torchvision_modelCreate a vision model from the torchvision library.### create_torchvision_transformCreate a transform function using the torchvision library.### load_torchvision_datasetLoad a Dataset instance from the torchvision library.</longdescription>
 </pkgmetadata>

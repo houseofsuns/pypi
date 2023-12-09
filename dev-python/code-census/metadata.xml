@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># censusA CLI tool to track code metrics# Installation`pip install code_census`# DocumentationThe project documentation is available at [https://kracekumar.github.io/code_census/](https://kracekumar.github.io/code_census/).</longdescription>
 </pkgmetadata>

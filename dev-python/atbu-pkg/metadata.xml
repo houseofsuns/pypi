@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>ATBU Backup &amp; Persistent File Information is a local/cloud backup/restorecommand-line utility with optional deduplication and bitrot detection,plus a little utility with useful digest-based directory file diff'ing.Install: `pip install atbu-pkg`GitHub: https://github.com/AshleyT3/atbuDocumentation: https://atbu.readthedocs.io/en/latest/</longdescription>
 </pkgmetadata>

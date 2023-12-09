@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>GraphKit is a lightweight Python module for creating and running ordered graphsof computations, where the nodes of the graph correspond to computationaloperations, and the edges correspond to output --&gt; input dependencies betweenthose operations.  Such graphs are useful in computer vision, machine learning,and many other domains.</longdescription>
 </pkgmetadata>

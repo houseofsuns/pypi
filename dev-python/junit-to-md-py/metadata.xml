@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python script which converts junit xml file/text into the markdown representation=================================================================================Example usage~~~~~~~~~~~~~::    junit-to-md-py report.xmlExample usage if the output is later used with cmd scripts~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~::    junit-to-md-py report.xml --cmd-format</longdescription>
 </pkgmetadata>

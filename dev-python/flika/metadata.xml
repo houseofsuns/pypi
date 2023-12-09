@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>flika=====**flika** is an interactive image processing program for biologists written in Python.Website-------`flika-org.github.io &lt;http://flika-org.github.io/&gt;`_Documentation-------------`flika-org.github.io/contents.html &lt;http://flika-org.github.io/contents.html&gt;`_Install-------`flika-org.github.io/getting-started.html#installation &lt;http://flika-org.github.io/getting-started.html#installation&gt;`_.. code:: pythonpip install flika</longdescription>
 </pkgmetadata>

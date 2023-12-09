@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># idempotency-keyAn installable DB backend idempotency key middleware for Django Rest Framework</longdescription>
 </pkgmetadata>

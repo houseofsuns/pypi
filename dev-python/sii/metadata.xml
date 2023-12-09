@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>SII===.. image:: https://travis-ci.org/gisce/sii.svg?branch=master    :target: https://travis-ci.org/gisce/sii.. image:: https://coveralls.io/repos/github/gisce/sii/badge.svg?branch=master    :target: https://coveralls.io/github/gisce/sii?branch=master.. image:: https://img.shields.io/pypi/v/sii.svg    :target: https://pypi.python.org/pypi/siiAEAT Suministro Inmediato de Información</longdescription>
 </pkgmetadata>

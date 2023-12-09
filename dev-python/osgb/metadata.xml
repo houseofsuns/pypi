@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python routines for working with grid references as defined by the Ordnance Survey of Great Britain (OSGB).</longdescription>
 </pkgmetadata>

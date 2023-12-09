@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A lightweight, multi-tenant, scalable, and secure gateway that enablesJupyter Notebooks to share resources across distributed clusters such asApache Spark, Kubernetes and others.</longdescription>
 </pkgmetadata>

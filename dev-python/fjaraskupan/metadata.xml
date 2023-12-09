@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>********************************Fjäråskupan Bluetooth Control********************************This module support controlling Fjäråskupan kitchen fans over bluetoothStatus______.. image:: https://github.com/elupus/fjaraskupan/actions/workflows/python-package.yml/badge.svg    :target: https://github.com/elupus/fjaraskupanModule======Code to set fan speed using library... code-block:: python    async def run():        async with Device(&quot;AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE&quot;) as device:            await device.set_fan_speed(5)    loop = asyncio.get_event_loop()    loop.run_until_complete (run())Commandline===========Scan for possible devices... code-block:: bash  python -m fjaraskupan scanCode to set fan speed using commandline... code-block:: bash  python -m fjaraskupan fan AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE 5To get help on possible commands .. code-block:: bash  python -m fjaraskupan -h  python -m fjaraskupan light -h  python -m fjaraskupan fan -h</longdescription>
 </pkgmetadata>

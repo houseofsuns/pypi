@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pyenv=====pyenv lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.**NOTE:** This is a placeholder package. pyenv is a collection of shell scripts and not installable with pip.See `installation instructions &lt;https://github.com/pyenv/pyenv#installation&gt;`_ for more information.</longdescription>
 </pkgmetadata>

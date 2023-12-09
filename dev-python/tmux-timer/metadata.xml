@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># tmux timerThis package provides a timer that can be used in tmux.## UsageFirst, set up your tmux config to run the display command```set -g status-right '#(tmux_timer show)'```Next, set up bindings to invoke the timer```bind t run-shell &quot;tmux_timer toggle&quot;```</longdescription>
 </pkgmetadata>

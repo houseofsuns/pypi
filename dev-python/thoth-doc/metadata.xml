@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Thoth doc: Dependency-free, lightweight docstring parser![Thoth image](Thoth.svg.png)## Installation```bashpip install thoth-doc```## Usage```python# code.pydef foo(bar: int, baz: str = &quot;qux&quot;) -&gt; None:    &quot;&quot;&quot;This is a docstring&quot;&quot;&quot;    passclass Foo:    &quot;&quot;&quot;This is a class docstring&quot;&quot;&quot;    def bar(self, bar: int, baz: str = &quot;qux&quot;) -&gt; None:        &quot;&quot;&quot;This is a method docstring&quot;&quot;&quot;        pass``````pythonfrom thoth_doc import get_docstringdocstring = get_docstring(&quot;code.py&quot;, &quot;foo&quot;)  # find docstring of foo in code.pyprint(docstring)  # &quot;This is a docstring&quot;docstring = get_docstring(&quot;code.py&quot;, &quot;Foo&quot;)  # find docstring of Foo class in code.pydocstring = get_docstring(&quot;code.py&quot;, &quot;Foo.bar&quot;)  # find docstring of Foo.bar method in code.py```## License[MIT License](LICENSE)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Env2os.environ on stereoidsenv2 allows raising errors on missing environment variables without too much bolierplate code. This is very useful when developing microservices that depends on environment variables.## How it worksWith env2 you can replace this:```pythonimport osvar = os.environ.get('key', None)if not var:    raise Exception(f'{key} not found in environment variables')return var```With this:```pythonfrom env2 import env2var = env2('key')```env2 will automatically raise on a missing key, to avoid that:```pythonfrom env2 import env2var = env2('key', raise_error=False)```env2 allows to set default values as well:```pythonfrom env2 import env2var = env2('key', default='key2')```## LicenseThis software is under [WTFPL](http://www.wtfpl.net) license</longdescription>
 </pkgmetadata>

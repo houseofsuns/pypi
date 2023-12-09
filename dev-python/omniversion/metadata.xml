@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Software License](https://img.shields.io/badge/license-AGPL--3.0-green.svg?style=for-the-badge)](../LICENSE)[![Documentation](https://img.shields.io/badge/pydoc-reference-blue?style=for-the-badge)](https://omniversion.github.io/omniversion/python/omniversion)&lt;!--suppress HtmlDeprecatedAttribute --&gt;&lt;div align=&quot;center&quot;&gt;    &lt;img src=&quot;../docs/assets/python.png&quot; width=&quot;128&quot; height=&quot;128&quot; alt=&quot;omniversion logo&quot; /&gt;    &lt;h2 align=&quot;center&quot;&gt;omniversion python integration&lt;/h2&gt;    &lt;br /&gt;&lt;/div&gt;[Full documentation](https://omniversion.github.io/omniversion/python/omniversion)</longdescription>
 </pkgmetadata>

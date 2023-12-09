@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Bjontegaard_metricBjontegaard metric calculation. Include BD-PSNR and BD-rate.See `demo.py` for usage.References:* [1] G. Bjontegaard, Calculation of average PSNR differences between    RD-curves (VCEG-M33)* [2] S. Pateux, J. Jung, An excel add-in for computing Bjontegaard metric and    its evolution</longdescription>
 </pkgmetadata>

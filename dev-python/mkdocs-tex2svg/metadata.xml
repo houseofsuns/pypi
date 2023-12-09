@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Project Page : [rod2ik/mkdocs-tex2svg](https://gitlab.com/rod2ik/mkdocs-tex2svg)This project is part of other mkdocs-related projects.  If interested, please consider having a look at this page for a more complete Documentation (Installation, Configuration and Rendering Examples), as well as all other mkdocs-related projects:* Installation and Configs : [https://eskool.gitlab.io/mkhack3rs/maths/tables/](https://eskool.gitlab.io/mkhack3rs/maths/tables/)* Rendering Examples : [https://eskool.gitlab.io/mkhack3rs/maths/tables/examples/](https://eskool.gitlab.io/mkhack3rs/maths/tables/examples/)This project is the exclusive work of :* Rodrigo Schwencke at [rod2ik/mkdocs-tex2svg](https://gitlab.com/rod2ik/mkdocs-tex2svg)Licence : [GPLv3+](https://opensource.org/licenses/GPL-3.0), Copyleft [Rodrigo Schwencke / rod2ik](https://gitlab.com/rod2ik)</longdescription>
 </pkgmetadata>

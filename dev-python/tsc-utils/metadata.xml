@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># tsc-utils## Installation`pip install tsc-utils`## Usage```py&gt;&gt;&gt; from tsc_utils.numbers import num_to_tsc_value&gt;&gt;&gt; num_to_tsc_value(-1))b'000/'&gt;&gt;&gt; from tsc_utils.flags import flag_to_address&gt;&gt;&gt; flag_to_address(1234)0x49de3a, bit 2```</longdescription>
 </pkgmetadata>

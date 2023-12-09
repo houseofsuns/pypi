@@ -15,8 +15,8 @@ DESCRIPTION="Interface to the Ghostscript C-API, both high- and low-level, based
 
 HOMEPAGE="http://bitbucket.org/htgoebel/python-ghostscript"
 LICENSE="GPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
-SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

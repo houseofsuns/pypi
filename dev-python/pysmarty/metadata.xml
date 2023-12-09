@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pysmartyPython API for  Salda Smarty 2X/3X/4X P/V Ventilation Unit. This is used in [Home Assistant](https://home-assistant.io).## Install```bashpip install pysmarty```</longdescription>
 </pkgmetadata>

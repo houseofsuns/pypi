@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Package provides tool for developing digitalarz application using rasterio, gdal, geopandas, and pandas</longdescription>
 </pkgmetadata>

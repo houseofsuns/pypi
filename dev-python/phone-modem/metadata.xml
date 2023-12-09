@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># An asynchronous modem implementation designed for Home Assistant that supports caller ID and call rejectionCredit to Tim Vitz for his original work: https://github.com/vroomfonde1/basicmodem</longdescription>
 </pkgmetadata>

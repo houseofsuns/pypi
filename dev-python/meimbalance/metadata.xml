@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Contains methods to connect to the datalakes and handle files.  Also functions to log to a sql log database</longdescription>
 </pkgmetadata>

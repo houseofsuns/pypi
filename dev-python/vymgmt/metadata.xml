@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Provides a programmatic interface to VyOS set/delete/commit commands and simple wrappers for running arbitrary commands on VyOS over SSH.Usage example::  import vymgmt  vyos = vymgmt.Router('192.0.2.1', 'vyos', password='vyos', port=22)  vyos.login()  vyos.configure()  vyos.set(&quot;protocols static route 203.0.113.0/25 next-hop 192.0.2.20&quot;)  vyos.delete(&quot;system options reboot-on-panic&quot;)  vyos.commit()  vyos.save()  vyos.exit()  vyos.logout()</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>RudderStack is a platform for collecting, storing and routing customer event data to dozensof tools. RudderStack is open-source, can run in your cloud environment(AWS, GCP, Azure or even your data-centre) and provides a powerful transformationframework to process your event data on the fly.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Package providing a basic NMOS Node API implementation. The API is provided as a facade which accepts data from privateback-end data providers.</longdescription>
 </pkgmetadata>

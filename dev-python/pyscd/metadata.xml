@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a package that allows you to implement a change data capture using SCD type 2 in Pyspark</longdescription>
 </pkgmetadata>

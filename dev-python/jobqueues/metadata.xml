@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># JobQueuesUnified interface for submitting jobs to various queueing systems.## InstallTo get the latest PyPI release use:```shpip install jobqueues```Or if you want the latest github version:```shpip install git+https://github.com/acellera/jobqueues```or clone the git and install manually with```shgit clone https://github.com/acellera/jobqueuescd jobqueuespip install .```</longdescription>
 </pkgmetadata>

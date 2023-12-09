@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for cryptographyThis is a PEP 561 type stub package for the `cryptography` package.It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check codethat uses `cryptography`. The source for this package can be found athttps://github.com/python/typeshed/tree/main/stubs/cryptography. All fixes fortypes and metadata should be contributed there.*Note:* The `cryptography` package includes type annotations or type stubssince version 3.4.4. Please uninstall the `types-cryptography`package if you use this or a newer version.See https://github.com/python/typeshed/blob/main/README.md for more details.This package was generated from typeshed commit `c0e9038f0d71a38efc672ac5ef11aae0292c0a96`.</longdescription>
 </pkgmetadata>

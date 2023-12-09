@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for pytzThis is a PEP 561 type stub package for the `pytz` package. Itcan be used by type-checking tools like[mypy](https://github.com/python/mypy/),[pyright](https://github.com/microsoft/pyright),[pytype](https://github.com/google/pytype/),PyCharm, etc. to check code that uses`pytz`. The source for this package can be found athttps://github.com/python/typeshed/tree/main/stubs/pytz. All fixes fortypes and metadata should be contributed there.See https://github.com/python/typeshed/blob/main/README.md for more details.This package was generated from typeshed commit `11e51bef9d0da08c6e766e362a21a9dcf89c5bd9` and was testedwith mypy 1.5.1, pyright 1.1.328, andpytype 2023.8.31.</longdescription>
 </pkgmetadata>

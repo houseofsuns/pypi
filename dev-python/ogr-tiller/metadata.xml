@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ogr_tillerServe vector tiles from local spatial data in geopackage format# InstallationInstallation```pip3 install ogr_tiller```for updating to latest release```consolepip install ogr_tiller -U```# Usage```ogr_tiller --cache_folder ./cache/ --data_folder ./data/``````ogr_tiller --cache_folder ./cache/ --data_folder ./data/ --port 8000```</longdescription>
 </pkgmetadata>

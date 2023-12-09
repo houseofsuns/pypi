@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>goto====Installation------------::    $ pip install gotoUsage-----::    &gt;&gt;&gt; import goto    &gt;&gt;&gt; page = goto('рег.рф')    &gt;&gt;&gt; page.code    200    &gt;&gt;&gt; page.body[:25]    '\n\n\n&lt;!DOCTYPE html PUBLIC '    &gt;&gt;&gt; page.mime    'text/html'    &gt;&gt;&gt; page.charset    'windows-1251'    &gt;&gt;&gt; page.ubody[:25]    u'\n\n\n&lt;!DOCTYPE html PUBLIC '    &gt;&gt;&gt; page.headers['content-encoding']    'gzip'    &gt;&gt;&gt; str(page.cookies)[:20]    '&lt;cookielib.CookieJar'</longdescription>
 </pkgmetadata>

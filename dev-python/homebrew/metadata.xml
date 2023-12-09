@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription>homebrew========.. image:: https://img.shields.io/pypi/v/homebrew.svg        :target: https://pypi.python.org/pypi/homebrew.. image:: https://img.shields.io/travis/igroen/homebrew.svg        :target: https://travis-ci.org/igroen/homebrew.. image:: https://readthedocs.org/projects/homebrew-wrapper/badge/?version=latest        :target: https://readthedocs.org/projects/homebrew-wrapper/?badge=latest        :alt: Documentation Status.. image:: https://coveralls.io/repos/igroen/homebrew/badge.svg?branch=master&amp;service=github        :target: https://coveralls.io/github/igroen/homebrew?branch=master.. image:: https://codecov.io/github/igroen/homebrew/coverage.svg?branch=master        :target: https://codecov.io/github/igroen/homebrew?branch=master.. image:: https://requires.io/github/igroen/homebrew/requirements.svg?branch=master        :target: https://requires.io/github/igroen/homebrew/requirements/?branch=master        :alt: Requirements StatusHomebrew wrapper* Free software: ISC license* Documentation: https://homebrew-wrapper.readthedocs.org.Features--------* Get overview of homebrew package dependencies</longdescription>
-</pkgmetadata>

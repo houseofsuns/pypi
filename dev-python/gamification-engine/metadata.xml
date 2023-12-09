@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>gengine README==================Getting Started---------------- see https://github.com/ActiDoo/gamification-engine0.3.0  * task scheduler  * extended group features  * several further minor improvements and fixes0.2.2  * Fix several test cases0.2.1  * Fix of PyPI packaging0.2.0  * Implement new rule syntax  * Add time-aware / recurring achievements  * Add optional authentication &amp; authorization  * Introduce goal triggers  * Introduce mobile pushes  * Introduce messages  * Lots of bugfixes  * Remove Python 2.x support</longdescription>
 </pkgmetadata>

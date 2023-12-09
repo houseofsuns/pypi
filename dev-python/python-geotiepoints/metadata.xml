@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>python-geotiepoints===================[![Build Status](https://github.com/pytroll/python-geotiepoints/workflows/CI/badge.svg?branch=main)](https://github.com/pytroll/python-geotiepoints/actions?query=workflow%3A%22CI%22)[![Coverage Status](https://coveralls.io/repos/github/pytroll/python-geotiepoints/badge.svg?branch=main)](https://coveralls.io/github/pytroll/python-geotiepoints?branch=main)Python-geotiepoints is a python module that interpolates (and extrapolates ifneeded) geographical tiepoints into a larger geographical grid. This is usefullwhen the full resolution lon/lat grid is needed while only a lower resolutiongrid of tiepoints was provided.Some helper functions are provided to accomodate for satellite data, but thepackage should be generic enough to be used for any kind of data.In addition we have added a fast multilinear interpolation of regular griddeddata using Cython.Adam &amp; MartinMay 2017, Norrköping, Sweden</longdescription>
 </pkgmetadata>

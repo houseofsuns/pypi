@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Helpers for the ELM framework scripts## LoggingPrefer dict based config.## HTTPThe `http` module contains a Uvicorn server which can be run outside of the main thread.## JsonThe `json` module contains an implementation of `dumps` which handles Decimal (turns into string)## Output### never_ending_observerReturns an `OnNext` only observer which logs an error to `logger` if it ever completes or errors.</longdescription>
 </pkgmetadata>

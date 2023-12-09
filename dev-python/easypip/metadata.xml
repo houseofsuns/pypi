@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># easypipEase the import / installation of packages in python and especially in notebooksUsage```from easypip import easyimporttorch = easyimport(&quot;torch &gt;= 1.8.0&quot;)```</longdescription>
 </pkgmetadata>

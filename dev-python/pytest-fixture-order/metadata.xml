@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pytest-fixture-orderUse markers to control the order in which fixtures are evaluated.</longdescription>
 </pkgmetadata>

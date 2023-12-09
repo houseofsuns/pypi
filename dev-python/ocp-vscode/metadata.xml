@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>An extension to show OCP cad CAD objects (CadQuery, build123d) in VS Code via threejs</longdescription>
 </pkgmetadata>

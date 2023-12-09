@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>##################################Testinfra test your infrastructure##################################This package is just a transitional package for https://github.com/pytest-dev/philpep you should install pytest-testinfra instead.</longdescription>
 </pkgmetadata>

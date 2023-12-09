@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># LTF Quantitative Investment Analysis## Installation`pip3 install ltfqia`## Development```poetry install --with devpoetry shellpytest```</longdescription>
 </pkgmetadata>

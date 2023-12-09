@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=========StudioGdo=========StudioGdo is a MVC extension framework. It allows to use simply ORM Model in HTML Templates using path notation.This module is just for now the Java/Django interface and will be completed to be self contained once all source will be rewritten in Python.To get more informations on project (documentation and milestones) please contact:gdoumenc@studiogdo.com, eklein@123imprim.com========Settings========STUDIOGDO_FACET =    &quot;django&quot;  # to use the django template renderer    &quot;java&quot;    # to use the java template rendererSTUDIOGDO_HOST = &quot;url_to_you_studiogdo_server&quot;STUDIOGDO_SERVLET = &quot;servlet/prefix&quot;TEMPLATE_CONTEXT_PROCESSORS = (..., 'studiogdo.context_processors.include_studiogdo_address', ...)MIDDLEWARE_CLASSES = (..., 'studiogdo.middleware.APICookies', ...)</longdescription>
 </pkgmetadata>

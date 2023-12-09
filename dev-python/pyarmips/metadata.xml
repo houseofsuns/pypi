@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pyarmipsPython interface for armips.## Installation`pip install pyarmips`## Usage```import pyarmipspyarmips.run(&quot;bin_patch.asm&quot;)```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python3 Toolbox A utility set for :1 - Filesystem2 - Time3 - Print4 - AWS5 - Elasticsearch6 - Image7 - Network... etcFor install :&gt; pip install py3toolboxFor upgrade:&gt; pip install py3toolbox --upgrade --no-cache-dirFor PyPi upload:&gt; twine upload dist/* --repository-url https://upload.pypi.org/legacy/ </longdescription>
 </pkgmetadata>

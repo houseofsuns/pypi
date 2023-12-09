@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cvtkcomputer vision toolkit of pytorch* PyTorch 1.7+## packaging```sh# pip install --upgrade setuptools wheel# pip install --upgrade twinepython setup.py sdist bdist_wheeltwine upload dist/*rm -rf build dist *.egg-info```## installation```shpip install cvtk# https://pip.pypa.io/en/latest/reference/pip_install/#gitpip install git+https://github.com/flystarhe/cvtk.git@hashpip install git+https://github.com/flystarhe/cvtk.git@mainpip install git+https://github.com/flystarhe/cvtk.git@v1.0```</longdescription>
 </pkgmetadata>

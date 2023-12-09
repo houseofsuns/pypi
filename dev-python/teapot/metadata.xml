@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>teapot is a python library and a command-line tool that eases thedownloading, the unpacking and the building of third-party softwares in aproject.teapot comes with the command-line tool `teapot` that does all thenecessary work.teapot is designed with extension in mind, which means it is very easyto add your own modules and extend its scope.</longdescription>
 </pkgmetadata>

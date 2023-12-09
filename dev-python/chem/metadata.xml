@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>openedx-chem============A helper library for chemistry calculations,used by the `edx-platform`_.This code originally lived in the `edx-platform`_ repo,but now exists here independently.License-------The code in this repository is licensed under version 3 of the AGPLunless otherwise noted. Please see the `LICENSE`_ file for details... _edx-platform: https://github.com/edx/edx-platform.. _LICENSE: https://github.com/edx/openedx-chem/blob/master/LICENSE</longdescription>
 </pkgmetadata>

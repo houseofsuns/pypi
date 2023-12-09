@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![NPM version](https://badge.fury.io/js/cdk-ssm-parameter-store.svg)](https://badge.fury.io/js/cdk-ssm-parameter-store)[![PyPI version](https://badge.fury.io/py/cdk-ssm-parameter-store.svg)](https://badge.fury.io/py/cdk-ssm-parameter-store)![Release](https://github.com/pahud/cdk-ssm-parameter-store/workflows/Release/badge.svg)# cdk-ssm-parameter-storeAWS CDK construct that allows you to get the latest `Version` of the AWS SSM Parameters.# Sample```python# Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826import cdk_ssm_parameter_store as paramstack = Stack(app, &quot;testing-stack&quot;, env=env)p = param.Provider(stack, &quot;ParameterProvider&quot;)foo_version = p.get(&quot;Foo&quot;).get_att_string(&quot;Version&quot;)bar_version = p.get(&quot;Bar&quot;).get_att_string(&quot;Version&quot;)CfnOutput(stack, &quot;FooVersion&quot;, value=foo_version)CfnOutput(stack, &quot;BarVersion&quot;, value=bar_version)```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A high performance, concurrent HTTP client library for python using gevent.gevent.httplib support was removed in gevent 1.0, geventhttpclient nowprovides that missing functionality.geventhttpclient uses a fast http parser, written in C, originating fromnginx, extracted and modified by Joyent.geventhttpclient has been specifically designed for high concurrency,streaming and support HTTP 1.1 persistent connections. More generally it isdesigned for efficiently pulling from REST APIs and streaming APIslike Twitter's.Safe SSL support is provided by default. geventhttpclient depends onthe certifi CA Bundle. This is the same CA Bundle which ships with theRequests codebase, and is derived from Mozilla Firefox's canonical set.As of 1.5, only Python 3.6+ is fully supported (with prebuilt wheels), but Python 2.7 and 3.5 *should* work too.Use of SSL/TLS with python 2.7.9 is not recommended and may be broken.</longdescription>
 </pkgmetadata>

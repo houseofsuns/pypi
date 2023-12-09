@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenCensus Proto============================================================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opencensus-proto.svg   :target: https://pypi.org/project/opencensus-proto/Python library generated from OpenCensus cross-language protos.Installation------------::    pip install opencensus-protoUsage-----.. code:: python    # TBD</longdescription>
 </pkgmetadata>

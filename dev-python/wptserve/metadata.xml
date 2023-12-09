@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>wptserve========Web server designed for use with web-platform-tests.See the docs on [web-platform-tests.org](https://web-platform-tests.org/tools/wptserve/docs/index.html).</longdescription>
 </pkgmetadata>

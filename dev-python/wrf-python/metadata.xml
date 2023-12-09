@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A collection of diagnostic and interpolation routines to be used with WRF-ARW data.GitHub Repository:https://github.com/NCAR/wrf-pythonDocumentation:https://wrf-python.rtfd.org</longdescription>
 </pkgmetadata>

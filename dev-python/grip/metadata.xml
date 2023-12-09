@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Grip----Render local readme files before sending off to GitHub.Grip is easy to set up``````````````````````::    $ pip install grip    $ cd myproject    $ gripLinks`````* `Website &lt;http://github.com/joeyespo/grip&gt;`_</longdescription>
 </pkgmetadata>

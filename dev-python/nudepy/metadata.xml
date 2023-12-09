@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>nude.py=======.. image:: https://travis-ci.org/hhatto/nude.py.svg?branch=master    :target: https://travis-ci.org/hhatto/nude.py    :alt: Build statusAbout-----Nudity detection with Python. Port of `nude.js`_ to Python... _`nude.js`: https://github.com/pa7/nude.jsInstallation------------from pip::    $ pip install --upgrade nudepyfrom easy_install::    $ easy_install -ZU nudepyRequirements------------* Python2.7+ and Python3.3+* Cython* PillowUsage-----via command-line.. code-block:: sh    $ nudepy IMAGE_FILEvia Python Module.. code-block:: python    import nude    from nude import Nude    print(nude.is_nude('./nude.rb/spec/images/damita.jpg'))    n = Nude('./nude.rb/spec/images/damita.jpg')    n.parse()    print(&quot;damita :&quot;, n.result, n.inspect())see examples_ ... _examples: https://github.com/hhatto/nude.py/tree/master/examplesLinks-----* PyPI_* GitHub_.. _PyPI: http://pypi.python.org/pypi/nudepy/.. _GitHub: https://github.com/hhatto/nude.py</longdescription>
 </pkgmetadata>

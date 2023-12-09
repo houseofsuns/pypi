@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Deephaven Plugin interfaceThe Deephaven Plugin interface.Currently in development.## BuildTo create your build / development environment:```shpython3 -m venv .venvsource .venv/bin/activatepip install --upgrade pip setuptools build```To build:```shpython -m build --wheel```produces the wheel into `dist/`.</longdescription>
 </pkgmetadata>

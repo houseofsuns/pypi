@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># openshift-python-utilitiesPypi: [openshift-python-utilities](https://pypi.org/project/openshift-python-utilities/)  A utilities repository for [openshift-restclient-python](https://github.com/openshift/openshift-restclient-python)## Release new version### requirements:* Export GitHub token```bashexport GITHUB_TOKEN=&lt;your_github_token&gt;```* [release-it](https://github.com/release-it/release-it)Run the following once (execute outside repository dir for example `~/`):```bashsudo npm install --global release-itnpm install --save-dev @release-it/bumper```### usage:* Create a release, run from the relevant branch.  To create a 4.11 release, run:```bashgit checkout v4.11git pullrelease-it # Follow the instructions```</longdescription>
 </pkgmetadata>

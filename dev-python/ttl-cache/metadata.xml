@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ttl-cache### How to use it```shpip install ttl-cache``````pythonimport ttl_cache# use ttl_cache directly@ttl_cachedef expensive_operation(a, b):    ...    ...    return SOME_RESULTexpensive_operation(xx, yy)expensive_operation(xx, yy)  # prefer cached result# ... 60 seconds laterexpensive_operation(xx, yy)  # compute again# or@ttl_cache(2.0)  # cache the result in the next 2 seconds, default is 60.0 secondsdef expensive_operation(a, b):    ...    ...```</longdescription>
 </pkgmetadata>

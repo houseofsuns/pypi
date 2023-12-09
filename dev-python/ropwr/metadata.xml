@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>**RoPWR** is a library written in Python implementing several mathematicalprogramming formulations to compute the optimal continuous/discontinuouspiecewise polynomial regression given a list of split points.Read the documentation at: http://gnpalencia.org/ropwr/RoPWR is distributed under the Apache Software License (Apache 2.0).</longdescription>
 </pkgmetadata>

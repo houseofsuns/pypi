@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Chrome Remote is a tool for remote debug with Chrome. It can be used for web spider, automatic testing, XSS detection etc.See more from github https://github.com/sadnoodles/chromeremote.</longdescription>
 </pkgmetadata>

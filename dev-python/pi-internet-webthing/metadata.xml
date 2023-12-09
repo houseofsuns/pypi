@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pi_internet_webthingA web connected local internet speed and connectivity monitor Deprecated (renamed). Please use internet_monitor_webthing instead. </longdescription>
 </pkgmetadata>

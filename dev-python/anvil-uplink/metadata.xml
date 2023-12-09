@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Anvil Server Uplink LibraryThis library allows you to write programs that communicate with Anvil apps (www.anvil.works).For more information, see: https://anvil.works/doc/#server_modules</longdescription>
 </pkgmetadata>

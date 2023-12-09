@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Django IAM database backends## Usage```shellpip install django-rds-iam-auth```In your settings use the following```pythonDATABASES = {    &quot;default&quot;: {        &quot;HOST&quot;: &quot;&lt;hostname&gt;&quot;,        &quot;USER&quot;: &quot;&lt;user&gt;&quot;,        &quot;ENGINE&quot;: 'django_rds_iam_auth.aws.postgresql'        &quot;OPTIONS&quot;: {            &quot;use_iam_auth&quot;: True        }    }}```</longdescription>
 </pkgmetadata>

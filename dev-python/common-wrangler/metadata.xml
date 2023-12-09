@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Scripts for file and data manipulation, as well as common scripts used in this project as well asgaussian_wrangler, ligninkmc, and md_wrangler</longdescription>
 </pkgmetadata>

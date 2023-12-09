@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. image:: https://travis-ci.org/mcepl/yamlish.svg?branch=master   :target: https://travis-ci.org/mcepl/yamlishYAMLish is a small subset of YAML that TAP producers may use toembed machine readable information in TAP diagnostics. See TAPdiagnostic syntax for information about how YAMLish embeds inTAP.----------------------------Based on Data-YAML version 0.0.6(Copyright (C) 2007, Andy Armstrong)but it is so thoroughly rewritten that I don't consider itderived work and I don't feel the need to resolve what &quot;Thislibrary is free software; you can redistribute it and/or modifyit under the same terms as Perl itself.&quot; actually means.Whole this package is licensed under MIT/X11 license (see headerof yamlish.py for details).</longdescription>
 </pkgmetadata>

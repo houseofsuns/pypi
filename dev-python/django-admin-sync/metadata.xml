@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>django-admin-sync=================## Use cases1. Publishing Content 2. Fetching data </longdescription>
 </pkgmetadata>

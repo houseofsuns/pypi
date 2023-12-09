@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># packages## type checkingcheck the typesmypy## lintingcheck for bad code, e.g. mutable default in function parameter## formatterblackFormat the code to adhere to code style</longdescription>
 </pkgmetadata>

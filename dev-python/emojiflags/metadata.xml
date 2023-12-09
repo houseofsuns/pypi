@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Emoji Flags===========This is a Python package that takes the `ISO 3166-1`_: internationallyrecognized two-letter country code, and returns the country’s flag emojiand is inspired by the Node version by Matias Singers `Emoji Flags`_.Usage-----::    &gt;&gt;&gt; from emojiflags.lookup import lookup    &gt;&gt;&gt; lookup('DE')    '🇩🇪'.. _ISO 3166-1: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2.. _Emoji Flags: https://github.com/matiassingers/emoji-flags</longdescription>
 </pkgmetadata>

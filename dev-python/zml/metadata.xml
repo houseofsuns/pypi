@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>zml - zero markup language-------------------------------------Features - zero markup templates - clean syntax - extensible - components - namespaces - lean code - rendering of rest data - transclusions - integration of external defined objects (IPFS) - sustainable linked data by using immutable objects (decentral storage)This version requires Python 3 or later.</longdescription>
 </pkgmetadata>

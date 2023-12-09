@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>podcastparser: Simple, fast and efficient podcast parser========================================================The podcast parser project is a library from the gPodder project to provide aneasy and reliable way of parsing RSS- and Atom-based podcast feeds in Python.See docs in [./doc](./doc) or at [Read the Docs](https://podcastparser.readthedocs.io/en/latest/).## Automated TestsTo run the unit tests you need [`pytest`](https://docs.pytest.org/).  If you have `pytest` installed, use the `pytest` command in the repository's root directory to run the tests.## Automated Release to PypiTo release, update the version number in podcastparser.py, commit and push.Then create an (annotated) tag and push it.The GitHub action will publish on pypi.</longdescription>
 </pkgmetadata>

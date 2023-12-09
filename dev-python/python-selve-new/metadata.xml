@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># python-selve-newPython module for controlling Selve devices using an USB-RF-Gateway. Written completely new.</longdescription>
 </pkgmetadata>

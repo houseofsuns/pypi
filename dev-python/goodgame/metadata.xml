@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># GoodGameA Simple API for making games# Installing```commandlinepython -m pip install goodgame```Note, you may use `python3` instead of `python`# Documentation - See [here](https://github.com/Pyxelsuft/goodgame/tree/main/docs)# Examples - Test [here](main.py) &lt;br /&gt; - Also [here](https://github.com/PixelsuftGames/good-examples) - Also [here](https://youtu.be/dQw4w9WgXcQ)# TODO - See [here](https://github.com/Pyxelsuft/goodgame/search?q=TODO&amp;type=)</longdescription>
 </pkgmetadata>

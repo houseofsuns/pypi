@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A library wrapping Open SSL low-level cryptographic libraries to build Privacy Enhancing Technoloies (PETs)</longdescription>
 </pkgmetadata>

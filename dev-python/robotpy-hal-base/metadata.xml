@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>RobotPy Abstraction Layer (HAL) for WPILib==========================================Python wrappers around the HAL used by WPILib. This package is not useful byitself, but requires a HAL implementation to also be installed.HAL Implementations===================* robotpy-hal-roborio: interacts with the hardware on the roboRIO* robotpy-hal-sim: designed for simulation and testing purposesInstallation============Typically, you don't install this directly, but use the RobotPy installerto install it on your roboRIO, or it is installed by pip as part of thepyfrc setup process.</longdescription>
 </pkgmetadata>

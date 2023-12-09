@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A very simple, pure-Python implementation of the scryptpassword-based key derivation function and scrypt file format library with nodependencies beyond standard Python libraries. See README.md for APIreference and details.</longdescription>
 </pkgmetadata>

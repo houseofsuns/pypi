@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This library is aimed to be used with PyWebVue/Trame to enable form handling of inputs.</longdescription>
 </pkgmetadata>

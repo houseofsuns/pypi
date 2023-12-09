@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>---------------------------------------Lightweight SOAP client (Jurko's fork).---------------------------------------  Based on the original 'suds' project by Jeff Ortel (jortel at redhatdot com) hosted at 'http://fedorahosted.org/suds'.  'Suds' is a lightweight SOAP-based web service client for Pythonlicensed under LGPL (see the LICENSE.txt file included in thedistribution).  This is hopefully just a temporary fork of the original suds Pythonlibrary project created because the original project development seemsto have stalled. Should be reintegrated back into the original projectif it ever gets revived again.</longdescription>
 </pkgmetadata>

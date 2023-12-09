@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># 君何的包0.0.55### API### 更新说明--version 0.0.551. None-- version 0.0.541. None-- version 0.0.531. 将load_config模块下的os.system更换为subprocess.call执行，解决在docker中退出且无法查看输出的问题### --version 0.0.521. 解决了函数方法里，多进程模块报错的问题1. 解决了load_config在win、linux平台下，可能报错的问题#### --version 0.0.501. 增加了一个动态加载配置的函数方法，load_config2. 将说明文件更改为.md格式### 待更新列表</longdescription>
 </pkgmetadata>

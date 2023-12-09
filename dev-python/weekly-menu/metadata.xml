@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## weeklymenu-api### Model Upload```flyctl sftp shell    &gt;&gt; put models/ingredient_parser_model_v1.tar.gz /etc/weeklymenu/models/ingredient_parser_model_v1.tar.gz``````flyctl ssh console    &gt;&gt; cd /etc/weeklymenu/models/    &gt;&gt; tar -xf ingredient_parser_model_v1.tar.gz```</longdescription>
 </pkgmetadata>

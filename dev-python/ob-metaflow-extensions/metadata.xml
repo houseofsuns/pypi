@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Outerbounds platform packageThis package installs client side packages for Outerbounds platform. See Outerbounds platform documentation and [Metaflow documentation](https://metaflow.org/) for more info on how to use it.</longdescription>
 </pkgmetadata>

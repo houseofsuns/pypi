@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## dlnaA UPnP/DLNA client, support local file and online resource cast to screen.**Support Online Resource.**Thanks for nanodlna!### Release Note* 0.2.2: Fixed some tips.* 0.2: Fixed multiple scans of the same.* 0.1.7: Fixed an error caused by custom xml attributes.* 0.1.6: Timeout expanded to 10s.* 0.1.5: Optimize the tips content.* 0.1.4:    * Now you can select device by name.    * Add 'How to use'    * Fix bugs.* 0.1.3: Fix bugs.### How to use* scan DLNA-enabled devices```shell&gt;&gt;&gt; dlna device```* resource cast to screen```shell&gt;&gt;&gt; dlna play &quot;your_link_or_path&quot;```* select device by url```shell&gt;&gt;&gt; dlna play &quot;your_link_or_path&quot; -d &quot;your_device_url&quot;# device url like 'http://host:port/'```* select device by name```shell&gt;&gt;&gt; dlna play &quot;your_link_or_path&quot; -q &quot;your_device_name&quot;# device name like 'room tv'```</longdescription>
 </pkgmetadata>

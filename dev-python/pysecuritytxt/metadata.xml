@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python client and module for querying .well-known/security.txt filesGive it a domain, it tries to fetch the security.txt file## Installation```bashpip install pysecuritytxt```## Usage### Command lineYou can use the `pysecuritytxt` command:```bashusage: pysecuritytxt [-h] [-p] url_or_domainTry to get a security.txt filepositional arguments:  url_or_domain  Try to get the file from there.options:  -h, --help     show this help message and exit  -p, --parse    Parse the response, returns dict```### LibrarySee [API Reference](https://pysecuritytxt.readthedocs.io/en/latest/api_reference.html)</longdescription>
 </pkgmetadata>

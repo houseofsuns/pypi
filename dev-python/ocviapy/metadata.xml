@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ocviapyPython utilities that wrap 'oc' shell commands## Installation```pip install ocviapy```</longdescription>
 </pkgmetadata>

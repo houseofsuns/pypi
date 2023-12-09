@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>AJPy aims to craft AJP requests in order to communicate with AJP connectors.</longdescription>
 </pkgmetadata>

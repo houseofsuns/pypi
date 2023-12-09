@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># NextcloudMonitorPython wrapper around Nextcloud monitor api## Installation```bashpip install nextcloudmonitor```## QuickStart```python&gt;&gt;&gt; from nextcloudmonitor import NextcloudMonitor&gt;&gt;&gt; ncm = NextcloudMonitor(&quot;https://your_nextcloud_url&quot;, &quot;nextcloud_admin_username&quot;, &quot;nextcloud_app_password&quot;)&gt;&gt;&gt; ncm.data['nextcloud']['system']['version']'16.0.5.1'&gt;&gt;&gt; ncm.data['activeUsers']['last24hours']1```Notes:- The user must be a user that has access to the nextcloud monitor api (generally an admin user)- The nextcloud app password should be generated from the nextcoud security settings page.## Change Log- v1.0.0 : Initial Release- v1.1.0 : Added basic error handling for api errors- v1.2.0 : Allow ssl verification bypass- v1.2.1 : Privide more detailed feedback for api connection errors- v1.3.0 : Add more specific exceptions (Thanks @mib1185)</longdescription>
 </pkgmetadata>

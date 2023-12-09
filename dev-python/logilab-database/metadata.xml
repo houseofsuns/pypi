@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>logilab-database provides some classes to make unified access to differentRDBMS possible:* actually compatible db-api from different drivers to postgres, mysql,  sqlite and sqlserver* additional api for full text search* extensions functions for common tasks such as creating database, index,  users, dump and restore, etc...* sql generation for INSERT/UPDATE/DELETE (in sqlgen.py)</longdescription>
 </pkgmetadata>

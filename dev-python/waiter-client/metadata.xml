@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package contains Two Sigma's Waiter command line interface, waiter. waiter allows you to create/update/delete/view tokens and also view services across multiple Waiter clusters.</longdescription>
 </pkgmetadata>

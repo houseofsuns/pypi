@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># 📝 Streamlit Ace[![GitHub][github_badge]][github_link] [![PyPI][pypi_badge]][pypi_link] ## Installation```shpip install streamlit-ace```## Getting started```pythonimport streamlit as stfrom streamlit_ace import st_ace# Spawn a new Ace editorcontent = st_ace()# Display editor's content as you typecontent```## Demo[![Open in Streamlit][share_badge]][share_link] [![Preview][share_img]][share_link][share_badge]: https://static.streamlit.io/badges/streamlit_badge_black_white.svg[share_link]: https://share.streamlit.io/okld/streamlit-gallery/main?p=ace-editor[share_img]: https://raw.githubusercontent.com/okld/streamlit-ace/main/preview.png[github_badge]: https://badgen.net/badge/icon/GitHub?icon=github&amp;color=black&amp;label[github_link]: https://github.com/okld/streamlit-ace[pypi_badge]: https://badgen.net/pypi/v/streamlit-ace?icon=pypi&amp;color=black&amp;label[pypi_link]: https://pypi.org/project/streamlit-ace</longdescription>
 </pkgmetadata>

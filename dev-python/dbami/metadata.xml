@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># `dbami`: The database friend you didn't know you neededA lightweight, Python-based, framework-agnostic, async-compatible PostgreSQLmigration tool.## What does `dbami` mean?`dbami` was initially inspired by the tool[`dbmate`](https://gitbub.com/amacneil/dbmate), and therefore takes inspirationfrom `dbmate` when it comes to name. That is, &quot;ami&quot; is French for &quot;friend,&quot; asynonym of &quot;mate.&quot;Other languages may have yielded suitable words for friend, but &quot;ami&quot; waschosen due to its short length (easier to type) and the allowance for a futuregolang-based implementation, which, most serendipitously, could be named`dbamigo`.</longdescription>
 </pkgmetadata>

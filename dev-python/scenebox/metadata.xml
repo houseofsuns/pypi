@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># SceneBoxSceneBox, is data platform that simplifies the collection, discovery, and management of large volumes of perception datasuch as high-resolution images, LiDAR, and video. As a complete AI management platform, SceneBox provides APIintegration with labeling providers and ML model lifecycle and deployment management.</longdescription>
 </pkgmetadata>

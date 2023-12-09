@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Basic open source license collector script.Outputs a licenses.json file.Currently supported platforms:* Debian* Alpine* PythonPlanned:* Node## Usage```pip3 install olcdetect_licenses $PROJECTNAME```</longdescription>
 </pkgmetadata>

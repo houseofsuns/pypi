@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pysat_metamodelThis repository will host the pysat metamode and its operation implementation## Install for development``` bashpip install -e .```## Make sure that you have installed python-dev ``` bashsudo apt install python-dev #python3-dev in Ubuntu derivatives```</longdescription>
 </pkgmetadata>

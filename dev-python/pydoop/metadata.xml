@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pydoop: a Python MapReduce and HDFS API for Hadoop--------------------------------------------------Pydoop is a Python interface to Hadoop that allows you to writeMapReduce applications and interact with HDFS in pure Python.</longdescription>
 </pkgmetadata>

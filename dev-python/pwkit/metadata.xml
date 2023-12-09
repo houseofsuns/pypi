@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a collection of Peter Williams’ miscellaneous Python tools.For more information, including installation instructions, please visit [theproject homepage].[the project homepage]: https://pkgw.readthedocs.io/</longdescription>
 </pkgmetadata>

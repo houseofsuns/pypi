@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>### Package helps to interact with Chatgpt ### How to use### import console_gpt### key = &quot;&lt;password: apikey&gt;&quot;### bot = console_gpt.ChatbotGPT(key)### bot.ask()### Changes : v2 = &quot;Calling the bot&quot;### Changes : v3 = &quot;Package problems&quot;### Changes : v4 = &quot;Issue solved of new lines&quot;### Changes : v5 = &quot;Removing sensitive parts&quot;### Don't have api key? contact: pranav.chandran@gmail.com</longdescription>
 </pkgmetadata>

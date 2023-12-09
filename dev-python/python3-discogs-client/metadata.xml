@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is an active fork of the official &quot;Discogs API client for Python&quot;, which was deprecated by discogs.com as of June 2020. We think it is a very useful Python module and decided to continue maintaining it. Please visit: https://github.com/joalla/discogs_client for more information.</longdescription>
 </pkgmetadata>

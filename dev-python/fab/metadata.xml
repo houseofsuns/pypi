@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>fab===A fabulous, lightweight wrapper around Phabricator's API, Conduit, to handleauthentication and other annoying things.Usage-----.. code:: python    import phabricator    phab = phabricator.Phabricator('https://...', 'Username', token='api-token')    phab.request('user.whoami')License-------Copyright 2014, 2018, 2020-2021 Kunal Mehta, under the LGPL v3 or later. See COPYING for moredetails.</longdescription>
 </pkgmetadata>

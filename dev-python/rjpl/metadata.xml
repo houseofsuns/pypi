@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Installation```pip install rjpl```## Functions- location- trip- departureBoard- multiDepartureBoard- stopsNearby## Module usage```import rjplprint(rjpl.departureBoard(2158))```</longdescription>
 </pkgmetadata>

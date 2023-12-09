@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>e-drive* Install&gt; pip install e_drive&gt; pip --no-cache-dir install e_drive* Upgrade&gt; pip install --upgrade e_drive* Uninstall&gt; pip uninstall e_drivePyPIhttps://pypi.python.org/pypi/e_driveDocuments for E-DRIVE python library.https://byrobot.github.io/documents/kr/products/e_drive/library/python/e_drive/BYROBOT Devhttp://dev.byrobot.co.kr/Forumhttps://groups.google.com/d/forum/byrobotBYROBOT</longdescription>
 </pkgmetadata>

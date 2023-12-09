@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Helioviewer Python API Wrapper------------------------------|Latest Version| |codecov|.. |Latest Version| image:: https://img.shields.io/pypi/v/hvpy.svg   :target: https://pypi.python.org/pypi/hvpy/.. |codecov| image:: https://codecov.io/gh/Helioviewer-Project/python-api/branch/main/graph/badge.svg   :target: https://app.codecov.io/gh/Helioviewer-Project/python-api/``hvpy`` is a Python API wrapper around the formal `Helioviewer API &lt;https://api.helioviewer.org/docs/v2/&gt;`__.`Python API documentation &lt;https://hvpy.readthedocs.io/en/latest/&gt;`__This work was supported by the `2022 Google Summer of Code &lt;https://summerofcode.withgoogle.com/&gt;`__, the `SunPy Project &lt;https://sunpy.org&gt;`__, and the `Helioviewer Project &lt;https://github.com/Helioviewer-Project/&gt;`__.</longdescription>
 </pkgmetadata>

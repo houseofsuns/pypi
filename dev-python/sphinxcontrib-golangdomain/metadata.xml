@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package contains the sphinxcontrib-golangdomain Sphinx extension.This extension adds Ruby Domain to Sphinx.It needs Sphinx 1.0 or newer.</longdescription>
 </pkgmetadata>

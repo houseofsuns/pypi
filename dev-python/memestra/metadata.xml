@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A linter that tracks reference to deprecated functions.Memestra walks through your code base and tracks reference to function markswith a given decorator.</longdescription>
 </pkgmetadata>

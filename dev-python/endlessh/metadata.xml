@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pyendlesshSSH tarpit implemented with Python paramiko, inspired by [endlessh](https://github.com/skeeto/endlessh).</longdescription>
 </pkgmetadata>

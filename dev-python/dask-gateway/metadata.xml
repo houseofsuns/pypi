@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>dask-gateway============A client library for interacting with a dask-gateway server. See `thedocumentation &lt;https://gateway.dask.org/&gt;`__ for more information.</longdescription>
 </pkgmetadata>

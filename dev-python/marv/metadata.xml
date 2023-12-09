@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=============MARV Robotics=============This package is part of the MARV Robotics Community Edition.MARV Robotics is a powerful and extensible data management platform,featuring a rich dynamic web interface, driven by your algorithms,configurable to the core, and integrating well with your tools tosupercharge your workflows.For more information please see:- MARV Robotics `website &lt;https://ternaris.com/marv-robotics/&gt;`_- MARV Robotics `documentation &lt;https://ternaris.com/marv-robotics/docs/&gt;`_- MARV Robotics `GitLab project &lt;https://gitlab.com/ternaris/marv-robotics/&gt;`_</longdescription>
 </pkgmetadata>

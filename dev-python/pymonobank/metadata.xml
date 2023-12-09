@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python client for [Monobank API](https://api.monobank.ua/docs/acquiring.html)---</longdescription>
 </pkgmetadata>

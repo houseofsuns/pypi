@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>ERROR:    The `fake-factory` package was deprecated on December 15th, 2016.    Use the `Faker` package instead.</longdescription>
 </pkgmetadata>

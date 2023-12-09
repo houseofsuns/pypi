@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=========================Meta App Script SDK=========================`Документация&lt;http://meta-app-script-py-sdk.readthedocs.io/&gt;`_`Полный список примеров&lt;https://github.com/rw-meta/meta-app-script-py-sdk/tree/master/metaappscriptsdk/examples/&gt;`_</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Flask-Orator############.. image:: https://travis-ci.org/sdispater/flask-orator.png   :alt: Flask Orator Build status   :target: https://travis-ci.org/sdispater/flask-oratorFlask-Orator adds `Orator ORM &lt;https://github.com/sdispater/orator&gt;`_ support to Flask applications.Resources=========* `Documentation &lt;http://flask-orator.readthedocs.org&gt;`_* `Issue Tracker &lt;https://github.com/sdispater/flask-orator/issues&gt;`_</longdescription>
 </pkgmetadata>

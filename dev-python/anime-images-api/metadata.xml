@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>import anime_images_apianime = anime_images_api.Anime_Images()anime.help()sfw = anime.get_sfw('hug')nsfw = anime.get_nsfw('hentai')print(f'sfw image url: {sfw}')print(f'nsfw image url: {nsfw}')</longdescription>
 </pkgmetadata>

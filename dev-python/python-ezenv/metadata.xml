@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## ezenvA simple python package for setting environment variable.## How to use?```pythonfrom ezenv import set_envset_env(VARIABLE_NAME, VARIABLE_VALUE)```</longdescription>
 </pkgmetadata>

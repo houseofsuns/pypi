@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># BrewBlox CLI management toolThe primary tool for installing and managing BrewBlox. Uses Click.Install-specific commands are defined in [brewblox-ctl-lib](https://github.com/BrewBlox/brewblox-ctl-lib).Wraps multiple docker-compose commands to provide a one-stop tool.Provides the `http` CLI utility tool as a more specific and less cryptic alternative to `curl`.</longdescription>
 </pkgmetadata>

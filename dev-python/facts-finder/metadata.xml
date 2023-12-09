@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>facts finder for cisco/juniper devices** Basic requirement is to capture the configuration using capture_it tool.** output captured in this format only can be parsed.</longdescription>
 </pkgmetadata>

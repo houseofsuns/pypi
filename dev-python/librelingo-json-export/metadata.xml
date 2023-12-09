@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;a name=&quot;librelingo_json_export.export&quot;&gt;&lt;/a&gt;# librelingo\_json\_export.export&lt;a name=&quot;librelingo_json_export.export.export_course&quot;&gt;&lt;/a&gt;#### export\_course```pythonexport_course(export_path: str, course: Course, settings=None)```Writes the course to JSON files in the specified path.### Usage example:```pythonfrom librelingo_yaml_loader import load_coursefrom librelingo_json_export.export import export_coursecourse = load_course(&quot;./courses/french-from-english&quot;)export_course(&quot;./apps/web/src/courses/french-from-english&quot;, course)```</longdescription>
 </pkgmetadata>

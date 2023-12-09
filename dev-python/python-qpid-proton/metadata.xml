@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python bindings for Qpid Proton===============================This module provides a Python binding to the Proton AMQP messaging toolkit.Qpid Proton is a high-performance, lightweight messaging library. Itcan be used in the widest range of messaging applications, includingbrokers, client libraries, routers, bridges, proxies, and more. Protonmakes it trivial to integrate with the AMQP 1.0 ecosystem from anyplatform, environment, or language.  More about `Proton &lt;http://qpid.apache.org/proton/index.html&gt;`_.</longdescription>
 </pkgmetadata>

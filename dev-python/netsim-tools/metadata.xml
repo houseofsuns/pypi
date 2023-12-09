@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>netsim-tools has been renamed to netlab in August 2022.The Python package netsim-tools has been renamed to networklab and isinstalled as a dependency of netsim-tools every time you install orupgrade netsim-tools, but we won't keep that dependency active foreer.Please stop using netsim-tools package and use networklab package.</longdescription>
 </pkgmetadata>

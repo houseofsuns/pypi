@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a Python client library for generating emails and getting email box messages based on using [1secmail](https://www.1secmail.com/api/) API.### Installationuse pip:``pip install secmail``### Usage```pyimport secmailsec = secmail.SecMail()email = sec.generate_email(count=1)print(email)```If you set the count the more than 1 it will return a list of email</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=========pyKML=========pyKML is a Python package for parsing and authoring KML documents. It is basedon the lxml.objectify API (http://codespeak.net/lxml/objectify.html) whichprovides Pythonic access to XML documents... figure:: http://pykml.googlecode.com/hg/docs/source/logo/pyKML_logo_200x200.png   :scale: 100 %   :alt: pyKML logoSee the Package Documentation for information on installation and usage.</longdescription>
 </pkgmetadata>

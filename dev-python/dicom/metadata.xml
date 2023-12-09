@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>dicom is a historical version of the pydicom package, for versions &lt; 1.0.New code should target the pydicom package rather than this one.</longdescription>
 </pkgmetadata>

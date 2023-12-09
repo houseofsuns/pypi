@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A python module for scientific visualization, analysis of 3D objects and point clouds based on VTK. Check out https://vedo.embl.es for documentation.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># levo-commonsCommon code between Levo's CLI and test plans# Running the checks and tests locally```bash# Pre-commit checkspip install pre-commitSKIP=pylint,mypy pre-commit run --all-filespre-commit run mypy --all-files# Unit testspip install toxtox -e py```</longdescription>
 </pkgmetadata>

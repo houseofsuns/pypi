@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>==================== bhoelHelper module====================Some helper modules used in my other modules.Installation============pip install bhoelHelperAvailability============The latest version should be available at my `GitLab&lt;https://gitlab.com/berhoel/python/bhoelHelper.git&gt;`_ repository, thepackage is avaliable at `pypi&lt;https://pypi.org/project/bhoelHelper/&gt;`_ via ``pip installbhoelHelper``.Documentation=============Documentation for the project is avaliable `here &lt;https://python.höllmanns.de/bhoelHelper/&gt;`_.</longdescription>
 </pkgmetadata>

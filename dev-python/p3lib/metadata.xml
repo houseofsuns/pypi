@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># A Python3 libraryA group of python modules for networking, plotting data, config storage, automating boot scripts, ssh access and user input output.## Installationp3lib is available on pypi and can be installed using the following command.```pip3 install p3lib```</longdescription>
 </pkgmetadata>

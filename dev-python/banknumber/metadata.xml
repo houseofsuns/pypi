@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>banknumber==========Python module to validate Bank codes.Nutshell--------Here a simple example to validate Bank codes::    &gt;&gt;&gt; import banknumber    &gt;&gt;&gt; banknumber.check_code('ES','21000813610123456789')    True</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># micropip[![PyPI Latest Release](https://img.shields.io/pypi/v/micropip.svg)](https://pypi.org/project/micropip/)![GHA](https://github.com/pyodide/micropip/actions/workflows/main.yml/badge.svg)A lightweight Python package installer for the web## InstallationIn [Pyodide](https://pyodide.org), you can install micropip, - either implicitly by importing it in the REPL - or explicitly via `pyodide.loadPackage('micropip')`. You can also install by URL from PyPI for instance.## Usage```pyimport micropipawait micropip.install(&lt;list-of-packages&gt;)```For more information see the[documentation](https://pyodide.org/en/stable/usage/loading-packages.html#micropip).## Licensemicropip uses the [Mozilla Public License Version2.0](https://choosealicense.com/licenses/mpl-2.0/).</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>bcolz provides columnar and compressed data containers.  Columnstorage allows for efficiently querying tables with a large number ofcolumns.  It also allows for cheap addition and removal of column.  Inaddition, bcolz objects are compressed by default for reducingmemory/disk I/O needs.  The compression process is carried outinternally by Blosc, a high-performance compressor that is optimizedfor binary data.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># airthings-bleLibrary to control Airthings devices through BLE, primarily meant to be used in Home Assistant.</longdescription>
 </pkgmetadata>

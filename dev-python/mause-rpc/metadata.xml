@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Mause RPC=========A dumb as hell rpc implementation built on rabbitmqNeed to write a server?```pyfrom mause_rpc.server import Serverrpc_queue = 'rpc.queue'server = Server(rpc_queue, 'rabbitmq://...')@server.registerdef hello(name: str) -&gt; str:    return 'hello ' + name@server.register('divide')def div(a: int, b: int) -&gt; float:    if b == 0:        raise ZeroDivisionError()    return a / bif __name__ == '__main__':    server.serve()```Need a client?```pyfrom mause_rpc.client import get_clientrpc_queue = 'rpc.queue'client = get_client(rpc_queue, 'rabbitmq://...')def test_basic_functionality():    assert client.hello('mark') == 'hello mark'    assert client.divide(5, 2) == 2.5    with pytest.raises(ZeroDivisionError):        client.divide(5, 0)```</longdescription>
 </pkgmetadata>

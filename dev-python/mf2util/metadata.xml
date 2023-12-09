@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Microformats2 Utilities=======================Microformats2 provides an extremely flexible way to mark up HTMLdocuments, so that human-centric data is machine-discoverable. Thisutility can be used to interpret a microformatted post or event, fordisplay as a `comment &lt;http://indiewebcamp.com/comments-presentation&gt;`__or `reply-context &lt;http://indiewebcamp.com/reply-context&gt;`__.The library itself has no dependencies, but it won't do you much goodwithout an mf2 parser. I use and recommend`mf2py &lt;https://github.com/tommorris/mf2py&gt;`__.Full `documentation is on GitHub&lt;https://github.com/kylewm/mf2util/blob/master/README.md&gt;`__.Compatibility: Python 2.6, 2.7, 3.3+License: `Simplified BSD &lt;http://opensource.org/licenses/BSD-2-Clause&gt;`__</longdescription>
 </pkgmetadata>

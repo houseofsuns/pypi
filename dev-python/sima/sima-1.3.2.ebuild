@@ -15,8 +15,8 @@ DESCRIPTION="Software for analysis of sequential imaging data"
 
 HOMEPAGE="http://www.losonczylab.org/sima/"
 LICENSE="GNU GPLv2"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
-SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

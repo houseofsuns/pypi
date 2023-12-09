@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===============================pytest-pycharm===============================.. image:: https://badge.fury.io/py/pytest-pycharm.png    :target: http://badge.fury.io/py/pytest-pycharmPlugin for ``pytest`` to enter PyCharm debugger on uncaught exceptions* Free software: BSD licenseFeatures--------* Uncaught exceptions in ``pytest`` test cases will trigger the PyCharm  debuggerInstallation------------You can install the plugin by running    pip install pytest-pycharmAlternately check out the source code and run    python setup.py installUsage-----You are ready to go right after the plugin installation. Execute any test inPyCharm by right-clicking on a test and selecting *Debug pytest in ...*. Thedebugger will pause on a false assertion (see `test example`_).The plugin also works with custom ``pytest`` Run Configurations:*Run | Edit Configurations | Add New Configuration | Python tests | pytest*.**Note:** make sure the Run Configuration uses the correct interpreter with``pytest-pycharm`` installed... _test example: test_dummy.py</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This library provides Python functions for hierarchical clustering. Its featuresinclude    * generating hierarchical clusters from distance matrices    * computing distance matrices from observation vectors    * computing statistics on clusters    * cutting linkages to generate flat clusters    * and visualizing clusters with dendrograms.The interface is very similar to MATLAB's Statistics Toolbox API to make codeeasier to port from MATLAB to Python/Numpy. The core implementation of thislibrary is in C for efficiency.</longdescription>
 </pkgmetadata>

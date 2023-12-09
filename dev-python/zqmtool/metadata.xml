@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>python3 -m pip install --upgrade setuptools wheelpython3 setup.py sdist bdist_wheeltwine upload dist/*qiming_zouzqm@00123321</longdescription>
 </pkgmetadata>

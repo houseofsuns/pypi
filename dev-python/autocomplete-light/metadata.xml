@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Autocomplete-Light: simple autocompletion web componentDifference with other HTML autocompletion elements:- defers the rendering of the select box to the server- lightweight javascript web component with no dependencyWhile it is best suited for server side framework integration, it may also beused on its own, to create a global navigation input like in the facebook topbar, as well as to create replacement widgets for HTML selects.Demo====Clone the repository and run `python serve.py`Usage=====For usage, check the [index.html sourcecode](https://yourlabs.io/oss/autocomplete-light/-/blob/master/index.html)Testing=======This module exposes a Python library to provide an API for Selenium and makeintegration testing easier with Python projects.Install the python package with test dependencies:```# in repository clonepip install -e .[test]python serve.py &amp;py.test -sv```</longdescription>
 </pkgmetadata>

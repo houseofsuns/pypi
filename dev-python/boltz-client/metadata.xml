@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Boltz Python ClientBoltz Reference Client in Python, used by e.g. https://github.com/lnbits/boltz## installing```consolepoetry install```## running cli```consolepoetry run boltz```## starting regtest```consolecd dockerchmod +x regtest./regtest```## running tests```consolepoetry run pytest```Or install the latest release from [PyPI](https://pypi.org/project/boltz-client) via `pip install boltz-client`.</longdescription>
 </pkgmetadata>

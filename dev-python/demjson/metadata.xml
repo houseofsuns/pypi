@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The &quot;demjson&quot; module, and the included &quot;jsonlint&quot; script, provide methodsfor encoding and decoding JSON formatted data, as well as checking JSONdata for errors and/or portability issues.  The jsonlint command/scriptcan be used from the command line without needing any programming.Although the standard Python library now includes basic JSON support(which it did not when demjson was first written), this moduleprovides a much more comprehensive implementation with many featuresnot found elsewhere.  It is especially useful for error checking orfor parsing JavaScript data which may not strictly be valid JSON data.</longdescription>
 </pkgmetadata>

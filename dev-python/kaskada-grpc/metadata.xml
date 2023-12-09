@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Kaskada-grpcKaskada's GRPC library to interact with the Kaskada service.</longdescription>
 </pkgmetadata>

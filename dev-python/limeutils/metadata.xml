@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>limeutils============Limeutils is a small collection of classes and methods for dealing with Redis data and a few other helpful functions. Check out the documentation for information. More classes to be added as needed.This package uses [Pydantic models][pydantic] to validate its data.[pydantic]: https://pydantic-docs.helpmanual.io/ 'Pydantic'Installation--------------### Install with poetry```bashpoetry add limeutils```### Install by repo```pip install git+https://github.com/dropkickdev/limeutils.git@develop#egg=limeutils```### Install with `git clone`Simply install from the root folder```# This can also be a forkgit clone https://github.com/dropkickdev/limeutils.gitcd limeutilspoetry install```## DocumentationView the documentation at: https://dropkickdev.github.io/limeutils/</longdescription>
 </pkgmetadata>

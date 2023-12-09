@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The getch module does single-char input by providing wrappers for the conio.h library functions getch() (gets a character from user input, no output - this is useful for password input) and getche() (also outputs to the screen), if conio.h does not exist, it uses a stub-library using termios.h and other headers to emulate this behaviour: ::    import getch    # ...    char = getch.getch() # User input, but not displayed on the screen    # or    char = getch.getche() # also displayed on the screenHint: On Windows, you can use: ::    import msvcrt    # ...    char = msvcrt.getch()    # or, to display it on the screen    char = msvcrt.getche()as a standard library alternative to this module</longdescription>
 </pkgmetadata>

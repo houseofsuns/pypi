@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Fonts: Roboto=============Roboto is a neo-grotesque sans-serif font family designed by Google for the Android mobile OS.Preview: https://fonts.google.com/specimen/RobotoSource: https://github.com/google/robotoThis font has been repackaged for the Python Fonts module: https://pypi.org/project/fonts/0.0.1=====- Initial release</longdescription>
 </pkgmetadata>

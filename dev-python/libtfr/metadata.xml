@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>libtfr provides high-performance C and Python libraries forcalculating multitaper time-frequency reassignment (TFR) spectrogramsas well as conventional STFTs.  TFR spectrograms have enhancedsignal-to-noise characteristics and can provide very precise spectralestimates under many conditions. The library requires FFTW for the underlyingFFT transformations.</longdescription>
 </pkgmetadata>

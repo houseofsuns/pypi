@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># 🧊 `stpyvista`Streamlit component to show PyVista 3D visualizations## Installation instructions ```shpip install stpyvista```## Usage instructions&lt;a href=&quot;https://stpyvista.streamlit.app&quot;&gt;&lt;img alt=&quot;Streamlit Cloud&quot; src=&quot;https://static.streamlit.io/badges/streamlit_badge_black_white.svg&quot;&gt;&lt;/a&gt;```pythonimport streamlit as stimport pyvista as pvfrom stpyvista import stpyvista## Initialize a plotter objectplotter = pv.Plotter(window_size=[400,400])## Create a mesh with a cube mesh = pv.Cube(center=(0,0,0))## Add some scalar field associated to the meshmesh['myscalar'] = mesh.points[:, 2]*mesh.points[:, 0]## Add mesh to the plotterplotter.add_mesh(mesh, scalars='myscalar', cmap='bwr', line_width=1)plotter.add_scalar_bar()## Final touchesplotter.view_isometric()plotter.background_color = 'white'## Pass a key to avoid re-rendering at each time something changes in the pagestpyvista(plotter, key=&quot;pv_cube&quot;)```</longdescription>
 </pkgmetadata>

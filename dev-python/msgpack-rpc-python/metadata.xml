@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>MessagePack RPC for Python.This implementation uses Tornado framework as a backend.</longdescription>
 </pkgmetadata>

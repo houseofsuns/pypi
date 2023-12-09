@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># IntroductionFork of https://github.com/plone/guillotina/tree/master/guillotina/contrib/cache intoits own package.This package provides an LRU cache that is constrained by the size, in-memory of theobjects in the cache.```pythonfrom memorylru import LRUlru = LRU(1024 * 1024 * 50)lru['foo'] = 'bar'```</longdescription>
 </pkgmetadata>

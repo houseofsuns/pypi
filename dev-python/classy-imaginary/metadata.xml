@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is not a useful package. It is a wrapper around imaginary to provide a Class interface.</longdescription>
 </pkgmetadata>

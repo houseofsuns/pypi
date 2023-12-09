@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># speech-collatorA collator for speech datasets with different batching strategies and attribute extraction.</longdescription>
 </pkgmetadata>

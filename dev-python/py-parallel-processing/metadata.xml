@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># OverviewProcessPool은 여러 개의 프로세스를 생성하여 각각의 프로세스에서 함수를 병렬로 처리할 수 있도록 도와줍니다. tqdm은 진행상황 바(progress bar)를 표시하는 라이브러리로, total인자에 전체 반복횟수를 넣어주면 반복문 진행상황을 보여줍니다.py_parallel_pools 함수는 some_func 함수를 params 리스트에 있는 값들을 인자로 넣어 호출하며, 병렬처리된 결과값들을 리스트 형태로 반환합니다. return_variables 리스트에는 some_func 함수의 반환값들이 들어가며, 반환값이 None인 경우는 리스트에서 제외됩니다.이 함수를 사용하면 some_func 함수를 병렬처리하여 빠르게 처리할 수 있습니다.</longdescription>
 </pkgmetadata>

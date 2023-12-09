@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Socialization API================\The Socialization API is a set of tools to help you build social channels.## Installation```shellpip install socialization```## Usage```pythonimport socialization# for botfrom socialization import bot# for ccsfrom socialization import ccs```## LicenseMIT license.</longdescription>
 </pkgmetadata>

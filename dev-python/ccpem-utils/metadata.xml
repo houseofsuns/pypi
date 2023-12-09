@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## DescriptionPython utility functions for EM data processing ## InstallationInstall directly from PyPI with:``pip install ccpem-utils``ORDownload from the gitlab repo and navigate into the `ccpem-utils` directory and install `ccpem-utils` with the command: ``pip install -e .``</longdescription>
 </pkgmetadata>

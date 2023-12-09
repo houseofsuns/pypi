@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Spherogram is a Python module for dealing with the kind of planardiagrams that arise in 3-dimensional topology, such as link andHeegaard diagrams. It a component of the larger`SnapPy &lt;https://snappy.computop.org&gt;`_ project.  For some basicexamples of using Spherogram to build links, `see here &lt;https://snappy.computop.org/spherogram.html&gt;`_.  You canbrowse the `source code &lt;https://github.com/3-manifolds/Spherogram&gt;`_.</longdescription>
 </pkgmetadata>

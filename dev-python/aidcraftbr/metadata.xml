@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Aidcraft Bot Resourcesto use the bot resources import bot_resources  functions are:  * stopWatch: converts seconds into days hours minuts and seconds  </longdescription>
 </pkgmetadata>

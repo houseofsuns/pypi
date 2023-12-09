@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>3rd-party Python interface to Pingdom's REST API.</longdescription>
 </pkgmetadata>

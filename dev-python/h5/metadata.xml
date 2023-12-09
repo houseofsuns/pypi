@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;a href=&quot;https://github.com/dynamic-graphics-inc/dgpy-libs&quot;&gt;&lt;img align=&quot;right&quot; src=&quot;https://github.com/dynamic-graphics-inc/dgpy-libs/blob/main/docs/images/dgpy_banner.svg?raw=true&quot; alt=&quot;drawing&quot; height=&quot;120&quot; width=&quot;300&quot;/&gt;&lt;/a&gt;# h5[![Wheel](https://img.shields.io/pypi/wheel/h5.svg)](https://img.shields.io/pypi/wheel/h5.svg)[![Version](https://img.shields.io/pypi/v/h5.svg)](https://img.shields.io/pypi/v/h5.svg)[![py_versions](https://img.shields.io/pypi/pyversions/h5.svg)](https://img.shields.io/pypi/pyversions/h5.svg)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)**Install:** `pip install h5`---Util functions for h5py and home of recursive generators!</longdescription>
 </pkgmetadata>

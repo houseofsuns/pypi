@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># py-expiring-dictPython dict with TTL support for auto-expiring caches# Install```bashpip install expiring-dict```# Usage## Class Level TTL```pythonfrom time import sleepfrom expiring_dict import ExpiringDictcache = ExpiringDict(1)  # Keys will exist for 1 secondcache[&quot;abc123&quot;] = &quot;some value&quot;assert &quot;abc123&quot; in cachesleep(1)assert &quot;abc123&quot; not in cache```## Key Level TTL```pythonfrom time import sleepfrom expiring_dict import ExpiringDictcache = ExpiringDict()  # No TTL set, keys set via [] will not expirecache[&quot;abc&quot;] = &quot;persistent&quot;cache.ttl(&quot;123&quot;, &quot;expired&quot;, 1)  # This will expire after 1 secondassert &quot;abc&quot; in cacheassert &quot;123&quot; in cachesleep(1)assert &quot;abc&quot; in cacheassert &quot;123&quot; not in cache```</longdescription>
 </pkgmetadata>

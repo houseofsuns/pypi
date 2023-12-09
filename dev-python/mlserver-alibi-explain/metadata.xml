@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Alibi-Explain runtime for MLServerThis package provides a MLServer runtime compatible with Alibi-Explain.## UsageYou can install the runtime, alongside `mlserver`, as:```bashpip install mlserver mlserver-alibi-explain```</longdescription>
 </pkgmetadata>

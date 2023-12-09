@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Account Dunning Letter Module#############################The account_dunning_letter module generates a dunning letter after the processof dunnings for those who are at a level with *Print on Letter* checked.</longdescription>
 </pkgmetadata>

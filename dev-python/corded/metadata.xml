@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CordedA lightweight, extensible client library for Discord botsExample usage:```pyfrom corded import CordedClient, GatewayEvent, Intentsbot = CordedClient(&quot;my_token&quot;, Intents.default())@bot.on(&quot;message_create&quot;)async def on_message_create(event: GatewayEvent) -&gt; None:    data = event.typed_data    print(data[&quot;content&quot;])bot.start()```</longdescription>
 </pkgmetadata>

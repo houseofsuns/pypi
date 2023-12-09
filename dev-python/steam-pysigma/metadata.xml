@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># STEAM PySIGMAPySIGMA is a python wrapper of STEAM-SIGMA written in Java.  This is repository for the source code for STEAM PySIGMA.  (Copyright Â© 2023, CERN, Switzerland. All rights reserved.)## Released version:pip install steam-pysigma# LinksSTEAM website: https://espace.cern.ch/steam/PySIGMA documentation: https://steam-pysigma.docs.cern.chPySIGMA coverage: https://steam-pysigma.docs.cern.ch/htmlcov/# Contactsteam-team@cern.ch# STEAM User AgreementBy using any software of the STEAM framework, users agree with this document:https://edms.cern.ch/document/2024516</longdescription>
 </pkgmetadata>

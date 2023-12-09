@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>rpaframework-aws================This library enables Amazon Web Services (AWS) for `RPA Framework`_libraries, such as Textract... _RPA Framework: https://rpaframework.org</longdescription>
 </pkgmetadata>

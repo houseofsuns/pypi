@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>M3 Python ICE=============This Python library provides tools for interfacing with the ICE debugand development board, part of the M3 ecosystem.In addition, several high-level tools such as a programmer, messageinjector, and snooper are included with this package.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>localize-cli============This package provides a unified command line interface to Localize.Platforms---------- Mac OS X- Windows- Linux--------------------Installation &amp; Usage--------------------For an installation and usage guide please refer to our `help docs &lt;https://help.localizejs.com/docs/localize-cli&gt;`_.---------------Issues---------------If you have an issue, please look at our `Common Issues &lt;https://github.com/Localize/localize-cli/wiki/Common-Issues&gt;`_ for solutions first. If no solution is found, feel free to make an issue or contact `support &lt;https://localizejs.com/company/contact&gt;`_.</longdescription>
 </pkgmetadata>

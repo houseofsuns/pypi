@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ODP Ingest SDK&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://ocean-data-community.slack.com&quot; alt=&quot;Slack&quot;&gt;        &lt;img src=&quot;https://img.shields.io/badge/slack-join_community-red.svg?color=0052FF&amp;labelColor=090422&amp;logo=slack&quot; /&gt;    &lt;/a&gt;&lt;/p&gt;## Welcome!INTRO## Setting up developer environmentThis project uses the [Poetry](https://python-poetry.org/) package manager.Please follow the [official](https://python-poetry.org/docs/#installation) documentation for installation detailsIn addition to Poetry, this project also uses the package [Poe the Poet](https://github.com/nat-n/poethepoet)for running simple tasks with poetry.With Poetry installed, you set up the virtual environment and install the dependencies with a single command:```shellpoetry install```Configure the pre-commit hooks```shellpre-commit install```</longdescription>
 </pkgmetadata>

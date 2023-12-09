@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>RAMP engine===========Dispatcher to orchestrate the training of submission using RAMP workers.This package provides both dispatcher and workers.</longdescription>
 </pkgmetadata>

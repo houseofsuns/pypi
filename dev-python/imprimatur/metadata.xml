@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Imprimatur----------Imprimatur is a tool for performing automated functional testing on webapplications. The tests are described in a simple test script. Along with thestandard HTTP methods, Imprimatur handles authentication, file uploads andHTTPS. The responses are validated using regular expressions.</longdescription>
 </pkgmetadata>

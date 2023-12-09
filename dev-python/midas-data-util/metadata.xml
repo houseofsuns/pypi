@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># midas-data-utila package with useful functions for downloading and working with midas generated analytics data</longdescription>
 </pkgmetadata>

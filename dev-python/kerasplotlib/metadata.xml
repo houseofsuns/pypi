@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Kerasplotlib provides a useful interface for Keras users that meetmany common visualization needs related with training and evaluatingdeep learning models.</longdescription>
 </pkgmetadata>

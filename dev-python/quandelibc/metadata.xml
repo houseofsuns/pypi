@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Collection of c-optimized computation primitive available as python module. When possible, the low level function uses INTEL SIMD primitives.</longdescription>
 </pkgmetadata>

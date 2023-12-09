@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>#  MosaicML CLI (MCLI)### MCLI is the interface for interacting with the MosaicML platformTo get started with MCLI, read the [documentation](https://mcli.docs.mosaicml.com/)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Random filters: Python packaging for generate random filters to use in your project## Installation```bashpip install random-filters```## Usage```pythonimport random_filters as rf# checkboxrf.checkbox()# comboboxrf.combobox_hierarchy({&quot;Estado&quot;: [&quot;SP&quot;, &quot;SP&quot;, &quot;SP&quot;, &quot;SC&quot;, &quot;SC&quot;, &quot;SC&quot;],                       &quot;Cidade&quot;: [&quot;São Paulo&quot;, &quot;Itatiba&quot;, &quot;Campinas&quot;, &quot;Chapecó&quot;, &quot;Xaxim&quot;, &quot;Xanxerê&quot;]})# daterf.date('2019-01-01', '2019-12-31')# date_partitionrf.date_partition(2)# storerf.store(2)```## ContributingPull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.</longdescription>
 </pkgmetadata>

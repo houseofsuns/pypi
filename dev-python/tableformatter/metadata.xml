@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>tableformatter is a tabular data formatter allowing printing from both arbitrary tuples of strings or object inspection.It converts your data into a string form suitable for pretty-printing as a table.  The goal is to make it quick and easyfor developers to display tabular data in an aesthetically pleasing fashion.  It provides a simple public API, but allowsfine-grained control over almost every aspect of how the data is formatted.</longdescription>
 </pkgmetadata>

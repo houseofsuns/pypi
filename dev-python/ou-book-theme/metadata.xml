@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ou-book-theme[![PyPI - Version](https://img.shields.io/pypi/v/ou-book-theme.svg)](https://pypi.org/project/ou-book-theme)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ou-book-theme.svg)](https://pypi.org/project/ou-book-theme)-----**Table of Contents**- [Installation](#installation)## Installation```consolepip install ou-book-theme```See the [docs/](docs) for further documentation.</longdescription>
 </pkgmetadata>

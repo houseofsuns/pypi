@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Public IP&gt; Get your public IP address## DemoDemo on [Repl.it](https://repl.it/@yoginth/publicip)## Screenshot&lt;img src=&quot;https://gitlab.com/yoginth/publicip/raw/master/Screenshot.png&quot; width=&quot;550&quot;&gt;## Install```$ pip install publicip```## Usage```pythonimport publicippublicip.get()#=&gt; 157.51.77.248```## Get HelpThere are few ways to get help: 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question. 2. For bug reports and feature requests, open issues. 3. For direct and quick help, you can [email me](mailto://yoginth@zoho.com).## How to contributeHave an idea? Found a bug? See [how to contribute][contributing].Thanks!## License[MIT][license][LICENSE]: https://yoginth.mit-license.org/[contributing]: /CONTRIBUTING.md</longdescription>
 </pkgmetadata>

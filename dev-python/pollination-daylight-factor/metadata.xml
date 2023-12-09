@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># daylight-factorDaylight factor recipe for PollinationUse this recipe to calculate daylight factor for a Honeybee model or zippedhoneybee-radiance folder.You can only use a Honeybee model when using the `-viz` tag.[Daylight factor recipe on Pollination](https://app.pollination.cloud/ladybug-tools/recipes/daylight-factor/latest?tab=graph)</longdescription>
 </pkgmetadata>

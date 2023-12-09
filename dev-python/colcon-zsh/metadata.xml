@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>colcon-zsh==========An extension for `colcon-core &lt;https://github.com/colcon/colcon-core&gt;`_ to provide `Z shell &lt;http://www.zsh.org&gt;`_ scripts.</longdescription>
 </pkgmetadata>

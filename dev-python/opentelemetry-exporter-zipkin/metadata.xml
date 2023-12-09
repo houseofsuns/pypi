@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry Zipkin Exporter=============================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-exporter-zipkin.svg   :target: https://pypi.org/project/opentelemetry-exporter-zipkin/This library is provided as a convenience to install all supported OpenTelemetry Zipkin Exporters. Currently it installs:* opentelemetry-exporter-zipkin-json* opentelemetry-exporter-zipkin-proto-httpIn the future, additional packages may be available:* opentelemetry-exporter-zipkin-thriftTo avoid unnecessary dependencies, users should install the specific package once they've determined theirpreferred serialization method.Installation------------::     pip install opentelemetry-exporter-zipkinReferences----------* `OpenTelemetry Zipkin Exporter &lt;https://opentelemetry-python.readthedocs.io/en/latest/exporter/zipkin/zipkin.html&gt;`_* `Zipkin &lt;https://zipkin.io/&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_</longdescription>
 </pkgmetadata>

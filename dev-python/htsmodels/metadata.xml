@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A package that includes methods to forecast hierarchical time series forecasting</longdescription>
 </pkgmetadata>

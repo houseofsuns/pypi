@@ -1,0 +1,16 @@
+BDEPEND=dev-python/pandas[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/python-qbittorrent[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/feedparser[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) >=dev-python/gpep517-15[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?]
+DEFINED_PHASES=compile configure install prepare test unpack
+DESCRIPTION==?utf-8?q?Descarga_tus_peliculas_y_series=2C_automatiza_todo_y_crea_tu_propio_Netflix_=28hecho_con_fines_de_aprendizaje=29_completamente_funcional_=28y_con_m=C3=A1s_contenido_que_el_de_Netflix=29_haciendo_uso_de_Plex=2C_Ombi_y_otras_tecnolog=C3=ADas_m=C3=A1s=2E_=E2=AD=90?=
+EAPI=8
+HOMEPAGE=https://github.com/ElHaban3ro/MovieTool
+INHERIT=python-r1 gs-pypi
+IUSE=python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-python/pandas[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/python-qbittorrent[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/feedparser[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
+REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/4c/60/82ab77bcf5c88f6155970dbe440fd3c6b2825c8b7e87eda247d6684c6654/MovieTool-3.8.3.tar.gz
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	e989dbdcbb647bd8655857c1f95be244	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	flag-o-matic	b97a0a7215b2f463a485ff0599ab30bb	ninja-utils	39e7a84b06eff4efd9f2e0c3d1668b98	gs-distutils-r1	0525f05c7488bc59390b270bd3d76555	g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	gs-pypi	5d35493d186e30ccb1242b91abc6a312
+_md5_=94219e54898b29b2aa04d20d10f5cb48

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># JupyterLite SphinxA Sphinx extension that provides utilities for embedding [JupyterLite](https://jupyterlite.readthedocs.io) in your documentation.## Docshttps://jupyterlite-sphinx.readthedocs.io## ExamplePractical examples are in the [ipycanvas](https://ipycanvas.readthedocs.io) and [ipyleaflet](https://ipyleaflet.readthedocs.io) documentation.## Installation:```bashpip install jupyterlite-sphinx```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The VPP configuration utility can be used to easily configure VPP.</longdescription>
 </pkgmetadata>

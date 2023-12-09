@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Nonemoji自维护的 gitmoji-cli，删减了部分 emoji## 安装```bashpoetry add nonemoji --dev```## 在 pre-commit 中使用```yaml# .pre-commit-config.yamldefault_install_hook_types: [pre-commit, prepare-commit-msg]repos:  - repo: https://github.com/pycqa/isort    rev: 5.10.1    hooks:      - id: isort        stages: [commit]  - repo: https://github.com/psf/black    rev: 22.6.0    hooks:      - id: black        stages: [commit]  - repo: https://github.com/nonebot/nonemoji    rev: v0.1.3    hooks:      - id: nonemoji        stages: [pre-commit-msg]```## 使用### 快速提交使用如下命令，选择一个 emoji 并填写提交信息：```bashnonemoji commit```### 交互式使用```bashnonemoji```</longdescription>
 </pkgmetadata>

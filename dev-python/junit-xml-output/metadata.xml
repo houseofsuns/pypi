@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>*Create junit test xml output from python!*Example Usage~~~~~~~~~~~~~.. code:: python    import junit_xml_output    test_cases = []    test_cases.append(junit_xml_output.TestCase(&quot;first&quot;, &quot;eg_contents&quot;,        &quot;failure&quot;))    junit_xml = junit_xml_output.JunitXml(&quot;example_usage&quot;, test_cases)    print (junit_xml.dump())</longdescription>
 </pkgmetadata>

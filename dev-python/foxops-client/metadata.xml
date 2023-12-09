@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># foxops-client-pythonThis repository contains the Python client for the [foxops](https://github.com/roche/foxops) templating tool.## Installation```shellpip install foxops-client```## Usage```pythonfrom foxops_client import FoxopsClient, AsyncFoxopsClientclient = FoxopsClient(&quot;http://localhost:8080&quot;, &quot;my-token&quot;)incarnations = client.list_incarnations()# or alternatively, the async versionclient = AsyncFoxopsClient(&quot;http://localhost:8080&quot;, &quot;my-token&quot;)incarnations = await client.list_incarnations()```</longdescription>
 </pkgmetadata>

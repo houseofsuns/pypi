@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>digit package 与 digit web 配套使用，下载其digit web中的数据资源并在本地运行</longdescription>
 </pkgmetadata>

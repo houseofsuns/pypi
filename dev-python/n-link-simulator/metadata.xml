@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Simulators for double and quad link pendulum. ## PrerequisitesNumpyC++ Compiler## InstallRun 'pip install n-link-simulator'## AcknowledgementQuad link code is taken from  Chris Atkeson's page (http://www.cs.cmu.edu/~cga/kdc/dynamics-2d/dynamics4.c).The corresponding section is marked.This package only provides a simple method of installation and usage in Python.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Fast fourier transform algorithm implementation## InstallationPython 3.8.15 required for OS XPython 3.5 required for Linux### OS XSimply, run````shellpip install fastfft````### LinuxInstall some additional packages````shellsudo apt-get install build-essentialsudo apt install python-dev gccsudo apt-get install python3-dev````And install the package````shellpip install fastfft````## UsageJust import and use````pythonfrom fastfft.fft import fft2, ifft2matrix = [    [1.0, 2.0],    [3.0, 4.0],]image = fft2(matrix)original = ifft2(image)````</longdescription>
 </pkgmetadata>

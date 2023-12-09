@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>![Upload Python Package](https://github.com/sendpulse/sendpulse-rest-api-python/workflows/Upload%20Python%20Package/badge.svg?event=release)# sendpulse-rest-apiA simple SendPulse REST client library and example for Python.## Install using pipy```shpip install pysendpulse```## ExamplesSee a list of examples [here](https://github.com/sendpulse/sendpulse-rest-api-python/blob/master/pysendpulse/examples/sendpulse-rest-api-example.py)</longdescription>
 </pkgmetadata>

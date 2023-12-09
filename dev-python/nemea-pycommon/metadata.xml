@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The module contains methods for creation and submission of incident reports in IDEA format.</longdescription>
 </pkgmetadata>

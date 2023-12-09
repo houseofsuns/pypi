@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>k8sdc=====An entire datacenters worth of infrastructure running atop Kubernetes.Website http://k8sdc.ioDocumentation https://k8sdc.github.io</longdescription>
 </pkgmetadata>

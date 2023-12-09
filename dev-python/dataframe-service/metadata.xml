@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Pandas DataFrame Service (DFS)## Features    * Simple, ~100 lines multi-threaded file cache implementation    * Key-value store for Panda DataFrames with basic index querying    * Fixed budget memory consumption w/ LRU eviction    * Supports updates on files and dataframes    * Simple TCP client/server interface w/ client-side connection pooling## Limitations    1. Currently does not support replication, though the file system can be (e.g. NAS)## UsageInstall```bash$ pip3 install dataframe-service ```Start server```bash$ dfs_serverServing on 0.0.0.0 port 8000 with max memory 1073741824 at root directory &lt;current dir&gt;```Run DFS REPL```bash$ rlwrap dfs_replWelcome to DFS REPLauthor: Brian Guarracirepo  : https://github.com/briangu/dfscrtl-c to quit?&gt; stats{  &quot;memory&quot;: {    &quot;used&quot;: &quot;0&quot;,    &quot;free&quot;: &quot;1073741824&quot;,    &quot;max&quot;: &quot;1073741824&quot;  }}```</longdescription>
 </pkgmetadata>

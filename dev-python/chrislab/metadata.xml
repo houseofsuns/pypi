@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># chrislabAn advanced tool for doing experimental study## Installation```bashpip install chrislab``````bashgit clone https://github.com/chrisjihee/chrislabcd chrislabpip install .```## Reference- https://pypi.org/project/chrislab/- https://github.com/chrisjihee/chrislab/</longdescription>
 </pkgmetadata>

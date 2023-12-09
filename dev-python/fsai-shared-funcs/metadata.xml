@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># fsai-shared-funcsSimple functions shared across fsai apps.## Installation```shellpoetry add fsai-shared-funcs```</longdescription>
 </pkgmetadata>

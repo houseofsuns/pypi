@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Что этоБиблиотека для работы с файлами и СУБД## Установка через [PiPy](https://pypi.org/project/mg-file/)```bashpip install mg-file```[Документация](https://mg-file.readthedocs.io/ru/latest/)</longdescription>
 </pkgmetadata>

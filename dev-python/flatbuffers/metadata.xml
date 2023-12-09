@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python runtime library for use with the `Flatbuffers &lt;https://google.github.io/flatbuffers/&gt;`_ serialization format.</longdescription>
 </pkgmetadata>

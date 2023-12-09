@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># larzukA command-line tool to help modding-as-code for game Diablo II: Resurrected.## How to Use1. Install this command-line tool via `pip`:    ```shell    $ pip install larzuk    ```2. Write migration scripts in a directory (e.g. `migrations`):    ```python    # Relative path of .txt file you want to modify.    target = 'global/excel/armor.txt'    # Entry function of migration    def migrate(txt_file):        for row in txt_file:            row['minac'] = row['maxac']    ```3. Run `larzuk` command to do migrations:    ```shell    $ larzuk up --target-dir /path/to/d2r/data    ```4. Check file `armor.txt` in data directory, values in column `minac` equal to `maxac`.## ExampleCheck [https://github.com/he-yaowen/Lablo](https://github.com/he-yaowen/Lablo)## LicenseCopyright (C) 2023 HE Yaowen &lt;he.yaowen@hotmail.com&gt;The GNU General Public License (GPL) version 3, see [LICENSE](./LICENSE).</longdescription>
 </pkgmetadata>

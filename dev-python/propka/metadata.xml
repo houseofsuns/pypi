@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PROPKA predicts the pKa values of ionizable groups in proteins (version 3.0) andprotein-ligand complexes (version 3.1 and later) based on the 3D structure.For proteins without ligands both version should produce the same result.The method is described in the following papers, which you should citein publications:* Sondergaard, Chresten R., Mats HM Olsson, Michal Rostkowski, and Jan  H. Jensen. &quot;Improved Treatment of Ligands and Coupling Effects in  Empirical Calculation and Rationalization of pKa Values.&quot; Journal of  Chemical Theory and Computation 7, no. 7 (2011): 2284-2295.* Olsson, Mats HM, Chresten R. Sondergaard, Michal Rostkowski, and Jan  H. Jensen. &quot;PROPKA3: consistent treatment of internal and surface  residues in empirical pKa predictions.&quot; Journal of Chemical Theory  and Computation 7, no. 2 (2011): 525-537.See http://propka.org/ for the PROPKA web server.</longdescription>
 </pkgmetadata>

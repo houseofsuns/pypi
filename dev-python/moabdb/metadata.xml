@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MoabDBThe repository for the official MoabDB Python client.Check out our [official site](https://moabdb.com) for information about MoabDB.## Getting StartedInstall with pip:```bashpip install moabdb```Check out the [docs](https://docs.moabdb.com) and [getting started guide](https://docs.moabdb.com/moabdb.html#getting-started).## DevelopmentContributions will be licensed under the MIT license unless specified otherwise.Before submitting a pull request, make sure that pylint passes. PRs will not be merged without proper linting.```bashpylint moabdb```## LicenseThis client library is licensed under the MIT license.</longdescription>
 </pkgmetadata>

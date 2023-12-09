@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package contains the datetime module from Python version 3.8, packagedfor use on older Python 3.x versions, to ensure you have the latest bugfixesand features (e.g. timezone fold support).Identical to original version with the following modifications:1. Pure Python implementation, no C extension module.2. Any use of f'' format strings has been removed.</longdescription>
 </pkgmetadata>

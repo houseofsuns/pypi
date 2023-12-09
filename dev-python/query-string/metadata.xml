@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/query-string.svg?maxAge=3600)](https://pypi.org/project/query-string/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install query-string```#### Features+   Python 2/3 compatible#### Examples```python&gt;&gt;&gt; import query_string&gt;&gt;&gt; query_string.parse('https://site.org/index.php?k=v&amp;k2=v2&amp;k3=v3#anchor'){'k': 'v','k2': 'v2', 'k3': 'v3'}&gt;&gt;&gt; query_string.parse('k=v&amp;k2=v2&amp;k3=v3'){'k': 'v','k2': 'v2', 'k3': 'v3'}```#### Links+   [Query string - Wikipedia](https://en.wikipedia.org/wiki/Query_string)&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
 </pkgmetadata>

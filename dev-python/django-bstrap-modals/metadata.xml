@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>django-bstrap-modals********************A small library to help write Bootstrap 4 modals. It includes some basetemplates and some Javascript functions for quickly creating and displayingthe dialogs.Installation============.. code-block:: bash    $ pip install django-bstrap-modalsInclude ``bsmodals`` in your ``INSTALLED_APPS`` and make sure that your``APP_DIRS`` setting inside of the ``TEMPLATES`` list is set to ``True``.Supports========django-bstrap-modals has been tested with:* Django 2.2.14 using Python 3.6* Django 3.0.8 using Python 3.6Due to the fact that it is a few templates and some Javascript, testing iscurrently manual, it likely works in other versions. Uses the new-style loadstatic template tag, so may have problems prior to Django 2.1.Docs &amp; Source=============Docs: http://django-bstrap-modals.readthedocs.io/en/latest/Source: https://github.com/cltrudeau/django-bstrap-modals</longdescription>
 </pkgmetadata>

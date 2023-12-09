@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Flow Forecast is the top open source deep learning for time series forecasting and classification framework. We were the original TS framework to contain models like the transformer and have now expanded to include all popular deep learning models.</longdescription>
 </pkgmetadata>

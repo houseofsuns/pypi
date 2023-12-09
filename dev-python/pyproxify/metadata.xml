@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>```pythonproxy = pyproxify.fetch(count=1, google=True, https=True)print(proxy)```</longdescription>
 </pkgmetadata>

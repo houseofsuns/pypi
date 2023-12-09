@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># argparse-extargparse extension;## install    pip install argparse-ext## licenseCopyright (C) 2018-2021 Cyker WayThis program is free software: you can redistribute it and/or modify it underthe terms of the GNU General Public License as published by the Free SoftwareFoundation, either version 3 of the License, or (at your option) any laterversion.This program is distributed in the hope that it will be useful, but WITHOUT ANYWARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR APARTICULAR PURPOSE.  See the GNU General Public License for more details.You should have received a copy of the GNU General Public License along withthis program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</longdescription>
 </pkgmetadata>

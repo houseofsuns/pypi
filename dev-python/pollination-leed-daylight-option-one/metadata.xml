@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># leed-daylight-option-oneLEED daylight recipe option IThis recipe uses the [annual-daylight](https://github.com/pollination/annual-daylight) recipe.</longdescription>
 </pkgmetadata>

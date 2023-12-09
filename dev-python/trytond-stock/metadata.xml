@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>############Stock Module############The *Stock Module* provides the fundamental concepts required for managingstock.This includes keeping track of where the stock is, how much is available,and checking and correcting stock levels.It also allows stock to be moved from one place to another, and delivered toand from customers and suppliers.</longdescription>
 </pkgmetadata>

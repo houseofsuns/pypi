@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># IntentA collection of my frequently rewritten or ignored functionality.Generally tries to just use the standard library, so any 3rd-party libraries need to prove their worth# Assumptions## &gt;= 3.10 Python## Type Everything# Submodules## NdjsonBasic functions for working with ndjson, a newline-delimited list of json objectsUseful for appending data to## Utils## Api## ClyLibrary for Extremely Easy CLI apps## DatetimeSome date and time based helper functions## ErrorsAll errors for the submodules## Sqlite</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># azul-voosScraping de dados de voos da empresa Azul.Utiliza selenium para fazer o scraping.## Driver utilizado- Chrome Driver## Instalação```bashpip install azul_voos```Exemplo de uso:```pythonfrom azul_voos import azulmyScraper = azul.FlightScraper()query_list = [azul.Query('GRU', 'CNF', '10/02/2023'), azul.Query('GRU', 'BSB', '01/05/2023')]results = myScraper.scrape(query_list)```</longdescription>
 </pkgmetadata>

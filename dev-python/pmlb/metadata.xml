@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A Python wrapper for the Penn Machine Learning Benchmark data repository.Contact=============If you have any questions or comments about the Penn Machine Learning Benchmark, please feel free to contact us via e-mail: rso@randalolson.comThis project is hosted at https://github.com/EpistasisLab/penn-ml-benchmarks</longdescription>
 </pkgmetadata>

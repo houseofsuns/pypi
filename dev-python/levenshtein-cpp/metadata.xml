@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># levenshtein-cppA small levenshtein algorithm in cpp</longdescription>
 </pkgmetadata>

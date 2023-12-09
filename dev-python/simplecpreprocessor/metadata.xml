@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># simplepreprocessorUsage---------import simplecpreprocessorThere will be one function called preprocess. It can either be called with a file object orsomething that looks sufficiently like a file object. See unit tests to find out what's enoughfor a compatible wrapper.Line endings are by default normalized to unix but a parameter can be given to customize thisbehaviour.Gotchas---------Supported macros: ifdef, ifndef, define, undef, include, else,pragma (only &quot;once&quot;)If using for FFI, you may want to ignore some system headers eg for typesLimitations: * Multiline continuations supported but whitespace handling may not be 1:1   with real preprocessors. Trailing whitespace is removed if before comment,   indentation from first line is removed * Semi-colon handling may not be identical to real preprocessors</longdescription>
 </pkgmetadata>

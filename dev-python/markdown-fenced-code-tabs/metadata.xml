@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Markdown extension who generates HTML tabs for consecutive fenced code blocks in markdown syntax </longdescription>
 </pkgmetadata>

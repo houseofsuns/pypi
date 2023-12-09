@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># 介绍## 安装```commandlinepip install koobro```</longdescription>
 </pkgmetadata>

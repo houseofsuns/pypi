@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># python-docx*python-docx* is a Python library for reading, creating, and updating Microsoft Word 2007+ (.docx) files.## Installation```pip install python-docx```## Example```python&gt;&gt;&gt; from docx import Document&gt;&gt;&gt; document = Document()&gt;&gt;&gt; document.add_paragraph(&quot;It was a dark and stormy night.&quot;)&lt;docx.text.paragraph.Paragraph object at 0x10f19e760&gt;&gt;&gt;&gt; document.save(&quot;dark-and-stormy.docx&quot;)&gt;&gt;&gt; document = Document(&quot;dark-and-stormy.docx&quot;)&gt;&gt;&gt; document.paragraphs[0].text'It was a dark and stormy night.'```More information is available in the [python-docx documentation](https://python-docx.readthedocs.org/en/latest/)</longdescription>
 </pkgmetadata>

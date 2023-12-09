@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CNN2SNN toolkitThe Brainchip CNN2SNN toolkit provides a means to convert Convolutional NeuralNetworks (CNN) that were trained using Deep Learning methods to a low-latency and low-power Spiking Neural Network (SNN) for use with the Akida Runtime.</longdescription>
 </pkgmetadata>

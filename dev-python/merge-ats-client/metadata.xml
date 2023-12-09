@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The unified API for building rich integrations with multiple Applicant Tracking System platforms.  # noqa: E501</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>django-oauth2======================.. image:: https://travis-ci.org/stormsherpa/django-oauth2-provider.png?branch=master*django-oauth2* is a Django application that providescustomizable OAuth2\-authentication for your Django projects.`Documentation &lt;https://new-django-oauth2.readthedocs.io/en/latest/&gt;`_License=======*django-oauth2* is a fork of *django-oauth2-provider* which is released under the MIT License. Please see the LICENSE file for details.</longdescription>
 </pkgmetadata>

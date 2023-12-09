@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>colcon-recursive-crawl======================An extension for `colcon-core &lt;https://github.com/colcon/colcon-core&gt;`_ to recursively crawl for packages.</longdescription>
 </pkgmetadata>

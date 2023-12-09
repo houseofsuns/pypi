@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Qute WindowCross-platform frameless window based on Python and Qt## Examples### Qute Window on macOS&lt;p align=&quot;center&quot;&gt;  &lt;img src=&quot;readme/mac_qute_window.gif&quot;)&gt;&lt;/p&gt;### Qute Window on Windows&lt;p align=&quot;center&quot;&gt;  &lt;img src=&quot;readme/win32_qute_window.gif&quot;)&gt;&lt;/p&gt;## Features* Moving (the title bar area is draggable)* Stretching* Native window shadow* Native window animations* Win11 snap layout## Installing via PIP```shellpip install qutewindow```## UsageHere is a minimal example:```pythonimport sysfrom PySide6.QtWidgets import QApplicationfrom qutewindow import QuteWindowif __name__ == &quot;__main__&quot;:    app = QApplication(sys.argv)    demo = QuteWindow()    demo.show()    sys.exit(app.exec())```</longdescription>
 </pkgmetadata>

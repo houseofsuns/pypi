@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A library for consuming messages from hpfeeds honeypots and normalizing them</longdescription>
 </pkgmetadata>

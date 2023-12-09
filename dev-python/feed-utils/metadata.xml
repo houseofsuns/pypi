@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>#distributing1. set ```TWINE_USERNAME``` and ```TWINE_PASSWORD```2. do ```./release.sh```# testing1. run unit tests     python -m unittest feed2. run unit tests in pdb    python -m pdb &lt;test_file_path&gt; &lt;ClassName&gt;.&lt;test_method&gt;</longdescription>
 </pkgmetadata>

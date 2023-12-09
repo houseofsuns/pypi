@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>API for making servers and clients to connect to those servers. Includes end to end encryption!github: https://github.com/JustRedTTG/hexicapi</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>stash is an extensible and lightweight cache library for python</longdescription>
 </pkgmetadata>

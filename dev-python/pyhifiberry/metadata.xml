@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pyhifiberryPython library to interface with Hifiberry OS API (audiocontrol2). There are two APIs available:* [REST](https://github.com/hifiberry/audiocontrol2/blob/master/doc/api.md)* [socketio](https://github.com/hifiberry/audiocontrol2/blob/master/doc/socketio_api.md)This package is targeting mainly the needs for a [hifiberry integration for Home assistant](https://github.com/willholdoway/hifiberry).## Usage example of the socketio APIRuns for 100 secs and prints artist name if metadata events occure.``` pythonimport asynciofrom pyhifiberry.audiocontrol2sio import Audiocontrol2SIOdef metadata_callback(metadata):    print(metadata['artist'])async def main():    api = await Audiocontrol2SIO.connect(&lt;HIFIBERRY_IP&gt;, &lt;HIFIBERRY_PORT&gt;)    api.metadata.add_callback(metadata_callback)    await asyncio.sleep(100)if __name__ == '__main__':    asyncio.run(main())```</longdescription>
 </pkgmetadata>

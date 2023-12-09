@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># jadecobra# Modules- toolkit- aws  - lambda_deployer    - deploy_lambda_function    - deploy_lambda_layer    - deploy_lambda  - environment</longdescription>
 </pkgmetadata>

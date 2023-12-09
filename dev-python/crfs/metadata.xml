@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># crfs[![GitHub Actions](https://github.com/messense/crfs-rs/workflows/Python/badge.svg)](https://github.com/messense/crfs-rs/actions?query=workflow%3APython)[![PyPI](https://img.shields.io/pypi/v/crfs.svg)](https://pypi.org/project/crfs)Python wrapper of the [crfs-rs](https://github.com/messense/crfs-rs) Rust crate.## Installation```bashpip install crfs```## LicenseThis work is released under the MIT license. A copy of the license is provided in the [LICENSE](../LICENSE) file.</longdescription>
 </pkgmetadata>

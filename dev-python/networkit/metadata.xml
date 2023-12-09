@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>NetworKit is a growing open-source toolkit for high-performance network analysis.Its aim is to provide tools for the analysis of large networks in the size rangefrom thousands to billions of edges. For this purpose, it implements efficientgraph algorithms, many of them parallel to utilize multicore architectures. Theseare meant to compute standard measures of network analysis, such as degreesequences, clustering coefficients and centrality. Inthis respect, NetworKit is comparable to packages such as NetworkX, albeit with afocus on parallelism and scalability. NetworKit is also a testbed for algorithmengineering and contains a few novel algorithms from recently publishedresearch, especially in the area of community detection.</longdescription>
 </pkgmetadata>

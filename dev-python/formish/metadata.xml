@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Formish is a schema backed, templating language agnostic form generation and handling library. It's main features are its granular components and its ability to create quite complex forms (including sequences, groups, sequences of groups, groups of sequences, etc). It has a built in mako templating library but should be straightforward to add other templating systems. It also has strong support for file uploads with a default tempfile storage handler. It uses `schemaish &lt;http://schema.ish.io&gt;`_ for its schema, `validatish &lt;http://validat.ish.io&gt;`_ for validation and `convertish &lt;http://convert.ish.io&gt;`_ for type coercion. Have a look at some examples at `http://test.ish.io &lt;http://test.ish.io&gt;`_ or view the project site at `http://form.ish.io &lt;http://form.ish.io&gt;`_      Changlog at `http://github.com/ish/formish/raw/master/CHANGELOG &lt;http://github.com/ish/formish/raw/master/CHANGELOG&gt;`_</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Jenfi Pipeline Data AppDesigned to allow teams to access Jenfi's data sources in a Jupyter Notebook.## Docs[View public API doc](https://jenfi-eng.github.io/pipeline-data-app) for using in Jupyter notebook.## Basic Usage```pythonfrom jenfi_pipeline_data_app import PipelineDataApp as JenfiJenfi.ROOT_DIR # =&gt; /Your/app/root/dir```Setup a `.env` file in the folder of `Jenfi.ROOT_DIR`## Maintaining this repo- Build pdoc - `pdoc --html --force --output-dir ./docs jenfi_pipeline_data_app`</longdescription>
 </pkgmetadata>

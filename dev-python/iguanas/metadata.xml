@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># What is Iguanas?Iguanas is a fast, flexible and modular Python package for:* Generating new rules using a labelled dataset.* Optimising existing rules using a labelled or unlabelled dataset.* Combining rule sets and removing/filtering those which are unnecessary.* Generating rule scores based on their performance.It aims to help streamline the process for developing a deployment-ready Rules-Based System (RBS) for **binary classification use cases**.</longdescription>
 </pkgmetadata>

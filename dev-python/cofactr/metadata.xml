@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CofactrPython client library for accessing Cofactr.## Example```pythonfrom typing import Listfrom cofactr.graph import GraphAPI# Flagship is the default schema.from cofactr.schema.flagship.part import Partgraph = GraphAPI(client_id=..., api_key=...)part_res = graph.get_product(id=&quot;IM60640MOX6H&quot;)part: Part = part_res[&quot;data&quot;]parts_res = graph.get_products(query=&quot;esp32&quot;)parts: List[Part] = parts_res[&quot;data&quot;]```</longdescription>
 </pkgmetadata>

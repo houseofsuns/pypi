@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Cosmos is a library for writing analysis pipelines, and is particularly suited pipelines which analyze next generation sequencing genomicdata. See https://github.com/Mizzou-CBMI/COSMOS2 for details.</longdescription>
 </pkgmetadata>

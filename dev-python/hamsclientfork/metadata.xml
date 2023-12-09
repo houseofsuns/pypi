@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>meteoswiss==========.. image:: https://img.shields.io/pypi/v/meteoswiss.svg    :target: https://pypi.python.org/pypi/meteoswiss    :alt: Latest PyPI version.. image:: https://github.com/websylv/meteoswiss.png   :target: https://github.com/websylv/meteoswiss   :alt: Latest Travis CI build statusLibrary to get data from meteo swissNOT ready for production ! for the moment it's just a draft to do some testsUsage-----Installation------------Requirements^^^^^^^^^^^^    requests&gt;=2.22.0    pandas&gt;=0.25.3    beautifulsoup4&gt;=4.8.2    May probably work with older versions but not testedCompatibility-------------Licence-------Authors-------`meteoswiss` was written by `websylv &lt;div@webhu.org&gt;`_.</longdescription>
 </pkgmetadata>

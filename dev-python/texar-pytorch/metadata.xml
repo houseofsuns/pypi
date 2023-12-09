@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Texar-PyTorch is an open-source toolkit based on PyTorch,aiming to support a broad set of machine learning especially text generationtasks, such as machine translation, dialog, summarization, content manipulation,language modeling, and so on.Texar is designed for both researchers and practitioners for fast prototypingand experimentation. Checkout https://github.com/asyml/texar for the TensorFlowversion which has the same functionalities and (mostly) the same interfaces.</longdescription>
 </pkgmetadata>

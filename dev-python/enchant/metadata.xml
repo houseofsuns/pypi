@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># EnchantThis package makes it easier to integrate with Enchant.com## UsageTo generate Enchant Messenger embed codes:```pythonfrom enchant import messengermessenger.embed_code(&quot;abc&quot;)```## Planned* API helpers to simplify using Enchant's REST API</longdescription>
 </pkgmetadata>

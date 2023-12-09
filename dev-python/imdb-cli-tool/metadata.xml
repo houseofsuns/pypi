@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python program to pull information from IMDb about actors.GitHub link: (https://github.com/Zocozoro/imdb)Requires IMDbPy v6.6 (https://pypi.org/project/IMDbPY/)</longdescription>
 </pkgmetadata>

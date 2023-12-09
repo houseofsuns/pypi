@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>'The Python Script editor extension contains support for Python files, which can take advantage of the Hybrid Runtime Support enabling users to locally edit, execute and debug .py scripts against local or cloud-based resources.See https://elyra.readthedocs.io/en/v3.15.0/user_guide/enhanced-script-support.html'</longdescription>
 </pkgmetadata>

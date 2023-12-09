@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Linux Test](https://github.com/leonardt/hwtypes/actions/workflows/linux-test.yml/badge.svg)](https://github.com/leonardt/hwtypes/actions/workflows/linux-test.yml)# Install## Debian```apt install libgmp-dev libmpfr-dev libmpc-devpip install hwtypes```## OSX```brew install gmp mpfr libmpcpip install hwtypes```## CentOS```yum install libmpc-devel mpfr-devel gmp-develpip install hwtypes```</longdescription>
 </pkgmetadata>

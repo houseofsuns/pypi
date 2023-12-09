@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Emmett-CryptoA set of cryptographic functions and utilities for [Emmett framework](https://emmett.sh).[![pip version](https://img.shields.io/pypi/v/emmett-crypto.svg?style=flat)](https://pypi.python.org/pypi/emmett-crypto)![tests status](https://github.com/emmett-framework/crypto/workflows/test/badge.svg)## LicenseEmmmett-Crypto is released under the BSD License.</longdescription>
 </pkgmetadata>

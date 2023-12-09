@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># AXIO to Zarr converterConvert AXIOSCAN dataset to Zarr.NOTE: only those AXIOSCAN datasets with SCMYX dimensions where S=1 are supported at the moment.## Install```pip install axio2zarr```### Requirements* aicspylibczi* click* dask* numpy* xarray* zarray## Usage### From Python script```from axio2zarr import axio2zarraxio2zarr(input_path, output_path)```### From command line```axio2zarr input_path output_path</longdescription>
 </pkgmetadata>

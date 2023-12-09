@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Derk's GymMOBA-style reinforcement learning environment, based on the game &quot;Dr. Derk's Mutant Battlegrounds&quot;.Read more: https://gym.derkgame.comDocumentation: http://docs.gym.derkgame.com</longdescription>
 </pkgmetadata>

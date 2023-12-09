@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># NeqSimAPI-connectorA python package to simplify calling NeqSimAPI for end-users handling authentication.  See https://neqsimapi.app.radix.equinor.com/docs for available endpoints.# UsageSee [https://github.com/equinor/neqsimapi-connector/blob/main/example/demo.py](/example/demo.py) for a simple demo that connects and gets data from NeqSimAPI.A short snippet is seen below```pythonfrom neqsimapi_connector.Connector import Connector as neqsim_api_connectordata = {          &quot;fluid&quot;: &quot;CO2&quot;,          &quot;initial_temperature&quot;: 25,          &quot;initial_pressure&quot;: 15        }c = neqsim_api_connector()res = c.post(&quot;DEMO/demo-process&quot;, data=data)print(res)```# Install using pipUsage of NeqSimAPI is limited to equinor users, but the package is available on pip.  ```python -m pip install neqsimapi_connector```</longdescription>
 </pkgmetadata>

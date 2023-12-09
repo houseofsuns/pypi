@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Beta calibration - Python packageThis package provides a BetaCalibration class which allows the user to fit any of our three proposed beta calibration models. For the paper and tutorials, check [https://betacal.github.io/](https://betacal.github.io/).## Dependencies* [Numpy] - NumPy is the fundamental package for scientific computing with  Python.* [Scikit-learn] - Machine Learning in Python.## Usage - Install from pip using &quot;pip install betacal&quot; - Alternatively, download from the repository, cd to the folder and use &quot;pip install .&quot; - Once installed, import the package using &quot;import betacal&quot; ## UnittestCreate a virtual environment with the necessary dependencies```virtualenv venv. ./venv/bin/activatepip install -r requirements.txt```and then run the script runtests.sh```bash runtests.sh```## LicenseMIT[//]: # (References)   [Numpy]: &lt;http://www.numpy.org/&gt;   [Scikit-learn]: &lt;http://scikit-learn.org/&gt;</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pyrad is a Python module containingthe utilities that run the MeteoSwiss radar processing framework.It is designed so that it accepts a growing number of radar data types.The core of the processing is performed by the module Py-ART.</longdescription>
 </pkgmetadata>

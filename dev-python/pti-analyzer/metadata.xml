@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>#####PTI Analyzer#####*****How to install*****    $ pip install pti-analyzer*****LICENSE*****`Apache V2 License &lt;https://www.apache.org/licenses/LICENSE-2.0&gt;`_</longdescription>
 </pkgmetadata>

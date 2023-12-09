@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>### Install ### SYNOPSIS  sticky [option] [files]  * DESCRIPTIONSticky on terminal.By deault it will read from stdin.  * Options:    -v : list all stickies    -clean: clean up stickies</longdescription>
 </pkgmetadata>

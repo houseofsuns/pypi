@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>######################Account Payment Module######################The *Account Payment Module* manages the receivable and payable payments.A payment is an order to pay an amount to a party or to receive an amount froma party.Such order can be electronic payment, bank order or checks.</longdescription>
 </pkgmetadata>

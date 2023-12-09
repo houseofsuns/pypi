@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># LF ToolsThis project's documentation is available on ReadTheDocs (RTD)&lt;https://lf-releng-tools.readthedocs.io&gt;LF Tools is a collection of scripts and utilities that are useful to LinuxFoundation projects' CI and Releng related activities. We try to createthese tools to be as generic as possible such that they are reusable in otherCI environments.Ubuntu Dependencies:- build-essentials- python-dev</longdescription>
 </pkgmetadata>

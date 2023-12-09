@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Response ReportSave the httpx-response from the server. This may be needed when debugging.```pythonfrom httpx import Clientfrom response_report import Reporterclient = Client()response = client.get(&quot;https://pfel.cc/donate&quot;)Reporter(response).save('donate_report.txt')```</longdescription>
 </pkgmetadata>

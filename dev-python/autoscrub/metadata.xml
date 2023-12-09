@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># autoscrubautoscrub is a command line tool that automates the production of educational videos by increasing the playback speed during silent segments.## DocumentationDocumentation, along with installation instructions, are available at [http://autoscrub.readthedocs.io/](http://autoscrub.readthedocs.io/)## Licenceautoscrub is licensed under the GPLv3 licence.## ContributingPlease see [contributing.md](https://github.org/philipstarkey/autoscrub/src/tip/contributing.md)</longdescription>
 </pkgmetadata>

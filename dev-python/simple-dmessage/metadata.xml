@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Simple Message BotThis bot is designed to send a custom direct message to a user on discord.## Example```pythonimport asynciofrom message import send_direct_messageasync def my_script():    # Your script code goes here    await send_direct_message(TOKEN, USER_ID, &quot;Hello, World!&quot;)async def main():    await my_script()asyncio.run(main())```### WhyI wanted an easy way to get remote notfications from scripts </longdescription>
 </pkgmetadata>

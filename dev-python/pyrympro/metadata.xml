@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pyrymproA python library to communitcate with [Read Your Meter Pro](https://rym-pro.com/).## InstallationYou can install pyvolumio from [PyPI](https://pypi.org/project/pyvolumio/):    pip3 install pyrymproPython 3.7 and above are supported.## How to use```pythonfrom pyrympro import RymProrym = RymPro()# you can also pass in your own sessionrym = RymPro(session)# device_id can be anything you chooseawait rym.login(&quot;&lt;email&gt;&quot;, &quot;&lt;password&gt;&quot;, &quot;&lt;device_id&gt;&quot;)info = await rym.account_info()meter_reads = await rym.last_read()...```</longdescription>
 </pkgmetadata>

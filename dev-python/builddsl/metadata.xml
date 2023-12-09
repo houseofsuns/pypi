@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># builddslA superset of the Python programming language with support for closures and multi-line lambdas.BuildDSL is an &quot;almost superset&quot; of Python 3; adding a lot of syntactical features that make it moreconvenient to describe build configurations at the cost of some other syntax features of the native Pythonlanguage (like set literals).## Installation    $ pip install builddslThe `builddsl` package requires at least Python 3.8.## Projects using BuildDSL* [Novella](https://niklasrosenstein.github.io/novella/)</longdescription>
 </pkgmetadata>

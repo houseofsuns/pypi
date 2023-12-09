@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## SHAPES RECOGNITION**shapes recognition** is a New Recognition Technology### Installation```pip install shapes-recognition```### About &quot;shapes-recognition&quot;Recognition is an intrinsic property of the human intellect. Kids around two years old recognize shapes even if they differ in size and position or are severely deformed. &lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://boriskravtsov.com/pypi/shapes.png&quot;/&gt;To simulate such recognition capability, we introduce the **shapes-recognition** library.[Here](https://kravtsov-development.medium.com/amazing-ai-tables-44af52c993a2) we show how to use it. </longdescription>
 </pkgmetadata>

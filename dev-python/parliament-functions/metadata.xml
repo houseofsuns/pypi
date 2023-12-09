@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ParliamentParliament is a framework for invoking functions over HTTP. Ithandles routing, liveness and readiness endpoints, and CloudEventextraction.Function developers write functions that take a dictionary as thesingle parameter. There is a `request` object in the dictionarythat is the Flask `request`object`. If the incoming request is aPOST of a CloudEvent, the event will be extracted and provided as a`cloud_event` object in the dictionary.[![Mothership Connection](parliament.jpg)](https://www.youtube.com/watch?v=gBWH3OWfT2Y)</longdescription>
 </pkgmetadata>

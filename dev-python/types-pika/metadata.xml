@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;a href=&quot;http://mypy-lang.org/&quot;&gt;&lt;img src=&quot;http://mypy-lang.org/static/mypy_light.svg&quot; alt=&quot;mypy logo&quot; width=&quot;300px&quot;/&gt;&lt;/a&gt;# Typing stubs for Pika libraryThis package contains [type stubs](https://www.python.org/dev/peps/pep-0561/) to provide more precise static types and type inference for [pika](https://github.com/pika/pika), the RabbitMQ client library.## Installation```bashpip install types-pika```That's all, run Mypy and it should be able to pick up these stubs.</longdescription>
 </pkgmetadata>

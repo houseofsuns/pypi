@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This module provides a cross-platform way to retrieve system uptime and boot time.See documentation for a full list of supported platforms (yours is likely one of them).</longdescription>
 </pkgmetadata>

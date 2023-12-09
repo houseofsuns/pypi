@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Atomap## Webpage: https://atomap.orgWebpage (development version): https://gitlab.com/atomap/atomap/builds/artifacts/master/file/public_development/index.html?job=pages_developmentAtomap is a Python library for analysing atomic resolutionscanning transmission electron microscopy images.It relies on fitting 2-D Gaussian functions to every atomiccolumn in an image, and automatically finding all the atomicplanes with the largest spacings.Installing----------The easiest way is via PyPI:```bashpip3 install atomap```More install instructions: https://atomap.org/install.htmlUsing-----```pythonimport atomap.api as amsublattice = am.dummy_data.get_simple_cubic_sublattice()sublattice.construct_zone_axes()sublattice.refine_atom_positions_using_center_of_mass()sublattice.plot()```More information on how to use Atomap: https://atomap.org/start_atomap.html</longdescription>
 </pkgmetadata>

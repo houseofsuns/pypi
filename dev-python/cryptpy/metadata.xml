@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>![Logo](http://mattnappo.com/crypt.png)[![Build Status](https://travis-ci.com/mitsukomegumi/CryptPy.js.svg?branch=master)](https://travis-ci.com/mitsukomegumi/CryptPy.js)___Dynamically programmable Python botnet (educational purposes only).## Installation### Core Installation with PIP (botnet sources)```BASHpip install cryptpy```### Building the Node Source (GUI Implementation)Note: requires installation of cryptpyFirst, `cd payload/vbucks`.Build for MacOS:1. `npm i`2. `yarn dist`Build for Windows:1. `npm i`2. `npm run dist`## UsageStart a Server:```bashcryptpy --server --terminal```Start and Register a Bot:```bashcryptpy```</longdescription>
 </pkgmetadata>

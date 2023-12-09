@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Browserify filter for webassets-------------------------------Filter for for compiling assets using `Browserify &lt;http://browserify.org&gt;`_ and`webassets &lt;http://webassets.readthedocs.org&gt;`_.Basic usage```````````.. code:: python    from webassets.filter import register_filter    from webassets_browserify import Browserify    register_filter(Browserify)Usage with Django`````````````````This requires `django-assets &lt;http://django-assets.readthedocs.org&gt;`_... code:: python    from django_assets import Bundle, register    from webassets.filter import register_filter    from webassets_browserify import Browserify    register_filter(Browserify)    js = Bundle('js/main.js', filters='browserify', output='bundle.js',                depends='js/**/*.js')    register('js_all', js)</longdescription>
 </pkgmetadata>

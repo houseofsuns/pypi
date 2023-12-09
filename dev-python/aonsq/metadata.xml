@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># aonsqnsq client## Example```pythonimport orjsonimport asynciofrom datetime import datetime, timezonefrom loguru import loggerfrom aonsq import NSQMessage, NSQasync def msg_handler(msg: NSQMessage) -&gt; bool:    logger.debug(f&quot;msg: {msg.id}&quot;)    return Trueasync def test():    mq = NSQ(host=&quot;127.0.0.1&quot;, port=4071)    await mq.connect()    await mq.sub(&quot;demo&quot;, &quot;test&quot;, msg_handler)    while True:        for j in range(1000):            await mq.pub(&quot;demo&quot;, orjson.dumps({&quot;id&quot;: j, &quot;ts_created&quot;: datetime.now(timezone.utc)}))        await asyncio.sleep(1)try:    asyncio.get_event_loop().run_until_complete(test())except KeyboardInterrupt:    pass```</longdescription>
 </pkgmetadata>

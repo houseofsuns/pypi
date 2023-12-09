@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. -*-restructuredtext-*-.. image:: https://github.com/ubernostrum/django-contact-form/workflows/CI/badge.svg   :alt: CI status image   :target: https://github.com/ubernostrum/django-contact-form/actions?query=workflow%3ACIThis application provides extensible contact-form functionality for`Django &lt;https://www.djangoproject.com/&gt;`_ sites.Full documentation for all functionality is included and is also`available online &lt;http://django-contact-form.readthedocs.io/&gt;`_.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># py-fastapi-logging## ENV-переменные для управления логами#### Уровень логов. debug - для площадок отладки, info - для PROMLOG_LEVEL=info#### Формат логов: SIMPLE (обычный) или JSON (JSON-STDOUT - лог в формате json в поток stdout)LOG_FORMAT=SIMPLE#### Папка, в которой будут лежать логиLOG_DIR=/var/log/&lt;APP NAME&gt;#### Название файла логаLOG_FILENAME=production.log#### Добавление переменных в лог (JSON-формат) из переменных окруженияLOG_ENV_EXTRA=&quot;field1:ENV_VAR_NAME_1,field2:ENV_VAR_NAME_2&quot;## Интеграция в FastAPI приложение```pythonfrom fastapi import FastAPIfrom py_fastapi_logging.middlewares.logging import LoggingMiddlewareapp = FastAPI()app.add_middleware(LoggingMiddleware, app_name='my_app_name')```## Использование логгера в приложениях не на FastAPI```pythonimport loggingfrom py_fastapi_logging.config.config import init_loggerinit_logger(app_name='my_app_name')logger = logging.getLogger()```</longdescription>
 </pkgmetadata>

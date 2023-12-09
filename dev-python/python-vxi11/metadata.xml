@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This Python package supports the VXI-11 Ethernetinstrument control protocol for controlling VXI11 and LXI compatible instruments.</longdescription>
 </pkgmetadata>

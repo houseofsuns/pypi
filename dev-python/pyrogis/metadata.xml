@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pyrogis is now pierogisThis package has been renamed. Use `pip install pierogis` instead.New package: https://pypi.org/project/pierogis/</longdescription>
 </pkgmetadata>

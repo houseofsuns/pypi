@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Buckets AdapterBuckets Adapter Django module is a base for upload files on bucket for different web services e.g Google Cloud Platform or Amazon Web Services which will be used as a package in different projects.</longdescription>
 </pkgmetadata>

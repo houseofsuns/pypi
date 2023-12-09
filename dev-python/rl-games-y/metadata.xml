@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a test package based on the original rl-games: (https://github.com/Denys88/rl_games/tree/master)</longdescription>
 </pkgmetadata>

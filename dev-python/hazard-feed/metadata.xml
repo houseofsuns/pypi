@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=====Hazard_feed=====Hazard_feed is a Django app to get storm warnings from http://www.pogoda.by conduct Web-based polls and send notifications by email to subscribed recipents.Quick start-----------1. Add &quot;hazard_feed&quot;, &quot;corsheaders' and others to your INSTALLED_APPS setting like this::    INSTALLED_APPS = [        ...        'corsheaders',        'django_rq',        'tinymce',        'rest_framework',        'drf_yasg',        'hazard_feed',    ]2. Define next email settings in settings.py or your environment viriables:        WEATHER_EMAIL_SMTP_HOSTWEATHER_EMAIL_SMTP_PORT            WEATHER_USE_TSL            WEATHER_EMAIL_HOST_USER WEATHER_EMAIL_HOST_PASSWORD3. Define in settings.pyWEATHER_EMAIL_FROM4. Add &quot;corsheaders' settings to your settings.py      CORS_ORIGIN_ALLOW_ALL = True5. Define django_rq settings6. Start rqworker and rqscheduler7. For websocket works add channels redis and configure it as channels documentation 8. Run `python manage.py migrate` to create the azard_feed models.</longdescription>
 </pkgmetadata>

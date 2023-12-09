@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Provides smtplib compatible API for sending Internet mail messages,Most Un*x Mail Transfer Agents (MTAs) supply a /usr/sbin/sendmailprogram for queuing mail messages without requiring a local (or remote)SMTP server.Compatible with 'sendmail' and 'postfix' MTAs.Not meant for use inside single-process containers!Your mileage may vary.Offer void where prohbited by law.Prior results do not guarantee a similar outcome.Packaged by weight, not volume, some settling may have occurred.Members of the immediate family are not eligible to participate and win.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># petrovnaБиблиотека для валидации БИК, ИНН, КПП, ОГРН, ОГРНИП, Корр. счета, Номера р/с, СНИЛС![coverage](https://git.appkode.ru/mozen/mz_validators/badges/master/coverage.svg?job=test)Установка```bashpip install petrovna``````pythonimport petrovnabic_is_valid: bool = petrovna.validate_bic('&lt;БИК&gt;')inn_is_valid: bool  = petrovna.validate_inn('&lt;ИНН&gt;')kpp_is_valid: bool  = petrovna.validate_kpp('&lt;КПП&gt;')corr_account_is_valid: bool  = petrovna.validate_ks('&lt;КОРРЕСПОНДЕНТСКИЙ_СЧЕТ&gt;', '&lt;БИК&gt;')ogrn_is_valid: bool  = petrovna.validate_ogrn('&lt;ОГРН&gt;')ogrnip_is_valid: bool  = petrovna.validate_ogrnip('&lt;ОГРНИП&gt;')account_number_is_valid: bool  = petrovna.validate_rs('&lt;НОМЕР_Р/С&gt;', '&lt;БИК&gt;')snils_is_valid: bool  = petrovna.validate_snils('&lt;СНИЛС&gt;')# Для возврата валидатором списка ошибок, помимо признака валидности, следует указать аргумент 'errors=True'valid, error = petrovna.validate_bic('&lt;БИК&gt;', errors=True)```</longdescription>
 </pkgmetadata>

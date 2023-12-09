@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>luhn====|pypi| |buildstatus| |coverage|Generate and verify Luhn check digitsInstall with::    pip install luhnUse ``verify`` to check digit strings.. code:: python    &gt;&gt;&gt; from luhn import *    &gt;&gt;&gt; verify('356938035643809')    True    &gt;&gt;&gt; verify('534618613411236')    Falseand use ``generate`` to produce them.. code:: python    &gt;&gt;&gt; generate('53461861341123')    4or ``append`` for convenience.. code:: python    &gt;&gt;&gt; append('53461861341123')    '534618613411234'.. |pypi| image:: https://img.shields.io/pypi/v/luhn.svg?style=flat-square   :target: https://pypi.python.org/pypi/luhn.. |buildstatus| image:: https://img.shields.io/travis/mmcloughlin/luhn.svg?style=flat-square   :target: https://travis-ci.org/mmcloughlin/luhn.. |coverage| image:: https://img.shields.io/coveralls/mmcloughlin/luhn.svg?style=flat-square   :target: https://coveralls.io/r/mmcloughlin/luhn</longdescription>
 </pkgmetadata>

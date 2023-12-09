@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## OverviewThis is the general-purpose CS 61A command-line task runner, used to manage our various services.</longdescription>
 </pkgmetadata>

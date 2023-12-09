@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># hydenv-databaseMulti-origin multi-purpose database management tools for the database lecture## InstallYou can install all tools at once using a Python &gt; 3.5 with pip:```bashpip install hydenv```## Docs~Documentation can be found here: https://data-hydenv.github.io/hydenv-database~This will be replaced at some point</longdescription>
 </pkgmetadata>

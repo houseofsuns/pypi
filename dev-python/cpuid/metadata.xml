@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cpuid &lt;a target=&quot;_blank&quot; href=&quot;https://travis-ci.org/fpelliccioni/cpuid-py&quot;&gt;![Travis status][badge.Travis]&lt;/a&gt; &lt;a target=&quot;_blank&quot; href=&quot;https://ci.appveyor.com/project/fpelliccioni/cpuid-py&quot;&gt;![Appveyor status][badge.Appveyor]&lt;/a&gt;&gt; cpuid Pythonic API## Getting started### Stable version:```    $ pip install --upgrade cpuid```### Development version:```    $ pip install --upgrade --index-url https://test.pypi.org/pypi/ cpuid```&lt;!-- Links --&gt;[badge.Appveyor]: https://ci.appveyor.com/api/projects/status/github/fpelliccioni/cpuid-py?svg=true&amp;branch=master[badge.Travis]: https://travis-ci.org/fpelliccioni/cpuid-py.svg?branch=master</longdescription>
 </pkgmetadata>

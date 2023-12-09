@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># aioEcoWittSimple python library for the EcoWitt ProtocolInspired by pyecowit &amp; ecowitt2mqtt</longdescription>
 </pkgmetadata>

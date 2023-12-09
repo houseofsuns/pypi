@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># BD103 Python PackageThese are some utility modules and fun stuff that might make a good dependency. There are some subpackages that has special purposes.- `bd103.ext`: Contains extensions and plugins to other Python packages- `bd103.shared`: Contains modules that are shared between different implementations of BD103's library- `bd103.data`: Contains data types for various formats## Installation```shellpython -m pip install -U bd103```## Getting StartedA good idea is too look through the [documentation](https://bd103.github.io/BD103-Python/) to find modules that might pique your interest. A recommended one is the [decorators](https://bd103.github.io/BD103-Python/api/decorators.html) module.## ContributingFeel free to submit a PR if you want to contribute to the package. For more information, see [CONTRIBUTING.md](CONTRIBUTING.md).</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MkDocs Img2Fig PluginThis [MkDocs](https://www.mkdocs.org) plugin converts markdown encoded images like```![An image caption](\assets\images\my-image.png)```into ```html&lt;figure class=&quot;figure-image&quot;&gt;  &lt;img src=&quot;\assets\images\my-image.png&quot; alt=&quot;An image caption&quot;&gt;  &lt;figcaption&gt;An image caption&lt;/figcaption&gt;&lt;/figure&gt;```## RequirementsThis package requires Python &gt;=3.5 and MkDocs version 1.0 or higher.  ## InstallationInstall the package with pip:```cmdpip install mkdocs-img2fig-plugin```Enable the plugin in your `mkdocs.yml`:```yamlplugins:    - search    - img2fig```**Note:** If you have no `plugins` entry in your config file yet, you'll likely also want to add the `search` plugin. MkDocs enables it by default if there is no `plugins` entry set, but now you have to enable it explicitly.More information about plugins in the [MkDocs documentation](https://www.mkdocs.org/user-guide/plugins/)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>App guardians.# Usage```pythonimport asynciofrom typing import Any, Dictfrom codefast.asyncio.rabbitmq import consumefrom rich import printfrom custodes.server import getfrom custodes.client import postasync def main():    return await asyncio.gather(        post('custodes server', {'code': 0, 'message': 'OK'}, loop=True, expire=120),        get()    )if __name__ == '__main__':    cf.info('custodes server started...')    asyncio.run(main())```</longdescription>
 </pkgmetadata>

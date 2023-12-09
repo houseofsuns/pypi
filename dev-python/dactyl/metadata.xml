@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># DactylDocumentation tools for enterprise-quality documentation from Markdown source. Dactyl has advanced features to enable [single-sourcing](https://en.wikipedia.org/wiki/Single_source_publishing) and an extensible syntax for building well-organized, visually attractive docs. It generates output in HTML (natively), and can make PDFs if you have [Prince][] installed.[Prince]: http://www.princexml.com/## InstallationDactyl requires [Python 3](https://python.org/). Install with [pip](https://pip.pypa.io/en/stable/):```sudo pip3 install dactyl```Or a local install in a virtualenv:```sh# Create an activate a virtualenv so the package and dependencies are localizedvirtualenv -p `which python3` venv_dactylsource venv_dactyl/bin/activatepip3 install dactyl```## DocumentationDactyl's documentation is built from this repository's [examples/](examples/) section. You can see the finished version at:&gt; &lt;https://dactyl.link&gt;</longdescription>
 </pkgmetadata>

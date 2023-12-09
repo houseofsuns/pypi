@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This module provides functions to decode and encode Geohashes to and from latitude and longitude coordinates.</longdescription>
 </pkgmetadata>

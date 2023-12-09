@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># gnosis-py is now safe-eth-pyThis package has been renamed. Use `pip install safe-eth-py` instead.New package:    - https://pypi.org/project/safe-eth-py/    - https://github.com/safe-global/safe-eth-py</longdescription>
 </pkgmetadata>

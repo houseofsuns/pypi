@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A Python library for developing customized optimization algorithms under generalizable paradigms like simulated annealing and branch and bound. Also features continuous training, so algorithms can be run multiple times and resume from where they left off in previous runs.</longdescription>
 </pkgmetadata>

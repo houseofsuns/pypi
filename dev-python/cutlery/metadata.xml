@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># 🍴 cutleryThis Python library provides word-/sentencepiece tokenizers. The followingtypes of tokenizers are currenty supported:| Tokenizer | Binding       | Example model || --------- | ------------- | ------------- || BPE       | sentencepiece |               || Byte BPE  | Native        | RoBERTa/GPT-2 || Unigram   | sentencepiece | XLM-RoBERTa   || Wordpiece | Native        | BERT          |## ⚠️ Warning: experimental packageThis package is experimental and it is likely that the APIs will change inincompatible ways.## ⏳ InstallCutlery is availble through PyPI:```bashpip install cutlery```## 🚀 QuickstartThe best way to get started with cutlery is through the[`curated-transformers`](https://github.com/explosion/curated-transformers)library. `curated-transformers` also provides functionality to load tokenizationmodels from Huggingface Hub.</longdescription>
 </pkgmetadata>

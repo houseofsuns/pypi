@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>country-currencies==================country-currencies is a Python module that provides a mapping of ISO-3166country codes to the currencies used.</longdescription>
 </pkgmetadata>

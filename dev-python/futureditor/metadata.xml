@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># futureeditorA simple command line text-editor# Installation1) To install the futureditor package on windows      pip install futureditor2) To install futureditor on mac/linux running python3       pip3 install futureditor3) To install futureditor on mac/linux running python2      pip install futureditorEven though this would work , i would recommend you to use --user.# UsageTo start future editor type```future-editor```in command line.# CreditsThis library was created by sanjay marison, please feel free contact me for any queries or any other problems,improvements to my code at marisonsanjay@gmail.com, thank you for using my code.</longdescription>
-</pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># **ODIN** Python module Keras Wrapper for timeseries forecasting ## Dependencies- tensorflow- pandas - numpy </longdescription>
 </pkgmetadata>

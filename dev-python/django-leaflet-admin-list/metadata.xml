@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Django Leaflet Admin List=========================The application introducing geo admin list based on leafletSee details at the home page: https://github.com/nnseva/django-leaflet-admin-list</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>QEventLogcfgtool qeventlog write -farchitect partition --module qeventlog.models</longdescription>
 </pkgmetadata>

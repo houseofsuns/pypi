@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===============Macaroon Bakery===============A Python library for working with macaroons.Installation------------The easiest way to install macaroonbakery is via pip::    $ pip install macaroonbakerymacaroonbakery was developed around pymacaroons. On ubuntu, youcan get libsodium from a ppa::$ sudo add-apt-repository ppa:yellow/ppa -y$ apt-get install libsodium13Usage-----Interacting with a protected url, you can use the BakeryAuth provided to dealwith the macaroon bakery    &gt;&gt;&gt; from macaroonbakery import httpbakery    &gt;&gt;&gt; jar = requests.cookies.RequestsCookieJar()    &gt;&gt;&gt; resp = requests.get('some protected url',                            cookies=jar,                            auth=httpbakery.BakeryAuth(cookies=jar))    &gt;&gt;&gt; resp.raise_for_status()You can use any cookie storage you'd like so next subsequent calls the macaroonsaved in the cookie jar will be directly used and will not requireany other authentication (for example, cookielib.FileCookieJar).</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>MyCoinLib is a Python package for generating unique BTC, LTC, and ETH wallet/private-key pairs for customer orders, along with other related functions.</longdescription>
 </pkgmetadata>

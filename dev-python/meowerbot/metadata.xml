@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MeowerBot.pyA bot lib for Meower## Licensesee [LICENSE](./LICENSE)## docsThe Docs are located [here](https://meowerbot-py.showierdata.tech/)## Quick Examplelook at the [tests directory](./tests) for examples </longdescription>
 </pkgmetadata>

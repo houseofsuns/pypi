@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># QuiltPlus## Next-generation API for Quilt Universal Data CollectionsQuiltPlus provides an asychronous, object-oriented wrapper around the Quilt API.In particular, it implements a resource-based architecture using Quilt+ URIs inorder to support the Universal Data Client [udc](https://github.com/data-yaml/udc).## Installation```bashpython3 -m pip install quiltplus```## Usage```pythonfrom quiltplus import QuiltPackageimport anyioURI = &quot;quilt+s3://quilt-example#package=examples/wellplates&quot;async def print_contents(uri: str):    pkg = QuiltPackage.FromURI(URI)    files = await pkg.list()    print(files)anyio.run(print_contents, URI)```</longdescription>
 </pkgmetadata>

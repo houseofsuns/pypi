@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># headwatersSimple stream sources for event-driven application development.### InstallFrom [Pypi](https://pypi.org/project/headwaters/):After creating a virtual environment, on the cli:```&gt;&gt;&gt; pip install -U headwaters```then start the default streaming server from the cli:```&gt;&gt;&gt; hw```The CLI output shows the location of the server and ui.Streams can be connected to at the server: http://127.0.0.1:5555/api/v0To control the streams, use the ui running at http://127.0.0.1:5555/uiSimple as that.*While headwaters is running* you can see and adjust the behaviour of your stream:- start and stop the stream;- adjust the frequency of the events emitted by the stream;- trigger a burst mode to send a flurry of events, with configurable frequency and volume.:)</longdescription>
 </pkgmetadata>

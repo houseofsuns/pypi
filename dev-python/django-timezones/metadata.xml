@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This simple app is for localizing datetimes for the user. Timezone handlingcan be a bit tricky so the goal is to get rid of the guessing game and providea simple interface to localizing datetimes for your users.</longdescription>
 </pkgmetadata>

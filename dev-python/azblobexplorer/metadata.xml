@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Azure Blob Explorer for Python## InstillationUsing PIP```bashpip install azblobexplorer```Using source```bashpython setup.py install```## UsagePlease see the documentation at [https://akshaybabloo.github.io/azure-blob-explorer-python/](https://akshaybabloo.github.io/azure-blob-explorer-python/)## ContributionsAll contributions are welcome.</longdescription>
 </pkgmetadata>

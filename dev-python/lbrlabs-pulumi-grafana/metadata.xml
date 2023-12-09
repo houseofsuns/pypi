@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># grafana Resource ProviderThe grafana resource provider for Pulumi lets you creating resources in [grafana](https://www.grafana.com). To usethis package, please [install the Pulumi CLI first](https://pulumi.com/).## InstallingThis package is available in many languages in the standard packaging formats.### Node.js (Java/TypeScript)To use from JavaScript or TypeScript in Node.js, install using either `npm`:```$ npm install @lbrlabs/pulumi-grafana```or `yarn`:```$ yarn add @lbrlabs/pulumi-grafana```### PythonTo use from Python, install using `pip`:```$ pip install lbrlabs_pulumi_grafana```### GoTo use from Go, use `go get` to grab the latest version of the library```$ go get github.com/lbrlabs/pulumi-grafana/sdk/go/...```### .NETTo use from Dotnet, use `dotnet add package` to install into your project. You must specify the version if it is a pre-release version.```$ dotnet add package Lbrlabs.PulumiPackage.grafana```## ReferenceSee the Pulumi registry for API docs:https://www.pulumi.com/registry/packages/grafana/api-docs/</longdescription>
 </pkgmetadata>

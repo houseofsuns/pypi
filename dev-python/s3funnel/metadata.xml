@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This tool uses the workerpool for multithreading and boto for access to the Amazon S3 API.</longdescription>
 </pkgmetadata>

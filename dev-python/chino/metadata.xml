@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. CHINO.io Python wrapperThis is the wrapper for the API of https://chino.ioMore info: https://gitlab.com/chinoio-public/chino-pythonINSTALL=======.. code-block:: python    pip install chinoUSAGE------.. code-block:: python    from chino.api import ChinoAPIClient    chino = ChinoAPIClient(&lt;customer_id&gt;, &lt;customer_key&gt;)</longdescription>
 </pkgmetadata>

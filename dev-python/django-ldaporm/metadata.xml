@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># django-ldaporm`django-ldaporm` provides  Django ORM-like module that allows you to treat ldap object classes like RDBMS tables.  Thisallows you to use Django forms, fields and views natively with ldap models.## Installing django-ldaporm`django-ldaporm` is a pure python package.  As such, it can be installed in the usual python ways.  For the followinginstructions, either install it into your global python install, or use a python [virtual environment](https://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/) to install it without polluting yourglobal python environment.### Install via pip    pip install django-ldaporm### Install via `setup.py`Download a release from [Github](https://github.com/caltechads/deployfish/releases), then:    unzip django-ldaporm-1.0.20.zip    cd django-ldaporm-1.0.20    python setup.py installOr:    git clone https://github.com/caltechads/django-ldaporm.git    cd django-ldaporm    python setup.py install</longdescription>
 </pkgmetadata>

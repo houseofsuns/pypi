@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Core utilities for the Berkeley AutoLab. Includes rigid transformations, loggers, and 3D data wrappers.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for fpdf2This is a [PEP 561](https://peps.python.org/pep-0561/)type stub package for the [`fpdf2`](https://github.com/PyFPDF/fpdf2) package.It can be used by type-checking tools like[mypy](https://github.com/python/mypy/),[pyright](https://github.com/microsoft/pyright),[pytype](https://github.com/google/pytype/),PyCharm, etc. to check code that uses`fpdf2`.This version of `types-fpdf2` aims to provide accurate annotationsfor `fpdf2==2.7.6`.The source for this package can be found athttps://github.com/python/typeshed/tree/main/stubs/fpdf2. All fixes fortypes and metadata should be contributed there.See https://github.com/python/typeshed/blob/main/README.md for more details.This package was generated from typeshed commit `81633e27097228a8a7eb0f963c62916ecea78abc` and was testedwith mypy 1.7.1, pyright 1.1.334, andpytype 2023.11.21.</longdescription>
 </pkgmetadata>

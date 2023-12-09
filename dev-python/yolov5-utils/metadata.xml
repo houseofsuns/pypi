@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># YOLOv5 Installable PackagePackaged [ultralytics/yolov5](https://github.com/ultralytics/yolov5)Inspired from https://github.com/fcakyon/yolov5-pip.## Build PackageBuild wheel file:```bashpip install buildpython -m build```## Install with prebuilt packagePackage-built has uploaded to pypi and just install with the command:```bashpip install yolov5-utils```### General importsInsert `yolov5_utils.yolov5.` prefix when importing modules `models` and `utils`.For example: ```pythonfrom yolov5_utils.yolov5.models.common import DetectMultiBackend```## Authors**Msclock** - msclock@qq.com  - [Github account](https://github.com/msclock)</longdescription>
 </pkgmetadata>

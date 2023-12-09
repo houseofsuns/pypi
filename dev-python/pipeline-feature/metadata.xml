@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Feature Pipeline```bashcd /path/to/pipeline-feature``````bash~/mlops-pipeline-v1/pipeline-feature $ curl -s -o make_venv.sh \  https://raw.githubusercontent.com/gao-hongnan/common-utils/main/scripts/devops/make_venv.sh &amp;&amp; \bash make_venv.sh venv_pipeline_feature --pyproject --dev &amp;&amp; \source venv_pipeline_feature/bin/activate &amp;&amp; \rm make_venv.sh``````bashpython pipeline-feature/mlops_pipeline_feature_v1/pipeline.py```</longdescription>
 </pkgmetadata>

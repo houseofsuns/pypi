@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>trytond=======The server of Tryton.Tryton is business software, ideal for companies of any size, easy to use,complete and 100% Open Source.It provides modularity, scalability and security.</longdescription>
 </pkgmetadata>

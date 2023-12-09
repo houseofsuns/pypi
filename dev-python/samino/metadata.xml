@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription>## SAminoSAmino is unofficial client for [Aminoapps](https://aminoapps.com/) API in Python. ## InstallationYou can use either `python3 setup.py install` or `pip3 install samino` to install. This module is tested on Python 3.9+.## ContributingSAmino is open source module, anyone can contribute. Please see the [Github Repository](https://github.com/SirLez/SAmino)## DiscordYou can join the [Discord Server](https://discord.gg/AXn8PD5vDg) to add suggestions or to report problemsand to get new updates and changes## Features- Faster than other [Aminoapps](https://aminoapps.com/) python modules- Supports async and sockets, events- Easy and sample to use- No `Too many requests.`- Continual updates and bug fixes- Have alot of useful functions## Examples#### Get SessionID```pyimport saminoclient = samino.Client()client.login(&quot;&lt; email &gt;&quot;, &quot;&lt; password &gt;&quot;)print(client.sid)```#### Login with SessionID```pyimport saminoclient = samino.Client()client.sid_login(&quot;&lt; sid &gt;&quot;)print(client.sid)```#### Send a message in chat```pyimport saminoclient = samino.Client()client.login(&quot;&lt; email &gt;&quot;, &quot;&lt; password &gt;&quot;)path = client.get_from_link(&quot;&lt; chat link &gt;&quot;)local = samino.Local(path.comId)local.send_message(path.objectId, &quot;&lt; message &gt;&quot;)```</longdescription>
-</pkgmetadata>

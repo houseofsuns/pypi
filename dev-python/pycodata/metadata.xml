@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Description============.. readme_inclusion_startPython module containing the codata constants... readme_inclusion_endInstallation===================See  ``INSTALL.rst``.Dependencies================See ``requirements.txt``.License information===========================See ``LICENSE.txt``.</longdescription>
 </pkgmetadata>

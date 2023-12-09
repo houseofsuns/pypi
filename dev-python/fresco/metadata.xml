@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Fresco, a web micro-framework for Python========================================The fresco web framework is:- Fast, simple and powerful, with sophisticated URL routing, request and response objects.- Lightweight and open to integration: you pick the templating and database libraries you want.- WSGI compliant: easy integration with your choice of web server, apps and middleware.A minimal fresco web framework application:.. code-block:: python    from fresco import FrescoApp, GET, Response    def helloworld():        return Response(&quot;&lt;h1&gt;Hello World!&lt;/h1&gt;&quot;)    app = FrescoApp()    app.route('/', GET, helloworld)Read the`fresco web framework documentation&lt;https://ollycope.com/software/fresco/latest/&gt;`_ formore about the framework, orvisit the `source repo &lt;https://sr.ht/~olly/fresco/&gt;`_.</longdescription>
 </pkgmetadata>

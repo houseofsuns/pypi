@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>    The purpose of this application is to provide access to Akeyless API.  # noqa: E501    </longdescription>
 </pkgmetadata>

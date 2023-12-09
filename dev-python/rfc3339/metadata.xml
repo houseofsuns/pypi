@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Formats dates according to the :RFC:`3339`.Report bugs and feature requests on Sourcehut_Source availabe on this Mercurial repository: https://hg.sr.ht/~henryprecheur/rfc3339.. _Sourcehut: https://todo.sr.ht/~henryprecheur/rfc3339</longdescription>
 </pkgmetadata>

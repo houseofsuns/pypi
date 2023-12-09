@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Ginga is a toolkit designed for building viewers for scientific imagedata in Python, visualizing 2D pixel data in numpy arrays.The Ginga toolkit centers around an image display class which supportszooming and panning, color and intensity mapping, a choice of severalautomatic cut levels algorithms and canvases for plotting scalablegeometric forms.  In addition to this widget, a general purpose'reference' FITS viewer is provided, based on a plugin framework.Ginga is distributed under an open-source BSD licence. Please see thefile LICENSE.txt in the top-level directory for details.</longdescription>
 </pkgmetadata>

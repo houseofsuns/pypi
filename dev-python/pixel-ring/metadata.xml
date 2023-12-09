@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>RGB LED library for ReSpeaker USB 6+1 Microphone Array, 4 Mic Array for Raspberry Pito control the pixel ring</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A repository for projects providing out of the box capabilities within CloudShell to define AWS instances in CloudShell and leverage Amazon Cloud Computing capabilities to deploy and connect apps in CloudShell sandboxes.</longdescription>
 </pkgmetadata>

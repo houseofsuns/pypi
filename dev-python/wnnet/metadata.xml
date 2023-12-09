@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Overview========wnnet is a python package for handling`webnucleo &lt;http://webnucleo.org/&gt;`_ reaction networks.Installation------------Install from `PyPI &lt;https://pypi.org/project/wnnet&gt;`_ with pip bytyping in your favorite terminal::    $ pip install wnnetAuthors-------- Bradley S. Meyer &lt;mbradle@g.clemson.edu&gt;- Mengke Li &lt;mengkel@g.clemson.edu&gt;Contribute----------- Issue Tracker: `&lt;https://github.com/mbradle/wnnet/issues/&gt;`_- Source Code: `&lt;https://github.com/mbradle/wnnet/&gt;`_License-------The project is licensed under the GNU Public License v3 (or later).Documentation-------------The project documentation is available at `&lt;https://wnnet.readthedocs.io&gt;`_.Usage-----The best way to get started using wnnet is to follow the`tutorial &lt;https://github.com/mbradle/wnnet/tree/main/tutorial&gt;`_.</longdescription>
 </pkgmetadata>

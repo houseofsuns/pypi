@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># HALCON/PythonHALCON/Python is a set of native Python language bindings for HALCON.This includes interfaces for operators, HDevEngine and interoperabilityfor third-party libraries like NumPy.The major design goals for HALCON/Python are simplicity and rapid prototyping.NOTE: A native installation of HALCON is required in addition to this package.This package only contains the Python bindings.### Platform IndependenceHALCON/Python is officially supported on all Tier 1 platforms supported byCPython, the reference implementation of the Python programming language. Thatis  x64-win64, x64-linux, and x64-macosx. That said, it is possible that otherplatforms and alternative Python implementations are functional, of coursenative HALCON binaries also need to be available on that platform.</longdescription>
 </pkgmetadata>

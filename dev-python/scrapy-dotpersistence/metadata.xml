@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=====================scrapy-dotpersistence=====================Scrapy extension to sync `.scrapy` folder to an S3 bucket.Installation============You can install scrapy-dotpersistence using pip::    pip install scrapy-dotpersistenceYou can then enable the extension in your `settings.py`::    EXTENSIONS = {        ...        'scrapy_dotpersistence.DotScrapyPersistence': 0    }How to use it=============Enable extension through `settings.py`::    DOTSCRAPY_ENABLED = TrueConfigure the exension through `settings.py`::    ADDONS_AWS_ACCESS_KEY_ID = &quot;ABC&quot;    ADDONS_AWS_SECRET_ACCESS_KEY = &quot;DEF&quot;    ADDONS_AWS_USERNAME = &quot;username&quot;    ADDONS_S3_BUCKET = &quot;test-bucket-name&quot;You can change a dotpersistence folder path with environ::    export DOTSCRAPY_DIR='/tmp/.scrapy'</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>robotpy-cscore==============These are python bindings for the cscore library, which is a high performance library used in the FIRST Robotics competition to serve video to/from robots.However, the core library is suitable for use in other applications, and iscomparable to something like mjpg-streamer.This library requires python 3.6+Documentation=============* `Installation &lt;http://robotpy.readthedocs.io/en/stable/install/cscore.html&gt;`_* `Usage &lt;http://robotpy.readthedocs.io/en/stable/vision/index.html&gt;`_Author======Dustin Spicuzza (dustin@virtualroadside.com)</longdescription>
 </pkgmetadata>

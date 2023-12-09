@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>==================sphinxcontrib-sass==================Overview========Sphinx extension to compile sass to css in running sphinx-build.Install=======.. code-block:: bash   pip install sphinxcontrib-sassUsage=====#. Install from source#. Edit ``conf.py``   * Set ``sphinxcontrib.sass`` into ``extensions``   * Configure for ``sphinxcontrib.sass`` (see example)#. Run ``sphinx-build``Options-------``sass_src_dir``  Root directory of SASS source files.``sass_out_dir``  Root directory to output compiled css files.``sass_targets``  File map of sources and outputs``sass_output_style``  Output style to generate css by libsass.``sass_include_paths``  Include path configuration for libsass.Example=======.. code-block:: python   extensions = [       &quot;sphinxcontrib.sass&quot;,   ]   html_css_files = [&quot;css/custom.css&quot;]   sass_src_dir = &quot;_sass&quot;   sass_out_dir = &quot;_static/css&quot;   sass_targets = {    &quot;custom.scss&quot;: &quot;custom.css&quot;   }License=======Apache 2.0. See `it &lt;./LICENSE&gt;`_.</longdescription>
 </pkgmetadata>

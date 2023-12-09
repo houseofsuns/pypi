@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PyNER The Python interface to the [Stanford Named Entity Recognizer](https://github.com/dat/stanford-ner).## Project Homepage* [Stanford Named Entity Recognizer](http://nlp.stanford.edu/software/CRF-NER.shtml)## Installation    $ python setup.py install## Basic Usage    &gt;&gt;&gt; import ner    &gt;&gt;&gt; tagger = ner.HttpNER(host='localhost', port=8080)    &gt;&gt;&gt; tagger.get_entities(&quot;University of California is located in California, United States&quot;)    {'LOCATION': ['California', 'United States'],     'ORGANIZATION': ['University of California']}    &gt;&gt;&gt; tagger.json_entities(&quot;Alice went to the Museum of Natural History.&quot;)    '{&quot;ORGANIZATION&quot;: [&quot;Museum of Natural History&quot;], &quot;PERSON&quot;: [&quot;Alice&quot;]}'## Online Demo* [Graphical demo of several models](http://nlp.stanford.edu:8080/ner/)## LicenseBSD License## AuthorPyNER is developed by maintained by Dat Hoang.It can be found here: http://github.com/dat/pyner</longdescription>
 </pkgmetadata>

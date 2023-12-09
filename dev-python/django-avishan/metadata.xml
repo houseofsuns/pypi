@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=======Avishan=======Avishan is a set of tools for building fast, comfortable and reliable django apps.Quick start-----------1. On linux remember to install this packages::    sudo apt-get install build-essential libffi-dev python3-pip python3-dev2. Create virtual environment for your project::    sudo -H pip3 install virtualenv3. Just run this command::    python manage.py avishan_configFeatures--------* Request data storage (current_request dict)* Auto-find and checks token from session, or request header* Handle sort, search, filter and pagination on response* Configure django settings.py file* Handle CORS* Creates config.py file for each app and projectCreate a new version--------------------1. just run::    pip install -r requirements.txt    python setup.py sdist bdist_wheel    twine upload dist/* --repository-url https://upload.pypi.org/legacy/</longdescription>
 </pkgmetadata>

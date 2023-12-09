@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A library for memory efficient parallelized Ensemble learningDocumentation available at:    - http://mlens.readthedocs.io/en/latest/    - https://github.com/flennerhag/mlensContact=======For questions and comments reach out to sebastianflennerhag@hotmail.com.This project is hosted at https://github.com/flennerhag/mlens</longdescription>
 </pkgmetadata>

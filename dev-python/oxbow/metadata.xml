@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># py-oxbowA Python interface for [oxbow](https://github.com/abdenlab/oxbow).Read specialized bioinformatic file formats into dataframes.## Installation&gt; **Warning**: **oxbow** is new and under active development. It is not yet&gt; ready for production as APIs are subject to change.```shpip install oxbow```## Usage[API Documentation](https://abdenlab.org/oxbow/)```pythonimport oxbow as oxarrow_ipc = ox.read_bam(&quot;data.bam&quot;, &quot;chr1:1-100000&quot;)# Read into polarsimport polars as pldf = pl.read_ipc(arrow_ipc)# Read into pandasimport ioimport pyarrow.ipcdf = pyarrow.ipc.open_file(io.BytesIO(ipc)).read_pandas()```## DevelopmentThis project uses `maturin` and `hatch` for development, which can be installed with `pipx`.```sh# create a virtual envhatch shell# compile a development version of the packagematurin develop --release# open the jupyter notebooks/jupyterlab```A local build of `oxbow` will be added to your virtual environment.```pythonimport oxbow as ox```</longdescription>
 </pkgmetadata>

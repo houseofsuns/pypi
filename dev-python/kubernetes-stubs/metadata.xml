@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># kubernetes-stubs[![PyPI](https://img.shields.io/pypi/v/kubernetes-stubs)](https://pypi.org/project/kubernetes-stubs/)Python type stubs for the [Kubernetes API client](https://github.com/kubernetes-client/python).The version numbers of this package track upstream's. PRs to fix bugs arewelcomed.## Usage```pip install kubernetes-stubs```</longdescription>
 </pkgmetadata>

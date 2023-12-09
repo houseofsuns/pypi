@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A collection of useful tools for developing web pages in python/flask</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>dtFabric, or data type fabric, is a project to manage data types and structures, as used in the libyal projects.</longdescription>
 </pkgmetadata>

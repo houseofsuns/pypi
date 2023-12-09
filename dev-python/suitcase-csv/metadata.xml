@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># suitcase.csvThis is a suitcase subpackage for reading a particular file format.## Installation```pip install suitcase-csv```## Quick StartExamples could be found [here](https://blueskyproject.io/suitcase/usage.html).## DocumentationSee the [suitcase documentation](https://blueskyproject.io/suitcase).</longdescription>
 </pkgmetadata>

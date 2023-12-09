@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===========================pi-top Python CLI===========================A simple command-line interface to interact with a pi-top</longdescription>
 </pkgmetadata>

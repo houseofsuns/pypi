@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>### musixPython music player for esoteric music formatsExample that plays music using _pyaudio_;```pythonimport sysimport pyaudioimport musixstream = pyaudio.PyAudio().open(        format=pyaudio.paInt16,        channels=2,        rate=44100,        output=True)musix.init()player = musix.load(sys.argv[1])def print_meta(what):    for name in what:        val = player.get_meta(name)        print(f&quot;{name} = {val}\n&quot;)player.on_meta(print_meta)while True:    samples = player.render(4096)    stream.write(samples)```</longdescription>
 </pkgmetadata>

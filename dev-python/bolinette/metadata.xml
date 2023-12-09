@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># BolinetteThis is the Bolinette monorepo.It contains the sources of the Bolinette `core` package and the `data`, `web` and `api` extensions.</longdescription>
 </pkgmetadata>

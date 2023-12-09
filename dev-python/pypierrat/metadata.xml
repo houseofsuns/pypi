@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PyPierratMy Personal Python Librairie## Use```bashpip install pypierrat```## Referenceshttps://packaging.python.org/tutorials/packaging-projects/## InstallationClone repositry```bashgit clone https://github.com/JulesPierrat/pypierrat```Create virtual environnement```bash# Createpython3 -m venv env# Setuppip install -r requirements.txt```Activate / deactivate virtual env```bashsource env/bin/activatedeactivate```## OrganisationTO COMPLETE## UPLOADChange number of version in the file `setup.cfg`Upload to Pypi```bashsudo ./upload-pypi```</longdescription>
 </pkgmetadata>

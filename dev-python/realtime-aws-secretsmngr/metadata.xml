@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># realtime-aws-secretsmngrThis package will provide a class called RealTimeAwsSecretsMngr.## Usage```pythonsecretsmngr = RealTimeAwsSecretsMngr(region=&quot;us-east-2&quot;,secretId=&quot;XXX&quot;,apiId=&quot;XXXX&quot;)  def callback(secret):      print(secret)  secretsmngr.subscribe(callback)```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># BCOLORSSetting Text ForeGround Color. This can be used with Print Statement.## Installation```bashpip install bcolors```## Usage```pythonimport bcolors as bprint(b.OK + &quot;Color Statement&quot; + b.END)```</longdescription>
 </pkgmetadata>

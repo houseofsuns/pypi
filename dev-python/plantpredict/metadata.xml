@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># plantpredict-pythonInstall **latest stable version** via: `pip install plantpredict`.- To investigate the latest release, or previous releases:  https://github.com/plantpredict/python-sdk/releasesInstall **development version** via GitHub master branch.---Documentation can be found at https://plantpredict-python.readthedocs.ioEmail **support@plantpredict.com** to sign-up for important email updates.</longdescription>
 </pkgmetadata>

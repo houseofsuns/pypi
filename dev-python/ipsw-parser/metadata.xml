@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Python application](https://github.com/doronz88/ipsw_parser/workflows/Python%20application/badge.svg)](https://github.com/doronz88/ipsw_parser/actions/workflows/python-app.yml &quot;Python application action&quot;)[![Pypi version](https://img.shields.io/pypi/v/ipsw_parser.svg)](https://pypi.org/project/ipsw_parser/ &quot;PyPi package&quot;)[![Downloads](https://static.pepy.tech/personalized-badge/ipsw_parser?period=total&amp;units=none&amp;left_color=grey&amp;right_color=blue&amp;left_text=Downloads)](https://pepy.tech/project/ipsw_parser)# Overviewpython3 utility for parsing and extracting data from IPSW.# Installation```shellpython3 -m pip install ipsw-parser```Additionally, if you installed [blacktop/ipsw](https://github.com/blacktop/ipsw), the IPSW extraction will also containthe split DSC.# Usage```Usage: python -m ipsw_parser [OPTIONS] COMMAND [ARGS]...Options:  --help  Show this message and exit.Commands:  extract  extract .ipsw into filesystem layout  info     parse given .ipsw basic info```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. -*- mode: rst -*-======================= sphinxcontrib-fulltoc=======================sphinxcontrib-fulltoc is an extension for the Sphinx_ documentationsystem that changes the HTML output to include a more detailed tableof contents in the sidebar. By default Sphinx only shows the localheaders for the current page. With the extension installed, all of thepage titles are included, and the local headers for the current pageare also included in the appropriate place within the document.See the `project documentation`_ for more details... _Sphinx: http://sphinx.pocoo.org.. _project documentation: http://sphinxcontrib-fulltoc.readthedocs.org</longdescription>
 </pkgmetadata>

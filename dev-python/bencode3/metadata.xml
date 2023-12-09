@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Bencode3## Description&gt; A simple bencode lib for python3## License&gt; MIT## Note### Python2&gt; Please referer [this repo](https://github.com/bittorrent/bencode)</longdescription>
 </pkgmetadata>

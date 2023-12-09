@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Home-page: http://github.com/mithro/python-datetime-tzAuthor: Tim AnsellAuthor-email: mithro@mithis.comLicense: License :: OSI Approved :: Apache Software LicenseDescription: UNKNOWNPlatform: UNKNOWNClassifier: Intended Audience :: DevelopersClassifier: Development Status :: 4 - BetaClassifier: Programming Language :: PythonClassifier: Topic :: Software Development :: Libraries :: Python ModulesClassifier: Topic :: Software Development :: Internationalization</longdescription>
 </pkgmetadata>

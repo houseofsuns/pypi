@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># OpenAPISpecDiffOpenAPISpecDiff is a Python library for comparing two OpenAPI specs and identifying the difference between them. Visit https://www.cloudvector.com/api-shark-free-observability-security-monitoring-tool/#apishark## InstallationUse the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.```bashpip install openapispecdiff```## Usage```python openapispecdiff ****************************************************************************************************CloudVector APIShark - OpenAPI spec diff checker plugin****************************************************************************************************Enter absolute path to Old API SPEC: ../input.jsonEnter absolute path to new API SPEC : ../input1.json ```## License[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
 </pkgmetadata>

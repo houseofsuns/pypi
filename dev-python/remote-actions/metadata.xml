@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Remote Actions==============The Remote Actions package, and accompanying REMOTEACTION module, areused to integrate Orchid Extender's Workflow for Sage 300 with fleetingremoteactions.io to securely collect well formed, validated, data from users orcustomers from outside of Sage 300.The Remote Actions package, and the `Fleeting Forms`_ service that it uses togenerate one time pages, were created and are maintained by `Poplar Development`_... _Poplar Development: https://poplars.dev.. _Fleeting Forms: https://fleetingforms.io</longdescription>
 </pkgmetadata>

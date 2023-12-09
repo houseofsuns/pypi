@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Falcon-Marshmallow is a middleware library designed to assistdevelopers who wish to easily incorporate automatic (de)serializationusing Marshmallow schemas into their Falcon application. Oncethe middleware is in place, requests to any resources that havea ``schema`` attribute defined will automatically use that schemato parse the request body. In addition, responses for that resourcewill automatically use the defined schema to dump results.You may also specify method-specific schemas on a resource, e.g.``patch_schema``, which will be used only when the request methodmatches the schema prefix.By default, this middleware will also automatically parse requestsand responses to JSON even if they do not have any schema(s) defined.This can be easily disabled, if you would prefer to use your own JSONparsing middleware. This is done using ``simplejson`` by default,but you may specify any module or object you like that implementsthe public interface of the standard library ``json`` module.</longdescription>
 </pkgmetadata>

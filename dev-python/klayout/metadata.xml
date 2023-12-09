@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package is a standalone distribution of KLayout's Python API.For more details see here: https://www.klayout.org/klayout-pypi</longdescription>
 </pkgmetadata>

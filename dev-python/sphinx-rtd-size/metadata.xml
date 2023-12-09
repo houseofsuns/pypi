@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># sphinx-rtd-sizeSphinx extension for resizing your RTD theme## UsageInstall the package:`pip install sphinx-rtd-size`And in your `conf.py`:```    extensions = [        ...        'sphinx_rtd_size',    ]        sphinx_rtd_size_width = &quot;90%&quot;```</longdescription>
 </pkgmetadata>

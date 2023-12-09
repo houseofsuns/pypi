@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Provides python services to interact with Datavore's applications and servers. Auth, Exec, Publish, gRPC, ....</longdescription>
 </pkgmetadata>

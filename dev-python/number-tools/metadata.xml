@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Number Tools## DescriptionVarious tools for manipulating numbers.## Installation```pip install number-tools```## Usage```pythonfrom number_tools.converters import integer_to_roman, roman_to_integerintger_to_roman(101)roman_to_integer(&quot;IV&quot;)```</longdescription>
 </pkgmetadata>

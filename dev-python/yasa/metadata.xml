@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>YASA (Yet Another Spindle Algorithm) : an open-source Python package to analyze polysomnographic sleep recordings.</longdescription>
 </pkgmetadata>

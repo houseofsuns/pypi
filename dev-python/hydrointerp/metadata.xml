@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>hydrointerp - A Python package for interpolating hydrologic data===================================================================The hydrointerp package includes several interpolation functions specifically designed for hydrologic data. These are mainly derived from `Scipy &lt;https://docs.scipy.org/doc/scipy/reference/index.html&gt;`_ interpolation functions like `griddata &lt;https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.griddata.html&gt;`_.Documentation--------------The primary documentation for the package can be found `here &lt;https://hydrointerp.readthedocs.io&gt;`_.Installation------------hydrointerp can be installed via pip or conda::  pip install hydrointerpor::  conda install -c mullenkamp hydrointerpThe core dependencies are `Pandas &lt;http://pandas.pydata.org/pandas-docs/stable/&gt;`_,  `Scipy &lt;https://docs.scipy.org/doc/scipy/reference/index.html&gt;`_, `xarray &lt;http://xarray.pydata.org/en/stable/&gt;`_, and `pyproj &lt;http://pyproj4.github.io/pyproj/html/index.html&gt;`_.</longdescription>
 </pkgmetadata>

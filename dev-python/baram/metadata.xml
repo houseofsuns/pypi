@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## BaramCloud Framework for AWS Framework.Baram means &quot;wind&quot; in Korean which makes cloud move conveniently.  ## For Framework DeveloperYou can build and install the package as below.```commandline$ ./build.sh```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Documentation Status](https://readthedocs.org/projects/pylookyloo/badge/?version=latest)](https://pylookyloo.readthedocs.io/en/latest/?badge=latest)# PyLookylooThis is the client API for [Lookyloo](https://www.lookyloo.eu).## Installation```bashpip install pylookyloo```## Usage### Command lineYou can use the `lookyloo` command to enqueue a URL.```bashusage: lookyloo [-h] [--url URL] --query QUERYEnqueue a URL on Lookyloo.optional arguments:  -h, --help     show this help message and exit  --url URL      URL of the instance (defaults to https://lookyloo.circl.lu/,                 the public instance).  --query QUERY  URL to enqueue.  --listing      Should the report be publicly listed.  --redirects    Get redirects for a given capture.The response is the permanent URL where you can see the result of the capture.```### LibrarySee [API Reference](https://pylookyloo.readthedocs.io/en/latest/api_reference.html)</longdescription>
 </pkgmetadata>

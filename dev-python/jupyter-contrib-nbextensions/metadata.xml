@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Contains a collection of extensions that add functionality to the Jupyternotebook. These extensions are mostly written in Javascript, and are loadedlocally in the browser.Read`the documentation &lt;https://jupyter-contrib-nbextensions.readthedocs.io&gt;`_for more information.The`jupyter-contrib repository &lt;https://github.com/ipython-contrib/jupyter_contrib_nbextensions&gt;`_is maintained independently by a group of users and developers, and is notofficially related to the Jupyter development team.The maturity of the provided extensions varies, so please check`the repository issues page &lt;https://github.com/ipython-contrib/jupyter_contrib_nbextensions/issues&gt;`_if you encounter any problems, and create a new issue if needed!</longdescription>
 </pkgmetadata>

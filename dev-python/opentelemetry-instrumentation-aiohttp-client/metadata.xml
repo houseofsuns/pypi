@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry aiohttp client Integration========================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-aiohttp-client.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-aiohttp-client/This library allows tracing HTTP requests made by the`aiohttp client &lt;https://docs.aiohttp.org/en/stable/client.html&gt;`_ library.Installation------------::     pip install opentelemetry-instrumentation-aiohttp-clientReferences----------* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `aiohttp client Tracing &lt;https://docs.aiohttp.org/en/stable/tracing_reference.html&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
 </pkgmetadata>

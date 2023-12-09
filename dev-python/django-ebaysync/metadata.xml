@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===============django-ebaysync===============Django app for handling eBay Platform NotificationsSee GitHub for usage and docs.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Django Singleton Model======================|Build Status|==============Singleton design-pattern implementation for using with django models andworks with more recent versions of djangoInstalling----------Install the package.. code:: bash    $ pip3 install django-singleton-modeland that's it. Don't add it to INSTALLED\_APPS.Using-----Import the SingletonModel class and inherit from it.. code:: python    from singleton_model import SingletonModel    class MySingleModel(SingletonModel):        passRunning tests-------------Go into example folder.. code:: bash    $ cd exampleand run them.. code:: bash    $ ./manage.py testTroubleshooting---------------Check the example folder if you have any doubts. Or you can create anissue... |Build Status| image:: https://travis-ci.org/icaropires/django-singleton-model.svg?branch=master</longdescription>
 </pkgmetadata>

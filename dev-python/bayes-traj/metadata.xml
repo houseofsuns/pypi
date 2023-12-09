@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># bayes_trajAlgorithms and tools for Bayesian trajectory modelingpip install provenance_toolspip install bayes_traj</longdescription>
 </pkgmetadata>

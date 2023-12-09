@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># biocircuitsUtilities to accompany *Biological Circuit Design* by Michael Elowitz and Justin Bois.## InstallationTo install use pip:    pip install biocircuits## DocumentationYou can access the docs from the [Biological Circuit Design website](https://biocircuits.github.io/package_docs/index.html).</longdescription>
 </pkgmetadata>

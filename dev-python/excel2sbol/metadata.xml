@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This library is a collection of functions used to convert an excel template into SBOL libraries and compositions.</longdescription>
 </pkgmetadata>

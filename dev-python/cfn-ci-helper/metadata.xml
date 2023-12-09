@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cfn-ci-helperCloudformation CI Helper, a series of helpers to help you deploy a cloudformationtemplate(s) as a part of a CI pipeline in a reasonably safe manner.</longdescription>
 </pkgmetadata>

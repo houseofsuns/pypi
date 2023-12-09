@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cdktfcdktf is a framework for defining cloud infrastructure using Terraform providers and modules. It allows forusers to define infrastructure resources using higher-level programming languages.## BuildInstall dependencies```bashyarn install```Build the package```bashyarn build```[Learn More](https://cdk.tf/docs)</longdescription>
 </pkgmetadata>

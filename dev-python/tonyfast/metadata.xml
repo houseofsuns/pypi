@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tonyfast/gists/master)![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tonyfast)```python%reload_ext tonyfast``````pythonfrom tonyfast import jschema, articles; import pandas, requests```</longdescription>
 </pkgmetadata>

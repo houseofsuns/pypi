@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># File Registryversion 0.0.5addad pandas as a requirementversion 0.0.3added wordanalysis for __init__version 0.0.2added rootpath for __init__version 0.0.1Basic version This is a simple example package. You can use[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)to write your content.</longdescription>
 </pkgmetadata>

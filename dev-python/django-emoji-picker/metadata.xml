@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># django-emoji-pickerDjango app providing text input and textarea widgets with emoji picker.It's based on [emoji-mart](https://github.com/missive/emoji-mart).## Screenshot![Screenshot](https://user-images.githubusercontent.com/3945220/40110572-9c6be100-5900-11e8-85a1-63bf21a9a646.png)## UsageThis package contains a Django app that provides two widgets:- `EmojiPickerTextInput`- `EmojiPickerTextarea`### Example#### Installation```bash$ pip install django-emoji-picker```or```bash$ pipenv install django-emoji-picker```#### `settings.py````pythonINSTALLED_APPS = [    ...,    'emoji_picker',]```#### `&lt;app&gt;/admin/&lt;model&gt;.py` (for use with Django Admin)```pythonfrom emoji_picker.widgets import EmojiPickerTextInputAdmin, EmojiPickerTextareaAdminclass YourModelForm(forms.ModelForm):    short_text = forms.CharField(widget=EmojiPickerTextInputAdmin)    long_text = forms.CharField(widget=EmojiPickerTextareaAdmin)```### Building from source```bash$ yarn$ yarn build```</longdescription>
 </pkgmetadata>

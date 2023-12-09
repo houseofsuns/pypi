@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># mfrc522A python library to read/write RFID tags via the budget MFRC522 RFID module.This code was published in relation to a [blog post](https://pimylifeup.com/raspberry-pi-rfid-rc522/) and you can find out more about how to hook up your MFRC reader to a Raspberry Pi there.## InstallationUntil the package is on PyPi, clone this repository and run `python setup.py install` in the top level directory.## Example CodeThe following code will read a tag from the MFRC522```pythonfrom time import sleepimport sysfrom mfrc522 import SimpleMFRC522reader = SimpleMFRC522()try:    while True:        print(&quot;Hold a tag near the reader&quot;)        id, text = reader.read()        print(&quot;ID: %s\nText: %s&quot; % (id,text))        sleep(5)except KeyboardInterrupt:    GPIO.cleanup()    raise```</longdescription>
 </pkgmetadata>

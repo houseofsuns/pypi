@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python implementation of several methods for ensembling boxes from object detection models: Non-maximum Suppression (NMS), Soft-NMS, Non-maximum weighted (NMW), Weighted boxes fusion (WBF)More details: https://github.com/ZFTurbo/Weighted-Boxes-Fusion</longdescription>
 </pkgmetadata>

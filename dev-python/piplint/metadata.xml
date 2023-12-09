@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>piplint=======Piplint validates your current environment with the requirements files you've specified. It willensure that any requirement listed exists within the environment, and within the bounds of the versions specified.::    source env/bin/activate    piplint requirements/*.txtYou can also pass ``--strict`` if you want to enfoce things like case sensitivity on package names.</longdescription>
 </pkgmetadata>

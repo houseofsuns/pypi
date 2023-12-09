@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>texttable is a module to generate a formatted text table, using ASCIIcharacters. texttable-fixed is a fork ofhttps://github.com/bufordtaylor/python-texttable that uploads the latest,correct version (0.8.3) to PyPi as the main texttable module does nothave the correct sources.</longdescription>
 </pkgmetadata>

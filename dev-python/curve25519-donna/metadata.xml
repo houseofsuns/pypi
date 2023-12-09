@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Curve25519 is a fast elliptic-curve key-agreement protocol, in which twoparties Alice and Bob each generate a (public,private) keypair, exchangepublic keys, and can then compute the same shared key. Specifically, Alicecomputes F(Aprivate, Bpublic), Bob computes F(Bprivate, Apublic), and bothget the same value (and nobody else can guess that shared value, even if theyknow Apublic and Bpublic).This is a Python wrapper for the portable 'curve25519-donna' implementationof this algorithm, written by Adam Langley, hosted athttp://code.google.com/p/curve25519-donna/</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A Python library for controlling Toxiproxy. Can be used in resiliency testing.</longdescription>
 </pkgmetadata>

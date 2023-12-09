@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Photons=======Photons is Python3.6+ framework for interacting with LIFX products.See full documentation at https://photons.delfick.comExample scripts can be found in the ``examples`` folder in this repository.</longdescription>
 </pkgmetadata>

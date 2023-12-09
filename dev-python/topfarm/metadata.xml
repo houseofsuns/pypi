@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>|pipeline status| |coverage report|Welcome to TOPFARM------------------This is the plant-level optimization tool that is being developed by DTUWind Energy.Installation Guide, Examples, and Documentation===============================================Please refer to the `TOPFARM documentation`_... _TOPFARM documentation: https://topfarm.pages.windenergy.dtu.dk/TopFarm2.. |pipeline status| image:: https://gitlab.windenergy.dtu.dk/TOPFARM/TopFarm2/badges/master/pipeline.svg   :target: https://gitlab.windenergy.dtu.dk/TOPFARM/TopFarm2/commits/master.. |coverage report| image:: https://gitlab.windenergy.dtu.dk/TOPFARM/TopFarm2/badges/master/coverage.svg   :target: https://gitlab.windenergy.dtu.dk/TOPFARM/TopFarm2/commits/master</longdescription>
 </pkgmetadata>

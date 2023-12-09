@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package is deprecated in favor of the `OCI CLI &lt;https://pypi.python.org/pypi/oci-cli&gt;`_ package. This package will stop being updated in March 2018. Please upgrade to the OCI CLI package to avoid interruption.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Waldur SAML2============Waldur plugin bringing SAML2-based authentication support.</longdescription>
 </pkgmetadata>

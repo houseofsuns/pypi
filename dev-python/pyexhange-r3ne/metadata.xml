@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PyExhangeThis code is a Python implementation of a basic wallet system that allows users to buy, sell, and transfer currencies. It includes a JSON database to store user information and currency balances. The code is licensed under the MIT license.# Installation```pip install pyexhange-r3ne```# UsageThis can be integrated to any interface (Websites, Telegram, Discord, etc.) with ease.Example:```pythonimport pyexhange#Buy 1 Ethereumprint(pyexhange.handle_command(&quot;trade 1 1 eth&quot;))#Sell 1 Ethereumprint(pyexhange.handle_command(&quot;trade 1 -1 eth&quot;))#As user 1 send 100 dollars to user 2print(pyexhange.handle_command(&quot;send 1 2 100 USD This_Is_A_Message&quot;))```</longdescription>
 </pkgmetadata>

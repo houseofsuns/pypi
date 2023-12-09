@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A scripting language to make it easy to write responses for a chatterbot.</longdescription>
 </pkgmetadata>

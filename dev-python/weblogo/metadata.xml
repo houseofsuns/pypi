@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>WebLogo (https://github.com/WebLogo/weblogo) is a tool for creating sequencelogos from biological sequence alignments.  It can be run on the command line,as a standalone webserver, as a CGI webapp, or as a python library.The main WebLogo webserver is located at http://weblogo.threeplusone.comPlease consult the manual for installation instructions and more information:./weblogo/htdocs/manual.html(Also located at http://weblogo.threeplusone.com/manual.html.)</longdescription>
 </pkgmetadata>

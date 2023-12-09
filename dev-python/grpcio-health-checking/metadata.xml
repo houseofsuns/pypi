@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>gRPC Python Health Checking===========================Reference package for GRPC Python health checking.Supported Python Versions-------------------------Python &gt;= 3.7Dependencies------------Depends on the `grpcio` package, available from PyPI via `pip install grpcio`.</longdescription>
 </pkgmetadata>

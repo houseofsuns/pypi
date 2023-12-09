@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Mega-GO calculates the similarity between GO terms with the relevance semantic similarity (sim&lt;sub&gt;Rel&lt;/sub&gt;) metric.The program reads one or more input FASTA files.For each file it computes a variety of statistics, and thenprints a summary of the statistics as output.The goal is to provide a solid foundation for new bioinformatics command line tools,and is an ideal starting place for new projects.</longdescription>
 </pkgmetadata>

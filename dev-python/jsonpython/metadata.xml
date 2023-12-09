@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Jsonpython## A package to deserialize and serialize json.### Installing:```shellpip install jsonpython```### Example:#### data.json```json{  &quot;name&quot;: &quot;Alex&quot;,  &quot;age&quot;: 23,  &quot;car&quot;: {    &quot;model&quot;: &quot;Tesla X&quot;,    &quot;cost&quot;: 40000,    &quot;company&quot;: {      &quot;name&quot;: &quot;Tesla&quot;    }  }}```#### main.py```pythonfrom jsonpython import *jobj = get_json_object(&quot;data.json&quot;)print(jobj['name'])  # Alexprint(jobj['car']['model'])  # Tesla Xclass Company:    name: strclass Car:    model: str    cost: int    company: Companyclass Person:    age: int    name: str    car: Carperson = from_file(Person, &quot;data.json&quot;)print(person.car.model)  # Tesla X```</longdescription>
 </pkgmetadata>

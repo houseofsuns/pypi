@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>gRPC library for Google Cloud Datastore APIproto-google-cloud-datastore-v1 is the IDL-derived library for the datastore (v1) service in the googleapis_ repository... _`googleapis`: https://github.com/googleapis/googleapis/tree/master/google/datastore/v1</longdescription>
 </pkgmetadata>

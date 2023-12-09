@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Alpha-Trader Python SDKWelcome to the Python SDK for Alpha-Trader.The functionality will be extended and Pull Requests are welcome.For documentation, mkdocs is used, please see:# [DOCUMENTATION](https://maltemelzer.github.io/alpha-trader-python/)</longdescription>
 </pkgmetadata>

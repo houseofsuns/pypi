@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># qqdmA lightweight, fast and pretty progress bar for Python## Demo&lt;img src=&quot;https://github.com/KimythAnly/qqdm/blob/main/demo.gif&quot; width=&quot;768&quot;/&gt;## Installation```pip install qqdm```## UsageThe following is a simple example.```pythonimport timeimport randomfrom qqdm import qqdm, format_strtw = qqdm(range(10), desc=format_str('bold', 'Description'))for i in tw:  loss = random.random()  acc = random.random()  tw.set_infos({    'loss': f'{loss:.4f}',    'acc': f'{acc:.4f}',  })  time.sleep(0.5)```For the demo gif shown above, you may refer to `tests/test.py`.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CamerataA library for querying and capturing from cameras, based on [nokhwa](https://github.com/l1npengtul/nokhwa) crate.# ExamplesQuery available cameras:```pythonprint(*camerata.query(), sep='\n')```Example output:```CameraInfo(index=2, name='UVC Camera (046d:0809)', description='Video4Linux Device @ /dev/video2', misc='')CameraInfo(index=0, name='USB2.0 VGA UVC WebCam: USB2.0 V', description='Video4Linux Device @ /dev/video0', misc='')```Save an image (note: requires pillow to be installed):```pythonimport camerataimport timecam = camerata.Camera(camerata.query()[0]) # Open a camerawhile cam.poll_frame_pil() is None: # Note that .poll_frame_* functions never blocks    time.sleep(0.1) # Wait until we get at least one frame from the camera#time.sleep(1) # You might want to wait a bit longer while camera is calibratingimg = cam.poll_frame_pil()img.save(&quot;img.png&quot;)```See examples/ for more</longdescription>
 </pkgmetadata>

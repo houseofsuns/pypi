@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>About Image converter GUI App to arduino oled display ssd1306 128x64</longdescription>
 </pkgmetadata>

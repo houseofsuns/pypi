@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/timedelta.svg?maxAge=3600)](https://pypi.org/project/timedelta/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install timedelta```#### Examples```python&gt;&gt;&gt; import timedelta&gt;&gt;&gt; td = timedelta.Timedelta(days=2, hours=2)# init from datetime.timedelta&gt;&gt;&gt; td = timedelta.Timedelta(datetime1 - datetime2)````total` seconds, minutes, hours, days```python&gt;&gt;&gt; td = timedelta.Timedelta(days=2, hours=2)&gt;&gt;&gt; td.total.seconds180000&gt;&gt;&gt; td.total.minutes3000&gt;&gt;&gt; td.total.hours50&gt;&gt;&gt; td.total.days2```#### Links+ [timedelta Objects](https://docs.python.org/3/library/datetime.html#timedelta-objects)&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
 </pkgmetadata>

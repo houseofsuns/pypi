@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Caikit Text Generation Inference Service (TGIS) BackendThis project provides a Caikit module backend that manages models run in TGIS## ConfigurationSample configuration using the `MULTI` finder and a remote `TGIS` backend):```yamlruntime:  library: caikit_nlp  local_models_dir: /path/to/models  lazy_load_local_models: truemodel_management:  finders:    default:      type: MULTI      config:        finder_priority:          - local          - tgis-auto  initializers:    default:      type: LOCAL      config:        backend_priority:          - type: TGIS            config:              connection:                hostname: &quot;localhost:8033&quot;                test_connections: true                connect_timeout: 30log:  formatter: pretty```</longdescription>
 </pkgmetadata>

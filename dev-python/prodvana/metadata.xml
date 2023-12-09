@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Prodvana Python LibraryThis library is used to interface with Prodvana APIs.</longdescription>
 </pkgmetadata>

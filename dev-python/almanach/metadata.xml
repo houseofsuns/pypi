@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>========Almanach========.. image:: https://badge.fury.io/py/almanach.svg    :target: https://badge.fury.io/py/almanachAlmanach stores the utilization of OpenStack resources (instances and volumes) for each tenant.What is Almanach?-----------------The main purpose of this software is to record the usage of the cloud resources of each tenants.Almanach is composed of two parts:- **Collector**: Listen for OpenStack events and store the relevant information in the database.- **REST API**: Expose the information collected to external systems.At the moment, Almanach is only able to record the usage of instances and volumes.Resources---------Documentation~~~~~~~~~~~~~- https://almanach.readthedocs.io/Launchpad Projects~~~~~~~~~~~~~~~~~~- https://launchpad.net/almanachBlueprints~~~~~~~~~~- https://blueprints.launchpad.net/almanachBug Tracking~~~~~~~~~~~~- https://bugs.launchpad.net/almanachLicense-------Almanach is distributed under Apache 2.0 LICENSE.</longdescription>
 </pkgmetadata>

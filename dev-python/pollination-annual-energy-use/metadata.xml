@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># annual-energy-useCalculate annual energy use intensity (EUI) for a Honeybee model and optionallyget several HTML reports to visualize the energy use.The recipe outputs a file called `eui.json` in the format below:```{  &quot;eui&quot;: 306.852,  &quot;total_floor_area&quot;: 66129.6,  &quot;conditioned_floor_area&quot;: 66129.6,  &quot;total_energy&quot;: 20292008.333,  &quot;end_uses&quot;: {    &quot;heating&quot;: 30.924,    &quot;cooling&quot;: 84.342,    &quot;interior_lighting&quot;: 27.451,    &quot;interior_equipment&quot;: 164.115,    &quot;pumps&quot;: 0.019  }}```</longdescription>
 </pkgmetadata>

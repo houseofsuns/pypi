@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># GenieAnalytics Python ClientThis package is the official Python client to access GenieAnalytics API server.## Installation```pip install ga-api-client```## Import Modules```pythonfrom ga_api import Repository, HyperLogLog```## Top Level Pattern```pythonfrom ga_api import Repository, System, HyperLogLogimport asyncioimport pandas as pdasync def main():    try:        repo = Repository('https://rdlab-214.genie-analytics.com/api', 'api', 'default', 'api123!@#')        # ...        # access API server to do whatever you need        # ...    finally:        await repo.close()if __name__ == '__main__':    asyncio.run(main())```</longdescription>
 </pkgmetadata>

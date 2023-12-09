@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>SPARQL parser written in Python using yapps</longdescription>
 </pkgmetadata>

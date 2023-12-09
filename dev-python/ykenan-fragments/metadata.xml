@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ykenan_fragments&gt; **`Forming fragments files through three files (barcodes.txt.gz, .mtx.gz and .peaks.txt)`**This is a simple log package. You can see[Github-ykenan_file](https://github.com/YuZhengM/ykenan_fragments)[PyPI-ykenan_file](https://pypi.org/project/ykenan-fragments/)## Use&gt; install```shellpip install ykenan_fragments```&gt; import```shellfrom ykenan_fragments import Run```</longdescription>
 </pkgmetadata>

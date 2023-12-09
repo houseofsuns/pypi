@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># GDriveSimple Google Drive wrapper to traverse files using `/a/b/c/myfile` syntax</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># A pixel-level label tools for plant pictures taken by drones.## Implement Python version &gt;= 3.6.5, QGIS version &gt;=3.4#### RUN ```pip3 install plantlabeller``` to install from terminal#### ***Need to modify matplotlibrc file (if crashed)***  ADD: ```backend: TkAgg```#### ***GDAL instllation instruction:***1. RUN ```pip3 install GDAL==2.4.2```   - if failed with error: &gt; gdal-config not found   - go to step 2.2. RUN ```brew install gdal```, go to step 1   - if failed with &quot;gcc&quot; go to step 33. RUN ```brew reinstall gcc```, go to step 1</longdescription>
 </pkgmetadata>

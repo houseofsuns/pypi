@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Cppy====.. image:: https://github.com/nucleic/cppy/actions/workflows/ci.yml/badge.svg    :target: https://github.com/nucleic/cppy/actions/workflows/ci.ymlA small C++ header library which makes it easier to write Python extensionmodules. The primary feature is a PyObject smart pointer which automaticallyhandles reference counting and provides convenience methods for performingcommon object operations.</longdescription>
 </pkgmetadata>

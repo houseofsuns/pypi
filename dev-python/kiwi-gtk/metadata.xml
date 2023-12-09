@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Kiwi is a framework and a set of enhanced PyGTK widgets designed tomake building programs with graphical interfaces both easy to writeand easy to maintain.Kiwi consists of a set of classes and wrappers for PyGTK that weredeveloped to provide a sort of framework for applications. Fullyobject-oriented, and roughly Smalltalk's MVC, Kiwi provides a simple,practical way to build forms, windows and widgets that transparentlyaccess and display your object data.Kiwi is inspired by Allen Holub's Visual Proxy.</longdescription>
 </pkgmetadata>

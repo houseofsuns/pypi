@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Alchemy ConfigThe `aconfig` library provides simple `yaml` configuration in `python` with environment-based overrides.## InstallationTo install, simply use `pip````shpip install alchemy-config```## Quick Start**config.yaml**```yamlfoo: 1bar:    baz: &quot;bat&quot;```**main.py**```pyimport aconfigif __name__ == &quot;__main__&quot;:    config = aconfig.Config.from_yaml(&quot;config.yaml&quot;)    print(config.foo)    print(config.bar.baz)``````shexport BAR_BAZ=&quot;buz&quot;python3 main.py```## Corner-case BehaviorYou CAN set builtin method names as attributes on the `config`. However, you should only access/delete them via dictionary access methods.For example:```pyimport aconfigcfg = {&quot;update&quot;: True}config = aconfig.Config(cfg)# DO NOT DO THIS:config.update# DO THIS INSTEAD:config[&quot;update&quot;]```This is because there is no way in Python to tell whether you want the method or the attribute `&quot;update&quot;` when &quot;getting&quot; it from the object.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># JavelinCLI tool for managing Spearly deployments.## Requirements- Python 3.10+- `GITHUB_ACCESS_TOKEN` environment variable set to a **GitHub Personal Access Token** with `repo` scope ([Ref](https://github.com/settings/tokens))- **AWS IAM User** with `codepipeline:StartPipelineExecution` permission to the required resources ([Ref](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#configuration))## Installation```shbrew install pyenvpyenv install 3.10:latest[pyenv exec] pip install javelin-cli```## Usage```shpython -m javelin --help```## Contribution### Run lint```shpylint javelin```### Increase version number in these files- `pyproject.toml`- `javelin/__init__.py`### Create and push release commit```shgit commit -m v1.2.3git tag v1.2.3git pushgit push --tags```### Build and publish```shpoetry buildpoetry publish```</longdescription>
 </pkgmetadata>

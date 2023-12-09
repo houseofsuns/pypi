@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>CosmoloPy is a package of cosmology routines built on NumPy/SciPy.Capabilities include--------------------`cosmolopy.density`  Various cosmological densities.`cosmolopy.distance`  Various cosmological distance measures.`cosmolopy.luminosityfunction`  Galaxy luminosity functions (Schecter functions).`cosmolopy.magnitudes`  Conversion in and out of the AB magnitude system.`cosmolopy.parameters`  Pre-defined sets of cosmological parameters (e.g. from WMAP).`cosmolopy.perturbation`  Perturbation theory and the power spectrum.`cosmolopy.reionization`  The reionization of the IGM.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pycololightA Python3 wrapper for interacting with LifeSmart Cololight.Supports the following cololight devices:- hexagon- strip## Usage```pythonfrom pycololight import PyCololight# Setup hexagon devicelight = PyCololight(device=&quot;hexagon&quot;, host=&quot;1.1.1.1&quot;)# Setup strip device, and include dynamic effectslight = PyCololight(device=&quot;strip&quot;, host=&quot;1.1.1.1&quot;, dynamic_effects=True)# Turn on at 60% brightnesslight.on = 60# Set brightness to 70%light.brightness = 70# Set light colourlight.colour = (255, 127, 255)# Set effectlight.effect = &quot;Sunrise&quot;# Create custom effectlight.add_custom_effect(  name=&quot;custom effect&quot;,  colour_scheme=&quot;Shadow&quot;,  colour=&quot;Red, Yellow&quot;,  cycle_speed=11,  mode=1)# Turn offlight.on = 0```Mapping of modes for custom effects can be found [here](https://github.com/BazaJayGee66/pycololight/blob/main/MODES.md)</longdescription>
 </pkgmetadata>

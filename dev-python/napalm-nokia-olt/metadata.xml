@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!DOCTYPE html&gt;&lt;h2&gt;napalm-nokia_olt &lt;/h2&gt; &lt;br&gt;&lt;h3&gt;Driver implementation for Nokia Olt&lt;/h3&gt; &lt;br&gt;&lt;h5&gt;How to install&lt;/h5&gt;&lt;ul&gt;pip install napalm-nokia_olt&lt;/ul&gt;</longdescription>
 </pkgmetadata>

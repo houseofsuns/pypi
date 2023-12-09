@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># picsexl[![PyPI](https://img.shields.io/pypi/v/picsexl?color=eb345b)](https://pypi.org/project/picsexl/)[![License](https://img.shields.io/github/license/pog7x/picsexl?color=eb345b)](https://github.com/pog7x/picsexl/blob/master/LICENSE)## Converter from ics format to xls### Installation```bashpip install picsexl```### Example```pythonfrom datetime import datetime, timezonefrom picsexl import PIcsExlp = PIcsExl(    file_path=&quot;/path/to/your/file.ics&quot;,    mail_to=&quot;some.email@gmail.com&quot;,    start_date=datetime(2022, 10, 1, 0, 0, 0, tzinfo=timezone.utc),    end_date=datetime(2022, 10, 30, 23, 59, 59, tzinfo=timezone.utc),    to_timezone=&quot;America/Los_Angeles&quot;,)p.run_sniff_and_write_ics_lines()```</longdescription>
 </pkgmetadata>

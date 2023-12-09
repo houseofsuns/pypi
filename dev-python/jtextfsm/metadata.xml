@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>jtextfsm: A TextFSM fork, Python 3 compatible==============================================Installation:.. code:: bash    pip install jtextfsmUsage:.. code:: python    import jtextfsm as textfsmThe original code:TextFSM: https://code.google.com/p/textfsm</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># rex## git commitvx.x.x## cleanpython setup.py sdist## releasepython setup.py upload --verbose## installpip intall rext## upgradepip install --upgrade rext## upgrade 指定版本pip install --upgrade rext==0.1.22## 镜像会同步不及时，临时使用默认镜像更新pip install -i https://pypi.org/simple --upgrade rext## listpip list## importfrom rext import mstring as ms## useprint(ms.remove_space_all(&quot;666 666&quot;))</longdescription>
 </pkgmetadata>

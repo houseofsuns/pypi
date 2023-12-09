@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># graphingTo install the library on your local machine, clone it and run from the base directory:&gt; python setup.py installThen, try to run the following sample code:&gt; from graphing.special_graphs.neural_trigraph.path_cover import min_cover_trigraph&gt; &gt; from graphing.special_graphs.neural_trigraph.rand_graph import *&gt; ## Generate a random neural trigraph. Here, it is two sets of edges between layers 1 and 2 (edges1) and layers 2 and 3 (edges2)&gt; edges1, edges2 = neur_trig_edges(7, 3, 7, shuffle_p=.05)&gt; ## Find the full-path cover for this neural trigraph.&gt; paths1 = min_cover_trigraph(edges1, edges2)&gt; &gt; print(paths1)</longdescription>
 </pkgmetadata>

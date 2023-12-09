@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>cadcdata ========.. image:: https://img.shields.io/pypi/v/cadcdata.svg       :target: https://pypi.python.org/pypi/cadcdataCanadian Astronomy Data Centre - data accessaccess library and client for astronomical data hosted at the Canadian Astronomy Data Centre</longdescription>
 </pkgmetadata>

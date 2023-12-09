@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># JSONClasses PymongoJSONClasses integration with Pymongo.## PrerequisitesTo use this package, you should have `jsonclasses` and `pymongo` installed.## InstallationInstall `jsonclasses-pymongo` with `pip`.```shpip install jsonclasses-pymongo```## Documentation[Read the Documentation](https://docs.jsonclasses.com)## License[MIT License](https://github.com/fillmula/jsonclasses-pymongo/blob/master/LICENSE)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>In a different subject areas, data analysis tasks exist in which acertain general structure is distinguished, while the number ofpossible methods for implementing subtasks increases. The questionarises: which combination of methods is better? Dsplab allows you todescribe the overall scheme of the task (plan) and assign theso-called &quot;workers&quot; to perform the subtasks. So the main field ofapplication of dsplab is the investigation of variety of methodssolving the same signal processing task.</longdescription>
 </pkgmetadata>

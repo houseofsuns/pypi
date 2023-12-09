@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>colcon-package-selection========================An extension for `colcon-core &lt;https://github.com/colcon/colcon-core&gt;`_ to select a subset of packages for processing.</longdescription>
 </pkgmetadata>

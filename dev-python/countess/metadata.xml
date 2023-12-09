@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CountESS 0.0.42This is CountESS, a modular, Python 3 reimplementation of Enrich2.## LicenseBSD 3-clause.  See [LICENSE.txt](LICENSE.txt)Source code is available at [https://github.com/CountESS-Project/CountESS](https://github.com/CountESS-Project/CountESS) and contributions are welcomed.## InstallingThe latest version of CountESS can be installed from pypi:```pip install CountESS```For other options, see the documentation below ...## Documentation[CountESS Documentation](https://countess-project.github.io/CountESS/)## EnquiriesPlease contact Alan Rubin `alan@rubin.id.au` for further information orNick Moore `nick@zoic.org` for code-related matters.</longdescription>
 </pkgmetadata>

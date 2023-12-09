@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pydkim is a Python library that implements DKIM (DomainKeysIdentified Mail) email signing and verification.</longdescription>
 </pkgmetadata>

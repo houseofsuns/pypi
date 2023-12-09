@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![PyPI version](https://badge.fury.io/py/pygfried.svg)](https://badge.fury.io/py/pygfried)# PygfriedCPython extension of [siegfried], a signature-based file format identificationtool written in Go.No animals were harmed in the making of this extension.## Usage```$ pip install pygfried$ python -q&gt;&gt;&gt; import pygfried&gt;&gt;&gt; pygfried.version()'1.9.1'&gt;&gt;&gt; pygfried.identify(&quot;/bin/ls&quot;)'fmt/690'```[siegfried]: https://www.itforarchivists.com/siegfried</longdescription>
 </pkgmetadata>

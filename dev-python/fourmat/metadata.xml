@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># FourmatA library for batteries-included linting and autoformatting.## Installation and UsageInstall fourmat through pip:```sh$ pip install fourmat```Create a `.fourmat` file to specify the directories and files to check.```sh$ fourmat check$ fourmat fix```## Adding Fourmat as a pre-commit hookInstall the pre-commit package:```sh$ pip install pre-commit```Create a `.pre-commit-config.yaml` containing:```yamlrepos:- repo: https://github.com/4Catalyzer/fourmat  rev: master  # or specify a version  hooks:    - id: fourmat```then install the hook:```$ pre-commit install```</longdescription>
 </pkgmetadata>

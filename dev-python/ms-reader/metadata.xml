@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>MS_Reader=========**MS_Reader is a package for parsing and rearranging data originating from ThermoFisher's Tracefinder software forMass Spectrometry data processing**.It is currently in it's beta phase, and will be integrated in the future in the OmniQuant tool developped on the`MetaToul Platform &lt;https://www6.toulouse.inrae.fr/metatoul&gt;`_.The code is open-source, and available on `GitHub &lt;github.com/llegregam/ms_reader&gt;`_ under a GPLv3 license.</longdescription>
 </pkgmetadata>

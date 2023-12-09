@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A Python library for TEJ RESTful API.  For more information, please access https://api.tej.com.tw .</longdescription>
 </pkgmetadata>

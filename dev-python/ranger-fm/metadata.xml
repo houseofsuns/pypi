@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A console file manager with VI key bindings.It provides a minimalistic and nice curses interface with a view on thedirectory hierarchy.  The secondary task of ranger is to figure out whichprogram you want to use to open your files with.</longdescription>
 </pkgmetadata>

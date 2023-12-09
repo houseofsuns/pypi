@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># IntroductionThis is a library for producing html reports from ShiftLeft Scan or AppThreat scan results## Installation```bashpip install shiftleft-scan-reports``````bashslreporter -a &lt;app_name&gt; -o &lt;Output&gt;```</longdescription>
 </pkgmetadata>

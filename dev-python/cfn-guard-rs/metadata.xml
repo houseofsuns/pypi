@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cfn_guard_rsConverts [CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) into a Python library that can be used in your Python packages# How to use1. Include `cfn_guard_rs` in your project1. Use `run_checks` function to run guard with `rules` (str) against resource `data` (dict)1. Use the output (`DataOutput`) to parse the results and see if the data is compliant or not</longdescription>
 </pkgmetadata>

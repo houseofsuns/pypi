@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Webpage is a Python module that offers an easy, fast, object-orientedway of fetching the contents of a web resource, using common HTTP webservices. It handles etags, last-modified dates, HTTP GET and POST,temporary and permanent redirects, and Not Found errors.All behind the scenes, as the programmer only has to worry about instantiatingthe &quot;Webpage&quot; class by providing a URL, calling the &quot;post&quot; and/or the &quot;get&quot;method if he wants, and then calling the &quot;download&quot; method that returnsthe contents of the page.The programmer doesn't need to care about the page being moved, temporarilyor permanently, or even whether the contents of the page have not changedsince his last download, so they were not downloaded again for the sake ofspeed. The &quot;download&quot; method of &quot;Webpage&quot; always and reliably returns what theprogrammer needs: the actual contents.</longdescription>
 </pkgmetadata>

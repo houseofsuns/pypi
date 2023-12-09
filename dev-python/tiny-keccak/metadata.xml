@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># The Keccak-256 hash function defined in Keccak SHA3 submissionThis module defines the only function `keccak256`, used in Ethereum blockchain.</longdescription>
 </pkgmetadata>

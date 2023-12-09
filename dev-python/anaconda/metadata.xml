@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Anaconda Python cannot be installed via pip or other PyPI-based installers.Please use the Anaconda Installer to bootstrap Anaconda Python onto your system.</longdescription>
 </pkgmetadata>

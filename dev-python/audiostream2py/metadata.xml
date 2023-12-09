@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># audiostream2pystream2py interface for audioTo install:```pip install audiostream2py```</longdescription>
 </pkgmetadata>

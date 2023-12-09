@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># DecentralizedRoutinesDecentralized routines orquestration through Kinesis working pool ### create virtual environment&lt;ul&gt;&lt;li&gt;enter command: pip -m venv venv&lt;/li&gt;&lt;li&gt;activate virtual environnment (venv\Scripts\activate.bat)&lt;/li&gt;&lt;/ul&gt;## Create .env file in root folder Ie:&lt;ul&gt;&lt;li&gt;LOG_LEVEL=[DEBUG]&lt;/li&gt;&lt;li&gt;GIT_USER=[GIT_USER]&lt;/li&gt;&lt;li&gt;GIT_TOKEN=[GIT_TOKEN]&lt;/li&gt;&lt;li&gt;GIT_ACRONYM=[GIT_ACRONYM]&lt;/li&gt;&lt;li&gt;GIT_SERVER=[GIT_SERVER]&lt;/li&gt;&lt;li&gt;SOURCE_FOLDER=[SOURCE_FOLDER]&lt;/li&gt;&lt;/ul&gt;</longdescription>
 </pkgmetadata>

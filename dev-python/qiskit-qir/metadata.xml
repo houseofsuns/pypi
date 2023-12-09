@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># qiskit-qirQiskit to QIR translator.## Example```pythonfrom qiskit import QuantumCircuitfrom qiskit_qir import to_qir_modulecircuit = QuantumCircuit(3, 3, name=&quot;my-circuit&quot;)circuit.h(0)circuit.cx(0, 1)circuit.cx(1, 2)circuit.measure([0,1,2], [0, 1, 2])module, entry_points = to_qir_module(circuit)bitcode = module.bitcodeir = str(module)```## InstallationInstall `qiskit-qir` with `pip`:```bashpip install qiskit-qir```&gt; Note: this will automatically install PyQIR if needed.## Development### Install from sourceTo install the package from source, clone the repo onto your machine, browse to the root directory and run```bashpip install -e .```### TestsFirst, install the development dependencies using```bashpip install -r requirements_dev.txt```To run the tests in your local environment, run```bashmake test```To run the tests in virtual environments on supported Python versions, run```bashmake test-all```### DocsTo build the docs using Sphinx, run```bashmake docs```</longdescription>
 </pkgmetadata>

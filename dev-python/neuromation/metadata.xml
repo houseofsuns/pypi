@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![codecov](https://codecov.io/gh/neuromation/platform-client-python/branch/master/graph/badge.svg)](https://codecov.io/gh/neuromation/platform-client-python)# PrefaceWelcome to Neuromation API Python client for https://neu.ro/.Package ship command line tool called `neuro`. With it you can:* Execute and debug jobs* Manipulate Data* Make some fun# Apihttps://neuromation-sdk.readthedocs.io/en/latest/# ContributingFor OSX users install coreutils to properly interpret shell commands:```brew install coreutils```Before you begin, it is recommended to have clean virtual environment installed:```shellpython -m venv .envsource .env/bin/activate```Development flow:* Install dependencies: `make setup`* Reformat code: `make format`* Lint: `make lint`* Run tests: `make test`* Run end-to-end tests: `make e2e`</longdescription>
 </pkgmetadata>

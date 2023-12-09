@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>asyncio-friendly python API for World Air Quality Index (http://aqicn.org). Requires Python 3.5+</longdescription>
 </pkgmetadata>

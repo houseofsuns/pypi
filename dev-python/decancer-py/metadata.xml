@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># decancer_pyPython bindings for [decancer](https://github.com/null8626/decancer).## InstallationYou can get started with `decancer_py` by installing from PyPI:```bashpip install -U decancer-py```## Usage`decancer_py` can be used to turn sketchy text strings into their morebasic counterparts.A single function and class are exported from `decancer_py`:- `CuredString` - A wrapper around a string object that can be used for comparisons.- `parse` - Parse a jank string into a normal string wrapped in a `CuredString` object.```pyfrom decancer_py import parse, CuredStringparsed: CuredString = parse(&quot;𝔂ＥＥ𝓣&quot;)assert &quot;ee&quot; in parsedassert parsed == &quot;yeet&quot;assert parsed.contains(&quot;ee&quot;)assert parsed.ends_with(&quot;et&quot;)assert parsed.starts_with(&quot;ye&quot;)# Implicit string conversionprint(parsed)# yeet```## License`decancer_py` is licensed under the[MIT License](https://github.com/Jonxslays/decancer_py/blob/master/LICENSE).</longdescription>
 </pkgmetadata>

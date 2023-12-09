@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Style and Imports for dmol BookThis is the style and imports for deep learning for molecules and materialswritten by Andrew White. Please see the [dmol book](https://dmol.pub) orroot package at [github](https://github.com/whitead/dmol-book).</longdescription>
 </pkgmetadata>

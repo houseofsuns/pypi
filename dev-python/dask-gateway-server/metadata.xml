@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>dask-gateway-server===================A multi-tenant server for securely deploying and managing Dask clusters. See`the documentation &lt;https://gateway.dask.org/&gt;`__ for more information.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>GLTF provides the ability to load, modify, and save GLTF/GLB files.[GLTF](https://www.khronos.org/gltf/) is an open 3D model standard by the Khronos Group.</longdescription>
 </pkgmetadata>

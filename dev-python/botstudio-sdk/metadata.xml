@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Pip Package BotstudioThis is a pip package for botstudio. change version in pyproject.tomlin terminal:python -m pip install --upgrade buildpython -m buildpython -m pip install --upgrade twinepython -m twine upload --repository pypi dist/*username = username = &quot;_\_\_token___&quot;</longdescription>
 </pkgmetadata>

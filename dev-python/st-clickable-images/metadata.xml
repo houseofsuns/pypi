@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A Streamlit component to display images and retrieve the indices of the images that were clicked on</longdescription>
 </pkgmetadata>

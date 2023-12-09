@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The autoimp module makes usage of the interactive Python prompt more productive.    With autoimp, all installed Python modules can be imported with the single statement &quot;from autoimp import *&quot;.  The  imported modules are proxy objects which lazily load when first used.    Install with 'sudo pip install autoimp'.     Proper installation of autoimp involves placing &quot;from autoimp import *&quot; in your    PYTHONSTARTUP file. Once autoimp is properly installed, it is no longer necessary to use statements of the form &quot;import X&quot; at the interactive prompt.</longdescription>
 </pkgmetadata>

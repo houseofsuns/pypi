@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This module is for easy interaction with linux, Mac OS X, Windows shell.</longdescription>
 </pkgmetadata>

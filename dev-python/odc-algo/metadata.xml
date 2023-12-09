@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>odc.algo========Algorithm utils of various kind.Installation------------```pip install odc-algo```Usage-----TODO</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># NeuralNetsThis code implements various useful utilities for training neural networks (particularly for segmentation). Make sure to check out our [documentation page](https://neuralnets.readthedocs.io/en/latest/)! ## InstallationInstallation is straightforward through pip:&lt;pre&gt;&lt;code&gt;pip install neuralnets&lt;/code&gt;&lt;/pre&gt;</longdescription>
 </pkgmetadata>

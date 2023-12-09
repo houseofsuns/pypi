@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>reusable django form and view for 'contact us' functionality</longdescription>
 </pkgmetadata>

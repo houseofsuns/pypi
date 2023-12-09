@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># BWI-lib_python client for BWI interactions_## Usage### Instantiate a client```pythonimport bwiclient = bwi.Client(api_key='xxxxxxxxxxxxxxxx', workflow='shop')```### Manipulate your logs```python# provide step durationwith client.Step('fetch client information') as bwi:    bwi.logger.info('found client with user id %d', 18)```### Metric management```python# manipulate metricsclient.Step('validate order')# Your business-oriented code goes here# ...total_paid = 220# increment the income metric for this stepbwi.metrics.inc('income', total_paid)```### Error-handling```python# report any unknown exception to the bwi handlertry:    # Your business-oriented code goes hereexcept Exception as err:    bwi.handler.catch(err)    # the error is now available for this specific step```### Mark a step as (un)succesful```pythonstep = bwi.Step('process order')# Your business-oriented code goes herestep.success()# other scenario, where thing go badstep.failed()```</longdescription>
 </pkgmetadata>

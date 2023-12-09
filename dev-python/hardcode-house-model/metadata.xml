@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># house-modelpython3 -m buildTestpypi: python3 -m twine upload --repository testpypi dist/*Pypi: python3 -m twine upload dist/*Username: __token__Password: see tokens above</longdescription>
 </pkgmetadata>

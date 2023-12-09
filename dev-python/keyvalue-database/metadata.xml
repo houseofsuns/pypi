@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This module allows you to create and save simple key-value database to do some tasks.You can check the source code in the github repo under project links.</longdescription>
 </pkgmetadata>

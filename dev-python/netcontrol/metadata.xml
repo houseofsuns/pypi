@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>No Python documentation found for 'vm'.Use help() to get the interactive help utility.Use help(str) for help on the str class.</longdescription>
 </pkgmetadata>

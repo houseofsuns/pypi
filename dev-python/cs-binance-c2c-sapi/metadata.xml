@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A Python wrapper for the Binance C2C (Customer-to-Customer) SAPI.</longdescription>
 </pkgmetadata>

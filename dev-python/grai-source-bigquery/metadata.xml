@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Grai BigQuery IntegrationThe BigQuery integration synchronizes metadata from a BigQuery datawarehouse into your Grai data lineage graph.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>gffutils========``gffutils`` is a Python package for working with and manipulating the GFF andGTF format files typically used for genomic annotations.Files are loaded into a sqlite3 database, allowing much more complexmanipulation of hierarchical features (e.g., genes, transcripts, and exons)than is possible with plain-text methods alone.See documentation at https://daler.github.io/gffutils, and GitHub repo athttps:/github.com/daler/gffutils.</longdescription>
 </pkgmetadata>

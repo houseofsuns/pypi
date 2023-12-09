@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>LabRAD is a system for quickly and easily building distributedinstrument control and data analysis applications.  pylabradprovides a python interface to LabRAD.</longdescription>
 </pkgmetadata>

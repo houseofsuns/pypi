@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Noisyopt is a library for local optimization of noisy objective functions.Optimization in the presence of stochasticity in the objective functionevaluation is challenging. This library provides simple, robust algorithmsto solve this problem.For more info see the `documentation &lt;http://noisyopt.readthedocs.io/en/latest/&gt;`_ or the `source code &lt;http://github.com/andim/noisyopt&gt;`_.</longdescription>
 </pkgmetadata>

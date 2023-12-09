@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># capabilitiesBlazon Capabilities SDKRead our [Getting Started Guide](https://docs.blazon.ai).# Install and run example```bashpip install -e . # installs `capabilities`python -m capabilities.example example_structured```</longdescription>
 </pkgmetadata>

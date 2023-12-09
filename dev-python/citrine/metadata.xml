@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Getting Started`citrine-python` is the Python library for the Citrine Platform. To get started, install `citrine-python`:```bashpip install citrine```Detailed instructions on installation and usage can be found in the complete [citrine-python docs](https://citrineinformatics.github.io/citrine-python/index.html)# ContributingTo find detailed contributing guidelines, please see the [contributing documentation](https://github.com/CitrineInformatics/citrine-python/blob/main/CONTRIBUTING.md)._Copyright 2022 Citrine Informatics_</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This cube provides the `Link` entity type to model links, eg an URL with adescription.</longdescription>
 </pkgmetadata>

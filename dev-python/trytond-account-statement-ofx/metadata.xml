@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Account Statement OFX Module############################The Account statement OFX module implement the import of the `OFX&lt;https://en.wikipedia.org/wiki/Open_Financial_Exchange&gt;`_ file as statement.</longdescription>
 </pkgmetadata>

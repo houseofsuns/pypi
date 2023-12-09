@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># django-versionfield[![PyPI version](https://badge.fury.io/py/django-versionfield.svg)](https://badge.fury.io/py/django-versionfield)[![PyPi downloads](https://pypip.in/d/django-versionfield/badge.png)](https://crate.io/packages/django-versionfield/)## Installation   * Install `django-versionfield````shell scriptpip install django-versionfield```   * Add to `INSTALLED_APPS````python    INSTALLED_APPS = [     ...    'versionfield',    ...        ]   ```    ## Usage:```python    from versionfield import VersionField    class SomeModel(models.Model):        version = VersionField()```## Sample Queries:```python    SomeModel.objects.filter(version__gt=&quot;1.0.0&quot;)    SomeModel.objects.filter(version__gt=&quot;1.0&quot;)```## Widget```python    from versionfield.widgets import VersionWidget        class SomeForm(ModelForm):        some_field = VersionField(widget = VersionWidget)```</longdescription>
 </pkgmetadata>

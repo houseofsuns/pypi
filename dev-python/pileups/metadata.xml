@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pileups## InstallationFor Python:```shpip install pileups```or```pip install --user pileups```</longdescription>
 </pkgmetadata>

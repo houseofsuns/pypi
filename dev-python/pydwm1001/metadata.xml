@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># IntroductionThis is a Python library for interfacing with the Qorvo (previously Decawave) DWM1001.</longdescription>
 </pkgmetadata>

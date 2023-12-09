@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># QURI Parts OpenQASMQURI Parts OpenFermion is a support library for using OpenQASM 3 with QURI Parts.Note: some gates (SqrtX, SqrtXdag, SqrtY, SqrtYdag) are not implemented yet.## Documentation[QURI Parts Documentation](https://quri-parts.qunasys.com)## Installation```pip install quri-parts-openqasm```## LicenseApache License 2.0</longdescription>
 </pkgmetadata>

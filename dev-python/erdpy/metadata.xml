@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Moved to: - GitHub: https://github.com/multiversx/mx-sdk-py-cli - PyPI: https://pypi.org/project/multiversx-sdk-cli</longdescription>
 </pkgmetadata>

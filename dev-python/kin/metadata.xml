@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>KIN===KIN is a tool to check whether your project.pbxproj file is correctUsage-----::  Usage: kin [project.pbxproj]  Verifies the correctness of your project.pbxproj file.  When called with no arguments, Kin will try to find a project.pbxproj file in the current project.</longdescription>
 </pkgmetadata>

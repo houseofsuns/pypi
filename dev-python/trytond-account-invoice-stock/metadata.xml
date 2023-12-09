@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>############################Account Invoice Stock Module############################The *Account Invoice Stock Module* links together invoice lines and stockmoves.This allows a stock move's unit price to be updated from the average priceof the linked invoice lines.</longdescription>
 </pkgmetadata>

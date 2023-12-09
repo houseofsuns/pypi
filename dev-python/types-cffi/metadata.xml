@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for cffiThis is a PEP 561 type stub package for the `cffi` package. Itcan be used by type-checking tools like[mypy](https://github.com/python/mypy/),[pyright](https://github.com/microsoft/pyright),[pytype](https://github.com/google/pytype/),PyCharm, etc. to check code that uses`cffi`. The source for this package can be found athttps://github.com/python/typeshed/tree/main/stubs/cffi. All fixes fortypes and metadata should be contributed there.See https://github.com/python/typeshed/blob/main/README.md for more details.This package was generated from typeshed commit `747222469d5dcbe4d2fcaf3b0862ff26528c990e` and was testedwith mypy 1.5.1, pyright 1.1.328, andpytype 2023.8.31.</longdescription>
 </pkgmetadata>

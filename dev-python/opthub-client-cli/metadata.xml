@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># OptHub CLI ClientThis package provides a commandline interface to operate OptHub.## RequirementsPython &gt;=3.6## Installation```$ pip install opthub-client-cli```## Usage```$ opt --help```## AuthorNaoki Hamada (hmkz@s101.xrea.com)## License[MIT](LICENSE)</longdescription>
 </pkgmetadata>

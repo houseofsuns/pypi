@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Name Generator&gt; Generate Random Names for anything## Screenshot&lt;img src=&quot;https://gitlab.com/yoginth/namegenerator/raw/master/Screenshot.png&quot; width=&quot;550&quot;&gt;## Inspired by- [Noxan's Gist](https://gist.github.com/noxan/5845351)- [Names Module by Trey Hunner](https://pypi.org/project/names/)## Install```$ pip install namegenerator```## Usage```pyimport namegeneratorprint (namegenerator.gen())#=&gt; scaly-peach-centipede```## Get HelpThere are few ways to get help: 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question. 2. For bug reports and feature requests, open issues. 3. For direct and quick help, you can [email me](mailto://yoginth@zoho.com).## How to contributeHave an idea? Found a bug? See [how to contribute][contributing].Thanks!## License[MIT][license][LICENSE]: https://yoginth.mit-license.org/[contributing]: /CONTRIBUTING.md</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Provides the SHA-224, SHA-256, SHA-384, SHA-512 hash algorithms in addition toplatform optimized versions of MD5 and SHA1.  If OpenSSL is present all of itshash algorithms are provided.This is a stand alone packaging of the hashlib library included with Python 2.5so that it can be used on older versions of Python (tested on 2.3 and 2.4).</longdescription>
 </pkgmetadata>

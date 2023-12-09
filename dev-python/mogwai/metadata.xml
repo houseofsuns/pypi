@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>mogwai is an Object-Graph Mapper (OGM) for Python`Documentation &lt;https://mogwai.readthedocs.org/en/latest/&gt;`_`Report a Bug &lt;https://bitbucket.org/wellaware/mogwai/issues&gt;`_NOTE: TinkerPop3 SupportZEROFAIL has graciously adopted mogwai to grow into a full fledged goblin for TinkerPop3! See more here: https://github.com/ZEROFAIL/goblin</longdescription>
 </pkgmetadata>

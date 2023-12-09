@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># TensorState (v0.4.0) - Neural Network Efficiency ToolsTensorState is a toolbox to capture neural network information to betterunderstand how information flows through the network. The core of the toolbox isthe ability to capture and analyze neural layer state space, which logs uniquefiring states of neural network layers. This repository implements and extendsthe work by Schaub and Hotaling in their paper,[Assessing Intelligence in Artificial Neural Networks](https://arxiv.org/abs/2006.02909).## InstallationPrecompiled wheels exist for Windows, Linux, and MacOS for Python 3.6-3.8. Nospecial installation instructions are required in most cases:`pip install pip --upgrade``pip install TensorState`If the wheels don't download or you run into an error, try installing thepre-requisites for compiling before installing with `pip`.`pip install pip --upgrade``pip install numpy==1.19.2 Cython==3.0a1``pip install TensorState`## Documentationhttps://tensorstate.readthedocs.io/en/latest/</longdescription>
 </pkgmetadata>

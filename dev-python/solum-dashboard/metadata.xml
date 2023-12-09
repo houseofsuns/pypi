@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>========================Team and repository tags========================.. image:: http://governance.openstack.org/badges/solum-dashboard.svg    :target: http://governance.openstack.org/reference/tags/index.html.. Change things from this point onsolum-dashboard===============Horizon plugin for SolumPurpose of this plugin is to add Solum capabilities to the openstack dashboard.This plugin requires a working openstack install including solum and horizon.How to install solum-dashboard into Horizon.--------------------------------------------Enter these commands in your terminal: sudo pip install -e /opt/stack/solum-dashboard cd /opt/stack/horizon/openstack_dashboard/local/enabled ln -s /opt/stack/solum-dashboard/solumdashboard/local/enabled/_50_solum.py _50_solum.py sudo service apache2 restart</longdescription>
 </pkgmetadata>

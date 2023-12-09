@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Chances provides a simple utility to access random methods in a unifiedmanner. The package implements pseudo, quasi, and true random methods, includingan actual quantum random method and ambience sound based true random method.</longdescription>
 </pkgmetadata>

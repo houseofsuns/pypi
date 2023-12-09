@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A Django app to include a manifest.json and Service Worker instance to enable progressive web app behavior </longdescription>
 </pkgmetadata>

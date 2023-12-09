@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Tools=====THIS IS DEPRECATED MODULE. USE http://pypi.python.org/pypi/weblib MODULEINSTEAD.Installation============YOU SHOULD NOT INSTALL THIS MODULE.</longdescription>
 </pkgmetadata>

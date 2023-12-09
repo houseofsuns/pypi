@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A python3 tool for data analysis and fitting.Install from https://pypi.org/project/fepydas/ with &quot;pip install fepydas&quot;.View repository at https://git.tu-berlin.de/nippert/fepydasFind usage examples at https://git.tu-berlin.de/nippert/fepydas/-/tree/master/examplesRequirements:Python3numpyscipymatplotliblmfitscikit-learnpyamg</longdescription>
 </pkgmetadata>

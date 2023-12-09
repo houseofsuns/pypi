@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Library for retrieving information about catkin packages.</longdescription>
 </pkgmetadata>

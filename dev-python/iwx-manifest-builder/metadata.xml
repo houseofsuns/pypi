@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># iwx-manifest-builderThs Internal Workflow Exchange library provides schemas needed to validate the data passed between FSAI workflows. </longdescription>
 </pkgmetadata>

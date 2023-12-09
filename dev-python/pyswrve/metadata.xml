@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pyswrve is an unofficial Python wrapper forSwrve Non-Client APIs: Export API (ready) and Items API (todo).</longdescription>
 </pkgmetadata>

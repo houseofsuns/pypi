@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># TDengine Python UDF[TDengine](https://github.com/taosdata/TDengine) Python UDF enables writing UDF in Python Language.## Licensetaospyudf is provided under a MIT license that can be found in the LICENSEfile. By using, distributing, or contributing to this project, you agree to theterms and conditions of this license.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ocf_blosc2Blosc2 codec used for OCF's Zarr compression</longdescription>
 </pkgmetadata>

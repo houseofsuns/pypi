@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Jupyter Sphinx Extensions``jupyter-sphinx`` enables running code embedded in Sphinx documentation andembedding output of that code into the resulting document. It has supportfor rich output such as images and even Jupyter interactive widgets.## InstallationWith pip:```bashpip install jupyter_sphinx```with conda:```bashconda install jupyter_sphinx -c conda-forge```## UsageYou can check out the documentation on https://jupyter-sphinx.readthedocs.io for up to dateusage information and examples.## LicenseWe use a shared copyright model that enables all contributors to maintain thecopyright on their contributions.All code is licensed under the terms of the revised BSD license.</longdescription>
 </pkgmetadata>

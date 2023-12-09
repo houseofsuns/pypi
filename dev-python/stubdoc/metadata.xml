@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>stubdoc is a Python library that append docstring to stub files. For more details, please see Github repository: https://github.com/simon-ritchie/stubdoc/tree/main</longdescription>
 </pkgmetadata>

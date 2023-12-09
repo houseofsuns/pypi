@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># joes netmiko copyThis package is a copy of netmiko 4.2.0 with lancom and edgecore router added for internal use</longdescription>
 </pkgmetadata>

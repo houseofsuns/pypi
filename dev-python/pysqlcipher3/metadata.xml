@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python interface to SQLCipherpysqlcipher3 is an interface to the SQLite 3.x embedded relationaldatabase engine. It is almost fully compliant with the Python database APIversion 2.0. At the same time, it also exposes the unique features ofSQLCipher. Prior to installation, libsqlcipher must already be installedon your system, with the process dependent on your operating system.</longdescription>
 </pkgmetadata>

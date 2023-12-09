@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># resoto-plugin-aws-k8sAWS - K8s Collector Plugin for Resoto: link together your AWS and k8s cluster resources.</longdescription>
 </pkgmetadata>

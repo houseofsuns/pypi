@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Flagr is a feature flagging, A/B testing and dynamic configuration microservice. The base path for all the APIs is \&amp;quot;/api/v1\&amp;quot;.   # noqa: E501</longdescription>
 </pkgmetadata>

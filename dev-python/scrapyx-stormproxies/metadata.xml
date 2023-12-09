@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># scrapyx-stormproxiesStormproxies middleware for Scrapy (http://scrapy.org/)Required--------    python version &gt;= 2.7Install--------Checkout the source and run    python setup.py installOr    pip install scrapyx-stormproxiessettings.py-----------    # Activate the middleware    STORMPROXIES_ENABLED = True    # The Stormproxies URL    STORMPROXIES_URL = 'http://x.x.x.x:13080'    DOWNLOADER_MIDDLEWARES = {        'scrapyx_stormproxies.StormProxyMiddleware': 610,    }</longdescription>
 </pkgmetadata>

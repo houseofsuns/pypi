@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A Python module that connects to a Telegram messenger CLI, allowing to interact with Telegram users or groups.Report any issues at https://github.com/luckydonald/pytg/issues/</longdescription>
 </pkgmetadata>

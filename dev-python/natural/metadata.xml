@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Example Usage=============Basic usage::    &gt;&gt;&gt; from natural.file import accessed    &gt;&gt;&gt; print accessed(__file__)    just nowWe speak your language (with `your support`_)::    &gt;&gt;&gt; import locale    &gt;&gt;&gt; locale.setlocale(locale.LC_MESSAGES, 'nl_NL')    &gt;&gt;&gt; print accessed(__file__)    zojuistBugs/Features=============You can issue a ticket in GitHub: https://github.com/tehmaze/natural/issuesDocumentation=============The project documentation can be found at http://natural.rtfd.org/.. _your support: http://natural.readthedocs.org/en/latest/locales.html</longdescription>
 </pkgmetadata>

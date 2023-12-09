@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># django-cjkcms is now wagtail-cjkcmsThis package has been renamed. Use `pip install wagtail-cjkcms` instead.New package: https://pypi.org/project/wagtail-cjkcms/</longdescription>
 </pkgmetadata>

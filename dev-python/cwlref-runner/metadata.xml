@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This an optional companion package to &quot;cwltool&quot; which provides provides anadditional entry point under the alias &quot;cwl-runner&quot;, which is theimplementation-agnostic name for the default CWL interpreter installed on ahost.</longdescription>
 </pkgmetadata>

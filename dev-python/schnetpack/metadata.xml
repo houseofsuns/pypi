@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>        SchNetPack aims to provide accessible atomistic neural networks that can be        trained and applied out-of-the-box, while still being extensible to custom         atomistic architectures</longdescription>
 </pkgmetadata>

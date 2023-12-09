@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Amplitude Python SDK--------------------SDK for Amplitude API    | SDK for Amplitude API.    | https://developers.amplitude.com/docs    | https://github.com/paulokuong/amplitudeRequirements-------------  Python 3.7.0Goal----| To provide a python API client for Amplitude API.| (More clients to be implemented)Code sample-----------| Requesting Behavioral Cohorts API.. code:: python  from amplitude_sdk import BehavioralCohortsClient  b = BehavioralCohortsClient(  api_key='xxxxxxx',  secret='yyyyyyyy')  b.list_cohorts()Contributors-------------  Paulo Kuong (`@paulokuong`).. @pkuong: https://github.com/paulokuong</longdescription>
 </pkgmetadata>

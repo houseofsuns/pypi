@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>grafana-dashboard-builder is an open-source tool for easier creation of Grafana dashboards.It is written in Python and uses YAML descriptors for dashboardtemplates.This project has been inspired by Jenkins Job Builder thatallows users to describe Jenkins jobs with human-readable format. grafana-dashboard-builderaims to provide similar simplicity to Grafana dashboard creation and to give users easy way how they can createdashboard templates filled with different configuration.</longdescription>
 </pkgmetadata>

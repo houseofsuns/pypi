@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Apache Beam is a unified programming model for both batch and streamingdata processing, enabling efficient execution across diverse distributedexecution engines and providing extensibility points for connecting todifferent technologies and user communities.</longdescription>
 </pkgmetadata>

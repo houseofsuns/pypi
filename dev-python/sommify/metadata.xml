@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>```python -m build``````python -m twine upload dist/sommify-0.5.{}*```</longdescription>
 </pkgmetadata>

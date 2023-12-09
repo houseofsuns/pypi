@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>======screen======Screen width and so onInstallation============::    pip install screenUsage=====::    import screen    screen.calc_width(u'测试',0, 2)</longdescription>
 </pkgmetadata>

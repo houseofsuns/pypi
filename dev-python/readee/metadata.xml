@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># readeeLibrary for export webpage to reader mode html.## usage```import readeebeautiful_soup_html = readee.export(url = webpage_url)```optional args:- content: raw webpage, will skip url fetching- list_replace: will replace list, usually for telegraph export## how to install`pip3 install readee`</longdescription>
 </pkgmetadata>

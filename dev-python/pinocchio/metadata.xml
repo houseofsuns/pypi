@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Extra plugins for the nose testing framework.  Provides tools for flexiblyassigning decorator tags to tests, choosing tests based on theirruntime, doing moderately sophisticated code coverage analysisof your unit tests, and making your test descriptions look likespecifications.</longdescription>
 </pkgmetadata>

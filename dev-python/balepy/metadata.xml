@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># balepy&lt;h3 align=&quot;center&quot;&gt; balepy a Library Python for create bot API in bale application &lt;/h3&gt;&gt; ## Install and Update:```pythonpip install -U balepy```&gt; ## START:```pythonfrom balepy import Botbot = Bot(&quot;Token&quot;)```&gt; ## Methods:### send_Message:```pythonbot.send_Message(chat_id , &quot;text&quot;)```### getupdate:```pythonbot.getupdate()```### getchat:```pythonbot.getchat(chat_id)```### getme:```pythonbot.getme()```&lt;hr&gt;&gt; ## Social Media:#### Rubika : &lt;a href=&quot;https://rubika.ir/balepy_lib&quot;&gt;balepy_lib&lt;/a&gt;</longdescription>
 </pkgmetadata>

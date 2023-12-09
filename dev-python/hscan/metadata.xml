@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Hscan```python Setup.py sdist bdist_wheelpython -m twine upload dist/*```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Uses a series of pattern matching and rewriting rules to compute a &quot;best guess&quot; datetime.strptime format string give a list of example date strings.</longdescription>
 </pkgmetadata>

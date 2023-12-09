@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># idevopsBuild iost net within one button.## Installation```pip install -U idevops```## Usage* Add your network configuration in `~/.idevops/&lt;your-network-name&gt;/config.yml`* Then ready to fire: `idevops`</longdescription>
 </pkgmetadata>

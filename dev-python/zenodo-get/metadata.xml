@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This program is meant to download complete Zenodo records basedon the Zenodo record ID or the DOI. The primary goal is to ease accessto large records with dozens of files.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>### NHM-SPIDER&gt; 使用asyncio异步方式实现的爬虫，写法与scrapy相同。##### 待完成##### 发布```bashpython setup.py sdist bdist_wheeltwine upload dist/*```- @auther: noHairMan- @time: 2021-03-18</longdescription>
 </pkgmetadata>

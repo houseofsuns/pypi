@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CAD to shapelyconvert a CAD file to [shapely](https://pypi.org/project/Shapely/) geometry for downstream processing.Currently supports, to varying degrees:- DXF using [exdxf](https://pypi.org/project/ezdxf/)- (IGES to follow)- (SVG to follow)## UtilsAlso some utils in utils.py## ExampleTo run example in `example.py` you need to install matplotlib `pip install matplotlib`.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A port of Perl module Directory::Queuehttp://search.cpan.org/dist/Directory-Queue/The goal of this module is to offer a queue system using the underlyingfilesystem for storage, security and to prevent race conditions via atomicoperations. It focuses on simplicity, robustness and scalability.This module allows multiple concurrent readers and writers to interact withthe same queue.</longdescription>
 </pkgmetadata>

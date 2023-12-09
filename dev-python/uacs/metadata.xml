@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Ultimate_Auto_Check_ServicesThis script allows to check services under Linux and sends mails in case of crash of one of them.# #--------------* UNDER DEVELOPMENT  *--------------#</longdescription>
 </pkgmetadata>

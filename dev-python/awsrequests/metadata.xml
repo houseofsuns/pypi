@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>aws-requests================making AWS4-HMAC-SHA256 signed HTTP calls with requests python::    from awsrequests import AwsRequester            req = AwsRequester(&quot;us-west-2&quot;)    req.get(&quot;http://myapigateway.whatever.com/&quot;)    req.post(&quot;http://myapigateway.whatever.com/&quot;,json=dict(my=&quot;data&quot;)Credentials------AwsRequester can either have a key and secret passed in, or it will try to find creds in the same way boto3 would.</longdescription>
 </pkgmetadata>

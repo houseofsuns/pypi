@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>EGADS (EUFAR General Airborne Data-processing Software) is a Python-basedtoolbox for processing airborne atmospheric data. EGADS provides a frameworkfor researchers to apply expert-contributed algorithms to data files, and actsas a platform for data intercomparison. Algorithms used in EGADS werecontributed by members of the EUFAR Expert Working Groups and are mature andwell-established in the scientific community. EGADS Lineage is a new branch inEGADS development maintained outside the scope of EUFAR et compatible with Python 3.</longdescription>
 </pkgmetadata>

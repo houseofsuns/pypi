@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Unofficial AlekSIS App EvaLU (Evaluation of teaching and lesson quality)========================================================================AlekSIS-------This is an unofficial application for use with the `AlekSIS`_ platform.Features--------This app can be used to evaluate teaching and lesson quality of teachers.Licence-------::  Copyright © 2021, 2022, 2023 Jonathan Weth &lt;dev@jonathanweth.de&gt;  Licenced under the EUPL, version 1.2 or laterCreate graph of models----------------------::  poetry run pip install pygraphviz  poetry run aleksis-admin graph_models evalu -X Site,ExtensibleModel -x site,extended_data -oPlease see the LICENCE.rst file accompanying this distribution for thefull licence text or on the `European Union Public Licence`_ websitehttps://joinup.ec.europa.eu/collection/eupl/guidelines-users-and-developers(including all other official language versions)... _AlekSIS: https://edugit.org/AlekSIS/AlekSIS.. _European Union Public Licence: https://eupl.eu/</longdescription>
 </pkgmetadata>

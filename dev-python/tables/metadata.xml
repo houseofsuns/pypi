@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PyTables is a package for managing hierarchical datasets anddesigned to efficiently cope with extremely large amounts ofdata. PyTables is built on top of the HDF5 library and theNumPy package and features an object-oriented interfacethat, combined with C-code generated from Cython sources,makes of it a fast, yet extremely easy to use tool forinteractively save and retrieve large amounts of data.</longdescription>
 </pkgmetadata>

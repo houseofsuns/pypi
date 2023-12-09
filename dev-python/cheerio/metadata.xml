@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pip pip cheerio!To make go:.. code-block:: bash    virtualenv venv    source venv/bin/activate    pip install cheerio    python        &gt;import cheerio        &gt;cheerio.cheerio()</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>dls-normsql=======================================================================Normalized API over various sql libraries for consistency across multiple projects.</longdescription>
 </pkgmetadata>

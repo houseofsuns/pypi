@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===========adjutant-ui===========Adjutant Dashboard* Free software: Apache license* Source: https://github.com/openstack/adjutant-uiThis is the Horizon plugin for the Adjutant service, and provides UI elementsto the core features that Adjutant adds.Documentation=============Documentation is stored in doc/, a sphinx build of the documentation can begenerated with the command ``tox -e docs``.</longdescription>
 </pkgmetadata>

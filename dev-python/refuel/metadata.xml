@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Refuel Python APIThis is the [Refuel.ai](https://www.refuel.ai/) Python client library.# InstallationYou can install this library using `pip`:```bashpip install refuel```Make sure you have a valid API key from Refuel (shared with your team during onboarding).# Questions?Reach out to us at support@refuel.ai with any questions!![Tests](https://github.com/refuel-ai/refuel-python/actions/workflows/test.yml/badge.svg)</longdescription>
 </pkgmetadata>

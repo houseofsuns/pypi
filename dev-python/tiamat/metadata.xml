@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>======TIAMAT======*Tiamat is the single binary builder for Python projects.*Tiamat is the single binary builder for Python-based projects that use pop. Popis the implementation of the Plugin Oriented Programming software developmentparadigm. For more information about Plugin Oriented Programming and how todevelop in pop, see`The Intro to Plugin Oriented Programming &lt;https://pop-book.readthedocs.io/&gt;`_... Note::    While Tiamat is written with the intent of supporting pop projects it can be    used with any Python project.Tiamat can be used to define a build without altering the target application'ssource tree, which can be useful when building third party applications.All that needs to be done is to define a ``run.py`` as the entry script andthen to create a ``requirements.txt`` file that will include the targetapplication.- Read the `Quickstart Guide &lt;https://gitlab.com/saltstack/pop/tiamat/-/blob/master/docs/topics/quickstart.rst&gt;`_</longdescription>
 </pkgmetadata>

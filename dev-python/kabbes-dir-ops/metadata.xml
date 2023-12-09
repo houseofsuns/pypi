@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[GitHub Pages](https://jameskabbes.github.io/dir_ops)&lt;br&gt;[PyPI](https://pypi.org/project/kabbes-dir_ops)# dir_opsHandy directory operations along with homemade Dir/Path classes&lt;br&gt; # Installation`pip install kabbes_dir_ops`&lt;br&gt;# UsageFor more in-depth documentation, read the information provided on the Pages. Or better yet, read the source code.```pythonimport dir_ops as do``````pythondo.join( 'C', 'Path', 'To', 'File' )``````&gt;&gt;&gt; 'C:/Path/To/File'``````pythondo.path_to_dirs( 'C:/Path/To/File/asdf.txt' )``````&gt;&gt;&gt; [ 'C', 'Path', 'To', 'File', 'asdf.txt' ]``````pythonPath_inst = do.Path( 'C:/Path/To/File/asdf.txt')``````pythonprint( Path_inst.exists() )``````&gt;&gt;&gt; True``````pythonPath_inst.print_atts() #from parent_class dependency``````&gt;&gt;&gt;---Path Class---path:C:/Path/To/File/asdf.txtdirs:['C:', 'Path', 'To', 'File', 'asdf.txt']ending:txtsize:None```&lt;br&gt;# AuthorJames Kabbes</longdescription>
 </pkgmetadata>

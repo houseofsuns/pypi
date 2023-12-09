@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>ansible-galaxy-local-deps=========![Build Status](https://github.com/andrewrothstein/ansible-galaxy-local-deps/actions/workflows/build.yml/badge.svg)A bunch of python scripts supporting ansible role testing in CI</longdescription>
 </pkgmetadata>

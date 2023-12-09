@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>================Frontera Contrib================Quick start-----------1. Add &quot;frontera_contrib&quot; to your INSTALLED_APPS setting like this::    INSTALLED_APPS = [        ...        'frontera_contrib',    ]</longdescription>
 </pkgmetadata>

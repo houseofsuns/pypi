@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># 3debtTry to figure out what dependencies you're missing to start upgrading your project to Python 3## Installationpip install -g 3debt## Usage3debt requirements.txt</longdescription>
 </pkgmetadata>

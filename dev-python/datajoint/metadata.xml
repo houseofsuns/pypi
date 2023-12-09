@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A relational data framework for scientific data pipelines with MySQL backend.</longdescription>
 </pkgmetadata>

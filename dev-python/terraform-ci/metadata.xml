@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Terraform CI runs &quot;terraform plan, &quot;terraform apply&quot;and publishes the plan output to GitHub pull request.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cloud-toolsPython utilities to manage cloud services, such as AWS.## Local runclone the [repository](https://github.com/RedHatQE/cloud-tools.git)```git clone https://github.com/RedHatQE/cloud-tools.git```Install [poetry](https://github.com/python-poetry/poetry)```poetry install```## Docs- [AWS Readme](clouds/aws/README.md)## Release new version### requirements:* Export GitHub token```bashexport GITHUB_TOKEN=&lt;your_github_token&gt;```* [release-it](https://github.com/release-it/release-it)Run the following once (execute outside repository dir for example `~/`):```bashsudo npm install --global release-itnpm install --save-dev @j-ulrich/release-it-regex-bumperrm -f package.json package-lock.json```### usage:* Create a release, run from the relevant branch.To create a new release, run:```bashgit checkout maingit pullrelease-it # Follow the instructions```</longdescription>
 </pkgmetadata>

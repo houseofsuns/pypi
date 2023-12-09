@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Arcane PubSubThis package is base on [google-cloud-pubsub](https://pypi.org/project/google-cloud-pubsub/).## Get Started```shpip install arcane-pubsub```## Example Usage```pythonfrom arcane import pubsub# Import your configsfrom configure import Configclient = pubsub.Client(Config.KEY)client.push_to_topic('project', 'topic', {&quot;parameter&quot;: &quot;value&quot;})```Publish with a new schema```pythonresult = pubsub_client.publish_with_schema(    project='my-project',    topic_name='my-topic-with-schema',    message=message,    await_response=True,)```</longdescription>
 </pkgmetadata>

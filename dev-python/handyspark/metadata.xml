@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>HandySpark - bringing pandas-like capabilities to Spark dataframes</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This module is intended to provide a standard error logging mechanism in Python as per PEP 282.</longdescription>
 </pkgmetadata>

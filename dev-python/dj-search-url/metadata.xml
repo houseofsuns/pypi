@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>DJ-Search-URL===============This simple Django utility allows you to utilize the`12factor &lt;http://www.12factor.net/backing-services&gt;`_ inspired``SEARCH_URL`` environment variable to configure your Haystack application.Usage-----Configure your Search index in ``settings.py`` from ``SEARCH_URL``::    HAYSTACK_CONNECTIONS = {&quot;default&quot;: dj_search_url.conf()}Parse an arbitrary Database URL::    HAYSTACK_CONNECTIONS = {&quot;default&quot;: dj_search_url.conf(&quot;elasticsearch://..&quot;)}Installation------------Installation is simple too::    $ pip install dj-search-url</longdescription>
 </pkgmetadata>

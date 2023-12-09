@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Pyskema## AboutPyskema is a small module used to define schema for structured data.The schema can be used to validate, document and generate data.## InstallationUse `pip install pyskema`.Pyskema does not have dependencies and is only standard Python 3.7+.## UsagePlease refer to the [documentation](https://pyskema.readthedocs.io).</longdescription>
 </pkgmetadata>

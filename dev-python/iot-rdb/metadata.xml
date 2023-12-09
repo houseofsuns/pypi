@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Iot Redis Cache Package ManagamentThis package contains important classes and threads for manage graph connections in containers## GoalCreate a class which send signals when data is received in a specific channel.</longdescription>
 </pkgmetadata>

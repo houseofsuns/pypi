@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># BetweensThis is a package named betweens.There are 3 between mode.## Between 1two intergers.## Between 2two lists, tuples or dicts.And two indexes.## Between 3two length, area, volume or mass units</longdescription>
 </pkgmetadata>

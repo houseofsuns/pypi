@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>    1.优化图片嵌入处理逻辑；    2.解决断言JSON_LEN不生效bug；    3.优化测试报告、添加分页；    4.删除JSON_CONTAIN断言；    5.删除project和model_sub配置项    </longdescription>
 </pkgmetadata>

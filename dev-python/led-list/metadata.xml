@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># led-listTeach Python lists with a [BlinkStick Flex](https://www.blinkstick.com/products/blinkstick-flex)! Each LED represents a list index which can change color and turn off.# Examples## Turn on all LEDs```pythonfrom led_list import LEDList# initialize list with all lights (32) colored whitel = LEDList([&quot;white&quot;] * 32)```## Change specific index```pythonfrom led_list import LEDList# initialize list with all lights (32) colored whitel = LEDList([&quot;white&quot;] * 32)# change first light to redl[0] = &quot;red&quot;# change second light to custom RGB valuel[1] = (255, 50, 50)```## Turn off lights```pythonfrom led_list import LEDList# initialize list with all lights (32) colored whitel = LEDList([&quot;white&quot;] * 32)# turn off every light sequentiallyfor x in range(len(l)):    l[x] = &quot;black&quot;```</longdescription>
 </pkgmetadata>

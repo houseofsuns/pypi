@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Http ConstantsA set of constants for HTTP statuses and headers.## InstallationYou can install Http Constants from [PyPI](https://pypi.org/project/http-constants/):    pip install http-constantsThe library is supported on Python 3.7+.## Usage### Headers```pyfrom http_constants.headers import HttpHeaders&gt;&gt;&gt; HttpHeaders.ACCEPT'Accept'&gt;&gt;&gt; HttpHeaders.CONTENT_TYPE_VALUES.json'application/json'```### Statuses```pyfrom http_constants.status import HttpStatus&gt;&gt;&gt; HttpStatus.SERVICE_UNAVAILABLE&lt;HttpStatus.SERVICE_UNAVAILABLE: (503, 'Service Unavailable')&gt;&gt;&gt;&gt; HttpStatus.SERVICE_UNAVAILABLE.value503&gt;&gt;&gt; int(HttpStatus.SERVICE_UNAVAILABLE)503&gt;&gt;&gt; HttpStatus.SERVICE_UNAVAILABLE.reason_phrase'Service Unavailable'&gt;&gt;&gt; str(HttpStatus.SERVICE_UNAVAILABLE)'503 SERVICE_UNAVAILABLE'```</longdescription>
 </pkgmetadata>

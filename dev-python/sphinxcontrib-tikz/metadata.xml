@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package contains the tikz Sphinx extension, which enables the useof the PGF/TikZ LaTeX package to draw nice pictures.</longdescription>
 </pkgmetadata>

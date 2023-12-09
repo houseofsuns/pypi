@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pugnaNeural Network Fitting Code## Development```conda create -n pugna-dev python=3.7```### adding new modelsnew models should be added to the pugna/models directoryas a new python module. See pugna/models/mscalednn.py for an example.## Uploading to pypi```python setup.py clean --allrm -rf dist/python3 setup.py sdist bdist_wheelpython3 -m twine upload  dist/*```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>rangedict is a dict whose key is a range.Usage-----    &gt;&gt;&gt; from rangedict import RangeDict    &gt;&gt;&gt; rd = RangeDict()    &gt;&gt;&gt; rd[(1, 2)] = 1    &gt;&gt;&gt; rd[(3, 3)] = 3    &gt;&gt;&gt; rd[(5, 7)] = 5    &gt;&gt;&gt; print rd[6]    5    &gt;&gt;&gt; 3 in rd    True    &gt;&gt;&gt; del rd[(3, 3)]    &gt;&gt;&gt; 3 in rd    FalseImplemented based on red black tree provides an O(logn) complexity forinserting, deleting and finding.</longdescription>
 </pkgmetadata>

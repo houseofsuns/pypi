@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Party Relationship Module#########################The party relationship module allows to define different types of relationsbetween parties.Each relation is defined by a relation type. A reverse relation type can bedefined, so  when creating a relation of a type, the reverse relation will beautomatically created.It is possible to order parties by how closely related they are to a definedparty. The distance is calculated based on the number of steps it takes to getfrom the defined party to another. By default all the different types ofrelationship are considered, but this can be limited by adding``relation_usages`` to the context.Configuration*************The party_relationship module use the section ``party_relationship`` toretrieve some parameters:- ``depth``: The maximum number of steps to consider when calculating the  distance between parties.  The default value is ``7``.</longdescription>
 </pkgmetadata>

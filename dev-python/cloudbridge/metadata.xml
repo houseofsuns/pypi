@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>CloudBridge provides a uniform interface to multiple IaaS cloud providers.</longdescription>
 </pkgmetadata>

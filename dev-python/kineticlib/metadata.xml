@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>KineticLib      ==========      Provides a library with various functions used in computational kinetic theory.      Aimed at the multi-temperature (and one-temperature as a special case) and state-to-state approximations.      Documentation is available here: http://kineticlib.readthedocs.org/en/latest/      For changes see CHANGELOG.rst (https://github.com/Kunstmord/kineticlib/blob/master/CHANGELOG.rst)      Roadmap (major additions)      =========================      `List of planned additions to Kineticlib &lt;https://github.com/Kunstmord/kineticlib/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement&gt;`_      Current issues      ==============      `List of Kineticlib issues &lt;https://github.com/Kunstmord/kineticlib/issues?q=is%3Aopen+is%3Aissue+label%3Abug&gt;`_</longdescription>
 </pkgmetadata>

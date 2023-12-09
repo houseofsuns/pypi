@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A library for image augmentation in machine learning experiments, particularly convolutionalneural networks. Supports the augmentation of images, keypoints/landmarks, bounding boxes, heatmaps and segmentationmaps in a variety of different ways.</longdescription>
 </pkgmetadata>

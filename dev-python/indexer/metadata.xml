@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A library providing an abstraction for full text index in different RDBMS, using when possible native capabilites of the DBMS</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># fairscape-cliData Validation and Packaging utility for sending evidence graphs to FAIRSCAPEDocumentation: [https://fairscape.github.io/fairscape-cli/](https://fairscape.github.io/fairscape-cli/)</longdescription>
 </pkgmetadata>

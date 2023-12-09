@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python bindings to the Ed25519 public-key signature system.This offers a comfortable python interface to a C implementation of theEd25519 public-key signature system (http://ed25519.cr.yp.to/), using theportable 'ref' code from the 'SUPERCOP' benchmarking suite.This system provides high (128-bit) security, short (32-byte) keys, short(64-byte) signatures, and fast (2-6ms) operation. Please see the README formore details.## Not Recommended For New Applications: Use pynacl InsteadFor new applications, I recommend you use[`pynacl`](https://github.com/pyca/pynacl) instead of this repository.`PyNaCl` is larger and takes longer to build (it contains the completeNaCl/libsodium library, not just the ed25519 portion), but it iswell-maintained by the diligent and conscientious PyCA team, whereas I'veallowed this repository to languish. `PyNaCl` is also about 10-20 timesfaster. A guide for migration fron `python-ed25519` to `PyNaCl` is includedbelow.</longdescription>
 </pkgmetadata>

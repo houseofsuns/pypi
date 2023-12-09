@@ -15,8 +15,8 @@ DESCRIPTION="Serve the output of Oracle functions/procedures with CherryPy"
 
 HOMEPAGE="http://www.livinglogic.de/Python/nightshade/"
 LICENSE="PYTHON"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
-SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

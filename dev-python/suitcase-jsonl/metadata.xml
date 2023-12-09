@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># suitcase.jsonlThis is a suitcase subpackage for reading a particular file format.## Installation```pip install suitcase-jsonl```</longdescription>
 </pkgmetadata>

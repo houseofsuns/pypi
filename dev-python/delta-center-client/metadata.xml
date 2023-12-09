@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># DeltaCenter python client## pypi package### build```pythonpython3 -m pip install --upgrade buildpython3 -m build```### install```shellpip install ./dist/delta_center_client-0.0.3-py3-none-any.whl --force-reinstall```## Use in python```pythonfrom DeltaCenter import OssClient# uploadOssClient.upload(base_dir=path)# downloadOssClient.download(oss_path)```## Login in the shell```python -m DeltaCenter login```## Uploading files```python -m DeltaCenter upload dirPath```## Downloading files```python -m DeltaCenter download deltaName```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>CDK Construct to create a KMS Encryption KeyYou can define Administrator roles in the Accounts by providing the role name. The Construct will create the role arn if an environment is provided.</longdescription>
 </pkgmetadata>

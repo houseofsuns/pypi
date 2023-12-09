@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>kocher-tools============.. image:: https://www.travis-ci.com/kocherlab/kocher_tools.svg?branch=master    :target: https://www.travis-ci.com/kocherlab/kocher_toolsInstallation------------.. code-block:: bash    conda install -c aewebb80 -c bioconda kocher_tools</longdescription>
 </pkgmetadata>

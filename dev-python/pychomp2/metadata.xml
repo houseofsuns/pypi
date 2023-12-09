@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pyCHomP2CHomP (Computational Homology Project) with Python bindings## InstallationTo get the latest tagged version from the PyPi repository:```bashpip install pychomp2```To uninstall:```bashpip uninstall pychomp2```## Installing from sourceTo get the bleeding edge version (i.e., this repo):```bashgit clone https://github.com/marciogameiro/pyCHomP2.gitcd pyCHomP2git submodule update --init --recursivepip install . --ignore-installed --no-cache-dir -v -v -v --user```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># lightning_fast# Project Dependence1. gcc2. cmake# Test(Old)1. cd c_source2. cmake compile cmake --build ./cmake-build-debug --target test -- -j 33. cd cmake-build-debug4. make5. copy liblabel_encoder.dylib to lightning_fast/c_dynamic_library6. run lightning_fast/main.py7. lightning_fast/tmp test result# Test(New)just run make run_test# install as package1. need cmake and gcc and conan2. pip from git</longdescription>
 </pkgmetadata>

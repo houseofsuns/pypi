@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># dataplane-python-packageThe data engineering library to build robust, reliable and on time data pipelines in Python.### To use with Dataplane Data PlatformInstall Python Package on Dataplane: https://learn.dataplane.app/installing-python-packages&lt;br /&gt;Recipes to use Dataplane Python Package: https://recipes.dataplane.app/office-365/sharepoint-api### Run tests in repo root```shellpytest -s```### For a specific test```shellpytest -s src/dataplane/data_storage/test_sharepoint_upload.pypytest -s -k test_sharepoint.py```### Troubleshooting errorsIf an error occurs, try removing .pytest_cache and ```__pycache__``` - can happen after devcontainers build```shellfind . | grep -E &quot;(/__pycache__$|\.pyc$|\.pyo$)&quot; | xargs rm -rfrm -rf /home/vscode/.local/lib/python3.10/site-packages/```### S3 / Minio for testing in VS code devcontainers* Go to http://localhost:9011* Login with: username: admin and password: hello123* bucket: dataplanebucket</longdescription>
 </pkgmetadata>

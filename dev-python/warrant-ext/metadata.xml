@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python class to integrate Boto3's Cognito client so it is easy to login users. With SRP support.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>### 新增百度的关键词汇总位置 : baidu.kw_tools.py1. KeywordSummary2. KeywordAggregator### Langchain相关工具的封装1. eg1-生成prompt### Mysql工具的使用```pythonfrom db import MysqlDBMyDB = MysqlDB(keys=[&quot;promotion_id&quot;], uri=&quot;&quot;)# logger.debug(df.columns)  # df的列? 为什么没有过滤好?MyDB.update(df, table_name)```</longdescription>
 </pkgmetadata>

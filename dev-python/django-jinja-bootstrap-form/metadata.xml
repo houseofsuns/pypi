@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>django-jinja-bootstrap-form===========================`github.com/tutorcruncher/django-jinja-bootstrap-form &lt;https://github.com/tutorcruncher/django-jinja-bootstrap-form&gt;`_Port of `django-bootstrap-form &lt;https://github.com/tzangms/django-bootstrap-form&gt;`_which is compatible with `django-jinja &lt;https://github.com/niwibe/django-jinja&gt;`_.To install:.. code-block:: shell    pip install django-jinja-bootstrap-form</longdescription>
 </pkgmetadata>

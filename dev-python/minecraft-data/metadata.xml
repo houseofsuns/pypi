@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>python-minecraft-data=====================|pypi|_Provide easy access to `minecraft-data &lt;https://github.com/PrismarineJS/minecraft-data&gt;`__ in pythonInstallation------------From PyPi:``pip install minecraft_data``From Repo:``python -m pip install git+https://github.com/SpockBotMC/python-minecraft-data``Usage-----See the `example.py &lt;https://github.com/rom1504/python-minecraft-data/blob/master/example.py&gt;`__Documentation-------------- See `doc/api.md &lt;https://github.com/rom1504/python-minecraft-data/blob/master/doc/api.md&gt;`__- See `doc/history.md &lt;https://github.com/rom1504/python-minecraft-data/blob/master/doc/history.md&gt;`__.. |pypi| image:: https://img.shields.io/pypi/v/minecraft_data.svg.. _pypi: https://pypi.python.org/pypi/minecraft_data</longdescription>
 </pkgmetadata>

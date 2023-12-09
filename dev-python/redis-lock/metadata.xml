@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A simple pessimistic lock implementation using Redis based on  the algorithm described in http://redis.io/commands/setnx</longdescription>
 </pkgmetadata>

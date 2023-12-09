@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PaycekThis is an official package for the [Paycek crypto payment processor](https://paycek.io). The documentation provided in code explains only minor implementation details.For in depth information about endpoints, fields and more, read our [API Documentation](https://paycek.io/api/docs).## Quick Start### InstallationInstall package with pip.```shellpip install paycek```### InitializationUnder account settings you’ll find your API key and secret. Initialize a paycek instance.```pythonfrom paycek import Paycekpaycek = Paycek('&lt;api_key&gt;', '&lt;api_secret&gt;')```### Usage#### Get payment```pythonpayment = paycek.get_payment('&lt;payment_code&gt;')```#### Open payment```pythonpayment = paycek.open_payment('&lt;profile_code&gt;', '&lt;dst_amount&gt;', '&lt;location_id&gt;')```</longdescription>
 </pkgmetadata>

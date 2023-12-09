@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># RBToolzRBToolz is a package of generic tools for use in Jupyter Notebooks that currently cover:  - Quick postprocessing of Pandas DataFrames wrapped around Plotly### TechRBToolz wraps around a number of projects:* Jupyter Notebook* Pandas* Plotly* Orca### InstallationInstall using regular pip 3.7```sh$ pip install rbtoolz```### Notebook Setup and Plotting ExampleFollowing steps are required to setup notebook and use postprocessing tools.Rendering to PNG files requires Orca/PIO installation:```bashconda install -c plotly plotly-orca psutil```* Notebook cell width to 100% (optional)```pythonfrom IPython.core.display import display, SVG, HTMLfrom IPython.display import Imagedisplay(HTML(&quot;&lt;style&gt;.container { width:100% !important; }&lt;/style&gt;&quot;))```* Import Plotly offline functions```pythonfrom plotly.offline import init_notebook_mode, iplot```* Import functions from RBToolz```pythonfrom rbtoolz.plotting import auto_plot, save_fig```* Run a plotting demo```pythondf = pd.DataFrame([1,2,3],['A','B','C'])line_fig = auto_plot(df)bar_fig = auto_plot(df, mode='bar')iplot(line_fig)iplot(bar_fig)```* And for rendering figure to png```pythonsave_fig(line_fig,'chart.png')display(Image('chart.png'))```License----MIT</longdescription>
-</pkgmetadata>

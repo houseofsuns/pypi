@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ordered-set-stubs - stubs with type annotations for ordered-set Python library## UsageFor example, you have the following code in `ordered_set_stubs_test.py` file:```pythonfrom ordered_set import OrderedSet# noinspection PyPep8Namingdef receives_OrderedSet_int(ordered_set: 'OrderedSet[int]') -&gt; 'OrderedSet[int]':    return ordered_setreceives_OrderedSet_int(OrderedSet(['ololo']))```Run `mypy` to check the code and check that it returns an error:```$ mypy ordered_set_stubs_test.pyordered_set_stubs_test.py:10: error: List item 0 has incompatible type &quot;str&quot;; expected &quot;int&quot;```In Python 3.7 you can even drop quotes:```pythonfrom __future__ import annotationsfrom ordered_set import OrderedSet# noinspection PyPep8Namingdef receives_OrderedSet_int(ordered_set: OrderedSet[int]) -&gt; OrderedSet[int]:    return ordered_setreceives_OrderedSet_int(OrderedSet(['ololo']))```</longdescription>
 </pkgmetadata>

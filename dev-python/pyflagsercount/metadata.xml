@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A program for counting directed cliques in directed graphs, adapted from https://github.com/luetge/flagserOfficial source code repo: https://github.com/JasonPSmith/flagser-countRequirements: numpy ≥ 1.17.0 and cmake version ≥ 3.9.</longdescription>
 </pkgmetadata>

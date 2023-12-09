@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># splunk-add-on-ucc-framework![PyPI](https://img.shields.io/pypi/v/splunk-add-on-ucc-framework)![Python](https://img.shields.io/pypi/pyversions/splunk-add-on-ucc-framework.svg)## What is UCC?UCC stands for  Universal Configuration Console. It is a service for generating Splunk Add-ons which is easily customizable and flexible.UCC provides basic UI template for creating Addon's UI. It is helpful to control the activity by using hooks and other functionalities.## UsageFor full usage instructions, please visit the [documentation](https://splunk.github.io/addonfactory-ucc-generator/).## Communication channelsIf you are a Splunker use: https://splunk.slack.com/archives/C03T8QCHBTJIf you are a part of the community use: https://splunk-usergroups.slack.com/archives/C03SG3ZL4S1## Contributing GuidelinesGo to [contributing Guidelines in the repo](docs/contributing.md) or [published version](https://splunk.github.io/addonfactory-ucc-generator/contributing/).</longdescription>
 </pkgmetadata>

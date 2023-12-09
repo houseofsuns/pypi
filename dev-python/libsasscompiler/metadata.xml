@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Build Status](https://travis-ci.org/sonic182/libsasscompiler.svg?branch=master)](https://travis-ci.org/sonic182/libsasscompiler)[![Coverage Status](https://coveralls.io/repos/github/sonic182/libsasscompiler/badge.svg?branch=master)](https://coveralls.io/github/sonic182/libsasscompiler?branch=master)[![PyPI version](https://badge.fury.io/py/libsasscompiler.svg)](https://badge.fury.io/py/libsasscompiler)# LibsasscompilerA fast scss/sass compiler for [django-pipeline](https://github.com/jazzband/django-pipeline) using [python libsass port](https://github.com/dahlia/libsass-python) (no needed of ruby-sass anymore)# RequirementsSame as django-pipeline# Install`pip install libsasscompiler`# UsageAdd to your pipeline compiler```PIPELINE['COMPILERS'] = (  'libsasscompiler.LibSassCompiler',)```# Contribute1. Fork2. create a branch `feature/your_feature`3. commit - push - pull requestThanks :)</longdescription>
 </pkgmetadata>

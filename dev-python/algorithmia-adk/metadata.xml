@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Algorithm Development Kit code used for creating Python algorithms on Algorithmia. Used by the Algorithmia client</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The EPICS (Experimental Physics and Industrial Control System) core librariesfor use by python modules.  Either dynamically with ctypes or statically by compiled extension.</longdescription>
 </pkgmetadata>

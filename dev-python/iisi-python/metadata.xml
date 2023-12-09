@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># iisi-pythonpipenv install -d# pipenv requirements &gt; .requirements.txtpipenv shell[![PyPI - Version](https://img.shields.io/pypi/v/iisi.svg)](https://pypi.org/project/iisi)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/iisi.svg)](https://pypi.org/project/iisi)-----**Table of Contents**- [Installation](#installation)- [License](#license)## Installation```consolepip install iisi-python```## License`iisi-python` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.</longdescription>
 </pkgmetadata>

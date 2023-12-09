@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>##################flake8-codeclimate##################A Flake8 plugin to generate error reports in a format consumable by Code Climate.The `full error report specification &lt;https://github.com/codeclimate/spec/blob/master/SPEC.md#data-types&gt;`_includes a description of Code Climate specific error categories and fields.Installation============Install from PyPI:.. code-block:: bash    $ pip install flake8-codeclimateOr from Git:.. code-block:: bash    $ pip install -e git+git://github.com/bennylope/flake8-codeclimate.git#egg=flake8_codeclimateUsage=====Run Flake8 with the format option `codeclimate`::    flake8 --format=codeclimate</longdescription>
 </pkgmetadata>

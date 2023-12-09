@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># authit`authit` is the simple and light weight *Identity platform*## InstallationInstall directly from PIP registry```pip install authit```## UsageImport package and initialize```pythonimport authitauth = authit.connect()```To create user```pythonauth.createUser(    userName=&quot;user&quot;,    password=&quot;password&quot;)```To authenticate user```pythonvalidUser = auth.authenticate(    userName=&quot;user&quot;,    password=&quot;password&quot;)</longdescription>
 </pkgmetadata>

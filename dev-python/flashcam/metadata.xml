@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Project flashcam================`FLASk supported webCAM`*IN DEVELOPMENT*Here, the merge of several ideas forms an easy (pip) installable webcamserver. The basic goal is to-   view various technical devices during an experiment    -   with an info on delay    -   some record capabilities-   have some tools to get more from the streamTechnical=========-   the camera itself is launched from *web.py* function *frames()*,    where*Camera()* class (defined in *real~camerra~.py*) is called first.Usage=====See README.howto.orgOr run with *-h*Some references===============&lt;https://longervision.github.io/2017/03/12/ComputerVision/OpenCV/opencv-external-posture-estimation-ArUco-board/&gt;&lt;https://github.com/LongerVision/Examples_OpenCV/blob/master/01_internal_camera_calibration/chessboard.py&gt;&lt;https://markhedleyjones.com/projects/calibration-checkerboard-collection&gt;</longdescription>
 </pkgmetadata>

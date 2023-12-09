@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>c2cgeoportal is the server part of `GeoMapFish &lt;http://geomapfish.org/&gt;`_,the client part is `ngeo &lt;https://github.com/camptocamp/ngeo/&gt;`_,the old client and API part is `CGXP &lt;https://github.com/camptocamp/cgxp/&gt;`_.Read the `Documentation &lt;https://camptocamp.github.io/c2cgeoportal/master/&gt;`_.`Sources&lt;https://github.com/camptocamp/c2cgeoportal/&gt;`_</longdescription>
 </pkgmetadata>

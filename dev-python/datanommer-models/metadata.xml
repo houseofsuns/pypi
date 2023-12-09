@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>datanommer.models=================This package contains the SQLAlchemy data model for datanommer.Datanommer is a storage consumer for the Fedora Infrastructure Message Bus(fedmsg).  It is comprised of a `fedmsg &lt;http://fedmsg.com&gt;`_ consumer thatstuffs every message into a sqlalchemy database.</longdescription>
 </pkgmetadata>

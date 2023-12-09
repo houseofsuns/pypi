@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>mu-repo enables dealing with multiple git and provides features such as:* Cloning multiple repositories* Creating groups of repositories* Diffing changes for edition with WinMerge or meld.* Checking out branches by partial name matching.* Preview incoming changes on current branch.* Shortcuts for common git operations.* Open Url for opening the browser to create pull requests over multiple repositories.* Run **arbitrary commands** on registered repositories.See: http://fabioz.github.io/mu-repo for more information.</longdescription>
 </pkgmetadata>

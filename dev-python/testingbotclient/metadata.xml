@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Update test details on TestingBot.com with this library. Set success state/name of test after running the Selenium test.</longdescription>
 </pkgmetadata>

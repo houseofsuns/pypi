@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>redis based Django app based on speed, that locks outusers after too many failed login attempts.</longdescription>
 </pkgmetadata>

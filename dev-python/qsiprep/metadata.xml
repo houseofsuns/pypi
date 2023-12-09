@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>qsiprep borrows heavily from FMRIPREP to build workflows for preprocessing q-space imagessuch as Diffusion Spectrum Images (DSI), multi-shell HARDI and compressed sensing DSI (CS-DSI).It utilizes Dipy and ANTs to implement a novel high-b-value head motion correction approachusing q-space methods such as 3dSHORE to iteratively generate head motion target images for eachgradient direction and strength.Since qsiprep uses the FMRIPREP workflow-building strategy, it can also generate methodsboilerplate and quality-check figures.Users can also reconstruct orientation distribution functions (ODFs), fiber orientationdistributions (FODs) and perform tractography, estimate anisotropy scalars and connectivityestimation using a combination of Dipy, MRTrix and DSI Studio using a JSON-based pipelinespecification.[Documentation `qsiprep.org &lt;https://qsiprep.readthedocs.io&gt;`_]</longdescription>
 </pkgmetadata>

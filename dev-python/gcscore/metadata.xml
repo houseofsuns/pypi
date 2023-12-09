@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># GCSCoreGeneric Command System helps with the generation of procedure and render script template for servers. Can be use innumerous of ways for automation (meta programming of anisble playbook, of procedure for a custom runner...)</longdescription>
 </pkgmetadata>

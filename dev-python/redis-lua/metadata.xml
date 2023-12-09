@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>redis-lua provides helpers that deal with redis-py to ease LUA scripting.</longdescription>
 </pkgmetadata>

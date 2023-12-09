@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>**lap** is a linear assignment problem solver using Jonker-Volgenantalgorithm for dense (LAPJV) or sparse (LAPMOD) matrices.</longdescription>
 </pkgmetadata>

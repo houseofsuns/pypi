@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Torch Adapters# IntroductionSmall Library of Torch Adaptation modules### Supported Methods- [X] LoRA- [X] Prompt Tuning- [X] Bottleneck Adapter- [X] Prefix Tuning- [ ] P-Tuning# InstallationYou can install torch-adapters using:    $ pip install torch-adapters# Usage```pythonfrom torch_adapters.utils import add_lora# Add lora to the modeladd_lora(model, [&quot;key&quot;, &quot;value&quot;], {&quot;alpha&quot;: 8, &quot;r&quot;: 8})```</longdescription>
 </pkgmetadata>

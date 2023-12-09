@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># mevalEvaluates python strings as async code## Usage```python# inside an `async def`from meval import mevalawait meval(&quot;await thing&quot;, globals(), thing=my_function(arg=1))```## LicenseMIT</longdescription>
 </pkgmetadata>

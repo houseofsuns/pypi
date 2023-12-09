@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/mkdir.svg?maxAge=3600)](https://pypi.org/project/mkdir/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install mkdir```#### Examples```python&gt;&gt;&gt; import mkdir&gt;&gt;&gt; mkdir.mkdir('folder')&gt;&gt;&gt; mkdir.mkdir(['folder1','folder2'])```&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
 </pkgmetadata>

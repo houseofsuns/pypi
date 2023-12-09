@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Built from https://github.com/libratom/libpff for the RATOM project</longdescription>
 </pkgmetadata>

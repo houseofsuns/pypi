@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The main documentation lives at http://pyrabbit.readthedocs.orgThere's no way to easily write programs against RabbitMQs management APIwithout resorting to some messy urllib boilerplate code involving HTTPBasic authentication and parsing the JSON responses, etc. Pyrabbitabstracts this away &amp; provides an intuitive, easy way to work with thedata that lives inside of RabbitMQ, and manipulate the resources there.</longdescription>
 </pkgmetadata>

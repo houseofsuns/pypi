@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PySTAPython SensorThings API client## What is PySTAPySTA is a SensorThings API client written in python. It provides a simple object-based interface to SensorThings entities.  ## Who is PySTAPySTA is developed by the New Mexico Water Data Initiative in collaboration with the Internet of Water## Why is PySTAPySTA was started out of the NMWDI's need for simple python tools to load data into a SensorThings instance.## How to installPySTA can easily be installed via [PyPI.org](https://pypi.org/project/pysta/)```shellpip install pysta ```## How to UseGet all the locations for agency NMBGMR and output as a json file to `out.locations.json````sta locations --agency NMBGMR```Specify an output name```sta locations --agency NMBGMR --out mylocations.json```Output as csv```sta locations --agency NMBGMR --out mylocations.csv```Output as ShapeFile```sta locations --agency NMBGMR --out mylocations.shp```Get help```shellsta locations --help```</longdescription>
 </pkgmetadata>

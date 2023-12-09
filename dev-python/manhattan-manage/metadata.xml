@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>manhattan manage================Classes and views for managing documents in a manhattan project.How to install--------------`pip install manhattan_manage`</longdescription>
 </pkgmetadata>

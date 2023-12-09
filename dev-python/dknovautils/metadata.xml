@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Learning pythonThis is a simple example package. just for learning how to build a package.</longdescription>
 </pkgmetadata>

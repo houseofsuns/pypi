@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># djangocms-htmlsitemap[![Latest Version](http://img.shields.io/pypi/v/djangocms-htmlsitemap.svg?style=flat-square)](https://pypi.python.org/pypi/djangocms-htmlsitemap/)[![License](http://img.shields.io/pypi/l/djangocms-htmlsitemap.svg?style=flat-square)](https://pypi.python.org/pypi/djangocms-htmlsitemap/)*A Django CMS plugin for building HTML sitemaps showing organized lists of CMS pages.*## RequirementsPython 3.8.1+, Django 1.11+, Django-CMS 3.8+.## InstallationJust run:```shpip install djangocms-htmlsitemap```Once installed you just need to add `djangocms_htmlsitemap` to `INSTALLED_APPS` in your project's settings module:```pyINSTALLED_APPS = (    # other apps    'djangocms_htmlsitemap',)```Then install the models:```pypython manage.py migrate djangocms_htmlsitemap```*Congrats! You’re in.*## AuthorsKapt &lt;dev@kapt.mobi&gt; and [contributors](https://github.com/kapt-labs/djangocms-htmlsitemap/contributors)## LicenseBSD. See `LICENSE` for more details.</longdescription>
 </pkgmetadata>

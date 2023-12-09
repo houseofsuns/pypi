@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![Downloads](https://pepy.tech/badge/manganelo)](https://pepy.tech/project/manganelo) [![Downloads](https://pepy.tech/badge/manganelo/month)](https://pepy.tech/project/manganelo/month) [![Downloads](https://pepy.tech/badge/manganelo/week)](https://pepy.tech/project/manganelo/week)# Unofficial Manganelo (Manganato) APIInstallation-**Python 3.7+ (latest version requires Python 3.9+)**```cmdpip install manganelo```Examples-```pythonimport manganelohome_page = manganelo.get_home_page()results = manganelo.get_search_results(&quot;Naruto&quot;)for r in results:    print(r.title, r.views)    chapters = r.chapter_list        icon_path = r.download_icon(&quot;./icon.png&quot;)    for c in chapters:        print(f&quot;#{c.chapter} | {c.title}&quot;)        chapter_path = c.download(f&quot;./Chapter {c.chapter}.pdf&quot;)```</longdescription>
 </pkgmetadata>

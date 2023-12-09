@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A Python package to run flexible and fast poker simulations using a monte carlo style simulator.</longdescription>
 </pkgmetadata>

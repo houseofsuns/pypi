@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>`ZeroDB`_ is an end-to-end encrypted database. Data can be stored on untrusted database servers without ever exposing the encryption key. Clients can execute remote queries against the encrypted datawithout downloading it or suffering an excessive performance hit.Special thanks to ZODB community on which ZeroDB is based.Installation------------    pip install zerodb-serverUseful links-------------* `Technical white paper`_* `Documentation`_* `OpenSource Community`_.. _ZeroDB:   https://opensource.zerodb.com/.. _Technical white paper:   http://opensource.zerodb.com/zerodb.pdf.. _Documentation:   https://docs.zerodb.com/.. _OpenSource Community:   http://slack.zerodb.com/</longdescription>
 </pkgmetadata>

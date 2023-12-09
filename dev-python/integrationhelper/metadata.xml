@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># integrationhelper_A set of helpers for integrations._## Install integrationhelper```bashpython3 -m pip install -U integrationhelper```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Utility Internal Library[![PyPI version shields.io](https://img.shields.io/pypi/v/cosecurity-utility-internal-lib.svg)](https://pypi.org/project/cosecurity-utility-internal-lib/) &lt;br&gt;Library of built-in utilities for developing applications and services that reside within AWS.## InstallationTo use the library it is necessary to have [Python3](https://www.python.org/downloads/) installed on the machine and run the following command:```bashpython3 -m pip install cosecurity-utility-internal-lib```</longdescription>
 </pkgmetadata>

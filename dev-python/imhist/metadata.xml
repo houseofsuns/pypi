@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># imhist  This model calculates the histogram, PMF and CMD of a given image fast.  ## InstallationRun the following to install:```pythonpip install imhist```## Usage  ```pythonimport cv2import numpy as npfrom imhist import imhist, imcdfimport matplotlib.pyplot as pltimg = cv2.imread('assets/Plane.jpg')hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)v = hsv[:, :, 2].copy()v_hist = imhist(v)v_pmf = imhist(v, PMF=True)v_cdf = imcdf(v)plt.figure(num=1)plt.plot(np.arange(256), v_hist, 'b', label='Histogram')plt.ylabel('Number of Occurrences')plt.xlabel('Brightness')plt.grid(which=&quot;both&quot;)plt.legend()plt.show()```  ## OutputThis is a sample image:  ![Sample Image](https://raw.githubusercontent.com/Mamdasn/imhist/main/assets/Plane.jpg &quot;Sample Image&quot;)  Histogram of the sample image:  ![Histogram of the Sample Image](https://raw.githubusercontent.com/Mamdasn/imhist/main/assets/Plane-Histogram.jpg &quot;Histogram of the Sample Image&quot;)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Account Statement Coda Module#############################The Account Statement Coda module implements the import of the `CODA&lt;http://downloads.tryton.org/standards/coda-2.6.pdf&gt;`_ file as statement.</longdescription>
 </pkgmetadata>

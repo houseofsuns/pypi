@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># digitgenA Synthetic Text Image generator for Regular Scene text Detection.## Installation### 1. From PIP$`pip install ImgAnn`### 2. From githubclone the codebase from GitHub```$ git clone https://github.com/ACRA-FL/digitgen.git```build the library```$ python setup.py bdist_wheel sdist$ pip install -e .</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pyrocumulus===========Easy restful web services with tornado and mongodb on python 3.Installation++++++++++++.. code-block:: sh    $ pip install pyrocumulusGetting started+++++++++++++++Read the pyrocumulus tutorial here:http://pyrocumulus.readthedocs.org/en/latest/intro/usage.htmlFor full documentation take a look athttp://pyrocumulus.readthedocs.org/en/latest/.</longdescription>
 </pkgmetadata>

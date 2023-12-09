@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pybind11-union-findOnline document: **[readthedocs](http://pybind11-union-find.readthedocs.io/)**&lt;!--intro-start--&gt;## UsageInstall:```bashpython3 -m pip install pybind11-union-find # install from pypi```&lt;!--intro-end--&gt;---# Make a release(We now use Github Workflow to release to pypi. Skip the rest if you don't want to manually compile wheels.)## On linuxInstall docker then```make python_build_all_in_linuxmake upload_wheels```## On macOSInstall c++ compiler and cmake.Install conda and envs:```# conda create -y -n py36 python=3.6# conda create -y -n py37 python=3.7conda create -y -n py38 python=3.8conda create -y -n py39 python=3.9conda create -y -n py310 python=3.10conda env list```Then```make python_build_all_in_macosmake upload_wheels```## On windowsInstall visual studio and cmake, (also git for windows, maybe).Install conda and envs same as on macOS, then:```make python_build_all_in_windowsmake upload_wheels```</longdescription>
 </pkgmetadata>

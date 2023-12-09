@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>|travis|kthbuild=========Knuth Building Tools (Alpha version)Getting started ---------------Stable version:.. code-block:: bash    $ pip install --upgrade kthbuildDevelopment version:.. code-block:: bash    $ pip install --upgrade --index-url https://test.pypi.org/pypi/ kthbuild.. |travis| image:: https://travis-ci.org/k-nuth/kthbuild.svg?branch=master    :target: https://travis-ci.org/k-nuth/kthbuild</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>概要欄の更新が面倒になったので、詳しくはhelp関数を実行してください。</longdescription>
 </pkgmetadata>

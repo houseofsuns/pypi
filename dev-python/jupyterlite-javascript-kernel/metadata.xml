@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># jupyterlite-javascript-kernel[![docs-badge]][docs][docs-badge]: https://readthedocs.org/projects/jupyterlite/badge/?version=latest[docs]: https://jupyterlite.readthedocs.io/en/latest/?badge=latestJavaScript kernel for JupyterLite running in a Web Worker.## Requirements- JupyterLite &gt;= 0.1.0b20## InstallTo install the JupyterLite kernel, execute:```bashpip install jupyterlite-javascript-kernel```Then build your JupyterLite site:```bashjupyter lite build```## DocumentationFor more information about how to use JupyterLite and include additional kernels, werecommend reading the [documentation](https://jupyterlite.readthedocs.io/).</longdescription>
 </pkgmetadata>

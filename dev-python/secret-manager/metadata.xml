@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## secret-managerSecret manager for Python### How to use ****Add dependency -****  secrets-manager==0.0.2****Set environment variable -****  APP_ENV = prod/staging    APP_NAME = IAMservice**In config file:**  from secretmanager import secretsredshift_secrets = secrets['redshift']   REDSHIFT_HOST = redshift_secrets['host']     REDSHIFT_PORT = redshift_secrets['port']     REDSHIFT_USER = redshift_secrets['username']    REDSHIFT_PASS = redshift_secrets['password']    REDSHIFT_DB = redshift_secrets['dbname'] ****Secret manager changes -****  Secret format is -     `APP_NAME + &quot;_&quot; + APP_ENV + &quot;_&quot; + SECRET_NAME`Go to secret manager and add secret name in above defined format eg(IAMservice_prod_redshift)     Add key value pair inside as -           host = &lt;redshift_host&gt;             port = &lt;redshift_host&gt;   SECRET_NAME will be used to access secret in your code.    In above example SECRET_NAME = redshift </longdescription>
 </pkgmetadata>

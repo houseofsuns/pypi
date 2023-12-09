@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package provides an API-compatible replacement for the popular pcapy package. Since it is a pure-Python package, it cannot access some elements like live traffic capture directly. Only file operations are allowed right now. Any operation which is available in pcapy and could not be implemented here will throw NotImplementedError. Behaviour should be compatible up to the text of some exceptions (tests are included).</longdescription>
 </pkgmetadata>

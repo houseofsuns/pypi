@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pydanic Django Utils====================Some utils for working with `Django &lt;https://www.djangoproject.com/&gt;`_ and`Pydantic &lt;https://pydantic-docs.helpmanual.io/&gt;`_ (and `Django REST Framework&lt;https://www.django-rest-framework.org/&gt;`_).More info in `the docs&lt;https://matthewhughes.gitlab.io/pydantic-django-utils/index.html&gt;`_</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># bridges-pythonThis is the Python implementation of the BRIDGES APIAuthors: Matthew Mcquaigue, David Burlinson, Kalpathi SubramanianDate: June 2018## Install### RecommendedRecommended installation from [pip](https://pypi.org/project/bridges/)  `pip install bridges`### From source  To install from this repository  `cd path/to/directory`  `python setup.py install`</longdescription>
 </pkgmetadata>

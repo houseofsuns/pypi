@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry Aio-pika Instrumentation======================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-aio-pika.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-aio-pika/This library allows tracing requests made by the Aio-pika library.Installation------------::    pip install opentelemetry-instrumentation-aio-pikaReferences----------* `OpenTelemetry Aio-pika instrumentation &lt;https://opentelemetry-python-contrib.readthedocs.io/en/latest/instrumentation/aio-pika/aio-pika.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
 </pkgmetadata>

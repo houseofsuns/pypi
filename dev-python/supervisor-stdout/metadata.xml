@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># supervisor-stdoutA simple [supervisord](http://supervisord.org/) event listener to relayprocess output to supervisor's stdout.This is useful in situations where the output will be collected and set toexternal logging framework, such as Heroku.## InstallationJust install via pip or add to your requirements.txt:    pip install supervisor-stdout## UsageAn example supervisord.conf:    [supervisord]    nodaemon = true    [program:web]    command = ...    stdout_events_enabled = true    stderr_events_enabled = true    [eventlistener:stdout]    command = supervisor_stdout    buffer_size = 100    events = PROCESS_LOG    result_handler = supervisor_stdout:event_handler</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># alembic-autogenerate-enumsThis package implements an Alembic hook that causes ``alembic revision--autogenerate`` to output PostgreSQL ``ALTER TYPE .. ADD VALUE`` SQLstatements as part of new migrations.## UsageAdd the line:    import alembic_autogenerate_enumsTo the top of your ``env.py``.## NotesSince ``ALTER TYPE .. ADD VALUE`` cannot run transactionally, each``op.sync_enum_values()`` call creates its own temporary private DB connection.See https://bitbucket.org/zzzeek/alembic/issues/123/a-way-to-run-non-transactional-ddl## TestsWe have incredibly basic tests in a [sample project](./test-harness).```mkvirtualenv alembic-autogenerate```Install the main autogenerate package and then the test harness:```pip install -e .pip install -e test-harness``````createuser alembic-autogeneratecreatedb -O alembic-autogenerate alembic-autogenerate_db``````cd test-harness &amp;&amp; pytest```</longdescription>
 </pkgmetadata>

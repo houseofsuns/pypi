@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pytket-qirpassThis module provides a method to optimize QIR using pytket.## InstallationPython 3.9, 3.10 or 3.11 is required.To install from PyPI:```shellpip install pytket-qirpass```## UsageThis module provides a single function, `apply_qirpass`, which takes as input- some QIR bitcode- a pytket compilation pass- a target gatesetand outputs some new QIR bitcode, where the pass has been applied to the basicblocks in the input program, followed by a rebase to the target gateset.For example:```pythonfrom pytket_qirpass import apply_qirpassfrom pytket.circuit import OpTypefrom pytket.passes import FullPeepholeOptimiseqir_out = apply_qirpass(    qir_bitcode=qir_in,    comp_pass=FullPeepholeOptimise(allow_swaps=False),    target_1q_gates={OpType.Rx, OpType.Rz},    target_2q_gates={OpType.ZZPhase},)```Both the input and the output are Python `bytes` objects.Provided the pass preserves the circuit semantics, `apply_qirpass` preservesthe QIR semantics.</longdescription>
 </pkgmetadata>

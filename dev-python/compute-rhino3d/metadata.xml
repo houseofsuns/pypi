@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># compute_rhino3dPython package providing convenience functions to call compute.rhino3d.comgeometry web servicesProject Hompage: https://github.com/mcneel/compute.rhino3d### Supported platforms* This is a pure python package and should work on all versions of python## Test* start `python````&gt;&gt;&gt; from rhino3dm import *&gt;&gt;&gt; import compute_rhino3d.Util&gt;&gt;&gt; import compute_rhino3d.Mesh&gt;&gt;&gt;&gt;&gt;&gt; compute_rhino3d.Util.authToken = AUTH_TOKEN_FROM (rhino3d.com/compute/login)&gt;&gt;&gt; center = Point3d(250, 250, 0)&gt;&gt;&gt; sphere = Sphere(center, 100)&gt;&gt;&gt; brep = sphere.ToBrep()&gt;&gt;&gt; meshes = compute_rhino3d.Mesh.CreateFromBrep(brep)&gt;&gt;&gt; print(&quot;Computed mesh with {} faces&quot;.format(len(meshes[0].Faces))```</longdescription>
 </pkgmetadata>

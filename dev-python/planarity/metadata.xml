@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Graph planarity tools.A wrapper to Boyer's (C) planarity algorithms: http://code.google.com/p/planarity/Provides planarity testing, forbidden subgraph finding, and planar embeddings.Works with the NetworkX graph package (not required).</longdescription>
 </pkgmetadata>

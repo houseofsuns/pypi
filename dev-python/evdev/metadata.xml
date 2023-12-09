@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>*evdev*-------This package provides bindings to the generic input event interface inLinux. The *evdev* interface serves the purpose of passing eventsgenerated in the kernel directly to userspace through characterdevices that are typically located in ``/dev/input/``.This package also comes with bindings to *uinput*, the userspace inputsubsystem. *Uinput* allows userspace programs to create and handleinput devices that can inject events directly into the inputsubsystem.Documentation:    http://python-evdev.readthedocs.io/en/latest/Development:    https://github.com/gvalkov/python-evdevPackage:    http://pypi.python.org/pypi/evdevChangelog:    http://python-evdev.readthedocs.io/en/latest/changelog.html</longdescription>
 </pkgmetadata>

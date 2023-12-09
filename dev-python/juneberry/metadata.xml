@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># juneberryjuneberry — Advanced Logging in Python# InstallationYou can install `yakui` with Python Installer of Python (`pip`)```bashpip install juneberry```# Examples`examples/basic.py````pyfrom juneberry import Loggerlogger = Logger(name=&quot;basic&quot;)logger.info(&quot;Hello, world!&quot;)logger.warn(&quot;Hello, world!&quot;)logger.debug(&quot;Hello, world!&quot;)logger.error(&quot;Hello, world!&quot;)logger.fatal(&quot;Hello, world!&quot;)```</longdescription>
 </pkgmetadata>

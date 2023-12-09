@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a backport of the zipfile module from Python 3.6, which contains someimprovements.Installation::    pip install zipfile36Suggested usage:.. code:: python    if sys.version_info &gt;= (3, 6):        import zipfile    else:        import zipfile36 as zipfile</longdescription>
 </pkgmetadata>

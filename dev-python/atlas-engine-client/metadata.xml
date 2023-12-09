@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ProcessCube mittels Python verwendenDiese Version ist durch den [processcube_client](https://pypi.org/project/processcube-client/) ersetzt worden.Die Änderung betrifft beim Update auf die Version 4.0.x nur die Änderungdes Paketname von `atlas_engine_client` auf `processcube_client`.</longdescription>
 </pkgmetadata>

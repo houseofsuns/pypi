@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The TR CLI (trcli) is a command line tool for interacting with TestRail and uploading test automation results.</longdescription>
 </pkgmetadata>

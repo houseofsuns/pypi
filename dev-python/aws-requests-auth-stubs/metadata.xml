@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># aws-requests-auth-stubs&lt;a href=&quot;https://github.com/YonatanGreenfeld/aws-requests-auth-stubs/blob/main/LICENSE&quot;&gt;&lt;img alt=&quot;License: MIT&quot; src=&quot;https://black.readthedocs.io/en/stable/_static/license.svg&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://mypy-lang.org/&quot;&gt;&lt;img alt=&quot;Checked with mypy&quot; src=&quot;http://www.mypy-lang.org/static/mypy_badge.svg&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/psf/black&quot;&gt;&lt;img alt=&quot;Code style: black&quot; src=&quot;https://img.shields.io/badge/code%20style-black-000000.svg&quot;&gt;&lt;/a&gt;PEP-561 stub package for the [aws-requests-auth](https://github.com/DavidMuller/aws-requests-auth) package.</longdescription>
 </pkgmetadata>

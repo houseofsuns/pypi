@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package provides helpers for server-side rendering of `Turbo Frame` and `Turbo Stream`, which aim to work with the [Hotwire](https://hotwire.dev/) project.## Documentationhttps://django-turbo-response.readthedocs.io/en/latest/## Free Hotwire Django eBookIf you are new to Hotwire, you may be interested in this free eBook [Hotwire Django Tutorial](https://tutorial.saashammer.com/).</longdescription>
 </pkgmetadata>

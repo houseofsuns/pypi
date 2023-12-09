@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># QURI Parts CirqQURI Parts Cirq is a support library for using Cirq with QURI Parts.## Documentation[QURI Parts Documentation](https://quri-parts.qunasys.com)## Installation```pip install quri-parts-cirq```## LicenseApache License 2.0</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=====================Sphinx Redactor Theme=====================`Sphinx &lt;https://http://www.sphinx-doc.org/en/stable/index.html&gt;`_ theme based on `jast &lt;https://github.com/carloratm/jast&gt;`_... image:: docs/_static/redactor_theme.png   :alt: Image of themeInstallation============To install this theme, run:.. code-block:: bash   pip install sphinx_redactor_themeUsage=====To use this theme, add to your docs ``conf.py``:.. code-block:: python   import sphinx_redactor_theme   html_theme = 'sphinx_redactor_theme'   html_theme_path = [sphinx_redactor_theme.get_html_theme_path()]Contribute==========- `Issue Tracker &lt;https://github.com/testthedocs/sphinx_redactor_theme/issues/&gt;`_- `Source Code &lt;https://github.com/testthedocs/sphinx_redactor_theme/&gt;`_License=======The project is licensed under the MIT License.</longdescription>
 </pkgmetadata>

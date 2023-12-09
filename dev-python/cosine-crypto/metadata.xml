@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CosineA modular open source cryptocurrency trading algo framework. You can check out the documentation [here](https://cosine-documentation.readthedocs.io/en/latest/).</longdescription>
 </pkgmetadata>

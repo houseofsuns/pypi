@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># mysqldaveA wrapper for simplified MySQL access### install with pippip install mysqldave_package### command line testpy -m mysqldave_package.mysqldave### Quick Start Guidehttps://github.com/daveskura/mysqldave/blob/main/QuickStart.md### Methodshttps://github.com/daveskura/mysqldave/blob/main/methods.md</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ntt-fastapiThe Framework which helps developers work with FastAPI easier</longdescription>
 </pkgmetadata>

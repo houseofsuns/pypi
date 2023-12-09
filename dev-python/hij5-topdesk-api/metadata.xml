@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Hoe update je dit ding?1. Pas de versie aan in setup.cfg1. Maak de `dist` folder leeg. 1. `python -m build`1. Als je geen twine geinstalleerd hebt:   `python -m pip install twine`1. `python -m twine upload --skip-existing dist/*`1. Gebruik als username `__token__` en als password de API token.</longdescription>
 </pkgmetadata>

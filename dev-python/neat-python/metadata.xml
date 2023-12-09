@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python implementation of NEAT (NeuroEvolution of Augmenting Topologies), a method developed by Kenneth O. Stanley for evolving arbitrary neural networks.</longdescription>
 </pkgmetadata>

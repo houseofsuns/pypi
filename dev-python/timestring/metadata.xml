@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Converting strings of into representable time via Date and Range objects.Plus features to compare and adjust Dates and Ranges.</longdescription>
 </pkgmetadata>

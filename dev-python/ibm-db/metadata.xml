@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python DBI driver for IBM Db2 for LUW, IBM Informix, IBM Db2 for iSeries(AS400) and IBM Db2 for z/OS servers</longdescription>
 </pkgmetadata>

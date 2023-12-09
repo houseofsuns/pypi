@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry Distro====================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-distro.svg   :target: https://pypi.org/project/opentelemetry-distro/Installation------------::    pip install opentelemetry-distroThis package provides entrypoints to configure OpenTelemetry.References----------* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `Example using opentelemetry-distro &lt;https://opentelemetry.io/docs/instrumentation/python/distro/&gt;`_</longdescription>
 </pkgmetadata>

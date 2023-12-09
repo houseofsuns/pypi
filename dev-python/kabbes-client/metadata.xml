@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># client# pecking order, lowest to highest* Root -&gt; _config_dict* Root -&gt; _config_json_Path* Root -&gt; _config_cache_Path* Root -&gt; cwd_config* Root -&gt; sys_kwargs* Root -&gt; user.config.path* Package -&gt; _config_dict* Package -&gt; _Dir* Package -&gt; _config_json_Path* Package -&gt; package.config.cache.Path* Package -&gt; Root.cfg_cwd[ 'package.name' ]* Package -&gt; Root.cfg_user[ 'package.name' ]* Package -&gt; overwrite dict* Package -&gt; Root.cfg_sys[ 'package.name' ]</longdescription>
 </pkgmetadata>

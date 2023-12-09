@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># aiologstash2[![image](https://travis-ci.org/aio-libs/aiologstash.svg?branch=master)](https://travis-ci.org/aio-libs/aiologstash)[![image](https://codecov.io/gh/aio-libs/aiologstash/branch/master/graph/badge.svg)](https://codecov.io/gh/aio-libs/aiologstash)[![image](https://badge.fury.io/py/aiologstash.svg)](https://badge.fury.io/py/aiologstash)asyncio logging handler for logstash.# Installation``` shellpip install aiologstash2```# Usage``` pythonimport loggingfrom aiologstash2 import create_tcp_handlerasync def init_logger():     handler = await create_tcp_handler('127.0.0.1', 5000)     root = logging.getLogger()     root.setLevel(logging.DEBUG)     root.addHandler(handler)```# ThanksThis is an actively maintained fork of [aio-libs'aiologstash](https://github.com/aio-libs/aiologstash)The library was donated by [Ocean S.A.](https://ocean.io/)Thanks to the company for contribution.</longdescription>
 </pkgmetadata>

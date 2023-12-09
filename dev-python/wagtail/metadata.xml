@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Wagtail is an open source content management system built on Django, with a strong community and commercial support. It’s focused on user experience, and offers precise control for designers and developers.For more details, see https://wagtail.org, https://docs.wagtail.org and https://github.com/wagtail/wagtail/.</longdescription>
 </pkgmetadata>

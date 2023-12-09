@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Floodgate-rsPython bindings for [floodgate](https://github.com/CircuitSacul/floodgate/), a ratelimiting library written in rust.## Example```pythonfrom datetime import timedeltafrom floodgate import FixedMappingcooldown = FixedMapping(capacity=5, period=timedelta(seconds=20))def handle_event(sender):    retry_after = cooldown.trigger(sender)    if retry_after is None:        print(&quot;Event succeeded!&quot;)    else:        print(f&quot;Too many events from {sender}. Retry in {retry_after} seconds.&quot;)```</longdescription>
 </pkgmetadata>

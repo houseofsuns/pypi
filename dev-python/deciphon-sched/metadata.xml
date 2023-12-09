@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>```docker-compose up -d --build --force-recreate --remove-orphansdocker-compose down -v``````docker run -p 9000:9000 -p 9001:9001 quay.io/minio/minio server /data --console-address &quot;:9001&quot;docker run -p 1883:1883 -v /Users/horta/tmp/mosquitto/config:/mosquitto/config eclipse-mosquittouvicorn --factory deciphon_sched.main:create_app```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A tool to create data modals from dict and convert it to dict. Check documentation here https://github.com/pskd73/pydictable</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># intelligen[![image](https://img.shields.io/pypi/v/intelligen.svg)](https://pypi.python.org/pypi/intelligen)**This is a Python package for math and artificial intelligence tools**-   Free software: MIT license-   Documentation: https://Bouchet07.github.io/intelligen    ## Features-   TODO## CreditsThis package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and the [giswqs/pypackage](https://github.com/giswqs/pypackage) project template.</longdescription>
 </pkgmetadata>

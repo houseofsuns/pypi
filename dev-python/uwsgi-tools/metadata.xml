@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Reverse proxy and curl for uWSGI server using `uwsgi` protocol</longdescription>
 </pkgmetadata>

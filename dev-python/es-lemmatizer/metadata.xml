@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Spanish lemmatizerRead data/LICENSE first## Install it    pip install es-lemmatizer## How to use it:```from es_lemmatizer import lemmatizeimport spacynlp = spacy.load(&quot;es&quot;)nlp.add_pipe(lemmatize, after=&quot;tagger&quot;)```## How to publish:```rm -rf distpython setup.py clean --allpython setup.py sdist bdist_wheeltwine upload --repository-url https://test.pypi.org/legacy/ --verbose dist/*```</longdescription>
 </pkgmetadata>

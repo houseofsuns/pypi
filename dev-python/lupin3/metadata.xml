@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Lupin3目前0.0.12 稳定版本# 已经完成功能更新## 数据清洗### 缺失值填充1.  类别缺失值填充'other'2.  float缺失值填充 0## 标准化1. Standard## 模型### LR### SVM### RF### DT# 计划更新## 缺失值填充1. float均匀填充2. float决策树填充3. 类别mode填充</longdescription>
 </pkgmetadata>

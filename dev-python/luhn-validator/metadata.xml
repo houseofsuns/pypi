@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># luhn-validatorA Python package to validate identification numbers using the Luhn algorithmwith additional optional checks.&gt; ⚠️ **Deprecation Notice**&gt;&gt; This package has been **deprecated** and will not receive future updates.&gt; Please use the [luhncheck](https://pypi.org/project/luhncheck/) package&gt; instead.</longdescription>
 </pkgmetadata>

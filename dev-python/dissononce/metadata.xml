@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Dissononce is a python implementation for Noise Protocol Framework. A main goal of this project is to provide a simple, easy to read and understand practical reference for Noise enthusiasts, implementers and users.</longdescription>
 </pkgmetadata>

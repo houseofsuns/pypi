@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A package that downloads Siddhesh Kulthe's Resume on your computer. All you need to do is to import siddhesh and use .Start() method to start the app!</longdescription>
 </pkgmetadata>

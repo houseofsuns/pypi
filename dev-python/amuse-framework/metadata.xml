@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package installs the framework for the Astrophysical Multipurpose Software Environment (AMUSE).</longdescription>
 </pkgmetadata>

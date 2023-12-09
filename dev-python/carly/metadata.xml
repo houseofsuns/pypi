@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>carly=====|CircleCI|_.. |CircleCI| image:: https://circleci.com/gh/cjw296/carly/tree/master.svg?style=shield.. _CircleCI: https://circleci.com/gh/cjw296/carly/tree/masterA tool for putting messages into and collecting responses from Twisted servers and clients using real networking.&quot;call me maybe&quot;Why carly? 'cos someone already took `Jepsen!`____ https://jepsen.io/</longdescription>
 </pkgmetadata>

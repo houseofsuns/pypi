@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>html2latex==========Convert a HTML string to LATEX using Python</longdescription>
 </pkgmetadata>

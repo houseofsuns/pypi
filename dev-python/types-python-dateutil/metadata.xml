@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for python-dateutilThis is a PEP 561 type stub package for the `python-dateutil` package. Itcan be used by type-checking tools like[mypy](https://github.com/python/mypy/),[pyright](https://github.com/microsoft/pyright),[pytype](https://github.com/google/pytype/),PyCharm, etc. to check code that uses`python-dateutil`. The source for this package can be found athttps://github.com/python/typeshed/tree/main/stubs/python-dateutil. All fixes fortypes and metadata should be contributed there.This stub package is marked as [partial](https://peps.python.org/pep-0561/#partial-stub-packages).If you find that annotations are missing, feel free to contribute and help complete them.See https://github.com/python/typeshed/blob/main/README.md for more details.This package was generated from typeshed commit `afe18e95a9592434e93b648de5194cfe54443f84` and was testedwith mypy 1.4.1, pyright 1.1.318, andpytype 2023.6.16.</longdescription>
 </pkgmetadata>

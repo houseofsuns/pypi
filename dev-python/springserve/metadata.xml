@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Springserve is a video adserver, and this library allows youto interface with its api to do read/write and reporting requests</longdescription>
 </pkgmetadata>

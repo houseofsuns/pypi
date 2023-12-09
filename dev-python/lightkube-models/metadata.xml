@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># lightkube-modelsThis is a python module containing definitions of kubernetesmodels and resources to be used by [lightkube](https://lightkube.readthedocs.io/en/latest/).The version of this package (first 3 parts `major.minor.micro`), match the kubernetes schema version used to generate the models.You should install the module version matching your kubernetes installation or justuse compatible resources.</longdescription>
 </pkgmetadata>

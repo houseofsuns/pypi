@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>SDK/API for Kumo.ai clients to allow programmatic access to Kumo.ai</longdescription>
 </pkgmetadata>

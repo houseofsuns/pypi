@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=================================================scimath: Scientific and Mathematical calculations=================================================http://scimath.readthedocs.org/en/latest/The SciMath project includes packages to support scientific and mathematicalcalculations, beyond the capabilities offered by SciPy.- scimath.interpolate- scimath.mathematics- scimath.units- scimath.physical_quantitiesPrerequisites-------------* `Traits &lt;https://pypi.python.org/pypi/traits&gt;`_* `NumPy &lt;https://pypi.python.org/pypi/numpy&gt;`_* `SciPy &lt;https://pypi.python.org/pypi/scipy&gt;`_</longdescription>
 </pkgmetadata>

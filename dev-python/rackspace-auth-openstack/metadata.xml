@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Rackspace Auth Plugin for OpenStack Clients===========================================.. image:: https://badge.fury.io/py/rackspace-auth-openstack.png   :target: http://badge.fury.io/py/rackspace-auth-openstack.. image:: https://travis-ci.org/rackerlabs/rackspace-auth-openstack.png?branch=master   :target: https://travis-ci.org/rackerlabs/rackspace-auth-openstackThis is a plugin for OpenStack Clients which provides client support forRackspace authentication extensions to OpenStack.</longdescription>
 </pkgmetadata>

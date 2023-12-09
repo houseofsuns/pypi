@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A TOML serializer/deserializer for Python that tries its best to preserve order of table mappings, formatting of source file, and comments during a deserialize/update/serialize job. This is achieved by preserving the parsed/constructed TOML data structures as lexical tokens internally and having the data manipulations performed directly on the tokens.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This module provides Window and Pane objects for rapidly creating ncurses programs without sacrificing quality.</longdescription>
 </pkgmetadata>

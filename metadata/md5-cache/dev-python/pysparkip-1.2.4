@@ -1,0 +1,15 @@
+BDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) >=dev-python/gpep517-15[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?]
+DEFINED_PHASES=compile configure install prepare test unpack
+DESCRIPTION=An API for working with IP addresses in Apache Spark.
+EAPI=8
+HOMEPAGE=https://github.com/jshalaby510/PySparkIP
+INHERIT=python-r1 gs-pypi
+IUSE=python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
+KEYWORDS=~amd64 ~x86
+RDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
+REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/12/25/1c587c11b9316b8ecf13c8ec16ddd5c331071702ade401adda4f6b609aeb/PySparkIP-1.2.4.tar.gz
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	e989dbdcbb647bd8655857c1f95be244	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	flag-o-matic	b97a0a7215b2f463a485ff0599ab30bb	ninja-utils	39e7a84b06eff4efd9f2e0c3d1668b98	gs-distutils-r1	0525f05c7488bc59390b270bd3d76555	g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	gs-pypi	5d35493d186e30ccb1242b91abc6a312
+_md5_=3189eb04c53a239eca159062d2f9ffda

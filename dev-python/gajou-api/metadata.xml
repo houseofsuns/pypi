@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;h2&gt;牙城-API&lt;/h2&gt;&lt;h3&gt;HTTP&lt;/h3&gt;* BaseHTTP - contains all basic HTTP methods with logging. Verifies response status and raises one of errors if status  is not 2xx. Allure can be passed for adding attaches to reports.* RetrySession - simple implementation of retrying requests for flaky cases.* HTTP errors - set of exceptions for typical HTTP error statuses.&lt;h3&gt;gRPC&lt;/h3&gt;* BaseInterceptor - adds logging and verifies response status. Allure can be passed for adding attaches to reports.* BaseStub - simple wrapper which adds BaseInterceptor to channel.* GRPCError - base gRPC exception.</longdescription>
 </pkgmetadata>

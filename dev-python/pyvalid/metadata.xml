@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pyvalid-------.. image:: https://img.shields.io/codecov/c/github/uzumaxy/pyvalid.svg?style=plastic.. image:: https://img.shields.io/github/workflow/status/uzumaxy/pyvalid/Python%20package?style=plasticpyvalid is a Python data validation tool.Documentation: `uzumaxy.github.io/pyvalid &lt;https://uzumaxy.github.io/pyvalid/&gt;`_.License+++++++Note that this project is distributed under the `MIT License &lt;LICENSE&gt;`_.</longdescription>
 </pkgmetadata>

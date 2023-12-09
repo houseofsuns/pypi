@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Orion FrameworkPython library companion for the Orion Framework## How to build from source```bashgit clone ...cd orionframeworkpython3 -m venv .python-envsource .python-env/bin/activatepip install -r requirements.txt## at least once to set up all your libraries needed to build#source scripts/pre-build.sh## actually build the local package#source scripts/build.sh```## PYPITo set credentials to publish you may run the following command:python3 -m keyring set https://upload.pypi.org/legacy/ orionframework</longdescription>
 </pkgmetadata>

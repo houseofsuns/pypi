@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>BuildStream Plugins===================A collection of plugins for the `BuildStream &lt;https://buildstream.build&gt;`_ project.How to use plugins------------------Plugins must be declared by your BuildStream project.conf for use in yourproject. For instructions on how to load plugins in your BuildStream project,please consult the `plugin loading documentation &lt;https://docs.buildstream.build/master/format_project.html#loading-plugins&gt;`_</longdescription>
 </pkgmetadata>

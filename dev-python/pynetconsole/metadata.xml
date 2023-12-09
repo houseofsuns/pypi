@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pynetconsole============NetConsole (also known as RIOLog) is an insecure protocol used in the FIRSTRobotics Competition to view the output of Robot programs.Version 2.x only works with RoboRIOs that are imaged for 2018 or beyond. If youneed to talk to a robot imaged prior to 2018, use pynetconsole 1.x instead.This implementation requires Python 3, and should work on Windows, Linux, andOSX.Installation============You can easily install this package via pip:    pip install pynetconsoleUsage=====On Windows, you can run netconsole like so::    py -3 -m netconsoleOn OSX/Linux, you can run netconsole like so::    netconsoleSupport=======Please file any bugs you may find on our `github issues tracker &lt;https://github.com/robotpy/pynetconsole/issues&gt;`_.Authors=======This implementation of the netconsole listener is derived from the RIOLogcode created by the GradleRIO project.</longdescription>
 </pkgmetadata>

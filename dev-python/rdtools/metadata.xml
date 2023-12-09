@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>RdTools is an open-source library to support reproducible technical analysis ofPV time series data. The library aims to provide best practice analysisroutines along with the building blocks for users to tailor their own analyses.Source code: https://github.com/NREL/rdtools</longdescription>
 </pkgmetadata>

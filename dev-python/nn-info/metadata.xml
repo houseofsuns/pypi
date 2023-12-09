@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a package covering nearest neighbor (nn) based estimators for measures of information theory: entropy, Kullback-Leibler divergence and mutual information. Application is on continous variables that can be multidimensional.The package includes ideas of several publications (see code), including our contribution:A Bayesian nearest neighbor mutual information estimator (BannMI). BannMI is designed forapplication on phsophoproteomic data to analyse potential protein-protein interactions.    </longdescription>
 </pkgmetadata>

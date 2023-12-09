@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># FiddleFiddle is a Python-first configuration library particularly well suited to MLapplications. Fiddle enables deep configurability of parameters in a program,while allowing configuration to be expressed in readable and maintainablePython code.**Authors**: Dan Holtmann-Rice, Brennan Saeta, Sergio Guadarrama</longdescription>
 </pkgmetadata>

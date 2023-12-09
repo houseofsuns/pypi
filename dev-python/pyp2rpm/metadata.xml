@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Convert Python packages to RPM SPECFILES. The packages can be downloaded fromPyPI and the produced SPEC is in line with Fedora Packaging Guidelines or Mageia Python Policy.Users can provide their own templates for rendering the package metadata. Both the packagesource and metadata can be extracted from PyPI or from local filesystem (local file doesn'tprovide that much information though).</longdescription>
 </pkgmetadata>

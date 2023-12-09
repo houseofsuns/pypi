@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>scikit-fmm is a Python extension module which implements the fastmarching method.- Signed distance functions- Travel time transforms (solutions to the Eikonal equation)- Extension velocitieshttps://github.com/scikit-fmm/scikit-fmm</longdescription>
 </pkgmetadata>

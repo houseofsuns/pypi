@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>moreutils=========Standard library augmenting utilities and helpers.Installation------------From PyPI::    $ pip install moreutilsFrom the project root directory::    $ python setup.py installUsage-----Release Notes-------------:0.0.2:    Config getitem access:0.0.1:    Project created</longdescription>
 </pkgmetadata>

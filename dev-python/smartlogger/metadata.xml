@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>### Use SmartLogger in your code```pythonfrom smartlogger import SmartLoggerlogger = SmartLogger(&quot;examplePipelineName&quot;, save_to_dir=&quot;OPTIONAL_SAVE_DIR, defaults to ./&quot;)stage = logger.Stage(unique_id, stage_name, tags=optional_list_of_tags)# code block you want to log and time, eg: model inference/ db call/ pre/post processing code# stage.debug()/ info()/ exception (logs exc info)/ error# depending on whether it succeeded or notstage.success()stage.failed() ``````bash# Process to continuously upload logs to dashsmartlogger --save_dir ./ --server_url &quot;http://localhost:8080&quot;```</longdescription>
 </pkgmetadata>

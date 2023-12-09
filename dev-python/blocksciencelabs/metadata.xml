@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># BlockScience Labs SDK (Python)## Publishing- Make changes- Test- Update version in setup.cfgBuild:```bashpython3 -m build```Publish:```bashpython3 -m twine upload dist/*```</longdescription>
 </pkgmetadata>

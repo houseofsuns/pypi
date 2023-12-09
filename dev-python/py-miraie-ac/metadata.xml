@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python MirAIe AC APIAn API to send commands and read the status of MirAIe air conditioners by Panasonic**Installation**```pip install py-miraie-ac```**Usage**```import asynciofrom api import MirAIeAPIfrom enums import AuthTypefrom device import Deviceasync with MirAIeAPI(        auth_type=AuthType.MOBILE,         login_id=&quot;YOUR_MOBILE_NUMBER&quot;,         password=&quot;YOUR_PASSWORD&quot;    ) as api:    await api.initialize()    for device in api.devices:        print(&quot;Found device: &quot;, device.friendly_name)        device.set_temperature(24)        device.turn_on()asyncio.get_event_loop().run_until_complete(start())</longdescription>
 </pkgmetadata>

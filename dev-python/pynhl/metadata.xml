@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pynhlPython wrapper for the NHL API used in Home Assistant</longdescription>
 </pkgmetadata>

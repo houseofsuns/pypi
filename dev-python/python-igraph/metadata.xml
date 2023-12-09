@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python interface to the igraph high performance graphlibrary, primarily aimed at complex network research and analysis.**This package is deprecated; use the igraph package instead. This package willbe kept in sync with igraph until Sep 1, 2022 and it will not receive anyupdates after Sep 1, 2022.**Graph plotting functionality is provided by the Cairo library, so makesure you install the Python bindings of Cairo if you want to generatepublication-quality graph plots. You can try either `pycairo&lt;http://cairographics.org/pycairo&gt;`_ or `cairocffi &lt;http://cairocffi.readthedocs.io&gt;`_,``cairocffi`` is recommended because there were bug reports affecting igraphgraph plots in Jupyter notebooks when using ``pycairo`` (but not with``cairocffi``).</longdescription>
 </pkgmetadata>

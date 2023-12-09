@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pygeolocate`pip install pygeolocate`## Get a country by its full name```python# pygeolocate/examples/get_country_by_full_name.pyimport pygeolocateunited_kingdom = pygeolocate.locate_by_name(&quot;united kingdom&quot;)[0]print(country)print(country.name)print(country.coordinates)print(country.coordinates[0])print(country.coordinates['long'])```## Get a country by part of its name```python# pygeolocate/examples/get_country_by_partial_name.pyimport pygeolocatefor country in pygeolocate.locate_by_name(&quot;united&quot;):    print(country)    print(country.name)    print(country.coordinates)    print(country.coordinates[0])    print(country.coordinates['long'])```</longdescription>
 </pkgmetadata>

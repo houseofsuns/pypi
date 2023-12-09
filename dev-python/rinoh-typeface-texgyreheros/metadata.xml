@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===========================rinoh-typeface-texgyreheros===========================This package provides the `TeX Gyre Heros`_ typeface for use with rinohtype_.TeX Gyre Heros is based on URW Nimbus Sans L and can be used as a replacementfor Helvetica... _TeX Gyre Heros: http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros.. _rinohtype: https://github.com/brechtm/rinohtype#readme</longdescription>
 </pkgmetadata>

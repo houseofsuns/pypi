@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python Asyncio Extensions[![Release](https://img.shields.io/pypi/v/aioextensions?color=success&amp;label=Release&amp;style=flat-square)](https://pypi.org/project/aioextensions)[![Documentation](https://img.shields.io/badge/Documentation-click_here!-success?style=flat-square)](https://fluidattacks.github.io/aioextensions/)[![Downloads](https://img.shields.io/pypi/dm/aioextensions?label=Downloads&amp;style=flat-square)](https://pypi.org/project/aioextensions)[![Status](https://img.shields.io/pypi/status/aioextensions?label=Status&amp;style=flat-square)](https://pypi.org/project/aioextensions)[![Coverage](https://img.shields.io/badge/Coverage-100%25-success?style=flat-square)](https://fluidattacks.github.io/aioextensions/)[![License](https://img.shields.io/pypi/l/aioextensions?color=success&amp;label=License&amp;style=flat-square)](https://github.com/fluidattacks/aioextensions/blob/latest/LICENSE.md)</longdescription>
 </pkgmetadata>

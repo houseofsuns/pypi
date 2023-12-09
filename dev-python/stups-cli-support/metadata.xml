@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=================STUPS CLI Support=================.. image:: https://img.shields.io/pypi/dw/stups-cli-support.svg   :target: https://pypi.python.org/pypi/stups-cli-support/   :alt: PyPI Downloads.. image:: https://img.shields.io/pypi/v/stups-cli-support.svg   :target: https://pypi.python.org/pypi/stups-cli-support/   :alt: Latest PyPI version.. image:: https://img.shields.io/pypi/l/stups-cli-support.svg   :target: https://pypi.python.org/pypi/stups-cli-support/   :alt: LicenseHelper library for all STUPS command line tools... code-block:: bash    $ sudo pip3 install --upgrade stups    $ stups configureLocal Development=================You can test the `configure` command with:.. code-block:: bash    $ python3 -m stups_cliReleasing=========.. code-block:: bash    $ ./release.sh &lt;NEW-VERSION&gt;</longdescription>
 </pkgmetadata>

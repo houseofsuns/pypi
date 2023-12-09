@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># DS_MODULES_101 Information## To update on Pypi1-update version in setup.py2-double click the 'Upload.bat' file</longdescription>
 </pkgmetadata>

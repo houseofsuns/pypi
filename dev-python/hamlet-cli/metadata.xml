@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># hamlet-cli is now hamletThis package has been renamed. Use `pip install hamlet` instead.New package: https://pypi.org/project/hamlet/</longdescription>
 </pkgmetadata>

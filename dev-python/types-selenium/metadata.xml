@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for seleniumThis is a PEP 561 type stub package for the `selenium` package.It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check codethat uses `selenium`. The source for this package can be found athttps://github.com/python/typeshed/tree/master/stubs/selenium. All fixes fortypes and metadata should be contributed there.*Note:* The `selenium` package includes type annotations or type stubssince version 4.1.2. Please uninstall the `types-selenium`package if you use this or a newer version.See https://github.com/python/typeshed/blob/master/README.md for more details.This package was generated from typeshed commit `77e5a2d4680341f20b351bc7d5554a8fa31ec1b6`.</longdescription>
 </pkgmetadata>

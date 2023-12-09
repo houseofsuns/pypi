@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A JSON serialiser and parser for python that supports extensions convenient for our media grain formats</longdescription>
 </pkgmetadata>

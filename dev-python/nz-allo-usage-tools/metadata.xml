@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Repository for NZ allocation and usage Python tools=============================================================This git repository contains the NZ allocation and usage Python tools and associated documentation... Documentation.. --------------.. The primary documentation for the package can be found `here &lt;http://hilltop-py.readthedocs.io&gt;`_.Installation------------nz-allo-usage-tools can be installed via pip or conda::  pip install nz-allo-usage-toolsor::  conda install -c mullenkamp nz-allo-usage-toolsThe main dependencies are `Pandas &lt;http://pandas.pydata.org/pandas-docs/stable/&gt;`_ and boto3.</longdescription>
 </pkgmetadata>

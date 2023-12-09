@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>'go' is a simple command line script to simplify jumping betweendirectories in the shell. You can create shortcut names for commonlyused directories and invoke 'go &lt;shortcut&gt;' to switch to that directory-- among other little features.</longdescription>
 </pkgmetadata>

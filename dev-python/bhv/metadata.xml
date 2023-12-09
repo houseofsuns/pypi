@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Boolean Hypervectors with various operators for experiments in hyperdimensional computing (HDC).</longdescription>
 </pkgmetadata>

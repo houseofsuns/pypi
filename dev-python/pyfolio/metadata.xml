@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pyfolio is a Python library for performance and risk analysis offinancial portfolios developed by `Quantopian Inc`_. It works well with the`Zipline`_ open source backtesting library.At the core of pyfolio is a so-called tear sheet that consists ofvarious individual plots that provide a comprehensive performanceoverview of a portfolio... _Quantopian Inc: https://www.quantopian.com.. _Zipline: http://zipline.io</longdescription>
 </pkgmetadata>

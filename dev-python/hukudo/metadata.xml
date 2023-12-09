@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># UsageSee [tests/](https://gitlab.com/hukudo/lib/-/tree/main/tests) and[docs/](https://gitlab.com/hukudo/lib/-/tree/main/1-docs).# Installation```pip install hukudo```🔥DRAFT🔥 For Gitlab Tools```pip install hukudo[gitlab]```# TestingInstall https://gitlab.com/hukudo/ingress/-/tags/2022-05.3 or laterStart services```docker-compose up -d --build --remove-orphans```Create grafana API key:- https://grafana.dev.0-main.de/org/apikeys login with `admin` / `test`- https://grafana.dev.0-main.de/org/apikeys &gt; New   - name: test   - role: admin   - AddConfigure the test environment:```export GRAFANA_URL=https://grafana.dev.0-main.de/export GRAFANA_API_KEY=eyJrIjoiaG8zZEE5N1pmUUVBc3lHRElvT1lnOWNhYkd3ck9JNGIiLCJuIjoidGVzdCIsImlkIjoxfQ==export GRAFANA_CLIENT_ROOT_CA=$HOME/ingress/root.crt``````make```# DevelopmentSee [1-docs/development.md]</longdescription>
 </pkgmetadata>

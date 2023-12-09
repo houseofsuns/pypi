@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python library to communicate with Centrifugo v3 HTTP API</longdescription>
 </pkgmetadata>

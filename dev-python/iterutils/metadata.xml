@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>About iterutils===============These functions have been taken from the recipes_in the Python documentation for itertools.They were originally written byRaymond Hettinger and various other people.This license_applies to the Python documentation.The idea to collect all of the itertools recipes intoa module named iterutils is from this post_by Alex Martelli.Installation============Because iterutils has been packaged for pypi,it can be installed using::    $ pip install iterutilsUsage=====After iterutils has been installed,its functions can be imported and used as follows::    &gt;&gt;&gt; import iterutils    &gt;&gt;&gt; list(iterutils.pairwise('abc'))    [('a', 'b'), ('b', 'c')].. _recipes: http://docs.python.org/library/itertools.html#recipes.. _license: http://docs.python.org/license.html#terms-and-conditions-for-accessing-or-otherwise-using-python.. _post: http://stackoverflow.com/questions/1639772</longdescription>
 </pkgmetadata>

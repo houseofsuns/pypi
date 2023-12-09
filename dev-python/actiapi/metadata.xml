@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>*******ActiAPI*******This library is **only** meant to serve as an example of how to use ActiGraph's API toretrieve data from ActiGraph devices.Please refer to official API documentation(https://github.com/actigraph/StudyAdminAPIDocumentation andhttps://github.com/actigraph/CentrePoint3APIDocumentation).Please do not contact ActiGraph support for questions related to this library. You cancreate issues on this repository and we'll do our best to help you.Example=======Metadata--------&gt;&gt;&gt; from actiapi.v3 import ActiGraphClientV3    api_client = ActiGraphClientV3(&lt;api_access_key&gt;, &lt;api_secret_key&gt;)    metadata = api_client.get_study_metadata(&lt;study_id&gt;)    metadata = {x[&quot;id&quot;]: x for x in metadata}Raw data--------&gt;&gt;&gt; from actiapi.v3 import ActiGraphClientV3    api_client = ActiGraphClientV3(&lt;api_access_key&gt;, &lt;api_secret_key&gt;)    results: List[str] = api_client.get_files(        user=&lt;user_id&gt;, study_id=&lt;self.study_id&gt;    )</longdescription>
 </pkgmetadata>

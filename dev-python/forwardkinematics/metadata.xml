@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># InstallationThis package provides a forward kinematics for simple robots as symbolic functions usingcasadi. This allows the usage in model predictive control schemes and other trajectoryoptimization methods.```bashpip3 install forwardkinematics```## Install in editable modeIf you want to install as an editable without the usage of an virtual environment, youmust create a setup.py first.This can be done using poetry2setup (`pip install poetry2setup`)Then you can run ```bashpoetry2setup &gt; setup.pymv pyproject.toml pyproject.toml_BACKUPpip3 install -e .```</longdescription>
 </pkgmetadata>

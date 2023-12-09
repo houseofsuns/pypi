@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># python-exiv2 is now exiv2This package has been renamed. Use `pip install exiv2` instead.New package: https://pypi.org/project/exiv2/</longdescription>
 </pkgmetadata>

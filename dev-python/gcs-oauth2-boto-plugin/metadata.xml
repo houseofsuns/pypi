@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>gcs-oauth2-boto-plugin is a Python application whose purpose is to behave as anauth plugin for the boto auth plugin framework for use with OAuth 2.0credentials for the Google Cloud Platform. This plugin is compatible with bothuser accounts and service accounts, and its functionality is essentially awrapper around oauth2client with the addition of automatically caching tokensfor the machine in a thread- and process-safe fashion.</longdescription>
 </pkgmetadata>

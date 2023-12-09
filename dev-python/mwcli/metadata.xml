@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MediaWiki command-line interfaceA set of helper functions and classes for mediawiki-utilities command-lineutilities. * **Installation:** ``pip install mwcli``* **Documentation:** https://pythonhosted.org/mwcli* **Repositiory:** https://github.com/mediawiki-utilities/python-mwcli* **License:** MIT## Author* Aaron Halfaker -- https://github.com/halfak</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The CSA library provides elementary connection-sets and operators forcombining them. It also provides an iteration interface to suchconnection-sets enabling efficient iteration over existing connectionswith a small memory footprint also for very large networks. The CSAcan be used as a component of neuronal network simulators or othertools.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>HappyBase=========**HappyBase** is a developer-friendly Python_ library to interact with ApacheHBase_.* `Documentation &lt;https://happybase.readthedocs.io/&gt;`_ (Read the Docs)* `Downloads &lt;http://pypi.python.org/pypi/happybase/&gt;`_ (PyPI)* `Source code &lt;https://github.com/wbolster/happybase&gt;`_ (Github).. _Python: http://python.org/.. _HBase: http://hbase.apache.org/.. If you're reading this from the README.rst file in a source tree,   you can generate the HTML documentation by running &quot;make doc&quot; and browsing   to doc/build/html/index.html to see the result.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>importscan: recursively import Python packages==============================================``importscan`` provides a ``scan`` function that lets you recursivelyimport a package and its sub-modules and sub-packages.Documentation_... _Documentation: http://importscan.readthedocs.orgCHANGES*******0.2 (2020-01-29)----------------- **Removed**: Removed support for Python 2.  You have to upgrade to Python 3 if you want to use this version.- Dropped support for Python 3.3 - Added support for Python 3.5, 3.6, 3.7, 3.8 and PyPy 3.6.- Make Python 3.7 the default testing environment.- Fix deprecated and legacy code.- Use virtualenv and pip instead of buildout to set up the  development environment.- Add development documentation and reorganize documentation.- Upload universal wheels to pypi during release.- Clean up the development and release workflow.- Add integration for the Black code formatter.0.1 (2016-03-15)----------------- Initial public release.</longdescription>
 </pkgmetadata>

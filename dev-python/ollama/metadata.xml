@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># OllamaOllama is a tool for running any large language model on any machine. It's designed to be easy to use and fast, supporting the largest number of models possible by using the fastest loader available for your platform and model.&gt; _Note: this project is a work in progress. Certain models that can be run with `ollama` are intended for research and/or non-commercial use only._## InstallUsing `pip`:```pip install ollama```Using `docker`:```docker run ollama/ollama```## QuickstartTo run a model, use `ollama run`:```ollama run orca-mini-3b```You can also run models from hugging face:```ollama run huggingface.co/TheBloke/orca_mini_3B-GGML```Or directly via downloaded model files:```ollama run ~/Downloads/orca-mini-13b.ggmlv3.q4_0.bin```## Python SDK### Example```pythonimport ollamaollama.generate(&quot;orca-mini-3b&quot;, &quot;hi&quot;)```### `ollama.generate(model, message)`Generate a completion```pythonollama.generate(&quot;./llama-7b-ggml.bin&quot;, &quot;hi&quot;)```### `ollama.models()`List available local models```pythonmodels = ollama.models()```### `ollama.load(model)`Manually a model for generation```pythonollama.load(&quot;model&quot;)```### `ollama.unload(model)`Unload a model```pythonollama.unload(&quot;model&quot;)```### `ollama.pull(model)`Download a model```pythonollama.pull(&quot;huggingface.co/thebloke/llama-7b-ggml&quot;)```### `ollama.search(&quot;query&quot;)`Search for compatible models that Ollama can run```pythonollama.search(&quot;llama-7b&quot;)```## Documentation- [Development](docs/development.md)</longdescription>
-</pkgmetadata>

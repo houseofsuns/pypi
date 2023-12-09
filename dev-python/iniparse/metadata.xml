@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>iniparse is an INI parser for Python which is API compatiblewith the standard library's ConfigParser, preserves structure of INIfiles (order of sections &amp; options, indentation, comments, and blanklines are preserved when data is updated), and is more convenient touse.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Fancy EinsumThis is a simple wrapper around `np.einsum` and `torch.einsum` that allows the use of self-documenting variable names instead of just single letters in the equations. Inspired by the syntax in [einops](https://github.com/arogozhnikov/einops).For example, instead of writing:```pythonimport torchtorch.einsum('bct,bcs-&gt;bcts', a, b)```or ```pythonimport numpy as npnp.einsum('bct,bcs-&gt;bcts', a, b)```With this library you can write:```pythonfrom fancy_einsum import einsumeinsum('batch channels time1, batch channels time2 -&gt; batch channels time1 time2', a, b)```</longdescription>
 </pkgmetadata>

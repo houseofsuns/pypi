@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This module is extensively designed for non-math coders and beginners. The user need not know math to solve complex math problems. This module does it all for you.The most special feature of this module is its search() function. Now Just search your query after importing the module and it would be resolved. This module consists over 50+ math formulas and is still developing. Syntax:  &gt;&gt;&gt;import py4math  &gt;&gt;&gt;py4math.search(&lt;Type your problem here&gt;)  Example: &gt;&gt;&gt;py4math.search('area of triangle')  Example: &gt;&gt;&gt;py4math.search('convert binary to hexadecimal')  Example: &gt;&gt;&gt;py4math.search('is 3557 a prime number') Type &gt;&gt;&gt;py4math.help() for further help.</longdescription>
 </pkgmetadata>

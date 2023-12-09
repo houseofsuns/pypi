@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>``pyramid_tm``==============.. image:: https://github.com/Pylons/pyramid_tm/workflows/Build%20and%20test/badge.svg    :target: https://github.com/Pylons/pyramid_tm/actions?query=workflow%3A%22Build+and+test%22.. image:: https://readthedocs.org/projects/pyramid-tm/badge/?version=latest        :target: https://docs.pylonsproject.org/projects/pyramid-tm/en/latest/        :alt: Documentation Status``pyramid_tm`` is a package which allows Pyramid requests to jointhe active transaction as provided by the `transaction&lt;https://pypi.org/project/transaction/&gt;`_ package.See `https://docs.pylonsproject.org/projects/pyramid_tm/en/latest/&lt;https://docs.pylonsproject.org/projects/pyramid_tm/en/latest/&gt;`_ or ``docs/index.rst`` in this distribution for detaileddocumentation.</longdescription>
 </pkgmetadata>

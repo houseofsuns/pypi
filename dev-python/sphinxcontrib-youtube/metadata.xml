@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package contains the youtube Sphinx extension.The extension defines the directives, &quot;youtube&quot; and &quot;vimeo&quot;, for embeddingYouTube, Vimeo and Peertube videos, respectively.</longdescription>
 </pkgmetadata>

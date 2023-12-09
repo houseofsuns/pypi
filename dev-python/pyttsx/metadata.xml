@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pyttsx is a Python package supporting common text-to-speech engines on Mac OS X, Windows, and Linux.</longdescription>
 </pkgmetadata>

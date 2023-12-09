@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># VAI utils## QuickstartTo add data to our platform, use the package below.pip install vai-utilsfor more information, checkout our other page [documentation](https://virtuousai.bitbucket.io/docs/vai-utils/)</longdescription>
 </pkgmetadata>

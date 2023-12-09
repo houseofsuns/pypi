@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cFSPThis is the **cloudFPGA Support Package (cFSP)** for the [cloudFPGA project](https://www.zurich.ibm.com/cci/cloudFPGA/).## RequirementsPython 3.6+## InstallationYou can install `cfsp` system-wide through `pip install cfsp`, or user-wide through `pip install -u cfsp`.It is advised though to do it in an isolated Python environment, e.g. through [virtualenv](https://virtualenv.pypa.io/):```virtualenv -p /usr/bin/python3.6 cfenvsource cfenv/bin/activatepip install --upgrade pippip install cfsp```## UsagePlease check the [online documentation](https://cloudfpga.github.io/Doc/pages/CFSPHERE/cfsp.html).## Development```bashgit clone git@github.com:cloudFPGA/cFSP.gitcd cFSPmake envsource venv/bin/activate&lt;add your changes&gt;  (do not forget to increase the `version=&quot;x.y.z&quot;` in `setup.py`)git commit -am &quot;My changes for version x.y.z&quot;git pushmake distmake upload```</longdescription>
 </pkgmetadata>

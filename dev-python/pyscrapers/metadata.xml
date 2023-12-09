@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>============*pyscrapers*============.. image:: https://img.shields.io/pypi/v/pyscrapers.. image:: https://img.shields.io/github/license/veltzer/pyscrapers.. image:: https://img.shields.io/badge/code%20style-black-000000.svgproject website: https://veltzer.github.io/pyscrapersauthor: Mark Veltzerversion: 0.0.66Mark Veltzer &lt;mark.veltzer@gmail.com&gt;, Copyright © 2016, 2017, 2018, 2019, 2020, 2021, 2022</longdescription>
 </pkgmetadata>

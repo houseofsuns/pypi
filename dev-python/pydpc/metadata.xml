@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Clustering by fast search and find of density peaks, designed by Alex Rodriguez and Alessandro Laio, is a density-peak-based clustering algorithm. The pydpc package aims to make this algorithm available for Python users.</longdescription>
 </pkgmetadata>

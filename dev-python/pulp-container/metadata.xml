@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>``pulp_container`` Plugin=========================.. figure:: https://github.com/pulp/pulp_container/actions/workflows/nightly.yml/badge.svg?branch=main :alt: Container Nightly CI/CDThis is the ``pulp_container`` Plugin for `Pulp Project3.0+ &lt;https://pypi.python.org/pypi/pulpcore/&gt;`__. This plugin provides Pulp with support for containerimages, similar to the pulp_docker plugin for Pulp 2.For more information, please see the `documentation&lt;https://docs.pulpproject.org/pulp_container/&gt;`_ or the `Pulp project page&lt;https://pulpproject.org&gt;`_.How to File an Issue--------------------`New pulp_container issue &lt;https://github.com/pulp/pulp_container/issues/new&gt;`_... warning::  Is this security related? If so, please follow the `Security Disclosures &lt;https://docs.pulpproject.org/pulpcore/bugs-features.html#security-bugs&gt;`_ procedure.</longdescription>
 </pkgmetadata>

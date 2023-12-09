@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># freesms[![Pypi package](https://img.shields.io/pypi/v/freesms.png)](https://pypi.python.org/pypi/freesms)**`freesms`** is a Python interface for Free Mobile SMS API. If you subscribed to their service it allows you toprogrammatically send SMSes to yourself.Install-------    [sudo] pip install freesmsStarting from v0.2.0 the library is only tested on Python 3.x, but it should work on 2.7.Usage-----```pythonfrom freesms import FreeClientf = FreeClient(user=&quot;...&quot;, passwd=&quot;...&quot;)resp = f.send_sms(&quot;hello this is my SMS&quot;)resp.status_code  # 200```</longdescription>
 </pkgmetadata>

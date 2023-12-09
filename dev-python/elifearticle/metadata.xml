@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># elife-articleeLife article objects.## RequirementsAs specified in `setup.py` in the `install_requires` property.## LicenseLicensed under [MIT](https://opensource.org/licenses/mit-license.php).</longdescription>
 </pkgmetadata>

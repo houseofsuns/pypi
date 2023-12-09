@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># factro core api mittels Python verwendenTBD- [Vorbereitung der Umgebung](#vorbereitung-der-umgebung)Die Erweiterung der Client wird dagegen in [CONTRIBUTION.MD](CONTRIBUTION.MD) erklärt.</longdescription>
 </pkgmetadata>

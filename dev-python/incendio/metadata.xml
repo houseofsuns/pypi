@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Incendio&gt; A mini-library of PyTorch utilities, wrappers, and miscellaneous tools for deep learning.## Install`pip install incendio`## Documentationhttps://hdmamin.github.io/incendio/</longdescription>
 </pkgmetadata>

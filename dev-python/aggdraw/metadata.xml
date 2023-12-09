@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The aggdraw module implements the basic WCK 2D Drawing Interface ontop of the AGG library. This library provides high-quality drawing,with anti-aliasing and alpha compositing, while being fully compatiblewith the WCK renderer.</longdescription>
 </pkgmetadata>

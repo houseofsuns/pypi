@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This little library contains extensions for jinja2 that add template tags tojinja2 that you are used to from django templates.The following tags are included:- ``csrf_token``- ``trans and blocktrans``- ``now``- ``static``- ``url``There is also an extension for localizing template variables.Requirements============This library requires at least Django 1.8 because there official jinja2 supportwas added.If you want to use jinja2 templates in older versions of Django, take a lookat `django-jinja &lt;https://github.com/niwinz/django-jinja&gt;`_.This library has been tested on Python 2.7, 3.4 and 3.5, Jinja 2.7 and 2.8, and Django 1.8, 1.9 and 1.10.For more information see the `github page`_... _github page: https://github.com/MoritzS/jinja2-django-tags</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package is a simple shim around the ``letshelp-certbot`` for backwardscompatibility.</longdescription>
 </pkgmetadata>

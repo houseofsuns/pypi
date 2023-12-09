@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Helper utility functions for logging output, timing processes and counting iterations.</longdescription>
 </pkgmetadata>

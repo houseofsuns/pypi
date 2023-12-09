@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Template for the Read the Docs tutorial=======================================This GitHub template includes fictional Python librarywith some basic Sphinx docs.Read the tutorial here:https://docs.readthedocs.io/en/stable/tutorial/</longdescription>
 </pkgmetadata>

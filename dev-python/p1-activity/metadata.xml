@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>================Activity================A simple consumer Django app for Activity Service... contents::    :local:    :backlinks: noneInstallation============1. Run ``pip install p1-activity``2. Add ``'activity'`` to ``INSTALLED_APPS`` in settings.py3. Run `python manage.py migrate` to create activity modelsWebhook===========API Client===========</longdescription>
 </pkgmetadata>

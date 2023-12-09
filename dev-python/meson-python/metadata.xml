@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. SPDX-FileCopyrightText: 2021 The meson-python developers.. SPDX-License-Identifier: MITmeson-python============``meson-python`` is a Python build backend built on top of the Meson__build system. It enables to use Meson for the configuration and buildsteps of Python packages. Meson is an open source build system meantto be both extremely fast, and, even more importantly, as userfriendly as possible. ``meson-python`` is best suited for buildingPython packages containing extension modules implemented in languagessuch as C, C++, Cython, Fortran, Pythran, or Rust. Consult thedocumentation__ for more details.Questions regarding the use of ``meson-python`` can be directed to thediscussions__ space on GitHub. Bug reports and feature requests can befiled as GitHub issues__.__ https://mesonbuild.com/__ https://meson-python.readthedocs.io/en/latest/__ https://github.com/mesonbuild/meson-python/discussions/__ https://github.com/mesonbuild/meson-python/issues/</longdescription>
 </pkgmetadata>

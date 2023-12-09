@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Fibonacci sum## How to use```from fibonacci_sum.fibonacci_sum import fibosumfib_sum = fibosum(5)print(fib_sum)# 13```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pymoca contains a Python based compiler for the modelica languageand enables interacting with Modelica easily in Python.</longdescription>
 </pkgmetadata>

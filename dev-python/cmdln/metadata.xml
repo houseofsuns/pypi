@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>`cmdln.py` is an extension of Python's default `cmd.py` module thatprovides &quot;a simple framework for writing line-oriented commandinterpreters&quot;.  The idea (with both cmd.py and cmdln.py) is to be ableto quickly build multi-sub-command tools (think cvs or svn) and/orsimple interactive shells (think gdb or pdb).  Cmdln's extensions makeit more natural to write sub-commands, integrate optparse for simpleoption processing, and make having good command documentation easier.</longdescription>
 </pkgmetadata>

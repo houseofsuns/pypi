@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># uas_standardsThis library primarily provides data types and tools for working with standards related to uncrewed aircraft systems (UAS).</longdescription>
 </pkgmetadata>

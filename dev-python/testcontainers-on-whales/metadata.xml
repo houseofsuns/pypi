@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># testcontainers-on-whalesA library that provides lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a container.</longdescription>
 </pkgmetadata>

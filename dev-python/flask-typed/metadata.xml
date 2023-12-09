@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># flask-typedA Flask extension for developing HTTP APIs using type annotations. Type annotations are used for the validation of requests and generating API documentation.## Example```pythonfrom flask import Flaskfrom pydantic import BaseModelfrom flask_typed import TypedResource, TypedAPIclass HelloResponse(BaseModel):    message: str    sender: str    receiver: strclass HelloResource(TypedResource):    def get(self, sender: str, receiver: str) -&gt; HelloResponse:        &quot;&quot;&quot;        Greets someone        :param sender: Greeter        :param receiver: The one being greeted        :return: Greetings        &quot;&quot;&quot;        return HelloResponse(            message=f&quot;Hello to {receiver} from {sender}!&quot;,            sender=sender,            receiver=receiver        )app = Flask(__name__)api = TypedAPI(app, version=&quot;1.0&quot;, description=&quot;Greetings API&quot;)api.add_resource(HelloResource, &quot;/hello/&lt;sender&gt;&quot;)if __name__ == &quot;__main__&quot;:    app.run()```</longdescription>
 </pkgmetadata>

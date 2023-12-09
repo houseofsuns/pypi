@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Ever wanted to use a dict like a class and access keys as attributes? Prodict does exactly this.Although there are number of modules doing this, Prodict does a little bit more. You can provide type hints and get auto-complete!</longdescription>
 </pkgmetadata>

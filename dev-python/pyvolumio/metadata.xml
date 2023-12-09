@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PyVolumioA python interface control [Volumio](https://volumio.org/).## InstallationYou can install pyvolumio from [PyPI](https://pypi.org/project/pyvolumio/):    pip3 install pyvolumioPython 3.7 and above are supported.## How to use```pythonfrom pyvolumio import Volumiov = Volumio(&quot;&lt;host&gt;&quot;, &lt;port&gt;)# you can also pass in your own sessionv = Volumio(&quot;&lt;host&gt;&quot;, &lt;port&gt;, &lt;session&gt;)info = await v.get_system_info()state = await v.get_state()await v.play()await v.pause()await v.stop()await v.volume_up()...```</longdescription>
 </pkgmetadata>

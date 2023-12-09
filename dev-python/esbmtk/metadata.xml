@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;a href=&quot;https://pypi.org/project/esbmtk/&quot;&gt;&lt;img alt=&quot;Documentation Status&quot; src=&quot;https://img.shields.io/pypi/v/esbmtk.svg&quot;/&gt;&lt;/a&gt;&lt;a href=&quot;https://pyscaffold.org&quot;&gt;&lt;img alt=&quot;Project generated with PyScaffold&quot; src=&quot;https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold&quot;/&gt;&lt;/a&gt;&lt;a href=&quot;https://esbmtk.readthedocs.io/en/latest/?badge=latest&quot;&gt;&lt;img alt=&quot;Documentation Status&quot; src=&quot;https://readthedocs.org/projects/esbmtk/badge/?version=latest&quot; /&gt;&lt;/a&gt;# ESBMTK - The  Earth Sciences Box Modeling ToolkitESBMTK is a python library that aims to simplify typical box modelingprojects in the Earth-Sciences. The basic API is now stable, but the code to deploy complex models is still being improved. See the manual at &lt;https://esbmtk.readthedocs.io/en/latest&gt; for installation instructions and usage.</longdescription>
 </pkgmetadata>

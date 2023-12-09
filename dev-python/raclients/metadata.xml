@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!--SPDX-FileCopyrightText: 2021 Magenta ApS &lt;https://magenta.dk&gt;SPDX-License-Identifier: MPL-2.0--&gt;# RA ClientsOS2mo/LoRa clients&lt;!--## VersioningThis project uses [Semantic Versioning](https://semver.org/) with the following strategy:- MAJOR: Incompatible changes to existing data models- MINOR: Backwards compatible updates to existing data models OR new models added- PATCH: Backwards compatible bug fixes## Getting StartedTODO: README section missing!### PrerequisitesTODO: README section missing!### InstallingTODO: README section missing!## Running the testsTODO: README section missing!## DeploymentTODO: README section missing!## Built WithTODO: README section missing!## AuthorsMagenta ApS &lt;https://magenta.dk&gt;TODO: README section missing!--&gt;## License- This project: [MPL-2.0](MPL-2.0.txt)- Dependencies:  - pydantic: [MIT](MIT.txt)This project uses [REUSE](https://reuse.software) for licensing. All licenses can be found in the [LICENSES folder](LICENSES/) of the project.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>cmds for python===============A library that enables easy running and concatenation of bash commands inpythonInstallation------------Install using pip::    pip install cmds    Install using source code::git clone https://github.com/qiueer/cmdscd cmdspython setup.py installUsage-----Run commands as you would in bash::    &gt;&gt;&gt; from cmds import cmds    &gt;&gt;&gt; cmds('ls . | grep &quot;.pyc&quot;')    cmds.pycChain commands for the same effect::    &gt;&gt;&gt; cmds('ls . ').cmds('grep &quot;.pyc&quot;')    cmds.pycWarning-------Please note that this library uses ``shell=True`` under the hood. This meansthat this library is **NOT** suitable for running untrusted commands.`(See explanation) &lt;https://docs.python.org/2/library/subprocess.html#frequently-used-arguments&gt;`_Support + Contributing----------------------Feel free to make pull requests, or report issues via the repo:https://github.com/qiueer/cmds</longdescription>
 </pkgmetadata>

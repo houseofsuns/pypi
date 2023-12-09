@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>format_cef==========`format_cef` is a little helper library for producing [ArcSight Common EventFormat (CEF)][CEF] compliant messages from structured arguments. You can use itlike this:```python&gt;&gt;&gt; from format_cef import format_cef&gt;&gt;&gt; format_cef(    'acme corp', 'TNT', 1.0, '404 | not found', 'Explosives not found', 10    oextensions={'deviceAction': 'bang = !'})'CEF:0|acme corp|TNT|1.0|404 \| not found|Explosives not found|10|act=bang \= !'```Notice how the format `format_cef` takes care of escaping delimiters correctly.It will also ensure that each CEF extension complies to the restrictionsoutlined in the [CEF documentation][CEF].This module deliberately remains agnostic as to the log message transportprotocol (as does CEF itself). It is also designed to remain stateless so as toeasy to test and use as a building block in larger systems.[CEF]: https://web.archive.org/web/20191001144632/https://community.microfocus.com/dcvta86296/attachments/dcvta86296/connector-documentation/1197/2/CommonEventFormatV25.pdf</longdescription>
 </pkgmetadata>

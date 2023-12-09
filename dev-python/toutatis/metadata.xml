@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>It is a tool written to retrieve private information such as Phone Number, Mail Address, ID on Instagram accounts via API.</longdescription>
 </pkgmetadata>

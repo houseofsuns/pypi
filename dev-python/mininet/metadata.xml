@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>        Mininet is a network emulator which uses lightweight        virtualization to create virtual networks for rapid        prototyping of Software-Defined Network (SDN) designs        using OpenFlow. http://mininet.org        </longdescription>
 </pkgmetadata>

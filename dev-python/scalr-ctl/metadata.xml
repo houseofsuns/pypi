@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>  scalr-ctl is a command-line interface to your Scalr account  Version 1.0 works with the new Scalr JSON API.Install:  $ pip install scalr-ctlConfigure:  $ scalr-ctl configureUse:  $ scalr-ctl --help  $ scalr-ctl &lt;tab&gt; &lt;tab&gt;Update:  $ pip install --upgrade scalr-ctl  $ scalr-ctl update</longdescription>
 </pkgmetadata>

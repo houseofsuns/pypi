@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># argus-api`argus-api` is the python API client library for [mnemonic](https://www.mnemonic.io/)'s Argus API.Documentation for this library can be found at: [argus-api documentation](https://argus-api.docs.mnemonic.no)## feedbackIn order to report issues or request features, please contact Mnemonic's developmentteam: [opensource@mnemonic.no](mailto:opensource@mnemonic.no)</longdescription>
 </pkgmetadata>

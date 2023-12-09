@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>BAA0q0...&quot;, but        that's nearly useless to the user who actually wants to read what        the text says.                What Unihandecode provides is a function, 'decode(...)' that        takes Unihancode data and tries to represent it in ASCII characters         (i.e., the universally displayable characters between 0x00 and 0x7F).         The representation is almost always an attempt at transliteration         -- i.e., conveying, in Roman letters, the pronunciation expressed by         the text in some other writing system.                For example;        &gt;&gt;&gt;d = Unidecoder()        &gt;&gt;&gt;d.decode(u&quot;\u5317\u4EB0&quot;)        'Bei Jing'.        d = Unidecoder(lang='ja')        &gt;&gt;&gt;d.decode(u&quot;\u5317\u4EB0&quot;)        'Pe King'              Platform: UNKNOWNProvides: unihandecode</longdescription>
 </pkgmetadata>

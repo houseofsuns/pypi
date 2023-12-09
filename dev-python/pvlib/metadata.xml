@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PVLIB Python is a community supported tool that provides a set offunctions and classes for simulating the performance of photovoltaicenergy systems. PVLIB Python was originally ported from the PVLIB MATLABtoolbox developed at Sandia National Laboratories and it implements manyof the models and methods developed at the Labs. More information onSandia Labs PV performance modeling programs can be found athttps://pvpmc.sandia.gov/. We collaborate with the PVLIB MATLAB project,but operate independently of it.We need your help to make pvlib-python a great tool!Documentation: http://pvlib-python.readthedocs.ioSource code: https://github.com/pvlib/pvlib-python</longdescription>
 </pkgmetadata>

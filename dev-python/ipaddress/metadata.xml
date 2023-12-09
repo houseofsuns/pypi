@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Port of the 3.3+ ipaddress module to 2.6, 2.7, 3.2</longdescription>
 </pkgmetadata>

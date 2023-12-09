@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># scvi-colab```!pip install scvi-colabfrom scvi_colab import install# defaultinstall()# from a GitHub branchinstall(branch=&quot;0.14.x&quot;)# A specific PyPI versioninstall(version=&quot;0.15.1&quot;)</longdescription>
 </pkgmetadata>

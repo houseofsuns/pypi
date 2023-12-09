@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cloudutils# vault_client#### install```pip uninstall -y viant-cloudutils; pip install retry &amp;&amp; pip install viant-cloudutilswget -q https://github.vianttech.com/raw/techops/cloudutils/master/bin/vault_client.py -O /opt/stage/bin/vault_client.pychmod +x /opt/stage/bin/vault_client.py```#### update rc.localset -s/--service to pin the service if it's actually dynamic```export VAULT_TOKEN=$(/opt/stage/bin/vault_client.py -t -s frontend-stage)```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># robotframework-retryfailedA listener to automatically retry tests or tasks based on tags.## InstallationInstall with pip:    pip install robotframework-retryfailed## UsageAdd the listener to your robot execution, via command line arguments.When your tests do fail and you have tagged them with `test:retry(2)`, it will retry the test 2 times. Retry can be also set globally as a parameter to the listener.### Attaching ListenerExample:    robot --listener RetryFailed &lt;your robot suite&gt;    robot --listener RetryFailed:1 &lt;robot suite&gt;Second one will by default retry once every failing test.### Tagging TestsExample:    *** Test Cases ***    Test Case        [Tags]    test:retry(2)        Log    This test will be retried 2 times if it failsTagging tasks by `task:retry(3)` should also work.</longdescription>
 </pkgmetadata>

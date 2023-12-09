@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>ABNF generates parsers for ABNF grammars. Though intended for use with RFC grammars, ABNF should handle any valid grammar.</longdescription>
 </pkgmetadata>

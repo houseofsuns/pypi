@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Deprecated=============================================This SDK is deprecated, and replaced by mailchimp-transactionalFind the current Mailchimp Transactional SDKs at https://mailchimp.com/developer/tools/Overview=============================================Mandrill is a Python API client and suite of CLI-based tools for the Mandrill email as a platform service.The API client is comprehensive, but the CLI functionality is minimal at this time.Examples:import mandrillm = mandrill.Mandrill('YOUR_API_KEY')print m.users.ping()--&gt; &quot;PONG!&quot;CLI Examples:mandrill setupmandrill ping -c10mandrill send -f from@example.com -t to@example.com -s &quot;My Subject Line&quot; &lt; content.html</longdescription>
 </pkgmetadata>

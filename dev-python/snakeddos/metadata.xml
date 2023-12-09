@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Snake DDoSA Python DDoS library\Python version: 3.11\For testing purposes only## Basic Usage```from snakeddos import SnakeDDoSif __name__ == '__main__':    atk = SnakeDDoS()    atk.procedure()```</longdescription>
 </pkgmetadata>

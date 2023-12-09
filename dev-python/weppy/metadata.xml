@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>weppy is a full-stack python web framework designed with simplicity in mind.Links-----* `website &lt;http://weppy.org&gt;`_* `documentation &lt;http://weppy.org/docs&gt;`_* `git repo &lt;http://github.com/gi0baro/weppy&gt;`_</longdescription>
 </pkgmetadata>

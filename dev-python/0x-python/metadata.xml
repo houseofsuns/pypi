@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># 0x Python Wrapper### API docsCan be found here: https://0x.org/docs/api### DEV environmentInstall test dependencies: `python3 setup.py install -e [.dev]`Run some tests: `python3 -m unittest tests.test_0x`Run all tests: `python3 -m unittest discover -s ./tests`</longdescription>
 </pkgmetadata>

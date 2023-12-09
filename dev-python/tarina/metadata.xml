@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># TarinaA collection of common utils for Arclet Projects## Installation```bashpip install tarina```## Usage```pythonfrom tarina import generic_isinstancefrom typing import Listassert generic_isinstance([1, 2, 3], List[int])```## Build from source```bashgit clone https://github.com/ArcletProject/Tarina.gitcd Tarinapip install setuptools wheel cibuildwheel==2.12.1pip install -r requirements/cython.txtmake cythonizepython -m cibuildwheel --output-dir wheelhouse```</longdescription>
 </pkgmetadata>

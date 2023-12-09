@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Provides management of stack based global variables.  These variables        may be probed from calling stacks, etc, and can include other external        dictionaries for processing.</longdescription>
 </pkgmetadata>

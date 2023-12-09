@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># docmap-toolsUse DocMap content, generate JATS XML from it, and other utility functions</longdescription>
 </pkgmetadata>

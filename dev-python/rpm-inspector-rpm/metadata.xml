@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A ScanCode path provider plugin to provide a prebuilt native rpm binary built with many rpm backend database formats supported. The rpm binary is built from sources that are bundled in the repo and sdist.</longdescription>
 </pkgmetadata>

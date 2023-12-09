@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># nova-backtest**NovaLabs backtest** is a Python library for backtesting algorithmic trading strategies. It aims to facilitate the development of algorithmic trading on the**crypto market** by downloading historical data prices on the biggest centralizedexchanges (Binance, Bybit, OKX, KuCoin &amp; more) and simulates the trades ofa given strategy throughout past years. It returns a bunch of statistics, giving astrong evaluation of your strategies performances.</longdescription>
-</pkgmetadata>

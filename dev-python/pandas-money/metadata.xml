@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Pandas MoneyA Pandas ArrayExtension for handling currency with int64 performance## Getting started### Add to your project```poetry add pandas-money```or with pip/pipenv```pipenv install pandas-money```### Example```pyfrom decimal import Decimalimport pandas as pdimport pandas_money as pms = pd.Series([&quot;1.11&quot;, &quot;2.22&quot;, &quot;3.33&quot;], dtype=&quot;Money64&quot;)print(s)print(s + s)print(s * Decimal(&quot;1.5&quot;))print(s / 2)print(s.iloc[0], type(s.iloc[0]))```outputs```0    $1.111    $2.222    $3.33dtype: Money640    $2.221    $4.442    $6.66dtype: Money640    $1.661    $3.332    $5.00dtype: Money640    $0.561    $1.112    $1.66dtype: Money64$1.11 &lt;class 'moneyed.classes.Money'&gt;```## Setup- Clone repo- `poetry install`## Run tests```shellmake test```## Format and lint before commit```shellmake pre-commit```</longdescription>
 </pkgmetadata>

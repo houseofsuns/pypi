@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>SPORCO is a Python package for solving optimisation problems withsparsity-inducing regularisation. These consist primarily of sparsecoding and dictionary learning problems, including convolutionalsparse coding and dictionary learning, but there is also support forother problems such as Total Variation regularisation and RobustPCA. The optimisation algorithms in the current version are basedon the Alternating Direction Method of Multipliers (ADMM) or onthe Fast Iterative Shrinkage-Thresholding Algorithm (PGM).</longdescription>
 </pkgmetadata>

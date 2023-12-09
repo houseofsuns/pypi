@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>An expanded drop-in replacement for the ``shelve`` module with modular supportfor additional serialisers. JSON support is provided as a more securealternative to pickle.</longdescription>
 </pkgmetadata>

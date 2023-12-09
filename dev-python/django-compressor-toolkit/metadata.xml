@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Simply enable SCSS and ES6 in your Django project. Read more on `project's GitHub page &lt;https://github.com/kottenator/django-compressor-toolkit&gt;`_.</longdescription>
 </pkgmetadata>

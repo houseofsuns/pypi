@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># linkheader_parserThis is a parser for HTTP link header. This package does not cover 100% of the RFC definition of LinkHeaders, but should work in 99% of common cases.Please report any issue on github.## Install package:```pip install linkheader_parser```## Usage:```pythonfrom linkheader_parser import parselink_header = (    '&lt;https://api.github.com/user/9287/repos?client_id=1&amp;client_secret=2&amp;page=2&amp;per_page=100&gt;; rel=&quot;next&quot;, &lt;https://api.github.com/user/9287/repos?client_id=1&amp;client_secret=2&amp;page=3&amp;per_page=100&gt;; rel=&quot;last&quot;')result = parse(link_header)```**Result:**``````</longdescription>
 </pkgmetadata>

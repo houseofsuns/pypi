@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Keycloak Django**keycloak-django** is Python package## Installation### Via Pypi Package:`$ pip install keycloak-django`</longdescription>
 </pkgmetadata>

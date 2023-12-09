@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># atomic-write-pathProvides the `atomic-write-path` context manager</longdescription>
 </pkgmetadata>

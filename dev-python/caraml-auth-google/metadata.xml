@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># CaraML Google AuthenticationUtility package containing functions to authenticate users of the Python SDKs of CaraML.## InstallationTo install via `pip`:```shellpip install caraml-auth-google```To specify this in a `requirements.txt` file:```txt# Other dependencies herecaraml-auth-google```## Unit TestsTo run the unit tests, run the following command:```shellmake test```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Descriptionprodiapy is an unofficial lightweight Python package for Prodia Stable Diffusion API# Installation ```commandlinepip install -U prodiapy```# text2img example```pythonfrom prodiapy import Prodiaprodia = Prodia(    api_key=&quot;YOUR_PRODIA_KEY&quot;)job = prodia.sd.generate(prompt=&quot;cat&quot;)result = prodia.wait(job)print(result.image_url)```# ContactJoin our discord to get help with package - https://discord.gg/7NbzdD6qg8</longdescription>
 </pkgmetadata>

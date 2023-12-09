@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># html2docxhtml2docx converts valid HTML input to docx output. The project is distributedunder the MIT license.## InstallingTo install, use pip:```$ pip install html2docx```## Usage```pyfrom html2docx import html2docxwith open(&quot;my.html&quot;) as fp:    html = fp.read()# html2docx() returns an io.BytesIO() object. The HTML must be valid.buf = html2docx(html, title=&quot;My Document&quot;)with open(&quot;my.docx&quot;, &quot;wb&quot;) as fp:    fp.write(buf.getvalue())```## TestingTo run the test suite, use tox:```$ tox```</longdescription>
 </pkgmetadata>

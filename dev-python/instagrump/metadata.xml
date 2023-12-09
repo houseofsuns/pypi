@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># InstagrumpJust a simple Instagram Public API wrapper. The codes are self-explanatory.### Example usageInstalling:```shpip3 install instagrump ```Importing:```shfrom instagrump import Profile,  Content ```Initialize Profile class:```shprofile = Profile('ig_username')```Initialize Content class:```shcontent = Content('url_with_shortcode_from_Profile')```Example to get profile contents:```sh[Content(i).get_content() for i in Profile('justinbieber').get_posts()]```#### Helpful tipTo get all class attribute:```shdir(your_class_here)```### Todos - Write MORE Documentations - SleepLicense----MIT</longdescription>
 </pkgmetadata>

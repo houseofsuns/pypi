@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Thespian is a Python library providing a framework for developingconcurrent, distributed, fault tolerant applications.Thespian is built on the Actor Model which allows applications to bewritten as a group of independently executing but cooperating&quot;Actors&quot; which communicate via messages.  These Actors run withinthe Actor System provided by the Thespian library.      * Concurrent      * Distributed      * Fault Tolerant      * Scalable      * Location independentActor programming is broadly applicable and it is ideally suitedfor Cloud-based applications as well, where compute nodes areadded and removed from the environment dynamically.   * More Information: http://thespianpy.com   * Release Notes: http://thespianpy.com/doc/releases.html    </longdescription>
 </pkgmetadata>

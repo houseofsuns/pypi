@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># DeltaFi Action KitThis project provides a Python implementation of the DeltaFi Action Kit. The DeltaFi Action Kit is a setup of modules which simplify the creation of a DeltaFi Plugin.</longdescription>
 </pkgmetadata>

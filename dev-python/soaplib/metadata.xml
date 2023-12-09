@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a simple, easily extendible soap library that provides several usefultools for creating and publishing soap web services in python.  This packagefeatures on-demand wsdl generation for the published services, awsgi-compliant web application, support for complex class structures, binaryattachments, simple framework for creating additional serialization mechanismsand a client library.This prokect now uses lxml as it's XML API, providing full namespace support.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Text splitter## Installation`pip install --upgrade rsplitter`## Usage```pythonimport rsplitterrsplitter.split(&quot;helloworld&quot;)```</longdescription>
 </pkgmetadata>

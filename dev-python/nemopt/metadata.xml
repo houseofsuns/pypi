@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>NEMO====The National Electricity Market Optimiser (NEMO) is a chronologicaldispatch model for testing and optimising different portfolios ofconventional and renewable electricity generation technologies. It wasfirst developed by Ben Elliston in 2011 at the [Collaboration onEnergy and Environmental Markets](http://www.ceem.unsw.edu.au),University of New South Wales. NEMO continues to be actively developedand improved with a growing number of users.</longdescription>
 </pkgmetadata>

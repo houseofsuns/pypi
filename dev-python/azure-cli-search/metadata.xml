@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Microsoft Azure CLI 'search' Command Module===========================================.. :changelog:Release History===============0.1.2+++++* Minor fixes0.1.1+++++* Minor fixes0.1.0+++++* Initial release of module.</longdescription>
 </pkgmetadata>

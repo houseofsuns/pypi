@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Synchronous and asynchronous interface to the Waste Management REST API.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Google APIs common protos-------------------------.. image:: https://img.shields.io/pypi/v/googleapis-common-protos.svg    :target: https://pypi.org/project/googleapis-common-protos/googleapis-common-protos contains the python classes generated from the commonprotos in the `googleapis/googleapis &lt;https://github.com/googleapis/googleapis&gt;`_ repository.</longdescription>
 </pkgmetadata>

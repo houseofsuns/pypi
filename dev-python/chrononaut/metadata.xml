@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>``chrononaut``------------``chrononaut`` is a simple history mixin for SQLAlchemy models,adding support for audit logging, record locking, and time travel!</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>rec===.. image:: https://travis-ci.org/iawia002/rec.svg?branch=master    :alt: Build Status    :target: https://travis-ci.org/iawia002/reca collection of some useful regular expressions.Hello, world------------Installation.. code-block:: bash    pip install recExample.. code-block:: python    In [1]: import rec    In [2]: rec.domain('http://bangumi.bilibili.com/anime/1089')    Out[2]: [u'bilibili.com']    In [3]: rec.domain('http://bangumi.bilibili.com/anime/1089', root=False)    Out[3]: ['bilibili']Documentation-------------See `doc.md &lt;https://github.com/iawia002/rec/blob/master/doc.md&gt;`_🌙</longdescription>
 </pkgmetadata>

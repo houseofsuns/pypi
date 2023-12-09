@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A fully featured, pythonic library for quaternion representation, manipulation, 3D animation and geometry.</longdescription>
 </pkgmetadata>

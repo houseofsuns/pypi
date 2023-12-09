@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>python-pidfile==============A Pidfile Context Manager compatible with python-daemon's DaemonContext()Thanks======This is a direct copy (minus example usage in file) from an ActiveState recipe found here:http://code.activestate.com/recipes/577911-context-manager-for-a-daemon-pid-file/Example Usage=============```pythonimport daemoncontext = daemon.DaemonContext()context.pidfile = PidFile(&quot;/var/run/mydaemon&quot;)```or```pythonwith daemon.DaemonContext(working_directory=&quot;.&quot;, pidfile=PidFile(pidpath)):  #do your daemonstuff here```</longdescription>
 </pkgmetadata>

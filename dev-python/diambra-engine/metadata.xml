@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># DIAMBRA™ Arena Engine API ClientThis packages provides a low level API client for the DIAMBRA™ Arena Engine API.Most users will want to use the higher level [diambra-arena](https://pypi.org/project/diambra-arena/) package instead.## Usage```pythonimport diambra.engineclient = diambra.engine.Client(&quot;127.0.0.1:49154&quot;)client.Shutdown(diambra.engine.model.Empty())```</longdescription>
 </pkgmetadata>

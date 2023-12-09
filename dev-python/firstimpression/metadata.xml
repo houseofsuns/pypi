@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># FirstImpression Default Python LibraryThis library is used in Python for the scala enviroment.## Upload to PyPiTo upload your changes to pypi follow the following steps:* Save all your work* Update the version number in the setup.py* Run the following commands```PowerShellpy -m pip install wheelpy -m pip install twine```* Make sure you go to the FirstImpression folder where setup.py is located* Run the following commands```PowerShellpy .\setup.py sdist bdist_wheelpy -m twine upload .\dist\*&lt;YOUR_VERSION&gt;*```* When running this command you need to fill in the username and password of the PyPi account. This can be found in LastPass## Installing packageTo install this package run```PowerShellpy -m pip install firstimpression #Python3python -m pip install firstimpression #Python2```</longdescription>
 </pkgmetadata>

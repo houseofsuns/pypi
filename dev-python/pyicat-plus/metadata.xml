@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PyIcat-PlusA python client for ICAT+.## Getting startedRegister raw datasets with ICAT```bashicat-store-raw --beamline id00 \    --proposal id002207 \    --path /data/visitor/path/to/dataset1 \    --dataset test1 \    --sample mysampleicat-store-raw --beamline id00 \    --proposal id002207 \    --path /data/visitor/path/to/dataset2 \    --dataset test2 \    --sample mysample```Register processed data with ICAT```bashicat-store-processed --beamline id00 \    --proposal id002207 \    --path /data/visitor/path/to/processed \    --dataset testproc \    --sample mysample \    --raw /data/visitor/path/to/dataset1 \    --raw /data/visitor/path/to/dataset2```## TestWith threads```bashpython -m pip install -e .[test]pytest```With gevent```bashpython -m pip install -e .[test]python -m pip install geventpython -m gevent.monkey --module pytest```## Documentationhttps://pyicat-plus.readthedocs.io/</longdescription>
 </pkgmetadata>

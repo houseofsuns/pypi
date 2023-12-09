@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># queenbee-localQueenbee task provides a helper module for running queenbee recipes on a local machine## Installation```consolepip install queenbee-local```## QuickStart```pythonimport queenbee_local```</longdescription>
 </pkgmetadata>

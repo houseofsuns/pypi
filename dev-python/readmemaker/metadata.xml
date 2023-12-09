@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>readmemaker=============A Python utility library to help make a README file from document files... image:: https://badge.fury.io/py/readmemaker.svg    :target: https://badge.fury.io/py/readmemaker    :alt: PyPI package version.. image:: https://img.shields.io/pypi/pyversions/readmemaker.svg    :target: https://pypi.org/project/readmemaker    :alt: Supported Python versionsExamples=============- https://github.com/thombashi/pathvalidate/blob/master/docs/make_readme.py    - Output: https://github.com/thombashi/pathvalidate/blob/master/README.rst- https://github.com/thombashi/pytablewriter/blob/master/docs/make_readme.py    - Output: https://github.com/thombashi/pytablewriter/blob/master/README.rst- https://github.com/thombashi/SimpleSQLite/blob/master/docs/make_readme.py    - Output: https://github.com/thombashi/SimpleSQLite/blob/master/README.rstInstallation============::    pip install readmemakerDependencies============Python 3.6+- `path &lt;https://github.com/jaraco/path&gt;`__</longdescription>
 </pkgmetadata>

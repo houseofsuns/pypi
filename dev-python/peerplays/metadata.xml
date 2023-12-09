@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python Library for PeerPlaysThis is a communications library which allows interface with the Peerplays blockchain directly and without the need for a cli_wallet. It provides a wallet interface and can construct any kind of transactions and properly sign them for broadcast.When installed with pip3, also provides a command-line interface invocable at the command line as `peerplays`.## InstallationThe python-peerplays library has following dependencies  python3-dev  build-essential  libssl-dev  libffi-dev  libxml2-dev  libxslt1-dev  zlib1g-devMake sure that the above dependencies are installed, if not install with:    $ sudo apt-get install &lt;dependency name&gt;Install with `pip3`:    $ pip3 install peerplays</longdescription>
 </pkgmetadata>

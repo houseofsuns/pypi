@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Lunar API_____A fast, asynchronous and simple API wrapper for the Lunar APIDocs: https://docs.lunardev.group/</longdescription>
 </pkgmetadata>

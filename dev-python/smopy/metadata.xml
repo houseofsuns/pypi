@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Smopy=====Give a box in geographical coordinates (latitude/longitude) and a zoom level,Smopy returns an OpenStreetMap tile image!Installation------------Smopy currently requires:* Pillow* NumPy* matplotlib* IPython (optional)To install Smopy run ``pip install smopy``.For IPython support run ``pip install smopy[ipython]``.To install Smopy directly from the repository clone the project and put the folder in your PYTHONPATH.Terms of use------------This module fetches image maps from `OpenStreetMap &lt;http://www.openstreetmap.org/&gt;`_'s servers.See the `Tile usage policy &lt;http://wiki.openstreetmap.org/wiki/Tile_usage_policy&gt;`_.In particular, **be careful not to retrieve large maps** as this can overload the servers.</longdescription>
 </pkgmetadata>

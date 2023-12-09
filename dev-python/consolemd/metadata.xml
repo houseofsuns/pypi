@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>ConsoleMD parses markdown using CommonMark-py (implementation of theCommonMarkdown spec) and then fully renders it to the console in true color.</longdescription>
 </pkgmetadata>

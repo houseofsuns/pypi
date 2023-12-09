@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PylibLZMA provides a python interface for the liblzma libraryto read and write data that has been compressed or can be decompressedby Lasse Collin's xz / lzma utils.</longdescription>
 </pkgmetadata>

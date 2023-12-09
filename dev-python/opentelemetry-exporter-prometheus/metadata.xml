@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry Prometheus Exporter=================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-exporter-prometheus.svg   :target: https://pypi.org/project/opentelemetry-exporter-prometheus/This library allows to export metrics data to `Prometheus &lt;https://prometheus.io/&gt;`_.Installation------------::     pip install opentelemetry-exporter-prometheusReferences----------* `OpenTelemetry Prometheus Exporter &lt;https://opentelemetry-python.readthedocs.io/en/latest/exporter/prometheus/prometheus.html&gt;`_* `Prometheus &lt;https://prometheus.io/&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_</longdescription>
 </pkgmetadata>

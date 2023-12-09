@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>eleanor is a python package to extract target pixel files fromTESS Full Frame Images and produce systematics-corrected light curvesfor any star observed by the TESS mission. In its simplest form, eleanortakes a TIC ID, a Gaia source ID, or (RA, Dec) coordinates of a starobserved by TESS and returns, as a single object, a light curve andaccompanying target pixel data.Read the documentation at https://adina.feinste.in/eleanor</longdescription>
 </pkgmetadata>

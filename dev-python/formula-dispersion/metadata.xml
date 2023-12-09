@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Formula dispersionA fast formula-parsing dispersion written in rust with python bindings.</longdescription>
 </pkgmetadata>

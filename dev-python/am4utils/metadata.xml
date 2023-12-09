@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># am4utilsTools and utilities for Airline Manager 4 bot.Supports Python 3.9 - 3.11 on the following platforms:- manylinux2_28 x86_64 (ubuntu 18.04+, debian 10+, fedora 30+)- windows amd64- macos x86_64 / amd64### Database testsdownload the [DuckDB command line binaries](https://duckdb.org/docs/installation/)</longdescription>
 </pkgmetadata>

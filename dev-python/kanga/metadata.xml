@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># kangaMCMC diagnostics in Python.kanga can be installed via conda or via pip.To install kanga using conda, run```conda install -c conda-forge kanga```To install kanga using pip, run```pip install kanga```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for ipaddressThis is a PEP 561 type stub package for the `ipaddress` package.It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check codethat uses `ipaddress`. The source for this package can be found athttps://github.com/python/typeshed/tree/master/stubs/ipaddress. All fixes fortypes and metadata should be contributed there.See https://github.com/python/typeshed/blob/master/README.md for more details.This package was generated from typeshed commit `45a2dad83cc372cd066a91fc04ab44297b714e69`.</longdescription>
 </pkgmetadata>

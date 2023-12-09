@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>cov-core========This is a lib package for use by pytest-cov, nose-cov and nose2-cov.  Unless you're developing acoverage plugin for a test framework, you probably want one of those.</longdescription>
 </pkgmetadata>

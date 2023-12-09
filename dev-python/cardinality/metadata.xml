@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>===========cardinality===========``cardinality`` is a Python library to determine and check the size of anyiterable.* Documentation: https://cardinality.readthedocs.org/* Python Package Index (PyPI): https://pypi.python.org/pypi/cardinality/* Source code and issue tracker: https://github.com/wbolster/cardinality</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Django JSheetDjango JSheet is a small tool for rendering a simple spreadsheet into a web page.By taking advantage form_class's fields the cells are set with the appropriate properties^.There is the ability to use classic excel formulas &gt; see docs for more detailsSaving the data is done through an asynchronous method and there is the possibility of achronological saving of all changes.No model is required, but one can possibly be added to allow synchronization of the data with the db.^(eg IntegerField =&gt; int, TypedChoiceField =&gt; select etc)**installation of the django_jsheet_assets package is required)**.Good luck! \o/</longdescription>
 </pkgmetadata>

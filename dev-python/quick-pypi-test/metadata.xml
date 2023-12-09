@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># A quick-pypi-test package!This is a quick-pypi-test package!## Installation```pippip install quick-pypi-test==0.0.4```## LicenseThis project follows the MIT license.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>mingus is a package for Python used by programmers, musicians, composers and researchers to make and investigate music. At the core of mingus is music theory, which includes topics like intervals, chords, scales and progressions. These components are rigurously tested and can be used to generate and recognize musical elements using convenient shorthand where possible (for example some acceptable chords are: CM7, Am6, Ab7, G7).On top of that are several packages that deal  with classical notation, MIDI (sequencing, loading and saving), MusicXML, ASCII tablature, and many other useful and plain cool things like LilyPond and FluidSynth support. Everything is fully documentated, put into simple APIs and has a tutorial making it easy to jump straight in.</longdescription>
 </pkgmetadata>

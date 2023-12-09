@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>openunipay 统一支付接口 - 集成了微信、支付宝支付</longdescription>
 </pkgmetadata>

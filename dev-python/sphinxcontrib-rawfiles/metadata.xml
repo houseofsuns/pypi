@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>rawfiles extension README=========================Copy raw files, like a CNAME.Setting=======.. You can see available package at `PyPI &lt;http://pypi.python.org/pypi/sphinxcontrib-rawfiles&gt;`_.You can get archive file at http://bitbucket.org/birkenfeld/sphinx-contrib/Install-------::   &gt; easy_install sphinxcontrib-rawfilesConfigure Sphinx----------------To enable this extension, add ``sphinxcontrib.rawfiles`` module to extensionsoption at `conf.py` and add .::   import os, sys   # Path to the folder where rawfiles.py is   # NOTE: not needed if the package is installed in traditional way   # using setup.py or easy_install   sys.path.append(os.path.abspath('/path/to/sphinxcontrib.rawfiles'))   # Enabled extensions   extensions = ['sphinxcontrib.rawfiles']   # Files you want to copy   rawfiles = ['CNAME']Repository==========This code is hosted by Bitbucket.  http://bitbucket.org/birkenfeld/sphinx-contrib/</longdescription>
 </pkgmetadata>

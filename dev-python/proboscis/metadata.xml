@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Proboscis is a Python test framework that extends Python's built-in unittest module and Nose with features from TestNG.</longdescription>
 </pkgmetadata>

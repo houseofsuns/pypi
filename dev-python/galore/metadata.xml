@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>    Apply Gaussian and Lorentzian broadening to data from ab initio    calculations. The two main intended applications are    1. Broadening of electronic density-of-states to simulate photoemission       spectroscopy (PES) data. Orbital contributions may also be weighted to       account for the frequency-dependent photoionisation cross-section.    2. Application of Lorentzian instrumental broadening to simulated       Raman spectra from DFPT calculations.    </longdescription>
 </pkgmetadata>

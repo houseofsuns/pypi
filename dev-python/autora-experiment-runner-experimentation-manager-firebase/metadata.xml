@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># AutoRA Firebase Experimentation ManagerFirebase Experimentation Manager provides functionality to manage communication of conditions and observation between AutoRA and an experiment on Firebase.# Quickstart GuideYou will need:`python` &gt;=3.8,&lt;4: [https://www.python.org/downloads/](https://www.python.org/downloads/)!!! It is recommended to use a python environment manger like virtualenvInstall the package via pip:```shellpip install &quot;aurora[experiment-runner-experimentation-manager-firebase]&quot;```## Test```shellpython -c &quot;from autora.experiment_runner.experimentation_manager.firebase import send_conditions&quot;```## Dependenciesautora-core, firebase_admin</longdescription>
 </pkgmetadata>

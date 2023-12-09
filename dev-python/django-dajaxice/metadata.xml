@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Easy to use AJAX library for django, all the presentation logic resides outside the views and doesn't require any JS Framework. Dajaxice uses the unobtrusive standard-compliant (W3C) XMLHttpRequest 1.0 object.</longdescription>
 </pkgmetadata>

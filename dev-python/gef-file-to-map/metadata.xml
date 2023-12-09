@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># gef-file-to-mapUtility library for parsing of .gef files, written for [pygef](https://github.com/cemsbv/pygef).### Run locally```sh# Install maturin inside a Python environmentpython3 -m venv .envsource .env/bin/activatepip install maturin# Create a Python package from the Rust codematurin develop# Open a GEF file locallypython&gt;&gt;&gt; from gef_file_to_map import parse&gt;&gt;&gt; gef_to_map(open('./tests/test.gef').read())```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package is only for educational purpose.About the package: This package will give you the factorial of any desirednumber using class factorial methods find_fact()</longdescription>
 </pkgmetadata>

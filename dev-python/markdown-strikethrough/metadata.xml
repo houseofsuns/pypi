@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># markdown-strikethrough&gt; support strikethrough in markdownPlease ★ this repo if you found it useful ★ ★ ★## Installation```shpip3 install markdown-strikethrough```## Dependencies* [Python 3](https://www.python.org)</longdescription>
 </pkgmetadata>

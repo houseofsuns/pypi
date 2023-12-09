@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/python-senlinclient.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point onOpenStackClient Plugin for Senlin Clustering Service====================================================This is a client library for Senlin built on the Senlin clustering API. Itprovides a plugin for the openstackclient command-line tool.Development takes place via the usual OpenStack processes as outlined in the`developer guide &lt;https://docs.openstack.org/infra/manual/developers.html&gt;`_.The master repository is in `Git &lt;https://opendev.org/openstack/python-senlinclient&gt;`_.</longdescription>
 </pkgmetadata>

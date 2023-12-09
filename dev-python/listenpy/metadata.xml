@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ListenPyListenPy - это библиотека для распознавания речи с использованием KaldiRecognizer.![logo](https://raw.githubusercontent.com/denisxab/listenpy/main/docs/source/_static/logo307x307.png)## Модели VoskВсе модели Vosk: &lt;https://alphacephei.com/vosk/models&gt;Легкая модель Vosk для русского языка: &lt;https://alphacephei.com/vosk/models/vosk-model-small-ru-0.22.zip&gt;## Установка```bashpip install listenpy```## Запуск```bashpython -m listenpy```</longdescription>
 </pkgmetadata>

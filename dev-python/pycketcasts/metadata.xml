@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PycketCastsAn updated Python library to interact with PocketCast's unofficial API.Available on PyPi: https://pypi.org/project/pycketcasts/</longdescription>
 </pkgmetadata>

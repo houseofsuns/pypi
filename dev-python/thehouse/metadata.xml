@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># the house[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&amp;logoColor=white)](https://conventionalcommits.org)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&amp;labelColor=ef8336)](https://pycqa.github.io/isort/)A text-based game written in python## Install or DownloadYou can install the game with pip by typing `pip install thehouse`or you can download this repository## PlayIf you have installed **thehouse** via pip you can call the game and run it by typing `thehouse`.If you downloaded the repository, on the root of the repo run `python -m thehouse` and the game will start!## Play with docker```docker pull ctrlmaniac/thehousedocker run --rm -it ctrlmaniac/thehouse```</longdescription>
 </pkgmetadata>

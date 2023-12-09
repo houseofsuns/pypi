@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Mypy -- Optional Static Typing for Python=========================================Add type annotations to your Python programs, and use mypy to typecheck them.  Mypy is essentially a Python linter on steroids, and itcan catch many programming errors by analyzing your program, withoutactually having to run it.  Mypy has a powerful type system withfeatures such as type inference, gradual typing, generics and uniontypes.</longdescription>
 </pkgmetadata>

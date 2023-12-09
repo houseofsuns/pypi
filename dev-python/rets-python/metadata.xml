@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python 3 client for the Real Estate Transaction Standard (RETS) Version 1.7.2</longdescription>
 </pkgmetadata>

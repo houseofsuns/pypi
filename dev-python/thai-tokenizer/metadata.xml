@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Thai TokenizerFast and accurate Thai tokenization library using supervised [BPE](https://en.wikipedia.org/wiki/Byte_pair_encoding) designed for full-text search applications.## Installation```bashpip3 install thai_tokenizer```## UsageDefault set of pairs is optimized for short Thai-English product descriptions.```pythonfrom thai_tokenizer import Tokenizertokenizer = Tokenizer()tokenizer('iPad Mini 256GB เครื่องไทย') #&gt; 'iPad Mini 256GB เครื่อง ไทย'tokenizer.split('เครื่องไทย') #&gt; ['เครื่อง', 'ไทย']```## TrainingSee [Training](TRAINING.md) for guidelines to train your own pairs.## ContributingPull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.## License[MIT](https://choosealicense.com/licenses/mit/)</longdescription>
 </pkgmetadata>

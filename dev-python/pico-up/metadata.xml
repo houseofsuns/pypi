@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pico-up-and-runningA template repository with some scripts and shared functionality to get up and running with RaspberryPi Pico## The `pico-up` command```python pico-upfree    show the current free ram and rom space, requires a soft-resetinit    initialise a python pico project in the current directoryimage   prepare a 128x128 sprite image for use with the picopush    push local application code to a connected picowipe    remove all files from a connected picoversion show the version of pico-up```## The `.pico-up.ini` fileThis file configures how you want to communicate with and deploy code to the pico.```ini[device]address = '/dev/ttyACM0' # The device id, name or path from mpremote devs[push]ignores = # File extensions to ignore when pushing files to the device        .jpg        .rgb332        .binmodules = # Code modules to push to the device in addition to your code        pico_up_modules.msgpack_loads```For more information on available commands and their effects see [COMMANDS](docs/COMMANDS.md).</longdescription>
 </pkgmetadata>

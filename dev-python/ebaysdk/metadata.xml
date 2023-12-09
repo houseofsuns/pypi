@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This SDK is a programatic inteface into the eBayAPIs. It simplifies development and cuts development time by standerizingcalls, response processing, error handling, debugging across the Finding,Shopping, Merchandising, &amp; Trading APIs. </longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Simple implementation for the connect-4 classic logic using tkinter GUI.To use it simply install (usually done via `pip install connect4`) and `import connect4`.</longdescription>
 </pkgmetadata>

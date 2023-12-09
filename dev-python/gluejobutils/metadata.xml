@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># gluejobutilsPython 2.7 utility functions to include with AWS glue jobs</longdescription>
 </pkgmetadata>

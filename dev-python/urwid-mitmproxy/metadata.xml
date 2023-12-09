@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is an `urwid &lt;https://pypi.org/project/urwid/&gt;`_ fork with specific patches for`mitmproxy &lt;https://mitmproxy.org&gt;`_.</longdescription>
 </pkgmetadata>

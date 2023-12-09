@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>![Build wheels](https://github.com/adobe-type-tools/cffsubr/workflows/Build%20wheels/badge.svg)# cffsubrStandalone CFF subroutinizer based on the [AFDKO](https://github.com/adobe-type-tools/afdko) tx tool.</longdescription>
 </pkgmetadata>

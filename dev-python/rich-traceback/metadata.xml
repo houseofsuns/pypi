@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Informative Traceback Logging for PythonInformative stack traces showing method parametersSimple standalone logger with console syslog support.</longdescription>
 </pkgmetadata>

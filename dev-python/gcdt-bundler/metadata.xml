@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>|Documentation| |License| |GitHub issues|Plugin for gcdt===============author: glomex SRE Team gcdt: https://github.com/glomex/gcdtFeatures include:-  bundle artifacts (zip file) for tenkai and ramudaRunning tests-------------Please make sure to have good test coverage for your plugin so we canalways make sure your plugin runs with the upcoming gcdt version.Run tests like so:.. code:: bash    $ python -m pytest -vv --cov-report term-missing tests/test_*License-------Copyright (c) 2017 glomex and others. gcdt and plugins are releasedunder the MIT License (see LICENSE)... |Documentation| image:: https://readthedocs.org/projects/beedo/badge/?version=latest   :target: http://gcdt.readthedocs.io/en/latest/.. |License| image:: http://img.shields.io/badge/license-MIT-yellowgreen.svg   :target: LICENSE.. |GitHub issues| image:: https://img.shields.io/github/issues/glomex/glomex-cloud-deployment-tools.svg?maxAge=2592000   :target: https://github.com/glomex/glomex-cloud-deployment-tools/issues</longdescription>
 </pkgmetadata>

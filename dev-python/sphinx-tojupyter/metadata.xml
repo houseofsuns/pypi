@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package contains a [Sphinx](http://www.sphinx-doc.org/en/master/) extension for building Jupyter notebooks.The default behavior of the `jupyter` builder is to provide notebooks that are readablewith an emphasis on supporting basic markdown into the notebooks.This project is maintained and supported by [QuantEcon](http://quantecon.org/)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>|PyPI|ontobio - a python API for working with ontologies and associations===================================================================This module provides objects and utility methods for working withontologies and associations of entities (genes, variants, etc) toontology classes.The ontologies and associations can either be local files or provided byremote services (currently the OntoBee SPARQL service for ontologies anda Monarch or GO Golr service for associations).Documentation=============Documentation is on `readthedocs &lt;https://ontobio.readthedocs.io&gt;`__Notebooks=========See the `JupyterNotebooks &lt;http://nbviewer.jupyter.org/github/biolink/ontobio/tree/master/notebooks/&gt;`__for code examplesMailing list============-  `biolink-api google   group &lt;https://groups.google.com/forum/#!forum/biolink-api&gt;`__.. |PyPI| image:: https://img.shields.io/pypi/v/ontobio.svg   :target: https://pypi.python.org/pypi/ontobio      </longdescription>
 </pkgmetadata>

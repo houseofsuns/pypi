@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Hydra Joblib LauncherProvides a [`Joblib.Parallel`](https://joblib.readthedocs.io/en/latest/parallel.html) based Hydra Launcher supporting parallel execution.See [website](https://hydra.cc/docs/next/plugins/joblib_launcher) for more information</longdescription>
 </pkgmetadata>

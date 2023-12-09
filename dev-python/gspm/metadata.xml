@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A tool to assist you in managing your Godot projects.## How To InstallPlease see the [Installation Guide](https://gs-project-manager-docs.readthedocs.io/en/latest/install.html) guide in the [Documentation](https://gs-project-manager-docs.readthedocs.io/en/latest/index.html).## How To UseThere is an example project [here](https://gs-project-manager-docs.readthedocs.io/en/latest/tappy.html) to get you started.Below is an example that will create a new Godot project and show you how to use some basic commands.```bash# create a new project&gt; gspm new test-projectProject test-project has been created# install assets&gt; cd test-project &gt; gspm install# edit your project&gt; gspm edit ```</longdescription>
 </pkgmetadata>

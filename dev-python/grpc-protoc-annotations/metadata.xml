@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># gRPC Gateway SupportThis repo generates the missing Python code to support code generated using[gRPC Gateway](https://github.com/grpc-ecosystem/grpc-gateway) protoc annotations.This package depends on `googleapis-common-protos` to provide `google.api.annotations_pb2` and othersthat the generated code will depend on.## Usage```shellpip install grpc-protoc-annotations```## Building1. Run `make init`2. Run `make build` to generate the code from grpc-gateway and build the package3. Run `pip install dist/grpc_protoc_annotations-2.14.0-py3-none-any.whl` to install in the current Python   distribution## Publishing (optional)Setup PyPi credentials and1. `make distribute`## CreditsOriginal implementation from HackEdu, but Github repository is not available anymore and the Pypi package unmaintained.</longdescription>
 </pkgmetadata>

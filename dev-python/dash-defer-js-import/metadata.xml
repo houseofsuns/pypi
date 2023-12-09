@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Dash Defer JS ImportDash Defer JS Import is a Dash component library.Its purpose is to defer loading JS scripts until after the Dash React elements have loaded.# InstallationThe package has been released to pypi and npm.Easy thing is to install using pip:```pip install dash_defer_js_import``` To install from source, clone the repo and```npm installnpm run build:allpython setup.py sdistpip install dist/dash_defer_js_import-0.0.1.tar.gz```Note: his assumes you have the requirements already installed, if not, see requirements.txtMight want to use venv to not mess up your own repo ...)# Usage:```import dash_defer_js_import as dji# Dash server initi and layout setup# ...app.layout = html.Article(dji.Import(src=&quot;./path/to/script.js&quot;))```# Credits This component is based on the [grasia-dash-component](https://github.com/Grasia/grasia-dash-components)It was initialized using cookiecutter thanks to the [https://github.com/plotly/dash-component-boilerplate.git](das-component-boilerplate) cookiecutter .</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>======================XGBoost Python Package======================|PyPI version|Installation============From `PyPI &lt;https://pypi.python.org/pypi/xgboost&gt;`_---------------------------------------------------For a stable version, install using ``pip``::    pip install xgboost.. |PyPI version| image:: https://badge.fury.io/py/xgboost.svg   :target: http://badge.fury.io/py/xgboostFor building from source, see `build &lt;https://xgboost.readthedocs.io/en/latest/build.html&gt;`_.</longdescription>
 </pkgmetadata>

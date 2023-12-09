@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Requirements- Python 3.6+- Pydantic for the data parts.- Rdflib for the parsing part.## Installation```pip install pyimporters-mesh```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. image:: https://secure.travis-ci.org/jkakar/logfmt-python.png?branch=master Logfmt======Python package for parsing log lines in the `logfmt` style.  See theoriginal project by Blake Mizerany and Keith Rarick for informationabout `logfmt` conventions and use: https://github.com/kr/logfmtUsing logfmt------------Easily process lines from `logfmt` formatted input: ::    from logfmt import parse    input = StringIO('\n'.join(['key1=value1', 'key2=value2']))    for values in parse(input):        print valuesThis program produces this output: ::    {'key1': 'value1'}    {'key2': 'value2'}Easily generate lines in `logfmt` formatted output ::    from logfmt import format    for line in format({'key1': 'value1'}, {'key2': 'value2'}):        print lineThis program produces this output: ::    key1=&quot;value1&quot;    key2=&quot;value2&quot;Installation------------To install it, simply: ::    pip install logfmt</longdescription>
 </pkgmetadata>

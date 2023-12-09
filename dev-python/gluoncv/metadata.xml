@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>GluonCV Python Package=========================`GluonCV &lt;https://gluon-cv.mxnet.io&gt;`_ provides implementations of the state-of-the-art (SOTA) deep learning models in computer vision.It is designed for engineers, researchers, and students to fast prototype products and research ideas based on these models.Installation------------To install, use:.. code-block:: bash    pip install gluoncv mxnet&gt;=1.6.0 --upgrade    # for installing gluoncv with all dependencies    pip install gluoncv[full] mxnet&gt;=1.6.0 --upgradeTo enable different hardware supports such as GPUs, check out  `mxnet variants &lt;https://pypi.org/project/mxnet/&gt;`_.For example, you can install cuda-11.0 supported mxnet alongside gluoncv:.. code-block:: bash    pip install gluoncv mxnet-cu110&gt;=1.6.0 --upgrade</longdescription>
 </pkgmetadata>

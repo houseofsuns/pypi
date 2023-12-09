@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pytemperature    A module that helps to convert temperature units.**Examples of usage**```python&gt;&gt;&gt; import pytemperature&gt;&gt;&gt; pytemperature.c2f(37.78) # Celsius to Fahrenheit100.0&gt;&gt;&gt; pytemperature.f2c(104) # Fahrenheit to Celsius40.0&gt;&gt;&gt; pytemperature.c2k(40) # Celsius to Kelvin313.15&gt;&gt;&gt; pytemperature.k2c(273.15) # Kelvin to Celsius0.0&gt;&gt;&gt; pytemperature.k2f(273.15) # Kelvin to Fahrenheit31.98&gt;&gt;&gt; pytemperature.f2k(100) # Fahrenheit to Kelvin310.93&gt;&gt;&gt; pytemperature.r2c(80) # Romoe to Celsius100.0&gt;&gt;&gt; pytemperature.c2r(100) # Celsius to Romoe80.0&gt;&gt;&gt; pytemperature.r2k(80) #Romoe to Kelvin373.15```</longdescription>
 </pkgmetadata>

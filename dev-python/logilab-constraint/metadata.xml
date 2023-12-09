@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package implements an extensible constraint satisfaction problemsolver written in pure Python, using constraint propagation algorithms.The logilab.constraint module provides finite domains with arbitraryvalues, finite interval domains, and constraints which can be appliedto variables linked to these domains.It requires python 2.6 or later to work, and is released under the GNULesser General Public License.The documentation is in the doc/ directory. Examples are in theexamples/ directory.Discussion about constraint should take place on the python-projectsmailing list. Information on subscription and mailing list archives canbe accessed athttps://lists.logilab.org/mailman/listinfo/python-projects/Your feedback is very valuable to us. Please share your experience withother users of the package on the mailing list.</longdescription>
 </pkgmetadata>

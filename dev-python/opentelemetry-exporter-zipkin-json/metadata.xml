@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry Zipkin JSON Exporter==================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-exporter-zipkin-json.svg   :target: https://pypi.org/project/opentelemetry-exporter-zipkin-json/This library allows export of tracing data to `Zipkin &lt;https://zipkin.io/&gt;`_ using JSONfor serialization.Installation------------::     pip install opentelemetry-exporter-zipkin-jsonReferences----------* `OpenTelemetry Zipkin Exporter &lt;https://opentelemetry-python.readthedocs.io/en/latest/exporter/zipkin/zipkin.html&gt;`_* `Zipkin &lt;https://zipkin.io/&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_</longdescription>
 </pkgmetadata>

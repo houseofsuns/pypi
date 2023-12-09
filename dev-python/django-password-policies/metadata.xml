@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>django-password-policies is an application for the Django framework thatprovides unicode-aware password policies on password changes and resetsand a mechanism to force password changes.</longdescription>
 </pkgmetadata>

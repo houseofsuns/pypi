@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Graphical interface to manage Linux applications (AppImage, Arch / AUR, Flatpak, Snap and Web)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Setup-----Setup package    # python setup.py installExamples--------```pythonimport pararamioclient = pararamio.Pararamio('username', 'passowrd', 'two_factor_key')client.authenticate()ua = client.search_user('recipient@example.com')if len(ua) == 1:    ua[0].send_message(text='text message')```</longdescription>
 </pkgmetadata>

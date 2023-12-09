@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for certifiThis is a PEP 561 type stub package for the `certifi` package.It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check codethat uses `certifi`. The source for this package can be found athttps://github.com/python/typeshed/tree/master/stubs/certifi. All fixes fortypes and metadata should be contributed there.*Note:* The `certifi` package includes type annotations or type stubssince version 2022.5.18.1. Please uninstall the `types-certifi`package if you use this or a newer version.See https://github.com/python/typeshed/blob/master/README.md for more details.This package was generated from typeshed commit `95128e61ec82c2ca8ec32d6c03bd9dad9ab68e65`.</longdescription>
 </pkgmetadata>

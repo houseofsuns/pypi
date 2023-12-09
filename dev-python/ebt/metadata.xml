@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Backup framework with rsync, mysql, libvirt, btrfs, lvm and amazon glacier plugins.</longdescription>
 </pkgmetadata>

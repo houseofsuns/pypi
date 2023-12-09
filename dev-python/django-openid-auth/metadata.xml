@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A library that can be used to add OpenID support to Django applications.The library integrates with Django's built in authentication system, somost applications require minimal changes to support OpenID llogin. Thelibrary also includes the following features:  * Basic user details are transferred from the OpenID server via the    Simple Registration extension or Attribute Exchange extension.  * can be configured to use a fixed OpenID server URL, for use in SSO.  * supports the launchpad.net teams extension to get team membership    info.</longdescription>
 </pkgmetadata>

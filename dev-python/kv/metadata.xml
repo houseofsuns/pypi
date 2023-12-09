@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>KV - simple key/value store===========================.. image:: https://github.com/mgax/kv/actions/workflows/ci.yml/badge.svg?branch=masterKV provides a dictionary-like interface on top of SQLite. Keys can beunicode strings, numbers or None. Values are stored as JSON.::    &gt;&gt;&gt; from kv import KV    &gt;&gt;&gt; db = KV('/tmp/demo.kv')    &gt;&gt;&gt; db['hello'] = 'world'    &gt;&gt;&gt; db[42] = ['answer', 2, {'ultimate': 'question'}]    &gt;&gt;&gt; dict(db)    {42: [u'answer', 2, {u'ultimate': u'question'}], u'hello': u'world'}There is a locking facility that uses SQLite's transaction API::    &gt;&gt;&gt; with kv.lock():    ...   l = db[42]    ...   l += ['or is it?']    ...   db[42] = lAnd that's about it. The code_ is really simple... _code: https://github.com/mgax/kv</longdescription>
 </pkgmetadata>

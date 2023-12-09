@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>InterMine Webservice Client----------------------------A Python API to access bioinformatics data warehouses powered by the InterMine platform.</longdescription>
 </pkgmetadata>

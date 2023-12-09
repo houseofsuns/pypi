@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>![iid-logo](https://iid.ulaval.ca/wp-content/themes/iid/images/logo-iid-Institut-intelligence-donnees.svg &quot;IID&quot;)# TextStatComplexityHere some examples:    from TextComplexityComputer import TextComplexityComputer    tcc = TextComplexityComputer()    print(tcc.get_metrics_scores(&quot;Alibaba et les 40 voleurs.&quot;))</longdescription>
 </pkgmetadata>

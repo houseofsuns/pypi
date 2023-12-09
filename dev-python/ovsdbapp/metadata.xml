@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>========ovsdbapp========A library for creating OVSDB applicationsThe ovdsbapp library is useful for creating applications that communicatevia Open_vSwitch's OVSDB protocol (https://tools.ietf.org/html/rfc7047). Itwraps the Python 'ovs' and adds an event loop and friendly transactions.* Free software: Apache license* Source: https://opendev.org/openstack/ovsdbapp/* Bugs: https://bugs.launchpad.net/ovsdbappFeatures:* An thread-based event loop for using ovs.db.Idl* Transaction support* Native OVSDB communication</longdescription>
 </pkgmetadata>

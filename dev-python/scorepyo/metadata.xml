@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Scorepyo is a python package for creating risk-score type models for binary classification, based on data. The created models can be used like other ML models, with fit and predict methods.</longdescription>
 </pkgmetadata>

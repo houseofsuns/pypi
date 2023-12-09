@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Django Any-JS=============Description-----------Django-Any-JS helps you at including any combination of JavaScript/CSSURLs in your site, with readable settings and template tags.Usage-----In your settings:::    INSTALLED_APPS = [        ...,        &quot;django_any_js&quot;,        ...,    ]    ANY_JS = {        &quot;DataTables&quot;: {            &quot;js_url&quot;: &quot;/javascript/jquery-datatables/dataTables.bootstrap4.min.js&quot;,            &quot;css_url&quot;: &quot;/javascript/jquery-datatables/css/dataTables.bootstrap4.min.css&quot;,        }    }In your template:::    {% load any_js %}    {% include_js &quot;DataTables&quot; %}    {% include_css &quot;DataTables&quot; %}</longdescription>
 </pkgmetadata>

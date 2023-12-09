@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># laz-rs-pythonPython bindings for the [laz-rs](https://crates.io/crates/laz) crate.# BuildingBuilding is done by using [maturin](https://github.com/PyO3/maturin)```console# from pypipip install lazrs# localypip install .```or```consolepip install maturinmaturin develop --release```</longdescription>
 </pkgmetadata>

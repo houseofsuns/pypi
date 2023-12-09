@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Mixins to add easy functionality to Django class-based views, forms, and models.</longdescription>
 </pkgmetadata>

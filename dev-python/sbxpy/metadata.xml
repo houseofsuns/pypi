@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is the module  create all request used to communicate with SbxCloud</longdescription>
 </pkgmetadata>

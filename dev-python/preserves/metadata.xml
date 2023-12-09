@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python PreservesThis package ([`preserves` on pypi.org](https://pypi.org/project/preserves/)) implements[Preserves](https://preserves.dev/) for Python 3.x. It provides the core [semantics][] as wellas both the [human-readable text syntax](https://preserves.dev/preserves-text.html) (a supersetof JSON) and [machine-oriented binary format](https://preserves.dev/preserves-binary.html)(including [canonicalization](https://preserves.dev/canonical-binary.html)) for Preserves. Italso implements [Preserves Schema](https://preserves.dev/preserves-schema.html) and [PreservesPath](https://preserves.dev/preserves-path.html).# Git repositoryThe project is [hosted on Gitlab](https://gitlab.com/preserves/preserves).# DocumentationDocumentation for the package is available at &lt;https://preserves.dev/python/&gt;.# LicenseThe package is licensed under the Apache License v2.0.[semantics]: https://preserves.dev/preserves.html#semantics</longdescription>
 </pkgmetadata>

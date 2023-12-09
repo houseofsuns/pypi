@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package installs the Hermite community code for AMUSE.</longdescription>
 </pkgmetadata>

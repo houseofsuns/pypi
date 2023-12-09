@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># jwtools集微工具箱，包括各种常用操作，后续不断完善### 构建在项目文件夹中运行以下命令```shellpython setup.py sdist bdist_wheel```### 上传：```shellpython -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*或python -m twine upload dist/*```按照提示，输入pypi的用户名、密码，就可以成功了。若中途提示有些库没有安装，则使用pip安装一下，需要用到twine库。### 使用#### 安装或更新pip3 install jwtoolspip3 install --upgrade jwtools#### 代码使用```pythonfrom jwtools.func import *from jwtools.io_util import *mm5 = get_text_md5(&quot;dddd&quot;)print(mm5)# write_text_to_fileresult = write_text_to_file(&quot;D:/test/test123.txt&quot;, mm5)print(result)# read_text_from_filecc = read_text_from_file(&quot;D:/test/test123.txt&quot;)print(cc)```</longdescription>
 </pkgmetadata>

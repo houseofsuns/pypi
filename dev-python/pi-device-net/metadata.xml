@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Overview========A system for automated device discovery and commmunication,using UDP (for discovery) and MQTT (via mosquito andPaho-mqtt) for communication.It is a work in progress.Installation============The Device Net doesn't install on its own, but is part of a Module or Controller as a client library, to manage networking and communications.When used on a Module, that project needs to add these entries to their`requirements.txt`:* paho-mqtt* pi-device-netWhen used on a Controller, that project needs to add these to its `requirements.txt`:* paho-mqtt* pi-device-net&gt;=0.1.20* mosquitoIn addition, on the Controller system, you need to install and launch theMosquito service during device setup:    sudo apt-get update    sudo apt-get install mosquittoDevelopment===========</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># SpamWatch API Python Wrapper# Basic Usage```pythonimport spamwatchtoken = 'A_LONG_TOKEN_HERE'client = spamwatch.Client(token)ban = client.get_ban(777000)print(ban.reason)```</longdescription>
 </pkgmetadata>

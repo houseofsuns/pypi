@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># IP-AddressA Python module to fetch your public IP address.[![PyPi Version](https://img.shields.io/pypi/v/ip-address.svg)](https://pypi.org/project/ip-address/)[![MIT License](https://img.shields.io/pypi/l/ip-address.svg)](https://github.com/dewittethomas/ip-address/blob/master/LICENSE)## Table of Contents- [Installation](#installation)- [Usage](#usage)  - [Get](#get)- [Contributing](#contributing)- [License](#license)## InstallationYou can install the `ip-address` module using pip:```bashpip install ip-address```## Usage### GetYou can use this module to retrieve your public IP address. Here's a basic example:```pythonimport ip_address as ipaddress = ip.get()print(&quot;Your public IP address is:&quot;, address)```## ContributingContributions to this project are welcome. If you have any improvements or bug fixes, please submit a pull request.## LicenseThis project is licensed under the MIT License.</longdescription>
 </pkgmetadata>

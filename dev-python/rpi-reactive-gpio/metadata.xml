@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># rpi-reactive-gpioSyntax sugar for controlling RPi.GPIO with reactive design.</longdescription>
 </pkgmetadata>

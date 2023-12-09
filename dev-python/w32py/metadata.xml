@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># w32pyPython Win32 API# Install## conda, Windows 32-bit```conda create -n w32py python=3.10conda activate w32pypip install flit```## code```cd PATH_TO_CODEflit install```## Run```cd PATH_TO_RUNconda activate w32py```</longdescription>
 </pkgmetadata>

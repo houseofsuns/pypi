@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package serves to provide visualizations from your NLP data.This package was inspired by the work of NeptuneAI and this blog post:https://neptune.ai/blog/exploratory-data-analysis-natural-language-processing-toolsThis repository contains the Vizzy package and some sample notebooks to help you get started using Vizzy.To install this package, you can use pip install``pip install vizzy``This is the history file of my package.1/20/23: Updated setup.py to fix missing modules issue1/20/23: Updated vizzy package to fix functions2/1/23: Added new functions and object classes2/6/23: Added new functions to Vizzy Doc module2/7/23: Added new functions to Vizzy Token module2/10/23: Added documentation and simplified functions2/15/23: Added functions2/21/23: Updated package</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pyQSCPython implementation of the Quasisymmetric Stellarator Construction methodThis code implements the equations derived by Garren and Boozer (1991) for MHD equilibrium near the magnetic axis.View the [main documentation here](https://landreman.github.io/pyQSC/)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Status------**This project is unmaintained**. It was originally spun off ofdjango-auth-ldap, which no longer requires it. If you have a use for it, feelfree to copy the code for your own purposes (it's only for testing, after all).Documentation may still be available at https://mockldap.readthedocs.io/.</longdescription>
 </pkgmetadata>

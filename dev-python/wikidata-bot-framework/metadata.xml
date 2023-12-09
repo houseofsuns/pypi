@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># wikidata-bot-frameworkA framework for making Wikidata bots. Takes care of merging of existing statements with new qualifiers and/or references</longdescription>
 </pkgmetadata>

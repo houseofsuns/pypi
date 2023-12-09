@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>wxutils provides utilities and convenience functions for wxPython. The wxutilslibrary is a small collection of functions and classes, and is by no meanscomprehensive. The aim is to simplify code, reduce boiler-plate, make wxPythoncoding a  bit more python-like, and prevent repeating code across projects.Many of the classes in wxutils are simplified versions of wxPython widgetsthat add callbacks for normal action events.</longdescription>
 </pkgmetadata>

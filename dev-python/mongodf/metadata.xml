@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MongoDf[![Python Package](https://github.com/VK/mongodf/actions/workflows/python-publish.yml/badge.svg)](https://github.com/VK/mongodf/actions/workflows/python-publish.yml)[![PyPI](https://img.shields.io/pypi/v/mongodf?logo=pypi)](https://pypi.org/project/mongodf)A mongoDB to pandas DataFrame converter with a pandas filter style.## Install```pip install mongodf```## Filter Example```pythonimport mongodfimport pymongomongo = pymongo.MongoClient(&quot;mongodb://mongo:27017&quot;)# create a dataframe from a mongoDB collectiondf = mongodf.from_mongo(mongo, &quot;DB&quot;, &quot;Collection&quot;)# filter valuesdf = df[(df[&quot;colA&quot;] == &quot;Test&quot;) &amp; (df.ColB.isin([1, 2]))]# filter columnsdf = df[[&quot;colA&quot;, &quot;colC&quot;]]# compute a pandas.DataFramedf.compute()```|   | colA  | colC ||---| ----- | ---- ||0  | Test  |  NaN ||1  | Test  |   12 |</longdescription>
 </pkgmetadata>

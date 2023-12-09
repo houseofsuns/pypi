@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># anfema-django-utilsCollection of various django related utilities, helpers &amp; small apps.https://anfema.github.io/anfema-django-utils/## DocumentationTo build the documentation from the local sources run: ```bash$ pip install tox &amp;&amp; tox -e docs```## TestsTo run the unittests from the local sources run: ```bash$ pip install tox &amp;&amp; tox```## Release processSteps required to create a new release and publish the package on PyPI: 1. Bump `__version__` in `anfema_django_utils/__ini__.py`2. Create a new release on GitHub with the tag `v&lt;version&gt;`</longdescription>
 </pkgmetadata>

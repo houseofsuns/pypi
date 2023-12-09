@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is the gRPC extension for Dapr.Dapr is a portable, serverless, event-driven runtime that makes it easy for developers tobuild resilient, stateless and stateful microservices that run on the cloud and edge andembraces the diversity of languages and developer frameworks.Dapr codifies the best practices for building microservice applications into open,independent, building blocks that enable you to build portable applications with the languageand framework of your choice. Each building block is independent and you can use one, some,or all of them in your application.</longdescription>
 </pkgmetadata>

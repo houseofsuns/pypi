@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Spyx is a compact library built on top of DeepMind's Haiku library, enabling easy construction of spiking neural network models.</longdescription>
 </pkgmetadata>

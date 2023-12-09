@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># seatable-api-pythonPython client for SeaTable web apiEnglish document: &lt;https://seatable.github.io/seatable-scripts/&gt;Chinese document: &lt;https://seatable.github.io/seatable-scripts-cn/&gt;pypi: &lt;https://pypi.org/project/seatable-api/&gt;github: &lt;https://github.com/seatable/seatable-api-python&gt;</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># MadVR Envy Python LibrarySupport for IP based controls for MadVR EnvySupports real time notifications and commands## CommandsCommand structure follows the same in the manual https://madvrenvy.com/wp-content/uploads/EnvyIpControl.pdf?r=112aFor things that take values, use a comma -&gt; `[&quot;KeyPress, MENU&quot;]`Not every single command is implemented, such as submenus or changing complicated options. You can use commands for all the typical stuff the remote can do.</longdescription>
 </pkgmetadata>

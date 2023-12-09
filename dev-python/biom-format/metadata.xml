@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>BIOM: Biological Observation Matrixhttp://www.biom-format.orgThe Biological Observation Matrix (BIOM) format or: how I learned to stopworrying and love the ome-omeDaniel McDonald, Jose C Clemente, Justin Kuczynski, Jai Ram Rideout,Jesse Stombaugh, Doug Wendel, Andreas Wilke, Susan Huse, John Hufnagle,Folker Meyer, Rob Knight, J Gregory CaporasoGigaScience 2012, 1:7.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># xsarslc![Anaconda-Server Badge](https://img.shields.io/conda/vn/conda-forge/xsarslc)![Pypi Badgge](https://img.shields.io/pypi/v/xsarslc.svg)        Functions for Sentinel-1 SLC products the main feature of this library is the SAR processor:```mermaidgraph TD;    A[level-1 SLC] --&gt;| SAR processor | B(level-1B XSP);```This is a Work In Progress Library.Disclaimer: no warranty on the quality of output product at this stage.# installation```bashpip install git+https://github.com/umr-lops/xsar_slc```# usage```pythonimport xsarslc```</longdescription>
 </pkgmetadata>

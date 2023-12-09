@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>rpaframework-google===================This library enables Google Cloud services for `RPA Framework`_libraries, such as Google Sheets and Google Vision... _RPA Framework: https://rpaframework.org</longdescription>
 </pkgmetadata>

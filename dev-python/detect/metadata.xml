@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/detect.svg?maxAge=3600)](https://pypi.org/project/detect/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install detect```#### Features##### OS variablesvariable|description-|-`detect.freebsd`| True if OS is FreeBSD`detect.linux`| True if OS is Linux`detect.mac`| True if OS is MacOS`detect.osx`| True if OS is MacOS OS X`detect.windows`| True if OS is Windows`detect.cygwin`| True if OS is Cygwin detected`detect.unix`| True if OS is Unix (not Windows)##### Python variablesvariable|description-|-`detect.py2`| True if python is 2.x`detect.py3`| True if python is 3.x##### Dockervariable|description-|-`detect.docker`| True if running inside a Docker container&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>louvain is a general algorithm for methods of community detection in large networks.Please refer to the `documentation &lt;http://louvain.readthedocs.io/en/latest&gt;`_for more details.The source code of this package is hosted at `GitHub &lt;https://github.com/vtraag/louvain&gt;`_.Issues and bug reports are welcome at https://github.com/vtraag/louvain/issues.</longdescription>
 </pkgmetadata>

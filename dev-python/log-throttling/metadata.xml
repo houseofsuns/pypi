@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># log-throttlingA light-weight python log throttling utility```pythonimport timeimport loggingimport log_throttlinglogger = logging.getLogger(__name__)start = time.monotonic()while time.monotonic() - start &lt; 10:    log_throttling.by_time(logger, interval=1).info(        &quot;This line will be logged once every second.&quot;    )    time.sleep(0.01)for i in range(100):    log_throttling.by_count(logger, once_every=10).info(        &quot;This line will only log values that are multiples of 10: %s&quot;, i    )```</longdescription>
 </pkgmetadata>

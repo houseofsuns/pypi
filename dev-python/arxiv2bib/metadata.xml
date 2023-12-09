@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Provides a command line tool to get metadata for an academic paperposted at arXiv.org in BibTeX format.Transform this::    $ arxiv2bib 1001.1001Into this::    @article{1001.1001v1,    Author        = {Philip G. Judge},    Title         = {The chromosphere: gateway to the corona,      or the purgatory of solar physics?},    Eprint        = {1001.1001v1},    ArchivePrefix = {arXiv},    PrimaryClass  = {astro-ph.SR},    Abstract      = {I outline curious observations which I personally    find puzzling and deserving of attention.},    Year          = {2010},    Month         = {Jan}    }</longdescription>
 </pkgmetadata>

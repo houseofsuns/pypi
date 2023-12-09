@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>core_module_remote_blob_host_app================================Remote Blob Host module for the parser core project.Quick start===========1. Add &quot;core_module_remote_blob_host_app&quot; to your INSTALLED_APPS setting------------------------------------------------------------------------.. code:: python    INSTALLED_APPS = [      ...      'core_module_remote_blob_host_app',    ]2. Include the core_module_remote_blob_host_app URLconf in your project urls.py-------------------------------------------------------------------------------.. code:: python    url(r'^', include('core_module_remote_blob_host_app.urls')),</longdescription>
 </pkgmetadata>

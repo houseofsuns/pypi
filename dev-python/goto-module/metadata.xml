@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Real goto module for python.Installation:  &gt;pip install goto-moduleUsage:  &gt;from goto import goto   &gt;print(&quot;Hello World&quot;)  &gt;#(&quot;hi&quot;)  &gt;print(&quot;hello&quot;)  &gt;goto(&quot;hi&quot;)Output:  &gt;Hello World  &gt;hello  &gt;hello  &gt;hello  &gt;hello  &gt;hello  &gt;........Note:  The comments value should be unique like here it is (&quot;hi&quot;) and should not be part of any other word or function.</longdescription>
 </pkgmetadata>

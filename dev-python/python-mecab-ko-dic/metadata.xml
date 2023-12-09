@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># python-mecab-ko-dicThis is a version of[`mecab-ko-dic`](https://bitbucket.org/eunjeon/mecab-ko-dic) packaged for easy use in Python.  In order to use `mecab-ko-dic`, a complicated process of installing [`mecab-ko`](https://bitbucket.org/eunjeon/mecab-ko) and building the dictionary is required. This library performs these processes in advance and makes the built dictionary available just through installation.## CreditsThe dictionary was created by Yongwoon Lee and Yungho Yu as part of [the Eunjeon proejct](http://eunjeon.blogspot.com/).## Usage```pythonimport mecab_ko_dicprint(&quot;Dictionary path:&quot;, mecab_ko_dic.dictionary_path)```</longdescription>
 </pkgmetadata>

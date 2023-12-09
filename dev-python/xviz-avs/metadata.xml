@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># xviz_avsPython implementation of XVIZ protocol libraries.# RequirementsPython3, `websockets`, `protobuf`, `numpy`# Get startedYou can try running the scenario server by `python examples/serve_scenarios.py`. Then you can run `cd examples/get-started &amp;&amp; yarn start-live` under your `streetscape.gl` repository to see the example scenarios.# Acknowledgements * **[Yuanxin Zhong](https://github.com/cmpute)** created [xviz.py](https://github.com/cmpute/xviz.py) and allowed us to use it as the base for the official python XVIZ library.</longdescription>
 </pkgmetadata>

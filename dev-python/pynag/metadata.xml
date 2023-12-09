@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python modules and utilities for pragmatically handling Nagios configurationfile maintenance, status information, log file parsing and plug-in development.</longdescription>
 </pkgmetadata>

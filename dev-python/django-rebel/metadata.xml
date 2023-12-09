@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Django Rebel## Requirements- Django &gt;= 2.0- Postgresql## Installation```pip install django-rebel```Add `django_rebel` to your INSTALLED_APPS setting.```INSTALLED_APPS = (    ...    'django_rebel',)```Add Django Rebel settings to your settings file.```REBEL = {    &quot;TEST_MODE&quot;: False,    &quot;SEARCH_FIELDS&quot;: [],    &quot;EMAIL_PROFILES&quot;: {        'MARKETING': {            'EMAIL': &quot;anyone@example.com&quot;,            'FULL_NAME': 'Anyone',            &quot;API&quot;: {                &quot;API_KEY&quot;: &quot;MAILGUN_API_KEY&quot;,                &quot;DOMAIN&quot;: &quot;mg.example.com&quot;            }        }    }}```</longdescription>
 </pkgmetadata>

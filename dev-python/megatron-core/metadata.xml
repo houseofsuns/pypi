@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Megatron Core is a library for efficient and scalable training of transformer based models.</longdescription>
 </pkgmetadata>

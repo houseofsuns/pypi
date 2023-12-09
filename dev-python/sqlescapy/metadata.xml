@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python module to escape SQL special characters and quotes in stringsinstall:`pip install sqlescapy`Assuming `dangerous_input` is a variable coming from a user input, a bad actor can exploit it to start injecting your database.```pythonfrom sqlescapy import sqlescapedangerous_input = &quot;JhonWick'&quot;protected_raw_statement = &quot;\&quot;foo_table\&quot;.username='%s'&quot; % sqlescape(dangerous_input)protected_query = &quot;&quot;&quot;SELECT &quot;foo_table&quot;.*, &quot;bar_table&quot;.*FROM &quot;foo_table&quot;, &quot;bar_table&quot;WHERE &quot;foo_table&quot;.id = &quot;bar_table&quot;.id      AND %s&quot;&quot;&quot; % protected_raw_statement```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>fakenewsredis: A fake version of a redis-py===========================================fakenewsredis was originally forked from fakeredis_. The author is now afakeredis maintainer, and all future development will be done on fakeredis. Ifyou are using fakenewsredis, you should switch back to fakeredis_.fakenewsredis will be kept online to avoid breaking existing code,but will simply import all functionality from fakeredis... _fakeredis: https://github.com/jamesls/fakeredis</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This distribution provides WSGI middleware for &quot;RESTful&quot; mapping of URL paths to WSGI applications. Selector now also comes with components for environ based dispatch and on-the-fly middleware composition. There is a very simple optional mini-language for path expressions. Alternately we can easily use regular expressions directly or even create our own mini-language. There is a simple &quot;mapping file&quot; format that can be used. There are no architecture specific features (to MVC or whatever). Neither are there any framework specific features.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Calibrate camera's intrinsic/extristric, and build stereo depth camera with OpenCV python.</longdescription>
 </pkgmetadata>

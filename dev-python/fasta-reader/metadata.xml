@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Welcome to fasta-reader 👋&gt; Read and write FASTA file### 🏠 [Homepage](https://github.com/EBI-Metagenomics/fasta-reader-py)## ⚡️ Requirements- Python &gt;= 3.9## Install```shpip install fasta-reader```## ExamplesThe following example show that it can read a compressed file remotely seamlessly:```pythonfrom fasta_reader import read_fastaROOT = &quot;https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/858/895&quot;REF = &quot;GCF_009858895.2_ASM985889v3&quot;FILE = f&quot;{ROOT}/{REF}/{REF}_genomic.fna.gz&quot;for item in read_fasta(FILE):    print(item)```We can also write a FASTA file in a compressed format directly:```pythonfrom fasta_reader import write_fastawith write_fasta(&quot;protein.faa.gz&quot;) as file:    file.write_item(&quot;P01013 GENE X PROTEIN&quot;, &quot;QIKDLLVSSSTDLDT...&quot;)```## 👤 Author- [Danilo Horta](https://github.com/horta)## Show your supportGive a ⭐️ if this project helped you!</longdescription>
 </pkgmetadata>

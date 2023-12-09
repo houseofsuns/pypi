@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a C extension module for Python whichimplements POSIX ACLs manipulation. It is a wrapper on topof the systems's acl C library - see acl(5).</longdescription>
 </pkgmetadata>

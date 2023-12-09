@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># NERCST[![PyPI](https://img.shields.io/pypi/v/nercst.svg?label=PyPI&amp;style=flat-square)](https://pypi.org/pypi/nercst/)[![Python](https://img.shields.io/pypi/pyversions/nercst.svg?label=Python&amp;color=yellow&amp;style=flat-square)](https://pypi.org/pypi/nercst/)[![Test](https://img.shields.io/github/workflow/status/necst-telescope/NERCST/Test?logo=github&amp;label=Test&amp;style=flat-square)](https://github.com/necst-telescope/NERCST/actions)[![License](https://img.shields.io/badge/license-MIT-blue.svg?label=License&amp;style=flat-square)](https://github.com/necst-telescope/NERCST/blob/main/LICENSE)Python package template.## FeaturesThis library provides:- Data reduction and calibration software for NECST telescopes.## Installation```shellpip install nercst```## UsageThis library is using [Semantic Versioning](https://semver.org).</longdescription>
 </pkgmetadata>

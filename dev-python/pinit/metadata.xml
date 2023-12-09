@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pinit## an application for creating shortcut for apps and scripts ( only for linux )## installation- using pip :run this two commands in terminal :```bashpip install pinitpinit install```or run :```bashpip install pinit &amp;&amp; pinit install```&lt;!-- - appimage : --&gt;&lt;!-- just download pinit.AppImage file and run it --&gt;## commands- pinit- pinit install- pinit uninstall- pinit upgrade- pinit upgrade --force</longdescription>
 </pkgmetadata>

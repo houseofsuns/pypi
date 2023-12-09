@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>==============Mistral Extras==============.. image:: https://governance.openstack.org/tc/badges/mistral-extra.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point onMistral Extra is a library which allows contributors to add optionalfunctionality to the mistral project, it also contains examples for whichto base new capabilities.</longdescription>
 </pkgmetadata>

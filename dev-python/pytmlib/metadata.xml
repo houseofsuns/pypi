@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pytmlibThis is the base library for the Python Tool Manager.Is also available on [PyPI](https://pypi.org/project/pytmlib/).```shellpip install pytmlib```</longdescription>
 </pkgmetadata>

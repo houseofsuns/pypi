@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Example```pythonfrom sc_cc_ng_sdk_python import SCNGClientfrom sc_cc_ng_models_python import ContextFilter, ContextRelation, SubContextFilter, ContextTypesdk_call = SCNGClient(url=&quot;http://localhost:8001/graphql&quot;)tokens_list=[    [        &quot;en-GB&quot;,        &quot;MY2022&quot;,        &quot;CT256&quot;,        &quot;EN06&quot;    ]]result = sdk_call(    token_list=tokens_list,    context_filter=ContextFilter(        relation=ContextRelation.ALL,        subContextFilters=[            SubContextFilter(                contexts=[                    ContextType.MODEL,                ],                relation=ContextRelation.ALL            )        ]    ))print(result.data)print(result.error)```</longdescription>
 </pkgmetadata>

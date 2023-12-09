@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># mlm mlm - manga library manager. Read, track, and download latest chapters of yourmanga library with mlm. Depends on zathura, gallery-dl, and tar</longdescription>
 </pkgmetadata>

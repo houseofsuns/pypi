@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>scrapy_warc===========.. contents:: **Table of Contents**    :backlinks: noneInstallation------------scrapy_warc is distributed on `PyPI &lt;https://pypi.org&gt;`_ as a universalwheel and is available on Linux/macOS and Windows and supportsPython 2.7/3.5+ and PyPy... code-block:: bash    $ pip install scrapy_warcLicense-------scrapy_warc is distributed under the terms of both- `MIT License &lt;https://choosealicense.com/licenses/mit&gt;`_- `Apache License, Version 2.0 &lt;https://choosealicense.com/licenses/apache-2.0&gt;`_at your option.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>what this does: fetches data from both itunesconnect and backend server that you configured; generates updated itmsp packge; upload that package; all in one command; python &gt; 3 but only tested with 3.5, 3.6</longdescription>
 </pkgmetadata>

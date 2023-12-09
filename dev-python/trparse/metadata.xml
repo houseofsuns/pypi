@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Parses the output of a traceroute or traceroute6 execution into an AST (Abstract Syntax Tree)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python Canonical Datamodel LibraryThe `canonical` namespace contains sub-packages that define commonly useddatastructures, for example as defined in a Request for Comments (RFC). Eachmodel is implemented using `pydantic`.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Scalyr Agent============The Scalyr Agent package.The module that implements the Scalyr Agent, a daemon that collects logs and metrics fromcustomer machines and transmits them to Scalyr.</longdescription>
 </pkgmetadata>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># Installation```consolepip install molgenis_emx2_pyclient```## How to useWithin your Python project import the class Client and use it as a context manager```pyfrom molgenis_emx2_pyclient import Clientusername = 'username'password = '...'with Client('https://example.molgeniscloud.org') as client:    client.signin(username, password)    # Retrieve signin information    print(client.status)    &quot;&quot;&quot; Output:    Host: https://example.molgeniscloud.org    Status: Signed in    Schemas:        CatalogueOntologies        catalogue        ExampleSchema        ...    Version: v8.214.1    &quot;&quot;&quot;        # Retrieve data from a table on a schema    data = client.get(schema='ExampleSchame', table='Cohorts')```## DevelopmentClone the `molgenis-emx2` repository from GitHub```consolegit clone git@github.com:molgenis/molgenis-emx2.git```Change the working directory to `.../tools/pyclient`### Create a virtual Python environmentOn macOS:```consolepython -m venv venv```On Linux:```consolepython3.11 -m venv venv```On Windows:```consolepy -3.11 venv venv```### Activate the virtual environmentOn macOS and Linux:```consolesource venv/bin/activate```On Windows:```console.venv\Scripts\activate.bat```### Install the script dependencies```consolepip install -r requirements.txt```## Build```console(venv) $ python -m build(venv) $ pip install dist/molgenis_emx2_pyclient*.whl```</longdescription>
-</pkgmetadata>

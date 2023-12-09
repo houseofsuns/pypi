@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Birgitta is a Python ETL test and schema framework,providing automated tests for pyspark notebooks/recipes.Birgitta allows doing solid ETL and ML, while still liberallyallowing imperfect notebook code, enabling a`DataOps &lt;https://www.dataopsmanifesto.org&gt;` way ofworking which is both solid and agile, not killingData Scientist flexibility by excessive coding standards in notebooks.In addition to running recipetests on your local dev machine or ona CI/CD server, there is support for running recipetestsas [Dataiku](https://www.dataiku.com] DSS Scenarios.</longdescription>
 </pkgmetadata>

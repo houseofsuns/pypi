@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The hostlist.py module knows how to expand and collect hostlist expressions.</longdescription>
 </pkgmetadata>

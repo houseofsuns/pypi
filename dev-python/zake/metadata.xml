@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Zake====.. image:: https://travis-ci.org/yahoo/Zake.png?branch=master   :target: https://travis-ci.org/yahoo/ZakeA python package that works to provide a nice set of testing utilities for the `kazoo`_ library.It includes the following functionality:* Storage access (for viewing what was saved/created).* Kazoo *mostly* compatible client API.* Sync/transaction/create/get/delete... commands.* Listener support.* And more...It simplifies testing by providing a client that has a similar API as the kazooclient so that your tests (or applications/libraries that use kazoo) do notrequire a real zookeeper server to be  tested with (since this is not availablein all testing environments)... _kazoo: https://kazoo.readthedocs.org/en/latest/</longdescription>
 </pkgmetadata>

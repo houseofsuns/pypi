@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># hashable_dfIf you have ever tried to use native python objects in Pandas DataFrames,you may have run into an issue similar to this:```pythondf = pd.DataFrame({&quot;A&quot;: [1, 2, 3, 4],                   &quot;B&quot;: [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;],                   &quot;C&quot;: [[1, 2, 3], [1, 2], [1, 2, 3], 4],                   &quot;D&quot;: [{1: 1, 2: 2}, {1: 1, 3: 3}, {1: 1, 4: 4}, {1: 1, 2: 2}],                   &quot;E&quot;: [[{1: {2: 2}}, {2: {3: 3}}], [{1: {2: 2}}, {2: {3: 3}}],                         [{1: {2: 2}}, {2: {3: 3}}], [{1: {2: 2}}, {2: {3: 3}}]]                   })df['C'].unique()````TypeError: unhashable type: 'list'`This is caused by unhashable values in the DataFrame cells.This small library helps to resolve that making this possible:```pythonfrom hashable_df import hashable_dfhashable_df(df)['E'].unique()```returning```array([[{1: {2: 2}}, {2: {3: 3}}]], dtype=object)```</longdescription>
 </pkgmetadata>

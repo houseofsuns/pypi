@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># filewatch ## Getting Started* python setup.py installer* globtail -x '*.gz' '/var/log/*'For developers, see filewatch.watch.Watch and filewatch.tail.Tail.Tested on Linux/x86_64 and Mac OS/X.All operating systems should be supported. If you run the tests onanother platform, please open a Github issue with the output (evenif it passes, so we can update this document).## OverviewThis project provide file and glob watching.It is a re-implementation in python of the excellentruby-filewatch package(https://github.com/jordansissel/ruby-filewatch)Goals:* to provide a python api to get notifications of file or glob changesExample code (standalone):    from filewatch.tail import Tail    def func(path, line):       print &quot;%s: %s&quot; % (path, line)    t = Tail()    t.tail(&quot;/tmp/test*.log&quot;)    t.subscribe(func)</longdescription>
 </pkgmetadata>

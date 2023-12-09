@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This library provides a simple to use Python API for parsing, formatting, and normalizing variant names specified in the standard recommended by the Human Genome Variation Society (HGVS).</longdescription>
 </pkgmetadata>

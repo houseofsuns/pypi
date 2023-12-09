@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A package that allows you to forecast time series datasets with some type of hierarchical structure. The algorithm is implementedusing PyTorch</longdescription>
 </pkgmetadata>

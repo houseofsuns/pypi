@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Captur ML SDKThis is an internal SDK to build Captur Machine Learning products.&lt;p&gt;&lt;a href=&quot;https://captur.github.io/captur-ml-engine&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://img.shields.io/static/v1?style=for-the-badge&amp;label=sdk&amp;message=Documentation&amp;color=informational&quot;&gt;&lt;/a&gt;&lt;/p&gt;## Using this library`pip install captur-ml`## Publishing a new version of this library`sh publish.sh`## Building the docs`pdoc --html captur_ml --template-dir docs/templates --output-dir docs --force`</longdescription>
 </pkgmetadata>

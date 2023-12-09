@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A Python module which provides compress/decompress features uzing LZNT1 algorithm. This doesn't reuqire ntdll.RtlCompressBuffer/RtlDecompressBuffer</longdescription>
 </pkgmetadata>

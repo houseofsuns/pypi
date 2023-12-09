@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># hook-runPython bootstrap to activate a virtual environment (venv, or conda) and run a command. Intended to be used with pre-commit pypi package. Inspired by [venv-run](https://github.com/guludo/venv-run)Runs a command from an existing python virtual environment. Script looksfor a private configuration file in the current working directoryhook-run.json. If such file is found, it's expected to follow format:```{    &quot;path&quot;: &quot;/home/user/my_project/venv/bin&quot;}```Where `path` points to the virtual environment to be used.If configuration file is not found, then no bootstrapping is performed, but script proceeds with command executionAfter bootstrapping is done, then specified command is executed.</longdescription>
 </pkgmetadata>

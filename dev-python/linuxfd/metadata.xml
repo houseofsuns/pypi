@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>linuxfd provides a Python interface for the Linux system calls 'eventfd','signalfd', 'timerfd' and 'inotify'.</longdescription>
 </pkgmetadata>

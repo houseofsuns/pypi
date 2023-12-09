@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Python-MustSpecify python version must in your requirements.txt## Usagerequirements.txt```bashpython-must == 3.8.2orpython-must &gt;= 3.10```</longdescription>
 </pkgmetadata>

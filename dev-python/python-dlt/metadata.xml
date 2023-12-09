@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># python-dlt is now dlt on PyPIThis package has been renamed. Use `pip install dlt` instead.New package: https://pypi.org/project/dlt/</longdescription>
 </pkgmetadata>

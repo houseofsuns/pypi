@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Vertibird is a dead-simple virtualization library based around direct access toQEMU. Because I couldn't be bothered to figure out how the hell the crappylibvirt C bindings work. I also couldn't be bothered to write a million linesof XML. Screw that.Currently only tested on x86_64, and probably only works on x86_64. Usage isalso only possible on Linux, this library is NOT cross-platform. It would'vetaken an infinitely longer amount of time to write this for Windows, since itmakes use of features such as named pipes.PyPi: https://pypi.org/project/vertibird/GitHub &amp; Further Information: https://github.com/naphthasl/vertibirdLicense: MIT (see LICENSE for details)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># multicallerHelper for using multicall to aggregate onchain data calls into a single RPC call.</longdescription>
 </pkgmetadata>

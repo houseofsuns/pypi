@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># TREx All-Sky Imager Raw PGM Data ReadfileFor installation, upgrading, and usage examples, please refer to the README [here](https://github.com/ucalgary-aurora/trex-imager-readfile).</longdescription>
 </pkgmetadata>

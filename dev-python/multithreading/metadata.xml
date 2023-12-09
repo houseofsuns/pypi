@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Multi ThreadingExample Class-------------```pythonimport multithreadingclass Demo(multithreading.MultiThread):    def task(self, task):        print(task)```Example Main------------```pythontask_list = range(1, 3 + 1)demo = Demo(task_list, threads=3)# Startdemo.start()```Result```123```**OR**```pythondemo = Demo(threads=3)# Start threadsdemo.start_threads()# Adding task to queuedemo.add_task(1)demo.add_task(2)demo.add_task(3)# Wait until queue is emptydemo.join()```Result```123```Install-------```shell$ pip install multithreading```</longdescription>
 </pkgmetadata>

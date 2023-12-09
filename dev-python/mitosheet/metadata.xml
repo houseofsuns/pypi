@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>    To learn more about Mito, checkout out our documentation: https://docs.trymito.io/getting-started/installing-mito    Before installing Mito     1. Check that you have Python 3.6 or above. To check your version of Python, open a new terminal, and type python3 --version. If you need to install or update Python, restart your terminal after doing so.    2. Checkout our terms of service and privacy policy. By installing Mito, you're agreeing to both of them. Please contact us at aaron [@] sagacollab [dot] com with any questions.    Installation Instructions     For more detailed installation instructions, see our documentation: https://docs.trymito.io/getting-started/installing-mito    1. pip install mitosheet    2. Launch JupyterLab 3.0 and open a new notebook    3. In the notebook, run the following code:    import mitosheet    mitosheet.sheet()    </longdescription>
 </pkgmetadata>

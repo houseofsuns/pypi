@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>tsuru-circus============.. image:: https://secure.travis-ci.org/tsuru/tsuru-circus.png   :target: http://travis-ci.org/tsuru/tsuru-circustsuru-circus is a collection of circus extensions for tsuru.Installation------------::    $ pip install tsuru-circusUsage-----To use the tsuru stream to send circus log to tsuru you need to set the tsuru Stream in the circus conf:::    stderr_stream.class = tsuru.stream.Streamdevelopment===========* Source hosted at `GitHub &lt;http://github.com/tsuru/tsuru-circus&gt;`_* Report issues on `GitHub Issues &lt;http://github.com/tsuru/tsuru-circus/issues&gt;`_Pull requests are very welcomed! Make sure your patches are well tested.running the tests-----------------::    $ python setup.py testcommunity=========irc channel-----------#tsuru channel on irc.freenode.netLICENSE=======Unless otherwise noted, the tsuru-circus source files are distributed under the BSD-style license found in the LICENSE file.</longdescription>
 </pkgmetadata>

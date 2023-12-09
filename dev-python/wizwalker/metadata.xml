@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>moved to https://github.com/wizwalker/wizwalker# WizWalker[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)Wizard101 scripting library## Installation`pip install wizwalker`## Documentationyou can find the documentation [here](https://starrfox.github.io/wizwalker/)## Discordyou can join the offical discord [here](https://discord.gg/JHrdCNK)## Justthis package uses [just](https://github.com/casey/just) for command running```shelljust cli          # start wiz instance and then start debug clijust docs         # build docsjust install      # install enviromentjust publish TYPE # publish a major, minor, or patch version```## Console commands```shellwizwalker           # Runs the wizwalker cliwizwalker start-wiz # start wizard101 instanceswizwalker wad       # edit and extract wizard101 wad files```</longdescription>
 </pkgmetadata>

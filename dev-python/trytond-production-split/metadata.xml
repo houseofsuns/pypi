@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Production Split Module#######################The Production Split module adds on the production a wizard that allows tosplit it.The production is split into productions of *Quantity*. If *Count* is set, itwill be split only this number of times. On occasion there can be a productionwith the remaining quantity.</longdescription>
 </pkgmetadata>

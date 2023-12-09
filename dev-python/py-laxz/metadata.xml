@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>#### A Utility for Sys Admin or Personal Use (Intergrated with SHELL).__TODO__ to integrate with ORM relational databases.### Installation (any platform)```$ python3 -m pip install --no-cache-dir --upgrade py-laxz```### Usage (as script)```$ pylaxz --help # for options$ pylaxz -N --help # for Network options$ pylaxz -S --help # for System options$ pylaxz -L --help # for SHELL options```### Rare Usage (as direct)```$ python3 -m pylaxz -h```### Usage (as python module - logxs for machine learning)```&gt;&gt;&gt; from pylaxz.utils.logxs import printf&gt;&gt;&gt; printf(ANYTHING)```if you have time : ``` &gt;&gt;&gt; import pylaxz&gt;&gt;&gt; dir(pylaxz)&gt;&gt;&gt; help(pylaxz)```+ printf is logger function and works well with various python's data types+ and also with numpy's data shapes.</longdescription>
 </pkgmetadata>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># Honest MLThis library allows you to do honest-MLYou can see a talk about this library * [here](https://www.youtube.com/watch?v=AHQaQrii1vM&amp;t=439s&amp;ab_channel=DataScienceConnect)[![Documentation Status](https://readthedocs.org/projects/honest-ml/badge/?version=latest)](https://honest-ml.readthedocs.io/en/latest/?badge=latest)</longdescription>
-</pkgmetadata>

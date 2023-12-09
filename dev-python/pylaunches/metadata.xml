@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PyLaunches_A python packages to get information form upcoming space launches._## Install```bashpython3 -m pip install pylaunches```### Example usage```python&quot;&quot;&quot;Example usage of pylaunches.&quot;&quot;&quot;import asynciofrom pylaunches import PyLaunches, PyLaunchesExceptionasync def example():    &quot;&quot;&quot;Example usage of pylaunches.&quot;&quot;&quot;    async with PyLaunches() as api:        try:            launches = await api.upcoming_launches()            for launch in launches:                print(launch.name)        except PyLaunchesException:            print(&quot;:(&quot;)asyncio.get_event_loop().run_until_complete(example())```This package is using the [Launch Library 2 API][launchlibrary] to get the information.[launchlibrary]: https://thespacedevs.com/llapi</longdescription>
 </pkgmetadata>

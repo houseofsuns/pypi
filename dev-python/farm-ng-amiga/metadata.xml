@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># farm-ng-amiga[![PyPI version](https://badge.fury.io/py/farm-ng-amiga.svg)](https://pypi.org/project/farm-ng-amiga)## Install### From pip```bashpip install farm-ng-amiga```### From sourceWe recommend running the brain SDK applications in a virtual environment to avoid conflicts with other packages / versions installed on your system.Though this is not a requirement and you are welcome to decide how/where to install.Install `pip3` &amp; `virtualenv`:```bashsudo apt-get install python3-pipsudo pip3 install virtualenv```Clone the project:```bashgit clone https://github.com/farm-ng/farm-ng-amiga.git```Start a virtual environment:```bash# assuming you're already in the farm-ng-amiga/ directorypython3 -m venv venvsource venv/bin/activate```Create and install the ``farm_ng``\s (brain) Python package```bash# install to systempip3 install .``````bash# or for development modepip3 install -e .[dev]```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>======================Area Detector Handlers======================.. image:: https://img.shields.io/github/workflow/status/bluesky/area-detector-handlers/Unit%20Tests        :target: https://github.com/bluesky/area-detector-handlers/actions?query=workflow%3A%22Unit+Tests%22+branch%3Amaster.. image:: https://img.shields.io/pypi/v/area-detector-handlers.svg        :target: https://pypi.python.org/pypi/area-detector-handlersDataBroker &quot;handlers&quot; for Area DetectorThis are classes that read data that was written by Area Detector. They useinformation encoded in Resource and Datum documents to locate files and sliceswithin files.Installing this package makes it automatically discoverable by databroker. Itregisters several ``'databroker.handlers'`` entry points.</longdescription>
 </pkgmetadata>

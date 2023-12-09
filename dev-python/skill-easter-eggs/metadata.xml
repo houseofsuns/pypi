@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Easter Eggspop culture references skill## DescriptionSome funny things for OpenVoiceOS, mostly quotes from movies## Examples- &quot;current stardate&quot;- &quot;open the pod bay doors&quot;- &quot;first law of robotics&quot;- &quot;how to play rock_paper_scissors_lizard_spock&quot;- &quot;how many languages do you speak&quot;- &quot;do you like portal&quot;- &quot;what would duke nukem say&quot;- &quot;what would HAL 9000 say&quot;- &quot;what would arnold say&quot;- &quot;what would glados say&quot;- &quot;what would bender say&quot;## Grandma ModeThis skill has some spicy language options. It starts in grandma mode by default. To disable grandma mode, say &quot;hurt me plenty.&quot;If you want to go back into grandma mode, say &quot;I'm too young to die.&quot;## CreditsJarbasAImikejgray (revival)</longdescription>
 </pkgmetadata>

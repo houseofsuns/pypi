@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Simple Consol Menuthis module allows you to create simple console menu. &lt;br&gt;[![](https://img.shields.io/pypi/dm/simple-console-menu)](https://pypi.org/project/simple-console-menu/)## links[Source](https://github.com/mikeee1/simple-console-menu) &lt;br&gt;[Documentation](https://github.com/mikeee1/simple-console-menu/wiki) &lt;br&gt;[Bug Report](https://github.com/mikeee1/simple-console-menu/issues) &lt;br&gt;[PyPi](https://pypi.org/project/simple-console-menu/) ## Installation```pip install simple-console-menu```## Usage```pythonfrom simple_console_menu import Menu```## Example```pythonfrom simple_console_menu import Menuexample_menu = Menu.menu(&quot;Menu&quot;, [&quot;item 1&quot;, &quot;item 2&quot;, &quot;item 3&quot;])example_menu.display()user_input = example_menu.get_user_input()print(user_input)```</longdescription>
 </pkgmetadata>

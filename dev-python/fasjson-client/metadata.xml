@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># fasjson-clientA python client library for the FASJSON APIThis client uses the bravado library to build dynamic api methods based on open-api specs (version 2.0): https://github.com/Yelp/bravadoThe documentation is available at https://fasjson-client.readthedocs.io/## LicenseLicensed under [lgpl-3.0](./LICENSE)</longdescription>
 </pkgmetadata>

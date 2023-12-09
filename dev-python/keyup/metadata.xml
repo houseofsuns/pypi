@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>**keyup** | Automated AWS Access Keyset Rotation------------------------------------------------PACKAGE:  keyup``keyup`` automates IAM user access key rotation from the cli by allowing ad hoc orscheduled renewal of your access key credentials via the Amazon API's.**keyup**:    * A safe and reliable way to rotate (renew) access keys to Amazon Web Services as frequently as you wish, with minimal effort and risk.    * requires only the profile name of your IAM user in your local `awscli configuration &lt;https://docs.aws.amazon.com/cli/latest/reference/&gt;`__**Features**:    * access key rotation via the Amazon APIs    * key rotation includes:        * creation of new access keys        * automated installation in the local `awscli configuration &lt;http://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html&gt;`__        * deprecated key deletion    * automated, unattended key rotation    * rotate keys as frequently as you wish (daily, for example)</longdescription>
 </pkgmetadata>

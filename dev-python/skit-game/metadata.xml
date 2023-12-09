@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># SkitA tool for prototyping card games.Inspired by [squib][squib], but I could never quite get my head around Ruby.[squib]: https://github.com/andymeneely/squib## InstallationPyPI didn't like the name `skit`, so it's called `skit-game`:```ShellSessionpip install skit-game# orpoetry add skit-game```But the package inside is just called `skit`.## UsageSee the [examples](https://github.com/vtbassmatt/skit/blob/main/examples) for basic usage.```pythonfrom skit import Deckd = Deck(3) # make a deck of 3 cards, default sized.background('#cccccc') # set a gray backgroundd.render_png('basic_{index}.png') # render basic_0.png, basic_1.png, and basic_2.png```## Credits- Andy Meneely for the idea, and for the awesome Squib!- game-icons.net for icons used in the examples</longdescription>
 </pkgmetadata>

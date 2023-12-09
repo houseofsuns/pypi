@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Simple Diff for Python version 1.0Annotate two versions of a list with the values that have beenchanged between the versions, similar to unix's `diff` but witha dead-simple Python interface.(C) Paul Butler 2008-2012 &lt;http://www.paulbutler.org/&gt;May be used and distributed under the zlib/libpng license&lt;http://www.opensource.org/licenses/zlib-license.php&gt;</longdescription>
 </pkgmetadata>

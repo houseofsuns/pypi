@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Typing stubs for docoptThis is a PEP 561 type stub package for the `docopt` package. Itcan be used by type-checking tools like[mypy](https://github.com/python/mypy/),[pyright](https://github.com/microsoft/pyright),[pytype](https://github.com/google/pytype/),PyCharm, etc. to check code that uses`docopt`. The source for this package can be found athttps://github.com/python/typeshed/tree/main/stubs/docopt. All fixes fortypes and metadata should be contributed there.See https://github.com/python/typeshed/blob/main/README.md for more details.This package was generated from typeshed commit `22b055a147b5d672bf7e1f58cc6bf52cc526b35f` and was testedwith mypy 1.4.1, pyright 1.1.320, andpytype 2023.7.21.</longdescription>
 </pkgmetadata>

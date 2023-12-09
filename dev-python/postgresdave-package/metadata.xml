@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># postgresdaveA simple wrapper on psycopg2 to access Postgres### install with pippip install postgresdave_package### command line testpy -m postgresdave_package.postgresdave### Quick Start Guidehttps://github.com/daveskura/postgresdave/blob/main/QuickStart.md### Methodshttps://github.com/daveskura/postgresdave/blob/main/methods.md</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![PyPI version](https://badge.fury.io/py/django-nested-modals.svg)](https://badge.fury.io/py/django-nested-modals)Add to installed apps in settings   `'bootstrap_modals',`Add to template    &lt;script src=&quot;{% static 'django_modals/js/modals.js' %}&quot;&gt;&lt;/script&gt;    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;{% static 'django_modals/css/modals.css' %}&quot;/&gt;####See django_examples for example usage</longdescription>
 </pkgmetadata>

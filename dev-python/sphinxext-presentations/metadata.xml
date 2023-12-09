@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># sphinx-presentationssphinx-presentations is a Sphinx extension to convert documentation to Reveal.js presentations.## Installation`python -m pip install sphinxext-presentations`## UsageAdd `sphinxext.presentations` to your extensions list in your `conf.py````pythonextensions = [   &quot;sphinxext.presentations&quot;,]```Presentations will launch when `?present` is appended to the url of a page. It is recommended to add a way for viewers to launch presentations without modifying the url (a button perhaps?).## Building js assets### Installing dependencies```npm install```### Building js```npx webpack```</longdescription>
 </pkgmetadata>

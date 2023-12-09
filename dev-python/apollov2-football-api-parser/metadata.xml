@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>websit: https://rapidapi.com/api-sports/api/api-football[metadata]name = apollov2_api_parserversion = 0.0.1author = zhe wangdescription = extract data from api and transform it into dataframelong_description = file: README.mdlong_description_content_type = text/markdownclassifiers =    Programming Language :: Python :: 3    License :: OSI Approved :: MIT License    Operating System :: OS Independent[options]package_dir =    = srcpackages = find:python_requires = &gt;=3.6[options.packages.find]where = src</longdescription>
 </pkgmetadata>

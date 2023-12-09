@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># jupyterlab-chameleon## Client extensionFirst ensure the tox environment is set up:```bashmake setupsource .tox/python/bin/activate```Then, use the `jlpm` binary provided by the `jupyterlab` Python module tobuild and test the extension.```bash# 'watch' should automatically recompile .ts files on change and recompile# the extension for JupyterLab.jlpm watch```To test the extension within JupyterLab, run it in a separate tab:```bashjupyter lab --extensions-in-dev-mode```## Server extensionFirst ensure the tox environment is set up:```bashmake setupsource .tox/python/bin/activate```Run `tox` to run unit tests.```bashtox```</longdescription>
 </pkgmetadata>

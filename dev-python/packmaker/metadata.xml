@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PACKMAKERPackmaker is a command line tool used to build Modded Minecraft modpacks onLinux systems. It can take a yaml-based description of a pack and generatea package suitable for use in the following formats:* **Curseforge** - A curseforge package suitable for uploading directly to the  curseforge.com webiste, or importing into a curseforge compatible minecraft  launcher like PolyMC or the Curseforge Client.* **Routhio** - A package format used by the minecraft.routh.io community and the  routh.io minecraft launcher.* **Local client** - A local minecraft client installation, suitable for standalone  games.  Packmaker can even launch your modded minecraft installation in  offline mode itself. Great for testing your modpack during development.* **Server** - A minecraft server installation, suitable for use by clients to  connect with and play together.For more information, see the official documentation site:   https://packmaker.readthedocs.io</longdescription>
 </pkgmetadata>

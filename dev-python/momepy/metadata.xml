@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Momepy (Morphological Measuring in Python) is a library forquantitative analysis of urban form - urban morphometrics. It ispart of `PySAL`_ (Python Spatial Analysis Library) and is built on topof `GeoPandas`_, other PySAL modules, and`networkX`_... _PySAL: http://pysal.org.. _GeoPandas: http://geopandas.org.. _networkX : http://networkx.github.io</longdescription>
 </pkgmetadata>

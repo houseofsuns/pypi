@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python 3.4 include a ``WeakMethod`` class, for storing bound methods using weak references(see the `Python weakref module &lt;http://docs.python.org/library/weakref.html&gt;`_).This project is a backport of the WeakMethod class, and tests, for Python 2.6. The testsrequire the `unittest2 package &lt;http://pypi.python.org/pypi/unittest2&gt;`_.* Github repository &amp; issue tracker: https://github.com/twang817/weakrefmethod</longdescription>
 </pkgmetadata>

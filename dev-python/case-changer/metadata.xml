@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>========Overview========A python port of the npm package `change-case &lt;https://github.com/blakeembrey/change-case/&gt;`_.    Transform a string between camelCase, PascalCase, Capital Case, snake_case, param-case, CONSTANT_CASE and others.* Free software: MIT licenseInstallation============::    pip install case-changerYou can also install the in-development version with::    pip install https://github.com/philipptempel/python-case-changer/archive/master.zipDocumentation=============https://python-case-changer.readthedocs.io/Development===========To run the all tests run::    toxNote, to combine the coverage data from all the tox environments run:.. list-table::    :widths: 10 90    :stub-columns: 1    - - Windows      - ::            set PYTEST_ADDOPTS=--cov-append            tox    - - Other      - ::            PYTEST_ADDOPTS=--cov-append toxChangelog=========0.1.0 (2020-03-30)------------------* First release on PyPI.</longdescription>
 </pkgmetadata>

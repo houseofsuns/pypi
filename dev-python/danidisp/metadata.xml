@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>        Package contains:        - xor(a: bytes, b: bytes) -&gt; bytes        - dlog(n: int, b: int, mod: int) -&gt; int        - base_conv(n: str, bs: int = 10, be: int = 10) -&gt; str    </longdescription>
 </pkgmetadata>

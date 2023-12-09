@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ansar-createThe **ansar-create** library uses multi-threading and multi-processing to solve difficultsoftware challenges such as concurrency, interruption and cancellation. It wraps thoseplatform facilities in a standard runtime model, giving developers the ability to expressthat type of software in a clear and consistent manner.This type of software is often referred to as asynchronous, event-driven or reactivesoftware. It acknowledges the fundamental fact that significant events can occur atany time, and that software must be able to respond to those events in a reliableand timely manner.## Features- Based on a standard model for complex software operations (SDL)- Uniform management of threads, processes and state machines- Built-in runtime facilities such as timers and logging.- Persistent application configuration.- Process orchestration.- Development automation.</longdescription>
 </pkgmetadata>

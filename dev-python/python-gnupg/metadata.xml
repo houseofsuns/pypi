@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This module allows easy access to GnuPG's key management, encryption and signaturefunctionality from Python programs. It is intended for use with Python 2.4 orgreater.Releases are normally signed using a GnuPG key with the user idvinay_sajip@yahoo.co.uk and the following fingerprint:CA74 9061 914E AC13 8E66  EADB 9147 B477 339A 9B86As PyPI no longer shows signatures, you should be able to download release archivesand signatures fromhttps://bitbucket.org/vinay.sajip/python-gnupg/downloads/The archives should be the same as those uploaded to PyPI.</longdescription>
 </pkgmetadata>

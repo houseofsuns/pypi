@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Django REST SwaggerAn API documentation generator for Swagger UI and Django REST Framework.InstallationFrom pip:pip install django-rest-swaggerProject @ https://github.com/marcgibbons/django-rest-swaggerDocs @ https://django-rest-swagger.readthedocs.io/</longdescription>
 </pkgmetadata>

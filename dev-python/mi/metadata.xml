@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;h1 align = &quot;center&quot;&gt;:rocket: MI :rocket:&lt;/h1&gt;---# TODO: 公司内部的需要封装在mi, 其他封装于meutils- fds cmd- hdfs cmd- cloudml cmd- email- feishu- zk</longdescription>
 </pkgmetadata>

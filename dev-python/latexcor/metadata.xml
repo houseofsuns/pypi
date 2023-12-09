@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># latexcorlatexcor need latexmkpip install --upgrade latexcor## commandlatexcorlatexcor --cleanlatexcor --recompilelatexcor --xelatexlatexcor --lualatexlatexcor --utf8latexcor --slugify## Ajouter texmf```bashsudo tlmgr conf auxtrees add ~/texmf```</longdescription>
 </pkgmetadata>

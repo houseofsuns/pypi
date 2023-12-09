@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>### How to use getpass4```pythonfrom getpass4 import getpasspassword = getpass('Password: ')print(password)```</longdescription>
 </pkgmetadata>

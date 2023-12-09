@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A programmable shell-based (pexpect) automation tool designed for complex builds. See: http://ianmiell.github.io/shutit</longdescription>
 </pkgmetadata>

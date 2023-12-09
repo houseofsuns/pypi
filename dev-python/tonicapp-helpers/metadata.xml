@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Django Helpers## Requirements* Python* Django&gt;=3.2.2,&lt;4.0* Django Rest Framework## Installation```$ pip install tonicapp-helpers```Add the application to your project's `INSTALLED_APPS` in `settings.py`.```INSTALLED_APPS = [    ...    'helpers',]```## Source```https://pypi.org/project/tonicapp-helpers/```## Update Library```python3 setup.py sdist``````python3 -m twine upload dist/*Enter your username: ******Enter your password: ******```</longdescription>
 </pkgmetadata>

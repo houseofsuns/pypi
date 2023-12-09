@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># notcursesPython bindings for the C [Notcurses](https://github.com/dankamongmen/notcurses)library. Notcurses is a blingful library for building complex, vibrant textualuser interfaces (TUIs) on modern terminal emulators, of which these Pythonbindings offer nowhere near complete coverage.by [nick black](https://nick-black.com/dankwiki/index.php/Hack_on) (&lt;nickblack@linux.com&gt;)for more information, see [my wiki](https://nick-black.com/dankwiki/index.php/Notcurses).[![Build Status](https://drone.dsscaw.com:4443/api/badges/dankamongmen/notcurses/status.svg)](https://drone.dsscaw.com:4443/dankamongmen/notcurses)[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)</longdescription>
 </pkgmetadata>

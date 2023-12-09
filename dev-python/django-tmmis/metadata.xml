@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>![Pypi version](https://img.shields.io/pypi/v/django-tmmis.svg)![Python versions](https://img.shields.io/pypi/pyversions/django-tmmis)![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)### Настройка```shellpython -m pip install django~=4.0 mssql-djangodjango-admin startproject config```Добавляем подключение к БД МИС в файле `config/config/settings.py`:```pythonDATABASES = {    'default': {        ...    },    'tmmis'  : {        'ENGINE'  : 'mssql',        'NAME'    : 'ИМЯ БД',        'USER'    : 'sa',        'PASSWORD': 'ПАРОЛЬ К БД',        'HOST'    : 'АДРЕС СЕРВЕРА',        'PORT'    : 1433,        'OPTIONS' : {            'driver': 'ODBC Driver 17 for SQL Server',        },    }}```### Интроспекция БДUnix:```shell scriptpython config/manage.py inspectdb --database=tmmis {table_name} &gt; tmmis/models/{table_name}.py```Windows:```shell scriptpy .\config\manage.py inspectdb --database=tmmis {table_name} &gt; .\tmmis\models\{table_name}.py```</longdescription>
 </pkgmetadata>

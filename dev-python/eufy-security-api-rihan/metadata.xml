@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Eufy unofficial APIThis library is able to connect on eufy security api on mysecurity.eufylife.com and expose methods and model to interact with it in Python.Install with:&gt; pip install uefy-security-api-rihan==0.0.1TODO List:- [ ] Write decent readme. Sorry.- [ ] Way to set params with this api. Currently is read only access</longdescription>
 </pkgmetadata>

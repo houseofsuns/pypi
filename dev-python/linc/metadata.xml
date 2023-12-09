@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Linc---Linc is a fast way to convert [Licel Raw Format](https://licel.com/raw_data_format.html) into netCDF4 to handle data easier.</longdescription>
 </pkgmetadata>

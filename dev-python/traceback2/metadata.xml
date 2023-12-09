@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A backport of traceback to older supported Pythons. &gt;&gt;&gt; import traceback2 as tracebackProfit.Things to be aware of!In Python 2.x, unlike traceback, traceback2 creates unicode output (because itdepends on the linecache2 module).Exception frame clearing silently does nothing if the interpreter in use doesnot support it.traceback2._some_str, which while not an official API is so old its likely inuse behaves similarly to the Python3 version - objects where unicode(obj) failsbut str(object) works will be shown as b'thestrvaluerepr'.</longdescription>
 </pkgmetadata>

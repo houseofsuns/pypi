@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># batchsend![License](https://img.shields.io/github/license/marcomq/batchsend)Nim / Python library to feed HTTP server quickly with custom messagesCurrently uses AsyncSocket as this module is faster than AsyncHttpClientNotice that the library uses threads that might not catch all network errorsYou cannot catch those when using the python library - the application mightcrash in such a case.## DocsDocumentation is [here](http://htmlpreview.github.io/?https://github.com/marcomq/batchsend/blob/main/docs/batchsend.html)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Draft Sport PythonA Python library providing an interface to the Draft Sport ApplicationProgramming Interface (API). Python programmers may use Draft Sport Pythonto build Draft Sport API functionality into their applications, withoutresorting to raw HTTP requests.Draft Sport Python provides the API interface for https://DraftRugby.com.Draft Sport Python is in an early Alpha state of development. Bugs, missingfeatures and general absurdity abound. Questions, bug reports, suggestions,and any other discourse are warmly welcomed.## InstallationDraft Sport Python is available via PyPi.```$ pip install draft-sport```Be sure to upgrade regularly, as Draft Sport Python is in Alpha development.Things are changing rapidly!```$ pip install --upgrade draft-sport```</longdescription>
 </pkgmetadata>

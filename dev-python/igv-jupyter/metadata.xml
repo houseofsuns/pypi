@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># igv Jupyter Extension[![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/g2nb/igv-jupyter/master)=======igv-jupyter is tool for [JupyterLab](http://jupyter.org/) which wraps [igv.js](https://github.com/igvteam/igv.js) andintegrates with [g2nb](https://github.com/g2nb/g2nb). With this tool you can render igv.js in a cell and call its APIfrom a user-friendly web form in the notebook. Track data can be loaded from local or remote URLs, or supplied directly.For programmatic access to igv.js in a Jupyter notebook, see [igv-notebook](https://github.com/igvteam/igv-notebook).## InstallationRequirements:* python &gt;= 3.6.4* jupyterlab &gt;= 3.0```bashpip install igv-jupyter```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># fastapi-rfc7807[FastAPI](https://fastapi.tiangolo.com/) middleware which translates server-side exceptionsinto [RFC-7807](https://tools.ietf.org/html/rfc7807) compliant problem detail error responses.## Installation`fastapi_rfc7807` requires Python 3.6+```pip install fastapi_rfc7807```## UsageBelow is a simple example which shows the bare minimum needed to configure a FastAPI applicationwith `fastapi_rfc7807`.```pythonfrom fastapi import FastAPI from fastapi_rfc7807 import middlewareapp = FastAPI()middleware.register(app)@app.get('/error')async def error():    raise ValueError('something went wrong')```The resulting error returned from the server looks like:```console$ curl localhost:8000/error{&quot;exc_type&quot;:&quot;ValueError&quot;,&quot;type&quot;:&quot;about:blank&quot;,&quot;title&quot;:&quot;Unexpected Server Error&quot;,&quot;status&quot;:500,&quot;detail&quot;:&quot;something went wrong&quot;}```See the [examples](examples) directory for additional examples.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a backport of the subprocess standard library module fromPython 3.2 &amp; 3.3 for use on Python 2.It includes bugfixes and some new features.  On POSIX systems it isguaranteed to be reliable when used in threaded applications.It includes timeout support from Python 3.3 but otherwise matches3.2's API.It has not been tested by the author on Windows.On Python 3, it merely redirects the subprocess32 name to subprocess.</longdescription>
 </pkgmetadata>

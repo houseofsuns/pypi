@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># 矩阵区间压缩## Quick start```pythonfrom range_compression import RangeCompressedMask, mask_encodefrom pathlib import Pathmtx = .... # 带有很多连续值的矩阵rcm = mask_encode(mtx)X, Y = ..., ... # 要查找的 X, Yres = rcm.find_index(X, Y)assert res.shape == X.shapeassert (mtx[Y, X] == res).all()```## TODO[ ] 把性能测试添加到测试和 readme 中，每个版本做性能回归测试  [ ] 添加更多说明和直接能运行的快速入门</longdescription>
 </pkgmetadata>

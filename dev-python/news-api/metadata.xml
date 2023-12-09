@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>**news_api**==================*Usage:*--------&gt;&gt;&gt; from news_api import news&gt;&gt;&gt; for data in news.generate():&gt;&gt;&gt;     print(data)</longdescription>
 </pkgmetadata>

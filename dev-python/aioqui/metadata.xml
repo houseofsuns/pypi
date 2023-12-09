@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Overview## Documentation## Installation```pip install aioqui```### Package dependenciesincludes ```pip install pyside6 qasync loguru```speedups ```pip install aiodns ujson cchardet uvloop```depending on modules [optional] ```pip install aiohttp uvicorn```</longdescription>
 </pkgmetadata>

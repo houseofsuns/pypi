@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># pypjlink2Implementation of the PJLink Class 1 protocol to control projectors.Fork of pypjlink which is no longer maintained, with support for Optoma projectors## Usage```pythonfrom pypjlink import Projectorwith Projector.from_address('projector_host') as projector:    projector.authenticate()    projector.set_power('on')```</longdescription>
 </pkgmetadata>

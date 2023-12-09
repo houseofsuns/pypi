@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!-- * @Author: BDFD * @Date: 2021-10-27 18:39:19 * @LastEditTime: 2021-10-27 21:22:31 * @LastEditors: Please set LastEditors * @Description: In User Settings Edit * @FilePath: \6.0-PyPI_Missing_Value_Table\README.md--&gt;# Package NamePackage function description## Installation`pip install execdata`## How to use it?import execdata as exeexe.encode(df),exe.split(df),exe.model_evaluate(X_train, X_test, y_train, y_test)exe.algo_accuracy(y_test, y_predict)result_comparision(y_test, y_predict)## Licensecopyright @ 2021 BDFDThis repository is licensed under the MIT license. See LICENSE for details.### Referenceshttps://github.com/bdfd/3.1-PyPI_Template</longdescription>
 </pkgmetadata>

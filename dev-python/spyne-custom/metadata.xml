@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Homepage: http://spyne.ioSpyne aims to save the protocol implementers the hassle ofimplementing their own remote procedure call api and the application programmersthe hassle of jumping through hoops just to expose their services using multipleprotocols and transports.</longdescription>
 </pkgmetadata>

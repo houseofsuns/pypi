@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>EZT is a lightweight, fast, and safe templating system for Python. It is useful for generating HTML, plain text, code, and more.</longdescription>
 </pkgmetadata>

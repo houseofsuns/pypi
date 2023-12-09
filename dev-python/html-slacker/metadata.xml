@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>html-slacker============Converts HTML to Slack formatted markdownUsage-----Install HTMLSlacker from pip... code:: bash    $ pip install html-slackerImport library... code:: python    &gt;&gt;&gt; from htmlslacker import HTMLSlackerUse it... code:: python    &gt;&gt;&gt; HTMLSlacker('&lt;b&gt;Hello&lt;/b&gt;, &lt;i&gt;Slack&lt;/i&gt;!').get_output()    '*Hello*, _Slack_!'Test it... code:: python    $ python setup.py testRequirements------------- Python &gt;= 2.5- htmlLinks-----Repository: https://github.com/codex-team/html-slackerReport a bug: https://github.com/codex-team/html-slacker/issuesPyPI Package: https://pypi.python.org/pypi/html-slackerCodeX Team: https://ifmo.su</longdescription>
 </pkgmetadata>

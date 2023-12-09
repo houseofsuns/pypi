@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<pkgmetadata>
-	<maintainer type="person">
-		<email>gentoo@houseofsuns.org</email>
-		<name>Markus Walter</name>
-	</maintainer>
-	<longdescription># parselib - HTML parser for web scraping[![Downloads](https://static.pepy.tech/personalized-badge/parselib?period=total&amp;units=international_system&amp;left_color=grey&amp;right_color=blue&amp;left_text=Downloads)](https://pepy.tech/project/parselib)**[Open an issue](https://github.com/chemtrails/parselib/issues/new)**---`pip install parselib````pyfrom parselib import Parserhtml = &quot;&quot;&quot;    &lt;div class=&quot;class-one class-two&quot;&gt;        &lt;div class=&quot;class-two&quot;&gt;text&lt;/div&gt;    &lt;/div&gt;&quot;&quot;&quot;parser = Parser(html)div_one = parser.find(&quot;*&quot;, attrs={&quot;class&quot;: &quot;class-two class-one&quot;})div_two = parser.find(&quot;*&quot;, attrs={&quot;class&quot;: &quot;class-two&quot;}, exclude_attrs={&quot;class&quot;: [&quot;class-one&quot;]})```</longdescription>
-</pkgmetadata>

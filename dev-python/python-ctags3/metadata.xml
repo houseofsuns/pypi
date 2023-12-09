@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Ctags supports indexing of many modern programming languages. Pythonis a powerful scriptable dynamic language. Using Python to access Ctags indexfile is a natural fit in extending an application's capability to examine sourcecode.This project wrote a wrapper for readtags.c distributed from Universal-ctags project(https://ctags.io). I have been using the package ina couple of projects and it has been shown that it could easily handle hundredssource files.</longdescription>
 </pkgmetadata>

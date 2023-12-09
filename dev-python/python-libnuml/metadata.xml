@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>libNuML is a library for reading, writing and manipulating NuML.  It is written in ISO C and C++, supports NuML Level 1, Version 1, and runs on Linux, Microsoft Windows, and Apple MacOS X.  For more information about SEDML, please see http://github.com/numl/numl/.</longdescription>
 </pkgmetadata>

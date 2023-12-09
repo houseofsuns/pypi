@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=================aiohttp-transmute=================**NOTE: this library is now deprecated, with transute-core supporting aiohttp directly. See https://transmute-core.readthedocs.io/**</longdescription>
 </pkgmetadata>

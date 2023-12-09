@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pytest-logikal==============Common tools for Python testing implemented as a `pytest &lt;https://docs.pytest.org/&gt;`_ plugin.Getting Started---------------You can find the project documentation under `docs.logikal.io/pytest-logikal/&lt;https://docs.logikal.io/pytest-logikal/&gt;`_.</longdescription>
 </pkgmetadata>

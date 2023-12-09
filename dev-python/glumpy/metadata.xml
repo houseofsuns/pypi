@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Glumpy is a python library for scientific                                visualization that is both fast, scalable                                and beautiful. Glumpy offers an intuitive                                interface between numpy and modern OpenGL.</longdescription>
 </pkgmetadata>

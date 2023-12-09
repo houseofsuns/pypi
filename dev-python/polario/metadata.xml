@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Polars IO utility library=================Helpers to make it easier to read and write Hive partitioned parquet dataset with Polars.It is meant to be a library to deal with datasets easily, but also contains a commandline interfacewhich allows you to inspect parquet files and datasets more easily.Dataset=======Example of use of `polario.dataset.HiveDataset````pythonfrom polario.dataset import HiveDatasetimport polars as pldf = pl.from_dicts(        [            {&quot;p1&quot;: 1, &quot;v&quot;: 1},            {&quot;p1&quot;: 2, &quot;v&quot;: 1},        ]    )ds = HiveDataset(&quot;file:///tmp/&quot;, partition_columns=[&quot;p1&quot;])ds.write(df)for partition_df in ds.read_partitions():    print(partition_df)```To model data storage, we use three layers: dataset, partition, fragment.Each dataset is a lexical ordered set of partitionsEach partition is a lexical ordered set of fragmentsEach fragment is a file on disk with rows in any order</longdescription>
 </pkgmetadata>

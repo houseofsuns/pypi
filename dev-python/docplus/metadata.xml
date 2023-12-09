@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Documents Utils## UsageMake sure `libreoffice` is installed.Install docplus```pip install --user docplus```Run API Servier```python -m docplus```## APIs### Format Convertuse httpie, convert to pdf```  http POST -f :5000/convert_to/pdf file@~/demo.docx```use httpie, convert to html```  http POST -f :5000/convert_to/html file@~/demo.docx```</longdescription>
 </pkgmetadata>

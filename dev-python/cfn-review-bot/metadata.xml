@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cfn-review-botA CLI to manage CloudFormation stacks, that can detect changes and generateappropriate change-sets. Meant to be integrated with code-review and CI/CDpipelines.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This is a module reimplemented specifically for MicroPython standard library,with efficient and lean design in mind. Note that this module is likely workin progress and likely supports just a subset of CPython's correspondingmodule. Please help with the development if you are interested in thismodule.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># urdf_parser_pyThis package contains a python parser for the Unified Robot Description Format (URDF), which is an XML format for representing a robot model.</longdescription>
 </pkgmetadata>

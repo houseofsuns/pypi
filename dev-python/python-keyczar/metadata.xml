@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Keyczar is an open source cryptographic toolkit designed to make it easier and safer for developers to use cryptography in their applications. Keyczar supports authentication and encryption with both symmetric and asymmetric keys. Some features of Keyczar include:A simple APIKey rotation and versioningSafe default algorithms, modes, and key lengthsAutomated generation of initialization vectors and ciphertext signaturesJava and Python implementations (C++ coming soon)International support in Java (Python coming soon)Keyczar was originally developed by members of the Google Security Team and is released under an Apache 2.0 license.</longdescription>
 </pkgmetadata>

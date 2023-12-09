@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Make a simple server to test your front-end or mobile app calls</longdescription>
 </pkgmetadata>

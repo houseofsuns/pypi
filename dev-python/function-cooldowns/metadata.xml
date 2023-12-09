@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Function Cooldowns---A simplistic take on functional cooldowns. `pip install function-cooldowns`---### Example usageA simplistic example, read more on the docs!```pythonimport cooldowns...@bot.slash_command(    description=&quot;Ping command&quot;,)@cooldowns.cooldown(1, 15, bucket=cooldowns.SlashBucket.author)async def ping(interaction: nextcord.Interaction):    await interaction.response.send_message(&quot;Pong!&quot;)```---#### Find more examples [here](https://function-cooldowns.readthedocs.io/en/latest/modules/examples.html).#### For documentation, please see [here](https://function-cooldowns.readthedocs.io/en/latest/).#### This implements the [leaky bucket](https://en.wikipedia.org/wiki/Leaky_bucket) algorithm---### SupportWant realtime help? Join the discord [here](https://discord.gg/BqPNSH2jPg).---### FundingWant a feature added quickly? Want me to help build your software using this?Sponsor me [here](https://github.com/sponsors/Skelmis)</longdescription>
 </pkgmetadata>

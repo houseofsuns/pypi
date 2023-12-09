@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Soniox Python Client LibraryThis is a client library for the [Soniox](https://soniox.com/) speechrecognition service. Please see the [tutorials](https://soniox.com/docs).### RequirementsPython 3.7 or higher.For development, we require Python 3.8 or higher.### UsageSee [soniox_examples/python](https://github.com/soniox/soniox_examples/tree/master/python).### DevelopmentCreate and enter venv:```python3 -m venv .venvsource .venv/bin/activate```Install packages:```python3 -m pip install -U pippython3 -m pip install -U setuptools wheelpython3 -m pip install -r requirements.txt```Build library:```python3 -m build```Publish to PyPI:```python3 -m pip install -U twinepython3 -m twine upload dist/*```</longdescription>
 </pkgmetadata>

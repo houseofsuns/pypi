@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Apicurio Registry Python SDKThis is a generated SDK for easily interacting with Registry from a Python program.## RequirementsThis package is built with [Poetry](https://python-poetry.org/) make sure it's available by following the [installation guide](https://python-poetry.org/docs/#installation).## Build```make install```## Test```make test```</longdescription>
 </pkgmetadata>

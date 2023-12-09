@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>```&lt; speaking snake &gt;   \    ~&lt;:&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;```If you want to use it in the command line, install it with [pipx](https://pypa.github.io/pipx/),but you may also use `snakesay()` directly in your own code for beautiful output. </longdescription>
 </pkgmetadata>

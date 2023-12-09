@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Replaces the built-in robotsparser with aRFC-conformant implementation that supports modern robots.txt constructs likeSitemaps, Allow, and Crawl-delay. Main features:- Memoization of fetched robots.txt- Expiration taken from the `Expires` header- Batch queries- Configurable user agent for fetching robots.txt- Automatic refetching based on expiration</longdescription>
 </pkgmetadata>

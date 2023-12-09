@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Trax helps you understand deep learning. We start with basic maths and go through layers, models, supervised and reinforcement learning. We get to advanced deep learning results, including recent papers and state-of-the-art models.</longdescription>
 </pkgmetadata>

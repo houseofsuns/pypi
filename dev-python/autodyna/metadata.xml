@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## autodynaThis project is a collection of LS-DYNA card writing tools.Developer: @Kevin.Stanton## Usage1. Install with pip &lt;br /&gt;`pip install autodyna`2. Import the library &lt;br /&gt;`import autodyna`3. Run the desired function &lt;br /&gt;`autodyna.[module_name].[function_name]([options])`## Modules* Generalized array data formatting tool (FormatForDYNA.xlsm)    - [ReadMe](https://gitlab.arup.com/kevin.stanton/AutomatedCardGenerator_LS-DYNA/blob/master/autodyna/Array_Formatting/ReadMe.md) * MAT_HYSTERETIC_BEAM    - [ReadMe](https://gitlab.arup.com/kevin.stanton/AutomatedCardGenerator_LS-DYNA/blob/master/autodyna/ReadMe_hysBeams.md)* MAT_ELASTIC    - [ReadMe](https://gitlab.arup.com/kevin.stanton/AutomatedCardGenerator_LS-DYNA/blob/master/autodyna/ReadMe_elasticBeams.md)</longdescription>
 </pkgmetadata>

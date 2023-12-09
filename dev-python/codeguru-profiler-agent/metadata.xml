@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Amazon CodeGuru Profiler Python AgentFor more details, check the documentation: https://docs.aws.amazon.com/codeguru/latest/profiler-ug/what-is-codeguru-profiler.html## How to use itThis package is being released to PyPI as [codeguru-profiler-agent](https://pypi.org/project/codeguru-profiler-agent), so use it as any Python package from PyPI.For a demo application that uses this agent, check our [demo application](https://github.com/aws-samples/aws-codeguru-profiler-python-demo-application).## How to contributeCheck the GitHub repository at [aws/amazon-codeguru-profiler-python-agent](https://github.com/aws/amazon-codeguru-profiler-python-agent).See [CONTRIBUTING](CONTRIBUTING.md) for details.## How to releaseSee [DEVELOPMENT](DEVELOPMENT.md) for more information.## SecuritySee [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.## LicenseThis project is licensed under the Apache-2.0 License. See [LICENSE](LICENSE) for details.</longdescription>
 </pkgmetadata>

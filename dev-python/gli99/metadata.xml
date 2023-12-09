@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>***Do NOT use this repo for professional use. This was a personal project to practice version control, web scraping, and readme design. The correct way to access GifCities.org is through its (admittedly slow) [API](https://gifcities.archive.org/api/v1/gifsearch?q=hamster).***---## InstallationRun the following to install:```pythonpip install gli99```## Usage```pythonfrom gli99.tools import GifScrapergs = GifScraper(browser=&quot;firefox&quot;)gs.load(query=&quot;brazil&quot;,amount=5)gs.download()```currently supported browsers:* Edge* Chrome* Firefox</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## Mango PycoreAn implementation of common features for all SAM backend project for [Mango Soft Inc](http://www.mango-soft.com)### How to install```bash    $ pip install mango-pycore```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Gitpy A Python wrapper for gitThis tool can be used for:* Creating automatic commits in Python* Speeding up your workflow* Keeping everything up to date on all devices with the repo## Setup`pip install gitpy`## Sample usage```pythonfrom gitpy import commitAdd, pushcommitAdd(&quot;File updates&quot;)push()```</longdescription>
 </pkgmetadata>

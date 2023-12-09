@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Простой пример использования библиотеки:* Устанавливаем библиотеку```commandlinepython -m pip install igruha```* Пример кода```pythonfrom igruha import Igruhaparser = Igruha()games = parser.search('Far Cry').gamesfor game in games:    game.get_details()    print('Игра: %s\nТрейлер: %s' % (game.name, game.trailer) )games[0].torrents[0].download('/custom/path/to/game') #Скачать игру```Дополнительная информация и методы: https://github.com/LORD-ME-CODE/igruha</longdescription>
 </pkgmetadata>

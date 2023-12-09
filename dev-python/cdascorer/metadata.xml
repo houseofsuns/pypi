@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Home of Python package CDAScorerFor a guide on how to use this package, please visit the [tutorial page](https://joshuandwilliams.github.io/CDAScorer/tutorial/).</longdescription>
 </pkgmetadata>

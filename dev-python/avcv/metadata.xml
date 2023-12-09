@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># AVCV&gt; Optimized functions for vision problems## Install`pip install avcv`Docs: https://anhvth.github.io/avcv/utils.html</longdescription>
 </pkgmetadata>

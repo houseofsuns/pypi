@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pynsive=======Pronounced, &quot;Pensive&quot;~~~~~~~~~~~~~~~~~~~~~**Pynsive** is a simple plugin library that uses the **sys.meta\_path** listalong with custom finder and loader definitions to hook into the Pythonimport process. This means that when directores or other plugin search targetsare added in Pynsive, future import statements will now search the newly addedpath for plugin modules and classes.For more information on the import process hooks, please see:-  `Python 3 Import Process &lt;http://docs.python.org/3/reference/import.html&gt;`_-  `PEP-302 &lt;http://www.python.org/dev/peps/pep-0302/&gt;`_Getting Started~~~~~~~~~~~~~~~Below are some helpful documents to help get you started in using Pynsive.- `[Blog Post] Getting started with Pynsive by Chad Lung &lt;http://www.giantflyingsaucer.com/blog/?p=4634&gt;`_- `Pynsive at Readthedocs &lt;https://pynsive.readthedocs.org&gt;`_</longdescription>
 </pkgmetadata>

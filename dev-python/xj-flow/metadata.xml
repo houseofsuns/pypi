@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># 流程模块（xj-flow）#### 介绍流程模块的设计初衷是为了解决接口调用逻辑复杂，减少前端的工作量，以及对抽象化组件的灵活调用。由于我们的紫薇系统是以模块化开发为基础、以微服务的理念为指引，我们的团队致力于打造一个良好的开发生态。#### 软件架构由**流程节点（flow_node）**与**流程动作（flow_action）**组成。两者进行映射，建立执行规则。以装饰器得到方式调用系统中的流程可控制方法。#### 安装教程```pip install xj_flow```#### 参与贡献1.  孙楷炎 sky4834@163.com2.  赵向明 sieyoo@163.com</longdescription>
 </pkgmetadata>

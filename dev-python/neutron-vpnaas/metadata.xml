@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Welcome!========This package contains the code for the Neutron VPN as a Service(VPNaaS) service. This includes third-party drivers. This packagerequires Neutron to run.External Resources:===================The homepage for Neutron is: https://launchpad.net/neutron.  Use thissite for asking for help, and filing bugs. We use a single Launchpadpage for all Neutron projects.Code is available on opendev.org at:https://opendev.org/openstack/neutron-vpnaas.Please refer to Neutron documentation for more information:`Neutron README.rst &lt;https://opendev.org/openstack/neutron/src/branch/master/README.rst&gt;`_Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/neutron-vpnaas.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html</longdescription>
 </pkgmetadata>

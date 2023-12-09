@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>DESCRIPTION===========Python client for extracting data from CATE archives to numpy arraysINSTALLATION------------    pip install catenpUSAGE-----See also `catenp.catenumpy.Example`    from catenp import Authenticate,DatabaseInfo,GetData       # Authenticate to the server    tk = Authenticate(serverAddress,serverPort,cateUserName,catePassword)       # (Optional) get server/ data info    info = DatabaseInfo(serverAddress,serverPort,cateUserName)    print(&quot;Info: &quot;)    for kk in info: print(&quot;  &quot;,kk,&quot;:&quot;,info[kk])    # Extract some data        arr=GetData(serverAddress,serverPort,cateUserName,tstart,tstop,cstart,cstop)</longdescription>
 </pkgmetadata>

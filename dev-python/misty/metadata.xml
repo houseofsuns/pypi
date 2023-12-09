@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>The misty package helps build bacpypes Applications that work on MS/TP Networks. The BIP (BACnet IP ) Applications can be easily ported to use misty.</longdescription>
 </pkgmetadata>

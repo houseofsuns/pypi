@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># chipseqpeaksA wrapper for MACS2 that abstracts out some things and makes it easier to use.Thanks due to Joshua Chiou for inspiration and contributions.&gt; **Warning:** Before using chipseqpeaks, please make sure that one of the&gt; environment variables TMPDIR, TEMP, or TMP is set to an appropriate path.&gt; This is the only way to ensure MACS2 writes temporary files to the correct&gt; location, and failing to do so may cause errors on some systems. (ง •̀_•́)ง## Installation```shpip install chipseqpeaks```or```shpip install --user chipseqpeaks```## Example API usage```pythonfrom chipseqpeaks import ChIPSeqPeakswith ChIPSeqPeaks(&lt;bytes object or path to BAM file&gt;) as cp:    cp.cleans_up = False    cp.remove_blacklisted_peaks(&lt;path/to/blacklist.bed&gt;)    cp.write(&lt;output prefix&gt;)```## Example command line usageFor help text, see:```shchipseqpeaks-call -h```For ChIP-seq:```shchipseqpeaks-call --control input.bam chip.bam```For ATAC-seq:```shchipseqpeaks-call --atac-seq atac.bam```</longdescription>
 </pkgmetadata>

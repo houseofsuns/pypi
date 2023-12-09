@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PyLiPDPython utilities to interact with the Linked Paleo Data (LiPD) format## Installation    pip install pylipd## Usage### Loading local LiPD files    from pylipd.lipd import LiPD    lipd = LiPD()    lipd.load([&quot;MD98_2181.Stott.2007.lpd&quot;, &quot;Ant-WAIS-Divide.Severinghaus.2012.lpd&quot;, &quot;Asi-TDAXJP.PAGES2k.2013.lpd&quot;])### Loading LiPD data from GraphDB server    from pylipd.lipd import LiPD    lipd = LiPD()    lipd.set_endpoint(&quot;https://linkedearth.graphdb.mint.isi.edu/repositories/LiPDVerse2&quot;)    lipd.load_remote_datasets([&quot;MD98_2181.Stott.2007&quot;, &quot;Ant-WAIS-Divide.Severinghaus.2012&quot;, &quot;Asi-TDAXJP.PAGES2k.2013&quot;])</longdescription>
 </pkgmetadata>

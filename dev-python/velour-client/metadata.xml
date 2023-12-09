@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># velour client_velour client_ is a python package for interacting with a backend _velour_ service.</longdescription>
 </pkgmetadata>

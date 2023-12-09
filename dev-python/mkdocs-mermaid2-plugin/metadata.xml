@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>An Mkdocs plugin that renders Mermaid graphs in the markdown file. To install, please follow instructions in the README file.</longdescription>
 </pkgmetadata>

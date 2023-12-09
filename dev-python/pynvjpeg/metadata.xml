@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>NvJpeg - Python---------------------------## Require* nvjpeg* cuda &gt;= 10.2* numpy &gt;= 1.7* python &gt;= 3.6* gcc &gt;= 7.5* make &gt;= 4.1## SystemLinux(x86, x86_64)Nvidia Jetson OS## Install```shellpip install pynvjpeg```## Usage### 0. Init PyNvJpeg```pythonfrom nvjpeg import NvJpegnj = NvJpeg()```### 1. Use PyNvJpeg#### Read Jpeg File to Numpy```pythonimg = nj.read(&quot;_JPEG_FILE_PATH_&quot;)# like cv2.imread(&quot;_JPEG_FILE_PATH_&quot;)```#### Write Numpy to Jpeg File```pythonnj.write(&quot;_JPEG_FILE_PATH_&quot;, img)# or nj.write(&quot;_JPEG_FILE_PATH_&quot;, quality)# int quality default 70, mean jpeg quality# like cv2.imwrite(&quot;_JPEG_FILE_PATH_&quot;, img)```#### Decode Jpeg bytes in variable```pythonimg = nj.decode(jpeg_bytes)# like cv2.imdecode(variable)```#### Encode image numpy array to bytes```pythonjpeg_bytes = nj.encode(img)# or with jpeg quality# jpeg_bytes = nj.encode(img, 70)# int quality default 70, mean jpeg quality# like cv2.imencode(&quot;.jpg&quot;, variable)[1]```</longdescription>
 </pkgmetadata>

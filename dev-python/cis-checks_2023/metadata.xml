@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># OBP_security_pillarOBP_security_Pillar package can be used to get the compliance details of Operational Best Practices for AWS Well Architected Security Pillar.Release Notes:# v0.0.11. Added following compliance checks:   - RdsAutomaticMinorVersionUpgradeEnabled   - RdsInstancePublicAccessCheck   - RdsSnapshotEncrypted   - RdsSnapshotsPublicProhibited   - RdsStorageEncrypted   - S3BucketLoggingEnabled   - S3BucketVersioningEnabled</longdescription>
 </pkgmetadata>

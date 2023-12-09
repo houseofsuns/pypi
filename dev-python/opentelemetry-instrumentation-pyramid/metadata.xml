@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry Pyramid Instrumentation=====================================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-pyramid.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-pyramid/Installation------------::    pip install opentelemetry-instrumentation-pyramidReferences----------* `OpenTelemetry Pyramid Instrumentation &lt;https://opentelemetry-python-contrib.readthedocs.io/en/latest/instrumentation/pyramid/pyramid.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
 </pkgmetadata>

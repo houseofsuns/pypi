@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Foxglove Schemas (Protobuf)This package provides [Protobuf](https://developers.google.com/protocol-buffers/) classes for [Foxglove Schemas](https://foxglove.dev/docs/studio/messages/introduction).## InstallationInstall via [Pipenv](https://pipenv.pypa.io/en/latest/) by adding `foxglove-schemas-protobuf` to your `Pipfile` or via the command line:```bashpipenv install foxglove-schemas-protobuf```## UsageImport types from the `foxglove_schemas_protobuf` module as follows:```pyfrom foxglove_schemas_protobuf.CompressedImage_pb2 import CompressedImage```## Stay in touchJoin our [Slack channel](https://foxglove.dev/join-slack) to ask questions, share feedback, and stay up to date on what our team is working on.</longdescription>
 </pkgmetadata>

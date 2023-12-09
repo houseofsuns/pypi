@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># slippy-api## Overviewslippy-api is a simple wrapper for slippi.gg's GraphQL API.## Installation`pip install slippy-api` ## Usage```pythonfrom slippi.slippi_api import SlippiRankedAPI# Initialize the SlippiRankedAPI classslippi_api = SlippiRankedAPI()# Show slippi users dataslippi_user = slippi_api.get_player_ranked_date('so#0', True)print(slippi_user)```## LicenseThis library is licensed under the MIT License. See the [LICENSE](https://github.com/andross-ssbm/slippy-api/blob/master/LICENSE) file for more information.----------</longdescription>
 </pkgmetadata>

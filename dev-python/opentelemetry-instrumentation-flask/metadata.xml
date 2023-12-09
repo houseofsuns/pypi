@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>OpenTelemetry Flask Tracing===========================|pypi|.. |pypi| image:: https://badge.fury.io/py/opentelemetry-instrumentation-flask.svg   :target: https://pypi.org/project/opentelemetry-instrumentation-flask/This library builds on the OpenTelemetry WSGI middleware to track web requestsin Flask applications.Installation------------::    pip install opentelemetry-instrumentation-flaskReferences----------* `OpenTelemetry Flask Instrumentation &lt;https://opentelemetry-python-contrib.readthedocs.io/en/latest/instrumentation/flask/flask.html&gt;`_* `OpenTelemetry Project &lt;https://opentelemetry.io/&gt;`_* `OpenTelemetry Python Examples &lt;https://github.com/open-telemetry/opentelemetry-python/tree/main/docs/examples&gt;`_</longdescription>
 </pkgmetadata>

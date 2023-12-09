@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>=======CHANGES=======1.0.1 (2013-03-15)------------------- Fix setup.py so that an install of the package will actually work.1.0.0 (2013-03-06)------------------- Initial PyPI release.========Random 2========This package provides a Python 3 ported version of Python 2.7's ``random``module. It has also been back-ported to work in Python 2.6.In Python 3, the implementation of ``randrange()`` was changed, so that evenwith the same seed you get different sequences in Python 2 and 3. Note thatseveral high-level functions such as ``randint()`` and ``choice()`` use``randrange()``.In my testing code I heavily rely on stable random generator results and itmakes porting code to Python 3 a lot harder, if all those tests have to beadjusted. This package fixes that.</longdescription>
 </pkgmetadata>

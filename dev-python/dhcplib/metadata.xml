@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>dhcplib is a fork of staticDHCPd's libpydhcpserver aiming to provide Python 3 compatility and dropping decoupling it from a network API so you can use it with either sync or async networking libs.</longdescription>
 </pkgmetadata>

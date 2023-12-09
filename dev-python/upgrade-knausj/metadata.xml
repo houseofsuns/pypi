@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Upgrade `knausj`Helper for performing `knausj` upgrades.## Assumptions- You have a fork of `knausj`- You haven't altered your pre-commit config. If you don't know what that means, then you are fine 😊## Installation1. Install [`pipx`](https://pypa.github.io/pipx/)2. Run `pipx install pre-commit`3. Run `pipx install upgrade-knausj`## How to run1. Push your changes to your fork2. Run `upgrade-knausj`3. If necessary, resolve any merge conflicts, commit, then re-run `upgrade-knausj`4. Repeat steps 2-3 until it says you're done5. Do a pull from your main Talon user directory6. Restart Talon and look in the log file for errors</longdescription>
 </pkgmetadata>

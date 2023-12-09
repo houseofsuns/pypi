@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># 🦉 AI Hardware Advisor&lt;div align=&quot;center&quot;&gt;  &lt;img src=&quot;img/logo.png&quot; width=&quot;200&quot; height=&quot;200&quot; /&gt;  &lt;p&gt;&lt;em&gt;AIHA, Guiding AI with Wisdom and Knowledge&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;---AIHA is a tool to help you choose the best hardware for your AI project. With AIHA you will able to choose wiselythe resources you need for inference or training any model on the Hugging Face Hub.**AIHA is currently in construction.**Feel free to contribute to the project by opening an issue or a pull request.If you find the project useful, please consider giving it a star ⭐️.</longdescription>
 </pkgmetadata>

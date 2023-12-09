@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Regression range finder for Mozilla nightly builds.For more information see the mozregression website:http://mozilla.github.io/mozregression/</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># filetime.pyA Python module to convert datetime to/from a[Win32 FILETIME structure](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724284).[Reference algorithm](https://support.microsoft.com/en-us/help/167296)## UsageInstall from PyPI: `pip install winfiletime`Example usage:```pyimport datetimeimport winfiletime# Convert a datetime to a filetimewinfiletime.from_datetime(datetime.datetime(2009, 7, 25, 23, 0))# 128930364000000000# Convert a filetime to a datetimewinfiletime.to_datetime(128930364000000000)# datetime.datetime(2009, 7, 25, 23, 0)```## LicenseThis project is hereby released in the Public Domain.See the `LICENSE` file for the full CC0 license text.</longdescription>
 </pkgmetadata>

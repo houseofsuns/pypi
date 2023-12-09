@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>pysam --- a Python package for reading, manipulating, and writinggenomic data sets.pysam is a lightweight wrapper of the HTSlib API and provides facilitiesto read and write SAM/BAM/CRAM/VCF/BCF/BED/GFF/GTF/FASTA/FASTQ filesas well as access to the command-line functionality of samtools and bcftools.The module supports compression and random access through indexing.This module provides a low-level wrapper around HTSlib's C API using Cythonand a high-level API for convenient access to the data within standard genomicfile formats.</longdescription>
 </pkgmetadata>

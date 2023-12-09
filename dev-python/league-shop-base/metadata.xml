@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># League Shop BaseReusable Django app## Quick startAdd &quot;lsb&quot; to your INSTALLED_APPS setting like this::```    INSTALLED_APPS = [        ...        'lsb',    ]```## To specify top sold skin values parser, add the following settings:```LSB_SETTINGS = {    'top_sold_skin_values': {        'func': &lt;dotted_module_string_path&gt;,        'args': &lt;args&gt;,        'kwargs': &lt;kwargs&gt;    }}For example:LSB_SETTINGS = {    'top_sold_skin_values': {        'func': 'lsb.utils.skins.get_top_sold_skin_values',        'args': [0, 150],        'kwargs': {}    }}```## Changelog (1.0.49)- Renamed is_bare_metal to is_premium in admin- Make rank field non nullable- Added valid account and old stock filter. Needs `old_stock_max_date` in LSB_SETTINGS for old stock filter.  ```  LSB_SETTINGS = {  ...  &quot;old_stock_max_date&quot;: &quot;yyyy-mm-dd&quot;,  ...  }  ```</longdescription>
 </pkgmetadata>

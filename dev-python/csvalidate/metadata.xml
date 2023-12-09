@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>##########csvalidate##########csvalidate is a minimal library for reading from and writing to csv with anadded layer of validationGet Started###########Installation============As any python package, you can install it via pip::    $ pip install csvalidateHow ot use it ?===============The gist of it is to subclass one of `ValidatedReader` or `ValidatedWriter` andadd a `schema` class attribute that defines validation.Examples can be found in the `examples` directory.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Utilities for manipulating IPv4 and IPv6 addresses including aclass that can be used to include CIDR network blocks in Django'sINTERNAL_IPS setting.Full documentation at http://python-iptools.readthedocs.org/</longdescription>
 </pkgmetadata>

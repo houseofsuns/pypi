@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Secret ScanningThis repository contains an Action that scans your text for secrets.</longdescription>
 </pkgmetadata>

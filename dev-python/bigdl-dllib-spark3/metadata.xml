@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>BigDL DLlib is a distributed deep learning library for Apache Spark with Keras-style API and Spark ML pipeline support.See [here](https://bigdl.readthedocs.io/en/latest/doc/DLlib/Overview/dllib.html) for more information.</longdescription>
 </pkgmetadata>

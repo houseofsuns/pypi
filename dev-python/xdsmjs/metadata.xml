@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python module to distribute [XDSMjs](https://github.com/OneraHub/XDSMjs#xdsmjs) js/css resources</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PYTMC=====.. image:: https://travis-ci.org/pcdshub/pytmc.svg?branch=master       :target: https://travis-ci.org/pcdshub/pytmcGenerate Epics DB records from TwinCAT .tmc files.See the `docs &lt;https://pcdshub.github.io/pytmc/&gt;`_ for more information.===============  =====Compatibility======================python 3.6, 3.7  .. image:: https://travis-ci.org/pcdshub/pytmc.svg?branch=master                      :target: https://travis-ci.org/pcdshub/pytmc===============  =====</longdescription>
 </pkgmetadata>

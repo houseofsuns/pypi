@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Faiss is a library for efficient similarity search and clustering of densevectors. It contains algorithms that search in sets of vectors of any size, upto ones that possibly do not fit in RAM. It also contains supporting code forevaluation and parameter tuning. Faiss is written in C++ with complete wrappersfor Python/numpy. It is developed by Facebook AI Research.</longdescription>
 </pkgmetadata>

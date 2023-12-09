@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ResInsight Processing Server - ripsA Python interface for the ResInsight visualization and post-processing suite for Reservoir Simulations[Learn More](https://www.resinsight.org)</longdescription>
 </pkgmetadata>

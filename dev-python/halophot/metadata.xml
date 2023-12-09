@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A Python package for doing photometry of very bright stars in the Kepler/K2 mission using halo photometry, constructing the light curve as a linear combination of pixels.      We minimize total variation (TV) of the final light curve with respect to the weights of the individual pixels using analytic gradient descent.      The full method is documented in our paper at http://arxiv.org/abs/1708.07462.</longdescription>
 </pkgmetadata>

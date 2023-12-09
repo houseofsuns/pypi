@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># SMQTK - Descriptors## IntentThis package aims to provide interfaces for algorithms and data structuresaround computing descriptor vectors from input data.This package also includes a utility function that can map an arbitraryfunction to some set of input iterables, not unlike the python `map`, exceptthat this version is parallelized across threads or processes. This functionalso does not block and may be used for parallelized stream processing.## DocumentationYou can build the sphinx documentation locally for the most up-to-datereference:```bash# Install dependenciespoetry install# Navigate to the documentation root.cd docs# Build the docs.poetry run make html# Open in your favorite browser!firefox _build/html/index.html```</longdescription>
 </pkgmetadata>

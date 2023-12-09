@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>rq is a simple, lightweight, library for creating background jobs, andprocessing them.</longdescription>
 </pkgmetadata>

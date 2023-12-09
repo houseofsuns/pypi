@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>========================Team and repository tags========================.. image:: https://governance.openstack.org/tc/badges/neutron-fwaas.svg    :target: https://governance.openstack.org/tc/reference/tags/index.html.. Change things from this point onWelcome!========This package contains the code for the Neutron Firewall as a Service(FWaaS) service. This package requires Neutron to run.External Resources:===================The homepage for Neutron is: https://launchpad.net/neutron.  Use thissite for asking for help, and filing bugs. We use a single Launchpadpage for all Neutron projects.Code is available on git.openstack.org at:&lt;https://opendev.org/openstack/neutron-fwaas&gt;.Please refer to Neutron documentation for more information:`Neutron README.rst &lt;https://opendev.org/openstack/neutron/src/branch/master/README.rst&gt;`_Get release notes:`Neutron FWaaS Release Notes &lt;https://docs.openstack.org/releasenotes/neutron-fwaas/&gt;`_</longdescription>
 </pkgmetadata>

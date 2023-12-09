@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This package saves variable so you dont have to re-define them every time you restart your scripts</longdescription>
 </pkgmetadata>

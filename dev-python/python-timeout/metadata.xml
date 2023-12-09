@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>### TimeoutRandom timeout between minimum and maximum valuesInstallation:`pip install python-timeout`Usage:```from timeout import random_timeout, sleeprandom_timeout(10, 20) # Random timeout between 10 and 20 secondsrandom_timeout(from_minutes=1, to_minutes=2) # Random timeout between one and two minutesrandom_timeout(from_hours=1, to_hours=2) # Random timeout between one and two hoursrandom_timeout(from_days=3, to_days=7) # Random timeout between one and two hoursrandom_timeout(1) # Random timeout for around one secondrandom_timeout(from_hours=1) # Random timeout for around one hoursleep(5) # Sleep for five secondssleep(minutes=15) # Sleep for fifteen minutessleep(hours=2) # Sleep for two hoursfrom timeout import sleep_timerduring_active_time = sleep_timer('8am', '10pm').during_active_timeif during_active_time(): # Only active between certain time range    run()```</longdescription>
 </pkgmetadata>

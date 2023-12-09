@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!--https://readme42.com--&gt;[![](https://img.shields.io/pypi/v/rm.svg?maxAge=3600)](https://pypi.org/project/rm/)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)### Installation```bash$ [sudo] pip install rm```#### Features- removes **dirs** and **files**- **no exception** - skip if path not exists#### Examples```python&gt;&gt;&gt; import rm&gt;&gt;&gt; rm.rm(&quot;path/to/file&quot;)  # rm file&gt;&gt;&gt; rm.rm(&quot;path/to/dir&quot;)  # rm dir&gt;&gt;&gt; rm.rm([&quot;path/to/dir&quot;,&quot;path/to/file&quot;])  # rm multiple paths&gt;&gt;&gt; rm.rm(&quot;not-existing&quot;) # no exception```&lt;p align=&quot;center&quot;&gt;    &lt;a href=&quot;https://readme42.com/&quot;&gt;readme42.com&lt;/a&gt;&lt;/p&gt;</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Language agnostic database migration toolmigrate=======A simple language agnostic database migration toolinstall-------::    $ pip install migrateusage-----::    usage: migrate [options] &lt;command&gt;See Readme_.. _Readme: https://github.com/kofrasa/migrate/blob/master/README.md</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># FastAPI wrapper for interactions.pyAn Extension library to add Fast API for your interactions.py bot .## Installation``pip install git+https://github.com/Damego/interactions-fastapi.git``## Examples```pythonimport interactionsfrom interactions.ext.api import setupclient = interactions.Client(...)api = setup(client)@api.route(&quot;GET&quot;, &quot;/&quot;)async def index():    return {&quot;status&quot;: &quot;success&quot;}client.start()```Server will run on ``127.0.0.1:32512`` (host and port modifiable)More examples in ``examples`` folder.</longdescription>
 </pkgmetadata>

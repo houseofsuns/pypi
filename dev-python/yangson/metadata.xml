@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>.. |date| date::******************Welcome to Yangson******************:Author: Ladislav Lhotka &lt;lhotka@nic.cz&gt;:Date: |date|*Yangson* is a Python 3 library for working with configuration andstate data modelled using the YANG_ data modelling language.Installation============::    python -m pip install yangsonNote that *Yangson* requires Python 3.6 or higher.Links=====* `Git repository`_* `Documentation`_.. _YANG: https://tools.ietf.org/html/rfc7950.. _Git repository: https://github.com/CZ-NIC/yangson.. _Documentation: https://yangson.labs.nic.cz</longdescription>
 </pkgmetadata>

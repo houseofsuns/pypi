@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># python-plexwebsocketAsync library to react to events issued over Plex websockets.## Example use```pythonimport asyncioimport loggingfrom plexapi.server import PlexServerfrom plexwebsocket import PlexWebsocket, SIGNAL_CONNECTION_STATElogging.basicConfig(level=logging.DEBUG)baseurl = 'http://&lt;PLEX_SERVER_IP&gt;:32400'token = '&lt;YOUR_TOKEN_HERE&gt;'plex = PlexServer(baseurl, token)def print_info(msgtype, data, error):    if msgtype == SIGNAL_CONNECTION_STATE:        print(f&quot;State: {data} / Error: {error}&quot;)    else:        print(f&quot;Data: {data}&quot;)async def main():    ws = PlexWebsocket(plex, print_info, subscriptions=[&quot;playing&quot;, &quot;status&quot;])    await ws.listen()if __name__ == '__main__':    loop = asyncio.get_event_loop()    loop.run_until_complete(main())```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>PostHog is developer-friendly, self-hosted product analytics. posthog-python is the python package.</longdescription>
 </pkgmetadata>

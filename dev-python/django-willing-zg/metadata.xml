@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># django-willing-zgA Django app to hold common utilities for Zygoat-managed applications## What it does`willing_zg` provides a means to define frontend configuration in the django settings and an API endpoint to make that configuration accessible.## Usage1. Add &quot;willing_zg&quot; to `INSTALLED_APPS` in the django settings2. Define `ZYGOAT_FRONTEND_META_CONFIG` in the django settings    ZYGOAT_FRONTEND_META_CONFIG = { &quot;example_frontend_config&quot;: &quot;example_value&quot; }3. Include the willing_zg URLconf in your project's urls.py:    path('api/zygoat/', include('willing_zg.urls')),4. Import willing-zg settings into the django settings   from willing_zg.settings import * # noqa</longdescription>
 </pkgmetadata>

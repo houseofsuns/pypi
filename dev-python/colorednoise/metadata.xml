@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Generate Gaussian distributed noise with a power law spectrum.        Based on the algorithm in             Timmer, J. and Koenig, M.:            On generating power law noise.             Astron. Astrophys. 300, 707-710 (1995)    </longdescription>
 </pkgmetadata>

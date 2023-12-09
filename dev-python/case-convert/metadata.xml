@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Convert CaseCross-language library to convert case with permissive inputs.## Language supportedThe library is available in:- [js](#code-example-javascript)- [python](#code-example-python)## Code examples ### Code example: JavaScript ```jsimport { camelCase } from &quot;../src/index&quot;;camelCase(&quot;helloGreat world&quot;);  // helloGreatWorldcamelCase(&quot;__hello Great--world&quot;);  // helloGreatWorld```### Code example: Python```pythonfrom case_convert import camel_casecamel_case(&quot;helloGreat world&quot;)  # helloGreatWorldcamel_case(&quot;__hello Great--world&quot;)  # helloGreatWorld```## Cases supportedThe library can convert to the following cases:- camel- kebab- pascal- snake- upper## Issues/Bug report or improvement ideashttps://gitlab.com/olive007/case-convert/-/issues## LicenseGNU Lesser General Public License v3 or later (LGPLv3+)</longdescription>
 </pkgmetadata>

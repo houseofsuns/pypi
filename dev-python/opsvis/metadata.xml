@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># opsvisOpenSeesPy (OpenSees) postprocessing and visualization module## Installation`pip install opsvis`Note: The previous name of this module was `ops_vis`, but to avoidissues with PyPi and readthedocs naming conventions, the name of thepackage and module to import is without the underscore.## Usage`import opsvis as opsv`## Documentationhttps://opsvis.readthedocs.io/en/latest/## OpenSeesPy documentationhttps://openseespydoc.readthedocs.io/en/latest/</longdescription>
 </pkgmetadata>

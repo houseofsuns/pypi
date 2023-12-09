@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>galvani=======&lt;!---SPDX-FileCopyrightText: 2013-2020 Christopher Kerr, Peter AttiaSPDX-License-Identifier: GPL-3.0-or-later--&gt;Read proprietary file formats from electrochemical test stations## Bio-Logic .mpr files ##Use the `MPRfile` class from BioLogic.py (exported in the main package)````from galvani import BioLogicimport pandas as pdmpr_file = BioLogic.MPRfile('test.mpr')df = pd.DataFrame(mpr_file.data)````## Arbin .res files ##Use the res2sqlite.py script to convert the .res file to a sqlite3 databasewith the same schema.</longdescription>
 </pkgmetadata>

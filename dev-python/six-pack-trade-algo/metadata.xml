@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># AlgoTraderTo compile and upload to twinepython setup.py sdist bdist_wheelpython -m twine upload dist/*pip3 install six_pack_trade_algo==VERSION</longdescription>
 </pkgmetadata>

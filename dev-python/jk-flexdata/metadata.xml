@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>jk_flexdata==========Introduction------------This python module ...Information about this module can be found here:* [github.org](https://github.com/jkpubsrc/python-module-jk-flexdata)* [pypi.python.org](https://pypi.python.org/pypi/jk_flexdata)Why this module?----------------...Limitations of this module--------------------------...How to use this module----------------------### Import this modulePlease include this module into your application using the following code:```pythonimpoert jk_flexdata```...Contact Information-------------------This is Open Source code. That not only gives you the possibility of freely using this code it alsoallows you to contribute. Feel free to contact the author(s) of this software listed below, eitherfor comments, collaboration requests, suggestions for improvement or reporting bugs:* Jürgen Knauth: jknauth@uni-goettingen.de, pubsrc@binary-overflow.deLicense-------This software is provided under the following license:* Apache Software License 2.0</longdescription>
 </pkgmetadata>

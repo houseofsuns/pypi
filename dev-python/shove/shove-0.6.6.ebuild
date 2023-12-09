@@ -15,8 +15,8 @@ DESCRIPTION="Generic dictionaryish object storage frontend"
 
 HOMEPAGE="https://bitbucket.org/lcrees/shove/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
-SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
+SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
 RESTRICT="test"
 
 SLOT="0"

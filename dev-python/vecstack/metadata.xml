@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python package for stacking (stacked generalization) featuring lightweight functional API and fully compatible scikit-learn API.Convenient way to automate OOF computation, prediction and bagging using any number of models.</longdescription>
 </pkgmetadata>

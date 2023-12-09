@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Dependencies============- python 3.*- requests- bs4Installation============pip install ok-animeexample==========```pytonfrom ok_anime import Animeok = Anime('Anime Name')print(ok.title)```index:```python#json of all searchs in OKAnime for anime nameprint(ok.search)#get anime titleprint(ok.title)#get anime genreprint(ok.genre)#get anime urlprint(ok.url)#get anime coverprint(ok.cover)#get anime statusprint(ok.status)#get anime yearprint(ok.year)#get anime episodesprint(ok.episodes)#get anime age_classificationprint(ok.age_classification)print(ok.rate)#get anime rateprint(ok.description)#get animeprint(ok.trailer)#get animeprint(ok.studio)#get animeprint(ok.director)#get your favorite animeprint(ok.favorite_anime('your name in okanime'))```this information is fetched from OkAnimeMake sure you don't spam the tests too quickly! One of the tests involves POSTing invalid credentials to OKAnime, so you're likely to be IP-banned if you do this too much in too short a span of time.</longdescription>
 </pkgmetadata>

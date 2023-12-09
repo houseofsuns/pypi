@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Python Serial Port Extension for Win32, OSX, Linux, BSD, Jython, IronPythonStable:- Documentation: http://pythonhosted.org/pyserial/- Download Page: https://pypi.python.org/pypi/pyserialLatest:- Documentation: http://pyserial.readthedocs.io/en/latest/- Project Homepage: https://github.com/pyserial/pyserial</longdescription>
 </pkgmetadata>

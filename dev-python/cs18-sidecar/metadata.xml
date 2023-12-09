@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>================================Sidecar - The CS18 instance api================================Build Info:.. code-block:: ini    version = 0.0.2.4655    branch = refs/heads/master    changeset = af283bd74c783719ff5197f826921332b3d4b4bf</longdescription>
 </pkgmetadata>

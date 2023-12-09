@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># PageStreamSome scanners and PDF merge software results in a single merged PDF that has theoriginal document title in the outline. The dutch government uses software likethis to respond to FOIA requests.This module was created to split these FOIA requests by outline. As aninvestigative journalism platform, we encounter different kinds of pagestreamsin the wild. The intent for this module is to be a place where we collectdifferent functionality regarding these streams.Example usage:```pagestream --help```</longdescription>
 </pkgmetadata>

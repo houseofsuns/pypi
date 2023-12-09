@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Mypy Extensions===============The &quot;mypy_extensions&quot; module defines extensions to the standard &quot;typing&quot; modulethat are supported by the mypy type checker and the mypyc compiler.</longdescription>
 </pkgmetadata>

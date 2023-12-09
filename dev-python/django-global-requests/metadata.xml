@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Django Global RequestsAllows for global request objects in your django project## Installation`pip install django-global-requests`## Configuration1. Add middleware:    ```    MIDDLEWARE = [        ...        'global_requests.GlobalRequestMiddleware',    ]    ```## Usage```from global_requests import get_requestrequest = get_request()```</longdescription>
 </pkgmetadata>

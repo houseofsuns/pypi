@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pyzor is spam-blocking networked system that uses spam signaturesto identify them.</longdescription>
 </pkgmetadata>

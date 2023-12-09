@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>[![flake8 Lint](https://github.com/acdh-oeaw/acdh-django-browsing/actions/workflows/lint.yml/badge.svg)](https://github.com/acdh-oeaw/acdh-django-browsing/actions/workflows/lint.yml)# acdh-django-browsingDjango-App providing some useful things to create browsing views## QuickstartInstall acdh-django-browsing:`pip install acdh-django-browsing`Add it to your `INSTALLED_APPS`:```pythonINSTALLED_APPS = (    ...    'browsing',    ...)```</longdescription>
 </pkgmetadata>

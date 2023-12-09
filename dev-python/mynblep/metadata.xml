@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># mynblepMinBLEPs library including fast naive waveform conversion## InstallThese are generic installation instructions.### To use, permanentlyThe quickest way to get started is to install the current release from PyPI:```pip3 install --user mynblep```### To use, temporarilyIf you prefer to keep .local clean, install to a virtualenv:```python3 -m venv venvnamevenvname/bin/pip install mynblep. venvname/bin/activate```### To developFirst clone the repo using HTTP or SSH:```git clone https://github.com/combatopera/mynblep.gitgit clone git@github.com:combatopera/mynblep.git```Now use pyven's pipify to create a setup.py, which pip can then use to install the project editably:```python3 -m venv pyvenvenvpyvenvenv/bin/pip install pyvenpyvenvenv/bin/pipify mynbleppython3 -m venv venvnamevenvname/bin/pip install -e mynblep. venvname/bin/activate```</longdescription>
 </pkgmetadata>

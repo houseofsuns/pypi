@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>rejester========redis-based python client library and command line tools for managing tasks executed by a group of configurable workers</longdescription>
 </pkgmetadata>

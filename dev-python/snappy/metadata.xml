@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>SnapPy======SnapPy is a package for studying the topology and geometry of3-manifolds, with a focus on hyperbolic structures.  It is based onthe SnapPea kernel written by `Jeff Weeks&lt;http://www.geometrygames.org&gt;`_.  Complete documentation is available on the web including the `mainpage &lt;http://snappy.computop.org&gt;`_ and an `installation guide&lt;http://snappy.computop.org/installing.html&gt;`_.  You can also browsethe `source code &lt;https://github.com/3-manifolds/SnapPy&gt;`_.</longdescription>
 </pkgmetadata>

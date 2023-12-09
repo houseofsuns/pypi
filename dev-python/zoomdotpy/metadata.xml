@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ZoomDotPyDesigned for use with a server-to-server oauth zoom developer app# Install`python3 -m pip install zoomdotpy`  Bleeding Edge:  `pip install git+https://github.com/Sceptyre/python-zoom.git@devel`# Usage```pyfrom zoomdotpy import ZoomClientzoom = ZoomClient(    '&lt;API_KEY&gt;',    '&lt;API_SECRET&gt;')``````py# List phone deviceszoom.phones.devices.list_devices()# list phone siteszoom.phones.sites.list_sites()# List roomszoom.rooms.list_rooms()# Get specific roomzoom.rooms.get_room('abc123')```</longdescription>
 </pkgmetadata>

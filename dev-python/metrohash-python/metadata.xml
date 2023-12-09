@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># metrohash-pythonPython bindings for the fast non-cryptograpical hash function MetroHash. MetroHash C++ library by J. Andrew Rogers, Python bindings by Dobatymo.## RequirementsThe library has been tested on Linux Python 3.6, and on Windows Python 3.6, 3.7.## Install```pip install metrohash-python```Compilation requires a C++ compiler and optionally `Cython`.## ExamplesThe usage is similar to Python's hashlib.```python&gt;&gt;&gt; import metrohash&gt;&gt;&gt; h = metrohash.MetroHash128()&gt;&gt;&gt; h.update(b'asd')&gt;&gt;&gt; h.update(b'qwe')&gt;&gt;&gt; h.digest()b'K\xfb\x17\xeb&gt;\xb2W\xbd\x93\xad\xf6\x17\xceg\x14\xda'&gt;&gt;&gt; h.hexdigest()'4bfb17eb3eb257bd93adf617ce6714da'```Or as simple non-incremental function:```python&gt;&gt;&gt; import metrohash&gt;&gt;&gt; metrohash.metrohash128(b'asdqwe')b'K\xfb\x17\xeb&gt;\xb2W\xbd\x93\xad\xf6\x17\xceg\x14\xda'```The interface for `MetroHash64` and `metrohash64` is the same.</longdescription>
 </pkgmetadata>

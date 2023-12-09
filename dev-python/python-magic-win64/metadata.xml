@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This module uses python-magic to access libmagic functionality.It also distributes and automatically injects the magic library for 64-bit Windows &amp; python.Can be used as a drop-in replacement for python-magic by using `from winmagic import magic`.</longdescription>
 </pkgmetadata>

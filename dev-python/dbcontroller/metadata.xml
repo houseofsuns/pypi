@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Welcome to **DataBase-Controller**## Install **SQL**ite```shpython -m pip install &quot;dbcontroller[sqlite]&quot;```## Install Postgre**SQL**```shpython -m pip install &quot;dbcontroller[sql]&quot; &quot;databases[postgresql]&quot;```## Install My**SQL**```shpython -m pip install &quot;dbcontroller[sql]&quot; &quot;databases[mysql]&quot;```## Install **Mongo**```shpython -m pip install &quot;dbcontroller[mongo]&quot;```## Install **Testing**```shpython -m pip install &quot;dbcontroller[testing]&quot;```## To Be Used With . . .- [sqlalchemy](https://pypi.org/project/SQLAlchemy/) and [databases](https://pypi.org/project/databases/)- [pymongo](https://pypi.org/project/pymongo/) and [motor](https://pypi.org/project/motor/)## Links- ### [PyPi](https://pypi.org/project/dbcontroller)- ### [Github](https://github.com/hlop3z/dbcontroller)- ### [Read the Documents](https://hlop3z.github.io/dbcontroller/)</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># jupyter-lspMulti-[Language Server][language-server] WebSocket proxy for your Jupyter`notebook` or `lab` server. For Python 3.6+.&gt; See the parent of this repository,&gt; [jupyterlab-lsp](https://github.com/jupyter-lsp/jupyterlab-lsp) for the&gt; reference client implementation for [JupyterLab][].# Language Servers`jupyter-lsp` does not come with any Language Servers! Learn more about installingand configuring [language servers][language servers docs][language-server]: https://microsoft.github.io/language-server-protocol/specification[langserver]: https://langserver.org[lsp-implementations]: https://microsoft.github.io/language-server-protocol/implementors/servers[jupyter-lsp]: https://github.com/jupyter-lsp/jupyterlab-lsp.git[jupyterlab]: https://github.com/jupyterlab/jupyterlab[language servers docs]: https://jupyterlab-lsp.readthedocs.io/en/latest/Language%20Servers.html</longdescription>
 </pkgmetadata>

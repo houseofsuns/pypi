@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>&lt;!-- @format --&gt;# ServiceX Code Generator LibraryThis library provides common code for creating Code Generator services forServiceX.</longdescription>
 </pkgmetadata>

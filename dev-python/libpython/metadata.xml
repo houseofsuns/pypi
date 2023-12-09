@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># libpythonproMÃ³dulo para exemplificar construÃ§Ã£o de projetos Python.Link do Github: [Lib Python](https://github.com/woscavalcante/libpython)[![Build Status](https://travis-ci.org/woscavalcante/libpython.svg?branch=master)](https://travis-ci.org/woscavalcante/libpython)[![Updates](https://pyup.io/repos/github/woscavalcante/libpython/shield.svg)](https://pyup.io/repos/github/woscavalcante/libpython/)[![Python 3](https://pyup.io/repos/github/woscavalcante/libpython/python-3-shield.svg)](https://pyup.io/repos/github/woscavalcante/libpython/)Suportado a versÃ£o 3 do PythonPara instalar:```consolepython3 -m venv .venvsource .venv/bin/activatepip install -r requirements-dev.txt```Para conferir qualidade de cÃ³digo:```consoleflake8```TÃ³picos a serem abordados: 1. Git 2. Virtualenv 3. Pip</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>django-recommends======================================.. image:: https://travis-ci.org/fcurella/django-recommends.png?branch=master    :target: https://travis-ci.org/fcurella/django-recommendsA django app that builds item-based suggestions for users.Documentation on `readthedocs &lt;http://django-recommends.rtfd.org/&gt;`_.</longdescription>
 </pkgmetadata>

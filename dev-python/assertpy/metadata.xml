@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>assertpy========Simple assertions library for unit testing in Python with a nice fluent API. Supports both Python 2 and 3.Usage-----Just import the ``assert_that`` function, and away you go...::    from assertpy import assert_that    def test_something():        assert_that(1 + 2).is_equal_to(3)        assert_that('foobar').is_length(6).starts_with('foo').ends_with('bar')        assert_that(['a', 'b', 'c']).contains('a').does_not_contain('x')Of course, assertpy works best with a python test runner like `pytest &lt;http://pytest.org/&gt;`_ (our favorite) or `Nose &lt;http://nose.readthedocs.org/&gt;`_.Install-------The assertpy library is available via `PyPI &lt;https://pypi.org/project/assertpy/&gt;`_.Just install with::    pip install assertpyOr, if you are a big fan of `conda &lt;https://conda.io/&gt;`_ like we are, there is an`assertpy-feedstock &lt;https://github.com/conda-forge/assertpy-feedstock&gt;`_ for`Conda-Forge &lt;https://conda-forge.org/&gt;`_ that you can use::    conda install assertpy --channel conda-forge</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Deployment instructions-----------------------Global~~~~~~Before deployment, change the project *version* on ``setup.py`` file andset the correct *download*\ url\_. Then make sure you have the file``~/.pypirc`` with the content below and the correct credentials insteadof the provided placeholders:::    [distutils]    index-servers =        pypi        pypitest    [pypi]    repository:https://upload.pypi.org/legacy/    username:myusername    password:mypassword    [pypitest]    repository:https://test.pypi.org/legacy/    username:myusername    password:mypasswordTest environment~~~~~~~~~~~~~~~~Run ``python setup.py sdist upload -r pypitest`` inside the projectdirectory.Live environment~~~~~~~~~~~~~~~~Run ``python setup.py sdist upload -r pypi`` inside the projectdirectory.</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># django-session-timeoutAdd timestamp to sessions to expire them independently## Installation```shellpip install django-session-timeout```## UsageUpdate your settings to add the SessionTimeoutMiddleware:```pythonMIDDLEWARE_CLASSES = [    # ...    'django.contrib.sessions.middleware.SessionMiddleware',    'django_session_timeout.middleware.SessionTimeoutMiddleware',    # ...]```And also add the ``SESSION_EXPIRE_SECONDS``:```pythonSESSION_EXPIRE_SECONDS = 3600  # 1 hour```By default, the session will expire X seconds after the start of the session.To expire the session X seconds after the `last activity`, use the following setting:```pythonSESSION_EXPIRE_AFTER_LAST_ACTIVITY = True```By default, `last activiy` will be grouped per second.To group by different period use the following setting:```pythonSESSION_EXPIRE_AFTER_LAST_ACTIVITY_GRACE_PERIOD = 60 # group by minute```To redirect to a custom URL define the following setting:```pythonSESSION_TIMEOUT_REDIRECT = 'your_redirect_url_here/'```</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>    The core API used to integrate with Patch&amp;#39;s service  # noqa: E501    </longdescription>
 </pkgmetadata>

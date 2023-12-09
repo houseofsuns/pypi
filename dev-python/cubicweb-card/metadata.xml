@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>This cube models cards that are like wiki pages.`Card` entities have a title, an abstract and some textual content as text, restor html.To create a new card, just create a link like '/card/YOUR_WIKI_ID' and follow itin your browser. Such a link can be written using the native HTML editor(fckeditor) or the dedicated restructured text &quot;card&quot; directive, as follows ::  :card:`free_software/logilab:free software at Logilab`</longdescription>
 </pkgmetadata>

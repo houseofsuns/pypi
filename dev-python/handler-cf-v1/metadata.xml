@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># cf_handler_project A collection of application and services to use in Cloud Functions</longdescription>
 </pkgmetadata>

@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># sweetBeanA declarative language in python for creating jsPsych experiments.This is a partner product intended to use alongside sweetPea (https://github.com/sweetpea-org/sweetpea-py) but can alsobe used as standalone product.This project is in active development by the &lt;a href=&quot;https://musslick.github.io/AER_website/Research.html&quot;&gt;Autonomous Empirical Research Group&lt;/a&gt; (package developer: Younes Strittmatter, PI: &lt;a href=&quot;https://smusslick.com/&quot;&gt;Sebastian Musslick&lt;/a&gt;) in collaboration with the &lt;a href=&quot;https://ccv.brown.edu/&quot;&gt;Center for Computation and Visualization at Brown University&lt;/a&gt;. This research program is supported by Schmidt Science Fellows, in partnership with the Rhodes Trust, as well as the Carney BRAINSTORM program at Brown University.# install```pip install sweetbean```# usage:This is a very early version. You can find examples and documentation here: https://autoresearch.github.io/sweetbean/</longdescription>
 </pkgmetadata>

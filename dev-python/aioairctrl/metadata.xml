@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># aioairctrlLibrary and commandline utilities for controlling Philips air purifiers (using encrypted CoAP)</longdescription>
 </pkgmetadata>

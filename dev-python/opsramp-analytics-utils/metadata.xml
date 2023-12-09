@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>## OpsRamp Analytics UtilitiesThis is the SDK for writing OpsRamp analytics apps. It is based on [dash](https://plotly.com/dash/), and it has a number of utility functions.It contains [analysis wrapper project](https://github.com/opsramp/analysis-wrapper).It is published on [Pypi](https://pypi.org/project/opsramp-analytics-utils/)#### How to publish on PypiAfter make updates on SDK, modify the version in _setup.py_.```python setup.py sdist bdist_wheelpython -m twine upload dist/*Note: if above command not works, then use below commandpython -m twine upload --skip-existing dist/*```- To upgrade the sdk for your app```pip install --no-cache-dir --upgrade opsramp-analytics-utils```</longdescription>
 </pkgmetadata>

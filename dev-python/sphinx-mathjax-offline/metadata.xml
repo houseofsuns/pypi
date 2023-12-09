@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>MathJax for Sphinx Offline==========================This provides the Mathjax 3.2.2 files for Sphinx without having to rely on an external CDN.Installation------------MathJax for Sphinx Offline is published on `PyPI`__ and can be installed from there::   pip install -U sphinx-mathjax-offlineIn Sphinx ``conf.py``, add ``sphinx.ext.mathjax`` and ``sphinx-mathjax-offline`` to ``extensions``.This will then automatically set ``mathjax_path`` for you and copy the necessary JavaScript and fontfiles to your output directory when you build your documentation as usual.__ https://pypi.org/project/sphinx-mathjax-offline/</longdescription>
 </pkgmetadata>

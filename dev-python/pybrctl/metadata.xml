@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pybrctl=======Pybrctl is a pure Python library for managing bridges. It is a lightwight wrapper for the linux brctl command, included in the bridge-utils package.It requires Python, Linux, and the bridge-utils package.It was written by Ido Nahshon at Jan 2015, and it was released under the GPL license.Example Usage=============This example shows how to set up a new bridge and remove it::  import pybrctl  brctl = pybrctl.BridgeController()  b = brctl.addbr(&quot;br0&quot;)  b.addif(&quot;eth0&quot;)  b.addif(&quot;eth1&quot;)  b.setmaxageing(0)      brctl.delbr(&quot;br0&quot;)Source======Latest version on github: https://github.com/udragon/pybrctlFeel free to contribute. ;)</longdescription>
 </pkgmetadata>

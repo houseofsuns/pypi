@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>`atelier` is a collection of tools for maintaining your Python softwarerepositories using a library of `invoke &lt;https://www.pyinvoke.org/&gt;`_ commands.- Source code: https://gitlab.com/lino-framework/atelier- Documentation: https://lino-framework.gitlab.io/atelier</longdescription>
 </pkgmetadata>

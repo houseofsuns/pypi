@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>An MkDocs plugin that automagically generates relative links between markdown pages</longdescription>
 </pkgmetadata>

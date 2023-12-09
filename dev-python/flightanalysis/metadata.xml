@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># FlightAnalysisThis package contains tools for analysing recorded flight log data.The main objective is to facilitate automated judging for precision aerobatic competitions. </longdescription>
 </pkgmetadata>

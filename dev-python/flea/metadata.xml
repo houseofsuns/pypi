@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Flea - WSGI testing===================Flea helps you write functional tests for WSGI applications.Flea uses CSS selectors and XPath to give you a powerful tool todrive and test the output of your WSGI web applications.Here's an example of how easy it is to test a WSGI application::&gt;&gt;&gt; from flea import Agent&gt;&gt;&gt; r = Agent(my_wsgi_app).get('/')&gt;&gt;&gt; print r.body&lt;html&gt;&lt;body&gt;&lt;a href=&quot;/sign-in&quot;&gt;sign in&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;&gt;&gt;&gt; r = r.click('sign in')&gt;&gt;&gt; r = r(&quot;form#login-form&quot;).fill(... username = 'root',... password = 'secret',... ).submit()&gt;&gt;&gt; assert 'login successful' in r.body</longdescription>
 </pkgmetadata>

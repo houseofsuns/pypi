@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>XFormers: A collection of composable Transformer building blocks.XFormers aims at being able to reproduce most architectures in the Transformer-family SOTA,defined as compatible and combined building blocks as opposed to monolithic models</longdescription>
 </pkgmetadata>

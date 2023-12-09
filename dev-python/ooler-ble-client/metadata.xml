@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># ooler_ble_clientA library to communicate with Ooler Sleep System Bluetooth devices.</longdescription>
 </pkgmetadata>

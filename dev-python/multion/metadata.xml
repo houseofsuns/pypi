@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># Multion Python SDKThe Multion Python SDK provides a convenient way to interact with the Multion API and perform various operations such as creating sessions, updating sessions, closing sessions, and retrieving session information.## DocumentationFor detailed documentation on how to use the Multion Python SDK and the available functions, please refer to the official Multion API [documentation](https://docs.multion.ai).</longdescription>
 </pkgmetadata>

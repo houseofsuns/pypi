@@ -5,5 +5,4 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription># HDC Compiler PrototypeThis is a prototype of the HDC compiler, available as a library.</longdescription>
 </pkgmetadata>

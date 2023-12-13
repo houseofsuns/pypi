@@ -21,4 +21,13 @@ gs-pypi_src_unpack() {
 	if [[ ${REALNAME} != ${PN} || ${REALVERSION} != ${PV} ]]; then
 		mv "${REALNAME}-${REALVERSION}" "${P}" || die
 	fi
+	if [[ ! -e ${P} ]]; then
+		# Last resort: Maybe name of source file and package disagree
+		GUESS=${SOURCEFILE}
+		for ext in .zip .tar.gz .tar.bz2
+		do
+			GUESS=${GUESS/%$ext}
+		done
+		mv "${GUESS}" "${P}" || die
+	fi
 }

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Scalable COncurrent Operations in Python"
+DESCRIPTION="Scalable COncurrent Operations in Python [topver 0.7.2.0]"
 
 HOMEPAGE="http://pyscoop.org"
 LICENSE="LGPL-3"

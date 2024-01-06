@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="获取代码改动的文件和方法"
+DESCRIPTION="获取代码改动的文件和方法 [topver 2.2.1]"
 
 HOMEPAGE="https://github.com/vfrtgb158/email"
 LICENSE="MIT"

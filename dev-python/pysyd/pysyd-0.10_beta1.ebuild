@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="automated measurements of global asteroseismic parameters"
+DESCRIPTION="automated measurements of global asteroseismic parameters [topver 6.10.5]"
 
 HOMEPAGE="https://github.com/ashleychontos/pysyd"
 LICENSE="MIT"

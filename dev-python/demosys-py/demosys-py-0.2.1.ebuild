@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Modern OpenGL 4.1+ Prototype Framework inspired by Django"
+DESCRIPTION="Modern OpenGL 4.1+ Prototype Framework inspired by Django [topver 2.1.1]"
 
 HOMEPAGE="https://github.com/Contraz/demosys-py"
 LICENSE=""

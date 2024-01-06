@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="microsip api"
+DESCRIPTION="microsip api [topver 3.4.10]"
 
 HOMEPAGE=""
 LICENSE="BSD"

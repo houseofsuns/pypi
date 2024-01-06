@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A mongodb api wrapper to use in your discord bot"
+DESCRIPTION="A mongodb api wrapper to use in your discord bot [topver 0.3.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Bitdefender disassembler Python wrapper"
+DESCRIPTION="The Bitdefender disassembler Python wrapper [topver 0.3.0]"
 
 HOMEPAGE="https://github.com/bitdefender/bddisasm"
 LICENSE="Apache-2.0"

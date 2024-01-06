@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple wrapper for ffmpeg-cli"
+DESCRIPTION="A simple wrapper for ffmpeg-cli [badver 0.1-dev]"
 
 HOMEPAGE="http://github.com/interru/ffmpegwrapper"
 LICENSE="BSD"

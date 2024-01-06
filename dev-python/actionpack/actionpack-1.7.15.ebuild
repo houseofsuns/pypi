@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a lib for describing Actions and how they should be performed"
+DESCRIPTION="a lib for describing Actions and how they should be performed [topver 1.8.0]"
 
 HOMEPAGE="https://github.com/withtwoemms/actionpack"
 LICENSE="MIT"

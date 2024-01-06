@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Quickly generate a strong, random password using common words"
+DESCRIPTION="Quickly generate a strong, random password using common words [topver 0.11]"
 
 HOMEPAGE="https://pypi.org/project/hashwd"
 LICENSE="GPL-3"

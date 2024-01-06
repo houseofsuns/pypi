@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Androguard is a full python tool to play with Android files."
+DESCRIPTION="Androguard is a full python tool to play with Android files. [badver 3.4.0a1_p1]"
 
 HOMEPAGE="https://github.com/androguard/androguard"
 LICENSE="Apache Licence, Version 2.0"

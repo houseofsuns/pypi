@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Swimlane Content Migration Package"
+DESCRIPTION="Swimlane Content Migration Package [topver 0.5.6]"
 
 HOMEPAGE="https://swimlane.com"
 LICENSE=""

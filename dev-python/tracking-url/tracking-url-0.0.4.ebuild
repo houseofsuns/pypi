@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Detect package carrier from tracking number and generate tracking url"
+DESCRIPTION="Detect package carrier from tracking number and generate tracking url [topver 0.0.5]"
 
 HOMEPAGE="https://github.com/sereema/tracking-url"
 LICENSE=""

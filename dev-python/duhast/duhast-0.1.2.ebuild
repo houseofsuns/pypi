@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Revit API sample snippets and Revit Batch Processor flows."
+DESCRIPTION="Revit API sample snippets and Revit Batch Processor flows. [topver 1.0.7]"
 
 HOMEPAGE=""
 LICENSE="BSD"

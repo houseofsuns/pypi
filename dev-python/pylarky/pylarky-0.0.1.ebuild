@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for starlarky runner"
+DESCRIPTION="Python wrapper for starlarky runner [topver 0.12.21]"
 
 HOMEPAGE=""
 LICENSE="Apache License v2.0"

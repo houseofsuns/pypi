@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Schemas used by Mozilla Nimbus and related projects."
+DESCRIPTION="Schemas used by Mozilla Nimbus and related projects. [topver 2023.10.23]"
 
 HOMEPAGE=""
 LICENSE="MPL 2.0"

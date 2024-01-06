@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Api to download Youtube videos as mp3 files"
+DESCRIPTION="Api to download Youtube videos as mp3 files [topver 0.61]"
 
 HOMEPAGE="https://dadard.fr:8010/dadard/YtApi.git"
 LICENSE="WTFPL-2"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for decoding/encoding rtp packets"
+DESCRIPTION="A library for decoding/encoding rtp packets [topver 0.0.4]"
 
 HOMEPAGE="https://github.com/bbc/rd-apmm-python-lib-rtp"
 LICENSE="apache-2.0"

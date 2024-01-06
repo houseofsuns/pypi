@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Translate django templates into javascript functions."
+DESCRIPTION="Translate django templates into javascript functions. [topver 0.2]"
 
 HOMEPAGE="https://github.com/AJHMvR/django-jsrender"
 LICENSE="UNKNOWN"

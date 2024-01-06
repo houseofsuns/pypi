@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="UI клиент для сервера ГАР m3-rest-gar"
+DESCRIPTION="UI клиент для сервера ГАР m3-rest-gar [topver 1.0.0]"
 
 HOMEPAGE="https://stash.bars-open.ru/projects/M3/repos/m3-gar-client"
 LICENSE="MIT"

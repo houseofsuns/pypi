@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BioMAJ"
+DESCRIPTION="BioMAJ [topver 3.1.23]"
 
 HOMEPAGE="http://biomaj.genouest.org"
 LICENSE=""

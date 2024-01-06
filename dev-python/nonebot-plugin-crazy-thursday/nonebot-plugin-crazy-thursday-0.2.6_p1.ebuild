@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Send KFC crazy thursday articles randomly!"
+DESCRIPTION="Send KFC crazy thursday articles randomly! [topver 0.2.7]"
 
 HOMEPAGE="https://github.com/MinatoAquaCrews/nonebot_plugin_crazy_thursday"
 LICENSE="MIT"

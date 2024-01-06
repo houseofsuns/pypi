@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Secret Flow"
+DESCRIPTION="Secret Flow [topver 1.4.0]"
 
 HOMEPAGE="https://github.com/secretflow/secretflow"
 LICENSE="Apache-2.0"

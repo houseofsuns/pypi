@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package to run the FAIR-Save toolbox"
+DESCRIPTION="Package to run the FAIR-Save toolbox [topver 0.0.6.14]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

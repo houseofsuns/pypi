@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a numpy.ndarray subclass that does fixed-point arithmetic"
+DESCRIPTION="a numpy.ndarray subclass that does fixed-point arithmetic [topver 0.3.0]"
 
 HOMEPAGE="https://github.com/ZZZZzzzzac/numfi"
 LICENSE="MIT"

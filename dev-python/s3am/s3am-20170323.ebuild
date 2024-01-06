@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Efficiently transfer large amounts of data to S3"
+DESCRIPTION="Efficiently transfer large amounts of data to S3 [badver 2.1.0a1_pre119]"
 
 HOMEPAGE="https://github.com/BD2KGenomics/cgcloud"
 LICENSE="UNKNOWN"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python for Window Extensions"
+DESCRIPTION="Python for Window Extensions [topver 221.6]"
 
 HOMEPAGE="http://sourceforge.net/projects/pywin32/"
 LICENSE="PSF-2.4"

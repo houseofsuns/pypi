@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyLTI provides Python Implementation of IMS LTI interface that works with edX"
+DESCRIPTION="PyLTI provides Python Implementation of IMS LTI interface that works with edX [topver 0.7.0]"
 
 HOMEPAGE="http://github.com/mitodl/pylti"
 LICENSE="BSD"

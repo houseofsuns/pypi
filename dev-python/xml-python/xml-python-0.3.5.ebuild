@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Create Python objects from XML using decorated functions to parse the nodes"
+DESCRIPTION="Create Python objects from XML using decorated functions to parse the nodes [topver 0.4.3]"
 
 HOMEPAGE="https://github.com/chrisnorman7/"
 LICENSE="MPL-2"

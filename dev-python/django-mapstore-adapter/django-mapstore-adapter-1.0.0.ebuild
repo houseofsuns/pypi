@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django MapStore2 Adapter"
+DESCRIPTION="Django MapStore2 Adapter [topver 2.0.6]"
 
 HOMEPAGE="https://github.com/geosolutions-it/django-mapstore-adapter"
 LICENSE=""

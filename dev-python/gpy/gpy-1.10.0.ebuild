@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Gaussian Process Toolbox"
+DESCRIPTION="The Gaussian Process Toolbox [topver 1.12.0]"
 
 HOMEPAGE="http://sheffieldml.github.com/GPy/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for the Arris TG2492LG"
+DESCRIPTION="Python client for the Arris TG2492LG [topver 2.1.0]"
 
 HOMEPAGE="https://github.com/vanbalken/arris-tg2492lg"
 LICENSE=""

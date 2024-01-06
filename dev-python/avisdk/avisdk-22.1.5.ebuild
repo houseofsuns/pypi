@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Avi python API SDK for Avi Controller REST API with samples and, utilities"
+DESCRIPTION="Avi python API SDK for Avi Controller REST API with samples and, utilities [topver 30.1.2]"
 
 HOMEPAGE="https://github.com/vmware/alb-sdk"
 LICENSE="Avi Networks"

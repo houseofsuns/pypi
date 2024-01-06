@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A reusable app that provides better app integration with AngularJS."
+DESCRIPTION="A reusable app that provides better app integration with AngularJS. [topver 0.3.0]"
 
 HOMEPAGE="http://github.com/appliedsec/djangular"
 LICENSE="Apache-2.0"

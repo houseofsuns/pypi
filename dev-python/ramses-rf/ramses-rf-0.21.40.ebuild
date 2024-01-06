@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An interface for the RAMSES RF protocol, as used by Honeywell-compatible HVAC & CH/DHW systems."
+DESCRIPTION="An interface for the RAMSES RF protocol, as used by Honeywell-compatible HVAC & CH/DHW systems. [topver 0.22.40]"
 
 HOMEPAGE="https://github.com/zxdavb/ramses_rf"
 LICENSE="MIT"

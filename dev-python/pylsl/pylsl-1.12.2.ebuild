@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface to the Lab Streaming Layer"
+DESCRIPTION="Python interface to the Lab Streaming Layer [topver 1.16.2]"
 
 HOMEPAGE="https://github.com/labstreaminglayer/liblsl-Python"
 LICENSE="MIT"

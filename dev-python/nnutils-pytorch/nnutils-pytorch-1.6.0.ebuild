@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyTorch bindings of the nnutils library"
+DESCRIPTION="PyTorch bindings of the nnutils library [topver 1.13.1]"
 
 HOMEPAGE="https://github.com/jpuigcerver/nnutils"
 LICENSE="MIT"

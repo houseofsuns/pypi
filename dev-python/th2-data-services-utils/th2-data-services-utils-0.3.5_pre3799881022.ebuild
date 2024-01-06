@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="th2_data_services_utils"
+DESCRIPTION="th2_data_services_utils [topver 0.3.6]"
 
 HOMEPAGE="https://github.com/th2-net/th2-data-services-utils"
 LICENSE="Apache-2.0"

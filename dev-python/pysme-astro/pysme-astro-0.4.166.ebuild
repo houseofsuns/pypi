@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Spectroscopy Made Easy"
+DESCRIPTION="Spectroscopy Made Easy [topver 5.74.9]"
 
 HOMEPAGE="https://github.com/AWehrhahn/SME/"
 LICENSE=""

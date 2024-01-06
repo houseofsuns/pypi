@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="YTsaurus SPYT high-level client"
+DESCRIPTION="YTsaurus SPYT high-level client [topver 66.0.2]"
 
 HOMEPAGE="https://github.com/ytsaurus/ytsaurus/tree/main/yt/spark/spark-over-yt"
 LICENSE="Apache-2.0"

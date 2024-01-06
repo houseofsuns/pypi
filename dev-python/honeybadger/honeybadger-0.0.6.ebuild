@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Send Python and Django errors to Honeybadger"
+DESCRIPTION="Send Python and Django errors to Honeybadger [topver 0.17.0]"
 
 HOMEPAGE="https://github.com/honeybadger-io/honeybadger-python"
 LICENSE="MIT"

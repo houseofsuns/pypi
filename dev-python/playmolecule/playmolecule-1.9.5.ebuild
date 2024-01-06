@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PlayMolecule python API"
+DESCRIPTION="PlayMolecule python API [topver 2.4.13]"
 
 HOMEPAGE="https://github.com/Acellera/playmolecule-python-api"
 LICENSE=""

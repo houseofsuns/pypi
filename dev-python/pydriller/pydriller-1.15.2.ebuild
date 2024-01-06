@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Framework for MSR"
+DESCRIPTION="Framework for MSR [topver 2.6]"
 
 HOMEPAGE="https://github.com/ishepard/pydriller"
 LICENSE="Apache License"

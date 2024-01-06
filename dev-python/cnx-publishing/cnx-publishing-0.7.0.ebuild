@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Application for accepting publication requests to the Connexions Archive."
+DESCRIPTION="Application for accepting publication requests to the Connexions Archive. [topver 0.17.32]"
 
 HOMEPAGE="https://github.com/connexions/cnx-publishing"
 LICENSE="LGPL, See also LICENSE.txt"

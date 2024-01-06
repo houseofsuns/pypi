@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Librairie de fonction utiles pour T4F"
+DESCRIPTION="Librairie de fonction utiles pour T4F [topver 0.3.10]"
 
 HOMEPAGE="http://gitlab.dev.fr.auchan.com/tech4finance/t4flib.git"
 LICENSE="MIT"

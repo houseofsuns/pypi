@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Zoho CRM SDK for Python developers"
+DESCRIPTION="Zoho CRM SDK for Python developers [topver 4.0.0]"
 
 HOMEPAGE="https://github.com/zoho/zcrm-python-sdk"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Standard input with timeout."
+DESCRIPTION="Standard input with timeout. [topver 1.0.4]"
 
 HOMEPAGE="http://github.com/johejo/inputimeout"
 LICENSE="MIT"

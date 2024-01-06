@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Avocado Runner for Execution on Docker Containers"
+DESCRIPTION="Avocado Runner for Execution on Docker Containers [topver 80.0]"
 
 HOMEPAGE="http://avocado-framework.github.io/"
 LICENSE=""

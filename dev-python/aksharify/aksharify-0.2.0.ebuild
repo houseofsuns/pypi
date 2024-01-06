@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ascii Art + Emoji Art python Package"
+DESCRIPTION="Ascii Art + Emoji Art python Package [topver 2.7.13]"
 
 HOMEPAGE="https://primepatel.github.io/aksharify/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool for text analysis"
+DESCRIPTION="A tool for text analysis [topver 0.89]"
 
 HOMEPAGE="https://github.com/Ejhfast/empath-client"
 LICENSE="UNKNOWN"

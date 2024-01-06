@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python helper package used for preprocessing video before sending it to Presage Technologies Physiology API."
+DESCRIPTION="A Python helper package used for preprocessing video before sending it to Presage Technologies Physiology API. [topver 1.2.4]"
 
 HOMEPAGE="https://physiology.presagetech.com/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Numerical optimization framework"
+DESCRIPTION="Numerical optimization framework [topver 0.4.6]"
 
 HOMEPAGE="http://sim.riteh.hr/"
 LICENSE=""

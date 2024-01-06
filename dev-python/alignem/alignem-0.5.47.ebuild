@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AlignEM-SWIFT is a graphical tool for registering serial section electron micrographs using SWiFT-IR."
+DESCRIPTION="AlignEM-SWIFT is a graphical tool for registering serial section electron micrographs using SWiFT-IR. [topver 0.5.440]"
 
 HOMEPAGE=""
 LICENSE="Mozilla Public License Version 2.0"

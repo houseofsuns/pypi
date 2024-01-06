@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="InstaGram Scrapper"
+DESCRIPTION="InstaGram Scrapper [topver 0.0.25]"
 
 HOMEPAGE="https://github.com/3110vaibhav2005/Igram/blob/main/sample1.py"
 LICENSE=""

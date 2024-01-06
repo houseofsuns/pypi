@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="⚡️Lightning-fast asynchronous download tool for bilibili and more"
+DESCRIPTION="⚡️Lightning-fast asynchronous download tool for bilibili and more [topver 1.0]"
 
 HOMEPAGE="https://github.com/HFrost0/bilix"
 LICENSE=""

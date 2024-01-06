@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Etcher's Python Application Builder"
+DESCRIPTION="Etcher's Python Application Builder [topver 2018.12.18.1]"
 
 HOMEPAGE="https://github.com/132nd-etcher/EPAB"
 LICENSE="GPL-3"

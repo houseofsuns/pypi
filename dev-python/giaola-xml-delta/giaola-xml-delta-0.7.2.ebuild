@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package to find differences between big xml files."
+DESCRIPTION="Package to find differences between big xml files. [topver 2.0.0]"
 
 HOMEPAGE="https://bitbucket.org/giaola/11888_delta"
 LICENSE=""

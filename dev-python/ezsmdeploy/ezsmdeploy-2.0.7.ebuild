@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SageMaker custom deployments made easy"
+DESCRIPTION="SageMaker custom deployments made easy [topver 2.0.12]"
 
 HOMEPAGE="https://pypi.python.org/pypi/ezsmdeploy"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Converts pandas DataFrames into Tableau Hyper Extracts and back"
+DESCRIPTION="Converts pandas DataFrames into Tableau Hyper Extracts and back [topver 3.0.3]"
 
 HOMEPAGE="https://github.com/innobi/pantab"
 LICENSE="BSD"

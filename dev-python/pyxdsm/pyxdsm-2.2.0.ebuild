@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python script to generate PDF XDSM diagrams using TikZ and LaTeX"
+DESCRIPTION="Python script to generate PDF XDSM diagrams using TikZ and LaTeX [topver 2.3.0]"
 
 HOMEPAGE="https://github.com/mdolab/pyXDSM"
 LICENSE="Apache License Version 2.0"

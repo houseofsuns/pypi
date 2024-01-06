@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python library for quantitative models."
+DESCRIPTION="A Python library for quantitative models. [topver 1.0.0]"
 
 HOMEPAGE="https://momba.dev/"
 LICENSE="MIT OR Apache-2.0"

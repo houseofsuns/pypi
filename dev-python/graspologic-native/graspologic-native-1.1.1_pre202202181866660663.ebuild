@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python native companion module to the graspologic library"
+DESCRIPTION="Python native companion module to the graspologic library [topver 1.2.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

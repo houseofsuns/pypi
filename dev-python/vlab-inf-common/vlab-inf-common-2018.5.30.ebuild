@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="vLab common logic for working with virtual infrastructure"
+DESCRIPTION="vLab common logic for working with virtual infrastructure [topver 2021.5.3]"
 
 HOMEPAGE=""
 LICENSE=""

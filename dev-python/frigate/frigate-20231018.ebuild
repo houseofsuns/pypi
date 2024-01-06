@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool for autogenerating helm documentation."
+DESCRIPTION="A tool for autogenerating helm documentation. [badver 0.8.0a0.post0_pre40]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Onfleet's Python API Wrapper Package"
+DESCRIPTION="Onfleet's Python API Wrapper Package [topver 1.0.0]"
 
 HOMEPAGE="https://pypi.python.org/pypi/pyonfleet/"
 LICENSE=""

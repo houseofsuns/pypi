@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Client for Humanloop API"
+DESCRIPTION="Client for Humanloop API [topver 1.0.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

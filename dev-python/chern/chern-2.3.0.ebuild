@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A data analysis management toolkit for high energy physics"
+DESCRIPTION="A data analysis management toolkit for high energy physics [topver 3.1.1]"
 
 HOMEPAGE="https://github.com/zhaomr13/Chern"
 LICENSE="Apache-2.0"

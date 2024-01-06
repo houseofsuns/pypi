@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="envtext for Chinese texts analysis in Environment domain"
+DESCRIPTION="envtext for Chinese texts analysis in Environment domain [topver 0.1.4]"
 
 HOMEPAGE="https://github.com/celtics1863/envtext"
 LICENSE=""

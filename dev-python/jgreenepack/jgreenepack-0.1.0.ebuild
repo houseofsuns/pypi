@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Swagger Petstore"
+DESCRIPTION="Swagger Petstore [topver 1.79.0]"
 
 HOMEPAGE=""
 LICENSE=""

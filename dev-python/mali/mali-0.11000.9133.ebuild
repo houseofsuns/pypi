@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command line tool for missinglink.ai platform"
+DESCRIPTION="Command line tool for missinglink.ai platform [topver 18.8.0]"
 
 HOMEPAGE="https://missinglink.ai"
 LICENSE="Apache-2.0"

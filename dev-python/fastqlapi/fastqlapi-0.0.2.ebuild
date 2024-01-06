@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="first"
+DESCRIPTION="first [topver 0.3.8]"
 
 HOMEPAGE="https://github.com/happy-machine/FastQL"
 LICENSE="MIT"

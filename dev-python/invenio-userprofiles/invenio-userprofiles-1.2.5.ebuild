@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="User profiles module for Invenio."
+DESCRIPTION="User profiles module for Invenio. [topver 2.3.1]"
 
 HOMEPAGE="https://github.com/inveniosoftware/invenio-userprofiles"
 LICENSE="MIT"

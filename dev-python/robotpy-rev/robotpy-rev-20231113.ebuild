@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="REVLib for RobotPy"
+DESCRIPTION="REVLib for RobotPy [badver 2024.0.0b1_p1]"
 
 HOMEPAGE="https://github.com/robotpy/robotpy-rev"
 LICENSE="BSD"

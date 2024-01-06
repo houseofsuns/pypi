@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple, elegant, Pythonic functional programming."
+DESCRIPTION="Simple, elegant, Pythonic functional programming. [badver 3.0.4.post0_pre12]"
 
 HOMEPAGE="http://coconut-lang.org"
 LICENSE="Apache-2.0"

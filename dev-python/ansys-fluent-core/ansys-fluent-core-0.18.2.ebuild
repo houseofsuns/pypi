@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pythonic interface to Ansys Fluent"
+DESCRIPTION="Pythonic interface to Ansys Fluent [topver 0.19]"
 
 HOMEPAGE="https://github.com/ansys/pyfluent"
 LICENSE="MIT"

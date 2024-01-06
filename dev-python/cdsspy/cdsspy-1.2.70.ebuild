@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provides Python functions for discovering and requesting data from the CDSS REST API."
+DESCRIPTION="Provides Python functions for discovering and requesting data from the CDSS REST API. [topver 1.2.691]"
 
 HOMEPAGE=""
 LICENSE=""

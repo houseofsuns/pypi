@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple project scaffolding for Python"
+DESCRIPTION="Simple project scaffolding for Python [topver 0.1.5]"
 
 HOMEPAGE="https://github.com/Aaronontheweb/scaffold-py"
 LICENSE="UNKNOWN"

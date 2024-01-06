@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="psprint - Prompt String Print"
+DESCRIPTION="psprint - Prompt String Print [topver 21.3.1, badver 1!1.3.4]"
 
 HOMEPAGE="https://gitlab.com/pradyparanjpe/psprint.git"
 LICENSE="LGPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python hook into the Amazon.com Product Advertising API"
+DESCRIPTION="A Python hook into the Amazon.com Product Advertising API [topver 1.1.8]"
 
 HOMEPAGE="https://github.com/lionheart/bottlenose"
 LICENSE="Apache-2.0"

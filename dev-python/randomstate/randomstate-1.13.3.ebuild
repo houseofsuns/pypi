@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Next-gen RandomState supporting multiple PRNGs"
+DESCRIPTION="Next-gen RandomState supporting multiple PRNGs [topver 1.14.0]"
 
 HOMEPAGE="https://github.com/bashtage/ng-numpy-randomstate"
 LICENSE="NSCA"

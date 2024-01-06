@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="generative design lattive design"
+DESCRIPTION="generative design lattive design [topver 0.4.2]"
 
 HOMEPAGE="https://github.com/francisbitontistudio/genysis_pythonPKG.git"
 LICENSE="MIT"

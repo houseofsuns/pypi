@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CaRT Neutering format"
+DESCRIPTION="CaRT Neutering format [topver 1.2.2]"
 
 HOMEPAGE="https://bitbucket.org/cse-assemblyline/cart"
 LICENSE="MIT"

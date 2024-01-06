@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ViroCon's numerical core: computes n-dimensional environmental contours"
+DESCRIPTION="ViroCon's numerical core: computes n-dimensional environmental contours [topver 1.4.14]"
 
 HOMEPAGE="https://github.com/virocon-organization/viroconcom"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for Helm: Kubernetes package manager"
+DESCRIPTION="Python bindings for Helm: Kubernetes package manager [topver 2.14.5]"
 
 HOMEPAGE="https://github.com/flaper87/pyhelm"
 LICENSE=""

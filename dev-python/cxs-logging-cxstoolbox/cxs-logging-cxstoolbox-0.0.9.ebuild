@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Send log from action node to csx toolbox log alerting"
+DESCRIPTION="Send log from action node to csx toolbox log alerting [topver 0.0.16]"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""

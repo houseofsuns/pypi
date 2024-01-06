@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python ISO 8601 date time parser and data model/manipulation utilities"
+DESCRIPTION="Python ISO 8601 date time parser and data model/manipulation utilities [badver 1!3.1.0]"
 
 HOMEPAGE="https://github.com/metomi/isodatetime"
 LICENSE="LGPL-3"

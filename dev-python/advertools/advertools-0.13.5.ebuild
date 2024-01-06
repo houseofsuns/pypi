@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Productivity and analysis tools for online marketing"
+DESCRIPTION="Productivity and analysis tools for online marketing [topver 0.14.0]"
 
 HOMEPAGE="https://github.com/eliasdabbas/advertools"
 LICENSE="MIT"

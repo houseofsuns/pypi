@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="run notebooks using the Dagster tools"
+DESCRIPTION="run notebooks using the Dagster tools [topver 1.0.5]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

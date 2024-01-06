@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A replacement for the Django Admin, focused on Content Management"
+DESCRIPTION="A replacement for the Django Admin, focused on Content Management [badver 3.1.0b15_pre18]"
 
 HOMEPAGE="https://github.com/markmiscavage/scarlet"
 LICENSE="MIT"

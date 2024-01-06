@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Classification Schemes for Choropleth Maps."
+DESCRIPTION="Classification Schemes for Choropleth Maps. [topver 23.1]"
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause"

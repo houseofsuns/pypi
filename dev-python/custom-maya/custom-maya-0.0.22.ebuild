@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Maya的便利工具"
+DESCRIPTION="Maya的便利工具 [topver 0.11]"
 
 HOMEPAGE="https://github.com/narutozb/custom_maya"
 LICENSE=""

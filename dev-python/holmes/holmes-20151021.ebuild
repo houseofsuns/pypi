@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Holmes is a service to investigate your website health."
+DESCRIPTION="Holmes is a service to investigate your website health. [badver 0.16.0-alpha1]"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="MIT"

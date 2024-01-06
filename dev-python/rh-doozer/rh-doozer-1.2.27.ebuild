@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CLI tool for managing and automating Red Hat software releases"
+DESCRIPTION="CLI tool for managing and automating Red Hat software releases [topver 2.0.9]"
 
 HOMEPAGE="https://github.com/openshift/doozer"
 LICENSE="Apache-2.0"

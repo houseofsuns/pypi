@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library to talk to Check_Mk Web API"
+DESCRIPTION="Library to talk to Check_Mk Web API [topver 1.9.0]"
 
 HOMEPAGE="https://github.com/brennerm/check-mk-web-api"
 LICENSE=""

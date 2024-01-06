@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python implementation of the JSON5 data format."
+DESCRIPTION="A Python implementation of the JSON5 data format. [topver 10.9.13]"
 
 HOMEPAGE="https://github.com/leeHeisen/mjson5.git"
 LICENSE="Apache-2.0"

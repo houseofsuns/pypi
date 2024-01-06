@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenStack Image Service Store Library"
+DESCRIPTION="OpenStack Image Service Store Library [topver 4.6.1]"
 
 HOMEPAGE="https://docs.openstack.org/glance_store/latest/"
 LICENSE=""

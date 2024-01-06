@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SRV TEST"
+DESCRIPTION="SRV TEST [topver 0.4.25]"
 
 HOMEPAGE="http://github/bartoszkaron/srv_test/"
 LICENSE="MIT"

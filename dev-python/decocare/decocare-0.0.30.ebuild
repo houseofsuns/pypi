@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Audit, inspect, and command MM insulin pumps."
+DESCRIPTION="Audit, inspect, and command MM insulin pumps. [topver 0.0.31]"
 
 HOMEPAGE="https://github.com/openaps/decocare"
 LICENSE="UNKNOWN"

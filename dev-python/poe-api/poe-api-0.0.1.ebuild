@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A reverse engineered API wrapper for Quora's Poe"
+DESCRIPTION="A reverse engineered API wrapper for Quora's Poe [topver 0.5.3]"
 
 HOMEPAGE="https://github.com/ading2210/poe-api"
 LICENSE=""

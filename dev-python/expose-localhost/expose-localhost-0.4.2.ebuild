@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Expose an app/api running on local host to public internet using AWS EC2"
+DESCRIPTION="Expose an app/api running on local host to public internet using AWS EC2 [topver 0.8]"
 
 HOMEPAGE="https://github.com/thevickypedia/expose"
 LICENSE=""

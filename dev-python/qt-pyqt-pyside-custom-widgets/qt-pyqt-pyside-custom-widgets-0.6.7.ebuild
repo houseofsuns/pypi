@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Custom widgets and widget animations made for QT applications"
+DESCRIPTION="Custom widgets and widget animations made for QT applications [topver 0.6.8]"
 
 HOMEPAGE="https://github.com/KhamisiKibet/QT-PyQt-PySide-Custom-Widgets"
 LICENSE="GNU General Public License v3.0"

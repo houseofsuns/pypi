@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A cross-platform module to control and obtain GUI information on application's windows."
+DESCRIPTION="A cross-platform module to control and obtain GUI information on application's windows. [topver 0.3]"
 
 HOMEPAGE="https://github.com/Kalmat/PyWinCtl"
 LICENSE="BSD 3"

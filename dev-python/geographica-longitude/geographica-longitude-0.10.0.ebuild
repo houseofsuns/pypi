@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A longitudinal lib"
+DESCRIPTION="A longitudinal lib [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/GeographicaGS/Longitude"
 LICENSE="MIT"

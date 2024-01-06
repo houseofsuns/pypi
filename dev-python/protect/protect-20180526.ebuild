@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Prediction of T-Cell Epitopes for Cancer Therapy"
+DESCRIPTION="Prediction of T-Cell Epitopes for Cancer Therapy [badver 2.7.0a1_pre585]"
 
 HOMEPAGE="http://github.com/BD2KGenomics/protect"
 LICENSE="Apache-2.0"

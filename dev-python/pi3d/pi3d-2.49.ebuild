@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pi3d OpenGLES2 3D graphics library"
+DESCRIPTION="pi3d OpenGLES2 3D graphics library [topver 2.51]"
 
 HOMEPAGE="http://pi3d.github.com/html/index.html"
 LICENSE="MIT generally but see docstrings in specific files"

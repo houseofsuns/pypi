@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [topver 3.7.2]"
 
 HOMEPAGE="https://github.com/p0dalirius/ApacheTomcatScanner"
 LICENSE="GPL-2"

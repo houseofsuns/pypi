@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package uses sts to assume a role based on AWS profile passed in"
+DESCRIPTION="Package uses sts to assume a role based on AWS profile passed in [topver 0.0.7]"
 
 HOMEPAGE=""
 LICENSE="MIT"

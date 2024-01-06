@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A blazingly fast domain extraction library written in Rust"
+DESCRIPTION="A blazingly fast domain extraction library written in Rust [topver 0.13.4]"
 
 HOMEPAGE="https://github.com/intsights/pydomainextractor"
 LICENSE="MIT"

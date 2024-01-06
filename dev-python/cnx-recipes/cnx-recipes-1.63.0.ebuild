@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CSS-transform (CSSt) recipes used to bake openstax books"
+DESCRIPTION="CSS-transform (CSSt) recipes used to bake openstax books [topver 1.104.1]"
 
 HOMEPAGE="http://github.com/Connexions/cnx-recipes"
 LICENSE="LGPL, see also LICENSE.txt"

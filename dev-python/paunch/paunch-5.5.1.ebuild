@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility to launch and manage containers using YAML based configuration data"
+DESCRIPTION="Utility to launch and manage containers using YAML based configuration data [topver 7.0.4]"
 
 HOMEPAGE="https://docs.openstack.org/paunch/latest/"
 LICENSE=""

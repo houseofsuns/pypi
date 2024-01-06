@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A lightweight IRC framework."
+DESCRIPTION="A lightweight IRC framework. [topver 2.0.0]"
 
 HOMEPAGE="https://github.com/luk3yx/miniirc"
 LICENSE="MIT"

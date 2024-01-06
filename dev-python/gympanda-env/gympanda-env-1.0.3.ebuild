@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A OpenAI Gym Env for Panda arm"
+DESCRIPTION="A OpenAI Gym Env for Panda arm [topver 1.1.2]"
 
 HOMEPAGE=""
 LICENSE=""

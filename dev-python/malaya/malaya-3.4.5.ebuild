@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Natural-Language-Toolkit for bahasa Malaysia, powered by Deep Learning Tensorflow."
+DESCRIPTION="Natural-Language-Toolkit for bahasa Malaysia, powered by Deep Learning Tensorflow. [topver 5.0]"
 
 HOMEPAGE="https://github.com/huseinzol05/Malaya"
 LICENSE="MIT"

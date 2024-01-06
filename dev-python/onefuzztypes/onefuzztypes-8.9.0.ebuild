@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Onefuzz Types Library"
+DESCRIPTION="Onefuzz Types Library [topver 9.0.0]"
 
 HOMEPAGE="https://github.com/microsoft/onefuzz/"
 LICENSE="MIT"

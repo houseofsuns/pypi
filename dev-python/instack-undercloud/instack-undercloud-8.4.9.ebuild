@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="instack-undercloud"
+DESCRIPTION="instack-undercloud [topver 9.5.1]"
 
 HOMEPAGE="https://git.openstack.org/cgit/openstack/instack-undercloud"
 LICENSE=""

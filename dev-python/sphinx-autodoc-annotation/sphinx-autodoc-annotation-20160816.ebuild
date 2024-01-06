@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Use Python 3 annotations in sphinx-enabled docstrings"
+DESCRIPTION="Use Python 3 annotations in sphinx-enabled docstrings [badver 1.0-1]"
 
 HOMEPAGE="https://github.com/hsoft/sphinx-autodoc-annotation"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Create and share a Message Secretly."
+DESCRIPTION="Create and share a Message Secretly. [topver 1.1]"
 
 HOMEPAGE=""
 LICENSE=""

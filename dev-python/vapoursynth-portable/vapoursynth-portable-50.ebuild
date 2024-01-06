@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A frameserver for the 21st century"
+DESCRIPTION="A frameserver for the 21st century [topver 65]"
 
 HOMEPAGE="http://www.vapoursynth.com/"
 LICENSE=""

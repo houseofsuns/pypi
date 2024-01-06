@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pack/Unpack Memory."
+DESCRIPTION="Pack/Unpack Memory. [topver 0.8.7]"
 
 HOMEPAGE="https://plum-py.readthedocs.io/en/latest/index.html"
 LICENSE="MIT License; http://opensource.org/licenses/MIT"

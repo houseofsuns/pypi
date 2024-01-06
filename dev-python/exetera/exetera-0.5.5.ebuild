@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="High-volume key-value store and analytics, based on hdf5"
+DESCRIPTION="High-volume key-value store and analytics, based on hdf5 [topver 0.6.0]"
 
 HOMEPAGE="https://github.com/kcl-bmeis/ExeTera"
 LICENSE="Apache-2.0"

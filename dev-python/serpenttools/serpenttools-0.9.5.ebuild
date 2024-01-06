@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A suite of parsers designed to make interacting with SERPENT output files simple, scriptable, and flawless"
+DESCRIPTION="A suite of parsers designed to make interacting with SERPENT output files simple, scriptable, and flawless [topver 0.10.1]"
 
 HOMEPAGE="https://github.com/CORE-GATECH-GROUP/serpent-tools"
 LICENSE="MIT"

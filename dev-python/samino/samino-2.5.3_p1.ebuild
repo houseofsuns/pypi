@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Amino Bots with python!"
+DESCRIPTION="Amino Bots with python! [topver 10.0.0]"
 
 HOMEPAGE="https://github.com/SirLez/SAmino"
 LICENSE="MIT"

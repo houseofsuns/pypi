@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Control napari via local socket."
+DESCRIPTION="Control napari via local socket. [badver 0.1.0b1_p1]"
 
 HOMEPAGE="https://github.com/aganders3/napari-listener"
 LICENSE="MIT"

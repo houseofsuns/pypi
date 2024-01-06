@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Combined package for feature extraction, hyperparameter tuning, and validation schema"
+DESCRIPTION="Combined package for feature extraction, hyperparameter tuning, and validation schema [topver 0.29]"
 
 HOMEPAGE=""
 LICENSE=""

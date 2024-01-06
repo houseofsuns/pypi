@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for the Pupil Labs Realtime API"
+DESCRIPTION="Python client for the Pupil Labs Realtime API [topver 1.2.0]"
 
 HOMEPAGE="https://github.com/pupil-labs/realtime-python-api"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Systems Engineering Library (se-lib)"
+DESCRIPTION="Systems Engineering Library (se-lib) [topver 0.199]"
 
 HOMEPAGE="http://se-lib.org"
 LICENSE=""

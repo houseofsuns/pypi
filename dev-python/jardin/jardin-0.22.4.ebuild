@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pandas dataframe-based ORM"
+DESCRIPTION="A Pandas dataframe-based ORM [topver 0.22.12]"
 
 HOMEPAGE="https://github.com/instacart/jardin"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="module to interface AR488 boards"
+DESCRIPTION="module to interface AR488 boards [topver 2.0.15]"
 
 HOMEPAGE="https://github.com/Minu-IU3IRR/PyAR488"
 LICENSE="MIT"

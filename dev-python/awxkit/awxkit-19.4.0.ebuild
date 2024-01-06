@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The official command line interface for Ansible AWX"
+DESCRIPTION="The official command line interface for Ansible AWX [topver 23.6.0]"
 
 HOMEPAGE="https://github.com/ansible/awx"
 LICENSE="Apache-2.0"

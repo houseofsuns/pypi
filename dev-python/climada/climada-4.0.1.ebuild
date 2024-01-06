@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CLIMADA in Python"
+DESCRIPTION="CLIMADA in Python [topver 4.3.3]"
 
 HOMEPAGE="https://github.com/CLIMADA-project/climada_python"
 LICENSE="OSI Approved :: GNU Lesser General Public License v3 GPLv3"

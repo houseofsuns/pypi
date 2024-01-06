@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python AI toolkits"
+DESCRIPTION="Python AI toolkits [topver 23.12.18.18]"
 
 HOMEPAGE="https://github.com/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pure python mmh3 implementation compatible with python2 and python3"
+DESCRIPTION="Pure python mmh3 implementation compatible with python2 and python3 [topver 0.0.5]"
 
 HOMEPAGE="https://github.com/aahmed-se"
 LICENSE="CC0 1.0"

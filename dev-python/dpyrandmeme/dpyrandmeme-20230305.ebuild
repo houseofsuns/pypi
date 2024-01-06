@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Random memes fetched for use in discord.py bot commands."
+DESCRIPTION="Random memes fetched for use in discord.py bot commands. [badver 1.0.1rc32_p1]"
 
 HOMEPAGE=""
 LICENSE=""

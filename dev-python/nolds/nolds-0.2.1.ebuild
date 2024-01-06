@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Nonlinear measures for dynamical systems (based on one-dimensional time series)"
+DESCRIPTION="Nonlinear measures for dynamical systems (based on one-dimensional time series) [topver 0.5.2]"
 
 HOMEPAGE="https://github.com/CSchoel/nolds"
 LICENSE="UNKNOWN"

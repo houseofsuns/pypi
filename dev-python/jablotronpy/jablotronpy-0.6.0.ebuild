@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A client to interact with the Jablotron API to control Jablotron alarm systems"
+DESCRIPTION="A client to interact with the Jablotron API to control Jablotron alarm systems [topver 0.10.0]"
 
 HOMEPAGE="https://github.com/fdegier/JablotronPy"
 LICENSE=""

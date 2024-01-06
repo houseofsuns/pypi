@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A programming model for composable configuration"
+DESCRIPTION="A programming model for composable configuration [topver 10.1.256]"
 
 HOMEPAGE="https://github.com/aws/constructs"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Simple SOAP Library"
+DESCRIPTION="Python Simple SOAP Library [topver 1.16.2]"
 
 HOMEPAGE="https://github.com/pysimplesoap/pysimplesoap/tree/stable"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package to generate and analyse distorted defect structures, in order to identify ground-state and metastable defect configurations."
+DESCRIPTION="Package to generate and analyse distorted defect structures, in order to identify ground-state and metastable defect configurations. [topver 24.1.7]"
 
 HOMEPAGE="https://shakenbreak.readthedocs.io/en/latest/index.html"
 LICENSE="MIT"

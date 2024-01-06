@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Distributed system test tools"
+DESCRIPTION="Distributed system test tools [topver 0.11.4]"
 
 HOMEPAGE="http://github.com/confluentinc/ducktape"
 LICENSE="apache2.0"

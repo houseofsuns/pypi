@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="##Intelligent Stock Market API"
+DESCRIPTION="##Intelligent Stock Market API [topver 0.0.6]"
 
 HOMEPAGE="https://eod-stock-api.site"
 LICENSE="Apache-2.0"

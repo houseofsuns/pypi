@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Linear algebra library for Python, with emphasis on ease of use"
+DESCRIPTION="Linear algebra library for Python, with emphasis on ease of use [topver 0.500.3]"
 
 HOMEPAGE="https://pyarma.sourceforge.io"
 LICENSE=""

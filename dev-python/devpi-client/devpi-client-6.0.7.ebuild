@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="devpi upload/install/... workflow commands for Python developers"
+DESCRIPTION="devpi upload/install/... workflow commands for Python developers [topver 7.0.2]"
 
 HOMEPAGE="https://devpi.net"
 LICENSE="MIT"

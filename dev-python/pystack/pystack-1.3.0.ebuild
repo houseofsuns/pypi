@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Analysis of the stack of remote python processes"
+DESCRIPTION="Analysis of the stack of remote python processes [topver 2.11.1]"
 
 HOMEPAGE="https://github.com/bloomberg/pystack"
 LICENSE=""

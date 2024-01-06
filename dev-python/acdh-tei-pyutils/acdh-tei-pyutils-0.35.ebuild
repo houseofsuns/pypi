@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilty functions to work with TEI Documents"
+DESCRIPTION="Utilty functions to work with TEI Documents [topver 29.1]"
 
 HOMEPAGE="https://github.com/acdh-oeaw/acdh-tei-pyutils"
 LICENSE="MIT"

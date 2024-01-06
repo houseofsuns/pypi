@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="libdeeplake"
+DESCRIPTION="libdeeplake [topver 0.0.95]"
 
 HOMEPAGE="https://activeloop.ai"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An utility tool to list, read and fill secrets from multiple stores."
+DESCRIPTION="An utility tool to list, read and fill secrets from multiple stores. [topver 1.3.5]"
 
 HOMEPAGE=""
 LICENSE="GPL-3+"

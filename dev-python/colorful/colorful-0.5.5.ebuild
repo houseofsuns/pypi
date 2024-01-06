@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Terminal string styling done right, in Python."
+DESCRIPTION="Terminal string styling done right, in Python. [topver 0.6.0]"
 
 HOMEPAGE="http://github.com/timofurrer/colorful"
 LICENSE=""

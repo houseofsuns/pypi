@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package for highly flexible function-valued Gaussian processes (fvGP)"
+DESCRIPTION="Python package for highly flexible function-valued Gaussian processes (fvGP) [topver 7.4.9]"
 
 HOMEPAGE="https://github.com/MarcusMichaelNoack/fvgp"
 LICENSE="GNU General Public License v3"

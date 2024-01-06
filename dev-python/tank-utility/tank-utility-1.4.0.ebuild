@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A smart propane tank monitor."
+DESCRIPTION="A smart propane tank monitor. [topver 1.5.0]"
 
 HOMEPAGE="https://git.io/k20e"
 LICENSE="MIT"

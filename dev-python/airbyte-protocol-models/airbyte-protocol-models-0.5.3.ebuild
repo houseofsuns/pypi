@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Declares the Airbyte Protocol."
+DESCRIPTION="Declares the Airbyte Protocol. [topver 1.0.1]"
 
 HOMEPAGE="https://github.com/airbytehq/airbyte-protocol"
 LICENSE="MIT"

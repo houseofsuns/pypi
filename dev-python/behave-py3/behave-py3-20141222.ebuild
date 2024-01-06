@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="behave is behaviour-driven development, Python style.behave-py3 is a personal fork with python 3 support.Hope it could be merged back to upstream."
+DESCRIPTION="behave is behaviour-driven development, Python style.behave-py3 is a personal fork with python 3 support.Hope it could be merged back to upstream. [badver 1.2.5-r2014122202]"
 
 HOMEPAGE="http://github.com/sunliwen/behave"
 LICENSE="BSD"

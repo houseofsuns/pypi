@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This package name is reserved by Microsoft Corporation"
+DESCRIPTION="This package name is reserved by Microsoft Corporation [topver 0.1.2]"
 
 HOMEPAGE="https://aka.ms/python"
 LICENSE=""

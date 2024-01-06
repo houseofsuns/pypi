@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for libknot"
+DESCRIPTION="Python bindings for libknot [topver 3.3.3]"
 
 HOMEPAGE="https://gitlab.nic.cz/knot/knot-dns"
 LICENSE="GPL-3"

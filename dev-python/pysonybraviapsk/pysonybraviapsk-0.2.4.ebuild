@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for Sony Bravia TVs with Pre-Shared Key option"
+DESCRIPTION="Library for Sony Bravia TVs with Pre-Shared Key option [topver 0.3.2]"
 
 HOMEPAGE="https://github.com/gerard33/sony_bravia_psk"
 LICENSE="MIT"

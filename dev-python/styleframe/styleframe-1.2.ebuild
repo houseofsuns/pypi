@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library that wraps pandas and openpyxl and allows easy styling of dataframes in excel. Documentation can be found at http://styleframe.readthedocs.org"
+DESCRIPTION="A library that wraps pandas and openpyxl and allows easy styling of dataframes in excel. Documentation can be found at http://styleframe.readthedocs.org [topver 4.2]"
 
 HOMEPAGE="https://github.com/DeepSpace2/StyleFrame"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Multiprotocol Web Services for TurboGears 1.x"
+DESCRIPTION="Multiprotocol Web Services for TurboGears 1.x [topver 2.0.0]"
 
 HOMEPAGE="http://code.google.com/p/tgws/"
 LICENSE="MIT"

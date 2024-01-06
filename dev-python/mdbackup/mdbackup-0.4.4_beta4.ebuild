@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Small but customizable utility to create backups and store them in cloud storage providers"
+DESCRIPTION="Small but customizable utility to create backups and store them in cloud storage providers [topver 0.4.5]"
 
 HOMEPAGE="https://github.com/majorcadevs/mdbackup"
 LICENSE=""

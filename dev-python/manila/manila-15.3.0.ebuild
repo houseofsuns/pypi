@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Shared Storage for OpenStack"
+DESCRIPTION="Shared Storage for OpenStack [topver 17.1.0]"
 
 HOMEPAGE="https://docs.openstack.org/manila/latest/"
 LICENSE=""

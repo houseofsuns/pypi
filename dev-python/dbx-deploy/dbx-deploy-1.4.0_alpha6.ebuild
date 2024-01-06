@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Databricks Deployment Tool"
+DESCRIPTION="Databricks Deployment Tool [topver 1.4.1]"
 
 HOMEPAGE="https://github.com/daipe-ai/dbx-deploy"
 LICENSE="MIT"

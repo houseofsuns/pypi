@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AWS lambda unit which execute given code on selenium"
+DESCRIPTION="AWS lambda unit which execute given code on selenium [topver 0.9.1]"
 
 HOMEPAGE="https://github.com/umihico/chromeless"
 LICENSE="MIT"

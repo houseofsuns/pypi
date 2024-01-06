@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple tool for getting geolocation information on given IP address from various geolocation databases."
+DESCRIPTION="Simple tool for getting geolocation information on given IP address from various geolocation databases. [topver 0.1.6]"
 
 HOMEPAGE="https://github.com/tomas-net/ip2geotools"
 LICENSE="MIT"

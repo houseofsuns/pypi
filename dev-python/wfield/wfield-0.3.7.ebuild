@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities to look at widefield data and align with the allen reference map."
+DESCRIPTION="Utilities to look at widefield data and align with the allen reference map. [topver 0.4.1]"
 
 HOMEPAGE="https://github.com/jcouto/wfield"
 LICENSE="GPL-3"

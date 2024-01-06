@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Event storage publisher and API for Ceilometer"
+DESCRIPTION="Event storage publisher and API for Ceilometer [topver 10.0.0]"
 
 HOMEPAGE="https://docs.openstack.org/panko/latest/"
 LICENSE=""

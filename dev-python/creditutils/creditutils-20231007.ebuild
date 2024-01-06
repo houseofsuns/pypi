@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python small tools util."
+DESCRIPTION="python small tools util. [badver 0.2.9b1_pre1]"
 
 HOMEPAGE="https://github.com/pytxxy/creditutils"
 LICENSE=""

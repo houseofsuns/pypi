@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="JupyterLab Distribution with a retro look and feel"
+DESCRIPTION="JupyterLab Distribution with a retro look and feel [topver 0.4.0]"
 
 HOMEPAGE="https://github.com/jupyterlab/retrolab"
 LICENSE=""

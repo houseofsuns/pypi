@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple query builder for Elasticsearch"
+DESCRIPTION="A simple query builder for Elasticsearch [topver 3.2]"
 
 HOMEPAGE="http://github.com/Fizzadar/ElasticQuery"
 LICENSE=""

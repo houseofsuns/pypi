@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django REST framework (DRF) serializer speedup"
+DESCRIPTION="Django REST framework (DRF) serializer speedup [topver 0.3.4]"
 
 HOMEPAGE="https://github.com/K0Te/drf-serializer-cache"
 LICENSE="BSD"

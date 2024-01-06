@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for building and maintaining Juju charms"
+DESCRIPTION="Tools for building and maintaining Juju charms [topver 3.0.7]"
 
 HOMEPAGE="https://github.com/juju/charm-tools"
 LICENSE="GPL v3"

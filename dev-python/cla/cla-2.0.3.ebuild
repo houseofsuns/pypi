@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An integrated Python toolkit for classifiability analysis."
+DESCRIPTION="An integrated Python toolkit for classifiability analysis. [topver 2.1.2]"
 
 HOMEPAGE="http://pypi.python.org/pypi/cla/"
 LICENSE="LICENSE.txt"

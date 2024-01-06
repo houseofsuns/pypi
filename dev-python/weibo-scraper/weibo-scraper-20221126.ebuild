@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [badver 1.0.7rc1_pre3]"
 
 HOMEPAGE="https://github.com/Xarrow/weibo-scraper"
 LICENSE="MIT"

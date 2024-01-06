@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Rate Limiter based on Redis."
+DESCRIPTION="Python Rate Limiter based on Redis. [topver 0.0.8]"
 
 HOMEPAGE="https://github.com/evoluxbr/python-redis-rate-limit"
 LICENSE="MIT"

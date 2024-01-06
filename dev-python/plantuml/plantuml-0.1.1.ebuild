@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="UNKNOWN"
+DESCRIPTION="UNKNOWN [topver 0.3.0]"
 
 HOMEPAGE="https://github.com/dougn/python-plantuml/"
 LICENSE="BSD"

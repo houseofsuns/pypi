@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Docker network plugin for VLCP"
+DESCRIPTION="Docker network plugin for VLCP [topver 0.3.0]"
 
 HOMEPAGE="https://github.com/hubo1016/vlcp-docker-plugin"
 LICENSE="Apache-2.0"

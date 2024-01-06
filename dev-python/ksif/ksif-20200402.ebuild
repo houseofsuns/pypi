@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Quantitative investment tools for KSIF"
+DESCRIPTION="Quantitative investment tools for KSIF [topver 20200402, badver v20200402-02]"
 
 HOMEPAGE="https://github.com/sangheumcho/ksif"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An algo trading package"
+DESCRIPTION="An algo trading package [topver 0.0.493]"
 
 HOMEPAGE="https://github.com/pySaurus/AlgoTrader"
 LICENSE=""

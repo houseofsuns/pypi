@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [badver 0.2.1-alpha.7]"
 
 HOMEPAGE="https://github.com/LaRiffle/shaloop"
 LICENSE="Apache-2.0"

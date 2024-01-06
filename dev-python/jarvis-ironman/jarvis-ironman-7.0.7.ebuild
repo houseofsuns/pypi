@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Natural Language User Interface"
+DESCRIPTION="Natural Language User Interface [topver 7.2.2]"
 
 HOMEPAGE="https://github.com/thevickypedia/Jarvis"
 LICENSE=""

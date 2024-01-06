@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Graphene SQLAlchemy core integration"
+DESCRIPTION="Graphene SQLAlchemy core integration [topver 3.4.9.38233081]"
 
 HOMEPAGE="https://github.com/startupmillio/alchql"
 LICENSE="MIT"

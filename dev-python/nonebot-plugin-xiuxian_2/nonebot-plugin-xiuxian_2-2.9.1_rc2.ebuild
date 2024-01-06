@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="基于Nonebot2修仙文字游戏"
+DESCRIPTION="基于Nonebot2修仙文字游戏 [topver 2.9.2.2]"
 
 HOMEPAGE="https://github.com/QingMuCat/nonebot_plugin_xiuxian_2"
 LICENSE="GPL-3+"

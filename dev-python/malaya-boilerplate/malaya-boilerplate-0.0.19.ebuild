@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tensorflow freeze graph optimization and boilerplates to share among Malaya projects."
+DESCRIPTION="Tensorflow freeze graph optimization and boilerplates to share among Malaya projects. [topver 0.0.25]"
 
 HOMEPAGE="https://github.com/huseinzol05/malaya-boilerplate"
 LICENSE="MIT"

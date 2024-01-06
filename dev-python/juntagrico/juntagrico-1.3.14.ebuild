@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="juntagrico"
+DESCRIPTION="juntagrico [topver 1.5.8]"
 
 HOMEPAGE="https://www.juntagrico.org"
 LICENSE="GNU Lesser General Public License v3 LGPLv3"

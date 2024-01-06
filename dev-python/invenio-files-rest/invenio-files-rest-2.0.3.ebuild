@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\"Files download/upload REST API similar to S3 for Invenio.\""
+DESCRIPTION="\"Files download/upload REST API similar to S3 for Invenio.\" [topver 2.1.0]"
 
 HOMEPAGE="https://github.com/inveniosoftware/invenio-files-rest"
 LICENSE="MIT"

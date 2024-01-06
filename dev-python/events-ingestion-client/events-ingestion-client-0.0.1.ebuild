@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Events Ingestion API"
+DESCRIPTION="Events Ingestion API [topver 1.5.0]"
 
 HOMEPAGE=""
 LICENSE=""

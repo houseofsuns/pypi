@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Microdrop is a graphical user interface for the DropBot Digital Microfluidics control system"
+DESCRIPTION="Microdrop is a graphical user interface for the DropBot Digital Microfluidics control system [badver 2.0.post115_pre9233482]"
 
 HOMEPAGE="http://microfluidics.utoronto.ca/microdrop"
 LICENSE="GPL-3"

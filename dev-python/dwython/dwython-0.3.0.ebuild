@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Datawave Python API"
+DESCRIPTION="Datawave Python API [topver 0.3.6]"
 
 HOMEPAGE="https://github.com/phrocker/dwython"
 LICENSE=""

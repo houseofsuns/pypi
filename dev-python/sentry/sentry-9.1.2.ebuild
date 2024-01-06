@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A realtime logging and aggregation server."
+DESCRIPTION="A realtime logging and aggregation server. [topver 23.7.1]"
 
 HOMEPAGE="https://sentry.io"
 LICENSE="BSD"

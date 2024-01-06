@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for SABnzbd API"
+DESCRIPTION="Python wrapper for SABnzbd API [topver 1.1.1]"
 
 HOMEPAGE="https://github.com/jeradM/pysabnzbd"
 LICENSE=""

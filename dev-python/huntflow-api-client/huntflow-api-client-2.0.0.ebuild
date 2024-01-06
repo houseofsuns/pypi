@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Huntflow API Client for Python"
+DESCRIPTION="Huntflow API Client for Python [topver 3.0.108]"
 
 HOMEPAGE=""
 LICENSE="MIT"

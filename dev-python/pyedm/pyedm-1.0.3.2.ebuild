@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for cppEDM using pybind11"
+DESCRIPTION="Python wrapper for cppEDM using pybind11 [topver 1.15.3.0]"
 
 HOMEPAGE="https://github.com/SugiharaLab/pyEDM"
 LICENSE="Copyright 2019 The Regents of the University of California."

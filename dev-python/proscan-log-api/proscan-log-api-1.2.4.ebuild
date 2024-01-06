@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Log API for PSI's PROSCAN"
+DESCRIPTION="Log API for PSI's PROSCAN [topver 1.2.5]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A useful package for parsing m3u files or links"
+DESCRIPTION="A useful package for parsing m3u files or links [topver 0.4.0]"
 
 HOMEPAGE="https://github.com/pawanpaudel93/m3u_parser"
 LICENSE="ISC"

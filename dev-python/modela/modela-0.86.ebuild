@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python client sdk for the modela auto ml system."
+DESCRIPTION="python client sdk for the modela auto ml system. [topver 0.710]"
 
 HOMEPAGE="https://github.com/metaprov/modela-python-sdk"
 LICENSE="MIT"

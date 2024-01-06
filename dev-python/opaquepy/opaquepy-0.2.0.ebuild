@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for opaque-ke."
+DESCRIPTION="Python bindings for opaque-ke. [topver 0.3.5]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

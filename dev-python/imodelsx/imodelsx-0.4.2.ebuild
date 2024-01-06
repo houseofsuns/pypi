@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library to explain a dataset in natural language."
+DESCRIPTION="Library to explain a dataset in natural language. [topver 0.31]"
 
 HOMEPAGE="https://github.com/csinva/imodelsX"
 LICENSE=""

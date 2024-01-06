@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="th2_grpc_crawler_data_processor"
+DESCRIPTION="th2_grpc_crawler_data_processor [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/th2-net/th2-grpc-crawler-data-processor"
 LICENSE="Apache-2.0"

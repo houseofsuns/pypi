@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client implementation and AMQP conformance tests for Apache Qpid"
+DESCRIPTION="Python client implementation and AMQP conformance tests for Apache Qpid [badver 1.36.0-1]"
 
 HOMEPAGE="http://qpid.apache.org/"
 LICENSE="Apache-2.0"

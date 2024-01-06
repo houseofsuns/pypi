@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PSDファイルのレイヤー構造＋画像をディレクトリ構造＋PNGとしてダンプするスクリプト"
+DESCRIPTION="PSDファイルのレイヤー構造＋画像をディレクトリ構造＋PNGとしてダンプするスクリプト [topver 20220819.3]"
 
 HOMEPAGE="https://github.com/aoirint/psdlayer2dirpy"
 LICENSE=""

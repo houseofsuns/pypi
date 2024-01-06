@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast point(s)-in-polygon queries."
+DESCRIPTION="Fast point(s)-in-polygon queries. [topver 0.2.0]"
 
 HOMEPAGE="https://github.com/dengwirda/inpoly-python"
 LICENSE="custom"

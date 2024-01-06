@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Count the number of tokens in a text string or file, similar to the Unix 'wc' utility."
+DESCRIPTION="Count the number of tokens in a text string or file, similar to the Unix 'wc' utility. [topver 0.2.0]"
 
 HOMEPAGE="https://github.com/felvin-search/token-count"
 LICENSE=""

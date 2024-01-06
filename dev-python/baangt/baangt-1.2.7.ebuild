@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open source Test Automation Suite for MacOS, Windows, Linux"
+DESCRIPTION="Open source Test Automation Suite for MacOS, Windows, Linux [topver 2020.5.3]"
 
 HOMEPAGE="https://baangt.org"
 LICENSE=""

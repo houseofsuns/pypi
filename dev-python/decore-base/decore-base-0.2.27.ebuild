@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="decore Base is an out-of-the-box \"Python to Vue.js\" data application dashboard that helps you go from idea to view in a few simple steps. It is aimed at those who want to focus on the results of their algorithms , do scientific work, or perform teaching or learning functions."
+DESCRIPTION="decore Base is an out-of-the-box \"Python to Vue.js\" data application dashboard that helps you go from idea to view in a few simple steps. It is aimed at those who want to focus on the results of their algorithms , do scientific work, or perform teaching or learning functions. [topver 0.12]"
 
 HOMEPAGE="https://www.decore.dev"
 LICENSE=""

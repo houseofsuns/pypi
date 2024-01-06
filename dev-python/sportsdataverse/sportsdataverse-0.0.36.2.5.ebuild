@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Retrieve Sports data in Python"
+DESCRIPTION="Retrieve Sports data in Python [topver 0.0.39]"
 
 HOMEPAGE="https://github.com/sportsdataverse/sportsdataverse-py"
 LICENSE="MIT"

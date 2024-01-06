@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Django front end for Mathics."
+DESCRIPTION="A Django front end for Mathics. [topver 6.0.0]"
 
 HOMEPAGE="https://mathics.org/"
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SDK for bloXroute's Solana Trader API"
+DESCRIPTION="Python SDK for bloXroute's Solana Trader API [topver 1.8.2]"
 
 HOMEPAGE="https://github.com/bloXroute-Labs/solana-trader-client-python"
 LICENSE=""

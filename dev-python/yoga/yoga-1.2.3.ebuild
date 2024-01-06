@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Yummy Optimizer for Gorgeous Assets"
+DESCRIPTION="Yummy Optimizer for Gorgeous Assets [topver 1.3.0]"
 
 HOMEPAGE="https://github.com/wanadev/yoga"
 LICENSE="BSD"

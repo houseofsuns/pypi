@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NetBox plugin for Napalm."
+DESCRIPTION="NetBox plugin for Napalm. [topver 0.1.7]"
 
 HOMEPAGE="https://github.com/netbox-community/netbox-napalm"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="F5 Networks Agent for OpenStack services"
+DESCRIPTION="F5 Networks Agent for OpenStack services [topver 10.1.0]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Precompiled binaries for pngquant, the lossy PNG compressor based on libimagequant."
+DESCRIPTION="Precompiled binaries for pngquant, the lossy PNG compressor based on libimagequant. [topver 2.17.1]"
 
 HOMEPAGE="https://pngquant.org"
 LICENSE="GPL-3+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deep learning library"
+DESCRIPTION="Deep learning library [topver 1.0.2]"
 
 HOMEPAGE="https://github.com/ez-spark/Pyllab"
 LICENSE=""

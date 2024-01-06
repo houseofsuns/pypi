@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python SDK for StreamSets"
+DESCRIPTION="A Python SDK for StreamSets [topver 6.2.0]"
 
 HOMEPAGE=""
 LICENSE=""

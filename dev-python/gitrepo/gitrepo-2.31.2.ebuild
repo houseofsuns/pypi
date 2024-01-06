@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Repo helps manage many Git repositories, does the uploads to revision control systems, and automates parts of the development workflow."
+DESCRIPTION="Repo helps manage many Git repositories, does the uploads to revision control systems, and automates parts of the development workflow. [topver 2.32.2]"
 
 HOMEPAGE="https://gerrit.googlesource.com/git-repo/"
 LICENSE="Apache-2.0"

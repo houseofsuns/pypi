@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton server"
+DESCRIPTION="Tryton server [topver 7.0.4]"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"

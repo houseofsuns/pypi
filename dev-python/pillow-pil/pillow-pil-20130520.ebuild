@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pillow wrapper for PIL compatibility"
+DESCRIPTION="Pillow wrapper for PIL compatibility [badver 0.1dev]"
 
 HOMEPAGE="https://github.com/yinpeng/pillow-pil"
 LICENSE="UNKNOWN"

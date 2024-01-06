@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [topver 0.7.0]"
 
 HOMEPAGE="https://cgarciae.github.io/treex"
 LICENSE="MIT"

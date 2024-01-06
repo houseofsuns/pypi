@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="wrapper for micorsoft teams graph api's"
+DESCRIPTION="wrapper for micorsoft teams graph api's [topver 0.0.5]"
 
 HOMEPAGE="https://github.com/Ajay7415/graphapi"
 LICENSE=""

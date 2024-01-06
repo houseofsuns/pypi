@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [topver 1.1.0]"
 
 HOMEPAGE="https://github.com/ci-cmg/echofish-aws-raw-to-zarr-lambda"
 LICENSE=""

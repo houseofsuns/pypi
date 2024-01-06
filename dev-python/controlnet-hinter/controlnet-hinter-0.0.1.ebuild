@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ControlNet hint embedding utilities"
+DESCRIPTION="ControlNet hint embedding utilities [topver 0.0.5]"
 
 HOMEPAGE="https://github.com/takuma104/controlnet_hinter"
 LICENSE=""

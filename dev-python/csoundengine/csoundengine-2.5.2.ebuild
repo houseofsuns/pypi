@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A synthesis framework using csound"
+DESCRIPTION="A synthesis framework using csound [topver 2.5.3]"
 
 HOMEPAGE="https://github.com/gesellkammer/csoundengine"
 LICENSE="BSD"

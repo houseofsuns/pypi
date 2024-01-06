@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A very small text templating language"
+DESCRIPTION="A very small text templating language [badver 0.5.3dev]"
 
 HOMEPAGE="http://pythonpaste.org/tempita/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python implementation of SnapTrade API client library"
+DESCRIPTION="A Python implementation of SnapTrade API client library [topver 1.0.10]"
 
 HOMEPAGE=""
 LICENSE=""

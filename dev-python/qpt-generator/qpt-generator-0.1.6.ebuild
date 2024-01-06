@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Question Paper Template Generator"
+DESCRIPTION="Question Paper Template Generator [topver 0.1.7]"
 
 HOMEPAGE="https://github.com/Niraj-Kamdar/qpt_generator"
 LICENSE="MIT"

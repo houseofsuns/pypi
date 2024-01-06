@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Summer is a compartmental disease modelling framework, written in Python. It provides a high-level API to build and run models."
+DESCRIPTION="Summer is a compartmental disease modelling framework, written in Python. It provides a high-level API to build and run models. [topver 4.2.0]"
 
 HOMEPAGE="http://summerepi.com/"
 LICENSE="BSD-2"

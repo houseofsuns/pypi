@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Serialized Data Interface for Juju Operators"
+DESCRIPTION="Serialized Data Interface for Juju Operators [topver 0.7.0]"
 
 HOMEPAGE="https://github.com/canonical/serialized-data-interface/"
 LICENSE="Apache-2.0"

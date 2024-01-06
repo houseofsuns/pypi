@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Processing and conversion tools for Internet Topology Zoo"
+DESCRIPTION="Processing and conversion tools for Internet Topology Zoo [badver 0.4.2dev-20130414]"
 
 HOMEPAGE="http://www.topology-zoo.org"
 LICENSE="UNKNOWN"

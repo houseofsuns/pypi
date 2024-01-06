@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for training and benchmarking RL agents on graphs."
+DESCRIPTION="A library for training and benchmarking RL agents on graphs. [topver 0.0.65]"
 
 HOMEPAGE="https://github.com/teshnizi/GraphEnvs"
 LICENSE=""

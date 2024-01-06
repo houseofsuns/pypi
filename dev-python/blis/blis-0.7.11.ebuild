@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Blis BLAS-like linear algebra library, as a self-contained C-extension."
+DESCRIPTION="The Blis BLAS-like linear algebra library, as a self-contained C-extension. [topver 0.9.1]"
 
 HOMEPAGE="https://github.com/explosion/cython-blis"
 LICENSE="BSD"

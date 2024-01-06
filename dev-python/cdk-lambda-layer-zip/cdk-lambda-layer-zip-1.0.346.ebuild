@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lambda Layer for tar gz 7z"
+DESCRIPTION="Lambda Layer for tar gz 7z [topver 2.0.343]"
 
 HOMEPAGE="https://github.com/clarencetw/cdk-lambda-layer-zip.git"
 LICENSE="Apache-2.0"

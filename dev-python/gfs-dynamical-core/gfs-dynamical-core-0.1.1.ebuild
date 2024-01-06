@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Only the dynamical core of the climt repository"
+DESCRIPTION="Only the dynamical core of the climt repository [topver 0.16.14]"
 
 HOMEPAGE="https://github.com/Ai33L/gfs_dynamical_core.git"
 LICENSE="BSD license"

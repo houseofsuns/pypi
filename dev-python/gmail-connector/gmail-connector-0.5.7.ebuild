@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python module to, send SMS, emails and read unread emails."
+DESCRIPTION="Python module to, send SMS, emails and read unread emails. [topver 1.0]"
 
 HOMEPAGE="https://github.com/thevickypedia/gmail-connector"
 LICENSE=""

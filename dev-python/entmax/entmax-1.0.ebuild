@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The entmax mapping and its loss, a family of sparse alternatives to softmax."
+DESCRIPTION="The entmax mapping and its loss, a family of sparse alternatives to softmax. [topver 1.2]"
 
 HOMEPAGE="https://github.com/deep-spin/entmax"
 LICENSE="MIT"

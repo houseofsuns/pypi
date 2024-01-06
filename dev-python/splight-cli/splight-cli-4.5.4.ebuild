@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Splight Command Line Interface"
+DESCRIPTION="Splight Command Line Interface [topver 4.6.0]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The IQS is an iterative approach for optimizing short keyword queries given a prototype document through interaction with an opaque search engine such as Twitter."
+DESCRIPTION="The IQS is an iterative approach for optimizing short keyword queries given a prototype document through interaction with an opaque search engine such as Twitter. [topver 1.0.0]"
 
 HOMEPAGE="https://iqs.cs.bgu.ac.il/"
 LICENSE=""

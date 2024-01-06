@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Daipe framework core"
+DESCRIPTION="Daipe framework core [topver 1.5.0]"
 
 HOMEPAGE="https://github.com/daipe-ai/daipe-core"
 LICENSE="MIT"

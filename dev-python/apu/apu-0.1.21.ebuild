@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Antons Python Utilities"
+DESCRIPTION="Antons Python Utilities [topver 0.1.22.0.0]"
 
 HOMEPAGE="https://github.com/afeldman/apu"
 LICENSE="MIT"

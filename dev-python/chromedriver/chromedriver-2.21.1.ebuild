@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tool for downloading chromedriver"
+DESCRIPTION="Tool for downloading chromedriver [topver 2.24.1]"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="apache2.0 http://www.apache.org/licenses/LICENSE-2.0"

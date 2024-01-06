@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="django-modeltranslation with support grappelli."
+DESCRIPTION="django-modeltranslation with support grappelli. [topver 3.0.0]"
 
 HOMEPAGE="https://github.com/Brogency/modeltranslation-grappelli"
 LICENSE="BSD"

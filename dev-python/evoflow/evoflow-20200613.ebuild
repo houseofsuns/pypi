@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Genetic algorithms for humans"
+DESCRIPTION="Genetic algorithms for humans [badver 0.5.2-1592070199]"
 
 HOMEPAGE="https://github.com/google/evoflow"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pytorch library for second-order based analysis and training of Neural Networks"
+DESCRIPTION="Pytorch library for second-order based analysis and training of Neural Networks [topver 0.1]"
 
 HOMEPAGE="https://github.com/amirgholami/PyHessian"
 LICENSE="MIT"

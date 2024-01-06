@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A toolkit for PyQt 5"
+DESCRIPTION="A toolkit for PyQt 5 [topver 0.8.0]"
 
 HOMEPAGE="https://github.com/Simmovation/pyqttoolkit"
 LICENSE="GPL-3"

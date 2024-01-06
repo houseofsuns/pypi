@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dockerized radio interferometry scripting framework"
+DESCRIPTION="Dockerized radio interferometry scripting framework [topver 2.0]"
 
 HOMEPAGE="https://github.com/ratt-ru/Stimela"
 LICENSE=""

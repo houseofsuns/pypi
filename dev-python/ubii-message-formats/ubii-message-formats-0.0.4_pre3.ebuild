@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\"Python Code for Ubi Interact protobuf messages\""
+DESCRIPTION="\"Python Code for Ubi Interact protobuf messages\" [topver 0.3.1]"
 
 HOMEPAGE="https://github.com/saggitar/ubii-msg-formats.git"
 LICENSE=""

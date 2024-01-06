@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ego input/output repository"
+DESCRIPTION="ego input/output repository [topver 0.4.8]"
 
 HOMEPAGE="https://github.com/openego/ego.io"
 LICENSE="GNU Affero General Public License v3.0"

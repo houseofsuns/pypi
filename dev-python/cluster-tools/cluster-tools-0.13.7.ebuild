@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility library for easily distributing code execution on clusters"
+DESCRIPTION="Utility library for easily distributing code execution on clusters [topver 1.61]"
 
 HOMEPAGE="https://github.com/scalableminds/webknossos-libs"
 LICENSE="MIT"

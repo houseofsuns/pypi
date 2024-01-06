@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="WebVTT reader, writer and segmenter"
+DESCRIPTION="WebVTT reader, writer and segmenter [topver 0.4.6]"
 
 HOMEPAGE="https://github.com/glut23/webvtt-py"
 LICENSE="MIT"

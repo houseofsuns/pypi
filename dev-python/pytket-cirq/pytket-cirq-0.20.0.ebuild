@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extension for pytket, providing translation to and from the Cirq framework"
+DESCRIPTION="Extension for pytket, providing translation to and from the Cirq framework [topver 0.32.0]"
 
 HOMEPAGE="https://github.com/CQCL/pytket-extensions"
 LICENSE="Apache-2.0"

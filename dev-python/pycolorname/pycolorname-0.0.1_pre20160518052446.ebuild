@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provides common color systems."
+DESCRIPTION="Provides common color systems. [topver 0.1.0]"
 
 HOMEPAGE="https://github.com/AbdealiJK/pycolorname"
 LICENSE="MIT"

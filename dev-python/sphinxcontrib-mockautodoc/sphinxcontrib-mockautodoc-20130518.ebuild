@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sphinx mocking autodoc extension"
+DESCRIPTION="Sphinx mocking autodoc extension [badver 0.0.1dev-20130518]"
 
 HOMEPAGE="http://bitbucket.org/birkenfeld/sphinx-contrib"
 LICENSE="BSD"

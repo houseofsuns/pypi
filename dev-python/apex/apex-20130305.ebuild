@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pyramid toolkit to add Velruse, Flash Messages,CSRF, ReCaptcha and Sessions"
+DESCRIPTION="Pyramid toolkit to add Velruse, Flash Messages,CSRF, ReCaptcha and Sessions [badver 0.9.10dev]"
 
 HOMEPAGE="http://thesoftwarestudio.com/apex/"
 LICENSE="MIT"

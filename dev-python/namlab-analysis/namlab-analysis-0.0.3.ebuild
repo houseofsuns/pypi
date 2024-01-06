@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="analysis codes for namboodiri lab"
+DESCRIPTION="analysis codes for namboodiri lab [topver 0.1.2]"
 
 HOMEPAGE="https://github.com/namboodirilab/namlab-analysis"
 LICENSE=""

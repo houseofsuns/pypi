@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Distributed encrypted backup utility"
+DESCRIPTION="Distributed encrypted backup utility [badver rev8784]"
 
 HOMEPAGE="http://datahaven.net"
 LICENSE="Copyright DataHaven.NET LTD. of Anguilla, 2006,"

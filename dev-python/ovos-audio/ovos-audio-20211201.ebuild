@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ovos-core metapackage for audio daemon"
+DESCRIPTION="ovos-core metapackage for audio daemon [badver 0.0.2a1_p1]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-core"
 LICENSE="Apache-2.0"

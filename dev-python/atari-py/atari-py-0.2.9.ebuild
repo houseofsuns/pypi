@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings to Atari games"
+DESCRIPTION="Python bindings to Atari games [topver 0.3.0]"
 
 HOMEPAGE="https://github.com/openai/atari-py"
 LICENSE=""

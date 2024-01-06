@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="record who did what and when for the CubicWeb framework"
+DESCRIPTION="record who did what and when for the CubicWeb framework [topver 1.1.2]"
 
 HOMEPAGE="http://www.cubicweb.org/project/cubicweb-timesheet"
 LICENSE="LGPL-3"

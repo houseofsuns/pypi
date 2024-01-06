@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="code2gist is a Python package that makes sharing your code easier than ever. Send code to ChatGPT-4's browser without going over the character limit."
+DESCRIPTION="code2gist is a Python package that makes sharing your code easier than ever. Send code to ChatGPT-4's browser without going over the character limit. [topver 1.1.4]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

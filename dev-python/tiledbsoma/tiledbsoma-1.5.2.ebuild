@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API for efficient storage and retrieval of single-cell data using TileDB"
+DESCRIPTION="Python API for efficient storage and retrieval of single-cell data using TileDB [topver 1.6.1]"
 
 HOMEPAGE="https://github.com/single-cell-data/TileDB-SOMA/tree/main/apis/python"
 LICENSE="MIT"

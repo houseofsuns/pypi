@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for the Nordic pc-ble-driver SoftDevice serialization library"
+DESCRIPTION="Python bindings for the Nordic pc-ble-driver SoftDevice serialization library [topver 0.17.0]"
 
 HOMEPAGE="https://github.com/NordicSemiconductor/pc-ble-driver-py"
 LICENSE="Modified BSD License"

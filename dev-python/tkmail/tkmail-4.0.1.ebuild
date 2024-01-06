@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tool send email via SMTP (with retry)"
+DESCRIPTION="Tool send email via SMTP (with retry) [topver 4.1.0]"
 
 HOMEPAGE="https://git.teko.vn/data/libs/smtp-mail"
 LICENSE=""

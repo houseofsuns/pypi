@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="jQuery 3.5.1 (XStatic packaging standard)"
+DESCRIPTION="jQuery 3.5.1 (XStatic packaging standard) [topver 3.5.1.1]"
 
 HOMEPAGE="https://jquery.com/"
 LICENSE="same as jQuery"

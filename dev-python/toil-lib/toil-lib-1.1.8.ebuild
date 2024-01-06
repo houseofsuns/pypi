@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A common library for functions and tools used in toil-based pipelines"
+DESCRIPTION="A common library for functions and tools used in toil-based pipelines [topver 1.2.0]"
 
 HOMEPAGE="https://github.com/BD2KGenomics/toil-lib"
 LICENSE="UNKNOWN"

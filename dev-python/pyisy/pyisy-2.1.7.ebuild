@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python module to talk to ISY994 from UDI."
+DESCRIPTION="Python module to talk to ISY994 from UDI. [topver 3.1.14]"
 
 HOMEPAGE="https://github.com/automicus/PyISY"
 LICENSE="Apache-2.0"

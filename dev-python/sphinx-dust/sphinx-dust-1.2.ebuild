@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sphinx extension to produce warnings when a doc needs proofreading."
+DESCRIPTION="Sphinx extension to produce warnings when a doc needs proofreading. [topver 1.2.4]"
 
 HOMEPAGE="https://github.com/Polyconseil/sphinx-dust"
 LICENSE="BSD"

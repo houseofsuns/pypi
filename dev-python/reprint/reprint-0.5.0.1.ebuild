@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple module for Python2/3 to print and refresh multi line output contents in terminal"
+DESCRIPTION="A simple module for Python2/3 to print and refresh multi line output contents in terminal [topver 0.6.0]"
 
 HOMEPAGE="https://github.com/Yinzo/reprint"
 LICENSE="Apache-2.0"

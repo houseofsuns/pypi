@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python module to validate Product codes (EAN, EAN13, ISBN,...)"
+DESCRIPTION="Python module to validate Product codes (EAN, EAN13, ISBN,...) [topver 0.5.0]"
 
 HOMEPAGE="http://www.zikzakmedia.com/"
 LICENSE="GPL-3"

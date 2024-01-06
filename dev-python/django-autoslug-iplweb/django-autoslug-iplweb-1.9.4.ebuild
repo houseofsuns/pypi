@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An automated slug field for Django."
+DESCRIPTION="An automated slug field for Django. [topver 1.9.5]"
 
 HOMEPAGE="https://github.com/neithere/django-autoslug/"
 LICENSE="GNU Lesser General Public License LGPL, Version 3"

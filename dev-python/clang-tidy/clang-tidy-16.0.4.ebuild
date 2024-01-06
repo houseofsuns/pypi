@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="clang-tidy is a clang-based C++ “linter” tool."
+DESCRIPTION="clang-tidy is a clang-based C++ “linter” tool. [topver 17.0.1]"
 
 HOMEPAGE="http://clang.llvm.org/"
 LICENSE="Apache-2.0"

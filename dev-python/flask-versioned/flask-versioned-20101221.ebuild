@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Add version info to file paths."
+DESCRIPTION="Add version info to file paths. [badver 0.9.4-20101221]"
 
 HOMEPAGE="http://github.com/pilt/flask-versioned"
 LICENSE="BSD"

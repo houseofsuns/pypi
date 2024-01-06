@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Elasticsearch client configuration"
+DESCRIPTION="Elasticsearch client configuration [topver 7.4.1]"
 
 HOMEPAGE="https://github.com/globality-corp/microcosm-elasticsearch"
 LICENSE=""

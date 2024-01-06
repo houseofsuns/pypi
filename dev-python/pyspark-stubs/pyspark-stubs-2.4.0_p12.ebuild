@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of the Apache Spark stub files"
+DESCRIPTION="A collection of the Apache Spark stub files [topver 3.0.0]"
 
 HOMEPAGE="https://github.com/zero323/pyspark-stubs"
 LICENSE=""

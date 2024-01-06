@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AYLIEN News API"
+DESCRIPTION="AYLIEN News API [topver 5.2.3]"
 
 HOMEPAGE=""
 LICENSE=""

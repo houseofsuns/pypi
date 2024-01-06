@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple RabbitMQ library"
+DESCRIPTION="Simple RabbitMQ library [topver 1.0.1]"
 
 HOMEPAGE="https://github.com/Energidanmark/simplerabbit"
 LICENSE=""

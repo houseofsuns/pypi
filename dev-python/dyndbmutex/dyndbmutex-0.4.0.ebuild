@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mutual Exclusion using AWS DynamoDB"
+DESCRIPTION="Mutual Exclusion using AWS DynamoDB [topver 0.4.1]"
 
 HOMEPAGE="https://github.com/chiradeep/dyndb-mutex"
 LICENSE="ASL v2.0"

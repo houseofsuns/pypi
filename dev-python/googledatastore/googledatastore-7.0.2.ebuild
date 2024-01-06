@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="google cloud datastore protobuf client"
+DESCRIPTION="google cloud datastore protobuf client [topver 7.1.0]"
 
 HOMEPAGE="https://github.com/GoogleCloudPlatform/google-cloud-datastore"
 LICENSE=""

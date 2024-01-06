@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple unofficial async Python wrapper for Victor Smart-Kill API."
+DESCRIPTION="A simple unofficial async Python wrapper for Victor Smart-Kill API. [topver 2021.11.0]"
 
 HOMEPAGE="https://github.com/toreamun/victor-smart-kill"
 LICENSE=""

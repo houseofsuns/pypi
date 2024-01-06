@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="doxypy is an input filter for Doxygen. It preprocesses pythonfiles so that docstrings of classes and functions are reformattedinto Doxygen-conform documentation blocks."
+DESCRIPTION="doxypy is an input filter for Doxygen. It preprocesses pythonfiles so that docstrings of classes and functions are reformattedinto Doxygen-conform documentation blocks. [topver 0.4.2]"
 
 HOMEPAGE="http://code.foosel.org/doxypy"
 LICENSE="GPL v2"

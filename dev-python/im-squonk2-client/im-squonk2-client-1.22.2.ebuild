@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Squonk2 Python Client"
+DESCRIPTION="Squonk2 Python Client [topver 2.2.1]"
 
 HOMEPAGE="https://github.com/informaticsmatters/squonk2-python-client"
 LICENSE="MIT"

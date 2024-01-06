@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pybw"
+DESCRIPTION="pybw [topver 2023.3.3]"
 
 HOMEPAGE="https://gitee.com/pubowei/pybw"
 LICENSE="MIT"

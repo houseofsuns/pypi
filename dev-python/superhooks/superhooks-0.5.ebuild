@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="superhooks plugin for supervisord"
+DESCRIPTION="superhooks plugin for supervisord [topver 0.6]"
 
 HOMEPAGE="https://github.com/skyrocknroll/superhooks"
 LICENSE="BSD-derived http://www.repoze.org/LICENSE.txt"

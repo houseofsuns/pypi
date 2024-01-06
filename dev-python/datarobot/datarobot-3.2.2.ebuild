@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This client library is designed to support the DataRobot API."
+DESCRIPTION="This client library is designed to support the DataRobot API. [topver 3.3.1]"
 
 HOMEPAGE="https://datarobot.com"
 LICENSE="DataRobot Tool and Utility Agreement"

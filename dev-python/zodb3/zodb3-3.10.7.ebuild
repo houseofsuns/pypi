@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Zope Object Database: object database and persistence"
+DESCRIPTION="Zope Object Database: object database and persistence [topver 3.11.0]"
 
 HOMEPAGE=""
 LICENSE="ZPL 2.1"

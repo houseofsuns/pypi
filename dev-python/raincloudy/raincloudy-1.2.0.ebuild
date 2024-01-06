@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python library to communicate with Melnor                  RainCloud Smart Garden Watering Irrigation Timer                  (https://wwww.melnor.com/)"
+DESCRIPTION="A Python library to communicate with Melnor                  RainCloud Smart Garden Watering Irrigation Timer                  (https://wwww.melnor.com/) [topver 1.2.1]"
 
 HOMEPAGE="https://github.com/tchellomello/raincloudy"
 LICENSE="Apache-2.0"

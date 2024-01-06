@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ICICIDIRECT's breezeconnect strategies in python"
+DESCRIPTION="ICICIDIRECT's breezeconnect strategies in python [topver 6.0.2]"
 
 HOMEPAGE="https://github.com/Idirect-Tech/python_strategies/tree/master"
 LICENSE=""

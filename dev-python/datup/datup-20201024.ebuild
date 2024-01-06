@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The version of this library and document is V 0.1.8_12"
+DESCRIPTION="The version of this library and document is V 0.1.8_12 [badver 0.1.8-13]"
 
 HOMEPAGE="https://datup.ai"
 LICENSE=""

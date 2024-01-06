@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Only Train Once (OTO): Automatic One-Shot General DNN Training and Compression Framework"
+DESCRIPTION="Only Train Once (OTO): Automatic One-Shot General DNN Training and Compression Framework [topver 3.0.0]"
 
 HOMEPAGE="https://github.com/tianyic/only_train_once"
 LICENSE="MIT"

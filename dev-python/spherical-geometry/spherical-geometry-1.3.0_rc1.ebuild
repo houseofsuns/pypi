@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python based tools for spherical geometry"
+DESCRIPTION="Python based tools for spherical geometry [topver 1.3.1]"
 
 HOMEPAGE=""
 LICENSE="BSD"

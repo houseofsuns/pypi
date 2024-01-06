@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The AWS Data Mesh Helper library provides automation around the most common tasks that customers need to perform to implement a data mesh architecture on AWS."
+DESCRIPTION="The AWS Data Mesh Helper library provides automation around the most common tasks that customers need to perform to implement a data mesh architecture on AWS. [topver 1.0.18]"
 
 HOMEPAGE="https://github.com/aws-samples/aws-data-mesh-utils"
 LICENSE="Apache-2.0"

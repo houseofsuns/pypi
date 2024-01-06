@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package used for writing ddtank game scripts."
+DESCRIPTION="A package used for writing ddtank game scripts. [topver 1.2]"
 
 HOMEPAGE=""
 LICENSE=""

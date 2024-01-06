@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An event hook framework"
+DESCRIPTION="An event hook framework [topver 3.1.6]"
 
 HOMEPAGE="https://github.com/psav/riggerlib"
 LICENSE="MIT"

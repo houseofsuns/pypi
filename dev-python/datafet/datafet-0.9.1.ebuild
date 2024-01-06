@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Few libriaries that we need to use in more than one of our project"
+DESCRIPTION="Few libriaries that we need to use in more than one of our project [topver 0.9.7]"
 
 HOMEPAGE=""
 LICENSE=""

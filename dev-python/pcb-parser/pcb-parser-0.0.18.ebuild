@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PCB Parser"
+DESCRIPTION="PCB Parser [topver 0.1.0]"
 
 HOMEPAGE="https://github.com/cyun9601/PCB_Parser"
 LICENSE=""

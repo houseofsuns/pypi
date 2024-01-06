@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Accorder makes Calibre library portable as standalone webapp and ready to be shared at Memory of the World Library."
+DESCRIPTION="Accorder makes Calibre library portable as standalone webapp and ready to be shared at Memory of the World Library. [topver 21.5.4]"
 
 HOMEPAGE=""
 LICENSE=""

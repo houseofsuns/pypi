@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="c2cgeoportal geoportal"
+DESCRIPTION="c2cgeoportal geoportal [topver 2.6.0]"
 
 HOMEPAGE="http://www.camptocamp.com/solutions/geospatial/"
 LICENSE=""

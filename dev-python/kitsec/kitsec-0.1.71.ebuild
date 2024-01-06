@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package designed to streamline Ethical hackers workflows."
+DESCRIPTION="A package designed to streamline Ethical hackers workflows. [topver 0.1.74]"
 
 HOMEPAGE="https://github.com/kitsec-labs/kitsec-core"
 LICENSE=""

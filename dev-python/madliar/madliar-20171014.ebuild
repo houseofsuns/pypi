@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tiny WSGI freamwork."
+DESCRIPTION="A tiny WSGI freamwork. [badver 0.1a1_pre1259]"
 
 HOMEPAGE="https://github.com/cl-ei"
 LICENSE="MIT"

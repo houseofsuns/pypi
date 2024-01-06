@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="GeoNode GeoServer Importer Client"
+DESCRIPTION="GeoNode GeoServer Importer Client [topver 2.0.4]"
 
 HOMEPAGE="https://github.com/GeoNode/gsimporter"
 LICENSE="MIT"

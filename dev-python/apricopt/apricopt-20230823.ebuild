@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for simulation-based parameter optimization"
+DESCRIPTION="A library for simulation-based parameter optimization [badver 0.0.2a3_pre19]"
 
 HOMEPAGE="http://mclab.di.uniroma1.it"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Avocado Runner for Remote Execution"
+DESCRIPTION="Avocado Runner for Remote Execution [topver 80.0]"
 
 HOMEPAGE="http://avocado-framework.github.io/"
 LICENSE=""

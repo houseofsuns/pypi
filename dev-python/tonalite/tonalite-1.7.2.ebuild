@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple creation of data classes from dictionaries."
+DESCRIPTION="Simple creation of data classes from dictionaries. [topver 1.7.4]"
 
 HOMEPAGE="https://github.com/Tiqets/tonalite"
 LICENSE="MIT"

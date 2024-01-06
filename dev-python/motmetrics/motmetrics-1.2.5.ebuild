@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Metrics for multiple object tracker benchmarking."
+DESCRIPTION="Metrics for multiple object tracker benchmarking. [topver 1.4.0]"
 
 HOMEPAGE="https://github.com/cheind/py-motmetrics"
 LICENSE="MIT"

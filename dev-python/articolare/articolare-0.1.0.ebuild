@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for the Articolare API"
+DESCRIPTION="Python client for the Articolare API [topver 1.1.2]"
 
 HOMEPAGE=""
 LICENSE=""

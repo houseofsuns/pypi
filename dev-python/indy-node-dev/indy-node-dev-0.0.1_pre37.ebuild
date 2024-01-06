@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Indy node"
+DESCRIPTION="Indy node [topver 1.6.877]"
 
 HOMEPAGE="https://github.com/hyperledger/indy-node"
 LICENSE="Apache-2.0"

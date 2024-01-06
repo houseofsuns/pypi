@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="."
+DESCRIPTION=". [topver 0.17.1]"
 
 HOMEPAGE="https://gitlab.com/oleksandr.zelentsov/lazy-finance"
 LICENSE="MIT"

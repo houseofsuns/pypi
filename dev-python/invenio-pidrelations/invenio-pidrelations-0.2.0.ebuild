@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Invenio module that adds PID relations to the Invenio-PIDStore module."
+DESCRIPTION="Invenio module that adds PID relations to the Invenio-PIDStore module. [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/inveniosoftware/invenio-pidrelations"
 LICENSE="MIT"

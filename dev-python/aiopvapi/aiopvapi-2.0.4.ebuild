@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Powerview blinds API wrapper"
+DESCRIPTION="Powerview blinds API wrapper [topver 3.0.1]"
 
 HOMEPAGE="https://github.com/sander76/aio-powerview-api"
 LICENSE="MIT"

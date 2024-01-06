@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A utility package for NLP and Machine Learning"
+DESCRIPTION="A utility package for NLP and Machine Learning [topver 1.4.3]"
 
 HOMEPAGE="https://github.com/cmdowney88/chonker"
 LICENSE=""

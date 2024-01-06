@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DIRAC Benchmark 2012"
+DESCRIPTION="DIRAC Benchmark 2012 [topver 898998998]"
 
 HOMEPAGE="https://github.com/pypa/DIRACGrid/DB12"
 LICENSE=""

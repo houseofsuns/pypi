@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Distributed Hyperparameter Optimization on SageMaker"
+DESCRIPTION="Distributed Hyperparameter Optimization on SageMaker [topver 0.12]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Raspberry Pi Applications."
+DESCRIPTION="Raspberry Pi Applications. [topver 0.5.0]"
 
 HOMEPAGE="https://github.com/zhangys11/pi4"
 LICENSE=""

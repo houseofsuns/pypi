@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Yoga Data Layer, a flexible data layer for machine learning"
+DESCRIPTION="Yoga Data Layer, a flexible data layer for machine learning [topver 0.1.4]"
 
 HOMEPAGE="https://www.github.com/determined-ai/yogadl/"
 LICENSE="Apache-2.0"

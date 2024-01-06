@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ModernGL: High performance rendering for Python 3"
+DESCRIPTION="ModernGL: High performance rendering for Python 3 [topver 6.0]"
 
 HOMEPAGE="https://github.com/moderngl/moderngl"
 LICENSE="MIT"

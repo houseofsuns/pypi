@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Draftail extension to add anchor identifiers to rich text"
+DESCRIPTION="A Draftail extension to add anchor identifiers to rich text [topver 0.6.0]"
 
 HOMEPAGE="https://github.com/jacobtoppm/wagtail_draftail_anchors"
 LICENSE=""

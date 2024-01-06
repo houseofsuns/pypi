@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of image and statistical processing functions and classes"
+DESCRIPTION="A collection of image and statistical processing functions and classes [topver 0.0.17]"
 
 HOMEPAGE=""
 LICENSE="MIT"

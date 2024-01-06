@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A lightweight proxy designed to be proof to IP blocking measures"
+DESCRIPTION="A lightweight proxy designed to be proof to IP blocking measures [badver 0.4.0.alpha1]"
 
 HOMEPAGE="https://arkc.org"
 LICENSE="https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt"

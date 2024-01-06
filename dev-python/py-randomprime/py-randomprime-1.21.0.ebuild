@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Metroid Prime 1 patcher, for randomizers and plandomizers."
+DESCRIPTION="A Metroid Prime 1 patcher, for randomizers and plandomizers. [topver 16.3]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Small Network Applications in Python: a microservices toolkit"
+DESCRIPTION="Small Network Applications in Python: a microservices toolkit [topver 1.0.8]"
 
 HOMEPAGE="http://github.com/binarymachines/snap"
 LICENSE="MIT"

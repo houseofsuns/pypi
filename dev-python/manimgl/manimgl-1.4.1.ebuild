@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Animation engine for explanatory math videos"
+DESCRIPTION="Animation engine for explanatory math videos [topver 1.6.1]"
 
 HOMEPAGE="https://github.com/3b1b/manim"
 LICENSE="MIT"

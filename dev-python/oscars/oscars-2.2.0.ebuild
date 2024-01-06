@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open Source Code for Advanced Radiation Simulation"
+DESCRIPTION="Open Source Code for Advanced Radiation Simulation [topver 3.0.0]"
 
 HOMEPAGE="http://oscars.bnl.gov/"
 LICENSE="LICENSE.txt"

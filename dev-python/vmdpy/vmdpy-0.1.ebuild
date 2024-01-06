@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Variational Mode Decomposition (VMD) algorithm"
+DESCRIPTION="Variational Mode Decomposition (VMD) algorithm [topver 0.2]"
 
 HOMEPAGE="http://github.com/vrcarva/vmdpy"
 LICENSE=""

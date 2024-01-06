@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The germanium project: Selenium WebDriver testing API that doesn't disappoint."
+DESCRIPTION="The germanium project: Selenium WebDriver testing API that doesn't disappoint. [topver 2.0.12]"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="BSD"

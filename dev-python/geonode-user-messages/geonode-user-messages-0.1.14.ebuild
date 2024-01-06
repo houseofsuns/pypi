@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fork of user-messages: a reusable private user messages application for Django"
+DESCRIPTION="Fork of user-messages: a reusable private user messages application for Django [topver 2.0.2]"
 
 HOMEPAGE="http://github.com/GeoNode/geonode-user-messages"
 LICENSE="BSD"

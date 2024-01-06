@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ape-safe: Gnosis Safe account plugin for Ape"
+DESCRIPTION="ape-safe: Gnosis Safe account plugin for Ape [topver 0.7.1]"
 
 HOMEPAGE="https://github.com/ApeWorX/ape-safe"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Common dictionaries for devind applications."
+DESCRIPTION="Common dictionaries for devind applications. [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/devind-team/devind-django-dictionaries"
 LICENSE="MIT"

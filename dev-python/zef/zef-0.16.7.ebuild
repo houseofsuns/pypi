@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A data-oriented toolkit for graph data"
+DESCRIPTION="A data-oriented toolkit for graph data [topver 0.18.0]"
 
 HOMEPAGE="https://github.com/zefhub/zef"
 LICENSE=""

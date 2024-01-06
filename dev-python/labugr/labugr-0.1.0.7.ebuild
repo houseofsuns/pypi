@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Laboratorio de señales UGR."
+DESCRIPTION="Laboratorio de señales UGR. [topver 1.1]"
 
 HOMEPAGE="http://github.com/lserraga/labugr"
 LICENSE=""

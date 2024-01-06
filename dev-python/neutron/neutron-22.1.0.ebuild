@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenStack Networking"
+DESCRIPTION="OpenStack Networking [topver 23.1.0]"
 
 HOMEPAGE="https://docs.openstack.org/neutron/latest/"
 LICENSE=""

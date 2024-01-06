@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Free Open Source Electronic Document Management System"
+DESCRIPTION="Free Open Source Electronic Document Management System [topver 4.5.8]"
 
 HOMEPAGE="https://www.mayan-edms.com"
 LICENSE="Apache-2.0"

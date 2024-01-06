@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="YDB Python SDK"
+DESCRIPTION="YDB Python SDK [topver 3.7.0]"
 
 HOMEPAGE="http://github.com/ydb-platform/ydb-python-sdk"
 LICENSE="Apache-2.0"

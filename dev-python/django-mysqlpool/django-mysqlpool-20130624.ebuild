@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django database backend for MySQL that provides pooling ala SQLAlchemy."
+DESCRIPTION="Django database backend for MySQL that provides pooling ala SQLAlchemy. [badver 0.1-9]"
 
 HOMEPAGE="http://github.com/smartfile/django-mysqlpool/"
 LICENSE="MIT"

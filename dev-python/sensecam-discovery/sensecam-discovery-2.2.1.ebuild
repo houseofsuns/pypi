@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package to discover all onvif cameras on your network"
+DESCRIPTION="A package to discover all onvif cameras on your network [topver 2.2.2]"
 
 HOMEPAGE="https://github.com/smartsenselab/sensecam-discovery"
 LICENSE=""

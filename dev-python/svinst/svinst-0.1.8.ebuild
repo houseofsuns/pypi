@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for parsing module definitions and instantiations from SystemVerilog files"
+DESCRIPTION="Python library for parsing module definitions and instantiations from SystemVerilog files [topver 0.1.9]"
 
 HOMEPAGE="https://github.com/sgherbst/svinst"
 LICENSE="MIT"

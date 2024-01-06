@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Time Ordered Astrophysics Scalable Tools"
+DESCRIPTION="Time Ordered Astrophysics Scalable Tools [topver 3.0.0]"
 
 HOMEPAGE="https://github.com/hpc4cmb/toast"
 LICENSE="BSD"

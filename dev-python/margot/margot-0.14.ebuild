@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An algorithmic trading framework for PyData."
+DESCRIPTION="An algorithmic trading framework for PyData. [topver 1.13]"
 
 HOMEPAGE="https://github.com/pymargot/margot"
 LICENSE="apache-2.0"

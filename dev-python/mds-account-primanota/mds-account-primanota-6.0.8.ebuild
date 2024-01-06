@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton module to add a primanota-view."
+DESCRIPTION="Tryton module to add a primanota-view. [topver 7.0.8]"
 
 HOMEPAGE="https://www.m-ds.de/"
 LICENSE="GPL-3"

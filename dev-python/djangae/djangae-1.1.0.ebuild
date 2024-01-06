@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django integration with Google App Engine"
+DESCRIPTION="Django integration with Google App Engine [topver 2.0.0]"
 
 HOMEPAGE="https://github.com/potatolondon/djangae"
 LICENSE=""

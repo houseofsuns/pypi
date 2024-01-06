@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Awesome invoker_terminal created by m00dy"
+DESCRIPTION="Awesome invoker_terminal created by m00dy [topver 0.1.0]"
 
 HOMEPAGE="https://github.com/m00dy/invoker-terminal/"
 LICENSE=""

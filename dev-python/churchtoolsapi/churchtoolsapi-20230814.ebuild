@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python wrapper for the ChurchTools API"
+DESCRIPTION="A Python wrapper for the ChurchTools API [badver 0.0.2rc83_p1]"
 
 HOMEPAGE=""
 LICENSE=""

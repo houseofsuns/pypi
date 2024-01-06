@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hierarchical hexagonal geospatial indexing system"
+DESCRIPTION="Hierarchical hexagonal geospatial indexing system [topver 4.0.0]"
 
 HOMEPAGE="https://github.com/uber/h3-py"
 LICENSE="Apache 2.0 License"

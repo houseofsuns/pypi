@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lupin linter tool"
+DESCRIPTION="Lupin linter tool [topver 2.0.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

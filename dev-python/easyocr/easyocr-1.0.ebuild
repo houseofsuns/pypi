@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="End-to-End Multi-Lingual Optical Character Recognition (OCR) Solution"
+DESCRIPTION="End-to-End Multi-Lingual Optical Character Recognition (OCR) Solution [topver 1.7.1]"
 
 HOMEPAGE="https://github.com/jaidedai/easyocr"
 LICENSE="Apache-2.0"

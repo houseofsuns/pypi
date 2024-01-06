@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Toolkit for Hangul composing, decomposing and etc..."
+DESCRIPTION="Toolkit for Hangul composing, decomposing and etc... [topver 0.2.1]"
 
 HOMEPAGE="https://github.com/bluedisk/hangul-toolkit"
 LICENSE="Apache-2.0"

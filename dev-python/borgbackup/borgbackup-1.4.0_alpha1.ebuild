@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deduplicated, encrypted, authenticated and compressed backups"
+DESCRIPTION="Deduplicated, encrypted, authenticated and compressed backups [topver 2.0.0]"
 
 HOMEPAGE="https://borgbackup.org/"
 LICENSE="BSD"

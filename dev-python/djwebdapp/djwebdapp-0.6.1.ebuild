@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [topver 1.0.0]"
 
 HOMEPAGE="https://yourlabs.io/oss/djwebdapp"
 LICENSE="MIT"

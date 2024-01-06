@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Allow argus-server to create tickets in Request Tracker"
+DESCRIPTION="Allow argus-server to create tickets in Request Tracker [topver 1.0.3]"
 
 HOMEPAGE=""
 LICENSE=""

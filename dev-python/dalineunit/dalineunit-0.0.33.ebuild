@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="daline unit generator and runner"
+DESCRIPTION="daline unit generator and runner [topver 0.0.69]"
 
 HOMEPAGE="https://github.com/DalineWH"
 LICENSE=""

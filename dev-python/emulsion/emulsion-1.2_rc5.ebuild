@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Epidemiological Multi-Level Simulation framework"
+DESCRIPTION="Epidemiological Multi-Level Simulation framework [topver 1.3]"
 
 HOMEPAGE="https://sourcesup.renater.fr/emulsion-public/"
 LICENSE="Apache-2.0"

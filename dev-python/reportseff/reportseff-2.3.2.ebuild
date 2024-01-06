@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tablular seff output"
+DESCRIPTION="Tablular seff output [topver 2.7.6]"
 
 HOMEPAGE="https://github.com/troycomi/reportseff"
 LICENSE="MIT"

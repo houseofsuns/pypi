@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A security telemetry engine for detection and response"
+DESCRIPTION="A security telemetry engine for detection and response [topver 2021.12.16]"
 
 HOMEPAGE="https://vast.io"
 LICENSE="BSD"

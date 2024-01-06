@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deprecated"
+DESCRIPTION="Deprecated [topver 2.0.0]"
 
 HOMEPAGE="https://github.com/paypal/PayPal-Python-SDK"
 LICENSE="PayPal SDK License"

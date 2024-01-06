@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Code useful for implementing chia consensus."
+DESCRIPTION="Code useful for implementing chia consensus. [topver 0.3.3]"
 
 HOMEPAGE="https://github.com/Chia-Network/chia_rs/"
 LICENSE="Apache-2.0"

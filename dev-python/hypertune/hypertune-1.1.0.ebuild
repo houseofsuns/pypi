@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for performing hyperparameter optimization with Polyaxon."
+DESCRIPTION="A library for performing hyperparameter optimization with Polyaxon. [topver 2.0.0]"
 
 HOMEPAGE="https://github.com/polyaxon/hypertune"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for generating random strings from a valid regular expression."
+DESCRIPTION="A library for generating random strings from a valid regular expression. [topver 0.4.0]"
 
 HOMEPAGE="https://github.com/crdoconnor/xeger"
 LICENSE="BSD"

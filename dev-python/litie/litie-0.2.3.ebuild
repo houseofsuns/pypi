@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pytorch-lightning Code Blocks for Information Extraction"
+DESCRIPTION="Pytorch-lightning Code Blocks for Information Extraction [topver 1.0.1]"
 
 HOMEPAGE="https://github.com/xusenlinzy/lit-ie"
 LICENSE=""

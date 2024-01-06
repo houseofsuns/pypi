@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python>=3.6 library for creating and using matrices used in linear algebra and statistics"
+DESCRIPTION="Python>=3.6 library for creating and using matrices used in linear algebra and statistics [badver 0.9a24_p2]"
 
 HOMEPAGE="https://github.com/MathStuff/Matrices"
 LICENSE="MIT"

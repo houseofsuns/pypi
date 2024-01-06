@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Brain Connectivity Toolbox for Python"
+DESCRIPTION="Brain Connectivity Toolbox for Python [topver 0.6.1]"
 
 HOMEPAGE="https://github.com/aestrivex/bctpy"
 LICENSE="Visuddhimagga Sutta; GPLv3+"

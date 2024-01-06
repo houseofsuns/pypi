@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python library for controlling the flow of musical time."
+DESCRIPTION="A python library for controlling the flow of musical time. [topver 0.6.9]"
 
 HOMEPAGE="https://github.com/MarcTheSpark/clockblocks"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CuPy: NumPy & SciPy for GPU"
+DESCRIPTION="CuPy: NumPy & SciPy for GPU [topver 13.0.0]"
 
 HOMEPAGE="https://cupy.dev/"
 LICENSE="MIT"

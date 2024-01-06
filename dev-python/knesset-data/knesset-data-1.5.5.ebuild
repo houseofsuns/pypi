@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="API for access to available Israeli Parliament (Knesset) data"
+DESCRIPTION="API for access to available Israeli Parliament (Knesset) data [topver 2.1.5]"
 
 HOMEPAGE="https://github.com/hasadna/knesset-data-python"
 LICENSE="GPL-3"

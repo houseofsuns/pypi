@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A multipurpose dataclass libarary used for validation and data structuring."
+DESCRIPTION="A multipurpose dataclass libarary used for validation and data structuring. [topver 202.4]"
 
 HOMEPAGE="https://github.com/dvnasutosh/betterdataclasses"
 LICENSE=""

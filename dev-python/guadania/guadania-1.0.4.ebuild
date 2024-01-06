@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Libreria que matará vuestro sufrimiento por la PARCA"
+DESCRIPTION="Libreria que matará vuestro sufrimiento por la PARCA [topver 1.7]"
 
 HOMEPAGE=""
 LICENSE=""

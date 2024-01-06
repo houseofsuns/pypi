@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Coramin: Pyomo tools for MINLP"
+DESCRIPTION="Coramin: Pyomo tools for MINLP [topver 0.5.0]"
 
 HOMEPAGE="https://github.com/Coramin/Coramin"
 LICENSE="Revised BSD"

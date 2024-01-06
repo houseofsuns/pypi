@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pure Python HDFS client"
+DESCRIPTION="Pure Python HDFS client [topver 2.11.0]"
 
 HOMEPAGE="http://github.com/spotify/snakebite"
 LICENSE="Apache-2.0"

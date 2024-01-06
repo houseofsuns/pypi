@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python module to interact with the Haasonline Local API"
+DESCRIPTION="Python module to interact with the Haasonline Local API [topver 3.2.4.1]"
 
 HOMEPAGE="http://github.com/haasome-tools/haasomeapi"
 LICENSE="MIT"

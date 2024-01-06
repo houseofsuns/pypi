@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A transport and architecture agnostic soap (de)serialization library that focuses on making small, rpc-like messaging work."
+DESCRIPTION="A transport and architecture agnostic soap (de)serialization library that focuses on making small, rpc-like messaging work. [badver 2.0.0-beta2]"
 
 HOMEPAGE="http://soaplib.github.com/soaplib/2_0/"
 LICENSE="LGPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="evdspy"
+DESCRIPTION="evdspy [topver 1.1.16]"
 
 HOMEPAGE=""
 LICENSE="MIT"

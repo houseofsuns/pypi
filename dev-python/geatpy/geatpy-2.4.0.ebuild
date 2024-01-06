@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Geatpy is a high-performance Genetic and Evolutionary Algorithms toolbox for Python."
+DESCRIPTION="Geatpy is a high-performance Genetic and Evolutionary Algorithms toolbox for Python. [topver 2.7.0]"
 
 HOMEPAGE="http://www.geatpy.com"
 LICENSE=""

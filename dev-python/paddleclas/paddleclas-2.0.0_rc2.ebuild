@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Awesome Image Classification toolkits based on PaddlePaddle"
+DESCRIPTION="Awesome Image Classification toolkits based on PaddlePaddle [topver 2.5.1]"
 
 HOMEPAGE="https://github.com/PaddlePaddle/PaddleClas"
 LICENSE="Apache-2.0"

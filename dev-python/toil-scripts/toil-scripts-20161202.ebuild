@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A repository of genomic workflows developed by the UCSC Computational Genomics lab"
+DESCRIPTION="A repository of genomic workflows developed by the UCSC Computational Genomics lab [badver 2.1.0a1_pre692]"
 
 HOMEPAGE="https://github.com/BD2KGenomics/toil-scripts"
 LICENSE="UNKNOWN"

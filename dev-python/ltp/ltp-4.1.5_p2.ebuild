@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Language Technology Platform"
+DESCRIPTION="Language Technology Platform [topver 4.2.13]"
 
 HOMEPAGE="https://github.com/HIT-SCIR/ltp"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RADIUS authentication module"
+DESCRIPTION="RADIUS authentication module [badver 2.0.2-1]"
 
 HOMEPAGE="http://github.com/btimby/py-radius/"
 LICENSE="Copyright c 1999, Stuart Bishop <zen@shangri-la.dropbear.id.au>"

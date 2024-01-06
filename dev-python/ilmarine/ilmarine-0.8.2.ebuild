@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ilmarine package for the internal pypi"
+DESCRIPTION="ilmarine package for the internal pypi [topver 0.9.1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

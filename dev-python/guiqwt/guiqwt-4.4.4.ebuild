@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="guiqwt is a set of tools for curve and image plotting (extension to PythonQwt)"
+DESCRIPTION="guiqwt is a set of tools for curve and image plotting (extension to PythonQwt) [topver 4.4.5]"
 
 HOMEPAGE="https://github.com/PlotPyStack/guiqwt"
 LICENSE="CeCILL V2"

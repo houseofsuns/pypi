@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Multi-purpose downloader."
+DESCRIPTION="A Multi-purpose downloader. [topver 0.7.71]"
 
 HOMEPAGE="https://github.com/Slyyxp/rsack"
 LICENSE=""

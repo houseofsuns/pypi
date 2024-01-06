@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Consultor te ayuda a explorar las diferentes carreras y cursos que las universidades ofrecen"
+DESCRIPTION="Consultor te ayuda a explorar las diferentes carreras y cursos que las universidades ofrecen [topver 0.2.0]"
 
 HOMEPAGE="http://..."
 LICENSE="MIT"

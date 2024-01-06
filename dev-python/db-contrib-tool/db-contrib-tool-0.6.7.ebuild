@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The \`db-contrib-tool\` - MongoDB's tool for contributors."
+DESCRIPTION="The \`db-contrib-tool\` - MongoDB's tool for contributors. [topver 0.6.11]"
 
 HOMEPAGE="https://github.com/10gen/db-contrib-tool"
 LICENSE=""

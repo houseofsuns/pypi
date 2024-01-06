@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Helper para consumo de APIs"
+DESCRIPTION="Helper para consumo de APIs [topver 1.0.47]"
 
 HOMEPAGE="https://github.com/LucasHeilbuth"
 LICENSE=""

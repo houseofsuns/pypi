@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility for repacking and optmizing manga & comic book archives"
+DESCRIPTION="Utility for repacking and optmizing manga & comic book archives [topver 2.0.0]"
 
 HOMEPAGE="https://github.com/avalonv/reCBZ"
 LICENSE="GPL-3"

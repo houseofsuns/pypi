@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Snowflake CLI"
+DESCRIPTION="Snowflake CLI [topver 2.0.0]"
 
 HOMEPAGE=""
 LICENSE=""

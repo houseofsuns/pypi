@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Hypertext Markup Language - Extension of HTML"
+DESCRIPTION="Python Hypertext Markup Language - Extension of HTML [topver 2.0.0]"
 
 HOMEPAGE="https://github.com/Tired-Fox/phml"
 LICENSE=""

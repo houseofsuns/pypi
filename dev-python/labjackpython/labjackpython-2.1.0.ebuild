@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The LabJack Python modules for the LabJack U3, U6, UE9 and U12."
+DESCRIPTION="The LabJack Python modules for the LabJack U3, U6, UE9 and U12. [topver 9]"
 
 HOMEPAGE="https://labjack.com/support/software/examples/ud/labjackpython"
 LICENSE="MIT X11"

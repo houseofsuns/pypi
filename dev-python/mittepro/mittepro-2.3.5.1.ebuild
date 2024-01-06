@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MittePro is a powerful marketing tool with features to help companies with their marketing goals and deliver emails from their websites and apps."
+DESCRIPTION="MittePro is a powerful marketing tool with features to help companies with their marketing goals and deliver emails from their websites and apps. [topver 2.4.2]"
 
 HOMEPAGE="https://github.com/ThCC/mittepro-py"
 LICENSE="Apache-2.0"

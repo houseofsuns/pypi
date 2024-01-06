@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Compiles NetsBlox projects into PyBlox projects"
+DESCRIPTION="Compiles NetsBlox projects into PyBlox projects [topver 0.1.10]"
 
 HOMEPAGE=""
 LICENSE=""

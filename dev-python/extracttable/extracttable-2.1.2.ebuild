@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extract table data from images and scanned PDFs. Easily convert image to excel, convert pdf to table"
+DESCRIPTION="Extract table data from images and scanned PDFs. Easily convert image to excel, convert pdf to table [topver 2.4.0]"
 
 HOMEPAGE="https://github.com/ExtractTable/ExtractTable-py"
 LICENSE="Apache-2.0"

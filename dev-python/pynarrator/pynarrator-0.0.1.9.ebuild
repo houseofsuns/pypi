@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Template-based NLG framework for creating text narratives out of data"
+DESCRIPTION="Template-based NLG framework for creating text narratives out of data [topver 0.0.1.15]"
 
 HOMEPAGE=""
 LICENSE=""

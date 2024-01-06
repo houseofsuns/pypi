@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AIRi software package"
+DESCRIPTION="AIRi software package [badver 1.0.c11]"
 
 HOMEPAGE="https://github.com/manuelnaranjo/AIRi"
 LICENSE="Apache V2"

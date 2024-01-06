@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenMMLab Model Deployment"
+DESCRIPTION="OpenMMLab Model Deployment [topver 1.3.1]"
 
 HOMEPAGE="https://github.com/open-mmlab/mmdeploy"
 LICENSE="Apache-2.0"

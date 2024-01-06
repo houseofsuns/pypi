@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="UFF (Universal File Format) read/write."
+DESCRIPTION="UFF (Universal File Format) read/write. [topver 2.4]"
 
 HOMEPAGE="https://github.com/openmodal/pyuff"
 LICENSE="This software is provided without warranty under the terms of the Modified BSD license included in LICENSE.TXT and may be redistributed only under the conditions described in the aforementioned license."

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="JSON Decoder and Encoder with type information."
+DESCRIPTION="JSON Decoder and Encoder with type information. [topver 1.0.11]"
 
 HOMEPAGE="https://github.com/piti118/strong-json"
 LICENSE=""

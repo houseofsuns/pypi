@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A client for quickchart.io, a service that generates static chart images"
+DESCRIPTION="A client for quickchart.io, a service that generates static chart images [topver 2.0.0]"
 
 HOMEPAGE="https://quickchart.io/"
 LICENSE="MIT"

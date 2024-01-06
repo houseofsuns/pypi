@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Shortcuts for python devs."
+DESCRIPTION="Shortcuts for python devs. [topver 0.7.47]"
 
 HOMEPAGE="https://github.com/isnok/py-flowlib"
 LICENSE="UNKNOWN"

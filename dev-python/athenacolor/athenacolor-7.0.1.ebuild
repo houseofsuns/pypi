@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package to support full usage of RGB colors in the console"
+DESCRIPTION="Package to support full usage of RGB colors in the console [topver 7.0.2]"
 
 HOMEPAGE="https://github.com/DirectiveAthena/AthenaColor"
 LICENSE="GPL-3"

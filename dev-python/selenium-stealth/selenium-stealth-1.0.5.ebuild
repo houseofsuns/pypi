@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Trying to make python selenium more stealthy."
+DESCRIPTION="Trying to make python selenium more stealthy. [topver 1.0.6]"
 
 HOMEPAGE="https://github.com/diprajpatra/selenium-stealth"
 LICENSE=""

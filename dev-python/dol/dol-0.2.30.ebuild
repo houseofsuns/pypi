@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Base builtin tools make and transform data object layers (dols)."
+DESCRIPTION="Base builtin tools make and transform data object layers (dols). [topver 0.3.0]"
 
 HOMEPAGE="https://github.com/i2mint/dol"
 LICENSE="MIT"

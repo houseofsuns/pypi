@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library to abstract social web federation protocols like ActivityPub, Matrix and Diaspora."
+DESCRIPTION="Python library to abstract social web federation protocols like ActivityPub, Matrix and Diaspora. [topver 0.24.1]"
 
 HOMEPAGE="https://gitlab.com/jaywink/federation"
 LICENSE="BSD 3-clause"

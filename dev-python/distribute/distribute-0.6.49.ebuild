@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easily download, build, install, upgrade, and uninstall Python packages"
+DESCRIPTION="Easily download, build, install, upgrade, and uninstall Python packages [topver 0.7.3]"
 
 HOMEPAGE="http://packages.python.org/distribute"
 LICENSE="PSF or ZPL"

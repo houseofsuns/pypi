@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="IPython HTML widgets for Jupyter"
+DESCRIPTION="IPython HTML widgets for Jupyter [topver 8.1.1]"
 
 HOMEPAGE="http://ipython.org"
 LICENSE="BSD"

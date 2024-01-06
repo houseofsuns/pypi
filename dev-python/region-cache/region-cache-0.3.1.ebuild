@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Region-based caching for Python/Flask with Redis"
+DESCRIPTION="Region-based caching for Python/Flask with Redis [topver 0.3.8]"
 
 HOMEPAGE="https://github.com/jheard-tw/region_cache"
 LICENSE="MIT"

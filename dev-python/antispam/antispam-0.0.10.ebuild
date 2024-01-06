@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bayesian anti-spam classifier written in Python."
+DESCRIPTION="Bayesian anti-spam classifier written in Python. [topver 0.1]"
 
 HOMEPAGE="http://github.com/dinever/antispam"
 LICENSE="MIT"

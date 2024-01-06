@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="onap python logging library"
+DESCRIPTION="onap python logging library [topver 1.0.9]"
 
 HOMEPAGE=""
 LICENSE="MIT Licence"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Inspire JSON schemas and utilities to use them."
+DESCRIPTION="Inspire JSON schemas and utilities to use them. [topver 61.5.25]"
 
 HOMEPAGE="https://github.com/inspirehep/inspire-schemas"
 LICENSE="GPL-2"

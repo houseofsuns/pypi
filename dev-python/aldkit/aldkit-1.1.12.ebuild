@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Parser for anharmonic lattice dynamics package developed by Prof. Ankit Jain."
+DESCRIPTION="Parser for anharmonic lattice dynamics package developed by Prof. Ankit Jain. [topver 1.1.13]"
 
 HOMEPAGE=""
 LICENSE="MIT"

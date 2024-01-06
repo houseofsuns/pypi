@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Buscombe, D., 2017"
+DESCRIPTION="Buscombe, D., 2017 [topver 1.4.6]"
 
 HOMEPAGE="https://github.com/dbuscombe-usgs/prism"
 LICENSE="GNU GENERAL PUBLIC LICENSE v3"

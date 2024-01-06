@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tool for continous delivery using git"
+DESCRIPTION="Tool for continous delivery using git [topver 2.2.3]"
 
 HOMEPAGE="https://github.com/claudio-walser/gitcd"
 LICENSE=""

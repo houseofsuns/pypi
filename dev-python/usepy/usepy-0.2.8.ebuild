@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="usepy"
+DESCRIPTION="usepy [topver 0.2.41]"
 
 HOMEPAGE="https://usepy.code05.com/"
 LICENSE=""

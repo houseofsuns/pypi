@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="use this library in kivy android"
+DESCRIPTION="use this library in kivy android [topver 0.25]"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""

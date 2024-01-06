@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OSINTBuddy - mine, merge, and map data for novel insights"
+DESCRIPTION="OSINTBuddy - mine, merge, and map data for novel insights [badver 0.0.4rc51_p1]"
 
 HOMEPAGE=""
 LICENSE=""

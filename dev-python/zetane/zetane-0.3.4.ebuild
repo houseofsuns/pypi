@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Zetane API for robustness testing of Computer Vision AI models"
+DESCRIPTION="The Zetane API for robustness testing of Computer Vision AI models [topver 1.7.4]"
 
 HOMEPAGE="https://docs.zetane.com"
 LICENSE="LICENSE.md"

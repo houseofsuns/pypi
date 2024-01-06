@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package to convert spaCy and Stanza documents to NLP Annotation Format (NAF)"
+DESCRIPTION="Python package to convert spaCy and Stanza documents to NLP Annotation Format (NAF) [topver 0.1.64]"
 
 HOMEPAGE="https://github.com/wjwillemse/nafigator"
 LICENSE="MIT"

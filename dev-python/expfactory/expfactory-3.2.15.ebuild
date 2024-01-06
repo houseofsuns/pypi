@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="software to generate a reproducible container battery of experiments."
+DESCRIPTION="software to generate a reproducible container battery of experiments. [topver 3.19]"
 
 HOMEPAGE="http://github.com/expfactory/expfactory"
 LICENSE="LICENSE"

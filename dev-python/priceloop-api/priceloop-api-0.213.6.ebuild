@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A client library for accessing Priceloop API"
+DESCRIPTION="A client library for accessing Priceloop API [topver 2.0.0]"
 
 HOMEPAGE="https://github.com/priceloop/priceloop-api-python"
 LICENSE=""

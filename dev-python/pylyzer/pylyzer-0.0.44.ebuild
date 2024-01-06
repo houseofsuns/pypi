@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast static code analyzer & language server for Python"
+DESCRIPTION="A fast static code analyzer & language server for Python [topver 0.1.0]"
 
 HOMEPAGE=""
 LICENSE="MIT OR Apache-2.0"

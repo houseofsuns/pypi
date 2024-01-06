@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Big Switch Networks Extension for the Openstack Dashboard (Horizon)."
+DESCRIPTION="Big Switch Networks Extension for the Openstack Dashboard (Horizon). [topver 20153.37.4]"
 
 HOMEPAGE="http://www.bigswitch.com/"
 LICENSE=""

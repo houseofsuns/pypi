@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This package is based on pytorch and try to provide a more user-friendly interface for pytorch."
+DESCRIPTION="This package is based on pytorch and try to provide a more user-friendly interface for pytorch. [topver 0.2.107]"
 
 HOMEPAGE="https://github.com/Bertie97/pyctlib/tree/main/torchplus"
 LICENSE="MIT Licence"

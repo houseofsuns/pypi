@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="miniUPnP client"
+DESCRIPTION="miniUPnP client [topver 2.2.6]"
 
 HOMEPAGE="http://miniupnp.free.fr/"
 LICENSE="MiniUPnPc"

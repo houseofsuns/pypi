@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A basic Python implementation of the RETE algorithm."
+DESCRIPTION="A basic Python implementation of the RETE algorithm. [topver 0.0.7]"
 
 HOMEPAGE="https://pypi.python.org/pypi/py_rete/"
 LICENSE="MIT"

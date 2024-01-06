@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django application and library for importing and exporting data with included admin integration."
+DESCRIPTION="Django application and library for importing and exporting data with included admin integration. [topver 4.0.0]"
 
 HOMEPAGE="https://github.com/django-import-export/django-import-export"
 LICENSE="BSD"

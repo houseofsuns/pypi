@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool to manage contents of AWS SSM Parameter Store"
+DESCRIPTION="A tool to manage contents of AWS SSM Parameter Store [topver 0.5]"
 
 HOMEPAGE="https://github.com/runtheops/ssm-diff"
 LICENSE="MIT"

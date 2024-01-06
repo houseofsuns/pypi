@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Certificate client based on the soap API of the dfn"
+DESCRIPTION="Certificate client based on the soap API of the dfn [topver 0.4.9]"
 
 HOMEPAGE="https://github.com/Miterion/dfnclient"
 LICENSE="MIT"

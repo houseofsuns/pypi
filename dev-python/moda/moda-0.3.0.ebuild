@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for analyzing trending topics"
+DESCRIPTION="Tools for analyzing trending topics [topver 0.3.3]"
 
 HOMEPAGE="https://www.github.com/omri374/moda"
 LICENSE="MIT"

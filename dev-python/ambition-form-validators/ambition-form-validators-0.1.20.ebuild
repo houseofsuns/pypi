@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Form validators for ambition/edc project"
+DESCRIPTION="Form validators for ambition/edc project [topver 0.1.45]"
 
 HOMEPAGE="https://github.com/ambition-trial/ambition-form-validators"
 LICENSE="GPL license, see LICENSE"

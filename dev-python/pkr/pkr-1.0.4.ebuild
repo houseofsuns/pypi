@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Template engine for deploying docker containers."
+DESCRIPTION="Template engine for deploying docker containers. [topver 1.4.26]"
 
 HOMEPAGE="https://github.com/altairengineering/pkr"
 LICENSE="AGPLv3 See LICENSE file for terms"

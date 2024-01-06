@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple? Fast? Easy to use? DENPY!"
+DESCRIPTION="Simple? Fast? Easy to use? DENPY! [topver 1.2.6]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The automata library"
+DESCRIPTION="The automata library [topver 1.22.0]"
 
 HOMEPAGE="https://github.com/verifit/mata"
 LICENSE=""

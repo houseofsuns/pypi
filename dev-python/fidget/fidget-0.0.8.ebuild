@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fidget is an adapter of Qt into a functional-style interface. Fidget can be used seamlessly with PyQt5 and PySide2. Fidget is designed to create an effortless and rich UI for data science and analysis. See [the github page](https://github.com/talos-gis/Fidget) for more details"
+DESCRIPTION="Fidget is an adapter of Qt into a functional-style interface. Fidget can be used seamlessly with PyQt5 and PySide2. Fidget is designed to create an effortless and rich UI for data science and analysis. See [the github page](https://github.com/talos-gis/Fidget) for more details [topver 0.1.3]"
 
 HOMEPAGE="https://github.com/talos-gis/Fidget"
 LICENSE="MIT"

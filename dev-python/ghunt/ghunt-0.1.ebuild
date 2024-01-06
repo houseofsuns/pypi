@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dummy package to register the ghunt package name on pypi."
+DESCRIPTION="Dummy package to register the ghunt package name on pypi. [topver 2.0.4]"
 
 HOMEPAGE="https://github.com/Malfrats/xeuledoc"
 LICENSE=""

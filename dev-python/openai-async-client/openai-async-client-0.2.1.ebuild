@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenAI async API with client side timeout, retry with exponential backoff and connection reuse"
+DESCRIPTION="OpenAI async API with client side timeout, retry with exponential backoff and connection reuse [topver 0.2.4]"
 
 HOMEPAGE="https://github.com/itaim/openai-async-client.git"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Embedded python interpreter (very similar to Ruby's erb)."
+DESCRIPTION="Embedded python interpreter (very similar to Ruby's erb). [topver 0.2.1]"
 
 HOMEPAGE="http://www.wempy.org/"
 LICENSE="LGPL-3"

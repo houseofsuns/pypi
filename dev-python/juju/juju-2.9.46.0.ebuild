@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for Juju"
+DESCRIPTION="Python library for Juju [topver 3.3.0.0]"
 
 HOMEPAGE="https://github.com/juju/python-libjuju"
 LICENSE="Apache-2.0"

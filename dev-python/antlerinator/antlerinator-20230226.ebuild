@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ANTLeRinator"
+DESCRIPTION="ANTLeRinator [topver 4.9.2, badver 1!3.0.0]"
 
 HOMEPAGE="https://github.com/renatahodovan/antlerinator"
 LICENSE="BSD"

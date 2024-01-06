@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Server-side implementation of Gitaly protocol for Mercurial"
+DESCRIPTION="Server-side implementation of Gitaly protocol for Mercurial [topver 0.44.0]"
 
 HOMEPAGE="https://foss.heptapod.net/heptapod/hgitaly"
 LICENSE="GPL-2+"

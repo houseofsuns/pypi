@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python with the SmartyPants"
+DESCRIPTION="Python with the SmartyPants [topver 2.0.1]"
 
 HOMEPAGE="https://bitbucket.org/livibetter/smartypants.py"
 LICENSE="BSD"

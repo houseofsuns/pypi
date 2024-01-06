@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Enjoy your tour in data minning"
+DESCRIPTION="Enjoy your tour in data minning [topver 1.16.1]"
 
 HOMEPAGE="http://dapy.kitgram.cn"
 LICENSE="GPL v3"

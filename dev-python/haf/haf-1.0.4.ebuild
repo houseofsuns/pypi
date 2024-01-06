@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" haf : http api auto test framework  pip install haf --upgrade"
+DESCRIPTION=" haf : http api auto test framework  pip install haf --upgrade [topver 2.9.7]"
 
 HOMEPAGE=""
 LICENSE=""

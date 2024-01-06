@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Common Operations On Lots-of Sequences Tool."
+DESCRIPTION="Common Operations On Lots-of Sequences Tool. [topver 0.3.0]"
 
 HOMEPAGE="https://github.com/GenomicMedLab/cool-seq-tool"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Text tokenization and sentence segmentation (segtok v2)."
+DESCRIPTION="Text tokenization and sentence segmentation (segtok v2). [topver 1.4.4]"
 
 HOMEPAGE=""
 LICENSE="MIT"

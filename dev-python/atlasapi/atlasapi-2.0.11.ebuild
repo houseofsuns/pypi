@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Expose MongoDB Atlas Cloud provider APIs"
+DESCRIPTION="Expose MongoDB Atlas Cloud provider APIs [topver 3.0.1]"
 
 HOMEPAGE="https://github.com/mgmonteleone/python-atlasapi"
 LICENSE="Apache-2.0"

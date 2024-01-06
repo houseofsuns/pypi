@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="General purpose parameter validator for web development"
+DESCRIPTION="General purpose parameter validator for web development [topver 0.9.0]"
 
 HOMEPAGE="https://github.com/reorx/params"
 LICENSE=""

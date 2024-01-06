@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Low-level protocol for the Anki Cozmo SDK."
+DESCRIPTION="Low-level protocol for the Anki Cozmo SDK. [topver 3.4.0]"
 
 HOMEPAGE="https://developer.anki.com/cozmo/"
 LICENSE="Apache-2.0"

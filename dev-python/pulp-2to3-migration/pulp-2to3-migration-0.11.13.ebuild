@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pulp 2 to Pulp 3 migration tool"
+DESCRIPTION="Pulp 2 to Pulp 3 migration tool [topver 0.17.0]"
 
 HOMEPAGE="http://www.pulpproject.org"
 LICENSE="GPL-2+"

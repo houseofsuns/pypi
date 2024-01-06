@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pulp Django Application and Related Modules"
+DESCRIPTION="Pulp Django Application and Related Modules [topver 3.43.1]"
 
 HOMEPAGE="https://pulpproject.org"
 LICENSE="GPL-2+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Metrique - Client Libraries"
+DESCRIPTION="Metrique - Client Libraries [badver 0.3.2-1]"
 
 HOMEPAGE="https://github.com/kejbaly2/metrique"
 LICENSE="GPL-3"

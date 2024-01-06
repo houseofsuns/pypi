@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The comprehensive WSGI web application library."
+DESCRIPTION="The comprehensive WSGI web application library. [topver 3.0.1]"
 
 HOMEPAGE=""
 LICENSE=""

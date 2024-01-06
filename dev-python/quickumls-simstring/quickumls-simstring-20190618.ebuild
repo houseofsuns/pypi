@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Clone of simstring designed to work with QuickUMLS. Original version here: http://chokkan.org/software/simstring/"
+DESCRIPTION="Clone of simstring designed to work with QuickUMLS. Original version here: http://chokkan.org/software/simstring/ [badver 1.1.5r1]"
 
 HOMEPAGE="https://github.com/Georgetown-IR-Lab/simstring"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for finding meaningful deltas in Java class files and JARs"
+DESCRIPTION="Tools for finding meaningful deltas in Java class files and JARs [topver 1.6.0]"
 
 HOMEPAGE="https://github.com/obriencj/python-javatools"
 LICENSE="GNU Lesser General Public License v.3"

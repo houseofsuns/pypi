@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A flexible and powerful network data analysis framework"
+DESCRIPTION="A flexible and powerful network data analysis framework [topver 6.5.3]"
 
 HOMEPAGE="https://github.com/aouinizied/nfstream.git"
 LICENSE="LGPL-3"

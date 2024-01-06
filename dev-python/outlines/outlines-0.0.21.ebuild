@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Probabilistic Generative Model Programming"
+DESCRIPTION="Probabilistic Generative Model Programming [topver 0.1]"
 
 HOMEPAGE="https://github.com/outlines-dev/outlines"
 LICENSE=""

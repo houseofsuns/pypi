@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Meta package to make installing robotpy easier"
+DESCRIPTION="Meta package to make installing robotpy easier [badver 2024.0.0b4_p1]"
 
 HOMEPAGE="https://github.com/robotpy/robotpy-meta"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FABRIC Information Model Library"
+DESCRIPTION="FABRIC Information Model Library [topver 1.5.0]"
 
 HOMEPAGE="https://github.com/fabric-testbed/InformationModel"
 LICENSE=""

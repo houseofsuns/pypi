@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Engine for ML/Data tracking, visualization, dashboards, and model UI for Polyaxon."
+DESCRIPTION="Engine for ML/Data tracking, visualization, dashboards, and model UI for Polyaxon. [topver 2.0.0]"
 
 HOMEPAGE="https://github.com/polyaxon/traceml"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Antares_Launcher to run Antares on a remote linux machine"
+DESCRIPTION="Antares_Launcher to run Antares on a remote linux machine [topver 1.4.0]"
 
 HOMEPAGE="https://github.com/AntaresSimulatorTeam/antares-launcher.git"
 LICENSE="Apache-2.0"

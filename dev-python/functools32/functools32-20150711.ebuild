@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Backport of the functools module from Python 3.2.3 for use on 2.7 and PyPy."
+DESCRIPTION="Backport of the functools module from Python 3.2.3 for use on 2.7 and PyPy. [badver 3.2.3-2]"
 
 HOMEPAGE="https://github.com/MiCHiLU/python-functools32"
 LICENSE="PSF license"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Federation implementation for graphene3"
+DESCRIPTION="Federation implementation for graphene3 [topver 0.3.3.1687272414]"
 
 HOMEPAGE="https://gitlab.com/live-art-project/graphene-federation3"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Advanced scheduler for attack scenarios"
+DESCRIPTION="Advanced scheduler for attack scenarios [topver 2023.1.2]"
 
 HOMEPAGE="https://gitlab.ics.muni.cz/cryton"
 LICENSE="MIT"

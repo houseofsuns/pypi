@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Deep Learning framework to train, deploy, and ship AI products Lightning fast."
+DESCRIPTION="The Deep Learning framework to train, deploy, and ship AI products Lightning fast. [topver 2022.10.25]"
 
 HOMEPAGE="https://github.com/Lightning-AI/lightning"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Handle authorization to Nom Nom Data services"
+DESCRIPTION="Handle authorization to Nom Nom Data services [badver 2.3.4.post3_pre0]"
 
 HOMEPAGE="https://gitlab.com/nomnomdata/tools/nomnomdata-auth"
 LICENSE="LGPL-3.0-only"

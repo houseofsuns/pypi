@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="adhesive"
+DESCRIPTION="adhesive [topver 2021.4.3]"
 
 HOMEPAGE=""
 LICENSE="BSD"

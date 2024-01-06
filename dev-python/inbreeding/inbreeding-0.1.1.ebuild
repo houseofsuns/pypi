@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This packages serves as an implementation of the pedigree based inbreeding calculation as proposed by I. Aguilar and I. Misztal in 2008."
+DESCRIPTION="This packages serves as an implementation of the pedigree based inbreeding calculation as proposed by I. Aguilar and I. Misztal in 2008. [topver 0.1.1.3]"
 
 HOMEPAGE=""
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities to assist in database schema versioning"
+DESCRIPTION="Utilities to assist in database schema versioning [topver 0.10.0]"
 
 HOMEPAGE="https://perseas.github.io/"
 LICENSE="BSD"

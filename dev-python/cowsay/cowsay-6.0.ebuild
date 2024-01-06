@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The famous cowsay for GNU/Linux is now available for python"
+DESCRIPTION="The famous cowsay for GNU/Linux is now available for python [topver 6.1]"
 
 HOMEPAGE="https://github.com/VaasuDevanS/cowsay-python"
 LICENSE="GPL-3"

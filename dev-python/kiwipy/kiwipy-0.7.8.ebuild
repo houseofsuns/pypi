@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Robust, high-volume, message based communication made easy"
+DESCRIPTION="Robust, high-volume, message based communication made easy [topver 0.8.3]"
 
 HOMEPAGE="https://github.com/aiidateam/kiwipy.git"
 LICENSE="GPLv3 and MIT"

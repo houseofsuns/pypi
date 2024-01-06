@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Rename video files based on information scraped from thetvdb.com"
+DESCRIPTION="Rename video files based on information scraped from thetvdb.com [badver 0.3.0.alpha.4]"
 
 HOMEPAGE="https://github.com/louist87/scrappy"
 LICENSE="GPL 3.0"

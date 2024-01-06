@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Django app to send emails using Huey tasks"
+DESCRIPTION="A Django app to send emails using Huey tasks [topver 1.0.13]"
 
 HOMEPAGE="https://github.com/Axiacore/ax3-email-backend"
 LICENSE=""

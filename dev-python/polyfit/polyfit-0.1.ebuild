@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Constrained polynomial regression"
+DESCRIPTION="Constrained polynomial regression [topver 1.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

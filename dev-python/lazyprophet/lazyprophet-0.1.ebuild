@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [topver 0.3.9]"
 
 HOMEPAGE="https://github.com/tblume1992/LazyProphet"
 LICENSE=""

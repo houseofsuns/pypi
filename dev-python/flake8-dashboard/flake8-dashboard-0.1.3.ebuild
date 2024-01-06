@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generate different reports of flake8 violations"
+DESCRIPTION="Generate different reports of flake8 violations [topver 0.1.4]"
 
 HOMEPAGE="https://aperezhortal.github.io/flake8-dashboard/"
 LICENSE="Apache Software License 2.0"

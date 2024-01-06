@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A deep learning toolkit for proteomics"
+DESCRIPTION="A deep learning toolkit for proteomics [topver 0.3.1]"
 
 HOMEPAGE="https://github.com/wfondrie/depthcharge"
 LICENSE="Apache-2.0"

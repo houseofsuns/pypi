@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bindings for Pango for using with Manim."
+DESCRIPTION="Bindings for Pango for using with Manim. [topver 1.0.0]"
 
 HOMEPAGE="https://manimpango.manim.community/"
 LICENSE="MIT"

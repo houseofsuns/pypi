@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Use machine learning to create art and music"
+DESCRIPTION="Use machine learning to create art and music [topver 2.1.4]"
 
 HOMEPAGE="https://magenta.tensorflow.org/"
 LICENSE="Apache-2.0"

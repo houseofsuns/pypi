@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for RoboCam"
+DESCRIPTION="Python library for RoboCam [topver 1.0.0.34]"
 
 HOMEPAGE="https://eng.roborobo.co.kr/main"
 LICENSE="MIT"

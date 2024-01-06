@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Finds the libpython associated with your environment, wherever it may be hiding"
+DESCRIPTION="Finds the libpython associated with your environment, wherever it may be hiding [topver 0.3.1]"
 
 HOMEPAGE="https://github.com/ktbarrett/find_libpython"
 LICENSE="MIT"

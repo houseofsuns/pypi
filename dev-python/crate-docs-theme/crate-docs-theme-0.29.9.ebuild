@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Crate Docs Theme"
+DESCRIPTION="Crate Docs Theme [topver 0.30.0]"
 
 HOMEPAGE="https://github.com/crate/crate-docs-theme"
 LICENSE="Apache-2.0"

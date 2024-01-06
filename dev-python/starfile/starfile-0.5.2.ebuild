@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="STAR file reading and writing in python."
+DESCRIPTION="STAR file reading and writing in python. [topver 0.111]"
 
 HOMEPAGE="https://github.com/alisterburt/starfile"
 LICENSE="BSD 3-Clause"

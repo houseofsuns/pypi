@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Shell interface for docopt, the command-line interface description language."
+DESCRIPTION="Shell interface for docopt, the command-line interface description language. [badver 0.6.1-fix2]"
 
 HOMEPAGE="https://github.com/docopt/docopts"
 LICENSE="MIT"

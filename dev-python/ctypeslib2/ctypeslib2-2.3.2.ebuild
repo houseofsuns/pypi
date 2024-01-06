@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ctypeslib2 - FFI toolkit, relies on clang"
+DESCRIPTION="ctypeslib2 - FFI toolkit, relies on clang [topver 2.3.4]"
 
 HOMEPAGE="https://github.com/trolldbois/ctypeslib"
 LICENSE="License :: OSI Approved :: MIT License"

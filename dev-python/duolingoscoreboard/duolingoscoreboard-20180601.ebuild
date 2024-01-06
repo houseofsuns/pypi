@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Client for time cards APIs"
+DESCRIPTION="Client for time cards APIs [badver v0.3]"
 
 HOMEPAGE="https://github.com/thyagostall/duolingoscoreboard"
 LICENSE=""

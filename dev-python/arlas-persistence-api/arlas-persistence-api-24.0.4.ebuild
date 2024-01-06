@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ARLAS persistence API"
+DESCRIPTION="ARLAS persistence API [topver 24.1.0]"
 
 HOMEPAGE="https://github.com/gisaia/ARLAS-persistence"
 LICENSE=""

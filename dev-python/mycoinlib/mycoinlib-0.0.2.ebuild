@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package for generating unique BTC, LTC, and ETH wallets for customer orders"
+DESCRIPTION="A Python package for generating unique BTC, LTC, and ETH wallets for customer orders [topver 1.5]"
 
 HOMEPAGE="https://github.com/lukemvc/mycoinlib"
 LICENSE=""

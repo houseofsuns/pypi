@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Interface with various cloud APIs for language processing such as translation, text to speech"
+DESCRIPTION="Interface with various cloud APIs for language processing such as translation, text to speech [topver 20230816.1]"
 
 HOMEPAGE="https://github.com/Language-Tools/cloud-language-tools-core"
 LICENSE="GPL-3"

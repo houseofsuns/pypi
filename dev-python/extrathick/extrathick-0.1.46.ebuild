@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Common methods that I use all the time but don't necessarily feel they should be part of the standard library"
+DESCRIPTION="Common methods that I use all the time but don't necessarily feel they should be part of the standard library [topver 0.2.3]"
 
 HOMEPAGE="https://github.com/FoleyDiver/extrathick"
 LICENSE="GPL-2+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sudachi Dictionary for SudachiPy - Core Edition"
+DESCRIPTION="Sudachi Dictionary for SudachiPy - Core Edition [topver 20230927]"
 
 HOMEPAGE="https://github.com/WorksApplications/SudachiDict"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pure Python OPC-UA client and server library"
+DESCRIPTION="Pure Python OPC-UA client and server library [topver 1.5]"
 
 HOMEPAGE="http://freeopcua.github.io/"
 LICENSE="GNU Lesser General Public License v3 or later"

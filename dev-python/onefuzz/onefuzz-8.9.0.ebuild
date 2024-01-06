@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Onefuzz Client Library for Python"
+DESCRIPTION="Onefuzz Client Library for Python [topver 9.0.0]"
 
 HOMEPAGE="https://github.com/microsoft/onefuzz/"
 LICENSE="MIT"

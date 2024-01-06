@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lmod Module API"
+DESCRIPTION="Lmod Module API [topver 0.4.0]"
 
 HOMEPAGE="https://github.com/buildtesters/lmodule"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Assess the quality of putative genome bins."
+DESCRIPTION="Assess the quality of putative genome bins. [topver 1.2.2]"
 
 HOMEPAGE="http://pypi.python.org/pypi/checkm-genome/"
 LICENSE="GPL-3"

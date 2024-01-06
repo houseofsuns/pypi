@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Management of simple tags within file names"
+DESCRIPTION="Management of simple tags within file names [topver 2023.11.10.1]"
 
 HOMEPAGE="https://github.com/novoid/filetags"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The vcs module of Aliyun Python sdk."
+DESCRIPTION="The vcs module of Aliyun Python sdk. [topver 2.0.4]"
 
 HOMEPAGE="http://develop.aliyun.com/sdk/python"
 LICENSE="Apache-2.0"

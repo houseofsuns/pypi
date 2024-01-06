@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Digitized Observatory Resources for Automated Data Operations"
+DESCRIPTION="Digitized Observatory Resources for Automated Data Operations [topver 2.0.6]"
 
 HOMEPAGE="https://github.com/zarbanoo/dorado"
 LICENSE="BSD 3-Clause"

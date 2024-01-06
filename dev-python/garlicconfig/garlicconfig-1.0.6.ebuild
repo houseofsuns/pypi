@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="InfoScout GarlicConfig"
+DESCRIPTION="InfoScout GarlicConfig [topver 1.2.6]"
 
 HOMEPAGE="https://github.com/infoscout/garlicconfig"
 LICENSE=""

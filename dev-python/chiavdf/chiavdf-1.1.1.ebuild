@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Chia vdf verification (wraps C++)"
+DESCRIPTION="Chia vdf verification (wraps C++) [topver 1.4]"
 
 HOMEPAGE="https://github.com/Chia-Network/chiavdf"
 LICENSE="Apache License"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Catchpoint Python agent"
+DESCRIPTION="Catchpoint Python agent [topver 4.0.0]"
 
 HOMEPAGE="https://github.com/thundra-io/cp-trace-python"
 LICENSE=""

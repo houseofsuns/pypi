@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bapy Package."
+DESCRIPTION="Bapy Package. [topver 2.0.5]"
 
 HOMEPAGE=""
 LICENSE=""

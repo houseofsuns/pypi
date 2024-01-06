@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper around Espeak and Mbrola, to do simple Text-To-Speech (TTS), with the possibility to tweak the phonemic form."
+DESCRIPTION="A wrapper around Espeak and Mbrola, to do simple Text-To-Speech (TTS), with the possibility to tweak the phonemic form. [topver 0.3.9]"
 
 HOMEPAGE="https://github.com/hadware/voxpopuli"
 LICENSE="MIT"

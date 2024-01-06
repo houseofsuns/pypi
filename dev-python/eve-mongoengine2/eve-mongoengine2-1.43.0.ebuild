@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An Eve extension for Mongoengine ODM support"
+DESCRIPTION="An Eve extension for Mongoengine ODM support [topver 1.46.0]"
 
 HOMEPAGE="https://github.com/wangsha/eve-mongoengine"
 LICENSE=""

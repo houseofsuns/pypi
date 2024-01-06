@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SeqIO: Task-based datasets, preprocessing, and evaluation for sequence models."
+DESCRIPTION="SeqIO: Task-based datasets, preprocessing, and evaluation for sequence models. [topver 0.1.0]"
 
 HOMEPAGE="http://github.com/google/seqio"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="distributed scrapy spider scheduling system"
+DESCRIPTION="distributed scrapy spider scheduling system [topver 0.7.5]"
 
 HOMEPAGE="http://github.com/kevenli/scrapydd"
 LICENSE=""

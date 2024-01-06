@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Segment regions from fluorescence images"
+DESCRIPTION="Segment regions from fluorescence images [topver 0.0.26]"
 
 HOMEPAGE="https://github.com/TeamMacLean/fluorseg"
 LICENSE="LICENSE.txt"

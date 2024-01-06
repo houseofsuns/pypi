@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generator of ANSI C tracers which output CTF data streams"
+DESCRIPTION="Generator of ANSI C tracers which output CTF data streams [topver 3.1.2]"
 
 HOMEPAGE="https://barectf.org/"
 LICENSE="MIT"

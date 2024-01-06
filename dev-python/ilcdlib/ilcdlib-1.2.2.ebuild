@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A toolkit for reading and writing ILCD format and it's derivatives"
+DESCRIPTION="A toolkit for reading and writing ILCD format and it's derivatives [topver 2.0.0]"
 
 HOMEPAGE="https://github.com/cchangelabs/ilcdlib"
 LICENSE="Apache-2.0"

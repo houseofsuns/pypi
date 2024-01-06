@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Arabic text tools for Python"
+DESCRIPTION="Arabic text tools for Python [topver 0.6.15]"
 
 HOMEPAGE="http://pyarabic.sourceforge.net/"
 LICENSE="GPL-3"

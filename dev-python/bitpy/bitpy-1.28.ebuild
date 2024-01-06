@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BitPy"
+DESCRIPTION="BitPy [topver 1.43]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Build a form to seek records using multiple parameters"
+DESCRIPTION="Build a form to seek records using multiple parameters [topver 0.9.47]"
 
 HOMEPAGE="http://TODO"
 LICENSE="MIT"

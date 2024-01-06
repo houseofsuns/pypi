@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="miscellaneous simple bioinformatics utilities and lookup tables"
+DESCRIPTION="miscellaneous simple bioinformatics utilities and lookup tables [topver 0.5.8]"
 
 HOMEPAGE="https://github.com/biocommons/bioutils"
 LICENSE=""

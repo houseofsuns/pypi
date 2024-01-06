@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools to explore dynamic causal graphs in the case of undersampled data"
+DESCRIPTION="Tools to explore dynamic causal graphs in the case of undersampled data [topver 0.11]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

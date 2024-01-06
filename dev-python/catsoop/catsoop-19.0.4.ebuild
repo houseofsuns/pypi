@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CAT-SOOP is a tool for automatic collection and assessment of online exercises."
+DESCRIPTION="CAT-SOOP is a tool for automatic collection and assessment of online exercises. [topver 2022.9.1]"
 
 HOMEPAGE="https://catsoop.org"
 LICENSE="AGPL-3+"

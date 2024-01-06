@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A framework to help you have an awesome CLI"
+DESCRIPTION="A framework to help you have an awesome CLI [topver 0.22.0]"
 
 HOMEPAGE=""
 LICENSE=""

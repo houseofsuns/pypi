@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="tools for building conda packages"
+DESCRIPTION="tools for building conda packages [topver 2.1.5]"
 
 HOMEPAGE="https://github.com/conda/conda-build"
 LICENSE="BSD"

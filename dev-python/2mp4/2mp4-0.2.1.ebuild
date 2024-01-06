@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple utility to convert your video files into mp4s."
+DESCRIPTION="Simple utility to convert your video files into mp4s. [topver 1.0.1]"
 
 HOMEPAGE="https://github.com/skonakov/2mp4.git"
 LICENSE="MIT"

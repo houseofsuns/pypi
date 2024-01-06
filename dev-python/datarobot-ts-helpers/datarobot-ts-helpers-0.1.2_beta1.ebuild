@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package with helper scripts for complex DataRobot AutoTS use cases"
+DESCRIPTION="A package with helper scripts for complex DataRobot AutoTS use cases [topver 0.1.5]"
 
 HOMEPAGE="https://github.com/jarredbultema/ts_helpers_package"
 LICENSE=""

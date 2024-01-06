@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Neutron Scattering software suite."
+DESCRIPTION="Neutron Scattering software suite. [topver 1.0.4]"
 
 HOMEPAGE="https://github.com/MJOLNIRPackage/MJOLNIR-GUI"
 LICENSE="MPL-2.0"

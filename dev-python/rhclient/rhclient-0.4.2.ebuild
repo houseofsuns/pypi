@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python REST Service Management Client"
+DESCRIPTION="Python REST Service Management Client [topver 1.2.1]"
 
 HOMEPAGE="https://www.restharness.com"
 LICENSE=""

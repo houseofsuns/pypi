@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for Alice Blue APIs"
+DESCRIPTION="Python library for Alice Blue APIs [topver 2.0.4]"
 
 HOMEPAGE="https://github.com/krishnavelu/alice_blue"
 LICENSE=""

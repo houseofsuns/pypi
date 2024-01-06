@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="String grouper contains functions to do string matching using TF-IDF and the cossine similarity. Based on https://bergvca.github.io/2017/10/14/super-fast-string-matching.html"
+DESCRIPTION="String grouper contains functions to do string matching using TF-IDF and the cossine similarity. Based on https://bergvca.github.io/2017/10/14/super-fast-string-matching.html [topver 0.6.1]"
 
 HOMEPAGE="https://github.com/Bergvca/string_grouper"
 LICENSE="MIT"

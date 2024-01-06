@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django backend for Microsoft SQL Server and Azure SQL Database using pyodbc"
+DESCRIPTION="Django backend for Microsoft SQL Server and Azure SQL Database using pyodbc [topver 2.1.0.0]"
 
 HOMEPAGE="https://github.com/michiya/django-pyodbc-azure"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for quick, scrappy analyses with pandas and SQL"
+DESCRIPTION="A package for quick, scrappy analyses with pandas and SQL [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/machow/siuba"
 LICENSE="MIT"

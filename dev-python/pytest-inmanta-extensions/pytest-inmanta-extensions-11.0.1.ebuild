@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Inmanta tests package"
+DESCRIPTION="Inmanta tests package [topver 2020.5.1]"
 
 HOMEPAGE="https://github.com/inmanta/inmanta"
 LICENSE="Apache Software License 2"

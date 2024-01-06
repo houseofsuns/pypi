@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deep Neural Network Library"
+DESCRIPTION="Deep Neural Network Library [topver 0.7.5]"
 
 HOMEPAGE="https://gitlab.com/hansroh/dnn"
 LICENSE="MIT"

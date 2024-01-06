@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python toolkit for pluggable algorithms and data structures for multimedia-based machine learning."
+DESCRIPTION="Python toolkit for pluggable algorithms and data structures for multimedia-based machine learning. [topver 0.19.0]"
 
 HOMEPAGE="https://github.com/Kitware/SMQTK-Core"
 LICENSE="BSD"

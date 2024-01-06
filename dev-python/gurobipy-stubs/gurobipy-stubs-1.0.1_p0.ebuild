@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Type stubs for gurobipy"
+DESCRIPTION="Type stubs for gurobipy [topver 2.0.0]"
 
 HOMEPAGE="https://www.gurobi.com"
 LICENSE="MIT"

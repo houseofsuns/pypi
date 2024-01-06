@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple Nintendo BYML or BYAML v2/v3 parser and writer"
+DESCRIPTION="A simple Nintendo BYML or BYAML v2/v3 parser and writer [topver 2.4.4]"
 
 HOMEPAGE="https://github.com/leoetlino/byml-v2"
 LICENSE=""

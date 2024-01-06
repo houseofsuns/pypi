@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [topver 0.2.0]"
 
 HOMEPAGE="https://github.com/hyperledger/anoncreds-rs"
 LICENSE=""

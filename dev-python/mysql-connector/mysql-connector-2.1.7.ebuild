@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MySQL driver written in Python"
+DESCRIPTION="MySQL driver written in Python [topver 2.2.9]"
 
 HOMEPAGE="https://github.com/sanpingz/mysql-connector"
 LICENSE="GNU GPLv2 with FOSS License Exception"

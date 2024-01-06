@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Kolibri plugin for rendering Khan Academy Perseus style exercises"
+DESCRIPTION="Kolibri plugin for rendering Khan Academy Perseus style exercises [topver 1.3.5]"
 
 HOMEPAGE="https://github.com/learningequality/kolibri-exercise-perseus-plugin"
 LICENSE="MIT"

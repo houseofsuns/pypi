@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A CRM software using the django web framework"
+DESCRIPTION="A CRM software using the django web framework [topver 2.5.3]"
 
 HOMEPAGE="https://www.cremecrm.com"
 LICENSE="AGPL-3"

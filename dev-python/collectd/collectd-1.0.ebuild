@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="library for sending statistics over UDP to collectd servers"
+DESCRIPTION="library for sending statistics over UDP to collectd servers [topver 1.0.2]"
 
 HOMEPAGE="http://code.google.com/p/collectd/"
 LICENSE="BSD"

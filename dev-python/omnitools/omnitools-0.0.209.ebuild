@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Miscellaneous functions written in short forms."
+DESCRIPTION="Miscellaneous functions written in short forms. [topver 0.0.268]"
 
 HOMEPAGE="https://github.com/foxe6/"
 LICENSE="AGPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A framework to define a machine learning pipeline"
+DESCRIPTION="A framework to define a machine learning pipeline [badver 2.0a7_p1]"
 
 HOMEPAGE="https://github.com/ahmed-shariff/mlpipeline"
 LICENSE=""

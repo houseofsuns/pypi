@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="More Streams! Chained function calls"
+DESCRIPTION="More Streams! Chained function calls [topver 1.459.23319]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-streams"
 LICENSE="MPL 2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for connecting to LORA Technologies' bot services."
+DESCRIPTION="Python client for connecting to LORA Technologies' bot services. [topver 1.6.10]"
 
 HOMEPAGE="https://asklora.ai"
 LICENSE="MIT"

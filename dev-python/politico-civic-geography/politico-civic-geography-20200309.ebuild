@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manage political geographic and spatial data, the POLITICO way."
+DESCRIPTION="Manage political geographic and spatial data, the POLITICO way. [badver 1.0a2_pre1]"
 
 HOMEPAGE="https://github.com/The-Politico/politico-civic-geography/"
 LICENSE="MIT"

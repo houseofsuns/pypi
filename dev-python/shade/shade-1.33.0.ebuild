@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple client library for interacting with OpenStack clouds"
+DESCRIPTION="Simple client library for interacting with OpenStack clouds [topver 97]"
 
 HOMEPAGE="http://docs.openstack.org/shade/latest"
 LICENSE=""

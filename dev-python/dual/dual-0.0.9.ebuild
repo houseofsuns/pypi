@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\`dual\` is a package for dual problem."
+DESCRIPTION="\`dual\` is a package for dual problem. [topver 0.1.0]"
 
 HOMEPAGE="https://github.com/SaitoTsutomu/dual"
 LICENSE=""

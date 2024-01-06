@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python package for making it possible to do sharding inside your Python code"
+DESCRIPTION="A python package for making it possible to do sharding inside your Python code [topver 0.7.3]"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="MIT"

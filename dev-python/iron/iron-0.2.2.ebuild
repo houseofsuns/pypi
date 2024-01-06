@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="iron: the powerful but simple build tool using flows."
+DESCRIPTION="iron: the powerful but simple build tool using flows. [topver 0.3.0]"
 
 HOMEPAGE="https://github.com/nvie/iron"
 LICENSE="BSD"

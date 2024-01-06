@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wildbook IA (WBIA) - Machine learning service for the WildBook project"
+DESCRIPTION="Wildbook IA (WBIA) - Machine learning service for the WildBook project [topver 4.0.5]"
 
 HOMEPAGE="https://github.com/WildMeOrg/wildbook-ia"
 LICENSE="Apache-2.0"

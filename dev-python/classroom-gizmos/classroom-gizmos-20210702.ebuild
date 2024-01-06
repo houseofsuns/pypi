@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Several small functions for classroom instruction."
+DESCRIPTION="Several small functions for classroom instruction. [badver 0.0b2_pre32]"
 
 HOMEPAGE="https://github.com/Danseur1/Classroom_gizmos"
 LICENSE=""

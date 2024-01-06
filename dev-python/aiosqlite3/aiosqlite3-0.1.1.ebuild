@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="sqlite3 support for asyncio."
+DESCRIPTION="sqlite3 support for asyncio. [topver 0.3.0]"
 
 HOMEPAGE="https://github.com/zeromake/aiosqlite3"
 LICENSE="MIT"

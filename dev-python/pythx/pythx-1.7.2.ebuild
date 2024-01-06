@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python library for the MythX platform"
+DESCRIPTION="A Python library for the MythX platform [topver 1.7.3]"
 
 HOMEPAGE="https://github.com/dmuhs/pythx"
 LICENSE="MIT"

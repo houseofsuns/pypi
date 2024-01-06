@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Format converter add-on for Label Studio"
+DESCRIPTION="Format converter add-on for Label Studio [topver 0.48]"
 
 HOMEPAGE="https://github.com/heartexlabs/label-studio-converter"
 LICENSE=""

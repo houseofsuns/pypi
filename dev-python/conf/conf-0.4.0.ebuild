@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Facilitates a convenient use of configuration files"
+DESCRIPTION="Facilitates a convenient use of configuration files [topver 0.4.1]"
 
 HOMEPAGE="https://github.com/ramonhagenaars/conf"
 LICENSE=""

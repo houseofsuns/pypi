@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AboutCode-toolkit is a tool to document the provenance (origin and license) of third-party software using small text files. Collect inventories and generate attribution documentation."
+DESCRIPTION="AboutCode-toolkit is a tool to document the provenance (origin and license) of third-party software using small text files. Collect inventories and generate attribution documentation. [topver 10.1.0]"
 
 HOMEPAGE="https://github.com/nexB/aboutcode-toolkit"
 LICENSE="Apache-2.0"

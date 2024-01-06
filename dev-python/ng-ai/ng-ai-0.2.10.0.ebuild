@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NebulaGraph AI Suite"
+DESCRIPTION="NebulaGraph AI Suite [topver 0.2.10.1]"
 
 HOMEPAGE="https://github.com/wey-gu/nebulagraph-ai"
 LICENSE="Apache-2.0"

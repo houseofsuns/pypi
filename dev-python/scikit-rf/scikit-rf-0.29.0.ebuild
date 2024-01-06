@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Object Oriented Microwave Engineering"
+DESCRIPTION="Object Oriented Microwave Engineering [topver 0.30.0]"
 
 HOMEPAGE="https://scikit-rf.org/"
 LICENSE="LICENSE.txt"

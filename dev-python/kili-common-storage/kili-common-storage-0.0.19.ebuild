@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A storage package for kilimall lite"
+DESCRIPTION="A storage package for kilimall lite [topver 0.0.21]"
 
 HOMEPAGE=""
 LICENSE=""

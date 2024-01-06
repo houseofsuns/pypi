@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Slim Python interface for Dolt's CLI API."
+DESCRIPTION="Slim Python interface for Dolt's CLI API. [topver 1.1.10]"
 
 HOMEPAGE=""
 LICENSE=""

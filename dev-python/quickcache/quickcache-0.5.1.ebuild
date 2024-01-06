@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="caching has never been easier"
+DESCRIPTION="caching has never been easier [topver 0.5.4]"
 
 HOMEPAGE="https://github.com/dimagi/quickcache"
 LICENSE=""

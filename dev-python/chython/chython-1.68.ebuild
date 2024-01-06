@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [topver 1.70]"
 
 HOMEPAGE="https://github.com/chython/chython"
 LICENSE="LGPL-3"

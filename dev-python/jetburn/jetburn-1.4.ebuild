@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="jetburn - Airline ticket explorer program"
+DESCRIPTION="jetburn - Airline ticket explorer program [topver 3.2.0]"
 
 HOMEPAGE="https://github.com/dharif23/jetburn"
 LICENSE="LGPL-3"

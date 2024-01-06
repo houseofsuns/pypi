@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Connection Pool for Psycopg"
+DESCRIPTION="Connection Pool for Psycopg [topver 3.2.0]"
 
 HOMEPAGE="https://psycopg.org/psycopg3/"
 LICENSE="GNU Lesser General Public License v3 LGPLv3"

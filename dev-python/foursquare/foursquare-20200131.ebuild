@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="easy-as-pie foursquare API client"
+DESCRIPTION="easy-as-pie foursquare API client [topver 20130707, badver 1!2020.1.30]"
 
 HOMEPAGE="http://github.com/mLewisLogic/foursquare"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="3DJCG Models"
+DESCRIPTION="3DJCG Models [topver 0.1.17]"
 
 HOMEPAGE="https://github.com/buaacoder/FE-3DGQA"
 LICENSE=""

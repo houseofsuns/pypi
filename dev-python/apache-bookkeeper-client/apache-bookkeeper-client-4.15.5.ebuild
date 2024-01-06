@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Apache BookKeeper client library"
+DESCRIPTION="Apache BookKeeper client library [topver 4.16.3]"
 
 HOMEPAGE="https://github.com/apache/bookkeeper/tree/master/stream/clients/python"
 LICENSE="Apache-2.0"

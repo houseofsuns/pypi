@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Attack scenario orchestrator for Cryton"
+DESCRIPTION="Attack scenario orchestrator for Cryton [topver 2023.1.1]"
 
 HOMEPAGE="https://gitlab.ics.muni.cz/cryton"
 LICENSE="MIT"

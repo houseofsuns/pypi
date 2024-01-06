@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton module to store memos"
+DESCRIPTION="Tryton module to store memos [topver 7.0.11]"
 
 HOMEPAGE="https://www.m-ds.de/"
 LICENSE="GPL-3"

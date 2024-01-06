@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The free and open-source Download Manager written in pure Python"
+DESCRIPTION="The free and open-source Download Manager written in pure Python [badver 0.5.0b3_pre77]"
 
 HOMEPAGE="https://pyload.net"
 LICENSE="agpl3"

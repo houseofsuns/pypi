@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="EnvKey's python library. Protect API keys and credentials. Keep configuration in sync."
+DESCRIPTION="EnvKey's python library. Protect API keys and credentials. Keep configuration in sync. [topver 2.4.2]"
 
 HOMEPAGE="https://github.com/envkey/envkey-python"
 LICENSE="MIT"

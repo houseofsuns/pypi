@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="In-memory test stub for bigquery"
+DESCRIPTION="In-memory test stub for bigquery [topver 1.2.2]"
 
 HOMEPAGE="https://github.com/Khan/tinyquery"
 LICENSE=""

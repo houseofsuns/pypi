@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Some Kafka utility functions and patterns for the nubium project"
+DESCRIPTION="Some Kafka utility functions and patterns for the nubium project [topver 4.2.0, badver 3.3.12.post1_pre1]"
 
 HOMEPAGE="https://gitlab.corp.redhat.com/mkt-ops-de/nubium-utils.git"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cython bindings for MurmurHash"
+DESCRIPTION="Cython bindings for MurmurHash [topver 1.1.0]"
 
 HOMEPAGE="https://github.com/explosion/murmurhash"
 LICENSE="MIT"

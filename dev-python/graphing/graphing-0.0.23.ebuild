@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Add static script_dir() method to Path"
+DESCRIPTION="Add static script_dir() method to Path [topver 0.0.25]"
 
 HOMEPAGE="https://github.com/ryu577/graphing"
 LICENSE="MIT"

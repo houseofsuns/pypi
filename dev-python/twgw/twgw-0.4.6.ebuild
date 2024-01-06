@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TWGW"
+DESCRIPTION="TWGW [topver 0.5.5]"
 
 HOMEPAGE=""
 LICENSE=""

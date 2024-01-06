@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A mock redis object."
+DESCRIPTION="A mock redis object. [badver 0.1.3dev]"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="UNKNOWN"

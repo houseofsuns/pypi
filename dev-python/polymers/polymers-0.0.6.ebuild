@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Polymers Modeling Library"
+DESCRIPTION="Polymers Modeling Library [topver 0.3.7]"
 
 HOMEPAGE="https://sandialabs.github.io/Polymers"
 LICENSE="BSD"

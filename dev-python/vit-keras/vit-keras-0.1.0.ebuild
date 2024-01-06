@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Keras implementation of ViT (Vision Transformer)"
+DESCRIPTION="Keras implementation of ViT (Vision Transformer) [topver 0.1.2]"
 
 HOMEPAGE="https://github.com/faustomorales/vit-keras"
 LICENSE="Apache-2.0"

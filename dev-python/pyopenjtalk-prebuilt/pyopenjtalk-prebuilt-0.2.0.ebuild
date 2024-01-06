@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python wrapper for OpenJTalk"
+DESCRIPTION="A python wrapper for OpenJTalk [topver 0.3.0]"
 
 HOMEPAGE="https://github.com/r9y9/pyopenjtalk"
 LICENSE="MIT"

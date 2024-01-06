@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package for generating various biochemical, physiochemical and structural descriptors/features of protein sequences."
+DESCRIPTION="Python package for generating various biochemical, physiochemical and structural descriptors/features of protein sequences. [topver 1.2.1]"
 
 HOMEPAGE="https://github.com/amckenna41/protPy"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Unofficial python module for flashing TI devices."
+DESCRIPTION="Unofficial python module for flashing TI devices. [topver 2.0]"
 
 HOMEPAGE="https://tiflash.readthedocs.io"
 LICENSE="MIT"

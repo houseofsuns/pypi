@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Google OAuth 2.0 for Server to Server applications implementation. Performs JWT-based access token retrieval for Google APIs."
+DESCRIPTION="Google OAuth 2.0 for Server to Server applications implementation. Performs JWT-based access token retrieval for Google APIs. [topver 1.0.1]"
 
 HOMEPAGE="https://github.com/miedzinski/google-oauth2-service"
 LICENSE="MIT"

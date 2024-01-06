@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Siz uğraşmayın diye biz uğraştık.. ~ dızz 🐍"
+DESCRIPTION="Siz uğraşmayın diye biz uğraştık.. ~ dızz 🐍 [topver 0.7.4]"
 
 HOMEPAGE="https://github.com/keyiflerolsun/KekikSpatula"
 LICENSE="GPL-3+"

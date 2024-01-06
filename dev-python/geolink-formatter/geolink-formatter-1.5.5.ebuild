@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OEREBlex geoLink Formatter"
+DESCRIPTION="OEREBlex geoLink Formatter [topver 2.0.4]"
 
 HOMEPAGE="https://gitlab.com/gf-bl/python-geolink-formatter"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A web interface to extract tabular data from PDFs."
+DESCRIPTION="A web interface to extract tabular data from PDFs. [topver 0.4.3]"
 
 HOMEPAGE="https://excalibur-py.readthedocs.io/"
 LICENSE="MIT"

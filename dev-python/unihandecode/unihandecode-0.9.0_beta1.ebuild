@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="US-ASCII transliterations of Unicode text"
+DESCRIPTION="US-ASCII transliterations of Unicode text [topver 0.81]"
 
 HOMEPAGE="https://github.com/miurahr/unihandecode/"
 LICENSE="GPL-3"

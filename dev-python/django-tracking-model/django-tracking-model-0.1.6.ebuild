@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Track changes made to django model instance fields."
+DESCRIPTION="Track changes made to django model instance fields. [topver 0.1.7]"
 
 HOMEPAGE="https://github.com/drozdowsky/django-tracking-model/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CellMap - RNA landscape inference method"
+DESCRIPTION="CellMap - RNA landscape inference method [topver 1.0.7]"
 
 HOMEPAGE="https://github.com/yusuke-imoto-lab/CellMap"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Get gender from name and email address"
+DESCRIPTION="Get gender from name and email address [topver 0.0.33]"
 
 HOMEPAGE="https://github.com/eeghor/gender"
 LICENSE="MIT"

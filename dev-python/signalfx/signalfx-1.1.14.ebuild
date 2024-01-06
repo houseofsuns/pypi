@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SignalFx Python Library"
+DESCRIPTION="SignalFx Python Library [topver 1.1.16]"
 
 HOMEPAGE="https://github.com/signalfx/signalfx-python"
 LICENSE="Apache Software License v2"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django App for storing Workflows and Tracking"
+DESCRIPTION="Django App for storing Workflows and Tracking [topver 0.3.4]"
 
 HOMEPAGE="https://github.com/genomics-geek/django-genomix-workflows"
 LICENSE="MIT"

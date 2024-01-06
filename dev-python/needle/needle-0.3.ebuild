@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Automated testing for your CSS."
+DESCRIPTION="Automated testing for your CSS. [topver 0.5.0]"
 
 HOMEPAGE="https://github.com/bfirsh/needle"
 LICENSE="UNKNOWN"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Symphony REST API - Python Client"
+DESCRIPTION="Symphony REST API - Python Client [topver 2.0]"
 
 HOMEPAGE="https://github.com/SymphonyPlatformSolutions/symphony-api-client-python"
 LICENSE=""

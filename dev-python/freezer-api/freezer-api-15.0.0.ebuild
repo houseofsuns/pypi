@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenStack Backup and Restore API Service"
+DESCRIPTION="OpenStack Backup and Restore API Service [topver 2015.1.0]"
 
 HOMEPAGE="https://docs.openstack.org/freezer/latest/"
 LICENSE="Apache-2.0"

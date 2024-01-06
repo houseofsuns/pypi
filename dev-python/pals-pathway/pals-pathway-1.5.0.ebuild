@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python tool to rank significantly-changing metabolite sets"
+DESCRIPTION="A Python tool to rank significantly-changing metabolite sets [topver 1.5.2]"
 
 HOMEPAGE="https://github.com/glasgowcompbio/PALS"
 LICENSE=""

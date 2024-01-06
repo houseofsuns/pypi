@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Drop-in replacement for django's many to many field with sorted relations."
+DESCRIPTION="Drop-in replacement for django's many to many field with sorted relations. [topver 3.1.1]"
 
 HOMEPAGE="http://github.com/jazzband/django-sortedm2m"
 LICENSE="BSD"

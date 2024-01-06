@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="File type identification using libmagic"
+DESCRIPTION="File type identification using libmagic [topver 0.4.27]"
 
 HOMEPAGE="http://github.com/messense/magicfile"
 LICENSE="MIT"

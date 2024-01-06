@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Project for reviewing GitHub PRs with Open AI and Chat-GPT."
+DESCRIPTION="Python Project for reviewing GitHub PRs with Open AI and Chat-GPT. [badver 0.9.6rc1030_p1]"
 
 HOMEPAGE=""
 LICENSE=""

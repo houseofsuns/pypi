@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pomegranate is a graphical models library for Python, implemented in Cython for speed."
+DESCRIPTION="Pomegranate is a graphical models library for Python, implemented in Cython for speed. [topver 1.0.3]"
 
 HOMEPAGE="http://pypi.python.org/pypi/pomegranate/"
 LICENSE="MIT"

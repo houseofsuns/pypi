@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sparse Partial Robust M Regression, including plot functions"
+DESCRIPTION="Sparse Partial Robust M Regression, including plot functions [topver 0.7.1]"
 
 HOMEPAGE="https://github.com/SvenSerneels/sprm"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A CLI aimed at making it easier to run QuantConnect's LEAN engine locally and in the cloud"
+DESCRIPTION="A CLI aimed at making it easier to run QuantConnect's LEAN engine locally and in the cloud [topver 1.155]"
 
 HOMEPAGE="https://lean.io/cli"
 LICENSE=""

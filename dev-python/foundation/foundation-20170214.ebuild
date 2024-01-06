@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A generic website backend implemented in Django using Controllers."
+DESCRIPTION="A generic website backend implemented in Django using Controllers. [badver 0.1.0a0_pre1]"
 
 HOMEPAGE="https://github.com/altio/foundation"
 LICENSE="MIT"

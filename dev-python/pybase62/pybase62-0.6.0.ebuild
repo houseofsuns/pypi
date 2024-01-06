@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python module for base62 encoding"
+DESCRIPTION="Python module for base62 encoding [topver 1.0.0]"
 
 HOMEPAGE="http://github.com/suminb/base62"
 LICENSE=""

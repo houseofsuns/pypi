@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Combine XPath, CSS Selectors and JSONPath for Web data extracting."
+DESCRIPTION="Combine XPath, CSS Selectors and JSONPath for Web data extracting. [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/linw1995/data_extractor"
 LICENSE="MIT"

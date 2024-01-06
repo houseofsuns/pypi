@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="More Testing! Extends the \`unittest.TestCase\` to provide deep, yet fuzzy, structural comparisons"
+DESCRIPTION="More Testing! Extends the \`unittest.TestCase\` to provide deep, yet fuzzy, structural comparisons [topver 7.454.23305]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-testing"
 LICENSE="MPL 2.0"

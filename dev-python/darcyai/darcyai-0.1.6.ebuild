@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DarcyAI Package"
+DESCRIPTION="DarcyAI Package [topver 2.2.1]"
 
 HOMEPAGE="https://github.com/Edgeworx/darcyai"
 LICENSE=""

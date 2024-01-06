@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="一个轻量级、低耦合的基于 mirai-api-http 的 Python SDK。"
+DESCRIPTION="一个轻量级、低耦合的基于 mirai-api-http 的 Python SDK。 [topver 0.3.0]"
 
 HOMEPAGE="https://yiri-mirai.vercel.app"
 LICENSE="AGPL-3"

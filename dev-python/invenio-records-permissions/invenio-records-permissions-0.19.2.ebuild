@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Permission policies for Invenio records."
+DESCRIPTION="Permission policies for Invenio records. [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/inveniosoftware/invenio-records-permissions"
 LICENSE="MIT"

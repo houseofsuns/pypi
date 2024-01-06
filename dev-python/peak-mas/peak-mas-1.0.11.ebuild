@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python-based framework for heterogeneous agent communities"
+DESCRIPTION="Python-based framework for heterogeneous agent communities [topver 1.0.13]"
 
 HOMEPAGE="https://www.gecad.isep.ipp.pt/peak"
 LICENSE=""

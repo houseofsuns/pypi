@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LightGBM Classifier with integrated bayesian hyperparameter optimization"
+DESCRIPTION="LightGBM Classifier with integrated bayesian hyperparameter optimization [topver 0.36.1]"
 
 HOMEPAGE="https://github.com/0xideas/sequifier"
 LICENSE="MIT"

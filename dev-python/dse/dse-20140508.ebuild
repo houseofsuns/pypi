@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DSE - Simplified \"bulk\" insert/update/delete for Django."
+DESCRIPTION="DSE - Simplified \"bulk\" insert/update/delete for Django. [badver 4.0.0.Beta]"
 
 HOMEPAGE="https://github.com/weholt/dse"
 LICENSE="UNKNOWN"

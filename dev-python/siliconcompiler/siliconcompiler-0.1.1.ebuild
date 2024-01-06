@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A compiler framework that automates translation from source code to silicon."
+DESCRIPTION="A compiler framework that automates translation from source code to silicon. [topver 0.19.0]"
 
 HOMEPAGE="https://siliconcompiler.com"
 LICENSE="Apache-2.0"

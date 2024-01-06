@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A minimalist collection of text processing tools for Python 3"
+DESCRIPTION="A minimalist collection of text processing tools for Python 3 [badver 0.2a6_p2]"
 
 HOMEPAGE="https://github.com/letuananh/chirptext/"
 LICENSE="MIT"

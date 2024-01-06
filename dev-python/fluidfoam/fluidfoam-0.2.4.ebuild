@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Openfoam PostProcessing Python Tools"
+DESCRIPTION="Openfoam PostProcessing Python Tools [topver 0.2.5]"
 
 HOMEPAGE="http://legi.grenoble-inp.fr"
 LICENSE="GPL-2"

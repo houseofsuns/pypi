@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provides a client for all Data interactions required with the Meter Management System"
+DESCRIPTION="Provides a client for all Data interactions required with the Meter Management System [topver 0.4.14]"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""

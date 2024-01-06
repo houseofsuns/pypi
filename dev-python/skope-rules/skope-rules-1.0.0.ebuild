@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Machine Learning with Interpretable Rules"
+DESCRIPTION="Machine Learning with Interpretable Rules [topver 1.0.1]"
 
 HOMEPAGE="https://github.com/skope-rules/skope-rules"
 LICENSE="BSD 3 clause"

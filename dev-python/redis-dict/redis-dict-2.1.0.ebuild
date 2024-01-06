@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dictionary with Redis as storage backend"
+DESCRIPTION="Dictionary with Redis as storage backend [topver 2.2.0]"
 
 HOMEPAGE="https://github.com/Attumm/redisdict"
 LICENSE="MIT"

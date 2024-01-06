@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data Analysis Baseline Library"
+DESCRIPTION="Data Analysis Baseline Library [topver 0.2.5]"
 
 HOMEPAGE="https://github.com/amueller/dabl"
 LICENSE=""

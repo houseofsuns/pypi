@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Relief-based feature selection algorithms"
+DESCRIPTION="Relief-based feature selection algorithms [topver 0.62]"
 
 HOMEPAGE="https://github.com/EpistasisLab/scikit-rebate"
 LICENSE="License :: OSI Approved :: MIT License"

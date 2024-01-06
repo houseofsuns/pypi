@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Underworld Geodynamics wrapper"
+DESCRIPTION="Underworld Geodynamics wrapper [topver 2.12.5]"
 
 HOMEPAGE="https://github.com/rbeucher/UWGeodynamics.git"
 LICENSE=""

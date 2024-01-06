@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Visit schedule for ambition/edc project"
+DESCRIPTION="Visit schedule for ambition/edc project [topver 0.1.27]"
 
 HOMEPAGE="https://github.com/ambition-trial/ambition-visit-schedule"
 LICENSE="GPL license, see LICENSE"

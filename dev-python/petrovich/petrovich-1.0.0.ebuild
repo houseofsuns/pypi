@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Библиотека для склонения кириллических ФИО по падежам"
+DESCRIPTION="Библиотека для склонения кириллических ФИО по падежам [topver 2.0.1]"
 
 HOMEPAGE="https://github.com/damirazo/petrovich"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple text-to-speech client using azure TTS API(trial)."
+DESCRIPTION="A simple text-to-speech client using azure TTS API(trial). [topver 6.0.1]"
 
 HOMEPAGE="https://github.com/kxxt/aspeak"
 LICENSE=""

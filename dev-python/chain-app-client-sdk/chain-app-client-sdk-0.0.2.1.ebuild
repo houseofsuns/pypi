@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BIND Public API"
+DESCRIPTION="BIND Public API [topver 1.0.5]"
 
 HOMEPAGE=""
 LICENSE="MIT"

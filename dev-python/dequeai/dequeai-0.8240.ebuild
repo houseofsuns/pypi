@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Package for DEQUE AI Platform"
+DESCRIPTION="Python Package for DEQUE AI Platform [topver 0.80888]"
 
 HOMEPAGE="https://dequeapp-deque.gitbook.io/deque-docs/getting-started/dequeai-experiment-tracking"
 LICENSE=""

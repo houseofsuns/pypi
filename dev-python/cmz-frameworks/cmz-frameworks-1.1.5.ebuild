@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This package will be use to clone any version of the automation frameworks available under CMZ"
+DESCRIPTION="This package will be use to clone any version of the automation frameworks available under CMZ [topver 1.2.1]"
 
 HOMEPAGE=""
 LICENSE=""

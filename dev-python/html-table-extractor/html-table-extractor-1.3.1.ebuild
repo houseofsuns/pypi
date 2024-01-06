@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python library for extracting data from html table"
+DESCRIPTION="A python library for extracting data from html table [topver 1.4.1]"
 
 HOMEPAGE="https://github.com/yuanxu-li/html-table-extractor"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SQL Phile"
+DESCRIPTION="SQL Phile [topver 0.9.7]"
 
 HOMEPAGE="https://gitlab.com/hansroh/sqlphile"
 LICENSE="MIT"

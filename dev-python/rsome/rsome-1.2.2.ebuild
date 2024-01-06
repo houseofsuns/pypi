@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Robust Stochastic Optimization Made Easy"
+DESCRIPTION="Robust Stochastic Optimization Made Easy [topver 1.2.5]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

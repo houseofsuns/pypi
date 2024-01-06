@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simulation and documentation of metabolic pathway assemblies using the Yeast Pathway Kit."
+DESCRIPTION="Simulation and documentation of metabolic pathway assemblies using the Yeast Pathway Kit. [topver 4.0.0]"
 
 HOMEPAGE="http://pypi.python.org/pypi/ypkpathway/"
 LICENSE="LICENSE.txt"

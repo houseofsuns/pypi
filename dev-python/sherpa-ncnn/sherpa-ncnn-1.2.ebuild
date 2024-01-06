@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [topver 2.1.4]"
 
 HOMEPAGE="https://github.com/k2-fsa/sherpa-ncnn"
 LICENSE="Apache licensed, as found in the LICENSE file"

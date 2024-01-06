@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SCALE Codec Library for Polymesh"
+DESCRIPTION="Python SCALE Codec Library for Polymesh [topver 4.0.0]"
 
 HOMEPAGE="https://github.com/polymathnetwork/py-scale-codec"
 LICENSE=""

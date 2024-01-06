@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="grab cocks"
+DESCRIPTION="grab cocks [topver 1.81]"
 
 HOMEPAGE=""
 LICENSE=""

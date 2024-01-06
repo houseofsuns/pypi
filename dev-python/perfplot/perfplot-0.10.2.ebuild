@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Performance plots for Python code snippets"
+DESCRIPTION="Performance plots for Python code snippets [topver 0.11.1]"
 
 HOMEPAGE=""
 LICENSE=""

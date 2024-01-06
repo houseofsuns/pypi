@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Solar calculation class for Python"
+DESCRIPTION="Solar calculation class for Python [topver 1.0.1]"
 
 HOMEPAGE=""
 LICENSE=""

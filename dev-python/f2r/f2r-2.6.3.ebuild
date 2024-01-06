@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Produces RPMs for FLP packages out of aliBuild ouput"
+DESCRIPTION="Produces RPMs for FLP packages out of aliBuild ouput [topver 2.7.0]"
 
 HOMEPAGE="https://gitlab.cern.ch/AliceO2Group/flp-to-rpm"
 LICENSE="GPL-3"

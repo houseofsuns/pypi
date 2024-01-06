@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton module for accounting"
+DESCRIPTION="Tryton module for accounting [topver 7.0.2]"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Geometric statistics on manifolds"
+DESCRIPTION="Geometric statistics on manifolds [topver 2.7.0]"
 
 HOMEPAGE="http://github.com/geomstats/geomstats"
 LICENSE=""

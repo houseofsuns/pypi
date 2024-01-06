@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a python library for fetching youtube live chat."
+DESCRIPTION="a python library for fetching youtube live chat. [topver 0.5.5]"
 
 HOMEPAGE="https://github.com/taizan-hokuto/pytchat"
 LICENSE="MIT"

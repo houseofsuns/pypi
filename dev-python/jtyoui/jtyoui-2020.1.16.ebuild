@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="这是一个Python集合包,包含了:491个模块。"
+DESCRIPTION="这是一个Python集合包,包含了:491个模块。 [topver 2020.7.8]"
 
 HOMEPAGE="https://github.com/jtyoui/Jtyoui"
 LICENSE="MIT Licence"

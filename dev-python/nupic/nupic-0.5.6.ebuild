@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Numenta Platform for Intelligent Computing"
+DESCRIPTION="Numenta Platform for Intelligent Computing [topver 1.0.5]"
 
 HOMEPAGE="https://github.com/numenta/nupic"
 LICENSE=""

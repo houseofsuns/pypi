@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small reusable package that adds an Events app to a project"
+DESCRIPTION="A small reusable package that adds an Events app to a project [topver 0.2.13]"
 
 HOMEPAGE="https://github.com/giantmade/giant-events"
 LICENSE="MIT"

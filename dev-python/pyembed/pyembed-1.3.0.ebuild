@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python OEmbed consumer library with automatic discovery of producers"
+DESCRIPTION="Python OEmbed consumer library with automatic discovery of producers [topver 1.3.3]"
 
 HOMEPAGE="http://pyembed.github.io"
 LICENSE="Copyright c 2013 Matt Thomson"

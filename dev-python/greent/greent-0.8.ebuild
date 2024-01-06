@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Green Team BioMedical Data Translator"
+DESCRIPTION="Green Team BioMedical Data Translator [topver 0.79]"
 
 HOMEPAGE="https://github.com/NCATS-Tangerine/greent.git"
 LICENSE=""

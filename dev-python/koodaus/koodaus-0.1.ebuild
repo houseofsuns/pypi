@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Encoding/decoding library for Python"
+DESCRIPTION="Encoding/decoding library for Python [topver 0.2]"
 
 HOMEPAGE="https://github.com/valohai/koodaus"
 LICENSE="MIT"

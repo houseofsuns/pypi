@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Personal Database Wrapper."
+DESCRIPTION="Personal Database Wrapper. [topver 0.0.52]"
 
 HOMEPAGE="https://github.com/njzhaowei"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Common utilities for licenseware."
+DESCRIPTION="Common utilities for licenseware. [topver 3.0.0]"
 
 HOMEPAGE="https://licenseware.io/"
 LICENSE="Apache-2.0"

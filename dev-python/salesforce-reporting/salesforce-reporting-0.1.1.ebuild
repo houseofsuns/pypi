@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Get data from Salesforce reports with python"
+DESCRIPTION="Get data from Salesforce reports with python [topver 0.1.3]"
 
 HOMEPAGE="https://github.com/cghall/salesforce-reporting"
 LICENSE="UNKNOWN"

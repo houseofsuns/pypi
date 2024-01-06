@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for managing machines with Dell iDRAC cards"
+DESCRIPTION="Library for managing machines with Dell iDRAC cards [topver 8.0.0]"
 
 HOMEPAGE="https://launchpad.net/python-dracclient"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easy to use hybrid index for semantic + keyword search"
+DESCRIPTION="Easy to use hybrid index for semantic + keyword search [topver 0.1.0]"
 
 HOMEPAGE="https://github.com/gigagiova/hybrid-index"
 LICENSE="MIT"

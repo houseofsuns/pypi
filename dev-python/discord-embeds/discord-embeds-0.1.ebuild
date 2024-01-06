@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for make eazy embeds"
+DESCRIPTION="Package for make eazy embeds [topver 0.4]"
 
 HOMEPAGE=""
 LICENSE=""

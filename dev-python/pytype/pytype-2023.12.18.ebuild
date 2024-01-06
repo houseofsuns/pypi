@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python type inferencer"
+DESCRIPTION="Python type inferencer [topver 2024.1.5]"
 
 HOMEPAGE="https://google.github.io/pytype"
 LICENSE="Apache-2.0"

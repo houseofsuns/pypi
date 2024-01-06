@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python MELCloud interface"
+DESCRIPTION="Python MELCloud interface [topver 2.11.0]"
 
 HOMEPAGE="https://github.com/vilppuvuorinen/pymelcloud"
 LICENSE="MIT"

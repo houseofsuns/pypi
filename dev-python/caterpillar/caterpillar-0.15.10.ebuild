@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Text retrieval and analytics engine."
+DESCRIPTION="Text retrieval and analytics engine. [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/Kapiche/caterpillar"
 LICENSE="AGPL-3+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Injective Python SDK, with Exchange API Client"
+DESCRIPTION="Injective Python SDK, with Exchange API Client [topver 1.0.1]"
 
 HOMEPAGE="https://injectivelabs.org/"
 LICENSE="Apache-2.0"

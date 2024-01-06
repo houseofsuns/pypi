@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK for controlling a Blueye underwater drone"
+DESCRIPTION="SDK for controlling a Blueye underwater drone [topver 5.0.1]"
 
 HOMEPAGE="https://www.blueyerobotics.com"
 LICENSE=""

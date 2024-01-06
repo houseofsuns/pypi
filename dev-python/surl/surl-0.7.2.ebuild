@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ubuntu Store API thin wrapper."
+DESCRIPTION="Ubuntu Store API thin wrapper. [topver 0.72]"
 
 HOMEPAGE="https://github.com/cprov/surl"
 LICENSE="GPL-3"

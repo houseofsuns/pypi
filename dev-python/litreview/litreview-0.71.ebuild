@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Literature curation tool."
+DESCRIPTION="Literature curation tool. [topver 0.6997]"
 
 HOMEPAGE="http://cherry-vm13.stanford.edu"
 LICENSE="MIT"

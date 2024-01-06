@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A drop-in replacement for Scikit-Learn’s GridSearchCV / RandomizedSearchCV with cutting edge hyperparameter tuning techniques."
+DESCRIPTION="A drop-in replacement for Scikit-Learn’s GridSearchCV / RandomizedSearchCV with cutting edge hyperparameter tuning techniques. [topver 0.5.0]"
 
 HOMEPAGE="https://github.com/ray-project/tune-sklearn"
 LICENSE=""

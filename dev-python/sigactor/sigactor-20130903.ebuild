@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SIGACTor is an application for efficiently entering SIGACT data."
+DESCRIPTION="SIGACTor is an application for efficiently entering SIGACT data. [badver 0.1.21dev]"
 
 HOMEPAGE="http://bitbucket.org/davidystephenson/sigactor"
 LICENSE="Proprietary"

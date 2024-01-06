@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A verbose Clock"
+DESCRIPTION="A verbose Clock [topver 0.2.1]"
 
 HOMEPAGE="https://github.com/manojmanivannan/py-clock"
 LICENSE=""

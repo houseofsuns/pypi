@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="With AutoBrewML Framework the time it takes to get production-ready ML models with great ease and efficiency highly accelerates."
+DESCRIPTION="With AutoBrewML Framework the time it takes to get production-ready ML models with great ease and efficiency highly accelerates. [topver 0.45]"
 
 HOMEPAGE=""
 LICENSE=""

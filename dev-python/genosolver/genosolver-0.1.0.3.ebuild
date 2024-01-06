@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="GENO is a solver for non-linear optimization problems. It can solve constrained and unconstrained problems."
+DESCRIPTION="GENO is a solver for non-linear optimization problems. It can solve constrained and unconstrained problems. [topver 0.1.0.6]"
 
 HOMEPAGE="http://www.geno-project.org"
 LICENSE="AGPL-3"

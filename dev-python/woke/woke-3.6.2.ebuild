@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Woke is a Python-based development and testing framework for Solidity."
+DESCRIPTION="Woke is a Python-based development and testing framework for Solidity. [topver 4.0.0]"
 
 HOMEPAGE="https://ackeeblockchain.com"
 LICENSE="ISC"

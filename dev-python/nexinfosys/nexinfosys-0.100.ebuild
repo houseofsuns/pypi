@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Formal and executable MuSIASEM multi-system Nexus models for Sustainable Development Analysis"
+DESCRIPTION="Formal and executable MuSIASEM multi-system Nexus models for Sustainable Development Analysis [topver 0.102]"
 
 HOMEPAGE="https://github.com/MAGIC-nexus/nis-backend"
 LICENSE="BSD"

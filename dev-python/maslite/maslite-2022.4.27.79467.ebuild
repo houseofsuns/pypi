@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A lightweight multi-agent system"
+DESCRIPTION="A lightweight multi-agent system [topver 2023.0.0]"
 
 HOMEPAGE="https://github.com/root-11/maslite"
 LICENSE="MIT"

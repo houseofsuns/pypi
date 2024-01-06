@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CHIME/FRB API"
+DESCRIPTION="CHIME/FRB API [topver 2022.8.0]"
 
 HOMEPAGE="https://github.com/CHIMEFRB/frb-api"
 LICENSE="MIT"

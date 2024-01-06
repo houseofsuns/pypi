@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\"Compose Orquestra workflows using a Python DSL\""
+DESCRIPTION="\"Compose Orquestra workflows using a Python DSL\" [topver 0.59.0]"
 
 HOMEPAGE="https://github.com/zapatacomputing/orquestra-workflow-sdk"
 LICENSE="Apache-2.0"

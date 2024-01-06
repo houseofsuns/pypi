@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="これはdiscordpyとasyncpgを使用し、POSTTGRESQLにデータを保存する処理があるBOTを作ってる日本人向けに作成したものです"
+DESCRIPTION="これはdiscordpyとasyncpgを使用し、POSTTGRESQLにデータを保存する処理があるBOTを作ってる日本人向けに作成したものです [topver 0.3.6]"
 
 HOMEPAGE="https://github.com/furimu1234/asyncpgw/tree/main/asyncpgw"
 LICENSE=""

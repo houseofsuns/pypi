@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="aaindex is a lightweight Python software package for accessing the data in the various AAIndex databases, which represent the physiochemical and biochemical properties of amino acids as numerical indices."
+DESCRIPTION="aaindex is a lightweight Python software package for accessing the data in the various AAIndex databases, which represent the physiochemical and biochemical properties of amino acids as numerical indices. [topver 1.1.2]"
 
 HOMEPAGE="https://github.com/amckenna41/aaindex"
 LICENSE="MIT"

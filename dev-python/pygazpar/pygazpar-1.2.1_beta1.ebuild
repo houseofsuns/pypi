@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Retrieve gas consumption from GrDF web site (French Gas Company)"
+DESCRIPTION="Retrieve gas consumption from GrDF web site (French Gas Company) [topver 1.3.0]"
 
 HOMEPAGE="https://github.com/ssenart/pygazpar"
 LICENSE="MIT"

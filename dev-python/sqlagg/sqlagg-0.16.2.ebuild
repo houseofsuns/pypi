@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SQL aggregation tool"
+DESCRIPTION="SQL aggregation tool [topver 0.17.2]"
 
 HOMEPAGE="http://github.com/dimagi/sql-agg"
 LICENSE="MIT"

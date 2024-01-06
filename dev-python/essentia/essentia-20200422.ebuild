@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for audio and music analysis, description and synthesis"
+DESCRIPTION="Library for audio and music analysis, description and synthesis [badver 2.1b6_pre234]"
 
 HOMEPAGE="http://essentia.upf.edu"
 LICENSE="AGPL-3"

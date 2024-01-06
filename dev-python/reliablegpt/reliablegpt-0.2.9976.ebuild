@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Error handling and auto-retry library for GPT"
+DESCRIPTION="Error handling and auto-retry library for GPT [topver 0.3.0]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SecureString wrapper written by Python."
+DESCRIPTION="SecureString wrapper written by Python. [topver 0.3]"
 
 HOMEPAGE="https://github.com/er28-0652/securestring"
 LICENSE="MIT"

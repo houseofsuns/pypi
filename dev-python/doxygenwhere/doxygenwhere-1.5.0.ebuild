@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface to locate doxygen installation"
+DESCRIPTION="Python interface to locate doxygen installation [topver 1.6.0]"
 
 HOMEPAGE="https://github.com/bjoernrennfanz/pydoxygenwhere"
 LICENSE="MIT"

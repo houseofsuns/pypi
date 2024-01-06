@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="minimum-Redundancy-Maximum-Relevance algorithm for feature selection"
+DESCRIPTION="minimum-Redundancy-Maximum-Relevance algorithm for feature selection [topver 0.2.8]"
 
 HOMEPAGE="https://github.com/smazzanti/mrmr"
 LICENSE="MIT"

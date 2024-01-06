@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Double check sdist/bdist on pypi"
+DESCRIPTION="Double check sdist/bdist on pypi [topver 3.0.0]"
 
 HOMEPAGE="https://github.com/python-packaging/honesty/"
 LICENSE="MIT"

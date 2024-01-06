@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="UNKNOWN"
+DESCRIPTION="UNKNOWN [topver 0.4030]"
 
 HOMEPAGE="https://bitbucket.org/amagee/djangoutils"
 LICENSE="GPL-3"

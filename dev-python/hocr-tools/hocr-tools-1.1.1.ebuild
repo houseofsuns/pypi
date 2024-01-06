@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Advanced tools for hOCR integration"
+DESCRIPTION="Advanced tools for hOCR integration [topver 1.2.0]"
 
 HOMEPAGE="https://github.com/tmbdev/hocr-tools"
 LICENSE="UNKNOWN"

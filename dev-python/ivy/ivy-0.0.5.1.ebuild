@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The unified machine learning framework, enabling framework-agnostic functions, layers and libraries."
+DESCRIPTION="The unified machine learning framework, enabling framework-agnostic functions, layers and libraries. [topver 6.4.1]"
 
 HOMEPAGE="https://unify.ai/ivy"
 LICENSE="Apache-2.0"

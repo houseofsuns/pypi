@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ocean tool for validating asset metadata."
+DESCRIPTION="Ocean tool for validating asset metadata. [topver 1.1.0]"
 
 HOMEPAGE="https://github.com/oceanprotocol/plecos"
 LICENSE="Apache Software License 2.0"

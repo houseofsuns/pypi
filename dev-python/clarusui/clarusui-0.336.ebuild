@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Clarus UI Library"
+DESCRIPTION="Clarus UI Library [topver 0.418]"
 
 HOMEPAGE="http://www.clarusft.com"
 LICENSE=""

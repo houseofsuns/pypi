@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Directory-based environments."
+DESCRIPTION="Directory-based environments. [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/kennethreitz/autoenv"
 LICENSE="See LICENSE."

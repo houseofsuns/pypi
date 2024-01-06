@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DJANGO OUTBOX MENU"
+DESCRIPTION="DJANGO OUTBOX MENU [topver 1.1.30]"
 
 HOMEPAGE="https://github.com/PROJECT-OUTBOX/django_lib_outbox_menu.git"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mathematics Tools"
+DESCRIPTION="Mathematics Tools [topver 4.4.1]"
 
 HOMEPAGE="https://github.com/JHay0112/jmath"
 LICENSE="MIT"

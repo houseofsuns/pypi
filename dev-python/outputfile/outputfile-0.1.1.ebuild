@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Timestamp Preserving Output File Writer"
+DESCRIPTION="Timestamp Preserving Output File Writer [topver 1.0.1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django 1.5-1.10 SQL Server backend using pyodbc."
+DESCRIPTION="Django 1.5-1.10 SQL Server backend using pyodbc. [topver 2.0.0]"
 
 HOMEPAGE="https://github.com/lionheart/django-pyodbc"
 LICENSE="BSD 3-Clause License"

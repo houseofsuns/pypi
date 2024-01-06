@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Crypto Bakery"
+DESCRIPTION="Crypto Bakery [topver 0.8.1]"
 
 HOMEPAGE="https://github.com/AgeOfMarcus/CryptoBaker"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="wrapper around pytube with some new functionality"
+DESCRIPTION="wrapper around pytube with some new functionality [badver 0.0.2a1_p1]"
 
 HOMEPAGE="https://github.com/OpenJarbas/tutubo"
 LICENSE="Apache-2.0"

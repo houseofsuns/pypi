@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Static analysis checks for Flask, by r2c. Available in our free program analysis tool, Bento. (ht"
+DESCRIPTION="Static analysis checks for Flask, by r2c. Available in our free program analysis tool, Bento. (ht [topver 0.10.0]"
 
 HOMEPAGE=""
 LICENSE=""

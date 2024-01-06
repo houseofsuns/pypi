@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Module for converting between datetime.timedelta and Go's Duration strings."
+DESCRIPTION="Module for converting between datetime.timedelta and Go's Duration strings. [topver 0.6]"
 
 HOMEPAGE="https://github.com/icholy/durationpy"
 LICENSE="MIT"

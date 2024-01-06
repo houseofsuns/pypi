@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="For generating property table values for given input"
+DESCRIPTION="For generating property table values for given input [topver 0.0.9]"
 
 HOMEPAGE="https://github.com/Buddhi19/PropertyTables_Python"
 LICENSE=""

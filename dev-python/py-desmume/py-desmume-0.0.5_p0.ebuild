@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library to interface with DeSmuME, the Nintendo DS emulator + sample GTK-based frontend"
+DESCRIPTION="Python library to interface with DeSmuME, the Nintendo DS emulator + sample GTK-based frontend [topver 0.0.6]"
 
 HOMEPAGE="https://github.com/SkyTemple/py-desmume/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Preprocessing required data for customer service purpose"
+DESCRIPTION="Preprocessing required data for customer service purpose [badver 0.2.10.post2_pre4]"
 
 HOMEPAGE="https://github.com/quangvuminh2000/preprocessing-pgp"
 LICENSE="MIT"

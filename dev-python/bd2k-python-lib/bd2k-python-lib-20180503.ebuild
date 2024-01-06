@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The BD2K Python module kitchen sink"
+DESCRIPTION="The BD2K Python module kitchen sink [badver 1.14a1_pre48]"
 
 HOMEPAGE="https://github.com/BD2KGenomics/bd2k-python-lib"
 LICENSE=""

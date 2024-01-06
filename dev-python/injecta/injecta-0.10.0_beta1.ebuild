@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dependency Injection Container Library"
+DESCRIPTION="Dependency Injection Container Library [topver 0.10.2]"
 
 HOMEPAGE="https://github.com/pyfony/injecta"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="combination and simplification of some useful git commands"
+DESCRIPTION="combination and simplification of some useful git commands [topver 1.1.1]"
 
 HOMEPAGE="https://github.com/pynickle/git-python"
 LICENSE=""

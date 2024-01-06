@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for SAP NetWeaver RFC Library"
+DESCRIPTION="Python bindings for SAP NetWeaver RFC Library [topver 2.4.0]"
 
 HOMEPAGE="https://github.com/SAP/pyrfc"
 LICENSE="OSI Approved :: Apache Software License"

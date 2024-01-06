@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python 3 super() check for flake8"
+DESCRIPTION="Python 3 super() check for flake8 [topver 0.1.3]"
 
 HOMEPAGE="https://github.com/meanmail/flake8-super"
 LICENSE="MIT"

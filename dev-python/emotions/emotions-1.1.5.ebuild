@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is a Program which can simulate EMOTIONS and MOOD."
+DESCRIPTION="This is a Program which can simulate EMOTIONS and MOOD. [topver 1.2.7]"
 
 HOMEPAGE=""
 LICENSE=""

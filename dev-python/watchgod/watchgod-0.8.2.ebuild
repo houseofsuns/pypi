@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple, modern file watching and code reload in python."
+DESCRIPTION="Simple, modern file watching and code reload in python. [topver 0.10]"
 
 HOMEPAGE="https://github.com/samuelcolvin/watchfiles"
 LICENSE="MIT"

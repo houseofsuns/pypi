@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="League of Legends live replay parser"
+DESCRIPTION="League of Legends live replay parser [topver 0.4.5]"
 
 HOMEPAGE="https://github.com/fifteen-GG/DataNashor-Parser"
 LICENSE="MIT"

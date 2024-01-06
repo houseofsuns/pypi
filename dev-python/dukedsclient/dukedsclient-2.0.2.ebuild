@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command line tool(ddsclient) to upload/manage projects on the duke-data-service."
+DESCRIPTION="Command line tool(ddsclient) to upload/manage projects on the duke-data-service. [topver 4.0.0]"
 
 HOMEPAGE="https://github.com/Duke-GCB/DukeDSClient"
 LICENSE="MIT"

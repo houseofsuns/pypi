@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenTracing support for Python DB API"
+DESCRIPTION="OpenTracing support for Python DB API [topver 0.0.5]"
 
 HOMEPAGE="http://github.com/opentracing-contrib/python-dbapi"
 LICENSE="Apache Software License v2"

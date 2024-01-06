@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for the MESSAGEix-GLOBIOM family of models"
+DESCRIPTION="Tools for the MESSAGEix-GLOBIOM family of models [topver 2023.11.24]"
 
 HOMEPAGE="https://github.com/iiasa/message-ix-models"
 LICENSE=""

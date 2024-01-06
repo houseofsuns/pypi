@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TFLite Support is a toolkit that helps users to develop ML and deploy TFLite models onto mobile devices."
+DESCRIPTION="TFLite Support is a toolkit that helps users to develop ML and deploy TFLite models onto mobile devices. [topver 0.4.4]"
 
 HOMEPAGE=""
 LICENSE=""

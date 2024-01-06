@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Netezza Dialect for SQLAlchemy"
+DESCRIPTION="Netezza Dialect for SQLAlchemy [topver 11.1.0]"
 
 HOMEPAGE="https://github.com/IBM/nzalchemy"
 LICENSE="IBM"

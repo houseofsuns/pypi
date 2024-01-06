@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open Law Library fork of TUF"
+DESCRIPTION="Open Law Library fork of TUF [topver 0.20.0]"
 
 HOMEPAGE="https://www.updateframework.com"
 LICENSE=""

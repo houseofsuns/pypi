@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An instant JSON API for your CSV"
+DESCRIPTION="An instant JSON API for your CSV [topver 2.2.1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

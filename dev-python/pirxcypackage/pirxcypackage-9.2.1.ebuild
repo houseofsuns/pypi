@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PirxcyBot in a PyPi package form to easily be ran on repl. Or in a simple py file"
+DESCRIPTION="PirxcyBot in a PyPi package form to easily be ran on repl. Or in a simple py file [topver 20.0.3]"
 
 HOMEPAGE="https://github.com/PirxcyFinal/PirxcyBotFiles"
 LICENSE=""

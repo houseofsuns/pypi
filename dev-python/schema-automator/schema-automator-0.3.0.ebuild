@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Infer models, enrich with meaning for terms including enum permissible values"
+DESCRIPTION="Infer models, enrich with meaning for terms including enum permissible values [topver 1.0.0]"
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause"

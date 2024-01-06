@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A CLI and SDK for interacting with the Efemarai ML testing platform."
+DESCRIPTION="A CLI and SDK for interacting with the Efemarai ML testing platform. [topver 0.4.2]"
 
 HOMEPAGE="https://www.efemarai.com/"
 LICENSE="MIT"

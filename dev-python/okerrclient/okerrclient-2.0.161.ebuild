@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="client for okerr cloud monitoring system"
+DESCRIPTION="client for okerr cloud monitoring system [topver 2.0.164]"
 
 HOMEPAGE="http://okerr.com/"
 LICENSE="MIT"

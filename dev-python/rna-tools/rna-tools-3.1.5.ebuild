@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a toolbox to analyze structures and simulations of RNA"
+DESCRIPTION="a toolbox to analyze structures and simulations of RNA [topver 3.20]"
 
 HOMEPAGE="https://github.com/mmagnus/rna-tools"
 LICENSE="GPL-3"

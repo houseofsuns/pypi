@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Implementation of the autofocus method MAPFoSt. Publication: Binding J, Mikula S, Denk W. Low-dosage Maximum-A-Posteriori Focusing and Stigmation. Microsc Microanal. 2013"
+DESCRIPTION="Implementation of the autofocus method MAPFoSt. Publication: Binding J, Mikula S, Denk W. Low-dosage Maximum-A-Posteriori Focusing and Stigmation. Microsc Microanal. 2013 [topver 4.3.1]"
 
 HOMEPAGE="https://gitlab.com/rangolisaxena90/mapfost"
 LICENSE=""

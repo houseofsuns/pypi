@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pirogue let you dynamically and easily create views in PostgreSQL for inheritance or join scenarios."
+DESCRIPTION="pirogue let you dynamically and easily create views in PostgreSQL for inheritance or join scenarios. [topver 1.4.2.4]"
 
 HOMEPAGE="https://github.com/opengisch/pirogue"
 LICENSE="MIT"

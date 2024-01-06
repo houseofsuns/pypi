@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Finds close numerical matches across two arrays"
+DESCRIPTION="Finds close numerical matches across two arrays [topver 0.2.3]"
 
 HOMEPAGE="https://github.com/shmulvad/close_numerical_matches"
 LICENSE="MIT"

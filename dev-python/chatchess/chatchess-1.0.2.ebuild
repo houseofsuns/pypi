@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package to play chess with ChatGPT"
+DESCRIPTION="A package to play chess with ChatGPT [topver 1.1.8]"
 
 HOMEPAGE="https://github.com/Tmate6/ChatChess"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CLI to manage CloudFormation stacks"
+DESCRIPTION="CLI to manage CloudFormation stacks [badver 1!20230822.175356]"
 
 HOMEPAGE="https://github.com/biochimia/cfn-review-bot"
 LICENSE=""

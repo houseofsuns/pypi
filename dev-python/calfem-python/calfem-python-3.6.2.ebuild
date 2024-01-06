@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CALFEM for Python"
+DESCRIPTION="CALFEM for Python [topver 3.6.5]"
 
 HOMEPAGE="https://github.com/CALFEM/calfem-python"
 LICENSE="MIT"

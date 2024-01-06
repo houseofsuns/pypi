@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pygame effects for 2D video game and arcade game"
+DESCRIPTION="Pygame effects for 2D video game and arcade game [topver 1.0.28]"
 
 HOMEPAGE="https://github.com/yoyoberenguer/PygameShader"
 LICENSE="GNU General Public License v3.0"

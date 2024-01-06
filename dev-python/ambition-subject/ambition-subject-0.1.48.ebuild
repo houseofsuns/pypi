@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Subject/Participant models for ambition/edc."
+DESCRIPTION="Subject/Participant models for ambition/edc. [topver 0.1.94]"
 
 HOMEPAGE="https://github.com/ambition-trial/ambition-subject"
 LICENSE="GPL license, see LICENSE"

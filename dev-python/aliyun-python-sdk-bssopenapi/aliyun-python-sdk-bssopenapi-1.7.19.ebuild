@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The bssopenapi module of Aliyun Python sdk."
+DESCRIPTION="The bssopenapi module of Aliyun Python sdk. [topver 2.0.3]"
 
 HOMEPAGE="http://develop.aliyun.com/sdk/python"
 LICENSE="Apache-2.0"

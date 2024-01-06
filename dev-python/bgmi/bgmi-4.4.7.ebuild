@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BGmi is a cli tool for subscribed bangumi."
+DESCRIPTION="BGmi is a cli tool for subscribed bangumi. [topver 5.0.0]"
 
 HOMEPAGE="https://github.com/BGmi/BGmi"
 LICENSE="MIT"

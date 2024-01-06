@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Gives a reproducible manner to your objects and can serialize them in 100% pythonic format."
+DESCRIPTION="Gives a reproducible manner to your objects and can serialize them in 100% pythonic format. [topver 0.5.4]"
 
 HOMEPAGE="https://gitlab.com/kamichal/renew"
 LICENSE="MIT"

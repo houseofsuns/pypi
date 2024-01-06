@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools lib for Azur Lane which game powered by ManJiu Shanghai"
+DESCRIPTION="Tools lib for Azur Lane which game powered by ManJiu Shanghai [topver 0.7.0]"
 
 HOMEPAGE="https://github.com/thedayofthedoctor/altl"
 LICENSE="GPL-3.0 LICENSE"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The developmental release for Dapr Python SDK Flask."
+DESCRIPTION="The developmental release for Dapr Python SDK Flask. [badver 1.11.0rc1_pre1781]"
 
 HOMEPAGE="https://dapr.io/"
 LICENSE="Apache-2.0"

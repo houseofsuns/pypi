@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Templatetags for django-taggit."
+DESCRIPTION="Templatetags for django-taggit. [topver 1.6.1]"
 
 HOMEPAGE="https://github.com/fizista/django-taggit-templatetags2"
 LICENSE="BSD"

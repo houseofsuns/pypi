@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for reading legacy DBF file with library data"
+DESCRIPTION="Library for reading legacy DBF file with library data [badver 0.0.4rc180_p1]"
 
 HOMEPAGE=""
 LICENSE=""

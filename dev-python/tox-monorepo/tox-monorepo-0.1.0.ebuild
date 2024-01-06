@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tox plugin built to allow sharing of a common tox.ini file across repositories with high package counts."
+DESCRIPTION="A tox plugin built to allow sharing of a common tox.ini file across repositories with high package counts. [topver 0.1.2]"
 
 HOMEPAGE="https://github.com/Azure/azure-sdk-tools/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Issues blockchain certificates using the Bitcoin blockchain"
+DESCRIPTION="Issues blockchain certificates using the Bitcoin blockchain [topver 3.5.0]"
 
 HOMEPAGE="https://github.com/blockchain-certificates/cert-issuer"
 LICENSE="MIT"

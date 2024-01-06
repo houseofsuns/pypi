@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="trim adapters from high-throughput sequencing reads"
+DESCRIPTION="trim adapters from high-throughput sequencing reads [topver 2.0.0]"
 
 HOMEPAGE="https://atropos.readthedocs.org/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open GoPro API and Examples"
+DESCRIPTION="Open GoPro API and Examples [topver 0.15.1]"
 
 HOMEPAGE="https://github.com/gopro/OpenGoPro/tree/main/demos/python/sdk_wireless_camera_control"
 LICENSE="MIT"

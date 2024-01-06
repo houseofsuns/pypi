@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Symbolic Ethereum virtual machine"
+DESCRIPTION="Symbolic Ethereum virtual machine [topver 0.17.12]"
 
 HOMEPAGE=""
 LICENSE="MIT"

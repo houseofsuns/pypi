@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is A foundamental package containing some basic self-designed functions and types for Project PyCTLib."
+DESCRIPTION="This is A foundamental package containing some basic self-designed functions and types for Project PyCTLib. [topver 0.3.127]"
 
 HOMEPAGE="https://github.com/Bertie97/pyctlib/tree/main/pyctlib"
 LICENSE="MIT Licence"

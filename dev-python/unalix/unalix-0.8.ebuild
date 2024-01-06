@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Small, dependency-free, fast Python package for removing tracking fields from URLs."
+DESCRIPTION="Small, dependency-free, fast Python package for removing tracking fields from URLs. [topver 0.9]"
 
 HOMEPAGE="https://github.com/AmanoTeam/Unalix"
 LICENSE="LGPL-3"

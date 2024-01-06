@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Covalent Slurm Plugin"
+DESCRIPTION="Covalent Slurm Plugin [topver 0.16.0]"
 
 HOMEPAGE="https://github.com/AgnostiqHQ/covalent-slurm-plugin"
 LICENSE="Apache-2.0"

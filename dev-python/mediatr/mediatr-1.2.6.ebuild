@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="mediator and CQRS pattern implementation with pipline behaviors for Python 3.5+. Mediatr py"
+DESCRIPTION="mediator and CQRS pattern implementation with pipline behaviors for Python 3.5+. Mediatr py [topver 1.3.2]"
 
 HOMEPAGE="https://github.com/megafetis/mediatr_py"
 LICENSE="MIT -or- Apache License 2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="For little HTML GUI applications, with easy Python/JS interop"
+DESCRIPTION="For little HTML GUI applications, with easy Python/JS interop [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/python-eel/Eel"
 LICENSE=""

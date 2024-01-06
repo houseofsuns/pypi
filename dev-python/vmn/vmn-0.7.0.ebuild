@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Stamping utility"
+DESCRIPTION="Stamping utility [topver 0.8.6]"
 
 HOMEPAGE="https://github.com/final-israel/vmn"
 LICENSE=""

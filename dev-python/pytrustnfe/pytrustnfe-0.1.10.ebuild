@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyTrustNFe é uma biblioteca para envio de NF-e"
+DESCRIPTION="PyTrustNFe é uma biblioteca para envio de NF-e [topver 1.0.6]"
 
 HOMEPAGE="https://github.com/danimaribeiro/PyTrustNFe"
 LICENSE="LGPL-v2.1+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bigdict"
+DESCRIPTION="Bigdict [topver 22.5.29]"
 
 HOMEPAGE=""
 LICENSE=""

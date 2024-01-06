@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Semi-automatic versioning for git users."
+DESCRIPTION="Semi-automatic versioning for git users. [topver 0.7.58]"
 
 HOMEPAGE="https://github.com/isnok/py-flowlib"
 LICENSE="UNKNOWN"

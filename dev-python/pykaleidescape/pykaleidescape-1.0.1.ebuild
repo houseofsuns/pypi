@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\"A python client library for the Kaleidescape System Control Protocol.\""
+DESCRIPTION="\"A python client library for the Kaleidescape System Control Protocol.\" [topver 2022.2.6]"
 
 HOMEPAGE="https://github.com/SteveEasley/pykaleidescape"
 LICENSE=""

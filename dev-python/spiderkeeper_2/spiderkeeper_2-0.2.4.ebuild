@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Admin ui for spider service"
+DESCRIPTION="Admin ui for spider service [topver 0.3.2]"
 
 HOMEPAGE="https://github.com/kalombos/SpiderKeeper/"
 LICENSE="MIT"

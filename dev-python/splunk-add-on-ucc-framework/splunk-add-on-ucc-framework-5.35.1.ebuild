@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Splunk Add-on SDK formerly UCC is a build and code generation framework"
+DESCRIPTION="Splunk Add-on SDK formerly UCC is a build and code generation framework [topver 6.0.0]"
 
 HOMEPAGE="https://github.com/splunk/addonfactory-ucc-generator"
 LICENSE="Apache-2.0"

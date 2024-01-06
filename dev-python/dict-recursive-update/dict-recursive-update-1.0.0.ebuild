@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python module who does recursive update work on 2 dicts."
+DESCRIPTION="A Python module who does recursive update work on 2 dicts. [topver 1.0.1]"
 
 HOMEPAGE="https://github.com/Maples7/dict-recursive-update"
 LICENSE="MIT"

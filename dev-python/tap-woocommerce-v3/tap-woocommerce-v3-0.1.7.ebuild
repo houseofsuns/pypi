@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Singer.io tap for extracting data"
+DESCRIPTION="Singer.io tap for extracting data [topver 0.3.4]"
 
 HOMEPAGE="http://singer.io"
 LICENSE=""

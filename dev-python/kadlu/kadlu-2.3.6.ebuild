@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MERIDIAN Python package for ocean ambient noise modelling"
+DESCRIPTION="MERIDIAN Python package for ocean ambient noise modelling [topver 2.3.7]"
 
 HOMEPAGE="https://gitlab.meridian.cs.dal.ca/public_projects/kadlu"
 LICENSE="GNU General Public License v3.0"

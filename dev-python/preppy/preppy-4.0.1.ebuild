@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="preppy - a Preprocessor for Python"
+DESCRIPTION="preppy - a Preprocessor for Python [topver 4.2.2]"
 
 HOMEPAGE="https://hg.reportlab.com/hg-public/preppy"
 LICENSE=""

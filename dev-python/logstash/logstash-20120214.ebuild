@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for Logstash"
+DESCRIPTION="Python library for Logstash [badver 0.1dev]"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="LICENSE.txt"

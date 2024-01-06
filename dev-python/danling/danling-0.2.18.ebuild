@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Scaffold for experienced Machine Learning Researchers"
+DESCRIPTION="Scaffold for experienced Machine Learning Researchers [topver 0.3.2]"
 
 HOMEPAGE="https://danling.org"
 LICENSE="Unlicense OR AGPL-3.0-or-later OR GPL-2.0-or-later OR BSD-4-Clause OR MIT OR Apache-2.0 "

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Inference package for MLOpsPython project"
+DESCRIPTION="Inference package for MLOpsPython project [topver 5354393735009900500048712945179]"
 
 HOMEPAGE="https://github.com/guillaume-chervet/MLOpsPython"
 LICENSE=""

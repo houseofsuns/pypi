@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An API interface to communicate with an ISOTEL of Things (IoT) server, used to manage hardware devices like sensors, actuators, etc."
+DESCRIPTION="An API interface to communicate with an ISOTEL of Things (IoT) server, used to manage hardware devices like sensors, actuators, etc. [topver 1.3.64]"
 
 HOMEPAGE="http://www.isotel.eu/IoT"
 LICENSE="MIT"

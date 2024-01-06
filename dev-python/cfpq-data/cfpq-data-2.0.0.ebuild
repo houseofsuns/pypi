@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package containing Graphs and Grammars for experimental analysis of Context-Free Path Querying algorithms"
+DESCRIPTION="Python package containing Graphs and Grammars for experimental analysis of Context-Free Path Querying algorithms [topver 4.0.2]"
 
 HOMEPAGE="https://jetbrains-research.github.io/CFPQ_Data/"
 LICENSE=""

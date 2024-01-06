@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for all fs cloud utilities"
+DESCRIPTION="A package for all fs cloud utilities [topver 1.0.431]"
 
 HOMEPAGE=""
 LICENSE="MIT"

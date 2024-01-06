@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="physics-inspired computer vision algorithms"
+DESCRIPTION="physics-inspired computer vision algorithms [topver 1.2.6]"
 
 HOMEPAGE=""
 LICENSE=""

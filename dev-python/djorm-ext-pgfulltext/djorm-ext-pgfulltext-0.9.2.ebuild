@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PostgreSQL Full Text Search integration with django orm."
+DESCRIPTION="PostgreSQL Full Text Search integration with django orm. [topver 0.10]"
 
 HOMEPAGE="https://github.com/niwibe/djorm-ext-pgfulltext"
 LICENSE="BSD"

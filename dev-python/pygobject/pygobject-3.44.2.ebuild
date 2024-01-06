@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for GObject Introspection"
+DESCRIPTION="Python bindings for GObject Introspection [topver 3.46.0]"
 
 HOMEPAGE="https://pygobject.readthedocs.io"
 LICENSE="GNU LGPL"

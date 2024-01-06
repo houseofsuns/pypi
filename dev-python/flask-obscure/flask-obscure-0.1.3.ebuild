@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Route converter to obscure IDs."
+DESCRIPTION="Route converter to obscure IDs. [topver 1.0]"
 
 HOMEPAGE="https://github.com/jidn/flask-obscure"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="P(i/y)thon h(i/y)stograms."
+DESCRIPTION="P(i/y)thon h(i/y)stograms. [topver 0.5.3]"
 
 HOMEPAGE="https://github.com/janpipek/physt"
 LICENSE="MIT"

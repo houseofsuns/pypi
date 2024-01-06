@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package for telegram bots and sub tool for pyrogram"
+DESCRIPTION="Python package for telegram bots and sub tool for pyrogram [topver 1.0.3]"
 
 HOMEPAGE="https://github.com/MrMKN/PyLeaves"
 LICENSE="GNU General Public License v3.0"

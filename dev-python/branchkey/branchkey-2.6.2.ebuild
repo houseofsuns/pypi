@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Client application to interface with the BranchKey system"
+DESCRIPTION="Client application to interface with the BranchKey system [topver 2.8.0]"
 
 HOMEPAGE="https://branchkey.com"
 LICENSE=""

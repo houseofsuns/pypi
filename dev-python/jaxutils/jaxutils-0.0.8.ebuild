@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility functions for JaxGaussianProcesses"
+DESCRIPTION="Utility functions for JaxGaussianProcesses [topver 0.8]"
 
 HOMEPAGE=""
 LICENSE="LICENSE"

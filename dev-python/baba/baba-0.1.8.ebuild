@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="好爸爸的每个类都是被用来继承的。作为顶层设计，它为通用行为实现了最基础的标准实践。比如自动埋点、权限控制、性能分析、任务流转、异常处理、单元测试等。"
+DESCRIPTION="好爸爸的每个类都是被用来继承的。作为顶层设计，它为通用行为实现了最基础的标准实践。比如自动埋点、权限控制、性能分析、任务流转、异常处理、单元测试等。 [topver 0.1.9]"
 
 HOMEPAGE="https://pypi.org/project/baba/"
 LICENSE="Apache-2.0"

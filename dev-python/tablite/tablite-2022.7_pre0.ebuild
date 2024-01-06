@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for cleaning tabular data."
+DESCRIPTION="A library for cleaning tabular data. [topver 2023.8.11]"
 
 HOMEPAGE="https://github.com/root-11/tablite"
 LICENSE="MIT"

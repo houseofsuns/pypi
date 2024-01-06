@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Utilities for OpenFOAM"
+DESCRIPTION="Python Utilities for OpenFOAM [topver 2023.7]"
 
 HOMEPAGE="http://openfoamwiki.net/index.php/Contrib/PyFoam"
 LICENSE="GPL-3"

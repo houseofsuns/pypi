@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="HTTP APIs Framework"
+DESCRIPTION="HTTP APIs Framework [topver 0.34.0]"
 
 HOMEPAGE="https://github.com/kevin-leptons/clink"
 LICENSE=""

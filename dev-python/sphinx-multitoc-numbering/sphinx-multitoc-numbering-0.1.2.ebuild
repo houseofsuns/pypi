@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Supporting continuous HTML section numbering"
+DESCRIPTION="Supporting continuous HTML section numbering [topver 0.1.3]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Agent-based Model for Electricity Markets"
+DESCRIPTION="Agent-based Model for Electricity Markets [topver 0.2.0]"
 
 HOMEPAGE="https://github.com/alexanderkell/elecsim"
 LICENSE="MIT"

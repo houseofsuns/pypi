@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper of the Snips NLU ontology"
+DESCRIPTION="Python wrapper of the Snips NLU ontology [topver 0.62.0]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

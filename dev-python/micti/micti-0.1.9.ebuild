@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Feature extraction approach in single-cell gene expression profiling for cell-type marker identification."
+DESCRIPTION="Feature extraction approach in single-cell gene expression profiling for cell-type marker identification. [topver 0.2.0]"
 
 HOMEPAGE="https://github.com/insilicolife/micti"
 LICENSE=""

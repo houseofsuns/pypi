@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fully automated backup & restore application, with E2E encryption. Stores backups on Backup Repository server or saves into file"
+DESCRIPTION="Fully automated backup & restore application, with E2E encryption. Stores backups on Backup Repository server or saves into file [topver 4.0.0.0]"
 
 HOMEPAGE="https://github.com/riotkit-org/backup-repository"
 LICENSE="MIT"

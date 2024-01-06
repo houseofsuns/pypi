@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Gui version of osr2mp4"
+DESCRIPTION="Gui version of osr2mp4 [topver 0.0.6]"
 
 HOMEPAGE="https://github.com/uyitroa/osr2mp4-app"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="foreverbull"
+DESCRIPTION="foreverbull [topver 0.0.16]"
 
 HOMEPAGE=""
 LICENSE=""

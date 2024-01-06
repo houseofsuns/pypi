@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Django application to implent password policies."
+DESCRIPTION="A Django application to implent password policies. [topver 0.8.5]"
 
 HOMEPAGE="https://github.com/iplweb/django-password-policies-iplweb"
 LICENSE=""

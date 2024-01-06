@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a flaggable comments app"
+DESCRIPTION="a flaggable comments app [topver 3.0.1]"
 
 HOMEPAGE="https://github.com/GeoNode/geonode-dialogos"
 LICENSE="BSD"

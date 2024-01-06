@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Environmental data retrieval API query parser"
+DESCRIPTION="Environmental data retrieval API query parser [topver 4.3.4]"
 
 HOMEPAGE="https://github.com/r0w4n/edr_query_parser"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper for Irene's API and connects with a websocket connection."
+DESCRIPTION="A wrapper for Irene's API and connects with a websocket connection. [topver 2.29]"
 
 HOMEPAGE="https://github.com/MujyKun/IreneAPIWrapper"
 LICENSE="MIT"

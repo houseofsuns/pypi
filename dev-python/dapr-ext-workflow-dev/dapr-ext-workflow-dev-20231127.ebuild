@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The developmental release for Dapr Workflow Authoring."
+DESCRIPTION="The developmental release for Dapr Workflow Authoring. [badver 0.2.0rc1_pre1781]"
 
 HOMEPAGE="https://dapr.io/"
 LICENSE="Apache-2.0"

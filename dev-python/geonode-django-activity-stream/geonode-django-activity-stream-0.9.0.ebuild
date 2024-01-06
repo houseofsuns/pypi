@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generate generic activity streams from the actions on your site. Users can follow any actors' activities for personalized streams."
+DESCRIPTION="Generate generic activity streams from the actions on your site. Users can follow any actors' activities for personalized streams. [topver 0.10.0]"
 
 HOMEPAGE="http://github.com/justquick/django-activity-stream"
 LICENSE="BSD 3-Clause"

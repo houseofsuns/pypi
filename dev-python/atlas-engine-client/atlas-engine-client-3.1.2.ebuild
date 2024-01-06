@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Client for the workflow engine of the ProcessCube platform."
+DESCRIPTION="A Client for the workflow engine of the ProcessCube platform. [topver 3.3.0]"
 
 HOMEPAGE="https://github.com/atlas-engine/Client.py"
 LICENSE=""

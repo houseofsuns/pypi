@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Useful score functions to assist regression model comparison"
+DESCRIPTION="Useful score functions to assist regression model comparison [topver 1.1]"
 
 HOMEPAGE="https://github.com/UBC-MDS/regscore-py"
 LICENSE="LICENSE"

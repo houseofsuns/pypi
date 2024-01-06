@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The schema of 3Di schematization files"
+DESCRIPTION="The schema of 3Di schematization files [topver 214.2]"
 
 HOMEPAGE=""
 LICENSE="MIT"

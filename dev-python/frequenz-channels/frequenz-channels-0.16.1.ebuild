@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Channel implementations for Python"
+DESCRIPTION="Channel implementations for Python [topver 1.0.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for Rust's Ropey library."
+DESCRIPTION="Python bindings for Rust's Ropey library. [badver 0.0.4_alpha]"
 
 HOMEPAGE=""
 LICENSE=""

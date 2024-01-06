@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Baidu AIP SDK"
+DESCRIPTION="Baidu AIP SDK [topver 4.16.13]"
 
 HOMEPAGE="https://github.com/Baidu-AIP"
 LICENSE="Apache License"

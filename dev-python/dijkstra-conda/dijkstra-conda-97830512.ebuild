@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A test project"
+DESCRIPTION="A test project [topver 98567413]"
 
 HOMEPAGE="https://github.com/iHeadWater/dijkstra-conda"
 LICENSE="MIT"

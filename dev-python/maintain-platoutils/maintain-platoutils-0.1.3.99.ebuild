@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="运营PlatoDB的工具"
+DESCRIPTION="运营PlatoDB的工具 [topver 0.1.3.100]"
 
 HOMEPAGE=""
 LICENSE="MIT"

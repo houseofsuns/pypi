@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Paquete para el manejo de logs de apis aws lambda serverles con sqlalchemy"
+DESCRIPTION="Paquete para el manejo de logs de apis aws lambda serverles con sqlalchemy [topver 0.1]"
 
 HOMEPAGE="https://github.com/1kagro/serverless-sqlalchemy-logapi"
 LICENSE="MIT"

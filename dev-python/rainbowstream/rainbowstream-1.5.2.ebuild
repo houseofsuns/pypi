@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A smart and nice Twitter client on terminal."
+DESCRIPTION="A smart and nice Twitter client on terminal. [topver 1.6.0]"
 
 HOMEPAGE="http://www.rainbowstream.org/"
 LICENSE="MIT"

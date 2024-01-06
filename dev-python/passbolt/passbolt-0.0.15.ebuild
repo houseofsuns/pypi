@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This project is part of the passbolt lab! It is used to illustrate an article or as a conversation starter. Use at your own risks!"
+DESCRIPTION="This project is part of the passbolt lab! It is used to illustrate an article or as a conversation starter. Use at your own risks! [topver 1.24]"
 
 HOMEPAGE="https://github.com/passbolt/lab-passbolt-py"
 LICENSE="MIT-0"

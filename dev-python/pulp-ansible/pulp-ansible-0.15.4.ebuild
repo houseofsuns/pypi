@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pulp plugin to manage Ansible content, e.g. roles"
+DESCRIPTION="Pulp plugin to manage Ansible content, e.g. roles [topver 0.21.1]"
 
 HOMEPAGE="https://github.com/pulp/pulp_ansible"
 LICENSE="GPL-2+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Send JSON-RPC requests"
+DESCRIPTION="Send JSON-RPC requests [topver 4.0.3]"
 
 HOMEPAGE="https://github.com/explodinglabs/jsonrpcclient"
 LICENSE="MIT"

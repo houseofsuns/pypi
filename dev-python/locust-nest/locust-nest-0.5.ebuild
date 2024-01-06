@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Auto-import and compilation of locust TaskSets."
+DESCRIPTION="Auto-import and compilation of locust TaskSets. [topver 0.39]"
 
 HOMEPAGE="https://github.com/ps-george/locust-nest"
 LICENSE="MIT"

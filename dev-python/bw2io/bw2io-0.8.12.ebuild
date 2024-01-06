@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for importing and export life cycle inventory databases"
+DESCRIPTION="Tools for importing and export life cycle inventory databases [topver 0.9]"
 
 HOMEPAGE="https://github.com/brightway-lca/brightway2-io"
 LICENSE="BSD 3-clause"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The simplest package management"
+DESCRIPTION="The simplest package management [topver 0.0.23]"
 
 HOMEPAGE="https://github.com/pomponchik/instld"
 LICENSE=""

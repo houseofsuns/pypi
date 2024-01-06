@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Experiment tracking, ML developer tools"
+DESCRIPTION="Experiment tracking, ML developer tools [topver 0.9.0]"
 
 HOMEPAGE="https://guild.ai"
 LICENSE="Apache-2.0"

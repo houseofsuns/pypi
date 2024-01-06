@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper over Selenium Wire to provide Zyte Smart Proxy Manager specific functionalities."
+DESCRIPTION="A wrapper over Selenium Wire to provide Zyte Smart Proxy Manager specific functionalities. [topver 1.0.10]"
 
 HOMEPAGE="https://github.com/zytedata/zyte-smartproxy-selenium"
 LICENSE=""

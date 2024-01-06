@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library to launch, interact, and snapshot cloud instances"
+DESCRIPTION="Python library to launch, interact, and snapshot cloud instances [topver 18.8, badver 1!5.12.1]"
 
 HOMEPAGE="https://github.com/canonical/pycloudlib"
 LICENSE="GNU General Public License v3 GPLv3"

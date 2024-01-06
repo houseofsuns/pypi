@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An archive for Connexions documents."
+DESCRIPTION="An archive for Connexions documents. [topver 4.15.23]"
 
 HOMEPAGE="https://github.com/connexions/cnx-archive"
 LICENSE="LGPL, See also LICENSE.txt"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Anteater - CI Validation Framework"
+DESCRIPTION="Anteater - CI Validation Framework [topver 0.23]"
 
 HOMEPAGE="https://github.com/anteater/anteater"
 LICENSE=""

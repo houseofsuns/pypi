@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Text and image analysis of the digital collection (books, newspapers, periodicals, and images) at the National Library of Norway"
+DESCRIPTION="Text and image analysis of the digital collection (books, newspapers, periodicals, and images) at the National Library of Norway [topver 3.0.0]"
 
 HOMEPAGE="https://www.nb.no/dh-lab/"
 LICENSE="MIT"

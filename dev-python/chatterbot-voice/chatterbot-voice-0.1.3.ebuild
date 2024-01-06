@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A voice interface adapter for ChatterBot."
+DESCRIPTION="A voice interface adapter for ChatterBot. [topver 0.1.5]"
 
 HOMEPAGE="https://github.com/gunthercox/chatterbot_voice"
 LICENSE="MIT"

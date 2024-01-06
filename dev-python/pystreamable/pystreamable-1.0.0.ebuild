@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="streamable.com API wrapper"
+DESCRIPTION="streamable.com API wrapper [topver 1.0.1]"
 
 HOMEPAGE="https://github.com/jernejovc/pystreamable"
 LICENSE="MIT"

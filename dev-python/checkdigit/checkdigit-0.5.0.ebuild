@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A check digit library for data validation"
+DESCRIPTION="A check digit library for data validation [topver 1.0.0]"
 
 HOMEPAGE="https://checkdigit.rtfd.io"
 LICENSE="GPL-3+"

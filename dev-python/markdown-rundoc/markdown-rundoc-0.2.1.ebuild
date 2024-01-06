@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Set of markdown extensions used by rundoc utility."
+DESCRIPTION="Set of markdown extensions used by rundoc utility. [topver 0.3.1]"
 
 HOMEPAGE="https://gitlab.com/nul.one/markdown-rundoc"
 LICENSE="BSD"

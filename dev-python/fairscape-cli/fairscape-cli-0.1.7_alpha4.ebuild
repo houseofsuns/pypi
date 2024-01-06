@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A cli for validating metadata, packaging ROCrates, and interacting with the FAIRSCAPE API"
+DESCRIPTION="A cli for validating metadata, packaging ROCrates, and interacting with the FAIRSCAPE API [topver 1.0.1]"
 
 HOMEPAGE=""
 LICENSE="LICENSE"

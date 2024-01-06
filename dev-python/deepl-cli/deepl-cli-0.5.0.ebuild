@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DeepL Translator CLI without API Key"
+DESCRIPTION="DeepL Translator CLI without API Key [topver 0.5.1]"
 
 HOMEPAGE="https://github.com/eggplants/deepl-cli"
 LICENSE="MIT"

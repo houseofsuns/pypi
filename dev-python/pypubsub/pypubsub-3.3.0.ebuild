@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Publish-Subscribe Package"
+DESCRIPTION="Python Publish-Subscribe Package [topver 4.0.3]"
 
 HOMEPAGE="http://pubsub.sourceforge.net"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a simple python3 library for the Bouygues BBox Routeur API"
+DESCRIPTION="a simple python3 library for the Bouygues BBox Routeur API [badver 0.0.5-alpha]"
 
 HOMEPAGE="https://github.com/HydrelioxGitHub/pybbox"
 LICENSE="UNKNOWN"

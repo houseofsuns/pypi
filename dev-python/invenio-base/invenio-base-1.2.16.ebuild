@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\"Base package for building Invenio application factories.\""
+DESCRIPTION="\"Base package for building Invenio application factories.\" [topver 1.3.0]"
 
 HOMEPAGE="https://github.com/inveniosoftware/invenio-base"
 LICENSE="MIT"

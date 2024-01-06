@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for RocketReach API"
+DESCRIPTION="Python bindings for RocketReach API [topver 2.1.6]"
 
 HOMEPAGE="https://rocketreach.co"
 LICENSE=""

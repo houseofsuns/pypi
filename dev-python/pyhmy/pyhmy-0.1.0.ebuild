@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for interacting and working the Harmony blockchain and related codebases"
+DESCRIPTION="A library for interacting and working the Harmony blockchain and related codebases [topver 20.5.21]"
 
 HOMEPAGE=""
 LICENSE="MIT"

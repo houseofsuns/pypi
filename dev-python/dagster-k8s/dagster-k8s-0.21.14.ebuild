@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Dagster integration for k8s"
+DESCRIPTION="A Dagster integration for k8s [topver 1.0.5]"
 
 HOMEPAGE="https://github.com/dagster-io/dagster/tree/master/python_modules/libraries/dagster-k8s"
 LICENSE="Apache-2.0"

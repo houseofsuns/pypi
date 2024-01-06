@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python SDK for the D2Y Exchange API"
+DESCRIPTION="A Python SDK for the D2Y Exchange API [topver 0.2.24]"
 
 HOMEPAGE=""
 LICENSE=""

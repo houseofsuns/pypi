@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PaperCut NG/MF server's API uses XML-RPC. This library utilizes Python's [stable XMLRPC library"
+DESCRIPTION="PaperCut NG/MF server's API uses XML-RPC. This library utilizes Python's [stable XMLRPC library [topver 0.2.5]"
 
 HOMEPAGE="https://github.com/safehome-jdev/PaperCutSoftware/api/papercut_xml_webservices_api"
 LICENSE="MIT"

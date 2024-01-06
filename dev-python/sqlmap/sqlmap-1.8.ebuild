@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Automatic SQL injection and database takeover tool"
+DESCRIPTION="Automatic SQL injection and database takeover tool [topver 1.8.1]"
 
 HOMEPAGE="https://sqlmap.org"
 LICENSE="GNU General Public License v2 GPLv2"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Datagram Transport Layer Security"
+DESCRIPTION="Python Datagram Transport Layer Security [topver 1.2.3]"
 
 HOMEPAGE="https://github.com/rbit/pydtls"
 LICENSE="Apache-2.0"

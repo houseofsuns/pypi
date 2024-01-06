@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple, object-oriented approach to Python CLI apps"
+DESCRIPTION="Simple, object-oriented approach to Python CLI apps [topver 2.0.3, badver devel]"
 
 HOMEPAGE="http://packages.python.org/pyCLI/"
 LICENSE="UNKNOWN"

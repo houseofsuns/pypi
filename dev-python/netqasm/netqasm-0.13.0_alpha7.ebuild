@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tool for parsing, encoding, decoding and executing NetQASM applications"
+DESCRIPTION="Tool for parsing, encoding, decoding and executing NetQASM applications [topver 0.14.0]"
 
 HOMEPAGE="https://github.com/QuTech-Delft/netqasm"
 LICENSE="MIT"

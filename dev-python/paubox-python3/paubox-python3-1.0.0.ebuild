@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python3 SDK for Paubox Email REST API"
+DESCRIPTION="Python3 SDK for Paubox Email REST API [topver 1.0.1]"
 
 HOMEPAGE="https://github.com/Paubox/paubox-python3"
 LICENSE=""

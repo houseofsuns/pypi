@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Call and interop Node.js APIs with Python"
+DESCRIPTION="Call and interop Node.js APIs with Python [topver 2015.32.59, badver 1!1.1.2]"
 
 HOMEPAGE="https://github.com/extremeheat/JSPyBridge"
 LICENSE=""

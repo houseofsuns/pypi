@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for tracking existing Terraform versions"
+DESCRIPTION="Package for tracking existing Terraform versions [topver 1.3.0]"
 
 HOMEPAGE="https://github.com/joshwycuff/python-terraform-utils/packages/terraform_version"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Randomization class and models for ambition/edc"
+DESCRIPTION="Randomization class and models for ambition/edc [topver 0.1.40]"
 
 HOMEPAGE="https://github.com/ambition-trial/ambition-rando"
 LICENSE="GPL license, see LICENSE"

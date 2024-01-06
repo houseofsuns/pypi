@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Feature Store for the Daipe AI Platform"
+DESCRIPTION="Feature Store for the Daipe AI Platform [topver 2.11.2]"
 
 HOMEPAGE="https://github.com/daipe-ai/feature-store-bundle"
 LICENSE="Proprietary"

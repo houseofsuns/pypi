@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ARLAS permissions API"
+DESCRIPTION="ARLAS permissions API [topver 24.1.0]"
 
 HOMEPAGE="https://github.com/gisaia/ARLAS-permissions"
 LICENSE=""

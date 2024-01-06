@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Use Codat's Files API to upload your SMB customers' files."
+DESCRIPTION="Use Codat's Files API to upload your SMB customers' files. [topver 0.34.0]"
 
 HOMEPAGE=""
 LICENSE=""

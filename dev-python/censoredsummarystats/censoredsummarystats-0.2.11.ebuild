@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python package for calculating summary stats on censored data (data that contains < and > symbols)."
+DESCRIPTION="A python package for calculating summary stats on censored data (data that contains < and > symbols). [topver 1.0.1]"
 
 HOMEPAGE="https://github.com/kurtvanness/CensoredSummaryStats"
 LICENSE="Apache-2.0"

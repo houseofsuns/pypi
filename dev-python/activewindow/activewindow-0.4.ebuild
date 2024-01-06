@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Active window information"
+DESCRIPTION="Active window information [topver 0.4.4]"
 
 HOMEPAGE=""
 LICENSE=""

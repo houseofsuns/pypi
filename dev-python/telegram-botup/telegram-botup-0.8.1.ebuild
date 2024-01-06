@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Telegram bot API"
+DESCRIPTION="Telegram bot API [topver 1.0.6]"
 
 HOMEPAGE=""
 LICENSE=""

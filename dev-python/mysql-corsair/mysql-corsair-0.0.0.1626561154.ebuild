@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tool to move slices of data from one MySQL store to another"
+DESCRIPTION="Tool to move slices of data from one MySQL store to another [topver 0.0.40]"
 
 HOMEPAGE="https://github.com/newsela/mysql-corsair"
 LICENSE=""

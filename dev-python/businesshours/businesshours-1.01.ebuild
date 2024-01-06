@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Calculate Business days/hours between any two dates."
+DESCRIPTION="Calculate Business days/hours between any two dates. [topver 1.2]"
 
 HOMEPAGE=""
 LICENSE="* Sponsored by Ma Foi Academy"

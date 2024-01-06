@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provides access to the geolite2 database.  This product includes GeoLite2 data created by MaxMind, available from https://www.maxmind.com/"
+DESCRIPTION="Provides access to the geolite2 database.  This product includes GeoLite2 data created by MaxMind, available from https://www.maxmind.com/ [topver 2019.1224]"
 
 HOMEPAGE="https://github.com/YPlan/python-geoip/tree/master/geolite2"
 LICENSE=""

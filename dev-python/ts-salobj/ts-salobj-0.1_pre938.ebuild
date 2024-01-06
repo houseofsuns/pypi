@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Object-oriented interface to LSST SAL communications middleware."
+DESCRIPTION="Object-oriented interface to LSST SAL communications middleware. [topver 7.0.0]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

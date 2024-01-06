@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python interface to various metadata vocabularies"
+DESCRIPTION="A Python interface to various metadata vocabularies [topver 1.6.6]"
 
 HOMEPAGE="https://github.com/nansencenter/py-thesaurus-interface"
 LICENSE="GPL-3"

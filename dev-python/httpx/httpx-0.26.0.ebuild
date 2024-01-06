@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The next generation HTTP client."
+DESCRIPTION="The next generation HTTP client. [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/encode/httpx"
 LICENSE=""

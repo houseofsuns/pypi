@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cython hash table that trusts the keys are pre-hashed"
+DESCRIPTION="Cython hash table that trusts the keys are pre-hashed [topver 4.0.0]"
 
 HOMEPAGE="https://github.com/explosion/preshed"
 LICENSE="MIT"

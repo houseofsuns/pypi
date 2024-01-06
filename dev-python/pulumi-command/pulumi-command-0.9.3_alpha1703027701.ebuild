@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Pulumi Command Provider enables you to execute commands and scripts either locally or remotely as part of the Pulumi resource model."
+DESCRIPTION="The Pulumi Command Provider enables you to execute commands and scripts either locally or remotely as part of the Pulumi resource model. [topver 4.6.0]"
 
 HOMEPAGE="https://pulumi.com"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ZProc - Multi Processing on steroids"
+DESCRIPTION="ZProc - Multi Processing on steroids [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/devxpy/zproc"
 LICENSE="MIT"

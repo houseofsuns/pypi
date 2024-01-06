@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pgzero的一个助手工具"
+DESCRIPTION="pgzero的一个助手工具 [topver 0.1.50]"
 
 HOMEPAGE="https://gitee.com/deepin-opensource/cpgzhelper"
 LICENSE="MIT"

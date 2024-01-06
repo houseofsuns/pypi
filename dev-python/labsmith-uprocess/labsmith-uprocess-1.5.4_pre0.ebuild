@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python x86 support for controlling LabSmith uDevices"
+DESCRIPTION="Python x86 support for controlling LabSmith uDevices [topver 1.8.0.3.11]"
 
 HOMEPAGE="http://www.labsmith.com"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="wbgapi provides a comprehensive interface to the World Bank's data and metadata APIs"
+DESCRIPTION="wbgapi provides a comprehensive interface to the World Bank's data and metadata APIs [topver 1.1.2]"
 
 HOMEPAGE="https://github.com/tgherzog/wbgapi"
 LICENSE="MIT"

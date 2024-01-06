@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Horizon modules for Group Based Policy"
+DESCRIPTION="Horizon modules for Group Based Policy [topver 2015.2.5]"
 
 HOMEPAGE="http://www.openstack.org/"
 LICENSE=""

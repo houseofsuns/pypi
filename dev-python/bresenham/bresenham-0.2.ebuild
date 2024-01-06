@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An implementation of Bresenham's line drawing algorithm"
+DESCRIPTION="An implementation of Bresenham's line drawing algorithm [topver 0.2.1]"
 
 HOMEPAGE="https://github.com/encukou/bresenham"
 LICENSE="MIT"

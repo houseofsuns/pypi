@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Indico is a full-featured conference lifecycle management and meeting/lecture scheduling tool"
+DESCRIPTION="Indico is a full-featured conference lifecycle management and meeting/lecture scheduling tool [topver 3.2.8]"
 
 HOMEPAGE="http://indico-software.org"
 LICENSE="http://www.gnu.org/licenses/gpl-3.0.txt"

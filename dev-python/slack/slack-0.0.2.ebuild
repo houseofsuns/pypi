@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a DI container"
+DESCRIPTION="a DI container [topver 0.0.3]"
 
 HOMEPAGE="https://github.com/zweifisch/slack"
 LICENSE="MIT"

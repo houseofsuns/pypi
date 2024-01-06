@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Flexible role-based authorization solution that is a pleasure to use"
+DESCRIPTION="Flexible role-based authorization solution that is a pleasure to use [badver 0.0.4-1]"
 
 HOMEPAGE="https://github.com/kolypto/py-miracle"
 LICENSE="MIT"

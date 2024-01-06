@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Toolbox for web development"
+DESCRIPTION="Toolbox for web development [topver 4.0.0]"
 
 HOMEPAGE="https://github.com/guscardvs/gyver"
 LICENSE=""

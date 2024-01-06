@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Small library for common tasks"
+DESCRIPTION="Small library for common tasks [topver 0.1.14]"
 
 HOMEPAGE=""
 LICENSE=""

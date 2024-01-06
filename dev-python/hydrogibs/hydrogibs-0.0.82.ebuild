@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A personal hydrology and hydraulics package based on Christophe Ancey and Giovanni De Cesare's teaching: http://fr.ancey.ch/cours/masterGC/cours-hydraulique.pdf"
+DESCRIPTION="A personal hydrology and hydraulics package based on Christophe Ancey and Giovanni De Cesare's teaching: http://fr.ancey.ch/cours/masterGC/cours-hydraulique.pdf [topver 0.5.2]"
 
 HOMEPAGE=""
 LICENSE="MIT"

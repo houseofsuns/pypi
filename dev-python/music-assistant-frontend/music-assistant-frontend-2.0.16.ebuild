@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Music Assistant frontend"
+DESCRIPTION="The Music Assistant frontend [topver 20230616.0]"
 
 HOMEPAGE="https://github.com/music-assistant/frontend"
 LICENSE="Apache-2.0"

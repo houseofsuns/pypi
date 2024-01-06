@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pretty print json contains python style coments, string literal."
+DESCRIPTION="Pretty print json contains python style coments, string literal. [topver 0.2.22]"
 
 HOMEPAGE="https://github.com/weaming/pretty-format-json"
 LICENSE=""

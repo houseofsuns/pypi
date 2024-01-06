@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Helper classes for Jarvis applications"
+DESCRIPTION="Helper classes for Jarvis applications [topver 0.1.6]"
 
 HOMEPAGE="https://github.com/open-jarvis"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenStack Identity"
+DESCRIPTION="OpenStack Identity [topver 24.0.0]"
 
 HOMEPAGE="https://docs.openstack.org/keystone/latest"
 LICENSE=""

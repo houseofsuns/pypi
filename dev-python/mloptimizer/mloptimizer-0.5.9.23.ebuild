@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="mloptimizer is a Python library for optimizing hyperparameters of machine learning algorithms using genetic algorithms."
+DESCRIPTION="mloptimizer is a Python library for optimizing hyperparameters of machine learning algorithms using genetic algorithms. [topver 0.5.9.24]"
 
 HOMEPAGE="https://github.com/Caparrini/mloptimizer"
 LICENSE=""

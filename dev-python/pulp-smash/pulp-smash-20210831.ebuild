@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for testing Pulp"
+DESCRIPTION="A library for testing Pulp [topver 2018.7.19, badver 1!0.14.0]"
 
 HOMEPAGE="https://github.com/PulpQE/pulp-smash"
 LICENSE="GPL-3"

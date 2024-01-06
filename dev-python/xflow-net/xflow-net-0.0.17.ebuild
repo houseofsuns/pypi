@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a python library for graph flow"
+DESCRIPTION="a python library for graph flow [topver 0.1.3]"
 
 HOMEPAGE="https://xflow.network/"
 LICENSE="MIT"

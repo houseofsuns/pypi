@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Etelemetry python client API"
+DESCRIPTION="Etelemetry python client API [topver 0.3.1]"
 
 HOMEPAGE="https://github.com/sensein/etelemetry-client"
 LICENSE="Apache License, 2.0"

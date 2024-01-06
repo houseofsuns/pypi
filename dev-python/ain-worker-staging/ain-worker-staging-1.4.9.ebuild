@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CLI of ain-worker-staging a Python script"
+DESCRIPTION="CLI of ain-worker-staging a Python script [topver 1.4.69]"
 
 HOMEPAGE="https://bitbucket.org/comcomai/ain-v1-worker"
 LICENSE="BSD"

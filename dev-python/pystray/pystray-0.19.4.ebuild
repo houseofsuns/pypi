@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provides systray integration"
+DESCRIPTION="Provides systray integration [topver 0.19.5]"
 
 HOMEPAGE="https://github.com/moses-palmer/pystray"
 LICENSE="LGPL-3"

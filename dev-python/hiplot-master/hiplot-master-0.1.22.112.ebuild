@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="High dimensional Interactive Plotting tool"
+DESCRIPTION="High dimensional Interactive Plotting tool [topver 0.1.22.113]"
 
 HOMEPAGE="https://github.com/facebookresearch/hiplot"
 LICENSE=""

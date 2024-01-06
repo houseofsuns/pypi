@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Community ID flow hashing"
+DESCRIPTION="Community ID flow hashing [topver 1.5.0]"
 
 HOMEPAGE="https://github.com/corelight/pycommunityid"
 LICENSE="BSD"

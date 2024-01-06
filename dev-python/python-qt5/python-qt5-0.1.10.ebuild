@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyQt5"
+DESCRIPTION="PyQt5 [topver 0.3.0]"
 
 HOMEPAGE="https://github.com/pyqt/python-qt5"
 LICENSE="GPL-3"

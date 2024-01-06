@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyYAML dumper/loader using field descriptions in class comments"
+DESCRIPTION="PyYAML dumper/loader using field descriptions in class comments [topver 0.1.4.0]"
 
 HOMEPAGE="https://github.com/outcatcher/pyyaml-typed"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Creates basic XNAT instance for API tests"
+DESCRIPTION="Creates basic XNAT instance for API tests [topver 0.3.10]"
 
 HOMEPAGE="https://github.com/australian-imaging-service/xnat4tests"
 LICENSE="CC0-1.0"

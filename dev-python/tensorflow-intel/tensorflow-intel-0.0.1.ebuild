@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A dummy package"
+DESCRIPTION="A dummy package [topver 2.15.0]"
 
 HOMEPAGE="https://www.tensorflow.org/"
 LICENSE=""

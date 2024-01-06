@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open AI library for research and education."
+DESCRIPTION="Open AI library for research and education. [topver 0.0.29]"
 
 HOMEPAGE="https://github.com/felipemoser/kelluwen"
 LICENSE=""

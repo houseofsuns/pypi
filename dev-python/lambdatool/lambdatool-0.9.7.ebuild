@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Lambda utility"
+DESCRIPTION="Python Lambda utility [topver 0.9.10]"
 
 HOMEPAGE="https://github.com/muckamuck/lambda-tool"
 LICENSE=""

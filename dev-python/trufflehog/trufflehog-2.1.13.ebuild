@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Searches through git repositories for high entropy strings, digging deep into commit history."
+DESCRIPTION="Searches through git repositories for high entropy strings, digging deep into commit history. [topver 2.2.1]"
 
 HOMEPAGE="https://github.com/dxa4481/truffleHog"
 LICENSE="GNU"

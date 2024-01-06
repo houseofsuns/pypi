@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small, safe import sorter"
+DESCRIPTION="A small, safe import sorter [topver 1.1.0]"
 
 HOMEPAGE="https://github.com/facebook/usort"
 LICENSE="MIT"

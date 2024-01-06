@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Implementation of Dynamic Ensemble Selection methods"
+DESCRIPTION="Implementation of Dynamic Ensemble Selection methods [topver 0.3.5]"
 
 HOMEPAGE="https://github.com/Menelau/DESlib"
 LICENSE="BSD 3-clause New or Revised License"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="v makes building projects easier. It's as simple as that."
+DESCRIPTION="v makes building projects easier. It's as simple as that. [topver 3.4.0]"
 
 HOMEPAGE=""
 LICENSE=""

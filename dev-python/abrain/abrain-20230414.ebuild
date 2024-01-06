@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NeuroEvolution in Python backed by C++ computations"
+DESCRIPTION="NeuroEvolution in Python backed by C++ computations [badver 1.0rc0_p3]"
 
 HOMEPAGE=""
 LICENSE=""

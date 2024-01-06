@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Common utils for Digital Marketplace apps."
+DESCRIPTION="Common utils for Digital Marketplace apps. [topver 64.0.0]"
 
 HOMEPAGE="https://github.com/Brickendon-DMp1-5/digitalmarketplace-utils"
 LICENSE="MIT"

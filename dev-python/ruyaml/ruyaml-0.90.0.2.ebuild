@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ruyaml is a fork of ruamel.yaml"
+DESCRIPTION="ruyaml is a fork of ruamel.yaml [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/pycontribs/ruyaml"
 LICENSE="MIT"

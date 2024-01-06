@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package for working with ADCIRC input and output files"
+DESCRIPTION="Python package for working with ADCIRC input and output files [topver 1.10]"
 
 HOMEPAGE="https://github.com/noaa-ocs-modeling/adcircpy.git"
 LICENSE="GPL-3+"

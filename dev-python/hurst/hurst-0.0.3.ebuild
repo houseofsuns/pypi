@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hurst exponent evaluation and R/S-analysis"
+DESCRIPTION="Hurst exponent evaluation and R/S-analysis [topver 0.0.5]"
 
 HOMEPAGE="https://github.com/Mottl/hurst"
 LICENSE=""

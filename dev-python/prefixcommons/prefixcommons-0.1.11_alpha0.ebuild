@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for working prefixcommons.org CURIEs"
+DESCRIPTION="Library for working prefixcommons.org CURIEs [topver 0.1.12]"
 
 HOMEPAGE="https://github.com/prefixcommons/prefixcommons-py"
 LICENSE="BSD"

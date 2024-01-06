@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple and fast pythonic programming language for Smart Contracts on Cardano"
+DESCRIPTION="A simple and fast pythonic programming language for Smart Contracts on Cardano [topver 0.9.2]"
 
 HOMEPAGE="https://github.com/opshin/hebi"
 LICENSE="MIT"

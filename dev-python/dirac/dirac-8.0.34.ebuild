@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DIRAC is an interware, meaning a software framework for distributed computing."
+DESCRIPTION="DIRAC is an interware, meaning a software framework for distributed computing. [topver 9.0.0]"
 
 HOMEPAGE="https://github.com/DIRACGrid/DIRAC/"
 LICENSE="GPL-3"

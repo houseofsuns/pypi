@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library and command line interface for darwin.v7labs.com"
+DESCRIPTION="Library and command line interface for darwin.v7labs.com [topver 0.9.0]"
 
 HOMEPAGE="https://docs.v7labs.com/reference/getting-started-2"
 LICENSE="MIT"

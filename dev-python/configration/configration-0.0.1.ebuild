@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\"\"\"A simple approach to some tkinter widgets.\"\"\""
+DESCRIPTION="\"\"\"A simple approach to some tkinter widgets.\"\"\" [topver 2.0.7]"
 
 HOMEPAGE="https://psionman@bitbucket.org/psionman/bfgdealer.git"
 LICENSE="MIT"

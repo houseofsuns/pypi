@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Core to write deep APIs using a module's tree"
+DESCRIPTION="Core to write deep APIs using a module's tree [topver 0.7.0]"
 
 HOMEPAGE="https://github.com/halfAPI/halfapi"
 LICENSE="GPL-3"

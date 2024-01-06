@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of examples for learning mathematical modelling"
+DESCRIPTION="A collection of examples for learning mathematical modelling [topver 0.1.8]"
 
 HOMEPAGE="https://github.com/davidswlai/"
 LICENSE="GNU General Public License v3.0"

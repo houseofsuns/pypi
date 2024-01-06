@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Sphinx theme for the CPython docs and related projects"
+DESCRIPTION="The Sphinx theme for the CPython docs and related projects [topver 1.4.6]"
 
 HOMEPAGE="https://www.lucit.tech"
 LICENSE="PSF-2"

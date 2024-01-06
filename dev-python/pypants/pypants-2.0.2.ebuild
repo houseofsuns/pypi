@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CLI for working with Python packages and BUILD files in a Pants monorepo"
+DESCRIPTION="CLI for working with Python packages and BUILD files in a Pants monorepo [topver 2.1.1]"
 
 HOMEPAGE="https://github.com/NarrativeScience/pypants"
 LICENSE="BSD"

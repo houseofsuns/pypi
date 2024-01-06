@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Common API for Ethereum key operations."
+DESCRIPTION="Common API for Ethereum key operations. [topver 0.4.0]"
 
 HOMEPAGE="https://github.com/ethereum/eth-keys"
 LICENSE="MIT"

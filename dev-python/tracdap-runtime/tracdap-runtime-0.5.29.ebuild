@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Runtime package for building models on the TRAC Data & Analytics Platform"
+DESCRIPTION="Runtime package for building models on the TRAC Data & Analytics Platform [topver 0.6.0]"
 
 HOMEPAGE="https://tracdap.finos.org/"
 LICENSE="Apache-2.0"

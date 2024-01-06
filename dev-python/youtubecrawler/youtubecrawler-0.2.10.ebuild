@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Youtube videos and channels scraper python wraper!"
+DESCRIPTION="Youtube videos and channels scraper python wraper! [topver 0.19]"
 
 HOMEPAGE=""
 LICENSE=""

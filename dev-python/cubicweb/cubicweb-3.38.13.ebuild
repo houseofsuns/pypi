@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a repository of entities / relations for knowledge management"
+DESCRIPTION="a repository of entities / relations for knowledge management [topver 4.5.2]"
 
 HOMEPAGE="https://www.cubicweb.org"
 LICENSE="LGPL-3"

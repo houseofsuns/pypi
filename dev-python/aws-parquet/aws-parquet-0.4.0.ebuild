@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An object-oriented interface for defining parquet datasets for AWS built on top of awswrangler and pandera"
+DESCRIPTION="An object-oriented interface for defining parquet datasets for AWS built on top of awswrangler and pandera [topver 0.5.0]"
 
 HOMEPAGE="https://github.com/marwan116/aws-parquet/"
 LICENSE="MIT"

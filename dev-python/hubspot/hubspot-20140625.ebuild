@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="UNKNOWN"
+DESCRIPTION="UNKNOWN [badver 0.1.14dev]"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="LICENSE.txt"

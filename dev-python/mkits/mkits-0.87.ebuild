@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="multi-DFT codes assistant program."
+DESCRIPTION="multi-DFT codes assistant program. [topver 0.90]"
 
 HOMEPAGE="https://github.com/leon-venir/mkits"
 LICENSE="GPL-3+"

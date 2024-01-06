@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A module provides basic functions for parsing mime-type names and matching them against a list of media-ranges."
+DESCRIPTION="A module provides basic functions for parsing mime-type names and matching them against a list of media-ranges. [topver 0.1.4]"
 
 HOMEPAGE="http://code.google.com/p/mimeparse/"
 LICENSE="MIT"

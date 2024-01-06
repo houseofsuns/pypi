@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="GRL Merger is a package that allows to merge two GRL models that are written in TGRL syntax into one GRL model."
+DESCRIPTION="GRL Merger is a package that allows to merge two GRL models that are written in TGRL syntax into one GRL model. [topver 0.7]"
 
 HOMEPAGE=""
 LICENSE=""

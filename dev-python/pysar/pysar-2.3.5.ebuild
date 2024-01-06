@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package used to analysis Sequence Activity Relationships (SARs) of protein sequences and their mutants using Machine Learning."
+DESCRIPTION="A Python package used to analysis Sequence Activity Relationships (SARs) of protein sequences and their mutants using Machine Learning. [topver 2.4.3]"
 
 HOMEPAGE="https://github.com/amckenna41/pySAR"
 LICENSE="MIT"

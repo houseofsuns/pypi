@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Adverse Event models and handling."
+DESCRIPTION="Adverse Event models and handling. [topver 0.3.53]"
 
 HOMEPAGE="https://github.com/ambition-trialtrial/ambition-ae"
 LICENSE="GPL license, see LICENSE"

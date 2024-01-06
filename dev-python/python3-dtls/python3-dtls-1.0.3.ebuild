@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Datagram Transport Layer Security"
+DESCRIPTION="Python Datagram Transport Layer Security [topver 1.3.0]"
 
 HOMEPAGE="https://github.com/mobius-software-ltd/pyton3-dtls"
 LICENSE="Apache-2.0"

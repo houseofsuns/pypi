@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Basic API request signing"
+DESCRIPTION="Basic API request signing [topver 4.0.0]"
 
 HOMEPAGE="https://github.com/madisona/apysigner"
 LICENSE="BSD"

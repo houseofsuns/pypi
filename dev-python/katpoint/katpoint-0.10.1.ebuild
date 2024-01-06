@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Karoo Array Telescope pointing coordinate library"
+DESCRIPTION="Karoo Array Telescope pointing coordinate library [topver 1.0]"
 
 HOMEPAGE="https://github.com/ska-sa/katpoint"
 LICENSE="Modified BSD"

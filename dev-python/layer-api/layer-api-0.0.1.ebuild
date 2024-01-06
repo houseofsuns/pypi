@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Layer SDK"
+DESCRIPTION="The Layer SDK [topver 0.9.384528]"
 
 HOMEPAGE="https://layer.ai"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Running large language models like OPT-175B/GPT-3 on a single GPU. Focusing on high-throughput large-batch generation."
+DESCRIPTION="Running large language models like OPT-175B/GPT-3 on a single GPU. Focusing on high-throughput large-batch generation. [topver 1.0]"
 
 HOMEPAGE="https://github.com/FMInference/FlexGen"
 LICENSE=""

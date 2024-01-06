@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cloud Custodian - Git Commits as Logical Policy Changes"
+DESCRIPTION="Cloud Custodian - Git Commits as Logical Policy Changes [topver 0.4.32]"
 
 HOMEPAGE="https://github.com/capitalone/cloud-custodian"
 LICENSE="Apache-2.0"

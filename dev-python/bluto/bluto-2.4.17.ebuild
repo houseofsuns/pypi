@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DNS Recon | Brute Forcer | DNS Zone Transfer | DNS Wild Card Checks DNS Wild Card Brute Forcer | Email Enumeration | Staff Enumeration Compromised Account Checking"
+DESCRIPTION="DNS Recon | Brute Forcer | DNS Zone Transfer | DNS Wild Card Checks DNS Wild Card Brute Forcer | Email Enumeration | Staff Enumeration Compromised Account Checking [topver 3.0.18]"
 
 HOMEPAGE="https://github.com/darryllane/Bluto"
 LICENSE="LICENSE.txt"

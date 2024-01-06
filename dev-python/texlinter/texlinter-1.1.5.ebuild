@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small linter for LaTex"
+DESCRIPTION="A small linter for LaTex [topver 1.2.5]"
 
 HOMEPAGE=""
 LICENSE="BSD 2-clause"

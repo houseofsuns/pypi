@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SDK for MLOps"
+DESCRIPTION="Python SDK for MLOps [topver 1.6.2]"
 
 HOMEPAGE="https://www.katonic.ai/"
 LICENSE="MIT"

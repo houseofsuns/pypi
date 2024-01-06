@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK for Anki Cozmo, the small robot with the big personality"
+DESCRIPTION="SDK for Anki Cozmo, the small robot with the big personality [topver 1.4.10]"
 
 HOMEPAGE="https://developer.anki.com/cozmo/"
 LICENSE="Apache-2.0"

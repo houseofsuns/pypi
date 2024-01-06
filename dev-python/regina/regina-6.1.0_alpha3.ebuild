@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Regina-Normal"
+DESCRIPTION="Regina-Normal [topver 7.3.1]"
 
 HOMEPAGE="http://github.com/3-manifolds/regina_wheels"
 LICENSE="GPL-2+"

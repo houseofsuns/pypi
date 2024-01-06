@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="th2_common"
+DESCRIPTION="th2_common [topver 4.0.1]"
 
 HOMEPAGE="https://github.com/th2-net/th2-common-py"
 LICENSE="Apache-2.0"

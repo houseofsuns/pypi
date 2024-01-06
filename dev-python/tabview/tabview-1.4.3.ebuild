@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A curses command-line CSV and list (tabular data) viewer"
+DESCRIPTION="A curses command-line CSV and list (tabular data) viewer [topver 1.4.4]"
 
 HOMEPAGE="https://github.com/firecat53/tabview"
 LICENSE="MIT"

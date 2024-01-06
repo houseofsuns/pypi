@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="version"
+DESCRIPTION="version [topver 1.3.0]"
 
 HOMEPAGE="https://pypi.org/project/query_toolkits"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Add-on containing MECODA widgets to analyse data from citizen science observatories"
+DESCRIPTION="Add-on containing MECODA widgets to analyse data from citizen science observatories [topver 2.3.3]"
 
 HOMEPAGE="https://github.com/eosc-cos4cloud/mecoda-orange"
 LICENSE="BSD"

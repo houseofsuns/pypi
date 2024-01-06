@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library connecting python binding for tgcalls and pyrogram"
+DESCRIPTION="Library connecting python binding for tgcalls and pyrogram [topver 3.0.0]"
 
 HOMEPAGE=""
 LICENSE="LGPL-3"

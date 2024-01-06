@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for the Flexible Collision Library"
+DESCRIPTION="Python bindings for the Flexible Collision Library [topver 0.7.0.5]"
 
 HOMEPAGE="https://github.com/BerkeleyAutomation/python-fcl"
 LICENSE="BSD"

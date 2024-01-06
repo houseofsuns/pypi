@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Create standalone executables from Python scripts"
+DESCRIPTION="Create standalone executables from Python scripts [topver 6.16.0]"
 
 HOMEPAGE=""
 LICENSE="PYTHON"

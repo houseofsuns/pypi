@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A utility to find python versions on your system"
+DESCRIPTION="A utility to find python versions on your system [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/frostming/findpython"
 LICENSE="MIT"

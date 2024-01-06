@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cross-platform lib for process and system monitoring in Python."
+DESCRIPTION="Cross-platform lib for process and system monitoring in Python. [topver 5.8.1]"
 
 HOMEPAGE="https://github.com/giampaolo/psutil"
 LICENSE="BSD"

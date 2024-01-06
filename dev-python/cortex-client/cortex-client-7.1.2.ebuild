@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="[Deprecated] Python SDK for the CognitiveScale Cortex5 AI Platform"
+DESCRIPTION="[Deprecated] Python SDK for the CognitiveScale Cortex5 AI Platform [topver 7.2.0]"
 
 HOMEPAGE="https://docs.cortex.insights.ai"
 LICENSE="CognitiveScale Inc."

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A cli entrypoint for the citros system."
+DESCRIPTION="A cli entrypoint for the citros system. [topver 23.25.7]"
 
 HOMEPAGE="https://citros.io"
 LICENSE="LICENSE"

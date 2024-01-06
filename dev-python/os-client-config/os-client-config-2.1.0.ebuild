@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenStack Client Configuation Library"
+DESCRIPTION="OpenStack Client Configuation Library [topver 9]"
 
 HOMEPAGE="https://docs.openstack.org/os-client-config/latest"
 LICENSE=""

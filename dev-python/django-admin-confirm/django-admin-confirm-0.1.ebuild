@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Adds confirmation to Django Admin changes and additions"
+DESCRIPTION="Adds confirmation to Django Admin changes and additions [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/trangpham/django-admin-confirm/"
 LICENSE="Apache-2.0"

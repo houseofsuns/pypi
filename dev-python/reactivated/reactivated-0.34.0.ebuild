@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A statically typed framework to create Django sites with a React frontend."
+DESCRIPTION="A statically typed framework to create Django sites with a React frontend. [topver 3.0.0]"
 
 HOMEPAGE="https://github.com/silviogutierrez/django-react"
 LICENSE=""

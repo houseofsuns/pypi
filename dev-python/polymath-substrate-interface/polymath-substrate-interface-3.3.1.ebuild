@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for interfacing with a Polymesh node"
+DESCRIPTION="Library for interfacing with a Polymesh node [topver 4.0.0]"
 
 HOMEPAGE="https://github.com/polkascan/py-substrate-interface"
 LICENSE=""

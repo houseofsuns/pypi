@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Light python wrapper for the ORTHPOL package"
+DESCRIPTION="Light python wrapper for the ORTHPOL package [topver 2.0.2]"
 
 HOMEPAGE="http://www.limitcycle.it"
 LICENSE="COPYING.LESSER"

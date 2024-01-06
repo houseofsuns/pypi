@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="tools for working with chialisp language; compiler, repl, python and wasm bindings"
+DESCRIPTION="tools for working with chialisp language; compiler, repl, python and wasm bindings [topver 0.1.40]"
 
 HOMEPAGE="https://prozacchiwawa.github.io/clvm_tools_rs/"
 LICENSE="Apache-2.0"

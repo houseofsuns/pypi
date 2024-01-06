@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Amazon Redshift Dialect for sqlalchemy"
+DESCRIPTION="Amazon Redshift Dialect for sqlalchemy [topver 0.4.1]"
 
 HOMEPAGE="https://github.com/binarydud/redshift_sqlalchemy"
 LICENSE="MIT"

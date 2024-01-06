@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tiny library for monitoring and testing asyncio programs"
+DESCRIPTION="A tiny library for monitoring and testing asyncio programs [topver 2.3.0]"
 
 HOMEPAGE="https://gitlab.com/quantlane/libs/aiodebug"
 LICENSE="Apache-2.0"

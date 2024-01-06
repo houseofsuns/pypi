@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Proof project by kotko"
+DESCRIPTION="Proof project by kotko [topver 1.13.1]"
 
 HOMEPAGE="https://github.com/kotko/bravado-decorators"
 LICENSE=""

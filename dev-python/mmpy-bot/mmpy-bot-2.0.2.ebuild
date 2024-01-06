@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python based bot for Mattermost with its own webhook server."
+DESCRIPTION="A python based bot for Mattermost with its own webhook server. [topver 2.1.4]"
 
 HOMEPAGE="https://github.com/attzonko/mmpy_bot"
 LICENSE="MIT"

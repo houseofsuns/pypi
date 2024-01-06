@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An ethereum bytecode disassembler with static and dynamic analysis features"
+DESCRIPTION="An ethereum bytecode disassembler with static and dynamic analysis features [topver 0.1.5]"
 
 HOMEPAGE="https://github.com/tintinweb/ethereum-dasm"
 LICENSE="GPL-2"

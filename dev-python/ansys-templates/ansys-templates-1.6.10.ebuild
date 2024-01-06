@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Creates Python projects according to PyAnsys guidelines"
+DESCRIPTION="Creates Python projects according to PyAnsys guidelines [topver 1.8.0]"
 
 HOMEPAGE="https://templates.ansys.com/"
 LICENSE=""

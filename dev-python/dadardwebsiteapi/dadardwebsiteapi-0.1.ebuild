@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This API allows to manage profile account on Dadard Website"
+DESCRIPTION="This API allows to manage profile account on Dadard Website [topver 0.56]"
 
 HOMEPAGE="http://dadard.fr:8010/dadard/MainWebsiteApi.git"
 LICENSE="WTFPL-2"

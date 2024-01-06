@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manages pip requirements files for multiple environments, e.g. production and development"
+DESCRIPTION="Manages pip requirements files for multiple environments, e.g. production and development [topver 0.4.4]"
 
 HOMEPAGE="https://github.com/jessamynsmith/pipreq"
 LICENSE="MIT"

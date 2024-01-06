@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="WebAppDIRAC is a portal for the DIRAC software."
+DESCRIPTION="WebAppDIRAC is a portal for the DIRAC software. [topver 6.0.0]"
 
 HOMEPAGE="https://github.com/DIRACGrid/WebAppDIRAC/"
 LICENSE="GPL-3"

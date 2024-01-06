@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easily use and manipulate unit-aware measurements in Python."
+DESCRIPTION="Easily use and manipulate unit-aware measurements in Python. [topver 4.0]"
 
 HOMEPAGE=""
 LICENSE=""

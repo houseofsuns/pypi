@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="xarray/dask distributed L1 sar file reader for radarSat2"
+DESCRIPTION="xarray/dask distributed L1 sar file reader for radarSat2 [topver 2025.5.16]"
 
 HOMEPAGE="https://github.com/umr-lops/xradarsat2"
 LICENSE="MIT"

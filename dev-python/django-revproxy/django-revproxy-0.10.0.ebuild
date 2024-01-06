@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Yet another Django reverse proxy application."
+DESCRIPTION="Yet another Django reverse proxy application. [topver 0.12.0]"
 
 HOMEPAGE="https://github.com/TracyWebTech/django-revproxy"
 LICENSE="MPL v2.0"

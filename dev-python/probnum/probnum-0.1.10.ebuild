@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Probabilistic Numerics in Python."
+DESCRIPTION="Probabilistic Numerics in Python. [topver 0.1.25]"
 
 HOMEPAGE="https://github.com/probabilistic-numerics/probnum"
 LICENSE="MIT"

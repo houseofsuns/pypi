@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="data client of class card server"
+DESCRIPTION="data client of class card server [topver 1.2.2]"
 
 HOMEPAGE="http://gitlab.h3c.com/edtech/openconnection"
 LICENSE="MIT"

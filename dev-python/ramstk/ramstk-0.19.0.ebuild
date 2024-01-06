@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool to manage RAMS data and analyses."
+DESCRIPTION="A tool to manage RAMS data and analyses. [topver 1.0.1]"
 
 HOMEPAGE="https://github.com/ReliaQualAssociates/ramstk"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Loophost: for a better local dev"
+DESCRIPTION="Loophost: for a better local dev [topver 1.2.11]"
 
 HOMEPAGE="https://loophost.dev"
 LICENSE="Apache-2.0"

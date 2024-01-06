@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SRL Transformer model"
+DESCRIPTION="SRL Transformer model [topver 3.0]"
 
 HOMEPAGE="https://github.com/Riccorl/transformer-srl"
 LICENSE=""

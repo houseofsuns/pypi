@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provides: 1) A memory-efficient set of base classes providing an API to most of the Arduino API, including EEPROM access, raw I2C master-write/slave-request, etc., and 2) Support for processing RPC command requests through either serial or I2C interface.  Utilizes Python (host) and C++ (device) code generation from the \`arduino_rpc\` (http://github.com/wheeler-microfluidics/arduino_rpc.git) package."
+DESCRIPTION="Provides: 1) A memory-efficient set of base classes providing an API to most of the Arduino API, including EEPROM access, raw I2C master-write/slave-request, etc., and 2) Support for processing RPC command requests through either serial or I2C interface.  Utilizes Python (host) and C++ (device) code generation from the \`arduino_rpc\` (http://github.com/wheeler-microfluidics/arduino_rpc.git) package. [topver 0.19]"
 
 HOMEPAGE="http://github.com/wheeler-microfluidics/base_node_rpc.git"
 LICENSE="GPL-2"

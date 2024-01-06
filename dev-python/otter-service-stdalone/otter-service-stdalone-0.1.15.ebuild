@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Grading Service for Instructors using Otter Grader"
+DESCRIPTION="Grading Service for Instructors using Otter Grader [topver 0.2]"
 
 HOMEPAGE="https://github.com/sean-morris/otter-service-stdalone"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ask bot for what to eat or what to drink!"
+DESCRIPTION="Ask bot for what to eat or what to drink! [topver 0.3.6]"
 
 HOMEPAGE=""
 LICENSE="MIT"

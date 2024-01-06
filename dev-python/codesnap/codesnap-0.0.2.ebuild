@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A profiling tool that can visualize python code running"
+DESCRIPTION="A profiling tool that can visualize python code running [topver 0.1.0]"
 
 HOMEPAGE="https://github.com/gaogaotiantian/codesnap"
 LICENSE=""

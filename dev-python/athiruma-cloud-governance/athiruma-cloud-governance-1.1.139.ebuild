@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cloud Governance Tool"
+DESCRIPTION="Cloud Governance Tool [topver 1.2.108]"
 
 HOMEPAGE="https://github.com/redhat-performance/cloud-governance"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for imagetext"
+DESCRIPTION="Python bindings for imagetext [topver 2.1.3]"
 
 HOMEPAGE=""
 LICENSE=""

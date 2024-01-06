@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="read excel easier"
+DESCRIPTION="read excel easier [topver 1.0.1]"
 
 HOMEPAGE="https://github.com/twz915/excel"
 LICENSE="MIT"

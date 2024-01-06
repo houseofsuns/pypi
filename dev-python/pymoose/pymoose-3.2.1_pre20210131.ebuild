@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python scripting interface of MOOSE Simulator (https://moose.ncbs.res.in)"
+DESCRIPTION="Python scripting interface of MOOSE Simulator (https://moose.ncbs.res.in) [topver 4.0.0]"
 
 HOMEPAGE="http://moose.ncbs.res.in"
 LICENSE=""

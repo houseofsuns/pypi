@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Framework for multiplayer strategy games and complex surveys."
+DESCRIPTION="Framework for multiplayer strategy games and complex surveys. [topver 6.0.0]"
 
 HOMEPAGE="http://otree.org/"
 LICENSE="MIT"

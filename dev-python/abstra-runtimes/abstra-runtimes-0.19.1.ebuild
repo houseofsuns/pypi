@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Abstra Runtimes Lib"
+DESCRIPTION="Abstra Runtimes Lib [topver 1.2.3]"
 
 HOMEPAGE="https://github.com/abstra-app/abstra-runtimes-lib"
 LICENSE="MIT"

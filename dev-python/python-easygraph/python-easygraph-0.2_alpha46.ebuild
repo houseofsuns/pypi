@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easy Graph"
+DESCRIPTION="Easy Graph [topver 1.0]"
 
 HOMEPAGE="https://github.com/easy-graph/Easy-Graph"
 LICENSE=""

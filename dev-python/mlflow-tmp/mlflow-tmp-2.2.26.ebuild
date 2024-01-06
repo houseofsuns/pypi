@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MLflow: A Platform for ML Development and Productionization"
+DESCRIPTION="MLflow: A Platform for ML Development and Productionization [topver 2.3.3]"
 
 HOMEPAGE="https://mlflow.org/"
 LICENSE="Apache-2.0"

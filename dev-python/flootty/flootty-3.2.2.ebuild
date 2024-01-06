@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Floobits collaborative terminal"
+DESCRIPTION="Floobits collaborative terminal [topver 3.3.0]"
 
 HOMEPAGE="https://floobits.com/"
 LICENSE="Apache-2.0"

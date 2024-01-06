@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hyperledger Aries Cloud Agent Python (ACA-Py) is a foundation for building decentralized identity applications and services running in non-mobile environments."
+DESCRIPTION="Hyperledger Aries Cloud Agent Python (ACA-Py) is a foundation for building decentralized identity applications and services running in non-mobile environments. [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/hyperledger/aries-cloudagent-python"
 LICENSE="Apache-2.0"

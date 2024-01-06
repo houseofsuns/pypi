@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mistral Project"
+DESCRIPTION="Mistral Project [topver 2015.1.0]"
 
 HOMEPAGE="https://docs.openstack.org/mistral/latest/"
 LICENSE="Apache-2.0"

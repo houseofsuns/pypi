@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="very powerful and optional parser framework for python"
+DESCRIPTION="very powerful and optional parser framework for python [topver 2.1.3]"
 
 HOMEPAGE="https://github.com/thautwarm/EBNFParser"
 LICENSE="GPLv3.0 License"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dobotlink communication module"
+DESCRIPTION="Dobotlink communication module [topver 2.2.0]"
 
 HOMEPAGE=""
 LICENSE="Apache Licence"

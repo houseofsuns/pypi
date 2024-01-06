@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Instant stats for any fantasy football league."
+DESCRIPTION="Instant stats for any fantasy football league. [topver 2.6.5]"
 
 HOMEPAGE="https://github.com/joeyagreco/leeger"
 LICENSE="MIT"

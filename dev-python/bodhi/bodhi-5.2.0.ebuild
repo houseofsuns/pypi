@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="bodhi common package"
+DESCRIPTION="bodhi common package [topver 5.7.5]"
 
 HOMEPAGE="https://github.com/fedora-infra/bodhi"
 LICENSE="GPL-2+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lightweight SOAP client for Twisted + Py3"
+DESCRIPTION="Lightweight SOAP client for Twisted + Py3 [topver 1.3.2.0]"
 
 HOMEPAGE="https://github.com/Synerty/txsuds-py3"
 LICENSE=""

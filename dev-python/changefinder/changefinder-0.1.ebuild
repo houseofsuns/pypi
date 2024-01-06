@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Online Change-Point Detection Library based on ChangeFinder Algorithm."
+DESCRIPTION="Online Change-Point Detection Library based on ChangeFinder Algorithm. [topver 0.3]"
 
 HOMEPAGE="https://bitbucket.org/aihara/changefinder/"
 LICENSE="MIT"

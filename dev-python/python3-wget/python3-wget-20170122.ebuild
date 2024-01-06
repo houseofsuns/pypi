@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pure python 3.x download utility"
+DESCRIPTION="pure python 3.x download utility [badver 0.0.2-beta1]"
 
 HOMEPAGE="https://github.com/jamiejackherer/python3-wget/"
 LICENSE="public-domain"

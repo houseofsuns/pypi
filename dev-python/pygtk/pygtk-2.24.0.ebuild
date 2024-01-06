@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for GTK"
+DESCRIPTION="Python bindings for GTK [topver 2.24.2]"
 
 HOMEPAGE="http://www.pygtk.org/"
 LICENSE="GNU LGPL"

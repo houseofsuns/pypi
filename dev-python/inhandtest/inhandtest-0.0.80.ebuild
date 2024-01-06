@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="inhand test tools, so easy"
+DESCRIPTION="inhand test tools, so easy [topver 1.0.2]"
 
 HOMEPAGE="https://inhandnetworks.yuque.com/irhb08/mrpu1r/qgu0imvigkm2xry9?singleDoc# 《inhandtest docs》"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ProActive scheduler client module"
+DESCRIPTION="ProActive scheduler client module [topver 13.1.1.2212191831]"
 
 HOMEPAGE="https://github.com/ow2-proactive/proactive-python-client"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple TMX library."
+DESCRIPTION="Simple TMX library. [topver 1.10]"
 
 HOMEPAGE="http://python-tmx.nongnu.org"
 LICENSE="Apache-2.0"

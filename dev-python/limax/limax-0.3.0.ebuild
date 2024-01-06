@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="limax are python utilities for working with LiMAx."
+DESCRIPTION="limax are python utilities for working with LiMAx. [topver 0.3.1]"
 
 HOMEPAGE="https://github.com/matthiaskoenig/limax"
 LICENSE="LGPL-3"

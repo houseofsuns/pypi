@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Seeuletter Python Bindings"
+DESCRIPTION="Seeuletter Python Bindings [topver 1.2.0]"
 
 HOMEPAGE="https://www.seeuletter.com"
 LICENSE="MIT"

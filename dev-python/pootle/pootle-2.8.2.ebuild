@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An online collaborative localization tool."
+DESCRIPTION="An online collaborative localization tool. [topver 2.9.0]"
 
 HOMEPAGE="http://pootle.translatehouse.org"
 LICENSE="GNU General Public License 3 or later GPLv3+"

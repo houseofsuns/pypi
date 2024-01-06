@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bulk data loading ETL library"
+DESCRIPTION="Python bulk data loading ETL library [topver 0.0.35]"
 
 HOMEPAGE="https://github.com/Datawheel/catapult"
 LICENSE=""

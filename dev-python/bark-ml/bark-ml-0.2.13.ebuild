@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Machine Learning Applied to Autonomous Driving"
+DESCRIPTION="Machine Learning Applied to Autonomous Driving [topver 0.4.32]"
 
 HOMEPAGE="https://github.com/bark-simulator/bark-ml"
 LICENSE="MIT"

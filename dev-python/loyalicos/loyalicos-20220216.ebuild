@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK for easy integration with Loyalicos API"
+DESCRIPTION="SDK for easy integration with Loyalicos API [badver 1.0.0a7_p9]"
 
 HOMEPAGE="https://github.com/loyalicos/python-sdk"
 LICENSE=""

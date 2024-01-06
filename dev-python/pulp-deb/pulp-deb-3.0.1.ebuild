@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pulp-deb plugin for the Pulp Project"
+DESCRIPTION="pulp-deb plugin for the Pulp Project [topver 3.1.1]"
 
 HOMEPAGE="https://pulpproject.org"
 LICENSE="GPL-2+"

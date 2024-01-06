@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A suite of auto-graders for the BWSI EdX courses."
+DESCRIPTION="A suite of auto-graders for the BWSI EdX courses. [topver 1.12.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

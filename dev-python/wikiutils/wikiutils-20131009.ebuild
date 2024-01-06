@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="WikiUtils"
+DESCRIPTION="WikiUtils [badver 1.0.0-rc1]"
 
 HOMEPAGE="http://python.turnguard.com"
 LICENSE="LICENSE.txt"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities and examples for working with pandas and dagster, an opinionated framework for expressing data pipelines"
+DESCRIPTION="Utilities and examples for working with pandas and dagster, an opinionated framework for expressing data pipelines [topver 1.0.5]"
 
 HOMEPAGE="https://github.com/dagster-io/dagster"
 LICENSE="Apache-2.0"

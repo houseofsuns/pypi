@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for Spotify Webplayer access token"
+DESCRIPTION="Python wrapper for Spotify Webplayer access token [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/enriquegh/spotify-webplayer-token"
 LICENSE="MIT"

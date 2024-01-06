@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ambition Trial EDC (https://doi.org/10.1186/ISRCTN72509687)"
+DESCRIPTION="Ambition Trial EDC (https://doi.org/10.1186/ISRCTN72509687) [topver 0.3.72]"
 
 HOMEPAGE="https://github.com/ambition-trial/ambition-edc"
 LICENSE="GPL license, see LICENSE"

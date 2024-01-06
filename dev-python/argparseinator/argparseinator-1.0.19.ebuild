@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Decorators and wrapper for easily define script's arguments within functions and classes. just defining function's args."
+DESCRIPTION="Decorators and wrapper for easily define script's arguments within functions and classes. just defining function's args. [topver 1.3.0]"
 
 HOMEPAGE="https://github.com/ellethee/argparseinator"
 LICENSE="MIT"

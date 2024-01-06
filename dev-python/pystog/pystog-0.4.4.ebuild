@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manipulate total scattering functions"
+DESCRIPTION="Manipulate total scattering functions [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/neutrons/pystog"
 LICENSE="GPL License version 3"

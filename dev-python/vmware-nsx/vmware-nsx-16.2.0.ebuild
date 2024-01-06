@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="VMware NSX library for OpenStack projects"
+DESCRIPTION="VMware NSX library for OpenStack projects [topver 17.0.0]"
 
 HOMEPAGE="https://launchpad.net/vmware-nsx"
 LICENSE=""

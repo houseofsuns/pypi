@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Full-featured Telegram client library for Python 3"
+DESCRIPTION="Full-featured Telegram client library for Python 3 [topver 2.0.8]"
 
 HOMEPAGE="https://github.com/hikariatama/Hikka-TL"
 LICENSE="MIT"

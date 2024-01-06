@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Netbase : Wikidata World Graph"
+DESCRIPTION="Netbase : Wikidata World Graph [topver 0.1.239]"
 
 HOMEPAGE=""
 LICENSE="Apache2 license"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tensor Flow Model Server"
+DESCRIPTION="Tensor Flow Model Server [topver 0.4.11]"
 
 HOMEPAGE="https://gitlab.com/hansroh/tfserver"
 LICENSE="MIT"

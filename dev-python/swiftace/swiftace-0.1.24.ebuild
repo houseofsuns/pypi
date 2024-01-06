@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SwiftAce Python SDK"
+DESCRIPTION="SwiftAce Python SDK [topver 0.1.25]"
 
 HOMEPAGE="https://swiftace.ai/"
 LICENSE=""

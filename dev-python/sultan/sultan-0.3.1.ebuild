@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command and Rule over your Shell"
+DESCRIPTION="Command and Rule over your Shell [topver 0.9.1]"
 
 HOMEPAGE="http://github.com/aeroxis/sultan"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python lib to get dank memes"
+DESCRIPTION="A python lib to get dank memes [topver 0.1.0]"
 
 HOMEPAGE="https://github.com/CraziiAce/MemeLib"
 LICENSE=""

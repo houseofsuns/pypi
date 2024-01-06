@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="APDUs for Humans"
+DESCRIPTION="APDUs for Humans [topver 0.5.0]"
 
 HOMEPAGE="https://github.com/LedgerHQ/apduboy"
 LICENSE=""

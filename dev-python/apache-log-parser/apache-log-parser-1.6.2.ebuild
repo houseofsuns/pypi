@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Parse lines from an apache log file"
+DESCRIPTION="Parse lines from an apache log file [topver 1.7.0]"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="GPL-3+"

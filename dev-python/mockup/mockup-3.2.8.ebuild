@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of client side patterns for faster and easier web development"
+DESCRIPTION="A collection of client side patterns for faster and easier web development [topver 4.0.2]"
 
 HOMEPAGE="https://github.com/plone/mockup"
 LICENSE="BSD"

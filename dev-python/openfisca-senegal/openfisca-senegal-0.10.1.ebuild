@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Senegalese tax and benefit system for OpenFisca"
+DESCRIPTION="Senegalese tax and benefit system for OpenFisca [topver 0.10.3]"
 
 HOMEPAGE="https://github.com/openfisca/senegal"
 LICENSE="http://www.fsf.org/licensing/licenses/agpl-3.0.html"

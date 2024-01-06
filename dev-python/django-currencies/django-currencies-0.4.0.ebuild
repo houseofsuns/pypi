@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Adds support for multiple currencies as a Django application."
+DESCRIPTION="Adds support for multiple currencies as a Django application. [topver 0.10.1]"
 
 HOMEPAGE="https://github.com/panosl/django-currencies"
 LICENSE="BSD"

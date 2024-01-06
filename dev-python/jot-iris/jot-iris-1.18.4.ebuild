@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Super simple test sequencer for production testing"
+DESCRIPTION="Super simple test sequencer for production testing [topver 1.20.7]"
 
 HOMEPAGE="https://www.jotautomation.com"
 LICENSE="MIT"

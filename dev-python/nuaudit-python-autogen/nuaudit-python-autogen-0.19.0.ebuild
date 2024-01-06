@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Nuaudit"
+DESCRIPTION="Nuaudit [topver 1.0.0]"
 
 HOMEPAGE=""
 LICENSE=""

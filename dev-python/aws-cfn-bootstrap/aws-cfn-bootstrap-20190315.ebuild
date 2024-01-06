@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An EC2 bootstrapper for CloudFormation"
+DESCRIPTION="An EC2 bootstrapper for CloudFormation [badver 1.4-31]"
 
 HOMEPAGE="http://aws.amazon.com/cloudformation/"
 LICENSE="Apache-2.0"

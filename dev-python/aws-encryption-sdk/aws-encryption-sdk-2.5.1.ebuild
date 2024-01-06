@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AWS Encryption SDK implementation for Python"
+DESCRIPTION="AWS Encryption SDK implementation for Python [topver 3.1.1]"
 
 HOMEPAGE="https://github.com/aws/aws-encryption-sdk-python"
 LICENSE="Apache-2.0"

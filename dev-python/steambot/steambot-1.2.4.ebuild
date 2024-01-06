@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Discord bot for Steam news feeds."
+DESCRIPTION="A Discord bot for Steam news feeds. [topver 1.2.6]"
 
 HOMEPAGE=""
 LICENSE=""

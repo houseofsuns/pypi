@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for the FoundationDB database"
+DESCRIPTION="Python bindings for the FoundationDB database [topver 7.3.27]"
 
 HOMEPAGE="https://www.foundationdb.org"
 LICENSE=""

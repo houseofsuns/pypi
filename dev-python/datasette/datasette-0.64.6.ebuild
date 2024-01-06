@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An open source multi-tool for exploring and publishing data"
+DESCRIPTION="An open source multi-tool for exploring and publishing data [topver 1.0]"
 
 HOMEPAGE="https://datasette.io/"
 LICENSE="Apache-2.0"

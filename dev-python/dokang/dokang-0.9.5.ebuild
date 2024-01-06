@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lightweight web documentation repository with a search engine"
+DESCRIPTION="Lightweight web documentation repository with a search engine [topver 0.10.1]"
 
 HOMEPAGE="https://dokang.readthedocs.io/"
 LICENSE=""

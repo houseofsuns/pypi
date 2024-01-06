@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Geometrify is a Python package for easy creation, manipulation, and analysis of 2D geometries, providing comprehensive tools for various operations"
+DESCRIPTION="Geometrify is a Python package for easy creation, manipulation, and analysis of 2D geometries, providing comprehensive tools for various operations [topver 1.0.4]"
 
 HOMEPAGE="https://github.com/1abhi6/Geometrify"
 LICENSE=""

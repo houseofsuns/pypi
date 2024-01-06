@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extract Parent Segment Stats"
+DESCRIPTION="Extract Parent Segment Stats [topver 0.1.8]"
 
 HOMEPAGE="https://github.com/treasure-data-ps/td_ml_ps_stats_scan"
 LICENSE="Copyright  2022 Treasure Data, Inc. or its affiliates. All rights reserved"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package containing basic functions to build telegram bots."
+DESCRIPTION="Package containing basic functions to build telegram bots. [topver 69.2]"
 
 HOMEPAGE="https://github.com/vasusen-code/ethon"
 LICENSE="GNU AFFERO GENERAL PUBLIC LICENSE v3"

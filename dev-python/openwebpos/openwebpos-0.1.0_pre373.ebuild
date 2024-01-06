@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Web-based point of sale system."
+DESCRIPTION="Web-based point of sale system. [topver 1.1]"
 
 HOMEPAGE="https://github.com/baezfb/OpenWebPOS"
 LICENSE=""

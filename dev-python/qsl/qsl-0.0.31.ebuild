@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Yet another data labeling tool"
+DESCRIPTION="Yet another data labeling tool [topver 0.2.37]"
 
 HOMEPAGE="https://github.com/faustomorales/qsl"
 LICENSE="MIT"

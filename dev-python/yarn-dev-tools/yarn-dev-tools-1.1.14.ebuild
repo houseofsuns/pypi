@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [topver 2.0.0]"
 
 HOMEPAGE="https://github.com/szilard-nemeth/yarn-dev-tools"
 LICENSE=""

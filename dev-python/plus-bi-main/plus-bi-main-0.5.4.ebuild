@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Plus BI modules"
+DESCRIPTION="Plus BI modules [topver 0.5.5]"
 
 HOMEPAGE="https://gitlab.com/mvdg_dsc/nl-plus-bi-main-modules"
 LICENSE="MIT"

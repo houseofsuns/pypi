@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Microsoft Azure Schema Registry Avro Serializer Client Library for Python"
+DESCRIPTION="Microsoft Azure Schema Registry Avro Serializer Client Library for Python [badver 1.0.0b4_p1]"
 
 HOMEPAGE="https://github.com/Azure/azure-sdk-for-python"
 LICENSE="MIT"

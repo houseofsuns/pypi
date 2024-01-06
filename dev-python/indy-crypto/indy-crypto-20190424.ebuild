@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is the official wrapper for Hyperledger Indy Crypto library (https://www.hyperledger.org/projects)."
+DESCRIPTION="This is the official wrapper for Hyperledger Indy Crypto library (https://www.hyperledger.org/projects). [badver 0.5.1-rc-1]"
 
 HOMEPAGE="https://github.com/hyperledger/indy-crypto"
 LICENSE="MIT Apache-2.0"

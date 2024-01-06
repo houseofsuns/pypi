@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="McAfee Open Data Exchange Layer (OpenDXL) Client"
+DESCRIPTION="McAfee Open Data Exchange Layer (OpenDXL) Client [topver 5.6.0.4]"
 
 HOMEPAGE="http://www.mcafee.com/"
 LICENSE="Apache-2.0"

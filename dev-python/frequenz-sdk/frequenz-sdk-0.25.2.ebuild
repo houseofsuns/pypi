@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A development kit to interact with the Frequenz development platform"
+DESCRIPTION="A development kit to interact with the Frequenz development platform [topver 1.0.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

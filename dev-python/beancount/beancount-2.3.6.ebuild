@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command-line Double-Entry Accounting"
+DESCRIPTION="Command-line Double-Entry Accounting [topver 3.0.0]"
 
 HOMEPAGE="http://furius.ca/beancount"
 LICENSE="GNU GPLv2 only"

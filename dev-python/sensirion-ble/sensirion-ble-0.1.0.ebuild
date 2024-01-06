@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manage Sensirion BLE devices"
+DESCRIPTION="Manage Sensirion BLE devices [topver 0.1.1]"
 
 HOMEPAGE=""
 LICENSE=""

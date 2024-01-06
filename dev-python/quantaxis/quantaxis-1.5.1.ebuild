@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="QUANTAXIS:Quantitative Financial Strategy Framework"
+DESCRIPTION="QUANTAXIS:Quantitative Financial Strategy Framework [topver 2.0.0]"
 
 HOMEPAGE="https://github.com/quantaxis/quantaxis"
 LICENSE="MIT"

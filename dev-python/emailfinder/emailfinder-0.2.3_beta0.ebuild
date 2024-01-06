@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="EmailFinder - Emails search through Search Engines"
+DESCRIPTION="EmailFinder - Emails search through Search Engines [topver 0.3.0]"
 
 HOMEPAGE="https://github.com/Josue87/EmailFinder"
 LICENSE="GNU GPLv3+"

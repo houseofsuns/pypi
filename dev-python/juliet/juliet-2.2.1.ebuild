@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="juliet: a versatile modelling tool for transiting exoplanets, radial-velocity systems or both"
+DESCRIPTION="juliet: a versatile modelling tool for transiting exoplanets, radial-velocity systems or both [topver 2.2.4]"
 
 HOMEPAGE="http://github.com/nespinoza/juliet"
 LICENSE="MIT"

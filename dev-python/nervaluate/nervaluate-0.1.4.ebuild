@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NER evaluation done right"
+DESCRIPTION="NER evaluation done right [topver 0.1.8]"
 
 HOMEPAGE="https://www.github.com/ivyleavedtoadflax/nervaluate"
 LICENSE="['__license__']"

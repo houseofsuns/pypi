@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SEG-Y Seismic Data Inspection and Manipulation Tools using Xarray"
+DESCRIPTION="SEG-Y Seismic Data Inspection and Manipulation Tools using Xarray [topver 0.4]"
 
 HOMEPAGE="https://github.com/trhallam/segysak"
 LICENSE="GPL-3"

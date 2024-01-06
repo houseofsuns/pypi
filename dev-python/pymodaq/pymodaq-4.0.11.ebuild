@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Modular Data Acquisition with Python"
+DESCRIPTION="Modular Data Acquisition with Python [topver 4.1.0]"
 
 HOMEPAGE="http://pymodaq.cnrs.fr"
 LICENSE="The MIT License MIT"

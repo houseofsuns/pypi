@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Some fast bloom filter implemented by Rust for Python and Rust!"
+DESCRIPTION="Some fast bloom filter implemented by Rust for Python and Rust! [topver 0.5.9]"
 
 HOMEPAGE="https://github.com/yankun1992/fastbloom"
 LICENSE="Apache License"

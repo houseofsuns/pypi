@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dynamically updated web based reports/dashboards in python."
+DESCRIPTION="Dynamically updated web based reports/dashboards in python. [topver 0.38.1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

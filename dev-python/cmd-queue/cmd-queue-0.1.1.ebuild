@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The cmd_queue module for a DAG of bash commands"
+DESCRIPTION="The cmd_queue module for a DAG of bash commands [topver 0.1.18]"
 
 HOMEPAGE="https://gitlab.kitware.com/computer-vision/cmd_queue"
 LICENSE="Apache-2.0"

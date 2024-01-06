@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Working with numbers (primes, modular, etc.)"
+DESCRIPTION="Working with numbers (primes, modular, etc.) [topver 1.7.1]"
 
 HOMEPAGE="http://github.com/hellman/libnum"
 LICENSE="MIT"

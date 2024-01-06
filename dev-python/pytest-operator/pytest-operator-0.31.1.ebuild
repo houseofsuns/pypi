@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fixtures for Operators"
+DESCRIPTION="Fixtures for Operators [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/charmed-kubernetes/pytest-operator"
 LICENSE="MIT"

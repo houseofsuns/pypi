@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Momotor bundle reader, writer, tools"
+DESCRIPTION="Momotor bundle reader, writer, tools [topver 8.0.0]"
 
 HOMEPAGE="https://momotor.org"
 LICENSE="GNU Lesser General Public License v3 LGPLv3"

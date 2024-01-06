@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for documenting ocean bottom seismometer experiments and creating metadata"
+DESCRIPTION="Tools for documenting ocean bottom seismometer experiments and creating metadata [topver 0.111.1]"
 
 HOMEPAGE="https://gitlab.com/resif/obsinfo/-/tree/v0.110/obsinfo"
 LICENSE=""

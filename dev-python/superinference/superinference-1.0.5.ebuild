@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Superinference is a library that infers analysis-ready attributes from a person''s social media username or unique identifier and returns them as JSON objects."
+DESCRIPTION="Superinference is a library that infers analysis-ready attributes from a person''s social media username or unique identifier and returns them as JSON objects. [topver 1.0.9]"
 
 HOMEPAGE=""
 LICENSE=""

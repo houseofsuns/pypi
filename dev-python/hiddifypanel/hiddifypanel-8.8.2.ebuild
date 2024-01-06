@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="hiddifypanel multi proxy panel"
+DESCRIPTION="hiddifypanel multi proxy panel [topver 9.0.0]"
 
 HOMEPAGE="https://github.com/hiddify/hiddify-server/"
 LICENSE=""

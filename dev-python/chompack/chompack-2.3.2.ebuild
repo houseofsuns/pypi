@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for chordal matrix computations"
+DESCRIPTION="Library for chordal matrix computations [topver 2.3.3]"
 
 HOMEPAGE="http://cvxopt.github.io/chompack/"
 LICENSE="GNU GPL version 3"

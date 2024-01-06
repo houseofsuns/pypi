@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Swiss Army Knife of the Bitcoin transactions."
+DESCRIPTION="The Swiss Army Knife of the Bitcoin transactions. [topver 1.1.4]"
 
 HOMEPAGE="https://github.com/Simplexum/python-bitcointx"
 LICENSE=""

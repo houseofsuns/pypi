@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Events Notify AWS Construct lib for AWS CDK"
+DESCRIPTION="The Events Notify AWS Construct lib for AWS CDK [topver 2.2.6]"
 
 HOMEPAGE="https://github.com/neilkuan/cdk-events-notify.git"
 LICENSE="Apache-2.0"

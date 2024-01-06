@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="GossipCat, A Cat Who Is Always Gossiping."
+DESCRIPTION="GossipCat, A Cat Who Is Always Gossiping. [topver 0.3.36]"
 
 HOMEPAGE="https://github.com/Ewen2015/GossipCat"
 LICENSE="Apache-2.0"

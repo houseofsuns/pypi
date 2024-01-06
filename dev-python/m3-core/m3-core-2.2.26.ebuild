@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="## M3-Core"
+DESCRIPTION="## M3-Core [topver 3.1.17]"
 
 HOMEPAGE="https://bitbucket.org/barsgroup/m3-core"
 LICENSE="MIT"

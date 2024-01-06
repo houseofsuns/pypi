@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="'Python library for interfacing with Airzone using the modbus protocol',  # Required"
+DESCRIPTION="'Python library for interfacing with Airzone using the modbus protocol',  # Required [topver 1]"
 
 HOMEPAGE="https://github.com/gpulido/python-airzone"
 LICENSE="MIT"

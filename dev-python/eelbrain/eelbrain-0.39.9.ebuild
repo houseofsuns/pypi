@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MEG/EEG analysis tools"
+DESCRIPTION="MEG/EEG analysis tools [topver 0.40]"
 
 HOMEPAGE="http://eelbrain.readthedocs.io"
 LICENSE="BSD 3-clause"

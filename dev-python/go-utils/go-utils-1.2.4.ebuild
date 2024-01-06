@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for interfacing with GLOBE Observer Data"
+DESCRIPTION="Utilities for interfacing with GLOBE Observer Data [topver 2021.61]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PayPay OPA SDK"
+DESCRIPTION="PayPay OPA SDK [topver 1.7]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

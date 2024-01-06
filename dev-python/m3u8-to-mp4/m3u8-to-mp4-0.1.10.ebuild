@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python downloader for saving m3u8 video to local MP4 file."
+DESCRIPTION="Python downloader for saving m3u8 video to local MP4 file. [topver 0.1.11]"
 
 HOMEPAGE="https://github.com/songs18/m3u8_To_MP4"
 LICENSE="MIT"

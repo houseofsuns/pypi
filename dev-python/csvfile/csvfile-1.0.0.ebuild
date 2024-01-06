@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A little wrapper around reading and writing of csv file."
+DESCRIPTION="A little wrapper around reading and writing of csv file. [topver 3.4.0]"
 
 HOMEPAGE="https://github.com/imbolc/csvfile"
 LICENSE="ISC"

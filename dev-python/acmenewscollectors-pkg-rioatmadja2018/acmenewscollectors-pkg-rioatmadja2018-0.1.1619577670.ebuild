@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wheel to collect news articles, videos, and images."
+DESCRIPTION="Python wheel to collect news articles, videos, and images. [topver 0.1.1619577675]"
 
 HOMEPAGE=""
 LICENSE=""

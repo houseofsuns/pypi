@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for laz-rs"
+DESCRIPTION="Python bindings for laz-rs [topver 0.5.3]"
 
 HOMEPAGE=""
 LICENSE="MIT"

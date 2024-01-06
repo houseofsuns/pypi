@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pythonic scripting library for cleaning data in Crunch"
+DESCRIPTION="Pythonic scripting library for cleaning data in Crunch [topver 1692282992]"
 
 HOMEPAGE="https://github.com/Crunch-io/scrunch"
 LICENSE=""

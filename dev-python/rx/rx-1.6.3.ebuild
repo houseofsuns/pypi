@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Reactive Extensions (Rx) for Python"
+DESCRIPTION="Reactive Extensions (Rx) for Python [topver 3.2.0]"
 
 HOMEPAGE="http://reactivex.io"
 LICENSE="Apache License"

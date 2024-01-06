@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="National Vulnerability Database CPE/CVE API Library"
+DESCRIPTION="National Vulnerability Database CPE/CVE API Library [topver 0.7.6]"
 
 HOMEPAGE="https://github.com/Vehemont/nvdlib/"
 LICENSE="MIT"

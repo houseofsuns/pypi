@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manage a multitude of runs through hierarchical configuration"
+DESCRIPTION="Manage a multitude of runs through hierarchical configuration [topver 1.2.0]"
 
 HOMEPAGE=""
 LICENSE=""

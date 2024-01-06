@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An utility class for creating instances of dataclasses"
+DESCRIPTION="An utility class for creating instances of dataclasses [topver 2.16]"
 
 HOMEPAGE="https://github.com/tishka17/dataclass_factory"
 LICENSE="Apache-2.0"

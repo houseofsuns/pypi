@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The official gpt4free repository | various collection of powerful language models"
+DESCRIPTION="The official gpt4free repository | various collection of powerful language models [topver 1.0.2]"
 
 HOMEPAGE="https://github.com/xtekky/gpt4free"
 LICENSE=""

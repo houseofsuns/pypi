@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python library to interface with the Hive API"
+DESCRIPTION="A Python library to interface with the Hive API [topver 2020.1]"
 
 HOMEPAGE="https://github.com/Pyhive/pyhiveapi"
 LICENSE="MIT"

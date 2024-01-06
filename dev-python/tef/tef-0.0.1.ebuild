@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ethan (tll549)'s Exploratory Functions"
+DESCRIPTION="Ethan (tll549)'s Exploratory Functions [topver 0.9.1]"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""

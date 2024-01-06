@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Analysis scriptsTileSeqMut for TileSeq sequencing data"
+DESCRIPTION="Analysis scriptsTileSeqMut for TileSeq sequencing data [topver 0.6.945]"
 
 HOMEPAGE="https://github.com/RyogaLi/tilseq_mutcount"
 LICENSE=""

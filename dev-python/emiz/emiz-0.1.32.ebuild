@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Set of tools for the DCS mission builder"
+DESCRIPTION="Set of tools for the DCS mission builder [topver 2018.9.16.4]"
 
 HOMEPAGE="https://github.com/132nd-etcher/EMIZ"
 LICENSE="GPL-3"

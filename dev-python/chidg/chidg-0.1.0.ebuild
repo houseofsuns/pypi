@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Chimera-based, discontinuous Galerkin solver"
+DESCRIPTION="A Chimera-based, discontinuous Galerkin solver [topver 0.1.1]"
 
 HOMEPAGE="https://github.com/nwukie/ChiDG"
 LICENSE="BSD 3-Clause"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="WPILib simulator DS Socket Extension"
+DESCRIPTION="WPILib simulator DS Socket Extension [topver 2024.1.1.0]"
 
 HOMEPAGE="https://github.com/robotpy/robotpy-halsim-gui"
 LICENSE="BSD"

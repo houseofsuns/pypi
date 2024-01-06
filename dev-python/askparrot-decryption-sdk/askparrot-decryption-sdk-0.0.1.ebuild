@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pagos decryption SDK"
+DESCRIPTION="Pagos decryption SDK [topver 0.2.3]"
 
 HOMEPAGE=""
 LICENSE=""

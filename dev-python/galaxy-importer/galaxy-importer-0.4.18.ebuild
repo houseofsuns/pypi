@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Galaxy content importer"
+DESCRIPTION="Galaxy content importer [topver 0.5.0]"
 
 HOMEPAGE="https://github.com/ansible/galaxy-importer"
 LICENSE="Apache-2.0"

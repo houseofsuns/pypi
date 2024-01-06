@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Build routes using swagger specification"
+DESCRIPTION="Build routes using swagger specification [topver 0.10]"
 
 HOMEPAGE="https://github.com/aamalev/aiohttp_apiset/"
 LICENSE=""

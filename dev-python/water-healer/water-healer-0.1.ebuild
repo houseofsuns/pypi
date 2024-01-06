@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extension of Kafka Streamz to update consumer offset for successful sink"
+DESCRIPTION="Extension of Kafka Streamz to update consumer offset for successful sink [topver 0.1.8]"
 
 HOMEPAGE="https://github.com/huseinzol05/water-healer"
 LICENSE="MIT"

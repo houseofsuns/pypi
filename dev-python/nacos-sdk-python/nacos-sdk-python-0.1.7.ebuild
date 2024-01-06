@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for Nacos."
+DESCRIPTION="Python client for Nacos. [topver 0.1.14]"
 
 HOMEPAGE="https://github.com/nacos-group/nacos-sdk-python"
 LICENSE="Apache-2.0"

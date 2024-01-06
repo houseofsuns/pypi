@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="some utils for my research"
+DESCRIPTION="some utils for my research [topver 2021.11.24.5]"
 
 HOMEPAGE="https://r08521610.github.io/research-utils/"
 LICENSE=""

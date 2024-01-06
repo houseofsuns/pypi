@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NaMAZU: Pretty Usefull Library"
+DESCRIPTION="NaMAZU: Pretty Usefull Library [topver 0.0.73]"
 
 HOMEPAGE="https://github.com/NMZ0429/NaMAZU"
 LICENSE="MIT"

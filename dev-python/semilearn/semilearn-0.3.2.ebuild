@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Unfied Semi-Supervised Learning Benchmark"
+DESCRIPTION="Unfied Semi-Supervised Learning Benchmark [topver 0.3.8]"
 
 HOMEPAGE="https://github.com/microsoft/Semi-supervised-learning"
 LICENSE=""

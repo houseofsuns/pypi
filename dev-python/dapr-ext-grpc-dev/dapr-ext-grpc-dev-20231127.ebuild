@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The developmental release for Dapr gRPC AppCallback."
+DESCRIPTION="The developmental release for Dapr gRPC AppCallback. [badver 1.11.0rc1_pre1788]"
 
 HOMEPAGE="https://dapr.io/"
 LICENSE="Apache-2.0"

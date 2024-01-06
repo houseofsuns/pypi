@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An asynchronous wrapper around the MangaDex v5 API"
+DESCRIPTION="An asynchronous wrapper around the MangaDex v5 API [topver 3.4.7]"
 
 HOMEPAGE="https://github.com/AbstractUmbra/hondana"
 LICENSE="MIT"

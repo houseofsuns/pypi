@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Commonly used functions/utilities for DDF file model."
+DESCRIPTION="Commonly used functions/utilities for DDF file model. [topver 1.0.14]"
 
 HOMEPAGE="https://github.com/semio/ddf_utils"
 LICENSE="MIT"

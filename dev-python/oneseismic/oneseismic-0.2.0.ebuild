@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="oneseismic"
+DESCRIPTION="oneseismic [topver 0.4.0]"
 
 HOMEPAGE="https://github.com/equinor/oneseismic"
 LICENSE="AGPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast FDTD solver"
+DESCRIPTION="A fast FDTD solver [topver 22.1.1]"
 
 HOMEPAGE="https://github.com/flexcompute/tidy3d"
 LICENSE=""

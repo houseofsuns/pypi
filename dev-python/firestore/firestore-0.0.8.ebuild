@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An offline-available ORM-like wrapper for Google Firestore Database"
+DESCRIPTION="An offline-available ORM-like wrapper for Google Firestore Database [topver 0.1]"
 
 HOMEPAGE="https://github.com/workenvoy/firestore"
 LICENSE="MIT"

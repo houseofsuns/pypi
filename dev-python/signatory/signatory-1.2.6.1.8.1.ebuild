@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Differentiable computations of the signature and logsignature transforms, on both CPU and GPU."
+DESCRIPTION="Differentiable computations of the signature and logsignature transforms, on both CPU and GPU. [topver 1.2.6.1.9.0]"
 
 HOMEPAGE="https://github.com/patrick-kidger/signatory"
 LICENSE="Apache-2.0"

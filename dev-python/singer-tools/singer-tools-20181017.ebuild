@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for working with Singer.io Taps and Targets"
+DESCRIPTION="Tools for working with Singer.io Taps and Targets [badver 0.5.0alpha3]"
 
 HOMEPAGE="http://singer.io"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="uparma"
+DESCRIPTION="uparma [topver 1.0.1]"
 
 HOMEPAGE="http://github.com/uparma/uparma-py"
 LICENSE="Lesser GNU General Public License LGPL"

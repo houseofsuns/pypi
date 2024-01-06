@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="IBATS 通用工具，该工具涉及数据库、量化、以及一些通用工具"
+DESCRIPTION="IBATS 通用工具，该工具涉及数据库、量化、以及一些通用工具 [topver 1.20211214.0]"
 
 HOMEPAGE="https://github.com/IBATS/IBATS_Utils"
 LICENSE=""

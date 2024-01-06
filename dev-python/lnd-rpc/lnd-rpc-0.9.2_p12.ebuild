@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="gRPC bindings for various lnd versions"
+DESCRIPTION="gRPC bindings for various lnd versions [topver 0.10.0]"
 
 HOMEPAGE="https://github.com/lncm/lnd-rpc"
 LICENSE="MIT"

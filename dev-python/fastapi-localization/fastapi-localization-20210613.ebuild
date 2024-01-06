@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Language localization fastapi"
+DESCRIPTION="Language localization fastapi [badver 0.0a2_pre3]"
 
 HOMEPAGE="https://github.com/ikasymov/fastapi-localization"
 LICENSE="MIT"

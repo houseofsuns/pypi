@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple python package for dealing with  zip codes in python."
+DESCRIPTION="A simple python package for dealing with  zip codes in python. [topver 4.0.0]"
 
 HOMEPAGE="https://github.com/buckmaxwell/zipcode"
 LICENSE="MIT"

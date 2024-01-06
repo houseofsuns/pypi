@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pandas readers on steroids (remote files, glob patterns, cache, etc.)"
+DESCRIPTION="pandas readers on steroids (remote files, glob patterns, cache, etc.) [topver 0.12.1]"
 
 HOMEPAGE="https://github.com/ToucanToco/peakina"
 LICENSE="BSD"

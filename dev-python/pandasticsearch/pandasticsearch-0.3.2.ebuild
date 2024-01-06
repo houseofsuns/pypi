@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pandastic Elasticsearch client for data analyzing."
+DESCRIPTION="A Pandastic Elasticsearch client for data analyzing. [topver 0.6.0]"
 
 HOMEPAGE="http://pypi.python.org/pypi/pandasticsearch/"
 LICENSE="MIT"

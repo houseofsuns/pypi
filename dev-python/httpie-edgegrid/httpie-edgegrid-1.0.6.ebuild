@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Edgegrid plugin for HTTPie."
+DESCRIPTION="Edgegrid plugin for HTTPie. [topver 2.1.3]"
 
 HOMEPAGE="https://github.com/akamai-open/httpie-edgegrid"
 LICENSE="Apache-2.0"

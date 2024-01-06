@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="My first Python library"
+DESCRIPTION="My first Python library [topver 0.3.2]"
 
 HOMEPAGE="https://github.com/tic-top/even_dist/"
 LICENSE="MIT"

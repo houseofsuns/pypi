@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Concept annotation tool for Electronic Health Records"
+DESCRIPTION="Concept annotation tool for Electronic Health Records [topver 1.9.3]"
 
 HOMEPAGE="https://github.com/CogStack/MedCAT"
 LICENSE=""

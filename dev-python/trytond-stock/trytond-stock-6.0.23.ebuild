@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton module for stock and inventory"
+DESCRIPTION="Tryton module for stock and inventory [topver 7.0.1]"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="logging utility"
+DESCRIPTION="logging utility [topver 0.20.1]"
 
 HOMEPAGE="https://github.com/jamesabel/balsa"
 LICENSE="MIT"

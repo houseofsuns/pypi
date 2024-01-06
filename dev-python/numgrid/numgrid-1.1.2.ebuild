@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Numerical integration grid for molecules."
+DESCRIPTION="Numerical integration grid for molecules. [topver 2.1.0]"
 
 HOMEPAGE="https://github.com/dftlibs/numgrid"
 LICENSE="MPL-2.0"

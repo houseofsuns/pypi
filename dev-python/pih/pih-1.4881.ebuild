@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PIH library"
+DESCRIPTION="PIH library [topver 1.48064]"
 
 HOMEPAGE="https://pacifichosp.com/"
 LICENSE="MIT"

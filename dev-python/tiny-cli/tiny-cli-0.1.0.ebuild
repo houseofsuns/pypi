@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="tinybio cli allows you to run your genomic tools in the cloud quickly and easily."
+DESCRIPTION="tinybio cli allows you to run your genomic tools in the cloud quickly and easily. [topver 1.0.44]"
 
 HOMEPAGE="https://github.com/tinybio-cloud/tiny"
 LICENSE="MIT"

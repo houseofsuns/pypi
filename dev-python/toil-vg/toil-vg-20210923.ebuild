@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="UC Santa Cruz Computational Genomics Lab's Toil-based VG pipeline"
+DESCRIPTION="UC Santa Cruz Computational Genomics Lab's Toil-based VG pipeline [badver 1.6.2a1_pre569]"
 
 HOMEPAGE="https://github.com/BD2KGenomics/toil-vg"
 LICENSE=""

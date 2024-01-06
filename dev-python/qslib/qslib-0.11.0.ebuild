@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for communicating with and using the QuantStudio qPCR machine, intended for non-qPCR uses."
+DESCRIPTION="Library for communicating with and using the QuantStudio qPCR machine, intended for non-qPCR uses. [topver 1.8.2]"
 
 HOMEPAGE="https://github.com/cgevans/qslib/"
 LICENSE="EUPL-1.2"

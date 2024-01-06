@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data structures for crystallography"
+DESCRIPTION="Data structures for crystallography [topver 1.7.0]"
 
 HOMEPAGE="http://crystals.readthedocs.io"
 LICENSE="GPL-3"

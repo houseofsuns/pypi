@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Free python/telegram bot for easy execution and surveillance of crypto trading plans on multiple exchanges"
+DESCRIPTION="Free python/telegram bot for easy execution and surveillance of crypto trading plans on multiple exchanges [topver 2.13.0]"
 
 HOMEPAGE="https://github.com/marcelbeining/eazebot"
 LICENSE="LGPL-3"

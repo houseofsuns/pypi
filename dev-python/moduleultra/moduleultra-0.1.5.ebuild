@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools to make pipelines easier to run and distribute for large biological datasets"
+DESCRIPTION="Tools to make pipelines easier to run and distribute for large biological datasets [topver 0.4.1]"
 
 HOMEPAGE="https://github.com/dcdanko/ModuleUltra"
 LICENSE=""

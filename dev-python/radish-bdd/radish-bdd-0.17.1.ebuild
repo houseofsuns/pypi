@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Behaviour-Driven-Development tool for Python"
+DESCRIPTION="Behaviour-Driven-Development tool for Python [topver 1.0.0]"
 
 HOMEPAGE="https://radish-bdd.github.io"
 LICENSE="MIT"

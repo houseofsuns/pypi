@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Does less! Loosely coupled mini-apps for django."
+DESCRIPTION="Does less! Loosely coupled mini-apps for django. [topver 1.0]"
 
 HOMEPAGE="https://github.com/kaleissin/django-nano"
 LICENSE=""

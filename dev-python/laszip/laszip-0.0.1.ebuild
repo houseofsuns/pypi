@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bindings for LASzip made with pybind11"
+DESCRIPTION="Bindings for LASzip made with pybind11 [topver 0.2.3]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LDAP authentication extension for Flask"
+DESCRIPTION="LDAP authentication extension for Flask [topver 1.4.0]"
 
 HOMEPAGE="https://github.com/admiralobvious/flask-simpleldap"
 LICENSE="MIT"

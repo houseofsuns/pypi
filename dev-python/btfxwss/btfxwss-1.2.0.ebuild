@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python 3.5+ Websocket Client for the Bitfinex WSS API."
+DESCRIPTION="Python 3.5+ Websocket Client for the Bitfinex WSS API. [topver 1.2.4]"
 
 HOMEPAGE="https://github.com/nlsdfnbch/bitfinex_wss"
 LICENSE="LICENCSE"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Whoosh extension to Flask/SQLAlchemy"
+DESCRIPTION="Whoosh extension to Flask/SQLAlchemy [topver 0.56]"
 
 HOMEPAGE="https://github.com/gyllstromk/Flask-WhooshAlchemy"
 LICENSE="BSD"

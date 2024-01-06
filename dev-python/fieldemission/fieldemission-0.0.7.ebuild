@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Field Emission Data Postprocessing and Data Provider"
+DESCRIPTION="Field Emission Data Postprocessing and Data Provider [topver 0.1.5]"
 
 HOMEPAGE="https://github.com/Dephrilibrium/PythonFieldEmission"
 LICENSE=""

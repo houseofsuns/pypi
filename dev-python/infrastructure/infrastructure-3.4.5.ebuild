@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="test framework"
+DESCRIPTION="test framework [topver 3.5.6]"
 
 HOMEPAGE=""
 LICENSE="MIT"

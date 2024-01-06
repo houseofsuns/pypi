@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TODO"
+DESCRIPTION="TODO [topver 1.0]"
 
 HOMEPAGE="https://github.com/thomst/django-modeltree"
 LICENSE="BSD"

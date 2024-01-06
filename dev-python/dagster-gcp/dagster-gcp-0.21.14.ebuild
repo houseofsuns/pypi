@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for GCP-specific Dagster framework op and resource components."
+DESCRIPTION="Package for GCP-specific Dagster framework op and resource components. [topver 1.0.5]"
 
 HOMEPAGE="https://github.com/dagster-io/dagster/tree/master/python_modules/libraries/dagster-gcp"
 LICENSE="Apache-2.0"

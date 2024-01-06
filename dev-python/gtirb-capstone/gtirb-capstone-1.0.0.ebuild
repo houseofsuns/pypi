@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for rewriting GTIRB with capstone and keystone"
+DESCRIPTION="Utilities for rewriting GTIRB with capstone and keystone [topver 1.0.2]"
 
 HOMEPAGE="https://github.com/grammatech/gtirb-functions"
 LICENSE="MIT"

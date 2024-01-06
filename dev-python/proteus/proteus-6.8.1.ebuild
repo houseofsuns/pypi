@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library to access Tryton server as a client"
+DESCRIPTION="Library to access Tryton server as a client [topver 7.0.1]"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="LGPL-3"

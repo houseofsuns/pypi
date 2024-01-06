@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility class for managing json tree data as python objects. Recursive depth dictionaries with keys as attributes and json serialization."
+DESCRIPTION="Utility class for managing json tree data as python objects. Recursive depth dictionaries with keys as attributes and json serialization. [topver 0.5.1]"
 
 HOMEPAGE="https://github.com/dougn/jsontree/"
 LICENSE="BSD"

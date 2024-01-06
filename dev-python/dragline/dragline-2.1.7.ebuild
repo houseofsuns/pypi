@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Distributed Python web crawling framework"
+DESCRIPTION="Distributed Python web crawling framework [topver 3.0.0]"
 
 HOMEPAGE="http://www.inzyte.com"
 LICENSE="UNKNOWN"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python persistence framework for graph databases that connects to Neo4j Server, Rexster, OrientDB, Lightsocket."
+DESCRIPTION="A Python persistence framework for graph databases that connects to Neo4j Server, Rexster, OrientDB, Lightsocket. [badver 0.3.29-20140417]"
 
 HOMEPAGE="https://github.com/espeed/bulbs"
 LICENSE="BSD"

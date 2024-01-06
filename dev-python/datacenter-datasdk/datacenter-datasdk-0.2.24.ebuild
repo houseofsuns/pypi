@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="datacenter_datasdk"
+DESCRIPTION="datacenter_datasdk [topver 0.2.26]"
 
 HOMEPAGE=""
 LICENSE="MIT"

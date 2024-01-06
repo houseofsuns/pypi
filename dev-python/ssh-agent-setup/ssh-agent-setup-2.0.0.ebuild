@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="set up a working ssh-agent and add keys for any subprocesses you want to run"
+DESCRIPTION="set up a working ssh-agent and add keys for any subprocesses you want to run [topver 2.0.1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

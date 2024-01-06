@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Lisp dialect embedded in Python"
+DESCRIPTION="A Lisp dialect embedded in Python [topver 1.0]"
 
 HOMEPAGE="http://hylang.org/"
 LICENSE="Expat"

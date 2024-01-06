@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A helper for organizing Django settings."
+DESCRIPTION="A helper for organizing Django settings. [topver 2.5]"
 
 HOMEPAGE="https://django-configurations.readthedocs.io/"
 LICENSE="BSD"

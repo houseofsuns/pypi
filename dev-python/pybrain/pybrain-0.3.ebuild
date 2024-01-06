@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyBrain is the swiss army knife for neural networking."
+DESCRIPTION="PyBrain is the swiss army knife for neural networking. [topver 0.3.3]"
 
 HOMEPAGE="http://pybrain.org"
 LICENSE="BSD"

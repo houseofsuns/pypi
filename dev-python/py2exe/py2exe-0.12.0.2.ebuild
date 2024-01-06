@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Build standalone executables for Windows"
+DESCRIPTION="Build standalone executables for Windows [topver 0.13.0.1]"
 
 HOMEPAGE="http://www.py2exe.org/"
 LICENSE="MIT/X11"

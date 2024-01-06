@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Metapraxis Empower python API"
+DESCRIPTION="Metapraxis Empower python API [topver 1.2.5]"
 
 HOMEPAGE=""
 LICENSE="MIT"

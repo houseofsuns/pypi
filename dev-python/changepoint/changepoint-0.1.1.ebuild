@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Change point detection in Time series"
+DESCRIPTION="Change point detection in Time series [topver 0.3.1]"
 
 HOMEPAGE="https://github.com/viveksck/changepoint"
 LICENSE="BSD"

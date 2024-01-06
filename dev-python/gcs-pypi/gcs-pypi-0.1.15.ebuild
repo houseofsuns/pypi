@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CLI for creating a Python Package Repository in a GCS bucket"
+DESCRIPTION="CLI for creating a Python Package Repository in a GCS bucket [topver 0.1.111]"
 
 HOMEPAGE=""
 LICENSE=""

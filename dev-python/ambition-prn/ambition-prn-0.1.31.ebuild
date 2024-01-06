@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PRN forms such as offstudy, protocol violation, etc"
+DESCRIPTION="PRN forms such as offstudy, protocol violation, etc [topver 0.1.75]"
 
 HOMEPAGE="https://github.com/ambition-trial/ambition-prn"
 LICENSE="GPL license, see LICENSE"

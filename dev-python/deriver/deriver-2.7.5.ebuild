@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deriver: for all your molecule generation needs."
+DESCRIPTION="Deriver: for all your molecule generation needs. [topver 2.9.0]"
 
 HOMEPAGE="https://github.com/cyclica/deriver"
 LICENSE="All Rights Reserved Cyclica Inc."

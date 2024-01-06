@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Decode P1 and MBUS (Meter Bus) DLMS data. Special support for norwegian and swedish meters."
+DESCRIPTION="Decode P1 and MBUS (Meter Bus) DLMS data. Special support for norwegian and swedish meters. [topver 2021.12.1]"
 
 HOMEPAGE="https://github.com/toreamun/amshan"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python framework library for omics analysis"
+DESCRIPTION="A python framework library for omics analysis [topver 1.2.9]"
 
 HOMEPAGE="https://github.com/Starlitnightly/Pyomic"
 LICENSE="GNU License"

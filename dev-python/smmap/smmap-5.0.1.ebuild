@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A pure Python implementation of a sliding window memory map manager"
+DESCRIPTION="A pure Python implementation of a sliding window memory map manager [topver 6.0.0]"
 
 HOMEPAGE="https://github.com/gitpython-developers/smmap"
 LICENSE="BSD"

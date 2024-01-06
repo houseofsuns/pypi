@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Complete Python Wrapper for Polygon.io APIs."
+DESCRIPTION="A Complete Python Wrapper for Polygon.io APIs. [topver 1.1.3]"
 
 HOMEPAGE="https://github.com/pssolanki111/polygon"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Topic Ontologies"
+DESCRIPTION="Topic Ontologies [topver 0.2.0]"
 
 HOMEPAGE="https://git.webis.de/arguana/topic-ontologies-for-argumentation"
 LICENSE=""

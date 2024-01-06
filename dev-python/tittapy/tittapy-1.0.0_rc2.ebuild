@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Interface to Tobii eye trackers using Tobii Pro SDK"
+DESCRIPTION="Interface to Tobii eye trackers using Tobii Pro SDK [topver 1.0.1]"
 
 HOMEPAGE="https://github.com/dcnieho/Titta"
 LICENSE=""

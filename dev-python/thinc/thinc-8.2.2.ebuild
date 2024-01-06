@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A refreshing functional take on deep learning, compatible with your favorite libraries"
+DESCRIPTION="A refreshing functional take on deep learning, compatible with your favorite libraries [topver 9.0.0]"
 
 HOMEPAGE="https://github.com/explosion/thinc"
 LICENSE="MIT"

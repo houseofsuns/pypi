@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python tools for manipulating extremely large images"
+DESCRIPTION="Python tools for manipulating extremely large images [topver 1.3.3]"
 
 HOMEPAGE="https://github.com/sleibman/python-colossus"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alibaba Cloud Elastic Compute Service (20140526) SDK Library for Python"
+DESCRIPTION="Alibaba Cloud Elastic Compute Service (20140526) SDK Library for Python [topver 4.24.17]"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"

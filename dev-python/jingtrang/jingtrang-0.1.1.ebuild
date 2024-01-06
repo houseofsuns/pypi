@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wrapping jing and trang RELAX NG tools into Python script"
+DESCRIPTION="Wrapping jing and trang RELAX NG tools into Python script [topver 0.1.2]"
 
 HOMEPAGE="http://bitbucket.org/tamtamresearch/jingtrang"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Toolkit for Neo4j 3.0+ driver authors"
+DESCRIPTION="Toolkit for Neo4j 3.0+ driver authors [topver 4.0]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

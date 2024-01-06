@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manage, Configure and Deploy your services and AWS services and applications from your docker-compose definition"
+DESCRIPTION="Manage, Configure and Deploy your services and AWS services and applications from your docker-compose definition [topver 0.24.0]"
 
 HOMEPAGE=""
 LICENSE="MPL-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manage elections, candidates and ballots, the POLITICO way."
+DESCRIPTION="Manage elections, candidates and ballots, the POLITICO way. [badver 1.0a13_pre1]"
 
 HOMEPAGE="https://github.com/The-Politico/politico-civic-election/"
 LICENSE="MIT"

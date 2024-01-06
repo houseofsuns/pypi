@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python utility / library to sort Python imports."
+DESCRIPTION="A Python utility / library to sort Python imports. [topver 6.0.0]"
 
 HOMEPAGE="https://pycqa.github.io/isort/"
 LICENSE="MIT"

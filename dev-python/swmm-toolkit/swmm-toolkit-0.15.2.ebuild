@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OWA SWMM Python Toolkit"
+DESCRIPTION="OWA SWMM Python Toolkit [topver 0.15.3]"
 
 HOMEPAGE="https://github.com/OpenWaterAnalytics/swmm-python"
 LICENSE="CC0-1.0"

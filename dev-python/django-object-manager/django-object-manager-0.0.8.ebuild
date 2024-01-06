@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django object manager for tests"
+DESCRIPTION="Django object manager for tests [topver 0.0.9]"
 
 HOMEPAGE="https://github.com/K0Te/django-object-manager"
 LICENSE="BSD"

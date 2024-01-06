@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Invenio Research Data Management."
+DESCRIPTION="Invenio Research Data Management. [badver 12.0.0b2_pre66]"
 
 HOMEPAGE="https://github.com/inveniosoftware/invenio-app-rdm"
 LICENSE="MIT"

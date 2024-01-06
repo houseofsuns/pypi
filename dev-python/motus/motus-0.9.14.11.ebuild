@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Paquetería para el Análisis Conductual de Patrones de Desplazamiento"
+DESCRIPTION="Paquetería para el Análisis Conductual de Patrones de Desplazamiento [topver 1.5.6]"
 
 HOMEPAGE=""
 LICENSE=""

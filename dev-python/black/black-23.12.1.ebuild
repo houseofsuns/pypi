@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The uncompromising code formatter."
+DESCRIPTION="The uncompromising code formatter. [topver 24.1]"
 
 HOMEPAGE="https://github.com/psf/black"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple to {install, use, configure, mantain} learning management system."
+DESCRIPTION="Simple to {install, use, configure, mantain} learning management system. [badver 0.0.1a13_pre20231224]"
 
 HOMEPAGE=""
 LICENSE=""

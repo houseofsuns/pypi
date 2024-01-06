@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Automatically loads and enables pyston_lite"
+DESCRIPTION="Automatically loads and enables pyston_lite [topver 2.3.5]"
 
 HOMEPAGE="https://www.github.com/pyston/pyston"
 LICENSE=""

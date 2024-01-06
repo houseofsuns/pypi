@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python/MongoDB Information Platform - Server"
+DESCRIPTION="Python/MongoDB Information Platform - Server [badver 0.2.7-1a]"
 
 HOMEPAGE="https://github.com/drpoovilleorg/metrique"
 LICENSE="GPL-3"

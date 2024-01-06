@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Secure and Powerful Python-kymang Based Library For Naya-Pyro."
+DESCRIPTION="A Secure and Powerful Python-kymang Based Library For Naya-Pyro. [topver 7.1.4]"
 
 HOMEPAGE="https://github.com/naya1503/kynaylibs"
 LICENSE="GNU AFFERO GENERAL PUBLIC LICENSE v3"

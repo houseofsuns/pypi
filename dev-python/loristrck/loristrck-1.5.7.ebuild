@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper around the partial-tracking library Loris"
+DESCRIPTION="A wrapper around the partial-tracking library Loris [topver 1.5.8]"
 
 HOMEPAGE="https://github.com/gesellkammer/loristrck"
 LICENSE="GPL-3"

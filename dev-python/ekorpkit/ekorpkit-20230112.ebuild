@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="eKorpkit provides a flexible interface for NLP and ML research pipelines such as extraction, transformation, tokenization, training, and visualization."
+DESCRIPTION="eKorpkit provides a flexible interface for NLP and ML research pipelines such as extraction, transformation, tokenization, training, and visualization. [badver 0.1.40.post0_pre72]"
 
 HOMEPAGE="https://github.com/entelecheia/ekorpkit"
 LICENSE=""

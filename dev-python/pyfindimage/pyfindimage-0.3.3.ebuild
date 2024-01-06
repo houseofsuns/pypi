@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Image finder based on text"
+DESCRIPTION="Image finder based on text [topver 0.25]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Works with python2 and 3"
+DESCRIPTION="Works with python2 and 3 [topver 1.317]"
 
 HOMEPAGE="https://gythaogg.github.io"
 LICENSE="MIT"

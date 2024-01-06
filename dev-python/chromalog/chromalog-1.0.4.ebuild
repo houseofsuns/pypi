@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A non-intrusive way to use colors in your logs and generic output."
+DESCRIPTION="A non-intrusive way to use colors in your logs and generic output. [topver 1.0.5]"
 
 HOMEPAGE="http://chromalog.readthedocs.org/en/latest/index.html"
 LICENSE="MIT"

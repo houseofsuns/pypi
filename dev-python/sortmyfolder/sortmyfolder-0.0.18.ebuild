@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Auto sorting tool to allow you organise any file or folder in a directory using the file extensions"
+DESCRIPTION="Auto sorting tool to allow you organise any file or folder in a directory using the file extensions [topver 0.0.35]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for manipulating and modelling ASL data"
+DESCRIPTION="Python library for manipulating and modelling ASL data [topver 0.1.16]"
 
 HOMEPAGE="https://oxasl.readthedocs.io/"
 LICENSE="License granted by University of Oxford for use by academics carrying out research and not for use by consumers or commercial businesses. See LICENSE file for more details"

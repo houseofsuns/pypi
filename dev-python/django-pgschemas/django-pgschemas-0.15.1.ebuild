@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Multi-tenancy on Django using PostgreSQL schemas."
+DESCRIPTION="Multi-tenancy on Django using PostgreSQL schemas. [topver 1.0]"
 
 HOMEPAGE="https://github.com/lorinkoz/django-pgschemas"
 LICENSE="MIT"

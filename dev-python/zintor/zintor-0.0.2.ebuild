@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Admin Package"
+DESCRIPTION="Python Admin Package [topver 0.0.19]"
 
 HOMEPAGE=""
 LICENSE=""

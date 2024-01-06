@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenTracing support for PyMongo"
+DESCRIPTION="OpenTracing support for PyMongo [topver 0.0.3]"
 
 HOMEPAGE="http://github.com/signalfx/python-pymongo"
 LICENSE="Apache Software License v2"

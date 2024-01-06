@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for integrating Airbyte with Dagster."
+DESCRIPTION="Package for integrating Airbyte with Dagster. [topver 1.0.5]"
 
 HOMEPAGE="https://github.com/dagster-io/dagster/tree/master/python_modules/libraries/dagster-airbyte"
 LICENSE="Apache-2.0"

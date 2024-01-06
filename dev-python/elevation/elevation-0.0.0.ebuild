@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python script to download global terrain digital elevation models, SRTM 30m DEM and SRTM 90m DEM."
+DESCRIPTION="Python script to download global terrain digital elevation models, SRTM 30m DEM and SRTM 90m DEM. [topver 1.1.3]"
 
 HOMEPAGE="http://elevation.bopen.eu"
 LICENSE="Apache License Version 2.0"

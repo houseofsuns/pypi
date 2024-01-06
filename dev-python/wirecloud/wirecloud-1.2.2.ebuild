@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Widgets Container and Mashup edition tools for composing end-user centric mashup applications."
+DESCRIPTION="Widgets Container and Mashup edition tools for composing end-user centric mashup applications. [topver 1.3.1]"
 
 HOMEPAGE="http://github.com/Wirecloud/wirecloud"
 LICENSE="AGPLv3+ with classpath-like exception"

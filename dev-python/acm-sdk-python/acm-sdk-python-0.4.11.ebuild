@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for ACM."
+DESCRIPTION="Python client for ACM. [topver 0.4.13]"
 
 HOMEPAGE="https://github.com/alibaba/acm-sdk-python"
 LICENSE="Apache-2.0"

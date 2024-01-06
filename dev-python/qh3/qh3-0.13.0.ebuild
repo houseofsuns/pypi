@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An implementation of QUIC and HTTP/3"
+DESCRIPTION="An implementation of QUIC and HTTP/3 [topver 0.14.0]"
 
 HOMEPAGE="https://github.com/jawah/qh3"
 LICENSE="BSD"

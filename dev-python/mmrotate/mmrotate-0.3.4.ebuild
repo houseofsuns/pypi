@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Rotation Detection Toolbox and Benchmark"
+DESCRIPTION="Rotation Detection Toolbox and Benchmark [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/open-mmlab/mmrotate"
 LICENSE="Apache-2.0"

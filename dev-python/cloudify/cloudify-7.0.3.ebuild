@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cloudify's Command Line Interface"
+DESCRIPTION="Cloudify's Command Line Interface [topver 20.3.3]"
 
 HOMEPAGE=""
 LICENSE="LICENSE"

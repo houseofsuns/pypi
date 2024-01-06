@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="API client to develop tools for competitive programming"
+DESCRIPTION="API client to develop tools for competitive programming [topver 10.10.1]"
 
 HOMEPAGE="https://github.com/online-judge-tools/api-client"
 LICENSE="MIT"

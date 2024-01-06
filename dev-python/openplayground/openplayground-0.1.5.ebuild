@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An LLM playground you can run on your laptop."
+DESCRIPTION="An LLM playground you can run on your laptop. [topver 0.1.12]"
 
 HOMEPAGE="https://nat.dev/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Convenient wrapper on FFmpeg"
+DESCRIPTION="Convenient wrapper on FFmpeg [topver 0.1.1]"
 
 HOMEPAGE="https://github.com/alesanfra/pycord"
 LICENSE=""

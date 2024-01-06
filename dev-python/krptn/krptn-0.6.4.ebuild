@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Zero Knowledge security for Python"
+DESCRIPTION="Zero Knowledge security for Python [topver 0.8.6]"
 
 HOMEPAGE="https://www.krptn.dev/"
 LICENSE=""

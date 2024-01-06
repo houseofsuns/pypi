@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="dcoded - the Python package for everything"
+DESCRIPTION="dcoded - the Python package for everything [topver 9]"
 
 HOMEPAGE="https://github.com/dylanopen/dcoded-python"
 LICENSE=""

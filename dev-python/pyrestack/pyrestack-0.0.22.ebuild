@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple Python wrapper for ReStack"
+DESCRIPTION="Simple Python wrapper for ReStack [topver 0.0.28]"
 
 HOMEPAGE="https://github.com/elentriek/restack-integration"
 LICENSE="MIT"

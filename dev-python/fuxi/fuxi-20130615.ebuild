@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An OWL / N3-based in-memory, logic reasoning system for RDF"
+DESCRIPTION="An OWL / N3-based in-memory, logic reasoning system for RDF [badver 1.4.1.production]"
 
 HOMEPAGE="http://code.google.com/p/python-dlp/wiki/FuXi"
 LICENSE="Apache-2.0"

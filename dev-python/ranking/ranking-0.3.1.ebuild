@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ranking collection"
+DESCRIPTION="Ranking collection [topver 0.3.2]"
 
 HOMEPAGE="http://pythonhosted.org/ranking"
 LICENSE="BSD"

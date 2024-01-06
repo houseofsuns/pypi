@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="High-level functional API for Kubernetes Resources and 3rd party CRDs, based on the official kubernetes-client, and more."
+DESCRIPTION="High-level functional API for Kubernetes Resources and 3rd party CRDs, based on the official kubernetes-client, and more. [topver 0.1.8]"
 
 HOMEPAGE=""
 LICENSE=""

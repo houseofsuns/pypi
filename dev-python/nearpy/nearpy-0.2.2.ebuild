@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Framework for fast approximated nearest neighbour search."
+DESCRIPTION="Framework for fast approximated nearest neighbour search. [topver 1.0.0]"
 
 HOMEPAGE="http://pypi.python.org/pypi/NearPy/"
 LICENSE="LICENSE.txt"

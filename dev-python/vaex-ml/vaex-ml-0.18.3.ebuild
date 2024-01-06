@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Machine learning support for vaex"
+DESCRIPTION="Machine learning support for vaex [topver 1.0.0]"
 
 HOMEPAGE="https://www.github.com/vaexio/vaex"
 LICENSE="MIT"

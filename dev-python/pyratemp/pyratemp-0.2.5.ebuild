@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Small, simple and powerful template-engine for Python."
+DESCRIPTION="Small, simple and powerful template-engine for Python. [topver 0.3.2]"
 
 HOMEPAGE="http://www.simple-is-better.org/template/pyratemp.html"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A flexible open-source framework for the quasi-steady-state simulation of positive displacement machines including compressors and expanders"
+DESCRIPTION="A flexible open-source framework for the quasi-steady-state simulation of positive displacement machines including compressors and expanders [topver 2.14]"
 
 HOMEPAGE="http://pdsim.sourceforge.net"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manipulating FHIR data leveraging MongoDB as storage layer"
+DESCRIPTION="Manipulating FHIR data leveraging MongoDB as storage layer [topver 0.5.0]"
 
 HOMEPAGE="https://github.com/arkhn/pyfhirstore/"
 LICENSE=""

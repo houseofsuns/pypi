@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Causal inference/uplift in Python"
+DESCRIPTION="Causal inference/uplift in Python [topver 1.0.2]"
 
 HOMEPAGE="https://github.com/andrewtavis/causeinfer"
 LICENSE="MIT"

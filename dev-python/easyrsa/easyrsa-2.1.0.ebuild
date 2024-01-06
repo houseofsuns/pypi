@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Encrypt symmetric keys with RSA."
+DESCRIPTION="Encrypt symmetric keys with RSA. [topver 3.1.0]"
 
 HOMEPAGE="https://github.com/foxe6/"
 LICENSE="AGPL-3"

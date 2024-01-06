@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data science toolkit support for OmniSciDB"
+DESCRIPTION="Data science toolkit support for OmniSciDB [topver 25.0.0]"
 
 HOMEPAGE="https://github.com/omnisci/pyomnisci"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The kwcoco module and cli for image datasets"
+DESCRIPTION="The kwcoco module and cli for image datasets [topver 0.7.5]"
 
 HOMEPAGE="https://gitlab.kitware.com/computer-vision/kwcoco"
 LICENSE="Apache-2.0"

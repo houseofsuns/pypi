@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SDK for eKuiper portable plugin"
+DESCRIPTION="Python SDK for eKuiper portable plugin [topver 1.12.2]"
 
 HOMEPAGE="https://github.com/lf-edge/ekuiper"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple to use deployment toolkit built on top of Fabric"
+DESCRIPTION="A simple to use deployment toolkit built on top of Fabric [topver 3.3.1]"
 
 HOMEPAGE="https://github.com/frojd/fabrik"
 LICENSE="MIT"

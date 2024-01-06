@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Apache Flink Python API"
+DESCRIPTION="Apache Flink Python API [topver 1.18.0]"
 
 HOMEPAGE="https://flink.apache.org"
 LICENSE="Apache-2.0"

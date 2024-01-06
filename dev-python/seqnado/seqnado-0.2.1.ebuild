@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pipelines for genomics analysis"
+DESCRIPTION="Pipelines for genomics analysis [topver 0.3.2]"
 
 HOMEPAGE="https://github.com/alsmith151/seqnado"
 LICENSE="GNU GENERAL PUBLIC LICENSE Version 3"

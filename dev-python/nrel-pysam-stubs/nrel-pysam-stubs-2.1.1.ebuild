@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="National Renewable Energy Laboratory's System Advisor Model Python Wrapper, stub files"
+DESCRIPTION="National Renewable Energy Laboratory's System Advisor Model Python Wrapper, stub files [topver 3.0.1]"
 
 HOMEPAGE="http://www.github.com/nrel/pysam"
 LICENSE="BSD 3-Clause"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ReMAP SDK for RUL Models"
+DESCRIPTION="ReMAP SDK for RUL Models [topver 1.0.1]"
 
 HOMEPAGE="https://h2020-remap.eu/"
 LICENSE=""

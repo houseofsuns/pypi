@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mixin Binding Project"
+DESCRIPTION="Mixin Binding Project [topver 0.2.10]"
 
 HOMEPAGE="https://github.com/learnforpractice/mixin-python"
 LICENSE="GPL-3"

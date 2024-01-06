@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The process virtual machine"
+DESCRIPTION="The process virtual machine [topver 4.0.0]"
 
 HOMEPAGE="https://github.com/tracsa/cacahuate"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Escape Graphinder"
+DESCRIPTION="Escape Graphinder [topver 2.0.0]"
 
 HOMEPAGE="https://escape.tech/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Kaggle CLI based python wrapper"
+DESCRIPTION="Kaggle CLI based python wrapper [topver 1.1]"
 
 HOMEPAGE="https://github.com/sunny1401/kaggle_utils"
 LICENSE=""

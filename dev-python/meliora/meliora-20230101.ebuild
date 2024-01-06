@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Credit risk validation and development tools"
+DESCRIPTION="Credit risk validation and development tools [badver 0.1.2rc67_p1]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Encrypt"
+DESCRIPTION="Encrypt [topver 0.1.6]"
 
 HOMEPAGE=""
 LICENSE=""

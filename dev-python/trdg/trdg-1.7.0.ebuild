@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TextRecognitionDataGenerator: A synthetic data generator for text recognition"
+DESCRIPTION="TextRecognitionDataGenerator: A synthetic data generator for text recognition [topver 1.8.0]"
 
 HOMEPAGE="https://github.com/Belval/TextRecognitionDataGenerator"
 LICENSE="MIT"

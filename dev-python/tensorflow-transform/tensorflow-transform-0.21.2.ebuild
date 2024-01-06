@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for data preprocessing with TensorFlow"
+DESCRIPTION="A library for data preprocessing with TensorFlow [topver 1.14.0]"
 
 HOMEPAGE="https://www.tensorflow.org/tfx/transform"
 LICENSE="Apache-2.0"

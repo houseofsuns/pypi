@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="More JSON Tools!"
+DESCRIPTION="More JSON Tools! [topver 6.458.23316]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-json"
 LICENSE="MPL 2.0"

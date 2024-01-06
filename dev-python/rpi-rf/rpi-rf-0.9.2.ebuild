@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sending and receiving 433Mhz signals with cheap GPIO RF modules a Raspberry Pi"
+DESCRIPTION="Sending and receiving 433Mhz signals with cheap GPIO RF modules a Raspberry Pi [topver 0.9.7]"
 
 HOMEPAGE="https://github.com/milaq/rpi-rf"
 LICENSE="BSD"

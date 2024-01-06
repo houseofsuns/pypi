@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Embedded MonetDB Python Database."
+DESCRIPTION="Embedded MonetDB Python Database. [topver 0.6.4]"
 
 HOMEPAGE="https://github.com/hannesmuehleisen/MonetDBLite-Python"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="More future! Make Python 2/3 compatibility a bit easier"
+DESCRIPTION="More future! Make Python 2/3 compatibility a bit easier [topver 7.449.23304]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-future"
 LICENSE="MPL 2.0"

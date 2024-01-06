@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manage electoral race ratings, the POLITICO way."
+DESCRIPTION="Manage electoral race ratings, the POLITICO way. [badver 1.0a9_pre6]"
 
 HOMEPAGE="https://github.com/The-Politico/politico-civic-race-ratings/"
 LICENSE="MIT"

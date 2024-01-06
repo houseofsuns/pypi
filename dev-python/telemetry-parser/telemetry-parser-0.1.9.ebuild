@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [topver 0.2.8]"
 
 HOMEPAGE="https://github.com/AdrianEddy/telemetry-parser"
 LICENSE="MPL-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Make Computers See with SimpleCV, the Python Framework for Machine Vision"
+DESCRIPTION="Make Computers See with SimpleCV, the Python Framework for Machine Vision [topver 1.3]"
 
 HOMEPAGE="http://simplecv.org"
 LICENSE="BSD"

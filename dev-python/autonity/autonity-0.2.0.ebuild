@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for interacting with Autonity"
+DESCRIPTION="Python library for interacting with Autonity [topver 1.0.1]"
 
 HOMEPAGE=""
 LICENSE=""

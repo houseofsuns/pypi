@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Objetivos:"
+DESCRIPTION="Objetivos: [topver 1.0.7]"
 
 HOMEPAGE="https://pypi.org/project/balance-service"
 LICENSE="MIT"

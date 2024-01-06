@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="'CPPCheckBear' bear for coala (http://coala.rtfd.org/)"
+DESCRIPTION="'CPPCheckBear' bear for coala (http://coala.rtfd.org/) [topver 0.10.0.1482010155]"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"

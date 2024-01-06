@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An OCR library for Python"
+DESCRIPTION="An OCR library for Python [topver 0.1.12]"
 
 HOMEPAGE="https://github.com/JC1DA/lanyocr"
 LICENSE="MIT"

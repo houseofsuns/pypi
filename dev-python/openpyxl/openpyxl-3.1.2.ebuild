@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python library to read/write Excel 2010 xlsx/xlsm files"
+DESCRIPTION="A Python library to read/write Excel 2010 xlsx/xlsm files [topver 3.2.0]"
 
 HOMEPAGE="https://openpyxl.readthedocs.io"
 LICENSE="MIT"

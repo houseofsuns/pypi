@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Aos provisioning tool"
+DESCRIPTION="Aos provisioning tool [topver 1.1.2]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

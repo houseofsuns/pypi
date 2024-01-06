@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for consuming Terraform Remote State resources."
+DESCRIPTION="A Pulumi package for consuming Terraform Remote State resources. [topver 5.14.0]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

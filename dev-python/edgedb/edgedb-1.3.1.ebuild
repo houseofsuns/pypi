@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="EdgeDB Python driver"
+DESCRIPTION="EdgeDB Python driver [topver 2.0.0]"
 
 HOMEPAGE="https://github.com/edgedb/edgedb-python"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Intelligent provisioning system based on specification documents"
+DESCRIPTION="Intelligent provisioning system based on specification documents [badver 0.3.6-5]"
 
 HOMEPAGE="https://github.com/pyengine/jeju"
 LICENSE="BSD"

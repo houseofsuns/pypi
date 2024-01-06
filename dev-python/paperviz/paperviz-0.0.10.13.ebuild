@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Professional Python Graphs for Scientific Papers"
+DESCRIPTION="Professional Python Graphs for Scientific Papers [topver 1.0.7]"
 
 HOMEPAGE="https://github.com/swsamleo/Paper-Viz"
 LICENSE="GNU GPLv3"

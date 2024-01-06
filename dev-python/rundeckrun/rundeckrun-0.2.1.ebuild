@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Rundeck API Python client"
+DESCRIPTION="Rundeck API Python client [topver 0.2.2]"
 
 HOMEPAGE="https://github.com/marklap/rundeckrun"
 LICENSE="http://creativecommons.org/licenses/by-sa/3.0/"

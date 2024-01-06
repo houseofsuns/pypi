@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generic library for creating simulated TANGO devices."
+DESCRIPTION="Generic library for creating simulated TANGO devices. [topver 0.9.4]"
 
 HOMEPAGE="https://github.com/ska-sa/tango-simlib"
 LICENSE="BSD"

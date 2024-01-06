@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface to Hive"
+DESCRIPTION="Python interface to Hive [topver 0.7.1]"
 
 HOMEPAGE="https://github.com/dropbox/PyHive"
 LICENSE="Apache-2.0"

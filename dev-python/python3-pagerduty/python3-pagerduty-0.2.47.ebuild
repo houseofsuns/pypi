@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for the PagerDuty service API"
+DESCRIPTION="Library for the PagerDuty service API [topver 0.3.0]"
 
 HOMEPAGE="http://github.com/samuel/python-pagerduty"
 LICENSE="BSD"

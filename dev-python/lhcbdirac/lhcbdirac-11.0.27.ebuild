@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LHCbDIRAC is the LHCb extension of DIRAC"
+DESCRIPTION="LHCbDIRAC is the LHCb extension of DIRAC [topver 12.0.0]"
 
 HOMEPAGE="https://gitlab.cern.ch/lhcb-dirac/LHCbDIRAC/"
 LICENSE="GPL-3"

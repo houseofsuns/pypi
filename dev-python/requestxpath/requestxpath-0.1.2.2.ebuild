@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Inherit the requests module, add xpath functionality to expand the API, and handle request failures and retries"
+DESCRIPTION="Inherit the requests module, add xpath functionality to expand the API, and handle request failures and retries [topver 1.0]"
 
 HOMEPAGE="https://github.com/peng0928/prequests"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cartoview is a GIS web mapping application framework to     easily share and deploy apps based on Geonode"
+DESCRIPTION="Cartoview is a GIS web mapping application framework to     easily share and deploy apps based on Geonode [topver 2.0.2]"
 
 HOMEPAGE="https://github.com/cartologic/cartoview"
 LICENSE="BSD"

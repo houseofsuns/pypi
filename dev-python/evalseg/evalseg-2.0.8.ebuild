@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Medical Image Segmentation Evaluation"
+DESCRIPTION="Medical Image Segmentation Evaluation [topver 2.7]"
 
 HOMEPAGE="https://github.com/modaresimr/evalseg/"
 LICENSE=""

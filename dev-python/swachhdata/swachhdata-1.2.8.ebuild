@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data cleaning made easy with swachhdata"
+DESCRIPTION="Data cleaning made easy with swachhdata [topver 2.0.2]"
 
 HOMEPAGE="https://github.com/swachhdata/swachhdata"
 LICENSE=""

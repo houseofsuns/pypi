@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python library to manage configurations from program arguments including doing commands and saving configurations in a yaml file."
+DESCRIPTION="python library to manage configurations from program arguments including doing commands and saving configurations in a yaml file. [topver 1.1.4]"
 
 HOMEPAGE="https://github.com/zaytiri/settings-manager"
 LICENSE=""

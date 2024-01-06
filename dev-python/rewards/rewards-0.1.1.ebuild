@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Start learning about RL and make model and envs in minutes in just few lines of code"
+DESCRIPTION="Start learning about RL and make model and envs in minutes in just few lines of code [topver 1.0.2]"
 
 HOMEPAGE=""
 LICENSE="MIT"

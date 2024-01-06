@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for static energy plots based on MetPy"
+DESCRIPTION="A package for static energy plots based on MetPy [topver 2.5.3]"
 
 HOMEPAGE="https://github.com/weiming9115/MSEplots"
 LICENSE=""

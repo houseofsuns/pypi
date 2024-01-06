@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mercury: a framework for fluid ETL and data management"
+DESCRIPTION="Mercury: a framework for fluid ETL and data management [topver 0.9.86]"
 
 HOMEPAGE="http://github.com/binarymachines/mercury"
 LICENSE="MIT"

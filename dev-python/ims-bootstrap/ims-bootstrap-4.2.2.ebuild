@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of Django widgets and templatetags for Bootstrap integration."
+DESCRIPTION="A collection of Django widgets and templatetags for Bootstrap integration. [topver 5.0.2]"
 
 HOMEPAGE="https://github.com/imsweb/django-bootstrap"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DICOM Networking Library for AI Apps"
+DESCRIPTION="DICOM Networking Library for AI Apps [topver 0.0.56]"
 
 HOMEPAGE="https://gl.deepnoid.com:9443/deep-ai/general/medical-image"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for compositing atmospheric datasets"
+DESCRIPTION="A package for compositing atmospheric datasets [topver 0.2591]"
 
 HOMEPAGE="https://github.com/joshdorrington/domino"
 LICENSE="bsd-3-clause"

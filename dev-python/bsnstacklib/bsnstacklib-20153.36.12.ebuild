@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Big Switch Networks Plugins for OpenStack Networking"
+DESCRIPTION="Big Switch Networks Plugins for OpenStack Networking [topver 20154.36.7]"
 
 HOMEPAGE="http://www.bigswitch.com/"
 LICENSE=""

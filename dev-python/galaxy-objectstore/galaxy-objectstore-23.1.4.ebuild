@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Galaxy objectstore framework and plugins"
+DESCRIPTION="Galaxy objectstore framework and plugins [topver 23.2]"
 
 HOMEPAGE="https://github.com/galaxyproject/galaxy"
 LICENSE="AFL"

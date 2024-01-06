@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Single-molecule force spectroscopy calibration"
+DESCRIPTION="Single-molecule force spectroscopy calibration [topver 2021.6.13]"
 
 HOMEPAGE="https://github.com/ianlmorgan/tweezepy"
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Soccerwatch Data Library"
+DESCRIPTION="Soccerwatch Data Library [topver 1.11.0]"
 
 HOMEPAGE="https://bitbucket.org/soccerwatch/swdl/"
 LICENSE=""

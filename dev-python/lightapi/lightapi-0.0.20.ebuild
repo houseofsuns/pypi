@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Light API turns LLM's into Autonomous, MultiModal, MultiTasking Agents."
+DESCRIPTION="Light API turns LLM's into Autonomous, MultiModal, MultiTasking Agents. [topver 0.1.0]"
 
 HOMEPAGE=""
 LICENSE=""

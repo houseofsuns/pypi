@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package supercharging Momba with computing capabilities."
+DESCRIPTION="A Python package supercharging Momba with computing capabilities. [topver 1.0.0]"
 
 HOMEPAGE=""
 LICENSE="MIT OR Apache-2.0"

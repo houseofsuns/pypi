@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Visualize splice junctions, backsplice junctions (circleRNA) and coverage from RNA-Seq datasets"
+DESCRIPTION="Visualize splice junctions, backsplice junctions (circleRNA) and coverage from RNA-Seq datasets [topver 0.2.0.0]"
 
 HOMEPAGE="https://github.com/flemingtonlab/SpliceV"
 LICENSE=""

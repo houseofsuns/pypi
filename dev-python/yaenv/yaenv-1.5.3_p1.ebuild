@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Yet another dotenv parser for Python."
+DESCRIPTION="Yet another dotenv parser for Python. [topver 1.6.4]"
 
 HOMEPAGE="https://github.com/ObserverOfTime/yaenv"
 LICENSE="BSD"

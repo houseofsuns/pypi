@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Pitzer model for chemical activities and equilibria in aqueous solutions in Python"
+DESCRIPTION="The Pitzer model for chemical activities and equilibria in aqueous solutions in Python [topver 23.5]"
 
 HOMEPAGE=""
 LICENSE=""

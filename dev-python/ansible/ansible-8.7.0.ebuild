@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Radically simple IT automation"
+DESCRIPTION="Radically simple IT automation [topver 9.1.0]"
 
 HOMEPAGE="https://ansible.com/"
 LICENSE="GPL-3+"

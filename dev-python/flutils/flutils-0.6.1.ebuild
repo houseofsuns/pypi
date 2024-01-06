@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of commonly used utility functions for Python projects."
+DESCRIPTION="A collection of commonly used utility functions for Python projects. [topver 0.7]"
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause License"

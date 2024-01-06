@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python jsend library"
+DESCRIPTION="A python jsend library [topver 0.2.2]"
 
 HOMEPAGE="https://github.com/onceaweeq/py-jsend"
 LICENSE="MIT"

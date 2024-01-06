@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Diengine core driver, SqlAlchemy, and Superset libraries"
+DESCRIPTION="Diengine core driver, SqlAlchemy, and Superset libraries [topver 0.5.15]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

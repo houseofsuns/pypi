@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A highly-scalable, distributed metric data processing framework based on RabbitMQ"
+DESCRIPTION="A highly-scalable, distributed metric data processing framework based on RabbitMQ [topver 5.3.0]"
 
 HOMEPAGE="https://github.com/metricq/metricq"
 LICENSE=""

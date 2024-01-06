@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools to manage In/Out file. Easy to add new class if you need to change source/dest (file system, git ...)"
+DESCRIPTION="Tools to manage In/Out file. Easy to add new class if you need to change source/dest (file system, git ...) [topver 2.4.0]"
 
 HOMEPAGE="https://gitlab.com/changendevops/cnd-io"
 LICENSE="MIT/X11"

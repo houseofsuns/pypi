@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="用于测试graphql的接口，依赖于sgqlc"
+DESCRIPTION="用于测试graphql的接口，依赖于sgqlc [topver 2.0.0]"
 
 HOMEPAGE=""
 LICENSE=""

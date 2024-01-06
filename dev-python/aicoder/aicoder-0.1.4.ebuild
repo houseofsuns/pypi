@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is a tool to generate code using OpenAI api."
+DESCRIPTION="This is a tool to generate code using OpenAI api. [topver 0.4.4]"
 
 HOMEPAGE="https://github.com/carlospolop/AICoder"
 LICENSE=""

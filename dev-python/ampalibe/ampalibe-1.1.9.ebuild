@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ampalibe is a lightweight Python framework for building Facebook Messenger bots faster."
+DESCRIPTION="Ampalibe is a lightweight Python framework for building Facebook Messenger bots faster. [topver 1.2.0.1]"
 
 HOMEPAGE="https://github.com/iTeam-S/ampalibe"
 LICENSE=""

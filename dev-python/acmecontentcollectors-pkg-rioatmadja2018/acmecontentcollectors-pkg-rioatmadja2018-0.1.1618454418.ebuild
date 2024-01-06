@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wheel to collect data about the Islamic Recruitments."
+DESCRIPTION="Python wheel to collect data about the Islamic Recruitments. [topver 0.1.1618454424]"
 
 HOMEPAGE=""
 LICENSE=""

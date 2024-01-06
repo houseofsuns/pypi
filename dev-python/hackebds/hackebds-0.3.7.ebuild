@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This tool is used for backdoor,shellcode generation,Information retrieval and POC generation for various architecture devices"
+DESCRIPTION="This tool is used for backdoor,shellcode generation,Information retrieval and POC generation for various architecture devices [topver 0.3.8]"
 
 HOMEPAGE="https://github.com/doudoudedi/hackEmbedded"
 LICENSE="GPL-3"

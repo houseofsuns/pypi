@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Vectorized cheminformatics library leveraging EPAM Indigo Toolkit"
+DESCRIPTION="Vectorized cheminformatics library leveraging EPAM Indigo Toolkit [topver 0.1.1]"
 
 HOMEPAGE="https://github.com/alkorolyov/chemivec"
 LICENSE=""

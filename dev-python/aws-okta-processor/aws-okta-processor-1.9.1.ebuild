@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Resource for fetching AWS Role credentials from Okta"
+DESCRIPTION="Resource for fetching AWS Role credentials from Okta [topver 2.0.0]"
 
 HOMEPAGE="https://github.com/godaddy/aws-okta-processor"
 LICENSE="MIT"

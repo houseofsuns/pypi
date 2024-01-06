@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Use python with next generation api"
+DESCRIPTION="Use python with next generation api [topver 2023.4.2.2.50.21]"
 
 HOMEPAGE="https://pypi.org/project/Remilia/"
 LICENSE="MIT"

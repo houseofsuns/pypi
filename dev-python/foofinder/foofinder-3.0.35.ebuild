@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package designed to help you find foo."
+DESCRIPTION="A package designed to help you find foo. [topver 3.0.60]"
 
 HOMEPAGE="https://github.com/MadisonAster/FooFinder"
 LICENSE="LGPL-3"

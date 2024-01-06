@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Workflow orchestration and management."
+DESCRIPTION="Workflow orchestration and management. [topver 2.82]"
 
 HOMEPAGE="https://www.prefect.io"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django utilities."
+DESCRIPTION="Django utilities. [topver 0.3.6]"
 
 HOMEPAGE="https://github.com/liminspace/dj-utils"
 LICENSE="BSD"

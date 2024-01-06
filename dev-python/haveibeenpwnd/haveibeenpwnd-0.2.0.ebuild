@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Check passwords against HaveIBeenPwnd"
+DESCRIPTION="Check passwords against HaveIBeenPwnd [topver 0.2.2]"
 
 HOMEPAGE="http://github.com/berend/hibp"
 LICENSE="MIT"

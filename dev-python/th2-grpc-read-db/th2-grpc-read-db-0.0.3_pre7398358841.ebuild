@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="th2_grpc_read_db"
+DESCRIPTION="th2_grpc_read_db [topver 0.0.7]"
 
 HOMEPAGE="https://github.com/th2-net/th2-read-db"
 LICENSE="Apache-2.0"

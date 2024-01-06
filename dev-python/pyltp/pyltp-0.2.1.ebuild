@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pyltp: the python extension for LTP"
+DESCRIPTION="pyltp: the python extension for LTP [topver 0.4.0]"
 
 HOMEPAGE="https://github.com/HIT-SCIR/pyltp"
 LICENSE=""

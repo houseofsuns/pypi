@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An opensourse ERP developed on django framework"
+DESCRIPTION="An opensourse ERP developed on django framework [topver 5.1.2]"
 
 HOMEPAGE="https://gitlab.com/corgy/corgy-erp.git"
 LICENSE="Apache 2.0 License"

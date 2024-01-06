@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fixes contractions such as \`you're\` to you \`are\`"
+DESCRIPTION="Fixes contractions such as \`you're\` to you \`are\` [topver 0.1.73]"
 
 HOMEPAGE="https://github.com/kootenpv/contractions"
 LICENSE="MIT"

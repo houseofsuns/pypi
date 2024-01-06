@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RocketChat API with Python"
+DESCRIPTION="RocketChat API with Python [topver 1.3.4]"
 
 HOMEPAGE="http://github.com/dstegelman/rocket-python"
 LICENSE="MIT"

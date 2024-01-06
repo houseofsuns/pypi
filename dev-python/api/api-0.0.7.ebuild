@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Consume an API from ReadMe Build"
+DESCRIPTION="Consume an API from ReadMe Build [topver 1.0.0]"
 
 HOMEPAGE="https://readme.build"
 LICENSE="MIT"

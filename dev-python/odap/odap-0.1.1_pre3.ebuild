@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ODAP framework"
+DESCRIPTION="ODAP framework [topver 0.4.3]"
 
 HOMEPAGE=""
 LICENSE="Proprietary"

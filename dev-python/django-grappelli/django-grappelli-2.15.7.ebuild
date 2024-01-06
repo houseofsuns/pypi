@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A jazzy skin for the Django Admin-Interface."
+DESCRIPTION="A jazzy skin for the Django Admin-Interface. [topver 3.0.8]"
 
 HOMEPAGE="http://django-grappelli.readthedocs.org"
 LICENSE="BSD"

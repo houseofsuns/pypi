@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Secure and Powerful Python-Telethon Based Library For Ayra Userbot."
+DESCRIPTION="A Secure and Powerful Python-Telethon Based Library For Ayra Userbot. [topver 8.7.6]"
 
 HOMEPAGE="https://github.com/naya1503/pyAyra"
 LICENSE="GNU AFFERO GENERAL PUBLIC LICENSE v3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="APIs and tools to work with abstract \"models\" - files with numpy arrays and metadata. It is possible to publish models, list them. There is a built-in cache. Storage has backends."
+DESCRIPTION="APIs and tools to work with abstract \"models\" - files with numpy arrays and metadata. It is possible to publish models, list them. There is a built-in cache. Storage has backends. [topver 0.15.2]"
 
 HOMEPAGE="https://github.com/src-d/modelforge"
 LICENSE="Apache-2.0"

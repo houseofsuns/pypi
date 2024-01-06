@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="zermelo api"
+DESCRIPTION="zermelo api [topver 2023.11.23.20.29.21]"
 
 HOMEPAGE=""
 LICENSE=""

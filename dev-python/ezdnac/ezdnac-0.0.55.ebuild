@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small module to make it easy to start using the rest-api of Cisco DNA-C"
+DESCRIPTION="A small module to make it easy to start using the rest-api of Cisco DNA-C [topver 0.0.56]"
 
 HOMEPAGE="https://github.com/johan-lahti/ezdnac"
 LICENSE=""

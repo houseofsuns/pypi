@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="general purposed connection pool for gevent, split from sqlalchemy"
+DESCRIPTION="general purposed connection pool for gevent, split from sqlalchemy [badver 0.1.2dev]"
 
 HOMEPAGE="https://github.com/CMGS/pool"
 LICENSE="MIT"

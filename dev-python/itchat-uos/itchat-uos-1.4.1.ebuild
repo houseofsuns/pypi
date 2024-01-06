@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="复活Itchat, 仅仅需要 pip install itchat-uos, good luck !"
+DESCRIPTION="复活Itchat, 仅仅需要 pip install itchat-uos, good luck ! [topver 1.5.0]"
 
 HOMEPAGE="https://github.com/why2lyj/ItChat-UOS"
 LICENSE="MIT"

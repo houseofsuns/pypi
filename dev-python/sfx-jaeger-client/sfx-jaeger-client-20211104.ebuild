@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Jaeger Python OpenTracing Tracer implementation"
+DESCRIPTION="Jaeger Python OpenTracing Tracer implementation [badver 3.13.1b0_pre6]"
 
 HOMEPAGE="https://github.com/jaegertracing/jaeger-client-python"
 LICENSE="Apache-2.0"

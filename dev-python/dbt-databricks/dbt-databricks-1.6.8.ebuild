@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Databricks adapter plugin for dbt"
+DESCRIPTION="The Databricks adapter plugin for dbt [topver 1.7.3]"
 
 HOMEPAGE="https://github.com/databricks/dbt-databricks"
 LICENSE=""

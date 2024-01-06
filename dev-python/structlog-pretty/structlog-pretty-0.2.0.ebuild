@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of structlog processors for prettier output"
+DESCRIPTION="A collection of structlog processors for prettier output [topver 0.3.0]"
 
 HOMEPAGE="https://github.com/underyx/structlog-pretty"
 LICENSE=""

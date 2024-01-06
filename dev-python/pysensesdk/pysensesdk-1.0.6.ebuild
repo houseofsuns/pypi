@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sisense Python SDK"
+DESCRIPTION="Sisense Python SDK [topver 1.0.7]"
 
 HOMEPAGE="https://github.com/nathangiusti/PySense"
 LICENSE=""

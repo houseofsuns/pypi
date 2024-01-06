@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lineage prediction from SARS-CoV-2 sequences"
+DESCRIPTION="Lineage prediction from SARS-CoV-2 sequences [topver 0.53]"
 
 HOMEPAGE="https://github.com/theosanderson/armadillin"
 LICENSE=""

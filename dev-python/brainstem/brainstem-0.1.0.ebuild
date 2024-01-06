@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Acroname Python Library"
+DESCRIPTION="Acroname Python Library [topver 2.10.2]"
 
 HOMEPAGE="https://www.acroname.com/"
 LICENSE=""

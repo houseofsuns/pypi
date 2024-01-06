@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lago Python API Client"
+DESCRIPTION="Lago Python API Client [topver 0.53.0]"
 
 HOMEPAGE="https://github.com/getlago/lago-python-client"
 LICENSE=""

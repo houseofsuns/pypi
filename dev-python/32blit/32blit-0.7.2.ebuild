@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="32Blit asset preparation and upload tools"
+DESCRIPTION="32Blit asset preparation and upload tools [topver 0.7.3]"
 
 HOMEPAGE="https://32blit.com"
 LICENSE="MIT"

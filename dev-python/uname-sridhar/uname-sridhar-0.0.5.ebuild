@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Get Information About  Linux Kernel with the help of  Python"
+DESCRIPTION="Get Information About  Linux Kernel with the help of  Python [topver 0.1.3]"
 
 HOMEPAGE="https://git.selfmade.ninja/SRIDHARDSCV/package_uname_command"
 LICENSE=""

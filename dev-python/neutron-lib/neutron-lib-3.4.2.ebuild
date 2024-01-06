@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Neutron shared routines and utilities"
+DESCRIPTION="Neutron shared routines and utilities [topver 3.9.0]"
 
 HOMEPAGE="https://docs.openstack.org/neutron-lib/latest/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="KNX panel for Home Assistant"
+DESCRIPTION="KNX panel for Home Assistant [topver 20221026104517]"
 
 HOMEPAGE=""
 LICENSE="MIT"

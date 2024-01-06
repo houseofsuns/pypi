@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool to count the FLOPs of PyTorch model."
+DESCRIPTION="A tool to count the FLOPs of PyTorch model. [topver 0.1.1, badver 0.0.30-1908281655]"
 
 HOMEPAGE="https://github.com/Lyken17/pytorch-OpCounter/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="simple audio plugin for ovos"
+DESCRIPTION="simple audio plugin for ovos [topver 0.0.2]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-audio-plugin-simple"
 LICENSE="Apache-2.0"

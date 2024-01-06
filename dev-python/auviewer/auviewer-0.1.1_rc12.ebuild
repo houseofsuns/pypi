@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A general-purpose time series exploration & annotation tool."
+DESCRIPTION="A general-purpose time series exploration & annotation tool. [topver 1.0.0]"
 
 HOMEPAGE="https://github.com/autonlab/auviewer"
 LICENSE="MIT"

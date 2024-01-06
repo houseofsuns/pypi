@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="IBM Cloud Schematics Python SDK"
+DESCRIPTION="IBM Cloud Schematics Python SDK [topver 2.0.0]"
 
 HOMEPAGE="https://github.com/IBM/schematics-python-sdk.git"
 LICENSE="Apache-2.0"

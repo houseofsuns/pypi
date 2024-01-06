@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Render API Blueprints on-the-fly using Django templates"
+DESCRIPTION="Render API Blueprints on-the-fly using Django templates [topver 3.0.0]"
 
 HOMEPAGE="https://github.com/chris48s/django-apiblueprint-view"
 LICENSE="MIT"

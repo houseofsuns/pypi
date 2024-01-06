@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Nordic Semiconductor NCS theme for Sphinx"
+DESCRIPTION="Nordic Semiconductor NCS theme for Sphinx [topver 1.0.19]"
 
 HOMEPAGE="https://www.nordicsemi.no"
 LICENSE="MIT"

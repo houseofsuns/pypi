@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Common humanization utilities for Flask applications."
+DESCRIPTION="Common humanization utilities for Flask applications. [topver 0.3.0]"
 
 HOMEPAGE="https://github.com/vitalk/flask-humanize"
 LICENSE="MIT"

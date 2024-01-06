@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Collection of usefull algorithms and other very disparate stuff"
+DESCRIPTION="Collection of usefull algorithms and other very disparate stuff [topver 2.1.11]"
 
 HOMEPAGE="https://github.com/merchise/xoutil/"
 LICENSE="GPL-3+"

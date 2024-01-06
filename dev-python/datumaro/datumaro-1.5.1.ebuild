@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dataset Management Framework (Datumaro)"
+DESCRIPTION="Dataset Management Framework (Datumaro) [topver 1.6.0]"
 
 HOMEPAGE="https://github.com/openvinotoolkit/datumaro"
 LICENSE=""

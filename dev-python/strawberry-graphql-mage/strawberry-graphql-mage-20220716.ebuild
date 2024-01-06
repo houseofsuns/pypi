@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An automated, modular, backend-agnostic GraphQL API generator"
+DESCRIPTION="An automated, modular, backend-agnostic GraphQL API generator [badver 0.0.1a9_pre1657963998]"
 
 HOMEPAGE="https://github.com/KundaPanda/strawberry-graphql-mage/"
 LICENSE="MIT"

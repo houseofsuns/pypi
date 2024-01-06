@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Database backend for Annotator (http://annotatorjs.org)"
+DESCRIPTION="Database backend for Annotator (http://annotatorjs.org) [topver 0.14.2]"
 
 HOMEPAGE="http://annotatorjs.org/"
 LICENSE="MIT"

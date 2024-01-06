@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Unofficial Python API for SFPL"
+DESCRIPTION="Unofficial Python API for SFPL [topver 1.5.6]"
 
 HOMEPAGE="https://github.com/kajchang/sfpl-scraper"
 LICENSE="MIT"

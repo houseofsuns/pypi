@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Client library for Solum API"
+DESCRIPTION="Client library for Solum API [topver 5]"
 
 HOMEPAGE="https://docs.openstack.org/python-solumclient/latest/"
 LICENSE=""

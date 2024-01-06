@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A socket.io client library"
+DESCRIPTION="A socket.io client library [topver 0.7.2]"
 
 HOMEPAGE="https://github.com/invisibleroads/socketIO-client"
 LICENSE="MIT"

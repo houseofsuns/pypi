@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The James Webb Space Telescope Quicklook Project"
+DESCRIPTION="The James Webb Space Telescope Quicklook Project [topver 1.2.0]"
 
 HOMEPAGE="https://github.com/spacetelescope/jwql.git"
 LICENSE="BSD"

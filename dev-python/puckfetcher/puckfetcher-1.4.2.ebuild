@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple command-line podcatcher."
+DESCRIPTION="A simple command-line podcatcher. [topver 1.5.0]"
 
 HOMEPAGE="https://github.com/alixnovosi/puckfetcher"
 LICENSE="BSD"

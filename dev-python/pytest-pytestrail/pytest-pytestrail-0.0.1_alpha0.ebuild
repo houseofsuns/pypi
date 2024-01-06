@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pytest plugin for interaction with TestRail"
+DESCRIPTION="pytest plugin for interaction with TestRail [topver 0.10.5]"
 
 HOMEPAGE="https://github.com/tolstislon/pytest-pytestrail"
 LICENSE="MIT"

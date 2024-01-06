@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for using Celery as Dagster's execution engine."
+DESCRIPTION="Package for using Celery as Dagster's execution engine. [topver 1.0.5]"
 
 HOMEPAGE="https://github.com/dagster-io/dagster/tree/master/python_modules/libraries/dagster-celery"
 LICENSE="Apache-2.0"

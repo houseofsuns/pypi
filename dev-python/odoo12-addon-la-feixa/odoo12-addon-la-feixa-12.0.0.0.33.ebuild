@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Odoo La Feixa customizations"
+DESCRIPTION="Odoo La Feixa customizations [topver 12.0.0.0.36]"
 
 HOMEPAGE="https://coopdevs.org"
 LICENSE="AGPL-3"

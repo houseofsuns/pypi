@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="VICC normalization routine for variations"
+DESCRIPTION="VICC normalization routine for variations [topver 0.8.0]"
 
 HOMEPAGE="https://github.com/cancervariants/variation-normalization"
 LICENSE="MIT"

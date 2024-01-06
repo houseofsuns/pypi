@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Module to interact with Arista CloudVision"
+DESCRIPTION="Module to interact with Arista CloudVision [topver 1.6.4]"
 
 HOMEPAGE="https://github.com/networkRob/rcvpapi"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Explainable Fuzzy Challenge - Asteroids Simulation Environment"
+DESCRIPTION="Explainable Fuzzy Challenge - Asteroids Simulation Environment [topver 3.3.1]"
 
 HOMEPAGE="https://github.com/xfuzzycomp/FuzzyAsteroids"
 LICENSE="MIT"

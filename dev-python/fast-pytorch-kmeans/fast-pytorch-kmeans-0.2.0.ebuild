@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a fast kmeans clustering algorithm implemented in pytorch"
+DESCRIPTION="a fast kmeans clustering algorithm implemented in pytorch [topver 0.2.0.1]"
 
 HOMEPAGE="https://github.com/DeMoriarty/fast_pytorch_kmeans"
 LICENSE="MIT"

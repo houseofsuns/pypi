@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small example package"
+DESCRIPTION="A small example package [topver 0.0.5]"
 
 HOMEPAGE="https://github.com/jobyywilson/asynco.git"
 LICENSE=""

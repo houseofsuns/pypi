@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\"Orquestra Python Development tools\""
+DESCRIPTION="\"Orquestra Python Development tools\" [topver 0.3.0]"
 
 HOMEPAGE="https://github.com/zapatacomputing/orquestra-python-dev"
 LICENSE=""

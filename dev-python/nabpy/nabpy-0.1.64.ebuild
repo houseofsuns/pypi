@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Library for the Nab Experiment"
+DESCRIPTION="Python Library for the Nab Experiment [topver 0.1.65]"
 
 HOMEPAGE="https://gitlab.com/NabExperiment/pyNab/"
 LICENSE="MIT"

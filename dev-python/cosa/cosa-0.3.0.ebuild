@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CoreIR Symbolic Analyzer"
+DESCRIPTION="CoreIR Symbolic Analyzer [topver 0.4]"
 
 HOMEPAGE="http://github.com/cristian-mattarei/CoSA"
 LICENSE="BSD"

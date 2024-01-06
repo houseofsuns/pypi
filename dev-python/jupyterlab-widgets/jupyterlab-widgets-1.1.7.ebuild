@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A JupyterLab extension."
+DESCRIPTION="A JupyterLab extension. [topver 3.0.9]"
 
 HOMEPAGE="https://github.com/jupyter-widgets/ipywidgets"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BuildBot Slave Daemon"
+DESCRIPTION="BuildBot Slave Daemon [topver 0.9.0]"
 
 HOMEPAGE="http://buildbot.net/"
 LICENSE="GNU GPL"

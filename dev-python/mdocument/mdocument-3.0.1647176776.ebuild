@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple DRM for motor client"
+DESCRIPTION="Simple DRM for motor client [topver 4.0.1612576120]"
 
 HOMEPAGE="https://git.yurzs.dev/yurzs/MDocument"
 LICENSE="MIT"

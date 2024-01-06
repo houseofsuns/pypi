@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A basic Salesforce.com REST API client."
+DESCRIPTION="A basic Salesforce.com REST API client. [topver 1.11.0]"
 
 HOMEPAGE="https://github.com/simple-salesforce/simple-salesforce"
 LICENSE="Apache-2.0"

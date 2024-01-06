@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyTorch library for computing moving averages of model parameters."
+DESCRIPTION="PyTorch library for computing moving averages of model parameters. [topver 0.3]"
 
 HOMEPAGE="https://github.com/fadel/pytorch_ema"
 LICENSE=""

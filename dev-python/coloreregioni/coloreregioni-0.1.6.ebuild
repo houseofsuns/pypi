@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Web-scraping del sito del governo italiano per la classificazione delle misure restrittive regionali"
+DESCRIPTION="Web-scraping del sito del governo italiano per la classificazione delle misure restrittive regionali [topver 0.2.0]"
 
 HOMEPAGE="https://github.com/MCilento93/ColoreRegioni"
 LICENSE="MIT"

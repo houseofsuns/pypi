@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple calculator API hosted on APIMATIC"
+DESCRIPTION="Simple calculator API hosted on APIMATIC [topver 100.0.100]"
 
 HOMEPAGE=""
 LICENSE=""

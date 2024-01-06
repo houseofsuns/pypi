@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Miyadaiku - Flexible static site generator for Jinja2 artists"
+DESCRIPTION="Miyadaiku - Flexible static site generator for Jinja2 artists [topver 1.25.0]"
 
 HOMEPAGE="https://miyadaiku.github.io"
 LICENSE="MIT"

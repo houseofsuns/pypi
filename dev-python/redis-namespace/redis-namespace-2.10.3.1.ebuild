@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="redis namespace"
+DESCRIPTION="redis namespace [topver 3.0.1.1]"
 
 HOMEPAGE="https://github.com/guokr/redis-namespace"
 LICENSE="MIT"

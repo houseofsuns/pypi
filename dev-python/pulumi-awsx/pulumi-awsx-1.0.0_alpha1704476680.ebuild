@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pulumi Amazon Web Services (AWS) AWSX Components."
+DESCRIPTION="Pulumi Amazon Web Services (AWS) AWSX Components. [topver 2.4.0]"
 
 HOMEPAGE="https://pulumi.com"
 LICENSE="Apache-2.0"

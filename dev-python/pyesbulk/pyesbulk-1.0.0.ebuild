@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An opinionated Elasticsearch bulk indexer for Python."
+DESCRIPTION="An opinionated Elasticsearch bulk indexer for Python. [topver 2.1.1]"
 
 HOMEPAGE="https://github.com/distributed-system-analysis/py-es-bulk"
 LICENSE=""

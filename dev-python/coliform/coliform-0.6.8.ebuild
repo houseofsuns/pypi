@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Coliform UPRM Project Library, Written for Raspberry Pi"
+DESCRIPTION="Coliform UPRM Project Library, Written for Raspberry Pi [topver 0.7.5.1]"
 
 HOMEPAGE="https://github.com/Regendor/coliform-project"
 LICENSE=""

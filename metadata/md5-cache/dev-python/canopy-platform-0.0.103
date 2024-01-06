@@ -1,0 +1,16 @@
+BDEPEND=dev-python/webint[python_targets_python3_10(-)?] dev-python/webint-ai[python_targets_python3_10(-)?] dev-python/webint-auth[python_targets_python3_10(-)?] dev-python/webint-code[python_targets_python3_10(-)?] dev-python/webint-data[python_targets_python3_10(-)?] dev-python/webint-editor[python_targets_python3_10(-)?] dev-python/webint-guests[python_targets_python3_10(-)?] dev-python/webint-live[python_targets_python3_10(-)?] dev-python/webint-media[python_targets_python3_10(-)?] dev-python/webint-mentions[python_targets_python3_10(-)?] dev-python/webint-owner[python_targets_python3_10(-)?] dev-python/webint-player[python_targets_python3_10(-)?] dev-python/webint-posts[python_targets_python3_10(-)?] dev-python/webint-search[python_targets_python3_10(-)?] dev-python/webint-sites[python_targets_python3_10(-)?] dev-python/webint-system[python_targets_python3_10(-)?] dev-python/webint-tracker[python_targets_python3_10(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-python/gpep517-15[python_targets_python3_10(-)?]
+DEFINED_PHASES=compile configure install prepare test unpack
+DESCRIPTION=a decentralized social web platform
+EAPI=8
+HOMEPAGE=https://ragt.ag/code/projects/canopy
+INHERIT=python-r1 gs-pypi
+IUSE=python_targets_python3_10
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD-2
+RDEPEND=dev-python/webint[python_targets_python3_10(-)?] dev-python/webint-ai[python_targets_python3_10(-)?] dev-python/webint-auth[python_targets_python3_10(-)?] dev-python/webint-code[python_targets_python3_10(-)?] dev-python/webint-data[python_targets_python3_10(-)?] dev-python/webint-editor[python_targets_python3_10(-)?] dev-python/webint-guests[python_targets_python3_10(-)?] dev-python/webint-live[python_targets_python3_10(-)?] dev-python/webint-media[python_targets_python3_10(-)?] dev-python/webint-mentions[python_targets_python3_10(-)?] dev-python/webint-owner[python_targets_python3_10(-)?] dev-python/webint-player[python_targets_python3_10(-)?] dev-python/webint-posts[python_targets_python3_10(-)?] dev-python/webint-search[python_targets_python3_10(-)?] dev-python/webint-sites[python_targets_python3_10(-)?] dev-python/webint-system[python_targets_python3_10(-)?] dev-python/webint-tracker[python_targets_python3_10(-)?] python_targets_python3_10? ( dev-lang/python:3.10 )
+REQUIRED_USE=|| ( python_targets_python3_10 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/source/c/canopy-platform/canopy_platform-0.0.103.tar.gz
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	e989dbdcbb647bd8655857c1f95be244	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	flag-o-matic	b97a0a7215b2f463a485ff0599ab30bb	ninja-utils	39e7a84b06eff4efd9f2e0c3d1668b98	gs-distutils-r1	0525f05c7488bc59390b270bd3d76555	g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	gs-pypi	03294e7b17bf3965e7664025c100ef4e
+_md5_=1402c9f8867c5955eff2efd9a9746a6b

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PostgreSQL database adapter for Python"
+DESCRIPTION="PostgreSQL database adapter for Python [topver 3.1.17]"
 
 HOMEPAGE="https://psycopg.org/psycopg3/"
 LICENSE="GNU Lesser General Public License v3 LGPLv3"

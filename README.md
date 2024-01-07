@@ -36,6 +36,13 @@ limitations:
   open an issue. As said, there are lots of packages so there probably
   are some failures still lurking.
 
+In two cases a comment in square brackets is added to the description of
+a package to make aberrations in the processing pipeline transparent:
+* topver x.y: the best version is x.y but was not chosen (most likely
+  due to no source distfile being available),
+* badver x.y: the version x.y is the official package version but failed
+  to parse into a Gentoo-representable format.
+
 This is maintained and updated with the help of g-sorcery [3],[4] and
 gs-pypi [5],[6].
 

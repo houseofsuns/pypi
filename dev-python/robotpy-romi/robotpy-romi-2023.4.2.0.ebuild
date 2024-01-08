@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Binary wrapper for WPILib Romi Vendor library"
+DESCRIPTION="Binary wrapper for WPILib Romi Vendor library [topver 2024.1.1.1]"
 
 HOMEPAGE="https://github.com/robotpy/robotpy-romi"
 LICENSE="BSD"

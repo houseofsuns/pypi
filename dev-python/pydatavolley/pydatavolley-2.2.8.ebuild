@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python set of code for reading volleyball scouting files in DataVolley format (*.dvw)"
+DESCRIPTION="A python set of code for reading volleyball scouting files in DataVolley format (*.dvw) [topver 2.2.9]"
 
 HOMEPAGE="https://github.com/openvolley/pydatavolley"
 LICENSE="MIT"

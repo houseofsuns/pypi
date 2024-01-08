@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python version of IDL tplot libraries"
+DESCRIPTION="A python version of IDL tplot libraries [topver 2.2.2]"
 
 HOMEPAGE="https://github.com/MAVENSDC/pytplot"
 LICENSE=""

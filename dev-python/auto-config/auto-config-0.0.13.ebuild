@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="auto config for my personal devices [topver 0.0.14]"
+DESCRIPTION="auto config for my personal devices [topver 0.0.15]"
 
 HOMEPAGE="https://pypi.org/project/auto-config"
 LICENSE="MIT"

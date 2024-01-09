@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for controlling Rademacher DuoFern actors using python. Requires the RademacherDuofern USB Stick Art.-Nr.: 70000093"
+DESCRIPTION="Library for controlling Rademacher DuoFern actors using python. Requires the RademacherDuofern USB Stick Art.-Nr.: 70000093 [topver 0.36.1]"
 
 HOMEPAGE="https://github.com/gluap/pyduofern"
 LICENSE="GPL-2"

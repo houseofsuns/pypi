@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Valispace Python API [topver 0.1.24]"
+DESCRIPTION="Valispace Python API [topver 0.1.24.1]"
 
 HOMEPAGE="https://github.com/valispace/ValispacePythonAPI"
 LICENSE="MIT"

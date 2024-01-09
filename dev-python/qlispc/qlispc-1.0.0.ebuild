@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simulator for qlisp [topver 1.0.3]"
+DESCRIPTION="Simulator for qlisp [topver 1.0.4]"
 
 HOMEPAGE="https://github.com/feihoo87/qlispc"
 LICENSE=""

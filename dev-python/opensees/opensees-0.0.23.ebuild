@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Idiomatic and idempotent bindings to the OpenSees framework. [topver 0.0.51]"
+DESCRIPTION="Idiomatic and idempotent bindings to the OpenSees framework. [topver 0.0.52]"
 
 HOMEPAGE=""
 LICENSE=""

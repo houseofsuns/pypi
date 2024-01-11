@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Minimalist wrapper around Stanford OpenIE"
+DESCRIPTION="Minimalist wrapper around Stanford OpenIE [topver 1.3.2]"
 
 HOMEPAGE=""
 LICENSE="MIT"

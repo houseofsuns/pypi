@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SDK for the Gentrace API"
+DESCRIPTION="Python SDK for the Gentrace API [topver 0.27.0]"
 
 HOMEPAGE="https://github.com/gentrace/gentrace-python"
 LICENSE="MIT"

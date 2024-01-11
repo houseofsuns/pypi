@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for the RockyRoad API [topver 0.0.346]"
+DESCRIPTION="Python wrapper for the RockyRoad API [topver 0.0.348]"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pytest plugin accessing NHSDigital's APIM proxies"
+DESCRIPTION="Pytest plugin accessing NHSDigital's APIM proxies [topver 3.3.11]"
 
 HOMEPAGE="https://github.com/NHSDigital/pytest-nhsd-apim"
 LICENSE="MIT"

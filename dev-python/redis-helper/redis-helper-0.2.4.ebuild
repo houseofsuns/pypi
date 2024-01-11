@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easily store, index, and modify Python dicts in Redis (with flexible searching) [topver 0.4.7]"
+DESCRIPTION="Easily store, index, and modify Python dicts in Redis (with flexible searching) [topver 0.4.8]"
 
 HOMEPAGE="https://github.com/kenjyco/redis_helper"
 LICENSE="MIT"

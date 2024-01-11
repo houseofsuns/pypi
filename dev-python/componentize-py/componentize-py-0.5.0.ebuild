@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tool to package Python applications as WebAssembly components [topver 0.9.1]"
+DESCRIPTION="Tool to package Python applications as WebAssembly components [topver 0.9.2]"
 
 HOMEPAGE=""
 LICENSE=""

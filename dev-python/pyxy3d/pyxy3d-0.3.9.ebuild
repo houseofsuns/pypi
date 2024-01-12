@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="GUI based multicamera calibration that integrates with 2D landmark tracking to triangulate 3D landmark positions"
+DESCRIPTION="GUI based multicamera calibration that integrates with 2D landmark tracking to triangulate 3D landmark positions [topver 0.3.10]"
 
 HOMEPAGE=""
 LICENSE="LGPL-3+"

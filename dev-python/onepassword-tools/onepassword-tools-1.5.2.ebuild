@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is a collection of 1Password related CLI tools and helpers [topver 1.5.7]"
+DESCRIPTION="This is a collection of 1Password related CLI tools and helpers [topver 1.6.0]"
 
 HOMEPAGE="https://github.com/mickaelperrin/onepassword-tools"
 LICENSE="GPL-3"

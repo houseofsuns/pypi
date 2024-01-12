@@ -1,0 +1,15 @@
+BDEPEND=dev-python/babel[python_targets_python3_10(-)?] dev-python/colanderalchemy[python_targets_python3_10(-)?] dev-python/deform[python_targets_python3_10(-)?] dev-python/geoalchemy2[python_targets_python3_10(-)?] dev-python/geojson[python_targets_python3_10(-)?] dev-python/jinja2[python_targets_python3_10(-)?] dev-python/lingua[python_targets_python3_10(-)?] psycopg2? ( dev-python/psycopg2[python_targets_python3_10(-)?] ) psycopg2-binary? ( dev-python/psycopg2-binary[python_targets_python3_10(-)?] ) dev-python/pyproj[python_targets_python3_10(-)?] dev-python/pyramid[python_targets_python3_10(-)?] dev-python/pyramid-beaker[python_targets_python3_10(-)?] dev-python/pyramid-chameleon[python_targets_python3_10(-)?] dev-python/pyramid-jinja2[python_targets_python3_10(-)?] dev-python/requests[python_targets_python3_10(-)?] dev-python/shapely[python_targets_python3_10(-)?] dev-python/sqlalchemy[python_targets_python3_10(-)?] dev-python/zope-sqlalchemy[python_targets_python3_10(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-python/gpep517-15[python_targets_python3_10(-)?]
+DEFINED_PHASES=compile configure install prepare test unpack
+DESCRIPTION=c2cgeoform
+EAPI=8
+HOMEPAGE=https://github.com/camptocamp/c2cgeoform
+INHERIT=python-r1 gs-pypi
+IUSE=psycopg2 psycopg2-binary python_targets_python3_10
+KEYWORDS=~amd64 ~x86
+RDEPEND=dev-python/babel[python_targets_python3_10(-)?] dev-python/colanderalchemy[python_targets_python3_10(-)?] dev-python/deform[python_targets_python3_10(-)?] dev-python/geoalchemy2[python_targets_python3_10(-)?] dev-python/geojson[python_targets_python3_10(-)?] dev-python/jinja2[python_targets_python3_10(-)?] dev-python/lingua[python_targets_python3_10(-)?] psycopg2? ( dev-python/psycopg2[python_targets_python3_10(-)?] ) psycopg2-binary? ( dev-python/psycopg2-binary[python_targets_python3_10(-)?] ) dev-python/pyproj[python_targets_python3_10(-)?] dev-python/pyramid[python_targets_python3_10(-)?] dev-python/pyramid-beaker[python_targets_python3_10(-)?] dev-python/pyramid-chameleon[python_targets_python3_10(-)?] dev-python/pyramid-jinja2[python_targets_python3_10(-)?] dev-python/requests[python_targets_python3_10(-)?] dev-python/shapely[python_targets_python3_10(-)?] dev-python/sqlalchemy[python_targets_python3_10(-)?] dev-python/zope-sqlalchemy[python_targets_python3_10(-)?] python_targets_python3_10? ( dev-lang/python:3.10 )
+REQUIRED_USE=|| ( python_targets_python3_10 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/source/c/c2cgeoform/c2cgeoform-2.2.4.tar.gz
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	042f4cc53680245bf99a84669b94155a	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	ninja-utils	c8951c1dfcc1d43e3f967f61fd0ec59c	gs-distutils-r1	0525f05c7488bc59390b270bd3d76555	g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	gs-pypi	03294e7b17bf3965e7664025c100ef4e
+_md5_=7128939b6aee6730934fc696ed9f2e06

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Classes and utilities to support Flight Test Instrumentation Ethernet networks [topver 0.16.16]"
+DESCRIPTION="Classes and utilities to support Flight Test Instrumentation Ethernet networks [topver 0.16.17]"
 
 HOMEPAGE="https://github.com/diarmuidcwc/AcraNetwork"
 LICENSE=""

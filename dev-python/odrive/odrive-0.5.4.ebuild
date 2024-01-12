@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Control utilities for the ODrive high performance motor controller [topver 0.6.7]"
+DESCRIPTION="Control utilities for the ODrive high performance motor controller [topver 0.6.8]"
 
 HOMEPAGE="https://github.com/odriverobotics/ODrive"
 LICENSE="MIT"

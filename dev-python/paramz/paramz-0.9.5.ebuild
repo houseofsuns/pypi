@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Parameterization Framework"
+DESCRIPTION="The Parameterization Framework [topver 0.9.6]"
 
 HOMEPAGE="https://github.com/sods/paramz"
 LICENSE="BSD 3-clause"

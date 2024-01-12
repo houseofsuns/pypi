@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Knowledge graph transformation"
+DESCRIPTION="Knowledge graph transformation [topver 0.57.0]"
 
 HOMEPAGE="https://cognite-neat.readthedocs-hosted.com/"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Netlink library"
+DESCRIPTION="Python Netlink library [topver 0.7.11]"
 
 HOMEPAGE="https://github.com/svinota/pyroute2"
 LICENSE="GPL-2.0-or-later OR Apache-2.0"

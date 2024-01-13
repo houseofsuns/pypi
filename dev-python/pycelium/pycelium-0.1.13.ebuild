@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Mycelium Edge Swarm Network [topver 0.1.40]"
+DESCRIPTION="Python Mycelium Edge Swarm Network [topver 0.1.42]"
 
 HOMEPAGE="https://github.com/asteriogonzalez/pycelium"
 LICENSE="BSD license"

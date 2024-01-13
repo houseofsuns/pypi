@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Material You color generation algorithms in pure python!"
+DESCRIPTION="Material You color generation algorithms in pure python! [topver 2.0.0]"
 
 HOMEPAGE=""
 LICENSE=""

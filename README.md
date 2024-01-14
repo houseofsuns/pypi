@@ -20,21 +20,29 @@ in the future if a better hosting option than GitHub is determined.
 
 Note that due to the size and nature of PyPI this repository has several
 limitations:
+* from each package only the most recent version is provided as ebuild
+  to reduce the bulk at a reasonable trade-off,
 * only the 65535 most downloaded packages are included to keep the
   repository manageable (the actual number differs somewhat due to
   fluctuation and the next point),
-* from each package only the most recent version is provided as ebuild,
 * some packages are omitted due to not providing source files or similar
   hindrances, in some cases this means that old versions are included if
   newer versions stopped providing source files,
-* even with the mitigations the size of all ebuilds combined is rather
+* even with these mitigations the size of all ebuilds combined is rather
   huge,
 * conversion from PyPI metadata to ebuild is not perfect and for example
   may contain dependencies which are actually excluded by additional
   conditions. Additionally package installation may fail due to for
   example stronger quality checks in an eclass. In these cases please
   open an issue. As said, there are lots of packages so there probably
-  are some failures still lurking.
+  are some failures still lurking,
+* additionally dependencies are generally recorded without version
+  bounds, as this overlay does only provide a single version of each
+  package so there is no choice anyway, but be warned that this may lead
+  to failures; however for packages available in the official Gentoo
+  tree version bounds of dependencies are preserved with the limitation
+  that complicated cases like e.g. '<8.7,>=6.4' are reduced to
+  automatically representable variants ('<8.7' in the example case).
 
 In two cases a comment in square brackets is added to the description of
 a package to make aberrations in the processing pipeline transparent:

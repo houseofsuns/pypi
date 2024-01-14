@@ -16,7 +16,7 @@ DESCRIPTION="Minimal client library for Argus webservice REST API"
 
 HOMEPAGE="https://github.com/SalesforceEng/argusclient"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/d2/0e/a1d008fdcd9f4d5d8b428711670d70498b080e4c47e80abb6ff34c383268/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

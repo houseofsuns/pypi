@@ -16,7 +16,7 @@ DESCRIPTION="Python API of Dynamic Animation and Robotics Toolkit."
 
 HOMEPAGE="https://github.com/dartsim/dart.git"
 LICENSE="BSD 2-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/ea/a2/dae1355acf7b9a7cb02b6d94dc151c3b80583744a17423655f5abbf26fe6/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

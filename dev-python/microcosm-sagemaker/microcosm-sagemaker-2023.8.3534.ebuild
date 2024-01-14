@@ -16,7 +16,7 @@ DESCRIPTION="Opinionated machine learning organization and configuration"
 
 HOMEPAGE="https://github.com/globality-corp/microcosm-sagemaker"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/06/5e25e424388fac2de8cbf5a5acafd67863a2d80b3abab2ada39fb9f07ac4/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

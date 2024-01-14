@@ -16,7 +16,7 @@ DESCRIPTION="A wrapper of matplotlib and wxPython (phoenix) [topver 0.92.4]"
 
 HOMEPAGE="https://github.com/komoto48g/mwxlib"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/0d/cb/c761d451d8de8d33a4ee1f0eee6d041a6e6d669766e270ba4080c5f4df30/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

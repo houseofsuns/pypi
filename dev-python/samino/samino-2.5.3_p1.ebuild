@@ -16,7 +16,7 @@ DESCRIPTION="Amino Bots with python! [topver 10.0.0]"
 
 HOMEPAGE="https://github.com/SirLez/SAmino"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/b3/83/4dbc9e639f9f39389593c2e51807aed88910889024628ebd637843db5e78/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

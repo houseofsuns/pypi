@@ -16,7 +16,7 @@ DESCRIPTION="common utilities and algorithm [topver 1.9.3]"
 
 HOMEPAGE="https://github.com/wkgreat/algokit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/e2/9f/c161c501fe3fec0087d616cafbfc89451d3310395218c7adcbc92aaa4477/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -16,7 +16,7 @@ DESCRIPTION="spiderx function [topver 1.10.77]"
 
 HOMEPAGE="https://pypi.org/project/spiderx/"
 LICENSE="https://pypi.org/project/spiderx/"
-SRC_URI="https://files.pythonhosted.org/packages/a9/7a/479b2d93590c124e9b05bcc5241707c75029bfdcf9991189effcd5b33494/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

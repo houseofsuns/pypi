@@ -16,7 +16,7 @@ DESCRIPTION=" [topver 0.2.2]"
 
 HOMEPAGE="https://github.com/wagenaartje/neuralfit"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/4b/b3/58675144d105f7f11d9d8a742f2944ee159901789f596c1992589cb0a288/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

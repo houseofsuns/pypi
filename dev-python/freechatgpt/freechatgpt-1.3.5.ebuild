@@ -16,7 +16,7 @@ DESCRIPTION="free chatgpt api, not need token"
 
 HOMEPAGE="https://github.com/abo123456789"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/1d/43/582995a95a7a1ba57afc463da46a7ac4fd2b604fbbadd84c4f45b9959e63/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

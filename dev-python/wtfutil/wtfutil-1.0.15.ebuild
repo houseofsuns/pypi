@@ -16,7 +16,7 @@ DESCRIPTION="A Python utility. [topver 1.0.30]"
 
 HOMEPAGE="https://github.com/vicrack"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/25/d7/3262044f84888dfccffc39f3b8f69f8b5da46cbd35f556318aedcfce000c/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

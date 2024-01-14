@@ -16,7 +16,7 @@ DESCRIPTION="Python中文库（PyZW）是基于Python标准库和诸多第三方
 
 HOMEPAGE="https://github.com/XueLiren/PyZW"
 LICENSE="Apache Software License 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1d/f3/d84731299a887c980c92db539e606a969e4c136c462eb5487faf6b675bbe/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

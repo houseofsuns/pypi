@@ -16,7 +16,7 @@ DESCRIPTION="Natural Language User Interface [topver 7.2.2]"
 
 HOMEPAGE="https://github.com/thevickypedia/Jarvis"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/85/f7/461b79fb565c1249f75e78b12e31b5f9e4b5e2a8386f9062bf3ee5863658/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

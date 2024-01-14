@@ -16,7 +16,7 @@ DESCRIPTION="The Home Assistant frontend [topver 20231030.1]"
 
 HOMEPAGE="https://github.com/home-assistant/frontend"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2a/87/614be3743f76a3c14a61fd640e4add7edf0a07ee0ad83576efd1ea36940c/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

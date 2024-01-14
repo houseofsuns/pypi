@@ -16,7 +16,7 @@ DESCRIPTION="Naishu Q series quantum measurement and control equipment driver in
 
 HOMEPAGE="https://g2hoyqcmh4.feishu.cn/wiki/wikcnzvyMd82DLZUe2NsI6HxsFc"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f6/61/94c382c6fd831ab2dc6947877fe274dfecb447456760288df397324cbfb0/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

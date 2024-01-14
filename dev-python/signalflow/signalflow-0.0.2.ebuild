@@ -16,7 +16,7 @@ DESCRIPTION=" [topver 0.4.4]"
 
 HOMEPAGE="https://github.com/ideoforms/signalflow"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/3f/fe/f1ffaa50eef0577634ee938ac19f5ccf6db59089c65ffcc91f8ab9a7b94c/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

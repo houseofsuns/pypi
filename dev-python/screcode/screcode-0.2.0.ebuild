@@ -16,7 +16,7 @@ DESCRIPTION="RECODE - resolution of the curse of dimensionality in single-cell d
 
 HOMEPAGE="https://github.com/yusuke-imoto-lab/RECODE"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1e/de/f1bbe76634c726048ebc7995bdc5dfeba63b508ac90a5d6bb4257453f648/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

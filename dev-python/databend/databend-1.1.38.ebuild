@@ -16,7 +16,7 @@ DESCRIPTION=" [topver 1.2.292]"
 
 HOMEPAGE="https://databend.rs"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/58/1b/54f479bb79708685b57366bda10ebd88d305ea2390716aadd77585b00cc5/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

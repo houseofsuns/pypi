@@ -16,7 +16,7 @@ DESCRIPTION="URL downloader supporting checkpointing and continuous checksumming
 
 HOMEPAGE="https://github.com/EleutherAI/best-download"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/cb/0f887b53b29dfff0530b95dc614b3fd3ee9af0a6b932384a999f93d81f4f/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

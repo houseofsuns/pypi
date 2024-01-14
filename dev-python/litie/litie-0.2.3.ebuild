@@ -16,7 +16,7 @@ DESCRIPTION="Pytorch-lightning Code Blocks for Information Extraction [topver 1.
 
 HOMEPAGE="https://github.com/xusenlinzy/lit-ie"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/bc/c4/a43bcaee018661b07241e1030c0943ec8c445a1553ddfe98283a7badddfa/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

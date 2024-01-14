@@ -16,7 +16,7 @@ DESCRIPTION="Helpers for Confluent's Kafka Python client"
 
 HOMEPAGE="https://github.com/fyndiq/confluent_kafka_helpers"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/05/a7/8a66713725ee306fe730c89853e0555836494a4a1af0481ac50a8460c97f/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

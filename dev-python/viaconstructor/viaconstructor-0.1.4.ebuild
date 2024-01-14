@@ -16,7 +16,7 @@ DESCRIPTION="python based cam-tool to convert dxf into gcode"
 
 HOMEPAGE="http://pypi.python.org/pypi/viaconstructor/"
 LICENSE="LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/ac/dc/df3b84e8846d6c7c46d93f6c38b74af2c5074f53f40bf30530a0e4ace2fa/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

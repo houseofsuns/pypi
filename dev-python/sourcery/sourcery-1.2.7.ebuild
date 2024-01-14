@@ -16,7 +16,7 @@ DESCRIPTION="Tools for creating high fidelity source catalogues from radio inter
 
 HOMEPAGE="https://github.com/radio-astro/sourcery"
 LICENSE="GPL-2"
-SRC_URI="https://files.pythonhosted.org/packages/4c/b3/bab52522aa9322126ea3f4b14a078582f05907c3c8005fc105caee0c5128/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -16,7 +16,7 @@ DESCRIPTION="• Script Very Nice To Helping Programmer . [topver 0.2.4]"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/f6/dc/b3f165f6b478dc3623725d9a9c036dc3e1bcc065b36c8cce34da0291ee15/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

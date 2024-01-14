@@ -16,7 +16,7 @@ DESCRIPTION="Useful Mixins for Django Projects"
 
 HOMEPAGE="https://github.com/JordanHyatt"
 LICENSE="MIT  # Example license"
-SRC_URI="https://files.pythonhosted.org/packages/e3/ab/c90de3afee12ad55c5af523031f824936d2e73196e125222aa627324309b/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

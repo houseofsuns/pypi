@@ -16,7 +16,7 @@ DESCRIPTION="A small handler for AWS Cloudwatch"
 
 HOMEPAGE="https://github.com/labrixdigital/cloudwatch"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/50/2dac00b744f18834ea4e23cd126fa1d169acab00c86634e498fa5293bce5/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

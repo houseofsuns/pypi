@@ -16,7 +16,7 @@ DESCRIPTION="A fast library for periodic elastic and elasto-plastic rough contac
 
 HOMEPAGE="https://c4science.ch/project/view/2036/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/db/38/8287c8ef4053bc74513d59b8dcb89edbd3dc2302a2d4be895c69adca1773/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

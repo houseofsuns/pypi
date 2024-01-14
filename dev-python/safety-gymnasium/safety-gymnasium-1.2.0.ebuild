@@ -16,7 +16,7 @@ DESCRIPTION="A highly scalable and customizable safe reinforcement learning envi
 
 HOMEPAGE="https://github.com/PKU-Alignment/safety-gymnasium"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/89/86/16106d3d0e492f5031f2b4556127e06a043d8b4a6557867c24fd36780902/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

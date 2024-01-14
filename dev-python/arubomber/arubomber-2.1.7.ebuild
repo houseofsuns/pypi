@@ -16,7 +16,7 @@ DESCRIPTION="SMS Bomber Project."
 
 HOMEPAGE="https://github.com/Aru-Ofc-git/ARU-BOMBER.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/19/17/238c4f5202b19ff8b8b48f2efe702eb7146f48d93bd078ee004b0f48a425/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

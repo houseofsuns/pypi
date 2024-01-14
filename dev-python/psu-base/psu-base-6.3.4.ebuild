@@ -16,7 +16,7 @@ DESCRIPTION="Basic features used in all PSU Django apps"
 
 HOMEPAGE="https://github.com/PSU-OIT-ARC/django-psu-base"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/14/5a/cec92e8f34e537b4cd2f5ab51bff4464a81cecef6aaab0a85aebe8c36ddf/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

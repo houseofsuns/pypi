@@ -16,7 +16,7 @@ DESCRIPTION="A collection of image and statistical processing functions and clas
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/ba/f6/241018d9eef9da2f818b33bb3dee157de89ba52ed5d3444735b5c924c9af/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

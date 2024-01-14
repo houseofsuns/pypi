@@ -16,7 +16,7 @@ DESCRIPTION="VaultDB embedded database [topver 0.9.3]"
 
 HOMEPAGE="http://www.vaultdb.ai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/6e/13/f0c08dbb44ebeab17281f601e0b41fb205e1a212bfbe72954462df213797/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

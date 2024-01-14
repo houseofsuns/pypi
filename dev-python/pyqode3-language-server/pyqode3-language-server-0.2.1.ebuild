@@ -16,7 +16,7 @@ DESCRIPTION="pyqode.language_server is an extension of pyqode.core that brings s
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a9/b1/caadf3ea0da709704d3176ca700e2111670529ad9dbc9726f05b6ed94bbe/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

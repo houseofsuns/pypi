@@ -16,7 +16,7 @@ DESCRIPTION="libdeeplake [topver 0.0.96]"
 
 HOMEPAGE="https://activeloop.ai"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/93/0f/5b8181a10ce8e0117afcfe697915ff23530f4301412d80d31fa981f3ed95/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

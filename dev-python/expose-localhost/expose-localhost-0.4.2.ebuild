@@ -16,7 +16,7 @@ DESCRIPTION="Expose an app/api running on local host to public internet using AW
 
 HOMEPAGE="https://github.com/thevickypedia/expose"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/66/8c/2125a5eeed04d1794516ee00eeccf4987c15d38672295f398911bf46e8a3/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

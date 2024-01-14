@@ -16,7 +16,7 @@ DESCRIPTION="wangticket for y [topver 1.7]"
 
 HOMEPAGE="https://gitlab.com/wangticket/yes24-ticket"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2f/26/1728a60bb6de960257d08646baa13bfb766544a893c3a99b9d5671f84d8c/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

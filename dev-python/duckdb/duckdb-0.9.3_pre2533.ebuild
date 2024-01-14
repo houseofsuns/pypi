@@ -16,7 +16,7 @@ DESCRIPTION="DuckDB embedded database"
 
 HOMEPAGE="https://www.duckdb.org"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/08/fa/58a198aea93fbb798a1834febe6070d1e42ef631b2e2a23a5da68670b13e/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

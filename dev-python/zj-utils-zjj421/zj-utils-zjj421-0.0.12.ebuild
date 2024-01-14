@@ -16,7 +16,7 @@ DESCRIPTION="A personal kit [topver 0.0.22]"
 
 HOMEPAGE="https://github.com/zjj421/zj_utils"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/dc/22907713719e3fd8afc1920590c7102c143735e850b03df9bb2499568b3a/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

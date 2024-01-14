@@ -16,7 +16,7 @@ DESCRIPTION="MLSteam Model SDK [topver 0.6.0]"
 
 HOMEPAGE="https://mlsteam-model-sdk-doc.readthedocs.io/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/21/66/a9f0966c5f9ef4b2817936f59c32062451062ed8451ca6e206d9d4d8821f/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

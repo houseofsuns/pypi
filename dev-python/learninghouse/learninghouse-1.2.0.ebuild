@@ -16,7 +16,7 @@ DESCRIPTION="learningHouse - Teach your smart home everything"
 
 HOMEPAGE="https://github.com/LearningHouseService/learninghouse-core"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/7c/a1/456d7f32f849c01499043bfe62a4d16507dd4976d4c12b1d9b8bb68e1d8a/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

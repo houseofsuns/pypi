@@ -16,7 +16,7 @@ DESCRIPTION="Utility library to support Datup AI MLOps processes"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/8d/a2/82a95c7d23b089ce4d2faace8885e723387365a49f47a745778b75bf83d5/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

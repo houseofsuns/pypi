@@ -16,7 +16,7 @@ DESCRIPTION="A compiler framework that automates translation from source code to
 
 HOMEPAGE="https://siliconcompiler.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/20/40/ac2924bdbc7ae843043a1b27cb5b8da6a4a828049433da762e5c7d2e132b/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

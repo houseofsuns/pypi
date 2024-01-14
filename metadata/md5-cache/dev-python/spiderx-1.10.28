@@ -11,6 +11,6 @@ RDEPEND=>=dev-python/requests-2.25.0[python_targets_python3_10(-)?,python_target
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
 RESTRICT=test
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/a9/7a/479b2d93590c124e9b05bcc5241707c75029bfdcf9991189effcd5b33494/spiderx-1.10.28.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/source/s/spiderx/spiderx-1.10.28.tar.gz
 _eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	042f4cc53680245bf99a84669b94155a	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	gs-distutils-r1	0525f05c7488bc59390b270bd3d76555	g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	gs-pypi	03294e7b17bf3965e7664025c100ef4e
-_md5_=1c520b86167a33bfab0d0964d73daef3
+_md5_=a8d47a8ed61708c7f8a9e109fbf22ae6

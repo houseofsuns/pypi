@@ -16,7 +16,7 @@ DESCRIPTION="pyqode.python is an extension of pyqode.core that brings support"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/9c/58/7ec4678d8d98b1df9f9fc2d9c66b91da6bfc166662ab8e60b0bf9e6a7378/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

@@ -16,7 +16,7 @@ DESCRIPTION="envtext for Chinese texts analysis in Environment domain [topver 0.
 
 HOMEPAGE="https://github.com/celtics1863/envtext"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/34/ba/52ca2691a4e41eee54ee6f969358becf5670b011bea00421a51c72cd6c49/${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
 SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
